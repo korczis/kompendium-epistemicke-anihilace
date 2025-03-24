@@ -1,6 +1,7 @@
 # STRUKTURA KOMPENDIA
 
 ## EPISTEMICKÁ A KOGNITIVNÍ ANIHILACE: KOMPLETNÍ TAXONOMIE
+
 ### Kompendium pro specializovanou psychiatrickou komunitu
 
 ---

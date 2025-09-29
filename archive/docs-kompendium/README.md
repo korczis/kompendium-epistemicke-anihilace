@@ -1,5 +1,13 @@
 # Kompendium epistemické a kognitivní anihilace
 
+
+## 📑 Navigation
+
+- **[← Back to Documentation](../README.md)** - Parent documentation
+- **[← Docs Home](../../docs/README.md)** - Documentation root
+- **[← Project Root](../../README.md)** - Project documentation
+- **[Architecture Guide](../../CLAUDE.md)** - System architecture
+
 **První ucelený taxonomický systém pro specializovanou psychiatrickou komunitu**
 
 **Autor:** Tomas Korcak  

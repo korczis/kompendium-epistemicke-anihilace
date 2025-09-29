@@ -1,6 +1,14 @@
 # Teoretické a metakonceptuální reflexe
 
-Filozofické implikace a interdisciplinární perspektivy na fenomén epistemické anihilace, včetně metakonceptuální analýzy taxonomie a jejích teoretických základů.
+F
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
+ilozofické implikace a interdisciplinární perspektivy na fenomén epistemické anihilace, včetně metakonceptuální analýzy taxonomie a jejích teoretických základů.
 
 ## Obsah sekce
 

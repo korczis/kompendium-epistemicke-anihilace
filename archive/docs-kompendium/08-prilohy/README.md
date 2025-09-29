@@ -1,5 +1,13 @@
 # Přílohy
 
+
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
 Doplňkové materiály poskytující praktické nástroje, referenční data a podpůrné zdroje pro efektivní práci s taxonomií epistemické a kognitivní anihilace.
 
 ## Obsah příloh

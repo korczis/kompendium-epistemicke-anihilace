@@ -1,5 +1,13 @@
 # Předmluva
 
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
+
 Úvodní sekce kompendia, která poskytuje nezbytný kontext pro pochopení účelu, rozsahu a etických aspektů taxonomie epistemické a kognitivní anihilace.
 
 ## Obsah předmluvy

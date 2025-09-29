@@ -1,5 +1,13 @@
 # Terminální protokoly
 
+
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
 Komplexní sekvence vedoucí k systematické epistemické destrukci. Tato sekce obsahuje pokročilé techniky s vysokým rizikem, které vyžadují maximální opatrnost a etickou supervizi.
 
 ## Obsah sekce

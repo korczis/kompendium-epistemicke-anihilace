@@ -1,6 +1,14 @@
 # Ultramární techniky fundamentální dekonstrukce
 
-Nejpokročilejší a potenciálně nejdestruktivnější formy epistemické anihilace. Tato sekce obsahuje kompletní taxonomii 150 technik rozdělených do specializovaných kategorií podle stupně komplexity a destruktivního potenciálu.
+Ne
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
+jpokročilejší a potenciálně nejdestruktivnější formy epistemické anihilace. Tato sekce obsahuje kompletní taxonomii 150 technik rozdělených do specializovaných kategorií podle stupně komplexity a destruktivního potenciálu.
 
 ## Obsah sekce
 

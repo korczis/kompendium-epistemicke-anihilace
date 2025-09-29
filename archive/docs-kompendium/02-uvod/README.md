@@ -1,5 +1,13 @@
 # Úvod do epistemické anihilace
 
+
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
 Teoretická sekce poskytující fundamentální konceptuální základ pro pochopení fenoménu epistemické a kognitivní anihilace, včetně definic, historického kontextu a metodologických východisek.
 
 ## Obsah úvodu

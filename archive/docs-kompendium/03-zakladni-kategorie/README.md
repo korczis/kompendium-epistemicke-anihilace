@@ -1,6 +1,14 @@
 # Základní kategorie epistemických manipulací
 
-Fundamentální taxonomické jednotky a základní mechanismy epistemické manipulace, které tvoří elementární stavební bloky pro porozumění komplexnějším anihilačním fenoménům.
+Fu
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
+ndamentální taxonomické jednotky a základní mechanismy epistemické manipulace, které tvoří elementární stavební bloky pro porozumění komplexnějším anihilačním fenoménům.
 
 ## Obsah sekce
 

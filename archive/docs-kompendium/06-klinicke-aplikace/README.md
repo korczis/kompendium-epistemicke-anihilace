@@ -1,5 +1,13 @@
 # Klinické aplikace a diagnostika
 
+## 📑 Navigation
+
+- **[← Back to Documentation](../../README.md)** - Parent documentation
+- **[← Docs Home](../../../docs/README.md)** - Documentation root
+- **[← Project Root](../../../README.md)** - Project documentation
+- **[Architecture Guide](../../../CLAUDE.md)** - System architecture
+
+
 Praktické využití taxonomie epistemické anihilace v klinické praxi, včetně diagnostických nástrojů, terapeutických přístupů a preventivních strategií.
 
 ## Obsah sekce

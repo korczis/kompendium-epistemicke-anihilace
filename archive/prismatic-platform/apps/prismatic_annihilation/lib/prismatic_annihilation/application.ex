@@ -107,18 +107,25 @@ defmodule PrismaticAnnihilation.Application do
 
     pool_size = Application.get_env(:prismatic_annihilation, :engine_pool_size, 3)
 
-    for engine <- engines, _n <- 1..pool_size do
-      case DynamicSupervisor.start_child(
-             PrismaticAnnihilation.DetectionCoordinator,
-             {engine, []}
-           ) do
-        {:ok, _pid} ->
-          :ok
+    # Only start engines that exist (modules may not be implemented yet)
+    available_engines = Enum.filter(engines, &Code.ensure_loaded?/1)
 
-        {:error, reason} ->
-          Logger.warning(
-            "[PrismaticAnnihilation] Failed to start #{inspect(engine)}: #{inspect(reason)}"
-          )
+    if Enum.empty?(available_engines) do
+      Logger.info("[PrismaticAnnihilation] No detection engines available yet - using taxonomy-based detection")
+    else
+      for engine <- available_engines, _n <- 1..pool_size do
+        case DynamicSupervisor.start_child(
+               PrismaticAnnihilation.DetectionCoordinator,
+               {engine, []}
+             ) do
+          {:ok, _pid} ->
+            :ok
+
+          {:error, reason} ->
+            Logger.warning(
+              "[PrismaticAnnihilation] Failed to start #{inspect(engine)}: #{inspect(reason)}"
+            )
+        end
       end
     end
   end

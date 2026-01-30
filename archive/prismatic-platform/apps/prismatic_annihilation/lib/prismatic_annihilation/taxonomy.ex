@@ -247,6 +247,37 @@ defmodule PrismaticAnnihilation.Taxonomy do
   end
 
   # ===========================================================================
+  # Private: TaxonomyServer Integration
+  # ===========================================================================
+
+  @spec load_from_taxonomy_server() :: [technique()]
+  defp load_from_taxonomy_server do
+    case GenServer.whereis(PrismaticAnnihilation.Compendium.TaxonomyServer) do
+      nil ->
+        []
+
+      pid when is_pid(pid) ->
+        try do
+          GenServer.call(pid, :all_techniques, 5_000)
+        catch
+          :exit, _ -> []
+        end
+    end
+  end
+
+  @spec merge_techniques([technique()], [technique()]) :: [technique()]
+  defp merge_techniques(hardcoded, json_techniques) do
+    hardcoded_ids = MapSet.new(hardcoded, & &1.id)
+
+    new_from_json =
+      Enum.reject(json_techniques, fn t ->
+        MapSet.member?(hardcoded_ids, t.id)
+      end)
+
+    hardcoded ++ new_from_json
+  end
+
+  # ===========================================================================
   # Private: Taxonomy Builder
   # ===========================================================================
 
@@ -1255,4 +1286,5 @@ defmodule PrismaticAnnihilation.Taxonomy do
     ]
   end
 
+  # ---------------------------------------------------------------------------
 end

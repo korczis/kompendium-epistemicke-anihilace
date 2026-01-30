@@ -251,8 +251,28 @@ defmodule PrismaticAnnihilation.Defense do
     end
   end
 
+  @known_countermeasures %{
+    "external epistemic anchoring" => :external_epistemic_anchoring,
+    "cognitive compartmentalization" => :cognitive_compartmentalization,
+    "meta epistemic firewall" => :meta_epistemic_firewall,
+    "pragmatic ontological minimalism" => :pragmatic_ontological_minimalism,
+    "phenomenological grounding" => :phenomenological_grounding,
+    "existential anchoring" => :existential_anchoring,
+    "cognitive filtering" => :cognitive_filtering,
+    "attention anchoring" => :attention_anchoring,
+    "information triage" => :information_triage,
+    "epistemic diversification" => :epistemic_diversification,
+    "cognitive stabilization" => :cognitive_stabilization,
+    "type hierarchy enforcement" => :type_hierarchy_enforcement,
+    "metalanguage separation" => :metalanguage_separation,
+    "narrative reintegration" => :narrative_reintegration,
+    "epistemic immune system restoration" => :epistemic_immune_system_restoration,
+    "cognitive boundary reinforcement" => :cognitive_boundary_reinforcement
+  }
+
   defp build_strategy_for_defense(defense_name, technique) when is_binary(defense_name) do
-    countermeasure = String.to_atom(String.replace(defense_name, " ", "_"))
+    normalized = String.downcase(defense_name)
+    countermeasure = Map.get(@known_countermeasures, normalized, :unknown_countermeasure)
     build_strategy_for_defense(countermeasure, technique)
   end
 
@@ -508,8 +528,10 @@ defmodule PrismaticAnnihilation.Defense do
     # In a real implementation, this would activate the countermeasure module
     Logger.debug("[Defense] Deploying countermeasure: #{strategy.countermeasure}")
 
-    # Simulate deployment
-    Process.sleep(strategy.deployment_time_ms)
-    :ok
+    # Use receive-based timeout instead of Process.sleep for OTP compliance
+    receive do
+    after
+      strategy.deployment_time_ms -> :ok
+    end
   end
 end

@@ -148,8 +148,10 @@ defmodule PrismaticAnnihilation.TrinityBridge do
   # ===========================================================================
 
   defp layer4_validate(content, threshold) do
-    case PrismaticAnnihilation.detect(content, threshold: threshold) do
-      {:ok, []} ->
+    {:ok, detections} = PrismaticAnnihilation.detect(content, threshold: threshold)
+
+    case detections do
+      [] ->
         {:ok,
          %{
            layer: :annihilation_detection,
@@ -158,7 +160,7 @@ defmodule PrismaticAnnihilation.TrinityBridge do
            confidence: 1.0
          }}
 
-      {:ok, detections} ->
+      detections ->
         # Check severity of detections
         max_severity = max_detection_severity(detections)
 
@@ -193,10 +195,6 @@ defmodule PrismaticAnnihilation.TrinityBridge do
                confidence: 1.0 - length(detections) * 0.1
              }}
         end
-
-      {:error, reason} ->
-        Logger.warning("[TrinityBridge] Detection failed: #{inspect(reason)}")
-        {:ok, %{layer: :annihilation_detection, status: :error, reason: reason}}
     end
   end
 

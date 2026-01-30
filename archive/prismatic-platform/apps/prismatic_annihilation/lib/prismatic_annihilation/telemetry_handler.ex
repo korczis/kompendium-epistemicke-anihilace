@@ -61,6 +61,9 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
 
   @impl true
   def init(_opts) do
+    # Detach any existing handler before re-attaching to prevent duplication errors
+    :telemetry.detach("prismatic-annihilation-handler")
+
     # Attach telemetry handlers
     :telemetry.attach_many(
       "prismatic-annihilation-handler",
@@ -134,7 +137,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
   end
 
   defp handle_event([:prismatic_annihilation, :defense, :deactivated], _measurements, metadata, _config) do
-    Logger.debug("[Telemetry] Defense deactivated: #{metadata[:ref]}")
+    Logger.debug("[Telemetry] Defense deactivated: #{inspect(metadata[:ref])}")
 
     GenServer.cast(__MODULE__, {:update_metrics, :defense_deactivated, %{
       ref: metadata[:ref]

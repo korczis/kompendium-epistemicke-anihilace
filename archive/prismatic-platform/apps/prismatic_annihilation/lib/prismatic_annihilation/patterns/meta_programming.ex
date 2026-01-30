@@ -709,7 +709,23 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
   defp safe_to_atom(value) when is_atom(value), do: value
 
   defp safe_to_atom(value) when is_binary(value) do
-    String.to_atom(value)
+    try do
+      String.to_existing_atom(value)
+    rescue
+      ArgumentError ->
+        # For unknown atoms, use a safe default mapping
+        case value do
+          "high" -> :high
+          "medium" -> :medium
+          "low" -> :low
+          "critical" -> :critical
+          "keyword" -> :keyword
+          "regex" -> :regex
+          "semantic" -> :semantic
+          "unknown" -> :unknown
+          _ -> :unknown
+        end
+    end
   end
 
   defp ensure_float(value) when is_float(value), do: value

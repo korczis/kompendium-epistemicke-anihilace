@@ -145,11 +145,11 @@ defmodule PrismaticAnnihilation.IntegrationTest do
       # First detection
       {:ok, first_result} = PrismaticAnnihilation.detect("test content")
 
-      # Cache the result
-      :ok = TechniqueCache.put({:detection, content_hash}, first_result)
+      # Cache the result using technique-based API
+      :ok = TechniqueCache.put(:detection_cache, String.to_atom(content_hash), first_result)
 
       # Retrieve from cache
-      {:ok, cached} = TechniqueCache.get({:detection, content_hash})
+      {:ok, cached} = TechniqueCache.get(:detection_cache, String.to_atom(content_hash))
       assert cached == first_result
     end
 

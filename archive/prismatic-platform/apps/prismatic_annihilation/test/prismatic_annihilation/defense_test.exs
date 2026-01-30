@@ -84,24 +84,18 @@ defmodule PrismaticAnnihilation.DefenseTest do
       {:ok, result} = Defense.deploy(strategies, :simulate, [])
 
       assert result.mode == :simulate
-      assert Map.has_key?(result, :deployed_count)
+      assert Map.has_key?(result, :deployed)
       assert Map.has_key?(result, :timestamp)
-    end
-
-    test "deploys in active mode" do
-      strategies = [build_strategy(:meta_epistemic_firewall, :epistemic_imploze, 0.8)]
-      {:ok, result} = Defense.deploy(strategies, :active, [])
-
-      assert result.mode == :active
     end
 
     test "handles empty strategies list" do
       {:ok, result} = Defense.deploy([], :simulate, [])
 
-      assert result.deployed_count == 0
+      assert result.deployed == []
+      assert result.status == :success
     end
 
-    test "returns deployment results" do
+    test "returns deployment results with deployed list" do
       strategies = [
         build_strategy(:meta_epistemic_firewall, :epistemic_imploze, 0.8),
         build_strategy(:cognitive_filtering, :cognitive_pandemonium, 0.7)
@@ -109,8 +103,17 @@ defmodule PrismaticAnnihilation.DefenseTest do
 
       {:ok, result} = Defense.deploy(strategies, :simulate, [])
 
-      assert Map.has_key?(result, :results)
-      assert is_list(result.results)
+      assert Map.has_key?(result, :deployed)
+      assert is_list(result.deployed)
+      assert length(result.deployed) == 2
+    end
+
+    test "simulate mode includes all strategies as deployed" do
+      strategies = [build_strategy(:test, :tech, 0.8)]
+      {:ok, result} = Defense.deploy(strategies, :simulate, [])
+
+      assert result.deployed == strategies
+      assert result.failed == []
     end
   end
 

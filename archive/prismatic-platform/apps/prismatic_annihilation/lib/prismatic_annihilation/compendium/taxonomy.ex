@@ -1,4 +1,4 @@
-defmodule PrismaticEvil.Compendium.Taxonomy do
+defmodule PrismaticAnnihilation.Compendium.Taxonomy do
   @moduledoc """
   GenServer for loading and serving all 150 epistemic annihilation techniques.
 
@@ -15,7 +15,7 @@ defmodule PrismaticEvil.Compendium.Taxonomy do
 
   ## Supervision
 
-  Started as part of the PrismaticEvil supervision tree.
+  Started as part of the PrismaticAnnihilation supervision tree.
   Loads data on init and supports hot-reload via `reload/0`.
 
   ## Usage

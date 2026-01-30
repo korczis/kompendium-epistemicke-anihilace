@@ -17,7 +17,11 @@ defmodule PrismaticAnnihilation.IntegrationTest do
     ensure_started(TechniqueCache)
     ensure_started(TelemetryHandler)
 
-    TechniqueCache.clear()
+    # Only clear cache if ETS table exists (created by TechniqueCache GenServer)
+    if :ets.whereis(:prismatic_annihilation_technique_cache) != :undefined do
+      TechniqueCache.clear()
+    end
+
     TelemetryHandler.reset_metrics()
 
     :ok

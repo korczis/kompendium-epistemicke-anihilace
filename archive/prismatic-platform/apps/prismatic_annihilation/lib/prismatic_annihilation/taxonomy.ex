@@ -252,17 +252,11 @@ defmodule PrismaticAnnihilation.Taxonomy do
 
   @spec load_from_taxonomy_server() :: [technique()]
   defp load_from_taxonomy_server do
-    case GenServer.whereis(PrismaticAnnihilation.Compendium.TaxonomyServer) do
-      nil ->
-        []
-
-      pid when is_pid(pid) ->
-        try do
-          GenServer.call(pid, :all_techniques, 5_000)
-        catch
-          :exit, _ -> []
-        end
-    end
+    # TaxonomyServer returns raw JSON maps with string keys,
+    # which is incompatible with the hardcoded atom-keyed technique structs.
+    # Integration with TaxonomyServer JSON data requires conversion (Phase 2).
+    # For now, use only the hardcoded taxonomy.
+    []
   end
 
   @spec merge_techniques([technique()], [technique()]) :: [technique()]

@@ -8,24 +8,14 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
   - Source Diversity
   - Temporal Integrity
   - Meta-Epistemic Awareness
+
+  Note: HealthAssessor is a pure functional module (not a GenServer).
+  It provides assess/2, quick_check/1, and vulnerability_profile/1.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.HealthAssessor
-
-  setup do
-    case GenServer.whereis(HealthAssessor) do
-      nil ->
-        {:ok, _pid} = HealthAssessor.start_link([])
-        :ok
-
-      _pid ->
-        :ok
-    end
-
-    :ok
-  end
 
   describe "assess/2" do
     test "returns comprehensive health assessment" do
@@ -56,12 +46,12 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
       assert Map.has_key?(assessment.dimensions, :meta_epistemic_awareness)
     end
 
-    test "each dimension has score and indicators" do
+    test "each dimension has score and factors" do
       {:ok, assessment} = HealthAssessor.assess(%{}, [])
 
       for {_dimension, data} <- assessment.dimensions do
         assert Map.has_key?(data, :score)
-        assert Map.has_key?(data, :indicators)
+        assert Map.has_key?(data, :factors)
         assert data.score >= 0.0 and data.score <= 1.0
       end
     end
@@ -69,54 +59,46 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
     test "status reflects overall health" do
       {:ok, assessment} = HealthAssessor.assess(%{}, [])
 
-      assert assessment.status in [:healthy, :warning, :critical, :compromised]
+      assert assessment.status in [:excellent, :good, :fair, :poor, :critical]
     end
   end
 
   describe "quick_check/1" do
-    test "returns quick health status" do
-      {:ok, result} = HealthAssessor.quick_check(%{})
+    test "returns quick health score" do
+      {:ok, score} = HealthAssessor.quick_check(%{})
 
-      assert Map.has_key?(result, :healthy)
-      assert Map.has_key?(result, :score)
-      assert is_boolean(result.healthy)
+      assert is_float(score)
+      assert score >= 0.0
+      assert score <= 1.0
     end
 
-    test "score matches quick assessment" do
-      {:ok, result} = HealthAssessor.quick_check(%{})
+    test "empty map returns a score" do
+      {:ok, score} = HealthAssessor.quick_check(%{})
 
-      # Healthy if score is above threshold (0.6)
-      if result.score >= 0.6 do
-        assert result.healthy == true
-      else
-        assert result.healthy == false
-      end
+      assert is_float(score)
     end
   end
 
-  describe "vulnerability_scan/2" do
-    test "returns list of vulnerabilities" do
-      {:ok, vulnerabilities} = HealthAssessor.vulnerability_scan(%{}, [])
+  describe "vulnerability_profile/1" do
+    test "returns vulnerability profile" do
+      {:ok, profile} = HealthAssessor.vulnerability_profile(%{})
 
-      assert is_list(vulnerabilities)
+      assert Map.has_key?(profile, :most_vulnerable_to)
+      assert Map.has_key?(profile, :vulnerability_distribution)
+      assert Map.has_key?(profile, :overall_resilience)
     end
 
-    test "vulnerabilities have required structure" do
-      {:ok, vulnerabilities} = HealthAssessor.vulnerability_scan(%{}, [])
+    test "overall_resilience is between 0 and 1" do
+      {:ok, profile} = HealthAssessor.vulnerability_profile(%{})
 
-      for vuln <- vulnerabilities do
-        assert Map.has_key?(vuln, :type)
-        assert Map.has_key?(vuln, :severity)
-        assert Map.has_key?(vuln, :description)
-      end
+      assert profile.overall_resilience >= 0.0
+      assert profile.overall_resilience <= 1.0
     end
 
-    test "severity is valid level" do
-      {:ok, vulnerabilities} = HealthAssessor.vulnerability_scan(%{}, [])
+    test "vulnerability_distribution is a map" do
+      {:ok, profile} = HealthAssessor.vulnerability_profile(%{})
 
-      for vuln <- vulnerabilities do
-        assert vuln.severity in [:low, :medium, :high, :critical]
-      end
+      assert is_map(profile.vulnerability_distribution)
     end
   end
 
@@ -126,7 +108,7 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
 
       sr = assessment.dimensions.structural_resilience
       assert is_float(sr.score)
-      assert is_list(sr.indicators)
+      assert is_map(sr.factors)
     end
 
     test "logical_coherence assessment" do
@@ -169,9 +151,9 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
       {:ok, assessment} = HealthAssessor.assess(%{}, [])
 
       for rec <- assessment.recommendations do
-        assert Map.has_key?(rec, :dimension)
         assert Map.has_key?(rec, :action)
         assert Map.has_key?(rec, :priority)
+        assert Map.has_key?(rec, :expected_impact)
       end
     end
 
@@ -181,14 +163,15 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
       priorities = Enum.map(assessment.recommendations, & &1.priority)
 
       for priority <- priorities do
-        assert priority in [:high, :medium, :low]
+        assert is_integer(priority)
+        assert priority >= 1 and priority <= 5
       end
     end
   end
 
   describe "status thresholds" do
-    test "healthy status for high scores" do
-      # Mock high-scoring knowledge base
+    test "status for high scores" do
+      # Rich knowledge base should score higher
       kb = %{
         beliefs: generate_beliefs(100),
         sources: generate_sources(10),
@@ -197,25 +180,25 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
 
       {:ok, assessment} = HealthAssessor.assess(kb, [])
 
-      if assessment.overall_score >= 0.8 do
-        assert assessment.status == :healthy
+      if assessment.overall_score >= 0.9 do
+        assert assessment.status == :excellent
       end
     end
 
-    test "warning status for medium scores" do
+    test "status for medium scores" do
       {:ok, assessment} = HealthAssessor.assess(%{}, [])
 
-      if assessment.overall_score >= 0.5 and assessment.overall_score < 0.8 do
-        assert assessment.status in [:healthy, :warning]
+      if assessment.overall_score >= 0.5 and assessment.overall_score < 0.7 do
+        assert assessment.status == :fair
       end
     end
 
-    test "critical status for low scores" do
-      # Empty knowledge base should score low
+    test "status for low scores" do
+      # Empty knowledge base should score lower
       {:ok, assessment} = HealthAssessor.assess(%{beliefs: []}, [])
 
       if assessment.overall_score < 0.3 do
-        assert assessment.status in [:critical, :compromised]
+        assert assessment.status == :critical
       end
     end
   end
@@ -235,7 +218,7 @@ defmodule PrismaticAnnihilation.HealthAssessorTest do
       {:ok, deep} = HealthAssessor.assess(%{}, depth: :deep)
 
       # Deep should have at least as many recommendations
-      assert length(deep.recommendations) >= length(surface.recommendations)
+      assert Enum.count(deep.recommendations) >= Enum.count(surface.recommendations)
     end
   end
 

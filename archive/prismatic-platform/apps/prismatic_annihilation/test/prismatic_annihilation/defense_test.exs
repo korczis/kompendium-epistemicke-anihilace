@@ -6,9 +6,23 @@ defmodule PrismaticAnnihilation.DefenseTest do
   and defensive effectiveness calculations.
   """
 
-  use ExUnit.Case, async: true
+  use ExUnit.Case, async: false
 
   alias PrismaticAnnihilation.Defense
+  alias PrismaticAnnihilation.Taxonomy
+
+  setup do
+    case GenServer.whereis(Taxonomy) do
+      nil ->
+        {:ok, _pid} = Taxonomy.start_link([])
+        :ok
+
+      _pid ->
+        :ok
+    end
+
+    :ok
+  end
 
   describe "generate_strategy/2" do
     test "returns empty list for no detections" do
@@ -44,15 +58,10 @@ defmodule PrismaticAnnihilation.DefenseTest do
 
       {:ok, strategies} = Defense.generate_strategy(detections, [])
 
-      if length(strategies) > 1 do
-        severities = Enum.map(strategies, & &1.target_severity)
-        # Terminal/critical should come before lower severities
-        terminal_idx = Enum.find_index(severities, &(&1 == :terminal))
-        low_idx = Enum.find_index(severities, &(&1 == :low))
-
-        if terminal_idx != nil and low_idx != nil do
-          assert terminal_idx < low_idx
-        end
+      if Enum.count(strategies) > 1 do
+        priorities = Enum.map(strategies, & &1.priority)
+        # Strategies should be sorted by priority (lower number = higher priority)
+        assert priorities == Enum.sort(priorities)
       end
     end
 
@@ -64,7 +73,7 @@ defmodule PrismaticAnnihilation.DefenseTest do
         assert Map.has_key?(strategy, :countermeasure)
         assert Map.has_key?(strategy, :effectiveness)
         assert Map.has_key?(strategy, :description)
-        assert Map.has_key?(strategy, :target_technique)
+        assert Map.has_key?(strategy, :technique_id)
       end
     end
 
@@ -136,7 +145,7 @@ defmodule PrismaticAnnihilation.DefenseTest do
       detection = build_detection(:epistemic_imploze, :singularity, :critical)
       {:ok, strategies} = Defense.generate_strategy([detection], [])
 
-      if length(strategies) > 0 do
+      if Enum.count(strategies) > 0 do
         countermeasures = Enum.map(strategies, & &1.countermeasure)
         # Should include singularity-specific countermeasures
         assert is_list(countermeasures)
@@ -166,7 +175,7 @@ defmodule PrismaticAnnihilation.DefenseTest do
       {:ok, low_strategies} = Defense.generate_strategy([low], [])
       {:ok, terminal_strategies} = Defense.generate_strategy([terminal], [])
 
-      if length(low_strategies) > 0 and length(terminal_strategies) > 0 do
+      if Enum.count(low_strategies) > 0 and Enum.count(terminal_strategies) > 0 do
         low_eff = Enum.map(low_strategies, & &1.effectiveness) |> Enum.max()
         terminal_eff = Enum.map(terminal_strategies, & &1.effectiveness) |> Enum.max()
 
@@ -184,10 +193,10 @@ defmodule PrismaticAnnihilation.DefenseTest do
 
       {:ok, strategies} = Defense.generate_strategy(detections, [])
 
-      if length(strategies) > 1 do
-        categories = strategies |> Enum.map(& &1.target_category) |> Enum.uniq()
-        # Should cover multiple categories
-        assert length(categories) >= 1
+      if Enum.count(strategies) > 1 do
+        technique_ids = strategies |> Enum.map(& &1.technique_id) |> Enum.uniq()
+        # Should cover multiple techniques
+        assert Enum.count(technique_ids) >= 1
       end
     end
   end

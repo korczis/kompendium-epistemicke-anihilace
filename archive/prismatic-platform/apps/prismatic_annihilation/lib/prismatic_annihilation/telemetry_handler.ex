@@ -62,13 +62,20 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
   @impl true
   def init(_opts) do
     # Detach any existing handler before re-attaching to prevent duplication errors
-    :telemetry.detach("prismatic-annihilation-handler")
+    _ = :telemetry.detach("prismatic-annihilation-handler")
 
-    # Attach telemetry handlers
+    # Capture GenServer pid for handler callbacks - telemetry handlers run in caller's context
+    genserver_pid = self()
+
+    # Attach telemetry handlers using anonymous function that captures GenServer pid
+    # Telemetry 1.3.0 requires function capture, not MFA tuple
     :telemetry.attach_many(
       "prismatic-annihilation-handler",
       @events,
-      {__MODULE__, :handle_event, []},
+      fn event, measurements, metadata, config ->
+        # Delegate to GenServer to process in correct process context
+        send(genserver_pid, {:telemetry_event, event, measurements, metadata, config})
+      end,
       nil
     )
 
@@ -98,16 +105,23 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
   end
 
   @impl true
+  def handle_info({:telemetry_event, event, measurements, metadata, config}, state) do
+    # Process telemetry event in GenServer context
+    process_event(event, measurements, metadata, config)
+    {:noreply, state}
+  end
+
+  @impl true
   def terminate(_reason, _state) do
     :telemetry.detach("prismatic-annihilation-handler")
     :ok
   end
 
   # ===========================================================================
-  # Telemetry Event Handler
+  # Telemetry Event Processing
   # ===========================================================================
 
-  def handle_event([:prismatic_annihilation, :detection, :complete], measurements, metadata, _config) do
+  defp process_event([:prismatic_annihilation, :detection, :complete], measurements, metadata, _config) do
     Logger.debug("[Telemetry] Detection complete: #{measurements.duration_ms}ms, #{measurements.detection_count} detections")
 
     GenServer.cast(__MODULE__, {:update_metrics, :detection_complete, %{
@@ -117,7 +131,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     }})
   end
 
-  def handle_event([:prismatic_annihilation, :detection, :technique_found], measurements, metadata, _config) do
+  defp process_event([:prismatic_annihilation, :detection, :technique_found], measurements, metadata, _config) do
     Logger.info("[Telemetry] Technique detected: #{metadata[:technique_id]}, confidence: #{measurements.confidence}")
 
     GenServer.cast(__MODULE__, {:update_metrics, :technique_found, %{
@@ -127,7 +141,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     }})
   end
 
-  def handle_event([:prismatic_annihilation, :defense, :deployed], measurements, metadata, _config) do
+  defp process_event([:prismatic_annihilation, :defense, :deployed], measurements, metadata, _config) do
     Logger.info("[Telemetry] Defense deployed: #{metadata[:countermeasure]}, duration: #{measurements.deployment_time_ms}ms")
 
     GenServer.cast(__MODULE__, {:update_metrics, :defense_deployed, %{
@@ -136,7 +150,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     }})
   end
 
-  def handle_event([:prismatic_annihilation, :defense, :deactivated], _measurements, metadata, _config) do
+  defp process_event([:prismatic_annihilation, :defense, :deactivated], _measurements, metadata, _config) do
     Logger.debug("[Telemetry] Defense deactivated: #{inspect(metadata[:ref])}")
 
     GenServer.cast(__MODULE__, {:update_metrics, :defense_deactivated, %{
@@ -144,7 +158,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     }})
   end
 
-  def handle_event([:prismatic_annihilation, :health, :assessed], measurements, metadata, _config) do
+  defp process_event([:prismatic_annihilation, :health, :assessed], measurements, metadata, _config) do
     Logger.debug("[Telemetry] Health assessed: score=#{measurements.score}, status=#{metadata[:status]}")
 
     GenServer.cast(__MODULE__, {:update_metrics, :health_assessed, %{
@@ -153,7 +167,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     }})
   end
 
-  def handle_event([:prismatic_annihilation, :trinity, :validated], _measurements, metadata, _config) do
+  defp process_event([:prismatic_annihilation, :trinity, :validated], _measurements, metadata, _config) do
     Logger.debug("[Telemetry] Trinity validation: #{metadata[:result]}")
 
     GenServer.cast(__MODULE__, {:update_metrics, :trinity_validated, %{
@@ -161,7 +175,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     }})
   end
 
-  def handle_event(event, measurements, metadata, _config) do
+  defp process_event(event, measurements, metadata, _config) do
     Logger.debug("[Telemetry] Unhandled event: #{inspect(event)}, #{inspect(measurements)}, #{inspect(metadata)}")
   end
 

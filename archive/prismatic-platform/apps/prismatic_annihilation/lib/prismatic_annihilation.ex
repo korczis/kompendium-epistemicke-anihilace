@@ -442,7 +442,7 @@ defmodule PrismaticAnnihilation do
 
   ## Examples
 
-      iex> callback = fn detection -> Logger.warn("Detected: \#{detection.technique_name}") end
+      iex> callback = fn detection -> Logger.warning("Detected: \#{detection.technique_name}") end
       iex> {:ok, ref} = PrismaticAnnihilation.monitor_stream(messages, callback)
   """
   @spec monitor_stream(Enumerable.t(), function(), keyword()) ::

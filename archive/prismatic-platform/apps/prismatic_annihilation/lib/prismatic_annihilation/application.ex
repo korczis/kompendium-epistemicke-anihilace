@@ -16,6 +16,7 @@ defmodule PrismaticAnnihilation.Application do
   ├── Registry (MonitorRegistry)
   ├── PrismaticAnnihilation.TechniqueCache (ETS-based cache)
   ├── PrismaticAnnihilation.CompendiumLoader (GenServer)
+  ├── PrismaticAnnihilation.Compendium.TaxonomyServer (GenServer - 178 techniques from JSON)
   ├── PrismaticAnnihilation.DetectionCoordinator (DynamicSupervisor)
   │   ├── Engines.Singularity
   │   ├── Engines.Metatranscendental
@@ -56,6 +57,9 @@ defmodule PrismaticAnnihilation.Application do
 
       # Compendium Data Loader
       PrismaticAnnihilation.CompendiumLoader,
+
+      # Taxonomy Server - 178 techniques from JSON (Compendium Pipeline)
+      PrismaticAnnihilation.Compendium.TaxonomyServer,
 
       # Detection Engine Supervisor
       {DynamicSupervisor,

@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "metafyzicka_nestabilita",
+  "cross_references": [
+    "ontologicka-anihilace",
+    "metafyzicky-nihilismus",
+    "absolutni-epistemicka-neurcitost"
+  ],
+  "defense_strategies": [
+    "Metafyzická robustifikace",
+    "konceptuální esencialismus",
+    "transcendentální ukotvení",
+    "ontologická stratifikace"
+  ],
+  "description": {
+    "cs": "Metafyzická rozpustnost představuje fenomén, při němž fundamentální metafyzické koncepty, kategorie a struktury vykazují systematickou tendenci k \"rozpouštění\" při jejich hlubší analýze, kritickém zkoumání či rigorózní aplikaci. Tento proces vede k paradoxní situaci, kdy čím intenzivněji se snažíme uchopit a artikulovat základní metafyzické pozice, tím více se tyto pozice stávají nestabilními, nejasnými a neudržitelnými. Metafyzická rozpustnost tak reprezentuje specifickou formu teoretické nestability, která není důsledkem pouhé konceptuální vágnosti či nedostatečné preciznosti, ale inherentní charakteristikou samotných metafyzických struktur.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Konceptuální nestabilita",
+    "sémantická fluktualita",
+    "metafyzická neurčitost",
+    "teoretická evanescence"
+  ],
+  "domain": "fundamentalni_metafyzicke_koncepty_a_kategorie",
+  "example": {
+    "cs": "Skupina filozofů se rozhodne vypracovat rigorózní metafyzickou teorii, která by poskytla stabilní a koherentní odpovědi na fundamentální otázky týkající se povahy reality, existence, identity a změny. Jejich projekt zpočátku vykazuje značný potenciál – podaří se jim formulovat soubor prima facie přesvědčivých metafyzických principů, které se zdají být schopné generovat konzistentní a explanačně silnou teorii. S postupem práce však filozofové narážejí na stále více subtilních problémů a komplikací. Když se pokoušejí precizovat a zpřesnit své základní pojmy, zjišťují, že tyto pojmy se stávají stále více nejasnými a ambivalentními. Čím důkladněji analyzují klíčové argumenty, tím více objevují skryté předpoklady, cirkularity a mezery v inferenčních krocích. Při aplikaci teorie na konkrétní metafyzické problémy narážejí na proliferaci speciálních případů, výjimek a anomálií, které vyžadují ad hoc modifikace původních principů.\n\nPo několika letech intenzivní práce dospívají k paradoxnímu výsledku: jejich teorie je nyní mnohem komplexnější, sofistikovanější a technicky propracovanější než na počátku, avšak zároveň je méně určitá, méně stabilní a méně přesvědčivá. Namísto jasných odpovědí generuje stále více sofistikovaných otázek a problémů, které vzdorují definitivnímu řešení. Klíčové koncepty teorie získaly takovou úroveň technické rafinovanosti a kvalifikace, že ztratily svůj intuitivní obsah a přestaly být srozumitelné i pro samotné autory. Původní metafyzická vize jasné a koherentní teorie reality se postupně rozpustila v moři technických detailů, subtilních distinkcí a nerozhodnutelných teoretických dilemat."
+  },
+  "id": "EA-157-metafyzicka-rozpustnost",
+  "metadata": {
+    "index": 157,
+    "source": "archive",
+    "anchor": "metafyzicka-rozpustnost",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Metafyzická nestabilita"
+  },
+  "name": {
+    "cs": "Metafyzická rozpustnost",
+    "en": "Metaphysical Dissolvability"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "gradualni_proces_s_akceleracnimi_fazemi_pri_prohlubovani_analyzy",
+  "typical_manifestations": [
+    "Konceptuální nestabilita",
+    "sémantická fluktualita",
+    "metafyzická neurčitost",
+    "teoretická evanescence"
+  ]
+}

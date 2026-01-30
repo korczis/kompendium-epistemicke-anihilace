@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-101-epistemicka-autodezintegrace",
+  "metadata": {
+    "index": 101,
+    "source": "index",
+    "anchor": "epistemicka-autodezintegrace",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ZÁKLADNÍ EPISTEMICKÁ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Epistemická autodezintegrace",
+    "en": "Epistemic Auto-disintegration"
+  },
+  "page_number": 23,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "basic_epistemic_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

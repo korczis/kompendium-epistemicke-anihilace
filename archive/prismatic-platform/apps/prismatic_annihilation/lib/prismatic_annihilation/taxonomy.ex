@@ -1,6 +1,6 @@
 defmodule PrismaticAnnihilation.Taxonomy do
   @moduledoc """
-  Complete Taxonomy of 150 Epistemological Attack Techniques.
+  Complete Taxonomy of 178 Epistemological Attack Techniques.
 
   Derived from the Epistemic and Cognitive Annihilation Compendium, this module
   provides structured access to all documented annihilation techniques, organized
@@ -155,9 +155,16 @@ defmodule PrismaticAnnihilation.Taxonomy do
 
   @impl true
   def init(_opts) do
-    techniques = build_taxonomy()
-    Logger.info("[Taxonomy] Loaded #{length(techniques)} annihilation techniques")
-    {:ok, %{techniques: techniques}}
+    hardcoded = build_taxonomy()
+    json_techniques = load_from_taxonomy_server()
+    merged = merge_techniques(hardcoded, json_techniques)
+
+    Logger.info(
+      "[Taxonomy] Loaded #{length(merged)} techniques " <>
+        "(#{length(hardcoded)} hardcoded, #{length(json_techniques)} from JSON)"
+    )
+
+    {:ok, %{techniques: merged}}
   end
 
   @impl true
@@ -179,7 +186,21 @@ defmodule PrismaticAnnihilation.Taxonomy do
 
   @impl true
   def handle_call({:get, technique_id}, _from, %{techniques: techniques} = state) do
-    technique = Enum.find(techniques, &(&1.id == technique_id))
+    technique =
+      cond do
+        is_atom(technique_id) ->
+          Enum.find(techniques, &(&1.id == technique_id))
+
+        is_binary(technique_id) ->
+          Enum.find(techniques, fn t ->
+            to_string(t.id) == technique_id or
+              Map.get(t, :string_id) == technique_id
+          end)
+
+        true ->
+          nil
+      end
+
     {:reply, technique, state}
   end
 
@@ -1233,4 +1254,5 @@ defmodule PrismaticAnnihilation.Taxonomy do
       }
     ]
   end
+
 end

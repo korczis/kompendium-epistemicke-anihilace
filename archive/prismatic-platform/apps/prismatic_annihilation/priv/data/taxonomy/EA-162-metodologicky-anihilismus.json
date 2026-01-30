@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "axiological_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-162-metodologicky-anihilismus",
+  "metadata": {
+    "index": 162,
+    "source": "index",
+    "anchor": "metodologicky-anihilismus",
+    "extracted_category_cs": "AXIOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "METODOLOGICKÁ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Metodologický anihilismus",
+    "en": "Methodological Annihilationism"
+  },
+  "page_number": 49,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "methodological_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

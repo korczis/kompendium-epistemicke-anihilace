@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-128-kognitivni-anti-architektonika",
+  "metadata": {
+    "index": 128,
+    "source": "index",
+    "anchor": "kognitivni-anti-architektonika",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KOGNITIVNÍ STRUKTURÁLNÍ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Kognitivní anti-architektonika",
+    "en": "Cognitive Anti-architectonics"
+  },
+  "page_number": 134,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "cognitive_structural_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

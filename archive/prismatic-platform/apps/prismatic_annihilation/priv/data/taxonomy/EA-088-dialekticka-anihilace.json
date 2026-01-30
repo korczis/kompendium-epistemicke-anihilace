@@ -1,0 +1,53 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "synteticka_destruktivni_technika",
+  "cross_references": [
+    "hyperparadox",
+    "ontologicka-hyperkontradiktornost",
+    "anti-rekuperacni-mechanismus"
+  ],
+  "defense_strategies": [
+    "Pragmatická akceptace rozporů",
+    "paradoxní myšlení"
+  ],
+  "description": {
+    "cs": "Destrukce samotné možnosti dialektického pohybu myšlení, znemožňující jakékoliv překonání kontradikcí či syntézu protikladů, uvězňující myšlení v neřešitelných antinomiích.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Uvězněné myšlení v antinomiích",
+    "neschopnost syntetického překonání rozporů"
+  ],
+  "domain": "dialekticke_myslenkove_procesy",
+  "example": {
+    "cs": "Filozofka specializující se na Hegelovu dialektiku pracuje na monografii o možnostech dialektického myšlení v současné filozofii. Během konzultací s kolegou je systematicky konfrontována s argumenty, které podkopávají samotnou možnost dialektického pohybu. Nejprve je každý pokus o dialektickou syntézu rozebrán a ukázán jako buď redukce jednoho členu na druhý, nebo jako pouhá juxtapozice protikladů bez skutečného překonání. Následně je zpochybněna samotná možnost identifikace skutečných protikladů, které by mohly vstoupit do dialektického procesu. Nakonec je dekonstruována i samotná myšlenka \"syntézy\" jako koherentní koncepce. Po měsících takových diskusí filozofka zjišťuje, že její myšlení je uvězněno v síti neřešitelných antinomií bez možnosti jakéhokoliv pohybu či překonání – každý protipól myšlenky se jeví jako stejně (ne)platný, ale jakákoliv možnost syntézy nebo překonání se zdá být fundamentálně nemožná."
+  },
+  "id": "EA-088-dialekticka-anihilace",
+  "metadata": {
+    "index": 88,
+    "source": "primary",
+    "anchor": "dialekticka-anihilace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Syntetická destruktivní technika"
+  },
+  "name": {
+    "cs": "Dialektická anihilace",
+    "en": "Dialekticka Annihilation"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Uvězněné myšlení v antinomiích",
+    "neschopnost syntetického překonání rozporů"
+  ]
+}

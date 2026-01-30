@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.8,
+  "category": "ucelova_destruktivni_technika",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Pragmatická účelovost",
+        "minimální cílová orientace"
+      ],
+      "detection_patterns": [
+        "Ztráta směřování",
+        "neschopnost stanovit cíle",
+        "axiologická dezorientace",
+        "naprosté absenci jakékoliv cílesměrnosti či intencionality"
+      ],
+      "manifestations": [
+        "Ztráta směřování",
+        "neschopnost stanovit cíle",
+        "axiologická dezorientace"
+      ],
+      "name_cs": "Dezorientace teleologická",
+      "name_en": "Disorientation Teleologicka",
+      "severity_score": 0.8,
+      "technique_id": "EA-087-dezorientace-teleologicka"
+    }
+  ],
+  "technique_count": 1
+}

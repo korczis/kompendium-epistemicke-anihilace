@@ -1,0 +1,313 @@
+{
+  "categories": {
+    "semanticka_dezintegrace": [
+      "EA-097-epistemicka-anti-definice"
+    ],
+    "epistemic_destruction": [
+      "EA-007-absolutni-epistemicka-anti-autoreferencni-paradoxalni-smycka",
+      "EA-008-absolutni-epistemicka-anti-cirkularita",
+      "EA-010-absolutni-epistemicka-anti-dostupnost",
+      "EA-012-absolutni-epistemicka-anti-historicita",
+      "EA-013-absolutni-epistemicka-anti-indexikalita",
+      "EA-014-absolutni-epistemicka-anti-integrovatelnost",
+      "EA-015-absolutni-epistemicka-anti-invariance",
+      "EA-018-absolutni-epistemicka-anti-pluralita",
+      "EA-020-absolutni-epistemicka-anti-prelozitelnost",
+      "EA-021-absolutni-epistemicka-anti-reflexivita",
+      "EA-023-absolutni-epistemicka-anti-variabilita",
+      "EA-024-absolutni-epistemicka-anti-verikondicionalita",
+      "EA-025-absolutni-epistemicka-atemporalita",
+      "EA-026-absolutni-epistemicka-bezmocnost",
+      "EA-027-absolutni-epistemicka-dezintegrace",
+      "EA-028-absolutni-epistemicka-disolucni-komora",
+      "EA-029-absolutni-epistemicka-hyperbifurkace",
+      "EA-030-absolutni-epistemicka-hyperinterference",
+      "EA-031-absolutni-epistemicka-imploze",
+      "EA-032-absolutni-epistemicka-inflace",
+      "EA-033-absolutni-epistemicka-kvantova-metastabilita",
+      "EA-034-absolutni-epistemicka-meta-indeterminita",
+      "EA-035-absolutni-epistemicka-monada",
+      "EA-036-absolutni-epistemicka-neukotvitelnost",
+      "EA-037-absolutni-epistemicka-neurcitost",
+      "EA-039-absolutni-epistemicka-rekurzivni-negace",
+      "EA-040-absolutni-epistemicka-sebenegace",
+      "EA-041-absolutni-epistemicka-singularita",
+      "EA-042-absolutni-epistemicka-solipsisticka-past",
+      "EA-043-absolutni-epistemicka-sterility",
+      "EA-044-absolutni-epistemicka-ultraparadoxni-metastabilita",
+      "EA-045-absolutni-epistemicka-ucelova-dezorientace",
+      "EA-101-epistemicka-autodezintegrace",
+      "EA-102-epistemicka-autodisoluce",
+      "EA-161-metateoreticka-destrukce",
+      "EA-176-transfinitni-epistemicka-regrese"
+    ],
+    "meta-epistemicky_fenomen": [
+      "EA-093-epistemicka-alienace"
+    ],
+    "gravitacne-kolapsova_epistemicka_struktura": [
+      "EA-115-epistemicka-cerna-dira"
+    ],
+    "strukturalni_dezorientacni_technika": [
+      "EA-078-bludisteni-kognitivni"
+    ],
+    "dissolucni_epistemicka_technika": [
+      "EA-091-disolucni-komora-epistemicka"
+    ],
+    "axiological_destruction": [
+      "EA-001-absolutni-axiologicka-neutralizace",
+      "EA-002-absolutni-axiomaticka-inverze",
+      "EA-003-absolutni-axiomaticka-transgrediencia",
+      "EA-017-absolutni-epistemicka-anti-normativita",
+      "EA-119-fundamentalni-axiologicka-anihilace",
+      "EA-154-logicka-antikoherence",
+      "EA-155-logicka-transcendence",
+      "EA-162-metodologicky-anihilismus"
+    ],
+    "pojmova_destruktivni_technika": [
+      "EA-085-destabilizace-konceptualni"
+    ],
+    "terminalni_epistemicka_katastrofa": [
+      "EA-109-epistemicka-singularita"
+    ],
+    "logicky_destruktivni_mechanismus": [
+      "EA-074-autoreferencni-paradox"
+    ],
+    "zakladova_epistemicka_destrukce": [
+      "EA-071-anti-fundacionismus-radikalni"
+    ],
+    "structural_academic": [
+      "EA-046-absolutni-epistemicka-cerna-dira",
+      "EA-106-epistemicka-kvantova-delokalizace",
+      "EA-174-terminalni-epistemicka-nekroza"
+    ],
+    "conceptual_destruction": [
+      "EA-009-absolutni-epistemicka-anti-definice",
+      "EA-011-absolutni-epistemicka-anti-emergencni-pole",
+      "EA-111-epistemicka-teratogeneze",
+      "EA-149-konceptualni-anihilace",
+      "EA-150-konceptualni-anti-materialita",
+      "EA-151-konceptualni-nuklearni-zima"
+    ],
+    "destruktivni_metakognitivni_proces": [
+      "EA-080-dekonstruktivni-hyperkaskada"
+    ],
+    "ucelova_destruktivni_technika": [
+      "EA-087-dezorientace-teleologicka"
+    ],
+    "subjektivni_disociacni_technika": [
+      "EA-083-depersonalizace-kognitivni"
+    ],
+    "patologicky_kognitivni_vzorec": [
+      "EA-066-anankasticky"
+    ],
+    "segregacni_epistemicka_technika": [
+      "EA-082-demarkace-anti-epistemicka"
+    ],
+    "teleological_destruction": [
+      "EA-058-absolutni-kognitivni-anti-teleologie",
+      "EA-178-zpochybneni-intencionality"
+    ],
+    "kognitivne-epistemicka_patologie": [
+      "EA-067-anankasticky-rezim"
+    ],
+    "kontinuitni_destruktivni_technika": [
+      "EA-089-diskontinuita-radikalni"
+    ],
+    "hodnotova_destruktivni_technika": [
+      "EA-075-axiologicka-anihilace"
+    ],
+    "reflexivni_destruktivni_technika": [
+      "EA-086-destrukce-metakognitivni"
+    ],
+    "epistemicka_manipulace": [
+      "EA-065-alethicky-rezim"
+    ],
+    "metafyzicka_nestabilita": [
+      "EA-157-metafyzicka-rozpustnost"
+    ],
+    "intersubjective_destruction": [
+      "EA-047-absolutni-intersubjektivni-anihilace",
+      "EA-056-absolutni-kognitivni-anti-rekuperace",
+      "EA-113-epistemicka-virulence",
+      "EA-144-kognitivni-hypervirulencni-infekce",
+      "EA-152-koordinovana-multipersonalni-gaslighting-strategie"
+    ],
+    "artikulacni_epistemicka_negace": [
+      "EA-073-apofatie-epistemicka"
+    ],
+    "meta-logicka_a_kognitivni_dezintegrace": [
+      "EA-126-implozivni-rekurze"
+    ],
+    "fragmentacni_epistemicka_technika": [
+      "EA-103-epistemicka-fragmentace"
+    ],
+    "terapeuticka_rekonstrukcni_strategie": [
+      "EA-167-rekonstrukce-transverzalni-kognitivni-integrace"
+    ],
+    "synteticka_destruktivni_technika": [
+      "EA-088-dialekticka-anihilace"
+    ],
+    "patologicka_dynamika_kognitivni_syntezy": [
+      "EA-168-syndrom-epistemicke-pretlakove-komory"
+    ],
+    "referencni_disociacni_technika": [
+      "EA-084-derealizace-epistemicka"
+    ],
+    "cognitive_destruction": [
+      "EA-038-absolutni-epistemicka-perverze-reflexivity",
+      "EA-048-absolutni-kognitivni-anankasticka-paralyza",
+      "EA-050-absolutni-kognitivni-anti-emergentni-implosivita",
+      "EA-054-absolutni-kognitivni-anti-orientace",
+      "EA-055-absolutni-kognitivni-anti-realizovatelnost",
+      "EA-057-absolutni-kognitivni-anti-revizibilita",
+      "EA-059-absolutni-kognitivni-anti-virtualizace",
+      "EA-060-absolutni-kognitivni-retrogeneze",
+      "EA-061-absolutni-metakognitivni-implosivita",
+      "EA-064-absolutni-superkognitivni-paralyza",
+      "EA-127-kognitivni-anti-anticipacnost",
+      "EA-128-kognitivni-anti-architektonika",
+      "EA-129-kognitivni-anti-figurace",
+      "EA-130-kognitivni-anti-granularita",
+      "EA-131-kognitivni-anti-hierarchicnost",
+      "EA-133-kognitivni-anti-metamorfoza",
+      "EA-134-kognitivni-anti-morfogeneze",
+      "EA-135-kognitivni-anti-operacionalita",
+      "EA-136-kognitivni-anti-perceptualita",
+      "EA-137-kognitivni-anti-potencialita",
+      "EA-138-kognitivni-anti-rekurzivita",
+      "EA-139-kognitivni-anti-transformabilita",
+      "EA-140-kognitivni-autokanibalizace",
+      "EA-141-kognitivni-fraktalni-dezintegrace",
+      "EA-143-kognitivni-hyperplasticka-dezintegrace",
+      "EA-145-kognitivni-implozivni-kolaps",
+      "EA-146-kognitivni-pandemonium",
+      "EA-148-kognitivni-ctyrdimenzionalni-sach",
+      "EA-159-metakognitivni-destrukce",
+      "EA-160-metakognitivni-rekurzivni-dezintegrace"
+    ],
+    "negacni_rekurzivni_epistemicka_technika": [
+      "EA-108-epistemicka-rekurzivni-negace"
+    ],
+    "kognitivni_paradoxni_stavy": [
+      "EA-142-kognitivni-hyperparadox"
+    ],
+    "fundamentalni_epistemicka_disrupce": [
+      "EA-098-epistemicka-anti-fundace"
+    ],
+    "phenomenological_destruction": [
+      "EA-022-absolutni-epistemicka-anti-transcendence",
+      "EA-051-absolutni-kognitivni-anti-fenomenalita",
+      "EA-114-epistemicka-casova-dilatace",
+      "EA-117-fenomenalni-dezintegrace",
+      "EA-118-fenomenalni-prekroceni",
+      "EA-124-hypertranscendentalni-negace",
+      "EA-172-temporalni-dezintegrace",
+      "EA-173-temporalni-kognitivni-dezintegrace"
+    ],
+    "strukturalni_epistemicka_destrukce": [
+      "EA-069-anti-architektonika"
+    ],
+    "terapeuticka_a_treninkova_technika": [
+      "EA-147-kognitivni-zony-bezpecne-syntezy"
+    ],
+    "hodnotova_dezintegrace": [
+      "EA-076-axiologicka-dekonstrukce"
+    ],
+    "epistemicka_sterilita": [
+      "EA-099-epistemicka-anti-geneze"
+    ],
+    "terminalni_epistemicka_dysfunkce": [
+      "EA-116-epistemologicka-paralyza"
+    ],
+    "linguistic_semantic_destruction": [
+      "EA-006-absolutni-epistemicka-anti-analogicnost",
+      "EA-019-absolutni-epistemicka-anti-propozicionalita",
+      "EA-120-hyper-aposiopeza",
+      "EA-122-hypersyntakticka-anihilace",
+      "EA-123-hypersemanticka-anihilace",
+      "EA-153-lingvisticka-dezintegrace",
+      "EA-156-metadiskurzivni-anihilace",
+      "EA-169-semanticka-apokalypsa",
+      "EA-170-semanticka-destabilizace",
+      "EA-171-semioinfekcni-kontaminace",
+      "EA-177-transnarativni-anihilace"
+    ],
+    "identity_destruction": [
+      "EA-004-absolutni-egologicka-dezintegrace",
+      "EA-005-absolutni-epistemicka-alienace",
+      "EA-062-absolutni-multisubjektivni-fragmentace",
+      "EA-125-identitni-dekonstrukce",
+      "EA-175-totalni-identitni-substituce"
+    ],
+    "kolapsova_epistemicka_struktura": [
+      "EA-105-epistemicka-imploze"
+    ],
+    "inflacni_epistemicka_destrukce": [
+      "EA-104-epistemicka-hyperinflace"
+    ],
+    "rekurzivni_kognitivni_porucha": [
+      "EA-079-cirkularita-destruktivni"
+    ],
+    "terminalni_degenerativni_epistemicka_porucha": [
+      "EA-107-epistemicka-nekroza"
+    ],
+    "subjektivni_destrukcni_technika": [
+      "EA-092-egologicka-dezintegrace"
+    ],
+    "dezintegracni_epistemicka_technika": [
+      "EA-100-epistemicka-atomizace"
+    ],
+    "systemicka_epistemicka_redukce": [
+      "EA-070-anti-emergencni-pole"
+    ],
+    "komplexni_metakognitivni_porucha": [
+      "EA-112-epistemicka-transverzalni-paralyza"
+    ],
+    "ontological_destruction": [
+      "EA-016-absolutni-epistemicka-anti-mereologicnost",
+      "EA-049-absolutni-kognitivni-anti-distribuce",
+      "EA-052-absolutni-kognitivni-anti-komplementarita",
+      "EA-053-absolutni-kognitivni-anti-mediace",
+      "EA-063-absolutni-ontologicka-hyperkontradiktornost",
+      "EA-132-kognitivni-anti-inherence",
+      "EA-158-metafyzicky-nihilismus",
+      "EA-163-ontologicka-anihilace",
+      "EA-164-ontologicka-anti-determinace",
+      "EA-165-ontologicka-desubjektifikace",
+      "EA-166-ontologicka-nebytnost"
+    ],
+    "strukturalni_epistemicka_patologie": [
+      "EA-096-epistemicka-anti-cirkularita"
+    ],
+    "fundamentalni_epistemicka_destrukce": [
+      "EA-068-anihilace"
+    ],
+    "negativne-zesilovaci_epistemicka_technika": [
+      "EA-094-epistemicka-amplifikace-negativni"
+    ],
+    "obnovna_blokacni_technika": [
+      "EA-072-anti-rekuperacni-mechanismus"
+    ],
+    "strukturalni_fragmentacni_technika": [
+      "EA-077-bifurkace-epistemicka"
+    ],
+    "generativni_epistemicka_dysfunkce": [
+      "EA-110-epistemicka-sterilita"
+    ],
+    "legitimizacni_destruktivni_technika": [
+      "EA-081-delegitimizace-epistemicka"
+    ],
+    "kognitivne-epistemicka_amplifikace": [
+      "EA-121-hyperbolicka-eskalace"
+    ],
+    "komunikacni_destruktivni_technika": [
+      "EA-090-diskurzivni-anihilace"
+    ],
+    "strukturni_dezintegrace": [
+      "EA-095-epistemicka-anti-architektonika"
+    ]
+  },
+  "category_count": 64,
+  "matrix_type": "category_cooccurrence",
+  "technique_count": 178
+}

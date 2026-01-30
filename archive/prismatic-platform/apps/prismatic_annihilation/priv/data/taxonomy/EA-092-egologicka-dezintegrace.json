@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "subjektivni_destrukcni_technika",
+  "cross_references": [
+    "ontologicka-desubjektifikace",
+    "depersonalizace-kognitivni",
+    "fragmentace-multisubjektivni"
+  ],
+  "defense_strategies": [
+    "Narativní reintegrace",
+    "psychosomatické kotevní techniky"
+  ],
+  "description": {
+    "cs": "Systematický rozklad struktury ego-pólu vědomí, vedoucí k naprosté nemožnosti konstituce jakéhokoliv \"já\" jako centra zkušenosti a myšlení.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Ztráta subjektivní jednoty",
+    "rozpad ego-pólu",
+    "multiplikace subjektivních pozic",
+    "naprosté nemožnosti konstituce jakéhokoliv \"já\" jako centra zkušenosti a myšlení"
+  ],
+  "domain": "struktura_subjektivity",
+  "example": {
+    "cs": "Filozofka účastnící se fenomenologického workshopu je vedena sérií cvičení, která systematicky narušují strukturu ego-pólu vědomí. Nejprve je vystavena detailní analýze demonstrující iluzorní povahu \"já\" jako unifikované entity. Následují meditační cvičení, která fragmentují vědomí do proudu diskrétních, nespojitých momentů bez centrálního integrujícího principu. Další fáze zahrnuje systematické narušování pocitu \"vlastnictví\" zkušeností a myšlenek. Workshop graduje technikou, která indukuje simultánní prožívání multiplikovaných, vzájemně nekompatibilních subjektivních pozic. Po týdnu takových cvičení filozofka zažívá stav, kdy je fundamentálně neschopna konstituovat jakékoliv \"já\" jako centrum své zkušenosti – zůstává pouze decentrované pole vědomí bez jakéhokoliv organizujícího principu, což znemožňuje jakoukoliv formu sebe-vztahu, reflexivity nebo epistemické agency."
+  },
+  "id": "EA-092-egologicka-dezintegrace",
+  "metadata": {
+    "index": 92,
+    "source": "primary",
+    "anchor": "egologicka-dezintegrace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Subjektivní destrukční technika"
+  },
+  "name": {
+    "cs": "Egologická dezintegrace",
+    "en": "Egological Disintegration"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "very_difficult",
+    "score": 0.15
+  },
+  "severity": {
+    "level": "critical",
+    "score": 0.95
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Ztráta subjektivní jednoty",
+    "rozpad ego-pólu",
+    "multiplikace subjektivních pozic"
+  ]
+}

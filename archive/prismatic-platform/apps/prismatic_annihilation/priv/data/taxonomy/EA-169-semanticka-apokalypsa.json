@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "linguistic_semantic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-169-semanticka-apokalypsa",
+  "metadata": {
+    "index": 169,
+    "source": "index",
+    "anchor": "semanticka-apokalypsa",
+    "extracted_category_cs": "LINGVISTICKÉ A SÉMANTICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "SÉMANTICKÁ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Sémantická apokalypsa",
+    "en": "Semantic Apocalypse"
+  },
+  "page_number": 105,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "semantic_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

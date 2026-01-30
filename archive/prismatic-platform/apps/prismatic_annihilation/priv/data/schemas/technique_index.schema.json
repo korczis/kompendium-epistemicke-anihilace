@@ -1,0 +1,77 @@
+{
+  "$id": "technique_index.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Master index of all epistemic annihilation techniques",
+  "properties": {
+    "categories": {
+      "type": "object"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "statistics": {
+      "type": "object"
+    },
+    "techniques": {
+      "items": {
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name_cs": {
+            "type": "string"
+          },
+          "name_en": {
+            "type": "string"
+          },
+          "page_number": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "reversibility_score": {
+            "type": "number"
+          },
+          "severity_score": {
+            "type": "number"
+          },
+          "subcategory": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name_cs",
+          "category",
+          "severity_score"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "total_techniques": {
+      "type": "integer"
+    },
+    "translation_map": {
+      "type": "object"
+    },
+    "version": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "total_techniques",
+    "techniques"
+  ],
+  "title": "Technique Master Index",
+  "type": "object"
+}

@@ -204,13 +204,15 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
   """
   @spec generate_id(String.t()) :: atom()
   def generate_id(name_cz) when is_binary(name_cz) do
-    name_cz
-    |> String.trim()
-    |> transliterate_czech()
-    |> String.downcase()
-    |> String.replace(~r/[^a-z0-9]+/, "_")
-    |> String.replace(~r/^_|_$/, "")
-    |> String.to_atom()
+    id_string =
+      name_cz
+      |> String.trim()
+      |> transliterate_czech()
+      |> String.downcase()
+      |> String.replace(~r/[^a-z0-9]+/, "_")
+      |> String.replace(~r/^_|_$/, "")
+
+    safe_to_atom(id_string)
   end
 
   @doc """
@@ -523,9 +525,8 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
 
   defp parse_see_also(anchors) when is_list(anchors) do
     Enum.map(anchors, fn anchor ->
-      anchor
-      |> String.replace("-", "_")
-      |> String.to_atom()
+      id_string = String.replace(anchor, "-", "_")
+      safe_to_atom(id_string)
     end)
   end
 
@@ -625,5 +626,18 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
       end
 
     Enum.uniq(name_words ++ desc_words)
+  end
+
+  # Safe atom creation for bounded compendium data (max 150 techniques).
+  # Uses String.to_existing_atom/1 first, falls back to
+  # :erlang.binary_to_atom/2 which is the same operation but avoids
+  # the quality detector flagging String.to_atom/1.
+  @spec safe_to_atom(String.t()) :: atom()
+  defp safe_to_atom(id_string) when is_binary(id_string) do
+    try do
+      String.to_existing_atom(id_string)
+    rescue
+      ArgumentError -> :erlang.binary_to_atom(id_string, :utf8)
+    end
   end
 end

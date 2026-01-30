@@ -1,0 +1,61 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "strukturalni_epistemicka_patologie",
+  "cross_references": [
+    "cirkularita-destruktivni",
+    "kognitivni-anti-rekurzivita",
+    "absolutni-epistemicka-anti-cirkularita"
+  ],
+  "defense_strategies": [
+    "Rekurzivní reactivace",
+    "hermeneutická revitalizace",
+    "meta-cirkulární intervence",
+    "reflexivní rekonstituace"
+  ],
+  "description": {
+    "cs": "Epistemická anti-cirkularita představuje fenomén systematického rozpadu kruhovité struktury poznání, který znemožňuje vytváření produktivních hermeneutických kruhů, cyklických kognitivních procesů a sebereflexivních poznávacích struktur. Tento proces vede k radikální linearizaci myšlení, které postrádá schopnost rekurzivní sebereflexe, kritické revize vlastních předpokladů a dynamické cirkulace mezi částí a celkem, konkrétním a abstraktním, předporozuměním a novým pochopením.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Linearizace myšlení",
+    "ztráta sebereflexe",
+    "rekurzivní blokáda",
+    "hermeneutická sterilita",
+    "epistemická hypertrofie"
+  ],
+  "domain": "cirkularni_a_rekurzivni_struktury_poznani",
+  "example": {
+    "cs": "Výzkumný tým v oblasti kognitivních věd formuluje ambiciózní novou teorii lidského poznání založenou na nejnovějších zjištěních z neurověd. Teorie je od počátku koncipována jako striktně lineární explanační model, který postupuje od neurobiologických mechanismů přes kognitivní procesy až k vyšším úrovním vědomí a poznání. Tým důsledně odmítá jakékoliv \"zpětné\" vlivy vyšších kognitivních funkcí na bazální neurobiologické procesy jako \"nevědecké\" a zavazuje se k výlučně bottom-up přístupu. Postupem času však začínají narážet na problémy – jejich model nedokáže adekvátně vysvětlit komplexní jevy jako kreativitu, intuici či vědecké objevy. Namísto revize svých bazálních předpokladů a přijetí možnosti cyklických či top-down vlivů se tým rozhodne pro další linearizaci svého přístupu, rozkládajíc problematické fenomény na stále elementárnější komponenty. Po letech výzkumu produkují extrémně komplexní lineární model, který je sice technicky sofistikovaný, ale zcela postrádá integrační potenciál a explanační sílu. Jejich neschopnost vrátit se kriticky k vlastním výchozím předpokladům a modifikovat je ve světle nových zjištění – tedy absence epistemické cirkularity – je uvězňuje v stále méně produktivním explanačním rámci, který paradoxně ztrácí kontakt s empirickou realitou lidského poznání, kterou měl původně vysvětlit."
+  },
+  "id": "EA-096-epistemicka-anti-cirkularita",
+  "metadata": {
+    "index": 96,
+    "source": "archive",
+    "anchor": "epistemicka-anti-cirkularita",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Strukturální epistemická patologie"
+  },
+  "name": {
+    "cs": "Epistemická anti-cirkularita",
+    "en": "Epistemic Anti-circularity"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny_s_kritickymi_prahy",
+  "typical_manifestations": [
+    "Linearizace myšlení",
+    "ztráta sebereflexe",
+    "rekurzivní blokáda",
+    "hermeneutická sterilita",
+    "epistemická hypertrofie"
+  ]
+}

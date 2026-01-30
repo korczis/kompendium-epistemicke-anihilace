@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.8,
+  "category": "epistemicka_sterilita",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Epistemická reanimace",
+        "konceptuální destabilizace",
+        "paradigmatická disrupce",
+        "kognitivní deteritorializace"
+      ],
+      "detection_patterns": [
+        "Poznávací sterilita",
+        "informační recyklace",
+        "inovační blokáda",
+        "epistemická entropie",
+        "generativní paralýza"
+      ],
+      "manifestations": [
+        "Poznávací sterilita",
+        "informační recyklace",
+        "inovační blokáda",
+        "epistemická entropie",
+        "generativní paralýza"
+      ],
+      "name_cs": "Epistemická anti-geneze",
+      "name_en": "Epistemic Anti-genesis",
+      "severity_score": 0.8,
+      "technique_id": "EA-099-epistemicka-anti-geneze"
+    }
+  ],
+  "technique_count": 1
+}

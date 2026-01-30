@@ -48,6 +48,7 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
 
   require Logger
 
+  alias PrismaticAnnihilation.Compendium.MarkdownExtractor
   alias PrismaticAnnihilation.Compendium.TechniqueBuilder
 
   @typedoc """
@@ -116,9 +117,10 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
   """
   @spec parse_detailed_glossary(String.t()) :: {:ok, [raw_technique()]} | {:error, term()}
   def parse_detailed_glossary(content) when is_binary(content) do
+    {:ok, entries} = MarkdownExtractor.split_into_entries(content)
+
     techniques =
-      content
-      |> split_into_entries()
+      entries
       |> Enum.map(&parse_technique_entry/1)
       |> Enum.reject(&is_nil/1)
 
@@ -239,16 +241,16 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
   """
   @spec parse_technique_entry(String.t()) :: raw_technique() | nil
   def parse_technique_entry(entry_text) when is_binary(entry_text) do
-    lines = String.split(entry_text, "\n")
+    first_line = entry_text |> String.split("\n") |> List.first() || ""
 
-    with {:ok, name_cz, anchor} <- extract_entry_header(lines),
-         {:ok, metadata} <- extract_metadata_table(entry_text),
-         {:ok, description} <- extract_description(entry_text),
-         {:ok, example} <- extract_example(entry_text),
-         {:ok, see_also} <- extract_see_also(entry_text) do
+    with {:ok, header} <- MarkdownExtractor.extract_header(first_line),
+         metadata <- extract_metadata_via_extractor(entry_text),
+         {:ok, description} <- MarkdownExtractor.extract_description(entry_text),
+         {:ok, example} <- MarkdownExtractor.extract_example(entry_text),
+         {:ok, see_also_anchors} <- MarkdownExtractor.extract_cross_reference_anchors(entry_text) do
       %{
-        name_cz: name_cz,
-        anchor: anchor,
+        name_cz: header.name,
+        anchor: header.anchor,
         category: metadata[:category],
         severity: metadata[:severity],
         domain: metadata[:domain],
@@ -258,7 +260,7 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
         defense_strategies: metadata[:defense_strategies],
         description: description,
         example: example,
-        see_also: see_also
+        see_also: see_also_anchors
       }
     else
       _ -> nil
@@ -311,6 +313,19 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
   end
 
   # ==========================================================================
+  # Private: Metadata Extraction via MarkdownExtractor
+  # ==========================================================================
+
+  # Bridge function: delegates metadata extraction to the MarkdownExtractor module
+  # and normalizes the result into a keyword-accessible map.
+  defp extract_metadata_via_extractor(entry_text) do
+    case MarkdownExtractor.extract_metadata_table(entry_text) do
+      {:ok, metadata} -> metadata
+      {:error, _} -> %{}
+    end
+  end
+
+  # ==========================================================================
   # Private: File Operations
   # ==========================================================================
 
@@ -337,185 +352,6 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
 
       binary when is_binary(binary) ->
         binary
-    end
-  end
-
-  # ==========================================================================
-  # Private: Entry Splitting
-  # ==========================================================================
-
-  defp split_into_entries(content) do
-    # Split on H3 headers (### Term Name)
-    content
-    |> String.split(~r/(?=^### )/m)
-    |> Enum.drop(1)
-    |> Enum.filter(&(String.trim(&1) != ""))
-  end
-
-  # ==========================================================================
-  # Private: Header Extraction
-  # ==========================================================================
-
-  defp extract_entry_header(lines) do
-    header_line = List.first(lines) || ""
-
-    case Regex.run(~r/^###\s+(.+?)\s*\{#(.+?)\}\s*$/, header_line) do
-      [_, name, anchor] ->
-        {:ok, String.trim(name), String.trim(anchor)}
-
-      _ ->
-        # Try without anchor
-        case Regex.run(~r/^###\s+(.+)$/, header_line) do
-          [_, name] ->
-            {:ok, String.trim(name), nil}
-
-          _ ->
-            {:error, :invalid_header}
-        end
-    end
-  end
-
-  # ==========================================================================
-  # Private: Metadata Table Extraction
-  # ==========================================================================
-
-  defp extract_metadata_table(entry_text) do
-    # Find the metadata table between | Aspekt | and the first empty line after
-    table_regex = ~r/\| Aspekt \| Charakteristika \|[\s\S]*?(?=\n\n|\z)/
-
-    case Regex.run(table_regex, entry_text) do
-      [table_text] ->
-        metadata = parse_metadata_rows(table_text)
-        {:ok, metadata}
-
-      _ ->
-        {:ok, %{}}
-    end
-  end
-
-  defp parse_metadata_rows(table_text) do
-    table_text
-    |> String.split("\n")
-    |> Enum.filter(&String.contains?(&1, "**"))
-    |> Enum.reduce(%{}, fn line, acc ->
-      case parse_metadata_row(line) do
-        {key, value} -> Map.put(acc, key, value)
-        nil -> acc
-      end
-    end)
-  end
-
-  defp parse_metadata_row(line) do
-    case Regex.run(~r/\|\s*\*\*(.+?)\*\*\s*\|\s*(.+?)\s*\|/, line) do
-      [_, key_cz, value] ->
-        key = normalize_metadata_key(key_cz)
-        {key, String.trim(value)}
-
-      _ ->
-        nil
-    end
-  end
-
-  defp normalize_metadata_key(key_cz) do
-    key_cz
-    |> String.trim()
-    |> String.downcase()
-    |> case do
-      "kategorie" -> :category
-      "úroveň závažnosti" -> :severity
-      "oblast působení" -> :domain
-      "časový průběh" -> :temporal_course
-      "reverzibilita" -> :reversibility
-      "typické projevy" -> :typical_manifestations
-      "obranné strategie" -> :defense_strategies
-      other -> String.to_atom(String.replace(other, " ", "_"))
-    end
-  end
-
-  # ==========================================================================
-  # Private: Description Extraction
-  # ==========================================================================
-
-  defp extract_description(entry_text) do
-    # Description is the paragraph after the metadata table, before #### sections
-    lines =
-      entry_text
-      |> String.split("\n")
-      |> Enum.drop_while(&(not String.starts_with?(&1, "|")))
-      |> Enum.drop_while(&String.starts_with?(&1, "|"))
-      |> Enum.take_while(&(not String.starts_with?(&1, "####")))
-      |> Enum.take_while(&(not String.starts_with?(&1, "**Viz")))
-      |> Enum.reject(&(String.trim(&1) == ""))
-      |> Enum.join("\n")
-      |> String.trim()
-
-    if lines == "" do
-      # Alternative: try to find description after header before table
-      alt_description = extract_description_before_table(entry_text)
-      {:ok, alt_description}
-    else
-      {:ok, lines}
-    end
-  end
-
-  defp extract_description_before_table(entry_text) do
-    entry_text
-    |> String.split("\n")
-    |> Enum.drop(1)
-    |> Enum.take_while(&(not String.starts_with?(&1, "|")))
-    |> Enum.reject(&(String.trim(&1) == ""))
-    |> Enum.join("\n")
-    |> String.trim()
-  end
-
-  # ==========================================================================
-  # Private: Example Extraction
-  # ==========================================================================
-
-  defp extract_example(entry_text) do
-    # Example is in #### Příklad section
-    case Regex.run(~r/####\s*Příklad\s*\n+([\s\S]*?)(?=\n\*\*Viz|\n###|\z)/i, entry_text) do
-      [_, example_text] ->
-        example =
-          example_text
-          |> String.trim()
-          |> String.replace(~r/^\*/, "")
-          |> String.replace(~r/\*$/, "")
-          |> String.trim()
-
-        {:ok, example}
-
-      _ ->
-        {:ok, nil}
-    end
-  end
-
-  # ==========================================================================
-  # Private: See Also Extraction
-  # ==========================================================================
-
-  defp extract_see_also(entry_text) do
-    # See also section starts with **Viz také:**
-    case Regex.run(~r/\*\*Viz také:\*\*\s*([\s\S]*?)(?=\n###|\z)/i, entry_text) do
-      [_, see_also_text] ->
-        references =
-          see_also_text
-          |> String.split("\n")
-          |> Enum.filter(&String.contains?(&1, "["))
-          |> Enum.map(&extract_reference_anchor/1)
-          |> Enum.reject(&is_nil/1)
-
-        {:ok, references}
-
-      _ ->
-        {:ok, []}
-    end
-  end
-
-  defp extract_reference_anchor(line) do
-    case Regex.run(~r/\[(.+?)\]\(#(.+?)\)/, line) do
-      [_, _name, anchor] -> anchor
-      _ -> nil
     end
   end
 

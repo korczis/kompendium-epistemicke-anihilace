@@ -458,5 +458,251 @@ defmodule PrismaticAnnihilation.Compendium.ValidationTest do
       assert sanitized.detection_patterns == []
       assert sanitized.keywords == []
     end
+
+    test "sanitizes all string fields with trailing/leading whitespace" do
+      technique = %{
+        @valid_technique
+        | name_cz: "  Trimmed CZ  ",
+          temporal_course: "  Postupny  ",
+          example: "  Example  ",
+          detailed_principle: "  Principle  "
+      }
+
+      assert {:ok, sanitized} = Validation.validate_technique(technique)
+      assert sanitized.name_cz == "Trimmed CZ"
+      assert sanitized.temporal_course == "Postupny"
+      assert sanitized.example == "Example"
+      assert sanitized.detailed_principle == "Principle"
+    end
+
+    test "deduplicates all list fields" do
+      technique = %{
+        @valid_technique
+        | typical_manifestations: ["a", "b", "a"],
+          defense_strategies: ["x", "x", "y"],
+          see_also: [:ref_a, :ref_a, :ref_b],
+          detection_patterns: ["p1", "p1"],
+          keywords: ["k1", "k2", "k1"]
+      }
+
+      assert {:ok, sanitized} = Validation.validate_technique(technique)
+      assert sanitized.typical_manifestations == ["a", "b"]
+      assert sanitized.defense_strategies == ["x", "y"]
+      assert sanitized.see_also == [:ref_a, :ref_b]
+      assert sanitized.detection_patterns == ["p1"]
+      assert sanitized.keywords == ["k1", "k2"]
+    end
+  end
+
+  # ===========================================================================
+  # Property-Based Style: Validation Invariants
+  # ===========================================================================
+
+  describe "validation invariants" do
+    test "valid technique always passes" do
+      assert {:ok, _} = Validation.validate_technique(@valid_technique)
+    end
+
+    test "adding any single invalid field produces exactly one additional error" do
+      # Start with known-valid technique
+      {:ok, _} = Validation.validate_technique(@valid_technique)
+
+      # Invalidate severity only
+      invalid = %{@valid_technique | severity: :nonexistent}
+      {:error, errors} = Validation.validate_technique(invalid)
+      severity_errors = Enum.filter(errors, &(&1.field == :severity))
+      assert length(severity_errors) == 1
+    end
+
+    test "error reports always contain field, reason, and value keys" do
+      {:error, errors} = Validation.validate_technique(%{id: "not_atom", severity: :bad})
+
+      for error <- errors do
+        assert Map.has_key?(error, :field), "Error missing :field key"
+        assert Map.has_key?(error, :reason), "Error missing :reason key"
+        assert Map.has_key?(error, :value), "Error missing :value key"
+      end
+    end
+
+    test "empty map produces errors for all required fields" do
+      {:error, errors} = Validation.validate_technique(%{})
+
+      required = Validation.required_fields()
+      error_fields = MapSet.new(Enum.map(errors, & &1.field))
+
+      for field <- required do
+        assert MapSet.member?(error_fields, field),
+               "Required field #{field} not reported as error"
+      end
+    end
+
+    test "validate_all processes every technique in the list" do
+      techniques = [
+        @valid_technique,
+        %{@valid_technique | id: :second},
+        %{@valid_technique | id: :third}
+      ]
+
+      {:ok, result} = Validation.validate_all(techniques)
+      assert result.valid + result.invalid == length(techniques)
+    end
+
+    test "validate_all with all-invalid produces correct counts" do
+      invalid_techniques = [%{}, %{}, %{}]
+      {:ok, result} = Validation.validate_all(invalid_techniques)
+      assert result.valid == 0
+      assert result.invalid == 3
+    end
+  end
+
+  # ===========================================================================
+  # Cross-Reference Validation Edge Cases
+  # ===========================================================================
+
+  describe "cross-reference edge cases" do
+    test "symmetric references are both valid" do
+      techniques = [
+        %{@valid_technique | id: :a, see_also: [:b]},
+        %{@valid_technique | id: :b, see_also: [:a]}
+      ]
+
+      {:ok, result} = Validation.validate_references(techniques)
+      assert length(result.valid) == 2
+      assert result.broken == []
+    end
+
+    test "asymmetric reference is still valid" do
+      techniques = [
+        %{@valid_technique | id: :a, see_also: [:b]},
+        %{@valid_technique | id: :b, see_also: []}
+      ]
+
+      {:ok, result} = Validation.validate_references(techniques)
+      assert length(result.valid) == 1
+      assert result.broken == []
+    end
+
+    test "multiple broken references reported individually" do
+      techniques = [
+        %{@valid_technique | id: :a, see_also: [:x, :y, :z]}
+      ]
+
+      {:ok, result} = Validation.validate_references(techniques)
+      assert length(result.broken) == 3
+
+      broken_targets = Enum.map(result.broken, & &1.to)
+      assert :x in broken_targets
+      assert :y in broken_targets
+      assert :z in broken_targets
+    end
+
+    test "self-reference is valid (not checked by validate_references)" do
+      techniques = [
+        %{@valid_technique | id: :self_ref, see_also: [:self_ref]}
+      ]
+
+      {:ok, result} = Validation.validate_references(techniques)
+      # Self-reference resolves as the ID exists in the technique set
+      assert length(result.valid) == 1
+      assert result.broken == []
+    end
+
+    test "large reference graph is validated correctly" do
+      techniques =
+        for i <- 1..20 do
+          next_id = if i < 20, do: [String.to_atom("t#{i + 1}")], else: [String.to_atom("t1")]
+          %{@valid_technique | id: String.to_atom("t#{i}"), see_also: next_id}
+        end
+
+      {:ok, result} = Validation.validate_references(techniques)
+      assert length(result.valid) == 20
+      assert result.broken == []
+    end
+  end
+
+  # ===========================================================================
+  # Category Consistency Edge Cases
+  # ===========================================================================
+
+  describe "category consistency edge cases" do
+    test "all core chapter-category pairs are consistent" do
+      core_pairs = [
+        {6, :singularity},
+        {7, :metatranscendental},
+        {8, :hypertransformative},
+        {9, :paradoxical},
+        {10, :transconceptual},
+        {11, :diagnostic},
+        {12, :therapeutic},
+        {13, :preventive}
+      ]
+
+      techniques =
+        Enum.with_index(core_pairs, 1)
+        |> Enum.map(fn {{chapter, category}, idx} ->
+          %{@valid_technique | id: String.to_atom("core_#{idx}"), chapter: chapter, category: category}
+        end)
+
+      {:ok, result} = Validation.validate_category_consistency(techniques)
+      assert length(result.consistent) == 8
+      assert result.inconsistent == []
+    end
+
+    test "mixed consistent and inconsistent techniques" do
+      techniques = [
+        %{@valid_technique | id: :consistent, chapter: 6, category: :singularity},
+        %{@valid_technique | id: :inconsistent, chapter: 6, category: :paradoxical},
+        %{@valid_technique | id: :also_consistent, chapter: 9, category: :paradoxical}
+      ]
+
+      {:ok, result} = Validation.validate_category_consistency(techniques)
+      assert :consistent in result.consistent
+      assert :also_consistent in result.consistent
+      assert length(result.inconsistent) == 1
+
+      [inc] = result.inconsistent
+      assert inc.id == :inconsistent
+      assert inc.expected_category == :singularity
+      assert inc.actual_category == :paradoxical
+    end
+  end
+
+  # ===========================================================================
+  # Performance Tests
+  # ===========================================================================
+
+  describe "validation performance" do
+    test "validating 200 techniques completes in under 100ms" do
+      techniques =
+        for i <- 1..200 do
+          %{@valid_technique | id: String.to_atom("perf_test_#{i}")}
+        end
+
+      start = System.monotonic_time(:millisecond)
+      {:ok, result} = Validation.validate_all(techniques)
+      elapsed = System.monotonic_time(:millisecond) - start
+
+      assert result.valid == 200
+      assert elapsed < 100, "Validating 200 techniques took #{elapsed}ms"
+    end
+
+    test "reference validation of 100 techniques with 5 refs each completes in under 100ms" do
+      techniques =
+        for i <- 1..100 do
+          refs =
+            for j <- 1..5 do
+              ref_idx = rem(i + j, 100) + 1
+              String.to_atom("ref_perf_#{ref_idx}")
+            end
+
+          %{@valid_technique | id: String.to_atom("ref_perf_#{i}"), see_also: refs}
+        end
+
+      start = System.monotonic_time(:millisecond)
+      {:ok, _result} = Validation.validate_references(techniques)
+      elapsed = System.monotonic_time(:millisecond) - start
+
+      assert elapsed < 100, "Reference validation of 100 techniques took #{elapsed}ms"
+    end
   end
 end

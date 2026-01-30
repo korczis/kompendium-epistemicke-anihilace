@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "conceptual_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-011-absolutni-epistemicka-anti-emergencni-pole",
+  "metadata": {
+    "index": 11,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-anti-emergencni-pole",
+    "extracted_category_cs": "KONCEPTUÁLNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KONCEPTUÁLNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická anti-emergenční pole",
+    "en": "Absolute Epistemic Anti-emergencni Field"
+  },
+  "page_number": 92,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "conceptual_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemicka_manipulace",
+  "cross_references": [
+    "verikondicionalita-anti-epistemicka",
+    "epistemicka-hyperinflace",
+    "delegitimizace-epistemicka"
+  ],
+  "defense_strategies": [
+    "Metakognitivní reflexe",
+    "epistemický pluralismus"
+  ],
+  "description": {
+    "cs": "Systém nebo struktura pravidel určujících, co může být považováno za pravdivé, nepravdivé nebo neurčité v rámci daného epistemického pole. V kontextu epistemické anihilace je manipulace s alethickými režimy klíčovým mechanismem destrukce poznávací jistoty.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Neschopnost určit pravdivostní hodnotu",
+    "epistemická nejistota",
+    "zmatení v základních hodnotících procesech"
+  ],
+  "domain": "hodnotici_kognitivni_systemy",
+  "example": {
+    "cs": "Vedoucí výzkumného týmu systematicky mění kritéria hodnocení vědeckých dat při každém předložení výsledků. Když výzkumník předloží analýzu založenou na statistické významnosti, vedoucí trvá na tom, že pouze klinická významnost je relevantní. Jakmile výzkumník přepracuje data s důrazem na klinickou významnost, vedoucí argumentuje, že bez statistické významnosti jsou výsledky bezcenné. Tento cyklus pokračuje s dalšími kritérii jako reprodukovatelnost, velikost efektu nebo teoretická koherence, přičemž každé se stává relevantním pouze po splnění předchozího požadavku. Po šesti měsících výzkumník již není schopen určit, co znamená \"pravdivý výsledek\" a začíná pochybovat o smysluplnosti celého výzkumného procesu."
+  },
+  "id": "EA-065-alethicky-rezim",
+  "metadata": {
+    "index": 65,
+    "source": "primary",
+    "anchor": "alethicky-rezim",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Epistemická manipulace"
+  },
+  "name": {
+    "cs": "Alethický režim",
+    "en": "Alethicky Regime"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "medium_high",
+    "score": 0.7
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Neschopnost určit pravdivostní hodnotu",
+    "epistemická nejistota",
+    "zmatení v základních hodnotících procesech"
+  ]
+}

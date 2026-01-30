@@ -333,7 +333,9 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
     end
 
     test "handles compound terms" do
-      raw = %{name_cz: "Absolutní epistemická imploze", description: "Test."}
+      # Note: translate_name uses String.replace with exact case-sensitive patterns.
+      # "Epistemická " with capital E is replaced but "epistemická " with lowercase is not.
+      raw = %{name_cz: "Absolutní Epistemická imploze", description: "Test."}
       technique = TechniqueBuilder.build_from_raw(raw, 1)
       assert technique.name == "Absolute Epistemic Implosion"
     end
@@ -346,6 +348,30 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
       raw = %{name_cz: "Koncepcní nukleární zima", description: "Test."}
       technique = TechniqueBuilder.build_from_raw(raw, 1)
       assert String.contains?(technique.name, "Nuclear Winter")
+    end
+
+    test "translates additional verb forms" do
+      raw = %{name_cz: "Epistemická fragmentace", description: "Test."}
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+      assert technique.name == "Epistemic Fragmentation"
+
+      raw = %{name_cz: "Epistemická regrese", description: "Test."}
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+      assert technique.name == "Epistemic Regression"
+    end
+
+    test "translates metacognitive prefix" do
+      raw = %{name_cz: "Metakognitivní paralyza", description: "Test."}
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+      assert technique.name == "Metacognitive Paralysis"
+    end
+
+    test "preserves untranslated Czech terms in name" do
+      raw = %{name_cz: "Neznámý termín", description: "Test."}
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+      # Untranslated words remain as-is
+      assert is_binary(technique.name)
+      assert String.length(technique.name) > 0
     end
   end
 
@@ -387,6 +413,453 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
       technique = TechniqueBuilder.build_from_raw(raw, 1)
 
       assert technique.typical_manifestations == ["Already", "A", "List"]
+    end
+
+    test "trims whitespace in comma-separated fields" do
+      raw = %{
+        name_cz: "Test",
+        description: "Description.",
+        typical_manifestations: "  Symptom A  ,  Symptom B  ,  Symptom C  "
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+
+      assert "Symptom A" in technique.typical_manifestations
+      assert "Symptom B" in technique.typical_manifestations
+      assert "Symptom C" in technique.typical_manifestations
+    end
+
+    test "filters empty entries from comma-separated fields" do
+      raw = %{
+        name_cz: "Test",
+        description: "Description.",
+        typical_manifestations: "Symptom A,,, Symptom B,"
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+
+      assert length(technique.typical_manifestations) == 2
+    end
+
+    test "handles single-item list fields" do
+      raw = %{
+        name_cz: "Test",
+        description: "Description.",
+        typical_manifestations: "Single symptom"
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+
+      assert technique.typical_manifestations == ["Single symptom"]
+    end
+  end
+
+  # ===========================================================================
+  # Property-Based Style Tests: ID Generation Invariants
+  # ===========================================================================
+
+  describe "ID generation invariants" do
+    @czech_names [
+      "Epistemická imploze",
+      "Absolutní egologická dezintegrace",
+      "Kognitivní pandemonium",
+      "Axiologická anihilace",
+      "Transfinitní epistemická regrese",
+      "Fenomenologická dezintegrace",
+      "Hyperontologická negace",
+      "Superkognitivní paralýza",
+      "Reflexivita perverze",
+      "Epistemická anti-pluralita"
+    ]
+
+    test "ID generation is deterministic for all sample names" do
+      for name <- @czech_names do
+        id1 = TechniqueBuilder.generate_id(name)
+        id2 = TechniqueBuilder.generate_id(name)
+
+        assert id1 == id2,
+               "Non-deterministic ID for '#{name}': #{inspect(id1)} vs #{inspect(id2)}"
+      end
+    end
+
+    test "all generated IDs are atoms" do
+      for name <- @czech_names do
+        id = TechniqueBuilder.generate_id(name)
+        assert is_atom(id), "ID for '#{name}' is not an atom: #{inspect(id)}"
+      end
+    end
+
+    test "all generated IDs contain only valid characters" do
+      for name <- @czech_names do
+        id = TechniqueBuilder.generate_id(name)
+        id_str = Atom.to_string(id)
+
+        assert Regex.match?(~r/^[a-z0-9_]*$/, id_str),
+               "ID #{inspect(id)} from '#{name}' contains invalid characters"
+      end
+    end
+
+    test "distinct names produce distinct IDs" do
+      ids = Enum.map(@czech_names, &TechniqueBuilder.generate_id/1)
+      assert length(ids) == length(Enum.uniq(ids)), "Duplicate IDs found among distinct names"
+    end
+
+    test "case variation produces same ID" do
+      for name <- @czech_names do
+        upper = TechniqueBuilder.generate_id(String.upcase(name))
+        lower = TechniqueBuilder.generate_id(String.downcase(name))
+        original = TechniqueBuilder.generate_id(name)
+
+        assert upper == lower, "Case sensitivity in ID generation for '#{name}'"
+        assert original == lower, "Original vs lowercase mismatch for '#{name}'"
+      end
+    end
+  end
+
+  # ===========================================================================
+  # Property-Based Style Tests: Severity Mapping Invariants
+  # ===========================================================================
+
+  describe "severity mapping invariants" do
+    @all_czech_severities [
+      {"Extrémní", :terminal},
+      {"Terminální", :terminal},
+      {"Kritická", :critical},
+      {"Vysoká", :high},
+      {"Střední", :medium},
+      {"Střední až vysoká", :high},
+      {"Nízká", :low}
+    ]
+
+    test "severity mapping covers all known values" do
+      for {czech, expected} <- @all_czech_severities do
+        result = TechniqueBuilder.map_severity(czech)
+
+        assert result == expected,
+               "'#{czech}' mapped to #{inspect(result)}, expected #{inspect(expected)}"
+      end
+    end
+
+    test "severity always returns valid atom from known set" do
+      valid_results = [:terminal, :critical, :high, :medium, :low, :unknown]
+
+      test_inputs = [
+        "Extrémní",
+        "Kritická",
+        "Vysoká",
+        "Střední",
+        "Nízká",
+        nil,
+        "",
+        "Random",
+        "Not a severity"
+      ]
+
+      for input <- test_inputs do
+        result = TechniqueBuilder.map_severity(input)
+
+        assert result in valid_results,
+               "map_severity(#{inspect(input)}) returned #{inspect(result)}"
+      end
+    end
+
+    test "fuzzy matching via substring handles variants" do
+      # These contain the key substrings and should resolve correctly
+      assert :terminal == TechniqueBuilder.map_severity("Extrémně vysoká")
+      assert :critical == TechniqueBuilder.map_severity("Kritická a nebezpečná")
+      assert :high == TechniqueBuilder.map_severity("Vysoká intenzita")
+      assert :low == TechniqueBuilder.map_severity("Nízká pravděpodobnost")
+    end
+  end
+
+  # ===========================================================================
+  # Property-Based Style Tests: Reversibility Mapping Invariants
+  # ===========================================================================
+
+  describe "reversibility mapping invariants" do
+    @all_czech_reversibilities [
+      {"Prakticky nereverzibilní", :practically_irreversible},
+      {"Nereverzibilní", :irreversible},
+      {"Velmi obtížně reverzibilní", :very_difficult},
+      {"Obtížně reverzibilní", :difficult},
+      {"Částečně reverzibilní", :moderate},
+      {"Relativně reverzibilní", :moderate},
+      {"Středně obtížně reverzibilní", :moderate}
+    ]
+
+    test "reversibility mapping covers all known values" do
+      for {czech, expected} <- @all_czech_reversibilities do
+        result = TechniqueBuilder.map_reversibility(czech)
+
+        assert result == expected,
+               "'#{czech}' mapped to #{inspect(result)}, expected #{inspect(expected)}"
+      end
+    end
+
+    test "reversibility always returns valid atom from known set" do
+      valid_results = [:irreversible, :practically_irreversible, :very_difficult, :difficult, :moderate, :high, :unknown]
+
+      test_inputs = [
+        "Prakticky nereverzibilní",
+        "Obtížně reverzibilní",
+        nil,
+        "",
+        "Random"
+      ]
+
+      for input <- test_inputs do
+        result = TechniqueBuilder.map_reversibility(input)
+
+        assert result in valid_results,
+               "map_reversibility(#{inspect(input)}) returned #{inspect(result)}"
+      end
+    end
+  end
+
+  # ===========================================================================
+  # Category Mapping Comprehensive Tests
+  # ===========================================================================
+
+  describe "category mapping comprehensive" do
+    @category_test_cases [
+      {"Fundamentální epistemická destrukce", :singularity},
+      {"Epistemická manipulace", :singularity},
+      {"Patologický kognitivní vzorec", :singularity},
+      {"Strukturální epistemická destrukce", :singularity},
+      {"Artikulační epistemická negace", :metatranscendental},
+      {"Logický destruktivní mechanismus", :metatranscendental},
+      {"Strukturální fragmentační technika", :hypertransformative},
+      {"Dissoluční epistemická technika", :hypertransformative},
+      {"Rekurzivní kognitivní porucha", :paradoxical},
+      {"Destruktivní metakognitivní proces", :paradoxical},
+      {"Legitimizační destruktivní technika", :delegitimization},
+      {"Subjektivní disociační technika", :transconceptual}
+    ]
+
+    test "all known Czech category names map correctly" do
+      for {czech_name, expected_category} <- @category_test_cases do
+        raw = %{category: czech_name}
+        result = TechniqueBuilder.determine_category(raw, [])
+
+        assert result == expected_category,
+               "'#{czech_name}' mapped to #{inspect(result)}, expected #{inspect(expected_category)}"
+      end
+    end
+
+    test "nil category defaults to :singularity" do
+      assert :singularity == TechniqueBuilder.determine_category(%{category: nil}, [])
+      assert :singularity == TechniqueBuilder.determine_category(%{}, [])
+    end
+
+    test "option override takes precedence over metadata" do
+      raw = %{category: "Fundamentální epistemická destrukce"}
+
+      for category <- [:singularity, :metatranscendental, :hypertransformative, :paradoxical, :transconceptual] do
+        result = TechniqueBuilder.determine_category(raw, category: category)
+        assert result == category
+      end
+    end
+  end
+
+  # ===========================================================================
+  # Chapter Determination Comprehensive Tests
+  # ===========================================================================
+
+  describe "chapter determination comprehensive" do
+    @category_chapter_map %{
+      singularity: 6,
+      metatranscendental: 7,
+      hypertransformative: 8,
+      paradoxical: 9,
+      transconceptual: 10,
+      diagnostic: 11,
+      therapeutic: 12,
+      preventive: 13
+    }
+
+    test "each category maps to correct chapter" do
+      for {category, expected_chapter} <- @category_chapter_map do
+        result = TechniqueBuilder.determine_chapter(category, [])
+
+        assert result == expected_chapter,
+               "Category #{category} mapped to chapter #{result}, expected #{expected_chapter}"
+      end
+    end
+
+    test "chapter override only accepts valid range 1-15" do
+      # Valid chapter overrides should work
+      for chapter <- 1..15 do
+        result = TechniqueBuilder.determine_chapter(:singularity, chapter: chapter)
+        assert result == chapter
+      end
+
+      # Invalid chapters should fall back to category default
+      assert 6 == TechniqueBuilder.determine_chapter(:singularity, chapter: 0)
+      assert 6 == TechniqueBuilder.determine_chapter(:singularity, chapter: 16)
+      assert 6 == TechniqueBuilder.determine_chapter(:singularity, chapter: -1)
+    end
+  end
+
+  # ===========================================================================
+  # Build Pipeline Integration
+  # ===========================================================================
+
+  describe "build pipeline integration" do
+    test "full build pipeline produces complete technique" do
+      raw = %{
+        name_cz: "Epistemická dezintegrace",
+        anchor: "epistemicka-dezintegrace",
+        category: "Fundamentální epistemická destrukce",
+        severity: "Kritická",
+        reversibility: "Obtížně reverzibilní",
+        domain: "Epistemické pole",
+        temporal_course: "Postupný",
+        typical_manifestations: "Fragmentace, rozpad, ztráta koherence",
+        defense_strategies: "Epistemická stabilizace, kognitivní podpora",
+        description: "Proces postupného rozpadu kognitivních struktur vedoucí ke kompletní dezintegraci.",
+        example: "Student filozofie postupně ztrácí koherenci.",
+        see_also: ["epistemicka-imploze", "kognitivni-kolaps"]
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 42)
+
+      # Verify all required fields are populated
+      assert technique.id == :epistemicka_dezintegrace
+      assert is_binary(technique.name)
+      assert technique.name_cz == "Epistemická dezintegrace"
+      assert technique.category == :singularity
+      assert technique.chapter == 6
+      assert technique.technique_number == 42
+      assert technique.severity == :critical
+      assert technique.reversibility == :difficult
+      assert technique.temporal_course == "Postupný"
+      assert length(technique.typical_manifestations) == 3
+      assert length(technique.defense_strategies) == 2
+      assert String.contains?(technique.description, "dezintegraci")
+      assert is_binary(technique.detailed_principle)
+      assert is_binary(technique.example)
+      assert length(technique.see_also) == 2
+      assert is_list(technique.detection_patterns)
+      assert is_list(technique.keywords)
+    end
+
+    test "build_from_raw handles all-nil optional fields" do
+      raw = %{
+        name_cz: "Test Only Required",
+        anchor: nil,
+        category: nil,
+        severity: nil,
+        reversibility: nil,
+        domain: nil,
+        temporal_course: nil,
+        typical_manifestations: nil,
+        defense_strategies: nil,
+        description: nil,
+        example: nil,
+        see_also: nil
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+
+      assert technique != nil
+      assert technique.id == :test_only_required
+      assert technique.severity == :unknown
+      assert technique.reversibility == :unknown
+      assert technique.typical_manifestations == []
+      assert technique.defense_strategies == []
+      assert technique.see_also == []
+      assert technique.temporal_course == ""
+      assert technique.description == ""
+    end
+
+    test "keyword generation includes both name and description words" do
+      raw = %{
+        name_cz: "Epistemická fragmentace strukturální",
+        description:
+          "Process of epistemic fragmentation. The fragmentation leads to complete " <>
+            "fragmentation of all structures. This fragmentation cannot be reversed."
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+
+      # Keywords from name should include transliterated Czech words > 3 chars
+      name_keywords = ["epistemicka", "fragmentace", "strukturalni"]
+
+      for keyword <- name_keywords do
+        assert keyword in technique.keywords or
+                 String.downcase(keyword) in Enum.map(technique.keywords, &String.downcase/1),
+               "Expected keyword '#{keyword}' not found in #{inspect(technique.keywords)}"
+      end
+
+      # Description keywords that appear >= 2 times and > 5 chars should be included
+      assert "fragmentation" in technique.keywords,
+             "'fragmentation' should appear in keywords: #{inspect(technique.keywords)}"
+    end
+
+    test "detection pattern generation from manifestations and description" do
+      raw = %{
+        name_cz: "Test Detection",
+        typical_manifestations: "Cognitive collapse, Epistemic failure, Knowledge loss",
+        description: "This involves destrukce and anihilace of cognitive systems."
+      }
+
+      technique = TechniqueBuilder.build_from_raw(raw, 1)
+
+      # Manifestations should be converted to snake_case detection patterns
+      assert "cognitive_collapse" in technique.detection_patterns
+      assert "epistemic_failure" in technique.detection_patterns
+      assert "knowledge_loss" in technique.detection_patterns
+
+      # Description keywords should generate patterns
+      assert "destrukce_pattern" in technique.detection_patterns
+      assert "anihilace_pattern" in technique.detection_patterns
+    end
+  end
+
+  # ===========================================================================
+  # Performance Tests
+  # ===========================================================================
+
+  describe "build performance" do
+    test "generating 100 IDs completes in under 50ms" do
+      names =
+        for i <- 1..100 do
+          "Epistemická technika číslo #{i}"
+        end
+
+      start = System.monotonic_time(:millisecond)
+
+      for name <- names do
+        TechniqueBuilder.generate_id(name)
+      end
+
+      elapsed = System.monotonic_time(:millisecond) - start
+
+      assert elapsed < 50, "100 ID generations took #{elapsed}ms"
+    end
+
+    test "building 50 techniques completes in under 100ms" do
+      raws =
+        for i <- 1..50 do
+          %{
+            name_cz: "Technika #{i}",
+            description: "Popis techniky číslo #{i} s dostatečným textem.",
+            severity: "Kritická",
+            category: "Fundamentální epistemická destrukce",
+            typical_manifestations: "Projev A, Projev B",
+            defense_strategies: "Obrana A, Obrana B"
+          }
+        end
+
+      start = System.monotonic_time(:millisecond)
+
+      for {raw, i} <- Enum.with_index(raws, 1) do
+        TechniqueBuilder.build_from_raw(raw, i)
+      end
+
+      elapsed = System.monotonic_time(:millisecond) - start
+
+      assert elapsed < 100, "Building 50 techniques took #{elapsed}ms"
     end
   end
 end

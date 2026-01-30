@@ -1,0 +1,29 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.8,
+  "category": "negacni_rekurzivni_epistemicka_technika",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Hierarchická typizace",
+        "přerušení rekurzivního cyklu"
+      ],
+      "detection_patterns": [
+        "Nekonečná negativní rekurze",
+        "nemožnost pozitivní artikulace",
+        "epistemická oscilace"
+      ],
+      "manifestations": [
+        "Nekonečná negativní rekurze",
+        "nemožnost pozitivní artikulace",
+        "epistemická oscilace"
+      ],
+      "name_cs": "Epistemická rekurzivní negace",
+      "name_en": "Epistemic Recursive Negation",
+      "severity_score": 0.8,
+      "technique_id": "EA-108-epistemicka-rekurzivni-negace"
+    }
+  ],
+  "technique_count": 1
+}

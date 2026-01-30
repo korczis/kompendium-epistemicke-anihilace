@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "axiological_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-003-absolutni-axiomaticka-transgrediencia",
+  "metadata": {
+    "index": 3,
+    "source": "index",
+    "anchor": "absolutni-axiomaticka-transgrediencia",
+    "extracted_category_cs": "AXIOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "METODOLOGICKÁ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní axiomatická transgrediencia",
+    "en": "Absolute Axiomatic Transgredience"
+  },
+  "page_number": 87,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "methodological_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

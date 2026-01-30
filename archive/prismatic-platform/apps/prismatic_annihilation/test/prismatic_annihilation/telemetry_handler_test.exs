@@ -16,8 +16,11 @@ defmodule PrismaticAnnihilation.TelemetryHandlerTest do
         {:ok, _pid} = TelemetryHandler.start_link([])
         :ok
 
-      _pid ->
-        TelemetryHandler.reset_metrics()
+      pid ->
+        # Restart the GenServer to ensure clean telemetry handler state
+        # (handler may have been detached due to previous errors)
+        GenServer.stop(pid, :normal)
+        {:ok, _pid} = TelemetryHandler.start_link([])
         :ok
     end
 

@@ -132,7 +132,7 @@ defmodule Mix.Tasks.Compendium.Extract do
         Mix.shell().info("  Duration: #{result.pipeline_duration_ms}ms")
         Mix.shell().info("  Warnings: #{length(result.extraction.warnings)}")
 
-        if length(result.extraction.warnings) > 0 do
+        if result.extraction.warnings != [] do
           Mix.shell().info("\nWarnings:")
 
           Enum.each(result.extraction.warnings, fn w ->
@@ -159,7 +159,7 @@ defmodule Mix.Tasks.Compendium.Extract do
         Mix.shell().info("  Sources: #{Enum.join(result.sources_parsed, ", ")}")
         Mix.shell().info("  Warnings: #{length(result.warnings)}")
 
-        if length(result.warnings) > 0 do
+        if result.warnings != [] do
           Mix.shell().info("\nWarnings:")
 
           Enum.each(result.warnings, fn w ->

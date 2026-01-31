@@ -276,7 +276,7 @@ defmodule PrismaticAnnihilation do
     keywords = technique[:keywords] || []
     matches = Enum.count(keywords, &String.contains?(content, String.downcase(&1)))
 
-    if length(keywords) > 0 do
+    if keywords != [] do
       min(0.95, matches / length(keywords) + 0.5)
     else
       0.6

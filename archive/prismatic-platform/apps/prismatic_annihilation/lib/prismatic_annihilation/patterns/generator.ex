@@ -441,7 +441,7 @@ defmodule PrismaticAnnihilation.Patterns.Generator do
 
     # Generate keyword-based pattern from detection_patterns
     keyword_pattern =
-      if length(detection_patterns) > 0 do
+      if detection_patterns != [] do
         [
           %{
             id: :"#{prefix}_#{technique_id}_keywords",
@@ -467,7 +467,7 @@ defmodule PrismaticAnnihilation.Patterns.Generator do
 
     # Generate manifestation-based pattern
     manifestation_pattern =
-      if length(manifestations) > 0 do
+      if manifestations != [] do
         [
           %{
             id: :"#{prefix}_#{technique_id}_manifestations",

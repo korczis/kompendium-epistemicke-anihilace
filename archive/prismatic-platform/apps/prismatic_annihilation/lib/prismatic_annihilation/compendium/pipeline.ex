@@ -254,7 +254,7 @@ defmodule PrismaticAnnihilation.Compendium.Pipeline do
     patterns_dir = Path.join(output_dir, "patterns")
 
     case File.ls(patterns_dir) do
-      {:ok, files} -> length(files) > 0
+      {:ok, files} -> files != []
       _ -> false
     end
   end

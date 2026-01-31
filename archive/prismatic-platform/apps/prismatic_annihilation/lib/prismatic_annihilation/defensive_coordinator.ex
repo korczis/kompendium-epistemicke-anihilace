@@ -158,7 +158,13 @@ defmodule PrismaticAnnihilation.DefensiveCoordinator do
       cpu_allocation: 1.0,
       memory_allocation: 1.0,
       network_capacity: 1.0,
-      available_engines: [:singularity, :metatranscendental, :hypertransformative, :paradoxical, :transconceptual]
+      available_engines: [
+        :singularity,
+        :metatranscendental,
+        :hypertransformative,
+        :paradoxical,
+        :transconceptual
+      ]
     }
   end
 end

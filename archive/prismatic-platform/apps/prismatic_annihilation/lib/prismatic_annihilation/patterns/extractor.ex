@@ -257,8 +257,10 @@ defmodule PrismaticAnnihilation.Patterns.Extractor do
      %{
        total_covered_techniques: MapSet.size(covered_techniques),
        patterns_per_technique: Map.new(patterns_per_technique, fn {k, v} -> {k, length(v)} end),
-       well_covered: Enum.filter(patterns_per_technique, fn {_, pats} -> length(pats) >= 3 end) |> length(),
-       under_covered: Enum.filter(patterns_per_technique, fn {_, pats} -> length(pats) == 1 end) |> length(),
+       well_covered:
+         Enum.filter(patterns_per_technique, fn {_, pats} -> length(pats) >= 3 end) |> length(),
+       under_covered:
+         Enum.filter(patterns_per_technique, fn {_, pats} -> length(pats) == 1 end) |> length(),
        avg_patterns_per_technique:
          if map_size(patterns_per_technique) > 0 do
            patterns_per_technique
@@ -273,7 +275,8 @@ defmodule PrismaticAnnihilation.Patterns.Extractor do
        total_patterns: full.total_patterns,
        by_category:
          Enum.map(full.modules, fn ext ->
-           {ext.category, %{patterns: ext.pattern_count, techniques: length(ext.technique_coverage)}}
+           {ext.category,
+            %{patterns: ext.pattern_count, techniques: length(ext.technique_coverage)}}
          end)
          |> Map.new()
      }}
@@ -386,7 +389,7 @@ defmodule PrismaticAnnihilation.Patterns.Extractor do
     }
   end
 
-  defp type_of(nil), do: :nil
+  defp type_of(nil), do: nil
   defp type_of(v) when is_atom(v), do: :atom
   defp type_of(v) when is_binary(v), do: :string
   defp type_of(v) when is_integer(v), do: :integer

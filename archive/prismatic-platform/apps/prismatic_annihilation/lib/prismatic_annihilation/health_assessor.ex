@@ -86,7 +86,8 @@ defmodule PrismaticAnnihilation.HealthAssessor do
 
     with {:ok, dimensions} <- assess_dimensions(knowledge_base, depth),
          {:ok, vulnerabilities} <- identify_vulnerabilities(dimensions),
-         {:ok, recommendations} <- maybe_generate_recommendations(vulnerabilities, include_recommendations) do
+         {:ok, recommendations} <-
+           maybe_generate_recommendations(vulnerabilities, include_recommendations) do
       overall_score = calculate_overall_score(dimensions)
 
       {:ok,
@@ -292,7 +293,8 @@ defmodule PrismaticAnnihilation.HealthAssessor do
           %{
             dimension: :structural_resilience,
             severity: severity_from_score(dimensions.structural_resilience.score),
-            description: "Knowledge structure lacks redundancy and is vulnerable to cascading failures",
+            description:
+              "Knowledge structure lacks redundancy and is vulnerable to cascading failures",
             attack_vectors: [:epistemic_imploze, :conceptual_nuclear_winter, :epistemic_black_hole]
           }
           | vulnerabilities
@@ -308,7 +310,8 @@ defmodule PrismaticAnnihilation.HealthAssessor do
           %{
             dimension: :logical_coherence,
             severity: severity_from_score(dimensions.logical_coherence.score),
-            description: "Knowledge base contains logical inconsistencies exploitable by paradoxical attacks",
+            description:
+              "Knowledge base contains logical inconsistencies exploitable by paradoxical attacks",
             attack_vectors: [
               :reflexivity_perversion,
               :anti_autoreferential_paradoxical_loop,
@@ -328,7 +331,8 @@ defmodule PrismaticAnnihilation.HealthAssessor do
           %{
             dimension: :source_diversity,
             severity: severity_from_score(dimensions.source_diversity.score),
-            description: "Over-reliance on limited sources makes system vulnerable to epistemic capture",
+            description:
+              "Over-reliance on limited sources makes system vulnerable to epistemic capture",
             attack_vectors: [
               :epistemic_delegitimization,
               :collective_epistemic_delegitimization,
@@ -364,8 +368,7 @@ defmodule PrismaticAnnihilation.HealthAssessor do
           %{
             dimension: :meta_epistemic_awareness,
             severity: severity_from_score(dimensions.meta_epistemic_awareness.score),
-            description:
-              "Limited self-knowledge makes system vulnerable to meta-level attacks",
+            description: "Limited self-knowledge makes system vulnerable to meta-level attacks",
             attack_vectors: [
               :absolute_egological_disintegration,
               :transfinite_epistemic_regression,
@@ -408,7 +411,8 @@ defmodule PrismaticAnnihilation.HealthAssessor do
     [
       %{
         priority: priority,
-        action: "Implement knowledge redundancy with multiple independent paths to critical information",
+        action:
+          "Implement knowledge redundancy with multiple independent paths to critical information",
         expected_impact: 0.25,
         resources_required: [:knowledge_engineer, :graph_database]
       },
@@ -472,7 +476,10 @@ defmodule PrismaticAnnihilation.HealthAssessor do
     ]
   end
 
-  defp recommendations_for_vulnerability(%{dimension: :meta_epistemic_awareness, severity: severity}) do
+  defp recommendations_for_vulnerability(%{
+         dimension: :meta_epistemic_awareness,
+         severity: severity
+       }) do
     priority = severity_to_priority(severity)
 
     [
@@ -591,7 +598,8 @@ defmodule PrismaticAnnihilation.HealthAssessor do
   defp estimate_recency(_kb), do: 0.5
 
   defp has_uncertainty_markers?(kb) when is_map(kb) do
-    Map.has_key?(kb, :confidence) or Map.has_key?(kb, :uncertainty) or Map.has_key?(kb, :probability)
+    Map.has_key?(kb, :confidence) or Map.has_key?(kb, :uncertainty) or
+      Map.has_key?(kb, :probability)
   end
 
   defp has_uncertainty_markers?(_), do: false

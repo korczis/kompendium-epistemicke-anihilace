@@ -29,7 +29,9 @@ defmodule PrismaticAnnihilationTest do
     end
 
     test "detects epistemic implosion patterns" do
-      content = "epistemic_gravitational_acceleration knowledge_horizon_formation cognitive_supercompression"
+      content =
+        "epistemic_gravitational_acceleration knowledge_horizon_formation cognitive_supercompression"
+
       {:ok, detections} = PrismaticAnnihilation.detect(content, threshold: 0.5)
 
       assert is_list(detections)

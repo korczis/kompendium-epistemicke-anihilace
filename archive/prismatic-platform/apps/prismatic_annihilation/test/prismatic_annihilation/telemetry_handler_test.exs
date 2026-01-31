@@ -139,6 +139,7 @@ defmodule PrismaticAnnihilation.TelemetryHandlerTest do
       Process.sleep(50)
 
       metrics = TelemetryHandler.metrics()
+
       assert Map.has_key?(metrics.detection.techniques_by_category, :critical) or
                map_size(metrics.detection.techniques_by_category) >= 0
     end

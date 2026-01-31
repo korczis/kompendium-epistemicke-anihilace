@@ -433,7 +433,13 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp sanitize_lists(technique) do
-    list_fields = [:typical_manifestations, :defense_strategies, :see_also, :detection_patterns, :keywords]
+    list_fields = [
+      :typical_manifestations,
+      :defense_strategies,
+      :see_also,
+      :detection_patterns,
+      :keywords
+    ]
 
     Enum.reduce(list_fields, technique, fn field, acc ->
       case Map.get(acc, field) do

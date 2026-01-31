@@ -155,7 +155,9 @@ defmodule PrismaticAnnihilation.CompendiumLoader do
         total_bytes: primary_data.bytes + secondary_data.bytes
       }
 
-      Logger.info("[CompendiumLoader] Loaded #{stats.total_techniques} techniques from #{stats.primary_files + stats.secondary_files} files")
+      Logger.info(
+        "[CompendiumLoader] Loaded #{stats.total_techniques} techniques from #{stats.primary_files + stats.secondary_files} files"
+      )
 
       {:ok,
        %{
@@ -441,13 +443,20 @@ defmodule PrismaticAnnihilation.CompendiumLoader do
     text_lower = String.downcase(text)
 
     cond do
-      String.contains?(text_lower, "prakticky nereverzibilní") -> :practically_irreversible
+      String.contains?(text_lower, "prakticky nereverzibilní") ->
+        :practically_irreversible
+
       String.contains?(text_lower, "velmi") and String.contains?(text_lower, "nízká") ->
         :very_difficult
 
-      String.contains?(text_lower, "obtížně") -> :difficult
-      String.contains?(text_lower, "částečně") -> :moderate
-      true -> :unknown
+      String.contains?(text_lower, "obtížně") ->
+        :difficult
+
+      String.contains?(text_lower, "částečně") ->
+        :moderate
+
+      true ->
+        :unknown
     end
   end
 

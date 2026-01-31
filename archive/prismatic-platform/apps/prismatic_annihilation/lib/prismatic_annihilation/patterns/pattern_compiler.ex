@@ -282,12 +282,12 @@ defmodule PrismaticAnnihilation.Patterns.PatternCompiler do
 
       [] ->
         # Fallback to module-level search
-        patterns = Enum.flat_map(@pattern_modules, &(&1.for_technique(technique_id)))
+        patterns = Enum.flat_map(@pattern_modules, & &1.for_technique(technique_id))
         {:ok, patterns}
     end
   rescue
     ArgumentError ->
-      patterns = Enum.flat_map(@pattern_modules, &(&1.for_technique(technique_id)))
+      patterns = Enum.flat_map(@pattern_modules, & &1.for_technique(technique_id))
       {:ok, patterns}
   end
 
@@ -502,7 +502,12 @@ defmodule PrismaticAnnihilation.Patterns.PatternCompiler do
     for table <- @all_tables, do: ensure_table_exists(table)
 
     # Clear existing indexes (not regex cache - those are still valid)
-    for table <- [@pattern_index_table, @technique_index_table, @category_index_table, @severity_index_table] do
+    for table <- [
+          @pattern_index_table,
+          @technique_index_table,
+          @category_index_table,
+          @severity_index_table
+        ] do
       if table_exists?(table), do: :ets.delete_all_objects(table)
     end
 

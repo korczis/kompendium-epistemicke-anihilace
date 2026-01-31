@@ -83,6 +83,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
       for technique <- Taxonomy.all() do
         assert technique.name != nil
         assert technique.name != ""
+
         assert String.length(technique.name) >= 3,
                "Technique #{technique.id} has name shorter than 3 chars: #{technique.name}"
       end
@@ -99,6 +100,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
       for technique <- Taxonomy.all() do
         assert technique.description != nil
         assert technique.description != ""
+
         assert String.length(technique.description) >= 10,
                "Technique #{technique.id} has very short description"
       end
@@ -107,6 +109,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
     test "every technique has at least one defense strategy" do
       for technique <- Taxonomy.all() do
         assert is_list(technique.defense_strategies)
+
         assert length(technique.defense_strategies) > 0,
                "Technique #{technique.id} has no defense strategies"
       end
@@ -115,6 +118,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
     test "every technique has at least one typical manifestation" do
       for technique <- Taxonomy.all() do
         assert is_list(technique.typical_manifestations)
+
         assert length(technique.typical_manifestations) > 0,
                "Technique #{technique.id} has no typical manifestations"
       end
@@ -123,6 +127,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
     test "every technique has detection patterns" do
       for technique <- Taxonomy.all() do
         assert is_list(technique.detection_patterns)
+
         assert length(technique.detection_patterns) > 0,
                "Technique #{technique.id} has no detection patterns"
       end
@@ -352,9 +357,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
       if length(actual_errors) > 0 do
         invalid_ids = Enum.map(actual_errors, fn {id, _errors} -> id end)
 
-        flunk(
-          "#{length(actual_errors)} techniques failed validation: #{inspect(invalid_ids)}"
-        )
+        flunk("#{length(actual_errors)} techniques failed validation: #{inspect(invalid_ids)}")
       end
     end
 

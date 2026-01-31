@@ -9,7 +9,9 @@ defmodule PrismaticAnnihilation.Compendium.PipelineTest do
     @tag timeout: 60_000
     test "runs complete pipeline end-to-end" do
       # Use a temporary output directory to avoid polluting priv/data
-      tmp_dir = Path.join(System.tmp_dir!(), "compendium_test_#{System.unique_integer([:positive])}")
+      tmp_dir =
+        Path.join(System.tmp_dir!(), "compendium_test_#{System.unique_integer([:positive])}")
+
       File.mkdir_p!(tmp_dir)
 
       on_exit(fn -> File.rm_rf!(tmp_dir) end)
@@ -72,7 +74,9 @@ defmodule PrismaticAnnihilation.Compendium.PipelineTest do
 
   describe "validate/1" do
     test "validates non-existent data" do
-      tmp_dir = Path.join(System.tmp_dir!(), "compendium_validate_#{System.unique_integer([:positive])}")
+      tmp_dir =
+        Path.join(System.tmp_dir!(), "compendium_validate_#{System.unique_integer([:positive])}")
+
       File.mkdir_p!(tmp_dir)
 
       on_exit(fn -> File.rm_rf!(tmp_dir) end)

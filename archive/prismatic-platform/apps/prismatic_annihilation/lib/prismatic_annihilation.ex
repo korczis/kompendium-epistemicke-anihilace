@@ -291,7 +291,9 @@ defmodule PrismaticAnnihilation do
       chapter: technique[:chapter] || 6,
       confidence: confidence,
       severity: technique.severity,
-      evidence: [%{type: :keyword_match, content: "Pattern detected", weight: confidence, source: "taxonomy"}],
+      evidence: [
+        %{type: :keyword_match, content: "Pattern detected", weight: confidence, source: "taxonomy"}
+      ],
       location: %{start: 0, end: String.length(content), context: String.slice(content, 0, 100)},
       countermeasures: technique[:defense_strategies] || []
     }

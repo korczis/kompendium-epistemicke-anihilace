@@ -16,10 +16,11 @@ defmodule PrismaticAnnihilation.Patterns.GeneratorTest do
         test_pattern(:gen_spec_2, "Spec Pattern 2")
       ]
 
-      assert {:ok, result} = Generator.from_spec(module_name, [
-               category: :spec_test,
-               subcategories: [default: patterns]
-             ])
+      assert {:ok, result} =
+               Generator.from_spec(module_name,
+                 category: :spec_test,
+                 subcategories: [default: patterns]
+               )
 
       assert result.module == module_name
       assert result.pattern_count == 2
@@ -31,10 +32,11 @@ defmodule PrismaticAnnihilation.Patterns.GeneratorTest do
     test "rejects invalid patterns in spec" do
       module_name = unique_module_name("FromSpecInvalid")
 
-      assert {:error, {:validation_failed, issues}} = Generator.from_spec(module_name, [
-               category: :invalid_test,
-               subcategories: [default: [%{id: :bad}]]
-             ])
+      assert {:error, {:validation_failed, issues}} =
+               Generator.from_spec(module_name,
+                 category: :invalid_test,
+                 subcategories: [default: [%{id: :bad}]]
+               )
 
       assert length(issues) > 0
     end
@@ -66,9 +68,10 @@ defmodule PrismaticAnnihilation.Patterns.GeneratorTest do
       patterns = Generator.patterns_from_techniques([technique])
 
       # Keyword pattern should use detection_patterns
-      keyword_pattern = Enum.find(patterns, fn p ->
-        p.id == :gen_test_technique_keywords
-      end)
+      keyword_pattern =
+        Enum.find(patterns, fn p ->
+          p.id == :gen_test_technique_keywords
+        end)
 
       if keyword_pattern do
         assert keyword_pattern.severity == :critical
@@ -80,9 +83,10 @@ defmodule PrismaticAnnihilation.Patterns.GeneratorTest do
       technique = sample_technique()
       patterns = Generator.patterns_from_techniques([technique])
 
-      manifestation_pattern = Enum.find(patterns, fn p ->
-        p.id == :gen_test_technique_manifestations
-      end)
+      manifestation_pattern =
+        Enum.find(patterns, fn p ->
+          p.id == :gen_test_technique_manifestations
+        end)
 
       assert manifestation_pattern != nil
       assert manifestation_pattern.detection_type == :keyword
@@ -143,9 +147,8 @@ defmodule PrismaticAnnihilation.Patterns.GeneratorTest do
 
   describe "generate_test_source/1" do
     test "generates valid test source for gravitational patterns" do
-      assert {:ok, source} = Generator.generate_test_source(
-               PrismaticAnnihilation.Patterns.GravitationalPatterns
-             )
+      assert {:ok, source} =
+               Generator.generate_test_source(PrismaticAnnihilation.Patterns.GravitationalPatterns)
 
       assert is_binary(source)
       assert String.contains?(source, "defmodule")
@@ -177,9 +180,10 @@ defmodule PrismaticAnnihilation.Patterns.GeneratorTest do
 
   describe "generate_documentation/1" do
     test "generates markdown documentation" do
-      assert {:ok, doc} = Generator.generate_documentation(
-               PrismaticAnnihilation.Patterns.GravitationalPatterns
-             )
+      assert {:ok, doc} =
+               Generator.generate_documentation(
+                 PrismaticAnnihilation.Patterns.GravitationalPatterns
+               )
 
       assert is_binary(doc)
       assert String.contains?(doc, "gravitational")

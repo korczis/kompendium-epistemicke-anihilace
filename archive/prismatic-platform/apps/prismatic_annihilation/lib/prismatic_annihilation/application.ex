@@ -62,8 +62,7 @@ defmodule PrismaticAnnihilation.Application do
       PrismaticAnnihilation.Compendium.TaxonomyServer,
 
       # Detection Engine Supervisor
-      {DynamicSupervisor,
-       name: PrismaticAnnihilation.DetectionCoordinator, strategy: :one_for_one},
+      {DynamicSupervisor, name: PrismaticAnnihilation.DetectionCoordinator, strategy: :one_for_one},
 
       # Defensive Coordinator
       PrismaticAnnihilation.DefensiveCoordinator,
@@ -115,7 +114,9 @@ defmodule PrismaticAnnihilation.Application do
     available_engines = Enum.filter(engines, &Code.ensure_loaded?/1)
 
     if Enum.empty?(available_engines) do
-      Logger.info("[PrismaticAnnihilation] No detection engines available yet - using taxonomy-based detection")
+      Logger.info(
+        "[PrismaticAnnihilation] No detection engines available yet - using taxonomy-based detection"
+      )
     else
       for engine <- available_engines, _n <- 1..pool_size do
         case DynamicSupervisor.start_child(

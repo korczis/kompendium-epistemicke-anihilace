@@ -61,7 +61,8 @@ defmodule PrismaticAnnihilation.Compendium.MarkdownExtractorTest do
 
   describe "extract_header/1" do
     test "extracts H3 header with anchor" do
-      assert {:ok, header} = MarkdownExtractor.extract_header("### Alethicky rezim {#alethicky-rezim}")
+      assert {:ok, header} =
+               MarkdownExtractor.extract_header("### Alethicky rezim {#alethicky-rezim}")
 
       assert header.name == "Alethicky rezim"
       assert header.anchor == "alethicky-rezim"
@@ -496,14 +497,10 @@ defmodule PrismaticAnnihilation.Compendium.MarkdownExtractorTest do
 
     test "handles common compendium terms" do
       assert "Epistemicka imploze" =
-               MarkdownExtractor.transliterate_czech(
-                 "Epistemick\u00e1 imploze"
-               )
+               MarkdownExtractor.transliterate_czech("Epistemick\u00e1 imploze")
 
       assert "Axiologicka anihilace" =
-               MarkdownExtractor.transliterate_czech(
-                 "Axiologick\u00e1 anihilace"
-               )
+               MarkdownExtractor.transliterate_czech("Axiologick\u00e1 anihilace")
     end
   end
 

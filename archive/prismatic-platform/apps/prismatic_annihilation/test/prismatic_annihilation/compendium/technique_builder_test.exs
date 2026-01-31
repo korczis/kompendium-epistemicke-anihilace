@@ -53,7 +53,9 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
       assert :axiologicka_anihilace = TechniqueBuilder.generate_id("Axiologická anihilace")
       assert :bifurkace_epistemicka = TechniqueBuilder.generate_id("Bifurkace epistemická")
       assert :cirkularita_destruktivni = TechniqueBuilder.generate_id("Cirkularita destruktivní")
-      assert :dekonstruktivni_hyperkaskada = TechniqueBuilder.generate_id("Dekonstruktivní hyperkaskáda")
+
+      assert :dekonstruktivni_hyperkaskada =
+               TechniqueBuilder.generate_id("Dekonstruktivní hyperkaskáda")
     end
   end
 
@@ -103,7 +105,8 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
 
   describe "map_reversibility/1" do
     test "maps 'Prakticky nereverzibilní' to :practically_irreversible" do
-      assert :practically_irreversible = TechniqueBuilder.map_reversibility("Prakticky nereverzibilní")
+      assert :practically_irreversible =
+               TechniqueBuilder.map_reversibility("Prakticky nereverzibilní")
     end
 
     test "maps 'Velmi obtížně reverzibilní' to :very_difficult" do
@@ -155,10 +158,23 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
     end
 
     test "maps various Czech category names" do
-      assert :singularity = TechniqueBuilder.determine_category(%{category: "Epistemická manipulace"}, [])
-      assert :singularity = TechniqueBuilder.determine_category(%{category: "Patologický kognitivní vzorec"}, [])
-      assert :metatranscendental = TechniqueBuilder.determine_category(%{category: "Artikulační epistemická negace"}, [])
-      assert :delegitimization = TechniqueBuilder.determine_category(%{category: "Legitimizační destruktivní technika"}, [])
+      assert :singularity =
+               TechniqueBuilder.determine_category(%{category: "Epistemická manipulace"}, [])
+
+      assert :singularity =
+               TechniqueBuilder.determine_category(%{category: "Patologický kognitivní vzorec"}, [])
+
+      assert :metatranscendental =
+               TechniqueBuilder.determine_category(
+                 %{category: "Artikulační epistemická negace"},
+                 []
+               )
+
+      assert :delegitimization =
+               TechniqueBuilder.determine_category(
+                 %{category: "Legitimizační destruktivní technika"},
+                 []
+               )
     end
   end
 
@@ -597,7 +613,15 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
     end
 
     test "reversibility always returns valid atom from known set" do
-      valid_results = [:irreversible, :practically_irreversible, :very_difficult, :difficult, :moderate, :high, :unknown]
+      valid_results = [
+        :irreversible,
+        :practically_irreversible,
+        :very_difficult,
+        :difficult,
+        :moderate,
+        :high,
+        :unknown
+      ]
 
       test_inputs = [
         "Prakticky nereverzibilní",
@@ -654,7 +678,13 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
     test "option override takes precedence over metadata" do
       raw = %{category: "Fundamentální epistemická destrukce"}
 
-      for category <- [:singularity, :metatranscendental, :hypertransformative, :paradoxical, :transconceptual] do
+      for category <- [
+            :singularity,
+            :metatranscendental,
+            :hypertransformative,
+            :paradoxical,
+            :transconceptual
+          ] do
         result = TechniqueBuilder.determine_category(raw, category: category)
         assert result == category
       end
@@ -716,7 +746,8 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilderTest do
         temporal_course: "Postupný",
         typical_manifestations: "Fragmentace, rozpad, ztráta koherence",
         defense_strategies: "Epistemická stabilizace, kognitivní podpora",
-        description: "Proces postupného rozpadu kognitivních struktur vedoucí ke kompletní dezintegraci.",
+        description:
+          "Proces postupného rozpadu kognitivních struktur vedoucí ke kompletní dezintegraci.",
         example: "Student filozofie postupně ztrácí koherenci.",
         see_also: ["epistemicka-imploze", "kognitivni-kolaps"]
       }

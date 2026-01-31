@@ -781,7 +781,9 @@ defmodule PrismaticAnnihilation.Compendium.MarkdownExtractor do
     parts =
       content
       |> String.split("\n")
-      |> Enum.filter(fn line -> String.contains?(line, "ČÁST") or String.contains?(line, "CAST") end)
+      |> Enum.filter(fn line ->
+        String.contains?(line, "ČÁST") or String.contains?(line, "CAST")
+      end)
       |> Enum.map(&parse_part_line/1)
       |> Enum.reject(&is_nil/1)
       |> Map.new(fn p -> {p.number, p} end)

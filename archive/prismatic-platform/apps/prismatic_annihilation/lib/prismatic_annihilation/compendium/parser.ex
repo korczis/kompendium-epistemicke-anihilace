@@ -377,7 +377,10 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
           {:ok, entry} ->
             entry_with_category = Map.put(entry, :category, current_category)
             updated_categories = update_category_entries(categories, current_category, entry)
-            parse_index_lines(rest, current_category, updated_categories, [entry_with_category | entries])
+
+            parse_index_lines(rest, current_category, updated_categories, [
+              entry_with_category | entries
+            ])
 
           _ ->
             parse_index_lines(rest, current_category, categories, entries)
@@ -430,7 +433,10 @@ defmodule PrismaticAnnihilation.Compendium.Parser do
   end
 
   defp parse_chapter_line(line) do
-    case Regex.run(~r/KAPITOLA\s+(\d+):\s*(.+?)(?:\s*\((?:Techniky|Techniques)\s*(\d+)-(\d+)\))?$/i, line) do
+    case Regex.run(
+           ~r/KAPITOLA\s+(\d+):\s*(.+?)(?:\s*\((?:Techniky|Techniques)\s*(\d+)-(\d+)\))?$/i,
+           line
+         ) do
       [_, number, title, start_tech, end_tech] ->
         %{
           number: String.to_integer(number),

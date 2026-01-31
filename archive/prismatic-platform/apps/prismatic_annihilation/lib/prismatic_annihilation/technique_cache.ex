@@ -21,8 +21,10 @@ defmodule PrismaticAnnihilation.TechniqueCache do
   require Logger
 
   @table_name :prismatic_annihilation_technique_cache
-  @default_ttl_ms 3_600_000  # 1 hour
-  @cleanup_interval_ms 300_000  # 5 minutes
+  # 1 hour
+  @default_ttl_ms 3_600_000
+  # 5 minutes
+  @cleanup_interval_ms 300_000
 
   # ===========================================================================
   # Client API

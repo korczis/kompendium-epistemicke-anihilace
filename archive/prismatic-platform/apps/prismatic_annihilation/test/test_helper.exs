@@ -5,6 +5,7 @@
 case GenServer.whereis(PrismaticAnnihilation.Taxonomy) do
   nil ->
     {:ok, _pid} = PrismaticAnnihilation.Taxonomy.start_link([])
+
   _pid ->
     :ok
 end

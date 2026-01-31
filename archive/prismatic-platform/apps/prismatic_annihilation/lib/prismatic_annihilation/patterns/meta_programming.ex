@@ -66,10 +66,19 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
 
   # Pattern definition schema. All pattern maps must conform to this structure.
   @pattern_schema %{
-    required: [:id, :name, :category, :subcategory, :detection_type, :keywords,
-               :confidence_weight, :associated_techniques, :severity, :description],
-    optional: [:regex, :semantic_markers, :context_requirements,
-               :false_positive_indicators],
+    required: [
+      :id,
+      :name,
+      :category,
+      :subcategory,
+      :detection_type,
+      :keywords,
+      :confidence_weight,
+      :associated_techniques,
+      :severity,
+      :description
+    ],
+    optional: [:regex, :semantic_markers, :context_requirements, :false_positive_indicators],
     defaults: %{
       regex: nil,
       semantic_markers: [],
@@ -176,14 +185,24 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
     semantic_score = match_semantic_markers(pattern[:semantic_markers] || [], content_lower)
     regex_score = match_regex(pattern, content_lower)
 
-    combined_score = calculate_combined_score(
-      keyword_score, semantic_score, regex_score, pattern
-    )
+    combined_score =
+      calculate_combined_score(
+        keyword_score,
+        semantic_score,
+        regex_score,
+        pattern
+      )
 
     if combined_score > 0.0 do
-      evidence = build_evidence(
-        pattern, content_lower, keyword_score, semantic_score, regex_score, source
-      )
+      evidence =
+        build_evidence(
+          pattern,
+          content_lower,
+          keyword_score,
+          semantic_score,
+          regex_score,
+          source
+        )
 
       %{
         pattern_id: pattern.id,
@@ -383,7 +402,10 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
   @spec generate_module(module(), keyword()) :: {:ok, module()} | {:error, [String.t()]}
   def generate_module(module_name, opts) do
     category = Keyword.fetch!(opts, :category)
-    source = Keyword.get(opts, :source, module_name |> Module.split() |> List.last() |> Macro.underscore())
+
+    source =
+      Keyword.get(opts, :source, module_name |> Module.split() |> List.last() |> Macro.underscore())
+
     subcategories = Keyword.fetch!(opts, :subcategories)
     moduledoc = Keyword.get(opts, :moduledoc, "Auto-generated pattern module for #{category}")
 
@@ -468,11 +490,11 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
         {safe_to_atom(name), Enum.map(patterns, &json_to_pattern/1)}
       end)
 
-    generate_module(module_name, [
+    generate_module(module_name,
       category: category,
       source: source,
       subcategories: subcategories
-    ])
+    )
   end
 
   @doc """
@@ -650,7 +672,12 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
 
     if regex_score > 0.0 do
       [
-        %{type: :regex_match, content: "Pattern: #{pattern[:regex]}", weight: regex_score, source: source}
+        %{
+          type: :regex_match,
+          content: "Pattern: #{pattern[:regex]}",
+          weight: regex_score,
+          source: source
+        }
         | evidence
       ]
     else

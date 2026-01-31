@@ -211,9 +211,14 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgrammingTest do
       patterns = [valid_pattern()]
       content = "epistemic horizon formation"
 
-      assert {:ok, results} = MetaProgramming.detect_patterns(
-               content, patterns, [threshold: 0.99], "test"
-             )
+      assert {:ok, results} =
+               MetaProgramming.detect_patterns(
+                 content,
+                 patterns,
+                 [threshold: 0.99],
+                 "test"
+               )
+
       assert Enum.all?(results, fn r -> r.confidence >= 0.99 end)
     end
 
@@ -222,11 +227,17 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgrammingTest do
         valid_pattern(),
         valid_pattern() |> Map.put(:id, :test_pattern_2) |> Map.put(:keywords, ["epistemic"])
       ]
+
       content = "epistemic horizon"
 
-      assert {:ok, results} = MetaProgramming.detect_patterns(
-               content, patterns, [max_results: 1], "test"
-             )
+      assert {:ok, results} =
+               MetaProgramming.detect_patterns(
+                 content,
+                 patterns,
+                 [max_results: 1],
+                 "test"
+               )
+
       assert length(results) <= 1
     end
 
@@ -311,9 +322,7 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgrammingTest do
 
   describe "export_module/1" do
     test "exports a pattern module to JSON-serializable format" do
-      result = MetaProgramming.export_module(
-        PrismaticAnnihilation.Patterns.GravitationalPatterns
-      )
+      result = MetaProgramming.export_module(PrismaticAnnihilation.Patterns.GravitationalPatterns)
 
       assert result["category"] == "gravitational"
       assert is_integer(result["pattern_count"])
@@ -331,13 +340,14 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgrammingTest do
     test "generates a functional module from spec" do
       module_name = :"Elixir.PrismaticAnnihilation.Patterns.TestGenerated#{:rand.uniform(100_000)}"
 
-      result = MetaProgramming.generate_module(module_name, [
-        category: :test_generated,
-        subcategories: [
-          sub_a: [valid_pattern()],
-          sub_b: [valid_pattern() |> Map.put(:id, :pattern_b)]
-        ]
-      ])
+      result =
+        MetaProgramming.generate_module(module_name,
+          category: :test_generated,
+          subcategories: [
+            sub_a: [valid_pattern()],
+            sub_b: [valid_pattern() |> Map.put(:id, :pattern_b)]
+          ]
+        )
 
       assert {:ok, ^module_name} = result
       assert module_name.category() == :test_generated
@@ -348,12 +358,13 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgrammingTest do
     test "rejects specs with invalid patterns" do
       module_name = :"Elixir.PrismaticAnnihilation.Patterns.TestInvalid#{:rand.uniform(100_000)}"
 
-      result = MetaProgramming.generate_module(module_name, [
-        category: :test_invalid,
-        subcategories: [
-          sub_a: [%{id: :incomplete_pattern}]
-        ]
-      ])
+      result =
+        MetaProgramming.generate_module(module_name,
+          category: :test_invalid,
+          subcategories: [
+            sub_a: [%{id: :incomplete_pattern}]
+          ]
+        )
 
       assert {:error, issues} = result
       assert is_list(issues)

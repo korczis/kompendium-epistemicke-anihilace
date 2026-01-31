@@ -121,62 +121,121 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
   # Telemetry Event Processing
   # ===========================================================================
 
-  defp process_event([:prismatic_annihilation, :detection, :complete], measurements, metadata, _config) do
-    Logger.debug("[Telemetry] Detection complete: #{measurements.duration_ms}ms, #{measurements.detection_count} detections")
+  defp process_event(
+         [:prismatic_annihilation, :detection, :complete],
+         measurements,
+         metadata,
+         _config
+       ) do
+    Logger.debug(
+      "[Telemetry] Detection complete: #{measurements.duration_ms}ms, #{measurements.detection_count} detections"
+    )
 
-    GenServer.cast(__MODULE__, {:update_metrics, :detection_complete, %{
-      duration_ms: measurements.duration_ms,
-      detection_count: measurements.detection_count,
-      categories: metadata[:categories]
-    }})
+    GenServer.cast(
+      __MODULE__,
+      {:update_metrics, :detection_complete,
+       %{
+         duration_ms: measurements.duration_ms,
+         detection_count: measurements.detection_count,
+         categories: metadata[:categories]
+       }}
+    )
   end
 
-  defp process_event([:prismatic_annihilation, :detection, :technique_found], measurements, metadata, _config) do
-    Logger.info("[Telemetry] Technique detected: #{metadata[:technique_id]}, confidence: #{measurements.confidence}")
+  defp process_event(
+         [:prismatic_annihilation, :detection, :technique_found],
+         measurements,
+         metadata,
+         _config
+       ) do
+    Logger.info(
+      "[Telemetry] Technique detected: #{metadata[:technique_id]}, confidence: #{measurements.confidence}"
+    )
 
-    GenServer.cast(__MODULE__, {:update_metrics, :technique_found, %{
-      technique_id: metadata[:technique_id],
-      confidence: measurements.confidence,
-      severity: metadata[:severity]
-    }})
+    GenServer.cast(
+      __MODULE__,
+      {:update_metrics, :technique_found,
+       %{
+         technique_id: metadata[:technique_id],
+         confidence: measurements.confidence,
+         severity: metadata[:severity]
+       }}
+    )
   end
 
-  defp process_event([:prismatic_annihilation, :defense, :deployed], measurements, metadata, _config) do
-    Logger.info("[Telemetry] Defense deployed: #{metadata[:countermeasure]}, duration: #{measurements.deployment_time_ms}ms")
+  defp process_event(
+         [:prismatic_annihilation, :defense, :deployed],
+         measurements,
+         metadata,
+         _config
+       ) do
+    Logger.info(
+      "[Telemetry] Defense deployed: #{metadata[:countermeasure]}, duration: #{measurements.deployment_time_ms}ms"
+    )
 
-    GenServer.cast(__MODULE__, {:update_metrics, :defense_deployed, %{
-      countermeasure: metadata[:countermeasure],
-      deployment_time_ms: measurements.deployment_time_ms
-    }})
+    GenServer.cast(
+      __MODULE__,
+      {:update_metrics, :defense_deployed,
+       %{
+         countermeasure: metadata[:countermeasure],
+         deployment_time_ms: measurements.deployment_time_ms
+       }}
+    )
   end
 
-  defp process_event([:prismatic_annihilation, :defense, :deactivated], _measurements, metadata, _config) do
+  defp process_event(
+         [:prismatic_annihilation, :defense, :deactivated],
+         _measurements,
+         metadata,
+         _config
+       ) do
     Logger.debug("[Telemetry] Defense deactivated: #{inspect(metadata[:ref])}")
 
-    GenServer.cast(__MODULE__, {:update_metrics, :defense_deactivated, %{
-      ref: metadata[:ref]
-    }})
+    GenServer.cast(
+      __MODULE__,
+      {:update_metrics, :defense_deactivated,
+       %{
+         ref: metadata[:ref]
+       }}
+    )
   end
 
   defp process_event([:prismatic_annihilation, :health, :assessed], measurements, metadata, _config) do
-    Logger.debug("[Telemetry] Health assessed: score=#{measurements.score}, status=#{metadata[:status]}")
+    Logger.debug(
+      "[Telemetry] Health assessed: score=#{measurements.score}, status=#{metadata[:status]}"
+    )
 
-    GenServer.cast(__MODULE__, {:update_metrics, :health_assessed, %{
-      score: measurements.score,
-      status: metadata[:status]
-    }})
+    GenServer.cast(
+      __MODULE__,
+      {:update_metrics, :health_assessed,
+       %{
+         score: measurements.score,
+         status: metadata[:status]
+       }}
+    )
   end
 
-  defp process_event([:prismatic_annihilation, :trinity, :validated], _measurements, metadata, _config) do
+  defp process_event(
+         [:prismatic_annihilation, :trinity, :validated],
+         _measurements,
+         metadata,
+         _config
+       ) do
     Logger.debug("[Telemetry] Trinity validation: #{metadata[:result]}")
 
-    GenServer.cast(__MODULE__, {:update_metrics, :trinity_validated, %{
-      result: metadata[:result]
-    }})
+    GenServer.cast(
+      __MODULE__,
+      {:update_metrics, :trinity_validated,
+       %{
+         result: metadata[:result]
+       }}
+    )
   end
 
   defp process_event(event, measurements, metadata, _config) do
-    Logger.debug("[Telemetry] Unhandled event: #{inspect(event)}, #{inspect(measurements)}, #{inspect(metadata)}")
+    Logger.debug(
+      "[Telemetry] Unhandled event: #{inspect(event)}, #{inspect(measurements)}, #{inspect(metadata)}"
+    )
   end
 
   # ===========================================================================
@@ -214,12 +273,15 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     new_detections = detection.total_detections + data.detection_count
     new_avg = (detection.avg_duration_ms * detection.total_scans + data.duration_ms) / new_total
 
-    %{metrics | detection: %{
-      detection |
-      total_scans: new_total,
-      total_detections: new_detections,
-      avg_duration_ms: new_avg
-    }}
+    %{
+      metrics
+      | detection: %{
+          detection
+          | total_scans: new_total,
+            total_detections: new_detections,
+            avg_duration_ms: new_avg
+        }
+    }
   end
 
   defp update_metrics(metrics, :technique_found, data) do
@@ -234,14 +296,20 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     defense = metrics.defense
     new_total = defense.total_deployments + 1
     new_active = defense.active_defenses + 1
-    new_avg = (defense.avg_deployment_time_ms * defense.total_deployments + data.deployment_time_ms) / new_total
 
-    %{metrics | defense: %{
-      defense |
-      total_deployments: new_total,
-      active_defenses: new_active,
-      avg_deployment_time_ms: new_avg
-    }}
+    new_avg =
+      (defense.avg_deployment_time_ms * defense.total_deployments + data.deployment_time_ms) /
+        new_total
+
+    %{
+      metrics
+      | defense: %{
+          defense
+          | total_deployments: new_total,
+            active_defenses: new_active,
+            avg_deployment_time_ms: new_avg
+        }
+    }
   end
 
   defp update_metrics(metrics, :defense_deactivated, _data) do
@@ -255,12 +323,15 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     new_avg = (health.avg_score * health.total_assessments + data.score) / new_total
     status_dist = Map.update(health.status_distribution, data.status, 1, &(&1 + 1))
 
-    %{metrics | health: %{
-      health |
-      total_assessments: new_total,
-      avg_score: new_avg,
-      status_distribution: status_dist
-    }}
+    %{
+      metrics
+      | health: %{
+          health
+          | total_assessments: new_total,
+            avg_score: new_avg,
+            status_distribution: status_dist
+        }
+    }
   end
 
   defp update_metrics(metrics, :trinity_validated, data) do

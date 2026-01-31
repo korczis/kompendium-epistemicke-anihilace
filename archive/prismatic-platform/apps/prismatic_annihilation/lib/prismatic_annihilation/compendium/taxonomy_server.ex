@@ -302,8 +302,7 @@ defmodule PrismaticAnnihilation.Compendium.TaxonomyServer do
       severity_distribution:
         Enum.map(state.by_severity, fn {s, ids} -> {s, length(ids)} end) |> Map.new(),
       loaded_at: state.loaded_at,
-      categories:
-        Enum.map(state.by_category, fn {c, ids} -> {c, length(ids)} end) |> Map.new()
+      categories: Enum.map(state.by_category, fn {c, ids} -> {c, length(ids)} end) |> Map.new()
     }
 
     {:reply, stats, state}
@@ -313,9 +312,7 @@ defmodule PrismaticAnnihilation.Compendium.TaxonomyServer do
   def handle_call(:reload, _from, state) do
     new_state = load_state(state.data_dir)
 
-    Logger.info(
-      "[Compendium.TaxonomyServer] Reloaded #{new_state.technique_count} techniques"
-    )
+    Logger.info("[Compendium.TaxonomyServer] Reloaded #{new_state.technique_count} techniques")
 
     {:reply, :ok, Map.put(new_state, :data_dir, state.data_dir)}
   end

@@ -80,6 +80,7 @@ defmodule PrismaticAnnihilation.IntegrationTest do
       content = "singularity collapse paradoxical loop regression"
 
       {:ok, all} = PrismaticAnnihilation.detect(content, threshold: 0.3)
+
       {:ok, singularity_only} =
         PrismaticAnnihilation.detect(content, categories: [:singularity], threshold: 0.3)
 
@@ -108,7 +109,13 @@ defmodule PrismaticAnnihilation.IntegrationTest do
     end
 
     test "all taxonomy categories are searchable" do
-      categories = [:singularity, :metatranscendental, :hypertransformative, :paradoxical, :transconceptual]
+      categories = [
+        :singularity,
+        :metatranscendental,
+        :hypertransformative,
+        :paradoxical,
+        :transconceptual
+      ]
 
       for category <- categories do
         techniques = Taxonomy.by_category(category)
@@ -171,7 +178,8 @@ defmodule PrismaticAnnihilation.IntegrationTest do
       time2 = System.monotonic_time(:microsecond) - start2
 
       # Both should complete reasonably fast
-      assert time1 < 1_000_000  # < 1 second
+      # < 1 second
+      assert time1 < 1_000_000
       assert time2 < 1_000_000
     end
   end

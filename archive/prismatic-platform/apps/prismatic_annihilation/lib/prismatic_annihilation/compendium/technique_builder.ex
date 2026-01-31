@@ -302,7 +302,8 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
       String.contains?(normalized, "prakticky") and String.contains?(normalized, "nereverzibilní") ->
         :practically_irreversible
 
-      String.contains?(normalized, "nereverzibilní") and not String.contains?(normalized, "částečně") ->
+      String.contains?(normalized, "nereverzibilní") and
+          not String.contains?(normalized, "částečně") ->
         :irreversible
 
       String.contains?(normalized, "velmi") and String.contains?(normalized, "obtížně") ->

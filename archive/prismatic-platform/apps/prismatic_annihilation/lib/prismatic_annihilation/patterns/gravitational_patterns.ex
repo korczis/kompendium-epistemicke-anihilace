@@ -164,15 +164,21 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :horizon,
         detection_type: :regex,
-        regex: ~S"(?:epistemic|knowledge|cognitive)\s+(?:horizon|boundary|limit|edge)\s+(?:form|creat|emerg|establish)",
+        regex:
+          ~S"(?:epistemic|knowledge|cognitive)\s+(?:horizon|boundary|limit|edge)\s+(?:form|creat|emerg|establish)",
         keywords: ["epistemic horizon", "knowledge boundary", "cognitive limit", "event horizon"],
-        semantic_markers: ["beyond which no information", "point of no return", "irreversible boundary"],
+        semantic_markers: [
+          "beyond which no information",
+          "point of no return",
+          "irreversible boundary"
+        ],
         confidence_weight: 0.90,
         associated_techniques: [:epistemic_black_hole, :epistemic_imploze],
         context_requirements: [:epistemic_discourse, :philosophical_argument],
         false_positive_indicators: ["learning curve", "knowledge frontier", "scientific horizon"],
         severity: :critical,
-        description: "Detects formation of epistemic event horizons beyond which knowledge cannot escape"
+        description:
+          "Detects formation of epistemic event horizons beyond which knowledge cannot escape"
       },
       %{
         id: :gp_horizon_crossing,
@@ -202,7 +208,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :horizon,
         detection_type: :regex,
-        regex: ~S"(?:expanding|growing|widening|spreading)\s+(?:epistemic|cognitive|knowledge)\s+(?:horizon|void|gap|darkness)",
+        regex:
+          ~S"(?:expanding|growing|widening|spreading)\s+(?:epistemic|cognitive|knowledge)\s+(?:horizon|void|gap|darkness)",
         keywords: ["expanding void", "growing darkness", "widening gap in knowledge"],
         semantic_markers: ["knowledge territory shrinking", "understanding contracting"],
         confidence_weight: 0.80,
@@ -231,7 +238,11 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         confidence_weight: 0.82,
         associated_techniques: [:epistemic_black_hole, :cognitive_pandemonium],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["information security", "data encryption", "classified information"],
+        false_positive_indicators: [
+          "information security",
+          "data encryption",
+          "classified information"
+        ],
         severity: :high,
         description: "Detects patterns where information becomes trapped in epistemic structures"
       },
@@ -241,7 +252,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :horizon,
         detection_type: :regex,
-        regex: ~S"(?:approach|nearing|converging|asymptot)\w*\s+(?:the\s+)?(?:horizon|limit|boundary|collapse\s+point)",
+        regex:
+          ~S"(?:approach|nearing|converging|asymptot)\w*\s+(?:the\s+)?(?:horizon|limit|boundary|collapse\s+point)",
         keywords: ["approaching the limit", "nearing collapse", "asymptotic approach"],
         semantic_markers: ["getting closer but never reaching", "infinite approach"],
         confidence_weight: 0.75,
@@ -266,7 +278,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :compression,
         detection_type: :regex,
-        regex: ~S"(?:knowledge|epistemic|cognitive)\s+(?:compress|collaps|shrink|contract|condens)\w*",
+        regex:
+          ~S"(?:knowledge|epistemic|cognitive)\s+(?:compress|collaps|shrink|contract|condens)\w*",
         keywords: [
           "knowledge compression",
           "epistemic collapse",
@@ -309,7 +322,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :compression,
         detection_type: :regex,
-        regex: ~S"(?:concept|idea|thought|notion)\w*\s+(?:collaps|fold|turn)\w*\s+(?:inward|on\s+(?:it|them)sel)",
+        regex:
+          ~S"(?:concept|idea|thought|notion)\w*\s+(?:collaps|fold|turn)\w*\s+(?:inward|on\s+(?:it|them)sel)",
         keywords: [
           "concepts folding inward",
           "ideas collapsing on themselves",
@@ -341,7 +355,12 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         confidence_weight: 0.80,
         associated_techniques: [:epistemic_anti_plurality, :cognitive_anti_distribution],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["dimensionality reduction", "PCA", "data science", "simplification"],
+        false_positive_indicators: [
+          "dimensionality reduction",
+          "PCA",
+          "data science",
+          "simplification"
+        ],
         severity: :high,
         description: "Detects reduction of epistemic dimensions toward singularity"
       },
@@ -403,7 +422,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :supercompression,
         detection_type: :regex,
-        regex: ~S"(?:cognitive|mental|epistemic)\s+(?:super|hyper|ultra|total)\s*(?:compress|collaps|implod|crunch)",
+        regex:
+          ~S"(?:cognitive|mental|epistemic)\s+(?:super|hyper|ultra|total)\s*(?:compress|collaps|implod|crunch)",
         keywords: [
           "cognitive supercompression",
           "total epistemic collapse",
@@ -436,7 +456,11 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         confidence_weight: 0.88,
         associated_techniques: [:absolute_epistemic_cannibalization, :conceptual_nuclear_winter],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["critical mass of users", "critical thinking", "critical review"],
+        false_positive_indicators: [
+          "critical mass of users",
+          "critical thinking",
+          "critical review"
+        ],
         severity: :terminal,
         description: "Detects approach to epistemic critical mass triggering chain collapse"
       },
@@ -446,7 +470,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :supercompression,
         detection_type: :regex,
-        regex: ~S"(?:cascad|chain|domino|rippl)\w*\s+(?:of\s+)?(?:collaps|compress|destruct|failur)",
+        regex:
+          ~S"(?:cascad|chain|domino|rippl)\w*\s+(?:of\s+)?(?:collaps|compress|destruct|failur)",
         keywords: [
           "cascading collapse",
           "chain reaction failure",
@@ -489,7 +514,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :supercompression,
         detection_type: :regex,
-        regex: ~S"(?:runaway|uncontroll|unstoppabl|irreversibl)\w*\s+(?:collaps|compress|implosion|destruction)",
+        regex:
+          ~S"(?:runaway|uncontroll|unstoppabl|irreversibl)\w*\s+(?:collaps|compress|implosion|destruction)",
         keywords: [
           "runaway collapse",
           "uncontrollable compression",
@@ -534,9 +560,14 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         confidence_weight: 0.92,
         associated_techniques: [:epistemic_imploze, :epistemic_black_hole],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["technological singularity", "AI singularity", "gravitational singularity"],
+        false_positive_indicators: [
+          "technological singularity",
+          "AI singularity",
+          "gravitational singularity"
+        ],
         severity: :terminal,
-        description: "Detects formation of epistemic singularity where all knowledge collapses to a point"
+        description:
+          "Detects formation of epistemic singularity where all knowledge collapses to a point"
       },
       %{
         id: :gp_infinite_density,
@@ -565,7 +596,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :singularity,
         detection_type: :regex,
-        regex: ~S"(?:all|every|each)\s+(?:knowledge|thought|idea|concept)\w*\s+(?:converg|collaps|point|reduc)\w*\s+(?:to|into|toward)\s+(?:a\s+)?(?:single|one|same)\s+point",
+        regex:
+          ~S"(?:all|every|each)\s+(?:knowledge|thought|idea|concept)\w*\s+(?:converg|collaps|point|reduc)\w*\s+(?:to|into|toward)\s+(?:a\s+)?(?:single|one|same)\s+point",
         keywords: [
           "all converging to one point",
           "everything reduces to nothing",
@@ -575,7 +607,11 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         confidence_weight: 0.86,
         associated_techniques: [:epistemic_imploze, :cognitive_anti_distribution],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["convergence of evidence", "consensus building", "unified theory"],
+        false_positive_indicators: [
+          "convergence of evidence",
+          "consensus building",
+          "unified theory"
+        ],
         severity: :critical,
         description: "Detects convergence of all knowledge toward a single catastrophic point"
       },
@@ -607,7 +643,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :singularity,
         detection_type: :regex,
-        regex: ~S"(?:self|auto)\s*[-]?\s*(?:consum|devour|destruct|dissolv|annihilat)\w*\s+(?:knowledge|cognition|understanding|epistemic)",
+        regex:
+          ~S"(?:self|auto)\s*[-]?\s*(?:consum|devour|destruct|dissolv|annihilat)\w*\s+(?:knowledge|cognition|understanding|epistemic)",
         keywords: [
           "self-consuming knowledge",
           "autodevour",
@@ -637,7 +674,11 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
           "conceptual emptiness",
           "total cognitive void"
         ],
-        semantic_markers: ["absolute nothing", "complete absence of knowledge", "void where meaning was"],
+        semantic_markers: [
+          "absolute nothing",
+          "complete absence of knowledge",
+          "void where meaning was"
+        ],
         confidence_weight: 0.84,
         associated_techniques: [:ontological_annihilation, :conceptual_nuclear_winter],
         context_requirements: [:epistemic_discourse, :philosophical_argument],
@@ -660,7 +701,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :acceleration,
         detection_type: :regex,
-        regex: ~S"(?:accelerat|speed|hasten|quicken)\w*\s+(?:epistemic|cognitive|knowledge)\s+(?:collaps|destruct|decay|dissolut)",
+        regex:
+          ~S"(?:accelerat|speed|hasten|quicken)\w*\s+(?:epistemic|cognitive|knowledge)\s+(?:collaps|destruct|decay|dissolut)",
         keywords: [
           "accelerating collapse",
           "speeding toward destruction",
@@ -702,7 +744,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :acceleration,
         detection_type: :regex,
-        regex: ~S"(?:stretch|tear|rip|pull\s+apart|spaghettif)\w*\s+(?:knowledge|understanding|cognition|meaning|concept)",
+        regex:
+          ~S"(?:stretch|tear|rip|pull\s+apart|spaghettif)\w*\s+(?:knowledge|understanding|cognition|meaning|concept)",
         keywords: [
           "stretching knowledge",
           "tearing understanding apart",
@@ -715,7 +758,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["stretch goals", "pulling together", "tearing down barriers"],
         severity: :high,
-        description: "Detects tidal forces that stretch and tear epistemic structures differentially"
+        description:
+          "Detects tidal forces that stretch and tear epistemic structures differentially"
       },
       %{
         id: :gp_feedback_amplification,
@@ -731,7 +775,11 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
           "destruction feeds on itself",
           "vicious spiral"
         ],
-        semantic_markers: ["more collapse causes more collapse", "self-amplifying", "destructive feedback"],
+        semantic_markers: [
+          "more collapse causes more collapse",
+          "self-amplifying",
+          "destructive feedback"
+        ],
         confidence_weight: 0.88,
         associated_techniques: [:absolute_epistemic_cannibalization, :epistemic_autodissolution],
         context_requirements: [:epistemic_discourse],
@@ -745,7 +793,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :acceleration,
         detection_type: :regex,
-        regex: ~S"(?:spiral|orbit|circl|loop)\w*\s+(?:inward|closer|tighter|narrower)\s*(?:toward|to|into)?",
+        regex:
+          ~S"(?:spiral|orbit|circl|loop)\w*\s+(?:inward|closer|tighter|narrower)\s*(?:toward|to|into)?",
         keywords: [
           "spiraling inward",
           "tightening orbit",
@@ -798,7 +847,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :radiation,
         detection_type: :regex,
-        regex: ~S"(?:entropy|chaos|disorder|disorganiz)\w*\s+(?:burst|spike|explosion|surge)\s+(?:in|of|from)\s+(?:knowledge|information|meaning|understanding)",
+        regex:
+          ~S"(?:entropy|chaos|disorder|disorganiz)\w*\s+(?:burst|spike|explosion|surge)\s+(?:in|of|from)\s+(?:knowledge|information|meaning|understanding)",
         keywords: [
           "entropy burst",
           "chaos spike",
@@ -811,7 +861,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["information entropy in thermodynamics", "Shannon entropy"],
         severity: :high,
-        description: "Detects sudden entropy bursts indicating catastrophic epistemic structure failure"
+        description:
+          "Detects sudden entropy bursts indicating catastrophic epistemic structure failure"
       },
       %{
         id: :gp_afterglow_detection,
@@ -831,7 +882,11 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         confidence_weight: 0.72,
         associated_techniques: [:conceptual_nuclear_winter, :ontological_annihilation],
         context_requirements: [:epistemic_discourse, :post_crisis],
-        false_positive_indicators: ["afterglow of success", "aftermath of storm", "post-mortem review"],
+        false_positive_indicators: [
+          "afterglow of success",
+          "aftermath of storm",
+          "post-mortem review"
+        ],
         severity: :medium,
         description: "Detects post-collapse afterglow indicating previous epistemic destruction"
       },
@@ -841,7 +896,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         category: :gravitational,
         subcategory: :radiation,
         detection_type: :regex,
-        regex: ~S"(?:thermal|heat|entropy)\s+death\s+(?:of\s+)?(?:knowledge|cognition|understanding|meaning|mind)",
+        regex:
+          ~S"(?:thermal|heat|entropy)\s+death\s+(?:of\s+)?(?:knowledge|cognition|understanding|meaning|mind)",
         keywords: [
           "epistemic thermal death",
           "heat death of knowledge",
@@ -854,7 +910,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         context_requirements: [:epistemic_discourse, :philosophical_argument],
         false_positive_indicators: ["heat death of universe", "thermodynamic equilibrium"],
         severity: :critical,
-        description: "Detects approach to epistemic thermal death where no cognitive work is possible"
+        description:
+          "Detects approach to epistemic thermal death where no cognitive work is possible"
       },
       %{
         id: :gp_cognitive_debris_field,
@@ -870,13 +927,18 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
           "broken concepts",
           "shattered framework"
         ],
-        semantic_markers: ["pieces of former knowledge", "fragmented remains", "wreckage of thought"],
+        semantic_markers: [
+          "pieces of former knowledge",
+          "fragmented remains",
+          "wreckage of thought"
+        ],
         confidence_weight: 0.78,
         associated_techniques: [:conceptual_nuclear_winter, :phenomenological_disintegration],
         context_requirements: [:epistemic_discourse, :post_crisis],
         false_positive_indicators: ["space debris", "debris field", "scattered data"],
         severity: :high,
-        description: "Detects cognitive debris fields indicating previous epistemic structure collapse"
+        description:
+          "Detects cognitive debris fields indicating previous epistemic structure collapse"
       }
     ]
   end
@@ -923,7 +985,8 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
     if total > 0, do: matches / total * 0.8, else: 0.0
   end
 
-  defp match_regex(%{detection_type: :regex, regex: regex_str}, content) when is_binary(regex_str) do
+  defp match_regex(%{detection_type: :regex, regex: regex_str}, content)
+       when is_binary(regex_str) do
     case PatternCompiler.get_compiled_regex(regex_str) do
       {:ok, regex} -> if Regex.match?(regex, content), do: 1.0, else: 0.0
       :miss -> compile_and_match(regex_str, content)
@@ -967,7 +1030,12 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
         matched = Enum.filter(pattern.keywords, &String.contains?(content, String.downcase(&1)))
 
         [
-          %{type: :keyword_match, content: matched, weight: keyword_score, source: "gravitational_patterns"}
+          %{
+            type: :keyword_match,
+            content: matched,
+            weight: keyword_score,
+            source: "gravitational_patterns"
+          }
           | evidence
         ]
       else
@@ -980,7 +1048,12 @@ defmodule PrismaticAnnihilation.Patterns.GravitationalPatterns do
           Enum.filter(pattern.semantic_markers, &String.contains?(content, String.downcase(&1)))
 
         [
-          %{type: :semantic_match, content: matched, weight: semantic_score, source: "gravitational_patterns"}
+          %{
+            type: :semantic_match,
+            content: matched,
+            weight: semantic_score,
+            source: "gravitational_patterns"
+          }
           | evidence
         ]
       else

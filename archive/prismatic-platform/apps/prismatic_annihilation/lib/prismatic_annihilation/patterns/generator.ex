@@ -457,7 +457,8 @@ defmodule PrismaticAnnihilation.Patterns.Generator do
             context_requirements: [:epistemic_discourse],
             false_positive_indicators: generate_false_positives(defense_strategies),
             severity: severity,
-            description: technique[:description] || "Auto-generated detection pattern for #{technique_id}"
+            description:
+              technique[:description] || "Auto-generated detection pattern for #{technique_id}"
           }
         ]
       else

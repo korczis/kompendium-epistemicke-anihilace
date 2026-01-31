@@ -426,7 +426,11 @@ defmodule PrismaticAnnihilation.Compendium.ValidationTest do
 
   describe "sanitization" do
     test "trims string fields" do
-      technique = %{@valid_technique | name: "  Spaced  ", description: "  Description with spaces  "}
+      technique = %{
+        @valid_technique
+        | name: "  Spaced  ",
+          description: "  Description with spaces  "
+      }
 
       assert {:ok, sanitized} = Validation.validate_technique(technique)
       assert sanitized.name == "Spaced"
@@ -640,7 +644,12 @@ defmodule PrismaticAnnihilation.Compendium.ValidationTest do
       techniques =
         Enum.with_index(core_pairs, 1)
         |> Enum.map(fn {{chapter, category}, idx} ->
-          %{@valid_technique | id: String.to_atom("core_#{idx}"), chapter: chapter, category: category}
+          %{
+            @valid_technique
+            | id: String.to_atom("core_#{idx}"),
+              chapter: chapter,
+              category: category
+          }
         end)
 
       {:ok, result} = Validation.validate_category_consistency(techniques)

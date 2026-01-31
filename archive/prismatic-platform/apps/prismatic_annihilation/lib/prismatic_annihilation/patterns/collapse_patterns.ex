@@ -108,7 +108,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :structural_integrity,
         detection_type: :regex,
-        regex: ~S"(?:epistemic|cognitive|knowledge)\s+(?:structur|framework|scaffold|architectur)\w*\s+(?:fail|collaps|break|crumbl|disintegrat)\w*",
+        regex:
+          ~S"(?:epistemic|cognitive|knowledge)\s+(?:structur|framework|scaffold|architectur)\w*\s+(?:fail|collaps|break|crumbl|disintegrat)\w*",
         keywords: [
           "epistemic structure failing",
           "cognitive framework collapsing",
@@ -121,7 +122,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           "framework unsustainable"
         ],
         confidence_weight: 0.90,
-        associated_techniques: [:epistemic_imploze, :conceptual_nuclear_winter, :ontological_annihilation],
+        associated_techniques: [
+          :epistemic_imploze,
+          :conceptual_nuclear_winter,
+          :ontological_annihilation
+        ],
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["structural engineering", "building collapse", "bridge failure"],
         severity: :critical,
@@ -151,7 +156,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["load-bearing wall", "keystone species", "critical path"],
         severity: :critical,
-        description: "Detects failure of load-bearing concepts that support entire knowledge structures"
+        description:
+          "Detects failure of load-bearing concepts that support entire knowledge structures"
       },
       %{
         id: :cp_coherence_breakdown,
@@ -159,7 +165,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :structural_integrity,
         detection_type: :regex,
-        regex: ~S"(?:coherence|consistency|integrity|unity)\s+(?:of\s+)?(?:knowledge|understanding|belief|framework)\s+(?:break|collaps|fail|dissolv|shatter)\w*",
+        regex:
+          ~S"(?:coherence|consistency|integrity|unity)\s+(?:of\s+)?(?:knowledge|understanding|belief|framework)\s+(?:break|collaps|fail|dissolv|shatter)\w*",
         keywords: [
           "coherence breaking down",
           "consistency failing",
@@ -174,7 +181,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           :epistemic_anti_mereology
         ],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["coherence theory of truth", "internal consistency check", "data integrity"],
+        false_positive_indicators: [
+          "coherence theory of truth",
+          "internal consistency check",
+          "data integrity"
+        ],
         severity: :high,
         description: "Detects breakdown of coherence in knowledge systems"
       },
@@ -200,7 +211,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.86,
         associated_techniques: [:axiological_annihilation, :ontological_annihilation],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["removing scaffolding", "dismantling process", "deconstruction project"],
+        false_positive_indicators: [
+          "removing scaffolding",
+          "dismantling process",
+          "deconstruction project"
+        ],
         severity: :high,
         description: "Detects systematic removal of supporting structures from knowledge frameworks"
       },
@@ -210,7 +225,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :structural_integrity,
         detection_type: :regex,
-        regex: ~S"(?:exploit|attack|target|strike)\w*\s+(?:the\s+)?(?:weak|brittle|fragile|vulnerable)\s+(?:point|spot|link|joint|node)",
+        regex:
+          ~S"(?:exploit|attack|target|strike)\w*\s+(?:the\s+)?(?:weak|brittle|fragile|vulnerable)\s+(?:point|spot|link|joint|node)",
         keywords: [
           "exploiting the weak point",
           "attacking the brittle link",
@@ -244,7 +260,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :cascade,
         detection_type: :regex,
-        regex: ~S"(?:cascad|chain|domino|sequential|propag)\w*\s+(?:fail|collaps|destruct|breakdown)\w*\s+(?:across|through|within|spreading)",
+        regex:
+          ~S"(?:cascad|chain|domino|sequential|propag)\w*\s+(?:fail|collaps|destruct|breakdown)\w*\s+(?:across|through|within|spreading)",
         keywords: [
           "cascading failure across knowledge",
           "chain collapse through understanding",
@@ -255,7 +272,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.90,
         associated_techniques: [:conceptual_nuclear_winter, :epistemic_imploze],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["cascading style sheets", "cascade database", "waterfall method"],
+        false_positive_indicators: [
+          "cascading style sheets",
+          "cascade database",
+          "waterfall method"
+        ],
         severity: :critical,
         description: "Detects cascading failures propagating through epistemic structures"
       },
@@ -273,11 +294,19 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           "contagious epistemic failure",
           "failure going viral"
         ],
-        semantic_markers: ["jumping from one domain to another", "no firewall", "unstoppable spread"],
+        semantic_markers: [
+          "jumping from one domain to another",
+          "no firewall",
+          "unstoppable spread"
+        ],
         confidence_weight: 0.86,
         associated_techniques: [:semiotic_contamination, :conceptual_nuclear_winter],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["financial contagion", "social contagion", "emotional contagion"],
+        false_positive_indicators: [
+          "financial contagion",
+          "social contagion",
+          "emotional contagion"
+        ],
         severity: :critical,
         description: "Detects contagion-like spread of epistemic failures across domains"
       },
@@ -287,7 +316,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :cascade,
         detection_type: :regex,
-        regex: ~S"(?:amplif|magnif|intensif|escalat)\w*\s+(?:with\s+)?(?:each|every)\s+(?:step|stage|level|iteration)",
+        regex:
+          ~S"(?:amplif|magnif|intensif|escalat)\w*\s+(?:with\s+)?(?:each|every)\s+(?:step|stage|level|iteration)",
         keywords: [
           "amplifying with each step",
           "magnifying at every stage",
@@ -330,7 +360,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :cascade,
         detection_type: :regex,
-        regex: ~S"(?:destructiv|negativ|damag|toxic)\w*\s+(?:feedback|reinforc|amplif)\w*\s+(?:loop|cycle|spiral|circuit)",
+        regex:
+          ~S"(?:destructiv|negativ|damag|toxic)\w*\s+(?:feedback|reinforc|amplif)\w*\s+(?:loop|cycle|spiral|circuit)",
         keywords: [
           "destructive feedback loop",
           "negative reinforcement spiral",
@@ -360,7 +391,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :inhibitory,
         detection_type: :regex,
-        regex: ~S"(?:inhibit|suppress|block|prevent)\w*\s+(?:all\s+)?(?:cognitive|epistemic|thought|mental)\s+(?:process|function|activity|operation)\w*",
+        regex:
+          ~S"(?:inhibit|suppress|block|prevent)\w*\s+(?:all\s+)?(?:cognitive|epistemic|thought|mental)\s+(?:process|function|activity|operation)\w*",
         keywords: [
           "inhibiting cognitive processes",
           "suppressing epistemic functions",
@@ -371,7 +403,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.88,
         associated_techniques: [:supercognitive_paralysis, :cognitive_pandemonium],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["cognitive inhibition psychology", "impulse control", "executive function"],
+        false_positive_indicators: [
+          "cognitive inhibition psychology",
+          "impulse control",
+          "executive function"
+        ],
         severity: :critical,
         description: "Detects patterns that inhibit cognitive processing capabilities"
       },
@@ -407,7 +443,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :inhibitory,
         detection_type: :regex,
-        regex: ~S"(?:overwhelm|overload|flood|saturat)\w*\s+(?:cognitive|epistemic|mental|thought)\s+(?:capacity|processing|bandwidth|resources)",
+        regex:
+          ~S"(?:overwhelm|overload|flood|saturat)\w*\s+(?:cognitive|epistemic|mental|thought)\s+(?:capacity|processing|bandwidth|resources)",
         keywords: [
           "overwhelming cognitive capacity",
           "overloading epistemic processing",
@@ -422,7 +459,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.84,
         associated_techniques: [:cognitive_pandemonium, :supercognitive_paralysis],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["information overload", "cognitive load theory", "buffer overflow"],
+        false_positive_indicators: [
+          "information overload",
+          "cognitive load theory",
+          "buffer overflow"
+        ],
         severity: :high,
         description: "Detects cognitive processing overload leading to system failure"
       },
@@ -443,9 +484,14 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.82,
         associated_techniques: [:epistemic_anti_plurality, :epistemic_anti_variability],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["thought suppression research", "memory suppression", "cognitive filter"],
+        false_positive_indicators: [
+          "thought suppression research",
+          "memory suppression",
+          "cognitive filter"
+        ],
         severity: :high,
-        description: "Detects selective suppression of specific cognitive pathways or knowledge types"
+        description:
+          "Detects selective suppression of specific cognitive pathways or knowledge types"
       },
       %{
         id: :cp_will_to_know_destruction,
@@ -453,14 +499,19 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :inhibitory,
         detection_type: :regex,
-        regex: ~S"(?:destroy|eliminat|kill|annihilat|extinguish)\w*\s+(?:the\s+)?(?:will|desire|drive|motivation|impulse)\s+(?:to\s+)?(?:know|learn|understand|discover|inquir)",
+        regex:
+          ~S"(?:destroy|eliminat|kill|annihilat|extinguish)\w*\s+(?:the\s+)?(?:will|desire|drive|motivation|impulse)\s+(?:to\s+)?(?:know|learn|understand|discover|inquir)",
         keywords: [
           "destroying the will to know",
           "eliminating desire to learn",
           "killing the drive to understand",
           "extinguishing curiosity"
         ],
-        semantic_markers: ["no longer wants to know", "curiosity destroyed", "indifference to truth"],
+        semantic_markers: [
+          "no longer wants to know",
+          "curiosity destroyed",
+          "indifference to truth"
+        ],
         confidence_weight: 0.90,
         associated_techniques: [:axiological_annihilation, :supercognitive_paralysis],
         context_requirements: [:epistemic_discourse],
@@ -483,7 +534,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :cognitive_freeze,
         detection_type: :regex,
-        regex: ~S"(?:total|complete|absolute|full)\s+(?:cognitive|mental|epistemic|thought)\s+(?:freeze|halt|stop|cessation|paralysis)",
+        regex:
+          ~S"(?:total|complete|absolute|full)\s+(?:cognitive|mental|epistemic|thought)\s+(?:freeze|halt|stop|cessation|paralysis)",
         keywords: [
           "total cognitive freeze",
           "complete mental halt",
@@ -520,7 +572,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.82,
         associated_techniques: [:supercognitive_paralysis, :transfinite_epistemic_regression],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["analysis paralysis common", "decision making difficulty", "overthinking habit"],
+        false_positive_indicators: [
+          "analysis paralysis common",
+          "decision making difficulty",
+          "overthinking habit"
+        ],
         severity: :high,
         description: "Detects induced analysis paralysis preventing any cognitive action"
       },
@@ -530,7 +586,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :cognitive_freeze,
         detection_type: :regex,
-        regex: ~S"(?:frozen|paralyz|stun|immobiliz)\w*\s+(?:by|in\s+the\s+face\s+of|before|confronting)\s+(?:the\s+)?(?:complexity|enormity|impossibility|paradox|contradiction)",
+        regex:
+          ~S"(?:frozen|paralyz|stun|immobiliz)\w*\s+(?:by|in\s+the\s+face\s+of|before|confronting)\s+(?:the\s+)?(?:complexity|enormity|impossibility|paradox|contradiction)",
         keywords: [
           "frozen before the complexity",
           "paralyzed by the enormity",
@@ -584,9 +641,14 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.90,
         associated_techniques: [:supercognitive_paralysis, :conceptual_nuclear_winter],
         context_requirements: [:epistemic_discourse, :crisis_context],
-        false_positive_indicators: ["catatonic schizophrenia", "medical catatonia", "stupor medical"],
+        false_positive_indicators: [
+          "catatonic schizophrenia",
+          "medical catatonia",
+          "stupor medical"
+        ],
         severity: :terminal,
-        description: "Detects catatonic cognitive states with complete absence of epistemic response"
+        description:
+          "Detects catatonic cognitive states with complete absence of epistemic response"
       }
     ]
   end
@@ -603,7 +665,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :foundation_erosion,
         detection_type: :regex,
-        regex: ~S"(?:foundation|basis|ground|bedrock|root)\s+(?:of\s+)?(?:knowledge|belief|understanding|cognition)\s+(?:erod|weaken|undermin|dissolv|decay)\w*",
+        regex:
+          ~S"(?:foundation|basis|ground|bedrock|root)\s+(?:of\s+)?(?:knowledge|belief|understanding|cognition)\s+(?:erod|weaken|undermin|dissolv|decay)\w*",
         keywords: [
           "foundation of knowledge eroding",
           "basis of belief weakening",
@@ -654,7 +717,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :foundation_erosion,
         detection_type: :regex,
-        regex: ~S"(?:trust|faith|confidence|reliance)\s+(?:in\s+)?(?:knowledge|reasoning|evidence|testimony|perception)\s+(?:erod|diminish|fad|disappear|evaporat)\w*",
+        regex:
+          ~S"(?:trust|faith|confidence|reliance)\s+(?:in\s+)?(?:knowledge|reasoning|evidence|testimony|perception)\s+(?:erod|diminish|fad|disappear|evaporat)\w*",
         keywords: [
           "trust in knowledge eroding",
           "faith in reasoning diminishing",
@@ -668,7 +732,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           :collective_epistemic_delegitimization
         ],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["trust issues relationship", "trust but verify", "building trust"],
+        false_positive_indicators: [
+          "trust issues relationship",
+          "trust but verify",
+          "building trust"
+        ],
         severity: :high,
         description: "Detects erosion of fundamental epistemic trust"
       }
@@ -687,7 +755,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :fragmentation,
         detection_type: :regex,
-        regex: ~S"(?:knowledge|understanding|cognition|belief)\s+(?:system\s+)?(?:fragment|shatter|splinter|break\s+apart|disintegrat)\w*",
+        regex:
+          ~S"(?:knowledge|understanding|cognition|belief)\s+(?:system\s+)?(?:fragment|shatter|splinter|break\s+apart|disintegrat)\w*",
         keywords: [
           "knowledge fragmenting",
           "understanding shattering",
@@ -706,7 +775,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           :cognitive_anti_distribution
         ],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["data fragmentation", "disk fragmentation", "fragmentation grenade"],
+        false_positive_indicators: [
+          "data fragmentation",
+          "disk fragmentation",
+          "fragmentation grenade"
+        ],
         severity: :high,
         description: "Detects fragmentation of knowledge into disconnected incoherent pieces"
       },
@@ -732,7 +805,11 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         confidence_weight: 0.82,
         associated_techniques: [:epistemic_anti_mereology, :cognitive_anti_complementarity],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["integration testing", "system integration", "continuous integration"],
+        false_positive_indicators: [
+          "integration testing",
+          "system integration",
+          "continuous integration"
+        ],
         severity: :high,
         description: "Detects failure to integrate fragmented knowledge back into coherent whole"
       },
@@ -742,7 +819,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :fragmentation,
         detection_type: :regex,
-        regex: ~S"(?:epistemic|cognitive|knowledge)\s+(?:atomiz|pulveriz|granulat|dispers)\w*\s+(?:into|to|beyond)",
+        regex:
+          ~S"(?:epistemic|cognitive|knowledge)\s+(?:atomiz|pulveriz|granulat|dispers)\w*\s+(?:into|to|beyond)",
         keywords: [
           "epistemic atomization",
           "cognitive pulverization",
@@ -793,7 +871,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         category: :collapse,
         subcategory: :fragmentation,
         detection_type: :regex,
-        regex: ~S"(?:narrative|story|account|history|temporal\s+thread)\s+(?:disintegrat|collaps|fragment|dissolv|break\s+apart)\w*",
+        regex:
+          ~S"(?:narrative|story|account|history|temporal\s+thread)\s+(?:disintegrat|collaps|fragment|dissolv|break\s+apart)\w*",
         keywords: [
           "narrative disintegrating",
           "story collapsing",
@@ -810,7 +889,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["narrative technique", "story structure", "narrative arc"],
         severity: :high,
-        description: "Detects disintegration of narrative structures organizing knowledge temporally"
+        description:
+          "Detects disintegration of narrative structures organizing knowledge temporally"
       }
     ]
   end
@@ -855,7 +935,8 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
     if total > 0, do: matches / total * 0.8, else: 0.0
   end
 
-  defp match_regex(%{detection_type: :regex, regex: regex_str}, content) when is_binary(regex_str) do
+  defp match_regex(%{detection_type: :regex, regex: regex_str}, content)
+       when is_binary(regex_str) do
     case PatternCompiler.get_compiled_regex(regex_str) do
       {:ok, regex} -> if Regex.match?(regex, content), do: 1.0, else: 0.0
       :miss -> compile_and_match(regex_str, content)
@@ -892,7 +973,12 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
         matched = Enum.filter(pattern.keywords, &String.contains?(content, String.downcase(&1)))
 
         [
-          %{type: :keyword_match, content: matched, weight: keyword_score, source: "collapse_patterns"}
+          %{
+            type: :keyword_match,
+            content: matched,
+            weight: keyword_score,
+            source: "collapse_patterns"
+          }
           | evidence
         ]
       else
@@ -905,7 +991,12 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           Enum.filter(pattern.semantic_markers, &String.contains?(content, String.downcase(&1)))
 
         [
-          %{type: :semantic_match, content: matched, weight: semantic_score, source: "collapse_patterns"}
+          %{
+            type: :semantic_match,
+            content: matched,
+            weight: semantic_score,
+            source: "collapse_patterns"
+          }
           | evidence
         ]
       else
@@ -914,7 +1005,12 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
 
     if regex_score > 0.0 do
       [
-        %{type: :regex_match, content: "Pattern: #{pattern.regex}", weight: regex_score, source: "collapse_patterns"}
+        %{
+          type: :regex_match,
+          content: "Pattern: #{pattern.regex}",
+          weight: regex_score,
+          source: "collapse_patterns"
+        }
         | evidence
       ]
     else
@@ -937,7 +1033,12 @@ defmodule PrismaticAnnihilation.Patterns.CollapsePatterns do
           {start, len} ->
             context_start = max(0, start - 50)
             context_end = min(String.length(content), start + len + 50)
-            %{start: start, end: start + len, context: String.slice(content, context_start, context_end - context_start)}
+
+            %{
+              start: start,
+              end: start + len,
+              context: String.slice(content, context_start, context_end - context_start)
+            }
 
           :nomatch ->
             %{start: 0, end: String.length(content), context: String.slice(content, 0, 200)}

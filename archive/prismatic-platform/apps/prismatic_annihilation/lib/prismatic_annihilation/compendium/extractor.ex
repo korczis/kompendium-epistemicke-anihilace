@@ -320,7 +320,8 @@ defmodule PrismaticAnnihilation.Compendium.Extractor do
     lines = String.split(content, "\n")
 
     {techniques, _state, warnings} =
-      Enum.reduce(lines, {[], %{category: nil, subcategory: nil}, []}, fn line, {acc, state, warns} ->
+      Enum.reduce(lines, {[], %{category: nil, subcategory: nil}, []}, fn line,
+                                                                          {acc, state, warns} ->
         cond do
           # Category header: ## CATEGORY
           String.match?(line, ~r/^##\s+[A-Z]/) ->

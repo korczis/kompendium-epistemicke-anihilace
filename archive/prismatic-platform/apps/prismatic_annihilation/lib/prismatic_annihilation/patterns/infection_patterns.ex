@@ -116,7 +116,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         confidence_weight: 0.90,
         associated_techniques: [:semiotic_contamination, :epistemic_teratogenesis],
         context_requirements: [:semiotic_discourse, :epistemic_discourse],
-        false_positive_indicators: ["environmental contamination", "water pollution", "biological infection"],
+        false_positive_indicators: [
+          "environmental contamination",
+          "water pollution",
+          "biological infection"
+        ],
         severity: :high,
         description: "Detects semiotic contamination spreading through sign systems"
       },
@@ -135,7 +139,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "connotation corruption",
           "sign chain broken"
         ],
-        semantic_markers: ["words lose their meaning", "symbols become empty", "references collapse"],
+        semantic_markers: [
+          "words lose their meaning",
+          "symbols become empty",
+          "references collapse"
+        ],
         confidence_weight: 0.85,
         associated_techniques: [:semiotic_contamination, :epistemic_anti_mereology],
         context_requirements: [:semiotic_discourse],
@@ -149,7 +157,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :semiotic,
         detection_type: :regex,
-        regex: ~S"(?:meaning|semantic|sense)\s+(?:drift|shift|slide|wander|migrat)\w*\s+(?:away|uncontrol|patholog|destabiliz)",
+        regex:
+          ~S"(?:meaning|semantic|sense)\s+(?:drift|shift|slide|wander|migrat)\w*\s+(?:away|uncontrol|patholog|destabiliz)",
         keywords: [
           "meaning drifting away",
           "uncontrolled semantic shift",
@@ -159,7 +168,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         confidence_weight: 0.82,
         associated_techniques: [:semiotic_contamination, :epistemic_autodissolution],
         context_requirements: [:semiotic_discourse, :epistemic_discourse],
-        false_positive_indicators: ["semantic versioning", "continental drift", "language evolution"],
+        false_positive_indicators: [
+          "semantic versioning",
+          "continental drift",
+          "language evolution"
+        ],
         severity: :medium,
         description: "Detects pathological semantic drift where meanings shift uncontrollably"
       },
@@ -177,7 +190,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "denotation chain break",
           "meaning reference lost"
         ],
-        semantic_markers: ["nothing refers to anything", "circular reference trap", "empty reference"],
+        semantic_markers: [
+          "nothing refers to anything",
+          "circular reference trap",
+          "empty reference"
+        ],
         confidence_weight: 0.84,
         associated_techniques: [:semiotic_contamination, :anti_autoreferential_paradoxical_loop],
         context_requirements: [:semiotic_discourse],
@@ -191,17 +208,26 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :semiotic,
         detection_type: :regex,
-        regex: ~S"(?:sign|symbol|meaning|concept)\w*\s+(?:mutat|transform|morph|deform|distort)\w*\s+(?:into|beyond|unrecogniz)",
+        regex:
+          ~S"(?:sign|symbol|meaning|concept)\w*\s+(?:mutat|transform|morph|deform|distort)\w*\s+(?:into|beyond|unrecogniz)",
         keywords: [
           "signs mutating",
           "symbols transforming beyond recognition",
           "meaning morphing uncontrollably"
         ],
-        semantic_markers: ["unrecognizable transformation", "monstrous mutation", "beyond original form"],
+        semantic_markers: [
+          "unrecognizable transformation",
+          "monstrous mutation",
+          "beyond original form"
+        ],
         confidence_weight: 0.80,
         associated_techniques: [:epistemic_teratogenesis, :semiotic_contamination],
         context_requirements: [:semiotic_discourse],
-        false_positive_indicators: ["genetic mutation", "software mutation testing", "morphological analysis"],
+        false_positive_indicators: [
+          "genetic mutation",
+          "software mutation testing",
+          "morphological analysis"
+        ],
         severity: :high,
         description: "Detects pathological mutations of semiotic elements"
       }
@@ -228,7 +254,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "semantic decomposition",
           "conceptual rot"
         ],
-        semantic_markers: ["slowly losing meaning", "gradual corruption", "progressive deterioration"],
+        semantic_markers: [
+          "slowly losing meaning",
+          "gradual corruption",
+          "progressive deterioration"
+        ],
         confidence_weight: 0.85,
         associated_techniques: [:semiotic_contamination, :axiological_annihilation],
         context_requirements: [:epistemic_discourse],
@@ -265,7 +295,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :meaning_corruption,
         detection_type: :regex,
-        regex: ~S"(?:semantic|meaning|conceptual)\s+(?:erosion|wearing|weathering|attrition|diminish)\w*",
+        regex:
+          ~S"(?:semantic|meaning|conceptual)\s+(?:erosion|wearing|weathering|attrition|diminish)\w*",
         keywords: [
           "semantic erosion",
           "meaning wearing away",
@@ -294,13 +325,18 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "gutted understanding",
           "facade of knowledge"
         ],
-        semantic_markers: ["looks intact but empty inside", "form without content", "meaningless shell"],
+        semantic_markers: [
+          "looks intact but empty inside",
+          "form without content",
+          "meaningless shell"
+        ],
         confidence_weight: 0.82,
         associated_techniques: [:ontological_annihilation, :semiotic_contamination],
         context_requirements: [:epistemic_discourse, :philosophical_argument],
         false_positive_indicators: ["hollow tree", "empty set", "hollow point"],
         severity: :high,
-        description: "Detects hollowing of concepts where external form persists but meaning is gone"
+        description:
+          "Detects hollowing of concepts where external form persists but meaning is gone"
       },
       %{
         id: :ip_polysemic_explosion,
@@ -308,7 +344,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :meaning_corruption,
         detection_type: :regex,
-        regex: ~S"(?:meaning|sense|interpretation)\w*\s+(?:multipl|proliferat|explod|fragment|split)\w*\s+(?:uncontrol|beyond|without\s+limit)",
+        regex:
+          ~S"(?:meaning|sense|interpretation)\w*\s+(?:multipl|proliferat|explod|fragment|split)\w*\s+(?:uncontrol|beyond|without\s+limit)",
         keywords: [
           "meanings multiplying uncontrollably",
           "interpretations proliferating",
@@ -318,9 +355,14 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         confidence_weight: 0.80,
         associated_techniques: [:cognitive_pandemonium, :semiotic_contamination],
         context_requirements: [:semiotic_discourse],
-        false_positive_indicators: ["polysemy in linguistics", "multiple interpretations", "rich meaning"],
+        false_positive_indicators: [
+          "polysemy in linguistics",
+          "multiple interpretations",
+          "rich meaning"
+        ],
         severity: :high,
-        description: "Detects uncontrolled explosion of meanings rendering interpretation impossible"
+        description:
+          "Detects uncontrolled explosion of meanings rendering interpretation impossible"
       }
     ]
   end
@@ -337,7 +379,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :viral,
         detection_type: :regex,
-        regex: ~S"(?:epistemic|cognitive|knowledge)\s+(?:virus|viral|infect|contagion|pathogen)\w*\s+(?:spread|transmit|propagat)",
+        regex:
+          ~S"(?:epistemic|cognitive|knowledge)\s+(?:virus|viral|infect|contagion|pathogen)\w*\s+(?:spread|transmit|propagat)",
         keywords: [
           "epistemic virus",
           "cognitive contagion",
@@ -380,17 +423,26 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :viral,
         detection_type: :regex,
-        regex: ~S"(?:infect|contaminat|corrupt|spread)\w*\s+(?:across|between|from\s+\w+\s+to)\s+(?:domain|field|discipline|area|subject)",
+        regex:
+          ~S"(?:infect|contaminat|corrupt|spread)\w*\s+(?:across|between|from\s+\w+\s+to)\s+(?:domain|field|discipline|area|subject)",
         keywords: [
           "spreading across domains",
           "contaminating other fields",
           "infection crossing boundaries"
         ],
-        semantic_markers: ["jumping from one field to another", "no domain safe", "universal corruption"],
+        semantic_markers: [
+          "jumping from one field to another",
+          "no domain safe",
+          "universal corruption"
+        ],
         confidence_weight: 0.84,
         associated_techniques: [:semiotic_contamination, :epistemic_anti_plurality],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["cross-domain knowledge transfer", "interdisciplinary", "cross-pollination"],
+        false_positive_indicators: [
+          "cross-domain knowledge transfer",
+          "interdisciplinary",
+          "cross-pollination"
+        ],
         severity: :critical,
         description: "Detects cross-domain infection where corruption jumps between knowledge areas"
       },
@@ -408,7 +460,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "dormant contamination",
           "carrier of epistemic disease"
         ],
-        semantic_markers: ["appears healthy but infected", "unknowing transmitter", "silent corruption"],
+        semantic_markers: [
+          "appears healthy but infected",
+          "unknowing transmitter",
+          "silent corruption"
+        ],
         confidence_weight: 0.80,
         associated_techniques: [:semiotic_contamination, :epistemic_teratogenesis],
         context_requirements: [:epistemic_discourse],
@@ -422,7 +478,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :viral,
         detection_type: :regex,
-        regex: ~S"(?:vector|channel|pathway|route)\w*\s+(?:of\s+)?(?:transmission|spread|infection)\s+(?:multipl|proliferat|increas)",
+        regex:
+          ~S"(?:vector|channel|pathway|route)\w*\s+(?:of\s+)?(?:transmission|spread|infection)\s+(?:multipl|proliferat|increas)",
         keywords: [
           "multiplying transmission vectors",
           "new channels of infection",
@@ -451,14 +508,19 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :memetic,
         detection_type: :regex,
-        regex: ~S"(?:self|auto)\s*[-]?\s*(?:replicat|reproduc|copy|duplicat)\w*\s+(?:corrupt|destruct|damag|toxic)",
+        regex:
+          ~S"(?:self|auto)\s*[-]?\s*(?:replicat|reproduc|copy|duplicat)\w*\s+(?:corrupt|destruct|damag|toxic)",
         keywords: [
           "self-replicating corruption",
           "auto-reproducing destruction",
           "copying toxic patterns",
           "duplicating damage"
         ],
-        semantic_markers: ["makes copies of itself", "reproduces the destruction", "self-copying virus"],
+        semantic_markers: [
+          "makes copies of itself",
+          "reproduces the destruction",
+          "self-copying virus"
+        ],
         confidence_weight: 0.90,
         associated_techniques: [:epistemic_autodissolution, :semiotic_contamination],
         context_requirements: [:epistemic_discourse],
@@ -480,11 +542,19 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "memetic parasite",
           "idea that feeds on host"
         ],
-        semantic_markers: ["feeds on the host mind", "drains cognitive resources", "parasitic relationship"],
+        semantic_markers: [
+          "feeds on the host mind",
+          "drains cognitive resources",
+          "parasitic relationship"
+        ],
         confidence_weight: 0.86,
         associated_techniques: [:absolute_epistemic_cannibalization, :semiotic_contamination],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["biological parasite", "parasitic relationship", "social parasite"],
+        false_positive_indicators: [
+          "biological parasite",
+          "parasitic relationship",
+          "social parasite"
+        ],
         severity: :high,
         description: "Detects memetic parasites that consume host cognitive resources"
       },
@@ -494,20 +564,26 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :memetic,
         detection_type: :regex,
-        regex: ~S"(?:hidden|concealed|disguised|trojan)\s+(?:within|inside|behind)\s+(?:idea|concept|argument|knowledge|thought)",
+        regex:
+          ~S"(?:hidden|concealed|disguised|trojan)\s+(?:within|inside|behind)\s+(?:idea|concept|argument|knowledge|thought)",
         keywords: [
           "hidden within the idea",
           "concealed inside the concept",
           "trojan argument",
           "disguised destruction"
         ],
-        semantic_markers: ["appears beneficial but destroys", "wolf in sheep's clothing", "deceptive package"],
+        semantic_markers: [
+          "appears beneficial but destroys",
+          "wolf in sheep's clothing",
+          "deceptive package"
+        ],
         confidence_weight: 0.88,
         associated_techniques: [:epistemic_teratogenesis, :semiotic_contamination],
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["trojan horse history", "trojan asteroid", "hidden feature"],
         severity: :critical,
-        description: "Detects cognitive trojan patterns hiding destruction inside benign-seeming ideas"
+        description:
+          "Detects cognitive trojan patterns hiding destruction inside benign-seeming ideas"
       },
       %{
         id: :ip_idea_mutation_chain,
@@ -523,7 +599,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "mutating meme",
           "evolving corruption"
         ],
-        semantic_markers: ["changes each time it spreads", "mutates during transmission", "evolving threat"],
+        semantic_markers: [
+          "changes each time it spreads",
+          "mutates during transmission",
+          "evolving threat"
+        ],
         confidence_weight: 0.78,
         associated_techniques: [:epistemic_teratogenesis, :semiotic_contamination],
         context_requirements: [:epistemic_discourse],
@@ -537,7 +617,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :memetic,
         detection_type: :regex,
-        regex: ~S"(?:misfolded|corrupted|warped)\s+(?:concept|idea|knowledge|understanding)\s+(?:caus|forc|induc|trigger)\w*\s+(?:other|surrounding|adjacent)\s+(?:concept|idea|knowledge)\w*\s+(?:to\s+)?(?:misfold|corrupt|warp)",
+        regex:
+          ~S"(?:misfolded|corrupted|warped)\s+(?:concept|idea|knowledge|understanding)\s+(?:caus|forc|induc|trigger)\w*\s+(?:other|surrounding|adjacent)\s+(?:concept|idea|knowledge)\w*\s+(?:to\s+)?(?:misfold|corrupt|warp)",
         keywords: [
           "misfolded concept causing corruption",
           "warped idea forcing others to warp",
@@ -549,7 +630,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["prion disease", "mad cow disease", "protein folding"],
         severity: :terminal,
-        description: "Detects prion-like epistemic patterns that corrupt others through structural contact"
+        description:
+          "Detects prion-like epistemic patterns that corrupt others through structural contact"
       }
     ]
   end
@@ -566,20 +648,26 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :autoimmune,
         detection_type: :regex,
-        regex: ~S"(?:knowledge|epistemic|cognitive)\s+(?:system|structure|framework)\s+(?:attack|destroy|reject|fight)\w*\s+(?:itself|its\s+own|own)",
+        regex:
+          ~S"(?:knowledge|epistemic|cognitive)\s+(?:system|structure|framework)\s+(?:attack|destroy|reject|fight)\w*\s+(?:itself|its\s+own|own)",
         keywords: [
           "knowledge system attacking itself",
           "epistemic autoimmune",
           "cognitive self-rejection",
           "framework destroying itself"
         ],
-        semantic_markers: ["immune system turned against self", "self-attacking", "autoimmune cognitive"],
+        semantic_markers: [
+          "immune system turned against self",
+          "self-attacking",
+          "autoimmune cognitive"
+        ],
         confidence_weight: 0.90,
         associated_techniques: [:epistemic_autodissolution, :absolute_epistemic_cannibalization],
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["autoimmune disease", "lupus", "rheumatoid arthritis"],
         severity: :critical,
-        description: "Detects epistemic autoimmune responses where knowledge systems attack themselves"
+        description:
+          "Detects epistemic autoimmune responses where knowledge systems attack themselves"
       },
       %{
         id: :ip_defense_turned_weapon,
@@ -595,7 +683,11 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           "skepticism consuming everything",
           "doubt attacking all knowledge"
         ],
-        semantic_markers: ["protector becomes destroyer", "shield becomes weapon", "guardian turned enemy"],
+        semantic_markers: [
+          "protector becomes destroyer",
+          "shield becomes weapon",
+          "guardian turned enemy"
+        ],
         confidence_weight: 0.86,
         associated_techniques: [:epistemic_autodissolution, :reflexivity_perversion],
         context_requirements: [:epistemic_discourse],
@@ -609,7 +701,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :autoimmune,
         detection_type: :regex,
-        regex: ~S"(?:overwhelming|excessive|uncontrolled)\s+(?:cognitive|epistemic|critical)\s+(?:response|reaction|defense)\s+(?:destroy|damag|overwhelm)",
+        regex:
+          ~S"(?:overwhelming|excessive|uncontrolled)\s+(?:cognitive|epistemic|critical)\s+(?:response|reaction|defense)\s+(?:destroy|damag|overwhelm)",
         keywords: [
           "overwhelming cognitive response",
           "excessive critical reaction",
@@ -625,7 +718,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["cytokine storm medical", "immune response", "inflammation"],
         severity: :critical,
-        description: "Detects cognitive cytokine storms where epistemic defenses cause more damage than attacks"
+        description:
+          "Detects cognitive cytokine storms where epistemic defenses cause more damage than attacks"
       },
       %{
         id: :ip_self_consuming_validation,
@@ -646,7 +740,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         context_requirements: [:epistemic_discourse],
         false_positive_indicators: ["validation testing", "verification process", "quality check"],
         severity: :critical,
-        description: "Detects self-consuming validation loops where checking destroys what is checked"
+        description:
+          "Detects self-consuming validation loops where checking destroys what is checked"
       },
       %{
         id: :ip_tolerance_collapse,
@@ -654,7 +749,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         category: :infection,
         subcategory: :autoimmune,
         detection_type: :regex,
-        regex: ~S"(?:tolerance|accept|accommodat)\w*\s+(?:of|for)\s+(?:knowledge|ideas?|belief|thought)\w*\s+(?:collaps|fail|break|disappear)\w*",
+        regex:
+          ~S"(?:tolerance|accept|accommodat)\w*\s+(?:of|for)\s+(?:knowledge|ideas?|belief|thought)\w*\s+(?:collaps|fail|break|disappear)\w*",
         keywords: [
           "tolerance for ideas collapsing",
           "acceptance of knowledge failing",
@@ -664,9 +760,14 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         confidence_weight: 0.82,
         associated_techniques: [:epistemic_anti_plurality, :epistemic_anti_variability],
         context_requirements: [:epistemic_discourse],
-        false_positive_indicators: ["tolerance in engineering", "tolerance levels", "drug tolerance"],
+        false_positive_indicators: [
+          "tolerance in engineering",
+          "tolerance levels",
+          "drug tolerance"
+        ],
         severity: :high,
-        description: "Detects collapse of epistemic tolerance where systems reject all knowledge input"
+        description:
+          "Detects collapse of epistemic tolerance where systems reject all knowledge input"
       }
     ]
   end
@@ -711,7 +812,8 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
     if total > 0, do: matches / total * 0.8, else: 0.0
   end
 
-  defp match_regex(%{detection_type: :regex, regex: regex_str}, content) when is_binary(regex_str) do
+  defp match_regex(%{detection_type: :regex, regex: regex_str}, content)
+       when is_binary(regex_str) do
     case PatternCompiler.get_compiled_regex(regex_str) do
       {:ok, regex} -> if Regex.match?(regex, content), do: 1.0, else: 0.0
       :miss -> compile_and_match(regex_str, content)
@@ -748,7 +850,12 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
         matched = Enum.filter(pattern.keywords, &String.contains?(content, String.downcase(&1)))
 
         [
-          %{type: :keyword_match, content: matched, weight: keyword_score, source: "infection_patterns"}
+          %{
+            type: :keyword_match,
+            content: matched,
+            weight: keyword_score,
+            source: "infection_patterns"
+          }
           | evidence
         ]
       else
@@ -761,7 +868,12 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           Enum.filter(pattern.semantic_markers, &String.contains?(content, String.downcase(&1)))
 
         [
-          %{type: :semantic_match, content: matched, weight: semantic_score, source: "infection_patterns"}
+          %{
+            type: :semantic_match,
+            content: matched,
+            weight: semantic_score,
+            source: "infection_patterns"
+          }
           | evidence
         ]
       else
@@ -770,7 +882,12 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
 
     if regex_score > 0.0 do
       [
-        %{type: :regex_match, content: "Pattern: #{pattern.regex}", weight: regex_score, source: "infection_patterns"}
+        %{
+          type: :regex_match,
+          content: "Pattern: #{pattern.regex}",
+          weight: regex_score,
+          source: "infection_patterns"
+        }
         | evidence
       ]
     else
@@ -793,7 +910,12 @@ defmodule PrismaticAnnihilation.Patterns.InfectionPatterns do
           {start, len} ->
             context_start = max(0, start - 50)
             context_end = min(String.length(content), start + len + 50)
-            %{start: start, end: start + len, context: String.slice(content, context_start, context_end - context_start)}
+
+            %{
+              start: start,
+              end: start + len,
+              context: String.slice(content, context_start, context_end - context_start)
+            }
 
           :nomatch ->
             %{start: 0, end: String.length(content), context: String.slice(content, 0, 200)}

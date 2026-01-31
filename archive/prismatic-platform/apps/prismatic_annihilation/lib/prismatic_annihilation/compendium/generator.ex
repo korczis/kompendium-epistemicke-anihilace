@@ -235,12 +235,13 @@ defmodule PrismaticAnnihilation.Compendium.Generator do
     slug_to_id =
       techniques
       |> Enum.flat_map(fn t ->
-        slugs = [
-          Extractor.slugify(t.name_cs),
-          t.metadata.anchor
-        ]
-        |> Enum.reject(&is_nil/1)
-        |> Enum.uniq()
+        slugs =
+          [
+            Extractor.slugify(t.name_cs),
+            t.metadata.anchor
+          ]
+          |> Enum.reject(&is_nil/1)
+          |> Enum.uniq()
 
         Enum.map(slugs, &{&1, t.id})
       end)
@@ -425,7 +426,10 @@ defmodule PrismaticAnnihilation.Compendium.Generator do
           }
         },
         "category" => %{"type" => "string", "description" => "Primary category classification"},
-        "subcategory" => %{"type" => ["string", "null"], "description" => "Subcategory within primary category"},
+        "subcategory" => %{
+          "type" => ["string", "null"],
+          "description" => "Subcategory within primary category"
+        },
         "severity" => %{
           "type" => "object",
           "required" => ["level", "score"],
@@ -446,9 +450,16 @@ defmodule PrismaticAnnihilation.Compendium.Generator do
             "level" => %{
               "type" => "string",
               "enum" => [
-                "practically_irreversible", "very_difficult", "difficult", "highly_resistant",
-                "moderately_difficult", "partially_reversible", "low_reversibility",
-                "irreversible", "very_low", "unknown"
+                "practically_irreversible",
+                "very_difficult",
+                "difficult",
+                "highly_resistant",
+                "moderately_difficult",
+                "partially_reversible",
+                "low_reversibility",
+                "irreversible",
+                "very_low",
+                "unknown"
               ]
             },
             "score" => %{"type" => "number", "minimum" => 0.0, "maximum" => 1.0}
@@ -463,7 +474,10 @@ defmodule PrismaticAnnihilation.Compendium.Generator do
             "en" => %{"type" => ["string", "null"]}
           }
         },
-        "example" => %{"type" => "object", "properties" => %{"cs" => %{"type" => ["string", "null"]}}},
+        "example" => %{
+          "type" => "object",
+          "properties" => %{"cs" => %{"type" => ["string", "null"]}}
+        },
         "cross_references" => %{"type" => "array", "items" => %{"type" => "string"}},
         "detection_patterns" => %{"type" => "array", "items" => %{"type" => "string"}},
         "page_number" => %{"type" => ["integer", "null"]},
@@ -512,7 +526,10 @@ defmodule PrismaticAnnihilation.Compendium.Generator do
       "type" => "object",
       "required" => ["graph_type", "nodes", "edges"],
       "properties" => %{
-        "graph_type" => %{"type" => "string", "enum" => ["cross_reference", "category_hierarchy", "severity_tiers"]},
+        "graph_type" => %{
+          "type" => "string",
+          "enum" => ["cross_reference", "category_hierarchy", "severity_tiers"]
+        },
         "node_count" => %{"type" => "integer"},
         "edge_count" => %{"type" => "integer"},
         "nodes" => %{"type" => "array", "items" => %{"type" => "object", "required" => ["id"]}},

@@ -123,7 +123,11 @@ defmodule Mix.Tasks.Compendium.Extract do
       {:ok, result} ->
         Mix.shell().info("\nPipeline complete!")
         Mix.shell().info("  Techniques extracted: #{result.extraction.total_count}")
-        Mix.shell().info("  Techniques transformed: #{result.transformation.statistics.total_techniques}")
+
+        Mix.shell().info(
+          "  Techniques transformed: #{result.transformation.statistics.total_techniques}"
+        )
+
         Mix.shell().info("  Files generated: #{result.generation.files_written}")
         Mix.shell().info("  Duration: #{result.pipeline_duration_ms}ms")
         Mix.shell().info("  Warnings: #{length(result.extraction.warnings)}")
@@ -247,7 +251,10 @@ defmodule Mix.Tasks.Compendium.Extract do
     Mix.shell().info("  With examples: #{stats.with_examples}")
     Mix.shell().info("  With cross-references: #{stats.with_cross_references}")
     Mix.shell().info("  Average severity score: #{Float.round(stats.average_severity_score, 3)}")
-    Mix.shell().info("  Average reversibility score: #{Float.round(stats.average_reversibility_score, 3)}")
+
+    Mix.shell().info(
+      "  Average reversibility score: #{Float.round(stats.average_reversibility_score, 3)}"
+    )
 
     Mix.shell().info("\n  By Category:")
 

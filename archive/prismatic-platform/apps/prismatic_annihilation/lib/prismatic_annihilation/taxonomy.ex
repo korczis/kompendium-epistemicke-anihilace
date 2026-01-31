@@ -619,8 +619,7 @@ defmodule PrismaticAnnihilation.Taxonomy do
           "somatic_grounding",
           "minimal_phenomenology"
         ],
-        description:
-          "Systematic destruction of the very possibility of any phenomenal experience.",
+        description: "Systematic destruction of the very possibility of any phenomenal experience.",
         detailed_principle:
           "Attacks the structures that make any experience possible, not just specific experiences.",
         example:
@@ -753,8 +752,7 @@ defmodule PrismaticAnnihilation.Taxonomy do
           "epistemic_developmental_monitoring",
           "concept_formation_guidance"
         ],
-        description:
-          "Induction of process generating malformed, monstrous epistemic structures.",
+        description: "Induction of process generating malformed, monstrous epistemic structures.",
         detailed_principle:
           "Corrupts the process of knowledge generation so only deformed, non-functional concepts can form.",
         example:
@@ -830,8 +828,7 @@ defmodule PrismaticAnnihilation.Taxonomy do
           "Systematic transformation of all reflexivity into a perverted form that corrupts rather than illuminates.",
         detailed_principle:
           "Self-reflection becomes self-deception, metacognition becomes metacorruption.",
-        example:
-          "Every attempt at self-examination leads deeper into self-delusion.",
+        example: "Every attempt at self-examination leads deeper into self-delusion.",
         see_also: [:destrukce_metakognitivni, :epistemicka_sebenegace],
         detection_patterns: [
           "reflexivity_corruption",
@@ -1031,8 +1028,7 @@ defmodule PrismaticAnnihilation.Taxonomy do
           "Systematic elimination of any possibility of variability or diversity in knowledge.",
         detailed_principle:
           "Removes all capacity for cognitive variation, adaptation, or flexibility.",
-        example:
-          "Subject's thinking becomes completely rigid, unable to adapt to new information.",
+        example: "Subject's thinking becomes completely rigid, unable to adapt to new information.",
         see_also: [:kognitivni_anti_transformabilita, :epistemicka_sterilita],
         detection_patterns: [
           "flexibility_destruction",
@@ -1063,8 +1059,7 @@ defmodule PrismaticAnnihilation.Taxonomy do
           "Systematic destruction of any possibility of transformation or change in cognition.",
         detailed_principle:
           "Eliminates the capacity for cognitive change, learning, or development.",
-        example:
-          "Subject's cognitive state becomes frozen, unable to learn or change in any way.",
+        example: "Subject's cognitive state becomes frozen, unable to learn or change in any way.",
         see_also: [:anti_rekuperacni_mechanismus, :epistemicka_nekroza],
         detection_patterns: [
           "learning_capacity_destruction",

@@ -192,10 +192,8 @@ defmodule PrismaticAnnihilation.Compendium.Transformer do
       with_descriptions: Enum.count(techniques, &(not is_nil(&1.description_cs))),
       with_examples: Enum.count(techniques, &(not is_nil(&1.example_cs))),
       with_cross_references: Enum.count(techniques, &(&1.cross_references != [])),
-      average_severity_score:
-        techniques |> Enum.map(& &1.severity_score) |> average(),
-      average_reversibility_score:
-        techniques |> Enum.map(& &1.reversibility_score) |> average()
+      average_severity_score: techniques |> Enum.map(& &1.severity_score) |> average(),
+      average_reversibility_score: techniques |> Enum.map(& &1.reversibility_score) |> average()
     }
 
     result = %{
@@ -589,13 +587,21 @@ defmodule PrismaticAnnihilation.Compendium.Transformer do
   end
 
   defp resolve_category(thematic_category, _kategorie_cs) do
-    Map.get(@category_translations, thematic_category, transliterate_word(String.downcase(thematic_category)))
+    Map.get(
+      @category_translations,
+      thematic_category,
+      transliterate_word(String.downcase(thematic_category))
+    )
   end
 
   defp resolve_subcategory(nil), do: nil
 
   defp resolve_subcategory(subcategory_cs) do
-    Map.get(@subcategory_translations, subcategory_cs, transliterate_word(String.downcase(subcategory_cs)))
+    Map.get(
+      @subcategory_translations,
+      subcategory_cs,
+      transliterate_word(String.downcase(subcategory_cs))
+    )
   end
 
   # --- Domain Resolution ---

@@ -240,3 +240,10 @@ TaxonomyServer.reload()
 | Taxonomy JSON | [../../../priv/data/taxonomy/README.md](../../../priv/data/taxonomy/README.md) |
 | Detection Patterns | [../patterns/README.md](../patterns/README.md) |
 | Tests | [../../../test/README.md](../../../test/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

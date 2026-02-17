@@ -944,3 +944,10 @@ apps/prismatic_bifurcation/lib/prismatic_bifurcation/
 **Version**: 2.0.0 (Comprehensive Elixir Implementation)
 **Last Updated**: 2025-12-21 | **Maintainer**: AIAD Evolution System
 **Total Modules**: 40+ | **Total LOC**: ~4,500+
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../docs/ghl/README.md)

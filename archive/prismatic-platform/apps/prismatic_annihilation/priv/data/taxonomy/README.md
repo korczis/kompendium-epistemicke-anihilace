@@ -162,3 +162,10 @@ mix compendium.extract --validate
 | Detection Patterns | [../patterns/README.md](../patterns/README.md) |
 | TaxonomyServer Code | [../../../lib/prismatic_annihilation/compendium/README.md](../../../lib/prismatic_annihilation/compendium/README.md) |
 | Relationship Graphs | [../relationships/README.md](../relationships/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

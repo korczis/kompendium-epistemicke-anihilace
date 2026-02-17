@@ -135,3 +135,10 @@ Both sources contribute to the detection engine. The Elixir modules provide comp
 | Taxonomy Files | [../taxonomy/README.md](../taxonomy/README.md) |
 | Schemas | [../schemas/README.md](../schemas/README.md) |
 | Relationships | [../relationships/README.md](../relationships/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

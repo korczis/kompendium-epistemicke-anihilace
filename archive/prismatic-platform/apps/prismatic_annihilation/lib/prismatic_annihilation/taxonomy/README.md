@@ -94,3 +94,10 @@ end
 | Taxonomy Data (JSON) | [../../../priv/data/taxonomy/README.md](../../../priv/data/taxonomy/README.md) |
 | Compendium Pipeline | [../compendium/README.md](../compendium/README.md) |
 | Detection Patterns | [../patterns/README.md](../patterns/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

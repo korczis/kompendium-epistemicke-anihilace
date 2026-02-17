@@ -109,3 +109,10 @@ Core types defined in the main module:
 | Detection Patterns | [prismatic_annihilation/patterns/README.md](prismatic_annihilation/patterns/README.md) |
 | Data Files | [../priv/data/README.md](../priv/data/README.md) |
 | Tests | [../test/README.md](../test/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../docs/ghl/README.md)

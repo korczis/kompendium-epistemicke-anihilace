@@ -118,3 +118,10 @@ python -m jsonschema -i taxonomy/EA-001-*.json schemas/technique.schema.json
 | Pattern Files | [../patterns/README.md](../patterns/README.md) |
 | Relationships | [../relationships/README.md](../relationships/README.md) |
 | Pipeline Code | [../../../lib/prismatic_annihilation/compendium/README.md](../../../lib/prismatic_annihilation/compendium/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

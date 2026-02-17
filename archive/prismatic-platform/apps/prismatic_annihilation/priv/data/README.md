@@ -104,3 +104,10 @@ Application Start
 | Source Code | [../../lib/README.md](../../lib/README.md) |
 | Compendium Pipeline | [../../lib/prismatic_annihilation/compendium/README.md](../../lib/prismatic_annihilation/compendium/README.md) |
 | Tests | [../../test/README.md](../../test/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../docs/ghl/README.md)

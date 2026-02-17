@@ -237,3 +237,10 @@ All usage must comply with `docs/ethical_framework.md` and NO MERCY/NO DOUBTS do
 - [Secondary Archive](../../garden/prismatic-legacy/sites/blog/.tmp/anihilace/)
 - [NABLA Architecture](../prismatic_nabla/CLAUDE.md)
 - [Evil Framework](../prismatic_evil/CLAUDE.md)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../docs/ghl/README.md)

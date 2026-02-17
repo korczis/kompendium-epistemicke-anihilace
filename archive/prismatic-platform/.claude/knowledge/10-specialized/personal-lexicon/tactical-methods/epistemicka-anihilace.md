@@ -31,3 +31,10 @@ confidence by making all sources suspect.[0m
 
 [38;2;248;248;242m**Kategorie**: Tactical Methods[0m [38;2;248;248;242m**ID**: 050[0m
 [38;2;248;248;242m**Status**: Extreme hostile tactic[0m
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

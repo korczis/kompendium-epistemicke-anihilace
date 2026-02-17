@@ -202,3 +202,10 @@ DefensiveCoordinator.deactivate_defense(ref)
 | Taxonomy Extensions | [taxonomy/README.md](taxonomy/README.md) |
 | Data Files | [../../priv/data/README.md](../../priv/data/README.md) |
 | Tests | [../../test/README.md](../../test/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../docs/ghl/README.md)

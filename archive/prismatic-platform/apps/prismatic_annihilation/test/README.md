@@ -158,3 +158,10 @@ mix coveralls.html
 | Core Modules | [../lib/prismatic_annihilation/README.md](../lib/prismatic_annihilation/README.md) |
 | Compendium Pipeline | [../lib/prismatic_annihilation/compendium/README.md](../lib/prismatic_annihilation/compendium/README.md) |
 | Data Files | [../priv/data/README.md](../priv/data/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../docs/ghl/README.md)

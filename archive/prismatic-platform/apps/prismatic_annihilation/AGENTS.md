@@ -94,3 +94,10 @@ Use the red-blue synthesis pattern where Red Team simulates epistemic attacks an
 ---
 
 *Prismatic Annihilation Agent Guide v1.0.0 | Prismatic Platform*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../docs/ghl/README.md)

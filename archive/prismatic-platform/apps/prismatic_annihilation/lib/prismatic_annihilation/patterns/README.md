@@ -196,3 +196,10 @@ The Elixir pattern modules in this directory work in parallel with the JSON patt
 | Compendium Pipeline | [../compendium/README.md](../compendium/README.md) |
 | Taxonomy | [../taxonomy/README.md](../taxonomy/README.md) |
 | Tests | [../../../test/README.md](../../../test/README.md) |
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../../../../docs/ghl/README.md)

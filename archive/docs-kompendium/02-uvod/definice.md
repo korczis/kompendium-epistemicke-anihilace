@@ -284,3 +284,10 @@ V následujících kapitolách budou detailně rozpracovány specifické manifes
 - [Teoretické základy a konceptuální rámec](/kompendium/uvod/teoreticke-zaklady)
 - [Diagnostické indikátory a markery](/kompendium/cast-iv/kapitola-11)
 - [Filozofické implikace](/kompendium/cast-v/kapitola-14)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

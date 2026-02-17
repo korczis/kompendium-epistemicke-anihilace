@@ -136,3 +136,10 @@ Každá případová studie obsahuje:
 ---
 
 *Přílohy poskytují praktické nástroje a referenční materiály nezbytné pro efektivní aplikaci taxonomie v klinické praxi, výzkumu a vzdělávání.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

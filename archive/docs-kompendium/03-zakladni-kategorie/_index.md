@@ -162,3 +162,10 @@ Následující kapitoly podrobně rozpracovávají specifické techniky a scén�
 - [Kapitola 3: Pokročilá edukativní implementace](/kompendium/cast-i/kapitola-3)
 - [Definice epistemické a kognitivní anihilace](/kompendium/uvod/definice)
 - [Etické aspekty a upozornění](/kompendium/predmluva/eticke-aspekty)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

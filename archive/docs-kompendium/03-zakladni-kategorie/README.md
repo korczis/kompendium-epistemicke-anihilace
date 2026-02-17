@@ -105,3 +105,10 @@ Taxonomie je organizována podle následujících dimenzí:
 ---
 
 *Základní kategorie představují fundamentální taxonomické jednotky nezbytné pro porozumění komplexnějším formám epistemické anihilace. Jejich systematická klasifikace poskytuje konceptuální nástroje pro identifikaci, prevenci a terapeutické adresování epistemických traumat.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

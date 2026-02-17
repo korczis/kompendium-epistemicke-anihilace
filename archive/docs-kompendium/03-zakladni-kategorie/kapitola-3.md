@@ -718,3 +718,10 @@ V následujících částech kompendia budou detailně rozpracovány pokročilej
 - [Etické aspekty a upozornění](/kompendium/predmluva/eticke-aspekty)
 - [Terapeutické přístupy](/kompendium/cast-iv/kapitola-12)
 - [Preventivní strategie](/kompendium/cast-iv/kapitola-13)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

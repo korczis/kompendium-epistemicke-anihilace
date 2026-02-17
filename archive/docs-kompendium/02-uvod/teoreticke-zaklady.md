@@ -332,3 +332,9 @@ V následujících kapitolách budou prezentovány konkrétní taxonomické kate
 - [Metodologické poznámky k taxonomii](/kompendium/uvod/metodologicke-poznamky)
 - [Filozofické implikace](/kompendium/cast-v/kapitola-14)
 
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

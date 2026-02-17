@@ -89,3 +89,10 @@ Je třeba zdůraznit, že tato striktní omezení nejsou motivována akademický
 - [O účelu kompendia](/kompendium/predmluva/ucel-kompendia)
 - [Etické aspekty a upozornění](/kompendium/predmluva/eticke-aspekty)
 - [Jak používat toto kompendium](/kompendium/predmluva/jak-pouzivat)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

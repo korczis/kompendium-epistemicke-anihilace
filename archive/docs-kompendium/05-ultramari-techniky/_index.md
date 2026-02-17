@@ -19,3 +19,10 @@ technik epistemické a kognitivní anihilace. Tato část je přísně regulová
   reflexivity, transnarativní anihilace a další paradoxální techniky
 - [Kapitola 10: Transkonceptuální mechanismy (Techniky 121-150)](./kapitola-10) - Epistemická
   anti-pluralita, anti-distribuce a další transkonceptuální mechanismy
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

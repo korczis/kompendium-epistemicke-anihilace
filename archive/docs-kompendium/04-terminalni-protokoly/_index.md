@@ -170,3 +170,10 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 - [Kapitola 4: Extrémní výcviková sekvence](/kompendium/cast-ii/kapitola-4)
 - [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/cast-ii/kapitola-5)
 - [Ultramární techniky fundamentální dekonstrukce](/kompendium/cast-iii)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

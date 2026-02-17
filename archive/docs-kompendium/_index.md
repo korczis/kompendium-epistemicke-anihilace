@@ -130,3 +130,10 @@ Doplňkové materiály, praktické nástroje a referenční zdroje.
 ---
 
 *Poznámka: Toto kompendium obsahuje specializované odborné informace určené primárně pro kvalifikované psychiatry, psychology, filozofy a výzkumníky v oblasti epistemologie a kognitivních věd. Vyžaduje odpovědné zacházení a etickou supervizi.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../ghl/README.md)

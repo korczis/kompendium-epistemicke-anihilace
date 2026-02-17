@@ -248,3 +248,10 @@ Porozumění historickému kontextu studia epistemických traumat není pouze ak
 - [Teoretické základy a konceptuální rámec](/kompendium/uvod/teoreticke-zaklady)
 - [Metodologické poznámky k taxonomii](/kompendium/uvod/metodologicke-poznamky)
 - [Filozofické implikace](/kompendium/cast-v/kapitola-14)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

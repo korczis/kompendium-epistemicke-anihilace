@@ -120,3 +120,10 @@ Propojení poznatků z různých disciplín - psychologie, neurovědy, sociologi
 ---
 
 *Teoretické reflexe poskytují hlubší porozumění filozofickým a interdisciplinárním aspektům epistemické anihilace, čímž obohacují praktické aplikace o širší konceptuální rámec.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

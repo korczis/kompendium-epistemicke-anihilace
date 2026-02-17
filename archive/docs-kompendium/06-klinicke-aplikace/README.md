@@ -119,3 +119,10 @@ Rozlišení epistemické anihilace od:
 ---
 
 *Klinické aplikace představují praktické využití teoretických poznatků taxonomie v reálné péči o pacienty s epistemickými problémy.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

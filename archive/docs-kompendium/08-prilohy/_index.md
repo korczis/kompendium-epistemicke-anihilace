@@ -13,3 +13,10 @@ případových studií, výcvikových metodik a terminologického slovníku.
 - [Příloha C: Výcviková metodika](./priloha-c) - Protokoly pro specializovaný výcvik a evaluační
   nástroje
 - [Příloha D: Glosář](./priloha-d) - Terminologický slovník a meta-epistemické pojmy
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

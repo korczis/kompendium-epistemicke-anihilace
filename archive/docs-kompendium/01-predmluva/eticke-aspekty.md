@@ -172,3 +172,10 @@ Všichni uživatelé kompendia jsou povinni pravidelně se seznamovat s aktualiz
 - [Pro koho je určeno](/kompendium/predmluva/pro-koho-je-urceno)
 - [Jak používat toto kompendium](/kompendium/predmluva/jak-pouzivat)
 - [Specializované bezpečnostní protokoly](/kompendium/cast-ii/kapitola-5)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

@@ -13,3 +13,10 @@ včetně definic, historického kontextu a konceptuálního rámce.
 - [Teoretické základy a konceptuální rámec](./teoreticke-zaklady) - Teoretická východiska taxonomie
 - [Metodologické poznámky k taxonomii](./metodologicke-poznamky) - Metodologické přístupy použité při
   tvorbě taxonomie
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

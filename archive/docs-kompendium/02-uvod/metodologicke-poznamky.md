@@ -325,3 +325,10 @@ V následujících kapitolách budou prezentovány specifické taxonomické kate
 - [Historický kontext studia epistemických traumat](/kompendium/uvod/historicky-kontext)
 - [Teoretické základy a konceptuální rámec](/kompendium/uvod/teoreticke-zaklady)
 - [Diagnostické indikátory a markery](/kompendium/cast-iv/kapitola-11)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

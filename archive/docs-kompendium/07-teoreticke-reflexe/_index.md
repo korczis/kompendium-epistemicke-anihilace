@@ -11,3 +11,10 @@ interdisciplinární perspektivy, zkoumající hlubší implikace tohoto fenomé
   a fenomenologické aspekty
 - [Kapitola 15: Interdisciplinární perspektivy](./kapitola-15) - Neurovědecké koreláty,
   kognitivně-lingvistické aspekty a sociální dynamika
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

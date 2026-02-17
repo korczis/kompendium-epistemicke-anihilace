@@ -50,3 +50,10 @@ Explicitní vymezení hranic legitimního využití poznatků a potenciálních 
 ---
 
 *Předmluva je nezbytným základem pro odpovědnou práci s kompendiem. Její důkladné prostudování je podmínkou pro pokračování k dalším sekcím.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

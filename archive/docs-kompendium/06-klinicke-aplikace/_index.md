@@ -13,3 +13,10 @@ diagnostických nástrojů, terapeutických přístupů a preventivních strateg
   reintegrace a obranné strategie
 - [Kapitola 13: Preventivní strategie](./kapitola-13) - Kognitivní imunizace, resilienční schémata a
   strukturální preventivní mechanismy
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

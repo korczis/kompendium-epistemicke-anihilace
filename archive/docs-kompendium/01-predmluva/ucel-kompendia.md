@@ -38,3 +38,10 @@ V době charakterizované informační explozí, sofistikovanými formami propag
 - [Etické aspekty a upozornění](/kompendium/predmluva/eticke-aspekty)
 - [Jak používat toto kompendium](/kompendium/predmluva/jak-pouzivat)
 - [Definice epistemické a kognitivní anihilace](/kompendium/uvod/definice)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

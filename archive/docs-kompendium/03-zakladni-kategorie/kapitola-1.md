@@ -498,3 +498,10 @@ V následující kapitole budou analyzovány specifické scénáře epistemické
 - [Kapitola 3: Pokročilá edukativní implementace](/kompendium/cast-i/kapitola-3)
 - [Etické aspekty a upozornění](/kompendium/predmluva/eticke-aspekty)
 - [Diagnostické indikátory a markery](/kompendium/cast-iv/kapitola-11)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

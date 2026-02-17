@@ -70,3 +70,10 @@ Systematické postupy zahrnující:
 ---
 
 *⚠️ Terminální protokoly představují nejrizikovější část kompendia. Jejich studium vyžaduje maximální opatrnost a odpovědnost.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

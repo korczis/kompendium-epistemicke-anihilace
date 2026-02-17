@@ -109,3 +109,10 @@ Studium těchto technik představuje fundamentální etické dilema mezi:
 ---
 
 *🚨 Ultramární techniky představují nejnebezpečnější část kompendia. Jejich studium je vyhrazeno pouze pro nejvíce kvalifikované odborníky s maximální etickou odpovědností.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

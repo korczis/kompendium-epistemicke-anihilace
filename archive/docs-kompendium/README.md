@@ -126,3 +126,10 @@ Vzhledem k povaze obsahu jsou implementovány následující bezpečnostní opat
 ---
 
 *Poznámka: Toto kompendium není určeno pro širokou veřejnost. Obsahuje specializované odborné informace s potenciálně rizikovým obsahem, který vyžaduje odpovědné zacházení ze strany kvalifikovaných odborníků.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../ghl/README.md)

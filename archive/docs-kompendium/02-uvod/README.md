@@ -74,3 +74,10 @@ Kontinuální hodnocení etických implikací výzkumu a aplikace taxonomie.
 ---
 
 *Úvod poskytuje nezbytný teoretický základ pro porozumění komplexní taxonomii epistemické anihilace. Důkladné prostudování této sekce je klíčové pro adekvátní práci s dalšími částmi kompendia.*
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

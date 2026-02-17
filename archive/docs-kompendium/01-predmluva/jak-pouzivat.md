@@ -289,3 +289,10 @@ Kompendium epistemické a kognitivní anihilace nepředstavuje uzavřený a defi
 - [Pro koho je určeno](/kompendium/predmluva/pro-koho-je-urceno)
 - [Etické aspekty a upozornění](/kompendium/predmluva/eticke-aspekty)
 - [Definice epistemické a kognitivní anihilace](/kompendium/uvod/definice)
+
+---
+
+**CONFIDENTIAL AND PROPRIETARY**
+*Property of Prismatic Platform. Unauthorized distribution prohibited.*
+
+[GHL License](../../ghl/README.md)

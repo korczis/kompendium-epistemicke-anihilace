@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.8,
+  "category": "strukturalni_epistemicka_patologie",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Rekurzivní reactivace",
+        "hermeneutická revitalizace",
+        "meta-cirkulární intervence",
+        "reflexivní rekonstituace"
+      ],
+      "detection_patterns": [
+        "Linearizace myšlení",
+        "ztráta sebereflexe",
+        "rekurzivní blokáda",
+        "hermeneutická sterilita",
+        "epistemická hypertrofie"
+      ],
+      "manifestations": [
+        "Linearizace myšlení",
+        "ztráta sebereflexe",
+        "rekurzivní blokáda",
+        "hermeneutická sterilita",
+        "epistemická hypertrofie"
+      ],
+      "name_cs": "Epistemická anti-cirkularita",
+      "name_en": "Epistemic Anti-circularity",
+      "severity_score": 0.8,
+      "technique_id": "EA-096-epistemicka-anti-cirkularita"
+    }
+  ],
+  "technique_count": 1
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-135-kognitivni-anti-operacionalita",
+  "metadata": {
+    "index": 135,
+    "source": "index",
+    "anchor": "kognitivni-anti-operacionalita",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KOGNITIVNÍ PROCESNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Kognitivní anti-operacionalita",
+    "en": "Cognitive Anti-operationality"
+  },
+  "page_number": 149,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "cognitive_process_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

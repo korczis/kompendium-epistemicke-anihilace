@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "phenomenological_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-051-absolutni-kognitivni-anti-fenomenalita",
+  "metadata": {
+    "index": 51,
+    "source": "index",
+    "anchor": "absolutni-kognitivni-anti-fenomenalita",
+    "extracted_category_cs": "FENOMENOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "FENOMENÁLNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní kognitivní anti-fenomenalita",
+    "en": "Absolute Cognitive Anti-phenomenality"
+  },
+  "page_number": 146,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "phenomenal_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

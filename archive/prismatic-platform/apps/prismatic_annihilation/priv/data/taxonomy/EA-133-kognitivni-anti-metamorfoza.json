@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-133-kognitivni-anti-metamorfoza",
+  "metadata": {
+    "index": 133,
+    "source": "index",
+    "anchor": "kognitivni-anti-metamorfoza",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KOGNITIVNÍ PROCESNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Kognitivní anti-metamorfóza",
+    "en": "Cognitive Anti-metamorphosis"
+  },
+  "page_number": 27,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "cognitive_process_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

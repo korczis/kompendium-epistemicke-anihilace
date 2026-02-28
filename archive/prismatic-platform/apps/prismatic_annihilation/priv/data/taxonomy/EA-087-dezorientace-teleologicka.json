@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "ucelova_destruktivni_technika",
+  "cross_references": [
+    "intencionalni-anihilace",
+    "teleologie-anti-kognitivni",
+    "axiologicka-anihilace"
+  ],
+  "defense_strategies": [
+    "Pragmatická účelovost",
+    "minimální cílová orientace"
+  ],
+  "description": {
+    "cs": "Stav, kdy subjekt ztrácí jakoukoliv možnost stanovení cílů, účelů či směřování svého myšlení a jednání, vedoucí k naprosté absenci jakékoliv cílesměrnosti či intencionality.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Ztráta směřování",
+    "neschopnost stanovit cíle",
+    "axiologická dezorientace",
+    "naprosté absenci jakékoliv cílesměrnosti či intencionality"
+  ],
+  "domain": "cilove-orientovane_kognitivni_procesy",
+  "example": {
+    "cs": "Doktorand v oboru filozofie pracuje na disertaci o environmentální etice. Při konzultacích s jeho školitelem je systematicky konfrontován s otázkami zpochybňujícími jakýkoliv účel či cíl jeho výzkumu. Když tvrdí, že jeho cílem je \"přispět k řešení environmentální krize\", je tento cíl dekonstruován jako naivně utilitární. Když reformuluje svůj cíl jako \"projasnění konceptuálních základů environmentálního myšlení\", je tento cíl zpochybněn jako arbitrární intelektuální cvičení. Jakýkoliv pokus o artikulaci účelu jeho práce je systematicky podkopáván, včetně meta-účelů jako \"dokončení disertace\" nebo \"získání akademické pozice\". Po měsících takových konzultací doktorand zjišťuje, že ztratil jakýkoliv pocit směřování či účelu ve své práci – píše bez jakéhokoliv vědomí \"proč\" píše nebo \"k čemu\" jeho práce směřuje, což vede k fundamentální neschopnosti strukturovat svůj výzkum nebo činit jakákoliv rozhodnutí ohledně jeho směřování."
+  },
+  "id": "EA-087-dezorientace-teleologicka",
+  "metadata": {
+    "index": 87,
+    "source": "primary",
+    "anchor": "dezorientace-teleologicka",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Účelová destruktivní technika"
+  },
+  "name": {
+    "cs": "Dezorientace teleologická",
+    "en": "Disorientation Teleologicka"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Ztráta směřování",
+    "neschopnost stanovit cíle",
+    "axiologická dezorientace"
+  ]
+}

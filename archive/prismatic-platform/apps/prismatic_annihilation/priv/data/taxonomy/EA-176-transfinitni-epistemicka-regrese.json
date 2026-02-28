@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-176-transfinitni-epistemicka-regrese",
+  "metadata": {
+    "index": 176,
+    "source": "index",
+    "anchor": "transfinitni-epistemicka-regrese",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "METAEPISTEMICKÉ TECHNIKY",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Transfinitní epistemická regrese",
+    "en": "Transfinite Epistemic Regression"
+  },
+  "page_number": 82,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "meta_epistemic",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "systemicka_epistemicka_redukce",
+  "cross_references": [
+    "mereologicka-anti-kognice",
+    "redukcionismus-patologicky",
+    "epistemicka-atomizace"
+  ],
+  "defense_strategies": [
+    "Holistické kognitivní techniky",
+    "externalizace integračních procesů"
+  ],
+  "description": {
+    "cs": "Epistemická doména, v níž jsou aktivně potlačeny všechny podmínky umožňující emergenci komplexních struktur z jednodušších prvků, vedoucí k fundamentální nemožnosti vzniku jakýchkoliv emergentních vlastností či vzorců.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Neschopnost vnímat vzorce",
+    "integrovat informace",
+    "redukcionistické uvěznění",
+    "fundamentální nemožnosti vzniku jakýchkoliv emergentních vlastností či vzorců"
+  ],
+  "domain": "integrativni_kognitivni_procesy",
+  "example": {
+    "cs": "Výzkumný tým v oblasti komplexních systémů je pod vedením nového ředitele institutu nucen rozložit všechny zkoumané fenomény na atomické komponenty. Jakýkoliv pokus o identifikaci emergentních vlastností systému je systematicky odmítán jako \"nevědecký mysticiismus\". Výzkumníci jsou nuceni eliminovat z publikací pojmy jako \"synergie\", \"emergentní vlastnost\" nebo \"samoorganizace\". Když jeden z výzkumníků demonstruje, že určité vlastnosti systému nelze redukovat na součet vlastností komponent, je jeho práce zamítnuta s odůvodněním, že \"zjevně neporozuměl základním součástem dostatečně precizně\". Po roce takového vedení celý tým zjišťuje, že přestože mají perfektní analýzu jednotlivých komponent systému, jsou fundamentálně neschopni konceptualizovat nebo vnímat jakékoliv vzorce či vlastnosti, které by mohly existovat na úrovni systémového celku."
+  },
+  "id": "EA-070-anti-emergencni-pole",
+  "metadata": {
+    "index": 70,
+    "source": "primary",
+    "anchor": "anti-emergencni-pole",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Systemická epistemická redukce"
+  },
+  "name": {
+    "cs": "Anti-emergenční pole",
+    "en": "Anti-emergencni Field"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Neschopnost vnímat vzorce",
+    "integrovat informace",
+    "redukcionistické uvěznění"
+  ]
+}

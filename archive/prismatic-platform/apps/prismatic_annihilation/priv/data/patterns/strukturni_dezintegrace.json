@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 1.0,
+  "category": "strukturni_dezintegrace",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Externí systematická intervence",
+        "kognitivní restaurování",
+        "interdisciplinární přístupy ke stabilizaci struktur"
+      ],
+      "detection_patterns": [
+        "Rozpad epistemických struktur",
+        "nemožnost vytvářet koherentní poznatkové systémy",
+        "totalní dezintegrace"
+      ],
+      "manifestations": [
+        "Rozpad epistemických struktur",
+        "nemožnost vytvářet koherentní poznatkové systémy",
+        "totalní dezintegrace"
+      ],
+      "name_cs": "Epistemická anti-architektonika",
+      "name_en": "Epistemic Anti-architectonics",
+      "severity_score": 1.0,
+      "technique_id": "EA-095-epistemicka-anti-architektonika"
+    }
+  ],
+  "technique_count": 1
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "cognitive_destruction",
+  "cross_references": [
+    "kognitivni-anti-rekurzivita",
+    "metakognitivni-implosivita",
+    "implozivni-rekurze"
+  ],
+  "defense_strategies": [
+    "Kognitivní deeskalace",
+    "metakognitivní grounding",
+    "rekurzivní limitace",
+    "externalizace reflexe"
+  ],
+  "description": {
+    "cs": "Metakognitivní rekurzivní dezintegrace představuje proces, při němž vyšší kognitivní funkce (zejména schopnost reflexe vlastních myšlenkových procesů) vytvářejí sebereflexivní smyčky, které postupně narušují svou vlastní strukturální integritu a vedou k systematickému rozpadu metakognitivních schopností. Tento fenomén lze charakterizovat jako formu kognitivní \"autokanibalizace\", kdy myšlení samo sebe konzumuje v nekonečném rekurzivním procesu.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Metakognitivní paralýza",
+    "rekurzivní introspektivní smyčky",
+    "myšlenková autofagie",
+    "reflexivní fragmentace"
+  ],
+  "domain": "vyssi_kognitivni_funkce_a_sebereflexivni_procesy",
+  "example": {
+    "cs": "Nadaná doktorandka v oboru kognitivní vědy se zaměřuje na výzkum metakognitivních procesů. Pro lepší pochopení předmětu svého studia začíná systematicky analyzovat své vlastní myšlenkové procesy během řešení komplexních problémů. Zpočátku jí tento přístup umožňuje získat cenné vhledy, ale postupně se stále více zaměřuje na analýzu samotných metakognitivních procesů, které používá při této sebeanalýze. Vytváří složité kategorizační systémy pro své myšlenky o myšlenkách a začíná je aplikovat rekurzivně. Po několika měsících takového intenzivního výzkumu začíná pociťovat rostoucí obtíže – zjišťuje, že její myšlení se stává stále více fragmentovaným, neboť každá myšlenka okamžitě spouští lavinu meta-myšlenek, které ji analyzují a ty zase generují další úrovně reflexe. Postupně ztrácí schopnost udržet koherentní myšlenkový proud, jelikož její kognice je neustále přerušována a rozptylována rekurzivními analytickými procesy. V pokročilém stadiu již není schopna provádět ani základní akademickou práci, neboť každý pokus o soustředěné myšlení se okamžitě rozpadá do chaotických rekurzivních smyček. Nakonec je nucena přerušit své studium a vyhledat terapeutickou pomoc, aby znovu získala základní kognitivní stabilitu."
+  },
+  "id": "EA-160-metakognitivni-rekurzivni-dezintegrace",
+  "metadata": {
+    "index": 160,
+    "source": "archive",
+    "anchor": "metakognitivni-rekurzivni-dezintegrace",
+    "extracted_category_cs": "KOGNITIVNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "METAKOGNITIVNÍ ANIHILACE",
+    "raw_kategorie": "Metakognitivní patologie"
+  },
+  "name": {
+    "cs": "Metakognitivní rekurzivní dezintegrace",
+    "en": "Metacognitive Recursive Disintegration"
+  },
+  "page_number": 135,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": "metacognitive_annihilation",
+  "temporal_profile": "postupne_akcelerujici_s_kaskadovitym_zaverem",
+  "typical_manifestations": [
+    "Metakognitivní paralýza",
+    "rekurzivní introspektivní smyčky",
+    "myšlenková autofagie",
+    "reflexivní fragmentace"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "hodnotova_destruktivni_technika",
+  "cross_references": [
+    "neutralizace-axiologicka",
+    "dezorientace-teleologicka",
+    "ontologicka-anti-determinace"
+  ],
+  "defense_strategies": [
+    "Minimalistický axiologický pragmatismus",
+    "externí hodnotové kotvy"
+  ],
+  "description": {
+    "cs": "Systematická destrukce jakékoliv hodnotové báze, která by mohla sloužit jako orientační rámec pro evaluaci poznání, vedoucí k absolutní nemožnosti jakéhokoliv hodnotového rozlišování.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Axiologický nihilismus",
+    "neschopnost evaluace",
+    "hodnotová dezorientace",
+    "absolutní nemožnosti jakéhokoliv hodnotového rozlišování"
+  ],
+  "domain": "hodnotove_kognitivni_systemy",
+  "example": {
+    "cs": "Skupina studentů etiky je vystavena semestrovému semináři, který systematicky dekonstruuje veškeré možné základy etických hodnot. Utilitarismus je kritizován jako vnitřně rozporný, kantovský deontologismus jako nekonzistentní, ctnostní etika jako kruhová, kontraktualismus jako reduktivní. Jakákoliv snaha studentů o nalezení alespoň provizorního hodnotového základu je systematicky podkopávána. Když jeden student navrhne, že bychom mohli přijmout minimální hodnotový axiom \"utrpení je prima facie nežádoucí\", je tento axiom zpochybněn sérií protipříkladů, kulturních relativizací a metaetických dekonstrukcí. Po semestru studenti zjišťují, že jsou prakticky neschopni provést jakékoliv hodnotové soudy – nemohou smysluplně označit nic jako \"dobré\", \"špatné\", \"žádoucí\" nebo \"nežádoucí\", což vede nejen k paralýze jejich etického myšlení, ale i k fundamentální nemožnosti evaluace jakéhokoliv poznání."
+  },
+  "id": "EA-075-axiologicka-anihilace",
+  "metadata": {
+    "index": 75,
+    "source": "primary",
+    "anchor": "axiologicka-anihilace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Hodnotová destruktivní technika"
+  },
+  "name": {
+    "cs": "Axiologická anihilace",
+    "en": "Axiological Annihilation"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "difficult",
+    "score": 0.25
+  },
+  "severity": {
+    "level": "critical",
+    "score": 0.95
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Axiologický nihilismus",
+    "neschopnost evaluace",
+    "hodnotová dezorientace"
+  ]
+}

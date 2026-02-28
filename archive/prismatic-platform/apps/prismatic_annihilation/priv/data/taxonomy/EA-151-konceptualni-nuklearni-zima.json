@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "conceptual_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-151-konceptualni-nuklearni-zima",
+  "metadata": {
+    "index": 151,
+    "source": "index",
+    "anchor": "konceptualni-nuklearni-zima",
+    "extracted_category_cs": "KONCEPTUÁLNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KONCEPTUÁLNÍ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Konceptuální nukleární zima",
+    "en": "Conceptual Nuclear Winter"
+  },
+  "page_number": 66,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "conceptual_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

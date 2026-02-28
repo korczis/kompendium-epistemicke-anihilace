@@ -1,0 +1,69 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.54,
+  "category": "identity_destruction",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní egologická dezintegrace",
+      "name_en": "Absolute Egological Disintegration",
+      "severity_score": 0.5,
+      "technique_id": "EA-004-absolutni-egologicka-dezintegrace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní epistemická alienace",
+      "name_en": "Absolute Epistemic Alienation",
+      "severity_score": 0.5,
+      "technique_id": "EA-005-absolutni-epistemicka-alienace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní multisubjektivní fragmentace",
+      "name_en": "Absolute Multisubjective Fragmentation",
+      "severity_score": 0.5,
+      "technique_id": "EA-062-absolutni-multisubjektivni-fragmentace"
+    },
+    {
+      "defense_strategies": [
+        "Narativní reintegrace",
+        "dialogická stabilizace",
+        "axiologické ukotvení",
+        "pragmatická rekonstrukce"
+      ],
+      "detection_patterns": [
+        "Identitní fragmentace",
+        "narativní diskontinuita",
+        "multiplikace sebepojímání",
+        "destabilizace jáství"
+      ],
+      "manifestations": [
+        "Identitní fragmentace",
+        "narativní diskontinuita",
+        "multiplikace sebepojímání",
+        "destabilizace jáství"
+      ],
+      "name_cs": "Identitní dekonstrukce",
+      "name_en": "Identity Deconstruction",
+      "severity_score": 0.7,
+      "technique_id": "EA-125-identitni-dekonstrukce"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Totální identitní substituce",
+      "name_en": "Total Identity Substitution",
+      "severity_score": 0.5,
+      "technique_id": "EA-175-totalni-identitni-substituce"
+    }
+  ],
+  "technique_count": 5
+}

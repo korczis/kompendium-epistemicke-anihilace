@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-033-absolutni-epistemicka-kvantova-metastabilita",
+  "metadata": {
+    "index": 33,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-kvantova-metastabilita",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "EPISTEMICKÁ PARADOXALITA",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická kvantová metastabilita",
+    "en": "Absolute Epistemic Quantum Metastability"
+  },
+  "page_number": 95,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "epistemic_paradoxicality",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

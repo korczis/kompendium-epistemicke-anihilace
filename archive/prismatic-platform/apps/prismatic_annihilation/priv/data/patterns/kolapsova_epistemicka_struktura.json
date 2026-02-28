@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.15,
+  "aggregate_severity": 0.95,
+  "category": "kolapsova_epistemicka_struktura",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Externí epistemická podpora",
+        "postupná rekonstrukce"
+      ],
+      "detection_patterns": [
+        "Kognitivní kolaps",
+        "epistemický šok",
+        "naprostá dezorientace",
+        "naprosté destrukci epistemického prostoru"
+      ],
+      "manifestations": [
+        "Kognitivní kolaps",
+        "epistemický šok",
+        "naprostá dezorientace"
+      ],
+      "name_cs": "Epistemická imploze",
+      "name_en": "Epistemic Implosion",
+      "severity_score": 0.95,
+      "technique_id": "EA-105-epistemicka-imploze"
+    }
+  ],
+  "technique_count": 1
+}

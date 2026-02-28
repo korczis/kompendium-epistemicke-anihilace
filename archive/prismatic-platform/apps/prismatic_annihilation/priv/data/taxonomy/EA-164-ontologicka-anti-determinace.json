@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "ontological_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-164-ontologicka-anti-determinace",
+  "metadata": {
+    "index": 164,
+    "source": "index",
+    "anchor": "ontologicka-anti-determinace",
+    "extracted_category_cs": "ONTOLOGICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "ONTOLOGICKÁ ANIHILACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Ontologická anti-determinace",
+    "en": "Ontological Anti-determination"
+  },
+  "page_number": 133,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "ontological_annihilation",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

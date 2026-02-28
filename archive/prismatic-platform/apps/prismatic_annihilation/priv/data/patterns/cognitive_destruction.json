@@ -1,0 +1,355 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.4766666666666666,
+  "aggregate_severity": 0.5466666666666667,
+  "category": "cognitive_destruction",
+  "patterns": [
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní epistemická perverze reflexivity",
+      "name_en": "Absolute Epistemic Perversion Reflexivity",
+      "severity_score": 0.5,
+      "technique_id": "EA-038-absolutni-epistemicka-perverze-reflexivity"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anankastická paralýza",
+      "name_en": "Absolute Cognitive Anankastic Paralysis",
+      "severity_score": 0.5,
+      "technique_id": "EA-048-absolutni-kognitivni-anankasticka-paralyza"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-emergentní implosivita",
+      "name_en": "Absolute Cognitive Anti-emergent Implosivity",
+      "severity_score": 0.5,
+      "technique_id": "EA-050-absolutni-kognitivni-anti-emergentni-implosivita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-orientace",
+      "name_en": "Absolute Cognitive Anti-orientation",
+      "severity_score": 0.5,
+      "technique_id": "EA-054-absolutni-kognitivni-anti-orientace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-realizovatelnost",
+      "name_en": "Absolute Cognitive Anti-realizability",
+      "severity_score": 0.5,
+      "technique_id": "EA-055-absolutni-kognitivni-anti-realizovatelnost"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-revizibilita",
+      "name_en": "Absolute Cognitive Anti-revisibility",
+      "severity_score": 0.5,
+      "technique_id": "EA-057-absolutni-kognitivni-anti-revizibilita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní anti-virtualizace",
+      "name_en": "Absolute Cognitive Anti-virtualization",
+      "severity_score": 0.5,
+      "technique_id": "EA-059-absolutni-kognitivni-anti-virtualizace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní kognitivní retrogeneze",
+      "name_en": "Absolute Cognitive Retrogenesis",
+      "severity_score": 0.5,
+      "technique_id": "EA-060-absolutni-kognitivni-retrogeneze"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní metakognitivní implosivita",
+      "name_en": "Absolute Metacognitive Implosivity",
+      "severity_score": 0.5,
+      "technique_id": "EA-061-absolutni-metakognitivni-implosivita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Absolutní superkognitivní paralýza",
+      "name_en": "Absolute Supercognitive Paralysis",
+      "severity_score": 0.5,
+      "technique_id": "EA-064-absolutni-superkognitivni-paralyza"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-anticipačnost",
+      "name_en": "Cognitive Anti-anticipation",
+      "severity_score": 0.5,
+      "technique_id": "EA-127-kognitivni-anti-anticipacnost"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-architektonika",
+      "name_en": "Cognitive Anti-architectonics",
+      "severity_score": 0.5,
+      "technique_id": "EA-128-kognitivni-anti-architektonika"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-figurace",
+      "name_en": "Cognitive Anti-figuration",
+      "severity_score": 0.5,
+      "technique_id": "EA-129-kognitivni-anti-figurace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-granularita",
+      "name_en": "Cognitive Anti-granularity",
+      "severity_score": 0.5,
+      "technique_id": "EA-130-kognitivni-anti-granularita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-hierarchičnost",
+      "name_en": "Cognitive Anti-hierarchicality",
+      "severity_score": 0.5,
+      "technique_id": "EA-131-kognitivni-anti-hierarchicnost"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-metamorfóza",
+      "name_en": "Cognitive Anti-metamorphosis",
+      "severity_score": 0.5,
+      "technique_id": "EA-133-kognitivni-anti-metamorfoza"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-morfogeneze",
+      "name_en": "Cognitive Anti-morphogenesis",
+      "severity_score": 0.5,
+      "technique_id": "EA-134-kognitivni-anti-morfogeneze"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-operacionalita",
+      "name_en": "Cognitive Anti-operationality",
+      "severity_score": 0.5,
+      "technique_id": "EA-135-kognitivni-anti-operacionalita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-perceptualita",
+      "name_en": "Cognitive Anti-perceptuality",
+      "severity_score": 0.5,
+      "technique_id": "EA-136-kognitivni-anti-perceptualita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-potencialita",
+      "name_en": "Cognitive Anti-potentiality",
+      "severity_score": 0.5,
+      "technique_id": "EA-137-kognitivni-anti-potencialita"
+    },
+    {
+      "defense_strategies": [
+        "Externí kognitivní reset",
+        "intervenční strategie",
+        "strukturovaná metakognitivní analýza"
+      ],
+      "detection_patterns": [
+        "Opakující se cykly sebereferenčních otázek",
+        "blokování nových poznatků"
+      ],
+      "manifestations": [
+        "Opakující se cykly sebereferenčních otázek",
+        "blokování nových poznatků"
+      ],
+      "name_cs": "Kognitivní anti-rekurzivita",
+      "name_en": "Cognitive Anti-recursivity",
+      "severity_score": 0.5,
+      "technique_id": "EA-138-kognitivni-anti-rekurzivita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní anti-transformabilita",
+      "name_en": "Cognitive Anti-transformability",
+      "severity_score": 0.5,
+      "technique_id": "EA-139-kognitivni-anti-transformabilita"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní autokanibalizace",
+      "name_en": "Cognitive Auto-cannibalization",
+      "severity_score": 0.5,
+      "technique_id": "EA-140-kognitivni-autokanibalizace"
+    },
+    {
+      "defense_strategies": [
+        "Hierarchická rekonstrukce",
+        "úrovňová sekvestrace",
+        "kognitivní kontejnment",
+        "fraktální stabilizace"
+      ],
+      "detection_patterns": [
+        "Sebereplikující fragmentace",
+        "rekurzivní rozpad",
+        "kognitivní sebepodobnost",
+        "iterativní kaskáda",
+        "meta-fragmentace"
+      ],
+      "manifestations": [
+        "Sebereplikující fragmentace",
+        "rekurzivní rozpad",
+        "kognitivní sebepodobnost",
+        "iterativní kaskáda",
+        "meta-fragmentace"
+      ],
+      "name_cs": "Kognitivní fraktální dezintegrace",
+      "name_en": "Cognitive Fractal Disintegration",
+      "severity_score": 0.8,
+      "technique_id": "EA-141-kognitivni-fraktalni-dezintegrace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní hyperplastická dezintegrace",
+      "name_en": "Cognitive Hyperplastic Disintegration",
+      "severity_score": 0.5,
+      "technique_id": "EA-143-kognitivni-hyperplasticka-dezintegrace"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní implozivní kolaps",
+      "name_en": "Cognitive Implozivni Collapse",
+      "severity_score": 0.5,
+      "technique_id": "EA-145-kognitivni-implozivni-kolaps"
+    },
+    {
+      "defense_strategies": [
+        "Kognitivní sekvestrace",
+        "hierarchická reinstalace",
+        "myšlenková minimalizace",
+        "schematické ukotvení"
+      ],
+      "detection_patterns": [
+        "Myšlenkový chaos",
+        "asociační bouře",
+        "inferenční anarchie",
+        "konceptuální turbulence",
+        "kognitivní kakofonie",
+        "\"bouři\" neuronální aktivity postrádající funkční organizaci"
+      ],
+      "manifestations": [
+        "Myšlenkový chaos",
+        "asociační bouře",
+        "inferenční anarchie",
+        "konceptuální turbulence",
+        "kognitivní kakofonie"
+      ],
+      "name_cs": "Kognitivní pandémonium",
+      "name_en": "Cognitive Pandemonium",
+      "severity_score": 1.0,
+      "technique_id": "EA-146-kognitivni-pandemonium"
+    },
+    {
+      "defense_strategies": [],
+      "detection_patterns": [],
+      "manifestations": [],
+      "name_cs": "Kognitivní čtyřdimenzionální šach",
+      "name_en": "Cognitive Four-dimensional Chess",
+      "severity_score": 0.5,
+      "technique_id": "EA-148-kognitivni-ctyrdimenzionalni-sach"
+    },
+    {
+      "defense_strategies": [
+        "Metakognitivní scaffolding",
+        "reflexivní rekonstrukce",
+        "kognitivní sebe-transparentifikace",
+        "externí monitoring"
+      ],
+      "detection_patterns": [
+        "Introspektivní slepota",
+        "kognitivní neprůhlednost",
+        "epistemická sebealienace",
+        "reflexivní paralýza",
+        "radikální neprůhlednosti a alienaci od vlastních mentálních procesů"
+      ],
+      "manifestations": [
+        "Introspektivní slepota",
+        "kognitivní neprůhlednost",
+        "epistemická sebealienace",
+        "reflexivní paralýza"
+      ],
+      "name_cs": "Metakognitivní destrukce",
+      "name_en": "Metacognitive Destruction",
+      "severity_score": 0.8,
+      "technique_id": "EA-159-metakognitivni-destrukce"
+    },
+    {
+      "defense_strategies": [
+        "Kognitivní deeskalace",
+        "metakognitivní grounding",
+        "rekurzivní limitace",
+        "externalizace reflexe"
+      ],
+      "detection_patterns": [
+        "Metakognitivní paralýza",
+        "rekurzivní introspektivní smyčky",
+        "myšlenková autofagie",
+        "reflexivní fragmentace"
+      ],
+      "manifestations": [
+        "Metakognitivní paralýza",
+        "rekurzivní introspektivní smyčky",
+        "myšlenková autofagie",
+        "reflexivní fragmentace"
+      ],
+      "name_cs": "Metakognitivní rekurzivní dezintegrace",
+      "name_en": "Metacognitive Recursive Disintegration",
+      "severity_score": 0.8,
+      "technique_id": "EA-160-metakognitivni-rekurzivni-dezintegrace"
+    }
+  ],
+  "technique_count": 30
+}

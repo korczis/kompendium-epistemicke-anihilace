@@ -1,0 +1,30 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.25,
+  "aggregate_severity": 0.8,
+  "category": "referencni_disociacni_technika",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Pragmatický minimalismus",
+        "zakotevní v tělesné zkušenosti"
+      ],
+      "detection_patterns": [
+        "Ztráta vztahu k realitě",
+        "hyperrelativismus",
+        "epistemická bezdomovost",
+        "naprosté ztrátě referenčních bodů a zakotvenosti poznání"
+      ],
+      "manifestations": [
+        "Ztráta vztahu k realitě",
+        "hyperrelativismus",
+        "epistemická bezdomovost"
+      ],
+      "name_cs": "Derealizace epistemická",
+      "name_en": "Derealizace Epistemic",
+      "severity_score": 0.8,
+      "technique_id": "EA-084-derealizace-epistemicka"
+    }
+  ],
+  "technique_count": 1
+}

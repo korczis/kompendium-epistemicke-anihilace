@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "linguistic_semantic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-006-absolutni-epistemicka-anti-analogicnost",
+  "metadata": {
+    "index": 6,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-anti-analogicnost",
+    "extracted_category_cs": "LINGVISTICKÉ A SÉMANTICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "NARATIVNÍ DESTRUKCE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická anti-analogičnost",
+    "en": "Absolute Epistemic Anti-analogicality"
+  },
+  "page_number": 141,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "narrative_destruction",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

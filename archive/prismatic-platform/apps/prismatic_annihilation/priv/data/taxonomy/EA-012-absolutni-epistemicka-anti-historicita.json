@@ -1,0 +1,40 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "epistemic_destruction",
+  "cross_references": [],
+  "defense_strategies": [],
+  "description": {
+    "cs": null,
+    "en": null
+  },
+  "detection_patterns": [],
+  "domain": "general",
+  "example": {
+    "cs": null
+  },
+  "id": "EA-012-absolutni-epistemicka-anti-historicita",
+  "metadata": {
+    "index": 12,
+    "source": "index",
+    "anchor": "absolutni-epistemicka-anti-historicita",
+    "extracted_category_cs": "EPISTEMICKÉ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "EPISTEMICKÁ DEKONTEXTUALIZACE",
+    "raw_kategorie": null
+  },
+  "name": {
+    "cs": "Absolutní epistemická anti-historicita",
+    "en": "Absolute Epistemic Anti-historicity"
+  },
+  "page_number": 147,
+  "reversibility": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "unknown",
+    "score": 0.5
+  },
+  "subcategory": "epistemic_decontextualization",
+  "temporal_profile": "unknown",
+  "typical_manifestations": []
+}

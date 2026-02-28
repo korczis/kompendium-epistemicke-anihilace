@@ -1,0 +1,35 @@
+{
+  "$schema": "../schemas/pattern_category.schema.json",
+  "aggregate_reversibility": 0.5,
+  "aggregate_severity": 0.95,
+  "category": "kognitivne-epistemicka_amplifikace",
+  "patterns": [
+    {
+      "defense_strategies": [
+        "Konceptuální deeskalace",
+        "sémantická stabilizace",
+        "kognitivní dampening",
+        "hyperbolická inhibice"
+      ],
+      "detection_patterns": [
+        "Sémantická hyperinflace",
+        "konceptuální excitace",
+        "významové přetížení",
+        "epistemická saturace",
+        "asociační bouře"
+      ],
+      "manifestations": [
+        "Sémantická hyperinflace",
+        "konceptuální excitace",
+        "významové přetížení",
+        "epistemická saturace",
+        "asociační bouře"
+      ],
+      "name_cs": "Hyperbolická eskalace",
+      "name_en": "Hyperbolicka Eskalace",
+      "severity_score": 0.95,
+      "technique_id": "EA-121-hyperbolicka-eskalace"
+    }
+  ],
+  "technique_count": 1
+}

@@ -1,0 +1,47 @@
+{
+  "$id": "severity_network.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Techniques organized by severity tiers",
+  "properties": {
+    "network_type": {
+      "type": "string"
+    },
+    "tiers": {
+      "items": {
+        "properties": {
+          "average_reversibility": {
+            "type": "number"
+          },
+          "severity": {
+            "type": "string"
+          },
+          "technique_count": {
+            "type": "integer"
+          },
+          "technique_ids": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "severity",
+          "technique_count",
+          "technique_ids"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "total_techniques": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "network_type",
+    "tiers"
+  ],
+  "title": "Severity Network",
+  "type": "object"
+}

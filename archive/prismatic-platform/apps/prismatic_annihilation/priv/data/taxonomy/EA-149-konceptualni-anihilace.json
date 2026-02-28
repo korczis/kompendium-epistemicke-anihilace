@@ -1,0 +1,59 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "conceptual_destruction",
+  "cross_references": [
+    "semanticka-apokalypsa",
+    "semanticka-destabilizace",
+    "hypersemanticka-anihilace"
+  ],
+  "defense_strategies": [
+    "Konceptuální ukotvenost",
+    "lexikální stabilizace",
+    "axiomaická redefinice",
+    "kategoriální rekonstituce"
+  ],
+  "description": {
+    "cs": "Konceptuální anihilace představuje proces systematického rozpadu pojmových struktur, který znemožňuje formování koherentních konceptů a jejich vzájemné vztahování v rámci kategoriálních systémů. Tento fenomén se projevuje jako progresivní eroze schopnosti vytvářet, udržovat a operovat s abstraktními pojmy, což vede k fundamentální krizi kategorizace a konceptualizace.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Sémantická nestabilita",
+    "kategoriální kolaps",
+    "konceptuální dezorientace",
+    "nemožnost abstraktního myšlení"
+  ],
+  "domain": "pojmove_struktury_a_kategorialni_systemy",
+  "example": {
+    "cs": "Akademik v oblasti filosofie vědy začíná zkoumat limity vědeckých pojmů a jejich vztah k realitě. Pomocí radikálně dekonstruktivní metodologie postupně podrobuje kritice všechny základní vědecké koncepty, demonstrující jejich vnitřní kontradikce a nedostatečné ontologické zakotvení. Po několika letech této práce začíná zažívat stav, kdy sám není schopen formulovat stabilní koncepty – každý pojmový konstrukt, který se pokouší vytvořit, se okamžitě rozpadá pod tíhou stejné analýzy, kterou aplikoval na koncepty jiné. Postupně ztrácí schopnost kategorizovat fenomény do koherentních tříd, nacházet podobnosti a rozdíly mezi různými jevy a dokonce i komunikovat pomocí stabilních významů. Jeho myšlení se stává fragmentovaným, neschopným udržet konceptuální kontinuitu, což vede k hluboké epistemické krizi a nakonec k úplné neschopnosti provádět jakoukoliv systematickou intelektuální práci."
+  },
+  "id": "EA-149-konceptualni-anihilace",
+  "metadata": {
+    "index": 149,
+    "source": "archive",
+    "anchor": "konceptualni-anihilace",
+    "extracted_category_cs": "KONCEPTUÁLNÍ DESTRUKČNÍ TECHNIKY",
+    "extracted_subcategory_cs": "KONCEPTUÁLNÍ ANIHILACE",
+    "raw_kategorie": "Epistemická destruktivní operace"
+  },
+  "name": {
+    "cs": "Konceptuální anihilace",
+    "en": "Conceptual Annihilation"
+  },
+  "page_number": 57,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": "conceptual_annihilation",
+  "temporal_profile": "progresivne_se_sirici",
+  "typical_manifestations": [
+    "Sémantická nestabilita",
+    "kategoriální kolaps",
+    "konceptuální dezorientace",
+    "nemožnost abstraktního myšlení"
+  ]
+}

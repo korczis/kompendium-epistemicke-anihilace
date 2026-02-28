@@ -1,0 +1,56 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "legitimizacni_destruktivni_technika",
+  "cross_references": [
+    "alethicky-rezim",
+    "gaslighting-epistemicky",
+    "verikondicionalita-anti-epistemicka"
+  ],
+  "defense_strategies": [
+    "Diverzifikace epistemických zdrojů",
+    "kontextuální legitimizace"
+  ],
+  "description": {
+    "cs": "Systematický proces podkopávání legitimity určitého typu poznání, jeho zdrojů, metod nebo výsledků, vedoucí k znemožnění jeho uznání jako platného či relevantního.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Ztráta důvěry ve vlastní poznání",
+    "epistemická nejistota",
+    "neschopnost epistemicky autoritativního postoje",
+    "znemožnění jeho uznání jako platného či relevantního"
+  ],
+  "domain": "autoritativni_epistemicke_struktury",
+  "example": {
+    "cs": "Výzkumnice v oblasti klimatologie publikuje studii o globálních klimatických změnách. Její kolegové systematicky podkopávají legitimitu jejího výzkumu tím, že zpochybňují nikoliv samotná data nebo analýzu, ale epistemické základy jejího přístupu. Nejprve jsou zpochybněny klimatické modely jako \"inherentně neprůkazné\", následně je metodologie charakterizována jako \"kontaminovaná ideologickými předpoklady\". Když výzkumnice poukazuje na recenzní řízení jako záruku kvality, je systém peer-review označen za \"interní echo-komoru\". Odkazy na konsenzus v oboru jsou odmítnuty jako \"argument ad populum\". Po měsících takové systematické delegitimizace výzkumnice zjišťuje, že ačkoliv její data a analýzy zůstávají stejné, ztratila schopnost vnímat svůj výzkum jako epistemicky legitimní – v jejím vědomí se ustavil hluboký pocit, že bez ohledu na množství důkazů nebo rigoróznost metod jsou její závěry fundamentálně zpochybnitelné."
+  },
+  "id": "EA-081-delegitimizace-epistemicka",
+  "metadata": {
+    "index": 81,
+    "source": "primary",
+    "anchor": "delegitimizace-epistemicka",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Legitimizační destruktivní technika"
+  },
+  "name": {
+    "cs": "Delegitimizace epistemická",
+    "en": "Delegitimization Epistemic"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "medium_high",
+    "score": 0.7
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Ztráta důvěry ve vlastní poznání",
+    "epistemická nejistota",
+    "neschopnost epistemicky autoritativního postoje"
+  ]
+}

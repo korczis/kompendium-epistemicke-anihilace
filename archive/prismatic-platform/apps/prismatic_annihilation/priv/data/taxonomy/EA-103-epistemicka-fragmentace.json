@@ -1,0 +1,55 @@
+{
+  "$schema": "../schemas/technique.schema.json",
+  "category": "fragmentacni_epistemicka_technika",
+  "cross_references": [
+    "bifurkace-epistemicka",
+    "epistemicka-atomizace",
+    "diskontinuita-radikalni"
+  ],
+  "defense_strategies": [
+    "Strategická kognitivní selekce",
+    "externalizace integračních procesů"
+  ],
+  "description": {
+    "cs": "Proces systematického rozkládání poznatkových struktur na vzájemně nesouvisející části, které nemohou být reintegrovány do koherentního celku.",
+    "en": null
+  },
+  "detection_patterns": [
+    "Rozpad poznatkových celků",
+    "neschopnost komplementární integrace",
+    "kognitivní dezorientace"
+  ],
+  "domain": "integrativni_kognitivni_struktury",
+  "example": {
+    "cs": "Interdisciplinární výzkumnice pracující na projektu na pomezí kognitivních věd, lingvistiky a filozofie je vystavena procesu systematické fragmentace svého poznatkového pole. Při konzultacích s kolegy je každý pokus o interdisciplinární syntézu podroben kritice z pozice disciplinární čistoty – kognitivní vědci označují její filozofické koncepty za \"nevědecké spekulace\", zatímco filozofové kritizují její empirické přístupy jako \"naivní pozitivismus\". Každý pokus o vytvoření integrujícího teoretického rámce je systematicky rozkládán na izolované fragmenty, které jsou následně prohlášeny za vzájemně nekompatibilní. Po roce takových konzultací výzkumnice zjišťuje, že její poznatkové pole se rozpadlo na řadu izolovaných konceptuálních ostrovů bez možnosti vzájemné komunikace či integrace, což vede k fundamentální neschopnosti artikulovat jakoukoliv koherentní interdisciplinární teoretickou pozici."
+  },
+  "id": "EA-103-epistemicka-fragmentace",
+  "metadata": {
+    "index": 103,
+    "source": "primary",
+    "anchor": "epistemicka-fragmentace",
+    "extracted_category_cs": null,
+    "extracted_subcategory_cs": null,
+    "raw_kategorie": "Fragmentační epistemická technika"
+  },
+  "name": {
+    "cs": "Epistemická fragmentace",
+    "en": "Epistemic Fragmentation"
+  },
+  "page_number": null,
+  "reversibility": {
+    "level": "partially_reversible",
+    "score": 0.5
+  },
+  "severity": {
+    "level": "high",
+    "score": 0.8
+  },
+  "subcategory": null,
+  "temporal_profile": "postupny",
+  "typical_manifestations": [
+    "Rozpad poznatkových celků",
+    "neschopnost komplementární integrace",
+    "kognitivní dezorientace"
+  ]
+}

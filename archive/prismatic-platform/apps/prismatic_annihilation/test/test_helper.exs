@@ -1,13 +1,11 @@
-# Start the Taxonomy GenServer for tests that need it
-{:ok, _} = Application.ensure_all_started(:prismatic_annihilation)
-
-# Start Taxonomy GenServer if not already running
-case GenServer.whereis(PrismaticAnnihilation.Taxonomy) do
-  nil ->
-    {:ok, _pid} = PrismaticAnnihilation.Taxonomy.start_link([])
-
-  _pid ->
-    :ok
-end
-
-ExUnit.start()
+# 🚀 BUILD ACCELERATION: Optimized parallel test execution
+ExUnit.start(
+  # Enable maximum parallelism - utilize all CPU cores
+  max_cases: System.schedulers_online() * 2,
+  # Optimize for large test suites
+  timeout: 60_000,
+  # Better test reporting
+  formatters: [ExUnit.CLIFormatter],
+  # Capture logs for debugging
+  capture_log: true
+)

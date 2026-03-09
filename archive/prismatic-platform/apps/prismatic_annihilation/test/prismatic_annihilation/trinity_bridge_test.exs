@@ -6,7 +6,7 @@ defmodule PrismaticAnnihilation.TrinityBridgeTest do
   with Layer 4 annihilation detection.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.TrinityBridge
 

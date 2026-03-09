@@ -6,7 +6,7 @@ defmodule PrismaticAnnihilation.TaxonomyTest do
   their structure, and query capabilities.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.Taxonomy
 

@@ -5,7 +5,7 @@ defmodule PrismaticAnnihilationTest do
   Tests the main facade module's detection, analysis, and defense capabilities.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation
 

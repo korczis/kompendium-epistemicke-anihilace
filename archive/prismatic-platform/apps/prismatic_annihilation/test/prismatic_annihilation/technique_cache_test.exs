@@ -5,7 +5,7 @@ defmodule PrismaticAnnihilation.TechniqueCacheTest do
   Validates ETS-based caching for technique patterns and detection data.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.TechniqueCache
 

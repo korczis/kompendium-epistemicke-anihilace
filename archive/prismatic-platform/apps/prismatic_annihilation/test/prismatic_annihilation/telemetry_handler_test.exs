@@ -6,7 +6,7 @@ defmodule PrismaticAnnihilation.TelemetryHandlerTest do
   and monitoring capabilities.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.TelemetryHandler
 

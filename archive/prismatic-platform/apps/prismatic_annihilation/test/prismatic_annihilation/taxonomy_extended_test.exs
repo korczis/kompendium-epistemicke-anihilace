@@ -13,7 +13,7 @@ defmodule PrismaticAnnihilation.TaxonomyExtendedTest do
   - Severity ordering consistency (property-based)
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.Taxonomy
   alias PrismaticAnnihilation.Compendium.{TechniqueBuilder, Validation}

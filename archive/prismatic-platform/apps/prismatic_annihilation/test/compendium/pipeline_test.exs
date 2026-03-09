@@ -1,5 +1,5 @@
 defmodule PrismaticAnnihilation.Compendium.PipelineTest do
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.Compendium.Pipeline
 

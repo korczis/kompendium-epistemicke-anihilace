@@ -6,7 +6,7 @@ defmodule PrismaticAnnihilation.DefenseTest do
   and defensive effectiveness calculations.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation.Defense
   alias PrismaticAnnihilation.Taxonomy

@@ -6,7 +6,7 @@ defmodule PrismaticAnnihilation.IntegrationTest do
   integration with other platform components.
   """
 
-  use ExUnit.Case, async: false
+  use ExUnit.Case, async: true
 
   alias PrismaticAnnihilation
   alias PrismaticAnnihilation.{Taxonomy, TechniqueCache, TelemetryHandler, Defense}

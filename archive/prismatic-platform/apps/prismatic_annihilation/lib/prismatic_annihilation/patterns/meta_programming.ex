@@ -112,9 +112,9 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
       end)
 
     issues =
-      if is_float(pattern[:confidence_weight]) and
-           pattern[:confidence_weight] >= 0.0 and
-           pattern[:confidence_weight] <= 1.0 do
+      if is_float(Map.get(pattern, :confidence_weight)) and
+           Map.get(pattern, :confidence_weight) >= 0.0 and
+           Map.get(pattern, :confidence_weight) <= 1.0 do
         issues
       else
         if Map.has_key?(pattern, :confidence_weight) do
@@ -125,7 +125,7 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
       end
 
     issues =
-      if pattern[:detection_type] in [:regex, :keyword, :semantic, :structural] do
+      if Map.get(pattern, :detection_type) in [:regex, :keyword, :semantic, :structural] do
         issues
       else
         if Map.has_key?(pattern, :detection_type) do
@@ -136,8 +136,8 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
       end
 
     issues =
-      if pattern[:detection_type] == :regex and is_binary(pattern[:regex]) do
-        case Regex.compile(pattern[:regex], [:caseless]) do
+      if Map.get(pattern, :detection_type) == :regex and is_binary(Map.get(pattern, :regex)) do
+        case Regex.compile(Map.get(pattern, :regex), [:caseless]) do
           {:ok, _} -> issues
           {:error, reason} -> ["Invalid regex: #{inspect(reason)}" | issues]
         end
@@ -539,9 +539,9 @@ defmodule PrismaticAnnihilation.Patterns.MetaProgramming do
       "id" => to_string(pattern.id),
       "name" => pattern.name,
       "category" => to_string(pattern.category),
-      "subcategory" => to_string(pattern[:subcategory]),
+      "subcategory" => to_string(Map.get(pattern, :subcategory)),
       "detection_type" => to_string(pattern.detection_type),
-      "regex" => pattern[:regex],
+      "regex" => Map.get(pattern, :regex),
       "keywords" => pattern.keywords,
       "semantic_markers" => pattern[:semantic_markers] || [],
       "confidence_weight" => pattern.confidence_weight,

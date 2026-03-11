@@ -193,7 +193,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
         see_also = technique[:see_also] || []
 
         Enum.map(see_also, fn ref ->
-          {technique[:id], ref, MapSet.member?(valid_ids, ref)}
+          {Map.get(technique, :id), ref, MapSet.member?(valid_ids, ref)}
         end)
       end)
       |> Enum.split_with(fn {_, _, valid} -> valid end)
@@ -242,7 +242,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
       |> Enum.filter(&Map.has_key?(chapter_categories, &1[:chapter]))
       |> Enum.split_with(fn technique ->
         expected = Map.get(chapter_categories, technique[:chapter])
-        technique[:category] == expected
+        Map.get(technique, :category) == expected
       end)
 
     {:ok,
@@ -253,9 +253,9 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
            expected = Map.get(chapter_categories, t[:chapter])
 
            %{
-             id: t[:id],
-             chapter: t[:chapter],
-             actual_category: t[:category],
+             id: Map.get(t, :id),
+             chapter: Map.get(t, :chapter),
+             actual_category: Map.get(t, :category),
              expected_category: expected
            }
          end)
@@ -304,7 +304,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp validate_id(errors, technique) do
-    case technique[:id] do
+    case Map.get(technique, :id) do
       nil ->
         errors
 
@@ -341,7 +341,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp validate_severity(errors, technique) do
-    case technique[:severity] do
+    case Map.get(technique, :severity) do
       nil ->
         errors
 
@@ -354,7 +354,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp validate_reversibility(errors, technique) do
-    case technique[:reversibility] do
+    case Map.get(technique, :reversibility) do
       nil ->
         errors
 
@@ -367,7 +367,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp validate_category(errors, technique) do
-    case technique[:category] do
+    case Map.get(technique, :category) do
       nil ->
         errors
 
@@ -380,7 +380,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp validate_chapter(errors, technique) do
-    case technique[:chapter] do
+    case Map.get(technique, :chapter) do
       nil ->
         errors
 
@@ -393,7 +393,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
   end
 
   defp validate_description(errors, technique) do
-    case technique[:description] do
+    case Map.get(technique, :description) do
       nil ->
         errors
 

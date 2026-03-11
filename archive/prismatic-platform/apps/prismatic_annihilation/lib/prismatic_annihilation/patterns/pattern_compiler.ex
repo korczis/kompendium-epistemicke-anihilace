@@ -621,29 +621,29 @@ defmodule PrismaticAnnihilation.Patterns.PatternCompiler do
     issues = []
 
     issues =
-      if is_nil(pattern[:id]) do
+      if is_nil(Map.get(pattern, :id)) do
         [%{pattern: inspect(pattern), issue: "Missing :id field"} | issues]
       else
         issues
       end
 
     issues =
-      if is_nil(pattern[:name]) do
+      if is_nil(Map.get(pattern, :name)) do
         [%{pattern: pattern[:id], issue: "Missing :name field"} | issues]
       else
         issues
       end
 
     issues =
-      if is_nil(pattern[:category]) do
+      if is_nil(Map.get(pattern, :category)) do
         [%{pattern: pattern[:id], issue: "Missing :category field"} | issues]
       else
         issues
       end
 
     issues =
-      if is_nil(pattern[:confidence_weight]) or pattern[:confidence_weight] < 0.0 or
-           pattern[:confidence_weight] > 1.0 do
+      if is_nil(Map.get(pattern, :confidence_weight)) or Map.get(pattern, :confidence_weight) < 0.0 or
+           Map.get(pattern, :confidence_weight) > 1.0 do
         [%{pattern: pattern[:id], issue: "Invalid :confidence_weight (must be 0.0-1.0)"} | issues]
       else
         issues
@@ -660,7 +660,7 @@ defmodule PrismaticAnnihilation.Patterns.PatternCompiler do
       end
 
     issues =
-      if is_binary(pattern[:regex]) do
+      if is_binary(Map.get(pattern, :regex)) do
         case Regex.compile(pattern.regex, [:caseless]) do
           {:ok, _} ->
             issues

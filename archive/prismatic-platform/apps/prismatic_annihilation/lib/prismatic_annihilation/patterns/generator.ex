@@ -431,12 +431,12 @@ defmodule PrismaticAnnihilation.Patterns.Generator do
   # ---------------------------------------------------------------------------
 
   defp generate_patterns_for_technique(technique, confidence_base, prefix, opts) do
-    category = Keyword.get(opts, :category, technique[:category] || :unknown)
-    technique_id = technique[:id] || :unknown
+    category = Keyword.get(opts, :category, Map.get(technique, :category, :unknown))
+    technique_id = Map.get(technique, :id, :unknown)
     detection_patterns = technique[:detection_patterns] || []
     manifestations = technique[:typical_manifestations] || []
     defense_strategies = technique[:defense_strategies] || []
-    severity = technique[:severity] || :medium
+    severity = Map.get(technique, :severity, :medium)
     see_also = technique[:see_also] || []
 
     # Generate keyword-based pattern from detection_patterns

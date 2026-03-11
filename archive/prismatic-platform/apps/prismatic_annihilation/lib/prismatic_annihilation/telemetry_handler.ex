@@ -137,7 +137,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
        %{
          duration_ms: measurements.duration_ms,
          detection_count: measurements.detection_count,
-         categories: metadata[:categories]
+         categories: Map.get(metadata, :categories)
        }}
     )
   end
@@ -156,9 +156,9 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
       __MODULE__,
       {:update_metrics, :technique_found,
        %{
-         technique_id: metadata[:technique_id],
+         technique_id: Map.get(metadata, :technique_id),
          confidence: measurements.confidence,
-         severity: metadata[:severity]
+         severity: Map.get(metadata, :severity)
        }}
     )
   end
@@ -177,7 +177,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
       __MODULE__,
       {:update_metrics, :defense_deployed,
        %{
-         countermeasure: metadata[:countermeasure],
+         countermeasure: Map.get(metadata, :countermeasure),
          deployment_time_ms: measurements.deployment_time_ms
        }}
     )
@@ -195,7 +195,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
       __MODULE__,
       {:update_metrics, :defense_deactivated,
        %{
-         ref: metadata[:ref]
+         ref: Map.get(metadata, :ref)
        }}
     )
   end
@@ -210,7 +210,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
       {:update_metrics, :health_assessed,
        %{
          score: measurements.score,
-         status: metadata[:status]
+         status: Map.get(metadata, :status)
        }}
     )
   end
@@ -227,7 +227,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
       __MODULE__,
       {:update_metrics, :trinity_validated,
        %{
-         result: metadata[:result]
+         result: Map.get(metadata, :result)
        }}
     )
   end
@@ -286,7 +286,7 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
 
   defp update_metrics(metrics, :technique_found, data) do
     detection = metrics.detection
-    category = data[:severity] || :unknown
+    category = Map.get(data, :severity, :unknown)
     by_category = Map.update(detection.techniques_by_category, category, 1, &(&1 + 1))
 
     %{metrics | detection: %{detection | techniques_by_category: by_category}}

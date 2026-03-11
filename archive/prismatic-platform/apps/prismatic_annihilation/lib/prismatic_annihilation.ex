@@ -288,7 +288,7 @@ defmodule PrismaticAnnihilation do
       technique_id: technique.id,
       technique_name: technique.name,
       category: technique.category,
-      chapter: technique[:chapter] || 6,
+      chapter: Map.get(technique, :chapter, 6),
       confidence: confidence,
       severity: technique.severity,
       evidence: [

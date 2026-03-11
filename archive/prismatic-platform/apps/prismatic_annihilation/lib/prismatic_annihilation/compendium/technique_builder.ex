@@ -153,8 +153,8 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
     else
       id = generate_id(name_cz)
       name_en = translate_name(name_cz)
-      severity = map_severity(raw[:severity])
-      reversibility = map_reversibility(raw[:reversibility])
+      severity = map_severity(Map.get(raw, :severity))
+      reversibility = map_reversibility(Map.get(raw, :reversibility))
       category = determine_category(raw, opts)
       chapter = determine_chapter(category, opts)
 
@@ -168,14 +168,14 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
         severity: severity,
         reversibility: reversibility,
         temporal_course: raw[:temporal_course] || "",
-        typical_manifestations: parse_list_field(raw[:typical_manifestations]),
-        defense_strategies: parse_list_field(raw[:defense_strategies]),
+        typical_manifestations: parse_list_field(Map.get(raw, :typical_manifestations)),
+        defense_strategies: parse_list_field(Map.get(raw, :defense_strategies)),
         description: raw[:description] || "",
-        detailed_principle: extract_principle(raw[:description]),
-        example: raw[:example],
-        see_also: parse_see_also(raw[:see_also]),
+        detailed_principle: extract_principle(Map.get(raw, :description)),
+        example: Map.get(raw, :example),
+        see_also: parse_see_also(Map.get(raw, :see_also)),
         detection_patterns: generate_detection_patterns(raw),
-        keywords: generate_keywords(name_cz, name_en, raw[:description])
+        keywords: generate_keywords(name_cz, name_en, Map.get(raw, :description))
       }
     end
   end
@@ -342,7 +342,7 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
   def determine_category(raw, opts) do
     case Keyword.get(opts, :category) do
       nil ->
-        category_from_metadata(raw[:category]) || :singularity
+        category_from_metadata(Map.get(raw, :category)) || :singularity
 
       category when is_atom(category) ->
         category
@@ -550,7 +550,7 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
 
     # Add patterns from manifestations
     patterns =
-      case raw[:typical_manifestations] do
+      case Map.get(raw, :typical_manifestations) do
         nil ->
           patterns
 
@@ -566,7 +566,7 @@ defmodule PrismaticAnnihilation.Compendium.TechniqueBuilder do
       end
 
     # Add patterns from description keywords
-    case raw[:description] do
+    case Map.get(raw, :description) do
       nil ->
         patterns
 

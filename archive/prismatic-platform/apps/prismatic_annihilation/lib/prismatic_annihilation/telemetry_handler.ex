@@ -67,16 +67,12 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
     # Capture GenServer pid for handler callbacks - telemetry handlers run in caller's context
     genserver_pid = self()
 
-    # Attach telemetry handlers using anonymous function that captures GenServer pid
-    # Telemetry 1.3.0 requires function capture, not MFA tuple
+    # Attach telemetry handlers using module function reference with pid in config
     :telemetry.attach_many(
       "prismatic-annihilation-handler",
       @events,
-      fn event, measurements, metadata, config ->
-        # Delegate to GenServer to process in correct process context
-        send(genserver_pid, {:telemetry_event, event, measurements, metadata, config})
-      end,
-      nil
+      &__MODULE__.handle_telemetry_event/4,
+      %{genserver_pid: genserver_pid}
     )
 
     state = %{
@@ -86,6 +82,11 @@ defmodule PrismaticAnnihilation.TelemetryHandler do
 
     Logger.info("[TelemetryHandler] Attached handlers for #{length(@events)} event types")
     {:ok, state}
+  end
+
+  @doc false
+  def handle_telemetry_event(event, measurements, metadata, %{genserver_pid: pid}) do
+    send(pid, {:telemetry_event, event, measurements, metadata, nil})
   end
 
   @impl true

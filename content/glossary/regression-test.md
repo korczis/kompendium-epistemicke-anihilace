@@ -237,7 +237,7 @@ Each regression test file is named with the bug identifier, making it immediatel
 
 The Mandatory Regression Test Protocol has been instrumental in achieving the platform's quality metrics:
 
-**5,883 Test Files**: The platform's comprehensive test suite includes hundreds of regression tests accumulated over 18 generations of evolution. Each test represents a bug that was found, analyzed, fixed, and permanently guarded against.
+**5,864 Test Files**: The platform's comprehensive test suite includes hundreds of regression tests accumulated over 18 generations of evolution. Each test represents a bug that was found, analyzed, fixed, and permanently guarded against.
 
 **Zero Regression Incidents**: Since implementing the P0 protocol, the platform has experienced zero regression incidents -- no previously fixed bug has recurred in any subsequent release.
 

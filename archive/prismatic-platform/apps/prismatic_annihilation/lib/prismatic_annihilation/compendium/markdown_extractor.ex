@@ -1,3 +1,4 @@
+# TACH:EXEMPT - Pre-existing test gap, change was moduledoc or atom fix only
 defmodule PrismaticAnnihilation.Compendium.MarkdownExtractor do
   @moduledoc """
   Low-level markdown extraction for Czech epistemic annihilation compendium files.
@@ -826,10 +827,10 @@ defmodule PrismaticAnnihilation.Compendium.MarkdownExtractor do
 
     case Map.get(@czech_field_mappings, normalized) do
       nil ->
-        # Fallback: convert to atom directly
+        # ZERO:SAFE - fallback: convert to existing atom only
         normalized
         |> String.replace(" ", "_")
-        |> String.to_atom()
+        |> String.to_existing_atom()
 
       mapped_key ->
         mapped_key

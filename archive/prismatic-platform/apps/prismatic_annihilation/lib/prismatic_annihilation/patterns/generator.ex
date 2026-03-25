@@ -316,7 +316,7 @@ defmodule PrismaticAnnihilation.Patterns.Generator do
           if first_technique do
             result = #{module_name}.for_technique(first_technique)
             assert is_list(result)
-            assert length(result) > 0
+            assert result != []
           end
         end
 

@@ -206,7 +206,7 @@ defmodule PrismaticAnnihilation do
   ## Examples
 
       iex> {:ok, detections} = PrismaticAnnihilation.detect("systematic delegitimization of research")
-      iex> length(detections) > 0
+      iex> detections != []
       true
 
       iex> {:ok, detections} = PrismaticAnnihilation.detect(content, threshold: 0.8)

@@ -101,7 +101,7 @@ defmodule PrismaticAnnihilation.Compendium.Validation do
       :epistemic_imploze
 
       iex> {:error, errors} = Validation.validate_technique(%{})
-      iex> length(errors) > 0
+      iex> errors != []
       true
   """
   @spec validate_technique(map()) :: validation_result()

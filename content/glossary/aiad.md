@@ -100,7 +100,7 @@ AIAD governs five distinct component types within the platform:
 
 ### Enforcement Block
 
-Every AIAD component must include a mandatory enforcement block declaring compliance with the [NM/ND doctrine](@/glossary/nm-nd.md):
+Every AIAD component must include a mandatory enforcement block declaring compliance with the [NM/ND doctrine](/glossary/nm-nd/):
 
 ```yaml
 enforcement:
@@ -109,7 +109,7 @@ enforcement:
   compliance: mandatory
 ```
 
-Components without this block are rejected by the AIAD indexer and cannot be registered in the [Agent Registry](@/glossary/agent-registry.md). This ensures that every autonomous component in the platform operates under the same quality and execution standards.
+Components without this block are rejected by the AIAD indexer and cannot be registered in the [Agent Registry](/glossary/agent-registry/). This ensures that every autonomous component in the platform operates under the same quality and execution standards.
 
 ## Architecture and Implementation
 
@@ -335,22 +335,22 @@ end
 
 ## Related Concepts
 
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog of all AIAD agents
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 authority classification system
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Mandatory enforcement block in all AIAD definitions
-- [Archer Supreme](@/glossary/archer-supreme.md) -- Example L5 AIAD agent for crisis resolution
-- [Supreme Commander](@/glossary/supreme-commander.md) -- L5 strategic coordination agent
-- [3NL Framework](@/glossary/three-nl.md) -- Epistemic integration framework connected through AIAD
+- [Agent Registry](/glossary/agent-registry/) -- Central catalog of all AIAD agents
+- [Agent Tier](/glossary/agent-tier/) -- L1-L5 authority classification system
+- [NM/ND Doctrine](/glossary/nm-nd/) -- Mandatory enforcement block in all AIAD definitions
+- [Archer Supreme](/glossary/archer-supreme/) -- Example L5 AIAD agent for crisis resolution
+- [Supreme Commander](/glossary/supreme-commander/) -- L5 strategic coordination agent
+- [3NL Framework](/glossary/three-nl/) -- Epistemic integration framework connected through AIAD
 
 ## See Also
 
-- [prismatic_agents](../../../apps/prismatic_agents/README.md) -- Runtime engine managing 434 AIAD-compliant agents
-- [prismatic_claude](../../../apps/prismatic_claude/README.md) -- Claude integration with AIAD session lifecycle
-- [prismatic_safety](../../../apps/prismatic_safety/README.md) -- Quality enforcement consuming AIAD agent telemetry
-- [prismatic_core](../../../apps/prismatic_core/README.md) -- Core platform infrastructure supporting AIAD runtime
-- [AIAD Standard](@/architecture/_index.md) -- Complete specification reference
-- [Agent Registry](@/agents/_index.md) -- Full agent catalog with AIAD definitions
-- [Commands](@/commands/_index.md) -- AIAD command definitions
+- [prismatic_agents](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_agents/README.md) -- Runtime engine managing 434 AIAD-compliant agents
+- [prismatic_claude](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_claude/README.md) -- Claude integration with AIAD session lifecycle
+- [prismatic_safety](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_safety/README.md) -- Quality enforcement consuming AIAD agent telemetry
+- [prismatic_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_core/README.md) -- Core platform infrastructure supporting AIAD runtime
+- [AIAD Standard](/architecture/) -- Complete specification reference
+- [Agent Registry](/agents/) -- Full agent catalog with AIAD definitions
+- [Commands](/commands/) -- AIAD command definitions
 
 ---
 

@@ -264,23 +264,23 @@ end
 
 ## Related Concepts
 
-- [Ollama](@/glossary/ollama.md) - Local AI runtime executing inference for platform models
-- [Backpressure](@/glossary/backpressure.md) - Flow control preventing inference request overload
-- [Rate Limiting](@/glossary/rate-limiting.md) - Request throttling protecting inference resources
-- [Telemetry](@/glossary/telemetry.md) - Metrics system monitoring inference performance
-- [Observability](@/glossary/observability.md) - Monitoring infrastructure tracking inference health
-- [BEAM](@/glossary/beam.md) - Virtual machine providing concurrent inference request processing
-- [GenServer](@/glossary/genserver.md) - OTP behaviour implementing the inference coordinator
+- [Ollama](/glossary/ollama/) - Local AI runtime executing inference for platform models
+- [Backpressure](/glossary/backpressure/) - Flow control preventing inference request overload
+- [Rate Limiting](/glossary/rate-limiting/) - Request throttling protecting inference resources
+- [Telemetry](/glossary/telemetry/) - Metrics system monitoring inference performance
+- [Observability](/glossary/observability/) - Monitoring infrastructure tracking inference health
+- [BEAM](/glossary/beam/) - Virtual machine providing concurrent inference request processing
+- [GenServer](/glossary/genserver/) - OTP behaviour implementing the inference coordinator
 
 ## See Also
 
-- [prismatic_ollama](../../../apps/prismatic_ollama/README.md) -- Local AI inference runtime via Ollama
-- [prismatic_agents](../../../apps/prismatic_agents/README.md) -- Agent system consuming inference for decision-making
-- [app_ai_safety](../../../apps/app_ai_safety/README.md) -- Safety monitoring for inference outputs
-- [app_ai_interpretability](../../../apps/app_ai_interpretability/README.md) -- Interpretability analysis of inference results
-- [prismatic_telemetry](../../../apps/prismatic_telemetry/README.md) -- Telemetry tracking inference performance metrics
-- [Architecture](@/architecture/_index.md) -- AI inference architecture and integration patterns
-- [Capabilities](@/capabilities/_index.md) -- AI and machine learning capabilities
+- [prismatic_ollama](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_ollama/README.md) -- Local AI inference runtime via Ollama
+- [prismatic_agents](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_agents/README.md) -- Agent system consuming inference for decision-making
+- [app_ai_safety](https://github.com/korczis/prismatic-platform/blob/main/apps/app_ai_safety/README.md) -- Safety monitoring for inference outputs
+- [app_ai_interpretability](https://github.com/korczis/prismatic-platform/blob/main/apps/app_ai_interpretability/README.md) -- Interpretability analysis of inference results
+- [prismatic_telemetry](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_telemetry/README.md) -- Telemetry tracking inference performance metrics
+- [Architecture](/architecture/) -- AI inference architecture and integration patterns
+- [Capabilities](/capabilities/) -- AI and machine learning capabilities
 
 ---
 

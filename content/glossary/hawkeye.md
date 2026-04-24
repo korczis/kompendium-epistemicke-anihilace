@@ -237,26 +237,26 @@ HAWKEYE's primary differentiator is its integration with the Prismatic Platform'
 
 ## Related Concepts
 
-- [EASM](@/glossary/easm.md) - External attack surface management complementing HAWKEYE's visitor-facing intelligence
-- [OSINT](@/glossary/osint.md) - Intelligence methodology providing visitor data enrichment sources
-- [Threat Intelligence](@/glossary/threat-intelligence.md) - Structured threat data providing visitor classification context
-- [Blue Team](@/glossary/blue-team.md) - Defensive team consuming HAWKEYE's visitor signal feed
-- [Security Rating](@/glossary/security-rating.md) - Overall security posture score incorporating visitor intelligence
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing classification confidence requirements
-- [Signal Plurality](@/glossary/signal-plurality.md) - NABLA axiom requiring multiple signals for visitor classification
-- [Color Teams](@/glossary/color-teams.md) - Security operations framework integrating HAWKEYE intelligence
-- [GDPR](@/glossary/gdpr.md) - Privacy regulation governing HAWKEYE's data handling practices
+- [EASM](/glossary/easm/) - External attack surface management complementing HAWKEYE's visitor-facing intelligence
+- [OSINT](/glossary/osint/) - Intelligence methodology providing visitor data enrichment sources
+- [Threat Intelligence](/glossary/threat-intelligence/) - Structured threat data providing visitor classification context
+- [Blue Team](/glossary/blue-team/) - Defensive team consuming HAWKEYE's visitor signal feed
+- [Security Rating](/glossary/security-rating/) - Overall security posture score incorporating visitor intelligence
+- [NABLA Infinity](/glossary/nabla-infinity/) - Epistemic framework governing classification confidence requirements
+- [Signal Plurality](/glossary/signal-plurality/) - NABLA axiom requiring multiple signals for visitor classification
+- [Color Teams](/glossary/color-teams/) - Security operations framework integrating HAWKEYE intelligence
+- [GDPR](/glossary/gdpr/) - Privacy regulation governing HAWKEYE's data handling practices
 
 ## See Also
 
-- [prismatic_visitor_intelligence](../../../apps/prismatic_visitor_intelligence/README.md) -- HAWKEYE visitor intelligence application
-- [prismatic_hawkeye](../../../apps/prismatic_hawkeye/README.md) -- HAWKEYE core engine
-- [prismatic_hawkeye_web](../../../apps/prismatic_hawkeye_web/README.md) -- HAWKEYE web dashboard
-- [prismatic_perimeter](../../../apps/prismatic_perimeter/README.md) -- Complementary EASM for external posture
-- [prismatic_osint_core](../../../apps/prismatic_osint_core/README.md) -- OSINT enrichment for visitor profiles
-- [prismatic_tracking](../../../apps/prismatic_tracking/README.md) -- Behavioral tracking infrastructure
-- [Architecture](@/architecture/_index.md) -- Platform security architecture
-- [Capabilities](@/capabilities/_index.md) -- Security and intelligence capabilities overview
+- [prismatic_visitor_intelligence](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_visitor_intelligence/README.md) -- HAWKEYE visitor intelligence application
+- [prismatic_hawkeye](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_hawkeye/README.md) -- HAWKEYE core engine
+- [prismatic_hawkeye_web](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_hawkeye_web/README.md) -- HAWKEYE web dashboard
+- [prismatic_perimeter](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter/README.md) -- Complementary EASM for external posture
+- [prismatic_osint_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_osint_core/README.md) -- OSINT enrichment for visitor profiles
+- [prismatic_tracking](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_tracking/README.md) -- Behavioral tracking infrastructure
+- [Architecture](/architecture/) -- Platform security architecture
+- [Capabilities](/capabilities/) -- Security and intelligence capabilities overview
 
 ---
 

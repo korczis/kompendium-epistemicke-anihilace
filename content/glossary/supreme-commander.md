@@ -592,21 +592,21 @@ IO.puts("Completed: #{result.phases_completed}/#{result.phases_total}")
 
 ## Related Concepts
 
-- [Archer Supreme](@/glossary/archer-supreme.md) -- Crisis-focused L5 agent
-- [Strategic Command](@/glossary/strategic-command.md) -- L4 coordination tier
-- [Agent Tier](@/glossary/agent-tier.md) -- Full L1-L5 classification system
-- [AIAD](@/glossary/aiad.md) -- Agent definition standard governing Supreme Commander
-- [Agent Registry](@/glossary/agent-registry.md) -- Catalog of all agents managed by Supreme Commander
-- [Tactical Execution](@/glossary/tactical-execution.md) -- L2 specialists coordinated through the hierarchy
-- [GenServer](@/glossary/genserver.md) -- OTP behavior implementing Supreme Commander's process
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing decision confidence
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate for high-stakes decisions
+- [Archer Supreme](/glossary/archer-supreme/) -- Crisis-focused L5 agent
+- [Strategic Command](/glossary/strategic-command/) -- L4 coordination tier
+- [Agent Tier](/glossary/agent-tier/) -- Full L1-L5 classification system
+- [AIAD](/glossary/aiad/) -- Agent definition standard governing Supreme Commander
+- [Agent Registry](/glossary/agent-registry/) -- Catalog of all agents managed by Supreme Commander
+- [Tactical Execution](/glossary/tactical-execution/) -- L2 specialists coordinated through the hierarchy
+- [GenServer](/glossary/genserver/) -- OTP behavior implementing Supreme Commander's process
+- [NABLA Infinity](/glossary/nabla-infinity/) -- Epistemic framework governing decision confidence
+- [Trinity Gate](/glossary/trinity-gate/) -- Verification gate for high-stakes decisions
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Agents](@/agents/_index.md) -- Full agent catalog
-- [Commands](@/commands/_index.md) -- Command catalog including `/orchestrate`
+- [Architecture](/architecture/) -- Platform architecture overview
+- [Agents](/agents/) -- Full agent catalog
+- [Commands](/commands/) -- Command catalog including `/orchestrate`
 
 ---
 

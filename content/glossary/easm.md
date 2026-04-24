@@ -258,27 +258,27 @@ end
 
 ## Related Concepts
 
-- [Security Rating](@/glossary/security-rating.md) - A-F grading system produced by EASM analysis
-- [NIS2](@/glossary/nis2.md) - EU compliance framework assessed by the platform
-- [ZKB](@/glossary/zkb.md) - Czech compliance framework assessed alongside NIS2
-- [DNS Enumeration](@/glossary/dns-enumeration.md) - Core discovery technique within EASM
-- [OSINT](@/glossary/osint.md) - Intelligence methodology powering asset discovery
-- [Attack Surface](@/glossary/attack-surface.md) - The total exposure area that EASM manages
-- [HAWKEYE](@/glossary/hawkeye.md) - Visitor intelligence system complementing external EASM
-- [Threat Intelligence](@/glossary/threat-intelligence.md) - Structured threat data enriching EASM findings
-- [Shodan](@/glossary/shodan.md) - Internet scanner providing port and service intelligence
-- [Censys](@/glossary/censys.md) - Certificate and host scanner enriching discovery results
-- [GDPR](@/glossary/gdpr.md) - Data protection regulation assessed through EASM compliance
+- [Security Rating](/glossary/security-rating/) - A-F grading system produced by EASM analysis
+- [NIS2](/glossary/nis2/) - EU compliance framework assessed by the platform
+- [ZKB](/glossary/zkb/) - Czech compliance framework assessed alongside NIS2
+- [DNS Enumeration](/glossary/dns-enumeration/) - Core discovery technique within EASM
+- [OSINT](/glossary/osint/) - Intelligence methodology powering asset discovery
+- [Attack Surface](/glossary/attack-surface/) - The total exposure area that EASM manages
+- [HAWKEYE](/glossary/hawkeye/) - Visitor intelligence system complementing external EASM
+- [Threat Intelligence](/glossary/threat-intelligence/) - Structured threat data enriching EASM findings
+- [Shodan](/glossary/shodan/) - Internet scanner providing port and service intelligence
+- [Censys](/glossary/censys/) - Certificate and host scanner enriching discovery results
+- [GDPR](/glossary/gdpr/) - Data protection regulation assessed through EASM compliance
 
 ## See Also
 
-- [prismatic_perimeter](../../../apps/prismatic_perimeter/README.md) -- Primary EASM application with discovery, rating, and compliance
-- [prismatic_perimeter_core](../../../apps/prismatic_perimeter_core/README.md) -- Core EASM logic and domain models
-- [prismatic_perimeter_web](../../../apps/prismatic_perimeter_web/README.md) -- LiveView dashboards for EASM visualization
-- [prismatic_osint_core](../../../apps/prismatic_osint_core/README.md) -- OSINT engine powering asset discovery
-- [prismatic_osint_network](../../../apps/prismatic_osint_network/README.md) -- Network reconnaissance for attack surface mapping
-- [prismatic_compliance](../../../apps/prismatic_compliance/README.md) -- Compliance assessment engine for NIS2 and ZKB
-- [prismatic_web](../../../apps/prismatic_web/README.md) -- Main web interface hosting Perimeter dashboards
+- [prismatic_perimeter](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter/README.md) -- Primary EASM application with discovery, rating, and compliance
+- [prismatic_perimeter_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter_core/README.md) -- Core EASM logic and domain models
+- [prismatic_perimeter_web](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter_web/README.md) -- LiveView dashboards for EASM visualization
+- [prismatic_osint_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_osint_core/README.md) -- OSINT engine powering asset discovery
+- [prismatic_osint_network](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_osint_network/README.md) -- Network reconnaissance for attack surface mapping
+- [prismatic_compliance](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_compliance/README.md) -- Compliance assessment engine for NIS2 and ZKB
+- [prismatic_web](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_web/README.md) -- Main web interface hosting Perimeter dashboards
 
 ---
 

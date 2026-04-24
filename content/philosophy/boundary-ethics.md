@@ -117,7 +117,7 @@ Legal boundaries translate philosophical principles into enforceable rights and 
 
 #### The GHL Legal Framework
 
-The [General Honest License](@/philosophy/ghl-framework.md) establishes legal boundaries through:
+The [General Honest License](/philosophy/ghl-framework/) establishes legal boundaries through:
 
 - **Default Prohibition**: All usage requires explicit authorization
 - **Scope Limitation**: Each grant specifies exact permitted usage

@@ -292,9 +292,9 @@ The 225+ terms across seven categories represent the current state of the platfo
 
 ### Related Sections
 
-- [Architecture](@/architecture/_index.md) -- Technical deep-dive using architecture terms
-- [Platform Capabilities](@/capabilities/_index.md) -- Doctrine and quality enforcement terms in action
-- [Applications](@/apps/_index.md) -- OTP application catalog referencing technology terms
+- [Architecture](/architecture/) -- Technical deep-dive using architecture terms
+- [Platform Capabilities](/capabilities/) -- Doctrine and quality enforcement terms in action
+- [Applications](/apps/) -- OTP application catalog referencing technology terms
 
 ### External References
 

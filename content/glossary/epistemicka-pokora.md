@@ -1,0 +1,57 @@
++++
+title = "Epistemická pokora"
+weight = 60
+
+[extra]
+category = "epistemic"
+description = "Epistemic humility — disposition to acknowledge limits of one's knowledge. Distinguished from its weaponized form (EA-1.6.5), where humility is induced as a control mechanism rather than a virtue."
+related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognice", "metakognitivni-destrukce", "kompendium-ea", "epistemic-confidence"]
+author = "Tomáš Korcak (korczis)"
+reading_time = "4 min"
+word_count = 560
+date_created = "2026-04-25"
+date_modified = "2026-04-25"
+keywords = ["epistemic humility", "epistemická pokora", "EA-1.6.5", "weaponized humility", "calibration"]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+quality_score = 88
+see_also = ["kompendium", "philosophy", "decisions"]
+image = "/images/sections/glossary.png"
+image_alt = "Epistemická pokora - glossary"
++++
+
+## Definition
+
+**Epistemická pokora** (epistemic humility) is the disposition to recognize the limits of one's own knowledge — to hold beliefs with appropriately calibrated confidence, to remain open to revision under new evidence, and to acknowledge the possibility of being wrong. In its **legitimate form**, it is a cardinal epistemic virtue: a precondition for inquiry, dialogue, and rational updating. Aristotelian *phronesis*, Socratic *aporia*, Popperian fallibilism, and Bayesian calibration all incorporate epistemic humility as constitutive.
+
+Legitimate epistemic humility has identifiable structure: it is **selective** (appropriate to the domain — humility about quantum mechanics differs from humility about one's own headache), **proportionate** (calibrated to actual evidence and competence), **agentic** (preserves the subject's capacity to evaluate and act), and **revisable** (open to upward revision when warranted, not just downward).
+
+The **weaponized form**, classified as **EA-1.6.5** in the [Kompendium taxonomy](/glossary/taxonomie-ea/), inverts each of these properties. The target is induced into a state of **global, indiscriminate, agency-paralyzing pseudo-humility** — a posture indistinguishable from humility on the surface but functionally equivalent to learned epistemic helplessness. The classical move: "You can't really *know* anything for sure, can you?" repeated until the target's confidence in any claim — including the claim that they are being manipulated — collapses.
+
+The diagnostic distinction lies in **functional outcome**: legitimate humility *enables* further inquiry; weaponized humility *terminates* it. Legitimate humility is *domain-indexed*; weaponized humility is *globalized*. Legitimate humility *preserves agency*; weaponized humility *transfers it* to the manipulator, who is now framed as the only locus of reliable judgement.
+
+## Context
+
+Within the Prismatic Platform, the legitimate/weaponized distinction is operationalized in the [Decision Engine](/hub/dd/decisions/) calibration metrics. A subject reporting **uniformly low confidence across all domains** triggers a calibration alert — this is not "humility," it is a marker of epistemic compromise. The pattern is documented at [Kompendium → EA-1.6.5](/kompendium/techniques/ea-1-6-5/) with full case studies and recovery protocols at [/kompendium/06-zotaveni/pokora/](/kompendium/06-zotaveni/pokora/).
+
+The [NABLA Infinity](/glossary/nabla-infinity/) pipeline distinguishes the two modes via cross-domain confidence variance: legitimate humility produces *high variance* in confidence across domains (the subject is humble where they should be, confident where they should be); weaponized humility produces *flat, uniformly suppressed* confidence. This metric is exposed in the platform's calibration dashboard and feeds into the [Brier score](/glossary/epistemic-confidence/) tracking on the [Calibration LiveView](/hub/dd/decisions/calibration).
+
+The recovery doctrine — documented in [Kompendium](/kompendium/) — emphasizes that the antidote to weaponized humility is not "more confidence" but **restored domain-indexing**: helping the subject reconstruct the differentiated structure of legitimate humility versus legitimate confidence.
+
+## See Also
+
+- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat model
+- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive parallel damage
+- [Metakognice](/glossary/metakognice/) — Reflective monitoring required for calibrated humility
+- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Damage that disables humility-calibration
+- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
+- [Epistemic Confidence](/glossary/epistemic-confidence/) — Calibration counterpart
+- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

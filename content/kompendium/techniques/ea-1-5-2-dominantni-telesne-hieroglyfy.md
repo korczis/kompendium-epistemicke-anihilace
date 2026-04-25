@@ -266,6 +266,13 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **Glossary**:
   - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
   - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Boundary Ethics](/philosophy/boundary-ethics/)
+- **Forward-references**:
+  - [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
+  - [Sekce 05 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Související platformové koncepty**:
+  - [Decision Engine](/hub/dd/decisions/)
+  - [Color Teams](/glossary/color-teams/)
 
 ---
 

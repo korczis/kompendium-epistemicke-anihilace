@@ -26,7 +26,7 @@ status = "preparation"
 
 Sekce 05 představuje **terminální vrstvu taxonomie EA**. Zatímco [Sekce 03](/kompendium/03-zakladni-kategorie/) katalogizuje základní kategorie technik (EA-1 až EA-4) operující na rovině diskurzivní, [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) popisuje strategicky koordinované interakční sekvence vedoucí k systemickému kolapsu individuální epistemické struktury, a [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) adresuje rekonstrukci, **Sekce 05 popisuje techniky, které nezasahují obsah poznání, nýbrž samotné podmínky možnosti poznání**. Operují na rovině [metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [ontologické anihilace](/glossary/ontologicka-anihilace/) a [epistemické alienace](/glossary/epistemicka-alienace/) — narušují fundamenty, které musí být intaktní, aby vůbec mohlo dojít k běžné akademické či sociální výměně.
 
-Pro filozofickou pozadi viz [fenomenologii](/glossary/fenomenologii/) zkušenosti vědomí (Husserl, Merleau-Ponty) a [hermeneutiku](/glossary/hermeneutika/) interpretace (Gadamer, Ricœur) — ultramární techniky exploitují právě transcendentální struktury, které tyto tradice rekonstruují jako podmínky inteligibility.
+Pro filozofickou pozadi viz [fenomenologii](/glossary/fenomenologie/) zkušenosti vědomí (Husserl, Merleau-Ponty) a [hermeneutiku](/glossary/hermeneutika/) interpretace (Gadamer, Ricœur) — ultramární techniky exploitují právě transcendentální struktury, které tyto tradice rekonstruují jako podmínky inteligibility.
 
 ## Strukturální rámec: 5 × 30 = 150 technik
 

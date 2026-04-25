@@ -1,0 +1,44 @@
++++
+title = "01. Předmluva"
+description = "Úvodní sekce kompendia: účel taxonomie, cílová skupina, etické aspekty a metodika práce s materiálem."
+weight = 1
+sort_by = "weight"
+template = "section.html"
+
+[taxonomies]
+tags = ["kompendium", "predmluva", "etika", "metodika"]
+categories = ["academic"]
+
+[extra]
+section_icon = "📖"
+toc = true
+insert_anchor_links = "right"
+parent = "kompendium"
++++
+
+# 01. Předmluva
+
+Úvodní sekce kompendia vysvětluje **proč** taxonomie vznikla, **pro koho** je určena, **jaké etické rámce** ji vážou a **jak s ní pracovat**. Doporučujeme začít právě zde — bez porozumění etickému kontextu by četba zbylých sekcí mohla být zavádějící.
+
+## Kapitoly
+
+| # | Článek | Téma |
+|---|--------|------|
+| 1.1 | [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/) | Záměr taxonomie, vymezení vůči klasické psychopatologii |
+| 1.2 | [Pro koho je určeno](/kompendium/01-predmluva/pro-koho-je-urceno/) | Specifikace cílových skupin a předpokládané kvalifikace |
+| 1.3 | [Etické aspekty a upozornění](/kompendium/01-predmluva/eticke-aspekty/) | Etický rámec, omezení použití, dual-use rizika |
+| 1.4 | [Jak používat toto kompendium](/kompendium/01-predmluva/jak-pouzivat/) | Doporučené čtenářské strategie, gradualita expozice |
+
+## Související
+
+- [Hub kompendia](/kompendium/) — návrat na úvodní stranu
+- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Filozofie: Boundary Ethics](/philosophy/boundary-ethics/)
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)

@@ -11,32 +11,49 @@ glossary_target = "c-ptsd"
 toc = false
 +++
 
-# Bridge — c-ptsd
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Complex PTSD (C-PTSD)
 
 ## Glossary entry
 
-[c-ptsd](/glossary/c-ptsd/) — Hermanovsky komplexni PTSD.
+[c-ptsd](/glossary/c-ptsd/) — Complex PTSD (C-PTSD).
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Complex PTSD (C-PTSD) je typologie traumy popisovaná Judith Herman (1992), navržená do ICD-11. Vzniká v důsledku dlouhodobé, opakované interpersonální traumy (zneužívání v dětství, domácí násilí, věznění) a charakterizují ji tři jádrové symptomy: dysregulace afektu, negativní self-koncept a interpersonální problémy.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 06 — Trauma typologie**: C-PTSD vs. PTSD vs. BPD
+- **Sekce 07 — Diagnostické otázky**: ICD-11 vs. DSM-5 přístup
+- **Sekce 08 — Léčba**: phase-based treatment (Herman, van der Kolk)
+- **Sekce 09 — Aplikace v DD**: rozpoznání trauma-organized leadership
+- **Per-technique články**: C-PTSD screening, somatic experiencing, EMDR
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| podtyp | Trauma | kategorie |
+| kontrastuje | PTSD (single-event) | etiologie |
+| souvisí | Betrayal trauma, attachment | patogeneze |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Klinicky C-PTSD vyžaduje phase-based léčbu (stabilizace → trauma processing → reintegrace), nikoliv okamžité exposure. Filosoficky problematizuje koncept self — chronická trauma narušuje narrative continuity osobnosti. V due diligence kontextu je rozpoznání C-PTSD u klíčové osoby relevantní pro behavioral risk assessment.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/c-ptsd/](/glossary/c-ptsd/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

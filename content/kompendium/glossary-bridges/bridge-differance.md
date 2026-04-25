@@ -11,32 +11,49 @@ glossary_target = "differance"
 toc = false
 +++
 
-# Bridge — differance
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Différance
 
 ## Glossary entry
 
-[differance](/glossary/differance/) — Derridovska kritika.
+[differance](/glossary/differance/) — Différance.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Différance (Jacques Derrida, 1968 essay v Marges de la philosophie) je neologismus kombinující 'différer' (lišit se) a 'différer' (odložit). Označuje dvojí pohyb významu: spatiální diferenci (slovo má smysl jen ve vztahu k tomu, čím není) a temporální deferral (význam je odložen, never fully present).
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Post-strukturalismus**: différance jako klíčový koncept Derridy
+- **Sekce 08 — Sémantika a NLP**: implikace pro embedding modely
+- **Sekce 09 — Klinické aplikace**: deferral mechanismy v traumatu
+- **Sekce 10 — Aplikace na LLM**: kontextová závislost generovaného textu
+- **Per-technique články**: Derrida v praktické filosofii vědy
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| koncept | Post-strukturalismus | filosofická škola |
+| kontrastuje | Strukturalismus (de Saussure) | evoluce |
+| aplikuje | Embedding semantika | kognitivní věda |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Différance problematizuje představu pevné významové jednotky: ani slovník, ani LLM embedding nezachytí význam staticky — vždy v relaci a se zpožděním. Klinicky reflektuje deferred trauma processing (Freud's Nachträglichkeit). V AI: vysvětluje, proč jsou large context windows klíčové — význam je distributed across the context, never localized.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/differance/](/glossary/differance/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

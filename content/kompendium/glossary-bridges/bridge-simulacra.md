@@ -13,30 +13,36 @@ toc = false
 
 # Bridge — simulacra
 
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
 
-## Glossary entry
+## Definice z glossary
 
-[simulacra](/glossary/simulacra/) — Baudrillardova hyperrealita.
+[simulacra](/glossary/simulacra/) — Simulakra (Baudrillard) jsou kopie bez originálu — znaky, které nereferují k žádné mimoznakové realitě, ale produkují vlastní řád pravdivosti. Procházejí čtyřmi řády: reflexe reality, maskování reality, maskování absence reality, čisté simulakrum bez referenčního ukotvení.
 
-## Vyskyt v kompendiu
+Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Pozice v kompendiu
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-## Smantilcky vztah
+- **Sekce 03 — Mediální realita**: transition od reprezentace k simulaci
+- **Sekce 07 — Teoretické pozadí**: Baudrillard, Eco, Borges o mapování
+- **Per-technique: Provenance Tracking**: obrana před simulakrickou dominací
+- **Sekce 06 — Klinické aplikace**: depersonalizace v hypermediálním prostředí
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+## Konceptuální mapa
+
+| Subjekt | Vztah | Objekt |
+|---------|-------|--------|
+| **Simulakrum** | je | Kopie bez originálu |
+| **Simulakrum** | prochází | 4 řády (reflexe → maska → maska absence → čisté simul.) |
+| **Simulakrum** | produkuje | Vlastní řád pravdivosti bez referentu |
+
+## Filosofické implikace
+
+V éře generativního AI simulakra přestávají být teoretickým konceptem a stávají se operativní realitou — generované tváře, hlasy, dokumenty bez referentu zaplavují informační pole. Strukturální obrana spočívá v provenance: kryptografický podpis, audit trail, blockchain notarization. Bez technického zakotvení původu znaku diskuze o pravdě obsahu ztrácí kotvu.
 
 ## Cross-linky
 
@@ -44,7 +50,16 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/simulacra/](/glossary/simulacra/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Glossary hub**: [/glossary/](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

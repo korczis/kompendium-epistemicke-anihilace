@@ -1,6 +1,6 @@
 +++
-title = "Pripad 59-political-cult-recovery: Political cult recovery"
-description = "Anonymizovana pripadova studie — Political cult recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Pripad 59-political-cult-recovery: Politicky kult recovery"
+description = "Anonymizovana pripadova studie — Politicky kult recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
 weight = 59
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
@@ -11,57 +11,80 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 59-political-cult-recovery: Political cult recovery
+# Pripadova studie 59-political-cult-recovery: Zotaveni z politickeho kultu
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 59-political-cult-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 59-political-cult-recovery) byl muz ve veku 33 let, vystudovaný politolog, ktery se postupně ponořil do okrajové politické organizace s kultovními rysy (autoritativní vůdce, ideologická čistota, izolace od mainstreamu). Před totalizací vykazoval idealistickou angažovanost, vystudovanou politologii, a stabilní rodinu. Vstupní motivace: hledání politické organizace s "skutečným" závazkem.
+
+Rizikové faktory: idealistická angažovanost, frustrace z mainstreamové politiky, charismatický vůdce, kultura "vnitřní oddanosti", a kombinace ideologie s emoční manipulací.
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-6 | Setkání s organizací, "konečně skutečná politika" |
+| **Perturbace** | mesice 7-18 | Stupňování závazku, ideologická čistota, kritika vnějších |
+| **Rekonfigurace** | roky 1-3 | Plné členství, ztráta neorganizačních vztahů |
+| **Konsolidace** | roky 3-6 | Práce pro organizaci na plný úvazek, izolace |
+| **Exit / detekce** | rok 6+ | Zjištění finančních manipulaci vůdce, externi konfrontace |
+
+V inicialni fazi byl subjekt přitažen organizací, která se prezentovala jako "skutečný" politický projekt. Vůdce byl charismatický intelektuál.
+
+V perturbacni fazi se rozvinula ideologická čistota. Disent uvnitř byl trestán izolací. "Pochybení" byla rituálně priznáma na schůzích. Vnější kritika = "nepřátelská propaganda".
+
+Rekonfiguracni faze: subjekt přerušil kontakty mimo organizaci. Romantický partner musel být z organizace. Profesní život byl podřízen aktivismu.
+
+Konsolidacni faze: práce na plný úvazek pro organizaci za nízký plat ("pro věc"). Sociální svět = organizace.
+
+Exit byl iniciovan zjištěním, že vůdce systematicky zneužíval finanční dary pro osobní luxus. Konfrontace skupinou bývalých členů byla zlomová.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — vůdce jako absolutní politická autorita
+- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika = "neporozumění"
+- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "s námi, nebo zlo"
+- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrola informačního pole
+- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — kolektivní disciplinace disentu
+- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "ztráty hnutí"
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — interní žargon
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisoval: "Když jsem viděl ty dokumenty o financích, čekal jsem reakci, ne přijetí — ale dlouhá léta jsem se naučil, že vlastní pochybnosti jsou 'odpor'. Trvalo mi šest měsíců, než jsem si dovolil věřit vlastním očím."
+
+Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) a [betrayal trauma](/glossary/betrayal-trauma/).
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Konfrontace skupinou bývalých členů. Klicovy moment: terapeut s expertízou v political cult recovery identifikoval [c-PTSD](/glossary/c-ptsd/) s ideologickým komponentem.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Odchod z organizace, ekonomická stabilizace.
+**S2 - Externi epistemicka kotva:** Group therapy pro political cult survivors.
+**S3 - Identitni rekonstrukce:** Restituce politické identity nezávislé na organizaci, schopnost demokratického nesouhlasu.
+**S4 - Profesni rekontextualizace:** Návrat k politologii v akademickém kontextu.
+**S5 - Integrace:** Subjekt se stal výzkumníkem koercivních dynamik v politických organizacích.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 30 měsících terapie funkční stabilizace. Restituce vztahů s rodinou, akademická publikace o political cults. Reziduální: opatrnost vůči charismatickým politickým vůdcům.
+
+## Klinicke pouceni
+
+Politický kult recovery vyžaduje rozlišení mezi zdravou politickou angažovaností a kultovní strukturou. Klinik musí pracovat s ideologickým a emocionálním komponentem současně. Reformně: politická vzdělání by mělo zahrnovat rozeznávání kultovních dynamik.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
 - **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Techniques**: [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/), [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

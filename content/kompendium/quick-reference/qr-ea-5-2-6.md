@@ -13,27 +13,33 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.6 Transcendentalni rekursivita
+# QR Card — EA-5.2.6 Transcendentální rekursivita
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Doména**: Metatranscendentální anihilace — uvěznění subjekta v rekurzivních smyčkách meta-reflexí, kde každý pokus o transcendentální analýzu spouští novou meta-úroveň ad infinitum.
 
-## Operacni cíl
+## Operační modus (3 kroky)
 
-Destabilizace Transcendentalni rekursivita skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+1. Indukce reflexivního aktu na úrovni 1 ("zkoumám, jak vlastně poznávám") s implicitní pobídkou pokračovat na úrovni 2
+2. Validace každé další meta-úrovně jako "hlubšího pochopení"; subjekt je v každém okamžiku motivován pokračovat
+3. Konsolidace v rekurzivní spirále, která nemá pragmatický exit; subjekt nemůže ukončit reflexi, protože "ještě není u dna"
 
-## Indikatory pokrocile EA
+## Detekční markery (3 nejvýraznější)
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Subjekt opakovaně tvrdí "musím to pochopit ještě hlouběji" bez schopnosti formulovat, co by konkrétní úspěch (terminace) znamenal
+- Praktická rozhodnutí jsou odložena s odkazem na "ještě nedokončenou reflexi"; subjekt v rekurzi tráví měsíce, někdy roky
+- Trajektorie reflexivních zápisků (deníky, blogy, dopisy) ukazuje exponenciálně vzrůstající meta-vrstvy bez konvergence
 
-## Klinicka odpoved
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+- Pragmatický exit — explicitně stanovit terminační kritérium (časové, akční, výkonové) předem; rekurzi přerušit nezávisle na "vyřešení"
+- Husserlův přístup — fenomenologická epoché je akt s definovaným koncem; cvičení ukazuje, jak ji ukončit
+- Externí supervizor s mandátem ukončit rekurzi — třetí strana s autoritou rozhodnout "stačí, jednej"
+
+## Příklad
+
+Doktorand v post-strukturalistické filosofii pět let nedokáže napsat dizertaci — každá kapitola spouští meta-reflexi o tom, "jakou formou by se měla psát". Po devíti měsících má 200 stran o povaze psaní, žádnou skutečnou kapitolu. Mentor (sám v podobné rekurzi) ho v tom potvrzuje jako "jediný autentický přístup".
 
 ## Cross-linky
 

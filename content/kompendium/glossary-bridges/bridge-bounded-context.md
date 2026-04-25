@@ -11,32 +11,49 @@ glossary_target = "bounded-context"
 toc = false
 +++
 
-# Bridge — bounded-context
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Bounded Context
 
 ## Glossary entry
 
-[bounded-context](/glossary/bounded-context/) — DDD boundary.
+[bounded-context](/glossary/bounded-context/) — Bounded Context.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Bounded Context (Eric Evans, DDD) je architektonický koncept označující explicitní hranice doménového modelu, uvnitř kterých má každý termín jednoznačný význam a model je vnitřně konzistentní. V Prismatic 92-app umbrella struktuře tvoří každá umbrella aplikace bounded context s vlastním ubiquitous language.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 03 — Architektura platformy**: 92 umbrella apps jako 92 bounded contexts
+- **Sekce 04 — Doménové modelování**: OSINT vs. DD vs. CER jako kontextové hranice
+- **Sekce 05 — Inter-context komunikace**: anti-corruption layer, shared kernel, customer-supplier
+- **Sekce 07 — DDD principy**: ubiquitous language, aggregate roots, context map
+- **Per-technique články**: definice nového bounded contextu, refactoring boundaries
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | DDD pattern | architektura |
+| manifestuje | Umbrella app | implementace |
+| vyžaduje | Anti-corruption layer | boundary protection |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Bounded context implementuje princip cognitive scoping: lidská paměť i kódová base má omezenou kapacitu pro konzistenci. Filosoficky reflektuje Wittgensteinovu Sprachspiele — význam je vázaný na specifický jazykový kontext. Inženýrsky umožňuje nezávislý vývoj, deploy a evoluci jednotlivých sub-systémů.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/bounded-context/](/glossary/bounded-context/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

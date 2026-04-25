@@ -11,32 +11,49 @@ glossary_target = "blue-team"
 toc = false
 +++
 
-# Bridge — blue-team
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Blue team
 
 ## Glossary entry
 
-[blue-team](/glossary/blue-team/) — Color teams blue.
+[blue-team](/glossary/blue-team/) — Blue team.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Blue team je v Prismatic color-team taxonomii agentní rodina specializovaná na defenzivní bezpečnost, threat detection, incident response a infrastructure hardening. Komplementární k red team (offensive) v klasickém security paradigmatu; operuje pod zvýšenou auditní zátěží a předvídatelností.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Color teams overview**: blue team mezi 6 týmy
+- **Sekce 05 — Defensive security**: SIEM, IDS/IPS, threat modeling
+- **Sekce 06 — Incident response**: playbook, IR pipeline, post-mortem
+- **Sekce 07 — Red vs. Blue**: purple team jako sjednocení
+- **Per-technique články**: defensive playbooks, MITRE ATT&CK mapping
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | Color Team | specializace |
+| kontrastuje | Red team (ofenzivní) | polarita |
+| integruje | Purple team | sjednocení |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Blue team reprezentuje epistemiku obrany: znalost vlastní infrastruktury, předvídání útočníka, kontinuální vigilance. Filosoficky implementuje princip Maginot-line vs. defense-in-depth. Klinicky musí blue team pracovat s information asymmetry — útočník volí čas a místo, defendant musí být všude vždy.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/blue-team/](/glossary/blue-team/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

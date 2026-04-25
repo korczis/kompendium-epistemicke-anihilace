@@ -11,32 +11,49 @@ glossary_target = "firehose-of-falsehood"
 toc = false
 +++
 
-# Bridge — firehose-of-falsehood
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Firehose of falsehood
 
 ## Glossary entry
 
-[firehose-of-falsehood](/glossary/firehose-of-falsehood/) — Rusky propaganda model.
+[firehose-of-falsehood](/glossary/firehose-of-falsehood/) — Firehose of falsehood.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Firehose of falsehood (RAND 2016, autoři Paul & Matthews) je propaganda model charakteristický čtyřmi rysy: high volume + multiple channels, rapidní + kontinuální, lacking commitment to objective reality, lacking commitment to consistency. Operacionalizovaný v ruském state-sponsored disinformation operations.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Disinformation taxonomie**: firehose vs. classical propaganda
+- **Sekce 05 — Defenzivní strategie**: RAND counter-recommendations
+- **Sekce 06 — Mediální analýza**: RT, Sputnik, troll factories
+- **Sekce 07 — Aplikace v Czech kontextu**: ruská hybridní operace 2014-2024
+- **Per-technique články**: detection patterns, narrative tracking
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | Disinformation | specific model |
+| kontrastuje | Classical propaganda | evoluce |
+| souvisí | Cognitive warfare, info ops | broader |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Firehose model exploituje kognitivní limity: lidský brain nemá kapacitu real-time fact-check tisíce nárokovaných tvrzení. Filosoficky napadá Habermasian ideal speech situation — debata vyžaduje shared commitment k pravdě, kterou firehose model explicitně odmítá. Counter-strategy podle RAND: don't expect to refute, build raise immunity through forewarning.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/firehose-of-falsehood/](/glossary/firehose-of-falsehood/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

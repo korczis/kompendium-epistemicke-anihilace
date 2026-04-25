@@ -11,32 +11,49 @@ glossary_target = "easm"
 toc = false
 +++
 
-# Bridge — easm
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — EASM (External Attack Surface Management)
 
 ## Glossary entry
 
-[easm](/glossary/easm/) — External Attack Surface.
+[easm](/glossary/easm/) — EASM (External Attack Surface Management).
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+External Attack Surface Management (EASM) je doména kybernetické bezpečnosti zaměřená na kontinuální discovery, inventory a monitoring exponovaných digitálních aktiv organizace z perspektivy externího útočníka. Protichůdně k internímu vulnerability managementu (assumes known assets) EASM předpokládá, že útočník má lepší přehled než defendant.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Security operations**: EASM jako proaktivní defensive layer
+- **Sekce 05 — Prismatic Perimeter**: implementační příklad EASM v platformě
+- **Sekce 06 — Asset discovery**: Censys, Shodan, GreyNoise integrace
+- **Sekce 07 — Risk scoring**: CVSS + business context
+- **Per-technique články**: EASM workflow, false positive management
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| doména | Cybersecurity | kategorie |
+| využívá | Censys, Shodan, certificate transparency | data sources |
+| integruje | Vulnerability management | downstream |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+EASM operacionalizuje princip 'attacker's view': defendant musí vidět svojí infrastrukturu očima protivníka. Filosoficky reflektuje epistemic asymmetry — defendant má insider knowledge ale outsider blind spots. Klinicky umožňuje katching shadow IT, deprecated služby, certificate sprawl před tím, než to udělá útočník.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/easm/](/glossary/easm/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

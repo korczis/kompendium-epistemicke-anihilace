@@ -19,34 +19,55 @@ toc = false
 
 **Doména**: Metatranscendentální anihilace — útok na strukturu apriorních podmínek poznání skrze jejich přesycení nelegitimními "apriorními pravdami".
 
-## Operační modus (3 kroky)
+## Definice
 
-1. Vnesení doktrinálních tezí (kosmologických, antropologických, etických) do subjektova diskurzu jako "apriorních" — předtím, než vůbec mohly být zpochybněny
-2. Imunizace tezí proti empirickému zpochybnění — "to nelze testovat, je to apriorně dáno"
-3. Konsolidace skrze kruhovou strukturu — empirie je interpretována tezí, teze je "potvrzena" empirií, kterou sama strukturuje
+**Apriorní saturace** je technika, při níž manipulátor **vnáší doktrinální teze** (kosmologické, antropologické, etické) do subjektova diskurzu jako **"apriorní"** — tedy jako pravdy, které nepotřebují empirickou validaci, jsou přijímány **dříve, než vůbec mohly být zpochybněny**. Strukturálně se to liší od legitimních apriori (matematicko-logických, jichž si Kant všímal) — pseudo-apriorní teze ("vesmír je vědomý", "duše existuje", "dobro vítězí") jsou syntetické, ale jsou prezentovány jako analytické. Subjekt postupně přesycuje svůj epistemický prostor tezemi, které jsou imunizovány proti empirickému zpochybnění formulemi typu "to nelze testovat, je to apriorně dáno". V terminálním stadiu nastává *kruhová struktura*: empirie je interpretována tezí, teze je "potvrzena" empirií, kterou sama strukturuje. 
 
-## Detekční markery (3 nejvýraznější)
+## Operační modus (5 kroků)
 
-- Subjekt formuluje tvrzení ("vesmír je vědomý", "duše existuje", "dobro vítězí") jako "samozřejmá" bez ochoty argumentovat
-- Pokus o empirický test je rámován jako "kategorizační chyba" — "tato pravda nemá empirický status"
-- Rozpor mezi apriorně přijatým tvrzením a běžnou empirickou zkušeností je vyřešen ve prospěch apriorní teze, vždy
+1. **Vnesení doktrinálních tezí** — kosmologické, antropologické či etické výroky prezentovány jako "apriorně samozřejmé".
+2. **Imunizace proti empirickému zpochybnění** — "to nelze testovat".
+3. **Rituální posílení** — opakování v doktrinálních setkáních.
+4. **Kruhová verifikace** — empirie je interpretována tezí, teze "potvrzena" výsledkem.
+5. **Konsolidace nemožnosti zpochybnění** — subjekt nedokáže pojmout tezi jako *tvrditelnou*.
 
-## Neutralizační strategie (3 nejúčinnější)
+## Fenomenologické znaky
 
-- Strukturální Kantův audit — odlišení matematicko-logických apriori (legitimních) od pseudo-apriorních doktrín; kritérium syntheticko/analytické
-- Empirický falsifikační test — pro každé tvrzení vyžadovat scénář, ve kterém by bylo nepravdivé; absence scénáře = pseudo-apriori
-- Historicko-filosofický kontext — ukázat, že tvrzení patří do specifické tradice, není transhistoricky platné
+| Znak | Popis |
+|------|-------|
+| **Samozřejmost** | "To je samozřejmé, není to třeba argumentovat" |
+| **Kategoriální averze k testu** | Test je "kategorizační chyba" |
+| **Kruhová interpretace** | Empirie potvrzuje to, čím sama je strukturována |
+| **Neformulovatelnost jako tvrzení** | Subjekt nedokáže pojmout tezi jako něco, co by mohlo být nepravdivé |
 
-## Příklad
+## Detekční markery
 
-Komunita věřících v "kvantové vědomí" tvrdí jako apriori, že "myšlenky vytvářejí realitu". Subjekt po dvou letech expozice nedokáže pojmout výrok jako tvrditelný; pro něj je "samozřejmý". Při klinické konfrontaci s placebo studiemi (kde efekt je 30-40 %, nikoli 100 %) reaguje "to je iluze měření, kvantové vědomí pracuje na hlubší úrovni".
+| Marker | Indikuje |
+|--------|----------|
+| Subjekt formuluje tvrzení jako **"samozřejmá"** bez ochoty argumentovat | Aktivní saturaci |
+| Pokus o empirický test rámován jako **"kategorizační chyba"** | Strukturální imunizaci |
+| **Rozpor s běžnou empirií** vyřešen ve prospěch apriorní teze, vždy | Kruhovou strukturu |
+| Subjekt nedokáže formulovat **scénář vyvrácení** | Pseudo-apriori strukturu |
+
+## Neutralizace
+
+- **Strukturální Kantův audit** — odlišení matematicko-logických apriori (legitimních) od pseudo-apriorních doktrín; kritérium syntetické / analytické.
+- **Empirický falsifikační test** — pro každé tvrzení vyžadovat scénář, ve kterém by bylo nepravdivé.
+- **Historicko-filosofický kontext** — ukázat, že tvrzení patří do specifické tradice, není transhistoricky platné.
+
+## Klinický kontext
+
+Apriorní saturace se vyskytuje v "kvantově-vědomých" komunitách, v některých formách New Age duchovních škol, v náboženských fundamentalistických společenstvích a v některých post-strukturalistických akademických prostředích. **Klasický případ**: komunita věřících v "kvantové vědomí" tvrdí jako apriori, že "myšlenky vytvářejí realitu". Subjekt po dvou letech expozice nedokáže pojmout výrok jako tvrditelný; pro něj je "samozřejmý". Při klinické konfrontaci s placebo studiemi (kde efekt je 30-40 %, nikoli 100 %) reaguje "to je iluze měření, kvantové vědomí pracuje na hlubší úrovni". Klinické riziko: rozhodnutí na základě saturovaných pseudo-apriori vede k praktickým chybám s nelze-li-vyvrátit struktorou.
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 7 — Metatranscendentalni anihilace](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [epoche](/glossary/epoche/), [intentionalita](/glossary/intentionalita/), [fenomenologie](/glossary/fenomenologie/), [lebenswelt](/glossary/lebenswelt/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Detailní článek**: [EA-5.2.4 Apriorní saturace](/kompendium/techniques/ea-5-2-4-apriorni-saturace/)
+- **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](/kompendium/quick-reference/qr-ea-5-2-1/), [EA-5.2.3 Noumenální redukce](/kompendium/quick-reference/qr-ea-5-2-3/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
+- **Glossary**: [Apriori](/glossary/apriori/), [Syntetické a analytické](/glossary/synteticke-analyticke/), [Falsifikovatelnost](/glossary/falsifikovatelnost/), [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intentionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Apriorní rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), [Multidisciplinární tým](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- **Platforma**: [Decision Engine claim verification](/hub/dd/decisions/), [Color Teams pseudoscience audit](/glossary/color-teams/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

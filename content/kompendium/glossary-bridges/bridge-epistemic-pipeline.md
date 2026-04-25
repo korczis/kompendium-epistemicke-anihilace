@@ -11,32 +11,49 @@ glossary_target = "epistemic-pipeline"
 toc = false
 +++
 
-# Bridge — epistemic-pipeline
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Epistemic pipeline
 
 ## Glossary entry
 
-[epistemic-pipeline](/glossary/epistemic-pipeline/) — 16-level NABLA.
+[epistemic-pipeline](/glossary/epistemic-pipeline/) — Epistemic pipeline.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Epistemic pipeline je v Prismatic platformě sekvence transformací surových dat (raw signals) na strukturované evidence-backed claims s explicitní uncertainty kvantifikací. Typicky: source ingestion → entity extraction → cross-validation → confidence scoring → claim emission. Implementuje doctrine NCLB (No Claim Left Behind).
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Data engineering**: epistemic vs. plain ETL pipeline
+- **Sekce 05 — Decision Engine integration**: EP jako upstream pro DE
+- **Sekce 06 — Source diversity**: OSINT, DB queries, LLM inference
+- **Sekce 07 — Calibration loop**: feedback uzavírá pipeline
+- **Per-technique články**: implementační patterny, evidence schemas
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| vynucuje | NCLB doctrine | compliance |
+| zásobuje | Decision Engine | downstream |
+| využívá | Confidence scoring, evidence schemas | stages |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Epistemic pipeline materializuje princip transparentního poznání: každý claim ve výstupu je zpětně sledovatelný k source, transformacím a confidence intervalu. Filosoficky reflektuje princip explicitní epistemic humility — systém přiznává, co neví. Klinicky/regulačně: auditovatelnost AI rozhodnutí (EU AI Act) vyžaduje právě takovou pipeline.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/epistemic-pipeline/](/glossary/epistemic-pipeline/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

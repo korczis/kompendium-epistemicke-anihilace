@@ -13,30 +13,36 @@ toc = false
 
 # Bridge — trinity-gate
 
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
 
-## Glossary entry
+## Definice z glossary
 
-[trinity-gate](/glossary/trinity-gate/) — NABLA gate.
+[trinity-gate](/glossary/trinity-gate/) — Trinity Gate je kvalitní brána Prismatic platformy vyžadující průchod třemi nezávislými validacemi: kompilační (warnings as errors), testovací (TACH coverage) a doktrinální (mix check.doctrines). Žádný commit nesmí projít bez splnění všech tří.
 
-## Vyskyt v kompendiu
+Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Pozice v kompendiu
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-## Smantilcky vztah
+- **Sekce 08 — Quality Gates**: Trinity Gate v CI/CD pipeline
+- **Per-technique: Pre-commit Workflow**: lokální iterace k passu
+- **Sekce 09 — Doctrina**: vztah k 18 pillarům
+- **Sekce 10 — Metriky**: pass rate, time-to-green
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+## Konceptuální mapa
+
+| Subjekt | Vztah | Objekt |
+|---------|-------|--------|
+| **Trinity Gate** | vyžaduje | Compile + Test + Doctrine pass |
+| **Trinity Gate** | blokuje | Každý commit, který nesplní všechny tři |
+| **Trinity Gate** | měří | Pass rate, time-to-green, regression rate |
+
+## Platformové implikace
+
+Hodnota Trinity Gate spočívá v nepřeskočitelnosti — gate, který lze obejít --no-verify nebo administrativním overridem, degraduje na advisory. Kultura, která respektuje gate jako fyzickou bariéru, ne jako zdvořilé doporučení, transformuje kvalitu z aspiračního cíle na strukturální vlastnost CI/CD pipeline.
 
 ## Cross-linky
 
@@ -44,7 +50,16 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/trinity-gate/](/glossary/trinity-gate/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Glossary hub**: [/glossary/](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

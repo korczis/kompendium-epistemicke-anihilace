@@ -11,32 +11,49 @@ glossary_target = "communicative-rationality"
 toc = false
 +++
 
-# Bridge — communicative-rationality
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Komunikativní racionalita
 
 ## Glossary entry
 
-[communicative-rationality](/glossary/communicative-rationality/) — Habermasova norma.
+[communicative-rationality](/glossary/communicative-rationality/) — Komunikativní racionalita.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Komunikativní racionalita (Jürgen Habermas, Theorie des kommunikativen Handelns 1981) je forma racionality založená na intersubjektivním dosahu konsensu skrze argumentaci v ideal speech situation. Kontrastuje s instrumentální racionalitou (means-ends) a strategickou racionalitou (zájmově motivovaná manipulace).
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Filosofické základy**: Habermas, Apel, diskurzivní etika
+- **Sekce 08 — Aplikace na AI dialog**: validation claims a LLM interakce
+- **Sekce 09 — Limity**: ideal speech situation jako kontrafaktická norma
+- **Sekce 10 — Politická aplikace**: deliberative democracy, public sphere
+- **Per-technique články**: validity claims (truth, rightness, sincerity, comprehensibility)
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| kontrastuje | Instrumentální racionalita | polarita |
+| předpokládá | Ideal speech situation | norma |
+| aplikuje | Discourse ethics | etický rozšíření |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Komunikativní racionalita poskytuje normativní rámec pro hodnocení diskurzu: argument je racionální, pokud by mohl získat konsensus všech kompetentních účastníků za podmínek bez moci. Aplikováno na AI: může LLM splňovat validity claims sincerity? Klinicky: gaslighting je systematické porušování komunikativní racionality.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/communicative-rationality/](/glossary/communicative-rationality/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

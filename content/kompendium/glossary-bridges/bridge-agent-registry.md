@@ -11,32 +11,49 @@ glossary_target = "agent-registry"
 toc = false
 +++
 
-# Bridge — agent-registry
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Agent Registry
 
 ## Glossary entry
 
-[agent-registry](/glossary/agent-registry/) — Central catalog.
+[agent-registry](/glossary/agent-registry/) — Agent Registry.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Agent Registry je centralizovaný katalog 552 specializovaných AI agentů Prismatic platformy. Registry poskytuje real-time discovery, metadata indexaci, dependency tracking a komandantské routing. Každý agent má kanonickou definici v `.aiad/agents/*.agent.md` a je automaticky zaregistrován při kompilaci přes ETS-based runtime registry.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 02 — Mycelial orchestration**: Agent Registry jako základ /mycelialize a /orchestrate příkazů
+- **Sekce 04 — Color-team operations**: registry indexuje red/blue/green/black/gray/white teamy
+- **Sekce 05 — Domain specialization**: OSINT, DD, security, quality, evolution agentní rodiny
+- **Sekce 07 — AIAD doctrine**: registry jako epistemická vrstva nad raw modely
+- **Per-technique články**: agent invocation patterns, tier hierarchie, supervision
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| indexuje | Agent (entity) | kompozice |
+| organizuje | Agent Tier | klasifikace |
+| podporuje | Color Teams | kategorizace |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Operačně Agent Registry umožňuje deterministicky reprodukovat orchestrační rozhodnutí — daný úkol vždy směřuje k transparentně vybraným agentům. Filosoficky představuje materializaci kolektivní intelektuální infrastruktury, kde každý agent je sociálně rolí, ne pouze nástrojem; otevírá otázky distribuované agency a odpovědnosti.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/agent-registry/](/glossary/agent-registry/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

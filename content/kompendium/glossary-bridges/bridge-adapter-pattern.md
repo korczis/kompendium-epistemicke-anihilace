@@ -11,32 +11,49 @@ glossary_target = "adapter-pattern"
 toc = false
 +++
 
-# Bridge — adapter-pattern
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Adapter Pattern
 
 ## Glossary entry
 
-[adapter-pattern](/glossary/adapter-pattern/) — L3 storage primitive.
+[adapter-pattern](/glossary/adapter-pattern/) — Adapter Pattern.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Adapter pattern je strukturální návrhový vzor umožňující integraci nekompatibilních rozhraní pomocí překládací vrstvy. V kontextu Prismatic platformy je adapter konkrétní implementace standardizovaného behaviour (např. Storage adapter, OSINT adapter), která zapouzdřuje externí integrační detaily a vystavuje uniformní API svým konzumentům.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 03 — Architektura platformy**: Adapter pattern jako základní stavební blok 92 umbrella aplikací
+- **Sekce 04 — OSINT toolbox**: 128 self-registering OSINT adapterů využívajících společné Tool behaviour
+- **Sekce 05 — Storage layer**: ETS, Ecto, Meilisearch a KuzuDB jako paralelní adaptery storage trait
+- **Sekce 06 — Pluginový ekosystém**: third-party adaptery a runtime registry
+- **Per-technique články**: implementace nového adapteru, testovací patterny, telemetrie
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | Storage trait, Tool behaviour | implementace |
+| kontrastuje | Facade pattern | alternativa |
+| kompletuje | Strategy pattern | kombinace |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Inženýrsky adapter pattern minimalizuje coupling mezi doménovou logikou a externími závislostmi (databáze, API, formáty). To umožňuje testovatelnost (mock adaptery), výměnnost (PostgreSQL → KuzuDB) a paralelní vývoj. Filosoficky reflektuje princip strukturální abstrakce — substance (data) je oddělena od formy přístupu (rozhraní).
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/adapter-pattern/](/glossary/adapter-pattern/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

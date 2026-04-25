@@ -11,32 +11,49 @@ glossary_target = "anankasticky-rezim"
 toc = false
 +++
 
-# Bridge — anankasticky-rezim
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Anankastický režim
 
 ## Glossary entry
 
-[anankasticky-rezim](/glossary/anankasticky-rezim/) — Terminalni stav rigidity.
+[anankasticky-rezim](/glossary/anankasticky-rezim/) — Anankastický režim.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Anankastický režim označuje rigidní, kontrolu-orientovaný kognitivně-emoční modus charakterizovaný perfekcionismem, nadměrným důrazem na pravidla, neschopností delegace a chronickou pochybností. V klinické psychologii odpovídá osobnostní organizaci kategorizované DSM-5 jako OCPD (obsessive-compulsive personality disorder); v širším smyslu je to společenský fenotyp byrokratických systémů.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 06 — Klinické kategorie**: OCPD vs. OCD, anankastický spektrum
+- **Sekce 07 — Filosofické reflexe**: anankastické organizace u Webera, Foucaulta, Han
+- **Sekce 08 — Aplikace v DD**: rozpoznání anankastického managementu jako risk factoru
+- **Sekce 09 — Cognitive distortions**: perfekcionismus, all-or-nothing, magické myšlení
+- **Per-technique články**: diferenciální diagnostika OCPD vs. autismus vs. ADHD
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| podtyp | Personality organization | kategorie |
+| kontrastuje | Histrionický režim | polarita |
+| souvisí | Coercive control | patogenní vzorec |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Klinicky anankastický režim podkopává adaptivní fungování: rigidita brání učení z chyb, perfekcionismus paralyzuje rozhodování, kontrola eroduje vztahy. Filosoficky reflektuje napětí mezi ordo a kairos — touhou po dokonalém pořádku a nutností improvizace. V DD kontextu je rozpoznání anankastické vůdcovské figury indikátorem governance rizika.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/anankasticky-rezim/](/glossary/anankasticky-rezim/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

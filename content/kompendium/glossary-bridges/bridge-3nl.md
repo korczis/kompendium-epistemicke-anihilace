@@ -11,32 +11,50 @@ glossary_target = "3nl"
 toc = false
 +++
 
-# Bridge — 3nl
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Three Nested Loops (3NL)
 
 ## Glossary entry
 
-[3nl](/glossary/3nl/) — Three Nested Loops.
+[3nl](/glossary/3nl/) — Three Nested Loops (3NL).
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Three Nested Loops (3NL) je architektonický doktrinální rámec definující paralelní operaci tří kognitivních vrstev: L1 logická vrstva (deterministické pravidlo + symbolická manipulace), L2 neurální vrstva (statistická inference + paměťová asociace) a L3 lingvistická vrstva (sémantická interpretace + kontextové ukotvení). Tři smyčky musí běžet souběžně a křížově se validovat — žádná vrstva nemá samostatnou autoritu.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 02 — Úvod do platformy**: 3NL je představen jako základní organizační princip Prismatic agentů
+- **Sekce 03 — Doctrine pillars**: 3NL tvoří první pilíř 18-pillar doctrine vedle NMND, NWB a M5M
+- **Sekce 06 — Klinické aplikace v due diligence**: 3NL slouží jako rámec pro multi-vrstvou validaci OSINT nálezů
+- **Sekce 07 — Teoretické reflexe**: souvislost s tripartitním modelem mysli (Platón, Freud, MacLean)
+- **Per-technique články**: konkrétní implementace ve scoring engine, decision engine a calibration loop
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| zahrnuje | L1 Logic Layer | kompozice |
+| zahrnuje | L2 Neural Layer | kompozice |
+| zahrnuje | L3 Linguistic Layer | kompozice |
+| doplňuje | NMND, NWB, TACH | doctrine pillar |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Klinicky 3NL znemožňuje monolayerové selhání — selhání L1 (chybný pravidlo) je zachyceno L2 (anomálie) a vysvětleno L3 (interpretační kontext). Filosoficky 3NL odpovídá Pearcově triadické sémiotice (firstness/secondness/thirdness) a otevírá cestu k epistemicky robustnějším AI systémům, které neredukují poznání na jeden formalizační režim.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +62,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/3nl/](/glossary/3nl/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

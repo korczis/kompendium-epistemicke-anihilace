@@ -11,32 +11,49 @@ glossary_target = "greynoise"
 toc = false
 +++
 
-# Bridge — greynoise
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — GreyNoise
 
 ## Glossary entry
 
-[greynoise](/glossary/greynoise/) — Background noise.
+[greynoise](/glossary/greynoise/) — GreyNoise.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+GreyNoise je threat intelligence platforma poskytující analýzu internetového background scanning noise — identifikuje, které IP adresy jsou benign scanners (Censys, Shodan), kompromitované hosty masivně scanující web, nebo cílené targeted útočníky. V Prismatic OSINT toolboxu adapter pro IP enrichment a threat scoring.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — OSINT adapters**: GreyNoise mezi 128 self-registering tools
+- **Sekce 05 — IP enrichment workflow**: GreyNoise + Censys + Shodan trio
+- **Sekce 06 — Threat classification**: benign vs. malicious vs. unknown
+- **Sekce 07 — False positive reduction**: GreyNoise jako noise filter
+- **Per-technique články**: API usage, tag system, RIOT dataset
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | OSINT adapter | implementace |
+| doplňuje | Censys, Shodan | komplementární |
+| zásobuje | EASM, SIEM | downstream |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+GreyNoise řeší klíčový operační problém: SOC analytici jsou zaplaveni alertami z IPS/IDS, většina je background noise (mass scanning). GreyNoise tagging redukuje false-positive load řádově. Filosoficky reflektuje signal-to-noise ratio v big data security. Eticky: pasivní observation, nezasahuje do scanning aktivity samotné — pouze ji indexuje.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/greynoise/](/glossary/greynoise/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

@@ -13,27 +13,33 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.8 Perspektivisticky kolaps
+# QR Card — EA-5.2.8 Perspektivistický kolaps
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Doména**: Metatranscendentální anihilace — kolaps subjektovy schopnosti udržovat oddělené perspektivy (vlastní vs. cizí, individuální vs. kolektivní, časové).
 
-## Operacni cíl
+## Operační modus (3 kroky)
 
-Destabilizace Perspektivisticky kolaps skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+1. Sloučení vlastní perspektivy subjekta s perspektivou manipulátora skrze opakované "my říkáme", "my vidíme" — bez explicitního přihlášení k odlišnosti
+2. Diskreditace vlastní perspektivy subjekta jako "egocentrické" / "úzké" / "nedospělé"; rozšíření perspektivy je rámováno jako její absence
+3. Konsolidace stavu, kde subjekt nedokáže udržet rozdíl mezi "co si myslím já" a "co bychom my měli myslet"
 
-## Indikatory pokrocile EA
+## Detekční markery (3 nejvýraznější)
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Subjekt formuluje vlastní pozici ve formě "my máme za to, že..." aniž by byl přítomen druhý člověk; identitní fúze s manipulátorem
+- Při explicitním dotazu "co si myslíš jen ty sám/sama?" reaguje úzkostí nebo odmítnutím ("to není relevantní otázka")
+- Vlastní emoce a hodnoty subjekta jsou v jeho vyprávění prezentovány jako "objektivní", nikoli jako perspektiva
 
-## Klinicka odpoved
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+- Strukturální cvičení v perspektivním rozlišování — explicitní formulace "moje pozice / pozice partnera / pozice komunity"; vědomé udržování rozdílů
+- Externí pohled — třetí strana, která neví o vztahu, hodnotí subjektovy výroky a registruje fúzované perspektivy
+- Praktické úkoly s výhradně individuálním rozhodováním (volba menu, dovolené, koníčku) bez konzultace s manipulátorem
+
+## Příklad
+
+Žena po pěti letech v hyperidentifikovaném páru reportuje "my si myslíme, že děti by měly do veganské školky". Manžel: stejná formulace. Při separaci na týden a individuálním dotazu se její odpověď vrací k původní pozici z dob před vztahem (ona sama nikdy veganství nepraktikovala). Perspektivní fúze byla téměř kompletní.
 
 ## Cross-linky
 

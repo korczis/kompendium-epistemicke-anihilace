@@ -11,32 +11,49 @@ glossary_target = "gish-gallop"
 toc = false
 +++
 
-# Bridge — gish-gallop
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Gish gallop
 
 ## Glossary entry
 
-[gish-gallop](/glossary/gish-gallop/) — Rapid argument flooding.
+[gish-gallop](/glossary/gish-gallop/) — Gish gallop.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Gish gallop (named after kreacionista Duane Gish) je rétorická taktika, ve které speaker dodává v rapidní sekvenci tolik různých argumentů, citací a tvrzení, že oponentu chybí čas na korektní rebuttal každého. Asymetrie: vytvoření falešného tvrzení trvá vteřiny, vyvrácení vyžaduje minuty. Strukturálně podobné firehose of falsehood.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Rétorické techniky**: gish gallop v debatních strategiích
+- **Sekce 05 — Online discourse**: social media accelerace efektu
+- **Sekce 06 — Counter-strategies**: selection of strongest claims, structured rebuttal
+- **Sekce 07 — Filosofie debate**: epistemic asymmetry, brandolinis law
+- **Per-technique články**: moderation interventions, fact-checking ops
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | Rhetorical fallacy | tactic |
+| souvisí | Firehose of falsehood, Brandolini's law | rodina |
+| kontrastuje | Steel-manning | polarita |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Gish gallop exploituje epistemickou asymetrii nákladu: falsifikace je dražší než tvrzení (Brandolini's law: 'bullshit asymmetry principle'). Counter-strategie není rebuttal každého bodu, ale strukturální delegitimizace metody samotné. Filosoficky napadá Habermasian deliberation — předpokládá good faith, kterou gish galloper explicitně porušuje.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/gish-gallop/](/glossary/gish-gallop/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

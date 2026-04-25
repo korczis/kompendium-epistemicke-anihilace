@@ -11,32 +11,49 @@ glossary_target = "coercive-control"
 toc = false
 +++
 
-# Bridge — coercive-control
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Coercive control
 
 ## Glossary entry
 
-[coercive-control](/glossary/coercive-control/) — Stark frame.
+[coercive-control](/glossary/coercive-control/) — Coercive control.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Coercive control (Evan Stark, 2007) je strategický pattern of behavior používaný pachatelem k systematické dominaci a podřízení oběti — zahrnuje izolaci, ekonomickou kontrolu, surveillance, threats, micro-regulaci každodenního života. V UK 2015 a v Irsku 2018 byl coercive control kriminalizován jako samostatný trestný čin, nezávislý na fyzickém násilí.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 06 — Intimate partner violence**: coercive control jako jádro IPV
+- **Sekce 07 — Legal frameworks**: UK Serious Crime Act 2015, Istanbul Convention
+- **Sekce 08 — Workplace coercive control**: Stark + Hadden 2023, organizational form
+- **Sekce 09 — Risk assessment**: DASH, CCBQ, Stark's Coercive Control screen
+- **Per-technique články**: differential diagnostics vs. authoritarianism, BITE overlap
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| rámec | Domestic abuse paradigm | teorie |
+| nástroje | DARVO, gaslighting, isolation | tactics |
+| kontrastuje | Episodic violence | vzorec vs. incident |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Coercive control přesouvá analytický fokus z incidentálního násilí na strategický pattern dominance. Filosoficky reflektuje Foucaultian biopower — moc operuje skrze regulaci každodennosti, ne přes spektakulární akty. Klinicky vyžaduje longitudinální history-taking; jednotlivý incident je epistemicky nedostatečný.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/coercive-control/](/glossary/coercive-control/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

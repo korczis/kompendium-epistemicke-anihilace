@@ -1,6 +1,6 @@
 +++
-title = "Pripad 65-activism-cult: Activism cult"
-description = "Anonymizovana pripadova studie — Activism cult. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Pripad 65-activism-cult: Activism kult"
+description = "Anonymizovana pripadova studie — Activism kult. EA techniky, fenomenologicky kurz, intervence, vysledek."
 weight = 65
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
@@ -11,57 +11,80 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 65-activism-cult: Activism cult
+# Pripadova studie 65-activism-cult: Activism kult v klimatickem hnuti
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 65-activism-cult) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 65-activism-cult) byla zena ve veku 24 let, vystudovaná environmentalistika, která prošla obdobím intenzivního zapojení v radikálním klimatickém hnutí. Před totalizací vykazovala idealistickou angažovanost, výborné akademické výsledky, a stabilní rodinu. Vstupní motivace: identifikace s klimatickou krizí jako existenciálním problémem.
+
+Rizikové faktory: skutečná naléhavost klimatické krize, charismatické vůdcovství v hnutí, kombinace ideologie a emoční urgence ("end-times" rétorika), izolace v aktivistické komunitě, a kultura "obětování".
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-3 | Připojení k hnutí, "ty jsi konečně probuzená" |
+| **Perturbace** | mesice 4-12 | Direct action, arrest, hladovky, "all-or-nothing" |
+| **Rekonfigurace** | roky 1-2 | Plné podlehnutí, ztráta neaktivistických vztahů |
+| **Konsolidace** | roky 2-3 | Burnout, eko-úzkost, ideologická rigidita |
+| **Exit / detekce** | rok 3+ | Akutni krize, externi konfrontace |
+
+V inicialni fazi byla subjekt přitažena hnutím s love-bombingem zaměřeným na nové členy. "Konečně probuzená" rétorika.
+
+V perturbacni fazi se zapojila do direct action, prošla arrestem, účastnila se hladovek. Komunita posiloval "all-or-nothing" mentalitu.
+
+Rekonfiguracni faze: subjekt přerušila kontakty s rodinou a přáteli, kteří ji "nechápali". Identita = aktivistka.
+
+Konsolidacni faze: burnout, eko-úzkost (chronická úzkost o klimatu), ideologická rigidita. Disent uvnitř hnutí trestán.
+
+Exit byl iniciovan akutní krizí po neúspěchu velkého direct action a interpersonálním konfliktem v hnutí. Hospitalizace pro depresi.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — eko-úzkost jako emoční kotva
+- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "all-in nebo komplic systému"
+- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — kritika hnutí = "tone policing"
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — vůdci hnutí jako moralní autority
+- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — kolektivní disciplinace
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — interní žargon
+- [EA-5.1.10 Temporalni dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) — "krize teď" vs. dlouhodobé plánování
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisovala: "Roky jsem si myslela, že mám pravdu, kterou ostatní popírají. A v hnutí jsme se začali navzájem trestat za 'nedostatečnou radikálnost'. Lidi byli vyloučeni za malá porušení 'čistoty'. Nakonec jsem byla vyloučena já — za to, že jsem řekla, že některá akce byla nepromýšlená. A v tu chvíli jsem viděla, že hnutí, které jsem milovala, je samé totalitarni jako to, co kritizuje."
+
+Tato narace odpovida [betrayal trauma](/glossary/betrayal-trauma/) a [metakognitivni rekonstrukci](/glossary/metakognitivni-destrukce/).
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Vyloučení z hnutí a hospitalizace. Klicovy moment: terapeut, který může uznat autentickou klimatickou úzkost a kultovní dynamiku zároveň.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Léčba deprese.
+**S2 - Externi epistemicka kotva:** Group therapy pro post-activism, restituce vztahů s rodinou.
+**S3 - Identitni rekonstrukce:** Práce na zdravé klimatické angažovanosti, integrace osobních hodnot bez kultovní dynamiky.
+**S4 - Vztahova rehabilitace:** Restituce přátelství.
+**S5 - Integrace:** Subjekt se stala obhájkyní zdravé klimatické angažovanosti.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 18 měsících terapie funkční stabilizace. Restituce rodinných vztahů, kontinuální klimatická angažovanost ve zdravějším kontextu. Reziduální: opatrnost vůči "all-or-nothing" rétorice.
+
+## Klinicke pouceni
+
+Activism cult ukazuje, že morální správnost cíle (klimatická krize) nezakládá imunitu vůči koercivní dynamice. Klinik musí uznat autentickou ekologickou úzkost a zároveň identifikovat kultovní strukturu. Reformně: hnutí potřebují vědomě budovat zdravou kulturu.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
+- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-1.3.2](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

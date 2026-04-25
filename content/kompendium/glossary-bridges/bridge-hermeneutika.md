@@ -13,30 +13,36 @@ toc = false
 
 # Bridge — hermeneutika
 
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
 
-## Glossary entry
+## Definice z glossary
 
-[hermeneutika](/glossary/hermeneutika/) — Interpretacni ramec.
+[hermeneutika](/glossary/hermeneutika/) — Hermeneutika je filosofická disciplína věnovaná teorii a praxi interpretace textů, jednání a historických forem života. Od Schleiermachera přes Diltheye, Heideggera a Gadamera formuluje, jak porozumění vzniká v cirkulárním pohybu mezi celkem a částí (hermeneutický kruh) a jak je interpret vždy umístěn v dějinných předpojatostech.
 
-## Vyskyt v kompendiu
+Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Pozice v kompendiu
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-## Smantilcky vztah
+- **Sekce 02 — Úvod**: metodologický rámec interpretace pramenů
+- **Sekce 05 — Narativní analýza**: rozdíl mezi vysvětlením a porozuměním (Erklären vs. Verstehen)
+- **Sekce 07 — Teoretické reflexe**: Gadamerovo splynutí horizontů v intelligence kontextu
+- **Per-technique: Source Critique**: aplikace hermeneutiky na hodnocení svědectví
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+## Konceptuální mapa
+
+| Subjekt | Vztah | Objekt |
+|---------|-------|--------|
+| **Hermeneutika** | podkládá | Source Critique a Narativní analýzu |
+| **Hermeneutika** | kontrastuje s | Pozitivistickou validací |
+| **Hermeneutika** | vyžaduje | Reflexivitu interpreta a explicitní předporozumění |
+
+## Filosofické implikace
+
+V investigativním kontextu hermeneutický postoj brání naivní víře v čistá fakta — každý dokument, výpověď i metadatum nese stopu interpretačního rámce, v němž vznikl. Praktickým důsledkem je požadavek triangulace pramenů, explicitního zaznamenání předpokladů analytika a otevřenosti vůči revizi závěru, pokud nový pramen rozšiřuje horizont porozumění.
 
 ## Cross-linky
 
@@ -44,7 +50,16 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/hermeneutika/](/glossary/hermeneutika/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Glossary hub**: [/glossary/](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

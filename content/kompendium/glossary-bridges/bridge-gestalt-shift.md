@@ -11,32 +11,49 @@ glossary_target = "gestalt-shift"
 toc = false
 +++
 
-# Bridge — gestalt-shift
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Gestalt shift
 
 ## Glossary entry
 
-[gestalt-shift](/glossary/gestalt-shift/) — Wittgenstein/Kuhn.
+[gestalt-shift](/glossary/gestalt-shift/) — Gestalt shift.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Gestalt shift je akutní změna v percepčním nebo konceptuálním uspořádání, ve které se stejná data rekonfigurují do nové holistické struktury — klasické příklady: kachna/zajíc Wittgensteina, váza/dvě tváře Rubinova. V Kuhnově filosofii vědy: paradigm shift jako kolektivní gestalt shift.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Gestalt psychologie**: Wertheimer, Köhler, Koffka
+- **Sekce 08 — Filosofie vědy**: Kuhn, paradigm shifts
+- **Sekce 09 — Klinické aplikace**: insight v terapii, reframing
+- **Sekce 10 — AI implications**: embedding-space transformations
+- **Per-technique články**: facilitating gestalt shifts in coaching
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | Cognitive restructuring | process |
+| aplikuje | Therapeutic reframing | klinika |
+| rozšiřuje | Kuhn paradigm shift | scale |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Gestalt shift demonstruje, že percepce není pasivní záznam — je aktivní strukturace. Filosoficky resonates s phenomenology a Wittgensteinovým 'aspect-seeing'. Klinicky: insight moment v terapii je micro gestalt shift. Aplikace v Prismatic Decision Engine: hypothesis-switching v pipeline je strukturovaný gestalt shift — same evidence, různé causal stories.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/gestalt-shift/](/glossary/gestalt-shift/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

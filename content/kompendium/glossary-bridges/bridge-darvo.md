@@ -11,32 +11,49 @@ glossary_target = "darvo"
 toc = false
 +++
 
-# Bridge — darvo
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — DARVO
 
 ## Glossary entry
 
-[darvo](/glossary/darvo/) — DARVO pattern.
+[darvo](/glossary/darvo/) — DARVO.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+DARVO (Deny, Attack, Reverse Victim and Offender) je pattern reakce pachatele na konfrontaci s vlastním abuzivním chováním, popsaný Jennifer Freyd. Akronym popisuje tří-krokový sekvenci: pachatel popře, zaútočí na obětě/svědky, a otočí role tak, aby se sám stavěl jako oběť a oběť jako agresor.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 06 — Coercive control taktiky**: DARVO jako defenzivní mechanismus pachatele
+- **Sekce 07 — Betrayal trauma theory**: Freyd & Birrell 2013, institucionální DARVO
+- **Sekce 08 — Gaslighting overlap**: DARVO jako akutní gaslighting
+- **Sekce 09 — Aplikace v DD**: DARVO jako red flag v CEO interview, whistleblower retaliation
+- **Per-technique články**: DARVO detection patterns, expert witness testimony
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| podtyp | Defensive reaction | kategorie |
+| eskaluje | Gaslighting | intenzita |
+| souvisí | Betrayal trauma, coercive control | exploitační framework |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Klinicky DARVO je signal pachatele a triggeruje secondary victimization u oběti — paradoxně zesiluje původní trauma. Filosoficky reflektuje epistemic injustice (Fricker): pachatelská narativa získává platformu, oběťská je discreditována. V DD: DARVO ze strany executive při komplianční konfrontaci je high-severity governance signal.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/darvo/](/glossary/darvo/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

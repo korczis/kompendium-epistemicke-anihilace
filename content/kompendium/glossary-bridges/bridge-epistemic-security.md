@@ -11,32 +11,49 @@ glossary_target = "epistemic-security"
 toc = false
 +++
 
-# Bridge — epistemic-security
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Epistemic security
 
 ## Glossary entry
 
-[epistemic-security](/glossary/epistemic-security/) — Pole platformy.
+[epistemic-security](/glossary/epistemic-security/) — Epistemic security.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Epistemic security je vznikající doména kybernetické bezpečnosti zaměřená na ochranu kognitivně-informačních procesů jednotlivců a organizací před cílenou manipulací, dezinformací, deepfakes a cognitive warfare. Rozšiřuje klasické infosec triumvirate (CIA — confidentiality, integrity, availability) o čtvrtou dimenzi: integrity poznání samotného.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Threat landscape evolution**: od malware k cognitive attacks
+- **Sekce 05 — Defenzivní techniky**: media literacy, source validation, deepfake detection
+- **Sekce 06 — Aplikace v DD**: epistemic security audit jako governance check
+- **Sekce 07 — Etické dilema**: epistemic security vs. paternalismus
+- **Per-technique články**: epistemic threat models, response playbooks
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| rozšiřuje | Information security (CIA) | evoluce |
+| hrozby | Disinformation, deepfake, cognitive warfare | attacks |
+| integruje | Media literacy | defensive measure |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Epistemic security uznává, že attacker už neútočí pouze na systémy, ale na poznání lidí, kteří systémy ovládají. Filosoficky reflektuje napětí mezi noetickou autonomií (právo myslet samostatně) a institucionální obranou (právo nebýt manipulován). Klinicky: epistemic harm je nově dokumentovaný damage type v cyber insurance claims.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/epistemic-security/](/glossary/epistemic-security/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

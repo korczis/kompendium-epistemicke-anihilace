@@ -11,32 +11,49 @@ glossary_target = "fenomenologie"
 toc = false
 +++
 
-# Bridge — fenomenologie
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Fenomenologie
 
 ## Glossary entry
 
-[fenomenologie](/glossary/fenomenologie/) — Husserlovska redukce.
+[fenomenologie](/glossary/fenomenologie/) — Fenomenologie.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Fenomenologie je filosofická tradice studia jevů (fenoménů) tak, jak se ukazují vědomí, ne jak jsou metafyzicky postulovány. Hlavní představitelé: Edmund Husserl (transcendentální fenomenologie), Martin Heidegger (existenciální), Maurice Merleau-Ponty (embodied), Emmanuel Levinas (etická). Centrální metoda: fenomenologická redukce s epoché.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Filosofické tradice**: fenomenologie vs. analytická filosofie
+- **Sekce 08 — Klíčoví autoři**: Husserl, Heidegger, Merleau-Ponty
+- **Sekce 09 — Klinické aplikace**: fenomenologická psychiatrie (Jaspers, Binswanger)
+- **Sekce 10 — Implikace pro AI**: fenomenologie a embodied cognition
+- **Per-technique články**: interpretative phenomenological analysis (IPA)
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| metoda | Epoché | technika |
+| rozšiřuje | Embodied cognition | evolutional |
+| aplikuje | Phenomenological psychiatry | doména |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Fenomenologie umožňuje strukturované studium subjektivní zkušenosti bez redukce na neurochemii nebo behavior. V psychiatrii: porozumění schizofrenní zkušenosti zevnitř, ne pouze symptom-checklist DSM přístupem. Filosoficky resonates s Wittgensteinovým 'forms of life'. Aplikace v Prismatic: phenomenological-informed interview u DD whistleblowers respektuje lived experience.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/fenomenologie/](/glossary/fenomenologie/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

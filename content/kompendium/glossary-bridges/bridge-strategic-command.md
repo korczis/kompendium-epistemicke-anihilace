@@ -13,30 +13,36 @@ toc = false
 
 # Bridge — strategic-command
 
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
 
-## Glossary entry
+## Definice z glossary
 
-[strategic-command](/glossary/strategic-command/) — Tactical layer.
+[strategic-command](/glossary/strategic-command/) — Strategic command je nejvyšší rozhodovací úroveň ve velitelské hierarchii, formulující dlouhodobé cíle, alokaci zdrojů a politické směrnice. Liší se od operativní úrovně (kampaně) a taktické (jednotlivé akce) horizontem, abstrakcí a politickou akontabilitou.
 
-## Vyskyt v kompendiu
+Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Pozice v kompendiu
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-## Smantilcky vztah
+- **Sekce 03 — Velitelská architektura**: vztah strategic-operational-tactical
+- **Sekce 09 — Decision Doctrine**: strategická doctrína a její implementace
+- **Per-technique: Strategy Mapping**: operacionalizace strategických cílů
+- **Sekce 08 — Akontabilita**: politický oversight strategické úrovně
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+## Konceptuální mapa
+
+| Subjekt | Vztah | Objekt |
+|---------|-------|--------|
+| **Strategic command** | formuluje | Dlouhodobé cíle a politické směrnice |
+| **Strategic command** | alokuje | Zdroje a priority |
+| **Strategic command** | akontabilní | Politickému vedení |
+
+## Bezpečnostní implikace
+
+Konfúze úrovní velení je systémovým rizikem — strategické rozhodnutí prováděné taktickým mindsetem produkuje krátkozraké volby, taktická akce na strategické úrovni produkuje paralýzu. Disciplinovaná velitelská struktura explicitně rozlišuje horizonty, decision rights a akontabilitu na každé úrovni a institucionalizuje překlad mezi nimi.
 
 ## Cross-linky
 
@@ -44,7 +50,16 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/strategic-command/](/glossary/strategic-command/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Glossary hub**: [/glossary/](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

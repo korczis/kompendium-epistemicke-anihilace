@@ -13,30 +13,36 @@ toc = false
 
 # Bridge — taxonomie-ea
 
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
 
-## Glossary entry
+## Definice z glossary
 
-[taxonomie-ea](/glossary/taxonomie-ea/) — Klasifikacni system EA-X.Y.Z.
+[taxonomie-ea](/glossary/taxonomie-ea/) — Taxonomie EA (Epistemická Architektura) je strukturovaná klasifikace platformových konceptů, technik a kazuistik. Slouží jako navigační skelet, který umožňuje cross-referencing, deduplikaci a evoluční rozšiřování znalostní báze bez ztráty koherence napříč revizemi.
 
-## Vyskyt v kompendiu
+Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Pozice v kompendiu
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-## Smantilcky vztah
+- **Sekce 01 — Hub**: vstup do taxonomické struktury
+- **Sekce 10 — Indexy**: cross-references napříč taxonomií
+- **Per-technique: Taxonomic Maintenance**: evoluční rozšiřování bez ztráty koherence
+- **Sekce 02 — Úvod**: vztah taxonomie k metodologii
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+## Konceptuální mapa
+
+| Subjekt | Vztah | Objekt |
+|---------|-------|--------|
+| **Taxonomie EA** | klasifikuje | Koncepty, techniky, kazuistiky |
+| **Taxonomie EA** | umožňuje | Cross-referencing a deduplikaci |
+| **Taxonomie EA** | evolvuje | Bez ztráty koherence napříč revizemi |
+
+## Platformové implikace
+
+Hodnota taxonomie závisí na disciplíně údržby — bez periodické revize akumuluje neaktuální kategorie, falešné homonymie a duplicity. Aktivní kurátor s mandátem konsolidovat, mergovat a archivovat zastaralé větve je institucionálním předpokladem, aby taxonomie sloužila jako živý navigační nástroj, ne jako historický artefakt.
 
 ## Cross-linky
 
@@ -44,7 +50,16 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/taxonomie-ea/](/glossary/taxonomie-ea/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Glossary hub**: [/glossary/](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

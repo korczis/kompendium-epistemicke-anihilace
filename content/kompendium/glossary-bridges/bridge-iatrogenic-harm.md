@@ -13,30 +13,36 @@ toc = false
 
 # Bridge — iatrogenic-harm
 
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+**Z kompendia → do glossary**: tento bridge článek navigačně propojuje kompendium s odpovídajícím glossary heslem a poskytuje rozšířený interpretační kontext propojení.
 
-## Glossary entry
+## Definice z glossary
 
-[iatrogenic-harm](/glossary/iatrogenic-harm/) — Therapy-induced harm.
+[iatrogenic-harm](/glossary/iatrogenic-harm/) — Iatrogenní újma je poškození způsobené samotnou intervencí — léčbou, terapií, vyšetřením nebo procedurou — která měla pacientovi pomoci. Termín pochází z řeckého iatros (lékař) a genesis (vznik) a zahrnuje jak chyby, tak i nezbytné vedlejší účinky správně provedeného zákroku, které je nutno explicitně vyvážit prospěchem.
 
-## Vyskyt v kompendiu
+Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Pozice v kompendiu
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
-## Smantilcky vztah
+- **Sekce 06 — Klinické aplikace**: mapování rizik a benefitů u psychoterapeutických intervencí
+- **Sekce 08 — Etika praxe**: informovaný souhlas a princip non-maleficence
+- **Per-technique: Trauma-Informed Interview**: prevence retraumatizace svědka
+- **Sekce 09 — Supervize**: detekce iatrogenních vzorců v dlouhodobé péči
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+## Konceptuální mapa
+
+| Subjekt | Vztah | Objekt |
+|---------|-------|--------|
+| **Iatrogenní újma** | vzniká z | Intervence samotné, nikoliv z onemocnění |
+| **Iatrogenní újma** | kontrastuje s | Nososkomiální infekcí (institucionální, neintervenční) |
+| **Iatrogenní újma** | vyžaduje | Risk-benefit analýzu a informovaný souhlas |
+
+## Klinické implikace
+
+V investigativní praxi platí analogický princip: rozhovor s obětí, vyšetřování citlivého případu nebo zveřejnění informace mohou samy o sobě poškodit subjekt. Trauma-informed protokoly, právo na zapomenutí a zásada minimalizace zveřejnění jsou operativním překladem klinického non nocere do bezpečnostního a forenzního kontextu.
 
 ## Cross-linky
 
@@ -44,7 +50,16 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/iatrogenic-harm/](/glossary/iatrogenic-harm/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Glossary hub**: [/glossary/](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

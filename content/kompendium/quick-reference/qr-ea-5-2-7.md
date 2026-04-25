@@ -13,27 +13,33 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.7 Kategorialni disoluce
+# QR Card — EA-5.2.7 Kategoriální disoluce
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Doména**: Metatranscendentální anihilace — postupné rozpouštění Kantových transcendentálních kategorií (substance, kauzalita, jednota, mnohost) v subjektově poznávacím aparátu.
 
-## Operacni cíl
+## Operační modus (3 kroky)
 
-Destabilizace Kategorialni disoluce skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+1. Vnesení doktrín, které relativizují konkrétní transcendentální kategorii ("kauzalita je iluze", "substance neexistuje", "jednota je sociální konstrukt")
+2. Praktická rituální praxe (meditace, kontemplace, drogová expozice), která posiluje afektivní zkušenost rozpouštění kategorie
+3. Konsolidace ve stavu, kde subjekt operuje bez kategorialního rámce — což formálně možno není, takže ho nahrazuje prázdným prožitím "rozpuštění"
 
-## Indikatory pokrocile EA
+## Detekční markery (3 nejvýraznější)
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Subjekt formuluje "ne nic neexistuje, ale také nic není" jako legitimní pozici, nikoli jako rozpor
+- Praktická rozhodování trpí strukturální nejistotou — chybí kategoriální opora pro identifikaci predmětu rozhodnutí
+- Při klinickém rozhovoru subjekt užívá kategorie "substance / kauzalita / jednota" lingvisticky, ale jejich kognitivní funkce kolabuje
 
-## Klinicka odpoved
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+- Kantův transcendentální argument — bez kategorií není možné poznání ani jeho popření; cvičení v explicitní apliciaci kategorií
+- Strukturní psychiatrická diferenciální dg. — odlišení indukované kategoriální disoluce od depersonalizace či dissociativní poruchy
+- Praktická obnova — návrat k běžné praxi, kde kategorie jsou nezbytné (matematika, vaření, řízení auta); subjekt znovuobnovuje funkci
+
+## Příklad
+
+Účastník dvou intenzivních ayahuasca retreatů reportuje "viděl jsem, že kauzalita neexistuje, vše se děje samo". Při návratu řídí auto a ohrožuje sebe i jiné, protože "kauzalita brzdy" se mu rozpustila. Lékař, který ho ošetřuje po havárii, stojí před technicky složitým případem indukované kategoriální disoluce.
 
 ## Cross-linky
 

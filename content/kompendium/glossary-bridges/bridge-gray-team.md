@@ -11,32 +11,49 @@ glossary_target = "gray-team"
 toc = false
 +++
 
-# Bridge — gray-team
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Gray team
 
 ## Glossary entry
 
-[gray-team](/glossary/gray-team/) — Color teams gray.
+[gray-team](/glossary/gray-team/) — Gray team.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Gray team je v Prismatic color-team taxonomii agentní rodina specializovaná na ambiguous/strategic operations — analýzu šedých zón mezi legalním a ilegálním, ofenzivní a defenzivní, bílým a černým. Operuje na rozhraní red/blue/black týmů, často v compliance, regulační šedé zóně a cross-jurisdictional konfliktech.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 04 — Color teams**: gray team v 6-color taxonomii
+- **Sekce 05 — Strategic ambiguity**: kdy operuje gray team
+- **Sekce 06 — Compliance edge cases**: GDPR vs. national security, dual-use
+- **Sekce 07 — Etické otázky**: gray = legitimní strategie nebo morální únik?
+- **Per-technique články**: gray team mandát, escalation criteria
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| instance | Color Team | specializace |
+| interaguje | Red, Blue, Black, White | edge cases |
+| operuje | Compliance gray zones | doména |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Gray team uznává realitu: ne všechny situace jsou clean red/blue. Compliance arbitrage, legal but unethical praktiky, cross-border legal conflicts vyžadují agenta s mandátem operovat v ambiguitě. Filosoficky reflektuje napětí mezi rule-based ethics a situational ethics. Klinicky/regulačně: gray team operations vyžadují posílený audit a periodic ethical review.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/gray-team/](/glossary/gray-team/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

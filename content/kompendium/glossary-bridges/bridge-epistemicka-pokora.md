@@ -11,32 +11,49 @@ glossary_target = "epistemicka-pokora"
 toc = false
 +++
 
-# Bridge — epistemicka-pokora
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Epistemická pokora
 
 ## Glossary entry
 
-[epistemicka-pokora](/glossary/epistemicka-pokora/) — Legitimni vs weaponized.
+[epistemicka-pokora](/glossary/epistemicka-pokora/) — Epistemická pokora.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Epistemická pokora je intelektuální dispozice charakterizovaná uvědoměním limitů vlastního poznání, ochotou revidovat přesvědčení v rezonanci s evidencí a respektem k cizí kognitivní agenci. Kontrastuje s epistemickou arogancí (jistota bez evidence) a epistemickou zbabělostí (bezdomovství bez závazku).
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Virtue epistemology**: Roberts & Wood, Zagzebski
+- **Sekce 08 — Aplikace v decision-making**: Bayesian reasoning, calibration
+- **Sekce 09 — AI safety**: epistemic humility u LLM, hallucination mitigation
+- **Sekce 10 — Profesní etika**: doctor, judge, scientist obligations
+- **Per-technique články**: humility scales, training interventions
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| ctnost | Virtue epistemology | framework |
+| kontrastuje | Epistemic arogance | polarita |
+| aplikuje | Bayesian rationality | praxe |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Epistemická pokora je výkon, ne pasivita: aktivní udržování calibrated confidence napříč tématy. Filosoficky reflektuje sokratovské 'vím, že nic nevím' jako ctnost, ne paralýzu. V Prismatic Decision Engine: confidence 95+ triggeruje overconfidence alert — system enforcuje pokoru architekturálně. Klinicky: pokorný kliník je méně náchylný k diagnostic anchoring.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/epistemicka-pokora/](/glossary/epistemicka-pokora/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

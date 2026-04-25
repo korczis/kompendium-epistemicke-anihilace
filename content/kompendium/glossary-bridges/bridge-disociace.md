@@ -11,32 +11,49 @@ glossary_target = "disociace"
 toc = false
 +++
 
-# Bridge — disociace
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Disociace
 
 ## Glossary entry
 
-[disociace](/glossary/disociace/) — Klinicka diferencialni.
+[disociace](/glossary/disociace/) — Disociace.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Disociace je psychologický mechanismus částečného nebo úplného oddělení mentálních funkcí (paměť, vědomí, identita, percepce) od integrovaného self. Spektrum sahá od denního snění (mírná) přes depersonalizaci/derealizaci (středně těžká) po DID (Dissociative Identity Disorder, dříve MPD). Často spojeno s C-PTSD a betrayal trauma.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 06 — Trauma response spektrum**: freeze, fight, flight, fawn, dissociate
+- **Sekce 07 — Disociativní porušení DSM-5**: DPDR, DID, dissociative amnesia
+- **Sekce 08 — Adaptive function**: disociace jako survival mechanism
+- **Sekce 09 — Therapeutic implications**: phase-based treatment, stabilization first
+- **Per-technique články**: DES-II screening, somatic experiencing, parts work
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| response | Trauma | etiologie |
+| souvisí | C-PTSD, betrayal trauma | comorbidita |
+| kontrastuje | Integration | terapeutický cíl |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Klinicky disociace je adaptivní: chrání před overwhelm akutního traumatu. Stává se patogenní, pokud přetrvává mimo původní kontext. Filosoficky problematizuje koncept narativní jednoty self — disociace je explicitní důkaz, že self je achievement, ne data. Forensicky: dissociative amnesia je důvod, proč nelze diskvalifikovat oběť na základě fragmentární výpovědi.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/disociace/](/glossary/disociace/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

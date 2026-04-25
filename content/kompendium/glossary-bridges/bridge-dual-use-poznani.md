@@ -11,32 +11,49 @@ glossary_target = "dual-use-poznani"
 toc = false
 +++
 
-# Bridge — dual-use-poznani
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Dual-use poznání
 
 ## Glossary entry
 
-[dual-use-poznani](/glossary/dual-use-poznani/) — Eticky problem kompendia.
+[dual-use-poznani](/glossary/dual-use-poznani/) — Dual-use poznání.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Dual-use poznání označuje výzkum, technologie nebo informaci, která má současně civilní/benign a vojenské/zlovolné aplikace. Klasické příklady: jaderná fyzika, gain-of-function virologie, kryptografie, AI capabilities. Etika dual-use research: jak publikovat poznatek, který může zachránit i zničit miliony životů?
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Filosofie vědy**: dual-use a research ethics
+- **Sekce 08 — AI safety**: frontier AI capabilities jako dual-use
+- **Sekce 09 — OSINT etika**: dual-use povaha intelligence sběru
+- **Sekce 10 — Governance frameworks**: Asilomar, BWC, EU AI Act
+- **Per-technique články**: responsible disclosure, publication policies
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| dilema | Research ethics | kategorie |
+| aplikuje | AI safety, biosecurity | domains |
+| kontrastuje | Pure science ideology | ideal vs. real |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Dual-use rozbíjí naivní vědecký optimismus: žádné poznání není neutrálně benigní. Filosoficky reflektuje napětí mezi hodnotami otevřenosti vědy a předběžné opatrnosti. Klinicky: každý nový OSINT adapter je dual-use — facilitates due diligence i stalker reconnaissance. Mitigace: governance, gating, disclosure norms.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/dual-use-poznani/](/glossary/dual-use-poznani/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

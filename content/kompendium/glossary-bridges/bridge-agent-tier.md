@@ -11,32 +11,49 @@ glossary_target = "agent-tier"
 toc = false
 +++
 
-# Bridge — agent-tier
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Agent Tier
 
 ## Glossary entry
 
-[agent-tier](/glossary/agent-tier/) — L1-L5 hierarchy.
+[agent-tier](/glossary/agent-tier/) — Agent Tier.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Agent Tier je hierarchická klasifikace 552 agentů Prismatic platformy podle úrovně autority, specializace a orchestračního dosahu. Tiers sahají od T0 (supreme orchestrators jako Archer Supreme) přes T1-T2 (domain commanders) až po T5 (atomic specialists). Tier rozhoduje o routing prioritě, eskalaci a dependency resolution.
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 02 — Agent ecosystem overview**: tier hierarchy jako strukturální páteř agentní sítě
+- **Sekce 04 — Orchestration patterns**: tier-aware routing v /mycelialize a /orchestrate
+- **Sekce 05 — Color teams**: průnik tier hierarchie a barevné specializace
+- **Sekce 06 — Operational doctrine**: eskalace nesplněných úkolů z T5 do T0
+- **Per-technique články**: definice nového agenta, tier promotion kritéria
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| klasifikuje | Agent | úroveň |
+| podporuje | Agent Registry | metadata |
+| interaguje | Color Team | ortogonální klasifikace |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Tier struktura odráží organizační principy vojenské doktríny (chain of command) i akademické hierarchie (pomocný vědecký pracovník → profesor). Filosoficky otevírá otázky autority v AI systémech: kdo deleguje, kdo eskaluje, jak je definována kompetence agenta? Klinicky tier zabraňuje overreach malých agentů do velkých rozhodnutí.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/agent-tier/](/glossary/agent-tier/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

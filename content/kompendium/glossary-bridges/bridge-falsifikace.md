@@ -11,32 +11,49 @@ glossary_target = "falsifikace"
 toc = false
 +++
 
-# Bridge — falsifikace
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — Falsifikace
 
 ## Glossary entry
 
-[falsifikace](/glossary/falsifikace/) — Popperovska kriteria.
+[falsifikace](/glossary/falsifikace/) — Falsifikace.
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+Falsifikace (Karl Popper, Logik der Forschung 1934) je metodologický kritérium vědeckosti: tvrzení je vědecké, pokud je principiálně falsifikovatelné — tj. existuje představitelná empirická observation, která by ho vyvrátila. Kontrastuje s verifikacionismem (logickým positivismem).
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 07 — Filosofie vědy**: Popper, Lakatos, Kuhn
+- **Sekce 08 — Demarkace problém**: věda vs. pseudověda
+- **Sekce 09 — Aplikace v DD**: falsifikovatelné claims v due diligence
+- **Sekce 10 — Limity**: Duhem-Quine teze, holistická revize
+- **Per-technique články**: test design pro falsifikaci, null hypothesis
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| kritérium | Demarkace vědy | epistemologie |
+| kontrastuje | Verifikacionismus | polarita |
+| rozšířil | Lakatos research programs | evoluce |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+Falsifikace je epistemicky asymetrická: žádný počet potvrzujících observací nedokazuje teorii definitivně, ale jediná falsifikační observace ji vyvrátí. Filosoficky podporuje epistemic humility — věda postupuje skrze úspěšné vyloučení chybných hypotéz. Aplikace: due diligence claim 'firma je likvidní' musí být formulován tak, aby existovala datová evidence schopná ho falsifikovat.
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/falsifikace/](/glossary/falsifikace/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

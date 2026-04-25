@@ -11,32 +11,49 @@ glossary_target = "aiad"
 toc = false
 +++
 
-# Bridge — aiad
-
-**Z kompendia → do glossary**: tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem.
+# Bridge — AI-Augmented Development (AIAD)
 
 ## Glossary entry
 
-[aiad](/glossary/aiad/) — AI-Agent Interface Definition.
+[aiad](/glossary/aiad/) — AI-Augmented Development (AIAD).
 
-## Vyskyt v kompendiu
+Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
-Tento koncept se vyskytuje napric kompendiem v nasledujicich kontextech:
+## Definice z glossary
 
-- **Sekce 02 — Uvod**: konceptualni ramec
-- **Sekce 03 — Zakladni kategorie**: aplikacni vzorce
-- **Sekce 06 — Klinicke aplikace**: diagnosticke a terapeuticke implikace
-- **Sekce 07 — Teoreticke reflexe**: filosoficke pozadi
-- **Per-technique clanky**: konkretni techniky vyuzivajici tento koncept
+AI-Augmented Development (AIAD) je metodologický standard Prismatic platformy pro systematickou integraci AI asistence do softwarového vývoje. Standard definuje kanonické artefakty (agenty, příkazy, doktríny, politiky), enforcement mechanismy (pre-commit hooks, CI gates, NMND validace) a měřitelné kvalitativní metriky (228 příkazů, 552 agentů, 18 pillar doctrine).
 
-## Smantilcky vztah
+Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
-Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
+## Pozice v kompendiu
 
-- **Definuje**: glossary poskytuje stručnou definici
-- **Aplikuje**: kompendium aplikuje koncept v konkretnich technikach
-- **Specializuje**: kompendium pridava platformove specificke informace
-- **Verifikuje**: glossary obsahuje cross-platform consistent definice
+Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+
+- **Sekce 01 — Doktrinální základ**: AIAD jako stavební rámec pro 18-pillar doctrine
+- **Sekce 03 — Praktická implementace**: agenty, příkazy, hooks, CI/CD integrace
+- **Sekce 04 — Quality enforcement**: TACH, NMND, NWB, NCLB jako AIAD pillars
+- **Sekce 06 — Metodologická reflexe**: rozdíl od ad-hoc AI use, vendor lock-in obrana
+- **Per-technique články**: AIAD injection do legacy projektů přes /inject
+
+Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+
+## Konceptualni mapa
+
+Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+
+| Vztah | Cílový koncept | Typ vazby |
+|---|---|---|
+| strukturuje | Agent, Command, Doctrine | metodologický rámec |
+| vynucuje | 18 pillars (NMND, TACH, ...) | compliance |
+| kontrastuje | ad-hoc AI tooling | alternativa |
+
+Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+
+## Klinicke a filosoficke implikace
+
+AIAD je odpovědí na rizika neorganizovaného AI use: prompt drift, evidence loss, vendor lock-in. Filosoficky představuje pokus o transparentnost AI-augmentovaných rozhodnutí — každý agent je auditovatelný artefakt, ne black-box wrapper. Klinicky umožňuje compliance s regulačními rámci (NIS2, ZKB, AI Act).
+
+Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 
 ## Cross-linky
 
@@ -44,6 +61,12 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 - **Glossary entry**: [/glossary/aiad/](/glossary/aiad/)
 - **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
 - **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Glossary index**: [/glossary/](/glossary/)
+- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 
 ---
 

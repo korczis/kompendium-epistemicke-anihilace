@@ -234,6 +234,37 @@ Index je odvozen z [hlavního platformového glosáře](/glossary/) a aktualizov
 - [Color Teams](/glossary/color-teams/) — adversariální simulace.
 - [Decision Engine](/hub/dd/decisions/) — operativní použití termínů v běžícím systému.
 
+
+## ⚡ Kritický krok
+
+**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Místo lineární četby:
+
+1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
+2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
+3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+
+> **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
+> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> otevři přílohu.
+
+## 🔗 Křížové odkazy
+
+### V této sekci
+
+- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
+- [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/)
+- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
+- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
+- [Kompletní rejstřík technik (master index)](/kompendium/08-prilohy/rejstrik-technik/)
+
+### Klíčové orientační body
+
+- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
+- [Glossary](/glossary/) — terminologický slovník
+- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
+- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+
 ---
 
 ## Connect & Contribute

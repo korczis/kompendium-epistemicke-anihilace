@@ -113,6 +113,20 @@ Příloh y sledují **verzi celého kompendia**. Změny v hlavním textu (nové 
 - **Per-technique** → [Techniques index](/kompendium/techniques/)
 - **Platformový kontext** → [Hub kompendia](/kompendium/) → [Glossary](/glossary/) → [Philosophy](/philosophy/)
 
+
+## ⚡ Kritický krok
+
+**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Místo lineární četby:
+
+1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
+2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
+3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+
+> **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
+> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> otevři přílohu.
+
 ---
 
 ## Connect & Contribute

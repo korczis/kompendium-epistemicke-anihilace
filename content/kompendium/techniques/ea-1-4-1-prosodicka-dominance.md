@@ -255,6 +255,23 @@ Intervence: Klinické protokoly — **mandatorní** written treatment options, *
   - [Decision Engine](/hub/dd/decisions/)
   - [Color Teams](/glossary/color-teams/)
 
+
+## ⚡ Kritický krok
+
+**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+
+- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
+  rámec)
+- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+  pro úroveň této techniky
+- Pokud diagnostikuješ na sobě, použij
+  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  a konzultuj výsledek se supervizí
+
+> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
+> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+
 ---
 
 ## Connect & Contribute

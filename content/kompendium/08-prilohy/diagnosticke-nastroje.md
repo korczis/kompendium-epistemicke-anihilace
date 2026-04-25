@@ -263,6 +263,37 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 - [Color Teams](/glossary/color-teams/) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
 - [NABLA Infinity](/glossary/nabla-infinity/) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
 
+
+## ⚡ Kritický krok
+
+**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Místo lineární četby:
+
+1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
+2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
+3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+
+> **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
+> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> otevři přílohu.
+
+## 🔗 Křížové odkazy
+
+### V této sekci
+
+- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
+- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
+- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
+- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
+- [Kompletní rejstřík technik (master index)](/kompendium/08-prilohy/rejstrik-technik/)
+
+### Klíčové orientační body
+
+- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
+- [Glossary](/glossary/) — terminologický slovník
+- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
+- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+
 ---
 
 ## Connect & Contribute

@@ -638,6 +638,18 @@ Efektivní navigace komplexního epistemického terénu vyžaduje robustní poro
 - Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/)
 - Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
 
+
+## ⚡ Kritický krok
+
+**Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
+posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
+[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+**Detekční markery** a **Neutralizace**.
+
+> **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
+> kategorie abstraktním přehledem. Aplikace na vlastní zkušenost je to,
+> co převede materiál z taxonomie na operativní schopnost detekce.
+
 ---
 
 ## Connect & Contribute

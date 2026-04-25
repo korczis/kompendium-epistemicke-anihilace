@@ -365,6 +365,18 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 - [Decision Engine](/hub/dd/decisions/)
 - [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/)
 
+
+## ⚡ Kritický krok
+
+**Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
+posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
+[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+**Detekční markery** a **Neutralizace**.
+
+> **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
+> kategorie abstraktním přehledem. Aplikace na vlastní zkušenost je to,
+> co převede materiál z taxonomie na operativní schopnost detekce.
+
 ---
 
 ## Connect & Contribute

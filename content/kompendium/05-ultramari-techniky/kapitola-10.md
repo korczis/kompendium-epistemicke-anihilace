@@ -174,6 +174,22 @@ V navazující [Sekci 06](/kompendium/06-klinicke-aplikace/) jsou specifikovány
 - Platforma: [NABLA Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/), [Decision Engine](/hub/dd/decisions/)
 - Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
 
+
+## ⚡ Kritický krok
+
+**Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
+obecnému studiu. Před četbou potvrď, že:
+
+- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
+- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+  klinická intervence, doktrinální výzkum)
+- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  vlastního stavu (sebepozorovací rámec)
+
+> **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
+> je strukturální poškození epistemické identity, často s dlouhodobou
+> reverzibilitou v řádu měsíců až let.
+
 ---
 
 ## Connect & Contribute

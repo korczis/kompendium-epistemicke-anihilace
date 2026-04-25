@@ -126,6 +126,24 @@ Pro **klinika začínajícího** s kompendiem doporučujeme následující sekve
 - [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
 - [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
 
+
+## ⚡ Kritický krok
+
+**Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
+materiál není terapeutickou příručkou ani diagnostickou metodikou pro
+neformální použití.
+
+Před aplikací:
+
+1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
+   psychologem
+2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+   odpovídají profilu klienta
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+
+> **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
+> mimo zamýšlený klinický rámec.
+
 ---
 
 ## Connect & Contribute

@@ -358,6 +358,18 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 - [Philosophy: Boundary Ethics](/philosophy/boundary-ethics/)
 - [Glossary: Color Teams](/glossary/color-teams/)
 
+
+## ⚡ Kritický krok
+
+**Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
+posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
+[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+**Detekční markery** a **Neutralizace**.
+
+> **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
+> kategorie abstraktním přehledem. Aplikace na vlastní zkušenost je to,
+> co převede materiál z taxonomie na operativní schopnost detekce.
+
 ---
 
 ## Connect & Contribute

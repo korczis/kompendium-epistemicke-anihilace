@@ -257,6 +257,23 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
   - [Kapitola 4 — Operační principy](/kompendium/04-operacni-principy/)
   - [Kapitola 6 — Epistemická singularita](/kompendium/06-epistemicka-singularita/)
 
+
+## ⚡ Kritický krok
+
+**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+
+- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
+  rámec)
+- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+  pro úroveň této techniky
+- Pokud diagnostikuješ na sobě, použij
+  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  a konzultuj výsledek se supervizí
+
+> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
+> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+
 ---
 
 ## Connect & Contribute

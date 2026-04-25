@@ -178,6 +178,23 @@ Ukončení je vždy doprovázeno aktivací klinické intervence, debriefingem s 
 - Filozofie: [Intelektuální suverenita](/philosophy/intellectual-sovereignty/) · [Epistemická integrita](/philosophy/epistemic-integrity/) · [Boundary ethics](/philosophy/boundary-ethics/)
 - Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](/glossary/nabla-infinity/) · [Color Teams](/glossary/color-teams/)
 
+
+## ⚡ Kritický krok
+
+**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
+terminálního protokolu (i v rámci sebe-monitoringu) ověř:
+
+1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+   schválený tvou institucí
+2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+   s minimálně měsíčním kontaktem
+3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+   uplynulých 7 dní
+
+> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
+> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
+> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+
 ---
 
 ## Connect & Contribute

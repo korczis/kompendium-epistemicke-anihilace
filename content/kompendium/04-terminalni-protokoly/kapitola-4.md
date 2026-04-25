@@ -289,6 +289,23 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [Filozofie: Epistemická integrita](/philosophy/epistemic-integrity/)
 - [Decision Engine](/hub/dd/decisions/) — evidence-based hodnocení rizikového profilu
 
+
+## ⚡ Kritický krok
+
+**Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
+terminálního protokolu (i v rámci sebe-monitoringu) ověř:
+
+1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+   schválený tvou institucí
+2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+   s minimálně měsíčním kontaktem
+3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+   uplynulých 7 dní
+
+> **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
+> doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
+> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+
 ---
 
 ## Connect & Contribute

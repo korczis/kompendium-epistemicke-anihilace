@@ -231,6 +231,37 @@ Master rejstřík je propojen s běžícími systémy:
 - [Decision Engine](/hub/dd/decisions/) — kalibrace důvěry využívá EA kódy jako negativní signály.
 - [3NL architektura](/glossary/three-nested-loops/) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
 
+
+## ⚡ Kritický krok
+
+**Tato příloha je referenční nástroj** — není k četbě od začátku do konce.
+Místo lineární četby:
+
+1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
+2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
+3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+
+> **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
+> formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
+> otevři přílohu.
+
+## 🔗 Křížové odkazy
+
+### V této sekci
+
+- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
+- [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/)
+- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
+- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
+- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
+
+### Klíčové orientační body
+
+- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
+- [Glossary](/glossary/) — terminologický slovník
+- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
+- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+
 ---
 
 ## Connect & Contribute

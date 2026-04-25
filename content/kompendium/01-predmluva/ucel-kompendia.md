@@ -121,6 +121,17 @@ Na rozdíl od klasických nozologických manuálů kompendium **explicitně odm�
 - [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/)
 - [Decision Engine](/hub/dd/decisions/)
 
+
+## ⚡ Kritický krok
+
+**Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
+souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
+[etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/), a víš, **kdy
+materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
+
+> **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
+> projdeš. Bez nich kompendium operuje mimo svůj zamýšlený etický rámec.
+
 ---
 
 ## Connect & Contribute

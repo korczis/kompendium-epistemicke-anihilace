@@ -187,6 +187,20 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [Glosář: Delegitimizace](/glossary/delegitimizace/)
 - [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
 
+
+## ⚡ Kritický krok
+
+**Teoretické reflexe ne jsou závěry — jsou pozvánkami k myšlení.** Po četbě:
+
+1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
+2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
+3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+   zdroj, který tvou alternativu podporuje (alespoň 1)
+
+> **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
+> formou epistemické pasivity. Aktivní oponentura je nepostradatelná
+> součást doktríny.
+
 ---
 
 ## Connect & Contribute

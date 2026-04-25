@@ -159,6 +159,22 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](/kompendium/0
   - [Fenomenologie](/glossary/fenomenologie/)
   - [Epistemické trauma](/glossary/epistemicke-trauma/)
 
+
+## ⚡ Kritický krok
+
+**Ultramární techniky jsou L3 (omezený přístup)**: nejsou určeny k
+obecnému studiu. Před četbou potvrď, že:
+
+- Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
+- Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
+  klinická intervence, doktrinální výzkum)
+- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  vlastního stavu (sebepozorovací rámec)
+
+> **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
+> je strukturální poškození epistemické identity, často s dlouhodobou
+> reverzibilitou v řádu měsíců až let.
+
 ---
 
 ## Connect & Contribute

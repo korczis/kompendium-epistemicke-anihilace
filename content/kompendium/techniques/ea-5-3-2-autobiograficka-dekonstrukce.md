@@ -123,6 +123,72 @@ Technika **autobiografická dekonstrukce** představuje strukturální výzvu pr
   - [Color Teams](/glossary/color-teams/)
 
 
+## Teoretické zázemí
+
+Ricoeurova **trojí mimésis** (*Temps et récit*) — prefigurace, konfigurace, refigurace životního příběhu — je systematicky rozkládána. Husserlova **vnitřní časová vědomí** (retenční-protenční struktura) ztrácí horizontální kontinuitu. Merleau-Pontyho **chair** jako historicky sedimentovaná tělesnost (*Le Visible et l'invisible*) odhaluje, že dekonstrukce autobiografie zasahuje i pre-reflektivní tělové schéma. Damasiova **proto-self/core-self/autobiographical self** hierarchie identifikuje autobiografickou vrstvu jako nejvyšší, ale i nejzranitelnější. Levinasovo **dia-chronie** ukazuje, že čas druhého narušuje uzavřenou autobiografii — manipulátor využívá tuto otevřenost destruktivně. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+
+## Empirická literatura
+
+Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
+
+- **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+
+## Diferenciální diagnostika
+
+Klíčové vymezení vůči klinicky podobným, ale etiologicky odlišným stavům:
+
+- **Schizofrenie spektra (F20–F29 dle MKN-10)**: psychotické fenomény (bludy o identitě, dezorganizace) mají endogenní strukturu, halucinatorní obsah a obvykle prodromální fázi; identitární manipulace nemá produktivní psychotické symptomy a v kontextové detekci je vázána na konkrétního agenta.
+- **Disociativní porucha identity (F44.81 / DID)**: alternativní identity v DID mají rozdílnou autobiografickou paměť a kompletní self-koherenci; substituovaný self není 'alter', ale homogenní implantát bez vědomí dis-integrace.
+- **Hraniční porucha osobnosti (F60.3)**: identity diffusion v BPD je strukturně intra-personální (chronická nestabilita), kdežto manipulativní substituce má identifikovatelný externí původ a časový bod nasazení.
+- **Depersonalizačně-derealizační porucha (F48.1)**: izolovaná porucha self-experience bez narativní substituce; neobsahuje implantovaný alternativní self-model.
+- **Trauma-induced personality changes (F62.0)**: trvalá změna osobnosti po traumatu má jiný mechanismus (regresní obrana) než aktivně instalovaná identitární substituce.
+
+Diferenciální klíč: přítomnost identifikovatelného **externího agenta**, **časového bodu vstupu**, **lexikální homogenity** s diskursem agenta, **diskontinuita** v autobiografické textuře.
+
+## Klinické markery
+
+Pozorovatelné indikátory přítomnosti této techniky v klinické anamnéze:
+
+epizodická paměťová mlha pro klíčové biografické milníky, neschopnost rekonstruovat časové sekvence vlastních rozhodnutí, retrospektivní reframing dříve smysluplných epizod jako 'iluze', fragmenty v první osobě střídané s odcizenou třetí osobou, sebepopis jako 'kdo jsem byl' bez integrace s 'kdo jsem'.
+
+Tyto markery jsou kumulativní — žádný jednotlivý nemá diagnostickou specificitu, ale jejich konvergence při anamnéze přítomnosti high-control vztahu nebo izolačního prostředí zvyšuje prediktivní hodnotu. Doporučená klinická cesta zahrnuje longitudinální anamnézu (před/po hraniční bod), konfrontaci s externí dokumentací (deníky, fotografie, korespondence), a strukturované interview se zaměřením na narativní koherenci pre-manipulační fáze.
+
+## Trauma-informed přístup
+
+Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed framework:
+
+- **Bezpečí jako primární cíl** (Herman, 1992; SAMHSA, 2014): před jakoukoliv konfrontační intervencí musí být obnoveno fyzické a vztahové bezpečí. Předčasná konfrontace s manipulátorem nebo s implantovaným narativem retraumatizuje.
+- **Tělová stabilizace před narativní rekonstrukcí** (van der Kolk, 2014; Levine, *Somatic Experiencing*): bottom-up přístupy (somatické intervence, polyvagal-informed práce) předcházejí top-down narativní práci. Pokus rekonstruovat narativ bez tělové báze vede k retraumatizaci a/nebo dissociaci.
+- **Externí archivace** kontinuity self: deníky, fotografie, korespondence, výpovědi nezávislých svědků pre-manipulační fáze fungují jako odolný záznam, ke kterému se subjekt může vracet.
+- **Pomalá temporalita**: rekonstrukční terapeutický rámec u této kategorie technik typicky vyžaduje 12–36 měsíců strukturované práce; akcelerace zhoršuje prognózu.
+- **Supervize terapeuta**: sekundární traumatizace terapeuta a riziko parallel process (terapeut nevědomě reprodukuje manipulační dynamiku) vyžadují pravidelnou supervizní podporu.
+- **Zákaz konfrontačních a regresních technik** v rané fázi: pre-konsolidační self je příliš zranitelný pro hypnoidní, regresní nebo psychedelicky-asistované intervence.
+
+## Cross-linky expandované
+
+- [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- [Subkategorie 5.3 Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/#subkategorie-ea-5-3)
+- [EA-5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/#subkategorie-5-1)
+- [EA-5.2 Onto-singulární mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-5-2)
+- [EA-5.4 Konvergenční techniky](/kompendium/05-ultramari-techniky/#subkategorie-5-4)
+- [EA-5.5 Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-5-5)
+- [EA-1.6 Charizmatické vedení](/kompendium/01-zakladni-techniky/#subkategorie-1-6)
+- [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- [Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- [Glossary: Narrative identity](/glossary/narrative-identity/)
+- [Glossary: Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [Glossary: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
+- [Glossary: Ontologická anihilace](/glossary/ontologicka-anihilace/)
+- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
+- [Glossary: Taxonomie EA](/glossary/taxonomie-ea/)
+- [Decision Engine](/hub/dd/decisions/)
+- [NABLA Infinity](/glossary/nabla-infinity/)
+- [Color Teams](/glossary/color-teams/)
+
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:

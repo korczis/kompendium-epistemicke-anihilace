@@ -1,0 +1,142 @@
++++
+title = "EA-5.3.2 Autobiografická dekonstrukce"
+description = "Systematické zpochybňování koherence subjektovy autobiografické paměti vedoucí k erozi narativní self-kontinuity."
+weight = 532
+insert_anchor_links = "right"
+
+[taxonomies]
+tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
+categories = ["academic", "ultramari"]
+
+[extra]
+parent = "kompendium-techniques"
+ea_code = "EA-5.3.2"
+ea_category = "5. Ultramární techniky"
+ea_subcategory = "5.3 Hypertransformativní protokoly"
+section_icon = "🌀"
+toc = true
+access_level = "L3"
+risk_level = "extreme"
+parent_chapter = "/kompendium/05-ultramari-techniky/"
++++
+
+# EA-5.3.2 Autobiografická dekonstrukce
+
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-5.3.2` |
+| **Kategorie** | 5. Ultramární techniky |
+| **Subkategorie** | 5.3 Hypertransformativní protokoly |
+| **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
+| **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
+| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec, často 12–36 měsíců |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+
+## Definice
+
+**Autobiografická dekonstrukce** je technika rozkládající subjektovu schopnost konstituovat **koherentní životní příběh**. Manipulátor systematicky zpochybňuje pravdivost, význam a souvislost subjektovy autobiografické paměti, dokud subjekt nepřestane prožívat vlastní biografii jako spolehlivý zdroj self-koherence.
+
+## Operační modus
+
+Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+
+### Krok 1 — Selektivní zpochybnění klíčových biografických bodů
+
+Manipulátor cílí specifické vzpomínky — 'opravdu si pamatuješ, že to bylo takhle?', 'možná si to pamatuješ špatně' — vyvolávajíc lokalizovanou nejistotu.
+
+### Krok 2 — Generalizace pochybnosti
+
+Zpochybnění se rozšiřuje z lokalizovaných vzpomínek na celé biografické úseky; subjekt přestává důvěřovat narativní kapacitě.
+
+### Krok 3 — Konsolidace biografického vakua
+
+Subjekt operuje bez funkčního autobiografického ukotvení; je závislý na externí (manipulátorově) verzi vlastního příběhu.
+
+## Fenomenologické znaky
+
+Co prožívá subjekt **uvnitř** techniky:
+
+| Znak | Popis |
+|------|-------|
+| **Biografická diskoherence** | Při pokusu o souvislé vyprávění životního příběhu narůstají vnitřní rozpory |
+| **Mnemická dezorientace** | Subjekt si nevybavuje, co bylo 'skutečné' a co 'imaginované' v klíčových epizodách |
+| **Závislost na externí verzi** | Při dotazech na vlastní minulost subjekt cituje manipulátorovu interpretaci spíše než vlastní vzpomínku |
+| **Biografická úzkost** | Při pokusu o reflexi minulosti panika a dezorientace |
+
+## Detekční markery (pohled pozorovatele)
+
+Co může vidět vnější pozorovatel:
+
+| Marker | Indikuje |
+|--------|----------|
+| Subjekt nedokáže sestavit konzistentní životopis bez manipulátorovy přítomnosti | Probíhající dekonstrukce |
+| Subjektovy biografické tvrzení mění se při každém vyprávění | Eroze narativní stability |
+| Manipulátor poskytuje 'správnou' verzi subjektovy minulosti třetím stranám | Externalizace narativní autority |
+| Subjekt se vyhýbá kontaktu s lidmi, kteří znají jeho/její minulost nezávisle | Ochrana implantované verze |
+
+## Neutralizační strategie
+
+### Individuální
+
+1. Externí biografická archivace — datované deníky, fotografie, korespondence — uchovávané mimo manipulátorův dosah
+2. Triangulace s nezávislými svědky biografických událostí (rodina, dlouholetí přátelé)
+3. Terapeutická rekonstrukce autobiografického self skrze strukturované vyprávění (narativní terapie)
+
+### Institucionální
+
+- Forenzní psychologie: protokoly pro detekci implantované biografie u obětí vysoce manipulativních vztahů
+- Terapeutické instituce: dokumentační požadavky pro klienty s historií autobiografické destabilizace
+
+## Vztah k jiným technikám
+
+### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
+
+EA-5.3.1 (identitární substituce), EA-5.3.19 (autobiografická amnestizace)
+
+### Cross-categorical references
+
+- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
+- **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
+
+## Vztah k Prismatic platformě
+
+Technika **autobiografická dekonstrukce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. [Decision Engine](/hub/dd/decisions/) udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](/glossary/nabla-infinity/) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](/glossary/color-teams/) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.2.
+
+## Související
+
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Sourozenecké techniky**: [Subkategorie 5.3 Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/#subkategorie-ea-5-3)
+- **Cross-categorical**:
+  - [EA-5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/#subkategorie-5-1)
+  - [EA-5.5 Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-5-5)
+- **Glossary**:
+  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
+  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
+  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
+  - [Narrative identity](/glossary/narrative-identity/)
+  - [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Související platformové koncepty**:
+  - [Decision Engine](/hub/dd/decisions/)
+  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [Color Teams](/glossary/color-teams/)
+
+
+## ⚡ Kritický krok
+
+**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+
+- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/) pro úroveň této techniky
+- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) a konzultuj výsledek se supervizí
+
+> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)

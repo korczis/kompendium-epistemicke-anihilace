@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Context collapse ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Přenos výroku z původního kontextu (specifická konference, odborný kruh, žánr ironické nadsázky) do publika, které tyto kódy nesdílí
+2. Publikum interpretuje výrok podle svých standardů — odborný hovor zní arrogantně, ironie zní vážně, technické zjednodušení zní falešně
+3. Subjekt se nemůže odvolat na "neporozuměl jste mě", protože by působilo jako uhýbání odpovědnosti
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Reakce v novém publiku je drasticky odlišná od reakce v původním — stejný text, opačná interpretace
+- Citující strana ignoruje nebo aktivně skrývá meta-informace o žánru / kontextu / publiku
+- Vznik kanonické "kontroverzní citace" osamocené, bez doprovodu zdrojové diskuze
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Veřejné komunikace s vědomým "context warning" — žánr, publikum, předpoklady před každým citačně-rizikovým výrokem
+- Aktivní rekonstrukce kontextu při napadení — link na celou přednášku, dotazování publika, sběr svědectví o atmosféře
+- Strukturální oddělení odborných a veřejných formátů — vědomí, že přednáška na konferenci nemá být klipovaná pro Twitter
+
+## Příklad
+
+Lékař na odborném semináři pro kolegy s tíživým humorem řekne "tak prostě nejdřív zabijeme 5 % pacientů". Všichni v sále vědí, že je to ironický komentář ke statistickému riziku procedury. Přepis se dostane k laickému publiku — během 24 hodin je vyloučen z odborné společnosti za "vyhrožování pacientům".
 
 ## Cross-linky
 

@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Tichá indukce afektivního stavu — mírný strach (vague threat), mírný stud, mírná nejistota — bez explicitního pojmenování emoce
+2. Spojení indukovaného afektu s preferovaným závěrem ("rozumní lidé už chápou..."); subjekt afekt interpretuje jako vlastní intuicí
+3. Vyvolání averze k alternativním pozicím skrze sociální nepohodlí (rozpadnutí kontaktu, mírná chladnost) bez explicitního konfliktu
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Subjekt formuluje rozhodnutí přes pocit ("nějak mi to nesedí", "mám z toho zvláštní pocit") bez explicitního obsahu
+- Afektivní stav se nesoulad s objektivním obsahem konverzace (mírný stres v technicky neutrálním tématu)
+- V přítomnosti druhé osoby se mění tón a interpretace stejných dat — afekt je relační, nikoli vázaný k obsahu
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Afektivní debriefing — po interakci pojmenovat, jaký afekt byl indukován a kdy; explicitní vědomí přerušuje vliv
+- Kanálová separace — rozhodnutí formulovat písemně, mimo přítomnost zdroje afektu; čtení textu mimo kontext
+- Test kontrafaktu — "kdybych tato data dostal od kohokoli jiného, hodnotil bych je stejně?"; neguje relační vrstvu
+
+## Příklad
+
+Manažer subtilně signalizuje nesouhlas s alternativním návrhem skrze skromný úsměv, krátké mlčení, mírný úkrok zpět. Tým, aniž si toho vědomí všimne, návrh přestává obhajovat. Když týž návrh přijde písemně od neznámé osoby, je posouzen jako kvalitní.
 
 ## Cross-linky
 

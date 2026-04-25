@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Substituce jednoduchých pojmů (např. "rozhodnutí") technickým žargonem ("inferenční operacionalizace stochastické preference") bez sémantického zisku
+2. Vytvoření in-group lexikonu, jehož neznalost interpretuje subjekt jako vlastní deficit (nikoli jako absenci obsahu)
+3. Ritualizace žargonu — opakované použití bez definice, dokud terminologie sama nezíská statut argumentu ("jak víme z literatury…")
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Test parafráze: subjekt nedokáže přeložit klíčové tvrzení do běžného jazyka beze ztráty (a totéž, jak se ukáže, ani autor)
+- Asymetrická distribuce žargonu — používá se k argumentaci, mizí v praktických rozhodnutích
+- Reakce na otázku "co přesně to znamená" je metakomentář ("musíš znát kontext"), nikoli definice
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Pravidlo Feynman — vynucená parafráze "vysvětli to středoškolákovi"; vše, co touto parafrází nepřežije, je rétorická vata
+- Glosář s operacionálními definicemi — každý nový pojem má vlastní definici, příklady použití, hraniční případy
+- Externí terminologický audit — odborník mimo subdoménu kontroluje, zda termíny mají standardní význam, či byly tiše předefinovány
+
+## Příklad
+
+Konzultant na board meetingu argumentuje "stratifikovanou epistemickou kalibrací risk-adjusted preferenčních manifoldů". Po požadavku na příklad selže — terminologie maskuje banální tvrzení "asi bychom měli být opatrní".
 
 ## Cross-linky
 

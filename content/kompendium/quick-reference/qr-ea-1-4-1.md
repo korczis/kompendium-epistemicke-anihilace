@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Kalibrace hlasu — nízká poloha, pomalé tempo, pevný objem, klesavá intonace na konci tvrzení (declarative cadence)
+2. Strategické pauzy — mlčení po vlastním tvrzení vytváří prostor přijetí; mlčení během cizí otázky vytváří dojem hodnocení
+3. Asymetrie tempa — autoritativní mluvčí mluví pomalu, oponent zrychluje; vzniká dojem, že rychlost = nejistota, pomalost = jistota
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Subjekt souhlasí, aniž obsahově plně rozumí — "znělo to přesvědčivě"
+- Disproporce mezi obsahovou jistotou (jaká data, jaké studie?) a hlasovou jistotou
+- Posun v vlastní prosodii — mluvčí v reakci na autoritu zrychluje, zvyšuje hlas, používá tázací intonace u tvrzení
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Převod do písemné formy — text odstraňuje prosodickou vrstvu; argumenty se hodnotí podle obsahu
+- Audio-blind read — necitlivé zdroje (transkript) hodnotí stejné argumenty bez hlasu pro porovnání s "živým" dojmem
+- Trénink vlastní prosodie — pomalé tempo, declarative cadence, vědomé pauzy; vyrovnává asymetrii v reálném čase
+
+## Příklad
+
+Senior partner v M&A meetingu prezentuje slaboargumentovaný návrh nízkým, pomalým hlasem s dlouhými pauzami. Junior s lepšími daty, ale rychlým, vyšším hlasem působí "nejistě". Board hlasuje pro seniora. Transkript ex-post jasně ukazuje, že obsahově byl junior superiorní.
 
 ## Cross-linky
 

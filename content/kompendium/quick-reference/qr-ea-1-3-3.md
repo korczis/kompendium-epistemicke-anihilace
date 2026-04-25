@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Detekce, že debata se blíží k materiálnímu, falsifikujícímu nebo reputačnímu bodu
+2. Vložení atraktivnějšího (afektivně nabitého, kontroverzního, sebe-prezentujícího) tématu — whataboutism, "ale podívejme se na X", anekdota
+3. Konsolidace přesměrování opakováním a sociálním tlakem, dokud původní bod neztratí trakci a debata se neresetuje na nové ose
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Časová korelace — přechod na nové téma nastane vždy v okamžiku konkrétní (nikoli obecné) otázky
+- Diverzní téma je jednostranně výhodné pro stranu, která ho zavádí ("a co...", "vy také..."), nikoli neutrální
+- Zpětný návrat k původní otázce vyvolává odpor a další diverzi ("ale to už jsme probrali / to je vedlejší")
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Strukturovaný protokol — agenda se zapisuje, otázky čekající na odpověď zůstávají na flipchartu, dokud nejsou zodpovězeny
+- Pojmenování ("vraťme se k otázce X, na kterou jsme nedostali odpověď") — meta-úroveň přerušuje vzorec
+- Časový limit per téma + facilitátor s mandátem zastavit diverzi; zápis explicitně označuje "neodpovězeno"
+
+## Příklad
+
+Při auditu finančního ředitele padne otázka "proč 4 M Kč zmizely z účtu A?". CFO odpoví: "Mimochodem, máte vůbec přehled, jaký je legislativní rámec pro... a víte, že kolegyně Marta měla loni..." Po 20 minutách se na původní otázku zapomnělo. Jediná efektivní obrana: zapsat na flipchart "OTEVŘENO: 4 M Kč, účet A".
 
 ## Cross-linky
 

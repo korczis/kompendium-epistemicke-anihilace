@@ -24,14 +24,14 @@ audience = ["researchers", "psychiatrists", "psychologists", "philosophers"]
 content_type = ["academic", "reference"]
 status = "in-progress"
 total_techniques_planned = 150
-techniques_published = 53
+techniques_published = 116
 notation = "EA-X.Y.Z-α"
 related_articles = ["epistemic-integrity", "boundary-ethics", "intellectual-sovereignty", "epistemic-pipeline", "nabla-infinity"]
 keywords = ["epistemická anihilace", "kognitivní anihilace", "intelektuální manipulace", "epistemic security", "kognitivní biasy", "akademická manipulace", "taxonomie manipulace"]
 image = "/images/sections/kompendium.png"
 image_alt = "Kompendium epistemické a kognitivní anihilace"
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-04-26"
 +++
 
 # Kompendium epistemické a kognitivní anihilace
@@ -62,10 +62,15 @@ Kompendium je určeno **výhradně** pro:
 | **02** | [Úvod do epistemické anihilace](/kompendium/02-uvod/) | ✓ kompletní | Definice, historický kontext, teoretické základy |
 | **03** | [Základní kategorie](/kompendium/03-zakladni-kategorie/) | ✓ kompletní | Akademické techniky, delegitimizace, edukativní implementace, 3 scénáře |
 | **04** | [Terminální protokoly](/kompendium/04-terminalni-protokoly/) | ✓ kompletní | 9 článků: konceptuální/identitní/institucionální dekonstrukce, screening, monitoring, rekonstituce |
-| **05** | [Ultramární techniky](/kompendium/05-ultramari-techniky/) | ◐ částečně publikováno | 5 narativních kapitol (6–10) + 40/150 detailních technik (5.1.\* + 5.2.\*) |
+| **05** | [Ultramární techniky](/kompendium/05-ultramari-techniky/) | ◐ částečně publikováno | 5 narativních kapitol (6–10) + 100/150 detailních technik (5.1.\* + 5.2.\* + 5.4.\*) |
 | **06** | [Klinické aplikace](/kompendium/06-klinicke-aplikace/) | ✓ kompletní | 10 článků: diagnostika, terapie, rekonstrukce, vulnerabilní populace, kazuistiky |
 | **07** | [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) | ✓ kompletní | 9 článků: filosofie, sociální epistemologie, postmodernismus, kognitivní vědy, digitální věk |
 | **08** | [Přílohy](/kompendium/08-prilohy/) | ✓ kompletní | 7 referenčních článků: bibliografie, rejstřík, index pojmů, etický kodex, klasifikace |
+| **09** | [Techniques](/kompendium/techniques/) | ◐ 116/150 publikováno | Per-technique podknihovna s hloubkovými články (deskripce, fenomenologie, detekce, neutralizace) |
+| **10** | [Case Studies](/kompendium/case-studies/) | ✓ 80 případů | Anonymizované klinické a forenzní kazuistiky napříč EA-1 a EA-5 |
+| **11** | [Quick Reference](/kompendium/quick-reference/) | ✓ 123 QR karet | Stručné karty pro rychlou identifikaci techniky v terénu |
+| **12** | [Glossary Bridges](/kompendium/glossary-bridges/) | ✓ 102 můstků | Cross-link můstky mezi kompendiem a platformovým glosářem |
+| **13** | [Vizualizace](/kompendium/visualizations/) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
 
 ### Detailní techniky
 
@@ -104,14 +109,17 @@ EA-X.Y.Z-α
 | **Z** | Specifický fenomén | `1` (Selektivní expozice) |
 | **α** | Varianta fenoménu (volitelně) | `a`, `b`, `c` |
 
-**Příklady**:
-- `EA-1.1.1` — [Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-- `EA-1.2.1` — [Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-- `EA-1.4.1` — [Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
-- `EA-5.1.1` — [Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
-- `EA-5.1.13` — [Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
-- `EA-5.2.1` — [Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)
-- `EA-5.2.10` — [Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)
+**Příklady — jedna technika z každé publikované kapitoly**:
+
+- **Kapitola 1.1** — `EA-1.1.1` [Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
+- **Kapitola 1.2** — `EA-1.2.1` [Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
+- **Kapitola 1.3** — `EA-1.3.1` [Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
+- **Kapitola 1.4** — `EA-1.4.1` [Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
+- **Kapitola 1.5** — `EA-1.5.1` [Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)
+- **Kapitola 2.1** — `EA-2.1.1` [Expertní disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)
+- **Kapitola 5.1** — `EA-5.1.1` [Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
+- **Kapitola 5.2** — `EA-5.2.1` [Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)
+- **Kapitola 5.4** — `EA-5.4.1` [Lhářský paradox — aplikace](/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace/)
 
 ## Etické principy
 
@@ -142,12 +150,16 @@ Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic pl
 
 ## Inkrementální publikace
 
-Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1+2+3 dokončeno):
+Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–5 + Phase 7–8 dokončeno):
 
 - **Sekce 01–04, 06–08**: ✓ kompletně publikováno (narativní text + sub-články)
-- **Sekce 05** (Ultramární): 5/5 narativů kapitol + 40/150 detailních per-technique článků
-- **Per-technique podknihovna**: 53 hloubkových článků (13× EA-1.\* + 30× EA-5.1.\* + 10× EA-5.2.\*)
-- **Celková rozsah**: 122 markdown souborů, ~209 000 slov (cca 600+ stran A4)
+- **Sekce 05** (Ultramární): 5/5 narativů kapitol + 116/150 detailních per-technique článků
+- **Per-technique podknihovna**: 116 hloubkových článků (13× EA-1.\* + 3× EA-2.1.\* + 30× EA-5.1.\* + 10× EA-5.2.\* + 60× EA-5.4.\*)
+- **Case Studies**: 80 anonymizovaných klinických a forenzních kazuistik
+- **Quick Reference**: 123 stručných QR karet pro terénní identifikaci
+- **Glossary Bridges**: 102 cross-link můstků mezi kompendiem a platformovým glosářem
+- **Vizualizace**: 6 interaktivních (Chart.js / Three.js / p5.js)
+- **Celkový rozsah**: **517 markdown souborů**, **~396 245 slov** (cca **1 200+ stran A4**)
 
 **Aktuální stav publikace**: viz [techniques index](/kompendium/techniques/) pro přesný počet a stav každé techniky.
 

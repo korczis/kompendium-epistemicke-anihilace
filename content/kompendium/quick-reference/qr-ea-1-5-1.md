@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Asymetrická konfigurace prostoru — autorita za stolem / na stupínku / v centru; subjekt na nižší židli, naproti, izolován
+2. Manipulace osobní zóny — vstoupení do intimní zóny při tlaku, ústup při nabídce ("teď je čas se rozhodnout")
+3. Kontrola pohybových možností — bariéry, omezené východy, zavřené dveře; zvyšuje afektivní zátěž a kompliantní reakce
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Geometrie místnosti je systematicky asymetrická ve prospěch jedné strany (výška, vzdálenost, světlo, výhled)
+- Pocit "uvíznutí", "nepříjemné blízkosti" nebo "nemožnosti odejít" bez fyzického omezení
+- Výsledná rozhodnutí korelují s konfigurací prostoru více než s obsahem argumentu
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Změna místa — přesunout setkání do neutrálního prostoru (kavárna, online, vlastní kancelář subjektu)
+- Symetrizace nábytku — kulatý stůl, stejné židle, stejná výška; explicitně před schůzkou
+- Mobilita — pravidlo "můžu kdykoliv vstát a odejít"; symbolicky i fakticky; odstraňuje asymetrii dispozice
+
+## Příklad
+
+Klient přijde do kanceláře právníka, sedne si na nízké koženkové křeslo proti masivnímu stolu, právník stojí, opírá se o stůl. Klient po hodině podepíše smlouvu, kterou by sám doma nikdy nepodepsal. Stejná smlouva při pozdějším čtení v kavárně vyvolá panickou reakci.
 
 ## Cross-linky
 

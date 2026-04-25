@@ -1,6 +1,6 @@
 +++
-title = "Pripad 50-spiritual-cult-recovery: Spiritual cult recovery"
-description = "Anonymizovana pripadova studie — Spiritual cult recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Pripad 50-spiritual-cult-recovery: Zotaveni z spiritualniho kultu"
+description = "Anonymizovana pripadova studie — Zotaveni z spiritualniho kultu. EA techniky, fenomenologicky kurz, intervence, vysledek."
 weight = 50
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
@@ -11,57 +11,81 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 50-spiritual-cult-recovery: Spiritual cult recovery
+# Pripadova studie 50-spiritual-cult-recovery: Zotaveni z spiritualniho kultu
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 50-spiritual-cult-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 50-spiritual-cult-recovery) byla zena ve veku 32 let, ktera vstoupila do spiritualniho kultu vedeneho charismatickym "guru" v dobe osobni krize po rozvodu. Před vstupem vykazovala vysokou citlivost, vystudovaná psychologii, a stabilní rodinné vazby. Vstupní motivace: hledání smyslu po krizi, slib uzdravení a duchovního rozvoje.
+
+Rizikové faktory: akutní emoční zranitelnost po rozvodu, finanční prostředky umožňující "oddanost", absence stabilní vrstevnické sítě, a otevřenost vůči alternativním spiritualitám.
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-3 | Setkání s "guru", love-bombing, "ty jsi byla povolaná" |
+| **Perturbace** | mesice 4-12 | Intenzivní spirituální praxe, izolace, finanční dary |
+| **Rekonfigurace** | roky 1-3 | Plné odevzdání, rozpad rodinných vazeb, "guru = matka/otec/Bůh" |
+| **Konsolidace** | roky 3-7 | Život v komunitě, reproduktivní role, dissociace |
+| **Exit / detekce** | rok 7+ | Krize důvěry, externi konfrontace |
+
+V inicialni fazi byla subjekt podrobena intenzivnímu love-bombingu. Guru ji oznáčil za "duchovně vyspělou", věnoval jí privátní setkání, sdílel "tajné" učení. Komunita ji přijala s nadstandardní vřelostí.
+
+V perturbacni fazi se rozvinuly intenzivní spirituální praktiky — meditace 6+ hodin denně, půst, deprivace spánku jako "očištění". Finanční dary byly rámcovány jako "duchovní investice". Kontakt s rodinou se snížil — "rodina vás drží ve světě, my vás otevíráme".
+
+Rekonfiguracni faze: subjekt přestala mít vlastní názor, vždy se ptala "co by guru řekl". Romantický partner byl výhradně z komunity. Profesní život se skončil — "guru zařídí". Rozpad rodinných vazeb byl kompletní.
+
+Konsolidacni faze: subjekt měla dvě děti v komunitě, žila v zařízení patřícím guruovi. Externe spokojenost, vnitřně chronická úzkost a dissociace. Sebepoznaci popis "ja jsem nástroj jeho duchovní mise".
+
+Exit byl iniciovan zjištěním, že guru sexuálně zneužíval mladé členky. Tato informace prošla mezi ženami komunity v izolovaných šepotech. Subjekt se rozhodla odejít.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — guru jako absolutní spirituální autorita
+- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "duchovního propadu"
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "vyšší vědomí", "kvantové pole", "auriční čištění"
+- [EA-5.1.14 Iluzorni transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/) — pocit přístupu k "vyšší pravdě"
+- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — postupný rozpad osobní identity
+- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kompletní izolace od externí informace
+- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — pochybnosti přerámovány jako "ego odpor"
+- [EA-5.1.19 Kvazi-mysticka anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/) — "ego musí umřít"
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisovala: "První rok po odchodu jsem nevěděla, co je realita. Naučila jsem se, že 'svět' je iluze, 'tělo' je iluze, 'rodina' je iluze. Když jsem zjistila, že guru zneužíval děti, nedalo se to zařadit. Buď byl on iluze, nebo bylo všechno, co jsem věděla, lež. Ale obě možnosti znamenaly, že já neexistuju."
+
+Tato narace odpovida hluboké [epistemicke alienaci](/glossary/epistemicka-alienace/) — kompletní rozpad referenčního rámce reality. [Metakognitivni destrukce](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat, co je pravda.
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Externi konfrontace s rodinou po odchodu. Klicovy moment: psychoterapeut s expertízou v cult recovery identifikoval [c-PTSD](/glossary/c-ptsd/) s religious trauma syndrome.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Bezpečné prostředí, ochrana před guruem, péče o děti.
+**S2 - Externi epistemicka kotva:** Cult recovery support skupina, kontakt s bývalými členy.
+**S3 - Identitni rekonstrukce:** Restituce pre-cult identity, mapování autentických hodnot, učení se rozhodovat sama.
+**S4 - Profesni rekontextualizace:** Postupný návrat do profesního života.
+**S5 - Integrace:** Subjekt se stala obhájkyní cult survivors a poradkyní.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 48 měsících terapie funkční stabilizace. Restituce rodinných vazeb, péče o děti, návrat k profesi. Reziduální: opatrnost vůči spirituálním autoritám, omezená důvěra k "učitelům".
+
+## Klinicke pouceni
+
+Spiritualní cult recovery je dlouhodobý proces. Klinik musí pracovat s informovanou citlivostí k spirituálním potřebám subjektu — nelze "léčit pryč" duchovnost. Kombinace trauma-informované terapie a spirituálně senzitivního přístupu je klíčová. Cult recovery support skupiny jsou často účinnější než individuální terapie.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/), [epistemicka-alienace](/glossary/epistemicka-alienace/)
+- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-5.1.14](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/), [EA-5.1.19](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

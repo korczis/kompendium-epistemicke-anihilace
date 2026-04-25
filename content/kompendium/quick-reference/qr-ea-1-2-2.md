@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Identifikace dvou entit s drasticky asymetrickou evidenční bází nebo dopady (jeden peer-reviewed metaanalysis vs. jeden blogpost)
+2. Prezentace formálně symetrickým rámcem — "obě strany", "názor proti názoru", split-screen, vyvážené pokrytí
+3. Vyřazení váhových informací (rozsah evidence, počet zdrojů, závažnost důsledků), takže příjemce vnímá obě strany jako epistemicky rovnocenné
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Materiál systematicky redukuje informace o evidenci pro každou stranu, prezentuje pouze závěry
+- Symetrické řečové vzorce ("zatímco kritici tvrdí... zastánci namítají...") aplikované na asymetrickou debatu
+- Rétorická figura "ale na druhou stranu" připojená k tvrzením, která jsou v primární literatuře marginálním stanoviskem (<5 % publikací)
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Audit evidenční báze — kvantifikace publikací, peer-review, metodologické robustnosti, replikací; následně viditelná vážicí prezentace
+- Vyžadovat citační hloubku — pro každý "názor" konkrétní zdroje, datum, sample size, replikační status
+- Rozlišovat empirickou vs. normativní rovnocennost — empirická tvrzení nemají právo na "vyvážené pokrytí", pokud evidence je asymetrická
+
+## Příklad
+
+Veřejnoprávní debata "klima: vědci vs. skeptici" v split-screenu, 50/50 čas, oba mluvčí v obleku. Jeden reprezentuje 97 % aktivních klimatologů + tisíce peer-reviewed studií, druhý je jednotlivec bez relevantních publikací. Divák odchází s dojmem "věda v debatě se sama sebou".
 
 ## Cross-linky
 

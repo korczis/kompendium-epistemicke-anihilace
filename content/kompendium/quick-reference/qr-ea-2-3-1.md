@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Clip takeout ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Vyříznutí krátkého úseku z delšího projevu / interview / přednášky tak, aby vedlejší klauzule, hypotéza nebo karikatura působily jako finální pozice
+2. Distribuce klipu odděleně od kontextu — sociální média, zprávy, citace; originál se ztrácí
+3. Postupné nahrazení reálné pozice subjektu její karikaturou — i sympatizéři začínají hájit pozici, kterou subjekt nikdy nezastával
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Citovaná věta zní "absurdně" — to je často signál, že byla vybrána právě proto
+- Před a po citované větě v originálu jsou jiné formulace, které ji rušily nebo modifikovaly
+- Subjekt veřejně opakuje "to není to, co jsem řekl"; klip běží dál, jeho korekce nedostává trakci
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Mandátní link na originál (timestamp, full transcript) u každé citace; bez kontextu = nepublikovat
+- Veřejná publikace plné verze + extrahovaného klipu vedle sebe; přeruší dynamiku decontextualizace
+- Strukturální zákaz "krátkých soundbitů" v interních diskusích — pravidlo "celá věta nebo nic"
+
+## Příklad
+
+Vědec v hodinové debatě v rámci úvahy nadhodí: "Hypoteticky by se dalo argumentovat, že X — i když to samozřejmě odmítám, protože Y." Z debaty se na sociálních sítích šíří 4-sekundový klip "by se dalo argumentovat, že X". Po týdnu je veřejně známo, že "vědec tvrdí X". Originální debata má 200 zhlédnutí, klip 2 milióny.
 
 ## Cross-linky
 

@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Mentee isolation ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Strukturální izolace mentee od peer skupiny — výlučná spolupráce 1:1, blokace mezilaboratorní komunikace
+2. Negativní rámování externích kontaktů ("ti z X jsou neseriózní", "ona je politická aktivistka, nikoli vědkyně")
+3. Vytvoření závislosti — mentee dostává všechno (data, prostředky, autorství) skrze mentor; ztráta vztahu = ztráta kariéry
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Mentee má v praxi nulové ko-autory mimo lab po několika letech práce
+- Žádné solo first-author papers; všechny publikace s mentorem jako corresponding author
+- Sociální síť mentee mimo akademii (přátelé, rodina) přestává mít přístup k jeho profesnímu životu — uzavřený systém
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Mandatory external rotation — formálně vyžadovaná stáž / co-supervision na jiné instituci
+- Vícenásobné first-author publikace bez mentora jako spoluautora; znamená nezávislou výzkumnou linii
+- Peer mentoring sítě (formální nebo neformální) s lidmi mimo přímou hierarchii
+
+## Příklad
+
+Postdoktorandka tři roky pracuje jen s jedním PI. Když chce přejít na pozici mimo, zjišťuje, že nemá žádné nezávislé reference, žádné solo-author paper, a všechny její data formálně patří laboratoři. Závislost není pracovní — je epistemická a institucionální.
 
 ## Cross-linky
 

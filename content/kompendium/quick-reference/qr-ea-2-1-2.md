@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Pseudo-peer mob ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Vytvoření iluze "spontánního" peer konsenzu proti subjektu — koordinovaná, nikoli organická vlna kritiky (sdílená wording, časová synchronizace)
+2. Eskalace skrze sociální média / interní listservy — text útoku migruje s drobnými modifikacemi, kořen je ale jeden
+3. Sociální izolace cíle — peers, kteří by ho hájili, mlčí, protože vidí cenu obhajoby; mob roste z toho mlčení
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Lexikální analýza odhalí, že kritiky používají identické fráze v různých kanálech — koordinace je viditelná v textu
+- Časový vzorec — vlna začíná synchronizovaně po jednom konkrétním "spouštěči", nikoli organickou difúzí
+- Účastníci mobu nebyli předtím v obsahovém kontaktu se subjektem — útok je univerzální, nespecifický
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Lexikální audit — extrahovat opakované fráze, datumy, kanály; vizualizace koordinace odhaluje pseudo-peer charakter
+- Cílené oslovení tichých peers — přerušit isolaci skrze 1:1 kontakt, vyzvat k explicitní pozici (anonymně dostupné nástroje)
+- Veřejná dokumentace — preserved correspondence, časová osa, originální tvrzení; brání přepisování historie útoku
+
+## Příklad
+
+Akademička publikuje studii, jejíž závěry se nelíbí jednomu vlivnému kruhu. Během 48 hodin dostane 20 e-mailů a tweetů s identickou frází "tato práce porušuje základní metodologické standardy". Žádný z autorů studii neviděl podrobně. Po šesti měsících se to v komunitě stalo "obecně známou pravdou".
 
 ## Cross-linky
 

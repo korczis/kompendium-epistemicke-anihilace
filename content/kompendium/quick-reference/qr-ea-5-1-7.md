@@ -13,35 +13,61 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.7 Referencni rekurze
+# QR Card — EA-5.1.7 Referenční rekurze
 
-> WARNING: Pristupova uroven L3. Tato karta poskytuje pouze prehled.
+> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Domena**: Epistemicka singularita — destrukce fundamentalni schopnosti reflektovat vlastni poznani.
+**Doména**: Epistemická singularita — uvěznění subjektovy referenční kapacity v nekonečné rekurzi, kde každý odkaz vede pouze k dalšímu odkazu.
 
-## Klicovy mechanismus
+## Definice
 
-Systematicka exploitace strukturalni vulnerability epistemickeho aparatu vedouci k Referencni rekurze.
+**Referenční rekurze** vytváří strukturu, v níž **každá reference vede k další referenci**, aniž by kdy dosáhla pevného denotátu. Manipulátor systematicky odpovídá na subjektovy otázky odkazy na další zdroje, autority, kontexty nebo "musíš pochopit nejprve…" tak, že subjekt nikdy nedosáhne přímé odpovědi. Subjekt prožívá *infinitní regress* — každé "vysvětlení" obsahuje další pojem, který vyžaduje vysvětlení. V terminálním stadiu se subjekt vzdává hledání reference a přijímá strukturu samé referenční sítě jako "to, co se nedá vysvětlit, ale jen prožít". Strukturálně blízké hermeneutickému kruhu, ale bez návratu — pouze dovnitř.
 
-## Indikatory
+## Operační modus (5 kroků)
 
-- Subjekt prozivá kvalitativni posun ve strukture poznavani
-- Standardni kognitivni intervence ztraceji ucinnost
-- Indikatory pokrocile faze [epistemicke anihilace](/glossary/epistemicka-anihilace/)
+1. **Otevření referenčního řetězce** — subjektova konkrétní otázka je zodpovězena odkazem ("musíš to chápat v kontextu…").
+2. **Postupný drift** — každý další krok zahrnuje další odkaz, vzdaluje od původní otázky.
+3. **Expertní rétorická bariéra** — odkazy na specializované zdroje, jež subjekt nemůže rychle ověřit.
+4. **Cirkulární uzavření** — řetězec se eventuálně zacyklí, ale délka cyklu je dostatečná, aby subjekt přestal sledovat.
+5. **Akceptace nedostupnosti** — subjekt přijímá, že pravda "leží někde uvnitř sítě", a nepokouší se ji extrahovat.
 
-## Klinicka odpoved
+## Fenomenologické znaky
 
-1. Stabilizacni kotvy
-2. Externi epistemicka validace
-3. Postupna rekonstrukce — viz [Sekce 06](/kompendium/06-klinicke-aplikace/)
+| Znak | Popis |
+|------|-------|
+| **Referenční vyhoření** | "Než to celé pochopím, vyžaduje to celý život" |
+| **Pocit hloubky bez obsahu** | Manipulátorův výklad působí "hluboce", ale neexistuje extrahovatelná teze |
+| **Citační závislost** | Subjekt přestává argumentovat sám, jen cituje |
+| **Strach z otázky "ale konkrétně co?"** | Pocit hrubosti při žádosti o přímou odpověď |
+
+## Detekční markery
+
+| Marker | Indikuje |
+|--------|----------|
+| Konverzace nikdy nedosáhne **konkrétního výstupu** | Aktivní rekurzi |
+| Manipulátorovy odpovědi obsahují vždy **další referenci** | Strukturální regres |
+| Subjekt **nedokáže shrnout** manipulátorovu pozici v jedné větě | Erozi referenční kompetence |
+| Délka řetězce odkazů narůstá v čase | Stupňující se uzavření |
+
+## Neutralizace
+
+- **Pravidlo přímé odpovědi** — explicitní žádost o **konkrétní teze v jedné větě**, opakovaná, dokud nedostane.
+- **Vrácení k otázce** — návrat k původní formulaci po každém odkazu: "to chápu, ale otázka byla X".
+- **Časový limit na odpověď** — pokud konkrétní výstup nedorazí v krátkém čase, je to diagnosticky relevantní.
+
+## Klinický kontext
+
+Manifestuje se v ezoterických tradicích s "tajným věděním", v hyperintelektuálních kruzích, kde čtená literatura je sociálním kapitálem, v psychoterapeutických školách, jež se odmítají vyjadřovat operativně, a ve veřejných intelektuálních debatách, jež nahrazují argumenty citacemi. Diferenciálně se odlišuje od **legitimní hermeneutické kontextualizace** (která má vždy konkrétní výstup po několika krocích) tím, že referenční rekurze **nikdy** k výstupu nedorazí. Léčba: trénink na **operativní artikulaci** — schopnost převést jakoukoli teorii do testovatelného výroku.
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailni clanek**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Glossary**: [epistemicka-anihilace](/glossary/epistemicka-anihilace/), [ontologicka-anihilace](/glossary/ontologicka-anihilace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Detailní článek**: [EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)
+- **Sourozenecké techniky**: [EA-5.1.13 Hyperreflexivita](/kompendium/quick-reference/qr-ea-5-1-13/), [EA-5.1.21 Sebereferenční paradox](/kompendium/quick-reference/qr-ea-5-1-21/), [EA-5.1.23 Asymptotická dezintegrace](/kompendium/quick-reference/qr-ea-5-1-23/)
+- **Glossary**: [Hermeneutický kruh](/glossary/hermeneuticky-kruh/), [Infinitní regress](/glossary/infinitni-regress/), [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Operativní artikulace](/glossary/operativni-artikulace/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Operativní rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Platforma**: [Decision Engine reference graph](/hub/dd/decisions/), [Glossary canonical](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

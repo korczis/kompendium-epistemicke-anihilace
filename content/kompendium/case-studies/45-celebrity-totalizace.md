@@ -11,57 +11,82 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 45-celebrity-totalizace: Celebrity totalizace
+# Pripadova studie 45-celebrity-totalizace: Celebrity manazerska totalizace
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 45-celebrity-totalizace) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 45-celebrity-totalizace) byl mlady zpevak, ktery zacal hudebni karieru v 17 letech a získal národní popularitu v 19. Pred totalizaci vykazoval autenticky umelecky talent, prumernou vzdelaneckou připravu, a stabilni rodinne zazemi. Vstupni motivace kombinovala umeleckou vizi s touhou po publicím uznání.
+
+Rizikove faktory: mlady vek pri vstupu do prumyslu, financni zavislost na manažerovi, kultura "celebrity machine" s obrysem manazerske kontroly, a ztrata bezpecne vrstevnické sítě po stěhování do velkomesta. Subjekt nemel zkušenosti s ekonomickou samostatností.
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-6 | Podpis manažerske smlouvy, "totalní podpora", love-bombing |
+| **Perturbace** | mesice 7-18 | Plný kontrolní rezim — diary, image, kontakty, finance |
+| **Rekonfigurace** | roky 2-4 | Manažer = jediný stálý vztah, izolace od rodiny |
+| **Konsolidace** | roky 4-8 | Slava jako droga, somatizace, abuse latek |
+| **Exit / detekce** | rok 8+ | Akutni krize, externi konfrontace, právní spory |
+
+V inicialni fazi byl subjekt vsazen do manažerského kontextu kontroly s rámcem "totalní podpory". Manažer převzal organizaci diary, image, finance, kontakty. Tato faze byla rámcována jako "ulehčení", aby se subjekt mohl soustredit na umění.
+
+V perturbacni fazi se kontrola progresivně rozšiřovala — kdo s kým mluví, kdo s kým chodí, jak vypadá, co říká v rozhovorech. Romantické vztahy byly "rušivé pro karieru". Rodina byla rámcována jako "neprofesionální". Manažer se stal jediným kontextem dospelacké komunikace.
+
+Rekonfiguracni faze: subjekt internalizoval manažerův pohled jako vlastní. Komercni úspěch byl externe vysoky — alba, koncerty, ceny. Současně se zhroutil přirozený socialni svět. Manažer kontroloval sociální média, public statements, dokonce i terapeutické kontakty.
+
+Konsolidacni faze: substance abuse jako self-medikace, akutni úzkost před vystoupeními, eating disorder, sebevražedná ideace. Verejná persona bezvadná, soukromý svět rozpadlý.
+
+Exit byl iniciovan akutni krizí — overdose pri zahranicni mu turné. Hospitalizace v zahranicni a setkani s nezavislym terapeutem byly zlomove.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — manažer jako absolutní autorita
+- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrola informačního pole subjekta
+- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z propadu popularity
+- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — kazdá kritika manažera = "závist"
+- [EA-5.1.7 Referencni rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/) — public persona jako jedina dostupna reference vlastni identity
+- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "buď manažera poslouchaš, nebo končíš"
+- [EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/) — neschopnost přestat sledovat sám sebe externíma očima
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisoval: "Nevedel jsem, kdo jsem mimo pódium a Instagram. Nikdo mě roky nenazval mým jménem — vsichni říkali můj umělecký pseudonym. Když jsem si v zrcadle podíval bez make-upu, neznal jsem toho člověka."
+
+Tato narace odráží [identitni dezintegraci](/glossary/epistemicka-alienace/) v celebrity-specifické variantě — splynutí s public personou. Současně [metakognitivni destrukce](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat vlastní stav z vnější perspektivy.
+
+V pozdější fázi: "Manažer mi říkal, že mě miluje. Ale miloval verzi mě, kterou on vytvořil. Když jsem chtěl být sám sebou, řekl, že to není 'reálné'."
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Overdose v zahraniční. Hospitalizace iniciovala detekci. Klicovy moment: nezávislý terapeut bez vazeb na management identifikoval [c-PTSD](/glossary/c-ptsd/) s substance use disorder.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Detox, ukoncení manažerskeho vztahu, právní podpora.
+**S2 - Externi epistemicka kotva:** Kontakt s ne-celebritami, navrat k rodine.
+**S3 - Identitni rekonstrukce:** Hledani autentické identity mimo public personu.
+**S4 - Profesni rekontextualizace:** Návrat k hudbě bez manažerskeho mediátora, vlastní team.
+**S5 - Integrace:** Subjekt se stal obhájcem ochrany mladých umelcu před koercivními manažery.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 30 mesicich terapie funkcni stabilizace, restituce rodinnych vazeb, novy umelecký kontext. Reziduálni: hypervigilance ohledne medialní expozice, omezená důvěra k autoritám.
+
+## Klinicke pouceni
+
+Celebrity totalizace ukazuje koerci v industriálním kontextu prumyslu zábavy. Klinik musí rozpoznat, ze "celebrity burnout" maskuje hluboké [epistemicke trauma](/glossary/epistemicke-trauma/). Reformné implikace: ochrana mladých umelcu před koercivními manažerskými praktikami vyžaduje právní a profesní rámec.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
+- **Techniques**: [EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), [EA-5.1.7](/kompendium/techniques/ea-5-1-7-referencni-rekurze/), [EA-5.1.13](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

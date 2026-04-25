@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Credentialing attack ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Útok na formální oprávnění — "ten není MD, jen PhD", "to není akreditovaná instituce", "tu cenu udělila pochybná komise"
+2. Posun debaty z meritu argumentu na "kdo má právo to říct"; obsah se stává druhořadým
+3. Selektivní aplikace credentialingu — stejně kvalifikovaní spojenci nejsou napadáni, ačkoli mají identické formální zázemí
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Útok cílí konzistentně credential, nikdy obsah; subjekt nemůže odpovědět "ano, ale data ukazují...", protože debata je o legitimitě jeho hlasu
+- Asymetrická aplikace — stejný typ credentials je u jiných lidí (s preferovanými závěry) přijímán bez výhrad
+- Útočník nepovažuje credentialing za rozhodující v jiných kontextech — jen tam, kde to vyhovuje agendě
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Reframe na obsah — "i kdyby autor neměl žádné formální vzdělání, je tvrzení X pravdivé, ano či ne?"
+- Vystavení asymetrie — viditelně ukázat, že stejné credentials u jiných nejsou napadány; přesouvá náklad na útočníka
+- Multipl credential triangulace — k validaci najít experta s "neútočitelnými" credentials, ať je závěr stejný
+
+## Příklad
+
+Praktická lékařka s 25 lety zkušeností v terénu publikuje empirickou observaci. Akademický establishment ji zamítne s "není výzkumnice, je jen praktička". Stejný empirický pozorovací design u akademika by byl publikovatelný — útok je na credentials, nikoli na metodu.
 
 ## Cross-linky
 

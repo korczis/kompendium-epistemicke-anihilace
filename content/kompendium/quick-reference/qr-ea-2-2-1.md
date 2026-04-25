@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Mentor totalizace ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Mentor se etabluje jako jediný legitimní zdroj odborného posouzení mentee — referenční dopisy, granty, networking jsou pod jeho kontrolou
+2. Externí kontakty mentee jsou aktivně omezovány ("nestrácej čas s X", "ten obor je slepá ulička"); konference jen ty, kde mentor jezdí
+3. Mentee internalizuje mentor jako jediný kompas hodnocení — vlastní názor mizí, je nahrazen "co by říkal školitel"
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Mentee neumí formulovat nezávislou pozici — každý argument začíná "Profesor X tvrdí..."
+- Profesní síť mentee je téměř identická s mentorovou; chybějící peers v jiných subdoménách
+- Akutní krize, když mentor nesouhlasí — ne intelektuální, ale identitní ("nevím, co si o tom mám myslet")
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Externí ko-mentor — formálně přiřazený druhý odborník mimo přímou linii (z jiné instituce, jiné subdomény)
+- Strukturální peer support — pravidelná setkání s peers mimo lab, externí konference, výzkumné stáže
+- Vědomé psaní bez školitele — držet vlastní reflexivní deník; budovat hlas, který funguje, i když mentor mlčí
+
+## Příklad
+
+Doktorand v sedmém roce stále píše dizertaci, kterou školitel nepustí dál. Návrhy posunout obhajobu nejsou možné, protože "není připraven". Po smrti školitele zjišťuje, že měl plně publikovatelnou práci od roku tři — a žádnou identitu mimo "doktorand profesora X".
 
 ## Cross-linky
 

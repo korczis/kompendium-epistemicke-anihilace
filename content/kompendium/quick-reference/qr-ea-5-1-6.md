@@ -13,35 +13,61 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.6 Kategoricka transgrese
+# QR Card — EA-5.1.6 Kategorická transgrese
 
-> WARNING: Pristupova uroven L3. Tato karta poskytuje pouze prehled.
+> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Domena**: Epistemicka singularita — destrukce fundamentalni schopnosti reflektovat vlastni poznani.
+**Doména**: Epistemická singularita — narušení Aristotelových/Kantových kategoriálních hranic, jež subjekt používá k organizaci zkušenosti.
 
-## Klicovy mechanismus
+## Definice
 
-Systematicka exploitace strukturalni vulnerability epistemickeho aparatu vedouci k Kategoricka transgrese.
+**Kategorická transgrese** je technika, při níž manipulátor systematicky **překračuje a destabilizuje hranice kategorií**, na nichž subjekt staví orientaci ve světě (subjekt vs. objekt, příčina vs. následek, věc vs. vlastnost, fakt vs. hodnota, podstata vs. akcident). Útoky operují na **kategoriálním aparátu**, nikoli na konkrétních obsazích — subjektova schopnost rozhodnout, "co je to za druh věci", se eroduje. V terminálním stadiu subjekt přestává rozlišovat *kategoriální typy* zkušenosti (událost vs. trvalý stav, fyzická vs. psychická skutečnost, intencionalita vs. kauzalita), což znemožňuje formulovat smysluplnou interpretaci. Strukturálně připomíná ryle-ovskou *category mistake*, ale kultivovanou jako diskurzivní zbraň.
 
-## Indikatory
+## Operační modus (5 kroků)
 
-- Subjekt prozivá kvalitativni posun ve strukture poznavani
-- Standardni kognitivni intervence ztraceji ucinnost
-- Indikatory pokrocile faze [epistemicke anihilace](/glossary/epistemicka-anihilace/)
+1. **Identifikace kategoriální infrastruktury** — manipulátor mapuje, jaké základní typové distinkce subjekt používá ("to je zase něco jiného než…").
+2. **Smíšené predikace** — výroky atribuující vlastnost jedné kategorie objektům z jiné ("tvoje rozhodnutí je vlhké", "tvůj úmysl je nezralý jako fyzický předmět").
+3. **Kategoriální slipping** — opakovaný přechod mezi úrovněmi (deskriptivní výrok přechází bez upozornění do morálního, pak do estetického).
+4. **Hyperabstrakce / hyperkonkretizace** — abstraktní pojmy reifikované jako objekty, konkrétní situace prezentované jako abstraktní principy.
+5. **Kategoriální vakuum** — subjekt přestává mít k dispozici typové rozlišení, prožívá svět jako "směs všeho se vším".
 
-## Klinicka odpoved
+## Fenomenologické znaky
 
-1. Stabilizacni kotvy
-2. Externi epistemicka validace
-3. Postupna rekonstrukce — viz [Sekce 06](/kompendium/06-klinicke-aplikace/)
+| Znak | Popis |
+|------|-------|
+| **Typová dezorientace** | "Nevím, jestli je to o tom, co dělám, nebo kdo jsem" |
+| **Synestetická konfuze** | Mísení smyslových modalit ve formulacích zkušenosti |
+| **Hodnotová imploze** | Faktické a normativní výroky se v zážitku slévají |
+| **Strukturální chaos** | Neschopnost identifikovat, co je předmětem debaty |
+
+## Detekční markery
+
+| Marker | Indikuje |
+|--------|----------|
+| Manipulátor systematicky používá **adjektiva napříč kategoriemi** | Aktivní transgresi |
+| Subjekt nedokáže odpovědět na otázku "o čem mluvíme — o faktu, hodnotě, nebo zkušenosti?" | Erozi typového aparátu |
+| Smíšené výroky ("tvoje láska je málo argumentovaná") | Kategoriální chaos |
+| Subjekt přestává **klasifikovat** problémy do typů | Strukturální poškození |
+
+## Neutralizace
+
+- **Explicitní typové značení** — před každým výrokem identifikovat: "toto je deskriptivní/normativní/estetický výrok".
+- **Aristotelská retabulace** — návrat k základnímu rozlišení: substance, kvalita, kvantita, vztah, místo, čas, poloha, držení, akce, trpění.
+- **Externí kategoriální audit** — kolega s filosofickou erudicí mapuje, kde se v debatě transgrese odehrávají.
+
+## Klinický kontext
+
+Kategorická transgrese se vyskytuje v sektách s gnostickým holismem ("vše je spojeno"), v některých formách psychoterapie, jež reifikují metafory ("tvoje úzkost je toxická látka"), v intelektuálním diskurzu, který směšuje deskriptivní a normativní úrovně, a ve veřejné komunikaci, kde fakta a hodnoty splývají do morální paniky. Diferenciálně se odlišuje od **legitimní mezikategoriální analogie** (která je explicitně označena jako analogie a má heuristickou funkci) — transgrese predikuje **doslovně** napříč kategoriemi.
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailni clanek**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Glossary**: [epistemicka-anihilace](/glossary/epistemicka-anihilace/), [ontologicka-anihilace](/glossary/ontologicka-anihilace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Detailní článek**: [EA-5.1.6 Kategorická transgrese](/kompendium/techniques/ea-5-1-6-kategoricka-transgrese/)
+- **Sourozenecké techniky**: [EA-5.1.5 Logická diskontinuita](/kompendium/quick-reference/qr-ea-5-1-5/), [EA-5.1.11 Modální dezorientace](/kompendium/quick-reference/qr-ea-5-1-11/), [EA-5.1.12 Kauzální inverze](/kompendium/quick-reference/qr-ea-5-1-12/)
+- **Glossary**: [Category mistake](/glossary/category-mistake/), [Aristotelovy kategorie](/glossary/aristotelovy-kategorie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Kategoriální rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Platforma**: [NABLA Infinity typové vrstvy](/glossary/nabla-infinity/), [Decision Engine kategoriální schémata](/hub/dd/decisions/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

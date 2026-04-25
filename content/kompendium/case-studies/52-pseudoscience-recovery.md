@@ -1,6 +1,6 @@
 +++
-title = "Pripad 52-pseudoscience-recovery: Pseudoscience recovery"
-description = "Anonymizovana pripadova studie — Pseudoscience recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Pripad 52-pseudoscience-recovery: Pseudoveda recovery"
+description = "Anonymizovana pripadova studie — Pseudoveda. EA techniky, fenomenologicky kurz, intervence, vysledek."
 weight = 52
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
@@ -11,57 +11,80 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 52-pseudoscience-recovery: Pseudoscience recovery
+# Pripadova studie 52-pseudoscience-recovery: Zotaveni z pseudovedeckeho kontextu
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 52-pseudoscience-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 52-pseudoscience-recovery) byl muz ve veku 45 let s technickým vzděláním (inženýrství), který se postupně ponořil do pseudo-vědeckých teorií (volná energie, antigravitace, "potlačené" technologie). Před totalizací vykazoval kompetentní techniku, vystudoval ČVUT, a stabilní rodinné zázemí. Vstupní motivace: technologický idealismus a zájem o "alternativní" vysvětlení.
+
+Rizikové faktory: technicistní mindset bez metodologické pokory, kombinace skutečné technické kompetence a slabé filozofie vědy, dispoziční tendence k konspiračnímu myšlení, a online ekosystém pseudo-vědeckého content.
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-6 | YouTube kanály o "potlačených" technologiích |
+| **Perturbace** | mesice 7-18 | Komunity "free energy", domácí pokusy |
+| **Rekonfigurace** | roky 1-3 | Kompletní anti-konsensuální postoj k vědě |
+| **Konsolidace** | roky 3-7 | Odchod z práce na "vlastní výzkum", finanční kolaps |
+| **Exit / detekce** | rok 7+ | Akutní krize, externi konfrontace |
+
+V inicialni fazi byl subjekt přitažen YouTube kanály prezentujícími "potlačené" technologie. Algoritmus posiloval vystavení podobnému contentu. Tato faze měla kvalitu intelektuálního hobby.
+
+V perturbacni fazi se prohlubovalo zapojení. Subjekt se připojil k online komunitám "free energy", začal dělat domácí pokusy s magnetickými motory. Každý neúspěch byl ramcován jako "tlumení" nebo "chybějící klíč".
+
+Rekonfiguracni faze: kompletní anti-konsensuální postoj k vědě. Mainstream fyzika = "Einsteinovský dogma". Akademická obec = "establishment chrání staré paradigma". Vlastní výzkum = "svobodná věda".
+
+Konsolidacni faze: subjekt opustil zaměstnání pro "plný výzkum". Investoval rodinné úspory do neúčinných zařízení. Rodinné napětí eskalovalo. Profesní reputace v technické komunitě se zhroutila.
+
+Exit byl iniciovan finanční krizí (rodina na hraně bankrotu) a manželkou, která hrozila rozvodem. Hospitalizace pro depresi byla zlomovou.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — útoky na akademické kredence
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "skalární vlny", "torsion fields" jako vědecky znějící termíny
+- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — neúspěch experimentu = "stínová věda interferuje"
+- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické filtrování posilující content
+- [EA-5.1.5 Logicka diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/) — nezdrženlivá kombinace vědeckých termínů
+- [EA-1.2.3 Iluzorni komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) — pseudo-matematicky aparát
+- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — online komunity "free energy" jako pseudo-recenzent
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisoval: "Když mi inženýr ze starého zaměstnání ukázal základní rovnice termodynamiky, věděl jsem to vždy. Měl jsem doktorát z toho. Ale roky jsem to popíral. Někde mezi mnou a fyzikou bylo zrcadlo, které mě přesvědčovalo, že vidím něco jiného. Jak je možné, že jsem si nevšiml?"
+
+Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat vlastní epistemickou degradaci přes formální vzdělání.
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Finanční krize a hrozba rozvodu. Klicovy moment: psychiatr identifikoval depresi v kombinaci s konspiračním myšlením a navrhl strukturovanou rekonstrukci.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Hospitalizace pro depresi, finanční stabilizace.
+**S2 - Externi epistemicka kotva:** Kontakt s bývalými technickými kolegy, vědecká literatura.
+**S3 - Epistemicka rekonstrukce:** Práce na metodologii vědy, falsifikovatelnost, peer review.
+**S4 - Profesni rekontextualizace:** Návrat k práci v oblasti, kde technické znalosti zustaly intaktní.
+**S5 - Integrace:** Subjekt přispěl k diskusi o pseudo-vědeckých rizicích.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 24 měsících terapie funkční stabilizace. Restituce profesní role, manželství zachráněno (s mediací), finanční rehabilitace probíhající. Reziduální: studá za roky ztrácené, opatrnost vůči alternativním teoriím.
+
+## Klinicke pouceni
+
+Pseudoveda recovery ukazuje, že vysoké formální vzdělání není ochrana proti epistemické dezintegraci. Klinik musí pracovat s metodologií vědy, ne jen s "fakty". Konfrontace fakty bez procesní práce není účinná. Reformně: filozofie vědy by měla být součástí technického vzdělání.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [epistemic-bubble](/glossary/epistemic-bubble/)
+- **Techniques**: [EA-2.1.3](/kompendium/techniques/ea-2-1-3-credentialing-attack/), [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-5.1.5](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

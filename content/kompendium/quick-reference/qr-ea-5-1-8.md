@@ -13,35 +13,61 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.8 Konceptualni fragmentace
+# QR Card — EA-5.1.8 Konceptuální fragmentace
 
-> WARNING: Pristupova uroven L3. Tato karta poskytuje pouze prehled.
+> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Domena**: Epistemicka singularita — destrukce fundamentalni schopnosti reflektovat vlastni poznani.
+**Doména**: Epistemická singularita — rozštěpení integrovaného konceptu na nesouvisející fragmenty, jež subjekt nedokáže znovu sloučit.
 
-## Klicovy mechanismus
+## Definice
 
-Systematicka exploitace strukturalni vulnerability epistemickeho aparatu vedouci k Konceptualni fragmentace.
+**Konceptuální fragmentace** rozštěpí jednotný pojem subjektu na **nesouvisející části**, z nichž každá je legitimní, ale celek se rozpadá. Na rozdíl od konceptuální nihilace (která pojem ruší) fragmentace **zachovává** všechny prvky, ale **odstraňuje strukturální vazby** mezi nimi. Subjekt se ocitá ve stavu, v němž "víš všechno o lásce, ale nedokážeš lásku poznat", "rozumíš odpovědnosti po částech, ale celek se rozpadá při pokusu jednat". Strukturálně je technika modelovatelná jako *graph cut*: koncept = graf, kde uzly přežijí, ale hrany jsou rozříznuty. V terminálním stadiu nastává *integrative collapse* — subjekt nemůže provést jednotnou akci, protože nedokáže pojem-celek udržet.
 
-## Indikatory
+## Operační modus (5 kroků)
 
-- Subjekt prozivá kvalitativni posun ve strukture poznavani
-- Standardni kognitivni intervence ztraceji ucinnost
-- Indikatory pokrocile faze [epistemicke anihilace](/glossary/epistemicka-anihilace/)
+1. **Mapování konceptuálního pole** — manipulátor identifikuje strukturální komponenty pojmu (důvěra = předvídatelnost + spolehlivost + dobrá vůle + transparentnost).
+2. **Postupné izolování komponent** — každá komponenta je zvlášť zpochybněna nebo redefinována.
+3. **Anti-syntéza** — návrh na "sjednocení" je systematicky blokován ("ale to není totéž!").
+4. **Komparativní rozštěp** — komponenty jsou prezentovány jako vzájemně neslučitelné ("buď chceš spolehlivost, nebo dobrou vůli").
+5. **Integrativní paralýza** — subjekt přestává pojem aplikovat v praxi, protože nedokáže komponenty složit.
 
-## Klinicka odpoved
+## Fenomenologické znaky
 
-1. Stabilizacni kotvy
-2. Externi epistemicka validace
-3. Postupna rekonstrukce — viz [Sekce 06](/kompendium/06-klinicke-aplikace/)
+| Znak | Popis |
+|------|-------|
+| **Atomizační únava** | "Vidím všechny části, ale nevím, jak to dohromady patří" |
+| **Akční paralýza** | Neschopnost jednat z konceptu, který se rozpadá při aplikaci |
+| **Komponentní hypertrofie** | Excesivní pozornost k detailům, ztráta celku |
+| **Strach z aplikace** | Pojem je v hlavě, ale "nedá se s ním pracovat" |
+
+## Detekční markery
+
+| Marker | Indikuje |
+|--------|----------|
+| Subjekt **artikuluje komponenty**, ale neudrží je v jedné větě | Aktivní fragmentaci |
+| Manipulátor odmítá **integrativní pojetí** ("to je naivní") | Anti-syntézu |
+| Při pokusu jednat z pojmu subjekt **váhá** | Integrativní paralýzu |
+| Časem narůstá **počet komponent**, klesá akční výstup | Stupňující se rozštěp |
+
+## Neutralizace
+
+- **Praktická resyntéza** — opakovaná akce, jež vyžaduje aplikaci celého pojmu, bez možnosti rozkladu.
+- **Příkladová kotva** — kanonický příklad, v němž pojem funguje jako celek (oprava traktoru jako příklad celostní kompetence).
+- **Komunita praxe** — sdílená praxe, kde celostní pojem je nutný k participaci.
+
+## Klinický kontext
+
+Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež "operacionalizují" vše do měřitelných subkomponent (čímž rozkládají integrativní pojmy ctnosti, vztahu, péče), v některých formách kognitivně-behaviorální terapie, jež dělí emoce na komponenty bez rekonstrukce, a v korporátních prostředích, kde "kompetence" jsou rozštěpeny do KPI matrice. Diferenciálně se odlišuje od **legitimní analytické dekompozice** (která vždy předpokládá rekonstrukci celku) — fragmentace **neumí** komponenty složit zpět.
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailni clanek**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Glossary**: [epistemicka-anihilace](/glossary/epistemicka-anihilace/), [ontologicka-anihilace](/glossary/ontologicka-anihilace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Detailní článek**: [EA-5.1.8 Konceptuální fragmentace](/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace/)
+- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](/kompendium/quick-reference/qr-ea-5-1-2/), [EA-5.1.20 Holografická redukce](/kompendium/quick-reference/qr-ea-5-1-20/), [EA-5.1.30 Konceptuální entropie](/kompendium/quick-reference/qr-ea-5-1-30/)
+- **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Integrative collapse](/glossary/integrative-collapse/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Konceptuální rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Platforma**: [Decision Engine concept graph](/hub/dd/decisions/), [NABLA Infinity integrace](/glossary/nabla-infinity/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

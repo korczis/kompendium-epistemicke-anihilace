@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Generování datového objemu mnohonásobně přesahujícího kapacitu pracovní paměti (stovky stran, desítky tabulek, redundantní reporting)
+2. Vynucení časového pressu (deadline, hlasování, ASAP review) eliminujícího hloubkové zpracování
+3. Skrytí kritických anomálií v rutinním šumu — sporné položky vloženy mezi banální údaje na okraji rozsáhlého dokumentu
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Disproporce mezi délkou materiálu a objemem skutečné nové informace (signal-to-noise extrémně nízký)
+- Subjekt formuluje rozhodnutí frází "asi je to v pořádku, neměl jsem čas projít všechno"
+- Klíčové údaje (čísla, klauzule, výjimky) jsou systematicky umístěny v sekcích nejméně pravděpodobně čtených (přílohy, footnotes, str. 200+)
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Mandátní executive summary s explicitním listem rizikových bodů + sankce za jeho nepřítomnost
+- Strukturální slowdown — odložit rozhodnutí o předem definovanou dobu úměrnou objemu materiálu (např. 1 den / 50 stran)
+- Diferenciální čtení — paralelně tři čtenáři s různými mandáty (právní/finanční/operační), porovnání nálezů
+
+## Příklad
+
+Investor dostane 800 stran dataroom dokumentů 48 hodin před uzávěrkou nabídky. Klauzule o earn-out, která snižuje kupní cenu o 30 % při minoru revenue dipu, je na str. 612 v sekci "Definitions, schedule C-7".
 
 ## Cross-linky
 

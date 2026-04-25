@@ -17,21 +17,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Etablování rámce / role / baseline
-2. Strategická aplikace techniky
-3. Konsolidace skrze opakovanou expozici
+1. Etablování role legitimního kurátora (lektor, recenzent, algoritmus) přijatelného pro subjekt
+2. Vyvážená co do objemu, nevyvážená co do směru — vynechání alternativních autorit, metodologických kritik a divergentních závěrů
+3. Prezentace filtrovaného výběru jako "kompletního přehledu" + odrazování od externího vyhledávání ("internet je šum, drž se etablovaných")
 
 ## Detekční markery (3 nejvýraznější)
 
-- Disproporce mezi povrchovou prezentací a skutečnou strukturou
-- Resistence vůči metakognitivnímu zpochybnění
-- Asymetrické reakce subjektu (pohodlí pri souhlasu, distres při nesouhlasu)
+- Subjekt opakovaně cituje stále stejný úzký okruh autorit; klíčoví autoři protipozice jsou mu jmenovitě neznámí
+- Pocit informovanosti disproporční vůči rozsahu skutečně exponovaných materiálů ("epistemická saturace")
+- Implicitní mapa pole strukturovaná jako "etablované jádro vs. okrajové, problematické" — bez schopnosti tuto hranici operacionalizovat
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Explicitní pojmenování techniky (meta-úroveň přerušuje vzorec)
-- Externí epistemická triangulace (multiple nezávislé zdroje)
-- Strukturální separace od kontextu (písemně, časový buffer)
+- Aktivní vyhledávání jmen zcela neznámých autorit a jejich primární četba (před komentáři kurátora)
+- Triangulace skrze tři nezávislé kurátorské systémy s různými incentivy (akademie/praxe/aktivismus)
+- Audit citačního grafu — kdo cituje koho, kdo NENÍ citován, kdo zmizel z bibliografie mezi vydáními
+
+## Příklad
+
+Doktorand dostane od školitele "kompletní reading list" z 40 položek pro dizertaci. Po dvou letech zjistí, že tři klíčové školy (každá s desítkami publikací) na seznamu chybí — a školitel s nimi vede dlouhodobý spor o priority objevu.
 
 ## Cross-linky
 

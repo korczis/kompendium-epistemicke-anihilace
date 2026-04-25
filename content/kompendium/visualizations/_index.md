@@ -1,6 +1,6 @@
 +++
 title = "Interaktivní vizualizace"
-description = "Klikatelné Chart.js / Three.js / p5.js vizualizace EA taxonomie — distribuce, severity matrix, 3D graph technik, recovery trajectory, simulace epistemické dezintegrace, simulace narušení pozornosti."
+description = "Klikatelné Chart.js / Three.js / p5.js vizualizace EA taxonomie — distribuce, severity matrix, 3D graph technik, recovery trajectory, fenomenologická timeline, 2D síť, rekurzivní spirála, NABLA pipeline, simulace epistemické dezintegrace, simulace narušení pozornosti."
 weight = 90
 sort_by = "weight"
 template = "section.html"
@@ -17,7 +17,7 @@ parent = "kompendium"
 
 # Interaktivní vizualizace EA taxonomie
 
-Šest klikatelných vizualizací umožňujících interaktivní průchod taxonomií [epistemické a kognitivní anihilace](/glossary/epistemicka-anihilace/). Každá vizualizace načítá data ze zveřejněných článků kompendia a propojuje vás přímo do [techniques podknihovny](/kompendium/techniques/).
+Deset klikatelných vizualizací umožňujících interaktivní průchod taxonomií [epistemické a kognitivní anihilace](/glossary/epistemicka-anihilace/). Každá vizualizace načítá data ze zveřejněných článků kompendia a propojuje vás přímo do [techniques podknihovny](/kompendium/techniques/).
 
 ## 1. Distribuce technik napříč kategoriemi (Chart.js)
 
@@ -71,6 +71,38 @@ Demonstrace [EA-1.1.2 informačního přetížení](/kompendium/techniques/ea-1-
 <input id="attention-rate" type="range" min="0.1" max="5" step="0.1" value="1" class="w-full mt-2">
 <p class="text-slate-400 text-sm mt-1">Tempo informačního streamu (0.1 = pomalé, 5 = přetížení)</p>
 <script src="/js/kompendium/attention-disruption-sim.js"></script>
+
+## 7. Fenomenologická timeline symptomů (Chart.js)
+
+Scatter chart s pěti symptomovými stopami (úzkost, depersonalizace, epistemická nejistota, somatická tíseň, konfuze identity) napříč 0–60 měsíci EA expozice. Klikněte na bod pro popis fenoménu v dané fázi.
+
+<canvas id="phenomenology-timeline" width="800" height="500"></canvas>
+<div id="phenomenology-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/phenomenology-timeline-chart.js"></script>
+
+## 8. 2D síť EA technik (Chart.js)
+
+Statická 2D síť ~30 reprezentativních technik se vztahy. Klikněte na uzel — zvýrazní sousední techniky a vypíše seznam.
+
+<canvas id="ea-network-2d" width="800" height="600"></canvas>
+<div id="ea-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/ea-network-2d.js"></script>
+
+## 9. Rekurzivní spirála myšlení (p5.js)
+
+Vizualizace [hyperreflexivity (EA-5.1.13)](/kompendium/techniques/) a [referenční rekurze (EA-5.1.7)](/kompendium/techniques/). Spirálové dráhy se s rostoucí hloubkou rekurze fragmentují. Pohněte myší vertikálně — nahoru = hlubší rekurze → paralýza.
+
+<div id="recursive-thought-spiral"></div>
+<p class="text-slate-400 text-sm mt-1">Pohni myší: vertikální poloha řídí hloubku rekurze (1–12). Nad 9 = metakognitivní paralýza.</p>
+<script src="/js/kompendium/recursive-thought-spiral.js"></script>
+
+## 10. NABLA Infinity 16-úrovňová pipeline (Three.js)
+
+3D vizualizace [NABLA Infinity](/glossary/nabla-infinity/) epistemické pipeline: 16 stackovaných transparentních prstenců (L0 senzorický vstup → L15 akce/výstup). Animované částice ukazují tok dat mezi úrovněmi. Klikněte na prstenec pro detail úrovně.
+
+<div id="nabla-pipeline-viz" style="width:100%; height:600px; background:#0f172a; border-radius:8px;"></div>
+<div id="nabla-pipeline-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/nabla-pipeline-viz.js"></script>
 
 ## Související
 

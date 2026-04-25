@@ -13,35 +13,61 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.5 Logicka diskontinuita
+# QR Card — EA-5.1.5 Logická diskontinuita
 
-> WARNING: Pristupova uroven L3. Tato karta poskytuje pouze prehled.
+> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Domena**: Epistemicka singularita — destrukce fundamentalni schopnosti reflektovat vlastni poznani.
+**Doména**: Epistemická singularita — destrukce subjektovy schopnosti udržet logickou koherenci napříč diskurzem.
 
-## Klicovy mechanismus
+## Definice
 
-Systematicka exploitace strukturalni vulnerability epistemickeho aparatu vedouci k Logicka diskontinuita.
+**Logická diskontinuita** je technika opakovaného **přerušování logických řetězců** subjektu nesouvislými, nesouměřitelnými nebo retroaktivně přerámovanými výroky, dokud subjekt přestane prožívat logickou koherenci jako přístupný cíl. Manipulátor systematicky vkládá *non sequitur*, retroaktivně mění premisy, vyměňuje úrovně diskurzu (deskriptivní → normativní → estetický) bez signalizace a používá *informal moves* jako "ale to je úplně jiné", aniž by ozřejmil rozdíl. Subjekt v terminálním stadiu přestává argumentovat — logika přestala být použitelným nástrojem orientace v jeho doméně. Strukturálně blízké *gish gallop* a Frankfurtově *bullshit*, ale specificky cílené na logický aparát.
 
-## Indikatory
+## Operační modus (5 kroků)
 
-- Subjekt prozivá kvalitativni posun ve strukture poznavani
-- Standardni kognitivni intervence ztraceji ucinnost
-- Indikatory pokrocile faze [epistemicke anihilace](/glossary/epistemicka-anihilace/)
+1. **Akceptace premisy** — manipulátor v debatě převzata subjektovu premisu jako sdílenou.
+2. **Skok napříč úrovněmi** — odpověď je formulována na úrovni, která **není navazující** (deskriptivní otázka → normativní odpověď, faktická otázka → emocionální výtka).
+3. **Retroaktivní revize premis** — když subjekt poukáže na nesouvislost, manipulátor "ale jsem nemyslel/a, že…" mění premisu zpětně.
+4. **Multiplikace os debaty** — místo jedné koherentní disputace pět paralelních témat, každá s vlastní (ne)logikou.
+5. **Vyhasnutí logické iniciativy** — subjekt přestává argumentovat, přijímá závěr "není to o logice".
 
-## Klinicka odpoved
+## Fenomenologické znaky
 
-1. Stabilizacni kotvy
-2. Externi epistemicka validace
-3. Postupna rekonstrukce — viz [Sekce 06](/kompendium/06-klinicke-aplikace/)
+| Znak | Popis |
+|------|-------|
+| **Argumentační vyhoření** | "Už mě nebaví o tom mluvit, vždycky to skončí stejně" |
+| **Pocit ztracenosti v debatě** | Neschopnost rekonstruovat, kde se debata odchýlila |
+| **Retroaktivní zmatek** | Vzpomínka na vlastní výrok není v souladu s manipulátorovou rekonstrukcí |
+| **Logická abstinence** | Subjekt přestává v dané doméně formulovat argumenty |
+
+## Detekční markery
+
+| Marker | Indikuje |
+|--------|----------|
+| V transkriptu debaty se **úroveň diskurzu** mění bez signalizace | Aktivní logickou diskontinuitu |
+| Manipulátor **revaluje premisy** retroaktivně | Logickou inverzi |
+| Subjekt přechází z argumentu na **emocionální stížnost** | Vyhasnutí logické iniciativy |
+| **Délka koherentní debaty** klesá v čase | Strukturální poškození argumentační kapacity |
+
+## Neutralizace
+
+- **Záznam a strukturální analýza** — debata zaznamenána a *post hoc* mapována jako graf, kde uzly jsou výroky a hrany logické vztahy; diskontinuity se okamžitě odhalí.
+- **Pravidla angažmá** — explicitní dohoda o úrovni diskurzu před každou diskuzí; změna úrovně musí být explicitně signalizovaná.
+- **Externí logický rozhodčí** — třetí strana s autoritou vyhodnocovat logickou koherenci výroků.
+
+## Klinický kontext
+
+Manifestuje se nejvýrazněji v rodinných systémech s **gaslightingem**, ve vysoce konfliktních pracovních prostředích (toxic workplace), v intelektuálních debatách s narcistickou strukturou a ve veřejné komunikaci politické manipulace. Diferenciálně se odlišuje od *legitimní změny perspektivy* (která je explicitně signalizovaná a argumentačně motivovaná) a od *kreativního rozšíření tématu* (které logiku původní debaty respektuje). Léčba: explicitní trénink **strukturální argumentace** (Toulmin model, formální logika).
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailni clanek**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Glossary**: [epistemicka-anihilace](/glossary/epistemicka-anihilace/), [ontologicka-anihilace](/glossary/ontologicka-anihilace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Detailní článek**: [EA-5.1.5 Logická diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)
+- **Sourozenecké techniky**: [EA-5.1.4 Sémantická imploze](/kompendium/quick-reference/qr-ea-5-1-4/), [EA-5.1.16 Inferenční paralýza](/kompendium/quick-reference/qr-ea-5-1-16/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
+- **Glossary**: [Gaslighting](/glossary/gaslighting/), [Gish gallop](/glossary/gish-gallop/), [Logická koherence](/glossary/logicka-koherence/), [Toulmin model](/glossary/toulmin-model/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Argumentační rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Platforma**: [Decision Engine reasoning trace](/hub/dd/decisions/), [NABLA Infinity logické vrstvy](/glossary/nabla-infinity/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

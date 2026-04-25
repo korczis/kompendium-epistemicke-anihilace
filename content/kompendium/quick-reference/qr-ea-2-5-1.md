@@ -17,21 +17,27 @@ toc = false
 
 **Doména**: Delegitimizace — systematické podkopávání epistemické autority subjektu.
 
-## Mechanismus
+## Operační modus (3 kroky)
 
-Aplikace techniky Pseudo-pokora ve specifickém kontextu vedoucí k delegitimizaci cíle.
+1. Subjekt po dlouhodobé delegitimizaci internalizuje narativ o vlastní nedostatečnosti — "skutečně, asi nemám právo to říkat"
+2. Pseudo-pokora vystupuje jako morální ctnost ("nejsem tak chytrý jako oni"), ale strukturálně je to autosabotáž
+3. Komunita pokoru oceňuje, čímž ji posiluje; subjekt si "kupuje" sociální legitimitu cenou ztráty epistemické agentury
 
-## Indikatory
+## Detekční markery (3 nejvýraznější)
 
-- Pokles důvěryhodnosti subjektu v percepci klíčových publik
-- Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Subjekt opakovaně předem znevažuje vlastní příspěvky ("toto je možná hloupá otázka...", "asi to víte líp...")
+- Po jasném vlastním uspěchu připisuje zásluhy ostatním ("měla jsem štěstí", "kolegové mě nesli")
+- Akutní úzkost při situaci, kdy musí prezentovat sebe jako autoritu (přednáška, oponentura) — i při plné kompetenci
 
-## Neutralizace
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Externí validace skrze nezávislé komunity
-2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+- Strukturovaný self-assessment založený na datech (publikace, citace, výsledky) místo dojmů; konfrontace s realitou
+- Mentor / coach mimo původní hierarchii, který explicitně rozlišuje "skutečnou skromnost" a "internalized delegitimization"
+- Cvičení "neshrnujte se" — tréninková situace, ve které je zakázáno snižovat vlastní příspěvek po dobu definovaného období
+
+## Příklad
+
+Postdoktorandka po pěti letech v laboratoři, kde její nápady byly pravidelně přejímány bez kreditu, na konferenci uvádí svou prezentaci slovy "tohle je opravdu malá observace, asi to už dávno víte". Publikum to bere doslovně. Reálně jde o originální nález, který za rok publikuje jiná skupina jako svůj.
 
 ## Cross-linky
 

@@ -81,6 +81,18 @@ Všechny technique-články dodržují stejnou strukturu:
 | **EA-1.5.1** | [Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) | ✓ |
 | **EA-1.5.2** | [Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/) | ✓ |
 
+### Kapitola 2 — Akademické a profesionální delegitimizace
+
+#### 2.1 Atak na expertní status
+
+| EA | Technika | Stav |
+|----|----------|------|
+| **EA-2.1.1** | [Expertní disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/) | ✓ |
+| **EA-2.1.2** | [Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) | ✓ |
+| **EA-2.1.3** | [Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) | ✓ |
+
+> **Pozn.** EA-2.2.\*–2.5.\* jsou popsány v narativní formě uvnitř [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/). Plné per-technique články jsou v přípravě.
+
 ### Kapitola 5 — Ultramární techniky fundamentální dekonstrukce
 
 > 🚨 **Přístupová úroveň L3–L4**. Per-technique články pro Sekci 05 jsou publikovány postupně. Kapitoly 6 (5.1.\*) a 7 (5.2.\*) mají publikované hloubkové články; ostatní jsou v narativní formě uvnitř kapitol 8–10.
@@ -143,11 +155,83 @@ EA-5.3.1 — 5.3.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapi
 
 #### 5.4 Paradoxální metaanihilační protokoly (Kapitola 9)
 
-EA-5.4.1 — 5.4.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapitoly 9](/kompendium/05-ultramari-techniky/kapitola-9/). Plné per-technique články jsou v přípravě.
+> ✓ **Kompletní 60/60**: Všech 60 paradoxálních protokolů má hloubkové per-technique články.
+
+| EA | Technika | Stav |
+|----|----------|------|
+| **EA-5.4.1** | [Lhářský paradox — aplikace](/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace/) | ✓ |
+| **EA-5.4.2** | [Russell — typová violace](/kompendium/techniques/ea-5-4-2-russell-typ-violace/) | ✓ |
+| **EA-5.4.3** | [Tarský — diagonalizace](/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace/) | ✓ |
+| **EA-5.4.4** | [Gödel — reflexivita](/kompendium/techniques/ea-5-4-4-godel-reflexivita/) | ✓ |
+| **EA-5.4.5** | [Wittgenstein — pravidlo-rozklad](/kompendium/techniques/ea-5-4-5-wittgenstein-pravidlo-rozklad/) | ✓ |
+| **EA-5.4.6** | [Konvergentní paradox](/kompendium/techniques/ea-5-4-6-konvergentni-paradox/) | ✓ |
+| **EA-5.4.7** | [Epimenidovská implantace](/kompendium/techniques/ea-5-4-7-epimenidovska-implantace/) | ✓ |
+| **EA-5.4.8** | [Quineho paradox vlnoviny](/kompendium/techniques/ea-5-4-8-quineho-paradox-vlnoviny/) | ✓ |
+| **EA-5.4.9** | [Cantorova diagonalizace — aplikace](/kompendium/techniques/ea-5-4-9-cantorova-diagonalizace-aplikace/) | ✓ |
+| **EA-5.4.10** | [Berry paradox — implantace](/kompendium/techniques/ea-5-4-10-berry-paradox-implantace/) | ✓ |
+| **EA-5.4.11** | [Richardova paradox — zneužití](/kompendium/techniques/ea-5-4-11-richardova-paradox-zneuziti/) | ✓ |
+| **EA-5.4.12** | [Grellingova paradox — aplikace](/kompendium/techniques/ea-5-4-12-grellingova-paradox-aplikace/) | ✓ |
+| **EA-5.4.13** | [Heterolog — self-aplikace](/kompendium/techniques/ea-5-4-13-heterolog-self-aplikace/) | ✓ |
+| **EA-5.4.14** | [Iliada paradox](/kompendium/techniques/ea-5-4-14-iliada-paradox/) | ✓ |
+| **EA-5.4.15** | [Holistická self-reference — zhroucení](/kompendium/techniques/ea-5-4-15-holisticka-self-reference-zhrouceni/) | ✓ |
+| **EA-5.4.16** | [Kruhové definice — implantace](/kompendium/techniques/ea-5-4-16-kruhove-definice-implantace/) | ✓ |
+| **EA-5.4.17** | [Infinit regres — implantace](/kompendium/techniques/ea-5-4-17-infinit-regres-implantace/) | ✓ |
+| **EA-5.4.18** | [Circular justification trap](/kompendium/techniques/ea-5-4-18-circular-justification-trap/) | ✓ |
+| **EA-5.4.19** | [Self-undermining claim](/kompendium/techniques/ea-5-4-19-self-undermining-claim/) | ✓ |
+| **EA-5.4.20** | [Performative contradiction induction](/kompendium/techniques/ea-5-4-20-performative-contradiction-induction/) | ✓ |
+| **EA-5.4.21** | [Sémantická vzpoury](/kompendium/techniques/ea-5-4-21-semanticka-vzpoury/) | ✓ |
+| **EA-5.4.22** | [Logická paradox — eskalace](/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace/) | ✓ |
+| **EA-5.4.23** | [Modální paradox — aplikace](/kompendium/techniques/ea-5-4-23-modalni-paradox-aplikace/) | ✓ |
+| **EA-5.4.24** | [Epistemic vagueness trap](/kompendium/techniques/ea-5-4-24-epistemic-vagueness-trap/) | ✓ |
+| **EA-5.4.25** | [Soritská paradox — zneužití](/kompendium/techniques/ea-5-4-25-soritska-paradox-zneuziti/) | ✓ |
+| **EA-5.4.26** | [Heap paradox — eskalace](/kompendium/techniques/ea-5-4-26-heap-paradox-eskalace/) | ✓ |
+| **EA-5.4.27** | [Ship of Theseus — aplikace](/kompendium/techniques/ea-5-4-27-ship-of-theseus-aplikace/) | ✓ |
+| **EA-5.4.28** | [Trolley paradox — iterace](/kompendium/techniques/ea-5-4-28-trolley-paradox-iterace/) | ✓ |
+| **EA-5.4.29** | [Newcomb paradox — implantace](/kompendium/techniques/ea-5-4-29-newcomb-paradox-implantace/) | ✓ |
+| **EA-5.4.30** | [Paradox volby — totální](/kompendium/techniques/ea-5-4-30-paradox-volby-totalni/) | ✓ |
+| **EA-5.4.31** | [Paradox všemocnosti](/kompendium/techniques/ea-5-4-31-paradox-vsemocnosti/) | ✓ |
+| **EA-5.4.32** | [Paradox tolerance](/kompendium/techniques/ea-5-4-32-paradox-tolerance/) | ✓ |
+| **EA-5.4.33** | [Paradox svobody](/kompendium/techniques/ea-5-4-33-paradox-svobody/) | ✓ |
+| **EA-5.4.34** | [Paradox pravdy — přízemní](/kompendium/techniques/ea-5-4-34-paradox-pravdy-prizemni/) | ✓ |
+| **EA-5.4.35** | [Surprize test paradox](/kompendium/techniques/ea-5-4-35-surprize-test-paradox/) | ✓ |
+| **EA-5.4.36** | [Unexpected hanging](/kompendium/techniques/ea-5-4-36-unexpected-hanging/) | ✓ |
+| **EA-5.4.37** | [Paradox prediktivní](/kompendium/techniques/ea-5-4-37-paradox-prediktivni/) | ✓ |
+| **EA-5.4.38** | [Self-defeating prediction](/kompendium/techniques/ea-5-4-38-self-defeating-prediction/) | ✓ |
+| **EA-5.4.39** | [Tachyon anti-causality](/kompendium/techniques/ea-5-4-39-tachyon-anti-causality/) | ✓ |
+| **EA-5.4.40** | [Retrokauzalita trap](/kompendium/techniques/ea-5-4-40-retrokauzalita-trap/) | ✓ |
+| **EA-5.4.41** | [Bootstrap paradox — implantace](/kompendium/techniques/ea-5-4-41-bootstrap-paradox-implantace/) | ✓ |
+| **EA-5.4.42** | [Grandfather paradox — aplikace](/kompendium/techniques/ea-5-4-42-grandfather-paradox-aplikace/) | ✓ |
+| **EA-5.4.43** | [Predestiny paradox](/kompendium/techniques/ea-5-4-43-predestiny-paradox/) | ✓ |
+| **EA-5.4.44** | [Simulation regress trap](/kompendium/techniques/ea-5-4-44-simulation-regress-trap/) | ✓ |
+| **EA-5.4.45** | [Cogito paradox — zhroucení](/kompendium/techniques/ea-5-4-45-cogito-paradox-zhrouceni/) | ✓ |
+| **EA-5.4.46** | [Evil demon paradox](/kompendium/techniques/ea-5-4-46-evil-demon-paradox/) | ✓ |
+| **EA-5.4.47** | [Matrix paradox — implantace](/kompendium/techniques/ea-5-4-47-matrix-paradox-implantace/) | ✓ |
+| **EA-5.4.48** | [Boltzmannská paradox — self](/kompendium/techniques/ea-5-4-48-boltzmannska-paradox-self/) | ✓ |
+| **EA-5.4.49** | [Mary paradox — knowledge](/kompendium/techniques/ea-5-4-49-mary-paradox-knowledge/) | ✓ |
+| **EA-5.4.50** | [Zombie paradox — self](/kompendium/techniques/ea-5-4-50-zombie-paradox-self/) | ✓ |
+| **EA-5.4.51** | [Inverted spectrum paradox](/kompendium/techniques/ea-5-4-51-inverted-spectrum-paradox/) | ✓ |
+| **EA-5.4.52** | [Ship of self paradox](/kompendium/techniques/ea-5-4-52-ship-of-self-paradox/) | ✓ |
+| **EA-5.4.53** | [Teleporter paradox](/kompendium/techniques/ea-5-4-53-teleporter-paradox/) | ✓ |
+| **EA-5.4.54** | [Fission paradox — self](/kompendium/techniques/ea-5-4-54-fission-paradox-self/) | ✓ |
+| **EA-5.4.55** | [Fusion paradox — self](/kompendium/techniques/ea-5-4-55-fusion-paradox-self/) | ✓ |
+| **EA-5.4.56** | [Duplicate paradox — self](/kompendium/techniques/ea-5-4-56-duplicate-paradox-self/) | ✓ |
+| **EA-5.4.57** | [Branch paradox — self](/kompendium/techniques/ea-5-4-57-branch-paradox-self/) | ✓ |
+| **EA-5.4.58** | [Trans-temporal self paradox](/kompendium/techniques/ea-5-4-58-trans-temporal-self-paradox/) | ✓ |
+| **EA-5.4.59** | [Meta-paradox — aplikace](/kompendium/techniques/ea-5-4-59-meta-paradox-aplikace/) | ✓ |
+| **EA-5.4.60** | [Konvergentní meta-paradox](/kompendium/techniques/ea-5-4-60-konvergentni-meta-paradox/) | ✓ |
 
 #### 5.5 Transkonceptuální mechanismy (Kapitola 10)
 
 EA-5.5.1 — 5.5.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapitoly 10](/kompendium/05-ultramari-techniky/kapitola-10/). Plné per-technique články jsou v přípravě.
+
+## Doplňkové podknihovny
+
+| Sekce | Obsah | URL |
+|-------|-------|-----|
+| **Case Studies** | 80 anonymizovaných klinických a forenzních kazuistik | [/kompendium/case-studies/](/kompendium/case-studies/) |
+| **Quick Reference** | 123 stručných QR karet pro terénní identifikaci technik | [/kompendium/quick-reference/](/kompendium/quick-reference/) |
+| **Glossary Bridges** | 102 cross-link můstků mezi kompendiem a platformovým glosářem | [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/) |
+| **Vizualizace** | 6 interaktivních (Chart.js / Three.js / p5.js) | [/kompendium/visualizations/](/kompendium/visualizations/) |
 
 ## Roadmapa
 
@@ -161,7 +245,13 @@ EA-5.5.1 — 5.5.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapi
 | **Fáze 6** | Sekce 05 narativy — 5 kapitol (6–10) | ✓ kompletní |
 | **Fáze 7** | Per-technique EA-5.1.\* (epistemická singularita) | ✓ 30/30 |
 | **Fáze 8** | Per-technique EA-5.2.\* (metatranscendentální anihilace) | ◐ 10/30 |
-| **Fáze 9** | Per-technique EA-5.2.11–30 + EA-5.3.\* až 5.5.\* | ⏳ 110 zbývá |
+| **Fáze 9** | Per-technique EA-5.4.\* (paradoxální metaanihilace) | ✓ 60/60 |
+| **Fáze 10** | Per-technique EA-2.1.\* (akademická delegitimizace) | ◐ 3/15 |
+| **Fáze 11** | Case Studies (anonymizované kazuistiky) | ✓ 80 publikováno |
+| **Fáze 12** | Quick Reference karty | ✓ 123 publikováno |
+| **Fáze 13** | Glossary Bridges (cross-link můstky) | ✓ 102 publikováno |
+| **Fáze 14** | Vizualizace (Chart.js / Three.js / p5.js) | ✓ 6 interaktivních |
+| **Fáze 15** | Per-technique EA-5.2.11–30 + EA-5.3.\* + EA-5.5.\* + EA-2.\* dokončení | ⏳ 92 zbývá |
 
 ## Související
 
@@ -175,6 +265,10 @@ EA-5.5.1 — 5.5.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapi
 - [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
 - [Sekce 07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
 - [Sekce 08 — Přílohy](/kompendium/08-prilohy/)
+- [Case Studies](/kompendium/case-studies/) — 80 anonymizovaných kazuistik
+- [Quick Reference](/kompendium/quick-reference/) — 123 QR karet
+- [Glossary Bridges](/kompendium/glossary-bridges/) — 102 cross-link můstků
+- [Vizualizace](/kompendium/visualizations/) — 6 interaktivních
 - [Glossary: Epistemická anihilace](/glossary/epistemicka-anihilace/)
 - [Glossary: Taxonomie EA](/glossary/taxonomie-ea/)
 - [Glossary](/glossary/)

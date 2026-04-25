@@ -13,35 +13,61 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.1 Epistemicka kanibalizace
+# QR Card — EA-5.1.1 Epistemická kanibalizace
 
-> WARNING: Pristupova uroven L3. Tato karta poskytuje pouze prehled.
+> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled. Detailní operační rámec je v plném článku.
 
-**Domena**: Epistemicka singularita — destrukce fundamentalni schopnosti reflektovat vlastni poznani.
+**Doména**: Epistemická singularita — destrukce schopnosti rozlišit vlastní epistemickou produkci od epistemické produkce manipulátora.
 
-## Klicovy mechanismus
+## Definice
 
-Systematicka exploitace strukturalni vulnerability epistemickeho aparatu vedouci k Epistemicka kanibalizace.
+**Epistemická kanibalizace** je ultramární technika, při níž manipulátor systematicky **pohlcuje epistemické výstupy subjektu** (argumenty, vhledy, formulace, syntézy) a v reframovaném tvaru je subjektu i třetím stranám prezentuje jako vlastní produkty. Subjekt postupně přestává rozeznávat **autorství vlastního myšlení**, internalizuje pozici manipulátora jako jediného legitimního zdroje idejí a v terminálním stadiu prožívá **epistemický autoplagiát** — vlastní starou myšlenku cituje jako cizí. Na rozdíl od běžného plagiátu operuje technika **uvnitř dlouhodobého vztahu** a pracuje s fenomenologií autorství samé.
 
-## Indikatory
+## Operační modus (5 kroků)
 
-- Subjekt prozivá kvalitativni posun ve strukture poznavani
-- Standardni kognitivni intervence ztraceji ucinnost
-- Indikatory pokrocile faze [epistemicke anihilace](/glossary/epistemicka-anihilace/)
+1. **Etablování asymetrické intelektuální blízkosti** — mentorský, terapeutický nebo guru-adept vztah jako "bezpečný prostor" pro sdílení rozpracovaných idejí.
+2. **Tichá akumulace produkce** — systematický, často implicitní záznam subjektových formulací, charakteristických metafor a struktur argumentů.
+3. **Reframování a reatribuce** — po temporálním odstupu prezentace subjektovy produkce v upraveném tvaru jako vhled manipulátora; subjekt rozeznává důvěrnost, ale nedokáže lokalizovat původ.
+4. **Kapacitní devalvace zdroje** — paralelní označování subjektovy rané produkce za "nezralou" či "intuitivní bez rigoru", což legitimizuje pohlcení jako "dotvoření".
+5. **Konsolidace epistemické závislosti** — subjekt přestává důvěřovat vlastním vhledům bez validace manipulátorem a aktivně reprodukuje recyklované verze vlastního myšlení.
 
-## Klinicka odpoved
+## Fenomenologické znaky
 
-1. Stabilizacni kotvy
-2. Externi epistemicka validace
-3. Postupna rekonstrukce — viz [Sekce 06](/kompendium/06-klinicke-aplikace/)
+| Znak | Popis |
+|------|-------|
+| **Déjà vu autorství** | Při čtení manipulátorova textu pocit důvěrnosti bez schopnosti lokalizovat původ ideje |
+| **Erozivní nejistota o autorství** | Otázka "říkal/a jsem to já první, nebo on/ona?" eskaluje u klíčových idejí |
+| **Citační inverze** | Subjekt cituje manipulátora jako zdroj idejí, které sám/sama formuloval/a |
+| **Devalvace vlastní rané produkce** | Aktivní přepisování paměti — staré poznámky působí jako "primitivní pokusy" |
+
+## Detekční markery (pohled pozorovatele)
+
+| Marker | Indikuje |
+|--------|----------|
+| Manipulátorův korpus obsahuje formulace **lingvisticky charakteristické** pro subjekta | Reframovaná pohlcení |
+| Subjektova produkce klesá, manipulátorova v téže oblasti roste | Strukturální transfer autorství |
+| Subjekt **nedokáže** ve volné konverzaci rozlišit vlastní výrok od manipulátorova | Erozi autorské paměti |
+| Panika při návrhu intelektuální separace | Konsolidovaná epistemická závislost |
+
+## Neutralizace
+
+- **Externí archivace s časovou stopou** — datovaný, kryptograficky verifikovatelný záznam vlastní produkce (preprint servery, git, blog s timestampy) odolá retrospektivnímu reframování.
+- **Triangulace mimo vztah** — sdílení klíčových idejí s nezávislými třetími stranami jako autorskými svědky.
+- **Periodická epistemická separace** — diagnosticky důležitá: pokud autorská kapacita po odeznění závislosti obnoví, byla intaktní; pokud ne, je nutná klinická intervence.
+
+## Klinický kontext
+
+Manifestuje se nejčastěji v PhD supervizi (mentor publikuje subjektovy ideje), dlouhodobé psychoterapii (terapeut přebírá klientovy formulační průlomy), charizmatickém vedení komunity, intimním intelektuálním partnerství s asymetrií veřejné viditelnosti a v korporátní inovaci. Diferenciálně se odlišuje od **legitimní mentorské kontribuce** (která explicitně připisuje autorství) a od **konvergentního intelektuálního vývoje** (který je symetrický). Reverzibilita je velmi nízká — rekonstrukce autorské identity vyžaduje typicky 12–36 měsíců terapeutické intervence.
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailni clanek**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Glossary**: [epistemicka-anihilace](/glossary/epistemicka-anihilace/), [ontologicka-anihilace](/glossary/ontologicka-anihilace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Detailní článek**: [EA-5.1.1 Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
+- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](/kompendium/quick-reference/qr-ea-5-1-2/), [EA-5.1.3 Reflexivní paradoxie](/kompendium/quick-reference/qr-ea-5-1-3/), [EA-5.1.9 Identitní dezintegrace](/kompendium/quick-reference/qr-ea-5-1-9/)
+- **Glossary**: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), [Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- **Platforma**: [Decision Engine — provenance ledger](/hub/dd/decisions/), [NABLA Infinity authorship invariants](/glossary/nabla-infinity/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

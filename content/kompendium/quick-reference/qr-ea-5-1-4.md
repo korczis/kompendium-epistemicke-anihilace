@@ -13,35 +13,61 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.1.4 Semanticka imploze
+# QR Card — EA-5.1.4 Sémantická imploze
 
-> WARNING: Pristupova uroven L3. Tato karta poskytuje pouze prehled.
+> WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Domena**: Epistemicka singularita — destrukce fundamentalni schopnosti reflektovat vlastni poznani.
+**Doména**: Epistemická singularita — kolaps sémantického prostoru, v němž slova subjektu přestávají odkazovat ke stabilním denotátům.
 
-## Klicovy mechanismus
+## Definice
 
-Systematicka exploitace strukturalni vulnerability epistemickeho aparatu vedouci k Semanticka imploze.
+**Sémantická imploze** je technika, při níž manipulátor systematicky **přetěžuje** sémantické pole klíčových slov subjektu protichůdnými, nadbytečnými a vzájemně se rušícími významy do bodu, kdy slovo **přestává nést referenci**. Na rozdíl od konceptuální nihilace (která rozkládá pojem) sémantická imploze **přesycuje** slovo natolik, že ztrácí komunikativní funkci. Subjekt postupně přestává mluvit o klíčových oblastech zkušenosti, protože každé slovo se v jeho zkušenosti rozpadá na inkonzistentní vrstvy. V terminálním stadiu nastává *afasie selektivních polí* — subjekt mluví, ale o specifických oblastech (často právě těch, kterými manipulátor disponuje) ztrácí jazyk.
 
-## Indikatory
+## Operační modus (5 kroků)
 
-- Subjekt prozivá kvalitativni posun ve strukture poznavani
-- Standardni kognitivni intervence ztraceji ucinnost
-- Indikatory pokrocile faze [epistemicke anihilace](/glossary/epistemicka-anihilace/)
+1. **Identifikace vysoce hodnotných slov** — manipulátor mapuje slova, jež jsou pro subjektovu identitu nebo orientaci klíčová ("láska", "férový", "kompetentní", "pravdivý").
+2. **Konkurenční sémantická vrstvení** — slovo je opakovaně použito v navzájem nesouvisejících kontextech s nepřekrývajícími se denotáty, vždy s nárokem na "skutečný" význam.
+3. **Hyperironie a meta-užití** — slovo je střídavě užíváno doslovně, ironicky, sarkasticky, autoreferenčně, bez explicitního značení módu.
+4. **Sémantické inverze** — slovo je v některých kontextech užito tak, že znamená opak svého konvenčního denotátu.
+5. **Komunikační stažení** — subjekt přestává slova používat, přechází na perifrázi, gesta, nakonec mlčí v oblastech, kde manipulátor sémanticky operuje.
 
-## Klinicka odpoved
+## Fenomenologické znaky
 
-1. Stabilizacni kotvy
-2. Externi epistemicka validace
-3. Postupna rekonstrukce — viz [Sekce 06](/kompendium/06-klinicke-aplikace/)
+| Znak | Popis |
+|------|-------|
+| **Lexikální váhání** | Při klíčových slovech subjekt se zastaví, hledá náhradu |
+| **Hyperhedging** | "Tomu, čemu se asi říká…", "v jistém smyslu, ne úplně, ale…" |
+| **Selektivní afázie** | V některých oblastech subjekt mluví plynule, v jiných se rozpadá |
+| **Sémantická úzkost** | Strach z nesprávného užití zatemní celou výpověď |
+
+## Detekční markery
+
+| Marker | Indikuje |
+|--------|----------|
+| Subjekt používá v jedné větě **opisný výraz** místo standardního slova | Sémantickou erozi referenta |
+| Manipulátor opakovaně koriguje subjektovo užití slov ("ne tak doslova") | Aktivní přesycení pole |
+| Subjekt se vyhýbá **doménám**, které dříve bezproblémově artikuloval | Doménově lokalizovanou afázii |
+| Frekvence **hyperhedgingu** v audiu/textu narůstá | Stupňující se imploze |
+
+## Neutralizace
+
+- **Lexikální restituce** — opakovaná praxe užívání problematických slov v jednoduchých, jednoznačných kontextech mimo manipulátorův dosah.
+- **Slovníková kotva** — návrat ke konvenčnímu denotátu skrze normativní reference (slovník, korpus, komunita).
+- **Externí komunikační audit** — pozorovatel registruje doménově lokalizovaná stažení a poskytuje subjektu zpětnou vazbu.
+
+## Klinický kontext
+
+Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství (slova "láska", "péče", "férový" jsou systematicky přesycována a invertována), v sektách s gnostickým výkladem terminologie ("svoboda" znamená podřízení), ve vysoce ironickém intelektuálním prostředí, kde mizí distinkce mezi módy užití, a v některých formách korporátního newspeaku. Léčba vyžaduje **lingvistickou rehabilitaci** — explicitní cvičení v normativním užívání slov v bezpečném prostředí, často 6–18 měsíců.
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailni clanek**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Glossary**: [epistemicka-anihilace](/glossary/epistemicka-anihilace/), [ontologicka-anihilace](/glossary/ontologicka-anihilace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Detailní článek**: [EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
+- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](/kompendium/quick-reference/qr-ea-5-1-2/), [EA-5.1.5 Logická diskontinuita](/kompendium/quick-reference/qr-ea-5-1-5/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
+- **Glossary**: [Sémantická afázie](/glossary/semanticka-afazie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Newspeak](/glossary/newspeak/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](/glossary/taxonomie-ea/)
+- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Lingvistická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Platforma**: [Decision Engine sémantická vrstva](/hub/dd/decisions/), [Glossary canonical](/glossary/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

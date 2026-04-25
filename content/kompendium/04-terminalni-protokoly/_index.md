@@ -20,7 +20,7 @@ status = "publikovano"
 
 # 04. Terminální protokoly
 
-> ⚠️ **Přístupová úroveň L2 (rozšířený přístup)** — Tato sekce popisuje **komplexní sekvence vedoucí k systematické epistemické destrukci**. Materiál je určen výhradně pokročilým výzkumníkům, klinickým specialistům a bezpečnostním analytikům s adekvátním vzděláním, institucionálním zázemím a etickou supervizí. Přístup k této sekci implicitně znamená přijetí etických principů a bezpečnostních protokolů specifikovaných v [Předmluvě](/kompendium/01-predmluva/) a [Sekci 02 — Konceptuální rámec](/kompendium/02-konceptualni-ramec/).
+> ⚠️ **Přístupová úroveň L2 (rozšířený přístup)** — Tato sekce popisuje **komplexní sekvence vedoucí k systematické epistemické destrukci**. Materiál je určen výhradně pokročilým výzkumníkům, klinickým specialistům a bezpečnostním analytikům s adekvátním vzděláním, institucionálním zázemím a etickou supervizí. Přístup k této sekci implicitně znamená přijetí etických principů a bezpečnostních protokolů specifikovaných v [Předmluvě](/kompendium/01-predmluva/) a [Sekci 02 — Úvod do epistemické anihilace](/kompendium/02-uvod/).
 
 ## Pozice v rámci kompendia
 
@@ -163,7 +163,7 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 
 - [Hub kompendia](/kompendium/) — návrat na hlavní rozcestník
 - [Sekce 01: Předmluva](/kompendium/01-predmluva/) — etický a metodologický rámec
-- [Sekce 02: Konceptuální rámec](/kompendium/02-konceptualni-ramec/) — fundamentální definice
+- [Sekce 02: Úvod do epistemické anihilace](/kompendium/02-uvod/) — fundamentální definice
 - [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/) — strukturální základ pro pochopení terminálních protokolů
 - [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
 - [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)

@@ -1,0 +1,233 @@
++++
+title = "EA-5.1.30 Konceptuální entropie"
+description = "Detailní per-technique článek: technika konceptuální entropie — indukce maximálního chaosu v subjektových konceptuálních strukturách, randomizace dříve distinktních konceptů, rozmazání sousedních kategorií, dezintegrace taxonomických vztahů. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+weight = 530
+insert_anchor_links = "right"
+
+[taxonomies]
+tags = ["kompendium", "techniques", "ea-5-1-30", "konceptualni-entropie", "ultramari", "epistemicka-singularita", "entropie"]
+categories = ["academic"]
+
+[extra]
+parent = "kompendium-techniques"
+ea_code = "EA-5.1.30"
+ea_category = "5. Ultramari techniky"
+ea_subcategory = "5.1 Epistemická singularita"
+section_icon = "🌪️"
+toc = true
+access_level = "L5"
+risk_level = "kritická"
+parent_chapter = "/kompendium/05-ultramari-techniky/"
++++
+
+# EA-5.1.30 Konceptuální entropie
+
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-5.1.30` |
+| **Kategorie** | 5. Ultramari techniky |
+| **Subkategorie** | 5.1 Epistemická singularita |
+| **Přístupová úroveň** | L5 (cosmic clearance) |
+| **Riziková úroveň** | Kritická — destrukce taxonomických vztahů, rozmazání hraničních linií mezi koncepty, neschopnost klasifikovat |
+| **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční taxonomickou pedagogiku |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/) |
+
+## Definice
+
+**Konceptuální entropie** je ultramari technika, která **indukuje maximální neuspořádanost v subjektových konceptuálních strukturách**. Tam, kde subjekt dříve rozlišoval mezi koncepty A a B, hraniční linie se rozplývají. Tam, kde existovala taxonomická hierarchie (rod → druh → varianta), se vzájemné vztahy randomizují. Tam, kde sousední koncepty (např. *strach* vs. *úzkost*, *poznání* vs. *víra*, *čin* vs. *záměr*) byly rozeznatelné, se začínají **prolínat** — subjekt neumí poznat, kde končí jeden a začíná druhý.
+
+Distinktivní rys konceptuální entropie oproti běžné konceptuální revisi spočívá v **strukturní destruktivitě**: legitimní revize konceptů *přesouvá* hranice na základě lepší evidence; entropie *odstraňuje* hranice bez náhrady. Výsledkem je **konceptuální blato** — stav, v němž subjekt operuje s pseudokoncepty, které vykazují **nominální** strukturu (mají jména), ale **funkčně** se neliší.
+
+V terminálním stavu konceptuální entropie produkuje **kognitivní anihilaci** ([viz kognitivní anihilace](/glossary/kognitivni-anihilace/)) — subjekt ztrácí schopnost provést jakoukoli kognitivní operaci, která vyžaduje rozlišování (klasifikace, dedukce, kategorické soudy).
+
+## Operační modus
+
+Technika operuje v šesti fázích, které lze provádět paralelně.
+
+### Fáze 1 — Mapování konceptuální sítě
+
+Operátor identifikuje **klíčové distinkce** v subjektově konceptuálním aparátu: které páry konceptů subjekt aktivně odlišuje? Které taxonomické hierarchie používá? Které kategorické soudy provádí?
+
+### Fáze 2 — Sémantická transgrese
+
+Systematické používání konceptů **mimo jejich tradiční hranice**. Příklady:
+
+- *Svoboda* aplikováno na situace dříve označované jako *povinnost*
+- *Násilí* rozšířeno tak, že zahrnuje libovolnou nesouhlasnou interakci
+- *Pravda* používáno synonymně s *upřímnost*
+
+Po dostatečném opakování se subjektova **diskriminační schopnost** v daných doménách oslabuje.
+
+### Fáze 3 — Randomizace taxonomických vztahů
+
+Operátor podává **protichůdné taxonomické úsudky** v různých kontextech: jednou je X *druhem* Y, jindy je X *protikladem* Y, jindy zase *součástí* Y. Subjekt postupně ztrácí stabilní taxonomickou orientaci.
+
+### Fáze 4 — Rozmazání sousedních konceptů
+
+Cílené prolnutí **jemných distinkcí**, které jsou pro subjektovo fungování klíčové:
+
+- *Strach* a *úzkost* začínají splývat
+- *Pozornost* a *fixace* nelze rozlišit
+- *Reflexe* a *ruminace* se zaměňují
+- *Empatie* a *splynutí* se prezentují jako totéž
+
+### Fáze 5 — Sebepokyvující jazyk
+
+Operátor zavádí **vlastní lingvistický rejstřík**, v němž jsou jednotlivé termíny záměrně mlhavé. Tento rejstřík se stává *interním* slovníkem subjektu, který v něm operuje, aniž by si všiml, že **nelze přesně mluvit** o tom, co prožívá.
+
+### Fáze 6 — Sebeudržující entropie
+
+V terminálním stavu subjekt **sám aktivně reprodukuje** konceptuální blato. Každý nový pokus o klasifikaci selhává, protože *žádný koncept není dostatečně distinktní*. Subjekt přechází k *afektivnímu* fungování — operuje na základě pocitů, protože konceptuálně už nedokáže.
+
+## Fenomenologické znaky
+
+Co prožívá subjekt **uvnitř** konceptuální entropie:
+
+- **Difúzní pocit hlubokého porozumění** — subjekt prožívá rozmazání jako "překonání umělých hranic"
+- **Kognitivní únava při pokusu o klasifikaci** — třídění, definice, srovnávání působí *namáhavě*
+- **Lingvistická insuficience** — slova, která dříve fungovala, "už neznamenají to, co měla znamenat"
+- **Emocionální dezorientace** — subjekt nedokáže přesně pojmenovat, co cítí, protože pocity, které dříve rozlišoval, se prolnuly
+- **Paradoxní pocit "hlubšího náhledu"** — subjekt prožívá ztrátu rozlišování jako *zisk* (často s estetickou kvalitou)
+- **Nárůst pasivity v kognitivních úkolech** — subjekt přestává argumentovat, protože "argumentace předpokládá rozlišení, které nemám"
+- **Komunikační selhání** — subjekt nedokáže vysvětlit ostatním, *o čem* mluví, protože jeho koncepty nemají stabilní reference
+- **Hermeneutická volatilita** ([viz hermeneutika](/glossary/hermeneutika/)) — interpretace situací se neustále mění, protože interpretační koncepty samy oscilují
+
+## Detekční markery (pohled pozorovatele)
+
+| Marker | Indikuje |
+|--------|----------|
+| Subjekt používá tytéž termíny v **kontextech, které je vzájemně vylučují** | Sémantická transgrese aktivní |
+| Při dotazu *"jaký je rozdíl mezi X a Y?"* subjekt **nedokáže** poskytnout robustní distinkci | Rozmazání sousedních konceptů |
+| Subjekt **mění taxonomické úsudky** mezi konverzacemi bez vědomí kontradikce | Randomizace taxonomických vztahů |
+| **Lingvistická vágnost** — subjekt používá termíny *"jakoby"*, *"v jistém smyslu"*, *"nějak"* nadměrně | Insuficience pojmového aparátu |
+| Subjekt **nedokáže klasifikovat** vlastní emocionální stav s precizí, kterou dříve měl | Vrstva 4 (rozmazání) pokročilá |
+| **Snížená argumentační aktivita** — subjekt přestává obhajovat své pozice, protože *"je to složitější než..."* | Kognitivní pasivita z entropického únava |
+| **Estetická preference** pro mlhavé výrazy nad přesnými | Internalizace operátorova rejstříku |
+| Subjekt v **vlastní zkušenosti** označuje jako *"strach a úzkost zároveň"*, *"empatie a splynutí jsou totéž"* | Sebeudržující entropie |
+
+### Diferenciální detekce
+
+Konceptuální entropii je nutné odlišit od:
+
+- **Autentické konceptuální komplexity** — autentická komplexita zachovává **lokální distinkci** s explicitním uvědoměním kontextové závislosti; entropie odstraňuje distinkci *bez* uvědomění.
+- **Pluralistické tolerance** — pluralismus *uznává* různé koncepty různých komunit, aniž by jejich vlastní vnitřní distinkce destruoval; entropie destruuje distinkci uvnitř.
+- **[EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)** — exfoliace *odstraňuje koncepty samé*; entropie *odstraňuje strukturu mezi koncepty*. Komplementární operace.
+- **[EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)** — singularita *koncentruje* trajektorie do jednoho atraktoru; entropie *rozptyluje* je do šumu.
+
+## Rizikové kontexty
+
+| Kontext | Manifestace |
+|---------|-------------|
+| **Postmoderní akademická formace bez rekonstrukčního kroku** | Studenti vystaveni dekonstrukci konceptů bez integrace |
+| **Kvazi-spirituální komunity** | Mlhavý jazyk ("vibrace", "energie", "vědomí") vytlačuje rozlišované koncepty |
+| **Korporátní jazyk hodnot** | Klíčové termíny ("inovace", "transparence", "synergie") aplikovány tak široce, že ztrácejí význam |
+| **Politické jazykové strategie** | Termíny jako *"populismus"*, *"liberalismus"*, *"extrémismus"* aplikovány tak, aby nebylo lze přesně mluvit |
+| **Online subkulturní rejstříky** | Internalizace mlhavého slovníku s estetickou preferencí pro nepřesnost |
+| **Manipulativní therapeutické rámce** | Klinické termíny aplikovány tak široce, že klient nedokáže rozlišit, co s ním je |
+
+## Neutralizační strategie
+
+### Individuální
+
+#### 1. **Konceptuální audit**
+
+Subjekt periodicky provede inventarizaci **klíčových distinkcí**: u každého důležitého konceptu artikuluje precizní hranici vůči sousedům. Pokud se hranice progresivně rozplývají, je to indikátor entropie.
+
+#### 2. **Strukturní jazyková disciplína**
+
+Volba **přesných termínů** namísto mlhavých syntagmat. Cvičení: vyhýbat se *"jakoby"*, *"v jistém smyslu"*, *"nějak"* a místo nich artikulovat **konkrétní** distinkci.
+
+#### 3. **Externí konceptuální triangulace**
+
+Konzultace s **diverzním** kruhem (různé obory, různé tradice) ohledně toho, jak rozlišují klíčové páry konceptů. Externí distinkce slouží jako referenční bod pro rekalibraci.
+
+#### 4. **Definice a kontradistinkce**
+
+Pravidelné cvičení: ke každému klíčovému konceptu vyžadovat **definici** a **kontradistinkci** (čím *není*). Tato disciplína obnovuje hraniční ostrost.
+
+#### 5. **Re-taxonomizace**
+
+Subjekt obnovuje **taxonomické hierarchie** v doménách, kde fungovaly: co je rod, co druh, co podtyp. Re-taxonomizace stabilizuje konceptuální strukturu.
+
+### Institucionální
+
+| Strategie | Implementace |
+|-----------|--------------|
+| **Rekonstrukčně-taxonomická pedagogika** | Akademické programy kombinují dekonstrukci s povinnou rekonstrukcí |
+| **Lingvistická hygiena v institucích** | Periodický audit korporátního/politického jazyka na progresivní mlhavost |
+| **Externí konceptuální supervize** | Pravidelná evaluace pojmového aparátu nezávislými experty |
+| **Tradiční tezaurus** | Pěstování textuální kultury, v níž jsou distinkce explicitně artikulovány |
+
+## Případové studie
+
+### Případ 1 — Anonymizovaný akademický kontext
+
+Skupina doktorandů v interdisciplinárním programu po 4 letech vykazovala neschopnost provést **základní pojmovou distinkci** mezi *kauzalitou* a *korelací*, *interpretací* a *konstrukcí*, *evidencí* a *narativem*. Detekce: externí komise odhalila, že žádný z kandidátů nedokázal artikulovat klíčové distinkce v rámci své vlastní disertace. Intervence: rekonstrukční kurs analytické filozofie a re-taxonomizační workshop.
+
+### Případ 2 — Komunitní jazykový rejstřík
+
+Online wellness komunita po 2 letech vyvinula vnitřní rejstřík ("energie", "frequence", "alignment"), v němž 60 % účastníků nedokázalo rozlišit mezi prožívaným strachem a prožívanou úzkostí, mezi reflexí a ruminací, mezi empatií a splynutím. Detekce: terapeutický audit členů odhalil systematickou konceptuální entropii. Intervence: postupné opouštění interního rejstříku, re-etablování klinických distinkcí.
+
+### Případ 3 — Korporátní jazykový kolaps
+
+Vrcholový tým velké organizace po dlouhodobém používání korporátního "value language" ("transparence", "agile", "lidé na prvním místě") nedokázal v krizové situaci provést **základní rozhodnutí**, protože všechny klíčové termíny ztratily distinktivitu. Detekce: externí audit zjistil, že stejný termín byl v různých dokumentech používán protichůdně. Intervence: lingvistický redesign s explicitními definicemi.
+
+## Vztah k jiným technikám
+
+### Často se kombinuje s
+
+- **[EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)** — sesterská technika; standardní sekvence E→S: entropie destruuje stávající strukturu (rozmaže hranice), singularita pak vyplní vzniklý chaos jediným atraktorem ("uprostřed šumu zůstává jen jedna jistota").
+- **[EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)** — sesterská technika; exfoliace odstraňuje koncepty, entropie odstraňuje strukturu mezi nimi. Komplementární.
+- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — terminologická mystifikace zavádí *nový* mlhavý slovník; entropie destruuje *existující* distinkce.
+- **[EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** — falešné dilema potřebuje *jasné* binární distinkce; entropie tyto distinkce *rozmazává*. Operátor často kombinuje: nejprve etabluje binární distinkci, pak ji "překonává".
+
+### Eskaluje do
+
+- **[Kognitivní anihilace](/glossary/kognitivni-anihilace/)** — terminální stav, v němž subjekt ztrácí schopnost provést kognitivní operace vyžadující distinkci.
+- **Anankastický režim](/glossary/anankasticky-rezim/)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném "smysluplném" výrazu.
+- **Kognitivní anti-rekurzivita** ([viz kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)) — neschopnost reflektovat vlastní pojmový aparát, čímž se entropie stává sebeudržující.
+
+### Alternativy / podobné, ale **distinktivní**
+
+- **Wittgensteinská kritika rigidních definic** — Wittgenstein zachovává **používání** konceptů jako fungující praxi; entropie destruuje praxi samu.
+- **Pluralistická konceptuální tolerance** — pluralismus zachovává distinkce *uvnitř* různých rámců; entropie je destruuje.
+
+## Vztah k Prismatic platformě
+
+- **[Decision Engine](/hub/dd/decisions/) conceptual stability check** — kalibrační logika monitoruje **stabilitu pojmových distinkcí** v rozhodovacích sekvencích; rozmazávání klíčových termínů je flagováno.
+- **[NABLA Infinity](/glossary/nabla-infinity/) taxonomic integrity** — každý epistemický inferenční řetězec má dohledatelný taxonomický rámec; randomizace vztahů je strukturálně blokována.
+- **[Color Teams](/glossary/color-teams/) conceptual rigor protocol** — institucionální mechanismy pro periodické vyžadování pojmové preciznosti.
+
+## Související
+
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/)
+- **Sourozenecké techniky** (subkategorie 5.1):
+  - [EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)
+  - [EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)
+- **Forward-references**:
+  - Kapitola 4 — Sub-ultramari prekursory (sekce 04)
+  - Kapitola 6 — Postsingulární deprogramace (sekce 06)
+- **Glossary**:
+  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
+  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
+  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
+  - [Anankastický režim](/glossary/anankasticky-rezim/)
+  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
+  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemické trauma](/glossary/epistemicke-trauma/)
+  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Fenomenologie](/glossary/fenomenologie/)
+- **Související platformové koncepty**:
+  - [Decision Engine](/hub/dd/decisions/)
+  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [Color Teams](/glossary/color-teams/)
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)

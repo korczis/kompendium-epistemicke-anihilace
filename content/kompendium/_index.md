@@ -24,7 +24,7 @@ audience = ["researchers", "psychiatrists", "psychologists", "philosophers"]
 content_type = ["academic", "reference"]
 status = "in-progress"
 total_techniques_planned = 150
-techniques_published = 13
+techniques_published = 53
 notation = "EA-X.Y.Z-α"
 related_articles = ["epistemic-integrity", "boundary-ethics", "intellectual-sovereignty", "epistemic-pipeline", "nabla-infinity"]
 keywords = ["epistemická anihilace", "kognitivní anihilace", "intelektuální manipulace", "epistemic security", "kognitivní biasy", "akademická manipulace", "taxonomie manipulace"]
@@ -60,12 +60,12 @@ Kompendium je určeno **výhradně** pro:
 |---|-------|------|-------|
 | **01** | [Předmluva](/kompendium/01-predmluva/) | ✓ kompletní | Účel, cílová skupina, etika, metodika |
 | **02** | [Úvod do epistemické anihilace](/kompendium/02-uvod/) | ✓ kompletní | Definice, historický kontext, teoretické základy |
-| **03** | [Základní kategorie](/kompendium/03-zakladni-kategorie/) | ✓ kompletní | Akademické techniky, delegitimizace, edukativní implementace |
-| **04** | [Terminální protokoly](/kompendium/04-terminalni-protokoly/) | ⏳ příprava | Komplexní destrukční sekvence (vysoké riziko) |
-| **05** | [Ultramární techniky](/kompendium/05-ultramari-techniky/) | ⏳ příprava | 150 technik fundamentální dekonstrukce (extrémní riziko) |
-| **06** | [Klinické aplikace](/kompendium/06-klinicke-aplikace/) | ⏳ příprava | Diagnostika, terapie, prevence |
-| **07** | [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) | ⏳ příprava | Filozofické implikace, interdisciplinární perspektivy |
-| **08** | [Přílohy](/kompendium/08-prilohy/) | ⏳ příprava | Kompletní taxonomie, případové studie, glosář |
+| **03** | [Základní kategorie](/kompendium/03-zakladni-kategorie/) | ✓ kompletní | Akademické techniky, delegitimizace, edukativní implementace, 3 scénáře |
+| **04** | [Terminální protokoly](/kompendium/04-terminalni-protokoly/) | ✓ kompletní | 9 článků: konceptuální/identitní/institucionální dekonstrukce, screening, monitoring, rekonstituce |
+| **05** | [Ultramární techniky](/kompendium/05-ultramari-techniky/) | ◐ částečně publikováno | 5 narativních kapitol (6–10) + 40/150 detailních technik (5.1.\* + 5.2.\*) |
+| **06** | [Klinické aplikace](/kompendium/06-klinicke-aplikace/) | ✓ kompletní | 10 článků: diagnostika, terapie, rekonstrukce, vulnerabilní populace, kazuistiky |
+| **07** | [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) | ✓ kompletní | 9 článků: filosofie, sociální epistemologie, postmodernismus, kognitivní vědy, digitální věk |
+| **08** | [Přílohy](/kompendium/08-prilohy/) | ✓ kompletní | 7 referenčních článků: bibliografie, rejstřík, index pojmů, etický kodex, klasifikace |
 
 ### Detailní techniky
 
@@ -108,6 +108,10 @@ EA-X.Y.Z-α
 - `EA-1.1.1` — [Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
 - `EA-1.2.1` — [Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
 - `EA-1.4.1` — [Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
+- `EA-5.1.1` — [Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
+- `EA-5.1.13` — [Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
+- `EA-5.2.1` — [Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)
+- `EA-5.2.10` — [Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)
 
 ## Etické principy
 
@@ -138,7 +142,12 @@ Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic pl
 
 ## Inkrementální publikace
 
-Kompendium je publikováno **inkrementálně**. Každá technika je dokončena v samostatném detailním článku, postupně pokrývajícím všech 13 technik z **Kapitoly 1** (akademické techniky), poté pokračujeme dál.
+Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1+2+3 dokončeno):
+
+- **Sekce 01–04, 06–08**: ✓ kompletně publikováno (narativní text + sub-články)
+- **Sekce 05** (Ultramární): 5/5 narativů kapitol + 40/150 detailních per-technique článků
+- **Per-technique podknihovna**: 53 hloubkových článků (13× EA-1.\* + 30× EA-5.1.\* + 10× EA-5.2.\*)
+- **Celková rozsah**: 122 markdown souborů, ~209 000 slov (cca 600+ stran A4)
 
 **Aktuální stav publikace**: viz [techniques index](/kompendium/techniques/) pro přesný počet a stav každé techniky.
 

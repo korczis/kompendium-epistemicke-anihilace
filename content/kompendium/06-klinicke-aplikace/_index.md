@@ -1,12 +1,12 @@
 +++
 title = "06. Klinické aplikace a diagnostika"
-description = "Praktické využití taxonomie v klinické praxi — diagnostické nástroje, terapeutické přístupy, preventivní strategie."
+description = "Praktické využití taxonomie epistemické anihilace v klinické praxi — diagnostické markery, diferenciální diagnostika, terapeutické přístupy, protokoly epistemické rekonstrukce a práce s vulnerabilní populací."
 weight = 6
 sort_by = "weight"
 template = "section.html"
 
 [taxonomies]
-tags = ["kompendium", "klinicke-aplikace", "diagnostika", "terapie", "prevence"]
+tags = ["kompendium", "klinicke-aplikace", "diagnostika", "terapie", "prevence", "epistemicka-rekonstrukce", "vulnerabilni-populace"]
 categories = ["academic", "clinical"]
 
 [extra]
@@ -15,28 +15,116 @@ toc = true
 insert_anchor_links = "right"
 parent = "kompendium"
 access_level = "L1"
-status = "preparation"
+status = "in-progress"
 +++
 
 # 06. Klinické aplikace a diagnostika
 
-Tato sekce přechází z **deskriptivního** do **aplikačního** režimu — popisuje, jak taxonomii používat **defenzivně** v klinické a preventivní praxi.
+Tato sekce přechází z **deskriptivního** do **aplikačního** režimu. Zatímco sekce [03 (Základní kategorie)](/kompendium/03-zakladni-kategorie/) a [04 (Terminální protokoly)](/kompendium/04-terminalni-protokoly/) popisují **co** se děje v procesech epistemické a kognitivní anihilace, sekce 06 odpovídá na otázku **jak rozpoznat, jak intervenovat a jak rekonstruovat** poškozené epistemické struktury u pacientů, klientů a celých vulnerabilních populací.
 
-Sekce zahrnuje:
+> **Poznámka k epistemickému statusu**: Klinická aplikace taxonomie [epistemické anihilace](/glossary/epistemicka-anihilace/) je **mladá disciplína** v procesu konsolidace. Většina protokolů popsaných v této sekci představuje **integraci** existujících evidence-based postupů (trauma-focused CBT, EMDR, narrativní terapie, rekonstrukce kognitivní mapy) s **novou diagnostickou optikou** zaměřenou na metakognitivní, hermeneutické a ontologické komponenty utrpení. Tam, kde je dostupná empirická evidence, je explicitně citována. Tam, kde jde o klinicky odůvodněné rozšíření, je tento status uveden.
 
-- **Kapitola 11** — Diagnostické indikátory a markery
-- **Kapitola 12** — Terapeutické přístupy
-- **Kapitola 13** — Preventivní strategie
+## Účel sekce
 
-## Stav publikace
+Sekce 06 slouží **třem hlavním cílům**:
 
-Sekce je v **přípravné fázi**. Některé komponenty jsou již zachyceny v [techniques](/kompendium/techniques/) jako **Detekční markery** a **Neutralizační strategie** v rámci jednotlivých technik.
+1. **Diagnostický cíl** — poskytnout klinikům operacionalizovatelné markery pro identifikaci jednotlivých kategorií [EA](/glossary/epistemicka-anihilace/) a [KA](/glossary/kognitivni-anihilace/) v klinickém setkání. Cílem není vytvořit nový diagnostický manuál konkurující DSM-5-TR či ICD-11, nýbrž poskytnout **komplementární optiku** umožňující rozpoznat fenomény, které klasické nosologie buď nepokrývají, nebo je redukují na povrchové symptomy.
+2. **Terapeutický cíl** — popsat strukturu intervencí adaptovaných specificky pro klienty po expozici systematickým epistemickým útokům (kultovním systémům, gaslightingu, ideologickým indoktrinacím, dlouhodobému informačnímu zneužívání). Tyto intervence kombinují trauma-fokusovanou terapii s **epistemickou rehabilitací** — obnovou důvěry v vlastní poznávací aparát.
+3. **Etický cíl** — formulovat zásady práce s vulnerabilními populacemi, kde riziko sekundární viktimizace, zneužití důvěry a iatrogenních poškození je strukturálně vyšší než v běžné klinické populaci.
+
+## Kapitoly
+
+| # | Článek | Téma | Cílová skupina |
+|---|--------|------|----------------|
+| 6.1 | [Diagnostické indikátory a markery EA](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) | Per-EA detekční markery, screening instrumenty, klinická rozhodovací pravidla | Kliničtí psychiatři, psychologové, GP |
+| 6.2 | [Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/) | Rozlišení EA od trauma-spektra, disociativních a psychotických poruch | Klinici, soudní znalci |
+| 6.3 | [Terapeutické přístupy — přehled](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/) | Trauma-focused, narrativní rekonstrukce, epistemická rehabilitace | Psychoterapeuti, klinici |
+| 6.4 | [Protokoly epistemické rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) | Pětistupňový protokol obnovy poznávací autonomie | Pokročilí terapeuti, výzkumníci |
+| 6.5 | [Práce s vulnerabilní populací](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/) | Děti, post-kult, uprchlíci, oběti dlouhodobého trauma | Krizoví pracovníci, sociální služby |
+
+Plánované rozšíření sekce zahrnuje navíc kapitoly o klinických případových studiích (06.6), prevenci v populační rovině (06.7), institucionálních aplikacích (06.8–11) — viz [hub kompendia](/kompendium/) pro aktuální stav.
+
+## Klíčové koncepty
+
+### Epistemické trauma
+
+Sekce 06 zavádí klinický koncept [**epistemického traumatu**](/glossary/epistemicke-trauma/) — specifické formy psychického zranění, jehož **primárním cílem útoku je samotný poznávací aparát**, nikoli (jen) tělo, identita či vztahy. Diagnostickým specifikem je trvalé narušení důvěry ve vlastní [metakognici](/glossary/metakognice/) — pacient ztrácí schopnost důvěřovat svým úsudkům, vzpomínkám a interpretacím. Tento syndrom přesahuje klasické cPTSD, protože jeho jádrem není emoční dysregulace, nýbrž **epistemická dezorientace**.
+
+### Diferenciační optika
+
+Klinický pracovník pracující s tímto kompendiem získává sadu **diferenciačních otázek**, které doplňují standardní psychiatrický rozhovor:
+
+- Cíl útoku: byly poškozeny **procesy poznávání** (strukturální EA), nebo specifická **přesvědčení** (obsahová EA)?
+- Časový průběh: šlo o **akutní epizodu** (např. krátký gaslighting) nebo **chronickou expozici** (kult, dlouhodobé partnerské násilí)?
+- Vědomí útoku: byl pacient útoku **vědomě vystaven** (ideologická indoktrinace) nebo **implicitně** (akademická manipulace, mediální gaslighting)?
+- Reverzibilita: jsou poškozené struktury **rekonstruovatelné**, nebo došlo k [ontologické anihilaci](/glossary/ontologicka-anihilace/)?
+
+### Riziko iatrogenního poškození
+
+Vulnerabilní populace (oběti gaslightingu, post-kult klienti, oběti politických represí) jsou specificky náchylné k **sekundární viktimizaci** v klinickém kontextu. Klinik, který nerozpozná epistemickou dimenzi utrpení, riskuje:
+
+- **Patologizace** legitimní rezistence vůči manipulaci jako paranoie;
+- **Validace** manipulátorovy narativy skrze diagnostickou kategorizaci pacienta jako "labilního";
+- **Reinscenace** mocenské dynamiky útoku v terapeutickém vztahu.
+
+Sekce 06.5 se těmto rizikům věnuje detailně.
+
+## Vztah k ostatním sekcím
+
+| Vazba | Popis |
+|-------|-------|
+| **Sekce 02 (Úvod)** | Teoretický rámec EA/KA — nutné předporozumění |
+| **Sekce 03 (Základní kategorie)** | Akademické techniky, [delegitimizace](/glossary/delegitimizace/) — diagnostické vzory |
+| **Sekce 04 (Terminální protokoly)** | Komplexní destrukční sekvence — typické u post-kult, dlouhodobé domácí násilí |
+| **Sekce 07 (Teoretické reflexe)** | Filozofické a epistemologické důsledky klinické praxe |
+| **Techniques** | [Per-technique](/kompendium/techniques/) detekční markery použité jako diagnostické nástroje |
+
+## Vztah k platformě Prismatic
+
+Klinické aplikace kompendia jsou propojeny s platformou Prismatic skrze tři hlavní integrační body:
+
+- **[Decision Engine](/hub/dd/decisions/)**: kalibrace klinické důvěry využívá indikátory epistemické manipulace jako negativní signály — pomáhá klinikovi rozpoznat, kdy data od pacienta byla pravděpodobně formována vnějším útokem.
+- **[NABLA Infinity](/glossary/nabla-infinity/)**: úrovně L0–L13 epistemické pipeline odpovídají vývojovým fázím poznávacího aparátu, jejichž poškození lze mapovat do diagnostické osy.
+- **[Color Teams](/glossary/color-teams/)**: defenzivní agenti využívají markery z této sekce pro detekci epistemických útoků v reálném čase v institucionálních kontextech.
+
+## Bezpečnostní úroveň přístupu
+
+| Úroveň | Sekce | Cílová skupina |
+|--------|-------|----------------|
+| **L1 — Základní** | celá sekce 06 | Studenti psychologie a medicíny, kliničtí praktikanti |
+| **L2 — Rozšířený** | + integrace s 04 | Atestovaní psychoterapeuti, kliničtí specialisté |
+| **L3 — Specializovaný** | + sekce 06.5 (vulnerabilní populace) | Soudní znalci, krizoví pracovníci s etickou supervizí |
+
+## Etický rámec klinické aplikace
+
+Aplikace kompendia v klinické praxi se řídí **rozšířenou interpretací** etických principů:
+
+| Princip | Klinická specifikace |
+|---------|---------------------|
+| **Primum non nocere** | Diagnostická kategorizace nesmí sama o sobě reinscenovat manipulaci. Diagnóza je nástroj, nikoli identita. |
+| **Informovaný souhlas** | Pacient má právo znát teoretický rámec, v němž je jeho utrpení interpretováno. |
+| **Epistemická autonomie** | Cílem terapie **není převod** pacienta z jedné mistrovské narativy do druhé, nýbrž **obnova jeho schopnosti** vlastní narativy. |
+| **Transparentní limitace** | Klinik explicitně sděluje, kdy operuje na hraně empirické evidence a kdy aplikuje klinicky odůvodněnou inovaci. |
+
+## Doporučený postup čtení
+
+Pro **klinika začínajícího** s kompendiem doporučujeme následující sekvenci:
+
+1. **Nejprve** — sekce [01 (Předmluva)](/kompendium/01-predmluva/) a [02 (Úvod)](/kompendium/02-uvod/) pro teoretický rámec;
+2. **Diagnostika** — [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) a [6.2 Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/);
+3. **Terapie** — [6.3 Terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/) a [6.4 Protokoly rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/);
+4. **Specifické skupiny** — [6.5 Vulnerabilní populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/);
+5. **Doplněk** — [techniques](/kompendium/techniques/) pro per-technique detekční detail.
 
 ## Související
 
-- [Hub kompendia](/kompendium/)
-- [Techniques index](/kompendium/techniques/)
-- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [Hub kompendia](/kompendium/) — návrat na úvodní stranu
+- [Sekce 02: Úvod](/kompendium/02-uvod/) — teoretický rámec
+- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/) — akademické techniky
+- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/) — komplexní destrukční sekvence
+- [Techniques index](/kompendium/techniques/) — per-technique katalog
+- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
+- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
 
 ---
 
@@ -44,4 +132,5 @@ Sekce je v **přípravné fázi**. Některé komponenty jsou již zachyceny v [t
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
 - [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)

@@ -1,0 +1,232 @@
++++
+title = "6.3 Terapeutické přístupy — přehled"
+description = "Trauma-focused intervence, narativní rekonstrukce, epistemická rehabilitace — komplexní přehled terapeutických modalit pro klienty po expozici epistemické anihilaci."
+weight = 3
+
+[taxonomies]
+tags = ["kompendium", "klinicke-aplikace", "terapie", "trauma-focused", "narativni-terapie", "epistemicka-rehabilitace", "psychoterapie"]
+categories = ["academic", "clinical"]
+
+[extra]
+parent = "kompendium-06-klinicke-aplikace"
+section_icon = "🧭"
+toc = true
++++
+
+# 6.3 Terapeutické přístupy — přehled
+
+## Úvodní rámec
+
+Terapie klientů zasažených [epistemickou anihilací](/glossary/epistemicka-anihilace/) (EA) **není samostatnou modalitou**, nýbrž **integrativní strukturou** kombinující evidence-based postupy z trauma-focused terapie, narrativní terapie, kognitivně-behaviorální terapie a specifické techniky **epistemické rehabilitace**. Tato kapitola poskytuje **přehled** dostupných modalit a jejich indikací; detailní pětistupňový protokol je rozpracován v [6.4](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/).
+
+## Tři pilíře terapeutické práce
+
+Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
+
+| Pilíř | Cíl | Klíčové modality |
+|-------|-----|------------------|
+| **1. Stabilizace a bezpečí** | Snížit akutní distres, zajistit bezpečné prostředí | Stabilizační dovednosti, psychoedukace, krizová intervence |
+| **2. Trauma-fokusovaná práce** | Zpracovat traumatické zážitky z období expozice | TF-CBT, EMDR, prolongovaná expozice, somatic experiencing |
+| **3. Epistemická rehabilitace** | Obnovit poznávací autonomii a [metakognici](/glossary/metakognice/) | Narativní rekonstrukce, dialogická validace, hermeneutická obnova |
+
+**Sekvence pilířů je kritická**: vstoupit do trauma-fokusované práce **před** stabilizací nebo **bez** epistemické rehabilitace často vede k retraumatizaci.
+
+## Pilíř 1: Stabilizace a bezpečí
+
+### Cíle stabilizační fáze
+
+- Snížit akutní symptomy úzkosti, disregulace, suicidality;
+- Zajistit **fyzickou bezpečnost** (zejména u klientů s pokračujícím vystavením manipulátorovi);
+- Zajistit **epistemickou bezpečnost** — přístup k důvěryhodným zdrojům, omezení kontaktu s manipulativním prostředím.
+
+### Klíčové intervence
+
+| Intervence | Popis | Indikace |
+|-----------|-------|----------|
+| **Psychoedukace o EA** | Vysvětlení, co se s pacientem strukturálně dělo | Téměř všichni klienti |
+| **Stabilizační dovednosti** | Grounding, dýchání, somatické techniky | Akutní disregulace |
+| **Mapování bezpečné zóny** | Identifikace osob, prostorů, aktivit, kde je klient v bezpečí | Všichni klienti |
+| **Plán bezpečí** | Konkrétní kroky pro krizové situace | Klienti s pokračujícím rizikem |
+| **Spánková hygiena** | Strukturovaná intervence | Časté narušení spánku po EA |
+
+> **Specifikum EA**: Psychoedukace má pro klienty po EA **dvojí terapeutický efekt** — kromě informačního obsahu funguje jako **validace zkušenosti**. Mnoho klientů poprvé v životě slyší, že jejich symptomy mají strukturu a jméno, což samo o sobě iniciuje rekonstrukci [metakognice](/glossary/metakognice/).
+
+### Specifika stabilizace u EA
+
+- **Pomalejší tempo** než u klasického PTSD — klient potřebuje čas na obnovu epistemické důvěry v terapeuta;
+- **Explicitní informovaný souhlas** s každým krokem terapie — opak manipulativní dynamiky;
+- **Validace pochybností** — klientova pochybnost o terapeutovi není odporem, ale **chráněnou zbytkovou epistemickou autonomií**.
+
+## Pilíř 2: Trauma-fokusovaná práce
+
+### Trauma-Focused CBT (TF-CBT)
+
+Adaptovaný TF-CBT pro klienty po EA zahrnuje:
+
+- **Psychoedukaci** rozšířenou o epistemickou složku;
+- **Kognitivní zpracování** s důrazem na rekonstrukci, nikoliv "korekci" myšlení;
+- **Imaginativní expozici** s rozšířením o **epistemické momenty** (ne jen fyzické trauma);
+- **Vytvoření trauma-narativy** s integrací epistemické dimenze.
+
+### EMDR (Eye Movement Desensitization and Reprocessing)
+
+EMDR je u klientů po EA **vysoce účinný** pro zpracování:
+
+- Specifických traumatických událostí v rámci dlouhodobé expozice;
+- Diskrétních epizod gaslightingu nebo manipulativních útoků;
+- Disociativních fragmentů, které se vynořují během rekonstrukce.
+
+**Adaptace pro EA**: Targetování zahrnuje nejen klasické trauma-momenty, ale i **epistemické zlomy** — okamžiky, kdy klient ztratil důvěru ve vlastní vnímání.
+
+### Prolongovaná expozice (PE)
+
+PE je užitečná pro klienty s **specifickými fobiemi** vzniklými v období expozice (např. fobie z konfrontace, fobie z autorit). Adaptace pro EA vyžaduje opatrnost — expozice nesmí reinscenovat dynamiku útoku.
+
+### Somatic Experiencing a tělově orientované přístupy
+
+EA často vede k **somatickým rezervoárům** trauma — chronickému napětí, dechovým vzorcům úzkosti, ztrátě tělového kotvení. Tělově orientované intervence (Somatic Experiencing, Sensorimotor Psychotherapy, jóga-terapie) tvoří **komplementární komponentu** terapeutické práce.
+
+### IFS (Internal Family Systems)
+
+IFS je obzvláště užitečný u klientů s pokročilou EA, protože pracuje s **vnitřními částmi**, z nichž některé byly **manipulátorem koloniizovány** (introjekty). Práce s těmito částmi umožňuje:
+
+- Identifikaci introjektů jako "ne-self" elementů;
+- Postupnou diferenciaci klienta od introjektů;
+- Obnovu kontaktu s autentickým **Self**.
+
+## Pilíř 3: Epistemická rehabilitace
+
+Toto je **specifický příspěvek** terapie EA, který odlišuje ji od klasické trauma-terapie. Pilíř 3 detail v [6.4](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), přehled zde:
+
+### Narativní rekonstrukce
+
+Cílem je obnova **koherentní self-narrativy**:
+
+- Identifikace **importovaných narrativ** od manipulátora;
+- Rozlišení autentických a vnucených self-popisů;
+- Integrace fragmentovaných period života;
+- Vytvoření **post-traumatické narrativy** s integrovanou zkušeností.
+
+**Klíčové techniky**:
+- "Chronologie života" — strukturovaný walkthrough biografií;
+- "Externalizace" — narativní technika oddělení problému od osoby;
+- "Re-authoring" (M. White) — autorství vlastní příběhu.
+
+### Dialogická validace
+
+V dlouhodobé EA klient ztrácí přístup k vnitřnímu validačnímu systému. Dialogická validace nabízí **přechodný externí systém**, který je následně **internalizován**:
+
+- Terapeut systematicky validuje klientovy percepce, vzpomínky, emoční reakce;
+- Klient je veden k **postupnému převzetí** validace;
+- Vyhýbá se však *pseudovalidaci* — terapeut nesmí validovat **manipulátorem importované narrativy**.
+
+### Hermeneutická obnova
+
+Cílem je obnova schopnosti **interpretovat významy**:
+
+- Práce s víceznačností textů (literatura, poezie);
+- Cvičení rozpoznání ironie, metafory, kontextu;
+- Reflexe interpretačních posunů v klientově vlastní biografii;
+- Postupné rozšiřování hermeneutického repertoáru.
+
+### Metakognitivní trénink
+
+Specifické techniky pro obnovu [metakognice](/glossary/metakognice/):
+
+- **MCT (Metacognitive Therapy)** — A. Wells: práce s metakognitivními přesvědčeními;
+- **MERIT** (Metacognitive Reflection and Insight Therapy) — Lysaker: integrativní rekonstrukce metakognitivní kapacity;
+- **Mindfulness-based protokoly** — MBCT, MBSR — rozvoj observační metakognice.
+
+### Dialektická konfrontace s evidencí
+
+Klíčová a etiky náročná intervence — **postupná konfrontace** klienta s evidencí, která zpochybňuje **importované narrativy**:
+
+- **Pomalá**: nikdy ne v jediném sezení;
+- **Spojená s podporou**: konfrontace nesmí proběhnout bez emoční podpory;
+- **Klient-iniciovaná**: terapeut **nabízí**, klient **rozhoduje**;
+- **Reverzibilní**: pokud konfrontace způsobí dekompenzaci, návrat ke stabilizaci.
+
+## Modality podle stádia
+
+| Stádium | Cíl | Doporučené modality |
+|---------|-----|---------------------|
+| **Akutní krize** | Stabilizace, bezpečí | Krizová intervence, psychoedukace, stabilizační dovednosti |
+| **Časná rekonstrukce** | Validace, narativní mapování | Narativní terapie, IFS, dialogická validace |
+| **Trauma-zpracování** | Zpracování diskrétních traumat | EMDR, TF-CBT, PE |
+| **Epistemická rehabilitace** | Obnova metakognice, hermeneutiky | MCT, MERIT, mindfulness, dialektická konfrontace |
+| **Konsolidace** | Integrace, prevence relapsu | Skupinová terapie, peer-support, expresivní terapie |
+
+## Skupinová terapie
+
+Pro klienty po EA jsou **specializované skupiny** mimořádně účinné — peer-validace má odlišnou kvalitu než individuální dialogická validace. Indikace:
+
+- **Post-kult skupiny** — klienti po výstupu z koercivních skupin;
+- **Survivor skupiny** — oběti dlouhodobého gaslightingu, intimního partnerského násilí;
+- **Skupiny pro děti rodičů s vážnými poruchami osobnosti** — specifický kontext rané EA.
+
+**Kontraindikace**: Klienti s aktivní psychotickou symptomatikou, s rizikem suicidality bez stabilizace, s vysokým rizikem reinscenace skupinové dynamiky.
+
+## Farmakoterapie
+
+Farmakoterapie u EA je **adjuvantní**, nikoli kauzální. Indikace:
+
+- **SSRI/SNRI** — komorbidní depresivní porucha, GAD;
+- **Prazosin** — noční můry u PTSD složky;
+- **Atypická antipsychotika v nízkých dávkách** — pouze při výrazné disociaci nebo akutní dekompenzaci;
+- **Trazodon, hydroxyzin** — krátkodobá podpora spánku;
+- **Benzodiazepiny** — opatrně a krátkodobě, riziko závislosti je u této populace zvýšené.
+
+> **Etické upozornění**: U klientů po EA hrozí **specifické riziko** pasivního přijetí medikace bez reflexe. Lékař musí explicitně podporovat klientovu epistemickou autonomii ve vztahu k léčbě.
+
+## Specifika terapeutického vztahu
+
+Terapeutický vztah u klientů po EA má **kvalitativně odlišnou** dynamiku:
+
+- **Asymetrie** se musí explicitně tematizovat — klient byl traumatizován mocenskou asymetrií;
+- **Důvěra** se buduje pomaleji a opakovaně musí být validována;
+- **Rupture and repair** dynamika je **terapeutickou příležitostí** — opětovná oprava narušené důvěry je sama o sobě rekonstrukční;
+- **Transparentnost** — terapeut explicitně sděluje, co dělá a proč;
+- **Kritika terapeuta klientem** je vítána a respektována — opak manipulativní dynamiky.
+
+## Riziko iatrogenního poškození
+
+| Riziko | Prevence |
+|--------|----------|
+| **Reinscenace** mocenské dynamiky | Explicitní reflexe, supervize, kolegiální konzultace |
+| **Substituce manipulátora** terapeutem | Podpora klientovy autonomie, vícezdrojové prostředí |
+| **Nadměrná konfrontace** s evidencí | Pomalé tempo, klient-iniciovaná konfrontace |
+| **Hluboká regrese** bez stabilizace | Sekvenční respekt k pilířům (Stabilizace → Trauma → Rehabilitace) |
+| **Přenos negativních introjektů na terapeuta** | Práce s introjekty v IFS rámci |
+
+## Outcomes a dlouhodobá prognóza
+
+Empirická evidence pro EA-specifické intervence je **omezená** (mladá disciplína), ale související oblasti (post-kult terapie, terapie obětí gaslightingu) ukazují příznivé prognostické faktory:
+
+- **Včasná identifikace** — rychlejší zotavení;
+- **Bezpečí** — odpojení od manipulativního prostředí;
+- **Sociální podpora** — alespoň jedna stabilní non-manipulativní vazba;
+- **Epistemická resilience** — předchozí vzdělání nebo zkušenost s reflexivním myšlením;
+- **Adekvátní terapie** — sekvenční respekt k pilířům.
+
+## Související
+
+- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- [6.2 Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+- [6.4 Protokoly epistemické rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) — detail pilíře 3
+- [6.5 Práce s vulnerabilní populací](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
+- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
+- [Glossary: Metakognice](/glossary/metakognice/)
+- [Glossary: Hermeneutika](/glossary/hermeneutika/)
+- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
+- [Glossary: Gaslighting](/glossary/gaslighting/)
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)

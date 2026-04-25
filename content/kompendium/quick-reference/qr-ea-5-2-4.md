@@ -13,27 +13,33 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.4 Apriorni saturace
+# QR Card — EA-5.2.4 Apriorní saturace
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Doména**: Metatranscendentální anihilace — útok na strukturu apriorních podmínek poznání skrze jejich přesycení nelegitimními "apriorními pravdami".
 
-## Operacni cíl
+## Operační modus (3 kroky)
 
-Destabilizace Apriorni saturace skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+1. Vnesení doktrinálních tezí (kosmologických, antropologických, etických) do subjektova diskurzu jako "apriorních" — předtím, než vůbec mohly být zpochybněny
+2. Imunizace tezí proti empirickému zpochybnění — "to nelze testovat, je to apriorně dáno"
+3. Konsolidace skrze kruhovou strukturu — empirie je interpretována tezí, teze je "potvrzena" empirií, kterou sama strukturuje
 
-## Indikatory pokrocile EA
+## Detekční markery (3 nejvýraznější)
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Subjekt formuluje tvrzení ("vesmír je vědomý", "duše existuje", "dobro vítězí") jako "samozřejmá" bez ochoty argumentovat
+- Pokus o empirický test je rámován jako "kategorizační chyba" — "tato pravda nemá empirický status"
+- Rozpor mezi apriorně přijatým tvrzením a běžnou empirickou zkušeností je vyřešen ve prospěch apriorní teze, vždy
 
-## Klinicka odpoved
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+- Strukturální Kantův audit — odlišení matematicko-logických apriori (legitimních) od pseudo-apriorních doktrín; kritérium syntheticko/analytické
+- Empirický falsifikační test — pro každé tvrzení vyžadovat scénář, ve kterém by bylo nepravdivé; absence scénáře = pseudo-apriori
+- Historicko-filosofický kontext — ukázat, že tvrzení patří do specifické tradice, není transhistoricky platné
+
+## Příklad
+
+Komunita věřících v "kvantové vědomí" tvrdí jako apriori, že "myšlenky vytvářejí realitu". Subjekt po dvou letech expozice nedokáže pojmout výrok jako tvrditelný; pro něj je "samozřejmý". Při klinické konfrontaci s placebo studiemi (kde efekt je 30-40 %, nikoli 100 %) reaguje "to je iluze měření, kvantové vědomí pracuje na hlubší úrovni".
 
 ## Cross-linky
 

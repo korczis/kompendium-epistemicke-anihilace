@@ -11,57 +11,81 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 56-incel-deep-recovery: Incel deep recovery
+# Pripadova studie 56-incel-deep-recovery: Hlubsi zotaveni z incel ideologie
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 56-incel-deep-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 56-incel-deep-recovery) byl muz ve veku 25 let, vystudovaný IT, ktery se postupne ponořil do hlubších úrovní incel komunity (forumy, blackpill, "looksmaxxing"). Před totalizací vykazoval introvertní temperament, dobré akademické výsledky, ale chronické sociální obtíže od adolescence. Vstupní motivace: vysvětlení vlastních romantických neúspěchů.
+
+Rizikové faktory: chronická sociální izolace, vysoký standard "ideálního" partnerského vztahu (porno-influenced), kombinace vysoké inteligence a slabých sociálních dovedností, anonymní online přístup, a specifická pseudo-vědecká rétorika incel komunit.
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-3 | Reddit r/incels, "blackpill" videa |
+| **Perturbace** | mesice 4-12 | Hluboké forumy, sebehodnocení, "looksmaxxing" |
+| **Rekonfigurace** | roky 1-2 | Plný incel světonázor, izolace |
+| **Konsolidace** | roky 2-4 | Identita = incel, sebepoškozující ideace, plánované násilí (fantazie) |
+| **Exit / detekce** | rok 4+ | Akutní krize, hospitalizace, externi konfrontace |
+
+V inicialni fazi byl subjekt přitažen k incel content na Reddit. "Blackpill" videa nabízela vysvětlení neúspěchů — ne jeho chyba, ale "deterministická genetika".
+
+V perturbacni fazi se prohlubovalo zapojení. Subjekt se připojil k uzavřenějším forumům, začal "looksmaxxing" (intenzivní fokus na vzhled), trávil hodiny analyzováním vlastních fotografií. "Blackpill" se stala kompletním rámcem.
+
+Rekonfiguracni faze: kompletní incel světonázor. Subjekt internalizoval přesvědčení o "Stacy"-"Chad" hierarchii, "femoid" rétoriku, deterministickou genetiku. Sociální izolace se prohloubila.
+
+Konsolidacni faze: identita = "involuntary celibate". Sebepoškozující ideace, fantazie o pomstě (bez plánu, ale významné). Akutní úzkost, deprese. Profesní kapacita zachována, sociální zhroucená.
+
+Exit byl iniciovan suicidalní krizí a hospitalizací. Hospitalizační kontakt s mladým terapeutem-mužem, který se vyznal v incel kultuře, byl zlomovou.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — incel slang ("blackpill", "femoid", "looksmaxxing")
+- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "Chad nebo incel" jako jediné kategorie
+- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — bolest osamělosti jako emoční kotva
+- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kazda zkušenost = "incel theory"
+- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — fora jako pseudo-validace
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — anonymní "veteráni" jako autority
+- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — identita redukovaná na sexualní status
+- [EA-1.2.2 Falesna ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) — nepravdivá generalizace ze osobní zkušenosti
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisoval: "Roky jsem si myslel, že vidím pravdu, kterou ostatní popírají. Že žensky jsou zlé, že muži jsou utlačováni, že já jsem oběť genetiky. A pak terapeut mi řekl: 'A teď zkus přemýšlet o tom, kdo má prospěch z toho, abys to věřil.' A někde se mi rozsypal celý systém. Byl jsem v odpadlickém klubu, který profitoval z mé bolesti."
+
+Tato narace odpovida [metakognitivni rekonstrukci](/glossary/metakognitivni-destrukce/) a uvedení [betrayal trauma](/glossary/betrayal-trauma/).
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Suicidalní krize a hospitalizace. Klicovy moment: terapeut, který se vyznal v incel kultuře, mohl vést dialog bez moralizujícího odsudku.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Hospitalizace, farmakoterapie deprese a úzkosti.
+**S2 - Externi epistemicka kotva:** Skupinová terapie pro mužské emocionální zdraví, mentoring od muže s integrovanou maskulinitou.
+**S3 - Identitni rekonstrukce:** Hledání identity mimo sexuální status, mužské emocionální vzdelaní, sociální dovednosti.
+**S4 - Sociální rehabilitace:** Postupné budování friendship-first vztahů (ne romantické), pak terapeuticky podporovaná data.
+**S5 - Integrace:** Subjekt se stal obhájcem mužského duševního zdraví.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 36 měsících terapie funkční stabilizace. Restituce sociální schopnosti, první stabilní partnerský vztah ve veku 28 let. Reziduální: opatrnost vůči online maskulinistické rétorice.
+
+## Klinicke pouceni
+
+Incel deep recovery vyžaduje terapeuta, který se vyzná v subkulturní rétorice a může vést dialog bez moralizace. Klinik musí pracovat s emocionálním jádrem (osamělost, neúspěch) ne jen s ideologickým povrchem. Reformně: mužské emocionální vzdělání a mediální gramotnost jsou strukturní prevence.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
+- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/), [EA-1.2.2](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

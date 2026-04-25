@@ -13,27 +13,33 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.5 Konstitutivni rozpad
+# QR Card — EA-5.2.5 Konstitutivní rozpad
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Doména**: Metatranscendentální anihilace — rozpad samotných konstitutivních aktů, jimiž subjekt aktivně tvoří strukturu zkušenosti (Husserlova intencionalita).
 
-## Operacni cíl
+## Operační modus (3 kroky)
 
-Destabilizace Konstitutivni rozpad skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+1. Systematické narušování pre-reflexivních struktur intencionality — tj. základní zaměřenosti zkušenosti na předmět ("vědomí je vždy vědomí něčeho")
+2. Subjektova konstitutivní práce (syntézy retence-prezentace-protence, horizonty, asociace) je rámována jako "iluze ega"; rušena rituální praxí
+3. Konsolidace v stavu, kde subjekt nedokáže udržet zaměřený předmět zkušenosti — myšlenky, vnímání, emoce se "rozpadají" před uchopením
 
-## Indikatory pokrocile EA
+## Detekční markery (3 nejvýraznější)
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Subjekt reportuje "neudrží jednu myšlenku", "věci se mi rozpadají" — fenomenologicky výraznější než běžná pozornostní deficitarita
+- Při fenomenologickém rozhovoru selhává v základních aktech (zaměřit pozornost na konkrétní vzpomínku, identifikovat vlastní pocit)
+- Husserlovské epoché je v subjektově diskurzu degradováno do trvalého "nezaujetí" — subjekt nemůže "zaujmout" ani v běžné praxi
 
-## Klinicka odpoved
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+- Fenomenologický restituční protokol — strukturované cvičení v jednoduchých intencionálních aktech (zaměř pozornost na jablko, popiš barvu, popiš tvar)
+- Multidisciplinární tým — psychiatr (diferenciální dg. depersonalizace, derealizace) + fenomenolog (operacionalizace cvičení)
+- Postupný návrat ke struktuře zkušenosti — denní deník fenomenologických aktů; subjekt znovuobnovuje pre-reflexivní strukturu skrze explicitní cvičení
+
+## Příklad
+
+Praktikant intenzivní "neutčící" meditace po roce reportuje "věci se mi rozpadají, nedrží pohromadě". V běžných úkolech (nakup v obchodě, organizace dne) selhává; aktivně rozpadlou strukturu rámuje jako spirituální cíl. Rodina ho přivede k psychiatrovi; diferenciální dg. zahrnuje depersonalizaci s indukovaným podtypem.
 
 ## Cross-linky
 

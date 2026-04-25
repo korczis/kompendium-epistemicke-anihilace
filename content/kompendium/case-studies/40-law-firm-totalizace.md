@@ -1,9 +1,9 @@
 +++
-title = "Pripad 40-law-firm-totalizace: Law firm totalizace"
-description = "Anonymizovana pripadova studie — Law firm totalizace. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Pripad 40-law-firm-totalizace: BigLaw totalizace"
+description = "Anonymizovana pripadova studie — BigLaw totalizace. Komplexni 12-sekcni analyza: kontext, vstupni modus, fenomenologicky kurz, EA mapovani, intervence a recovery."
 weight = 40
 [taxonomies]
-tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
+tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
 parent = "kompendium-case-studies"
@@ -11,54 +11,106 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 40-law-firm-totalizace: Law firm totalizace
+# Pripadova studie 40-law-firm-totalizace: BigLaw totalizace
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene nebo agregovany napric vice realnymi pripady. Pouzitelne pouze pro edukativni, vyzkumne a klinicke ucely. Zadne identifikujici udaje nesmi byt rekonstruovany.
 
-## Background subjektu
+## 1. Kontext a populacni vymezeni
 
-Subjekt (anonymizovany kod 40-law-firm-totalizace) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Pripad 40-law-firm-totalizace reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **Vault top-50 právní kancelar (Cravath/Wachtell typ) s billable hour kultem, partnership track 7-10 let, 'eat what you kill' kultura**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
 
-## Casova osa expozice
+Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](/glossary/coercive-control/), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+
+## 2. Vstupni modus
+
+Vstupni vektor v této kohorte byl: **absolvent T14 law school; associate program s 'eat what you kill' billable hour normou (2200+ ročne)**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
+
+Strukturalní podobnost s [Hassanovym BITE modelem](/glossary/coercive-control/) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+
+## 3. Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodneho kontaktu, budovani zavislosti, prvni pozitivni reinforcement (love-bombing-typ vzorec adaptovany pro kontext) |
+| **Perturbace** | mesice 4-12 | Postupne introdukovani ideovych disonanci, destabilizace alternativnich epistemickych zdroju, prvni 'osvícení' / 'breakthrough' / 'awakening' moment |
+| **Eskalace** | mesice 13-24 | billable hours nahrazujou jakekoli mim-prace identita; 'family commitments' diskuse delegitimizovane; mentor-partnership system kontroluje cas |
+| **Konsolidace** | roky 2-5 | partnership=goal=identita; mimo-firma legal community delegitimizovana; alumni-network blokuje zahranicni odchodne moznosti |
+| **Detekce / spousteci udalost** | promenna | zdravotni krize (substance abuse), partnerska krize, kolegyne suicide pred partnership decision |
+| **Exit / rekonstrukce** | rok 5+ | transfer do in-house counsel role (regularni hodiny), addiction recovery, divorce process, dlouhodoba terapie |
 
-## EA techniky manifestovane
+## 4. EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
+V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
 
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — legal jargon + 'billable narrative' rétorika
+- [EA-1.5.1 Strategicka proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) — office cultura 'first in, last out'
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/) — partner-mentor jako brana k partnership
+- [EA-5.1.10 Temporalni dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) — billable cyklus rozbiji koncepty 'volneho casu'
+- [EA-5.3.42 Self-objektifikace totalni](/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni/) — self mereny v billable hours/originations
 
-## Fenomenologicky kurz
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/03-zakladni-kategorie/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/03-zakladni-kategorie/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare) klasifikovanym jako [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+## 5. Fenomenologicky kurz
 
-## Detekcni bod
+Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/), v pokrocilejsich fazich pak [metakognitivni destrukce](/glossary/metakognitivni-destrukce/) a v terminalnich fazich [epistemicke anihilace](/glossary/epistemicka-anihilace/).
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Specificke pro tento kontext: **automatizovany 6-min interval kontroly emaily, panika pri kazdem 'urgent' alert, somatizovana vina pri ne-billable cinnostech**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
 
-## Intervencni strategie
+Z pohledu fenomenologie tela (Merleau-Ponty, Husserl) byly pozorovany somaticke korelaty epistemicke kontroly: deregulovany dech v exo-kontextovych situacich, hypervigilance specifické pro signaly skupinove autorit, narusena propriocepce v prostorech mimo kontrolovane prostredí. Tyto somaticke znaky jsou casto nejcasnejsi indikatory progresu intervence.
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+## 6. Detekcni bod
 
-## Vysledek
+Spousteci udalosti pro detekci totalizovaneho rezimu sdileli strukturalni vlastnost: **prinesly externe verifikovatelnou udalost, ktera nemohla byt re-interpretovana standardními ramci skupiny bez explicitne paradoxalni reinterpretace**.
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+V této kohorte fungoval detecni bod nasledovne: zdravotni krize (substance abuse), partnerska krize, kolegyne suicide pred partnership decision. Klicove je, ze samotny detekcni bod _neni_ vystupem — je pouhou prilezitostí pro vystup. Mnoho subjektu prochazi detekcnim bodem opakovane bez vystupu, protoze neni k dispozici exo-kontextova podpora.
 
-## Cross-linky
+## 7. Intervencni strategie
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **Vault top-50 právní kancelar (Cravath/Wachtell typ) s billable hour kultem, partnership track 7-10 let, 'eat what you kill' kultura**:
+
+- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/) k akutnim symptomum
+- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](/glossary/betrayal-trauma/) bodů, prvotni kognitivni rekonsolidace
+- **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
+- **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
+- **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
+
+V této kohorte bylo specifické: transfer do in-house counsel role (regularni hodiny), addiction recovery, divorce process, dlouhodoba terapie. Tento prvek by se mel objevit i v intervencnim planu pro analogicke pripady.
+
+## 8. Vysledek
+
+Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+
+**Reziduálni deficity**: financni hit (partnership track ztracen), retraumatizace pri 'high-pressure' deadline kultuách, často moralni injury z minulych klientskych projektu. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
+
+Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled typickych krivek pro tento typ pripadu.
+
+## 9. Scenare a typologicke zaskolení
+
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+
+## 10. Diferencialni diagnostika
+
+Kriticke je odliseni od:
+
+- **C-PTSD bez totalizace** ([c-ptsd](/glossary/c-ptsd/)): podobny symptomovy profil, ale chybi epistemická dimenze
+- **Standardní [betrayal-trauma](/glossary/betrayal-trauma/)**: chybi totalizujici epistemicky aparat
+- **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
+
+Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/).
+
+## 11. Etické a metodologické poznámky
+
+Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/) protokol.
+
+Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
+
+## 12. Cross-linky a dalsi cetba
+
+- **Sekce 03 (Scenare)**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/03-zakladni-kategorie/kapitola-5/)
+- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/), [Terapeuticke pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/), [Epistemicka rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [addiction-recovery](/glossary/addiction-recovery/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [coercive-control](/glossary/coercive-control/), [epistemicka-injustice](/glossary/epistemicka-injustice/)
+- **EA techniky**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.5.1](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/), [EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/), [EA-5.1.10](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/), [EA-5.3.42](/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 

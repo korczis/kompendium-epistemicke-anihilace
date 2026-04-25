@@ -13,27 +13,33 @@ risk_level = "extreme"
 toc = false
 +++
 
-# QR Card — EA-5.2.2 Transcendentalni iluze
+# QR Card — EA-5.2.2 Transcendentální iluze
 
-> WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
+> WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Doména**: Metatranscendentální anihilace — útok na transcendentální podmínky poznání (Kantovské kategorie, Husserlovská intencionalita).
 
-## Operacni cíl
+## Operační modus (3 kroky)
 
-Destabilizace Transcendentalni iluze skrze sistematicke narusovani konstitutivnich struktur poznavajici subjektivity.
+1. Indukce dojmu, že subjekt "viděl" něco za hranicí možného poznání (Kantovo Ding-an-sich, "absolutní pravdu") — strukturní kategorialní omyl
+2. Stabilizace iluze rituální praxí + komunitní validací — "ano, on viděl, my taky"
+3. Konstrukce identity okolo "viděného" — subjekt nelze přesvědčit racionální argumentací, protože každý argument je rámován jako "z této strany hranice"
 
-## Indikatory pokrocile EA
+## Detekční markery (3 nejvýraznější)
 
-- Disrupce v Kantovskych kategoriich (cas, prostor, kauzalita, identita)
-- Husserlovsky redukcni krach
-- Eroze pre-reflexivnich struktur intencionality
+- Subjekt opakovaně reportuje obsahy, které logicky předpokládají operace mimo Kantovy kategorie poznání ("vidím všechny časy najednou", "jsem mimo prostor")
+- Reportované obsahy nejsou vyjádřitelné v jakémkoli jazyce bez metaforické deflace; přitom subjekt trvá na jejich literalitě
+- Sociální skupina kolem subjektu má normu nezpochybňování těchto reportů — kdo zpochybní, je vyloučen jako "nezpůsobilý"
 
-## Klinicka odpoved
+## Neutralizační strategie (3 nejúčinnější)
 
-1. Identifikace urovne ataku (transcendentalni vs. operacni)
-2. Fenomenologicky restitucni protokol
-3. Multidisciplinarni team — psychiatrie + filosofie
+- Diferenciální diagnostika — psychiatr odlišuje transcendentální iluzi od skutečné psychotické zkušenosti; rozdíl je v zachování run-time funkčnosti
+- Strukturní filosofická konfrontace — Kantova kritika; přiměřené uznání transcendentálního aktu poznání bez naturalistické iluze
+- Pragmatická redukce — co konkrétně se na praktickém světě subjektu změnilo? Pokud nic, byla iluze; pokud něco, vyžaduje to operacionální popis
+
+## Příklad
+
+Adept v esoterické skupině reportuje "vystoupení mimo čas — viděl jsem, jak jsou všechny mé inkarnace propojené". Při klinickém rozhovoru je orientován v běžném čase, plánuje budoucí akce, pamatuje si minulost. Tvrzení o "mimo-časovosti" funguje jako identitní fakt, ne jako kognitivní stav.
 
 ## Cross-linky
 

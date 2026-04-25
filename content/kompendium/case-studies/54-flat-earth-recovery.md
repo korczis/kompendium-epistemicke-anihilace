@@ -1,6 +1,6 @@
 +++
-title = "Pripad 54-flat-earth-recovery: Flat earth recovery"
-description = "Anonymizovana pripadova studie — Flat earth recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Pripad 54-flat-earth-recovery: Flat Earth recovery"
+description = "Anonymizovana pripadova studie — Flat Earth recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
 weight = 54
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
@@ -11,57 +11,80 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 54-flat-earth-recovery: Flat earth recovery
+# Pripadova studie 54-flat-earth-recovery: Zotaveni z flat-earth komunity
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 54-flat-earth-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 54-flat-earth-recovery) byl muz ve veku 28 let, pracovni profese (zamecnik), bez vyssiho vzdelani, ktery se postupne ponoril do flat-earth komunity pres YouTube. Před totalizací neměl explicitní zájem o vědu. Vstupní motivace: pocit, že "establishment" lže o všem, hledání alternativní pravdy.
+
+Rizikové faktory: deficit formalní vědecké výchovy, kombinace technické inteligence a slabé filozofie vědy, sociální izolace po rozvodu, a YouTube algoritmus posilující content, ekonomické zázemí pracovní třídy s nedůvěrou v "elity".
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-3 | YouTube videa "NASA hoaxes" |
+| **Perturbace** | mesice 4-12 | Plné flat-earth content, online komunity |
+| **Rekonfigurace** | roky 1-2 | Internalizace, evangelizace, ztráta neflat-earth přátel |
+| **Konsolidace** | roky 2-4 | Identita = flat-earther, izolace |
+| **Exit / detekce** | rok 4+ | Konfrontace s evidence, externi konfrontace |
+
+V inicialni fazi byl subjekt přitažen YouTube videi presentujícími "NASA hoaxes". Algoritmus posiloval expozici. Tato faze měla kvalitu intelektuálního dobrodružství.
+
+V perturbacni fazi se prohlubovalo zapojení. Subjekt sledoval flat-earth conferences online, koupil si kompletní flat-earth literaturu, připojil se k Discord komunitám. Každá kritika byla ramcována jako "důkaz, že establishment se obává pravdy".
+
+Rekonfiguracni faze: kompletní flat-earth identita. Subjekt evangelizoval na sociálních sítích, ztratil přátele, kteří ho odmítli. Komunita flat-earth se stala primarní vrstevnickou skupinou.
+
+Konsolidacni faze: identita se redukovala na flat-earth. Práce zustala, ale veškerý volný čas byl věnován "výzkumu" a online debatam.
+
+Exit byl iniciovan setkáním s pilotem, který trpělivě vysvětloval praktickou navigaci. Toto setkání spolu s návratem k bratrovi (učiteli fyziky) iniciovalo postupnou rekonstrukci.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — útoky na vědeckou autoritu (NASA, vláda)
+- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kazda evidence = "součást konspirace"
+- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — YouTube algoritmus
+- [EA-1.2.3 Iluzorni komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) — pseudo-vědecké vysvětlení (azimuthální projekce, etc.)
+- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — flat-earth komunity jako pseudo-recenzent
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — flat-earth influenceři
+- [EA-5.1.18 Solipsisticka dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/) — "jen my vidíme pravdu"
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisoval: "Když mi pilot ukazoval, jak GPS funguje na sférickém modelu, viděl jsem to. Roky jsem to popíral, ale viděl jsem to. A pak jsem si uvědomil, že jsem byl v bublině, kde jsem viděl jen flat-earth content. Že YouTube se mě nepokouší poznat, ale prodat mi něco. A že já jsem byl tomu trhu."
+
+Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) a následujícímu obnovení.
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Setkání s pilotem a bratrem-fyzikem. Klicovy moment: trpělivý ne-konfrontační rozhovor založený na praktické zkušenosti.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Návrat k rodině, omezení online expozice.
+**S2 - Externi epistemicka kotva:** Bratr-fyzik jako trpělivý mentor, kontakt s bývalými flat-earthery.
+**S3 - Epistemicka rekonstrukce:** Práce na vědecké metodologii pres praktické experimenty.
+**S4 - Sociální rehabilitace:** Restituce přátelství.
+**S5 - Integrace:** Subjekt se stal obhájcem vědecké gramotnosti v dělnické komunitě.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 12 měsících funkční stabilizace. Restituce přátelství, postupná oprava sociálních sítí. Reziduální: studá za roky propagace flat-earth.
+
+## Klinicke pouceni
+
+Flat-earth recovery ukazuje koerci v digitálních platformách. Klinik musí pracovat skrze praktickou zkušenost, ne abstraktní argumenty. Trpělivost a empatie jsou klíčové. Reformně: vědecká gramotnost a kritická mediální výchova.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+- **Glossary**: [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [epistemic-bubble](/glossary/epistemic-bubble/)
+- **Techniques**: [EA-2.1.3](/kompendium/techniques/ea-2-1-3-credentialing-attack/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), [EA-5.1.18](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

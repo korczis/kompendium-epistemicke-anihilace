@@ -11,57 +11,81 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 55-qanon-recovery: QAnon recovery
+# Pripadova studie 55-qanon-recovery: Zotaveni z QAnon konspiracni site
 
 > WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
 
 ## Background subjektu
 
-Subjekt (anonymizovany kod 55-qanon-recovery) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjekt (anonymizovany kod 55-qanon-recovery) byl muz ve veku 52 let, drobny podnikatel, ktery se postupne ponoril do QAnon konspiracni site v období 2018-2022. Před totalizací vykazoval středoškolské vzdělání, stabilní rodinu s dětmi a vnoučaty, a politickou angažovanost na konzervativní straně. Vstupní motivace: nedůvěra v mainstream média, potřeba "skutečné" pravdy.
+
+Rizikové faktory: Facebook jako primárí informační zdroj, ekonomická úzkost (drobné podnikání pod tlakem), kultura "alternativní pravdy", a sociální izolace po smrti manželky.
 
 ## Casova osa expozice
 
 | Faze | Trvani | Klicove udalosti |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+| **Inicialni kontakt** | mesice 1-3 | "Q drops" sdílené na FB, "deep state" rétorika |
+| **Perturbace** | mesice 4-12 | Plný QAnon content, online komunity, "research" |
+| **Rekonfigurace** | roky 1-2 | Kompletní QAnon světonázor, ztráta kontaktu s ne-QAnon přáteli |
+| **Konsolidace** | roky 2-4 | Identita = "patriot", napětí v rodině |
+| **Exit / detekce** | rok 4+ | Akutní krize (předpovědi se nesplnily), externi konfrontace |
+
+V inicialni fazi byl subjekt vystaven "Q drops" sdíleným v jeho FB feed. Tato zpočátku vágní pseudo-zprávy ho zaujaly intrigou.
+
+V perturbacni fazi se prohlubovalo zapojení. Subjekt strávil hodiny denně "research" — sledováním online videí, dešifrováním Q drops, sdílením obsahu. Členství v Telegram skupinách. Familiarita s QAnon slovníkem ("WWG1WGA", "the storm", "trust the plan").
+
+Rekonfiguracni faze: kompletní QAnon světonázor. Subjekt věřil v "deep state" mocný komplot, satanistické rituální zneužívání dětí elitami, "the storm" jako čekavanou očistu. Ztratil kontakt s ne-QAnon přáteli, kteří ho odmítli.
+
+Konsolidacni faze: identita = "patriot, který vidí pravdu". Rodinné vztahy v napětí — dospelé děti odmítaly diskutovat. Vnoučata nesměla "být zatažena do toho".
+
+Exit byl iniciovan opakovaným nesplněním QAnon předpovědí (různé "data D" které prošly). Akutní krize a depresivní epizoda po smrti přítele, ktery zustal v QAnon a stahoval ho dál.
 
 ## EA techniky manifestovane
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
-
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — "Q" jako anonymní guru
+- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z dětského zneužívání jako emoční kotva
+- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — nesplněné předpovědi = "součást plánu"
+- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické bubliny
+- [EA-5.1.18 Solipsisticka dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/) — "jen my víme"
+- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — slang QAnon jako kód
+- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — online "research" komunity
+- [EA-5.1.7 Referencni rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/) — Q drops jako rekurzivní self-validating systém
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+V terapii subjekt popisoval: "Když nepřišla 'storm' po dvacáté sliboch, něco ve mně se rozsypalo. Roky jsem věřil, že vidím pravdu, kterou ostatní ne. Roky jsem byl ten, kdo to chápe. A pak jsem si všiml, že nikdo z nás nevěděl nic — jen jsme si hráli na vědce."
+
+Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) a její oprave. [Betrayal trauma](/glossary/betrayal-trauma/) — důvěra v anonymního "Q" zrazena.
 
 ## Detekcni bod
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Smrt přítele a depresivní epizoda. Klicovy moment: dospelá dcera s expertízou v sociálni práci přivedla subjekta k psychoterapeutovi specializovanému na konspiracni recovery.
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+**S1 - Stabilizace:** Léčba deprese, omezení online expozice.
+**S2 - Externi epistemicka kotva:** Skupinová terapie pro QAnon survivors, kontakt s rodinou.
+**S3 - Epistemicka rekonstrukce:** Práce s falsifikovatelností, predikčním selháním, motivacionálním pohovorem.
+**S4 - Sociální rehabilitace:** Restituce přátelství, omluvy.
+**S5 - Integrace:** Subjekt se stal obhájcem mediální gramotnosti v komunitě.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Po 24 měsících terapie funkční stabilizace. Restituce rodinných vztahů (zejména s dospelyma dětmi), redukce online expozice. Reziduální: ostuda za roky šíření.
+
+## Klinicke pouceni
+
+QAnon recovery vyžaduje pochopení radikalizační dynamiky a empatii. Klinik musí pracovat s emocionálním jádrem (strach o děti, ztráta partnera) ne pouze s konspiracním obsahem. Reformně: mediální gramotnost a podpora ekonomické bezpečnosti jsou strukturní prevence.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
+- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [epistemic-bubble](/glossary/epistemic-bubble/)
+- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-5.1.18](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/), [EA-5.1.7](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)
 - **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
 - **Index pripadu**: [Case studies](/kompendium/case-studies/)
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)

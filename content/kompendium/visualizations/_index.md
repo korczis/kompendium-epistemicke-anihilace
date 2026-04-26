@@ -17,7 +17,7 @@ parent = "kompendium"
 
 # Interaktivní vizualizace EA taxonomie
 
-Deset klikatelných vizualizací umožňujících interaktivní průchod taxonomií [epistemické a kognitivní anihilace](/glossary/epistemicka-anihilace/). Každá vizualizace načítá data ze zveřejněných článků kompendia a propojuje vás přímo do [techniques podknihovny](/kompendium/techniques/).
+Čtrnáct klikatelných vizualizací umožňujících interaktivní průchod taxonomií [epistemické a kognitivní anihilace](/glossary/epistemicka-anihilace/). Každá vizualizace načítá data ze zveřejněných článků kompendia a propojuje vás přímo do [techniques podknihovny](/kompendium/techniques/).
 
 ## 1. Distribuce technik napříč kategoriemi (Chart.js)
 
@@ -103,6 +103,38 @@ Vizualizace [hyperreflexivity (EA-5.1.13)](/kompendium/techniques/) a [referenč
 <div id="nabla-pipeline-viz" style="width:100%; height:600px; background:#0f172a; border-radius:8px;"></div>
 <div id="nabla-pipeline-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
 <script src="/js/kompendium/nabla-pipeline-viz.js"></script>
+
+## 11. Historické případy EA — timeline 1930–2024 (Chart.js)
+
+Scatter chart 40 historických případů: totalitní režimy, kulty, dezinformační operace, akademické experimenty. X = rok, Y = závažnost (1–5), barva = kategorie. Klikni na bod pro popis případu.
+
+<canvas id="historical-cases-timeline" width="800" height="500"></canvas>
+<div id="historical-cases-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/historical-cases-timeline.js"></script>
+
+## 12. Rozhodovací strom protokolů (Three.js 3D)
+
+4-úrovňový 3D strom: detekce → severity (1–2 / 3 / 4–5) → typ protokolu → konkrétní intervence. Klikni na uzel — zvýrazní cestu rozhodnutí + zobrazí detail.
+
+<div id="protocol-decision-tree" class="w-full h-[500px] bg-slate-900 rounded-lg"></div>
+<div id="protocol-tree-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/protocol-decision-tree.js"></script>
+
+## 13. 2D síť top 50 glossary termínů (p5.js force-directed)
+
+Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `related_terms` vztahy. Klikni na uzel pro zvýraznění sousedů + definici.
+
+<div id="glossary-network"></div>
+<div id="glossary-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/glossary-network-2d.js"></script>
+
+## 14. Sankey-like progrese zotavení (Chart.js custom plugin)
+
+5-stádiový tok pacientů: posouzení → stabilizace → metakognice → hermeneutika → konsolidace. Šířka sloupce = proporce postupujících pacientů. Klikni na stádium pro výpis typických intervencí.
+
+<canvas id="recovery-sankey" width="800" height="450"></canvas>
+<div id="recovery-sankey-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/recovery-progression-sankey.js"></script>
 
 ## Související
 

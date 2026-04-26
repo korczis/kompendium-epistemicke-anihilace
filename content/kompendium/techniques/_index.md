@@ -91,7 +91,38 @@ Všechny technique-články dodržují stejnou strukturu:
 | **EA-2.1.2** | [Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) | ✓ |
 | **EA-2.1.3** | [Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) | ✓ |
 
-> **Pozn.** EA-2.2.\*–2.5.\* jsou popsány v narativní formě uvnitř [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/). Plné per-technique články jsou v přípravě.
+#### Subkategorie 2.2 – 2.5
+
+EA-2.2.\* až EA-2.5.\* mají publikované per-technique články — celkem **50/50 článků v Kapitole 2** (5 subkategorií × 10).
+
+| Subkategorie | Stav |
+|--------------|------|
+| **EA-2.1.\*** (atak na expertní status) | ✓ 10/10 |
+| **EA-2.2.\*** | ✓ 10/10 |
+| **EA-2.3.\*** | ✓ 10/10 |
+| **EA-2.4.\*** | ✓ 10/10 |
+| **EA-2.5.\*** | ✓ 10/10 |
+
+### Kapitola 3 — Edukativní implementace
+
+| Subkategorie | Stav |
+|--------------|------|
+| **EA-3.1.\*** | ✓ 10/10 |
+| **EA-3.2.\*** | ✓ 10/10 |
+| **EA-3.3.\*** | ✓ 10/10 |
+
+Celkem **30/30 článků v Kapitole 3**.
+
+### Kapitola 4 — Terminální protokoly
+
+| Subkategorie | Stav |
+|--------------|------|
+| **EA-4.1.\*** (konceptuální dekonstrukce) | ✓ 10/10 |
+| **EA-4.2.\*** (identitní dekonstrukce) | ✓ 10/10 |
+| **EA-4.3.\*** (institucionální dekonstrukce) | ✓ 10/10 |
+| **EA-4.4.\*** (rekonstituce) | ✓ 10/10 |
+
+Celkem **40/40 článků v Kapitole 4**.
 
 ### Kapitola 5 — Ultramární techniky fundamentální dekonstrukce
 
@@ -151,7 +182,7 @@ Všechny technique-články dodržují stejnou strukturu:
 
 #### 5.3 Hypertransformativní protokoly (Kapitola 8)
 
-EA-5.3.1 — 5.3.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapitoly 8](/kompendium/05-ultramari-techniky/kapitola-8/). Plné per-technique články jsou v přípravě.
+> ✓ **Kompletní 30/30**: Všech 30 hypertransformativních protokolů má plné hloubkové per-technique články. Cross-link na [Kapitolu 8](/kompendium/05-ultramari-techniky/kapitola-8/) pro narativní rámec.
 
 #### 5.4 Paradoxální metaanihilační protokoly (Kapitola 9)
 
@@ -222,7 +253,21 @@ EA-5.3.1 — 5.3.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapi
 
 #### 5.5 Transkonceptuální mechanismy (Kapitola 10)
 
-EA-5.5.1 — 5.5.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapitoly 10](/kompendium/05-ultramari-techniky/kapitola-10/). Plné per-technique články jsou v přípravě.
+> ✓ **Kompletní 30/30**: Všech 30 transkonceptuálních mechanismů má plné hloubkové per-technique články. Cross-link na [Kapitolu 10](/kompendium/05-ultramari-techniky/kapitola-10/) pro narativní rámec.
+
+### Kapitola 6 — Pokročilé klinické techniky
+
+| Subkategorie | Stav |
+|--------------|------|
+| **EA-6.1.\*** | ✓ 10/10 |
+| **EA-6.2.\*** | ✓ 10/10 |
+| **EA-6.3.\*** | ✓ 10/10 |
+
+Celkem **30/30 článků v Kapitole 6** + 20 dalších cross-categorical EA-6.\* článků.
+
+### Kapitola 7 a 8 — Teoretické reflexe a přílohy
+
+EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní články v [Sekci 07](/kompendium/07-teoreticke-reflexe/) a [Sekci 08](/kompendium/08-prilohy/). Per-technique adaptace plánována.
 
 ## Doplňkové podknihovny
 
@@ -231,6 +276,14 @@ EA-5.5.1 — 5.5.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapi
 | **Case Studies** | 80 anonymizovaných klinických a forenzních kazuistik | [/kompendium/case-studies/](/kompendium/case-studies/) |
 | **Quick Reference** | 123 stručných QR karet pro terénní identifikaci technik | [/kompendium/quick-reference/](/kompendium/quick-reference/) |
 | **Glossary Bridges** | 102 cross-link můstků mezi kompendiem a platformovým glosářem | [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/) |
+| **Section Bridges** | 30 můstků mezi sekcemi kompendia | [/kompendium/section-bridges/](/kompendium/section-bridges/) |
+| **Recovery Protocols** | 30 strukturovaných postupů zotavení | [/kompendium/recovery-protocols/](/kompendium/recovery-protocols/) |
+| **Emergency Protocols** | 40 akutních intervenčních postupů | [/kompendium/emergency-protocols/](/kompendium/emergency-protocols/) |
+| **AIAD Integration** | 25 integračních článků s platformou | [/kompendium/aiad-integration/](/kompendium/aiad-integration/) |
+| **Cross-Domain** | 30 cross-doménových aplikací (OSINT/DD/HR/legal) | [/kompendium/cross-domain/](/kompendium/cross-domain/) |
+| **Educational Scenarios** | 30 výukových scénářů pro tréninky | [/kompendium/educational-scenarios/](/kompendium/educational-scenarios/) |
+| **Historical Cases** | 40 historických případových studií | [/kompendium/historical-cases/](/kompendium/historical-cases/) |
+| **Detection Signatures** | 30 strojově čitelných detekčních signatur | [/kompendium/detection-signatures/](/kompendium/detection-signatures/) |
 | **Vizualizace** | 6 interaktivních (Chart.js / Three.js / p5.js) | [/kompendium/visualizations/](/kompendium/visualizations/) |
 
 ## Roadmapa
@@ -244,14 +297,20 @@ EA-5.5.1 — 5.5.30 jsou popsány v kompaktní taxonomické formě uvnitř [Kapi
 | **Fáze 5** | Sekce 08 — Přílohy (7 článků) | ✓ kompletní |
 | **Fáze 6** | Sekce 05 narativy — 5 kapitol (6–10) | ✓ kompletní |
 | **Fáze 7** | Per-technique EA-5.1.\* (epistemická singularita) | ✓ 30/30 |
-| **Fáze 8** | Per-technique EA-5.2.\* (metatranscendentální anihilace) | ◐ 10/30 |
+| **Fáze 8** | Per-technique EA-5.2.\* (metatranscendentální anihilace) | ✓ 30/30 |
 | **Fáze 9** | Per-technique EA-5.4.\* (paradoxální metaanihilace) | ✓ 60/60 |
-| **Fáze 10** | Per-technique EA-2.1.\* (akademická delegitimizace) | ◐ 3/15 |
+| **Fáze 10** | Per-technique EA-2.\* (akademická delegitimizace, 5 subkategorií) | ✓ 50/50 |
 | **Fáze 11** | Case Studies (anonymizované kazuistiky) | ✓ 80 publikováno |
 | **Fáze 12** | Quick Reference karty | ✓ 123 publikováno |
 | **Fáze 13** | Glossary Bridges (cross-link můstky) | ✓ 102 publikováno |
 | **Fáze 14** | Vizualizace (Chart.js / Three.js / p5.js) | ✓ 6 interaktivních |
-| **Fáze 15** | Per-technique EA-5.2.11–30 + EA-5.3.\* + EA-5.5.\* + EA-2.\* dokončení | ⏳ 92 zbývá |
+| **Fáze 15** | Per-technique EA-5.3.\* (hypertransformativní protokoly) | ✓ 30/30 |
+| **Fáze 16** | Per-technique EA-5.5.\* (transkonceptuální mechanismy) | ✓ 30/30 |
+| **Fáze 17** | Per-technique EA-3.\* (edukativní implementace) | ✓ 30/30 |
+| **Fáze 18** | Per-technique EA-4.\* (terminální protokoly) | ✓ 40/40 |
+| **Fáze 19** | Per-technique EA-6.\* (pokročilé klinické techniky) | ✓ 50/50 |
+| **Fáze 20** | Section/Recovery/Emergency/AIAD/Cross-Domain/Educational/Historical/Detection podknihovny | ✓ 257 publikováno |
+| **Fáze 21** | EA-7.\* + EA-8.\* per-technique adaptace narativních článků | ⏳ plánováno |
 
 ## Související
 

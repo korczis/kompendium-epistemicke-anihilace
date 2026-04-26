@@ -23,8 +23,8 @@ difficulty = "expert"
 audience = ["researchers", "psychiatrists", "psychologists", "philosophers"]
 content_type = ["academic", "reference"]
 status = "in-progress"
-total_techniques_planned = 150
-techniques_published = 116
+total_techniques_planned = 400
+techniques_published = 363
 notation = "EA-X.Y.Z-α"
 related_articles = ["epistemic-integrity", "boundary-ethics", "intellectual-sovereignty", "epistemic-pipeline", "nabla-infinity"]
 keywords = ["epistemická anihilace", "kognitivní anihilace", "intelektuální manipulace", "epistemic security", "kognitivní biasy", "akademická manipulace", "taxonomie manipulace"]
@@ -66,11 +66,19 @@ Kompendium je určeno **výhradně** pro:
 | **06** | [Klinické aplikace](/kompendium/06-klinicke-aplikace/) | ✓ kompletní | 10 článků: diagnostika, terapie, rekonstrukce, vulnerabilní populace, kazuistiky |
 | **07** | [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) | ✓ kompletní | 9 článků: filosofie, sociální epistemologie, postmodernismus, kognitivní vědy, digitální věk |
 | **08** | [Přílohy](/kompendium/08-prilohy/) | ✓ kompletní | 7 referenčních článků: bibliografie, rejstřík, index pojmů, etický kodex, klasifikace |
-| **09** | [Techniques](/kompendium/techniques/) | ◐ 116/150 publikováno | Per-technique podknihovna s hloubkovými články (deskripce, fenomenologie, detekce, neutralizace) |
-| **10** | [Case Studies](/kompendium/case-studies/) | ✓ 80 případů | Anonymizované klinické a forenzní kazuistiky napříč EA-1 a EA-5 |
+| **09** | [Techniques](/kompendium/techniques/) | ◐ 363/400 publikováno | Per-technique podknihovna s hloubkovými články (deskripce, fenomenologie, detekce, neutralizace) |
+| **10** | [Case Studies](/kompendium/case-studies/) | ✓ 80 případů | Anonymizované klinické a forenzní kazuistiky napříč EA-1 až EA-8 |
 | **11** | [Quick Reference](/kompendium/quick-reference/) | ✓ 123 QR karet | Stručné karty pro rychlou identifikaci techniky v terénu |
 | **12** | [Glossary Bridges](/kompendium/glossary-bridges/) | ✓ 102 můstků | Cross-link můstky mezi kompendiem a platformovým glosářem |
-| **13** | [Vizualizace](/kompendium/visualizations/) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
+| **13** | [Section Bridges](/kompendium/section-bridges/) | ✓ 30 můstků | Cross-link můstky mezi sekcemi kompendia (1↔3, 2↔4, atd.) |
+| **14** | [Recovery Protocols](/kompendium/recovery-protocols/) | ✓ 30 protokolů | Strukturované postupy zotavení po expozici technikám |
+| **15** | [Emergency Protocols](/kompendium/emergency-protocols/) | ✓ 40 protokolů | Akutní intervenční postupy pro krizové situace |
+| **16** | [AIAD Integration](/kompendium/aiad-integration/) | ✓ 25 integračních článků | Propojení kompendia s AIAD agenty a doctrine pillars |
+| **17** | [Cross-Domain](/kompendium/cross-domain/) | ✓ 30 cross-doménových | OSINT/DD/HR/forenzní/legal aplikace technik |
+| **18** | [Educational Scenarios](/kompendium/educational-scenarios/) | ✓ 30 scénářů | Edukativní výukové scénáře pro tréninky |
+| **19** | [Historical Cases](/kompendium/historical-cases/) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, propaganda) |
+| **20** | [Detection Signatures](/kompendium/detection-signatures/) | ✓ 30 signatur | Strojově čitelné detekční signatury pro automatizaci |
+| **21** | [Vizualizace](/kompendium/visualizations/) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
 
 ### Detailní techniky
 
@@ -150,16 +158,30 @@ Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic pl
 
 ## Inkrementální publikace
 
-Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–5 + Phase 7–8 dokončeno):
+Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Phase 7–11 dokončeno):
 
 - **Sekce 01–04, 06–08**: ✓ kompletně publikováno (narativní text + sub-články)
-- **Sekce 05** (Ultramární): 5/5 narativů kapitol + 116/150 detailních per-technique článků
-- **Per-technique podknihovna**: 116 hloubkových článků (13× EA-1.\* + 3× EA-2.1.\* + 30× EA-5.1.\* + 10× EA-5.2.\* + 60× EA-5.4.\*)
+- **Sekce 05** (Ultramární): 5/5 narativů kapitol + 180/180 detailních per-technique článků (5.1, 5.2, 5.3, 5.4, 5.5 plné)
+- **Per-technique podknihovna**: 363 hloubkových článků
+  - 13× EA-1.\* (akademické techniky)
+  - 50× EA-2.\* (akademická a profesionální delegitimizace, 5 subkategorií × 10)
+  - 30× EA-3.\* (3 subkategorie × 10)
+  - 40× EA-4.\* (terminální protokoly, 4 subkategorie × 10)
+  - 180× EA-5.\* (Ultramární — 5.1, 5.2, 5.3, 5.5 plné × 30 + 5.4 × 60)
+  - 50× EA-6.\* (3 subkategorie × ~10)
 - **Case Studies**: 80 anonymizovaných klinických a forenzních kazuistik
 - **Quick Reference**: 123 stručných QR karet pro terénní identifikaci
 - **Glossary Bridges**: 102 cross-link můstků mezi kompendiem a platformovým glosářem
+- **Section Bridges**: 30 můstků mezi sekcemi
+- **Recovery Protocols**: 30 strukturovaných postupů zotavení
+- **Emergency Protocols**: 40 akutních intervenčních postupů
+- **AIAD Integration**: 25 integračních článků s platformou
+- **Cross-Domain**: 30 cross-doménových aplikací (OSINT/DD/HR/legal/forenzní)
+- **Educational Scenarios**: 30 výukových scénářů pro tréninky
+- **Historical Cases**: 40 historických případových studií
+- **Detection Signatures**: 30 strojově čitelných detekčních signatur
 - **Vizualizace**: 6 interaktivních (Chart.js / Three.js / p5.js)
-- **Celkový rozsah**: **517 markdown souborů**, **~396 245 slov** (cca **1 200+ stran A4**)
+- **Celkový rozsah**: **1 061+ markdown souborů**, **~900 000+ slov** (cca **2 800+ stran A4**)
 
 **Aktuální stav publikace**: viz [techniques index](/kompendium/techniques/) pro přesný počet a stav každé techniky.
 

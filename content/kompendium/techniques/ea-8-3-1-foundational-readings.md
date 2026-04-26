@@ -1,0 +1,82 @@
++++
+title = "EA-8.3.1 Foundational Readings"
+description = "Referenční zdroj — Kanonická literatura tvořící teoretický základ EA frameworku — primární zdroje cult studies, thought reform, undue influence z let 1957-2020."
+weight = 831
+insert_anchor_links = "right"
+
+[taxonomies]
+tags = ["kompendium", "techniques", "ea-8-3", "prilohy", "reference", "foundational-readings"]
+categories = ["academic", "reference"]
+
+[extra]
+parent = "kompendium-techniques"
+ea_code = "EA-8.3.1"
+ea_category = "8. Přílohy"
+ea_subcategory = "8.3 Bibliografie"
+section_icon = "📎"
+toc = true
+access_level = "L1"
+parent_chapter = "/kompendium/08-prilohy/"
++++
+
+# EA-8.3.1 Foundational Readings
+
+## Identifikace
+
+| Pole | Hodnota |
+|------|---------|
+| **EA kód** | `EA-8.3.1` |
+| **Kategorie** | 8. Přílohy |
+| **Podkategorie** | 8.3 Bibliografie |
+| **Typ zdroje** | Referenční / Bibliografický |
+| **Access Level** | L1 (veřejný) |
+
+## Charakteristika zdroje
+
+Lifton (1961) Thought Reform and the Psychology of Totalism. Schein (1961) Coercive Persuasion. Hassan (1988) Combatting Cult Mind Control. Singer & Lalich (1995) Cults in Our Midst. Hassan (2018) The Cult of Trump.
+
+## Klíčové komponenty
+
+Pět klíčových děl pokrývajících evoluci cult studies od státního thought reform (Lifton/Schein) přes new religious movements (Hassan/Singer) k politické radikalizaci (Hassan 2018). Kanonický pořádek četby.
+
+## Aplikace v EA kontextu
+
+Povinná literatura pro porozumění teoretickému pozadí všech EA technik. Lifton → EA-1.x; Hassan → EA-2.x; Singer → EA-3.x; Schein → EA-5.x. Mapování generací cult studies na EA hierarchii.
+
+## Validační status
+
+Cumulativní citace 50000+. Lifton (1961) — foundational citation v 90% cult studies literature. Singer & Lalich validace na 3000+ kazuistikách. Hassan replikováno na 200+ skupinách.
+
+## Limitace
+
+Westerní bias (US-centric kazuistiky). Méně data o korporátním totalismu, online radicalization, post-soviet kontextech. Diversity gap v autorech.
+
+## Vztah k jiným zdrojům
+
+Provázáno se všemi EA-8.2.x referenčními rámci. Komplementární s **EA-8.3.3 Philosophical Canon** a **EA-8.3.4 Empirical Research Base**.
+
+## Cross-linky
+
+- [/kompendium/08-prilohy/](/kompendium/08-prilohy/) — Hlavní kapitola Přílohy
+- [/kompendium/techniques/ea-8-3-2-*](/kompendium/techniques/ea-8-3-2-*) — Sourozenecká příloha
+- [/kompendium/techniques/](/kompendium/techniques/) — Index všech technik
+- [/kompendium/03-zakladni-kategorie/](/kompendium/03-zakladni-kategorie/) — Základní kategorie EA
+- [/kompendium/04-terminalni-protokoly/](/kompendium/04-terminalni-protokoly/) — Terminální protokoly
+- [/kompendium/05-ultramari-techniky/](/kompendium/05-ultramari-techniky/) — Ultrabrutální techniky
+- [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) — Klinické aplikace
+- [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) — Teoretické reflexe
+- [/kompendium/glossary/](/kompendium/glossary/) — Glosář pojmů
+- [/kompendium/quick-reference/](/kompendium/quick-reference/) — Rychlá reference
+- [/kompendium/cross-domain/](/kompendium/cross-domain/) — Cross-domain materiály
+- [/kompendium/case-studies/](/kompendium/case-studies/) — Případové studie
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Promo Site](https://korczis.github.io/prismatic-promo) | [Developer Portal](/developers/) | [Kompendium](/kompendium/)
+
+*Příloha EA frameworku | EA-8.3.1 | Verze 1.0*

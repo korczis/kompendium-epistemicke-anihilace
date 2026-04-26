@@ -1,0 +1,84 @@
++++
+title = "Vigilance zaměstnavatele"
+description = "Prevence a rezilience — vigilance zaměstnavatele."
+weight = 16
+[taxonomies]
+tags = ["kompendium", "prevention-resilience", "secondary"]
+categories = ["academic", "prevention"]
+[extra]
+parent = "kompendium-prevention-resilience"
+toc = true
++++
+
+# Vigilance zaměstnavatele
+
+**Kategorie**: Sekundární prevence | **Pořadí**: 16/30
+
+---
+
+## Cíl prevence
+
+Zaměstnavatelé jako pozorovatelé subakutních změn u zaměstnanců (často první detekce).
+
+---
+
+## Klíčové komponenty
+
+Behavioral baseline, deviance detection (absence, performance, izolace), HR escalation protocol, ochrana soukromí, EAP referral.
+
+---
+
+## Implementační postup
+
+1. Baseline performance review
+2. Absence pattern monitoring
+3. Manažerský trénink (10h)
+4. EAP kanál bez stigmatu
+5. Důvěrný HR rozhovor
+6. Návrat-do-práce plán
+7. GDPR compliant data handling
+
+---
+
+## Indikátory úspěchu
+
+- Detection-to-EAP referral <14 dní
+- EAP utilization >15%
+- Successful return-to-work >80%
+- Employee trust v EAP >7/10
+
+---
+
+## Cílová populace
+
+HR, manažeři, EAP poskytovatelé, odbory, BOZP, occupational health.
+
+---
+
+## Cross-linky
+
+- [Ultramari techniky](/kompendium/05-ultramari-techniky/)
+- [Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Glossary bridges](/kompendium/glossary-bridges/)
+- [Detection signatures](/kompendium/detection-signatures/)
+- [Emergency protocols](/kompendium/emergency-protocols/)
+- [Case studies](/kompendium/case-studies/)
+- [Educational scenarios](/kompendium/educational-scenarios/)
+- [Forensic & legal](/kompendium/forensic-legal/)
+- [Organizational defense](/kompendium/organizational-defense/)
+- [Quick reference](/kompendium/quick-reference/)
+- [Cross-domain](/kompendium/cross-domain/)
+- [Glosář](/glossary/)
+- [Budování dětské reziliencie](/kompendium/prevention-resilience/1-childhood-resilience-foundation/)
+- [Školní prevence EA](/kompendium/prevention-resilience/2-school-based-prevention/)
+
+---
+
+## Connect
+
+- **Web**: [prismatic.dev](https://prismatic.dev)
+- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Kontakt**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
+- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
+
+*Built with precision. Optimized for resilience.*

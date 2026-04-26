@@ -5,11 +5,9 @@ weight = 90
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "threejs", "p5js"]
 categories = ["academic", "tools"]
-
-[extra]
 section_icon = "📊"
 toc = true
 parent = "kompendium"
@@ -17,7 +15,7 @@ parent = "kompendium"
 
 # Interaktivní vizualizace EA taxonomie
 
-Čtrnáct klikatelných vizualizací umožňujících interaktivní průchod taxonomií [epistemické a kognitivní anihilace](/glossary/epistemicka-anihilace/). Každá vizualizace načítá data ze zveřejněných článků kompendia a propojuje vás přímo do [techniques podknihovny](/kompendium/techniques/).
+Osmnáct klikatelných vizualizací umožňujících interaktivní průchod taxonomií [epistemické a kognitivní anihilace](/glossary/epistemicka-anihilace/). Každá vizualizace načítá data ze zveřejněných článků kompendia a propojuje vás přímo do [techniques podknihovny](/kompendium/techniques/).
 
 ## 1. Distribuce technik napříč kategoriemi (Chart.js)
 
@@ -135,6 +133,38 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 <canvas id="recovery-sankey" width="800" height="450"></canvas>
 <div id="recovery-sankey-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
 <script src="/js/kompendium/recovery-progression-sankey.js"></script>
+
+## 15. Digitální útočná plocha EA-9 (Three.js)
+
+3D koule reprezentující epistemickou plochu osoby. 60 EA-9 útočných vektorů jako červené čáry zvenku zasahují kouli. Klik na hrot vektoru → typ útoku + kategorie.
+
+<div id="ea9-attack-surface" style="width:100%; height:500px; background:#0a0a0a; border-radius:8px;"></div>
+<div id="ea9-attack-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/ea9-digital-attack-surface.js"></script>
+
+## 16. Cross-cultural EA heatmap (Chart.js)
+
+10 kulturních regionů × 8 EA dimenzí. Barva = manifestační prevalence. Klik na buňku → regionální specifika a typické vektory.
+
+<canvas id="cross-cultural-heatmap" width="800" height="500"></canvas>
+<div id="cross-cultural-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/cross-cultural-heatmap.js"></script>
+
+## 17. Forenzní tok důkazů (p5.js)
+
+5-stádiový tok forenzního vyšetřování EA-related případu (incident → posouzení → dokumentace → svědectví → resoluce). Animované částice tečou mezi stádii. Klik na stádium → typické forenzní markery.
+
+<div id="forensic-evidence-flow"></div>
+<div id="forensic-evidence-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/forensic-evidence-flow.js"></script>
+
+## 18. 3D síť recovery protokolů (Three.js)
+
+30 recovery protokolů jako 3D uzly s sekvenčními závislostmi. Barva = fáze (akutní/subakutní/středně-doba/dlouhodobá/speciální). Klik na uzel → protokol detail.
+
+<div id="recovery-network-3d" style="width:100%; height:550px; background:#0f172a; border-radius:8px;"></div>
+<div id="recovery-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<script src="/js/kompendium/recovery-network-3d.js"></script>
 
 ## Související
 

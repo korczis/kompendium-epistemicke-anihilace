@@ -1,0 +1,167 @@
++++
+title = "EA-9.3.2 Engagement Optimization EA"
+description = "Současná digitální EA — engagement optimization ea."
+weight = 932
+[taxonomies]
+tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
+categories = ["academic", "digital", "AI"]
+[extra]
+parent = "kompendium-techniques"
+ea_code = "EA-9.3.2"
+ea_category = "9. Současná digitální EA"
+ea_subcategory = "9.3 Sociální platformy"
+section_icon = "📱"
+toc = true
+access_level = "L1-L2"
+risk_level = "moderate-high"
+parent_chapter = "/kompendium/07-teoreticke-reflexe/digitalni-vek/"
++++
+
+# EA-9.3.2 Engagement Optimization EA
+
+> *Subkategorie 📱 **9.3 Sociální platformy** — současná digitální epistemická agrese v éře AI, sociálních platforem a algoritmické governance.*
+
+---
+
+## 1. Identifikace
+
+**Kód:** `EA-9.3.2`
+**Název:** Engagement Optimization EA
+**Subkategorie:** 9.3 Sociální platformy
+**Doména:** Digitální / AI-mediated EA
+**Risk level:** Moderate-High
+**Doctrine alignment:** NCLB (claim-evidence validation), SEAL (security enforcement), ZERO (runtime verification)
+
+Tato technika patří mezi **současné digitální epistemické agrese** kategorie 9 — operuje v doméně, kde lidská epistemická autonomie je permanentně mediována AI systémy, sociálními platformami a algoritmy. Jde o post-2020 fenomén, který klasické EA-1 až EA-8 jen marginálně zachycují.
+
+## 2. Definice
+
+Tvorba obsahu cíleně optimalizovaného pro engagement metriky (clicks, shares, comments) na úkor pravdivostní hodnoty — outrage farming.
+
+V kontextu Prismatic doktríny je Engagement Optimization EA klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.3.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
+
+## 3. Operační modus
+
+Útočník konstruuje obsah s emocionální triggery (rozhořčení, strach, identity-attack) a A/B testuje varianty; vítězné iterace získávají algoritmickou amplifikaci.
+
+Operační cyklus typicky zahrnuje:
+
+1. **Příprava** — identifikace cíle, sběr trénovacích dat, infrastruktury, persona setup
+2. **Nasazení** — publikace/injekce/aktivace primárního vektoru
+3. **Amplifikace** — multi-channel propagation, network amplifikace, algorithmic boost
+4. **Persistence** — udržení narativu přes counter-evidence, obfuscation, attribution laundering
+5. **Exit** — destruction of forensic trail, infrastructure rotation, persona retirement
+
+Útočník typicky operuje s **3-vrstvou OPSEC** (technical, behavioral, narrative) a optimalizuje na **dwell time** — čas mezi nasazením a detekcí.
+
+## 4. Detekční markery
+
+Emotional valence scoring, content moderation classifiers, source consistency audit, engagement-vs-truth ratio.
+
+**Technické markery:**
+
+- **Forensické otisky** — generative model fingerprints, infrastructure overlap, timing anomalies
+- **Behaviorální patterns** — coordination signals, posting velocity, response patterns
+- **Sémantické signály** — frame-detection, narrative consistency, source attribution audits
+- **Síťové markery** — network topology, account graphs, propagation paths
+
+**Kontextové markery:**
+
+- Disproporční amplifikace vs. organic baseline
+- Inkonzistence mezi claimed origin a actual provenance
+- Anomálie v engagement signal distribuci
+- Cross-platform synchronizační patterns
+
+## 5. Neutralizační strategie
+
+**Layer 1 — Detection:**
+
+- Real-time monitoring metrik specifických pro tuto techniku
+- Multi-modal classification (text + behavioral + network + provenance)
+- Adversarial robustness testing detekčních classifiers
+
+**Layer 2 — Containment:**
+
+- Surgical takedown s minimal collateral damage
+- Counter-narrative deployment (ne-counter-amplification, ale ranking-suppression)
+- Attribution publication k zvýšení reputational cost útočníka
+
+**Layer 3 — Resilience:**
+
+- Pre-bunking edukace cílové populace
+- Source-provenance infrastructure (C2PA, content credentials)
+- Cross-platform threat-intel sharing s due-process safeguards
+
+**Layer 4 — Accountability:**
+
+- Forensic preservation pro právní/regulační response
+- Public transparency reports
+- Mezisektorové pattern-sharing (state, platform, civil society)
+
+## 6. Vztah k jiným EA
+
+Tato technika **interaguje** s následujícími EA-* kategoriemi:
+
+- **EA-1.* (Vědomá kontrola informací)** — Engagement Optimization EA představuje technologicky augmentovanou variantu klasické informační kontroly
+- **EA-2.* (Akademická EA)** — synthetic expertise a citation laundering rozkládají klasickou peer-review epistemiku
+- **EA-3.* (Mediální EA)** — algoritmická amplifikace nahrazuje klasický mediální gatekeeping
+- **EA-4.* (Korporátní EA)** — platform-mediated EA je often deployed as B2B service
+- **EA-5.* (Politická EA)** — most state-actor EA-9.* operations have political end-targets
+- **EA-6.* (Strukturální EA)** — algorithmic governance je nová strukturální vrstva
+- **EA-7.* (Psychologická EA)** — emocionální optimalizace exploituje cognitive biases na masovém měřítku
+- **EA-8.* (Epistemická pasti)** — digital epistemic traps jsou amplifikovány AI personalizací
+
+## 7. Vztah k Prismatic platformě
+
+Prismatic Platform implementuje detekci a neutralizaci Engagement Optimization EA přes následující komponenty:
+
+- **`prismatic_nabla`** — Nabla Infinity epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
+- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
+- **`prismatic_dd`** — Decision engine s Brier scoring, calibration tracking a evidence-based scoring (NCLB doctrine)
+- **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
+- **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
+- **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits
+
+**Doctrine compliance:**
+
+- **NCLB** — všechna AI-derived tvrzení musí být evidence-backed s real-time validation
+- **ZERO** — žádné silent failures v detection pipelines, structured error handling
+- **SEAL** — security enforcement against adversarial inputs (prompt injection, RAG poisoning)
+- **OTEL** — full telemetry coverage detection pipelines pro auditability
+
+## 8. Cross-linky
+
+**Související EA techniky:**
+
+- [EA-9.1.1 LLM Hallucination Laundering](/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering/)
+- [EA-9.1.2 Prompt Injection EA](/kompendium/techniques/ea-9-1-2-prompt-injection-EA/)
+- [EA-9.2.1 Deepfake Personality](/kompendium/techniques/ea-9-2-1-deepfake-personality/)
+- [EA-9.2.2 Voice Cloning EA](/kompendium/techniques/ea-9-2-2-voice-cloning-EA/)
+- [EA-9.4.1 Bot Amplification Coordinated](/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated/)
+- [EA-9.4.2 Coordinated Inauthentic Behavior](/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior/)
+- [EA-9.5.1 Meme Cascade Injection](/kompendium/techniques/ea-9-5-1-meme-cascade-injection/)
+- [EA-9.5.2 Symbolic Hijacking](/kompendium/techniques/ea-9-5-2-symbolic-hijacking/)
+- [EA-9.3.1 Algoritmická amplifikace](/kompendium/techniques/ea-9-3-1-algorithmic-amplification/)
+- [EA-9.3.3 Feed Personalization Bias](/kompendium/techniques/ea-9-3-3-feed-personalization-bias/)
+- [EA-9.3.4 Recommendation Radicalization](/kompendium/techniques/ea-9-3-4-recommendation-radicalization/)
+- [EA-9.3.5 Shadowban Coordination](/kompendium/techniques/ea-9-3-5-shadowban-coordination/)
+
+**Doktrinální a infrastructure odkazy:**
+
+- [Kompendium — Digitální věk](/kompendium/07-teoreticke-reflexe/digitalni-vek/)
+- [Nabla Infinity Engine](/nabla/)
+- [OSINT Toolbox](/osint/toolbox/)
+- [Decision Engine](/hub/dd/decisions/)
+
+---
+
+## Connect & Contribute
+
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](/license/)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [Kompendium](/kompendium/) | [Techniques Index](/kompendium/techniques/) | [Developer Portal](/developers/)
+
+---
+
+*EA-9.3.2 | Subkategorie 9.3 Sociální platformy | Prismatic Compendium | Version 18.4.0*

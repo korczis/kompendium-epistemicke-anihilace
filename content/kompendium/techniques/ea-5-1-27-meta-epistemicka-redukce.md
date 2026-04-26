@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.27 Meta-epistemická redukce"
-description = "Detailní per-technique článek: technika meta-epistemické redukce — sloučení všech epistemických standardů do jediného nadřazeného meta-standardu dodaného manipulátorem (např. „pravdivé je, co potvrzuje vůdce"), eliminace epistemické plurality."
+description = "Detailní per-technique článek: technika meta-epistemické redukce — sloučení všech epistemických standardů do jediného nadřazeného meta-standardu dodaného manipulátorem (např. „pravdivé je, co potvrzuje vůdce'), eliminace epistemické plurality."
 weight = 527
 insert_anchor_links = "right"
 

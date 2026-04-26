@@ -1,0 +1,60 @@
++++
+title = "Compliance Agent & EA detection"
+description = "Integrace agenta Compliance Agent s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
+weight = 34
+[taxonomies]
+tags = ["kompendium", "aiad-integration", "compliance-ea-regulatory-screening"]
+categories = ["academic", "platform-integration"]
+[extra]
+parent = "kompendium-aiad-integration"
+toc = true
++++
+
+# Compliance Agent & EA detection
+
+## Agent overview
+
+Compliance Agent screeninguje EA detekce vůči regulačním frameworkům (GDPR, NIS2, AI Act) — generuje regulační reporty a flagguje violations vyžadující notifikaci. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+
+## EA relevance
+
+Compliance Agent **uzavírá smyčku** mezi technickou EA detekcí a právní/regulační rovinou. Konzumuje **glossary-bridges/** pro mapping technických termínů na regulační definice.
+
+## Detection mechanisms
+
+Detekce: **regulation-rule matching** — pro každou detekovanou EA událost hledá **odpovídající regulační triggery** (např. data breach → GDPR Art. 33; AI manipulation → AI Act Art. 5).
+
+## Operational protocols
+
+Provoz: per-incident + monthly regulatory reporting cyklus. Výstup: **compliance report** s required actions a deadlines. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](/kompendium/aiad-integration/quality-monitor-ea-tracking/)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+
+## Limitations
+
+Compliance Agent je **rule-based** — nové regulace vyžadují manuální update. Také pomalý vůči real-time threats — je o **post-hoc reporting**, ne prevention.
+
+## Coordination
+
+Konzumuje výstupy **DD Engine**, **White Team**; výstupy archivuje s **White Team** v immutable storage; eskaluje **Strategic Command** pro material breach.
+
+## Cross-linky
+
+- [Czech Ares Ea Screening](/kompendium/aiad-integration/czech-ares-ea-screening/) — peer v rámci Domain Agents
+- [Osint Ea Source Validation](/kompendium/aiad-integration/osint-ea-source-validation/) — peer v rámci Domain Agents
+- [Dd Engine Ea Source Weighting](/kompendium/aiad-integration/dd-engine-ea-source-weighting/) — peer v rámci Domain Agents
+- [Hawkeye Ea Visitor Intelligence](/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence/) — peer v rámci Domain Agents
+- [Perimeter Ea Attack Surface](/kompendium/aiad-integration/perimeter-ea-attack-surface/) — peer v rámci Domain Agents
+- [Red Team Ea Detection](/kompendium/aiad-integration/red-team-ea-detection/) — cross-group koordinace
+- [Archer Supreme Ea Orchestration](/kompendium/aiad-integration/archer-supreme-ea-orchestration/) — cross-group koordinace
+- [Autoevolve Ea Pattern Evolution](/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/) — cross-group koordinace
+- [základní kategorie EA](/kompendium/03-zakladni-kategorie/) — EA taxonomie
+- [terminální protokoly](/kompendium/04-terminalni-protokoly/) — EA taxonomie
+- [ultramari techniky](/kompendium/05-ultramari-techniky/) — EA taxonomie
+- [agent-tier](/glossary/agent-tier) — platform glossary
+- [color-teams](/glossary/color-teams) — platform glossary
+- [archer-supreme glossary](/glossary/archer-supreme) — platform glossary
+
+## Connect & Contribute
+
+Created by [Tomáš Korcak (korczis)](https://github.com/korczis) | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])

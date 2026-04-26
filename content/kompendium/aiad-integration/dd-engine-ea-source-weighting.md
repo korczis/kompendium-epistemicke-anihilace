@@ -1,0 +1,60 @@
++++
+title = "DD Engine & EA detection"
+description = "Integrace agenta DD Engine s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
+weight = 31
+[taxonomies]
+tags = ["kompendium", "aiad-integration", "dd-engine-ea-source-weighting"]
+categories = ["academic", "platform-integration"]
+[extra]
+parent = "kompendium-aiad-integration"
+toc = true
++++
+
+# DD Engine & EA detection
+
+## Agent overview
+
+DD Engine je due-diligence orchestrátor — koordinuje multi-doménové investigation, weighted scoring zdrojů a generuje audit-ready reporty s contradiction matrix. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+
+## EA relevance
+
+DD Engine je **konzument celé EA infrastruktury** — pro každou DD investigation aplikuje relevant subset detekčních vrstev. Konzumuje **glossary-bridges/** pro konzistentní terminologii v reportech.
+
+## Detection mechanisms
+
+Detekce: **contradiction matrix** — každý zdroj × každý claim, hledá **logické rozpory** (Casper deklaruje 800M, ale rejstřík ukazuje 229M). Contradictions = high-priority red flags.
+
+## Operational protocols
+
+Provoz: per-deal investigation, days-to-weeks horizon. Výstup: **NBS report** (No Bullshit) s contradiction matrix, source weighting, evidence chain. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](/kompendium/aiad-integration/quality-monitor-ea-tracking/)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+
+## Limitations
+
+DD Engine je **report-grade**, ne **real-time** — výstup vyžaduje hodiny analýzy. Také závislý na kvalitě upstream OSINT a ARES dat.
+
+## Coordination
+
+Volá **OSINT Agent**, **Czech ARES**, **Compliance**; výstupy validuje **Trinity Gate**; reporty auditovány **White Team**.
+
+## Cross-linky
+
+- [Czech Ares Ea Screening](/kompendium/aiad-integration/czech-ares-ea-screening/) — peer v rámci Domain Agents
+- [Osint Ea Source Validation](/kompendium/aiad-integration/osint-ea-source-validation/) — peer v rámci Domain Agents
+- [Hawkeye Ea Visitor Intelligence](/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence/) — peer v rámci Domain Agents
+- [Perimeter Ea Attack Surface](/kompendium/aiad-integration/perimeter-ea-attack-surface/) — peer v rámci Domain Agents
+- [Compliance Ea Regulatory Screening](/kompendium/aiad-integration/compliance-ea-regulatory-screening/) — peer v rámci Domain Agents
+- [Red Team Ea Detection](/kompendium/aiad-integration/red-team-ea-detection/) — cross-group koordinace
+- [Archer Supreme Ea Orchestration](/kompendium/aiad-integration/archer-supreme-ea-orchestration/) — cross-group koordinace
+- [Autoevolve Ea Pattern Evolution](/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/) — cross-group koordinace
+- [základní kategorie EA](/kompendium/03-zakladni-kategorie/) — EA taxonomie
+- [terminální protokoly](/kompendium/04-terminalni-protokoly/) — EA taxonomie
+- [ultramari techniky](/kompendium/05-ultramari-techniky/) — EA taxonomie
+- [agent-tier](/glossary/agent-tier) — platform glossary
+- [color-teams](/glossary/color-teams) — platform glossary
+- [archer-supreme glossary](/glossary/archer-supreme) — platform glossary
+
+## Connect & Contribute
+
+Created by [Tomáš Korcak (korczis)](https://github.com/korczis) | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+
+- [GitHub](https://github.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])

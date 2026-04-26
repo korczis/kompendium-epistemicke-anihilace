@@ -78,16 +78,16 @@ Pre-vetted interim executives, board emergency protocol, 48h activation SLA, def
 
 ## 6. Cross-linky
 
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
-- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
-- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
-- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Právní podpora v krizi](/kompendium/organizational-defense/33-legal-counsel-engagement/)
+- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
+- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
+- [Sledovatelnost rozhodnutí](/kompendium/organizational-defense/21-decision-traceability/)
+- [Struktura jednání](/kompendium/organizational-defense/22-meeting-structure/)
+- [Komunikační politika](/kompendium/organizational-defense/23-communication-policy/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Pre-vetted interim executives, board emergency protocol, 48h activation SLA, def
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

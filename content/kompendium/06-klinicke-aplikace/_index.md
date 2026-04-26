@@ -5,11 +5,9 @@ weight = 6
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "klinicke-aplikace", "diagnostika", "terapie", "prevence", "epistemicka-rekonstrukce", "vulnerabilni-populace"]
 categories = ["academic", "clinical"]
-
-[extra]
 section_icon = "🏥"
 toc = true
 insert_anchor_links = "right"

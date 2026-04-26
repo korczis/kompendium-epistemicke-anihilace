@@ -1,9 +1,11 @@
 ---
 title: "Historické případy"
-date: 2026-04-26
 description: "40 historických případů epistemických útoků - totalitní režimy, kulty, dezinformace, akademický fraud"
 weight: 60
 draft: false
+extra:
+
+  date: 2026-04-26
 ---
 
 # Historické případy

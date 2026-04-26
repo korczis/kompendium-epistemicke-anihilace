@@ -78,16 +78,16 @@ Public acknowledgment, structured listening sessions, value-redefinition worksho
 
 ## 6. Cross-linky
 
-- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
-- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
-- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
+- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [Trauma-aware management](/kompendium/organizational-defense/36-trauma-aware-management/)
+- [Klasifikace informací](/kompendium/organizational-defense/27-information-classification/)
+- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Oddělení povinností](/kompendium/organizational-defense/29-segregation-duties/)
+- [Rotace rolí](/kompendium/organizational-defense/30-rotation-of-roles/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Public acknowledgment, structured listening sessions, value-redefinition worksho
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

@@ -1,7 +1,7 @@
 +++
 title = "Pripad 04-medialni-mob-attack: Medialni mob attack"
 description = "Anonymizovana pripadova studie — Medialni mob attack. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 04
+weight = 4
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

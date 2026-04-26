@@ -1,7 +1,7 @@
 +++
 title = "Pripad 06-cult-recovery-12-let: Cult recovery 12 let"
 description = "Anonymizovana pripadova studie — Cult recovery 12 let. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 06
+weight = 6
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

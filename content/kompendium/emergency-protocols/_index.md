@@ -5,11 +5,9 @@ weight = 10
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
-
-[extra]
 section_icon = "🚨"
 toc = true
 parent = "kompendium"

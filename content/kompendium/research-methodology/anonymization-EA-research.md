@@ -84,23 +84,23 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 
 ## Cross-linky
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](@/kompendium/research-methodology/power-analysis-EA-research.md)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Etický rámec EA výzkumu](/kompendium/07-teoreticke-reflexe/_index/)
+- [IRB protokol design](/kompendium/research-methodology/IRB-protocol-design-EA/)
+- [Informovaný souhlas v EA výzkumu](/kompendium/research-methodology/informed-consent-EA-research/)
+- [Anonymizace dat](/kompendium/research-methodology/anonymization-EA-research/)
+- [Pre-registrace](/kompendium/research-methodology/pre-registration-EA-research/)
+- [Power analysis](/kompendium/research-methodology/power-analysis-EA-research/)
+- [Effect size](/kompendium/research-methodology/effect-size-EA/)
+- [Mixed methods design](/kompendium/research-methodology/mixed-methods-EA/)
+- [Replikační výzkum](/kompendium/research-methodology/replication-EA-research/)
+- [Glossary — výzkumné termíny](/glossary/_index/)
+- [Klinické aplikace](/kompendium/06-klinicke-aplikace/_index/)
+- [Terminální protokoly](/kompendium/04-terminalni-protokoly/_index/)
 
 ---
 
 ## Connect
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: etické a governance metody | **Kompendium**: [Index](@/kompendium/_index.md)
+**Sekce**: [Research Methodology Index](/kompendium/research-methodology/_index/) | **Bucket**: etické a governance metody | **Kompendium**: [Index](/kompendium/_index/)
 
 **Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance

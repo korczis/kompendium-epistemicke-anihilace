@@ -52,19 +52,19 @@ Archiv může pohlcovat. Nepřežívejte v dokumentaci, žijte. Rovnováha.
 
 ## Cross-linky
 
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
-- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) — sebe-obrana (identitní)
-- [Vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md) — sebe-obrana (identitní)
-- [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) — sebe-obrana (identitní)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](/kompendium/self-defense-guides/41-narrative-stewardship/) — sebe-obrana (identitní)
+- [Vztahové kotvy](/kompendium/self-defense-guides/42-relational-anchors/) — sebe-obrana (identitní)
+- [Vyjasnění hodnot](/kompendium/self-defense-guides/44-axiology-clarification/) — sebe-obrana (identitní)
+- [Integrace životního příběhu](/kompendium/self-defense-guides/45-life-story-integration/) — sebe-obrana (identitní)
+- [Metakognitivní monitoring](/kompendium/self-defense-guides/1-metacognitive-monitoring/) — sebe-obrana (kognitivní)
+- [Emoční regulace](/kompendium/self-defense-guides/11-emotional-regulation/) — sebe-obrana (emocionální)
+- [Nastavování hranic](/kompendium/self-defense-guides/21-boundary-setting/) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](/kompendium/self-defense-guides/31-source-curation/) — sebe-obrana (informační hygiena)
 
 ## Connect
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Hlavní index sebe-obrany](/kompendium/self-defense-guides/_index/)
+- [Kompendium epistemické anihilace](/kompendium/_index/)
 - [Akademie Prismatic](https://prismatic-reality.com/academy)
 - [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
 - [Kontakt](mailto:[e-mail odstraněn])

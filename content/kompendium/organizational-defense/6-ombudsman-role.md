@@ -78,16 +78,16 @@ Externí supervize, anonymizovaná čtvrtletní zpráva, ochrana před odvolatel
 
 ## 6. Cross-linky
 
-- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
-- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
-- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
-- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Cykly revize politik](/kompendium/organizational-defense/8-policy-review-cycles/)
+- [Ochrana akcionářů](/kompendium/organizational-defense/9-shareholder-protection/)
+- [Zapojení stakeholderů](/kompendium/organizational-defense/10-stakeholder-engagement/)
+- [Psychologická bezpečnost](/kompendium/organizational-defense/16-psychological-safety/)
+- [Politika rotace týmů](/kompendium/organizational-defense/17-team-rotation-policy/)
+- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
+- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Externí supervize, anonymizovaná čtvrtletní zpráva, ochrana před odvolatel
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

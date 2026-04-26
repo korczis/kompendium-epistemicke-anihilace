@@ -5,11 +5,9 @@ weight = 5
 sort_by = "weight"
 template = "page.html"
 
-[taxonomies]
+[extra]
 kompendium = ["08-prilohy"]
 prilohy = ["etika", "kodex", "irb"]
-
-[extra]
 section_icon = "⚖️"
 toc = true
 insert_anchor_links = "right"

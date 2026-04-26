@@ -1,7 +1,7 @@
 +++
 title = "Pripad 01-akademicka-supervize-totalizace: Akademicka supervize — totalizace"
 description = "Anonymizovana pripadova studie — Akademicka supervize — totalizace. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 01
+weight = 1
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

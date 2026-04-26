@@ -7,9 +7,8 @@ insert_anchor_links = "right"
 [taxonomies]
 tags = ["kompendium", "kapitola-2", "scenar-h", "destruktivni-kritika", "intermitentni-posilovani", "ea-3-2-h"]
 categories = ["academic"]
-ea_codes = ["EA-3.2.H"]
-
 [extra]
+ea_codes = ["EA-3.2.H"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "💢"
 toc = true

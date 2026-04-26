@@ -4,10 +4,9 @@ description = "EA napříč kulturami, jurisdikcemi a jazyky — 40 článků ve
 sort_by = "weight"
 weight = 13
 template = "section.html"
-[taxonomies]
+[extra]
 tags = ["kompendium", "international"]
 categories = ["academic", "international"]
-[extra]
 parent = "kompendium"
 toc = true
 +++

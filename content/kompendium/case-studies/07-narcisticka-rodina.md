@@ -1,7 +1,7 @@
 +++
 title = "Pripad 07-narcisticka-rodina: Narcisticka rodina"
 description = "Anonymizovana pripadova studie — Narcisticka rodina. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 07
+weight = 7
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

@@ -78,16 +78,16 @@ Crisis comms playbook, designated spokesperson, fact-check protocol, social medi
 
 ## 6. Cross-linky
 
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
-- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
-- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Kulturní obnova](/kompendium/organizational-defense/39-cultural-rebuild/)
+- [Učení po incidentu](/kompendium/organizational-defense/40-post-incident-learning/)
+- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Struktura jednání](/kompendium/organizational-defense/22-meeting-structure/)
+- [Komunikační politika](/kompendium/organizational-defense/23-communication-policy/)
+- [Dokumentační standardy](/kompendium/organizational-defense/24-documentation-standards/)
+- [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Crisis comms playbook, designated spokesperson, fact-check protocol, social medi
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

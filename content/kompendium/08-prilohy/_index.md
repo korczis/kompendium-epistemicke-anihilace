@@ -5,11 +5,9 @@ weight = 0
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 kompendium = ["08-prilohy"]
 prilohy = ["index", "reference", "metadata"]
-
-[extra]
 section_icon = "📎"
 toc = true
 insert_anchor_links = "right"

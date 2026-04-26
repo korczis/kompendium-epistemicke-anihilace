@@ -5,11 +5,9 @@ weight = 3
 sort_by = "weight"
 template = "page.html"
 
-[taxonomies]
+[extra]
 kompendium = ["08-prilohy"]
 prilohy = ["index-pojmu", "bilingual", "terminologie"]
-
-[extra]
 section_icon = "🔤"
 toc = true
 insert_anchor_links = "right"

@@ -78,16 +78,16 @@ Email/ticket-based decisions, retention policy, mandatory CC pro key stakeholder
 
 ## 6. Cross-linky
 
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Klasifikace informací](/kompendium/organizational-defense/27-information-classification/)
+- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Oddělení povinností](/kompendium/organizational-defense/29-segregation-duties/)
+- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
+- [Mandát etického ředitele](/kompendium/organizational-defense/7-ethics-officer-mandate/)
+- [Cykly revize politik](/kompendium/organizational-defense/8-policy-review-cycles/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Email/ticket-based decisions, retention policy, mandatory CC pro key stakeholder
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

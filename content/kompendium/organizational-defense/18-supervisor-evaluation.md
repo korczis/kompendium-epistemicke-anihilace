@@ -78,16 +78,16 @@ Aggregated reports s NLP analýzou, mandatory coaching při red flags, korelace 
 
 ## 6. Cross-linky
 
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
-- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
-- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
+- [Tréninky odolnosti](/kompendium/organizational-defense/12-training-resilience/)
+- [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
+- [Učení po incidentu](/kompendium/organizational-defense/40-post-incident-learning/)
+- [Odolnost představenstva](/kompendium/organizational-defense/1-board-resilience/)
+- [Ochrana zakládací listiny](/kompendium/organizational-defense/2-charter-protection/)
+- [Politika střetu zájmů](/kompendium/organizational-defense/3-conflict-of-interest-policy/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Aggregated reports s NLP analýzou, mandatory coaching při red flags, korelace 
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

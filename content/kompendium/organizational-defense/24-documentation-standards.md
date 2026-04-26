@@ -78,16 +78,16 @@ Single source of truth (Wiki/Confluence/Notion), mandatory metadata, ownership c
 
 ## 6. Cross-linky
 
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
-- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Oddělení povinností](/kompendium/organizational-defense/29-segregation-duties/)
+- [Rotace rolí](/kompendium/organizational-defense/30-rotation-of-roles/)
+- [Tréninky odolnosti](/kompendium/organizational-defense/12-training-resilience/)
+- [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
+- [Anonymní zpětná vazba](/kompendium/organizational-defense/14-anonymous-feedback/)
+- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Single source of truth (Wiki/Confluence/Notion), mandatory metadata, ownership c
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

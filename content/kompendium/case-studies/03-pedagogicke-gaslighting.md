@@ -1,7 +1,7 @@
 +++
 title = "Pripad 03-pedagogicke-gaslighting: Pedagogicke gaslighting"
 description = "Anonymizovana pripadova studie — Pedagogicke gaslighting. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 03
+weight = 3
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

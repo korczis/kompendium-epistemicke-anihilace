@@ -7,9 +7,8 @@ insert_anchor_links = "right"
 [taxonomies]
 tags = ["kompendium", "kapitola-2", "scenar-f", "delegitimizace", "kolektivni-manipulace", "fragmentace-komunity", "ea-3-2-f"]
 categories = ["academic"]
-ea_codes = ["EA-3.2.F"]
-
 [extra]
+ea_codes = ["EA-3.2.F"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🌐"
 toc = true

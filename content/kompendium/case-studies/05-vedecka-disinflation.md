@@ -1,7 +1,7 @@
 +++
 title = "Pripad 05-vedecka-disinflation: Vedecka disinflation"
 description = "Anonymizovana pripadova studie — Vedecka disinflation. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 05
+weight = 5
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

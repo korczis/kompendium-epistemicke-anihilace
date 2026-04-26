@@ -1,6 +1,6 @@
 +++
 title = "Emergency: Akutní kognitivní paralýza"
-description = "Akutní intervenční protokol — kognitivní paralýza („frozen mind") po EA."
+description = "Akutní intervenční protokol — kognitivní paralýza („frozen mind') po EA."
 weight = 7
 
 [taxonomies]

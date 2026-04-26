@@ -1,9 +1,11 @@
 ---
 title: "Vzdělávací scénáře"
-date: 2026-04-26
 description: "30 cvičných scénářů pro detekci a obranu proti epistemickým útokům"
 weight: 50
 draft: false
+extra:
+
+  date: 2026-04-26
 ---
 
 # Vzdělávací scénáře

@@ -78,16 +78,16 @@ Veřejný changelog stanov, dvoukolové schvalování, externí právní review 
 
 ## 6. Cross-linky
 
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Mechanismus oznamovatelů](/kompendium/organizational-defense/4-whistleblower-mechanism/)
+- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
+- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
+- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
+- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
+- [Sledovatelnost rozhodnutí](/kompendium/organizational-defense/21-decision-traceability/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Veřejný changelog stanov, dvoukolové schvalování, externí právní review 
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

@@ -78,16 +78,16 @@ Blameless culture, public report (redacted), lessons DB, quarterly preventive ac
 
 ## 6. Cross-linky
 
-- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
-- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [Trauma-aware management](/kompendium/organizational-defense/36-trauma-aware-management/)
+- [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
+- [Mechanismus oznamovatelů](/kompendium/organizational-defense/4-whistleblower-mechanism/)
+- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
+- [Mandát etického ředitele](/kompendium/organizational-defense/7-ethics-officer-mandate/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Blameless culture, public report (redacted), lessons DB, quarterly preventive ac
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

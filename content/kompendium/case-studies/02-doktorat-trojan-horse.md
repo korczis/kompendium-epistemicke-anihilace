@@ -1,7 +1,7 @@
 +++
 title = "Pripad 02-doktorat-trojan-horse: Doktoratovy trojsky kun"
 description = "Anonymizovana pripadova studie — Doktoratovy trojsky kun. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 02
+weight = 2
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

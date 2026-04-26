@@ -7,9 +7,8 @@ insert_anchor_links = "right"
 [taxonomies]
 tags = ["kompendium", "kapitola-2", "scenar-g", "kognitivni-dekonstrukce", "kategorialni-destabilizace", "ea-3-2-g"]
 categories = ["academic"]
-ea_codes = ["EA-3.2.G"]
-
 [extra]
+ea_codes = ["EA-3.2.G"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🧠"
 toc = true

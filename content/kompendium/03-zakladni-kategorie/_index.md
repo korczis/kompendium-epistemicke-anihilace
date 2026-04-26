@@ -5,11 +5,9 @@ weight = 3
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "zakladni-kategorie", "manipulace", "akademicke-techniky", "delegitimizace"]
 categories = ["academic"]
-
-[extra]
 section_icon = "🔬"
 toc = true
 insert_anchor_links = "right"

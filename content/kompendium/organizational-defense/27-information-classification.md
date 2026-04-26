@@ -78,16 +78,16 @@ DLP tooling, automatic classification (NLP), regular audit, training s practical
 
 ## 6. Cross-linky
 
-- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
-- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
-- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
-- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Sledovatelnost rozhodnutí](/kompendium/organizational-defense/21-decision-traceability/)
+- [Struktura jednání](/kompendium/organizational-defense/22-meeting-structure/)
+- [Komunikační politika](/kompendium/organizational-defense/23-communication-policy/)
+- [Politika střetu zájmů](/kompendium/organizational-defense/3-conflict-of-interest-policy/)
+- [Mechanismus oznamovatelů](/kompendium/organizational-defense/4-whistleblower-mechanism/)
+- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ DLP tooling, automatic classification (NLP), regular audit, training s practical
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

@@ -78,16 +78,16 @@ Mix finančních + behaviorálních auditorů, externí psycholog v týmu, čtvr
 
 ## 6. Cross-linky
 
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
-- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Mandát etického ředitele](/kompendium/organizational-defense/7-ethics-officer-mandate/)
+- [Cykly revize politik](/kompendium/organizational-defense/8-policy-review-cycles/)
+- [Ochrana akcionářů](/kompendium/organizational-defense/9-shareholder-protection/)
+- [Kulturní obnova](/kompendium/organizational-defense/39-cultural-rebuild/)
+- [Učení po incidentu](/kompendium/organizational-defense/40-post-incident-learning/)
+- [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
+- [Tréninky odolnosti](/kompendium/organizational-defense/12-training-resilience/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Mix finančních + behaviorálních auditorů, externí psycholog v týmu, čtvr
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

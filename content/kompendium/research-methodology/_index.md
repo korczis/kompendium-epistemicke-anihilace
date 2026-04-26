@@ -5,11 +5,9 @@ weight = 97
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "research-methodology", "vyzkum", "metodologie"]
 categories = ["academic", "methodology", "research"]
-
-[extra]
 section_icon = "🔬"
 toc = true
 parent = "kompendium"
@@ -40,4 +38,4 @@ Sekce respektuje **NMND/NWB/NCLB** doktríny — všechny metodologické claims 
 
 ---
 
-**Connect**: [Kompendium Index](@/kompendium/_index.md) | [Glossary](@/glossary/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+**Connect**: [Kompendium Index](/kompendium/_index/) | [Glossary](/glossary/_index/) | [Klinické aplikace](/kompendium/06-klinicke-aplikace/_index/)

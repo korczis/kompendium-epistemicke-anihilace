@@ -5,11 +5,9 @@ weight = 9
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "recovery-protocol", "klinicke", "longitudinalni", "rekonstrukce"]
 categories = ["academic", "clinical"]
-
-[extra]
 section_icon = "🔧"
 toc = true
 parent = "kompendium"

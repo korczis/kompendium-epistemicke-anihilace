@@ -4,10 +4,9 @@ description = "Kompendium — populační epidemiologie EA, veřejnozdravotní i
 weight = 90
 sort_by = "weight"
 template = "section.html"
-[taxonomies]
+[extra]
 tags = ["kompendium", "population-health"]
 categories = ["academic", "public-health"]
-[extra]
 toc = true
 +++
 

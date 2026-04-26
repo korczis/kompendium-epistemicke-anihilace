@@ -5,11 +5,9 @@ weight = 97
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "section-bridges", "navigace", "cross-link"]
 categories = ["academic", "reference"]
-
-[extra]
 section_icon = "🔗"
 toc = true
 parent = "kompendium"

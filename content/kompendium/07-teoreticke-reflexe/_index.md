@@ -7,11 +7,9 @@ template = "section.html"
 generate_feeds = true
 insert_anchor_links = "right"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "teorie", "filosofie", "socialni-epistemologie", "postmodernismus", "epistemicke-trauma", "metakoncept"]
 categories = ["academic", "theory"]
-
-[extra]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 section_type = "academic"

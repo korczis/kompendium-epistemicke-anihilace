@@ -1,7 +1,7 @@
 +++
 title = "Pripad 08-gaslighting-partnersky: Gaslighting partnersky"
 description = "Anonymizovana pripadova studie — Gaslighting partnersky. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 08
+weight = 8
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

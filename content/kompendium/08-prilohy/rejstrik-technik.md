@@ -5,11 +5,9 @@ weight = 2
 sort_by = "weight"
 template = "page.html"
 
-[taxonomies]
+[extra]
 kompendium = ["08-prilohy"]
 prilohy = ["rejstrik", "master-index", "techniky"]
-
-[extra]
 section_icon = "📋"
 toc = true
 insert_anchor_links = "right"

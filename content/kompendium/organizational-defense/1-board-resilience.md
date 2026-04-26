@@ -78,16 +78,16 @@ Nezávislí externí členové (≥40 %), pravidelná evaluace kompetencí, anon
 
 ## 6. Cross-linky
 
-- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
-- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
-- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Politika střetu zájmů](/kompendium/organizational-defense/3-conflict-of-interest-policy/)
+- [Mechanismus oznamovatelů](/kompendium/organizational-defense/4-whistleblower-mechanism/)
+- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
+- [Tréninky odolnosti](/kompendium/organizational-defense/12-training-resilience/)
+- [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
+- [Anonymní zpětná vazba](/kompendium/organizational-defense/14-anonymous-feedback/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Nezávislí externí členové (≥40 %), pravidelná evaluace kompetencí, anon
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

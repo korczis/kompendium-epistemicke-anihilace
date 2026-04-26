@@ -6,11 +6,9 @@ sort_by = "weight"
 template = "section.html"
 insert_anchor_links = "right"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "ultramari-techniky", "extremni-riziko", "fundamentalni-dekonstrukce", "ea-5", "irb", "l3-l4"]
 categories = ["academic", "research", "ultramari"]
-
-[extra]
 section_icon = "🚨"
 toc = true
 parent = "kompendium"

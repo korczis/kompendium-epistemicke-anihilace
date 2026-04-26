@@ -5,11 +5,9 @@ weight = 70
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "case-studies", "klinicke", "anonymizovane"]
 categories = ["academic", "clinical"]
-
-[extra]
 section_icon = "📋"
 toc = true
 parent = "kompendium"

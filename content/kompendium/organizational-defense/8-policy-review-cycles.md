@@ -78,16 +78,16 @@ Verzovaný repozitář, mandatory peer review, sunset clauses na každé politic
 
 ## 6. Cross-linky
 
-- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
-- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
-- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Zapojení stakeholderů](/kompendium/organizational-defense/10-stakeholder-engagement/)
+- [Odolnost představenstva](/kompendium/organizational-defense/1-board-resilience/)
+- [Ochrana zakládací listiny](/kompendium/organizational-defense/2-charter-protection/)
+- [Rotace rolí](/kompendium/organizational-defense/30-rotation-of-roles/)
+- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Interní vyšetřování](/kompendium/organizational-defense/32-internal-investigation/)
+- [Právní podpora v krizi](/kompendium/organizational-defense/33-legal-counsel-engagement/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Verzovaný repozitář, mandatory peer review, sunset clauses na každé politic
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

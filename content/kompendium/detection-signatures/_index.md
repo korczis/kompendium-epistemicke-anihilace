@@ -5,10 +5,9 @@ weight = 50
 sort_by = "weight"
 template = "kompendium/section.html"
 page_template = "kompendium/page.html"
-[taxonomies]
+[extra]
 tags = ["kompendium", "detection-signature", "diagnostika", "ea-techniques"]
 categories = ["academic", "clinical", "security"]
-[extra]
 parent = "kompendium"
 toc = true
 section_id = "kompendium-detection-signatures"

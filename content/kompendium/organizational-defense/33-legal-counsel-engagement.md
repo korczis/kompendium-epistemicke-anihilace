@@ -78,16 +78,16 @@ Pre-engaged crisis counsel, defined escalation, regular tabletop exercises, priv
 
 ## 6. Cross-linky
 
-- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Náhrada vedení](/kompendium/organizational-defense/38-leadership-replacement/)
+- [Kulturní obnova](/kompendium/organizational-defense/39-cultural-rebuild/)
+- [Učení po incidentu](/kompendium/organizational-defense/40-post-incident-learning/)
+- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Psychologická bezpečnost](/kompendium/organizational-defense/16-psychological-safety/)
+- [Politika rotace týmů](/kompendium/organizational-defense/17-team-rotation-policy/)
+- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Pre-engaged crisis counsel, defined escalation, regular tabletop exercises, priv
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

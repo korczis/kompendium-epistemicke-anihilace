@@ -6,11 +6,9 @@ template = "section.html"
 weight = 65
 generate_feeds = true
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "epistemologie", "kognitivni-anihilace", "psychiatrie", "taxonomie", "manipulace", "epistemic-security"]
 categories = ["academic", "research"]
-
-[extra]
 author = "Tomáš Korcak (korczis)"
 section_icon = "🧠"
 section_type = "academic"

@@ -6,11 +6,9 @@ sort_by = "weight"
 template = "section.html"
 insert_anchor_links = "right"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "terminalni-protokoly", "epistemicka-anihilace", "kognitivni-anihilace", "vysoke-riziko", "vycvikove-sekvence", "bezpecnostni-protokoly"]
 categories = ["academic", "research"]
-
-[extra]
 section_icon = "⚠️"
 toc = true
 parent = "kompendium"

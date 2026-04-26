@@ -5,11 +5,9 @@ weight = 2
 sort_by = "weight"
 template = "section.html"
 
-[taxonomies]
+[extra]
 tags = ["kompendium", "uvod", "definice", "teorie", "epistemologie"]
 categories = ["academic"]
-
-[extra]
 section_icon = "🧭"
 toc = true
 insert_anchor_links = "right"

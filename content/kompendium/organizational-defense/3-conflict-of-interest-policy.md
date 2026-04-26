@@ -78,16 +78,16 @@ Roční self-disclosure, peer review deklarací, automatické dotazy do veřejn�
 
 ## 6. Cross-linky
 
-- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
-- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
+- [Mandát etického ředitele](/kompendium/organizational-defense/7-ethics-officer-mandate/)
+- [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
+- [Prověřování kontraktorů](/kompendium/organizational-defense/26-contractor-vetting/)
+- [Klasifikace informací](/kompendium/organizational-defense/27-information-classification/)
+- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Roční self-disclosure, peer review deklarací, automatické dotazy do veřejn�
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

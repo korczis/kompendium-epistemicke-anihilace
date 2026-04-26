@@ -1,7 +1,7 @@
 +++
 title = "Pripad 09-rezidualni-totalitarni-trauma: Rezidualni totalitarni trauma"
 description = "Anonymizovana pripadova studie — Rezidualni totalitarni trauma. EA techniky, fenomenologicky kurz, intervence, vysledek."
-weight = 09
+weight = 9
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]

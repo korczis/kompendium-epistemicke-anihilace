@@ -78,16 +78,16 @@ Strukturované rotace s 6měsíčním plánováním, mentor-replacement protokol
 
 ## 6. Cross-linky
 
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
-- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
-- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
+- [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
+- [Tréninky odolnosti](/kompendium/organizational-defense/12-training-resilience/)
+- [Právní podpora v krizi](/kompendium/organizational-defense/33-legal-counsel-engagement/)
+- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
+- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [Trauma-aware management](/kompendium/organizational-defense/36-trauma-aware-management/)
+- [Kompendium — Hlavní index](/kompendium/_index/)
+- [Detection Signatures](/kompendium/detection-signatures/_index/)
+- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Strukturované rotace s 6měsíčním plánováním, mentor-replacement protokol
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- **Kompendium**: [Hlavní index](/kompendium/_index/)
 

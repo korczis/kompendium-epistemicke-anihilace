@@ -4,10 +4,9 @@ description = "30 článků o prevenci EA a budování reziliencie napříč tř
 weight = 90
 sort_by = "weight"
 template = "kompendium/section.html"
-[taxonomies]
+[extra]
 tags = ["kompendium", "prevention-resilience"]
 categories = ["academic", "prevention"]
-[extra]
 parent = "kompendium"
 toc = true
 +++

@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Odolnost vůči studu
 
-Stud (Brown, 2012) je intenzivně bolestivý pocit „jsem špatný“, odlišný od viny („udělal jsem špatnou věc“). Bez resilience stud řídí vyhýbavé chování.
-
 ## Cíl dovednosti
 
-Vybudovat 4 pilíře shame-resilience: rozpoznat, kriticky uvědomit, dosáhnout, mluvit.
+Vybudovat schopnost rozpoznat stud, oddělit ho od identity a zpracovat ho zdravě, místo aby nás definoval.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Shame vs Guilt Diff
+### 1. Hanba vs. vina
 
-Pro 10 nedávných epizod negativní emoce klasifikujte: stud (já jsem špatný) vs. vina (udělal jsem špatnou věc). Vina je akční, stud je paralyzující. Diferenciace = první krok.
+Vina = 'udělal/a jsem špatnou věc.' Hanba = 'jsem špatný/á.' Naučte se rozlišovat. Vina je akční, hanba destruktivní.
 
-### Cvičení 2: Trigger Identification
+### 2. Mluvit o ní
 
-Brown's research: 12 shame-trigger kategorií (vzhled, peníze, mateřství, sex, religion, ...). Identifikujte vašich top-3. Trigger map snižuje překvapení útoku.
+Stud žije v tichu. Najděte si 1-2 lidi (terapeut, blízký přítel) a vyslovte to, za co se stydíte. Stud při kontaktu chřadne.
 
-### Cvičení 3: Critical Awareness
+### 3. Empatický svědek
 
-Pro každý shame trigger se zeptejte: čí očekávání toto je? Reálné nebo internalizované? Kdo z toho profituje? Většina shame-narrativů má kulturní/komerční původ.
+V duchu si představte soucitnou postavu (rodič, mentor, idealizované já) která slyší vaši hanbu a říká: 'Vidím tě. Pořád stojíš za to.'
 
-### Cvičení 4: Reaching Out Drill
+### 4. Test historicky
 
-Stud žije v izolaci. Identifikujte 1 osobu, které důvěřujete totálně. Při shame-epizodě jí to řekněte do 24 hodin. Sdílení rozpustí 60 % intenzity.
+Zeptejte se: 'Tato hanba je má vlastní, nebo zděděná z rodiny/kultury? Patří mi vůbec?'
 
-### Cvičení 5: Shame Resilience Mantra
+### 5. Mistrovství zranitelnosti
 
-Naučte se 3-větný blok: „Toto je stud. Není to fakt o mém charakteru. Co teď potřebuju?“ Recitujte při epizodě. Distancing + self-compassion + akce.
+Týdně si vyberte 1 malou věc, kterou byste raději skryli, a podělte se s vybranou bezpečnou osobou. Trénink.
 
 ## Časový rámec
 
-Shame-vs-guilt klasifikace: 30 dní. Reaching-out reflex: 60 dní. Stabilní mantra pod tlakem: 90 dní.
+Týdenní praxe sdílení 30 minut s bezpečnou osobou; měsíční hloubková reflexe 2 hodiny.
 
 ## Indikátory pokroku
 
-Klesá tendence k sebe-izolaci po chybě. Roste schopnost říct „cítím stud“ jako fakt. Méně perfekcionismu jako shame-defenze.
+Pokles vnitřního trestu po chybě; schopnost přiznat zranitelnost; konec perfekcionistických spirál.
 
 ## Limitace
 
-Hluboký traumatic shame (incest, abusive systém) vyžaduje terapeuta. Self-help není dostatečný pro complex PTSD.
+Hluboká hanba (komplexní trauma, abuse) vyžaduje terapeutickou podporu, samoobsluha nestačí.
 
 ## Cross-linky
 
-- [self compassion EA](self-compassion-EA/)
-- [emotional regulation EA](emotional-regulation-EA/)
-- [fear processing](fear-processing/)
-- [trigger recognition](trigger-recognition/)
-- [support mobilization](support-mobilization/)
-- [boundary setting](boundary-setting/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
+- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Metakognitivní monitoring
 
-Schopnost pozorovat vlastní myšlení v reálném čase je první vrstvou kognitivní obrany. Bez ní jste pasažérem ve vlastní hlavě.
-
 ## Cíl dovednosti
 
-Vybudovat stálého „vnitřního pozorovatele“ — proces, který detekuje vlastní kognitivní zkreslení DŘÍVE než vedou k rozhodnutí.
+Vybudovat schopnost pozorovat vlastní myšlenkové procesy v reálném čase a rozpoznat, kdy myšlení selhává nebo se odchyluje od reality.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Three-Question Pause
+### 1. Deník myšlenkových chyb
 
-Před každým netriviálním rozhodnutím se zastavte na 30 sekund a odpovězte: (1) Co si právě myslím? (2) Proč si to myslím? (3) Co bych si pomyslel, kdybych předpokládal opak? Zapisujte si odpovědi týden — pattern sebeklamu se odhalí sám.
+Každý večer 10 minut zapisujte 3 situace dne, kdy jste si během rozhodování něco mysleli a později zjistili, že jste se mýlili. Identifikujte typ chyby (předčasný úsudek, projekce, selektivní vnímání).
 
-### Cvičení 2: Bias Spotter Journal
+### 2. Stop-pauza-přemýšlej
 
-Každý večer 5 minut: zapište jedno rozhodnutí dne + jaký bias jej mohl ovlivnit (potvrzovací, dostupnostní, kotvení, sunk-cost). Po 30 dnech mapujete vlastní bias-profile.
+6× denně před důležitým rozhodnutím (i drobným) zastavte se na 30 sekund a explicitně řekněte: 'Co teď vlastně myslím? Proč to myslím? Jaké mám pro to důkazy?'
 
-### Cvičení 3: Real-Time Tagging
+### 3. Cizí oči
 
-Při čtení/diskuzi tagujte myšlenky kategoriemi: [DATA], [DOJEM], [SPEKULACE], [EMOCE]. Cíl: zvýšit fluence rozlišování epistemických tříd ve vlastním vědomí.
+Týdně si vyberte 1 přesvědčení, které máte. Napište argumenty, které by proti němu vznesl chytrý člověk z opačného tábora. Hodnoťte sílu jeho argumentů.
 
-### Cvičení 4: Confidence Calibration Drill
+### 4. Mapa jistot
 
-Před predikcí (cokoli — výsledek schůzky, dokončení tasku) vyslovte confidence v %. Po vyhodnocení porovnejte. Brierův skór po 50 predikcích ukazuje vaši reálnou kalibraci.
+Měsíčně sestavte žebříček 10 svých přesvědčení od nejjistějšího po nejméně jisté. Konfrontujte s realitou. Korigujte kalibraci.
 
-### Cvičení 5: Meta-Audit Sunday
+### 5. Dialog s pochybovačem
 
-1× týdně 20 minut: projděte hlavní rozhodnutí týdne a označte, kde jste si byli sebejistí a chybili (overconfidence) a kde jste váhali a měli pravdu (underconfidence). Toto je váš osobní calibration set.
+Před spaním 5 minut si v duchu položte otázku: 'V čem jsem se dnes mohl/a mýlit, aniž bych si toho všiml/a?' Zapište odpověď.
 
 ## Časový rámec
 
-Vnitřní pozorovatel se objeví za 14 dní denní praxe. Stabilní automatické monitorování trvá 90+ dní.
+Denně 10–15 minut, ranní + večerní rituál; dlouhodobý habituační horizont 90 dní pro vytvoření trvalého návyku.
 
 ## Indikátory pokroku
 
-Pomalejší rozhodování v 1. týdnu (feature, ne bug). Vyšší frekvence „já jsem si toho právě všiml“ momentů. Snížená míra emocionálních reakcí na nečekané informace.
+Schopnost zachytit chybu před jejím projevem; zkrácení reakční doby od chybného úsudku k jeho korekci; pokles unáhlených rozhodnutí; růst přesnosti sebeposouzení.
 
 ## Limitace
 
-Metakognice samotná nezachrání před silným afektem (úzkost, hněv) — vyžaduje doplnění o emoční regulaci. Nadměrné monitorování může vést k analytické paralýze.
+Metakognice nenahrazuje epistemickou robustnost — člověk si může uvědomovat své myšlení a stále se mýlit. Riziko nadměrné introspekce a paralýzy analýzou.
 
 ## Cross-linky
 
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [claim verification skill](claim-verification-skill/)
-- [belief revision](belief-revision/)
-- [cognitive flexibility training](cognitive-flexibility-training/)
-- [trigger recognition](trigger-recognition/)
-- [emotional regulation EA](emotional-regulation-EA/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ glossary bridges/](../glossary-bridges//)
-
----
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

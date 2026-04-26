@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Kalibrace důvěry
 
-Důvěra je portfolio, ne binární switch. Lidé jsou důvěryhodní v různých doménách s různou hloubkou. Nadměrná i podmínečná důvěra kálí.
-
 ## Cíl dovednosti
 
-Naučit se přiřazovat differentiated důvěru — podle domény, hloubky a evidence.
+Naučit se přiznávat důvěru v měřitelných dávkách a podle prokázané zkušenosti, ne podle pocitu nebo deklarace.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Trust Domains Map
+### 1. Pyramida důvěry
 
-Pro 5 klíčových lidí oskorujte důvěru 0-10 ve 6 doménách: (1) sliby, (2) finance, (3) emoce/diskrétnost, (4) profesní úsudek, (5) krizi, (6) hodnoty. Většina lidí důvěřuje v 2-3 doménách, ne 6.
+Definujte úrovně: kruh 1 (cokoliv), kruh 2 (většina věcí), kruh 3 (běžné), kruh 4 (znalost), kruh 5 (kolemjdoucí). Třiďte vědomě.
 
-### Cvičení 2: Evidence-Based Trust
+### 2. Důkazní záznam
 
-Pro každou důvěru-pozici se zeptejte: jaký EVIDENCE BASE ji podpírá? Důvěra bez minimum 3 datapoints je projekce, ne kalibrace.
+Pro klíčové lidi sledujte: dali slib → splnili / nesplnili. 5 splněných = posun do vyššího kruhu. 2 nesplněné = posun dolů.
 
-### Cvičení 3: Trust-Time Function
+### 3. Test malou sázkou
 
-Pro nového člověka definujte fáze: Tier 1 (60 dní, low-stakes test) → Tier 2 (90 dní, medium-stakes) → Tier 3 (>1 rok, high-stakes). Ti, kteří se urážejí na pomalou progresi, jsou red flag.
+Než někomu svěříte velkou věc, dejte mu malou. Pozorujte. Kalibruje se postupně.
 
-### Cvičení 4: Reliability vs. Likability
+### 4. Reset po zradě
 
-Likability ≠ reliability. Trénujte rozlišovat: charm-based důvěra (cítím se dobře) vs. evidence-based důvěra (delivered consistently). První je manipulovatelná, druhá ne.
+Když je důvěra zlomena, neresetujte zpět na nulu, ale dolů o 2-3 stupně. Vracení nahoru je možné, ale vyžaduje opětovný důkaz.
 
-### Cvičení 5: Trust Recovery Protocol
+### 5. Vlastní reliabilita
 
-Když je důvěra porušena: (1) acknowledge break, (2) request specific repair, (3) observe new evidence ≥30 dní, (4) re-calibrate (nikdy ne zpět na 100 %, vždy s discount).
+Sledujte, kolik z vlastních slibů držíte. Lidé vás kalibrují stejně. Buďte hodni úrovně, kterou požadujete.
 
 ## Časový rámec
 
-Trust-domains map: 1 týden. Evidence-based audit reflex: 30 dní. Trust-time function dodržená: 60-90 dní.
+Průběžně při všech důležitých interakcích; měsíční review pyramidy 30 minut.
 
 ## Indikátory pokroku
 
-Klesá počet zrad „nečekanýho“ typu. Roste schopnost říct „důvěřuju ti v X, ne v Y“. Méně bezduvěryhodné delegace.
+Klesající počet zklamání; zdravější vztahy; vyšší vlastní spolehlivost.
 
 ## Limitace
 
-Příliš jemná kalibrace způsobuje paralýzu vztahů. Hluboká důvěra někdy vyžaduje skok víry. V intimních vztazích nelze fungovat čistě evidence-based.
+Příliš opatrná kalibrace brání hlubokým vztahům. Někdy je nutné riskovat dříve, než je důkaz kompletní.
 
 ## Cross-linky
 
-- [relationship audit](relationship-audit/)
-- [boundary setting](boundary-setting/)
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [claim verification skill](claim-verification-skill/)
-- [communication assertiveness](communication-assertiveness/)
-- [support mobilization](support-mobilization/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ detection signatures/](../detection-signatures//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

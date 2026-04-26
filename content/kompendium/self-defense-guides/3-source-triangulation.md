@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Triangulace zdrojů
 
-Jeden zdroj je hypotéza. Tři nezávislé zdroje s konzistentním tvrzením se blíží faktu. Triangulace je antidote k informačním bublinám.
-
 ## Cíl dovednosti
 
-Vybudovat reflex „nikdy nevěřit jednomu zdroji“ + dovednost rychle vyhledat 3 nezávislé reference.
+Naučit se ověřovat informace z minimálně tří nezávislých zdrojů s odlišnými epistemickými předpoklady a zájmy.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Three-Source Rule
+### 1. Pravidlo 3 nezávislých
 
-Pro každé tvrzení, které chcete sdílet/použít v rozhodnutí, vyžadujte 3 nezávislé zdroje. Nezávislost = různý vlastník, různá redakce, různá geografie.
+Žádné důležité tvrzení nepřevezměte, dokud ho neověříte u 3 zdrojů, které spolu nesdílejí ekonomický zájem, ideologii a metodologii.
 
-### Cvičení 2: Independence Audit
+### 2. Mapa zdrojů
 
-U vašich top-5 informačních zdrojů zjistěte: (1) kdo je vlastní, (2) z čeho žijí, (3) jaký mají bias-profile. Pokud sdílí 2+ vlastníky/financování, jsou to 1 zdroj.
+Sestavte si tabulku svých 20 nejčastěji konzumovaných zdrojů a u každého explicitně označte: vlastník, financování, ideologie, metodologie. Hledejte slepá místa.
 
-### Cvičení 3: Primary-Document Hunt
+### 3. Test diametrálního zdroje
 
-Místo článku „Studie ukázala…“ najděte primární dokument (paper, výroční zprávu, soudní spis). 70 % tisku zkresluje primární zdroj — toto je nejvyšší ROI cvičení.
+Pro klíčové téma najděte zdroj z opačného ideologického tábora a přečtěte ho. Identifikujte 3 platné body, se kterými souhlasíte.
 
-### Cvičení 4: Cross-Lingual Triangulation
+### 4. Primární zdroj
 
-U geopolitických tvrzení čtěte minimálně CS + EN + jazyk regionu (kde to jde). Reálná pozice se objeví v tenze mezi nimi.
+Před přijetím interpretace najděte a přečtěte primární zdroj (studii, dokument, projev). Porovnejte s interpretací.
 
-### Cvičení 5: Adversarial Source
+### 5. Geografická diverzifikace
 
-Na každý sledovaný zdroj přidejte explicitně oponentní zdroj — ne pro vyvážení, ale pro detekci nesdílených fakt. Pravda je v překrytí, ne v průměru.
+Sledujte zprávy o stejné události v médiích 3 různých zemí. Pozorujte rozdíly v rámování.
 
 ## Časový rámec
 
-Three-source rule jako reflex: 21 dní. Cross-lingual triangulace: 60 dní. Primary-document hunt instinct: 90 dní.
+Pro každé klíčové rozhodnutí investujte 30–60 minut do triangulace; měsíčně audit mapy zdrojů.
 
 ## Indikátory pokroku
 
-Klesá počet rychlých sdílení. Roste latence „než si o tom udělám názor“. Detekujete tvrzení opřená o jediný zdroj v cizí komunikaci.
+Vyšší přesnost predikcí; pokles případů, kdy přijmete falešnou zprávu; větší tolerance kognitivního nesouladu.
 
 ## Limitace
 
-Triangulace selhává při koordinovaných influence-operacích, kde tři „nezávislé“ zdroje sdílejí stejný proxy. Time-cost u každodenních triviálních tvrzení neudržitelný.
+Nezávislost zdrojů je iluze v dnešní globalizované mediální ekonomice; perfektní triangulace je drahá v čase.
 
 ## Cross-linky
 
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [claim verification skill](claim-verification-skill/)
-- [falsification thinking](falsification-thinking/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [trust calibration](trust-calibration/)
-- [network diversification](network-diversification/)
-- [↗ detection signatures/](../detection-signatures//)
-- [↗ glossary bridges/](../glossary-bridges//)
-
----
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

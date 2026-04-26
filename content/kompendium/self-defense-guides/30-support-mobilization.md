@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Mobilizace podpory
 
-V krizi nejmenší rozdíl je mít vs. nemít síť. Druhý nejmenší je umět ji aktivovat. Většina lidí má víc podpory, než aktivuje.
-
 ## Cíl dovednosti
 
-Vybudovat 3-tier support map a ověřený protokol pro mobilizaci v 4 typech krize.
+Naučit se v krizi efektivně požádat o pomoc a tu pomoc přijmout, aniž bychom zůstali viset v hrdém solipsismu.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Support Map (3-Tier)
+### 1. Mapa zdrojů
 
-Tier 1: 2-3 lidé pro vše (krize i radost). Tier 2: 5-7 lidí pro specifické domény (právní / zdravotní / emoční / pracovní). Tier 3: 10-20 weak ties pro one-off help. Mapujte explicitně.
+Předem sepište 10 lidí + 5 institucí, na které se v různých krizích můžete obrátit. Krizi není doba na hledání kontaktů.
 
-### Cvičení 2: Domain-Specific Allies
+### 2. Specifická žádost
 
-Pro 5 životních domén (zdraví, finance, právo, vztahy, work-crisis) identifikujte 1-2 osoby, na které bytostně volat, kdyby nastala krize. Bez specific ally je krize 2× delší.
+Místo 'potřebuji pomoct' řekněte konkrétně: 'Potřebuji, abys 3× tento týden přišel/a večer a poslechl/a si mě 30 minut.' Konkrétní žádosti se plní.
 
-### Cvičení 3: Ask-Practice Drill
+### 3. Pravidlo 3 zdrojů
 
-Většina lidí nepožádá, protože netrénovala. Cvičte 1× týdně request o malou pomoc (nemyslím vás vyčerpávat — myslím opačně, request 5-min favor). Sval atrofuje bez tréninku.
+V každé krizi mobilizujte minimálně 3 různé zdroje (rodina + přítel + odborník). Nedat všechnu váhu jednomu.
 
-### Cvičení 4: Specificity-of-Ask
+### 4. Trénink přijímání
 
-Vágní „potřebuju podporu“ = paralyzující pro pomocníka. Konkrétní „potřebuju, abys mě 30 min poslechl/a o X bez rad“ = clear deliverable. Trénujte specificitu 100×.
+Týdně cvičte přijímání drobných nabídek (ano, dej mi tu kávu; ano, vezmu tě). Trénuje to svaly přijímání.
 
-### Cvičení 5: Reciprocity Inversion
+### 5. Reciprocita předem
 
-1× měsíčně proaktivně nabídněte specifickou pomoc 3 lidem v support mapě. Reciprocity je infrastruktura — nemůžete withdraw, pokud jste nedeposit.
+Investujte do vztahů ještě před krizí. Pomáhejte, naslouchejte, buďte přítomní. Krize prověří síť, kterou jste utkali.
 
 ## Časový rámec
 
-Support map: 1 týden. Ask-practice reflex: 30 dní. Specificity-of-ask v krizi pod tlakem: 60-90 dní.
+Roční audit mapy zdrojů 1 hodina; průběžná investice do reciprocity; akutní mobilizace v krizi.
 
 ## Indikátory pokroku
 
-Klesá pocit „v krizi nemá mi kdo pomoct“. Roste rychlost recovery z krize. Druzí říkají „je s tebou easy, protože jasně řekneš co potřebuješ“.
+Kratší trvání krizí; menší následky; pocit, že nejste sám/sama.
 
 ## Limitace
 
-Pure-receiver pattern eroduje síť. Některé krize (akutní psychiatrické) překračují kapacitu sítě a vyžadují profesionální pomoc.
+Některá traumata vyžadují odborníka, ne přítele. Rozlišovat moudře.
 
 ## Cross-linky
 
-- [network diversification](network-diversification/)
-- [isolation prevention](isolation-prevention/)
-- [relationship audit](relationship-audit/)
-- [communication assertiveness](communication-assertiveness/)
-- [trust calibration](trust-calibration/)
-- [community engagement](community-engagement/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Revize přesvědčení
 
-Pevná přesvědčení bez mechanizmu revize jsou identita, ne mapa reality. Bayes nepouští sevření, ale aktualizuje váhu.
-
 ## Cíl dovednosti
 
-Mít explicitní protokol pro průběžnou revizi vlastních přesvědčení podle nových důkazů — bez ztráty stability identity.
+Vybudovat zdravý vztah ke změně názoru — nikoli jako selhání, ale jako známku epistemické vitality.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Belief Inventory
+### 1. Kvótní revize
 
-Vyjmenujte 10 svých nejsilnějších přesvědčení (politická/etická/profesní). U každého: (1) confidence v %, (2) co by ji zvedlo, (3) co by ji snížilo, (4) datum poslední revize.
+Stanovte si měsíční kvótu: minimálně 1 přesvědčení změněno na základě nového důkazu. Pokud nedosáhnete, zpřístupňujete se málo informacím.
 
-### Cvičení 2: Bayesian Update Drill
+### 2. Veřejná aktualizace
 
-Pro každý nový significant důkaz formálně updatujte: P(H|E) = P(E|H)·P(H) / P(E). I hrubý odhad je lepší než žádný update. Trénujte 3× týdně.
+Když změníte názor, řekněte to nahlas: 'Dříve jsem si myslel/a X, ale nyní si myslím Y, protože Z.' Trénuje to integritu.
 
-### Cvičení 3: Annual Belief Audit
+### 3. Mapa konverzí
 
-1× ročně 2 hodiny: projděte top-10 inventory. U kterých jste se posunuli? U kterých ne — proč? Stagnace u 9/10 = identifikační lock-in, ne moudrost.
+Veďte si seznam svých 'velkých konverzí' za posledních 5 let. Co je spustilo? Jaký vzor?
 
-### Cvičení 4: Cohort Comparison
+### 4. Test bayesovské aktualizace
 
-Vyhledejte 3 lidi vašeho věku/profese, kteří se posunuli OPACITĚ k vám. Co viděli oni a vy ne? Tato otázka odhalí blind-spot.
+Před přijetím nového důkazu odhadněte: 'Kolik bych mu měl/a přiřadit váhu?' Po týdnu reflektujte, zda jste reagoval/a přiměřeně.
 
-### Cvičení 5: Public Update Statement
+### 5. Setkání s minulým já
 
-Když změníte pozici, zveřejněte to (blog/sociálka/tým): „Před X jsem si myslel A, teď si myslím B kvůli důkazu C.“ Toto kalibruje váhu vašich budoucích tvrzení.
+Měsíčně 20 minut: čtěte své staré texty/e-maily a hledejte přesvědčení, která už nesdílíte. Co se změnilo?
 
 ## Časový rámec
 
-Belief Inventory jako živý dokument: 30 dní. Bayesian update jako automatizmus: 90 dní. Public update bez nepohody: 6 měsíců+.
+Měsíční review 1 hodina; průběžně při všech důkazních konfliktech.
 
 ## Indikátory pokroku
 
-Roste počet „změnil jsem názor kvůli…“ výroků. Klesá obrana vlastních starých pozic. Přijímáte protichůdná data bez ohrožení.
+Klesající doba mezi novým důkazem a aktualizací názoru; vyšší kalibrace; zdravější dynamika v diskusích.
 
 ## Limitace
 
-Příliš rychlá revize = nestabilita, manipulovatelnost. Některá přesvědčení (etická jádra) by se neměla revidovat na základě každého důkazu.
+Příliš snadná revize hraničí s nestálostí. Přesvědčení musí mít gravitační sílu, jinak nelze jednat.
 
 ## Cross-linky
 
-- [falsification thinking](falsification-thinking/)
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [paradigm pluralism](paradigm-pluralism/)
-- [cognitive flexibility training](cognitive-flexibility-training/)
-- [trust calibration](trust-calibration/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ glossary bridges/](../glossary-bridges//)
-
----
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

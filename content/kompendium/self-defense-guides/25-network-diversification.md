@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Diverzifikace sítě
 
-Mono-sítě (jen kolegové, jen rodina, jen 1 zájem) jsou strukturálně křehké. Diverzifikace = resilience proti kolapsu jednotlivého nodu.
-
 ## Cíl dovednosti
 
-Vybudovat síť s 5+ nezávislými cluster-y a 3+ tier-y intimity.
+Budovat vztahovou síť napříč obory, věkovými skupinami a kulturami, aby žádná jednotlivá ztráta nebyla epistemicky devastující.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Cluster Map
+### 1. Mapa sítě
 
-Vyjmenujte své aktivní sociální clustery (rodina, kamarádi A, kolegové, sport, hobby A, hobby B, ...). Méně než 4 = mono-síť. Více než 8 = nadměrné rozdrobení energie.
+Nakreslete diagram 30 lidí kolem sebe. Označte: profese, věk, kultura. Identifikujte slepá místa (jen jeden obor? jen vrstevníci?).
 
-### Cvičení 2: Bridge-Person Audit
+### 2. Cíl 3 nových světů
 
-Identifikujte v každém cluster 1 osobu, která přemosťuje k jinému cluster. Bridge-people zvyšují robustnost. Bez nich jsou clustery silos.
+Ročně se cíleně seznamte s 3 lidmi z domén, ve kterých nikoho neznáte. Konference, kurzy, nové kluby.
 
-### Cvičení 3: Weak-Tie Investment
+### 3. Mezigenerační vztah
 
-Granovetter (1973): weak ties (občasné kontakty) jsou efektivnější pro nové příležitosti než strong ties. Jednou týdně reach-out na 1 weak-tie. 50× ročně = 50 nových povrchů.
+Vědomě budujte vztah s někým o 20+ let starším a o 20+ let mladším. Korigují se vám slepá místa generace.
 
-### Cvičení 4: Cluster Birth Drill
+### 4. Ne-kolega
 
-Každoročně přidejte 1 nový cluster (nový sport, nová doména, nová geografie). Bez nového cluster se síť uzavírá. 5-letý plán = 5 nových clusterů.
+Dbejte na to, aby vaši nejbližší 3 přátelé NEBYLI z práce. Diverzifikuje to riziko izolace při změně práce.
 
-### Cvičení 5: Resilience Stress Test
+### 5. Slabé vazby
 
-Pro každý cluster simulujte: „Co kdyby tento cluster zítra zmizel?“ (rozvod, změna firmy, stěhování). Pokud by 1 ztráta destabilizovala >40 % vašeho života, máte koncentrační riziko.
+Investujte čas do tzv. slabých vazeb (známí na okraji sítě). Často přinášejí největší příležitosti.
 
 ## Časový rámec
 
-Cluster map: 1 týden. Weekly weak-tie reach: 30 dní. Stable 5+ clusterů: 12-24 měsíců.
+Roční review mapy 2 hodiny; měsíční 1 nová kontaktní iniciativa.
 
 ## Indikátory pokroku
 
-Klesá závislost na 1 osobě/skupině. Roste počet „quasi-friends“, se kterými lze udělat kávu. Lepší recovery po cluster-loss.
+Větší odolnost vůči ztrátám; rozmanitější perspektivy; širší příležitosti.
 
 ## Limitace
 
-Diverzifikace bez hloubky = mělkost. Některé fáze života (děti pod 5, akutní krize) přirozeně síť kontrahují — to je adaptivní, ne patologie.
+Diverzifikace bez hloubky vede k povrchním vztahům. Hloubka v 3-5 vztazích je důležitější než šířka.
 
 ## Cross-linky
 
-- [relationship audit](relationship-audit/)
-- [isolation prevention](isolation-prevention/)
-- [trust calibration](trust-calibration/)
-- [support mobilization](support-mobilization/)
-- [community engagement](community-engagement/)
-- [boundary setting](boundary-setting/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

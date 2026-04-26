@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Asertivní komunikace
 
-Asertivita je třetí cesta mezi pasivitou (potlačení) a agresí (útok). Bez asertivity buď ztrácíte hranice, nebo vztahy.
-
 ## Cíl dovednosti
 
-Vybudovat 5-step asertivní šablonu, která komunikuje potřebu bez agrese a bez kapitulace.
+Vyjadřovat své potřeby, názory a hranice jasně a respektujícím způsobem, bez pasivity ani agrese.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: DESC Framework
+### 1. DESC formule
 
-Describe-Express-Specify-Consequence: (1) Popsat fakt, (2) Vyjádřit cit, (3) Specifikovat požadavek, (4) Definovat důsledek. Trénujte na 10 historických konfliktech.
+Describe situaci - Express emoci - Specify žádost - Consequence. Trénujte na e-mailech a telefonátech.
 
-### Cvičení 2: I-Statement Drill
+### 2. Já-výrok místo Ty-výroku
 
-Místo „Ty vždycky...“ trénujte „Já cítím X, když Y, protože Z.“ 100× v cvičení = automatizmus v ohni. Vyhýbá se obrannému reflexu druhé strany.
+'Cítím se přehlížen/a, když přerušíš.' místo 'Pořád mě přerušuješ.' Méně obrany u protistrany.
 
-### Cvičení 3: Broken Record
+### 3. Pauza před reakcí
 
-Když druhý netlačí na váš point, opakujte ho identicky bez argumentace: „Chápu, ale toto pro mě nefunguje. Chápu, ale toto pro mě nefunguje.“ 3× obvykle stačí.
+Po kontroverzním sdělení nereagujte hned. 'Děkuji, že jsi mi to řekl/a. Potřebuji nad tím přemýšlet.' Vrátíte se.
 
-### Cvičení 4: Fogging Technique
+### 4. Výuka NE
 
-Když jste v útoku-asertivitě (ne agresi): souhlaste s pravdou (i částečnou) bez kapitulace na jádro. „Možná máš pravdu, že jsem dnes unavený. A přesto moje hranice platí.“ Disarmuje útočníka.
+Na 10 nepříjemných žádostí týdně řekněte 'Ne'. Bez delšího vysvětlení. Trénujte snášet nelibost.
 
-### Cvičení 5: Pre-Conversation Prep
+### 5. Žádej o to, co chceš
 
-Před tvrdou konverzací 5 minut: (1) přesný cíl, (2) minimum acceptable outcome, (3) předvídatelné námitky, (4) odpověď na každou. Nepřipravená asertivita = šance 30 %, připravená = 80 %.
+Lidé nečtou myšlenky. Pokud něco potřebujete, řekněte to konkrétně: 'Potřebuji teď 30 minut sám/sama.'
 
 ## Časový rámec
 
-DESC fluence: 30 dní. I-statement reflex: 21 dní. Pre-conversation prep před každou tvrdou konverzací: 60 dní.
+Denně 1-3 asertivní výroky; týdenní reflexe 15 minut.
 
 ## Indikátory pokroku
 
-Klesá počet pozdějších „proč jsem to neřekl“ lítostí. Roste rychlost dosažení agreement. Méně neproduktivních eskalací.
+Vyšší jasnost vztahů; menší rezignace; větší vnitřní integrita.
 
 ## Limitace
 
-Asertivita v hierarchických systémech (autoritativní rodina, hierarchie firmy) má politické náklady. Není nahrazení strategie — je to taktika v širším poli.
+Asertivita v autoritářském prostředí může být riskantní. Adaptujte intenzitu kontextu.
 
 ## Cross-linky
 
-- [boundary setting](boundary-setting/)
-- [anger management EA](anger-management-EA/)
-- [conflict resolution](conflict-resolution/)
-- [emotional regulation EA](emotional-regulation-EA/)
-- [trust calibration](trust-calibration/)
-- [self compassion EA](self-compassion-EA/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

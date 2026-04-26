@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Rozpoznávání spouštěčů
 
-Spouštěč není emoce — je to senzorický/kontextuální podnět, který emoci spouští. Rozeznat ho = ovládnout 50 % reakce.
-
 ## Cíl dovednosti
 
-Identifikovat osobní mapu top-10 spouštěčů a vyvinout pre-emptivní reakci pro každý.
+Identifikovat své osobní emoční spouštěče s takovou přesností, abyste je viděli přicházet ještě před emocí samotnou.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Trigger Inventory
+### 1. Mapa spouštěčů
 
-Zpětně 30 dní: vyjmenujte 10 momentů, kdy jste reagovali nepřiměřeně. U každého: (1) přesný senzorický spouštěč, (2) kontext, (3) předchozí stav (únava, hlad), (4) jaká rána z minulosti se aktivovala.
+Po dobu měsíce zapisujte každou intenzivní emoční reakci a vraťte se 30 sekund zpět: co se stalo? Co jsem si myslel/a?
 
-### Cvičení 2: Pre-Trigger Mapping
+### 2. Klastrování
 
-Pro top-3 spouštěče identifikujte 3 minuty PŘED — co se dělo? Často je v této zóně varování (somatický signál, myšlenka). Cíl: chytit reakci v pre-trigger oknu.
+Po měsíci si projděte záznamy a klastrujte je. 80 % vašich reakcí pravděpodobně pochází ze 3-5 témat.
 
-### Cvičení 3: Response Substitution
+### 3. Přední signály
 
-Pro každý top-spouštěč naprogramujte alternativní reakci („když manželka kritizuje plán → před odpovědí 1 dech 4-7-8“). Cvičte 100× v klidu, abyste měli reflex v ohni.
+Pro každý klastr identifikujte 'přední signál' — drobný předznamenávač emoce 30-60 sekund před vrcholem.
 
-### Cvičení 4: Trigger-Free Diet
+### 4. Včasná intervence
 
-Identifikujte 1 spouštěč, kterému se LZE vyhnout (specifická osoba, médium, místo) a 30 dní se mu vyhněte. Pozorujte rozdíl v baseline.
+Když rozpoznáte přední signál, použijte předem vybranou intervenci (3 dechy, krok zpět, otázka 'co tu reaguje?').
 
-### Cvičení 5: Family-of-Origin Trace
+### 5. Spouštěč jako učitel
 
-Pro top-3 spouštěče se zeptejte: kdy jsem to cítil/a poprvé v dětství? Většina dospělých spouštěčů má kořen ve <12 letech věku. Toto vědomí samo snižuje reaktivitu.
+Týdně si vyberte 1 spouštěč a místo zlobou na jeho zdroj se ptejte: 'Co o mně tento spouštěč vypovídá?' Často odhalí staré zranění.
 
 ## Časový rámec
 
-Trigger Inventory: 1 týden. Pre-trigger okna detekce: 30 dní. Response substitution na 1 spouštěč: 60 dní.
+Denně 5 minut záznamů + týdenní 30minutové review; ranní pozornost na přední signály.
 
 ## Indikátory pokroku
 
-Roste latence „odpovědět později místo teď“. Klesá počet eskalací v konfliktech. Cítíte spouštěč v těle dříve, než se objeví ve slovech.
+Schopnost zachytit emoci v zárodku; pokles intenzity vrcholných reakcí; vyšší zvědavost místo obrany.
 
 ## Limitace
 
-Některé spouštěče mají traumatický původ a vyžadují odbornou pomoc (EMDR, somatická terapie). Sebe-mapping nenahrazuje terapii u PTSD.
+Spouštěče se mění s životní fází. Mapa musí být živý dokument, ne archiv.
 
 ## Cross-linky
 
-- [emotional regulation EA](emotional-regulation-EA/)
-- [somatic awareness](somatic-awareness/)
-- [grounding techniques](grounding-techniques/)
-- [fear processing](fear-processing/)
-- [anger management EA](anger-management-EA/)
-- [shame resilience](shame-resilience/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
+- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
+- [Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

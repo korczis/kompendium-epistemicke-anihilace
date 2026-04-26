@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Somatické vědomí"
-description = "Praktický návod sebe-obrany — somatické vědomí."
+title = "Sebe-obrana: Somatická pozornost"
+description = "Praktický návod sebe-obrany — somatická pozornost."
 weight = 13
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Somatické vědomí
-
-Tělo cítí dříve než mozek pojmenuje. Naučit se číst somatické signály = předběžná detekce emoce před eskalací.
+# Sebe-obrana: Somatická pozornost
 
 ## Cíl dovednosti
 
-Vyvinout schopnost lokalizovat a popsat tělesné signály emocí v reálném čase.
+Obnovit přímý kontakt s tělem jako primárním zdrojem emoční inteligence, který kognice často přehlíží.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Body Scan 5-Minute
+### 1. Body scan ráno
 
-Denně ráno + večer: zavřete oči, projděte tělo od hlavy k patám, lokalizujte 3 napětí. Bez snahy je řešit — jen zaznamenat. Trénujte 30 dní.
+Po probuzení 5 minut systematicky procházejte tělem od hlavy k patě. Co cítím v každé části? Beze snahy měnit.
 
-### Cvičení 2: Emotion-Body Map
+### 2. Tělesný odznak
 
-Pro 10 hlavních emocí nakreslete na siluetu těla, KDE je cítíte (vztek = hrudník, úzkost = břicho, smutek = krk). Toto je VAŠE mapa, ne univerzální.
+Když mluvíte s někým a vznikne nějaký pocit, položte si otázku: 'Kde to v těle cítím?' Trénuje propojení.
 
-### Cvičení 3: Pre-Emotion Signal
+### 3. Pohyb bez cíle
 
-Naučte se jeden signál (sevřená čelist, povrchní dech, napětí v ramenou), který vám tělo posílá 30-60s PŘED emocí. Trénujte si tento signál všímat 20× denně.
+Denně 10 minut volného pohybu (tanec, protahování) bez zrcadla a hudby. Poslouchejte, co tělo chce.
 
-### Cvičení 4: Tense-Release Cycle
+### 4. Dech jako indikátor
 
-Progressive muscle relaxation: stáhněte sval na 5 s, povolte na 10 s, projděte 12 svalových skupin. 1× denně. Naučí tělo rozeznat „napětí“ vs „uvolnění“.
+Pravidelně kontrolujte: dýchám hlubokým břišním dechem nebo mělkým hrudním? Mělký dech = stres signál.
 
-### Cvičení 5: Movement-Based Discharge
+### 5. Tělesný YES/NO
 
-Po stresové události: 5-10 minut chůze NEBO 30 sklapovek/dřepů NEBO třesení (TRE technika). Adrenalin vyžaduje fyzický discharge, ne kognitivní.
+Před rozhodnutím se zeptejte těla: 'Co říkáš?' Sledujte, kde se objevuje tah a kde stažení. Tělo často ví dřív než mysl.
 
 ## Časový rámec
 
-Body scan jako návyk: 21 dní. Pre-emotion signal detekce: 30-45 dní. Emotion-body map stabilní: 60 dní.
+Denně 15 minut formálních cvičení + průběžně check-iny každé 2 hodiny.
 
 ## Indikátory pokroku
 
-Klesá počet „nevím proč jsem se naštval“. Roste schopnost říct „cítím napětí v hrudi“ v okamžiku, ne až večer. Lepší kvalita spánku.
+Zvýšená schopnost cítit emoce dřív, než se projeví v chování; lepší rozpoznání únavy a hladu; intuitivnější rozhodování.
 
 ## Limitace
 
-Somatická práce může reaktivovat trauma — pokud máte PTSD historii, dělejte to s odborníkem. Disociované jedince to může destabilizovat.
+U lidí s historií tělesného traumatu může příliš rychlé prohlubování somatické pozornosti vyvolat dysregulaci. Postupujte pomalu, ideálně s podporou.
 
 ## Cross-linky
 
-- [emotional regulation EA](emotional-regulation-EA/)
-- [trigger recognition](trigger-recognition/)
-- [grounding techniques](grounding-techniques/)
-- [fear processing](fear-processing/)
-- [self compassion EA](self-compassion-EA/)
-- [anger management EA](anger-management-EA/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
+- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
+- [Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

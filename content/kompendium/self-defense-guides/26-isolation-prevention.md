@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Prevence izolace
 
-Izolace je největší nezdravotní rizikový faktor mortality (Holt-Lunstad meta-analýza: srovnatelný s kouřením 15 cigaret denně). A přitom plíživý.
-
 ## Cíl dovednosti
 
-Detekovat izolační drift dříve, než dosáhne klinické úrovně, a mít 5 protokolů pro re-engagement.
+Aktivně bránit postupné izolaci, která se v moderním životě plíživě prosazuje a vede k epistemické a emocionální zranitelnosti.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Contact-Frequency Baseline
+### 1. Týdenní minimum
 
-Definujte zdravý baseline: kolik close-contact konverzací týdně? (>30 min, in-person nebo voice, nikoli text). Většina dospělých potřebuje 3-7 týdně. Měřte 14 dní.
+Definujte si týdenní minimum sociálního kontaktu (např. 3 osobní setkání). Pokud nedosáhnete, intervence.
 
-### Cvičení 2: Drift Early-Warning
+### 2. Sociální kalendář
 
-5 signálů blížící se izolace: (1) cancellation pattern, (2) výmluva místo iniciace, (3) přemýšlení místo volání, (4) self-talk „nikomu nejsem zajímavý“, (5) screen-time substituce. Detekujte všechny.
+Plánujte sociální aktivity stejně pečlivě jako pracovní schůzky. Bez plánu izolace vyhrává.
 
-### Cvičení 3: Minimum Viable Social
+### 3. Detekce uzavírání
 
-Definujte non-negotiable minimum: např. 1× týdně oběd s kýmkoli, 1× měsíčně skupinová aktivita, 1× kvartálně intimní konverzace. I v krizi tato kotvy.
+Sledujte signály: méně volných pozvánek, vyhýbání hovorům, samomluva. Brzká detekce.
 
-### Cvičení 4: Initiation Protocol
+### 4. Pravidelný rituál
 
-Když cítíte „nechci nikomu volat“ — to je SIGNÁL volat, ne důkaz, že nemáte komu. Reach-out 1 osoby. 80 % „izolace“ je iniciace-paralýza, ne absence kontaktů.
+Pevný týdenní rituál (středeční káva, neděle u rodičů). Strukturuje sociální život i v krizi.
 
-### Cvičení 5: Reverse-Withdrawal Drill
+### 5. První krok
 
-Pokud jste 30+ dní stáhli — neomlouvejte se za absenci, jen napište „chyběl jsi mi“. Většina lidí to vítá. Stud z absence prodlužuje absenci.
+Když si všimnete uzavírání, zavolejte dnes 1 člověka z minulosti. Nečekejte na náladu, jednejte navzdory.
 
 ## Časový rámec
 
-Baseline measurement: 14 dní. Drift early-warning recognized: 30 dní. Initiation protokol pod tlakem: 60 dní.
+Týdenní minimum průběžně; měsíční audit 15 minut; akce v reálném čase při detekci.
 
 ## Indikátory pokroku
 
-Klesá frekvence „včera jsem s nikým nemluvil“ týdnů. Roste schopnost zavolat „bez důvodu“. Lepší nálada (kontakt = endogenní antidepresivum).
+Pokles symptomů osamělosti; vyšší sociální podpora v krizi; větší emoční stabilita.
 
 ## Limitace
 
-Klinická deprese může imitovat izolaci a self-help nestačí — vyhledat psychoterapeuta. Někteří introverti potřebují méně kontaktu — kalibrace individuální.
+Někteří lidé skutečně potřebují více samoty než jiní. Neaplikovat extrovertní normu na všechny.
 
 ## Cross-linky
 
-- [network diversification](network-diversification/)
-- [support mobilization](support-mobilization/)
-- [relationship audit](relationship-audit/)
-- [boundary setting](boundary-setting/)
-- [self compassion EA](self-compassion-EA/)
-- [community engagement](community-engagement/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

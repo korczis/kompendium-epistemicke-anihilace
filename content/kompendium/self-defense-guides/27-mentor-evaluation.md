@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Hodnocení mentora"
-description = "Praktický návod sebe-obrany — hodnocení mentora."
+title = "Sebe-obrana: Hodnocení mentorů"
+description = "Praktický návod sebe-obrany — hodnocení mentorů."
 weight = 27
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Hodnocení mentora
-
-Špatný mentor je horší než žádný — kombinuje autoritu se slepým vedením. Naučit se mentora hodnotit = klíčové meta-skill.
+# Sebe-obrana: Hodnocení mentorů
 
 ## Cíl dovednosti
 
-Mít 7-bodový framework pro selekci, audit a případné odpoutání od mentora.
+Kriticky posuzovat kvalitu lidí, kteří nás formálně či neformálně vedou — guruové, mentoři, koučové, autority.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Mentor Track Record
+### 1. Test integrity
 
-Pro každého mentora: (1) jaký konkrétní outcome jeho mentees dosáhli, (2) kolik z nich, (3) za jak dlouho, (4) jaký je churn-rate? Bez track record = inspirace, ne mentor.
+Sledujte: dělá guru/mentor to, co káže? Zeptejte se 3 jeho dlouhodobých studentů na konkrétní zkušenosti.
 
-### Cvičení 2: Skin-in-the-Game Check
+### 2. Otázka výstupu
 
-Mentor, který vás učí investice, ale sám neinvestuje, je teoretik. Mentor, který vás učí relationships, ale rozváděl 3×, je teoretik. Skin-in-the-game je nutné, ne sufficient.
+Co se stalo s jeho posledními 10 svěřenci? Rozkvetli, nebo se stali kopiemi? Zdravý mentor produkuje suverény, ne učedníky.
 
-### Cvičení 3: Teaching vs. Self-Promotion Ratio
+### 3. Test kritiky
 
-V interakci s mentorem: jaký je poměr (1) jeho-úspěch-příběhy / (2) konkrétní rady aplikovatelné u vás? Ratio >50 % self-promotion = guru, ne mentor.
+Snese vás mentor, když mu odporujete? Pokud reaguje obrannou agresí, je to varovný signál.
 
-### Cvičení 4: Disagreement Test
+### 4. Finanční transparence
 
-Schválně vyjádřete disagreement s mentorem na low-stakes téma. Reaguje (a) obhájí + diskutuje, nebo (b) odmítne / bagatelizuje? B = autoritativní typ, ne mentor. Run.
+Komu mentor co účtuje? Jaké jsou jeho ekonomické vazby? Skrytá ekonomika varuje.
 
-### Cvičení 5: Annual Mentor Audit
+### 5. Plán odchodu
 
-1× ročně: (1) co jsem se naučil/a od tohoto mentora? (2) co mě stálo? (3) přerůstám ho? (4) má smysl pokračovat? Mentor je fáze, ne identita. Cykl 1-3 roky obvykle.
+Zdravý mentor pracuje na vlastní zbytečnosti. Pokud stále vytváří závislost, vyměňte ho.
 
 ## Časový rámec
 
-Track-record check před commit: 1 týden. Disagreement test po 30 dní spolupráce. Annual audit jako pevný rituál: 12 měsíců.
+Půlroční hluboké hodnocení mentora 3 hodiny; průběžně varovné signály.
 
 ## Indikátory pokroku
 
-Klesá počet zaseknutí v mentor-relationship přes pull-up dovedností. Roste schopnost být mentorem druhým.
+Vyšší vlastní suverenita; menší emocionální závislost; rychlejší detekce manipulativních autorit.
 
 ## Limitace
 
-Mentor v kultu/sektě je nehodnocený a hodnocení se trestá — to je sám o sobě signál exit. Self-help guru kategorie je heavily polluted.
+Skvělý mentor je vzácný. Příliš tvrdá kritika může zničit cenný vztah. Hledejte rovnováhu.
 
 ## Cross-linky
 
-- [trust calibration](trust-calibration/)
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [boundary setting](boundary-setting/)
-- [relationship audit](relationship-audit/)
-- [claim verification skill](claim-verification-skill/)
-- [community engagement](community-engagement/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ detection signatures/](../detection-signatures//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

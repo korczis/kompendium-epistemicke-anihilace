@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Paradigmatický pluralismus"
-description = "Praktický návod sebe-obrany — paradigmatický pluralismus."
+title = "Sebe-obrana: Pluralita paradigmat"
+description = "Praktický návod sebe-obrany — pluralita paradigmat."
 weight = 6
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Paradigmatický pluralismus
-
-Žádné jediné paradigma nestačí na komplexní realitu. Ovládnutí 3+ paradigmat = obrana proti monoparadigmatickému zneužití.
+# Sebe-obrana: Pluralita paradigmat
 
 ## Cíl dovednosti
 
-Aktivně udržovat 3+ konkurenční modely reality a umět mezi nimi přepínat podle kontextu.
+Záměrně udržovat ve vědomí více alternativních interpretačních rámců pro tutéž realitu, abychom nesklouzli k monistické rigiditě.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Paradigm Triad
+### 1. 3 čočky
 
-Vyberte 3 nekompatibilní paradigmata (např. tržní liberalismus / keynesiánství / institucionální ekonomie). Každé pondělí týdne řešte stejný problém z jiného. 4. týden integrujte.
+Pro každou důležitou situaci si položte otázku ze 3 různých paradigmat: ekonomické, psychologické, mocenské. Co každé z nich vidí?
 
-### Cvičení 2: Translation Drill
+### 2. Cizí slovník
 
-Vezměte tvrzení z paradigmatu A („trh selhal“) a přeložte do B („regulace vytlačila signál“) a C („instituce nedokončily transition“). Trénujte 10 tvrzení týdně.
+Měsíčně si přečtěte základní text z disciplíny, kterou neznáte (sociologie, biologie, teologie, ekonomie). Hledejte přenositelné koncepty.
 
-### Cvičení 3: Steelman-the-Other
+### 3. Změna metafory
 
-Nejlepší kritika vlastního paradigmatu pochází ze strany jiného. Sledujte 1 myslitele, jehož paradigma odmítáte, ale uznáváte jeho intelektuální kvalitu.
+Když uvíznete v problému, zaměňte základní metaforu, kterou ho popisujete (mašina → organismus, válka → tanec, růst → cyklus). Jaká nová řešení se objeví?
 
-### Cvičení 4: Domain-Switching Practice
+### 4. Steelman cizího pohledu
 
-Stejný problém řešte 3× — jednou jako fyzik, jednou jako biolog, jednou jako sociolog. Každá doména přiznává jiné kauzální vzorce.
+Pro každý názor, se kterým nesouhlasíte, dokážete formulovat jeho nejsilnější verzi tak, aby s ní souhlasil i jeho zastánce?
 
-### Cvičení 5: Meta-Paradigm Map
+### 5. Hetero-doxie deník
 
-Nakreslete strom: kořenové předpoklady ↓ paradigmata ↓ teorie ↓ predikce. Když dva lidé „nesouhlasí“, obvykle se neshodují u kořenových předpokladů, ne u predikcí.
+Týdně 1 stránka: 'V čem se dnes nejvíc liší můj pohled od pohledu mého souseda/kolegy/rodiče? Kdo má víc pravdy a v čem?'
 
 ## Časový rámec
 
-Triad-fluency (přepnout mezi 3 paradigmaty na zavolání): 60 dní. Domain-switching jako default: 6 měsíců.
+Měsíční čtenářský rituál 4 hodiny; týdenní steelman 30 minut; průběžně při zaseknutí.
 
 ## Indikátory pokroku
 
-Schopnost najít validní jádro v argumentu, který odmítáte. Klesá počet „X je prostě blbost“. Roste tolerance ambivalence.
+Větší tolerance ambiguity; schopnost vidět platnost v opačných pozicích; pokles potřeby mít 'správný' názor.
 
 ## Limitace
 
-Pluralismus nezachrání před aktivním lhaním. V krizi (nutnost rychlého rozhodnutí) může pluralism zpomalit. Ne všechna paradigmata jsou rovnocenná.
+Plurarita bez závazku se může zvrhnout v paralyzující relativismus. Je nutné nakonec rozhodnout a jednat.
 
 ## Cross-linky
 
-- [cognitive flexibility training](cognitive-flexibility-training/)
-- [belief revision](belief-revision/)
-- [falsification thinking](falsification-thinking/)
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [communication assertiveness](communication-assertiveness/)
-- [↗ glossary bridges/](../glossary-bridges//)
-- [↗ cross domain/](../cross-domain//)
-
----
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

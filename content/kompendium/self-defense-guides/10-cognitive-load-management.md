@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Správa kognitivní zátěže"
-description = "Praktický návod sebe-obrany — správa kognitivní zátěže."
+title = "Sebe-obrana: Řízení kognitivní zátěže"
+description = "Praktický návod sebe-obrany — řízení kognitivní zátěže."
 weight = 10
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Správa kognitivní zátěže
-
-Mozek má tvrdý strop pracovní paměti (4±1 položek). Přetížení = chyby, manipulovatelnost, vyhoření. Správa zátěže je infrastruktura, ne luxus.
+# Sebe-obrana: Řízení kognitivní zátěže
 
 ## Cíl dovednosti
 
-Měřit a aktivně regulovat kognitivní zátěž — externalizovat, simplifikovat, odložit.
+Naučit se řídit kapacitu pracovní paměti a vědomě snižovat zbytečnou kognitivní zátěž.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: External Brain
+### 1. Externalizace
 
-Vše, co si nechcete pamatovat, OKAMŽITĚ zapište do single-source-of-truth (notebook/Obsidian/file). Pravidlo: pokud to drží v hlavě déle než 60 sekund, je to bug.
+Vše, co lze, ven z hlavy: úkoly do todo systému, myšlenky do deníku, fakta do druhého mozku (Notion, Obsidian).
 
-### Cvičení 2: Decision Fatigue Map
+### 2. Pravidlo 3 prioritních úkolů
 
-Týden si zapisujte: kdy během dne klesla kvalita rozhodnutí. Zjistíte vlastní decision-fatigue křivku. Důležitá rozhodnutí přesuňte na peak, triviální na trough.
+Každé ráno určete max. 3 prioritní úkoly dne. Vše ostatní je sekundární. Zabíjí to falešnou multitaskovou nadprodukci.
 
-### Cvičení 3: Chunk-and-Defer
+### 3. Bloky bez rozhodování
 
-Velké úkoly rozdělte na bloky <90 minut. Mezi bloky 15min break (chůze, voda, žádný screen). Mozek konsoliduje paměť právě v break, ne v práci.
+Vytvořte 2hodinové bloky, kdy nepřijímáte žádné rozhodnutí (Steve Jobs uniforma; pevný oběd). Šetří glukózu.
 
-### Cvičení 4: Single-Threaded Work
+### 4. Ranní dump
 
-1 úkol = 1 okno = 1 záložka = 1 myšlenka. Multitasking je kognitivní rabování. Trénujte 30 dní striktního single-threading.
+Prvních 20 minut dne: vypište vše, co máte v hlavě, na papír. Třiďte. Mozek se uvolní pro tvorbu.
 
-### Cvičení 5: Cognitive Off-Switch
+### 5. Detekce přetížení
 
-Definujte denní hard-stop (např. 21:00). Po něm: žádné rozhodnutí, žádná emailová akce, žádný plán. Mozek potřebuje down-cycle pro long-term zdraví.
+Naučte se rozpoznat tělesné signály přetížení (napětí v krku, mlhavé myšlení, podrážděnost) a okamžitě udělejte 5minutovou pauzu.
 
 ## Časový rámec
 
-External Brain reflex: 14 dní. Single-threading default: 30 dní. Cognitive Off-Switch dodržení 5 dní/týden: 60 dní.
+Ranní dump 20 minut, 3 prioritní úkoly; pravidelné kontroly přetížení každé 2 hodiny.
 
 ## Indikátory pokroku
 
-Klesá počet „zapomněl jsem“. Roste rychlost rozhodnutí. Snížená podrážděnost večer. Lepší spánek (proxy metrika kognitivní zátěže).
+Pokles pocitu zahlcení; vyšší kvalita rozhodnutí pozdě odpoledne; lepší spánek.
 
 ## Limitace
 
-Externalizace bez selektivity = informace overload v notes. Off-switch nelze dodržet ve fázích krize/deadline — pak je třeba post-krizová rekonsolidace.
+Externalizace přesouvá zátěž ven, ale udržování systému samo o sobě stojí kapacitu. Hledejte rovnováhu.
 
 ## Cross-linky
 
-- [attention management](attention-management/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [emotional regulation EA](emotional-regulation-EA/)
-- [boundary setting](boundary-setting/)
-- [trigger recognition](trigger-recognition/)
-- [support mobilization](support-mobilization/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

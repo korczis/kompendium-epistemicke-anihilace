@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Zpracování strachu
 
-Strach je signál o riziku, ne příkaz k útěku. Nezpracovaný strach se transformuje na úzkost, která se generalizuje na celý život.
-
 ## Cíl dovednosti
 
-Naučit se strach pojmenovat, dekomponovat a buď akcelerovat nebo deaktivovat — podle reálnosti rizika.
+Naučit se rozlišovat racionální strach (signál nebezpečí) od neurotické úzkosti (přepólovaný systém) a s každým nakládat odlišně.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Fear Inventory
+### 1. Triáž strachu
 
-Vyjmenujte 10 současných strachů. U každého: (1) konkrétní obsah, (2) pravděpodobnost (%, odhad), (3) dopad pokud nastane, (4) co lze prevent / co ne. Většina strachů ztratí sílu pod kvantifikací.
+Před každým strachem otázka: 'Je to skutečné nebezpečí, nebo katastrofizace?' Skutečné = jednej. Katastrofizace = pozoruj.
 
-### Cvičení 2: Worst-Case Walk-Through
+### 2. Konkretizace
 
-Pro top-3 strach: napište nejhorší realistický outcome do detailu. Pak: jak by to vypadalo za 6 měsíců? Většina katastrof je přežitelná. Jasnozření redukuje paralyzující charakter.
+'Bojím se' nahraďte konkrétně: 'Bojím se, že [X] se stane [kdy] s pravděpodobností [%] a důsledky budou [Y].' Často to strach demystifikuje.
 
-### Cvičení 3: Fear-Setting (Tim Ferriss)
+### 3. Nejhorší scénář
 
-30-min protokol: (1) Define worst case, (2) Prevent steps, (3) Repair steps, (4) Cost of inaction. Konkrétně, písemně. Strach v textu je menší než v hlavě.
+Místo úniku napište: 'Co je nejhorší, co se může stát? Jak bych to zvládl/a? Jaké zdroje mám?' Strach mizí v plánu.
 
-### Cvičení 4: Exposure Ladder
+### 4. Expoziční žebříček
 
-Pro 1 specifický strach (veřejné mluvení, výškové, sociální): vytvořte 10-krokový žebřík od 1 (nejlehčí) k 10 (cílové). Postupujte 1 stupeň týdně. Habituation neuro-mechanismus.
+Pro chronický strach sestavte 10stupňový žebříček situací od nejméně po nejvíce stresující. Procházejte zdola, postupně.
 
-### Cvičení 5: Adaptive vs Maladaptive Audit
+### 5. Strach jako kompas
 
-Pro každý strach: chrání mě (adaptivní) nebo mě omezuje (maladaptivní)? Adaptivní strach uctívejte (signál). Maladaptivní vystavujte (exposure). Neignoruje žádný.
+Některé strachy ukazují, kde je náš největší růst. Zeptejte se: 'Co bych dělal/a, kdybych se nebál/a?' Tam často leží smysl.
 
 ## Časový rámec
 
-Fear inventory + kvantifikace: 14 dní. Fear-setting protokol jako návyk: 30 dní. Exposure ladder na 1 strach: 90 dní.
+Denní triáž průběžně; týdenní expoziční cvičení 30 minut; měsíční reflexe smyslu.
 
 ## Indikátory pokroku
 
-Klesá počet strachů, které ovládají denní rozhodnutí. Roste schopnost popsat strach v 1 větě. Lepší spánek (proxy úzkosti).
+Klesající vyhýbavé chování; rostoucí akceschopnost pod tlakem; jasnější rozhodování v krizích.
 
 ## Limitace
 
-Fobie a panická porucha vyžadují odborné vedení (CBT terapeut). Self-led exposure u traumy může re-traumatizovat — exposure dělejte gradiente.
+Některé strachy chrání život. Cíl není ničit strach, ale vyladit ho na realitu.
 
 ## Cross-linky
 
-- [emotional regulation EA](emotional-regulation-EA/)
-- [trigger recognition](trigger-recognition/)
-- [somatic awareness](somatic-awareness/)
-- [grounding techniques](grounding-techniques/)
-- [self compassion EA](self-compassion-EA/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
+- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

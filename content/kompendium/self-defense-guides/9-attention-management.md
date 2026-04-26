@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Řízení pozornosti
 
-Pozornost je ekonomický zdroj nejvyšší ceny — a útočníci o ni bojují agresivněji než o peníze. Bez kontroly pozornosti nemáte kontrolu nad ničím dalším.
-
 ## Cíl dovednosti
 
-Vrátit si vlastnictví směru a délky pozornosti — proti tlaku notifikací, algoritmů a sociálního inženýrství.
+Získat zpět kontrolu nad svou pozorností v prostředí cíleně navrženém k jejímu rozkrádání.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Attention Audit Week
+### 1. Audit krádeží
 
-1 týden si zapisujte každých 30 minut: (1) na čem byla pozornost, (2) zvolil jsem to JÁ nebo to bylo PUSH? Po 7 dnech vidíte vlastní attention-leak profile.
+Týden si zapisujte každý den 5 momentů, kdy vám něco ukradlo pozornost (notifikace, scrollování, reklama). Identifikujte vzory.
 
-### Cvičení 2: Notification Zero
+### 2. Pomodoro s amnesty
 
-Vypněte všechny push-notifikace kromě hovorů od max. 5 lidí. Pull-only model: vy chodíte za informacemi, ne ony za vámi. Trvalá změna.
+25 minut hluboké soustředění + 5 minut volna. Telefon mimo místnost. 4 cykly denně minimálně.
 
-### Cvičení 3: Deep-Work Block
+### 3. Notifikační detox
 
-Denně 1× minimum 90 minut bez přepnutí kontextu. Telefon v jiné místnosti, prohlížeč single-tab, 1 úkol. Trénujte 5× týdně 30 dní.
+Vypněte všechny notifikace mimo 3 nejdůležitějších kontaktů a 1 kalendáře. Počkejte týden. Co skutečně zmeškáte?
 
-### Cvičení 4: Attention Snapback
+### 4. Přesouvač pozornosti
 
-Když si všimnete, že jste „odjeli“ (TikTok, infinite scroll, doom-scrolling), nepokárejte se — jen řekněte „snap“ a vraťte pozornost k zamýšlenému cíli. Trénujte vědomě 20× denně.
+3× denně cvičení: zaměřte pozornost na dech 1 minutu → na zvuky 1 minutu → na tělo 1 minutu → na myšlenky 1 minutu. Posiluje volní kontrolu.
 
-### Cvičení 5: Boredom Tolerance Drill
+### 5. Hloubková činnost
 
-5 minut sedět bez stimulace (telefon stranou, žádná hudba, žádné okno). Začínejte 1 minutou, přidávejte. Tolerance nudy = imunita vůči manipulaci pozorností.
+Denně 1 blok 90 minut činnosti, která vyžaduje plnou koncentraci (čtení, psaní, výpočet). Bez výjimky.
 
 ## Časový rámec
 
-Notification Zero okamžitě. Deep-Work Block stabilní: 21 dní. Boredom tolerance 5+ min: 30 dní.
+Denně 90 minut hloubkové činnosti + 4 pomodora; 1 týden auditu měsíčně.
 
 ## Indikátory pokroku
 
-Klesá počet „kolikrát zvedl telefon dnes“. Roste delka deep-work session. Zvládnete jet metrem 20 minut bez telefonu.
+Schopnost zůstat na úkolu déle; pokles kompulzivního scrollování; subjektivní pocit větší přítomnosti.
 
 ## Limitace
 
-Attention management nezachrání před zaměstnaneckou strukturou, která vyžaduje konstantní reaktivitu (chat-driven kultura). Tam je řešení strukturální, ne osobní.
+Řízení pozornosti vyžaduje vůli, která je vyčerpatelný zdroj. Nutno kombinovat s úpravou prostředí (eliminace pokušení).
 
 ## Cross-linky
 
-- [cognitive load management](cognitive-load-management/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [boundary setting](boundary-setting/)
-- [isolation prevention](isolation-prevention/)
-- [emotional regulation EA](emotional-regulation-EA/)
-- [trigger recognition](trigger-recognition/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ detection signatures/](../detection-signatures//)
-
----
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

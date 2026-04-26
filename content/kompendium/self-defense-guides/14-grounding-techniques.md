@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Grounding techniky"
-description = "Praktický návod sebe-obrany — grounding techniky."
+title = "Sebe-obrana: Uzemňovací techniky"
+description = "Praktický návod sebe-obrany — uzemňovací techniky."
 weight = 14
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Grounding techniky
-
-Grounding = rychlé navrácení do přítomnosti, když emoce nebo flashback odnesou pozornost mimo tělo / mimo realitu.
+# Sebe-obrana: Uzemňovací techniky
 
 ## Cíl dovednosti
 
-Mít 5 grounding technik na různé úrovně intensity, aby vždy fungovala alespoň jedna.
+Mít k dispozici rychlé, ověřené metody návratu do přítomnosti, když nás emoce nebo myšlenky odnášejí.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: 5-4-3-2-1 Senses
+### 1. 5-4-3-2-1
 
-Vyjmenujte: 5 věcí, co vidím, 4 co slyším, 3 co cítím dotykem, 2 co cítím čichem, 1 co cítím chutí. Aktivuje smyslový cortex, vyřadí ruminační smyčky. Trénujte denně 1×.
+Vyjmenuj 5 věcí, které vidíš; 4 které slyšíš; 3 které cítíš dotykem; 2 které cítíš čichem; 1 chuť. Aktivuje smyslové kotvy.
 
-### Cvičení 2: Cold-Water Reset
+### 2. Studená voda
 
-Při akutní úzkosti: studená voda na obličej / ledové kostky v rukou / studená sprcha 30 s. Aktivuje dive-reflex (vagus nerve), pokles tepu, reset arousal.
+Studená voda na obličej nebo ruce po dobu 30 sekund aktivuje vagus nerv a rychle resetuje sympatický stres.
 
-### Cvičení 3: Box Breathing
+### 3. Box dýchání
 
-4 s nádech, 4 s zadržení, 4 s výdech, 4 s zadržení. Vojenský grounding pro sniper-stability. Trénujte při klidu, aby fungovalo v krizi.
+4 sekundy nádech – 4 zadržení – 4 výdech – 4 zadržení. 4 cykly. Stabilizuje srdeční rytmus.
 
-### Cvičení 4: Physical Anchor Object
+### 4. Tělesný kotvící bod
 
-Nostje malý předmět (kamínek, mince, šperk). Při destabilizaci stiskněte v ruce a soustřeďte se 30 s na texturu, hmotnost, teplotu. Anchoring přes haptický vstup.
+Před krizovou situací určete tělesný kotvící bod (mezi prsty, středem dlaně). Když potřebujete, vraťte se k němu pozorností.
 
-### Cvičení 5: Verbal Reality Check
+### 5. Tady a teď
 
-Nahlas vyslovte: „Jmenuju se X. Je rok 2026. Jsem v [místo]. Toto je [aktuální situace]. Jsem v bezpečí (pokud jste). Toto pomine.“ Re-orientace v čase/prostoru/identitě.
+Hlasitě řekněte: 'Je [datum], jsem v [místo], dělám [činnost], jsem v bezpečí.' Re-orientuje při disociaci.
 
 ## Časový rámec
 
-5-4-3-2-1 jako reflex: 14 dní. Box breathing pod stresem stabilní: 30 dní. Physical anchor využití pod tlakem: 60 dní.
+Praktikujte 1× denně mimo krizi, abyste je v krizi měli automaticky k dispozici; 30 sekund až 5 minut.
 
 ## Indikátory pokroku
 
-Schopnost vrátit se do přítomnosti za <2 minuty. Klesá frekvence flashbacků/disociace. Pomůžete druhému provést grounding.
+Schopnost rychle stabilizovat se po triggeru; pokles intenzity panických reakcí; vyšší pocit kontroly.
 
 ## Limitace
 
-Grounding není léčba traumatu, je to první pomoc. U závažné disociace nebo flashbacku je třeba odborná intervence.
+Uzemnění tlumí symptom, neřeší příčinu. U opakované krize hledejte hlubší terapii.
 
 ## Cross-linky
 
-- [emotional regulation EA](emotional-regulation-EA/)
-- [somatic awareness](somatic-awareness/)
-- [trigger recognition](trigger-recognition/)
-- [fear processing](fear-processing/)
-- [self compassion EA](self-compassion-EA/)
-- [emotional distancing](emotional-distancing/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
+- [Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Emoční odstup
 
-Emoční odstup ≠ emoční potlačení. Je to schopnost zachovat funkční jednání, zatímco emoce existuje.
-
 ## Cíl dovednosti
 
-Vybudovat 3 techniky distancování pro různé situace: krátkodobé / dlouhodobé / interpersonální.
+Naučit se zaujmout zdravou pozorovatelskou perspektivu vůči vlastním emocím, aniž bychom se od nich odpojili.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Third-Person Self-Talk
+### 1. Třetí osoba
 
-Mluvte k sobě v 3. osobě: „Tomáš teď cítí vztek. Co Tomáš nejlépe udělá?“ Funkční MRI ukazuje aktivaci dorzolaterálního prefrontálního cortexu (Kross et al.). Trénujte denně.
+V krizi mluvte sami se sebou ve 3. osobě: 'Tomáš teď cítí strach, protože...'. Aktivuje prefrontální kortex.
 
-### Cvičení 2: Time-Distance Reframe
+### 2. Časový odstup
 
-Před emoční reakcí: „Bude mi na tom záležet za 1 týden / 1 měsíc / 1 rok / 10 let?“ 80 % triggerů zmizí pod 1-měsíčním filtrem.
+Položte si otázku: 'Bude tohle pro mě důležité za rok? Za 10 let?' Většina momentální tísně klesá v čase.
 
-### Cvičení 3: Observer Stance
+### 3. Pozorovatelský bod
 
-Představte si sami sebe na monitoru bezpečnostní kamery. Co byste řekli o tom člověku? Distancing přes externí pohled redukuje afektivní gravitaci.
+Představte si, že jste o 50 cm nad svou hlavou a díváte se na sebe. Co vidíte? Často odhalí absurdity.
 
-### Cvičení 4: Email Drafts Folder
+### 4. Pojmenování stavu
 
-Emoční email NEPOSÍLEJTE — uložte do drafts. Otevřete za 24 hodin a re-edit. 70 % drafts se nikdy neodešle. Hard rule, zero výjimky.
+'Toto je úzkost. Není mi.' 'Toto je smutek, který prochází.' Nominalizace odděluje stav od identity.
 
-### Cvičení 5: Big-Picture Zoom
+### 5. Konzultace s budoucím já
 
-Zoom-out: jak tato situace zapadá do širšího kontextu (10-letý plán, hodnotová priorita, historický rámec)? Většina urgencí mizí ve velkém plánu.
+Představte si sebe za 5 let: jak by tato osoba reagovala na to, co teď řešíte? Co by vám poradila?
 
 ## Časový rámec
 
-Third-person self-talk pod stresem: 30 dní. Email-drafts rule jako reflex: 14 dní. Time-distance reframe automatizmus: 45 dní.
+Aplikujte v reálných emočních situacích; 5–10 minut denně reflektivní praxe pro posílení návyku.
 
 ## Indikátory pokroku
 
-Klesá počet emocionálních emailů odeslaných. Roste schopnost říct „rozhodnu se zítra“. Méně lítosti za reakce.
+Pokles afektivní fúze; schopnost jednat moudře i v silných emocích; větší vyrovnanost v krizích.
 
 ## Limitace
 
-Distancování dlouhodobě může vést k emoční disociaci nebo bypassu autentických potřeb. Nutné kombinovat s self-compassion.
+Příliš velký odstup hraničí s disociací. Cílem je odstup S kontaktem, ne místo kontaktu.
 
 ## Cross-linky
 
-- [emotional regulation EA](emotional-regulation-EA/)
-- [self compassion EA](self-compassion-EA/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [anger management EA](anger-management-EA/)
-- [communication assertiveness](communication-assertiveness/)
-- [boundary setting](boundary-setting/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
+- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

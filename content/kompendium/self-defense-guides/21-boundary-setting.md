@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Nastavování hranic
 
-Hranice nejsou zeď — jsou membrána. Bez hranic nejste člověk, jste resource, který si někdo vezme.
-
 ## Cíl dovednosti
 
-Naučit se rozeznat, formulovat a vynutit hranice ve 4 doménách: čas, energie, fyzický prostor, hodnoty.
+Naučit se identifikovat, vyjádřit a udržovat své osobní hranice — bez agrese, ale i bez ústupkářství.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Boundary Inventory
+### 1. Inventura porušení
 
-Pro 4 domény (čas/energie/prostor/hodnoty) vyjmenujte 5 hranic, které DRŽÍTE, a 5, které byste CHTĚLI držet. Diff = váš work area.
+Týden zapisujte každý moment, kdy vám něco způsobilo nepohodlí v kontaktu s lidmi. Identifikujete, kde hranice chybí.
 
-### Cvičení 2: No-Without-Explanation Drill
+### 2. Formule 3 vět
 
-Trénujte říkat „ne“ bez delší vysvětlovaní. „Ne, to mi nesedí.“ Tečka. Většina lidí vysvětluje, protože se omlouvá za hranici. Cvičte 5× týdně v low-stakes situacích.
+'Když [konkrétní chování], cítím se [emoce], protože [potřeba]. Žádám [konkrétní změna].' Trénujte na drobnostech.
 
-### Cvičení 3: Yes-Cost Calculation
+### 3. NE bez vysvětlení
 
-Před každým „ano“ se zeptejte: „K čemu tím říkám NE?“ Každé ano je trade-off. Lidé bez hranic toto nevidí.
+Týdně 3× řekněte 'Ne, díky' bez dalšího ospravedlňování. Naučte se snášet diskomfort druhých.
 
-### Cvičení 4: Boundary Violation Response
+### 4. Časové hranice
 
-Připravte 3 escalation responses pro porušení hranice: (1) připomenutí, (2) opakování + důsledek, (3) vykonání důsledku. Lidé bez fáze 3 nemají hranice, jen wishes.
+Definujte, kdy jste dostupní (pracovně, soukromě). Vypněte mimo tyto časy notifikace. Komunikujte explicitně.
 
-### Cvičení 5: Boundary-Holder Audit
+### 5. Hranice následně
 
-Identifikujte 3 lidi, kteří perfectly drží hranice (klid + jasnost). Studujte JAK to dělají — frázování, tonus, mimika. Modelování rychlejší než od-nuly.
+Když si všimnete narušené hranice později, vraťte se k tomu: 'Včera jsem souhlasil/a, ale vlastně jsem nechtěl/a. Měním rozhodnutí.'
 
 ## Časový rámec
 
-No-without-explanation reflex: 30 dní. Stable boundary držet pod tlakem: 60 dní. Escalation phase 3 použít aspoň 1×: 90 dní.
+Denně mikrotrénink 5 minut; týdenní review 30 minut; doživotní praxe.
 
 ## Indikátory pokroku
 
-Klesá počet závazků, které lituje. Roste energie. Někteří lidé z okruhu odpadnou (feature, ne bug). Lepší spánek.
+Pokles vyčerpání z mezilidského kontaktu; rostoucí respekt okolí; menší vnitřní zlost.
 
 ## Limitace
 
-Tvrdé hranice v kontextu hierarchie (rodina, šéf) mohou mít náklad — vyžaduje strategie, ne jen taktika. V toxické dynamice nestačí osobní hranice, vyžaduje exit.
+Hranice někoho ztratí. Lidé, kteří profitovali z jejich absence, neradi přijímají změnu.
 
 ## Cross-linky
 
-- [communication assertiveness](communication-assertiveness/)
-- [relationship audit](relationship-audit/)
-- [trust calibration](trust-calibration/)
-- [anger management EA](anger-management-EA/)
-- [isolation prevention](isolation-prevention/)
-- [self compassion EA](self-compassion-EA/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

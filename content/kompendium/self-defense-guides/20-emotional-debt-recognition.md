@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Rozpoznávání emočního dluhu"
-description = "Praktický návod sebe-obrany — rozpoznávání emočního dluhu."
+title = "Sebe-obrana: Rozpoznání emočního dluhu"
+description = "Praktický návod sebe-obrany — rozpoznání emočního dluhu."
 weight = 20
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Rozpoznávání emočního dluhu
-
-Emoční dluh = nezpracované emoce z minulosti, které úročí v přítomnosti. Bez recognition se sčítá s úroky a vykolejí život v 30/40/50.
+# Sebe-obrana: Rozpoznání emočního dluhu
 
 ## Cíl dovednosti
 
-Identifikovat oblasti emočního dluhu, kvantifikovat „úrok“ a sestavit splátkový plán.
+Identifikovat nahromaděné nezpracované emoce z minulosti, které tiše ovlivňují přítomnost, a začít je systematicky splácet.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Debt Audit
+### 1. Audit nedokončeného
 
-Vyjmenujte 10 nedořešených emocionálních situací z posledních 10 let (smrt, rozchod, zrada, ztráta příležitosti, dětská zranění). U každé: kolik energie investujete do vyhýbání? Toto je váš úrok.
+Sepište 10 nejvýraznějších emočně náročných událostí posledních 5 let. U každé: cítím to ještě? Je to zpracované?
 
-### Cvičení 2: Avoidance-Pattern Map
+### 2. Reakce nepřiměřené spouštěči
 
-Pro každou debt-položku: jak se jí vyhýbáte? (alkohol/práce/sex/sport/jídlo/screens). Vyhýbání je dlouhodobě dražší než zpracování.
+Když reagujete přehnaně na malou věc, položte si otázku: 'Na co skutečně reaguji?' Často tam leží starý dluh.
 
-### Cvičení 3: Top-3 Repayment Plan
+### 3. Tělesná inventura
 
-Vyberte 3 nejvyšší debt-položky. Pro každou: (1) co ji zpracuje? (terapie / dialog / rituál / dopis), (2) kdy?, (3) co tomu brání?, (4) náklad/přínos.
+Skenujte tělo: kde sídlí staré napětí? Krk, čelist, hrudník? Každé místo často nese specifickou kategorii nezpracovaných emocí.
 
-### Cvičení 4: Letter Never Sent
+### 4. Splátkový kalendář
 
-Pro nedořešený vztah/situaci napište dopis, který nikdy neodešlete. Plně bez cenzury. Po 24 h ho buď spalte (ritualizace) nebo přepište do verze, kterou byste poslali. Účinek měřitelný.
+Vyberte 1 starý dluh měsíčně. Věnujte mu fokus: terapie, rituál, dopis (i nezaslaný), tělesná práce. Nesnažte se vše najednou.
 
-### Cvičení 5: Recurring Theme Detection
+### 5. Rituální uzavření
 
-Vaše top-3 emocionální spouštěče (z #12 Trigger Recognition) — co je společný kořen? Většina dospělých má 1-3 témata, ne 20. Tematická konsolidace = strategický splátkový plán.
+Pro symbolicky uzavřené události vytvořte rituál (spálení dopisu, sázení stromu, návštěva místa). Tělo potřebuje konec.
 
 ## Časový rámec
 
-Debt audit dokončený: 1 týden. Letter never sent na 1 položku: 30 dní. Repayment plan v běhu: 90+ dní.
+Měsíční audit 2 hodiny + 1 splátka měsíčně; průběžné rozpoznávání nepřiměřených reakcí.
 
 ## Indikátory pokroku
 
-Roste schopnost říct „toto bolí, ale neutíkám“. Klesá frekvence vyhýbavých chování. Některé staré spouštěče přestanou fungovat.
+Pokles emocionálního zaplavení v přítomnosti; větší pocit lehkosti; menší potřeba kontrolovat okolí.
 
 ## Limitace
 
-Hluboký emoční dluh (childhood abuse, válka, závažná ztráta) vyžaduje odbornou pomoc — self-led repayment může re-traumatizovat. Tempo je individuální.
+Splácení dluhu boří iluze a může dočasně zhoršit pohodu. Plánujte si podporu na náročnější fáze.
 
 ## Cross-linky
 
-- [emotional regulation EA](emotional-regulation-EA/)
-- [shame resilience](shame-resilience/)
-- [fear processing](fear-processing/)
-- [trigger recognition](trigger-recognition/)
-- [self compassion EA](self-compassion-EA/)
-- [support mobilization](support-mobilization/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md) — sebe-obrana (emocionální)
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) — sebe-obrana (emocionální)
+- [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md) — sebe-obrana (emocionální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

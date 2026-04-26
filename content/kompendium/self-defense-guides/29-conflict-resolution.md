@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Řešení konfliktu"
-description = "Praktický návod sebe-obrany — řešení konfliktu."
+title = "Sebe-obrana: Řešení konfliktů"
+description = "Praktický návod sebe-obrany — řešení konfliktů."
 weight = 29
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Řešení konfliktu
-
-Konflikt není selhání vztahu — je to fáze, kterou vztah buď přečká, nebo zaplatí pozdější tichou erozí. Skill = 5-fázový protokol.
+# Sebe-obrana: Řešení konfliktů
 
 ## Cíl dovednosti
 
-Vyvinout reproducible 5-fáze protokol pro řešení konfliktů ve 4 doménách: pár / rodina / pracovní / komunita.
+Vyvinout schopnost konstruktivně procházet konflikty místo jejich vyhýbání nebo eskalace.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Cool-Down Window
+### 1. Nepříjemnost vs. zranění
 
-Při emoci > 7/10 nediskutuji. Hard rule. Stanovte explicitní time-out s návratovým časem („vrátíme se v 20:00“). Bez návratu je to ghosting, ne cool-down.
+Rozlišujte: drobná nepříjemnost (skousněte, dýchejte) vs. zranění (řešte). Většina konfliktů je nepříjemnost vyfouknutá.
 
-### Cvičení 2: Issue-Person Decoupling
+### 2. Cíl konfliktu
 
-Trénujte: kritizovat ZÁVĚR, ne osobu. „Toto rozhodnutí mi nedává smysl, protože X“ ≠ „Jsi nezodpovědný/á“. Decoupling chrání vztah před fragmentací.
+Před každým konfliktem si položte: 'Chci mít pravdu, nebo chci řešit?' Pravda zničí vztah, řešení ho posouvá.
 
-### Cvičení 3: Listen-First Protocol
+### 3. Steelman protistrany
 
-Než reagujete, parafrázujte druhou stranu: „Slyším, že říkáš X, Y, Z. Je to přesně tak?“ Až po confirmation pokračujte. Eliminuje 50 % konfliktů, které jsou misunderstanding.
+Před konfrontací formulujte nejsilnější verzi pohledu protistrany. Často odhalíte, že nemáte úplnou pravdu.
 
-### Cvičení 4: Solution-Brainstorm
+### 4. Pravidlo cikláru
 
-Po pochopení obou pozic generujte 5 možných řešení (i absurdních). Z 5 většinou 1-2 jsou viable. Lidé v konfliktu zoufalí ze svých 1-2 default řešení.
+Nevyřčete v konfliktu nic, co by nezvládl/a slyšet i mediátor. Filtruje to nejhorší impulzy.
 
-### Cvičení 5: Repair-Ritual Post-Conflict
+### 5. Dohoda o budoucnu
 
-Po řešení udělejte explicitní repair: pojmenování ublížení, omluva za part, commitment do budoucna. Bez repair konflikt zanechá residual debt, který se sčítá.
+Konflikt nekončí omluvou. Končí dohodou: 'Příště místo X uděláme Y.' Bez konkrétní budoucí změny se konflikt vrátí.
 
 ## Časový rámec
 
-Cool-down rule pod tlakem: 30 dní. Listen-first reflex: 30 dní. Repair-ritual jako návyk: 60 dní.
+V reálném čase při všech konfliktech; měsíční reflexe 30 minut nad uzavřenými konflikty.
 
 ## Indikátory pokroku
 
-Klesá počet konfliktů, které končí ghostingem nebo eskalací. Roste rychlost recovery. Vztahy hlubší po prošlém konfliktu, ne mělčí.
+Klesající délka konfliktů; lepší vztahy po nich než před nimi; menší úzkost před konfrontací.
 
 ## Limitace
 
-U domácího násilí, gaslighting nebo psychopatologie partner conflict-resolution selhává — vyžaduje exit-strategy a/nebo odbornou pomoc, ne dialog.
+Některé konflikty řešit nelze, jen ukončit vztah. Naučit se to rozpoznat.
 
 ## Cross-linky
 
-- [communication assertiveness](communication-assertiveness/)
-- [boundary setting](boundary-setting/)
-- [anger management EA](anger-management-EA/)
-- [emotional regulation EA](emotional-regulation-EA/)
-- [trust calibration](trust-calibration/)
-- [self compassion EA](self-compassion-EA/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

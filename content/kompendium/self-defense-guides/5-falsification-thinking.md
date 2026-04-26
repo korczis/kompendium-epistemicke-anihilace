@@ -1,6 +1,6 @@
 +++
-title = "Sebe-obrana: Falzifikační myšlení"
-description = "Praktický návod sebe-obrany — falzifikační myšlení."
+title = "Sebe-obrana: Falsifikační myšlení"
+description = "Praktický návod sebe-obrany — falsifikační myšlení."
 weight = 5
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
@@ -10,63 +10,61 @@ parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
-# Sebe-obrana: Falzifikační myšlení
-
-Hledat důkazy PROTI vlastním přesvědčením je nepřirozené, ale je to jediný spolehlivý korektor. Popper > Bacon.
+# Sebe-obrana: Falsifikační myšlení
 
 ## Cíl dovednosti
 
-Trénovat reflex „co by toto tvrzení vyvrátilo?“ jako primární test, ne jako poslední záchranu.
+Zvyknout si formulovat hypotézy tak, aby byly potenciálně vyvratitelné — a aktivně hledat důkazy, které je vyvracejí.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Pre-Registration
+### 1. Definice porážky
 
-Před každou nově přijatou hypotézou napište: „Toto tvrzení považuji za falsifikované, pokud uvidím X, Y, Z.“ Bez X/Y/Z není to vědecké tvrzení.
+Pro každou důležitou tezi explicitně napište: 'Tuto tezi přestanu zastávat, pokud zjistím X.' Bez X je teze náboženská, ne empirická.
 
-### Cvičení 2: Steel-Manning Drill
+### 2. Pre-mortem
 
-Pro vaši nejsilnější pozici napište nejlepší možný protiargument tak, jako by ho psal váš nejchytřejší oponent. Pokud nedokážete, neznáte vlastní pozici.
+Před každým důležitým projektem si představte, že selhal. Napište 5 nejpravděpodobnějších příčin selhání. Pak je preventivně řešte.
 
-### Cvičení 3: Black-Swan Search
+### 3. Detektiv ve vlastní hlavě
 
-Pro každý generalizační závěr („vždy/nikdy/všichni“) aktivně vyhledejte 1 protipříklad. Existence 1 černé labutě falsifikuje „všechny labutě jsou bílé“.
+Týdně 30 minut hledejte důkazy, které vyvracejí váš nejdražší pohled na svět. Cíl: 3 vážné kandidáty na vyvrácení.
 
-### Cvičení 4: Bet-The-Belief
+### 4. Predikční registr
 
-Pro silně držené tvrzení formulujte sázku: „Pokud do data X nenastane Y, mýlil jsem se a změním pozici.“ Identita bez sázky není predikce.
+Veřejně si zapisujte předpovědi (s deadline a číslem). Po roce vyhodnoťte. Trénujte kalibraci.
 
-### Cvičení 5: Failure-Mode Mapping
+### 5. Anti-portfolio
 
-U každého plánu/strategie napište 3 nejpravděpodobnější způsoby selhání PŘED implementací. Pre-mortem je nejlevnější forma falzifikace.
+Veďte si seznam přesvědčení, která jste opustili, s daty a příčinami. Roste? Skvělé. Statické? Pravděpodobně se nevyvíjíte.
 
 ## Časový rámec
 
-Steel-manning na úrovni dovednosti: 30 dní. Pre-registration jako reflex: 60 dní. Bet-the-belief instinct: 90+ dní.
+Měsíční rituál 2 hodiny na predikční registr a anti-portfolio; pre-mortem před každým projektem nad týden práce.
 
 ## Indikátory pokroku
 
-Roste komfort s „mýlil jsem se“. Klesá obrana vlastních pozic v diskuzi. Změníte pozici alespoň 1× za měsíc na základě nového důkazu.
+Schopnost rychle změnit názor; pokles emocionální vazby na vlastní teorie; růst diferenciace mezi vírou a věděním.
 
 ## Limitace
 
-Falsifikace nefunguje pro nefalsifikovatelná tvrzení (etika, hodnoty, axiomata). Nadměrná falzifikace plodí cynismus a rozhodovací paralýzu.
+Naivní falsifikace ignoruje, že vědecké teorie odolávají vyvrácení skrze pomocné hypotézy. Není to mechanická procedura.
 
 ## Cross-linky
 
-- [belief revision](belief-revision/)
-- [evidence evaluation skill](evidence-evaluation-skill/)
-- [claim verification skill](claim-verification-skill/)
-- [cognitive flexibility training](cognitive-flexibility-training/)
-- [metacognitive monitoring](metacognitive-monitoring/)
-- [paradigm pluralism](paradigm-pluralism/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ glossary bridges/](../glossary-bridges//)
-
----
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

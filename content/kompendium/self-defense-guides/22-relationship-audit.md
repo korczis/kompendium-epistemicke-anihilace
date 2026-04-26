@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Audit vztahů
 
-Vztahy se nezhoršují náhle — eroze je gradient. Audit zachycuje gradient dříve, než dosáhne kritického bodu.
-
 ## Cíl dovednosti
 
-Pravidelně mapovat vztahovou síť podle 4 dimenzí: vzájemnost, růst, bezpečí, soulad hodnot.
+Pravidelně kriticky posoudit kvalitu a vliv lidí ve svém okolí — kdo nás zvedá, kdo nás vysává, kdo nám škodí.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Relationship Map (Top-15)
+### 1. Energetická matice
 
-Vyjmenujte 15 nejvíce kontaktovaných lidí v posledních 90 dnech. Pro každého: (1) jak často, (2) kdo iniciuje, (3) energie po setkání (drain/neutral/boost), (4) doména důvěry.
+Vytvořte tabulku 20 nejbližších lidí. U každého: dává energii / bere energii / neutrální. Vážený součet.
 
-### Cvičení 2: Reciprocity Score
+### 2. Pravidlo 5
 
-Pro top-15 oskorujte 1-10: vzájemnost (já dávám / já dostávám). Skóre <5 dlouhodobě = parazitický vztah. Skóre >9 dlouhodobě = vy parasitujete (audit pro vás).
+Jste průměr 5 lidí, se kterými trávíte nejvíc času. Sepište je. Jste s tím průměrem spokojen/a?
 
-### Cvičení 3: Energy Audit
+### 3. Test vyrovnanosti
 
-Týden si zapisujte po každém významném sociálním kontaktu: energie před vs. po (-3 až +3). 30-dní průměr odhalí drain-zdroje a boost-zdroje. Drain >0.5/týden = revize.
+Pro klíčové vztahy: dávám/beru přibližně stejně? Asymetrie >70:30 dlouhodobě je toxická.
 
-### Cvičení 4: Values Alignment Check
+### 4. Toxicita check
 
-Pro top-5: znáte jejich top-3 hodnoty? Znají oni vaše? Hodnotová neznalost = mělký vztah. Hodnotová kolize bez communication = časovaná bomba.
+Identifikujte 1-2 vztahy, kde po každém kontaktu jste hůř. Definujte: redukovat / vymezit / ukončit.
 
-### Cvičení 5: Annual Relationship Reset
+### 5. Investice do top 5
 
-1× ročně 2 hodiny: pro každý relationship map kategorii (rodina/přátelé/kolegové) řekněte (1) kdo přibyl, (2) kdo odpadl, (3) komu chci dát víc, (4) komu míň.
+Pro 5 nejvíce zdravých vztahů: jak je můžete prohloubit? Kdy jste s nimi byli naposled exkluzivně?
 
 ## Časový rámec
 
-Relationship map + reciprocity score: 1 týden. Energy audit jako reflex: 30 dní. Annual reset jako pevný rituál: 12 měsíců.
+Půlroční hloubkový audit 3 hodiny; měsíční rychlá kontrola 30 minut.
 
 ## Indikátory pokroku
 
-Klesá počet vztahů, které vás vyčerpávají bez recognized důvodu. Roste jasnost o investicích energie. Některé vztahy se „uzavřou“ přirozeně.
+Vyšší kvalita běžného života; menší pocit vyčerpání; jasnější identita.
 
 ## Limitace
 
-Audit může být brutálně otevřený — vyžaduje emoční resilience. Některé toxické vztahy nelze ukončit bez strategie (rodina, dlouhý vztah, byznys závislost).
+Lidé se mění. Statický audit přehlíží růst. Buďte ochotni revidovat hodnocení.
 
 ## Cross-linky
 
-- [trust calibration](trust-calibration/)
-- [boundary setting](boundary-setting/)
-- [isolation prevention](isolation-prevention/)
-- [support mobilization](support-mobilization/)
-- [network diversification](network-diversification/)
-- [communication assertiveness](communication-assertiveness/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ recovery protocols/](../recovery-protocols//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

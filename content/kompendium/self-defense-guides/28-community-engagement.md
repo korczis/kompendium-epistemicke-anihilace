@@ -12,61 +12,59 @@ toc = true
 
 # Sebe-obrana: Zapojení do komunity
 
-Atomized jedinec je manipulovatelný. Komunita = obousměrná membrána identity a podpory. Aktivní engagement je civic skill.
-
 ## Cíl dovednosti
 
-Najít, otestovat a dlouhodobě udržet 1-3 funkční komunity, které poskytují podporu i smysl.
+Patřit do živých komunit s reálnou interakcí a sdílenou zodpovědností, nejen virtuálně.
 
-## Praktická cvičení
+## Pět praktických cvičení
 
-### Cvičení 1: Community Inventory
+### 1. 3 komunity pravidlo
 
-Vyjmenujte všechny komunity, kde jste deklarovaně členem (sport, církev, profesní, čtvrť, online). Pro každou: jak často aktivně přispíváte? <1×/měsíc = nominální, ne skutečné členství.
+Buďte aktivně součástí minimálně 3 různých komunit (profesní, hobby, hodnotová). Žádná závislost na jediné.
 
-### Cvičení 2: Community-Type Selection
+### 2. Příspěvek vs. konzumace
 
-Tři typy: (1) zájmová (hobby), (2) hodnotová (filozofie/víra), (3) lokální (sousedství). Optimum 1 z každého typu. Mono-typ omezí radius zhoršuje resilienci.
+V každé komunitě sledujte poměr toho, co dáváte/berete. Cíl 60:40 ve prospěch dávání.
 
-### Cvičení 3: 90-Day Trial
+### 3. Skutečná setkání
 
-U nové komunity commitněte 90 dní pravidelné účasti. Po 90 dnech rozhodnutí: in / out. Občasná účast nedá data pro rozhodnutí. 90 dní = 12-15 setkání = real signál.
+Online komunity dobré, fyzická setkání nezbytná. Najděte alespoň 1 fyzickou komunitu se setkáními minimálně měsíčně.
 
-### Cvičení 4: Contribution-Reception Balance
+### 4. Závazek role
 
-Pro každou komunitu: dávám / dostávám (čas, energie, znalosti). Pure-receiver dlouhodobě = drain pro ostatní. Pure-giver dlouhodobě = vyhoření.
+Převezměte v komunitě konkrétní roli (organizátor, mentor, archivář). Role přitahuje k pravidelnosti.
 
-### Cvičení 5: Toxic Community Exit
+### 5. Diverzifikace
 
-Signály toxic komunity: (1) kritika exitujících členů, (2) gradient demands na čas/peníze, (3) izolace od „outsiderů“, (4) nedotknutelný vůdce. Při 2+ signálech = exit-plan do 30 dní.
+Vyhněte se komunitám, kde všichni myslí stejně. Hledejte skupinu s respektovanou vnitřní pluralitou.
 
 ## Časový rámec
 
-Community inventory: 1 týden. 90-day trial 1 komunity: 90 dní. Stable 1-3 komunity engagement: 12-24 měsíců.
+Měsíční účast minimum, týdenní mikrokontakt; půlroční hodnocení kvality komunit.
 
 ## Indikátory pokroku
 
-Klesá pocit „nemám nikoho v týmu“. Roste počet ad-hoc help-exchange. Některá rozhodnutí jsou snazší (komunita je sounding board).
+Vyšší pocit smyslu; sociální kapitál; menší existenciální úzkost.
 
 ## Limitace
 
-Kult-y a high-control groups vypadají jako komunity. Detekce vyžaduje cross-reference s exit-stories. „Toxic positivity“ komunity skrývají drain za pozitivním fasádou.
+Zapojení vyžaduje čas a kompromis. Hyperaktivita ve více komunitách může vést k povrchnosti.
 
 ## Cross-linky
 
-- [network diversification](network-diversification/)
-- [isolation prevention](isolation-prevention/)
-- [trust calibration](trust-calibration/)
-- [mentor evaluation](mentor-evaluation/)
-- [support mobilization](support-mobilization/)
-- [boundary setting](boundary-setting/)
-- [↗ emergency protocols/](../emergency-protocols//)
-- [↗ detection signatures/](../detection-signatures//)
-
----
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-Tento návod je součástí oddílu **[Sebe-obrana: Praktické návody](../)** v Compendiu Prismatic Platform. Pro hlubší teoretický rámec viz [Kompendium hlavní index](../../) a [Glossary bridges](../../glossary-bridges/). Pro krizové situace viz [Emergency protocols](../../emergency-protocols/).
-
-*Built with precision. Optimized for resilience.*
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
+- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
+- [Kontakt](mailto:[e-mail odstraněn])

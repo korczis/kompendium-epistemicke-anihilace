@@ -1,27 +1,32 @@
 +++
-title = "Cross-Domain Bridges: EA × Platform"
-description = "Mosty mezi extrakční analýzou a ostatními doménami platformy Prismatic — OSINT, due diligence, security, compliance."
-weight = 90
+title = "Cross-Domain Bridges"
+description = "Bridges mezi EA frameworkem a doménami OSINT, DD, Security, Compliance — 30 articles."
 sort_by = "weight"
-[taxonomies]
-tags = ["kompendium", "cross-domain", "platform-integration"]
-categories = ["academic", "platform-integration"]
+template = "section.html"
 [extra]
-parent = "kompendium"
 toc = true
 +++
 
-# Cross-Domain Bridges: EA × Platform
+# Cross-Domain Bridges — EA × Platform Domains
 
-Tato sekce obsahuje 30 článků mapujících aplikaci konceptů extrakční analýzy (EA) napříč doménami platformy Prismatic. Cílem je překonat doménovou izolaci a ukázat, jak detekce manipulativních narativních vzorců funguje jako sjednocující epistemický standard pro OSINT, due diligence, security operations a compliance.
+30 článků, které mostí Epistemic Attacks (EA) framework s konkrétními doménami Prismatic Platform. Každý článek je 500-700 slov, 7 sekcí, 10+ cross-linků.
 
-## Struktura
+## Buckets
 
-- **EA × OSINT (8 článků)** — zdrojová věrohodnost, validace registrů, sankční listy, sociální média
-- **EA × Due Diligence (8 článků)** — vyšetřovací zaujatost, vážení zdrojů, kalibrace rozhodovacího enginu
-- **EA × Security (8 článků)** — sociální inženýrství, spear phishing, dezinformační obrana
-- **EA × Compliance (6 článků)** — NIS2, ZKB, GDPR, AML, KYC, regulatorní zachycení
+### EA × OSINT (8 articles)
+1-8: Source credibility, ARES validation, justice.cz screening, sankční seznamy bias, social media manipulation, bot detection, narrative injection, cross-source triangulation.
 
-## Doktrína
+### EA × Due Diligence (8 articles)
+9-16: Investigation bias, source weighting, decision engine kalibrace, counterparty manipulation, beneficial ownership disinformation, narrative warfare, evidence quality, confirmation bias prevention.
 
-Každá doména má vlastní vokabulář a metriky, ale **epistemická integrita** je univerzální. EA poskytuje formální rámec pro detekci úmyslné degradace pravdivostních hodnot — v OSINT zdroji, DD reportu, bezpečnostním incidentu nebo compliance auditu.
+### EA × Security (8 articles)
+17-24: Social engineering, spear phishing, disinformation defense, insider threat, supply chain narrative, incident response, attribution bias, threat intelligence validation.
+
+### EA × Compliance (6 articles)
+25-30: NIS2 integrity, ZKB epistemic integrity, GDPR narrative protection, AML pattern recognition, KYC narrative validation, regulatory capture detection.
+
+## Connect
+
+- [Kompendium home](/kompendium/)
+- [GitHub](https://github.com/korczis/prismatic-platform)
+- [Email](mailto:[e-mail odstraněn])

@@ -105,7 +105,7 @@ L5 agents exhibit emergent [consciousness traits](/glossary/consciousness-traits
 
 ## Agent Distribution Across Tiers
 
-The distribution of the platform's 434 agents across tiers follows a deliberate pyramidal structure, with the majority of agents at tactical and operational levels and very few at supreme authority:
+The distribution of the platform's 552 agents across tiers follows a deliberate pyramidal structure, with the majority of agents at tactical and operational levels and very few at supreme authority:
 
 | Tier | Agent Count | Percentage | Purpose |
 |------|-------------|------------|---------|

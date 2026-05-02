@@ -25,7 +25,7 @@ categories = ["announcement"]
 
 > *Note: This post announces a Czech-language reference work intended for qualified specialists. It does not provide instructions for misuse — only a structured framework for **identifying, preventing, and intervening in** systematic epistemic damage. The work is published as part of the Prismatic Platform's epistemic-security stack.*
 
-We've started shipping the first sections of the **Kompendium epistemické a kognitivní anihilace** — a Czech-language taxonomic system for phenomena that destroy the capacity to know. The kompendium has lived as private notes for a long time. Now it gets a permanent home at [/kompendium/](/kompendium/), wired into the platform's glossary and integrated with the [Decision Engine](/hub/dd/decisions/) calibration logic.
+We've started shipping the first sections of the **Kompendium epistemické a kognitivní anihilace** — a Czech-language taxonomic system for phenomena that destroy the capacity to know. The kompendium has lived as private notes for a long time. Now it gets a permanent home at [/kompendium/](@/kompendium/_index.md), wired into the platform's glossary and integrated with the [Decision Engine](/hub/dd/decisions/) calibration logic.
 
 This post explains **what it is**, **why it exists**, and **how we're shipping it incrementally**.
 
@@ -66,22 +66,22 @@ The first three sections are public from day one. The remaining five are gated b
 
 ## The eight glossary entries
 
-The kompendium is supported by eight new glossary entries shipped today as part of the platform's main [glossary](/glossary/):
+The kompendium is supported by eight new glossary entries shipped today as part of the platform's main [glossary](@/glossary/_index.md):
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — the central concept
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — its cognitive sibling
-- [Taxonomie EA](/glossary/taxonomie-ea/) — the classification system itself
-- [Anankastický režim](/glossary/anankasticky-rezim/) — terminal cognitive rigidity state
-- [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) — failure of meta-cognitive recursion
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — alienation from one's own cognition
-- [Ontologická anihilace](/glossary/ontologicka-anihilace/) — destruction of basic categories of being
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — impairment of self-reflective capacity
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — the central concept
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — its cognitive sibling
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — the classification system itself
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) — terminal cognitive rigidity state
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — failure of meta-cognitive recursion
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — alienation from one's own cognition
+- [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) — destruction of basic categories of being
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — impairment of self-reflective capacity
 
 These are written in English with Czech terminology preserved, since the glossary is the platform's bilingual interface layer. The kompendium articles themselves are in Czech.
 
 ## Per-technique deep-dives
 
-Beyond the section-level chapters, each documented technique gets a **standalone deep-dive article** at [/kompendium/techniques/](/kompendium/techniques/). These articles follow a uniform template:
+Beyond the section-level chapters, each documented technique gets a **standalone deep-dive article** at [/kompendium/techniques/](@/kompendium/techniques/_index.md). These articles follow a uniform template:
 
 - **Identification** — EA code, category, access level
 - **Definition** — concise framing
@@ -94,7 +94,7 @@ Beyond the section-level chapters, each documented technique gets a **standalone
 - **Relationship to other techniques** — conjunctions, escalation chains, alternatives
 - **Reference into the kompendium** — cross-link to the parent chapter
 
-The first deep-dive — [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — ships today as the **template** for the remaining twelve in Chapter 1, then for the rest of the taxonomy.
+The first deep-dive — [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — ships today as the **template** for the remaining twelve in Chapter 1, then for the rest of the taxonomy.
 
 ## How it integrates with the platform
 
@@ -102,9 +102,9 @@ The kompendium isn't an isolated artifact. It connects to the rest of Prismatic 
 
 **Decision Engine calibration.** The [Decision Engine](/hub/dd/decisions/) explicitly treats indicators of epistemic manipulation as **negative confidence signals** during calibration. When a source displays markers consistent with kompendium-classified manipulation patterns, its evidential weight is reduced, regardless of its formal credentials. This is technically minor — a few additional features in the calibration model — but conceptually significant: it means the kompendium directly affects how the platform reasons about source quality.
 
-**Color Team adversarial simulation.** The [Color Teams](/glossary/color-teams/) framework, particularly the Red Team adversarial simulation roles, draws scenarios from the kompendium taxonomy. When we test the platform's resilience to epistemic adversarial inputs, we use the kompendium as the threat catalog.
+**Color Team adversarial simulation.** The [Color Teams](@/glossary/color-teams.md) framework, particularly the Red Team adversarial simulation roles, draws scenarios from the kompendium taxonomy. When we test the platform's resilience to epistemic adversarial inputs, we use the kompendium as the threat catalog.
 
-**NABLA Infinity defensive correspondences.** The [NABLA Infinity](/glossary/nabla-infinity/) epistemic pipeline implements structural defenses corresponding to specific kompendium neutralization strategies. Source diversity checks correspond to defenses against EA-1.1.1 selective exposure. Explicit falsifiability tracking corresponds to defenses against EA-1.3.1 immunization. Provenance auditing corresponds to defenses against EA-1.3.3 thematic diversion.
+**NABLA Infinity defensive correspondences.** The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements structural defenses corresponding to specific kompendium neutralization strategies. Source diversity checks correspond to defenses against EA-1.1.1 selective exposure. Explicit falsifiability tracking corresponds to defenses against EA-1.3.1 immunization. Provenance auditing corresponds to defenses against EA-1.3.3 thematic diversion.
 
 This isn't decoration. The kompendium **shapes the architecture** of the platform's epistemic operations.
 
@@ -120,21 +120,21 @@ A few things this announcement is **not**:
 
 If you're new to the material, the recommended order is:
 
-1. Start at [the kompendium hub](/kompendium/) for orientation.
-2. Read [01 Předmluva — Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/) for context, then [Etické aspekty](/kompendium/01-predmluva/eticke-aspekty/) before going further.
-3. Move to [02 Úvod — Definice](/kompendium/02-uvod/definice/) for foundational concepts. The [historical context](/kompendium/02-uvod/historicky-kontext/) is optional but contextualizes the project significantly.
-4. Read [03.1 Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) for the taxonomic core.
-5. Browse [techniques/](/kompendium/techniques/) for per-technique deep-dives as they're published.
+1. Start at [the kompendium hub](@/kompendium/_index.md) for orientation.
+2. Read [01 Předmluva — Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md) for context, then [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) before going further.
+3. Move to [02 Úvod — Definice](@/kompendium/02-uvod/definice.md) for foundational concepts. The [historical context](@/kompendium/02-uvod/historicky-kontext.md) is optional but contextualizes the project significantly.
+4. Read [03.1 Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) for the taxonomic core.
+5. Browse [techniques/](@/kompendium/techniques/_index.md) for per-technique deep-dives as they're published.
 
-If you're a clinician encountering a specific case, jump directly to [03.1](/kompendium/03-zakladni-kategorie/kapitola-1/) and use the EA codes to locate relevant per-technique articles.
+If you're a clinician encountering a specific case, jump directly to [03.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) and use the EA codes to locate relevant per-technique articles.
 
-If you're a researcher building on this work, [02.4 Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/) is the entry point — it explicitly exposes our classification criteria, validation principles, and known limitations.
+If you're a researcher building on this work, [02.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) is the entry point — it explicitly exposes our classification criteria, validation principles, and known limitations.
 
 ## What ships next
 
 The next twelve per-technique articles complete Chapter 1 — the academic intellectual manipulation techniques (EA-1.1.2 through EA-1.5.2). After that, we begin Chapter 2 (delegitimization scenarios) and the diagnostic indicators in Section 06.
 
-The roadmap is at the [techniques index](/kompendium/techniques/) and updates with each new publication.
+The roadmap is at the [techniques index](@/kompendium/techniques/_index.md) and updates with each new publication.
 
 If you're a qualified specialist who wants to contribute case studies, methodological refinements, or translation review, get in touch via the contact links at the bottom of any kompendium page.
 
@@ -145,4 +145,4 @@ If you're a qualified specialist who wants to contribute case studies, methodolo
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Kompendium](/kompendium/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Kompendium](@/kompendium/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

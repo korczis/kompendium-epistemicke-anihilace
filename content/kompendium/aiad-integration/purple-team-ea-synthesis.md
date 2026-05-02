@@ -26,7 +26,7 @@ Detekce: meta-analýza — koreluje Red útoky × Blue zachycení matice, identi
 
 ## Operational protocols
 
-Provoz: bi-weekly retrospective + průběžný stream telemetrie. Výstupem je **Pull Request do detection-signatures/** s testovacími fixturami a confidence scorem. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](/kompendium/aiad-integration/quality-monitor-ea-tracking/)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: bi-weekly retrospective + průběžný stream telemetrie. Výstupem je **Pull Request do detection-signatures/** s testovacími fixturami a confidence scorem. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 
@@ -38,20 +38,20 @@ Konzumuje výstupy **Red Teamu** a **Blue Teamu**; produkuje pravidla pro **Auto
 
 ## Cross-linky
 
-- [Red Team Ea Detection](/kompendium/aiad-integration/red-team-ea-detection/) — peer v rámci Color Teams
-- [Blue Team Ea Defense](/kompendium/aiad-integration/blue-team-ea-defense/) — peer v rámci Color Teams
-- [White Team Ea Verification](/kompendium/aiad-integration/white-team-ea-verification/) — peer v rámci Color Teams
-- [Black Team Ea Modeling](/kompendium/aiad-integration/black-team-ea-modeling/) — peer v rámci Color Teams
-- [Gray Team Ea Edge Cases](/kompendium/aiad-integration/gray-team-ea-edge-cases/) — peer v rámci Color Teams
-- [Archer Supreme Ea Orchestration](/kompendium/aiad-integration/archer-supreme-ea-orchestration/) — cross-group koordinace
-- [Autoevolve Ea Pattern Evolution](/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/) — cross-group koordinace
-- [Czech Ares Ea Screening](/kompendium/aiad-integration/czech-ares-ea-screening/) — cross-group koordinace
-- [základní kategorie EA](/kompendium/03-zakladni-kategorie/) — EA taxonomie
-- [terminální protokoly](/kompendium/04-terminalni-protokoly/) — EA taxonomie
-- [ultramari techniky](/kompendium/05-ultramari-techniky/) — EA taxonomie
-- [agent-tier](/glossary/agent-tier) — platform glossary
-- [color-teams](/glossary/color-teams) — platform glossary
-- [archer-supreme glossary](/glossary/archer-supreme) — platform glossary
+- [Red Team Ea Detection](@/kompendium/aiad-integration/red-team-ea-detection.md) — peer v rámci Color Teams
+- [Blue Team Ea Defense](@/kompendium/aiad-integration/blue-team-ea-defense.md) — peer v rámci Color Teams
+- [White Team Ea Verification](@/kompendium/aiad-integration/white-team-ea-verification.md) — peer v rámci Color Teams
+- [Black Team Ea Modeling](@/kompendium/aiad-integration/black-team-ea-modeling.md) — peer v rámci Color Teams
+- [Gray Team Ea Edge Cases](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md) — peer v rámci Color Teams
+- [Archer Supreme Ea Orchestration](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md) — cross-group koordinace
+- [Autoevolve Ea Pattern Evolution](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md) — cross-group koordinace
+- [Czech Ares Ea Screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) — cross-group koordinace
+- [základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md) — EA taxonomie
+- [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — EA taxonomie
+- [ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) — EA taxonomie
+- [agent-tier](@/glossary/agent-tier.md) — platform glossary
+- [color-teams](@/glossary/color-teams.md) — platform glossary
+- [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
 
 ## Connect & Contribute
 

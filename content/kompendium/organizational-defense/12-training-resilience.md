@@ -79,15 +79,15 @@ Spaced repetition, in-person workshopy, certifikace s expirací, peer-to-peer le
 ## 6. Cross-linky
 
 - [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
-- [Psychologická bezpečnost](/kompendium/organizational-defense/16-psychological-safety/)
-- [Politika rotace týmů](/kompendium/organizational-defense/17-team-rotation-policy/)
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
 - [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
-- [Oddělení povinností](/kompendium/organizational-defense/29-segregation-duties/)
-- [Rotace rolí](/kompendium/organizational-defense/30-rotation-of-roles/)
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
+- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
 - [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Spaced repetition, in-person workshopy, certifikace s expirací, peer-to-peer le
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

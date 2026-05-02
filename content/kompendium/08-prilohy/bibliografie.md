@@ -28,7 +28,7 @@ Bibliografie není exhaustivní — je **funkční**. Obsahuje pouze prameny, kt
 
 ## I. Epistemologie a filozofie vědy
 
-Tato vrstva poskytuje teoretický rámec pro pojmy **falsifikovatelnost**, **paradigma**, **vědecká revoluce** a **demarkační problém** — kritické pro analýzu technik [imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) a [strategické reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/).
+Tato vrstva poskytuje teoretický rámec pro pojmy **falsifikovatelnost**, **paradigma**, **vědecká revoluce** a **demarkační problém** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
 
 - **Popper, K. R.** (1934/1959). *The Logic of Scientific Discovery* [*Logik der Forschung*]. London: Hutchinson. — Falsifikace, demarkační kritérium, otevřená společnost.
 - **Popper, K. R.** (1945). *The Open Society and Its Enemies*. London: Routledge. — Kritika historicismu, intelektuální poctivost.
@@ -40,7 +40,7 @@ Tato vrstva poskytuje teoretický rámec pro pojmy **falsifikovatelnost**, **par
 
 ## II. Fenomenologie a hermeneutika
 
-Pramen pojmů **intencionalita**, **životní svět**, **horizont**, **fúze horizontů** — využíváno v analýze [referencí rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/) a [singulárního narativního kolapsu](/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps/).
+Pramen pojmů **intencionalita**, **životní svět**, **horizont**, **fúze horizontů** — využíváno v analýze [referencí rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) a [singulárního narativního kolapsu](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md).
 
 - **Husserl, E.** (1913/1976). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Den Haag: Nijhoff. — Intencionalita, fenomenologická redukce, eidetická intuice.
 - **Husserl, E.** (1936). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. — Životní svět (*Lebenswelt*), krize evropských věd.
@@ -51,7 +51,7 @@ Pramen pojmů **intencionalita**, **životní svět**, **horizont**, **fúze hor
 
 ## III. Kritická teorie a teorie společnosti
 
-Rámec pro analýzu **diskursu**, **mocenských vztahů**, **deformované komunikace** a **veřejné sféry** — klíčový pro sekci 03 (Akademické techniky) a [strategickou proxemiku](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/).
+Rámec pro analýzu **diskursu**, **mocenských vztahů**, **deformované komunikace** a **veřejné sféry** — klíčový pro sekci 03 (Akademické techniky) a [strategickou proxemiku](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md).
 
 - **Foucault, M.** (1969). *L'Archéologie du savoir*. Paris: Gallimard. — Diskursivní formace, archeologie vědění.
 - **Foucault, M.** (1975). *Surveiller et punir*. Paris: Gallimard. — Disciplinární moc, panoptismus, normalizující sankce.
@@ -64,20 +64,20 @@ Rámec pro analýzu **diskursu**, **mocenských vztahů**, **deformované komuni
 
 ## IV. Totalitarismus a politická psychologie
 
-Empirický rámec pro [terminální protokoly](/kompendium/04-terminalni-protokoly/) a kapitolu o **kolektivní destrukci epistemických struktur**.
+Empirický rámec pro [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a kapitolu o **kolektivní destrukci epistemických struktur**.
 
 - **Arendt, H.** (1951/1973). *The Origins of Totalitarianism* (3rd ed.). New York: Harcourt. — Atomizace, ideologická logika, banalita zla.
 - **Arendt, H.** (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*. New York: Viking. — Mizení reflexivity v byrokratickém aparátu.
 - **Klemperer, V.** (1947). *LTI — Lingua Tertii Imperii: Notizbuch eines Philologen*. Berlin: Aufbau. — Manipulace jazyka jako základ totalitního režimu, sémantická přestavba.
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton. — Osm kritérií totalitní reformy myšlení (milieu control, mystical manipulation, demand for purity, confession, sacred science, loading the language, doctrine over person, dispensing of existence).
 - **Lifton, R. J.** (1986). *The Nazi Doctors*. New York: Basic Books. — Doubling, profesionální štěpení.
-- **Hassan, S.** (1988/2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. — BITE Model (Behavior, Information, Thought, Emotional control). → [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/).
+- **Hassan, S.** (1988/2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. — BITE Model (Behavior, Information, Thought, Emotional control). → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 - **Sloterdijk, P.** (1983). *Kritik der zynischen Vernunft* (sv. 1–2). Frankfurt: Suhrkamp. — Cynický rozum, osvícenství v rozkladu.
 - **Sloterdijk, P.** (2009). *Du musst dein Leben ändern*. Frankfurt: Suhrkamp. — Antropotechniky, vertikální tahy.
 
 ## V. Kognitivní psychologie a behaviorální ekonomie
 
-Empirický základ pro analýzu **kognitivních biasů**, **dvojího procesního systému** a **heuristik** — pilíře [klinických aplikací](/kompendium/06-klinicke-aplikace/) a detekčních markerů.
+Empirický základ pro analýzu **kognitivních biasů**, **dvojího procesního systému** a **heuristik** — pilíře [klinických aplikací](@/kompendium/06-klinicke-aplikace/_index.md) a detekčních markerů.
 
 - **Kahneman, D., & Tversky, A.** (1979). Prospect Theory: An Analysis of Decision under Risk. *Econometrica*, 47(2), 263–291. — Asymetrie zisků a ztrát.
 - **Kahneman, D.** (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus & Giroux. — System 1 / System 2, dostupnostní heuristika, kotvení.
@@ -108,7 +108,7 @@ Aplikovaný rámec pro detekci **manipulace v reálném čase**, **propagandisti
 
 ## VIII. Kult-studia a high-control groups
 
-Empirický základ pro [terminální protokoly](/kompendium/04-terminalni-protokoly/) a [ultramární techniky](/kompendium/05-ultramari-techniky/).
+Empirický základ pro [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) a [ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md).
 
 - **Singer, M. T.** (1995/2003). *Cults in Our Midst* (rev. ed.). San Francisco: Jossey-Bass. — Šest podmínek vlivového prostředí.
 - **Lalich, J.** (2004). *Bounded Choice: True Believers and Charismatic Cults*. Berkeley: University of California Press. — Bounded choice, charismatický autoritarismus.
@@ -117,7 +117,7 @@ Empirický základ pro [terminální protokoly](/kompendium/04-terminalni-protok
 
 ## IX. Klinická literatura — trauma, disociace, PTSD
 
-Diagnostické a terapeutické rámce pro [klinické aplikace](/kompendium/06-klinicke-aplikace/) a [diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/).
+Diagnostické a terapeutické rámce pro [klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) a [diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 
 - **Herman, J. L.** (1992/2015). *Trauma and Recovery* (rev. ed.). New York: Basic Books. — Komplexní PTSD, třífázový model zotavení.
 - **van der Kolk, B.** (2014). *The Body Keeps the Score*. New York: Viking. — Somatické otisky traumatu.
@@ -155,19 +155,19 @@ Digitální zdroje s aktivními odkazy (přístup ověřen 2026-04-25).
 
 ## Související prameny v kompendiu
 
-- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/) — terminologický most k anglickojazyčným pramenům.
-- [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) — metodologie použitá k uspořádání citací.
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — rámec pro citační poctivost.
-- [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) — odkazuje na primární publikace BITE, IES-R, DES-II, BFI-2, ECRI.
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md) — terminologický most k anglickojazyčným pramenům.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — metodologie použitá k uspořádání citací.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — rámec pro citační poctivost.
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — odkazuje na primární publikace BITE, IES-R, DES-II, BFI-2, ECRI.
 
 ## Platformový kontext
 
 Bibliografie je propojena s běžícími systémy:
 
-- [Glossary](/glossary/) — každé glosářové heslo cituje primární prameny z této bibliografie.
-- [Philosophy](/philosophy/) — filozofická vrstva platformy přímo navazuje na sekce I, II, III, X.
-- [NABLA Infinity](/glossary/nabla-infinity/) — epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
-- [Color Teams](/glossary/color-teams/) — Red Team adversariální simulace operacionalizuje Liftonova kritéria.
+- [Glossary](@/glossary/_index.md) — každé glosářové heslo cituje primární prameny z této bibliografie.
+- [Philosophy](@/philosophy/_index.md) — filozofická vrstva platformy přímo navazuje na sekce I, II, III, X.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
+- [Color Teams](@/glossary/color-teams.md) — Red Team adversariální simulace operacionalizuje Liftonova kritéria.
 
 
 ## ⚡ Kritický krok
@@ -177,7 +177,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -190,4 +190,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Přílohy](/kompendium/08-prilohy/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

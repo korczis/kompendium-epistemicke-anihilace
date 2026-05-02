@@ -28,9 +28,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
-| **Riziková úroveň** | Extrémní — narušení kategoriálního rámce zkušenosti, dezorientace srovnatelná s [ontologickou anihilací](/glossary/ontologicka-anihilace/) |
+| **Riziková úroveň** | Extrémní — narušení kategoriálního rámce zkušenosti, dezorientace srovnatelná s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md) |
 | **Reverzibilita** | Velmi nízká — rekonstrukce konceptuálního rámce vyžaduje kombinaci kognitivní a fenomenologické rehabilitace, typicky 18–48 měsíců |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -40,7 +40,7 @@ Po nasazení techniky není subjekt schopen klást otázku *"Co je pravda?"* —
 
 Strukturálně připomíná konceptuální nihilace **filozofickou skepsi**, ale liší se v zásadním rysu: filozofická skepse je **operatorem** (nástrojem k revizi přesvědčení v kontrolovaném rámci), kdežto konceptuální nihilace je **stavem**, do něhož je subjekt uveden bez možnosti návratu k operativnímu používání pojmů. Subjekt **přestává mít k dispozici** kategorie, které dříve používal — nikoli proto, že je revidoval, ale proto, že je **vyprázdnily**.
 
-Technika je strukturálním předkladem pro [EA-5.1.3 reflexivní paradoxii](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/) — bez kategoriální destabilizace by reflexivní paradoxy nebyly produktivní. Společně s [EA-5.1.1 epistemickou kanibalizací](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/) tvoří jádro **epistemické singularity**.
+Technika je strukturálním předkladem pro [EA-5.1.3 reflexivní paradoxii](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) — bez kategoriální destabilizace by reflexivní paradoxy nebyly produktivní. Společně s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) tvoří jádro **epistemické singularity**.
 
 ## Operační modus
 
@@ -83,7 +83,7 @@ Praktická paralýza je **produktem** — nikoli vedlejším účinkem, ale cíl
 
 ### Krok 5 — Substituce manipulátorovým rámcem
 
-V terminálním stadiu nabízí manipulátor **vlastní kategoriální rámec** jako **únik z paralýzy**: nikoli rekonstrukci subjektových pojmů, ale **kompletní substituci**. Subjekt přijímá manipulátorův rámec, protože je to jediná dostupná operativní struktura. Tím vzniká stav popsaný v [glosáři jako *anankastický režim*](/glossary/anankasticky-rezim/) — subjekt je **funkčně závislý** na vnějším kategoriálním rámci.
+V terminálním stadiu nabízí manipulátor **vlastní kategoriální rámec** jako **únik z paralýzy**: nikoli rekonstrukci subjektových pojmů, ale **kompletní substituci**. Subjekt přijímá manipulátorův rámec, protože je to jediná dostupná operativní struktura. Tím vzniká stav popsaný v [glosáři jako *anankastický režim*](@/glossary/anankasticky-rezim.md) — subjekt je **funkčně závislý** na vnějším kategoriálním rámci.
 
 ## Fenomenologické znaky
 
@@ -99,7 +99,7 @@ Co prožívá subjekt **uvnitř** konceptuální nihilace:
 | **Toxická vděčnost za rámec** | Když manipulátor poskytne **jakoukoli** kategoriální oporu, subjekt prožívá intenzivní úlevu — i když je rámec evidentně problematický |
 | **Filozofický exhibitionismus** | V raných stadiích subjekt často **demonstruje** ambiguaci jako svou novou sofistikaci, aniž by si všiml, že ztrácí operativní kapacitu |
 
-V pokročilých stadiích kombinace s [epistemickou kanibalizací](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/) způsobuje, že subjekt **přijímá manipulátorovy** kategorie jako jediné, které "fungují".
+V pokročilých stadiích kombinace s [epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) způsobuje, že subjekt **přijímá manipulátorovy** kategorie jako jediné, které "fungují".
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -189,15 +189,15 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 
 ### Často se kombinuje s
 
-- **[EA-5.1.1 Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)** — když jsou nosné pojmy destabilizovány, je snazší pohltit subjektovu epistemickou produkci.
-- **[EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)** — destabilizované pojmy generují produktivnější paradoxy v reflexi.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — substituce vyprázdněných pojmů manipulátorovou terminologií.
+- **[EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — když jsou nosné pojmy destabilizovány, je snazší pohltit subjektovu epistemickou produkci.
+- **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — destabilizované pojmy generují produktivnější paradoxy v reflexi.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — substituce vyprázdněných pojmů manipulátorovou terminologií.
 - **[EA-1.5.x Latentní emocionální modulace](/kompendium/techniques/ea-1-5-1-emocni-podbarveni/)** — kategoriální destabilizace produkuje úzkost, která je manipulátorem směrována.
 
 ### Eskaluje do
 
-- **[Anankastický režim](/glossary/anankasticky-rezim/)** — funkční závislost na vnějším kategoriálním rámci jako jediné operativní struktuře.
-- **Úplná epistemická singularita** — terminální stav konvergence všech tří 5.1 technik ([Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)).
+- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — funkční závislost na vnějším kategoriálním rámci jako jediné operativní struktuře.
+- **Úplná epistemická singularita** — terminální stav konvergence všech tří 5.1 technik ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -209,34 +209,34 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 Konceptuální nihilace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) operational definitions** — všechny rozhodovací proměnné mají **operativní, machine-checkable** definice, které nemohou být diskurzivně rozkývány.
-- **[NABLA Infinity](/glossary/nabla-infinity/) categorial invariants** — epistemický pipeline udržuje stabilní kategorialní topologii napříč transformacemi; pokus o destabilizaci základních kategorií je flagován.
-- **[Color Teams](/glossary/color-teams/) blue-team protocol** — defenzivní validace, že interní diskurz Prismatic neprodukuje konceptuální nihilaci u operátorů (zejména v dlouhodobých výcvikových rámcích).
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) categorial invariants** — epistemický pipeline udržuje stabilní kategorialní topologii napříč transformacemi; pokus o destabilizaci základních kategorií je flagován.
+- **[Color Teams](@/glossary/color-teams.md) blue-team protocol** — defenzivní validace, že interní diskurz Prismatic neprodukuje konceptuální nihilaci u operátorů (zejména v dlouhodobých výcvikových rámcích).
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.1 Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
-  - [EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)
+  - [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
+  - [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 - **Příbuzné akademické techniky**:
-  - [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
-  - [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-  - [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
+  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -246,10 +246,10 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -261,4 +261,4 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

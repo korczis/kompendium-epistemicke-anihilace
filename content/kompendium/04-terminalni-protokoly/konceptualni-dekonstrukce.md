@@ -23,11 +23,11 @@ status = "publikovano"
 
 ## Konceptuální dekonstrukce v rámci taxonomie
 
-Zatímco [ultimátní výcvikový scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/) cílí na koncentrovanou multimodální zátěž a [identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/) cílí na strukturu sebepojetí, **konceptuální dekonstrukce** je terminální protokol, jehož primárním cílem je **rozložení pojmového aparátu**, který subjekt používá pro organizaci a interpretaci zkušenosti. Tento protokol patří do podtřídy [taxonomie EA](/glossary/taxonomie-ea/) označované jako **sémanticko-ontologická manipulace**.
+Zatímco [ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md) cílí na koncentrovanou multimodální zátěž a [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md) cílí na strukturu sebepojetí, **konceptuální dekonstrukce** je terminální protokol, jehož primárním cílem je **rozložení pojmového aparátu**, který subjekt používá pro organizaci a interpretaci zkušenosti. Tento protokol patří do podtřídy [taxonomie EA](@/glossary/taxonomie-ea.md) označované jako **sémanticko-ontologická manipulace**.
 
 Klíčové analytické rozlišení: konceptuální dekonstrukce **není** prosté zpochybňování konkrétních přesvědčení. Pochybnost o jednotlivém přesvědčení (např. *"je tento dokument autentický?"*) je legitimní epistemický akt. Konceptuální dekonstrukce cílí o úroveň výše: na **kategorie**, jimiž subjekt vůbec rozlišuje autentičnost od neautentičnosti, fakt od interpretace, dovolené od nedovoleného. Když je narušena tato kategoriální vrstva, zhroucení následuje na úrovni všech přesvědčení současně.
 
-Dynamika konceptuální dekonstrukce je strukturálně blízká fenoménům, které [glosář metakognitivní destrukce](/glossary/metakognitivni-destrukce/) popisuje jako "ztrátu druhořádových rozlišení", a fenoménům, které glosář [kognitivní anti-rekurzivity](/glossary/kognitivni-anti-rekurzivita/) popisuje jako rozpad sebepoznání jako self-correcting procesu.
+Dynamika konceptuální dekonstrukce je strukturálně blízká fenoménům, které [glosář metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) popisuje jako "ztrátu druhořádových rozlišení", a fenoménům, které glosář [kognitivní anti-rekurzivity](@/glossary/kognitivni-anti-rekurzivita.md) popisuje jako rozpad sebepoznání jako self-correcting procesu.
 
 ## Trojfázová struktura
 
@@ -60,7 +60,7 @@ Po této fázi subjekt typicky vstupuje do stavu, ve kterém **pojmová stabilit
 
 ### Fáze K3 — instalace alternativní pojmové matrice
 
-V terminální fázi destruktivního protokolu je do destabilizovaného pojmového systému instalována **alternativní pojmová matrice**, která je strukturovaná tak, aby odpovídala cílům operátora protokolu. V legitimním pedagogickém kontextu tato fáze chybí; subjekt je naopak veden k **rekonstituci vlastní matrice** (viz [Kontrolovaná rekonstituce](/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce/)).
+V terminální fázi destruktivního protokolu je do destabilizovaného pojmového systému instalována **alternativní pojmová matrice**, která je strukturovaná tak, aby odpovídala cílům operátora protokolu. V legitimním pedagogickém kontextu tato fáze chybí; subjekt je naopak veden k **rekonstituci vlastní matrice** (viz [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)).
 
 Klíčový analytický marker, který odlišuje destruktivní variantu: nová matrice je instalována **s autoritativní jistotou** v kontrastu s předchozí destabilizací. Subjekt po fázi neurčitosti přijímá novou jistotu s ulehčením, což činí přijetí strukturálně koerční bez ohledu na rétoriku svobodné volby.
 
@@ -88,7 +88,7 @@ Z analytické perspektivy je užitečné popsat čtyři rodiny mechanismů, kter
 - *Legitimní:* terapeutická intervence cílená na rozpoznání nesouladu mezi deklarovanými a žitými hodnotami.
 - *Destruktivní:* manipulovaná situace, ve které je subjekt přiveden k akci v rozporu s vlastní deklarovanou hodnotou, a tato akce je posléze symbolicky zafixována.
 
-Hranice mezi legitimní a destruktivní variantou není v *technice* samé, ale v **rámcování, intenci, supervizi a strukturované rekonstituci** — opět platí pravidlo z [Kapitoly 4](/kompendium/04-terminalni-protokoly/kapitola-4/): bez šestého kroku (strukturovaná reintegrace) je protokol strukturálně destruktivní bez ohledu na intenci.
+Hranice mezi legitimní a destruktivní variantou není v *technice* samé, ale v **rámcování, intenci, supervizi a strukturované rekonstituci** — opět platí pravidlo z [Kapitoly 4](@/kompendium/04-terminalni-protokoly/kapitola-4.md): bez šestého kroku (strukturovaná reintegrace) je protokol strukturálně destruktivní bez ohledu na intenci.
 
 ## Efekty na epistemickou architekturu subjektu
 
@@ -96,17 +96,17 @@ Po expozici úspěšné konceptuální dekonstrukci subjekt typicky vykazuje ná
 
 | Doména | Typický efekt | Klinický korelát |
 |--------|----------------|------------------|
-| **Pojmová stabilita** | Snížená; časté kolísání mezi definicemi téhož pojmu | [Epistemická alienace](/glossary/epistemicka-alienace/) |
-| **Metakognitivní monitoring** | Narušený přístup k druhořádovému poznání | [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) |
+| **Pojmová stabilita** | Snížená; časté kolísání mezi definicemi téhož pojmu | [Epistemická alienace](@/glossary/epistemicka-alienace.md) |
+| **Metakognitivní monitoring** | Narušený přístup k druhořádovému poznání | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
 | **Sebevztahová stabilita** | Snížená; pochybování o vlastní kompetenci posuzovat | Self-doubt syndrom |
 | **Závislost na externí autoritě** | Zvýšená; subjekt vyhledává autoritativní pojmový rámec | Strukturální závislost |
-| **Reziduální traumatický afekt** | Variabilní; často přítomný v matnější formě než po somatickém traumatu | [Epistemické trauma](/glossary/epistemicke-trauma/) |
+| **Reziduální traumatický afekt** | Variabilní; často přítomný v matnější formě než po somatickém traumatu | [Epistemické trauma](@/glossary/epistemicke-trauma.md) |
 
 Tento profil vysvětluje, proč se konceptuální dekonstrukce v destruktivních kontextech používá jako přípravný krok pro pozdější instalace specifických přesvědčení — destabilizovaný pojmový systém je strukturálně neschopen efektivně odporovat instalaci.
 
 ## Detekce v dokumentech a komunikačních vzorcích
 
-Z perspektivy [Decision Engine](/hub/dd/decisions/) a [Color Teams](/glossary/color-teams/) je relevantní otázka: jak detekovat probíhající nebo ukončenou konceptuální dekonstrukci v textových materiálech, transkriptech komunikace, edukativních curriculech?
+Z perspektivy [Decision Engine](/hub/dd/decisions/) a [Color Teams](@/glossary/color-teams.md) je relevantní otázka: jak detekovat probíhající nebo ukončenou konceptuální dekonstrukci v textových materiálech, transkriptech komunikace, edukativních curriculech?
 
 Šest detekčních heuristik:
 
@@ -125,23 +125,23 @@ Studium konceptuální dekonstrukce je metodologicky obtížnější než studiu
 
 - **Respekt k legitimní problematizaci** — konceptuální dekonstrukce v destruktivním smyslu je výjimkou, nikoli normou; akademická problematizace pojmů je legitimní a fundamentální součástí intelektuálního života.
 - **Princip strategické neúplnosti** — výzkumník nepublikuje konkrétní pojmové substituce ani sekvence hraničních případů, které by sloužily jako šablona.
-- **Dual-use vědomí** — viz [glosář dual-use poznání](/glossary/dual-use-poznani/); každý publikovaný markér musí být balancován ekvivalentní detekční heuristikou.
+- **Dual-use vědomí** — viz [glosář dual-use poznání](@/glossary/dual-use-poznani.md); každý publikovaný markér musí být balancován ekvivalentní detekční heuristikou.
 - **Klinická odpovědnost** — pokud výzkumník v korpusu rozpozná aktivní destruktivní protokol cílící na identifikovatelnou populaci, etická povinnost notifikace převažuje výzkumný interes.
 
 ## Související materiály
 
-- [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
-- [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
-- [Ultimátní výcvikový scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/)
-- [Identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/)
-- [Institucionální anihilace](/kompendium/04-terminalni-protokoly/institucionalni-anihilace/)
-- [Kontrolovaná rekonstituce](/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce/)
-- [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/)
-- [Sekce 05: Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/) · [Kognitivní anihilace](/glossary/kognitivni-anihilace/) · [Ontologická anihilace](/glossary/ontologicka-anihilace/) · [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) · [Anankastický režim](/glossary/anankasticky-rezim/) · [Epistemická alienace](/glossary/epistemicka-alienace/) · [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) · [Taxonomie EA](/glossary/taxonomie-ea/) · [Dual-use poznání](/glossary/dual-use-poznani/) · [Epistemické trauma](/glossary/epistemicke-trauma/) · [Gaslighting](/glossary/gaslighting/) · [Delegitimizace](/glossary/delegitimizace/)
-- Filozofie: [Intelektuální suverenita](/philosophy/intellectual-sovereignty/) · [Epistemická integrita](/philosophy/epistemic-integrity/) · [Boundary ethics](/philosophy/boundary-ethics/)
-- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](/glossary/nabla-infinity/) · [Color Teams](/glossary/color-teams/)
+- [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
+- [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
+- [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)
+- [Identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md)
+- [Institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)
+- [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)
+- [Sekce 03: Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
+- Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
+- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -149,16 +149,16 @@ Studium konceptuální dekonstrukce je metodologicky obtížnější než studiu
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -167,4 +167,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

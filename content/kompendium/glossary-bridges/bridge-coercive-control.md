@@ -15,7 +15,7 @@ toc = false
 
 ## Glossary entry
 
-[coercive-control](/glossary/coercive-control/) — Coercive control.
+[coercive-control](@/glossary/coercive-control.md) — Coercive control.
 
 Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
 
@@ -57,14 +57,14 @@ Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teor
 
 ## Cross-linky
 
-- **Hub kompendia**: [/kompendium/](/kompendium/)
-- **Glossary entry**: [/glossary/coercive-control/](/glossary/coercive-control/)
-- **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
-- **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
-- **Glossary index**: [/glossary/](/glossary/)
-- **Bridge hub**: [/kompendium/glossary-bridges/](/kompendium/glossary-bridges/)
+- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
+- **Glossary entry**: [/glossary/coercive-control/](@/glossary/coercive-control.md)
+- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
+- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
+- **Glossary index**: [/glossary/](@/glossary/_index.md)
+- **Bridge hub**: [/kompendium/glossary-bridges/](@/kompendium/glossary-bridges/_index.md)
 - **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
-- **Per-technique katalog**: [/kompendium/techniques/](/kompendium/techniques/)
+- **Per-technique katalog**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
 - **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/klinicke-aplikace/)
 - **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/teoreticke-reflexe/)
 

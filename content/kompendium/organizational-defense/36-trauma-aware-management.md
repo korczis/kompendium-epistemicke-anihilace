@@ -79,15 +79,15 @@ Trauma-informed training, peer support groups, paced return-to-normal, recogniti
 ## 6. Cross-linky
 
 - [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
-- [Interní vyšetřování](/kompendium/organizational-defense/32-internal-investigation/)
-- [Právní podpora v krizi](/kompendium/organizational-defense/33-legal-counsel-engagement/)
-- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
-- [Mandát etického ředitele](/kompendium/organizational-defense/7-ethics-officer-mandate/)
-- [Cykly revize politik](/kompendium/organizational-defense/8-policy-review-cycles/)
-- [Ochrana akcionářů](/kompendium/organizational-defense/9-shareholder-protection/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
+- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
+- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
+- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Trauma-informed training, peer support groups, paced return-to-normal, recogniti
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

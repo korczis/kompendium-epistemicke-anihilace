@@ -43,10 +43,10 @@ rozhodovacího procesu a posiluje robustnost.
 
 ## Cross-linky
 
-- [Základní kategorie útoků](/kompendium/03-zakladni-kategorie/)
-- [Detekční signatury](/kompendium/detection-signatures/)
-- [Recovery protokoly](/kompendium/recovery-protocols/)
-- [Glossary](/glossary/)
+- [Základní kategorie útoků](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Detekční signatury](@/kompendium/detection-signatures/_index.md)
+- [Recovery protokoly](@/kompendium/recovery-protocols/_index.md)
+- [Glossary](@/glossary/_index.md)
 
 ## Connect
 

@@ -45,13 +45,13 @@ Exit byl iniciovan zranenim, ktere vyrazilo subjekt z aktivni kariery v 30 letec
 
 V tomto pripadu byly identifikovany nasledujici EA kody:
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — trener jako absolutni epistemicka autorita
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z neuspesnosti = strach ze ztraty hodnoty
-- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — autorita trenera nezpochybnitelná diky reputaci
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — alternativni zivotni drahy filtrovany jako "ne pro vyjimecne"
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — neexistence ne-sportovni identity
-- [EA-1.3.3 Tematicka diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) — somaticke symptomy preramovany jako "boj"
-- [EA-5.1.4 Semanticka imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/) — slovo "selhani" zatizene existencialni vahou
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — trener jako absolutni epistemicka autorita
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z neuspesnosti = strach ze ztraty hodnoty
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — autorita trenera nezpochybnitelná diky reputaci
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — alternativni zivotni drahy filtrovany jako "ne pro vyjimecne"
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — neexistence ne-sportovni identity
+- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — somaticke symptomy preramovany jako "boj"
+- [EA-5.1.4 Semanticka imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) — slovo "selhani" zatizene existencialni vahou
 
 Specifikum elitniho sportu: trenink-vykon vztah je legitimne narocny. Diferenciace zdravoho narocneho sportu od totalizace vyzaduje pozornost na celozivotni rezilienci sportovce, nikoliv pouze na medaile.
 
@@ -59,17 +59,17 @@ Specifikum elitniho sportu: trenink-vykon vztah je legitimne narocny. Diferencia
 
 V terapii subjekt popisoval: "Po zraneni jsem nebyla nikdo. Doslova nikdo. Kdyz jsem nemohla trenovat, nevedela jsem, co mam delat s casem. Co je rano, kdyz neni trenink? Kdo jsem, kdyz neni vykon? Cely den jsem se kouala na strop a nebyla jsem si jista, ze ja jsem ja."
 
-Tento popis odpovida kompletni [identitni dezintegraci](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — subjekt nedisponoval zadnym referencnim ramcem mimo sportovni vykon. Soucasne [epistemicka alienace](/glossary/epistemicka-alienace/) — neschopnost interpretovat realitu mimo metaforicky a slovni rejstrik trenera.
+Tento popis odpovida kompletni [identitni dezintegraci](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — subjekt nedisponoval zadnym referencnim ramcem mimo sportovni vykon. Soucasne [epistemicka alienace](@/glossary/epistemicka-alienace.md) — neschopnost interpretovat realitu mimo metaforicky a slovni rejstrik trenera.
 
 V pozdejsi fazi: "Nejtezsi bylo prijmout, ze trener mi nepomohl. Ze on me uspechal. Ze jsem byla pro nej projekt, ne osoba. A ze on me opustil v moment, kdy uz jsem nemohla vyhravat."
 
 ## Detekcni bod
 
-Suicidalni krize 14 mesicu po zraneni. Hospitalizace iniciovana intervenci byvale spoluhracky. Klicovy moment: psycholog s sportovni psychologickou expertizou identifikoval [c-PTSD](/glossary/c-ptsd/) s eating disorder a problematickou attachment k autorita-figuram, ne klasicky athlete burnout.
+Suicidalni krize 14 mesicu po zraneni. Hospitalizace iniciovana intervenci byvale spoluhracky. Klicovy moment: psycholog s sportovni psychologickou expertizou identifikoval [c-PTSD](@/glossary/c-ptsd.md) s eating disorder a problematickou attachment k autorita-figuram, ne klasicky athlete burnout.
 
 ## Intervencni strategie
 
-Aplikovany protokol [epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/):
+Aplikovany protokol [epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
 
 **S1 - Stabilizace:** Hospitalizace, eating disorder treatment, krize intervence.
 
@@ -87,15 +87,15 @@ Po 30 mesicich strukturovane terapie dosahla subjekt funkcni stabilizace. Rezidu
 
 ## Klinicke pouceni
 
-Elitni sportovni totalizace ukazuje, jak legitimni vykonovy ramec muze byt instrumentalizovan jako koerce. Klicovy diagnosticky moment: stav sportovce po ukonceni aktivni kariery. Vsichni elitni sportovci jsou rizikovou skupinou, ale prevalence c-PTSD je v sub-populaci s autoritarnimi trenery vyrazne vyssi. Klinik musi rozpoznat, ze "athlete burnout" v elitnim kontextu casto maskuje hluboky [epistemicke trauma](/glossary/epistemicke-trauma/) s identitni dezintegraci. Reformni implikace: junior programy potrebuji systematicky podporit ne-sportovni identitu sportovce.
+Elitni sportovni totalizace ukazuje, jak legitimni vykonovy ramec muze byt instrumentalizovan jako koerce. Klicovy diagnosticky moment: stav sportovce po ukonceni aktivni kariery. Vsichni elitni sportovci jsou rizikovou skupinou, ale prevalence c-PTSD je v sub-populaci s autoritarnimi trenery vyrazne vyssi. Klinik musi rozpoznat, ze "athlete burnout" v elitnim kontextu casto maskuje hluboky [epistemicke trauma](@/glossary/epistemicke-trauma.md) s identitni dezintegraci. Reformni implikace: junior programy potrebuji systematicky podporit ne-sportovni identitu sportovce.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/), [epistemicka-alienace](/glossary/epistemicka-alienace/)
-- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-2.1.3](/kompendium/techniques/ea-2-1-3-credentialing-attack/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/), [EA-5.1.4](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md)
+- **Techniques**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md), [EA-5.1.4](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

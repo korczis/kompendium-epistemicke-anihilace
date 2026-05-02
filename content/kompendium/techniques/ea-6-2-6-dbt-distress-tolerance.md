@@ -32,7 +32,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
-| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice
 
@@ -239,7 +239,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Komplementární k [EA-6.2.7 mindfulness](/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma/), připravuje [EA-6.3.1 stabilizační fázi](/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol/), integrovatelná s [EA-6.5.1 akutní krize protokol](/kompendium/techniques/ea-6-5-1-akutni-krize-protokol/).
+Komplementární k [EA-6.2.7 mindfulness](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md), připravuje [EA-6.3.1 stabilizační fázi](@/kompendium/techniques/ea-6-3-1-stabilizacni-faze-protokol.md), integrovatelná s [EA-6.5.1 akutní krize protokol](@/kompendium/techniques/ea-6-5-1-akutni-krize-protokol.md).
 
 ## Vztah k Prismatic platformě
 
@@ -254,33 +254,33 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Sesterské techniky (6.2 Terapeutické intervence)
 
-- [EA-6.2.1 Trauma-focused CBT protokol](/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol/)
-- [EA-6.2.2 EMDR protokol](/kompendium/techniques/ea-6-2-2-emdr-protokol/)
-- [EA-6.2.3 IFS — Internal Family Systems](/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems/)
-- [EA-6.2.4 Metacognitive therapy protokol](/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol/)
-- [EA-6.2.5 Narrative therapy protokol](/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol/)
-- [EA-6.2.7 Mindfulness-based trauma intervention](/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma/)
-- [EA-6.2.8 Somatic experiencing protokol](/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol/)
-- [EA-6.2.9 Body-oriented therapy protokol](/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol/)
-- [EA-6.2.10 Farmakoterapie jako adjuvant](/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant/)
+- [EA-6.2.1 Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md)
+- [EA-6.2.2 EMDR protokol](@/kompendium/techniques/ea-6-2-2-emdr-protokol.md)
+- [EA-6.2.3 IFS — Internal Family Systems](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md)
+- [EA-6.2.4 Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md)
+- [EA-6.2.5 Narrative therapy protokol](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md)
+- [EA-6.2.7 Mindfulness-based trauma intervention](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md)
+- [EA-6.2.8 Somatic experiencing protokol](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md)
+- [EA-6.2.9 Body-oriented therapy protokol](@/kompendium/techniques/ea-6-2-9-body-oriented-therapy-protokol.md)
+- [EA-6.2.10 Farmakoterapie jako adjuvant](@/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant.md)
 
 ### Rodičovská kapitola
 
-- [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
 ### Glosář
 
-- [c-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Epistemická trauma](/glossary/epistemicke-trauma/)
-- [Gaslighting](/glossary/gaslighting/)
-- [Iatrogenní harm](/glossary/iatrogenic-harm/)
-- [Disociace](/glossary/disociace/)
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/)
+- [c-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Epistemická trauma](@/glossary/epistemicke-trauma.md)
+- [Gaslighting](@/glossary/gaslighting.md)
+- [Iatrogenní harm](@/glossary/iatrogenic-harm.md)
+- [Disociace](@/glossary/disociace.md)
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md)
 
 ### Prismatic platforma
 
 - [Prismatic Nabla](/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
 - [OSINT toolbox](/osint/toolbox/) — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
 - [Decision Engine](/hub/dd/decisions/) — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](/academy/) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci

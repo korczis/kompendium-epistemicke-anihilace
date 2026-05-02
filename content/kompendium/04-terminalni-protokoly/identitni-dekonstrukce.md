@@ -19,13 +19,13 @@ status = "publikovano"
 
 # Identitní dekonstrukce
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie analyzuje terminální protokol cílený na **strukturu narativní identity** subjektu. Patří mezi nejnebezpečnější protokoly v taxonomii — produkuje hluboké, často protrahované klinické následky a strukturálně směřuje k [ontologické anihilaci](/glossary/ontologicka-anihilace/). Materiál zachovává princip strategické neúplnosti.
+> ⚠️ **L2 — Analytické porozumění.** Tato studie analyzuje terminální protokol cílený na **strukturu narativní identity** subjektu. Patří mezi nejnebezpečnější protokoly v taxonomii — produkuje hluboké, často protrahované klinické následky a strukturálně směřuje k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md). Materiál zachovává princip strategické neúplnosti.
 
 ## Pozice protokolu v taxonomii
 
-Identitní dekonstrukce je terminální protokol, jehož cílem je **systematické rozložení narativní struktury sebe-pojetí** subjektu. Zatímco [konceptuální dekonstrukce](/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce/) cílí na pojmový aparát, kterým subjekt organizuje *zkušenost*, identitní dekonstrukce cílí na pojmový aparát, kterým subjekt organizuje *sebe sama* — kontinuitu, autorství, příslušnost a zodpovědnost.
+Identitní dekonstrukce je terminální protokol, jehož cílem je **systematické rozložení narativní struktury sebe-pojetí** subjektu. Zatímco [konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md) cílí na pojmový aparát, kterým subjekt organizuje *zkušenost*, identitní dekonstrukce cílí na pojmový aparát, kterým subjekt organizuje *sebe sama* — kontinuitu, autorství, příslušnost a zodpovědnost.
 
-Protokol tvoří most mezi [epistemickou anihilací](/glossary/epistemicka-anihilace/) a [ontologickou anihilací](/glossary/ontologicka-anihilace/). Zatímco první cílí na to, *co* subjekt ví, identitní dekonstrukce cílí na to, *kdo* subjekt je v aktu vědění. V terminologii [taxonomie EA](/glossary/taxonomie-ea/) jde o protokol třídy *self-systemic disintegration*.
+Protokol tvoří most mezi [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) a [ontologickou anihilací](@/glossary/ontologicka-anihilace.md). Zatímco první cílí na to, *co* subjekt ví, identitní dekonstrukce cílí na to, *kdo* subjekt je v aktu vědění. V terminologii [taxonomie EA](@/glossary/taxonomie-ea.md) jde o protokol třídy *self-systemic disintegration*.
 
 ## Tři vrstvy narativní identity, které protokol cílí
 
@@ -65,7 +65,7 @@ S oslabeným synchronním role-setem je atakována diachronní vrstva — autobi
 
 - **Selektivní reinterpretace** — vybrané životní události jsou opakovaně přerámcovány v destruktivním klíči ("ve skutečnosti to znamenalo, že...").
 - **Kontradiktorní svědectví** — třetí osoby přinášejí svědectví neslučitelné s vlastní vzpomínkou subjektu.
-- **Forced confabulation** — subjekt je doveden k vyplňování vzpomínkových mezer, přičemž vyplnění je následně traktováno jako pravdivá vzpomínka — strukturálně blízké formám [gaslightingu](/glossary/gaslighting/) a induced false memory.
+- **Forced confabulation** — subjekt je doveden k vyplňování vzpomínkových mezer, přičemž vyplnění je následně traktováno jako pravdivá vzpomínka — strukturálně blízké formám [gaslightingu](@/glossary/gaslighting.md) a induced false memory.
 - **Symbolický předěl** — subjektu je předložen symbolický akt, kterým se "rozchází se starou identitou" (rituální gesto, prohlášení, deník).
 
 V této fázi subjekt typicky vstupuje do stavu, ve kterém **autobiografická kontinuita je pociťována jako napadnutelná** — vzpomínky se zdají pochybné, méně reálné, méně "vlastní" než externí svědectví.
@@ -76,7 +76,7 @@ Při dostatečně narušených synchronních a diachronních vrstvách subjekt v
 
 - depersonalizace ("nejsem si jistý, jestli to dělám já"),
 - derealizace ("nejsem si jistý, jestli je toto skutečné"),
-- ztráta self-correctingu ([kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)),
+- ztráta self-correctingu ([kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)),
 - akceptace externí autority pro definici Já,
 - často: somatický kolaps nebo akutní disociace.
 
@@ -84,7 +84,7 @@ Reflexivní kolaps je analytickým srdcem identitní dekonstrukce. Bez něj zůs
 
 ### Fáze I5 — instalace alternativní identity
 
-V terminální fázi destruktivního protokolu je instalována alternativní identita, strukturovaná podle cílů operátora. Klíčový marker: nová identita je předkládána s autoritativní jistotou v kontrastu s předchozí dezintegrací; subjekt ji přijímá s pocitem úlevy. V legitimních (klinických) variantách tato fáze chybí; subjekt je veden k vlastní rekonstituci viz [Kontrolovaná rekonstituce](/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce/).
+V terminální fázi destruktivního protokolu je instalována alternativní identita, strukturovaná podle cílů operátora. Klíčový marker: nová identita je předkládána s autoritativní jistotou v kontrastu s předchozí dezintegrací; subjekt ji přijímá s pocitem úlevy. V legitimních (klinických) variantách tato fáze chybí; subjekt je veden k vlastní rekonstituci viz [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md).
 
 ## Strukturální analogie a srovnání
 
@@ -117,7 +117,7 @@ Tato srovnávací matice ilustruje, že identitní dekonstrukce je strukturáln�
 
 ## Klinické následky
 
-Klinická literatura — viz [Sekce 06](/kompendium/06-klinicke-aplikace/) — dokumentuje typický postexpoziční profil:
+Klinická literatura — viz [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md) — dokumentuje typický postexpoziční profil:
 
 | Doména | Typický klinický nález |
 |--------|------------------------|
@@ -132,7 +132,7 @@ Specifická klinická intervence vyžaduje pomalé, neinvazivní obnovení autob
 
 ## Detekce
 
-Z perspektivy [Color Teams](/glossary/color-teams/) a [Decision Engine](/hub/dd/decisions/) jsou relevantní detekční markery:
+Z perspektivy [Color Teams](@/glossary/color-teams.md) a [Decision Engine](/hub/dd/decisions/) jsou relevantní detekční markery:
 
 1. **Rituální separace** od původního prostředí (často s vlastní nomenklaturou).
 2. **Symbolický předěl** v autobiografii subjektu (datum / událost přerodu).
@@ -148,22 +148,22 @@ Při detekci pravděpodobného aktivního protokolu je etická povinnost klinick
 - **Princip rekonstruktivní analýzy** — preferuje historické a klinické případy před experimentálním studiem.
 - **Princip ochrany subjektu** — pokud výzkum identifikuje žijícího subjektu pravděpodobně vystaveného protokolu, povinnost klinické notifikace převažuje.
 - **Princip strategické neúplnosti** — výzkumník nepublikuje konkrétní sekvence, které by tvořily implementační šablonu.
-- **Princip dual-use vědomí** — viz [glosář dual-use poznání](/glossary/dual-use-poznani/).
+- **Princip dual-use vědomí** — viz [glosář dual-use poznání](@/glossary/dual-use-poznani.md).
 
 ## Související materiály
 
-- [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
-- [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
-- [Ultimátní výcvikový scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/)
-- [Konceptuální dekonstrukce](/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce/)
-- [Institucionální anihilace](/kompendium/04-terminalni-protokoly/institucionalni-anihilace/)
-- [Kontrolovaná rekonstituce](/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce/)
-- [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/)
-- [Sekce 05: Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/) · [Kognitivní anihilace](/glossary/kognitivni-anihilace/) · [Ontologická anihilace](/glossary/ontologicka-anihilace/) · [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) · [Anankastický režim](/glossary/anankasticky-rezim/) · [Epistemická alienace](/glossary/epistemicka-alienace/) · [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) · [Taxonomie EA](/glossary/taxonomie-ea/) · [Dual-use poznání](/glossary/dual-use-poznani/) · [Epistemické trauma](/glossary/epistemicke-trauma/) · [Gaslighting](/glossary/gaslighting/) · [Delegitimizace](/glossary/delegitimizace/)
-- Filozofie: [Intelektuální suverenita](/philosophy/intellectual-sovereignty/) · [Epistemická integrita](/philosophy/epistemic-integrity/) · [Boundary ethics](/philosophy/boundary-ethics/)
-- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](/glossary/nabla-infinity/) · [Color Teams](/glossary/color-teams/)
+- [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
+- [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
+- [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)
+- [Konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md)
+- [Institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)
+- [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)
+- [Sekce 03: Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
+- Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
+- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -171,16 +171,16 @@ Při detekci pravděpodobného aktivního protokolu je etická povinnost klinick
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -189,4 +189,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

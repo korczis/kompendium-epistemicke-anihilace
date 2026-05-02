@@ -66,7 +66,7 @@ Pro EA má phenomenal overflow **specifický význam**:
 
 ## 4. Naturalistický dualismus
 
-Blockova metafyzická pozice je **strukturálně blízká** Chalmersovu vlastnostnímu dualismu ([viz 7.37](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)) — P-consciousness je **strukturálně neredukovatelné** na funkcionální popis.
+Blockova metafyzická pozice je **strukturálně blízká** Chalmersovu vlastnostnímu dualismu ([viz 7.37](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)) — P-consciousness je **strukturálně neredukovatelné** na funkcionální popis.
 
 Block však **odbočuje** od Chalmerse:
 
@@ -97,7 +97,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Diferenciální klinická diagnostika**: které dimenze pacient ztratil — P, A, nebo obě?
 - **Phenomenal overflow jako klinický cíl**: pacient se učí **vnímat** vlastní fenomenální bohatost.
@@ -120,15 +120,15 @@ Blockova distinkce má politické implications:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.35 Dennett: Intentional Stance](/kompendium/07-teoreticke-reflexe/dennett-intentional-stance/)
-- [7.36 Searle: Chinese Room](/kompendium/07-teoreticke-reflexe/searle-chinese-room/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.39 Tononi: IIT](/kompendium/07-teoreticke-reflexe/tononi-iit/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+- [7.36 Searle: Chinese Room](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.39 Tononi: IIT](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -137,4 +137,4 @@ Blockova distinkce má politické implications:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

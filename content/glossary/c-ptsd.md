@@ -32,25 +32,25 @@ Herman's clinical observation, since validated across decades of research, is th
 C-PTSD is the **predictable downstream outcome** of sustained exposure to the techniques catalogued in the Kompendium. The DSO cluster is, in epistemic terms, a description of what survives an extended epistemic annihilation campaign:
 
 - **Negative self-concept** corresponds directly to internalized **EA-1.3.2 (autoamplification)** — the victim's epistemic apparatus, having been progressively corrupted, now generates self-attacking beliefs autonomously.
-- **Affective dysregulation** is the somatic signature of [metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — when reflective evaluation is disabled, affect can no longer be modulated by accurate self-narrative.
-- **Disturbances in relationships** are the rational behavioral output of [betrayal trauma](/glossary/betrayal-trauma/): the survivor's attachment system has been weaponized.
+- **Affective dysregulation** is the somatic signature of [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — when reflective evaluation is disabled, affect can no longer be modulated by accurate self-narrative.
+- **Disturbances in relationships** are the rational behavioral output of [betrayal trauma](@/glossary/betrayal-trauma.md): the survivor's attachment system has been weaponized.
 
 Within the Prismatic Platform:
 
-- The kompendium at [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) explicitly anchors the epistemic-annihilation framework in the C-PTSD literature, making the taxonomy clinically actionable for trauma-informed practitioners.
+- The kompendium at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) explicitly anchors the epistemic-annihilation framework in the C-PTSD literature, making the taxonomy clinically actionable for trauma-informed practitioners.
 - The [Decision Engine](/hub/dd/decisions/) treatment of testimony from C-PTSD survivors incorporates **calibration-aware** weighting: such testimony is **not less reliable** in content, but its presentation (fragmented, affect-laden, non-linear) requires different epistemic processing.
-- Kompendium [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) treats C-PTSD as evidence that epistemic harm is **biologically and developmentally real** — not merely a philosophical construct.
+- Kompendium [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats C-PTSD as evidence that epistemic harm is **biologically and developmentally real** — not merely a philosophical construct.
 
 ## See Also
 
-- [Betrayal Trauma](/glossary/betrayal-trauma/) — Mechanistic precursor to C-PTSD
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Causal pathway
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Reflective-awareness disabling
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Self-cognitive estrangement
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process counterpart
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Klinické aplikace](/kompendium/06-klinicke-aplikace/) — Trauma-informed clinical use
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Betrayal Trauma](@/glossary/betrayal-trauma.md) — Mechanistic precursor to C-PTSD
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Causal pathway
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-awareness disabling
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-cognitive estrangement
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — Trauma-informed clinical use
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -59,4 +59,4 @@ Within the Prismatic Platform:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

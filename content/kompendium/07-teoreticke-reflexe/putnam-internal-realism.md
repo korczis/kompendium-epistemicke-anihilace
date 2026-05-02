@@ -38,7 +38,7 @@ Putnamův pozdní stav (1981–1990): **vnitřní realismus** — pozice **mezi*
 Vnitřní realismus tvrdí:
 
 - **Pravda** je **idealizovaná** racionální přijatelnost
-- **Objekty** existují **uvnitř** pojmového schématu — neexistuje **pohled odnikud** (Nagelův termín, [viz 7.20](/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere/))
+- **Objekty** existují **uvnitř** pojmového schématu — neexistuje **pohled odnikud** (Nagelův termín, [viz 7.20](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md))
 - A přece **realismus**: svět **disciplinuje** myšlení, není redukovatelný na konstrukci
 
 Pro EA z toho plyne:
@@ -69,7 +69,7 @@ Pozdější Putnam tuto pozici **reviduje** — neboť funkcionalistická redukc
 
 Pro EA z toho plyne:
 
-- **AI/ML systémy** ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) operují s **funkcionalistickými** předpoklady — co je **identita** lidského a AI rozhodování?
+- **AI/ML systémy** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) operují s **funkcionalistickými** předpoklady — co je **identita** lidského a AI rozhodování?
 - **Riziko inflace funkcionalismu**: tvrzení "AI rozumí" jsou často založena na příliš **slabém** funkcionalistickém kritériu.
 
 ## 5. Mapping na EA techniky
@@ -84,14 +84,14 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce vnitřně realistické pozice** jako klinický cíl — pacient se učí udržet **disciplínu světa** **bez** naivní jistoty.
 - **Rozpoznání hodnotové dimenze**: pacient se učí **identifikovat** hodnotové předpoklady "faktů", jež mu byly předkládány.
 
 ## 7. Putnamova trajektorie jako filozofická lekce
 
-Putnamova ochota **měnit pozice** pod tlakem argumentů je sama **etickou lekcí** — kontrast vůči **ideologické imunizaci**, jež je strukturálně podkladem mnoha EA technik. Putnam je **modelem** filozofické integrity ([viz Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)).
+Putnamova ochota **měnit pozice** pod tlakem argumentů je sama **etickou lekcí** — kontrast vůči **ideologické imunizaci**, jež je strukturálně podkladem mnoha EA technik. Putnam je **modelem** filozofické integrity ([viz Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)).
 
 ## 8. Primární literatura
 
@@ -103,15 +103,15 @@ Putnamova ochota **měnit pozice** pod tlakem argumentů je sama **etickou lekc�
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.20 Nagel: View from Nowhere](/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere/)
-- [7.26 Quine: Web of Belief](/kompendium/07-teoreticke-reflexe/quine-web-of-belief/)
-- [7.28 Rorty: Contingency](/kompendium/07-teoreticke-reflexe/rorty-contingency/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.20 Nagel: View from Nowhere](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)
+- [7.26 Quine: Web of Belief](@/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md)
+- [7.28 Rorty: Contingency](@/kompendium/07-teoreticke-reflexe/rorty-contingency.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -120,4 +120,4 @@ Putnamova ochota **měnit pozice** pod tlakem argumentů je sama **etickou lekc�
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

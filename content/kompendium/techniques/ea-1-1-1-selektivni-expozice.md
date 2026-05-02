@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 (základní) |
 | **Riziková úroveň** | Střední — široce rozšířená, snadno detekovatelná **při povědomí**, obtížně detekovatelná **bez povědomí** |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána a odstraněn zdroj filtrace |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčové pojmenování — **selektivní expozice** vs. *selektivní kurátorství* — záměrně podtrhuje, že ze strany **subjektu** je výsledek prožíván jako **úplná expozice** (pocit informovanosti), zatímco strukturálně jde o **filtraci** předem zorganizovanou jiným aktérem.
 
-Selektivní expozice je **strukturálním předkladem** několika dalších technik (zejména [EA-1.3.1 imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) a [EA-1.3.3 tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)) — bez ní by tyto techniky byly snadno odhalitelné konfrontací s vyloučeným materiálem.
+Selektivní expozice je **strukturálním předkladem** několika dalších technik (zejména [EA-1.3.1 imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.3.3 tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)) — bez ní by tyto techniky byly snadno odhalitelné konfrontací s vyloučeným materiálem.
 
 ## Operační modus
 
@@ -88,7 +88,7 @@ Co prožívá subjekt **uvnitř** selektivní expozice:
 - **Implicitní mapa pole** strukturovaná jako "etablované jádro" (= filtrovaný výběr) versus "okrajové, problematické, non-rigorózní" (= vše ostatní)
 - **Subtilní diskomfort** při konfrontaci s materiálem mimo výběr — diskomfort interpretovaný jako "kvalitativní problém zdroje", nikoli jako vlastní limit
 
-V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) může produkovat **aktivní averzi** vůči externím zdrojům.
+V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **aktivní averzi** vůči externím zdrojům.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -204,15 +204,15 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — filtrovaný výběr používá **specifický slovník**, který činí externí materiál "nepochopitelným" pro filtrovaného subjekta.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci, takže teorii nelze efektivně zpochybnit.
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — když selhává filtrace a externí evidence se prosadí, diverze přesměrovává diskusi pryč od ní.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — filtrovaný výběr používá **specifický slovník**, který činí externí materiál "nepochopitelným" pro filtrovaného subjekta.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci, takže teorii nelze efektivně zpochybnit.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když selhává filtrace a externí evidence se prosadí, diverze přesměrovává diskusi pryč od ní.
 - **EA-1.6.1 Vzorec "Guru a adept"** — filtrace ze strany gurua je strukturálním předpokladem etablování epistemické závislosti.
 
 ### Eskaluje do
 
 - **EA-1.6.2 Vzorec "Epistemický trojský kůň"** — z filtrovaného korpusu lze vybrat validní materiál jako **vehikulum** pro vpašování problematických prvků.
-- **Kolektivní epistemická delegitimizace** ([Scénář F v Kapitole 2](/kompendium/03-zakladni-kategorie/kapitola-2/)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
+- **Kolektivní epistemická delegitimizace** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — selektivní expozice na úrovni komunity vytváří **strukturální zranitelnost** pro další manipulaci.
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -229,20 +229,20 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (subkategorie 1.1):
-  - [EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)
-  - [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
+  - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
+  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -252,10 +252,10 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -267,4 +267,4 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

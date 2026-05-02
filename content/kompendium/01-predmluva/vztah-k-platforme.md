@@ -56,7 +56,7 @@ Decision Engine implementuje **6-stupňovou pipeline**, která přímo odpovíd�
 
 1. **Normalize** — normalizace vstupních dat (analogie k explicitní artikulaci epistemického profilu)
 2. **Signals** — extrakce manipulačních signálů (přímá implementace EA detekčních markerů)
-3. **Sources** — analýza zdrojové diverzity (princip [epistemické triangulace](/kompendium/01-predmluva/jak-pouzivat/))
+3. **Sources** — analýza zdrojové diverzity (princip [epistemické triangulace](@/kompendium/01-predmluva/jak-pouzivat.md))
 4. **Anomalies** — detekce anomálií (operacionalizace fenomenologických signatur)
 5. **Score** — kalkulace risk skóre (kvantifikace rizika manipulace)
 6. **Hypotheses** — generování alternativních hypotéz (princip diferenciální diagnostiky)
@@ -80,11 +80,11 @@ Tato data jsou agregována do kvartálních **Taxonomy Health Reports**, které 
 
 ### Confidence calibration
 
-Decision Engine implementuje [calibration loop](/hub/dd/decisions/calibration), který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](/kompendium/01-predmluva/eticke-aspekty/) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
+Decision Engine implementuje [calibration loop](/hub/dd/decisions/calibration), který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](@/kompendium/01-predmluva/eticke-aspekty.md) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
 
 ## NABLA Infinity (∇∞)
 
-[NABLA Infinity](/glossary/nabla-infinity/) je **epistemický engine** modelující strukturu argumentů na úrovni axiomů, inferencí a meta-inferencí.
+[NABLA Infinity](@/glossary/nabla-infinity.md) je **epistemický engine** modelující strukturu argumentů na úrovni axiomů, inferencí a meta-inferencí.
 
 ### Vztah k taxonomii
 
@@ -94,7 +94,7 @@ NABLA Infinity formalizuje to, co kompendium popisuje narativně:
 - **Inferenční pravidla** — formální zachycení argumentačních kroků
 - **Meta-inference** — reprezentace argumentů o argumentech (úroveň, na které operuje epistemická anihilace)
 
-Mnoho technik kompendia **nelze adekvátně popsat** bez meta-inferenčního aparátu. Příklad: technika [imunizace proti falsifikaci (EA-1.3.1)](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) operuje na meta-úrovni — modifikuje pravidla, podle kterých se hodnotí evidence, nikoli evidenci samotnou. NABLA Infinity poskytuje formalismus pro exaktní zachycení tohoto rozdílu.
+Mnoho technik kompendia **nelze adekvátně popsat** bez meta-inferenčního aparátu. Příklad: technika [imunizace proti falsifikaci (EA-1.3.1)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) operuje na meta-úrovni — modifikuje pravidla, podle kterých se hodnotí evidence, nikoli evidenci samotnou. NABLA Infinity poskytuje formalismus pro exaktní zachycení tohoto rozdílu.
 
 ### Empirická aplikace
 
@@ -109,7 +109,7 @@ Výstupem je strukturovaný popis argumentu, který kompendium využívá k **op
 
 ## OSINT Framework
 
-[OSINT framework](/osint/) Prismatic Platformy poskytuje **128+ self-registering adapterů** pro sběr veřejně dostupných dat z různých zdrojů.
+[OSINT framework](@/osint/_index.md) Prismatic Platformy poskytuje **128+ self-registering adapterů** pro sběr veřejně dostupných dat z různých zdrojů.
 
 ### Role ve vztahu ke kompendiu
 
@@ -128,11 +128,11 @@ Specificky relevantní OSINT moduly:
 
 ### Přínos pro taxonomii
 
-OSINT data umožňují **kalibraci taxonomických tvrzení** proti empirické realitě. Každý scénář v kompendiu (např. [Scénář F](/kompendium/03-zakladni-kategorie/scenar-f/), [G](/kompendium/03-zakladni-kategorie/scenar-g/), [H](/kompendium/03-zakladni-kategorie/scenar-h/)) je validován proti databázi reálných operací. Pokud taxonomický popis systematicky neodpovídá empirickým případům, je revidován.
+OSINT data umožňují **kalibraci taxonomických tvrzení** proti empirické realitě. Každý scénář v kompendiu (např. [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)) je validován proti databázi reálných operací. Pokud taxonomický popis systematicky neodpovídá empirickým případům, je revidován.
 
 ## Color Teams
 
-[Color Teams](/glossary/color-teams/) jsou operační skupiny implementující systematické bezpečnostní protokoly:
+[Color Teams](@/glossary/color-teams.md) jsou operační skupiny implementující systematické bezpečnostní protokoly:
 
 | Team | Funkce | Vztah ke kompendiu |
 |------|--------|---------------------|
@@ -194,7 +194,7 @@ Pro kompendium tato vrstva poskytuje **automatickou detekci** mezer v současné
 Každá interakce s kompendiem skrze platformu je logována. Audit log slouží:
 
 - Bezpečnostnímu monitoringu (analýza anomálního chování)
-- Etickému dohledu (compliance s [bezpečnostní klasifikací](/kompendium/01-predmluva/bezpecnostni-klasifikace/))
+- Etickému dohledu (compliance s [bezpečnostní klasifikací](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md))
 - Vědecké dokumentaci (historie využití taxonomie)
 - Forenzní rekonstrukci (v případě incidentu)
 
@@ -246,29 +246,29 @@ Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
 
 ## Související
 
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Pro koho je určeno](/kompendium/01-predmluva/pro-koho-je-urceno/)
-- [Etické aspekty a upozornění](/kompendium/01-predmluva/eticke-aspekty/)
-- [Jak používat toto kompendium](/kompendium/01-predmluva/jak-pouzivat/)
-- [Bezpečnostní klasifikace přístupu](/kompendium/01-predmluva/bezpecnostni-klasifikace/)
-- [Definice epistemické a kognitivní anihilace](/kompendium/02-uvod/definice/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Sekce 07: Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
+- [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
+- [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
+- [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Decision Engine](/hub/dd/decisions/)
 - [Calibration Dashboard](/hub/dd/decisions/calibration/)
 - [PrismaticDD](/hub/dd/)
-- [OSINT Framework](/osint/)
-- [Glossary: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glossary: Color Teams](/glossary/color-teams/)
-- [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/)
-- [Philosophy: Boundary Ethics](/philosophy/boundary-ethics/)
+- [OSINT Framework](@/osint/_index.md)
+- [Glossary: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glossary: Color Teams](@/glossary/color-teams.md)
+- [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 
 
 ## ⚡ Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/), a víš, **kdy
+[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
@@ -280,4 +280,4 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

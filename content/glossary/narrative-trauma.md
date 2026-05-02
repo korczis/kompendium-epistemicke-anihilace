@@ -31,21 +31,21 @@ For epistemic security, the operational concern is that **narrative trauma creat
 
 ## Context
 
-Within the Prismatic Platform threat model, narrative trauma is recognized as both a **target** of certain EA techniques and a **substrate** that amplifies the impact of others. Techniques that produce narrative trauma directly are catalogued under EA-4.x in the [Kompendium taxonomy](/glossary/taxonomie-ea/) — sustained role inversion, retroactive reinterpretation of shared history, deliberate temporal disorientation. Documentation: [Kompendium → 04-techniky → narrativni-trauma](/kompendium/04-techniky/narrativni-trauma/).
+Within the Prismatic Platform threat model, narrative trauma is recognized as both a **target** of certain EA techniques and a **substrate** that amplifies the impact of others. Techniques that produce narrative trauma directly are catalogued under EA-4.x in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md) — sustained role inversion, retroactive reinterpretation of shared history, deliberate temporal disorientation. Documentation: [Kompendium → 04-techniky → narrativni-trauma](/kompendium/04-techniky/narrativni-trauma/).
 
 Recovery doctrine treats narrative reconstruction as a **structural prerequisite** for any deeper epistemic recovery: damaged calibration cannot be repaired in a subject without a stable narrative platform to repair it from. The recovery sequence — documented at [/kompendium/06-zotaveni/narativ/](/kompendium/06-zotaveni/narativ/) — proceeds: (1) stabilize embodied present; (2) reconstruct *minimal* coherent narrative from verifiable anchors; (3) integrate trauma-content into the narrative without collapsing it; (4) restore projected-future agency.
 
-The platform's [Decision Engine](/hub/dd/decisions/) treats reports of narrative discontinuity (subject cannot give a coherent account of recent months; subject's account of the same period changes substantially across sessions; subject describes their past life as belonging to "a different person") as a high-severity calibration alert. This is connected to the [Epistemicke trauma](/glossary/epistemicke-trauma/) concept and feeds into the recovery-tracking workflow.
+The platform's [Decision Engine](/hub/dd/decisions/) treats reports of narrative discontinuity (subject cannot give a coherent account of recent months; subject's account of the same period changes substantially across sessions; subject describes their past life as belonging to "a different person") as a high-severity calibration alert. This is connected to the [Epistemicke trauma](@/glossary/epistemicke-trauma.md) concept and feeds into the recovery-tracking workflow.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat framework
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process damage
-- [Epistemicke trauma](/glossary/epistemicke-trauma/) — Epistemic-trauma parallel
-- [Lebenswelt](/glossary/lebenswelt/) — Lifeworld grounding for narrative
-- [Metakognice](/glossary/metakognice/) — Reflective monitoring of self-narrative
-- [Embodied Cognition](/glossary/embodied-cognition/) — Somatic ground for narrative integration
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage
+- [Epistemicke trauma](@/glossary/epistemicke-trauma.md) — Epistemic-trauma parallel
+- [Lebenswelt](@/glossary/lebenswelt.md) — Lifeworld grounding for narrative
+- [Metakognice](@/glossary/metakognice.md) — Reflective monitoring of self-narrative
+- [Embodied Cognition](@/glossary/embodied-cognition.md) — Somatic ground for narrative integration
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -54,4 +54,4 @@ The platform's [Decision Engine](/hub/dd/decisions/) treats reports of narrative
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

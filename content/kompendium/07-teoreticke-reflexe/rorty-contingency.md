@@ -18,7 +18,7 @@ toc = true
 
 Richard Rorty (1931–2007) v *Philosophy and the Mirror of Nature* (1979) a zejména v *Contingency, Irony, and Solidarity* (1989) formuluje **neopragmatický antifoundacionalismus**: filozofie přestává hledat **fundamenty** poznání v esenci, pravdě nebo v "Naturé". Filozofie je **kulturně-politickou konverzací**, jejíž hodnota je **performativní**, nikoli **fundacionalistická**.
 
-Pro kompendium EA představuje Rorty **produktivní napětí**: jeho antifoundacionalismus je strukturálně **kompatibilní** s některými foucaultovskými intuicemi ([viz 7.1 §1](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)), ale strukturálně **napadá** normativní fundament kompendia.
+Pro kompendium EA představuje Rorty **produktivní napětí**: jeho antifoundacionalismus je strukturálně **kompatibilní** s některými foucaultovskými intuicemi ([viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)), ale strukturálně **napadá** normativní fundament kompendia.
 
 ## 1. Trojí kontingence
 
@@ -56,7 +56,7 @@ Příběhy o utrpení druhých — od *Chaty strýčka Toma* po *Kotvu z fialov�
 
 Pro EA má sentimentální vzdělávání **specifický význam**:
 
-- **Klinický korelát**: literární a narativní léčba traumatu ([viz Ricoeur, 7.17](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)) má **rortyovský** strukturní fundament.
+- **Klinický korelát**: literární a narativní léčba traumatu ([viz Ricoeur, 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) má **rortyovský** strukturní fundament.
 - **Counter-EA**: vystavení subjektu **narativům druhých** je strukturálním **counter-mechanismem** vůči dehumanizaci.
 - **Algoritmické zúžení kruhu**: filter bubbles strukturálně **zužují** kruh solidarity — opačná tendence vůči Rortyho rozšiřování.
 
@@ -75,7 +75,7 @@ Kompendium absorbuje Rortyho užitečné motivy, ale **odmítá** jeho **silnou*
 
 1. **Klinická realita**: epistemické trauma je **strukturální** klinickou realitou, nikoli **kontingentní** kategorií. Rorty zde **nedostatečně** rozlišuje mezi epistemickou skepsí a klinickou diagnostikou.
 2. **Hodnotová asymetrie**: Rortyho pozice strukturálně **nedoceňuje**, že některé "kontingentní" pozice jsou **eticky nezbytné** — kruté praktiky **nelze** ekvivalovat s normami solidarity.
-3. **Empirická vázanost**: Rorty strukturálně **podceňuje** disciplínu světa — pozice, kterou kompendium řeší skrze **kritický realismus** ([viz 7.7](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)).
+3. **Empirická vázanost**: Rorty strukturálně **podceňuje** disciplínu světa — pozice, kterou kompendium řeší skrze **kritický realismus** ([viz 7.7](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)).
 
 ## 6. Mapping na EA techniky
 
@@ -91,7 +91,7 @@ Kompendium absorbuje Rortyho užitečné motivy, ale **odmítá** jeho **silnou*
 
 - Jak **kombinovat** Rortyho užitečnou kritiku fundacionalismu s **klinicky** a **politicky** silnou pozicí?
 - Lze **algoritmicky** implementovat sentimentální vzdělávání bez manipulativního sklouznutí?
-- Jaký je vztah Rortyho **konverzace** a Habermasovy **ideální komunikační situace** ([viz 7.1 §4.2](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/))?
+- Jaký je vztah Rortyho **konverzace** a Habermasovy **ideální komunikační situace** ([viz 7.1 §4.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md))?
 
 ## 8. Primární literatura
 
@@ -103,15 +103,15 @@ Kompendium absorbuje Rortyho užitečné motivy, ale **odmítá** jeho **silnou*
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [7.27 Putnam: Internal Realism](/kompendium/07-teoreticke-reflexe/putnam-internal-realism/)
-- [7.29 Nagel: View from Nowhere](/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [7.27 Putnam: Internal Realism](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)
+- [7.29 Nagel: View from Nowhere](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -120,4 +120,4 @@ Kompendium absorbuje Rortyho užitečné motivy, ale **odmítá** jeho **silnou*
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

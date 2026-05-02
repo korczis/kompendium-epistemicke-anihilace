@@ -43,19 +43,19 @@ Exit byl iniciovan smrtí blízkého přítele na COVID, ktery byl neočkovan na
 
 ## EA techniky manifestovane
 
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "mass formation" jako pseudo-vědecký termín
-- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — útoky na vědeckou autoritu (WHO, EMA, etc.)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — důkaz mainstreamu = "součást mass formation"
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "kritický myslitel" vs. "ovce"
-- [EA-5.1.18 Solipsisticka dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/) — "jen my vidíme"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické bubliny
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z totalitarní budoucnosti
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "mass formation" jako pseudo-vědecký termín
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — útoky na vědeckou autoritu (WHO, EMA, etc.)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — důkaz mainstreamu = "součást mass formation"
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "kritický myslitel" vs. "ovce"
+- [EA-5.1.18 Solipsisticka dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — "jen my vidíme"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické bubliny
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z totalitarní budoucnosti
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Když Petr zemřel, přišel ke mně jeho syn a řekl 'Tati věřil tobě'. Roky jsem si myslel, že chrání své rozumné myšlení proti masové iracionalitě. A pak jsem zjistil, že 'mass formation' rétorika byla sama formace masy — jenom jiné. A já jsem byl stejně chycen jako ti, koho jsem kritizoval."
 
-Tato narace odpovida [metakognitivni rekonstrukci](/glossary/metakognitivni-destrukce/) skrze konfrontaci s realitou důsledků.
+Tato narace odpovida [metakognitivni rekonstrukci](@/glossary/metakognitivni-destrukce.md) skrze konfrontaci s realitou důsledků.
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Po 30 měsících terapie funkční stabilizace. Restituce vztahů, návrat k u�
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [epistemic-bubble](/glossary/epistemic-bubble/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-2.1.3](/kompendium/techniques/ea-2-1-3-credentialing-attack/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-5.1.18](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-5.1.18](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

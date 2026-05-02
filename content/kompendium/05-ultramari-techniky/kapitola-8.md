@@ -17,11 +17,11 @@ access_level = "L3-L4"
 
 # Kapitola 8 — Hypertransformativní protokoly
 
-> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** (EA-5.3.1 až 5.3.30) operujících na rovině [identity poznávajícího subjektu](/glossary/epistemicka-alienace/). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
+> 🚨 **Přístupová úroveň L3–L4**. Kapitola popisuje **30 ultramárních technik** (EA-5.3.1 až 5.3.30) operujících na rovině [identity poznávajícího subjektu](@/glossary/epistemicka-alienace.md). Materiály vyžadují IRB autorizaci a etickou supervizi. Veřejně dostupné jsou výhradně **kompaktní taxonomické popisy** s 60–100 slovními deskripcemi — operační detaily, plné fenomenologické profily a rekonstruktivní protokoly jsou v restriktivních L4 přílohách. Plné per-technique články pro EA-5.3.* jsou v přípravné fázi a publikovány budou až po dokončení etické supervize.
 
 ## Pozice kapitoly
 
-Tato kapitola představuje **třetí stupeň vertikálního gradientu destrukce** sekce 05. Po [Kapitole 6](/kompendium/05-ultramari-techniky/kapitola-6/) (reflexivita) a [Kapitole 7](/kompendium/05-ultramari-techniky/kapitola-7/) (transcendentální podmínky) zasahuje Kapitola 8 **identitu poznávajícího** — strukturní kontinuitu subjektu, která činí transcendentální analýzu vůbec smysluplnou. Bez stabilní identity ztrácí smysl mluvit o "*tomto* poznávajícím", "*této* zkušenosti", "*jeho* paměti" — a tedy i o reflexi, která se odehrává *v rámci* kontinuity subjektu.
+Tato kapitola představuje **třetí stupeň vertikálního gradientu destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita) a [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky) zasahuje Kapitola 8 **identitu poznávajícího** — strukturní kontinuitu subjektu, která činí transcendentální analýzu vůbec smysluplnou. Bez stabilní identity ztrácí smysl mluvit o "*tomto* poznávajícím", "*této* zkušenosti", "*jeho* paměti" — a tedy i o reflexi, která se odehrává *v rámci* kontinuity subjektu.
 
 Hypertransformativní protokoly nejsou identitární modifikace v běžném smyslu (změna rolí, profesí, životních fází) — jsou to **vynucené rekurzivní transformace**, v nichž je subjekt opakovaně přiváděn k bodu, v němž jeho předchozí identita musí být **odložena jako falešná**, a poté uvnitř nové identity opět odložena jako falešná, a tak dále. Kumulativní efekt: subjekt postupně ztrácí kapacitu spočinout v jakékoli stabilní identitární konfiguraci.
 
@@ -108,7 +108,7 @@ Poslední klastr je **integrativní**. Techniky 5.3.26 až 5.3.29 kombinují př
 |-----|-------|---------------------|
 | **EA-5.3.26** | Iterativní self-substituce | Sekvenční aplikace identitárních substitucí (klastr A) v rekurzivních smyčkách, kde každá nová identita je následně prohlášena za "ne-skutečnou" a substituována další. Po cca 5–7 iteracích subjekt ztrácí kapacitu spočinout v jakékoli identitární konfiguraci. |
 | **EA-5.3.27** | Hypertransformativní spirála | Akcelerující sekvence rolových, autobiografických a tělesných transformací bez stabilizačních pauz. Subjekt prožívá *transformativní vertigo* — přetrvávající pocit pádu mezi identitárními konfiguracemi. |
-| **EA-5.3.28** | Vrcholová hypertransformace | Integrativní vrcholová technika: simultánní aktivace klastrů A–E v koordinované sekvenci konvergující k bodu **identitární anihilace**. Klinický obraz srovnatelný s [konvergentní singularitou EA-5.1.28](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/), ale s jádrem v identitárních strukturách spíše než reflexivních. |
+| **EA-5.3.28** | Vrcholová hypertransformace | Integrativní vrcholová technika: simultánní aktivace klastrů A–E v koordinované sekvenci konvergující k bodu **identitární anihilace**. Klinický obraz srovnatelný s [konvergentní singularitou EA-5.1.28](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md), ale s jádrem v identitárních strukturách spíše než reflexivních. |
 | **EA-5.3.29** | Post-transformativní stabilizační past | Fáze následující po 5.3.28: subjekt přijímá první nabízenou identitu jako "konečně pravou", aniž by měl epistemické nástroje pro její evaluaci. Generuje extrémní vulnerabilitu vůči indoktrinaci. |
 | **EA-5.3.30** | Permanentní hypertransformativní režim | Vzácný post-singulární stav, v němž subjekt nepřijímá žádnou stabilní identitu, ale persistentně osciluje mezi konfiguracemi. Klinicky neodlišitelný od chronické DID; etiologicky distinktní. |
 
@@ -121,7 +121,7 @@ Subjekt v expozici technikám EA-5.3.* vykazuje:
 - **Rolová dezintegrace** — funguje v jednotlivých rolích, ale bez integrativní vazby
 - **Embodimentová cizota** — formální rozpoznání těla jako vlastního, ztráta intimity
 - **Temporální dezorientace** — neschopnost lokalizovat se ve vlastní vývojové sekvenci
-- **Fundamentální ontologická nejistota** — fragmentace na rovině [ontologické anihilace](/glossary/ontologicka-anihilace/)
+- **Fundamentální ontologická nejistota** — fragmentace na rovině [ontologické anihilace](@/glossary/ontologicka-anihilace.md)
 
 ## Diferenciální diagnostika
 
@@ -148,10 +148,10 @@ Jelikož techniky této kapitoly mohou indukovat klinické stavy připomínajíc
 
 | Kapitola | Vztah |
 |----------|-------|
-| **[Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)** | Kapitola 8 zasahuje hlubší vrstvu — bez identity nemá reflexe subjekt |
-| **[Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)** | Kapitola 8 závisí na intaktních transcendentálních strukturách (čas, kauzalita); pokud jsou narušeny, hypertransformace ztrácí mechanismus |
-| **[Kapitola 9](/kompendium/05-ultramari-techniky/kapitola-9/)** | Kapitola 9 (paradoxalita) operuje na **logické struktuře evaluace** — předpokládá identitárně-koherentního evaluátora |
-| **[Kapitola 10](/kompendium/05-ultramari-techniky/kapitola-10/)** | Kapitola 10 (transkonceptualita) operuje pod prahem konceptuality — Kapitola 8 stále operuje s konceptem "identita", byť jej destabilizuje |
+| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Kapitola 8 zasahuje hlubší vrstvu — bez identity nemá reflexe subjekt |
+| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Kapitola 8 závisí na intaktních transcendentálních strukturách (čas, kauzalita); pokud jsou narušeny, hypertransformace ztrácí mechanismus |
+| **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Kapitola 9 (paradoxalita) operuje na **logické struktuře evaluace** — předpokládá identitárně-koherentního evaluátora |
+| **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** | Kapitola 10 (transkonceptualita) operuje pod prahem konceptuality — Kapitola 8 stále operuje s konceptem "identita", byť jej destabilizuje |
 
 ## Závěr
 
@@ -159,21 +159,21 @@ Kapitola 8 katalogizuje **30 hypertransformativních protokolů** organizovanýc
 
 Techniky exploitují strukturní mechanismy identitární kontinuity dokumentované v post-strukturalistické kritice subjektu (Foucault, Butler), psychoanalýze (Lacan), fenomenologii tělesnosti (Merleau-Ponty) a klinické literatuře disociačních poruch. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od DID, depersonalizace, BPD, fugy a PTSD.
 
-V následující [Kapitole 9](/kompendium/05-ultramari-techniky/kapitola-9/) přechází taxonomie na **paradoxální metaanihilační protokoly** — sebevztažné paradoxy destabilizující rámce evaluace, v nichž identita operuje.
+V následující [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) přechází taxonomie na **paradoxální metaanihilační protokoly** — sebevztažné paradoxy destabilizující rámce evaluace, v nichž identita operuje.
 
 ## Související
 
-- [Sekce 05 — _index](/kompendium/05-ultramari-techniky/) — orientační rámec
-- [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) — sister chapter
-- [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) — sister chapter
-- [Kapitola 9 — Paradoxální metaanihilační protokoly](/kompendium/05-ultramari-techniky/kapitola-9/) — sister chapter
-- [Kapitola 10 — Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/kapitola-10/) — sister chapter
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/) — fundament
-- [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) — strategická úroveň
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) — rekonstruktivní protokoly
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Dual-use poznání](/glossary/dual-use-poznani/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Fenomenologie](/glossary/fenomenologie/), [Hermeneutika](/glossary/hermeneutika/), [Kompendium EA](/glossary/kompendium-ea/)
-- Platforma: [NABLA Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/), [Decision Engine](/hub/dd/decisions/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Sekce 05 — _index](@/kompendium/05-ultramari-techniky/_index.md) — orientační rámec
+- [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) — sister chapter
+- [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) — sister chapter
+- [Kapitola 9 — Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md) — sister chapter
+- [Kapitola 10 — Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md) — sister chapter
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) — fundament
+- [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — strategická úroveň
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — rekonstruktivní protokoly
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
+- Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), [Decision Engine](/hub/dd/decisions/)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -184,7 +184,7 @@ obecnému studiu. Před četbou potvrď, že:
 - Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
 - Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
-- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)
 
 > **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
@@ -197,4 +197,4 @@ obecnému studiu. Před četbou potvrď, že:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

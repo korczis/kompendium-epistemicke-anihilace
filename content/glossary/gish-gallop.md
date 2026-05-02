@@ -31,24 +31,24 @@ The technique's effectiveness depends not on persuading the opponent but on the 
 
 ## Context
 
-Within the Prismatic Platform Kompendium, the Gish Gallop is catalogued under **EA-1.1.2 (source delegitimization combined with cognitive-overload exploitation)** — see [/kompendium/techniques/ea-1-1-2/](/kompendium/techniques/ea-1-1-2/). It is the rhetorical-scale analogue of the [Firehose of Falsehood](/glossary/firehose-of-falsehood/) which operates at population scale.
+Within the Prismatic Platform Kompendium, the Gish Gallop is catalogued under **EA-1.1.2 (source delegitimization combined with cognitive-overload exploitation)** — see [/kompendium/techniques/ea-1-1-2/](/kompendium/techniques/ea-1-1-2/). It is the rhetorical-scale analogue of the [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) which operates at population scale.
 
 - The [Decision Engine](/hub/dd/decisions/) implements gallop-resistance through **claim-by-claim accounting**: each input claim is registered, evaluated, and either confirmed or open-flagged; un-evaluated claims do not become provisionally true through unrebutted volume.
-- [NABLA Infinity](/glossary/nabla-infinity/) requires explicit falsifiability tags on claims — a Gish Gallop input characteristically shows high claim density with low individual falsifiability, which the pipeline downweights.
-- [Color Teams](/glossary/color-teams/) Red Team training drills include Gish Gallop scenarios where Blue Team must distinguish productive engagement from format-trap.
-- The [Info-Ops](/glossary/info-ops/), [Epistemic Security](/glossary/epistemic-security/), and [Delegitimizace](/glossary/delegitimizace/) entries provide broader context.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) requires explicit falsifiability tags on claims — a Gish Gallop input characteristically shows high claim density with low individual falsifiability, which the pipeline downweights.
+- [Color Teams](@/glossary/color-teams.md) Red Team training drills include Gish Gallop scenarios where Blue Team must distinguish productive engagement from format-trap.
+- The [Info-Ops](@/glossary/info-ops.md), [Epistemic Security](@/glossary/epistemic-security.md), and [Delegitimizace](@/glossary/delegitimizace.md) entries provide broader context.
 
 Recognizing the Gish Gallop is a **prerequisite epistemic skill** for any platform processing adversarial input — without it, defensive systems can be exhausted by volume alone.
 
 ## See Also
 
-- [Firehose of Falsehood](/glossary/firehose-of-falsehood/) — Population-scale relative
-- [Info-Ops](/glossary/info-ops/) — Broader operational category
-- [Epistemic Security](/glossary/epistemic-security/) — Field-level framing
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [Taxonomie EA](/glossary/taxonomie-ea/) — Catalog including EA-1.1.2
-- [Delegitimizace](/glossary/delegitimizace/) — Adjacent technique family
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Population-scale relative
+- [Info-Ops](@/glossary/info-ops.md) — Broader operational category
+- [Epistemic Security](@/glossary/epistemic-security.md) — Field-level framing
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Catalog including EA-1.1.2
+- [Delegitimizace](@/glossary/delegitimizace.md) — Adjacent technique family
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -57,4 +57,4 @@ Recognizing the Gish Gallop is a **prerequisite epistemic skill** for any platfo
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

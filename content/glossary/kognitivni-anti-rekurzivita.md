@@ -42,23 +42,23 @@ Phenomenologically, subjects in advanced anti-recursivity report:
 
 Anti-recursivity is structurally significant because **most defensive epistemic strategies depend on intact recursion**. Detecting manipulation requires being able to think about how one is thinking. Calibrating uncertainty requires meta-evaluating one's evaluation. Recovering from epistemic damage requires recognizing that one is damaged — itself a recursive operation.
 
-Consequently, techniques that induce anti-recursivity are particularly dangerous: they not only damage the subject directly, they **disable the diagnostic and recovery mechanisms** that would normally counter the damage. Several techniques in the [Kompendium](/kompendium/) are documented inducers:
+Consequently, techniques that induce anti-recursivity are particularly dangerous: they not only damage the subject directly, they **disable the diagnostic and recovery mechanisms** that would normally counter the damage. Several techniques in the [Kompendium](@/kompendium/_index.md) are documented inducers:
 
 - **EA-1.4.2 Latent Emotional Modulation** when sustained over months
 - **EA-1.3.3 Thematic Diversion** applied specifically to self-reflective topics
 - The **"Guru and Adept" pattern** in its consolidation phase, where the mentor reframes any self-reflection as "ego defense"
 
-In Prismatic-relevant applications, anti-recursivity functions as a **systemic vulnerability marker**. The [NABLA Infinity](/glossary/nabla-infinity/) epistemic pipeline includes explicit recursion tests (Levels L10–L13 + Meta) precisely because anti-recursive collapse would undermine all higher-order epistemic operations. The [Decision Engine](/hub/dd/decisions/) treats outputs from sources that show anti-recursive symptoms as having **diminished evidential weight**, regardless of formal source credentials.
+In Prismatic-relevant applications, anti-recursivity functions as a **systemic vulnerability marker**. The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline includes explicit recursion tests (Levels L10–L13 + Meta) precisely because anti-recursive collapse would undermine all higher-order epistemic operations. The [Decision Engine](/hub/dd/decisions/) treats outputs from sources that show anti-recursive symptoms as having **diminished evidential weight**, regardless of formal source credentials.
 
 Therapeutically, recovery from anti-recursivity typically requires **scaffolded re-introduction** of recursive operations through guided meta-cognitive exercises, often beginning with low-stakes domains and gradually expanding to the originally damaged areas. Direct confrontation with recursive prompts in advanced anti-recursivity can be counterproductive — triggering the very avoidance mechanisms the recovery aims to dissolve.
 
 ## See Also
 
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Parent concept
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Closely related, broader scope
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Often co-induced
-- [Anankastický režim](/glossary/anankasticky-rezim/) — Frequently terminates in anti-recursive states
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Parent concept
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Closely related, broader scope
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Often co-induced
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) — Frequently terminates in anti-recursive states
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -67,4 +67,4 @@ Therapeutically, recovery from anti-recursivity typically requires **scaffolded 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

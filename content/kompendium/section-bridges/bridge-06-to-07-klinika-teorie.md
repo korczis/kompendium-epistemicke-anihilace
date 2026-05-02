@@ -51,14 +51,14 @@ Klíčové koncepty: **klinická novost**, **reflexe týmové dynamiky**, **refl
 
 ## 6. Související
 
-- [06 — Klinika](/kompendium/06-klinicke-aplikace/)
-- [07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Case studies](/kompendium/case-studies/)
+- [06 — Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
 - [Nabla framework](/kompendium/glossary-bridges/bridge-nabla/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Quick Reference: Teorie](/kompendium/quick-reference/)
-- [Visualizations](/kompendium/visualizations/)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
+- [Visualizations](@/kompendium/visualizations/_index.md)
 
 ## 7. Meta-poznámka: klinika jako test teorie
 
@@ -71,4 +71,4 @@ Klinika je **konečný test teoretických tvrzení**. Sekce 07 nemůže říkat 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

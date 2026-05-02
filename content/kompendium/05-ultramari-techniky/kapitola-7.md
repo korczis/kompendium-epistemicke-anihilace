@@ -24,7 +24,7 @@ risk_level = "extreme"
 
 ## Pozice kapitoly v taxonomii
 
-Metatranscendentální anihilace (EA-5.2.*) je **druhá podtřída** ultramárních technik. Jestliže [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) (EA-5.1.*) popisuje techniky, které vedou ke kolapsu **obsahových** epistemických struktur (vědění, věřit, pochybovat) skrze rekurzivní imploze, kanibalizace a singulární narativní propady, kapitola 7 se obrací k **podmínkám**, které kterékoli vědění vůbec umožňují — k transcendentálnímu rámci v kantovském smyslu, k apriorním kategoriím, k konstitutivním principům a k samotné struktuře perspektivy.
+Metatranscendentální anihilace (EA-5.2.*) je **druhá podtřída** ultramárních technik. Jestliže [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) (EA-5.1.*) popisuje techniky, které vedou ke kolapsu **obsahových** epistemických struktur (vědění, věřit, pochybovat) skrze rekurzivní imploze, kanibalizace a singulární narativní propady, kapitola 7 se obrací k **podmínkám**, které kterékoli vědění vůbec umožňují — k transcendentálnímu rámci v kantovském smyslu, k apriorním kategoriím, k konstitutivním principům a k samotné struktuře perspektivy.
 
 Termín *metatranscendentální* zde znamená dvojí. Za prvé, techniky neútočí na obsah poznání, ale na **podmínky možnosti** poznání jakéhokoliv obsahu. Za druhé, neútočí pouze na transcendentální struktury jako takové, ale na **subjektovu schopnost rozpoznat**, že nějaké transcendentální struktury vůbec operují — tedy na *meta-úroveň* transcendentální reflexe. Cílem není zpochybnit konkrétní kategorii (kauzalitu, prostor, čas), ale **rozpustit funkci kategorialní organizace** jako takovou.
 
@@ -137,7 +137,7 @@ Terminální stav kapitoly: úplný rozpad meta-reflexivní kapacity. Subjekt ne
 
 ## Etický rámec
 
-Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/) Kompendia. Specificky pro tuto kapitolu platí:
+Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md) Kompendia. Specificky pro tuto kapitolu platí:
 
 - **Žádná z technik nesmí být demonstrována na lidských subjektech**, ani v experimentálním nastavení s informovaným souhlasem — souhlas předpokládá existenci transcendentálních struktur, které by měly být souhlasem chráněny.
 - **Klinické případové studie** jsou anonymizované rekonstrukce z literatury a forenzní praxe; žádná individuálně identifikovatelná data.
@@ -145,19 +145,19 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](/kompendium/0
 
 ## Související
 
-- **Sekce**: [05. Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- **Předchozí kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Sekce**: [05. Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- **Předchozí kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Následující**: Kapitola 8 — Hypertransformativní protokoly
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
 
 ## ⚡ Kritický krok
@@ -168,7 +168,7 @@ obecnému studiu. Před četbou potvrď, že:
 - Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
 - Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
-- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)
 
 > **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
@@ -181,4 +181,4 @@ obecnému studiu. Před četbou potvrď, že:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

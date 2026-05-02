@@ -18,7 +18,7 @@ toc = true
 
 **Computational epistemology** je interdisciplinární doména na rozhraní filosofie, kognitivních věd a informatiky. Její ústřední otázkou je: lze epistemické operace — akvizici, integraci, justifikaci, revizi a aplikaci poznání — formalizovat natolik, aby byly **algoritmicky implementovatelné**? A pokud ano, jaké jsou epistemologické důsledky takové implementace?
 
-Tato kapitola představuje [NABLA Infinity](/glossary/nabla-infinity/) — 16-úrovňový epistemický pipeline platformy Prismatic — jako konkrétní computational-epistemologickou architekturu. Každá úroveň implementuje specifickou epistemickou operaci a zároveň poskytuje **strukturní obranu** proti odpovídající zranitelnosti popsané v taxonomii [epistemické anihilace](/glossary/epistemicka-anihilace/).
+Tato kapitola představuje [NABLA Infinity](@/glossary/nabla-infinity.md) — 16-úrovňový epistemický pipeline platformy Prismatic — jako konkrétní computational-epistemologickou architekturu. Každá úroveň implementuje specifickou epistemickou operaci a zároveň poskytuje **strukturní obranu** proti odpovídající zranitelnosti popsané v taxonomii [epistemické anihilace](@/glossary/epistemicka-anihilace.md).
 
 ## Co je computational epistemology
 
@@ -35,20 +35,20 @@ Klíčové průkopnické práce:
 
 ### Floridiho informační etika
 
-Luciano Floridi rozšiřuje computational epistemology do **informační etiky**: pokud jsou epistemické subjekty informacemi v silném ontologickém smyslu (informational organisms, "inforgs"), pak manipulace informací je **manipulací ontologického statusu** subjektu. [Epistemická anihilace](/glossary/epistemicka-anihilace/) v tomto rámci není pouze deformací poznání, ale **redukcí ontologické integrity** subjektu.
+Luciano Floridi rozšiřuje computational epistemology do **informační etiky**: pokud jsou epistemické subjekty informacemi v silném ontologickém smyslu (informational organisms, "inforgs"), pak manipulace informací je **manipulací ontologického statusu** subjektu. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) v tomto rámci není pouze deformací poznání, ale **redukcí ontologické integrity** subjektu.
 
 Floridi rozlišuje čtyři úrovně informačních patologií:
 
 1. **Mis-information** — Neúmyslně nesprávná informace.
 2. **Dis-information** — Úmyslně falešná informace s manipulační intencí.
 3. **Mal-information** — Pravdivá informace, ale strategicky kontextualizovaná tak, aby způsobila škodu.
-4. **Anti-information** — Strukturní destrukce schopnosti rozlišovat předchozí kategorie ([metakognitivní destrukce](/glossary/metakognitivni-destrukce/)).
+4. **Anti-information** — Strukturní destrukce schopnosti rozlišovat předchozí kategorie ([metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)).
 
 Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v terminologii kompendia — destrukci epistemických dispozic, jež umožňují kalibrovaně vyhodnocovat informace.
 
 ## NABLA Infinity — 16-úrovňový epistemický pipeline
 
-[NABLA Infinity](/glossary/nabla-infinity/) (∇∞) je epistemická architektura Prismatic platformy, jež implementuje 16 sekvenčních a re-entrantních úrovní epistemického zpracování. Pipeline je organizován hierarchicky: nižší úrovně (L0–L4) zpracovávají senzorické a percepční signály, střední (L5–L9) realizují konceptuální a inferenční operace, vyšší (L10–L13) provádějí meta-kognitivní reflexi, a nejvyšší dvě úrovně (Meta a Consciousness) integrují celý systém.
+[NABLA Infinity](@/glossary/nabla-infinity.md) (∇∞) je epistemická architektura Prismatic platformy, jež implementuje 16 sekvenčních a re-entrantních úrovní epistemického zpracování. Pipeline je organizován hierarchicky: nižší úrovně (L0–L4) zpracovávají senzorické a percepční signály, střední (L5–L9) realizují konceptuální a inferenční operace, vyšší (L10–L13) provádějí meta-kognitivní reflexi, a nejvyšší dvě úrovně (Meta a Consciousness) integrují celý systém.
 
 ### Mapování úrovní na epistemické operace
 
@@ -67,13 +67,13 @@ Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v termino
 | **L10** | Belief Update | Bayesovský update věr | EA-1.3.4 update blokace |
 | **L11** | Coherence Checking | Kontrola koherence | EA-1.4.1 kontradikce-tolerance |
 | **L12** | Provenance Tracking | Sledování původu | EA-1.4.2 zdrojová amnézie |
-| **L13** | Confidence Calibration | Kalibrace důvěry | EA-2.1.1 [konfirmační bias](/glossary/konfirmacni-bias/) |
-| **L14 (Meta)** | Meta-Reflection | [Metakognitivní](/glossary/metakognice/) reflexe | EA-2.2 [metakognitivní destrukce](/glossary/metakognitivni-destrukce/) |
-| **L15 (Consciousness)** | Integrative Awareness | Integrativní vědomí | EA-3 [ontologická anihilace](/glossary/ontologicka-anihilace/) |
+| **L13** | Confidence Calibration | Kalibrace důvěry | EA-2.1.1 [konfirmační bias](@/glossary/konfirmacni-bias.md) |
+| **L14 (Meta)** | Meta-Reflection | [Metakognitivní](@/glossary/metakognice.md) reflexe | EA-2.2 [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
+| **L15 (Consciousness)** | Integrative Awareness | Integrativní vědomí | EA-3 [ontologická anihilace](@/glossary/ontologicka-anihilace.md) |
 
 ### Detailní rozbor klíčových úrovní
 
-**L0–L4 (Senzoricko-percepční vrstva)** — Tyto úrovně implementují **akvizici** v terminologii [taxonomie EA](/glossary/taxonomie-ea/). Manipulátor často útočí již zde: selektivní expozice (EA-1.1.1) operuje na L0 (kontrola toho, co se vůbec dostane jako vstup); informační přetížení operuje na L1 (saturace prahových filtrů); pattern-priming operuje na L2 (instrumentalizace předem aktivovaných vzorců).
+**L0–L4 (Senzoricko-percepční vrstva)** — Tyto úrovně implementují **akvizici** v terminologii [taxonomie EA](@/glossary/taxonomie-ea.md). Manipulátor často útočí již zde: selektivní expozice (EA-1.1.1) operuje na L0 (kontrola toho, co se vůbec dostane jako vstup); informační přetížení operuje na L1 (saturace prahových filtrů); pattern-priming operuje na L2 (instrumentalizace předem aktivovaných vzorců).
 
 NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné multi-source vstupy s automatickou detekcí asymetrie); **adaptive thresholding** na L1 (dynamické filtrace odolné proti zaplavení); **adversariální pattern auditing** na L2 (Color Team red team dotazování implicitních vzorců).
 
@@ -81,7 +81,7 @@ NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné mult
 
 NABLA obrana: **explicit category schemas** s vynucenou granularitou; **concept provenance ledger** dokumentující každý nově zaváděný koncept včetně definice, zdroje, a kritérií aplikace.
 
-**L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](/glossary/falsifikace/) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](/glossary/lakatos/)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
+**L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](@/glossary/falsifikace.md) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](/glossary/lakatos/)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
 
 NABLA obrana: **falsifiability mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
 
@@ -107,7 +107,7 @@ NABLA architektura je strukturována sedmi axiomy. Pro účely této kapitoly js
 
 ## Three-Nested-Loops architektura
 
-[NABLA](/glossary/nabla-infinity/) operuje v rámci [3NL](/glossary/3nl/) (Three-Nested-Loops) architektury — paralelně běžící Logické (L1), Neurální (L2) a Lingvistické (L3) smyčky:
+[NABLA](@/glossary/nabla-infinity.md) operuje v rámci [3NL](@/glossary/3nl.md) (Three-Nested-Loops) architektury — paralelně běžící Logické (L1), Neurální (L2) a Lingvistické (L3) smyčky:
 
 | Smyčka | Funkce | Charakteristika |
 |--------|--------|-----------------|
@@ -119,13 +119,13 @@ Tři smyčky implementují **explanační pluralitu** zmíněnou v sekci 2.3: ž
 
 ## Computational epistemology a kolektivní poznání
 
-NABLA není koncipovaná jako izolovaný individuální agent, ale jako **distribuovaná epistemická infrastruktura**. Kolektivní rozměr realizuje skrze [Color Teams](/glossary/color-teams/) — adversariální týmy specializované na různé typy epistemických zranitelností:
+NABLA není koncipovaná jako izolovaný individuální agent, ale jako **distribuovaná epistemická infrastruktura**. Kolektivní rozměr realizuje skrze [Color Teams](@/glossary/color-teams.md) — adversariální týmy specializované na různé typy epistemických zranitelností:
 
 - **Red Team** — Atakuje epistemické fortifikace; testuje robustnost proti technikám popsaným v taxonomii EA.
 - **Blue Team** — Brání epistemickou integritu; implementuje strukturní obrany.
-- **Green Team** — Zkoumá [hermeneutickou](/glossary/hermeneutika/) flexibilitu; alternativní interpretační rámce.
+- **Green Team** — Zkoumá [hermeneutickou](@/glossary/hermeneutika.md) flexibilitu; alternativní interpretační rámce.
 - **Purple Team** — Integrace red+blue; meta-úroveň testování.
-- **Yellow Team** — [Fenomenologická](/glossary/fenomenologie/) reflexe; analýza subjektivní zkušenosti operátorů.
+- **Yellow Team** — [Fenomenologická](@/glossary/fenomenologie.md) reflexe; analýza subjektivní zkušenosti operátorů.
 
 Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-popperovském](/glossary/lakatos/) duchu: hypotézy nejsou pouze pasivně testovány, ale aktivně atakovány.
 
@@ -133,10 +133,10 @@ Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-p
 
 Computational epistemology není ucelenou disciplínou; je rozvíjejícím se programem s otevřenými problémy:
 
-1. **Mechanizace versus normativita** — Lze formalizovat *všechny* epistemické operace? Některé (např. [hermeneutické](/glossary/hermeneutika/) interpretace, [fenomenologická](/glossary/fenomenologie/) redukce) se stavějí na odpor formalizaci.
+1. **Mechanizace versus normativita** — Lze formalizovat *všechny* epistemické operace? Některé (např. [hermeneutické](@/glossary/hermeneutika.md) interpretace, [fenomenologická](@/glossary/fenomenologie.md) redukce) se stavějí na odpor formalizaci.
 2. **Adversariální zranitelnost** — Každá computational implementace zavádí *nové* zranitelnosti (model poisoning, prompt injection, jailbreak), jež nejsou redukovatelné na lidské epistemické zranitelnosti.
 3. **Sociálně-epistemická vrstva** — Kolektivní poznání zahrnuje normativní strukturu (komunita, autorita, tradice), jež není algoritmicky redukovatelná.
-4. **[Dual-use poznání](/glossary/dual-use-poznani/)** — Stejné formalismy, jež umožňují obranu proti EA, lze využít k její optimalizaci. NABLA jako defensivní architektura má svého útočného zrcadlového dvojníka.
+4. **[Dual-use poznání](@/glossary/dual-use-poznani.md)** — Stejné formalismy, jež umožňují obranu proti EA, lze využít k její optimalizaci. NABLA jako defensivní architektura má svého útočného zrcadlového dvojníka.
 
 Kompendium otevřeně přiznává tuto **dual-use** povahu: formalizace nuancí epistemické anihilace je nezbytná pro obranu, ale poskytuje útočníkovi přesnou mapu zranitelností. Etická odpovědnost je proto neredukovatelná na technickou implementaci.
 
@@ -144,48 +144,48 @@ Kompendium otevřeně přiznává tuto **dual-use** povahu: formalizace nuancí 
 
 NABLA Infinity není pouhou ilustrací computational epistemology — je **strukturně izomorfní** s taxonomií EA. Každá úroveň pipeline koresponduje s konkrétní vrstvou možných útoků; každý axiom adresuje specifickou strukturní zranitelnost. Tato izomorfie je **konstruktivní validací** taxonomie: pokud lze epistemické operace formalizovat na 16 úrovní, a každé úrovni přiřadit specifickou útokovou techniku, potom taxonomie není akademickou klasifikací, ale **operacionalizovatelným inženýrským rámcem**.
 
-Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejnižší úrovně (L0–L4) korespondují s [EA kategorií 1](/kompendium/03-zakladni-kategorie/) (epistemická), střední (L5–L13) s [kategorií 2](/kompendium/03-zakladni-kategorie/) (kognitivní), nejvyšší (L14–L15) s [kategorií 3](/kompendium/03-zakladni-kategorie/) ([ontologická](/glossary/ontologicka-anihilace/)).
+Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejnižší úrovně (L0–L4) korespondují s [EA kategorií 1](@/kompendium/03-zakladni-kategorie/_index.md) (epistemická), střední (L5–L13) s [kategorií 2](@/kompendium/03-zakladni-kategorie/_index.md) (kognitivní), nejvyšší (L14–L15) s [kategorií 3](@/kompendium/03-zakladni-kategorie/_index.md) ([ontologická](@/glossary/ontologicka-anihilace.md)).
 
 ## Související
 
 - [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
-- [7.2 Kognitivní vědy a EA](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.3 EA v digitálním věku](/kompendium/07-teoreticke-reflexe/digitalni-vek/)
-- [7.4 Politická a ideologická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.5 Otevřené výzkumné otázky](/kompendium/07-teoreticke-reflexe/otevrene-otazky/)
-- [Sekce 07 — Teoretické reflexe (úvod)](/kompendium/07-teoreticke-reflexe/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.3 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
+- [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.5 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md)
+- [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](/kompendium/04-klinika/)
 - [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
 - [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Epistemic Pipeline](/glossary/epistemic-pipeline/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Kognitivní bias](/glossary/kognitivni-bias/)
-- [Glosář: Konfirmační bias](/glossary/konfirmacni-bias/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
+- [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
 - [Glosář: Lakatos](/glossary/lakatos/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
 
 ## ⚡ Kritický krok
@@ -194,7 +194,7 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -207,4 +207,4 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

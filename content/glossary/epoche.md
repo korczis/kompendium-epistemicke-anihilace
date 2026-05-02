@@ -35,21 +35,21 @@ The Kompendium treats epoché as **both target and defense**. As target: certain
 
 Specifically:
 
-- The kompendium at [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) catalogues phenomenologically-informed therapeutic interventions that teach survivors a clinical analogue of epoché: "what is happening in my experience right now, before I name it, before I evaluate it?" — a structural defense against [metakognitivní destrukce](/glossary/metakognitivni-destrukce/).
+- The kompendium at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) catalogues phenomenologically-informed therapeutic interventions that teach survivors a clinical analogue of epoché: "what is happening in my experience right now, before I name it, before I evaluate it?" — a structural defense against [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md).
 - Epoché serves as a counter-technique to **EA-2.x metakognitivní attacks** that target the victim's capacity for self-reflection: by making the bracketing operation explicit, methodical, and rule-governed, the epoché restores a stable reflective vantage point.
-- The [NABLA Infinity](/glossary/nabla-infinity/) epistemic pipeline implements an **architectural epoché**: each pipeline level explicitly tracks the difference between *what the input claims* and *how the input is presenting itself*, refusing to collapse the two without warrant.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) treats Husserlian phenomenology as one of three theoretical foundations (with predictive processing and critical theory) for understanding the structure of epistemic harm.
+- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements an **architectural epoché**: each pipeline level explicitly tracks the difference between *what the input claims* and *how the input is presenting itself*, refusing to collapse the two without warrant.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Husserlian phenomenology as one of three theoretical foundations (with predictive processing and critical theory) for understanding the structure of epistemic harm.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon defended against
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Reflective-capacity damage
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Self-cognitive estrangement
-- [Predictive Processing](/glossary/predictive-processing/) — Cognitive-science framing
-- [Différance](/glossary/differance/) — Derridean post-phenomenological move
-- [NABLA Infinity](/glossary/nabla-infinity/) — Epistemic framework
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon defended against
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-capacity damage
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-cognitive estrangement
+- [Predictive Processing](@/glossary/predictive-processing.md) — Cognitive-science framing
+- [Différance](@/glossary/differance.md) — Derridean post-phenomenological move
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -58,4 +58,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

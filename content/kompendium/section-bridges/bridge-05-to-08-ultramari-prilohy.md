@@ -51,14 +51,14 @@ Klíčové koncepty: **readiness checklist**, **consent forma**, **companion rol
 
 ## 6. Související
 
-- [05 — Ultramari](/kompendium/05-ultramari-techniky/)
-- [08 — Přílohy](/kompendium/08-prilohy/)
-- [Quick Reference](/kompendium/quick-reference/)
-- [Klinika](/kompendium/06-klinicke-aplikace/)
-- [Case studies](/kompendium/case-studies/)
-- [Visualizations: Form templates](/kompendium/visualizations/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Techniques](/kompendium/techniques/)
+- [05 — Ultramari](@/kompendium/05-ultramari-techniky/_index.md)
+- [08 — Přílohy](@/kompendium/08-prilohy/_index.md)
+- [Quick Reference](@/kompendium/quick-reference/_index.md)
+- [Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [Visualizations: Form templates](@/kompendium/visualizations/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
 
 ## 8. Ultramari operativní balíček
 
@@ -75,4 +75,4 @@ Sedm artefaktů není nadbytečnost — je to **bezpečnostní redundance**. Př
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

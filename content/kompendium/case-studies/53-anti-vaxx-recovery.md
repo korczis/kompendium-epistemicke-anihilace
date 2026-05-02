@@ -43,19 +43,19 @@ Exit byl iniciovan vážným průběhem černého kašle u nejmladšího dítět
 
 ## EA techniky manifestovane
 
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z poškození dítěte
-- [EA-2.1.1 Expertni disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/) — pediatři "jsou v kapse pharma"
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — vědecké studie = "manipulace"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z poškození dítěte
+- [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — pediatři "jsou v kapse pharma"
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — vědecké studie = "manipulace"
 - [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1.1.1-selektivni-expozice/) — FB algoritmus filtrující content
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — online matčí komunity jako kvazi-expertní
-- [EA-1.2.2 Falesna ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) — "moje zkušenost" = "vědecká data"
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — anti-vaxx influenceři jako autority
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — online matčí komunity jako kvazi-expertní
+- [EA-1.2.2 Falesna ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — "moje zkušenost" = "vědecká data"
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — anti-vaxx influenceři jako autority
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "Když syn ležel v nemocnici a doktor mi vysvětloval, že černý kašel byl preventovatelný, neuměla jsem to zařadit. Pět let jsem byla přesvědčená, že vakcíny ublíží. A teď syn skoro umřel z toho, že jsem ho nechala bez ochrany. Nebylo možné to obojí v hlavě udržet."
 
-Tato narace odpovida [betrayal trauma](/glossary/betrayal-trauma/) — důvěra v anti-vaxx komunitu byla zrazena reálnými následky.
+Tato narace odpovida [betrayal trauma](@/glossary/betrayal-trauma.md) — důvěra v anti-vaxx komunitu byla zrazena reálnými následky.
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Anti-vaxx recovery vyžaduje motivacionální pohovor a empatii, ne konfrontaci.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/), [epistemic-bubble](/glossary/epistemic-bubble/)
-- **Techniques**: [EA-2.1.1](/kompendium/techniques/ea-2-1-1-expertni-disinflation/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/), [EA-1.2.2](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
+- **Techniques**: [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md), [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

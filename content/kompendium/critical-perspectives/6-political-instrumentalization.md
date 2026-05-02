@@ -55,23 +55,23 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 ## Cross-linky
 
 - [Reprodukční krize a EA výzkum](/kompendium/critical-perspectives/7-replication-EA-research/)
-- [Teoretický imperialismus — EA jako totalizující rámec](/kompendium/critical-perspectives/8-theoretical-imperialism/)
-- [Esencialistický klam v EA kategoriích](/kompendium/critical-perspectives/9-essentialism-critique/)
-- [Riziko falešně pozitivních detekcí](/kompendium/critical-perspectives/5-false-positive-risk/)
-- [Kruhové uvažování v EA detekci](/kompendium/critical-perspectives/4-circular-reasoning-risk/)
-- [Otázka validity souhlasu v EA výzkumu](/kompendium/critical-perspectives/15-consent-validity-question/)
-- [Kritická psychiatrie](/kompendium/critical-perspectives/25-critical-psychiatry-alternative/)
-- [Coerce léčba a EA framework](/kompendium/critical-perspectives/16-treatment-coercion-risk/)
-- [Mad Studies perspektiva](/kompendium/critical-perspectives/26-mad-studies-perspective/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Teoretický imperialismus — EA jako totalizující rámec](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)
+- [Esencialistický klam v EA kategoriích](@/kompendium/critical-perspectives/9-essentialism-critique.md)
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
+- [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
+- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
+- [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
+- [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

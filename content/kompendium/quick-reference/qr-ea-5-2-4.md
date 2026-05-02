@@ -61,12 +61,12 @@ Apriorní saturace se vyskytuje v "kvantově-vědomých" komunitách, v někter�
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Detailní článek**: [EA-5.2.4 Apriorní saturace](/kompendium/techniques/ea-5-2-4-apriorni-saturace/)
-- **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](/kompendium/quick-reference/qr-ea-5-2-1/), [EA-5.2.3 Noumenální redukce](/kompendium/quick-reference/qr-ea-5-2-3/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
-- **Glossary**: [Apriori](/glossary/apriori/), [Syntetické a analytické](/glossary/synteticke-analyticke/), [Falsifikovatelnost](/glossary/falsifikovatelnost/), [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intentionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Apriorní rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), [Multidisciplinární tým](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
-- **Platforma**: [Decision Engine claim verification](/hub/dd/decisions/), [Color Teams pseudoscience audit](/glossary/color-teams/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Detailní článek**: [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)
+- **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.3 Noumenální redukce](@/kompendium/quick-reference/qr-ea-5-2-3.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
+- **Glossary**: [Apriori](/glossary/apriori/), [Syntetické a analytické](/glossary/synteticke-analyticke/), [Falsifikovatelnost](/glossary/falsifikovatelnost/), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Apriorní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+- **Platforma**: [Decision Engine claim verification](/hub/dd/decisions/), [Color Teams pseudoscience audit](@/glossary/color-teams.md)
 
 ---
 

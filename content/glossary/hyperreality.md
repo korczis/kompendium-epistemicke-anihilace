@@ -38,24 +38,24 @@ Hyperreality is not the *content* of any particular falsehood; it is a **structu
 
 Within the Prismatic Platform, hyperreality functions as a **theoretical horizon** for understanding the limit-case of epistemic annihilation: not the destruction of any specific belief, but the destruction of the very *possibility of grounded reference*.
 
-- The Kompendium's [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) chapter explicitly engages Baudrillard's framework to discuss what it calls **ontological annihilation** — a limit-case beyond standard EA where not only individual cognition but the shared reality-anchor itself is dissolved.
-- The [Deepfake](/glossary/deepfake/) entry notes that synthetic-media saturation produces hyperreal conditions almost mechanically: the question "did this happen?" becomes structurally undecidable, and audiences increasingly stop asking it.
+- The Kompendium's [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) chapter explicitly engages Baudrillard's framework to discuss what it calls **ontological annihilation** — a limit-case beyond standard EA where not only individual cognition but the shared reality-anchor itself is dissolved.
+- The [Deepfake](@/glossary/deepfake.md) entry notes that synthetic-media saturation produces hyperreal conditions almost mechanically: the question "did this happen?" becomes structurally undecidable, and audiences increasingly stop asking it.
 - The [Decision Engine](/hub/dd/decisions/) does not attempt to *resolve* hyperreality — that would be philosophically incoherent — but maintains **provenance-anchored chains** that preserve referential traceability even as surrounding content streams become hyperreal. A decision rooted in C2PA-signed source documents retains a reality-anchor that pure aggregation lacks.
-- [NABLA Infinity](/glossary/nabla-infinity/) treats provenance as an axiom: claims without verifiable provenance cannot achieve high confidence regardless of plausibility.
-- [Narrative Identity](/glossary/narrative-identity/) is one of the human-scale capacities most directly threatened by hyperreal conditions — when the surrounding world loses referential coherence, the self-narrative loses the world against which to constitute itself.
-- [Info-Ops](/glossary/info-ops/), [Firehose of Falsehood](/glossary/firehose-of-falsehood/), and [Epistemic Security](/glossary/epistemic-security/) describe the operational pathways by which hyperreal conditions are deliberately produced.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) treats provenance as an axiom: claims without verifiable provenance cannot achieve high confidence regardless of plausibility.
+- [Narrative Identity](@/glossary/narrative-identity.md) is one of the human-scale capacities most directly threatened by hyperreal conditions — when the surrounding world loses referential coherence, the self-narrative loses the world against which to constitute itself.
+- [Info-Ops](@/glossary/info-ops.md), [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), and [Epistemic Security](@/glossary/epistemic-security.md) describe the operational pathways by which hyperreal conditions are deliberately produced.
 
 Hyperreality is the kompendium's **outer-bound theoretical concept**: the condition that EA techniques approach asymptotically when applied at scale, and against which structural epistemic defenses must be designed.
 
 ## See Also
 
-- [Deepfake](/glossary/deepfake/) — Direct material producer of hyperreal conditions
-- [Epistemic Security](/glossary/epistemic-security/) — Structural defense framing
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [Narrative Identity](/glossary/narrative-identity/) — Capacity threatened by hyperreality
-- [Info-Ops](/glossary/info-ops/) — Operational pathway
-- [Firehose of Falsehood](/glossary/firehose-of-falsehood/) — Adjacent technique
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Deepfake](@/glossary/deepfake.md) — Direct material producer of hyperreal conditions
+- [Epistemic Security](@/glossary/epistemic-security.md) — Structural defense framing
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [Narrative Identity](@/glossary/narrative-identity.md) — Capacity threatened by hyperreality
+- [Info-Ops](@/glossary/info-ops.md) — Operational pathway
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Adjacent technique
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -64,4 +64,4 @@ Hyperreality is the kompendium's **outer-bound theoretical concept**: the condit
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

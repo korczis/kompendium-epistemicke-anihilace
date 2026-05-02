@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L4 (ultramarine) |
 | **Riziková úroveň** | Extrémní — produkuje paradigmatickou bezdomovinu s vysokou náchylností k akceptaci jakéhokoli stabilního rámce |
 | **Reverzibilita** | Nízká bez systematické rekonstrukce paradigmatické gramotnosti |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 Klíčový rozdíl proti běžnému intelektuálnímu vývoji spočívá ve **vynucené rychlosti** a **kontrolované sekvenci**: legitimní paradigmatický posun trvá roky a probíhá skrz hlubokou kritickou analýzu; trans-paradigmatická migrace probíhá v týdnech až měsících a každé paradigma je prezentováno jen tak dlouho, aby destabilizovalo to předchozí, nikdy dost dlouho na konsolidaci.
 
-Trans-paradigmatická migrace produkuje **prekursorový stav** pro [EA-5.1.27 meta-epistemickou redukci](/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce/) — paradigmatická bezdomovina je optimální půdou pro akceptaci jediného meta-standardu.
+Trans-paradigmatická migrace produkuje **prekursorový stav** pro [EA-5.1.27 meta-epistemickou redukci](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — paradigmatická bezdomovina je optimální půdou pro akceptaci jediného meta-standardu.
 
 ## Operační modus
 
@@ -170,9 +170,9 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 ### Často se kombinuje s
 
-- **[EA-5.1.25 Singulární narativní kolaps](/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps/)** — narativní monismus se stabilizuje souběžně s paradigmatickým posunem.
-- **[EA-5.1.27 Meta-epistemická redukce](/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce/)** — redukce všech standardů na jeden meta-standard je **typický koncový bod** migrace.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — kontrola informačního přítoku během fáze migrace.
+- **[EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)** — narativní monismus se stabilizuje souběžně s paradigmatickým posunem.
+- **[EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)** — redukce všech standardů na jeden meta-standard je **typický koncový bod** migrace.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — kontrola informačního přítoku během fáze migrace.
 - **EA-1.3.1 Imunizace proti falsifikaci** — finální rámec je strukturně neimunizovatelný proti kritice.
 
 ### Sourozenecké UM techniky
@@ -192,22 +192,22 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky**:
-  - [EA-5.1.25 Singulární narativní kolaps](/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps/)
-  - [EA-5.1.27 Meta-epistemická redukce](/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce/)
+  - [EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)
+  - [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Paradigmatická bezdomovina](/glossary/paradigmaticka-bezdomovina/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -217,10 +217,10 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -232,4 +232,4 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

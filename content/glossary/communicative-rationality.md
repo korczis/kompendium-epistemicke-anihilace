@@ -21,7 +21,7 @@ image_alt = "Communicative Rationality - glossary"
 
 ## Definition
 
-**Communicative rationality** (German: *kommunikative Rationalität*) is the central concept of Jürgen Habermas's *Theory of Communicative Action* (1981) and the linchpin of his entire post-1970s project. Habermas's claim is that the Frankfurt School's pessimistic diagnosis — that reason has terminally collapsed into [instrumental reason](/glossary/instrumental-reason/) — overlooks a different form of rationality already implicit in ordinary linguistic communication oriented toward mutual understanding.
+**Communicative rationality** (German: *kommunikative Rationalität*) is the central concept of Jürgen Habermas's *Theory of Communicative Action* (1981) and the linchpin of his entire post-1970s project. Habermas's claim is that the Frankfurt School's pessimistic diagnosis — that reason has terminally collapsed into [instrumental reason](@/glossary/instrumental-reason.md) — overlooks a different form of rationality already implicit in ordinary linguistic communication oriented toward mutual understanding.
 
 When speakers engage in genuine communication (rather than strategic action — using speech to manipulate hearers toward speaker-internal ends), they implicitly raise three **validity claims** that the hearer can challenge: (1) **truth** — the propositional content corresponds to states of affairs; (2) **rightness** — the speech act is normatively appropriate to the relationship and context; (3) **truthfulness / sincerity** — the speaker means what they say. Communicative action is the form of interaction in which all three claims are open to rational challenge and the only legitimate force is the **force of the better argument**.
 
@@ -36,20 +36,20 @@ Specifically:
 - **EA-1.x cognitive-input techniques** violate the **truth claim** — selective exposure, source poisoning, and information overload all undermine the conditions for shared truth-seeking.
 - **EA-1.2.x delegitimization techniques** violate the **rightness claim** — they deny the speaker the normative status of legitimate participant in discourse.
 - **EA-1.3.x immunization techniques** violate the **sincerity claim** — they preserve appearance of openness to argument while structurally precluding update.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) treats Habermas's framework as the **normative pillar** of the EA taxonomy: it supplies the criterion against which manipulation can be identified as such.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Habermas's framework as the **normative pillar** of the EA taxonomy: it supplies the criterion against which manipulation can be identified as such.
 - The [Decision Engine](/hub/dd/decisions/) is designed to track validity-claim violations as **calibration risk factors** — when an information source systematically violates one or more validity claims, downstream confidence in conclusions drawn from that source is appropriately discounted.
-- The [Color Teams](/glossary/color-teams/) Blue Team practice is explicitly modeled on communicative-action norms: deliberation is conducted under conditions designed to approximate the [Ideal Speech Situation](/glossary/ideal-speech-situation/) as a pragmatic working ideal.
+- The [Color Teams](@/glossary/color-teams.md) Blue Team practice is explicitly modeled on communicative-action norms: deliberation is conducted under conditions designed to approximate the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as a pragmatic working ideal.
 - The kompendium itself, as a published, peer-reviewable, openly contestable taxonomy, performs communicative rationality at the meta-level: it submits its own validity claims to public discursive testing.
 
 ## See Also
 
-- [Ideal Speech Situation](/glossary/ideal-speech-situation/) — Habermas's normative criterion
-- [Instrumental reason](/glossary/instrumental-reason/) — Frankfurt School counterpart
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon diagnosed
-- [Epistemická injustice](/glossary/epistemicka-injustice/) — Fricker's complementary frame
-- [Power-Knowledge](/glossary/power-knowledge/) — Foucauldian counter-frame
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) — Habermas's normative criterion
+- [Instrumental reason](@/glossary/instrumental-reason.md) — Frankfurt School counterpart
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon diagnosed
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Fricker's complementary frame
+- [Power-Knowledge](@/glossary/power-knowledge.md) — Foucauldian counter-frame
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -58,4 +58,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

@@ -21,7 +21,7 @@ phase = "midterm"
 
 ## 1. Cílová populace
 
-Pacienti s atrofií **executive functions** a praktických dovedností — finanční gramotnost (po finančním zneužívání), profesní kompetence (po pracovní izolaci), self-care, řízení domácnosti, navigace byrokratickými systémy. Typické po dlouhodobé [coercive control](/glossary/coercive-control/).
+Pacienti s atrofií **executive functions** a praktických dovedností — finanční gramotnost (po finančním zneužívání), profesní kompetence (po pracovní izolaci), self-care, řízení domácnosti, navigace byrokratickými systémy. Typické po dlouhodobé [coercive control](@/glossary/coercive-control.md).
 
 ## 2. Časový rámec
 
@@ -71,35 +71,35 @@ V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psy
 ## 8. Cross-linky
 
 ### Sesterské protokoly
-- [Středně-dobá vokační integrace](/kompendium/recovery-protocols/midterm-vocational-integration/)
-- [Středně-dobá vzdělávací reintegrace](/kompendium/recovery-protocols/midterm-educational-reintegration/)
-- [Středně-dobá rekonstrukce identity](/kompendium/recovery-protocols/midterm-identity-reconstruction/)
+- [Středně-dobá vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md)
+- [Středně-dobá vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md)
+- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)
 
 ### Klinické články (sekce 06)
-- [Klinické aplikace — index](/kompendium/06-klinicke-aplikace/)
-- [Diagnostické indikátory EA expozice](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [Epistemická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- [Kolektivní intervence](/kompendium/06-klinicke-aplikace/kolektivni-intervence/)
-- [Preventivní strategie](/kompendium/06-klinicke-aplikace/preventivni-strategie/)
+- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
+- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
 
 ### EA techniky a fenomény
-- [Gaslighting (technika)](/glossary/gaslighting/)
+- [Gaslighting (technika)](@/glossary/gaslighting.md)
 - [Pseudoempatická vazba](/glossary/pseudoempaticka-vazba/)
 - [Hermeneutic outsourcing](/glossary/hermeneuticky-outsourcing/)
 - [Identity destruction](/glossary/identity-destruction/)
 
 ### Glosář
-- [C-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Epistemické trauma](/glossary/epistemicke-trauma/)
+- [C-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - [Trauma bonding](/glossary/trauma-bonding/)
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 ### Platformové reference
-- [Kompendium — hlavní index](/kompendium/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Hlavní glosář](/glossary/)
+- [Kompendium — hlavní index](@/kompendium/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Hlavní glosář](@/glossary/_index.md)
 
 ---
 
@@ -108,4 +108,4 @@ V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psy
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

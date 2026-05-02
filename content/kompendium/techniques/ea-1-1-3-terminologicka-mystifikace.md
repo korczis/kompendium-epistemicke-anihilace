@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — pervazivní v akademii a expertních doménách, často strukturálně neintencionální |
 | **Reverzibilita** | Vysoká pro jednorázové incidenty, **nízká** při dlouhodobé internalizaci |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -206,10 +206,10 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 
 ### Často se kombinuje s
 
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — filtrovaný korpus s mystifikační terminologií činí externí materiály **lingvisticky nepřístupné**, posilujíc filtraci.
-- **[EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** — komplexní terminologie znásobuje kognitivní náklad přetížení.
-- **[EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** — autoritativní prosodický signál + mystifikace = inhibovaná epistemická vigilance.
-- **[EA-1.5.2 Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)** — kombinace s neverbální dominancí signalizuje "expert" status nezávisle na obsahu.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrovaný korpus s mystifikační terminologií činí externí materiály **lingvisticky nepřístupné**, posilujíc filtraci.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — komplexní terminologie znásobuje kognitivní náklad přetížení.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — autoritativní prosodický signál + mystifikace = inhibovaná epistemická vigilance.
+- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — kombinace s neverbální dominancí signalizuje "expert" status nezávisle na obsahu.
 
 ### Eskaluje do
 
@@ -229,16 +229,16 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.1):
-  - [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-  - [EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)
+  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+  - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -248,10 +248,10 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -263,4 +263,4 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

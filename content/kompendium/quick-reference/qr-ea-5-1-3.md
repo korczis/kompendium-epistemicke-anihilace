@@ -61,12 +61,12 @@ Reflexivní paradoxie se objevuje ve vysoce kohezních sektách s elaborate dokt
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)
-- **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](/kompendium/quick-reference/qr-ea-5-1-1/), [EA-5.1.13 Hyperreflexivita](/kompendium/quick-reference/qr-ea-5-1-13/), [EA-5.1.21 Sebereferenční paradox](/kompendium/quick-reference/qr-ea-5-1-21/)
-- **Glossary**: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Double bind](/glossary/double-bind/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Russell paradox](/glossary/russell-paradox/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce reflexe](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Platforma**: [NABLA Infinity reflexivní vrstva](/glossary/nabla-infinity/), [Color Teams red-team protokol](/glossary/color-teams/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
+- **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md), [EA-5.1.21 Sebereferenční paradox](@/kompendium/quick-reference/qr-ea-5-1-21.md)
+- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Double bind](/glossary/double-bind/), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Russell paradox](/glossary/russell-paradox/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce reflexe](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Platforma**: [NABLA Infinity reflexivní vrstva](@/glossary/nabla-infinity.md), [Color Teams red-team protokol](@/glossary/color-teams.md)
 
 ---
 

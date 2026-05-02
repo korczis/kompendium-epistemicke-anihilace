@@ -69,7 +69,7 @@ Sen argumentuje:
 
 Pro EA z toho plyne:
 
-- **Identitární kategorizace** je strukturální technika EA — pacient je **redukován** na **jednu** kategorii ([rezonuje s Butler, viz 7.21](/kompendium/07-teoreticke-reflexe/butler-performative/)).
+- **Identitární kategorizace** je strukturální technika EA — pacient je **redukován** na **jednu** kategorii ([rezonuje s Butler, viz 7.21](@/kompendium/07-teoreticke-reflexe/butler-performative.md)).
 - **Counter-EA**: posílení **mnohonásobné identity** jako rezilienční strategie.
 
 ## 4. Idea spravedlnosti
@@ -106,7 +106,7 @@ Pro EA má tento argument **klinický význam**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Substantivní svobody jako klinický cíl**: terapie zvyšuje **schopnosti**, nikoli pouze **stabilizuje** symptomy.
 - **Mnohonásobná identita**: pacient se učí **držet** mnohonásobnou identitu jako rezilienční strategii.
@@ -130,15 +130,15 @@ Senova teorie má globální politickou dimenzi:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.21 Butler: Performative](/kompendium/07-teoreticke-reflexe/butler-performative/)
-- [7.33 Nussbaumová: Capabilities](/kompendium/07-teoreticke-reflexe/nussbaum-capabilities/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.21 Butler: Performative](@/kompendium/07-teoreticke-reflexe/butler-performative.md)
+- [7.33 Nussbaumová: Capabilities](@/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -147,4 +147,4 @@ Senova teorie má globální politickou dimenzi:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

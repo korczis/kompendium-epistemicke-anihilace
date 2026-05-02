@@ -37,9 +37,9 @@ Destabilizace Konceptualni aporie skrze sistematicke narusovani konstitutivnich 
 
 ## Cross-linky
 
-- **Rodic**: [Kapitola 7 — Metatranscendentalni anihilace](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [epoche](/glossary/epoche/), [intentionalita](/glossary/intentionalita/), [fenomenologie](/glossary/fenomenologie/), [lebenswelt](/glossary/lebenswelt/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
+- **Rodic**: [Kapitola 7 — Metatranscendentalni anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [epoche](@/glossary/epoche.md), [intentionalita](@/glossary/intentionalita.md), [fenomenologie](@/glossary/fenomenologie.md), [lebenswelt](@/glossary/lebenswelt.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 
 ---
 

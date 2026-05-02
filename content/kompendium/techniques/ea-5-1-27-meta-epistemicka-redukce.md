@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L4 (ultramarine) |
 | **Riziková úroveň** | Extrémní — terminálni stav epistemické singularity, blokuje samotnou kapacitu pro nezávislé poznání |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci epistemické plurality od základů |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -189,9 +189,9 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 
 ### Často se kombinuje s
 
-- **[EA-5.1.25 Singulární narativní kolaps](/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps/)** — narativní monismus podporuje epistemický monismus.
-- **[EA-5.1.26 Trans-paradigmatická migrace](/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace/)** — paradigmatická bezdomovina vytváří optimální půdu pro meta-redukci.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — kontrola informací udržuje hermetičnost meta-standardu.
+- **[EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)** — narativní monismus podporuje epistemický monismus.
+- **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)** — paradigmatická bezdomovina vytváří optimální půdu pro meta-redukci.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — kontrola informací udržuje hermetičnost meta-standardu.
 - **EA-1.3.1 Imunizace proti falsifikaci** — meta-standard je strukturálně neimunizovatelný.
 
 ### Sourozenecké UM techniky
@@ -201,7 +201,7 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 ### Eskaluje do
 
 - **Doktrinální absolutismus** — totální podmínění poznání externí autoritou.
-- **Kolektivní epistemická singularita** ([Scénář F v Kapitole 2](/kompendium/03-zakladni-kategorie/kapitola-2/)) — meta-redukce rozšířená na úroveň komunity.
+- **Kolektivní epistemická singularita** ([Scénář F v Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — meta-redukce rozšířená na úroveň komunity.
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -216,23 +216,23 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky**:
-  - [EA-5.1.25 Singulární narativní kolaps](/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps/)
-  - [EA-5.1.26 Trans-paradigmatická migrace](/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace/)
+  - [EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)
+  - [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Epistemický monismus](/glossary/epistemicky-monismus/)
   - [Falsifikabilita](/glossary/falsifikabilita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -242,10 +242,10 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -257,4 +257,4 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

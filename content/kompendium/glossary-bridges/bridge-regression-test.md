@@ -17,7 +17,7 @@ toc = false
 
 ## Definice z glossary
 
-[regression-test](/glossary/regression-test/) — Regression test je test napsaný v reakci na konkrétní bug, jehož cílem je zaručit, že daná chyba se znovu neprojeví. V Prismatic platformě je regression test povinnou součástí každé bug fixu podle NM/ND a TACH doktríny, vynucenou pre-commit hookem.
+[regression-test](@/glossary/regression-test.md) — Regression test je test napsaný v reakci na konkrétní bug, jehož cílem je zaručit, že daná chyba se znovu neprojeví. V Prismatic platformě je regression test povinnou součástí každé bug fixu podle NM/ND a TACH doktríny, vynucenou pre-commit hookem.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -46,20 +46,20 @@ Bez regression testu se bug fixes stávají recidivními — stejná chyba se vr
 
 ## Cross-linky
 
-- **Hub kompendia**: [/kompendium/](/kompendium/)
-- **Glossary entry**: [/glossary/regression-test/](/glossary/regression-test/)
-- **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
-- **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
-- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
+- **Glossary entry**: [/glossary/regression-test/](@/glossary/regression-test.md)
+- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
+- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
+- **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
 - **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
 - **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
 - **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
-- **Glossary hub**: [/glossary/](/glossary/)
+- **Glossary hub**: [/glossary/](@/glossary/_index.md)
 
 ---
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

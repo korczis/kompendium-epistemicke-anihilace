@@ -28,9 +28,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
 | **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext, vyžaduje supervizi) |
-| **Riziková úroveň** | Extrémní — riziko trvalého [epistemického traumatu](/glossary/epistemicke-trauma/), depersonalizační/derealizační symptomatiky, suicidálních ideací |
+| **Riziková úroveň** | Extrémní — riziko trvalého [epistemického traumatu](@/glossary/epistemicke-trauma.md), depersonalizační/derealizační symptomatiky, suicidálních ideací |
 | **Reverzibilita** | Nízká bez profesionální intervence; střední s integrovaným klinickým programem |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -43,9 +43,9 @@ Subjekt po úspěšné dezintegraci prožívá:
 - **Derealizaci** — pocit, že okolní svět *není skutečný* nebo je *za sklem*
 - **Radikální sebeodcizení** — neschopnost rozpoznat sebe v záznamech vlastního minulého chování, řeči, písma
 
-Technika cílí na **fenomenologickou kontinuitu prvního řádu** — na samotnou strukturu, která činí subjekta tým, kdo prožívá, vzpomíná a rozhoduje jako jednotná osoba. V rámci [taxonomie EA](/glossary/taxonomie-ea/) je identitní dezintegrace **nejtěžší** technikou subkategorie 5.1, protože zasahuje vrstvu, na které spočívají všechny ostatní vrstvy poznání.
+Technika cílí na **fenomenologickou kontinuitu prvního řádu** — na samotnou strukturu, která činí subjekta tým, kdo prožívá, vzpomíná a rozhoduje jako jednotná osoba. V rámci [taxonomie EA](@/glossary/taxonomie-ea.md) je identitní dezintegrace **nejtěžší** technikou subkategorie 5.1, protože zasahuje vrstvu, na které spočívají všechny ostatní vrstvy poznání.
 
-V kombinaci s technikami subkategorie 5.2 (ontologická anihilace) může produkovat plnou [epistemickou anihilaci](/glossary/epistemicka-anihilace/) — stav, ve kterém subjekt ztrácí přístup k samotné možnosti poznání, protože ztratil přístup k sobě jako poznávajícímu.
+V kombinaci s technikami subkategorie 5.2 (ontologická anihilace) může produkovat plnou [epistemickou anihilaci](@/glossary/epistemicka-anihilace.md) — stav, ve kterém subjekt ztrácí přístup k samotné možnosti poznání, protože ztratil přístup k sobě jako poznávajícímu.
 
 ## Operační modus
 
@@ -105,7 +105,7 @@ Co prožívá subjekt **uvnitř** identitní dezintegrace:
 - **Závislost na vnějším zrcadle** pro každodenní sebepojetí
 - **Suicidální ideace** v pokročilých stadiích — pocit, že *„nikdo není ten, kdo by žil"*
 
-V kombinaci s [EA-1.4.2 latentní emocionální modulací](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) a EA-1.5.x (afektivní techniky obecně) může dezintegrace přejít do akutní psychiatrické krize.
+V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) a EA-1.5.x (afektivní techniky obecně) může dezintegrace přejít do akutní psychiatrické krize.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -211,7 +211,7 @@ Intervence: Strukturní oddělení od partnera bylo prerekvizitou jakékoliv dal
 
 - **EA-5.1.7 Referenční rekurze** — při aplikaci na sebepojem (*„abys věděl, kdo jsi, musíš nejprve vědět, co chceš"*) produkuje uzavřenou identitní smyčku.
 - **EA-5.1.8 Konceptuální fragmentace** — fragmentace pojmů *já / hodnoty / paměť / volba* je strukturálním předkladem dezintegrace.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — afektivní intenzita podporuje akceptaci přerámování a inhibuje obranné reakce.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — afektivní intenzita podporuje akceptaci přerámování a inhibuje obranné reakce.
 - **EA-1.5.x Afektivní techniky** — silná afektivní vazba na manipulátora produkuje **trauma-bond**, který stabilizuje závislou novou identitu.
 
 ### Eskaluje do
@@ -228,31 +228,31 @@ Intervence: Strukturní oddělení od partnera bylo prerekvizitou jakékoliv dal
 
 Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapování:
 
-- **[NABLA Infinity](/glossary/nabla-infinity/) narrative integrity check** — provenance graf každého subjektově-relevantního tvrzení je analyzován na **kontinuitu** s předchozími tvrzeními téhož aktéra; náhlé diskontinuity jsou flagovány.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) narrative integrity check** — provenance graf každého subjektově-relevantního tvrzení je analyzován na **kontinuitu** s předchozími tvrzeními téhož aktéra; náhlé diskontinuity jsou flagovány.
 - **[Decision Engine](/hub/dd/decisions/) self-model audit** — rozhodnutí týkající se vlastní identity (kariérní, vztahové, hodnotové) jsou validována proti dlouhodobému self-model snapshotu; extrémní deviace vyžaduje **dvojí potvrzení**.
 - **Color Teams identity defense protocol** — *Blue Team* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)
-  - [EA-5.1.8 Konceptuální fragmentace](/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace/)
+  - [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
+  - [EA-5.1.8 Konceptuální fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md)
 - **Související afektivní techniky**:
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](/kompendium/04-operacni-principy/)
   - [Kapitola 6 — Epistemická singularita](/kompendium/06-epistemicka-singularita/)
@@ -265,10 +265,10 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -280,4 +280,4 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

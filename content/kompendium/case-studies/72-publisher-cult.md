@@ -33,14 +33,14 @@ Subjekt (anonymizovany kod 72-publisher-cult) byl vystaven systematickemu vzorci
 
 V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
 
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — asymetricky epistemicky vztah
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrolovany pristup k informacim
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — emocionalni kondicionovani
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — strukturalni obrana proti revizi
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — asymetricky epistemicky vztah
 
 ## Fenomenologicky kurz
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/) a v pokrocilych fazich [metakognitivni destrukce](/glossary/metakognitivni-destrukce/).
+Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md) a v pokrocilych fazich [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md).
 
 ## Detekcni bod
 
@@ -48,19 +48,19 @@ Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany
 
 ## Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
 
 ## Vysledek
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled.
+Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Sekce 03**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
+- **Sekce 03**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

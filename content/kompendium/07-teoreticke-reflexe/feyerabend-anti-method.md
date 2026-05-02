@@ -49,8 +49,8 @@ Feyerabend (zejména v *Science in a Free Society*, 1978) argumentuje, že věda
 
 Pro kompendium EA je tato pozice **kriticky problematická**:
 
-- Z **Habermasovské perspektivy** ([viz 7.1 §4](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) tato teze rozkládá **normativní kritérium** odlišení vědecké argumentace od manipulace.
-- Z perspektivy **kritického realismu** ([viz 7.7 Sociální epistemologie](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)) je tato pozice empiricky neudržitelná: některé tradice (moderní medicína) **systematicky redukují utrpení**, jiné nikoli.
+- Z **Habermasovské perspektivy** ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) tato teze rozkládá **normativní kritérium** odlišení vědecké argumentace od manipulace.
+- Z perspektivy **kritického realismu** ([viz 7.7 Sociální epistemologie](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)) je tato pozice empiricky neudržitelná: některé tradice (moderní medicína) **systematicky redukují utrpení**, jiné nikoli.
 - Kompendium tuto Feyerabendovu pozici **odmítá**, ale absorbuje její **kritický moment**: epistemický pluralismus má hodnotu, leč nikoli neomezenou.
 
 ## 4. Anti-method jako produktivní napětí
@@ -72,7 +72,7 @@ Pro taxonomii EA má Feyerabend trojí produktivní napětí:
 
 ## 6. Kritérium odlišení: legitimní pluralismus vs. manipulativní libovůle
 
-Kompendium navrhuje následující kritéria pro rozlišení (rozpracováno v [7.4 Postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)):
+Kompendium navrhuje následující kritéria pro rozlišení (rozpracováno v [7.4 Postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)):
 
 | Legitimní pluralismus | Manipulativní libovůle |
 |------------------------|--------------------------|
@@ -92,22 +92,22 @@ Kompendium navrhuje následující kritéria pro rozlišení (rozpracováno v [7
 
 ## 8. Otevřené otázky
 
-- Lze formulovat **minimální metodologickou gramatiku** ([viz 7.10 Wittgenstein](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)), jež by odlišovala legitimní pluralismus od libovůle?
+- Lze formulovat **minimální metodologickou gramatiku** ([viz 7.10 Wittgenstein](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)), jež by odlišovala legitimní pluralismus od libovůle?
 - Jak **algoritmicky** implementovat Feyerabendovu výzvu (Color Teams jako kontrainduktivní mechanismy)?
 - Vede Feyerabend nutně k **epistemickému relativismu**, nebo lze jeho pozici **slabě realistovat**?
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [7.11 Kuhn: Paradigmatické revoluce](/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce/)
-- [7.7 Sociální epistemologie](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Lakatosův výzkumný program](/glossary/lakatos-vyzkumny-program/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [7.11 Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
+- [7.7 Sociální epistemologie](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -116,4 +116,4 @@ Kompendium navrhuje následující kritéria pro rozlišení (rozpracováno v [7
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

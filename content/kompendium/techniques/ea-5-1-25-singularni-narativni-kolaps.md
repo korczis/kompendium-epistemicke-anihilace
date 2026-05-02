@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L4 (ultramarine) |
 | **Riziková úroveň** | Extrémní — produkuje narativní monismus s dlouhodobou rezistencí vůči pluralizaci |
 | **Reverzibilita** | Velmi nízká bez externí biografické rekonstrukce |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 Klíčový rozdíl proti běžnému narativnímu vlivu spočívá v **eliminaci perspektivální plurality**: zatímco obvyklé biografické vyprávění připouští souběh více čteních téhož životního úseku (např. "to byla zároveň krize i růst"), kolaps redukuje tuto polysémii na **jediný kanonický výklad**.
 
-Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 meta-epistemická redukce](/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce/) — narativní monismus tvoří fenomenologickou půdu pro epistemický monismus.
+Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — narativní monismus tvoří fenomenologickou půdu pro epistemický monismus.
 
 ## Operační modus
 
@@ -165,10 +165,10 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 ### Často se kombinuje s
 
-- **[EA-5.1.26 Trans-paradigmatická migrace](/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace/)** — paradigmatická destabilizace připravuje půdu pro narativní rekonstituci.
-- **[EA-5.1.27 Meta-epistemická redukce](/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce/)** — narativní monismus se stabilizuje skrze epistemický monismus.
+- **[EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)** — paradigmatická destabilizace připravuje půdu pro narativní rekonstituci.
+- **[EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)** — narativní monismus se stabilizuje skrze epistemický monismus.
 - **EA-1.4.2 Latentní emocionální modulace** — emocionální asociace stabilizují afektivní investici do dominantního narativu.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — kontrola informačního prostředí udržuje koherenci nového narativu.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — kontrola informačního prostředí udržuje koherenci nového narativu.
 
 ### Sourozenecké UM techniky
 
@@ -187,22 +187,22 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky**:
-  - [EA-5.1.26 Trans-paradigmatická migrace](/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace/)
-  - [EA-5.1.27 Meta-epistemická redukce](/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce/)
+  - [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)
+  - [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Narativní topologie](/glossary/narativni-topologie/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -212,10 +212,10 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -227,4 +227,4 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

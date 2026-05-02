@@ -15,7 +15,7 @@ toc = false
 
 # Postup EA-1 technik pěti fázemi
 
-Tato sekce-specifická vizualizace ukazuje, jak [13 technik akademické manipulace EA-1.\*](/kompendium/03-zakladni-kategorie/kapitola-1/) postupuje **pěti operačními fázemi** typického manipulačního cyklu:
+Tato sekce-specifická vizualizace ukazuje, jak [13 technik akademické manipulace EA-1.\*](@/kompendium/03-zakladni-kategorie/kapitola-1.md) postupuje **pěti operačními fázemi** typického manipulačního cyklu:
 
 1. **Etablování** — budování důvěry a autority, framing kontextu
 2. **Exploitace** — aktivní použití technik na cílový subjekt
@@ -38,13 +38,13 @@ Body grafu reprezentují techniky umístěné podle fáze (X) a typické závaž
 
 ## Související
 
-- [3.1 Akademické techniky (EA-1.1.\* až EA-1.5.\*)](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [3.2 Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- [3.3 Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/)
-- [Globální vizualizace EA taxonomie](/kompendium/visualizations/)
-- [Techniques index — per-technique články](/kompendium/techniques/)
-- [Glossary: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glossary: Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [3.1 Akademické techniky (EA-1.1.\* až EA-1.5.\*)](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- [3.3 Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
+- [Globální vizualizace EA taxonomie](@/kompendium/visualizations/_index.md)
+- [Techniques index — per-technique články](@/kompendium/techniques/_index.md)
+- [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glossary: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 ---
 
@@ -52,4 +52,4 @@ Body grafu reprezentují techniky umístěné podle fáze (X) a typické závaž
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

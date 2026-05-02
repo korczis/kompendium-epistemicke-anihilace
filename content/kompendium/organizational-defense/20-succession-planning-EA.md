@@ -79,15 +79,15 @@ External assessment, transparentní kritéria, board ratification, public job de
 ## 6. Cross-linky
 
 - [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
-- [Anonymní zpětná vazba](/kompendium/organizational-defense/14-anonymous-feedback/)
+- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
 - [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
-- [Dokumentační standardy](/kompendium/organizational-defense/24-documentation-standards/)
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
 - [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
-- [Prověřování kontraktorů](/kompendium/organizational-defense/26-contractor-vetting/)
-- [Klasifikace informací](/kompendium/organizational-defense/27-information-classification/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
+- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ External assessment, transparentní kritéria, board ratification, public job de
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

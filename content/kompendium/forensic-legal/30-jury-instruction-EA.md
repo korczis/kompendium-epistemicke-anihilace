@@ -63,27 +63,27 @@ policy v souladu s jurisdikcnimi pozadavky.
 
 ## Cross-linky
 
-- [Coercive Control](/glossary/coercive-control/)
-- [Gaslighting](/glossary/gaslighting/)
-- [C-PTSD](/glossary/c-ptsd/)
+- [Coercive Control](@/glossary/coercive-control.md)
+- [Gaslighting](@/glossary/gaslighting.md)
+- [C-PTSD](@/glossary/c-ptsd.md)
 - [Trauma Bonding](/glossary/trauma-bonding/)
 - [Undue Influence](/glossary/undue-influence/)
-- [DARVO](/glossary/darvo/)
+- [DARVO](@/glossary/darvo.md)
 - [Forensic Interview](/glossary/forensic-interview/)
 - [Expert Witness](/glossary/expert-witness/)
 - [Chain of Custody](/glossary/chain-of-custody/)
 - [Pattern Evidence](/glossary/pattern-evidence/)
-- [Kompendium - hlavni](/kompendium/)
-- [Klinicke aplikace](/kompendium/06-klinicke-aplikace/)
-- [Detection Signatures](/kompendium/detection-signatures/)
-- [Recovery Protocols](/kompendium/recovery-protocols/)
-- [Emergency Protocols](/kompendium/emergency-protocols/)
+- [Kompendium - hlavni](@/kompendium/_index.md)
+- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
 
 ## Connect
 
 - [Prismatic Platform](/) — komplexni EA detection & response
-- [Glossary](/glossary/) — terminologicky slovnik
-- [Academy](/academy/) — vzdelavaci modul
+- [Glossary](@/glossary/_index.md) — terminologicky slovnik
+- [Academy](@/academy/_index.md) — vzdelavaci modul
 - [Investigation Hub](/investigate/) — vysetrovaci nastroje
 

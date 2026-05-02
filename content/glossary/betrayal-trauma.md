@@ -36,18 +36,18 @@ Specifically:
 - **EA-1.3.x immunization techniques** weaponize betrayal blindness — the victim cannot examine evidence against the abuser without triggering attachment threat.
 - **EA-2.x metakognitivní destrukce** exploits the dissociative gap: the victim cannot trust their own perceptions because doing so would name the betrayal.
 - The [Decision Engine](/hub/dd/decisions/) treats high-dependency relational contexts as **structural risk factors** in confidence calibration — testimony from victims of trusted institutions requires different epistemic weighting than testimony about strangers.
-- The kompendium's clinical reflections at [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) build directly on BTT to explain why standard reality-testing interventions often fail with EA survivors and why attachment-aware therapeutic modalities are required.
+- The kompendium's clinical reflections at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) build directly on BTT to explain why standard reality-testing interventions often fail with EA survivors and why attachment-aware therapeutic modalities are required.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central concept of the kompendium
-- [C-PTSD](/glossary/c-ptsd/) — Common diagnostic outcome of chronic betrayal trauma
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process counterpart
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Disabling of reflective awareness
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Alienation from one's own cognitive apparatus
-- [Epistemická injustice](/glossary/epistemicka-injustice/) — Institutional-level epistemic harm
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
-- [Klinické aplikace](/kompendium/06-klinicke-aplikace/) — Clinical applications
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central concept of the kompendium
+- [C-PTSD](@/glossary/c-ptsd.md) — Common diagnostic outcome of chronic betrayal trauma
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Disabling of reflective awareness
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Alienation from one's own cognitive apparatus
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Institutional-level epistemic harm
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — Clinical applications
 
 ---
 
@@ -56,4 +56,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

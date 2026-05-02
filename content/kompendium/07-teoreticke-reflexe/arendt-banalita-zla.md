@@ -44,7 +44,7 @@ Krize úsudku — Arendtové centrální diagnóza moderního totalitarismu — 
 
 Pro EA má krize úsudku **specifickou relevanci**:
 
-- **Algoritmické rozhodování** ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) strukturálně **substituuje** lidský úsudek — riziko **administrace bez úsudku**.
+- **Algoritmické rozhodování** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) strukturálně **substituuje** lidský úsudek — riziko **administrace bez úsudku**.
 - **Klasifikační aparáty** EA samotné mohou být **rizikem**: pokud taxonomie EA technik je užívána bez **úsudku**, stává se **algoritmickým razítkováním**.
 - Kompendium proto **opakovaně zdůrazňuje**, že taxonomie je **nástroj úsudku**, nikoli **náhražka** úsudku.
 
@@ -58,7 +58,7 @@ Pro EA z toho plyne:
 
 - **Útok na pluralitu** je strukturální technika EA: vynucování **monolitického** narativu, eliminace odlišných hlasů, **algoritmická homogenizace**.
 - **Filter bubbles** strukturálně **anihilují pluralitu** — každý subjekt vidí svůj vlastní **monolitický svět**.
-- **Color Teams** Prismatic platformy ([viz 7.1 §4.2](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) jsou **algoritmickou implementací** arendtovské plurality — nucená přítomnost odlišných hlasů.
+- **Color Teams** Prismatic platformy ([viz 7.1 §4.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) jsou **algoritmickou implementací** arendtovské plurality — nucená přítomnost odlišných hlasů.
 
 ## 4. Lež a politika
 
@@ -69,9 +69,9 @@ Arendtové esej *Lying in Politics* (1971) — analýza Pentagon Papers — form
 
 Pro EA má toto rozlišení **diagnostickou hodnotu**:
 
-- **Disinformační kampaně** ([viz 7.49 Wardle](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)) jsou **moderními organizovanými lžemi** v arendtovském smyslu.
+- **Disinformační kampaně** ([viz 7.49 Wardle](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)) jsou **moderními organizovanými lžemi** v arendtovském smyslu.
 - **Post-truth politika** je strukturálně **eliminací** kategorie pravdy — nikoli pouze "lhaní více", ale **strukturální anihilací** pravdivostního nároku.
-- **Klinický korelát**: subjekty vystavené dlouhodobé organizované lži vykazují **specifické** epistemické symptomy — neschopnost rozlišovat informaci od dezinformace, **epistemická únava** ([viz 7.2](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)).
+- **Klinický korelát**: subjekty vystavené dlouhodobé organizované lži vykazují **specifické** epistemické symptomy — neschopnost rozlišovat informaci od dezinformace, **epistemická únava** ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
 
 ## 5. Mapping na EA techniky
 
@@ -85,7 +85,7 @@ Pro EA má toto rozlišení **diagnostickou hodnotu**:
 
 ## 6. Klinický a politický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) a politickou EA ([viz 7.8](/kompendium/07-teoreticke-reflexe/politicka-ea/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) a politickou EA ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)):
 
 - **Restituce schopnosti úsudku** jako klinický cíl — nikoli pouze "stabilizace symptomů".
 - **Politická vzdělanost** jako prevence: schopnost **myslet samostatně**, **soudit partikulárně**, **jednat s druhými**.
@@ -102,16 +102,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) a pol
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
 - [7.19 Arendt: Myšlení](/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení/)
-- [7.45 Chomsky: Manufacturing Consent](/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent/)
-- [7.49 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7.45 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)
+- [7.49 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -120,4 +120,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) a pol
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

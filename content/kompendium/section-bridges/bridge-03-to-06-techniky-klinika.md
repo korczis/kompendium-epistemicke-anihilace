@@ -51,14 +51,14 @@ Klíčové koncepty: **klinický fenotyp**, **klinické portfolio**, **klinický
 
 ## 6. Související
 
-- [03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Case studies](/kompendium/case-studies/)
-- [Quick Reference: Klinika](/kompendium/quick-reference/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Techniques](/kompendium/techniques/)
-- [Visualizations: Klinické flow](/kompendium/visualizations/)
-- [Decision Engine](/kompendium/glossary-bridges/bridge-decision-engine/)
+- [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [Quick Reference: Klinika](@/kompendium/quick-reference/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Visualizations: Klinické flow](@/kompendium/visualizations/_index.md)
+- [Decision Engine](@/kompendium/glossary-bridges/bridge-decision-engine.md)
 
 ---
 
@@ -67,4 +67,4 @@ Klíčové koncepty: **klinický fenotyp**, **klinické portfolio**, **klinický
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

@@ -60,7 +60,7 @@ Strukturální charakteristiky:
 
 Pro EA má datové náboženství **strukturální význam**:
 
-- **Pseudo-objektivní rétorika**: data presentována jako "neutrální" jsou strukturálně **zatížena** ideologií ([rezonuje s Putnam, viz 7.27](/kompendium/07-teoreticke-reflexe/putnam-internal-realism/)).
+- **Pseudo-objektivní rétorika**: data presentována jako "neutrální" jsou strukturálně **zatížena** ideologií ([rezonuje s Putnam, viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)).
 - **Algoritmická anihilace lidskosti**: redukce lidské zkušenosti na měřitelné metriky.
 - **Counter-EA**: vědomí, že "data" nejsou strukturálně neutrální.
 
@@ -70,7 +70,7 @@ Harariho politická teze: **algoritmy** budou strukturálně **rozhodovat** za n
 
 Strukturální argumentace:
 
-- **Algoritmy znají uživatele lépe** než uživatel sebe (rezonuje s Zuboff surveillance capitalism, [viz 7.55](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/))
+- **Algoritmy znají uživatele lépe** než uživatel sebe (rezonuje s Zuboff surveillance capitalism, [viz 7.55](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md))
 - **Liberální fikce autonomního individua** strukturálně kolabuje pod algoritmickým gusto
 - **Politické implikace**: regulace AI/dat jako fundamentální politická otázka 21. století
 
@@ -106,7 +106,7 @@ Kompendium absorbuje **užitečné** narativní rámce, ale **odbočuje** od př
 
 ## 8. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Detekce ideologických narativů**: jak pacientovo prožívání strukturuje narativ?
 - **Restituce funkčních narativů**: terapeutický cíl — strukturálně udržitelný osobní narativ.
@@ -121,16 +121,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [7.27 Putnam: Internal Realism](/kompendium/07-teoreticke-reflexe/putnam-internal-realism/)
-- [7.50 Dawkins: Mem](/kompendium/07-teoreticke-reflexe/dawkins-meme/)
-- [7.55 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [7.27 Putnam: Internal Realism](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)
+- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
+- [7.55 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -139,4 +139,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

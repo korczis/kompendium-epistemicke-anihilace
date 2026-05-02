@@ -51,14 +51,14 @@ Klíčové koncepty: **glossary jako power act**, **glossary jako evidence layer
 
 ## 6. Související
 
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
 - [Nabla framework](/kompendium/glossary-bridges/bridge-nabla/)
-- [Glossary platform](/glossary/)
-- [Quick Reference: Teorie](/kompendium/quick-reference/)
-- [Visualizations](/kompendium/visualizations/)
-- [Case Studies: filosofie](/kompendium/case-studies/)
+- [Glossary platform](@/glossary/_index.md)
+- [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
+- [Visualizations](@/kompendium/visualizations/_index.md)
+- [Case Studies: filosofie](@/kompendium/case-studies/_index.md)
 
 ## 7. Meta-poznámka: pojmenování jako akt moci
 
@@ -71,4 +71,4 @@ Glossary je **mocenský akt**, nikoli neutrální infrastruktura. Kdo pojmenová
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

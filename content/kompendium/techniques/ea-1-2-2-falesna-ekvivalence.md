@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — pervazivní v médiích, vědecké komunikaci, politickém diskurzu |
 | **Reverzibilita** | Střední, vyžaduje aktivní kalibraci |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Strukturální mechanismus: **exploitace normy nestrannosti** v akademickém diskurzu a **balance fallacy** v žurnalistice. Norma "dát slovo oběma stranám" je legitimní, **pokud strany jsou skutečně srovnatelné** — falešná ekvivalence je její perverzní aplikace na **nesrovnatelné** entity.
 
-Klíčový rozdíl od [EA-1.2.1 Falešného dilematu](/kompendium/techniques/ea-1-2-1-falesne-dilema/): falešné dilema redukuje volbu na binární; falešná ekvivalence předstírá **ekvivalentní legitimitu** dvou pozic, **které asymetrické jsou**.
+Klíčový rozdíl od [EA-1.2.1 Falešného dilematu](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md): falešné dilema redukuje volbu na binární; falešná ekvivalence předstírá **ekvivalentní legitimitu** dvou pozic, **které asymetrické jsou**.
 
 ## Operační modus
 
@@ -199,14 +199,14 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 
 ### Často se kombinuje s
 
-- **[EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** — kombinace: redukce na **dvě** pozice (FD) + prezentace jako **rovnocenných** (FE).
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — selektivní expozice ke každé z "obou stran" konsoliduje falešnou ekvivalenci.
-- **[EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** — slabší pozice s autoritativní prosodií dosahuje vnímané parity.
+- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — kombinace: redukce na **dvě** pozice (FD) + prezentace jako **rovnocenných** (FE).
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — selektivní expozice ke každé z "obou stran" konsoliduje falešnou ekvivalenci.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — slabší pozice s autoritativní prosodií dosahuje vnímané parity.
 
 ### Eskaluje do
 
 - **EA-1.6.2 Vzorec "Epistemický trojský kůň"** — falešná ekvivalence je vehicle pro "vpašování" marginal pozice do mainstream diskurzu.
-- **Kolektivní epistemická delegitimizace** ([Scénář F](/kompendium/03-zakladni-kategorie/kapitola-2/)) — falešná ekvivalence v měřítku komunity vede k ztrátě kalibrace vůči expertnímu konsensu.
+- **Kolektivní epistemická delegitimizace** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — falešná ekvivalence v měřítku komunity vede k ztrátě kalibrace vůči expertnímu konsensu.
 
 ### Hraniční / podobné
 
@@ -221,16 +221,16 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.2):
-  - [EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-  - [EA-1.2.3 Iluzorní komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)
+  - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+  - [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -240,10 +240,10 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -255,4 +255,4 @@ Intervence: Procedurální reforma — pre-decision meta-evaluation kvalitativn�
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

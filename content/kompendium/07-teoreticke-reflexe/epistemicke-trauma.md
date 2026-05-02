@@ -16,7 +16,7 @@ toc = true
 
 # 7.2 Vztah k epistemickému traumatu — empirická literatura
 
-Tato kapitola představuje **empirický most** mezi filozofickým rámcem kompendia ([7.1](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) a klinickou aplikací ([sekce 06](/kompendium/06-klinicke-aplikace/)). Kategorie **epistemického traumatu** — systematického narušení schopnosti důvěřovat vlastní kognitivní zkušenosti, integrovat narativní zkušenost a udržovat koherentní model světa — není filozofickou spekulací. Je **empiricky doloženým** klinickým fenoménem s konkrétními neurobiologickými, psychofyziologickými a behaviorálními koreláty.
+Tato kapitola představuje **empirický most** mezi filozofickým rámcem kompendia ([7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) a klinickou aplikací ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)). Kategorie **epistemického traumatu** — systematického narušení schopnosti důvěřovat vlastní kognitivní zkušenosti, integrovat narativní zkušenost a udržovat koherentní model světa — není filozofickou spekulací. Je **empiricky doloženým** klinickým fenoménem s konkrétními neurobiologickými, psychofyziologickými a behaviorálními koreláty.
 
 Cílem této kapitoly je systematicky představit nejdůležitější empirickou literaturu, jež **legitimizuje** kategorii epistemického traumatu jako klinicky validní entitu, **operacionalizuje** ji pro výzkumné účely, a **propojuje** ji s taxonomií EA technik popsanou v sekcích 03–05.
 
@@ -55,7 +55,7 @@ Herman formuluje **triphasický model** léčby C-PTSD:
 2. **Vzpomínka a smutek** — zpracování traumatických vzpomínek
 3. **Rekonexion** — reintegrace do běžného života
 
-Pro EA ([sekce 06](/kompendium/06-klinicke-aplikace/)) je tento model **strukturálním vzorem** — epistemická rekonstrukce po EA traumatu vyžaduje analogickou triphasickou strategii: stabilizaci epistemických kapacit, zpracování epistemických vzpomínek, rekonexi s epistemickou komunitou.
+Pro EA ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) je tento model **strukturálním vzorem** — epistemická rekonstrukce po EA traumatu vyžaduje analogickou triphasickou strategii: stabilizaci epistemických kapacit, zpracování epistemických vzpomínek, rekonexi s epistemickou komunitou.
 
 ## 2. Betrayal trauma theory (Freyd)
 
@@ -140,7 +140,7 @@ EA techniky **systematicky atakují** všechny tři předpoklady:
 
 | EA technika | Atakovaný předpoklad |
 |-------------|------------------------|
-| Delegitimizace ([3.5](/kompendium/03-zakladni-kategorie/)) | Já mám hodnotu |
+| Delegitimizace ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)) | Já mám hodnotu |
 | Imunizace proti falsifikaci | Svět je smysluplný |
 | Gaslighting | Já mám hodnotu + svět je smysluplný |
 | Strukturální betrayal | Svět je benevolentní |
@@ -207,7 +207,7 @@ Pro EA to má **fundamentální** klinickou implikaci:
 
 > *Epistemické trauma — byť hluboce neurobiologicky internalizované — je **principiálně reverzibilní**.*
 
-Tato pozice je v kompendiu reflektována v **multidimenzionální ose reverzibility** ([2.3](/kompendium/02-uvod/teoreticke-zaklady/)) — žádná EA technika není **inherentně** ireverzibilní, byť některé techniky (zejména v kategoriích 04 a 05) představují signifikantně obtížnější rekonstrukční výzvu.
+Tato pozice je v kompendiu reflektována v **multidimenzionální ose reverzibility** ([2.3](@/kompendium/02-uvod/teoreticke-zaklady.md)) — žádná EA technika není **inherentně** ireverzibilní, byť některé techniky (zejména v kategoriích 04 a 05) představují signifikantně obtížnější rekonstrukční výzvu.
 
 ### 5.2 Aktivní rekonstrukční praktiky
 
@@ -243,7 +243,7 @@ Všechny tyto přístupy **explicitně integrují** epistemickou dimenzi: rekons
 - Narativní integrace traumatické epistemické zkušenosti
 - Strukturální deficity v meta-kognici
 
-Vývoj **EA-specifických diagnostických nástrojů** zůstává otevřeným úkolem ([sekce 06](/kompendium/06-klinicke-aplikace/)).
+Vývoj **EA-specifických diagnostických nástrojů** zůstává otevřeným úkolem ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)).
 
 ## 7. Limity současné empirické literatury
 
@@ -255,7 +255,7 @@ Vývoj **EA-specifických diagnostických nástrojů** zůstává otevřeným ú
 4. **Diagnostic gap** — neexistuje konsenzuální diagnostický rámec pro **epistemické trauma** jako specifickou klinickou kategorii
 5. **Therapeutic gap** — terapeutické přístupy explicitně cílící na epistemickou dimenzi (oproti afektivní nebo somatické) jsou v plenkách
 
-Kompendium se k těmto limitám staví **transparentně** — viz princip transparentní limitace ([01 — Předmluva](/kompendium/01-predmluva/)).
+Kompendium se k těmto limitám staví **transparentně** — viz princip transparentní limitace ([01 — Předmluva](@/kompendium/01-predmluva/_index.md)).
 
 ## 8. Vztah k taxonomii EA
 
@@ -263,38 +263,38 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 
 | EA kategorie | Klíčový empirický rámec |
 |--------------|---------------------------|
-| **Akademické techniky** ([3.1](/kompendium/03-zakladni-kategorie/)) | Janoff-Bulman shattered assumptions |
-| **Delegitimizace** ([3.5](/kompendium/03-zakladni-kategorie/)) | Internalizace stigmatu, Herman C-PTSD |
-| **Edukativní implementace** ([3.6](/kompendium/03-zakladni-kategorie/)) | Vývojové vzorce, Freyd betrayal |
-| **Terminální protokoly** ([sekce 04](/kompendium/04-terminalni-protokoly/)) | Strukturální disociace (TSDP) |
-| **Ultramární techniky** ([sekce 05](/kompendium/05-ultramari-techniky/)) | Dual representation, neurobiologické extrémy |
+| **Akademické techniky** ([3.1](@/kompendium/03-zakladni-kategorie/_index.md)) | Janoff-Bulman shattered assumptions |
+| **Delegitimizace** ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)) | Internalizace stigmatu, Herman C-PTSD |
+| **Edukativní implementace** ([3.6](@/kompendium/03-zakladni-kategorie/_index.md)) | Vývojové vzorce, Freyd betrayal |
+| **Terminální protokoly** ([sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)) | Strukturální disociace (TSDP) |
+| **Ultramární techniky** ([sekce 05](@/kompendium/05-ultramari-techniky/_index.md)) | Dual representation, neurobiologické extrémy |
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.3 Sociální epistemologie EA](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -303,7 +303,7 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -317,4 +317,4 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

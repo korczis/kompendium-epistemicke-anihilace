@@ -51,7 +51,7 @@ Varelova centrální teze: kognice je **strukturálně vtělená**. Tělo není 
 
 Embodied cognition má **trojí dimenzi**:
 
-1. **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/))
+1. **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
 2. **Senzomotorické vazby**: percepce je **akčně** definovaná
 3. **Afektivní fundament**: emoce jsou **strukturálně** kognitivní
 
@@ -99,7 +99,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Embodied therapy**: somatic experiencing (Levine), sensorimotor psychotherapy (Ogden), feldenkrais — strukturálně **enaktivistické** modality.
 - **Mindfulness** jako strukturální nástroj rezilience.
@@ -109,7 +109,7 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 Pro Prismatic platformu má enaktivismus **specifickou** relevanci:
 
-- **NABLA Infinity** ([viz Glosář](/glossary/nabla-infinity/)) operuje strukturálně skrze **enacting** — udržuje **dynamickou** strukturu hypotéz, nikoli pouze statické reprezentace.
+- **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)) operuje strukturálně skrze **enacting** — udržuje **dynamickou** strukturu hypotéz, nikoli pouze statické reprezentace.
 - **3NL architektura**: strukturálně podobá vrstvenému enacting.
 
 ## 9. Primární literatura
@@ -122,17 +122,17 @@ Pro Prismatic platformu má enaktivismus **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.40 Friston: Active Inference](/kompendium/07-teoreticke-reflexe/friston-active-inference/)
-- [7.41 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.43 Thompson: Mind in Life](/kompendium/07-teoreticke-reflexe/thompson-mind-in-life/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.40 Friston: Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.43 Thompson: Mind in Life](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -141,4 +141,4 @@ Pro Prismatic platformu má enaktivismus **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

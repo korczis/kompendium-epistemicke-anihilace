@@ -31,21 +31,21 @@ The technique is durable because confronting it carries social costs: explicit a
 
 ## Context
 
-Within the Prismatic Platform's threat model, weaponized incompetence is catalogued in the [Kompendium taxonomy](/glossary/taxonomie-ea/) as a **delegitimization mechanism** in the EA-2.x family. Specifically, sustained weaponized incompetence by a partner, family member, or workplace colleague functions as an EA technique by progressively delegitimizing the target's competence-attributions and reality-tracking: the target eventually doubts whether their initial attribution of competence to the actor was ever well-founded. Documentation: [Kompendium → 04-techniky → weaponized-incompetence](/kompendium/04-techniky/weaponized-incompetence/).
+Within the Prismatic Platform's threat model, weaponized incompetence is catalogued in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md) as a **delegitimization mechanism** in the EA-2.x family. Specifically, sustained weaponized incompetence by a partner, family member, or workplace colleague functions as an EA technique by progressively delegitimizing the target's competence-attributions and reality-tracking: the target eventually doubts whether their initial attribution of competence to the actor was ever well-founded. Documentation: [Kompendium → 04-techniky → weaponized-incompetence](/kompendium/04-techniky/weaponized-incompetence/).
 
 The structural damage is doubled. First, the target absorbs the labor that was supposed to be shared. Second — and more severely from an epistemic-security standpoint — the target's calibration of competence-attributions is corrupted: confronted with persistent failure-where-success-was-expected, the target either downgrades their model of the actor (causing relational rupture) or downgrades their own assessment-capacity (the EA-relevant outcome).
 
-The platform's [Decision Engine](/hub/dd/decisions/) treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the [confidence lens](/hub/dd/decisions/calibration) flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](/glossary/sealioning/) (just-asking-for-clarification on every task) and [Motte and Bailey](/glossary/motte-and-bailey/) (retreating to "I just don't understand" as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](/kompendium/06-zotaveni/incompetence/).
+The platform's [Decision Engine](/hub/dd/decisions/) treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the [confidence lens](/hub/dd/decisions/calibration) flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](@/glossary/sealioning.md) (just-asking-for-clarification on every task) and [Motte and Bailey](@/glossary/motte-and-bailey.md) (retreating to "I just don't understand" as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](/kompendium/06-zotaveni/incompetence/).
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat framework
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
-- [Taxonomie EA](/glossary/taxonomie-ea/) — `EA-X.Y.Z-α` classification
-- [Sealioning](/glossary/sealioning/) — Companion bad-faith technique
-- [Motte and Bailey](/glossary/motte-and-bailey/) — Companion rhetorical technique
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process damage from sustained exposure
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — `EA-X.Y.Z-α` classification
+- [Sealioning](@/glossary/sealioning.md) — Companion bad-faith technique
+- [Motte and Bailey](@/glossary/motte-and-bailey.md) — Companion rhetorical technique
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage from sustained exposure
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -54,4 +54,4 @@ The platform's [Decision Engine](/hub/dd/decisions/) treats reports of pattern-i
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

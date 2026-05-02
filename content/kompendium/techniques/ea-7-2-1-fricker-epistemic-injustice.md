@@ -61,7 +61,7 @@ Pozice **Fricker** se relevantně dotýká těchto oblastí EA:
 - vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
 - vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](/kompendium/techniques/).
+Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
 
 ## Limitace
 
@@ -73,15 +73,15 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 ## Cross-linky
 
 ### Sesterské reflexe (7.2.*)
-- [EA-7.2.2 Goldman: Veritismus](/kompendium/techniques/ea-7-2-2-goldman-veritism/)
-- [EA-7.2.3 Popper: Falsifikace](/kompendium/techniques/ea-7-2-3-popper-falsification/)
-- [EA-7.2.4 Lakatos: Vědecký výzkumný program](/kompendium/techniques/ea-7-2-4-lakatos-research-program/)
-- [EA-7.2.5 Kuhn: Paradigmatický posun](/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift/)
-- [EA-7.2.6 Feyerabend: Anti-metoda](/kompendium/techniques/ea-7-2-6-feyerabend-anti-method/)
-- [EA-7.2.7 Quine: Web of Belief](/kompendium/techniques/ea-7-2-7-quine-web-belief/)
+- [EA-7.2.2 Goldman: Veritismus](@/kompendium/techniques/ea-7-2-2-goldman-veritism.md)
+- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md)
+- [EA-7.2.4 Lakatos: Vědecký výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md)
+- [EA-7.2.5 Kuhn: Paradigmatický posun](@/kompendium/techniques/ea-7-2-5-kuhn-paradigm-shift.md)
+- [EA-7.2.6 Feyerabend: Anti-metoda](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md)
+- [EA-7.2.7 Quine: Web of Belief](@/kompendium/techniques/ea-7-2-7-quine-web-belief.md)
 
 ### Související
-- [Kapitola 07: Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Kapitola 06: Obrana a kalibrace](/kompendium/06-obrana/)
 - [Kapitola 03: Manipulační vzorce](/kompendium/03-manipulacni-vzorce/)
 - [Glosář: Falsifikace](/kompendium/glossary/falsifikace/)
@@ -99,7 +99,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 Chcete tuto reflexi aplikovat na konkrétní případ?
 
 - [Spusťte vyšetření](/investigate/) — Decision Engine s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](/kompendium/techniques/) — všech 6 operativních kapitol + 7. teoretická.
+- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
 - [Glosář pojmů](/kompendium/glossary/) — definice klíčových termínů napříč EA.
 
-*Část kompendia [Epistemic Arsenal](/kompendium/) — kapitola 7. Teoretické reflexe, podkapitola 7.2 Analytická filozofie.*
+*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.2 Analytická filozofie.*

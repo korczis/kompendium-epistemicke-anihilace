@@ -36,21 +36,21 @@ The Kompendium uses Baudrillard's analysis to make legible the most extreme reac
 
 Specifically:
 
-- **Advanced EA-2.x metakognitivní destrukce** progresses through Baudrillard's orders: early-stage manipulation operates in the second order (lies that mask truth); mature manipulation operates in the third (lies that mask the absence of accessible truth); terminal-stage epistemic annihilation generates a fourth-order environment in which the victim has no leverage to even pose the truth-question. See [/glossary/metakognitivni-destrukce/](/glossary/metakognitivni-destrukce/).
+- **Advanced EA-2.x metakognitivní destrukce** progresses through Baudrillard's orders: early-stage manipulation operates in the second order (lies that mask truth); mature manipulation operates in the third (lies that mask the absence of accessible truth); terminal-stage epistemic annihilation generates a fourth-order environment in which the victim has no leverage to even pose the truth-question. See [/glossary/metakognitivni-destrukce/](@/glossary/metakognitivni-destrukce.md).
 - **Mass-scale algorithmic information environments** (deepfakes, generative AI, recommendation-curated reality) are the contemporary infrastructure of third- and fourth-order simulacra — Baudrillard's diagnosis is no longer speculative but operational.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) treats Baudrillard alongside Lyotard's [metanarrative collapse](/glossary/metanarrative-collapse/) and Derridean [différance](/glossary/differance/) as the postmodern theoretical pillar — the diagnostic apparatus for **late-stage** EA environments where modern (correspondence-theoretic) defenses are insufficient.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Baudrillard alongside Lyotard's [metanarrative collapse](@/glossary/metanarrative-collapse.md) and Derridean [différance](@/glossary/differance.md) as the postmodern theoretical pillar — the diagnostic apparatus for **late-stage** EA environments where modern (correspondence-theoretic) defenses are insufficient.
 - The [Decision Engine](/hub/dd/decisions/) explicit **provenance tracking** and **source diversity auditing** are anti-simulacral architectural commitments: they refuse to operate purely on internal coherence and demand grounding in extra-systemic reality checks.
-- The kompendium's clinical applications at [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) describe interventions specifically designed to re-anchor patients who have spent extended periods in third- or fourth-order simulacral environments.
+- The kompendium's clinical applications at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) describe interventions specifically designed to re-anchor patients who have spent extended periods in third- or fourth-order simulacral environments.
 
 ## See Also
 
-- [Différance](/glossary/differance/) — Derridean meaning-instability
-- [Metanarrative collapse](/glossary/metanarrative-collapse/) — Lyotard's postmodern frame
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon explained
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process counterpart
-- [Epistemic bubble](/glossary/epistemic-bubble/) — Selective-exposure structure
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Différance](@/glossary/differance.md) — Derridean meaning-instability
+- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) — Lyotard's postmodern frame
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
+- [Epistemic bubble](@/glossary/epistemic-bubble.md) — Selective-exposure structure
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -59,4 +59,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

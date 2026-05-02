@@ -38,23 +38,23 @@ The practice raises **structural epistemic-security questions**: deplatforming r
 
 Within the Prismatic Platform, deplatforming is treated as an **intervention** with measurable epistemic cost-benefit, not a normative absolute:
 
-- The Kompendium discusses deplatforming under [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) as a **defensive technique against EA actors operating at scale** — particularly EA-1.2 (falsification) and EA-3 (collective cognitive disruption) — while flagging the epistemic-monoculture risk it introduces.
-- [Color Teams](/glossary/color-teams/) Blue Team protocols evaluate deplatforming proposals against five criteria: (1) harm specificity, (2) intervention reversibility, (3) precedent generality, (4) due-process adequacy, (5) post-intervention monitoring.
+- The Kompendium discusses deplatforming under [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) as a **defensive technique against EA actors operating at scale** — particularly EA-1.2 (falsification) and EA-3 (collective cognitive disruption) — while flagging the epistemic-monoculture risk it introduces.
+- [Color Teams](@/glossary/color-teams.md) Blue Team protocols evaluate deplatforming proposals against five criteria: (1) harm specificity, (2) intervention reversibility, (3) precedent generality, (4) due-process adequacy, (5) post-intervention monitoring.
 - The [Decision Engine](/hub/dd/decisions/) treats actors recently subject to deplatforming as **provenance-ambiguous**: their post-deplatforming output may be either genuinely problematic or selection-biased by migration to lower-moderation environments.
-- [NABLA Infinity](/glossary/nabla-infinity/) explicitly avoids deplatformed-source-only diets in its source-diversity checks — a model trained or reasoning over only "approved" sources fails the diversity invariant.
-- The [Info-Ops](/glossary/info-ops/) and [Firehose of Falsehood](/glossary/firehose-of-falsehood/) entries describe the threat models against which deplatforming is sometimes justified.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) explicitly avoids deplatformed-source-only diets in its source-diversity checks — a model trained or reasoning over only "approved" sources fails the diversity invariant.
+- The [Info-Ops](@/glossary/info-ops.md) and [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entries describe the threat models against which deplatforming is sometimes justified.
 
 Deplatforming is best understood as a **trade-off** rather than a victory: it is one tool among many in epistemic security, and its costs (centralization, due-process erosion, monoculture) must be weighed against its benefits (harm reduction, norm enforcement) on a case-by-case basis.
 
 ## See Also
 
-- [Epistemic Security](/glossary/epistemic-security/) — Broader field framing
-- [Info-Ops](/glossary/info-ops/) — Threat model often justifying deplatforming
-- [Firehose of Falsehood](/glossary/firehose-of-falsehood/) — Adversarial pattern targeted by deplatforming
-- [Delegitimizace](/glossary/delegitimizace/) — Adjacent concept of source-discrediting
-- [Hyperreality](/glossary/hyperreality/) — Platform-mediated reality construction
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemic Security](@/glossary/epistemic-security.md) — Broader field framing
+- [Info-Ops](@/glossary/info-ops.md) — Threat model often justifying deplatforming
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Adversarial pattern targeted by deplatforming
+- [Delegitimizace](@/glossary/delegitimizace.md) — Adjacent concept of source-discrediting
+- [Hyperreality](@/glossary/hyperreality.md) — Platform-mediated reality construction
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -63,4 +63,4 @@ Deplatforming is best understood as a **trade-off** rather than a victory: it is
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

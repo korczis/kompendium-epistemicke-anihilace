@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Esencialistický klam v EA kategoriích](/kompendium/critical-perspectives/9-essentialism-critique/)
-- [Kulturní zaujatost EA kategorií](/kompendium/critical-perspectives/10-cultural-bias-critique/)
-- [Iatrogenní účinky EA intervencí](/kompendium/critical-perspectives/11-iatrogenic-overreach/)
+- [Esencialistický klam v EA kategoriích](@/kompendium/critical-perspectives/9-essentialism-critique.md)
+- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
+- [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)
 - [Reprodukční krize a EA výzkum](/kompendium/critical-perspectives/7-replication-EA-research/)
-- [Politická instrumentalizace EA](/kompendium/critical-perspectives/6-political-instrumentalization/)
+- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
 - [Důvěrnost v EA detekci](/kompendium/critical-perspectives/17-confidentiality-EA/)
-- [Dekoloniální epistemologie](/kompendium/critical-perspectives/27-decolonial-epistemology/)
+- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
 - [EA jako mocenský nástroj](/kompendium/critical-perspectives/18-EA-as-power-tool/)
-- [Feministická epistemologie](/kompendium/critical-perspectives/28-feminist-epistemology-alt/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

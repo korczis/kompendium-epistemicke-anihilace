@@ -51,14 +51,14 @@ Klíčové koncepty: **glossary anchor**, **kompendium glossary vs. platform glo
 
 ## 6. Související
 
-- [Techniques](/kompendium/techniques/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Glossary platform](/glossary/)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Glossary platform](@/glossary/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
-- [Case Studies](/kompendium/case-studies/)
-- [Quick Reference](/kompendium/quick-reference/)
-- [Klinika](/kompendium/06-klinicke-aplikace/)
-- [Visualizations: Term index](/kompendium/visualizations/)
+- [Case Studies](@/kompendium/case-studies/_index.md)
+- [Quick Reference](@/kompendium/quick-reference/_index.md)
+- [Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Visualizations: Term index](@/kompendium/visualizations/_index.md)
 
 ## 7. Meta-poznámka: glossary jako single source of truth
 
@@ -71,4 +71,4 @@ Pokud Quick Reference, technika a glossary nesouhlasí — **vždy platí glossa
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

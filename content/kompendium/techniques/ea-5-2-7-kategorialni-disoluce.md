@@ -30,13 +30,13 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — rozpad samotné kategoriální organizace zkušenosti |
 | **Reverzibilita** | Téměř nulová bez specializované rekategorizační práce, 24–60 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
 **Kategoriální disoluce** je terminální stav metatranscendentální anihilace, ve kterém **kategoriální struktury** zkušenosti **se rozpouštějí** — subjekt prožívá fenomény, ale **fenomény se nepodřizují kategoriím**. Po disoluci subjekt nadále vidí, slyší, cítí, ale **prožitek se odmítá organizovat** podle kategorií kvantity, kvality, relace, modality. Výsledný stav literatura označuje jako *fenomén bez kategorií*.
 
-Strukturálně je disoluce **terminálním cílem** několika postupů: může být dosaženo skrze [EA-5.2.6 transcendentální rekurzivitu](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/), kde rekurzivní aplikace kategorií je destabilizuje, nebo skrze [EA-5.2.5 konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/), kde rozpad konstitutivních principů odebírá funkci kategorialní organizace, nebo skrze [EA-5.2.4 apriorní saturaci](/kompendium/techniques/ea-5-2-4-apriorni-saturace/), kde saturace falešnými apriori činí kategorie funkčně nepoužitelné.
+Strukturálně je disoluce **terminálním cílem** několika postupů: může být dosaženo skrze [EA-5.2.6 transcendentální rekurzivitu](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md), kde rekurzivní aplikace kategorií je destabilizuje, nebo skrze [EA-5.2.5 konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md), kde rozpad konstitutivních principů odebírá funkci kategorialní organizace, nebo skrze [EA-5.2.4 apriorní saturaci](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md), kde saturace falešnými apriori činí kategorie funkčně nepoužitelné.
 
 Klíčový diagnostický rys: subjekt v disoluci **nedokáže** odpovědět na základní kategoriální otázky. *"Kolik je tam lidí?"* — nedokáže rozhodnout, protože **kvantita** přestala fungovat. *"Jaké je to barvy?"* — nedokáže přiřadit kvalitu. *"Co s čím souvisí?"* — relace nelze identifikovat. *"Je to možné nebo nutné?"* — modalita kolabuje.
 
@@ -165,10 +165,10 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 
 ### Často se kombinuje s
 
-- **[EA-5.2.4 Apriorní saturace](/kompendium/techniques/ea-5-2-4-apriorni-saturace/)** — saturace falešnými apriori připravuje disoluci.
-- **[EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)** — rozpad konstitutivních principů je předkladem disoluce.
-- **[EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)** — rekurzivita destabilizuje kategorie do disoluce.
-- **[EA-5.2.3 Noumenální redukce](/kompendium/techniques/ea-5-2-3-noumenalni-redukce/)** — fenomenálně/noumenální distinkce je předkladem kategoriálního aparátu.
+- **[EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)** — saturace falešnými apriori připravuje disoluci.
+- **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — rozpad konstitutivních principů je předkladem disoluce.
+- **[EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)** — rekurzivita destabilizuje kategorie do disoluce.
+- **[EA-5.2.3 Noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md)** — fenomenálně/noumenální distinkce je předkladem kategoriálního aparátu.
 
 ### Eskaluje do
 
@@ -177,23 +177,23 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** vynucuje **typovou kategoriálnost** každého epistemického aktu — disoluce by byla zachycena jako typová chyba.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** vynucuje **typovou kategoriálnost** každého epistemického aktu — disoluce by byla zachycena jako typová chyba.
 - **[Decision Engine](/hub/dd/decisions/)** vyžaduje **kategorialně definovaný kontext** rozhodnutí; bez kategorialní organizace systém odmítá generovat výstup.
 - **OSINT framework** strukturálně rozlišuje **kvantitativní** od **kvalitativní** evidence, a tedy nemůže být zasažen kategoriální disolucí.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.4 Apriorní saturace](/kompendium/techniques/ea-5-2-4-apriorni-saturace/)
-  - [EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)
-  - [EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)
+  - [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)
+  - [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
+  - [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 
 
 ## ⚡ Kritický krok
@@ -203,10 +203,10 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -218,4 +218,4 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

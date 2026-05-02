@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Trauma-informovaný framework](/kompendium/critical-perspectives/22-trauma-framework-alternative/)
-- [Political economy alternativa](/kompendium/critical-perspectives/23-political-economy-alternative/)
-- [Narativní medicína](/kompendium/critical-perspectives/24-narrative-medicine-alternative/)
+- [Trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)
+- [Political economy alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md)
+- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
 - [Publikační etika v EA literatuře](/kompendium/critical-perspectives/20-publication-ethics-EA/)
-- [Výzkumná exploatace v EA studiích](/kompendium/critical-perspectives/19-research-exploitation/)
-- [Buddhistická psychologie](/kompendium/critical-perspectives/30-buddhist-psychology-alt/)
-- [Iatrogenní účinky EA intervencí](/kompendium/critical-perspectives/11-iatrogenic-overreach/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Patologizace normálních variací](/kompendium/critical-perspectives/2-pathologization-critique/)
-- [Framework overreach — když EA vysvětluje vše](/kompendium/critical-perspectives/3-framework-overreach/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
+- [Buddhistická psychologie](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md)
+- [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
+- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

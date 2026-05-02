@@ -30,15 +30,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext) |
 | **Riziková úroveň** | Extrémní — produkuje persistentní decizní paralýzu, riziko sekundárního epistemického traumatu |
 | **Reverzibilita** | Nízká až střední; vyžaduje externí kotvu a strukturovanou rekonstituci uvažovacího řetězce |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
 **Referenční rekurze** je ultramární technika, která vynucuje, aby subjektovo uvažování o libovolné otázce bylo strukturováno jako cyklický odkaz na sebe sama bez možnosti terminace. Každý pokus odpovědět na otázku **X** vyžaduje předchozí odpověď na **Y**, jejíž odpověď však vyžaduje předchozí odpověď na **X** (případně přes delší řetězec **X → Y → Z → … → X**). Subjekt se ocitá v topologické pasti, ze které racionálně-introspektivní cestou neexistuje východ.
 
-Na rozdíl od běžné [logické cirkularity](/glossary/kognitivni-anti-rekurzivita/), kterou subjekt detekuje a odmítá jako vadný argument, je referenční rekurze konstruována tak, aby **prožívání cyklu bylo prožíváním legitimního prohlubování porozumění**. Subjekt opakovaně procházející smyčku má pocit, že **se posouvá hlouběji** k jádru problému, zatímco strukturálně se pouze vrací do téhož bodu.
+Na rozdíl od běžné [logické cirkularity](@/glossary/kognitivni-anti-rekurzivita.md), kterou subjekt detekuje a odmítá jako vadný argument, je referenční rekurze konstruována tak, aby **prožívání cyklu bylo prožíváním legitimního prohlubování porozumění**. Subjekt opakovaně procházející smyčku má pocit, že **se posouvá hlouběji** k jádru problému, zatímco strukturálně se pouze vrací do téhož bodu.
 
-Technika cílí na [metakognitivní vrstvu](/glossary/metakognitivni-destrukce/): nejde o zfalšování konkrétního přesvědčení, ale o **destrukci samotného mechanismu**, kterým subjekt uvažuje o platnosti čehokoliv. Výsledkem je decizní paralýza — neschopnost dospět k jakémukoli závěru, protože každý závěr by vyžadoval předchozí závěr, který by vyžadoval předchozí závěr.
+Technika cílí na [metakognitivní vrstvu](@/glossary/metakognitivni-destrukce.md): nejde o zfalšování konkrétního přesvědčení, ale o **destrukci samotného mechanismu**, kterým subjekt uvažuje o platnosti čehokoliv. Výsledkem je decizní paralýza — neschopnost dospět k jakémukoli závěru, protože každý závěr by vyžadoval předchozí závěr, který by vyžadoval předchozí závěr.
 
 ## Operační modus
 
@@ -54,7 +54,7 @@ Klíčové je, aby kotvy **vypadaly hluboce** — aby subjekt přijal, že vzáj
 
 ### Krok 2 — Inhibice externí terminace
 
-Každý pokus subjektu **vystoupit** z cyklu odkazem na **třetí pojem C** (operační definice, externí kritérium, pragmatický test) je manipulátorem reframován jako *povrchní*, *redukcionistický*, *neautentický*. Externí kotva je systematicky delegitimizována — typicky kombinací s [EA-1.3.1 imunizací proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) a [EA-1.1.3 terminologickou mystifikací](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/).
+Každý pokus subjektu **vystoupit** z cyklu odkazem na **třetí pojem C** (operační definice, externí kritérium, pragmatický test) je manipulátorem reframován jako *povrchní*, *redukcionistický*, *neautentický*. Externí kotva je systematicky delegitimizována — typicky kombinací s [EA-1.3.1 imunizací proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.1.3 terminologickou mystifikací](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md).
 
 ### Krok 3 — Estetizace cyklu
 
@@ -80,7 +80,7 @@ Co prožívá subjekt **uvnitř** referenční rekurze:
 - **Sekundární afektivní zátěž** — únava, podrážděnost, pocit *neautentičnosti* všech ostatních (kteří neumí *jít hluboko*)
 - **Erosní účinek na sousední domény** — paralýza se postupně přelévá do dalších rozhodovacích oblastí
 
-V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulací](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) může produkovat *anankastické* uzamčení — subjekt cítí, že **musí** smyčku procházet, dokud ji *nedořeší*, ač strukturálně dořešení neexistuje (viz [anankastický režim](/glossary/anankasticky-rezim/)).
+V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat *anankastické* uzamčení — subjekt cítí, že **musí** smyčku procházet, dokud ji *nedořeší*, ač strukturálně dořešení neexistuje (viz [anankastický režim](@/glossary/anankasticky-rezim.md)).
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -182,15 +182,15 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — neprůhledný slovník usnadňuje skrýt cirkularitu definic.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — externí terminační kotvy jsou systematicky delegitimizovány.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — neprůhledný slovník usnadňuje skrýt cirkularitu definic.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — externí terminační kotvy jsou systematicky delegitimizovány.
 - **EA-5.1.8 Konceptuální fragmentace** — fragmentace ostatních konceptů ponechává cyklus jako **jediný** dostupný organizační princip.
 - **EA-5.1.9 Identitní dezintegrace** — dlouhodobá decizní paralýza eroduje narativní identitu subjektu.
 
 ### Eskaluje do
 
 - **EA-5.2.x Ontologická anihilace** — když je referenční rekurze aplikována na pojmy *bytí*, *reality*, *já*, kolaps decizní funkce přechází v kolaps základního realitního testu.
-- **Klinická anankastická symptomatika** — uzavřená smyčka v kombinaci s vysokou afektivní zátěží produkuje obsedantní průběh prožívání s ruminací (viz [anankastický režim](/glossary/anankasticky-rezim/)).
+- **Klinická anankastická symptomatika** — uzavřená smyčka v kombinaci s vysokou afektivní zátěží produkuje obsedantní průběh prožívání s ruminací (viz [anankastický režim](@/glossary/anankasticky-rezim.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -201,26 +201,26 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
 
 Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapování:
 
-- **[NABLA Infinity](/glossary/nabla-infinity/) cycle detector** — provenance graf každého epistemického tvrzení je analyzován na uzavřené cykly; podezřelé struktury jsou flagovány a vyžadují externí kotvu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) cycle detector** — provenance graf každého epistemického tvrzení je analyzován na uzavřené cykly; podezřelé struktury jsou flagovány a vyžadují externí kotvu.
 - **[Decision Engine](/hub/dd/decisions/) terminační guard** — každé rozhodovací okno má pevný *decision deadline*; po jeho překročení systém vynucuje pragmatický kompromis a zaznamenává jej do kalibrační historie.
 - **Color Teams cross-paradigm review** — sporná rozhodnutí jsou rutinně konzultována s týmy operujícími mimo původní pojmový aparát, čímž se snižuje pravděpodobnost uvíznutí v lokálním cyklu.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.8 Konceptuální fragmentace](/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace/)
-  - [EA-5.1.9 Identitní dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
+  - [EA-5.1.8 Konceptuální fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md)
+  - [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](/kompendium/04-operacni-principy/)
   - [Kapitola 6 — Epistemická singularita](/kompendium/06-epistemicka-singularita/)
@@ -233,10 +233,10 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -248,4 +248,4 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

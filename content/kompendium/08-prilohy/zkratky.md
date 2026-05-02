@@ -24,13 +24,13 @@ status = "complete"
 
 | Zkratka | Plný název (CS) | Plný název (EN) | Lokace |
 |---------|-----------------|-----------------|--------|
-| **EA** | Epistemická anihilace | Epistemic annihilation | [Glossary](/glossary/epistemicka-anihilace/) |
-| **KA** | Kognitivní anihilace | Cognitive annihilation | [Glossary](/glossary/kognitivni-anihilace/) |
-| **OA** | Ontologická anihilace | Ontological annihilation | [Glossary](/glossary/ontologicka-anihilace/) |
-| **MD** | Metakognitivní destrukce | Metacognitive destruction | [Glossary](/glossary/metakognitivni-destrukce/) |
-| **EAlien** | Epistemická alienace | Epistemic alienation | [Glossary](/glossary/epistemicka-alienace/) |
-| **CAR** | Kognitivní anti-rekurzivita | Cognitive anti-recursivity | [Glossary](/glossary/kognitivni-anti-rekurzivita/) |
-| **AR** | Anankastický režim | Anankastic regime | [Glossary](/glossary/anankasticky-rezim/) |
+| **EA** | Epistemická anihilace | Epistemic annihilation | [Glossary](@/glossary/epistemicka-anihilace.md) |
+| **KA** | Kognitivní anihilace | Cognitive annihilation | [Glossary](@/glossary/kognitivni-anihilace.md) |
+| **OA** | Ontologická anihilace | Ontological annihilation | [Glossary](@/glossary/ontologicka-anihilace.md) |
+| **MD** | Metakognitivní destrukce | Metacognitive destruction | [Glossary](@/glossary/metakognitivni-destrukce.md) |
+| **EAlien** | Epistemická alienace | Epistemic alienation | [Glossary](@/glossary/epistemicka-alienace.md) |
+| **CAR** | Kognitivní anti-rekurzivita | Cognitive anti-recursivity | [Glossary](@/glossary/kognitivni-anti-rekurzivita.md) |
+| **AR** | Anankastický režim | Anankastic regime | [Glossary](@/glossary/anankasticky-rezim.md) |
 
 ## 2. Notace technik kompendia
 
@@ -48,11 +48,11 @@ EA-X.Y.Z[-α]
 | **Z** | Specifický fenomén | 1, 2, ..., 99 |
 | **α** | Volitelná varianta | a, b, c, ... |
 
-Plná specifikace v [Klasifikačním schématu](/kompendium/08-prilohy/klasifikace/).
+Plná specifikace v [Klasifikačním schématu](@/kompendium/08-prilohy/klasifikace.md).
 
 ### 2.2 Příklady
 
-- `EA-1.1.1` — [Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
+- `EA-1.1.1` — [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
 - `EA-5.1.30` — Apoteoza prázdna (Kap. 5)
 - `EA-1.4.2-a` — Latentní emocionální modulace, varianta a
 
@@ -67,8 +67,8 @@ Plná specifikace v [Klasifikačním schématu](/kompendium/08-prilohy/klasifika
 | **EMDR** | Eye Movement Desensitization and Reprocessing | Terapie |
 | **CPT** | Cognitive Processing Therapy | Terapie |
 | **CBT** | Cognitive Behavioral Therapy | Terapie |
-| **BITE** | Behavior, Information, Thought, Emotional control | Hassanův model → [Diagnostika](/kompendium/08-prilohy/diagnosticke-nastroje/) |
-| **BFI-2** | Big Five Inventory–2 | Osobnostní dotazník → [Diagnostika](/kompendium/08-prilohy/diagnosticke-nastroje/) |
+| **BITE** | Behavior, Information, Thought, Emotional control | Hassanův model → [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |
+| **BFI-2** | Big Five Inventory–2 | Osobnostní dotazník → [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) |
 | **ECRI** | Ex-Cult Recovery Instrument | Recovery instrument |
 | **IES-R** | Impact of Event Scale–Revised | PTSD screening |
 | **DES-II** | Dissociative Experiences Scale–II | Disociace screening |
@@ -77,7 +77,7 @@ Plná specifikace v [Klasifikačním schématu](/kompendium/08-prilohy/klasifika
 
 | Zkratka | Plný název | Použití |
 |---------|------------|---------|
-| **IRB** | Institutional Review Board | Etický komitét → [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) |
+| **IRB** | Institutional Review Board | Etický komitét → [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) |
 | **APA** | American Psychological Association | Etické standardy |
 | **WMA** | World Medical Association | Helsinská deklarace |
 | **CIOMS** | Council for International Organizations of Medical Sciences | Mezinárodní guidelines |
@@ -116,7 +116,7 @@ Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, kter
 
 | Zkratka | Plný název | Funkce |
 |---------|------------|--------|
-| **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](/glossary/nabla-infinity/) |
+| **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](@/glossary/nabla-infinity.md) |
 | **AIAD** | AI-Augmented Development | Standardní rámec → [AIAD README](https://github.com/korczis/prismatic-platform/blob/main/.aiad/README.md) |
 | **DD** | Due Diligence | Modul pro investigativní práci → [Decision Engine](/hub/dd/decisions/) |
 | **OSINT** | Open Source Intelligence | Adapter framework |
@@ -215,20 +215,20 @@ Kompendium používá **modifikovaný APA 7. styl**:
 
 ## Cross-referencing s dalšími přílohami
 
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — citační konvence v kontextu primární literatury.
-- [Rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/) — operativní použití EA notace.
-- [Index pojmů](/kompendium/08-prilohy/index-pojmu/) — bilingvní mapování zkratek.
-- [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) — klinické zkratky v kontextu.
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — institucionální zkratky.
-- [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) — meta-úroveň notace.
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — citační konvence v kontextu primární literatury.
+- [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — operativní použití EA notace.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) — bilingvní mapování zkratek.
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — klinické zkratky v kontextu.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — institucionální zkratky.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — meta-úroveň notace.
 
 ## Platformový kontext
 
 - [CLAUDE.md](https://github.com/korczis/prismatic-platform/blob/main/CLAUDE.md) — kanonický zdroj 18-pillar doctrine zkratek.
-- [Glossary](/glossary/) — všechny domain zkratky mají glosářová hesla.
-- [NABLA Infinity](/glossary/nabla-infinity/) — epistemic framework.
+- [Glossary](@/glossary/_index.md) — všechny domain zkratky mají glosářová hesla.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemic framework.
 - [3NL](/glossary/three-nested-loops/) — architektura platformy.
-- [Color Teams](/glossary/color-teams/) — Red/Blue/Purple/Green týmy.
+- [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
 - [Decision Engine](/hub/dd/decisions/) — operativní použití DD zkratky.
 
 
@@ -239,7 +239,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -249,18 +249,18 @@ Místo lineární četby:
 
 ### V této sekci
 
-- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
-- [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/)
-- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
-- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
-- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
+- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
+- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
 
 ### Klíčové orientační body
 
-- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
-- [Glossary](/glossary/) — terminologický slovník
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
+- [Glossary](@/glossary/_index.md) — terminologický slovník
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
 
 ---
 
@@ -269,4 +269,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Přílohy](/kompendium/08-prilohy/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

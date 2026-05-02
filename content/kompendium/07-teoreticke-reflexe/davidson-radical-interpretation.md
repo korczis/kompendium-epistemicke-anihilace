@@ -34,7 +34,7 @@ Princip charity je strukturálně **transcendentální** podmínkou interpretace
 Pro EA z toho plyne:
 
 - **Útok na princip charity**: techniky, jež indukují **systematickou nedůvěru** vůči všemu a všem, strukturálně **anihilují** kapacitu interpretace.
-- **Klinický korelát**: paranoidní stavy strukturálně **odmítají** princip charity — vše je interpretováno jako **lež**, **klam**, **manipulace**. Strukturální analog Ricoeurovy hypertrofované hermeneutiky podezření ([viz 7.17](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)).
+- **Klinický korelát**: paranoidní stavy strukturálně **odmítají** princip charity — vše je interpretováno jako **lež**, **klam**, **manipulace**. Strukturální analog Ricoeurovy hypertrofované hermeneutiky podezření ([viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)).
 - **Systémové útoky**: dlouhodobá expozice EA technikám může **strukturálně erodovat** kapacitu pro princip charity.
 
 ## 2. Triangulace (*triangulation*)
@@ -83,7 +83,7 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce principu charity** jako klinický cíl — pacient se učí **selektivně** rozpoznat, kdy je důvěra namístě.
 - **Nikoli inflace charity**: princip charity není **bezbřehá** důvěra — je strukturální podmínkou interpretace, nikoli morální imperativ.
@@ -99,15 +99,15 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.10 Wittgenstein: Jazykové hry](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [7.23 Brandom: Inferenciální sémantika](/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [7.23 Brandom: Inferenciální sémantika](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md)
 - [7.24 McDowell: Mind and World](/kompendium/07-teoreticke-reflexe/mcDowell-mind-and-world/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -116,4 +116,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps noeticko-noematické korelace |
 | **Reverzibilita** | Nízká — 18–36 měsíců, vyžaduje fenomenologickou rekonstrukci |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -124,14 +124,14 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)** — paralelní destrukce konstitutivních aktů.
-- **[EA-5.2.14 Konstitutivní zhroucení](/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni/)** — eskalace na úrovni konstitutivní kapacity.
-- **[EA-5.2.21 Subjekt-objekt fúzia](/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia/)** — opačný extrém: fúze místo rozpojení.
-- **[EA-5.2.29 Meta-fenomenální redukce](/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce/)** — terminální redukce.
+- **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — paralelní destrukce konstitutivních aktů.
+- **[EA-5.2.14 Konstitutivní zhroucení](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md)** — eskalace na úrovni konstitutivní kapacity.
+- **[EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md)** — opačný extrém: fúze místo rozpojení.
+- **[EA-5.2.29 Meta-fenomenální redukce](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md)** — terminální redukce.
 
 ### Cross-kategoriální
 
-- **[EA-5.1.* Ontologické rozpouštění](/kompendium/05-ultramari-techniky/kapitola-6/)** — eskalační následek.
+- **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — eskalační následek.
 
 ## Vztah k Prismatic platformě
 
@@ -141,16 +141,16 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -161,4 +161,4 @@ Klíčový diferenciál: **autentický kontemplativec funguje intencionálně mi
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

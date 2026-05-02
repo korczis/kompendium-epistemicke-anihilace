@@ -17,7 +17,7 @@ toc = false
 
 ## Definice z glossary
 
-[metakognitivni-destrukce](/glossary/metakognitivni-destrukce/) — Metakognitivní destrukce je cílený rozklad schopnosti subjektu hodnotit vlastní myšlení. Liší se od dezinformace tím, že netargetuje obsah přesvědčení, nýbrž samotný aparát kontroly přesvědčení — kalibraci jistoty, schopnost rozpoznat manipulaci, paměť na vlastní rozhodnutí.
+[metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md) — Metakognitivní destrukce je cílený rozklad schopnosti subjektu hodnotit vlastní myšlení. Liší se od dezinformace tím, že netargetuje obsah přesvědčení, nýbrž samotný aparát kontroly přesvědčení — kalibraci jistoty, schopnost rozpoznat manipulaci, paměť na vlastní rozhodnutí.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -46,20 +46,20 @@ Oběti metakognitivní destrukce nejsou jen dezinformované — jsou odpojeny od
 
 ## Cross-linky
 
-- **Hub kompendia**: [/kompendium/](/kompendium/)
-- **Glossary entry**: [/glossary/metakognitivni-destrukce/](/glossary/metakognitivni-destrukce/)
-- **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
-- **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
-- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
+- **Glossary entry**: [/glossary/metakognitivni-destrukce/](@/glossary/metakognitivni-destrukce.md)
+- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
+- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
+- **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
 - **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
 - **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
 - **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
-- **Glossary hub**: [/glossary/](/glossary/)
+- **Glossary hub**: [/glossary/](@/glossary/_index.md)
 
 ---
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

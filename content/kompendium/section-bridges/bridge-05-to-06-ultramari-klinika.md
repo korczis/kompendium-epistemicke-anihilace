@@ -51,14 +51,14 @@ Klíčové koncepty: **klinický tým ultramari**, **safety circuits**, **klinic
 
 ## 6. Související
 
-- [05 — Ultramari](/kompendium/05-ultramari-techniky/)
-- [06 — Klinika](/kompendium/06-klinicke-aplikace/)
-- [Case studies: ultramari + klinika](/kompendium/case-studies/)
-- [Quick Reference: Ultramari](/kompendium/quick-reference/)
-- [Visualizations: Klinické flow](/kompendium/visualizations/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Techniques](/kompendium/techniques/)
-- [Decision Engine](/kompendium/glossary-bridges/bridge-decision-engine/)
+- [05 — Ultramari](@/kompendium/05-ultramari-techniky/_index.md)
+- [06 — Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Case studies: ultramari + klinika](@/kompendium/case-studies/_index.md)
+- [Quick Reference: Ultramari](@/kompendium/quick-reference/_index.md)
+- [Visualizations: Klinické flow](@/kompendium/visualizations/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Decision Engine](@/kompendium/glossary-bridges/bridge-decision-engine.md)
 
 ## 8. Klinický vzor ultramari: minimální tým
 
@@ -71,4 +71,4 @@ Bridge dodává **minimální tým** pro klinické ultramari: (1) primární fac
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

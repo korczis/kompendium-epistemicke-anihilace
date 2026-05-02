@@ -27,6 +27,6 @@ toc = true
 
 ## Connect
 
-- [Kompendium home](/kompendium/)
+- [Kompendium home](@/kompendium/_index.md)
 - [GitHub](https://github.com/korczis/prismatic-platform)
 - [Email](mailto:[e-mail odstraněn])

@@ -16,7 +16,7 @@ toc = true
 
 # 2.6 Vztah ke Prismatic NABLA Infinity (∇∞)
 
-Tato kapitola tematizuje **strukturní vztah** mezi taxonomií epistemické anihilace a [NABLA Infinity](/glossary/nabla-infinity/) — fundamentálním epistemickým rámcem Prismatic Platform. Vztah není dekorativní: NABLA je **operační implementací** mnoha defenzivních principů formulovaných taxonomií, přičemž taxonomie zase poskytuje **systematický katalog útoků**, vůči nimž NABLA musí být robustní. Tato symbióza představuje **strukturní inovaci** — taxonomie není pouhým teoretickým artefaktem, ale informuje konkrétní architekturu produkčního systému.
+Tato kapitola tematizuje **strukturní vztah** mezi taxonomií epistemické anihilace a [NABLA Infinity](@/glossary/nabla-infinity.md) — fundamentálním epistemickým rámcem Prismatic Platform. Vztah není dekorativní: NABLA je **operační implementací** mnoha defenzivních principů formulovaných taxonomií, přičemž taxonomie zase poskytuje **systematický katalog útoků**, vůči nimž NABLA musí být robustní. Tato symbióza představuje **strukturní inovaci** — taxonomie není pouhým teoretickým artefaktem, ale informuje konkrétní architekturu produkčního systému.
 
 ## NABLA jako epistemická infrastruktura
 
@@ -38,7 +38,7 @@ Pět hard-vynucených axiomů (1, 2, 4, 5, 7) generuje **E2 BLOCK** při poruše
 
 ## Epistemic Pipeline: 16 úrovní
 
-[Epistemic Pipeline](/glossary/epistemic-pipeline/) je 16-úrovňová transformační dráha implementující NABLA axiomy. Každá úroveň aplikuje specifické operace, jež strukturálně neutralizují konkrétní třídy útoků z taxonomie:
+[Epistemic Pipeline](@/glossary/epistemic-pipeline.md) je 16-úrovňová transformační dráha implementující NABLA axiomy. Každá úroveň aplikuje specifické operace, jež strukturálně neutralizují konkrétní třídy útoků z taxonomie:
 
 ### L0: Raw Signal Ingestion
 Surová data vstupují bez epistemické váhy. Defenzivní funkce: explicitní separace **vstupu** a **přesvědčení** — surová data nejsou implicitně přijata jako pravdivá.
@@ -80,7 +80,7 @@ Podpora rozhodování s explicitní reprezentací nejistoty a alternativ.
 Doporučení akce s podmíněnými a kontingentními variantami.
 
 ### L13: Integrated Knowledge
-Integrované poznání připravené pro [Trinity Gate](/glossary/trinity-gate/) verifikaci.
+Integrované poznání připravené pro [Trinity Gate](@/glossary/trinity-gate.md) verifikaci.
 
 ### Meta: Pipeline Self-Assessment
 **Reflexivní úroveň** — pipeline hodnotí vlastní operace. Strukturní obrana proti **kognitivní anti-rekurzivitě** — systém má strukturální mandát monitorovat sám sebe.
@@ -106,7 +106,7 @@ Apex úroveň — emergentní platformové vědomí monitorující dlouhodobé v
 
 ## Color Teams jako adversariální testování
 
-[Color Teams](/glossary/color-teams/) operacionalizují **strukturální adversariální testování** taxonomicky popsaných útoků v provozním prostředí Prismatic. Šest týmů (Gray, Red, Blue, Purple, White, Black) testuje robustnost NABLA defenz vůči kategoriím útoků formulovaným v taxonomii:
+[Color Teams](@/glossary/color-teams.md) operacionalizují **strukturální adversariální testování** taxonomicky popsaných útoků v provozním prostředí Prismatic. Šest týmů (Gray, Red, Blue, Purple, White, Black) testuje robustnost NABLA defenz vůči kategoriím útoků formulovaným v taxonomii:
 
 - **Gray Team** — Boundary exploration: identifikuje **mezery** v specifikaci, kde by anihilační techniky mohly proklouznout.
 - **Red Team** — Adversarial simulation: implementuje konkrétní EA-techniky proti systému (truth distortion, signal poisoning, drift induction, salience hijacking).
@@ -185,28 +185,28 @@ Integrace taxonomie a NABLA má strukturní limity, jež je nezbytné explicitn�
 
 ## Související
 
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [2.2 Historický kontext](/kompendium/02-uvod/historicky-kontext/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.4 Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Epistemic Pipeline](/glossary/epistemic-pipeline/)
-- [Glosář: NABLA Axioms](/glossary/nabla-axioms/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
+- [Glosář: NABLA Axioms](@/glossary/nabla-axioms.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
-[definici epistemické anihilace](/glossary/epistemicka-anihilace/) a zapiš si ji
+[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
 referenční bod pro detekci vlastního posunu pochopení.
@@ -220,4 +220,4 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

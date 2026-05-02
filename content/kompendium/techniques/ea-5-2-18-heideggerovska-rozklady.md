@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — destrukce existenciálních struktur pobytu |
 | **Reverzibilita** | Nízká — 24–48 měsíců, nutná autentická existenciální terapie |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -127,14 +127,14 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.13 Apriorní fragmentace](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/)** — paralelní fragmentace časovosti.
-- **[EA-5.2.17 Husserlovská redukce - perverze](/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze/)** — komplementární destrukce na fenomenologické rovině.
-- **[EA-5.2.19 Merleau-Pontyovská deformace](/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace/)** — destrukce tělesnosti.
-- **[EA-5.2.30 Konvergentní meta-singularita](/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita/)** — terminální stav.
+- **[EA-5.2.13 Apriorní fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)** — paralelní fragmentace časovosti.
+- **[EA-5.2.17 Husserlovská redukce - perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md)** — komplementární destrukce na fenomenologické rovině.
+- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — destrukce tělesnosti.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — primární eskalační doména.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — primární eskalační doména.
 
 ## Vztah k Prismatic platformě
 
@@ -144,16 +144,16 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -164,4 +164,4 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

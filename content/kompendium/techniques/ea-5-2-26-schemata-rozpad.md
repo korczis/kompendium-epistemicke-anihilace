@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — destrukce zprostředkujícího schématismu |
 | **Reverzibilita** | Velmi nízká — 24–48 měsíců, vyžaduje rekonstrukci kantovského schematismu |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -121,14 +121,14 @@ Schemata rozpad je odlišitelný od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.11 Kategoriální anihilace](/kompendium/techniques/ea-5-2-11-kategorialni-anihilace/)** — paralelní destrukce na kategoriální úrovni.
-- **[EA-5.2.14 Konstitutivní zhroucení](/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni/)** — paralelní destrukce konstituce.
-- **[EA-5.2.25 Kategoriální mlha](/kompendium/techniques/ea-5-2-25-kategorialni-mlha/)** — slabší varianta na kategoriální distinktnosti.
-- **[EA-5.2.27 Apriorní deformace](/kompendium/techniques/ea-5-2-27-apriorni-deformace/)** — paralelní deformace apriorních forem.
+- **[EA-5.2.11 Kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md)** — paralelní destrukce na kategoriální úrovni.
+- **[EA-5.2.14 Konstitutivní zhroucení](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md)** — paralelní destrukce konstituce.
+- **[EA-5.2.25 Kategoriální mlha](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md)** — slabší varianta na kategoriální distinktnosti.
+- **[EA-5.2.27 Apriorní deformace](@/kompendium/techniques/ea-5-2-27-apriorni-deformace.md)** — paralelní deformace apriorních forem.
 
 ### Cross-kategoriální
 
-- **[EA-5.1.* Ontologické rozpouštění](/kompendium/05-ultramari-techniky/kapitola-6/)** — eskalační následek.
+- **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — eskalační následek.
 
 ## Vztah k Prismatic platformě
 
@@ -138,16 +138,16 @@ Schemata rozpad je odlišitelný od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -158,4 +158,4 @@ Schemata rozpad je odlišitelný od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

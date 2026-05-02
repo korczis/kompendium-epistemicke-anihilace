@@ -17,7 +17,7 @@ access_level = "L1"
 
 # 6.9 Preventivní strategie
 
-Klinická intervence po manifestaci [epistemické anihilace](/glossary/epistemicka-anihilace/) je nezbytná, ale **strukturálně sekundární**. Primární odpovědí systému musí být **prevence** — etablování takové epistemické infrastruktury, ve které jsou techniky [taxonomie EA](/kompendium/03-zakladni-kategorie/kapitola-1/) **detekovatelné dříve**, **strukturálně méně účinné** a **kolektivně neutralizovány** dříve, než produkují klinické konsekvence (viz [případové studie K.](/kompendium/06-klinicke-aplikace/pripad-akademie/) a [M.](/kompendium/06-klinicke-aplikace/pripad-doktorat/)).
+Klinická intervence po manifestaci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je nezbytná, ale **strukturálně sekundární**. Primární odpovědí systému musí být **prevence** — etablování takové epistemické infrastruktury, ve které jsou techniky [taxonomie EA](@/kompendium/03-zakladni-kategorie/kapitola-1.md) **detekovatelné dříve**, **strukturálně méně účinné** a **kolektivně neutralizovány** dříve, než produkují klinické konsekvence (viz [případové studie K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)).
 
 Tato kapitola formuluje preventivní strategie na **třech úrovních** — personální, institucionální a kulturní. Žádná z úrovní není v izolaci dostatečná. Robustní prevence vyžaduje **integraci** všech tří.
 
@@ -27,7 +27,7 @@ Personální prevence operuje skrze **individuální kompetenci** subjektu — k
 
 ### Metakognitivní hygiena
 
-Strukturovaná, denně praktikovaná disciplína [metakognitivní](/glossary/metakognice/) reflexe:
+Strukturovaná, denně praktikovaná disciplína [metakognitivní](@/glossary/metakognice.md) reflexe:
 
 | Komponenta | Operace | Frekvence |
 |-----------|---------|-----------|
@@ -41,7 +41,7 @@ Personální praxe **nesmí degenerovat** v hyperreflexivitu, paranoidní episte
 
 ### Epistemická triangulace
 
-Strukturální prevence [selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) skrze **systematické udržování multiple nezávislých zdrojů**:
+Strukturální prevence [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) skrze **systematické udržování multiple nezávislých zdrojů**:
 
 - **Pravidlo tří mentorů** — žádný subjekt nemá pouze jednoho mentora pro **klíčové oblasti** (akademická, profesní, etická). Tři je strukturální minimum.
 - **Pravidlo deseti čtenářů** — pro každý publikační projekt mít minimálně 10 nezávislých čtenářů z různých kontextů před finalizací.
@@ -61,10 +61,10 @@ Tělo je **strukturálně robustnější** vůči manipulaci než kognitivní sy
 
 Strukturovaná **písemná dokumentace** vlastního myšlení odolává manipulativním retrospektivním rekonstrukcím:
 
-- **Deník epistemických rozhodnutí** — periodické zápisy klíčových rozhodnutí s datumem, kontextem, alternativami, kritérii. Umožňuje detekci [Salami posunů](/kompendium/03-zakladni-kategorie/kapitola-1/).
-- **Authorship log** — pro každý významný text: kdo navrhl, co bylo modifikováno, na čí podnět. Prevence [Trojan-konsekvencí](/kompendium/06-klinicke-aplikace/pripad-doktorat/).
-- **Konzultační log** — strukturovaný záznam mentorských a supervizních setkání: otevřené body, kritické body, rozřešení nebo odložení. Detekce [tematické diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/).
-- **Reading log** — rovnoměrný záznam čtení s atribucí zdroje doporučení. Detekce [selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/).
+- **Deník epistemických rozhodnutí** — periodické zápisy klíčových rozhodnutí s datumem, kontextem, alternativami, kritérii. Umožňuje detekci [Salami posunů](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
+- **Authorship log** — pro každý významný text: kdo navrhl, co bylo modifikováno, na čí podnět. Prevence [Trojan-konsekvencí](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md).
+- **Konzultační log** — strukturovaný záznam mentorských a supervizních setkání: otevřené body, kritické body, rozřešení nebo odložení. Detekce [tematické diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md).
+- **Reading log** — rovnoměrný záznam čtení s atribucí zdroje doporučení. Detekce [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
 
 ## II. Institucionální úroveň
 
@@ -72,7 +72,7 @@ Institucionální prevence překračuje individuální kompetenci — etabluje *
 
 ### Peer review reformy
 
-Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) (kritika je zamítnuta jako "non-rigorózní") a [tematické diverzi](/kompendium/techniques/ea-1-3-3-tematicka-diverze/). Reformy:
+Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) (kritika je zamítnuta jako "non-rigorózní") a [tematické diverzi](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md). Reformy:
 
 - **Adversarial collaboration** — povinná koautorská spolupráce s **oponentní pozicí** pro prestižní publikační formáty
 - **Open peer review** — transparentní recenzní proces s atribucí
@@ -82,7 +82,7 @@ Tradiční peer review je strukturálně vulnerabilní vůči [imunizaci proti f
 
 ### Supervizní mosty
 
-Doktorské a postdoktorální vzdělávání je vysoce vulnerabilním kontextem ([viz případy K. a M.](/kompendium/06-klinicke-aplikace/)). Reformy:
+Doktorské a postdoktorální vzdělávání je vysoce vulnerabilním kontextem ([viz případy K. a M.](@/kompendium/06-klinicke-aplikace/_index.md)). Reformy:
 
 - **Pravidlo dvou školitelů** — žádná disertace nemá pouze jednoho školitele; druhý školitel z **jiné instituce** s formální autoritou
 - **Roční externí evaluace** — povinná externí evaluace progresu doktorského studia, nezávislá na primárním školiteli
@@ -101,7 +101,7 @@ Tradiční etické komise jsou kompetentní v běžných etických problémech (
 
 ### Anti-Salami protokoly
 
-Salami vzorec ([viz kapitola 1](/kompendium/03-zakladni-kategorie/kapitola-1/) a [případ M.](/kompendium/06-klinicke-aplikace/pripad-doktorat/)) je institucionálně **těžko adresovatelný**, protože každý krok je individuálně **subliminální**. Strukturální protokol:
+Salami vzorec ([viz kapitola 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) a [případ M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)) je institucionálně **těžko adresovatelný**, protože každý krok je individuálně **subliminální**. Strukturální protokol:
 
 - **Trajektorové revize** — periodické (kvartální) revize dlouhodobých vývojů, kde aktuální pozice je explicitně **porovnávána s výchozí**
 - **Drift threshold alerts** — formalizované prahy, jejichž překročení iniciuje povinnou multilaterální revizi (např. 30% změna disertačního zaměření)
@@ -110,7 +110,7 @@ Salami vzorec ([viz kapitola 1](/kompendium/03-zakladni-kategorie/kapitola-1/) a
 
 ### Anti-Trojan audity
 
-[Trojan vzorec](/kompendium/06-klinicke-aplikace/pripad-doktorat/) — vpašování problematických prvků pod ochranou legitimního obsahu — vyžaduje:
+[Trojan vzorec](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) — vpašování problematických prvků pod ochranou legitimního obsahu — vyžaduje:
 
 - **Authorship attribution audity** — formalizovaný proces přiřazení autorství jednotlivým komponentám díla
 - **Citační kompletnost** — institucionální penalizace neexplicitní citace
@@ -119,7 +119,7 @@ Salami vzorec ([viz kapitola 1](/kompendium/03-zakladni-kategorie/kapitola-1/) a
 
 ### Mentorský pluralismus
 
-Strukturální prevence [Guru/adept vzorce](/kompendium/03-zakladni-kategorie/kapitola-1/):
+Strukturální prevence [Guru/adept vzorce](@/kompendium/03-zakladni-kategorie/kapitola-1.md):
 
 - **Anti-monopoly normy** — žádný mentor nemá více než N (typicky 4-6) souběžných mentees v dané instituci
 - **Cross-institutional rotace** — povinné rotace mezi mentory pro doktorandy a postdoktorandy
@@ -139,7 +139,7 @@ Kulturní strategie systematické **edukativní expozice** EA technikám v kontr
 - **Magisterská kompetence** — pokročilé rozpoznání kompozičních vzorců, analytická aplikace na klasické případy
 - **Doktorská kompetence** — plné vzdělávání včetně etických aspektů, příprava na **mentorskou roli** s vědomím dual-use rizika
 
-Tento progres je strukturován v [kapitole 3 (sekce 03)](/kompendium/03-zakladni-kategorie/kapitola-3/).
+Tento progres je strukturován v [kapitole 3 (sekce 03)](@/kompendium/03-zakladni-kategorie/kapitola-3.md).
 
 ### Mediální kompetence
 
@@ -199,24 +199,24 @@ Preventivní strategie nesmí zůstat na úrovni rétoriky — musí být **mě�
 - **Institucionální**: Kvartální etické audity, výroční transparenční reporty, anonymní zpětnovazební indikátory
 - **Kulturní**: Longitudinální studie incidence EA-trauma, vzdělávací výsledky, profesní indikátory
 
-Auditovatelnost je strukturální kondicí **integrity prevence** — bez ní se preventivní rétorika může sama stát [imunizační](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) strategií.
+Auditovatelnost je strukturální kondicí **integrity prevence** — bez ní se preventivní rétorika může sama stát [imunizační](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) strategií.
 
 ## Související
 
-- [6.6 Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/) — sister článek
-- [6.7 Případová studie: Akademický kontext](/kompendium/06-klinicke-aplikace/pripad-akademie/) — sister článek
-- [6.8 Případová studie: Doktorské vedení](/kompendium/06-klinicke-aplikace/pripad-doktorat/) — sister článek
-- [6.10 Kolektivní/institucionální intervence](/kompendium/06-klinicke-aplikace/kolektivni-intervence/) — sister článek
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) — parent
-- [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [Kapitola 3 — Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/)
-- [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Anankastický režim](/glossary/anankasticky-rezim/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Gaslighting](/glossary/gaslighting/), [Delegitimizace](/glossary/delegitimizace/), [Dual-use poznání](/glossary/dual-use-poznani/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Metakognice](/glossary/metakognice/), [Hermeneutika](/glossary/hermeneutika/), [Fenomenologie](/glossary/fenomenologie/)
-- Platforma: [Decision Engine](/hub/dd/decisions/), [Nabla Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/), [Boundary Ethics](/philosophy/boundary-ethics/)
+- [6.6 Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) — sister článek
+- [6.7 Případová studie: Akademický kontext](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) — sister článek
+- [6.8 Případová studie: Doktorské vedení](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) — sister článek
+- [6.10 Kolektivní/institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md) — sister článek
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — parent
+- [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
+- [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Gaslighting](@/glossary/gaslighting.md), [Delegitimizace](@/glossary/delegitimizace.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Metakognice](@/glossary/metakognice.md), [Hermeneutika](@/glossary/hermeneutika.md), [Fenomenologie](@/glossary/fenomenologie.md)
+- Platforma: [Decision Engine](/hub/dd/decisions/), [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
 
 
 ## ⚡ Kritický krok
@@ -229,9 +229,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -242,4 +242,4 @@ Před aplikací:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

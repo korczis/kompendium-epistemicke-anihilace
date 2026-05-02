@@ -23,7 +23,7 @@ status = "publikovano"
 
 ## Analytická pozice rekonstituce v sekvenci
 
-[Kapitola 4](/kompendium/04-terminalni-protokoly/kapitola-4/) etabluje pětistupňovou progresivní strukturu (Foundation, Exposure, Stressing, Disintegration, Capstone). Jak [úvodní rámec sekce 04](/kompendium/04-terminalni-protokoly/) i analýza [ultimátního scénáře](/kompendium/04-terminalni-protokoly/ultimatni-scenar/) zdůrazňují, **strukturální dělicí čára** mezi legitimním extrémním výcvikem a destruktivním terminálním protokolem **není v technikách použitých v prvních pěti fázích**, ale v přítomnosti, kvalitě a dimenzování **šesté fáze — strukturované rekonstituce**.
+[Kapitola 4](@/kompendium/04-terminalni-protokoly/kapitola-4.md) etabluje pětistupňovou progresivní strukturu (Foundation, Exposure, Stressing, Disintegration, Capstone). Jak [úvodní rámec sekce 04](@/kompendium/04-terminalni-protokoly/_index.md) i analýza [ultimátního scénáře](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md) zdůrazňují, **strukturální dělicí čára** mezi legitimním extrémním výcvikem a destruktivním terminálním protokolem **není v technikách použitých v prvních pěti fázích**, ale v přítomnosti, kvalitě a dimenzování **šesté fáze — strukturované rekonstituce**.
 
 Tento dokument popisuje strukturu této šesté fáze. Cílem rekonstituce není vrátit subjekt do *přesně* stejného stavu jako před expozicí (což by činilo expozici nesmyslnou), ale do stavu, ve kterém:
 
@@ -85,7 +85,7 @@ Ve čtvrté fázi je systematicky obnovován pojmový aparát, který byl v expo
 - integrace nových pojmů (pokud expozice nějaké zavedla),
 - znovuetablování metakognitivního monitoringu nad pojmovým aparátem.
 
-Tento krok přímo odpovídá invertované struktuře [konceptuální dekonstrukce](/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce/). Tam, kde destruktivní protokol rozpouští kotvy a instaluje alternativní matrici, etická rekonstituce **rekonstruuje vlastní matrici subjektu** s explicitní reflexí změn.
+Tento krok přímo odpovídá invertované struktuře [konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md). Tam, kde destruktivní protokol rozpouští kotvy a instaluje alternativní matrici, etická rekonstituce **rekonstruuje vlastní matrici subjektu** s explicitní reflexí změn.
 
 Doba: typicky 2–4 měsíce, sezení o frekvenci týdenní až dvoutýdenní.
 
@@ -98,7 +98,7 @@ V páté fázi je obnovován **synchronní role-set** a sociální vazby. Mechan
 - znovuetablování horizontálních vazeb (peer-skupina z výcviku, ne-výcviková peer-skupina, klinická podpora),
 - reflexe změny ve vztahu ke významným druhým, kteří expozici nesdíleli.
 
-Tato fáze přímo invertuje strukturu [identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/) — místo fragmentace role-setu probíhá jeho reintegrace; místo separace od identifikačních kotev probíhá jejich znovuobjetí.
+Tato fáze přímo invertuje strukturu [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md) — místo fragmentace role-setu probíhá jeho reintegrace; místo separace od identifikačních kotev probíhá jejich znovuobjetí.
 
 Doba: typicky 3–6 měsíců, integrovaná do běžného života subjektu s pravidelnými klinickými kontrolami.
 
@@ -130,7 +130,7 @@ R6 je analyticky klíčová z hlediska **fiduciární odpovědnosti instituce**.
 
 | Marker | Strukturální indikace |
 |--------|----------------------|
-| Perzistentní disociativní symptomy | Subjekt zůstává v reflexivním kolapsu z [identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/) |
+| Perzistentní disociativní symptomy | Subjekt zůstává v reflexivním kolapsu z [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md) |
 | Lexikální fixace na výcvikové prostředí | Externí jazyk dominuje nad vlastním |
 | Strukturální závislost na výcvikové instituci | Subjekt nemůže funkcionovat mimo výcvikový rámec |
 | Plochý afekt s úsměvem | Disociativní obrana místo skutečné emocionální stability |
@@ -139,7 +139,7 @@ R6 je analyticky klíčová z hlediska **fiduciární odpovědnosti instituce**.
 | Idealizace expozice | Strukturální blízkost postkultové identifikace |
 | Devaluace předchozího života | Indikátor postkonverzního stavu |
 
-Při detekci kterékoli z těchto markerů je nutná **specializovaná klinická intervence**, viz [Sekce 06](/kompendium/06-klinicke-aplikace/).
+Při detekci kterékoli z těchto markerů je nutná **specializovaná klinická intervence**, viz [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md).
 
 ## Etické principy rekonstituce
 
@@ -169,7 +169,7 @@ Subjekt si zachovává právo *odmítnout integrující rámec*, který mu insti
 
 ## Vazby na klinickou intervenci
 
-Sekce [Klinické aplikace](/kompendium/06-klinicke-aplikace/) rozvádí specifické intervenční techniky pro subjekty po neúplné nebo selhané rekonstituci. Klíčové intervenční modely:
+Sekce [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) rozvádí specifické intervenční techniky pro subjekty po neúplné nebo selhané rekonstituci. Klíčové intervenční modely:
 
 - *Trauma-fokusovaná narativní expozice*,
 - *Phase-oriented treatment* pro disociativní následky,
@@ -179,18 +179,18 @@ Sekce [Klinické aplikace](/kompendium/06-klinicke-aplikace/) rozvádí specific
 
 ## Související materiály
 
-- [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
-- [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
-- [Ultimátní výcvikový scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/)
-- [Konceptuální dekonstrukce](/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce/)
-- [Identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/)
-- [Institucionální anihilace](/kompendium/04-terminalni-protokoly/institucionalni-anihilace/)
-- [Před-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
-- [Intra-simulační monitoring](/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/) — terapeutické modely pro post-expozici
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/) · [Kognitivní anihilace](/glossary/kognitivni-anihilace/) · [Ontologická anihilace](/glossary/ontologicka-anihilace/) · [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) · [Anankastický režim](/glossary/anankasticky-rezim/) · [Epistemická alienace](/glossary/epistemicka-alienace/) · [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) · [Taxonomie EA](/glossary/taxonomie-ea/) · [Dual-use poznání](/glossary/dual-use-poznani/) · [Epistemické trauma](/glossary/epistemicke-trauma/) · [Gaslighting](/glossary/gaslighting/) · [Delegitimizace](/glossary/delegitimizace/)
-- Filozofie: [Intelektuální suverenita](/philosophy/intellectual-sovereignty/) · [Epistemická integrita](/philosophy/epistemic-integrity/) · [Boundary ethics](/philosophy/boundary-ethics/)
-- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](/glossary/nabla-infinity/) · [Color Teams](/glossary/color-teams/)
+- [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
+- [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
+- [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)
+- [Konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md)
+- [Identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md)
+- [Institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)
+- [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
+- [Intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické modely pro post-expozici
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
+- Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
+- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -198,16 +198,16 @@ Sekce [Klinické aplikace](/kompendium/06-klinicke-aplikace/) rozvádí specific
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -216,4 +216,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

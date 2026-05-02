@@ -43,19 +43,19 @@ Exit byl iniciovan akutní krizí po neúspěchu velkého direct action a interp
 
 ## EA techniky manifestovane
 
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — eko-úzkost jako emoční kotva
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "all-in nebo komplic systému"
-- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — kritika hnutí = "tone policing"
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — vůdci hnutí jako moralní autority
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — kolektivní disciplinace
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — interní žargon
-- [EA-5.1.10 Temporalni dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) — "krize teď" vs. dlouhodobé plánování
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — eko-úzkost jako emoční kotva
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "all-in nebo komplic systému"
+- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — kritika hnutí = "tone policing"
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — vůdci hnutí jako moralní autority
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — kolektivní disciplinace
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — interní žargon
+- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — "krize teď" vs. dlouhodobé plánování
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "Roky jsem si myslela, že mám pravdu, kterou ostatní popírají. A v hnutí jsme se začali navzájem trestat za 'nedostatečnou radikálnost'. Lidi byli vyloučeni za malá porušení 'čistoty'. Nakonec jsem byla vyloučena já — za to, že jsem řekla, že některá akce byla nepromýšlená. A v tu chvíli jsem viděla, že hnutí, které jsem milovala, je samé totalitarni jako to, co kritizuje."
 
-Tato narace odpovida [betrayal trauma](/glossary/betrayal-trauma/) a [metakognitivni rekonstrukci](/glossary/metakognitivni-destrukce/).
+Tato narace odpovida [betrayal trauma](@/glossary/betrayal-trauma.md) a [metakognitivni rekonstrukci](@/glossary/metakognitivni-destrukce.md).
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Activism cult ukazuje, že morální správnost cíle (klimatická krize) nezakl
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
-- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-1.3.2](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
+- **Techniques**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

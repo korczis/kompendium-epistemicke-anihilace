@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Politická instrumentalizace EA](/kompendium/critical-perspectives/6-political-instrumentalization/)
+- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
 - [Reprodukční krize a EA výzkum](/kompendium/critical-perspectives/7-replication-EA-research/)
-- [Teoretický imperialismus — EA jako totalizující rámec](/kompendium/critical-perspectives/8-theoretical-imperialism/)
-- [Kruhové uvažování v EA detekci](/kompendium/critical-perspectives/4-circular-reasoning-risk/)
-- [Framework overreach — když EA vysvětluje vše](/kompendium/critical-perspectives/3-framework-overreach/)
+- [Teoretický imperialismus — EA jako totalizující rámec](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
+- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
 - [Mocenská asymetrie v EA aplikaci](/kompendium/critical-perspectives/14-power-asymmetry-EA/)
-- [Narativní medicína](/kompendium/critical-perspectives/24-narrative-medicine-alternative/)
-- [Otázka validity souhlasu v EA výzkumu](/kompendium/critical-perspectives/15-consent-validity-question/)
-- [Kritická psychiatrie](/kompendium/critical-perspectives/25-critical-psychiatry-alternative/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
+- [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
+- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

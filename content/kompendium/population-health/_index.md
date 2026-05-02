@@ -39,7 +39,7 @@ Všechny články dodržují **18 pilířů Prismatic doctrine**:
 
 ## Connect
 
-- **Glossary**: [/glossary/](/glossary/)
+- **Glossary**: [/glossary/](@/glossary/_index.md)
 - **Cross-domain**: [Cross-Domain](../cross-domain/_index.md)
 - **API**: [/api/v1/epi/ea/](/api/v1/epi/ea/)
 - **Helpline (CZ)**: 116 123, 800 200 207

@@ -29,7 +29,7 @@ Sellarsův argument: **pre-konceptuální** entitu nelze vůbec **citovat** v os
 Pro EA má kritika mýtu daného **trojí relevanci**:
 
 1. **Naivní empirismus jako EA-zranitelná pozice**: subjekt věřící v "čistá data" je strukturálně **manipulovatelný** — útočník může podsouvat **kontaminovaná data** jako "objektivní fakta".
-2. **Algoritmické "data-driven" rétoriky**: pojem "data driven decision making" často skrývá **konceptuální** předpoklady ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)).
+2. **Algoritmické "data-driven" rétoriky**: pojem "data driven decision making" často skrývá **konceptuální** předpoklady ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)).
 3. **Klinická aplikace**: pacient přemýšlející v termínech "objektivních faktů" vs. "subjektivních pocitů" je strukturálně **zranitelný** vůči gaslightingu.
 
 ## 2. Konceptualismus a otevřenost
@@ -58,7 +58,7 @@ Pro EA má druhá příroda **specifický význam**:
 
 - **Vzdělávání jako rezilience**: kvalitní *Bildung* je strukturálním zdrojem rezilience vůči EA.
 - **Útok na vzdělávací systémy** je **strategickým** útokem na druhou přírodu — anihilace kultivačních institucí (univerzit, knihoven, kvalitního žurnalismu) je strukturální technika EA.
-- **Antropotechniky** Sloterdijka ([viz 7.1 §3.3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) jsou strukturálně **kultivacemi** druhé přirozenosti.
+- **Antropotechniky** Sloterdijka ([viz 7.1 §3.3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) jsou strukturálně **kultivacemi** druhé přirozenosti.
 
 ## 4. Empirická vázanost
 
@@ -72,7 +72,7 @@ Tato pozice umožňuje **realismus bez naivity**:
 
 Pro EA z toho plyne:
 
-- **Epistemická integrita** ([viz Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)) je strukturálně **vázáním na svět** — ochota **revidovat** přesvědčení pod tlakem empirické evidence.
+- **Epistemická integrita** ([viz Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) je strukturálně **vázáním na svět** — ochota **revidovat** přesvědčení pod tlakem empirické evidence.
 - **EA techniky** strukturálně **uvolňují** racionální vázanost — fabrikují alternativní reality, jež nejsou empiricky disciplinované.
 - **Klinický korelát**: subjekti chronicky exposující EA často ztrácí kapacitu **empirické revize** — drží se hypotéz **proti** evidenci.
 
@@ -88,7 +88,7 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Obnovení otevřenosti** jako klinický cíl — nikoli pouze "stabilizace symptomů".
 - **Pedagogická dimenze terapie**: terapeut jako **kultivátor** druhé přirozenosti pacienta.
@@ -104,15 +104,15 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.23 Brandom: Inferenciální sémantika](/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics/)
-- [7.16 Davidson: Radikální interpretace](/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.23 Brandom: Inferenciální sémantika](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md)
+- [7.16 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -121,4 +121,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

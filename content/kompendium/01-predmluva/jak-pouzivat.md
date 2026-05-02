@@ -47,7 +47,7 @@ Princip **graduální expozice** zohledňuje jak kognitivní, tak etické aspekt
 
 > Princip graduální expozice **není pouze didaktickým nástrojem** — je integrální součástí etického rámce. Nikdy nepřistupujte k pokročilejším částem bez důkladného pochopení předchozích sekcí.
 
-Tento princip má konkrétní operační implementaci v [bezpečnostní klasifikaci](/kompendium/01-predmluva/bezpecnostni-klasifikace/): postup z úrovně L1 na L4 vyžaduje nejen formální kvalifikaci, ale prokazatelné zvládnutí předchozí úrovně manifestované v supervidované praxi.
+Tento princip má konkrétní operační implementaci v [bezpečnostní klasifikaci](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md): postup z úrovně L1 na L4 vyžaduje nejen formální kvalifikaci, ale prokazatelné zvládnutí předchozí úrovně manifestované v supervidované praxi.
 
 ### Multidimenzionální klasifikace
 
@@ -69,19 +69,19 @@ Neredukujte komplexitu na jediný aspekt. Multidimenzionální klasifikace je ex
 | **Hierarchický obsah** | Stromová struktura — orientace v celku |
 | **Křížové odkazy** | Interní linky propojující související fenomény |
 | **Tematické indexy** | Organizace podle různých klasifikačních kritérií |
-| **Per-technique články** | [techniques](/kompendium/techniques/) — hloubkové samostatné stránky pro každou techniku EA-X.Y.Z |
-| **Glosář** | [glossary](/glossary/) — abecední seznam s definicemi |
-| **Scénářové spinout články** | [Scénář F](/kompendium/03-zakladni-kategorie/scenar-f/), [G](/kompendium/03-zakladni-kategorie/scenar-g/), [H](/kompendium/03-zakladni-kategorie/scenar-h/) — detailní rozpracování |
+| **Per-technique články** | [techniques](@/kompendium/techniques/_index.md) — hloubkové samostatné stránky pro každou techniku EA-X.Y.Z |
+| **Glosář** | [glossary](@/glossary/_index.md) — abecední seznam s definicemi |
+| **Scénářové spinout články** | [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md) — detailní rozpracování |
 | **Platformová integrace** | [Decision Engine](/hub/dd/decisions/) pro empirické testování taxonomických hypotéz |
 
 ## Doporučené čtenářské strategie
 
 ### Pro úvodní orientaci
 
-1. Důkladné studium **předmluvy** ([Sekce 01](/kompendium/01-predmluva/))
+1. Důkladné studium **předmluvy** ([Sekce 01](@/kompendium/01-predmluva/_index.md))
 2. Postupné procházení hlavních částí s důrazem na úvodní sekce každé kapitoly
 3. Studium závěrečných **syntetických kapitol** pro pochopení strukturálních invariant
-4. Konzultace [glosáře](/glossary/) při setkání s neznámými pojmy
+4. Konzultace [glosáře](@/glossary/_index.md) při setkání s neznámými pojmy
 5. Reflexe vlastní motivace pro studium kompendia (defensivní vs. akademická)
 
 ### Pro diagnostické účely
@@ -89,13 +89,13 @@ Neredukujte komplexitu na jediný aspekt. Multidimenzionální klasifikace je ex
 1. Identifikace klíčových symptomů a jejich lokalizace
 2. Detailní studium relevantních fenoménů + diferenciální diagnostika
 3. Konzultace **anonymizovaných případových studií** s podobným symptomatickým obrazem
-4. Aplikace diagnostických algoritmů ze [Sekce 06](/kompendium/06-klinicke-aplikace/)
+4. Aplikace diagnostických algoritmů ze [Sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)
 5. **Triangulace** s kolegy — interdiskvalifikace mylné diagnózy
 6. Dokumentace diagnostické úvahy podle struktury Decision Engine
 
 ### Pro výzkumné účely
 
-1. Identifikace relevantních teoretických rámců v [Sekci 07](/kompendium/07-teoreticke-reflexe/)
+1. Identifikace relevantních teoretických rámců v [Sekci 07](@/kompendium/07-teoreticke-reflexe/_index.md)
 2. Studium **metodologických poznámek** specifických pro zkoumanou problematiku
 3. Analýza vztahů pomocí konceptuálních map
 4. Bibliografické odkazy pro hlubší ponor
@@ -114,10 +114,10 @@ Neredukujte komplexitu na jediný aspekt. Multidimenzionální klasifikace je ex
 ### Pro defenzivní bezpečnostní praxi
 
 1. Důkladné porozumění detekčním markerům jednotlivých fenoménů
-2. Studium scénářových sekvencí ([F](/kompendium/03-zakladni-kategorie/scenar-f/), [G](/kompendium/03-zakladni-kategorie/scenar-g/), [H](/kompendium/03-zakladni-kategorie/scenar-h/))
+2. Studium scénářových sekvencí ([F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md))
 3. Operacionalizace markerů do detekčních pravidel pro [Decision Engine](/hub/dd/decisions/)
 4. Pravidelná aktualizace detekčních heuristik podle nových případů
-5. Koordinace s [Color Teams](/glossary/color-teams/) skrze institucionální kanály
+5. Koordinace s [Color Teams](@/glossary/color-teams.md) skrze institucionální kanály
 
 ## Terminologický aparát
 
@@ -130,7 +130,7 @@ Taxonomie využívá specializovaný terminologický aparát kombinující pojmy
 - **Sociálně-strukturální** — kolektivní a institucionální dimenze
 - **Sémioticko-lingvistická** — jazyk jako vektor manipulace
 
-Pro adekvátní práci je nezbytné důkladné seznámení skrze **glosář** ([viz `/glossary/`](/glossary/)) a průběžné definice v textu.
+Pro adekvátní práci je nezbytné důkladné seznámení skrze **glosář** ([viz `/glossary/`](@/glossary/_index.md)) a průběžné definice v textu.
 
 ## Notační konvence
 
@@ -144,7 +144,7 @@ Každá technika má jednoznačný identifikátor `EA-X.Y.Z-α`:
 
 Identifikátor slouží jako **stabilní klíč** pro odkazování — i pokud se prezentační URL změní, EA kód zůstává.
 
-Pro scénáře se používá konvence `EA-3.2.[F-Z]`, kde písmeno indikuje konkrétní scénář v rámci kapitoly delegitimizace. Příklad: `EA-3.2.F` = [Scénář F: Kolektivní epistemická delegitimizace](/kompendium/03-zakladni-kategorie/scenar-f/).
+Pro scénáře se používá konvence `EA-3.2.[F-Z]`, kde písmeno indikuje konkrétní scénář v rámci kapitoly delegitimizace. Příklad: `EA-3.2.F` = [Scénář F: Kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md).
 
 ## Bezpečnostní upozornění při samostudiu
 
@@ -174,17 +174,17 @@ Většina uživatelů reportuje, že **třetí a další** průchody přinášej
 
 ## Související
 
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Pro koho je určeno](/kompendium/01-predmluva/pro-koho-je-urceno/)
-- [Etické aspekty a upozornění](/kompendium/01-predmluva/eticke-aspekty/)
-- [Bezpečnostní klasifikace přístupu](/kompendium/01-predmluva/bezpecnostni-klasifikace/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
-- [Definice epistemické a kognitivní anihilace](/kompendium/02-uvod/definice/)
-- [Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Techniques index](/kompendium/techniques/)
-- [Glossary](/glossary/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
+- [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
+- [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Techniques index](@/kompendium/techniques/_index.md)
+- [Glossary](@/glossary/_index.md)
 - [Decision Engine](/hub/dd/decisions/)
 
 
@@ -192,7 +192,7 @@ Většina uživatelů reportuje, že **třetí a další** průchody přinášej
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/), a víš, **kdy
+[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
@@ -204,4 +204,4 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

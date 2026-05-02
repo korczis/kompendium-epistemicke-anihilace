@@ -98,7 +98,7 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Poskytování příležitostné **skutečně nápomocné** zpětné vazby pro etablování kredibility
 - Vyjádření speciálního zájmu o potenciál subjektu
 - Vytváření pocitu **exkluzivního vztahu** a privilegované pozornosti
-- [EA-1.4.2 (latentní emocionální modulace)](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — kultivace pozitivních asociací
+- [EA-1.4.2 (latentní emocionální modulace)](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — kultivace pozitivních asociací
 
 **Detekční markery**:
 
@@ -121,8 +121,8 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Vágní subjektivní hodnotící kritéria
 - Alternace mezi kontradiktorními standardy bez uznání nekonzistence
 - Simultánní kritizování protichůdných charakteristik ("příliš detailní" + "nedostatečně detailní")
-- [EA-1.2.1 (falešné dilema)](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — nemožné volby
-- [EA-1.3.1 (imunizace proti falsifikaci)](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) standardů
+- [EA-1.2.1 (falešné dilema)](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — nemožné volby
+- [EA-1.3.1 (imunizace proti falsifikaci)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) standardů
 
 **Detekční markery**:
 
@@ -146,8 +146,8 @@ Typickým výsledkem je **ochromující sebepochybnost** kombinovaná se **silno
 - Dezinterpretace argumentů subjektu před kritizováním této dezinterpretace (straw-man)
 - Uvalování arbitrárních metodologických požadavků **až po** dokončení práce
 - Prezentace subjektivních stylistických preferencí jako univerzálních standardů
-- [EA-1.2.2 (falešná ekvivalence)](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) — bezvýznamné chyby srovnávané se zásadními
-- [EA-1.4.1 (prosodická dominance)](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/) v ústní zpětné vazbě
+- [EA-1.2.2 (falešná ekvivalence)](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — bezvýznamné chyby srovnávané se zásadními
+- [EA-1.4.1 (prosodická dominance)](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) v ústní zpětné vazbě
 
 **Detekční markery**:
 
@@ -314,55 +314,55 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 ## Související
 
 ### Sister scenarios
-- [Scénář F: Kolektivní epistemická delegitimizace](/kompendium/03-zakladni-kategorie/scenar-f/)
-- [Scénář G: Progresivní kognitivní dekonstrukce](/kompendium/03-zakladni-kategorie/scenar-g/)
+- [Scénář F: Kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md)
+- [Scénář G: Progresivní kognitivní dekonstrukce](@/kompendium/03-zakladni-kategorie/scenar-g.md)
 
 ### Kapitoly
-- [Kapitola 1: Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [Kapitola 2: Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- [Kapitola 3: Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/)
+- [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
 
 ### Předmluva
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Etické aspekty](/kompendium/01-predmluva/eticke-aspekty/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
-- [EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-- [EA-1.2.2 Falešná ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
-- [EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
-- [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
-- [EA-1.5.2 Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
 
 ### Sekce
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Sekce 05: Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Sekce 07: Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Sekce 08: Přílohy](/kompendium/08-prilohy/)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Sekce 08: Přílohy](@/kompendium/08-prilohy/_index.md)
 
 ### Glosář
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Anankastický režim](/glossary/anankasticky-rezim/)
-- [Epistemická alienace](/glossary/epistemicka-alienace/)
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Anihilační fenomény](/glossary/anihilacni-fenomeny/)
 
 ### Platforma
 - [Decision Engine](/hub/dd/decisions/)
 - [Calibration Dashboard](/hub/dd/decisions/calibration/)
-- [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/)
-- [Philosophy: Boundary Ethics](/philosophy/boundary-ethics/)
-- [Glossary: Color Teams](/glossary/color-teams/)
+- [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
+- [Glossary: Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -375,4 +375,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

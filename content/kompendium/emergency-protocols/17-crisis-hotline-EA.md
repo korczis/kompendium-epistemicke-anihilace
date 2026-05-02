@@ -19,7 +19,7 @@ toc = true
 
 ## 1. Klinická situace
 
-Volající na krizovou linku v EA-emergency — konzultant musí během 5–8 minut diferencovat EA od jiných crisis a aplikovat specifickou intervenci. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](/glossary/disociace/) a koordinaci péče. Kontext **intervence na krizové lince specifická pro EA** vyžaduje specifické porozumění dynamice [epistemické anihilace](/glossary/epistemicka-anihilace/), [betrayal trauma](/glossary/betrayal-trauma/) a možného [iatrogenic harm](/glossary/iatrogenic-harm/) z předchozích léčebných intervencí.
+Volající na krizovou linku v EA-emergency — konzultant musí během 5–8 minut diferencovat EA od jiných crisis a aplikovat specifickou intervenci. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **intervence na krizové lince specifická pro EA** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
 > **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
@@ -49,22 +49,22 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Psychotický zlom po EA](/kompendium/emergency-protocols/3-psychotic-break-EA/)
 
 **Návazná dlouhodobá péče:**
-- [Longitudinální rekonstruktivní protokoly](/kompendium/recovery-protocols/)
+- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
-- [Ultramarinové techniky](/kompendium/05-ultramari-techniky/)
+- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
-- [c-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Gaslighting](/glossary/gaslighting/)
-- [Disociace](/glossary/disociace/)
-- [Iatrogenic harm](/glossary/iatrogenic-harm/)
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [c-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Gaslighting](@/glossary/gaslighting.md)
+- [Disociace](@/glossary/disociace.md)
+- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
 - [Decision Engine — kalibrace klinických rozhodnutí](/hub/dd/decisions/calibration)
-- [Confidence Lens — diagnostická infografika](/kompendium/quick-reference/)
+- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 
 ## 6. Connect
 

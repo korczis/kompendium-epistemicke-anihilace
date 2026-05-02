@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L4 (ultramarinní — vyžaduje supervizi) |
 | **Riziková úroveň** | Ultramarinní — vede k úplné izolaci subjektu od reality |
 | **Reverzibilita** | Mimořádně nízká — solipsisticky uzavřený subjekt **odmítá** externí referenty jako "iluzorní" |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 Termín "dekompozice" (oproti pouhé "izolaci") podtrhuje, že technika nepůsobí pouhým **odříznutím** od vnějšího světa, ale **rozkladem** epistemických vazeb, které normálně vážou subjekta k realitě: percepce, paměť, svědectví druhých, institucionální evidence, vědecký konsensus, kauzální interakce. Každá vazba je systematicky **rozložena** filozofickou nebo terapeutickou rétorikou.
 
-Tato technika je **terminálním** stupněm v epistemické singularitě: zatímco [EA-5.1.16 inferenční paralýza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/) zastavuje pohyb a [EA-5.1.17 tautologická imploze](/kompendium/techniques/ea-5-1-17-tautologicka-imploze/) vyprazdňuje obsah, **solipsistická dekompozice** odřezává subjekta od světa, vůči kterému by mohl něco vyvozovat nebo o čem by mohl něco vědět.
+Tato technika je **terminálním** stupněm v epistemické singularitě: zatímco [EA-5.1.16 inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) zastavuje pohyb a [EA-5.1.17 tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) vyprazdňuje obsah, **solipsistická dekompozice** odřezává subjekta od světa, vůči kterému by mohl něco vyvozovat nebo o čem by mohl něco vědět.
 
 ## Operační modus
 
@@ -182,9 +182,9 @@ Doktorand 5 let pracoval na disertaci o "iluzornosti vnějšího světa". Postup
 
 ### Často se kombinuje s
 
-- **[EA-5.1.16 Inferenční paralýza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/)** — neschopnost vyvozovat o vnějším světě umožňuje jeho dekompozici
-- **[EA-5.1.17 Tautologická imploze](/kompendium/techniques/ea-5-1-17-tautologicka-imploze/)** — vyprázdněný slovník nepomáhá kotvit ve světě
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — filtrace zdrojů schopných solipsismus rozbít
+- **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — neschopnost vyvozovat o vnějším světě umožňuje jeho dekompozici
+- **[EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md)** — vyprázdněný slovník nepomáhá kotvit ve světě
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace zdrojů schopných solipsismus rozbít
 - **EA-1.6.1 Vzorec "Guru a adept"** — guru produkuje solipsistické uzavření jako kontrolní mechanismus
 
 ### Eskaluje do
@@ -210,32 +210,32 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.16 Inferenční paralýza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/)
-  - [EA-5.1.17 Tautologická imploze](/kompendium/techniques/ea-5-1-17-tautologicka-imploze/)
+  - [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)
+  - [EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md)
 - **Sesterské UM techniky**:
-  - [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-  - [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
+  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+  - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -245,10 +245,10 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -260,4 +260,4 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

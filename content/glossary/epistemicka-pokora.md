@@ -25,7 +25,7 @@ image_alt = "Epistemická pokora - glossary"
 
 Legitimate epistemic humility has identifiable structure: it is **selective** (appropriate to the domain — humility about quantum mechanics differs from humility about one's own headache), **proportionate** (calibrated to actual evidence and competence), **agentic** (preserves the subject's capacity to evaluate and act), and **revisable** (open to upward revision when warranted, not just downward).
 
-The **weaponized form**, classified as **EA-1.6.5** in the [Kompendium taxonomy](/glossary/taxonomie-ea/), inverts each of these properties. The target is induced into a state of **global, indiscriminate, agency-paralyzing pseudo-humility** — a posture indistinguishable from humility on the surface but functionally equivalent to learned epistemic helplessness. The classical move: "You can't really *know* anything for sure, can you?" repeated until the target's confidence in any claim — including the claim that they are being manipulated — collapses.
+The **weaponized form**, classified as **EA-1.6.5** in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md), inverts each of these properties. The target is induced into a state of **global, indiscriminate, agency-paralyzing pseudo-humility** — a posture indistinguishable from humility on the surface but functionally equivalent to learned epistemic helplessness. The classical move: "You can't really *know* anything for sure, can you?" repeated until the target's confidence in any claim — including the claim that they are being manipulated — collapses.
 
 The diagnostic distinction lies in **functional outcome**: legitimate humility *enables* further inquiry; weaponized humility *terminates* it. Legitimate humility is *domain-indexed*; weaponized humility is *globalized*. Legitimate humility *preserves agency*; weaponized humility *transfers it* to the manipulator, who is now framed as the only locus of reliable judgement.
 
@@ -33,19 +33,19 @@ The diagnostic distinction lies in **functional outcome**: legitimate humility *
 
 Within the Prismatic Platform, the legitimate/weaponized distinction is operationalized in the [Decision Engine](/hub/dd/decisions/) calibration metrics. A subject reporting **uniformly low confidence across all domains** triggers a calibration alert — this is not "humility," it is a marker of epistemic compromise. The pattern is documented at [Kompendium → EA-1.6.5](/kompendium/techniques/ea-1-6-5/) with full case studies and recovery protocols at [/kompendium/06-zotaveni/pokora/](/kompendium/06-zotaveni/pokora/).
 
-The [NABLA Infinity](/glossary/nabla-infinity/) pipeline distinguishes the two modes via cross-domain confidence variance: legitimate humility produces *high variance* in confidence across domains (the subject is humble where they should be, confident where they should be); weaponized humility produces *flat, uniformly suppressed* confidence. This metric is exposed in the platform's calibration dashboard and feeds into the [Brier score](/glossary/epistemic-confidence/) tracking on the [Calibration LiveView](/hub/dd/decisions/calibration).
+The [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline distinguishes the two modes via cross-domain confidence variance: legitimate humility produces *high variance* in confidence across domains (the subject is humble where they should be, confident where they should be); weaponized humility produces *flat, uniformly suppressed* confidence. This metric is exposed in the platform's calibration dashboard and feeds into the [Brier score](@/glossary/epistemic-confidence.md) tracking on the [Calibration LiveView](/hub/dd/decisions/calibration).
 
-The recovery doctrine — documented in [Kompendium](/kompendium/) — emphasizes that the antidote to weaponized humility is not "more confidence" but **restored domain-indexing**: helping the subject reconstruct the differentiated structure of legitimate humility versus legitimate confidence.
+The recovery doctrine — documented in [Kompendium](@/kompendium/_index.md) — emphasizes that the antidote to weaponized humility is not "more confidence" but **restored domain-indexing**: helping the subject reconstruct the differentiated structure of legitimate humility versus legitimate confidence.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat model
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive parallel damage
-- [Metakognice](/glossary/metakognice/) — Reflective monitoring required for calibrated humility
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Damage that disables humility-calibration
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
-- [Epistemic Confidence](/glossary/epistemic-confidence/) — Calibration counterpart
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat model
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive parallel damage
+- [Metakognice](@/glossary/metakognice.md) — Reflective monitoring required for calibrated humility
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Damage that disables humility-calibration
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
+- [Epistemic Confidence](@/glossary/epistemic-confidence.md) — Calibration counterpart
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -54,4 +54,4 @@ The recovery doctrine — documented in [Kompendium](/kompendium/) — emphasize
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

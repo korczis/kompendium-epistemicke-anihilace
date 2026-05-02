@@ -78,16 +78,16 @@ Vendor scorecard (delivery, price, behavior), 3-vendor minimum pro kritické slu
 
 ## 6. Cross-linky
 
-- [Oddělení povinností](/kompendium/organizational-defense/29-segregation-duties/)
-- [Rotace rolí](/kompendium/organizational-defense/30-rotation-of-roles/)
-- [Sledovatelnost rozhodnutí](/kompendium/organizational-defense/21-decision-traceability/)
-- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
+- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
 - [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
 - [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
-- [Interní vyšetřování](/kompendium/organizational-defense/32-internal-investigation/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Vendor scorecard (delivery, price, behavior), 3-vendor minimum pro kritické slu
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

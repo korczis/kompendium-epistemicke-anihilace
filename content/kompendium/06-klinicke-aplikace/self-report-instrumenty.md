@@ -17,13 +17,13 @@ toc = true
 
 ## Klinická pozice
 
-[Self-report](/glossary/self-report/) instrumenty mají v diagnostice [epistemické anihilace](/glossary/epistemicka-anihilace/) (EA) **paradoxní postavení**: pacient s pokročilou EA má **narušenou metakognici** (klastr A v [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)), což je přesně schopnost, která self-reporting umožňuje. Klinik proto musí self-report **interpretovat s vědomím** této strukturální omezenosti — nejen číst "co pacient říká", ale modelovat "co je pacient schopen vidět".
+[Self-report](/glossary/self-report/) instrumenty mají v diagnostice [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **paradoxní postavení**: pacient s pokročilou EA má **narušenou metakognici** (klastr A v [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)), což je přesně schopnost, která self-reporting umožňuje. Klinik proto musí self-report **interpretovat s vědomím** této strukturální omezenosti — nejen číst "co pacient říká", ale modelovat "co je pacient schopen vidět".
 
 ## Kategorie self-report instrumentů
 
 Self-report v EA praxi se dělí na tři vrstvy:
 
-1. **Strukturované self-report dotazníky** (GES, PEAS, MCQ-30 — viz [6.1.1](/kompendium/06-klinicke-aplikace/screening-instrumenty-detail/));
+1. **Strukturované self-report dotazníky** (GES, PEAS, MCQ-30 — viz [6.1.1](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md));
 2. **Otevřené narrativní self-report formáty** (deníky, eseje, autobiografické vinetty);
 3. **Ekologická momentní asesment** (EMA) — opakované krátké dotazování v reálném prostředí.
 
@@ -76,7 +76,7 @@ EMA je **gold-standard** pro detekci dynamiky EA — protože EA se projevuje ne
 4. Jaké je moje aktuální emoční ladění? (5 možností)
 5. Cítím nejistotu ohledně něčeho, co se nedávno stalo? (ne / mírně / silně)
 
-**Klinická interpretace**: pokud skóre v otázkách 2 a 3 výrazně **fluktuují podle kontaktu** s konkrétní osobou (např. partnerem, lídrem skupiny), je to silný signál [coercive control](/glossary/coercive-control/) nebo [gaslightingu](/glossary/gaslighting/).
+**Klinická interpretace**: pokud skóre v otázkách 2 a 3 výrazně **fluktuují podle kontaktu** s konkrétní osobou (např. partnerem, lídrem skupiny), je to silný signál [coercive control](@/glossary/coercive-control.md) nebo [gaslightingu](@/glossary/gaslighting.md).
 
 ### Vizualizace EMA dat
 
@@ -87,7 +87,7 @@ Klinik a pacient společně prohlížejí časové řady — zejména:
 
 ## Self-report a metakognitivní destrukce
 
-Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní destrukcí](/glossary/metakognitivni-destrukce/) **nemá přístup** k vlastní zkušenosti manipulace. Tomu odpovídá několik klinických adaptací:
+Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) **nemá přístup** k vlastní zkušenosti manipulace. Tomu odpovídá několik klinických adaptací:
 
 1. **Pre/post srovnání** — pacient hodnotí situaci až s odstupem (1 týden, 1 měsíc), kdy je distance umožní reflektovat;
 2. **Trojí self-report** — pacient vyjadřuje (a) jak se cítí teď, (b) jak by se cítila *blízká přítelkyně* na jeho místě, (c) jak by to popsal *cizinec*. Diskrepance mezi (a) a (b)/(c) odhalí blokovanou reflexi;
@@ -115,12 +115,12 @@ EMA data lze importovat do [Decision Engine](/hub/dd/decisions/) jako **temporá
 
 ## Související
 
-- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.1.1 Screeningové instrumenty](/kompendium/06-klinicke-aplikace/screening-instrumenty-detail/)
-- [6.1.2 Semi-structured interview](/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol/)
+- [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)
+- [6.1.2 Semi-structured interview](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
 - [6.1.4 Observational assessment](/kompendium/06-klinicke-aplikace/observational-assessment/)
-- [Sekce 03](/kompendium/03-zakladni-kategorie/) | [Sekce 04](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Metakognice](/glossary/metakognice/) | [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
+- [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | [Sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Metakognice](@/glossary/metakognice.md) | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 
 ---
 
@@ -129,4 +129,4 @@ EMA data lze importovat do [Decision Engine](/hub/dd/decisions/) jako **temporá
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

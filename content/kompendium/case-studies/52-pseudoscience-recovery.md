@@ -43,19 +43,19 @@ Exit byl iniciovan finanční krizí (rodina na hraně bankrotu) a manželkou, k
 
 ## EA techniky manifestovane
 
-- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — útoky na akademické kredence
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "skalární vlny", "torsion fields" jako vědecky znějící termíny
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — neúspěch experimentu = "stínová věda interferuje"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické filtrování posilující content
-- [EA-5.1.5 Logicka diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/) — nezdrženlivá kombinace vědeckých termínů
-- [EA-1.2.3 Iluzorni komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) — pseudo-matematicky aparát
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — online komunity "free energy" jako pseudo-recenzent
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — útoky na akademické kredence
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "skalární vlny", "torsion fields" jako vědecky znějící termíny
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — neúspěch experimentu = "stínová věda interferuje"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické filtrování posilující content
+- [EA-5.1.5 Logicka diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md) — nezdrženlivá kombinace vědeckých termínů
+- [EA-1.2.3 Iluzorni komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) — pseudo-matematicky aparát
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — online komunity "free energy" jako pseudo-recenzent
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Když mi inženýr ze starého zaměstnání ukázal základní rovnice termodynamiky, věděl jsem to vždy. Měl jsem doktorát z toho. Ale roky jsem to popíral. Někde mezi mnou a fyzikou bylo zrcadlo, které mě přesvědčovalo, že vidím něco jiného. Jak je možné, že jsem si nevšiml?"
 
-Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat vlastní epistemickou degradaci přes formální vzdělání.
+Tato narace odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat vlastní epistemickou degradaci přes formální vzdělání.
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Pseudoveda recovery ukazuje, že vysoké formální vzdělání není ochrana pr
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [epistemic-bubble](/glossary/epistemic-bubble/)
-- **Techniques**: [EA-2.1.3](/kompendium/techniques/ea-2-1-3-credentialing-attack/), [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-5.1.5](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
+- **Techniques**: [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-5.1.5](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

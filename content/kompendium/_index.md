@@ -56,39 +56,39 @@ Kompendium je určeno **výhradně** pro:
 
 | # | Sekce | Stav | Obsah |
 |---|-------|------|-------|
-| **01** | [Předmluva](/kompendium/01-predmluva/) | ✓ kompletní | Účel, cílová skupina, etika, metodika |
-| **02** | [Úvod do epistemické anihilace](/kompendium/02-uvod/) | ✓ kompletní | Definice, historický kontext, teoretické základy |
-| **03** | [Základní kategorie](/kompendium/03-zakladni-kategorie/) | ✓ kompletní | Akademické techniky, delegitimizace, edukativní implementace, 3 scénáře |
-| **04** | [Terminální protokoly](/kompendium/04-terminalni-protokoly/) | ✓ kompletní | 9 článků: konceptuální/identitní/institucionální dekonstrukce, screening, monitoring, rekonstituce |
-| **05** | [Ultramární techniky](/kompendium/05-ultramari-techniky/) | ◐ částečně publikováno | 5 narativních kapitol (6–10) + 100/150 detailních technik (5.1.\* + 5.2.\* + 5.4.\*) |
-| **06** | [Klinické aplikace](/kompendium/06-klinicke-aplikace/) | ✓ kompletní | 10 článků: diagnostika, terapie, rekonstrukce, vulnerabilní populace, kazuistiky |
-| **07** | [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) | ✓ kompletní | 9 článků: filosofie, sociální epistemologie, postmodernismus, kognitivní vědy, digitální věk |
-| **08** | [Přílohy](/kompendium/08-prilohy/) | ✓ kompletní | 7 referenčních článků: bibliografie, rejstřík, index pojmů, etický kodex, klasifikace |
-| **09** | [Techniques](/kompendium/techniques/) | ◐ 363/400 publikováno | Per-technique podknihovna s hloubkovými články (deskripce, fenomenologie, detekce, neutralizace) |
-| **10** | [Case Studies](/kompendium/case-studies/) | ✓ 80 případů | Anonymizované klinické a forenzní kazuistiky napříč EA-1 až EA-8 |
-| **11** | [Quick Reference](/kompendium/quick-reference/) | ✓ 123 QR karet | Stručné karty pro rychlou identifikaci techniky v terénu |
-| **12** | [Glossary Bridges](/kompendium/glossary-bridges/) | ✓ 102 můstků | Cross-link můstky mezi kompendiem a platformovým glosářem |
-| **13** | [Section Bridges](/kompendium/section-bridges/) | ✓ 30 můstků | Cross-link můstky mezi sekcemi kompendia (1↔3, 2↔4, atd.) |
-| **14** | [Recovery Protocols](/kompendium/recovery-protocols/) | ✓ 30 protokolů | Strukturované postupy zotavení po expozici technikám |
-| **15** | [Emergency Protocols](/kompendium/emergency-protocols/) | ✓ 40 protokolů | Akutní intervenční postupy pro krizové situace |
-| **16** | [AIAD Integration](/kompendium/aiad-integration/) | ✓ 25 integračních článků | Propojení kompendia s AIAD agenty a doctrine pillars |
-| **17** | [Cross-Domain](/kompendium/cross-domain/) | ✓ 30 cross-doménových | OSINT/DD/HR/forenzní/legal aplikace technik |
-| **18** | [Educational Scenarios](/kompendium/educational-scenarios/) | ✓ 30 scénářů | Edukativní výukové scénáře pro tréninky |
-| **19** | [Historical Cases](/kompendium/historical-cases/) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, propaganda) |
-| **20** | [Detection Signatures](/kompendium/detection-signatures/) | ✓ 30 signatur | Strojově čitelné detekční signatury pro automatizaci |
-| **21** | [Vizualizace](/kompendium/visualizations/) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
+| **01** | [Předmluva](@/kompendium/01-predmluva/_index.md) | ✓ kompletní | Účel, cílová skupina, etika, metodika |
+| **02** | [Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md) | ✓ kompletní | Definice, historický kontext, teoretické základy |
+| **03** | [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) | ✓ kompletní | Akademické techniky, delegitimizace, edukativní implementace, 3 scénáře |
+| **04** | [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) | ✓ kompletní | 9 článků: konceptuální/identitní/institucionální dekonstrukce, screening, monitoring, rekonstituce |
+| **05** | [Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | ◐ částečně publikováno | 5 narativních kapitol (6–10) + 100/150 detailních technik (5.1.\* + 5.2.\* + 5.4.\*) |
+| **06** | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | ✓ kompletní | 10 článků: diagnostika, terapie, rekonstrukce, vulnerabilní populace, kazuistiky |
+| **07** | [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) | ✓ kompletní | 9 článků: filosofie, sociální epistemologie, postmodernismus, kognitivní vědy, digitální věk |
+| **08** | [Přílohy](@/kompendium/08-prilohy/_index.md) | ✓ kompletní | 7 referenčních článků: bibliografie, rejstřík, index pojmů, etický kodex, klasifikace |
+| **09** | [Techniques](@/kompendium/techniques/_index.md) | ◐ 363/400 publikováno | Per-technique podknihovna s hloubkovými články (deskripce, fenomenologie, detekce, neutralizace) |
+| **10** | [Case Studies](@/kompendium/case-studies/_index.md) | ✓ 80 případů | Anonymizované klinické a forenzní kazuistiky napříč EA-1 až EA-8 |
+| **11** | [Quick Reference](@/kompendium/quick-reference/_index.md) | ✓ 123 QR karet | Stručné karty pro rychlou identifikaci techniky v terénu |
+| **12** | [Glossary Bridges](@/kompendium/glossary-bridges/_index.md) | ✓ 102 můstků | Cross-link můstky mezi kompendiem a platformovým glosářem |
+| **13** | [Section Bridges](@/kompendium/section-bridges/_index.md) | ✓ 30 můstků | Cross-link můstky mezi sekcemi kompendia (1↔3, 2↔4, atd.) |
+| **14** | [Recovery Protocols](@/kompendium/recovery-protocols/_index.md) | ✓ 30 protokolů | Strukturované postupy zotavení po expozici technikám |
+| **15** | [Emergency Protocols](@/kompendium/emergency-protocols/_index.md) | ✓ 40 protokolů | Akutní intervenční postupy pro krizové situace |
+| **16** | [AIAD Integration](@/kompendium/aiad-integration/_index.md) | ✓ 25 integračních článků | Propojení kompendia s AIAD agenty a doctrine pillars |
+| **17** | [Cross-Domain](@/kompendium/cross-domain/_index.md) | ✓ 30 cross-doménových | OSINT/DD/HR/forenzní/legal aplikace technik |
+| **18** | [Educational Scenarios](@/kompendium/educational-scenarios/_index.md) | ✓ 30 scénářů | Edukativní výukové scénáře pro tréninky |
+| **19** | [Historical Cases](@/kompendium/historical-cases/_index.md) | ✓ 40 historických | Historické případy aplikace technik (sekta, totalitní režimy, propaganda) |
+| **20** | [Detection Signatures](@/kompendium/detection-signatures/_index.md) | ✓ 30 signatur | Strojově čitelné detekční signatury pro automatizaci |
+| **21** | [Vizualizace](@/kompendium/visualizations/_index.md) | ✓ 6 interaktivních | Chart.js / Three.js / p5.js: distribuce, severity, 3D graf, trajektorie zotavení, simulace |
 
 ### Detailní techniky
 
-Vedle hlavních sekcí je kompendium doprovázeno **[per-technique podknihovnou](/kompendium/techniques/)** — každá zaznamenaná technika dostává samostatný článek s rozšířenou deskripcí, fenomenologií, detekčními markery, neutralizačními strategiemi a případovými studiemi.
+Vedle hlavních sekcí je kompendium doprovázeno **[per-technique podknihovnou](@/kompendium/techniques/_index.md)** — každá zaznamenaná technika dostává samostatný článek s rozšířenou deskripcí, fenomenologií, detekčními markery, neutralizačními strategiemi a případovými studiemi.
 
 ## Klíčové koncepty
 
 ### Epistemická anihilace
-Systematická destrukce schopnosti poznávat, vyhodnocovat informace a konstruovat koherentní obraz reality — fenomén překračující hranice klasické psychopatologie. Viz [glosářové heslo](/glossary/epistemicka-anihilace/).
+Systematická destrukce schopnosti poznávat, vyhodnocovat informace a konstruovat koherentní obraz reality — fenomén překračující hranice klasické psychopatologie. Viz [glosářové heslo](@/glossary/epistemicka-anihilace.md).
 
 ### Kognitivní anihilace
-Narušení základních kognitivních struktur a procesů, které může vést k fundamentální dezintegraci myšlení a vnímání. Viz [glosářové heslo](/glossary/kognitivni-anihilace/).
+Narušení základních kognitivních struktur a procesů, které může vést k fundamentální dezintegraci myšlení a vnímání. Viz [glosářové heslo](@/glossary/kognitivni-anihilace.md).
 
 ### Taxonomické osy
 
@@ -117,15 +117,15 @@ EA-X.Y.Z-α
 
 **Příklady — jedna technika z každé publikované kapitoly**:
 
-- **Kapitola 1.1** — `EA-1.1.1` [Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-- **Kapitola 1.2** — `EA-1.2.1` [Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-- **Kapitola 1.3** — `EA-1.3.1` [Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- **Kapitola 1.4** — `EA-1.4.1` [Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
-- **Kapitola 1.5** — `EA-1.5.1` [Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)
-- **Kapitola 2.1** — `EA-2.1.1` [Expertní disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)
-- **Kapitola 5.1** — `EA-5.1.1` [Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
-- **Kapitola 5.2** — `EA-5.2.1` [Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)
-- **Kapitola 5.4** — `EA-5.4.1` [Lhářský paradox — aplikace](/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace/)
+- **Kapitola 1.1** — `EA-1.1.1` [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+- **Kapitola 1.2** — `EA-1.2.1` [Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+- **Kapitola 1.3** — `EA-1.3.1` [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- **Kapitola 1.4** — `EA-1.4.1` [Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
+- **Kapitola 1.5** — `EA-1.5.1` [Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)
+- **Kapitola 2.1** — `EA-2.1.1` [Expertní disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+- **Kapitola 5.1** — `EA-5.1.1` [Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
+- **Kapitola 5.2** — `EA-5.2.1` [Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)
+- **Kapitola 5.4** — `EA-5.4.1` [Lhářský paradox — aplikace](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md)
 
 ## Etické principy
 
@@ -149,10 +149,10 @@ EA-X.Y.Z-α
 
 Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic platformou skrze:
 
-- **[Epistemic Pipeline](/glossary/epistemic-pipeline/)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
-- **[Color Teams](/glossary/color-teams/)**: detekční markery z kompendia jsou používány Red Team agenty pro epistemic adversarial simulation.
+- **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
+- **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány Red Team agenty pro epistemic adversarial simulation.
 - **[Decision Engine](/hub/dd/decisions/)**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
-- **[Glossary](/glossary/)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
+- **[Glossary](@/glossary/_index.md)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
 
 ## Inkrementální publikace
 
@@ -181,15 +181,15 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - **Vizualizace**: 6 interaktivních (Chart.js / Three.js / p5.js)
 - **Celkový rozsah**: **1 061+ markdown souborů**, **~900 000+ slov** (cca **2 800+ stran A4**)
 
-**Aktuální stav publikace**: viz [techniques index](/kompendium/techniques/) pro přesný počet a stav každé techniky.
+**Aktuální stav publikace**: viz [techniques index](@/kompendium/techniques/_index.md) pro přesný počet a stav každé techniky.
 
 ## Související čtení
 
-- [Filozofie platformy: Epistemic Integrity](/philosophy/epistemic-integrity/)
-- [Boundary Ethics](/philosophy/boundary-ethics/)
-- [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [NABLA Infinity Framework](/glossary/nabla-infinity/)
-- [Glossary: Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [Filozofie platformy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Boundary Ethics](@/philosophy/boundary-ethics.md)
+- [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [NABLA Infinity Framework](@/glossary/nabla-infinity.md)
+- [Glossary: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 ---
 
@@ -203,10 +203,10 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -219,4 +219,4 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

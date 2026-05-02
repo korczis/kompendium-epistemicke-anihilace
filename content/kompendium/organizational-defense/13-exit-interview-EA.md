@@ -78,16 +78,16 @@ Externí firma, anonymizovaná čtvrtletní agregace trends, automatický flag p
 
 ## 6. Cross-linky
 
-- [Psychologická bezpečnost](/kompendium/organizational-defense/16-psychological-safety/)
-- [Politika rotace týmů](/kompendium/organizational-defense/17-team-rotation-policy/)
-- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
 - [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
-- [Trauma-aware management](/kompendium/organizational-defense/36-trauma-aware-management/)
+- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
 - [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
-- [Náhrada vedení](/kompendium/organizational-defense/38-leadership-replacement/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Externí firma, anonymizovaná čtvrtletní agregace trends, automatický flag p
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

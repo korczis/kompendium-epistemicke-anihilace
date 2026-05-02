@@ -110,7 +110,7 @@ Pro EA má algoritmická zodpovědnost **strukturální význam**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Generační diagnostika**: pacientova generační lokalizace strukturálně modifikuje klinický přístup
 - **Mediální gramotnost** jako klinický nástroj
@@ -134,17 +134,17 @@ boydova práce má **přímou** politickou aplikaci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.41 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.50 Dawkins: Mem](/kompendium/07-teoreticke-reflexe/dawkins-meme/)
-- [7.54 Chomsky: Manufacturing Consent](/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent/)
-- [7.56 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [7.58 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [7.59 Floridi: Fourth Revolution](/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
+- [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)
+- [7.56 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [7.58 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [7.59 Floridi: Fourth Revolution](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -153,4 +153,4 @@ boydova práce má **přímou** politickou aplikaci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -18,11 +18,11 @@ status = "publikovano"
 
 # 04. Terminální protokoly
 
-> ⚠️ **Přístupová úroveň L2 (rozšířený přístup)** — Tato sekce popisuje **komplexní sekvence vedoucí k systematické epistemické destrukci**. Materiál je určen výhradně pokročilým výzkumníkům, klinickým specialistům a bezpečnostním analytikům s adekvátním vzděláním, institucionálním zázemím a etickou supervizí. Přístup k této sekci implicitně znamená přijetí etických principů a bezpečnostních protokolů specifikovaných v [Předmluvě](/kompendium/01-predmluva/) a [Sekci 02 — Úvod do epistemické anihilace](/kompendium/02-uvod/).
+> ⚠️ **Přístupová úroveň L2 (rozšířený přístup)** — Tato sekce popisuje **komplexní sekvence vedoucí k systematické epistemické destrukci**. Materiál je určen výhradně pokročilým výzkumníkům, klinickým specialistům a bezpečnostním analytikům s adekvátním vzděláním, institucionálním zázemím a etickou supervizí. Přístup k této sekci implicitně znamená přijetí etických principů a bezpečnostních protokolů specifikovaných v [Předmluvě](@/kompendium/01-predmluva/_index.md) a [Sekci 02 — Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md).
 
 ## Pozice v rámci kompendia
 
-Tato část kompendia představuje a systematicky analyzuje komplexní sekvence postupů, které mohou — v institucionálních, klinických nebo adversariálních kontextech — vést k hluboké a potenciálně ireverzibilní [epistemické a kognitivní dezintegraci](/glossary/epistemicka-anihilace/). Tyto sekvence, označované jako **terminální protokoly**, představují kvalitativně odlišnou a signifikantně nebezpečnější kategorii fenoménů než izolované techniky a scénáře popsané v [Sekci 03 — Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/).
+Tato část kompendia představuje a systematicky analyzuje komplexní sekvence postupů, které mohou — v institucionálních, klinických nebo adversariálních kontextech — vést k hluboké a potenciálně ireverzibilní [epistemické a kognitivní dezintegraci](@/glossary/epistemicka-anihilace.md). Tyto sekvence, označované jako **terminální protokoly**, představují kvalitativně odlišnou a signifikantně nebezpečnější kategorii fenoménů než izolované techniky a scénáře popsané v [Sekci 03 — Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md).
 
 Zatímco izolovaná technika může způsobit lokální narušení epistemické funkce, terminální protokol je **systémovou intervencí** schopnou rekonfigurace celého epistemického a kognitivního systému subjektu. Rozdíl mezi technikou a protokolem je analogický rozdílu mezi lokální chirurgickou intervencí a multistage transplantační operací: liší se nejen rozsahem, ale fundamentální povahou rizika, požadavky na infrastrukturu a etickými implikacemi.
 
@@ -32,7 +32,7 @@ Terminální protokoly se vyznačují několika distinktivními charakteristikam
 
 ### Systémová komplexita
 
-Na rozdíl od izolovaných technik [epistemické manipulace](/kompendium/03-zakladni-kategorie/kapitola-1/) představují terminální protokoly komplexní systémy vzájemně propojených a koordinovaných intervencí, které zahrnují:
+Na rozdíl od izolovaných technik [epistemické manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) představují terminální protokoly komplexní systémy vzájemně propojených a koordinovaných intervencí, které zahrnují:
 
 - **Multi-modální komponenty** — Simultánní působení na kognitivní, emocionální, sociální a somatické úrovni; žádná jednotlivá modalita neumožňuje úplnou analýzu protokolu.
 - **Eskalační dynamiku** — Sekvence kroků s postupně narůstající intenzitou a invazivností, kdy každý krok připravuje terén pro krok následující.
@@ -48,9 +48,9 @@ Terminální protokoly jsou charakterizovány schopností indukovat fundamentál
 - **Rekonfigurační kapacita** — Schopnost reorganizovat základní kognitivní a epistemické struktury subjektu, nikoli pouze modifikovat jejich obsah.
 - **Disruptivní intenzita** — Potenciál překonat přirozené ochranné mechanismy kognitivního systému, včetně mechanismů, které jsou za běžných okolností vysoce robustní.
 - **Trvalý dopad** — Tendence indukovat perzistentní změny, které přetrvávají i po ukončení expozice a často po celý zbytek života subjektu.
-- **Generativní efekt** — Schopnost indukovat self-perpetuující procesy [ontologické a epistemické dezintegrace](/glossary/ontologicka-anihilace/), které se replikují bez další intervence.
+- **Generativní efekt** — Schopnost indukovat self-perpetuující procesy [ontologické a epistemické dezintegrace](@/glossary/ontologicka-anihilace.md), které se replikují bez další intervence.
 
-Tato transformativní hloubka implikuje, že dopady terminálních protokolů mohou přetrvávat dlouho po expozici a často vyžadují specializované intervenční přístupy popsané v [Sekci 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/).
+Tato transformativní hloubka implikuje, že dopady terminálních protokolů mohou přetrvávat dlouho po expozici a často vyžadují specializované intervenční přístupy popsané v [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md).
 
 ### Aplikační specifičnost
 
@@ -103,7 +103,7 @@ Vzhledem k potenciální nebezpečnosti poznatků o terminálních protokolech j
 | **L1** | Obecná povědomost | Existence a obecné charakteristiky terminálních protokolů | Veřejnost, novinářská komunita, vzdělávací sektor |
 | **L2** | Analytické porozumění | Konceptuální analýza mechanismů a dynamik bez implementačních detailů | Akademičtí výzkumníci, klinici, bezpečnostní analytici |
 | **L3** | Strukturální znalost | Detailní porozumění strukturálním aspektům a organizačním principům specifických protokolů | Specializovaní vyšetřovatelé, forenzní týmy |
-| **L4** | Implementační expertise | Znalosti nezbytné pro detekci, prevenci a neutralizaci terminálních protokolů | Specializovaní klinici, kontraintelligence, [Color Teams](/glossary/color-teams/) |
+| **L4** | Implementační expertise | Znalosti nezbytné pro detekci, prevenci a neutralizaci terminálních protokolů | Specializovaní klinici, kontraintelligence, [Color Teams](@/glossary/color-teams.md) |
 | **L5** | Rekonstrukční kapacita | Kompletní poznatky umožňující potenciální rekonstrukci protokolů | Striktně limitovaný přístup; pouze ověřená pracoviště |
 
 **Přístup k materiálům této sekce odpovídá úrovni L2.** Materiály úrovně L3 a vyšší jsou dostupné pouze prostřednictvím autorizovaných kanálů a institucionálních partnerství.
@@ -112,11 +112,11 @@ Vzhledem k potenciální nebezpečnosti poznatků o terminálních protokolech j
 
 Tato část kompendia zahrnuje dvě vzájemně se doplňující kapitoly, které adresují terminální protokoly z distinktivních, ale komplementárních perspektiv:
 
-### [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
+### [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
 
 Analyzuje specifickou kategorii terminálních protokolů, které jsou implementovány v kontextu zdánlivě legitimních výcvikových nebo edukativních programů. Kapitola integruje historické, vojenské, klinické a etické perspektivy a poskytuje srovnávací analýzu s analogickými programy v jiných oblastech (vojenský SERE výcvik, IDF Lotem unit, Frankl logoterapie, DBT distress tolerance).
 
-### [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
+### [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 
 Zaměřuje se na metodologické a procedurální aspekty bezpečného studia a výzkumu terminálních protokolů. Pokrývá pre-engagement screening, intra-engagement monitoring, post-engagement reintegraci, institucionální safeguardy (IRB, etické komise) a protokoly odpovědi na selhání.
 
@@ -128,7 +128,7 @@ Studium terminálních protokolů vyžaduje specifický metodologický přístup
 
 Namísto přímé observace nebo experimentální implementace terminálních protokolů je preferovaným přístupem rekonstruktivní analýza, která zahrnuje:
 
-- **Retrospektivní případové studie** — Analýza dokumentovaných případů [epistemické anihilace](/glossary/epistemicka-anihilace/) s důrazem na identifikaci kauzálních mechanismů.
+- **Retrospektivní případové studie** — Analýza dokumentovaných případů [epistemické anihilace](@/glossary/epistemicka-anihilace.md) s důrazem na identifikaci kauzálních mechanismů.
 - **Komparativní analýza** — Systematické porovnávání různých instancí podobných protokolů pro identifikaci invariantních struktur.
 - **Historická kontextualizace** — Zkoumání historického vývoje a kontextuálních faktorů (totalitní reedukační programy, kultové konverzní techniky, koercitivní výslechové protokoly).
 - **Interdisciplinární triangulace** — Využití vícerých perspektiv (klinická psychologie, neurovědy, sociologie, filosofie mysli) pro komplexní rekonstrukci.
@@ -147,7 +147,7 @@ Pro empirické studium terminálních protokolů je vhodné využívat simulativ
 Důležitým nástrojem je formální konceptuální modelování:
 
 - **Strukturální analýza** — Identifikace klíčových komponent a jejich vztahů.
-- **Dynamické modelování** — Analýza temporálních a procesních aspektů protokolů; integrace s [NABLA Infinity](/glossary/nabla-infinity/) framework pro formální reprezentaci epistemických trajektorií.
+- **Dynamické modelování** — Analýza temporálních a procesních aspektů protokolů; integrace s [NABLA Infinity](@/glossary/nabla-infinity.md) framework pro formální reprezentaci epistemických trajektorií.
 - **Kauzální mapování** — Rekonstrukce kauzálních mechanismů a jejich interakcí.
 - **Analogické rezonování** — Využití analogií s lépe pochopenými systémy pro iluminaci komplexních dynamik.
 
@@ -159,21 +159,21 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 
 ## Související
 
-- [Hub kompendia](/kompendium/) — návrat na hlavní rozcestník
-- [Sekce 01: Předmluva](/kompendium/01-predmluva/) — etický a metodologický rámec
-- [Sekce 02: Úvod do epistemické anihilace](/kompendium/02-uvod/) — fundamentální definice
-- [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/) — strukturální základ pro pochopení terminálních protokolů
-- [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
-- [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/) — terapeutické a preventivní rámce
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [NABLA Infinity Framework](/glossary/nabla-infinity/)
-- [Filozofie: Intelektuální suverenita](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemická integrita](/philosophy/epistemic-integrity/)
+- [Hub kompendia](@/kompendium/_index.md) — návrat na hlavní rozcestník
+- [Sekce 01: Předmluva](@/kompendium/01-predmluva/_index.md) — etický a metodologický rámec
+- [Sekce 02: Úvod do epistemické anihilace](@/kompendium/02-uvod/_index.md) — fundamentální definice
+- [Sekce 03: Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md) — strukturální základ pro pochopení terminálních protokolů
+- [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
+- [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické a preventivní rámce
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [NABLA Infinity Framework](@/glossary/nabla-infinity.md)
+- [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -181,16 +181,16 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -199,4 +199,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

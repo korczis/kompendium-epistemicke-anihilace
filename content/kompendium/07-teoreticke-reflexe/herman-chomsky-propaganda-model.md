@@ -18,7 +18,7 @@ toc = true
 
 Edward S. Herman (1925–2017) — americký mediální analytik a profesor financí — strukturálně **rozvíjel** propagandistický model **empiricky** v mnoha případových studiích. Tato kapitola se soustředí na **empirickou metodologii** Hermana a Chomského a její relevanci pro detekci EA.
 
-Doplňuje [kapitolu 7.54 Chomsky](/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent/), jež popisuje **teoretický** propagandistický model.
+Doplňuje [kapitolu 7.54 Chomsky](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md), jež popisuje **teoretický** propagandistický model.
 
 ## 1. Paired examples methodology
 
@@ -34,7 +34,7 @@ Strukturální analýza: stejně závažné události, **strukturálně rozdíln
 Pro EA z toho plyne:
 
 - **Empirická detekce mediální EA**: paired examples methodology je **strukturálně silným** detekčním nástrojem.
-- **Algoritmická aplikace**: AI/ML systémy mohou strukturálně **automatizovat** paired examples analysis ([rezonuje s Color Teams, viz Glosář](/glossary/color-teams/)).
+- **Algoritmická aplikace**: AI/ML systémy mohou strukturálně **automatizovat** paired examples analysis ([rezonuje s Color Teams, viz Glosář](@/glossary/color-teams.md)).
 
 ## 2. Worthy vs. unworthy victims
 
@@ -60,7 +60,7 @@ Herman a Chomsky empiricky dokumentují **strukturální** mediální **dehumani
 - **Eliminace kontextu** — útoky bez **historické** nebo **politické** kontextualizace
 - **Statistical erasure** — civilní oběti jako "**collateral damage**", bez tváří, bez jmen
 
-Strukturální paralela s **Levinasem** ([viz 7.20](/kompendium/07-teoreticke-reflexe/levinas-jiny/)) — anihilace tváře.
+Strukturální paralela s **Levinasem** ([viz 7.20](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)) — anihilace tváře.
 
 Pro EA z toho plyne:
 
@@ -113,7 +113,7 @@ Pro Prismatic platformu má Hermanova metodologie **specifickou** relevanci:
 
 ## 8. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Mediální gramotnost**: pacient se učí identifikovat propagandistické vzorce
 - **Restituce "unworthy victim" zkušenosti**: pacient, jehož trauma bylo strukturálně **ignorováno**, vyžaduje specifickou klinickou pozornost
@@ -129,18 +129,18 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.20 Levinas: Jiný](/kompendium/07-teoreticke-reflexe/levinas-jiny/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.30 Williams: Truth and Truthfulness](/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness/)
-- [7.53 Snyder: Tyranny](/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays/)
-- [7.54 Chomsky: Manufacturing Consent](/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent/)
-- [7.57 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.20 Levinas: Jiný](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.30 Williams: Truth and Truthfulness](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)
+- [7.53 Snyder: Tyranny](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md)
+- [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)
+- [7.57 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -149,4 +149,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

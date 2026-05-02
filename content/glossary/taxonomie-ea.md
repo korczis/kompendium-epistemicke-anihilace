@@ -22,7 +22,7 @@ image_alt = "Taxonomie EA - glossary"
 
 ## Definition
 
-**Taxonomie EA** is the hierarchical classification system of [epistemické anihilace](/glossary/epistemicka-anihilace/) techniques used in the [Kompendium epistemické a kognitivní anihilace](/kompendium/). It assigns every technique a stable identifier in the form **`EA-X.Y.Z-α`**, where:
+**Taxonomie EA** is the hierarchical classification system of [epistemické anihilace](@/glossary/epistemicka-anihilace.md) techniques used in the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md). It assigns every technique a stable identifier in the form **`EA-X.Y.Z-α`**, where:
 
 | Component | Meaning | Example |
 |-----------|---------|---------|
@@ -32,7 +32,7 @@ image_alt = "Taxonomie EA - glossary"
 | **Z** | Specific technique within the subcategory | `1` (Selective Exposure) |
 | **α** | Variant suffix (optional, lowercase letter) | `a`, `b`, `c` |
 
-For example, `EA-1.1.1` is [Selective Exposure](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — primary category 1 (Academic Manipulation), subcategory 1 (Acquisition), technique 1 (Selective Exposure). The suffix `-a` would denote a documented variant of the same technique.
+For example, `EA-1.1.1` is [Selective Exposure](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — primary category 1 (Academic Manipulation), subcategory 1 (Acquisition), technique 1 (Selective Exposure). The suffix `-a` would denote a documented variant of the same technique.
 
 The eight primary categories are:
 
@@ -59,19 +59,19 @@ The notation is designed with five engineering properties relevant to long-term 
 
 Within the Prismatic Platform, EA codes serve as **first-class cross-references**:
 
-- The [Kompendium hub](/kompendium/) and [techniques index](/kompendium/techniques/) use them as canonical anchors.
+- The [Kompendium hub](@/kompendium/_index.md) and [techniques index](@/kompendium/techniques/_index.md) use them as canonical anchors.
 - The [Decision Engine](/hub/dd/decisions/) calibration logic references EA codes when flagging epistemic manipulation indicators in input sources.
-- [Glossary](/glossary/) entries link directly to relevant EA codes for context.
+- [Glossary](@/glossary/_index.md) entries link directly to relevant EA codes for context.
 - Future automation (RAG over the kompendium, structured ML training) will use EA codes as the primary indexing key.
 
 The taxonomy follows **semver discipline**: bug-fix reclassifications increment the patch version; addition of new techniques increments the minor version; breaking restructuring of the code system increments the major version. The current version is **v0.1.0** — initial publication, taxonomy in active expansion.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — The phenomenon being classified
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Related but distinct phenomenon
-- [Kompendium hub](/kompendium/) — The full taxonomic reference
-- [Techniques index](/kompendium/techniques/) — Per-technique deep-dives by EA code
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — The phenomenon being classified
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Related but distinct phenomenon
+- [Kompendium hub](@/kompendium/_index.md) — The full taxonomic reference
+- [Techniques index](@/kompendium/techniques/_index.md) — Per-technique deep-dives by EA code
 
 ---
 
@@ -80,4 +80,4 @@ The taxonomy follows **semver discipline**: bug-fix reclassifications increment 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

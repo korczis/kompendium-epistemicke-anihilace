@@ -34,7 +34,7 @@ Gestalt shifts have a **dual valence** in epistemic-security analysis:
 
 ## Context
 
-Within the Prismatic Platform, induced gestalt shift is classified as **EA-5.1.26** in the [Kompendium taxonomy](/glossary/taxonomie-ea/) under the *paradigm-migration* family. The technique exploits the all-or-nothing character of gestalt restructuring: once the new frame snaps into place, every prior memory and observation is *retrospectively reinterpreted* under it. Documentation: [Kompendium → EA-5.1.26](/kompendium/techniques/ea-5-1-26/).
+Within the Prismatic Platform, induced gestalt shift is classified as **EA-5.1.26** in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md) under the *paradigm-migration* family. The technique exploits the all-or-nothing character of gestalt restructuring: once the new frame snaps into place, every prior memory and observation is *retrospectively reinterpreted* under it. Documentation: [Kompendium → EA-5.1.26](/kompendium/techniques/ea-5-1-26/).
 
 What distinguishes EA-5.1.26 from legitimate paradigm correction is the **provenance of the new frame**: legitimate shifts emerge from the subject's own pattern-recognition over accumulated evidence; weaponized shifts are *seeded externally* and the subject is steered into "discovering" them. Diagnostic markers: rapid onset, suspiciously coherent reinterpretation of all past data, emotional charge characteristic of insight without the corresponding evidential base.
 
@@ -42,13 +42,13 @@ The platform's [Decision Engine](/hub/dd/decisions/) treats reports of recent dr
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat framework
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process damage
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
-- [Taxonomie EA](/glossary/taxonomie-ea/) — `EA-X.Y.Z-α` classification
-- [Metakognice](/glossary/metakognice/) — Reflective monitoring of frame provenance
-- [Intentionalita](/glossary/intentionalita/) — Aboutness-structure gestalt-shifted
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — `EA-X.Y.Z-α` classification
+- [Metakognice](@/glossary/metakognice.md) — Reflective monitoring of frame provenance
+- [Intentionalita](@/glossary/intentionalita.md) — Aboutness-structure gestalt-shifted
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -57,4 +57,4 @@ The platform's [Decision Engine](/hub/dd/decisions/) treats reports of recent dr
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

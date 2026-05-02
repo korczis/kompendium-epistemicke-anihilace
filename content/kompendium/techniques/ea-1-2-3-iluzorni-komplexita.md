@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — pervazivní v politizovaných vědeckých debatách a strategických narativech |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
-**Iluzorní komplexita** je prezentace fundamentálně **jasného** nebo **rozřešeného** problému jako **vysoce komplexního**, **kontroverzního** nebo **nerozřešitelného**. Strukturálně **inverzní** vůči [EA-1.2.2 Falešné ekvivalenci](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) — falešná ekvivalence inflouje **paritu pozic**, iluzorní komplexita inflouje **náročnost problému**.
+**Iluzorní komplexita** je prezentace fundamentálně **jasného** nebo **rozřešeného** problému jako **vysoce komplexního**, **kontroverzního** nebo **nerozřešitelného**. Strukturálně **inverzní** vůči [EA-1.2.2 Falešné ekvivalenci](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — falešná ekvivalence inflouje **paritu pozic**, iluzorní komplexita inflouje **náročnost problému**.
 
 Účel: indukce **suspendovaného úsudku** ("nedostatek jasnosti pro rozhodnutí") tam, kde úsudek je **dostupný a opodstatněný**. Subjekt se vzdá rozhodnutí "**dokud nebude problém vyřešen**" — což u uměle inflovaných problémů **nikdy nenastane**.
 
@@ -219,14 +219,14 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ### Často se kombinuje s
 
-- **[EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** — kaskáda faktorů = informační přetížení s artificiálními sloughy.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — komplexní terminologie + iluzorní komplexita = bezpečí proti detekci.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — iluzorní komplexita poskytuje **infinite ad hoc modifikace**.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — kaskáda faktorů = informační přetížení s artificiálními sloughy.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní terminologie + iluzorní komplexita = bezpečí proti detekci.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — iluzorní komplexita poskytuje **infinite ad hoc modifikace**.
 
 ### Eskaluje do
 
 - **EA-1.6.2 Vzorec "Epistemický trojský kůň"** — iluzorní komplexita poskytuje fasádu sofistikace pro vpašování problematických prvků.
-- **Strukturální delegitimizace pole** ([Scénář F](/kompendium/03-zakladni-kategorie/kapitola-2/)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
+- **Strukturální delegitimizace pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní iluzorní komplexita odbourává epistemickou autoritu konsensuálních závěrů.
 
 ### Hraniční / podobné
 
@@ -242,16 +242,16 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.2):
-  - [EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-  - [EA-1.2.2 Falešná ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
+  - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+  - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -261,10 +261,10 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -276,4 +276,4 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

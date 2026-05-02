@@ -28,7 +28,7 @@ Diagnostické nástroje uvedené v této příloze jsou určeny **výhradně** p
 - **Psychiatry** v rámci klinické nebo výzkumné praxe.
 - **Výzkumníky** s IRB schválením a institucionální supervizí.
 
-Použití bez kvalifikace je v rozporu s [Etickým kodexem](/kompendium/08-prilohy/eticky-kodex/) a může způsobit **iatrogenní škodu**. Plné psychometrické vlastnosti, normy a manuály vyžadují přístup k licencovaným publikacím.
+Použití bez kvalifikace je v rozporu s [Etickým kodexem](@/kompendium/08-prilohy/eticky-kodex.md) a může způsobit **iatrogenní škodu**. Plné psychometrické vlastnosti, normy a manuály vyžadují přístup k licencovaným publikacím.
 
 > ⚠️ **Disclaimer**: Tato příloha *neposkytuje* plné instrumenty s otázkami a klíči. Poskytuje **strukturní popis a metodologickou orientaci**. Pro plné použití kontaktujte autory původních instrumentů a získejte licenci.
 
@@ -57,7 +57,7 @@ BITE Model nemá normalizovanou bodovou škálu — používá se **kvalitativn�
 2. Identifikovat **počet pozitivních položek** v každé dimenzi.
 3. Hodnotit **kumulativní intenzitu**: 0–10 = nízká, 11–25 = střední, 26+ = vysoká.
 
-> **Klinické pozorování**: Vysoké skóre (>26) v 2+ dimenzích současně silně koreluje s prostředím vykazujícím charakteristiky [terminálních protokolů EA-4.x.x](/kompendium/04-terminalni-protokoly/).
+> **Klinické pozorování**: Vysoké skóre (>26) v 2+ dimenzích současně silně koreluje s prostředím vykazujícím charakteristiky [terminálních protokolů EA-4.x.x](@/kompendium/04-terminalni-protokoly/_index.md).
 
 ### Adaptace pro EA výzkum
 
@@ -65,14 +65,14 @@ Pro účely kompendia byl BITE Model adaptován mapováním na konkrétní EA te
 
 | BITE dimenze | Odpovídající EA techniky |
 |--------------|--------------------------|
-| Information control | [`EA-1.1.1`](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), [`EA-1.1.2`](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/) |
-| Thought control | [`EA-1.2.x`](/kompendium/08-prilohy/rejstrik-technik/), [`EA-5.1.5`](/kompendium/08-prilohy/rejstrik-technik/) |
-| Emotional control | [`EA-1.4.2`](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), `EA-3.3.1` |
+| Information control | [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [`EA-1.1.2`](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) |
+| Thought control | [`EA-1.2.x`](@/kompendium/08-prilohy/rejstrik-technik.md), [`EA-5.1.5`](@/kompendium/08-prilohy/rejstrik-technik.md) |
+| Emotional control | [`EA-1.4.2`](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), `EA-3.3.1` |
 | Behavior control | `EA-3.2.1`, `EA-3.2.2` |
 
 ### Primární zdroj
 
-Hassan, S. (2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. → [Bibliografie §IV](/kompendium/08-prilohy/bibliografie/).
+Hassan, S. (2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. → [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md).
 
 ---
 
@@ -102,7 +102,7 @@ Hassan, S. (2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom
 |-----------|----------|
 | **Pre-expozice (rizikový profil)** | Vysoká Openness + nízká Trust = ochrana; vysoká Agreeableness + nízká Conscientiousness = zranitelnost. |
 | **Post-expozice (změna profilu)** | Pokles Openness + nárůst Neuroticism + pokles Trust = signál chronického narušení. |
-| **Diferenciální diagnostika** | Premorbidní vysoká Conscientiousness + post-expozičně nízká Productiveness = indikátor inferenční paralýzy ([`EA-5.1.16`](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/)). |
+| **Diferenciální diagnostika** | Premorbidní vysoká Conscientiousness + post-expozičně nízká Productiveness = indikátor inferenční paralýzy ([`EA-5.1.16`](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)). |
 
 ### Primární zdroj
 
@@ -137,7 +137,7 @@ ECRI je primární instrument pro hodnocení **úspěchu třífázové terapeuti
 
 ### Primární zdroj
 
-Langone, M. D. (Ed.). (1993). *Recovery from Cults*. New York: Norton. Aktuální verze ECRI distribuovány skrze [International Cultic Studies Association (ICSA)](https://www.icsahome.com/). → [Bibliografie §VIII](/kompendium/08-prilohy/bibliografie/).
+Langone, M. D. (Ed.). (1993). *Recovery from Cults*. New York: Norton. Aktuální verze ECRI distribuovány skrze [International Cultic Studies Association (ICSA)](https://www.icsahome.com/). → [Bibliografie §VIII](@/kompendium/08-prilohy/bibliografie.md).
 
 ---
 
@@ -167,7 +167,7 @@ Langone, M. D. (Ed.). (1993). *Recovery from Cults*. New York: Norton. Aktuáln�
 
 ### Aplikace v EA výzkumu
 
-Vysoké IES-R skóre po expozici technikám [Kapitoly 4 (Terminální protokoly)](/kompendium/04-terminalni-protokoly/) a [Kapitoly 5 (Ultramární techniky)](/kompendium/05-ultramari-techniky/) je očekávaným zjištěním. IES-R slouží jako **screening pro indikaci specializované trauma terapie** (např. EMDR, prolonged exposure, CPT) — viz [Bibliografie §IX](/kompendium/08-prilohy/bibliografie/).
+Vysoké IES-R skóre po expozici technikám [Kapitoly 4 (Terminální protokoly)](@/kompendium/04-terminalni-protokoly/_index.md) a [Kapitoly 5 (Ultramární techniky)](@/kompendium/05-ultramari-techniky/_index.md) je očekávaným zjištěním. IES-R slouží jako **screening pro indikaci specializované trauma terapie** (např. EMDR, prolonged exposure, CPT) — viz [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md).
 
 ### Primární zdroj
 
@@ -205,18 +205,18 @@ DES-II měří 4 kategorie disociativních zkušeností:
 
 ### Aplikace v EA výzkumu
 
-DES-II je klíčový pro detekci [Kapitoly 5 ultramárních technik](/kompendium/05-ultramari-techniky/), zejména:
+DES-II je klíčový pro detekci [Kapitoly 5 ultramárních technik](@/kompendium/05-ultramari-techniky/_index.md), zejména:
 
 | EA technika | DES-II indikátor |
 |-------------|------------------|
-| [`EA-5.1.13`](/kompendium/techniques/ea-5-1-13-hyperreflexivita/) Hyperreflexivita | Vysoká absorption |
+| [`EA-5.1.13`](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) Hyperreflexivita | Vysoká absorption |
 | `EA-5.1.14` Identitární dezintegrace | Vysoká identity confusion |
 | `EA-5.1.15` Existenciální derealizace | Vysoká depersonalization/derealization |
-| [`EA-5.1.10`](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) Temporální dekoherence | Vysoká amnestic dissociation |
+| [`EA-5.1.10`](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) Temporální dekoherence | Vysoká amnestic dissociation |
 
 ### Primární zdroj
 
-Carlson, E. B., & Putnam, F. W. (1993). An update on the Dissociative Experiences Scale. *Dissociation*, 6(1), 16–27. → [Bibliografie §IX](/kompendium/08-prilohy/bibliografie/).
+Carlson, E. B., & Putnam, F. W. (1993). An update on the Dissociative Experiences Scale. *Dissociation*, 6(1), 16–27. → [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md).
 
 ---
 
@@ -242,24 +242,24 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 
 ## Etické a procedurální poznámky
 
-- **Informovaný souhlas** vyžaduje explicitní popis povahy otázek, možnosti přerušení, dostupnosti follow-up péče. Viz [Etický kodex §3](/kompendium/08-prilohy/eticky-kodex/).
+- **Informovaný souhlas** vyžaduje explicitní popis povahy otázek, možnosti přerušení, dostupnosti follow-up péče. Viz [Etický kodex §3](@/kompendium/08-prilohy/eticky-kodex.md).
 - **Re-traumatizační riziko**: zejména IES-R a DES-II mohou aktivovat traumatické vzpomínky. Klinická supervize je nutná.
 - **Sekundární zranění** může vzniknout, pokud výsledky nejsou pacientovi srozumitelně komunikovány nebo pokud detekce EA nevede k navržení konkrétní terapeutické cesty.
 - **Konfliktní motivace**: výzkumný a klinický cíl se mohou rozcházet. V případě konfliktu *vždy* dominuje klinický zájem pacienta.
 
 ## Cross-referencing s dalšími přílohami
 
-- [Bibliografie §IX](/kompendium/08-prilohy/bibliografie/) — klinická literatura k traumatu a disociaci.
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — IRB rámec pro použití instrumentů.
-- [Index pojmů](/kompendium/08-prilohy/index-pojmu/) — anglické ekvivalenty klinických termínů.
-- [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) — dimenze (akutní/chronický, reverzibilní/ireverzibilní) měřené instrumenty.
-- [Rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/) — EA kódy mapované na diagnostické indikátory.
+- [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md) — klinická literatura k traumatu a disociaci.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — IRB rámec pro použití instrumentů.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) — anglické ekvivalenty klinických termínů.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — dimenze (akutní/chronický, reverzibilní/ireverzibilní) měřené instrumenty.
+- [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — EA kódy mapované na diagnostické indikátory.
 
 ## Platformový kontext
 
 - [Decision Engine](/hub/dd/decisions/) — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
-- [Color Teams](/glossary/color-teams/) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
-- [NABLA Infinity](/glossary/nabla-infinity/) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
+- [Color Teams](@/glossary/color-teams.md) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
 
 
 ## ⚡ Kritický krok
@@ -269,7 +269,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -279,18 +279,18 @@ Místo lineární četby:
 
 ### V této sekci
 
-- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
-- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
-- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
-- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
-- [Kompletní rejstřík technik (master index)](/kompendium/08-prilohy/rejstrik-technik/)
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
+- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
+- [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 ### Klíčové orientační body
 
-- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
-- [Glossary](/glossary/) — terminologický slovník
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
+- [Glossary](@/glossary/_index.md) — terminologický slovník
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
 
 ---
 
@@ -299,4 +299,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Přílohy](/kompendium/08-prilohy/) | [Klinické aplikace](/kompendium/06-klinicke-aplikace/) | [Glossary](/glossary/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | [Glossary](@/glossary/_index.md) | [Developer Portal](@/developers/_index.md)

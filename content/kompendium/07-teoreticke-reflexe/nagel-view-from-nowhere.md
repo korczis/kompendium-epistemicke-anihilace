@@ -43,7 +43,7 @@ Tato kombinace je **strukturálně paradoxní**: čím **více** se transcendetu
 Pro EA z toho plyne:
 
 - **Pseudo-univerzální rétorika**: techniky, jež předstírají dosáhnutí "view from nowhere" ("věda objektivně dokazuje X", "data jasně ukazují Y"), strukturálně **maskují** zbývající subjektivní pól.
-- **Algoritmická pseudo-objektivita**: AI/ML systémy ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) operují s **rétorikou** view from nowhere, ale strukturálně **encodují** specifické subjektivní pohledy (training data biases).
+- **Algoritmická pseudo-objektivita**: AI/ML systémy ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) operují s **rétorikou** view from nowhere, ale strukturálně **encodují** specifické subjektivní pohledy (training data biases).
 - **Klinický korelát**: subjekti vystaveni této rétorice ztrácí kapacitu **rozeznat** subjektivní pól v "objektivních" nárocích.
 
 ## 3. Mortalita a smysl
@@ -61,7 +61,7 @@ Pro EA má tato analýza **specifickou relevanci**:
 
 Nagel v *The Possibility of Altruism* (1970) argumentuje, že **morální** úvaha vyžaduje **distancování** od osobního pohledu — schopnost vidět **své vlastní** zájmy jako **strukturálně rovnocenné** zájmům druhých.
 
-Tato pozice rezonuje s **Habermasovskou** kategorickou imperativitou ([viz 7.1 §4](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) — etika vyžaduje **transcendentní** moment.
+Tato pozice rezonuje s **Habermasovskou** kategorickou imperativitou ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) — etika vyžaduje **transcendentní** moment.
 
 Pro EA z toho plyne:
 
@@ -80,7 +80,7 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce subjektivního pólu**: terapie musí **zachovat** *what it is like* perspektivu pacienta, nikoli ji redukovat na DSM.
 - **Restituce transcendentního momentu**: pacient se učí vidět **svou** zkušenost **nikoli** jako absolutní, ale ani jako **bezvýznamnou**.
@@ -95,15 +95,15 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.27 Putnam: Internal Realism](/kompendium/07-teoreticke-reflexe/putnam-internal-realism/)
-- [7.28 Rorty: Contingency](/kompendium/07-teoreticke-reflexe/rorty-contingency/)
-- [7.30 Williams: Truth and Truthfulness](/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.27 Putnam: Internal Realism](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)
+- [7.28 Rorty: Contingency](@/kompendium/07-teoreticke-reflexe/rorty-contingency.md)
+- [7.30 Williams: Truth and Truthfulness](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -112,4 +112,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

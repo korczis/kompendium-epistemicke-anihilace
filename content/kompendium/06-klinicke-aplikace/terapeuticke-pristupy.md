@@ -17,7 +17,7 @@ toc = true
 
 ## Úvodní rámec
 
-Terapie klientů zasažených [epistemickou anihilací](/glossary/epistemicka-anihilace/) (EA) **není samostatnou modalitou**, nýbrž **integrativní strukturou** kombinující evidence-based postupy z trauma-focused terapie, narrativní terapie, kognitivně-behaviorální terapie a specifické techniky **epistemické rehabilitace**. Tato kapitola poskytuje **přehled** dostupných modalit a jejich indikací; detailní pětistupňový protokol je rozpracován v [6.4](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/).
+Terapie klientů zasažených [epistemickou anihilací](@/glossary/epistemicka-anihilace.md) (EA) **není samostatnou modalitou**, nýbrž **integrativní strukturou** kombinující evidence-based postupy z trauma-focused terapie, narrativní terapie, kognitivně-behaviorální terapie a specifické techniky **epistemické rehabilitace**. Tato kapitola poskytuje **přehled** dostupných modalit a jejich indikací; detailní pětistupňový protokol je rozpracován v [6.4](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md).
 
 ## Tři pilíře terapeutické práce
 
@@ -27,7 +27,7 @@ Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
 |-------|-----|------------------|
 | **1. Stabilizace a bezpečí** | Snížit akutní distres, zajistit bezpečné prostředí | Stabilizační dovednosti, psychoedukace, krizová intervence |
 | **2. Trauma-fokusovaná práce** | Zpracovat traumatické zážitky z období expozice | TF-CBT, EMDR, prolongovaná expozice, somatic experiencing |
-| **3. Epistemická rehabilitace** | Obnovit poznávací autonomii a [metakognici](/glossary/metakognice/) | Narativní rekonstrukce, dialogická validace, hermeneutická obnova |
+| **3. Epistemická rehabilitace** | Obnovit poznávací autonomii a [metakognici](@/glossary/metakognice.md) | Narativní rekonstrukce, dialogická validace, hermeneutická obnova |
 
 **Sekvence pilířů je kritická**: vstoupit do trauma-fokusované práce **před** stabilizací nebo **bez** epistemické rehabilitace často vede k retraumatizaci.
 
@@ -49,7 +49,7 @@ Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
 | **Plán bezpečí** | Konkrétní kroky pro krizové situace | Klienti s pokračujícím rizikem |
 | **Spánková hygiena** | Strukturovaná intervence | Časté narušení spánku po EA |
 
-> **Specifikum EA**: Psychoedukace má pro klienty po EA **dvojí terapeutický efekt** — kromě informačního obsahu funguje jako **validace zkušenosti**. Mnoho klientů poprvé v životě slyší, že jejich symptomy mají strukturu a jméno, což samo o sobě iniciuje rekonstrukci [metakognice](/glossary/metakognice/).
+> **Specifikum EA**: Psychoedukace má pro klienty po EA **dvojí terapeutický efekt** — kromě informačního obsahu funguje jako **validace zkušenosti**. Mnoho klientů poprvé v životě slyší, že jejich symptomy mají strukturu a jméno, což samo o sobě iniciuje rekonstrukci [metakognice](@/glossary/metakognice.md).
 
 ### Specifika stabilizace u EA
 
@@ -96,7 +96,7 @@ IFS je obzvláště užitečný u klientů s pokročilou EA, protože pracuje s 
 
 ## Pilíř 3: Epistemická rehabilitace
 
-Toto je **specifický příspěvek** terapie EA, který odlišuje ji od klasické trauma-terapie. Pilíř 3 detail v [6.4](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), přehled zde:
+Toto je **specifický příspěvek** terapie EA, který odlišuje ji od klasické trauma-terapie. Pilíř 3 detail v [6.4](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), přehled zde:
 
 ### Narativní rekonstrukce
 
@@ -131,7 +131,7 @@ Cílem je obnova schopnosti **interpretovat významy**:
 
 ### Metakognitivní trénink
 
-Specifické techniky pro obnovu [metakognice](/glossary/metakognice/):
+Specifické techniky pro obnovu [metakognice](@/glossary/metakognice.md):
 
 - **MCT (Metacognitive Therapy)** — A. Wells: práce s metakognitivními přesvědčeními;
 - **MERIT** (Metacognitive Reflection and Insight Therapy) — Lysaker: integrativní rekonstrukce metakognitivní kapacity;
@@ -210,17 +210,17 @@ Empirická evidence pro EA-specifické intervence je **omezená** (mladá discip
 
 ## Související
 
-- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.2 Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [6.4 Protokoly epistemické rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) — detail pilíře 3
-- [6.5 Práce s vulnerabilní populací](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glossary: Metakognice](/glossary/metakognice/)
-- [Glossary: Hermeneutika](/glossary/hermeneutika/)
-- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glossary: Gaslighting](/glossary/gaslighting/)
+- [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) — detail pilíře 3
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glossary: Metakognice](@/glossary/metakognice.md)
+- [Glossary: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
 
 
 ## ⚡ Kritický krok
@@ -233,9 +233,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -247,4 +247,4 @@ Před aplikací:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

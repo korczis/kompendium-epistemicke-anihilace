@@ -38,4 +38,4 @@ Sekce respektuje **NMND/NWB/NCLB** doktríny — všechny metodologické claims 
 
 ---
 
-**Connect**: [Kompendium Index](/kompendium/_index/) | [Glossary](/glossary/_index/) | [Klinické aplikace](/kompendium/06-klinicke-aplikace/_index/)
+**Connect**: [Kompendium Index](@/kompendium/_index.md) | [Glossary](@/glossary/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)

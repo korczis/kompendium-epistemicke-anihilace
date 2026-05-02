@@ -35,10 +35,10 @@ Pro každý bridge článek:
 
 ## Související
 
-- [Hub kompendia](/kompendium/)
-- [Techniques index](/kompendium/techniques/)
-- [Quick Reference](/kompendium/quick-reference/)
-- [Glossary platformy](/glossary/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Techniques index](@/kompendium/techniques/_index.md)
+- [Quick Reference](@/kompendium/quick-reference/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ---
 
@@ -46,4 +46,4 @@ Pro každý bridge článek:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

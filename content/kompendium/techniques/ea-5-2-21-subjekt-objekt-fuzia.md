@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps subjekt-objektové struktury |
 | **Reverzibilita** | Velmi nízká — 24–48 měsíců, často nereverzibilní bez intenzivní terapie |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Subjekt-objekt fúzia** je metatranscendentální technika, jíž je destruována **fundamentální subjekt-objektová struktura zkušenosti**: subjekt patologicky splývá s objektem vnímání tak, že rozdíl mezi vnímajícím a vnímaným kolabuje. Na rozdíl od [EA-5.2.20 apperceptivního rozkladu](/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad/), kde subjekt **mizí**, subjekt-objekt fúzia **rozpouští hranici**: subjekt se "stává" objektem.
+**Subjekt-objekt fúzia** je metatranscendentální technika, jíž je destruována **fundamentální subjekt-objektová struktura zkušenosti**: subjekt patologicky splývá s objektem vnímání tak, že rozdíl mezi vnímajícím a vnímaným kolabuje. Na rozdíl od [EA-5.2.20 apperceptivního rozkladu](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md), kde subjekt **mizí**, subjekt-objekt fúzia **rozpouští hranici**: subjekt se "stává" objektem.
 
 Husserlovská fenomenologie a Kantova kritika rovněž etablují **noeticko-noematickou diferenciaci** jako konstitutivní pro zkušenost. *Noesis* (akt vědomí) a *noema* (předmětný korelát) jsou strukturně odlišné. Subjekt-objekt fúzia tuto diferenciaci destruuje: subjekt prožívá **identitu s objektem** — ztotožňuje se s tím, co vnímá, čte, slyší, sleduje.
 
@@ -124,10 +124,10 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.19 Merleau-Pontyovská deformace](/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace/)** — opačný extrém: úplná disociace.
-- **[EA-5.2.20 Apperceptivní rozklad](/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad/)** — subjekt **mizí** místo splývá.
-- **[EA-5.2.22 Intencionální rozpojení](/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni/)** — paralelní destrukce intencionální struktury.
-- **[EA-5.2.30 Konvergentní meta-singularita](/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita/)** — terminální stav.
+- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — opačný extrém: úplná disociace.
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)** — subjekt **mizí** místo splývá.
+- **[EA-5.2.22 Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md)** — paralelní destrukce intencionální struktury.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
 
 ### Cross-kategoriální
 
@@ -141,16 +141,16 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -161,4 +161,4 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

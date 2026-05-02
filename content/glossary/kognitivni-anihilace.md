@@ -21,7 +21,7 @@ image_alt = "Kognitivní anihilace - glossary"
 
 ## Definition
 
-**Kognitivní anihilace** (cognitive annihilation) denotes the systematic destruction of cognitive processes and functions, leading to fundamental disruption of an individual's capacity to process information, perform mental operations, and use cognitive capacities for adaptive functioning in the world. While [epistemická anihilace](/glossary/epistemicka-anihilace/) primarily targets cognitive structures in the **epistemological** sense (the architecture of belief formation, justification, and revision), cognitive annihilation targets a **broader spectrum** of mental processes: attention, memory, executive functions, decision-making, and metacognitive capacities.
+**Kognitivní anihilace** (cognitive annihilation) denotes the systematic destruction of cognitive processes and functions, leading to fundamental disruption of an individual's capacity to process information, perform mental operations, and use cognitive capacities for adaptive functioning in the world. While [epistemická anihilace](@/glossary/epistemicka-anihilace.md) primarily targets cognitive structures in the **epistemological** sense (the architecture of belief formation, justification, and revision), cognitive annihilation targets a **broader spectrum** of mental processes: attention, memory, executive functions, decision-making, and metacognitive capacities.
 
 Five definitional features characterize cognitive annihilation:
 
@@ -33,7 +33,7 @@ Five definitional features characterize cognitive annihilation:
 | **Metacognitive deficit** | Impairment of the capacity to monitor, evaluate, and regulate one's own processes |
 | **Structural regression** | Return to more primitive, less differentiated forms of cognitive functioning |
 
-The full Czech-language definition with diagnostic criteria is at [/kompendium/02-uvod/definice/](/kompendium/02-uvod/definice/).
+The full Czech-language definition with diagnostic criteria is at [/kompendium/02-uvod/definice/](@/kompendium/02-uvod/definice.md).
 
 ## Context
 
@@ -45,15 +45,15 @@ Cognitive and epistemic annihilation are **closely related but distinct** phenom
 
 In clinical practice, differential diagnosis must distinguish cognitive annihilation from organically caused dementia (which has different etiology and trajectory), psychotic disintegration (primarily endogenous rather than externally induced), and reversible cognitive fatigue. The defining marker is **systemic induction** — cognitive annihilation typically emerges from sustained external pressure rather than from intrinsic neurological or psychological pathology, though the two can intersect.
 
-Within the [Kompendium](/kompendium/), cognitive annihilation appears as a **co-target** in many of the more advanced techniques (Sekce 04 and 05) — particularly those that combine epistemic manipulation with prolonged sleep deprivation, sensory manipulation, or sustained cognitive overload.
+Within the [Kompendium](@/kompendium/_index.md), cognitive annihilation appears as a **co-target** in many of the more advanced techniques (Sekce 04 and 05) — particularly those that combine epistemic manipulation with prolonged sleep deprivation, sensory manipulation, or sustained cognitive overload.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — The companion concept targeting epistemic structures
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Specific impairment of self-reflective awareness
-- [Anankastický režim](/glossary/anankasticky-rezim/) — Rigidification as a cognitive annihilation marker
-- [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) — Disruption of meta-cognitive recursion
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — The companion concept targeting epistemic structures
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Specific impairment of self-reflective awareness
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) — Rigidification as a cognitive annihilation marker
+- [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Disruption of meta-cognitive recursion
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -62,4 +62,4 @@ Within the [Kompendium](/kompendium/), cognitive annihilation appears as a **co-
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

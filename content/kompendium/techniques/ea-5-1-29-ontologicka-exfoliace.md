@@ -30,15 +30,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L5 (cosmic clearance) |
 | **Riziková úroveň** | Kritická — odstraňuje stabilní referenci reality, vede k dezintegraci základního orientačního aparátu |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční ontogenezi v terapeutickém kontextu |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
 **Ontologická exfoliace** je ultramari technika, která **postupně, vrstvu po vrstvě odlupuje** ontologické závazky subjektu — tedy ty implicitní i explicitní předpoklady o tom, *co existuje* a *jakého druhu věci jsou ty, s nimiž má smysl počítat*. Exfoliace probíhá v přesně daném sledu: nejprve abstraktní entity (čísla, hodnoty, instituce), poté sociokulturní kategorie (role, identita, příslušnost), pak fyzické objekty (předměty, místa, těla), a nakonec **self** — subjekt sám jako referenční bod. Po dokončení procesu **subjekt nemá stabilní referenci reality**.
 
-Exfoliace je strukturálně analogická chemické exfoliaci kůže: každá vrstva je odstraňována *kontrolovaně*, *postupně*, a *zdánlivě jako emancipace* (subjekt prožívá odstranění jako "osvobození od iluzí"). Distinktivní rys oproti běžné dekonstrukci ([viz fenomenologie](/glossary/fenomenologie/)) spočívá v **absenci rekonstrukčního momentu**: legitimní filozofická dekonstrukce vede k re-artikulaci ontologických závazků na vyšší úrovni reflexe; exfoliace **rekonstrukci aktivně blokuje**, takže subjekt zůstává v progresivně tenčí ontologické kůži, dokud nezůstane nic.
+Exfoliace je strukturálně analogická chemické exfoliaci kůže: každá vrstva je odstraňována *kontrolovaně*, *postupně*, a *zdánlivě jako emancipace* (subjekt prožívá odstranění jako "osvobození od iluzí"). Distinktivní rys oproti běžné dekonstrukci ([viz fenomenologie](@/glossary/fenomenologie.md)) spočívá v **absenci rekonstrukčního momentu**: legitimní filozofická dekonstrukce vede k re-artikulaci ontologických závazků na vyšší úrovni reflexe; exfoliace **rekonstrukci aktivně blokuje**, takže subjekt zůstává v progresivně tenčí ontologické kůži, dokud nezůstane nic.
 
-V terminálním stavu exfoliace produkuje **ontologickou anihilaci** ([viz ontologická anihilace](/glossary/ontologicka-anihilace/)) — subjekt nedokáže s jistotou určit, co je skutečné, co je nikoli, ani kdo je on sám.
+V terminálním stavu exfoliace produkuje **ontologickou anihilaci** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — subjekt nedokáže s jistotou určit, co je skutečné, co je nikoli, ani kdo je on sám.
 
 ## Operační modus
 
@@ -95,7 +95,7 @@ Co prožívá subjekt **uvnitř** ontologické exfoliace:
 - **Estetická fascinace prázdnotou** — exfoliace je často podávána v jazyce hluboké duchovnosti, takže subjekt prožívá ztrátu jako *probuzení*
 - **Ztráta operativnosti** — subjekt má potíže s běžnými rozhodnutími (co jíst, kam jít), protože odpadají kategorie, podle nichž lze rozhodovat
 - **Pocit "kosmické perspektivy"** — vzdálení se od běžných referencí je interpretováno jako vyšší úroveň náhledu
-- **Hermeneutický kolaps](/glossary/hermeneutika/)** — neschopnost interpretovat nové situace, protože interpretační rámec byl odstraněn
+- **Hermeneutický kolaps](@/glossary/hermeneutika.md)** — neschopnost interpretovat nové situace, protože interpretační rámec byl odstraněn
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -117,7 +117,7 @@ Ontologickou exfoliaci je nutné odlišit od:
 - **Autentické filozofické dekonstrukce** — dekonstrukce je *reverzibilní* a vede k *vyšší úrovni* artikulace; exfoliace je *progresivně nevratná* a *vyhýbá se rekonstrukci*.
 - **Buddhistické non-self praxe** — autentická buddhistická praxe je *etablována v komunitě*, *má protokoly stabilizace*, a *zachovává operativní fungování*. Exfoliace je *atomizovaná*, *bez stabilizujících protokolů*, a *zhoršuje fungování*.
 - **Dissociativní porucha (klinický stav)** — exfoliace je *záměrně indukována operátorem*; dissociativní porucha vzniká *spontánně z traumatu*.
-- **[EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)** — singularita *koncentruje* trajektorie do jednoho bodu; exfoliace *odstraňuje* trajektorie. Sekvence často: nejprve exfoliace (vyprázdnění), pak singularita (vyplnění).
+- **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — singularita *koncentruje* trajektorie do jednoho bodu; exfoliace *odstraňuje* trajektorie. Sekvence často: nejprve exfoliace (vyprázdnění), pak singularita (vyplnění).
 
 ## Rizikové kontexty
 
@@ -177,51 +177,51 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
 
 ### Často se kombinuje s
 
-- **[EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)** — sesterská technika; standardní sekvence E→S: exfoliace nejprve vyprázdní ontologickou vrstvu, singularita ji pak nahradí jediným atraktorem.
-- **[EA-5.1.30 Konceptuální entropie](/kompendium/techniques/ea-5-1-30-konceptualni-entropie/)** — entropie destruuje *strukturu* mezi koncepty; exfoliace destruuje *koncepty samé*. Komplementární.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — afektivní modulace činí exfoliaci *přitažlivou* (osvobození, probuzení, transcendence).
+- **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — sesterská technika; standardní sekvence E→S: exfoliace nejprve vyprázdní ontologickou vrstvu, singularita ji pak nahradí jediným atraktorem.
+- **[EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)** — entropie destruuje *strukturu* mezi koncepty; exfoliace destruuje *koncepty samé*. Komplementární.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — afektivní modulace činí exfoliaci *přitažlivou* (osvobození, probuzení, transcendence).
 
 ### Eskaluje do
 
-- **Ontologická anihilace** ([viz ontologická anihilace](/glossary/ontologicka-anihilace/)) — terminální stav, v němž subjekt nemá funkční rozdíl mezi skutečným a neskutečným.
-- **Metakognitivní destrukce** ([viz metakognitivní destrukce](/glossary/metakognitivni-destrukce/)) — subjekt ztrácí schopnost reflektovat vlastní stav, čímž se exfoliace stává sebeudržující.
+- **Ontologická anihilace** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — terminální stav, v němž subjekt nemá funkční rozdíl mezi skutečným a neskutečným.
+- **Metakognitivní destrukce** ([viz metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)) — subjekt ztrácí schopnost reflektovat vlastní stav, čímž se exfoliace stává sebeudržující.
 
 ### Alternativy / podobné, ale **distinktivní**
 
-- **[EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** — falešné dilema *redukuje* prostor možností v rámci dané ontologie; exfoliace odstraňuje *ontologii samu*.
+- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema *redukuje* prostor možností v rámci dané ontologie; exfoliace odstraňuje *ontologii samu*.
 - **Autentická duchovní praxe** — zachovává operativní rámec; exfoliace ho destruuje.
 
 ## Vztah k Prismatic platformě
 
 - **[Decision Engine](/hub/dd/decisions/) ontology stability check** — kalibrační logika monitoruje **stabilitu ontologických referencí** napříč rozhodovacími sekvencemi; progresivní odlupování je flagováno.
-- **[NABLA Infinity](/glossary/nabla-infinity/) ontological ground tracking** — každý epistemický inferenční řetězec má dohledatelnou ontologickou bázi; ztráta báze bez rekonstrukčního kroku je strukturálně blokována.
-- **[Color Teams](/glossary/color-teams/) reality-check protocol** — institucionální mechanismy pro periodické ověřování ontologické integrity.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) ontological ground tracking** — každý epistemický inferenční řetězec má dohledatelnou ontologickou bázi; ztráta báze bez rekonstrukčního kroku je strukturálně blokována.
+- **[Color Teams](@/glossary/color-teams.md) reality-check protocol** — institucionální mechanismy pro periodické ověřování ontologické integrity.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)
-  - [EA-5.1.30 Konceptuální entropie](/kompendium/techniques/ea-5-1-30-konceptualni-entropie/)
+  - [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)
+  - [EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)
 - **Forward-references**:
   - Kapitola 4 — Sub-ultramari prekursory (sekce 04)
   - Kapitola 6 — Postsingulární deprogramace (sekce 06)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -231,10 +231,10 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -246,4 +246,4 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

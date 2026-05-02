@@ -34,23 +34,23 @@ The Kompendium identifies panopticism as the **structural template** for institu
 Specifically:
 
 - **EA-1.2.x delegitimization techniques** scaled to institutional contexts (workplace, university, religious community, state) operate via panoptic asymmetries: the victim is visible (every utterance scrutinized) while the evaluation criteria remain opaque. This produces structural self-censorship.
-- **EA-2.x metakognitivní destrukce** at institutional scale corresponds to internalized panoptic self-surveillance: the victim no longer needs to be watched, because they have absorbed the evaluative gaze into their own reflective apparatus. See [/glossary/metakognitivni-destrukce/](/glossary/metakognitivni-destrukce/).
-- The kompendium at [/kompendium/03-zakladni-kategorie/](/kompendium/03-zakladni-kategorie/) treats panoptic structure as one of the **categorical conditions** under which interpersonal manipulation techniques scale to mass effect.
-- The [Color Teams](/glossary/color-teams/) framework includes explicit modeling of panoptic threat scenarios — Red Team simulations test whether the platform's own observability infrastructure (telemetry, logging, audit trails) could be weaponized into panoptic mechanisms against its users.
-- Foucault's analysis is paired in [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) with [power-knowledge](/glossary/power-knowledge/) as a single integrated diagnostic apparatus for institutional epistemic harm.
+- **EA-2.x metakognitivní destrukce** at institutional scale corresponds to internalized panoptic self-surveillance: the victim no longer needs to be watched, because they have absorbed the evaluative gaze into their own reflective apparatus. See [/glossary/metakognitivni-destrukce/](@/glossary/metakognitivni-destrukce.md).
+- The kompendium at [/kompendium/03-zakladni-kategorie/](@/kompendium/03-zakladni-kategorie/_index.md) treats panoptic structure as one of the **categorical conditions** under which interpersonal manipulation techniques scale to mass effect.
+- The [Color Teams](@/glossary/color-teams.md) framework includes explicit modeling of panoptic threat scenarios — Red Team simulations test whether the platform's own observability infrastructure (telemetry, logging, audit trails) could be weaponized into panoptic mechanisms against its users.
+- Foucault's analysis is paired in [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) with [power-knowledge](@/glossary/power-knowledge.md) as a single integrated diagnostic apparatus for institutional epistemic harm.
 
 The platform's commitment to **transparency** (open source, auditable algorithms, public schema) is a structural counter-panoptic move: it inverts the asymmetry by making the watcher itself watchable.
 
 ## See Also
 
-- [Power-Knowledge](/glossary/power-knowledge/) — Companion Foucauldian concept
-- [Epistemická injustice](/glossary/epistemicka-injustice/) — Fricker's structural epistemic harm
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon at scale
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Internalized self-surveillance
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Self-estrangement form
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Základní kategorie](/kompendium/03-zakladni-kategorie/) — Categorical structures
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Power-Knowledge](@/glossary/power-knowledge.md) — Companion Foucauldian concept
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Fricker's structural epistemic harm
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon at scale
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Internalized self-surveillance
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-estrangement form
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) — Categorical structures
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -59,4 +59,4 @@ The platform's commitment to **transparency** (open source, auditable algorithms
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

@@ -60,7 +60,7 @@ V *The Construction of Social Reality* (1995) Searle rozvíjí pojmy:
 - **Background** — pre-intencionální kapacity, jež umožňují intencionální stavy
 - **Network** — síť ostatních intencionálních stavů, jež dávají specifickému stavu smysl
 
-Tyto pojmy strukturálně rezonují s Polanyiho **tichou znalostí** ([viz 7.13](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)) a Heideggerovým *Befindlichkeit*.
+Tyto pojmy strukturálně rezonují s Polanyiho **tichou znalostí** ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)) a Heideggerovým *Befindlichkeit*.
 
 Pro EA z toho plyne:
 
@@ -75,7 +75,7 @@ Pro EA z toho plyne:
 
 - **Institucionální fakta jsou strukturálně zranitelná**: pokud kolektivní intencionalita kolabuje, instituce kolabují.
 - **Útok na kolektivní intencionalitu**: techniky, jež **rozkládají** sdílenou kapacitu pro institucionální fakta, strukturálně **anihilují** institucionální realitu.
-- **Klinický korelát**: subjekt, jenž **nedůvěřuje** institucionálním faktům (penězům, kontrolám, soudům), vykazuje **strukturální paranoid** — strukturální analog Davidsonovské krize charity ([viz 7.25](/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation/)).
+- **Klinický korelát**: subjekt, jenž **nedůvěřuje** institucionálním faktům (penězům, kontrolám, soudům), vykazuje **strukturální paranoid** — strukturální analog Davidsonovské krize charity ([viz 7.25](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)).
 
 ## 5. Biologický naturalismus
 
@@ -104,7 +104,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **AI nemůže nahradit lidský terapeutický vztah**: rozumění je strukturálně biologicky a sociálně vázáno.
 - **AI jako podpůrný nástroj**: legitimní využití (administrativa, dokumentace, edukace), nikoli substituce.
@@ -127,15 +127,15 @@ Kompendium absorbuje Searleho argument, ale **odbočuje** v několika bodech:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.35 Dennett: Intentional Stance](/kompendium/07-teoreticke-reflexe/dennett-intentional-stance/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -144,4 +144,4 @@ Kompendium absorbuje Searleho argument, ale **odbočuje** v několika bodech:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

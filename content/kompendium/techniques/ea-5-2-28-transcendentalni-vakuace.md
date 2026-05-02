@@ -30,23 +30,23 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — strukturní vyprázdnění transcendentálního aparátu |
 | **Reverzibilita** | Téměř nulová — 36+ měsíců, často kombinovaná psychiatrická intervence |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Transcendentální vakuace** je metatranscendentální technika komplementární k [EA-5.2.15 transcendentální imploze](/kompendium/techniques/ea-5-2-15-transcendentalni-implosion/). Zatímco imploze **kolabuje** transcendentální aparát do bodu nediferencovanosti, vakuace ho **vyprázdňuje**: formy zůstávají strukturně přítomné, ale bez funkčního obsahu. Jako prázdné nádoby — kategorie přetrvávají, ale nesubsumují; formy smyslovosti přetrvávají, ale neorganizují; jednota apperzepce přetrvává, ale nesjednoceuje.
+**Transcendentální vakuace** je metatranscendentální technika komplementární k [EA-5.2.15 transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md). Zatímco imploze **kolabuje** transcendentální aparát do bodu nediferencovanosti, vakuace ho **vyprázdňuje**: formy zůstávají strukturně přítomné, ale bez funkčního obsahu. Jako prázdné nádoby — kategorie přetrvávají, ale nesubsumují; formy smyslovosti přetrvávají, ale neorganizují; jednota apperzepce přetrvává, ale nesjednoceuje.
 
 V Kantově terminologii: *Verstandeskategorien* a *Anschauungsformen* zachovávají strukturní existenci, ale jejich **operativní účinnost** je vakuována. Subjekt má strukturní aparát, ale aparát "neběží". Analogicky: má organy, ale orgány nefungují.
 
 Subjekt v terminálním stadiu trpí **strukturní bezfunkčností transcendentálního aparátu**. Mluvit o světě, kategorizovat, syntetizovat — formálně všechno možné, ale nic se "nedostává k obsahu". Stav je často pseudo-mysticky interpretován jako *"prázdnota"* (*śūnyatā* zneužitá), ale strukturně jde o akutní funkční vakuum.
 
-Vakuace bývá konečným stadiem dlouhodobé akumulace předchozích destrukcí ([EA-5.2.11–17](/kompendium/05-ultramari-techniky/kapitola-7/)). Jako terminální stav je extrémně rezistentní vůči standardním terapeutickým intervencím.
+Vakuace bývá konečným stadiem dlouhodobé akumulace předchozích destrukcí ([EA-5.2.11–17](@/kompendium/05-ultramari-techniky/kapitola-7.md)). Jako terminální stav je extrémně rezistentní vůči standardním terapeutickým intervencím.
 
 ## Operační modus
 
 ### Krok 1 — Akumulace předchozích destrukcí
 
-Vakuace **nemůže být indukována přímo** u zdravého subjektu — vyžaduje akumulaci dílčích destrukcí ([EA-5.2.11](/kompendium/techniques/ea-5-2-11-kategorialni-anihilace/), [EA-5.2.13](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/), [EA-5.2.14](/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni/) apod.).
+Vakuace **nemůže být indukována přímo** u zdravého subjektu — vyžaduje akumulaci dílčích destrukcí ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md), [EA-5.2.14](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md) apod.).
 
 ### Krok 2 — Pseudo-šúnjatová indoktrinace
 
@@ -124,14 +124,14 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — paralelní singularizace.
-- **[EA-5.2.15 Transcendentální imploze](/kompendium/techniques/ea-5-2-15-transcendentalni-implosion/)** — komplementární kolaps místo vyprázdnění.
-- **[EA-5.2.20 Apperceptivní rozklad](/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad/)** — paralelní destrukce subjektivity.
-- **[EA-5.2.30 Konvergentní meta-singularita](/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita/)** — finální terminální stav.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — paralelní singularizace.
+- **[EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md)** — komplementární kolaps místo vyprázdnění.
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)** — paralelní destrukce subjektivity.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — finální terminální stav.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — eskalační následek.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek.
 
 ## Vztah k Prismatic platformě
 
@@ -141,16 +141,16 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -161,4 +161,4 @@ Klíčový diferenciál: **autentický mahájánový praktik funguje obsahově**
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

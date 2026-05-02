@@ -17,7 +17,7 @@ toc = true
 
 ## Úvodní rámec
 
-Klinická detekce [epistemické anihilace](/glossary/epistemicka-anihilace/) (EA) se zatím opírá o **přejaté instrumenty** z příbuzných oblastí — psychického týrání, post-kultového poradenství, coercive control a [c-PTSD](/glossary/c-ptsd/). Žádný instrument samostatně neposkytuje definitivní diagnózu; klinický užitek vzniká **kombinací 3–4 nástrojů** spolu se strukturovanou epistemickou anamnézou (viz [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)).
+Klinická detekce [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) se zatím opírá o **přejaté instrumenty** z příbuzných oblastí — psychického týrání, post-kultového poradenství, coercive control a [c-PTSD](@/glossary/c-ptsd.md). Žádný instrument samostatně neposkytuje definitivní diagnózu; klinický užitek vzniká **kombinací 3–4 nástrojů** spolu se strukturovanou epistemickou anamnézou (viz [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)).
 
 ## Hlavní instrumenty
 
@@ -39,14 +39,14 @@ GES měří čtyři domény: (1) **kompliance** (tlak na konformitu), (2) **expl
 **Délka**: 50 položek, 7 subskal.
 **EA-relevantní subskóre**: "Reality Denial" (10 položek) — měří gaslighting.
 
-Subškála Reality Denial je nejpřímější psychometrický prediktor [gaslightingu](/glossary/gaslighting/) (EA-2.x.x). Skóre ≥3.5 z 5 indikuje kliniky relevantní úroveň. Důležité: PEAS lze použít i retrospektivně (na ukončené vztahy), což je užitečné pro pacienty se strukturální EA navázanou na bývalého partnera.
+Subškála Reality Denial je nejpřímější psychometrický prediktor [gaslightingu](@/glossary/gaslighting.md) (EA-2.x.x). Skóre ≥3.5 z 5 indikuje kliniky relevantní úroveň. Důležité: PEAS lze použít i retrospektivně (na ukončené vztahy), což je užitečné pro pacienty se strukturální EA navázanou na bývalého partnera.
 
 ### GPA Survey — Group Psychological Abuse
 
 **Autoři**: Chambers & Langone (1994).
 **Konstrukt**: post-kultové dopady.
 **Délka**: 31 položek.
-**Klinická pozice**: zlatý standard pro post-kultové poradenství; viz [6.5 Vulnerabilní populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/).
+**Klinická pozice**: zlatý standard pro post-kultové poradenství; viz [6.5 Vulnerabilní populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 
 GPA pokrývá čtyři faktory: kompliance, exploatace, vědomí mysli, emoční vykořeněnost. Cutoff ≥3.0 v doménovém průměru indikuje **klinicky významnou** in-group manipulaci. Praktická hodnota: rychlá administrace (10–15 min), validace v anglickém i českém kontextu (translace Hassan et al., 2019).
 
@@ -66,7 +66,7 @@ CCB je nejvhodnější pro detekci EA-2.x.x (gaslighting) a EA-3.x.x (autorita-z
 **Délka**: 30 položek, 5 subskal.
 **EA-relevantní subskály**: "Negative beliefs about uncontrollability" + "Cognitive self-consciousness".
 
-MCQ-30 nepřímo měří poškození [metakognice](/glossary/metakognice/). U EA pacientů typicky **vysoké skóre** v "Negative beliefs" (nedůvěra ve vlastní myšlení) a **nízké** v "Cognitive self-consciousness" (snížená reflexe). Tento "obrácený profil" je diferenciální oproti generalizované úzkosti.
+MCQ-30 nepřímo měří poškození [metakognice](@/glossary/metakognice.md). U EA pacientů typicky **vysoké skóre** v "Negative beliefs" (nedůvěra ve vlastní myšlení) a **nízké** v "Cognitive self-consciousness" (snížená reflexe). Tento "obrácený profil" je diferenciální oproti generalizované úzkosti.
 
 ### DES-II — Dissociative Experiences Scale
 
@@ -79,7 +79,7 @@ V EA kontextu DES-II slouží **negativně** — vysoké skóre (>30) přesouvá
 
 ### EA-Risk Index (experimentální)
 
-V současném výzkumu se vyvíjí dedikovaný **EA Screening Tool (EAST)** — kombinatorický algoritmus integrující markery klastrů A–D z [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) s evidencí o informačním prostředí. EAST není dosud validizován; klinické použití je vyhrazeno **výzkumnému kontextu**.
+V současném výzkumu se vyvíjí dedikovaný **EA Screening Tool (EAST)** — kombinatorický algoritmus integrující markery klastrů A–D z [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) s evidencí o informačním prostředí. EAST není dosud validizován; klinické použití je vyhrazeno **výzkumnému kontextu**.
 
 ## Kombinatorický algoritmus
 
@@ -108,20 +108,20 @@ Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání
 
 ## Vztah k platformě Prismatic
 
-[Decision Engine](/hub/dd/decisions/) integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](/glossary/due-diligence/). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
+[Decision Engine](/hub/dd/decisions/) integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](@/glossary/due-diligence.md). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
 
 ## Související
 
-- [6.1 Diagnostické indikátory a markery EA](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.1.2 Semi-structured interview protokol](/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol/)
-- [6.1.3 Self-report instrumenty](/kompendium/06-klinicke-aplikace/self-report-instrumenty/)
-- [6.5 Vulnerabilní populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glossary: Gaslighting](/glossary/gaslighting/)
-- [Glossary: Metakognice](/glossary/metakognice/)
-- [Glossary: c-PTSD](/glossary/c-ptsd/)
+- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.1.2 Semi-structured interview protokol](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
+- [6.1.3 Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md)
+- [6.5 Vulnerabilní populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
+- [Glossary: Metakognice](@/glossary/metakognice.md)
+- [Glossary: c-PTSD](@/glossary/c-ptsd.md)
 
 
 ## ⚡ Kritický krok
@@ -134,9 +134,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -148,4 +148,4 @@ Před aplikací:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

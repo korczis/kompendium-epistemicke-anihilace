@@ -48,7 +48,7 @@ V eseji *Real Patterns* (1991) Dennett rozvíjí pozici **vzorců**: intencioná
 
 Pro EA má tato pozice **specifickou relevanci**:
 
-- **Algoritmické systémy** ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) jsou strukturálně **intencionálně interpretovatelné** — jejich rozhodnutí jsou pattern-podobné lidským rozhodnutím.
+- **Algoritmické systémy** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) jsou strukturálně **intencionálně interpretovatelné** — jejich rozhodnutí jsou pattern-podobné lidským rozhodnutím.
 - **Riziko inflace intencionalismu**: připisování AI systémům **plné** intencionality (vědomí, touhy) je strukturálně **nesprávné**.
 - **Kritérium**: schopnost prediktivního zlepšení skrze intencionální popis (Dennettovský pragmatický fundament).
 
@@ -70,7 +70,7 @@ Memy jsou strukturálně **selektovány** podle **přenositelnosti**, **emocion�
 
 Pro EA z toho plyne:
 
-- **Manipulativní memy**: strukturálně optimalizované pro **šíření**, nikoli pro **pravdivost** (rezonuje s Dawkinsovým memem, [viz 7.41](/kompendium/07-teoreticke-reflexe/dawkins-meme/)).
+- **Manipulativní memy**: strukturálně optimalizované pro **šíření**, nikoli pro **pravdivost** (rezonuje s Dawkinsovým memem, [viz 7.41](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)).
 - **Algoritmická memetika**: digital platforms strukturálně **amplifikují** vysoce přenosné memy — bez ohledu na pravdivost.
 
 ## 5. From Bacteria to Bach
@@ -96,7 +96,7 @@ Pro EA má tato pozice **dvojí relevanci**:
 
 Kompendium absorbuje Dennettovu strukturální analýzu, ale **odbočuje** v několika bodech:
 
-1. **Kvalia a *what it is like***: Dennett strukturálně **podceňuje** subjektivní pól (rezonuje s Nagelem, [viz 7.29](/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere/), a Chalmersem, [viz 7.37](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)).
+1. **Kvalia a *what it is like***: Dennett strukturálně **podceňuje** subjektivní pól (rezonuje s Nagelem, [viz 7.29](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md), a Chalmersem, [viz 7.37](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)).
 2. **Anti-fenomenologie**: Dennett strukturálně **odmítá** fenomenologickou tradici — kompendium kombinuje obě.
 3. **Inflace funkcionalismu**: Dennettova ochota připsat intencionalitu **systémům** může být přehnaná.
 
@@ -110,15 +110,15 @@ Kompendium absorbuje Dennettovu strukturální analýzu, ale **odbočuje** v ně
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.36 Searle: Chinese Room](/kompendium/07-teoreticke-reflexe/searle-chinese-room/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.41 Dawkins: Mem](/kompendium/07-teoreticke-reflexe/dawkins-meme/)
-- [7.42 Dennett: From Bacteria to Bach](/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.36 Searle: Chinese Room](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.41 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
+- [7.42 Dennett: From Bacteria to Bach](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -127,4 +127,4 @@ Kompendium absorbuje Dennettovu strukturální analýzu, ale **odbočuje** v ně
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

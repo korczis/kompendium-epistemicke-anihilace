@@ -31,8 +31,8 @@ Tato teze radikálně reorganizuje pole epistemologie:
 Pro EA z toho plyne:
 
 - Útok na epistemické kapacity je vždy útokem na **bytí-ve-světě**, nikoli pouze na **kognitivní reprezentace**.
-- **Sférická perspektiva** Sloterdijka ([viz 7.1 §3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) je **fenomenologickou** explicitací heideggerovského *In-der-Welt-seins*.
-- Algoritmické systémy ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) strukturálně **kolonizují** prostředí starosti — předkládají subjektu **už-pre-strukturovaný svět**.
+- **Sférická perspektiva** Sloterdijka ([viz 7.1 §3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) je **fenomenologickou** explicitací heideggerovského *In-der-Welt-seins*.
+- Algoritmické systémy ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) strukturálně **kolonizují** prostředí starosti — předkládají subjektu **už-pre-strukturovaný svět**.
 
 ## 2. *Zuhandenheit* a *Vorhandenheit*
 
@@ -43,7 +43,7 @@ Heidegger rozlišuje dva fundamentálně **odlišné** mody, jak nám věci jsou
 
 Pro EA má toto rozlišení **trojí relevanci**:
 
-1. **EA často nutí subjekt přejít z příručnosti k předruční reflexi** — paralyzuje to, co subjekt jindy **plynule užívá**. Strukturální analog Polanyiho indwelling-narušení ([viz 7.13](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)).
+1. **EA často nutí subjekt přejít z příručnosti k předruční reflexi** — paralyzuje to, co subjekt jindy **plynule užívá**. Strukturální analog Polanyiho indwelling-narušení ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
 2. **Iluzorní komplexita** ([EA-1.7](/kompendium/techniques/ea-1-7-iluzorni-komplexita/)) strukturálně **reifikuje** věc, jež dosud byla příručná — předstírá, že "kladivo" vyžaduje detailní teorii dříve, než s ním může být tlučeno.
 3. **Algoritmické rozhraní** často **sklouzne** mezi dva mody nedeterministickým způsobem — uživatel neví, zda **užívá** nástroj nebo je **objektem** datafikace.
 
@@ -75,7 +75,7 @@ Pro EA má tato analýza **specifickou diagnostickou hodnotu**:
 
 Proti upadlosti staví Heidegger **vlastní pobývání** (*eigentliche Existenz*). Cesta k němu vede skrze **úzkost** (*Angst*) — nikoli strach z konkrétního, ale úzkost ze **samotné možnosti bytí**, jež subjekt strhává z anonymity *das Man* a staví ho **před vlastní volbu**.
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) z toho plyne:
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) z toho plyne:
 
 - **Úzkost** není primárně patologií — může být **strukturální výzvou** k autentickému rozhodnutí.
 - **Manipulativní techniky** často exploitují úzkost, aby **přivedly subjekt zpět** do pseudo-bezpečí *das Man* (autoritářské řešení).
@@ -97,7 +97,7 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) z toh
 Kompendium absorbuje Heideggerovy diagnostické nástroje, ale **odbočuje** od něho ve **třech bodech**:
 
 1. **Politická kompromitovanost**: Heideggerovo členství v NSDAP a *Černé sešity* odkrývají strukturální propojení jeho filozofie s antisemitismem. Kompendium tuto historii **nezamlčuje** a kriticky reflektuje, jak Heideggerova kritika *das Man* mohla být zneužita pro autoritářský projekt.
-2. **Rezignace na normativitu**: Heideggerovo odmítnutí etiky jako "metafyzické" zanechává prostor pro autoritářskou volbu. Kompendium se vrací k **Habermasovskému** normativnímu kritériu ([viz 7.1 §4](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)).
+2. **Rezignace na normativitu**: Heideggerovo odmítnutí etiky jako "metafyzické" zanechává prostor pro autoritářskou volbu. Kompendium se vrací k **Habermasovskému** normativnímu kritériu ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 3. **Antimoderní gesto**: Heideggerova kritika techniky (*Die Frage nach der Technik*, 1953) je v pozdní recepci antimoderní. Kompendium technologii ne **zatracuje**, ale **kriticky reformuje**.
 
 ## 8. Primární literatura
@@ -110,17 +110,17 @@ Kompendium absorbuje Heideggerovy diagnostické nástroje, ale **odbočuje** od 
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.15 Sartre: Existencialismus](/kompendium/07-teoreticke-reflexe/sartre-existencialismus/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.15 Sartre: Existencialismus](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -129,4 +129,4 @@ Kompendium absorbuje Heideggerovy diagnostické nástroje, ale **odbočuje** od 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

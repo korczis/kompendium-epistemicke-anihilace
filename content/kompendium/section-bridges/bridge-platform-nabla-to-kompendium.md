@@ -51,14 +51,14 @@ Klíčové koncepty: **Nabla∞ epistemic state**, **claim/evidence/axiom triad*
 
 ## 6. Související
 
-- [Platform: Nabla∞](/glossary/)
-- [Kompendium 07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Platform: Nabla∞](@/glossary/_index.md)
+- [Kompendium 07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
 - [Glossary: Nabla](/kompendium/glossary-bridges/bridge-nabla/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Case Studies](/kompendium/case-studies/)
-- [Visualizations: Epistemic graph](/kompendium/visualizations/)
-- [Quick Reference: Teorie](/kompendium/quick-reference/)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Case Studies](@/kompendium/case-studies/_index.md)
+- [Visualizations: Epistemic graph](@/kompendium/visualizations/_index.md)
+- [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
 
 ## 7. Meta-poznámka: Nabla∞ jako kompasová epistemologie
 
@@ -71,4 +71,4 @@ Nabla∞ není jen knowledge base — je **self-reflective epistemic compass**. 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

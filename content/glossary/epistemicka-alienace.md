@@ -37,7 +37,7 @@ Structurally, the state represents a **breakdown of the epistemic self-relation*
 
 Epistemic alienation is functionally significant because it disables the **foundation** on which most epistemic practice rests. Even rigorous critical thinking presupposes a baseline of trust in one's own reasoning — without it, every conclusion becomes suspect to the point of paralysis or pathological deference.
 
-Several techniques in the [Kompendium](/kompendium/) are documented inducers of epistemic alienation:
+Several techniques in the [Kompendium](@/kompendium/_index.md) are documented inducers of epistemic alienation:
 
 - **Persistent EA-1.4.2 Latent Emotional Modulation** specifically targeting cognitive self-trust
 - The "Guru and Adept" pattern when the mentor systematically frames the adept's spontaneous judgments as "ego illusions"
@@ -52,11 +52,11 @@ Recovery typically requires **rebuilding self-relation** rather than focusing on
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent concept
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Often co-induced
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Related mechanism, different focus
-- [Anankastický režim](/glossary/anankasticky-rezim/) — Sometimes presents as compensatory response to alienation
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent concept
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Often co-induced
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Related mechanism, different focus
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) — Sometimes presents as compensatory response to alienation
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -65,4 +65,4 @@ Recovery typically requires **rebuilding self-relation** rather than focusing on
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

@@ -17,7 +17,7 @@ toc = false
 
 ## Glossary entry
 
-[zero-warning-policy](/glossary/zero-warning-policy/) — Compile-time enforcement.
+[zero-warning-policy](@/glossary/zero-warning-policy.md) — Compile-time enforcement.
 
 ## Vyskyt v kompendiu
 
@@ -40,10 +40,10 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 
 ## Cross-linky
 
-- **Hub kompendia**: [/kompendium/](/kompendium/)
-- **Glossary entry**: [/glossary/zero-warning-policy/](/glossary/zero-warning-policy/)
-- **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
-- **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
+- **Glossary entry**: [/glossary/zero-warning-policy/](@/glossary/zero-warning-policy.md)
+- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
+- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
 
 ---
 

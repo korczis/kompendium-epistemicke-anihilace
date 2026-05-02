@@ -44,10 +44,10 @@ Každá karta sleduje uniformní strukturu. Celkem 100+ karet pokrývajících:
 
 ## Související
 
-- [Hub kompendia](/kompendium/)
-- [Techniques index](/kompendium/techniques/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Visualizations](/kompendium/visualizations/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Techniques index](@/kompendium/techniques/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Visualizations](@/kompendium/visualizations/_index.md)
 
 ---
 
@@ -55,4 +55,4 @@ Každá karta sleduje uniformní strukturu. Celkem 100+ karet pokrývajících:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

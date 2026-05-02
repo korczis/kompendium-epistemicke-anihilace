@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — falešný transcendentální vhled blokuje legitimní epistemickou práci |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje uznání iluze, což je pro subjekt identitárně ohrožující |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -40,7 +40,7 @@ Termín přebírá Kantovu kategorii *transzendentaler Schein*, ale s rozhodným
 
 Klíčový paradox: subjekt v transcendentální iluzi **prožívá vyšší epistemickou jistotu** než v běžných stavech — má pocit, že "konečně vidí", "překonal limity", "je probuzený". Tento pocit je **fenomenologicky autentický**, ale **strukturálně falešný**: subjekt nepřekročil žádný limit, byl pouze přesvědčen, že ho překročil.
 
-V kontrastu k [EA-5.2.1](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/), která převrací epistemická pravidla **na meta-úrovni**, EA-5.2.2 generuje falešnou meta-úroveň jako takovou. Často se kombinují: meta-inverze potřebuje pseudo-transcendenci jako legitimizační vrstvu.
+V kontrastu k [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md), která převrací epistemická pravidla **na meta-úrovni**, EA-5.2.2 generuje falešnou meta-úroveň jako takovou. Často se kombinují: meta-inverze potřebuje pseudo-transcendenci jako legitimizační vrstvu.
 
 ## Operační modus
 
@@ -169,14 +169,14 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 ### Často se kombinuje s
 
-- **[EA-5.2.1 Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)** — pseudo-transcendence legitimizuje převrácené standardy.
-- **[EA-5.1.19 Kvazi-mystická anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)** — strukturálně blízká, liší se v cíli (singularita vs. transcendentální iluze).
+- **[EA-5.2.1 Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)** — pseudo-transcendence legitimizuje převrácené standardy.
+- **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — strukturálně blízká, liší se v cíli (singularita vs. transcendentální iluze).
 - **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-adept/)** — guru je strukturálním předkladem pro transcendentální iluzi.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emocionální saturace zážitku.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální saturace zážitku.
 
 ### Eskaluje do
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — pseudo-transcendence se zhroutí do sebereferenčního bodu.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pseudo-transcendence se zhroutí do sebereferenčního bodu.
 - **[EA-5.2.21 Transcendentální solipsismus](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-21-transcendentalni-solipsismus)**.
 
 ## Vztah k Prismatic platformě
@@ -187,16 +187,16 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.1 Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)
-  - [EA-5.2.3 Noumenální redukce](/kompendium/techniques/ea-5-2-3-noumenalni-redukce/)
-  - [EA-5.1.19 Kvazi-mystická anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)
+  - [EA-5.2.1 Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)
+  - [EA-5.2.3 Noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md)
+  - [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
 
 ## ⚡ Kritický krok
@@ -206,10 +206,10 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -221,4 +221,4 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

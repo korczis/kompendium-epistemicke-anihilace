@@ -32,7 +32,7 @@ Každá technika je identifikována kódem ve formátu `EA-X.Y.Z[-α]`:
 | **Z** | Specifický fenomén | `1` |
 | **α** | Volitelná varianta | `a`, `b`, `c` |
 
-Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) a [Zkratky a notace](/kompendium/08-prilohy/zkratky/).
+Detailní popis notace viz [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) a [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md).
 
 ---
 
@@ -44,45 +44,45 @@ Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasi
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-1.1.1`](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) | Selektivní expozice | Strategický výběr informačních pramenů vytvářející iluzi vyváženosti. |
-| [`EA-1.1.2`](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/) | Informační přetížení | Záměrné zahlcení daty znemožňující kritické vyhodnocení. |
-| [`EA-1.1.3`](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) | Terminologická mystifikace | Konstrukce odborně znějících termínů bez denotativního obsahu. |
+| [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) | Selektivní expozice | Strategický výběr informačních pramenů vytvářející iluzi vyváženosti. |
+| [`EA-1.1.2`](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) | Informační přetížení | Záměrné zahlcení daty znemožňující kritické vyhodnocení. |
+| [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Terminologická mystifikace | Konstrukce odborně znějících termínů bez denotativního obsahu. |
 
 ### 1.2 Logická manipulace
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-1.2.1`](/kompendium/techniques/ea-1-2-1-falesne-dilema/) | Falešné dilema | Redukce komplexního problému na binární volbu. |
-| [`EA-1.2.2`](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) | Falešná ekvivalence | Postavení nesouměřitelných pozic do zdánlivé symetrie. |
-| [`EA-1.2.3`](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) | Iluzorní komplexita | Umělé komplikování jednoduchých témat za účelem neutralizace. |
+| [`EA-1.2.1`](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) | Falešné dilema | Redukce komplexního problému na binární volbu. |
+| [`EA-1.2.2`](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) | Falešná ekvivalence | Postavení nesouměřitelných pozic do zdánlivé symetrie. |
+| [`EA-1.2.3`](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) | Iluzorní komplexita | Umělé komplikování jednoduchých témat za účelem neutralizace. |
 
 ### 1.3 Falsifikační obrana
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-1.3.1`](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) | Imunizace proti falsifikaci | Konstrukce tvrzení nepřístupných empirickému přezkumu. |
-| [`EA-1.3.2`](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) | Strategická reinterpretace | Posun významu pojmů tak, aby falsifikační evidence ztratila platnost. |
-| [`EA-1.3.3`](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) | Tematická diverze | Přesměrování diskuse od kritického bodu k bezpečnému tématu. |
+| [`EA-1.3.1`](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) | Imunizace proti falsifikaci | Konstrukce tvrzení nepřístupných empirickému přezkumu. |
+| [`EA-1.3.2`](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) | Strategická reinterpretace | Posun významu pojmů tak, aby falsifikační evidence ztratila platnost. |
+| [`EA-1.3.3`](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) | Tematická diverze | Přesměrování diskuse od kritického bodu k bezpečnému tématu. |
 
 ### 1.4 Prosodická a paralingvistická vrstva
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-1.4.1`](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/) | Prosodická dominance | Použití hlasového rejstříku k vytvoření iluze autority. |
-| [`EA-1.4.2`](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) | Latentní emocionální modulace | Podprahový emoční tón rámující obsah. |
+| [`EA-1.4.1`](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) | Prosodická dominance | Použití hlasového rejstříku k vytvoření iluze autority. |
+| [`EA-1.4.2`](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) | Latentní emocionální modulace | Podprahový emoční tón rámující obsah. |
 
 ### 1.5 Proxemická a tělesná vrstva
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-1.5.1`](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) | Strategická proxemika | Manipulace fyzickou vzdáleností a prostorovým uspořádáním. |
-| [`EA-1.5.2`](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/) | Dominantní tělesné hieroglyfy | Posturální dominance jako neverbální argument. |
+| [`EA-1.5.1`](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) | Strategická proxemika | Manipulace fyzickou vzdáleností a prostorovým uspořádáním. |
+| [`EA-1.5.2`](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Dominantní tělesné hieroglyfy | Posturální dominance jako neverbální argument. |
 
 ---
 
 ## Kapitola 2 — Delegitimizační techniky
 
-> **Cíl: zničení epistemické důvěryhodnosti zdroje.** Riziko: **střední–vysoké**, reverzibilita: **střední**. Plné articulace v sekci [03 Základní kategorie](/kompendium/03-zakladni-kategorie/) a [04 Terminální protokoly](/kompendium/04-terminalni-protokoly/).
+> **Cíl: zničení epistemické důvěryhodnosti zdroje.** Riziko: **střední–vysoké**, reverzibilita: **střední**. Plné articulace v sekci [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) a [04 Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md).
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
@@ -115,7 +115,7 @@ Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasi
 
 ## Kapitola 4 — Terminální protokoly
 
-> **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: **nízká**. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](/kompendium/04-terminalni-protokoly/).
+> **Komplexní destrukční sekvence kombinující techniky z předchozích kapitol.** Riziko: **vysoké–extrémní**, reverzibilita: **nízká**. Vyžaduje úroveň přístupu **L2+**. Plný popis v [Sekci 04](@/kompendium/04-terminalni-protokoly/_index.md).
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
@@ -133,34 +133,34 @@ Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasi
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
-| [`EA-5.1.1`](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/) | Epistemická kanibalizace | Subjekt používá vlastní poznávací nástroje k destrukci téhož. |
+| [`EA-5.1.1`](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) | Epistemická kanibalizace | Subjekt používá vlastní poznávací nástroje k destrukci téhož. |
 | `EA-5.1.2` | Reflexivní inverze | Obrácení reflexe proti reflexi samotné. |
 | `EA-5.1.3` | Sebenosný paradox | Vnoření paradoxu do identitárního jádra. |
-| [`EA-5.1.4`](/kompendium/techniques/ea-5-1-4-semanticka-imploze/) | Sémantická imploze | Kolaps významu pojmů zevnitř, bez vnějšího odporu. |
+| [`EA-5.1.4`](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) | Sémantická imploze | Kolaps významu pojmů zevnitř, bez vnějšího odporu. |
 | `EA-5.1.5` | Lexikální vyprázdnění | Postupné vyprazdňování jádrových termínů zachováním obalu. |
 | `EA-5.1.6` | Konceptuální štěpení | Rozdělení jednotného pojmu na neslučitelné fragmenty. |
-| [`EA-5.1.7`](/kompendium/techniques/ea-5-1-7-referencni-rekurze/) | Referenční rekurze | Nekonečná smyčka odkazů bez dosažení referentu. |
+| [`EA-5.1.7`](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) | Referenční rekurze | Nekonečná smyčka odkazů bez dosažení referentu. |
 | `EA-5.1.8` | Sebepojmenovávací paradox | Pojem, který nemůže označovat sám sebe ani něco jiného. |
 | `EA-5.1.9` | Meta-meta-narativní kolaps | Destrukce na úrovni vyprávění o vyprávění o vyprávění. |
-| [`EA-5.1.10`](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) | Temporální dekoherence | Rozbití koherentního vnímání plynutí času. |
+| [`EA-5.1.10`](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) | Temporální dekoherence | Rozbití koherentního vnímání plynutí času. |
 | `EA-5.1.11` | Anachronická záměna | Přiřazení současného významu historickému kontextu jako pravdivý překlad. |
 | `EA-5.1.12` | Kauzální inverze | Záměna příčiny a následku v narativní struktuře. |
-| [`EA-5.1.13`](/kompendium/techniques/ea-5-1-13-hyperreflexivita/) | Hyperreflexivita | Patologická reflexe znemožňující jakoukoliv akci. |
+| [`EA-5.1.13`](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) | Hyperreflexivita | Patologická reflexe znemožňující jakoukoliv akci. |
 | `EA-5.1.14` | Identitární dezintegrace | Postupný rozpad jádrových identifikátorů self. |
 | `EA-5.1.15` | Existenciální derealizace | Ztráta pocitu reality vlastní existence. |
-| [`EA-5.1.16`](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/) | Inferenční paralýza | Neschopnost vyvodit závěr z jasných premis. |
+| [`EA-5.1.16`](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) | Inferenční paralýza | Neschopnost vyvodit závěr z jasných premis. |
 | `EA-5.1.17` | Modalitní zmatek | Záměna nutnosti, možnosti a aktuálnosti. |
 | `EA-5.1.18` | Pravdo-falešová indiference | Vyhasnutí relevance pravdivosti. |
-| [`EA-5.1.19`](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/) | Kvazi-mystická anihilace | Imitace transcendentní zkušenosti za účelem destrukce reflexe. |
+| [`EA-5.1.19`](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) | Kvazi-mystická anihilace | Imitace transcendentní zkušenosti za účelem destrukce reflexe. |
 | `EA-5.1.20` | Spirituální bypass | Použití spirituální terminologie k vyhnutí se etické konfrontaci. |
 | `EA-5.1.21` | Sakralizace destrukce | Přiřazení posvátného statusu rozkládajícímu procesu. |
-| [`EA-5.1.22`](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/) | Diferenciální nihilace | Eliminace schopnosti rozlišovat — vše splývá. |
+| [`EA-5.1.22`](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) | Diferenciální nihilace | Eliminace schopnosti rozlišovat — vše splývá. |
 | `EA-5.1.23` | Hodnotová dezorientace | Ztráta hierarchie hodnot, ekvivalence triviality a důležitosti. |
 | `EA-5.1.24` | Etická amnézie | Vymazání vzpomínky na vlastní etické intuice. |
-| [`EA-5.1.25`](/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps/) | Singulární narativní kolaps | Jediný narativ konzumuje všechny ostatní. |
+| [`EA-5.1.25`](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md) | Singulární narativní kolaps | Jediný narativ konzumuje všechny ostatní. |
 | `EA-5.1.26` | Polyfonní zámlka | Více protichůdných narativů potlačí všechen smysl. |
 | `EA-5.1.27` | Anti-narativní kasace | Aktivní destrukce vyprávění jako takového. |
-| [`EA-5.1.28`](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/) | Konvergentní singularita | Sjednocení všech rozdílů do jednoho bodu, kde mizí poznání. |
+| [`EA-5.1.28`](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md) | Konvergentní singularita | Sjednocení všech rozdílů do jednoho bodu, kde mizí poznání. |
 | `EA-5.1.29` | Ireverzibilní transcendence | Bod, za nímž návrat do předchozí epistemické struktury není možný. |
 | `EA-5.1.30` | Apoteoza prázdna | Konečná deifikace ztráty jako cíle. |
 
@@ -170,7 +170,7 @@ Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasi
 
 ## Kapitola 6 — Klinické aplikace
 
-> **Diagnostické a terapeutické rámce** pro práci s pacienty exponovanými technikám EA. Plný popis v [Sekci 06](/kompendium/06-klinicke-aplikace/) a [Diagnostických nástrojích](/kompendium/08-prilohy/diagnosticke-nastroje/).
+> **Diagnostické a terapeutické rámce** pro práci s pacienty exponovanými technikám EA. Plný popis v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) a [Diagnostických nástrojích](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 
 | Kód | Název | Jednořádkový popis |
 |-----|-------|--------------------|
@@ -182,7 +182,7 @@ Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasi
 
 ## Kapitola 7 — Teoretické reflexe (placeholder)
 
-> **Filozofické a interdisciplinární implikace.** Plný popis v [Sekci 07](/kompendium/07-teoreticke-reflexe/).
+> **Filozofické a interdisciplinární implikace.** Plný popis v [Sekci 07](@/kompendium/07-teoreticke-reflexe/_index.md).
 
 | Kód | Název | Stav |
 |-----|-------|------|
@@ -207,25 +207,25 @@ Detailní popis notace viz [Klasifikační schéma](/kompendium/08-prilohy/klasi
 | Metrika | Hodnota |
 |---------|---------|
 | Kanonizované techniky | 13 (Kap. 1) + 30 (Kap. 5) + 6 (Kap. 2) + 5 (Kap. 3) + 3 (Kap. 4) + 3 (Kap. 6) = **60+** |
-| Plně publikované per-technique články | **23** (viz [techniques index](/kompendium/techniques/)) |
+| Plně publikované per-technique články | **23** (viz [techniques index](@/kompendium/techniques/_index.md)) |
 | Plánovaná finální velikost | **150 technik** napříč 10 kapitolami |
 | Aktuální stav | **~15%** publikovaných v plné formě |
 
 ## Cross-referencing s dalšími přílohami
 
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární literatura k jednotlivým kategoriím technik.
-- [Index pojmů](/kompendium/08-prilohy/index-pojmu/) — anglické ekvivalenty kanonizovaných českých termínů.
-- [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) — metodologie přiřazování EA kódů.
-- [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) — instrumenty pro detekci jednotlivých technik.
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — hranice studia a aplikace.
-- [Zkratky a notace](/kompendium/08-prilohy/zkratky/) — formální notační konvence.
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární literatura k jednotlivým kategoriím technik.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) — anglické ekvivalenty kanonizovaných českých termínů.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — metodologie přiřazování EA kódů.
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — instrumenty pro detekci jednotlivých technik.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — hranice studia a aplikace.
+- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence.
 
 ## Platformový kontext
 
 Master rejstřík je propojen s běžícími systémy:
 
-- [Glossary](/glossary/) — každý kanonizovaný název má glosářové heslo.
-- [Color Teams](/glossary/color-teams/) — Red Team scénáře čerpají z této taxonomie.
+- [Glossary](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
+- [Color Teams](@/glossary/color-teams.md) — Red Team scénáře čerpají z této taxonomie.
 - [Decision Engine](/hub/dd/decisions/) — kalibrace důvěry využívá EA kódy jako negativní signály.
 - [3NL architektura](/glossary/three-nested-loops/) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
 
@@ -237,7 +237,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -247,18 +247,18 @@ Místo lineární četby:
 
 ### V této sekci
 
-- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
-- [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/)
-- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
-- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
-- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
+- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
+- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
 
 ### Klíčové orientační body
 
-- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
-- [Glossary](/glossary/) — terminologický slovník
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
+- [Glossary](@/glossary/_index.md) — terminologický slovník
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
 
 ---
 
@@ -267,4 +267,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Přílohy](/kompendium/08-prilohy/) | [Techniques](/kompendium/techniques/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — terminální fenomenologická paralýza |
 | **Reverzibilita** | Téměř nulová — 36+ měsíců, často nereverzibilní bez intenzivní intervence |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Meta-fenomenální redukce** je metatranscendentální technika eskalace [EA-5.2.17 husserlovské redukce — perverze](/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze/). Zatímco perverze redukuje **přirozený postoj** k trvalému uzávorkování, meta-fenomenální redukce **redukuje samu redukující kapacitu**: subjekt provádí *epoché* na svém vlastním aktu *epoché*, čímž generuje **rekurzivní paralýzu** fenomenologického fungování.
+**Meta-fenomenální redukce** je metatranscendentální technika eskalace [EA-5.2.17 husserlovské redukce — perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md). Zatímco perverze redukuje **přirozený postoj** k trvalému uzávorkování, meta-fenomenální redukce **redukuje samu redukující kapacitu**: subjekt provádí *epoché* na svém vlastním aktu *epoché*, čímž generuje **rekurzivní paralýzu** fenomenologického fungování.
 
 V Husserlově fenomenologii je *epoché* metodologickým aktem; v korektní praxi se vědomí **navrací** k fenomenologické práci. Meta-fenomenální redukce tuto návratnou kapacitu destruuje skrze **rekurzivní aplikaci redukce na samu sebe**: každý pokus o návrat k fenomenologickému fungování je sám uzávorkován jako "naivní akt".
 
@@ -46,7 +46,7 @@ Tento stav je často **terminální fáze** dlouhodobé akademické patologie u 
 
 ### Krok 1 — Akumulace předchozí redukce
 
-Meta-fenomenální redukce **nemůže být indukována přímo** — vyžaduje předchozí etablovanou [EA-5.2.17](/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze/).
+Meta-fenomenální redukce **nemůže být indukována přímo** — vyžaduje předchozí etablovanou [EA-5.2.17](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md).
 
 ### Krok 2 — Pseudo-radikální indoktrinace
 
@@ -81,7 +81,7 @@ Stav strukturní paralýzy je etablován jako "post-fenomenologický postoj" neb
 | **Pseudo-radikální slovník** ("post-fenomenologie") mimo legitimní kontext | Krok 5 konsolidace |
 | **Strukturní postojová paralýza** v praktických situacích | Krok 4 paralýza |
 | **Lingvistická regrese** — meta-meta-meta-řeč | Pokročilá redukce |
-| **Kombinovaný výskyt** [EA-5.2.17](/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze/) | Akumulační příprava |
+| **Kombinovaný výskyt** [EA-5.2.17](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md) | Akumulační příprava |
 
 ## Diferenciální detekce
 
@@ -121,14 +121,14 @@ Meta-fenomenální redukce je odlišitelná od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)** — paralelní rekurzivní mechanismus.
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — paralelní meta-kognitivní paralýza.
-- **[EA-5.2.17 Husserlovská redukce - perverze](/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze/)** — předchozí stadium.
-- **[EA-5.2.30 Konvergentní meta-singularita](/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita/)** — terminální stav.
+- **[EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)** — paralelní rekurzivní mechanismus.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — paralelní meta-kognitivní paralýza.
+- **[EA-5.2.17 Husserlovská redukce - perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md)** — předchozí stadium.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — eskalační následek.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek.
 
 ## Vztah k Prismatic platformě
 
@@ -138,16 +138,16 @@ Meta-fenomenální redukce je odlišitelná od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -158,4 +158,4 @@ Meta-fenomenální redukce je odlišitelná od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

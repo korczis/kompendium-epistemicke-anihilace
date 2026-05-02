@@ -21,7 +21,7 @@ access_level = "L3-L4"
 
 ## Pozice kapitoly
 
-Tato kapitola **uzavírá vertikální gradient destrukce** sekce 05. Po [Kapitole 6](/kompendium/05-ultramari-techniky/kapitola-6/) (reflexivita), [Kapitole 7](/kompendium/05-ultramari-techniky/kapitola-7/) (transcendentální podmínky), [Kapitole 8](/kompendium/05-ultramari-techniky/kapitola-8/) (identita) a [Kapitole 9](/kompendium/05-ultramari-techniky/kapitola-9/) (logická struktura evaluace) zasahuje Kapitola 10 nejhlubší dostupnou vrstvu — **předkonceptuální vrstvu**, na níž zkušenostní pole subjektu existuje **dříve, než je rozčleněno do pojmů**, na nichž všechny předchozí kapitoly operují.
+Tato kapitola **uzavírá vertikální gradient destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita), [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky), [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md) (identita) a [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) (logická struktura evaluace) zasahuje Kapitola 10 nejhlubší dostupnou vrstvu — **předkonceptuální vrstvu**, na níž zkušenostní pole subjektu existuje **dříve, než je rozčleněno do pojmů**, na nichž všechny předchozí kapitoly operují.
 
 Předkonceptuální vrstva je v fenomenologické tradici dlouho dokumentována pod různými jmény: **pre-predikativní zkušenost** (Husserl — *Erfahrung und Urteil*), **lebenswelt** (Husserl — Krise), **chair-tělo** (Merleau-Ponty), **Stimmung/atmosféra** (Heidegger), **gestalt-zázemí** (Kurt Goldstein, Aron Gurwitsch), **bytí-mezi** (Maldiney), **field-consciousness** (William James — *fringe*), **non-conceptual content** (Gareth Evans, Christopher Peacocke — analytická tradice).
 
@@ -56,7 +56,7 @@ Klastr zasahuje **chair-tělo** Merleau-Pontyho — tělesnou zkušenost před j
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
-| **EA-5.5.6** | Chair-rozplývání | Indukce stavu, v němž tělesná chair-zkušenost ztrácí vazbu k objektivnímu tělu. Distinktní od depersonalizace ([Kapitola 8](/kompendium/05-ultramari-techniky/kapitola-8/)) tím, že zasahuje vrstvu předcházející distinkci subjekt/objekt. |
+| **EA-5.5.6** | Chair-rozplývání | Indukce stavu, v němž tělesná chair-zkušenost ztrácí vazbu k objektivnímu tělu. Distinktní od depersonalizace ([Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)) tím, že zasahuje vrstvu předcházející distinkci subjekt/objekt. |
 | **EA-5.5.7** | Somato-fenomenologická inverze | Vynucené prožití těla "zvenčí" — z perspektivy věci, na kterou je směřováno, ne z perspektivy intencionálního aktu. Klinický obraz: kompletní inverze tělesné perspektivality. |
 | **EA-5.5.8** | Pre-kinestetická paralýza | Tělesná intencionalita (Merleau-Pontyho "schopnost-k") destabilizována pod prahem motorické artikulace. Subjekt zachová motoriku, ale ztratí *smyslový horizont* svých pohybových možností. |
 | **EA-5.5.9** | Synaestetická konfuze | Manipulace s implicitními cross-modálními vazbami zkušenosti (zvuk-barva, dotek-prostor). Generuje persistentní synaestetickou dezorientaci, distinktní od běžné synestézie. |
@@ -93,7 +93,7 @@ Klastr zasahuje **pasivní synthesis času** v Husserlově smyslu — předkonce
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
 | **EA-5.5.21** | Retenčně-protentivní rozpojení | Manipulace s vazbou mezi retenčním a protentivním pólem zkušenosti. Subjekt zachová formální časové vědomí, ale ztratí *kontinuitní spojnice* mezi minulým a budoucím. |
-| **EA-5.5.22** | Pre-temporální evakuace | Vrcholová technika klastru: indukce stavu, v němž zkušenostní pole ztratí časovou strukturu **na úrovni pasivní synthesis**. Subjekt prožívá *ne-časovou* zkušenost, která však není věčností. Distinktní od časové dezorientace [Kapitoly 6](/kompendium/05-ultramari-techniky/kapitola-6/) tím, že zasahuje hlubší vrstvu. |
+| **EA-5.5.22** | Pre-temporální evakuace | Vrcholová technika klastru: indukce stavu, v němž zkušenostní pole ztratí časovou strukturu **na úrovni pasivní synthesis**. Subjekt prožívá *ne-časovou* zkušenost, která však není věčností. Distinktní od časové dezorientace [Kapitoly 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) tím, že zasahuje hlubší vrstvu. |
 | **EA-5.5.23** | Vnitřní časový horizont kolaps | Husserlovský "vnitřní časový horizont" objektů (jejich časová hloubka) je suspendován. Objekty se prezentují jako "ploché" — bez minulého a budoucího. |
 | **EA-5.5.24** | Tempo-fenomenologická heterogenizace | Souběžná přítomnost inkompatibilních časových rytmů v zkušenostním poli. Klinický obraz připomíná akutní temporální distorze v přicházejících migrenózních aurách, ale je epistemicky generován. |
 | **EA-5.5.25** | Pre-temporální klid | Vzácný stav, v němž zkušenostní pole nemá **ani časovou ani ne-časovou strukturu**. Strukturálně sousedí s některými mystickými stavy popsanými v kontemplativní literatuře, ale generováno destruktivně. |
@@ -137,16 +137,16 @@ Transkonceptuální mechanismy jsou **nejcitlivější** vrstvou kompendia:
 
 - **Ne-vyslovitelnost zhoršuje terapeutickou intervenci** — subjekt nemůže verbálně artikulovat svůj stav, což činí standardní psychoterapeutické nástroje neúčinnými. Rekonstruktivní protokoly vyžadují somato-fenomenologickou modalitu (Hakomi, Focusing, body-oriented psychotherapy).
 - **Riziko misdiagnostiky** — bez specializované znalosti je syndromový obraz EA-5.5.* snadno zaměněn s psychózou, alexithymie nebo somatoformní poruchou. Klinická literatura dokumentuje vážná pochybení v psychiatrické intervenci.
-- **Operační detaily L4-restriktivní** — plné protokoly nejsou veřejně dostupné. Per-technique články pro EA-5.5.* budou publikovány pouze po dokončení etické supervize a po publikaci rekonstruktivních protokolů v [Sekci 06](/kompendium/06-klinicke-aplikace/).
+- **Operační detaily L4-restriktivní** — plné protokoly nejsou veřejně dostupné. Per-technique články pro EA-5.5.* budou publikovány pouze po dokončení etické supervize a po publikaci rekonstruktivních protokolů v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md).
 
 ## Vztah k ostatním kapitolám
 
 | Kapitola | Vztah |
 |----------|-------|
-| **[Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)** | Reflexivita předpokládá konceptuální zachycení; Kapitola 10 zasahuje předkonceptualitu, kterou reflexivita nedokáže přímo uchopit |
-| **[Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)** | Transcendentální podmínky operují na úrovni formálních struktur; Kapitola 10 operuje pod prahem formalizace |
-| **[Kapitola 8](/kompendium/05-ultramari-techniky/kapitola-8/)** | Identita předpokládá identitární koncept; Kapitola 10 operuje pod prahem konceptu identity |
-| **[Kapitola 9](/kompendium/05-ultramari-techniky/kapitola-9/)** | Paradoxalita předpokládá konceptuální výroky; Kapitola 10 operuje pod prahem výroku |
+| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Reflexivita předpokládá konceptuální zachycení; Kapitola 10 zasahuje předkonceptualitu, kterou reflexivita nedokáže přímo uchopit |
+| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Transcendentální podmínky operují na úrovni formálních struktur; Kapitola 10 operuje pod prahem formalizace |
+| **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Identita předpokládá identitární koncept; Kapitola 10 operuje pod prahem konceptu identity |
+| **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Paradoxalita předpokládá konceptuální výroky; Kapitola 10 operuje pod prahem výroku |
 
 ## Závěr a uzavření sekce 05
 
@@ -154,25 +154,25 @@ Kapitola 10 **uzavírá sekci 05 — Ultramární techniky fundamentální dekon
 
 Techniky exploitují předkonceptuální vrstvu zkušenosti dokumentovanou v fenomenologii (Husserl, Merleau-Ponty, Heidegger, Maldiney), gestalt-psychologii (Goldstein, Gurwitsch), analytické filozofii nekonceptuálního obsahu (Evans, Peacocke) a kontemplativních tradicích (advaita, dzogchen). Strukturní rezistence předkonceptuální vrstvy vůči konceptualizaci dělá z těchto technik **strukturně nejhlubší formu epistemické anihilace**, kterou lze taxonomicky zachytit.
 
-Sekce 05 jako celek katalogizuje **150 ultramárních technik** v pěti vrstvách rostoucí destruktivní hloubky. Každá vrstva — reflexivita, transcendentální podmínky, identita, logická evaluace, předkonceptualita — je párována s rekonstruktivním protokolem v [Sekci 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/). Kompendium tak není katalogem destrukce, ale **integrovaným nástrojem** pro rozpoznání, neutralizaci a rekonstrukci epistemických struktur ohrožených ultramárními technikami.
+Sekce 05 jako celek katalogizuje **150 ultramárních technik** v pěti vrstvách rostoucí destruktivní hloubky. Každá vrstva — reflexivita, transcendentální podmínky, identita, logická evaluace, předkonceptualita — je párována s rekonstruktivním protokolem v [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md). Kompendium tak není katalogem destrukce, ale **integrovaným nástrojem** pro rozpoznání, neutralizaci a rekonstrukci epistemických struktur ohrožených ultramárními technikami.
 
-V navazující [Sekci 06](/kompendium/06-klinicke-aplikace/) jsou specifikovány klinické aplikace; v [Sekci 07](/kompendium/07-teoreticke-reflexe/) meta-analytické reflexe; v [Sekci 08](/kompendium/08-prilohy/) přílohy zahrnující detailní per-technique odkazy.
+V navazující [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md) jsou specifikovány klinické aplikace; v [Sekci 07](@/kompendium/07-teoreticke-reflexe/_index.md) meta-analytické reflexe; v [Sekci 08](@/kompendium/08-prilohy/_index.md) přílohy zahrnující detailní per-technique odkazy.
 
 ## Související
 
-- [Sekce 05 — _index](/kompendium/05-ultramari-techniky/) — orientační rámec
-- [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) — sister chapter
-- [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) — sister chapter
-- [Kapitola 8 — Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/kapitola-8/) — sister chapter
-- [Kapitola 9 — Paradoxální metaanihilační protokoly](/kompendium/05-ultramari-techniky/kapitola-9/) — sister chapter
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/) — fundament
-- [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) — strategická úroveň
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) — rekonstruktivní protokoly
-- [Sekce 07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — meta-analýzy
-- [Sekce 08 — Přílohy](/kompendium/08-prilohy/) — referenční materiály
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Dual-use poznání](/glossary/dual-use-poznani/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Fenomenologie](/glossary/fenomenologie/), [Hermeneutika](/glossary/hermeneutika/), [Kompendium EA](/glossary/kompendium-ea/)
-- Platforma: [NABLA Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/), [Decision Engine](/hub/dd/decisions/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Sekce 05 — _index](@/kompendium/05-ultramari-techniky/_index.md) — orientační rámec
+- [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) — sister chapter
+- [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) — sister chapter
+- [Kapitola 8 — Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) — sister chapter
+- [Kapitola 9 — Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md) — sister chapter
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) — fundament
+- [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — strategická úroveň
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — rekonstruktivní protokoly
+- [Sekce 07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — meta-analýzy
+- [Sekce 08 — Přílohy](@/kompendium/08-prilohy/_index.md) — referenční materiály
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
+- Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), [Decision Engine](/hub/dd/decisions/)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -183,7 +183,7 @@ obecnému studiu. Před četbou potvrď, že:
 - Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
 - Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
-- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)
 
 > **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
@@ -196,4 +196,4 @@ obecnému studiu. Před četbou potvrď, že:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

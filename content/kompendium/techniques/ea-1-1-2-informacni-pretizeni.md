@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední — masivní v moderních informačních prostředích, často strukturálně neintencionální |
 | **Reverzibilita** | Vysoká, pokud subjekt rozpozná stav zahlcení a zpomalí |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
-**Informační přetížení** je prezentace **excesivního množství** informací nebo náročně komplexních dat způsobem, který **znemožňuje jejich adekvátní kritické zpracování**. Technika je strukturálně **inverzní** vůči [EA-1.1.1 Selektivní expozici](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — místo redukce informačního pole jeho **expanzí** za hranice subjektovy zpracovatelské kapacity.
+**Informační přetížení** je prezentace **excesivního množství** informací nebo náročně komplexních dat způsobem, který **znemožňuje jejich adekvátní kritické zpracování**. Technika je strukturálně **inverzní** vůči [EA-1.1.1 Selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — místo redukce informačního pole jeho **expanzí** za hranice subjektovy zpracovatelské kapacity.
 
 Klíčová **iluze**: subjekt prožívá obtíž zpracování jako **vlastní kognitivní limit** ("nestíhám", "to je na mě moc"), nikoli jako **strategicky nastavenou** přetíženost. Tato attribution je esenciální — bez ní by subjekt zpomalil a požadoval více času, což by techniku zneutralizovalo.
 
@@ -75,7 +75,7 @@ Klíčová součást techniky — **inhibice** subjektova požadavku na pomalej�
 
 ### Krok 5 — Konsolidace vzorce
 
-Pokud subjekt nezareaguje, vzorec se konsoliduje: subjekt **internalizuje** přetíženost jako **normu**, vzdává se **požadavku na adekvátní čas**, automaticky deferuje na rychlejší / kompetentnější aktéry. Konsolidovaný stav je strukturálně podobný **anankastickému režimu** ([viz glossary](/glossary/anankasticky-rezim/)) — i když z jiné etiologie.
+Pokud subjekt nezareaguje, vzorec se konsoliduje: subjekt **internalizuje** přetíženost jako **normu**, vzdává se **požadavku na adekvátní čas**, automaticky deferuje na rychlejší / kompetentnější aktéry. Konsolidovaný stav je strukturálně podobný **anankastickému režimu** ([viz glossary](@/glossary/anankasticky-rezim.md)) — i když z jiné etiologie.
 
 ## Fenomenologické znaky
 
@@ -200,17 +200,17 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 
 ### Kombinuje se s
 
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — komplexní terminologie znásobuje kognitivní náklad přetížení.
-- **[EA-1.2.3 Iluzorní komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)** — uměle nafouknutá komplexita = informační přetížení s artificiálními sloughy.
-- **[EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** — rychlé tempo prezentace s authoritative prosody zesiluje akceptaci závěrů bez evaluace.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní terminologie znásobuje kognitivní náklad přetížení.
+- **[EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — uměle nafouknutá komplexita = informační přetížení s artificiálními sloughy.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — rychlé tempo prezentace s authoritative prosody zesiluje akceptaci závěrů bez evaluace.
 
 ### Inverzně se vztahuje k
 
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — strukturálně inverzní (filtrace vs. expanze), ale **funkčně podobné** (znemožňuje subjektovi přístup k epistemicky relevantní evidenci).
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — strukturálně inverzní (filtrace vs. expanze), ale **funkčně podobné** (znemožňuje subjektovi přístup k epistemicky relevantní evidenci).
 
 ### Eskaluje do
 
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — přetížený subjekt nemá kapacitu udržet **původní** otázku napříč diverzí.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — přetížený subjekt nemá kapacitu udržet **původní** otázku napříč diverzí.
 - **Kolektivní informační přetížení** v institucionálním měřítku — postupné erodování kapacity organizace pro deliberaci.
 
 ## Vztah k Prismatic platformě
@@ -221,17 +221,17 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.1):
-  - [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-  - [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
+  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -241,10 +241,10 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -256,4 +256,4 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

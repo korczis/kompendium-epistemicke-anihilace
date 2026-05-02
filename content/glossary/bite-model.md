@@ -29,25 +29,25 @@ The BITE Model's contribution is **structural**: it does not require demonstrati
 
 ## Context
 
-Within the Prismatic Platform, the BITE Model functions as a **screening instrument** complementary to the Kompendium taxonomy. While the [Taxonomie EA](/glossary/taxonomie-ea/) classifies individual techniques in `EA-X.Y.Z-α` notation, BITE provides a **macro-level group profile** that aggregates many techniques into four interpretable dimensions.
+Within the Prismatic Platform, the BITE Model functions as a **screening instrument** complementary to the Kompendium taxonomy. While the [Taxonomie EA](@/glossary/taxonomie-ea.md) classifies individual techniques in `EA-X.Y.Z-α` notation, BITE provides a **macro-level group profile** that aggregates many techniques into four interpretable dimensions.
 
 - BITE Information Control axis maps onto Kompendium category EA-1.1 (epistemic isolation): selective exposure (EA-1.1.1), source delegitimization (EA-1.1.2), reality narrowing (EA-1.1.3).
 - BITE Thought Control maps onto EA-1.3 (epistemic immunization) and EA-2 (cognitive anihilace targeting metacognition).
-- BITE Emotion Control maps onto the affective vectors discussed in [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/).
+- BITE Emotion Control maps onto the affective vectors discussed in [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md).
 - The [Decision Engine](/hub/dd/decisions/) Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
-- [Color Teams](/glossary/color-teams/) use BITE checklists during Red Team exercises to model adversary group structures.
+- [Color Teams](@/glossary/color-teams.md) use BITE checklists during Red Team exercises to model adversary group structures.
 
 The BITE Model is referenced in the Kompendium's clinical applications section as a **first-pass triage tool** preceding more granular taxonomic analysis.
 
 ## See Also
 
-- [Coercive Control](/glossary/coercive-control/) — Stark's framework for systematic relational control
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept; BITE is a screening instrument
-- [Taxonomie EA](/glossary/taxonomie-ea/) — Granular technique classification
-- [DARVO](/glossary/darvo/) — Specific manipulation pattern often present in BITE-positive groups
-- [Gaslighting](/glossary/gaslighting/) — Reality-distortion technique within BITE Thought Control
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process attacks
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Coercive Control](@/glossary/coercive-control.md) — Stark's framework for systematic relational control
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept; BITE is a screening instrument
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Granular technique classification
+- [DARVO](@/glossary/darvo.md) — Specific manipulation pattern often present in BITE-positive groups
+- [Gaslighting](@/glossary/gaslighting.md) — Reality-distortion technique within BITE Thought Control
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process attacks
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -56,4 +56,4 @@ The BITE Model is referenced in the Kompendium's clinical applications section a
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

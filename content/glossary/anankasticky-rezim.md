@@ -36,7 +36,7 @@ Structurally, the regime represents an **epistemic phase transition** — the sy
 
 ## Context
 
-The anankastic regime functions in the [Kompendium](/kompendium/) as both a **terminal state** of certain epistemic annihilation trajectories and a **prerequisite** for the deepest forms of cognitive annihilation. Several techniques in the taxonomy are documented as inducers:
+The anankastic regime functions in the [Kompendium](@/kompendium/_index.md) as both a **terminal state** of certain epistemic annihilation trajectories and a **prerequisite** for the deepest forms of cognitive annihilation. Several techniques in the taxonomy are documented as inducers:
 
 - Prolonged exposure to **EA-1.1.1 Selective Exposure** in conjunction with social isolation
 - Sustained **EA-1.3.1 Immunization Against Falsification** training in dogmatic communities
@@ -51,11 +51,11 @@ Recovery from the anankastic regime is possible but typically requires **extende
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent concept; anankasticky regime is one possible terminal state
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Often co-occurs in advanced stages
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Underlying mechanism enabling regime consolidation
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Alternative anihilation trajectory
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent concept; anankasticky regime is one possible terminal state
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Often co-occurs in advanced stages
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Underlying mechanism enabling regime consolidation
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Alternative anihilation trajectory
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -64,4 +64,4 @@ Recovery from the anankastic regime is possible but typically requires **extende
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

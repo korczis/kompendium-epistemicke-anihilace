@@ -169,9 +169,9 @@ Etické principy kompendia jsou **strukturálně propojeny** s [Decision Engine]
 - **Source diversity check** je technickou implementací principu epistemické triangulace
 - **Audit log** každého rozhodnutí materializuje princip transparentní dokumentace
 - **Boundary detection** automaticky identifikuje překročení etických limitů v argumentační struktuře
-- **Color Teams** [protokoly](/glossary/color-teams/) operacionalizují systematický defenzivní přístup
+- **Color Teams** [protokoly](@/glossary/color-teams.md) operacionalizují systematický defenzivní přístup
 
-Detailní rozbor vzájemného vztahu mezi etickými principy kompendia a platformovými mechanismy je uveden v dokumentu [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/).
+Detailní rozbor vzájemného vztahu mezi etickými principy kompendia a platformovými mechanismy je uveden v dokumentu [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md).
 
 ## Etická role uživatele
 
@@ -186,17 +186,17 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 
 ## Související
 
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Pro koho je určeno](/kompendium/01-predmluva/pro-koho-je-urceno/)
-- [Jak používat toto kompendium](/kompendium/01-predmluva/jak-pouzivat/)
-- [Bezpečnostní klasifikace přístupu](/kompendium/01-predmluva/bezpecnostni-klasifikace/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
-- [Definice epistemické a kognitivní anihilace](/kompendium/02-uvod/definice/)
-- [Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Filozofie: Boundary Ethics](/philosophy/boundary-ethics/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
-- [Glossary: Color Teams](/glossary/color-teams/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
+- [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
+- [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
+- [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Filozofie: Boundary Ethics](@/philosophy/boundary-ethics.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická slepota](/glossary/epistemicka-slepota/)
 
 
@@ -204,7 +204,7 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/), a víš, **kdy
+[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
@@ -216,4 +216,4 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

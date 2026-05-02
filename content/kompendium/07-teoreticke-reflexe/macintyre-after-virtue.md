@@ -71,7 +71,7 @@ Pro EA z toho plyne:
 
 ## 4. Narativní jednota a moral identity
 
-MacIntyre rozvíjí (paralelně s Ricoeurem, [viz 7.17](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)): **lidská identita** je strukturálně **narativní**. "Kdo jsem?" se zodpovídá vyprávěním příběhu mého života v rámci **tradice**, jíž patřím.
+MacIntyre rozvíjí (paralelně s Ricoeurem, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)): **lidská identita** je strukturálně **narativní**. "Kdo jsem?" se zodpovídá vyprávěním příběhu mého života v rámci **tradice**, jíž patřím.
 
 Bez narativní jednoty:
 
@@ -82,7 +82,7 @@ Bez narativní jednoty:
 Pro EA má narativní jednota **klíčovou diagnostickou hodnotu**:
 
 - **Útok na narativní jednotu** je strukturální technika EA — fragmentace pacienta na **disconnected episodes**.
-- **Klinický korelát**: komplexní C-PTSD ([viz 7.2](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)) je strukturálně **rozpadem** narativní jednoty.
+- **Klinický korelát**: komplexní C-PTSD ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) je strukturálně **rozpadem** narativní jednoty.
 
 ## 5. Tradice a racionalita
 
@@ -102,7 +102,7 @@ Tato pozice je strukturálně **napjatá** s **liberálním univerzalismem** (Ha
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce praxí**: pacient potřebuje **najít** smysluplnou praxi, v níž se může etablovat.
 - **Restituce narativní jednoty**: terapie jako **vyprávění** vlastního příběhu.
@@ -118,15 +118,15 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [7.30 Williams: Truth and Truthfulness](/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness/)
-- [7.32 Taylor: Sources of Self](/kompendium/07-teoreticke-reflexe/taylor-sources-of-self/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [7.30 Williams: Truth and Truthfulness](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)
+- [7.32 Taylor: Sources of Self](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -135,4 +135,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -62,7 +62,7 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 > **Ochrana kognitivních kapacit a autonomie** subjektů výzkumu. Výzkum *o manipulaci* nesmí *manipulovat*. Žádné deceptivní elementy, žádné indukce kognitivních biasů, žádné induced state experimenty bez nezávislé etické revize.
 
 **Operacionalizace**:
-- **Zákaz indukčních experimentů** mimo přísně kontrolované adversariální simulace ([Color Teams](/glossary/color-teams/)) s placebo-kontrolou a okamžitou debrífáží.
+- **Zákaz indukčních experimentů** mimo přísně kontrolované adversariální simulace ([Color Teams](@/glossary/color-teams.md)) s placebo-kontrolou a okamžitou debrífáží.
 - Pokud je deception nezbytný (vzácné, vyžaduje IRB schválení): **debriefing** musí být úplný, okamžitý, a doprovázený nabídkou klinické podpory.
 
 ### 4. Transparentní limitace
@@ -220,17 +220,17 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 
 ## Cross-referencing s dalšími přílohami
 
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární prameny pro etické rámce.
-- [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) — etické předpoklady použití instrumentů.
-- [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) — dimenze rizika ovlivňující IRB klasifikaci.
-- [Rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/) — úrovně přístupu (L1–L4) a etické předpoklady per kapitola.
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární prameny pro etické rámce.
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — etické předpoklady použití instrumentů.
+- [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) — dimenze rizika ovlivňující IRB klasifikaci.
+- [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — úrovně přístupu (L1–L4) a etické předpoklady per kapitola.
 
 ## Platformový kontext
 
-- [Color Teams](/glossary/color-teams/) — Red Team adversariální simulace operuje pod tímto kodexem.
+- [Color Teams](@/glossary/color-teams.md) — Red Team adversariální simulace operuje pod tímto kodexem.
 - [Decision Engine](/hub/dd/decisions/) — kalibrace důvěry respektuje epistemické autonomie.
-- [NABLA Infinity](/glossary/nabla-infinity/) — L11–L13 epistemic pipeline implementuje epistemic integrity.
-- [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/) — filozofický základ tohoto kodexu.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 epistemic pipeline implementuje epistemic integrity.
+- [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md) — filozofický základ tohoto kodexu.
 
 
 ## ⚡ Kritický krok
@@ -240,7 +240,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -250,18 +250,18 @@ Místo lineární četby:
 
 ### V této sekci
 
-- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
-- [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/)
-- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
-- [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/)
-- [Kompletní rejstřík technik (master index)](/kompendium/08-prilohy/rejstrik-technik/)
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
+- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
+- [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
+- [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 ### Klíčové orientační body
 
-- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
-- [Glossary](/glossary/) — terminologický slovník
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
+- [Glossary](@/glossary/_index.md) — terminologický slovník
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
 
 ---
 
@@ -270,4 +270,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Přílohy](/kompendium/08-prilohy/) | [Předmluva](/kompendium/01-predmluva/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Předmluva](@/kompendium/01-predmluva/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

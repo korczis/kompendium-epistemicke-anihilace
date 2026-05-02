@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezený výzkumný přístup) |
 | **Riziková úroveň** | Extrémní — destrukce lingvistického substrátu myšlení, prakticky nereverzibilní bez intenzivní rehabilitace |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci sémantického pole zvenku, zpravidla v dlouhodobém terapeutickém rámci |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -40,7 +40,7 @@ Klíčový distinktivní znak — sémantická imploze není pouhá nejasnost an
 
 Technika exploituje skutečnost, že v běžném používání jazyka **nikdy neverifikujeme** sémantickou stabilitu klíčových pojmů — důvěřujeme, že "svoboda", "pravda", "spravedlnost", "subjekt", "vědomí" odkazují k něčemu konzistentnímu. Sémantická imploze tuto důvěru **strukturálně** ničí.
 
-Sémantická imploze je [ultramární technikou](/kompendium/05-ultramari-techniky/) kategorie [epistemická singularita](/glossary/epistemicka-anihilace/), kde **prostředek poznání** (jazyk) je sám předmětem destrukce.
+Sémantická imploze je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde **prostředek poznání** (jazyk) je sám předmětem destrukce.
 
 ## Operační modus
 
@@ -96,7 +96,7 @@ Sémantická imploze je odlišitelná od:
 
 - **Legitimní filosofická revize pojmů** — explicitní, lokalizovaná, transparentní o stávající definici a nové; **udržuje** rozlišení mezi "termín v běžném smyslu" a "termín v navrhovaném smyslu". Sémantická imploze toto rozlišení likviduje.
 - **Polysémie** — strukturovaná, kontextově řízená; subjekt **umí** rozlišovat. Imploudovaný termín naopak ztrácí strukturu.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — zatemňuje význam **specializovaného** termínu pro účely vyloučení; nedestruktiuje sémantické pole subjektu.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — zatemňuje význam **specializovaného** termínu pro účely vyloučení; nedestruktiuje sémantické pole subjektu.
 - **Genuinně obtížné pojmy** (vědomí, čas, identita) — mají **diskurzivně mapovanou** problematičnost; subjekt umí pojmenovat, **co** je obtížné. Imploudovaný subjekt naopak operuje s pocitem zdánlivého rozumění.
 
 ## Rizikové kontexty
@@ -161,15 +161,15 @@ Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamen�
 
 ### Často kombinováno s
 
-- **[EA-5.1.5 Logická diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)** — destrukce jazyka komplementuje destrukci inferencí; spolu eliminují základní nástroje racionálního myšlení.
-- **[EA-5.1.6 Kategorická transgrese](/kompendium/techniques/ea-5-1-6-kategoricka-transgrese/)** — kolaps kategorií předpokládá nebo zrcadlí kolaps sémantiky pojmů, jež kategorie značily.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — eskaluje z mystifikace specializovaného termínu do plošné destrukce sémantického pole.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emocionální saturace klíčových termínů blokuje racionální revizi jejich významu.
+- **[EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)** — destrukce jazyka komplementuje destrukci inferencí; spolu eliminují základní nástroje racionálního myšlení.
+- **[EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)** — kolaps kategorií předpokládá nebo zrcadlí kolaps sémantiky pojmů, jež kategorie značily.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — eskaluje z mystifikace specializovaného termínu do plošné destrukce sémantického pole.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální saturace klíčových termínů blokuje racionální revizi jejich významu.
 
 ### Eskaluje do
 
-- **Terminální protokoly** ([Kapitola 4](/kompendium/04-terminalni-protokoly/)) — pokročilá imploze je vstupní bránou do strukturálního kolapsu epistemické autonomie.
-- **[Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)** — subjekt ztrácí schopnost reflektovat svou vlastní sémantickou nestabilitu.
+- **Terminální protokoly** ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) — pokročilá imploze je vstupní bránou do strukturálního kolapsu epistemické autonomie.
+- **[Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)** — subjekt ztrácí schopnost reflektovat svou vlastní sémantickou nestabilitu.
 
 ### Distinktivní vůči
 
@@ -180,38 +180,38 @@ Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamen�
 Sémantická imploze je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) operational definitions check** — rozhodovací logika vyžaduje, aby klíčové pojmy v rozhodovacích rámcích měly **operacionalizovanou** definici. Kruhové nebo prázdné pojmy jsou flagovány jako epistemická červená vlajka.
-- **[NABLA Infinity](/glossary/nabla-infinity/) sémantická stabilita** — provenance tracking sleduje stabilitu definic klíčových termínů napříč epistemickou pipeline; významový posun je auditovatelný.
-- **[Color Teams](/glossary/color-teams/) lingvistická forenzika** — Red Team explicitně testuje sémantickou stabilitu argumentačních rámců; imploudované termíny jsou triggerem pro hlubší audit.
-- **Glossary jako referenční kotva** — platformový [glosář](/glossary/) udržuje **explicitní, verzované** definice klíčových termínů jako institucionální obranu proti imploznímu drift.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) sémantická stabilita** — provenance tracking sleduje stabilitu definic klíčových termínů napříč epistemickou pipeline; významový posun je auditovatelný.
+- **[Color Teams](@/glossary/color-teams.md) lingvistická forenzika** — Red Team explicitně testuje sémantickou stabilitu argumentačních rámců; imploudované termíny jsou triggerem pro hlubší audit.
+- **Glossary jako referenční kotva** — platformový [glosář](@/glossary/_index.md) udržuje **explicitní, verzované** definice klíčových termínů jako institucionální obranu proti imploznímu drift.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.5 Logická diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)
-  - [EA-5.1.6 Kategorická transgrese](/kompendium/techniques/ea-5-1-6-kategoricka-transgrese/)
+  - [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
+  - [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
 - **Související akademické techniky**:
-  - [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -221,10 +221,10 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -236,4 +236,4 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

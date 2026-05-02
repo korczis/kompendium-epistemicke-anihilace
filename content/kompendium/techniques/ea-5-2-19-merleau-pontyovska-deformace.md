@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — destrukce tělesné intencionality |
 | **Reverzibilita** | Nízká — 18–36 měsíců, nutná somatická a fenomenologická práce |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -120,14 +120,14 @@ Merleau-Pontyovská deformace je odlišitelná od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.13 Apriorní fragmentace](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/)** — paralelní fragmentace prostorovosti.
-- **[EA-5.2.18 Heideggerovské rozklady](/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady/)** — destrukce existenciálního ukotvení.
-- **[EA-5.2.21 Subjekt-objekt fúzia](/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia/)** — opačný extrém: úplná fúze místo disociace.
-- **[EA-5.2.22 Intencionální rozpojení](/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni/)** — paralelní destrukce intencionality.
+- **[EA-5.2.13 Apriorní fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)** — paralelní fragmentace prostorovosti.
+- **[EA-5.2.18 Heideggerovské rozklady](@/kompendium/techniques/ea-5-2-18-heideggerovska-rozklady.md)** — destrukce existenciálního ukotvení.
+- **[EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md)** — opačný extrém: úplná fúze místo disociace.
+- **[EA-5.2.22 Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md)** — paralelní destrukce intencionality.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — eskalační následek tělesné disociace.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek tělesné disociace.
 
 ## Vztah k Prismatic platformě
 
@@ -137,16 +137,16 @@ Merleau-Pontyovská deformace je odlišitelná od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -157,4 +157,4 @@ Merleau-Pontyovská deformace je odlišitelná od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

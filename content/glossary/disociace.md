@@ -36,23 +36,23 @@ Within the Prismatic Platform Kompendium, dissociation is critical to **differen
 - **Trauma-origin dissociation** is a defensive response to overwhelming events; treatment involves stabilization, trauma processing (EMDR, prolonged exposure, narrative exposure therapy), and integration. The person's epistemic apparatus is **intact but compartmentalized**.
 - **EA-induced fragmentation** is the active destruction of epistemic capacity by an external agent; treatment requires extraction from the epistemic environment, reconstruction of source-evaluation skills, and rebuilding of metacognitive trust. The apparatus itself is **damaged, not merely partitioned**.
 
-Misdiagnosis runs in both directions and produces [Iatrogenic Harm](/glossary/iatrogenic-harm/): treating EA victims with trauma-integration protocols can re-traumatize and reinforce the perpetrator's framing; treating dissociative trauma survivors as EA victims pathologizes adaptive responses and can trigger destabilization.
+Misdiagnosis runs in both directions and produces [Iatrogenic Harm](@/glossary/iatrogenic-harm.md): treating EA victims with trauma-integration protocols can re-traumatize and reinforce the perpetrator's framing; treating dissociative trauma survivors as EA victims pathologizes adaptive responses and can trigger destabilization.
 
-- The Kompendium chapter [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) provides a differential-diagnosis matrix.
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/) describes the whole-part reintegration approach used in both conditions but with different sequencing.
-- [Narrative Identity](/glossary/narrative-identity/) is structurally damaged in both presentations but through different mechanisms.
+- The Kompendium chapter [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) provides a differential-diagnosis matrix.
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) describes the whole-part reintegration approach used in both conditions but with different sequencing.
+- [Narrative Identity](@/glossary/narrative-identity.md) is structurally damaged in both presentations but through different mechanisms.
 - The [Decision Engine](/hub/dd/decisions/) does not pathologize dissociated testimony but flags it for context-sensitive integration: gaps and contradictions in dissociative reporting carry different evidentiary weight than in non-dissociative testimony.
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) is a distinct EA mechanism that may co-occur with dissociation but is not reducible to it.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) is a distinct EA mechanism that may co-occur with dissociation but is not reducible to it.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Differential-diagnosis counterpart
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process attacks
-- [Iatrogenic Harm](/glossary/iatrogenic-harm/) — Misdiagnosis risks
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/) — Reintegration therapy
-- [Narrative Identity](/glossary/narrative-identity/) — Structural target of damage
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Adjacent EA mechanism
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Differential-diagnosis counterpart
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process attacks
+- [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) — Misdiagnosis risks
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) — Reintegration therapy
+- [Narrative Identity](@/glossary/narrative-identity.md) — Structural target of damage
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Adjacent EA mechanism
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -61,4 +61,4 @@ Misdiagnosis runs in both directions and produces [Iatrogenic Harm](/glossary/ia
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

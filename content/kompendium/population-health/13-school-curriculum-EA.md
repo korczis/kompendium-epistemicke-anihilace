@@ -84,7 +84,7 @@ a socioekonomického statusu (5 kvintilů).
 ## Connect footer
 
 - **GitHub**: [korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
-- **Docs**: [Kompendium /population-health/](/kompendium/population-health/)
+- **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
 - **API**: `GET /api/v1/epi/ea/school-curriculum-EA` (auto-introspecting)
 - **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)
 - **Platforma**: Prismatic Platform, AIAD Integration, NCLB doctrine

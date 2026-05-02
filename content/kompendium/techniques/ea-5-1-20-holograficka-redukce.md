@@ -166,14 +166,14 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 
 ### Sesterská UM (úroveň 5)
 
-- **[EA-5.1.19 Kvazi-mystická anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)** — holografická redukce slouží jako **interpretační templát** kvazi-mystických zkušeností.
-- **[EA-5.1.21 Sebe-referenční paradox](/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox/)** — když se holografický rámec aplikuje sám na sebe, generuje paradoxy, které jsou interpretovány jako "důkaz hloubky".
+- **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — holografická redukce slouží jako **interpretační templát** kvazi-mystických zkušeností.
+- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — když se holografický rámec aplikuje sám na sebe, generuje paradoxy, které jsou interpretovány jako "důkaz hloubky".
 
 ### Vztah k základním (EA-1.X.Y) technikám
 
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — strukturální základ.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — pseudovědecký slovník (kvantum, fraktál, vibrace).
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — když je rámec konfrontován, diskuse je přesměrována na "vyšší úroveň".
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální základ.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — pseudovědecký slovník (kvantum, fraktál, vibrace).
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když je rámec konfrontován, diskuse je přesměrována na "vyšší úroveň".
 
 ### Eskaluje do
 
@@ -182,7 +182,7 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** — epistemic monitor flaguje claims s univerzální applicability bez doménové specifikace.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor flaguje claims s univerzální applicability bez doménové specifikace.
 - **[Decision Engine](/hub/dd/decisions/)** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu "vše je projev X" jsou strukturálně odmítnuty.
 - **[OSINT framework](/osint/toolbox)** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
 
@@ -190,19 +190,19 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.19 Kvazi-mystická anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)
-  - [EA-5.1.21 Sebe-referenční paradox](/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox/)
+  - [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)
+  - [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [Color Teams](/glossary/color-teams/)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -212,10 +212,10 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -227,4 +227,4 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

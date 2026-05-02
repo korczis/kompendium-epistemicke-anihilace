@@ -97,7 +97,7 @@ Wardlové **counter-EA** strategie:
 - **Lateral reading**: čtenář **opouští** zdrojovou stránku a hledá **jiné** zdroje pro ověření
 - **Pre-bunking**: **prevenční** vzdělávání — subjekt se **dříve** seznámí s manipulativními taktikami, **dříve** než je vystaven konkrétnímu obsahu
 
-Strukturální paralela s **Snyderem** ([viz 7.53](/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays/)) — strukturální imunizace skrze edukaci.
+Strukturální paralela s **Snyderem** ([viz 7.53](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md)) — strukturální imunizace skrze edukaci.
 
 Pro EA z toho plyne:
 
@@ -116,7 +116,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Diferenciální diagnostika**: která kategorie information disorder pacienta postihla?
 - **Pre-bunking jako klinická prevence**: edukace o manipulativních taktikách
@@ -148,19 +148,19 @@ Pro Prismatic má Wardlové typologie **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.30 Williams: Truth and Truthfulness](/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness/)
-- [7.50 Dawkins: Mem](/kompendium/07-teoreticke-reflexe/dawkins-meme/)
-- [7.53 Snyder: Tyranny](/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays/)
-- [7.55 Herman: Propaganda Model](/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model/)
-- [7.57 Boyd: Disinformation Age](/kompendium/07-teoreticke-reflexe/boyd-disinformation-age/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.30 Williams: Truth and Truthfulness](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)
+- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
+- [7.53 Snyder: Tyranny](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md)
+- [7.55 Herman: Propaganda Model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md)
+- [7.57 Boyd: Disinformation Age](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -169,4 +169,4 @@ Pro Prismatic má Wardlové typologie **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

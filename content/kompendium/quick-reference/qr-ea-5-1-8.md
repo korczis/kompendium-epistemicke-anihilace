@@ -61,12 +61,12 @@ Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.8 Konceptuální fragmentace](/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace/)
-- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](/kompendium/quick-reference/qr-ea-5-1-2/), [EA-5.1.20 Holografická redukce](/kompendium/quick-reference/qr-ea-5-1-20/), [EA-5.1.30 Konceptuální entropie](/kompendium/quick-reference/qr-ea-5-1-30/)
-- **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Integrative collapse](/glossary/integrative-collapse/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Konceptuální rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Platforma**: [Decision Engine concept graph](/hub/dd/decisions/), [NABLA Infinity integrace](/glossary/nabla-infinity/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.8 Konceptuální fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md)
+- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.20 Holografická redukce](@/kompendium/quick-reference/qr-ea-5-1-20.md), [EA-5.1.30 Konceptuální entropie](@/kompendium/quick-reference/qr-ea-5-1-30.md)
+- **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Integrative collapse](/glossary/integrative-collapse/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Konceptuální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Platforma**: [Decision Engine concept graph](/hub/dd/decisions/), [NABLA Infinity integrace](@/glossary/nabla-infinity.md)
 
 ---
 

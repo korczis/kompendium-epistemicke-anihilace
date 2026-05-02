@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — strukturální blokáda empirické revize |
 | **Reverzibilita** | Velmi nízká — apriorní soudy jsou systematicky chráněny před zkušeností, 18–48 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -172,13 +172,13 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 ### Často se kombinuje s
 
-- **[EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)** — saturace falešnými apriori připravuje kolaps konstitutivních principů.
-- **[EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)** — kategorie použité proti sobě navzájem skrze vsazená apriori.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — strukturální podobnost na úrovni jednotlivých tvrzení.
+- **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — saturace falešnými apriori připravuje kolaps konstitutivních principů.
+- **[EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)** — kategorie použité proti sobě navzájem skrze vsazená apriori.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální podobnost na úrovni jednotlivých tvrzení.
 
 ### Eskaluje do
 
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — kategorie samá se rozpouští, když je saturována nesouladnými falešnými apriori.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — kategorie samá se rozpouští, když je saturována nesouladnými falešnými apriori.
 
 ## Vztah k Prismatic platformě
 
@@ -188,16 +188,16 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)
-  - [EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)
-  - [EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)
+  - [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
+  - [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)
+  - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
 
 
 ## ⚡ Kritický krok
@@ -207,10 +207,10 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -222,4 +222,4 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

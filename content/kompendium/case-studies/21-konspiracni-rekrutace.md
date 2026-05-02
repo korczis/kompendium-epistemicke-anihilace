@@ -19,13 +19,13 @@ toc = true
 
 Pripad 21-konspiracni-rekrutace reprezentuje strukturalne typicky vzorek epistemicke alienace v doméně **uzavrene online konspiracni komunity (QAnon-typ, antivax, pseudo-geopolitika)**. Studie agreguje kliniky validovane vzorce ze tri az peti realnych pripadu, ktere sdileli klicove strukturalni rysy: zpusob vstupu, dynamiku eskalace, metody totalizace, spousteci udalost detekce a strukturu post-exit fenomenologie.
 
-Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](/glossary/coercive-control/), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
+Demograficky koridor obsahoval subjekty ve vekovem rozmezí 19-46 let, smiseneho genderoveho slozeni, s mediány vyssi nez populacni prumer v oblasti formálního vzdelávání. Tato skupina nevykazovala pred-existujici psychiatricky narativ, ktery by obvykle predikoval vulnerabilitu — naopak, mnoho z nich melo strukturalne stabilni socialni zazemí pred prvním kontaktem. Tato pozorovaní jsou v souladu s [literaturou o coercive control](@/glossary/coercive-control.md), ktera zduraznuje, ze epistemicka totalizace nezavisí primarne na pred-existujici psychopatologii, ale na strukturalnich vlastnostech ovládajici sítě.
 
 ## 2. Vstupni modus
 
 Vstupni vektor v této kohorte byl: **algoritmicke doporuceni v krizi duvery v institucionalni epistemii (post-pandemicka faze)**. Tento patron je charakteristicky tim, ze pristupna brana neni rozpoznana subjektem jako brana — naopak, je vnímána jako reseni preexistujícího problemu (samota, intelektualní hladovka, kariéarni stagnace, identitarni vakuum, krize duvery v institucích). Proto klasicke 'red flags' (tlaky, nábor, ideologicka konsistentnost) jsou interpretovany jako znakou _vyzvy_, nikoli rizika.
 
-Strukturalní podobnost s [Hassanovym BITE modelem](/glossary/coercive-control/) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
+Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.md) je vysoka — kontrola behavioru, informací, mysleni a emocí postupuje paralelne, nikoli linearne, a kazda dimense imunizuje ostatni proti revizi.
 
 ## 3. Casova osa expozice
 
@@ -42,17 +42,17 @@ Strukturalní podobnost s [Hassanovym BITE modelem](/glossary/coercive-control/)
 
 V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
 
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kazda kontrarealna evidence preclenena jako 'soucast plánu'
-- [EA-1.1.2 Informacni pretizeni](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/) — denni 'breadcrumbs' a videa vyzaduji nepretrzitou interpretacni praci
-- [EA-1.3.3 Tematicka diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) — pri konfrontaci se debata premista do 'hlubsiho' tematu
-- [EA-5.1.12 Kauzalni inverze](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/) — duvera v instituce reinterpretovana jako pricina jejich zhanobeni
-- [EA-5.3.1 Identitarni substituce](/kompendium/techniques/ea-5-3-1-identitarni-substituce/) — subjekt se preznacil z 'normalniho cloveka' na 'badatele pravdy'
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kazda kontrarealna evidence preclenena jako 'soucast plánu'
+- [EA-1.1.2 Informacni pretizeni](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) — denni 'breadcrumbs' a videa vyzaduji nepretrzitou interpretacni praci
+- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — pri konfrontaci se debata premista do 'hlubsiho' tematu
+- [EA-5.1.12 Kauzalni inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) — duvera v instituce reinterpretovana jako pricina jejich zhanobeni
+- [EA-5.3.1 Identitarni substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — subjekt se preznacil z 'normalniho cloveka' na 'badatele pravdy'
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/03-zakladni-kategorie/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/03-zakladni-kategorie/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare) klasifikovanym jako [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/03-zakladni-kategorie/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/03-zakladni-kategorie/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
 
 ## 5. Fenomenologicky kurz
 
-Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](/glossary/epistemicka-alienace/), v pokrocilejsich fazich pak [metakognitivni destrukce](/glossary/metakognitivni-destrukce/) a v terminalnich fazich [epistemicke anihilace](/glossary/epistemicka-anihilace/).
+Subjekty v této kohorte prochazely typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md), v pokrocilejsich fazich pak [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) a v terminalnich fazich [epistemicke anihilace](@/glossary/epistemicka-anihilace.md).
 
 Specificke pro tento kontext: **ranni rituál kontroly novych 'drops', neschopnost ist spat bez sledovani vlaken, somaticke napetí pri kontaktu s 'ovcemi'**. Tyto specificke fenomenologicke znaky slouzi jako diagnosticke kotvy pri klinické identifikaci kohorte i pri pripadové supervizi.
 
@@ -66,10 +66,10 @@ V této kohorte fungoval detecni bod nasledovne: konflikt s rodinnym prislusnike
 
 ## 7. Intervencni strategie
 
-Aplikovan [protokol epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **uzavrene online konspiracni komunity (QAnon-typ, antivax, pseudo-geopolitika)**:
+Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5), s adaptacemi pro specificky kontext **uzavrene online konspiracni komunity (QAnon-typ, antivax, pseudo-geopolitika)**:
 
-- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/) k akutnim symptomum
-- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](/glossary/betrayal-trauma/) bodů, prvotni kognitivni rekonsolidace
+- **S1 (Stabilizace)**: bezpecne ukotvení mimo skupinove kontaktni site, casto 6-12 tydnu odpojeni, [trauma-focused pristup](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) k akutnim symptomum
+- **S2 (Inventura)**: systemna inventura epistemickeho narativu, mapovani [betrayal-trauma](@/glossary/betrayal-trauma.md) bodů, prvotni kognitivni rekonsolidace
 - **S3 (Rekonstrukce)**: postupna rekonstrukce alternativni epistemicke baze, nájezd na uzly typu "co jsem _skutecne_ pred kontaktem věřil", práce s _epistemickou pokora_
 - **S4 (Reintegrace)**: navrácení do mimo-skupinovych vztahu, casto rodinna terapie pro soused-shun a betrayal dynamics
 - **S5 (Konsolidace)**: dlouhodobe sledovani po 18-36 mesicich s peer-support komponentou
@@ -78,41 +78,41 @@ V této kohorte bylo specifické: prodlouzena nemocnost mimo komunitu (hospitali
 
 ## 8. Vysledek
 
-Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
+Castecna az plna rekonstrukce po 18-48 mesicich strukturovane terapie kombinujici [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), peer-support a v nekterych pripadech somatickou prácu (somatic experiencing-typ).
 
 **Reziduálni deficity**: rezidualni paranoia voci institucim, narusena dovera v medialni epistemii, hanba a sociálni izolace voci rodine. Tyto deficity je nutno vnimat ne jako selhání intervence, ale jako strukturalní stopu vystavení — analogicky tomu, jak chronická bolest po zlomenině zustava i po zhojeni kosti.
 
-Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](/kompendium/visualizations/) pro vizualni prehled typickych krivek pro tento typ pripadu.
+Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v prvních 6-12 mesicich, plateau ve 12-24 mesicich, casto re-eskalace pri specifickych spoušteích (rocni vyroci, kontakt s byvalymi cleny, medializace zazitku), a postupna konsolidace po 24-48 mesicich. Viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled typickych krivek pro tento typ pripadu.
 
 ## 9. Scenare a typologicke zaskolení
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
 
 ## 10. Diferencialni diagnostika
 
 Kriticke je odliseni od:
 
-- **C-PTSD bez totalizace** ([c-ptsd](/glossary/c-ptsd/)): podobny symptomovy profil, ale chybi epistemická dimenze
-- **Standardní [betrayal-trauma](/glossary/betrayal-trauma/)**: chybi totalizujici epistemicky aparat
+- **C-PTSD bez totalizace** ([c-ptsd](@/glossary/c-ptsd.md)): podobny symptomovy profil, ale chybi epistemická dimenze
+- **Standardní [betrayal-trauma](@/glossary/betrayal-trauma.md)**: chybi totalizujici epistemicky aparat
 - **Dissociation NOS**: prekryv v fenomenologii, ale jiny terapeuticky pristup
 
-Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/).
+Diferencialni kotvy jsou: pritomnost alternativni epistemicke baze (vyse uvedene EA kody), strukturalni izolace od mimo-skupinovych zdroju, identitarni rekompozice. Pro detail viz [diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 ## 11. Etické a metodologické poznámky
 
-Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/) protokol.
+Tato pripadova studie byla pripravena s dodrzovanim principu **anonymizace, agregace napric vice pripadu, neidentifikovatelnosti**. Žadny jednotlivy realny pripad neni rekonstruovatelny z této studie. Studie ma charakter klinické vinetie pro vyukove a vyzkumne ucely a je vystavena na trojím etickem ramci: (1) Belmont report principy, (2) APA Ethics Code, (3) [vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) protokol.
 
 Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v oblasti coercive control / cult recovery, (b) spolu-prace s pravnym zastupcem v pripadech kde je to relevantni, (c) trauma-informed pristup ke vsem fazim vystupu.
 
 ## 12. Cross-linky a dalsi cetba
 
-- **Sekce 03 (Scenare)**: [Scenar F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scenar H](/kompendium/03-zakladni-kategorie/scenar-h/), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
+- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
 - **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/03-zakladni-kategorie/kapitola-5/)
-- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/), [Terapeuticke pristupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/), [Epistemicka rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Glossary**: [epistemicka-alienace](/glossary/epistemicka-alienace/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [betrayal-trauma](/glossary/betrayal-trauma/), [gaslighting](/glossary/gaslighting/), [coercive-control](/glossary/coercive-control/), [epistemicka-injustice](/glossary/epistemicka-injustice/)
-- **EA techniky**: [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-1.1.2](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/), [EA-1.3.3](/kompendium/techniques/ea-1-3-3-tematicka-diverze/), [EA-5.1.12](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/), [EA-5.3.1](/kompendium/techniques/ea-5-3-1-identitarni-substituce/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Glossary**: [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [gaslighting](@/glossary/gaslighting.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
+- **EA techniky**: [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), [EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md), [EA-5.1.12](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md), [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

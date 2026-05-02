@@ -161,13 +161,13 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 ### Sesterská UM (úroveň 5)
 
-- **[EA-5.1.20 Holografická redukce](/kompendium/techniques/ea-5-1-20-holograficka-redukce/)** — kvazi-mystická anihilace často využívá holografickou redukci jako svůj **interpretační templát** ("vše je v jednom").
-- **[EA-5.1.21 Sebe-referenční paradox](/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox/)** — kvazi-mystický rámec systematicky využívá paradoxů ("forma je prázdnota") k inhibici racionální analýzy.
+- **[EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)** — kvazi-mystická anihilace často využívá holografickou redukci jako svůj **interpretační templát** ("vše je v jednom").
+- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — kvazi-mystický rámec systematicky využívá paradoxů ("forma je prázdnota") k inhibici racionální analýzy.
 
 ### Vztah k základním (EA-1.X.Y) technikám
 
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emocionální stav je nutným prerekvizitem.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — strukturální jádro nepřenositelnostního rámce.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální stav je nutným prerekvizitem.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální jádro nepřenositelnostního rámce.
 - **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)** — typická sociální architektura.
 
 ### Eskaluje do
@@ -177,27 +177,27 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** — epistemický monitor explicitně modeluje *unfalsifiable interpretive frames* jako kategorii rizika.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický monitor explicitně modeluje *unfalsifiable interpretive frames* jako kategorii rizika.
 - **[Decision Engine](/hub/dd/decisions/)** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
-- **[Color Teams](/glossary/color-teams/)** — Red Team scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
+- **[Color Teams](@/glossary/color-teams.md)** — Red Team scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
 
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.20 Holografická redukce](/kompendium/techniques/ea-5-1-20-holograficka-redukce/)
-  - [EA-5.1.21 Sebe-referenční paradox](/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox/)
+  - [EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)
+  - [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [Color Teams](/glossary/color-teams/)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -207,10 +207,10 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -222,4 +222,4 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — destabilizace kantovských kategorií rekurzivní aplikací |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekategorizační práci, 24–48 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Strukturální rys: rekurze je **jiná než klasická paradoxálnost**. Klasický paradox (Russellův, Liarův) operuje **uvnitř** stabilní kategoriální struktury a vede k lokálnímu kolapsu. Transcendentální rekurzivita operuje na **transcendentální úrovni** — destabilizuje sám aparát, kterým by se paradox identifikoval. Subjekt nevidí "paradox", vidí, že **kauzalita přestala být kauzalitou**, **substance přestala být substancí**.
 
-Strukturálně blízká [EA-5.1.7 referenční rekurzi](/kompendium/techniques/ea-5-1-7-referencni-rekurze/), ale operuje **o úroveň výš**: nejen reference rozpouštějí svůj objekt, ale samotná kategorie reference se rozpouští v rekurzivní aplikaci na sebe.
+Strukturálně blízká [EA-5.1.7 referenční rekurzi](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), ale operuje **o úroveň výš**: nejen reference rozpouštějí svůj objekt, ale samotná kategorie reference se rozpouští v rekurzivní aplikaci na sebe.
 
 ## Operační modus
 
@@ -164,35 +164,35 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 
 ### Často se kombinuje s
 
-- **[EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)** — rekurzivita destabilizuje kategorie, jejichž funkce je konstituovat předměty.
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — terminální stav rekurzivity je disoluce.
-- **[EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)** — strukturálně podobná, operuje o úroveň níže (na úrovni reference, ne kategorie).
-- **[EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)** — fenomenologicky blízká, liší se v cíli.
+- **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — rekurzivita destabilizuje kategorie, jejichž funkce je konstituovat předměty.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — terminální stav rekurzivity je disoluce.
+- **[EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)** — strukturálně podobná, operuje o úroveň níže (na úrovni reference, ne kategorie).
+- **[EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)** — fenomenologicky blízká, liší se v cíli.
 
 ### Eskaluje do
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — meta-úroveň se zhroutí v rekurzivní bod.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — meta-úroveň se zhroutí v rekurzivní bod.
 - **[EA-5.2.27 Trans-kategoriální fluktuace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje.
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** operuje s **explicitními kategoriálními predikáty**, jejichž stabilita je vynucena typovým systémem — rekurzivní destabilizace by byla zachycena jako typová chyba.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** operuje s **explicitními kategoriálními predikáty**, jejichž stabilita je vynucena typovým systémem — rekurzivní destabilizace by byla zachycena jako typová chyba.
 - **[Decision Engine](/hub/dd/decisions/) terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
 - **OSINT pipeline** odděluje **identifikaci** od **klasifikace** — rekurzivní destabilizace klasifikace by nezasáhla identifikační vrstvu.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)
-  - [EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)
-  - [EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)
-  - [EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
+  - [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
+  - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
+  - [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
+  - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 
 
 ## ⚡ Kritický krok
@@ -202,10 +202,10 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -217,4 +217,4 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

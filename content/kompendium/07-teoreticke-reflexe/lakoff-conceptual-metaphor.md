@@ -45,7 +45,7 @@ Lakoff rozvíjí (s Johnsonem v *Philosophy in the Flesh*, 1999) teorii **embodi
 - "**Pochopit**" (*grasp*): vychází z motoricé zkušenosti uchopení
 - "**Vidět**" jako "**vědět**": vychází z primárního senzorického aktu
 
-Tato pozice strukturálně rezonuje s **embodied cognition** ([Varela, viz 7.45](/kompendium/07-teoreticke-reflexe/varela-enactivism/)) a Damasiovým somatic marker ([viz 7.36](/kompendium/07-teoreticke-reflexe/damasio-somatic-marker/)).
+Tato pozice strukturálně rezonuje s **embodied cognition** ([Varela, viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)) a Damasiovým somatic marker ([viz 7.36](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)).
 
 Pro EA z toho plyne:
 
@@ -78,14 +78,14 @@ Tato distinkce strukturálně **organizuje** všechny ostatní politické pozice
 
 Pro EA má tato analýza **strategický význam**:
 
-- **Politická EA** ([viz 7.8](/kompendium/07-teoreticke-reflexe/politicka-ea/)) operuje strukturálně skrze metaforické rámce.
+- **Politická EA** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)) operuje strukturálně skrze metaforické rámce.
 - **Tribalistická polarizace**: aktivace "rodinných" metafor strukturálně intenzifikuje konflikt.
 
 ## 5. Anti-objektivismus
 
 Lakoff je strukturálně **anti-objektivista** — odmítá pozici, podle níž existují "neutrální" pojmy nezávislé na tělesné zkušenosti a metaforických strukturách.
 
-Tato pozice je strukturálně **napjatá** s realismem (rezonuje s **Putnamovým vnitřním realismem**, [viz 7.27](/kompendium/07-teoreticke-reflexe/putnam-internal-realism/)) — Lakoff trvá na tom, že je **realista**, ale ne **objektivista**.
+Tato pozice je strukturálně **napjatá** s realismem (rezonuje s **Putnamovým vnitřním realismem**, [viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)) — Lakoff trvá na tom, že je **realista**, ale ne **objektivista**.
 
 Pro EA z toho plyne:
 
@@ -104,7 +104,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Detekce metaforických rámců**: pacient se učí identifikovat metafory, jež **strukturalizují** jeho prožívání.
 - **Reframing**: terapeutická technika **explicitně** lakoffovská — nahrazení dysfunkčního rámce funkčním.
@@ -127,16 +127,16 @@ Pro Prismatic platformu má Lakoffova teorie **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.10 Wittgenstein: Jazykové hry](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.36 Damasio: Somatic Marker](/kompendium/07-teoreticke-reflexe/damasio-somatic-marker/)
-- [7.45 Varela: Enactivism](/kompendium/07-teoreticke-reflexe/varela-enactivism/)
-- [7.47 Johnson: Body in Mind](/kompendium/07-teoreticke-reflexe/johnson-body-in-mind/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.36 Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)
+- [7.45 Varela: Enactivism](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)
+- [7.47 Johnson: Body in Mind](@/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -145,4 +145,4 @@ Pro Prismatic platformu má Lakoffova teorie **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

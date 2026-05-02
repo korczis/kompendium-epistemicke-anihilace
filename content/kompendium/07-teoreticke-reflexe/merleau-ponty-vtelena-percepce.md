@@ -26,7 +26,7 @@ Pro EA z toho plyne:
 
 - Útok na epistemické kapacity nemusí být **kognitivním** v úzkém smyslu — může operovat na **percepční** úrovni: deformací smyslového prostředí, manipulací rytmu, světla, zvuku.
 - **Multimédiální manipulace** (deepfakes, AI-generovaná pornografie, audio-spoofing) operuje strukturálně na **perceptuálním** základě.
-- Pojem **algoritmické rámcování** ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) musí být rozšířen o **perceptuální rámcování** — formátování smyslového vstupu.
+- Pojem **algoritmické rámcování** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) musí být rozšířen o **perceptuální rámcování** — formátování smyslového vstupu.
 
 ## 2. Vtělený subjekt (*sujet incarné*)
 
@@ -39,7 +39,7 @@ Pro EA má toto rozlišení **trojí relevanci**:
 
 1. **Reifikace tělesného schématu**: techniky, jež nutí subjekt myslet o těle pouze jako o **objektu** (medikalizace, fitness ideologie, dieta jako morální imperativ), strukturálně **anihilují** tělesný subjekt.
 2. **Trauma jako narušení tělesného schématu**: traumatické zážitky — zejména sexualizované násilí, pronásledování, mučení — narušují **původní** tělesnou orientaci subjektu ve světě. Klinický korelát: dissociace, somatizace, body dysmorphia.
-3. **Sféricko-tělesná imunizace**: Sloterdijkova sféra ([viz 7.1 §3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) má **tělesný** rozměr — sféra je primárně **tělesný prostor**, nikoli pouze symbolický.
+3. **Sféricko-tělesná imunizace**: Sloterdijkova sféra ([viz 7.1 §3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) má **tělesný** rozměr — sféra je primárně **tělesný prostor**, nikoli pouze symbolický.
 
 ## 3. *Chair* (Maso)
 
@@ -70,7 +70,7 @@ Merleau-Ponty pracuje s pojmem **tělesného schématu** — preverbální, dyna
 Pro EA má tělesné schéma **diagnostickou hodnotu**:
 
 - **Trauma** narušuje tělesné schéma — pacient ztrácí **bezprostřední** orientaci ve vlastním těle.
-- **Disociativní symptomy** lze fenomenologicky popsat jako **rozpad** tělesného schématu — subjekt přestává **obývat** vlastní tělo (analog Polanyiho indwelling, [viz 7.13](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)).
+- **Disociativní symptomy** lze fenomenologicky popsat jako **rozpad** tělesného schématu — subjekt přestává **obývat** vlastní tělo (analog Polanyiho indwelling, [viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
 - **Klinická intervence** musí znovu **integrovat** tělesné schéma — somatic experiencing (Levine), sensorimotor psychotherapy (Ogden).
 
 ## 6. Mapping na EA techniky
@@ -85,7 +85,7 @@ Pro EA má tělesné schéma **diagnostickou hodnotu**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Somatický fundament** terapie: žádná čistě "kognitivní" terapie nemůže zacházet s traumatem bez ohledu na tělo.
 - **Dýchání, pohyb, dotek** jako primární terapeutické modality (zejména pro pre-verbální trauma).
@@ -103,20 +103,20 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 - Lze tělesné schéma **algoritmicky** modelovat (avatary, VR)?
 - Jak **chránit** somatickou integritu v digitálně zprostředkovaných interakcích?
-- Jaký je vztah Merleau-Pontyho **chair** a Damasiova **somatic markeru** ([viz 7.36](/kompendium/07-teoreticke-reflexe/damasio-somatic-marker/))?
+- Jaký je vztah Merleau-Pontyho **chair** a Damasiova **somatic markeru** ([viz 7.36](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md))?
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.14 Heidegger: Být-ve-světě](/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete/)
-- [7.15 Sartre: Existencialismus](/kompendium/07-teoreticke-reflexe/sartre-existencialismus/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.32 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.36 Damasio: Somatic Marker](/kompendium/07-teoreticke-reflexe/damasio-somatic-marker/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
+- [7.15 Sartre: Existencialismus](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.32 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.36 Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -125,4 +125,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

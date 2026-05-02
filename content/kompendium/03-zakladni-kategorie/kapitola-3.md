@@ -16,9 +16,9 @@ toc = true
 
 # 3.3 Kapitola 3 — Pokročilá edukativní implementace
 
-Tato kapitola představuje **metodologický rámec** pro vzdělávání odborníků v oblasti [epistemické anihilace](/glossary/epistemicka-anihilace/) a [kognitivní anihilace](/glossary/kognitivni-anihilace/) — vzdělávání, jež musí kultivovat **epistemickou resilienci** a **diagnostické kompetence** bez paralelního zvyšování zranitelnosti. Edukace v této doméně nemůže být redukována na pouhou transmisi informací; vyžaduje transformativní učební zkušenost, která simultánně kultivuje kognitivní, metakognitivní, fenomenologické a aplikační kompetence.
+Tato kapitola představuje **metodologický rámec** pro vzdělávání odborníků v oblasti [epistemické anihilace](@/glossary/epistemicka-anihilace.md) a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — vzdělávání, jež musí kultivovat **epistemickou resilienci** a **diagnostické kompetence** bez paralelního zvyšování zranitelnosti. Edukace v této doméně nemůže být redukována na pouhou transmisi informací; vyžaduje transformativní učební zkušenost, která simultánně kultivuje kognitivní, metakognitivní, fenomenologické a aplikační kompetence.
 
-Kapitola operacionalizuje teoretické fundamenty z [Kapitoly 1](/kompendium/03-zakladni-kategorie/kapitola-1/) (techniky EA-1.*) a [Kapitoly 2](/kompendium/03-zakladni-kategorie/kapitola-2/) (scénáře A–I) do konkrétního pedagogického protokolu s explicitními bezpečnostními mechanismy, certifikačními požadavky a evaluační infrastrukturou.
+Kapitola operacionalizuje teoretické fundamenty z [Kapitoly 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) (techniky EA-1.*) a [Kapitoly 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (scénáře A–I) do konkrétního pedagogického protokolu s explicitními bezpečnostními mechanismy, certifikačními požadavky a evaluační infrastrukturou.
 
 ## Teoretické základy edukativního přístupu
 
@@ -141,10 +141,10 @@ Následující protokol představuje systematický rámec pro implementaci pozna
 
 | Modul | Obsah | Klíčové metody |
 |-------|-------|----------------|
-| **2.1** Akademické techniky 1.1–1.5 | Postupné studium z [Kapitoly 1](/kompendium/03-zakladni-kategorie/kapitola-1/), strukturální charakteristiky a operační mody | Case studies, role-playing low-intensity, taxonomická klasifikace |
+| **2.1** Akademické techniky 1.1–1.5 | Postupné studium z [Kapitoly 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md), strukturální charakteristiky a operační mody | Case studies, role-playing low-intensity, taxonomická klasifikace |
 | **2.2** Detekční trénink | Identifikace technik v reálných materiálech, fenomenologická senzitizace, kultivace detekce subtilních markerů | Video analýza, mikrotrénink rychlé klasifikace, supervised debriefing |
 | **2.3** Neutralizační strategie | Individuální i institucionální obranné techniky, integrace do profesní praxe | Strukturovaná cvičení, peer feedback, simulace neutralizace |
-| **2.4** Kompoziční a scénářová analýza | Rozklad komplexních scénářů A–I z [Kapitoly 2](/kompendium/03-zakladni-kategorie/kapitola-2/) na základní jednotky, synergické interakce | Architectural diagrams, scenario decomposition, kaskádová analýza |
+| **2.4** Kompoziční a scénářová analýza | Rozklad komplexních scénářů A–I z [Kapitoly 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) na základní jednotky, synergické interakce | Architectural diagrams, scenario decomposition, kaskádová analýza |
 
 > ⚠️ **Bezpečnostní protokol Fáze 2**: Každý modul ukončen **debriefingem** + **integration session** s kvalifikovaným supervisorem. Mezi moduly minimálně **48hodinová pauza** pro integraci. Pravidelné anonymní zpětnovazební kanály. Graduované intervenční protokoly pro různé úrovně epistemického distresu.
 
@@ -729,7 +729,7 @@ Pokročilá edukativní implementace nestojí izolovaně, ale je strukturálně 
 
 ### Integration s Nabla Infinity
 
-[Nabla Infinity](/glossary/nabla-infinity/) poskytuje epistemické nástroje pro kvantifikaci nejistoty. V kontextu pokročilé edukace je využíván pro:
+[Nabla Infinity](@/glossary/nabla-infinity.md) poskytuje epistemické nástroje pro kvantifikaci nejistoty. V kontextu pokročilé edukace je využíván pro:
 
 - Bayesovskou aktualizaci diagnostických hypotéz
 - Strukturované rozhodování pod nejistotou
@@ -738,7 +738,7 @@ Pokročilá edukativní implementace nestojí izolovaně, ale je strukturálně 
 
 ### Integration s Color Teams
 
-[Color Teams](/glossary/color-teams/) poskytuje organizační rámec pro kolaborativní analýzu. Pokročilí praktikanti participují v:
+[Color Teams](@/glossary/color-teams.md) poskytuje organizační rámec pro kolaborativní analýzu. Pokročilí praktikanti participují v:
 
 - Red team / Blue team simulacích manipulativních scénářů
 - Multi-paradigmatických analýzách v Purple team konfiguracích
@@ -935,7 +935,7 @@ Někteří účastníci mohou vykazovat tendence k instrumentální apropriaci d
 
 ### Dilema 5: Disagreement s institucionálním vedením
 
-Absolvent identifikuje, že vlastní instituce vykazuje vzorce institucionálního zachycení (Scénář D z [Kapitoly 2](/kompendium/03-zakladni-kategorie/kapitola-2/)).
+Absolvent identifikuje, že vlastní instituce vykazuje vzorce institucionálního zachycení (Scénář D z [Kapitoly 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md)).
 
 **Navigační framework**: dokumentace s předanou supervize, postupné kroky (interní → externí), právní konzultace ohledně whistleblowing protection, dlouhodobé strategické plánování pro vlastní bezpečnost.
 
@@ -1092,25 +1092,25 @@ V následujících sekcích kompendia jsou detailně rozpracovány pokročilejš
 
 ## Související
 
-- [Kapitola 1: Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) — sister chapter, technický fundament
-- [Kapitola 2: Scénáře delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/) — sister chapter, scénáře A–I
-- [Sekce 02 — Definice](/kompendium/02-uvod/definice/)
+- [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — sister chapter, technický fundament
+- [Kapitola 2: Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — sister chapter, scénáře A–I
+- [Sekce 02 — Definice](@/kompendium/02-uvod/definice.md)
 - [Sekce 04 — Pokročilé fenomény](/kompendium/04-pokrocile-fenomeny/)
 - [Sekce 05 — Diagnostika](/kompendium/05-diagnostika/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Sekce 07 — Prevence](/kompendium/07-prevence/)
 - [Sekce 08 — Etika](/kompendium/08-etika/)
-- [Techniques index](/kompendium/techniques/) — všech 13 EA-1.* hloubkových článků
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Techniques index](@/kompendium/techniques/_index.md) — všech 13 EA-1.* hloubkových článků
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -1123,4 +1123,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

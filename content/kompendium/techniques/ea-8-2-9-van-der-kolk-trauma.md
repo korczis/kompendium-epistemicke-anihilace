@@ -57,18 +57,18 @@ Komplementární k **EA-8.2.6 ICD-11 Complex Trauma** a **EA-8.2.10 Herman Recov
 
 ## Cross-linky
 
-- [/kompendium/08-prilohy/](/kompendium/08-prilohy/) — Hlavní kapitola Přílohy
+- [/kompendium/08-prilohy/](@/kompendium/08-prilohy/_index.md) — Hlavní kapitola Přílohy
 - [/kompendium/techniques/ea-8-2-10-*](/kompendium/techniques/ea-8-2-10-*) — Sourozenecká příloha
-- [/kompendium/techniques/](/kompendium/techniques/) — Index všech technik
-- [/kompendium/03-zakladni-kategorie/](/kompendium/03-zakladni-kategorie/) — Základní kategorie EA
-- [/kompendium/04-terminalni-protokoly/](/kompendium/04-terminalni-protokoly/) — Terminální protokoly
-- [/kompendium/05-ultramari-techniky/](/kompendium/05-ultramari-techniky/) — Ultrabrutální techniky
-- [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) — Klinické aplikace
-- [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) — Teoretické reflexe
+- [/kompendium/techniques/](@/kompendium/techniques/_index.md) — Index všech technik
+- [/kompendium/03-zakladni-kategorie/](@/kompendium/03-zakladni-kategorie/_index.md) — Základní kategorie EA
+- [/kompendium/04-terminalni-protokoly/](@/kompendium/04-terminalni-protokoly/_index.md) — Terminální protokoly
+- [/kompendium/05-ultramari-techniky/](@/kompendium/05-ultramari-techniky/_index.md) — Ultrabrutální techniky
+- [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) — Klinické aplikace
+- [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) — Teoretické reflexe
 - [/kompendium/glossary/](/kompendium/glossary/) — Glosář pojmů
-- [/kompendium/quick-reference/](/kompendium/quick-reference/) — Rychlá reference
-- [/kompendium/cross-domain/](/kompendium/cross-domain/) — Cross-domain materiály
-- [/kompendium/case-studies/](/kompendium/case-studies/) — Případové studie
+- [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md) — Rychlá reference
+- [/kompendium/cross-domain/](@/kompendium/cross-domain/_index.md) — Cross-domain materiály
+- [/kompendium/case-studies/](@/kompendium/case-studies/_index.md) — Případové studie
 
 ---
 
@@ -77,6 +77,6 @@ Komplementární k **EA-8.2.6 ICD-11 Complex Trauma** a **EA-8.2.10 Herman Recov
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Promo Site](https://korczis.github.io/prismatic-promo) | [Developer Portal](/developers/) | [Kompendium](/kompendium/)
+- [Promo Site](https://korczis.github.io/prismatic-promo) | [Developer Portal](@/developers/_index.md) | [Kompendium](@/kompendium/_index.md)
 
 *Příloha EA frameworku | EA-8.2.9 | Verze 1.0*

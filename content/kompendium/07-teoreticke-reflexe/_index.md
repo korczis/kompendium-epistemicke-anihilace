@@ -29,35 +29,35 @@ date_modified = "2026-04-25"
 
 Sekce 07 představuje **teoretické zázemí** taxonomie epistemické a kognitivní anihilace (EA) — místo, kde se klasifikační aparát sekcí 02–05 setkává s velkými tradicemi kontinentální filozofie, sociální epistemologie, kritické teorie, postmodernismu a empirické psychotraumatologie. Cílem sekce je **lokalizovat** kompendium v intelektuální krajině 20. a 21. století, **identifikovat** jeho dluhy, **vyznačit** body originality a **otevřít** prostor pro reflexivní kritiku vlastního aparátu.
 
-Zatímco sekce [02 — Úvod](/kompendium/02-uvod/) buduje konceptuální rámec a [03 — Základní kategorie](/kompendium/03-zakladni-kategorie/) klasifikuje techniky, sekce 07 se ptá: **odkud** tyto kategorie přicházejí? **Která** předporozumění jsou v nich zabudována? **Jak** rezonují s existujícími tradicemi a **kde** od nich odbočují?
+Zatímco sekce [02 — Úvod](@/kompendium/02-uvod/_index.md) buduje konceptuální rámec a [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) klasifikuje techniky, sekce 07 se ptá: **odkud** tyto kategorie přicházejí? **Která** předporozumění jsou v nich zabudována? **Jak** rezonují s existujícími tradicemi a **kde** od nich odbočují?
 
 ## Architektura sekce
 
 | # | Kapitola | Zaměření | Klíčové postavy |
 |---|----------|----------|-----------------|
-| **7.1** | [Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/) | Power-knowledge, instrumentální rozum, sféry, komunikativní racionalita | Foucault, Adorno, Sloterdijk, Habermas |
-| **7.2** | [Vztah k epistemickému traumatu — empirická literatura](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/) | Komplexní trauma, betrayal trauma, prediktivní zpracování, neuroplasticita | Herman, Freyd, van der Kolk, Brewin |
-| **7.3** | [Sociální epistemologie EA](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/) | Veritism, hermeneutická a testimoniální nespravedlnost, kritický kontextový empirismus | Goldman, Fricker, Longino, Anderson |
-| **7.4** | [EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/) | Rozpad metanarativů, simulakra, dekonstrukce | Lyotard, Baudrillard, Derrida |
+| **7.1** | [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) | Power-knowledge, instrumentální rozum, sféry, komunikativní racionalita | Foucault, Adorno, Sloterdijk, Habermas |
+| **7.2** | [Vztah k epistemickému traumatu — empirická literatura](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) | Komplexní trauma, betrayal trauma, prediktivní zpracování, neuroplasticita | Herman, Freyd, van der Kolk, Brewin |
+| **7.3** | [Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) | Veritism, hermeneutická a testimoniální nespravedlnost, kritický kontextový empirismus | Goldman, Fricker, Longino, Anderson |
+| **7.4** | [EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) | Rozpad metanarativů, simulakra, dekonstrukce | Lyotard, Baudrillard, Derrida |
 
 ## Proč separátní teoretická sekce
 
-Kompendium **není** atemporální klasifikační schéma — je to **historicky a teoreticky situovaný** výzkumný program ve smyslu Imre Lakatose ([viz glosář](/glossary/lakatos-vyzkumny-program/)). Tento program má své **tvrdé jádro** (strukturální realismus o epistemických procesech, multidimenzionální klasifikace, princip kompoziční analýzy — viz [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)) a **ochrannou vrstvu** revizibilních hypotéz. Sekce 07 zviditelňuje **jak jádro tak vrstvu** — explicitně vyznačuje, které předpoklady jsou pro kompendium konstitutivní a které jsou empiricky či konceptuálně otevřené revizi.
+Kompendium **není** atemporální klasifikační schéma — je to **historicky a teoreticky situovaný** výzkumný program ve smyslu Imre Lakatose ([viz glosář](@/glossary/lakatos-vyzkumny-program.md)). Tento program má své **tvrdé jádro** (strukturální realismus o epistemických procesech, multidimenzionální klasifikace, princip kompoziční analýzy — viz [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) a **ochrannou vrstvu** revizibilních hypotéz. Sekce 07 zviditelňuje **jak jádro tak vrstvu** — explicitně vyznačuje, které předpoklady jsou pro kompendium konstitutivní a které jsou empiricky či konceptuálně otevřené revizi.
 
 Bez tohoto sebereflexivního momentu by kompendium reprodukovalo to, co samo kritizuje: **imunizaci proti falsifikaci** (technika EA-1.3.1) — situaci, v níž teoretický rámec implicitně pohlcuje veškerou kontradiktorní evidenci a stává se neporazitelným. Sekce 07 záměrně podkopává tuto možnost otevřením kompendia kritickému dialogu se čtyřmi velkými tradicemi.
 
 ## Vztah k jiným sekcím
 
-### Vůči [Sekci 02 — Úvod](/kompendium/02-uvod/)
+### Vůči [Sekci 02 — Úvod](@/kompendium/02-uvod/_index.md)
 
 Sekce 02 představuje **operativní** teoretický rámec nutný pro klasifikační práci. Sekce 07 představuje **kontextový** teoretický rámec lokalizující kompendium v širších filozofických a empirických debatách:
 
-- [2.1 Definice](/kompendium/02-uvod/definice/) → klíčové pojmy (operativní)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/) → strukturální realismus, hierarchie kognitivní architektury (operativní)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/) → kritický realismus, enaktivismus, fenomenologie (operativní)
-- **7.1 [Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)** → Foucault, Adorno, Sloterdijk, Habermas (kontextový)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md) → klíčové pojmy (operativní)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md) → strukturální realismus, hierarchie kognitivní architektury (operativní)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md) → kritický realismus, enaktivismus, fenomenologie (operativní)
+- **7.1 [Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)** → Foucault, Adorno, Sloterdijk, Habermas (kontextový)
 
-### Vůči [Sekci 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+### Vůči [Sekci 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 Klasifikační techniky popsané v sekci 03 (selektivní expozice, falešné dilema, imunizace proti falsifikaci, prosodická dominance atd.) získávají v sekci 07 **filozofické osvětlení**:
 
@@ -65,7 +65,7 @@ Klasifikační techniky popsané v sekci 03 (selektivní expozice, falešné dil
 - Negativní dialektika (Adorno) → kritika instrumentálního využití klasifikace samé
 - Komunikativní racionalita (Habermas) → normativní kritérium pro odlišení manipulace od legitimní argumentace
 
-### Vůči [Sekci 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) (forward link)
+### Vůči [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) (forward link)
 
 Empirická literatura epistemického traumatu (kapitola 7.2) tvoří **most** k sekci 06 — diagnostika, terapie, prevence. Bez empiricky validovaných modelů traumatické patofyziologie by klinické intervence byly buď neúčinné, nebo iatrogenní (samy traumatizující).
 
@@ -91,38 +91,38 @@ Sekce 07 zaujímá **post-fundacionalistickou** pozici: odmítá jak naivní poz
 Sekce 07 explicitně **rozpoznává** dvě teoretická rizika:
 
 1. **Hypertheorizace** — situace, v níž teoretický aparát překrývá empirický předmět natolik, že přestává být kritérium pro testovatelnost. Kompendium se brání udržováním tvrdé vazby na klasifikované techniky a klinické observace.
-2. **Politická kooptace** — riziko, že kritická teorie EA bude sama instrumentalizována pro epistemicky problematické účely (např. delegitimizace politických oponentů jako "epistemicky anihilujících"). Kompendium se brání důslednou metakognitivní transparentností a explicitními etickými hranicemi (viz [01 — Předmluva](/kompendium/01-predmluva/)).
+2. **Politická kooptace** — riziko, že kritická teorie EA bude sama instrumentalizována pro epistemicky problematické účely (např. delegitimizace politických oponentů jako "epistemicky anihilujících"). Kompendium se brání důslednou metakognitivní transparentností a explicitními etickými hranicemi (viz [01 — Předmluva](@/kompendium/01-predmluva/_index.md)).
 
 ## Vztah k platformě Prismatic
 
 Teoretické rámce této sekce **strukturálně rezonují** s architekturou platformy:
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** Axiom 2 (Contradiction Preservation) ↔ Adornova negativní dialektika (zachování nesmiřitelných napětí)
-- **[Color Teams](/glossary/color-teams/)** ↔ Habermasova ideální komunikační situace (adversariální testování argumentů)
-- **[Decision Engine](/glossary/decision-core/)** kalibrace důvěry ↔ Goldmanův sociální reliabilismus (váhování zdrojů podle prokázané spolehlivosti)
-- **[3NL architektura](/glossary/3nl/)** L1+L2+L3 ↔ Sloterdijkova sférická imunologie (vrstvené ochranné struktury)
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** Axiom 2 (Contradiction Preservation) ↔ Adornova negativní dialektika (zachování nesmiřitelných napětí)
+- **[Color Teams](@/glossary/color-teams.md)** ↔ Habermasova ideální komunikační situace (adversariální testování argumentů)
+- **[Decision Engine](@/glossary/decision-core.md)** kalibrace důvěry ↔ Goldmanův sociální reliabilismus (váhování zdrojů podle prokázané spolehlivosti)
+- **[3NL architektura](@/glossary/3nl.md)** L1+L2+L3 ↔ Sloterdijkova sférická imunologie (vrstvené ochranné struktury)
 
 ## Související
 
-- [Sekce 02 — Úvod](/kompendium/02-uvod/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Lakatosův výzkumný program](/glossary/lakatos-vyzkumny-program/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Sekce 02 — Úvod](@/kompendium/02-uvod/_index.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -131,7 +131,7 @@ Teoretické rámce této sekce **strukturálně rezonují** s architekturou plat
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -145,4 +145,4 @@ Teoretické rámce této sekce **strukturálně rezonují** s architekturou plat
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

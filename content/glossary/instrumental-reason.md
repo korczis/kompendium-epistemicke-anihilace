@@ -35,19 +35,19 @@ Specifically:
 
 - **EA-1.3.x immunization techniques** are often perfectly rational under instrumental criteria: each move efficiently serves the end of belief preservation. The pathology is not in the calculation but in the **fact that the end is exempt from evaluation**.
 - **Mass-scale EA via algorithmic systems** (recommendation engines, ad targeting, predictive policing) is the instrumental-reason critique made operational: the systems are technically optimal for their stated ends, while the ends themselves systematically degrade the epistemic commons.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) pairs the Frankfurt-School diagnosis with [Habermasian communicative rationality](/glossary/communicative-rationality/) as the normative counter-move: communicative rationality is the contemporary heir to the Frankfurt project's attempt to recover a non-instrumental form of reason.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) pairs the Frankfurt-School diagnosis with [Habermasian communicative rationality](@/glossary/communicative-rationality.md) as the normative counter-move: communicative rationality is the contemporary heir to the Frankfurt project's attempt to recover a non-instrumental form of reason.
 - The platform's [Decision Engine](/hub/dd/decisions/) explicitly tracks **which ends are being optimized** alongside **how well they are being optimized** — a Habermas-Adorno-aware design move that refuses to treat the optimization criterion itself as beyond audit.
-- The [Color Teams](/glossary/color-teams/) framework includes Red Team scenarios in which the platform's own optimization machinery becomes adversarial to user epistemic interests — instrumental-reason auto-corruption tested as a threat model.
+- The [Color Teams](@/glossary/color-teams.md) framework includes Red Team scenarios in which the platform's own optimization machinery becomes adversarial to user epistemic interests — instrumental-reason auto-corruption tested as a threat model.
 
 ## See Also
 
-- [Communicative rationality](/glossary/communicative-rationality/) — Habermasian counter-vision
-- [Ideal Speech Situation](/glossary/ideal-speech-situation/) — Habermas's normative criterion
-- [Power-Knowledge](/glossary/power-knowledge/) — Foucauldian companion frame
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon explained
-- [Metanarrative collapse](/glossary/metanarrative-collapse/) — Lyotard on postmodern condition
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Communicative rationality](@/glossary/communicative-rationality.md) — Habermasian counter-vision
+- [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) — Habermas's normative criterion
+- [Power-Knowledge](@/glossary/power-knowledge.md) — Foucauldian companion frame
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
+- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) — Lyotard on postmodern condition
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -56,4 +56,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

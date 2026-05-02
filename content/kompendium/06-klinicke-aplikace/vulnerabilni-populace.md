@@ -17,7 +17,7 @@ toc = true
 
 ## Co znamená "vulnerabilní" v kontextu EA
 
-Pojem **vulnerabilní populace** v kontextu [epistemické anihilace](/glossary/epistemicka-anihilace/) označuje skupiny, u nichž je **strukturálně zvýšené riziko**:
+Pojem **vulnerabilní populace** v kontextu [epistemické anihilace](@/glossary/epistemicka-anihilace.md) označuje skupiny, u nichž je **strukturálně zvýšené riziko**:
 
 1. **Vystavení EA** — z důvodu životních okolností, závislostí, mocenských asymetrií;
 2. **Sekundární viktimizace** v klinickém kontextu — riziko, že terapeutická či institucionální intervence sama o sobě zhorší stav;
@@ -71,7 +71,7 @@ Vulnerabilní klient je často také **svědek** — proti agresorům, proti ins
 
 | Forma | Popis |
 |-------|-------|
-| **Parentální [gaslighting](/glossary/gaslighting/)** | Systematické popírání dětských pocitů, vzpomínek |
+| **Parentální [gaslighting](@/glossary/gaslighting.md)** | Systematické popírání dětských pocitů, vzpomínek |
 | **Triangulace** | Dítě vtaženo do koalice s jedním rodičem proti druhému |
 | **Parentifikace** | Dítě nucen do role rodiče, ztrácí epistemickou autonomii |
 | **Indoktrinace** | Systematická intelektuální závislost na rodičovských narrativách |
@@ -197,7 +197,7 @@ Klient typicky prochází fázemi:
 - **Intimní partnerské násilí** s dlouhodobou EA-složkou;
 - **Domácí násilí** v rodinách s narcistickými/sociopatickými rodiči;
 - **Trafficking obětí** — kombinace fyzického, ekonomického, epistemického násilí;
-- **Pracovní zneužívání** — toxické pracovní prostředí s [delegitimizací](/glossary/delegitimizace/);
+- **Pracovní zneužívání** — toxické pracovní prostředí s [delegitimizací](@/glossary/delegitimizace.md);
 - **Institucionální zneužívání** — pacienti, vězni, klienti pobytových zařízení.
 
 ### Specifika
@@ -248,7 +248,7 @@ Práce s touto populací nese **vysoké riziko vicarious trauma a EA-přenosu** 
 ## Vztah k platformě Prismatic
 
 Pro institucionální podporu vulnerabilních populací nabízí platforma:
-- **[Color Teams](/glossary/color-teams/)** — defenzivní agenti pro detekci EA v institucionálních kontextech;
+- **[Color Teams](@/glossary/color-teams.md)** — defenzivní agenti pro detekci EA v institucionálních kontextech;
 - **[Decision Engine](/hub/dd/decisions/)** — kalibrace klinické důvěry s ohledem na rizikové signály manipulace;
 - **Glosář a kompendium** — psychoedukační nástroje pro klienty, jejich rodiny a institucionální partnery;
 - **[Investigation reports](/investigations/)** — specifická role v případech podezření z institucionálního zneužívání.
@@ -263,18 +263,18 @@ Práce s vulnerabilní populací zůstává **oblastí aktivního vývoje**:
 
 ## Související
 
-- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.2 Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [6.3 Terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/)
-- [6.4 Protokoly epistemické rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glossary: Gaslighting](/glossary/gaslighting/)
-- [Glossary: Delegitimizace](/glossary/delegitimizace/)
-- [Glossary: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glossary: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glossary: Anankastický režim](/glossary/anankasticky-rezim/)
+- [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [6.3 Terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md)
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
+- [Glossary: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glossary: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glossary: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 
 
 ## ⚡ Kritický krok
@@ -287,9 +287,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -301,4 +301,4 @@ Před aplikací:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

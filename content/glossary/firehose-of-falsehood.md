@@ -34,26 +34,26 @@ The model has subsequently been observed beyond Russian state actors: in domesti
 
 ## Context
 
-Within the Prismatic Platform Kompendium, the firehose of falsehood is catalogued under **EA-1.2 (epistemic falsification)** combined with **EA-3 (collective cognitive overload)** — see [/kompendium/techniques/](/kompendium/techniques/). It exemplifies the kompendium's **autoamplification** definitional feature: victims, overwhelmed by volume, frequently begin asserting "everything is propaganda anyway" — a position that completes the attacker's goal of disabling truth-seeking.
+Within the Prismatic Platform Kompendium, the firehose of falsehood is catalogued under **EA-1.2 (epistemic falsification)** combined with **EA-3 (collective cognitive overload)** — see [/kompendium/techniques/](@/kompendium/techniques/_index.md). It exemplifies the kompendium's **autoamplification** definitional feature: victims, overwhelmed by volume, frequently begin asserting "everything is propaganda anyway" — a position that completes the attacker's goal of disabling truth-seeking.
 
 - The [Decision Engine](/hub/dd/decisions/) implements firehose-resistance through **provenance-weighted aggregation** rather than count-based aggregation: 10,000 claims from one network of coordinated actors carry the weight of one source, not 10,000.
-- [NABLA Infinity](/glossary/nabla-infinity/) source-diversity invariants explicitly prevent volume-attack: high evidence weight requires *independent* sources, not merely *many* sources.
-- [Color Teams](/glossary/color-teams/) Red Team scenarios include firehose simulations to test platform resilience against volume attacks.
-- The [Gish Gallop](/glossary/gish-gallop/) is a rhetorical relative of the firehose at the individual-debate scale; both exploit asymmetric correction costs.
-- [Info-Ops](/glossary/info-ops/) and [Epistemic Security](/glossary/epistemic-security/) provide broader framings.
-- [Deplatforming](/glossary/deplatforming/) is one (controversial, partial) defense against firehose-class attacks.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) source-diversity invariants explicitly prevent volume-attack: high evidence weight requires *independent* sources, not merely *many* sources.
+- [Color Teams](@/glossary/color-teams.md) Red Team scenarios include firehose simulations to test platform resilience against volume attacks.
+- The [Gish Gallop](@/glossary/gish-gallop.md) is a rhetorical relative of the firehose at the individual-debate scale; both exploit asymmetric correction costs.
+- [Info-Ops](@/glossary/info-ops.md) and [Epistemic Security](@/glossary/epistemic-security.md) provide broader framings.
+- [Deplatforming](@/glossary/deplatforming.md) is one (controversial, partial) defense against firehose-class attacks.
 
 The firehose model is the canonical contemporary illustration of **why truthful response is insufficient**: the asymmetry between attack and defense favors the attacker, and architectural rather than rhetorical defenses are required.
 
 ## See Also
 
-- [Info-Ops](/glossary/info-ops/) — Broader category
-- [Gish Gallop](/glossary/gish-gallop/) — Individual-scale relative
-- [Epistemic Security](/glossary/epistemic-security/) — Field-level framing
-- [Deepfake](/glossary/deepfake/) — Adjacent threat surface
-- [Deplatforming](/glossary/deplatforming/) — Partial defense
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Info-Ops](@/glossary/info-ops.md) — Broader category
+- [Gish Gallop](@/glossary/gish-gallop.md) — Individual-scale relative
+- [Epistemic Security](@/glossary/epistemic-security.md) — Field-level framing
+- [Deepfake](@/glossary/deepfake.md) — Adjacent threat surface
+- [Deplatforming](@/glossary/deplatforming.md) — Partial defense
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -62,4 +62,4 @@ The firehose model is the canonical contemporary illustration of **why truthful 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

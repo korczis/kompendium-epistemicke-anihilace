@@ -30,13 +30,13 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — narušení epistemické normativity samé |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemických standardů v terapeutickém rámci, 18–48 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
 **Meta-epistemická inverze** je metatranscendentální technika, při níž jsou **kořenové epistemické standardy** subjektu — to, co činí důkaz důkazem, koherenci koherentní, spolehlivost spolehlivou — systematicky obráceny tak, že fungují s **opačným znaménkem**. Subjekt si není vědom, že **inverze proběhla na úrovni standardu samého**, a interpretuje výsledné kognitivní výkony jako legitimní aplikaci původních standardů.
 
-Na rozdíl od běžné [imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), která manipuluje **jednotlivá kritéria** ve specifických případech, meta-epistemická inverze operuje na úrovni **meta-pravidel**: pravidla, jak hodnotit důkazy, jsou převrácena. Subjekt nadále **používá pravidla**, ale pravidla samá byla nahrazena svým opakem. Klíčový rys: subjekt **nevidí změnu**, protože změna proběhla v transcendentálním rámci, ze kterého subjekt sám hodnotí.
+Na rozdíl od běžné [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), která manipuluje **jednotlivá kritéria** ve specifických případech, meta-epistemická inverze operuje na úrovni **meta-pravidel**: pravidla, jak hodnotit důkazy, jsou převrácena. Subjekt nadále **používá pravidla**, ale pravidla samá byla nahrazena svým opakem. Klíčový rys: subjekt **nevidí změnu**, protože změna proběhla v transcendentálním rámci, ze kterého subjekt sám hodnotí.
 
 V terminálních stadiích vede k stavu, v němž **kvalitnější důkaz** vede k **silnějšímu odmítnutí**, **vyšší koherence** vyvolává **silnější podezření**, a **konzistentní reliabilita zdroje** je interpretována jako **indikátor manipulace**. Subjekt operuje racionálně z hlediska své vlastní převrácené metody, ale výsledné epistemické soudy jsou systematicky opačné než legitimní.
 
@@ -82,7 +82,7 @@ Co prožívá subjekt **uvnitř** meta-epistemické inverze:
 - **Zvláštní oddanost zdrojům s nízkou reliabilitou** — interpretovaným jako "neporušené systémem".
 - **Postupná ztráta schopnosti rozpoznat vlastní inverzi** — meta-reflexe sama operuje s převrácenými pravidly, takže nedokáže detekovat poruchu.
 
-V pokročilejších stadiích kombinace s [EA-5.2.10 meta-kognitivní singularitou](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/) způsobuje úplnou meta-reflexivní paralýzu.
+V pokročilejších stadiích kombinace s [EA-5.2.10 meta-kognitivní singularitou](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) způsobuje úplnou meta-reflexivní paralýzu.
 
 ## Detekční markery
 
@@ -176,14 +176,14 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 
 ### Často se kombinuje s
 
-- **[EA-5.2.2 Transcendentální iluze](/kompendium/techniques/ea-5-2-2-transcendentalni-iluze/)** — pseudo-meta-úroveň manipulátora je etablována jako transcendentální vhled.
-- **[EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)** — převrácené standardy se rekurzivně aplikují na sebe sama, vytvářejíc strukturu odolnou vůči externí kritice.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — jednodušší varianta operující na úrovni jednotlivých kritérií.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — strukturální předklad: filtrovaná expozice usnadňuje meta-inverzi.
+- **[EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)** — pseudo-meta-úroveň manipulátora je etablována jako transcendentální vhled.
+- **[EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)** — převrácené standardy se rekurzivně aplikují na sebe sama, vytvářejíc strukturu odolnou vůči externí kritice.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — jednodušší varianta operující na úrovni jednotlivých kritérií.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — strukturální předklad: filtrovaná expozice usnadňuje meta-inverzi.
 
 ### Eskaluje do
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — terminální stav, kdy meta-reflexe se zhroutí v jediný sebereferenční bod.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — terminální stav, kdy meta-reflexe se zhroutí v jediný sebereferenční bod.
 - **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — úplný kolaps meta-reflexivní kapacity.
 
 ## Vztah k Prismatic platformě
@@ -194,16 +194,16 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky** (5.2):
-  - [EA-5.2.2 Transcendentální iluze](/kompendium/techniques/ea-5-2-2-transcendentalni-iluze/)
-  - [EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)
+  - [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)
+  - [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -213,10 +213,10 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -228,4 +228,4 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

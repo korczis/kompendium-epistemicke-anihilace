@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L5 (ultramarine) |
 | **Riziková úroveň** | Extrémní — terminální stav, subjekt postrádá **základ** pro jakýkoli nárok |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci epistemické infrastruktury **z vnějšku** |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -40,7 +40,7 @@ Označení **vakuace** záměrně podtrhuje rozdíl od pouhé skepse. **Skeptik*
 
 Epistemická vakuace je **terminální** technikou v subkategorii 5.1: produkuje stav, ve kterém je subjekt zranitelný vůči **jakékoli** dodatečné manipulaci, neboť nemá nástroje k jejímu odolání. Vakuum nezůstává prázdné — je obvykle **vyplněno** strukturou navrhovanou operátorem, jež se subjektovi jeví jako **jediná dostupná** forma orientace.
 
-Epistemická vakuace navazuje na předchozí techniky: [EA-5.1.22 diferenciální nihilace](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/) odebírá nástroje rozlišování, [EA-5.1.23 asymptotická dezintegrace](/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace/) odebírá kotvu trajektorie. Vakuace odebírá poslední — základ.
+Epistemická vakuace navazuje na předchozí techniky: [EA-5.1.22 diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) odebírá nástroje rozlišování, [EA-5.1.23 asymptotická dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md) odebírá kotvu trajektorie. Vakuace odebírá poslední — základ.
 
 ## Operační modus
 
@@ -82,7 +82,7 @@ V terminálním stadiu operátor nabízí **strukturu**, jež zaplní vakuum: id
 - **Estetizace stavu** — vakuum prožíváno jako moudrost, ne jako porucha
 - **Defenzivní reakce** vůči pokusům o návrat ke konvenčním základnám — ty jsou prožívány jako naivní
 
-V kombinaci s [EA-1.4.2 latentní emocionální modulací](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) vzniká **afektivní vazba** k operátorovi či struktuře, jež je nabídkou epistemické rekonstrukce.
+V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) vzniká **afektivní vazba** k operátorovi či struktuře, jež je nabídkou epistemické rekonstrukce.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -167,9 +167,9 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 ### Často se kombinuje s
 
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — afektivní vazba k operátorovi je psychologickým motorem akceptace nabízené struktury.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — afektivní vazba k operátorovi je psychologickým motorem akceptace nabízené struktury.
 - **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)** — vakuace produkuje strukturální vakuum, jež guru zaplní.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — externí zdroje, jež by destabilizaci kompenzovaly, jsou ze subjektova horizontu odstraněny.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — externí zdroje, jež by destabilizaci kompenzovaly, jsou ze subjektova horizontu odstraněny.
 
 ### Návazné techniky
 
@@ -188,23 +188,23 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.22 Diferenciální nihilace](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/)
-  - [EA-5.1.23 Asymptotická dezintegrace](/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace/)
+  - [EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md)
+  - [EA-5.1.23 Asymptotická dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Epistemická bezdomovost](/glossary/epistemicka-bezdomovost/)
   - [Epistemické základny](/glossary/epistemicke-zakladny/)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -214,10 +214,10 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -229,4 +229,4 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

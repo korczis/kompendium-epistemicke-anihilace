@@ -42,14 +42,14 @@ Strukturální evoluční pořadí: **competence předchází comprehension**. B
 
 Pro EA z toho plyne:
 
-- **AI systémy**: mají strukturálně **competence** bez **comprehension** (rezonuje s Searle, [viz 7.36](/kompendium/07-teoreticke-reflexe/searle-chinese-room/)).
+- **AI systémy**: mají strukturálně **competence** bez **comprehension** (rezonuje s Searle, [viz 7.36](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)).
 - **Klinický korelát**: pacient může mít **kompetenci** (může fungovat), bez **rozumění** (nechápe své operace) — **pseudo-funkční** stav.
 
 ## 3. Tools that come with users
 
 Dennettova teze: **lidský jazyk a kultura** jsou strukturálně **nástroji**, jež **přicházejí s vlastním uživatelem** — formují mysli, jež je užívají.
 
-- **Slova** jsou strukturálně **kulturními viry** (rezonuje s Dawkinsovým memem, [viz 7.50](/kompendium/07-teoreticke-reflexe/dawkins-meme/))
+- **Slova** jsou strukturálně **kulturními viry** (rezonuje s Dawkinsovým memem, [viz 7.50](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md))
 - **Slova** strukturálně **modifikují** mozek, jenž je užívá
 - **Kultura** je strukturálně **kompenzátorem** evoluční přípravy — to, co geny nedokázaly, kultura **kompenzuje**
 
@@ -100,7 +100,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Vrstvená diagnostika**: které vrstvy vědomí pacient má?
 - **Sequenční terapie**: stabilizace **nižších** vrstev (somatika, smysly) **před** prací na vyšších (reflexivní, symbolické).
@@ -116,16 +116,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.35 Dennett: Intentional Stance](/kompendium/07-teoreticke-reflexe/dennett-intentional-stance/)
-- [7.36 Searle: Chinese Room](/kompendium/07-teoreticke-reflexe/searle-chinese-room/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.50 Dawkins: Mem](/kompendium/07-teoreticke-reflexe/dawkins-meme/)
-- [7.52 Harari: Sapiens narativ](/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+- [7.36 Searle: Chinese Room](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
+- [7.52 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -134,4 +134,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

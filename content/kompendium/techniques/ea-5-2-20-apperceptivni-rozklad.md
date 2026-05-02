@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps "Já myslím" jako nutného doprovodu představ |
 | **Reverzibilita** | Velmi nízká — 24–60 měsíců, často kombinovaná psychiatrická intervence |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -124,14 +124,14 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — terminální meta-kognitivní stav.
-- **[EA-5.2.15 Transcendentální imploze](/kompendium/techniques/ea-5-2-15-transcendentalni-implosion/)** — paralelní imploze celého transcendentálního aparátu.
-- **[EA-5.2.21 Subjekt-objekt fúzia](/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia/)** — komplementární destrukce subjekt-objektové struktury.
-- **[EA-5.2.30 Konvergentní meta-singularita](/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita/)** — terminální stav.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — terminální meta-kognitivní stav.
+- **[EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md)** — paralelní imploze celého transcendentálního aparátu.
+- **[EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md)** — komplementární destrukce subjekt-objektové struktury.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — eskalační následek subjektové destrukce.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek subjektové destrukce.
 
 ## Vztah k Prismatic platformě
 
@@ -141,16 +141,16 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -161,4 +161,4 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

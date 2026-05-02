@@ -43,23 +43,23 @@ Exit byl iniciovan akutní krizí víry — subjekt zjistil, že vedoucí system
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — vedoucí jako mediátor duchovního života
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "duchovní poslušnost", "Boží vůle", "povolání"
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika vedoucího = duchovní pýcha
-- [EA-5.1.14 Iluzorni transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/) — "vyšší realita" jako rámec kontroly
-- [EA-5.1.19 Kvazi-mysticka anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/) — vlastní já má být "obětováno" vůli vedoucího
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "duchovního selhání"
-- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — autorita vedoucího nezpochybnitelná duchovní hodností
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — vedoucí jako mediátor duchovního života
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "duchovní poslušnost", "Boží vůle", "povolání"
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika vedoucího = duchovní pýcha
+- [EA-5.1.14 Iluzorni transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) — "vyšší realita" jako rámec kontroly
+- [EA-5.1.19 Kvazi-mysticka anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) — vlastní já má být "obětováno" vůli vedoucího
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "duchovního selhání"
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — autorita vedoucího nezpochybnitelná duchovní hodností
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Když jsem se modlil, slyšel jsem jeho hlas, ne svůj. Když jsem rozhodoval, ptal jsem se, co by řekl on. Když jsem žehnal lidem, dělal jsem jeho gesta. Někde po cestě jsem se ztratil — Bůh, on a já se rozplynuli do jednoho. A zjistil jsem, že nevím, kde končí jeho moc a kde začíná moje vlastní zkušenost s Bohem."
 
-Tato narace odpovida [identitni dezintegraci](/glossary/epistemicka-alienace/) v duchovní variantě — splynutí osobní víry s autoritou vedoucího. [Betrayal trauma](/glossary/betrayal-trauma/) v posvátném kontextu je obzvlášť destruktivní.
+Tato narace odpovida [identitni dezintegraci](@/glossary/epistemicka-alienace.md) v duchovní variantě — splynutí osobní víry s autoritou vedoucího. [Betrayal trauma](@/glossary/betrayal-trauma.md) v posvátném kontextu je obzvlášť destruktivní.
 
 ## Detekcni bod
 
-Akutní krize víry po objevení zneužívání moci. Klicovy moment: psychoterapeut s expertízou v religious trauma identifikoval [c-PTSD](/glossary/c-ptsd/) s religious trauma syndrome.
+Akutní krize víry po objevení zneužívání moci. Klicovy moment: psychoterapeut s expertízou v religious trauma identifikoval [c-PTSD](@/glossary/c-ptsd.md) s religious trauma syndrome.
 
 ## Intervencni strategie
 
@@ -79,11 +79,11 @@ Religiozní totalizace ukazuje, jak posvátný rámec může maskovat koerci. Kl
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-5.1.14](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/), [EA-5.1.19](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-5.1.14](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md), [EA-5.1.19](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

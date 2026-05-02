@@ -33,19 +33,19 @@ The crisis has produced a methodological reform agenda: pre-registration, regist
 
 Within the Prismatic Platform, the replication-crisis literature directly informs the [Decision Engine](/hub/dd/decisions/) calibration model. Confidence updates from published research are scaled by the **replication-class prior** for the source field: a single study from a low-replication field (e.g., social-priming psychology) produces a smaller confidence update than a single study from a high-replication field (e.g., randomized controlled drug trials with multi-center confirmation), even if both are published in equally prestigious venues. This implementation is documented in [Kompendium → 05-detekce → epistemicka-kalibrace](/kompendium/05-detekce/epistemicka-kalibrace/).
 
-For [Epistemická anihilace](/glossary/epistemicka-anihilace/) work, the crisis matters because **published research is itself a vector**: low-replication-rate findings can be cited as decisive evidence in EA techniques, exploiting the asymmetry between the social authority of "published peer-reviewed" and the actual evidential reliability. Recovery work in [/kompendium/06-zotaveni/](/kompendium/06-zotaveni/) explicitly addresses subjects whose epistemic damage was mediated through citations of low-replicability research.
+For [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) work, the crisis matters because **published research is itself a vector**: low-replication-rate findings can be cited as decisive evidence in EA techniques, exploiting the asymmetry between the social authority of "published peer-reviewed" and the actual evidential reliability. Recovery work in [/kompendium/06-zotaveni/](/kompendium/06-zotaveni/) explicitly addresses subjects whose epistemic damage was mediated through citations of low-replicability research.
 
-The platform's [NABLA Infinity](/glossary/nabla-infinity/) pipeline supports source-grade tagging in which "published peer-reviewed" is decomposed into field-specific replication priors, pre-registration status, sample size, and replication-history of the specific result. This produces calibration that is faithful to the actual evidential structure rather than to the social signal.
+The platform's [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline supports source-grade tagging in which "published peer-reviewed" is decomposed into field-specific replication priors, pre-registration status, sample size, and replication-history of the specific result. This produces calibration that is faithful to the actual evidential structure rather than to the social signal.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Threat framework
-- [Epistemic Confidence](/glossary/epistemic-confidence/) — Calibration framework
-- [Epistemická pokora](/glossary/epistemicka-pokora/) — Legitimate humility about replication failures
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
-- [Epistemic Pipeline](/glossary/epistemic-pipeline/) — Platform-level epistemic architecture
-- [NABLA Infinity](/glossary/nabla-infinity/) — Source-grade calibration engine
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Threat framework
+- [Epistemic Confidence](@/glossary/epistemic-confidence.md) — Calibration framework
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) — Legitimate humility about replication failures
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — Platform-level epistemic architecture
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Source-grade calibration engine
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -54,4 +54,4 @@ The platform's [NABLA Infinity](/glossary/nabla-infinity/) pipeline supports sou
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

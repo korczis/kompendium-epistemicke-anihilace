@@ -43,23 +43,23 @@ Exit byl iniciovan kritickou diagnozou u dcery, kterou alternativní metody zhor
 
 ## EA techniky manifestovane
 
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "kvantové", "energetické", "vibrační" jako pseudo-vědecké marketing
-- [EA-2.1.1 Expertni disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/) — vědci a lékaři "neumí myslet otevřeně"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické bubliny posilující New Age content
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — neúspěch alternativní léčby = "tvoje energie není připravena"
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "toxického" konvenčního světa
-- [EA-5.1.14 Iluzorni transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/) — pocit přístupu ke "skryté pravdě"
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — řetězec "učitelů" v síti
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "kvantové", "energetické", "vibrační" jako pseudo-vědecké marketing
+- [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — vědci a lékaři "neumí myslet otevřeně"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické bubliny posilující New Age content
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — neúspěch alternativní léčby = "tvoje energie není připravena"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "toxického" konvenčního světa
+- [EA-5.1.14 Iluzorni transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) — pocit přístupu ke "skryté pravdě"
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — řetězec "učitelů" v síti
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "Když dcera dostala diagnozu, první reakce byla 'to není pravda, já vidím energii'. Pak jsem si všimla, že jsem to naučila říkat. Že se ten hlas nepodobá mému. A že kdybych před deseti lety slyšela, co říkám teď, šokovalo by mě to."
 
-Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat vlastní epistemickou situaci. [Epistemicka alienace](/glossary/epistemicka-alienace/) — odcizení od evidenčních metod.
+Tato narace odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat vlastní epistemickou situaci. [Epistemicka alienace](@/glossary/epistemicka-alienace.md) — odcizení od evidenčních metod.
 
 ## Detekcni bod
 
-Diagnoza dcery a konfrontace s pediatrem. Klicovy moment: psychoterapeut s expertízou v cult recovery identifikoval New Age site jako specificky koercivni structuru s [c-PTSD](/glossary/c-ptsd/) markery.
+Diagnoza dcery a konfrontace s pediatrem. Klicovy moment: psychoterapeut s expertízou v cult recovery identifikoval New Age site jako specificky koercivni structuru s [c-PTSD](@/glossary/c-ptsd.md) markery.
 
 ## Intervencni strategie
 
@@ -79,11 +79,11 @@ New Age recovery ukazuje koerci v decentralizované síti — neexistuje jeden g
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/), [iatrogenic-harm](/glossary/iatrogenic-harm/), [epistemic-bubble](/glossary/epistemic-bubble/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-2.1.1](/kompendium/techniques/ea-2-1-1-expertni-disinflation/), [EA-5.1.14](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-5.1.14](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

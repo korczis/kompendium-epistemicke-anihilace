@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **Přístupová úroveň** | L2 (pokročilá) |
 | **Riziková úroveň** | Vysoká — produkuje iluzi konsensu, masivní reputační tlak |
 | **Reverzibilita** | Nízká — sociální paměť útoku přetrvává |
-| **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/) |
+| **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 
 ## Definice
 
@@ -117,14 +117,14 @@ Co prožívá oběť pseudo-peer mob:
 
 ### Často se kombinuje s
 
-- **[EA-2.1.1 Expertní disinflace](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)** — mob jako distribuční mechanismus disinflace.
-- **[EA-2.3.4 Mob coordination](/kompendium/techniques/ea-2-3-4-mob-coordination/)** — mediální variace.
-- **[EA-2.1.9 Pseudo-konsenzus vytvoření](/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni/)** — strukturální paralela.
+- **[EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)** — mob jako distribuční mechanismus disinflace.
+- **[EA-2.3.4 Mob coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md)** — mediální variace.
+- **[EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)** — strukturální paralela.
 
 ### Eskaluje do
 
-- **[EA-2.4.4 Leadership capture](/kompendium/techniques/ea-2-4-4-leadership-capture/)** — když mob získá institucionální autoritu.
-- **[Scénář B](/kompendium/03-zakladni-kategorie/kapitola-2/)** — pedagogická koercion na komunitní úrovni.
+- **[EA-2.4.4 Leadership capture](@/kompendium/techniques/ea-2-4-4-leadership-capture.md)** — když mob získá institucionální autoritu.
+- **[Scénář B](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — pedagogická koercion na komunitní úrovni.
 
 ## Vztah k Prismatic platformě
 
@@ -134,20 +134,20 @@ Co prožívá oběť pseudo-peer mob:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 2 — Scénáře delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
+- **Rodičovská kapitola**: [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
 - **Sourozenecké techniky** (subkategorie 2.1):
-  - [EA-2.1.1 Expertní disinflace](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)
-  - [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/)
-  - [EA-2.1.9 Pseudo-konsenzus vytvoření](/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni/)
+  - [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+  - [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)
+  - [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
 - **Glossary**:
-  - [Delegitimizace](/glossary/delegitimizace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Delegitimizace](@/glossary/delegitimizace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -155,4 +155,4 @@ Co prožívá oběť pseudo-peer mob:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

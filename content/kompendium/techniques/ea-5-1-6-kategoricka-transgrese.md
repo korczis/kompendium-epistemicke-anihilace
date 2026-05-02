@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezený výzkumný přístup) |
 | **Riziková úroveň** | Extrémní — destrukce ontologického substrátu, hrozí dezintegrace orientace v realitě |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci kategoriálního pole v rámci dlouhodobé klinické intervence |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -48,7 +48,7 @@ Klíčový distinktivní znak — kategorická transgrese není pouhý přesun m
 
 Technika exploituje skutečnost, že kategoriální struktura zkušenosti je **infrastrukturální** — operuje pod úrovní vědomé reflexe. Systematická transgrese této infrastruktury produkuje **dezorientaci**, kterou subjekt nedokáže lokalizovat, protože nedokáže pojmenovat, **co** se rozpadlo.
 
-Kategorická transgrese je [ultramární technikou](/kompendium/05-ultramari-techniky/) kategorie [epistemická singularita](/glossary/epistemicka-anihilace/), s úzkým vztahem k [ontologické anihilaci](/glossary/ontologicka-anihilace/) — destruuje **ontologickou** klasifikační schopnost.
+Kategorická transgrese je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), s úzkým vztahem k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md) — destruuje **ontologickou** klasifikační schopnost.
 
 ## Operační modus
 
@@ -114,7 +114,7 @@ Kategorická transgrese je odlišitelná od:
 - **Terapeutická imerze** (psychodrama, vizualizace, Internal Family Systems) — prováděná v **rámci** s explicitními začátky a konci; pacient ví, co je rámec a co skutečnost. Transgrese rozpouští samotný rámec.
 - **Mystický prožitek** (autentický) — typicky **lokalizovaný** v čase a prostoru, **neporušuje** schopnost vrátit se k běžné kategorialní struktuře. Transgrese produkuje **strukturální** deficit.
 - **Psychotická epizoda** — překryv značný, ale psychóza je obvykle **endogenní** a má klinický průběh. Kategorická transgrese je **inducibilní** a vyžaduje **manipulátora**.
-- **[EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)** — destrukce **jazyka**, nikoli ontologické struktury. Imploudovaný termín může v zachovaných kategoriích selhávat; transgresivní subjekt ztrácí kategorie samotné.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — destrukce **jazyka**, nikoli ontologické struktury. Imploudovaný termín může v zachovaných kategoriích selhávat; transgresivní subjekt ztrácí kategorie samotné.
 
 ## Rizikové kontexty
 
@@ -184,15 +184,15 @@ Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit
 
 ### Často kombinováno s
 
-- **[EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)** — kolaps kategorií zrcadlí kolaps sémantiky pojmů, jež kategorie značily; spolu eliminují klasifikační kapacitu.
-- **[EA-5.1.5 Logická diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl ("víš co je vzpomínka, sleduj řetězec — proč by **toto** byla vzpomínka?").
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emocionální saturace transgresivních zážitků blokuje racionální revizi kategoriálního stavu.
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — diverze brání subjektu vystopovat strukturální vady kategoriálního systému, který přijímá.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — kolaps kategorií zrcadlí kolaps sémantiky pojmů, jež kategorie značily; spolu eliminují klasifikační kapacitu.
+- **[EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl ("víš co je vzpomínka, sleduj řetězec — proč by **toto** byla vzpomínka?").
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální saturace transgresivních zážitků blokuje racionální revizi kategoriálního stavu.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze brání subjektu vystopovat strukturální vady kategoriálního systému, který přijímá.
 
 ### Eskaluje do
 
-- **Terminální protokoly** ([Kapitola 4](/kompendium/04-terminalni-protokoly/)) — pokročilá kategorická transgrese je jednou z hlavních cest do **strukturálního** ontologického kolapsu.
-- **[Ontologická anihilace](/glossary/ontologicka-anihilace/)** — kolaps schopnosti udržet existenciální distinkce.
+- **Terminální protokoly** ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) — pokročilá kategorická transgrese je jednou z hlavních cest do **strukturálního** ontologického kolapsu.
+- **[Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — kolaps schopnosti udržet existenciální distinkce.
 
 ### Distinktivní vůči
 
@@ -203,38 +203,38 @@ Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit
 Kategorická transgrese je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) ontological audit** — rozhodovací logika vyžaduje, aby vstupní data byla explicitně klasifikována (fakt / hypotéza / hodnocení / narativ). Klasifikační konfuze je flagována jako epistemická červená vlajka.
-- **[NABLA Infinity](/glossary/nabla-infinity/) provenance + ontological tagging** — provenance tracking sleduje, **odkud** zkušenost / informace pochází (vlastní vjem, převzatý narativ, model output, historický záznam) a explicitně tag pro detekci memory blending.
-- **[Color Teams](/glossary/color-teams/) ontologická forenzika** — Red Team explicitně testuje, zda argumentace odolá auditu kategoriální stability vstupů.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance + ontological tagging** — provenance tracking sleduje, **odkud** zkušenost / informace pochází (vlastní vjem, převzatý narativ, model output, historický záznam) a explicitně tag pro detekci memory blending.
+- **[Color Teams](@/glossary/color-teams.md) ontologická forenzika** — Red Team explicitně testuje, zda argumentace odolá auditu kategoriální stability vstupů.
 - **OSINT framework's source ontology** — všechny zdroje jsou explicitně klasifikovány (primary / secondary / interpretive / narrative); platforma ne směšuje narativní a faktická tvrzení.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
-  - [EA-5.1.5 Logická diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)
+  - [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
+  - [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
 - **Související akademické techniky**:
-  - [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -244,10 +244,10 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -259,4 +259,4 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

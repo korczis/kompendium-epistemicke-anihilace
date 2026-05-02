@@ -43,23 +43,23 @@ Exit byl iniciovan kolapsem v terénu a evakuací do České republiky. Hospital
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — ředitelka jako misionářka
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "mission", "calling", "service"
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — vina za "klienty"
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika = "egoismus"
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "all-in nebo nezájem"
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — identita = NGO
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — kolegové trestají disent
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — ředitelka jako misionářka
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "mission", "calling", "service"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — vina za "klienty"
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika = "egoismus"
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "all-in nebo nezájem"
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — identita = NGO
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — kolegové trestají disent
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "V terénu jsem viděla skutečnou bídu. A doma mi maminka řekla, že vypadám špatně. Cítila jsem vinu — jak si můžu stěžovat, když jsem zdravá, mám jídlo? Trvalo mi rok, než jsem si dovolila uznat vlastní bolest. A pak jsem si uvědomila, že NGO mi to vinění bylo užitečné — udržovalo mě v práci."
 
-Tato narace odpovida [iatrogenic harm](/glossary/iatrogenic-harm/) v humanitárním kontextu.
+Tato narace odpovida [iatrogenic harm](@/glossary/iatrogenic-harm.md) v humanitárním kontextu.
 
 ## Detekcni bod
 
-Kolaps v terénu. Klicovy moment: psychiatr s humanitarian aid expertízou identifikoval [c-PTSD](/glossary/c-ptsd/) s vicarious trauma.
+Kolaps v terénu. Klicovy moment: psychiatr s humanitarian aid expertízou identifikoval [c-PTSD](@/glossary/c-ptsd.md) s vicarious trauma.
 
 ## Intervencni strategie
 
@@ -79,11 +79,11 @@ NGO cult ukazuje, že "dobrý úmysl" nezakládá imunitu vůči koercivní dyna
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

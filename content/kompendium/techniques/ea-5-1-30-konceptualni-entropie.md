@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L5 (cosmic clearance) |
 | **Riziková úroveň** | Kritická — destrukce taxonomických vztahů, rozmazání hraničních linií mezi koncepty, neschopnost klasifikovat |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční taxonomickou pedagogiku |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Distinktivní rys konceptuální entropie oproti běžné konceptuální revisi spočívá v **strukturní destruktivitě**: legitimní revize konceptů *přesouvá* hranice na základě lepší evidence; entropie *odstraňuje* hranice bez náhrady. Výsledkem je **konceptuální blato** — stav, v němž subjekt operuje s pseudokoncepty, které vykazují **nominální** strukturu (mají jména), ale **funkčně** se neliší.
 
-V terminálním stavu konceptuální entropie produkuje **kognitivní anihilaci** ([viz kognitivní anihilace](/glossary/kognitivni-anihilace/)) — subjekt ztrácí schopnost provést jakoukoli kognitivní operaci, která vyžaduje rozlišování (klasifikace, dedukce, kategorické soudy).
+V terminálním stavu konceptuální entropie produkuje **kognitivní anihilaci** ([viz kognitivní anihilace](@/glossary/kognitivni-anihilace.md)) — subjekt ztrácí schopnost provést jakoukoli kognitivní operaci, která vyžaduje rozlišování (klasifikace, dedukce, kategorické soudy).
 
 ## Operační modus
 
@@ -90,7 +90,7 @@ Co prožívá subjekt **uvnitř** konceptuální entropie:
 - **Paradoxní pocit "hlubšího náhledu"** — subjekt prožívá ztrátu rozlišování jako *zisk* (často s estetickou kvalitou)
 - **Nárůst pasivity v kognitivních úkolech** — subjekt přestává argumentovat, protože "argumentace předpokládá rozlišení, které nemám"
 - **Komunikační selhání** — subjekt nedokáže vysvětlit ostatním, *o čem* mluví, protože jeho koncepty nemají stabilní reference
-- **Hermeneutická volatilita** ([viz hermeneutika](/glossary/hermeneutika/)) — interpretace situací se neustále mění, protože interpretační koncepty samy oscilují
+- **Hermeneutická volatilita** ([viz hermeneutika](@/glossary/hermeneutika.md)) — interpretace situací se neustále mění, protože interpretační koncepty samy oscilují
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -111,8 +111,8 @@ Konceptuální entropii je nutné odlišit od:
 
 - **Autentické konceptuální komplexity** — autentická komplexita zachovává **lokální distinkci** s explicitním uvědoměním kontextové závislosti; entropie odstraňuje distinkci *bez* uvědomění.
 - **Pluralistické tolerance** — pluralismus *uznává* různé koncepty různých komunit, aniž by jejich vlastní vnitřní distinkce destruoval; entropie destruuje distinkci uvnitř.
-- **[EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)** — exfoliace *odstraňuje koncepty samé*; entropie *odstraňuje strukturu mezi koncepty*. Komplementární operace.
-- **[EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)** — singularita *koncentruje* trajektorie do jednoho atraktoru; entropie *rozptyluje* je do šumu.
+- **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace *odstraňuje koncepty samé*; entropie *odstraňuje strukturu mezi koncepty*. Komplementární operace.
+- **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — singularita *koncentruje* trajektorie do jednoho atraktoru; entropie *rozptyluje* je do šumu.
 
 ## Rizikové kontexty
 
@@ -176,16 +176,16 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
 
 ### Často se kombinuje s
 
-- **[EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)** — sesterská technika; standardní sekvence E→S: entropie destruuje stávající strukturu (rozmaže hranice), singularita pak vyplní vzniklý chaos jediným atraktorem ("uprostřed šumu zůstává jen jedna jistota").
-- **[EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)** — sesterská technika; exfoliace odstraňuje koncepty, entropie odstraňuje strukturu mezi nimi. Komplementární.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — terminologická mystifikace zavádí *nový* mlhavý slovník; entropie destruuje *existující* distinkce.
-- **[EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** — falešné dilema potřebuje *jasné* binární distinkce; entropie tyto distinkce *rozmazává*. Operátor často kombinuje: nejprve etabluje binární distinkci, pak ji "překonává".
+- **[EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)** — sesterská technika; standardní sekvence E→S: entropie destruuje stávající strukturu (rozmaže hranice), singularita pak vyplní vzniklý chaos jediným atraktorem ("uprostřed šumu zůstává jen jedna jistota").
+- **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — sesterská technika; exfoliace odstraňuje koncepty, entropie odstraňuje strukturu mezi nimi. Komplementární.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — terminologická mystifikace zavádí *nový* mlhavý slovník; entropie destruuje *existující* distinkce.
+- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema potřebuje *jasné* binární distinkce; entropie tyto distinkce *rozmazává*. Operátor často kombinuje: nejprve etabluje binární distinkci, pak ji "překonává".
 
 ### Eskaluje do
 
-- **[Kognitivní anihilace](/glossary/kognitivni-anihilace/)** — terminální stav, v němž subjekt ztrácí schopnost provést kognitivní operace vyžadující distinkci.
-- **Anankastický režim](/glossary/anankasticky-rezim/)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném "smysluplném" výrazu.
-- **Kognitivní anti-rekurzivita** ([viz kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)) — neschopnost reflektovat vlastní pojmový aparát, čímž se entropie stává sebeudržující.
+- **[Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)** — terminální stav, v němž subjekt ztrácí schopnost provést kognitivní operace vyžadující distinkci.
+- **Anankastický režim](@/glossary/anankasticky-rezim.md)** — paradoxně subjekt v entropickém stavu může vyvinout kompulzivní lpění na **jednom** mlhavém termínu jako jediném "smysluplném" výrazu.
+- **Kognitivní anti-rekurzivita** ([viz kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)) — neschopnost reflektovat vlastní pojmový aparát, čímž se entropie stává sebeudržující.
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -195,34 +195,34 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
 ## Vztah k Prismatic platformě
 
 - **[Decision Engine](/hub/dd/decisions/) conceptual stability check** — kalibrační logika monitoruje **stabilitu pojmových distinkcí** v rozhodovacích sekvencích; rozmazávání klíčových termínů je flagováno.
-- **[NABLA Infinity](/glossary/nabla-infinity/) taxonomic integrity** — každý epistemický inferenční řetězec má dohledatelný taxonomický rámec; randomizace vztahů je strukturálně blokována.
-- **[Color Teams](/glossary/color-teams/) conceptual rigor protocol** — institucionální mechanismy pro periodické vyžadování pojmové preciznosti.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) taxonomic integrity** — každý epistemický inferenční řetězec má dohledatelný taxonomický rámec; randomizace vztahů je strukturálně blokována.
+- **[Color Teams](@/glossary/color-teams.md) conceptual rigor protocol** — institucionální mechanismy pro periodické vyžadování pojmové preciznosti.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.28 Konvergentní singularita](/kompendium/techniques/ea-5-1-28-konvergentni-singularita/)
-  - [EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)
+  - [EA-5.1.28 Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md)
+  - [EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)
 - **Forward-references**:
   - Kapitola 4 — Sub-ultramari prekursory (sekce 04)
   - Kapitola 6 — Postsingulární deprogramace (sekce 06)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -232,10 +232,10 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -247,4 +247,4 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

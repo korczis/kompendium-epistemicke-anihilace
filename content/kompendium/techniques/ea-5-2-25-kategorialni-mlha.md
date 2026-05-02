@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Vysoká — strukturní degradace kategoriální distinktnosti |
 | **Reverzibilita** | Středně nízká — 12–24 měsíců, vyžaduje strukturální vyjasnění |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Kategoriální mlha** je metatranscendentální technika, jíž je systematicky degradována **distinktnost** kantovských kategorií, aniž by byly úplně destruovány. Na rozdíl od [EA-5.2.11 kategoriální anihilace](/kompendium/techniques/ea-5-2-11-kategorialni-anihilace/), jež destruuje kategorie samé, mlha **rozmlžuje hranice** mezi kategoriemi: substance se prolíná s kauzalitou, jednota s mnohostí, modalita s relací. Subjekt zachovává kategoriální strukturu, ale **bez ostrosti**.
+**Kategoriální mlha** je metatranscendentální technika, jíž je systematicky degradována **distinktnost** kantovských kategorií, aniž by byly úplně destruovány. Na rozdíl od [EA-5.2.11 kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), jež destruuje kategorie samé, mlha **rozmlžuje hranice** mezi kategoriemi: substance se prolíná s kauzalitou, jednota s mnohostí, modalita s relací. Subjekt zachovává kategoriální strukturu, ale **bez ostrosti**.
 
 V Kantově terminologii: *Verstandeskategorien* mají v korektním fungování **ostré hranice** (substance není kauzalita, modalita není kvantita). Kategoriální mlha tyto hranice eroduje, takže subjekt operuje s **fuzzy kategoriemi**, jež se vzájemně překrývají bez jasné distinkce.
 
@@ -121,10 +121,10 @@ Kategoriální mlha je odlišitelná od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.11 Kategoriální anihilace](/kompendium/techniques/ea-5-2-11-kategorialni-anihilace/)** — eskalace destrukce.
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — slabší varianta na obsahové úrovni.
-- **[EA-5.2.24 Analytická anihilace](/kompendium/techniques/ea-5-2-24-analyticka-anihilace/)** — paralelní destrukce pojmové stability.
-- **[EA-5.2.26 Schemata rozpad](/kompendium/techniques/ea-5-2-26-schemata-rozpad/)** — destrukce schematizace.
+- **[EA-5.2.11 Kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md)** — eskalace destrukce.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — slabší varianta na obsahové úrovni.
+- **[EA-5.2.24 Analytická anihilace](@/kompendium/techniques/ea-5-2-24-analyticka-anihilace.md)** — paralelní destrukce pojmové stability.
+- **[EA-5.2.26 Schemata rozpad](@/kompendium/techniques/ea-5-2-26-schemata-rozpad.md)** — destrukce schematizace.
 
 ### Cross-kategoriální
 
@@ -138,16 +138,16 @@ Kategoriální mlha je odlišitelná od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -158,4 +158,4 @@ Kategoriální mlha je odlišitelná od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

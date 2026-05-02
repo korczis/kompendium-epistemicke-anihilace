@@ -24,7 +24,7 @@ Pro kompendium EA poskytuje Metzingerova teorie nástroj pro pochopení **strukt
 
 Metzingerova centrální teze: **mozek konstruuje** **self-model** — strukturální reprezentaci sebe sama, jež **obsahuje**:
 
-- **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/))
+- **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
 - **Časovou kontinuitu** (paměť, anticipace)
 - **Agenturu** (pocit, že jsem **já**, kdo jedná)
 - **Perspectivu** (egocentrický pohled)
@@ -60,7 +60,7 @@ Tato pozice strukturálně rezonuje s:
 
 Pro EA z toho plyne:
 
-- **Anti-substanční pozice**: techniky, jež **fixují** subjektivitu na **pevnou** identitu (idem-identita Ricoeurova, [viz 7.17](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)), jsou strukturálně **falsifikující**.
+- **Anti-substanční pozice**: techniky, jež **fixují** subjektivitu na **pevnou** identitu (idem-identita Ricoeurova, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)), jsou strukturálně **falsifikující**.
 - **Riziko dehumanizace**: pokud "žádné self", **etické** závazky vůči subjektu jsou **zranitelnější**. Metzinger to **uznává** — trvá na **prozumělé** etické pozici.
 
 ## 4. Etika subjektivity
@@ -86,7 +86,7 @@ Při hluboké meditaci subjekt **prožívá** PSM jako **model** — strukturál
 Pro EA z toho plyne:
 
 - **Meditace jako rezilience**: schopnost **rozkrýt** PSM je strukturálním zdrojem rezilience vůči EA technikám manipulujícím PSM.
-- **Antropotechnická perspektiva** ([Sloterdijk, viz 7.1 §3.3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)): meditace jako **kultivace** epistemické rezilience.
+- **Antropotechnická perspektiva** ([Sloterdijk, viz 7.1 §3.3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)): meditace jako **kultivace** epistemické rezilience.
 
 ## 6. Mapping na EA techniky
 
@@ -100,7 +100,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Phenomenal self-modeling** jako klinický cíl: pacient se učí **rozkrývat** PSM bez **dezintegrace**.
 - **Meditace jako podpůrná intervence**: vipassana, mindfulness jako antropotechniky.
@@ -123,16 +123,16 @@ Metzingerovy nedávné práce se zabývají **etikou AI**:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.40 Friston: Active Inference](/kompendium/07-teoreticke-reflexe/friston-active-inference/)
-- [7.43 Thompson: Mind in Life](/kompendium/07-teoreticke-reflexe/thompson-mind-in-life/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.40 Friston: Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)
+- [7.43 Thompson: Mind in Life](@/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -141,4 +141,4 @@ Metzingerovy nedávné práce se zabývají **etikou AI**:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

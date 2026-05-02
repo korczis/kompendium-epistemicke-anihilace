@@ -43,19 +43,19 @@ Exit byl iniciovan finančním zhroucením (rodinné úspory, hypotéka). Akutn�
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — guru obchodník jako autorita
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "diamond hands", "HODL", "100x"
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — FOMO (fear of missing out)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — ztráty = "test víry"
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — telegram groups posilující "diamond hands"
-- [EA-5.1.18 Solipsisticka dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/) — "smart money" vs. "paper hands"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické bubliny
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — guru obchodník jako autorita
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "diamond hands", "HODL", "100x"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — FOMO (fear of missing out)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — ztráty = "test víry"
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — telegram groups posilující "diamond hands"
+- [EA-5.1.18 Solipsisticka dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — "smart money" vs. "paper hands"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické bubliny
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Roky jsem si myslel, že vidím trh, který ostatní ne. Že 'guru' má speciální insight. A pak jsem zjistil, že 'guru' nikdy neukázal skutečné account, jen screenshoty. Byl to obchodní model — prodávat naději lidem, kteří chtěli věřit. A já jsem věřil tak silně, že jsem zlikvidoval vlastní rodinu."
 
-Tato narace odpovida [betrayal trauma](/glossary/betrayal-trauma/) v specificky finanční variantě.
+Tato narace odpovida [betrayal trauma](@/glossary/betrayal-trauma.md) v specificky finanční variantě.
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Investor cult ukazuje finanční koerci v digitálních platformách. Klinik mus
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/), [epistemic-bubble](/glossary/epistemic-bubble/)
-- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/), [EA-5.1.18](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
+- **Techniques**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md), [EA-5.1.18](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

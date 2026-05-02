@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — exploituje hermeneutickou flexibilitu **legitimních** teorií |
 | **Reverzibilita** | Střední — vyžaduje předchozí dokumentaci interpretačních principů |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
-**Strategická reinterpretace** je systematické **přeinterpretování evidence**, která **kontradiktuje** specifickou teorii nebo pozici, způsobem, který ji **transformuje** na **podporující** evidenci. Strukturálně **sourozenecká** vůči [EA-1.3.1 Imunizaci proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), ale s odlišným mechanismem: imunizace přidává **auxiliární hypotézy**; strategická reinterpretace **přeinterpretovává existující evidenci**.
+**Strategická reinterpretace** je systematické **přeinterpretování evidence**, která **kontradiktuje** specifickou teorii nebo pozici, způsobem, který ji **transformuje** na **podporující** evidenci. Strukturálně **sourozenecká** vůči [EA-1.3.1 Imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), ale s odlišným mechanismem: imunizace přidává **auxiliární hypotézy**; strategická reinterpretace **přeinterpretovává existující evidenci**.
 
 Klíčový mechanismus: **exploitace inherentní interpretační flexibility** empirických dat, kombinovaná s **rekurzivní hermeneutickou adjustací**. Stejná data, která původně byla čtena jako "**proti**" teorii, jsou zpětně čtena jako "**pro**" — bez explicitního přiznání, že interpretace se změnila.
 
@@ -210,10 +210,10 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 ### Často se kombinuje s
 
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — sourozenecká: imunizace přidává hypotézy, reinterpretace přepisuje meaning evidence.
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — když reinterpretace selhává, diverze přesměrovává od kontradiktorní evidence.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — modifikace definic + reinterpretace evidence se vzájemně posilují.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emocionální tlak proti zpochybnění reinterpretace.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — sourozenecká: imunizace přidává hypotézy, reinterpretace přepisuje meaning evidence.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — když reinterpretace selhává, diverze přesměrovává od kontradiktorní evidence.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — modifikace definic + reinterpretace evidence se vzájemně posilují.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální tlak proti zpochybnění reinterpretace.
 
 ### Eskaluje do
 
@@ -233,16 +233,16 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.3):
-  - [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-  - [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
+  - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -252,10 +252,10 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -267,4 +267,4 @@ Intervence: Pre-registered outcome criteria; structured clinical decision rules.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

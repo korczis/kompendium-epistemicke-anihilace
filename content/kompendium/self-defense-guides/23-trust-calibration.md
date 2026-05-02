@@ -52,19 +52,19 @@ Příliš opatrná kalibrace brání hlubokým vztahům. Někdy je nutné riskov
 
 ## Cross-linky
 
-- [Nastavování hranic](/kompendium/self-defense-guides/21-boundary-setting/) — sebe-obrana (sociální)
-- [Audit vztahů](/kompendium/self-defense-guides/22-relationship-audit/) — sebe-obrana (sociální)
-- [Asertivní komunikace](/kompendium/self-defense-guides/24-communication-assertiveness/) — sebe-obrana (sociální)
-- [Diverzifikace sítě](/kompendium/self-defense-guides/25-network-diversification/) — sebe-obrana (sociální)
-- [Metakognitivní monitoring](/kompendium/self-defense-guides/1-metacognitive-monitoring/) — sebe-obrana (kognitivní)
-- [Emoční regulace](/kompendium/self-defense-guides/11-emotional-regulation/) — sebe-obrana (emocionální)
-- [Kurátorství zdrojů](/kompendium/self-defense-guides/31-source-curation/) — sebe-obrana (informační hygiena)
-- [Správa narativu](/kompendium/self-defense-guides/41-narrative-stewardship/) — sebe-obrana (identitní)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
+- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) — sebe-obrana (sociální)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-- [Hlavní index sebe-obrany](/kompendium/self-defense-guides/_index/)
-- [Kompendium epistemické anihilace](/kompendium/_index/)
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
 - [Akademie Prismatic](https://prismatic-reality.com/academy)
 - [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
 - [Kontakt](mailto:[e-mail odstraněn])

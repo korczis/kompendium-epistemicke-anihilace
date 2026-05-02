@@ -61,12 +61,12 @@ Konstitutivní rozpad se vyskytuje typicky po dlouhodobé intenzivní "neutčíc
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Detailní článek**: [EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)
-- **Sourozenecké techniky**: [EA-5.2.6 Transcendentální rekursivita](/kompendium/quick-reference/qr-ea-5-2-6/), [EA-5.2.7 Kategoriální disoluce](/kompendium/quick-reference/qr-ea-5-2-7/), [EA-5.1.13 Hyperreflexivita](/kompendium/quick-reference/qr-ea-5-1-13/)
-- **Glossary**: [Intencionalita](/glossary/intentionalita/), [Konstitutivní akt](/glossary/konstitutivni-akt/), [Husserl retence](/glossary/husserl-retence/), [Epoché](/glossary/epoche/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Depersonalizace](/glossary/depersonalizace/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Fenomenologická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), [Multidisciplinární tým](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
-- **Platforma**: [Decision Engine intentional structure](/hub/dd/decisions/), [NABLA Infinity konstitutivní vrstvy](/glossary/nabla-infinity/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Detailní článek**: [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
+- **Sourozenecké techniky**: [EA-5.2.6 Transcendentální rekursivita](@/kompendium/quick-reference/qr-ea-5-2-6.md), [EA-5.2.7 Kategoriální disoluce](@/kompendium/quick-reference/qr-ea-5-2-7.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md)
+- **Glossary**: [Intencionalita](@/glossary/intentionalita.md), [Konstitutivní akt](/glossary/konstitutivni-akt/), [Husserl retence](/glossary/husserl-retence/), [Epoché](@/glossary/epoche.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Depersonalizace](/glossary/depersonalizace/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Fenomenologická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+- **Platforma**: [Decision Engine intentional structure](/hub/dd/decisions/), [NABLA Infinity konstitutivní vrstvy](@/glossary/nabla-infinity.md)
 
 ---
 

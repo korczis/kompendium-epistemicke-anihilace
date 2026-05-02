@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Vysoká — kontinuální zkreslení apriorních forem |
 | **Reverzibilita** | Středně nízká — 18–36 měsíců restrukturní práce |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Apriorní deformace** je metatranscendentální technika komplementární k [EA-5.2.13 apriorní fragmentaci](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/). Zatímco fragmentace **rozbíjí** apriorní formy smyslovosti na nesouvislé úseky, deformace je **kontinuálně zkresluje** beze ztráty kontinuity. Subjekt zachovává plynulý prožitek prostoru a času, ale **prostor a čas jsou strukturně deformovány** — neproporciální, neeuklidovské, asymetrické.
+**Apriorní deformace** je metatranscendentální technika komplementární k [EA-5.2.13 apriorní fragmentaci](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md). Zatímco fragmentace **rozbíjí** apriorní formy smyslovosti na nesouvislé úseky, deformace je **kontinuálně zkresluje** beze ztráty kontinuity. Subjekt zachovává plynulý prožitek prostoru a času, ale **prostor a čas jsou strukturně deformovány** — neproporciální, neeuklidovské, asymetrické.
 
 V Kantově terminologii: *Anschauungsformen* (formy nazírání) prostor a čas jsou v korektním fungování **homogenní** a **isotropní** — stejné ve všech bodech a směrech. Apriorní deformace tuto homogenitu narušuje: některé části "trvají déle" subjektivně, některé "se vzdalují víc" prostorově, některé "běží opačně" či cyklicky.
 
@@ -69,7 +69,7 @@ Stav strukturní deformace je etablován jako *trvalý cíl praxe*. Identitárn�
 - **Trvale narušená proporcionalita** — obvyklé proporce nesedí.
 - **Pseudo-mystická interpretace** strukturní deformace.
 - **Praktická dezorientace** v navigaci a plánování.
-- **Kombinace s [EA-5.2.13](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/)** v pokročilejších stadiích.
+- **Kombinace s [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)** v pokročilejších stadiích.
 
 ## Detekční markery
 
@@ -119,14 +119,14 @@ Apriorní deformace je odlišitelná od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.13 Apriorní fragmentace](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/)** — diskrétní varianta deformace.
-- **[EA-5.2.19 Merleau-Pontyovská deformace](/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace/)** — paralelní deformace tělesnosti.
-- **[EA-5.2.26 Schemata rozpad](/kompendium/techniques/ea-5-2-26-schemata-rozpad/)** — paralelní destrukce schématismu.
-- **[EA-5.2.28 Transcendentální vakuace](/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace/)** — eskalace.
+- **[EA-5.2.13 Apriorní fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)** — diskrétní varianta deformace.
+- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — paralelní deformace tělesnosti.
+- **[EA-5.2.26 Schemata rozpad](@/kompendium/techniques/ea-5-2-26-schemata-rozpad.md)** — paralelní destrukce schématismu.
+- **[EA-5.2.28 Transcendentální vakuace](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md)** — eskalace.
 
 ### Cross-kategoriální
 
-- **[EA-5.1.* Ontologické rozpouštění](/kompendium/05-ultramari-techniky/kapitola-6/)** — eskalační následek.
+- **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — eskalační následek.
 
 ## Vztah k Prismatic platformě
 
@@ -136,16 +136,16 @@ Apriorní deformace je odlišitelná od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -156,4 +156,4 @@ Apriorní deformace je odlišitelná od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

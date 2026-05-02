@@ -78,16 +78,16 @@ Externí provider, agregace pouze ≥10 odpovědí, transparentní zveřejňová
 
 ## 6. Cross-linky
 
-- [Politika rotace týmů](/kompendium/organizational-defense/17-team-rotation-policy/)
-- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
-- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
-- [Ochrana zakládací listiny](/kompendium/organizational-defense/2-charter-protection/)
-- [Politika střetu zájmů](/kompendium/organizational-defense/3-conflict-of-interest-policy/)
-- [Mechanismus oznamovatelů](/kompendium/organizational-defense/4-whistleblower-mechanism/)
+- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
+- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
+- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
+- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
 - [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Externí provider, agregace pouze ≥10 odpovědí, transparentní zveřejňová
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

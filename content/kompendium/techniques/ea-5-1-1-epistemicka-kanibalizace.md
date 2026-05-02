@@ -28,9 +28,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
-| **Riziková úroveň** | Extrémní — strukturální poškození epistemické identity, dlouhodobé následky srovnatelné s [epistemickým traumatem](/glossary/epistemicke-trauma/) |
+| **Riziková úroveň** | Extrémní — strukturální poškození epistemické identity, dlouhodobé následky srovnatelné s [epistemickým traumatem](@/glossary/epistemicke-trauma.md) |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemické autorství v terapeutickém rámci, často 12–36 měsíců |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Na rozdíl od běžné akademické **přivlastňovací krádeže** (plagiátu) operuje kanibalizace **uvnitř vztahu** mezi subjektem a manipulátorem a pracuje s **fenomenologií autorství**: cílem není pouhé odebrání kreditu, ale **demontáž subjektovy schopnosti rozlišit vlastní epistemické zdroje** od vnějších. Proces je iterativní — každé pohlcení snižuje subjektovu kapacitu identifikovat další pohlcení.
 
-Technika je strukturálně blízká [epistemické alienaci](/glossary/epistemicka-alienace/) (subjekt se odcizuje vlastnímu poznání), ale jde dále: nejen že subjekt **nedůvěřuje** vlastnímu poznání, ale postupně **přestává prožívat vlastní poznání jako vlastní**. V terminálních stadiích vede k stavu, který literatura označuje jako *epistemický autoplagiát* — subjekt cituje vlastní myšlenku jako cizí, protože ji vnímá jako pocházející od manipulátora.
+Technika je strukturálně blízká [epistemické alienaci](@/glossary/epistemicka-alienace.md) (subjekt se odcizuje vlastnímu poznání), ale jde dále: nejen že subjekt **nedůvěřuje** vlastnímu poznání, ale postupně **přestává prožívat vlastní poznání jako vlastní**. V terminálních stadiích vede k stavu, který literatura označuje jako *epistemický autoplagiát* — subjekt cituje vlastní myšlenku jako cizí, protože ji vnímá jako pocházející od manipulátora.
 
 ## Operační modus
 
@@ -91,7 +91,7 @@ Co prožívá subjekt **uvnitř** epistemické kanibalizace:
 | **Citační inverze** | Subjekt cituje manipulátora jako zdroj idejí, které ve skutečnosti formuloval/a sám/sama |
 | **Epistemický autoplagiát** | Při novém formulování vlastní staré myšlenky pocit "kradu od manipulátora" |
 
-V pokročilejších stadiích kombinace s [EA-5.1.2 konceptuální nihilací](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/) a [EA-5.1.3 reflexivní paradoxií](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/) vede k úplné **epistemické singularitě**: subjekt prožívá manipulátora jako jediný legitimní zdroj poznání.
+V pokročilejších stadiích kombinace s [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) a [EA-5.1.3 reflexivní paradoxií](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) vede k úplné **epistemické singularitě**: subjekt prožívá manipulátora jako jediný legitimní zdroj poznání.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -183,15 +183,15 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 
 ### Často se kombinuje s
 
-- **[EA-5.1.2 Konceptuální nihilace](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/)** — pohlcení autorství je usnadněno destabilizací konceptu autorství samého.
-- **[EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)** — když se subjekt pokusí reflektovat vlastní pohlcení, paradoxní struktury reflexe ho paralyzují.
-- **[EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)** — reframování subjektových idejí v manipulátorových pojmech je akademickou variantou kanibalizace.
+- **[EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — pohlcení autorství je usnadněno destabilizací konceptu autorství samého.
+- **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — když se subjekt pokusí reflektovat vlastní pohlcení, paradoxní struktury reflexe ho paralyzují.
+- **[EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — reframování subjektových idejí v manipulátorových pojmech je akademickou variantou kanibalizace.
 - **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)** — guru-adept vztah je strukturálním rámcem dlouhodobé kanibalizace.
 
 ### Eskaluje do
 
-- **Úplná epistemická singularita** — terminální stav, kdy je subjekt epistemicky neoddělitelný od manipulátora ([Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)).
-- **Generační kanibalizace** — kanibalizovaný subjekt sám začne kanibalizovat dalších, replikuje vzorec ([Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)).
+- **Úplná epistemická singularita** — terminální stav, kdy je subjekt epistemicky neoddělitelný od manipulátora ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
+- **Generační kanibalizace** — kanibalizovaný subjekt sám začne kanibalizovat dalších, replikuje vzorec ([Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -203,33 +203,33 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) provenance ledger** — každé tvrzení v rozhodovacím procesu má **kryptograficky podepsanou** linii autorství s timestampy, což činí retrospektivní reframování technicky neproveditelným.
-- **[NABLA Infinity](/glossary/nabla-infinity/) authorship invariants** — epistemický pipeline zachovává atribuci napříč všemi transformacemi; ztráta atribuce je flagována jako anomálie.
-- **[Color Teams](/glossary/color-teams/) red-team protocol** — periodická revize asymetrických intelektuálních vztahů v rámci Prismatic operací s explicitní detekcí kanibalizačních vzorců.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) authorship invariants** — epistemický pipeline zachovává atribuci napříč všemi transformacemi; ztráta atribuce je flagována jako anomálie.
+- **[Color Teams](@/glossary/color-teams.md) red-team protocol** — periodická revize asymetrických intelektuálních vztahů v rámci Prismatic operací s explicitní detekcí kanibalizačních vzorců.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.2 Konceptuální nihilace](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/)
-  - [EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)
+  - [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
+  - [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 - **Příbuzné akademické techniky**:
-  - [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
+  - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
   - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)
-  - [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
+  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Epistemická alienace](/glossary/epistemicka-alienace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -239,10 +239,10 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -254,4 +254,4 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

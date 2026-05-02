@@ -61,12 +61,12 @@ Manifestuje se nejčastěji v PhD supervizi (mentor publikuje subjektovy ideje),
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.1 Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
-- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](/kompendium/quick-reference/qr-ea-5-1-2/), [EA-5.1.3 Reflexivní paradoxie](/kompendium/quick-reference/qr-ea-5-1-3/), [EA-5.1.9 Identitní dezintegrace](/kompendium/quick-reference/qr-ea-5-1-9/)
-- **Glossary**: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), [Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
-- **Platforma**: [Decision Engine — provenance ledger](/hub/dd/decisions/), [NABLA Infinity authorship invariants](/glossary/nabla-infinity/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1 Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
+- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.3 Reflexivní paradoxie](@/kompendium/quick-reference/qr-ea-5-1-3.md), [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md)
+- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+- **Platforma**: [Decision Engine — provenance ledger](/hub/dd/decisions/), [NABLA Infinity authorship invariants](@/glossary/nabla-infinity.md)
 
 ---
 

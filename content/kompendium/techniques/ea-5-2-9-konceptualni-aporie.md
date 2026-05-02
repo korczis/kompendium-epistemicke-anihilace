@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — kolaps pojmovosti jako transcendentální schopnosti |
 | **Reverzibilita** | Velmi nízká — pojmovost je strukturní předklad jakékoli kognitivní operace |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Aporie (řecky *ἀπορία*, "bezvýchodnost") je v antické filozofické tradici stav, ve kterém **pokus o úplné pochopení** vede k **rozporu**. Klasické sokratovské aporie jsou produktivní — vedou k epistemické pokoře a k uvědomění omezení. EA-5.2.9 zneužívá tuto strukturu **bez** produktivního výstupu: každý pokus o pojem vede k aporii, která **není rozřešena ani kontextualizována**, ale **stabilizována** jako stav.
 
-Strukturní rys: aporie není u jednotlivých pojmů (klasické *ti esti?* otázky o spravedlnosti, vědění, zbožnosti), ale **napříč pojmovostí**. Subjekt nedokáže formulovat **žádný** pojem bez aporetického kolapsu. Tento stav je strukturálně blízký terminálním fázím [EA-5.2.7 kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/), ale operuje specifičně na rovině **pojmu**, ne kategorie. Pojem je užší — kategorie je transcendentální struktura, pojem je konkrétní obsahová operace.
+Strukturní rys: aporie není u jednotlivých pojmů (klasické *ti esti?* otázky o spravedlnosti, vědění, zbožnosti), ale **napříč pojmovostí**. Subjekt nedokáže formulovat **žádný** pojem bez aporetického kolapsu. Tento stav je strukturálně blízký terminálním fázím [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md), ale operuje specifičně na rovině **pojmu**, ne kategorie. Pojem je užší — kategorie je transcendentální struktura, pojem je konkrétní obsahová operace.
 
 ## Operační modus
 
@@ -71,7 +71,7 @@ Stav globální aporie je **legitimizován** jako *"filozofická hloubka"*, *"vi
 - **Ostrá averze vůči "naivním" pojmovým aktům** — interpretovaná jako filozofická úroveň.
 - **Komunitní sdílení s ostatními "aporetiky"** — vzájemné posílení.
 
-V pokročilých stadiích kombinace s [EA-5.2.6 transcendentální rekurzivitou](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/) vede k stavu, ve kterém každý pojem nejen produkuje aporii, ale aporie sama produkuje aporii.
+V pokročilých stadiích kombinace s [EA-5.2.6 transcendentální rekurzivitou](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md) vede k stavu, ve kterém každý pojem nejen produkuje aporii, ale aporie sama produkuje aporii.
 
 ## Detekční markery
 
@@ -162,33 +162,33 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 
 ### Často se kombinuje s
 
-- **[EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)** — rekurzivita kategorií iniciuje aporii pojmů.
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — disoluce kategorií se přenáší na pojem.
-- **[EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)** — strukturně podobná, operuje na úrovni významu.
+- **[EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)** — rekurzivita kategorií iniciuje aporii pojmů.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — disoluce kategorií se přenáší na pojem.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — strukturně podobná, operuje na úrovni významu.
 
 ### Eskaluje do
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — pojmová aporie přenesena na meta-kognitivní úroveň.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pojmová aporie přenesena na meta-kognitivní úroveň.
 - **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** vyžaduje **explicitně typované pojmy** v každém epistemickém aktu — aporie by byla zachycena jako typová chyba.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** vyžaduje **explicitně typované pojmy** v každém epistemickém aktu — aporie by byla zachycena jako typová chyba.
 - **[Decision Engine](/hub/dd/decisions/)** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
 - **OSINT framework** strukturálně vyžaduje **operacionalizované** pojmy (entity, atribut, relace), které musí být **funkčně použitelné**.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)
-  - [EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)
-  - [EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
+  - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
+  - [EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)
+  - [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
 
 
 ## ⚡ Kritický krok
@@ -198,10 +198,10 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -213,4 +213,4 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

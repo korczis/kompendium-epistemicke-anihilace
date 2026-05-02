@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L5 (ultramarine) |
 | **Riziková úroveň** | Extrémní — zasahuje samotnou kapacitu rozlišovat, postupuje pod prahem detekce |
 | **Reverzibilita** | Nízká — rekonstrukce ztracených distinkcí vyžaduje externí epistemickou referenci |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 Klíčové pojmenování — **diferenciální** vs. *globální* — záměrně podtrhuje, že nejde o útok na **obsah** myšlení, nýbrž na jeho **strukturu rozlišování**. Subjekt si stále myslí, stále hovoří, stále reaguje — ale **rozdíly**, které dříve činily jeho myšlení informativním, postupně mizí.
 
-Diferenciální nihilace je **prerekvizitou** několika dalších ultramarine technik (zejména [EA-5.1.23 asymptotické dezintegrace](/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace/) a [EA-5.1.24 epistemické vakuace](/kompendium/techniques/ea-5-1-24-epistemicka-vakuace/)) — bez kolapsu distinkcí by nemohlo dojít k terminálnímu vakuu, neboť subjekt by stále disponoval nástroji k rekonstrukci pole.
+Diferenciální nihilace je **prerekvizitou** několika dalších ultramarine technik (zejména [EA-5.1.23 asymptotické dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md) a [EA-5.1.24 epistemické vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md)) — bez kolapsu distinkcí by nemohlo dojít k terminálnímu vakuu, neboť subjekt by stále disponoval nástroji k rekonstrukci pole.
 
 ## Operační modus
 
@@ -76,7 +76,7 @@ Co prožívá subjekt **uvnitř** diferenciální nihilace:
 - **Diskomfort** při konfrontaci s textem, který distinkce **stále drží** — text je prožíván jako "zbytečně komplikovaný"
 - V pokročilém stadiu **inkapacita** rekonstruovat distinkce, i když je o ně subjekt explicitně požádán
 
-V kombinaci s [EA-1.4.2 latentní emocionální modulací](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) může subjektivní úleva eskalovat do **aktivní averze** vůči jemně členěnému diskurzu.
+V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může subjektivní úleva eskalovat do **aktivní averze** vůči jemně členěnému diskurzu.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -159,14 +159,14 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — souběžně s nihilací distinkcí jsou vnášeny **nadbytečné** termíny, jež zaplňují uvolněné místo bez rozlišovací funkce.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — averze vůči jemnosti je upevňována afektivně.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — texty držící distinkce jsou ze subjektova horizontu vyřazovány.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — souběžně s nihilací distinkcí jsou vnášeny **nadbytečné** termíny, jež zaplňují uvolněné místo bez rozlišovací funkce.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — averze vůči jemnosti je upevňována afektivně.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — texty držící distinkce jsou ze subjektova horizontu vyřazovány.
 
 ### Eskaluje do
 
-- **[EA-5.1.23 Asymptotická dezintegrace](/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace/)** — kolaps distinkcí umožňuje **plynulou** trajektorii destrukce bez detekovatelných skoků.
-- **[EA-5.1.24 Epistemická vakuace](/kompendium/techniques/ea-5-1-24-epistemicka-vakuace/)** — bez distinkcí mizí i možnost rekonstrukce epistemických základů.
+- **[EA-5.1.23 Asymptotická dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md)** — kolaps distinkcí umožňuje **plynulou** trajektorii destrukce bez detekovatelných skoků.
+- **[EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md)** — bez distinkcí mizí i možnost rekonstrukce epistemických základů.
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -180,22 +180,22 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.23 Asymptotická dezintegrace](/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace/)
-  - [EA-5.1.24 Epistemická vakuace](/kompendium/techniques/ea-5-1-24-epistemicka-vakuace/)
+  - [EA-5.1.23 Asymptotická dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md)
+  - [EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Kognitivní zploštění](/glossary/kognitivni-zplosteni/)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -205,10 +205,10 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -220,4 +220,4 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

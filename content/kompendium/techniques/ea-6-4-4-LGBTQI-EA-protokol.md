@@ -32,7 +32,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
-| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice
 
@@ -239,7 +239,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Adaptace [EA-6.3.6 narativní rekonstrukce](/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce/), kompatibilní s [EA-6.2.5 narrative therapy](/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol/), navazuje [EA-6.3.7 identitní rekonstituci](/kompendium/techniques/ea-6-3-7-identitni-rekonstituce/).
+Adaptace [EA-6.3.6 narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md), kompatibilní s [EA-6.2.5 narrative therapy](@/kompendium/techniques/ea-6-2-5-narrative-therapy-protokol.md), navazuje [EA-6.3.7 identitní rekonstituci](@/kompendium/techniques/ea-6-3-7-identitni-rekonstituce.md).
 
 ## Vztah k Prismatic platformě
 
@@ -254,33 +254,33 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Sesterské techniky (6.4 Vulnerabilní populace)
 
-- [EA-6.4.1 Děti — vývojově-senzitivní protokol](/kompendium/techniques/ea-6-4-1-deti-protokol/)
-- [EA-6.4.2 Post-cult protokol](/kompendium/techniques/ea-6-4-2-post-cult-protokol/)
-- [EA-6.4.3 Uprchlík/migrant protokol](/kompendium/techniques/ea-6-4-3-uprchlik-protokol/)
-- [EA-6.4.5 Veterán/voják protokol](/kompendium/techniques/ea-6-4-5-vetersko-protokol/)
-- [EA-6.4.6 Domácí násilí (DV) protokol](/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol/)
-- [EA-6.4.7 Policejní trauma protokol](/kompendium/techniques/ea-6-4-7-policejni-trauma-protokol/)
-- [EA-6.4.8 Zdravotníci — burnout protokol](/kompendium/techniques/ea-6-4-8-zdravotnici-burnout-protokol/)
-- [EA-6.4.9 Novináři protokol](/kompendium/techniques/ea-6-4-9-novinari-protokol/)
-- [EA-6.4.10 Aktivisti protokol](/kompendium/techniques/ea-6-4-10-aktivisti-protokol/)
+- [EA-6.4.1 Děti — vývojově-senzitivní protokol](@/kompendium/techniques/ea-6-4-1-deti-protokol.md)
+- [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md)
+- [EA-6.4.3 Uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md)
+- [EA-6.4.5 Veterán/voják protokol](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md)
+- [EA-6.4.6 Domácí násilí (DV) protokol](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md)
+- [EA-6.4.7 Policejní trauma protokol](@/kompendium/techniques/ea-6-4-7-policejni-trauma-protokol.md)
+- [EA-6.4.8 Zdravotníci — burnout protokol](@/kompendium/techniques/ea-6-4-8-zdravotnici-burnout-protokol.md)
+- [EA-6.4.9 Novináři protokol](@/kompendium/techniques/ea-6-4-9-novinari-protokol.md)
+- [EA-6.4.10 Aktivisti protokol](@/kompendium/techniques/ea-6-4-10-aktivisti-protokol.md)
 
 ### Rodičovská kapitola
 
-- [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
 ### Glosář
 
-- [c-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Epistemická trauma](/glossary/epistemicke-trauma/)
-- [Gaslighting](/glossary/gaslighting/)
-- [Iatrogenní harm](/glossary/iatrogenic-harm/)
-- [Disociace](/glossary/disociace/)
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/)
+- [c-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Epistemická trauma](@/glossary/epistemicke-trauma.md)
+- [Gaslighting](@/glossary/gaslighting.md)
+- [Iatrogenní harm](@/glossary/iatrogenic-harm.md)
+- [Disociace](@/glossary/disociace.md)
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md)
 
 ### Prismatic platforma
 
 - [Prismatic Nabla](/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
 - [OSINT toolbox](/osint/toolbox/) — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
 - [Decision Engine](/hub/dd/decisions/) — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](/academy/) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci

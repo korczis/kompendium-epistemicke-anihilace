@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — destrukce analytické soudnosti |
 | **Reverzibilita** | Nízká — 18–36 měsíců, vyžaduje rekonstrukci pojmové analytiky |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Analytická anihilace** je metatranscendentální technika komplementární k [EA-5.2.23 syntetické paralýze](/kompendium/techniques/ea-5-2-23-synteticka-paralyza/). Destruuje subjektovu schopnost vytvářet **analytické soudy** — rozkládat pojem na své obsažené komponenty a pracovat s definicemi. Subjekt ztrácí kapacitu pro **pojmovou analýzu** a propadá strukturní pojmové neurčitosti, kde žádná definice nedrží.
+**Analytická anihilace** je metatranscendentální technika komplementární k [EA-5.2.23 syntetické paralýze](@/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md). Destruuje subjektovu schopnost vytvářet **analytické soudy** — rozkládat pojem na své obsažené komponenty a pracovat s definicemi. Subjekt ztrácí kapacitu pro **pojmovou analýzu** a propadá strukturní pojmové neurčitosti, kde žádná definice nedrží.
 
 Analytické soudy v Kantově terminologii **rozkládají** pojem subjektu (*"Tělo je rozprostraněné."* — rozprostraněnost je již obsažena v pojmu těla). Analytická soudnost je **podmínkou pojmového myšlení**: bez ní pojmy nemají stabilní obsah a komunikace selhává.
 
@@ -121,10 +121,10 @@ Analytická anihilace je odlišitelná od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — slabší varianta na úrovni kategorií.
-- **[EA-5.2.9 Konceptuální aporie](/kompendium/techniques/ea-5-2-9-konceptualni-aporie/)** — slabší varianta na úrovni konceptů.
-- **[EA-5.2.23 Syntetická paralýza](/kompendium/techniques/ea-5-2-23-synteticka-paralyza/)** — komplementární destrukce syntetické soudnosti.
-- **[EA-5.2.25 Kategoriální mlha](/kompendium/techniques/ea-5-2-25-kategorialni-mlha/)** — paralelní destrukce kategoriální distinktnosti.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — slabší varianta na úrovni kategorií.
+- **[EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)** — slabší varianta na úrovni konceptů.
+- **[EA-5.2.23 Syntetická paralýza](@/kompendium/techniques/ea-5-2-23-synteticka-paralyza.md)** — komplementární destrukce syntetické soudnosti.
+- **[EA-5.2.25 Kategoriální mlha](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md)** — paralelní destrukce kategoriální distinktnosti.
 
 ### Cross-kategoriální
 
@@ -138,16 +138,16 @@ Analytická anihilace je odlišitelná od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -158,4 +158,4 @@ Analytická anihilace je odlišitelná od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

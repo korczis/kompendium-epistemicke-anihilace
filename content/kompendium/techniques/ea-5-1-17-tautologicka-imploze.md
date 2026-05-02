@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L4 (ultramarinní — vyžaduje supervizi) |
 | **Riziková úroveň** | Ultramarinní — produkuje subjekta, který "ví hodně", ale nezná nic |
 | **Reverzibilita** | Nízká — subjekt **prožívá** tautologie jako hluboké vhledy, takže odmítá intervenci |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 
 Termín "imploze" odkazuje na **vnitřní zhroucení obsahu**: zdánlivá znalost se vyprazdňuje zevnitř, zatímco vnější forma (jazyk, struktura argumentu, terminologická hustota) zůstává nedotčená. Subjekt mluví, jako by věděl mnoho — ale po formální analýze se ukáže, že každé jeho tvrzení je v podstatě tautologií **A = A** v různých převlecích.
 
-Tato technika je formálním protějškem [EA-5.1.16 inferenční paralýzy](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/): zatímco paralýza zastavuje inferenci, imploze umožňuje **zdánlivě bohatou** inferenční aktivitu, která však **nepřidává obsah**.
+Tato technika je formálním protějškem [EA-5.1.16 inferenční paralýzy](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md): zatímco paralýza zastavuje inferenci, imploze umožňuje **zdánlivě bohatou** inferenční aktivitu, která však **nepřidává obsah**.
 
 ## Operační modus
 
@@ -174,13 +174,13 @@ Kruh praktikující "vědomí čistého vědomí". Adepti po letech reportovali 
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — privilegovaný slovník je strukturálním předpokladem imploze
-- **[EA-5.1.16 Inferenční paralýza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/)** — paralýza brání úniku z tautologického kruhu
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — filtrace tradic schopných implozi rozbít
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — privilegovaný slovník je strukturálním předpokladem imploze
+- **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — paralýza brání úniku z tautologického kruhu
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace tradic schopných implozi rozbít
 
 ### Eskaluje do
 
-- **[EA-5.1.18 Solipsistická dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)** — pokud tautologie zní pouze v subjektu, může se externí svět stát "neexistujícím"
+- **[EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)** — pokud tautologie zní pouze v subjektu, může se externí svět stát "neexistujícím"
 - **Kolektivní epistemická delegitimizace** — komunity tautologicky implodovaných subjektů ztrácejí schopnost komunikace s vnějším světem
 
 ### Alternativy / podobné, ale **distinktivní**
@@ -198,31 +198,31 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.16 Inferenční paralýza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/)
-  - [EA-5.1.18 Solipsistická dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)
+  - [EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)
+  - [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
 - **Sesterské UM techniky**:
-  - [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-  - [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
+  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -232,10 +232,10 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -247,4 +247,4 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -51,14 +51,14 @@ Klíčové koncepty: **safety net**, **iterativní consent**, **companion presen
 
 ## 6. Související
 
-- [04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [05 — Ultramarinní techniky](/kompendium/05-ultramari-techniky/)
-- [Quick Reference: Safety](/kompendium/quick-reference/)
-- [Glossary: Ultramari](/kompendium/glossary-bridges/)
-- [Klinika](/kompendium/06-klinicke-aplikace/)
-- [Case studies: terminální + ultramari](/kompendium/case-studies/)
-- [Visualizations: Sequence](/kompendium/visualizations/)
-- [Techniques](/kompendium/techniques/)
+- [04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [05 — Ultramarinní techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Quick Reference: Safety](@/kompendium/quick-reference/_index.md)
+- [Glossary: Ultramari](@/kompendium/glossary-bridges/_index.md)
+- [Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Case studies: terminální + ultramari](@/kompendium/case-studies/_index.md)
+- [Visualizations: Sequence](@/kompendium/visualizations/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
 
 ## 8. Sekvenční pojistka: nikdy ultramari bez terminálního pohotovostního plánu
 
@@ -71,4 +71,4 @@ Bridge zdůrazňuje **sekvenční pojistku**: před každým ultramari sezením 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

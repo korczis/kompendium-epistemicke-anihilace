@@ -26,7 +26,7 @@ Restrikce přístupu vychází ze tří základních úvah:
 2. **Princip institucionálního ukotvení** — přístup je primárně poskytován skrze instituci (nikoli individuálně), čímž se distribuuje odpovědnost a vytvářejí se strukturální záruky.
 3. **Princip kontinuálního etického dohledu** — přístup není jednorázovou událostí, ale **trvalým vztahem** s povinností periodické rekvalifikace a etické revize.
 
-Detailní operační rámec těchto principů je uveden v dokumentu [Bezpečnostní klasifikace přístupu](/kompendium/01-predmluva/bezpecnostni-klasifikace/), který definuje čtyři přístupové úrovně L1–L4.
+Detailní operační rámec těchto principů je uveden v dokumentu [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md), který definuje čtyři přístupové úrovně L1–L4.
 
 ## Primární cílová skupina
 
@@ -83,7 +83,7 @@ Akademičtí pracovníci odpovědní za výuku pokročilých témat, kteří moh
 
 ### 5. Specializovaní bezpečnostní analytici a Color Teams
 
-Operátoři [Color Teams](/glossary/color-teams/) Prismatic platformy a analogických bezpečnostních struktur, jejichž profesní rolí je defenzivní detekce a neutralizace epistemicky manipulativních operací. Tato kategorie byla doplněna do primární skupiny v reakci na rostoucí potřebu specializované obrany proti dezinformačním a vlivovým operacím.
+Operátoři [Color Teams](@/glossary/color-teams.md) Prismatic platformy a analogických bezpečnostních struktur, jejichž profesní rolí je defenzivní detekce a neutralizace epistemicky manipulativních operací. Tato kategorie byla doplněna do primární skupiny v reakci na rostoucí potřebu specializované obrany proti dezinformačním a vlivovým operacím.
 
 ## Speciální kategorie s omezeným přístupem
 
@@ -126,11 +126,11 @@ Pro získání přístupu musí potenciální uživatel:
 1. **Doložit profesní kvalifikaci** a institucionální afiliaci
 2. **Podepsat právně závazné prohlášení** o zachování důvěrnosti
 3. **Absolvovat orientační školení** ohledně etických aspektů (typicky 8 hodin pro L1, 16 hodin pro L2, 40 hodin pro L3, 80+ hodin pro L4)
-4. **Explicitně se zavázat** k dodržování [etických směrnic](/kompendium/01-predmluva/eticke-aspekty/)
+4. **Explicitně se zavázat** k dodržování [etických směrnic](@/kompendium/01-predmluva/eticke-aspekty.md)
 5. **Souhlasit s pravidelnými kontrolami** využití materiálu
 6. **Doložit aktivní supervizi** odpovídající úrovni přístupu
 
-Detailní procedurální rámec viz [Bezpečnostní klasifikace přístupu](/kompendium/01-predmluva/bezpecnostni-klasifikace/).
+Detailní procedurální rámec viz [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md).
 
 ## Institucionální odpovědnost
 
@@ -154,16 +154,16 @@ V souladu s fundamentálním principem **primum non nocere** je nezbytné zajist
 
 ## Související
 
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Etické aspekty a upozornění](/kompendium/01-predmluva/eticke-aspekty/)
-- [Jak používat toto kompendium](/kompendium/01-predmluva/jak-pouzivat/)
-- [Bezpečnostní klasifikace přístupu](/kompendium/01-predmluva/bezpecnostni-klasifikace/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
-- [Definice epistemické a kognitivní anihilace](/kompendium/02-uvod/definice/)
-- [Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Philosophy: Boundary Ethics](/philosophy/boundary-ethics/)
-- [Glossary: Color Teams](/glossary/color-teams/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
+- [Bezpečnostní klasifikace přístupu](@/kompendium/01-predmluva/bezpecnostni-klasifikace.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
+- [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
+- [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická reintegrace](/glossary/epistemicka-reintegrace/)
 
 
@@ -171,7 +171,7 @@ V souladu s fundamentálním principem **primum non nocere** je nezbytné zajist
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/), a víš, **kdy
+[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
@@ -183,4 +183,4 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

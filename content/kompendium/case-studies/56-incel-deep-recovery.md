@@ -43,20 +43,20 @@ Exit byl iniciovan suicidalní krizí a hospitalizací. Hospitalizační kontakt
 
 ## EA techniky manifestovane
 
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — incel slang ("blackpill", "femoid", "looksmaxxing")
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "Chad nebo incel" jako jediné kategorie
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — bolest osamělosti jako emoční kotva
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kazda zkušenost = "incel theory"
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — fora jako pseudo-validace
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — anonymní "veteráni" jako autority
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — identita redukovaná na sexualní status
-- [EA-1.2.2 Falesna ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) — nepravdivá generalizace ze osobní zkušenosti
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — incel slang ("blackpill", "femoid", "looksmaxxing")
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "Chad nebo incel" jako jediné kategorie
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — bolest osamělosti jako emoční kotva
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kazda zkušenost = "incel theory"
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — fora jako pseudo-validace
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — anonymní "veteráni" jako autority
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — identita redukovaná na sexualní status
+- [EA-1.2.2 Falesna ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — nepravdivá generalizace ze osobní zkušenosti
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Roky jsem si myslel, že vidím pravdu, kterou ostatní popírají. Že žensky jsou zlé, že muži jsou utlačováni, že já jsem oběť genetiky. A pak terapeut mi řekl: 'A teď zkus přemýšlet o tom, kdo má prospěch z toho, abys to věřil.' A někde se mi rozsypal celý systém. Byl jsem v odpadlickém klubu, který profitoval z mé bolesti."
 
-Tato narace odpovida [metakognitivni rekonstrukci](/glossary/metakognitivni-destrukce/) a uvedení [betrayal trauma](/glossary/betrayal-trauma/).
+Tato narace odpovida [metakognitivni rekonstrukci](@/glossary/metakognitivni-destrukce.md) a uvedení [betrayal trauma](@/glossary/betrayal-trauma.md).
 
 ## Detekcni bod
 
@@ -80,11 +80,11 @@ Incel deep recovery vyžaduje terapeuta, který se vyzná v subkulturní rétori
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/), [EA-1.2.2](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md), [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

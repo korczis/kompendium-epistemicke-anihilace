@@ -40,8 +40,8 @@ Pojmenování čerpá z **apofatické** (negativní) teologie — autentické tr
 
 Apofatické zacyklení je **strukturálně odlišné** od ostatních technik epistemické singularity:
 
-- [EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/) paralyzuje **rekurzí** nad kognicí.
-- [EA-5.1.14 Iluzorní transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/) paralyzuje **falešným zaplněním** všech otázek.
+- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) paralyzuje **rekurzí** nad kognicí.
+- [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) paralyzuje **falešným zaplněním** všech otázek.
 - **Apofatické zacyklení** paralyzuje **vyprázdněním** všech možných odpovědí.
 
 ## Operační modus
@@ -81,7 +81,7 @@ Co prožívá subjekt **uvnitř** apofatického zacyklení:
 - **Neschopnost odpovědět na konkrétní otázku** — odpověď je vždy "ne tak jednoduché"
 - **Růst sociální izolace** — subjekt přestává komunikovat, protože komunikace **vyžaduje** pozitivní obsah
 
-V pokročilejších stadiích kombinace s [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) může produkovat **chronickou depresivní stagnaci**.
+V pokročilejších stadiích kombinace s [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **chronickou depresivní stagnaci**.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -184,7 +184,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 ### Často se kombinuje s
 
 - **[EA-1.3.4 Indukovaná pochybnost](/kompendium/techniques/ea-1-3-4-indukovana-pochybnost/)** — pochybnost je **bránou** do apofatického zacyklení; po dosažení dostatečně rozšířené pochybnosti se aktivuje plošná negace.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — negace je afektivně barvená "klidem" nebo "hloubkou", což zvyšuje rezistenci vůči korekci.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — negace je afektivně barvená "klidem" nebo "hloubkou", což zvyšuje rezistenci vůči korekci.
 - **EA-5.1.13 Hyperreflexivita** — sesterská technika; obě sdílejí strukturu epistemické paralýzy, ovšem mechanismus je odlišný (rekurze vs. negace).
 - **EA-5.1.14 Iluzorní transcendence** — strukturní inverze; obě produkují stáze, ovšem opačnými mechanismy (vyprázdnění vs. zaplnění).
 
@@ -209,24 +209,24 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
-  - [EA-5.1.14 Iluzorní transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/)
+  - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
+  - [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
 - **Příbuzné techniky**:
   - [EA-1.3.4 Indukovaná pochybnost](/kompendium/techniques/ea-1-3-4-indukovana-pochybnost/)
-  - [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Apofatický modus](/glossary/apofaticky-modus/)
   - [Epistemická stáze](/glossary/epistemicka-staze/)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -236,10 +236,10 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -251,4 +251,4 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

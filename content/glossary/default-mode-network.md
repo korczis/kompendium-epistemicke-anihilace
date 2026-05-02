@@ -35,13 +35,13 @@ Platform-level defenses include: (1) detecting interaction patterns suggestive o
 
 ## See Also
 
-- [Prefrontal Cortex](/glossary/prefrontal-cortex/) — DMN includes the mPFC node
-- [Mental Models](/glossary/mental-models/) — Cognitive schemas DMN constructs
-- [Schema Theory](/glossary/schema-theory/) — Theoretical framework for DMN function
-- [Interoception](/glossary/interoception/) — Body-state signal that anchors DMN-self
-- [Trauma Spectrum](/glossary/trauma-spectrum/) — Conditions with DMN dysconnectivity
-- [Dissociative Spectrum](/glossary/dissociative-spectrum/) — Acute DMN disruption
-- [Kompendium](/kompendium/) — EA technique taxonomy
+- [Prefrontal Cortex](@/glossary/prefrontal-cortex.md) — DMN includes the mPFC node
+- [Mental Models](@/glossary/mental-models.md) — Cognitive schemas DMN constructs
+- [Schema Theory](@/glossary/schema-theory.md) — Theoretical framework for DMN function
+- [Interoception](@/glossary/interoception.md) — Body-state signal that anchors DMN-self
+- [Trauma Spectrum](@/glossary/trauma-spectrum.md) — Conditions with DMN dysconnectivity
+- [Dissociative Spectrum](@/glossary/dissociative-spectrum.md) — Acute DMN disruption
+- [Kompendium](@/kompendium/_index.md) — EA technique taxonomy
 
 ---
 
@@ -50,4 +50,4 @@ Platform-level defenses include: (1) detecting interaction patterns suggestive o
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

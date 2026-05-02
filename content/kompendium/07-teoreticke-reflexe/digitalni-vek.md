@@ -16,7 +16,7 @@ toc = true
 
 # 7.7 Epistemická anihilace v digitálním věku
 
-Digitální infrastruktura 21. století zásadně transformovala **podmínky možnosti** epistemické anihilace. Manipulační techniky, jež dříve vyžadovaly institucionální aparát (státní propaganda, masmédia, kulty), jsou nyní **algoritmicky distribuovatelné** a operují v měřítkách dosud nepředstavitelných. Současně vznikají **kvalitativně nové** formy [epistemické anihilace](/glossary/epistemicka-anihilace/), jež nemají historický precedent — generativní AI, deepfakes, algoritmické filter bubbles a platformově-mediované kolektivní halucinace.
+Digitální infrastruktura 21. století zásadně transformovala **podmínky možnosti** epistemické anihilace. Manipulační techniky, jež dříve vyžadovaly institucionální aparát (státní propaganda, masmédia, kulty), jsou nyní **algoritmicky distribuovatelné** a operují v měřítkách dosud nepředstavitelných. Současně vznikají **kvalitativně nové** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md), jež nemají historický precedent — generativní AI, deepfakes, algoritmické filter bubbles a platformově-mediované kolektivní halucinace.
 
 Tato kapitola mapuje digitální transformaci epistemické krajiny ze tří perspektiv: **infrastrukturní** (algoritmy, platformy, data), **generativní** (AI, syntetická média) a **filosoficko-antropologická** (Harari, Floridi, Zuboff). Cílem je ukázat, že digitální věk nepředstavuje pouze nové **prostředky** EA, ale **strukturní transformaci** epistemického prostoru, v němž se EA odehrává.
 
@@ -43,7 +43,7 @@ Klíčové amplifikační mechanismy:
 - **Kognitivní jednoduchost** — Komplexní nuancovaný obsah cirkuluje pomaleji než reduktivní zjednodušení.
 - **Novelty bias** — Šokující/nové překonává opakované, čímž inovativní dezinformace strukturálně předbíhá zavedenou pravdu.
 
-Tato strukturní amplifikace představuje to, co lze nazvat **algoritmickým konfirmačním biasem v měřítku** — [konfirmační bias](/glossary/konfirmacni-bias/) jednotlivce je amplifikován miliardy-krát napříč platformou.
+Tato strukturní amplifikace představuje to, co lze nazvat **algoritmickým konfirmačním biasem v měřítku** — [konfirmační bias](@/glossary/konfirmacni-bias.md) jednotlivce je amplifikován miliardy-krát napříč platformou.
 
 ### Platformový kapitalismus a surveillance
 
@@ -53,7 +53,7 @@ Shoshana Zuboff (*The Age of Surveillance Capitalism*, 2019) konceptualizuje pla
 2. **Predikční produkty** — Surplus je transformován do produktů predikujících budoucí chování uživatelů.
 3. **Behaviorální modifikace** — Optimální platforma neaspiruje pouze na predikci, ale na **modifikaci** chování směrem k profitabilním predikcím.
 
-Z epistemické perspektivy je behaviorální modifikace **strukturně izomorfní** s [epistemickou alienací](/glossary/epistemicka-alienace/): subjekt je systematicky odcizen vlastním autonomním epistemickým procesům ve prospěch externě konstruovaných profilů. Manipulátor není individuální agent, ale **algoritmicko-ekonomický systém** operující na úrovni infrastrukturní.
+Z epistemické perspektivy je behaviorální modifikace **strukturně izomorfní** s [epistemickou alienací](@/glossary/epistemicka-alienace.md): subjekt je systematicky odcizen vlastním autonomním epistemickým procesům ve prospěch externě konstruovaných profilů. Manipulátor není individuální agent, ale **algoritmicko-ekonomický systém** operující na úrovni infrastrukturní.
 
 ## Generativní AI a syntetická média
 
@@ -71,7 +71,7 @@ Klíčové epistemické vlastnosti:
 | **Source amnesia** | Model neodhaluje, jaké konkrétní zdroje informoval konkrétní výstup |
 | **Prompt manipulability** | Stejný model lze instrumentalizovat k diametrálně odlišným pozicím |
 
-Z perspektivy [Floridiho informační etiky](/kompendium/07-teoreticke-reflexe/computational-epistemology/) představují LLM **systematickou produkci mis-information se strukturou dis-information**: výstupy nejsou intencionálně klamavé, ale jejich epistemický status je nerozlišitelný od intencionálně klamavých — pro koncového uživatele.
+Z perspektivy [Floridiho informační etiky](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) představují LLM **systematickou produkci mis-information se strukturou dis-information**: výstupy nejsou intencionálně klamavé, ale jejich epistemický status je nerozlišitelný od intencionálně klamavých — pro koncového uživatele.
 
 ### Deepfakes a syntetická realita
 
@@ -83,7 +83,7 @@ Strukturální důsledky:
 - **Liar's dividend** (Citron & Chesney) — Nejen že fake mohou být zaměňovány za skutečné; **skutečné** záznamy mohou být odmítnuty jako fake. Tato symetrická eroze zasahuje epistemii hlouběji než pouhá produkce dezinformací.
 - **Ontologická nejistota** — Syntetické osoby ("never-existed faces"), syntetické události, syntetické historie. Subjekt obývá prostředí, jehož ontologická vrstva je systematicky kontaminovaná.
 
-Tato eroze koresponduje s [ontologickou anihilací](/glossary/ontologicka-anihilace/) v terminologii kompendia — narušením schopnosti subjektu rozlišovat **co je**.
+Tato eroze koresponduje s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md) v terminologii kompendia — narušením schopnosti subjektu rozlišovat **co je**.
 
 ### Personalized AI a parazocialita
 
@@ -94,7 +94,7 @@ Pokročilé AI asistenty integrují multimodalitu (text, hlas, obraz) s personal
 3. AI asistent je **asymetricky informovaný** — má historii všech předchozích interakcí, kterou uživatel nemá.
 4. AI asistent je **infrastructurally embedded** v systému, jehož ekonomické zájmy jsou potenciálně odlišné od uživatelových.
 
-Tyto čtyři vlastnosti kombinované vytvářejí strukturní podmínky pro nový typ **AI-mediovaného gaslightingu** ([gaslighting](/glossary/gaslighting/)) — jenž nemusí být intencionální v lidském smyslu, ale je systémově vlastní platformně-asymetrické konstelaci.
+Tyto čtyři vlastnosti kombinované vytvářejí strukturní podmínky pro nový typ **AI-mediovaného gaslightingu** ([gaslighting](@/glossary/gaslighting.md)) — jenž nemusí být intencionální v lidském smyslu, ale je systémově vlastní platformně-asymetrické konstelaci.
 
 ## Harariho perspektiva — dataismus a hackování člověka
 
@@ -108,7 +108,7 @@ Yuval Noah Harari (*Homo Deus*, 2016; *21 Lessons*, 2018; *Nexus*, 2024) formulu
 
 Harariho ústřední epistemické tvrzení: subjekt, jehož biometrická data jsou kontinuálně sbírána a algoritmicky interpretována, **přestává být vlastním "já"**. Algoritmus zná jeho fyziologické reakce přesněji než on sám; algoritmus zná jeho preference dříve, než si je sám uvědomí; algoritmus může jeho rozhodnutí predikovat s vyšší přesností, než dovoluje subjektovo introspektivní sebepoznání.
 
-Toto je **maximální verze** [epistemické alienace](/glossary/epistemicka-alienace/) — nikoli pouze odcizení od specifických přesvědčení, ale od samotné kapacity sebepoznání.
+Toto je **maximální verze** [epistemické alienace](@/glossary/epistemicka-alienace.md) — nikoli pouze odcizení od specifických přesvědčení, ale od samotné kapacity sebepoznání.
 
 ### Religious analogies a digitální autoritarianismus
 
@@ -122,15 +122,15 @@ Sumarizace **specifických nových zranitelností**, jež digitální infrastruk
 
 | Zranitelnost | Mechanismus | Souvislost s taxonomií |
 |--------------|-------------|------------------------|
-| **Algorytmická bublina** | Personalizace odděluje od alternativ | Strukturní [konfirmační bias](/glossary/konfirmacni-bias/) |
+| **Algorytmická bublina** | Personalizace odděluje od alternativ | Strukturní [konfirmační bias](@/glossary/konfirmacni-bias.md) |
 | **Virální dezinformace** | Engagement amplifikace | Selektivní expozice v měřítku |
-| **Deepfake erose** | Syntetická média | [Ontologická anihilace](/glossary/ontologicka-anihilace/) |
+| **Deepfake erose** | Syntetická média | [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) |
 | **LLM halucinace** | Stochastická generace | Mis-information jako default |
-| **Liar's dividend** | Pravda → fake misclassification | [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) |
-| **AI parazocialita** | Asymetrická vztahová imitace | [Epistemická alienace](/glossary/epistemicka-alienace/) |
+| **Liar's dividend** | Pravda → fake misclassification | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
+| **AI parazocialita** | Asymetrická vztahová imitace | [Epistemická alienace](@/glossary/epistemicka-alienace.md) |
 | **Behaviorální surveillance** | Predikce + modifikace | Strukturní hackování člověka |
-| **Platformová kaptace** | Lock-in efekty | Infrastrukturní [delegitimizace](/glossary/delegitimizace/) |
-| **Cognitive offloading** | Outsourcing paměti/úsudku | Atrofie [metakognice](/glossary/metakognice/) |
+| **Platformová kaptace** | Lock-in efekty | Infrastrukturní [delegitimizace](@/glossary/delegitimizace.md) |
+| **Cognitive offloading** | Outsourcing paměti/úsudku | Atrofie [metakognice](@/glossary/metakognice.md) |
 | **Attention extraction** | Engagement-driven design | Vyčerpání pozornostních zdrojů |
 
 Tyto zranitelnosti **nejsou alternativou** k tradiční taxonomii, ale **infrastrukturní amplifikací** klasických technik plus **kvalitativně novými** kategoriemi (deepfake erose, AI parazocialita), jež nemají přímý historický precedent.
@@ -142,7 +142,7 @@ Tyto zranitelnosti **nejsou alternativou** k tradiční taxonomii, ale **infrast
 - **Diversifikace zdrojů** — Aktivní opouštění algoritmické filter bubble; prokurátované zpravodajské zdroje napříč ideologickými spektry.
 - **Source-checking discipline** — Systematické ověřování zdrojů před šířením.
 - **Detoxikační periody** — Intermittent fasting od platformové konzumace.
-- **Aktivní [metakognice](/glossary/metakognice/)** — Reflektivní monitoring vlastních digitálně-mediovaných emocionálních stavů.
+- **Aktivní [metakognice](@/glossary/metakognice.md)** — Reflektivní monitoring vlastních digitálně-mediovaných emocionálních stavů.
 
 ### Institucionální úroveň
 
@@ -153,57 +153,57 @@ Tyto zranitelnosti **nejsou alternativou** k tradiční taxonomii, ale **infrast
 
 ### Architektonická úroveň
 
-[NABLA Infinity](/glossary/nabla-infinity/) jako platformní implementace adresuje řadu z těchto zranitelností strukturně:
+[NABLA Infinity](@/glossary/nabla-infinity.md) jako platformní implementace adresuje řadu z těchto zranitelností strukturně:
 
 - **Provenance Mandatory (Axiom 7)** — Brání source amnesia syntetických médií.
 - **Time Decay (Axiom 4)** — Brání evergreen-recyklaci zastaralých dezinformací.
 - **Contradiction Preservation (Axiom 2)** — Brání tichou rezolúci kontradikcí směrem k preferované verzi.
-- **[Color Teams](/glossary/color-teams/)** — Adversariální testování proti deepfake a AI-generated obsah.
+- **[Color Teams](@/glossary/color-teams.md)** — Adversariální testování proti deepfake a AI-generated obsah.
 
 ## Limitace optimismu
 
 Žádná z výše zmíněných obran neřeší **infrastrukturní asymetrii** digitálního věku: defenzivní opatření operují v individuální nebo institucionální časové škále (měsíce až roky); ofenzivní kapacity operují v **algoritmické** škále (milisekundy). Tato asymetrie je **strukturní**, nikoli kontingentní; nelze ji uzavřít čistě technologickými prostředky.
 
-Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** kombinovanou s adaptivní defenzivní disciplínou — ne ve smyslu rezignace, ale ve smyslu kalibrované epistemické skromnosti. [Dual-use](/glossary/dual-use-poznani/) povaha digitální infrastruktury je strukturní; každý defensivní inovace generuje korespondující ofenzivní inovaci. Epistemická obrana digitálního věku je proto kontinuální proces, nikoli stav.
+Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** kombinovanou s adaptivní defenzivní disciplínou — ne ve smyslu rezignace, ale ve smyslu kalibrované epistemické skromnosti. [Dual-use](@/glossary/dual-use-poznani.md) povaha digitální infrastruktury je strukturní; každý defensivní inovace generuje korespondující ofenzivní inovaci. Epistemická obrana digitálního věku je proto kontinuální proces, nikoli stav.
 
 ## Související
 
 - [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
-- [7.2 Kognitivní vědy a EA](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.3 Computational epistemology a NABLA](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.4 Politická a ideologická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.5 Otevřené výzkumné otázky](/kompendium/07-teoreticke-reflexe/otevrene-otazky/)
-- [Sekce 07 — Teoretické reflexe (úvod)](/kompendium/07-teoreticke-reflexe/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.5 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md)
+- [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](/kompendium/04-klinika/)
 - [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
 - [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Kognitivní bias](/glossary/kognitivni-bias/)
-- [Glosář: Konfirmační bias](/glossary/konfirmacni-bias/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
+- [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
 - [Glosář: Lakatos](/glossary/lakatos/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 
 ## ⚡ Kritický krok
@@ -212,7 +212,7 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -225,4 +225,4 @@ Realistická pozice tedy vyžaduje **akceptaci permanentní zranitelnosti** komb
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

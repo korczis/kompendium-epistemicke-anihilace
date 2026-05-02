@@ -166,27 +166,27 @@ Tyto závazky nejsou apriori prokázány — jsou **regulativními východisky**
 
 ## Související
 
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [2.2 Historický kontext](/kompendium/02-uvod/historicky-kontext/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.4 Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
-[definici epistemické anihilace](/glossary/epistemicka-anihilace/) a zapiš si ji
+[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
 referenční bod pro detekci vlastního posunu pochopení.
@@ -200,4 +200,4 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

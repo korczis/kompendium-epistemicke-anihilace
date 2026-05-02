@@ -78,16 +78,16 @@ Triangulace dat (survey + exits + sick days + turnover), longitudinal tracking, 
 
 ## 6. Cross-linky
 
-- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
-- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
 - [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
-- [Ochrana akcionářů](/kompendium/organizational-defense/9-shareholder-protection/)
-- [Zapojení stakeholderů](/kompendium/organizational-defense/10-stakeholder-engagement/)
-- [Sledovatelnost rozhodnutí](/kompendium/organizational-defense/21-decision-traceability/)
-- [Struktura jednání](/kompendium/organizational-defense/22-meeting-structure/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
+- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Triangulace dat (survey + exits + sick days + turnover), longitudinal tracking, 
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

@@ -34,23 +34,23 @@ Provenance-based defenses (C2PA content credentials, hardware-anchored capture a
 Within the Prismatic Platform, deepfakes are modeled as a **first-class threat vector** in several subsystems:
 
 - The [Decision Engine](/hub/dd/decisions/) Source Assessment stage applies provenance-confidence scoring to ingested audiovisual evidence; unsigned media from low-trust channels are downweighted regardless of apparent content.
-- [NABLA Infinity](/glossary/nabla-infinity/) implements multi-modal cross-checks: claims attested by single-channel evidence (video only, audio only) carry lower epistemic weight than multi-channel corroboration with independent provenance.
-- [Color Teams](/glossary/color-teams/) Red Team scenarios include deepfake-enabled attack patterns: synthetic-CEO fraud, fabricated political endorsements, false-flag testimonial videos.
-- The Kompendium catalogues deepfake-enabled techniques under **EA-1.2 (epistemic falsification)** with cross-references at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) regarding the philosophical implications for testimonial epistemology.
-- [Hyperreality](/glossary/hyperreality/) — Baudrillard's concept — is increasingly literal under deepfake saturation: simulacra precede and replace the real.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) implements multi-modal cross-checks: claims attested by single-channel evidence (video only, audio only) carry lower epistemic weight than multi-channel corroboration with independent provenance.
+- [Color Teams](@/glossary/color-teams.md) Red Team scenarios include deepfake-enabled attack patterns: synthetic-CEO fraud, fabricated political endorsements, false-flag testimonial videos.
+- The Kompendium catalogues deepfake-enabled techniques under **EA-1.2 (epistemic falsification)** with cross-references at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) regarding the philosophical implications for testimonial epistemology.
+- [Hyperreality](@/glossary/hyperreality.md) — Baudrillard's concept — is increasingly literal under deepfake saturation: simulacra precede and replace the real.
 
 Deepfakes are not merely a "fake content" problem; they are a **systemic erosion of audiovisual evidence** as a category, with downstream consequences for journalism, law, intelligence, and interpersonal trust.
 
 ## See Also
 
-- [Epistemic Security](/glossary/epistemic-security/) — Field studying systemic threats to collective cognition
-- [Info-Ops](/glossary/info-ops/) — Military-grade information operations
-- [Firehose of Falsehood](/glossary/firehose-of-falsehood/) — Adjacent disinformation technique
-- [Hyperreality](/glossary/hyperreality/) — Baudrillardian frame for synthetic reality
-- [Delegitimizace](/glossary/delegitimizace/) — Liar's-dividend dynamics
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [NABLA Infinity](/glossary/nabla-infinity/) — Platform multi-modal cross-checking
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemic Security](@/glossary/epistemic-security.md) — Field studying systemic threats to collective cognition
+- [Info-Ops](@/glossary/info-ops.md) — Military-grade information operations
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Adjacent disinformation technique
+- [Hyperreality](@/glossary/hyperreality.md) — Baudrillardian frame for synthetic reality
+- [Delegitimizace](@/glossary/delegitimizace.md) — Liar's-dividend dynamics
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Platform multi-modal cross-checking
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -59,4 +59,4 @@ Deepfakes are not merely a "fake content" problem; they are a **systemic erosion
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

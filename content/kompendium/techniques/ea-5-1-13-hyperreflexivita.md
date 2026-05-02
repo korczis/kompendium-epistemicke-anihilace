@@ -76,7 +76,7 @@ Co prožívá subjekt **uvnitř** hyperreflexivity:
 - **Subjektivní zpomalení času** — každý okamžik se zdá nabitý nesplněnou reflexivní povinností
 - **Vyčerpání bez výkonu** — subjekt je kognitivně unavený, aniž by reálně cokoli dokončil
 
-V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) může produkovat **chronickou úzkost** a depersonalizační symptomy.
+V pokročilejších stadiích kombinace s [EA-1.4.2 latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může produkovat **chronickou úzkost** a depersonalizační symptomy.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -178,7 +178,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 ### Často se kombinuje s
 
 - **[EA-1.3.2 Sokratovská past](/kompendium/techniques/ea-1-3-2-sokratovska-past/)** — řetězec metaotázek je strukturálně podobný a může eskalovat do hyperreflexivity.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — úzkost potencuje paralýzu, paralýza potencuje úzkost.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — úzkost potencuje paralýzu, paralýza potencuje úzkost.
 - **EA-5.1.14 Iluzorní transcendence** — sesterská technika; v případech, kdy hyperreflexivita produkuje **iluzi vhledu** namísto paralýzy.
 - **EA-5.1.15 Apofatické zacyklení** — sesterská technika; obě sdílejí strukturu epistemické stáze, ale mechanismus je odlišný.
 
@@ -202,23 +202,23 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.14 Iluzorní transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/)
-  - [EA-5.1.15 Apofatické zacyklení](/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni/)
+  - [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
+  - [EA-5.1.15 Apofatické zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md)
 - **Příbuzné techniky**:
   - [EA-1.3.2 Sokratovská past](/kompendium/techniques/ea-1-3-2-sokratovska-past/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Metakognice](/glossary/metakognice/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Metakognice](@/glossary/metakognice.md)
   - [Rekurzivní paralýza](/glossary/rekurzivni-paralyza/)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -228,10 +228,10 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -243,4 +243,4 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

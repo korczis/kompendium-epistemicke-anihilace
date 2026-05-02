@@ -17,14 +17,14 @@ toc = true
 
 ## Účel a klinická pozice
 
-Standardizované self-report instrumenty (viz [6.1.1 Screeningové instrumenty](/kompendium/06-klinicke-aplikace/screening-instrumenty-detail/)) poskytují **kvantitativní** signály, ale klinická validace [epistemické anihilace](/glossary/epistemicka-anihilace/) (EA) vyžaduje **kvalitativní** rekonstrukci pacientovy informační historie, mocenských vztahů a metakognitivní kapacity. Tento protokol — Semi-Structured Interview for Epistemic Annihilation (SSI-EA) — strukturuje klinický rozhovor do šesti modulů.
+Standardizované self-report instrumenty (viz [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)) poskytují **kvantitativní** signály, ale klinická validace [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) vyžaduje **kvalitativní** rekonstrukci pacientovy informační historie, mocenských vztahů a metakognitivní kapacity. Tento protokol — Semi-Structured Interview for Epistemic Annihilation (SSI-EA) — strukturuje klinický rozhovor do šesti modulů.
 
 ## Pre-interview podmínky
 
 Před administrací protokolu musí být splněno:
 
 1. **Bezpečné prostředí** — pacient není pod aktivním vlivem in-group autorit;
-2. **Stabilita** — bez akutní psychotické dekompenzace, suicidality D5 (viz [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/));
+2. **Stabilita** — bez akutní psychotické dekompenzace, suicidality D5 (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md));
 3. **Informovaný souhlas** — pacient rozumí účelu (mapování informačního prostředí, ne soudní vyšetřování);
 4. **Časový rámec** — 90–120 minut, doporučeno 2 setkání;
 5. **Záznam** — audio se souhlasem, nebo strukturované poznámky.
@@ -42,7 +42,7 @@ Před administrací protokolu musí být splněno:
 - Jak často konzumujete obsah, který je v rozporu s vašimi přesvědčeními?
 - Změnilo se vaše informační prostředí v posledních 3 letech?
 
-**Klinické vodítko**: ≥70% relevantních informací z **jednoho zdroje** = silný signál EA-1.x.x ([selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)).
+**Klinické vodítko**: ≥70% relevantních informací z **jednoho zdroje** = silný signál EA-1.x.x ([selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)).
 
 ## Modul 2: Mocenské vztahy a závislosti (20–25 min)
 
@@ -57,7 +57,7 @@ Před administrací protokolu musí být splněno:
 - Měl/a jste pocit, že vaše paměť události se odlišuje od toho, co vám druzí říkali?
 - Cítíte, že někdo "vykonává péči" o váš obraz reality?
 
-**Klinické vodítko**: pozitivní odpovědi na ≥3 položky = silný signál [coercive control](/glossary/coercive-control/) nebo [gaslightingu](/glossary/gaslighting/).
+**Klinické vodítko**: pozitivní odpovědi na ≥3 položky = silný signál [coercive control](@/glossary/coercive-control.md) nebo [gaslightingu](@/glossary/gaslighting.md).
 
 ## Modul 3: Metakognitivní kapacita (15–20 min)
 
@@ -118,7 +118,7 @@ Před administrací protokolu musí být splněno:
 
 Po dokončení rozhovoru klinik:
 
-1. **Skóruje** klastry A–D (viz [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/));
+1. **Skóruje** klastry A–D (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md));
 2. **Tringuluje** s self-report instrumenty (kongruence ≥70%);
 3. **Konzultuje** [collateral interview](/kompendium/06-klinicke-aplikace/collateral-interview-protokol/) (rodina, přátelé) **pouze se souhlasem**;
 4. **Dokumentuje** v reálných slovech pacienta — verbatim citace 5–7 klíčových výpovědí.
@@ -138,12 +138,12 @@ Strukturované poznámky z SSI-EA lze importovat do [DD Decision Engine](/hub/dd
 
 ## Související
 
-- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.1.1 Screeningové instrumenty](/kompendium/06-klinicke-aplikace/screening-instrumenty-detail/)
+- [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)
 - [6.1.5 Collateral interview protokol](/kompendium/06-klinicke-aplikace/collateral-interview-protokol/)
 - [6.1.13 Biographical timeline rekonstrukce](/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce/)
-- [Sekce 03](/kompendium/03-zakladni-kategorie/) | [Sekce 04](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Gaslighting](/glossary/gaslighting/) | [Coercive control](/glossary/coercive-control/) | [Metakognice](/glossary/metakognice/)
+- [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | [Sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md) | [Coercive control](@/glossary/coercive-control.md) | [Metakognice](@/glossary/metakognice.md)
 
 ---
 
@@ -152,4 +152,4 @@ Strukturované poznámky z SSI-EA lze importovat do [DD Decision Engine](/hub/dd
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

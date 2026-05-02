@@ -28,9 +28,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.1 Epistemická singularita |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
-| **Riziková úroveň** | Extrémní — destrukce kapacity k metakognici, stav srovnatelný s [metakognitivní destrukcí](/glossary/metakognitivni-destrukce/) a [kognitivní anti-rekurzivitou](/glossary/kognitivni-anti-rekurzivita/) |
+| **Riziková úroveň** | Extrémní — destrukce kapacity k metakognici, stav srovnatelný s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md) |
 | **Reverzibilita** | Velmi nízká — obnovení produktivní sebereflexe vyžaduje strukturovanou metakognitivní rehabilitaci, typicky 24–60 měsíců |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -42,7 +42,7 @@ Na rozdíl od běžné nadměrné introspekce, která pouze **zpomaluje** myšle
 - *"Pokud jsem manipulován, mohu rozpoznat manipulaci? A pokud myslím, že nejsem, není to právě důsledek manipulace?"*
 - *"Kdo to ve mně reflektuje? A kdo reflektuje toho, kdo reflektuje?"*
 
-V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/) a [EA-5.1.2 konceptuální nihilací](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/) tvoří reflexivní paradoxie jádro **epistemické singularity** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
+V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **epistemické singularity** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
 
 ## Operační modus
 
@@ -84,7 +84,7 @@ Subjekt prožívá paradox nikoli jako **filozofickou kuriozitu**, ale jako **ex
 
 ### Krok 5 — Substituce externího meta-arbitra
 
-Manipulátor nabízí **externí výstup**: nikoli řešení paradoxu, ale **vlastní arbitráž**. *"Já vidím tvé myšlení zvenčí. Můžu ti říct, kdy jsi v pravém režimu, a kdy ne."* Subjekt přijímá manipulátora jako **externí meta-vědomí**, protože vlastní metakognitivní operace je paralyzována. Tím vzniká struktura, kterou literatura označuje jako [epistemickou alienaci](/glossary/epistemicka-alienace/) v terminálním tvaru — subjekt **delegoval** vlastní metakognici.
+Manipulátor nabízí **externí výstup**: nikoli řešení paradoxu, ale **vlastní arbitráž**. *"Já vidím tvé myšlení zvenčí. Můžu ti říct, kdy jsi v pravém režimu, a kdy ne."* Subjekt přijímá manipulátora jako **externí meta-vědomí**, protože vlastní metakognitivní operace je paralyzována. Tím vzniká struktura, kterou literatura označuje jako [epistemickou alienaci](@/glossary/epistemicka-alienace.md) v terminálním tvaru — subjekt **delegoval** vlastní metakognici.
 
 ## Fenomenologické znaky
 
@@ -100,7 +100,7 @@ Co prožívá subjekt **uvnitř** reflexivní paradoxie:
 | **Strach z vlastního přesvědčení** | Subjekt se učí **neformulovat** přesvědčení, protože každé je následováno meta-otázkou |
 | **Estetizace nerozhodnutelnosti** | V raných stadiích subjekt prožívá paradoxnost jako sofistikaci — "konečně myslím dostatečně hluboko" |
 
-V pokročilých stadiích kombinace s [konceptuální nihilací](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/) způsobuje, že subjekt **nedokáže** ani formulovat otázku, jestli má manipulátorovi věřit — pojem *věřit* je destabilizován a metakognitivní operace, která by ho aplikovala, je paralyzována.
+V pokročilých stadiích kombinace s [konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) způsobuje, že subjekt **nedokáže** ani formulovat otázku, jestli má manipulátorovi věřit — pojem *věřit* je destabilizován a metakognitivní operace, která by ho aplikovala, je paralyzována.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -191,15 +191,15 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 
 ### Často se kombinuje s
 
-- **[EA-5.1.1 Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)** — když subjekt nedokáže metakognitivně rozlišit vlastní produkci, je snazší ji pohltit.
-- **[EA-5.1.2 Konceptuální nihilace](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/)** — destabilizované pojmy generují produktivnější paradoxy.
+- **[EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — když subjekt nedokáže metakognitivně rozlišit vlastní produkci, je snazší ji pohltit.
+- **[EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — destabilizované pojmy generují produktivnější paradoxy.
 - **[EA-1.2.x Argumentační oslabení](/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni/)** — paradoxní pole inhibuje subjektovu schopnost argumentovat.
 - **[EA-1.4.x Latentní emocionální modulace](/kompendium/techniques/ea-1-4-1-latentni-podbarveni/)** — metakognitivní úzkost je emocionálním palivem techniky.
 
 ### Eskaluje do
 
-- **[Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)** — terminální stav, v němž subjekt nedokáže provést žádnou rekurzivní kognitivní operaci.
-- **Úplná epistemická singularita** — terminální konvergence všech tří 5.1 technik s úplnou delegací epistemické agency manipulátorovi ([Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)).
+- **[Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)** — terminální stav, v němž subjekt nedokáže provést žádnou rekurzivní kognitivní operaci.
+- **Úplná epistemická singularita** — terminální konvergence všech tří 5.1 technik s úplnou delegací epistemické agency manipulátorovi ([Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)).
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -211,36 +211,36 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) hierarchical typing** — rozhodovací logika operuje na **explicitně typovaných úrovních**, které brání rekurzivním zhroucením; meta-validace je oddělená od operativních rozhodnutí.
-- **[NABLA Infinity](/glossary/nabla-infinity/) anti-recursion safeguards** — epistemický pipeline detekuje pokusy o nekonečnou regresi v reflexivních operacích a uzavírá je explicitním pragmatickým rozhodnutím.
-- **[Color Teams](/glossary/color-teams/) blue-team metakognitive review** — pravidelná revize, zda interní procesy Prismatic neprodukují metakognitivní paralýzu u operátorů, zejména v doktrinálních a tréninkových kontextech.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) anti-recursion safeguards** — epistemický pipeline detekuje pokusy o nekonečnou regresi v reflexivních operacích a uzavírá je explicitním pragmatickým rozhodnutím.
+- **[Color Teams](@/glossary/color-teams.md) blue-team metakognitive review** — pravidelná revize, zda interní procesy Prismatic neprodukují metakognitivní paralýzu u operátorů, zejména v doktrinálních a tréninkových kontextech.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.1 Epistemická kanibalizace](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)
-  - [EA-5.1.2 Konceptuální nihilace](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/)
+  - [EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)
+  - [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
 - **Příbuzné akademické techniky**:
   - [EA-1.2.1 Argumentační oslabení](/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
   - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Epistemická alienace](/glossary/epistemicka-alienace/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -250,10 +250,10 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -265,4 +265,4 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

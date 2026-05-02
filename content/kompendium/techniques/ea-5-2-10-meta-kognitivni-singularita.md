@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — terminální zhroucení meta-kognitivní funkce |
 | **Reverzibilita** | Téměř nulová bez radikální klinické intervence; 36–72 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -52,7 +52,7 @@ Subjekt je veden k **iterativní reflexi reflexe**: *"Co si myslíš o tom, co s
 
 ### Krok 3 — Saturace iterací
 
-Subjekt je veden k **dlouhým iterativním sériím** metakognitivního obratu. Každá iterace zatěžuje kapacitu **stabilizovat metakognitivní akt**. Strukturálně podobné [EA-5.2.6 transcendentální rekurzivitě](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/), ale operuje **specificky** na metakognitivní úrovni.
+Subjekt je veden k **dlouhým iterativním sériím** metakognitivního obratu. Každá iterace zatěžuje kapacitu **stabilizovat metakognitivní akt**. Strukturálně podobné [EA-5.2.6 transcendentální rekurzivitě](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md), ale operuje **specificky** na metakognitivní úrovni.
 
 ### Krok 4 — Indukce kolapsu do singulárního bodu
 
@@ -160,10 +160,10 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 ### Často se kombinuje s
 
-- **[EA-5.2.1 Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)** — meta-úroveň byla nejprve invertována, pak imploduje.
-- **[EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)** — strukturně blízká, ale operuje na úrovni kategorií, ne metakognice.
-- **[EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)** — terminální stav rekurze.
-- **[EA-5.2.2 Transcendentální iluze](/kompendium/techniques/ea-5-2-2-transcendentalni-iluze/)** — pseudo-realizace jako iniciační rámec.
+- **[EA-5.2.1 Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)** — meta-úroveň byla nejprve invertována, pak imploduje.
+- **[EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)** — strukturně blízká, ale operuje na úrovni kategorií, ne metakognice.
+- **[EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)** — terminální stav rekurze.
+- **[EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)** — pseudo-realizace jako iniciační rámec.
 
 ### Eskaluje do
 
@@ -171,25 +171,25 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/) calibration** — celá platforma je založena na **diferenciované** metakognici (kalibrované konfidenci); singularita by byla zachycena jako **strukturní porucha** kalibrace.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) calibration** — celá platforma je založena na **diferenciované** metakognici (kalibrované konfidenci); singularita by byla zachycena jako **strukturní porucha** kalibrace.
 - **[Decision Engine](/hub/dd/decisions/) outcome processor** — pravidelná **konfrontace** předpovědí s realitou vynucuje metakognitivní revizi.
 - **OSINT framework's source-confidence matrix** — strukturní vyžadování **diferencované** jistoty napříč zdroji.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.1 Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)
-  - [EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)
-  - [EA-5.2.9 Konceptuální aporie](/kompendium/techniques/ea-5-2-9-konceptualni-aporie/)
-  - [EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)
+  - [EA-5.2.1 Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)
+  - [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)
+  - [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
+  - [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
 
 ## ⚡ Kritický krok
@@ -199,10 +199,10 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -214,4 +214,4 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

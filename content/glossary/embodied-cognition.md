@@ -29,19 +29,19 @@ For epistemic security, the consequence is decisive. Knowledge is not a set of p
 
 ## Context
 
-In the Prismatic Platform's threat model, embodied cognition explains why **somatic dimensions of [Epistemická anihilace](/glossary/epistemicka-anihilace/)** are not "side effects" but core damage. Several EA techniques in the [Kompendium](/kompendium/) operate primarily through somatic disruption rather than propositional persuasion: chronic threat induction (sympathetic overdrive), shame conditioning (interoceptive collapse), sleep disruption, and forced cognitive load against vagal capacity. These are documented in [Kompendium → Somatické vektory](/kompendium/04-mechanismy/somaticke-vektory/) and link to specific techniques in the EA-1.6.x and EA-3.x families.
+In the Prismatic Platform's threat model, embodied cognition explains why **somatic dimensions of [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** are not "side effects" but core damage. Several EA techniques in the [Kompendium](@/kompendium/_index.md) operate primarily through somatic disruption rather than propositional persuasion: chronic threat induction (sympathetic overdrive), shame conditioning (interoceptive collapse), sleep disruption, and forced cognitive load against vagal capacity. These are documented in [Kompendium → Somatické vektory](/kompendium/04-mechanismy/somaticke-vektory/) and link to specific techniques in the EA-1.6.x and EA-3.x families.
 
 The platform's [Decision Engine](/hub/dd/decisions/) treats reports of somatic dysregulation in subjects as a **negative confidence signal** for any decision based on the subject's stated beliefs — an enactivist correction against the cognitivist fallacy that "what they say they believe" is detachable from "what state their body is in when they say it." Recovery protocols documented at [/kompendium/06-zotaveni/](/kompendium/06-zotaveni/) integrate somatic-phenomenological work (Hanna, Levine, Porges) with classical cognitive therapy.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Damage to epistemic structures including their somatic ground
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive process damage parallel to embodied disruption
-- [Lebenswelt](/glossary/lebenswelt/) — Husserlian lifeworld as horizon for embodied experience
-- [Intentionalita](/glossary/intentionalita/) — Phenomenological "aboutness" rooted in body
-- [Metakognice](/glossary/metakognice/) — Reflective monitoring depends on intact interoception
-- [Narrative Trauma](/glossary/narrative-trauma/) — Somatic-narrative damage in EA recovery
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Damage to epistemic structures including their somatic ground
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive process damage parallel to embodied disruption
+- [Lebenswelt](@/glossary/lebenswelt.md) — Husserlian lifeworld as horizon for embodied experience
+- [Intentionalita](@/glossary/intentionalita.md) — Phenomenological "aboutness" rooted in body
+- [Metakognice](@/glossary/metakognice.md) — Reflective monitoring depends on intact interoception
+- [Narrative Trauma](@/glossary/narrative-trauma.md) — Somatic-narrative damage in EA recovery
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -50,4 +50,4 @@ The platform's [Decision Engine](/hub/dd/decisions/) treats reports of somatic d
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

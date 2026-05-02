@@ -26,7 +26,7 @@ Detekce: **playbook-driven** — na základě klasifikace EA incidentu vybere od
 
 ## Operational protocols
 
-Provoz: continuous, tasking-based. Vstup: tasks z **Strategic Command**. Výstup: **execution reports** s success/failure pro každý task. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](/kompendium/aiad-integration/quality-monitor-ea-tracking/)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: continuous, tasking-based. Vstup: tasks z **Strategic Command**. Výstup: **execution reports** s success/failure pro každý task. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 
@@ -38,19 +38,19 @@ Přijímá tasks od **Strategic Command**; deleguje konkrétní akce na **Operat
 
 ## Cross-linky
 
-- [Archer Supreme Ea Orchestration](/kompendium/aiad-integration/archer-supreme-ea-orchestration/) — peer v rámci Strategic Agents
-- [Supreme Commander Ea Strategy](/kompendium/aiad-integration/supreme-commander-ea-strategy/) — peer v rámci Strategic Agents
-- [Strategic Command Ea Coordination](/kompendium/aiad-integration/strategic-command-ea-coordination/) — peer v rámci Strategic Agents
-- [Operational Execution Ea Deployment](/kompendium/aiad-integration/operational-execution-ea-deployment/) — peer v rámci Strategic Agents
-- [Red Team Ea Detection](/kompendium/aiad-integration/red-team-ea-detection/) — cross-group koordinace
-- [Autoevolve Ea Pattern Evolution](/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/) — cross-group koordinace
-- [Czech Ares Ea Screening](/kompendium/aiad-integration/czech-ares-ea-screening/) — cross-group koordinace
-- [základní kategorie EA](/kompendium/03-zakladni-kategorie/) — EA taxonomie
-- [terminální protokoly](/kompendium/04-terminalni-protokoly/) — EA taxonomie
-- [ultramari techniky](/kompendium/05-ultramari-techniky/) — EA taxonomie
-- [agent-tier](/glossary/agent-tier) — platform glossary
-- [color-teams](/glossary/color-teams) — platform glossary
-- [archer-supreme glossary](/glossary/archer-supreme) — platform glossary
+- [Archer Supreme Ea Orchestration](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md) — peer v rámci Strategic Agents
+- [Supreme Commander Ea Strategy](@/kompendium/aiad-integration/supreme-commander-ea-strategy.md) — peer v rámci Strategic Agents
+- [Strategic Command Ea Coordination](@/kompendium/aiad-integration/strategic-command-ea-coordination.md) — peer v rámci Strategic Agents
+- [Operational Execution Ea Deployment](@/kompendium/aiad-integration/operational-execution-ea-deployment.md) — peer v rámci Strategic Agents
+- [Red Team Ea Detection](@/kompendium/aiad-integration/red-team-ea-detection.md) — cross-group koordinace
+- [Autoevolve Ea Pattern Evolution](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md) — cross-group koordinace
+- [Czech Ares Ea Screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) — cross-group koordinace
+- [základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md) — EA taxonomie
+- [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — EA taxonomie
+- [ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) — EA taxonomie
+- [agent-tier](@/glossary/agent-tier.md) — platform glossary
+- [color-teams](@/glossary/color-teams.md) — platform glossary
+- [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
 
 ## Connect & Contribute
 

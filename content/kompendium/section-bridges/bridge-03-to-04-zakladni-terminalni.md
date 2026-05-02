@@ -51,14 +51,14 @@ Klíčové koncepty: **diagnostická matice**, **personalizovaný exit**, **eska
 
 ## 6. Související
 
-- [03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Kategorie](/kompendium/glossary-bridges/)
-- [Quick Reference: Exit](/kompendium/quick-reference/)
-- [Klinika: Terminální](/kompendium/06-klinicke-aplikace/)
-- [Visualizations: Decision tree](/kompendium/visualizations/)
-- [Case studies](/kompendium/case-studies/)
-- [DecisionEngine](/glossary/)
+- [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Kategorie](@/kompendium/glossary-bridges/_index.md)
+- [Quick Reference: Exit](@/kompendium/quick-reference/_index.md)
+- [Klinika: Terminální](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Visualizations: Decision tree](@/kompendium/visualizations/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [DecisionEngine](@/glossary/_index.md)
 
 ## 8. Praktická matice: kategorie × terminální protokol
 
@@ -71,4 +71,4 @@ Bridge funguje jako **lookup matice**: pro každou kategorii ze sekce 03 existuj
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

@@ -55,11 +55,11 @@ těchto vrstev do soudržného systému.
 
 ## Cross-linky
 
-- [Základní kategorie útoků](/kompendium/03-zakladni-kategorie/)
-- [Ultramari techniky](/kompendium/05-ultramari-techniky/)
-- [Recovery protokoly](/kompendium/recovery-protocols/)
-- [Vzdělávací scénáře](/kompendium/educational-scenarios/)
-- [Glossary](/glossary/)
+- [Základní kategorie útoků](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Recovery protokoly](@/kompendium/recovery-protocols/_index.md)
+- [Vzdělávací scénáře](@/kompendium/educational-scenarios/_index.md)
+- [Glossary](@/glossary/_index.md)
 
 ## Connect
 

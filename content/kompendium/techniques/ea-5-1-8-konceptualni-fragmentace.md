@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext) |
 | **Riziková úroveň** | Extrémní — produkuje persistentní ztrátu holistické kompetence v dotčených doménách |
 | **Reverzibilita** | Střední; vyžaduje cílenou rekonstituci propojení mezi fragmenty |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -38,9 +38,9 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Subjekt po úspěšné fragmentaci **rozumí jednotlivým komponentům** (umí je definovat, citovat, vyložit), ale **nemůže je smysluplně zkombinovat**. Pokus o syntézu vyvolává buď zmatek, nebo arbitrární uspořádání, které postrádá funkční integritu, kterou měla původní struktura.
 
-Technika cílí na [metakognitivní vrstvu](/glossary/metakognitivni-destrukce/) — konkrétně na *integrační kapacitu* subjektova kognitivního aparátu. Neútočí na obsah, ale na vazbu, gramatiku, pojivový tmel, který činí z izolovaných znalostí použitelné porozumění.
+Technika cílí na [metakognitivní vrstvu](@/glossary/metakognitivni-destrukce.md) — konkrétně na *integrační kapacitu* subjektova kognitivního aparátu. Neútočí na obsah, ale na vazbu, gramatiku, pojivový tmel, který činí z izolovaných znalostí použitelné porozumění.
 
-V terminologii [taxonomie EA](/glossary/taxonomie-ea/) je konceptuální fragmentace komplementární k [referenční rekurzi (EA-5.1.7)](/kompendium/techniques/ea-5-1-7-referencni-rekurze/): zatímco rekurze blokuje terminaci uvažování, fragmentace blokuje agregaci. Společně produkují plnou epistemickou paralýzu.
+V terminologii [taxonomie EA](@/glossary/taxonomie-ea.md) je konceptuální fragmentace komplementární k [referenční rekurzi (EA-5.1.7)](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md): zatímco rekurze blokuje terminaci uvažování, fragmentace blokuje agregaci. Společně produkují plnou epistemickou paralýzu.
 
 ## Operační modus
 
@@ -106,7 +106,7 @@ Co prožívá subjekt **uvnitř** konceptuální fragmentace:
 - **Defekt v učení** — nové znalosti se neintegrují do funkční struktury, ale **akumulují se jako izolované položky**
 - **Zvýšená závislost** na manipulátorovi pro *„komplexní úsudky"*
 
-V kombinaci s [EA-1.4.2 latentní emocionální modulací](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) může subjekt prožívat **úzkost při syntéze** — emocionální bariéru, která dále inhibuje pokusy o reintegraci.
+V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může subjekt prožívat **úzkost při syntéze** — emocionální bariéru, která dále inhibuje pokusy o reintegraci.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -209,7 +209,7 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 
 ### Často se kombinuje s
 
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — nový, nepřehledný slovník usnadňuje fragmentaci tím, že subjekt **musí** přijmout nové pojmy.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — nový, nepřehledný slovník usnadňuje fragmentaci tím, že subjekt **musí** přijmout nové pojmy.
 - **EA-5.1.7 Referenční rekurze** — fragmentace produkuje izolované pojmy, na kterých může být následně postavena rekurzivní pasta.
 - **EA-5.1.9 Identitní dezintegrace** — když je fragmentace aplikována na sebe-pojem, výsledkem je dezintegrace identity.
 - **EA-1.3.3 Tematická diverze** — diverze udržuje subjektovu pozornost dál od integračních pokusů.
@@ -228,26 +228,26 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 
 Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní mapování:
 
-- **[NABLA Infinity](/glossary/nabla-infinity/) integration check** — provenance graf každé komplexní úvahy je analyzován na **strukturální propojenost**; izolované, nepropojené uzly jsou flagovány jako podezření na fragmentaci.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) integration check** — provenance graf každé komplexní úvahy je analyzován na **strukturální propojenost**; izolované, nepropojené uzly jsou flagovány jako podezření na fragmentaci.
 - **[Decision Engine](/hub/dd/decisions/) holistic gate** — komplexní rozhodnutí vyžaduje doložení **funkční** integrace, nikoli pouze inventáře komponent.
 - **Color Teams cross-paradigm review** — *Red Team* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.7 Referenční rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/)
-  - [EA-5.1.9 Identitní dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
+  - [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
+  - [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](/kompendium/04-operacni-principy/)
   - [Kapitola 6 — Epistemická singularita](/kompendium/06-epistemicka-singularita/)
@@ -260,10 +260,10 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -275,4 +275,4 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

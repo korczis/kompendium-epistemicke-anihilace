@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Coerce léčba a EA framework](/kompendium/critical-perspectives/16-treatment-coercion-risk/)
+- [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
 - [Důvěrnost v EA detekci](/kompendium/critical-perspectives/17-confidentiality-EA/)
 - [EA jako mocenský nástroj](/kompendium/critical-perspectives/18-EA-as-power-tool/)
 - [Mocenská asymetrie v EA aplikaci](/kompendium/critical-perspectives/14-power-asymmetry-EA/)
-- [Riziko obětování oběti](/kompendium/critical-perspectives/13-victim-blaming-risk/)
-- [Narativní medicína](/kompendium/critical-perspectives/24-narrative-medicine-alternative/)
-- [Kritická psychiatrie](/kompendium/critical-perspectives/25-critical-psychiatry-alternative/)
-- [Riziko falešně pozitivních detekcí](/kompendium/critical-perspectives/5-false-positive-risk/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Patologizace normálních variací](/kompendium/critical-perspectives/2-pathologization-critique/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)
+- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
+- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

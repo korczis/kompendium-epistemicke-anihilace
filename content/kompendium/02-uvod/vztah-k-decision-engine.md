@@ -16,7 +16,7 @@ toc = true
 
 # 2.7 Vztah ke Decision Engine a Color Teams
 
-Tato kapitola dokumentuje **operační most** mezi taxonomií epistemické anihilace a [Decision Engine](/glossary/decision-core/) Prismatic Platform. Zatímco kapitola [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/) tematizuje **epistemickou infrastrukturu** (jak se formují přesvědčení), tato kapitola tematizuje **rozhodovací vrstvu** (jak se z přesvědčení stávají konsekventní akce). Decision Engine je vrstvou, kde taxonomie EA získává **přímou operační relevanci** v due-diligence procesech, intelligence assessmentech a strategickém rozhodování.
+Tato kapitola dokumentuje **operační most** mezi taxonomií epistemické anihilace a [Decision Engine](@/glossary/decision-core.md) Prismatic Platform. Zatímco kapitola [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) tematizuje **epistemickou infrastrukturu** (jak se formují přesvědčení), tato kapitola tematizuje **rozhodovací vrstvu** (jak se z přesvědčení stávají konsekventní akce). Decision Engine je vrstvou, kde taxonomie EA získává **přímou operační relevanci** v due-diligence procesech, intelligence assessmentech a strategickém rozhodování.
 
 ## Decision Engine: architektura a doktrína
 
@@ -84,7 +84,7 @@ Provenance chain umožňuje:
 
 ## Color Teams: adversariální testování v provozu
 
-[Color Teams](/glossary/color-teams/) operují jako **strukturální adversariální vrstva** Prismatic Platform. Šest týmů (Gray, Red, Blue, Purple, White, Black) testuje robustnost Decision Engine vůči taxonomicky popsaným útokům **kontinuálně**, v isolovaném sandbox prostředí, výhradně na syntetických datech.
+[Color Teams](@/glossary/color-teams.md) operují jako **strukturální adversariální vrstva** Prismatic Platform. Šest týmů (Gray, Red, Blue, Purple, White, Black) testuje robustnost Decision Engine vůči taxonomicky popsaným útokům **kontinuálně**, v isolovaném sandbox prostředí, výhradně na syntetických datech.
 
 ### Mapování Color Teams na EA-taxonomii
 
@@ -178,28 +178,28 @@ Tato reflexivní symbióza je jádrem **evolučního charakteru** integrovaného
 
 ## Související
 
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [2.2 Historický kontext](/kompendium/02-uvod/historicky-kontext/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.4 Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Epistemic Pipeline](/glossary/epistemic-pipeline/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Decision Engine LiveView](/hub/dd/decisions/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
-[definici epistemické anihilace](/glossary/epistemicka-anihilace/) a zapiš si ji
+[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
 referenční bod pro detekci vlastního posunu pochopení.
@@ -213,4 +213,4 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

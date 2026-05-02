@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — paralýza praktického jednání skrze noumenální fixaci |
 | **Reverzibilita** | Nízká — 18–36 měsíců terapeutické restrukturalizace |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 Kant explicitně upozorňoval, že rozum **nemá oprávnění** činit pozitivní soudy o noumenech; pouze je **myslí jako mez** (Grenzbegriff). Noumenální paralýza tuto Kantovu opatrnost převrací: subjekt operuje **jako by** noumenální říše byla **zároveň skutečnější a nedostupnější**, takže veškerá fenomenální zkušenost ztrácí motivační váhu, ale **alternativa není dosažitelná**. Výsledkem je strukturální paralýza: ani ve fenomenálním světě jednat (protože je iluzorní), ani noumenálně dosáhnout (protože je nepoznatelný).
 
-Na rozdíl od [EA-5.2.3 noumenální redukce](/kompendium/techniques/ea-5-2-3-noumenalni-redukce/), která redukuje fenomény na pseudo-noumena, noumenální paralýza zachovává **kantovský dualismus**, ale zneužívá ho k destrukci motivace.
+Na rozdíl od [EA-5.2.3 noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md), která redukuje fenomény na pseudo-noumena, noumenální paralýza zachovává **kantovský dualismus**, ale zneužívá ho k destrukci motivace.
 
 ## Operační modus
 
@@ -121,14 +121,14 @@ Také odlišitelná od **klinické deprese** — depresivní pacient netvrdí, �
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.3 Noumenální redukce](/kompendium/techniques/ea-5-2-3-noumenalni-redukce/)** — opačný pohyb: noumena se "stávají" obsahem.
-- **[EA-5.2.15 Transcendentální imploze](/kompendium/techniques/ea-5-2-15-transcendentalni-implosion/)** — eskalace do kompletního kolapsu.
-- **[EA-5.2.16 Kantovská paradoxie](/kompendium/techniques/ea-5-2-16-kantovska-paradoxie/)** — exploitace dialektiky čistého rozumu.
-- **[EA-5.2.28 Transcendentální vakuace](/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace/)** — terminální stav.
+- **[EA-5.2.3 Noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md)** — opačný pohyb: noumena se "stávají" obsahem.
+- **[EA-5.2.15 Transcendentální imploze](@/kompendium/techniques/ea-5-2-15-transcendentalni-implosion.md)** — eskalace do kompletního kolapsu.
+- **[EA-5.2.16 Kantovská paradoxie](@/kompendium/techniques/ea-5-2-16-kantovska-paradoxie.md)** — exploitace dialektiky čistého rozumu.
+- **[EA-5.2.28 Transcendentální vakuace](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md)** — terminální stav.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — paralýza eskaluje do existenciálního vakua.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — paralýza eskaluje do existenciálního vakua.
 
 ## Vztah k Prismatic platformě
 
@@ -138,16 +138,16 @@ Také odlišitelná od **klinické deprese** — depresivní pacient netvrdí, �
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -158,4 +158,4 @@ Také odlišitelná od **klinické deprese** — depresivní pacient netvrdí, �
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

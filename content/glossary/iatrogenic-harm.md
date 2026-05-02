@@ -41,31 +41,31 @@ In the **EA recovery context**, iatrogenic risks are especially elevated because
 
 ## Context
 
-Within the Prismatic Platform Kompendium, iatrogenic harm is treated as a **first-class clinical concern** in the application chapter [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/). The chapter explicitly warns clinicians against several common errors:
+Within the Prismatic Platform Kompendium, iatrogenic harm is treated as a **first-class clinical concern** in the application chapter [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md). The chapter explicitly warns clinicians against several common errors:
 
 - **Premature narrative reconstruction** — pushing the client toward a coherent story before the epistemic apparatus is repaired enough to evaluate competing narratives
 - **Interpretive authority transfer** — replacing the perpetrator as "the one who knows what really happened" rather than restoring the client's own evaluative capacity
 - **Diagnosis-as-identity** — anchoring the client's self-understanding to a clinical label in ways that produce new fragility
 - **Single-modality fixation** — applying one therapeutic frame (CBT, EMDR, IFS) without integration
 
-The [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/) approach is designed in part to **minimize iatrogenic risk** by sequencing interventions: first restore source-evaluation capacity, then re-establish narrative coherence, then process specific traumatic content — never the reverse.
+The [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) approach is designed in part to **minimize iatrogenic risk** by sequencing interventions: first restore source-evaluation capacity, then re-establish narrative coherence, then process specific traumatic content — never the reverse.
 
-- [Disociace](/glossary/disociace/) and EA must be carefully distinguished; treating one as the other produces reliable iatrogenic harm.
-- [Narrative Identity](/glossary/narrative-identity/) reconstruction must be **client-led** rather than therapist-imposed.
+- [Disociace](@/glossary/disociace.md) and EA must be carefully distinguished; treating one as the other produces reliable iatrogenic harm.
+- [Narrative Identity](@/glossary/narrative-identity.md) reconstruction must be **client-led** rather than therapist-imposed.
 - The [Decision Engine](/hub/dd/decisions/) supports clinicians by surfacing differential-diagnosis indicators rather than committing to single hypotheses prematurely — a design pattern that mirrors good clinical practice.
-- [Color Teams](/glossary/color-teams/) Blue Team protocols include iatrogenic-risk audits when designing platform interventions: even technical defenses against EA can produce iatrogenic effects (e.g., aggressive content filtering inducing learned helplessness or reality-checking-dependence).
+- [Color Teams](@/glossary/color-teams.md) Blue Team protocols include iatrogenic-risk audits when designing platform interventions: even technical defenses against EA can produce iatrogenic effects (e.g., aggressive content filtering inducing learned helplessness or reality-checking-dependence).
 
 The kompendium's stance is unequivocal: an EA recovery intervention that **does not actively monitor for iatrogenic harm** is professional malpractice, not therapeutic care.
 
 ## See Also
 
-- [Disociace](/glossary/disociace/) — Differential-diagnosis counterpart
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/) — Risk-minimizing approach
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Underlying condition
-- [Narrative Identity](/glossary/narrative-identity/) — Reconstruction target
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Adjacent harm category
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Specific damage subtype
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Disociace](@/glossary/disociace.md) — Differential-diagnosis counterpart
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) — Risk-minimizing approach
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Underlying condition
+- [Narrative Identity](@/glossary/narrative-identity.md) — Reconstruction target
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Adjacent harm category
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Specific damage subtype
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -74,4 +74,4 @@ The kompendium's stance is unequivocal: an EA recovery intervention that **does 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

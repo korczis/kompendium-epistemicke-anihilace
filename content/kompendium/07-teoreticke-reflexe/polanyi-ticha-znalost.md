@@ -55,7 +55,7 @@ Pro epistemickou anihilaci to znamená:
 
 - **EA cílí na narušení indwellingu** — manipulátor systematicky **nutí subjekt** reflektovat o tom, co normálně jen "obývá", a tím paralyzuje jeho výkon.
 - **Klasický příklad**: stonožka, jež je dotázána, jak chodí — a poté nemůže chodit. Aplikace na expertní rozhodování ("a jak přesně jsi došel k závěru?") může strukturálně **paralyzovat** legitimní expertizu.
-- Sloterdijkovská **sférická imunologie** ([viz 7.1 §3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) strukturálně rezonuje s indwellingem: oba popisují **konstitutivní podmínky** kognitivní operace.
+- Sloterdijkovská **sférická imunologie** ([viz 7.1 §3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) strukturálně rezonuje s indwellingem: oba popisují **konstitutivní podmínky** kognitivní operace.
 
 ## 4. Tichý fundament vědecké komunity
 
@@ -82,7 +82,7 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) je Polanyiho rámec relevantní:
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) je Polanyiho rámec relevantní:
 
 - **Trauma** často operuje na tiché úrovni — pacient "ví, že něco není v pořádku", aniž by to uměl artikulovat.
 - **Psychoterapeutická restituce** musí znovuvybudovat tichý fundament před explicitní reflexí — nikoli naopak.
@@ -100,21 +100,21 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) je Po
 
 - Lze tichou znalost **algoritmicky** modelovat (LLMs, deep learning) — nebo je strukturálně **neredukovatelná**?
 - Jak **chránit** tichou dimenzi vědy před metric capture?
-- Jaký je vztah Polanyiho **osobního poznání** a Wittgensteinovy **formy života** ([viz 7.10](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/))?
+- Jaký je vztah Polanyiho **osobního poznání** a Wittgensteinovy **formy života** ([viz 7.10](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md))?
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.10 Wittgenstein: Jazykové hry](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)
-- [7.32 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.39 Hutchins: Distribuovaná kognice](/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+- [7.32 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.39 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -123,4 +123,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)) je Po
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

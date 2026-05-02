@@ -16,7 +16,7 @@ toc = true
 
 # 7.9 Otevřené výzkumné otázky a budoucí směry
 
-Tato závěrečná kapitola sekce 07 explicitně tematizuje **mezery** kompendia: oblasti, jež současný taxonomický rámec **nepokrývá adekvátně**, otázky, jež teprve čekají na empirickou nebo teoretickou rezolúci, a směry, jimiž by se měl výzkum [epistemické anihilace](/glossary/epistemicka-anihilace/) rozvíjet v nadcházejících letech.
+Tato závěrečná kapitola sekce 07 explicitně tematizuje **mezery** kompendia: oblasti, jež současný taxonomický rámec **nepokrývá adekvátně**, otázky, jež teprve čekají na empirickou nebo teoretickou rezolúci, a směry, jimiž by se měl výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md) rozvíjet v nadcházejících letech.
 
 Cílem není katalogizovat všechny limitace; takový seznam by byl nutně neúplný. Cílem je **identifikovat strukturní mezery** — oblasti, kde současná teorie EA selhává, a kde je proto výzkum nejvíce potřebný a potenciálně produktivní.
 
@@ -24,7 +24,7 @@ Cílem není katalogizovat všechny limitace; takový seznam by byl nutně neúp
 
 ### Problém
 
-Taxonomie [epistemické a kognitivní anihilace](/glossary/taxonomie-ea/) je formulována jako **strukturalisticky-realistický** klasifikační systém: předpokládá, že kategorie a sub-kategorie odpovídají reálným strukturním vlastnostem manipulačních fenoménů. Tento předpoklad však zůstává **empiricky nedostatečně validován**.
+Taxonomie [epistemické a kognitivní anihilace](@/glossary/taxonomie-ea.md) je formulována jako **strukturalisticky-realistický** klasifikační systém: předpokládá, že kategorie a sub-kategorie odpovídají reálným strukturním vlastnostem manipulačních fenoménů. Tento předpoklad však zůstává **empiricky nedostatečně validován**.
 
 Klíčové otázky:
 
@@ -65,7 +65,7 @@ Klíčové otevřené otázky:
 
 ### Problém
 
-Kompendium tematizuje [epistemické trauma](/glossary/epistemicke-trauma/) a obnovu po EA, ale **empirická data o dlouhodobých trajektoriích** jsou omezená. Klíčové otázky:
+Kompendium tematizuje [epistemické trauma](@/glossary/epistemicke-trauma.md) a obnovu po EA, ale **empirická data o dlouhodobých trajektoriích** jsou omezená. Klíčové otázky:
 
 1. **Spontaneous recovery** — Jaký podíl exponovaných subjektů spontánně obnovuje epistemickou integritu bez intervence?
 2. **Treatment effectiveness** — Jaké terapeutické přístupy vykazují nejlepší výsledky? Pro které specifické techniky?
@@ -76,7 +76,7 @@ Kompendium tematizuje [epistemické trauma](/glossary/epistemicke-trauma/) a obn
 
 - **20-leté kohortové studie** — Sledování exponovaných populací (např. expoziti kultů, vystupivší z totalitních států) napříč desetiletími.
 - **Treatment outcome research** — RCTs srovnávající terapeutické přístupy.
-- **Família studies** — Mezigenerační analýzy dětí přeživších [epistemicky-traumatických](/glossary/epistemicke-trauma/) kontextů.
+- **Família studies** — Mezigenerační analýzy dětí přeživších [epistemicky-traumatických](@/glossary/epistemicke-trauma.md) kontextů.
 
 ## Kolektivní subjekty
 
@@ -87,9 +87,9 @@ Kompendium explicitně přiznává (sekce 2.3): "Neaspirativně nepokrývá kole
 Klíčové otázky:
 
 1. **Kolektivní epistemický subjekt** — Lze hovořit o "epistemii" instituce, společnosti, hnutí v silném smyslu? Nebo jde o metaforické rozšíření individuálních pojmů?
-2. **Kolektivní [metakognice](/glossary/metakognice/)** — Existuje analogie metakognitivních operací na institucionální úrovni? Lze je formalizovat?
-3. **Kolektivní [ontologická anihilace](/glossary/ontologicka-anihilace/)** — Co znamená narušení kolektivní schopnosti rozlišovat realitu? Příklady: genocidní společnosti, kolapsující státy, kultovní organizace.
-4. **Institucionální [konfirmační bias](/glossary/konfirmacni-bias/)** — Strukturní mechanismy, jimiž instituce systematicky filtrují informace ve prospěch svého narativního stability.
+2. **Kolektivní [metakognice](@/glossary/metakognice.md)** — Existuje analogie metakognitivních operací na institucionální úrovni? Lze je formalizovat?
+3. **Kolektivní [ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — Co znamená narušení kolektivní schopnosti rozlišovat realitu? Příklady: genocidní společnosti, kolapsující státy, kultovní organizace.
+4. **Institucionální [konfirmační bias](@/glossary/konfirmacni-bias.md)** — Strukturní mechanismy, jimiž instituce systematicky filtrují informace ve prospěch svého narativního stability.
 
 ### Výzkumné směry
 
@@ -107,7 +107,7 @@ Současné kompendium reflektuje primárně **euroamerickou intelektuální trad
 Klíčové otázky:
 
 1. **Kulturně-specifické techniky** — Existují techniky EA, jež jsou efektivní v jednom kulturním kontextu a inertní v jiném?
-2. **Kulturní [hermeneutika](/glossary/hermeneutika/)** — Jak různé kulturní kontexty interpretují fenomény, jež euroamerická tradice klasifikuje jako EA? Mohou být tyto fenomény legitimními formami sociální koordinace v jiných kontextech?
+2. **Kulturní [hermeneutika](@/glossary/hermeneutika.md)** — Jak různé kulturní kontexty interpretují fenomény, jež euroamerická tradice klasifikuje jako EA? Mohou být tyto fenomény legitimními formami sociální koordinace v jiných kontextech?
 3. **Indigenní obranné tradice** — Jaké obranné praktiky proti EA vyvinuly nezápadní kultury? Lze je integrovat do platforemních protokolů?
 4. **Kolektivistické vs. individualistické kontexty** — Jsou kolektivistické kultury zranitelnější vůči některým technikám (např. autoritní deferenci) a robustnější vůči jiným (např. atomizační izolaci)?
 
@@ -121,12 +121,12 @@ Klíčové otázky:
 
 ### Problém
 
-[Dual-use povaha](/glossary/dual-use-poznani/) kompendia je explicitně přiznána: stejné taxonomie a mechanismy lze využít defenzivně i ofenzivně. Tato dvojakost generuje fundamentální etické otázky.
+[Dual-use povaha](@/glossary/dual-use-poznani.md) kompendia je explicitně přiznána: stejné taxonomie a mechanismy lze využít defenzivně i ofenzivně. Tato dvojakost generuje fundamentální etické otázky.
 
 Klíčové otázky:
 
 1. **Publikační etika** — Měl by být detailní popis manipulačních technik veřejně dostupný? Jaké jsou pre-existující standardy v sousedních doménách (kybernetická bezpečnost, biologická bezpečnost)?
-2. **Edukační etika** — V jakém rozsahu by měla být [dual-use](/glossary/dual-use-poznani/) znalost součástí edukačních curriculí? Riziko **iatrogenní** anihilace skrze edukaci o anihilaci?
+2. **Edukační etika** — V jakém rozsahu by měla být [dual-use](@/glossary/dual-use-poznani.md) znalost součástí edukačních curriculí? Riziko **iatrogenní** anihilace skrze edukaci o anihilaci?
 3. **Profesní odpovědnost** — Jaké závazky mají odborníci pracující s EA-relevantní expertízou? Existuje analogie Hippokratovy přísahy?
 4. **Political weaponization** — Riziko instrumentalizace anti-EA rétoriky k potlačení legitimní opozice.
 
@@ -154,7 +154,7 @@ Klíčové otázky:
 - **AI safety/AI alignment** — Integrace EA insights do AI alignment research.
 - **Adversariální ML** — Strukturní analogie mezi adversariální ML a klasickou EA.
 - **Human-AI interaction studies** — Empirické studie EA-zranitelností v human-AI interakci.
-- **Hybridní obranné architektury** — Vývoj architektur (jako [NABLA](/glossary/nabla-infinity/)) explicitně designed pro hybridní lidské-AI epistemické prostředí.
+- **Hybridní obranné architektury** — Vývoj architektur (jako [NABLA](@/glossary/nabla-infinity.md)) explicitně designed pro hybridní lidské-AI epistemické prostředí.
 
 ## Metodologické výzvy
 
@@ -197,46 +197,46 @@ Programovou ambicí je transformovat kompendium z **klasifikačního systému** 
 
 ## Závěrečná poznámka
 
-Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **strukturní vlastností**. Taxonomie [epistemické anihilace](/glossary/epistemicka-anihilace/) je živým konceptuálním nástrojem, jenž se kontinuálně revizuje na základě empirických objevů, technologických inovací a politických posunů. Každá generace bude muset taxonomii **re-validovat, rozšířit a v některých částech přepracovat**. Tato kapitola je proto současně bilance a programové prohlášení: současný stav definovaný jako východisko, nikoli jako finální slovo.
+Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **strukturní vlastností**. Taxonomie [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je živým konceptuálním nástrojem, jenž se kontinuálně revizuje na základě empirických objevů, technologických inovací a politických posunů. Každá generace bude muset taxonomii **re-validovat, rozšířit a v některých částech přepracovat**. Tato kapitola je proto současně bilance a programové prohlášení: současný stav definovaný jako východisko, nikoli jako finální slovo.
 
 ## Související
 
 - [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
-- [7.2 Kognitivní vědy a EA](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.3 Computational epistemology a NABLA](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.4 EA v digitálním věku](/kompendium/07-teoreticke-reflexe/digitalni-vek/)
-- [7.5 Politická a ideologická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [Sekce 07 — Teoretické reflexe (úvod)](/kompendium/07-teoreticke-reflexe/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.4 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
+- [7.5 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](/kompendium/04-klinika/)
 - [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
 - [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Kognitivní bias](/glossary/kognitivni-bias/)
-- [Glosář: Konfirmační bias](/glossary/konfirmacni-bias/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
+- [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
 - [Glosář: Lakatos](/glossary/lakatos/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 
 ## ⚡ Kritický krok
@@ -245,7 +245,7 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -258,4 +258,4 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -50,7 +50,7 @@ Klasifikace musí být **konzistentní** s fenomenologickou zkušeností postiž
 
 ### Princip teoretické ukotvenosti
 
-Taxonomický systém je explicitně zakotven v teoretickém rámci [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/). Toto teoretické ukotvení zajišťuje, že taxonomie není pouhým deskriptivním výčtem fenoménů, ale strukturovaným systémem s explanační silou a konceptuální koherencí. Konkrétní aplikace zahrnuje:
+Taxonomický systém je explicitně zakotven v teoretickém rámci [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md). Toto teoretické ukotvení zajišťuje, že taxonomie není pouhým deskriptivním výčtem fenoménů, ale strukturovaným systémem s explanační silou a konceptuální koherencí. Konkrétní aplikace zahrnuje:
 
 - **Dedukci taxonomických kategorií** z teoretických principů, nikoli pouze induktivní agregaci pozorovaných fenoménů
 - **Konzistentní aplikaci teoretických konstruktů** napříč taxonomickými kategoriemi
@@ -243,24 +243,24 @@ Tyto limitace nejsou důvodem k odmítnutí taxonomie, ale podmínkou její odpo
 
 ## Související
 
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [2.2 Historický kontext](/kompendium/02-uvod/historicky-kontext/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Glosář: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Epistemic Pipeline](/glossary/epistemic-pipeline/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
-[definici epistemické anihilace](/glossary/epistemicka-anihilace/) a zapiš si ji
+[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
 referenční bod pro detekci vlastního posunu pochopení.
@@ -274,4 +274,4 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

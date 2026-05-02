@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — strukturální obrana před korekcí; bez detekce ireverzibilní |
 | **Reverzibilita** | Nízká, jakmile je vzorec konsolidován |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -226,15 +226,15 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ### Často se kombinuje s
 
-- **[EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)** — sourozenecká: imunizace přidává auxiliární hypotézy; strategická reinterpretace přeinterpretovává existující evidenci.
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — diverze přesměrovává od kontradiktorních evidencí k irelevantním aspektům.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci.
-- **[EA-1.2.3 Iluzorní komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)** — iluzorní komplexita poskytuje **infinite ad hoc modifikace**.
+- **[EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — sourozenecká: imunizace přidává auxiliární hypotézy; strategická reinterpretace přeinterpretovává existující evidenci.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze přesměrovává od kontradiktorních evidencí k irelevantním aspektům.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace evidence zajišťuje, že subjekt **nikdy neuvidí** falsifikační evidenci.
+- **[EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — iluzorní komplexita poskytuje **infinite ad hoc modifikace**.
 
 ### Eskaluje do
 
 - **EA-1.6.1 Vzorec "Guru a adept"** — guru vede teorii v dlouhodobé imunizační dynamice.
-- **Strukturální delegitimizace pole** ([Scénář F](/kompendium/03-zakladni-kategorie/kapitola-2/)) — kolektivní imunizace odbourává epistemickou zdravost komunity.
+- **Strukturální delegitimizace pole** ([Scénář F](@/kompendium/03-zakladni-kategorie/kapitola-2.md)) — kolektivní imunizace odbourává epistemickou zdravost komunity.
 
 ### Hraniční / podobné
 
@@ -249,17 +249,17 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.3):
-  - [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
-  - [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
+  - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
+  - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -269,10 +269,10 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -284,4 +284,4 @@ Intervence: Strukturální požadavek na pre-registered outcome criteria; advers
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

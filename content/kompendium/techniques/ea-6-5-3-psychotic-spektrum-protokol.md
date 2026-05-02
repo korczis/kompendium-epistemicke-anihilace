@@ -32,7 +32,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
-| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice
 
@@ -239,7 +239,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Kompatibilní s [EA-6.1.8 disociativním spektrum](/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment/), [EA-6.2.10 farmakoterapií](/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant/), [EA-6.5.6 inpatient stabilizací](/kompendium/techniques/ea-6-5-6-inpatient-stabilizace/).
+Kompatibilní s [EA-6.1.8 disociativním spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md), [EA-6.2.10 farmakoterapií](@/kompendium/techniques/ea-6-2-10-pharmacotherapy-adjuvant.md), [EA-6.5.6 inpatient stabilizací](@/kompendium/techniques/ea-6-5-6-inpatient-stabilizace.md).
 
 ## Vztah k Prismatic platformě
 
@@ -254,33 +254,33 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Sesterské techniky (6.5 Krizové intervence)
 
-- [EA-6.5.1 Akutní krize protokol](/kompendium/techniques/ea-6-5-1-akutni-krize-protokol/)
+- [EA-6.5.1 Akutní krize protokol](@/kompendium/techniques/ea-6-5-1-akutni-krize-protokol.md)
 - [EA-6.5.2 Suicidalní EA-trauma protokol](/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol/)
-- [EA-6.5.4 Disociativní akutní protokol](/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol/)
+- [EA-6.5.4 Disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md)
 - [EA-6.5.5 ER screening EA-trauma](/kompendium/techniques/ea-6-5-5-er-screening-EA/)
-- [EA-6.5.6 Inpatient stabilizace](/kompendium/techniques/ea-6-5-6-inpatient-stabilizace/)
-- [EA-6.5.7 Partialní hospitalizace](/kompendium/techniques/ea-6-5-7-partialni-hospitalizace/)
+- [EA-6.5.6 Inpatient stabilizace](@/kompendium/techniques/ea-6-5-6-inpatient-stabilizace.md)
+- [EA-6.5.7 Partialní hospitalizace](@/kompendium/techniques/ea-6-5-7-partialni-hospitalizace.md)
 - [EA-6.5.8 Day program EA](/kompendium/techniques/ea-6-5-8-day-program-EA/)
 - [EA-6.5.9 Residential program EA](/kompendium/techniques/ea-6-5-9-residential-program-EA/)
 - [EA-6.5.10 Outpatient EA protokol](/kompendium/techniques/ea-6-5-10-outpatient-EA-protokol/)
 
 ### Rodičovská kapitola
 
-- [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
 ### Glosář
 
-- [c-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Epistemická trauma](/glossary/epistemicke-trauma/)
-- [Gaslighting](/glossary/gaslighting/)
-- [Iatrogenní harm](/glossary/iatrogenic-harm/)
-- [Disociace](/glossary/disociace/)
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/)
+- [c-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Epistemická trauma](@/glossary/epistemicke-trauma.md)
+- [Gaslighting](@/glossary/gaslighting.md)
+- [Iatrogenní harm](@/glossary/iatrogenic-harm.md)
+- [Disociace](@/glossary/disociace.md)
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md)
 
 ### Prismatic platforma
 
 - [Prismatic Nabla](/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
 - [OSINT toolbox](/osint/toolbox/) — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
 - [Decision Engine](/hub/dd/decisions/) — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](/academy/) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci

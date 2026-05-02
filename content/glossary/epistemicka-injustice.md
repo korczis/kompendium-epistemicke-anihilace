@@ -34,19 +34,19 @@ Subsequent work (Medina, Dotson, Pohlhaus) has extended the framework: **contrib
 Epistemic injustice supplies the **structural / political** vocabulary missing from a purely individual-pathology account of epistemic annihilation. The Kompendium treats EA as occurring across scales: dyadic (intimate manipulation), institutional (cult, workplace, family system), and **societal** — and at the societal scale, the operative mechanisms are precisely Fricker's:
 
 - **EA-1.2.x delegitimization techniques** are enacted at societal scale through testimonial injustice — entire categories of speakers (women, racial minorities, mental-illness survivors, EA victims themselves) face structural credibility deflation.
-- **Hermeneutical injustice** is the macro-form of [metakognitivní destrukce](/glossary/metakognitivni-destrukce/): the victim cannot understand what is happening because the concepts to understand it have been suppressed or never developed. The kompendium itself is a corrective intervention — by **building the conceptual taxonomy in Czech**, it expands the hermeneutical resource available to Czech-speaking survivors.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) draws on Fricker explicitly to argue that the production of the taxonomy is itself an act of **epistemic justice repair**.
+- **Hermeneutical injustice** is the macro-form of [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md): the victim cannot understand what is happening because the concepts to understand it have been suppressed or never developed. The kompendium itself is a corrective intervention — by **building the conceptual taxonomy in Czech**, it expands the hermeneutical resource available to Czech-speaking survivors.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) draws on Fricker explicitly to argue that the production of the taxonomy is itself an act of **epistemic justice repair**.
 - The [Decision Engine](/hub/dd/decisions/) integrates testimonial-injustice awareness through its bias-tracking subsystems — credibility weights are explicitly inspected for identity-based deflation patterns.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Individual-scale counterpart
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Self-estrangement form
-- [Panopticism](/glossary/panopticism/) — Foucault's structural surveillance frame
-- [Power-Knowledge](/glossary/power-knowledge/) — Foucault on epistemic power
-- [Metanarrative collapse](/glossary/metanarrative-collapse/) — Lyotard on grand-narrative legitimization
-- [Kompendium](/kompendium/) — Czech-language taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Individual-scale counterpart
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-estrangement form
+- [Panopticism](@/glossary/panopticism.md) — Foucault's structural surveillance frame
+- [Power-Knowledge](@/glossary/power-knowledge.md) — Foucault on epistemic power
+- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) — Lyotard on grand-narrative legitimization
+- [Kompendium](@/kompendium/_index.md) — Czech-language taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -55,4 +55,4 @@ Epistemic injustice supplies the **structural / political** vocabulary missing f
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

@@ -78,16 +78,16 @@ Cross-functional IR team, defined severity matrix, mandatory board notification,
 
 ## 6. Cross-linky
 
-- [Trauma-aware management](/kompendium/organizational-defense/36-trauma-aware-management/)
+- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
 - [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
-- [Náhrada vedení](/kompendium/organizational-defense/38-leadership-replacement/)
-- [Odolnost představenstva](/kompendium/organizational-defense/1-board-resilience/)
-- [Ochrana zakládací listiny](/kompendium/organizational-defense/2-charter-protection/)
-- [Politika střetu zájmů](/kompendium/organizational-defense/3-conflict-of-interest-policy/)
-- [Mechanismus oznamovatelů](/kompendium/organizational-defense/4-whistleblower-mechanism/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
+- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
+- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
+- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Cross-functional IR team, defined severity matrix, mandatory board notification,
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

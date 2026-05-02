@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výzkum, klinika, forenzní praxe) |
 | **Riziková úroveň** | Extrémní — narušuje základ prediktivního uvažování i atribuce odpovědnosti |
 | **Reverzibilita** | Velmi nízká bez specializované intervence; bez ní se prohlubuje |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Klasická manifestace: *spouštěč* a *reakce* si vymění role. Manipulátorovo provokativní chování (skutečná příčina) je prezentováno jako *reakce* na subjektovo chování (skutečný následek). Subjekt postupně internalizuje **kauzální narativ obrácený o 180 stupňů**.
 
-Technika je obzvláště devastující ze dvou důvodů. Za prvé, podkopává **prediktivní funkci poznání** — pokud subjekt neumí spolehlivě identifikovat, co působí na co, ztrácí schopnost činit informovaná rozhodnutí. Za druhé, anuluje **atribuci odpovědnosti** — viník se stává obětí a oběť viníkem. Kombinace obou efektů činí kauzální inverzi jednou z nejbrutálnějších forem [epistemické anihilace](/glossary/epistemicka-anihilace/).
+Technika je obzvláště devastující ze dvou důvodů. Za prvé, podkopává **prediktivní funkci poznání** — pokud subjekt neumí spolehlivě identifikovat, co působí na co, ztrácí schopnost činit informovaná rozhodnutí. Za druhé, anuluje **atribuci odpovědnosti** — viník se stává obětí a oběť viníkem. Kombinace obou efektů činí kauzální inverzi jednou z nejbrutálnějších forem [epistemické anihilace](@/glossary/epistemicka-anihilace.md).
 
 ## Operační modus
 
@@ -161,14 +161,14 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 ### Často se kombinuje s
 
-- **[EA-5.1.10 Temporální dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/)** — bez chronologické kotvy je inverze podstatně snadnější; obě techniky se vzájemně potencují.
-- **[EA-5.1.11 Modální dezorientace](/kompendium/techniques/ea-5-1-11-modalni-dezorientace/)** — pokud subjekt přestane rozlišovat skutečné od hypotetického, ztrácí i schopnost atribuovat skutečné kauzální vazby.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emoční vina amplifikuje internalizaci inverze.
+- **[EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)** — bez chronologické kotvy je inverze podstatně snadnější; obě techniky se vzájemně potencují.
+- **[EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)** — pokud subjekt přestane rozlišovat skutečné od hypotetického, ztrácí i schopnost atribuovat skutečné kauzální vazby.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emoční vina amplifikuje internalizaci inverze.
 
 ### Eskaluje do
 
 - **Kompletní rozpad agentivity** — terminální stadium, kdy subjekt přestává být schopen rozlišit, **kdo** je v dané situaci **kdo**.
-- **[Anankastický režim](/glossary/anankasticky-rezim/)** — některé subjekty vyvinou rigidní rituály preventivního chování s cílem "neprovokovat", což manipulátor využívá k další eskalaci.
+- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — některé subjekty vyvinou rigidní rituály preventivního chování s cílem "neprovokovat", což manipulátor využívá k další eskalaci.
 
 ### Distinktivní
 
@@ -182,24 +182,24 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.10 Temporální dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/)
-  - [EA-5.1.11 Modální dezorientace](/kompendium/techniques/ea-5-1-11-modalni-dezorientace/)
+  - [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  - [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)
 - **Související techniky nižších kategorií**:
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -209,10 +209,10 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -224,4 +224,4 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

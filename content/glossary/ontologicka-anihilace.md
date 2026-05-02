@@ -45,11 +45,11 @@ Recovery from ontological annihilation is possible but typically requires **mont
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Frequently the precursor
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Often co-occurs
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Related but distinct in scope
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Often presents in transition
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Frequently the precursor
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Often co-occurs
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Related but distinct in scope
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Often presents in transition
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -58,4 +58,4 @@ Recovery from ontological annihilation is possible but typically requires **mont
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

@@ -18,7 +18,7 @@ NABLA Infinity je epistemická detekční pipeline — kvantifikuje epistemic vs
 
 ## EA relevance
 
-NABLA Infinity je **klíčový engine** pro detekci [05-ultramari-techniky](/kompendium/05-ultramari-techniky/) — sofistikovaných EA, které proklouznou signaturovými filtry. Aplikuje **Bayesian decomposition** uncertainty.
+NABLA Infinity je **klíčový engine** pro detekci [05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md) — sofistikovaných EA, které proklouznou signaturovými filtry. Aplikuje **Bayesian decomposition** uncertainty.
 
 ## Detection mechanisms
 
@@ -26,7 +26,7 @@ Detekce: **inverted confidence rule** — vysoká model confidence + nízká sou
 
 ## Operational protocols
 
-Provoz: in-line v každém LLM call. Latency overhead: ~50ms. Výstup: **uncertainty triple** (epistemic, aleatoric, total) + suspect flag. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](/kompendium/aiad-integration/quality-monitor-ea-tracking/)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: in-line v každém LLM call. Latency overhead: ~50ms. Výstup: **uncertainty triple** (epistemic, aleatoric, total) + suspect flag. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 
@@ -38,20 +38,20 @@ Volán **Decision Engine** pro každé rozhodnutí; krmí data **Quality Monitor
 
 ## Cross-linky
 
-- [Autoevolve Ea Pattern Evolution](/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/) — peer v rámci Specialized Agents
-- [Autoheal Ea Regression Repair](/kompendium/aiad-integration/autoheal-ea-regression-repair/) — peer v rámci Specialized Agents
-- [Decision Engine Ea Calibration](/kompendium/aiad-integration/decision-engine-ea-calibration/) — peer v rámci Specialized Agents
-- [Trinity Gate Ea Verification](/kompendium/aiad-integration/trinity-gate-ea-verification/) — peer v rámci Specialized Agents
-- [Qeve Ea Quality Validation](/kompendium/aiad-integration/qeve-ea-quality-validation/) — peer v rámci Specialized Agents
-- [Red Team Ea Detection](/kompendium/aiad-integration/red-team-ea-detection/) — cross-group koordinace
-- [Archer Supreme Ea Orchestration](/kompendium/aiad-integration/archer-supreme-ea-orchestration/) — cross-group koordinace
-- [Czech Ares Ea Screening](/kompendium/aiad-integration/czech-ares-ea-screening/) — cross-group koordinace
-- [základní kategorie EA](/kompendium/03-zakladni-kategorie/) — EA taxonomie
-- [terminální protokoly](/kompendium/04-terminalni-protokoly/) — EA taxonomie
-- [ultramari techniky](/kompendium/05-ultramari-techniky/) — EA taxonomie
-- [agent-tier](/glossary/agent-tier) — platform glossary
-- [color-teams](/glossary/color-teams) — platform glossary
-- [archer-supreme glossary](/glossary/archer-supreme) — platform glossary
+- [Autoevolve Ea Pattern Evolution](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md) — peer v rámci Specialized Agents
+- [Autoheal Ea Regression Repair](@/kompendium/aiad-integration/autoheal-ea-regression-repair.md) — peer v rámci Specialized Agents
+- [Decision Engine Ea Calibration](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) — peer v rámci Specialized Agents
+- [Trinity Gate Ea Verification](@/kompendium/aiad-integration/trinity-gate-ea-verification.md) — peer v rámci Specialized Agents
+- [Qeve Ea Quality Validation](@/kompendium/aiad-integration/qeve-ea-quality-validation.md) — peer v rámci Specialized Agents
+- [Red Team Ea Detection](@/kompendium/aiad-integration/red-team-ea-detection.md) — cross-group koordinace
+- [Archer Supreme Ea Orchestration](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md) — cross-group koordinace
+- [Czech Ares Ea Screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) — cross-group koordinace
+- [základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md) — EA taxonomie
+- [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — EA taxonomie
+- [ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) — EA taxonomie
+- [agent-tier](@/glossary/agent-tier.md) — platform glossary
+- [color-teams](@/glossary/color-teams.md) — platform glossary
+- [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
 
 ## Connect & Contribute
 

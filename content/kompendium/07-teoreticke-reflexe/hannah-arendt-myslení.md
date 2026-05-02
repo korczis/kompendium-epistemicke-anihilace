@@ -16,7 +16,7 @@ toc = true
 
 # 7.19 Arendt: Myšlení jako etická aktivita
 
-Tato kapitola navazuje na [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/) a soustředí se specificky na Arendtové **pozitivní teorii myšlení** — co je myšlení, jak funguje, proč je **etickou aktivitou** a proč jeho rozpad otevírá prostor pro epistemickou anihilaci.
+Tato kapitola navazuje na [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md) a soustředí se specificky na Arendtové **pozitivní teorii myšlení** — co je myšlení, jak funguje, proč je **etickou aktivitou** a proč jeho rozpad otevírá prostor pro epistemickou anihilaci.
 
 ## 1. Myšlení jako vnitřní dialog
 
@@ -39,7 +39,7 @@ Arendtová interpretuje Sokratův postoj v *Apologii*: "*Lépe je trpět nesprav
 
 Sokratovský paradox má pro EA **klíčovou diagnostickou hodnotu**:
 
-- **Mauvaise foi** ([Sartre, viz 7.15](/kompendium/07-teoreticke-reflexe/sartre-existencialismus/)) je strukturálně **anihilací sokratovské figurace** — subjekt přestává **mluvit se sebou**, stává se **monolitem**.
+- **Mauvaise foi** ([Sartre, viz 7.15](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)) je strukturálně **anihilací sokratovské figurace** — subjekt přestává **mluvit se sebou**, stává se **monolitem**.
 - **Klinický korelát**: chronická účast na strukturální nespravedlnosti (například korporátní role, jež vyžaduje systematické porušování etických norem) vede k **erozi schopnosti myšlení** — strukturální banalizace.
 - **Eichmann jako paradigma**: Eichmannova **neschopnost myšlení** byla strukturálně podmíněna jeho **nemožností** se se sebou rozdvojit — žil v plné **identitě** s svou administrativní funkcí.
 
@@ -70,7 +70,7 @@ Toto napětí je strukturálně **politické** — soudnost je **podmínkou** de
 Pro EA z toho plyne:
 
 - **Algoritmická subsumpce** je strukturálním **anihilováním** soudnosti — nahrazuje partikulární úsudek pravidlovou aplikací.
-- **Color Teams** ([viz 7.1 §4.2](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) jsou **algoritmickou aproximací** soudnosti — nucená přítomnost různých perspektiv simuluje *sensus communis*.
+- **Color Teams** ([viz 7.1 §4.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) jsou **algoritmickou aproximací** soudnosti — nucená přítomnost různých perspektiv simuluje *sensus communis*.
 
 ## 5. *Vita contemplativa* vs. *vita activa*
 
@@ -85,7 +85,7 @@ Pro EA má tato analýza **specifickou relevanci**:
 
 - **Imperative produktivity** v digitální ekonomii strukturálně **anihiluje** prostor pro vita contemplativa.
 - **Burnout culture** je strukturálním symptomem — subjekt nemá kapacitu **myslet**, pouze **fungovat**.
-- **Klinická intervence**: obnovení vita contemplativa jako **antropotechniky** rezilience (Sloterdijk, [viz 7.1 §3.3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)).
+- **Klinická intervence**: obnovení vita contemplativa jako **antropotechniky** rezilience (Sloterdijk, [viz 7.1 §3.3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 
 ## 6. Mapping na EA techniky
 
@@ -108,15 +108,15 @@ Pro EA má tato analýza **specifickou relevanci**:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.15 Sartre: Existencialismus](/kompendium/07-teoreticke-reflexe/sartre-existencialismus/)
-- [7.20 Levinas: Jiný](/kompendium/07-teoreticke-reflexe/levinas-jiny/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.15 Sartre: Existencialismus](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)
+- [7.20 Levinas: Jiný](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -125,4 +125,4 @@ Pro EA má tato analýza **specifickou relevanci**:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

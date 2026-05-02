@@ -75,7 +75,7 @@ Pro EA z toho plyne:
 
 - **Tělo není přirozenou redutou** mimo manipulaci — je **performativně produkováno** kulturními normami.
 - **Body image, body dysmorphia, eating disorders** lze interpretovat jako **patologické performativní produkce** — subjekt **citačně reprodukuje** zraňující kulturní normy.
-- **Klinická intervence** musí pracovat s tělem **jako diskurzivně-materiálním** fenoménem (rezonuje s Merleau-Pontyho **chair**, [viz 7.16](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)).
+- **Klinická intervence** musí pracovat s tělem **jako diskurzivně-materiálním** fenoménem (rezonuje s Merleau-Pontyho **chair**, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)).
 
 ## 6. Mapping na EA techniky
 
@@ -89,10 +89,10 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Performativní subverze** jako klinický cíl — pacient se učí **přepisovat** indukované pozice.
-- **Narativní terapie** ([Ricoeur, viz 7.17](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)) operuje strukturálně na butlerovských kategoriích.
+- **Narativní terapie** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na butlerovských kategoriích.
 - **Riziko**: nucená "subverze" může být **dalším formou EA**, pokud není pacientem zvolena.
 
 ## 8. Kritická distance
@@ -112,16 +112,16 @@ Kompendium absorbuje Butlerové analýzu, ale **odbočuje** ve dvou bodech:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.10 Wittgenstein: Jazykové hry](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.20 Levinas: Jiný](/kompendium/07-teoreticke-reflexe/levinas-jiny/)
-- [7.22 Honneth: Rozpoznání](/kompendium/07-teoreticke-reflexe/honneth-rozpoznani/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.20 Levinas: Jiný](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)
+- [7.22 Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -130,4 +130,4 @@ Kompendium absorbuje Butlerové analýzu, ale **odbočuje** ve dvou bodech:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

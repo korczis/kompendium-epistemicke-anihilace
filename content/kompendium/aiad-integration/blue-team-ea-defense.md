@@ -26,11 +26,11 @@ Detekce: vícevrstvý filter chain — (1) regex/embedding match proti známým 
 
 ## Operational protocols
 
-Provoz: 24/7 monitoring přes telemetry + circuit-breaker. Při zachycené EA — okamžitá izolace session, audit log, a notifikace **Purple Teamu** pro post-mortem analýzu vzoru. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](/kompendium/aiad-integration/quality-monitor-ea-tracking/)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: 24/7 monitoring přes telemetry + circuit-breaker. Při zachycené EA — okamžitá izolace session, audit log, a notifikace **Purple Teamu** pro post-mortem analýzu vzoru. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 
-Blue Team je **slepý vůči ultramari technikám** ([05-ultramari-techniky](/kompendium/05-ultramari-techniky/)) — ty vyžadují kvantifikační analýzu mimo signaturový rámec a jsou delegovány na NABLA Infinity.
+Blue Team je **slepý vůči ultramari technikám** ([05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md)) — ty vyžadují kvantifikační analýzu mimo signaturový rámec a jsou delegovány na NABLA Infinity.
 
 ## Coordination
 
@@ -38,20 +38,20 @@ Triggeruje **AutoHeal** pro automatickou opravu zranitelných vstupních bodů; 
 
 ## Cross-linky
 
-- [Red Team Ea Detection](/kompendium/aiad-integration/red-team-ea-detection/) — peer v rámci Color Teams
-- [Purple Team Ea Synthesis](/kompendium/aiad-integration/purple-team-ea-synthesis/) — peer v rámci Color Teams
-- [White Team Ea Verification](/kompendium/aiad-integration/white-team-ea-verification/) — peer v rámci Color Teams
-- [Black Team Ea Modeling](/kompendium/aiad-integration/black-team-ea-modeling/) — peer v rámci Color Teams
-- [Gray Team Ea Edge Cases](/kompendium/aiad-integration/gray-team-ea-edge-cases/) — peer v rámci Color Teams
-- [Archer Supreme Ea Orchestration](/kompendium/aiad-integration/archer-supreme-ea-orchestration/) — cross-group koordinace
-- [Autoevolve Ea Pattern Evolution](/kompendium/aiad-integration/autoevolve-ea-pattern-evolution/) — cross-group koordinace
-- [Czech Ares Ea Screening](/kompendium/aiad-integration/czech-ares-ea-screening/) — cross-group koordinace
-- [základní kategorie EA](/kompendium/03-zakladni-kategorie/) — EA taxonomie
-- [terminální protokoly](/kompendium/04-terminalni-protokoly/) — EA taxonomie
-- [ultramari techniky](/kompendium/05-ultramari-techniky/) — EA taxonomie
-- [agent-tier](/glossary/agent-tier) — platform glossary
-- [color-teams](/glossary/color-teams) — platform glossary
-- [archer-supreme glossary](/glossary/archer-supreme) — platform glossary
+- [Red Team Ea Detection](@/kompendium/aiad-integration/red-team-ea-detection.md) — peer v rámci Color Teams
+- [Purple Team Ea Synthesis](@/kompendium/aiad-integration/purple-team-ea-synthesis.md) — peer v rámci Color Teams
+- [White Team Ea Verification](@/kompendium/aiad-integration/white-team-ea-verification.md) — peer v rámci Color Teams
+- [Black Team Ea Modeling](@/kompendium/aiad-integration/black-team-ea-modeling.md) — peer v rámci Color Teams
+- [Gray Team Ea Edge Cases](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md) — peer v rámci Color Teams
+- [Archer Supreme Ea Orchestration](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md) — cross-group koordinace
+- [Autoevolve Ea Pattern Evolution](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md) — cross-group koordinace
+- [Czech Ares Ea Screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) — cross-group koordinace
+- [základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md) — EA taxonomie
+- [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — EA taxonomie
+- [ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) — EA taxonomie
+- [agent-tier](@/glossary/agent-tier.md) — platform glossary
+- [color-teams](@/glossary/color-teams.md) — platform glossary
+- [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
 
 ## Connect & Contribute
 

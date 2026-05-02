@@ -52,8 +52,8 @@ Strukturální útok proto **nezasahuje argumenty přímo**, ale **podkopává i
 | **Propaganda** | Konkrétní přesvědčení | Repetice, emoční apel |
 | **Dezinformace** | Faktická báze | Falešná tvrzení |
 | **Kolektivní delegitimizace** (EA-3.2.F) | Struktura komunity | Erozní podkopávání autorit |
-| **Kognitivní dekonstrukce** ([EA-3.2.G](/kompendium/03-zakladni-kategorie/scenar-g/)) | Individuální kognice | Destabilizace kategorií |
-| **Destruktivní kritika** ([EA-3.2.H](/kompendium/03-zakladni-kategorie/scenar-h/)) | Individuální sebedůvěra | Cílená invalidace |
+| **Kognitivní dekonstrukce** ([EA-3.2.G](@/kompendium/03-zakladni-kategorie/scenar-g.md)) | Individuální kognice | Destabilizace kategorií |
+| **Destruktivní kritika** ([EA-3.2.H](@/kompendium/03-zakladni-kategorie/scenar-h.md)) | Individuální sebedůvěra | Cílená invalidace |
 
 Kolektivní delegitimizace je **strukturálně odlišná** od individuálních forem útoku — pracuje na sociální úrovni a vyžaduje koordinaci napříč mnoha aktéry.
 
@@ -101,9 +101,9 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 **Klíčové techniky** (cross-link na EA kódy):
 
-- Infiltrace periferie komunity pozorovateli nebo pseudo-členy — viz [EA-1.1.1 (selektivní expozice)](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
+- Infiltrace periferie komunity pozorovateli nebo pseudo-členy — viz [EA-1.1.1 (selektivní expozice)](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
 - Sociometrická analýza epistemických vztahů a autorit
-- Identifikace latentních interních kontradikcí — kombinace s [EA-1.2.2 (falešná ekvivalence)](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
+- Identifikace latentních interních kontradikcí — kombinace s [EA-1.2.2 (falešná ekvivalence)](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
 - Mapování hranic komunity a epistemických mechanismů kontroly přístupu
 - Analýza publikačních metrik a citačních sítí
 
@@ -124,11 +124,11 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 **Klíčové techniky**:
 
-- Exploitace inkluzivní rétoriky a hodnot komunity — využití [EA-1.4.2 (latentní emocionální modulace)](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+- Exploitace inkluzivní rétoriky a hodnot komunity — využití [EA-1.4.2 (latentní emocionální modulace)](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - Apel na širší principy ("svobodná diskuse", "rozmanité perspektivy")
 - Strategická adopce povrchních lingvistických markerů a epistemických norem
 - "Noha ve dveřích" přístupy — minimální akceptovatelné požadavky na participaci
-- Kombinace s [EA-1.1.3 (terminologická mystifikace)](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) k zamlžení agenturní povahy
+- Kombinace s [EA-1.1.3 (terminologická mystifikace)](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) k zamlžení agenturní povahy
 
 **Detekční markery**:
 
@@ -149,10 +149,10 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 - Strategicky formulované "hraniční problémy" bez jasného řešení
 - Amplifikace drobných neshod na hlavní epistemické konflikty
-- "Klínové problémy" maximalizující polarizaci — využití [EA-1.2.1 (falešné dilema)](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-- Falešná ekvivalence mezi centrálními a periferními standardy — [EA-1.2.2](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-- [EA-1.3.3 (tematická diverze)](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) — odvádění pozornosti od substantivních otázek
-- [EA-1.3.2 (strategická reinterpretace)](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) historických textů disciplíny
+- "Klínové problémy" maximalizující polarizaci — využití [EA-1.2.1 (falešné dilema)](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+- Falešná ekvivalence mezi centrálními a periferními standardy — [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+- [EA-1.3.3 (tematická diverze)](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — odvádění pozornosti od substantivních otázek
+- [EA-1.3.2 (strategická reinterpretace)](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) historických textů disciplíny
 
 **Detekční markery**:
 
@@ -174,10 +174,10 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 
 - Strategie "jen se ptám" implicitně zpochybňující integritu autorit
 - Selektivní extrakce historických výroků a jejich prezentace v nejhorším světle
-- [EA-1.3.1 (imunizace proti falsifikaci)](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) aplikovaná v reverse — extrémní falsifikační požadavky pro centrální autority
+- [EA-1.3.1 (imunizace proti falsifikaci)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) aplikovaná v reverse — extrémní falsifikační požadavky pro centrální autority
 - Koordinované útoky z více stran simultánně, přehlcující schopnost odpovídat
-- [EA-1.4.1 (prosodická dominance)](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/) v debatách
-- Kombinace s [EA-1.5.1 (strategická proxemika)](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) v institucionálních setkáních
+- [EA-1.4.1 (prosodická dominance)](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) v debatách
+- Kombinace s [EA-1.5.1 (strategická proxemika)](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) v institucionálních setkáních
 
 **Detekční markery**:
 
@@ -198,7 +198,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 **Klíčové techniky**:
 
 - Introdukce nových epistemických autorit (často s kredenciály z příbuzných oborů)
-- Redefinice klíčových termínů — [EA-1.1.3 (terminologická mystifikace)](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
+- Redefinice klíčových termínů — [EA-1.1.3 (terminologická mystifikace)](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 - Etablování paralelního systému uznání, odměn a statusu
 - Vytváření nových metrik epistemického úspěchu
 - Institucionální zachycení redakčních rad, grantových komisí
@@ -212,7 +212,7 @@ Typickým výsledkem je **fragmentace** původně koherentní komunity na více 
 - Časopisy mění redakční politiku bez jasných důvodů
 - Granty směřují k nově privilegovaným tématům
 
-**Fenomenologie**: Subjekty zažívají [epistemickou alienaci](/glossary/epistemicka-alienace/) — pocit, že "moje pole se stalo cizím". Nové autority jsou prezentovány jako "konečně překonávající" tradiční omezení; tradiční autority jsou retrospektivně přerámovány jako bývalé překážky pokroku.
+**Fenomenologie**: Subjekty zažívají [epistemickou alienaci](@/glossary/epistemicka-alienace.md) — pocit, že "moje pole se stalo cizím". Nové autority jsou prezentovány jako "konečně překonávající" tradiční omezení; tradiční autority jsou retrospektivně přerámovány jako bývalé překážky pokroku.
 
 ## Strukturální prerekvizity
 
@@ -322,54 +322,54 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 ## Související
 
 ### Sister scenarios
-- [Scénář G: Progresivní kognitivní dekonstrukce](/kompendium/03-zakladni-kategorie/scenar-g/)
-- [Scénář H: Destruktivní "konstruktivní" kritika](/kompendium/03-zakladni-kategorie/scenar-h/)
+- [Scénář G: Progresivní kognitivní dekonstrukce](@/kompendium/03-zakladni-kategorie/scenar-g.md)
+- [Scénář H: Destruktivní "konstruktivní" kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
 
 ### Kapitoly
-- [Kapitola 1: Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [Kapitola 2: Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- [Kapitola 3: Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/)
+- [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
 
 ### Předmluva
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Etické aspekty](/kompendium/01-predmluva/eticke-aspekty/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
-- [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-- [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
-- [EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-- [EA-1.2.2 Falešná ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
-- [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
-- [EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
-- [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
-- [EA-1.5.1 Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+- [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)
 
 ### Sekce
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Sekce 07: Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 
 ### Glosář
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Epistemická komunita](/glossary/epistemicka-komunita/)
-- [Epistemická alienace](/glossary/epistemicka-alienace/)
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Anihilační fenomény](/glossary/anihilacni-fenomeny/)
-- [NABLA Infinity](/glossary/nabla-infinity/)
-- [Color Teams](/glossary/color-teams/)
+- [NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Color Teams](@/glossary/color-teams.md)
 
 ### Platforma
 - [Decision Engine](/hub/dd/decisions/)
-- [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -382,4 +382,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

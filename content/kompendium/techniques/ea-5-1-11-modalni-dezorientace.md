@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výzkum, klinická a forenzní praxe) |
 | **Riziková úroveň** | Extrémní — narušuje samotné předpoklady realitního testování |
 | **Reverzibilita** | Velmi nízká bez specializované intervence; bez ní progresivní |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -168,18 +168,18 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 ### Často se kombinuje s
 
-- **[EA-5.1.10 Temporální dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/)** — bez časové kotvy je modální rozlišení podstatně oslabeno; obě techniky se vzájemně potencují.
-- **[EA-5.1.12 Kauzální inverze](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/)** — modální chaos je přirozenou půdou pro kauzální zmatek.
+- **[EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)** — bez časové kotvy je modální rozlišení podstatně oslabeno; obě techniky se vzájemně potencují.
+- **[EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)** — modální chaos je přirozenou půdou pro kauzální zmatek.
 - **[EA-1.2.2 Memorní rekonstrukce](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/)** — vstupní brána; opakovaná rekonstrukce je přímý nástroj indukce dezorientace.
 
 ### Eskaluje do
 
-- **Kompletní rozpad realitního testování** s prvky [ontologické anihilace](/glossary/ontologicka-anihilace/).
-- **[Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)** — subjekt přestává být schopen reflektovat vlastní reflektující procesy a tedy i rozlišit modalitu meta-úrovně.
+- **Kompletní rozpad realitního testování** s prvky [ontologické anihilace](@/glossary/ontologicka-anihilace.md).
+- **[Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)** — subjekt přestává být schopen reflektovat vlastní reflektující procesy a tedy i rozlišit modalitu meta-úrovně.
 
 ### Distinktivní
 
-- **[Hermeneutika](/glossary/hermeneutika/)** je *legitimní* praxe interpretace, jejíž výsledek je explicitně označen jako *interpretace*; dezorientace je její patologická fixace bez označení.
+- **[Hermeneutika](@/glossary/hermeneutika.md)** je *legitimní* praxe interpretace, jejíž výsledek je explicitně označen jako *interpretace*; dezorientace je její patologická fixace bez označení.
 
 ## Vztah k Prismatic platformě
 
@@ -189,25 +189,25 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.10 Temporální dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/)
-  - [EA-5.1.12 Kauzální inverze](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/)
+  - [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  - [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)
 - **Související techniky nižších kategorií**:
   - [EA-1.2.2 Memorní rekonstrukce](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -217,10 +217,10 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -232,4 +232,4 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

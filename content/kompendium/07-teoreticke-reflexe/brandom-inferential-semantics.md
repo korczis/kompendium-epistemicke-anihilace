@@ -42,7 +42,7 @@ Brandom navazuje na Wilfrida Sellarse: **prostor důvodů** je **normativní pro
 Pro EA má prostor důvodů **trojí relevanci**:
 
 1. **EA jako vykolejování z prostoru důvodů**: techniky, jež nutí subjekt **opustit** legitimní argumentaci a uchýlit se k **emocionálním**, **autoritativním** nebo **fyzickým** apelům.
-2. **Pseudo-prostor důvodů**: simulace argumentace, jež nemá strukturální podmínky **autentického** odůvodňování (Habermasovská ideální komunikační situace, [viz 7.1 §4.2](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)).
+2. **Pseudo-prostor důvodů**: simulace argumentace, jež nemá strukturální podmínky **autentického** odůvodňování (Habermasovská ideální komunikační situace, [viz 7.1 §4.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 3. **Klinická restituce**: pacient vystaven EA musí být znovu uveden do prostoru důvodů — schopnost **požadovat** a **dávat** důvody.
 
 ## 3. Deontický skór (*deontic score*)
@@ -59,7 +59,7 @@ Pro EA má pojem deontického skóru **specifickou diagnostickou hodnotu**:
 
 ## 4. Pragmatika a kontext
 
-Brandomova teorie je strukturálně **pragmatická** — význam je **konstituován** v **užívání**, nikoli v abstraktní reprezentaci. Tato pozice rezonuje s pozdním Wittgensteinem ([viz 7.10](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)).
+Brandomova teorie je strukturálně **pragmatická** — význam je **konstituován** v **užívání**, nikoli v abstraktní reprezentaci. Tato pozice rezonuje s pozdním Wittgensteinem ([viz 7.10](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)).
 
 Pro EA z toho plyne:
 
@@ -80,7 +80,7 @@ Pro EA z toho plyne:
 
 Pro Prismatic platformu má inferencialismus **specifickou** relevanci:
 
-- **NABLA Infinity** ([viz §4.2 7.1](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) operuje **inferenciálně** — udržuje **deontický skór** kontradikcí, jež musí být **explicitně řešeny**.
+- **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **inferenciálně** — udržuje **deontický skór** kontradikcí, jež musí být **explicitně řešeny**.
 - **Color Teams** strukturálně **udržují** prostor důvodů — Red Team sleduje, zda Blue Team **drží** své závazky.
 - **Decision Core** zaznamenává **inferenční řetězec** — explicitní deontický skór rozhodovacích procesů.
 
@@ -94,16 +94,16 @@ Pro Prismatic platformu má inferencialismus **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.10 Wittgenstein: Jazykové hry](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)
-- [7.16 Davidson: Radikální interpretace](/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+- [7.16 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
 - [7.24 McDowell: Mind and World](/kompendium/07-teoreticke-reflexe/mcDowell-mind-and-world/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -112,4 +112,4 @@ Pro Prismatic platformu má inferencialismus **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

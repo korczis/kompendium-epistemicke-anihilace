@@ -61,12 +61,12 @@ Manifestuje se nejvýrazněji v rodinných systémech s **gaslightingem**, ve vy
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.5 Logická diskontinuita](/kompendium/techniques/ea-5-1-5-logicka-diskontinuita/)
-- **Sourozenecké techniky**: [EA-5.1.4 Sémantická imploze](/kompendium/quick-reference/qr-ea-5-1-4/), [EA-5.1.16 Inferenční paralýza](/kompendium/quick-reference/qr-ea-5-1-16/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
-- **Glossary**: [Gaslighting](/glossary/gaslighting/), [Gish gallop](/glossary/gish-gallop/), [Logická koherence](/glossary/logicka-koherence/), [Toulmin model](/glossary/toulmin-model/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Argumentační rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Platforma**: [Decision Engine reasoning trace](/hub/dd/decisions/), [NABLA Infinity logické vrstvy](/glossary/nabla-infinity/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
+- **Sourozenecké techniky**: [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
+- **Glossary**: [Gaslighting](@/glossary/gaslighting.md), [Gish gallop](@/glossary/gish-gallop.md), [Logická koherence](/glossary/logicka-koherence/), [Toulmin model](/glossary/toulmin-model/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Argumentační rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Platforma**: [Decision Engine reasoning trace](/hub/dd/decisions/), [NABLA Infinity logické vrstvy](@/glossary/nabla-infinity.md)
 
 ---
 

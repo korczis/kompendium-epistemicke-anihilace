@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 
 Klíčová asymetrie techniky spočívá v tom, že prožitek transcendence je **fenomenologicky autentický** (jasný, intenzivní, transformující) a současně **epistemicky regresivní**. Subjekt cítí, že "konečně rozumí všemu", zatímco z vnějšku je pozorovatelné, že **přestal** rozlišovat mezi věcmi, které je nezbytné rozlišovat.
 
-Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako **útok** na "ten nejhlubší vhled, který kdy měl".
+Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako **útok** na "ten nejhlubší vhled, který kdy měl".
 
 ## Operační modus
 
@@ -180,7 +180,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 ### Často se kombinuje s
 
 - **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — autorita gurua dodává epistemickou váhu prožívanému vhledu.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — filtrace alternativních interpretací zajišťuje, že vhled nemá konkurenci.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace alternativních interpretací zajišťuje, že vhled nemá konkurenci.
 - **EA-5.1.13 Hyperreflexivita** — sesterská technika; v případech, kdy přechod od paralýzy k "průlomu" produkuje iluzi transcendence.
 - **EA-5.1.15 Apofatické zacyklení** — sesterská technika; obě sdílejí strukturu epistemické stáze, ovšem iluzorní transcendence je **pozitivně** prožívaná.
 
@@ -204,24 +204,24 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
-  - [EA-5.1.15 Apofatické zacyklení](/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni/)
+  - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
+  - [EA-5.1.15 Apofatické zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md)
 - **Příbuzné techniky**:
   - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)
-  - [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-  - [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
+  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+  - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Falsifikovatelnost](/glossary/falsifikovatelnost/)
   - [Epistemická regrese](/glossary/epistemicka-regrese/)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -231,10 +231,10 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -246,4 +246,4 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

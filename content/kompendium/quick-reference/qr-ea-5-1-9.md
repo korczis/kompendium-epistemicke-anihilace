@@ -61,12 +61,12 @@ Identitní dezintegrace se vyskytuje v dlouhodobém koerzivně-kontrolním vztah
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.9 Identitní dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
-- **Sourozenecké techniky**: [EA-5.1.10 Temporální dekoherence](/kompendium/quick-reference/qr-ea-5-1-10/), [EA-5.1.18 Solipsistická dekompozice](/kompendium/quick-reference/qr-ea-5-1-18/), [EA-5.1.25 Singulární narativní kolaps](/kompendium/quick-reference/qr-ea-5-1-25/)
-- **Glossary**: [Narativní identita](/glossary/narativni-identita/), [Coercive control](/glossary/coercive-control/), [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Gaslighting](/glossary/gaslighting/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Narativní rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Platforma**: [Decision Engine narrative trace](/hub/dd/decisions/), [Color Teams identity protokol](/glossary/color-teams/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+- **Sourozenecké techniky**: [EA-5.1.10 Temporální dekoherence](@/kompendium/quick-reference/qr-ea-5-1-10.md), [EA-5.1.18 Solipsistická dekompozice](@/kompendium/quick-reference/qr-ea-5-1-18.md), [EA-5.1.25 Singulární narativní kolaps](@/kompendium/quick-reference/qr-ea-5-1-25.md)
+- **Glossary**: [Narativní identita](/glossary/narativni-identita/), [Coercive control](@/glossary/coercive-control.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Gaslighting](@/glossary/gaslighting.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Narativní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Platforma**: [Decision Engine narrative trace](/hub/dd/decisions/), [Color Teams identity protokol](@/glossary/color-teams.md)
 
 ---
 

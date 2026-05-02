@@ -17,7 +17,7 @@ toc = true
 
 ## Proč diferenciální diagnostika?
 
-Klinická manifestace [epistemické anihilace](/glossary/epistemicka-anihilace/) (EA) **významně překrývá** s několika etablovanými diagnostickými kategoriemi. Specificky:
+Klinická manifestace [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **významně překrývá** s několika etablovanými diagnostickými kategoriemi. Specificky:
 
 - **PTSD** (post-traumatická stresová porucha)
 - **cPTSD** (komplexní PTSD, ICD-11)
@@ -41,7 +41,7 @@ EA, PTSD/cPTSD a disociativní poruchy se liší **primárním cílem zranění*
 | **PTSD** | Fyzická a emoční integrita | Re-prožívání, hypervigilance, vyhýbání |
 | **cPTSD** | Self-koncept, vztahy, regulace | Disregulace afektu, negativní self-koncept, interpersonální obtíže |
 | **Disociativní poruchy** | Integrace vědomí, paměti, identity | Diskontinuita zkušenosti, depersonalizace, derealizace |
-| **EA** | Poznávací aparát (metakognice, hermeneutika) | Ztráta epistemické autonomie, [epistemická alienace](/glossary/epistemicka-alienace/) |
+| **EA** | Poznávací aparát (metakognice, hermeneutika) | Ztráta epistemické autonomie, [epistemická alienace](@/glossary/epistemicka-alienace.md) |
 
 Tyto diagnózy **nejsou vzájemně vylučující** — EA často **koexistuje** s cPTSD u obětí dlouhodobé manipulace.
 
@@ -200,16 +200,16 @@ Diagnóza EA má specifické etické důsledky:
 
 ## Související
 
-- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.3 Terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/)
-- [6.4 Protokoly epistemické rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- [6.5 Práce s vulnerabilní populací](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glossary: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glossary: Gaslighting](/glossary/gaslighting/)
-- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glossary: Ontologická anihilace](/glossary/ontologicka-anihilace/)
+- [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.3 Terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md)
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glossary: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
+- [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 
 
 ## ⚡ Kritický krok
@@ -222,9 +222,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -236,4 +236,4 @@ Před aplikací:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

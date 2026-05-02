@@ -82,7 +82,7 @@ Williams argumentuje:
 
 Pro EA z toho plyne:
 
-- **Politická EA** ([viz 7.8](/kompendium/07-teoreticke-reflexe/politicka-ea/)) operuje strukturálně skrze **erozi** pravdivosti.
+- **Politická EA** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)) operuje strukturálně skrze **erozi** pravdivosti.
 - **Counter-EA**: posílení institucí pravdivosti — kvalitní žurnalismus, akademie, faktická ověřovatelská infrastruktura.
 
 ## 5. Mapping na EA techniky
@@ -97,7 +97,7 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce obou ctností** jako klinický cíl: schopnost **získat** pravdu (accuracy) a schopnost **sdělit** vlastní pravdu (sincerity).
 - **Diferenciální diagnostika**: která ctnost byla narušena?
@@ -113,16 +113,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.29 Nagel: View from Nowhere](/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere/)
-- [7.31 MacIntyre: After Virtue](/kompendium/07-teoreticke-reflexe/macintyre-after-virtue/)
-- [7.49 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.29 Nagel: View from Nowhere](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)
+- [7.31 MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)
+- [7.49 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -131,4 +131,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

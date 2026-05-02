@@ -45,29 +45,29 @@ Exit byl iniciovan zhroucenim na zkousce a nasledujici hospitalizaci. Externi ko
 
 V tomto pripadu byly identifikovany nasledujici EA kody:
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — reziser jako genealny stvoritel, herec jako jeho material
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — manipulace osobnich traumat pro umelecke ucely
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "umelecka pravda", "transcendence role", "obetni divadlo"
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika zkousebnich metod = "nepochopeni avantgardy"
-- [EA-5.1.16 Inferencni paralyza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/) — neschopnost rozlisit umelecky a osobni kontext
-- [EA-1.2.3 Iluzorni komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) — divadelni teorie obklopuje koercivni dynamiku
-- [EA-2.1.1 Expertni disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/) — externi divadelni kritici "nemaji opravu posuzovat"
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — reziser jako genealny stvoritel, herec jako jeho material
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — manipulace osobnich traumat pro umelecke ucely
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "umelecka pravda", "transcendence role", "obetni divadlo"
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika zkousebnich metod = "nepochopeni avantgardy"
+- [EA-5.1.16 Inferencni paralyza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) — neschopnost rozlisit umelecky a osobni kontext
+- [EA-1.2.3 Iluzorni komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) — divadelni teorie obklopuje koercivni dynamiku
+- [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — externi divadelni kritici "nemaji opravu posuzovat"
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "Nevedela jsem, kde konci role a kde zacinam ja. Naucila jsem se citit, co on chce, ze budu citit. Plakala jsem na zkouskach, smala jsem se na zkouskach — vsechno bylo na zkousku. Uz jsem nevedela, jestli mam vlastni emoce."
 
-Tento popis odpovida [identitni dezintegraci](/glossary/epistemicka-alienace/) v specifické divadelní variante — splynuti s rolitou jako totalizovaný stav. Soucasne [betrayal trauma](/glossary/betrayal-trauma/) — duvera v umeleckou autoritu byla zneuzita.
+Tento popis odpovida [identitni dezintegraci](@/glossary/epistemicka-alienace.md) v specifické divadelní variante — splynuti s rolitou jako totalizovaný stav. Soucasne [betrayal trauma](@/glossary/betrayal-trauma.md) — duvera v umeleckou autoritu byla zneuzita.
 
 V pozdejsi fazi: "Nejtezsi je, ze nektere nase predstaveni byla skutečně velka. Ze kritika mela pravdu. Ze nebylo to vsechno spatne. Jak rozlisit umeni od zneuziti, kdyz oboje sloucilo do jednoho?"
 
 ## Detekcni bod
 
-Hospitalizace po zhrouceni na zkousce. Klicovy moment: psychiatricka konzultace, ktera identifikovala dissociativni rysy, eating disorder, a chronickou hyperaktivaci jako [c-PTSD](/glossary/c-ptsd/).
+Hospitalizace po zhrouceni na zkousce. Klicovy moment: psychiatricka konzultace, ktera identifikovala dissociativni rysy, eating disorder, a chronickou hyperaktivaci jako [c-PTSD](@/glossary/c-ptsd.md).
 
 ## Intervencni strategie
 
-Aplikovany protokol [epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/):
+Aplikovany protokol [epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
 
 **S1 - Stabilizace:** Hospitalizace, eating disorder treatment, opusteni souboru na nemocenskou.
 **S2 - Externi epistemicka kotva:** Kontakt s byvalymi cleny souboru, profesni divadelni kolegy mimo soubor.
@@ -85,11 +85,11 @@ Umelecka totalizace v divadle ukazuje, jak legitimni umelecke požadavky (autent
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
-- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-5.1.16](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/), [EA-2.1.1](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
+- **Techniques**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-5.1.16](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

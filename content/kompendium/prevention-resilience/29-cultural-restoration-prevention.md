@@ -58,19 +58,19 @@ Migranti po kulturním EA, indigenous komunity, ex-cult members, exilové komuni
 ## Cross-linky
 
 - [CER program](/cer/)
-- [Základní kategorie EA](/kompendium/03-zakladni-kategorie/)
-- [Ultramari techniky](/kompendium/05-ultramari-techniky/)
-- [Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Detection signatures](/kompendium/detection-signatures/)
-- [Emergency protocols](/kompendium/emergency-protocols/)
-- [Case studies](/kompendium/case-studies/)
-- [Educational scenarios](/kompendium/educational-scenarios/)
-- [Forensic & legal](/kompendium/forensic-legal/)
-- [Organizational defense](/kompendium/organizational-defense/)
-- [Quick reference](/kompendium/quick-reference/)
-- [Budování dětské reziliencie](/kompendium/prevention-resilience/1-childhood-resilience-foundation/)
-- [Školní prevence EA](/kompendium/prevention-resilience/2-school-based-prevention/)
+- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Detection signatures](@/kompendium/detection-signatures/_index.md)
+- [Emergency protocols](@/kompendium/emergency-protocols/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
+- [Forensic & legal](@/kompendium/forensic-legal/_index.md)
+- [Organizational defense](@/kompendium/organizational-defense/_index.md)
+- [Quick reference](@/kompendium/quick-reference/_index.md)
+- [Budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md)
+- [Školní prevence EA](@/kompendium/prevention-resilience/2-school-based-prevention.md)
 
 ---
 

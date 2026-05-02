@@ -43,25 +43,25 @@ Exit byl iniciovan akutni krizí — overdose pri zahranicni mu turné. Hospital
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — manažer jako absolutní autorita
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrola informačního pole subjekta
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z propadu popularity
-- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — kazdá kritika manažera = "závist"
-- [EA-5.1.7 Referencni rekurze](/kompendium/techniques/ea-5-1-7-referencni-rekurze/) — public persona jako jedina dostupna reference vlastni identity
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "buď manažera poslouchaš, nebo končíš"
-- [EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/) — neschopnost přestat sledovat sám sebe externíma očima
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — manažer jako absolutní autorita
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrola informačního pole subjekta
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z propadu popularity
+- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — kazdá kritika manažera = "závist"
+- [EA-5.1.7 Referencni rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) — public persona jako jedina dostupna reference vlastni identity
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "buď manažera poslouchaš, nebo končíš"
+- [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) — neschopnost přestat sledovat sám sebe externíma očima
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Nevedel jsem, kdo jsem mimo pódium a Instagram. Nikdo mě roky nenazval mým jménem — vsichni říkali můj umělecký pseudonym. Když jsem si v zrcadle podíval bez make-upu, neznal jsem toho člověka."
 
-Tato narace odráží [identitni dezintegraci](/glossary/epistemicka-alienace/) v celebrity-specifické variantě — splynutí s public personou. Současně [metakognitivni destrukce](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat vlastní stav z vnější perspektivy.
+Tato narace odráží [identitni dezintegraci](@/glossary/epistemicka-alienace.md) v celebrity-specifické variantě — splynutí s public personou. Současně [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat vlastní stav z vnější perspektivy.
 
 V pozdější fázi: "Manažer mi říkal, že mě miluje. Ale miloval verzi mě, kterou on vytvořil. Když jsem chtěl být sám sebou, řekl, že to není 'reálné'."
 
 ## Detekcni bod
 
-Overdose v zahraniční. Hospitalizace iniciovala detekci. Klicovy moment: nezávislý terapeut bez vazeb na management identifikoval [c-PTSD](/glossary/c-ptsd/) s substance use disorder.
+Overdose v zahraniční. Hospitalizace iniciovala detekci. Klicovy moment: nezávislý terapeut bez vazeb na management identifikoval [c-PTSD](@/glossary/c-ptsd.md) s substance use disorder.
 
 ## Intervencni strategie
 
@@ -77,15 +77,15 @@ Po 30 mesicich terapie funkcni stabilizace, restituce rodinnych vazeb, novy umel
 
 ## Klinicke pouceni
 
-Celebrity totalizace ukazuje koerci v industriálním kontextu prumyslu zábavy. Klinik musí rozpoznat, ze "celebrity burnout" maskuje hluboké [epistemicke trauma](/glossary/epistemicke-trauma/). Reformné implikace: ochrana mladých umelcu před koercivními manažerskými praktikami vyžaduje právní a profesní rámec.
+Celebrity totalizace ukazuje koerci v industriálním kontextu prumyslu zábavy. Klinik musí rozpoznat, ze "celebrity burnout" maskuje hluboké [epistemicke trauma](@/glossary/epistemicke-trauma.md). Reformné implikace: ochrana mladých umelcu před koercivními manažerskými praktikami vyžaduje právní a profesní rámec.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
-- **Techniques**: [EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), [EA-5.1.7](/kompendium/techniques/ea-5-1-7-referencni-rekurze/), [EA-5.1.13](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
+- **Techniques**: [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [EA-5.1.7](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), [EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

@@ -51,14 +51,14 @@ Klíčové koncepty: **genealogie kategorií**, **kritika typologií**, **glossa
 
 ## 6. Související
 
-- [03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Nabla framework](/kompendium/glossary-bridges/bridge-nabla/)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
-- [Glossary platform](/glossary/)
-- [Quick Reference: Teorie](/kompendium/quick-reference/)
-- [Visualizations](/kompendium/visualizations/)
-- [Case studies: filosofické](/kompendium/case-studies/)
+- [Glossary platform](@/glossary/_index.md)
+- [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
+- [Visualizations](@/kompendium/visualizations/_index.md)
+- [Case studies: filosofické](@/kompendium/case-studies/_index.md)
 
 ## 8. Reflexivní iterace: technika ↔ teorie
 
@@ -71,4 +71,4 @@ Bridge zdůrazňuje **reflexivní iteraci**: technika je popsána → teorie ji 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

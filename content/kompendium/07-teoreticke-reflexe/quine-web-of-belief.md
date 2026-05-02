@@ -42,7 +42,7 @@ Pro EA z toho plyne:
 
 - **Imunizace proti falsifikaci** (Lakatosův "ochranný pás") je strukturálně **legitimní** vědeckou strategií, ale **stejně tak** zneužívaná pseudovědou.
 - **Kritérium odlišení**: legitimní imunizace **přijímá další testovatelné předpovědi**, manipulativní imunizace **pouze chrání** centrální dogma.
-- Strukturální paralelismus s Lakatosovým výzkumným programem ([viz Glosář](/glossary/lakatos-vyzkumny-program/)).
+- Strukturální paralelismus s Lakatosovým výzkumným programem ([viz Glosář](@/glossary/lakatos-vyzkumny-program.md)).
 
 ## 3. Síť přesvědčení (*web of belief*)
 
@@ -65,8 +65,8 @@ Quineho pozdní pozice (*Epistemology Naturalized*, 1969): epistemologie není *
 
 Pro EA má naturalizovaná epistemologie **dvojí relevanci**:
 
-1. **Otevírá prostor pro empirické studium EA**: kompendium operuje strukturálně **naturalizovaně** — kombinuje filozofickou analýzu s empirickou psychotraumatologií ([viz 7.2](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)).
-2. **Riziko reduktivismu**: čistě naturalistická pozice může **eliminovat** normativní dimenzi epistemologie — kompendium proto **kombinuje** Quineho s **Habermasovskou** normativitou ([viz 7.1 §4](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)).
+1. **Otevírá prostor pro empirické studium EA**: kompendium operuje strukturálně **naturalizovaně** — kombinuje filozofickou analýzu s empirickou psychotraumatologií ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
+2. **Riziko reduktivismu**: čistě naturalistická pozice může **eliminovat** normativní dimenzi epistemologie — kompendium proto **kombinuje** Quineho s **Habermasovskou** normativitou ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 
 ## 5. Indeterminace překladu
 
@@ -75,7 +75,7 @@ Quine v *Word and Object* (1960) formuluje **tezi indeterminace překladu**: pro
 Pro EA z toho plyne:
 
 - **Manipulativní reinterpretace**: útočník může předkládat **alternativní** interpretace, jež jsou **strukturálně kompatibilní** s evidencí.
-- **Kritérium odlišení**: Davidsonův princip charity ([viz 7.25](/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation/)) a Quineho ekonomie umožňují **preferovat** některé interpretace nad jinými, ale neeliminují **strukturální možnost** alternativ.
+- **Kritérium odlišení**: Davidsonův princip charity ([viz 7.25](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)) a Quineho ekonomie umožňují **preferovat** některé interpretace nad jinými, ale neeliminují **strukturální možnost** alternativ.
 
 ## 6. Mapping na EA techniky
 
@@ -91,7 +91,7 @@ Pro EA z toho plyne:
 
 Pro Prismatic platformu má Quineho holismus **specifickou** relevanci:
 
-- **NABLA Infinity** ([viz §4.2 7.1](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) operuje **holisticky** — udržuje **celou síť** kontradikcí, nikoli pouze izolované konflikty.
+- **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **holisticky** — udržuje **celou síť** kontradikcí, nikoli pouze izolované konflikty.
 - **Decision Core** zaznamenává **propojení** rozhodnutí — strukturální mapování sítě.
 
 ## 8. Primární literatura
@@ -104,15 +104,15 @@ Pro Prismatic platformu má Quineho holismus **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.11 Kuhn: Paradigmatické revoluce](/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce/)
-- [7.12 Feyerabend: Anti-method](/kompendium/07-teoreticke-reflexe/feyerabend-anti-method/)
-- [7.25 Davidson: Radikální interpretace](/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation/)
-- [7.27 Putnam: Internal Realism](/kompendium/07-teoreticke-reflexe/putnam-internal-realism/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Lakatosův výzkumný program](/glossary/lakatos-vyzkumny-program/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.11 Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
+- [7.12 Feyerabend: Anti-method](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md)
+- [7.25 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
+- [7.27 Putnam: Internal Realism](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -121,4 +121,4 @@ Pro Prismatic platformu má Quineho holismus **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

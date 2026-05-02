@@ -65,16 +65,16 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 
 ## Cross-linky
 
-- [Kompendium — Úvod](/kompendium/02-uvod/)
-- [Základní kategorie EA](/kompendium/03-zakladni-kategorie/)
-- [Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Detection signatures](/kompendium/detection-signatures/)
-- [Recovery protocols](/kompendium/recovery-protocols/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Educational scenarios](/kompendium/educational-scenarios/)
-- [Case studies](/kompendium/case-studies/)
-- [Quick reference](/kompendium/quick-reference/)
+- [Kompendium — Úvod](@/kompendium/02-uvod/_index.md)
+- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Detection signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery protocols](@/kompendium/recovery-protocols/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [Quick reference](@/kompendium/quick-reference/_index.md)
 
 
 ## Connect

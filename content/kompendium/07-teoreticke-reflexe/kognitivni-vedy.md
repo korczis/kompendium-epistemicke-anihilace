@@ -18,7 +18,7 @@ toc = true
 
 Tato kapitola integruje **kognitivní vědy** do konceptuálního rámce kompendia. Bez explicitního propojení s empirickou architekturou mysli by taxonomie zůstala čistě filosofickou konstrukcí — neukotvenou v materiálním substrátu, na němž epistemická anihilace operuje. Kognitivní vědy nabízejí **mechanistická vysvětlení** zranitelností, jež manipulátor exploituje, a poskytují **empirické fundamenty** pro intervenční a obranné protokoly.
 
-Tři teoretické paradigmaty stojí v centru pozornosti: **duální systém zpracování** (Kahneman, Stanovich, Evans), **prediktivní kódování / aktivní inference** (Friston, Clark, Hohwy) a **embodied / enaktivní kognice** (Varela, Thompson, Gallagher, Noë). Každé paradigma osvětluje odlišnou dimenzi epistemické zranitelnosti, a teprve jejich integrace umožňuje porozumět [epistemické anihilaci](/glossary/epistemicka-anihilace/) jako multilevelovému fenoménu.
+Tři teoretické paradigmaty stojí v centru pozornosti: **duální systém zpracování** (Kahneman, Stanovich, Evans), **prediktivní kódování / aktivní inference** (Friston, Clark, Hohwy) a **embodied / enaktivní kognice** (Varela, Thompson, Gallagher, Noë). Každé paradigma osvětluje odlišnou dimenzi epistemické zranitelnosti, a teprve jejich integrace umožňuje porozumět [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) jako multilevelovému fenoménu.
 
 ## Duální systém zpracování
 
@@ -36,7 +36,7 @@ Kahnemanova rekonstrukce dvojsystémové teorie (*Thinking, Fast and Slow*, 2011
 | **Modifikovatelnost** | Obtížně přístupná introspekci | Přístupná reflexi |
 | **Spotřeba zdrojů** | Minimální (default mode) | Vysoká (executive control) |
 
-System 1 generuje **rychlé heuristické soudy** na základě rozpoznávání vzorců, asociativních spojů a afektivních markerů. System 2 disponuje **analytickou kapacitou**, ale je nákladný — jeho aktivace vyžaduje [metakognitivní](/glossary/metakognice/) signál ("toto vyžaduje pozornost") a dostatečné mentální zdroje.
+System 1 generuje **rychlé heuristické soudy** na základě rozpoznávání vzorců, asociativních spojů a afektivních markerů. System 2 disponuje **analytickou kapacitou**, ale je nákladný — jeho aktivace vyžaduje [metakognitivní](@/glossary/metakognice.md) signál ("toto vyžaduje pozornost") a dostatečné mentální zdroje.
 
 ### Exploitabilita System 1
 
@@ -78,18 +78,18 @@ Klíčové komponenty prediktivního zpracování:
 
 ### Manipulace prediktivního aparátu
 
-[Epistemická anihilace](/glossary/epistemicka-anihilace/) v rámci tohoto modelu představuje **systematickou kontaminaci generativního modelu**. Manipulátor neútočí na izolované fakty, ale na **prior beliefs**, jež strukturují, jak subjekt vůbec interpretuje nadcházející evidenci.
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) v rámci tohoto modelu představuje **systematickou kontaminaci generativního modelu**. Manipulátor neútočí na izolované fakty, ale na **prior beliefs**, jež strukturují, jak subjekt vůbec interpretuje nadcházející evidenci.
 
 Konkrétní mechanismy:
 
 - **Prior shaping** — Saturace informačního prostoru utváří očekávání ohledně toho, co je "normální", "pravděpodobné", "věrohodné". Subsequentní evidence je interpretována skrze tyto kontaminované priors.
 - **Precision weighting attack** — Manipulace hodnoty *precision* (důvěry) přiřazené různým zdrojům informace. Diskreditace legitimních zdrojů snižuje váhu jejich prediction errors; legitimizace manipulačních zdrojů zvyšuje váhu jejich vstupů.
-- **Prediction error suppression** — Když subjekt učiní krok do manipulační reality, [konfirmační bias](/glossary/konfirmacni-bias/) selektivně suprimuje prediction errors odporující novému modelu. Model se stabilizuje proti revizi.
+- **Prediction error suppression** — Když subjekt učiní krok do manipulační reality, [konfirmační bias](@/glossary/konfirmacni-bias.md) selektivně suprimuje prediction errors odporující novému modelu. Model se stabilizuje proti revizi.
 - **Active inference capture** — Manipulátor strukturuje subjektovo prostředí tak, aby konfirmovalo manipulační predikce. Subjekt aktivně modifikuje svět směrem k manipulační verzi reality.
 
-### Predikční rigidita a [anankastický režim](/glossary/anankasticky-rezim/)
+### Predikční rigidita a [anankastický režim](@/glossary/anankasticky-rezim.md)
 
-Pathologickou hyperverzí prediktivního uzávěru je **predikční rigidita**: stav, v němž generativní model přestává reagovat na prediction errors. Subjekt obývá uzavřený prediktivní koridor, jenž imunizuje sám sebe proti revizi. Tento stav strukturálně koresponduje s [anankastickým režimem](/glossary/anankasticky-rezim/) popsaným v sekci 03 — rigidní, kontroverzní, kompulzivně reprodukovaný kognitivní vzorec, jenž blokuje epistemickou flexibilitu.
+Pathologickou hyperverzí prediktivního uzávěru je **predikční rigidita**: stav, v němž generativní model přestává reagovat na prediction errors. Subjekt obývá uzavřený prediktivní koridor, jenž imunizuje sám sebe proti revizi. Tento stav strukturálně koresponduje s [anankastickým režimem](@/glossary/anankasticky-rezim.md) popsaným v sekci 03 — rigidní, kontroverzní, kompulzivně reprodukovaný kognitivní vzorec, jenž blokuje epistemickou flexibilitu.
 
 Z perspektivy aktivní inference je predikční rigidita **adaptivní** v krátké časové škále (minimalizuje krátkodobou predikční nejistotu) a **maladaptivní** v dlouhé (subjekt ztrácí schopnost detekovat strukturální změny prostředí). Manipulátor exploituje tento trade-off: nabízí krátkodobou kognitivní úlevu (jasný narativ) výměnou za dlouhodobou epistemickou kapacitu.
 
@@ -108,7 +108,7 @@ Klíčové teze:
 
 ### EA jako narušení tělesné integrity poznání
 
-Pokud je poznání vtělené, pak [epistemická anihilace](/glossary/epistemicka-anihilace/) operuje nejen na propozičních obsazích, ale na **tělesné a interakční úrovni**. Konkrétní manifestace:
+Pokud je poznání vtělené, pak [epistemická anihilace](@/glossary/epistemicka-anihilace.md) operuje nejen na propozičních obsazích, ale na **tělesné a interakční úrovni**. Konkrétní manifestace:
 
 - **Prosodická dominance** — Hlasová modulace manipulátora aktivuje subjektovy somatické markery autority/podřízenosti pre-reflexivně, před jakoukoli analytickou evaluací.
 - **Strategická proxemika** — Fyzická blízkost, výška, orientace těla utváří mocenskou geometrii, jež strukturuje subsequentní lingvistickou výměnu.
@@ -118,7 +118,7 @@ Pokud je poznání vtělené, pak [epistemická anihilace](/glossary/epistemicka
 
 ### Enaktivismus a kolektivní poznání
 
-Enaktivistická perspektiva implikuje, že individuální poznání je nedělitelně **dialogické** — vzniká v koordinované interakci s druhými. Z toho plyne, že [epistemická alienace](/glossary/epistemicka-alienace/) není pouze ztrátou individuálních epistemických kapacit, ale **destrukcí epistemického společenství**, v němž jednotlivec své kapacity uskutečňuje.
+Enaktivistická perspektiva implikuje, že individuální poznání je nedělitelně **dialogické** — vzniká v koordinované interakci s druhými. Z toho plyne, že [epistemická alienace](@/glossary/epistemicka-alienace.md) není pouze ztrátou individuálních epistemických kapacit, ale **destrukcí epistemického společenství**, v němž jednotlivec své kapacity uskutečňuje.
 
 Tradiční model "robustního racionálního individua" je z enaktivistické perspektivy iluzí: každý subjekt je neoddělitelně vsazen v epistemické komunitě, jejíž rozklad je primární patogenní operací totalitních a kultovních kontextů.
 
@@ -136,49 +136,49 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 
 ## Vztah k platformě Prismatic
 
-[NABLA Infinity](/glossary/nabla-infinity/) implementuje strukturní obranu napříč třemi úrovněmi:
+[NABLA Infinity](@/glossary/nabla-infinity.md) implementuje strukturní obranu napříč třemi úrovněmi:
 
 - **Duální systém**: NABLA L0–L4 explicitně oddělují rychlé heuristické zpracování od pomalé analytické evaluace, čímž implementují nucenou aktivaci "System 2" pro epistemicky kritické operace.
 - **Prediktivní kódování**: Axiom Contradiction Preservation (NABLA Axiom 2) brání systematickou supresi prediction errors; Provenance Mandatory (Axiom 7) udržuje dohledatelnost prior shaping.
-- **Embodied / enaktivní**: Kolektivní operace jsou strukturovány skrze [Color Teams](/glossary/color-teams/) — dialogická adversariální architektura, jež kompenzuje individuální zranitelnosti distributed cognition modelem.
+- **Embodied / enaktivní**: Kolektivní operace jsou strukturovány skrze [Color Teams](@/glossary/color-teams.md) — dialogická adversariální architektura, jež kompenzuje individuální zranitelnosti distributed cognition modelem.
 
 ## Související
 
 - [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
-- [7.2 Computational epistemology a NABLA](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.3 EA v digitálním věku](/kompendium/07-teoreticke-reflexe/digitalni-vek/)
-- [7.4 Politická a ideologická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [Sekce 07 — Teoretické reflexe (úvod)](/kompendium/07-teoreticke-reflexe/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [7.2 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.3 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
+- [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](/kompendium/04-klinika/)
 - [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
 - [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Kognitivní bias](/glossary/kognitivni-bias/)
-- [Glosář: Konfirmační bias](/glossary/konfirmacni-bias/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
+- [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
 - [Glosář: Lakatos](/glossary/lakatos/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 
 ## ⚡ Kritický krok
@@ -187,7 +187,7 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -200,4 +200,4 @@ Sofistikovaný manipulační útok operuje **napříč všemi třemi úrovněmi 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

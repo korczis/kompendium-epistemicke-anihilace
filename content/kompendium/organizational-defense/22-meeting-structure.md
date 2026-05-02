@@ -78,16 +78,16 @@ Templated agenda, dedicated note-taker (rotating), 5-minute decision summary, fo
 
 ## 6. Cross-linky
 
-- [Prověřování kontraktorů](/kompendium/organizational-defense/26-contractor-vetting/)
-- [Klasifikace informací](/kompendium/organizational-defense/27-information-classification/)
+- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
+- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
 - [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
-- [Náhrada vedení](/kompendium/organizational-defense/38-leadership-replacement/)
-- [Kulturní obnova](/kompendium/organizational-defense/39-cultural-rebuild/)
-- [Učení po incidentu](/kompendium/organizational-defense/40-post-incident-learning/)
-- [Odolnost představenstva](/kompendium/organizational-defense/1-board-resilience/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
+- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
+- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Templated agenda, dedicated note-taker (rotating), 5-minute decision summary, fo
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

@@ -17,7 +17,7 @@ access_level = "L2"
 
 # 6.10 Kolektivní/institucionální intervence
 
-Klinická intervence ([viz případy K.](/kompendium/06-klinicke-aplikace/pripad-akademie/) a [M.](/kompendium/06-klinicke-aplikace/pripad-doktorat/)) a personální/institucionální [prevence](/kompendium/06-klinicke-aplikace/preventivni-strategie/) se kombinují s **třetí kategorií** odpovědi — **kolektivní/institucionální intervencí**, jejíž cílem není individuální klinická léčba ani prosté zavedení preventivních norem, ale **adresování systémových manifestací** [epistemické anihilace](/glossary/epistemicka-anihilace/) a [kognitivní anihilace](/glossary/kognitivni-anihilace/) v rámci konkrétní instituce, výzkumné skupiny, profesní komunity nebo organizační struktury.
+Klinická intervence ([viz případy K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) a [M.](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md)) a personální/institucionální [prevence](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) se kombinují s **třetí kategorií** odpovědi — **kolektivní/institucionální intervencí**, jejíž cílem není individuální klinická léčba ani prosté zavedení preventivních norem, ale **adresování systémových manifestací** [epistemické anihilace](@/glossary/epistemicka-anihilace.md) a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) v rámci konkrétní instituce, výzkumné skupiny, profesní komunity nebo organizační struktury.
 
 Kolektivní intervence aktivuje, když bylo detekováno, že **jedna instituce produkuje opakované klinické případy** stejné struktury — což indikuje **strukturální vzorec** přesahující individuální patologii.
 
@@ -65,7 +65,7 @@ Pokud aktivace pokračuje:
 Souběžně s auditem:
 
 - **Klinická triáž všech indikovaných případů** — strukturované klinické vyhodnocení individuálních dopadů
-- **Klinická péče** — koordinace terapeutické intervence pro indikované jednotlivce ([viz supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/))
+- **Klinická péče** — koordinace terapeutické intervence pro indikované jednotlivce ([viz supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md))
 - **Skupinová podpora přeživších** — facilitované skupinové sezení s validní psychoterapeutickou kompetencí
 - **Personální ochrana whistleblowerů** — institucionální i právní ochrana před retaliací
 
@@ -75,12 +75,12 @@ Na základě strukturálního auditu:
 
 #### 4a — Personální opatření
 - **Dočasné odstavení od mentorské role** identifikovaných aktérů (s probíhajícím etickým procesem)
-- **Strukturovaný coaching** pro aktéry, jejichž jednání lze klasifikovat jako **neintencionální** (přenos vlastní filtrace; viz [kapitola 1, hraniční případ](/kompendium/03-zakladni-kategorie/kapitola-1/))
+- **Strukturovaný coaching** pro aktéry, jejichž jednání lze klasifikovat jako **neintencionální** (přenos vlastní filtrace; viz [kapitola 1, hraniční případ](@/kompendium/03-zakladni-kategorie/kapitola-1.md))
 - **Disciplinární proces** pro aktéry s **intencionálním** vzorcem
 - **Personální tranzice** — přerozdělení mentees, supervize jiných projektů
 
 #### 4b — Strukturální opatření
-- **Restrukturace mentorského systému** — implementace [pravidla dvou školitelů](/kompendium/06-klinicke-aplikace/preventivni-strategie/), externí ko-mentoři
+- **Restrukturace mentorského systému** — implementace [pravidla dvou školitelů](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md), externí ko-mentoři
 - **Reorganizace komunikačních kanálů** — obnovení anonymních zpětnovazebních cest, jejichž efektivita byla kompromitována
 - **Reforma etických komisí** — doplnění EA-kompetence, aktivace specializovaných podkomisí
 - **Implementace anti-Salami a anti-Trojan protokolů** — formalizovaná dokumentační a auditová praxe
@@ -125,9 +125,9 @@ Profesní komunity musí mít **funkční disciplinární mechanismy** s explici
 |---------|---------------------|----------------------|
 | **Akademie** | Etické komise univerzit, akademické senáty | Anti-mentor monopolizace, autorská etika |
 | **Psychoterapie** | Profesní komory | Dual-use riziko, hranice supervize |
-| **Medicína** | Lékařské komory | Iatrogenní indukce, [delegitimizace](/glossary/delegitimizace/) pacienta |
+| **Medicína** | Lékařské komory | Iatrogenní indukce, [delegitimizace](@/glossary/delegitimizace.md) pacienta |
 | **Právo** | Advokátní komory | Manipulace s důkazy, klientská delegitimizace |
-| **Žurnalistika** | Etické rady | [Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), framing |
+| **Žurnalistika** | Etické rady | [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), framing |
 
 Disciplinární mechanismy musí mít:
 
@@ -198,7 +198,7 @@ Kolektivní intervence v jedné instituci je **lokální zásah**. Strukturáln�
 - **Akademické publikace o procesu** — anonymizovaná publikace strukturálních lekcí, sdílení praxe
 - **Akademie historie EA-vzorců** — institucionální paměť konkrétních historických případů jako edukativní zdroj
 - **Profesní normalizace** — kultura, ve které **identifikace vzorce** je profesní zásluha, ne neloajalita
-- **Intergenerační přenos** — explicitní mentorování nové generace v EA-kompetenci, uzavírá smyčku k [preventivním strategiím](/kompendium/06-klinicke-aplikace/preventivni-strategie/) na kulturní úrovni
+- **Intergenerační přenos** — explicitní mentorování nové generace v EA-kompetenci, uzavírá smyčku k [preventivním strategiím](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) na kulturní úrovni
 
 Kolektivní intervence není koncovým stavem — je **iterativním procesem**, jehož cílem je transformace **kulturní infrastruktury**, ve které manipulativní techniky operují.
 
@@ -222,21 +222,21 @@ Kolektivní intervence je **mocný nástroj** — proto musí být sama struktur
 
 ## Související
 
-- [6.6 Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/) — sister článek
-- [6.7 Případová studie: Akademický kontext](/kompendium/06-klinicke-aplikace/pripad-akademie/) — sister článek
-- [6.8 Případová studie: Doktorské vedení](/kompendium/06-klinicke-aplikace/pripad-doktorat/) — sister článek
-- [6.9 Preventivní strategie](/kompendium/06-klinicke-aplikace/preventivni-strategie/) — sister článek
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) — parent
-- [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [Kapitola 2 — Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- [Kapitola 3 — Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/)
-- [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Anankastický režim](/glossary/anankasticky-rezim/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Gaslighting](/glossary/gaslighting/), [Delegitimizace](/glossary/delegitimizace/), [Dual-use poznání](/glossary/dual-use-poznani/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Metakognice](/glossary/metakognice/), [Hermeneutika](/glossary/hermeneutika/), [Fenomenologie](/glossary/fenomenologie/)
-- Platforma: [Decision Engine](/hub/dd/decisions/), [Nabla Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/), [Boundary Ethics](/philosophy/boundary-ethics/)
+- [6.6 Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) — sister článek
+- [6.7 Případová studie: Akademický kontext](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) — sister článek
+- [6.8 Případová studie: Doktorské vedení](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) — sister článek
+- [6.9 Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md) — sister článek
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — parent
+- [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [Kapitola 2 — Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
+- [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Gaslighting](@/glossary/gaslighting.md), [Delegitimizace](@/glossary/delegitimizace.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Metakognice](@/glossary/metakognice.md), [Hermeneutika](@/glossary/hermeneutika.md), [Fenomenologie](@/glossary/fenomenologie.md)
+- Platforma: [Decision Engine](/hub/dd/decisions/), [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
 
 
 ## ⚡ Kritický krok
@@ -249,9 +249,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -262,4 +262,4 @@ Před aplikací:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

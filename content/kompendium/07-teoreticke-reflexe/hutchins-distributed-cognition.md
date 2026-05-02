@@ -67,7 +67,7 @@ Pro EA má kognitivní etnografie **klíčový význam**:
 
 Hutchinsovo pojetí kognice je strukturálně **komputační** — kognice je **transformace reprezentací** napříč mediem (lidi, artefakty, instituce).
 
-Tato pozice je strukturálně **kompatibilní** s extended mind ([Clark, viz 7.41](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)) a strukturálně **napjatá** s anti-reprezentacionalistickým enaktivismem ([Varela, viz 7.45](/kompendium/07-teoreticke-reflexe/varela-enactivism/)).
+Tato pozice je strukturálně **kompatibilní** s extended mind ([Clark, viz 7.41](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)) a strukturálně **napjatá** s anti-reprezentacionalistickým enaktivismem ([Varela, viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)).
 
 Pro EA z toho plyne:
 
@@ -96,7 +96,7 @@ Každá dimenze má **specifické** zranitelnosti vůči EA.
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Kognitivní etnografie pacienta**: jaká je strukturální distribuce jeho kognice?
 - **Restituce distribuované kognice**: terapie nemůže být **omezena** na individuální subjekt — musí pracovat se **systémem**.
@@ -114,9 +114,9 @@ Distribuovaná kognice má **politický** rozměr:
 
 Pro Prismatic má Hutchinsova teorie **specifickou** relevanci:
 
-- **Color Teams** ([viz Glosář](/glossary/color-teams/)): strukturálně **distribuovaná kognice** — Red, Blue, Purple Team jsou kolektivními moduly.
-- **NABLA Infinity** ([viz Glosář](/glossary/nabla-infinity/)): strukturálně **distribuované** udržování hypotéz.
-- **Decision Core** ([viz Glosář](/glossary/decision-core/)): zaznamenává distribuované rozhodovací operace.
+- **Color Teams** ([viz Glosář](@/glossary/color-teams.md)): strukturálně **distribuovaná kognice** — Red, Blue, Purple Team jsou kolektivními moduly.
+- **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)): strukturálně **distribuované** udržování hypotéz.
+- **Decision Core** ([viz Glosář](@/glossary/decision-core.md)): zaznamenává distribuované rozhodovací operace.
 
 ## 10. Primární literatura
 
@@ -128,17 +128,17 @@ Pro Prismatic má Hutchinsova teorie **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.41 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.42 Clark: Natural-Born Cyborgs](/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs/)
-- [7.45 Varela: Enactivism](/kompendium/07-teoreticke-reflexe/varela-enactivism/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.42 Clark: Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md)
+- [7.45 Varela: Enactivism](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -147,4 +147,4 @@ Pro Prismatic má Hutchinsova teorie **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

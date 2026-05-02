@@ -51,14 +51,14 @@ Klíčové koncepty: **klinická SOP**, **klinický escalation tree**, **propou�
 
 ## 6. Související
 
-- [04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Case studies](/kompendium/case-studies/)
-- [Quick Reference: Klinika](/kompendium/quick-reference/)
-- [Visualizations: Sequence](/kompendium/visualizations/)
-- [Glossary: Klinika](/kompendium/glossary-bridges/)
-- [Techniques](/kompendium/techniques/)
-- [Decision Engine](/kompendium/glossary-bridges/bridge-decision-engine/)
+- [04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [Quick Reference: Klinika](@/kompendium/quick-reference/_index.md)
+- [Visualizations: Sequence](@/kompendium/visualizations/_index.md)
+- [Glossary: Klinika](@/kompendium/glossary-bridges/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Decision Engine](@/kompendium/glossary-bridges/bridge-decision-engine.md)
 
 ## 8. Klinická adaptace: protokol → SOP
 
@@ -71,4 +71,4 @@ Bridge zdůrazňuje, že **terminální protokol není přímo klinická SOP** �
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

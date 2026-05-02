@@ -51,14 +51,14 @@ Klíčové koncepty: **DecisionEngine jako technický substrát**, **kompendium 
 
 ## 6. Související
 
-- [Platform: Decision Engine](/glossary/)
-- [Kompendium 04 — Terminální](/kompendium/04-terminalni-protokoly/)
-- [Kompendium 06 — Klinika](/kompendium/06-klinicke-aplikace/)
-- [Glossary: DecisionEngine](/kompendium/glossary-bridges/bridge-decision-engine/)
+- [Platform: Decision Engine](@/glossary/_index.md)
+- [Kompendium 04 — Terminální](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Kompendium 06 — Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glossary: DecisionEngine](@/kompendium/glossary-bridges/bridge-decision-engine.md)
 - [Doctrine NMND](/kompendium/glossary-bridges/bridge-nmnd/)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
-- [Case Studies](/kompendium/case-studies/)
-- [Visualizations: Decision flow](/kompendium/visualizations/)
+- [Case Studies](@/kompendium/case-studies/_index.md)
+- [Visualizations: Decision flow](@/kompendium/visualizations/_index.md)
 
 ## 7. Meta-poznámka: kompendium jako policy source
 
@@ -71,4 +71,4 @@ DecisionEngine implementuje **rules**; kompendium dodává **policies**. Rozdíl
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

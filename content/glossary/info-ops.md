@@ -39,24 +39,24 @@ Within the Prismatic Platform, Info-Ops represents the **adversary capability ce
 
 - The Kompendium catalogues IO-relevant techniques across multiple chapters but treats Info-Ops itself as a **scenario class** rather than a single technique. State-level adversaries deploy combinations from the EA catalog with resources and persistence that exceed the standard threat model assumed for individual or small-group manipulation.
 - The [Decision Engine](/hub/dd/decisions/) implements **adversarial provenance scoring**: in environments with active IO, source diversity is necessary but not sufficient — the diverse sources must also pass cross-correlation checks for coordinated inauthentic behavior signatures.
-- [NABLA Infinity](/glossary/nabla-infinity/) source-provenance auditing is designed in part to defend against IO operations that exploit credentialed channels (compromised journalists, captured think-tanks, infiltrated NGOs).
-- [Color Teams](/glossary/color-teams/) Red Team scenarios at the highest tier model state-actor IO campaigns as the ceiling threat — if defenses hold against this, they hold against lesser threats.
-- The [Firehose of Falsehood](/glossary/firehose-of-falsehood/) entry describes one specific IO doctrinal approach.
-- [Deepfake](/glossary/deepfake/) capabilities are increasingly integrated into IO toolkits.
-- [Epistemic Security](/glossary/epistemic-security/) provides the field-level frame within which IO is the dominant external threat.
-- [Deplatforming](/glossary/deplatforming/) is sometimes deployed against detected IO operations but raises due-process concerns when applied by private platforms without judicial oversight.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) source-provenance auditing is designed in part to defend against IO operations that exploit credentialed channels (compromised journalists, captured think-tanks, infiltrated NGOs).
+- [Color Teams](@/glossary/color-teams.md) Red Team scenarios at the highest tier model state-actor IO campaigns as the ceiling threat — if defenses hold against this, they hold against lesser threats.
+- The [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entry describes one specific IO doctrinal approach.
+- [Deepfake](@/glossary/deepfake.md) capabilities are increasingly integrated into IO toolkits.
+- [Epistemic Security](@/glossary/epistemic-security.md) provides the field-level frame within which IO is the dominant external threat.
+- [Deplatforming](@/glossary/deplatforming.md) is sometimes deployed against detected IO operations but raises due-process concerns when applied by private platforms without judicial oversight.
 
 Info-Ops is the **realistic adversary** against which serious epistemic-security architecture must be designed. Defenses adequate against amateur trolls or commercial influence operations may collapse under state-grade IO pressure.
 
 ## See Also
 
-- [Epistemic Security](/glossary/epistemic-security/) — Field-level framing
-- [Firehose of Falsehood](/glossary/firehose-of-falsehood/) — Specific IO doctrine
-- [Deepfake](/glossary/deepfake/) — IO-integrated capability
-- [Deplatforming](/glossary/deplatforming/) — Counter-IO intervention
-- [Delegitimizace](/glossary/delegitimizace/) — Common IO target
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemic Security](@/glossary/epistemic-security.md) — Field-level framing
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) — Specific IO doctrine
+- [Deepfake](@/glossary/deepfake.md) — IO-integrated capability
+- [Deplatforming](@/glossary/deplatforming.md) — Counter-IO intervention
+- [Delegitimizace](@/glossary/delegitimizace.md) — Common IO target
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -65,4 +65,4 @@ Info-Ops is the **realistic adversary** against which serious epistemic-security
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

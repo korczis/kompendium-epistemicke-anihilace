@@ -43,19 +43,19 @@ Exit byl iniciovan IPO úspěchem (subjekt vydělal několik milionů USD), kter
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — founder jako vizionár
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "10x", "crush it", "moonshot"
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "ne fit"
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika = "negative attitude"
-- [EA-5.1.10 Temporalni dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) — startup time vs. normal time
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "all in or out"
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — identita = startup
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — founder jako vizionár
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "10x", "crush it", "moonshot"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "ne fit"
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika = "negative attitude"
+- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — startup time vs. normal time
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "all in or out"
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — identita = startup
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Po IPO jsem měl peníze, kvůli kterým jsem pět let nespal. A byl jsem prázdný. Sedl jsem si v luxusním bytě a uvědomil jsem si, že nemám žádné koníčky, žádné přátele mimo firmu, ne jsem schopen romantické vztahu. Vyměnil jsem identitu za stock options."
 
-Tato narace odpovida [identitni dezintegraci](/glossary/epistemicka-alienace/).
+Tato narace odpovida [identitni dezintegraci](@/glossary/epistemicka-alienace.md).
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Startup founder cult ukazuje, jak finanční motivace a ideologie se mohou kombi
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [iatrogenic-harm](/glossary/iatrogenic-harm/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-5.1.10](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

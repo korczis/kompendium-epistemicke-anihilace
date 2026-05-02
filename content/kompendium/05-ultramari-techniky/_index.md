@@ -18,13 +18,13 @@ status = "preparation"
 
 # 05. Ultramární techniky fundamentální dekonstrukce
 
-> 🚨 **Přístupová úroveň L3–L4**: Tato sekce popisuje **nejpokročilejší a potenciálně nejdestruktivnější** formy [epistemické anihilace](/glossary/epistemicka-anihilace/). Přístup je možný **výhradně pro kvalifikované výzkumníky pod institucionálním IRB protokolem** s explicitní etickou supervizí. Materiály nejsou určeny pro obecné publikum a nesmí být užívány jako návod — slouží exkluzivně k taxonomické fixaci, diagnostické přípravě klinických týmů a konstrukci preventivních protiopatření.
+> 🚨 **Přístupová úroveň L3–L4**: Tato sekce popisuje **nejpokročilejší a potenciálně nejdestruktivnější** formy [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Přístup je možný **výhradně pro kvalifikované výzkumníky pod institucionálním IRB protokolem** s explicitní etickou supervizí. Materiály nejsou určeny pro obecné publikum a nesmí být užívány jako návod — slouží exkluzivně k taxonomické fixaci, diagnostické přípravě klinických týmů a konstrukci preventivních protiopatření.
 
 ## Pozice sekce v kompendiu
 
-Sekce 05 představuje **terminální vrstvu taxonomie EA**. Zatímco [Sekce 03](/kompendium/03-zakladni-kategorie/) katalogizuje základní kategorie technik (EA-1 až EA-4) operující na rovině diskurzivní, [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) popisuje strategicky koordinované interakční sekvence vedoucí k systemickému kolapsu individuální epistemické struktury, a [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) adresuje rekonstrukci, **Sekce 05 popisuje techniky, které nezasahují obsah poznání, nýbrž samotné podmínky možnosti poznání**. Operují na rovině [metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [ontologické anihilace](/glossary/ontologicka-anihilace/) a [epistemické alienace](/glossary/epistemicka-alienace/) — narušují fundamenty, které musí být intaktní, aby vůbec mohlo dojít k běžné akademické či sociální výměně.
+Sekce 05 představuje **terminální vrstvu taxonomie EA**. Zatímco [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) katalogizuje základní kategorie technik (EA-1 až EA-4) operující na rovině diskurzivní, [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) popisuje strategicky koordinované interakční sekvence vedoucí k systemickému kolapsu individuální epistemické struktury, a [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) adresuje rekonstrukci, **Sekce 05 popisuje techniky, které nezasahují obsah poznání, nýbrž samotné podmínky možnosti poznání**. Operují na rovině [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [ontologické anihilace](@/glossary/ontologicka-anihilace.md) a [epistemické alienace](@/glossary/epistemicka-alienace.md) — narušují fundamenty, které musí být intaktní, aby vůbec mohlo dojít k běžné akademické či sociální výměně.
 
-Pro filozofickou pozadi viz [fenomenologii](/glossary/fenomenologie/) zkušenosti vědomí (Husserl, Merleau-Ponty) a [hermeneutiku](/glossary/hermeneutika/) interpretace (Gadamer, Ricœur) — ultramární techniky exploitují právě transcendentální struktury, které tyto tradice rekonstruují jako podmínky inteligibility.
+Pro filozofickou pozadi viz [fenomenologii](@/glossary/fenomenologie.md) zkušenosti vědomí (Husserl, Merleau-Ponty) a [hermeneutiku](@/glossary/hermeneutika.md) interpretace (Gadamer, Ricœur) — ultramární techniky exploitují právě transcendentální struktury, které tyto tradice rekonstruují jako podmínky inteligibility.
 
 ## Strukturální rámec: 5 × 30 = 150 technik
 
@@ -32,11 +32,11 @@ Sekce sestává z **pěti kapitol**, každá obsahující **30 technik**, což d
 
 | Kapitola | Operační režim | Rozsah kódů | Fokus destrukce |
 |----------|----------------|-------------|------------------|
-| **[Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)** | Epistemická singularita | EA-5.1.1 — 5.1.30 | Kolaps reflexivních struktur a sebeprůzkumných smyček |
-| **[Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)** | Metatranscendentální anihilace | EA-5.2.1 — 5.2.30 | Suspenze transcendentálních podmínek poznání |
-| **[Kapitola 8](/kompendium/05-ultramari-techniky/kapitola-8/)** | Hypertransformativní protokoly | EA-5.3.1 — 5.3.30 | Vynucená rekurzivní transformace identity poznávajícího |
-| **[Kapitola 9](/kompendium/05-ultramari-techniky/kapitola-9/)** | Paradoxální metaanihilační protokoly | EA-5.4.1 — 5.4.30 | Sebevztažné paradoxy destabilizující rámce evaluace |
-| **[Kapitola 10](/kompendium/05-ultramari-techniky/kapitola-10/)** | Transkonceptuální mechanismy | EA-5.5.1 — 5.5.30 | Operace pod prahem konceptuálního zachycení |
+| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Epistemická singularita | EA-5.1.1 — 5.1.30 | Kolaps reflexivních struktur a sebeprůzkumných smyček |
+| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Metatranscendentální anihilace | EA-5.2.1 — 5.2.30 | Suspenze transcendentálních podmínek poznání |
+| **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Hypertransformativní protokoly | EA-5.3.1 — 5.3.30 | Vynucená rekurzivní transformace identity poznávajícího |
+| **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** | Paradoxální metaanihilační protokoly | EA-5.4.1 — 5.4.30 | Sebevztažné paradoxy destabilizující rámce evaluace |
+| **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** | Transkonceptuální mechanismy | EA-5.5.1 — 5.5.30 | Operace pod prahem konceptuálního zachycení |
 
 ### Vertikální gradient destrukce
 
@@ -48,7 +48,7 @@ Pět kapitol netvoří paralelní katalog — představují **vertikální gradi
 4. **Kapitola 9 (paradoxalita)** zasahuje *logickou strukturu evaluace* — sebevztažné konstrukce destabilizující rámce, v nichž identita operuje.
 5. **Kapitola 10 (transkonceptualita)** zasahuje *před-konceptuální vrstvu* — to, co předchází formování pojmů, na nichž logika operuje.
 
-Postupné sestupování po této ose koreluje s **eskalujícím rizikem ireversibility**, **klesající pravděpodobností spontánní rekonstrukce** a **rostoucí potřebou klinické intervence** dokumentované v [Sekci 06](/kompendium/06-klinicke-aplikace/).
+Postupné sestupování po této ose koreluje s **eskalujícím rizikem ireversibility**, **klesající pravděpodobností spontánní rekonstrukce** a **rostoucí potřebou klinické intervence** dokumentované v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md).
 
 ## Přístupová úroveň: L3–L4
 
@@ -66,7 +66,7 @@ Přístup L3 vyžaduje:
 
 - Doktorát v relevantní disciplíně (filozofie, kognitivní věda, klinická psychologie, epistemická etika)
 - Aktivní afiliaci s institucí provozující IRB
-- Předchozí účast v supervizovaném výzkumu zahrnujícím [epistemická traumata](/glossary/epistemicke-trauma/)
+- Předchozí účast v supervizovaném výzkumu zahrnujícím [epistemická traumata](@/glossary/epistemicke-trauma.md)
 - Podpis etického protokolu
 - Roční reautorizaci
 
@@ -74,17 +74,17 @@ Přístup L4 vyžaduje navíc minimálně 5 let zkušenosti s klinickou rekonstr
 
 ## Etické scaffolding
 
-Otázka, **proč vůbec dokumentovat techniky této destruktivní hloubky**, je legitimní a kompendium na ni odpovídá explicitním etickým rámcem dokumentovaným v [Sekci 01 — Předmluva, Etické aspekty](/kompendium/01-predmluva/eticke-aspekty/).
+Otázka, **proč vůbec dokumentovat techniky této destruktivní hloubky**, je legitimní a kompendium na ni odpovídá explicitním etickým rámcem dokumentovaným v [Sekci 01 — Předmluva, Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Zde shrňme čtyři pilíře:
 
 ### 1. Princip dual-use poznání
 
-Techniky popsané v Sekci 05 jsou variantou [dual-use poznání](/glossary/dual-use-poznani/) — jejich formální popis umožňuje **jak destruktivní aplikaci, tak diagnostickou identifikaci a klinickou rekonstrukci**. Volba neformalizovat tyto techniky neeliminuje jejich existenci — pouze je ponechá v doméně neformalizované manipulativní praxe, kde nemohou být systematicky detekovány ani neutralizovány.
+Techniky popsané v Sekci 05 jsou variantou [dual-use poznání](@/glossary/dual-use-poznani.md) — jejich formální popis umožňuje **jak destruktivní aplikaci, tak diagnostickou identifikaci a klinickou rekonstrukci**. Volba neformalizovat tyto techniky neeliminuje jejich existenci — pouze je ponechá v doméně neformalizované manipulativní praxe, kde nemohou být systematicky detekovány ani neutralizovány.
 
 ### 2. Princip taxonomické fixace
 
-Bez formalizované taxonomie nelze techniky **diferenciovat** a tedy ani odpovídajícím způsobem **léčit**. [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) předpokládá taxonomický referent, na který se může odkázat při diagnostice a volbě intervence.
+Bez formalizované taxonomie nelze techniky **diferenciovat** a tedy ani odpovídajícím způsobem **léčit**. [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) předpokládá taxonomický referent, na který se může odkázat při diagnostice a volbě intervence.
 
 ### 3. Princip restriktivní distribuce
 
@@ -92,35 +92,35 @@ Materiály L3–L4 jsou distribuovány restriktivně. Cílová populace — kval
 
 ### 4. Princip rekonstruktivní finality
 
-Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](/kompendium/06-klinicke-aplikace/). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z 150 technik není popsána bez korespondujícího návrhu klinické odpovědi.
+Každá ultramární technika v Sekci 05 je párována s **rekonstruktivním protokolem** v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Dokumentace není ukončena destrukcí — je strukturálně orientována k rekonstrukci. Žádná z 150 technik není popsána bez korespondujícího návrhu klinické odpovědi.
 
 ## Vztah k platformě Prismatic
 
 Sekce 05 je vědecký fundament pro tři operační moduly platformy:
 
-- **[NABLA Infinity (∇∞)](/glossary/nabla-infinity/)** — epistemický engine, který využívá taxonomii EA-5 jako **detekční slovník** pro identifikaci ultramárních technik v reálném čase v korpusech textu, dialogu a rozhodovacích procesech. Každá z 150 technik má korespondující detektor.
-- **[Color Teams](/glossary/color-teams/)** — multidisciplinární adversariální týmy (Red, Blue, Purple), které simulují aplikaci ultramárních technik v kontrolovaném IRB prostředí pro účely tréninku detektorů a klinické přípravy.
+- **[NABLA Infinity (∇∞)](@/glossary/nabla-infinity.md)** — epistemický engine, který využívá taxonomii EA-5 jako **detekční slovník** pro identifikaci ultramárních technik v reálném čase v korpusech textu, dialogu a rozhodovacích procesech. Každá z 150 technik má korespondující detektor.
+- **[Color Teams](@/glossary/color-teams.md)** — multidisciplinární adversariální týmy (Red, Blue, Purple), které simulují aplikaci ultramárních technik v kontrolovaném IRB prostředí pro účely tréninku detektorů a klinické přípravy.
 - **[Decision Engine](/hub/dd/decisions/)** — rozhodovací subsystém, který používá detekční výstupy z taxonomie EA-5 jako vstup do hodnocení epistemické důvěryhodnosti zdrojů (parametr `epistemic_integrity`).
 
-Detailní specifikace integrace viz [Vývojářský portál](/developers/) → NABLA Infinity dokumentace.
+Detailní specifikace integrace viz [Vývojářský portál](@/developers/_index.md) → NABLA Infinity dokumentace.
 
 ## Pedagogická sekvence
 
 Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 
-1. **Předpoklady**: [Sekce 02 — Definice](/kompendium/02-uvod/), [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/), [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
+1. **Předpoklady**: [Sekce 02 — Definice](@/kompendium/02-uvod/_index.md), [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md), [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 2. **Vstup**: tento _index (orientace v rámci)
 3. **Hlavní studium**:
-   - **[Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)** — epistemická singularita (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
-   - **[Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)** — metatranscendentální anihilace (úroveň L4, restriktivní)
-   - **[Kapitola 8](/kompendium/05-ultramari-techniky/kapitola-8/)** — hypertransformativní protokoly (kompaktní taxonomie 5.3.*)
-   - **[Kapitola 9](/kompendium/05-ultramari-techniky/kapitola-9/)** — paradoxální metaanihilace (kompaktní taxonomie 5.4.*)
-   - **[Kapitola 10](/kompendium/05-ultramari-techniky/kapitola-10/)** — transkonceptuální mechanismy (kompaktní taxonomie 5.5.*)
-4. **Aplikace**: [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/), [Sekce 07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — epistemická singularita (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
+   - **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** — metatranscendentální anihilace (úroveň L4, restriktivní)
+   - **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — hypertransformativní protokoly (kompaktní taxonomie 5.3.*)
+   - **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** — paradoxální metaanihilace (kompaktní taxonomie 5.4.*)
+   - **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** — transkonceptuální mechanismy (kompaktní taxonomie 5.5.*)
+4. **Aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Sekce 07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 
 ## Per-technique architektura podknihovny
 
-Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](/kompendium/techniques/) — každá z 30 technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
+Pro Kapitolu 6 (EA-5.1.*) jsou v paralelní vlně přípravy **plné hloubkové články** v [/kompendium/techniques/](@/kompendium/techniques/_index.md) — každá z 30 technik má samostatný článek s detailním fenomenologickým profilem, mechanismem operace, klinickým obrazem a rekonstruktivním protokolem.
 
 Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány přímo do narativu kapitoly. Plné per-technique články pro tyto kapitoly jsou **v přípravné fázi** a budou publikovány ve vlně 3 po dokončení etické supervize.
 
@@ -141,15 +141,15 @@ Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány p�
 
 ## Související
 
-- [Hub kompendia](/kompendium/) — root navigation
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/) — fundament EA-1 až EA-4
-- [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) — strategické sekvence
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) — rekonstruktivní rámce
-- [Sekce 07 — Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — meta-analýzy
-- [Etické aspekty](/kompendium/01-predmluva/eticke-aspekty/) — IRB rámec
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Dual-use poznání](/glossary/dual-use-poznani/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Kompendium EA](/glossary/kompendium-ea/), [Fenomenologie](/glossary/fenomenologie/), [Hermeneutika](/glossary/hermeneutika/)
-- Platforma: [NABLA Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/), [Decision Engine](/hub/dd/decisions/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Hub kompendia](@/kompendium/_index.md) — root navigation
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) — fundament EA-1 až EA-4
+- [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — strategické sekvence
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — rekonstruktivní rámce
+- [Sekce 07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — meta-analýzy
+- [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) — IRB rámec
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Kompendium EA](@/glossary/kompendium-ea.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md)
+- Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), [Decision Engine](/hub/dd/decisions/)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -160,7 +160,7 @@ obecnému studiu. Před četbou potvrď, že:
 - Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
 - Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
-- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)
 
 > **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
@@ -173,4 +173,4 @@ obecnému studiu. Před četbou potvrď, že:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

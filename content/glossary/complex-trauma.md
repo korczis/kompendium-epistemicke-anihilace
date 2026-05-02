@@ -137,13 +137,13 @@ document.addEventListener('alpine:init', () => {
 
 ## See Also
 
-- [Trauma Spectrum](/glossary/trauma-spectrum/) — Parent category
-- [Trauma Bond](/glossary/trauma-bond/) — Characteristic complex-trauma feature
-- [Structural Dissociation](/glossary/structural-dissociation/) — Severe form
-- [Hippocampus and Trauma](/glossary/hippocampus-trauma/) — Neural substrate
-- [HPA Axis](/glossary/hpa-axis/) — Chronic dysregulation
-- [Fawn Response](/glossary/fawn-response/) — Adaptation to inescapable harm
-- [Kompendium](/kompendium/) — EA technique taxonomy
+- [Trauma Spectrum](@/glossary/trauma-spectrum.md) — Parent category
+- [Trauma Bond](@/glossary/trauma-bond.md) — Characteristic complex-trauma feature
+- [Structural Dissociation](@/glossary/structural-dissociation.md) — Severe form
+- [Hippocampus and Trauma](@/glossary/hippocampus-trauma.md) — Neural substrate
+- [HPA Axis](@/glossary/hpa-axis.md) — Chronic dysregulation
+- [Fawn Response](@/glossary/fawn-response.md) — Adaptation to inescapable harm
+- [Kompendium](@/kompendium/_index.md) — EA technique taxonomy
 
 ---
 
@@ -152,4 +152,4 @@ document.addEventListener('alpine:init', () => {
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

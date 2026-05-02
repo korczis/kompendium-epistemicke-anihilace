@@ -49,8 +49,8 @@ Jazykové hry nejsou izolovány — jsou **vsazeny** v širších **formách ži
 Pro kompendium EA má tato kategorie **zásadní význam**:
 
 - Útok na epistemické kapacity může být **šitý na míru** specifické formě života. Co funguje jako manipulace v jedné formě života (například apel na autoritu v hierarchické kultuře), může být v jiné formě života neúčinné.
-- **Sférická imunologie** Sloterdijka ([viz 7.1 §3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) strukturálně rezonuje s wittgensteinovskou formou života: oba pojmy popisují **podmínky možnosti** smysluplného fungování.
-- **Postmoderní fragmentace** ([viz 7.4](/kompendium/07-teoreticke-reflexe/postmodernismus/)) lze interpretovat jako **rozpad sdílené formy života** na multipl inkomensurabilních her.
+- **Sférická imunologie** Sloterdijka ([viz 7.1 §3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) strukturálně rezonuje s wittgensteinovskou formou života: oba pojmy popisují **podmínky možnosti** smysluplného fungování.
+- **Postmoderní fragmentace** ([viz 7.4](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)) lze interpretovat jako **rozpad sdílené formy života** na multipl inkomensurabilních her.
 
 ## 4. Sledování pravidla a paradox interpretace
 
@@ -62,13 +62,13 @@ Pro EA z toho plyne:
 
 - **Manipulace interpretací pravidel** je strukturální technikou. Útočník tvrdí: "Pravidlo X přece říká Y!" — ačkoli komunitní praxe říká Z. Bez fixní interpretační instance je tato manipulace **strukturálně možná**.
 - **Kripke-Wittgensteinův paradox** (Kripke 1982, *Wittgenstein on Rules and Private Language*) radikalizuje tuto pozici: bez komunitního ukotvení nelze rozlišit "sledování pravidla" od "interpretace pravidla v daném okamžiku".
-- Algoritmické systémy operující bez komunitní zpětné vazby ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) představují **systémové implementace** Kripke-Wittgensteinova paradoxu.
+- Algoritmické systémy operující bez komunitní zpětné vazby ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) představují **systémové implementace** Kripke-Wittgensteinova paradoxu.
 
 ## 5. Argument proti soukromému jazyku
 
 Wittgensteinův argument proti soukromému jazyku (PU §§243–315) ukazuje, že **smyslový jazyk** (mluvení o vlastních pocitech, vjemech, bolesti) není primárně **introspektivní deskripcí**, ale **veřejně naučenou praktikou** s veřejnými kritérii správnosti.
 
-Pro epistemické trauma ([viz 7.2](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)) má toto argumentaci **klinický význam**:
+Pro epistemické trauma ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) má toto argumentaci **klinický význam**:
 
 - **Gaslighting** je systematickým **rozpojováním** subjektu od veřejných kritérií jeho vlastních zážitků. "Ne, to jsi necítil/a." "To se ti zdálo." Subjekt je strukturálně odřezáván od jazykové komunity, jež jediná může jeho zážitkům dát význam.
 - **Klinická intervence** musí znovuzavázat subjekt do jazykové hry, v níž jeho zážitky mají interpretovatelnou tvář.
@@ -99,17 +99,17 @@ Pro epistemické trauma ([viz 7.2](/kompendium/07-teoreticke-reflexe/epistemicke
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.2 Epistemické trauma](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [7.16 Davidson: Radikální interpretace](/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation/)
-- [Sekce 02 — Úvod a definice](/kompendium/02-uvod/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.2 Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [7.16 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
+- [Sekce 02 — Úvod a definice](@/kompendium/02-uvod/_index.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -118,4 +118,4 @@ Pro epistemické trauma ([viz 7.2](/kompendium/07-teoreticke-reflexe/epistemicke
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

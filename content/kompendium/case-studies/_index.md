@@ -33,10 +33,10 @@ Vsechny pripady jsou **plne anonymizovane**. Identifikujici detaily byly menene;
 
 ## Cross-linky
 
-- [Hub kompendia](/kompendium/)
-- [Klinicke aplikace](/kompendium/06-klinicke-aplikace/)
-- [Quick reference](/kompendium/quick-reference/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Quick reference](@/kompendium/quick-reference/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
 
 ---
 

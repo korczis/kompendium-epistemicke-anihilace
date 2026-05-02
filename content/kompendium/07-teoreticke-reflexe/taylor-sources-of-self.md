@@ -47,7 +47,7 @@ Pro EA má pojem hyperdobra **klíčovou diagnostickou hodnotu**:
 
 - **Útok na hyperdobra** je strukturální technika EA — anihilace fundamentálního orientačního rámce subjektu.
 - **Manipulace hyperdober**: techniky, jež **přesouvají** hyperdobra v rámci subjektovy hierarchie (například instrumentalizace **autenticity** v komercializované self-help kultuře).
-- **Klinický korelát**: subjekt **bez** funkčních hyperdober vykazuje **strukturální dezorientaci** — strukturální analog Heideggerovy ztráty světa ([viz 7.14](/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete/)).
+- **Klinický korelát**: subjekt **bez** funkčních hyperdober vykazuje **strukturální dezorientaci** — strukturální analog Heideggerovy ztráty světa ([viz 7.14](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)).
 
 ## 3. Expresivismus
 
@@ -76,11 +76,11 @@ Tyto tři zdroje jsou **strukturálně napjaté** — v moderní subjektivitě *
 Pro EA z toho plyne:
 
 - **Manipulace skrze konflikt zdrojů**: techniky, jež **amplifikují** konflikt mezi zdroji ("věda vs. víra", "racionalita vs. intuice"), strukturálně **destabilizují** identitu.
-- **Riziko inflace jednoho zdroje**: scientistická redukce ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)), spirituální regrese, romantický eskapismus — všechny strukturálně **nedostatečné**.
+- **Riziko inflace jednoho zdroje**: scientistická redukce ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)), spirituální regrese, romantický eskapismus — všechny strukturálně **nedostatečné**.
 
 ## 5. Politika rozpoznání
 
-Taylor v *The Politics of Recognition* (1992) formuluje **politiku rozpoznání** (rezonuje s Honnethem, [viz 7.22](/kompendium/07-teoreticke-reflexe/honneth-rozpoznani/)): moderní subjekt **požaduje rozpoznání** ze strany sociálních institucí a politické komunity.
+Taylor v *The Politics of Recognition* (1992) formuluje **politiku rozpoznání** (rezonuje s Honnethem, [viz 7.22](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)): moderní subjekt **požaduje rozpoznání** ze strany sociálních institucí a politické komunity.
 
 Mis-rozpoznání (*misrecognition*) je strukturálně **anihilační**:
 
@@ -105,7 +105,7 @@ Pro EA má politika rozpoznání **trojí relevanci**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Hermeneutická terapie**: pacient se učí **reflektovat** vlastní interpretační rámec.
 - **Restituce hyperdober**: pacient identifikuje a **posiluje** své fundamentální závazky.
@@ -125,15 +125,15 @@ V *A Secular Age* (2007) Taylor rozšiřuje analýzu na **podmínky** moderního
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.14 Heidegger: Být-ve-světě](/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [7.22 Honneth: Rozpoznání](/kompendium/07-teoreticke-reflexe/honneth-rozpoznani/)
-- [7.31 MacIntyre: After Virtue](/kompendium/07-teoreticke-reflexe/macintyre-after-virtue/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [7.22 Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)
+- [7.31 MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -142,4 +142,4 @@ V *A Secular Age* (2007) Taylor rozšiřuje analýzu na **podmínky** moderního
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

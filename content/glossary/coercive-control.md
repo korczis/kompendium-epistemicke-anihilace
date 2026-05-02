@@ -31,23 +31,23 @@ Coercive control was criminalized in England and Wales in 2015 (Serious Crime Ac
 
 Within the Prismatic Platform, coercive control serves as a **structural analogue** to systematic epistemic annihilation operating at the dyadic relational scale rather than the group or societal scale.
 
-- The Kompendium's [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) chapter explicitly maps coercive control patterns onto EA technique clusters: isolation corresponds to EA-1.1.1 (selective exposure), intimidation involves EA-1.3.1 (immunization through fear), micro-regulation enacts EA-2 (cognitive annihilation via attention capture).
-- The [Anankastický režim](/glossary/anankasticky-rezim/) concept extends coercive control's "regime" framing into the epistemic domain — both share the logic of ambient, totalizing, low-intensity domination.
+- The Kompendium's [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) chapter explicitly maps coercive control patterns onto EA technique clusters: isolation corresponds to EA-1.1.1 (selective exposure), intimidation involves EA-1.3.1 (immunization through fear), micro-regulation enacts EA-2 (cognitive annihilation via attention capture).
+- The [Anankastický režim](@/glossary/anankasticky-rezim.md) concept extends coercive control's "regime" framing into the epistemic domain — both share the logic of ambient, totalizing, low-intensity domination.
 - The [Decision Engine](/hub/dd/decisions/) flags information sourced from individuals reporting coercive-control patterns as requiring elevated provenance scrutiny — testimony emerging from such relationships systematically underreports severity due to victim accommodation.
-- [DARVO](/glossary/darvo/) is one of the most reliable verbal signatures of coercive controllers under accountability pressure.
-- [Color Teams](/glossary/color-teams/) Blue Team protocols include coercive-control screening when modeling threat actors operating through proxies (compromised family members, intimate partners).
+- [DARVO](@/glossary/darvo.md) is one of the most reliable verbal signatures of coercive controllers under accountability pressure.
+- [Color Teams](@/glossary/color-teams.md) Blue Team protocols include coercive-control screening when modeling threat actors operating through proxies (compromised family members, intimate partners).
 
 Coercive control demonstrates that **systematic manipulation does not require formal organizational structure** — a single perpetrator can implement a totalist regime within a private dyad.
 
 ## See Also
 
-- [BITE Model](/glossary/bite-model/) — Group-scale analogue of coercive control
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Epistemic-domain parallel
-- [DARVO](/glossary/darvo/) — Diagnostic accountability-deflection pattern
-- [Gaslighting](/glossary/gaslighting/) — Reality-distortion subtype
-- [Anankastický režim](/glossary/anankasticky-rezim/) — Regime-of-control concept
-- [Taxonomie EA](/glossary/taxonomie-ea/) — Technique classification system
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [BITE Model](@/glossary/bite-model.md) — Group-scale analogue of coercive control
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Epistemic-domain parallel
+- [DARVO](@/glossary/darvo.md) — Diagnostic accountability-deflection pattern
+- [Gaslighting](@/glossary/gaslighting.md) — Reality-distortion subtype
+- [Anankastický režim](@/glossary/anankasticky-rezim.md) — Regime-of-control concept
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Technique classification system
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -56,4 +56,4 @@ Coercive control demonstrates that **systematic manipulation does not require fo
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

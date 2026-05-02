@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — kolaps fundamentální epistemické distinkce |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci kategoriálního aparátu, 24–48 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -180,33 +180,33 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 
 ### Často se kombinuje s
 
-- **[EA-5.2.1 Meta-epistemická inverze](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)** — inverze standardů činí redukci nezachytitelnou.
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — kategoriální struktura, která nese distinkci, je rozpouštěna.
-- **[EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)** — destrukce významových vztahů blízká redukci.
+- **[EA-5.2.1 Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)** — inverze standardů činí redukci nezachytitelnou.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — kategoriální struktura, která nese distinkci, je rozpouštěna.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — destrukce významových vztahů blízká redukci.
 
 ### Eskaluje do
 
-- **[EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)** — rozpad principů, kterými se konstituují předměty.
-- **[EA-5.2.8 Perspektivistický kolaps](/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps/)** — ztráta perspektivy jako takové.
+- **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — rozpad principů, kterými se konstituují předměty.
+- **[EA-5.2.8 Perspektivistický kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md)** — ztráta perspektivy jako takové.
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** explicitně udržuje **dvě úrovně tvrzení**: fenomenologickou (*systém zaznamenal X*) a propoziční (*X je skutečnost*) s odlišnou kalibrační logikou.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně udržuje **dvě úrovně tvrzení**: fenomenologickou (*systém zaznamenal X*) a propoziční (*X je skutečnost*) s odlišnou kalibrační logikou.
 - **OSINT framework** strukturálně rozlišuje **observation** od **inference** — distinkce strojově vynucovaná.
 - **[Decision Engine](/hub/dd/decisions/)** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.2 Transcendentální iluze](/kompendium/techniques/ea-5-2-2-transcendentalni-iluze/)
-  - [EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)
-  - [EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)
+  - [EA-5.2.2 Transcendentální iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md)
+  - [EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)
+  - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
 
 
 ## ⚡ Kritický krok
@@ -216,10 +216,10 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -231,4 +231,4 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

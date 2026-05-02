@@ -30,13 +30,13 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — narušení kategoriálního aparátu rozumu |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci kategoriálních schémat, 24–60 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
 **Kategoriální anihilace** je metatranscendentální technika, jíž jsou systematicky destruovány **kantovské rozumové kategorie** — substance, kauzalita, jednota, mnohost, modalita — které jako apriorní formy organizují veškerou možnou zkušenost. Subjekt ztrácí schopnost **kategoriálně syntetizovat** smyslový materiál, takže fenomény přestávají být **strukturovaně dány**.
 
-Na rozdíl od [EA-5.2.7 kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/), která rozpouští **konkrétní obsahy** kategorií, kategoriální anihilace operuje na úrovni **transcendentální logiky**: jsou destruovány **kategorie samé jako podmínka možnosti zkušenosti**. V Kantově terminologii: nejde o ztrátu dat ale o ztrátu **forem rozvažování** (Verstandeskategorien), bez nichž žádná zkušenost není koherentně možná.
+Na rozdíl od [EA-5.2.7 kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md), která rozpouští **konkrétní obsahy** kategorií, kategoriální anihilace operuje na úrovni **transcendentální logiky**: jsou destruovány **kategorie samé jako podmínka možnosti zkušenosti**. V Kantově terminologii: nejde o ztrátu dat ale o ztrátu **forem rozvažování** (Verstandeskategorien), bez nichž žádná zkušenost není koherentně možná.
 
 Subjekt v terminálním stadiu prožívá svět jako **proud nestrukturovaných intenzit** bez objektů, bez příčin, bez jednoty — stav blízký Kantovu hypotetickému "rapsodii vjemů" před kategoriální syntézou. Jazyk přetrvává, ale referuje k entitám, které nejsou kategoriálně konstituovány.
 
@@ -124,15 +124,15 @@ Buddhistická šúnyatá je rovněž odlišitelná — autentická praxe **neni�
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — slabší varianta na úrovni obsahů.
-- **[EA-5.2.13 Apriorní fragmentace](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/)** — paralelní destrukce apriorních forem smyslovosti.
-- **[EA-5.2.20 Apperceptivní rozklad](/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad/)** — destrukce transcendentální jednoty apperzepce.
-- **[EA-5.2.25 Kategoriální mlha](/kompendium/techniques/ea-5-2-25-kategorialni-mlha/)** — partial degradace kategoriální distinktnosti.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — slabší varianta na úrovni obsahů.
+- **[EA-5.2.13 Apriorní fragmentace](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)** — paralelní destrukce apriorních forem smyslovosti.
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)** — destrukce transcendentální jednoty apperzepce.
+- **[EA-5.2.25 Kategoriální mlha](@/kompendium/techniques/ea-5-2-25-kategorialni-mlha.md)** — partial degradace kategoriální distinktnosti.
 
 ### Cross-kategoriální
 
-- **[EA-5.1.* Ontologické rozpouštění](/kompendium/05-ultramari-techniky/kapitola-6/)** — paralelní destrukce na ontologické rovině.
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — eskalační následek ztráty kategoriální struktury.
+- **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — paralelní destrukce na ontologické rovině.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek ztráty kategoriální struktury.
 
 ## Vztah k Prismatic platformě
 
@@ -142,17 +142,17 @@ Buddhistická šúnyatá je rovněž odlišitelná — autentická praxe **neni�
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4 = kosmická).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) a konzultuj se supervizí.
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
+- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
 
@@ -162,4 +162,4 @@ Buddhistická šúnyatá je rovněž odlišitelná — autentická praxe **neni�
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

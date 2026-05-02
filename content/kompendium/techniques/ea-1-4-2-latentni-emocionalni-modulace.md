@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Vysoká — strukturální mechanismus pro dlouhodobé manipulace |
 | **Reverzibilita** | Střední — vyžaduje vědomé monitorování emocionálních reakcí |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
-**Latentní emocionální modulace** je **subtilní indukce** specifických emocionálních stavů — **anxiety**, **frustrace**, **vina**, **stud**, **strach**, **identitní hrozba** — k **modulaci kognitivních procesů** a **epistemických tendencí**. Strukturálně **sourozenecká** s [EA-1.4.1 Prosodickou dominancí](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/), ale s odlišným cílem: dominance signalizuje autoritu; modulace **mění emocionální stav** subjektu, aby modulovala jeho **kognici**.
+**Latentní emocionální modulace** je **subtilní indukce** specifických emocionálních stavů — **anxiety**, **frustrace**, **vina**, **stud**, **strach**, **identitní hrozba** — k **modulaci kognitivních procesů** a **epistemických tendencí**. Strukturálně **sourozenecká** s [EA-1.4.1 Prosodickou dominancí](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), ale s odlišným cílem: dominance signalizuje autoritu; modulace **mění emocionální stav** subjektu, aby modulovala jeho **kognici**.
 
 Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivní zpracování — emocionální stres redukuje **System 2** uvažování, zvyšuje **heuristickou** evaluaci, snižuje **toleranci** kognitivní disonance. Manipulátor **strategicky** generuje specifický emocionální stav, který **predisponuje** subjekt k specifickému typu reakce.
 
@@ -213,10 +213,10 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 
 ### Často se kombinuje s
 
-- **[EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** — sourozenecká: dominance + modulace synergují.
-- **[EA-1.5.2 Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)** — neverbální dominance + emocionální modulace = **comprehensive** psychic pressure.
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — emocionální cost falsifikace zvyšuje effectiveness imunizace.
-- **[EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** — emocionální tlak na rychlé rozhodnutí v binárním rámci.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — sourozenecká: dominance + modulace synergují.
+- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — neverbální dominance + emocionální modulace = **comprehensive** psychic pressure.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — emocionální cost falsifikace zvyšuje effectiveness imunizace.
+- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — emocionální tlak na rychlé rozhodnutí v binárním rámci.
 
 ### Eskaluje do
 
@@ -236,16 +236,16 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.4):
-  - [EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
+  - [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
 - **Příbuzné z (1.5)**:
-  - [EA-1.5.1 Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)
-  - [EA-1.5.2 Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)
+  - [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)
+  - [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Epistemická alienace](/glossary/epistemicka-alienace/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 
 
 ## ⚡ Kritický krok
@@ -255,10 +255,10 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -270,4 +270,4 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

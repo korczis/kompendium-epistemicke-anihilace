@@ -22,22 +22,22 @@ Tato sekce pokládá **konceptuální základy** kompendia. Definuje klíčové 
 
 | # | Článek | Téma |
 |---|--------|------|
-| 2.1 | [Definice epistemické a kognitivní anihilace](/kompendium/02-uvod/definice/) | Základní pojmy a jejich vymezení |
-| 2.2 | [Historický kontext studia epistemických traumat](/kompendium/02-uvod/historicky-kontext/) | Vývoj zkoumání, intelektuální předchůdci |
-| 2.3 | [Teoretické základy a konceptuální rámec](/kompendium/02-uvod/teoreticke-zaklady/) | Epistemologie, kognitivní psychologie, filozofie mysli |
-| 2.4 | [Metodologické poznámky k taxonomii](/kompendium/02-uvod/metodologicke-poznamky/) | Klasifikační kritéria, validační principy |
+| 2.1 | [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md) | Základní pojmy a jejich vymezení |
+| 2.2 | [Historický kontext studia epistemických traumat](@/kompendium/02-uvod/historicky-kontext.md) | Vývoj zkoumání, intelektuální předchůdci |
+| 2.3 | [Teoretické základy a konceptuální rámec](@/kompendium/02-uvod/teoreticke-zaklady.md) | Epistemologie, kognitivní psychologie, filozofie mysli |
+| 2.4 | [Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) | Klasifikační kritéria, validační principy |
 
 ## Související
 
-- [Hub kompendia](/kompendium/)
-- [Předchozí sekce: Předmluva](/kompendium/01-predmluva/)
-- [Následující sekce: Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Předchozí sekce: Předmluva](@/kompendium/01-predmluva/_index.md)
+- [Následující sekce: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
-[definici epistemické anihilace](/glossary/epistemicka-anihilace/) a zapiš si ji
+[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
 referenční bod pro detekci vlastního posunu pochopení.
@@ -51,4 +51,4 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

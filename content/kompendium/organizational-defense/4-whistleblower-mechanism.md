@@ -78,16 +78,16 @@ GDPR-compliant šifrování end-to-end, zákaz odvet (whistleblower act), extern
 
 ## 6. Cross-linky
 
-- [Role ombudsmana](/kompendium/organizational-defense/6-ombudsman-role/)
-- [Mandát etického ředitele](/kompendium/organizational-defense/7-ethics-officer-mandate/)
-- [Cykly revize politik](/kompendium/organizational-defense/8-policy-review-cycles/)
-- [Interní vyšetřování](/kompendium/organizational-defense/32-internal-investigation/)
-- [Právní podpora v krizi](/kompendium/organizational-defense/33-legal-counsel-engagement/)
+- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
+- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
 - [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
 - [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ GDPR-compliant šifrování end-to-end, zákaz odvet (whistleblower act), extern
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

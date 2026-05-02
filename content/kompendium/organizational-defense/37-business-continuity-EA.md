@@ -78,16 +78,16 @@ Scenario-based BCP, interim leadership bench, customer retention playbook, vendo
 
 ## 6. Cross-linky
 
-- [Interní vyšetřování](/kompendium/organizational-defense/32-internal-investigation/)
-- [Právní podpora v krizi](/kompendium/organizational-defense/33-legal-counsel-engagement/)
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
 - [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
 - [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
-- [Anonymní zpětná vazba](/kompendium/organizational-defense/14-anonymous-feedback/)
+- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
 - [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
-- [Psychologická bezpečnost](/kompendium/organizational-defense/16-psychological-safety/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Scenario-based BCP, interim leadership bench, customer retention playbook, vendo
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

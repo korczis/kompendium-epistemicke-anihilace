@@ -25,20 +25,20 @@ Aplikace techniky Paternity claim ve specifickém kontextu vedoucí k delegitimi
 
 - Pokles důvěryhodnosti subjektu v percepci klíčových publik
 - Zhoršené přístupy k epistemickým zdrojům (publikace, financování, peer)
-- Sekundární psychické symptomy ([epistemicke-trauma](/glossary/epistemicke-trauma/), [c-ptsd](/glossary/c-ptsd/))
+- Sekundární psychické symptomy ([epistemicke-trauma](@/glossary/epistemicke-trauma.md), [c-ptsd](@/glossary/c-ptsd.md))
 
 ## Neutralizace
 
 1. Externí validace skrze nezávislé komunity
 2. Strukturální dokumentace (preserved correspondence, audit trail)
-3. Profesionální podpora ([epistemicka-rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/))
+3. Profesionální podpora ([epistemicka-rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md))
 
 ## Cross-linky
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim/](/kompendium/techniques/)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- **Scenar**: [Scenar A](/kompendium/03-zakladni-kategorie/scenar-f/), [F](/kompendium/03-zakladni-kategorie/scenar-f/), [G](/kompendium/03-zakladni-kategorie/scenar-g/), [H](/kompendium/03-zakladni-kategorie/scenar-h/)
-- **Glossary**: [delegitimizace](/glossary/delegitimizace/), [gaslighting](/glossary/gaslighting/), [taxonomie-ea](/glossary/taxonomie-ea/)
+- **Detailni clanek**: [/kompendium/techniques/ea-2-2-8-intellectual-paternity-claim/](@/kompendium/techniques/_index.md)
+- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
+- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
 
 ---
 

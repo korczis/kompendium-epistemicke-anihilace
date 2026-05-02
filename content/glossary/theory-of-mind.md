@@ -39,13 +39,13 @@ Recovery work at [/kompendium/06-zotaveni/duvera/](/kompendium/06-zotaveni/duver
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat framework
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process damage
-- [Metakognice](/glossary/metakognice/) — Reflective monitoring of own ToM-attributions
-- [Intencionalita](/glossary/intentionalita/) — Aboutness-structure presupposed by ToM
-- [Embodied Cognition](/glossary/embodied-cognition/) — Enactivist grounding of ToM
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage
+- [Metakognice](@/glossary/metakognice.md) — Reflective monitoring of own ToM-attributions
+- [Intencionalita](@/glossary/intentionalita.md) — Aboutness-structure presupposed by ToM
+- [Embodied Cognition](@/glossary/embodied-cognition.md) — Enactivist grounding of ToM
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -54,4 +54,4 @@ Recovery work at [/kompendium/06-zotaveni/duvera/](/kompendium/06-zotaveni/duver
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

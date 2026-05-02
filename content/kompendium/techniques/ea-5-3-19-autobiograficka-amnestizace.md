@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození identitárně-kognitivní integrity, dlouhodobé následky |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukční terapeutický rámec, často 12–36 měsíců |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -101,26 +101,26 @@ EA-5.3.2 (autobiografická dekonstrukce), EA-5.3.8 (mnemonická rekonfigurace)
 
 ## Vztah k Prismatic platformě
 
-Technika **autobiografická amnestizace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. [Decision Engine](/hub/dd/decisions/) udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](/glossary/nabla-infinity/) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](/glossary/color-teams/) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.19.
+Technika **autobiografická amnestizace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. [Decision Engine](/hub/dd/decisions/) udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.19.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky**: [Subkategorie 5.3 Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/#subkategorie-ea-5-3)
 - **Cross-categorical**:
   - [EA-5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/#subkategorie-5-1)
   - [EA-5.5 Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-5-5)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Narrative identity](/glossary/narrative-identity/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Narrative identity](@/glossary/narrative-identity.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## Teoretické zázemí
@@ -169,33 +169,33 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 
 ## Cross-linky expandované
 
-- [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Subkategorie 5.3 Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/#subkategorie-ea-5-3)
 - [EA-5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/#subkategorie-5-1)
 - [EA-5.2 Onto-singulární mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-5-2)
 - [EA-5.4 Konvergenční techniky](/kompendium/05-ultramari-techniky/#subkategorie-5-4)
 - [EA-5.5 Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-5-5)
 - [EA-1.6 Charizmatické vedení](/kompendium/01-zakladni-techniky/#subkategorie-1-6)
-- [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
-- [Glossary: Narrative identity](/glossary/narrative-identity/)
-- [Glossary: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glossary: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glossary: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glossary: Taxonomie EA](/glossary/taxonomie-ea/)
+- [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+- [Glossary: Narrative identity](@/glossary/narrative-identity.md)
+- [Glossary: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glossary: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
 - [Decision Engine](/hub/dd/decisions/)
-- [NABLA Infinity](/glossary/nabla-infinity/)
-- [Color Teams](/glossary/color-teams/)
+- [NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Color Teams](@/glossary/color-teams.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
+- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
 
@@ -205,4 +205,4 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Patologizace normálních variací](/kompendium/critical-perspectives/2-pathologization-critique/)
-- [Framework overreach — když EA vysvětluje vše](/kompendium/critical-perspectives/3-framework-overreach/)
-- [Kruhové uvažování v EA detekci](/kompendium/critical-perspectives/4-circular-reasoning-risk/)
-- [Kulturní zaujatost EA kategorií](/kompendium/critical-perspectives/10-cultural-bias-critique/)
+- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
+- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
+- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
 - [Publikační etika v EA literatuře](/kompendium/critical-perspectives/20-publication-ethics-EA/)
-- [Iatrogenní účinky EA intervencí](/kompendium/critical-perspectives/11-iatrogenic-overreach/)
-- [Systémová teorie jako alternativa](/kompendium/critical-perspectives/21-systems-theory-alternative/)
-- [Riziko falešně pozitivních detekcí](/kompendium/critical-perspectives/5-false-positive-risk/)
-- [Politická instrumentalizace EA](/kompendium/critical-perspectives/6-political-instrumentalization/)
+- [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)
+- [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
+- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
 - [Reprodukční krize a EA výzkum](/kompendium/critical-perspectives/7-replication-EA-research/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

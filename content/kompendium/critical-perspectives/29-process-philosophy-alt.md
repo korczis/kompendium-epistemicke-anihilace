@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Buddhistická psychologie](/kompendium/critical-perspectives/30-buddhist-psychology-alt/)
-- [Feministická epistemologie](/kompendium/critical-perspectives/28-feminist-epistemology-alt/)
-- [Dekoloniální epistemologie](/kompendium/critical-perspectives/27-decolonial-epistemology/)
-- [Výzkumná exploatace v EA studiích](/kompendium/critical-perspectives/19-research-exploitation/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Patologizace normálních variací](/kompendium/critical-perspectives/2-pathologization-critique/)
-- [Framework overreach — když EA vysvětluje vše](/kompendium/critical-perspectives/3-framework-overreach/)
-- [Kruhové uvažování v EA detekci](/kompendium/critical-perspectives/4-circular-reasoning-risk/)
-- [Riziko falešně pozitivních detekcí](/kompendium/critical-perspectives/5-false-positive-risk/)
-- [Politická instrumentalizace EA](/kompendium/critical-perspectives/6-political-instrumentalization/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Buddhistická psychologie](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md)
+- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
+- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
+- [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
+- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
+- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

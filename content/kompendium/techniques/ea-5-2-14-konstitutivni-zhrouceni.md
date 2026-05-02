@@ -30,13 +30,13 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps konstitutivní subjektivity |
 | **Reverzibilita** | Velmi nízká — 30–60 měsíců terapeutické rekonstrukce |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
 **Konstitutivní zhroucení** je metatranscendentální technika, jíž je destruována subjektova schopnost **konstituovat objekty zkušenosti** husserlovskou intencionální syntézou. *Konstituce* (*Konstitution*) je v transcendentální fenomenologii proces, jímž vědomí strukturně **vytváří** jednotu objektu z noematických aspektů — adumbrací, profilů, prožitkových hledisek. Bez konstitutivní syntézy zůstává vědomí uvězněné v **pluralitě izolovaných adumbrací** bez jednoty objektu.
 
-Na rozdíl od [EA-5.2.5 konstitutivního rozpadu](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/), který narušuje **konkrétní konstitutivní akty**, konstitutivní zhroucení operuje na úrovni **konstitutivní kapacity samé**: schopnost subjektu sjednocovat aspekty do objektu je systematicky destruována. Husserl by řekl, že **noeticko-noematická korelace** je rozbita.
+Na rozdíl od [EA-5.2.5 konstitutivního rozpadu](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md), který narušuje **konkrétní konstitutivní akty**, konstitutivní zhroucení operuje na úrovni **konstitutivní kapacity samé**: schopnost subjektu sjednocovat aspekty do objektu je systematicky destruována. Husserl by řekl, že **noeticko-noematická korelace** je rozbita.
 
 Subjekt v terminálním stadiu vidí **profily, ale ne věci**: vidí "stranu z této perspektivy" a "stranu z druhé", ale neví, že je to "tatáž věc". Identita objektu napříč adumbracemi je ztracena. Komunikace přetrvává díky lingvistické rutině, ale referenční stabilita je narušena.
 
@@ -120,14 +120,14 @@ Konstitutivní zhroucení je odlišitelné od:
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.5 Konstitutivní rozpad](/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad/)** — slabší varianta na úrovni jednotlivých aktů.
-- **[EA-5.2.17 Husserlovská redukce - perverze](/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze/)** — zneužití fenomenologické redukce.
-- **[EA-5.2.21 Subjekt-objekt fúzia](/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia/)** — komplementární destrukce subjekt-objektové struktury.
-- **[EA-5.2.26 Schemata rozpad](/kompendium/techniques/ea-5-2-26-schemata-rozpad/)** — destrukce kantovských schémat.
+- **[EA-5.2.5 Konstitutivní rozpad](@/kompendium/techniques/ea-5-2-5-konstitutivni-rozpad.md)** — slabší varianta na úrovni jednotlivých aktů.
+- **[EA-5.2.17 Husserlovská redukce - perverze](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md)** — zneužití fenomenologické redukce.
+- **[EA-5.2.21 Subjekt-objekt fúzia](@/kompendium/techniques/ea-5-2-21-subjekt-objekt-fuzia.md)** — komplementární destrukce subjekt-objektové struktury.
+- **[EA-5.2.26 Schemata rozpad](@/kompendium/techniques/ea-5-2-26-schemata-rozpad.md)** — destrukce kantovských schémat.
 
 ### Cross-kategoriální
 
-- **[EA-5.1.* Ontologické rozpouštění](/kompendium/05-ultramari-techniky/kapitola-6/)** — paralelní destrukce na ontologické rovině.
+- **[EA-5.1.* Ontologické rozpouštění](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — paralelní destrukce na ontologické rovině.
 
 ## Vztah k Prismatic platformě
 
@@ -137,16 +137,16 @@ Konstitutivní zhroucení je odlišitelné od:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -157,4 +157,4 @@ Konstitutivní zhroucení je odlišitelné od:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -151,9 +151,9 @@ Cíl: rekonstrukce koherentní epistemické narrativy zkušenosti a integrace p�
 **Komponenty:**
 
 - **Strukturovaná narrativní rekonstrukce** — Subjekt vytváří vlastní narrativu zkušenosti, podporován bez direkce
-- **Edukativní debrief** — Explicitní popis mechanismů, kterým byl subjekt vystaven (technika [transparentní dekonstrukce](/kompendium/techniques/))
+- **Edukativní debrief** — Explicitní popis mechanismů, kterým byl subjekt vystaven (technika [transparentní dekonstrukce](@/kompendium/techniques/_index.md))
 - **Meta-kognitivní review** — Reflexe vlastních reakčních vzorců a copingových strategií
-- **Konfrontace s pre-existujícími konceptuálními schématy** — Strukturovaná integrace zkušenosti s [pre-existujícími přesvědčeními](/glossary/epistemicka-anihilace/)
+- **Konfrontace s pre-existujícími konceptuálními schématy** — Strukturovaná integrace zkušenosti s [pre-existujícími přesvědčeními](@/glossary/epistemicka-anihilace.md)
 - **Validace epistemické autonomie** — Explicitní afirmace subjektovy schopnosti vlastní interpretace zkušenosti
 
 ### Emocionální reintegrace
@@ -199,7 +199,7 @@ Cíl: regulace autonomního systému; resolution somatických sekvel; rekonstruk
 Standardní IRB nepostačuje. Pro práci s terminálními protokoly je nezbytný **specializovaný review board** s následující strukturou:
 
 **Povinné role:**
-- Klinický psycholog nebo psychiatr s expertízou v trauma a [epistemické anihilaci](/glossary/epistemicka-anihilace/)
+- Klinický psycholog nebo psychiatr s expertízou v trauma a [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
 - Etik specializovaný na výzkumnou etiku v high-risk oblastech
 - Právní expert v oblasti výzkumné etiky a informovaného souhlasu
 - Subject advocate — osoba zastupující perspektivu participantů
@@ -388,11 +388,11 @@ Každý adverse event musí vést k **strukturované integraci poznatků** do pr
 
 Robustní bezpečnostní protokoly nejsou pouze procedurálním ukotvením, ale vyžadují integraci s platformovou infrastrukturou:
 
-- **[Color Teams](/glossary/color-teams/)** — Strukturovaná vícebarevná evaluace rizikového profilu (red team adversarial probing, blue team defensive analysis, purple team integration); aplikovatelná na review protokolů před implementací.
+- **[Color Teams](@/glossary/color-teams.md)** — Strukturovaná vícebarevná evaluace rizikového profilu (red team adversarial probing, blue team defensive analysis, purple team integration); aplikovatelná na review protokolů před implementací.
 - **[Decision Engine](/hub/dd/decisions/)** — Evidence-based formální hodnocení rozhodnutí včetně calibration tracking (Brier score, ECE) pro evaluaci kvality klinických a operačních rozhodnutí.
-- **[NABLA Infinity Framework](/glossary/nabla-infinity/)** — Formální reprezentace epistemických trajektorií subjektů; podporuje detekci subtilních epistemických změn, které by jinak unikly standardnímu screeningu.
-- **[Filozofie: Intelektuální suverenita](/philosophy/intellectual-sovereignty/)** — Filozofický rámec, který informuje cílový stav reintegrace (zachování či rekonstituce epistemické autonomie).
-- **[Filozofie: Epistemická integrita](/philosophy/epistemic-integrity/)** — Etický rámec definující obligace výzkumníka vůči subjektovi.
+- **[NABLA Infinity Framework](@/glossary/nabla-infinity.md)** — Formální reprezentace epistemických trajektorií subjektů; podporuje detekci subtilních epistemických změn, které by jinak unikly standardnímu screeningu.
+- **[Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)** — Filozofický rámec, který informuje cílový stav reintegrace (zachování či rekonstituce epistemické autonomie).
+- **[Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)** — Etický rámec definující obligace výzkumníka vůči subjektovi.
 
 ## Závěr
 
@@ -408,24 +408,24 @@ Pro výzkumné a klinické instituce z toho vyplývá, že **práce s termináln
 
 Žádný protokol nemůže garantovat absolutní bezpečnost při práci v této oblasti. Cílem je dosáhnout **přijatelné úrovně rizika** ve vztahu k explicitně artikulovaným benefitům, s plnou transparentností tohoto trade-off vůči všem stakeholderům — subjektům, výzkumníkům, instituci a širší společnosti.
 
-Návaznost: [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) detailuje terapeutické rámce pro post-traumatic recovery a long-term care subjektů, kteří byli (ať už v klinickém, výcvikovém nebo adversariálním kontextu) vystaveni terminálním protokolům.
+Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) detailuje terapeutické rámce pro post-traumatic recovery a long-term care subjektů, kteří byli (ať už v klinickém, výcvikovém nebo adversariálním kontextu) vystaveni terminálním protokolům.
 
 ## Související
 
-- [Sekce 04 — Terminální protokoly (úvod)](/kompendium/04-terminalni-protokoly/)
-- [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
-- [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/) — terapeutické rámce
-- [Techniky: EA-1.X.Y](/kompendium/techniques/) — specifické manipulační techniky
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Color Teams](/glossary/color-teams/) — strukturovaná multi-perspektivní evaluace
-- [NABLA Infinity Framework](/glossary/nabla-infinity/) — formální epistemická reprezentace
-- [Filozofie: Intelektuální suverenita](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemická integrita](/philosophy/epistemic-integrity/)
+- [Sekce 04 — Terminální protokoly (úvod)](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
+- [Sekce 03: Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické rámce
+- [Techniky: EA-1.X.Y](@/kompendium/techniques/_index.md) — specifické manipulační techniky
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md) — strukturovaná multi-perspektivní evaluace
+- [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální epistemická reprezentace
+- [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - [Decision Engine](/hub/dd/decisions/) — evidence-based hodnocení rozhodnutí
 
 
@@ -434,16 +434,16 @@ Návaznost: [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -452,4 +452,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

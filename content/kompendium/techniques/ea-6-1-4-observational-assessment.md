@@ -32,7 +32,7 @@ parent_chapter = "/kompendium/06-klinicke-aplikace/"
 | **Přístupová úroveň** | L2 (klinická) |
 | **Riziková úroveň** | Střední — vyžaduje kvalifikovaného klinika |
 | **Reverzibilita** | Vysoká při řádné implementaci |
-| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) |
 
 ## Definice
 
@@ -239,7 +239,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Komplementární k [EA-6.1.1 strukturálnímu rozhovoru](/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor/), specifikuje [EA-6.1.6 fyziologický monitoring](/kompendium/techniques/ea-6-1-6-fyziologicke-monitoring/), informuje [EA-6.2.8 somatic experiencing](/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol/).
+Komplementární k [EA-6.1.1 strukturálnímu rozhovoru](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md), specifikuje [EA-6.1.6 fyziologický monitoring](@/kompendium/techniques/ea-6-1-6-fyziologicke-monitoring.md), informuje [EA-6.2.8 somatic experiencing](@/kompendium/techniques/ea-6-2-8-somatic-experiencing-protokol.md).
 
 ## Vztah k Prismatic platformě
 
@@ -254,33 +254,33 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Sesterské techniky (6.1 Diagnostické techniky)
 
-- [EA-6.1.1 Screeningový strukturální rozhovor](/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor/)
-- [EA-6.1.2 Self-report instrument](/kompendium/techniques/ea-6-1-2-self-report-instrument/)
-- [EA-6.1.3 Collateral interview (rozhovor s blízkými)](/kompendium/techniques/ea-6-1-3-collateral-interview/)
-- [EA-6.1.5 Neuropsychologické vyšetření](/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni/)
-- [EA-6.1.6 Fyziologické monitoring](/kompendium/techniques/ea-6-1-6-fyziologicke-monitoring/)
-- [EA-6.1.7 Trauma history protokol](/kompendium/techniques/ea-6-1-7-trauma-history-protokol/)
-- [EA-6.1.8 Disociativní spektrum assessment](/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment/)
-- [EA-6.1.9 Metakognitivní functional assessment](/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment/)
-- [EA-6.1.10 Epistemická trust assessment](/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment/)
+- [EA-6.1.1 Screeningový strukturální rozhovor](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md)
+- [EA-6.1.2 Self-report instrument](@/kompendium/techniques/ea-6-1-2-self-report-instrument.md)
+- [EA-6.1.3 Collateral interview (rozhovor s blízkými)](@/kompendium/techniques/ea-6-1-3-collateral-interview.md)
+- [EA-6.1.5 Neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md)
+- [EA-6.1.6 Fyziologické monitoring](@/kompendium/techniques/ea-6-1-6-fyziologicke-monitoring.md)
+- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md)
+- [EA-6.1.8 Disociativní spektrum assessment](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)
+- [EA-6.1.9 Metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md)
+- [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md)
 
 ### Rodičovská kapitola
 
-- [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 
 ### Glosář
 
-- [c-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Epistemická trauma](/glossary/epistemicke-trauma/)
-- [Gaslighting](/glossary/gaslighting/)
-- [Iatrogenní harm](/glossary/iatrogenic-harm/)
-- [Disociace](/glossary/disociace/)
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/)
+- [c-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Epistemická trauma](@/glossary/epistemicke-trauma.md)
+- [Gaslighting](@/glossary/gaslighting.md)
+- [Iatrogenní harm](@/glossary/iatrogenic-harm.md)
+- [Disociace](@/glossary/disociace.md)
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md)
 
 ### Prismatic platforma
 
 - [Prismatic Nabla](/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
 - [OSINT toolbox](/osint/toolbox/) — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
 - [Decision Engine](/hub/dd/decisions/) — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](/academy/) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci

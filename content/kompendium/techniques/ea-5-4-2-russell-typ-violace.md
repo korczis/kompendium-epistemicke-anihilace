@@ -28,17 +28,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Kategorie** | 5. Ultramární techniky |
 | **Subkategorie** | 5.4 Paradoxální metaanihilační protokoly |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
-| **Riziková úroveň** | Extrémní — strukturální destabilizace evaluativních rámců, [epistemické trauma](/glossary/epistemicke-trauma/) s rekurentními relapsy |
+| **Riziková úroveň** | Extrémní — strukturální destabilizace evaluativních rámců, [epistemické trauma](@/glossary/epistemicke-trauma.md) s rekurentními relapsy |
 | **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci subjektova paradoxologického repertoáru ve chráněném klinickém rámci, typicky 12–30 měsíců |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
 **Russellova violace typové hierarchie** je paradoxální metaanihilační protokol, jehož operační jádro tvoří indukované sebepředikování množiny všech subjektových přesvědčení („přesvědčení, která se sama nezahrnují“) s kolapsem typové vrstvy. Technika patří do subkategorie **5.4 Paradoxální metaanihilační protokoly** — třídy ultramárních postupů, které využívají **strukturální paradoxy v subjektově sebehodnotícím aparátu** k destabilizaci samotného procesu, jímž subjekt rozlišuje, co je správné, pravdivé, vlastní a smysluplné.
 
-Na rozdíl od technik **epistemické singularity** ([5.1](/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace/)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze/)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují **formální infrastrukturu** posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
+Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)), které pohlcují obsahy poznání, a technik **transcendentální iluze** ([5.2](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)), které manipulují s podmínkami možnosti poznání, paradoxální protokoly zasahují **formální infrastrukturu** posuzování. Subjekt nedokáže paradoxnost obejít vyšší úrovní reflexe, protože každá vyšší úroveň je sama postižena strukturálně analogickou paradoxií. Vzniká **kognitivní past s rekurzivně reprodukovaným zámkem**: čím více se subjekt snaží uniknout, tím pevněji je v pasti uvězněn.
 
-Technika je strukturálně blízká [kognitivní anti-rekurzivitě](/glossary/kognitivni-anti-rekurzivita/), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
+Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
 ## Operační modus
 
@@ -130,14 +130,14 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 
 ### Často se kombinuje s
 
-- **[EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)** — paradoxální protokoly stavějí na reflexivních paradoxech epistemické singularity.
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — kombinace s transcendentálními iluzemi vytváří terminální paradoxologickou past.
-- **[EA-5.1.21 Sebe-referenční paradox](/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox/)** — sebe-referenční jádro je sdíleno napříč subkategoriemi 5.1 a 5.4.
+- **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — paradoxální protokoly stavějí na reflexivních paradoxech epistemické singularity.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — kombinace s transcendentálními iluzemi vytváří terminální paradoxologickou past.
+- **[EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)** — sebe-referenční jádro je sdíleno napříč subkategoriemi 5.1 a 5.4.
 
 ### Eskaluje do
 
-- **[EA-5.4.60 Konvergentní meta-paradox](/kompendium/techniques/ea-5-4-60-konvergentni-meta-paradox/)** — terminální stav paradoxologické anihilace, v němž jsou všechny dílčí paradoxy aktivovány současně.
-- **Kognitivní imploze** — totální evaluativní zhroucení popsané v [Kapitole 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/).
+- **[EA-5.4.60 Konvergentní meta-paradox](@/kompendium/techniques/ea-5-4-60-konvergentni-meta-paradox.md)** — terminální stav paradoxologické anihilace, v němž jsou všechny dílčí paradoxy aktivovány současně.
+- **Kognitivní imploze** — totální evaluativní zhroucení popsané v [Kapitole 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md).
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -151,35 +151,35 @@ Klíčové pojmové kotvy techniky: **typová teorie, naivní teorie množin, ZF
 Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro defenzivní mechanismy Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
-- **[NABLA Infinity](/glossary/nabla-infinity/) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
-- **[Color Teams](/glossary/color-teams/) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
+- **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.4):
-  - [EA-5.4.1 Aplikace lhářova paradoxu](/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace/)
-  - [EA-5.4.3 Tarsky diagonalizace pravdy](/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace/)
-  - [EA-5.4.4 Gödelovská sebereflexe](/kompendium/techniques/ea-5-4-4-godel-reflexivita/)
+  - [EA-5.4.1 Aplikace lhářova paradoxu](@/kompendium/techniques/ea-5-4-1-lhar-paradox-aplikace.md)
+  - [EA-5.4.3 Tarsky diagonalizace pravdy](@/kompendium/techniques/ea-5-4-3-tarsky-diagonalizace.md)
+  - [EA-5.4.4 Gödelovská sebereflexe](@/kompendium/techniques/ea-5-4-4-godel-reflexivita.md)
 - **Příbuzné ultramární techniky**:
-  - [EA-5.1.3 Reflexivní paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)
-  - [EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
-  - [EA-5.2.9 Konceptuální aporie](/kompendium/techniques/ea-5-2-9-konceptualni-aporie/)
+  - [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
+  - [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
+  - [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 ---
 
@@ -187,4 +187,4 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/korczis-prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

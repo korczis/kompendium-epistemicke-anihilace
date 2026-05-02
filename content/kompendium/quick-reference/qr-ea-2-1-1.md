@@ -41,10 +41,10 @@ Senior klinický psycholog, který odmítl podporovat módní diagnózu, začne 
 
 ## Cross-linky
 
-- **Detailni clanek**: [/kompendium/techniques/ea-2-1-1-expertni-disinflation/](/kompendium/techniques/)
-- **Rodic**: [Kapitola 2 — Scenare delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- **Scenar**: [Scenar A](/kompendium/03-zakladni-kategorie/scenar-f/), [F](/kompendium/03-zakladni-kategorie/scenar-f/), [G](/kompendium/03-zakladni-kategorie/scenar-g/), [H](/kompendium/03-zakladni-kategorie/scenar-h/)
-- **Glossary**: [delegitimizace](/glossary/delegitimizace/), [gaslighting](/glossary/gaslighting/), [taxonomie-ea](/glossary/taxonomie-ea/)
+- **Detailni clanek**: [/kompendium/techniques/ea-2-1-1-expertni-disinflation/](@/kompendium/techniques/_index.md)
+- **Rodic**: [Kapitola 2 — Scenare delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- **Scenar**: [Scenar A](@/kompendium/03-zakladni-kategorie/scenar-f.md), [F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
+- **Glossary**: [delegitimizace](@/glossary/delegitimizace.md), [gaslighting](@/glossary/gaslighting.md), [taxonomie-ea](@/glossary/taxonomie-ea.md)
 
 ---
 

@@ -16,7 +16,7 @@ toc = true
 
 # 7.33 Nussbaumová: Capabilities approach a lidský rozkvět
 
-Martha Nussbaumová ve spolupráci s Amartyou Senem ([viz 7.34](/kompendium/07-teoreticke-reflexe/sen-development-as-freedom/)) rozvíjí **capabilities approach** — etickou a politickou teorii, podle níž **kvalita lidského života** se měří **schopnostmi** subjektu **být** a **dělat** to, co považuje za **smysluplné**.
+Martha Nussbaumová ve spolupráci s Amartyou Senem ([viz 7.34](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md)) rozvíjí **capabilities approach** — etickou a politickou teorii, podle níž **kvalita lidského života** se měří **schopnostmi** subjektu **být** a **dělat** to, co považuje za **smysluplné**.
 
 V knihách *Women and Human Development* (2000) a *Creating Capabilities* (2011) Nussbaumová formuluje **seznam centrálních lidských schopností** — strukturální mapping toho, co je **fundamentálně** vyžadováno pro **lidský rozkvět** (*human flourishing*).
 
@@ -88,7 +88,7 @@ Capabilities approach má **politickou** dimenzi:
 
 Pro EA z toho plyne:
 
-- **Politická EA** ([viz 7.8](/kompendium/07-teoreticke-reflexe/politicka-ea/)) lze diagnostikovat jako **systémové podkopání kapacit** populace.
+- **Politická EA** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)) lze diagnostikovat jako **systémové podkopání kapacit** populace.
 - **Klimatická EA**: ekologická destrukce strukturálně podkopává **schopnost 8** (vztah ke zvířatům, rostlinám, přírodě).
 
 ## 5. Vzdělávání a EA
@@ -116,11 +116,11 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Capabilities-based assessment**: hodnocení pacienta podle **schopností**, nikoli pouze symptomů.
 - **Klinický cíl**: restituce kapacit, nikoli pouze "stabilizace".
-- **Narativní terapie** ([Ricoeur, viz 7.17](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)) operuje strukturálně na nussbaumovské narativní představivosti.
+- **Narativní terapie** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na nussbaumovské narativní představivosti.
 
 ## 8. Primární literatura
 
@@ -132,15 +132,15 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.17 Ricoeur: Trojí mimésis](/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese/)
-- [7.22 Honneth: Rozpoznání](/kompendium/07-teoreticke-reflexe/honneth-rozpoznani/)
-- [7.32 Taylor: Sources of Self](/kompendium/07-teoreticke-reflexe/taylor-sources-of-self/)
-- [7.34 Sen: Development as Freedom](/kompendium/07-teoreticke-reflexe/sen-development-as-freedom/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.17 Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+- [7.22 Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)
+- [7.32 Taylor: Sources of Self](@/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md)
+- [7.34 Sen: Development as Freedom](@/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -149,4 +149,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

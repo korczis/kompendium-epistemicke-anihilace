@@ -57,7 +57,7 @@ Pro EA z toho plyne:
 
 - **Útok na radikální svobodu** je strukturální technika: deterministické rámce ("nemůžeš jinak", "tvoje DNA tě nutí", "ekonomické zákony to vynucují") jsou **manipulativní**, i když mají vědecký nátěr.
 - **Defenzivní zneužití** Sartra: "vše je svobodná volba" může být použito jako **maska pro strukturální násilí** — zatímco systém vytváří podmínky, jednotlivec je obviňován ze "špatné volby".
-- Kompendium proto **kombinuje** Sartrův důraz na svobodu se **strukturální analýzou** podmínek (Foucault, [viz 7.1 §1](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)).
+- Kompendium proto **kombinuje** Sartrův důraz na svobodu se **strukturální analýzou** podmínek (Foucault, [viz 7.1 §1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
 
 ## 4. *Le regard* (Pohled druhého)
 
@@ -65,7 +65,7 @@ Sartre analyzuje strukturální fenomén **pohledu druhého** (*le regard*): kdy
 
 Pro EA má pohled druhého **specifickou relevanci**:
 
-- **Panoptismus** Foucaulta ([viz 7.1 §1.2](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) je **internalizací** sartrovského pohledu — subjekt internalizuje pohled dohlížitele jako svůj vlastní.
+- **Panoptismus** Foucaulta ([viz 7.1 §1.2](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) je **internalizací** sartrovského pohledu — subjekt internalizuje pohled dohlížitele jako svůj vlastní.
 - **Sociální média** strukturálně **multiplikují** pohled druhého — subjekt je permanentně objektivizován algoritmickým a peer-pohledem.
 - **Klinický korelát**: sociální úzkost, body dysmorphia, performativní self — vše může být interpretováno jako **patologie pohledu druhého**.
 
@@ -90,7 +90,7 @@ Pro EA má tato pozice **dvojí relevanci**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Detekce mauvaise foi** je diagnostickým úkolem — subjekt v sebeklamu vyžaduje **specifickou** terapeutickou strategii.
 - **Existenciální analýza** (Frankl, Yalom) operuje na sartrovských kategoriích.
@@ -108,18 +108,18 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 - Jak **kombinovat** sartrovskou svobodu se **strukturální analýzou** podmínek?
 - Lze mauvaise foi **algoritmicky detekovat**?
-- Jaký je vztah mauvaise foi a **politické indoktrinace** ([viz 7.8](/kompendium/07-teoreticke-reflexe/politicka-ea/))?
+- Jaký je vztah mauvaise foi a **politické indoktrinace** ([viz 7.8](@/kompendium/07-teoreticke-reflexe/politicka-ea.md))?
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.14 Heidegger: Být-ve-světě](/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.9 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.9 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -128,4 +128,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

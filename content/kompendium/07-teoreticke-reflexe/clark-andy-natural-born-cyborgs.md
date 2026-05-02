@@ -16,7 +16,7 @@ toc = true
 
 # 7.49 Clark: Natural-Born Cyborgs a hluboká integrace s technologiemi
 
-Andy Clark v knize *Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence* (2003) rozšiřuje thezi rozšířené mysli ([viz 7.41](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)) na **antropologickou tezi**: lidská bytost je **strukturálně kyborgem** — naše inteligence se **strukturálně vyvinula** ve symbiotickém vztahu s **technologiemi**.
+Andy Clark v knize *Natural-Born Cyborgs: Minds, Technologies, and the Future of Human Intelligence* (2003) rozšiřuje thezi rozšířené mysli ([viz 7.41](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)) na **antropologickou tezi**: lidská bytost je **strukturálně kyborgem** — naše inteligence se **strukturálně vyvinula** ve symbiotickém vztahu s **technologiemi**.
 
 Pro kompendium EA poskytuje tato teze nástroj pro pochopení **EA technik využívajících strukturální technologickou závislost** — zejména v digitální éře.
 
@@ -107,7 +107,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Diagnostika technologického rozšíření pacienta**: jaké technologie jsou strukturálně součástí?
 - **Detoxifikace digital addiction**: pomalé, strukturované odstranění problematických rozšíření.
@@ -131,17 +131,17 @@ Clark má **silnou** politickou pozici:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.41 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.42 Metzinger: Ego Tunnel](/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel/)
-- [7.48 Hutchins: Distribuovaná kognice](/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition/)
-- [7.50 Dawkins: Mem](/kompendium/07-teoreticke-reflexe/dawkins-meme/)
-- [7.55 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
+- [7.48 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
+- [7.50 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
+- [7.55 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -150,4 +150,4 @@ Clark má **silnou** politickou pozici:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

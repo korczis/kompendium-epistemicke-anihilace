@@ -51,14 +51,14 @@ Klíčové koncepty: **klinický pattern**, **klinický fenotyp**, **case-based 
 
 ## 6. Související
 
-- [Case Studies](/kompendium/case-studies/)
-- [06 — Klinika](/kompendium/06-klinicke-aplikace/)
-- [Techniques](/kompendium/techniques/)
-- [Quick Reference: Klinika](/kompendium/quick-reference/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Visualizations: Case flow](/kompendium/visualizations/)
-- [Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Ultramari](/kompendium/05-ultramari-techniky/)
+- [Case Studies](@/kompendium/case-studies/_index.md)
+- [06 — Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Quick Reference: Klinika](@/kompendium/quick-reference/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Visualizations: Case flow](@/kompendium/visualizations/_index.md)
+- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Ultramari](@/kompendium/05-ultramari-techniky/_index.md)
 
 ## 7. Meta-poznámka: case studies jako epistemic driver
 
@@ -71,4 +71,4 @@ Case Studies nejsou pouze ilustrace — jsou **epistemic driver** pro revizi kli
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

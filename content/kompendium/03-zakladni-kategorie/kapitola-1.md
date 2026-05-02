@@ -16,9 +16,9 @@ toc = true
 
 # 3.1 Kapitola 1 — Akademické techniky intelektuální manipulace
 
-Tato kapitola představuje **systematický přehled** pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu. Tyto techniky jsou zvláště nebezpečné — manifestují se v kontextech, které jsou obecně považovány za **epistemicky důvěryhodné** a zaměřené na objektivní poznání. Porozumění těmto technikám je esenciální pro jejich identifikaci, prevenci a neutralizaci v rámci celé taxonomie [EA](/glossary/taxonomie-ea/) a širšího pole [epistemické anihilace](/glossary/epistemicka-anihilace/) i [kognitivní anihilace](/glossary/kognitivni-anihilace/).
+Tato kapitola představuje **systematický přehled** pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu. Tyto techniky jsou zvláště nebezpečné — manifestují se v kontextech, které jsou obecně považovány za **epistemicky důvěryhodné** a zaměřené na objektivní poznání. Porozumění těmto technikám je esenciální pro jejich identifikaci, prevenci a neutralizaci v rámci celé taxonomie [EA](@/glossary/taxonomie-ea.md) a širšího pole [epistemické anihilace](@/glossary/epistemicka-anihilace.md) i [kognitivní anihilace](@/glossary/kognitivni-anihilace.md).
 
-> **Per-technique podknihovna**: Každá technika v této kapitole má **samostatný hloubkový článek** v [/kompendium/techniques/](/kompendium/techniques/). Tato kapitola slouží jako **konsolidační index** s krátkými deskripcemi, fenomenologickými znaky a neutralizačními strategiemi.
+> **Per-technique podknihovna**: Každá technika v této kapitole má **samostatný hloubkový článek** v [/kompendium/techniques/](@/kompendium/techniques/_index.md). Tato kapitola slouží jako **konsolidační index** s krátkými deskripcemi, fenomenologickými znaky a neutralizačními strategiemi.
 
 ## Integrativní teoretický rámec
 
@@ -46,7 +46,7 @@ Intelektuální manipulace systematicky exploituje inherentní kognitivní biasy
 Intelektuální manipulace často zahrnuje subtilní subverzi standardních evaluačních kritérií, která jsou fundamentální pro legitimní akademický diskurz:
 
 - **Adiaphoretická neutralizace** — Systematická relativizace evaluačních kritérií, která suspenduje standardní mechanismy rozlišování mezi validními a invalidními argumenty.
-- **Meta-epistemická rekonfigurace** — Modifikace samotných kritérií, jež určují, co je považováno za "důkaz", "argument" nebo "expertízu", často prostřednictvím rekurzivního zpochybňování legitimity těchto kritérií. Tato vrstva je úzce spjata s [metakognitivní destrukcí](/glossary/metakognitivni-destrukce/).
+- **Meta-epistemická rekonfigurace** — Modifikace samotných kritérií, jež určují, co je považováno za "důkaz", "argument" nebo "expertízu", často prostřednictvím rekurzivního zpochybňování legitimity těchto kritérií. Tato vrstva je úzce spjata s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md).
 - **Paralogická substituce** — Nahrazení standardních kritérií logické validity a empirické adekvátnosti alternativními kritérii (narativní koherence, rétorická přesvědčivost, emocionální rezonance).
 
 ### Exploitace sociální epistemické dynamiky
@@ -100,7 +100,7 @@ Miranda Fricker rozlišuje **testimoniální** a **hermeneutickou** epistemickou
 
 | Frickerova kategorie | EA-1 ekvivalent |
 |----------------------|-----------------|
-| **Testimoniální nespravedlnost** (předsudečné snížení kredibility svědka) | Scénář A (individuální delegitimizace) — viz [Kapitola 2](/kompendium/03-zakladni-kategorie/kapitola-2/) |
+| **Testimoniální nespravedlnost** (předsudečné snížení kredibility svědka) | Scénář A (individuální delegitimizace) — viz [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 | **Hermeneutická nespravedlnost** (mezera v sociálních interpretačních zdrojích) | EA-1.1.3 (terminologická mystifikace) + EA-1.2.3 (iluzorní komplexita) |
 | **(Frickerová tuto kategorii nemá)** | EA-1.4.* + EA-1.5.* (paralingvistické a proxemické techniky) — neverbální dimenze, kterou Frickerová neadresuje |
 
@@ -116,9 +116,9 @@ Tyto techniky primárně cílí na procesy, jejichž prostřednictvím jsou nov�
 
 | EA | Technika | Jednověté shrnutí | Primární exploitace |
 |----|----------|-------------------|---------------------|
-| **[EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** | Selektivní expozice | Strategická filtrace dostupných informací s předstíráním objektivity | Konfirmační bias, předpoklad komprehenzivity |
-| **[EA-1.1.2](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** | Informační přetížení | Excesivní množství informací inhibující kritické zpracování | Kognitivní limity pracovní paměti |
-| **[EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** | Terminologická mystifikace | Zbytečně komplexní terminologie vytvářející falešnou epistemickou hierarchii | Atribuce nepochopení vlastním limitům |
+| **[EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** | Selektivní expozice | Strategická filtrace dostupných informací s předstíráním objektivity | Konfirmační bias, předpoklad komprehenzivity |
+| **[EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** | Informační přetížení | Excesivní množství informací inhibující kritické zpracování | Kognitivní limity pracovní paměti |
+| **[EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** | Terminologická mystifikace | Zbytečně komplexní terminologie vytvářející falešnou epistemickou hierarchii | Atribuce nepochopení vlastním limitům |
 
 **Detail EA-1.1.1 (Selektivní expozice)**: Strategická kontrola informací, jimž je subjekt vystaven, prezentovaná jako nestranný výběr relevantních dat. Operační modus je strategická filtrace dostupných informací kombinovaná s vytvářením dojmu komprehenzivity a objektivity. Fenomenologicky subjekt zažívá pocit informovanosti a epistemické saturace navzdory limitovanému informačnímu poli. Rizikové kontexty: úvodní kurzy, orientační přednášky, přehledové publikace, kurikulární design. Neutralizace: aktivní vyhledávání diversních zdrojů, kritická analýza selekčních kritérií, identifikace absentujících perspektiv.
 
@@ -132,9 +132,9 @@ Tyto techniky primárně cílí na procesy kritické evaluace a integrace inform
 
 | EA | Technika | Jednověté shrnutí | Primární exploitace |
 |----|----------|-------------------|---------------------|
-| **[EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** | Falešné dilema | Artificiální polarizace komplexního problému na binární volbu | Kognitivní tendence k bivalenci |
-| **[EA-1.2.2](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)** | Falešná ekvivalence | Prezentace asymetrických entit jako rovnocenných | Norma nestrannosti, balance fallacy |
-| **[EA-1.2.3](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)** | Iluzorní komplexita | Umělé komplikování jasných problémů irelevantními faktory | Tendence k suspenzi úsudku v komplexitě |
+| **[EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** | Falešné dilema | Artificiální polarizace komplexního problému na binární volbu | Kognitivní tendence k bivalenci |
+| **[EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)** | Falešná ekvivalence | Prezentace asymetrických entit jako rovnocenných | Norma nestrannosti, balance fallacy |
+| **[EA-1.2.3](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** | Iluzorní komplexita | Umělé komplikování jasných problémů irelevantními faktory | Tendence k suspenzi úsudku v komplexitě |
 
 **Detail EA-1.2.1 (Falešné dilema)**: Prezentace komplexního epistemického problému jako binární volby mezi dvěma extrémními pozicemi, s implicitním delegitimizováním nuancovaných nebo hybridních perspektiv. Operační modus představuje artificiální polarizaci diskurzu, která znemožňuje subtilnější pozice. Fenomenologicky: kognitivní tenze a push k výběru mezi dvěma neadekvátními pozicemi, pocit epistemické rezignace. Rizikové kontexty: politizované akademické debaty, metodologické kontroverze, interdisciplinární dialogy. Neutralizace: explicitní identifikace dilematu jako potenciálně falešného, aktivní artikulace alternativních pozic mimo prezentovanou dichotomii, dekonstrukce předpokládaných exkluzivit.
 
@@ -148,9 +148,9 @@ Tyto techniky primárně cílí na procesy kritického přezkumu a případné r
 
 | EA | Technika | Jednověté shrnutí | Primární exploitace |
 |----|----------|-------------------|---------------------|
-| **[EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** | Imunizace proti falsifikaci | Modifikace teorie tak, aby byla resistentní vůči falsifikační evidenci | Ad hoc auxiliární hypotézy |
-| **[EA-1.3.2](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)** | Strategická reinterpretace | Reinterpretace kontradiktorní evidence jako podporující | Hermeneutická flexibilita |
-| **[EA-1.3.3](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** | Tematická diverze | Přesměrování diskuse od problematických aspektů k irelevantním | Konverzační fluidita |
+| **[EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** | Imunizace proti falsifikaci | Modifikace teorie tak, aby byla resistentní vůči falsifikační evidenci | Ad hoc auxiliární hypotézy |
+| **[EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** | Strategická reinterpretace | Reinterpretace kontradiktorní evidence jako podporující | Hermeneutická flexibilita |
+| **[EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** | Tematická diverze | Přesměrování diskuse od problematických aspektů k irelevantním | Konverzační fluidita |
 
 **Detail EA-1.3.1 (Imunizace proti falsifikaci)**: Systematická modifikace teorie nebo argumentu způsobem činícím je resistentními vůči potenciální falsifikační evidenci, při zachování zdání empirické testovatelnosti. Operační modus je strategické zavádění ad hoc výjimek, auxiliárních hypotéz nebo flexibilních definic absorbujících kontradiktorní evidenci. Fenomenologicky: frustrace z "pohyblivého cíle", neschopnost identifikovat definitivní falsifikační kritéria. Rizikové kontexty: teoretické debaty, interdisciplinární aplikace, defense ideologicky motivovaných pozic. Neutralizace: požadavek na explicitní specifikaci falsifikačních kritérií, identifikace ad hoc modifikací, evaluace z perspektivy Occamovy břitvy.
 
@@ -164,8 +164,8 @@ Tyto techniky využívají aspekty řečové produkce mimo samotný lingvistick�
 
 | EA | Technika | Jednověté shrnutí | Primární exploitace |
 |----|----------|-------------------|---------------------|
-| **[EA-1.4.1](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** | Prosodická dominance | Využití intonace, hlasitosti, tempa k epistemické dominanci | Sociální interpretace prosodie jako jistoty |
-| **[EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** | Latentní emocionální modulace | Subtilní indukce emocionálních stavů modulujících kognici | Vliv emocí na evaluační procesy |
+| **[EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** | Prosodická dominance | Využití intonace, hlasitosti, tempa k epistemické dominanci | Sociální interpretace prosodie jako jistoty |
+| **[EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** | Latentní emocionální modulace | Subtilní indukce emocionálních stavů modulujících kognici | Vliv emocí na evaluační procesy |
 
 **Detail EA-1.4.1 (Prosodická dominance)**: Systematické využívání prosodických vzorců (intonace, hlasitost, tempo) k ustanovení epistemické dominance a inhibici kritického zkoumání. Operační modus exploituje automatické sociální interpretace prosodických signálů jako indikátorů epistemického statusu a jistoty. Fenomenologicky: subtilní sociální tlak k akceptaci propozic prezentovaných s prosodickými signály autority. Rizikové kontexty: přednášky, verbální prezentace, konferenční diskuse. Neutralizace: vědomá neutralizace prosodických vlivů skrze fokus na propoziční obsah, meta-komunikativní poznámky, písemné zachycení klíčových argumentů nezávisle na prezentaci.
 
@@ -177,8 +177,8 @@ Tyto techniky využívají prostorové a tělesné aspekty komunikace. Operují 
 
 | EA | Technika | Jednověté shrnutí | Primární exploitace |
 |----|----------|-------------------|---------------------|
-| **[EA-1.5.1](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)** | Strategická proxemika | Manipulace s interpersonálním prostorem k indukci kognitivních efektů | Automatické psychologické efekty proximity |
-| **[EA-1.5.2](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)** | Dominantní tělesné hieroglyfy | Tělesná posturalita a gestika k ustanovení neverbální hierarchie | Evoluční signály dominance |
+| **[EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)** | Strategická proxemika | Manipulace s interpersonálním prostorem k indukci kognitivních efektů | Automatické psychologické efekty proximity |
+| **[EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** | Dominantní tělesné hieroglyfy | Tělesná posturalita a gestika k ustanovení neverbální hierarchie | Evoluční signály dominance |
 
 **Detail EA-1.5.1 (Strategická proxemika)**: Systematická manipulace s interpersonálním prostorem k indukci specifických kognitivních efektů včetně tendence k souhlasu nebo kritickému rozpojení. Operační modus exploituje automatické psychologické a kognitivní efekty asociované s fyzickou proximitou a distancí. Fenomenologicky: subtilní somatický diskomfort nebo afiliace, která je podvědomě atribuována diskutovaným propozicím spíše než proxemické dynamice. Rizikové kontexty: tutoriály, malé skupinové diskuse, akademické konzultace. Neutralizace: vědomé monitorování vlivu prostorové dynamiky, aktivní management interpersonálního prostoru, preference pro epistemické interakce v prostorově neutrálních konfiguracích.
 
@@ -200,7 +200,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 4. Postupná izolace od alternativních epistemických autorit
 5. Etablování rekurzivních validačních smyček (adeptův progres je evaluován exkluzivně guruem)
 
-**Typické kombinace technik**: EA-1.1.1 (selektivní expozice ke "schválené" literatuře) + EA-1.4.2 (latentní emocionální modulace) + EA-1.5.2 (dominantní tělesné hieroglyfy). Vzorec frequently kulminuje v [anankastickém režimu](/glossary/anankasticky-rezim/) a [epistemické alienaci](/glossary/epistemicka-alienace/).
+**Typické kombinace technik**: EA-1.1.1 (selektivní expozice ke "schválené" literatuře) + EA-1.4.2 (latentní emocionální modulace) + EA-1.5.2 (dominantní tělesné hieroglyfy). Vzorec frequently kulminuje v [anankastickém režimu](@/glossary/anankasticky-rezim.md) a [epistemické alienaci](@/glossary/epistemicka-alienace.md).
 
 **Rizikové kontexty**: Mentorské vztahy, doktorské studium, specializované výzkumné skupiny.
 
@@ -238,7 +238,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 
 **Typické kombinace technik**: EA-1.3.2 (strategická reinterpretace) + EA-1.3.3 (tematická diverze) + EA-1.2.3.
 
-**Rizikové kontexty**: Dlouhodobé teoretické vývoje, graduální paradigmatické shifty, extenzivní argumentační sekvence. Tento vzorec je často vehikulem pro [ontologickou anihilaci](/glossary/ontologicka-anihilace/), kde je za desítky kroků posunuto samotné chápání toho, co existuje a co ne.
+**Rizikové kontexty**: Dlouhodobé teoretické vývoje, graduální paradigmatické shifty, extenzivní argumentační sekvence. Tento vzorec je často vehikulem pro [ontologickou anihilaci](@/glossary/ontologicka-anihilace.md), kde je za desítky kroků posunuto samotné chápání toho, co existuje a co ne.
 
 **Neutralizace**: Periodické pauzy pro holistickou evaluaci celkové trajektorie, explicitní komparace aktuální pozice s výchozím bodem, preemptivní artikulace potenciálních "end states".
 
@@ -285,7 +285,7 @@ Při identifikaci multiple indikátorů aplikujte následující osmikrokový pr
 
 ## Bezpečnostní protokoly pro simulační cvičení
 
-Edukativní expozice technikám frequently zahrnuje simulace, které představují potenciální epistemická rizika a vyžadují robustní bezpečnostní protokoly. Detailní specifikaci poskytuje [Kapitola 3](/kompendium/03-zakladni-kategorie/kapitola-3/).
+Edukativní expozice technikám frequently zahrnuje simulace, které představují potenciální epistemická rizika a vyžadují robustní bezpečnostní protokoly. Detailní specifikaci poskytuje [Kapitola 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md).
 
 **Před simulací**:
 
@@ -329,7 +329,7 @@ Identifikace a neutralizace technik vyžaduje eticky reflektovaný přístup bal
 
 ## Edukativní implementace
 
-Efektivní edukace vyžaduje **graduální expozici** podle sekvence: foundation → recognition → analysis → simulation → integration. Detailní pedagogický rámec, supervizorské kompetence, certifikační požadavky a evaluační metriky jsou specifikovány v [Kapitole 3](/kompendium/03-zakladni-kategorie/kapitola-3/).
+Efektivní edukace vyžaduje **graduální expozici** podle sekvence: foundation → recognition → analysis → simulation → integration. Detailní pedagogický rámec, supervizorské kompetence, certifikační požadavky a evaluační metriky jsou specifikovány v [Kapitole 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md).
 
 ## Strukturální vztahy mezi technikami
 
@@ -381,7 +381,7 @@ Taxonomie EA-1.* by neměla být přijímána jako apriorní; vyžaduje **empiri
 | **Experimentální simulace** | Kontrolované expozice s měřením efektů | Plánováno |
 | **Cross-cultural validace** | Aplikovatelnost taxonomie napříč kulturními kontexty | Plánováno |
 
-Tato validační infrastruktura je integrována do platformového nástroje [DD Decisions](/hub/dd/decisions/) a využívá analytický rámec [Nabla Infinity](/glossary/nabla-infinity/) pro kvantifikaci epistemické nejistoty diagnostických soudů.
+Tato validační infrastruktura je integrována do platformového nástroje [DD Decisions](/hub/dd/decisions/) a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
 
 ## Závěr
 
@@ -389,29 +389,29 @@ Akademické techniky intelektuální manipulace představují signifikantní epi
 
 Je esenciální zdůraznit, že porozumění těmto technikám není pouze defenzivní kompetencí, ale **fundamentální součástí epistemické resilience a akademické integrity**. Kritická epistemická vigilance by však nikdy neměla degenerovat v hyperskepticismus, paranoidní epistemologie nebo reflexivní odmítání legitimně challenging idejí. Cílem taxonomie není kultivovat suspici, ale **kalibrovanou diskriminační schopnost** — kapacitu rozlišovat manipulativní a legitimní formy epistemického vyzývání.
 
-V následující [Kapitole 2](/kompendium/03-zakladni-kategorie/kapitola-2/) jsou analyzovány **scénáře epistemické delegitimizace** — komplexní aplikace základních technik v koordinovaných sekvencích. [Kapitola 3](/kompendium/03-zakladni-kategorie/kapitola-3/) následně specifikuje **edukativní implementaci** poznatků této taxonomie skrze třífázový strukturovaný protokol.
+V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) jsou analyzovány **scénáře epistemické delegitimizace** — komplexní aplikace základních technik v koordinovaných sekvencích. [Kapitola 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md) následně specifikuje **edukativní implementaci** poznatků této taxonomie skrze třífázový strukturovaný protokol.
 
 ## Související
 
-- [Kapitola 2: Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/) — sister chapter
-- [Kapitola 3: Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/) — sister chapter
-- [Techniques index](/kompendium/techniques/) — všech 13 hloubkových článků EA-1.*
-- [Sekce 02 — Definice](/kompendium/02-uvod/definice/)
+- [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — sister chapter
+- [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) — sister chapter
+- [Techniques index](@/kompendium/techniques/_index.md) — všech 13 hloubkových článků EA-1.*
+- [Sekce 02 — Definice](@/kompendium/02-uvod/definice.md)
 - [Sekce 04 — Pokročilé fenomény](/kompendium/04-pokrocile-fenomeny/)
 - [Sekce 05 — Diagnostika](/kompendium/05-diagnostika/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Sekce 07 — Prevence](/kompendium/07-prevence/)
 - [Sekce 08 — Etika](/kompendium/08-etika/)
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -424,4 +424,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

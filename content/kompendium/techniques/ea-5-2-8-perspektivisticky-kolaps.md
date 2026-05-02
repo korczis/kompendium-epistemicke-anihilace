@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — ztráta perspektivy jako transcendentální kategorie |
 | **Reverzibilita** | Velmi nízká — perspektiva je strukturně předkladem každého kognitivního aktu |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -162,7 +162,7 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 - **[EA-5.2.16 Aperspektivistická saturace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-16-aperspektivisticka-saturace)** — kompenzační reakce na kolaps.
 - **[EA-5.2.21 Transcendentální solipsismus](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-21-transcendentalni-solipsismus)** — opačný extrém: vše je *moje*, ale Já samo je vyprázdněné.
-- **[EA-5.1.13 Hyperreflexivita](/kompendium/techniques/ea-5-1-13-hyperreflexivita/)** — strukturní podobnost na úrovni hyperreflexivního přesouvání.
+- **[EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)** — strukturní podobnost na úrovni hyperreflexivního přesouvání.
 
 ### Eskaluje do
 
@@ -177,17 +177,17 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)
-  - [EA-5.2.9 Konceptuální aporie](/kompendium/techniques/ea-5-2-9-konceptualni-aporie/)
+  - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
+  - [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
   - [EA-5.2.16 Aperspektivistická saturace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-16-aperspektivisticka-saturace)
   - [EA-5.2.21 Transcendentální solipsismus](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-21-transcendentalni-solipsismus)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Hermeneutika](/glossary/hermeneutika/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
 
 
 ## ⚡ Kritický krok
@@ -197,10 +197,10 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -212,4 +212,4 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

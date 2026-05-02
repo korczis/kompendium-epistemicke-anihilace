@@ -21,7 +21,7 @@ phase = "acute"
 
 ## 1. Cílová populace
 
-Klienti se značnou [hermeneutickou erozí](/glossary/hermeneuticka-eroze/), narušeným reality testingem a aktivně přetrvávajícími manipulačními kognitivními skripty. Typicky po dlouhodobém [gaslightingu](/glossary/gaslighting/), kultovní indoktrinaci nebo high-conflict rozvodu s manipulativním partnerem.
+Klienti se značnou [hermeneutickou erozí](/glossary/hermeneuticka-eroze/), narušeným reality testingem a aktivně přetrvávajícími manipulačními kognitivními skripty. Typicky po dlouhodobém [gaslightingu](@/glossary/gaslighting.md), kultovní indoktrinaci nebo high-conflict rozvodu s manipulativním partnerem.
 
 ## 2. Časový rámec
 
@@ -72,35 +72,35 @@ V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psy
 ## 8. Cross-linky
 
 ### Sesterské protokoly
-- [Akutní sociální rekonekce](/kompendium/recovery-protocols/acute-social-reconnection/)
-- [Akutní informační kurace](/kompendium/recovery-protocols/acute-information-curation/)
-- [Akutní somatická regulace](/kompendium/recovery-protocols/acute-somatic-regulation/)
+- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+- [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
+- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
 
 ### Klinické články (sekce 06)
-- [Klinické aplikace — index](/kompendium/06-klinicke-aplikace/)
-- [Diagnostické indikátory EA expozice](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [Epistemická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- [Kolektivní intervence](/kompendium/06-klinicke-aplikace/kolektivni-intervence/)
-- [Preventivní strategie](/kompendium/06-klinicke-aplikace/preventivni-strategie/)
+- [Klinické aplikace — index](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
+- [Preventivní strategie](@/kompendium/06-klinicke-aplikace/preventivni-strategie.md)
 
 ### EA techniky a fenomény
-- [Gaslighting (technika)](/glossary/gaslighting/)
+- [Gaslighting (technika)](@/glossary/gaslighting.md)
 - [Pseudoempatická vazba](/glossary/pseudoempaticka-vazba/)
 - [Hermeneutic outsourcing](/glossary/hermeneuticky-outsourcing/)
 - [Identity destruction](/glossary/identity-destruction/)
 
 ### Glosář
-- [C-PTSD](/glossary/c-ptsd/)
-- [Betrayal trauma](/glossary/betrayal-trauma/)
-- [Epistemické trauma](/glossary/epistemicke-trauma/)
+- [C-PTSD](@/glossary/c-ptsd.md)
+- [Betrayal trauma](@/glossary/betrayal-trauma.md)
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - [Trauma bonding](/glossary/trauma-bonding/)
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 ### Platformové reference
-- [Kompendium — hlavní index](/kompendium/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Hlavní glosář](/glossary/)
+- [Kompendium — hlavní index](@/kompendium/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Hlavní glosář](@/glossary/_index.md)
 
 ---
 
@@ -109,4 +109,4 @@ V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psy
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

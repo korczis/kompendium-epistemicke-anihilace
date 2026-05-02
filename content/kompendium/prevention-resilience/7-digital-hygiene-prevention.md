@@ -57,20 +57,20 @@ Všichni uživatelé internetu, zejména 13-25 a 65+, IT oddělení, rodiče.
 
 ## Cross-linky
 
-- [Educational scenarios](/kompendium/educational-scenarios/)
-- [Forensic & legal](/kompendium/forensic-legal/)
-- [Organizational defense](/kompendium/organizational-defense/)
-- [Quick reference](/kompendium/quick-reference/)
-- [Cross-domain](/kompendium/cross-domain/)
-- [Glosář](/glossary/)
-- [Blog](/blog/)
+- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
+- [Forensic & legal](@/kompendium/forensic-legal/_index.md)
+- [Organizational defense](@/kompendium/organizational-defense/_index.md)
+- [Quick reference](@/kompendium/quick-reference/_index.md)
+- [Cross-domain](@/kompendium/cross-domain/_index.md)
+- [Glosář](@/glossary/_index.md)
+- [Blog](@/blog/_index.md)
 - [CER program](/cer/)
-- [Základní kategorie EA](/kompendium/03-zakladni-kategorie/)
-- [Ultramari techniky](/kompendium/05-ultramari-techniky/)
-- [Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Budování dětské reziliencie](/kompendium/prevention-resilience/1-childhood-resilience-foundation/)
-- [Školní prevence EA](/kompendium/prevention-resilience/2-school-based-prevention/)
+- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md)
+- [Školní prevence EA](@/kompendium/prevention-resilience/2-school-based-prevention.md)
 
 ---
 

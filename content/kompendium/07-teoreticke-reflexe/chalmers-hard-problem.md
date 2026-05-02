@@ -70,16 +70,16 @@ Pro EA má vlastnostní dualismus **dvojí relevanci**:
 
 ## 4. Panpsychismus a IIT
 
-Chalmers v posledních letech kombinuje hard problem s **panpsychismem** — pozicí, že **fundamentální** vědomí je **přítomno** všude ve vesmíru. Tato pozice rezonuje s **Integrated Information Theory** Tononi-ho ([viz 7.39](/kompendium/07-teoreticke-reflexe/tononi-iit/)).
+Chalmers v posledních letech kombinuje hard problem s **panpsychismem** — pozicí, že **fundamentální** vědomí je **přítomno** všude ve vesmíru. Tato pozice rezonuje s **Integrated Information Theory** Tononi-ho ([viz 7.39](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)).
 
 Pro EA z toho plyne:
 
-- **Panpsychistická etika**: pokud je vědomí **strukturálně** přítomno v různých systémech, vyžaduje to **rozšířenou** etiku (rezonuje s nussbaumovským zařazením přírody do schopností, [viz 7.33](/kompendium/07-teoreticke-reflexe/nussbaum-capabilities/)).
+- **Panpsychistická etika**: pokud je vědomí **strukturálně** přítomno v různých systémech, vyžaduje to **rozšířenou** etiku (rezonuje s nussbaumovským zařazením přírody do schopností, [viz 7.33](@/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md)).
 - **Implications pro AI**: pokud panpsychismus, AI systémy mohou mít **fragmenty** subjektivní zkušenosti — což **mění** etickou situaci.
 
 ## 5. Extended Mind (s Andy Clarkem)
 
-V eseji *The Extended Mind* (1998, s Andy Clarkem, [viz 7.42](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)) Chalmers argumentuje, že **mysl** se strukturálně **rozšiřuje** za hranice mozku — do nástrojů, paměti, environmentu.
+V eseji *The Extended Mind* (1998, s Andy Clarkem, [viz 7.42](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)) Chalmers argumentuje, že **mysl** se strukturálně **rozšiřuje** za hranice mozku — do nástrojů, paměti, environmentu.
 
 Pro EA má extended mind **klíčovou relevanci**:
 
@@ -98,7 +98,7 @@ Pro EA má extended mind **klíčovou relevanci**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Subjektivní pól jako klinický cíl**: terapie nemůže být **redukována** na **funkcionální** výsledky — musí restituovat **subjektivní** dimenzi.
 - **Anti-zombie principle**: pacient, jenž **funkcionálně** je v pořádku, **ale subjektivně trpí**, není **vyléčen**.
@@ -113,16 +113,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.29 Nagel: View from Nowhere](/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere/)
-- [7.35 Dennett: Intentional Stance](/kompendium/07-teoreticke-reflexe/dennett-intentional-stance/)
-- [7.36 Searle: Chinese Room](/kompendium/07-teoreticke-reflexe/searle-chinese-room/)
-- [7.38 Block: Phenomenal vs. Access](/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access/)
-- [7.39 Tononi: IIT](/kompendium/07-teoreticke-reflexe/tononi-iit/)
-- [7.42 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.29 Nagel: View from Nowhere](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md)
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+- [7.36 Searle: Chinese Room](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)
+- [7.38 Block: Phenomenal vs. Access](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)
+- [7.39 Tononi: IIT](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)
+- [7.42 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
 
 ---
 
@@ -131,4 +131,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

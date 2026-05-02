@@ -38,21 +38,21 @@ DARVO is most reliably observed in perpetrators with high entitlement, low remor
 Within the Prismatic Platform Kompendium, DARVO is catalogued under **EA-1.3.2 (epistemic immunization through accuser-delegitimization)** — see [/kompendium/techniques/ea-1-3-2/](/kompendium/techniques/ea-1-3-2/). It is one of the most operationally important EA techniques because it weaponizes third-party epistemics: a successful DARVO does not need to convince the original victim, only to fracture the surrounding evidentiary community.
 
 - The [Decision Engine](/hub/dd/decisions/) treats DARVO indicators as **negative source-credibility signals** when ingesting denials in due-diligence contexts. Witness testimony showing the three-phase signature is downweighted; original accusations are *not* upweighted (DARVO is not corroboration), but their downweighting is suspended.
-- [Color Teams](/glossary/color-teams/) Red Team adversary models include DARVO scripts when simulating media-savvy threat actors and reputational-defense operations.
-- The [Delegitimizace](/glossary/delegitimizace/) entry catalogues the broader family of accuser-delegitimization techniques of which DARVO is the most stereotyped instance.
-- DARVO frequently co-occurs with [Gaslighting](/glossary/gaslighting/) (Phase 1: Deny) and [Coercive Control](/glossary/coercive-control/) signature patterns.
+- [Color Teams](@/glossary/color-teams.md) Red Team adversary models include DARVO scripts when simulating media-savvy threat actors and reputational-defense operations.
+- The [Delegitimizace](@/glossary/delegitimizace.md) entry catalogues the broader family of accuser-delegitimization techniques of which DARVO is the most stereotyped instance.
+- DARVO frequently co-occurs with [Gaslighting](@/glossary/gaslighting.md) (Phase 1: Deny) and [Coercive Control](@/glossary/coercive-control.md) signature patterns.
 
-Recognition of DARVO is included in clinical training materials at [/kompendium/06-klinicke-aplikace/](/kompendium/06-klinicke-aplikace/) and in OSINT investigative workflows for reputation-management forensics.
+Recognition of DARVO is included in clinical training materials at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) and in OSINT investigative workflows for reputation-management forensics.
 
 ## See Also
 
-- [Gaslighting](/glossary/gaslighting/) — Reality-distortion technique often co-deployed
-- [Delegitimizace](/glossary/delegitimizace/) — Broader family of accuser-delegitimization
-- [Coercive Control](/glossary/coercive-control/) — DARVO is highly characteristic of coercive controllers
-- [BITE Model](/glossary/bite-model/) — Group-scale analogue
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Central kompendium concept
-- [Taxonomie EA](/glossary/taxonomie-ea/) — Technique catalog including EA-1.3.2
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Gaslighting](@/glossary/gaslighting.md) — Reality-distortion technique often co-deployed
+- [Delegitimizace](@/glossary/delegitimizace.md) — Broader family of accuser-delegitimization
+- [Coercive Control](@/glossary/coercive-control.md) — DARVO is highly characteristic of coercive controllers
+- [BITE Model](@/glossary/bite-model.md) — Group-scale analogue
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Central kompendium concept
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — Technique catalog including EA-1.3.2
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -61,4 +61,4 @@ Recognition of DARVO is included in clinical training materials at [/kompendium/
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

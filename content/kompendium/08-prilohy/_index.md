@@ -37,13 +37,13 @@ Hlavní text kompendia (sekce 01–07) představuje **taxonomický a teoretický
 
 | # | Článek | Cílový čtenář | Délka |
 |---|--------|---------------|-------|
-| 1 | [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/) | Výzkumník, recenzent | ~2000 slov |
-| 2 | [Kompletní rejstřík technik (master index)](/kompendium/08-prilohy/rejstrik-technik/) | Klinik, navigátor | ~2500 slov |
-| 3 | [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/) | Překladatel, mezinárodní výzkumník | ~2000 slov |
-| 4 | [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) | Klinický psycholog | ~2200 slov |
-| 5 | [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/) | IRB, etický komitét | ~1500 slov |
-| 6 | [Klasifikační schéma a taxonomie — meta-úroveň](/kompendium/08-prilohy/klasifikace/) | Metodolog, taxonom | ~1800 slov |
-| 7 | [Zkratky a notace](/kompendium/08-prilohy/zkratky/) | Univerzální | ~1000 slov |
+| 1 | [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md) | Výzkumník, recenzent | ~2000 slov |
+| 2 | [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md) | Klinik, navigátor | ~2500 slov |
+| 3 | [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md) | Překladatel, mezinárodní výzkumník | ~2000 slov |
+| 4 | [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Klinický psycholog | ~2200 slov |
+| 5 | [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) | IRB, etický komitét | ~1500 slov |
+| 6 | [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md) | Metodolog, taxonom | ~1800 slov |
+| 7 | [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) | Univerzální | ~1000 slov |
 
 ## Struktura referenční vrstvy
 
@@ -84,11 +84,11 @@ Přílohy jsou organizovány podle **funkční vrstvy**, nikoliv podle obsahu:
 
 Přílohy nejsou izolované — jsou **operativně propojeny** s běžícími systémy:
 
-- **[Glossary](/glossary/)** → [Index pojmů](/kompendium/08-prilohy/index-pojmu/) deriváuje termíny z hlavního platformového glosáře a recipročně do něj přispívá.
-- **[Decision Engine](/hub/dd/decisions/)** → [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) poskytují signály pro kalibraci důvěry.
-- **[NABLA Infinity](/glossary/nabla-infinity/)** → [Klasifikační schéma](/kompendium/08-prilohy/klasifikace/) mapuje techniky na úrovně L0–L13.
-- **[Color Teams](/glossary/color-teams/)** → [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) definuje hranice Red Team adversariální simulace.
-- **[3NL architektura](/glossary/three-nested-loops/)** → [Zkratky a notace](/kompendium/08-prilohy/zkratky/) sjednocuje doctrine zkratky napříč platformou.
+- **[Glossary](@/glossary/_index.md)** → [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) deriváuje termíny z hlavního platformového glosáře a recipročně do něj přispívá.
+- **[Decision Engine](/hub/dd/decisions/)** → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) poskytují signály pro kalibraci důvěry.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** → [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) mapuje techniky na úrovně L0–L13.
+- **[Color Teams](@/glossary/color-teams.md)** → [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) definuje hranice Red Team adversariální simulace.
+- **[3NL architektura](/glossary/three-nested-loops/)** → [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) sjednocuje doctrine zkratky napříč platformou.
 
 ## Konvence používání
 
@@ -105,11 +105,11 @@ Příloh y sledují **verzi celého kompendia**. Změny v hlavním textu (nové 
 
 ## Související sekce
 
-- **Začněte zde** → [Předmluva](/kompendium/01-predmluva/) → [Úvod](/kompendium/02-uvod/)
-- **Hlavní taxonomie** → [Základní kategorie](/kompendium/03-zakladni-kategorie/) → [Terminální protokoly](/kompendium/04-terminalni-protokoly/) → [Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- **Aplikace** → [Klinické aplikace](/kompendium/06-klinicke-aplikace/) → [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- **Per-technique** → [Techniques index](/kompendium/techniques/)
-- **Platformový kontext** → [Hub kompendia](/kompendium/) → [Glossary](/glossary/) → [Philosophy](/philosophy/)
+- **Začněte zde** → [Předmluva](@/kompendium/01-predmluva/_index.md) → [Úvod](@/kompendium/02-uvod/_index.md)
+- **Hlavní taxonomie** → [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) → [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) → [Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- **Aplikace** → [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) → [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- **Per-technique** → [Techniques index](@/kompendium/techniques/_index.md)
+- **Platformový kontext** → [Hub kompendia](@/kompendium/_index.md) → [Glossary](@/glossary/_index.md) → [Philosophy](@/philosophy/_index.md)
 
 
 ## ⚡ Kritický krok
@@ -119,7 +119,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -132,4 +132,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Techniques](/kompendium/techniques/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

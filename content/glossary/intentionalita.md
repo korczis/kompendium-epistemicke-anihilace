@@ -31,21 +31,21 @@ Intentional structure is **what makes manipulation possible**. To manipulate cog
 
 ## Context
 
-Within the Prismatic Platform's threat model, intentional structure provides the **formal vocabulary** for classifying [Epistemická anihilace](/glossary/epistemicka-anihilace/) techniques. The [Kompendium taxonomy](/glossary/taxonomie-ea/) is structured along intentional axes: EA-1.x targets the *target* (what the subject is thinking *about*); EA-2.x targets the *mode* (whether they're perceiving, remembering, doubting); EA-3.x targets the *horizon* (the unthematized background of taken-for-granted possibilities).
+Within the Prismatic Platform's threat model, intentional structure provides the **formal vocabulary** for classifying [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) techniques. The [Kompendium taxonomy](@/glossary/taxonomie-ea.md) is structured along intentional axes: EA-1.x targets the *target* (what the subject is thinking *about*); EA-2.x targets the *mode* (whether they're perceiving, remembering, doubting); EA-3.x targets the *horizon* (the unthematized background of taken-for-granted possibilities).
 
-This intentional analysis is documented in [Kompendium → 03-mechanismy → intencionalita](/kompendium/03-mechanismy/intencionalita/), which walks through each major EA family in terms of which intentional component it primarily attacks. The [NABLA Infinity](/glossary/nabla-infinity/) pipeline uses this decomposition for defense: signals are tagged with intentional metadata (target / mode / horizon), and structural anomalies — e.g., an unusually large fraction of recent communication targeting the subject's *horizon* (planted assumptions) versus the *target* (ostensive content) — produce confidence penalties on downstream [Decision Engine](/hub/dd/decisions/) outputs.
+This intentional analysis is documented in [Kompendium → 03-mechanismy → intencionalita](/kompendium/03-mechanismy/intencionalita/), which walks through each major EA family in terms of which intentional component it primarily attacks. The [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline uses this decomposition for defense: signals are tagged with intentional metadata (target / mode / horizon), and structural anomalies — e.g., an unusually large fraction of recent communication targeting the subject's *horizon* (planted assumptions) versus the *target* (ostensive content) — produce confidence penalties on downstream [Decision Engine](/hub/dd/decisions/) outputs.
 
 The Husserlian concept of **horizon** has particular operational weight: the most subtle EA techniques (EA-3.x family) operate by altering what the subject takes for granted *without ever foregrounding the change*. The platform's audit logs distinguish thematic content from horizon-shifting content explicitly.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat framework
-- [Lebenswelt](/glossary/lebenswelt/) — Husserlian horizon as totality
-- [Embodied Cognition](/glossary/embodied-cognition/) — Enactivist development of intentionality
-- [Metakognice](/glossary/metakognice/) — Reflective awareness of intentional structure
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process damage
-- [Epistemic Pipeline](/glossary/epistemic-pipeline/) — Platform-level epistemic architecture
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
+- [Lebenswelt](@/glossary/lebenswelt.md) — Husserlian horizon as totality
+- [Embodied Cognition](@/glossary/embodied-cognition.md) — Enactivist development of intentionality
+- [Metakognice](@/glossary/metakognice.md) — Reflective awareness of intentional structure
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — Platform-level epistemic architecture
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -54,4 +54,4 @@ The Husserlian concept of **horizon** has particular operational weight: the mos
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

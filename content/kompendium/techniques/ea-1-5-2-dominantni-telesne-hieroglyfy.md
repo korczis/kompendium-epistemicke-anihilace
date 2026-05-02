@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — masivní vliv operující pod prahem detekce |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **exploitace evoluční předispozice** k interpretaci specifických tělesných konfigurací jako signálů **dominance**, **jistoty** a **epistemické autority**. Tato interpretace je **automatická** — operuje pod prahem vědomé deliberace a je jen **omezeně** modulovatelná explicitní reflexí.
 
-Strukturálně sourozenecká s [EA-1.5.1 Strategickou proxemikou](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) — proxemika manipuluje **prostor**, hieroglyfy manipulují **tělo** v prostoru. Spolu tvoří kompletní **kinesic dominance system**.
+Strukturálně sourozenecká s [EA-1.5.1 Strategickou proxemikou](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — proxemika manipuluje **prostor**, hieroglyfy manipulují **tělo** v prostoru. Spolu tvoří kompletní **kinesic dominance system**.
 
 ## Operační modus
 
@@ -233,10 +233,10 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 
 ### Často se kombinuje s
 
-- **[EA-1.5.1 Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)** — sourozenecká: hieroglyfy + proxemika = comprehensive spatial-kinetic dominance.
-- **[EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** — multimodální dominance (auditory + visual + spatial).
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — body language jako medium pro emocionální indukci.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — komplexní jazyk + dominantní body language = "**unfraktovatelná**" prezentace.
+- **[EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)** — sourozenecká: hieroglyfy + proxemika = comprehensive spatial-kinetic dominance.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — multimodální dominance (auditory + visual + spatial).
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — body language jako medium pro emocionální indukci.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — komplexní jazyk + dominantní body language = "**unfraktovatelná**" prezentace.
 
 ### Eskaluje do
 
@@ -257,22 +257,22 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.5):
-  - [EA-1.5.1 Strategická proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/)
+  - [EA-1.5.1 Strategická proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md)
 - **Příbuzné z (1.4)**:
-  - [EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Boundary Ethics](/philosophy/boundary-ethics/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Boundary Ethics](@/philosophy/boundary-ethics.md)
 - **Forward-references**:
-  - [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Sekce 05 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+  - [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Sekce 05 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [Color Teams](/glossary/color-teams/)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -282,10 +282,10 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -297,4 +297,4 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

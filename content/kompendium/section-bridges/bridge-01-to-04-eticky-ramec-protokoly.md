@@ -52,14 +52,14 @@ Klíčové koncepty: **kontraindikační matice**, **multi-stage consent**, **re
 
 ## 6. Související
 
-- [01 — Předmluva](/kompendium/01-predmluva/)
-- [04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
+- [01 — Předmluva](@/kompendium/01-predmluva/_index.md)
+- [04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Kontraindikační matice](/kompendium/glossary-bridges/bridge-kontraindikace/)
 - [Exit protokol](/kompendium/glossary-bridges/bridge-exit/)
-- [Klinika: post-event](/kompendium/06-klinicke-aplikace/)
-- [Quick Reference: Safety](/kompendium/quick-reference/)
-- [Visualizations: Decision tree](/kompendium/visualizations/)
-- [Case studies: terminální](/kompendium/case-studies/)
+- [Klinika: post-event](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Quick Reference: Safety](@/kompendium/quick-reference/_index.md)
+- [Visualizations: Decision tree](@/kompendium/visualizations/_index.md)
+- [Case studies: terminální](@/kompendium/case-studies/_index.md)
 
 ---
 
@@ -68,4 +68,4 @@ Klíčové koncepty: **kontraindikační matice**, **multi-stage consent**, **re
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

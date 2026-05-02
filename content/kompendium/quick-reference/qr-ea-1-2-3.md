@@ -39,10 +39,10 @@ Lobby výrobce sladkých nápojů nasazuje narativ "vztah mezi cukrem a obezitou
 
 ## Cross-linky
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-2-3-Iluzorní-komplexita](/kompendium/techniques/)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- **Glossary**: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](/glossary/nabla-infinity/)
+- **Detailní článek**: [/kompendium/techniques/ea-1-2-3-Iluzorní-komplexita](@/kompendium/techniques/_index.md)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ---
 

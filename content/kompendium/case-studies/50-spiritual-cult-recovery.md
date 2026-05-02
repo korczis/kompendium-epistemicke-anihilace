@@ -43,24 +43,24 @@ Exit byl iniciovan zjištěním, že guru sexuálně zneužíval mladé členky.
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — guru jako absolutní spirituální autorita
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "duchovního propadu"
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "vyšší vědomí", "kvantové pole", "auriční čištění"
-- [EA-5.1.14 Iluzorni transcendence](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/) — pocit přístupu k "vyšší pravdě"
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — postupný rozpad osobní identity
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kompletní izolace od externí informace
-- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — pochybnosti přerámovány jako "ego odpor"
-- [EA-5.1.19 Kvazi-mysticka anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/) — "ego musí umřít"
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — guru jako absolutní spirituální autorita
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "duchovního propadu"
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "vyšší vědomí", "kvantové pole", "auriční čištění"
+- [EA-5.1.14 Iluzorni transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) — pocit přístupu k "vyšší pravdě"
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — postupný rozpad osobní identity
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kompletní izolace od externí informace
+- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — pochybnosti přerámovány jako "ego odpor"
+- [EA-5.1.19 Kvazi-mysticka anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) — "ego musí umřít"
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "První rok po odchodu jsem nevěděla, co je realita. Naučila jsem se, že 'svět' je iluze, 'tělo' je iluze, 'rodina' je iluze. Když jsem zjistila, že guru zneužíval děti, nedalo se to zařadit. Buď byl on iluze, nebo bylo všechno, co jsem věděla, lež. Ale obě možnosti znamenaly, že já neexistuju."
 
-Tato narace odpovida hluboké [epistemicke alienaci](/glossary/epistemicka-alienace/) — kompletní rozpad referenčního rámce reality. [Metakognitivni destrukce](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat, co je pravda.
+Tato narace odpovida hluboké [epistemicke alienaci](@/glossary/epistemicka-alienace.md) — kompletní rozpad referenčního rámce reality. [Metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat, co je pravda.
 
 ## Detekcni bod
 
-Externi konfrontace s rodinou po odchodu. Klicovy moment: psychoterapeut s expertízou v cult recovery identifikoval [c-PTSD](/glossary/c-ptsd/) s religious trauma syndrome.
+Externi konfrontace s rodinou po odchodu. Klicovy moment: psychoterapeut s expertízou v cult recovery identifikoval [c-PTSD](@/glossary/c-ptsd.md) s religious trauma syndrome.
 
 ## Intervencni strategie
 
@@ -80,11 +80,11 @@ Spiritualní cult recovery je dlouhodobý proces. Klinik musí pracovat s inform
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/), [epistemicka-alienace](/glossary/epistemicka-alienace/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-5.1.14](/kompendium/techniques/ea-5-1-14-iluzorni-transcendence/), [EA-5.1.19](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-5.1.14](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md), [EA-5.1.19](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

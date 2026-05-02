@@ -61,7 +61,7 @@ Pozice **Dennett** se relevantně dotýká těchto oblastí EA:
 - vztah ke **kapitole 6 (obrana a kalibrace)**: pomáhá rozlišit obranu strukturální od obrany pouze taktické.
 - vztah ke **kapitole 3 (manipulační vzorce)**: dodává jazyk, jímž lze pojmenovat skryté předpoklady techniky.
 
-Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](/kompendium/techniques/).
+Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [techniques index](@/kompendium/techniques/_index.md).
 
 ## Limitace
 
@@ -73,15 +73,15 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 ## Cross-linky
 
 ### Sesterské reflexe (7.3.*)
-- [EA-7.3.1 Kahneman: System 1/2](/kompendium/techniques/ea-7-3-1-kahneman-system12/)
-- [EA-7.3.2 Tversky & Kahneman: Heuristiky](/kompendium/techniques/ea-7-3-2-tversky-heuristics/)
-- [EA-7.3.3 Friston: Active Inference](/kompendium/techniques/ea-7-3-3-friston-active-inference/)
-- [EA-7.3.4 Clark: Rozšířená mysl](/kompendium/techniques/ea-7-3-4-clark-extended-mind/)
-- [EA-7.3.5 Metzinger: Ego-tunel](/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel/)
-- [EA-7.3.6 Thompson: Mind in Life](/kompendium/techniques/ea-7-3-6-thompson-mind-life/)
+- [EA-7.3.1 Kahneman: System 1/2](@/kompendium/techniques/ea-7-3-1-kahneman-system12.md)
+- [EA-7.3.2 Tversky & Kahneman: Heuristiky](@/kompendium/techniques/ea-7-3-2-tversky-heuristics.md)
+- [EA-7.3.3 Friston: Active Inference](@/kompendium/techniques/ea-7-3-3-friston-active-inference.md)
+- [EA-7.3.4 Clark: Rozšířená mysl](@/kompendium/techniques/ea-7-3-4-clark-extended-mind.md)
+- [EA-7.3.5 Metzinger: Ego-tunel](@/kompendium/techniques/ea-7-3-5-metzinger-ego-tunnel.md)
+- [EA-7.3.6 Thompson: Mind in Life](@/kompendium/techniques/ea-7-3-6-thompson-mind-life.md)
 
 ### Související
-- [Kapitola 07: Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Kapitola 06: Obrana a kalibrace](/kompendium/06-obrana/)
 - [Kapitola 03: Manipulační vzorce](/kompendium/03-manipulacni-vzorce/)
 - [Glosář: Falsifikace](/kompendium/glossary/falsifikace/)
@@ -99,7 +99,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 Chcete tuto reflexi aplikovat na konkrétní případ?
 
 - [Spusťte vyšetření](/investigate/) — Decision Engine s podporou epistemické kalibrace.
-- [Prohlédněte EA katalog](/kompendium/techniques/) — všech 6 operativních kapitol + 7. teoretická.
+- [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
 - [Glosář pojmů](/kompendium/glossary/) — definice klíčových termínů napříč EA.
 
-*Část kompendia [Epistemic Arsenal](/kompendium/) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*
+*Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.3 Kognitivní věda.*

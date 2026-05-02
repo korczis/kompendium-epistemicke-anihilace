@@ -46,7 +46,7 @@ Současná **memetika** (zejména Susan Blackmore, *The Meme Machine*, 1999) roz
 
 Pro EA má digitální memetika **strukturální význam**:
 
-- **Information warfare**: strukturálně operuje skrze **memetické nasazení** (rezonuje s Wardle, [viz 7.55](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)).
+- **Information warfare**: strukturálně operuje skrze **memetické nasazení** (rezonuje s Wardle, [viz 7.55](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)).
 - **Polarizace**: strukturálně amplifikována memetickou evolucí v echo chambers.
 
 ## 3. Memetická imunizace
@@ -101,7 +101,7 @@ Kompendium absorbuje **užitečné** aspekty memetiky (zejména pro analýzu vir
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Memetická diagnostika**: které memy strukturalizují pacientovo prožívání?
 - **Memetická detoxifikace**: pomalá, strukturovaná konfrontace s manipulativními memy.
@@ -132,17 +132,17 @@ Pro Prismatic má memetika **specifickou** relevanci:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.35 Dennett: Intentional Stance](/kompendium/07-teoreticke-reflexe/dennett-intentional-stance/)
-- [7.46 Lakoff: Konceptuální metafora](/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor/)
-- [7.51 Dennett: From Bacteria to Bach](/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach/)
-- [7.55 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [7.57 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+- [7.46 Lakoff: Konceptuální metafora](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)
+- [7.51 Dennett: From Bacteria to Bach](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md)
+- [7.55 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [7.57 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -151,4 +151,4 @@ Pro Prismatic má memetika **specifickou** relevanci:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -61,12 +61,12 @@ Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
-- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](/kompendium/quick-reference/qr-ea-5-1-2/), [EA-5.1.5 Logická diskontinuita](/kompendium/quick-reference/qr-ea-5-1-5/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
-- **Glossary**: [Sémantická afázie](/glossary/semanticka-afazie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Newspeak](/glossary/newspeak/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Lingvistická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Platforma**: [Decision Engine sémantická vrstva](/hub/dd/decisions/), [Glossary canonical](/glossary/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
+- **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
+- **Glossary**: [Sémantická afázie](/glossary/semanticka-afazie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Newspeak](/glossary/newspeak/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Lingvistická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Platforma**: [Decision Engine sémantická vrstva](/hub/dd/decisions/), [Glossary canonical](@/glossary/_index.md)
 
 ---
 

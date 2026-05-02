@@ -43,19 +43,19 @@ Exit byl iniciovan zjištěním, že manžel měl mimomanželské vztahy. Konfro
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — tradwife influenceři jako modely
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — "headship", "submission", "biblical womanhood"
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "buď tradwife, nebo nešťastná feministka"
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "moderní samoty"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické bubliny
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — nešťastné tradwives = "nedělaly to správně"
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — ztráta profesní a osobní identity
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — tradwife influenceři jako modely
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "headship", "submission", "biblical womanhood"
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "buď tradwife, nebo nešťastná feministka"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "moderní samoty"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické bubliny
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — nešťastné tradwives = "nedělaly to správně"
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — ztráta profesní a osobní identity
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisovala: "Když jsem zjistila, že manžel má jiné ženy, něco se rozsypalo. Roky jsem věřila, že 'submission' přinese harmonii. A on mi vyčítal, že jsem ho 'nesubmit dost dobře' — proto měl ty afféry. A já jsem se chytila, že tomu věřím. A pak jsem si uvědomila, že jsem dvacet devět let stara, žena bez práce, bez peněz, bez vzdelání aktualizovaného, a věřím, že je to moje chyba."
 
-Tato narace odpovida [betrayal trauma](/glossary/betrayal-trauma/) a [metakognitivni rekonstrukci](/glossary/metakognitivni-destrukce/).
+Tato narace odpovida [betrayal trauma](@/glossary/betrayal-trauma.md) a [metakognitivni rekonstrukci](@/glossary/metakognitivni-destrukce.md).
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Tradwife recovery ukazuje, jak estetická a "tradiční" rétorika může maskov
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Techniques**: [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
+- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

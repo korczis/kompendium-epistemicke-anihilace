@@ -55,7 +55,7 @@ Friston rozvíjí pojem **Markov blanket** — strukturální hranice, jež **od
 
 Pro EA má Markov blanket **specifický význam**:
 
-- **Sférická imunologie** ([Sloterdijk, viz 7.1 §3](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)) strukturálně rezonuje s Markovskou blanket — **imunologická hranice** subjektu.
+- **Sférická imunologie** ([Sloterdijk, viz 7.1 §3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) strukturálně rezonuje s Markovskou blanket — **imunologická hranice** subjektu.
 - **Útok na Markov blanket**: techniky, jež **rozkládají** rozlišení vnitřní/vnější (například extrémní intersubjektivní kolonizace), strukturálně podkopávají **sebe-organizační** kapacity.
 
 ## 4. Hierarchická prediktivní procesní
@@ -97,7 +97,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Restituce kalibrace priors**: terapie pomáhá pacientovi **rekalibrovat** model.
 - **Plasticita modelu**: pacient se učí **revidovat** přesvědčení adekvátně.
@@ -107,7 +107,7 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 Pro Prismatic platformu má Fristonova teorie **specifický** význam:
 
-- **NABLA Infinity** ([viz Glosář](/glossary/nabla-infinity/)) operuje strukturálně skrze **prediktivní** strukturu — udržuje hypotézy a kalibruje je proti evidenci.
+- **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)) operuje strukturálně skrze **prediktivní** strukturu — udržuje hypotézy a kalibruje je proti evidenci.
 - **Decision Core**: implementuje aktivní inferenci v rozhodovacím cyklu.
 
 ## 9. Primární literatura
@@ -120,15 +120,15 @@ Pro Prismatic platformu má Fristonova teorie **specifický** význam:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.39 Tononi: IIT](/kompendium/07-teoreticke-reflexe/tononi-iit/)
-- [7.42 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.45 Varela: Enactivism](/kompendium/07-teoreticke-reflexe/varela-enactivism/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.39 Tononi: IIT](@/kompendium/07-teoreticke-reflexe/tononi-iit.md)
+- [7.42 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.45 Varela: Enactivism](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -137,4 +137,4 @@ Pro Prismatic platformu má Fristonova teorie **specifický** význam:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

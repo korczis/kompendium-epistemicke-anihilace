@@ -44,25 +44,25 @@ Within the Prismatic Platform Kompendium, narrative identity is identified as a 
 - **Role-rewriting** (forced re-interpretation of past actions) corrupts the agency-coherence
 - **Autoamplification** is achieved when the survivor begins narrating their own life in the perpetrator's terms
 
-The result is what the Kompendium chapter [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) calls **narrative anihilace** — the destruction not of specific autobiographical content but of the integrative capacity that converts content into selfhood. This is why severe EA produces a characteristic "I don't know who I am anymore" phenomenology that is qualitatively distinct from depressive identity-disturbance, dissociative identity fragmentation, or post-traumatic disorientation.
+The result is what the Kompendium chapter [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) calls **narrative anihilace** — the destruction not of specific autobiographical content but of the integrative capacity that converts content into selfhood. This is why severe EA produces a characteristic "I don't know who I am anymore" phenomenology that is qualitatively distinct from depressive identity-disturbance, dissociative identity fragmentation, or post-traumatic disorientation.
 
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/) addresses narrative-identity damage in its final stage, deliberately *after* part-restoration — the survivor must first rebuild the evaluative parts that constitute narrative-construction capacity before attempting whole-narrative reconstruction.
-- [Disociace](/glossary/disociace/) damages narrative identity through different mechanisms (compartmentalization rather than disintegration); the differential matters clinically.
-- [Hyperreality](/glossary/hyperreality/) creates ambient conditions in which narrative-identity formation becomes structurally harder for everyone, not only EA survivors.
-- [Iatrogenic Harm](/glossary/iatrogenic-harm/) risks include premature narrative reconstruction by therapists.
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) addresses narrative-identity damage in its final stage, deliberately *after* part-restoration — the survivor must first rebuild the evaluative parts that constitute narrative-construction capacity before attempting whole-narrative reconstruction.
+- [Disociace](@/glossary/disociace.md) damages narrative identity through different mechanisms (compartmentalization rather than disintegration); the differential matters clinically.
+- [Hyperreality](@/glossary/hyperreality.md) creates ambient conditions in which narrative-identity formation becomes structurally harder for everyone, not only EA survivors.
+- [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) risks include premature narrative reconstruction by therapists.
 - The [Decision Engine](/hub/dd/decisions/) treats source-narratives as analytically separable from source-claims: a witness's autobiographical narrative is evidence about the witness, not direct evidence about the world; both are weighted appropriately.
 
 Narrative identity is the **deep structural target** that explains why EA produces such characteristic, durable, and difficult-to-treat damage. It is not just that beliefs are corrupted — it is that the architecture by which beliefs become integrated into a self is being dismantled.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Process targeting narrative identity
-- [Mereologická rekonstrukce](/glossary/mereologicka-rekonstrukce/) — Reconstruction approach
-- [Hyperreality](/glossary/hyperreality/) — Ambient conditions
-- [Iatrogenic Harm](/glossary/iatrogenic-harm/) — Reconstruction risks
-- [Disociace](/glossary/disociace/) — Differential mechanism
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Adjacent damage
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Process targeting narrative identity
+- [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) — Reconstruction approach
+- [Hyperreality](@/glossary/hyperreality.md) — Ambient conditions
+- [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) — Reconstruction risks
+- [Disociace](@/glossary/disociace.md) — Differential mechanism
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Adjacent damage
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -71,4 +71,4 @@ Narrative identity is the **deep structural target** that explains why EA produc
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

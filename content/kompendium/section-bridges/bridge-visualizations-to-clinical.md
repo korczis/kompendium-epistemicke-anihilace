@@ -51,14 +51,14 @@ Klíčové koncepty: **klinický escalation tree**, **klinický screening flowch
 
 ## 6. Související
 
-- [Visualizations](/kompendium/visualizations/)
-- [06 — Klinika](/kompendium/06-klinicke-aplikace/)
-- [Case Studies](/kompendium/case-studies/)
-- [Quick Reference: Klinika](/kompendium/quick-reference/)
-- [Techniques](/kompendium/techniques/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Decision Engine](/kompendium/glossary-bridges/bridge-decision-engine/)
+- [Visualizations](@/kompendium/visualizations/_index.md)
+- [06 — Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Case Studies](@/kompendium/case-studies/_index.md)
+- [Quick Reference: Klinika](@/kompendium/quick-reference/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Decision Engine](@/kompendium/glossary-bridges/bridge-decision-engine.md)
 
 ## 7. Meta-poznámka: klinický balíček
 
@@ -75,4 +75,4 @@ Bridge rozlišuje **klinický balíček** (operativní artefakty na pracovišti)
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

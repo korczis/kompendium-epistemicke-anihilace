@@ -42,10 +42,10 @@ EA framework, aby byl epistemicky dospělý, musí čelit vlastním limitům. Ta
 
 ## Související
 
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Glossary platformy](/glossary/)
-- [Research methodology](/kompendium/research-methodology/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
 
 ---
 
@@ -53,4 +53,4 @@ EA framework, aby byl epistemicky dospělý, musí čelit vlastním limitům. Ta
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -17,10 +17,10 @@ toc = false
 
 Tato sekce-specifická vizualizace zobrazuje **pětifázovou klinickou cestu** zotavení po expozici technikám epistemické anihilace ve formě toku (Sankey-like Chart.js):
 
-1. **Assessment** — diagnostické indikátory, [self-report instrumenty](/kompendium/06-klinicke-aplikace/self-report-instrumenty/), [semi-structured interview](/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol/)
-2. **Diagnostika** — [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), screening
-3. **Intervence** — [terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/), [epistemická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/), [kolektivní intervence](/kompendium/06-klinicke-aplikace/kolektivni-intervence/)
-4. **Monitoring** — [supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/), preventivní strategie
+1. **Assessment** — diagnostické indikátory, [self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md), [semi-structured interview](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
+2. **Diagnostika** — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), screening
+3. **Intervence** — [terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
+4. **Monitoring** — [supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md), preventivní strategie
 5. **Zotavení** — stabilizace, integrace, dlouhodobá rezilience
 
 **Klikněte na fázi** pro zvýraznění typicky používaných EA-6.X technik a klinických aktivit.
@@ -38,16 +38,16 @@ Tato sekce-specifická vizualizace zobrazuje **pětifázovou klinickou cestu** z
 
 ## Související
 
-- [Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [Self-report instrumenty](/kompendium/06-klinicke-aplikace/self-report-instrumenty/)
-- [Terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/)
-- [Epistemická rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- [Kolektivní intervence](/kompendium/06-klinicke-aplikace/kolektivni-intervence/)
-- [Supervizní rámce](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
-- [Vulnerabilní populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- [Globální vizualizace EA taxonomie](/kompendium/visualizations/)
-- [Glossary: Taxonomie EA](/glossary/taxonomie-ea/)
+- [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md)
+- [Terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md)
+- [Epistemická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+- [Vulnerabilní populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- [Globální vizualizace EA taxonomie](@/kompendium/visualizations/_index.md)
+- [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
 
 ---
 
@@ -55,4 +55,4 @@ Tato sekce-specifická vizualizace zobrazuje **pětifázovou klinickou cestu** z
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

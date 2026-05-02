@@ -51,14 +51,14 @@ Klíčové koncepty: **kategoriální taxonomie**, **diagnostické kategorie**, 
 
 ## 6. Související
 
-- [02 — Úvod](/kompendium/02-uvod/)
-- [03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Quick Reference: Taxonomie](/kompendium/quick-reference/)
-- [Techniques](/kompendium/techniques/)
-- [Visualizations: Tree](/kompendium/visualizations/)
+- [02 — Úvod](@/kompendium/02-uvod/_index.md)
+- [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Quick Reference: Taxonomie](@/kompendium/quick-reference/_index.md)
+- [Techniques](@/kompendium/techniques/_index.md)
+- [Visualizations: Tree](@/kompendium/visualizations/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
-- [Glossary platform](/glossary/)
+- [Glossary platform](@/glossary/_index.md)
 
 ---
 
@@ -67,4 +67,4 @@ Klíčové koncepty: **kategoriální taxonomie**, **diagnostické kategorie**, 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Glossary](/glossary/) | [Kompendium](/kompendium/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Glossary](@/glossary/_index.md) | [Kompendium](@/kompendium/_index.md)

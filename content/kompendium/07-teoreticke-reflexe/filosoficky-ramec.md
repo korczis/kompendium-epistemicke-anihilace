@@ -26,15 +26,15 @@ Foucaultův centrální pojem *pouvoir-savoir* (moc-vědění), rozvinutý zejm�
 
 Pro taxonomii EA má tato perspektiva **trojí důsledek**:
 
-1. **Klasifikace samotná je mocenský akt.** Akt pojmenování techniky jako "epistemicky anihilující" je sám o sobě intervencí do diskurzivního pole. Kompendium si je tohoto faktu vědomo (viz princip transparentní limitace, [01 — Předmluva](/kompendium/01-predmluva/)) a nedeklaruje sebe sama jako neutrální popis.
-2. **Disciplinární dispozitivy.** Foucaultův pojem dispozitivu (*dispositif*) — heterogenní síť diskurzů, institucí, architektonických forem, regulačních rozhodnutí, zákonů, administrativních opatření, vědeckých výroků, filozofických tezí, morálních a filantropických propozic — strukturálně předjímá multidimenzionální klasifikaci kompendia ([2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)). Techniky EA neoperují izolovaně, nýbrž v dispozitivních konfiguracích.
+1. **Klasifikace samotná je mocenský akt.** Akt pojmenování techniky jako "epistemicky anihilující" je sám o sobě intervencí do diskurzivního pole. Kompendium si je tohoto faktu vědomo (viz princip transparentní limitace, [01 — Předmluva](@/kompendium/01-predmluva/_index.md)) a nedeklaruje sebe sama jako neutrální popis.
+2. **Disciplinární dispozitivy.** Foucaultův pojem dispozitivu (*dispositif*) — heterogenní síť diskurzů, institucí, architektonických forem, regulačních rozhodnutí, zákonů, administrativních opatření, vědeckých výroků, filozofických tezí, morálních a filantropických propozic — strukturálně předjímá multidimenzionální klasifikaci kompendia ([2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)). Techniky EA neoperují izolovaně, nýbrž v dispozitivních konfiguracích.
 3. **Subjektivace skrze diskurz.** Foucaultova analýza, jak diskurzy formují subjekty (*assujettissement*), poskytuje rámec pro pochopení, proč některé techniky EA fungují bez explicitní donucovací síly — subjekt **sám sebe konstituuje** v termínech disciplinárního diskurzu.
 
 ### 1.2 Panoptismus a epistemická internalizace
 
 V *Surveiller et punir* Foucault analyzuje **panoptismus** — nikoli pouze Benthamovu architekturu věznice, ale **obecný princip moderní moci**: subjekt internalizuje pohled dohlížitele a stává se vlastním cenzorem. Tato internalizace má pro EA klíčovou diagnostickou hodnotu:
 
-- Techniky **chronické autocenzury** ([EA chronicity, viz sekce 04](/kompendium/04-terminalni-protokoly/)) operují strukturně panoptickým způsobem.
+- Techniky **chronické autocenzury** ([EA chronicity, viz sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)) operují strukturně panoptickým způsobem.
 - Subjekt naučený anticipovat sankce za "nepovolené" epistemické operace přestává tyto operace vůbec provádět — nikoli proto, že by byl explicitně potlačován, ale protože **internalizoval cenzurní strukturu**.
 - Tento mechanismus je v kompendiu identifikován jako **prevenivní rezilienci převrácená naruby** — místo strukturální odolnosti vůči manipulaci subjekt vytváří strukturální odolnost vůči **vlastnímu kritickému myšlení**.
 
@@ -50,9 +50,9 @@ Foucaultova analýza biopolitiky (*Naissance de la biopolitique*, přednášky 1
 
 Kompendium odbočuje od Foucaulta v **třech bodech**:
 
-1. **Normativní afirmace.** Foucault (zejména pozdní) odmítá privilegované normativní stanovisko. Kompendium naopak deklaruje **explicitní normativní závazek** k epistemické integritě (viz [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)). Tato pozice je sice slabší než klasický fundacionalismus, ale silnější než foucaultovský diskurzivní deskriptivismus.
+1. **Normativní afirmace.** Foucault (zejména pozdní) odmítá privilegované normativní stanovisko. Kompendium naopak deklaruje **explicitní normativní závazek** k epistemické integritě (viz [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)). Tato pozice je sice slabší než klasický fundacionalismus, ale silnější než foucaultovský diskurzivní deskriptivismus.
 2. **Klinická intervenovatelnost.** Foucault skepticky pohlíží na "osvobozující" projekty (kritická psychiatrie). Kompendium naopak připouští, že **terapeutická intervence** je možná a etická, byť pouze v rámcích explicitně definovaných v sekci 06.
-3. **Strukturální realismus.** Foucault je často interpretován jako antirealisticky orientovaný diskurzivní konstruktivista. Kompendium zaujímá stanovisko **kritického realismu** ([2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)) — epistemické patologie mají **strukturální vlastnosti**, jež nejsou redukovatelné na diskurzivní efekty.
+3. **Strukturální realismus.** Foucault je často interpretován jako antirealisticky orientovaný diskurzivní konstruktivista. Kompendium zaujímá stanovisko **kritického realismu** ([2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)) — epistemické patologie mají **strukturální vlastnosti**, jež nejsou redukovatelné na diskurzivní efekty.
 
 ## 2. Theodor W. Adorno — instrumentální rozum a negativní dialektika
 
@@ -71,8 +71,8 @@ V *Negative Dialektik* (1966) Adorno formuluje princip **non-identity**: skuteč
 
 Pro EA to má **dva důsledky**:
 
-1. **Cherry-picking jako falešná identita.** Manipulativní technika cherry-pickingu (selektivní expozice, [EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)) je strukturálně **uzávěrkou non-identity** — předstírá, že vybraná evidence **identicky** reprezentuje celou situaci. Adornovská perspektiva odhaluje tuto operaci jako **epistemicky a eticky** problematickou.
-2. **NABLA Axiom 2 — Contradiction Preservation.** Architektonická volba [NABLA Infinity](/glossary/nabla-infinity/) zachovat protichůdné evidence místo jejich předčasné syntézy přímo implementuje adornovský princip non-identity v algoritmické formě.
+1. **Cherry-picking jako falešná identita.** Manipulativní technika cherry-pickingu (selektivní expozice, [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)) je strukturálně **uzávěrkou non-identity** — předstírá, že vybraná evidence **identicky** reprezentuje celou situaci. Adornovská perspektiva odhaluje tuto operaci jako **epistemicky a eticky** problematickou.
+2. **NABLA Axiom 2 — Contradiction Preservation.** Architektonická volba [NABLA Infinity](@/glossary/nabla-infinity.md) zachovat protichůdné evidence místo jejich předčasné syntézy přímo implementuje adornovský princip non-identity v algoritmické formě.
 
 ### 2.3 Kulturní průmysl a masová epistemika
 
@@ -80,7 +80,7 @@ Adornova analýza *Kulturindustrie* (1944) anticipuje současnou kritiku platfor
 
 - **Algoritmická amplifikace** sociálních sítí představuje současný analog adornovské kulturní industrializace.
 - Útoky na epistemické kapacity nejsou primárně intencionální — jsou **strukturálně** vepsány do logiky pozornostní ekonomie.
-- Kompendium tuto perspektivu absorbuje v kategoriích **strukturálních** EA technik (multidimenzionální osa intencionality, [2.3](/kompendium/02-uvod/teoreticke-zaklady/)).
+- Kompendium tuto perspektivu absorbuje v kategoriích **strukturálních** EA technik (multidimenzionální osa intencionality, [2.3](@/kompendium/02-uvod/teoreticke-zaklady.md)).
 
 ### 2.4 Studia autoritářské osobnosti
 
@@ -89,7 +89,7 @@ Adornovo empirické dílo *The Authoritarian Personality* (1950) — byť dnes m
 Pro kompendium z toho plyne:
 
 - **Diferenciální zranitelnost** vůči EA technikám není pouze kontextovou záležitostí, ale i **dispozičním** rysem subjektu.
-- Klinická aplikace ([sekce 06](/kompendium/06-klinicke-aplikace/)) musí počítat s **personologickou heterogenitou** vystavovaných subjektů.
+- Klinická aplikace ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) musí počítat s **personologickou heterogenitou** vystavovaných subjektů.
 
 ## 3. Peter Sloterdijk — sférická imunologie
 
@@ -101,7 +101,7 @@ Pro kompendium EA má sférická perspektiva **zásadní význam**:
 
 - **Epistemická anihilace** není primárně útokem na izolovaný kognitivní mechanismus — je **prolomením imunologické sféry**, v níž subjekt myslí, cítí a poznává.
 - **Sférický útok** je v něčem fundamentálnější než **kognitivní útok**: oslabuje **podmínky možnosti** epistemického fungování.
-- Tato perspektiva strukturálně rezonuje s [3NL architekturou](/glossary/3nl/) Prismatic platformy: L1 (Logic), L2 (Neural), L3 (Linguistic) tvoří **vrstvené sférické imunizace** kognitivního systému.
+- Tato perspektiva strukturálně rezonuje s [3NL architekturou](@/glossary/3nl.md) Prismatic platformy: L1 (Logic), L2 (Neural), L3 (Linguistic) tvoří **vrstvené sférické imunizace** kognitivního systému.
 
 ### 3.2 Mikrosféry, makrosféry a globalizace
 
@@ -121,7 +121,7 @@ Pro EA to znamená:
 
 ### 3.3 Antropotechniky a kultivace epistemické rezilience
 
-V *Du mußt dein Leben ändern* (2009) Sloterdijk rozvíjí pojem **antropotechniky** — disciplinovaných praktik, jimiž subjekt **kultivuje** sebe sama. Pro kompendium z toho plyne, že **epistemická rezilience** ([2.3](/kompendium/02-uvod/teoreticke-zaklady/)) není pouze strukturální vlastností, ale i **antropotechnickou disciplínou** vyžadující kultivační praxi:
+V *Du mußt dein Leben ändern* (2009) Sloterdijk rozvíjí pojem **antropotechniky** — disciplinovaných praktik, jimiž subjekt **kultivuje** sebe sama. Pro kompendium z toho plyne, že **epistemická rezilience** ([2.3](@/kompendium/02-uvod/teoreticke-zaklady.md)) není pouze strukturální vlastností, ale i **antropotechnickou disciplínou** vyžadující kultivační praxi:
 
 - Kritické myšlení jako **kontinuální cvičení**, nikoli vrozená dispozice
 - Metakognice jako **etická povinnost**, nikoli pouze epistemická schopnost
@@ -158,7 +158,7 @@ Pro EA to má **dvojí význam**:
    - **Imunizace proti falsifikaci** porušuje ochotu k revizi
    - **Terminologická mystifikace** porušuje princip transparentnosti
 
-2. **Architektonické**: **[Color Teams](/glossary/color-teams/)** v Prismatic platformě **algoritmicky implementují** strukturu ISC — Red Team, Blue Team a Purple Team systematicky generují adversariální argumenty, vyžadují symetrickou pozornost a tlačí na falsifikabilitu hypotéz.
+2. **Architektonické**: **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **algoritmicky implementují** strukturu ISC — Red Team, Blue Team a Purple Team systematicky generují adversariální argumenty, vyžadují symetrickou pozornost a tlačí na falsifikabilitu hypotéz.
 
 ### 4.3 Diskursivní etika
 
@@ -166,7 +166,7 @@ Habermasova **diskursivní etika** (zejména *Moralbewußtsein und kommunikative
 
 > *Norma je legitimní pouze tehdy, pokud by mohla získat souhlas všech dotčených v ideální komunikační situaci.*
 
-Pro klinickou aplikaci ([sekce 06](/kompendium/06-klinicke-aplikace/)) tento princip znamená:
+Pro klinickou aplikaci ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) tento princip znamená:
 
 - Terapeutické intervence cílící na epistemické trauma musí být **diskursivně legitimovatelné** — pacient musí být schopen retrospektivně souhlasit s podstatou intervence.
 - Etika vyžaduje **explicitní informovaný souhlas** k epistemické rekonstrukci, nikoli pouze paternalistickou aplikaci "objektivně správného" rámce.
@@ -204,38 +204,38 @@ Tato integrace **není** synkretickým eklekticismem — je výsledkem **systema
 
 Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body, na něž navazují další kapitoly sekce 07 a budoucí výzkum:
 
-- **Vztah k empirické psychotraumatologii** — viz [7.2 Vztah k epistemickému traumatu](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)
-- **Sociálně-epistemologická operacionalizace** — viz [7.3 Sociální epistemologie EA](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)
-- **Postmoderní výzva metanarativům kompendia** — viz [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
+- **Vztah k empirické psychotraumatologii** — viz [7.2 Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+- **Sociálně-epistemologická operacionalizace** — viz [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
+- **Postmoderní výzva metanarativům kompendia** — viz [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.2 Vztah k epistemickému traumatu](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)
-- [7.3 Sociální epistemologie EA](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Lakatosův výzkumný program](/glossary/lakatos-vyzkumny-program/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.2 Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+- [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -244,7 +244,7 @@ Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body,
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -258,4 +258,4 @@ Filosofický rámec kompendia **není** uzavřený. Otevřené teoretické body,
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

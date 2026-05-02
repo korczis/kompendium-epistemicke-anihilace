@@ -22,13 +22,13 @@ Tato sekce představuje **fundamentální taxonomické jednotky** — základní
 
 | # | Článek | Techniky |
 |---|--------|----------|
-| 3.1 | [Akademické techniky intelektuální manipulace](/kompendium/03-zakladni-kategorie/kapitola-1/) | EA-1.1.\* až EA-1.5.\* (13 technik) |
-| 3.2 | [Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/) | EA-2.\*.\* (rozšíření) |
-| 3.3 | [Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/) | EA-3.\*.\* (didaktika) |
+| 3.1 | [Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) | EA-1.1.\* až EA-1.5.\* (13 technik) |
+| 3.2 | [Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | EA-2.\*.\* (rozšíření) |
+| 3.3 | [Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) | EA-3.\*.\* (didaktika) |
 
 ## Detailní per-technique články
 
-Každá zaznamenaná technika má **samostatný hloubkový článek** v [techniques podknihovně](/kompendium/techniques/). Tyto články rozšiřují zkrácené popisy v hlavních kapitolách o:
+Každá zaznamenaná technika má **samostatný hloubkový článek** v [techniques podknihovně](@/kompendium/techniques/_index.md). Tyto články rozšiřují zkrácené popisy v hlavních kapitolách o:
 
 - Rozšířenou deskripci a operační modus
 - Fenomenologické znaky (pohled subjektu)
@@ -39,16 +39,16 @@ Každá zaznamenaná technika má **samostatný hloubkový článek** v [techniq
 
 ## Související
 
-- [Hub kompendia](/kompendium/)
-- [Techniques index](/kompendium/techniques/)
-- [Předchozí sekce: Úvod](/kompendium/02-uvod/)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Techniques index](@/kompendium/techniques/_index.md)
+- [Předchozí sekce: Úvod](@/kompendium/02-uvod/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -61,4 +61,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

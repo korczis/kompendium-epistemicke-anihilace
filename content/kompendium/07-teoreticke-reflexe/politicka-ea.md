@@ -16,7 +16,7 @@ toc = true
 
 # 7.8 Politická a ideologická epistemická anihilace
 
-Tato kapitola tematizuje **politicko-institucionální dimenzi** [epistemické anihilace](/glossary/epistemicka-anihilace/). Předchozí kapitoly se soustředily především na individuální a interpersonální úroveň; tato kapitola rozšiřuje analýzu na **kolektivní subjekty** — státy, hnutí, ideologické formace — jako specifické nositele a producenty EA.
+Tato kapitola tematizuje **politicko-institucionální dimenzi** [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Předchozí kapitoly se soustředily především na individuální a interpersonální úroveň; tato kapitola rozšiřuje analýzu na **kolektivní subjekty** — státy, hnutí, ideologické formace — jako specifické nositele a producenty EA.
 
 Klíčové východisko: politická EA není pouhou agregací individuálních manipulací, ale **kvalitativně odlišným fenoménem**. Operuje skrze institucionální infrastruktury, kulturní reprodukci, právní systém, vzdělání, média a koercivní aparáty. Adresuje **kolektivní paměť**, **sdílené narativy** a **politické identity**. Její dopady jsou trvalejší a obtížněji reverzibilní než dopady individuálního atakování.
 
@@ -50,9 +50,9 @@ Havlova analýza odhaluje, že politická EA **nepotřebuje individuální přes
 |----------|-------------|---------------------------|
 | **Newspeak** | Lingvistická redefinice klíčových termínů | Konceptuální mystifikace (EA-1.2.2) |
 | **Memory hole** | Systematické vymazávání minulosti | Zdrojová amnézie (EA-1.4.2) |
-| **Show trials** | Performativní destrukce alternativních narativů | [Delegitimizace](/glossary/delegitimizace/) |
-| **Self-criticism rituals** | Vynucená sebekritika | [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) |
-| **Cult of leader** | Nahrazení epistemické autority osobní oddaností | Strukturní [epistemická alienace](/glossary/epistemicka-alienace/) |
+| **Show trials** | Performativní destrukce alternativních narativů | [Delegitimizace](@/glossary/delegitimizace.md) |
+| **Self-criticism rituals** | Vynucená sebekritika | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
+| **Cult of leader** | Nahrazení epistemické autority osobní oddaností | Strukturní [epistemická alienace](@/glossary/epistemicka-alienace.md) |
 | **Doublethink** | Tolerance simultánní inkompatibility | Kontradikce-tolerance (EA-1.4.1) |
 
 Tyto techniky jsou **strukturně izomorfní** s individuálními manifestacemi EA, ale operují na **populační úrovni** skrze institucionální infrastruktury.
@@ -92,18 +92,18 @@ Populismus (definovaný např. Mudde, *Populism: A Very Short Introduction*, 201
 - **Anti-pluralism** — Populismus aspiruje reprezentovat **jedinou pravou vůli lidu**, čímž delegitimizuje pluralistickou demokracii jako fragmentární a kompromisní.
 - **Anti-institucionalismus** — Strukturní nedůvěra k zprostředkujícím institucím (parlament, soudy, akademie, kvalitní žurnalistika), neboť tyto instituce stojí mezi vůdcem a lidem.
 
-Z epistemické perspektivy je populismus **systematickou delegitimizací epistemických autorit**. Tradiční zdroje epistemicky kvalifikované evaluace (vědci, soudci, ekonomové, novináři) jsou označeny jako součást "elity", a jejich evaluace je proto a priori nedůvěryhodná. Tato strukturní [delegitimizace](/glossary/delegitimizace/) ponechává prázdný prostor, jenž zaplňuje populistický vůdce sám.
+Z epistemické perspektivy je populismus **systematickou delegitimizací epistemických autorit**. Tradiční zdroje epistemicky kvalifikované evaluace (vědci, soudci, ekonomové, novináři) jsou označeny jako součást "elity", a jejich evaluace je proto a priori nedůvěryhodná. Tato strukturní [delegitimizace](@/glossary/delegitimizace.md) ponechává prázdný prostor, jenž zaplňuje populistický vůdce sám.
 
 ### Post-pravda
 
 Termín "post-pravda" (Word of the Year 2016, Oxford Dictionaries) označuje stav, v němž **emocionální apel a osobní přesvědčení** převažují nad faktuální evidencí. Klíčové vlastnosti:
 
 - **Truth-relativismus** — "Moje pravda" jako legitimní epistemická pozice; objektivní pravda jako mocenská konstrukce.
-- **Kognitivní strategie** — Cherry-picking, [konfirmační bias](/glossary/konfirmacni-bias/), motivated reasoning jsou normalizovány a institucionálně racionalizovány.
+- **Kognitivní strategie** — Cherry-picking, [konfirmační bias](@/glossary/konfirmacni-bias.md), motivated reasoning jsou normalizovány a institucionálně racionalizovány.
 - **Faktická lhostejnost** — "Pravdivost" tvrzení politika přestává být politickým aktivem; ztráta důvěryhodnosti přestává mít politické důsledky.
 - **Bullshit** v sense Frankfurta (*On Bullshit*, 2005) — Tvrzení, jehož mluvčí je **lhostejný** k pravdivosti; není ani lží (která je zaujata pravdou v negativní podobě), ani pravdou.
 
-Post-pravdivá politika strukturně koresponduje s [metakognitivní destrukcí](/glossary/metakognitivni-destrukce/) na kolektivní úrovni: kolektiv ztrácí schopnost rozlišovat mezi epistemicky kalibrovanými a nekalibrovanými výpověďmi.
+Post-pravdivá politika strukturně koresponduje s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) na kolektivní úrovni: kolektiv ztrácí schopnost rozlišovat mezi epistemicky kalibrovanými a nekalibrovanými výpověďmi.
 
 ## Hybridní informační operace
 
@@ -142,7 +142,7 @@ Tato asymetrie není nutně osudová, ale vyžaduje **explicitní institucionál
 
 Tradiční instituce demokratické společnosti — parlamentní opozice, nezávislá justice, kvalitní žurnalistika, akademie, ombudsmani, statistické úřady — fungují jako **distribuovaná epistemická infrastruktura**. Jejich společným atributem je strukturní skepse vůči koncentrované moci.
 
-Tyto instituce jsou primárním cílem politické EA: jejich [delegitimizace](/glossary/delegitimizace/) je nutnou podmínkou pro jakýkoli rozšířený manipulační projekt. Obrana proti politické EA je proto neoddělitelná od **institucionální obrany** těchto epistemických struktur.
+Tyto instituce jsou primárním cílem politické EA: jejich [delegitimizace](@/glossary/delegitimizace.md) je nutnou podmínkou pro jakýkoli rozšířený manipulační projekt. Obrana proti politické EA je proto neoddělitelná od **institucionální obrany** těchto epistemických struktur.
 
 ### Moderní mechanismy
 
@@ -159,57 +159,57 @@ Tyto instituce jsou primárním cílem politické EA: jejich [delegitimizace](/g
 
 ### Strukturní obrana skrze NABLA
 
-Z perspektivy [NABLA Infinity](/glossary/nabla-infinity/) jsou politické EA zvláště relevantním aplikačním doménou — kde [Color Teams](/glossary/color-teams/) operují jako institucionální adversariální struktura, jež **systematicky atakuje** epistemické fortifikace, aby identifikovala zranitelnosti **dříve než reálný útočník**. Tato disciplína — adversariální falsifikace v Lakatos/Popper duchu — je strukturně izomorfní s funkcí parlamentní opozice nebo kvalitní žurnalistické kritiky v demokratickém systému.
+Z perspektivy [NABLA Infinity](@/glossary/nabla-infinity.md) jsou politické EA zvláště relevantním aplikačním doménou — kde [Color Teams](@/glossary/color-teams.md) operují jako institucionální adversariální struktura, jež **systematicky atakuje** epistemické fortifikace, aby identifikovala zranitelnosti **dříve než reálný útočník**. Tato disciplína — adversariální falsifikace v Lakatos/Popper duchu — je strukturně izomorfní s funkcí parlamentní opozice nebo kvalitní žurnalistické kritiky v demokratickém systému.
 
 ## Limitace a etické otázky
 
-Politická EA je doménou, kde [dual-use](/glossary/dual-use-poznani/) povaha taxonomie kompendia je nejvíce zřetelná. Stejné techniky lze využít:
+Politická EA je doménou, kde [dual-use](@/glossary/dual-use-poznani.md) povaha taxonomie kompendia je nejvíce zřetelná. Stejné techniky lze využít:
 
 - **Defenzivně** — ochrana populace před manipulací cizí mocnosti.
 - **Útočně** — manipulace populace vlastní mocností.
 - **Edukačně** — výchova kritického myšlení.
 - **Represívně** — instrumentalizace "boje proti dezinformacím" k potlačení legitimní opozice.
 
-Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **explicitní institucionální a etickou nadstavbu**. Kompendium poskytuje analytický rámec; rozhodnutí o jeho aplikaci je nevyhnutelně politickým aktem, jenž vyžaduje demokratickou legitimitu a [hermeneutickou](/glossary/hermeneutika/) reflexi historického kontextu.
+Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **explicitní institucionální a etickou nadstavbu**. Kompendium poskytuje analytický rámec; rozhodnutí o jeho aplikaci je nevyhnutelně politickým aktem, jenž vyžaduje demokratickou legitimitu a [hermeneutickou](@/glossary/hermeneutika.md) reflexi historického kontextu.
 
 ## Související
 
 - [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
-- [7.2 Kognitivní vědy a EA](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.3 Computational epistemology a NABLA](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.4 EA v digitálním věku](/kompendium/07-teoreticke-reflexe/digitalni-vek/)
-- [7.5 Otevřené výzkumné otázky](/kompendium/07-teoreticke-reflexe/otevrene-otazky/)
-- [Sekce 07 — Teoretické reflexe (úvod)](/kompendium/07-teoreticke-reflexe/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.4 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
+- [7.5 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md)
+- [Sekce 07 — Teoretické reflexe (úvod)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Sekce 04 — Klinika](/kompendium/04-klinika/)
 - [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
 - [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Kognitivní bias](/glossary/kognitivni-bias/)
-- [Glosář: Konfirmační bias](/glossary/konfirmacni-bias/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
+- [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
 - [Glosář: Lakatos](/glossary/lakatos/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Taxonomie EA](/glossary/taxonomie-ea/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Taxonomie EA](@/glossary/taxonomie-ea.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
 
 
 ## ⚡ Kritický krok
@@ -218,7 +218,7 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -231,4 +231,4 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

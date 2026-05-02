@@ -43,19 +43,19 @@ Exit byl iniciovan setkáním s pilotem, který trpělivě vysvětloval praktick
 
 ## EA techniky manifestovane
 
-- [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/) — útoky na vědeckou autoritu (NASA, vláda)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kazda evidence = "součást konspirace"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — YouTube algoritmus
-- [EA-1.2.3 Iluzorni komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) — pseudo-vědecké vysvětlení (azimuthální projekce, etc.)
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — flat-earth komunity jako pseudo-recenzent
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — flat-earth influenceři
-- [EA-5.1.18 Solipsisticka dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/) — "jen my vidíme pravdu"
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — útoky na vědeckou autoritu (NASA, vláda)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kazda evidence = "součást konspirace"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — YouTube algoritmus
+- [EA-1.2.3 Iluzorni komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) — pseudo-vědecké vysvětlení (azimuthální projekce, etc.)
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — flat-earth komunity jako pseudo-recenzent
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — flat-earth influenceři
+- [EA-5.1.18 Solipsisticka dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — "jen my vidíme pravdu"
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Když mi pilot ukazoval, jak GPS funguje na sférickém modelu, viděl jsem to. Roky jsem to popíral, ale viděl jsem to. A pak jsem si uvědomil, že jsem byl v bublině, kde jsem viděl jen flat-earth content. Že YouTube se mě nepokouší poznat, ale prodat mi něco. A že já jsem byl tomu trhu."
 
-Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) a následujícímu obnovení.
+Tato narace odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) a následujícímu obnovení.
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ Flat-earth recovery ukazuje koerci v digitálních platformách. Klinik musí pr
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [epistemic-bubble](/glossary/epistemic-bubble/)
-- **Techniques**: [EA-2.1.3](/kompendium/techniques/ea-2-1-3-credentialing-attack/), [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), [EA-5.1.18](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
+- **Techniques**: [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [EA-5.1.18](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

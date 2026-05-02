@@ -82,7 +82,7 @@ Subjekt, který by řekl *"výrok 'tato věta je nepravdivá' je smysluplný pou
 
 Subjekt **opakovaně prožívá**, že jakákoli jeho odpověď generuje kontradikci. Toto je **subjektivně traumatizující** — racionální mysl je strukturálně závislá na **principu non-kontradikce** a jeho systematické porušování generuje **epistemickou úzkost**.
 
-V pokročilých stadiích subjekt **rezignuje** na racionální argumentaci a přijímá rámec manipulátora jako *"jediný, který paradox transcenduje"* — typicky pseudo-mystický rámec ("v jednotě paradox neexistuje", srov. [EA-5.1.19](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)).
+V pokročilých stadiích subjekt **rezignuje** na racionální argumentaci a přijímá rámec manipulátora jako *"jediný, který paradox transcenduje"* — typicky pseudo-mystický rámec ("v jednotě paradox neexistuje", srov. [EA-5.1.19](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)).
 
 ### Krok 5 — Konsolidace skrze "transcendenci logiky"
 
@@ -180,14 +180,14 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 
 ### Sesterská UM (úroveň 5)
 
-- **[EA-5.1.19 Kvazi-mystická anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)** — typický **konsolidační rámec** pro vyřešení paradoxu skrze "transcendenci logiky".
-- **[EA-5.1.20 Holografická redukce](/kompendium/techniques/ea-5-1-20-holograficka-redukce/)** — když holografický rámec generuje paradox, paradox je interpretován jako "důkaz hloubky".
+- **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — typický **konsolidační rámec** pro vyřešení paradoxu skrze "transcendenci logiky".
+- **[EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)** — když holografický rámec generuje paradox, paradox je interpretován jako "důkaz hloubky".
 
 ### Vztah k základním (EA-1.X.Y) technikám
 
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — paradox je strukturálně neporazitelný, protože každý útok generuje kontradikci.
-- **[EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)** — paradoxy jsou často formulovány v slovníku, který subjekt plně nechápe.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — kognitivní úzkost zesiluje účinek techniky.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — paradox je strukturálně neporazitelný, protože každý útok generuje kontradikci.
+- **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — paradoxy jsou často formulovány v slovníku, který subjekt plně nechápe.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — kognitivní úzkost zesiluje účinek techniky.
 
 ### Eskaluje do
 
@@ -196,7 +196,7 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** — epistemic monitor explicitně modeluje **typové úrovně tvrzení** a flaguje sebe-referenční konstrukce, které mísí objektovou úroveň a metaúroveň.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor explicitně modeluje **typové úrovně tvrzení** a flaguje sebe-referenční konstrukce, které mísí objektovou úroveň a metaúroveň.
 - **[Decision Engine](/hub/dd/decisions/)** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace ("jakákoli evidence potvrzuje rámec") jsou strukturálně odmítnuty.
 - **[Logic Prolog](/glossary/logic-prolog/)** — formální logické moduly platformy implementují **typovou disciplínu**, která eliminuje sebe-referenční paradoxy na úrovni inference.
 
@@ -204,20 +204,20 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.19 Kvazi-mystická anihilace](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/)
-  - [EA-5.1.20 Holografická redukce](/kompendium/techniques/ea-5-1-20-holograficka-redukce/)
+  - [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)
+  - [EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [Color Teams](/glossary/color-teams/)
+  - [Color Teams](@/glossary/color-teams.md)
   - [Logic Prolog](/glossary/logic-prolog/)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -227,10 +227,10 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -242,4 +242,4 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

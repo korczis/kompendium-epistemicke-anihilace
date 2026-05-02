@@ -69,8 +69,8 @@ Vedle hierarchické notace EA-X.Y.Z je každá technika klasifikována podle **�
 
 | Hodnota | Význam | Příklad |
 |---------|--------|---------|
-| **Strukturální** | Útok na *procesy* poznávání (logika, paměť, percepce) | [`EA-5.1.16`](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/) Inferenční paralýza |
-| **Obsahová** | Útok na *specifická přesvědčení* nebo identitární obsah | [`EA-1.1.1`](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) Selektivní expozice |
+| **Strukturální** | Útok na *procesy* poznávání (logika, paměť, percepce) | [`EA-5.1.16`](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) Inferenční paralýza |
+| **Obsahová** | Útok na *specifická přesvědčení* nebo identitární obsah | [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) Selektivní expozice |
 
 > **Klíčový rozdíl**: Strukturální techniky jsou **paradigm-independent** (působí napříč obsahy), obsahové **paradigm-dependent**.
 
@@ -90,7 +90,7 @@ Vedle hierarchické notace EA-X.Y.Z je každá technika klasifikována podle **�
 | **Explicitní** | Detekovatelná vědomou reflexí | Jednodušší |
 | **Implicitní** | Operující pod prahem vědomé detekce | Vyžaduje strukturovanou analýzu |
 
-> Implicitní techniky vyžadují diagnostické instrumenty ([Diagnostika](/kompendium/08-prilohy/diagnosticke-nastroje/)).
+> Implicitní techniky vyžadují diagnostické instrumenty ([Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md)).
 
 ### 2.4 Reverzibilní vs. ireverzibilní
 
@@ -160,10 +160,10 @@ Postup pro přidání nové techniky do taxonomie:
 
 ### Krok 5 — Publikace
 
-- Nový EA-X.Y.Z kód přidán do [Rejstříku technik](/kompendium/08-prilohy/rejstrik-technik/).
+- Nový EA-X.Y.Z kód přidán do [Rejstříku technik](@/kompendium/08-prilohy/rejstrik-technik.md).
 - Per-technique článek vytvořen v `/kompendium/techniques/`.
-- Glosářové heslo přidáno do [Glossary](/glossary/).
-- Index pojmů aktualizován v [Index pojmů](/kompendium/08-prilohy/index-pojmu/).
+- Glosářové heslo přidáno do [Glossary](@/glossary/_index.md).
+- Index pojmů aktualizován v [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md).
 
 ## 5. Vztah k externím taxonomiím
 
@@ -190,18 +190,18 @@ EA techniky **nejsou nahrazeny** DSM-5 diagnózami — jsou **komplementární**
 
 ### 5.3 BITE Model (Hassan)
 
-Mapování BITE → EA viz [Diagnostika §1](/kompendium/08-prilohy/diagnosticke-nastroje/). BITE poskytuje **environmentální** rámec; EA poskytuje **technicky-specifický** rámec. BITE je makro-úroveň, EA je mikro-úroveň.
+Mapování BITE → EA viz [Diagnostika §1](@/kompendium/08-prilohy/diagnosticke-nastroje.md). BITE poskytuje **environmentální** rámec; EA poskytuje **technicky-specifický** rámec. BITE je makro-úroveň, EA je mikro-úroveň.
 
 ### 5.4 Lifton 8 kritérií Thought Reform
 
 | Liftonovo kritérium | Odpovídající EA techniky |
 |---------------------|--------------------------|
-| Milieu Control | [`EA-1.1.1`](/kompendium/techniques/ea-1-1-1-selektivni-expozice/), `EA-3.2.1` |
-| Mystical Manipulation | [`EA-5.1.19`](/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace/) |
+| Milieu Control | [`EA-1.1.1`](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), `EA-3.2.1` |
+| Mystical Manipulation | [`EA-5.1.19`](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) |
 | Demand for Purity | `EA-3.3.1`, Kap. 4 |
 | Confession | `EA-3.2.1` |
-| Sacred Science | [`EA-1.3.1`](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) |
-| Loading the Language | [`EA-1.1.3`](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/), `EA-5.1.5` |
+| Sacred Science | [`EA-1.3.1`](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) |
+| Loading the Language | [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), `EA-5.1.5` |
 | Doctrine over Person | Kap. 4 protokoly |
 | Dispensing of Existence | Kap. 4 + 5 finální fáze |
 
@@ -217,7 +217,7 @@ Mapování EA technik na úrovně epistemic pipeline NABLA Infinity:
 | Kap. 4 (Terminální) | L8–L11 (identita, paradigm, axiom) |
 | Kap. 5 (Ultramární) | L11–L13 (axiom, transcendence, anihilace) |
 
-> Plný popis NABLA Infinity v [Glossary](/glossary/nabla-infinity/).
+> Plný popis NABLA Infinity v [Glossary](@/glossary/nabla-infinity.md).
 
 ## 6. Principy konzistence
 
@@ -249,18 +249,18 @@ Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 
 ## 8. Cross-referencing s dalšími přílohami
 
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární literatura k taxonomické metodě.
-- [Rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/) — operativní výstup tohoto schématu.
-- [Index pojmů](/kompendium/08-prilohy/index-pojmu/) — kanonizace termínů.
-- [Diagnostické nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/) — instrumenty operacionalizující dimenze.
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — etické předpoklady taxonomie.
-- [Zkratky a notace](/kompendium/08-prilohy/zkratky/) — formální notační konvence.
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární literatura k taxonomické metodě.
+- [Rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) — operativní výstup tohoto schématu.
+- [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) — kanonizace termínů.
+- [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) — instrumenty operacionalizující dimenze.
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — etické předpoklady taxonomie.
+- [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) — formální notační konvence.
 
 ## 9. Platformový kontext
 
-- [Glossary](/glossary/) — kanonizace termínů recipročně s touto taxonomií.
-- [NABLA Infinity](/glossary/nabla-infinity/) — L0–L13 mapování (sekce 5.5).
-- [Color Teams](/glossary/color-teams/) — Red Team scénáře využívají dimenzionální osy.
+- [Glossary](@/glossary/_index.md) — kanonizace termínů recipročně s touto taxonomií.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — L0–L13 mapování (sekce 5.5).
+- [Color Teams](@/glossary/color-teams.md) — Red Team scénáře využívají dimenzionální osy.
 - [Decision Engine](/hub/dd/decisions/) — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
 - [3NL architektura](/glossary/three-nested-loops/) — dimenze strukturální/obsahová mapuje na L1/L3 rozdělení.
 
@@ -272,7 +272,7 @@ Místo lineární četby:
 
 1. Identifikuj **konkrétní termín / techniku / nástroj**, který právě potřebuješ
 2. Použij vyhledávání (Cmd+F / Ctrl+F) v této stránce
-3. Pokud nenajdeš, zkontroluj [glossary](/glossary/) a [rejstřík technik](/kompendium/08-prilohy/rejstrik-technik/)
+3. Pokud nenajdeš, zkontroluj [glossary](@/glossary/_index.md) a [rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 > **Mandatorní akce**: použití přílohy bez konkrétní otázky je obvykle
 > formou prokrastinace. Definuj si nejprve, **co hledáš**, teprve pak
@@ -282,18 +282,18 @@ Místo lineární četby:
 
 ### V této sekci
 
-- [Bibliografie a primární literatura](/kompendium/08-prilohy/bibliografie/)
-- [Diagnostické dotazníky a nástroje](/kompendium/08-prilohy/diagnosticke-nastroje/)
-- [Etický kodex výzkumníka EA](/kompendium/08-prilohy/eticky-kodex/)
-- [Index pojmů (CS-EN bilingual)](/kompendium/08-prilohy/index-pojmu/)
-- [Kompletní rejstřík technik (master index)](/kompendium/08-prilohy/rejstrik-technik/)
+- [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)
+- [Diagnostické dotazníky a nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md)
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md)
+- [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
+- [Kompletní rejstřík technik (master index)](@/kompendium/08-prilohy/rejstrik-technik.md)
 
 ### Klíčové orientační body
 
-- [Hub kompendia](/kompendium/) — návrat na úvodní rozcestník
-- [Glossary](/glossary/) — terminologický slovník
-- [Bibliografie](/kompendium/08-prilohy/bibliografie/) — primární zdroje
-- [Etický kodex](/kompendium/08-prilohy/eticky-kodex/) — povinné rámce použití
+- [Hub kompendia](@/kompendium/_index.md) — návrat na úvodní rozcestník
+- [Glossary](@/glossary/_index.md) — terminologický slovník
+- [Bibliografie](@/kompendium/08-prilohy/bibliografie.md) — primární zdroje
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) — povinné rámce použití
 
 ---
 
@@ -302,4 +302,4 @@ Místo lineární četby:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](/kompendium/) | [Přílohy](/kompendium/08-prilohy/) | [Techniques](/kompendium/techniques/) | [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

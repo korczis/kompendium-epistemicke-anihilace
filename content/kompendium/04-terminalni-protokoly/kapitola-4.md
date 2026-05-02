@@ -16,11 +16,11 @@ status = "publikovano"
 
 # Kapitola 4: Extrémní výcviková sekvence
 
-> ⚠️ **L2 — Analytické porozumění.** Tato kapitola popisuje strukturu a mechanismy extrémních výcvikových sekvencí na úrovni systémové analýzy. Nezahrnuje implementační detaily, kalibrační parametry ani materiály pro reprodukci. Čtenář se předpokládá obeznámen s [definicí epistemické anihilace](/glossary/epistemicka-anihilace/) a [základními kategoriemi epistemických manipulací](/kompendium/03-zakladni-kategorie/).
+> ⚠️ **L2 — Analytické porozumění.** Tato kapitola popisuje strukturu a mechanismy extrémních výcvikových sekvencí na úrovni systémové analýzy. Nezahrnuje implementační detaily, kalibrační parametry ani materiály pro reprodukci. Čtenář se předpokládá obeznámen s [definicí epistemické anihilace](@/glossary/epistemicka-anihilace.md) a [základními kategoriemi epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ## Úvod: výcvik jako legitimní rámec terminálního protokolu
 
-Zvláště nebezpečnou — a historicky nejčastější — implementační formou [terminálních protokolů](/kompendium/04-terminalni-protokoly/) je jejich nasazení v rámci zdánlivě legitimních výcvikových, edukativních nebo profesionalizačních programů. Výcvikový rámec poskytuje strukturální legitimitu, která dramaticky redukuje obrané reakce subjektu a zvyšuje účinnost protokolu na úrovních nedosažitelných v explicitně koercitivních kontextech.
+Zvláště nebezpečnou — a historicky nejčastější — implementační formou [terminálních protokolů](@/kompendium/04-terminalni-protokoly/_index.md) je jejich nasazení v rámci zdánlivě legitimních výcvikových, edukativních nebo profesionalizačních programů. Výcvikový rámec poskytuje strukturální legitimitu, která dramaticky redukuje obrané reakce subjektu a zvyšuje účinnost protokolu na úrovních nedosažitelných v explicitně koercitivních kontextech.
 
 Klíčový paradox extrémního výcviku spočívá v tom, že **legitimní vysoce-intenzivní výcvikové programy** (vojenské SERE — Survival, Evasion, Resistance, and Escape; lékařský rezidentský výcvik v krizové medicíně; klinický výcvik v dialekticko-behaviorální terapii) **a destruktivní rekonfigurační protokoly sdílejí významnou strukturální podobnost**. Rozdíl není primárně v použitých technikách, ale v intenci, supervizi, etických safeguardách a — zásadně — v cílovém stavu po ukončení výcviku.
 
@@ -60,7 +60,7 @@ Strukturální analýza extrémních výcvikových protokolů — jak legitimní
 
 **Cíle.** Etablování baseline kognitivního, emocionálního, somatického a sociálního fungování subjektu; vybudování důvěry v institucionální rámec; instalace sady dovedností, které budou v pozdějších fázích selektivně narušeny a rekonstruovány.
 
-**Předpoklady.** Komplexní pre-engagement screening (viz [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)), psychiatrická a somatická anamnéza, výchozí měření kognitivních kapacit, baseline sociometrie.
+**Předpoklady.** Komplexní pre-engagement screening (viz [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)), psychiatrická a somatická anamnéza, výchozí měření kognitivních kapacit, baseline sociometrie.
 
 **Metody.** Strukturovaný teoretický výcvik, dovednostní akvizice v nízko-stresovém prostředí, etablování rapportu s instruktory, instalace explicitních pravidel a institucionálních norem.
 
@@ -148,7 +148,7 @@ Pro pochopení diferenciace mezi legitimním extrémním výcvikem a destruktivn
 
 **Strukturální charakteristiky.** Důraz na stupeň 1 (extenzivní teoretický základ) a stupeň 5 (long-term peer support); kratší stupně 2–4 ale s vysoce intenzivními simulacemi.
 
-**Klíčový element.** Program kombinuje výcvik s aktivním výzkumem; účastníci jsou současně subjekty i co-investigators, což zvyšuje [epistemickou autonomii](/philosophy/intellectual-sovereignty/) namísto jejího potlačení.
+**Klíčový element.** Program kombinuje výcvik s aktivním výzkumem; účastníci jsou současně subjekty i co-investigators, což zvyšuje [epistemickou autonomii](@/philosophy/intellectual-sovereignty.md) namísto jejího potlačení.
 
 **Diferenciační znaky.** Aktivní role účastníka v meta-analýze vlastní zkušenosti; legitimní protokol podporuje **kritické myšlení vůči samotnému programu**; destruktivní protokol jej systematicky potlačuje.
 
@@ -245,15 +245,15 @@ Protokol musí specifikovat **explicitní kritéria** pro předčasné ukončen�
 
 ## Integrace s technikami EA-1.X.Y
 
-Strukturální komponenty extrémních výcvikových sekvencí často využívají specifických manipulačních technik popsaných v [Sekci 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/). Tyto techniky jsou v legitimním kontextu **edukačně transparentní** a v destruktivním kontextu **opaktní**.
+Strukturální komponenty extrémních výcvikových sekvencí často využívají specifických manipulačních technik popsaných v [Sekci 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md). Tyto techniky jsou v legitimním kontextu **edukačně transparentní** a v destruktivním kontextu **opaktní**.
 
 Klíčové reference:
 
-- [EA-1.1 Konceptuální dekonstrukce](/kompendium/techniques/) — využívána v stupni 2 pro destabilizaci pre-existujících konceptuálních rámců
-- [EA-1.2 Identitní destabilizace](/kompendium/techniques/) — klíčová v stupni 2 a 3, kde se profesionální identita rekonstruuje
-- [EA-1.3 Metakognitivní rušení](/kompendium/techniques/) — v destruktivním protokolu maximalizováno; v legitimním protokolu kompenzováno explicitní edukací
-- [EA-1.4 Sociální izolace](/glossary/anankasticky-rezim/) — kontrolovaně v stupni 2; v destruktivním protokolu permanentní
-- [EA-1.5 Spánková deprivace](/kompendium/techniques/) — striktně limitovaná v legitimním protokolu; bez limitů v destruktivním
+- [EA-1.1 Konceptuální dekonstrukce](@/kompendium/techniques/_index.md) — využívána v stupni 2 pro destabilizaci pre-existujících konceptuálních rámců
+- [EA-1.2 Identitní destabilizace](@/kompendium/techniques/_index.md) — klíčová v stupni 2 a 3, kde se profesionální identita rekonstruuje
+- [EA-1.3 Metakognitivní rušení](@/kompendium/techniques/_index.md) — v destruktivním protokolu maximalizováno; v legitimním protokolu kompenzováno explicitní edukací
+- [EA-1.4 Sociální izolace](@/glossary/anankasticky-rezim.md) — kontrolovaně v stupni 2; v destruktivním protokolu permanentní
+- [EA-1.5 Spánková deprivace](@/kompendium/techniques/_index.md) — striktně limitovaná v legitimním protokolu; bez limitů v destruktivním
 
 ## Závěr
 
@@ -267,26 +267,26 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 4. **Kontinuální, granulární informovaný souhlas** a **respektovaný abort signál** jsou nezbytnými podmínkami legitimity.
 5. **Long-term follow-up** (typicky 2–5 let) je integrální součástí, nikoli volitelným doplňkem.
 
-[Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/) navazuje detailní analýzou specializovaných bezpečnostních protokolů, které musí být implementovány na úrovni instituce, výzkumného týmu a individuálního klinika pro zajištění etické a bezpečné práce v této oblasti.
+[Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md) navazuje detailní analýzou specializovaných bezpečnostních protokolů, které musí být implementovány na úrovni instituce, výzkumného týmu a individuálního klinika pro zajištění etické a bezpečné práce v této oblasti.
 
 ## Související
 
-- [Sekce 04 — Terminální protokoly (úvod)](/kompendium/04-terminalni-protokoly/)
-- [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
-- [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/)
-- [Sekce 03 — Kapitola 1: Konceptuální dekonstrukce](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [Sekce 03 — Kapitola 2: Identitní destabilizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- [Sekce 03 — Kapitola 3: Metakognitivní rušení](/kompendium/03-zakladni-kategorie/kapitola-3/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/) — terapeutické rámce pro post-traumatic recovery
-- [Techniky: EA-1.X.Y](/kompendium/techniques/) — specifické manipulační techniky využívané v sekvencích
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Color Teams](/glossary/color-teams/) — strukturovaná evaluace rizikového profilu
-- [NABLA Infinity Framework](/glossary/nabla-infinity/) — formální reprezentace epistemických trajektorií
-- [Filozofie: Intelektuální suverenita](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemická integrita](/philosophy/epistemic-integrity/)
+- [Sekce 04 — Terminální protokoly (úvod)](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
+- [Sekce 03: Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 03 — Kapitola 1: Konceptuální dekonstrukce](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [Sekce 03 — Kapitola 2: Identitní destabilizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- [Sekce 03 — Kapitola 3: Metakognitivní rušení](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické rámce pro post-traumatic recovery
+- [Techniky: EA-1.X.Y](@/kompendium/techniques/_index.md) — specifické manipulační techniky využívané v sekvencích
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md) — strukturovaná evaluace rizikového profilu
+- [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální reprezentace epistemických trajektorií
+- [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - [Decision Engine](/hub/dd/decisions/) — evidence-based hodnocení rizikového profilu
 
 
@@ -295,16 +295,16 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -313,4 +313,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

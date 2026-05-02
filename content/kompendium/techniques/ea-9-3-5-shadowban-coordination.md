@@ -133,22 +133,22 @@ Prismatic Platform implementuje detekci a neutralizaci Shadowban Coordination p�
 
 **Související EA techniky:**
 
-- [EA-9.1.1 LLM Hallucination Laundering](/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering/)
+- [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
 - [EA-9.1.2 Prompt Injection EA](/kompendium/techniques/ea-9-1-2-prompt-injection-EA/)
-- [EA-9.2.1 Deepfake Personality](/kompendium/techniques/ea-9-2-1-deepfake-personality/)
+- [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
 - [EA-9.2.2 Voice Cloning EA](/kompendium/techniques/ea-9-2-2-voice-cloning-EA/)
-- [EA-9.4.1 Bot Amplification Coordinated](/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated/)
-- [EA-9.4.2 Coordinated Inauthentic Behavior](/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior/)
-- [EA-9.5.1 Meme Cascade Injection](/kompendium/techniques/ea-9-5-1-meme-cascade-injection/)
-- [EA-9.5.2 Symbolic Hijacking](/kompendium/techniques/ea-9-5-2-symbolic-hijacking/)
-- [EA-9.3.1 Algoritmická amplifikace](/kompendium/techniques/ea-9-3-1-algorithmic-amplification/)
+- [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
+- [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
+- [EA-9.5.1 Meme Cascade Injection](@/kompendium/techniques/ea-9-5-1-meme-cascade-injection.md)
+- [EA-9.5.2 Symbolic Hijacking](@/kompendium/techniques/ea-9-5-2-symbolic-hijacking.md)
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
 - [EA-9.3.2 Engagement Optimization EA](/kompendium/techniques/ea-9-3-2-engagement-optimization-EA/)
-- [EA-9.3.3 Feed Personalization Bias](/kompendium/techniques/ea-9-3-3-feed-personalization-bias/)
-- [EA-9.3.4 Recommendation Radicalization](/kompendium/techniques/ea-9-3-4-recommendation-radicalization/)
+- [EA-9.3.3 Feed Personalization Bias](@/kompendium/techniques/ea-9-3-3-feed-personalization-bias.md)
+- [EA-9.3.4 Recommendation Radicalization](@/kompendium/techniques/ea-9-3-4-recommendation-radicalization.md)
 
 **Doktrinální a infrastructure odkazy:**
 
-- [Kompendium — Digitální věk](/kompendium/07-teoreticke-reflexe/digitalni-vek/)
+- [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
 - [Nabla Infinity Engine](/nabla/)
 - [OSINT Toolbox](/osint/toolbox/)
 - [Decision Engine](/hub/dd/decisions/)
@@ -160,7 +160,7 @@ Prismatic Platform implementuje detekci a neutralizaci Shadowban Coordination p�
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](/license/)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Kompendium](/kompendium/) | [Techniques Index](/kompendium/techniques/) | [Developer Portal](/developers/)
+- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](@/developers/_index.md)
 
 ---
 

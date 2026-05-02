@@ -35,19 +35,19 @@ Specifically:
 
 - **EA-1.2.x delegitimization techniques** are intelligible as power-knowledge moves: a speaker is excluded from the recognized-knower position not because their claims are demonstrably false but because they fall outside the regime of truth's procedures for producing valid statements.
 - **EA-1.3.3 thematic diversion** functions by shifting the discourse into a regime where the victim's testimony is structurally illegible — different criteria of validity, different authorized speakers, different relevant evidence.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) pairs power-knowledge with [panopticism](/glossary/panopticism/) as a unified diagnostic apparatus for institutional EA, then contrasts both with [communicative rationality](/glossary/communicative-rationality/) as the normative counter-vision.
-- The [Color Teams](/glossary/color-teams/) framework treats the platform itself as a power-knowledge apparatus and audits it accordingly: which voices does the Decision Engine privilege? Whose confidence calibration becomes authoritative? The platform's open-source / auditable / multilingual commitments are explicit power-knowledge counter-moves.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) pairs power-knowledge with [panopticism](@/glossary/panopticism.md) as a unified diagnostic apparatus for institutional EA, then contrasts both with [communicative rationality](@/glossary/communicative-rationality.md) as the normative counter-vision.
+- The [Color Teams](@/glossary/color-teams.md) framework treats the platform itself as a power-knowledge apparatus and audits it accordingly: which voices does the Decision Engine privilege? Whose confidence calibration becomes authoritative? The platform's open-source / auditable / multilingual commitments are explicit power-knowledge counter-moves.
 - The Czech-language Kompendium itself is a power-knowledge intervention: by producing **technical taxonomy in Czech**, it shifts the regime of truth in which Czech-speaking survivors can name their experience.
 
 ## See Also
 
-- [Panopticism](/glossary/panopticism/) — Companion Foucauldian concept
-- [Epistemická injustice](/glossary/epistemicka-injustice/) — Fricker's complementary frame
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon explained
-- [Metanarrative collapse](/glossary/metanarrative-collapse/) — Lyotard's postmodern frame
-- [Communicative rationality](/glossary/communicative-rationality/) — Habermasian counter-vision
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Panopticism](@/glossary/panopticism.md) — Companion Foucauldian concept
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Fricker's complementary frame
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
+- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) — Lyotard's postmodern frame
+- [Communicative rationality](@/glossary/communicative-rationality.md) — Habermasian counter-vision
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -56,4 +56,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

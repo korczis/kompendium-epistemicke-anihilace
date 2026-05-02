@@ -54,7 +54,7 @@ Ricoeur (zejména *De l'interprétation*, 1965) formuluje pojem **hermeneutiky p
 Pro EA má hermeneutika podezření **dvojí relevanci**:
 
 1. **Diagnostický nástroj**: detekce EA technik **vyžaduje** podezíravý postoj vůči povrchovým narativům — kompendium samotné je hermeneuticko-podezíravým projektem.
-2. **Riziko inflace**: hyperinflace podezření vede k **paranoidnímu stylu** ([viz 7.45 Chomsky](/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent/)), jenž je sám **patologií** epistemické integrity. Ricoeur proto kombinuje hermeneutiku podezření s **hermeneutikou důvěry** — schopnost **přijmout** smysl, kde je legitimní.
+2. **Riziko inflace**: hyperinflace podezření vede k **paranoidnímu stylu** ([viz 7.45 Chomsky](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)), jenž je sám **patologií** epistemické integrity. Ricoeur proto kombinuje hermeneutiku podezření s **hermeneutikou důvěry** — schopnost **přijmout** smysl, kde je legitimní.
 
 ## 4. Symbolika zla a *peccatum*
 
@@ -73,7 +73,7 @@ Ricoeurova teze: **čas se stává lidským** prostřednictvím **vyprávění**
 Pro EA má tato perspektiva **specifickou relevanci**:
 
 - **Časová dezorientace** v traumatu (flashbacky, intruzivní vzpomínky, foreshortened future) je strukturálně **rozpadem narativní časovosti**.
-- **Algoritmická časovost** ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) — feedy bez konce, perpetual present, "doomscrolling" — strukturálně **anihiluje** narativní časovost.
+- **Algoritmická časovost** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) — feedy bez konce, perpetual present, "doomscrolling" — strukturálně **anihiluje** narativní časovost.
 - **Klinická restituce** musí znovuvybudovat narativní časovost — nikoli pouze "léčit symptomy".
 
 ## 6. Mapping na EA techniky
@@ -88,7 +88,7 @@ Pro EA má tato perspektiva **specifickou relevanci**:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Narativní terapie** (White & Epston) operuje na ricoeurovských kategoriích.
 - **Trauma-focused terapie** (Herman, van der Kolk) musí znovuvybudovat **narativní kontinuitu**.
@@ -104,15 +104,15 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.2 Epistemické trauma](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)
-- [7.10 Wittgenstein: Jazykové hry](/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry/)
-- [7.43 Harari: Sapiens narativ](/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.2 Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+- [7.10 Wittgenstein: Jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+- [7.43 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -121,4 +121,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

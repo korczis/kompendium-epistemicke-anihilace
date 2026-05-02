@@ -66,7 +66,7 @@ V *The Road to Unfreedom* (2018) Snyder analyzuje **post-truth** politiku jako s
 - **Post-truth**: **eliminuje** pravdu — vytváří **alternativní reality**, v nichž **pravda** není **kategorií**
 - **Politická operace**: **zabíjí** pravdu, aby zabila politiku — bez sdílené reference k faktům není možná legitimní debata
 
-Strukturální paralela s **Arendtovou** ([viz 7.18](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)) a **Williamsem** ([viz 7.30](/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness/)).
+Strukturální paralela s **Arendtovou** ([viz 7.18](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)) a **Williamsem** ([viz 7.30](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)).
 
 Pro EA z toho plyne:
 
@@ -122,7 +122,7 @@ Snyderovy lekce mají **přímou** politickou aplikaci:
 
 ## 8. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Politické trauma**: subjekti vystaveni autoritářskému režimu vyžadují **specifickou** klinickou pozornost
 - **Restituce politické agency**: pacient se učí **angažovat** se v demokratických procesech
@@ -137,16 +137,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.30 Williams: Truth and Truthfulness](/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness/)
-- [7.54 Chomsky: Manufacturing Consent](/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent/)
-- [7.57 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.30 Williams: Truth and Truthfulness](@/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md)
+- [7.54 Chomsky: Manufacturing Consent](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md)
+- [7.57 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -155,4 +155,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

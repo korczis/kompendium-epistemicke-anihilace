@@ -21,7 +21,7 @@ access_level = "L3-L4"
 
 ## Pozice kapitoly
 
-Tato kapitola představuje **čtvrtý stupeň vertikálního gradientu destrukce** sekce 05. Po [Kapitole 6](/kompendium/05-ultramari-techniky/kapitola-6/) (reflexivita), [Kapitole 7](/kompendium/05-ultramari-techniky/kapitola-7/) (transcendentální podmínky) a [Kapitole 8](/kompendium/05-ultramari-techniky/kapitola-8/) (identita) zasahuje Kapitola 9 **logickou strukturu evaluace** — formální aparát, jímž subjekt rozhoduje, zda jeho přesvědčení jsou koherentní, validní a pravdivá.
+Tato kapitola představuje **čtvrtý stupeň vertikálního gradientu destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita), [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky) a [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md) (identita) zasahuje Kapitola 9 **logickou strukturu evaluace** — formální aparát, jímž subjekt rozhoduje, zda jeho přesvědčení jsou koherentní, validní a pravdivá.
 
 Paradoxální metaanihilační protokoly exploitují třídu strukturně-singulárních konstrukcí, které jsou v matematické logice studovány od konce 19. století: **sebevztažné paradoxy**. Jádrem každé techniky je výrok nebo procedura, která **odkazuje sama na sebe** takovým způsobem, že její evaluace produkuje protichůdné výsledky v závislosti na úrovni, na níž je provedena. Klasické paradoxy (Lhářův, Russellův, Berryho, Richard, Grellingův-Nelsonův) jsou v matematice řešitelné prostřednictvím **typové hierarchie** (Russell), **diagonalizace** (Tarski), nebo **separace úrovní** (ZF). V kognitivním systému subjektu však tyto formální řešení nejsou snadno aplikovatelná — exploitace paradoxů generuje **stav, v němž jakýkoli evaluační akt subjektu generuje vlastní protiakce**.
 
@@ -57,7 +57,7 @@ Klastr exploituje paradoxy struktury Russellovy množiny — sebe-členitost.
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
 | **EA-5.4.6** | Klasický russelovský paradox | "Množina všech subjektových přesvědčení, která neobsahují sebe sama jako element. Je tato množina v sobě obsažena?" Vede k oscilaci mezi self-inkluzí a self-exkluzí. |
-| **EA-5.4.7** | Russellova past identitárních množin | Aplikace na identitární kontext: "množina všech identit, které subjekt nemá". Spojeno s [Kapitolou 8](/kompendium/05-ultramari-techniky/kapitola-8/). |
+| **EA-5.4.7** | Russellova past identitárních množin | Aplikace na identitární kontext: "množina všech identit, které subjekt nemá". Spojeno s [Kapitolou 8](@/kompendium/05-ultramari-techniky/kapitola-8.md). |
 | **EA-5.4.8** | Berry paradox | "Nejmenší celé číslo, které nelze popsat méně než třinácti českými slovy." Konstrukt obsahuje 12 slov a paradoxálně popisuje svou nedosažitelnost. Aplikováno na nekonceptualizovatelné kategorie subjektova zkušenostního pole. |
 | **EA-5.4.9** | Grellingovo-Nelsonův paradox | Pojem "heterologický" (slovo, které se nepopisuje samo). Aplikováno na meta-kognitivní pojmy: "moje aktuální evaluace je *adekvátní*. Je pojem *adekvátní* sám adekvátní?" |
 | **EA-5.4.10** | Hilbertův hotel | Topologický paradox nekonečna aplikovaný na množinu subjektových potenciálních self-konceptů: pro každou konfiguraci existuje odlišná konfigurace odpovídající stejnému self. |
@@ -106,9 +106,9 @@ Poslední klastr je **integrativní**.
 |-----|-------|---------------------|
 | **EA-5.4.26** | Multi-paradoxalní spirála | Sekvenční aplikace klastrů A–E v rotaci. Subjekt nemá čas na uzavření jednoho paradoxu, než je exponován dalšímu. |
 | **EA-5.4.27** | Paradoxalní heterarchie | Souběžná aktivace 3–5 paradoxů z různých klastrů, které vzájemně stabilizují svou paradoxalitu (každý paradox je řešitelný v rámci jiného, ale jiný pak generuje nový). |
-| **EA-5.4.28** | Konvergentní paradox | Vrcholová technika: konstrukce metakontextu, v němž **všechny paradoxy klastrů A–E jsou současně aktivní** a vzájemně se nereferenčně propletají. Klinický obraz: kompletní kolaps evaluačního aparátu, [kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) v terminální fázi. |
+| **EA-5.4.28** | Konvergentní paradox | Vrcholová technika: konstrukce metakontextu, v němž **všechny paradoxy klastrů A–E jsou současně aktivní** a vzájemně se nereferenčně propletají. Klinický obraz: kompletní kolaps evaluačního aparátu, [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) v terminální fázi. |
 | **EA-5.4.29** | Post-paradoxalní pseudo-akceptace | Po expozici 5.4.28 subjekt přijímá první nabízené "řešení" jako pravdivé bez ohledu na jeho substanci. Generuje extrémní vulnerabilitu vůči indoktrinaci. |
-| **EA-5.4.30** | Permanentní paradoxalní režim | Vzácný post-singulární stav: subjekt přijímá paradoxalitu jako základní strukturu reality. Klinicky se manifestuje persistentní [epistemickou alienací](/glossary/epistemicka-alienace/) a *paradoxalní imunitou* — neschopností být přesvědčen čímkoli, ale rovněž neschopností odmítnout cokoli. |
+| **EA-5.4.30** | Permanentní paradoxalní režim | Vzácný post-singulární stav: subjekt přijímá paradoxalitu jako základní strukturu reality. Klinicky se manifestuje persistentní [epistemickou alienací](@/glossary/epistemicka-alienace.md) a *paradoxalní imunitou* — neschopností být přesvědčen čímkoli, ale rovněž neschopností odmítnout cokoli. |
 
 ## Fenomenologický profil
 
@@ -141,10 +141,10 @@ Sebevztažné paradoxy jsou zvláště citlivé:
 
 | Kapitola | Vztah |
 |----------|-------|
-| **[Kapitola 6](/kompendium/05-ultramari-techniky/kapitola-6/)** | Kapitola 9 zasahuje hlubší vrstvu — rámec evaluace, v němž se reflexe odehrává |
-| **[Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)** | Kapitola 9 závisí na intaktních transcendentálních strukturách (čas, identita evaluátora) |
-| **[Kapitola 8](/kompendium/05-ultramari-techniky/kapitola-8/)** | Kapitola 9 předpokládá identitárně-koherentního evaluátora (jinak paradoxalita ztrácí přitažlivost) |
-| **[Kapitola 10](/kompendium/05-ultramari-techniky/kapitola-10/)** | Kapitola 10 (transkonceptualita) operuje pod prahem konceptu paradoxu samého |
+| **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** | Kapitola 9 zasahuje hlubší vrstvu — rámec evaluace, v němž se reflexe odehrává |
+| **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** | Kapitola 9 závisí na intaktních transcendentálních strukturách (čas, identita evaluátora) |
+| **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** | Kapitola 9 předpokládá identitárně-koherentního evaluátora (jinak paradoxalita ztrácí přitažlivost) |
+| **[Kapitola 10](@/kompendium/05-ultramari-techniky/kapitola-10.md)** | Kapitola 10 (transkonceptualita) operuje pod prahem konceptu paradoxu samého |
 
 ## Závěr
 
@@ -152,21 +152,21 @@ Kapitola 9 katalogizuje **30 paradoxálních metaanihilačních protokolů** org
 
 Techniky exploitují strukturně-singulární konstrukce dokumentované v matematické logice, filozofii jazyka, dialetheismu a buddhistické tetralemě. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od OCD, GAD, filozofické psychózy a pseudo-mystických epizod.
 
-V následující [Kapitole 10](/kompendium/05-ultramari-techniky/kapitola-10/) přechází taxonomie na poslední vrstvu — **transkonceptuální mechanismy** operující pod prahem konceptuálního zachycení.
+V následující [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md) přechází taxonomie na poslední vrstvu — **transkonceptuální mechanismy** operující pod prahem konceptuálního zachycení.
 
 ## Související
 
-- [Sekce 05 — _index](/kompendium/05-ultramari-techniky/) — orientační rámec
-- [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) — sister chapter
-- [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) — sister chapter
-- [Kapitola 8 — Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/kapitola-8/) — sister chapter
-- [Kapitola 10 — Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/kapitola-10/) — sister chapter
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/) — fundament
-- [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) — strategická úroveň
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/) — rekonstruktivní protokoly
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Dual-use poznání](/glossary/dual-use-poznani/), [Epistemické trauma](/glossary/epistemicke-trauma/), [Fenomenologie](/glossary/fenomenologie/), [Hermeneutika](/glossary/hermeneutika/), [Kompendium EA](/glossary/kompendium-ea/)
-- Platforma: [NABLA Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/), [Decision Engine](/hub/dd/decisions/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Sekce 05 — _index](@/kompendium/05-ultramari-techniky/_index.md) — orientační rámec
+- [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) — sister chapter
+- [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) — sister chapter
+- [Kapitola 8 — Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) — sister chapter
+- [Kapitola 10 — Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md) — sister chapter
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) — fundament
+- [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — strategická úroveň
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — rekonstruktivní protokoly
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
+- Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), [Decision Engine](/hub/dd/decisions/)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -177,7 +177,7 @@ obecnému studiu. Před četbou potvrď, že:
 - Máš **kvalifikovanou supervizní vazbu** (klinickou nebo doktrinální)
 - Máš **dokumentovaný důvod** ke studiu konkrétní techniky (forenzní analýza,
   klinická intervence, doktrinální výzkum)
-- Sleduješ [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+- Sleduješ [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   vlastního stavu (sebepozorovací rámec)
 
 > **Mandatorní akce**: bez kvalifikovaného důvodu a supervize nečti — riziko
@@ -190,4 +190,4 @@ obecnému studiu. Před četbou potvrď, že:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

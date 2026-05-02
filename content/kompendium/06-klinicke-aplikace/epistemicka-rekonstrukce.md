@@ -17,7 +17,7 @@ toc = true
 
 ## Pozice protokolu v terapeutické struktuře
 
-Protokol epistemické rekonstrukce představuje **pilíř 3** terapeutické struktury popsané v [6.3](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/). Je **specifickým příspěvkem** terapie [epistemické anihilace](/glossary/epistemicka-anihilace/), který doplňuje (nikoli nahrazuje) klasické trauma-fokusované intervence.
+Protokol epistemické rekonstrukce představuje **pilíř 3** terapeutické struktury popsané v [6.3](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Je **specifickým příspěvkem** terapie [epistemické anihilace](@/glossary/epistemicka-anihilace.md), který doplňuje (nikoli nahrazuje) klasické trauma-fokusované intervence.
 
 Cíl protokolu: **systematická obnova poznávací autonomie** — schopnosti klienta samostatně poznávat, vyhodnocovat informace, konstruovat koherentní self-narrativ a důvěřovat vlastnímu poznávacímu aparátu.
 
@@ -33,7 +33,7 @@ Cíl protokolu: **systematická obnova poznávací autonomie** — schopnosti kl
 | **S4** | Hermeneutická obnova | Obnova interpretační kapacity | 6–12 sezení |
 | **S5** | Konsolidace a transfer | Integrace, dlouhodobá resilience | 4–8 sezení |
 
-Trvání je **orientační** — komplexní případy (post-kult, dlouhodobá EA s [ontologickou anihilací](/glossary/ontologicka-anihilace/)) mohou vyžadovat 2–4 leté terapeutické trajektorie.
+Trvání je **orientační** — komplexní případy (post-kult, dlouhodobá EA s [ontologickou anihilací](@/glossary/ontologicka-anihilace.md)) mohou vyžadovat 2–4 leté terapeutické trajektorie.
 
 Protokol není **lineární** — stupně se navzájem prolínají, klient se může vracet k předchozím fázím. Posloupnost však popisuje **těžiště práce** v daném období.
 
@@ -52,7 +52,7 @@ Protokol není **lineární** — stupně se navzájem prolínají, klient se m�
 
 Strukturované předání informací o:
 - Existenci a strukturách EA;
-- Specifických technikách, kterým byl klient vystaven (s odkazem na [techniques](/kompendium/techniques/));
+- Specifických technikách, kterým byl klient vystaven (s odkazem na [techniques](@/kompendium/techniques/_index.md));
 - Rozdílu mezi "byl jsem slabý" a "byl jsem systematicky zacílen";
 - Léčebné cestě a očekávaných obtížích.
 
@@ -140,7 +140,7 @@ Toto je **jádro protokolu** a typicky nejdelší fáze.
 - Obnovit schopnost **reflektovat vlastní poznávání**;
 - Rekonstruovat **realista-testing** — hodnocení důkazů a hypotéz;
 - Rekonstruovat **paměťovou důvěru** — schopnost důvěřovat svým vzpomínkám;
-- Vytvořit **stabilní [metakognitivní](/glossary/metakognice/) pozici** pro budoucí život.
+- Vytvořit **stabilní [metakognitivní](@/glossary/metakognice.md) pozici** pro budoucí život.
 
 ### Klíčové intervence
 
@@ -292,13 +292,13 @@ Strukturovaná příprava:
 | **Vědci/akademici** | Využití reflexivních schopností; pozor na intelektualizační obranu |
 | **Uprchlíci a oběti politické represe** | Kulturně senzitivní adaptace, jazykové aspekty, kolektivní dimenze |
 
-Detailněji v [6.5](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/).
+Detailněji v [6.5](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 
 ## Vztah k platformě Prismatic
 
 Protokol epistemické rekonstrukce může být podporován nástroji platformy:
 - **[Decision Engine](/hub/dd/decisions/)** — kalibrace klientovy důvěry během S3 (trénink hodnocení důkazů);
-- **[NABLA Infinity](/glossary/nabla-infinity/)** — mapování klientových epistemických zranění do framework L0–L13;
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — mapování klientových epistemických zranění do framework L0–L13;
 - **Glosář a kompendium** — psychoedukační nástroje pro S1.
 
 > **Etická poznámka**: Použití technologických nástrojů musí respektovat klientovu autonomii. Nástroje **podporují** terapeutickou práci, **nenahrazují** dialog mezi klientem a terapeutem.
@@ -323,18 +323,18 @@ Doporučený **dlouhodobý follow-up** (1, 3, 5 let) zahrnuje:
 
 ## Související
 
-- [6.1 Diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
-- [6.2 Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [6.3 Terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/)
-- [6.5 Práce s vulnerabilní populací](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Techniques index](/kompendium/techniques/)
-- [Glossary: Metakognice](/glossary/metakognice/)
-- [Glossary: Hermeneutika](/glossary/hermeneutika/)
-- [Glossary: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glossary: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Glossary: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
+- [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+- [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [6.3 Terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md)
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Techniques index](@/kompendium/techniques/_index.md)
+- [Glossary: Metakognice](@/glossary/metakognice.md)
+- [Glossary: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glossary: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Glossary: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
 
 
 ## ⚡ Kritický krok
@@ -347,9 +347,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -361,4 +361,4 @@ Před aplikací:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

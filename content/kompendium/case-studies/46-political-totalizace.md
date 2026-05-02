@@ -43,23 +43,23 @@ Exit byl iniciovan etickou krizí — žádost o falšování dokumentu, kterou 
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — kandidát jako mentor a moralní autorita
-- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — etické pochybnosti = "naivita"
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "s námi, nebo proti nám"
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z opuštění politické "rodiny"
-- [EA-5.1.12 Kauzalni inverze](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/) — "kritika je útok, který nás nutí kontrolovat"
-- [EA-1.3.3 Tematicka diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) — etické otázky přesměrovány na ideologické
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — disent uvnitř týmu trestán kolektivně
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — kandidát jako mentor a moralní autorita
+- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — etické pochybnosti = "naivita"
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "s námi, nebo proti nám"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z opuštění politické "rodiny"
+- [EA-5.1.12 Kauzalni inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) — "kritika je útok, který nás nutí kontrolovat"
+- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — etické otázky přesměrovány na ideologické
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — disent uvnitř týmu trestán kolektivně
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Začal jsem si všímat, že lžu i sobě. Že říkám 'ten kompromis byl nutný'. A pak jsem si všiml, že to říkám automaticky, bez přemýšlení. Že moje hlava už není moje. Že mě naprogramovali."
 
-Tento popis odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) — neschopnost reflektovat etickou situaci. Současně [epistemicka alienace](/glossary/epistemicka-alienace/) — odcizení od vlastních hodnot.
+Tento popis odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) — neschopnost reflektovat etickou situaci. Současně [epistemicka alienace](@/glossary/epistemicka-alienace.md) — odcizení od vlastních hodnot.
 
 ## Detekcni bod
 
-Hospitalizace pro akutní úzkostnou poruchu po žádosti o falšování. Klicovy moment: psychiatr identifikoval [c-PTSD](/glossary/c-ptsd/) s morálním zraněním.
+Hospitalizace pro akutní úzkostnou poruchu po žádosti o falšování. Klicovy moment: psychiatr identifikoval [c-PTSD](@/glossary/c-ptsd.md) s morálním zraněním.
 
 ## Intervencni strategie
 
@@ -75,15 +75,15 @@ Po 24 měsících terapie funkční stabilizace. Reziduální: nedůvěra k poli
 
 ## Klinicke pouceni
 
-Politická totalizace ukazuje, jak ideologický rámec může maskovat koercivní praktiky. Klinik musí rozpoznat, že "politický burnout" často maskuje [betrayal trauma](/glossary/betrayal-trauma/) s morálním zraněním. Reformně: profesní etika v politické práci musí být součástí přípravy.
+Politická totalizace ukazuje, jak ideologický rámec může maskovat koercivní praktiky. Klinik musí rozpoznat, že "politický burnout" často maskuje [betrayal trauma](@/glossary/betrayal-trauma.md) s morálním zraněním. Reformně: profesní etika v politické práci musí být součástí přípravy.
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Techniques**: [EA-1.3.2](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-5.1.12](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
+- **Techniques**: [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-5.1.12](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

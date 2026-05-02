@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **Přístupová úroveň** | L2 (pokročilá) |
 | **Riziková úroveň** | Vysoká — strukturálně poškozuje odborný diskurz, obtížně reverzibilní |
 | **Reverzibilita** | Nízká až střední — reputační poškození přetrvává i po vyvrácení |
-| **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/) |
+| **Rodičovská kapitola** | [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 
 ## Definice
 
@@ -124,14 +124,14 @@ Co prožívá oběť expertní disinflace:
 
 ### Často se kombinuje s
 
-- **[EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/)** — disinflace eskaluje v koordinovaný útok skupiny.
-- **[EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/)** — útok na konkrétní kvalifikace.
-- **[EA-2.3.3 Quote mining](/kompendium/techniques/ea-2-3-3-quote-mining/)** — výběr citátů jako munice pro disinflaci.
+- **[EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)** — disinflace eskaluje v koordinovaný útok skupiny.
+- **[EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)** — útok na konkrétní kvalifikace.
+- **[EA-2.3.3 Quote mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md)** — výběr citátů jako munice pro disinflaci.
 
 ### Eskaluje do
 
-- **[EA-2.1.7 Institucionální vyloučení](/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni/)** — disinflace dosáhne kritického masu a vyvolá institucionální distancování.
-- **[EA-2.5.2 Imposter syndrome amplifikace](/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace/)** — internalizovaná verze.
+- **[EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)** — disinflace dosáhne kritického masu a vyvolá institucionální distancování.
+- **[EA-2.5.2 Imposter syndrome amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md)** — internalizovaná verze.
 
 ## Vztah k Prismatic platformě
 
@@ -141,20 +141,20 @@ Co prožívá oběť expertní disinflace:
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 2 — Scénáře delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
+- **Rodičovská kapitola**: [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
 - **Sourozenecké techniky** (subkategorie 2.1):
-  - [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/)
-  - [EA-2.1.3 Credentialing attack](/kompendium/techniques/ea-2-1-3-credentialing-attack/)
-  - [EA-2.1.4 Publikační blokace](/kompendium/techniques/ea-2-1-4-publikacni-blokace/)
+  - [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md)
+  - [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)
+  - [EA-2.1.4 Publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md)
 - **Glossary**:
-  - [Delegitimizace](/glossary/delegitimizace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
+  - [Delegitimizace](@/glossary/delegitimizace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -164,10 +164,10 @@ Co prožívá oběť expertní disinflace:
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -179,4 +179,4 @@ Co prožívá oběť expertní disinflace:
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

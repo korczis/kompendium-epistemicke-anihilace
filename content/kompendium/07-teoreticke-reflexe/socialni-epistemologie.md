@@ -38,8 +38,8 @@ Goldmanova perspektiva poskytuje kompendiu **kvantitativní** kritérium pro hod
 
 | EA technika | Veritistická hodnota |
 |-------------|------------------------|
-| Selektivní expozice ([EA-1.1.1](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)) | **Strongly negativní** — systematicky redukuje pravdivost přesvědčení |
-| Falešné dilema ([EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/)) | **Negativní** — vynucuje volbu mezi nepravdivými alternativami |
+| Selektivní expozice ([EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)) | **Strongly negativní** — systematicky redukuje pravdivost přesvědčení |
+| Falešné dilema ([EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)) | **Negativní** — vynucuje volbu mezi nepravdivými alternativami |
 | Imunizace proti falsifikaci | **Strongly negativní** — chrání falešná přesvědčení před opravou |
 | Tematická diverze | **Negativní** — odvádí od pravdivosti |
 | Prosodická dominance | **Negativní** — váží přesvědčení podle síly hlasu, nikoli pravdivosti |
@@ -50,11 +50,11 @@ EA techniky lze **operacionalizovat** jako sociální praktiky se **systematicky
 
 Goldman dále rozvíjí **bayesovský** model sociální epistemologie: agent updateuje svá přesvědčení podle pravděpodobností přiřazených zdrojům informací. Spolehlivý zdroj generuje silnější update; nespolehlivý slabší.
 
-Pro [Decision Engine](/glossary/decision-core/) Prismatic platformy je tento rámec **přímo aplikovatelný**:
+Pro [Decision Engine](@/glossary/decision-core.md) Prismatic platformy je tento rámec **přímo aplikovatelný**:
 
 - **Source diversity check** ↔ Goldmanova analýza, že agregace více nezávislých zdrojů zvyšuje veritistickou hodnotu
 - **Confidence calibration** ↔ Goldmanův princip váženého update podle reliability zdroje
-- **Provenance Mandatory** ([NABLA](/glossary/nabla-infinity/) Axiom 7) ↔ Goldmanova analýza, že **traceabilita** je nutnou podmínkou rationálního update
+- **Provenance Mandatory** ([NABLA](@/glossary/nabla-infinity.md) Axiom 7) ↔ Goldmanova analýza, že **traceabilita** je nutnou podmínkou rationálního update
 
 ### 1.4 Limity Goldmanova rámce pro EA
 
@@ -102,7 +102,7 @@ Fricková nabízí kompendiu **fundamentální** rámec:
 
 | EA dimenze | Frickerová kategorie |
 |------------|------------------------|
-| [Delegitimizace ekvivalencí](/kompendium/03-zakladni-kategorie/) (3.5) | **Testimoniální nespravedlnost** — předsudkem motivovaná diskontace mluvčího |
+| [Delegitimizace ekvivalencí](@/kompendium/03-zakladni-kategorie/_index.md) (3.5) | **Testimoniální nespravedlnost** — předsudkem motivovaná diskontace mluvčího |
 | Akademická manipulace | **Testimoniální** — váhování argumentu podle akademické hierarchie, nikoli kvality |
 | Marginalizace whistleblowerů | **Testimoniální** — institucionalizovaná diskontace |
 | Absence konceptu pro EA samotnou | **Hermeneutická** — kompendium ji explicitně řeší (!) |
@@ -150,7 +150,7 @@ Longino poskytuje kompendiu **strukturální** kritérium pro identifikaci patol
 
 ### 3.3 Color Teams jako Longino-implementation
 
-Architektura **[Color Teams](/glossary/color-teams/)** v Prismatic platformě **přímo implementuje** Longino podmínky:
+Architektura **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **přímo implementuje** Longino podmínky:
 
 - **Red Team** zajišťuje veřejnou dostupnost kanálů kritiky (institucionalizovaná adversariální role)
 - **Blue Team** zajišťuje responsivitu (povinnost reagovat na Red Team kritiku)
@@ -161,7 +161,7 @@ Architektura **[Color Teams](/glossary/color-teams/)** v Prismatic platformě **
 
 Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale **transparentnost** těchto předpokladů a **otevřenost** ke kritice.
 
-Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/), [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)) — nikoli skryté pod fasádou "neutrality".
+Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou "neutrality".
 
 ## 4. Elizabeth Anderson — demokratická epistemologie
 
@@ -220,33 +220,33 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.2 Vztah k epistemickému traumatu](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)
-- [7.4 EA a postmodernismus](/kompendium/07-teoreticke-reflexe/postmodernismus/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Lakatosův výzkumný program](/glossary/lakatos-vyzkumny-program/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.2 Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -255,7 +255,7 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -269,4 +269,4 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — rozpad principů konstituce předmětů zkušenosti |
 | **Reverzibilita** | Téměř nulová bez specializované transcendentální rekonstrukce, 24–60 měsíců |
-| **Rodičovská kapitola** | [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
@@ -161,9 +161,9 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ### Často se kombinuje s
 
-- **[EA-5.2.4 Apriorní saturace](/kompendium/techniques/ea-5-2-4-apriorni-saturace/)** — saturace falešnými apriori připravuje rozpad konstitutivních principů.
-- **[EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)** — kategoriální struktura, která se má rozpadnout, zahrnuje konstitutivní funkci.
-- **[EA-5.1.16 Inferenční paralýza](/kompendium/techniques/ea-5-1-16-inferencni-paralyza/)** — bez konstitucí předmětů kolabuje inference.
+- **[EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)** — saturace falešnými apriori připravuje rozpad konstitutivních principů.
+- **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — kategoriální struktura, která se má rozpadnout, zahrnuje konstitutivní funkci.
+- **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — bez konstitucí předmětů kolabuje inference.
 
 ### Eskaluje do
 
@@ -172,22 +172,22 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](/glossary/nabla-infinity/)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud konstitutivní akt selže, je to viditelné v auditní stopě.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud konstitutivní akt selže, je to viditelné v auditní stopě.
 - **OSINT framework** vyžaduje **explicitní entitní rezoluci** — konstituce předmětu jako entity je strukturně exteriorizovaná a sledovatelná.
 - **Decision Engine** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
-  - [EA-5.2.4 Apriorní saturace](/kompendium/techniques/ea-5-2-4-apriorni-saturace/)
-  - [EA-5.2.6 Transcendentální rekurzivita](/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita/)
-  - [EA-5.2.7 Kategoriální disoluce](/kompendium/techniques/ea-5-2-7-kategorialni-disoluce/)
+  - [EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)
+  - [EA-5.2.6 Transcendentální rekurzivita](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md)
+  - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
 
 ## ⚡ Kritický krok
@@ -197,10 +197,10 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -212,4 +212,4 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

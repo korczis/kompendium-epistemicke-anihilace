@@ -52,19 +52,19 @@ Příliš snadná revize hraničí s nestálostí. Přesvědčení musí mít gr
 
 ## Cross-linky
 
-- [Metakognitivní monitoring](/kompendium/self-defense-guides/1-metacognitive-monitoring/) — sebe-obrana (kognitivní)
-- [Hodnocení důkazů](/kompendium/self-defense-guides/2-evidence-evaluation/) — sebe-obrana (kognitivní)
-- [Triangulace zdrojů](/kompendium/self-defense-guides/3-source-triangulation/) — sebe-obrana (kognitivní)
-- [Verifikace tvrzení](/kompendium/self-defense-guides/4-claim-verification/) — sebe-obrana (kognitivní)
-- [Emoční regulace](/kompendium/self-defense-guides/11-emotional-regulation/) — sebe-obrana (emocionální)
-- [Nastavování hranic](/kompendium/self-defense-guides/21-boundary-setting/) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](/kompendium/self-defense-guides/31-source-curation/) — sebe-obrana (informační hygiena)
-- [Správa narativu](/kompendium/self-defense-guides/41-narrative-stewardship/) — sebe-obrana (identitní)
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
+- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
+- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
 
 ## Connect
 
-- [Hlavní index sebe-obrany](/kompendium/self-defense-guides/_index/)
-- [Kompendium epistemické anihilace](/kompendium/_index/)
+- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
+- [Kompendium epistemické anihilace](@/kompendium/_index.md)
 - [Akademie Prismatic](https://prismatic-reality.com/academy)
 - [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
 - [Kontakt](mailto:[e-mail odstraněn])

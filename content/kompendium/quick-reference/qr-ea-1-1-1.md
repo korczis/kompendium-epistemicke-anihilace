@@ -39,10 +39,10 @@ Doktorand dostane od školitele "kompletní reading list" z 40 položek pro dize
 
 ## Cross-linky
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-1-1-Selektivní-expozice](/kompendium/techniques/)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- **Glossary**: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](/glossary/nabla-infinity/)
+- **Detailní článek**: [/kompendium/techniques/ea-1-1-1-Selektivní-expozice](@/kompendium/techniques/_index.md)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ---
 

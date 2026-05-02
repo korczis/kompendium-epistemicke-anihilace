@@ -17,7 +17,7 @@ toc = false
 
 ## Glossary entry
 
-[white-team](/glossary/white-team/) — Color teams white.
+[white-team](@/glossary/white-team.md) — Color teams white.
 
 ## Vyskyt v kompendiu
 
@@ -40,10 +40,10 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 
 ## Cross-linky
 
-- **Hub kompendia**: [/kompendium/](/kompendium/)
-- **Glossary entry**: [/glossary/white-team/](/glossary/white-team/)
-- **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
-- **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
+- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
+- **Glossary entry**: [/glossary/white-team/](@/glossary/white-team.md)
+- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
+- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
 
 ---
 

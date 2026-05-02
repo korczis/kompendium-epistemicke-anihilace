@@ -116,7 +116,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Diagnostika digitálního ekosystému pacienta**: jaké platformy strukturalizují jeho prožívání?
 - **Detoxifikace**: pomalá, strukturovaná redukce expozice surveillance platforms
@@ -139,22 +139,22 @@ Zuboff má **silnou** politickou pozici:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.22 Honneth: Rozpoznání](/kompendium/07-teoreticke-reflexe/honneth-rozpoznani/)
-- [7.41 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.42 Metzinger: Ego Tunnel](/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel/)
-- [7.49 Clark: Natural-Born Cyborgs](/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs/)
-- [7.52 Harari: Sapiens narativ](/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ/)
-- [7.58 Floridi: Fourth Revolution](/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.22 Honneth: Rozpoznání](@/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md)
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
+- [7.49 Clark: Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md)
+- [7.52 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
+- [7.58 Floridi: Fourth Revolution](@/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis)** | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

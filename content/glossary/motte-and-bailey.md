@@ -36,21 +36,21 @@ Diagnostic test: **track the strongest-form proposition** the speaker advances w
 
 ## Context
 
-Within the Prismatic Platform's threat model, the motte-and-bailey is one of the most operationally-common rhetorical EA techniques, classified across multiple positions in the [Kompendium taxonomy](/glossary/taxonomie-ea/). It functions as a **delivery mechanism** for many other EA techniques: a technique encoded in a bailey-claim is shielded from challenge by the bailey/motte switching machinery. Documentation: [Kompendium → 04-techniky → motte-bailey](/kompendium/04-techniky/motte-bailey/).
+Within the Prismatic Platform's threat model, the motte-and-bailey is one of the most operationally-common rhetorical EA techniques, classified across multiple positions in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md). It functions as a **delivery mechanism** for many other EA techniques: a technique encoded in a bailey-claim is shielded from challenge by the bailey/motte switching machinery. Documentation: [Kompendium → 04-techniky → motte-bailey](/kompendium/04-techniky/motte-bailey/).
 
 The platform's [Decision Engine](/hub/dd/decisions/) detects motte-and-bailey patterns operationally by **tracking proposition-version drift**: when a single source advances a strong claim in unchallenged context and a weaker claim in challenged context, the source is flagged with a `MOTTE_BAILEY_PATTERN` confidence penalty. The detection runs over conversational logs in the [Investigation](/hub/dd/cases/) workflows and is documented in the [Kompendium → detekce → motte-bailey](/kompendium/05-detekce/motte-bailey/) chapter.
 
-The technique pairs naturally with [Sealioning](/glossary/sealioning/) (bad-faith inquiry on the motte to exhaust the challenger) and with weaponized [Epistemická pokora](/glossary/epistemicka-pokora/) ("I'm only suggesting…"). All three operate by inflating the cost of challenge.
+The technique pairs naturally with [Sealioning](@/glossary/sealioning.md) (bad-faith inquiry on the motte to exhaust the challenger) and with weaponized [Epistemická pokora](@/glossary/epistemicka-pokora.md) ("I'm only suggesting…"). All three operate by inflating the cost of challenge.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat framework
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomic reference
-- [Taxonomie EA](/glossary/taxonomie-ea/) — `EA-X.Y.Z-α` classification
-- [Sealioning](/glossary/sealioning/) — Companion bad-faith technique
-- [Epistemická pokora](/glossary/epistemicka-pokora/) — Weaponized humility couples with motte/bailey
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process damage from sustained exposure
-- [Kompendium](/kompendium/) — Full Czech-language taxonomy
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat framework
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
+- [Taxonomie EA](@/glossary/taxonomie-ea.md) — `EA-X.Y.Z-α` classification
+- [Sealioning](@/glossary/sealioning.md) — Companion bad-faith technique
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) — Weaponized humility couples with motte/bailey
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process damage from sustained exposure
+- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
@@ -59,4 +59,4 @@ The technique pairs naturally with [Sealioning](/glossary/sealioning/) (bad-fait
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

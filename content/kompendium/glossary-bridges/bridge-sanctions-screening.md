@@ -17,7 +17,7 @@ toc = false
 
 ## Definice z glossary
 
-[sanctions-screening](/glossary/sanctions-screening/) — Sanctions screening je systematická kontrola subjektů (osoby, firmy, plavidla) proti seznamům sankcí (OFAC, EU, UN, UK, národní). Slouží compliance povinnostem v bankingu, M&A, supply chain a vyžaduje fuzzy matching, transliteraci a periodický rescan při změnách seznamů.
+[sanctions-screening](@/glossary/sanctions-screening.md) — Sanctions screening je systematická kontrola subjektů (osoby, firmy, plavidla) proti seznamům sankcí (OFAC, EU, UN, UK, národní). Slouží compliance povinnostem v bankingu, M&A, supply chain a vyžaduje fuzzy matching, transliteraci a periodický rescan při změnách seznamů.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -46,20 +46,20 @@ Hodnota screeningu nevzniká z prvotního scanu, nýbrž z continuous monitoring
 
 ## Cross-linky
 
-- **Hub kompendia**: [/kompendium/](/kompendium/)
-- **Glossary entry**: [/glossary/sanctions-screening/](/glossary/sanctions-screening/)
-- **Quick reference**: [/kompendium/quick-reference/](/kompendium/quick-reference/)
-- **Visualizations**: [/kompendium/visualizations/](/kompendium/visualizations/)
-- **Per-technique články**: [/kompendium/techniques/](/kompendium/techniques/)
-- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](/kompendium/02-uvod/)
+- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
+- **Glossary entry**: [/glossary/sanctions-screening/](@/glossary/sanctions-screening.md)
+- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
+- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
+- **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
+- **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
 - **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
 - **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
 - **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
-- **Glossary hub**: [/glossary/](/glossary/)
+- **Glossary hub**: [/glossary/](@/glossary/_index.md)
 
 ---
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

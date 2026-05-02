@@ -54,24 +54,24 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Feministická epistemologie](/kompendium/critical-perspectives/28-feminist-epistemology-alt/)
-- [Procesuální filosofie](/kompendium/critical-perspectives/29-process-philosophy-alt/)
-- [Buddhistická psychologie](/kompendium/critical-perspectives/30-buddhist-psychology-alt/)
-- [Mad Studies perspektiva](/kompendium/critical-perspectives/26-mad-studies-perspective/)
-- [Kritická psychiatrie](/kompendium/critical-perspectives/25-critical-psychiatry-alternative/)
+- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
+- [Procesuální filosofie](@/kompendium/critical-perspectives/29-process-philosophy-alt.md)
+- [Buddhistická psychologie](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md)
+- [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
+- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
 - [Důvěrnost v EA detekci](/kompendium/critical-perspectives/17-confidentiality-EA/)
-- [Medikalizace etického aktérství](/kompendium/critical-perspectives/1-medicalization-critique/)
-- [Patologizace normálních variací](/kompendium/critical-perspectives/2-pathologization-critique/)
-- [Framework overreach — když EA vysvětluje vše](/kompendium/critical-perspectives/3-framework-overreach/)
-- [Kruhové uvažování v EA detekci](/kompendium/critical-perspectives/4-circular-reasoning-risk/)
-- [Hub kompendia](/kompendium/)
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
-- [Research methodology](/kompendium/research-methodology/)
-- [Glossary platformy](/glossary/)
+- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
+- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
+- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
+- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
+- [Hub kompendia](@/kompendium/_index.md)
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [Research methodology](@/kompendium/research-methodology/_index.md)
+- [Glossary platformy](@/glossary/_index.md)
 
 ## Connect & Contribute
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

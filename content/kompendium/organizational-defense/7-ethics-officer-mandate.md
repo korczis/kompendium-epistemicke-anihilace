@@ -78,16 +78,16 @@ Veto právo na vybrané transakce, přímý reporting do board, vlastní vyšet�
 
 ## 6. Cross-linky
 
-- [Ochrana akcionářů](/kompendium/organizational-defense/9-shareholder-protection/)
-- [Zapojení stakeholderů](/kompendium/organizational-defense/10-stakeholder-engagement/)
-- [Odolnost představenstva](/kompendium/organizational-defense/1-board-resilience/)
-- [Komunikační politika](/kompendium/organizational-defense/23-communication-policy/)
-- [Dokumentační standardy](/kompendium/organizational-defense/24-documentation-standards/)
+- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
+- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
+- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
 - [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
-- [Prověřování kontraktorů](/kompendium/organizational-defense/26-contractor-vetting/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Veto právo na vybrané transakce, přímý reporting do board, vlastní vyšet�
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

@@ -94,8 +94,8 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 
 - Introdukce zdánlivě hlubokých paradoxů bez kontextu
 - Prezentace komplexních otázek způsobem zatemňujícím přístupy
-- Selektivní důraz na limity existujících rámců — [EA-1.3.3 (tematická diverze)](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
-- Devalvace jednoduchých vysvětlení — [EA-1.2.3 (iluzorní komplexita)](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)
+- Selektivní důraz na limity existujících rámců — [EA-1.3.3 (tematická diverze)](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
+- Devalvace jednoduchých vysvětlení — [EA-1.2.3 (iluzorní komplexita)](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)
 
 **Detekční markery**:
 
@@ -117,8 +117,8 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 - Selektivní zaměření na hraniční případy zpochybňující distinkce
 - Kontinuální přesouvání konceptuálních hranic
 - "Hradba a věž" taktiky — přepínání mezi umírněnými a radikálními interpretacemi
-- [EA-1.1.3 (terminologická mystifikace)](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
-- [EA-1.2.2 (falešná ekvivalence)](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) mezi distinktními koncepty
+- [EA-1.1.3 (terminologická mystifikace)](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+- [EA-1.2.2 (falešná ekvivalence)](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) mezi distinktními koncepty
 
 **Detekční markery**:
 
@@ -142,7 +142,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 - Strategické převracení příčiny a následku v narativech
 - Introdukce excesivního množství kauzálních faktorů
 - Selektivní zpochybňování kauzálních vysvětlení
-- [EA-1.2.3 (iluzorní komplexita)](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/) v kauzálních modelech
+- [EA-1.2.3 (iluzorní komplexita)](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) v kauzálních modelech
 
 **Detekční markery**:
 
@@ -163,7 +163,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 **Klíčové techniky**:
 
 - Strategická invalidace závěrů bez ohledu na validitu
-- Nepředvídatelné střídání chvály a kritiky bez kritérií — typický prvek [Scénáře H](/kompendium/03-zakladni-kategorie/scenar-h/)
+- Nepředvídatelné střídání chvály a kritiky bez kritérií — typický prvek [Scénáře H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
 - Otázky bez uspokojivých odpovědí + kritika všech pokusů
 - Nemožná očekávání rigoróznosti
 - Paradoxní požadavky znemožňující jakékoli vyhovění
@@ -190,7 +190,7 @@ Hluboká **epistemická dezorientace** spojená se zvýšenou sugestibilitou a z
 - Poskytování jednoduchých jasných odpovědí na dříve komplikované otázky
 - Etablování **rekurzivního validačního systému** (rámec validuje sám sebe)
 - Kultivace silné pozitivní emocionální asociace s rámcem
-- [EA-1.3.1 (imunizace proti falsifikaci)](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika rámce je interpretována jako důkaz nepochopení
+- [EA-1.3.1 (imunizace proti falsifikaci)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika rámce je interpretována jako důkaz nepochopení
 
 **Detekční markery**:
 
@@ -301,53 +301,53 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 ## Související
 
 ### Sister scenarios
-- [Scénář F: Kolektivní epistemická delegitimizace](/kompendium/03-zakladni-kategorie/scenar-f/)
-- [Scénář H: Destruktivní "konstruktivní" kritika](/kompendium/03-zakladni-kategorie/scenar-h/)
+- [Scénář F: Kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md)
+- [Scénář H: Destruktivní "konstruktivní" kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md)
 
 ### Kapitoly
-- [Kapitola 1: Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- [Kapitola 2: Scénáře epistemické delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/)
-- [Kapitola 3: Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/)
+- [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- [Kapitola 2: Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
+- [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
 
 ### Předmluva
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Etické aspekty](/kompendium/01-predmluva/eticke-aspekty/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
 
 ### Související techniky (cross-link)
-- [EA-1.1.3 Terminologická mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
-- [EA-1.2.2 Falešná ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-- [EA-1.2.3 Iluzorní komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-- [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
-- [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
-- [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+- [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 
 ### Sekce
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Sekce 05: Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Sekce 07: Teoretické reflexe](/kompendium/07-teoreticke-reflexe/)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 
 ### Glosář
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Anankastický režim](/glossary/anankasticky-rezim/)
-- [Epistemická alienace](/glossary/epistemicka-alienace/)
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md)
 - [Anihilační fenomény](/glossary/anihilacni-fenomeny/)
-- [NABLA Infinity](/glossary/nabla-infinity/)
+- [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ### Platforma
 - [Decision Engine](/hub/dd/decisions/)
-- [Philosophy: Epistemic Integrity](/philosophy/epistemic-integrity/)
-- [Philosophy: Boundary Ethics](/philosophy/boundary-ethics/)
+- [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+- [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -360,4 +360,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

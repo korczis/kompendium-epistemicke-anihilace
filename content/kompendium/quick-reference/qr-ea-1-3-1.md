@@ -39,10 +39,10 @@ Trader prohlásí "tato strategie generuje 30 % ročně". Po roce ztráty argume
 
 ## Cross-linky
 
-- **Detailní článek**: [/kompendium/techniques/ea-1-3-1-Imunizace-proti-falsifikaci](/kompendium/techniques/)
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
-- **Glossary**: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](/glossary/nabla-infinity/)
+- **Detailní článek**: [/kompendium/techniques/ea-1-3-1-Imunizace-proti-falsifikaci](@/kompendium/techniques/_index.md)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+- **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ---
 

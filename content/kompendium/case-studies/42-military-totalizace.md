@@ -45,13 +45,13 @@ Exit byl iniciovan zranenim, ktere vyrazilo subjekt z aktivni sluzby. Akutni kri
 
 V tomto pripadu byly identifikovany nasledujici EA kody:
 
-- [EA-1.5.1 Strategicka proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) — fyzicka blizkost a sdileny prostor jako nastroj identitniho splynuti
-- [EA-1.4.1 Prosodicka dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/) — autoritativni hlasovy rejstrik velitele jako pevny epistemicky bod
-- [EA-1.3.3 Tematicka diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) — emocni zkusenosti z misi preramovany jako "operacni detaily"
-- [EA-5.1.10 Temporalni dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) — nasyceny pritomny okamzik mise vs. fragmentovany civilni cas
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "bud jsi vojak, nebo civil" jako jedine dva mody byti
-- [EA-5.1.9 Identitni dezintegrace](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/) — kompletni rozpad pre-vojenske identity
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — velitel jednotky jako absolutni epistemicka autorita
+- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — fyzicka blizkost a sdileny prostor jako nastroj identitniho splynuti
+- [EA-1.4.1 Prosodicka dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — autoritativni hlasovy rejstrik velitele jako pevny epistemicky bod
+- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — emocni zkusenosti z misi preramovany jako "operacni detaily"
+- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — nasyceny pritomny okamzik mise vs. fragmentovany civilni cas
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "bud jsi vojak, nebo civil" jako jedine dva mody byti
+- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — kompletni rozpad pre-vojenske identity
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — velitel jednotky jako absolutni epistemicka autorita
 
 Specifikum vojenskeho kontextu: legitimni operacni pozadavky (kohese, disciplina, schopnost prezit) jsou neoddelitelne od koercivni dynamiky. Diferenciace zdrave jednotkove soudrznosti od totalizace vyzaduje pozornost k post-operacni reintegraci.
 
@@ -59,17 +59,17 @@ Specifikum vojenskeho kontextu: legitimni operacni pozadavky (kohese, disciplina
 
 V terapii subjekt popisoval: "Kdyz me propustili, nemel jsem se kam vratit. Civilni zivot byl jako sledovani televize ve vedlejsi mistnosti — slysim, ale nedava to smysl. Nikdo nerozumel, co je opravdove. Nikdo nikdy neuvidel, co jsme videli. Citil jsem, ze kdyby vsichni vedeli, co opravdu jsme delali, nedovolili by nam se k nim priblizit."
 
-Tato narace odrazi klasicky obraz [betrayal trauma](/glossary/betrayal-trauma/) — institucionalni opusteni po dokonceni mise. Soucasne [epistemicka alienace](/glossary/epistemicka-alienace/) — neschopnost sdilet realitu se svetem mimo jednotku.
+Tato narace odrazi klasicky obraz [betrayal trauma](@/glossary/betrayal-trauma.md) — institucionalni opusteni po dokonceni mise. Soucasne [epistemicka alienace](@/glossary/epistemicka-alienace.md) — neschopnost sdilet realitu se svetem mimo jednotku.
 
 V pozdejsi fazi: "Nejtezsi bylo prijmout, ze nekteri kluci tam zustali, ne kvuli nepriteli, ale kvuli sobe. A ze ja jsem skoro take. A nikdo nam nerekl, ze to muze nastat."
 
 ## Detekcni bod
 
-Sebevrazedny pokus po 9 mesicich od ukonceni sluzby. Hospitalizace byla zlomovym bodem. Klicovy moment: psychiatr s VA expertizou identifikoval [c-PTSD](/glossary/c-ptsd/) v kombinaci s moralnim zranenim a ztratou skupinove identity, ne klasicke bojove PTSD.
+Sebevrazedny pokus po 9 mesicich od ukonceni sluzby. Hospitalizace byla zlomovym bodem. Klicovy moment: psychiatr s VA expertizou identifikoval [c-PTSD](@/glossary/c-ptsd.md) v kombinaci s moralnim zranenim a ztratou skupinove identity, ne klasicke bojove PTSD.
 
 ## Intervencni strategie
 
-Aplikovany protokol [epistemicke rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/) modifikovany pro vojensky kontext:
+Aplikovany protokol [epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) modifikovany pro vojensky kontext:
 
 **S1 - Stabilizace:** Hospitalizace, krizova intervence, peer-support s veterany, farmakoterapie.
 
@@ -91,11 +91,11 @@ Vojenska totalizace v elitni jednotce vyzaduje rozliseni mezi adaptivni jednotko
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [epistemicka-alienace](/glossary/epistemicka-alienace/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [narrative-trauma](/glossary/narrative-trauma/)
-- **Techniques**: [EA-1.5.1](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/), [EA-1.4.1](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/), [EA-5.1.10](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/), [EA-5.1.9](/kompendium/techniques/ea-5-1-9-identitni-dezintegrace/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [narrative-trauma](@/glossary/narrative-trauma.md)
+- **Techniques**: [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

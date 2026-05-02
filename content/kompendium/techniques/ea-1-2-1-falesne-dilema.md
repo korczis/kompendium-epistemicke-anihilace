@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — pervazivní v politických a polarizovaných diskursech |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -208,9 +208,9 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 
 ### Často se kombinuje s
 
-- **[EA-1.2.2 Falešná ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)** — kombinace: prezentace **dvou polárních** pozic jako **rovnocenných** (False Equivalence) v binárním rámci (False Dilemma).
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — emocionální tlak na rychlé rozhodnutí intenzifikuje binární push.
-- **[EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** — přetížený subjekt rezignuje na rekonstrukci alternativ a defaultuje na binární rámec.
+- **[EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)** — kombinace: prezentace **dvou polárních** pozic jako **rovnocenných** (False Equivalence) v binárním rámci (False Dilemma).
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální tlak na rychlé rozhodnutí intenzifikuje binární push.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — přetížený subjekt rezignuje na rekonstrukci alternativ a defaultuje na binární rámec.
 
 ### Eskaluje do
 
@@ -230,17 +230,17 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.2):
-  - [EA-1.2.2 Falešná ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/)
-  - [EA-1.2.3 Iluzorní komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)
+  - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md)
+  - [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -250,10 +250,10 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -265,4 +265,4 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

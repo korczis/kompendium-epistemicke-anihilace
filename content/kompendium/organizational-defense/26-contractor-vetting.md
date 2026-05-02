@@ -78,16 +78,16 @@ Tiered access model, time-limited credentials, quarterly access review, mandator
 
 ## 6. Cross-linky
 
-- [Rotace rolí](/kompendium/organizational-defense/30-rotation-of-roles/)
-- [Sledovatelnost rozhodnutí](/kompendium/organizational-defense/21-decision-traceability/)
-- [Struktura jednání](/kompendium/organizational-defense/22-meeting-structure/)
-- [Trauma-aware management](/kompendium/organizational-defense/36-trauma-aware-management/)
+- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
+- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
 - [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
-- [Náhrada vedení](/kompendium/organizational-defense/38-leadership-replacement/)
-- [Kulturní obnova](/kompendium/organizational-defense/39-cultural-rebuild/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
+- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Tiered access model, time-limited credentials, quarterly access review, mandator
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

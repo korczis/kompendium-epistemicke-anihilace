@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 | **Subkategorie** | 2.1 Expertní diskvalifikace |
 | **Risk level** | High |
 | **Access level** | L2 |
-| **Parent chapter** | [Kapitola 2](/kompendium/03-zakladni-kategorie/kapitola-2/) |
+| **Parent chapter** | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) |
 
 ## Definice
 
@@ -90,17 +90,17 @@ Prismatic Platform poskytuje pro detekci a analýzu této techniky následujíc�
 
 ## Související
 
-- [Kapitola 2 — Scénáře delegitimizace](/kompendium/03-zakladni-kategorie/kapitola-2/) (parent)
+- [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
 - [Taxonomie EA](/kompendium/glossary/taxonomie-ea/) (klasifikační rámec)
 - [Delegitimizace](/kompendium/glossary/delegitimizace/) (konceptuální základ)
-- [EA-2.1.4](/kompendium/techniques/ea-2-1-4-publikacni-blokace/) (sister)
-- [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) (sister)
-- [EA-2.1.5](/kompendium/techniques/ea-2-1-5-citation-suppression/) (sister)
+- [EA-2.1.4](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md) (sister)
+- [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) (sister)
+- [EA-2.1.5](@/kompendium/techniques/ea-2-1-5-citation-suppression.md) (sister)
 - [Gaslighting](/kompendium/glossary/gaslighting/) (související psychologický mechanismus)
 - [Epistemické trauma](/kompendium/glossary/epistemicke-trauma/) (důsledek pro cíl)
 
 ## Connect
 
-- **Kompendium**: [Hlavní rozcestník](/kompendium/) | [Kapitola 2](/kompendium/03-zakladni-kategorie/kapitola-2/) | [Glossary](/kompendium/glossary/)
-- **Platforma**: [Decision Engine](/decisions/) | [OSINT Toolbox](/osint/) | [Nabla](/nabla/)
+- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](/kompendium/glossary/)
+- **Platforma**: [Decision Engine](/decisions/) | [OSINT Toolbox](@/osint/_index.md) | [Nabla](/nabla/)
 - **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [[e-mail odstraněn]](mailto:[e-mail odstraněn])

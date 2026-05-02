@@ -78,16 +78,16 @@ Blameless post-mortems, regular retrospektivy, public recognition za nahlášen�
 
 ## 6. Cross-linky
 
-- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
 - [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
 - [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
-- [Prověřování kontraktorů](/kompendium/organizational-defense/26-contractor-vetting/)
-- [Klasifikace informací](/kompendium/organizational-defense/27-information-classification/)
+- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
+- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
 - [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
-- [Oddělení povinností](/kompendium/organizational-defense/29-segregation-duties/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Blameless post-mortems, regular retrospektivy, public recognition za nahlášen�
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

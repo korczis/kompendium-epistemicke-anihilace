@@ -35,19 +35,19 @@ Specifically:
 
 - **Advanced EA-1.3.x immunization techniques** exploit differential meaning: the manipulator strategically deploys vocabulary that defers fixed meaning indefinitely, producing the conversational effect "you cannot pin me down to anything refutable." The victim's truth-claims are met not with counter-claims but with infinite semantic regress.
 - **Strategic ambiguity** in coercive-control contexts is differential meaning weaponized — the manipulator preserves plausible deniability by ensuring no utterance has a determinate-enough referent to be rebutted.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) takes a deliberate position: deconstructive analysis is **descriptively powerful** but **normatively insufficient**. Différance describes structural conditions of meaning; it does not by itself provide the criteria distinguishing legitimate deferral (the working of meaning) from weaponized deferral (the manipulation of the victim).
-- The kompendium pairs Derridean analysis with Habermasian [communicative rationality](/glossary/communicative-rationality/) and the [Ideal Speech Situation](/glossary/ideal-speech-situation/) as the normative complement: différance acknowledged at the descriptive level, validity-claims defended at the normative level.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) takes a deliberate position: deconstructive analysis is **descriptively powerful** but **normatively insufficient**. Différance describes structural conditions of meaning; it does not by itself provide the criteria distinguishing legitimate deferral (the working of meaning) from weaponized deferral (the manipulation of the victim).
+- The kompendium pairs Derridean analysis with Habermasian [communicative rationality](@/glossary/communicative-rationality.md) and the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as the normative complement: différance acknowledged at the descriptive level, validity-claims defended at the normative level.
 - The [Decision Engine](/hub/dd/decisions/) implements an architectural response to weaponized indeterminacy: structured meaning-pinning protocols (formal definitions, operational variables, agreed-upon evidence types) that refuse to permit infinite deferral within the analytic frame, while acknowledging that meaning outside the frame remains differentially constituted.
 
 ## See Also
 
-- [Simulacra](/glossary/simulacra/) — Baudrillardian companion postmodern frame
-- [Metanarrative collapse](/glossary/metanarrative-collapse/) — Lyotard's diagnosis
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon explained
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process counterpart
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Reflective-capacity damage
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Simulacra](@/glossary/simulacra.md) — Baudrillardian companion postmodern frame
+- [Metanarrative collapse](@/glossary/metanarrative-collapse.md) — Lyotard's diagnosis
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-capacity damage
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -56,4 +56,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

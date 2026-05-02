@@ -57,7 +57,7 @@ Pro EA z toho plyne:
 
 V knize *Necessary Illusions* (1989) Chomsky rozšiřuje analýzu: liberální demokracie strukturálně **vyžadují** "**nezbytné iluze**" — fikce, jež **udržují** systém **přes** jeho strukturální nespravedlnosti.
 
-Strukturální paralela s **Harariho** intersubjektivní realitou ([viz 7.52](/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ/)) a **MacIntyrovou** krizí morálního jazyka ([viz 7.31](/kompendium/07-teoreticke-reflexe/macintyre-after-virtue/)).
+Strukturální paralela s **Harariho** intersubjektivní realitou ([viz 7.52](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)) a **MacIntyrovou** krizí morálního jazyka ([viz 7.31](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)).
 
 Pro EA z toho plyne:
 
@@ -106,7 +106,7 @@ Pro EA má lingvistický rámec **specifický** význam:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Mediální gramotnost** jako klinický cíl: pacient se učí **identifikovat** filtry v mediálním obsahu
 - **Counter-trauma narativ**: subjekt vystaven masmediální propagandě potřebuje **alternativní** narativní rámce
@@ -132,16 +132,16 @@ Kompendium absorbuje **užitečné** strukturální nástroje, ale **kriticky** 
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.31 MacIntyre: After Virtue](/kompendium/07-teoreticke-reflexe/macintyre-after-virtue/)
-- [7.46 Lakoff: Konceptuální metafora](/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor/)
-- [7.52 Harari: Sapiens narativ](/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ/)
-- [7.53 Snyder: Tyranny](/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays/)
-- [7.55 Herman: Propaganda Model](/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.31 MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md)
+- [7.46 Lakoff: Konceptuální metafora](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)
+- [7.52 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
+- [7.53 Snyder: Tyranny](@/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md)
+- [7.55 Herman: Propaganda Model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -150,4 +150,4 @@ Kompendium absorbuje **užitečné** strukturální nástroje, ale **kriticky** 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

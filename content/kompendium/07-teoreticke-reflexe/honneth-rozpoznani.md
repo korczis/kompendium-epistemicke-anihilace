@@ -66,7 +66,7 @@ Reifikace je strukturálně **prvotnější** než explicitní vědomá manipula
 
 Pro EA z toho plyne:
 
-- **Algoritmická reifikace**: digitální platformy strukturálně **reifikují** subjekty — uživatel je **datovým profilem**, target reklamy, segmentem trhu. Strukturální analog Levinasovy redukce Jiného na Stejné ([viz 7.20](/kompendium/07-teoreticke-reflexe/levinas-jiny/)).
+- **Algoritmická reifikace**: digitální platformy strukturálně **reifikují** subjekty — uživatel je **datovým profilem**, target reklamy, segmentem trhu. Strukturální analog Levinasovy redukce Jiného na Stejné ([viz 7.20](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)).
 - **Korporátní reifikace**: pracovník jako **lidský zdroj**, zákazník jako **konverzní jednotka**.
 - **Klinická reifikace**: pacient jako **diagnostický kód**, **DRG**, **billable case**.
 
@@ -82,7 +82,7 @@ Klíčový diagnostický nález: digitální platformy **simulují** rozpoznán�
 Pro EA z toho plyne:
 
 - **Pseudo-uznání jako EA**: techniky, jež **simulují** uznání bez jeho strukturální hloubky, jsou specifickou formou EA.
-- **Closer alliance s Zubofovou Surveillance Capitalism** ([viz 7.47](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)).
+- **Closer alliance s Zubofovou Surveillance Capitalism** ([viz 7.47](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)).
 - **Klinický korelát**: subjekti chronicky vystavení pseudo-uznání vykazují specifické patterny — paradoxní rozpad self přes kvantitativní "úspěch".
 
 ## 5. Mapping na EA techniky
@@ -97,7 +97,7 @@ Pro EA z toho plyne:
 
 ## 6. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Trojí klinická diagnostika** — kterou sféru je třeba restituovat?
 - **Terapeutický vztah** jako primární obnovení sebedůvěry (sféra lásky).
@@ -121,15 +121,15 @@ Honnethová teorie má **silnou normativní dimenzi**:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.20 Levinas: Jiný](/kompendium/07-teoreticke-reflexe/levinas-jiny/)
-- [7.21 Butler: Performative](/kompendium/07-teoreticke-reflexe/butler-performative/)
-- [7.47 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.20 Levinas: Jiný](@/kompendium/07-teoreticke-reflexe/levinas-jiny.md)
+- [7.21 Butler: Performative](@/kompendium/07-teoreticke-reflexe/butler-performative.md)
+- [7.47 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -138,4 +138,4 @@ Honnethová teorie má **silnou normativní dimenzi**:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

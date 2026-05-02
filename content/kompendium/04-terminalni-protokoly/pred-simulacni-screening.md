@@ -19,7 +19,7 @@ status = "publikovano"
 
 # Před-simulační screening
 
-> ⚠️ **L2 — Analytické porozumění.** Tato studie popisuje strukturu **vstupního screeningu** pro účast v simulacích a výcvikových sekvencích s vysokým intenzitním profilem. Doplňuje [Kapitolu 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/) a poskytuje detailní rozpracování pre-engagement vrstvy.
+> ⚠️ **L2 — Analytické porozumění.** Tato studie popisuje strukturu **vstupního screeningu** pro účast v simulacích a výcvikových sekvencích s vysokým intenzitním profilem. Doplňuje [Kapitolu 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a poskytuje detailní rozpracování pre-engagement vrstvy.
 
 ## Postavení screeningu v bezpečnostním rámci
 
@@ -166,7 +166,7 @@ Subjekt má právo:
 
 ## Specifické vrstvy pro extrémní expozice
 
-Pro protokoly na úrovni *Capstone* (viz [Ultimátní výcvikový scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/)) jsou nezbytné dodatečné vrstvy screeningu:
+Pro protokoly na úrovni *Capstone* (viz [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)) jsou nezbytné dodatečné vrstvy screeningu:
 
 - **Trauma-history depth screening** — detailní mapování traumatické historie s důrazem na strukturálně analogické zkušenosti,
 - **Disociogenní vulnerabilita** — specializovaný screening na predispozici k disociativním reakcím,
@@ -187,19 +187,19 @@ Doporučení: screening je etablován jako **kontinuální klinický vztah**, ni
 
 ## Související materiály
 
-- [Kapitola 4: Extrémní výcviková sekvence](/kompendium/04-terminalni-protokoly/kapitola-4/)
-- [Kapitola 5: Specializované bezpečnostní protokoly](/kompendium/04-terminalni-protokoly/kapitola-5/)
-- [Ultimátní výcvikový scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/)
-- [Konceptuální dekonstrukce](/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce/)
-- [Identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/)
-- [Institucionální anihilace](/kompendium/04-terminalni-protokoly/institucionalni-anihilace/)
-- [Kontrolovaná rekonstituce](/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce/)
-- [Intra-simulační monitoring](/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring/)
-- [Sekce 03: Základní kategorie epistemických manipulací](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06: Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/) · [Kognitivní anihilace](/glossary/kognitivni-anihilace/) · [Ontologická anihilace](/glossary/ontologicka-anihilace/) · [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) · [Anankastický režim](/glossary/anankasticky-rezim/) · [Epistemická alienace](/glossary/epistemicka-alienace/) · [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) · [Taxonomie EA](/glossary/taxonomie-ea/) · [Dual-use poznání](/glossary/dual-use-poznani/) · [Epistemické trauma](/glossary/epistemicke-trauma/) · [Gaslighting](/glossary/gaslighting/) · [Delegitimizace](/glossary/delegitimizace/)
-- Filozofie: [Intelektuální suverenita](/philosophy/intellectual-sovereignty/) · [Epistemická integrita](/philosophy/epistemic-integrity/) · [Boundary ethics](/philosophy/boundary-ethics/)
-- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](/glossary/nabla-infinity/) · [Color Teams](/glossary/color-teams/)
+- [Kapitola 4: Extrémní výcviková sekvence](@/kompendium/04-terminalni-protokoly/kapitola-4.md)
+- [Kapitola 5: Specializované bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
+- [Ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)
+- [Konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md)
+- [Identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md)
+- [Institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)
+- [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)
+- [Intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md)
+- [Sekce 03: Základní kategorie epistemických manipulací](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
+- Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
+- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -207,16 +207,16 @@ Doporučení: screening je etablován jako **kontinuální klinický vztah**, ni
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
-1. Existující písemný [eticky-kodex](/kompendium/08-prilohy/eticky-kodex/)
+1. Existující písemný [eticky-kodex](@/kompendium/08-prilohy/eticky-kodex.md)
    schválený tvou institucí
-2. Aktivní [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+2. Aktivní [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
    s minimálně měsíčním kontaktem
-3. [Pred-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
+3. [Pred-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
    uplynulých 7 dní
 
 > **Mandatorní akce**: aplikace bez splnění všech tří bodů je porušením
 > doktríny tohoto kompendia. Bez nich vrať tento materiál na úroveň
-> [03 Základní kategorie](/kompendium/03-zakladni-kategorie/).
+> [03 Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md).
 
 ---
 
@@ -225,4 +225,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)

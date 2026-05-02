@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Středně vysoká — pervazivní v debatách, peer review, klinických rozhovorech |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **exploitace konverzační fluidity** a **epistemické kontinuity** mezi distinktními, ale souvisejícími tématy. Subjekt prožívá diskusi jako **kontinuální** — sleduje "tok hovoru" — bez vědomí, že **původní centrální otázka** byla **strukturálně opuštěna**.
 
-Strukturálně sourozenecká vůči [EA-1.3.1 Imunizaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) a [EA-1.3.2 Strategické reinterpretaci](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — všechny tři brání **revizi a falsifikaci**, ale různými mechanismy: imunizace přidává auxiliární hypotézy; reinterpretace přepisuje meaning; diverze **odsouvá** kontradikci mimo prostor diskuse.
+Strukturálně sourozenecká vůči [EA-1.3.1 Imunizaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.3.2 Strategické reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — všechny tři brání **revizi a falsifikaci**, ale různými mechanismy: imunizace přidává auxiliární hypotézy; reinterpretace přepisuje meaning; diverze **odsouvá** kontradikci mimo prostor diskuse.
 
 ## Operační modus
 
@@ -214,10 +214,10 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 
 ### Často se kombinuje s
 
-- **[EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)** — diverze poskytuje **únik** od falsifikační konfrontace.
-- **[EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)** — kombinace: reinterpretace co je možno, diverze pro zbylou kontradikci.
-- **[EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** — přetížený subjekt **nemá kapacitu** udržet original otázku.
-- **[EA-1.2.3 Iluzorní komplexita](/kompendium/techniques/ea-1-2-3-iluzorni-komplexita/)** — iluzorní komplexita poskytuje **infinite supply** přesměrovávacích otázek.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — diverze poskytuje **únik** od falsifikační konfrontace.
+- **[EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — kombinace: reinterpretace co je možno, diverze pro zbylou kontradikci.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — přetížený subjekt **nemá kapacitu** udržet original otázku.
+- **[EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md)** — iluzorní komplexita poskytuje **infinite supply** přesměrovávacích otázek.
 
 ### Eskaluje do
 
@@ -237,16 +237,16 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.3):
-  - [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/)
-  - [EA-1.3.2 Strategická reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/)
+  - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -256,10 +256,10 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -271,4 +271,4 @@ Intervence: Klinické protokoly — strukturální ujištění, že každý paci
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

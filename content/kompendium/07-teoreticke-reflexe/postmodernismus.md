@@ -58,11 +58,11 @@ Lyotardův pojem **performativity** — kritérium "co dělá rozdíl ve výkonu
 - Pravdivost se stává **sekundární** dimenzí
 - Manipulace ztrácí **kvalitativní rozdíl** vůči legitimní argumentaci — všechny formy přesvědčování jsou "jen" performance
 
-Toto je strukturní prostředí, v němž **falešná ekvivalence** ([3.5](/kompendium/03-zakladni-kategorie/)), **iluzorní komplexita** a **terminologická mystifikace** nejen že fungují, ale stávají se **dominantní** rétorickou normou.
+Toto je strukturní prostředí, v němž **falešná ekvivalence** ([3.5](@/kompendium/03-zakladni-kategorie/_index.md)), **iluzorní komplexita** a **terminologická mystifikace** nejen že fungují, ale stávají se **dominantní** rétorickou normou.
 
 ### 1.5 Kritická odbočka: kompendium odmítá radikální Lyotardovu pozici
 
-Kompendium **akceptuje** Lyotardovu diagnózu fragmentovaného epistemického prostředí, **ale odmítá** radikální tezi, že **žádný** metanarativ není možný. Naopak: kompendium **vědomě formuluje** redukovaný metanarativ — narativ **epistemické integrity** ([Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)) — nikoli jako totalizující osvícenský projekt, ale jako **explicitně reflektovaný**, **revizibilní** a **otevřený** rámec.
+Kompendium **akceptuje** Lyotardovu diagnózu fragmentovaného epistemického prostředí, **ale odmítá** radikální tezi, že **žádný** metanarativ není možný. Naopak: kompendium **vědomě formuluje** redukovaný metanarativ — narativ **epistemické integrity** ([Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli jako totalizující osvícenský projekt, ale jako **explicitně reflektovaný**, **revizibilní** a **otevřený** rámec.
 
 Tento redukovaný metanarativ:
 
@@ -123,7 +123,7 @@ Kompendium **akceptuje** Baudrillardovu diagnózu **mediální** dimenze postmod
 - **Existuje** epistemická distinkce mezi pravdivým a falešným — byť je v hyperreálném prostředí **obtížněji** udržitelná
 - **Existuje** etická povinnost rozlišovat — i v podmínkách, kde rozlišování je obtížné
 
-Strategie kompendia: **explicitní** návrat k **somatické**, **fenomenologické** a **traumatické** zkušenosti jako **kotvícímu** bodu, jenž odolává simulakrickému rozpouštění (viz kapitola [7.2 Epistemické trauma](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)).
+Strategie kompendia: **explicitní** návrat k **somatické**, **fenomenologické** a **traumatické** zkušenosti jako **kotvícímu** bodu, jenž odolává simulakrickému rozpouštění (viz kapitola [7.2 Epistemické trauma](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
 
 ## 3. Jacques Derrida — dekonstrukce
 
@@ -170,7 +170,7 @@ Kompendium operuje s **binárními** opozicemi (pravdivé/manipulativní, autono
 
 Kompendium **akceptuje** tuto kritickou výzvu a **transparentně** přiznává:
 
-- Kategorie nejsou ostře oddělené — operují na **spektrech** a **multidimenzionálních** osách ([2.3](/kompendium/02-uvod/teoreticke-zaklady/))
+- Kategorie nejsou ostře oddělené — operují na **spektrech** a **multidimenzionálních** osách ([2.3](@/kompendium/02-uvod/teoreticke-zaklady.md))
 - Některé techniky jsou **inherentně ambivalentní** (např. **strategická reinterpretace** může být manipulací **i** legitimní hermeneutickou operací)
 - Klasifikace je **revizibilní** a **kontextuálně závislá**
 
@@ -182,11 +182,11 @@ Kompendium **odmítá** tuto radikalizaci. Místo toho zaujímá **post-dekonstr
 
 - **Akceptuje** dekonstruktivní vhled, že kategorie jsou kontingentní a destabilizovatelné
 - **Trvá** na pragmatickém **závazku** k normativním rozhodnutím — i v podmínkách kontingence
-- Tento závazek je sám **explicitně** reflektovaný a otevřený revizi (viz [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/))
+- Tento závazek je sám **explicitně** reflektovaný a otevřený revizi (viz [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md))
 
 ### 3.4 Marges a marginalita
 
-Derridova analýza **marginality** — pozic vyloučených z dominantních narativů — strukturálně rezonuje s frickerovskou **hermeneutickou nespravedlností** ([7.3](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)). Pro EA z toho plyne:
+Derridova analýza **marginality** — pozic vyloučených z dominantních narativů — strukturálně rezonuje s frickerovskou **hermeneutickou nespravedlností** ([7.3](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)). Pro EA z toho plyne:
 
 - Subjekty postižené EA jsou často **systematicky marginalizovány** v dominantních narativech (jejich svědectví je diskontováno, jejich zkušenost je delegitimizována)
 - **Dekonstruktivní práce** odhaluje, jak dominantní narativy **strukturálně závisejí** na potlačování těchto hlasů
@@ -232,40 +232,40 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 
 ## 7. Otevřené body
 
-- Vztah mezi **dekonstruktivní** kritikou a **klinickou** intervenovaností zůstává napětím, jež vyžaduje další rozpracování (viz [sekce 06](/kompendium/06-klinicke-aplikace/))
+- Vztah mezi **dekonstruktivní** kritikou a **klinickou** intervenovaností zůstává napětím, jež vyžaduje další rozpracování (viz [sekce 06](@/kompendium/06-klinicke-aplikace/_index.md))
 - Otázka, zda lze formulovat **post-postmoderní** etiku, jež integruje fragmentaci a normativní závazek, zůstává otevřeným filozofickým programem
 - Vztah k **digitální** dimenzi simulakra (AI-generated content, deepfakes, bot networks) vyžaduje aktualizaci Baudrillardova rámce pro 21. století
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.2 Vztah k epistemickému traumatu](/kompendium/07-teoreticke-reflexe/epistemicke-trauma/)
-- [7.3 Sociální epistemologie EA](/kompendium/07-teoreticke-reflexe/socialni-epistemologie/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.3 Teoretické základy](/kompendium/02-uvod/teoreticke-zaklady/)
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Epistemická anihilace](/glossary/epistemicka-anihilace/)
-- [Glosář: Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Epistemická alienace](/glossary/epistemicka-alienace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: Falsifikace](/glossary/falsifikace/)
-- [Glosář: Lakatosův výzkumný program](/glossary/lakatos-vyzkumny-program/)
-- [Glosář: Dual-use poznání](/glossary/dual-use-poznani/)
-- [Glosář: Kompendium EA](/glossary/kompendium-ea/)
-- [Glosář: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glosář: Gaslighting](/glossary/gaslighting/)
-- [Glosář: Delegitimizace](/glossary/delegitimizace/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.2 Vztah k epistemickému traumatu](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)
+- [7.3 Sociální epistemologie EA](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+- [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Epistemická alienace](@/glossary/epistemicka-alienace.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: Falsifikace](@/glossary/falsifikace.md)
+- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
+- [Glosář: Dual-use poznání](@/glossary/dual-use-poznani.md)
+- [Glosář: Kompendium EA](@/glossary/kompendium-ea.md)
+- [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glosář: Gaslighting](@/glossary/gaslighting.md)
+- [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -274,7 +274,7 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 
 1. Identifikuj **alespoň jeden bod**, kde nesouhlasíš s autorovou formulací
 2. Formuluj svou **vlastní alternativní pozici** v 3–5 větách
-3. Najdi v [bibliografii](/kompendium/08-prilohy/bibliografie/) primární
+3. Najdi v [bibliografii](@/kompendium/08-prilohy/bibliografie.md) primární
    zdroj, který tvou alternativu podporuje (alespoň 1)
 
 > **Mandatorní akce**: pasivní souhlas s teoretickou reflexí je sám o sobě
@@ -288,4 +288,4 @@ Tato pozice **není** pre-postmoderní (nelze se vrátit do bezproblémové afir
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

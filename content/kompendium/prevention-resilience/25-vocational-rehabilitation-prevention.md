@@ -57,20 +57,20 @@ Pacienti po EA, ÚP, IPS specialisté, zaměstnavatelé, occupational therapists
 
 ## Cross-linky
 
-- [Quick reference](/kompendium/quick-reference/)
-- [Cross-domain](/kompendium/cross-domain/)
-- [Glosář](/glossary/)
-- [Blog](/blog/)
+- [Quick reference](@/kompendium/quick-reference/_index.md)
+- [Cross-domain](@/kompendium/cross-domain/_index.md)
+- [Glosář](@/glossary/_index.md)
+- [Blog](@/blog/_index.md)
 - [CER program](/cer/)
-- [Základní kategorie EA](/kompendium/03-zakladni-kategorie/)
-- [Ultramari techniky](/kompendium/05-ultramari-techniky/)
-- [Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glossary bridges](/kompendium/glossary-bridges/)
-- [Detection signatures](/kompendium/detection-signatures/)
-- [Emergency protocols](/kompendium/emergency-protocols/)
-- [Case studies](/kompendium/case-studies/)
-- [Budování dětské reziliencie](/kompendium/prevention-resilience/1-childhood-resilience-foundation/)
-- [Školní prevence EA](/kompendium/prevention-resilience/2-school-based-prevention/)
+- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
+- [Detection signatures](@/kompendium/detection-signatures/_index.md)
+- [Emergency protocols](@/kompendium/emergency-protocols/_index.md)
+- [Case studies](@/kompendium/case-studies/_index.md)
+- [Budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md)
+- [Školní prevence EA](@/kompendium/prevention-resilience/2-school-based-prevention.md)
 
 ---
 

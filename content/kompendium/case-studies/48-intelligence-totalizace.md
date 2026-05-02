@@ -43,23 +43,23 @@ Exit byl iniciovan rozvodovým řízením a následující depresí. Subjekt pro
 
 ## EA techniky manifestovane
 
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — utajovací režim jako selekce informačního pole
-- [EA-1.5.1 Strategicka proxemika](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/) — utajované prostory jako jediné autentické
-- [EA-5.1.10 Temporalni dekoherence](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/) — operační čas vs. civilní čas
-- [EA-5.1.11 Modalni dezorientace](/kompendium/techniques/ea-5-1-11-modalni-dezorientace/) — neschopnost rozlišit, co je "reálné" a co operační
-- [EA-1.3.3 Tematicka diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/) — civilní emocionální potřeby přerámovány jako "operační riziko"
-- [EA-5.1.18 Solipsisticka dekompozice](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/) — pocit, že "jen já vím skutečnost"
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — služba jako absolutní rámec
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — utajovací režim jako selekce informačního pole
+- [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — utajované prostory jako jediné autentické
+- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — operační čas vs. civilní čas
+- [EA-5.1.11 Modalni dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md) — neschopnost rozlišit, co je "reálné" a co operační
+- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — civilní emocionální potřeby přerámovány jako "operační riziko"
+- [EA-5.1.18 Solipsisticka dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — pocit, že "jen já vím skutečnost"
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — služba jako absolutní rámec
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Manželka mi řekla 'cizinec'. A měla pravdu. Já jsem byl cizinec. V práci jsem byl sám sebou. Doma jsem hrál postavu, kterou si pamatuji, že jsem býval. Ale ten člověk už neexistoval. Existoval jen sluzebník státu, který nemůže nikomu nic říct."
 
-Tato narace odpovida hluboké [epistemicke alienaci](/glossary/epistemicka-alienace/) v zpravodajské variantě — strukturální nemožnost sdílet vlastní zkušenost. [Betrayal trauma](/glossary/betrayal-trauma/) — instituce vyžadovala oddělení, které způsobilo rozpad osobních vztahů.
+Tato narace odpovida hluboké [epistemicke alienaci](@/glossary/epistemicka-alienace.md) v zpravodajské variantě — strukturální nemožnost sdílet vlastní zkušenost. [Betrayal trauma](@/glossary/betrayal-trauma.md) — instituce vyžadovala oddělení, které způsobilo rozpad osobních vztahů.
 
 ## Detekcni bod
 
-Akutní deprese po rozvodu. Klicovy moment: psychiatr s expertízou v práci se zpravodajskými pracovníky identifikoval [c-PTSD](/glossary/c-ptsd/) s relacionální disociaci.
+Akutní deprese po rozvodu. Klicovy moment: psychiatr s expertízou v práci se zpravodajskými pracovníky identifikoval [c-PTSD](@/glossary/c-ptsd.md) s relacionální disociaci.
 
 ## Intervencni strategie
 
@@ -79,11 +79,11 @@ Zpravodajská totalizace ukazuje, jak legitimní bezpečnostní požadavky mohou
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [epistemicka-alienace](/glossary/epistemicka-alienace/)
-- **Techniques**: [EA-1.5.1](/kompendium/techniques/ea-1-5-1-strategicka-proxemika/), [EA-5.1.10](/kompendium/techniques/ea-5-1-10-temporalni-dekoherence/), [EA-5.1.11](/kompendium/techniques/ea-5-1-11-modalni-dezorientace/), [EA-5.1.18](/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md)
+- **Techniques**: [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.1.11](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md), [EA-5.1.18](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

@@ -16,7 +16,7 @@ toc = true
 
 # 7.47 Johnson: Body in Mind a estetika lidské zkušenosti
 
-Mark Johnson — spoluautor Lakoffovy teorie konceptuální metafory ([viz 7.46](/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor/)) — v knize *The Body in the Mind* (1987) a *The Meaning of the Body* (2007) rozvíjí teorii **image schemata** a **estetiky lidské zkušenosti**.
+Mark Johnson — spoluautor Lakoffovy teorie konceptuální metafory ([viz 7.46](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)) — v knize *The Body in the Mind* (1987) a *The Meaning of the Body* (2007) rozvíjí teorii **image schemata** a **estetiky lidské zkušenosti**.
 
 Pro kompendium EA poskytuje Johnsonova teorie nástroj pro pochopení **strukturálních tělesných fundamentů**, jež EA techniky narušují.
 
@@ -47,7 +47,7 @@ V *The Meaning of the Body* (2007) Johnson rozvíjí **estetickou** teorii smysl
 - **Estetické dimenze** (rytmus, kvalita, intenzita, gestalt) jsou strukturálně **konstitutivní** smyslu
 - **Umělecké** zkušenosti odhalují **fundamentální** strukturu smyslu
 
-Tato pozice strukturálně rezonuje s Merleau-Pontym ([viz 7.16](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)) — primárnost percepce.
+Tato pozice strukturálně rezonuje s Merleau-Pontym ([viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)) — primárnost percepce.
 
 Pro EA z toho plyne:
 
@@ -68,7 +68,7 @@ Strukturální argument:
 Pro EA z toho plyne:
 
 - **Útok na morální představivost**: techniky, jež **redukují** etiku na pravidla (compliance, checklist), strukturálně podkopávají morální kapacitu.
-- **Counter-EA**: posílení **literární**, **uměleckou** a **filozofickou** představivost (rezonuje s Nussbaumovou narativní představivostí, [viz 7.33](/kompendium/07-teoreticke-reflexe/nussbaum-capabilities/)).
+- **Counter-EA**: posílení **literární**, **uměleckou** a **filozofickou** představivost (rezonuje s Nussbaumovou narativní představivostí, [viz 7.33](@/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md)).
 
 ## 4. Filozofie jako disciplína představivosti
 
@@ -104,7 +104,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Embodied therapy**: somatic experiencing, dance/movement therapy — strukturálně johnsonovsky podložené.
 - **Estetická terapie**: art therapy, music therapy — operují skrze estetické dimenze.
@@ -128,15 +128,15 @@ Johnson věnuje speciální pozornost **vzdělávání**:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.33 Nussbaumová: Capabilities](/kompendium/07-teoreticke-reflexe/nussbaum-capabilities/)
-- [7.36 Damasio: Somatic Marker](/kompendium/07-teoreticke-reflexe/damasio-somatic-marker/)
-- [7.45 Varela: Enactivism](/kompendium/07-teoreticke-reflexe/varela-enactivism/)
-- [7.46 Lakoff: Konceptuální metafora](/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.33 Nussbaumová: Capabilities](@/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md)
+- [7.36 Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)
+- [7.45 Varela: Enactivism](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)
+- [7.46 Lakoff: Konceptuální metafora](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -145,4 +145,4 @@ Johnson věnuje speciální pozornost **vzdělávání**:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

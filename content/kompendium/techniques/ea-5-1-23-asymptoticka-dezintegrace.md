@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 | **Přístupová úroveň** | L5 (ultramarine) |
 | **Riziková úroveň** | Extrémní — **prahová neviditelnost**, žádný jednotlivý okamžik nepředstavuje detekovatelnou hranici |
 | **Reverzibilita** | Velmi nízká — bez referenčního bodu nelze určit, **odkud** se subjekt vrátit má |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) |
 
 ## Definice
 
@@ -40,7 +40,7 @@ Označení **asymptotická** odkazuje k matematické metafoře: trajektorie se k
 
 Asymptotická dezintegrace operuje na **prahové struktuře** lidského hodnocení: pokud je každý krok dostatečně malý, žádný **z nich** sám o sobě neaktivuje obrannou reakci. Subjekt aktivuje obranu pouze proti **diskrétně velkým** porušením, a tato logika je systematicky obcházena.
 
-Asymptotická dezintegrace je obvykle navázána na předchozí [EA-5.1.22 diferenciální nihilaci](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/) — bez kolapsu distinkcí by subjekt dokázal kumulativní trajektorii **rekonstruovat** porovnáním současného a počátečního stavu.
+Asymptotická dezintegrace je obvykle navázána na předchozí [EA-5.1.22 diferenciální nihilaci](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) — bez kolapsu distinkcí by subjekt dokázal kumulativní trajektorii **rekonstruovat** porovnáním současného a počátečního stavu.
 
 ## Operační modus
 
@@ -76,7 +76,7 @@ V terminálním stadiu subjekt postrádá **referenční bod**, vůči kterému 
 - Při retrospektivní konfrontaci s počátečním stavem **šok** ze vzdálenosti, jež se zdá nemožně velká
 - V pokročilém stadiu **inkapacita** rekonstruovat trajektorii, jež k současnému stavu vedla
 
-V kombinaci s [EA-5.1.22 diferenciální nihilací](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/) je ztráta kotvy posílena ztrátou nástrojů, jež by trajektorii vůbec dovedly reflektovat.
+V kombinaci s [EA-5.1.22 diferenciální nihilací](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) je ztráta kotvy posílena ztrátou nástrojů, jež by trajektorii vůbec dovedly reflektovat.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -158,13 +158,13 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 ### Často se kombinuje s
 
-- **[EA-5.1.22 Diferenciální nihilace](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/)** — kolaps distinkcí znemožňuje detekci posunů, jež by jinak byly viditelné jako přechody mezi kategoriemi.
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — afektivní aklimatizace usnadňuje akceptaci nového stavu.
-- **[EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/)** — feed kalibruje velikost kroků pod práh detekce.
+- **[EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md)** — kolaps distinkcí znemožňuje detekci posunů, jež by jinak byly viditelné jako přechody mezi kategoriemi.
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — afektivní aklimatizace usnadňuje akceptaci nového stavu.
+- **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — feed kalibruje velikost kroků pod práh detekce.
 
 ### Eskaluje do
 
-- **[EA-5.1.24 Epistemická vakuace](/kompendium/techniques/ea-5-1-24-epistemicka-vakuace/)** — terminální stav, ve kterém subjekt postrádá nejen kotvu, ale i jakýkoli základ pro nárokování pozic.
+- **[EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md)** — terminální stav, ve kterém subjekt postrádá nejen kotvu, ale i jakýkoli základ pro nárokování pozic.
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -178,22 +178,22 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.22 Diferenciální nihilace](/kompendium/techniques/ea-5-1-22-diferencialni-nihilace/)
-  - [EA-5.1.24 Epistemická vakuace](/kompendium/techniques/ea-5-1-24-epistemicka-vakuace/)
+  - [EA-5.1.22 Diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md)
+  - [EA-5.1.24 Epistemická vakuace](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Asymptotický kolaps](/glossary/asymptoticky-kolaps/)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
-  - [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
-  - [Epistemic Integrity](/philosophy/epistemic-integrity/)
+  - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
+  - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
@@ -203,10 +203,10 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -218,4 +218,4 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

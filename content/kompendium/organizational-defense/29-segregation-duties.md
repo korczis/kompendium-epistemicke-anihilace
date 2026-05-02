@@ -78,16 +78,16 @@ Workflow systems s rolemi, 4-eyes pravidlo na vše >threshold, audit trail nezfa
 
 ## 6. Cross-linky
 
-- [Komunikační politika](/kompendium/organizational-defense/23-communication-policy/)
-- [Dokumentační standardy](/kompendium/organizational-defense/24-documentation-standards/)
+- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
 - [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
-- [Politika rotace týmů](/kompendium/organizational-defense/17-team-rotation-policy/)
-- [Hodnocení supervizorů](/kompendium/organizational-defense/18-supervisor-evaluation/)
-- [Ochrana mentorství](/kompendium/organizational-defense/19-mentorship-protection/)
+- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
 - [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Workflow systems s rolemi, 4-eyes pravidlo na vše >threshold, audit trail nezfa
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

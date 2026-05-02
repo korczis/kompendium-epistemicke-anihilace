@@ -43,23 +43,23 @@ Exit byl iniciovan zjištěním, že vůdce systematicky zneužíval finanční 
 
 ## EA techniky manifestovane
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — vůdce jako absolutní politická autorita
-- [EA-1.3.1 Imunizace proti falsifikaci](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/) — kritika = "neporozumění"
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "s námi, nebo zlo"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — kontrola informačního pole
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — kolektivní disciplinace disentu
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — strach z "ztráty hnutí"
-- [EA-1.1.3 Terminologicka mystifikace](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/) — interní žargon
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — vůdce jako absolutní politická autorita
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika = "neporozumění"
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "s námi, nebo zlo"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrola informačního pole
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — kolektivní disciplinace disentu
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "ztráty hnutí"
+- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — interní žargon
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Když jsem viděl ty dokumenty o financích, čekal jsem reakci, ne přijetí — ale dlouhá léta jsem se naučil, že vlastní pochybnosti jsou 'odpor'. Trvalo mi šest měsíců, než jsem si dovolil věřit vlastním očím."
 
-Tato narace odpovida [metakognitivni destrukci](/glossary/metakognitivni-destrukce/) a [betrayal trauma](/glossary/betrayal-trauma/).
+Tato narace odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) a [betrayal trauma](@/glossary/betrayal-trauma.md).
 
 ## Detekcni bod
 
-Konfrontace skupinou bývalých členů. Klicovy moment: terapeut s expertízou v political cult recovery identifikoval [c-PTSD](/glossary/c-ptsd/) s ideologickým komponentem.
+Konfrontace skupinou bývalých členů. Klicovy moment: terapeut s expertízou v political cult recovery identifikoval [c-PTSD](@/glossary/c-ptsd.md) s ideologickým komponentem.
 
 ## Intervencni strategie
 
@@ -79,11 +79,11 @@ Politický kult recovery vyžaduje rozlišení mezi zdravou politickou angažova
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Vulnerabilni populace](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- **Glossary**: [c-ptsd](/glossary/c-ptsd/), [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [gaslighting](/glossary/gaslighting/)
-- **Techniques**: [EA-1.3.1](/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/), [EA-2.1.2](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/), [EA-1.1.3](/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
+- **Techniques**: [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

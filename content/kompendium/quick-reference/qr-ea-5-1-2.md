@@ -61,12 +61,12 @@ Manifestuje se v intelektualizujících sektách, akademických prostředích s 
 
 ## Cross-linky
 
-- **Rodič**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) | [Subkategorie 5.1](/kompendium/05-ultramari-techniky/kapitola-6/)
-- **Detailní článek**: [EA-5.1.2 Konceptuální nihilace](/kompendium/techniques/ea-5-1-2-konceptualni-nihilace/)
-- **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](/kompendium/quick-reference/qr-ea-5-1-1/), [EA-5.1.4 Sémantická imploze](/kompendium/quick-reference/qr-ea-5-1-4/), [EA-5.1.17 Tautologická imploze](/kompendium/quick-reference/qr-ea-5-1-17/)
-- **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Sémantická afázie](/glossary/semanticka-afazie/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Klinika**: [Diagnostika](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/), [Rekonstrukce konceptuální stability](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- **Platforma**: [Glossary cache](/glossary/), [Decision Engine concept ledger](/hub/dd/decisions/)
+- **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
+- **Detailní článek**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
+- **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md), [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
+- **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Sémantická afázie](/glossary/semanticka-afazie/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce konceptuální stability](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- **Platforma**: [Glossary cache](@/glossary/_index.md), [Decision Engine concept ledger](/hub/dd/decisions/)
 
 ---
 

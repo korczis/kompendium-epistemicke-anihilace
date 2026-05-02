@@ -83,7 +83,7 @@ Pro EA z toho plyne:
 
 Pro Prismatic platformu má IIT **strukturální** relevanci:
 
-- **NABLA Infinity** ([viz Glosář](/glossary/nabla-infinity/)) operuje strukturálně skrze **integraci** — pojem strukturálně rezonuje s IIT.
+- **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)) operuje strukturálně skrze **integraci** — pojem strukturálně rezonuje s IIT.
 - **3NL architektura** (L1/L2/L3): strukturálně podobá vrstvené integraci.
 - **Color Teams**: paralelní vrstvy, jejichž **integrace** může být strukturálně modelována jako Φ.
 
@@ -99,7 +99,7 @@ Pro Prismatic platformu má IIT **strukturální** relevanci:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Φ jako klinický cíl**: terapeutická intervence zvyšuje **integraci** vědomí.
 - **Klinické biomarkery**: měření Φ může identifikovat **fragmentaci** subjektivního prožívání.
@@ -123,15 +123,15 @@ IIT má hlubokou **etickou** dimenzi:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.35 Dennett: Intentional Stance](/kompendium/07-teoreticke-reflexe/dennett-intentional-stance/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.38 Block: Phenomenal vs. Access](/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access/)
-- [7.40 Friston: Active Inference](/kompendium/07-teoreticke-reflexe/friston-active-inference/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.38 Block: Phenomenal vs. Access](@/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md)
+- [7.40 Friston: Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -140,4 +140,4 @@ IIT má hlubokou **etickou** dimenzi:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

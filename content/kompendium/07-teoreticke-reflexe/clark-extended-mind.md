@@ -67,7 +67,7 @@ Pro EA z toho plyne:
 
 ## 4. Predictive Processing
 
-Clark v *Surfing Uncertainty* (2016) integruje extended mind s **prediktivní processing** ([Friston, viz 7.40](/kompendium/07-teoreticke-reflexe/friston-active-inference/)): rozšířená mysl operuje skrze **vrstvené prediktivní modely**, jež **zahrnují** externí artefakty.
+Clark v *Surfing Uncertainty* (2016) integruje extended mind s **prediktivní processing** ([Friston, viz 7.40](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)): rozšířená mysl operuje skrze **vrstvené prediktivní modely**, jež **zahrnují** externí artefakty.
 
 Pro EA má tato integrace **specifickou relevanci**:
 
@@ -76,7 +76,7 @@ Pro EA má tato integrace **specifickou relevanci**:
 
 ## 5. Distribuovaná kognice
 
-Clarkova pozice je strukturálně **kompatibilní** s **distribuovanou kognicí** ([Hutchins, viz 7.44](/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition/)) — kognice je strukturálně **distribuovaná** mezi subjekty, artefakty a institucemi.
+Clarkova pozice je strukturálně **kompatibilní** s **distribuovanou kognicí** ([Hutchins, viz 7.44](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)) — kognice je strukturálně **distribuovaná** mezi subjekty, artefakty a institucemi.
 
 Pro EA z toho plyne:
 
@@ -95,7 +95,7 @@ Pro EA z toho plyne:
 
 ## 7. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Diagnostika rozšířené mysli pacienta**: jaké artefakty jsou strukturálně součástí jeho kognitivních operací?
 - **Terapeutické artefakty**: deník, plánovač, podpůrné aplikace mohou být **strukturálně** užitečné.
@@ -106,7 +106,7 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 Extended mind má politickou dimenzi:
 
 - **Pravomoc nad rozšířenou myslí**: politická otázka — kdo kontroluje kognitivní artefakty?
-- **Surveillance capitalism** ([Zuboff, viz 7.47](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)): strukturálně **kolonizuje** rozšířenou mysl populace.
+- **Surveillance capitalism** ([Zuboff, viz 7.47](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)): strukturálně **kolonizuje** rozšířenou mysl populace.
 - **Counter-EA**: posílení digitálních práv jako **kognitivních práv**.
 
 ## 9. Primární literatura
@@ -120,16 +120,16 @@ Extended mind má politickou dimenzi:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.13 Polanyi: Tichá znalost](/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.37 Chalmers: Hard Problem](/kompendium/07-teoreticke-reflexe/chalmers-hard-problem/)
-- [7.40 Friston: Active Inference](/kompendium/07-teoreticke-reflexe/friston-active-inference/)
-- [7.44 Hutchins: Distribuovaná kognice](/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition/)
-- [7.47 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
+- [7.40 Friston: Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)
+- [7.44 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
+- [7.47 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -138,4 +138,4 @@ Extended mind má politickou dimenzi:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

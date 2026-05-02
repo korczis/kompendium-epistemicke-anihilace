@@ -23,7 +23,7 @@ image_alt = "Fenomenologie - glossary"
 
 **Fenomenologie** (*phenomenology*) is the philosophical discipline founded by **Edmund Husserl** that studies the structures of experience strictly **from the first-person perspective** — how phenomena are given to consciousness, prior to and independent of metaphysical claims about their objective status. Husserl's *epoché* (suspension of the natural attitude) and *eidetic reduction* (variation to disclose invariant structure) are technical procedures for accessing experience as experience, not as a proxy for behavior, neurology, or report.
 
-Three Husserlian concepts matter directly for the [Kompendium epistemické a kognitivní anihilace](/kompendium/):
+Three Husserlian concepts matter directly for the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md):
 
 1. **Intencionalita** (*intentionality*) — every act of consciousness is consciousness *of* something. The structure of experience is the relation between the **noetic** (act-of-experiencing) and **noematic** (what-is-experienced-as) poles. EA targets this structure: it does not change reality, it changes the noematic correlation — what one's evidence presents itself *as*.
 2. **Lebenswelt** (life-world) — the pre-theoretical world of lived practical engagement, against which all scientific theorization is a derived abstraction. Many EA effects are first registered as life-world disruptions ("things feel wrong") long before they can be propositionally articulated.
@@ -36,21 +36,21 @@ Phenomenology is the kompendium's **default subject-side methodology** because t
 Within the Prismatic Platform, phenomenological method is operationalized in three places:
 
 - The [Decision Engine](/hub/dd/decisions/) treats subject self-report as an **independent evidence stream**, not as a noisy proxy for objective measurement. Self-reports of disorientation, eroded confidence in routine perception, or pervasive ambiguity are tracked even when no third-person indicator confirms them — these are the phenomenological prodromes the kompendium maps.
-- [NABLA Infinity](/glossary/nabla-infinity/) implements **structured first-person observation logs** with phenomenological vocabulary (givenness, salience, certainty-tone, temporal flow) so that subjects can record disturbances at the level where they actually appear. The vocabulary itself is a defense — it gives subjects categories they would otherwise lack. See also [metakognice](/glossary/metakognice/).
-- The [Color Teams](/glossary/color-teams/) Blue Team explicitly trains operators to attend to phenomenological signals (the felt-sense indicators of EA-1.4.x emotional modulation, EA-1.3.2 strategic reinterpretation) before structural confirmation. The kompendium documents this as a recurring pattern: subjects feel the EA before they can name it.
-- [Epistemická alienace](/glossary/epistemicka-alienace/) and [epistemické trauma](/glossary/epistemicke-trauma/) are described in the kompendium primarily in phenomenological terms — they are *modes of givenness* (the world appearing as opaque, the self appearing as untrustworthy) rather than belief-state descriptions.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) implements **structured first-person observation logs** with phenomenological vocabulary (givenness, salience, certainty-tone, temporal flow) so that subjects can record disturbances at the level where they actually appear. The vocabulary itself is a defense — it gives subjects categories they would otherwise lack. See also [metakognice](@/glossary/metakognice.md).
+- The [Color Teams](@/glossary/color-teams.md) Blue Team explicitly trains operators to attend to phenomenological signals (the felt-sense indicators of EA-1.4.x emotional modulation, EA-1.3.2 strategic reinterpretation) before structural confirmation. The kompendium documents this as a recurring pattern: subjects feel the EA before they can name it.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) and [epistemické trauma](@/glossary/epistemicke-trauma.md) are described in the kompendium primarily in phenomenological terms — they are *modes of givenness* (the world appearing as opaque, the self appearing as untrustworthy) rather than belief-state descriptions.
 
 Phenomenology complements but does not replace third-person methods. The platform's epistemic architecture is **multi-perspectival**: phenomenological self-report, behavioral indicators, source-graph analysis, and calibration scoring are all tracked, and divergence between them is itself a signal. Czech-language treatment: [/kompendium/04-mechanismy/fenomenologie/](/kompendium/04-mechanismy/fenomenologie/).
 
 ## See Also
 
-- [Hermeneutika](/glossary/hermeneutika/) — Cross-subject interpretation complement
-- [Metakognice](/glossary/metakognice/) — Reflective self-awareness layer
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Parent threat model
-- [Epistemické trauma](/glossary/epistemicke-trauma/) — Phenomenologically-described aftermath
-- [Epistemická alienace](/glossary/epistemicka-alienace/) — Phenomenological endpoint
-- [Kompendium EA](/glossary/kompendium-ea/) — Full taxonomy
-- [Kompendium](/kompendium/) — Czech-language reference
+- [Hermeneutika](@/glossary/hermeneutika.md) — Cross-subject interpretation complement
+- [Metakognice](@/glossary/metakognice.md) — Reflective self-awareness layer
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Parent threat model
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) — Phenomenologically-described aftermath
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Phenomenological endpoint
+- [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomy
+- [Kompendium](@/kompendium/_index.md) — Czech-language reference
 
 ---
 
@@ -59,4 +59,4 @@ Phenomenology complements but does not replace third-person methods. The platfor
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

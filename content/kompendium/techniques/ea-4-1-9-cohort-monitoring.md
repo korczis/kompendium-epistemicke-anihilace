@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 | **Přístupová úroveň** | L2 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](/glossary/irb-review/) přezkum a doložitelnou klinickou kompetenci |
 | **Reverzibilita** | Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let |
-| **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/) |
+| **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) |
 
 ## Definice
 
@@ -245,56 +245,56 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 ## Vztah k jiným technikám
 
 ### V rámci subkategorie 4.1 Extrémní výcviková sekvence
-  - [EA-4.1.1 Foundation stage](/kompendium/techniques/ea-4-1-1-foundation-stage/)
-  - [EA-4.1.2 Exposure stage](/kompendium/techniques/ea-4-1-2-exposure-stage/)
-  - [EA-4.1.3 Integration stage](/kompendium/techniques/ea-4-1-3-integration-stage/)
-  - [EA-4.1.4 Mastery stage](/kompendium/techniques/ea-4-1-4-mastery-stage/)
-  - [EA-4.1.5 Reintegration stage](/kompendium/techniques/ea-4-1-5-reintegration-stage/)
+  - [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md)
+  - [EA-4.1.2 Exposure stage](@/kompendium/techniques/ea-4-1-2-exposure-stage.md)
+  - [EA-4.1.3 Integration stage](@/kompendium/techniques/ea-4-1-3-integration-stage.md)
+  - [EA-4.1.4 Mastery stage](@/kompendium/techniques/ea-4-1-4-mastery-stage.md)
+  - [EA-4.1.5 Reintegration stage](@/kompendium/techniques/ea-4-1-5-reintegration-stage.md)
 
 ### Provázanost mezi subkategoriemi 4
-  - [EA-4.2.1 Pre-engagement screening](/kompendium/techniques/ea-4-2-1-pre-engagement-screening/)
+  - [EA-4.2.1 Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md)
 
 ### Cross-kategoriální vazby
-- **[EA 2 1 1 EXPERTNI DISINFLATION](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
-- **[EA 1 1 2 INFORMACNI PRETIZENI](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** — související vstupní mechanismus.
-- **[EA 5 1 3 REFLEXIVNI PARADOXIE](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
+- **[EA 2 1 1 EXPERTNI DISINFLATION](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)** — akademická vrstva, jejíž eskalace může vést k terminální fázi.
+- **[EA 1 1 2 INFORMACNI PRETIZENI](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — související vstupní mechanismus.
+- **[EA 5 1 3 REFLEXIVNI PARADOXIE](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — ultramární technika strukturálně příbuzná, vyžadující ostřejší distinktivní detekci.
 
 ## Vztah k Prismatic platformě
 
-- **[Color Teams Black Team](/glossary/color-teams/)** — Black Team operuje jako dedikovaná detekční jednotka pro markery terminálních protokolů ve forenzních a klinických materiálech zpracovávaných platformou.
-- **[NABLA Infinity](/glossary/nabla-infinity/)** — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
+- **[Color Teams Black Team](@/glossary/color-teams.md)** — Black Team operuje jako dedikovaná detekční jednotka pro markery terminálních protokolů ve forenzních a klinických materiálech zpracovávaných platformou.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
 - **[Decision Engine](/hub/dd/decisions/)** — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
-- **[Compliance framework](/glossary/compliance-framework/)** — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
+- **[Compliance framework](@/glossary/compliance-framework.md)** — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
+- **Rodičovská kapitola**: [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - **Sourozenecké techniky** (subkategorie 4.1 Extrémní výcviková sekvence):
-  - [EA-4.1.1 Foundation stage](/kompendium/techniques/ea-4-1-1-foundation-stage/)
-  - [EA-4.1.2 Exposure stage](/kompendium/techniques/ea-4-1-2-exposure-stage/)
-  - [EA-4.1.3 Integration stage](/kompendium/techniques/ea-4-1-3-integration-stage/)
-  - [EA-4.1.4 Mastery stage](/kompendium/techniques/ea-4-1-4-mastery-stage/)
-  - [EA-4.1.5 Reintegration stage](/kompendium/techniques/ea-4-1-5-reintegration-stage/)
+  - [EA-4.1.1 Foundation stage](@/kompendium/techniques/ea-4-1-1-foundation-stage.md)
+  - [EA-4.1.2 Exposure stage](@/kompendium/techniques/ea-4-1-2-exposure-stage.md)
+  - [EA-4.1.3 Integration stage](@/kompendium/techniques/ea-4-1-3-integration-stage.md)
+  - [EA-4.1.4 Mastery stage](@/kompendium/techniques/ea-4-1-4-mastery-stage.md)
+  - [EA-4.1.5 Reintegration stage](@/kompendium/techniques/ea-4-1-5-reintegration-stage.md)
 - **Cross-kategoriální techniky**:
-  - [ea-2-1-1-expertni-disinflation](/kompendium/techniques/ea-2-1-1-expertni-disinflation/)
-  - [ea-1-1-2-informacni-pretizeni](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)
-  - [ea-5-1-3-reflexivni-paradoxie](/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie/)
+  - [ea-2-1-1-expertni-disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
+  - [ea-1-1-2-informacni-pretizeni](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
+  - [ea-5-1-3-reflexivni-paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 - **Glossary**:
   - [IRB review](/glossary/irb-review/)
   - [Informed consent](/glossary/informed-consent/)
   - [Chain of custody](/glossary/chain-of-custody/)
   - [Individual risk map](/glossary/individual-risk-map/)
   - [Transformative experience](/glossary/transformative-experience/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Forward-references**:
-  - [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - [Color Teams](/glossary/color-teams/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [Color Teams](@/glossary/color-teams.md)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Decision Engine](/hub/dd/decisions/)
-  - [Compliance framework](/glossary/compliance-framework/)
+  - [Compliance framework](@/glossary/compliance-framework.md)
 
 
 ## ⚡ Kritický krok
@@ -302,8 +302,8 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 **Před jakoukoliv prací s touto technikou** (i v rámci čistě diagnostické konzultace) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L2 = doložená kvalifikace + supervize).
-- Máš funkční [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/) na úrovni odpovídající rizikovému profilu techniky.
-- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/) a konzultuj výsledek se supervizí.
+- Máš funkční [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) na úrovni odpovídající rizikovému profilu techniky.
+- Pokud diagnostikuješ na sobě nebo na blízkém kontaktu, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně, IRB rámce a klinické supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický a defenzivní popis pro detekci.
 
@@ -313,4 +313,4 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

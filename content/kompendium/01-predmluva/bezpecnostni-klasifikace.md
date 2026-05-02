@@ -16,7 +16,7 @@ toc = true
 
 # 1.5 Bezpečnostní klasifikace přístupu
 
-Bezpečnostní klasifikace přístupu definuje **čtyřúrovňový systém** přístupových oprávnění (L1–L4), který operacionalizuje principy [graduální expozice](/kompendium/01-predmluva/jak-pouzivat/), [minimální nezbytné expozice](/kompendium/01-predmluva/pro-koho-je-urceno/) a [maximální opatrnosti](/kompendium/01-predmluva/eticke-aspekty/). Tato kapitola poskytuje formální specifikaci úrovní, prerekvizit, požadavků na výcvik a supervizi, audit mechanismů a procedur eskalace a incident response.
+Bezpečnostní klasifikace přístupu definuje **čtyřúrovňový systém** přístupových oprávnění (L1–L4), který operacionalizuje principy [graduální expozice](@/kompendium/01-predmluva/jak-pouzivat.md), [minimální nezbytné expozice](@/kompendium/01-predmluva/pro-koho-je-urceno.md) a [maximální opatrnosti](@/kompendium/01-predmluva/eticke-aspekty.md). Tato kapitola poskytuje formální specifikaci úrovní, prerekvizit, požadavků na výcvik a supervizi, audit mechanismů a procedur eskalace a incident response.
 
 ## Filosofie tier-based přístupu
 
@@ -280,15 +280,15 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](/komp
 
 ## Související
 
-- [Účel kompendia](/kompendium/01-predmluva/ucel-kompendia/)
-- [Pro koho je určeno](/kompendium/01-predmluva/pro-koho-je-urceno/)
-- [Etické aspekty a upozornění](/kompendium/01-predmluva/eticke-aspekty/)
-- [Jak používat toto kompendium](/kompendium/01-predmluva/jak-pouzivat/)
-- [Vztah ke Prismatic Platformě](/kompendium/01-predmluva/vztah-k-platforme/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Sekce 05: Ultramární techniky](/kompendium/05-ultramari-techniky/)
-- [Glossary: Color Teams](/glossary/color-teams/)
-- [Philosophy: Boundary Ethics](/philosophy/boundary-ethics/)
+- [Účel kompendia](@/kompendium/01-predmluva/ucel-kompendia.md)
+- [Pro koho je určeno](@/kompendium/01-predmluva/pro-koho-je-urceno.md)
+- [Etické aspekty a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)
+- [Jak používat toto kompendium](@/kompendium/01-predmluva/jak-pouzivat.md)
+- [Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+- [Glossary: Color Teams](@/glossary/color-teams.md)
+- [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Decision Engine](/hub/dd/decisions/)
 
 
@@ -296,7 +296,7 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](/komp
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi
-[etickým aspektům](/kompendium/01-predmluva/eticke-aspekty/), a víš, **kdy
+[etickým aspektům](@/kompendium/01-predmluva/eticke-aspekty.md), a víš, **kdy
 materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní rámec).
 
 > **Mandatorní akce**: vrať se na tuto stránku až poté, co tyto tři body
@@ -308,4 +308,4 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -30,13 +30,13 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L5 (cosmic clearance) |
 | **Riziková úroveň** | Kritická — totální epistemická monotonizace, nevratná bez specializované intervence |
 | **Reverzibilita** | Velmi nízká — vyžaduje vnější epistemickou re-pluralizaci a deprogramační protokol |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
 **Konvergentní singularita** je ultramari technika, která vynucuje **úplné sbíhání všech kognitivních trajektorií subjektu k jedinému bodu**: ať už subjekt přemýšlí o čemkoli — etice, faktech, identitě, budoucnosti, vzpomínce, nebo o samotném procesu přemýšlení — jeho mentální pohyb končí ve **stejné odpovědi**. Výsledkem je **totální epistemická monotonie**: stav, v němž je epistemický prostor topologicky redukován z mnohorozměrné variety na **jeden bod přitažlivosti** (singularita ve smyslu dynamického systému).
 
-Distinktivní rys konvergentní singularity oproti běžné indoktrinaci ([EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)) nebo binárnímu falešnému dilematu ([EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)) spočívá v **operátorové fáze přechodu**: subjekt nejen *věří* preferované odpovědi, ale **strukturálně nemůže** dospět jinam, protože všechny inferenční cesty jeho kognitivního systému byly přesměrovány k jedinému atraktoru. Subjekt si uchovává subjektivní pocit svobodného uvažování, ale výsledek uvažování je **predeterminovaný**.
+Distinktivní rys konvergentní singularity oproti běžné indoktrinaci ([EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)) nebo binárnímu falešnému dilematu ([EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)) spočívá v **operátorové fáze přechodu**: subjekt nejen *věří* preferované odpovědi, ale **strukturálně nemůže** dospět jinam, protože všechny inferenční cesty jeho kognitivního systému byly přesměrovány k jedinému atraktoru. Subjekt si uchovává subjektivní pocit svobodného uvažování, ale výsledek uvažování je **predeterminovaný**.
 
 Konvergentní singularita je **terminálním stavem** epistemické singularity — bodu, za nímž již nelze rozlišit mezi *myšlením* a *opakováním*.
 
@@ -58,7 +58,7 @@ Operátor postupně nainstaluje sadu inferenčních pravidel ("kdykoli si myslí
 
 ### Vrstva 4 — Eliminace divergentních trajektorií
 
-Systematické posílení averze ([EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)) k jakémukoli kognitivnímu výsledku, který *není* atraktorem. Divergentní myšlenka nezpůsobuje pouze nesouhlas, ale **fenomenologický diskomfort** (úzkost, vinu, dezorientaci), který sám sebe samokorektivně vrací k atraktoru.
+Systematické posílení averze ([EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)) k jakémukoli kognitivnímu výsledku, který *není* atraktorem. Divergentní myšlenka nezpůsobuje pouze nesouhlas, ale **fenomenologický diskomfort** (úzkost, vinu, dezorientaci), který sám sebe samokorektivně vrací k atraktoru.
 
 ### Vrstva 5 — Konsolidace topologie
 
@@ -79,7 +79,7 @@ Co prožívá subjekt **uvnitř** konvergentní singularity:
 - **Snížení kognitivní únavy** — singularita paradoxně **šetří** kognitivní energii (není nutné zvažovat alternativy)
 - **Ztráta zájmu o nové informace** — subjekt vnímá nová data jako *konfirmační*, nikoli jako *informativní*
 - **Pocit "přebývajícího klidu"** — emocionální plochost provázená pocitem dosažené pravdy
-- **Hermeneutická totalita** ([viz hermeneutika](/glossary/hermeneutika/)) — každá situace má **stejný** klíč k interpretaci
+- **Hermeneutická totalita** ([viz hermeneutika](@/glossary/hermeneutika.md)) — každá situace má **stejný** klíč k interpretaci
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -101,7 +101,7 @@ Konvergentní singularitu je nutné odlišit od:
 - **Hluboké odbornosti** — odborník má rovněž pevné jádro, ale **dokáže explicitně artikulovat alternativy** a popsat, *proč* je odmítl. Subjekt v singularitě alternativy *neumí* artikulovat.
 - **Náboženské víry** — autentická víra připouští paradox a tajemství; singularita vyžaduje *uzavřenost*.
 - **EA-1.2.1 Falešné dilema** — falešné dilema vynucuje volbu mezi **dvěma** body; konvergentní singularita redukuje na **jeden**.
-- **EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
+- **EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — exfoliace **odstraňuje** ontologické závazky; singularita je *koncentruje* do jednoho.
 
 ## Rizikové kontexty
 
@@ -156,21 +156,21 @@ Vrcholový tým velké organizace po dlouhodobé spolupráci s jediným strategi
 
 ### Případ 3 — Komunitní ideologická konvergence
 
-Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signaturu konvergentní singularity: 87 % příspěvků obsahovalo identické 12 frazémů. Detekce: NLP analýza odhalila topologickou monotonii. Intervence: distribuovaná deprogramační iniciativa kombinující **EA-5.1.30](/kompendium/techniques/ea-5-1-30-konceptualni-entropie/)** induced kontrolovaný entropický šok s následnou re-pluralizací.
+Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signaturu konvergentní singularity: 87 % příspěvků obsahovalo identické 12 frazémů. Detekce: NLP analýza odhalila topologickou monotonii. Intervence: distribuovaná deprogramační iniciativa kombinující **EA-5.1.30](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)** induced kontrolovaný entropický šok s následnou re-pluralizací.
 
 ## Vztah k jiným technikám
 
 ### Často se kombinuje s
 
-- **[EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)** — sesterská technika; exfoliace připraví terén odstraněním konkurenčních ontologických závazků, singularita pak vyplní vakuum jediným atraktorem.
-- **[EA-5.1.30 Konceptuální entropie](/kompendium/techniques/ea-5-1-30-konceptualni-entropie/)** — entropie destruuje stávající kognitivní strukturu; singularita ji nahrazuje monotónní strukturou. Sekvence E→S je standardní ultramari postup.
-- **[EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/)** — falešné dilema je *prekursorová* technika: redukce z N na 2 trajektorie. Singularita je její terminální generalizací (redukce z N na 1).
+- **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — sesterská technika; exfoliace připraví terén odstraněním konkurenčních ontologických závazků, singularita pak vyplní vakuum jediným atraktorem.
+- **[EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)** — entropie destruuje stávající kognitivní strukturu; singularita ji nahrazuje monotónní strukturou. Sekvence E→S je standardní ultramari postup.
+- **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema je *prekursorová* technika: redukce z N na 2 trajektorie. Singularita je její terminální generalizací (redukce z N na 1).
 - **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — guru-figure často slouží jako personifikovaný atraktor.
 
 ### Eskaluje do
 
 - **EA-5.1.31+ Definitivní epistemická uzávěra** (sekce 6) — terminální stav, v němž subjekt ztrácí samotnou kapacitu rozpoznat existenci jiných atraktorů.
-- **Anankastický režim](/glossary/anankasticky-rezim/)** — kompulzivní reprodukce atraktoru i v situacích, kde je zjevně nevhodný.
+- **Anankastický režim](@/glossary/anankasticky-rezim.md)** — kompulzivní reprodukce atraktoru i v situacích, kde je zjevně nevhodný.
 
 ### Alternativy / podobné, ale **distinktivní**
 
@@ -179,34 +179,34 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 ## Vztah k Prismatic platformě
 
 - **[Decision Engine](/hub/dd/decisions/) topology check** — kalibrační logika detekuje rozhodovací řady s **monotónní strukturou** (všechna rozhodnutí konvergující ke stejnému doporučení) jako červenou vlajku.
-- **[NABLA Infinity](/glossary/nabla-infinity/) divergence guarantee** — epistemický pipeline má strukturálně vynucené **multiple competing hypotheses**; konvergence k jedné hypotéze bez ortogonální evidence je flagována.
-- **[Color Teams](/glossary/color-teams/) red-team adversariality** — institucionální devil's advocacy proti monotonizaci.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) divergence guarantee** — epistemický pipeline má strukturálně vynucené **multiple competing hypotheses**; konvergence k jedné hypotéze bez ortogonální evidence je flagována.
+- **[Color Teams](@/glossary/color-teams.md) red-team adversariality** — institucionální devil's advocacy proti monotonizaci.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.29 Ontologická exfoliace](/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace/)
-  - [EA-5.1.30 Konceptuální entropie](/kompendium/techniques/ea-5-1-30-konceptualni-entropie/)
+  - [EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)
+  - [EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)
 - **Forward-references**:
   - Kapitola 4 — Sub-ultramari prekursory (sekce 04)
   - Kapitola 6 — Postsingulární deprogramace (sekce 06)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -216,10 +216,10 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -231,4 +231,4 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

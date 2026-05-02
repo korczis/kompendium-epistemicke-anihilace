@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 | **Přístupová úroveň** | L1 |
 | **Riziková úroveň** | Střední — operuje pod prahem vědomé detekce |
 | **Reverzibilita** | Vysoká, pokud je rozpoznána |
-| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) |
+| **Rodičovská kapitola** | [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) |
 
 ## Definice
 
@@ -230,10 +230,10 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 ### Často se kombinuje s
 
-- **[EA-1.5.2 Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)** — sourozenecká: proxemika + body language = **comprehensive** spatial-kinetic dominance.
-- **[EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)** — multimodální dominance (auditory + spatial).
-- **[EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)** — proxemika jako medium pro emocionální indukci.
-- **[EA-1.1.2 Informační přetížení](/kompendium/techniques/ea-1-1-2-informacni-pretizeni/)** — spatial pressure intensifuje cognitive overload.
+- **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — sourozenecká: proxemika + body language = **comprehensive** spatial-kinetic dominance.
+- **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — multimodální dominance (auditory + spatial).
+- **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — proxemika jako medium pro emocionální indukci.
+- **[EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)** — spatial pressure intensifuje cognitive overload.
 
 ### Eskaluje do
 
@@ -253,22 +253,22 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/)
+- **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Sourozenecké techniky** (1.5):
-  - [EA-1.5.2 Dominantní tělesné hieroglyfy](/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy/)
+  - [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)
 - **Příbuzné z (1.4)**:
-  - [EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/)
-  - [EA-1.4.2 Latentní emocionální modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/)
+  - [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
+  - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Boundary Ethics](/philosophy/boundary-ethics/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Boundary Ethics](@/philosophy/boundary-ethics.md)
 - **Forward-references**:
-  - [Sekce 04 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Sekce 05 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+  - [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Sekce 05 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [Color Teams](/glossary/color-teams/)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -278,10 +278,10 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -293,4 +293,4 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

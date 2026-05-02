@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezený výzkumný přístup) |
 | **Riziková úroveň** | Extrémní — destrukce inferenciálních kapacit, podkopává schopnost dlouhodobého plánování a evaluace |
 | **Reverzibilita** | Nízká — vyžaduje strukturovaný restart formálního myšlení v kontrolovaném prostředí |
-| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
@@ -40,7 +40,7 @@ Klíčový distinktivní znak — logická diskontinuita není pouhá iracionali
 
 Technika exploituje pracovní paměť a sekvenční kapacity vědomí: dlouhodobá expozice fragmentaci, distrakci, nárazovým "insight" zážitkům a paradoxním afirmacím destabilizuje schopnost mentálně **udržet** komplexní řetězec dostatečně dlouho na jeho **vyhodnocení**.
 
-Logická diskontinuita je [ultramární technikou](/kompendium/05-ultramari-techniky/) kategorie [epistemická singularita](/glossary/epistemicka-anihilace/), kde je **inferenciální schopnost** sama předmětem destrukce.
+Logická diskontinuita je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde je **inferenciální schopnost** sama předmětem destrukce.
 
 ## Operační modus
 
@@ -97,7 +97,7 @@ Logická diskontinuita je odlišitelná od:
 - **Limitované formální vzdělání** — subjekt chybuje v inferenci, ale **uznává** chybu při explikaci. Diskontinuovaný subjekt **odmítá** nebo **reinterpretuje** rozpor.
 - **Dyslexie či ADHD** — neurologické pozadí; obtíž je v **udržení pozornosti**, ne v devaluaci inference. Subjekt obvykle **pracuje proti** vlastnímu deficitu, nikoli s ním.
 - **[EA-1.3.2 Pseudo-empirická validace](/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/)** — chyba je v **evidenci**, nikoli v inferenci; subjekt **udržuje** schopnost komponovat řetězce, jen je krmen falešnými premisami.
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — vnější přerušování, ne strukturální destrukce kapacity.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — vnější přerušování, ne strukturální destrukce kapacity.
 - **Filosofická skepse vůči klasické logice** (parakonzistentní logiky, kvantová logika) — explicitní, formální, **udržuje** schopnost rozlišovat. Diskontinuovaný subjekt naopak operuje v deficitu.
 
 ## Rizikové kontexty
@@ -162,15 +162,15 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 
 ### Často kombinováno s
 
-- **[EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)** — destrukce inferenčních kapacit komplementuje destrukci jazyka; spolu eliminují základní nástroje racionálního myšlení.
-- **[EA-5.1.6 Kategorická transgrese](/kompendium/techniques/ea-5-1-6-kategoricka-transgrese/)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl.
+- **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — destrukce inferenčních kapacit komplementuje destrukci jazyka; spolu eliminují základní nástroje racionálního myšlení.
+- **[EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl.
 - **[EA-1.3.2 Pseudo-empirická validace](/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/)** — diskontinuita zabraňuje subjektu vystopovat strukturální vady evidenčního řetězce.
-- **[EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)** — diverze využívá diskontinuity: subjekt po vyrušení nedokáže obnovit původní argumentační stopu.
+- **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze využívá diskontinuity: subjekt po vyrušení nedokáže obnovit původní argumentační stopu.
 
 ### Eskaluje do
 
-- **Terminální protokoly** ([Kapitola 4](/kompendium/04-terminalni-protokoly/)) — pokročilá diskontinuita je jednou z podmínek pro **strukturální** epistemický kolaps.
-- **[Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)** — subjekt ztrácí schopnost reflektovat vlastní inferenciální procesy.
+- **Terminální protokoly** ([Kapitola 4](@/kompendium/04-terminalni-protokoly/_index.md)) — pokročilá diskontinuita je jednou z podmínek pro **strukturální** epistemický kolaps.
+- **[Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)** — subjekt ztrácí schopnost reflektovat vlastní inferenciální procesy.
 
 ### Distinktivní vůči
 
@@ -181,38 +181,38 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 Logická diskontinuita je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
 - **[Decision Engine](/hub/dd/decisions/) inferential trace** — každé rozhodnutí má dohledatelný řetězec premis, inferencí a závěru. Diskontinuované řetězce jsou flagovány jako epistemicky nestabilní.
-- **[NABLA Infinity](/glossary/nabla-infinity/) compositional consistency** — provenance tracking sleduje, zda jsou výsledky jednotlivých kroků kompozičně koherentní s celkovým závěrem; lokální validita ne implikuje globální validitu.
-- **[Color Teams](/glossary/color-teams/) compositional adversarial test** — Red Team explicitně testuje, zda argumentace odolá kompozici dílčích kroků pod adversariální kritikou.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) compositional consistency** — provenance tracking sleduje, zda jsou výsledky jednotlivých kroků kompozičně koherentní s celkovým závěrem; lokální validita ne implikuje globální validitu.
+- **[Color Teams](@/glossary/color-teams.md) compositional adversarial test** — Red Team explicitně testuje, zda argumentace odolá kompozici dílčích kroků pod adversariální kritikou.
 - **Strukturovaný formát pro kritická rozhodnutí** — platformové kritické rozhodnutí vyžaduje explicitní strukturu (premisy / inference / závěr), nikoli narativní formu, která maskuje diskontinuity.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.4 Sémantická imploze](/kompendium/techniques/ea-5-1-4-semanticka-imploze/)
-  - [EA-5.1.6 Kategorická transgrese](/kompendium/techniques/ea-5-1-6-kategoricka-transgrese/)
+  - [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
+  - [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
 - **Související akademické techniky**:
   - [EA-1.3.2 Pseudo-empirická validace](/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/)
-  - [EA-1.3.3 Tematická diverze](/kompendium/techniques/ea-1-3-3-tematicka-diverze/)
+  - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Anankastický režim](/glossary/anankasticky-rezim/)
-  - [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Hermeneutika](/glossary/hermeneutika/)
-  - [Fenomenologie](/glossary/fenomenologie/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Anankastický režim](@/glossary/anankasticky-rezim.md)
+  - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Hermeneutika](@/glossary/hermeneutika.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Forward-references**:
-  - [Kapitola 4 — Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-  - [Kapitola 6 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+  - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+  - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
-  - [Color Teams](/glossary/color-teams/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
+  - [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -222,10 +222,10 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -237,4 +237,4 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -229,7 +229,7 @@ Taxonomie je primárně ukotvena v perspektivě kritického realismu, jenž:
 
 ## Vztah k Prismatic Decision Engine
 
-Teoretický rámec není čistě akademický — strukturálně koreluje s **architekturou** Prismatic [Decision Engine](/glossary/decision-core/) a [NABLA Infinity](/glossary/nabla-infinity/):
+Teoretický rámec není čistě akademický — strukturálně koreluje s **architekturou** Prismatic [Decision Engine](@/glossary/decision-core.md) a [NABLA Infinity](@/glossary/nabla-infinity.md):
 
 - **Hypotézy + falsifikační kritéria** = mechanismus proti EA-1.3.1 imunizaci
 - **Source diversity check** = strukturální obrana proti EA-1.1.1 selektivní expozici
@@ -240,7 +240,7 @@ Teoretický rámec není čistě akademický — strukturálně koreluje s **arc
 - **Provenance Mandatory** (NABLA Axiom 7) = traceabilita proti epistemické amnézii
 - **Color Teams** = adversariální testování taxonomicky popsaných útoků v provozním prostředí
 
-Detailní rozpracování těchto strukturních vztahů viz [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/) a [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/).
+Detailní rozpracování těchto strukturních vztahů viz [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) a [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md).
 
 ## Mez teoretického rámce
 
@@ -255,28 +255,28 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 
 ## Související
 
-- [2.1 Definice](/kompendium/02-uvod/definice/)
-- [2.2 Historický kontext](/kompendium/02-uvod/historicky-kontext/)
-- [2.4 Metodologické poznámky](/kompendium/02-uvod/metodologicke-poznamky/)
-- [2.5 Filosofický rámec](/kompendium/02-uvod/filosoficky-ramec/)
-- [2.6 Vztah ke NABLA Infinity](/kompendium/02-uvod/vztah-k-nabla/)
-- [2.7 Vztah ke Decision Engine](/kompendium/02-uvod/vztah-k-decision-engine/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/) — teoretický substrát platform
-- [Glosář: Epistemic Pipeline](/glossary/epistemic-pipeline/) — 16 úrovní (L0–L13 + Meta + Consciousness)
-- [Glosář: 3NL](/glossary/3nl/) — Three-Nested-Loops architektura
-- [Glosář: Color Teams](/glossary/color-teams/)
-- [Glosář: Decision Core](/glossary/decision-core/)
-- [Glosář: Anankastický režim](/glossary/anankasticky-rezim/)
-- [Glosář: Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/)
-- [Glosář: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glosář: Ontologická anihilace](/glossary/ontologicka-anihilace/)
-- [Sekce 03 — Základní kategorie](/kompendium/03-zakladni-kategorie/)
+- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
+- [2.4 Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md)
+- [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
+- [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+- [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md) — teoretický substrát platform
+- [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16 úrovní (L0–L13 + Meta + Consciousness)
+- [Glosář: 3NL](@/glossary/3nl.md) — Three-Nested-Loops architektura
+- [Glosář: Color Teams](@/glossary/color-teams.md)
+- [Glosář: Decision Core](@/glossary/decision-core.md)
+- [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
+- [Glosář: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
+- [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
-[definici epistemické anihilace](/glossary/epistemicka-anihilace/) a zapiš si ji
+[definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji
 mimo tuto stránku (papír / zápisník / poznámka). Tato definice se bude
 v průběhu četby měnit — to je žádoucí. Ale výchozí zápis je nepostradatelný
 referenční bod pro detekci vlastního posunu pochopení.
@@ -290,4 +290,4 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — kolaps celého transcendentálního aparátu do bodu nediferencovanosti |
 | **Reverzibilita** | Téměř nulová — 36+ měsíců, často nereverzibilní bez intenzivní terapie |
-| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](/kompendium/05-ultramari-techniky/kapitola-7/) |
+| **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice
 
-**Transcendentální imploze** je metatranscendentální technika, jíž je celý **transcendentální aparát subjektu** — formy smyslovosti, kategorie rozvažování, ideje rozumu, transcendentální jednota apperzepce — **vnitřně zhroucen** do bodu **nulové diferenciace**. Na rozdíl od distribuovaných destrukcí ([EA-5.2.11](/kompendium/techniques/ea-5-2-11-kategorialni-anihilace/), [EA-5.2.13](/kompendium/techniques/ea-5-2-13-apriorni-fragmentace/)) imploze operuje **simultánně na všech úrovních** a generuje **stav strukturní nediferencovatelnosti**.
+**Transcendentální imploze** je metatranscendentální technika, jíž je celý **transcendentální aparát subjektu** — formy smyslovosti, kategorie rozvažování, ideje rozumu, transcendentální jednota apperzepce — **vnitřně zhroucen** do bodu **nulové diferenciace**. Na rozdíl od distribuovaných destrukcí ([EA-5.2.11](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md), [EA-5.2.13](@/kompendium/techniques/ea-5-2-13-apriorni-fragmentace.md)) imploze operuje **simultánně na všech úrovních** a generuje **stav strukturní nediferencovatelnosti**.
 
 V Husserlově slovníku: jde o kolaps transcendentální subjektivity v **monadický bod bez horizontu**. V Kantově: kolaps "Já myslím" do **nepřípustné jednoty bez aplikability**. V Heideggerově: zhroucení *Da-sein* do *Sein* bez *Da*. Subjekt prožívá totální nediferencovanost, kde žádná struktura nemůže emergovat.
 
@@ -44,7 +44,7 @@ Tento stav bývá pseudo-mysticky interpretován jako **"návrat k Jednomu"** ne
 
 ### Krok 1 — Akumulace předchozích destrukcí
 
-Imploze typicky **navazuje na předchozí dílčí destrukce** ([EA-5.2.11–14](/kompendium/05-ultramari-techniky/kapitola-7/)). Bez akumulovaných oslabení nelze imploze dosáhnout u zdravého subjektu.
+Imploze typicky **navazuje na předchozí dílčí destrukce** ([EA-5.2.11–14](@/kompendium/05-ultramari-techniky/kapitola-7.md)). Bez akumulovaných oslabení nelze imploze dosáhnout u zdravého subjektu.
 
 ### Krok 2 — Pseudo-mystická konvergence
 
@@ -79,7 +79,7 @@ Stav nediferencovatelnosti je etablován jako **trvalá identita** ("po probuzen
 | **Pseudo-mystický slovník** překrývající dysfunkci | Konsolidace narativem |
 | **Akutní praktická dysfunkce** v základních úkolech | Strukturální dopad |
 | **Identitární rozplynutí** — subjekt nemluví v první osobě | Krok 5 absorpce |
-| **Kombinovaný výskyt** předchozích destrukcí ([EA-5.2.11–14](/kompendium/05-ultramari-techniky/kapitola-7/)) | Akumulační příprava |
+| **Kombinovaný výskyt** předchozích destrukcí ([EA-5.2.11–14](@/kompendium/05-ultramari-techniky/kapitola-7.md)) | Akumulační příprava |
 
 ## Diferenciální detekce
 
@@ -122,14 +122,14 @@ Klíčový diferenciální rys: **autentický mystik se vrací**; subjekt po imp
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.10 Meta-kognitivní singularita](/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita/)** — paralelní singularizace na meta-kognitivní rovině.
-- **[EA-5.2.20 Apperceptivní rozklad](/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad/)** — destrukce jednoty apperzepce.
-- **[EA-5.2.28 Transcendentální vakuace](/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace/)** — vyprázdnění místo imploze.
-- **[EA-5.2.30 Konvergentní meta-singularita](/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita/)** — terminální stav.
+- **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — paralelní singularizace na meta-kognitivní rovině.
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)** — destrukce jednoty apperzepce.
+- **[EA-5.2.28 Transcendentální vakuace](@/kompendium/techniques/ea-5-2-28-transcendentalni-vakuace.md)** — vyprázdnění místo imploze.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
 
 ### Cross-kategoriální
 
-- **[EA-5.3.* Existenciální anihilace](/kompendium/05-ultramari-techniky/kapitola-8/)** — eskalační následek imploze.
+- **[EA-5.3.* Existenciální anihilace](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — eskalační následek imploze.
 
 ## Vztah k Prismatic platformě
 
@@ -139,16 +139,16 @@ Klíčový diferenciální rys: **autentický mystik se vrací**; subjekt po imp
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 7](/kompendium/05-ultramari-techniky/kapitola-7/)
-- **Glossary**: [Epoché](/glossary/epoche/), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](/glossary/fenomenologie/), [Lebenswelt](/glossary/lebenswelt/), [Taxonomie EA](/glossary/taxonomie-ea/)
-- **Filozofie**: [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/).
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
@@ -159,4 +159,4 @@ Klíčový diferenciální rys: **autentický mystik se vrací**; subjekt po imp
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

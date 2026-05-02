@@ -29,7 +29,7 @@ Levinas staví proti **totalitě** kategorii **nekonečna** (*infini*) — toho,
 Pro EA z toho plyne **trojí**:
 
 1. **Filozofie totality jako EA-strukturální podloží**: každý totalitní systém — od fyzického genocidu po informační kolonizaci — strukturálně operuje skrze redukci Jiného na Stejné.
-2. **Algoritmická totalizace**: AI/ML systémy ([viz 7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)) strukturálně **redukují** subjekty na **datové profily** — strukturální anihilace nekonečna Jiného.
+2. **Algoritmická totalizace**: AI/ML systémy ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) strukturálně **redukují** subjekty na **datové profily** — strukturální anihilace nekonečna Jiného.
 3. **Etický fundament rezilience**: schopnost **udržet otevřenost** vůči Jinému jako **nekonečnu** je strukturálním zdrojem rezilience vůči EA.
 
 ## 2. Tvář (*le visage*)
@@ -45,7 +45,7 @@ Tato paradoxní struktura konstituuje **prvotní etickou událost**: nikoli výp
 
 Pro EA má fenomenologie tváře **diagnostickou hodnotu**:
 
-- **De-personalizace** je strukturální technika EA: anihilace tváře Jiného (statistické agregáty, anonymizované cíle, "kolaterální škody"). Strukturální analog Arendtové **banality zla** ([viz 7.18](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)).
+- **De-personalizace** je strukturální technika EA: anihilace tváře Jiného (statistické agregáty, anonymizované cíle, "kolaterální škody"). Strukturální analog Arendtové **banality zla** ([viz 7.18](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)).
 - **Algoritmické zprostředkování** strukturálně **eliminuje tvář** — interakce probíhá skrze profil, nikoli skrze tvář. Implications pro online násilí, dehumanizaci, hate speech.
 - **Klinická intervence**: obnovení **tváře** jako klinický cíl — pacient potřebuje vidět své tváři **odraženou** v pohledu druhého.
 
@@ -88,7 +88,7 @@ Pro EA má rozlišení Dire/Dit **specifickou relevanci**:
 
 ## 6. Klinický a etický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Trauma jako anihilace tváře**: pacient zkoušející trauma ztrácí **vlastní tvář** v pohledu pachatele. Klinická restituce vyžaduje **návrat tváře** — pacient musí být viděn jako **tvář**, nikoli jako **případ**.
 - **Etický fundament terapeutického vztahu**: levinasovská asymetrie strukturuje terapii jako **etickou událost**, nikoli pouze **technickou intervenci**.
@@ -110,15 +110,15 @@ Kompendium absorbuje Levinasovu fenomenologii tváře, ale **odbočuje** ve dvou
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.1 Filosofický rámec EA](/kompendium/07-teoreticke-reflexe/filosoficky-ramec/)
-- [7.14 Heidegger: Být-ve-světě](/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete/)
-- [7.18 Arendt: Banalita zla](/kompendium/07-teoreticke-reflexe/arendt-banalita-zla/)
-- [7.21 Butler: Performative](/kompendium/07-teoreticke-reflexe/butler-performative/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Hermeneutika](/glossary/hermeneutika/)
-- [Filozofie: Intellectual Sovereignty](/philosophy/intellectual-sovereignty/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
+- [7.14 Heidegger: Být-ve-světě](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)
+- [7.18 Arendt: Banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)
+- [7.21 Butler: Performative](@/kompendium/07-teoreticke-reflexe/butler-performative.md)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
+- [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
 ---
 
@@ -127,4 +127,4 @@ Kompendium absorbuje Levinasovu fenomenologii tváře, ale **odbočuje** ve dvou
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

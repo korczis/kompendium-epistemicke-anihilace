@@ -15,7 +15,7 @@ toc = false
 
 # Rozhodovací strom terminálních protokolů
 
-Tato sekce-specifická vizualizace operacionalizuje [pre-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/) a [intra-simulační monitoring](/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring/) jako **radiální rozhodovací strom**:
+Tato sekce-specifická vizualizace operacionalizuje [pre-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) a [intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md) jako **radiální rozhodovací strom**:
 
 - **Úroveň 1 — Detekce**: Byly detekovány signály terminálních protokolů? (ano / ne / nejasné)
 - **Úroveň 2 — Eskalační úroveň**: Jak hluboká je manifestace? (mírná / střední / těžká / extrémní)
@@ -38,15 +38,15 @@ Listy stromu jsou **barevně kódované** podle úrovně rizika a klikatelné pr
 
 ## Související
 
-- [4.1 Pre-simulační screening](/kompendium/04-terminalni-protokoly/pred-simulacni-screening/)
-- [4.2 Intra-simulační monitoring](/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring/)
-- [Konceptuální dekonstrukce](/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce/)
-- [Identitní dekonstrukce](/kompendium/04-terminalni-protokoly/identitni-dekonstrukce/)
-- [Institucionální anihilace](/kompendium/04-terminalni-protokoly/institucionalni-anihilace/)
-- [Kontrolovaná rekonstituce](/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce/)
-- [Ultimátní scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/)
-- [Globální vizualizace EA taxonomie](/kompendium/visualizations/)
-- [Glossary: Taxonomie EA](/glossary/taxonomie-ea/)
+- [4.1 Pre-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
+- [4.2 Intra-simulační monitoring](@/kompendium/04-terminalni-protokoly/intra-simulacni-monitoring.md)
+- [Konceptuální dekonstrukce](@/kompendium/04-terminalni-protokoly/konceptualni-dekonstrukce.md)
+- [Identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md)
+- [Institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)
+- [Kontrolovaná rekonstituce](@/kompendium/04-terminalni-protokoly/kontrolovana-rekonstituce.md)
+- [Ultimátní scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md)
+- [Globální vizualizace EA taxonomie](@/kompendium/visualizations/_index.md)
+- [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
 
 ---
 
@@ -54,4 +54,4 @@ Listy stromu jsou **barevně kódované** podle úrovně rizika a klikatelné pr
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

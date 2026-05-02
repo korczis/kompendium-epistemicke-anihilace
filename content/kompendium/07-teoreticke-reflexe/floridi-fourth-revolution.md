@@ -60,9 +60,9 @@ Floridi formuluje pojem **inforg** — informačního organismu. **Lidé** jsou 
 
 Tato pozice strukturálně rezonuje s:
 
-- **Extended mind** (Clark, [viz 7.41](/kompendium/07-teoreticke-reflexe/clark-extended-mind/))
-- **Cyborgs** (Clark, [viz 7.49](/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs/))
-- **Distributed cognition** (Hutchins, [viz 7.48](/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition/))
+- **Extended mind** (Clark, [viz 7.41](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md))
+- **Cyborgs** (Clark, [viz 7.49](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md))
+- **Distributed cognition** (Hutchins, [viz 7.48](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md))
 
 Pro EA z toho plyne:
 
@@ -124,7 +124,7 @@ Pro EA z toho plyne:
 
 ## 8. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Diagnostika informačního ekosystému**: jaké informace strukturalizují pacientovo prožívání?
 - **Restituce informační integrity**: pacient se učí udržet informační soudržnost
@@ -148,20 +148,20 @@ Floridi má **silnou** politickou pozici:
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.5 Computational Epistemology](/kompendium/07-teoreticke-reflexe/computational-epistemology/)
-- [7.8 Politická EA](/kompendium/07-teoreticke-reflexe/politicka-ea/)
-- [7.41 Clark: Rozšířená mysl](/kompendium/07-teoreticke-reflexe/clark-extended-mind/)
-- [7.42 Metzinger: Ego Tunnel](/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel/)
-- [7.48 Hutchins: Distribuovaná kognice](/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition/)
-- [7.49 Clark: Natural-Born Cyborgs](/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs/)
-- [7.52 Harari: Sapiens narativ](/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ/)
-- [7.56 Zuboff: Surveillance Capitalism](/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism/)
-- [7.57 Boyd: Disinformation Age](/kompendium/07-teoreticke-reflexe/boyd-disinformation-age/)
-- [7.58 Wardle: Disinformation Typology](/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology/)
-- [Glosář: NABLA Infinity](/glossary/nabla-infinity/)
-- [Glosář: 3NL](/glossary/3nl/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
+- [7.8 Politická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
+- [7.41 Clark: Rozšířená mysl](@/kompendium/07-teoreticke-reflexe/clark-extended-mind.md)
+- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
+- [7.48 Hutchins: Distribuovaná kognice](@/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md)
+- [7.49 Clark: Natural-Born Cyborgs](@/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md)
+- [7.52 Harari: Sapiens narativ](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)
+- [7.56 Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)
+- [7.57 Boyd: Disinformation Age](@/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md)
+- [7.58 Wardle: Disinformation Typology](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md)
+- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
+- [Glosář: 3NL](@/glossary/3nl.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -170,4 +170,4 @@ Floridi má **silnou** politickou pozici:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

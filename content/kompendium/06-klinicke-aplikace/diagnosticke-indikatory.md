@@ -17,7 +17,7 @@ toc = true
 
 ## Úvodní rámec
 
-Diagnostika [epistemické anihilace](/glossary/epistemicka-anihilace/) (dále jen EA) a [kognitivní anihilace](/glossary/kognitivni-anihilace/) (KA) v klinické praxi vyžaduje **odlišnou perspektivu** než klasická psychiatrická nosologie. Zatímco DSM-5-TR a ICD-11 se primárně zaměřují na **fenomenologii utrpení** (jaké příznaky pacient prožívá), diagnostika EA se ptá na **etiologickou strukturu** — *byly tyto symptomy vyvolány systematickým útokem na poznávací aparát?*
+Diagnostika [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (dále jen EA) a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md) (KA) v klinické praxi vyžaduje **odlišnou perspektivu** než klasická psychiatrická nosologie. Zatímco DSM-5-TR a ICD-11 se primárně zaměřují na **fenomenologii utrpení** (jaké příznaky pacient prožívá), diagnostika EA se ptá na **etiologickou strukturu** — *byly tyto symptomy vyvolány systematickým útokem na poznávací aparát?*
 
 Klíčový diagnostický posun spočívá v rozšíření klinického rozhovoru o **epistemickou anamnézu**: kdo, kdy a jak měl přístup k pacientově poznávacímu procesu, jaké formy informačního prostředí byl vystaven, jaká byla mocenská asymetrie v jeho vztazích.
 
@@ -27,10 +27,10 @@ Diagnostické markery se rozdělují do dvou hlavních skupin podle taxonomické
 
 | Osa | Cíl útoku | Klinická manifestace |
 |-----|-----------|---------------------|
-| **Strukturální EA** | Procesy poznávání — pozornost, paměť, hodnocení důkazů, koherence narativy | Difúzní [epistemická alienace](/glossary/epistemicka-alienace/), nedůvěra ve vlastní úsudek |
+| **Strukturální EA** | Procesy poznávání — pozornost, paměť, hodnocení důkazů, koherence narativy | Difúzní [epistemická alienace](@/glossary/epistemicka-alienace.md), nedůvěra ve vlastní úsudek |
 | **Obsahová EA** | Specifická přesvědčení — politická, náboženská, identitární | Rigidní ideologická vázanost, nemožnost revize klíčových přesvědčení |
 
-Diferenciace má **terapeutické důsledky**: strukturální EA vyžaduje rekonstrukci poznávacích procesů (viz [6.4](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)), obsahová EA vyžaduje práci s konkrétními narativy.
+Diferenciace má **terapeutické důsledky**: strukturální EA vyžaduje rekonstrukci poznávacích procesů (viz [6.4](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)), obsahová EA vyžaduje práci s konkrétními narativy.
 
 ## Screeningové markery
 
@@ -38,21 +38,21 @@ Následující markery jsou **screeningové indikátory** — žádný z nich ne
 
 ### Klastr A: Metakognitivní destrukce
 
-Indikátory poškození [metakognice](/glossary/metakognice/) — schopnosti reflektovat vlastní poznávací procesy:
+Indikátory poškození [metakognice](@/glossary/metakognice.md) — schopnosti reflektovat vlastní poznávací procesy:
 
 | Marker | Klinická manifestace | EA reference |
 |--------|---------------------|--------------|
-| **A1** Chronická nedůvěra ve vlastní paměť | "Nevím, zda si to opravdu pamatuji, nebo si to vymýšlím" | [Gaslighting](/glossary/gaslighting/), EA-2.x.x |
-| **A2** Stažení reflexivních úsudků | Pacient přestává hodnotit, pouze přejímá | [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) |
+| **A1** Chronická nedůvěra ve vlastní paměť | "Nevím, zda si to opravdu pamatuji, nebo si to vymýšlím" | [Gaslighting](@/glossary/gaslighting.md), EA-2.x.x |
+| **A2** Stažení reflexivních úsudků | Pacient přestává hodnotit, pouze přejímá | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) |
 | **A3** Externí kotvení reality | "Až mi řekne X, budu vědět, co je pravda" | EA-3.x.x autorita-závislost |
 | **A4** Strach z vlastního myšlení | Vyhýbání se interní deliberaci | EA-4.x.x |
-| **A5** Ztráta druhého řádu reflexe | Pacient nedokáže říct, *jak* o něčem přemýšlí | [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/) |
+| **A5** Ztráta druhého řádu reflexe | Pacient nedokáže říct, *jak* o něčem přemýšlí | [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) |
 
 **Klinická poznámka**: Klastr A je **vysoce citlivý**, ale **nízce specifický** — překrývá se s depresí, úzkostnými poruchami a cPTSD. Diagnostická hodnota roste v kombinaci s klastry B–D.
 
 ### Klastr B: Hermeneutické zhroucení
 
-Indikátory poškození [hermeneutiky](/glossary/hermeneutika/) — schopnosti interpretovat významy a kontexty:
+Indikátory poškození [hermeneutiky](@/glossary/hermeneutika.md) — schopnosti interpretovat významy a kontexty:
 
 | Marker | Klinická manifestace |
 |--------|---------------------|
@@ -67,14 +67,14 @@ Indikátory poškození [hermeneutiky](/glossary/hermeneutika/) — schopnosti i
 | Marker | Klinická manifestace |
 |--------|---------------------|
 | **C1** Izolace od non-skupinových zdrojů | Veškeré informace pocházejí z jednoho prostředí |
-| **C2** [Anankastický režim](/glossary/anankasticky-rezim/) konformity | Emoční úzkost při kontaktu s odlišnými názory |
+| **C2** [Anankastický režim](@/glossary/anankasticky-rezim.md) konformity | Emoční úzkost při kontaktu s odlišnými názory |
 | **C3** Slovník výrazně omezený na in-group lexikon | Neschopnost popsat zkušenost mimo skupinový jazyk |
 | **C4** Obrana manipulátora | Pacient brání agresora i při explicitních důkazech |
 | **C5** Ztráta non-skupinových vztahů | Systematická eroze přátelství, rodinných vazeb |
 
 ### Klastr D: Ontologicko-existenciální markery
 
-Tyto markery indikují **závažnější** stádia (potenciální [ontologickou anihilaci](/glossary/ontologicka-anihilace/)):
+Tyto markery indikují **závažnější** stádia (potenciální [ontologickou anihilaci](@/glossary/ontologicka-anihilace.md)):
 
 | Marker | Klinická manifestace | Závažnost |
 |--------|---------------------|-----------|
@@ -156,23 +156,23 @@ Následující pravidla představují **doporučené (nikoliv mandatorní) klini
 - Disociativní poruchy s rozsáhlým postižením;
 - Akutní stresová porucha s kognitivními symptomy.
 
-(Detail v [6.2](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/).)
+(Detail v [6.2](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).)
 
 ### Pravidlo R5: Dual-use diagnostika
 
-EA diagnostika musí respektovat princip [**dual-use poznání**](/glossary/dual-use-poznani/) — diagnostické nástroje samy mohou být zneužity k delegitimizaci legitimní disent. Klinik nesmí používat diagnostiku EA k patologizaci politických, náboženských či filozofických přesvědčení **per se**.
+EA diagnostika musí respektovat princip [**dual-use poznání**](@/glossary/dual-use-poznani.md) — diagnostické nástroje samy mohou být zneužity k delegitimizaci legitimní disent. Klinik nesmí používat diagnostiku EA k patologizaci politických, náboženských či filozofických přesvědčení **per se**.
 
 ## Markery podle taxonomie
 
-Pro detail per-technique markerů odkazujeme na [techniques](/kompendium/techniques/) — každá technika má samostatnou sekci "Detekční markery". Příklady:
+Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techniques/_index.md) — každá technika má samostatnou sekci "Detekční markery". Příklady:
 
-- [EA-1.1.1 Selektivní expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — markery: monokultura zdrojů, defenzivní reakce na alternativní data;
-- [EA-1.2.1 Falešné dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — markery: binárnost myšlení, neschopnost generovat třetí alternativu;
-- [EA-1.4.1 Prosodická dominance](/kompendium/techniques/ea-1-4-1-prosodicka-dominance/) — markery: ztráta autonomního tonálního výrazu.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — markery: monokultura zdrojů, defenzivní reakce na alternativní data;
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — markery: binárnost myšlení, neschopnost generovat třetí alternativu;
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — markery: ztráta autonomního tonálního výrazu.
 
 ## Vztah k platformě Prismatic
 
-Klinický [Decision Engine](/hub/dd/decisions/) může klinika podpořit při interpretaci nejasných klastrů — využívá kalibraci důvěry založenou na markerech epistemické manipulace jako negativní signály ve vyhodnocení. Pro institucionální kontexty (ochrana vulnerabilních populací, vzdělávací prostředí) je k dispozici integrace s [Color Teams](/glossary/color-teams/) defenzivními agenty.
+Klinický [Decision Engine](/hub/dd/decisions/) může klinika podpořit při interpretaci nejasných klastrů — využívá kalibraci důvěry založenou na markerech epistemické manipulace jako negativní signály ve vyhodnocení. Pro institucionální kontexty (ochrana vulnerabilních populací, vzdělávací prostředí) je k dispozici integrace s [Color Teams](@/glossary/color-teams.md) defenzivními agenty.
 
 ## Limity diagnostiky
 
@@ -186,17 +186,17 @@ Klinický [Decision Engine](/hub/dd/decisions/) může klinika podpořit při in
 
 ## Související
 
-- [6.2 Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- [6.3 Terapeutické přístupy](/kompendium/06-klinicke-aplikace/terapeuticke-pristupy/)
-- [6.4 Protokoly epistemické rekonstrukce](/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce/)
-- [6.5 Práce s vulnerabilní populací](/kompendium/06-klinicke-aplikace/vulnerabilni-populace/)
-- [Sekce 03: Základní kategorie](/kompendium/03-zakladni-kategorie/)
-- [Sekce 04: Terminální protokoly](/kompendium/04-terminalni-protokoly/)
-- [Techniques index](/kompendium/techniques/)
-- [Glossary: Epistemické trauma](/glossary/epistemicke-trauma/)
-- [Glossary: Gaslighting](/glossary/gaslighting/)
-- [Glossary: Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- [Glossary: Anankastický režim](/glossary/anankasticky-rezim/)
+- [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- [6.3 Terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md)
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
+- [Sekce 03: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
+- [Sekce 04: Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- [Techniques index](@/kompendium/techniques/_index.md)
+- [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
+- [Glossary: Gaslighting](@/glossary/gaslighting.md)
+- [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 
 
 ## ⚡ Kritický krok
@@ -209,9 +209,9 @@ Před aplikací:
 
 1. Konzultuj s licencovaným psychoterapeutem / psychiatrem / klinickým
    psychologem
-2. Potvrď, že [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+2. Potvrď, že [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
    odpovídají profilu klienta
-3. Dokumentuj postup v souladu s [diferenciální diagnostikou](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
+3. Dokumentuj postup v souladu s [diferenciální diagnostikou](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
 
 > **Mandatorní akce**: aplikace bez licence + supervize + dokumentace je
 > mimo zamýšlený klinický rámec.
@@ -223,4 +223,4 @@ Před aplikací:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

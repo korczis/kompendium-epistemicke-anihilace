@@ -79,15 +79,15 @@ Independent counsel, defined methodology (interviews, document review, forensics
 ## 6. Cross-linky
 
 - [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
-- [Náhrada vedení](/kompendium/organizational-defense/38-leadership-replacement/)
-- [Kulturní obnova](/kompendium/organizational-defense/39-cultural-rebuild/)
-- [Cykly revize politik](/kompendium/organizational-defense/8-policy-review-cycles/)
-- [Ochrana akcionářů](/kompendium/organizational-defense/9-shareholder-protection/)
-- [Zapojení stakeholderů](/kompendium/organizational-defense/10-stakeholder-engagement/)
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
+- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
+- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
+- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
 - [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
-- [Kompendium — Hlavní index](/kompendium/_index/)
-- [Detection Signatures](/kompendium/detection-signatures/_index/)
-- [Recovery Protocols](/kompendium/recovery-protocols/_index/)
+- [Kompendium — Hlavní index](@/kompendium/_index.md)
+- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
+- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 
 ## 7. Connect
 
@@ -96,5 +96,5 @@ Independent counsel, defined methodology (interviews, document review, forensics
 - **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
 - **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](/kompendium/_index/)
+- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

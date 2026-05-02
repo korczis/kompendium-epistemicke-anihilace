@@ -30,11 +30,11 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Přístupová úroveň** | L3 (omezená — výzkum, klinika, forenzní analýza) |
 | **Riziková úroveň** | Extrémní — narušuje samotný předpoklad biografické kontinuity |
 | **Reverzibilita** | Velmi nízká bez specializované intervence; bez ní progresivní |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice
 
-**Temporální dekoherence** je ultramární technika cílená na **integrativní funkci času** v subjektivní zkušenosti. Cílem není falzifikovat konkrétní vzpomínku ani zmást o aktuálním datu, ale **rozpadnout fenomenologické sjednocení** mezi *retencí* (právě uplynulé), *prezencí* (právě prožívané) a *protencí* (právě anticipované) — tři vrstvy, které dle [fenomenologie](/glossary/fenomenologie/) tvoří minimální jednotku zkušeného času.
+**Temporální dekoherence** je ultramární technika cílená na **integrativní funkci času** v subjektivní zkušenosti. Cílem není falzifikovat konkrétní vzpomínku ani zmást o aktuálním datu, ale **rozpadnout fenomenologické sjednocení** mezi *retencí* (právě uplynulé), *prezencí* (právě prožívané) a *protencí* (právě anticipované) — tři vrstvy, které dle [fenomenologie](@/glossary/fenomenologie.md) tvoří minimální jednotku zkušeného času.
 
 Subjekt zasažený technikou nadále zná datum, dokáže rekonstruovat sekvenci událostí a často i pojmenovat citové stavy — chybí mu však schopnost je **vzájemně zarovnat** do koherentního narativu. Minulost přestává být *vlastní* (působí jako cizí film), přítomnost ztrácí ukotvení v dějinách subjektu, a budoucnost se rozpadá na nesouvisející fragmenty plánů, jež subjekt sice vlastní, ale **necítí jako své**.
 
@@ -161,45 +161,45 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 
 ### Často se kombinuje s
 
-- **[EA-5.1.11 Modální dezorientace](/kompendium/techniques/ea-5-1-11-modalni-dezorientace/)** — když subjekt ztratí časovou kotvu, ztrácí i schopnost rozlišovat skutečné od hypotetického.
-- **[EA-5.1.12 Kauzální inverze](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/)** — bez koherentní časové linie zaniká samotná možnost kauzální atribuce.
+- **[EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)** — když subjekt ztratí časovou kotvu, ztrácí i schopnost rozlišovat skutečné od hypotetického.
+- **[EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)** — bez koherentní časové linie zaniká samotná možnost kauzální atribuce.
 - **[EA-1.2.2 Memorní rekonstrukce](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/)** — slouží jako vstupní brána; opakovaná rekonstrukce klíčových událostí jeden z hlavních **operátorů** dekoherence.
 
 ### Eskaluje do
 
-- **Kompletní rozpad biografického Já** — terminální stadium [epistemické anihilace](/glossary/epistemicka-anihilace/) s prvky [ontologické anihilace](/glossary/ontologicka-anihilace/).
-- **[Anankastický režim](/glossary/anankasticky-rezim/)** — některé subjekty vyvinou rigidní rituály jako náhradní kotvy.
+- **Kompletní rozpad biografického Já** — terminální stadium [epistemické anihilace](@/glossary/epistemicka-anihilace.md) s prvky [ontologické anihilace](@/glossary/ontologicka-anihilace.md).
+- **[Anankastický režim](@/glossary/anankasticky-rezim.md)** — některé subjekty vyvinou rigidní rituály jako náhradní kotvy.
 
 ### Distinktivní
 
-- **[Hermeneutika](/glossary/hermeneutika/) reinterpretace** je legitimní; dekoherence je její **patologická eskalace** bez ochranných mechanismů.
+- **[Hermeneutika](@/glossary/hermeneutika.md) reinterpretace** je legitimní; dekoherence je její **patologická eskalace** bez ochranných mechanismů.
 
 ## Vztah k Prismatic platformě
 
 - **[Decision Engine](/hub/dd/decisions/) temporal coherence check** — flagsuje rozhodnutí, jejichž zdrojová biografie obsahuje **nekonzistentní chronologie**.
 - **NABLA Infinity provenance tracking** — každé tvrzení časově kotveno, takže narrativní drift lze detekovat algoritmicky.
-- **Investigative protocols** — [forenzní výslech](/glossary/dual-use-poznani/) v Prismatic explicitně chrání před indukcí dekoherence opakovanými rekonstrukcemi.
+- **Investigative protocols** — [forenzní výslech](@/glossary/dual-use-poznani.md) v Prismatic explicitně chrání před indukcí dekoherence opakovanými rekonstrukcemi.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-ultramari-techniky/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
-  - [EA-5.1.11 Modální dezorientace](/kompendium/techniques/ea-5-1-11-modalni-dezorientace/)
-  - [EA-5.1.12 Kauzální inverze](/kompendium/techniques/ea-5-1-12-kauzalni-inverze/)
+  - [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)
+  - [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)
 - **Související techniky nižších kategorií**:
   - [EA-1.2.2 Memorní rekonstrukce](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/)
 - **Glossary**:
-  - [Epistemická anihilace](/glossary/epistemicka-anihilace/)
-  - [Kognitivní anihilace](/glossary/kognitivni-anihilace/)
-  - [Ontologická anihilace](/glossary/ontologicka-anihilace/)
-  - [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-  - [Epistemické trauma](/glossary/epistemicke-trauma/)
-  - [Fenomenologie](/glossary/fenomenologie/)
-  - [Taxonomie EA](/glossary/taxonomie-ea/)
-  - [Dual-use poznání](/glossary/dual-use-poznani/)
+  - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+  - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
+  - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
+  - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+  - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
+  - [Fenomenologie](@/glossary/fenomenologie.md)
+  - [Taxonomie EA](@/glossary/taxonomie-ea.md)
+  - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
   - [Decision Engine](/hub/dd/decisions/)
-  - [NABLA Infinity](/glossary/nabla-infinity/)
+  - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
 ## ⚡ Kritický krok
@@ -209,10 +209,10 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](/kompendium/06-klinicke-aplikace/supervizni-ramce/)
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
   pro úroveň této techniky
 - Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/)
+  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
 > **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
@@ -224,4 +224,4 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

@@ -32,26 +32,26 @@ Habermas insists that the ISS is not a utopian description of any actual speech 
 
 ## Context
 
-The Kompendium uses the ISS as the **operational benchmark** against which the structural pathologies of epistemic-annihilation environments are measured. Whereas [communicative rationality](/glossary/communicative-rationality/) supplies the *form* of legitimate discourse, the ISS supplies the *conditions* under which that form can be realized.
+The Kompendium uses the ISS as the **operational benchmark** against which the structural pathologies of epistemic-annihilation environments are measured. Whereas [communicative rationality](@/glossary/communicative-rationality.md) supplies the *form* of legitimate discourse, the ISS supplies the *conditions* under which that form can be realized.
 
 Specifically:
 
 - **EA-1.2.x delegitimization** is precisely the violation of conditions (1) and (2) — the victim is denied equal access and equal opportunity to participate as a credible speaker.
 - **EA-2.x metakognitivní destrukce** violates condition (3) — by damaging the victim's reflective capacity, it produces the **internal coercion** that ISS-condition-3 explicitly forbids. The victim cannot articulate their position because their articulating apparatus has been compromised.
 - **Coercive control / institutional EA** violates condition (4) — external power asymmetries determine outcomes regardless of argument quality.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) explicitly uses the ISS as the four-dimensional diagnostic grid against which any manipulation case can be coded: which conditions are violated, by what techniques, with what compounding interactions.
-- The [Color Teams](/glossary/color-teams/) Blue Team deliberation protocols are designed as approximations of the ISS — equal participation rules, structured-dissent procedures, audit trails for argument-quality versus power-asymmetry contributions to outcomes.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) explicitly uses the ISS as the four-dimensional diagnostic grid against which any manipulation case can be coded: which conditions are violated, by what techniques, with what compounding interactions.
+- The [Color Teams](@/glossary/color-teams.md) Blue Team deliberation protocols are designed as approximations of the ISS — equal participation rules, structured-dissent procedures, audit trails for argument-quality versus power-asymmetry contributions to outcomes.
 - The [Decision Engine](/hub/dd/decisions/) calibration loop treats ISS-violations in source provenance as **structural risk factors** in confidence weighting: a conclusion produced under massively non-ISS conditions inherits epistemic taint regardless of its formal validity.
 
 ## See Also
 
-- [Communicative rationality](/glossary/communicative-rationality/) — Habermas's broader framework
-- [Instrumental reason](/glossary/instrumental-reason/) — Frankfurt School counterpart
-- [Epistemická injustice](/glossary/epistemicka-injustice/) — Fricker's complementary frame
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon diagnosed
-- [Power-Knowledge](/glossary/power-knowledge/) — Foucauldian counter-frame
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Communicative rationality](@/glossary/communicative-rationality.md) — Habermas's broader framework
+- [Instrumental reason](@/glossary/instrumental-reason.md) — Frankfurt School counterpart
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Fricker's complementary frame
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon diagnosed
+- [Power-Knowledge](@/glossary/power-knowledge.md) — Foucauldian counter-frame
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -60,4 +60,4 @@ Specifically:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

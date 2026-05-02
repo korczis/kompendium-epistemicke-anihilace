@@ -16,7 +16,7 @@ toc = true
 
 # 3.2 Kapitola 2 — Scénáře epistemické delegitimizace
 
-Na rozdíl od izolovaných technik [Kapitoly 1](/kompendium/03-zakladni-kategorie/kapitola-1/), tato kapitola analyzuje **komplexní scénáře** — koherentní sekvence koordinovaných interakcí, které postupně narušují [epistemickou integritu](/philosophy/epistemic-integrity/) subjektu způsobem, který je obtížně detekovatelný a často připisovaný jiným faktorům než epistemické manipulaci. Scénáře jsou strukturálními aplikacemi technik EA-1.* a tvoří most k pokročilým fenoménům jako [ontologická anihilace](/glossary/ontologicka-anihilace/), [metakognitivní destrukce](/glossary/metakognitivni-destrukce/) a [epistemická alienace](/glossary/epistemicka-alienace/).
+Na rozdíl od izolovaných technik [Kapitoly 1](@/kompendium/03-zakladni-kategorie/kapitola-1.md), tato kapitola analyzuje **komplexní scénáře** — koherentní sekvence koordinovaných interakcí, které postupně narušují [epistemickou integritu](@/philosophy/epistemic-integrity.md) subjektu způsobem, který je obtížně detekovatelný a často připisovaný jiným faktorům než epistemické manipulaci. Scénáře jsou strukturálními aplikacemi technik EA-1.* a tvoří most k pokročilým fenoménům jako [ontologická anihilace](@/glossary/ontologicka-anihilace.md), [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) a [epistemická alienace](@/glossary/epistemicka-alienace.md).
 
 ## Teoretické základy
 
@@ -63,7 +63,7 @@ Systematické posilování a internalizace nového epistemického režimu prost�
 
 #### Detail Fáze 5 — Expanzivní
 
-Rozšíření delegitimizačních procesů na další epistemické domény a sociální sféry. Indoktrinovaní subjekti jsou frequently instrumentalizováni jako **agenti další delegitimizace** — vzorec, který charakterizuje progresi od individuální zkušenosti k systémové [kognitivní anti-rekurzivitě](/glossary/kognitivni-anti-rekurzivita/).
+Rozšíření delegitimizačních procesů na další epistemické domény a sociální sféry. Indoktrinovaní subjekti jsou frequently instrumentalizováni jako **agenti další delegitimizace** — vzorec, který charakterizuje progresi od individuální zkušenosti k systémové [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md).
 
 ### Strukturální předpoklady efektivní delegitimizace
 
@@ -106,7 +106,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Cíl**: Student/mentee v asymetrickém vzdělávacím vztahu.
 
-**Mechanismus**: Kompoziční vzorec "Guru a adept" + EA-1.4.2 (latentní emocionální modulace) + EA-1.1.1 (selektivní expozice ke "schválené" literatuře). Postupné etablování epistemické závislosti na mentora vede k frequently neproduktivní [epistemické alienaci](/glossary/epistemicka-alienace/). Tento scénář je distinktní od Scénáře H (destruktivní kritika) tím, že **primárně cílí na formování epistemické identity** subjektu spíše než na jeho destabilizaci.
+**Mechanismus**: Kompoziční vzorec "Guru a adept" + EA-1.4.2 (latentní emocionální modulace) + EA-1.1.1 (selektivní expozice ke "schválené" literatuře). Postupné etablování epistemické závislosti na mentora vede k frequently neproduktivní [epistemické alienaci](@/glossary/epistemicka-alienace.md). Tento scénář je distinktní od Scénáře H (destruktivní kritika) tím, že **primárně cílí na formování epistemické identity** subjektu spíše než na jeho destabilizaci.
 
 **Strukturální charakteristiky B**:
 
@@ -172,7 +172,7 @@ Následuje devět scénářů řazených podle **expanze cílové úrovně** —
 
 **Cíl**: Sám sebe — jednotlivec v důsledku pseudo-pokorové internalizace.
 
-**Mechanismus**: Internalizovaná hyperskeptická pozice paralyzující epistemickou autonomii pod záminkou "epistemic humility". Vede k delegování poznání externím autoritám a frequently kulminuje v [metakognitivní destrukci](/glossary/metakognitivni-destrukce/). Tento scénář je distinktní od ostatních tím, že **chybí explicitní externí agent** — manipulace probíhá skrze internalizaci kulturních narativů.
+**Mechanismus**: Internalizovaná hyperskeptická pozice paralyzující epistemickou autonomii pod záminkou "epistemic humility". Vede k delegování poznání externím autoritám a frequently kulminuje v [metakognitivní destrukci](@/glossary/metakognitivni-destrukce.md). Tento scénář je distinktní od ostatních tím, že **chybí explicitní externí agent** — manipulace probíhá skrze internalizaci kulturních narativů.
 
 **Strukturální charakteristiky E**:
 
@@ -573,7 +573,7 @@ Strukturální analýza scénářů A–I umožňuje **forenzní rekonstrukci** 
 - **Replikace krize v sociální psychologii** vykazuje rysy Scénáře F s graduálním zhroucením publikačních standardů
 - **Nicholas Wadeova kniha "A Troublesome Inheritance"** v genetice exemplifikuje Scénář C (mediální delegitimizace odborné komunity)
 
-Tato forenzní aplikace má dvojí hodnotu: validuje taxonomii skrze její aplikabilitu na známé případy a poskytuje pedagogický materiál pro edukativní implementaci popsanou v [Kapitole 3](/kompendium/03-zakladni-kategorie/kapitola-3/).
+Tato forenzní aplikace má dvojí hodnotu: validuje taxonomii skrze její aplikabilitu na známé případy a poskytuje pedagogický materiál pro edukativní implementaci popsanou v [Kapitole 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md).
 
 ## Implikace pro institucionální design
 
@@ -621,29 +621,29 @@ Scénáře epistemické delegitimizace představují sofistikované formy episte
 
 Je důležité zdůraznit, že rozpoznání těchto scénářů neznamená automatickou suspici vůči všem formám epistemické kritiky nebo transformace. Legitimní epistemická evoluce a konstruktivní kritika jsou fundamentální pro zdravý intelektuální rozvoj. Distinktivním znakem delegitimizačních scénářů není přítomnost epistemické výzvy per se, ale **specifické strukturální vzorce, jež systematicky podkopávají epistemickou integritu a autonomii**.
 
-Efektivní navigace komplexního epistemického terénu vyžaduje robustní porozumění těmto procesům spolu s kultivací kognitivních, interpersonálních a institucionálních praktik podporujících epistemickou resilienci. [Kapitola 3](/kompendium/03-zakladni-kategorie/kapitola-3/) detailně specifikuje pokročilý edukativní rámec umožňující kultivaci této resilience.
+Efektivní navigace komplexního epistemického terénu vyžaduje robustní porozumění těmto procesům spolu s kultivací kognitivních, interpersonálních a institucionálních praktik podporujících epistemickou resilienci. [Kapitola 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md) detailně specifikuje pokročilý edukativní rámec umožňující kultivaci této resilience.
 
 ## Související
 
-- [Kapitola 1: Akademické techniky](/kompendium/03-zakladni-kategorie/kapitola-1/) — sister chapter, technické fundamenty
-- [Kapitola 3: Pokročilá edukativní implementace](/kompendium/03-zakladni-kategorie/kapitola-3/) — sister chapter, edukativní rámec
-- [Sekce 02 — Definice](/kompendium/02-uvod/definice/)
+- [Kapitola 1: Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — sister chapter, technické fundamenty
+- [Kapitola 3: Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md) — sister chapter, edukativní rámec
+- [Sekce 02 — Definice](@/kompendium/02-uvod/definice.md)
 - [Sekce 04 — Pokročilé fenomény](/kompendium/04-pokrocile-fenomeny/)
 - [Sekce 05 — Diagnostika](/kompendium/05-diagnostika/)
-- [Sekce 06 — Klinické aplikace](/kompendium/06-klinicke-aplikace/)
+- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Sekce 07 — Prevence](/kompendium/07-prevence/)
 - [Sekce 08 — Etika](/kompendium/08-etika/)
-- [Techniques index](/kompendium/techniques/) — všech 13 EA-1.* hloubkových článků
-- Glosář: [Epistemická anihilace](/glossary/epistemicka-anihilace/), [Kognitivní anihilace](/glossary/kognitivni-anihilace/), [Taxonomie EA](/glossary/taxonomie-ea/), [Anankastický režim](/glossary/anankasticky-rezim/), [Kognitivní anti-rekurzivita](/glossary/kognitivni-anti-rekurzivita/), [Epistemická alienace](/glossary/epistemicka-alienace/), [Ontologická anihilace](/glossary/ontologicka-anihilace/), [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/)
-- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](/glossary/nabla-infinity/), [Color Teams](/glossary/color-teams/)
-- Filozofie: [Intellectual Sovereignty](/philosophy/intellectual-sovereignty/), [Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [Techniques index](@/kompendium/techniques/_index.md) — všech 13 EA-1.* hloubkových článků
+- Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
+- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za
 posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
-[detailním per-technique článku](/kompendium/techniques/) projdi sekci
+[detailním per-technique článku](@/kompendium/techniques/_index.md) projdi sekci
 **Detekční markery** a **Neutralizace**.
 
 > **Mandatorní akce**: bez konkrétního aplikačního kotvení zůstává tato
@@ -656,4 +656,4 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

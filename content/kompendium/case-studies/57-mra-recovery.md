@@ -43,19 +43,19 @@ Exit byl iniciovan konfrontací s dospívající dcerou (16 let), která mu řek
 
 ## EA techniky manifestovane
 
-- [EA-1.4.2 Latentni emocionalni modulace](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/) — bolest rozvodu jako emoční kotva
-- [EA-1.2.2 Falesna ekvivalence](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/) — autentické stížnosti generalizovany na "všechny muže"
-- [EA-1.3.2 Strategicka reinterpretace](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/) — kazda kritika MRA = "feministická manipulace"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1-1-1-selektivni-expozice/) — algoritmické bubliny
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/03-zakladni-kategorie/kapitola-1/) — MRA influenceři jako autority
-- [EA-2.1.2 Pseudo-peer mob](/kompendium/techniques/ea-2-1-2-pseudo-peer-mob/) — MRA komunity
-- [EA-1.2.1 Falesne dilema](/kompendium/techniques/ea-1-2-1-falesne-dilema/) — "buď s námi, nebo proti mužům"
+- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — bolest rozvodu jako emoční kotva
+- [EA-1.2.2 Falesna ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — autentické stížnosti generalizovany na "všechny muže"
+- [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — kazda kritika MRA = "feministická manipulace"
+- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — algoritmické bubliny
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — MRA influenceři jako autority
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — MRA komunity
+- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "buď s námi, nebo proti mužům"
 
 ## Fenomenologicky kurz
 
 V terapii subjekt popisoval: "Dcera mi řekla 'Tati, miluju tě, ale poslouchej, jak mluvíš o ženách. Já jsem žena. Slyšíš, jak o mně mluvíš?' A v tu chvíli jsem viděl, že jsem se stal něčím, co nikdy nechcel."
 
-Tato narace odpovida obnovení [metakognice](/glossary/metakognice/) skrze rodinnou konfrontaci.
+Tato narace odpovida obnovení [metakognice](@/glossary/metakognice.md) skrze rodinnou konfrontaci.
 
 ## Detekcni bod
 
@@ -79,11 +79,11 @@ MRA recovery vyžaduje terapeuta, který může uznat autentické stížnosti ot
 
 ## Cross-linky
 
-- **Sekce 06**: [Klinicke aplikace](/kompendium/06-klinicke-aplikace/), [Diferencialni diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/)
-- **Glossary**: [betrayal-trauma](/glossary/betrayal-trauma/), [epistemicke-trauma](/glossary/epistemicke-trauma/), [metakognitivni-destrukce](/glossary/metakognitivni-destrukce/), [gaslighting](/glossary/gaslighting/)
-- **Techniques**: [EA-1.4.2](/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace/), [EA-1.2.2](/kompendium/techniques/ea-1-2-2-falesna-ekvivalence/), [EA-1.3.2](/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace/), [EA-1.2.1](/kompendium/techniques/ea-1-2-1-falesne-dilema/)
-- **Visualization**: [Recovery trajectory](/kompendium/visualizations/)
-- **Index pripadu**: [Case studies](/kompendium/case-studies/)
+- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
+- **Glossary**: [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [gaslighting](@/glossary/gaslighting.md)
+- **Techniques**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.2.2](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md), [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)
+- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
+- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 
 ---
 

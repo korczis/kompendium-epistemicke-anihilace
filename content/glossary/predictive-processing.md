@@ -38,19 +38,19 @@ Predictive processing supplies the **mechanistic substrate** that makes epistemi
 - **EA-1.1.x cognitive-input techniques** (selective exposure, information overload, source poisoning) operate by **starving or saturating** the prediction-error signal — denying the priors the corrective evidence they need to update.
 - **EA-1.3.x immunization techniques** function by **artificially raising prior precision** so that no incoming evidence can shift them. The victim's belief becomes Bayesian-immune by design.
 - **Gaslighting** (a paradigmatic technique catalogued throughout the kompendium) is precisely **adversarial precision manipulation** of the victim's interoceptive and self-monitoring channels — the victim cannot trust their own perceptions because the precision-weighting of self-generated signal has been collapsed.
-- The [NABLA Infinity](/glossary/nabla-infinity/) epistemic pipeline implements PP-aware defenses: explicit prior tracking, precision auditing, and detection of pathologically immune belief states. See [/glossary/epistemic-pipeline/](/glossary/epistemic-pipeline/) for the 16-level architecture.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/) develops the PP framing as one of three theoretical pillars (alongside phenomenology and critical theory) for understanding why EA is so devastating: it does not merely insert false beliefs, it **rewires the inference machinery itself**.
+- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements PP-aware defenses: explicit prior tracking, precision auditing, and detection of pathologically immune belief states. See [/glossary/epistemic-pipeline/](@/glossary/epistemic-pipeline.md) for the 16-level architecture.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) develops the PP framing as one of three theoretical pillars (alongside phenomenology and critical theory) for understanding why EA is so devastating: it does not merely insert false beliefs, it **rewires the inference machinery itself**.
 - The [Decision Engine](/hub/dd/decisions/) calibration loop is itself a precision-management system — Brier scores and ECE measure how well the platform's priors track reality, providing PP-style accountability.
 
 ## See Also
 
-- [Epistemická anihilace](/glossary/epistemicka-anihilace/) — Phenomenon explained
-- [Kognitivní anihilace](/glossary/kognitivni-anihilace/) — Cognitive-process counterpart
-- [Metakognitivní destrukce](/glossary/metakognitivni-destrukce/) — Reflective-precision damage
-- [NABLA Infinity](/glossary/nabla-infinity/) — Epistemic framework
-- [Epistemic Pipeline](/glossary/epistemic-pipeline/) — 16-level reasoning architecture
-- [Kompendium](/kompendium/) — Full taxonomy
-- [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) — Theoretical foundations
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon explained
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process counterpart
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Reflective-precision damage
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16-level reasoning architecture
+- [Kompendium](@/kompendium/_index.md) — Full taxonomy
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
 
 ---
 
@@ -59,4 +59,4 @@ Predictive processing supplies the **mechanistic substrate** that makes epistemi
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)
+- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)

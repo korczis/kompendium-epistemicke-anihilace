@@ -40,7 +40,7 @@ Pro EA z toho plyne:
 
 Thompson rozvíjí pojem **sense-making**: autopoietický systém **interpretuje** environment v rámci své **vlastní** struktury. Žádný "objektivní" environment **neexistuje** — pouze environment **pro daný systém**.
 
-Tato pozice je strukturálně **enaktivistická** — kompatibilní s Varelou ([viz 7.45](/kompendium/07-teoreticke-reflexe/varela-enactivism/)).
+Tato pozice je strukturálně **enaktivistická** — kompatibilní s Varelou ([viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)).
 
 Pro EA má sense-making **specifický význam**:
 
@@ -85,7 +85,7 @@ Thompson — syn buddhistického učitele Roberta Thompsona — je **angažovan�
 
 Pro EA z toho plyne:
 
-- **Anti-substanční pozice**: subjekt jako **proces**, nikoli entita ([rezonuje s Metzingerem, viz 7.42](/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel/)).
+- **Anti-substanční pozice**: subjekt jako **proces**, nikoli entita ([rezonuje s Metzingerem, viz 7.42](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)).
 - **Buddhistická etika**: redukce utrpení jako **fundamentální** cíl.
 
 ## 6. Kritika strong AI
@@ -113,7 +113,7 @@ Pro EA z toho plyne:
 
 ## 8. Klinický význam
 
-Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
+Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Bio-fenomenologická terapie**: integrace neurovědy a fenomenologie.
 - **Spánek jako klinický fundament**: hygiena spánku nemůže být ignorována.
@@ -129,16 +129,16 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 
 ## Související
 
-- [7. Teoretické reflexe (index)](/kompendium/07-teoreticke-reflexe/)
-- [7.6 Kognitivní vědy](/kompendium/07-teoreticke-reflexe/kognitivni-vedy/)
-- [7.16 Merleau-Ponty: Vtělená percepce](/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce/)
-- [7.40 Friston: Active Inference](/kompendium/07-teoreticke-reflexe/friston-active-inference/)
-- [7.42 Metzinger: Ego Tunnel](/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel/)
-- [7.45 Varela: Enactivism](/kompendium/07-teoreticke-reflexe/varela-enactivism/)
-- [7.36 Damasio: Somatic Marker](/kompendium/07-teoreticke-reflexe/damasio-somatic-marker/)
-- [Glosář: Fenomenologie](/glossary/fenomenologie/)
-- [Glosář: Metakognice](/glossary/metakognice/)
-- [Filozofie: Epistemic Integrity](/philosophy/epistemic-integrity/)
+- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
+- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)
+- [7.40 Friston: Active Inference](@/kompendium/07-teoreticke-reflexe/friston-active-inference.md)
+- [7.42 Metzinger: Ego Tunnel](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)
+- [7.45 Varela: Enactivism](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)
+- [7.36 Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)
+- [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
+- [Glosář: Metakognice](@/glossary/metakognice.md)
+- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ---
 
@@ -147,4 +147,4 @@ Pro klinickou aplikaci ([viz sekce 06](/kompendium/06-klinicke-aplikace/)):
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](/glossary/) | [Philosophy](/philosophy/) | [Developer Portal](/developers/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

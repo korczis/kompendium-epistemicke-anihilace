@@ -31,11 +31,11 @@ The lifeworld is the **deepest stratum of cognition**. It is also therefore the 
 
 ## Context
 
-Within the Prismatic Platform threat model, lifeworld-damage is treated as the **highest severity stratum** in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md). The EA-6.x family — the most severe — operates explicitly at this level: techniques that disrupt the subject's basic sense of *what is real, what is shared, what is taken for granted*. Documentation: [Kompendium → 03-mechanismy → lebenswelt](/kompendium/03-mechanismy/lebenswelt/) and [/kompendium/06-zotaveni/lifeworld/](/kompendium/06-zotaveni/lifeworld/).
+Within the Prismatic Platform threat model, lifeworld-damage is treated as the **highest severity stratum** in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md). The EA-6.x family — the most severe — operates explicitly at this level: techniques that disrupt the subject's basic sense of *what is real, what is shared, what is taken for granted*. Documentation: [Kompendium → 03-mechanismy → lebenswelt](/kompendium/03-zakladni-kategorie/lebenswelt/) and [/kompendium/06-zotaveni/lifeworld/](/kompendium/recovery-protocols/lifeworld/).
 
 Three diagnostic markers of lifeworld-damage drive the platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} severity calibration: (1) **derealization** — the subject reports that *the world itself* has become unreal or thin; (2) **intersubjective collapse** — the subject can no longer assume shared reality with others, including non-adversarial others; (3) **horizon collapse** — the structured background of possibilities flattens into either claustrophobia or vertiginous undifferentiation.
 
-These markers are *not* symptoms in the standard psychiatric sense — they are structural-phenomenological diagnostics that *precede* and *underlie* psychiatric symptomatology. The platform's recovery doctrine prioritizes lifeworld-restoration over symptom-management: stabilizing intersubjective ground (trusted others, shared everyday practices, repetitive embodied activities) before any propositional therapy. This sequencing is documented at [/kompendium/06-zotaveni/sekvence/](/kompendium/06-zotaveni/sekvence/).
+These markers are *not* symptoms in the standard psychiatric sense — they are structural-phenomenological diagnostics that *precede* and *underlie* psychiatric symptomatology. The platform's recovery doctrine prioritizes lifeworld-restoration over symptom-management: stabilizing intersubjective ground (trusted others, shared everyday practices, repetitive embodied activities) before any propositional therapy. This sequencing is documented at [/kompendium/06-zotaveni/sekvence/](/kompendium/recovery-protocols/sekvence/).
 
 ## See Also
 

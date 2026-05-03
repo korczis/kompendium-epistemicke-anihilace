@@ -43,7 +43,7 @@ Within the Prismatic Platform, the hermeneutic framework is operationalized in t
 
 Hermeneutics is also the philosophical complement to [fenomenologie](@/glossary/fenomenologie.md): phenomenology asks how experience is structured for the subject; hermeneutics asks how meaning is constituted across subjects, texts, and history. Both first-person methodologies are essential to EA detection because the data — what manipulation feels like, how a reinterpretation lands — is irreducibly first-personal. The platform's design respects this: subject self-reports are not subordinated to third-person measurement, they are tracked as their own evidence stream.
 
-The framework distinguishes hermeneutics from postmodern relativism. Recognizing that interpretation is unavoidable does not mean all interpretations are equal. Czech-language treatment: [/kompendium/04-mechanismy/hermeneutika/](/kompendium/04-mechanismy/hermeneutika/).
+The framework distinguishes hermeneutics from postmodern relativism. Recognizing that interpretation is unavoidable does not mean all interpretations are equal. Czech-language treatment: [/kompendium/04-mechanismy/hermeneutika/](/kompendium/03-zakladni-kategorie/hermeneutika/).
 
 ## See Also
 

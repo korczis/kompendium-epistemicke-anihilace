@@ -43,7 +43,7 @@ Within the Prismatic Platform, dual-use considerations are operationalized throu
 
 The kompendium frames the alternative — secrecy — as **epistemically self-defeating** in this domain. EA techniques propagate through observation and imitation regardless of publication; what publication adds is the **defensive vocabulary** that allows targets and clinicians to recognize and resist what would otherwise propagate undetected. The asymmetry favors graduated openness: recognition-level material as widely available as the platform's general epistemic literacy work; novelty-level material restricted with audit; offensive operational material tightly controlled and accountable.
 
-Czech-language treatment of the publication-ethics framework: [/kompendium/06-etika/dual-use/](/kompendium/06-etika/dual-use/). See [kompendium EA](@/glossary/kompendium-ea.md) for the broader framing of audience and use.
+Czech-language treatment of the publication-ethics framework: [/kompendium/06-etika/dual-use/](/kompendium/08-prilohy/dual-use/). See [kompendium EA](@/glossary/kompendium-ea.md) for the broader framing of audience and use.
 
 ## See Also
 

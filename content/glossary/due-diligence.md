@@ -483,7 +483,7 @@ The [risk scoring](@/glossary/risk-score.md) engine produces letter grades (A-F)
 
 ### Web Interface
 
-The DD subsystem is accessible at `/dd` in the web application, with investigation tiles available in the [Labs](/labs) dashboard. The LiveView interface supports real-time progress tracking during investigations, interactive graph exploration of ownership structures, and exportable PDF reports.
+The DD subsystem is accessible at `/dd` in the web application, with investigation tiles available in the {{ cross_link(path="/labs/", text="Labs") }} dashboard. The LiveView interface supports real-time progress tracking during investigations, interactive graph exploration of ownership structures, and exportable PDF reports.
 
 ### Triple-Check Validation
 

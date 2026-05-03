@@ -479,7 +479,7 @@ These ethical constraints are enforced through the same mechanisms as the techni
 - [Technologies](@/technologies/_index.md) -- Technology stack details
 - [Capabilities](@/capabilities/_index.md) -- Platform capability catalog
 - [Agents](@/agents/_index.md) -- Full agent catalog including Black Team agents
-- [Security](/security/) -- Security architecture and operations
+- {{ cross_link(path="/security/", text="Security") }} -- Security architecture and operations
 
 ---
 

@@ -40,7 +40,7 @@ Within the Prismatic Platform, phenomenological method is operationalized in thr
 - The [Color Teams](@/glossary/color-teams.md) Blue Team explicitly trains operators to attend to phenomenological signals (the felt-sense indicators of EA-1.4.x emotional modulation, EA-1.3.2 strategic reinterpretation) before structural confirmation. The kompendium documents this as a recurring pattern: subjects feel the EA before they can name it.
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md) and [epistemické trauma](@/glossary/epistemicke-trauma.md) are described in the kompendium primarily in phenomenological terms — they are *modes of givenness* (the world appearing as opaque, the self appearing as untrustworthy) rather than belief-state descriptions.
 
-Phenomenology complements but does not replace third-person methods. The platform's epistemic architecture is **multi-perspectival**: phenomenological self-report, behavioral indicators, source-graph analysis, and calibration scoring are all tracked, and divergence between them is itself a signal. Czech-language treatment: [/kompendium/04-mechanismy/fenomenologie/](/kompendium/04-mechanismy/fenomenologie/).
+Phenomenology complements but does not replace third-person methods. The platform's epistemic architecture is **multi-perspectival**: phenomenological self-report, behavioral indicators, source-graph analysis, and calibration scoring are all tracked, and divergence between them is itself a signal. Czech-language treatment: [/kompendium/04-mechanismy/fenomenologie/](/kompendium/03-zakladni-kategorie/fenomenologie/).
 
 ## See Also
 

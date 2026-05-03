@@ -125,7 +125,7 @@ The Decision Core is implemented in the `prismatic_dd` app under `PrismaticDd.Co
 ## Related Terms
 
 - [Calibration](/glossary/calibration/) - Probability calibration techniques
-- [Uncertainty](/glossary/uncertainty/) - Epistemic vs aleatoric uncertainty
+- [Uncertainty](@/glossary/uncertainty.md) - Epistemic vs aleatoric uncertainty
 - [Determinism](@/glossary/determinism.md) - Reproducible computation
 
 ---

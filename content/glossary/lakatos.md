@@ -19,12 +19,12 @@ status = "stub"
 
 ## Definition
 
-Imre Lakatos' methodology of scientific research programmes refines Popperian [falsifiability](@/glossary/falsifiability.md) by introducing the hard-core / protective-belt distinction: a research programme has a hard core of irrefutable assumptions surrounded by a protective belt of auxiliary hypotheses that absorb falsification. Programme is *progressive* if predictions exceed prior theories, *degenerating* otherwise. Used in Prismatic Kompendium [philosophical-traditions](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) section.
+Imre Lakatos' methodology of scientific research programmes refines Popperian [falsifiability](@/glossary/falsifikovatelnost.md) by introducing the hard-core / protective-belt distinction: a research programme has a hard core of irrefutable assumptions surrounded by a protective belt of auxiliary hypotheses that absorb falsification. Programme is *progressive* if predictions exceed prior theories, *degenerating* otherwise. Used in Prismatic Kompendium [philosophical-traditions](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md) section.
 
 ## See Also
 
 - [Glossary index](@/glossary/_index.md)
-- [Falsifiability](@/glossary/falsifiability.md)
+- [Falsifiability](@/glossary/falsifikovatelnost.md)
 - [Predictive Processing](@/glossary/predictive-processing.md)
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 

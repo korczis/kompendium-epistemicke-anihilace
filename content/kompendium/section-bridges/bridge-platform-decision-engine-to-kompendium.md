@@ -55,7 +55,7 @@ Klíčové koncepty: **DecisionEngine jako technický substrát**, **kompendium 
 - [Kompendium 04 — Terminální](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Kompendium 06 — Klinika](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Glossary: DecisionEngine](@/kompendium/glossary-bridges/bridge-decision-engine.md)
-- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nmnd/)
+- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nm-nd/)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
 - [Case Studies](@/kompendium/case-studies/_index.md)
 - [Visualizations: Decision flow](@/kompendium/visualizations/_index.md)

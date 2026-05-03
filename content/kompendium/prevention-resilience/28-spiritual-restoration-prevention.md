@@ -58,7 +58,7 @@ Osoby po spiritual abuse, religious trauma, ex-cult members, duchovní, spiritua
 ## Cross-linky
 
 - [Blog](@/blog/_index.md)
-- [CER program](/cer/)
+- {{ cross_link(path="/cer/", text="CER program") }}
 - [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)

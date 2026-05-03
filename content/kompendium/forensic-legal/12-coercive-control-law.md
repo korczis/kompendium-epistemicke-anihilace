@@ -85,5 +85,5 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Prismatic Platform](/) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](@/academy/_index.md) — vzdelavaci modul
-- [Investigation Hub](/investigate/) — vysetrovaci nastroje
+- {{ cross_link(path="/investigate/", text="Investigation Hub") }} — vysetrovaci nastroje
 

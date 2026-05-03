@@ -168,7 +168,7 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální stav je nutným prerekvizitem.
 - **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální jádro nepřenositelnostního rámce.
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)** — typická sociální architektura.
+- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — typická sociální architektura.
 
 ### Eskaluje do
 

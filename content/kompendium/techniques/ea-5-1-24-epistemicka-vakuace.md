@@ -168,7 +168,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 ### Často se kombinuje s
 
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — afektivní vazba k operátorovi je psychologickým motorem akceptace nabízené struktury.
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)** — vakuace produkuje strukturální vakuum, jež guru zaplní.
+- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — vakuace produkuje strukturální vakuum, jež guru zaplní.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — externí zdroje, jež by destabilizaci kompenzovaly, jsou ze subjektova horizontu odstraněny.
 
 ### Návazné techniky

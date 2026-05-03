@@ -66,7 +66,7 @@ Obce, městské části, sdružení, církve, dobrovolnické organizace, samospr
 - [Cross-domain](@/kompendium/cross-domain/_index.md)
 - [Glosář](@/glossary/_index.md)
 - [Blog](@/blog/_index.md)
-- [CER program](/cer/)
+- {{ cross_link(path="/cer/", text="CER program") }}
 - [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md)
 - [Školní prevence EA](@/kompendium/prevention-resilience/2-school-based-prevention.md)

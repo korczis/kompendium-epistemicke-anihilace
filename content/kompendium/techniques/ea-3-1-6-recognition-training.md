@@ -127,7 +127,7 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 
 - **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — evaluační metriky a kompetenční assessmenty mohou využívat decision engine pro tracking longitudinálního vývoje studentů s confidence calibration.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
-- **[Color Teams](/aiad/color-teams/)** — supervize může využívat color-team metodologii (Red Team challenges, Blue Team defenses) pro praktická cvičení.
+- **{{ cross_link(path="/aiad/color-teams/", text="Color Teams") }}** — supervize může využívat color-team metodologii (Red Team challenges, Blue Team defenses) pro praktická cvičení.
 - **{{ cross_link(path="/osint/toolbox/", text="OSINT framework") }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
 ## Související

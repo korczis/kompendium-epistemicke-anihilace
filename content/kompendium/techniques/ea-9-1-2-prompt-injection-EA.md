@@ -149,7 +149,7 @@ Prismatic Platform implementuje detekci a neutralizaci Prompt Injection EA přes
 **Doktrinální a infrastructure odkazy:**
 
 - [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- [Nabla Infinity Engine](/nabla/)
+- {{ cross_link(path="/nabla/", text="Nabla Infinity Engine") }}
 - {{ cross_link(path="/osint/toolbox/", text="OSINT Toolbox") }}
 - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 
@@ -157,7 +157,7 @@ Prismatic Platform implementuje detekci a neutralizaci Prompt Injection EA přes
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](/license/)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under {{ cross_link(path="/license/", text="GHL") }}
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
 - [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](@/developers/_index.md)

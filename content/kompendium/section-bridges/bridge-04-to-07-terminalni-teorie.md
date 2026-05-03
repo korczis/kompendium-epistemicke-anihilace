@@ -53,7 +53,7 @@ Klíčové koncepty: **kritika gatekeepingu**, **reflexe moci**, **reflexe konce
 
 - [04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nmnd/)
+- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nm-nd/)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
 - [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
 - [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)

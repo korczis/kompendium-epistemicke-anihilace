@@ -88,8 +88,8 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 - [Glosář: Predictive processing](/glossary/predictive-processing/)
 - [Glosář: Power-knowledge](/glossary/power-knowledge/)
 - [Glosář: Lakatos research program](/glossary/lakatos/)
-- [Platforma: Decision Engine](/decisions/)
-- [Platforma: Investigate](/investigate/)
+- {{ cross_link(path="/decisions/", text="Platforma: Decision Engine") }}
+- {{ cross_link(path="/investigate/", text="Platforma: Investigate") }}
 - {{ cross_link(path="/osint/toolbox/", text="Platforma: OSINT Toolbox") }}
 
 ---
@@ -98,7 +98,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 
 Chcete tuto reflexi aplikovat na konkrétní případ?
 
-- [Spusťte vyšetření](/investigate/) — Decision Engine s podporou epistemické kalibrace.
+- {{ cross_link(path="/investigate/", text="Spusťte vyšetření") }} — Decision Engine s podporou epistemické kalibrace.
 - [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
 - [Glosář pojmů](/glossary/) — definice klíčových termínů napříč EA.
 

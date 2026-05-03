@@ -77,7 +77,7 @@ Tato sekce aplikuje klasický public-health framework prevence (primární / sek
 - [Quick reference](@/kompendium/quick-reference/_index.md)
 - [Glosář](@/glossary/_index.md)
 - [Blog](@/blog/_index.md)
-- [CER](/cer/)
+- {{ cross_link(path="/cer/", text="CER") }}
 
 ---
 

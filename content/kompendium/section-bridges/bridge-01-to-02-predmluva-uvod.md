@@ -58,7 +58,7 @@ Klíčové koncepty na rozhraní: **threshold reading**, **informed consent**, *
 - [Bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Klinická etika](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Quick Reference: Etika](@/kompendium/quick-reference/_index.md)
-- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nmnd/)
+- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nm-nd/)
 
 ---
 

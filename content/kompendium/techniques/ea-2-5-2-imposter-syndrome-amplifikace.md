@@ -102,5 +102,5 @@ Prismatic Platform poskytuje pro detekci a analýzu této techniky následujíc�
 ## Connect
 
 - **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](/glossary/)
-- **Platforma**: [Decision Engine](/decisions/) | [OSINT Toolbox](@/osint/_index.md) | [Nabla](/nabla/)
+- **Platforma**: {{ cross_link(path="/decisions/", text="Decision Engine") }} | [OSINT Toolbox](@/osint/_index.md) | {{ cross_link(path="/nabla/", text="Nabla") }}
 - **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [[e-mail odstraněn]](mailto:[e-mail odstraněn])

@@ -59,7 +59,7 @@ Osoby po EA, komunitní organizace, samosprávy, NGO, peer specialisté.
 
 - [Glosář](@/glossary/_index.md)
 - [Blog](@/blog/_index.md)
-- [CER program](/cer/)
+- {{ cross_link(path="/cer/", text="CER program") }}
 - [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
 - [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)

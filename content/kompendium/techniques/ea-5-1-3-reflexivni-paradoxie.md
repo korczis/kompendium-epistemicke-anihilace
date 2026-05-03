@@ -223,7 +223,7 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
 - **Příbuzné akademické techniky**:
   - [EA-1.2.1 Argumentační oslabení](/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni/)
   - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
-  - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-guru-a-adept/)
+  - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)

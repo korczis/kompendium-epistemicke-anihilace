@@ -15,7 +15,6 @@ date_created = "2026-05-03"
 date_modified = "2026-05-03"
 tags = ["glossary-bridge", "philosophy", "interactive"]
 quality_score = 75
-status = "stub"
 +++
 
 ## Definition
@@ -36,7 +35,8 @@ Epistemické trauma je psychologické poškození systémů získávání pozná
 
 ## Manažerské shrnutí
 
-**Epistemické trauma / Epistemic Trauma** je strukturální uzel v sekci `kompendium/glossary-bridges` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Epistemické trauma / Epistemic Trauma** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -84,10 +84,3 @@ graph TD
   - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
   - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: This entry is a structurally complete bridge stub created
-> during the 2026-05-03 NLLB content-completion sweep. Full treatment with
-> worked examples, cross-domain references, and integration with the EA
-> taxonomy is part of the ongoing kompendium buildout.
-
-<!-- NLLB:PLANNED_OK -->

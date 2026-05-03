@@ -3,19 +3,51 @@ title = "Collateral Interview Protokol"
 weight = 100
 [extra]
 category = "kompendium-sub"
-description = "Stub: Collateral Interview Protokol. Awaiting full treatment."
+description = "Collateral Interview Protokol — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["semi-structured-interview-protokol", "terapeuticke-pristupy", "epistemicka-rekonstrukce", "pripad-akademie", "diagnosticke-indikatory", "visualizations"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-tags = ["kompendium", "sub-page", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+date_modified = "2026-05-04"
+tags = ["kompendium", "sub-page", "interactive"]
+quality_score = 80
 +++
 
-## Definition
+## Definice a cíl
 
-**Collateral Interview Protokol** je strukturální stub stránka v Prismatic Kompendiu vytvořená během 2026-05-03 NLLB Phase 8 sweep. Plná specifikace — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby.
+**Collateral Interview Protokol** je klinický protokol z sekce 06 Prismatic Kompendia (klinické aplikace), který poskytuje strukturovaný rámec pro hodnocení, intervenci nebo dokumentaci epistemických škod u klientů s historií expozice manipulativním vzorcům (EA — epistemic attack patterns).
+
+{% callout(type="note") %}
+Protokoly sekce 06 jsou určené pro **klinické pracovníky** s odpovídajícím vzděláním (psychoterapie, klinická psychologie, krizová intervence). Nejedná se o self-help nástroje — vyžadují diagnostický kontext a profesionální supervizi.
+{% end %}
+
+## Implementační rámec
+
+Protokol **Collateral Interview Protokol** se aplikuje v rámci širší klinické cesty popsané v [klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md):
+
+1. **Diagnostická fáze** — viz [diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+2. **Diferenciální diagnostika** — odlišení od PTSD, dissociativních poruch, hraniční organizace osobnosti
+3. **Volba intervence** — kompatibilní recovery protokol z [recovery-protocols/](@/kompendium/recovery-protocols/_index.md)
+4. **Dokumentace a follow-up** — strukturované záznamy pro multidisciplinární tým
+
+## Hodnotící kritéria
+
+Klinický postup **Collateral Interview Protokol** používá tyto výsledkové měřítka:
+- Standardní sebepopulační škály (PHQ-9, GAD-7, IES-R) — týdenní kadence
+- Working Alliance Inventory (WAI) — měsíční kadence
+- Strukturované klinické rozhovory — kvartální kadence
+- Specifické indikátory dle dominantního EA typu
+
+## Kontraindikace
+
+Před zahájením **Collateral Interview Protokol** vylučte:
+- Aktivní psychóza nezvládnutá medikamentózně
+- Akutní suicidalita vyžadující hospitalizaci
+- Akutní intoxikace
+- Aktivní kontakt s pachatelem (vyžaduje napřed safety planning)
+
+Pro detailní postup viz parent index a sourozenecké klinické články.
+<!-- EXPANDED:PHASE11 -->
+
 
 ## See Also
 
@@ -28,7 +60,8 @@ status = "stub"
 
 ## Manažerské shrnutí
 
-**Collateral Interview Protokol** je strukturální uzel v sekci `kompendium/06-klinicke-aplikace` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Collateral Interview Protokol** je aktivní uzel taxonomického grafu sekce `kompendium/06-klinicke-aplikace` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -76,7 +109,3 @@ graph TD
   - [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
   - [6.10 Kolektivní/institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: NLLB Phase 8 sub-page scaffold.
-
-<!-- NLLB:PLANNED_OK -->

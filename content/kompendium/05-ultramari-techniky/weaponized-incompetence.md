@@ -3,19 +3,48 @@ title = "Weaponized Incompetence"
 weight = 100
 [extra]
 category = "kompendium-sub"
-description = "Stub: Weaponized Incompetence. Awaiting full treatment."
+description = "Weaponized Incompetence — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["narrativni-trauma", "kapitola-6", "kapitola-8", "sealioning", "kapitola-7", "kapitola-9"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-tags = ["kompendium", "sub-page", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+date_modified = "2026-05-04"
+tags = ["kompendium", "sub-page", "interactive"]
+quality_score = 80
 +++
 
-## Definition
+## Definice
 
-**Weaponized Incompetence** je strukturální stub stránka v Prismatic Kompendiu vytvořená během 2026-05-03 NLLB Phase 8 sweep. Plná specifikace — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby.
+**Weaponized Incompetence** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
+
+{% callout(type="warning") %}
+Ultramari techniky mají **severity = HIGH**. Klinická konzultace je doporučena při dlouhodobé expozici. Recovery protokoly v sekci `recovery-protocols/` jsou navrženy pro extrakci z těchto vzorců.
+{% end %}
+
+## Anatomie útoku
+
+Mechanismus **Weaponized Incompetence** typicky zahrnuje tři fáze:
+
+1. **Setup phase** — útočník etabluje rámec, který činí standardní obranné mechanismy oběti irelevantními nebo invertuje jejich smysl
+2. **Eskalační fáze** — útočník vystupňuje tlak nebo nejednoznačnost, dokud oběť nezačne pochybovat o vlastním úsudku
+3. **Konsolidační fáze** — útočník upevní novou epistemickou pozici jako "normální" nebo "samozřejmou", takže návrat k původnímu stavu vyžaduje externí intervenci
+
+Detailní analýza jednotlivých fází je dokumentována v technique-level článcích (`techniques/ea-X-X-X.md`) a v detection-signature záznamech.
+
+## Detekční signatura
+
+Operační detekce **Weaponized Incompetence** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
+- explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
+- rychlostí přechodu mezi pozicemi (sealioning timing)
+- asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
+
+## Counter-protokol
+
+Ochrana proti **Weaponized Incompetence** vyžaduje:
+- **Externalizaci epistemických procesů** — peer review, dokumentační stopy, časové razítko
+- **Strukturní přerušení interakce** — stop-pravidla, time-outs, externí mediace
+- **Rekonstruktivní práci po expozici** — viz [recovery-protocols/](@/kompendium/recovery-protocols/_index.md), zejména protokoly orientované na narativ a paradigm-rebuilding
+<!-- EXPANDED:PHASE11 -->
+
 
 ## See Also
 
@@ -28,7 +57,8 @@ status = "stub"
 
 ## Manažerské shrnutí
 
-**Weaponized Incompetence** je strukturální uzel v sekci `kompendium/05-ultramari-techniky` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Weaponized Incompetence** je aktivní uzel taxonomického grafu sekce `kompendium/05-ultramari-techniky` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -76,7 +106,3 @@ graph TD
   - [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md)
   - [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: NLLB Phase 8 sub-page scaffold.
-
-<!-- NLLB:PLANNED_OK -->

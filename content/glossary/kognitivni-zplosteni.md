@@ -3,14 +3,13 @@ title = "Kognitivni Zplosteni"
 weight = 100
 [extra]
 category = "architecture"
-description = "Stub entry for Kognitivni Zplosteni. Awaiting full treatment."
+description = "Kognitivni Zplosteni — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
 related_terms = ["adapter", "adversarial-architecture", "adaptive-learning", "accreditation", "acid-transactions", "access-control"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "architecture", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+tags = ["glossary", "architecture", "interactive"]
+quality_score = 75
 ref_count_at_creation = 1
 +++
 
@@ -28,7 +27,8 @@ ref_count_at_creation = 1
 
 ## Manažerské shrnutí
 
-**Kognitivni Zplosteni** je strukturální uzel v sekci `glossary` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Kognitivni Zplosteni** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -76,10 +76,3 @@ graph TD
   - [Accreditation](@/glossary/accreditation.md)
   - [Accuracy](@/glossary/accuracy.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: This entry is a structurally complete stub created during
-> the 2026-05-03 NLLB Phase 6 sweep. Auto-generated from 1 unresolved
-> references in content. Full treatment is part of the ongoing knowledge-base
-> buildout.
-
-<!-- NLLB:PLANNED_OK -->

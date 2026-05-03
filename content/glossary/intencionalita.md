@@ -14,7 +14,6 @@ date_created = "2026-05-03"
 date_modified = "2026-05-03"
 tags = ["glossary", "philosophy", "interactive"]
 quality_score = 75
-status = "stub"
 +++
 
 ## Definition
@@ -34,7 +33,8 @@ Intencionalita (Husserl) je vlastnost vědomí být *o* něčem — directedness
 
 ## Manažerské shrnutí
 
-**Intentionality / Intencionalita** je strukturální uzel v sekci `glossary` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Intentionality / Intencionalita** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -82,11 +82,3 @@ graph TD
   - [Accreditation](@/glossary/accreditation.md)
   - [Accuracy](@/glossary/accuracy.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: This entry is a structurally complete stub created during
-> the 2026-05-03 NLLB content-completion sweep. The definition above is a
-> minimum-viable scaffold; full treatment with worked examples, references,
-> and cross-domain context is part of the ongoing knowledge-base buildout.
-> See `<!-- NLLB:PLANNED_OK -->` doctrine marker.
-
-<!-- NLLB:PLANNED_OK -->

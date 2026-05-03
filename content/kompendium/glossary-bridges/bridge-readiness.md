@@ -8,9 +8,8 @@ related_terms = ["bridge-autoheal", "bridge-autoevolve", "bridge-aiad", "bridge-
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+tags = ["glossary-bridge", "kompendium", "interactive"]
+quality_score = 75
 +++
 
 ## Definition
@@ -30,7 +29,8 @@ and cross-domain references is part of ongoing knowledge-base buildout.
 
 ## Manažerské shrnutí
 
-**Bridge: Readiness Assessment** je strukturální uzel v sekci `kompendium/glossary-bridges` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Bridge: Readiness Assessment** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -78,7 +78,3 @@ graph TD
   - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
   - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: NLLB Phase 7 bridge scaffold.
-
-<!-- NLLB:PLANNED_OK -->

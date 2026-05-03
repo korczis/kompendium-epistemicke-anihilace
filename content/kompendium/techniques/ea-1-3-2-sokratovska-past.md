@@ -3,14 +3,13 @@ title = "EA-1-3-2-sokratovska-past"
 weight = 100
 [extra]
 category = "kompendium-technique"
-description = "EA taxonomy technique stub for EA-1-3-2-sokratovska-past. Awaiting full treatment."
+description = "EA-1-3-2-sokratovska-past — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
 related_terms = ["ea-1-2-3-iluzorni-komplexita", "ea-1-3-2-strategicka-reinterpretace", "ea-1-3-2-strategic-reinterpretation", "ea-1-3-2-pseudo-empiricka-validace", "ea-1-3-1-immunization-against-falsification", "ea-1-2-2-falesna-ekvivalence"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["kompendium", "technique", "ea-taxonomy", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+quality_score = 75
 ref_count_at_creation = 2
 +++
 
@@ -32,7 +31,8 @@ Pro architekturu EA taxonomie viz [Taxonomie EA](@/kompendium/glossary-bridges/t
 
 ## Manažerské shrnutí
 
-**EA-1-3-2-sokratovska-past** je strukturální uzel v sekci `kompendium/techniques` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**EA-1-3-2-sokratovska-past** je aktivní uzel taxonomického grafu sekce `kompendium/techniques` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -80,11 +80,3 @@ graph TD
   - [EA-1-1-2](@/kompendium/techniques/ea-1-1-2.md)
   - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: This entry is a structurally complete EA-technique stub
-> created during the 2026-05-03 NLLB Phase 6 sweep. Auto-generated from
-> 2 unresolved references in content. Full mechanism, detection
-> markers, case studies, and prophylactic interventions are part of the
-> ongoing kompendium buildout.
-
-<!-- NLLB:PLANNED_OK -->

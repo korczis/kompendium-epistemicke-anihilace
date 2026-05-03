@@ -3,19 +3,49 @@ title = "Epistemicka Kalibrace"
 weight = 100
 [extra]
 category = "kompendium-sub"
-description = "Stub: Epistemicka Kalibrace. Awaiting full treatment."
+description = "Epistemicka Kalibrace — pojem v sekci kompendium/detection-signatures znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["12-behavioral-gaslighting-pattern", "1-linguistic-jargon-density", "17-network-source-monoculture", "18-network-citation-circularity", "22-network-narrative-injection", "2-linguistic-circular-definitions"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-tags = ["kompendium", "sub-page", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+date_modified = "2026-05-04"
+tags = ["kompendium", "sub-page", "interactive"]
+quality_score = 80
 +++
 
-## Definition
+## Definice signatury
 
-**Epistemicka Kalibrace** je strukturální stub stránka v Prismatic Kompendiu vytvořená během 2026-05-03 NLLB Phase 8 sweep. Plná specifikace — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby.
+**Epistemicka Kalibrace** je detekční signatura ze sekce `detection-signatures/` Prismatic Kompendia. Signatury slouží jako diagnostické markery pro identifikaci konkrétních epistemických útoků (EA-techniques) v reálném čase nebo retrospektivně z transkriptů, dokumentace nebo klinického rozhovoru.
+
+{% callout(type="info") %}
+Detection signatures jsou **interpretační nástroje**, ne deterministické testy. Pozitivní marker zvyšuje pravděpodobnost EA, ale vyžaduje korelaci s dalšími signaturami a klinickým kontextem.
+{% end %}
+
+## Lingvistické a behaviorální markery
+
+Signatura **Epistemicka Kalibrace** se opírá o pozorovatelné prvky:
+
+1. **Lingvistické markery** — specifické slovní vzorce, přechody mezi pozicemi, asymetrie důkazních standardů
+2. **Behaviorální markery** — načasování, opakovanost, eskalační vzorce
+3. **Sítové markery** — koordinace mezi více aktéry, simultánní vstupy
+4. **Fenomenologické markery** — subjektivní pocity oběti (zmatek, regresivní pochybnost, ztráta jistoty)
+
+Detailní katalog markerů je v sourozeneckých signature článcích a v navazujících technique-level článcích sekce `techniques/`.
+
+## Diferenciální rozlišení
+
+**Epistemicka Kalibrace** musí být odlišena od:
+- Legitimního filozofického dialogu (kde diskuse je v dobré víře)
+- Klinických příznaků (kde podobné jevy vznikají z patologie, ne z útoku)
+- Kulturních rozdílů v argumentačních normách
+
+## Klinická aplikace
+
+Identifikace signatury **Epistemicka Kalibrace** v klinickém kontextu vede k:
+- Volbě odpovídajícího recovery protokolu z [recovery-protocols/](@/kompendium/recovery-protocols/_index.md)
+- Diferenciální diagnostice oproti komorbidním stavům
+- Bezpečnostním plánování pokud je oběť stále v kontaktu s pachatelem
+<!-- EXPANDED:PHASE11 -->
+
 
 ## See Also
 
@@ -28,7 +58,8 @@ status = "stub"
 
 ## Manažerské shrnutí
 
-**Epistemicka Kalibrace** je strukturální uzel v sekci `kompendium/detection-signatures` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Epistemicka Kalibrace** je aktivní uzel taxonomického grafu sekce `kompendium/detection-signatures` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -76,7 +107,3 @@ graph TD
   - [Detekční signatura: Gaslighting vzorec](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md)
   - [Detekční signatura: Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: NLLB Phase 8 sub-page scaffold.
-
-<!-- NLLB:PLANNED_OK -->

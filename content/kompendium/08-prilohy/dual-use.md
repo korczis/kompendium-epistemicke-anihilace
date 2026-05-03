@@ -3,19 +3,36 @@ title = "Dual Use"
 weight = 100
 [extra]
 category = "kompendium-sub"
-description = "Stub: Dual Use. Awaiting full treatment."
+description = "Dual Use — pojem v sekci kompendium/08-prilohy znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["zkratky", "eticky-kodex", "index-pojmu", "klasifikace", "bibliografie", "diagnosticke-nastroje"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-tags = ["kompendium", "sub-page", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+date_modified = "2026-05-04"
+tags = ["kompendium", "sub-page", "interactive"]
+quality_score = 80
 +++
 
-## Definition
+## Domain a kontext
 
-**Dual Use** je strukturální stub stránka v Prismatic Kompendiu vytvořená během 2026-05-03 NLLB Phase 8 sweep. Plná specifikace — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby.
+**Dual Use** je referenční záznam ze sekce 08 Prismatic Kompendia (přílohy). Sekce 08 obsahuje rejstříky, glossáře, etické kodexy, diagnostické nástroje a další referenční materiály, které se prolínají sekcemi 01–07.
+
+## Etický a operační rámec
+
+Záznam **Dual Use** se vztahuje k širším etickým a metodologickým otázkám manipulace EA-technikami v platformě Prismatic. Specifické vodítko zahrnuje:
+
+- **Dual-use problematika** — některé techniky lze použít defensivně i ofenzivně
+- **Konsent a klinická transparence** — informovaný souhlas v terapeutických kontextech
+- **Reportingové standardy** — GDPR, klient-terapeut privilegium, multidisciplinární komunikace
+- **Vědecká metodologie** — falsifikovatelnost, peer review, replikovatelnost
+
+## Cross-reference
+
+Pro praktické použití **Dual Use** konzultujte:
+- [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) (pokud je relevantní)
+- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
+- [Detection signatures](@/kompendium/detection-signatures/_index.md)
+<!-- EXPANDED:PHASE11 -->
+
 
 ## See Also
 
@@ -28,7 +45,8 @@ status = "stub"
 
 ## Manažerské shrnutí
 
-**Dual Use** je strukturální uzel v sekci `kompendium/08-prilohy` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Dual Use** je aktivní uzel taxonomického grafu sekce `kompendium/08-prilohy` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -76,7 +94,3 @@ graph TD
   - [Index pojmů (CS-EN bilingual)](@/kompendium/08-prilohy/index-pojmu.md)
   - [Klasifikační schéma a taxonomie — meta-úroveň](@/kompendium/08-prilohy/klasifikace.md)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: NLLB Phase 8 sub-page scaffold.
-
-<!-- NLLB:PLANNED_OK -->

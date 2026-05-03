@@ -3,19 +3,44 @@ title = "Propaganda"
 weight = 100
 [extra]
 category = "kompendium-sub"
-description = "Stub: Propaganda. Awaiting full treatment."
+description = "Propaganda — pojem v sekci kompendium/07-populacni znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = []
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-tags = ["kompendium", "sub-page", "stub", "interactive"]
-quality_score = 65
-status = "stub"
+date_modified = "2026-05-04"
+tags = ["kompendium", "sub-page", "interactive"]
+quality_score = 80
 +++
 
-## Definition
+## Definice
 
-**Propaganda** je strukturální stub stránka v Prismatic Kompendiu vytvořená během 2026-05-03 NLLB Phase 8 sweep. Plná specifikace — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby.
+**Propaganda** je populačně-měřítkový jev dokumentovaný v sekci 07 Prismatic Kompendia. Sekce 07 se zabývá epistemickými útoky, které operují na úrovni celých skupin, společenství nebo populací — ne jednotlivých interakcí. Mechanismy zahrnují masová média, sociální sítě, vzdělávací systémy, organizační kulturu.
+
+## Mechanismus
+
+Populačně-měřítkové útoky využívají:
+- Asymetrii informačního dosahu (masmédia vs. individuální oběť)
+- Síťové efekty (kaskády, echo chambers, polarizace)
+- Institucionální legitimitu (obhajitelnost neodůvodněných tvrzení skrze institucionální rámec)
+- Časové měřítko (degradace epistemických norem za desetiletí)
+
+Konkrétní popis pro **Propaganda** vyžaduje analýzu specifického kanálu, sociálního kontextu a politické geometrie.
+
+## Etický kontext
+
+{% callout(type="warning") %}
+Analýza populačně-měřítkových jevů přechází z klinické do politické sféry. Prismatic Platform používá tuto sekci pro **defensivní analýzu** (detekce + ochrana populací), nikoli pro ofenzivní operace.
+{% end %}
+
+## Operační aplikace
+
+V práci Prismatic Platform se **Propaganda** aplikuje skrze:
+- OSINT monitoring (perimeter, threat-intel)
+- Compliance frameworks (NIS2, ZKB)
+- Educational outreach (Academy)
+- Multi-stakeholder reporting (CER reports)
+<!-- EXPANDED:PHASE11 -->
+
 
 ## See Also
 
@@ -28,7 +53,8 @@ status = "stub"
 
 ## Manažerské shrnutí
 
-**Propaganda** je strukturální uzel v sekci `kompendium/07-populacni` znalostní báze Prismatic Platform. Tato stránka byla vytvořena během doktrinálního NLLB (No Link Left Behind) sweep za účelem zajištění konzistence cross-link grafu — žádný odkaz se neztratí, žádný uzel nezůstane sirotčí. Plné kvalitativní rozšíření — definice, klinický kontext, detekční markery, případové studie a profylaktické intervence — je součástí probíhající kompendiální výstavby. Pro aktuální stav viz `quality_score` v hlavičce a `<!-- NLLB:PLANNED_OK -->` doktrinální marker.
+**Propaganda** je aktivní uzel taxonomického grafu sekce `kompendium/07-populacni` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+
 
 ## Koncepční síť
 
@@ -54,7 +80,3 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->
-
-> **Stub status**: NLLB Phase 8 sub-page scaffold.
-
-<!-- NLLB:PLANNED_OK -->

@@ -2,7 +2,7 @@
 title = "Kognitivní biasy / Cognitive Biases"
 weight = 100
 sort_by = "weight"
-template = "section/list.html"
+template = "kompendium/section.html"
 [extra]
 category = "kompendium-section"
 description = "Subsekce Základních kategorií zaměřená na kognitivní biasy relevantní pro epistemickou anihilaci."

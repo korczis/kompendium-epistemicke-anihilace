@@ -2,7 +2,7 @@
 title = "Populační rovina / Population-level Phenomena"
 weight = 70
 sort_by = "weight"
-template = "section/list.html"
+template = "kompendium/section.html"
 [extra]
 category = "kompendium-section"
 description = "Kompendiální sekce zaměřená na populační epistemické fenomény — propaganda, masová delegitimizace, kolektivní paměť, generačně přenášené kognitivní vzorce."

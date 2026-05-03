@@ -45,7 +45,7 @@ Within the Prismatic Platform, Lakatos's distinction is operationalized as a **c
 - The [Color Teams](@/glossary/color-teams.md) Red Team explicitly seeds platform reasoning with degenerative-shift patterns to verify that the content-delta gating intercepts them before they harden into [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md).
 - The complement is the **honest hard-core declaration**: the platform requires explicit identification of which beliefs are core (not subject to single-evidence revision) versus belt (revisable). Concealed hard cores — beliefs that *behave* as hard core while being *presented* as evidence-driven — are a documented EA pattern.
 
-The MSRP framework also clarifies why naïve falsificationism fails as a defense: any practitioner can rescue a theory by belt-revision, and the question is not *whether* a rescue is permitted but *what kind* of rescue. The Decision Engine therefore does not flag rescue per se — it flags rescues whose track record is degenerative. Czech-language treatment: [/kompendium/04-mechanismy/lakatos/](/kompendium/03-zakladni-kategorie/lakatos/).
+The MSRP framework also clarifies why naïve falsificationism fails as a defense: any practitioner can rescue a theory by belt-revision, and the question is not *whether* a rescue is permitted but *what kind* of rescue. The Decision Engine therefore does not flag rescue per se — it flags rescues whose track record is degenerative. Czech-language treatment: [/kompendium/04-mechanismy/lakatos/](@/kompendium/03-zakladni-kategorie/lakatos.md).
 
 ## See Also
 

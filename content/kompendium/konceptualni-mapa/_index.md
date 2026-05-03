@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Tato sekce obsahuje konceptuální mapu klíčových pojmů, vztahů a doménových přechodů v doktríně epistemické anihilace. Materiál je v rekonstrukci — sekce slouží jako navigační uzel, plný obsah viz [Glossary](/glossary/) a [Glossary Bridges](/kompendium/glossary-bridges/).
+Tato sekce obsahuje konceptuální mapu klíčových pojmů, vztahů a doménových přechodů v doktríně epistemické anihilace. Materiál je v rekonstrukci — sekce slouží jako navigační uzel, plný obsah viz [Glossary](@/glossary/_index.md) a [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).

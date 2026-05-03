@@ -334,7 +334,7 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
-- [Anihilační fenomény](/glossary/anihilacni-fenomeny/)
+- [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ### Platforma

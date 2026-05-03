@@ -64,7 +64,7 @@ Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství
 - **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Detailní článek**: [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
 - **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
-- **Glossary**: [Sémantická afázie](/glossary/semanticka-afazie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Newspeak](/glossary/newspeak/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Sémantická afázie](@/glossary/semanticka-afazie.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Newspeak](@/glossary/newspeak.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Lingvistická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine sémantická vrstva") }}, [Glossary canonical](@/glossary/_index.md)
 

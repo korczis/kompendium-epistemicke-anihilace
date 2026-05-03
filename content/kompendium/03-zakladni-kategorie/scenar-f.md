@@ -25,7 +25,7 @@ Scénář kolektivní epistemické delegitimizace reprezentuje **systematický p
 
 ### Co je epistemická komunita
 
-[Epistemická komunita](/glossary/epistemicka-komunita/) je sociální entita charakterizovaná:
+[Epistemická komunita](@/glossary/epistemicka-komunita.md) je sociální entita charakterizovaná:
 
 - **Sdílené epistemické standardy** — implicitní i explicitní pravidla pro hodnocení tvrzení
 - **Distribuovaná autorita** — uznávaní experti, jejichž posouzení váží více než průměrné mínění
@@ -354,9 +354,9 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 
 ### Glosář
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
-- [Epistemická komunita](/glossary/epistemicka-komunita/)
+- [Epistemická komunita](@/glossary/epistemicka-komunita.md)
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
-- [Anihilační fenomény](/glossary/anihilacni-fenomeny/)
+- [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 

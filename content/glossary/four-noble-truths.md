@@ -36,7 +36,7 @@ A related structural feature: the third truth (*nirodha*) is non-trivial. It blo
 
 ## Context
 
-Within the Prismatic Platform, the Four Noble Truths structure is referenced not as religious content but as a **comparative diagnostic framework** in [Kompendium → 06-zotaveni → ramce](/kompendium/recovery-protocols/ramce/), alongside Aristotelian *eudaimonia*, Stoic *prosochē*, and CBT/ACT therapeutic schemas. The cross-traditional comparison serves a specific purpose: identifying the **invariant features** of any credible epistemic-damage recovery framework.
+Within the Prismatic Platform, the Four Noble Truths structure is referenced not as religious content but as a **comparative diagnostic framework** in [Kompendium → 06-zotaveni → ramce](@/kompendium/recovery-protocols/ramce.md), alongside Aristotelian *eudaimonia*, Stoic *prosochē*, and CBT/ACT therapeutic schemas. The cross-traditional comparison serves a specific purpose: identifying the **invariant features** of any credible epistemic-damage recovery framework.
 
 Three invariants emerge across all traditions: (1) **diagnostic specificity** — name the damage precisely; (2) **causal etiology** — identify mechanism, not just symptom; (3) **path specification** — make the recovery protocol enumerable, repeatable, and falsifiable. The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} recovery-tracking logic enforces all three: a "recovery plan" without enumerated steps fails validation.
 

@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Filozofické tradice relevantní pro doktrínu EA. Plný materiál viz [Teoretické reflexe](/kompendium/07-teoreticke-reflexe/) a jednotlivé monografické stránky autorů (Heidegger, Wittgenstein, Foucault, Habermas, Husserl).
+Filozofické tradice relevantní pro doktrínu EA. Plný materiál viz [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) a jednotlivé monografické stránky autorů (Heidegger, Wittgenstein, Foucault, Habermas, Husserl).

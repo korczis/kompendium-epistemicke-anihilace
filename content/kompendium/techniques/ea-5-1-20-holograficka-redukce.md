@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 | **Přístupová úroveň** | L3 (pokročilá) |
 | **Riziková úroveň** | Kritická — produkuje totalitní rámec, který interpretuje veškerou evidenci jako potvrzující |
 | **Reverzibilita** | Nízká — strukturálně eliminuje samotný mechanismus revize |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
 
 ## Definice
 
@@ -188,14 +188,14 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
   - [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)
   - [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

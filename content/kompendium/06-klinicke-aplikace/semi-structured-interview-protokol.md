@@ -120,7 +120,7 @@ Po dokončení rozhovoru klinik:
 
 1. **Skóruje** klastry A–D (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md));
 2. **Tringuluje** s self-report instrumenty (kongruence ≥70%);
-3. **Konzultuje** [collateral interview](/kompendium/06-klinicke-aplikace/collateral-interview-protokol/) (rodina, přátelé) **pouze se souhlasem**;
+3. **Konzultuje** [collateral interview](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) (rodina, přátelé) **pouze se souhlasem**;
 4. **Dokumentuje** v reálných slovech pacienta — verbatim citace 5–7 klíčových výpovědí.
 
 ## Etické limity
@@ -140,8 +140,8 @@ Strukturované poznámky z SSI-EA lze importovat do {{ cross_link(path="/hub/dd/
 
 - [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
 - [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)
-- [6.1.5 Collateral interview protokol](/kompendium/06-klinicke-aplikace/collateral-interview-protokol/)
-- [6.1.13 Biographical timeline rekonstrukce](/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce/)
+- [6.1.5 Collateral interview protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
+- [6.1.13 Biographical timeline rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
 - [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | [Sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Glossary: Gaslighting](@/glossary/gaslighting.md) | [Coercive control](@/glossary/coercive-control.md) | [Metakognice](@/glossary/metakognice.md)
 

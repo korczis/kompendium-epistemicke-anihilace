@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Konvergentní pre-konceptuální techniky řady EA-5-5. Konkrétní katalog viz [Techniques (ea-5-5-*)](/kompendium/techniques/).
+Konvergentní pre-konceptuální techniky řady EA-5-5. Konkrétní katalog viz [Techniques (ea-5-5-*)](@/kompendium/techniques/_index.md).

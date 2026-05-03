@@ -53,8 +53,8 @@ Klíčové koncepty: **genealogie pojmu**, **epistemologický status**, **metodo
 
 - [02 — Úvod](@/kompendium/02-uvod/_index.md)
 - [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla-infinity/)
-- [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
+- [Nabla framework](@/kompendium/glossary-bridges/bridge-nabla-infinity.md)
+- [Doctrine NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
 - [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
 - [Visualizations: Genealogie](@/kompendium/visualizations/_index.md)
 - [Glossary platform](@/glossary/_index.md)

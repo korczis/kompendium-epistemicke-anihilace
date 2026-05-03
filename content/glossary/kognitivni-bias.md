@@ -23,7 +23,7 @@ image_alt = "Kognitivní bias - glossary"
 
 **Kognitivní bias** (*cognitive bias*) is a systematic, predictable deviation of human judgment from a normative standard — typically Bayesian probability, formal logic, or expected-utility decision theory. Biases are not random errors: they are reproducible patterns produced by heuristics that perform well under typical evolutionary conditions but degrade under specific structural pressures (uncertainty, time stress, motivated reasoning, adversarial framing).
 
-Cognitive biases are central to the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) because **biases are the primary attack surface** that EA techniques exploit. EA does not invent new failure modes; it engineers conditions under which existing biases produce maximum, directed damage to the subject's epistemic structure. The taxonomy at [/kompendium/03-taxonomie/](/kompendium/03-zakladni-kategorie/) explicitly maps each technique to the bias-cluster it weaponizes.
+Cognitive biases are central to the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) because **biases are the primary attack surface** that EA techniques exploit. EA does not invent new failure modes; it engineers conditions under which existing biases produce maximum, directed damage to the subject's epistemic structure. The taxonomy at [/kompendium/03-taxonomie/](@/kompendium/03-zakladni-kategorie/_index.md) explicitly maps each technique to the bias-cluster it weaponizes.
 
 Key bias-to-technique mappings used in the kompendium:
 
@@ -46,7 +46,7 @@ Within the Prismatic Platform, cognitive bias is operationalized as **decision q
 - The [Color Teams](@/glossary/color-teams.md) Blue Team simulations include scripted bias-exploitation scenarios drawn from the kompendium taxonomy, validating that platform-level checks (review queues, dissent surfacing, calibration alarms) intercept the patterns.
 - The [3NL architecture](@/glossary/3nl.md) (Logic + Neural + Linguistic) is designed precisely so that bias active at one layer (e.g., Linguistic-layer framing) is checked by the others (Logic-layer formal validity, Neural-layer pattern divergence).
 
-Bias is **not pathology**: heuristics are typically efficient and only fail under adversarial conditions or unusual base-rates. The platform standard is therefore **bias-aware decision-making** — recognition rather than elimination — combined with structural defenses (diverse inputs, calibration loops, explicit pre-mortems) that compensate where individual reflection is unreliable. Czech-language treatment of cognitive bias in the EA context is at [/kompendium/04-mechanismy/biasy/](/kompendium/03-zakladni-kategorie/biasy/).
+Bias is **not pathology**: heuristics are typically efficient and only fail under adversarial conditions or unusual base-rates. The platform standard is therefore **bias-aware decision-making** — recognition rather than elimination — combined with structural defenses (diverse inputs, calibration loops, explicit pre-mortems) that compensate where individual reflection is unreliable. Czech-language treatment of cognitive bias in the EA context is at [/kompendium/04-mechanismy/biasy/](@/kompendium/03-zakladni-kategorie/biasy/_index.md).
 
 ## See Also
 

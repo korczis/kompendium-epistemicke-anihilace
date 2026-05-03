@@ -64,7 +64,7 @@ Manifestuje se nejvýrazněji v rodinných systémech s **gaslightingem**, ve vy
 - **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Detailní článek**: [EA-5.1.5 Logická diskontinuita](@/kompendium/techniques/ea-5-1-5-logicka-diskontinuita.md)
 - **Sourozenecké techniky**: [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
-- **Glossary**: [Gaslighting](@/glossary/gaslighting.md), [Gish gallop](@/glossary/gish-gallop.md), [Logická koherence](/glossary/logicka-koherence/), [Toulmin model](/glossary/toulmin-model/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Gaslighting](@/glossary/gaslighting.md), [Gish gallop](@/glossary/gish-gallop.md), [Logická koherence](@/glossary/logicka-koherence.md), [Toulmin model](@/glossary/toulmin-model.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Argumentační rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine reasoning trace") }}, [NABLA Infinity logické vrstvy](@/glossary/nabla-infinity.md)
 

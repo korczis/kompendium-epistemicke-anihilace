@@ -239,7 +239,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Připravuje [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md), informuje [EA-6.3.3 metakognitivní rehabilitaci](/kompendium/techniques/ea-6-3-3-metacognitivni-rehabilitace/), kalibruje [EA-6.1.9 metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md).
+Připravuje [EA-6.2.4 metacognitive therapy](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md), informuje [EA-6.3.3 metakognitivní rehabilitaci](@/kompendium/techniques/ea-6-3-3-metacognitivni-rehabilitace.md), kalibruje [EA-6.1.9 metakognitivní functional assessment](@/kompendium/techniques/ea-6-1-9-metakognitivni-functional-assessment.md).
 
 ## Vztah k Prismatic platformě
 
@@ -280,7 +280,7 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Prismatic platforma
 
-- [Prismatic Nabla](/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
+- [Prismatic Nabla](@/about/architecture.md) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
 - {{ cross_link(path="/osint/toolbox/", text="OSINT toolbox") }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
 - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace klinického rozhodování s Brierův skór monitoring
 - [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci

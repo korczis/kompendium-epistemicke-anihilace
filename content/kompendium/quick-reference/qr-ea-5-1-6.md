@@ -64,7 +64,7 @@ Kategorická transgrese se vyskytuje v sektách s gnostickým holismem ("vše je
 - **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Detailní článek**: [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
 - **Sourozenecké techniky**: [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.11 Modální dezorientace](@/kompendium/quick-reference/qr-ea-5-1-11.md), [EA-5.1.12 Kauzální inverze](@/kompendium/quick-reference/qr-ea-5-1-12.md)
-- **Glossary**: [Category mistake](/glossary/category-mistake/), [Aristotelovy kategorie](/glossary/aristotelovy-kategorie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Category mistake](@/glossary/category-mistake.md), [Aristotelovy kategorie](@/glossary/aristotelovy-kategorie.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Kategoriální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Platforma**: [NABLA Infinity typové vrstvy](@/glossary/nabla-infinity.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine kategoriální schémata") }}
 

@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Scénář L — terminální scenář epistemické anihilace. Materiál v rekonstrukci. Související: [Terminální protokoly](/kompendium/04-terminalni-protokoly/).
+Scénář L — terminální scenář epistemické anihilace. Materiál v rekonstrukci. Související: [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md).

@@ -31,7 +31,7 @@ The technique's effectiveness depends not on persuading the opponent but on the 
 
 ## Context
 
-Within the Prismatic Platform Kompendium, the Gish Gallop is catalogued under **EA-1.1.2 (source delegitimization combined with cognitive-overload exploitation)** — see [/kompendium/techniques/ea-1-1-2/](/kompendium/techniques/ea-1-1-2/). It is the rhetorical-scale analogue of the [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) which operates at population scale.
+Within the Prismatic Platform Kompendium, the Gish Gallop is catalogued under **EA-1.1.2 (source delegitimization combined with cognitive-overload exploitation)** — see [/kompendium/techniques/ea-1-1-2/](@/kompendium/techniques/ea-1-1-2.md). It is the rhetorical-scale analogue of the [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) which operates at population scale.
 
 - The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} implements gallop-resistance through **claim-by-claim accounting**: each input claim is registered, evaluated, and either confirmed or open-flagged; un-evaluated claims do not become provisionally true through unrebutted volume.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) requires explicit falsifiability tags on claims — a Gish Gallop input characteristically shows high claim density with low individual falsifiability, which the pipeline downweights.

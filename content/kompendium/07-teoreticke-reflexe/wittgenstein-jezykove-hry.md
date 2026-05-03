@@ -38,8 +38,8 @@ Pojem **jazykové hry** Wittgenstein zavádí pro **kontextuálně vázané soub
 
 Pro taxonomii EA z toho plyne:
 
-- **Hra falešného konsensu** ([EA-2.4 Falešný konsensus](/kompendium/techniques/ea-2-4-falesny-konsensus/)) operuje skrze **importování** pravidel z jedné hry (akademická diskuze, kde konsensus znamená shodu po kritické argumentaci) do hry jiné (politická manipulace, kde "konsensus" je předem fabrikovaný).
-- **Terminologická mystifikace** ([EA-1.5](/kompendium/techniques/ea-1-5-terminologicka-mystifikace/)) je **hrou na expertizu** prováděnou bez pravidel expertizy — řečník užívá expertní termíny mimo expertní hru.
+- **Hra falešného konsensu** ([EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)) operuje skrze **importování** pravidel z jedné hry (akademická diskuze, kde konsensus znamená shodu po kritické argumentaci) do hry jiné (politická manipulace, kde "konsensus" je předem fabrikovaný).
+- **Terminologická mystifikace** ([EA-1.5](@/kompendium/techniques/ea-1-5-terminologicka-mystifikace.md)) je **hrou na expertizu** prováděnou bez pravidel expertizy — řečník užívá expertní termíny mimo expertní hru.
 - **Falešná ekvivalence** je **smíchání her**, jež mají různá kritéria validity (například etická vs. statistická hra).
 
 ## 3. Forma života (*Lebensform*)
@@ -85,10 +85,10 @@ Pro epistemické trauma ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemick
 
 ## 7. Mapping na konkrétní EA techniky
 
-- **[EA-1.5 Terminologická mystifikace](/kompendium/techniques/ea-1-5-terminologicka-mystifikace/)** → narušení pravidel jazykové hry expertizy
-- **[EA-2.4 Falešný konsensus](/kompendium/techniques/ea-2-4-falesny-konsensus/)** → importování pravidel z jiné hry
-- **[EA-4.1 Gaslighting](/kompendium/techniques/ea-4-1-gaslighting/)** → systematické vypojování ze sdílené formy života
-- **[EA-1.7 Iluzorní komplexita](/kompendium/techniques/ea-1-7-iluzorni-komplexita/)** → simulace expertní hry bez expertních pravidel
+- **[EA-1.5 Terminologická mystifikace](@/kompendium/techniques/ea-1-5-terminologicka-mystifikace.md)** → narušení pravidel jazykové hry expertizy
+- **[EA-2.4 Falešný konsensus](@/kompendium/techniques/ea-2-4-falesny-konsensus.md)** → importování pravidel z jiné hry
+- **[EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md)** → systematické vypojování ze sdílené formy života
+- **[EA-1.7 Iluzorní komplexita](@/kompendium/techniques/ea-1-7-iluzorni-komplexita.md)** → simulace expertní hry bez expertních pravidel
 
 ## 8. Primární literatura
 

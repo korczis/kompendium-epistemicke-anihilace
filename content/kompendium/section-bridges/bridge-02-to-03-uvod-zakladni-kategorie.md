@@ -57,7 +57,7 @@ Klíčové koncepty: **kategoriální taxonomie**, **diagnostické kategorie**, 
 - [Quick Reference: Taxonomie](@/kompendium/quick-reference/_index.md)
 - [Techniques](@/kompendium/techniques/_index.md)
 - [Visualizations: Tree](@/kompendium/visualizations/_index.md)
-- [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
+- [Doctrine NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
 - [Glossary platform](@/glossary/_index.md)
 
 ---

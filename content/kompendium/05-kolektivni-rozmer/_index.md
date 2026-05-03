@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Kolektivní dimenze epistemické anihilace. Plný materiál viz [Kolektivní intervence](/kompendium/06-klinicke-aplikace/kolektivni-intervence/) a [Population Health](/kompendium/population-health/).
+Kolektivní dimenze epistemické anihilace. Plný materiál viz [Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md) a [Population Health](@/kompendium/population-health/_index.md).

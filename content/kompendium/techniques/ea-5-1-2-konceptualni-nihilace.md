@@ -192,7 +192,7 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 - **[EA-5.1.1 Epistemická kanibalizace](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md)** — když jsou nosné pojmy destabilizovány, je snazší pohltit subjektovu epistemickou produkci.
 - **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — destabilizované pojmy generují produktivnější paradoxy v reflexi.
 - **[EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)** — substituce vyprázdněných pojmů manipulátorovou terminologií.
-- **[EA-1.5.x Latentní emocionální modulace](/kompendium/techniques/ea-1-5-1-emocni-podbarveni/)** — kategoriální destabilizace produkuje úzkost, která je manipulátorem směrována.
+- **[EA-1.5.x Latentní emocionální modulace](@/kompendium/techniques/ea-1-5-1-emocni-podbarveni.md)** — kategoriální destabilizace produkuje úzkost, která je manipulátorem směrována.
 
 ### Eskaluje do
 

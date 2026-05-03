@@ -222,9 +222,9 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
   - [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [Epistemický monismus](/glossary/epistemicky-monismus/)
-  - [Falsifikabilita](/glossary/falsifikabilita/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
+  - [Epistemický monismus](@/glossary/epistemicky-monismus.md)
+  - [Falsifikabilita](@/glossary/falsifikabilita.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

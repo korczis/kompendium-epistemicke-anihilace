@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Příručka pro diferenciální diagnostiku epistemické anihilace oproti primární psychóze. Plný materiál viz [Diferenciální diagnostika](/kompendium/06-klinicke-aplikace/diferencialni-diagnostika/).
+Příručka pro diferenciální diagnostiku epistemické anihilace oproti primární psychóze. Plný materiál viz [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).

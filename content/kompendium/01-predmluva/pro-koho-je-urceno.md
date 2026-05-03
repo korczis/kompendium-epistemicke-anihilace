@@ -61,7 +61,7 @@ Profesionální výzkumníci s **doktorským vzděláním** v relevantních obor
 
 ### 3. Vyškolení odborníci v oblasti kognitivní rehabilitace
 
-Specialisté se specifickým výcvikem v oblasti obnovy kognitivních funkcí a [epistemické reintegrace](/glossary/epistemicka-reintegrace/), kteří pracují s jednotlivci zasaženými závažnými formami epistemického traumatu.
+Specialisté se specifickým výcvikem v oblasti obnovy kognitivních funkcí a [epistemické reintegrace](@/glossary/epistemicka-reintegrace.md), kteří pracují s jednotlivci zasaženými závažnými formami epistemického traumatu.
 
 **Typický profil**:
 
@@ -164,7 +164,7 @@ V souladu s fundamentálním principem **primum non nocere** je nezbytné zajist
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
-- [Glossary: Epistemická reintegrace](/glossary/epistemicka-reintegrace/)
+- [Glossary: Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md)
 
 
 ## ⚡ Kritický krok

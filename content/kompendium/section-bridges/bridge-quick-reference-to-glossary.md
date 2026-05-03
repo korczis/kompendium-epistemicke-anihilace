@@ -54,7 +54,7 @@ Klíčové koncepty: **lookup vrstva vs. definiční vrstva**, **QR–glossary k
 - [Quick Reference](@/kompendium/quick-reference/_index.md)
 - [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
 - [Glossary platform](@/glossary/_index.md)
-- [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
+- [Doctrine NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
 - [Techniques](@/kompendium/techniques/_index.md)
 - [Case Studies](@/kompendium/case-studies/_index.md)
 - [Klinika](@/kompendium/06-klinicke-aplikace/_index.md)

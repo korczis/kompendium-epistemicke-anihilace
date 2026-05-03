@@ -201,7 +201,7 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 
 ## Související
 
-- [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
+- [7.1 Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md)
 - [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
 - [7.3 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
 - [7.4 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
@@ -211,15 +211,15 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 - [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
 - [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Sekce 04 — Klinika](/kompendium/04-klinika/)
-- [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
-- [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
+- [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
+- [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)
+- [Sekce 06 — Intervence a obrana](@/kompendium/06-intervence-a-obrana/_index.md)
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
 - [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
 - [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatos](/glossary/lakatos/)
+- [Glosář: Lakatos](@/glossary/lakatos.md)
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
 - [Glosář: Metakognice](@/glossary/metakognice.md)

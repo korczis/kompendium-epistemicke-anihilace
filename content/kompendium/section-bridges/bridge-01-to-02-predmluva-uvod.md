@@ -53,12 +53,12 @@ Klíčové koncepty na rozhraní: **threshold reading**, **informed consent**, *
 
 - [01 — Předmluva](@/kompendium/01-predmluva/_index.md)
 - [02 — Úvod](@/kompendium/02-uvod/_index.md)
-- [Etika a integrace](/kompendium/glossary-bridges/bridge-eticky-ramec/)
-- [Threshold reading](/kompendium/glossary-bridges/bridge-threshold/)
+- [Etika a integrace](@/kompendium/glossary-bridges/bridge-eticky-ramec.md)
+- [Threshold reading](@/kompendium/glossary-bridges/bridge-threshold.md)
 - [Bezpečnostní protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Klinická etika](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Quick Reference: Etika](@/kompendium/quick-reference/_index.md)
-- [Doctrine NMND](/kompendium/glossary-bridges/bridge-nm-nd/)
+- [Doctrine NMND](@/kompendium/glossary-bridges/bridge-nm-nd.md)
 
 ---
 

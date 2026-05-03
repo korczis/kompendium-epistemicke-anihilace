@@ -193,8 +193,8 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
   - [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [Narativní topologie](/glossary/narativni-topologie/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
+  - [Narativní topologie](@/glossary/narativni-topologie.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

@@ -91,16 +91,16 @@ Prismatic Platform poskytuje pro detekci a analýzu této techniky následujíc�
 ## Související
 
 - [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](/kompendium/glossary-bridges/taxonomie-ea/) (klasifikační rámec)
-- [Delegitimizace](/kompendium/glossary-bridges/delegitimizace/) (konceptuální základ)
+- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md) (klasifikační rámec)
+- [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md) (konceptuální základ)
 - [EA-2.5.6](@/kompendium/techniques/ea-2-5-6-platonic-cave-self.md) (sister)
 - [EA-2.5.8](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) (sister)
 - [EA-2.5.5](@/kompendium/techniques/ea-2-5-5-bothsidesizm-internalizace.md) (sister)
-- [Gaslighting](/kompendium/glossary-bridges/gaslighting/) (související psychologický mechanismus)
-- [Epistemické trauma](/kompendium/glossary-bridges/epistemicke-trauma/) (důsledek pro cíl)
+- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md) (související psychologický mechanismus)
+- [Epistemické trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md) (důsledek pro cíl)
 
 ## Connect
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](/glossary/)
+- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
 - **Platforma**: {{ cross_link(path="/decisions/", text="Decision Engine") }} | [OSINT Toolbox](@/osint/_index.md) | {{ cross_link(path="/nabla/", text="Nabla") }}
 - **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [[e-mail odstraněn]](mailto:[e-mail odstraněn])

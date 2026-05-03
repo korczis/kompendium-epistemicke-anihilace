@@ -227,7 +227,7 @@ Master rejstřík je propojen s běžícími systémy:
 - [Glossary](@/glossary/_index.md) — každý kanonizovaný název má glosářové heslo.
 - [Color Teams](@/glossary/color-teams.md) — Red Team scénáře čerpají z této taxonomie.
 - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace důvěry využívá EA kódy jako negativní signály.
-- [3NL architektura](/glossary/three-nested-loops/) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
+- [3NL architektura](@/glossary/three-nested-loops.md) — L1 (logika) ↔ L2 (neurální) ↔ L3 (lingvistika) mapuje kapitoly 1–5 podle dominantní vrstvy.
 
 
 ## ⚡ Kritický krok

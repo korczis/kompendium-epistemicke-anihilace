@@ -96,7 +96,7 @@ Logická diskontinuita je odlišitelná od:
 
 - **Limitované formální vzdělání** — subjekt chybuje v inferenci, ale **uznává** chybu při explikaci. Diskontinuovaný subjekt **odmítá** nebo **reinterpretuje** rozpor.
 - **Dyslexie či ADHD** — neurologické pozadí; obtíž je v **udržení pozornosti**, ne v devaluaci inference. Subjekt obvykle **pracuje proti** vlastnímu deficitu, nikoli s ním.
-- **[EA-1.3.2 Pseudo-empirická validace](/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/)** — chyba je v **evidenci**, nikoli v inferenci; subjekt **udržuje** schopnost komponovat řetězce, jen je krmen falešnými premisami.
+- **[EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)** — chyba je v **evidenci**, nikoli v inferenci; subjekt **udržuje** schopnost komponovat řetězce, jen je krmen falešnými premisami.
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — vnější přerušování, ne strukturální destrukce kapacity.
 - **Filosofická skepse vůči klasické logice** (parakonzistentní logiky, kvantová logika) — explicitní, formální, **udržuje** schopnost rozlišovat. Diskontinuovaný subjekt naopak operuje v deficitu.
 
@@ -164,7 +164,7 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 
 - **[EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)** — destrukce inferenčních kapacit komplementuje destrukci jazyka; spolu eliminují základní nástroje racionálního myšlení.
 - **[EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)** — kolaps kategorií předpokládá, že subjekt nedrží řetězec, který by ho z transgrese vyvedl.
-- **[EA-1.3.2 Pseudo-empirická validace](/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/)** — diskontinuita zabraňuje subjektu vystopovat strukturální vady evidenčního řetězce.
+- **[EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)** — diskontinuita zabraňuje subjektu vystopovat strukturální vady evidenčního řetězce.
 - **[EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** — diverze využívá diskontinuity: subjekt po vyrušení nedokáže obnovit původní argumentační stopu.
 
 ### Eskaluje do
@@ -192,7 +192,7 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
   - [EA-5.1.4 Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
   - [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
 - **Související akademické techniky**:
-  - [EA-1.3.2 Pseudo-empirická validace](/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace/)
+  - [EA-1.3.2 Pseudo-empirická validace](@/kompendium/techniques/ea-1-3-2-pseudo-empiricka-validace.md)
   - [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)

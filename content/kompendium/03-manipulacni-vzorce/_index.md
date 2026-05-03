@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Sekce o základních manipulačních vzorcích. Plný taxonomický katalog viz [Základní kategorie](/kompendium/03-zakladni-kategorie/) a [Techniques](/kompendium/techniques/).
+Sekce o základních manipulačních vzorcích. Plný taxonomický katalog viz [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) a [Techniques](@/kompendium/techniques/_index.md).

@@ -186,7 +186,7 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 - **[EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)** — pohlcení autorství je usnadněno destabilizací konceptu autorství samého.
 - **[EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)** — když se subjekt pokusí reflektovat vlastní pohlcení, paradoxní struktury reflexe ho paralyzují.
 - **[EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** — reframování subjektových idejí v manipulátorových pojmech je akademickou variantou kanibalizace.
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — guru-adept vztah je strukturálním rámcem dlouhodobé kanibalizace.
+- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — guru-adept vztah je strukturálním rámcem dlouhodobé kanibalizace.
 
 ### Eskaluje do
 
@@ -214,7 +214,7 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   - [EA-5.1.3 Reflexivní paradoxie](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md)
 - **Příbuzné akademické techniky**:
   - [EA-1.3.2 Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)
-  - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)
+  - [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
   - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)

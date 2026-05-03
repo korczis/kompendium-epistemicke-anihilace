@@ -204,7 +204,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 | **Temporální dekoherence** | Temporal decoherence [=] | [`EA-5.1.10`](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) | Rozbití koherentního vnímání plynutí času. |
 | **Terminologická mystifikace** | Terminological mystification [=] | [`EA-1.1.3`](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) | Konstrukce odborně znějících termínů bez denotativního obsahu. |
 | **Testimoniální nespravedlnost** | Testimonial injustice [=] | [Bibliografie §VI](@/kompendium/08-prilohy/bibliografie.md) | Frickerová: snížený kredit kvůli identitárnímu předsudku. |
-| **Three-Nested-Loops (3NL)** | Three-Nested-Loops [=] | [Glossary](/glossary/three-nested-loops/) | Architektura: L1 logika ↔ L2 neurální ↔ L3 lingvistika. |
+| **Three-Nested-Loops (3NL)** | Three-Nested-Loops [=] | [Glossary](@/glossary/three-nested-loops.md) | Architektura: L1 logika ↔ L2 neurální ↔ L3 lingvistika. |
 | **Thought reform** | Thought reform [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Liftonův pojem: 8-kriteriální systém totalitní reformy. |
 
 ## V–Z

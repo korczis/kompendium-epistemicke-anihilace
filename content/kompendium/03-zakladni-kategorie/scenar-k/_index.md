@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Scénář K — pokročilý scenář epistemické anihilace. Materiál v rekonstrukci. Související: [Scénář F](/kompendium/03-zakladni-kategorie/scenar-f/), [Scénář G](/kompendium/03-zakladni-kategorie/scenar-g/), [Scénář H](/kompendium/03-zakladni-kategorie/scenar-h/).
+Scénář K — pokročilý scenář epistemické anihilace. Materiál v rekonstrukci. Související: [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scénář G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scénář H](@/kompendium/03-zakladni-kategorie/scenar-h.md).

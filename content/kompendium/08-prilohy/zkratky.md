@@ -227,7 +227,7 @@ Kompendium používá **modifikovaný APA 7. styl**:
 - [CLAUDE.md](https://github.com/korczis/prismatic-platform/blob/main/CLAUDE.md) — kanonický zdroj 18-pillar doctrine zkratek.
 - [Glossary](@/glossary/_index.md) — všechny domain zkratky mají glosářová hesla.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemic framework.
-- [3NL](/glossary/three-nested-loops/) — architektura platformy.
+- [3NL](@/glossary/three-nested-loops.md) — architektura platformy.
 - [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
 - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — operativní použití DD zkratky.
 

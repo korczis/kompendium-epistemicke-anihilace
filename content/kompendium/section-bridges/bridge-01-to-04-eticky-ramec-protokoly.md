@@ -54,8 +54,8 @@ Klíčové koncepty: **kontraindikační matice**, **multi-stage consent**, **re
 
 - [01 — Předmluva](@/kompendium/01-predmluva/_index.md)
 - [04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Kontraindikační matice](/kompendium/glossary-bridges/bridge-kontraindikace/)
-- [Exit protokol](/kompendium/glossary-bridges/bridge-exit/)
+- [Kontraindikační matice](@/kompendium/glossary-bridges/bridge-kontraindikace.md)
+- [Exit protokol](@/kompendium/glossary-bridges/bridge-exit.md)
 - [Klinika: post-event](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Quick Reference: Safety](@/kompendium/quick-reference/_index.md)
 - [Visualizations: Decision tree](@/kompendium/visualizations/_index.md)

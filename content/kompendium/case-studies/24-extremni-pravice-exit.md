@@ -46,9 +46,9 @@ V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tu
 - [EA-1.5.2 Dominantni telesne hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) — tetovaní/uniforma jako semioticka totalizace
 - [EA-5.1.6 Kategoricka transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) — stírání hranice clovek/nepritel
 - [EA-5.3.23 Konstitutivni mytologizace](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md) — osobni biografie zasazena do kosmogonického rasového mytu
-- [EA-5.3.34 Konvergentni identitarni tlak](/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak/) — homogenizace identity ke kanonickemu typu
+- [EA-5.3.34 Konvergentni identitarni tlak](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md) — homogenizace identity ke kanonickemu typu
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
 
 ## 5. Fenomenologicky kurz
 
@@ -86,7 +86,7 @@ Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v
 
 ## 9. Scenare a typologicke zaskolení
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
 
 ## 10. Diferencialni diagnostika
 
@@ -106,11 +106,11 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 
 ## 12. Cross-linky a dalsi cetba
 
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
+- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [coercive-control](@/glossary/coercive-control.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-5.1.6](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md), [EA-5.3.23](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md), [EA-5.3.34](/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak/)
+- **EA techniky**: [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-5.1.6](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md), [EA-5.3.23](@/kompendium/techniques/ea-5-3-23-konstitutivni-mytologizace.md), [EA-5.3.34](@/kompendium/techniques/ea-5-3-34-konvergentni-identitarni-tlak.md)
 - **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
 - **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 

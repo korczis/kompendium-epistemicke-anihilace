@@ -28,7 +28,7 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 | **Kategorie** | 4. Terminální protokoly |
 | **Subkategorie** | 4.4 Identitní dekonstrukce |
 | **Přístupová úroveň** | L2 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
-| **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](/glossary/irb-review/) přezkum a doložitelnou klinickou kompetenci |
+| **Riziková úroveň** | Vysoká — terminální protokoly vyžadují přísný supervizní rámec, [IRB](@/glossary/irb-review.md) přezkum a doložitelnou klinickou kompetenci |
 | **Reverzibilita** | Střední — návrat vyžaduje supervidovanou rekonstrukční fázi v řádu měsíců až let |
 | **Rodičovská kapitola** | [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) |
 
@@ -36,19 +36,19 @@ parent_chapter = "/kompendium/04-terminalni-protokoly/"
 
 **Role fragmentation** představuje fragmentace rolí, jež subjekt zastává v různých sociálních kontextech, do oddělených hodnotících os. V rámci kompendia je technika klasifikována jako **terminální protokol** — operace, jejíž důsledky pro subjekt jsou strukturálně nevratné bez explicitní rekonstrukční fáze a jejíž aplikace mimo přísně supervizní rámec naplňuje definici poškození.
 
-Tento článek **nemá operační charakter**: jeho účelem je výhradně **defenzivní rozpoznání**, **detekce neúmyslné manifestace** a **supervidovaná intervence**. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](/kompendium/02-doktrinalni-ramec/) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
+Tento článek **nemá operační charakter**: jeho účelem je výhradně **defenzivní rozpoznání**, **detekce neúmyslné manifestace** a **supervidovaná intervence**. Jakékoliv ofenzivní použití techniky je v rozporu s [doktrinou platformy](@/kompendium/02-doktrinalni-ramec/_index.md) a její aplikace bez doložitelného etického rámce je explicitně zakázána.
 
 Mechanismus, kterým technika operuje uvnitř supervidovaného rámce, spočívá v: explicitní oddělení rolí (profesní, rodinná, intimní), přerušení jejich hodnotových přenosů a sledování dopadu na celkovou koherenci. Tento popis slouží jako **referenční rámec pro detekci**, nikoliv jako návod k provedení.
 
 ## Operační modus (z hlediska supervize)
 
-Technika prochází pěti supervizními fázemi, z nichž každá vyžaduje explicitní [souhlas subjektu](/glossary/informed-consent/), [IRB](/glossary/irb-review/) přezkum a doložitelnou kvalifikaci supervizora.
+Technika prochází pěti supervizními fázemi, z nichž každá vyžaduje explicitní [souhlas subjektu](@/glossary/informed-consent.md), [IRB](@/glossary/irb-review.md) přezkum a doložitelnou kvalifikaci supervizora.
 
 ### Fáze 1 — Indikační audit
 Identifikace, zda u konkrétního subjektu existuje legitimní indikace pro vstup do protokolu, a vyloučení známých kontraindikací (komorbidní psychiatrické poruchy, akutní krize, nedostatečná podpůrná síť).
 
 ### Fáze 2 — Pre-expoziční stabilizace
-Etablování stabilní baseline psychofyzické kapacity subjektu, vytvoření individualizované [risk map](/glossary/individual-risk-map/) a explicitní dohoda o termincích zastavení.
+Etablování stabilní baseline psychofyzické kapacity subjektu, vytvoření individualizované [risk map](@/glossary/individual-risk-map.md) a explicitní dohoda o termincích zastavení.
 
 ### Fáze 3 — Řízená expozice
 Postupná expozice s nepřetržitým monitoringem, eskalačními prahy a předem definovanými exit kritérii. Každý krok je dokumentován a podléhá supervizní validaci.
@@ -68,7 +68,7 @@ Monitorování po dobu nejméně 24 měsíců s předem definovanými kontrolní
 | **Real-time monitoring** | Kontinuální sledování biopsychosociálních markerů |
 | **Eskalační hierarchie** | Předem definované prahy a postup intervence |
 | **External audit** | Nezávislá komise s pravomocí pozastavení protokolu |
-| **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](/glossary/chain-of-custody/)) |
+| **Documentation** | Podepsaný a auditovatelný řetězec záznamů ([chain of custody](@/glossary/chain-of-custody.md)) |
 | **Whistleblower channel** | Anonymní kanál pro hlášení etických porušení |
 
 ## Indikace a kontraindikace
@@ -97,7 +97,7 @@ Co může klinik nebo supervizor pozorovat, pokud se technika manifestuje **mimo
 | Sociální izolace s jediným referenčním zdrojem autority | Strukturální rizikový kontext |
 | Časová dezorientace ve vztahu k vlastnímu životnímu příběhu | Indukovanou temporální disrupci |
 
-Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](/glossary/transformative-experience/).
+Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrickým stavům (disociativní poruchy, PTSD, psychotická spektra) a vůči [legitimní transformativní zkušenosti](@/glossary/transformative-experience.md).
 
 ## Klinické pozadí
 
@@ -280,11 +280,11 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
   - [ea-1-4-1-prosodicka-dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)
   - [ea-5-1-2-konceptualni-nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
 - **Glossary**:
-  - [IRB review](/glossary/irb-review/)
-  - [Informed consent](/glossary/informed-consent/)
-  - [Chain of custody](/glossary/chain-of-custody/)
-  - [Individual risk map](/glossary/individual-risk-map/)
-  - [Transformative experience](/glossary/transformative-experience/)
+  - [IRB review](@/glossary/irb-review.md)
+  - [Informed consent](@/glossary/informed-consent.md)
+  - [Chain of custody](@/glossary/chain-of-custody.md)
+  - [Individual risk map](@/glossary/individual-risk-map.md)
+  - [Transformative experience](@/glossary/transformative-experience.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Forward-references**:

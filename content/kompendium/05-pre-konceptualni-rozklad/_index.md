@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Sekce o pre-konceptuálních a pre-predikativních technikách rozkladu zkušenosti. Konkrétní techniky jsou katalogizovány v [Techniques (ea-5-5-*)](/kompendium/techniques/).
+Sekce o pre-konceptuálních a pre-predikativních technikách rozkladu zkušenosti. Konkrétní techniky jsou katalogizovány v [Techniques (ea-5-5-*)](@/kompendium/techniques/_index.md).

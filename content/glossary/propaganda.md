@@ -35,7 +35,7 @@ For epistemic security, Ellul's framework provides the **scale-up vocabulary**: 
 
 ## Context
 
-Within the Prismatic Platform's threat model, Ellulian propaganda is the **population-scale analogue** of EA. The [Kompendium taxonomy](@/glossary/taxonomie-ea.md) reserves the EA-7.x family for population-level techniques, with explicit cross-references to Ellul's analysis. Documentation: [Kompendium → 07-populacni → propaganda](/kompendium/07-populacni/propaganda/).
+Within the Prismatic Platform's threat model, Ellulian propaganda is the **population-scale analogue** of EA. The [Kompendium taxonomy](@/glossary/taxonomie-ea.md) reserves the EA-7.x family for population-level techniques, with explicit cross-references to Ellul's analysis. Documentation: [Kompendium → 07-populacni → propaganda](@/kompendium/07-populacni/propaganda.md).
 
 Operationally, the platform's {{ cross_link(path="/osint/toolbox", text="OSINT") }} infrastructure — particularly the 47 Czech and 80 global adapters — is configured to detect **structural signatures** of integration propaganda in target information environments: media-source homogenization, opinion-piece convergence patterns, vocabulary substitution rates, horizontal-pseudo-organic content amplification. These signals feed into the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} as environmental-context features when assessing individual-level claims.
 

@@ -42,13 +42,13 @@ Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.
 
 V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/) — mentor jako brana k tenure
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — mentor jako brana k tenure
 - [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — delegitimizace alternativnich oborovych smeru
 - [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — konferencni vystupy bez mentora znevazeny
 - [EA-1.3.2 Strategicka reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) — vsechen output pretvorovan podle mentora
-- [EA-5.3.36 Identitarni singularita](/kompendium/techniques/ea-5-3-36-identitarni-singularita/) — academicka identita zhustena do 'mentorovy linie'
+- [EA-5.3.36 Identitarni singularita](@/kompendium/techniques/ea-5-3-36-identitarni-singularita.md) — academicka identita zhustena do 'mentorovy linie'
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
 
 ## 5. Fenomenologicky kurz
 
@@ -86,7 +86,7 @@ Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v
 
 ## 9. Scenare a typologicke zaskolení
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
 
 ## 10. Diferencialni diagnostika
 
@@ -106,11 +106,11 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 
 ## 12. Cross-linky a dalsi cetba
 
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
+- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [epistemicka-injustice](@/glossary/epistemicka-injustice.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-5.3.36](/kompendium/techniques/ea-5-3-36-identitarni-singularita/)
+- **EA techniky**: [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-2.1.1](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md), [EA-5.3.36](@/kompendium/techniques/ea-5-3-36-identitarni-singularita.md)
 - **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
 - **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 

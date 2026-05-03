@@ -54,8 +54,8 @@ Klíčové koncepty: **proporcionalita zásahu**, **readiness gate**, **companio
 
 - [01 — Předmluva](@/kompendium/01-predmluva/_index.md)
 - [05 — Ultramarinní techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- [Readiness gate](/kompendium/glossary-bridges/bridge-readiness/)
-- [Companion presence](/kompendium/glossary-bridges/bridge-companion/)
+- [Readiness gate](@/kompendium/glossary-bridges/bridge-readiness.md)
+- [Companion presence](@/kompendium/glossary-bridges/bridge-companion.md)
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Visualizations: Ultramari flow](@/kompendium/visualizations/_index.md)
 - [Quick Reference: Ultramari](@/kompendium/quick-reference/_index.md)

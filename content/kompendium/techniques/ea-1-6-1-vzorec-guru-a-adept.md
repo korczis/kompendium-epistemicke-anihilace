@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Vzorec guru–adept je manipulační dyadická struktura, kde dominantní postava (guru) získává epistemickou autoritu nad závislou postavou (adept). Plná katalogizace podobných vzorců viz [Techniques](/kompendium/techniques/) (řada ea-1-6-*).
+Vzorec guru–adept je manipulační dyadická struktura, kde dominantní postava (guru) získává epistemickou autoritu nad závislou postavou (adept). Plná katalogizace podobných vzorců viz [Techniques](@/kompendium/techniques/_index.md) (řada ea-1-6-*).

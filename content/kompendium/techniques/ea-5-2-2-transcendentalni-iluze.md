@@ -171,7 +171,7 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 - **[EA-5.2.1 Meta-epistemická inverze](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md)** — pseudo-transcendence legitimizuje převrácené standardy.
 - **[EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)** — strukturálně blízká, liší se v cíli (singularita vs. transcendentální iluze).
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-adept/)** — guru je strukturálním předkladem pro transcendentální iluzi.
+- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-adept.md)** — guru je strukturálním předkladem pro transcendentální iluzi.
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální saturace zážitku.
 
 ### Eskaluje do

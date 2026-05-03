@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Pokročilé fenomenologické vzorce. Související: [Ultramari techniky](/kompendium/05-ultramari-techniky/).
+Pokročilé fenomenologické vzorce. Související: [Ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md).

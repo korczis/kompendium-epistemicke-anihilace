@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 | **Přístupová úroveň** | L4 (kritická — riziko trvalého poškození) |
 | **Riziková úroveň** | Kritická — produkuje totální epistemickou stázi, která je strukturálně rezistentní |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukci pozitivně-tvrzecích kapacit |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) |
 
 ## Definice
 
@@ -183,7 +183,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 ### Často se kombinuje s
 
-- **[EA-1.3.4 Indukovaná pochybnost](/kompendium/techniques/ea-1-3-4-indukovana-pochybnost/)** — pochybnost je **bránou** do apofatického zacyklení; po dosažení dostatečně rozšířené pochybnosti se aktivuje plošná negace.
+- **[EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md)** — pochybnost je **bránou** do apofatického zacyklení; po dosažení dostatečně rozšířené pochybnosti se aktivuje plošná negace.
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — negace je afektivně barvená "klidem" nebo "hloubkou", což zvyšuje rezistenci vůči korekci.
 - **EA-5.1.13 Hyperreflexivita** — sesterská technika; obě sdílejí strukturu epistemické paralýzy, ovšem mechanismus je odlišný (rekurze vs. negace).
 - **EA-5.1.14 Iluzorní transcendence** — strukturní inverze; obě produkují stáze, ovšem opačnými mechanismy (vyprázdnění vs. zaplnění).
@@ -207,19 +207,19 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
   - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
   - [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md)
 - **Příbuzné techniky**:
-  - [EA-1.3.4 Indukovaná pochybnost](/kompendium/techniques/ea-1-3-4-indukovana-pochybnost/)
+  - [EA-1.3.4 Indukovaná pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md)
   - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
   - [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Apofatický modus](/glossary/apofaticky-modus/)
-  - [Epistemická stáze](/glossary/epistemicka-staze/)
+  - [Apofatický modus](@/glossary/apofaticky-modus.md)
+  - [Epistemická stáze](@/glossary/epistemicka-staze.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)

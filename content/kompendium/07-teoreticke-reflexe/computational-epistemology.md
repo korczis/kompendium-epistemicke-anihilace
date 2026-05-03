@@ -81,7 +81,7 @@ NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné mult
 
 NABLA obrana: **explicit category schemas** s vynucenou granularitou; **concept provenance ledger** dokumentující každý nově zaváděný koncept včetně definice, zdroje, a kritérií aplikace.
 
-**L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](@/glossary/falsifikace.md) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](/glossary/lakatos/)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
+**L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](@/glossary/falsifikace.md) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](@/glossary/lakatos.md)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
 
 NABLA obrana: **falsifiability mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
 
@@ -127,7 +127,7 @@ NABLA není koncipovaná jako izolovaný individuální agent, ale jako **distri
 - **Purple Team** — Integrace red+blue; meta-úroveň testování.
 - **Yellow Team** — [Fenomenologická](@/glossary/fenomenologie.md) reflexe; analýza subjektivní zkušenosti operátorů.
 
-Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-popperovském](/glossary/lakatos/) duchu: hypotézy nejsou pouze pasivně testovány, ale aktivně atakovány.
+Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-popperovském](@/glossary/lakatos.md) duchu: hypotézy nejsou pouze pasivně testovány, ale aktivně atakovány.
 
 ## Limitace a otevřené otázky
 
@@ -148,7 +148,7 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 
 ## Související
 
-- [7.1 Filozofické tradice](/kompendium/07-teoreticke-reflexe/filozoficke-tradice/)
+- [7.1 Filozofické tradice](@/kompendium/07-teoreticke-reflexe/filozoficke-tradice/_index.md)
 - [7.2 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
 - [7.3 EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
 - [7.4 Politická a ideologická EA](@/kompendium/07-teoreticke-reflexe/politicka-ea.md)
@@ -158,9 +158,9 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
 - [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Sekce 04 — Klinika](/kompendium/04-klinika/)
-- [Sekce 05 — Kolektivní rozměr](/kompendium/05-kolektivni-rozmer/)
-- [Sekce 06 — Intervence a obrana](/kompendium/06-intervence-a-obrana/)
+- [Sekce 04 — Klinika](@/kompendium/04-klinika/_index.md)
+- [Sekce 05 — Kolektivní rozměr](@/kompendium/05-kolektivni-rozmer/_index.md)
+- [Sekce 06 — Intervence a obrana](@/kompendium/06-intervence-a-obrana/_index.md)
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 - [Glosář: 3NL](@/glossary/3nl.md)
@@ -171,7 +171,7 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
 - [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
 - [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatos](/glossary/lakatos/)
+- [Glosář: Lakatos](@/glossary/lakatos.md)
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
 - [Glosář: Metakognice](@/glossary/metakognice.md)

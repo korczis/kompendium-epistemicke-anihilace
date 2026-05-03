@@ -64,7 +64,7 @@ Manifestuje se v ezoterických tradicích s "tajným věděním", v hyperintelek
 - **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Detailní článek**: [EA-5.1.7 Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
 - **Sourozenecké techniky**: [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md), [EA-5.1.21 Sebereferenční paradox](@/kompendium/quick-reference/qr-ea-5-1-21.md), [EA-5.1.23 Asymptotická dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-23.md)
-- **Glossary**: [Hermeneutický kruh](/glossary/hermeneuticky-kruh/), [Infinitní regress](/glossary/infinitni-regress/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Operativní artikulace](/glossary/operativni-artikulace/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md), [Infinitní regress](@/glossary/infinitni-regress.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Operativní artikulace](@/glossary/operativni-artikulace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Operativní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine reference graph") }}, [Glossary canonical](@/glossary/_index.md)
 

@@ -185,8 +185,8 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [Asymptotický kolaps](/glossary/asymptoticky-kolaps/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
+  - [Asymptotický kolaps](@/glossary/asymptoticky-kolaps.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)

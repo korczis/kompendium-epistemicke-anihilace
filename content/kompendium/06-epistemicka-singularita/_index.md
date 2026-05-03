@@ -12,4 +12,4 @@ stub = true
 > **Pozn.**: Tato stránka je placeholder vytvořený pro vyřešení broken refs.
 > Plný obsah je v rekonstrukci.
 
-Krajní stav epistemické anihilace. Související: [Terminální protokoly](/kompendium/04-terminalni-protokoly/), [Ultimátní scénář](/kompendium/04-terminalni-protokoly/ultimatni-scenar/).
+Krajní stav epistemické anihilace. Související: [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md), [Ultimátní scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md).

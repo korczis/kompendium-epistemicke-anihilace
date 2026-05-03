@@ -128,7 +128,7 @@ Analytická anihilace je odlišitelná od:
 
 ### Cross-kategoriální
 
-- **[EA-1.* Pojmová manipulace](/kompendium/01-zaklady-manipulace/)** — nižší varianty.
+- **[EA-1.* Pojmová manipulace](@/kompendium/01-zaklady-manipulace/_index.md)** — nižší varianty.
 
 ## Vztah k Prismatic platformě
 
@@ -139,7 +139,7 @@ Analytická anihilace je odlišitelná od:
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](/glossary/intencionalita/), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intencionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 ## ⚡ Kritický krok

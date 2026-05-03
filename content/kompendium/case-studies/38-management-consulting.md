@@ -46,9 +46,9 @@ V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tu
 - [EA-1.5.1 Strategicka proxemika](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — hotel/airline kontrolovane prostredí
 - [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — ne-MBB konzultanti delegitimizovani
 - [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — weekly cycle 'fly out Sunday/back Thursday' rozbiji domov
-- [EA-5.3.42 Self-objektifikace totalni](/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni/) — self mereny v utilization/billing
+- [EA-5.3.42 Self-objektifikace totalni](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md) — self mereny v utilization/billing
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
 
 ## 5. Fenomenologicky kurz
 
@@ -86,7 +86,7 @@ Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v
 
 ## 9. Scenare a typologicke zaskolení
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
 
 ## 10. Diferencialni diagnostika
 
@@ -106,11 +106,11 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 
 ## 12. Cross-linky a dalsi cetba
 
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
+- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [addiction-recovery](@/glossary/addiction-recovery.md), [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.3.42](/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni/)
+- **EA techniky**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.5.1](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.3.42](@/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni.md)
 - **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
 - **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 

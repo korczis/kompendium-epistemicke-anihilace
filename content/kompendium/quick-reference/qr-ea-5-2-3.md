@@ -64,7 +64,7 @@ Noumenální redukce se vyskytuje typicky v alternativně-medicínských tradic�
 - **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Detailní článek**: [EA-5.2.3 Noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md)
 - **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.2 Transcendentální iluze](@/kompendium/quick-reference/qr-ea-5-2-2.md), [EA-5.2.4 Apriorní saturace](@/kompendium/quick-reference/qr-ea-5-2-4.md)
-- **Glossary**: [Ding-an-sich](/glossary/ding-an-sich/), [Noumenum](/glossary/noumenum/), [Fenomén](/glossary/fenomen/), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Ding-an-sich](@/glossary/ding-an-sich.md), [Noumenum](@/glossary/noumenum.md), [Fenomén](@/glossary/fenomen.md), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Empirická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
 - **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine empirická validace") }}, [Color Teams pseudoscience detection](@/glossary/color-teams.md)
 

@@ -187,8 +187,8 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [Kognitivní zploštění](/glossary/kognitivni-zplosteni/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
+  - [Kognitivní zploštění](@/glossary/kognitivni-zplosteni.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)

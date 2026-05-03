@@ -64,7 +64,7 @@ Manifestuje se v intelektualizujících sektách, akademických prostředích s 
 - **Rodič**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) | [Subkategorie 5.1](@/kompendium/05-ultramari-techniky/kapitola-6.md)
 - **Detailní článek**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
 - **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md), [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
-- **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Sémantická afázie](/glossary/semanticka-afazie/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Sémantická afázie](@/glossary/semanticka-afazie.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce konceptuální stability](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Platforma**: [Glossary cache](@/glossary/_index.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine concept ledger") }}
 

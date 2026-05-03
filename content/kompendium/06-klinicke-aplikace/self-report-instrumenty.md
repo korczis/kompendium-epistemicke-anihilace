@@ -17,7 +17,7 @@ toc = true
 
 ## Klinická pozice
 
-[Self-report](/glossary/self-report/) instrumenty mají v diagnostice [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **paradoxní postavení**: pacient s pokročilou EA má **narušenou metakognici** (klastr A v [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)), což je přesně schopnost, která self-reporting umožňuje. Klinik proto musí self-report **interpretovat s vědomím** této strukturální omezenosti — nejen číst "co pacient říká", ale modelovat "co je pacient schopen vidět".
+[Self-report](@/glossary/self-report.md) instrumenty mají v diagnostice [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **paradoxní postavení**: pacient s pokročilou EA má **narušenou metakognici** (klastr A v [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)), což je přesně schopnost, která self-reporting umožňuje. Klinik proto musí self-report **interpretovat s vědomím** této strukturální omezenosti — nejen číst "co pacient říká", ale modelovat "co je pacient schopen vidět".
 
 ## Kategorie self-report instrumentů
 
@@ -44,7 +44,7 @@ Tento článek se soustředí na vrstvy 2 a 3, které poskytují **dynamický** 
 4. Vyjádřil/a jsem nesouhlas s něčím — vůči komu, jak jsem se cítil/a?
 5. Pokud bych měl/a vyjmenovat 3 věci, kterým dnes věřím méně než včera, které by to byly?
 
-**Klinická interpretace**: dlouhodobě prázdná otázka 5 = známka [kognitivní stagnace](/glossary/kognitivni-stagnace/) typické pro EA-3.x.x až EA-5.x.x. Repetitivní jméno v otázce 2 (jeden zdroj dominuje) = silný signál monokultury.
+**Klinická interpretace**: dlouhodobě prázdná otázka 5 = známka [kognitivní stagnace](@/glossary/kognitivni-stagnace.md) typické pro EA-3.x.x až EA-5.x.x. Repetitivní jméno v otázce 2 (jeden zdroj dominuje) = silný signál monokultury.
 
 ### Reflexivní eseje
 
@@ -111,14 +111,14 @@ Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní dest
 
 ## Vztah k platformě Prismatic
 
-EMA data lze importovat do {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} jako **temporální evidenci** o pacientově epistemické stabilitě. To je užitečné při (a) monitorování průběhu terapie, (b) detekci [retraumatizace](/glossary/retraumatizace/) a (c) kalibraci důvěry v pacientovo svědectví v [forenzním kontextu](/kompendium/06-klinicke-aplikace/legal-aspects-EA-recovery/).
+EMA data lze importovat do {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} jako **temporální evidenci** o pacientově epistemické stabilitě. To je užitečné při (a) monitorování průběhu terapie, (b) detekci [retraumatizace](@/glossary/retraumatizace.md) a (c) kalibraci důvěry v pacientovo svědectví v [forenzním kontextu](/kompendium/06-klinicke-aplikace/legal-aspects-EA-recovery/).
 
 ## Související
 
 - [6.1 Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
 - [6.1.1 Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md)
 - [6.1.2 Semi-structured interview](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md)
-- [6.1.4 Observational assessment](/kompendium/06-klinicke-aplikace/observational-assessment/)
+- [6.1.4 Observational assessment](@/kompendium/06-klinicke-aplikace/observational-assessment.md)
 - [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | [Sekce 04](@/kompendium/04-terminalni-protokoly/_index.md)
 - [Glossary: Metakognice](@/glossary/metakognice.md) | [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 

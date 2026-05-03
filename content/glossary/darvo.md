@@ -35,7 +35,7 @@ DARVO is most reliably observed in perpetrators with high entitlement, low remor
 
 ## Context
 
-Within the Prismatic Platform Kompendium, DARVO is catalogued under **EA-1.3.2 (epistemic immunization through accuser-delegitimization)** — see [/kompendium/techniques/ea-1-3-2/](/kompendium/techniques/ea-1-3-2/). It is one of the most operationally important EA techniques because it weaponizes third-party epistemics: a successful DARVO does not need to convince the original victim, only to fracture the surrounding evidentiary community.
+Within the Prismatic Platform Kompendium, DARVO is catalogued under **EA-1.3.2 (epistemic immunization through accuser-delegitimization)** — see [/kompendium/techniques/ea-1-3-2/](@/kompendium/techniques/ea-1-3-2.md). It is one of the most operationally important EA techniques because it weaponizes third-party epistemics: a successful DARVO does not need to convince the original victim, only to fracture the surrounding evidentiary community.
 
 - The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats DARVO indicators as **negative source-credibility signals** when ingesting denials in due-diligence contexts. Witness testimony showing the three-phase signature is downweighted; original accusations are *not* upweighted (DARVO is not corroboration), but their downweighting is suspended.
 - [Color Teams](@/glossary/color-teams.md) Red Team adversary models include DARVO scripts when simulating media-savvy threat actors and reputational-defense operations.

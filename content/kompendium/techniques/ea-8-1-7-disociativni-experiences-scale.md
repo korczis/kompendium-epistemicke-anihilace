@@ -65,7 +65,7 @@ Doplňkový k **EA-8.2.9 van der Kolk Trauma** a **EA-8.2.7 DSM-5-TR Trauma**. V
 - [/kompendium/05-ultramari-techniky/](@/kompendium/05-ultramari-techniky/_index.md) — Ultrabrutální techniky
 - [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) — Klinické aplikace
 - [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) — Teoretické reflexe
-- [/kompendium/glossary/](/glossary/) — Glosář pojmů
+- [/kompendium/glossary/](@/glossary/_index.md) — Glosář pojmů
 - [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md) — Rychlá reference
 - [/kompendium/cross-domain/](@/kompendium/cross-domain/_index.md) — Cross-domain materiály
 - [/kompendium/case-studies/](@/kompendium/case-studies/_index.md) — Případové studie

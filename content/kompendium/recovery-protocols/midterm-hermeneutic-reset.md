@@ -21,7 +21,7 @@ phase = "midterm"
 
 ## 1. Cílová populace
 
-Pacienti s reziduální [hermeneutickou erozí](/glossary/hermeneuticka-eroze/) — neschopnost interpretovat sociální situace bez referencování pachatelova rámce. **Hermeneutic outsourcing** zůstává jako automatismus i po extrakci. Cíl: znovu-vybudování vlastního interpretačního systému.
+Pacienti s reziduální [hermeneutickou erozí](@/glossary/hermeneuticka-eroze.md) — neschopnost interpretovat sociální situace bez referencování pachatelova rámce. **Hermeneutic outsourcing** zůstává jako automatismus i po extrakci. Cíl: znovu-vybudování vlastního interpretačního systému.
 
 ## 2. Časový rámec
 
@@ -56,8 +56,8 @@ Měsíce 3–12. Intenzita: týdně, postupně 1× za 14 dní u stabilizovaných
 
 Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vystaven:
 
-- **Pseudoempatická vazba ([love-bombing](/glossary/love-bombing/) → [discard](/glossary/discard/) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](/glossary/secure-attachment/) a detekci idealizace-devalvace cyklu.
-- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](/glossary/reality-testing/), externí epistemic peer review, validační rámce.
+- **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
+- **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
 - **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
 - **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
@@ -85,15 +85,15 @@ V přítomnosti kontraindikací je nutné nejprve zajistit jejich řešení (psy
 
 ### EA techniky a fenomény
 - [Gaslighting (technika)](@/glossary/gaslighting.md)
-- [Pseudoempatická vazba](/glossary/pseudoempaticka-vazba/)
-- [Hermeneutic outsourcing](/glossary/hermeneuticky-outsourcing/)
-- [Identity destruction](/glossary/identity-destruction/)
+- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md)
+- [Hermeneutic outsourcing](@/glossary/hermeneuticky-outsourcing.md)
+- [Identity destruction](@/glossary/identity-destruction.md)
 
 ### Glosář
 - [C-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-- [Trauma bonding](/glossary/trauma-bonding/)
+- [Trauma bonding](@/glossary/trauma-bonding.md)
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 ### Platformové reference

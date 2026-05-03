@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 | **Přístupová úroveň** | L3 (pokročilá) |
 | **Riziková úroveň** | Kritická — útočí přímo na schopnost subjektu udržovat konzistentní uvažování |
 | **Reverzibilita** | Střední — vyžaduje formální tréning v rozlišování typových úrovní |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
 
 ## Definice
 
@@ -198,23 +198,23 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor explicitně modeluje **typové úrovně tvrzení** a flaguje sebe-referenční konstrukce, které mísí objektovou úroveň a metaúroveň.
 - **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace ("jakákoli evidence potvrzuje rámec") jsou strukturálně odmítnuty.
-- **[Logic Prolog](/glossary/logic-prolog/)** — formální logické moduly platformy implementují **typovou disciplínu**, která eliminuje sebe-referenční paradoxy na úrovni inference.
+- **[Logic Prolog](@/glossary/logic-prolog.md)** — formální logické moduly platformy implementují **typovou disciplínu**, která eliminuje sebe-referenční paradoxy na úrovni inference.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
   - [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)
   - [EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [Color Teams](@/glossary/color-teams.md)
-  - [Logic Prolog](/glossary/logic-prolog/)
+  - [Logic Prolog](@/glossary/logic-prolog.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)

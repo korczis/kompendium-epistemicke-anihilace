@@ -42,13 +42,13 @@ Strukturalní podobnost s [Hassanovym BITE modelem](@/glossary/coercive-control.
 
 V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tuto kohortu):
 
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/) — mister-mistr jako jediny pristup k pravdě filosofie
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — mister-mistr jako jediny pristup k pravdě filosofie
 - [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — ezotericky lexikon znemoznuje krizovy dialog
 - [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — delegitimizace 'analytickych' filosofu jako 'mělkých'
 - [EA-5.2.2 Transcendentalni iluze](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) — iluze pristupu k bytí samému
-- [EA-5.3.27 Autobiograficka self-fragmentace](/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace/) — fragmentace osobni biografie do ramca 'autenticity'
+- [EA-5.3.27 Autobiograficka self-fragmentace](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md) — fragmentace osobni biografie do ramca 'autenticity'
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md).
 
 ## 5. Fenomenologicky kurz
 
@@ -107,10 +107,10 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 ## 12. Cross-linky a dalsi cetba
 
 - **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [epistemicka-injustice](@/glossary/epistemicka-injustice.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md), [EA-5.3.27](/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace/)
+- **EA techniky**: [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md), [EA-5.3.27](@/kompendium/techniques/ea-5-3-27-autobiografi-self-fragmentace.md)
 - **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
 - **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 

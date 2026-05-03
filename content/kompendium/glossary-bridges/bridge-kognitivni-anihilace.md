@@ -52,9 +52,9 @@ Klinická a forenzní práce s oběťmi kognitivní anihilace vyžaduje ne re-ed
 - **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
 - **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
 - **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
-- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke-aplikace/)
-- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke-reflexe/)
-- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-prilohy/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](@/kompendium/06-klinicke-aplikace/_index.md)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](@/kompendium/07-teoreticke-reflexe/_index.md)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](@/kompendium/08-prilohy/_index.md)
 - **Glossary hub**: [/glossary/](@/glossary/_index.md)
 
 ---

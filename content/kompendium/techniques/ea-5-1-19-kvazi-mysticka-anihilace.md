@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 | **Přístupová úroveň** | L3 (pokročilá) |
 | **Riziková úroveň** | Kritická — produkuje subjektivní stav, který subjekt interpretuje jako vyšší formu poznání |
 | **Reverzibilita** | Nízká — subjekt aktivně odmítá racionální intervenci jako "nedostatečnou" |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md) |
 
 ## Definice
 
@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-pokrocile-techniky/kapitola-6/"
 
 Klíčový rys techniky je **fenomenologická nerozlišitelnost** od autentické mystické zkušenosti. Mystické tradice samy o sobě **nejsou** epistemickou anihilací — sofistikované tradice (zen, vipassana, křesťanská mystika) obsahují propracované **diagnostické rámce** pro rozlišení autentického vhledu od *makyō* (zen), *zwischenstadium* (Eckhart) nebo psychospirituální iluze. **Kvazi-mystická anihilace** záměrně tyto diagnostické rámce **odstraňuje** a ponechává pouze fenomenologickou skořápku.
 
-Technika je strukturálním vrcholem [EA-5.1 epistemické singularity](/kompendium/05-pokrocile-techniky/kapitola-6/), protože subjekt v jejím závěrečném stadiu **nemůže být přesvědčen externí evidencí** — interpretuje ji jako důkaz vlastní transcendence ("oni tomu nerozumí, jsou stále v dualitě").
+Technika je strukturálním vrcholem [EA-5.1 epistemické singularity](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), protože subjekt v jejím závěrečném stadiu **nemůže být přesvědčen externí evidencí** — interpretuje ji jako důkaz vlastní transcendence ("oni tomu nerozumí, jsou stále v dualitě").
 
 ## Operační modus
 
@@ -168,7 +168,7 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 - **[EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)** — emocionální stav je nutným prerekvizitem.
 - **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — strukturální jádro nepřenositelnostního rámce.
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — typická sociální architektura.
+- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — typická sociální architektura.
 
 ### Eskaluje do
 
@@ -183,14 +183,14 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-techniky/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
   - [EA-5.1.20 Holografická redukce](@/kompendium/techniques/ea-5-1-20-holograficka-redukce.md)
   - [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

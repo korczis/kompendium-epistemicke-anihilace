@@ -29,7 +29,7 @@ Pro EA má pojem paradigmatu **trojí relevanci**:
 
 - **Paradigmatická pevnost** je strukturální zdroj epistemické **rezilience**: komunita s pevným paradigmatem má zabudované obranné mechanismy proti manipulaci.
 - **Paradigmatický rozpad** je strukturální stav **zranitelnosti**: během krize jsou epistemické komunity nejvíce náchylné k manipulativním operacím (apel na "alternativní fakta", pseudo-revoluce, falešné paradigmatické nároky).
-- **Falešný paradigmatický nárok** ([EA-1.6](/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok/)) je **strukturální technikou** manipulace: deklarace, že "starý paradigma kolabuje" a "nový paradigma přichází", aniž by k tomu byly skutečné důvody.
+- **Falešný paradigmatický nárok** ([EA-1.6](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md)) je **strukturální technikou** manipulace: deklarace, že "starý paradigma kolabuje" a "nový paradigma přichází", aniž by k tomu byly skutečné důvody.
 
 ## 2. Normální věda vs. revoluční věda
 

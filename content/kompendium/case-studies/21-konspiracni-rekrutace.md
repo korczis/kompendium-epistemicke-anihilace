@@ -48,7 +48,7 @@ V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tu
 - [EA-5.1.12 Kauzalni inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md) — duvera v instituce reinterpretovana jako pricina jejich zhanobeni
 - [EA-5.3.1 Identitarni substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — subjekt se preznacil z 'normalniho cloveka' na 'badatele pravdy'
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
 
 ## 5. Fenomenologicky kurz
 
@@ -86,7 +86,7 @@ Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v
 
 ## 9. Scenare a typologicke zaskolení
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
 
 ## 10. Diferencialni diagnostika
 
@@ -106,8 +106,8 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 
 ## 12. Cross-linky a dalsi cetba
 
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
+- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [gaslighting](@/glossary/gaslighting.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
 - **EA techniky**: [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.1.2](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md), [EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md), [EA-5.1.12](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md), [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md)

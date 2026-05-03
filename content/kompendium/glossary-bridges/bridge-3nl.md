@@ -64,10 +64,10 @@ Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teor
 - **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
 - **Glossary index**: [/glossary/](@/glossary/_index.md)
 - **Bridge hub**: [/kompendium/glossary-bridges/](@/kompendium/glossary-bridges/_index.md)
-- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](/kompendium/konceptualni-mapa/)
+- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](@/kompendium/konceptualni-mapa/_index.md)
 - **Per-technique katalog**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
-- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](/kompendium/06-klinicke-aplikace/)
-- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](/kompendium/07-teoreticke-reflexe/)
+- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md)
+- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md)
 
 ---
 

@@ -144,26 +144,26 @@ Pro **objektivní detekci** aplikace techniky **korporeální schéma rozklad** 
 
 - **Hierarchie EA**:
   - [Taxonomie Epistemické Anihilace](@/glossary/taxonomie-ea.md)
-  - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
-  - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
+  - [EA-5.0 Pre-konceptuální vrstva](@/kompendium/05-pre-konceptualni-rozklad/_index.md)
+  - [EA-5.5 Konvergentní techniky](@/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/_index.md)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.5](/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni/)
-  - [Technika EA-5.5.6](/kompendium/techniques/ea-5-5-6-konvergentni-pre-konceptualni/)
-  - [Technika EA-5.5.7](/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce/)
-  - [Technika EA-5.5.9](/kompendium/techniques/ea-5-5-9-kinesteticka-deformace/)
-  - [Technika EA-5.5.10](/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion/)
+  - [Technika EA-5.5.5](@/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni.md)
+  - [Technika EA-5.5.6](@/kompendium/techniques/ea-5-5-6-konvergentni-pre-konceptualni.md)
+  - [Technika EA-5.5.7](@/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce.md)
+  - [Technika EA-5.5.9](@/kompendium/techniques/ea-5-5-9-kinesteticka-deformace.md)
+  - [Technika EA-5.5.10](@/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion.md)
 - **Fenomenologické základy**:
-  - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
-  - [Merleau-Pontyho body schema](/glossary/body-schema/)
-  - [Damasio core consciousness](/glossary/core-consciousness/)
+  - [Husserlova pasivní syntéza](@/glossary/pasivni-synteza.md)
+  - [Merleau-Pontyho body schema](@/glossary/body-schema.md)
+  - [Damasio core consciousness](@/glossary/core-consciousness.md)
 - **Neurobiologické koncepty**:
   - [Default mode network](@/glossary/default-mode-network.md)
-  - [Polyvagální teorie](/glossary/polyvagalni-teorie/)
-  - [Interocepce](/glossary/interocepce/)
+  - [Polyvagální teorie](@/glossary/polyvagalni-teorie.md)
+  - [Interocepce](@/glossary/interocepce.md)
 - **Klinické rámce**:
   - [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   - [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  - [Diferenciální diagnostika EA vs. psychóza](/kompendium/06-klinicke-aplikace/dd-ea-psychoza/)
+  - [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)
 
 ## Související
 

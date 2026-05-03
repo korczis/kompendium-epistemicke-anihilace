@@ -44,11 +44,11 @@ V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tu
 
 - [EA-1.5.2 Dominantni telesne hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) — telesna manipulace nastrojem
 - [EA-1.4.1 Prosodicka dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — kantorova hlasova autorita pri lekci
-- [EA-1.6.1 Vzorec Guru a adept](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/) — učitel jako strazce 'spravne' interpretacni linie
+- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) — učitel jako strazce 'spravne' interpretacni linie
 - [EA-5.3.4 Telesna disociace](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md) — ruka/telo separovano od self do 'nastroje techniky'
-- [EA-5.3.39 Anti-individuacni pust](/kompendium/techniques/ea-5-3-39-anti-individuacni-pust/) — potlaceni individualni interpretace ve prospech 'skoly'
+- [EA-5.3.39 Anti-individuacni pust](@/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md) — potlaceni individualni interpretace ve prospech 'skoly'
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](@/kompendium/04-terminalni-protokoly/kapitola-5.md) a [Sekce 5.3 (Identita)](@/kompendium/04-terminalni-protokoly/kapitola-5.md). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md).
 
 ## 5. Fenomenologicky kurz
 
@@ -86,7 +86,7 @@ Trajektorie zotavení vykazovala typicky non-linearni profil: vyrazne zlepseni v
 
 ## 9. Scenare a typologicke zaskolení
 
-Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
+Tento pripad odpovida nasledujicim scenarum: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md). Strukturalni podobnost s temito scenari je relevantni pro klinickou supervizi: pri identifikaci tohoto typu pripadu se doporucuje konzultace s pripady ve stejne scenár-skupine.
 
 ## 10. Diferencialni diagnostika
 
@@ -106,11 +106,11 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 
 ## 12. Cross-linky a dalsi cetba
 
-- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
+- **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](@/kompendium/03-zakladni-kategorie/scenar-k/_index.md)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](@/kompendium/04-terminalni-protokoly/kapitola-5.md)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [narrative-trauma](@/glossary/narrative-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
-- **EA techniky**: [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), [EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/), [EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md), [EA-5.3.39](/kompendium/techniques/ea-5-3-39-anti-individuacni-pust/)
+- **EA techniky**: [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-1.4.1](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md), [EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-5.3.4](@/kompendium/techniques/ea-5-3-4-telesna-disociace.md), [EA-5.3.39](@/kompendium/techniques/ea-5-3-39-anti-individuacni-pust.md)
 - **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
 - **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
 

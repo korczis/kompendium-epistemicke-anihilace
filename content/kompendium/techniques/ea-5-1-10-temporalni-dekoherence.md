@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Subjekt zasažený technikou nadále zná datum, dokáže rekonstruovat sekvenci událostí a často i pojmenovat citové stavy — chybí mu však schopnost je **vzájemně zarovnat** do koherentního narativu. Minulost přestává být *vlastní* (působí jako cizí film), přítomnost ztrácí ukotvení v dějinách subjektu, a budoucnost se rozpadá na nesouvisející fragmenty plánů, jež subjekt sice vlastní, ale **necítí jako své**.
 
-Technika se odlišuje od běžné dezinformace o čase i od klasických [memorních manipulací](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/) tím, že nezasahuje obsah vzpomínek — atakuje **strukturální syntézu**, která z nich dělá biografii.
+Technika se odlišuje od běžné dezinformace o čase i od klasických [memorních manipulací](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) tím, že nezasahuje obsah vzpomínek — atakuje **strukturální syntézu**, která z nich dělá biografii.
 
 ## Operační modus
 
@@ -163,7 +163,7 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 
 - **[EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)** — když subjekt ztratí časovou kotvu, ztrácí i schopnost rozlišovat skutečné od hypotetického.
 - **[EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)** — bez koherentní časové linie zaniká samotná možnost kauzální atribuce.
-- **[EA-1.2.2 Memorní rekonstrukce](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/)** — slouží jako vstupní brána; opakovaná rekonstrukce klíčových událostí jeden z hlavních **operátorů** dekoherence.
+- **[EA-1.2.2 Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)** — slouží jako vstupní brána; opakovaná rekonstrukce klíčových událostí jeden z hlavních **operátorů** dekoherence.
 
 ### Eskaluje do
 
@@ -187,7 +187,7 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
   - [EA-5.1.11 Modální dezorientace](@/kompendium/techniques/ea-5-1-11-modalni-dezorientace.md)
   - [EA-5.1.12 Kauzální inverze](@/kompendium/techniques/ea-5-1-12-kauzalni-inverze.md)
 - **Související techniky nižších kategorií**:
-  - [EA-1.2.2 Memorní rekonstrukce](/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce/)
+  - [EA-1.2.2 Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)

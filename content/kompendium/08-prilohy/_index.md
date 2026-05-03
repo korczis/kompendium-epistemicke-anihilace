@@ -88,7 +88,7 @@ Přílohy nejsou izolované — jsou **operativně propojeny** s běžícími sy
 - **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) poskytují signály pro kalibraci důvěry.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** → [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) mapuje techniky na úrovně L0–L13.
 - **[Color Teams](@/glossary/color-teams.md)** → [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) definuje hranice Red Team adversariální simulace.
-- **[3NL architektura](/glossary/three-nested-loops/)** → [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) sjednocuje doctrine zkratky napříč platformou.
+- **[3NL architektura](@/glossary/three-nested-loops.md)** → [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) sjednocuje doctrine zkratky napříč platformou.
 
 ## Konvence používání
 

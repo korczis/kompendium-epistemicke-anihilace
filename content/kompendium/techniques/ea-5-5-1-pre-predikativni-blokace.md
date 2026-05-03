@@ -144,24 +144,24 @@ Pro **objektivní detekci** aplikace techniky **pre-predikativní blokace** v po
 
 - **Hierarchie EA**:
   - [Taxonomie Epistemické Anihilace](@/glossary/taxonomie-ea.md)
-  - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
-  - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
+  - [EA-5.0 Pre-konceptuální vrstva](@/kompendium/05-pre-konceptualni-rozklad/_index.md)
+  - [EA-5.5 Konvergentní techniky](@/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/_index.md)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.2](/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce/)
-  - [Technika EA-5.5.3](/kompendium/techniques/ea-5-5-3-atmosfericka-modulace/)
-  - [Technika EA-5.5.4](/kompendium/techniques/ea-5-5-4-gestalt-disrupce/)
+  - [Technika EA-5.5.2](@/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md)
+  - [Technika EA-5.5.3](@/kompendium/techniques/ea-5-5-3-atmosfericka-modulace.md)
+  - [Technika EA-5.5.4](@/kompendium/techniques/ea-5-5-4-gestalt-disrupce.md)
 - **Fenomenologické základy**:
-  - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
-  - [Merleau-Pontyho body schema](/glossary/body-schema/)
-  - [Damasio core consciousness](/glossary/core-consciousness/)
+  - [Husserlova pasivní syntéza](@/glossary/pasivni-synteza.md)
+  - [Merleau-Pontyho body schema](@/glossary/body-schema.md)
+  - [Damasio core consciousness](@/glossary/core-consciousness.md)
 - **Neurobiologické koncepty**:
   - [Default mode network](@/glossary/default-mode-network.md)
-  - [Polyvagální teorie](/glossary/polyvagalni-teorie/)
-  - [Interocepce](/glossary/interocepce/)
+  - [Polyvagální teorie](@/glossary/polyvagalni-teorie.md)
+  - [Interocepce](@/glossary/interocepce.md)
 - **Klinické rámce**:
   - [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   - [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  - [Diferenciální diagnostika EA vs. psychóza](/kompendium/06-klinicke-aplikace/dd-ea-psychoza/)
+  - [Diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)
 
 ## Související
 

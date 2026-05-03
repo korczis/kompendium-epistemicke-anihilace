@@ -36,7 +36,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Konvergentní singularita** je ultramari technika, která vynucuje **úplné sbíhání všech kognitivních trajektorií subjektu k jedinému bodu**: ať už subjekt přemýšlí o čemkoli — etice, faktech, identitě, budoucnosti, vzpomínce, nebo o samotném procesu přemýšlení — jeho mentální pohyb končí ve **stejné odpovědi**. Výsledkem je **totální epistemická monotonie**: stav, v němž je epistemický prostor topologicky redukován z mnohorozměrné variety na **jeden bod přitažlivosti** (singularita ve smyslu dynamického systému).
 
-Distinktivní rys konvergentní singularity oproti běžné indoktrinaci ([EA-1.6.1](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)) nebo binárnímu falešnému dilematu ([EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)) spočívá v **operátorové fáze přechodu**: subjekt nejen *věří* preferované odpovědi, ale **strukturálně nemůže** dospět jinam, protože všechny inferenční cesty jeho kognitivního systému byly přesměrovány k jedinému atraktoru. Subjekt si uchovává subjektivní pocit svobodného uvažování, ale výsledek uvažování je **predeterminovaný**.
+Distinktivní rys konvergentní singularity oproti běžné indoktrinaci ([EA-1.6.1](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)) nebo binárnímu falešnému dilematu ([EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)) spočívá v **operátorové fáze přechodu**: subjekt nejen *věří* preferované odpovědi, ale **strukturálně nemůže** dospět jinam, protože všechny inferenční cesty jeho kognitivního systému byly přesměrovány k jedinému atraktoru. Subjekt si uchovává subjektivní pocit svobodného uvažování, ale výsledek uvažování je **predeterminovaný**.
 
 Konvergentní singularita je **terminálním stavem** epistemické singularity — bodu, za nímž již nelze rozlišit mezi *myšlením* a *opakováním*.
 
@@ -165,7 +165,7 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 - **[EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md)** — sesterská technika; exfoliace připraví terén odstraněním konkurenčních ontologických závazků, singularita pak vyplní vakuum jediným atraktorem.
 - **[EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)** — entropie destruuje stávající kognitivní strukturu; singularita ji nahrazuje monotónní strukturou. Sekvence E→S je standardní ultramari postup.
 - **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — falešné dilema je *prekursorová* technika: redukce z N na 2 trajektorie. Singularita je její terminální generalizací (redukce z N na 1).
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — guru-figure často slouží jako personifikovaný atraktor.
+- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — guru-figure často slouží jako personifikovaný atraktor.
 
 ### Eskaluje do
 

@@ -30,7 +30,7 @@ parent_chapter = "/kompendium/05-pokrocile-operace/kapitola-6/"
 | **Přístupová úroveň** | L4 (kritická — riziko trvalého poškození) |
 | **Riziková úroveň** | Kritická — extrémně rezistentní vůči externí korekci kvůli vnitřní jistotě subjektu |
 | **Reverzibilita** | Velmi nízká — subjekt aktivně **odmítá** redukci své transcendentní zkušenosti |
-| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/) |
+| **Rodičovská kapitola** | [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md) |
 
 ## Definice
 
@@ -77,7 +77,7 @@ Co prožívá subjekt **uvnitř** iluzorní transcendence:
 - **Empatický soucit** s těmi, kdo "ještě nevidí" — jemná, ale strukturální paternalizace
 - **Pocit identifikace s něčím větším než já** — kosmický řád, dharma, pole, zdroj
 
-V pokročilejších stadiích kombinace s [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/) může produkovat **kultové struktury** s exponenciální adopcí.
+V pokročilejších stadiích kombinace s [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) může produkovat **kultové struktury** s exponenciální adopcí.
 
 ## Detekční markery (pohled pozorovatele)
 
@@ -179,7 +179,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 ### Často se kombinuje s
 
-- **[EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)** — autorita gurua dodává epistemickou váhu prožívanému vhledu.
+- **[EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)** — autorita gurua dodává epistemickou váhu prožívanému vhledu.
 - **[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)** — filtrace alternativních interpretací zajišťuje, že vhled nemá konkurenci.
 - **EA-5.1.13 Hyperreflexivita** — sesterská technika; v případech, kdy přechod od paralýzy k "průlomu" produkuje iluzi transcendence.
 - **EA-5.1.15 Apofatické zacyklení** — sesterská technika; obě sdílejí strukturu epistemické stáze, ovšem iluzorní transcendence je **pozitivně** prožívaná.
@@ -202,19 +202,19 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 ## Související
 
-- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](/kompendium/05-pokrocile-operace/kapitola-6/)
+- **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)
 - **Sourozenecké techniky** (subkategorie 5.1):
   - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)
   - [EA-5.1.15 Apofatické zacyklení](@/kompendium/techniques/ea-5-1-15-apofaticke-zacykleni.md)
 - **Příbuzné techniky**:
-  - [EA-1.6.1 Vzorec "Guru a adept"](/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept/)
+  - [EA-1.6.1 Vzorec "Guru a adept"](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md)
   - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
   - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
-  - [Falsifikovatelnost](/glossary/falsifikovatelnost/)
-  - [Epistemická regrese](/glossary/epistemicka-regrese/)
+  - [Falsifikovatelnost](@/glossary/falsifikovatelnost.md)
+  - [Epistemická regrese](@/glossary/epistemicka-regrese.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)

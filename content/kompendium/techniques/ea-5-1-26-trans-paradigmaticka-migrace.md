@@ -198,8 +198,8 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
   - [EA-5.1.27 Meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
-  - [Epistemická singularita](/glossary/epistemicka-singularita/)
-  - [Paradigmatická bezdomovina](/glossary/paradigmaticka-bezdomovina/)
+  - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
+  - [Paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
   - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

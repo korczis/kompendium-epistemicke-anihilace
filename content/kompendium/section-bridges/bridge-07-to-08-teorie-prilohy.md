@@ -58,7 +58,7 @@ Klíčové koncepty: **konceptuální mapa**, **terminologický slovník**, **bi
 - [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
 - [Visualizations: Mind map](@/kompendium/visualizations/_index.md)
 - [Case studies: filosofické](@/kompendium/case-studies/_index.md)
-- [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
+- [Doctrine NCLB](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
 
 ## 7. Meta-poznámka: referenční aparát jako evidenční vrstva
 

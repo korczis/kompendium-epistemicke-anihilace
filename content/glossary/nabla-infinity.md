@@ -190,8 +190,8 @@ TRANSITION CONDITIONS (ALL must be satisfied)
         |
         v
 EXECUTION PHASE (NM/ND Doctrine active)
-  - [No Mercy](/glossary/no-mercy/): Complete execution, zero tolerance for incomplete delivery
-  - [No Doubts](/glossary/no-doubts/): Full commitment to the verified conclusion
+  - [No Mercy](@/glossary/no-mercy.md): Complete execution, zero tolerance for incomplete delivery
+  - [No Doubts](@/glossary/no-doubts.md): Full commitment to the verified conclusion
   - Decisive action based on formally verified, robustness-tested beliefs
 ```
 

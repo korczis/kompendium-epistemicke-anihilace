@@ -232,9 +232,9 @@ Provides the bridge between abstract definition and practical usage.
 
 ## See Also
 
-- [Related Term A](/glossary/related-term-a/) - Brief relationship note
-- [Related Term B](/glossary/related-term-b/) - Brief relationship note
-- [Related Term C](/glossary/related-term-c/) - Brief relationship note
+- [Related Term A](@/glossary/related-term-a.md) - Brief relationship note
+- [Related Term B](@/glossary/related-term-b.md) - Brief relationship note
+- [Related Term C](@/glossary/related-term-c.md) - Brief relationship note
 ```
 
 The **Definition** section answers "what is this?" in domain-neutral terms when possible. The **Context** section answers "how does Prismatic use this?" with specific implementation references. The **See Also** section answers "what should I read next?" with curated navigation paths.

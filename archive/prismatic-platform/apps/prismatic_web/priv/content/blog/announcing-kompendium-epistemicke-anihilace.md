@@ -25,7 +25,7 @@ categories = ["announcement"]
 
 > *Note: This post announces a Czech-language reference work intended for qualified specialists. It does not provide instructions for misuse — only a structured framework for **identifying, preventing, and intervening in** systematic epistemic damage. The work is published as part of the Prismatic Platform's epistemic-security stack.*
 
-We've started shipping the first sections of the **Kompendium epistemické a kognitivní anihilace** — a Czech-language taxonomic system for phenomena that destroy the capacity to know. The kompendium has lived as private notes for a long time. Now it gets a permanent home at [/kompendium/](@/kompendium/_index.md), wired into the platform's glossary and integrated with the [Decision Engine](/hub/dd/decisions/) calibration logic.
+We've started shipping the first sections of the **Kompendium epistemické a kognitivní anihilace** — a Czech-language taxonomic system for phenomena that destroy the capacity to know. The kompendium has lived as private notes for a long time. Now it gets a permanent home at [/kompendium/](@/kompendium/_index.md), wired into the platform's glossary and integrated with the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration logic.
 
 This post explains **what it is**, **why it exists**, and **how we're shipping it incrementally**.
 
@@ -100,7 +100,7 @@ The first deep-dive — [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/
 
 The kompendium isn't an isolated artifact. It connects to the rest of Prismatic in three concrete ways.
 
-**Decision Engine calibration.** The [Decision Engine](/hub/dd/decisions/) explicitly treats indicators of epistemic manipulation as **negative confidence signals** during calibration. When a source displays markers consistent with kompendium-classified manipulation patterns, its evidential weight is reduced, regardless of its formal credentials. This is technically minor — a few additional features in the calibration model — but conceptually significant: it means the kompendium directly affects how the platform reasons about source quality.
+**Decision Engine calibration.** The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly treats indicators of epistemic manipulation as **negative confidence signals** during calibration. When a source displays markers consistent with kompendium-classified manipulation patterns, its evidential weight is reduced, regardless of its formal credentials. This is technically minor — a few additional features in the calibration model — but conceptually significant: it means the kompendium directly affects how the platform reasons about source quality.
 
 **Color Team adversarial simulation.** The [Color Teams](@/glossary/color-teams.md) framework, particularly the Red Team adversarial simulation roles, draws scenarios from the kompendium taxonomy. When we test the platform's resilience to epistemic adversarial inputs, we use the kompendium as the threat catalog.
 

@@ -49,7 +49,6 @@ Complex trauma is durational and developmental — adversity sustained across fo
         <input type="range" min="0" max="10" x-model.number="adversity" class="w-full accent-rose-500" />
         <p class="text-xs text-gray-400 mt-1">Sustained interpersonal violation in inescapable contexts (0 = none, 10 = pervasive)</p>
     </div>
-
     <div class="flex flex-wrap gap-2 mb-6">
         <button @click="adversity = 1" class="px-3 py-1 text-xs bg-emerald-700 text-white rounded-md hover:bg-emerald-600">Secure Childhood</button>
         <button @click="adversity = 3" class="px-3 py-1 text-xs bg-amber-700 text-white rounded-md hover:bg-amber-600">Single Incident</button>
@@ -57,21 +56,18 @@ Complex trauma is durational and developmental — adversity sustained across fo
         <button @click="adversity = 8" class="px-3 py-1 text-xs bg-rose-700 text-white rounded-md hover:bg-rose-600">Complex Trauma</button>
         <button @click="adversity = 10" class="px-3 py-1 text-xs bg-purple-700 text-white rounded-md hover:bg-purple-600">Polyvictimization</button>
     </div>
-
     <div class="bg-gray-900 rounded-lg p-4 mb-4">
         <div class="text-center mb-3">
             <span class="text-xs text-gray-400 uppercase tracking-wide">Cumulative Dysregulation Load</span>
             <div class="text-3xl font-mono font-bold" :class="loadTextClass" x-text="cumulativeLoad.toFixed(0)"></div>
             <span class="text-xs" :class="loadTextClass" x-text="loadCategory"></span>
         </div>
-
         <svg viewBox="0 0 600 280" class="w-full h-64">
             <line x1="40" y1="240" x2="580" y2="240" stroke="#4b5563" stroke-width="1"/>
             <line x1="40" y1="20" x2="40" y2="240" stroke="#4b5563" stroke-width="1"/>
             <text x="32" y="25" text-anchor="end" fill="#9ca3af" font-size="9" font-family="ui-monospace,monospace">100</text>
             <text x="32" y="135" text-anchor="end" fill="#9ca3af" font-size="9" font-family="ui-monospace,monospace">50</text>
             <text x="32" y="244" text-anchor="end" fill="#9ca3af" font-size="9" font-family="ui-monospace,monospace">0</text>
-
             <template x-for="(domain, i) in domains" :key="domain.key">
                 <g>
                     <rect :x="60 + i * 105" :y="240 - domainScores[i] * 2.2" width="80" :height="domainScores[i] * 2.2" :fill="domain.color" opacity="0.85"/>
@@ -82,7 +78,6 @@ Complex trauma is durational and developmental — adversity sustained across fo
             </template>
         </svg>
     </div>
-
     <div class="mt-4 text-sm text-gray-300" x-show="adversity <= 2">
         <span class="text-emerald-400 font-semibold">Secure baseline.</span> Developmental windows close on resilient substrate. No C-PTSD signature; standard testimony interpretation applies.
     </div>

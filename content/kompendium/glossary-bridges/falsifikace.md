@@ -25,10 +25,10 @@ Falsifikace (Karl Popper) je metodologický princip — vědecká tvrzení musí
 ## See Also
 
 - [Kompendium Glossary Bridges Index](@/kompendium/glossary-bridges/_index.md)
-- [Lakatos](@/kompendium/glossary-bridges/lakatos.md)
-- [Predictive Processing](@/kompendium/glossary-bridges/predictive-processing.md)
-- [Epistemic Pipeline](@/kompendium/glossary-bridges/epistemic-pipeline.md)
-- [Bridge Nabla](@/kompendium/glossary-bridges/bridge-nabla.md)
+- [Lakatos](@/glossary/lakatos.md)
+- [Predictive Processing](@/glossary/predictive-processing.md)
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
+- [Bridge Nabla](@/kompendium/glossary-bridges/bridge-nabla-infinity.md)
 
 ---
 

@@ -25,10 +25,10 @@ Epistemické trauma je psychologické poškození systémů získávání pozná
 ## See Also
 
 - [Kompendium Glossary Bridges Index](@/kompendium/glossary-bridges/_index.md)
-- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb.md)
-- [Bridge Nabla](@/kompendium/glossary-bridges/bridge-nabla.md)
-- [Konceptualni Anihilace](@/kompendium/glossary-bridges/konceptualni-anihilace.md)
-- [Epistemicka Singularita](@/kompendium/glossary-bridges/epistemicka-singularita.md)
+- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
+- [Bridge Nabla](@/kompendium/glossary-bridges/bridge-nabla-infinity.md)
+- [Konceptualni Anihilace](@/glossary/konceptualni-anihilace.md)
+- [Epistemicka Singularita](@/glossary/epistemicka-singularita.md)
 
 ---
 

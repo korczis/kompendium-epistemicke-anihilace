@@ -50,6 +50,42 @@ Pět kapitol netvoří paralelní katalog — představují **vertikální gradi
 
 Postupné sestupování po této ose koreluje s **eskalujícím rizikem ireversibility**, **klesající pravděpodobností spontánní rekonstrukce** a **rostoucí potřebou klinické intervence** dokumentované v [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md).
 
+### Subkategorie ultramárních technik
+
+Pět hlavních subkategorií tvoří hlavní strukturu sekce 05. Každá obsahuje 30 technik (`EA-5.X.1` až `EA-5.X.30`) a je dále rozpracována v dedikované kapitole.
+
+#### Subkategorie 5.1 — Epistemická singularita {#subkategorie-5-1}
+
+Operační režim **kolapsu reflexivních struktur** — techniky, které ruší schopnost poznávajícího vystoupit ze svého poznání a pohlížet na ně zvenčí. Detail v [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md). Rozsah kódů: `EA-5.1.1` — `EA-5.1.30`.
+
+#### Subkategorie 5.2 — Onto-singulární mechanismy {#subkategorie-5-2}
+
+Operační režim **suspenze transcendentálních podmínek poznání** — techniky, které zasahují apriorní struktury (čas, prostor, kauzalita, identita), na nichž reflexe stojí. Detail v [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md). Rozsah kódů: `EA-5.2.1` — `EA-5.2.30`.
+
+#### Subkategorie 5.3 — Hypertransformativní protokoly {#subkategorie-5-3}
+
+Operační režim **vynucené rekurzivní transformace identity poznávajícího** — techniky destabilizující kontinuitu subjektu, která činí transcendentální analýzu vůbec smysluplnou. Detail v [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md). Rozsah kódů: `EA-5.3.1` — `EA-5.3.30`. (Alias: [Subkategorie EA-5.3](#subkategorie-ea-5-3).)
+
+#### Subkategorie 5.4 — Konvergenční techniky {#subkategorie-5-4}
+
+Operační režim **paradoxálních metaanihilačních protokolů** — techniky vytvářející sebevztažné konstrukce, které destabilizují rámce, v nichž identita operuje. Detail v [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md). Rozsah kódů: `EA-5.4.1` — `EA-5.4.30`.
+
+#### Subkategorie 5.5 — Transkonceptuální mechanismy {#subkategorie-5-5}
+
+Operační režim **operací pod prahem konceptuálního zachycení** — techniky pracující v před-konceptuální vrstvě, předcházející formování pojmů, na nichž logika operuje. Detail v [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md). Rozsah kódů: `EA-5.5.1` — `EA-5.5.30`. (Alias: [Subkategorie EA-5.5](#subkategorie-ea-5-5).)
+
+#### Aliasované anchory
+
+Pro zpětnou kompatibilitu s historickým schématem `EA-5.X` jsou níže explicit anchory pro `subkategorie-ea-5-3` a `subkategorie-ea-5-5`. Obě odkazují na stejné subkategorie jako jejich bezprefixové ekvivalenty výše.
+
+##### Subkategorie EA-5.3 (alias) {#subkategorie-ea-5-3}
+
+Synonymum pro [Subkategorie 5.3 — Hypertransformativní protokoly](#subkategorie-5-3). Detail v [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md).
+
+##### Subkategorie EA-5.5 (alias) {#subkategorie-ea-5-5}
+
+Synonymum pro [Subkategorie 5.5 — Transkonceptuální mechanismy](#subkategorie-5-5). Detail v [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md).
+
 ## Přístupová úroveň: L3–L4
 
 Materiály sekce 05 nejsou veřejně dostupné. Distribuce podléhá vícestupňové autorizaci:

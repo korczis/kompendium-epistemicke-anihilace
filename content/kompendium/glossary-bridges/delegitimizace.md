@@ -25,10 +25,10 @@ Delegitimizace je systematické podkopávání důvěryhodnosti, autority nebo e
 ## See Also
 
 - [Kompendium Glossary Bridges Index](@/kompendium/glossary-bridges/_index.md)
-- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb.md)
+- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
 - [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md)
 - [Epistemicke Trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md)
-- [Konceptualni Anihilace](@/kompendium/glossary-bridges/konceptualni-anihilace.md)
+- [Konceptualni Anihilace](@/glossary/konceptualni-anihilace.md)
 
 ---
 

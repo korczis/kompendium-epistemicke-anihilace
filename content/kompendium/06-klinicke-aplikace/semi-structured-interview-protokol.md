@@ -72,7 +72,7 @@ Před administrací protokolu musí být splněno:
 - Jak rozeznáváte spolehlivý zdroj od nespolehlivého?
 - Stalo se vám, že jste si později uvědomil/a, že vaše paměť události byla jiná, než jak se skutečně stala?
 
-**Klinické vodítko**: neschopnost popsat proces poznávání + nemožnost generovat falsifikační kritéria = klastr A markery (viz [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/#klastr-a-metakognitivní-destrukce)).
+**Klinické vodítko**: neschopnost popsat proces poznávání + nemožnost generovat falsifikační kritéria = klastr A markery (viz [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/#klastr-a-metakognitivni-destrukce)).
 
 ## Modul 4: Změny self-narrativa (20–25 min)
 

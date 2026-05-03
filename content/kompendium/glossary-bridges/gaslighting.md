@@ -27,8 +27,8 @@ Gaslighting je manipulační technika systematicky erodující vnímání realit
 - [Kompendium Glossary Bridges Index](@/kompendium/glossary-bridges/_index.md)
 - [Delegitimizace](@/kompendium/glossary-bridges/delegitimizace.md)
 - [Epistemicke Trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md)
-- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb.md)
-- [Konceptualni Anihilace](@/kompendium/glossary-bridges/konceptualni-anihilace.md)
+- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
+- [Konceptualni Anihilace](@/glossary/konceptualni-anihilace.md)
 
 ---
 

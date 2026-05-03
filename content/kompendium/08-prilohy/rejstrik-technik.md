@@ -3,7 +3,6 @@ title = "Kompletní rejstřík technik (master index)"
 description = "Tabulkový master index všech technik kompendia EA-X.Y.Z s jednořádkovými popisky a odkazy na detailní per-technique články — kapitola 1 (akademické techniky), kapitola 5 (ultramární techniky) a placeholdery pro kapitoly 7–10."
 weight = 2
 sort_by = "weight"
-template = "page.html"
 
 [extra]
 kompendium = ["08-prilohy"]

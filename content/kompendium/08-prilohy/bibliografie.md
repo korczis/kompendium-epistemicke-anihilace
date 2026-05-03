@@ -3,7 +3,6 @@ title = "Bibliografie a primární literatura"
 description = "Systematicky uspořádaná primární a sekundární literatura kompendia — Foucault, Habermas, Lifton, Fricker, Kahneman, Popper, Kuhn, Lakatos, Husserl, Gadamer, Arendt, Klemperer, Sloterdijk a dalších autoři, tematicky seskupení podle teoretického rámce."
 weight = 1
 sort_by = "weight"
-template = "page.html"
 
 [extra]
 kompendium = ["08-prilohy"]

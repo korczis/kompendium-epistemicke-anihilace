@@ -3,7 +3,6 @@ title = "Index pojmů (CS-EN bilingual)"
 description = "Bilingvní česko-anglický index všech technických termínů kompendia s primární lokací výskytu — terminologický most pro mezinárodní výzkumnou kompatibilitu, derivovaný z platformového glosáře."
 weight = 3
 sort_by = "weight"
-template = "page.html"
 
 [extra]
 kompendium = ["08-prilohy"]

@@ -3,7 +3,6 @@ title = "Diagnostické dotazníky a nástroje"
 description = "Adaptované klinické instrumenty pro detekci a měření expozice technikám epistemické anihilace — BITE Model, BFI-2, ECRI, IES-R, DES-II — s poznámkami k použití, skórování, interpretaci a etice."
 weight = 4
 sort_by = "weight"
-template = "page.html"
 
 [extra]
 kompendium = ["08-prilohy"]

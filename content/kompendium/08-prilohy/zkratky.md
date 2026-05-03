@@ -3,7 +3,6 @@ title = "Zkratky a notace"
 description = "Konsolidovaný rejstřík všech zkratek a notačních konvencí používaných v kompendiu — EA, KA, NABLA, NMND, NWB, FLLM a dalších doctrine zkratek platformy Prismatic, plus per-section notační konvence."
 weight = 7
 sort_by = "weight"
-template = "page.html"
 
 [extra]
 kompendium = ["08-prilohy"]

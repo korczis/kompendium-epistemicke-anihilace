@@ -3,7 +3,6 @@ title = "Klasifikační schéma a taxonomie — meta-úroveň"
 description = "Meta-popis klasifikačního systému kompendia — notace EA-X.Y.Z, dimenzionální osy, kategoriální struktura, principy přiřazování kódů, vztah k jiným taxonomiím (DSM-5, ICD-11, BITE) a metodologie kanonizace nových technik."
 weight = 6
 sort_by = "weight"
-template = "page.html"
 
 [extra]
 kompendium = ["08-prilohy"]

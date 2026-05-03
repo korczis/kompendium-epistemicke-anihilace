@@ -179,7 +179,7 @@ Klient po 18 měsících intenzivního programu nebyl schopen popsat, co znamen�
 
 Sémantická imploze je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **[Decision Engine](/hub/dd/decisions/) operational definitions check** — rozhodovací logika vyžaduje, aby klíčové pojmy v rozhodovacích rámcích měly **operacionalizovanou** definici. Kruhové nebo prázdné pojmy jsou flagovány jako epistemická červená vlajka.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} operational definitions check** — rozhodovací logika vyžaduje, aby klíčové pojmy v rozhodovacích rámcích měly **operacionalizovanou** definici. Kruhové nebo prázdné pojmy jsou flagovány jako epistemická červená vlajka.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) sémantická stabilita** — provenance tracking sleduje stabilitu definic klíčových termínů napříč epistemickou pipeline; významový posun je auditovatelný.
 - **[Color Teams](@/glossary/color-teams.md) lingvistická forenzika** — Red Team explicitně testuje sémantickou stabilitu argumentačních rámců; imploudované termíny jsou triggerem pro hlubší audit.
 - **Glossary jako referenční kotva** — platformový [glosář](@/glossary/_index.md) udržuje **explicitní, verzované** definice klíčových termínů jako institucionální obranu proti imploznímu drift.
@@ -209,7 +209,7 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 

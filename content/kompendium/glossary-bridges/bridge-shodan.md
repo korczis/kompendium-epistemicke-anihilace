@@ -52,9 +52,9 @@ Defenzivní hodnota Shodanu spočívá v continuous self-discovery — organizac
 - **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
 - **Per-technique články**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
 - **Sekce 02 — Úvod**: [/kompendium/02-uvod/](@/kompendium/02-uvod/_index.md)
-- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke/)
-- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke/)
-- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-etika/)
+- **Sekce 06 — Klinické aplikace**: [/kompendium/06-klinicke/](/kompendium/06-klinicke-aplikace/)
+- **Sekce 07 — Teoretické reflexe**: [/kompendium/07-teoreticke/](/kompendium/07-teoreticke-reflexe/)
+- **Sekce 08 — Etika a doktrína**: [/kompendium/08-etika/](/kompendium/08-prilohy/)
 - **Glossary hub**: [/glossary/](@/glossary/_index.md)
 
 ---

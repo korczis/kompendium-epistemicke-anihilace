@@ -66,7 +66,7 @@ Apriorní saturace se vyskytuje v "kvantově-vědomých" komunitách, v někter�
 - **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.3 Noumenální redukce](@/kompendium/quick-reference/qr-ea-5-2-3.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
 - **Glossary**: [Apriori](/glossary/apriori/), [Syntetické a analytické](/glossary/synteticke-analyticke/), [Falsifikovatelnost](/glossary/falsifikovatelnost/), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Apriorní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: [Decision Engine claim verification](/hub/dd/decisions/), [Color Teams pseudoscience audit](@/glossary/color-teams.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine claim verification") }}, [Color Teams pseudoscience audit](@/glossary/color-teams.md)
 
 ---
 

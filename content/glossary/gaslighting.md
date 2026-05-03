@@ -34,7 +34,7 @@ The combined attack is diagnostic: any time the target attempts to use their own
 
 Within the Prismatic Platform, gaslighting patterns are addressed at multiple layers:
 
-- The [Decision Engine](/hub/dd/decisions/) treats **observer-state corruption signals** (e.g., self-reported confidence collapsing in the presence of a specific counterparty) as decision quality indicators in their own right — even when the underlying factual question remains undecided.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats **observer-state corruption signals** (e.g., self-reported confidence collapsing in the presence of a specific counterparty) as decision quality indicators in their own right — even when the underlying factual question remains undecided.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements **immutable observation logs**: once a perception is recorded with timestamp and provenance, it cannot be retroactively rewritten by later narrative pressure. This corresponds to the kompendium's structural defense against EA-1.3.2.
 - The [Color Teams](@/glossary/color-teams.md) Red Team explicitly tests platform UX for gaslighting-adjacent patterns (changing displayed history without an audit entry, suppressing user-confirmed events, reframing user actions in admin views).
 - Per-pattern Czech-language documentation is at [/kompendium/techniques/ea-1-3-2-strategic-reinterpretation/](/kompendium/techniques/ea-1-3-2-strategic-reinterpretation/) and [/kompendium/techniques/ea-1-4-2-latent-emotional-modulation/](/kompendium/techniques/ea-1-4-2-latent-emotional-modulation/).

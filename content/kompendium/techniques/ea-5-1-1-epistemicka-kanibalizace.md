@@ -202,7 +202,7 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 
 Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **[Decision Engine](/hub/dd/decisions/) provenance ledger** — každé tvrzení v rozhodovacím procesu má **kryptograficky podepsanou** linii autorství s timestampy, což činí retrospektivní reframování technicky neproveditelným.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} provenance ledger** — každé tvrzení v rozhodovacím procesu má **kryptograficky podepsanou** linii autorství s timestampy, což činí retrospektivní reframování technicky neproveditelným.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) authorship invariants** — epistemický pipeline zachovává atribuci napříč všemi transformacemi; ztráta atribuce je flagována jako anomálie.
 - **[Color Teams](@/glossary/color-teams.md) red-team protocol** — periodická revize asymetrických intelektuálních vztahů v rámci Prismatic operací s explicitní detekcí kanibalizačních vzorců.
 
@@ -227,7 +227,7 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 

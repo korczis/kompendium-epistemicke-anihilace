@@ -186,7 +186,7 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) paradigm-stability check** — audituje rozhodovací rámce klientů na sekvenční eskalaci.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} paradigm-stability check** — audituje rozhodovací rámce klientů na sekvenční eskalaci.
 - **NABLA Infinity multi-paradigm provenance** — uchovává historii rámců, detekuje vynucenou supresi.
 - **Color Teams paradigmatic adversarial review** — Red Team protokol pro detekci sekvenční eskalace v coaching/training pipeline.
 
@@ -202,7 +202,7 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
   - [Paradigmatická bezdomovina](/glossary/paradigmaticka-bezdomovina/)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

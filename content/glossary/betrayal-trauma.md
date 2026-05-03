@@ -35,7 +35,7 @@ Specifically:
 
 - **EA-1.3.x immunization techniques** weaponize betrayal blindness — the victim cannot examine evidence against the abuser without triggering attachment threat.
 - **EA-2.x metakognitivní destrukce** exploits the dissociative gap: the victim cannot trust their own perceptions because doing so would name the betrayal.
-- The [Decision Engine](/hub/dd/decisions/) treats high-dependency relational contexts as **structural risk factors** in confidence calibration — testimony from victims of trusted institutions requires different epistemic weighting than testimony about strangers.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats high-dependency relational contexts as **structural risk factors** in confidence calibration — testimony from victims of trusted institutions requires different epistemic weighting than testimony about strangers.
 - The kompendium's clinical reflections at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) build directly on BTT to explain why standard reality-testing interventions often fail with EA survivors and why attachment-aware therapeutic modalities are required.
 
 ## See Also

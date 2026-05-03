@@ -201,7 +201,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) tvrzecí integrita** — kalibrační logika **vyžaduje** explicitní pozitivní formulaci hypotézy; rozhodnutí formulovaná **výlučně** v negativní formě jsou flagována jako kandidáti pro apofatickou paralýzu.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} tvrzecí integrita** — kalibrační logika **vyžaduje** explicitní pozitivní formulaci hypotézy; rozhodnutí formulovaná **výlučně** v negativní formě jsou flagována jako kandidáti pro apofatickou paralýzu.
 - **NABLA Infinity kataphatická povinnost** — každá inference v pipeline musí mít **pozitivně formulovaný výstup**; čistě negativní výstupy spouštějí intervenci.
 - **Color Teams operační closure** — Red Team má mandát identifikovat negativní zacyklení, Blue Team má povinnost formulovat **pracovní hypotézu** v pozitivní formě.
 
@@ -221,7 +221,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
   - [Apofatický modus](/glossary/apofaticky-modus/)
   - [Epistemická stáze](/glossary/epistemicka-staze/)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

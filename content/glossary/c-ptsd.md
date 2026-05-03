@@ -38,7 +38,7 @@ C-PTSD is the **predictable downstream outcome** of sustained exposure to the te
 Within the Prismatic Platform:
 
 - The kompendium at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) explicitly anchors the epistemic-annihilation framework in the C-PTSD literature, making the taxonomy clinically actionable for trauma-informed practitioners.
-- The [Decision Engine](/hub/dd/decisions/) treatment of testimony from C-PTSD survivors incorporates **calibration-aware** weighting: such testimony is **not less reliable** in content, but its presentation (fragmented, affect-laden, non-linear) requires different epistemic processing.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treatment of testimony from C-PTSD survivors incorporates **calibration-aware** weighting: such testimony is **not less reliable** in content, but its presentation (fragmented, affect-laden, non-linear) requires different epistemic processing.
 - Kompendium [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats C-PTSD as evidence that epistemic harm is **biologically and developmentally real** — not merely a philosophical construct.
 
 ## See Also

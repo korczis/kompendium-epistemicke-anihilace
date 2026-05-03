@@ -192,7 +192,7 @@ Tato reflexivní symbióza je jádrem **evolučního charakteru** integrovaného
 - [Glosář: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glosář: Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
 - [Glosář: Anankastický režim](@/glossary/anankasticky-rezim.md)
-- [Decision Engine LiveView](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine LiveView") }}
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
 

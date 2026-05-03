@@ -182,7 +182,7 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/)** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
 - **OSINT pipeline auditovaná NABLA Infinity** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
 - **Methodological adversarial review** — interní praxe Prismatic je strukturováním kritického posouzení napříč paradigmaty.
 

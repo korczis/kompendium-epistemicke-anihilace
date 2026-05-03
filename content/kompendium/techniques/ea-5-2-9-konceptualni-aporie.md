@@ -174,7 +174,7 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** vyžaduje **explicitně typované pojmy** v každém epistemickém aktu — aporie by byla zachycena jako typová chyba.
-- **[Decision Engine](/hub/dd/decisions/)** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
 - **OSINT framework** strukturálně vyžaduje **operacionalizované** pojmy (entity, atribut, relace), které musí být **funkčně použitelné**.
 
 ## Související

@@ -249,9 +249,9 @@ Práce s touto populací nese **vysoké riziko vicarious trauma a EA-přenosu** 
 
 Pro institucionální podporu vulnerabilních populací nabízí platforma:
 - **[Color Teams](@/glossary/color-teams.md)** — defenzivní agenti pro detekci EA v institucionálních kontextech;
-- **[Decision Engine](/hub/dd/decisions/)** — kalibrace klinické důvěry s ohledem na rizikové signály manipulace;
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — kalibrace klinické důvěry s ohledem na rizikové signály manipulace;
 - **Glosář a kompendium** — psychoedukační nástroje pro klienty, jejich rodiny a institucionální partnery;
-- **[Investigation reports](/investigations/)** — specifická role v případech podezření z institucionálního zneužívání.
+- **{{ cross_link(path="/investigations/", text="Investigation reports") }}** — specifická role v případech podezření z institucionálního zneužívání.
 
 ## Limity a otevřené otázky
 

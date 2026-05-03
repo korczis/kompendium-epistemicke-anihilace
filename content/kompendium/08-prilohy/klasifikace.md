@@ -261,7 +261,7 @@ Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 - [Glossary](@/glossary/_index.md) — kanonizace termínů recipročně s touto taxonomií.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — L0–L13 mapování (sekce 5.5).
 - [Color Teams](@/glossary/color-teams.md) — Red Team scénáře využívají dimenzionální osy.
-- [Decision Engine](/hub/dd/decisions/) — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
 - [3NL architektura](/glossary/three-nested-loops/) — dimenze strukturální/obsahová mapuje na L1/L3 rozdělení.
 
 

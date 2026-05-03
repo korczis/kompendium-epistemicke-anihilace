@@ -163,7 +163,7 @@ Sankční rámec je **kalibrován tak**, aby byl úměrný riziku, nikoli pouze 
 
 ## Vztah k Prismatic Decision Engine
 
-Etické principy kompendia jsou **strukturálně propojeny** s [Decision Engine](/hub/dd/decisions/) Prismatic platformy:
+Etické principy kompendia jsou **strukturálně propojeny** s {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} Prismatic platformy:
 
 - **Confidence calibration** explicitně počítá s indikátory epistemické manipulace jako negativními signály
 - **Source diversity check** je technickou implementací principu epistemické triangulace

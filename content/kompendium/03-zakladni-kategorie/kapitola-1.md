@@ -381,7 +381,7 @@ Taxonomie EA-1.* by neměla být přijímána jako apriorní; vyžaduje **empiri
 | **Experimentální simulace** | Kontrolované expozice s měřením efektů | Plánováno |
 | **Cross-cultural validace** | Aplikovatelnost taxonomie napříč kulturními kontexty | Plánováno |
 
-Tato validační infrastruktura je integrována do platformového nástroje [DD Decisions](/hub/dd/decisions/) a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
+Tato validační infrastruktura je integrována do platformového nástroje {{ cross_link(path="/hub/dd/decisions/", text="DD Decisions") }} a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
 
 ## Závěr
 
@@ -400,10 +400,10 @@ V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) 
 - [Sekce 04 — Pokročilé fenomény](/kompendium/04-pokrocile-fenomeny/)
 - [Sekce 05 — Diagnostika](/kompendium/05-diagnostika/)
 - [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Sekce 07 — Prevence](/kompendium/07-prevence/)
-- [Sekce 08 — Etika](/kompendium/08-etika/)
+- [Sekce 07 — Prevence](/kompendium/prevention-resilience/)
+- [Sekce 08 — Etika](/kompendium/08-prilohy/)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
-- Platforma: [DD Decisions](/hub/dd/decisions/), [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Platforma: {{ cross_link(path="/hub/dd/decisions/", text="DD Decisions") }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 

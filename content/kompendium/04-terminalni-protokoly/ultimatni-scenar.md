@@ -144,7 +144,7 @@ Připomínáme: kompendium je [defenzivní taxonomie](@/glossary/taxonomie-ea.md
 
 Strukturální profil ultimátního scénáře je relevantní pro několik vrstev platformy:
 
-- **[Decision Engine](/hub/dd/decisions/)** — detekční heuristiky pro identifikaci protokolu v dokumentech (HR, intelligence, edukativní programy) využívají invariantní strukturální markery T1/T2/T3.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — detekční heuristiky pro identifikaci protokolu v dokumentech (HR, intelligence, edukativní programy) využívají invariantní strukturální markery T1/T2/T3.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — formální reprezentace epistemických trajektorií umožňuje modelovat průběh subjektu skrz vrstvy A–D.
 - **[Color Teams](@/glossary/color-teams.md)** — Red Team simulace adversariálních protokolů; Blue Team detekce a defenze.
 
@@ -176,7 +176,7 @@ Ukončení je vždy doprovázeno aktivací klinické intervence, debriefingem s 
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické intervence po expozici
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
-- Platforma: [Decision Engine](/hub/dd/decisions/) · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
+- Platforma: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
 
 
 ## ⚡ Kritický krok
@@ -202,4 +202,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

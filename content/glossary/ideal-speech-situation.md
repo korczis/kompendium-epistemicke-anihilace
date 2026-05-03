@@ -41,7 +41,7 @@ Specifically:
 - **Coercive control / institutional EA** violates condition (4) — external power asymmetries determine outcomes regardless of argument quality.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) explicitly uses the ISS as the four-dimensional diagnostic grid against which any manipulation case can be coded: which conditions are violated, by what techniques, with what compounding interactions.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team deliberation protocols are designed as approximations of the ISS — equal participation rules, structured-dissent procedures, audit trails for argument-quality versus power-asymmetry contributions to outcomes.
-- The [Decision Engine](/hub/dd/decisions/) calibration loop treats ISS-violations in source provenance as **structural risk factors** in confidence weighting: a conclusion produced under massively non-ISS conditions inherits epistemic taint regardless of its formal validity.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration loop treats ISS-violations in source provenance as **structural risk factors** in confidence weighting: a conclusion produced under massively non-ISS conditions inherits epistemic taint regardless of its formal validity.
 
 ## See Also
 

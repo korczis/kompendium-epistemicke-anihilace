@@ -52,7 +52,7 @@ The [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) approa
 
 - [Disociace](@/glossary/disociace.md) and EA must be carefully distinguished; treating one as the other produces reliable iatrogenic harm.
 - [Narrative Identity](@/glossary/narrative-identity.md) reconstruction must be **client-led** rather than therapist-imposed.
-- The [Decision Engine](/hub/dd/decisions/) supports clinicians by surfacing differential-diagnosis indicators rather than committing to single hypotheses prematurely — a design pattern that mirrors good clinical practice.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} supports clinicians by surfacing differential-diagnosis indicators rather than committing to single hypotheses prematurely — a design pattern that mirrors good clinical practice.
 - [Color Teams](@/glossary/color-teams.md) Blue Team protocols include iatrogenic-risk audits when designing platform interventions: even technical defenses against EA can produce iatrogenic effects (e.g., aggressive content filtering inducing learned helplessness or reality-checking-dependence).
 
 The kompendium's stance is unequivocal: an EA recovery intervention that **does not actively monitor for iatrogenic harm** is professional malpractice, not therapeutic care.

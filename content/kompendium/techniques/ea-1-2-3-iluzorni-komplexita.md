@@ -250,7 +250,7 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 

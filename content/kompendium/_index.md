@@ -151,7 +151,7 @@ Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic pl
 
 - **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
 - **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány Red Team agenty pro epistemic adversarial simulation.
-- **[Decision Engine](/hub/dd/decisions/)**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
 - **[Glossary](@/glossary/_index.md)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
 
 ## Inkrementální publikace

@@ -66,7 +66,7 @@ Kategorická transgrese se vyskytuje v sektách s gnostickým holismem ("vše je
 - **Sourozenecké techniky**: [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.11 Modální dezorientace](@/kompendium/quick-reference/qr-ea-5-1-11.md), [EA-5.1.12 Kauzální inverze](@/kompendium/quick-reference/qr-ea-5-1-12.md)
 - **Glossary**: [Category mistake](/glossary/category-mistake/), [Aristotelovy kategorie](/glossary/aristotelovy-kategorie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Kategoriální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [NABLA Infinity typové vrstvy](@/glossary/nabla-infinity.md), [Decision Engine kategoriální schémata](/hub/dd/decisions/)
+- **Platforma**: [NABLA Infinity typové vrstvy](@/glossary/nabla-infinity.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine kategoriální schémata") }}
 
 ---
 

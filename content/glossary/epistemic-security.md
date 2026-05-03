@@ -39,7 +39,7 @@ Within the Prismatic Platform, epistemic security is the **organizing frame** th
 
 - The Kompendium ([/kompendium/](@/kompendium/_index.md)) is itself an epistemic-security artifact: a taxonomy of attack techniques against individual and collective cognition, designed for use by qualified clinicians, researchers, and security professionals.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) is a platform-level epistemic-security pipeline: source-diversity invariants, falsifiability tracking, provenance audits, and multi-modal cross-checks together implement a defense-in-depth posture against the EA technique catalog.
-- The [Decision Engine](/hub/dd/decisions/) treats epistemic-process integrity as a **first-class confidence signal**: a decision is only as credible as the epistemic process producing its inputs.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats epistemic-process integrity as a **first-class confidence signal**: a decision is only as credible as the epistemic process producing its inputs.
 - [Color Teams](@/glossary/color-teams.md) operationalize the field's recommendations: Red Team simulates attackers, Blue Team hardens defenses, Purple Team integrates findings.
 - The [Info-Ops](@/glossary/info-ops.md), [Deepfake](@/glossary/deepfake.md), [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), and [Deplatforming](@/glossary/deplatforming.md) entries each address specific subdomains of the broader epistemic-security field.
 

@@ -171,7 +171,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 - [Hub kompendia](@/kompendium/_index.md)
 - [Techniques index](@/kompendium/techniques/_index.md)
 - [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
-- [Glossary: Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Glossary: Decision Engine") }}
 
 ---
 

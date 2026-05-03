@@ -178,7 +178,7 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) topology check** — kalibrační logika detekuje rozhodovací řady s **monotónní strukturou** (všechna rozhodnutí konvergující ke stejnému doporučení) jako červenou vlajku.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} topology check** — kalibrační logika detekuje rozhodovací řady s **monotónní strukturou** (všechna rozhodnutí konvergující ke stejnému doporučení) jako červenou vlajku.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) divergence guarantee** — epistemický pipeline má strukturálně vynucené **multiple competing hypotheses**; konvergence k jedné hypotéze bez ortogonální evidence je flagována.
 - **[Color Teams](@/glossary/color-teams.md) red-team adversariality** — institucionální devil's advocacy proti monotonizaci.
 
@@ -204,7 +204,7 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 

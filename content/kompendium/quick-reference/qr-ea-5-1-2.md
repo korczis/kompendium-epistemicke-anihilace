@@ -66,7 +66,7 @@ Manifestuje se v intelektualizujících sektách, akademických prostředích s 
 - **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md), [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
 - **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Sémantická afázie](/glossary/semanticka-afazie/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce konceptuální stability](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [Glossary cache](@/glossary/_index.md), [Decision Engine concept ledger](/hub/dd/decisions/)
+- **Platforma**: [Glossary cache](@/glossary/_index.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine concept ledger") }}
 
 ---
 

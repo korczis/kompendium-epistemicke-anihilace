@@ -111,7 +111,7 @@ Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní dest
 
 ## Vztah k platformě Prismatic
 
-EMA data lze importovat do [Decision Engine](/hub/dd/decisions/) jako **temporální evidenci** o pacientově epistemické stabilitě. To je užitečné při (a) monitorování průběhu terapie, (b) detekci [retraumatizace](/glossary/retraumatizace/) a (c) kalibraci důvěry v pacientovo svědectví v [forenzním kontextu](/kompendium/06-klinicke-aplikace/legal-aspects-EA-recovery/).
+EMA data lze importovat do {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} jako **temporální evidenci** o pacientově epistemické stabilitě. To je užitečné při (a) monitorování průběhu terapie, (b) detekci [retraumatizace](/glossary/retraumatizace/) a (c) kalibraci důvěry v pacientovo svědectví v [forenzním kontextu](/kompendium/06-klinicke-aplikace/legal-aspects-EA-recovery/).
 
 ## Související
 

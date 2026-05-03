@@ -40,7 +40,7 @@ Predictive processing supplies the **mechanistic substrate** that makes epistemi
 - **Gaslighting** (a paradigmatic technique catalogued throughout the kompendium) is precisely **adversarial precision manipulation** of the victim's interoceptive and self-monitoring channels — the victim cannot trust their own perceptions because the precision-weighting of self-generated signal has been collapsed.
 - The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements PP-aware defenses: explicit prior tracking, precision auditing, and detection of pathologically immune belief states. See [/glossary/epistemic-pipeline/](@/glossary/epistemic-pipeline.md) for the 16-level architecture.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) develops the PP framing as one of three theoretical pillars (alongside phenomenology and critical theory) for understanding why EA is so devastating: it does not merely insert false beliefs, it **rewires the inference machinery itself**.
-- The [Decision Engine](/hub/dd/decisions/) calibration loop is itself a precision-management system — Brier scores and ECE measure how well the platform's priors track reality, providing PP-style accountability.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration loop is itself a precision-management system — Brier scores and ECE measure how well the platform's priors track reality, providing PP-style accountability.
 
 ## See Also
 

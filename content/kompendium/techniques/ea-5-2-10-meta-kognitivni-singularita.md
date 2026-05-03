@@ -172,7 +172,7 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) calibration** — celá platforma je založena na **diferenciované** metakognici (kalibrované konfidenci); singularita by byla zachycena jako **strukturní porucha** kalibrace.
-- **[Decision Engine](/hub/dd/decisions/) outcome processor** — pravidelná **konfrontace** předpovědí s realitou vynucuje metakognitivní revizi.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} outcome processor** — pravidelná **konfrontace** předpovědí s realitou vynucuje metakognitivní revizi.
 - **OSINT framework's source-confidence matrix** — strukturní vyžadování **diferencované** jistoty napříč zdroji.
 
 ## Související

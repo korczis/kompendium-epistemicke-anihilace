@@ -60,7 +60,7 @@ The notation is designed with five engineering properties relevant to long-term 
 Within the Prismatic Platform, EA codes serve as **first-class cross-references**:
 
 - The [Kompendium hub](@/kompendium/_index.md) and [techniques index](@/kompendium/techniques/_index.md) use them as canonical anchors.
-- The [Decision Engine](/hub/dd/decisions/) calibration logic references EA codes when flagging epistemic manipulation indicators in input sources.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration logic references EA codes when flagging epistemic manipulation indicators in input sources.
 - [Glossary](@/glossary/_index.md) entries link directly to relevant EA codes for context.
 - Future automation (RAG over the kompendium, structured ML training) will use EA codes as the primary indexing key.
 

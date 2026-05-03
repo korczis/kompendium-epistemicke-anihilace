@@ -34,7 +34,7 @@ Within the Prismatic Platform, the BITE Model functions as a **screening instrum
 - BITE Information Control axis maps onto Kompendium category EA-1.1 (epistemic isolation): selective exposure (EA-1.1.1), source delegitimization (EA-1.1.2), reality narrowing (EA-1.1.3).
 - BITE Thought Control maps onto EA-1.3 (epistemic immunization) and EA-2 (cognitive anihilace targeting metacognition).
 - BITE Emotion Control maps onto the affective vectors discussed in [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md).
-- The [Decision Engine](/hub/dd/decisions/) Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
 - [Color Teams](@/glossary/color-teams.md) use BITE checklists during Red Team exercises to model adversary group structures.
 
 The BITE Model is referenced in the Kompendium's clinical applications section as a **first-pass triage tool** preceding more granular taxonomic analysis.

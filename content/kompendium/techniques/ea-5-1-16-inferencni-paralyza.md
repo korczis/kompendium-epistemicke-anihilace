@@ -180,7 +180,7 @@ Soudce se hrdě prezentoval jako "epistemicky pokorný", odkládal rozsudky done
 
 Inferenční paralýza je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **[Decision Engine](/hub/dd/decisions/)** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem "epistemické pokory".
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem "epistemické pokory".
 - **Calibration loop** trénuje rozhodovatele na **operační rychlost** s následným feedbackem, čímž odstraňuje paralyzér.
 - **NABLA Infinity** rozlišuje mezi **L1 logickou** a **L2 metakognitivní** vrstvou a zabraňuje, aby L2 trvale dominovala nad L1.
 
@@ -206,7 +206,7 @@ Inferenční paralýza je strukturálním motivem pro několik defenzivních mec
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)

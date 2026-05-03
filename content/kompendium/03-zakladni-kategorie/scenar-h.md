@@ -351,8 +351,8 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 - [Anihilační fenomény](/glossary/anihilacni-fenomeny/)
 
 ### Platforma
-- [Decision Engine](/hub/dd/decisions/)
-- [Calibration Dashboard](/hub/dd/decisions/calibration/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- {{ cross_link(path="/hub/dd/decisions/calibration/", text="Calibration Dashboard") }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)

@@ -135,7 +135,7 @@ Co prožívá oběť expertní disinflace:
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) source-credibility tracking** — Prismatic explicitně oddělí *substanční* a *kontextuální* kritiku zdroje a flaguje případy, kdy kritika cílí výhradně na kontext bez věcného protiargumentu.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} source-credibility tracking** — Prismatic explicitně oddělí *substanční* a *kontextuální* kritiku zdroje a flaguje případy, kdy kritika cílí výhradně na kontext bez věcného protiargumentu.
 - **NABLA Infinity provenance** — citační síť expertů je dohledatelná, což ztěžuje **selektivní rekontextualizaci**.
 - **OSINT framework** — multi-source default detekuje koordinovanou kampaň disinflace prostřednictvím vzorové synchronizace publikací.
 
@@ -151,7 +151,7 @@ Co prožívá oběť expertní disinflace:
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)

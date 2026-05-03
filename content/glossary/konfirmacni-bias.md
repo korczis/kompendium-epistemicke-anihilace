@@ -36,8 +36,8 @@ The kompendium's diagnostic principle: confirmation bias is **universal** and **
 
 Within the Prismatic Platform, confirmation bias is treated as a **first-class structural problem**, not a personal weakness:
 
-- The [Decision Engine](/hub/dd/decisions/) explicitly tracks **source diversity** in its information graph: a decision based on a low-diversity source set receives a confidence penalty regardless of internal coherence. High coherence + low diversity is a confirmation-bias signature, not a strength.
-- The platform's [calibration loop](/hub/dd/decisions/calibration) compares predicted vs. realized outcomes specifically to detect the systematic over-confidence that confirmation bias produces. A subject whose confirming predictions outperform their disconfirming predictions is showing signature bias even without content-level analysis.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly tracks **source diversity** in its information graph: a decision based on a low-diversity source set receives a confidence penalty regardless of internal coherence. High coherence + low diversity is a confirmation-bias signature, not a strength.
+- The platform's {{ cross_link(path="/hub/dd/decisions/calibration", text="calibration loop") }} compares predicted vs. realized outcomes specifically to detect the systematic over-confidence that confirmation bias produces. A subject whose confirming predictions outperform their disconfirming predictions is showing signature bias even without content-level analysis.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements **mandatory disconfirmation queries**: any high-confidence belief must be paired with an explicit list of sources that would disconfirm it; absence of such sources is itself an alarm.
 - The [Color Teams](@/glossary/color-teams.md) Red Team builds adversarial information environments to validate that platform-level diversity checks survive deliberate gaming. Czech-language treatment of confirmation bias in EA context: [/kompendium/04-mechanismy/biasy/konfirmacni/](/kompendium/04-mechanismy/biasy/konfirmacni/).
 

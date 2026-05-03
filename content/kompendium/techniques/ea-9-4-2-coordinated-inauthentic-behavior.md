@@ -150,8 +150,8 @@ Prismatic Platform implementuje detekci a neutralizaci Coordinated Inauthentic B
 
 - [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
 - [Nabla Infinity Engine](/nabla/)
-- [OSINT Toolbox](/osint/toolbox/)
-- [Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/osint/toolbox/", text="OSINT Toolbox") }}
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 
 ---
 

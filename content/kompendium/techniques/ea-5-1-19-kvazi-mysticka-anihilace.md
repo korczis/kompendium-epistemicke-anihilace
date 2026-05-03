@@ -178,7 +178,7 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický monitor explicitně modeluje *unfalsifiable interpretive frames* jako kategorii rizika.
-- **[Decision Engine](/hub/dd/decisions/)** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
 - **[Color Teams](@/glossary/color-teams.md)** — Red Team scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
 
 ## Související
@@ -193,7 +193,7 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)

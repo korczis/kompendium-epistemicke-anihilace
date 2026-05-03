@@ -108,7 +108,7 @@ Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání
 
 ## Vztah k platformě Prismatic
 
-[Decision Engine](/hub/dd/decisions/) integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](@/glossary/due-diligence.md). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
+{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](@/glossary/due-diligence.md). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
 
 ## Související
 

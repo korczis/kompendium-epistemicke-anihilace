@@ -194,7 +194,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na "dostatečnou jistotu", jsou flagována jako rekurzivně paralyzovaná.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na "dostatečnou jistotu", jsou flagována jako rekurzivně paralyzovaná.
 - **NABLA Infinity reflective depth limit** — epistemický pipeline má **maximální hloubku** sebepoukazu; po dosažení limitu se aktivuje operační rozhodnutí na základě nejlepšího aktuálního stavu.
 - **Color Teams reflexivní rotace** — Red Team má mandát **zastavit** Blue Team v rekurzivní reflexi, pokud paralyzuje rozhodování.
 
@@ -213,7 +213,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
   - [Metakognice](@/glossary/metakognice.md)
   - [Rekurzivní paralýza](/glossary/rekurzivni-paralyza/)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

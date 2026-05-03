@@ -289,7 +289,7 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](/komp
 - [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-- [Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 
 
 ## ⚡ Kritický krok

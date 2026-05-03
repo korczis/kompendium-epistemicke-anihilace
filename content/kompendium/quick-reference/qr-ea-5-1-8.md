@@ -66,7 +66,7 @@ Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež
 - **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.20 Holografická redukce](@/kompendium/quick-reference/qr-ea-5-1-20.md), [EA-5.1.30 Konceptuální entropie](@/kompendium/quick-reference/qr-ea-5-1-30.md)
 - **Glossary**: [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Integrative collapse](/glossary/integrative-collapse/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Konceptuální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [Decision Engine concept graph](/hub/dd/decisions/), [NABLA Infinity integrace](@/glossary/nabla-infinity.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine concept graph") }}, [NABLA Infinity integrace](@/glossary/nabla-infinity.md)
 
 ---
 

@@ -42,7 +42,7 @@ Veřejnoprávní debata "klima: vědci vs. skeptici" v split-screenu, 50/50 čas
 - **Detailní článek**: [/kompendium/techniques/ea-1-2-2-Falešná-ekvivalence](@/kompendium/techniques/_index.md)
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
 - **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
-- **Platformové refs**: [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](@/glossary/nabla-infinity.md)
+- **Platformové refs**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}, [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ---
 

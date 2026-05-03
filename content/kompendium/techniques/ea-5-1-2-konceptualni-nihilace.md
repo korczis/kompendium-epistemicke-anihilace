@@ -208,7 +208,7 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 
 Konceptuální nihilace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **[Decision Engine](/hub/dd/decisions/) operational definitions** — všechny rozhodovací proměnné mají **operativní, machine-checkable** definice, které nemohou být diskurzivně rozkývány.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} operational definitions** — všechny rozhodovací proměnné mají **operativní, machine-checkable** definice, které nemohou být diskurzivně rozkývány.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) categorial invariants** — epistemický pipeline udržuje stabilní kategorialní topologii napříč transformacemi; pokus o destabilizaci základních kategorií je flagován.
 - **[Color Teams](@/glossary/color-teams.md) blue-team protocol** — defenzivní validace, že interní diskurz Prismatic neprodukuje konceptuální nihilaci u operátorů (zejména v dlouhodobých výcvikových rámcích).
 
@@ -234,7 +234,7 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 

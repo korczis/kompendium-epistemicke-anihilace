@@ -37,7 +37,7 @@ Specifically:
 - **EA-1.2.x delegitimization techniques** violate the **rightness claim** — they deny the speaker the normative status of legitimate participant in discourse.
 - **EA-1.3.x immunization techniques** violate the **sincerity claim** — they preserve appearance of openness to argument while structurally precluding update.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Habermas's framework as the **normative pillar** of the EA taxonomy: it supplies the criterion against which manipulation can be identified as such.
-- The [Decision Engine](/hub/dd/decisions/) is designed to track validity-claim violations as **calibration risk factors** — when an information source systematically violates one or more validity claims, downstream confidence in conclusions drawn from that source is appropriately discounted.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} is designed to track validity-claim violations as **calibration risk factors** — when an information source systematically violates one or more validity claims, downstream confidence in conclusions drawn from that source is appropriately discounted.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team practice is explicitly modeled on communicative-action norms: deliberation is conducted under conditions designed to approximate the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as a pragmatic working ideal.
 - The kompendium itself, as a published, peer-reviewable, openly contestable taxonomy, performs communicative rationality at the meta-level: it submits its own validity claims to public discursive testing.
 

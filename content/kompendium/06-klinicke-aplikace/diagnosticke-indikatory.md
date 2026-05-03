@@ -172,7 +172,7 @@ Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techni
 
 ## Vztah k platformě Prismatic
 
-Klinický [Decision Engine](/hub/dd/decisions/) může klinika podpořit při interpretaci nejasných klastrů — využívá kalibraci důvěry založenou na markerech epistemické manipulace jako negativní signály ve vyhodnocení. Pro institucionální kontexty (ochrana vulnerabilních populací, vzdělávací prostředí) je k dispozici integrace s [Color Teams](@/glossary/color-teams.md) defenzivními agenty.
+Klinický {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} může klinika podpořit při interpretaci nejasných klastrů — využívá kalibraci důvěry založenou na markerech epistemické manipulace jako negativní signály ve vyhodnocení. Pro institucionální kontexty (ochrana vulnerabilních populací, vzdělávací prostředí) je k dispozici integrace s [Color Teams](@/glossary/color-teams.md) defenzivními agenty.
 
 ## Limity diagnostiky
 

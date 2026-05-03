@@ -188,7 +188,7 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
 - **OSINT framework's source-quality matrix** — strukturovaná hodnotící mřížka brání idiosynkratickému převrácení reliability.
 - **NABLA Infinity epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
 

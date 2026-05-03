@@ -66,7 +66,7 @@ Manifestuje se nejvýrazněji v rodinných systémech s **gaslightingem**, ve vy
 - **Sourozenecké techniky**: [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
 - **Glossary**: [Gaslighting](@/glossary/gaslighting.md), [Gish gallop](@/glossary/gish-gallop.md), [Logická koherence](/glossary/logicka-koherence/), [Toulmin model](/glossary/toulmin-model/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Argumentační rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [Decision Engine reasoning trace](/hub/dd/decisions/), [NABLA Infinity logické vrstvy](@/glossary/nabla-infinity.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine reasoning trace") }}, [NABLA Infinity logické vrstvy](@/glossary/nabla-infinity.md)
 
 ---
 

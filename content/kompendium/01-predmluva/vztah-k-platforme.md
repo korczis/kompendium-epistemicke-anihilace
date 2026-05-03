@@ -48,7 +48,7 @@ Tato architektura je **fundamentální inovací** ve vztahu k tradičnímu model
 
 ## Decision Engine
 
-[Decision Engine](/hub/dd/decisions/) je centrálním empirickým nástrojem pro testování taxonomických tvrzení.
+{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} je centrálním empirickým nástrojem pro testování taxonomických tvrzení.
 
 ### Strukturální propojení
 
@@ -80,7 +80,7 @@ Tato data jsou agregována do kvartálních **Taxonomy Health Reports**, které 
 
 ### Confidence calibration
 
-Decision Engine implementuje [calibration loop](/hub/dd/decisions/calibration), který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](@/kompendium/01-predmluva/eticke-aspekty.md) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
+Decision Engine implementuje {{ cross_link(path="/hub/dd/decisions/calibration", text="calibration loop") }}, který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](@/kompendium/01-predmluva/eticke-aspekty.md) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
 
 ## NABLA Infinity (∇∞)
 
@@ -166,7 +166,7 @@ Tento cyklus zajišťuje, že taxonomie **nezaostává za empirickou realitou**.
 
 ## PrismaticDD (Due Diligence)
 
-[PrismaticDD](/hub/dd/) aplikuje taxonomii v kontextu **due diligence operací** — typicky v M&A transakcích, regulatorní compliance a forenzní investigaci.
+{{ cross_link(path="/hub/dd/", text="PrismaticDD") }} aplikuje taxonomii v kontextu **due diligence operací** — typicky v M&A transakcích, regulatorní compliance a forenzní investigaci.
 
 ### Aplikační doména
 
@@ -254,9 +254,9 @@ Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
 - [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Decision Engine](/hub/dd/decisions/)
-- [Calibration Dashboard](/hub/dd/decisions/calibration/)
-- [PrismaticDD](/hub/dd/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- {{ cross_link(path="/hub/dd/decisions/calibration/", text="Calibration Dashboard") }}
+- {{ cross_link(path="/hub/dd/", text="PrismaticDD") }}
 - [OSINT Framework](@/osint/_index.md)
 - [Glossary: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)

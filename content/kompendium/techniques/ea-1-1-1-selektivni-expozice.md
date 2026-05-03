@@ -223,7 +223,7 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 Selektivní expozice je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **[Decision Engine](/hub/dd/decisions/) source diversity check** — kalibrační logika explicitně penalizuje rozhodnutí založená na zdrojích z **úzkého okruhu** ([EA-1.1.1 detekční marker](#detekcni-markery-pohled-pozorovatele) implementovaný algoritmicky).
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} source diversity check** — kalibrační logika explicitně penalizuje rozhodnutí založená na zdrojích z **úzkého okruhu** ([EA-1.1.1 detekční marker](#detekcni-markery-pohled-pozorovatele) implementovaný algoritmicky).
 - **OSINT framework's multi-source default** — všechny investigation pipelines defaultují na **multiple nezávislé zdroje** a flagují případy, kdy je výsledek závislý na jediném zdroji.
 - **NABLA Infinity provenance tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou linii zdrojů, což umožňuje identifikaci **strukturálních filtrací** v dlouhodobém sledování.
 
@@ -237,7 +237,7 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

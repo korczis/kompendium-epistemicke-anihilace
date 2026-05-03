@@ -101,7 +101,7 @@ EA-5.5.4 (gestalt disrupce), EA-5.5.7 (afektivně-tonální redukce)
 
 ## Vztah k Prismatic platformě
 
-Technika **pre-predikativní blokace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. [Decision Engine](/hub/dd/decisions/) udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.1.
+Technika **pre-predikativní blokace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.1.
 
 
 ## Teoretické zázemí
@@ -178,7 +178,7 @@ Pro **objektivní detekci** aplikace techniky **pre-predikativní blokace** v po
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 

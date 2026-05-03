@@ -181,7 +181,7 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/)** odmítá rozhodnutí založená výhradně na **fenomenologické jistotě** bez korespondující evidenční stopy.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** odmítá rozhodnutí založená výhradně na **fenomenologické jistotě** bez korespondující evidenční stopy.
 - **OSINT framework** vyžaduje **multiple nezávislé zdroje** pro extraordinární tvrzení, čímž neutralizuje pseudo-transcendentní jednotlivý "vhled".
 - **NABLA Infinity** odděluje **konfidenci** (kalibrovanou pravděpodobnost) od **subjektivního pocitu jistoty**.
 

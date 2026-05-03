@@ -230,7 +230,7 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 

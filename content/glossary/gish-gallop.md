@@ -33,7 +33,7 @@ The technique's effectiveness depends not on persuading the opponent but on the 
 
 Within the Prismatic Platform Kompendium, the Gish Gallop is catalogued under **EA-1.1.2 (source delegitimization combined with cognitive-overload exploitation)** — see [/kompendium/techniques/ea-1-1-2/](/kompendium/techniques/ea-1-1-2/). It is the rhetorical-scale analogue of the [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) which operates at population scale.
 
-- The [Decision Engine](/hub/dd/decisions/) implements gallop-resistance through **claim-by-claim accounting**: each input claim is registered, evaluated, and either confirmed or open-flagged; un-evaluated claims do not become provisionally true through unrebutted volume.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} implements gallop-resistance through **claim-by-claim accounting**: each input claim is registered, evaluated, and either confirmed or open-flagged; un-evaluated claims do not become provisionally true through unrebutted volume.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) requires explicit falsifiability tags on claims — a Gish Gallop input characteristically shows high claim density with low individual falsifiability, which the pipeline downweights.
 - [Color Teams](@/glossary/color-teams.md) Red Team training drills include Gish Gallop scenarios where Blue Team must distinguish productive engagement from format-trap.
 - The [Info-Ops](@/glossary/info-ops.md), [Epistemic Security](@/glossary/epistemic-security.md), and [Delegitimizace](@/glossary/delegitimizace.md) entries provide broader context.

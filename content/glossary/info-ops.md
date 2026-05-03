@@ -38,7 +38,7 @@ The expansion of IO into **gray-zone** operations (below threshold of armed conf
 Within the Prismatic Platform, Info-Ops represents the **adversary capability ceiling** that defensive architectures must be designed against:
 
 - The Kompendium catalogues IO-relevant techniques across multiple chapters but treats Info-Ops itself as a **scenario class** rather than a single technique. State-level adversaries deploy combinations from the EA catalog with resources and persistence that exceed the standard threat model assumed for individual or small-group manipulation.
-- The [Decision Engine](/hub/dd/decisions/) implements **adversarial provenance scoring**: in environments with active IO, source diversity is necessary but not sufficient — the diverse sources must also pass cross-correlation checks for coordinated inauthentic behavior signatures.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} implements **adversarial provenance scoring**: in environments with active IO, source diversity is necessary but not sufficient — the diverse sources must also pass cross-correlation checks for coordinated inauthentic behavior signatures.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) source-provenance auditing is designed in part to defend against IO operations that exploit credentialed channels (compromised journalists, captured think-tanks, infiltrated NGOs).
 - [Color Teams](@/glossary/color-teams.md) Red Team scenarios at the highest tier model state-actor IO campaigns as the ceiling threat — if defenses hold against this, they hold against lesser threats.
 - The [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entry describes one specific IO doctrinal approach.

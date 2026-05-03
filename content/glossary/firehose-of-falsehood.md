@@ -36,7 +36,7 @@ The model has subsequently been observed beyond Russian state actors: in domesti
 
 Within the Prismatic Platform Kompendium, the firehose of falsehood is catalogued under **EA-1.2 (epistemic falsification)** combined with **EA-3 (collective cognitive overload)** — see [/kompendium/techniques/](@/kompendium/techniques/_index.md). It exemplifies the kompendium's **autoamplification** definitional feature: victims, overwhelmed by volume, frequently begin asserting "everything is propaganda anyway" — a position that completes the attacker's goal of disabling truth-seeking.
 
-- The [Decision Engine](/hub/dd/decisions/) implements firehose-resistance through **provenance-weighted aggregation** rather than count-based aggregation: 10,000 claims from one network of coordinated actors carry the weight of one source, not 10,000.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} implements firehose-resistance through **provenance-weighted aggregation** rather than count-based aggregation: 10,000 claims from one network of coordinated actors carry the weight of one source, not 10,000.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) source-diversity invariants explicitly prevent volume-attack: high evidence weight requires *independent* sources, not merely *many* sources.
 - [Color Teams](@/glossary/color-teams.md) Red Team scenarios include firehose simulations to test platform resilience against volume attacks.
 - The [Gish Gallop](@/glossary/gish-gallop.md) is a rhetorical relative of the firehose at the individual-debate scale; both exploit asymmetric correction costs.

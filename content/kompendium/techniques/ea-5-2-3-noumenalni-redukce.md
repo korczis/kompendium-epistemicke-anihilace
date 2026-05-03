@@ -193,7 +193,7 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně udržuje **dvě úrovně tvrzení**: fenomenologickou (*systém zaznamenal X*) a propoziční (*X je skutečnost*) s odlišnou kalibrační logikou.
 - **OSINT framework** strukturálně rozlišuje **observation** od **inference** — distinkce strojově vynucovaná.
-- **[Decision Engine](/hub/dd/decisions/)** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
 
 ## Související
 

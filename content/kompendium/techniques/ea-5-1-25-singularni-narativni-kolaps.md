@@ -181,7 +181,7 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) narrative-diversity check** — audituje rozhodnutí založená na **jediné biografické interpretaci** subjektu.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} narrative-diversity check** — audituje rozhodnutí založená na **jediné biografické interpretaci** subjektu.
 - **NABLA Infinity provenance tracking** — udržuje historii interpretací, umožňuje detekci diskontinuity narativu.
 - **Color Teams biographical audit** — Red Team protokol pro detekci narativního monismu v high-stakes kontextech.
 
@@ -197,7 +197,7 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
   - [Narativní topologie](/glossary/narativni-topologie/)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

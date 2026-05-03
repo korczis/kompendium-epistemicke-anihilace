@@ -182,7 +182,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) foundational source check** — kalibrace explicitně vyžaduje **více nezávislých** základen pro vysokou důvěru, čímž strukturálně bloku­je zdrojovou epistemologii.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} foundational source check** — kalibrace explicitně vyžaduje **více nezávislých** základen pro vysokou důvěru, čímž strukturálně bloku­je zdrojovou epistemologii.
 - **NABLA Infinity grounding map** — udržuje seznam epistemických základen, na nichž každé tvrzení v pipeline stojí; rovnoměrná destabilizace více základen je flagována.
 - **Color Teams adversarial validation** — Red Team operuje s explicitním protokolem testujícím odolnost klíčových rozhodnutí vůči vakuačním tlakům.
 
@@ -199,7 +199,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
   - [Epistemická bezdomovost](/glossary/epistemicka-bezdomovost/)
   - [Epistemické základny](/glossary/epistemicke-zakladny/)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

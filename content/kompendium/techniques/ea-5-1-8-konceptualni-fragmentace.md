@@ -229,7 +229,7 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní mapování:
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) integration check** — provenance graf každé komplexní úvahy je analyzován na **strukturální propojenost**; izolované, nepropojené uzly jsou flagovány jako podezření na fragmentaci.
-- **[Decision Engine](/hub/dd/decisions/) holistic gate** — komplexní rozhodnutí vyžaduje doložení **funkční** integrace, nikoli pouze inventáře komponent.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} holistic gate** — komplexní rozhodnutí vyžaduje doložení **funkční** integrace, nikoli pouze inventáře komponent.
 - **Color Teams cross-paradigm review** — *Red Team* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
 
 ## Související
@@ -246,7 +246,7 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](/kompendium/04-operacni-principy/)

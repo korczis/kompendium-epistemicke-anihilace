@@ -125,10 +125,10 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 
 Tato edukativní technika je integrovatelná s několika komponentami Prismatic platformy:
 
-- **[Decision Engine](/hub/dd/decisions/)** — evaluační metriky a kompetenční assessmenty mohou využívat decision engine pro tracking longitudinálního vývoje studentů s confidence calibration.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — evaluační metriky a kompetenční assessmenty mohou využívat decision engine pro tracking longitudinálního vývoje studentů s confidence calibration.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
 - **[Color Teams](/aiad/color-teams/)** — supervize může využívat color-team metodologii (Red Team challenges, Blue Team defenses) pro praktická cvičení.
-- **[OSINT framework](/osint/toolbox/)** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
+- **{{ cross_link(path="/osint/toolbox/", text="OSINT framework") }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
 ## Související
 
@@ -146,7 +146,7 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
   - [Kompendium EA](@/glossary/kompendium-ea.md)
 - **Klinické aplikace**: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)

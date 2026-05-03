@@ -66,7 +66,7 @@ Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství
 - **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
 - **Glossary**: [Sémantická afázie](/glossary/semanticka-afazie/), [Konceptuální anihilace](/glossary/konceptualni-anihilace/), [Newspeak](/glossary/newspeak/), [Pragmatická kompetence](/glossary/pragmaticka-kompetence/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Lingvistická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [Decision Engine sémantická vrstva](/hub/dd/decisions/), [Glossary canonical](@/glossary/_index.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine sémantická vrstva") }}, [Glossary canonical](@/glossary/_index.md)
 
 ---
 

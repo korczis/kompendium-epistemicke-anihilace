@@ -172,7 +172,7 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) drift detector** — sleduje, zda **kalibrace** rozhodovacích parametrů u uživatele driftuje konzistentním směrem mimo původní baseline.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} drift detector** — sleduje, zda **kalibrace** rozhodovacích parametrů u uživatele driftuje konzistentním směrem mimo původní baseline.
 - **NABLA Infinity trajectory tracking** — uchovává časovou řadu pozic, jež subjekt zastával, a flaguje kumulativní posuny pod prahem afektivní detekce.
 - **Color Teams retrospective audit** — Red Team operuje s explicitním protokolem pro retrospektivní audit driftu kultury bezpečnostního týmu.
 
@@ -188,7 +188,7 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Asymptotický kolaps](/glossary/asymptoticky-kolaps/)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

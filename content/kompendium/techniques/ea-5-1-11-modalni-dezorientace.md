@@ -183,7 +183,7 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) source modality check** — explicitně rozlišuje *fakt* / *hypotézu* / *kontrafaktuál* / *imaginaci* v evidenčním řetězci a vyžaduje, aby každý vstup nesl modální označení.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} source modality check** — explicitně rozlišuje *fakt* / *hypotézu* / *kontrafaktuál* / *imaginaci* v evidenčním řetězci a vyžaduje, aby každý vstup nesl modální označení.
 - **NABLA Infinity provenance tracking** — každé tvrzení označeno typem zdroje (přímé pozorování / nepřímé / spekulace), čímž **algoritmicky** udržuje modální distinkci.
 - **OSINT framework's "evidence vs. hypothesis" gate** — výstupy investigací nesmí mísit ověřená fakta s hypotézami bez explicitního označení.
 
@@ -206,7 +206,7 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 

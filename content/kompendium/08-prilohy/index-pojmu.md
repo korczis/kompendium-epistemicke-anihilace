@@ -61,7 +61,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **Decision Engine** | Decision Engine [=] | [Hub DD](/hub/dd/decisions/) | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
+| **Decision Engine** | Decision Engine [=] | {{ cross_link(path="/hub/dd/decisions/", text="Hub DD") }} | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
 | **Delegitimizace** | Delegitimization [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Sytematický útok na epistemickou důvěryhodnost zdroje. |
 | **Demarkační problém** | Demarcation problem [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovský problém rozlišení vědy od pseudovědy. |
 | **DES-II** | Dissociative Experiences Scale [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Carlson-Putnamův dotazník disociativních zkušeností. |
@@ -230,7 +230,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 - [Philosophy](@/philosophy/_index.md) — filozofická vrstva platformy.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13.
 - [Color Teams](@/glossary/color-teams.md) — adversariální simulace.
-- [Decision Engine](/hub/dd/decisions/) — operativní použití termínů v běžícím systému.
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — operativní použití termínů v běžícím systému.
 
 
 ## ⚡ Kritický krok

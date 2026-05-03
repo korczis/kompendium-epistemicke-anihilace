@@ -101,7 +101,7 @@ EA-5.3.25 (minimal-self deformace), EA-5.3.27 (ego-skeletální redukce)
 
 ## Vztah k Prismatic platformě
 
-Technika **core-self fraktura** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. [Decision Engine](/hub/dd/decisions/) udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.26.
+Technika **core-self fraktura** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.26.
 
 ## Související
 
@@ -118,7 +118,7 @@ Technika **core-self fraktura** představuje strukturální výzvu pro defenzivn
   - [Narrative identity](@/glossary/narrative-identity.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -185,7 +185,7 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
-- [Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 

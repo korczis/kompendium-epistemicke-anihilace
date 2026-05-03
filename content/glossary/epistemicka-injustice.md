@@ -36,7 +36,7 @@ Epistemic injustice supplies the **structural / political** vocabulary missing f
 - **EA-1.2.x delegitimization techniques** are enacted at societal scale through testimonial injustice — entire categories of speakers (women, racial minorities, mental-illness survivors, EA victims themselves) face structural credibility deflation.
 - **Hermeneutical injustice** is the macro-form of [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md): the victim cannot understand what is happening because the concepts to understand it have been suppressed or never developed. The kompendium itself is a corrective intervention — by **building the conceptual taxonomy in Czech**, it expands the hermeneutical resource available to Czech-speaking survivors.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) draws on Fricker explicitly to argue that the production of the taxonomy is itself an act of **epistemic justice repair**.
-- The [Decision Engine](/hub/dd/decisions/) integrates testimonial-injustice awareness through its bias-tracking subsystems — credibility weights are explicitly inspected for identity-based deflation patterns.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} integrates testimonial-injustice awareness through its bias-tracking subsystems — credibility weights are explicitly inspected for identity-based deflation patterns.
 
 ## See Also
 

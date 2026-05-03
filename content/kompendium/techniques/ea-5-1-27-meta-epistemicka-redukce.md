@@ -210,7 +210,7 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) epistemic-pluralism check** — auditní vrstva ověřující, že rozhodovací proces zahrnuje **více než jeden** epistemický standard a že jakýkoli použitý meta-standard je **falsifikovatelně formulovaný**.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} epistemic-pluralism check** — auditní vrstva ověřující, že rozhodovací proces zahrnuje **více než jeden** epistemický standard a že jakýkoli použitý meta-standard je **falsifikovatelně formulovaný**.
 - **NABLA Infinity falsifiability tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou **falsifikační podmínku**; tvrzení bez ní jsou flagována.
 - **Color Teams adversarial epistemology** — Red Team protokol povinné konfrontace meta-standardů s **alternativními** epistemickými rámci.
 
@@ -227,7 +227,7 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
   - [Falsifikabilita](/glossary/falsifikabilita/)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

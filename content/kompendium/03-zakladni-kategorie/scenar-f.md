@@ -361,7 +361,7 @@ Plné zotavení do předútočného stavu **není typicky možné**. Realistick�
 - [Color Teams](@/glossary/color-teams.md)
 
 ### Platforma
-- [Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 

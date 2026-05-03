@@ -257,7 +257,7 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 
 ## Platformový kontext
 
-- [Decision Engine](/hub/dd/decisions/) — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
 - [Color Teams](@/glossary/color-teams.md) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
 

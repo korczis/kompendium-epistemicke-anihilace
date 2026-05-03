@@ -33,7 +33,7 @@ Within the Prismatic Platform, coercive control serves as a **structural analogu
 
 - The Kompendium's [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) chapter explicitly maps coercive control patterns onto EA technique clusters: isolation corresponds to EA-1.1.1 (selective exposure), intimidation involves EA-1.3.1 (immunization through fear), micro-regulation enacts EA-2 (cognitive annihilation via attention capture).
 - The [Anankastický režim](@/glossary/anankasticky-rezim.md) concept extends coercive control's "regime" framing into the epistemic domain — both share the logic of ambient, totalizing, low-intensity domination.
-- The [Decision Engine](/hub/dd/decisions/) flags information sourced from individuals reporting coercive-control patterns as requiring elevated provenance scrutiny — testimony emerging from such relationships systematically underreports severity due to victim accommodation.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} flags information sourced from individuals reporting coercive-control patterns as requiring elevated provenance scrutiny — testimony emerging from such relationships systematically underreports severity due to victim accommodation.
 - [DARVO](@/glossary/darvo.md) is one of the most reliable verbal signatures of coercive controllers under accountability pressure.
 - [Color Teams](@/glossary/color-teams.md) Blue Team protocols include coercive-control screening when modeling threat actors operating through proxies (compromised family members, intimate partners).
 

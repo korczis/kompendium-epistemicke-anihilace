@@ -37,7 +37,7 @@ The kompendium uses hermeneutics precisely to **distinguish legitimate interpret
 
 Within the Prismatic Platform, the hermeneutic framework is operationalized in two layers:
 
-- The [Decision Engine](/hub/dd/decisions/) treats interpretation as a **separate epistemic operation** from data ingestion. Multiple interpretations of the same source material are kept available, with provenance and evidential support tracked per interpretation. A reinterpretation is registered with timestamp, author, and the justification offered — not silently overwritten.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats interpretation as a **separate epistemic operation** from data ingestion. Multiple interpretations of the same source material are kept available, with provenance and evidential support tracked per interpretation. A reinterpretation is registered with timestamp, author, and the justification offered — not silently overwritten.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains an **interpretation history** so that when a current interpretation conflicts with prior ones, the conflict is surfaced rather than suppressed. This is the structural defense against EA-1.3.2: a strategic reinterpretation depends on the prior interpretation being silently erased; immutable interpretation history prevents the erasure.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team validates this with adversarial reinterpretation drills — testing that platform records cannot be retroactively rewritten without leaving an audit trail.
 

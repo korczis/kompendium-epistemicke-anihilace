@@ -134,7 +134,7 @@ Po dokončení rozhovoru klinik:
 
 ## Vztah k platformě Prismatic
 
-Strukturované poznámky z SSI-EA lze importovat do [DD Decision Engine](/hub/dd/decisions/runtime/) jako **kvalitativní evidenci** pro hodnocení důvěry v reportu pacienta jako svědka. To je užitečné v post-kultové či forensní psychologii, kde se klinik účastní jako expert.
+Strukturované poznámky z SSI-EA lze importovat do {{ cross_link(path="/hub/dd/decisions/runtime/", text="DD Decision Engine") }} jako **kvalitativní evidenci** pro hodnocení důvěry v reportu pacienta jako svědka. To je užitečné v post-kultové či forensní psychologii, kde se klinik účastní jako expert.
 
 ## Související
 

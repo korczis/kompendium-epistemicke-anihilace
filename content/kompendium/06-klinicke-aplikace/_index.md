@@ -81,7 +81,7 @@ Sekce 06.5 se těmto rizikům věnuje detailně.
 
 Klinické aplikace kompendia jsou propojeny s platformou Prismatic skrze tři hlavní integrační body:
 
-- **[Decision Engine](/hub/dd/decisions/)**: kalibrace klinické důvěry využívá indikátory epistemické manipulace jako negativní signály — pomáhá klinikovi rozpoznat, kdy data od pacienta byla pravděpodobně formována vnějším útokem.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}**: kalibrace klinické důvěry využívá indikátory epistemické manipulace jako negativní signály — pomáhá klinikovi rozpoznat, kdy data od pacienta byla pravděpodobně formována vnějším útokem.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)**: úrovně L0–L13 epistemické pipeline odpovídají vývojovým fázím poznávacího aparátu, jejichž poškození lze mapovat do diagnostické osy.
 - **[Color Teams](@/glossary/color-teams.md)**: defenzivní agenti využívají markery z této sekce pro detekci epistemických útoků v reálném čase v institucionálních kontextech.
 

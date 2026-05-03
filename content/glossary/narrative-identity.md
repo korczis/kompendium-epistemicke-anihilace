@@ -50,7 +50,7 @@ The result is what the Kompendium chapter [/kompendium/07-teoreticke-reflexe/](@
 - [Disociace](@/glossary/disociace.md) damages narrative identity through different mechanisms (compartmentalization rather than disintegration); the differential matters clinically.
 - [Hyperreality](@/glossary/hyperreality.md) creates ambient conditions in which narrative-identity formation becomes structurally harder for everyone, not only EA survivors.
 - [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) risks include premature narrative reconstruction by therapists.
-- The [Decision Engine](/hub/dd/decisions/) treats source-narratives as analytically separable from source-claims: a witness's autobiographical narrative is evidence about the witness, not direct evidence about the world; both are weighted appropriately.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats source-narratives as analytically separable from source-claims: a witness's autobiographical narrative is evidence about the witness, not direct evidence about the world; both are weighted appropriately.
 
 Narrative identity is the **deep structural target** that explains why EA produces such characteristic, durable, and difficult-to-treat damage. It is not just that beliefs are corrupted — it is that the architecture by which beliefs become integrated into a self is being dismantled.
 

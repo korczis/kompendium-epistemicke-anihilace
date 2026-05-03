@@ -287,7 +287,7 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální reprezentace epistemických trajektorií
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-- [Decision Engine](/hub/dd/decisions/) — evidence-based hodnocení rizikového profilu
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — evidence-based hodnocení rizikového profilu
 
 
 ## ⚡ Kritický krok
@@ -313,4 +313,4 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | [Decision Engine](/hub/dd/decisions/)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}

@@ -171,7 +171,7 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/)** vyžaduje **explicitní stanovisko** rozhodovatele s perspektivním ukotvením; aperspektivismus by byl zachycen jako **chybějící input**.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **explicitní stanovisko** rozhodovatele s perspektivním ukotvením; aperspektivismus by byl zachycen jako **chybějící input**.
 - **OSINT framework** strukturálně rozlišuje **vlastní pozorování** od **pozorování zdroje** — perspektivnost je vynucená.
 - **NABLA Infinity provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
 

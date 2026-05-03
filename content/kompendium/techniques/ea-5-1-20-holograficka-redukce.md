@@ -183,8 +183,8 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor flaguje claims s univerzální applicability bez doménové specifikace.
-- **[Decision Engine](/hub/dd/decisions/)** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu "vše je projev X" jsou strukturálně odmítnuty.
-- **[OSINT framework](/osint/toolbox)** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu "vše je projev X" jsou strukturálně odmítnuty.
+- **{{ cross_link(path="/osint/toolbox", text="OSINT framework") }}** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
 
 ## Související
 
@@ -198,7 +198,7 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)

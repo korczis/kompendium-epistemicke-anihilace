@@ -72,7 +72,7 @@ Neredukujte komplexitu na jediný aspekt. Multidimenzionální klasifikace je ex
 | **Per-technique články** | [techniques](@/kompendium/techniques/_index.md) — hloubkové samostatné stránky pro každou techniku EA-X.Y.Z |
 | **Glosář** | [glossary](@/glossary/_index.md) — abecední seznam s definicemi |
 | **Scénářové spinout články** | [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md) — detailní rozpracování |
-| **Platformová integrace** | [Decision Engine](/hub/dd/decisions/) pro empirické testování taxonomických hypotéz |
+| **Platformová integrace** | {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} pro empirické testování taxonomických hypotéz |
 
 ## Doporučené čtenářské strategie
 
@@ -100,7 +100,7 @@ Neredukujte komplexitu na jediný aspekt. Multidimenzionální klasifikace je ex
 3. Analýza vztahů pomocí konceptuálních map
 4. Bibliografické odkazy pro hlubší ponor
 5. **Etická preregistrace** výzkumného protokolu před zahájením
-6. Využití [Decision Engine](/hub/dd/decisions/) jako empirického nástroje pro testování hypotéz
+6. Využití {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} jako empirického nástroje pro testování hypotéz
 
 ### Pro pedagogické účely
 
@@ -115,7 +115,7 @@ Neredukujte komplexitu na jediný aspekt. Multidimenzionální klasifikace je ex
 
 1. Důkladné porozumění detekčním markerům jednotlivých fenoménů
 2. Studium scénářových sekvencí ([F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md))
-3. Operacionalizace markerů do detekčních pravidel pro [Decision Engine](/hub/dd/decisions/)
+3. Operacionalizace markerů do detekčních pravidel pro {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 4. Pravidelná aktualizace detekčních heuristik podle nových případů
 5. Koordinace s [Color Teams](@/glossary/color-teams.md) skrze institucionální kanály
 
@@ -185,7 +185,7 @@ Většina uživatelů reportuje, že **třetí a další** průchody přinášej
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Techniques index](@/kompendium/techniques/_index.md)
 - [Glossary](@/glossary/_index.md)
-- [Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 
 
 ## ⚡ Kritický krok

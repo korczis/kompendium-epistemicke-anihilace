@@ -66,7 +66,7 @@ Noumenální redukce se vyskytuje typicky v alternativně-medicínských tradic�
 - **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.2 Transcendentální iluze](@/kompendium/quick-reference/qr-ea-5-2-2.md), [EA-5.2.4 Apriorní saturace](@/kompendium/quick-reference/qr-ea-5-2-4.md)
 - **Glossary**: [Ding-an-sich](/glossary/ding-an-sich/), [Noumenum](/glossary/noumenum/), [Fenomén](/glossary/fenomen/), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Empirická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: [Decision Engine empirická validace](/hub/dd/decisions/), [Color Teams pseudoscience detection](@/glossary/color-teams.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine empirická validace") }}, [Color Teams pseudoscience detection](@/glossary/color-teams.md)
 
 ---
 

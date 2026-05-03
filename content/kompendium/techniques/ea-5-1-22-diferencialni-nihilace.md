@@ -174,7 +174,7 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) granularity check** — kalibrační logika sleduje, zda subjektova rozhodnutí používají **konzistentně** stejné kategorie nebo zda dochází k jejich kolapsu v čase.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} granularity check** — kalibrační logika sleduje, zda subjektova rozhodnutí používají **konzistentně** stejné kategorie nebo zda dochází k jejich kolapsu v čase.
 - **NABLA Infinity distinction tracking** — provenance záznamy fixují, jaké distinkce byly v původní formulaci tvrzení aktivní; jejich pozdější absence je flagována.
 - **Glossary auto-audit** — periodická kontrola, zda se v platformovém diskurzu zachovává původní rozsah termínů.
 
@@ -190,7 +190,7 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [Kognitivní zploštění](/glossary/kognitivni-zplosteni/)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

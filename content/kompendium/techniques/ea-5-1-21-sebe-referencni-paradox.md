@@ -197,7 +197,7 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor explicitně modeluje **typové úrovně tvrzení** a flaguje sebe-referenční konstrukce, které mísí objektovou úroveň a metaúroveň.
-- **[Decision Engine](/hub/dd/decisions/)** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace ("jakákoli evidence potvrzuje rámec") jsou strukturálně odmítnuty.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — vyžaduje **formálně artikulovaná falsifikační kritéria**; paradoxní formulace ("jakákoli evidence potvrzuje rámec") jsou strukturálně odmítnuty.
 - **[Logic Prolog](/glossary/logic-prolog/)** — formální logické moduly platformy implementují **typovou disciplínu**, která eliminuje sebe-referenční paradoxy na úrovni inference.
 
 ## Související
@@ -212,7 +212,7 @@ Komunita aplikovala paradoxní strukturu: *"Že nás kritizuješ, dokazuje, jak 
   - [Epistemická singularita](/glossary/epistemicka-singularita/)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [Color Teams](@/glossary/color-teams.md)
   - [Logic Prolog](/glossary/logic-prolog/)
 - **Filozofie**:

@@ -36,7 +36,7 @@ Structurally the kompendium consists of: a **definitional section** (the foundat
 
 Within the Prismatic Platform, the kompendium serves three operational roles:
 
-1. **Threat model source** — the [Decision Engine](/hub/dd/decisions/), [NABLA Infinity](@/glossary/nabla-infinity.md), and [Color Teams](@/glossary/color-teams.md) all draw their adversarial-scenario libraries directly from the kompendium taxonomy. The platform's structural defenses (source diversity, falsification clauses, immutable observation logs, calibration loops) correspond systematically to specific kompendium technique-families.
+1. **Threat model source** — the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}, [NABLA Infinity](@/glossary/nabla-infinity.md), and [Color Teams](@/glossary/color-teams.md) all draw their adversarial-scenario libraries directly from the kompendium taxonomy. The platform's structural defenses (source diversity, falsification clauses, immutable observation logs, calibration loops) correspond systematically to specific kompendium technique-families.
 2. **Vocabulary source** — this glossary, including all twelve recently-added entries, derives its conceptual vocabulary from the kompendium. Users encountering ambiguous epistemic-quality issues can move from a glossary term to the kompendium's deeper treatment via the consistent cross-reference pattern (`/kompendium/...`).
 3. **Operational reference** — clinicians, researchers, and platform operators with appropriate access use the kompendium for case-specific reference: identifying which technique-cluster is operating in a given case, what the typical progression is, and what structural defenses are indicated.
 

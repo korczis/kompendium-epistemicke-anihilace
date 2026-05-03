@@ -338,7 +338,7 @@ Cca 30–40 % případů dosahuje **plné funkční rekonstrukce**. Zbylých 60�
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 ### Platforma
-- [Decision Engine](/hub/dd/decisions/)
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 

@@ -193,7 +193,7 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) ontology stability check** — kalibrační logika monitoruje **stabilitu ontologických referencí** napříč rozhodovacími sekvencemi; progresivní odlupování je flagováno.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} ontology stability check** — kalibrační logika monitoruje **stabilitu ontologických referencí** napříč rozhodovacími sekvencemi; progresivní odlupování je flagováno.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) ontological ground tracking** — každý epistemický inferenční řetězec má dohledatelnou ontologickou bázi; ztráta báze bez rekonstrukčního kroku je strukturálně blokována.
 - **[Color Teams](@/glossary/color-teams.md) reality-check protocol** — institucionální mechanismy pro periodické ověřování ontologické integrity.
 
@@ -219,7 +219,7 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 

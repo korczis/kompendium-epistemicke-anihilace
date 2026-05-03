@@ -178,7 +178,7 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** vynucuje **typovou kategoriálnost** každého epistemického aktu — disoluce by byla zachycena jako typová chyba.
-- **[Decision Engine](/hub/dd/decisions/)** vyžaduje **kategorialně definovaný kontext** rozhodnutí; bez kategorialní organizace systém odmítá generovat výstup.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **kategorialně definovaný kontext** rozhodnutí; bez kategorialní organizace systém odmítá generovat výstup.
 - **OSINT framework** strukturálně rozlišuje **kvantitativní** od **kvalitativní** evidence, a tedy nemůže být zasažen kategoriální disolucí.
 
 ## Související

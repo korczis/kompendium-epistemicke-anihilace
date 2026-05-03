@@ -177,7 +177,7 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** operuje s **explicitními kategoriálními predikáty**, jejichž stabilita je vynucena typovým systémem — rekurzivní destabilizace by byla zachycena jako typová chyba.
-- **[Decision Engine](/hub/dd/decisions/) terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
 - **OSINT pipeline** odděluje **identifikaci** od **klasifikace** — rekurzivní destabilizace klasifikace by nezasáhla identifikační vrstvu.
 
 ## Související

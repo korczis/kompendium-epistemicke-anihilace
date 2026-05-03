@@ -42,7 +42,7 @@ Mereologická rekonstrukce is a central practical contribution of the Kompendium
 - It distinguishes carefully between [Disociace](@/glossary/disociace.md) (which has different sequencing needs) and EA-induced fragmentation.
 - It targets [Narrative Identity](@/glossary/narrative-identity.md) only after the parts that constitute narrative-evaluation are rebuilt.
 - It addresses [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) directly in stage 2 by rebuilding metacognitive monitoring as a discrete functional capacity.
-- The [Decision Engine](/hub/dd/decisions/) parallels this clinical logic at the platform level: source-evaluation, falsifiability tracking, and provenance-checking are implemented as independent parts before integration into composite confidence scores. The architectural pattern reflects the same insight that compromised parts cannot produce reliable wholes.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} parallels this clinical logic at the platform level: source-evaluation, falsifiability tracking, and provenance-checking are implemented as independent parts before integration into composite confidence scores. The architectural pattern reflects the same insight that compromised parts cannot produce reliable wholes.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) similarly enforces part-integrity (per-source provenance, per-claim falsifiability) before whole-integration (aggregate confidence).
 
 Mereologická rekonstrukce is the kompendium's signature **constructive contribution**: not merely a description of damage but a structured pathway toward restoration that respects the specific architecture of EA-induced harm.

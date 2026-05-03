@@ -297,7 +297,7 @@ Detailněji v [6.5](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 ## Vztah k platformě Prismatic
 
 Protokol epistemické rekonstrukce může být podporován nástroji platformy:
-- **[Decision Engine](/hub/dd/decisions/)** — kalibrace klientovy důvěry během S3 (trénink hodnocení důkazů);
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — kalibrace klientovy důvěry během S3 (trénink hodnocení důkazů);
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — mapování klientových epistemických zranění do framework L0–L13;
 - **Glosář a kompendium** — psychoedukační nástroje pro S1.
 

@@ -228,7 +228,7 @@ Tento kodex je **kompatibilní s** a **rozšiřuje** následující rámce:
 ## Platformový kontext
 
 - [Color Teams](@/glossary/color-teams.md) — Red Team adversariální simulace operuje pod tímto kodexem.
-- [Decision Engine](/hub/dd/decisions/) — kalibrace důvěry respektuje epistemické autonomie.
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace důvěry respektuje epistemické autonomie.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — L11–L13 epistemic pipeline implementuje epistemic integrity.
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md) — filozofický základ tohoto kodexu.
 

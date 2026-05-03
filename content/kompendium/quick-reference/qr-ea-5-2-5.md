@@ -66,7 +66,7 @@ Konstitutivní rozpad se vyskytuje typicky po dlouhodobé intenzivní "neutčíc
 - **Sourozenecké techniky**: [EA-5.2.6 Transcendentální rekursivita](@/kompendium/quick-reference/qr-ea-5-2-6.md), [EA-5.2.7 Kategoriální disoluce](@/kompendium/quick-reference/qr-ea-5-2-7.md), [EA-5.1.13 Hyperreflexivita](@/kompendium/quick-reference/qr-ea-5-1-13.md)
 - **Glossary**: [Intencionalita](@/glossary/intentionalita.md), [Konstitutivní akt](/glossary/konstitutivni-akt/), [Husserl retence](/glossary/husserl-retence/), [Epoché](@/glossary/epoche.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Depersonalizace](/glossary/depersonalizace/), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Fenomenologická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: [Decision Engine intentional structure](/hub/dd/decisions/), [NABLA Infinity konstitutivní vrstvy](@/glossary/nabla-infinity.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine intentional structure") }}, [NABLA Infinity konstitutivní vrstvy](@/glossary/nabla-infinity.md)
 
 ---
 

@@ -63,7 +63,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
-- [Decision Engine — kalibrace klinických rozhodnutí](/hub/dd/decisions/calibration)
+- {{ cross_link(path="/hub/dd/decisions/calibration", text="Decision Engine — kalibrace klinických rozhodnutí") }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 
 ## 6. Connect

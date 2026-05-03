@@ -196,7 +196,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 ## Vztah k Prismatic platformě
 
-- **[Decision Engine](/hub/dd/decisions/) inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
+- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
 - **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení "z vlastního vhledu" bez dohledatelnosti je flagováno.
 - **Color Teams adversarial check** — Red Team má mandát **falsifikovat** transcendentní tvrzení; Blue Team má povinnost odpovědět na falsifikační test.
 
@@ -216,7 +216,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
   - [Falsifikovatelnost](/glossary/falsifikovatelnost/)
   - [Epistemická regrese](/glossary/epistemicka-regrese/)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:

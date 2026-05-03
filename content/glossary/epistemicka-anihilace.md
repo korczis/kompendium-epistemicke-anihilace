@@ -31,7 +31,7 @@ Five definitional features distinguish epistemic annihilation from ordinary cogn
 
 Within the Prismatic Platform, epistemic annihilation serves as a **threat model** integrated into multiple subsystems:
 
-- The [Decision Engine](/hub/dd/decisions/) explicitly treats indicators of epistemic manipulation as **negative confidence signals** in calibration — a decision based on inputs from a corrupted epistemic process is itself epistemically suspect, even if formally consistent.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly treats indicators of epistemic manipulation as **negative confidence signals** in calibration — a decision based on inputs from a corrupted epistemic process is itself epistemically suspect, even if formally consistent.
 - The [Color Teams](@/glossary/color-teams.md) framework includes **Red Team** simulations that test platform-level resilience to epistemic adversarial scenarios drawn from the kompendium taxonomy.
 - The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements structural defenses corresponding to the kompendium's neutralization strategies: source diversity checks (defense against EA-1.1.1 selective exposure), explicit falsifiability tracking (defense against EA-1.3.1 immunization), provenance auditing (defense against EA-1.3.3 thematic diversion).
 - The Czech-language Kompendium itself is published at [/kompendium/](@/kompendium/_index.md) as a standalone reference, with per-technique deep-dives at [/kompendium/techniques/](@/kompendium/techniques/_index.md).

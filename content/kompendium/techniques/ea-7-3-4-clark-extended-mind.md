@@ -85,12 +85,12 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 - [Kapitola 06: Obrana a kalibrace](/kompendium/06-obrana/)
 - [Kapitola 03: Manipulační vzorce](/kompendium/03-manipulacni-vzorce/)
 - [Glosář: Falsifikace](/kompendium/glossary/falsifikace/)
-- [Glosář: Predictive processing](/kompendium/glossary/predictive-processing/)
-- [Glosář: Power-knowledge](/kompendium/glossary/power-knowledge/)
+- [Glosář: Predictive processing](/glossary/predictive-processing/)
+- [Glosář: Power-knowledge](/glossary/power-knowledge/)
 - [Glosář: Lakatos research program](/kompendium/glossary/lakatos/)
 - [Platforma: Decision Engine](/decisions/)
 - [Platforma: Investigate](/investigate/)
-- [Platforma: OSINT Toolbox](/osint/toolbox/)
+- {{ cross_link(path="/osint/toolbox/", text="Platforma: OSINT Toolbox") }}
 
 ---
 

@@ -271,7 +271,7 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
   - [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Sekce 05 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - **Související platformové koncepty**:
-  - [Decision Engine](/hub/dd/decisions/)
+  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
   - [Color Teams](@/glossary/color-teams.md)
 
 

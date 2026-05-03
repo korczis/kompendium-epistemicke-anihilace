@@ -223,7 +223,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
 - **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
 
-**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové [Decision Engine](/hub/dd/decisions/) pro průběžné kalibrační monitoring.
+**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} pro průběžné kalibrační monitoring.
 
 ## Long-term follow-up
 
@@ -281,6 +281,6 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 ### Prismatic platforma
 
 - [Prismatic Nabla](/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
-- [OSINT toolbox](/osint/toolbox/) — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
-- [Decision Engine](/hub/dd/decisions/) — kalibrace klinického rozhodování s Brierův skór monitoring
+- {{ cross_link(path="/osint/toolbox/", text="OSINT toolbox") }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace klinického rozhodování s Brierův skór monitoring
 - [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci

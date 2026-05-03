@@ -33,7 +33,7 @@ Provenance-based defenses (C2PA content credentials, hardware-anchored capture a
 
 Within the Prismatic Platform, deepfakes are modeled as a **first-class threat vector** in several subsystems:
 
-- The [Decision Engine](/hub/dd/decisions/) Source Assessment stage applies provenance-confidence scoring to ingested audiovisual evidence; unsigned media from low-trust channels are downweighted regardless of apparent content.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} Source Assessment stage applies provenance-confidence scoring to ingested audiovisual evidence; unsigned media from low-trust channels are downweighted regardless of apparent content.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements multi-modal cross-checks: claims attested by single-channel evidence (video only, audio only) carry lower epistemic weight than multi-channel corroboration with independent provenance.
 - [Color Teams](@/glossary/color-teams.md) Red Team scenarios include deepfake-enabled attack patterns: synthetic-CEO fraud, fabricated political endorsements, false-flag testimonial videos.
 - The Kompendium catalogues deepfake-enabled techniques under **EA-1.2 (epistemic falsification)** with cross-references at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) regarding the philosophical implications for testimonial epistemology.

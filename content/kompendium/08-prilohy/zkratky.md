@@ -118,7 +118,7 @@ Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, kter
 |---------|------------|--------|
 | **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](@/glossary/nabla-infinity.md) |
 | **AIAD** | AI-Augmented Development | Standardní rámec → [AIAD README](https://github.com/korczis/prismatic-platform/blob/main/.aiad/README.md) |
-| **DD** | Due Diligence | Modul pro investigativní práci → [Decision Engine](/hub/dd/decisions/) |
+| **DD** | Due Diligence | Modul pro investigativní práci → {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} |
 | **OSINT** | Open Source Intelligence | Adapter framework |
 | **EASM** | External Attack Surface Management | Perimeter modul |
 | **SEADF** | Self-Evolving Autonomous Development Framework | Evolution |
@@ -229,7 +229,7 @@ Kompendium používá **modifikovaný APA 7. styl**:
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemic framework.
 - [3NL](/glossary/three-nested-loops/) — architektura platformy.
 - [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
-- [Decision Engine](/hub/dd/decisions/) — operativní použití DD zkratky.
+- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — operativní použití DD zkratky.
 
 
 ## ⚡ Kritický krok

@@ -45,7 +45,7 @@ The anankastic regime functions in the [Kompendium](@/kompendium/_index.md) as b
 
 Clinically, the regime resembles certain dimensions of **delusional disorder**, but with two distinguishing features: (1) the rigidity is **content-general** rather than focused on specific delusional themes; (2) it can typically be traced to **environmental induction** rather than primarily endogenous etiology.
 
-In Prismatic-relevant defensive applications, the regime serves as a **negative outcome marker** for epistemic security operations. The [Decision Engine](/hub/dd/decisions/) calibration component treats indicators of anankastic-regime-style reasoning in source materials as strong negative signals: a source displaying compulsive rigidity is unlikely to reliably revise in response to new evidence, regardless of its formal credentials.
+In Prismatic-relevant defensive applications, the regime serves as a **negative outcome marker** for epistemic security operations. The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration component treats indicators of anankastic-regime-style reasoning in source materials as strong negative signals: a source displaying compulsive rigidity is unlikely to reliably revise in response to new evidence, regardless of its formal credentials.
 
 Recovery from the anankastic regime is possible but typically requires **extended structural intervention** — sustained exposure to alternative epistemic communities, supervised metacognitive rehabilitation, and gradual reconstruction of epistemic flexibility. Pharmacological intervention alone is rarely sufficient.
 

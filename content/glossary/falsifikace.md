@@ -31,7 +31,7 @@ The diagnostic principle is **identity-preservation under counter-evidence**: a 
 
 Within the Prismatic Platform, falsifiability is operationalized as a **mandatory decision-engine input**:
 
-- The [Decision Engine](/hub/dd/decisions/) requires every high-confidence claim to be paired with an explicit **falsification clause** — the observation or evidence that would lower confidence. A belief without a falsification clause is automatically downgraded in calibration scoring, regardless of how many supporting sources exist.
+- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} requires every high-confidence claim to be paired with an explicit **falsification clause** — the observation or evidence that would lower confidence. A belief without a falsification clause is automatically downgraded in calibration scoring, regardless of how many supporting sources exist.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) tracks **prediction registration**: confidence claims must be made before outcomes are observed, not after. Post-hoc rationalization is structurally prevented because the prediction record is immutable.
 - The [Color Teams](@/glossary/color-teams.md) Red Team builds scenarios designed specifically to test whether platform reasoning can be **immunized** against counter-evidence — verifying that the falsification-clause requirement is not merely cosmetic.
 - The contrast with [Lakatos' research programmes](@/glossary/lakatos-vyzkumny-program.md) is operational: legitimate auxiliary-hypothesis introduction *increases* the empirical content of the program (progressive shift); EA-1.3.1 immunization *decreases* it (degenerative shift). The Decision Engine tracks this distinction by content-delta scoring.

@@ -66,7 +66,7 @@ Manifestuje se nejčastěji v PhD supervizi (mentor publikuje subjektovy ideje),
 - **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.3 Reflexivní paradoxie](@/kompendium/quick-reference/qr-ea-5-1-3.md), [EA-5.1.9 Identitní dezintegrace](@/kompendium/quick-reference/qr-ea-5-1-9.md)
 - **Glossary**: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: [Decision Engine — provenance ledger](/hub/dd/decisions/), [NABLA Infinity authorship invariants](@/glossary/nabla-infinity.md)
+- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine — provenance ledger") }}, [NABLA Infinity authorship invariants](@/glossary/nabla-infinity.md)
 
 ---
 

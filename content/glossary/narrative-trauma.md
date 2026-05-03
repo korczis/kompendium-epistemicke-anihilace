@@ -35,7 +35,7 @@ Within the Prismatic Platform threat model, narrative trauma is recognized as bo
 
 Recovery doctrine treats narrative reconstruction as a **structural prerequisite** for any deeper epistemic recovery: damaged calibration cannot be repaired in a subject without a stable narrative platform to repair it from. The recovery sequence — documented at [/kompendium/06-zotaveni/narativ/](/kompendium/06-zotaveni/narativ/) — proceeds: (1) stabilize embodied present; (2) reconstruct *minimal* coherent narrative from verifiable anchors; (3) integrate trauma-content into the narrative without collapsing it; (4) restore projected-future agency.
 
-The platform's [Decision Engine](/hub/dd/decisions/) treats reports of narrative discontinuity (subject cannot give a coherent account of recent months; subject's account of the same period changes substantially across sessions; subject describes their past life as belonging to "a different person") as a high-severity calibration alert. This is connected to the [Epistemicke trauma](@/glossary/epistemicke-trauma.md) concept and feeds into the recovery-tracking workflow.
+The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats reports of narrative discontinuity (subject cannot give a coherent account of recent months; subject's account of the same period changes substantially across sessions; subject describes their past life as belonging to "a different person") as a high-severity calibration alert. This is connected to the [Epistemicke trauma](@/glossary/epistemicke-trauma.md) concept and feeds into the recovery-tracking workflow.
 
 ## See Also
 

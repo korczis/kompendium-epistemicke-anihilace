@@ -147,11 +147,11 @@ Pro **objektivní detekci** aplikace techniky **světelná frekvence modulace** 
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.22](/kompendium/techniky/ea-5-5-22-hypnagogicka-modulace/)
-  - [Technika EA-5.5.23](/kompendium/techniky/ea-5-5-23-liminalni-prostor-rozklad/)
-  - [Technika EA-5.5.24](/kompendium/techniky/ea-5-5-24-atmosfericky-tlak-modulace/)
-  - [Technika EA-5.5.26](/kompendium/techniky/ea-5-5-26-zvukova-pre-konceptualni/)
-  - [Technika EA-5.5.27](/kompendium/techniky/ea-5-5-27-taktilni-pre-konceptualni/)
+  - [Technika EA-5.5.22](/kompendium/techniques/ea-5-5-22-hypnagogicka-modulace/)
+  - [Technika EA-5.5.23](/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad/)
+  - [Technika EA-5.5.24](/kompendium/techniques/ea-5-5-24-atmospheric-pressure-modulace/)
+  - [Technika EA-5.5.26](/kompendium/techniques/ea-5-5-26-zvukova-pre-konceptualni/)
+  - [Technika EA-5.5.27](/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

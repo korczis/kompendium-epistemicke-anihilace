@@ -48,7 +48,7 @@ V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tu
 - [EA-5.3.2 Autobiograficka dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md) — biografie reduktovana na 'racket'
 - [EA-5.3.21 Character transposition](@/kompendium/techniques/ea-5-3-21-character-transposition.md) — characterni rysy nahrazeny normativ. profile workshop graduáta
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/03-zakladni-kategorie/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/03-zakladni-kategorie/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/).
 
 ## 5. Fenomenologicky kurz
 
@@ -107,7 +107,7 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 ## 12. Cross-linky a dalsi cetba
 
 - **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md), [Scenar L](/kompendium/03-zakladni-kategorie/scenar-l/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/03-zakladni-kategorie/kapitola-5/)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
 - **EA techniky**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md), [EA-2.1.2](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md), [EA-5.3.2](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md), [EA-5.3.21](@/kompendium/techniques/ea-5-3-21-character-transposition.md)

@@ -147,11 +147,11 @@ Pro **objektivní detekci** aplikace techniky **korporeální schéma rozklad** 
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.5](/kompendium/techniky/ea-5-5-5-pre-temporalni-rozpojeni/)
-  - [Technika EA-5.5.6](/kompendium/techniky/ea-5-5-6-konvergentni-pre-konceptualni/)
-  - [Technika EA-5.5.7](/kompendium/techniky/ea-5-5-7-afektivne-tonalni-redukce/)
-  - [Technika EA-5.5.9](/kompendium/techniky/ea-5-5-9-kinesteticka-deformace/)
-  - [Technika EA-5.5.10](/kompendium/techniky/ea-5-5-10-proprioceptivni-confusion/)
+  - [Technika EA-5.5.5](/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni/)
+  - [Technika EA-5.5.6](/kompendium/techniques/ea-5-5-6-konvergentni-pre-konceptualni/)
+  - [Technika EA-5.5.7](/kompendium/techniques/ea-5-5-7-afektivni-tonalni-redukce/)
+  - [Technika EA-5.5.9](/kompendium/techniques/ea-5-5-9-kinesteticka-deformace/)
+  - [Technika EA-5.5.10](/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

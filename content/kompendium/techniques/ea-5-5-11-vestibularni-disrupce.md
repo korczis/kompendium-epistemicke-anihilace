@@ -147,11 +147,11 @@ Pro **objektivní detekci** aplikace techniky **vestibulární disrupce** v post
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.8](/kompendium/techniky/ea-5-5-8-korporealni-schema-rozklad/)
-  - [Technika EA-5.5.9](/kompendium/techniky/ea-5-5-9-kinesteticka-deformace/)
-  - [Technika EA-5.5.10](/kompendium/techniky/ea-5-5-10-proprioceptivni-confusion/)
-  - [Technika EA-5.5.12](/kompendium/techniky/ea-5-5-12-interoceptivni-rozpojeni/)
-  - [Technika EA-5.5.13](/kompendium/techniky/ea-5-5-13-exteroceptivni-deformace/)
+  - [Technika EA-5.5.8](/kompendium/techniques/ea-5-5-8-korporealni-schema-rozklad/)
+  - [Technika EA-5.5.9](/kompendium/techniques/ea-5-5-9-kinesteticka-deformace/)
+  - [Technika EA-5.5.10](/kompendium/techniques/ea-5-5-10-proprioceptivni-confusion/)
+  - [Technika EA-5.5.12](/kompendium/techniques/ea-5-5-12-interoceptivni-rozpojeni/)
+  - [Technika EA-5.5.13](/kompendium/techniques/ea-5-5-13-exteroceptivni-deformace/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

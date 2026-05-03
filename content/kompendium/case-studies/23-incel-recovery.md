@@ -48,7 +48,7 @@ V tomto pripadu byly identifikovany nasledujici EA kody (sestava unikatni pro tu
 - [EA-5.3.42 Self-objektifikace totalni](/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni/) — totalni redukce self na merici body
 - [EA-5.2.8 Perspektivisticky kolaps](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md) — neschopnost privstoupit cizi perspektivu
 
-Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/03-zakladni-kategorie/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/03-zakladni-kategorie/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/).
+Zvlast charakteristicky je vzajemny resonancni vztah mezi technikami z kategorie [Sekce 5.1 (Anihilace)](/kompendium/04-terminalni-protokoly/kapitola-5/) a [Sekce 5.3 (Identita)](/kompendium/04-terminalni-protokoly/kapitola-5/). Anihilacni techniky pripravuji epistemicky prostor, ktery je nasledne zaplnen technikami identitarnimi — bez prvni faze druhá nedrzi, bez druhé prvni je nestabilni. Tento patron odpovida [scenarum](#9-scenare-a-typologicke-zaskoleni) klasifikovanym jako [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/).
 
 ## 5. Fenomenologicky kurz
 
@@ -107,7 +107,7 @@ Pri klinické práci s analogickymi pripady je nezbytne: (a) supervize spec. v o
 ## 12. Cross-linky a dalsi cetba
 
 - **Sekce 03 (Scenare)**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar K](/kompendium/03-zakladni-kategorie/scenar-k/)
-- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/03-zakladni-kategorie/kapitola-5/)
+- **Sekce 05 (Kategorie)**: [Kapitola 5](/kompendium/04-terminalni-protokoly/kapitola-5/)
 - **Sekce 06 (Klinicke aplikace)**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md), [Terapeuticke pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md), [Epistemicka rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
 - **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [narrative-trauma](@/glossary/narrative-trauma.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [coercive-control](@/glossary/coercive-control.md), [epistemicka-injustice](@/glossary/epistemicka-injustice.md)
 - **EA techniky**: [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.2.1](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md), [EA-5.3.42](/kompendium/techniques/ea-5-3-42-self-objektifikace-totalni/), [EA-5.2.8](@/kompendium/techniques/ea-5-2-8-perspektivisticky-kolaps.md)

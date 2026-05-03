@@ -147,9 +147,9 @@ Pro **objektivní detekci** aplikace techniky **konvergentní singularita transk
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.27](/kompendium/techniky/ea-5-5-27-taktilni-pre-konceptualni/)
-  - [Technika EA-5.5.28](/kompendium/techniky/ea-5-5-28-olfaktoricka-modulace/)
-  - [Technika EA-5.5.29](/kompendium/techniky/ea-5-5-29-multimodalni-konvergence/)
+  - [Technika EA-5.5.27](/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni/)
+  - [Technika EA-5.5.28](/kompendium/techniques/ea-5-5-28-olfacticka-modulace/)
+  - [Technika EA-5.5.29](/kompendium/techniques/ea-5-5-29-multimodalni-konvergence/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

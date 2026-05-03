@@ -54,7 +54,7 @@ Klíčové koncepty: **reflexe intenzity**, **autonomie ve změněném stavu**, 
 - [05 — Ultramari](@/kompendium/05-ultramari-techniky/_index.md)
 - [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Doctrine NMND](/kompendium/glossary-bridges/bridge-nmnd/)
-- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla/)
+- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla-infinity/)
 - [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
 - [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
 - [Case studies: ultramari filosofie](@/kompendium/case-studies/_index.md)

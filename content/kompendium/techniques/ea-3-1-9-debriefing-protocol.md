@@ -120,7 +120,7 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 
 - **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
 - **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
-- **[EA-5 Kognitivní anihilace](/kompendium/03-zakladni-kategorie/kapitola-5/)** — pokročilé materiály pro L2/L3 úrovně.
+- **[EA-5 Kognitivní anihilace](/kompendium/04-terminalni-protokoly/kapitola-5/)** — pokročilé materiály pro L2/L3 úrovně.
 
 ## Vztah k Prismatic platformě
 

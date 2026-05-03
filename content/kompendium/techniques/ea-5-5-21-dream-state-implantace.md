@@ -147,11 +147,11 @@ Pro **objektivní detekci** aplikace techniky **dream-state implantace** v post-
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.18](/kompendium/techniky/ea-5-5-18-cirkadianni-disrupce/)
-  - [Technika EA-5.5.19](/kompendium/techniky/ea-5-5-19-ultradianni-rozklad/)
-  - [Technika EA-5.5.20](/kompendium/techniky/ea-5-5-20-pre-spankova-restrukturalizace/)
-  - [Technika EA-5.5.22](/kompendium/techniky/ea-5-5-22-hypnagogicka-modulace/)
-  - [Technika EA-5.5.23](/kompendium/techniky/ea-5-5-23-liminalni-prostor-rozklad/)
+  - [Technika EA-5.5.18](/kompendium/techniques/ea-5-5-18-cirkadianni-disrupce/)
+  - [Technika EA-5.5.19](/kompendium/techniques/ea-5-5-19-ultradian-rozklad/)
+  - [Technika EA-5.5.20](/kompendium/techniques/ea-5-5-20-pre-spaclni-restrukturalizace/)
+  - [Technika EA-5.5.22](/kompendium/techniques/ea-5-5-22-hypnagogicka-modulace/)
+  - [Technika EA-5.5.23](/kompendium/techniques/ea-5-5-23-liminalni-prostor-rozklad/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

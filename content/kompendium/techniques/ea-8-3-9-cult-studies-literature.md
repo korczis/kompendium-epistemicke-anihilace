@@ -65,7 +65,7 @@ Pole-specific kontext pro **EA-8.3.1 Foundational Readings**. Komplementární s
 - [/kompendium/05-ultramari-techniky/](@/kompendium/05-ultramari-techniky/_index.md) — Ultrabrutální techniky
 - [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) — Klinické aplikace
 - [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) — Teoretické reflexe
-- [/kompendium/glossary/](/kompendium/glossary/) — Glosář pojmů
+- [/kompendium/glossary/](/glossary/) — Glosář pojmů
 - [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md) — Rychlá reference
 - [/kompendium/cross-domain/](@/kompendium/cross-domain/_index.md) — Cross-domain materiály
 - [/kompendium/case-studies/](@/kompendium/case-studies/_index.md) — Případové studie

@@ -84,10 +84,10 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 - [Kapitola 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Kapitola 06: Obrana a kalibrace](/kompendium/06-obrana/)
 - [Kapitola 03: Manipulační vzorce](/kompendium/03-manipulacni-vzorce/)
-- [Glosář: Falsifikace](/kompendium/glossary/falsifikace/)
+- [Glosář: Falsifikace](/kompendium/glossary-bridges/falsifikace/)
 - [Glosář: Predictive processing](/glossary/predictive-processing/)
 - [Glosář: Power-knowledge](/glossary/power-knowledge/)
-- [Glosář: Lakatos research program](/kompendium/glossary/lakatos/)
+- [Glosář: Lakatos research program](/glossary/lakatos/)
 - [Platforma: Decision Engine](/decisions/)
 - [Platforma: Investigate](/investigate/)
 - {{ cross_link(path="/osint/toolbox/", text="Platforma: OSINT Toolbox") }}
@@ -100,6 +100,6 @@ Chcete tuto reflexi aplikovat na konkrétní případ?
 
 - [Spusťte vyšetření](/investigate/) — Decision Engine s podporou epistemické kalibrace.
 - [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
-- [Glosář pojmů](/kompendium/glossary/) — definice klíčových termínů napříč EA.
+- [Glosář pojmů](/glossary/) — definice klíčových termínů napříč EA.
 
 *Část kompendia [Epistemic Arsenal](@/kompendium/_index.md) — kapitola 7. Teoretické reflexe, podkapitola 7.1 Continental filozofie.*

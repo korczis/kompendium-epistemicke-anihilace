@@ -147,10 +147,10 @@ Pro **objektivní detekci** aplikace techniky **somato-fenomenologická disrupce
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.1](/kompendium/techniky/ea-5-5-1-pre-predikativni-blokace/)
-  - [Technika EA-5.5.3](/kompendium/techniky/ea-5-5-3-atmosfericka-modulace/)
-  - [Technika EA-5.5.4](/kompendium/techniky/ea-5-5-4-gestalt-disrupce/)
-  - [Technika EA-5.5.5](/kompendium/techniky/ea-5-5-5-pre-temporalni-rozpojeni/)
+  - [Technika EA-5.5.1](/kompendium/techniques/ea-5-5-1-pre-predikativni-blokace/)
+  - [Technika EA-5.5.3](/kompendium/techniques/ea-5-5-3-atmosfericka-modulace/)
+  - [Technika EA-5.5.4](/kompendium/techniques/ea-5-5-4-gestalt-disrupce/)
+  - [Technika EA-5.5.5](/kompendium/techniques/ea-5-5-5-pre-temporalni-rozpojeni/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

@@ -91,16 +91,16 @@ Prismatic Platform poskytuje pro detekci a analýzu této techniky následujíc�
 ## Související
 
 - [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) (parent)
-- [Taxonomie EA](/kompendium/glossary/taxonomie-ea/) (klasifikační rámec)
-- [Delegitimizace](/kompendium/glossary/delegitimizace/) (konceptuální základ)
+- [Taxonomie EA](/kompendium/glossary-bridges/taxonomie-ea/) (klasifikační rámec)
+- [Delegitimizace](/kompendium/glossary-bridges/delegitimizace/) (konceptuální základ)
 - [EA-2.4.7](@/kompendium/techniques/ea-2-4-7-conference-capture.md) (sister)
 - [EA-2.4.9](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md) (sister)
 - [EA-2.4.6](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) (sister)
-- [Gaslighting](/kompendium/glossary/gaslighting/) (související psychologický mechanismus)
-- [Epistemické trauma](/kompendium/glossary/epistemicke-trauma/) (důsledek pro cíl)
+- [Gaslighting](/kompendium/glossary-bridges/gaslighting/) (související psychologický mechanismus)
+- [Epistemické trauma](/kompendium/glossary-bridges/epistemicke-trauma/) (důsledek pro cíl)
 
 ## Connect
 
-- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](/kompendium/glossary/)
+- **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](/glossary/)
 - **Platforma**: [Decision Engine](/decisions/) | [OSINT Toolbox](@/osint/_index.md) | [Nabla](/nabla/)
 - **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [[e-mail odstraněn]](mailto:[e-mail odstraněn])

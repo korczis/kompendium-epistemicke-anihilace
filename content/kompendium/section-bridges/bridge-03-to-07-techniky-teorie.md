@@ -53,7 +53,7 @@ Klíčové koncepty: **genealogie kategorií**, **kritika typologií**, **glossa
 
 - [03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 - [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla/)
+- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla-infinity/)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
 - [Glossary platform](@/glossary/_index.md)
 - [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)

@@ -147,10 +147,10 @@ Pro **objektivní detekci** aplikace techniky **multimodální konvergence** v p
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.26](/kompendium/techniky/ea-5-5-26-zvukova-pre-konceptualni/)
-  - [Technika EA-5.5.27](/kompendium/techniky/ea-5-5-27-taktilni-pre-konceptualni/)
-  - [Technika EA-5.5.28](/kompendium/techniky/ea-5-5-28-olfaktoricka-modulace/)
-  - [Technika EA-5.5.30](/kompendium/techniky/ea-5-5-30-konvergentni-singularita-transkonceptualni/)
+  - [Technika EA-5.5.26](/kompendium/techniques/ea-5-5-26-zvukova-pre-konceptualni/)
+  - [Technika EA-5.5.27](/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni/)
+  - [Technika EA-5.5.28](/kompendium/techniques/ea-5-5-28-olfacticka-modulace/)
+  - [Technika EA-5.5.30](/kompendium/techniques/ea-5-5-30-konvergentni-singularita-transkonceptualni/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

@@ -147,11 +147,11 @@ Pro **objektivní detekci** aplikace techniky **olfaktorická modulace** v post-
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.25](/kompendium/techniky/ea-5-5-25-svetelna-frekvence-modulace/)
-  - [Technika EA-5.5.26](/kompendium/techniky/ea-5-5-26-zvukova-pre-konceptualni/)
-  - [Technika EA-5.5.27](/kompendium/techniky/ea-5-5-27-taktilni-pre-konceptualni/)
-  - [Technika EA-5.5.29](/kompendium/techniky/ea-5-5-29-multimodalni-konvergence/)
-  - [Technika EA-5.5.30](/kompendium/techniky/ea-5-5-30-konvergentni-singularita-transkonceptualni/)
+  - [Technika EA-5.5.25](/kompendium/techniques/ea-5-5-25-svetelna-frekvence-modulace/)
+  - [Technika EA-5.5.26](/kompendium/techniques/ea-5-5-26-zvukova-pre-konceptualni/)
+  - [Technika EA-5.5.27](/kompendium/techniques/ea-5-5-27-taktilni-pre-konceptualni/)
+  - [Technika EA-5.5.29](/kompendium/techniques/ea-5-5-29-multimodalni-konvergence/)
+  - [Technika EA-5.5.30](/kompendium/techniques/ea-5-5-30-konvergentni-singularita-transkonceptualni/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

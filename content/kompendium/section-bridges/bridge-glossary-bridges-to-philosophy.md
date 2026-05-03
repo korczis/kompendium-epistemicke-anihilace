@@ -54,7 +54,7 @@ Klíčové koncepty: **glossary jako power act**, **glossary jako evidence layer
 - [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
 - [07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
-- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla/)
+- [Nabla framework](/kompendium/glossary-bridges/bridge-nabla-infinity/)
 - [Glossary platform](@/glossary/_index.md)
 - [Quick Reference: Teorie](@/kompendium/quick-reference/_index.md)
 - [Visualizations](@/kompendium/visualizations/_index.md)

@@ -54,7 +54,7 @@ Klíčové koncepty: **Nabla∞ epistemic state**, **claim/evidence/axiom triad*
 - [Platform: Nabla∞](@/glossary/_index.md)
 - [Kompendium 07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
 - [Doctrine NCLB](/kompendium/glossary-bridges/bridge-nclb/)
-- [Glossary: Nabla](/kompendium/glossary-bridges/bridge-nabla/)
+- [Glossary: Nabla](/kompendium/glossary-bridges/bridge-nabla-infinity/)
 - [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
 - [Case Studies](@/kompendium/case-studies/_index.md)
 - [Visualizations: Epistemic graph](@/kompendium/visualizations/_index.md)

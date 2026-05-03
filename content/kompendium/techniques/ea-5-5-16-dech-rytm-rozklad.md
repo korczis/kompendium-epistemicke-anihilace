@@ -147,11 +147,11 @@ Pro **objektivní detekci** aplikace techniky **dechový rytmus rozklad** v post
   - [EA-5.0 Pre-konceptuální vrstva](/kompendium/05-pre-konceptualni-rozklad/)
   - [EA-5.5 Konvergentní techniky](/kompendium/05-pre-konceptualni-rozklad/ea-5-5-konvergentni/)
 - **Související techniky v sérii**:
-  - [Technika EA-5.5.13](/kompendium/techniky/ea-5-5-13-exteroceptivni-deformace/)
-  - [Technika EA-5.5.14](/kompendium/techniky/ea-5-5-14-pretemporalni-rytmus-disrupce/)
-  - [Technika EA-5.5.15](/kompendium/techniky/ea-5-5-15-pulzacni-disrupce/)
-  - [Technika EA-5.5.17](/kompendium/techniky/ea-5-5-17-srdecni-rytmus-disonance/)
-  - [Technika EA-5.5.18](/kompendium/techniky/ea-5-5-18-cirkadianni-disrupce/)
+  - [Technika EA-5.5.13](/kompendium/techniques/ea-5-5-13-exteroceptivni-deformace/)
+  - [Technika EA-5.5.14](/kompendium/techniques/ea-5-5-14-pretemporalni-rytm-disrupce/)
+  - [Technika EA-5.5.15](/kompendium/techniques/ea-5-5-15-pulzace-disrupce/)
+  - [Technika EA-5.5.17](/kompendium/techniques/ea-5-5-17-srdcni-rytm-disonance/)
+  - [Technika EA-5.5.18](/kompendium/techniques/ea-5-5-18-cirkadianni-disrupce/)
 - **Fenomenologické základy**:
   - [Husserlova pasivní syntéza](/glossary/pasivni-synteza/)
   - [Merleau-Pontyho body schema](/glossary/body-schema/)

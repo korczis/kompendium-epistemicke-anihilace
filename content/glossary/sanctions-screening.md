@@ -418,6 +418,7 @@ end
 - [Threat Intelligence](@/glossary/threat-intelligence.md) -- External feeds complementing sanctions data
 - [Compliance Framework](@/glossary/compliance-framework.md) -- Regulatory requirements driving screening obligations
 - [Audit Trail](@/glossary/audit-trail.md) -- Immutable documentation of screening decisions
+- [SDN List](@/glossary/sdn-list.md)
 
 ## See Also
 

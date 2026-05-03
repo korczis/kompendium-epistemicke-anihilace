@@ -3,7 +3,7 @@ title = "Research Methodology — Výzkumná Metodologie EA"
 description = "Kvantitativní, kvalitativní a etické aspekty výzkumu v oblasti Ego-Annihilation. 30 článků pokrývajících design studií, sběr dat, analýzu a governance."
 weight = 97
 sort_by = "weight"
-template = "section.html"
+template = "kompendium/section.html"
 
 [extra]
 tags = ["kompendium", "research-methodology", "vyzkum", "metodologie"]

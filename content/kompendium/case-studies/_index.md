@@ -3,7 +3,7 @@ title = "Case Studies — anonymizovane pripadove studie"
 description = "80+ anonymizovanych klinickych pripadu epistemicke a kognitivni anihilace napric domenami: akademie, kulty, partnerske vztahy, organizacni cult, online radikalizace."
 weight = 70
 sort_by = "weight"
-template = "section.html"
+template = "kompendium/section.html"
 
 [extra]
 tags = ["kompendium", "case-studies", "klinicke", "anonymizovane"]

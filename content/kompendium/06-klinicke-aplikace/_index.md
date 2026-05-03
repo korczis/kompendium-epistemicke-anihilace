@@ -3,7 +3,7 @@ title = "06. Klinické aplikace a diagnostika"
 description = "Praktické využití taxonomie epistemické anihilace v klinické praxi — diagnostické markery, diferenciální diagnostika, terapeutické přístupy, protokoly epistemické rekonstrukce a práce s vulnerabilní populací."
 weight = 6
 sort_by = "weight"
-template = "section.html"
+template = "kompendium/section.html"
 
 [extra]
 tags = ["kompendium", "klinicke-aplikace", "diagnostika", "terapie", "prevence", "epistemicka-rekonstrukce", "vulnerabilni-populace"]

@@ -2,7 +2,8 @@
 title = "Kompendium epistemické a kognitivní anihilace"
 description = "Taxonomický systém fenoménů epistemické a kognitivní anihilace — referenční a edukativní rámec pro kvalifikované psychiatry, psychology, filozofy a výzkumníky kognitivních věd."
 sort_by = "weight"
-template = "section.html"
+template = "kompendium/section.html"
+page_template = "kompendium/page.html"
 weight = 65
 generate_feeds = true
 
@@ -81,6 +82,10 @@ Kompendium je určeno **výhradně** pro:
 ### Detailní techniky
 
 Vedle hlavních sekcí je kompendium doprovázeno **[per-technique podknihovnou](@/kompendium/techniques/_index.md)** — každá zaznamenaná technika dostává samostatný článek s rozšířenou deskripcí, fenomenologií, detekčními markery, neutralizačními strategiemi a případovými studiemi.
+
+### Distribuce obsahu
+
+{{ chart_inline(slug="kompendium-distribution", title="Distribuce publikovaných článků napříč kompendiem", caption="Rozdělení 1 000+ publikovaných článků: 8 hlavních kapitol (modrá/fialová/růžová) + 8 doplňkových kolekcí (žlutá/azurová/zelená). Najed myší pro přesné počty.", alt="Vodorovný sloupcový graf článků v kompendiu") }}
 
 ## Klíčové koncepty
 

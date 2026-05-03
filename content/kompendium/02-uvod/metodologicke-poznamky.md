@@ -18,7 +18,11 @@ toc = true
 
 Tato kapitola **explicitně vystavuje** metodologické základy — kritéria klasifikace, validační principy, omezení. Bez metodologické transparentnosti by taxonomie byla **neauditovatelná** a tudíž neopravitelná. Reflexivní otevřenost vůči vlastní metodologii je sama o sobě protilátka proti tomu, čeho se taxonomie týká: každý uzavřený, neauditovatelný systém produkce poznání má strukturní afinitu k epistemicky destruktivním režimům.
 
-## Klasifikační principy
+Kapitola prezentuje klíčové metodologické principy a postupy, které byly aplikovány při konstrukci taxonomie epistemické a kognitivní anihilace. Poskytuje analýzu specifických metodologických výzev spojených s kategorizací těchto komplexních fenoménů a vysvětluje metodologická rozhodnutí, která formovala strukturu a organizaci taxonomického systému.
+
+## Obecné taxonomické principy
+
+Taxonomie epistemické a kognitivní anihilace byla vytvořena v souladu s několika fundamentálními taxonomickými principy, které zajišťují její vědeckou validitu, klinickou užitečnost a konceptuální koherenci.
 
 ### Princip strukturální distinktivity
 
@@ -27,6 +31,7 @@ Každá taxonomická jednotka (technika) musí být **strukturálně distinktivn
 > **Příklad**: *Falešné dilema* (EA-1.2.1) a *falešná ekvivalence* (EA-1.2.2) jsou strukturálně distinktivní:
 > - Falešné dilema vyžaduje **artificiální polarizaci** (binární redukce kontinua)
 > - Falešná ekvivalence vyžaduje **artificiální symetrii** (vyrovnání asymetrických entit)
+>
 > Povrchově obojí "uměle deformuje strukturu volby", ale mechanismy jsou odlišné.
 
 ### Princip kompoziční úplnosti
@@ -50,11 +55,121 @@ Klasifikace musí být **konzistentní** s fenomenologickou zkušeností postiž
 
 ### Princip teoretické ukotvenosti
 
-Taxonomický systém je explicitně zakotven v teoretickém rámci [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md). Toto teoretické ukotvení zajišťuje, že taxonomie není pouhým deskriptivním výčtem fenoménů, ale strukturovaným systémem s explanační silou a konceptuální koherencí. Konkrétní aplikace zahrnuje:
+Taxonomický systém je explicitně zakotven v robustním [teoretickém rámci](@/kompendium/02-uvod/teoreticke-zaklady.md) popsaném v předchozí kapitole. Toto teoretické ukotvení zajišťuje, že taxonomie není pouhým deskriptivním výčtem fenoménů, ale strukturovaným systémem s explanační silou a konceptuální koherencí.
+
+Konkrétní aplikace tohoto principu zahrnuje:
 
 - **Dedukci taxonomických kategorií** z teoretických principů, nikoli pouze induktivní agregaci pozorovaných fenoménů
 - **Konzistentní aplikaci teoretických konstruktů** napříč taxonomickými kategoriemi
 - **Explicitní artikulaci teoretických předpokladů** pro každou hlavní taxonomickou kategorii
+
+### Princip multidimenzionální klasifikace
+
+Taxonomie využívá multidimenzionální klasifikační přístup, který reflektuje komplexitu epistemických a kognitivních fenoménů. Na rozdíl od tradičních jednorozměrných klasifikačních systémů tato taxonomie klasifikuje fenomény podle multiple ortogonálních dimenzí:
+
+- **Strukturální dimenze** — týkající se architektonických vlastností epistemických a kognitivních systémů
+- **Funkční dimenze** — týkající se operačních a procesních aspektů
+- **Fenomenologická dimenze** — týkající se subjektivních a zkušenostních aspektů
+- **Etiologická dimenze** — týkající se původu a kauzálních mechanismů
+- **Temporální dimenze** — týkající se časové dynamiky a vývojové trajektorie
+- **Sociální dimenze** — týkající se interpersonálních a sociálních aspektů
+
+Tento multidimenzionální přístup umožňuje precizní lokalizaci a diferenciaci fenoménů, které mohou sdílet určité charakteristiky v jedné dimenzi, ale lišit se v jiných dimenzích.
+
+### Princip hierarchické organizace
+
+Taxonomie je organizována hierarchicky, s multiple úrovněmi klasifikace, které postupují od nejobecnějších kategorií k nejspecifičtějším fenoménům:
+
+1. **Domény** — nejširší kategorie (epistemická vs. kognitivní anihilace)
+2. **Třídy** — hlavní kategorie fenoménů v rámci každé domény
+3. **Řády** — specifičtější skupiny fenoménů v rámci tříd
+4. **Čeledi** — skupiny specifických fenoménů sdílející klíčové charakteristiky
+5. **Rody** — specifické typy fenoménů
+6. **Druhy** — konkrétní, jasně definované fenomény
+
+Tato hierarchická struktura umožňuje jak konceptuální přehlednost, tak klinickou specifičnost, a zároveň reflektuje přirozené strukturální vztahy mezi fenomény.
+
+### Princip operacionalizovaných kritérií
+
+Pro každou taxonomickou kategorii jsou specifikována jasná operacionalizovaná kritéria, která určují, které fenomény do dané kategorie patří a které nikoliv. Tato kritéria jsou formulována tak, aby:
+
+- Byla empiricky testovatelná
+- Měla vysokou inter-rater reliabilitu
+- Byla použitelná v klinickém kontextu
+- Minimalizovala taxonomické překryvy a nejednoznačnosti
+
+Operacionalizovaná kritéria jsou esenciální pro praktickou aplikaci taxonomie v diagnostickém a výzkumném kontextu, a zajišťují konzistentní klasifikaci napříč různými uživateli a kontexty.
+
+### Princip validační triangulace
+
+Validita taxonomických kategorií je zajištěna prostřednictvím metodologické triangulace, která integruje multiple formy evidence:
+
+- **Fenomenologická validita** — evidence založená na subjektivních popisech a fenomenologických analýzách
+- **Klinická validita** — evidence založená na klinických pozorováních a terapeutických zkušenostech
+- **Empirická validita** — evidence založená na systematických empirických studiích
+- **Teoretická validita** — evidence založená na koherenci s etablovanými teoretickými rámci
+- **Pragmatická validita** — evidence založená na praktické užitečnosti v klinické a výzkumné praxi
+
+Tato triangulační strategie zajišťuje, že taxonomické kategorie nejsou arbitrární konstrukce, ale reflektují reálné fenomény s distinktivními charakteristikami pozorovatelnými z multiple perspektiv.
+
+## Specifické metodologické postupy
+
+Vedle obecných taxonomických principů byly při konstrukci taxonomie využity specifické metodologické postupy, které adresují unikátní výzvy spojené s klasifikací epistemických a kognitivních fenoménů.
+
+### Fenomenologicky informovaná analýza
+
+Vzhledem k subjektivní povaze epistemických zážitků byla taxonomie významně informována fenomenologickou analytickou metodologií, která zahrnuje:
+
+- **Eidetickou redukci** — proces identifikace esenciálních struktur epistemických zkušeností
+- **Fenomenologickou deskripci** — detailní popis kvalitativních aspektů epistemické zkušenosti
+- **Epoché** — pozastavení předpokladů a teoretických prekoncepcí pro přímý přístup k fenoménům
+- **Intersubjektivní validaci** — ověření fenomenologických popisů prostřednictvím konsenzu multiple pozorovatelů
+
+Tato metodologie umožňuje zachytit kvalitativní a subjektivní aspekty epistemických fenoménů, které by mohly být reduktivními přístupy přehlédnuty.
+
+### Kazuistická komparativní analýza
+
+Taxonomie byla významně informována systematickou analýzou klinických kazuistik a případových studií, které dokumentují různé formy epistemického traumatu a kognitivní anihilace. Tento metodologický přístup zahrnuje:
+
+- **Systematické porovnání případů** s podobnými manifestacemi
+- **Identifikaci invariantních znaků** napříč různými případy
+- **Analýzu kontrastních případů** pro identifikaci diferenciálních diagnostických kritérií
+- **Longitudinální sledování případů** pro porozumění vývojové dynamice
+
+Kazuistická analýza poskytuje bohatý zdroj klinicky relevantních dat, která doplňují teoretické modely a systematické empirické studie.
+
+### Interdisciplinární konsensuální proces
+
+Taxonomie byla vytvořena prostřednictvím strukturovaného interdisciplinárního konsensuálního procesu, který integroval perspektivy z multiple disciplín:
+
+- **Strukturované interdisciplinární workshopy** s odborníky z různých relevantních oborů
+- **Delphi proces** pro systematické dosažení konsensu o taxonomických kategoriích
+- **Iterativní revize** taxonomie na základě zpětné vazby z různých disciplinárních perspektiv
+- **Peer review proces** zahrnující odborníky z klinické praxe, výzkumu a teoretických disciplín
+
+Tento interdisciplinární přístup zajišťuje, že taxonomie integruje a reflektuje poznatky a perspektivy z celého spektra relevantních disciplín.
+
+### Empirické testování prototypů
+
+Předběžné verze taxonomie byly podrobeny systematickému empirickému testování, které zahrnovalo:
+
+- **Hodnocení inter-rater reliability** při klasifikaci případů podle taxonomických kategorií
+- **Testování klinické použitelnosti** v reálných diagnostických kontextech
+- **Evaluaci prediktivní validity** taxonomických kategorií
+- **Testování divergentní a konvergentní validity** taxonomických konstruktů
+
+Výsledky těchto empirických testů byly použity k iterativnímu zdokonalování taxonomie, zejména s ohledem na operacionalizaci kritérií a praktickou použitelnost.
+
+### Systematická literatura review
+
+Taxonomie je založena na rozsáhlé a systematické review relevantní literatury, která zahrnovala:
+
+- **Comprehensive database search** s jasně definovanými inkluzivními a exkluzivními kritérii
+- **Systematic data extraction** podle předem definovaného protokolu
+- **Quality assessment** zahrnutých studií a dokumentů
+- **Thematic synthesis** extrahovaných dat pro identifikaci klíčových témat a kategorií
+
+Tento systematický přístup zajistil, že taxonomie je informována celým spektrem dostupné evidence a reflektuje současný stav poznání v relevantních disciplínách.
 
 ## Validační kritéria
 
@@ -76,25 +191,22 @@ Klasifikace musí korespondovat s **diferenciální účinností intervence** �
 
 ### 5. Cross-cultural konzistence
 
-Taxonomie by měla být **transkulturálně použitelná** — i když specifická manifestace se liší, **strukturální mechanismus** by měl zůstat invariantní. Aspirace univerzalita je **regulativním ideálem**, nikoli prokázaným faktem.
+Taxonomie by měla být **transkulturálně použitelná** — i když specifická manifestace se liší, **strukturální mechanismus** by měl zůstat invariantní. Aspirace univerzality je **regulativním ideálem**, nikoli prokázaným faktem.
 
 ### 6. Triangulační validita
 
-Validita taxonomických kategorií je zajištěna integrací multiple forem evidence:
+Validita taxonomických kategorií je zajištěna integrací multiple forem evidence: fenomenologická, klinická, empirická, teoretická a pragmatická validita (viz princip validační triangulace výše).
 
-- **Fenomenologická validita** — subjektivní popisy a fenomenologické analýzy
-- **Klinická validita** — klinická pozorování a terapeutické zkušenosti
-- **Empirická validita** — systematické empirické studie
-- **Teoretická validita** — koherence s etablovanými teoretickými rámci
-- **Pragmatická validita** — praktická užitečnost v klinické a výzkumné praxi
+## Specifické metodologické výzvy
 
-## Metodologické výzvy
+Konstrukce taxonomie epistemické a kognitivní anihilace představovala několik specifických metodologických výzev, které vyžadovaly inovativní řešení.
 
 ### Výzva 1: Etická omezení empirického studia
 
 > **Problém**: Z etických důvodů nelze epistemicky destruktivní techniky aplikovat experimentálně.
 
 **Řešení**:
+
 - **Retrospektivní case studies** — analýza dokumentovaných historických případů
 - **Naturalistická observace** — klinické případy bez experimentální indukce
 - **Strukturální analýza** dokumentovaných systémů (totalitní propaganda, sektářské skupiny)
@@ -106,6 +218,7 @@ Validita taxonomických kategorií je zajištěna integrací multiple forem evid
 > **Problém**: Postižené subjekty často **nerozpoznávají** svou postiženost.
 
 **Řešení**:
+
 - **Triangulace** — výpověď subjektu + vnější pozorování + dokumentace
 - **Longitudinální observace** — změny v čase
 - **Strukturální markery** — pozorovatelné vzorce (řečová produkce, sociální chování) nezávisle na subjektivní výpovědi
@@ -115,6 +228,7 @@ Validita taxonomických kategorií je zajištěna integrací multiple forem evid
 > **Problém**: Riziko, že kritéria pro identifikaci techniky jsou **cirkulárně** odvozena z případů, na kterých je technika definována.
 
 **Řešení**:
+
 - **Prospektivní predikce** na nově shromážděných případech
 - **Out-of-sample testing**
 - **Konvergentní validace** — různé metodologie vedoucí ke stejné taxonomické jednotce
@@ -124,6 +238,7 @@ Validita taxonomických kategorií je zajištěna integrací multiple forem evid
 > **Problém**: Mnoho reálných případů kombinuje multiple techniky — pure cases jsou vzácné.
 
 **Řešení**:
+
 - **Polynomiální klasifikace** — případ může být označen multiple kódy
 - **Primary/secondary** technique distinction
 - **Compositional analysis** — explicitní rozklad
@@ -133,6 +248,7 @@ Validita taxonomických kategorií je zajištěna integrací multiple forem evid
 > **Problém**: Techniky se manifestují **kulturně specificky**, ale taxonomie aspiruje na univerzálnost.
 
 **Řešení**:
+
 - **Strukturální vs. fenomenální distinction** — strukturální mechanismus invariantní, fenomenální manifestace variabilní
 - **Cultural adaptation guides** pro klinickou praxi
 - **Cross-cultural validation** ve více kontextech
@@ -142,24 +258,84 @@ Validita taxonomických kategorií je zajištěna integrací multiple forem evid
 > **Problém**: Proces vytváření taxonomie epistemických fenoménů je sám epistemickým aktem, jenž potenciálně podléhá týmž vulnerabilitám, které taxonomie popisuje.
 
 **Řešení**:
-- **Implementace meta-epistemických safeguards** — systematické procedury pro monitorování epistemických distorzí v taxonomickém procesu
-- **Explicitní reflexivita** — kontinuální reflexe vlastních epistemických procesů
-- **Kolektivní epistemické kontroly** — diverse skupina odborníků pro vzájemnou korekci
-- **Dokumentace epistemických rozhodnutí** — systematické zaznamenávání všech klíčových rozhodnutí
 
-### Výzva 7: Etická senzitivita
+- **Implementace meta-epistemických safeguards** — systematických procedur pro monitorování a prevenci epistemických distorzí v taxonomickém procesu
+- **Explicitní reflexivita** — kontinuální reflexe vlastních epistemických procesů a potenciálních zdrojů zkreslení
+- **Kolektivní epistemické kontroly** — využití diverse skupiny odborníků pro vzájemnou korekci potenciálních epistemických distorzí
+- **Dokumentace epistemických rozhodnutí** — systematické zaznamenávání a explicitní artikulace všech klíčových epistemických rozhodnutí v taxonomickém procesu
 
-> **Problém**: Detailní popis technik epistemické destrukce může poskytnout know-how zlovolným aktérům.
+### Výzva 7: Terminologická preciznost
+
+> **Problém**: Potřeba vyvinout precizní terminologický aparát pro fenomény, které dosud nebyly systematicky konceptualizovány a pojmenovány.
 
 **Řešení**:
+
+- **Systematická terminologická analýza** existujících pojmů v relevantních disciplínách
+- **Terminologická inovace** založená na etymologicky informovaném přístupu
+- **Explicitní definice** všech nově zavedených nebo rekontextualizovaných termínů
+- **Terminologické konsensuální procedury** zajišťující sdílenou sémantiku napříč disciplínami
+
+Tento přístup vedl k vytvoření koherentního a precizního terminologického aparátu, který umožňuje jednoznačnou komunikaci o komplexních epistemických fenoménech.
+
+### Výzva 8: Klasifikační granularita
+
+> **Problém**: Určení optimální úrovně granularity taxonomického systému — míry detailu a specifičnosti klasifikačních kategorií. Příliš hrubá granularita by vedla k taxonomii s limitovanou klinickou užitečností, zatímco příliš jemná granularita by produkovala nemanažovatelně komplexní a potenciálně artificiální systém.
+
+**Řešení**:
+
+- **Pragmatický princip optimální granularity** — balancující teoretickou preciznost s praktickou použitelností
+- **Hierarchická flexibilita** — umožňující uživatelům pohybovat se mezi různými úrovněmi specifičnosti podle potřeby
+- **Empirické testování klinické užitečnosti** různých úrovní granularity
+- **Modulární struktura** umožňující budoucí expanzi a zjemnění taxonomie v konkrétních doménách
+
+### Výzva 9: Ontologická neutralita
+
+> **Problém**: Vzhledem k diverse teoretických perspektiv v relevantních disciplínách je potřeba vytvořit taxonomii, která by nebyla zavázána specifickým ontologickým předpokladům, ale zůstávala kompatibilní s multiple teoretickými perspektivami.
+
+**Řešení**:
+
+- **Fenomenologická priorita** — primární důraz na fenomenologickou deskripci nad kauzálními interpretacemi
+- **Ontologická agnostičnost** — konstrukce taxonomických kategorií způsobem, který je kompatibilní s různými ontologickými rámci
+- **Explanační flexibilita** — umožňující multiple teoretických interpretací téhož taxonomického fenoménu
+- **Explicitní demarkace** deskriptivních a interpretačních aspektů taxonomických kategorií
+
+Tento přístup zajišťuje, že taxonomie může být využita a interpretována odborníky pracujícími v různých teoretických paradigmatech.
+
+### Výzva 10: Etická senzitivita
+
+> **Problém**: Detailní popis technik epistemické destrukce může poskytnout know-how zlovolným aktérům. Specifickou metodologickou výzvu představuje potřeba integrovat etickou senzitivitu do samotné struktury taxonomie, reflektující potenciálně problematickou povahu klasifikovaných fenoménů.
+
+**Řešení**:
+
 - **Integrace etických reflexí** do popisu každé taxonomické kategorie
-- **Explicitní etická guidelines** pro aplikaci
-- **Strukturální prevence zneužití** — strategická fragmentace operativně využitelných detailů
+- **Explicitní etické guidelines** pro aplikaci taxonomie v klinickém a výzkumném kontextu
+- **Strukturální prevence zneužití** prostřednictvím strategické fragmentace potenciálně rizikových informací
+- **Kontinuální etická supervize** taxonomického procesu nezávislým etickým panelem
 - **Primární orientace na detekci a obranu**, sekundárně na popis útoku
 
-## Notační systém
+Tato etická integrace zajišťuje, že taxonomie není pouze deskriptivním nástrojem, ale zahrnuje také normativní dimenzi reflektující etickou komplexitu epistemické problematiky.
 
-Notace `EA-X.Y.Z-α` (pro epistemickou anihilaci; `KA-X.Y.Z-α` pro kognitivní) je navržena s pěti vlastnostmi:
+## Taxonomické notační systémy
+
+Pro systematickou klasifikaci a jednoznačnou identifikaci fenoménů epistemické a kognitivní anihilace byl vyvinut specializovaný taxonomický notační systém, který kombinuje alfanumerickou a symbolickou notaci.
+
+### Primární alfanumerický kód
+
+Každý specifický fenomén v taxonomii je identifikován prostřednictvím primárního alfanumerického kódu ve formátu:
+
+**EA-X.Y.Z-α**
+
+Kde:
+
+- **EA** — označuje "epistemická anihilace" (pro fenomény kognitivní anihilace se používá "KA")
+- **X** — numerický identifikátor primární kategorie (1-5, odpovídající pěti hlavním částem)
+- **Y** — numerický identifikátor subkategorie v rámci dané kategorie
+- **Z** — numerický identifikátor specifického fenoménu v rámci subkategorie
+- **α** — alfabetický sufix indikující variantu fenoménu (pokud existuje)
+
+Například: **EA-3.2.4-β** označuje beta variantu čtvrtého fenoménu druhé subkategorie ve třetí hlavní kategorii epistemické anihilace.
+
+Notace je navržena s pěti vlastnostmi:
 
 | Vlastnost | Důvod |
 |-----------|-------|
@@ -169,13 +345,118 @@ Notace `EA-X.Y.Z-α` (pro epistemickou anihilaci; `KA-X.Y.Z-α` pro kognitivní)
 | **Strojová indexace** | Snadné parsování pro automatizovanou analýzu |
 | **Auditovatelnost** | Jednoznačná reference v cross-disciplinárním diskurzu |
 
-Vedle primárního alfanumerického kódu je každý fenomén charakterizován také **dimenzionálním symbolickým kódem** ve formátu `[S:x|F:y|T:z|P:w]`:
-- **S** — Strukturální (I integrativní, D disruptivní, R regresivní)
-- **F** — Funkční (A aktivní, P pasivní, M modulační)
-- **T** — Temporální (A akutní, C chronická, E epizodická)
-- **P** — Fenomenologická (E explicitní, I implicitní, M mixovaná)
+### Dimenzionální symbolický kód
 
-Pro vztahy mezi technikami se používá vztahová notace: `A ⊂ B` (podkategorie), `A ≡ B` (ekvivalence), `A ⟂ B` (inkompatibilita), `A → B` (predispozice/přechod), `A ∩ B` (částečný překryv), `A ⊕ B` (synergický efekt).
+Vedle primárního alfanumerického kódu je každý fenomén charakterizován také dimenzionálním symbolickým kódem, který indikuje jeho specifické charakteristiky v klíčových dimenzích:
+
+**[S:x|F:y|T:z|P:w]**
+
+Kde:
+
+- **S:x** — strukturální charakteristika (x může být I pro integrativní, D pro disruptivní, R pro regresivní)
+- **F:y** — funkční charakteristika (y může být A pro aktivní, P pro pasivní, M pro modulační)
+- **T:z** — temporální charakteristika (z může být A pro akutní, C pro chronickou, E pro epizodickou)
+- **P:w** — fenomenologická charakteristika (w může být E pro explicitní, I pro implicitní, M pro mixovanou)
+
+Například: **[S:D|F:A|T:C|P:I]** označuje disruptivní, aktivní, chronický a implicitní fenomén.
+
+### Vztahová notace
+
+Pro indikaci vztahů mezi různými fenomény taxonomie využívá specializovanou vztahovou notaci:
+
+- **A ⊂ B** — fenomén A je podkategorií fenoménu B
+- **A ≡ B** — fenomény A a B jsou ekvivalentní nebo izomorfní
+- **A ⟂ B** — fenomény A a B jsou vzájemně inkompatibilní
+- **A → B** — fenomén A typicky predisponuje k nebo přechází ve fenomén B
+- **A ∩ B** — fenomény A a B se částečně překrývají nebo sdílejí common charakteristiky
+- **A ⊕ B** — fenomény A a B mají synergický efekt když se vyskytují společně
+
+Tato vztahová notace umožňuje precizní specifikaci strukturálních, dynamických a funkčních vztahů mezi různými taxonomickými entitami.
+
+## Metodologické limitace a reflexe
+
+Žádný taxonomický systém není bez limitací a je esenciální explicitně reflektovat tyto limitace pro adekvátní interpretaci a aplikaci taxonomie.
+
+### Epistemické limitace
+
+Taxonomie nevyhnutelně reflektuje současný stav poznání a je limitována existujícími epistemickými omezeními v relevantních disciplínách:
+
+- **Limitovaná empirická báze** pro některé postulované fenomény, zejména v jejich vzácnějších a extrémnějších formách
+- **Nerovnoměrná hloubka porozumění** různým aspektům epistemické anihilace napříč disciplínami
+- **Potenciální "bílá místa"** reprezentující dosud neidentifikované nebo nekonceptualizované fenomény
+- **Reflexivní limitace** vyplývající z neschopnosti plně transcendovat vlastní epistemické předpoklady
+
+### Metodologické trade-offs
+
+Taxonomie je výsledkem několika klíčových metodologických kompromisů, které je důležité explicitně reflektovat:
+
+- **Trade-off mezi komplexitou a použitelností** — zjednodušení inherentně komplexních fenoménů pro umožnění jejich praktické klasifikace
+- **Trade-off mezi precizností a flexibilitou** — balancování potřeby jasných kritérií s potřebou adaptability na klinickou komplexitu
+- **Trade-off mezi explanační silou a ontologickou neutralitou** — balancování teoretického ukotvení s pluralitou interpretačních rámců
+- **Trade-off mezi komprehenzivitou a hloubkou** — rozhodnutí o šíři záběru taxonomie versus detailnosti analýzy specifických fenoménů
+
+### Kulturní a kontextuální limitace
+
+Je důležité reflektovat potenciální kulturní a kontextuální limitace taxonomie:
+
+- **Západní epistemologické zakotvení** mnoha konceptů a kategorií
+- **Limitovaná cross-kulturní validace** taxonomických konstruktů
+- **Potenciální historická kontingence** některých taxonomických kategorií
+- **Institucionální a disciplinární předpojatosti** reflektované v taxonomické struktuře
+
+### Procesní reflexe a budoucí vývoj
+
+Taxonomie představuje dynamický a evolvující systém, nikoli statickou a definitivní klasifikaci:
+
+- **Plánovaný iterativní vývoj** taxonomie na základě empirických dat a klinických zkušeností
+- **Strukturovaný mechanismus revize** umožňující adaptaci taxonomie v reakci na nové poznatky
+- **Komunitní participativní proces** zahrnující širší odbornou komunitu do kontinuálního vývoje taxonomie
+- **Explicitní dokumentace fundamentálních předpokladů** umožňující jejich budoucí revizi nebo reinterpretaci
+
+Tato procesní reflexe zdůrazňuje, že taxonomie by měla být chápána jako intelektuální nástroj podléhající kontinuálnímu zdokonalování, nikoli jako definitivní reprezentace objektivní reality.
+
+## Doporučený metodologický přístup k aplikaci taxonomie
+
+Pro efektivní a odpovědnou aplikaci taxonomie v klinickém, výzkumném nebo edukačním kontextu je doporučeno dodržovat následující metodologické principy.
+
+### Vícestupňový diagnostický proces
+
+Pro klinickou aplikaci taxonomie je doporučen vícestupňový diagnostický proces:
+
+1. **Screeningová fáze** — iniciální identifikace potenciálních epistemických traumat pomocí screeningových nástrojů
+2. **Detailní fenomenologická explorace** — důkladné fenomenologické zkoumání subjektivní zkušenosti pacienta
+3. **Multidimenzionální posouzení** — evaluace fenoménu ve strukturální, funkční, temporální a fenomenologické dimenzi
+4. **Diferenciální diagnostika** — systematické zvážení alternativních taxonomických kategorií
+5. **Kolaborativní formulace** — vytvoření komplexní diagnostické formulace ve spolupráci s pacientem
+6. **Kontinuální reevaluace** — pravidelná revize diagnostické klasifikace ve světle nových informací
+
+### Triangulační výzkumná metodologie
+
+Pro výzkumné aplikace taxonomie je doporučen triangulační metodologický přístup:
+
+1. **Metodologická pluralita** — kombinace kvantitativních, kvalitativních a mixed-methods přístupů
+2. **Multi-informant design** — získávání dat z multiple zdrojů (subjekt, klinik, blízké osoby)
+3. **Multi-modal assessment** — využití různých modalit hodnocení (sebehodnocení, interview, experimentální úlohy)
+4. **Longitudinální perspektiva** — sledování vývoje a dynamiky fenoménů v čase
+5. **Contextual sensitivity** — zohlednění širšího sociálního, kulturního a environmentálního kontextu
+
+### Eticky reflektovaná edukativní aplikace
+
+Pro edukační využití taxonomie je doporučen eticky reflektovaný přístup:
+
+1. **Graduální expozice** — postupné odhalování potenciálně rizikových aspektů taxonomie
+2. **Paralelní etická reflexe** — kontinuální integrace etické reflexe do edukačního procesu
+3. **Emphasis on defensive applications** — primární zaměření na identifikaci a prevenci epistemické manipulace
+4. **Supervised practical training** — praktická aplikace pouze pod kvalifikovanou supervizí
+5. **Post-exposure debriefing** — strukturované debriefing sessions po expozici potenciálně destabilizujícím konceptům
+
+## Závěr
+
+Metodologické principy a postupy prezentované v této kapitole poskytují nezbytný rámec pro porozumění, interpretaci a aplikaci taxonomie epistemické a kognitivní anihilace. Tato metodologická transparentnost je esenciální pro vědeckou integritu taxonomie a umožňuje uživatelům kriticky reflektovat její strukturu, předpoklady a limitace.
+
+Taxonomický systém by měl být chápán nikoli jako objektivní reprezentace přirozených druhů, ale jako konceptuální nástroj vyvinutý pro specifické vědecké, klinické a edukační účely. Jeho hodnota spočívá primárně v jeho praktické užitečnosti při identifikaci, výzkumu a terapeutickém adresování fenoménů epistemické a kognitivní anihilace.
+
+V následujících kapitolách budou prezentovány specifické taxonomické kategorie, vždy s explicitním odkazem na zde diskutované metodologické principy a s vědomím inherentních limitací a kompromisů, které jsou součástí jakéhokoli taxonomického podniku.
 
 ## Verzování taxonomie
 
@@ -189,32 +470,15 @@ Taxonomie podléhá **semverové disciplíně**:
 
 Aktuální verze: **v0.1.0** (počáteční publikace, taxonomie v aktivní expanzi).
 
-## Doporučený metodologický přístup k aplikaci taxonomie
+## Vztah k Prismatic Decision Engine
 
-### Vícestupňový diagnostický proces
+Metodologické principy popsané v této kapitole slouží jako vstupní specifikace pro algoritmickou implementaci v rámci Prismatic Decision Engine. Notační systém `EA-X.Y.Z-α` je strojově parsovatelný a umožňuje:
 
-1. **Screeningová fáze** — Iniciální identifikace potenciálních epistemických traumat pomocí screeningových nástrojů
-2. **Detailní fenomenologická explorace** — Důkladné fenomenologické zkoumání subjektivní zkušenosti
-3. **Multidimenzionální posouzení** — Evaluace fenoménu ve strukturální, funkční, temporální a fenomenologické dimenzi
-4. **Diferenciální diagnostika** — Systematické zvážení alternativních taxonomických kategorií
-5. **Kolaborativní formulace** — Vytvoření komplexní diagnostické formulace ve spolupráci s pacientem
-6. **Kontinuální reevaluace** — Pravidelná revize klasifikace ve světle nových informací
+- **Automatizovanou klasifikaci** vstupních fenoménů
+- **Strukturní porovnání** případů napříč klasifikačním stromem
+- **Algoritmickou kompozici** komplexních technik z elementárních jednotek
 
-### Triangulační výzkumná metodologie
-
-1. **Metodologická pluralita** — kombinace kvantitativních, kvalitativních a mixed-methods přístupů
-2. **Multi-informant design** — data z multiple zdrojů (subjekt, klinik, blízké osoby)
-3. **Multi-modal assessment** — různé modality hodnocení (sebehodnocení, interview, experimentální úlohy)
-4. **Longitudinální perspektiva** — sledování dynamiky v čase
-5. **Contextual sensitivity** — sociální, kulturní a environmentální kontext
-
-### Eticky reflektovaná edukativní aplikace
-
-1. **Graduální expozice** — postupné odhalování potenciálně rizikových aspektů
-2. **Paralelní etická reflexe** — kontinuální integrace etiky do edukace
-3. **Emphasis on defensive applications** — primární zaměření na identifikaci a prevenci
-4. **Supervised practical training** — praktická aplikace pouze pod kvalifikovanou supervizí
-5. **Post-exposure debriefing** — strukturované debriefing sessions po expozici destabilizujícím konceptům
+Implementační detaily viz [Vztah k Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md).
 
 ## Otevřená otázka
 
@@ -227,23 +491,9 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - **Trans-modální techniky** — jak strukturně klasifikovat techniky operující současně na multiple modalitách (text, obraz, zvuk)?
 - **Neuro-divergentní subjekty** — vyžaduje diferenciální klasifikace na základě neurotypů?
 
-## Metodologické limitace
-
-Taxonomie nevyhnutelně nese několik strukturních limitací:
-
-- **Limitovaná empirická báze** pro některé postulované fenomény, zejména v jejich vzácnějších formách
-- **Nerovnoměrná hloubka porozumění** napříč disciplínami
-- **Potenciální "bílá místa"** reprezentující dosud neidentifikované fenomény
-- **Reflexivní limitace** vyplývající z neschopnosti plně transcendovat vlastní epistemické předpoklady
-- **Trade-offs**: komplexita vs. použitelnost, preciznost vs. flexibilita, explanační síla vs. ontologická neutralita
-- **Západní epistemologické zakotvení** mnoha konceptů
-- **Limitovaná cross-kulturní validace**
-
-Tyto limitace nejsou důvodem k odmítnutí taxonomie, ale podmínkou její odpovědné aplikace. Taxonomie poskytuje **strukturní oporu**, jež je v reálné práci doplňována klinickou zkušeností, kontextovou citlivostí a kontinuální reflexivní revizí.
-
 ## Související
 
-- [2.1 Definice](@/kompendium/02-uvod/definice.md)
+- [2.1 Definice anihilace](@/kompendium/02-uvod/definice.md)
 - [2.2 Historický kontext](@/kompendium/02-uvod/historicky-kontext.md)
 - [2.3 Teoretické základy](@/kompendium/02-uvod/teoreticke-zaklady.md)
 - [2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md)
@@ -272,6 +522,6 @@ referenční bod pro detekci vlastního posunu pochopení.
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
 
 - [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)

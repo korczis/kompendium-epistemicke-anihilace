@@ -305,7 +305,7 @@
                         <a href="{{ kompendium_root.permalink }}"
                            class="block px-3 py-1.5 text-sm rounded-lg transition-all
                            {% if kompendium_root.permalink == section.permalink %}text-indigo-400 font-semibold bg-indigo-900/30
-                           {% else %}text-gray-400 hover:text-white hover:bg-gray-700/50
+                           {% else %}text-gray-300 hover:text-white hover:bg-gray-700/50
                            {% endif %}">
                             ← Domů kompendia
                         </a>
@@ -315,7 +315,7 @@
                             <a href="{{ sub.permalink }}"
                                class="block px-3 py-1.5 text-xs rounded-lg transition-all break-words
                                {% if sub.permalink == section.permalink %}text-indigo-400 font-semibold bg-indigo-900/30
-                               {% else %}text-gray-400 hover:text-white hover:bg-gray-700/50
+                               {% else %}text-gray-300 hover:text-white hover:bg-gray-700/50
                                {% endif %}">
                                 {{ sub.title }}
                             </a>

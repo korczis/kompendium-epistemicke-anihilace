@@ -271,6 +271,7 @@ end
 - [Observability](@/glossary/observability.md) - Monitoring infrastructure tracking inference health
 - [BEAM](@/glossary/beam.md) - Virtual machine providing concurrent inference request processing
 - [GenServer](@/glossary/genserver.md) - OTP behaviour implementing the inference coordinator
+- [Node](@/glossary/node.md)
 
 ## See Also
 

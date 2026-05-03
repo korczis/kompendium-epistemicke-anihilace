@@ -269,6 +269,7 @@ end
 - [Shodan](@/glossary/shodan.md) - Internet scanner providing port and service intelligence
 - [Censys](@/glossary/censys.md) - Certificate and host scanner enriching discovery results
 - [GDPR](@/glossary/gdpr.md) - Data protection regulation assessed through EASM compliance
+- [Breach Database](@/glossary/breach-database.md)
 
 ## See Also
 

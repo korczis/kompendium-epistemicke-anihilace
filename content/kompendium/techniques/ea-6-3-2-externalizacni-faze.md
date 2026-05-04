@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-3", "klinicke", "externalizacni-faze"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-3-1-stabilizacni-faze-protokol", "ea-6-3-10-sense-of-coherence-restaurace", "ea-6-3-3-metacognitivni-rehabilitace", "ea-6-3-3-metakognitivni-rehabilitace"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.3.2"
 ea_category = "6. Klinické aplikace"

@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "gray-team", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-gestalt-shift", "bridge-gish-gallop", "bridge-greynoise", "bridge-hawkeye"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "gray-team"
 toc = false

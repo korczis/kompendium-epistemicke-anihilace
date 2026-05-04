@@ -9,6 +9,7 @@ tags = ["kompendium", "clark", "kyborg", "extended-mind", "filosofie-mysli", "et
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["chalmers-hard-problem", "chomsky-manufacturing-consent", "clark-extended-mind", "computational-epistemology"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "tactical-execution", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-strategic-command", "bridge-supreme-commander", "bridge-taxonomie-ea", "bridge-theory-of-mind"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "tactical-execution"
 toc = false

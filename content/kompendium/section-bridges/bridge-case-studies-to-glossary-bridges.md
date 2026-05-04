@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-07-to-08-teorie-prilohy", "bridge-case-studies-to-clinical", "bridge-glossary-bridges-to-philosophy", "bridge-platform-decision-engine-to-kompendium"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

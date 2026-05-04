@@ -5,6 +5,7 @@ weight = 1
 sort_by = "weight"
 
 [extra]
+related_terms = ["diagnosticke-nastroje", "dual-use", "eticky-kodex"]
 kompendium = ["08-prilohy"]
 prilohy = ["bibliografie", "literatura", "reference"]
 section_icon = "📚"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-1", "prilohy", "reference", "decision-
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-7-3-9-dehaene-consciousness", "ea-8-1-1-bite-model-detail", "ea-8-1-2-cult-leaving-questionnaire", "ea-8-1-3-stalking-behavior-checklist"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.1.10"
 ea_category = "8. Přílohy"

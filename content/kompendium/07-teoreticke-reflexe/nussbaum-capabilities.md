@@ -9,6 +9,7 @@ tags = ["kompendium", "nussbaumova", "capabilities-approach", "etika", "rozkvet"
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["metzinger-ego-tunnel", "nagel-view-from-nowhere", "otevrene-otazky", "polanyi-ticha-znalost"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

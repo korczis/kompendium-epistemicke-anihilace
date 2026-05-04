@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-1", "edukativni", "reflective-journali
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-2-5-9-identity-uncertainty-cult", "ea-3-1-1-graduated-exposure-design", "ea-3-1-2-experiential-scaffolding", "ea-3-1-3-metacognitive-cultivation"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.1.10"
 ea_category = "3. Edukativní implementace"

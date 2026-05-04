@@ -6,6 +6,7 @@ weight = 40
 tags = ["kompendium", "forensic-legal", "documentation-standards"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["39-incident-reporting", "4-malingering-detection", "41-family-court-EA", "42-immigration-EA"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

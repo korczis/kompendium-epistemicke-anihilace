@@ -6,6 +6,7 @@ weight = 21
 tags = ["kompendium", "aiad-integration", "autoevolve-ea-pattern-evolution"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["archer-supreme-ea-orchestration", "autoheal-ea-regression-repair", "black-team-ea-modeling", "blue-team-ea-defense"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

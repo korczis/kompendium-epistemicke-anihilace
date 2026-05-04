@@ -9,6 +9,7 @@ tags = ["kompendium", "klinicke-aplikace", "prevence", "preventivni-strategie", 
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["kolektivni-intervence", "observational-assessment", "pripad-akademie", "pripad-doktorat"]
 parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true

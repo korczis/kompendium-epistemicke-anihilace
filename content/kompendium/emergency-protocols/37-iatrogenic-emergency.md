@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["35-treatment-noncompliance", "36-medication-emergency", "38-second-opinion-emergency", "39-legal-emergency"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

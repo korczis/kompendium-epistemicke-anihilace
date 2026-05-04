@@ -6,6 +6,7 @@ weight = 715
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-1-3-adorno-instrumental-reason", "ea-7-1-4-habermas-communicative-action", "ea-7-1-6-sloterdijk-spheres", "ea-7-1-7-deleuze-rhizome"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.5"
 ea_category = "7. Teoretické reflexe"

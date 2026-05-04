@@ -6,6 +6,7 @@ weight = 17
 tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["15-behavioral-asymmetric-disclosure", "16-behavioral-emotional-modulation", "18-network-citation-circularity", "19-network-amplification-asymmetry"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"

@@ -6,6 +6,7 @@ weight = 911
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-8-3-8-trauma-recovery-literature", "ea-8-3-9-cult-studies-literature", "ea-9-1-10-llm-recursion-loop", "ea-9-1-2-prompt-injection-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.1"
 ea_category = "9. Současná digitální EA"

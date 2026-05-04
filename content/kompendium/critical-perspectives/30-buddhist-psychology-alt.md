@@ -6,6 +6,7 @@ weight = 30
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
 [extra]
+related_terms = ["29-process-philosophy-alt", "3-framework-overreach", "4-circular-reasoning-risk", "5-false-positive-risk"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++

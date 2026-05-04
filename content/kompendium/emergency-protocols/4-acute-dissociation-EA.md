@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["38-second-opinion-emergency", "39-legal-emergency", "40-witness-protection", "5-flashback-cascade-EA"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

@@ -9,6 +9,7 @@ tags = ["kompendium", "wardle", "dezinformace", "fact-checking", "informacni-eko
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["varela-enactivism", "visualizations", "williams-truth-and-truthfulness", "wittgenstein-jezykove-hry"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

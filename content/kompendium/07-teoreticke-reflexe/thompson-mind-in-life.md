@@ -9,6 +9,7 @@ tags = ["kompendium", "thompson", "filosofie-mysli", "autopoiesis", "fenomenolog
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["socialni-epistemologie", "taylor-sources-of-self", "tononi-iit", "varela-enactivism"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

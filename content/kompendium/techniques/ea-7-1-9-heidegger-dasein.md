@@ -6,6 +6,7 @@ weight = 719
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-1-7-deleuze-rhizome", "ea-7-1-8-derrida-deconstruction", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-10-nagel-view-from-nowhere"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.9"
 ea_category = "7. Teoretické reflexe"

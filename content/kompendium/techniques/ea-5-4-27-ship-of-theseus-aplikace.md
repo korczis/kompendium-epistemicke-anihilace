@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-27-ship-of-theseus-aplikace", "ultra
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-25-soritska-paradox-zneuziti", "ea-5-4-26-heap-paradox-eskalace", "ea-5-4-28-trolley-paradox-iterace", "ea-5-4-29-newcomb-paradox-implantace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.27"
 ea_category = "5. Ultramární techniky"

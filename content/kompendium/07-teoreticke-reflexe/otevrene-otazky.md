@@ -9,6 +9,7 @@ tags = ["kompendium", "teoreticke-reflexe", "otevrene-otazky", "vyzkum", "budouc
 categories = ["academic", "theory", "research-agenda"]
 
 [extra]
+related_terms = ["nagel-view-from-nowhere", "nussbaum-capabilities", "polanyi-ticha-znalost", "politicka-ea"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

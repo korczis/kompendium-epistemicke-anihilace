@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-case-studies-to-glossary-bridges", "bridge-glossary-bridges-to-philosophy", "bridge-platform-nabla-to-kompendium", "bridge-quick-reference-to-glossary"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

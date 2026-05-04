@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-20-performative-contradiction-induct
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-19-self-undermining-claim", "ea-5-4-2-russell-typ-violace", "ea-5-4-21-semanticka-vzpoury", "ea-5-4-22-logicka-paradox-eskalace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.20"
 ea_category = "5. Ultramární techniky"

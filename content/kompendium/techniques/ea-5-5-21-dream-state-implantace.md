@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-5-2-somato-fenomenologicka-disrupce", "ea-5-5-20-pre-spaclni-restrukturalizace", "ea-5-5-22-hypnagogicka-modulace", "ea-5-5-23-liminalni-prostor-rozklad"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.21"
 ea_category = "5. Ultramární techniky"

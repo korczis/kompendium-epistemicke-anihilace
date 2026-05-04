@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-2", "ultramari", "metatranscendental
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-18-heideggerovska-rozklady", "ea-5-2-19-merleau-pontyovska-deformace", "ea-5-2-20-apperceptivni-rozklad", "ea-5-2-21-subjekt-objekt-fuzia"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.2"
 ea_category = "5. Ultramární techniky"

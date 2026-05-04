@@ -9,6 +9,7 @@ tags = ["kompendium", "sartre", "existencialismus", "spatna-vira", "svoboda", "f
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["ricoeur-troji-mimese", "rorty-contingency", "searle-chinese-room", "sen-development-as-freedom"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

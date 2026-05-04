@@ -6,6 +6,7 @@ weight = 2509
 tags = ["kompendium", "techniques", "ea-2-5-9", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-5-7-self-cancelation", "ea-2-5-8-recursive-doubt-spiral", "ea-3-1-1-graduated-exposure-design", "ea-3-1-10-reflective-journaling"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.5.9"
 ea_category = "2. Scénáře delegitimizace"

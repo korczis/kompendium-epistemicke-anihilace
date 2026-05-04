@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["3-psychotic-break-EA", "30-refugee-EA-emergency", "32-step-down-program", "33-relapse-recognition"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

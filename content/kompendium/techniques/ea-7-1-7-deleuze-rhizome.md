@@ -6,6 +6,7 @@ weight = 717
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-1-5-arendt-banality-evil", "ea-7-1-6-sloterdijk-spheres", "ea-7-1-8-derrida-deconstruction", "ea-7-1-9-heidegger-dasein"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.7"
 ea_category = "7. Teoretické reflexe"

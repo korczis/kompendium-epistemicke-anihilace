@@ -9,6 +9,7 @@ tags = ["kompendium", "kuhn", "paradigma", "filozofie-vedy", "inkomensurabilita"
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["johnson-body-in-mind", "kognitivni-vedy", "lakoff-conceptual-metaphor", "levinas-jiny"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

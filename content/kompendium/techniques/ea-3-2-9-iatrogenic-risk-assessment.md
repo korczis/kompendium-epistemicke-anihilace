@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "iatrogenic-risk-ass
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-2-7-individual-supervision", "ea-3-2-8-peer-consultation", "ea-3-3-1-institutional-ethics-board", "ea-3-3-10-funding-model-ethics"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.9"
 ea_category = "3. Edukativní implementace"

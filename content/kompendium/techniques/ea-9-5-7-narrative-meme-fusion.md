@@ -6,6 +6,7 @@ weight = 957
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-5-5-counter-meme-suppression", "ea-9-5-6-frame-war-coordination", "ea-9-5-8-meme-context-collapse", "ea-9-5-9-meme-radicalization-pipeline"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.7"
 ea_category = "9. Současná digitální EA"

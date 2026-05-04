@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "risk-score", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-regression-test", "bridge-replication-crisis", "bridge-sanctions-screening", "bridge-sealioning"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "risk-score"
 toc = false

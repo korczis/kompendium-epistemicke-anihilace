@@ -9,6 +9,7 @@ tags = ["kompendium", "heidegger", "byt-ve-svete", "fenomenologie", "ontologie",
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["hannah-arendt-myslení", "harari-sapiens-narativ", "herman-chomsky-propaganda-model", "honneth-rozpoznani"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

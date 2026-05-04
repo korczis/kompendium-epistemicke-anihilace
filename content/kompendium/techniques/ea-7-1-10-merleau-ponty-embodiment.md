@@ -6,6 +6,7 @@ weight = 720
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-6-5-9-residential-program-EA", "ea-7-1-1-foucault-power-knowledge", "ea-7-1-2-foucault-discipline", "ea-7-1-3-adorno-instrumental-reason"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.10"
 ea_category = "7. Teoretické reflexe"

@@ -9,6 +9,7 @@ tags = ["kompendium", "terminalni-protokoly", "identitni-dekonstrukce", "ontolog
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["institucionalni-anihilace", "intra-simulacni-monitoring", "kapitola-4"]
 parent = "kompendium-04-terminalni-protokoly"
 section_icon = "⚠️"
 toc = true

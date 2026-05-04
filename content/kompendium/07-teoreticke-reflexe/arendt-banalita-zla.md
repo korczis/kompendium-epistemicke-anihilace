@@ -9,6 +9,7 @@ tags = ["kompendium", "arendt", "banalita-zla", "totalitarismus", "politicka-fil
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["block-phenomenal-vs-access", "boyd-disinformation-age", "brandom-inferential-semantics"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

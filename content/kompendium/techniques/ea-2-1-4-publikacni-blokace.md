@@ -6,6 +6,7 @@ weight = 2104
 tags = ["kompendium", "techniques", "ea-2-1-4", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-1-2-pseudo-peer-mob", "ea-2-1-3-credentialing-attack", "ea-2-1-5-citation-suppression", "ea-2-1-6-funding-attack"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.1.4"
 ea_category = "2. Scénáře delegitimizace"

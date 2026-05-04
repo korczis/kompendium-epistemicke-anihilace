@@ -6,6 +6,7 @@ weight = 2507
 tags = ["kompendium", "techniques", "ea-2-5-7", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-5-5-bothsidesizm-internalizace", "ea-2-5-6-platonic-cave-self", "ea-2-5-8-recursive-doubt-spiral", "ea-2-5-9-identity-uncertainty-cult"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.5.7"
 ea_category = "2. Scénáře delegitimizace"

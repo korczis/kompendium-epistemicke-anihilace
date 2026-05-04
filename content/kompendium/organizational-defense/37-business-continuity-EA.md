@@ -6,6 +6,7 @@ weight = 370
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["35-employee-assistance-EA", "36-trauma-aware-management", "38-leadership-replacement", "39-cultural-rebuild"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

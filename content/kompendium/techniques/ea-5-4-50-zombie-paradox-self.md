@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-50-zombie-paradox-self", "ultramari"
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-49-mary-paradox-knowledge", "ea-5-4-5-wittgenstein-pravidlo-rozklad", "ea-5-4-51-inverted-spectrum-paradox", "ea-5-4-52-ship-of-self-paradox"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.50"
 ea_category = "5. Ultramární techniky"

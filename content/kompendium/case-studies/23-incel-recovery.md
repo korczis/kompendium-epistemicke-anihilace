@@ -6,6 +6,7 @@ weight = 23
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
+related_terms = ["21-konspiracni-rekrutace", "22-online-radikalizace", "24-extremni-pravice-exit", "25-extremni-leve-exit"]
 parent = "kompendium-case-studies"
 anonymized = true
 toc = true

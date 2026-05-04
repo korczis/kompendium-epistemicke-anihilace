@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["10-behavioral-resistance-to-clarification", "11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"

@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["28-ex-cult-emergency", "29-political-prisoner-EA", "30-refugee-EA-emergency", "31-post-discharge-bridge"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

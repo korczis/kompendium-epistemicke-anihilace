@@ -6,6 +6,7 @@ weight = 2508
 tags = ["kompendium", "techniques", "ea-2-5-8", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-5-6-platonic-cave-self", "ea-2-5-7-self-cancelation", "ea-2-5-9-identity-uncertainty-cult", "ea-3-1-1-graduated-exposure-design"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.5.8"
 ea_category = "2. Scénáře delegitimizace"

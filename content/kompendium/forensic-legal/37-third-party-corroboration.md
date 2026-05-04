@@ -6,6 +6,7 @@ weight = 37
 tags = ["kompendium", "forensic-legal", "documentation-standards"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["35-electronic-evidence-EA", "36-recording-protocols", "38-pattern-evidence", "39-incident-reporting"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

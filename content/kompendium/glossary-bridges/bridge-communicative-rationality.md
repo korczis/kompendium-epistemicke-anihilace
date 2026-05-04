@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "communicative-rationality", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-coercive-control", "bridge-color-teams", "bridge-companion", "bridge-darvo"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "communicative-rationality"
 toc = false

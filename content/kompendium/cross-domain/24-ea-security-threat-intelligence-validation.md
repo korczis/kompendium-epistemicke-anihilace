@@ -6,6 +6,7 @@ weight = 240
 tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["22-ea-security-incident-response-narrative", "23-ea-security-attribution-bias", "25-ea-compliance-nis2-integrity", "26-ea-compliance-zkb-epistemic-integrity"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-4", "klinicke", "vetersko-protokol"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-4-3-uprchlik-protokol", "ea-6-4-4-LGBTQI-EA-protokol", "ea-6-4-6-domesticky-abuse-protokol", "ea-6-4-7-policejni-trauma-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.4.5"
 ea_category = "6. Klinické aplikace"

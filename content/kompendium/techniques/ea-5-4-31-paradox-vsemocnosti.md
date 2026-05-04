@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-31-paradox-vsemocnosti", "ultramari"
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-3-tarsky-diagonalizace", "ea-5-4-30-paradox-volby-totalni", "ea-5-4-32-paradox-tolerance", "ea-5-4-33-paradox-svobody"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.31"
 ea_category = "5. Ultramární techniky"

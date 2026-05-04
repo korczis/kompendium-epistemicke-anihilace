@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-56-duplicate-paradox-self", "ultrama
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-54-fission-paradox-self", "ea-5-4-55-fusion-paradox-self", "ea-5-4-57-branch-paradox-self", "ea-5-4-58-trans-temporal-self-paradox"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.56"
 ea_category = "5. Ultramární techniky"

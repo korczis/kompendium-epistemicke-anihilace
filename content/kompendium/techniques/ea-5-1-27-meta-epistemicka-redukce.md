@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-27", "meta-epistemicka-redukce", "ep
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-26", "ea-5-1-26-trans-paradigmaticka-migrace", "ea-5-1-28-konvergentni-singularita", "ea-5-1-29-ontologicka-exfoliace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.27"
 ea_category = "5. Ultramární techniky"

@@ -6,6 +6,7 @@ weight = 2302
 tags = ["kompendium", "techniques", "ea-2-3-2", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-3-1-clip-takeout", "ea-2-3-10-viralni-misrepresentation", "ea-2-3-3-quote-mining", "ea-2-3-4-mob-coordination"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.3.2"
 ea_category = "2. Scénáře delegitimizace"

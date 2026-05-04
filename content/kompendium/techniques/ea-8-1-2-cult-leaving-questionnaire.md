@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-1", "prilohy", "reference", "cult-leav
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-1-1-bite-model-detail", "ea-8-1-10-decision-making-capacity-scale", "ea-8-1-3-stalking-behavior-checklist", "ea-8-1-4-coercive-control-scale"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.1.2"
 ea_category = "8. Přílohy"

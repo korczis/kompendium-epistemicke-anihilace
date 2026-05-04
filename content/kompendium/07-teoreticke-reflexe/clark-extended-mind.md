@@ -9,6 +9,7 @@ tags = ["kompendium", "clark", "extended-mind", "filosofie-mysli", "kognitivni-a
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["chomsky-manufacturing-consent", "clark-andy-natural-born-cyborgs", "computational-epistemology", "damasio-somatic-marker"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

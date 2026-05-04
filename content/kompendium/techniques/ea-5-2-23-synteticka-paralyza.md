@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-23", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-21-subjekt-objekt-fuzia", "ea-5-2-22-intentionalni-rozpojeni", "ea-5-2-24-analyticka-anihilace", "ea-5-2-25-kategorialni-mlha"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.23"
 ea_category = "5. Ultramární techniky"

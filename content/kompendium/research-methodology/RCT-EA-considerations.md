@@ -6,6 +6,7 @@ weight = 12
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["IPA-EA", "IRB-protocol-design-EA", "anonymization-EA-research", "case-study-design-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

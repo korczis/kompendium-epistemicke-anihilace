@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-2", "klinicke", "emdr-protokol"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-2-1-trauma-focused-cbt-protokol", "ea-6-2-10-pharmacotherapy-adjuvant", "ea-6-2-3-ifs-internal-family-systems", "ea-6-2-4-metacognitive-therapy-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.2.2"
 ea_category = "6. Klinické aplikace"

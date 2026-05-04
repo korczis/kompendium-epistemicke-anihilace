@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "historie", "filozofie", "predchudci"]
 categories = ["academic", "history"]
 
 [extra]
+related_terms = ["definice", "filosoficky-ramec", "metodologicke-poznamky", "teoreticke-zaklady"]
 parent = "kompendium-02-uvod"
 section_icon = "📜"
 toc = true

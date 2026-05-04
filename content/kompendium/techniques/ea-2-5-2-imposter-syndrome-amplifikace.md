@@ -6,6 +6,7 @@ weight = 2502
 tags = ["kompendium", "techniques", "ea-2-5-2", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-5-1-pseudo-pokora-internalizace", "ea-2-5-10-existential-helplessness-implantace", "ea-2-5-3-self-doubt-cultivation", "ea-2-5-4-radical-relativism-internalize"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.5.2"
 ea_category = "2. Scénáře delegitimizace"

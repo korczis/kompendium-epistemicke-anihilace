@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["22-adolescent-emergency-EA", "23-elder-emergency-EA", "25-medical-comorbidity-EA", "26-substance-EA"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

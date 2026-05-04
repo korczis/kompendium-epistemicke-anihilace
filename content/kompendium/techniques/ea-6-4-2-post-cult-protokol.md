@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-4", "klinicke", "post-cult-protokol"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-4-1-deti-protokol", "ea-6-4-10-aktivisti-protokol", "ea-6-4-3-uprchlik-protokol", "ea-6-4-4-LGBTQI-EA-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.4.2"
 ea_category = "6. Klinické aplikace"

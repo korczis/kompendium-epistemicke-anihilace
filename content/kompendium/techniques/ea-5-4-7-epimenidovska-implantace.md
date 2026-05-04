@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-7-epimenidovska-implantace", "ultram
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-6-konvergentni-paradox", "ea-5-4-60-konvergentni-meta-paradox", "ea-5-4-8-quineho-paradox-vlnoviny", "ea-5-4-9-cantorova-diagonalizace-aplikace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.7"
 ea_category = "5. Ultramární techniky"

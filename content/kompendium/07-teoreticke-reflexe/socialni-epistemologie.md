@@ -9,6 +9,7 @@ tags = ["kompendium", "socialni-epistemologie", "goldman", "fricker", "longino",
 categories = ["academic", "epistemology"]
 
 [extra]
+related_terms = ["sen-development-as-freedom", "snyder-tyranny-essays", "taylor-sources-of-self", "thompson-mind-in-life"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

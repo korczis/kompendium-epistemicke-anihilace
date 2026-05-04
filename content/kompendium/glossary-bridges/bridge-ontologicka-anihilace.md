@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "ontologicka-anihilace", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-narrative-trauma", "bridge-nm-nd", "bridge-osint", "bridge-panopticism"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "ontologicka-anihilace"
 toc = false

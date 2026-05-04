@@ -6,6 +6,7 @@ weight = 3
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
 [extra]
+related_terms = ["28-spiritual-restoration-prevention", "29-cultural-restoration-prevention", "30-trauma-informed-citizenship", "4-community-resilience-EA"]
 parent = "kompendium-prevention-resilience"
 toc = true
 +++

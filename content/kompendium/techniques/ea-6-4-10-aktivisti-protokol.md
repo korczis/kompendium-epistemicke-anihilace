@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-4", "klinicke", "aktivisti-protokol"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-3-9-axiologicka-restaurace", "ea-6-4-1-deti-protokol", "ea-6-4-2-post-cult-protokol", "ea-6-4-3-uprchlik-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.4.10"
 ea_category = "6. Klinické aplikace"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-5", "klinicke", "disociativni-akutni-p
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-5-2-suicidalni-EA-protokol", "ea-6-5-3-psychotic-spektrum-protokol", "ea-6-5-5-er-screening-EA", "ea-6-5-6-inpatient-stabilizace"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.5.4"
 ea_category = "6. Klinické aplikace"

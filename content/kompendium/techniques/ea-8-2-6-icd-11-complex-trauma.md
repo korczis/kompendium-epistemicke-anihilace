@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-2", "prilohy", "reference", "icd-11-co
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-2-4-hassan-cult-criteria", "ea-8-2-5-stark-coercive-control", "ea-8-2-7-dsm-5-tr-trauma", "ea-8-2-8-aprw-attachment-trauma"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.2.6"
 ea_category = "8. Přílohy"

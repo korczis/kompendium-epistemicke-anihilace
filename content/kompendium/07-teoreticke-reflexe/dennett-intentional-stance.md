@@ -9,6 +9,7 @@ tags = ["kompendium", "dennett", "filosofie-mysli", "intentional-stance", "vedom
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["dawkins-meme", "dennett-from-bacteria-to-bach", "digitalni-vek", "epistemicke-trauma"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

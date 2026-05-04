@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-2-3", "iluzorni-komplexita", "evaluace
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-1-2-2-falesna-ekvivalence", "ea-1-2-2-memorni-rekonstrukce", "ea-1-3-1-immunization-against-falsification", "ea-1-3-1-imunizace-proti-falsifikaci"]
 parent = "kompendium-techniques"
 ea_code = "EA-1.2.3"
 ea_category = "1. Akademické techniky"

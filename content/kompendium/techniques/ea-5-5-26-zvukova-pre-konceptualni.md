@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-5-24-atmospheric-pressure-modulace", "ea-5-5-25-svetelna-frekvence-modulace", "ea-5-5-27-taktilni-pre-konceptualni", "ea-5-5-28-olfacticka-modulace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.26"
 ea_category = "5. Ultramární techniky"

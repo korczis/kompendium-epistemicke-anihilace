@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-3", "klinicke", "stabilizacni-faze-pro
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-2-8-somatic-experiencing-protokol", "ea-6-2-9-body-oriented-therapy-protokol", "ea-6-3-10-sense-of-coherence-restaurace", "ea-6-3-2-externalizacni-faze"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.3.1"
 ea_category = "6. Klinické aplikace"

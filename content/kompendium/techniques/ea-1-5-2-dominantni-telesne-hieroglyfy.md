@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-5-2", "telesne-hieroglyfy", "kinesics"
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-1-5-1-emocni-podbarveni", "ea-1-5-1-strategicka-proxemika", "ea-1-5-terminologicka-mystifikace", "ea-1-6-1-vzorec-guru-a-adept"]
 parent = "kompendium-techniques"
 ea_code = "EA-1.5.2"
 ea_category = "1. Akademické techniky"

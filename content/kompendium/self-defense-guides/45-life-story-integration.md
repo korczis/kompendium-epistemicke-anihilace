@@ -6,6 +6,7 @@ weight = 45
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["43-memory-archive", "44-axiology-clarification", "46-multiple-self-management", "47-identity-resilience-training"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

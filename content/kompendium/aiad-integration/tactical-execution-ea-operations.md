@@ -6,6 +6,7 @@ weight = 19
 tags = ["kompendium", "aiad-integration", "tactical-execution-ea-operations"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["strategic-command-ea-coordination", "supreme-commander-ea-strategy", "trinity-gate-ea-verification", "white-team-ea-verification"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

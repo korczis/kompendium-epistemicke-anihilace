@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["37-iatrogenic-emergency", "38-second-opinion-emergency", "4-acute-dissociation-EA", "40-witness-protection"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

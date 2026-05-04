@@ -9,6 +9,7 @@ tags = ["kompendium", "postmodernismus", "lyotard", "baudrillard", "derrida", "m
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["polanyi-ticha-znalost", "politicka-ea", "putnam-internal-realism", "quine-web-of-belief"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

@@ -6,6 +6,7 @@ weight = 32
 tags = ["kompendium", "aiad-integration", "hawkeye-ea-visitor-intelligence"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["epistemic-pipeline-ea-detection", "gray-team-ea-edge-cases", "nabla-infinity-ea-pipeline", "operational-execution-ea-deployment"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

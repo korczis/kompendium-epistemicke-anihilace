@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-23", "asymptoticka-dezintegrace", "e
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-21-sebe-referencni-paradox", "ea-5-1-22-diferencialni-nihilace", "ea-5-1-24-epistemicka-vakuace", "ea-5-1-25-singularni-narativni-kolaps"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.23"
 ea_category = "5. Ultramární techniky"

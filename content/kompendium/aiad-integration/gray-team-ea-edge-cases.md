@@ -6,6 +6,7 @@ weight = 15
 tags = ["kompendium", "aiad-integration", "gray-team-ea-edge-cases"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["decision-engine-ea-calibration", "epistemic-pipeline-ea-detection", "hawkeye-ea-visitor-intelligence", "nabla-infinity-ea-pipeline"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

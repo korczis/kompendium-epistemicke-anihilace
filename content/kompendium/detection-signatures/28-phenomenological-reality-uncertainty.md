@@ -6,6 +6,7 @@ weight = 28
 tags = ["kompendium", "detection-signature", "diagnostika", "phenomenological"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["26-phenomenological-self-doubt-spike", "27-phenomenological-emotional-numbing", "29-phenomenological-temporal-disorientation", "3-linguistic-unfalsifiable-claims"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "phenomenological"

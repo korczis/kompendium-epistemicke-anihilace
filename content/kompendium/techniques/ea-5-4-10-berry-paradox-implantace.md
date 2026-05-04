@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-10-berry-paradox-implantace", "ultra
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-9-afektivni-prepolovani", "ea-5-4-1-lhar-paradox-aplikace", "ea-5-4-11-richardova-paradox-zneuziti", "ea-5-4-12-grellingova-paradox-aplikace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.10"
 ea_category = "5. Ultramární techniky"

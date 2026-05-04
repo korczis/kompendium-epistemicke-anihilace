@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-1", "edukativni", "recognition-trainin
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-1-4-epistemic-community-formation", "ea-3-1-5-stabilization-anchoring", "ea-3-1-7-neutralization-practicum", "ea-3-1-8-compositional-analysis-drill"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.1.6"
 ea_category = "3. Edukativní implementace"

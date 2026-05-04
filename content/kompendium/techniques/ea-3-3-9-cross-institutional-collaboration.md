@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-3", "edukativni", "cross-institutional
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-3-7-alumni-network", "ea-3-3-8-research-translation-pipeline", "ea-4-1-1-foundation-stage", "ea-4-1-10-debriefing-cascade"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.3.9"
 ea_category = "3. Edukativní implementace"

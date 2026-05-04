@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-19", "kvazi-mysticka-anihilace", "ep
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-17-tautologicka-imploze", "ea-5-1-18-solipsisticka-dekompozice", "ea-5-1-2-konceptualni-nihilace", "ea-5-1-20-holograficka-redukce"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.19"
 ea_category = "5. Pokročilé techniky"

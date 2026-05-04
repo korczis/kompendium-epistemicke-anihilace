@@ -6,6 +6,7 @@ weight = 2301
 tags = ["kompendium", "techniques", "ea-2-3-1", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-2-8-intellectual-paternity-claim", "ea-2-2-9-disciplinary-boundary-coercion", "ea-2-3-10-viralni-misrepresentation", "ea-2-3-2-context-collapse"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.3.1"
 ea_category = "2. Scénáře delegitimizace"

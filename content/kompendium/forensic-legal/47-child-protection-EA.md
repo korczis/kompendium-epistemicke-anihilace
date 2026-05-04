@@ -6,6 +6,7 @@ weight = 47
 tags = ["kompendium", "forensic-legal", "specialized-law"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["45-disability-law-EA", "46-elder-abuse-law", "48-religious-exemption-EA", "49-trafficking-law-EA"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

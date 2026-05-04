@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-3", "prilohy", "reference", "foundatio
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-2-8-aprw-attachment-trauma", "ea-8-2-9-van-der-kolk-trauma", "ea-8-3-10-information-warfare-literature", "ea-8-3-2-clinical-handbook"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.3.1"
 ea_category = "8. Přílohy"

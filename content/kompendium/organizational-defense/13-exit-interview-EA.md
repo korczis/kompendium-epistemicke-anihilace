@@ -6,6 +6,7 @@ weight = 130
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["11-onboarding-EA-awareness", "12-training-resilience", "14-anonymous-feedback", "15-culture-survey-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

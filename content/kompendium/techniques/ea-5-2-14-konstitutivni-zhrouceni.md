@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-14", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-12-noumenalni-paralyza", "ea-5-2-13-apriorni-fragmentace", "ea-5-2-15-transcendentalni-implosion", "ea-5-2-16-kantovska-paradoxie"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.14"
 ea_category = "5. Ultramární techniky"

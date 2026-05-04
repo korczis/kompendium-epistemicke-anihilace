@@ -6,6 +6,7 @@ weight = 952
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-5-1-meme-cascade-injection", "ea-9-5-10-meme-attribution-laundering", "ea-9-5-3-emotional-meme-engineering", "ea-9-5-4-meme-network-amplification"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.5.2"
 ea_category = "9. Současná digitální EA"

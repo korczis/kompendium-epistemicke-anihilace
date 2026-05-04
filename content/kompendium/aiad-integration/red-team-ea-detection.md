@@ -6,6 +6,7 @@ weight = 10
 tags = ["kompendium", "aiad-integration", "red-team-ea-detection"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["qeve-ea-quality-validation", "quality-monitor-ea-tracking", "strategic-command-ea-coordination", "supreme-commander-ea-strategy"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 21
 tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["2-linguistic-circular-definitions", "20-network-bot-coordination", "22-network-narrative-injection", "23-network-reputation-laundering"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"

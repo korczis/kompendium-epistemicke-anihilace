@@ -9,6 +9,7 @@ tags = ["kompendium", "butler", "performativita", "gender", "identita", "subjekt
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["boyd-disinformation-age", "brandom-inferential-semantics", "chalmers-hard-problem", "chomsky-manufacturing-consent"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

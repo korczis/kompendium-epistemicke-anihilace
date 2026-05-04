@@ -8,6 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "subacute"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["subacute-axiological-restoration", "subacute-detection-training", "subacute-narrative-externalization", "subacute-relational-restructuring"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"

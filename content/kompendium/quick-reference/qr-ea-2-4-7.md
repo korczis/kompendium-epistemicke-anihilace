@@ -6,6 +6,7 @@ weight = 30247
 tags = ["kompendium", "quick-reference", "ea-2-4-7", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["qr-ea-2-4-5", "qr-ea-2-4-6", "qr-ea-2-4-8", "qr-ea-2-4-9"]
 parent = "kompendium-quick-reference"
 ea_code = "EA-2.4.7"
 access_level = "L2"

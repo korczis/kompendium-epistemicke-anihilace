@@ -6,6 +6,7 @@ weight = 140
 tags = ["kompendium", "population-health", "interventions"]
 categories = ["academic", "public-health"]
 [extra]
+related_terms = ["12-community-resilience-program", "13-school-curriculum-EA", "15-media-literacy-program", "16-digital-citizenship-program"]
 parent = "kompendium-population-health"
 toc = true
 +++

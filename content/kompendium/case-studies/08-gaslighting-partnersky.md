@@ -6,6 +6,7 @@ weight = 8
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
+related_terms = ["06-cult-recovery-12-let", "07-narcisticka-rodina", "09-rezidualni-totalitarni-trauma", "10-sektarske-vychazeni"]
 parent = "kompendium-case-studies"
 anonymized = true
 toc = true

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-42-self-objektifikace-totalni", "ea-5-3-5-temporalne-vyvojova-inverze", "ea-5-3-7-self-narrative-replacement", "ea-5-3-8-mnemonicka-rekonfigurace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.6"
 ea_category = "5. Ultramární techniky"

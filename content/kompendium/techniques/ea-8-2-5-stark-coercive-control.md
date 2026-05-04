@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-2", "prilohy", "reference", "stark-coe
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-2-3-singer-six-conditions", "ea-8-2-4-hassan-cult-criteria", "ea-8-2-6-icd-11-complex-trauma", "ea-8-2-7-dsm-5-tr-trauma"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.2.5"
 ea_category = "8. Přílohy"

@@ -3,6 +3,7 @@ title = "EA-5-3-42: Totální self-objektifikace"
 description = "Krajní forma self-objektifikace, kde subjekt přechází z subjektivního prožívání na čistě objektivní self-pozorování"
 weight = 100
 [extra]
+related_terms = ["ea-5-3-4-telesna-disociace", "ea-5-3-41-trans-individualizace", "ea-5-3-5-temporalne-vyvojova-inverze", "ea-5-3-6-rekurzivni-hypertransformace"]
 draft = false
 stub = true
 +++

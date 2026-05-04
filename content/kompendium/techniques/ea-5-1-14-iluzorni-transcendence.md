@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-14", "iluzorni-transcendence", "fale
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-12-kauzalni-inverze", "ea-5-1-13-hyperreflexivita", "ea-5-1-15-apofaticke-zacykleni", "ea-5-1-16-inferencni-paralyza"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.14"
 ea_category = "5. Pokročilé operace"

@@ -9,6 +9,7 @@ tags = ["kompendium", "searle", "filosofie-mysli", "ai", "cinsky-pokoj", "séman
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["rorty-contingency", "sartre-existencialismus", "sen-development-as-freedom", "snyder-tyranny-essays"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

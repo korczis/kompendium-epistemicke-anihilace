@@ -6,6 +6,7 @@ weight = 7
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
 [extra]
+related_terms = ["5-false-positive-risk", "6-political-instrumentalization", "8-theoretical-imperialism", "9-essentialism-critique"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++

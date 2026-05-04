@@ -6,6 +6,7 @@ weight = 5
 tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["30-phenomenological-identity-fragmentation", "4-linguistic-framing-shift", "6-linguistic-narrative-fragmentation", "7-linguistic-scope-creep"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"

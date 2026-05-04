@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "supervisor-certific
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-1-8-compositional-analysis-drill", "ea-3-1-9-debriefing-protocol", "ea-3-2-10-supervisor-self-care", "ea-3-2-2-multi-paradigm-fluency"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.1"
 ea_category = "3. Edukativní implementace"

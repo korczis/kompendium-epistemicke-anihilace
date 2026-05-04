@@ -9,6 +9,7 @@ tags = ["kompendium", "brandom", "inferencialismus", "pittsburghska-skola", "nor
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["block-phenomenal-vs-access", "boyd-disinformation-age", "butler-performative", "chalmers-hard-problem"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

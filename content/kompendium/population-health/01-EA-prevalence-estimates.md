@@ -6,6 +6,7 @@ weight = 10
 tags = ["kompendium", "population-health", "epidemiology"]
 categories = ["academic", "public-health"]
 [extra]
+related_terms = ["02-cohort-studies-EA", "03-incidence-cult-exposure", "04-disinformation-population-impact"]
 parent = "kompendium-population-health"
 toc = true
 +++

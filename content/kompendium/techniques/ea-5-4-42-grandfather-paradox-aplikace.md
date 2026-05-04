@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-42-grandfather-paradox-aplikace", "u
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-40-retrokauzalita-trap", "ea-5-4-41-bootstrap-paradox-implantace", "ea-5-4-43-predestiny-paradox", "ea-5-4-44-simulation-regress-trap"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.42"
 ea_category = "5. Ultramární techniky"

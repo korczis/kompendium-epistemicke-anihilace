@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-2", "terminalni-protokoly", "real-time
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-2-1-pre-engagement-screening", "ea-4-2-10-emergency-extraction", "ea-4-2-3-post-engagement-reintegration", "ea-4-2-4-irb-review-multi-tier"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.2.2"
 ea_category = "4. Terminální protokoly"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-1", "prilohy", "reference", "disociati
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-1-5-epistemic-trust-scale", "ea-8-1-6-betrayal-trauma-inventory", "ea-8-1-8-traumatic-stress-screen", "ea-8-1-9-metakognitivni-questionnaire"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.1.7"
 ea_category = "8. Přílohy"

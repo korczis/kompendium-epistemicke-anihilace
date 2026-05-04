@@ -8,6 +8,7 @@ insert_anchor_links = "right"
 tags = ["kompendium", "kapitola-2", "scenar-f", "delegitimizace", "kolektivni-manipulace", "fragmentace-komunity", "ea-3-2-f"]
 categories = ["academic"]
 [extra]
+related_terms = ["lebenswelt", "metakognice", "scenar-g", "scenar-h"]
 ea_codes = ["EA-3.2.F"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🌐"

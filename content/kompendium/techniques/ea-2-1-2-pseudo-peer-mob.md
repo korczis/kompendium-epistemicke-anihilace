@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-2-1-2", "pseudo-peer-mob", "delegitimiza
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-2-1-1-expertni-disinflation", "ea-2-1-10-credentials-rekonfigurace", "ea-2-1-3-credentialing-attack", "ea-2-1-4-publikacni-blokace"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.1.2"
 ea_category = "2. Scénáře delegitimizace"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-30-paradox-volby-totalni", "ultramar
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-29-newcomb-paradox-implantace", "ea-5-4-3-tarsky-diagonalizace", "ea-5-4-31-paradox-vsemocnosti", "ea-5-4-32-paradox-tolerance"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.30"
 ea_category = "5. Ultramární techniky"

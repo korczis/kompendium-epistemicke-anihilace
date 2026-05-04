@@ -8,6 +8,7 @@ tags = ["kompendium", "klinicke-aplikace", "terapie", "trauma-focused", "narativ
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["semi-structured-interview-protokol", "supervizni-ramce", "visualizations", "vulnerabilni-populace"]
 parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🧭"
 toc = true

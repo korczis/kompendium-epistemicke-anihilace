@@ -6,6 +6,7 @@ weight = 160
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["14-ea-dd-narrative-warfare", "15-ea-dd-evidence-quality-assessment", "17-ea-security-social-engineering", "18-ea-security-spear-phishing"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-10", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-1-9-identitni-dezintegrace", "ea-5-2-1-meta-epistemicka-inverze", "ea-5-2-11-kategorialni-anihilace", "ea-5-2-12-noumenalni-paralyza"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.10"
 ea_category = "5. Ultramární techniky"

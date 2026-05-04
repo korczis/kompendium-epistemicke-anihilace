@@ -6,6 +6,7 @@ weight = 922
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-2-10-AI-personhood-claim", "ea-9-2-3-synthetic-text-narrative", "ea-9-2-4-image-manipulation-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.2"
 ea_category = "9. Současná digitální EA"

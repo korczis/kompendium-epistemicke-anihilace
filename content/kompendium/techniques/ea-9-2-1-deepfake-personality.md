@@ -6,6 +6,7 @@ weight = 921
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-1-8-llm-confabulation-amplification", "ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-10-AI-personhood-claim", "ea-9-2-2-voice-cloning-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.1"
 ea_category = "9. Současná digitální EA"

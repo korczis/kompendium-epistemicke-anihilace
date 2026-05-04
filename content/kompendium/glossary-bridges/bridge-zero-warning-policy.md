@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "zero-warning-policy", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-weaponized-incompetence", "bridge-white-team", "delegitimizace", "epistemicke-trauma"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "zero-warning-policy"
 toc = false

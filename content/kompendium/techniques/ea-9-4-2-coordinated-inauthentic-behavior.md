@@ -6,6 +6,7 @@ weight = 942
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-4-1-bot-amplification-coordinated", "ea-9-4-10-bot-detection-evasion", "ea-9-4-3-sock-puppet-network", "ea-9-4-4-AI-bot-personhood"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.2"
 ea_category = "9. Současná digitální EA"

@@ -6,6 +6,7 @@ weight = 24
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["data-security-EA-research", "debriefing-protocol-research", "document-analysis-EA", "effect-size-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

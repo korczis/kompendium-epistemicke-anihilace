@@ -10,6 +10,7 @@ tags = ["kompendium", "ultramari-techniky", "metatranscendentalni-anihilace", "k
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["kapitola-10", "kapitola-6", "kapitola-8", "kapitola-9"]
 section_icon = "🌑"
 toc = true
 parent = "kompendium-05-ultramari-techniky"

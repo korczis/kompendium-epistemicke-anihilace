@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "firehose-of-falsehood", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-falsifikace", "bridge-fenomenologie", "bridge-four-noble-truths", "bridge-gaslighting"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "firehose-of-falsehood"
 toc = false

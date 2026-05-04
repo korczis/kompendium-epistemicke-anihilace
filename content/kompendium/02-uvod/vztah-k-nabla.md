@@ -9,6 +9,7 @@ tags = ["kompendium", "uvod", "nabla", "epistemic-pipeline", "obrana", "platform
 categories = ["academic", "platform-integration"]
 
 [extra]
+related_terms = ["teoreticke-zaklady", "vztah-k-decision-engine", "metodologicke-poznamky"]
 parent = "kompendium-02-uvod"
 section_icon = "∇"
 toc = true

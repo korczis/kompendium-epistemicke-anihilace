@@ -6,6 +6,7 @@ weight = 20
 tags = ["kompendium", "forensic-legal", "legal-frameworks"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["19-professional-misconduct-EA", "2-credibility-assessment", "21-expert-witness-EA", "22-fact-witness-protection"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

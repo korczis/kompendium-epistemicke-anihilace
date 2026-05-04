@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-19-self-undermining-claim", "ultrama
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-17-infinit-regres-implantace", "ea-5-4-18-circular-justification-trap", "ea-5-4-2-russell-typ-violace", "ea-5-4-20-performative-contradiction-induction"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.19"
 ea_category = "5. Ultramární techniky"

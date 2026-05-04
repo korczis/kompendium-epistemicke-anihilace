@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-6", "ultramari", "epistemicka-singul
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-1-4-semanticka-imploze", "ea-5-1-5-logicka-diskontinuita", "ea-5-1-7-referencni-rekurze", "ea-5-1-8-konceptualni-fragmentace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.6"
 ea_category = "5. Ultramární techniky"

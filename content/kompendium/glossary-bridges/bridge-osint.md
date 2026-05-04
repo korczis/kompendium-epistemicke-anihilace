@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "osint", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-nm-nd", "bridge-ontologicka-anihilace", "bridge-panopticism", "bridge-power-knowledge"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "osint"
 toc = false

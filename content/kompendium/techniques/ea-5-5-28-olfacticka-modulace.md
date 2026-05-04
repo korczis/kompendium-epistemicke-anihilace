@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-5-26-zvukova-pre-konceptualni", "ea-5-5-27-taktilni-pre-konceptualni", "ea-5-5-29-multimodalni-konvergence", "ea-5-5-3-atmosfericka-modulace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.28"
 ea_category = "5. Ultramární techniky"

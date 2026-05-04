@@ -6,6 +6,7 @@ weight = 21
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["RCT-EA-considerations", "anonymization-EA-research", "causal-inference-EA", "conflict-of-interest-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

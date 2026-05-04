@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["24-pregnant-emergency-EA", "25-medical-comorbidity-EA", "27-active-cult-emergency", "28-ex-cult-emergency"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

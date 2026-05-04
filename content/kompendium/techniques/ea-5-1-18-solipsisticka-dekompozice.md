@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-18", "solipsisticka-dekompozice", "e
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-16-inferencni-paralyza", "ea-5-1-17-tautologicka-imploze", "ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-1-2-konceptualni-nihilace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.18"
 ea_category = "5. Ultramarinní techniky"

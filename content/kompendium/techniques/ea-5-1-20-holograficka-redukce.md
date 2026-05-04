@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-20", "holograficka-redukce", "episte
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-1-2-konceptualni-nihilace", "ea-5-1-21-sebe-referencni-paradox", "ea-5-1-22-diferencialni-nihilace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.20"
 ea_category = "5. Pokročilé techniky"

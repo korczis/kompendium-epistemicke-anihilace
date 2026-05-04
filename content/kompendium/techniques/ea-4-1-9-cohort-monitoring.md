@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-1", "terminalni-protokoly", "cohort-mo
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-1-7-termination-criteria", "ea-4-1-8-supervisor-rotation", "ea-4-1-gaslighting", "ea-4-2-1-pre-engagement-screening"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.1.9"
 ea_category = "4. Terminální protokoly"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-1", "prilohy", "reference", "bite-mode
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-7-3-8-chalmers-hard-problem", "ea-7-3-9-dehaene-consciousness", "ea-8-1-10-decision-making-capacity-scale", "ea-8-1-2-cult-leaving-questionnaire"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.1.1"
 ea_category = "8. Přílohy"

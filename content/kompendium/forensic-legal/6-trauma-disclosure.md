@@ -6,6 +6,7 @@ weight = 6
 tags = ["kompendium", "forensic-legal", "forensic-assessment"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["5-suggestibility-assessment", "50-international-law-EA", "7-evidence-chain-of-custody", "8-witness-prep-EA"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

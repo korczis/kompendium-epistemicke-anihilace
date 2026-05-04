@@ -6,6 +6,7 @@ weight = 918
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-7-synthetic-expertise-claim", "ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-1-deepfake-personality"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.8"
 ea_category = "9. Současná digitální EA"

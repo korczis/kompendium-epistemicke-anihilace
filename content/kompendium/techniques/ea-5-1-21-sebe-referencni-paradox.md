@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-21", "sebe-referencni-paradox", "epi
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-2-konceptualni-nihilace", "ea-5-1-20-holograficka-redukce", "ea-5-1-22-diferencialni-nihilace", "ea-5-1-23-asymptoticka-dezintegrace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.21"
 ea_category = "5. Pokročilé techniky"

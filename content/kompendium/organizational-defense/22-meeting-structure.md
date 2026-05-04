@@ -6,6 +6,7 @@ weight = 220
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["20-succession-planning-EA", "21-decision-traceability", "23-communication-policy", "24-documentation-standards"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

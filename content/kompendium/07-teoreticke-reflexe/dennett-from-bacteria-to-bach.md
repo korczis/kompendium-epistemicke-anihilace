@@ -9,6 +9,7 @@ tags = ["kompendium", "dennett", "evoluce", "vedomi", "filosofie-mysli", "kultur
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["davidson-radical-interpretation", "dawkins-meme", "dennett-intentional-stance", "digitalni-vek"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

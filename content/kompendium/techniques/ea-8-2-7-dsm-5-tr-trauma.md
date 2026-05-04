@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-2", "prilohy", "reference", "dsm-5-tr-
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-2-5-stark-coercive-control", "ea-8-2-6-icd-11-complex-trauma", "ea-8-2-8-aprw-attachment-trauma", "ea-8-2-9-van-der-kolk-trauma"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.2.7"
 ea_category = "8. Přílohy"

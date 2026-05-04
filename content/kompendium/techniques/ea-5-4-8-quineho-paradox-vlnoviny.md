@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-8-quineho-paradox-vlnoviny", "ultram
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-60-konvergentni-meta-paradox", "ea-5-4-7-epimenidovska-implantace", "ea-5-4-9-cantorova-diagonalizace-aplikace", "ea-5-5-1-pre-predikativni-blokace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.8"
 ea_category = "5. Ultramární techniky"

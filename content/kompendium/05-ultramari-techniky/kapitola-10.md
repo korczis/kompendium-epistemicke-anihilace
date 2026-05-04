@@ -9,6 +9,7 @@ tags = ["kompendium", "ultramari", "kapitola-10", "transkonceptualni-mechanismy"
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["kapitola-6", "kapitola-7", "kapitola-8"]
 parent = "kompendium-05-ultramari-techniky"
 section_icon = "🚨"
 toc = true

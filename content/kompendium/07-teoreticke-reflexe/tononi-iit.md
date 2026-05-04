@@ -9,6 +9,7 @@ tags = ["kompendium", "tononi", "iit", "vedomi", "neurovedy", "integrovana-infor
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["taylor-sources-of-self", "thompson-mind-in-life", "varela-enactivism", "visualizations"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

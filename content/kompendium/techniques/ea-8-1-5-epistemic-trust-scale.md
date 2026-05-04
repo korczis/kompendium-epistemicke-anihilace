@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-1", "prilohy", "reference", "epistemic
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-1-3-stalking-behavior-checklist", "ea-8-1-4-coercive-control-scale", "ea-8-1-6-betrayal-trauma-inventory", "ea-8-1-7-disociativni-experiences-scale"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.1.5"
 ea_category = "8. Přílohy"

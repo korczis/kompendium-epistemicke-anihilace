@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "clean-run", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-c-ptsd", "bridge-censys", "bridge-coercive-control", "bridge-color-teams"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "clean-run"
 toc = false

@@ -5,6 +5,7 @@ weight = 5
 sort_by = "weight"
 
 [extra]
+related_terms = ["diagnosticke-nastroje", "dual-use", "index-pojmu", "klasifikace"]
 kompendium = ["08-prilohy"]
 prilohy = ["etika", "kodex", "irb"]
 section_icon = "⚖️"

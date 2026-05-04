@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "embodied-cognition", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-dual-use-poznani", "bridge-easm", "bridge-entity-resolution", "bridge-epistemic-bubble"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "embodied-cognition"
 toc = false

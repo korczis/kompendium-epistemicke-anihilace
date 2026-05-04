@@ -6,6 +6,7 @@ weight = 963
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-2-AI-judgment-laundering", "ea-9-6-4-AI-deplatforming-cascade", "ea-9-6-5-AI-credit-scoring-bias"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.6.3"
 ea_category = "9. Současná digitální EA"

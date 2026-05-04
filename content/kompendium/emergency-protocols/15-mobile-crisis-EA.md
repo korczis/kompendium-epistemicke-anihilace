@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["13-crisis-team-deployment", "14-family-emergency-debrief", "16-911-EA-recognition", "17-crisis-hotline-EA"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

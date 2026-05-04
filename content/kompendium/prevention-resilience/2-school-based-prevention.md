@@ -6,6 +6,7 @@ weight = 2
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
 [extra]
+related_terms = ["18-clinical-vigilance-prevention", "19-pastoral-vigilance-prevention", "20-peer-vigilance-prevention", "21-relapse-prevention-EA"]
 parent = "kompendium-prevention-resilience"
 toc = true
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "kapitola-1", "akademicka-manipulace", "intelektualni-mani
 categories = ["academic"]
 
 [extra]
+related_terms = ["hermeneutika", "intencionalita", "kapitola-2", "kapitola-3"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🎓"
 toc = true

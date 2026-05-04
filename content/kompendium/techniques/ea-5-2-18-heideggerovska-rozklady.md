@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-18", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-16-kantovska-paradoxie", "ea-5-2-17-husserlovska-redukce-perverze", "ea-5-2-19-merleau-pontyovska-deformace", "ea-5-2-2-transcendentalni-iluze"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.18"
 ea_category = "5. Ultramární techniky"

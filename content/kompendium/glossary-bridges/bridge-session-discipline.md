@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "session-discipline", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-sanctions-screening", "bridge-sealioning", "bridge-shodan", "bridge-simulacra"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "session-discipline"
 toc = false

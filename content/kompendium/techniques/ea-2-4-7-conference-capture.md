@@ -6,6 +6,7 @@ weight = 2407
 tags = ["kompendium", "techniques", "ea-2-4-7", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-6-peer-review-capture", "ea-2-4-8-journal-capture", "ea-2-4-9-curriculum-capture"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.4.7"
 ea_category = "2. Scénáře delegitimizace"

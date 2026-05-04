@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-3", "klinicke", "metakognitivni-rehabi
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-3-2-externalizacni-faze", "ea-6-3-3-metacognitivni-rehabilitace", "ea-6-3-4-hermeneuticka-rekonstrukce", "ea-6-3-5-konsolidace-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.3.3"
 ea_category = "6. Klinické aplikace"

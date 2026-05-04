@@ -9,6 +9,7 @@ tags = ["kompendium", "filosoficky-ramec", "foucault", "adorno", "sloterdijk", "
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["epistemicke-trauma", "feyerabend-anti-method", "floridi-fourth-revolution", "friston-active-inference"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

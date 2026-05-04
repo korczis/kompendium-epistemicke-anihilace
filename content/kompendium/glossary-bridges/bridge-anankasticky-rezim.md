@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "anankasticky-rezim", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-agent-tier", "bridge-aiad", "bridge-archer-supreme", "bridge-autoevolve"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "anankasticky-rezim"
 toc = false

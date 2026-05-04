@@ -6,6 +6,7 @@ weight = 28
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky", "rozsireny"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
+related_terms = ["26-religiozni-fanatismus-exit", "27-secular-cult-exit", "29-art-school-totalization", "30-music-conservatory-coercion"]
 parent = "kompendium-case-studies"
 anonymized = true
 toc = true

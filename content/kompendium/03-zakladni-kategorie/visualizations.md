@@ -8,6 +8,7 @@ tags = ["kompendium", "vizualizace", "interaktivni", "chartjs", "ea-1", "akademi
 categories = ["academic", "tools"]
 
 [extra]
+related_terms = ["somaticke-vektory", "tom-exploitation", "scenar-h"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "📊"
 toc = false

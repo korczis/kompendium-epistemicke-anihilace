@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "fyziologicke-monitori
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-1-4-observational-assessment", "ea-6-1-5-neuropsychologicke-vysetreni", "ea-6-1-7-trauma-history-protokol", "ea-6-1-8-disociativni-spektrum-assessment"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.6"
 ea_category = "6. Klinické aplikace"

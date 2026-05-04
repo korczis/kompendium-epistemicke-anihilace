@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-1", "terminalni-protokoly", "superviso
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-1-6-failure-mode-detection", "ea-4-1-7-termination-criteria", "ea-4-1-9-cohort-monitoring", "ea-4-1-gaslighting"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.1.8"
 ea_category = "4. Terminální protokoly"

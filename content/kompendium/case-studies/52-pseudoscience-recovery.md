@@ -6,6 +6,7 @@ weight = 52
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
+related_terms = ["50-spiritual-cult-recovery", "51-new-age-recovery", "53-anti-vaxx-recovery", "54-flat-earth-recovery"]
 parent = "kompendium-case-studies"
 anonymized = true
 toc = true

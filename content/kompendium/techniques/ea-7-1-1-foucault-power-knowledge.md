@@ -6,6 +6,7 @@ weight = 711
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-6-5-8-day-program-EA", "ea-6-5-9-residential-program-EA", "ea-7-1-10-merleau-ponty-embodiment", "ea-7-1-2-foucault-discipline"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.1"
 ea_category = "7. Teoretické reflexe"

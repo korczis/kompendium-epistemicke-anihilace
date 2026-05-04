@@ -6,6 +6,7 @@ weight = 30
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["28-ea-compliance-aml-pattern-recognition", "29-ea-compliance-kyc-narrative-validation", "30-ea-compliance-regulatory-capture-detection", "4-ea-osint-sanctions-list-bias"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

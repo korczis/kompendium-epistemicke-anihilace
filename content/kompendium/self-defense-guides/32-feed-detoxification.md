@@ -6,6 +6,7 @@ weight = 32
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["30-support-mobilization", "31-source-curation", "33-information-diet", "34-attention-budget"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

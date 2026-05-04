@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "mereologicka-rekonstrukce", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-lakatos-vyzkumny-program", "bridge-lebenswelt", "bridge-metakognice", "bridge-metakognitivni-destrukce"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "mereologicka-rekonstrukce"
 toc = false

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-11-richardova-paradox-zneuziti", "ul
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-1-lhar-paradox-aplikace", "ea-5-4-10-berry-paradox-implantace", "ea-5-4-12-grellingova-paradox-aplikace", "ea-5-4-13-heterolog-self-aplikace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.11"
 ea_category = "5. Ultramární techniky"

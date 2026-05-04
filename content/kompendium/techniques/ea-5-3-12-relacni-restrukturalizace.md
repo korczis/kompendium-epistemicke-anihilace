@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-10-perspektivni-substituce", "ea-5-3-11-axiologicka-inverze", "ea-5-3-13-genealogicka-rekonstrukce", "ea-5-3-14-somaticka-rekodifikace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.12"
 ea_category = "5. Ultramární techniky"

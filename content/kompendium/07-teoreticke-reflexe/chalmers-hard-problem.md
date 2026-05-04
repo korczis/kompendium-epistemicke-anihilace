@@ -9,6 +9,7 @@ tags = ["kompendium", "chalmers", "vedomi", "qualia", "filosofie-mysli", "hard-p
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["brandom-inferential-semantics", "butler-performative", "chomsky-manufacturing-consent", "clark-andy-natural-born-cyborgs"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-2", "klinicke", "narrative-therapy-pro
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-2-3-ifs-internal-family-systems", "ea-6-2-4-metacognitive-therapy-protokol", "ea-6-2-6-dbt-distress-tolerance", "ea-6-2-7-mindfulness-based-trauma"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.2.5"
 ea_category = "6. Klinické aplikace"

@@ -6,6 +6,7 @@ weight = 13
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["11-emotional-regulation", "12-trigger-recognition", "14-grounding-techniques", "15-emotional-distancing"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

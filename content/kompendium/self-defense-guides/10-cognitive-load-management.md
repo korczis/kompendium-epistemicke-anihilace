@@ -6,6 +6,7 @@ weight = 10
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["1-metacognitive-monitoring", "11-emotional-regulation", "12-trigger-recognition", "13-somatic-awareness"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

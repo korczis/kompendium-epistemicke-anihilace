@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "epistemicka-trust-ass
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-5-5-9-kinesteticka-deformace", "ea-6-1-1-screening-strukturalni-rozhovor", "ea-6-1-2-self-report-instrument", "ea-6-1-3-collateral-interview"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.10"
 ea_category = "6. Klinické aplikace"

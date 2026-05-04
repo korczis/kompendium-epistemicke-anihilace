@@ -9,6 +9,7 @@ tags = ["kompendium", "putnam", "vnitrni-realismus", "epistemologie", "filosofie
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["politicka-ea", "postmodernismus", "quine-web-of-belief", "ricoeur-troji-mimese"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

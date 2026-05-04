@@ -3,6 +3,7 @@ title = "EA-1-6-1: Vzorec guru a adept"
 description = "Vzorec guru–adept je manipulační dyadická struktura, kde dominantní postava (guru) získává epistemickou autoritu nad záv"
 weight = 100
 [extra]
+related_terms = ["ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-5-terminologicka-mystifikace", "ea-1-6-1-vzorec-guru-adept", "ea-1-6-5"]
 draft = false
 stub = true
 +++

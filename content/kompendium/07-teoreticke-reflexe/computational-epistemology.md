@@ -9,6 +9,7 @@ tags = ["kompendium", "teoreticke-reflexe", "computational-epistemology", "nabla
 categories = ["academic", "theory", "computational"]
 
 [extra]
+related_terms = ["clark-andy-natural-born-cyborgs", "clark-extended-mind", "damasio-somatic-marker", "davidson-radical-interpretation"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

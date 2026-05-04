@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "archer-supreme", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-aiad", "bridge-anankasticky-rezim", "bridge-autoevolve", "bridge-autoheal"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "archer-supreme"
 toc = false

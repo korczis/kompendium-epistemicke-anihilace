@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-4", "ultramari", "metatranscendental
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-3-noumenalni-redukce", "ea-5-2-30-konvergentni-meta-singularita", "ea-5-2-5-konstitutivni-rozpad", "ea-5-2-6-transcendentalni-rekursivita"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.4"
 ea_category = "5. Ultramární techniky"

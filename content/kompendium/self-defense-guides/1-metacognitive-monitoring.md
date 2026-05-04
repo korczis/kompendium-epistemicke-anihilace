@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["10-cognitive-load-management", "11-emotional-regulation", "12-trigger-recognition"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

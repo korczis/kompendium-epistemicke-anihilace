@@ -6,6 +6,7 @@ weight = 2308
 tags = ["kompendium", "techniques", "ea-2-3-8", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-3-6-platform-coordinated-attack", "ea-2-3-7-deepfake-personalni", "ea-2-3-9-sealioning-medialni", "ea-2-4-1-board-capture"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.3.8"
 ea_category = "2. Scénáře delegitimizace"

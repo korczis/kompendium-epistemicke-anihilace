@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-3", "edukativni", "curriculum-architec
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-3-10-funding-model-ethics", "ea-3-3-2-irb-protocol-design", "ea-3-3-4-evaluation-metrics", "ea-3-3-5-certification-pipeline"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.3.3"
 ea_category = "3. Edukativní implementace"

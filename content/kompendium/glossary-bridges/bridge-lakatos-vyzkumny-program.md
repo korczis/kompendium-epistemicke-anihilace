@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "lakatos-vyzkumny-program", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-kompendium-ea", "bridge-kontraindikace", "bridge-lebenswelt", "bridge-mereologicka-rekonstrukce"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "lakatos-vyzkumny-program"
 toc = false

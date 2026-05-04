@@ -8,6 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "midterm"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["midterm-hermeneutic-reset", "midterm-identity-reconstruction", "midterm-skill-rebuilding", "midterm-vocational-integration"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"

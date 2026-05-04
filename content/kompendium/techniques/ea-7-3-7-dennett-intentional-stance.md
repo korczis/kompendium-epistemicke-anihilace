@@ -6,6 +6,7 @@ weight = 737
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-3-5-metzinger-ego-tunnel", "ea-7-3-6-thompson-mind-life", "ea-7-3-8-chalmers-hard-problem", "ea-7-3-9-dehaene-consciousness"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.7"
 ea_category = "7. Teoretické reflexe"

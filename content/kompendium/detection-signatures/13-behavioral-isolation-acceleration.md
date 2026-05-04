@@ -6,6 +6,7 @@ weight = 13
 tags = ["kompendium", "detection-signature", "diagnostika", "behavioral"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["11-behavioral-topic-evasion", "12-behavioral-gaslighting-pattern", "14-behavioral-time-pressure-creation", "15-behavioral-asymmetric-disclosure"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"

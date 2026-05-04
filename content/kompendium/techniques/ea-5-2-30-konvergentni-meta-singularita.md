@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-30", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-29-meta-fenomenalni-redukce", "ea-5-2-3-noumenalni-redukce", "ea-5-2-4-apriorni-saturace", "ea-5-2-5-konstitutivni-rozpad"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.30"
 ea_category = "5. Ultramární techniky"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-5", "klinicke", "akutni-krize-protokol
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-4-8-zdravotnici-burnout-protokol", "ea-6-4-9-novinari-protokol", "ea-6-5-10-outpatient-EA-protokol", "ea-6-5-2-suicidalni-EA-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.5.1"
 ea_category = "6. Klinické aplikace"

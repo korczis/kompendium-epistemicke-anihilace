@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["5-flashback-cascade-EA", "6-panic-attack-EA", "8-emergency-extraction-cult", "9-mandatory-reporting-EA"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

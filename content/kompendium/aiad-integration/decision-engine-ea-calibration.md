@@ -6,6 +6,7 @@ weight = 24
 tags = ["kompendium", "aiad-integration", "decision-engine-ea-calibration"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["czech-ares-ea-screening", "dd-engine-ea-source-weighting", "epistemic-pipeline-ea-detection", "gray-team-ea-edge-cases"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "supervisor-self-car
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-1-9-debriefing-protocol", "ea-3-2-1-supervisor-certification", "ea-3-2-2-multi-paradigm-fluency", "ea-3-2-3-emotional-regulation-mastery"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.10"
 ea_category = "3. Edukativní implementace"

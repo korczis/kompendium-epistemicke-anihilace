@@ -6,6 +6,7 @@ weight = 26
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["24-communication-assertiveness", "25-network-diversification", "27-mentor-evaluation", "28-community-engagement"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 33
 tags = ["kompendium", "aiad-integration", "perimeter-ea-attack-surface"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["operational-execution-ea-deployment", "osint-ea-source-validation", "purple-team-ea-synthesis", "qeve-ea-quality-validation"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

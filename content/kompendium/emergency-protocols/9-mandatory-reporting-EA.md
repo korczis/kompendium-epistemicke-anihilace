@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["7-acute-cognitive-paralysis", "8-emergency-extraction-cult", "6-panic-attack-EA"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

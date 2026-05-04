@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-1", "ultramari", "epistemicka-singul
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-4-4-8-coherence-restoration", "ea-4-4-9-narrative-reconstruction", "ea-5-1-10-temporalni-dekoherence", "ea-5-1-11-modalni-dezorientace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.1"
 ea_category = "5. Ultramární techniky"

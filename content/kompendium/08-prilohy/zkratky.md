@@ -5,6 +5,7 @@ weight = 7
 sort_by = "weight"
 
 [extra]
+related_terms = ["klasifikace", "rejstrik-technik", "index-pojmu"]
 kompendium = ["08-prilohy"]
 prilohy = ["zkratky", "notace", "konvence"]
 section_icon = "🔠"

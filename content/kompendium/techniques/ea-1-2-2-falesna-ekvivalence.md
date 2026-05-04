@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-2-2", "falesna-ekvivalence", "balance-
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-1-2-1-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "ea-1-2-2-memorni-rekonstrukce", "ea-1-2-3-iluzorni-komplexita"]
 parent = "kompendium-techniques"
 ea_code = "EA-1.2.2"
 ea_category = "1. Akademické techniky"

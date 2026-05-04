@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-3", "prilohy", "reference", "philosoph
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-3-10-information-warfare-literature", "ea-8-3-2-clinical-handbook", "ea-8-3-4-empirical-research-base", "ea-8-3-5-historical-cases"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.3.3"
 ea_category = "8. Přílohy"

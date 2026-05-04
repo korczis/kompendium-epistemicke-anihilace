@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-21", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-2-transcendentalni-iluze", "ea-5-2-20-apperceptivni-rozklad", "ea-5-2-22-intentionalni-rozpojeni", "ea-5-2-23-synteticka-paralyza"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.21"
 ea_category = "5. Ultramární techniky"

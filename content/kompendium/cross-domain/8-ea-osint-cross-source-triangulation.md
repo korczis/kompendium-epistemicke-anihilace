@@ -6,6 +6,7 @@ weight = 80
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["6-ea-osint-bot-detection", "7-ea-osint-narrative-injection", "9-ea-dd-investigation-bias", "5-ea-osint-social-media-manipulation"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

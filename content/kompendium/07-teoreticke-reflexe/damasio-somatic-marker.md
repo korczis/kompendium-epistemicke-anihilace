@@ -9,6 +9,7 @@ tags = ["kompendium", "damasio", "neurovedy", "emoce", "somatic-marker", "rozhod
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["clark-extended-mind", "computational-epistemology", "davidson-radical-interpretation", "dawkins-meme"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

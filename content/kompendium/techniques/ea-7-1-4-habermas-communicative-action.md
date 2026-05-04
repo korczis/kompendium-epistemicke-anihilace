@@ -6,6 +6,7 @@ weight = 714
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-1-2-foucault-discipline", "ea-7-1-3-adorno-instrumental-reason", "ea-7-1-5-arendt-banality-evil", "ea-7-1-6-sloterdijk-spheres"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.1.4"
 ea_category = "7. Teoretické reflexe"

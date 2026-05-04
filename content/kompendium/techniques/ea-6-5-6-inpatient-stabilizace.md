@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-5", "klinicke", "inpatient-stabilizace
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-5-4-disociativni-akutni-protokol", "ea-6-5-5-er-screening-EA", "ea-6-5-7-partialni-hospitalizace", "ea-6-5-8-day-program-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.5.6"
 ea_category = "6. Klinické aplikace"

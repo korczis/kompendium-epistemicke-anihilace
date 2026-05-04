@@ -6,6 +6,7 @@ weight = 65
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
+related_terms = ["63-investor-cult", "64-ngo-cult", "66-academic-school-cult", "67-research-discipline-cult"]
 parent = "kompendium-case-studies"
 anonymized = true
 toc = true

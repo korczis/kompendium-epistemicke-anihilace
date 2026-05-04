@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-2", "terminalni-protokoly", "documenta
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-2-5-whistleblower-protection", "ea-4-2-6-consent-withdrawal", "ea-4-2-8-long-term-followup", "ea-4-2-9-decompensation-response"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.2.7"
 ea_category = "4. Terminální protokoly"

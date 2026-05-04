@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "gestalt-shift", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-four-noble-truths", "bridge-gaslighting", "bridge-gish-gallop", "bridge-gray-team"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "gestalt-shift"
 toc = false

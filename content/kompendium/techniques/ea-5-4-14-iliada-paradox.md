@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-14-iliada-paradox", "ultramari", "pa
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-12-grellingova-paradox-aplikace", "ea-5-4-13-heterolog-self-aplikace", "ea-5-4-15-holisticka-self-reference-zhrouceni", "ea-5-4-16-kruhove-definice-implantace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.14"
 ea_category = "5. Ultramární techniky"

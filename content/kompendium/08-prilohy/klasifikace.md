@@ -5,6 +5,7 @@ weight = 6
 sort_by = "weight"
 
 [extra]
+related_terms = ["eticky-kodex", "index-pojmu", "rejstrik-technik", "zkratky"]
 kompendium = ["08-prilohy"]
 prilohy = ["klasifikace", "taxonomie", "metodologie"]
 section_icon = "🗂️"

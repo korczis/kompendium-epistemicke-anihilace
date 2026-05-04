@@ -9,6 +9,7 @@ tags = ["kompendium", "dawkins", "mem", "memetika", "kulturni-evoluce", "viráln
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["damasio-somatic-marker", "davidson-radical-interpretation", "dennett-from-bacteria-to-bach", "dennett-intentional-stance"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

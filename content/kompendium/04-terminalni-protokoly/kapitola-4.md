@@ -9,6 +9,7 @@ tags = ["kompendium", "terminalni-protokoly", "vycvikove-sekvence", "epistemicka
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["institucionalni-anihilace", "intra-simulacni-monitoring", "kapitola-5", "konceptualni-dekonstrukce"]
 parent = "04-terminalni-protokoly"
 access_level = "L2"
 status = "publikovano"

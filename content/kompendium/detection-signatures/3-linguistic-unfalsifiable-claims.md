@@ -6,6 +6,7 @@ weight = 3
 tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["28-phenomenological-reality-uncertainty", "29-phenomenological-temporal-disorientation", "30-phenomenological-identity-fragmentation", "4-linguistic-framing-shift"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"

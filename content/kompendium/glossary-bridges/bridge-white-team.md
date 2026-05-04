@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "white-team", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-violation-protocol", "bridge-weaponized-incompetence", "bridge-zero-warning-policy", "delegitimizace"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "white-team"
 toc = false

@@ -6,6 +6,7 @@ weight = 30
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["28-access-control-EA", "29-segregation-duties", "30-rotation-of-roles", "31-incident-response-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 260
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["24-documentation-standards", "25-vendor-management-EA", "27-information-classification", "28-access-control-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

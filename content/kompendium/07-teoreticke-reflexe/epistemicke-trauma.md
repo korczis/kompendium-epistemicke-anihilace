@@ -9,6 +9,7 @@ tags = ["kompendium", "epistemicke-trauma", "psychotraumatologie", "ptsd", "betr
 categories = ["academic", "empirical"]
 
 [extra]
+related_terms = ["dennett-intentional-stance", "digitalni-vek", "feyerabend-anti-method", "filosoficky-ramec"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

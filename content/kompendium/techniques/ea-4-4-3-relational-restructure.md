@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-4", "terminalni-protokoly", "relationa
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-4-10-identity-stabilization", "ea-4-4-2-role-fragmentation", "ea-4-4-4-biographical-recontextualization", "ea-4-4-5-temporal-self-disruption"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.4.3"
 ea_category = "4. Terminální protokoly"

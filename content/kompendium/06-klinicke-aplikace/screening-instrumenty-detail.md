@@ -8,6 +8,7 @@ tags = ["kompendium", "klinicke-aplikace", "screening", "instrumenty", "psychome
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["pripad-akademie", "pripad-doktorat", "self-report-instrumenty", "semi-structured-interview-protokol"]
 parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true

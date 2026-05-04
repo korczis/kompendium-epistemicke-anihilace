@@ -6,6 +6,7 @@ weight = 733
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-3-10-tononi-iit", "ea-7-3-2-tversky-heuristics", "ea-7-3-4-clark-extended-mind", "ea-7-3-5-metzinger-ego-tunnel"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.3"
 ea_category = "7. Teoretické reflexe"

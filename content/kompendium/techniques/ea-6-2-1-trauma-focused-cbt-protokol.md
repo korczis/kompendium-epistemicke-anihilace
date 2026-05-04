@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-2", "klinicke", "trauma-focused-cbt-pr
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-1-8-disociativni-spektrum-assessment", "ea-6-1-9-metakognitivni-functional-assessment", "ea-6-2-10-pharmacotherapy-adjuvant", "ea-6-2-2-emdr-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.2.1"
 ea_category = "6. Klinické aplikace"

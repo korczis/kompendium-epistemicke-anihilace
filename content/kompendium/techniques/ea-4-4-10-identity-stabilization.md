@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-4", "terminalni-protokoly", "identity-
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-3-9-axiological-suspension", "ea-4-4-1-narrative-disassembly", "ea-4-4-2-role-fragmentation", "ea-4-4-3-relational-restructure"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.4.10"
 ea_category = "4. Terminální protokoly"

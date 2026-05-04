@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "agent-tier", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-agent", "bridge-agent-registry", "bridge-aiad", "bridge-anankasticky-rezim"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "agent-tier"
 toc = false

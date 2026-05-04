@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "dual-use-poznani", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-differance", "bridge-disociace", "bridge-easm", "bridge-embodied-cognition"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "dual-use-poznani"
 toc = false

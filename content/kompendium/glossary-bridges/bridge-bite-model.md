@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "bite-model", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-autoheal", "bridge-betrayal-trauma", "bridge-black-team", "bridge-blue-team"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "bite-model"
 toc = false

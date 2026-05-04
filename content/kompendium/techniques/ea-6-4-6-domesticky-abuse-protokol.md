@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-4", "klinicke", "domesticky-abuse-prot
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-4-4-LGBTQI-EA-protokol", "ea-6-4-5-vetersko-protokol", "ea-6-4-7-policejni-trauma-protokol", "ea-6-4-8-zdravotnici-burnout-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.4.6"
 ea_category = "6. Klinické aplikace"

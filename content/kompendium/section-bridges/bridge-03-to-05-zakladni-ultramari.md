@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-02-to-07-uvod-teoreticke", "bridge-03-to-04-zakladni-terminalni", "bridge-03-to-06-techniky-klinika", "bridge-03-to-07-techniky-teorie"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "metzinger", "filosofie-mysli", "self-model", "ego-tunel",
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["mcDowell-mind-and-world", "merleau-ponty-vtelena-percepce", "nagel-view-from-nowhere", "nussbaum-capabilities"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

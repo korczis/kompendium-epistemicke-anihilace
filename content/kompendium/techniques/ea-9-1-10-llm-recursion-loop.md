@@ -6,6 +6,7 @@ weight = 920
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-8-3-9-cult-studies-literature", "ea-9-1-1-llm-hallucination-laundering", "ea-9-1-2-prompt-injection-EA", "ea-9-1-3-jailbreak-cascade"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.10"
 ea_category = "9. Současná digitální EA"

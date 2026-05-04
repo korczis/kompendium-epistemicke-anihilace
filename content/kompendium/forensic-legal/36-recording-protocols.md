@@ -6,6 +6,7 @@ weight = 36
 tags = ["kompendium", "forensic-legal", "documentation-standards"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["34-chain-evidence-narrative", "35-electronic-evidence-EA", "37-third-party-corroboration", "38-pattern-evidence"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

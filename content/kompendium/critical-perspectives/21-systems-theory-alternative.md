@@ -6,6 +6,7 @@ weight = 21
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
 [extra]
+related_terms = ["2-pathologization-critique", "20-publication-ethics-EA", "22-trauma-framework-alternative", "23-political-economy-alternative"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 190
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["17-team-rotation-policy", "18-supervisor-evaluation", "2-charter-protection", "20-succession-planning-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

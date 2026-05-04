@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "autoevolve", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-anankasticky-rezim", "bridge-archer-supreme", "bridge-autoheal", "bridge-betrayal-trauma"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "autoevolve"
 toc = false

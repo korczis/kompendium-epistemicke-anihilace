@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-29-newcomb-paradox-implantace", "ult
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-27-ship-of-theseus-aplikace", "ea-5-4-28-trolley-paradox-iterace", "ea-5-4-3-tarsky-diagonalizace", "ea-5-4-30-paradox-volby-totalni"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.29"
 ea_category = "5. Ultramární techniky"

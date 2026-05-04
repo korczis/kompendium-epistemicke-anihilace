@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "blue-team", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-bite-model", "bridge-black-team", "bridge-bounded-context", "bridge-c-ptsd"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "blue-team"
 toc = false

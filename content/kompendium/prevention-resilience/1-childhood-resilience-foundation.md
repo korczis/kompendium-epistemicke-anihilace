@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
 [extra]
+related_terms = ["10-public-discourse-quality", "11-early-screening-EA", "12-warning-sign-recognition"]
 parent = "kompendium-prevention-resilience"
 toc = true
 +++

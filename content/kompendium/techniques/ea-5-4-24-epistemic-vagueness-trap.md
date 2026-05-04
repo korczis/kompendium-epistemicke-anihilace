@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-24-epistemic-vagueness-trap", "ultra
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-22-logicka-paradox-eskalace", "ea-5-4-23-modalni-paradox-aplikace", "ea-5-4-25-soritska-paradox-zneuziti", "ea-5-4-26-heap-paradox-eskalace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.24"
 ea_category = "5. Ultramární techniky"

@@ -6,6 +6,7 @@ weight = 5
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
 [extra]
+related_terms = ["30-buddhist-psychology-alt", "4-circular-reasoning-risk", "6-political-instrumentalization", "7-replication-EA-research"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++

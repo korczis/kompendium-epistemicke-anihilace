@@ -6,6 +6,7 @@ weight = 16
 tags = ["kompendium", "forensic-legal", "legal-frameworks"]
 categories = ["academic", "legal", "clinical"]
 [extra]
+related_terms = ["14-defamation-EA", "15-witness-tampering", "17-fraud-EA-element", "18-medical-malpractice-EA"]
 parent = "kompendium-forensic-legal"
 toc = true
 +++

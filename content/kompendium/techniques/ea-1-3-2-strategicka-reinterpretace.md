@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-1-3-2", "reinterpretace", "hermeneutika"
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-1-3-2-sokratovska-past", "ea-1-3-2-strategic-reinterpretation", "ea-1-3-3-tematicka-diverze", "ea-1-3-4-indukovana-pochybnost"]
 parent = "kompendium-techniques"
 ea_code = "EA-1.3.2"
 ea_category = "1. Akademické techniky"

@@ -9,6 +9,7 @@ tags = ["kompendium", "wittgenstein", "jazykove-hry", "filosofie-jazyka", "forma
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["wardle-disinformation-typology", "williams-truth-and-truthfulness", "zuboff-surveillance-capitalism", "visualizations"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

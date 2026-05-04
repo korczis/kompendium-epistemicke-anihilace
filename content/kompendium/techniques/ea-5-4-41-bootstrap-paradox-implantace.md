@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-41-bootstrap-paradox-implantace", "u
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-4-godel-reflexivita", "ea-5-4-40-retrokauzalita-trap", "ea-5-4-42-grandfather-paradox-aplikace", "ea-5-4-43-predestiny-paradox"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.41"
 ea_category = "5. Ultramární techniky"

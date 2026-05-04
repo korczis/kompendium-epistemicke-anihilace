@@ -6,6 +6,7 @@ weight = 724
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-2-2-goldman-veritism", "ea-7-2-3-popper-falsification", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-6-feyerabend-anti-method"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.2.4"
 ea_category = "7. Teoretické reflexe"

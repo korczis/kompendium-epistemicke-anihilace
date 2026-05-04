@@ -9,6 +9,7 @@ tags = ["kompendium", "rorty", "neopragmatismus", "kontingence", "ironie", "anti
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["quine-web-of-belief", "ricoeur-troji-mimese", "sartre-existencialismus", "searle-chinese-room"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

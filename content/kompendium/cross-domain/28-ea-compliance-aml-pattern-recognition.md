@@ -6,6 +6,7 @@ weight = 280
 tags = ["kompendium", "cross-domain", "compliance"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["26-ea-compliance-zkb-epistemic-integrity", "27-ea-compliance-gdpr-narrative-protection", "29-ea-compliance-kyc-narrative-validation", "3-ea-osint-justice-cz-screening"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

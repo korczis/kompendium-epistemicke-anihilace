@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "nabla-infinity", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-metanarrative-collapse", "bridge-motte-and-bailey", "bridge-narrative-identity", "bridge-narrative-trauma"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "nabla-infinity"
 toc = false

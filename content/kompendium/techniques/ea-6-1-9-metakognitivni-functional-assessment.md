@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "metakognitivni-functi
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-1-7-trauma-history-protokol", "ea-6-1-8-disociativni-spektrum-assessment", "ea-6-2-1-trauma-focused-cbt-protokol", "ea-6-2-10-pharmacotherapy-adjuvant"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.9"
 ea_category = "6. Klinické aplikace"

@@ -6,6 +6,7 @@ weight = 940
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-2-9-AI-document-forgery", "ea-9-3-1-algorithmic-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-9-3-3-feed-personalization-bias"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.10"
 ea_category = "9. Současná digitální EA"

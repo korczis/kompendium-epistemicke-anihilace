@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "neuropsychologicke-vy
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-1-3-collateral-interview", "ea-6-1-4-observational-assessment", "ea-6-1-6-fyziologicke-monitoring", "ea-6-1-7-trauma-history-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.5"
 ea_category = "6. Klinické aplikace"

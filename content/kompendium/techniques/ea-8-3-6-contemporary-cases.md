@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-3", "prilohy", "reference", "contempor
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-3-4-empirical-research-base", "ea-8-3-5-historical-cases", "ea-8-3-7-interdisciplinary-anthology", "ea-8-3-8-trauma-recovery-literature"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.3.6"
 ea_category = "8. Přílohy"

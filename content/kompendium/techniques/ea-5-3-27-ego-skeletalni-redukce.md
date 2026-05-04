@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-26-core-self-fraktura", "ea-5-3-27-autobiografi-self-fragmentace", "ea-5-3-28-pseudo-self-implantace", "ea-5-3-29-simulakralni-self-substituce"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.27"
 ea_category = "5. Ultramární techniky"

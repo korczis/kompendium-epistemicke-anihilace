@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "collateral-interview"
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-1-10-epistemicka-trust-assessment", "ea-6-1-2-self-report-instrument", "ea-6-1-4-observational-assessment", "ea-6-1-5-neuropsychologicke-vysetreni"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.3"
 ea_category = "6. Klinické aplikace"

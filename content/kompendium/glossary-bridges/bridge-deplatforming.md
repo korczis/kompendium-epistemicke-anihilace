@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "deplatforming", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-deepfake", "bridge-delegitimizace", "bridge-differance", "bridge-disociace"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "deplatforming"
 toc = false

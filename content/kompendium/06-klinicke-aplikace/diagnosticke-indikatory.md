@@ -8,6 +8,7 @@ tags = ["kompendium", "klinicke-aplikace", "diagnostika", "screening", "markery"
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["biographical-timeline-rekonstrukce", "collateral-interview-protokol", "diferencialni-diagnostika", "epistemicka-rekonstrukce"]
 parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🩺"
 toc = true

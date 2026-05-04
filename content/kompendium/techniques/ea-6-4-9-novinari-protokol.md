@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-4", "klinicke", "novinari-protokol"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-4-7-policejni-trauma-protokol", "ea-6-4-8-zdravotnici-burnout-protokol", "ea-6-5-1-akutni-krize-protokol", "ea-6-5-10-outpatient-EA-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.4.9"
 ea_category = "6. Klinické aplikace"

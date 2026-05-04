@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-2", "terminalni-protokoly", "decompens
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-2-7-documentation-chain-custody", "ea-4-2-8-long-term-followup", "ea-4-3-1-systematic-conceptual-disassembly", "ea-4-3-10-conceptual-rebuild-protocol"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.2.9"
 ea_category = "4. Terminální protokoly"

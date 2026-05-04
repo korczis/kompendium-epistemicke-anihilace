@@ -6,6 +6,7 @@ weight = 100
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["1-ea-osint-source-credibility", "11-ea-dd-decision-engine-calibration", "12-ea-dd-counterparty-manipulation", "13-ea-dd-beneficial-ownership-disinformation"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 310
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["3-conflict-of-interest-policy", "30-rotation-of-roles", "32-internal-investigation", "33-legal-counsel-engagement"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

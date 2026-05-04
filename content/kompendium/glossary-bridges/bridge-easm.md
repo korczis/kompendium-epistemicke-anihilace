@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "easm", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-disociace", "bridge-dual-use-poznani", "bridge-embodied-cognition", "bridge-entity-resolution"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "easm"
 toc = false

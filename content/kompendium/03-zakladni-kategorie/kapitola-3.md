@@ -9,6 +9,7 @@ tags = ["kompendium", "kapitola-3", "edukace", "trenink", "metakognice", "rezili
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["kapitola-1", "kapitola-2", "lakatos", "lebenswelt"]
 parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🎓"
 toc = true

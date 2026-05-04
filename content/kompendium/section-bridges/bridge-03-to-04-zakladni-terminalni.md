@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-02-to-03-uvod-zakladni-kategorie", "bridge-02-to-07-uvod-teoreticke", "bridge-03-to-05-zakladni-ultramari", "bridge-03-to-06-techniky-klinika"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

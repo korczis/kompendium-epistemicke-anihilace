@@ -6,6 +6,7 @@ weight = 30
 tags = ["kompendium", "aiad-integration", "osint-ea-source-validation"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["nabla-infinity-ea-pipeline", "operational-execution-ea-deployment", "perimeter-ea-attack-surface", "purple-team-ea-synthesis"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

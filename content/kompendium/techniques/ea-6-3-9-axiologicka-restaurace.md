@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-3", "klinicke", "axiologicka-restaurac
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-3-7-identitni-rekonstituce", "ea-6-3-8-relacni-restaurace", "ea-6-4-1-deti-protokol", "ea-6-4-10-aktivisti-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.3.9"
 ea_category = "6. Klinické aplikace"

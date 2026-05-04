@@ -6,6 +6,7 @@ weight = 2309
 tags = ["kompendium", "techniques", "ea-2-3-9", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-3-7-deepfake-personalni", "ea-2-3-8-doxxing-epistemicky", "ea-2-4-1-board-capture", "ea-2-4-10-disciplinary-society-capture"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.3.9"
 ea_category = "2. Scénáře delegitimizace"

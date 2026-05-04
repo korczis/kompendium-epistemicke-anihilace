@@ -9,6 +9,7 @@ tags = ["kompendium", "levinas", "etika", "jiny", "tvar", "fenomenologie"]
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["kuhn-paradigmaticke-revoluce", "lakoff-conceptual-metaphor", "macintyre-after-virtue", "mcDowell-mind-and-world"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

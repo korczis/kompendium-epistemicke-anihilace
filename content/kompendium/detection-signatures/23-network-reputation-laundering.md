@@ -6,6 +6,7 @@ weight = 23
 tags = ["kompendium", "detection-signature", "diagnostika", "network"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["21-network-platform-coordination", "22-network-narrative-injection", "24-network-deplatforming-cascade", "25-phenomenological-cognitive-fog"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"

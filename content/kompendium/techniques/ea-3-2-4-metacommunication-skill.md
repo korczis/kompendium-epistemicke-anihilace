@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "metacommunication-s
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-2-2-multi-paradigm-fluency", "ea-3-2-3-emotional-regulation-mastery", "ea-3-2-5-ethical-sophistication", "ea-3-2-6-cohort-monitoring"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.4"
 ea_category = "3. Edukativní implementace"

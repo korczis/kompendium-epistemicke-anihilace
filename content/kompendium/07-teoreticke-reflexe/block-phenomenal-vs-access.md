@@ -9,6 +9,7 @@ tags = ["kompendium", "block", "vedomi", "filosofie-mysli", "fenomenalni-vedomi"
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["arendt-banalita-zla", "boyd-disinformation-age", "brandom-inferential-semantics", "butler-performative"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

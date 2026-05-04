@@ -6,6 +6,7 @@ weight = 10009
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
 [extra]
+related_terms = ["qr-ea-5-1-7", "qr-ea-5-1-8", "qr-ea-5-2-1", "qr-ea-5-2-10"]
 parent = "kompendium-quick-reference"
 ea_code = "EA-5.1.9"
 access_level = "L3"

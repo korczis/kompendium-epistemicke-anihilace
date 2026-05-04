@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "metakognice", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-lebenswelt", "bridge-mereologicka-rekonstrukce", "bridge-metakognitivni-destrukce", "bridge-metanarrative-collapse"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "metakognice"
 toc = false

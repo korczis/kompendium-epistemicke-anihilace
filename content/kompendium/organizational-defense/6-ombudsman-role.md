@@ -6,6 +6,7 @@ weight = 60
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["40-post-incident-learning", "5-audit-committee-EA", "7-ethics-officer-mandate", "8-policy-review-cycles"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 10
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["10-ea-dd-source-weighting", "11-ea-dd-decision-engine-calibration", "12-ea-dd-counterparty-manipulation"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

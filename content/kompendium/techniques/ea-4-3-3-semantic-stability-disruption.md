@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-3", "terminalni-protokoly", "semantic-
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-3-10-conceptual-rebuild-protocol", "ea-4-3-2-categorical-boundary-erosion", "ea-4-3-4-inferential-chain-breakage", "ea-4-3-5-evidential-criteria-modification"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.3.3"
 ea_category = "4. Terminální protokoly"

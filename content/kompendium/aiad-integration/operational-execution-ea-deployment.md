@@ -6,6 +6,7 @@ weight = 20
 tags = ["kompendium", "aiad-integration", "operational-execution-ea-deployment"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["hawkeye-ea-visitor-intelligence", "nabla-infinity-ea-pipeline", "osint-ea-source-validation", "perimeter-ea-attack-surface"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

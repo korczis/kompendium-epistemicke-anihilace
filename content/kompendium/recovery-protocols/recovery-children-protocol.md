@@ -8,6 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "special"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ramce", "recovery-adolescent-protocol", "recovery-cult-extraction-protocol", "recovery-elder-protocol"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"

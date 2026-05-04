@@ -9,6 +9,7 @@ tags = ["kompendium", "feyerabend", "anti-method", "epistemicky-anarchismus", "f
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["digitalni-vek", "epistemicke-trauma", "filosoficky-ramec", "floridi-fourth-revolution"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

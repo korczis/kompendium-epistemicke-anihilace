@@ -8,6 +8,7 @@ tags = ["kompendium", "klinicke-aplikace", "self-report", "ema", "deniky", "diag
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["pripad-doktorat", "screening-instrumenty-detail", "semi-structured-interview-protokol", "supervizni-ramce"]
 parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true

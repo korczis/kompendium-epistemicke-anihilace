@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["17-crisis-hotline-EA", "18-emergency-pharmacotherapy", "2-suicide-risk-EA", "20-deescalation-EA"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

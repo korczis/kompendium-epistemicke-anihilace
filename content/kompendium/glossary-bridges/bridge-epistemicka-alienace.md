@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "epistemicka-alienace", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-epistemic-pipeline", "bridge-epistemic-security", "bridge-epistemicka-anihilace", "bridge-epistemicka-injustice"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "epistemicka-alienace"
 toc = false

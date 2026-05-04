@@ -6,6 +6,7 @@ weight = 133
 tags = ["kompendium", "quick-reference", "ea-1-3-3", "qr-card"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["qr-ea-1-3-1", "qr-ea-1-3-2", "qr-ea-1-4-1", "qr-ea-1-4-2"]
 parent = "kompendium-quick-reference"
 ea_code = "EA-1.3.3"
 toc = false

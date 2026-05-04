@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "power-knowledge", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-osint", "bridge-panopticism", "bridge-predictive-processing", "bridge-propaganda"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "power-knowledge"
 toc = false

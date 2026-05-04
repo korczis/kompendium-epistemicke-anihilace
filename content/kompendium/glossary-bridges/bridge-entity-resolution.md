@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "entity-resolution", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-easm", "bridge-embodied-cognition", "bridge-epistemic-bubble", "bridge-epistemic-pipeline"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "entity-resolution"
 toc = false

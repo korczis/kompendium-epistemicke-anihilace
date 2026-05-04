@@ -9,6 +9,7 @@ tags = ["kompendium", "honneth", "rozpoznani", "uznani", "kriticka-teorie", "fra
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["heidegger-byt-ve-svete", "herman-chomsky-propaganda-model", "hutchins-distributed-cognition", "johnson-body-in-mind"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

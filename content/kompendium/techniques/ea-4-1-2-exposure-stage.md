@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-1", "terminalni-protokoly", "exposure-
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-1-1-foundation-stage", "ea-4-1-10-debriefing-cascade", "ea-4-1-3-integration-stage", "ea-4-1-4-mastery-stage"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.1.2"
 ea_category = "4. Terminální protokoly"

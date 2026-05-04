@@ -6,6 +6,7 @@ weight = 190
 tags = ["kompendium", "population-health", "interventions"]
 categories = ["academic", "public-health"]
 [extra]
+related_terms = ["17-vulnerable-population-outreach", "18-public-awareness-campaign", "20-helpline-population-impact", "21-EA-public-policy-framework"]
 parent = "kompendium-population-health"
 toc = true
 +++

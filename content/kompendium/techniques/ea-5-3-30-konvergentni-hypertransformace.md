@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-29-simulakralni-self-substituce", "ea-5-3-3-rolova-fragmentace", "ea-5-3-32-rekonstituce-skrze-rituall", "ea-5-3-34-konvergentni-identitarni-tlak"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.30"
 ea_category = "5. Ultramární techniky"

@@ -9,6 +9,7 @@ tags = ["kompendium", "terminalni-protokoly", "pred-simulacni-screening", "bezpe
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["konceptualni-dekonstrukce", "kontrolovana-rekonstituce", "ultimatni-scenar", "visualizations"]
 parent = "kompendium-04-terminalni-protokoly"
 section_icon = "⚠️"
 toc = true

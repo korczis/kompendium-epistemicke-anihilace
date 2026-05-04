@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-47-matrix-paradox-implantace", "ultr
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-45-cogito-paradox-zhrouceni", "ea-5-4-46-evil-demon-paradox", "ea-5-4-48-boltzmannska-paradox-self", "ea-5-4-49-mary-paradox-knowledge"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.47"
 ea_category = "5. Ultramární techniky"

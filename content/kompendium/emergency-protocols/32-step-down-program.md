@@ -8,6 +8,7 @@ tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
+related_terms = ["30-refugee-EA-emergency", "31-post-discharge-bridge", "33-relapse-recognition", "34-relapse-emergency"]
 parent = "kompendium-emergency-protocols"
 section_icon = "🚨"
 toc = true

@@ -9,6 +9,7 @@ tags = ["kompendium", "ultramari", "kapitola-6", "epistemicka-singularita", "ea-
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["kapitola-10", "kapitola-7", "kapitola-8", "kapitola-9"]
 parent = "kompendium-05-ultramari-techniky"
 section_icon = "🚨"
 toc = true

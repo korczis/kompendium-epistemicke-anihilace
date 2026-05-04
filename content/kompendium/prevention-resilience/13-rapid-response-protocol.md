@@ -6,6 +6,7 @@ weight = 13
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
 [extra]
+related_terms = ["11-early-screening-EA", "12-warning-sign-recognition", "14-de-escalation-prevention", "15-relationship-monitoring"]
 parent = "kompendium-prevention-resilience"
 toc = true
 +++

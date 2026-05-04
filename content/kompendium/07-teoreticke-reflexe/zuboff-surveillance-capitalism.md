@@ -9,6 +9,7 @@ tags = ["kompendium", "zuboff", "surveillance", "kapitalismus", "digitalni-vek",
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["williams-truth-and-truthfulness", "wittgenstein-jezykove-hry", "wardle-disinformation-typology"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

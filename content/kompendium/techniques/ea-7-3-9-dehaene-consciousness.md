@@ -6,6 +6,7 @@ weight = 739
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
 [extra]
+related_terms = ["ea-7-3-7-dennett-intentional-stance", "ea-7-3-8-chalmers-hard-problem", "ea-8-1-1-bite-model-detail", "ea-8-1-10-decision-making-capacity-scale"]
 parent = "kompendium-techniques"
 ea_code = "EA-7.3.9"
 ea_category = "7. Teoretické reflexe"

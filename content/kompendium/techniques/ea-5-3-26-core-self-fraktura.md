@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-24-proto-self-rozklad", "ea-5-3-25-minimal-self-deformace", "ea-5-3-27-autobiografi-self-fragmentace", "ea-5-3-27-ego-skeletalni-redukce"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.26"
 ea_category = "5. Ultramární techniky"

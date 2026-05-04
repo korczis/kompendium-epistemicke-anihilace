@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "emotional-regulatio
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-2-10-supervisor-self-care", "ea-3-2-2-multi-paradigm-fluency", "ea-3-2-4-metacommunication-skill", "ea-3-2-5-ethical-sophistication"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.3"
 ea_category = "3. Edukativní implementace"

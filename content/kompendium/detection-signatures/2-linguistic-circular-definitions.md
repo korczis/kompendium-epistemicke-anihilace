@@ -6,6 +6,7 @@ weight = 2
 tags = ["kompendium", "detection-signature", "diagnostika", "linguistic"]
 categories = ["academic", "clinical", "security"]
 [extra]
+related_terms = ["18-network-citation-circularity", "19-network-amplification-asymmetry", "20-network-bot-coordination", "21-network-platform-coordination"]
 parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"

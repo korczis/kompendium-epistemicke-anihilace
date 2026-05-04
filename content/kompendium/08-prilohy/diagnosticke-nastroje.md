@@ -5,6 +5,7 @@ weight = 4
 sort_by = "weight"
 
 [extra]
+related_terms = ["bibliografie", "dual-use", "eticky-kodex", "index-pojmu"]
 kompendium = ["08-prilohy"]
 prilohy = ["diagnostika", "instrumenty", "klinika"]
 section_icon = "🩺"

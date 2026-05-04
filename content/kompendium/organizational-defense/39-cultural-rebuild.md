@@ -6,6 +6,7 @@ weight = 390
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["37-business-continuity-EA", "38-leadership-replacement", "4-whistleblower-mechanism", "40-post-incident-learning"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

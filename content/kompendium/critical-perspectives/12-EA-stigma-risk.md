@@ -6,6 +6,7 @@ weight = 12
 tags = ["kompendium", "critical-perspectives", "ethical"]
 categories = ["academic", "critical-theory"]
 [extra]
+related_terms = ["10-cultural-bias-critique", "11-iatrogenic-overreach", "13-victim-blaming-risk", "14-power-asymmetry-EA"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++

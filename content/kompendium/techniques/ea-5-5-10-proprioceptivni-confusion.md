@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-9-cantorova-diagonalizace-aplikace", "ea-5-5-1-pre-predikativni-blokace", "ea-5-5-11-vestibularni-disrupce", "ea-5-5-12-interoceptivni-rozpojeni"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.10"
 ea_category = "5. Ultramární techniky"

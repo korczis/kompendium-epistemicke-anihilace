@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-3", "ultramari", "epistemicka-singul
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-1-28-konvergentni-singularita", "ea-5-1-29-ontologicka-exfoliace", "ea-5-1-30-konceptualni-entropie", "ea-5-1-4-semanticka-imploze"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.3"
 ea_category = "5. Ultramární techniky"

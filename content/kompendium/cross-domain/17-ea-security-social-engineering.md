@@ -6,6 +6,7 @@ weight = 170
 tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["15-ea-dd-evidence-quality-assessment", "16-ea-dd-confirmation-bias-prevention", "18-ea-security-spear-phishing", "19-ea-security-disinformation-defense"]
 parent = "kompendium-cross-domain"
 toc = true
 +++

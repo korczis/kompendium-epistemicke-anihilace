@@ -6,6 +6,7 @@ weight = 949
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-8-real-time-bot-response", "ea-9-5-1-meme-cascade-injection", "ea-9-5-10-meme-attribution-laundering"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.4.9"
 ea_category = "9. Současná digitální EA"

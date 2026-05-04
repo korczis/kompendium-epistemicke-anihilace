@@ -6,6 +6,7 @@ weight = 28
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["causal-inference-EA", "conflict-of-interest-research", "data-security-EA-research", "debriefing-protocol-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-25", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-23-synteticka-paralyza", "ea-5-2-24-analyticka-anihilace", "ea-5-2-26-schemata-rozpad", "ea-5-2-27-apriorni-deformace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.25"
 ea_category = "5. Ultramární techniky"

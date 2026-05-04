@@ -5,6 +5,7 @@ weight = 3
 sort_by = "weight"
 
 [extra]
+related_terms = ["dual-use", "eticky-kodex", "klasifikace", "rejstrik-technik"]
 kompendium = ["08-prilohy"]
 prilohy = ["index-pojmu", "bilingual", "terminologie"]
 section_icon = "🔤"

@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "epistemicke-trauma", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-epistemicka-injustice", "bridge-epistemicka-pokora", "bridge-epoche", "bridge-eticky-ramec"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "epistemicke-trauma"
 toc = false

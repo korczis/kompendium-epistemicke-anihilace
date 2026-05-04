@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-2", "terminalni-protokoly", "long-term
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-2-6-consent-withdrawal", "ea-4-2-7-documentation-chain-custody", "ea-4-2-9-decompensation-response", "ea-4-3-1-systematic-conceptual-disassembly"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.2.8"
 ea_category = "4. Terminální protokoly"

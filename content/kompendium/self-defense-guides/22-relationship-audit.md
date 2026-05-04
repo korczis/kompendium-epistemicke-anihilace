@@ -6,6 +6,7 @@ weight = 22
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
 [extra]
+related_terms = ["20-emotional-debt-recognition", "21-boundary-setting", "23-trust-calibration", "24-communication-assertiveness"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++

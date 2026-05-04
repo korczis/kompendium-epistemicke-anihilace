@@ -6,6 +6,7 @@ weight = 70
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["5-audit-committee-EA", "6-ombudsman-role", "8-policy-review-cycles", "9-shareholder-protection"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

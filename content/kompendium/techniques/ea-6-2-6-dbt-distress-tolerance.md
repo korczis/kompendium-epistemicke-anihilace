@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-2", "klinicke", "dbt-distress-toleranc
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-2-4-metacognitive-therapy-protokol", "ea-6-2-5-narrative-therapy-protokol", "ea-6-2-7-mindfulness-based-trauma", "ea-6-2-8-somatic-experiencing-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.2.6"
 ea_category = "6. Klinické aplikace"

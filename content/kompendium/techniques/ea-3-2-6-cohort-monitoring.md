@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-3-2", "edukativni", "cohort-monitoring"]
 categories = ["academic", "education"]
 
 [extra]
+related_terms = ["ea-3-2-4-metacommunication-skill", "ea-3-2-5-ethical-sophistication", "ea-3-2-7-individual-supervision", "ea-3-2-8-peer-consultation"]
 parent = "kompendium-techniques"
 ea_code = "EA-3.2.6"
 ea_category = "3. Edukativní implementace"

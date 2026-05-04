@@ -6,6 +6,7 @@ weight = 2109
 tags = ["kompendium", "techniques", "ea-2-1-9", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-1-7-institucionalni-vyloucenni", "ea-2-1-8-reputation-laundering-inverze", "ea-2-2-1-mentor-self-totalizace", "ea-2-2-10-future-blackmail-implantace"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.1.9"
 ea_category = "2. Scénáře delegitimizace"

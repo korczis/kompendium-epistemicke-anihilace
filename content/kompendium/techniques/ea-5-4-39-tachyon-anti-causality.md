@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-39-tachyon-anti-causality", "ultrama
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-37-paradox-prediktivni", "ea-5-4-38-self-defeating-prediction", "ea-5-4-4-godel-reflexivita", "ea-5-4-40-retrokauzalita-trap"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.39"
 ea_category = "5. Ultramární techniky"

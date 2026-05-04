@@ -6,6 +6,7 @@ weight = 914
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-1-2-prompt-injection-EA", "ea-9-1-3-jailbreak-cascade", "ea-9-1-5-llm-narrative-injection", "ea-9-1-6-llm-source-attribution-bypass"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.1.4"
 ea_category = "9. Současná digitální EA"

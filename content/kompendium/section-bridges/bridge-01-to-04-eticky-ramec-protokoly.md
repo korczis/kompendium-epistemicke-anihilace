@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-01-to-02-predmluva-uvod", "bridge-01-to-05-eticky-ramec-ultramari", "bridge-02-to-03-uvod-zakladni-kategorie", "bridge-02-to-07-uvod-teoreticke"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

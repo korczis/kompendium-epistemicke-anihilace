@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-techniques-to-case-studies", "bridge-techniques-to-glossary", "bridge-techniques-to-visualizations", "bridge-visualizations-to-clinical"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

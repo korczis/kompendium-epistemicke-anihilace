@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "metakognitivni-destrukce", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-mereologicka-rekonstrukce", "bridge-metakognice", "bridge-metanarrative-collapse", "bridge-motte-and-bailey"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "metakognitivni-destrukce"
 toc = false

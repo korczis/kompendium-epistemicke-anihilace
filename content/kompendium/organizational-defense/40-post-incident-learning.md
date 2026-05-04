@@ -6,6 +6,7 @@ weight = 400
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["39-cultural-rebuild", "4-whistleblower-mechanism", "5-audit-committee-EA", "6-ombudsman-role"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

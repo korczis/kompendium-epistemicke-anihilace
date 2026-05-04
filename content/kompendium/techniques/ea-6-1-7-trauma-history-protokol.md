@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-1", "klinicke", "trauma-history-protok
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-1-5-neuropsychologicke-vysetreni", "ea-6-1-6-fyziologicke-monitoring", "ea-6-1-8-disociativni-spektrum-assessment", "ea-6-1-9-metakognitivni-functional-assessment"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.1.7"
 ea_category = "6. Klinické aplikace"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-5", "klinicke", "outpatient-EA-protoko
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-4-9-novinari-protokol", "ea-6-5-1-akutni-krize-protokol", "ea-6-5-2-suicidalni-EA-protokol", "ea-6-5-3-psychotic-spektrum-protokol"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.5.10"
 ea_category = "6. Klinické aplikace"

@@ -9,6 +9,7 @@ tags = ["kompendium", "nagel", "objektivita", "filosofie-mysli", "subjektivita",
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["merleau-ponty-vtelena-percepce", "metzinger-ego-tunnel", "nussbaum-capabilities", "otevrene-otazky"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

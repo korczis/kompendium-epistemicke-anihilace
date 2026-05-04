@@ -9,6 +9,7 @@ tags = ["kompendium", "macintyre", "etika-ctnosti", "narativ", "tradice", "moral
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["lakoff-conceptual-metaphor", "levinas-jiny", "mcDowell-mind-and-world", "merleau-ponty-vtelena-percepce"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

@@ -6,6 +6,7 @@ weight = 10
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 [extra]
+related_terms = ["10-stakeholder-engagement", "11-onboarding-EA-awareness", "12-training-resilience"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++

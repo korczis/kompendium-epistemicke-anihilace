@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-20-self-vector-rotation", "ea-5-3-22-moralni-osy-inverze", "ea-5-3-23-konstitutivni-mytologizace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.21"
 ea_category = "5. Ultramární techniky"

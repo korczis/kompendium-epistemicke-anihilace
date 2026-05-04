@@ -6,6 +6,7 @@ weight = 926
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-2-4-image-manipulation-EA", "ea-9-2-5-video-manipulation-EA", "ea-9-2-7-synthetic-witness-testimony", "ea-9-2-8-AI-eyewitness-fabrication"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.2.6"
 ea_category = "9. Současná digitální EA"

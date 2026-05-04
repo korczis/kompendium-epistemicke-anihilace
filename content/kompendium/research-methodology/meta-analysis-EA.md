@@ -6,6 +6,7 @@ weight = 14
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["informed-consent-EA-research", "longitudinal-study-EA", "mixed-methods-EA", "narrative-analysis-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

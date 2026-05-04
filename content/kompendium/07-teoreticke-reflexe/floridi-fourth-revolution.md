@@ -9,6 +9,7 @@ tags = ["kompendium", "floridi", "infosfera", "filosofie-informace", "digitalni-
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["feyerabend-anti-method", "filosoficky-ramec", "friston-active-inference", "hannah-arendt-myslení"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

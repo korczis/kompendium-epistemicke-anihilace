@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-5", "klinicke", "day-program-EA"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-5-6-inpatient-stabilizace", "ea-6-5-7-partialni-hospitalizace", "ea-6-5-9-residential-program-EA", "ea-7-1-1-foucault-power-knowledge"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.5.8"
 ea_category = "6. Klinické aplikace"

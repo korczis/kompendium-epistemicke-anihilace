@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-3", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-7-self-narrative-replacement", "ea-5-3-8-mnemonicka-rekonfigurace", "ea-5-4-1-lhar-paradox-aplikace", "ea-5-4-10-berry-paradox-implantace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.3.9"
 ea_category = "5. Ultramární techniky"

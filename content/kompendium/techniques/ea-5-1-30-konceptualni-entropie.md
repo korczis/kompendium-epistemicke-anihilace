@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-1-30", "konceptualni-entropie", "ultra
 categories = ["academic"]
 
 [extra]
+related_terms = ["ea-5-1-29-ontologicka-exfoliace", "ea-5-1-3-reflexivni-paradoxie", "ea-5-1-4-semanticka-imploze", "ea-5-1-5-logicka-diskontinuita"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.1.30"
 ea_category = "5. Ultramari techniky"

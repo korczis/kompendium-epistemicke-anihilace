@@ -6,6 +6,7 @@ weight = 2409
 tags = ["kompendium", "techniques", "ea-2-4-9", "delegitimizace"]
 categories = ["academic"]
 [extra]
+related_terms = ["ea-2-4-7-conference-capture", "ea-2-4-8-journal-capture", "ea-2-4-falesny-konsensus", "ea-2-5-1-pseudo-pokora-internalizace"]
 parent = "kompendium-techniques"
 ea_code = "EA-2.4.9"
 ea_category = "2. Scénáře delegitimizace"

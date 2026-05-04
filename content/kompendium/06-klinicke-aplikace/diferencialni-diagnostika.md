@@ -8,6 +8,7 @@ tags = ["kompendium", "klinicke-aplikace", "diferencialni-diagnostika", "ptsd", 
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["collateral-interview-protokol", "diagnosticke-indikatory", "epistemicka-rekonstrukce", "kolektivni-intervence"]
 parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🔬"
 toc = true

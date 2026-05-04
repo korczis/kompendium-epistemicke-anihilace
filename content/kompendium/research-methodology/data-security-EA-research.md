@@ -6,6 +6,7 @@ weight = 35
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["conflict-of-interest-research", "conversation-analysis-EA", "debriefing-protocol-research", "discourse-analysis-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

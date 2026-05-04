@@ -8,6 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "longterm"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["longterm-altruistic-channeling", "longterm-community-rebuilding", "longterm-post-traumatic-growth", "longterm-relapse-prevention"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"

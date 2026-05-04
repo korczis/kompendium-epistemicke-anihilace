@@ -9,6 +9,7 @@ tags = ["kompendium", "terminalni-protokoly", "bezpecnostni-protokoly", "irb", "
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["intra-simulacni-monitoring", "kapitola-4", "konceptualni-dekonstrukce", "kontrolovana-rekonstituce"]
 parent = "04-terminalni-protokoly"
 access_level = "L2"
 status = "publikovano"

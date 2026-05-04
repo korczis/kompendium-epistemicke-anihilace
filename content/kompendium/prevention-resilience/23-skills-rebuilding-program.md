@@ -6,6 +6,7 @@ weight = 23
 tags = ["kompendium", "prevention-resilience", "tertiary"]
 categories = ["academic", "prevention"]
 [extra]
+related_terms = ["21-relapse-prevention-EA", "22-post-EA-network-rebuilding", "24-meaning-restoration-prevention", "25-vocational-rehabilitation-prevention"]
 parent = "kompendium-prevention-resilience"
 toc = true
 +++

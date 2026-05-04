@@ -8,6 +8,7 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "acute"]
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["acute-cognitive-anchoring", "acute-safety-establishment", "acute-social-reconnection", "acute-somatic-regulation"]
 parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"

@@ -6,6 +6,7 @@ weight = 42
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
 [extra]
+related_terms = ["40-law-firm-totalizace", "41-medical-residency", "43-elite-sports-totalizace", "44-arts-totalizace"]
 parent = "kompendium-case-studies"
 anonymized = true
 toc = true

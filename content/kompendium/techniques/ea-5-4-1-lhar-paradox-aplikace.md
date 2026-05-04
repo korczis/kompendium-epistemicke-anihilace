@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-1-lhar-paradox-aplikace", "ultramari
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-3-8-mnemonicka-rekonfigurace", "ea-5-3-9-afektivni-prepolovani", "ea-5-4-10-berry-paradox-implantace", "ea-5-4-11-richardova-paradox-zneuziti"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.1"
 ea_category = "5. Ultramární techniky"

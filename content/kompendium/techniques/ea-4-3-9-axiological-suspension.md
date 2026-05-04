@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-3", "terminalni-protokoly", "axiologic
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-3-7-paradigmatic-fluidization", "ea-4-3-8-hermeneutic-recursion", "ea-4-4-1-narrative-disassembly", "ea-4-4-10-identity-stabilization"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.3.9"
 ea_category = "4. Terminální protokoly"

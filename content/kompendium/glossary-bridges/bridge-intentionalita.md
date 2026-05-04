@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "intentionalita", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-instrumental-reason", "bridge-intelligence-fusion", "bridge-kognitivni-anihilace", "bridge-kognitivni-anti-rekurzivita"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "intentionalita"
 toc = false

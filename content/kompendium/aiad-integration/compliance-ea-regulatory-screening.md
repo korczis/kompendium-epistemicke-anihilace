@@ -6,6 +6,7 @@ weight = 34
 tags = ["kompendium", "aiad-integration", "compliance-ea-regulatory-screening"]
 categories = ["academic", "platform-integration"]
 [extra]
+related_terms = ["black-team-ea-modeling", "blue-team-ea-defense", "czech-ares-ea-screening", "dd-engine-ea-source-weighting"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++

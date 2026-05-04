@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-8-2", "prilohy", "reference", "singer-si
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["ea-8-2-10-herman-recovery-stages", "ea-8-2-2-lifton-thought-reform-criteria", "ea-8-2-4-hassan-cult-criteria", "ea-8-2-5-stark-coercive-control"]
 parent = "kompendium-techniques"
 ea_code = "EA-8.2.3"
 ea_category = "8. Přílohy"

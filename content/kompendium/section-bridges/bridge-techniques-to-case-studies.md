@@ -8,6 +8,7 @@ tags = ["kompendium", "section-bridge", "navigace"]
 categories = ["academic", "reference"]
 
 [extra]
+related_terms = ["bridge-platform-nabla-to-kompendium", "bridge-quick-reference-to-glossary", "bridge-techniques-to-glossary", "bridge-techniques-to-quick-reference"]
 parent = "kompendium-section-bridges"
 toc = false
 +++

@@ -6,6 +6,7 @@ weight = 280
 tags = ["kompendium", "population-health", "policy"]
 categories = ["academic", "public-health"]
 [extra]
+related_terms = ["26-educational-policy-EA", "27-mental-health-policy-EA", "29-research-funding-EA", "30-ethics-policy-research-EA"]
 parent = "kompendium-population-health"
 toc = true
 +++

@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "trinity-gate", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-theory-of-mind", "bridge-threshold", "bridge-violation-protocol", "bridge-weaponized-incompetence"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "trinity-gate"
 toc = false

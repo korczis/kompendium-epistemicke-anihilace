@@ -6,6 +6,7 @@ weight = 1
 tags = ["kompendium", "glossary-bridge", "ideal-speech-situation", "cross-link"]
 categories = ["academic", "reference"]
 [extra]
+related_terms = ["bridge-hyperreality", "bridge-iatrogenic-harm", "bridge-info-ops", "bridge-instrumental-reason"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "ideal-speech-situation"
 toc = false

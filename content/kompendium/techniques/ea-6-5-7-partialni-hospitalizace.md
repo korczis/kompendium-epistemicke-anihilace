@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-5", "klinicke", "partialni-hospitaliza
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-5-5-er-screening-EA", "ea-6-5-6-inpatient-stabilizace", "ea-6-5-8-day-program-EA", "ea-6-5-9-residential-program-EA"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.5.7"
 ea_category = "6. Klinické aplikace"

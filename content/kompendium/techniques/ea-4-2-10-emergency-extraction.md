@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-2", "terminalni-protokoly", "emergency
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-1-gaslighting", "ea-4-2-1-pre-engagement-screening", "ea-4-2-2-real-time-monitoring", "ea-4-2-3-post-engagement-reintegration"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.2.10"
 ea_category = "4. Terminální protokoly"

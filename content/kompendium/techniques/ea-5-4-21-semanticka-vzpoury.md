@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-4-21-semanticka-vzpoury", "ultramari",
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-4-2-russell-typ-violace", "ea-5-4-20-performative-contradiction-induction", "ea-5-4-22-logicka-paradox-eskalace", "ea-5-4-23-modalni-paradox-aplikace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.4.21"
 ea_category = "5. Ultramární techniky"

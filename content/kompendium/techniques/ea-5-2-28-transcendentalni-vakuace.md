@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-2-28", "ultramari", "metatranscendenta
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-2-26-schemata-rozpad", "ea-5-2-27-apriorni-deformace", "ea-5-2-29-meta-fenomenalni-redukce", "ea-5-2-3-noumenalni-redukce"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.2.28"
 ea_category = "5. Ultramární techniky"

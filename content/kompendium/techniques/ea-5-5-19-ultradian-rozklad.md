@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-5-17-srdcni-rytm-disonance", "ea-5-5-18-cirkadianni-disrupce", "ea-5-5-2-somato-fenomenologicka-disrupce", "ea-5-5-20-pre-spaclni-restrukturalizace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.19"
 ea_category = "5. Ultramární techniky"

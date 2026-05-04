@@ -9,6 +9,7 @@ tags = ["kompendium", "harari", "sapiens", "narativ", "fikcni-rad", "kognitivni-
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["friston-active-inference", "hannah-arendt-myslení", "heidegger-byt-ve-svete", "herman-chomsky-propaganda-model"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

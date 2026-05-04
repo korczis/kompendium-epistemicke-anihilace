@@ -6,6 +6,7 @@ weight = 36
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 [extra]
+related_terms = ["power-analysis-EA", "pre-registration-EA-research", "replication-EA-research", "survey-design-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++

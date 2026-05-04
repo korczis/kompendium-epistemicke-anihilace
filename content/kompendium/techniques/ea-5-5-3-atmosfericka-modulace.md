@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-5-28-olfacticka-modulace", "ea-5-5-29-multimodalni-konvergence", "ea-5-5-30-konvergentni-singularita-transkonceptualni", "ea-5-5-4-gestalt-disrupce"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.3"
 ea_category = "5. Ultramární techniky"

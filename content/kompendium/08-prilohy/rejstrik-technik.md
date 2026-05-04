@@ -5,6 +5,7 @@ weight = 2
 sort_by = "weight"
 
 [extra]
+related_terms = ["index-pojmu", "klasifikace", "zkratky", "eticky-kodex"]
 kompendium = ["08-prilohy"]
 prilohy = ["rejstrik", "master-index", "techniky"]
 section_icon = "📋"

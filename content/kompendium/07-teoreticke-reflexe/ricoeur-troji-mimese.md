@@ -9,6 +9,7 @@ tags = ["kompendium", "ricoeur", "narativ", "mimese", "hermeneutika", "narativni
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["putnam-internal-realism", "quine-web-of-belief", "rorty-contingency", "sartre-existencialismus"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

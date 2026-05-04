@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-2", "klinicke", "body-oriented-therapy
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-2-7-mindfulness-based-trauma", "ea-6-2-8-somatic-experiencing-protokol", "ea-6-3-1-stabilizacni-faze-protokol", "ea-6-3-10-sense-of-coherence-restaurace"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.2.9"
 ea_category = "6. Klinické aplikace"

@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-6-3", "klinicke", "sense-of-coherence-re
 categories = ["academic", "clinical"]
 
 [extra]
+related_terms = ["ea-6-2-9-body-oriented-therapy-protokol", "ea-6-3-1-stabilizacni-faze-protokol", "ea-6-3-2-externalizacni-faze", "ea-6-3-3-metacognitivni-rehabilitace"]
 parent = "kompendium-techniques"
 ea_code = "EA-6.3.10"
 ea_category = "6. Klinické aplikace"

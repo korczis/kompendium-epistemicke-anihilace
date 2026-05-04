@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-5-5", "ultramari"]
 categories = ["academic", "ultramari"]
 
 [extra]
+related_terms = ["ea-5-5-21-dream-state-implantace", "ea-5-5-22-hypnagogicka-modulace", "ea-5-5-24-atmospheric-pressure-modulace", "ea-5-5-25-svetelna-frekvence-modulace"]
 parent = "kompendium-techniques"
 ea_code = "EA-5.5.23"
 ea_category = "5. Ultramární techniky"

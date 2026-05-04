@@ -9,6 +9,7 @@ tags = ["kompendium", "techniques", "ea-4-4", "terminalni-protokoly", "moral-sel
 categories = ["academic", "research"]
 
 [extra]
+related_terms = ["ea-4-4-5-temporal-self-disruption", "ea-4-4-6-axiological-self-reset", "ea-4-4-8-coherence-restoration", "ea-4-4-9-narrative-reconstruction"]
 parent = "kompendium-techniques"
 ea_code = "EA-4.4.7"
 ea_category = "4. Terminální protokoly"

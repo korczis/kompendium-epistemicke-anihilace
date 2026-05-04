@@ -9,6 +9,7 @@ tags = ["kompendium", "davidson", "filosofie-jazyka", "interpretace", "princip-c
 categories = ["academic", "philosophy"]
 
 [extra]
+related_terms = ["computational-epistemology", "damasio-somatic-marker", "dawkins-meme", "dennett-from-bacteria-to-bach"]
 parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true

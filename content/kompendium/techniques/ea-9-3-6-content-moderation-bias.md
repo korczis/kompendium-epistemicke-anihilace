@@ -6,6 +6,7 @@ weight = 936
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
 [extra]
+related_terms = ["ea-9-3-4-recommendation-radicalization", "ea-9-3-5-shadowban-coordination", "ea-9-3-7-platform-coordinated-attack", "ea-9-3-8-mass-reporting-coordination"]
 parent = "kompendium-techniques"
 ea_code = "EA-9.3.6"
 ea_category = "9. Současná digitální EA"

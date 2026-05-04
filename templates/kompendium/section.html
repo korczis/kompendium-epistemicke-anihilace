@@ -239,7 +239,7 @@
             <aside class="hidden lg:block sticky top-4 space-y-6 self-start min-w-0">
 
                 <!-- Section overview -->
-                <div x-data="{ expanded: true }" class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
+                <div x-data="{ expanded: true }" x-cloak class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
                     <button type="button" @click="expanded = !expanded" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-750 transition-colors">
                         <div class="flex items-center gap-2">
                             <svg aria-hidden="true" class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -289,7 +289,7 @@
 
                 <!-- Kompendium chapter navigation (always show kompendium root chapters) -->
                 {% set kompendium_root = get_section(path="kompendium/_index.md") %}
-                <div x-data="{ expanded: true }" class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
+                <div x-data="{ expanded: true }" x-cloak class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
                     <button type="button" @click="expanded = !expanded" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-750 transition-colors">
                         <div class="flex items-center gap-2">
                             <svg aria-hidden="true" class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -55,7 +55,7 @@
 
 {% block content %}
 <!-- Reading Progress Bar -->
-<div class="reading-progress-bar" x-data="kompendiumReadingProgress()" x-init="init()" :style="`transform: scaleX(${progress})`"></div>
+<div class="reading-progress-bar" x-data="kompendiumReadingProgress()" x-cloak x-init="init()" :style="`transform: scaleX(${progress})`"></div>
 
 <!-- Hero Header -->
 <section class="bg-gray-900 py-10 lg:py-14 border-b border-white/5">
@@ -201,7 +201,7 @@
 
                 <!-- Table of contents (if Zola generated any) -->
                 {% if page.toc %}
-                <div x-data="{ expanded: true }" class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
+                <div x-data="{ expanded: true }" x-cloak class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
                     <button type="button" @click="expanded = !expanded" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-750 transition-colors">
                         <div class="flex items-center gap-2">
                             <svg aria-hidden="true" class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -229,7 +229,7 @@
                 {% if parent_path %}
                 {% set parent_section = get_section(path=parent_path) %}
                 {% if parent_section.pages | length > 1 %}
-                <div x-data="{ expanded: true }" class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
+                <div x-data="{ expanded: true }" x-cloak class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
                     <button type="button" @click="expanded = !expanded" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-750 transition-colors">
                         <div class="flex items-center gap-2">
                             <svg aria-hidden="true" class="w-5 h-5 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -260,7 +260,7 @@
                 <!-- Related glossary terms (when frontmatter declares them) -->
                 {% if page.extra.glossary_terms %}
                 {% set glossary_section = get_section(path="glossary/_index.md") %}
-                <div x-data="{ expanded: true }" class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
+                <div x-data="{ expanded: true }" x-cloak class="bg-gray-800 rounded-xl border border-gray-700 overflow-hidden">
                     <button type="button" @click="expanded = !expanded" class="w-full flex items-center justify-between p-4 text-left hover:bg-gray-750 transition-colors">
                         <div class="flex items-center gap-2">
                             <svg aria-hidden="true" class="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -148,53 +148,29 @@ Tento kodex operacionalizuje cestu mezi těmito riziky. Není to seznam pravidel
 
 ## Operativní rámec — workflow IRB
 
-```
-┌──────────────────────────────────────┐
-│ 1. Návrh studie                      │
-│    └─ Risk-benefit assessment        │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 2. Pre-registrace                    │
-│    └─ OSF / ClinicalTrials.gov       │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 3. IRB submission                    │
-│    └─ Protokol + COI + Consent forms │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 4. IRB schválení (prospektivní)      │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 5. Recruitment + informed consent    │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 6. Sběr dat + adverse event monitor  │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 7. Analýza + dual-review             │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 8. Publikace + public engagement     │
-└──────────────────────────────────────┘
-              │
-              ▼
-┌──────────────────────────────────────┐
-│ 9. Post-publication monitoring       │
-└──────────────────────────────────────┘
+```mermaid
+flowchart TD
+  S1["1. Návrh studie<br/>━━━━━━━━━━━━━━<br/>Risk–benefit assessment"]
+  S2["2. Pre-registrace<br/>━━━━━━━━━━━━━━<br/>OSF / ClinicalTrials.gov"]
+  S3["3. IRB submission<br/>━━━━━━━━━━━━━━<br/>Protokol + COI + Consent forms"]
+  S4["4. IRB schválení<br/>(prospektivní)"]
+  S5["5. Recruitment + informed consent"]
+  S6["6. Sběr dat<br/>+ adverse event monitor"]
+  S7["7. Analýza + dual-review"]
+  S8["8. Publikace + public engagement"]
+  S9["9. Post-publication monitoring"]
+
+  S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> S8 --> S9
+
+  style S1 fill:#1e3a8a,stroke:#3b82f6,color:#fff
+  style S2 fill:#1e40af,stroke:#3b82f6,color:#fff
+  style S3 fill:#1d4ed8,stroke:#3b82f6,color:#fff
+  style S4 fill:#7c3aed,stroke:#a855f7,color:#fff
+  style S5 fill:#15803d,stroke:#22c55e,color:#fff
+  style S6 fill:#15803d,stroke:#22c55e,color:#fff
+  style S7 fill:#15803d,stroke:#22c55e,color:#fff
+  style S8 fill:#a16207,stroke:#facc15,color:#fff
+  style S9 fill:#9f1239,stroke:#f43f5e,color:#fff
 ```
 
 ## Sankce za porušení kodexu

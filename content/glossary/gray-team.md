@@ -46,54 +46,27 @@ The L3/L4 authority levels are significant. The commander (L3) has strategic dec
 
 Gray Team exploration follows a structured five-phase methodology:
 
-```
-Phase 1: Target Selection
-┌──────────────────────┐
-│ Identify exploration  │
-│ targets from:         │
-│ - API boundaries      │
-│ - Type interfaces     │
-│ - Configuration edges │
-│ - Dependency surfaces │
-└──────────┬───────────┘
-           │
-Phase 2: Specification Analysis
-┌──────────┴───────────┐
-│ Compare implemented   │
-│ behavior against:     │
-│ - @spec declarations  │
-│ - @doc descriptions   │
-│ - @moduledoc purpose  │
-│ - Test assertions     │
-└──────────┬───────────┘
-           │
-Phase 3: Gap Discovery
-┌──────────┴───────────┐
-│ Identify:             │
-│ - Unspecified inputs  │
-│ - Ambiguous behaviors │
-│ - Missing error cases │
-│ - Implicit assumptions│
-└──────────┬───────────┘
-           │
-Phase 4: Affordance Mapping
-┌──────────┴───────────┐
-│ Map capabilities that │
-│ exist in code but not │
-│ in specification:     │
-│ - Unintended features │
-│ - Emergent behaviors  │
-│ - Side-channel access │
-└──────────┬───────────┘
-           │
-Phase 5: Finding Emission
-┌──────────┴───────────┐
-│ Emit structured       │
-│ findings to:          │
-│ → Red Team (seeds)    │
-│ → Blue Team (intel)   │
-│ → Purple (synthesis)  │
-└──────────────────────┘
+```mermaid
+flowchart TD
+  P1["Phase 1: Target Selection<br/>━━━━━━━━━━━━━━<br/>API boundaries · Type interfaces<br/>Config edges · Dependency surfaces"]
+  P2["Phase 2: Specification Analysis<br/>━━━━━━━━━━━━━━<br/>@spec · @doc · @moduledoc<br/>Test assertions"]
+  P3["Phase 3: Gap Discovery<br/>━━━━━━━━━━━━━━<br/>Unspecified inputs · Ambiguous<br/>behaviors · Missing error cases<br/>Implicit assumptions"]
+  P4["Phase 4: Affordance Mapping<br/>━━━━━━━━━━━━━━<br/>Unintended features · Emergent<br/>behaviors · Side-channel access"]
+  P5["Phase 5: Finding Emission<br/>━━━━━━━━━━━━━━<br/>Structured findings"]
+
+  P1 --> P2 --> P3 --> P4 --> P5
+  P5 --> RED["→ Red Team<br/>(exploit seeds)"]
+  P5 --> BLUE["→ Blue Team<br/>(defense intel)"]
+  P5 --> PURPLE["→ Purple Team<br/>(synthesis)"]
+
+  style P1 fill:#1e3a8a,stroke:#3b82f6,color:#fff
+  style P2 fill:#1e40af,stroke:#3b82f6,color:#fff
+  style P3 fill:#1d4ed8,stroke:#3b82f6,color:#fff
+  style P4 fill:#2563eb,stroke:#3b82f6,color:#fff
+  style P5 fill:#3b82f6,stroke:#60a5fa,color:#fff
+  style RED fill:#9f1239,stroke:#f43f5e,color:#fff
+  style BLUE fill:#1e40af,stroke:#60a5fa,color:#fff
+  style PURPLE fill:#7c3aed,stroke:#a855f7,color:#fff
 ```
 
 ### Finding Structure
@@ -293,19 +266,20 @@ end
 
 Gray Team operates at the entry point of the Color Team signal flow:
 
-```
-Gray Team (Boundary Seeds)
-    │
-    ├──────────────────────────> Red Team (Adversarial Scenarios)
-    │                               │
-    │                               v
-    ├──────────────────────────> Purple Team (Synthesis & Closure)
-    │                               │
-    │                               v
-    └──────────────────────────> Blue Team (Defensive Posture)
-                                    │
-                                    v
-                               Platform Defense
+```mermaid
+flowchart LR
+  G["Gray Team<br/>(Boundary Seeds)"] --> R["Red Team<br/>(Adversarial Scenarios)"]
+  G --> P["Purple Team<br/>(Synthesis & Closure)"]
+  G --> B["Blue Team<br/>(Defensive Posture)"]
+  R --> P
+  P --> B
+  B --> D["Platform Defense"]
+
+  style G fill:#475569,stroke:#94a3b8,color:#fff
+  style R fill:#9f1239,stroke:#f43f5e,color:#fff
+  style P fill:#7c3aed,stroke:#a855f7,color:#fff
+  style B fill:#1e40af,stroke:#3b82f6,color:#fff
+  style D fill:#15803d,stroke:#22c55e,color:#fff
 ```
 
 Every finding emitted by Gray Team flows into the Color Team ecosystem. The commander decides routing based on finding characteristics: specification gaps typically route to Red Team for adversarial exploitation analysis, edge cases route to Blue Team for defensive hardening, and affordance drift routes to Purple Team for synthesis and trend analysis.

@@ -17,7 +17,7 @@ violation_levels = ["L1", "L2", "L3", "L4"]
 confidence_threshold = "0.95"
 transition_mechanism = "nabla-to-nmnd"
 agents_governed = "530+"
-quality_score = "100/100"
+quality_score = "doctrine-enforced"
 quality_domains = "13"
 qdp_eliminated = "905"
 pre_commit_phases = "11"
@@ -37,13 +37,13 @@ image_alt = "NM/ND Doctrine - Prismatic Platform"
 
 ## Definition and Overview
 
-The NM/ND Doctrine (NO MERCY, NO DOUBTS) is the universal governing framework that combines zero-tolerance enforcement with evidence-based decisive action. Classified at Sig Nihl L3 clearance, it governs all platform operations without exception -- from individual code commits to strategic architectural decisions, from agent behavior specifications to CI/CD pipeline configurations.
+The NM/ND Doctrine (NO MERCY, NO DOUBTS) is the universal governing framework that combines zero-tolerance enforcement with evidence-based decisive action. Classified at  L3 clearance, it governs all platform operations without exception -- from individual code commits to strategic architectural decisions, from agent behavior specifications to CI/CD pipeline configurations.
 
 The doctrine represents a philosophical synthesis of two complementary principles: **NO MERCY** demands that all work be production-ready from the moment of creation, with zero tolerance for incomplete implementations, untested code, or deferred quality fixes. **NO DOUBTS** requires thorough investigation before action, evidence-backed decisions, and decisive commitment once understanding is achieved. Together, they eliminate the two most common failure modes in software development: shipping substandard work and making uninformed decisions.
 
 NM/ND is not merely a quality standard or coding guideline. It is a comprehensive governance framework that permeates every layer of the platform -- from the 530+ AIAD agent definitions (each carrying mandatory `enforcement: doctrine: "no-mercy-no-doubts"`) to the [pre-commit hooks](@/glossary/pre-commit-hooks.md) that block non-compliant code, from the session discipline protocol that governs development workflows to the violation protocol that escalates breaches through four severity levels.
 
-The doctrine's effectiveness stems from its non-negotiable nature. There are no exceptions, no bypass mechanisms, and no "temporary" waivers. This absolute enforcement creates a predictable quality baseline that makes the impossible -- maintaining 100/100 quality across 13 domains in a 2.8M LOC codebase -- not just possible but routine.
+The doctrine's effectiveness stems from its non-negotiable nature. There are no exceptions, no bypass mechanisms, and no "temporary" waivers. This absolute enforcement creates a predictable quality baseline that makes the impossible -- maintaining doctrine-enforced quality across 13 domains in a 2.8M LOC codebase -- not just possible but routine.
 
 ## Historical Context and Evolution
 
@@ -278,7 +278,7 @@ The [Session Discipline](@/glossary/session-discipline.md) protocol extends NM/N
 
 ### Quality Score Maintenance
 
-The doctrine is directly responsible for the platform's 100/100 quality score across all 13 quality domains. The complete elimination of 905 Quality Debt Points was achieved through systematic application of NM/ND principles -- no violation was deferred, no fix was incomplete, and no regression was tolerated.
+The doctrine is directly responsible for the platform's 22-pillar doctrine compliance across all 13 quality domains. The complete elimination of 905 Quality Debt Points was achieved through systematic application of NM/ND principles -- no violation was deferred, no fix was incomplete, and no regression was tolerated.
 
 ### Mandatory Regression Test Protocol
 
@@ -291,7 +291,7 @@ Every bug fix operation must follow the regression test protocol:
 5. **VERIFY test passes** with fixed code (proves fix works)
 6. **REPORT completion** to user with brief summary
 
-This protocol has zero exceptions and zero bypass mechanisms.
+This protocol has doctrine-enforced compliance and zero bypass mechanisms.
 
 ## Code Examples
 

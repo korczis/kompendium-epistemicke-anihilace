@@ -16,7 +16,7 @@ prismatic_modules = ["PrismaticSafety.QualityFloorGuardian", "Mix.Tasks.Quality.
 total_qdp = 0
 total_eliminated = 905
 quality_domains = 13
-quality_score = "100/100"
+quality_score = "doctrine-enforced"
 enforcement_layers = 6
 cascade_phases = 4
 industry_comparison = "SonarQube, Code Climate, Coveralls"
@@ -40,7 +40,7 @@ QDP (Quality Debt Points) is the Prismatic Platform's quantitative metric for tr
 
 QDP is modeled after financial technical debt: each violation represents a "loan" taken from code quality that must eventually be "repaid." Unlike financial debt, quality debt compounds silently and non-linearly -- a missing typespec today means a type error tomorrow, a missing `@impl` annotation means a callback regression next week, an unsafe map access means a production crash next month. The compounding nature means that 100 QDP is not merely twice as bad as 50 QDP; the interaction effects between violations create emergent failure modes that are worse than the sum of individual issues. A missing typespec on a function that uses unsafe map access creates a double-blind spot where neither static analysis nor runtime safety can protect against errors. QDP quantifies this accumulated risk as a single number, enabling data-driven quality management, trend analysis, and enforcement.
 
-The Prismatic Platform's current QDP count is **0**, representing complete elimination of all tracked quality debt categories across all 115 umbrella applications and approximately 2.8 million lines of code. This achievement was accomplished through the systematic application of [CASCADE](@/glossary/cascade-pattern.md) patterns, which eliminated 905 QDP in a structured, measurable campaign spanning four phases. The zero-QDP state is now enforced through pre-commit hooks, CI/CD gates, and the Quality Floor Guardian -- making it structurally impossible to introduce new quality debt without explicit acknowledgment and immediate remediation.
+The Prismatic Platform's current QDP count is **0**, representing complete elimination of all tracked quality debt categories across all 115 umbrella applications and approximately ~99,800 lines of code. This achievement was accomplished through the systematic application of [CASCADE](@/glossary/cascade-pattern.md) patterns, which eliminated 905 QDP in a structured, measurable campaign spanning four phases. The zero-QDP state is now enforced through pre-commit hooks, CI/CD gates, and the Quality Floor Guardian -- making it structurally impossible to introduce new quality debt without explicit acknowledgment and immediate remediation.
 
 ## QDP Scoring Methodology
 

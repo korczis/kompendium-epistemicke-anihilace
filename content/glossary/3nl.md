@@ -21,7 +21,7 @@ image_alt = "3NL - Prismatic Platform"
 
 ## Definition
 
-3NL (Three Nested Levels) is the Prismatic Platform's foundational architectural framework that organizes all platform components into three hierarchical levels of abstraction. Derived from systems theory and layered architecture principles, 3NL establishes a strict separation of concerns where each level encapsulates the complexity of the level below while exposing a clean, well-defined interface to the level above. The term "3NL" serves as the canonical shorthand for the full [Three Nested Levels](@/glossary/three-nl.md) framework, appearing throughout code, configuration files, agent specifications, and technical documentation. The etymological origin combines the numeral "3" with the abbreviation "NL" (Nested Levels), reflecting the framework's emphasis on exactly three tiers of nesting -- no more, no fewer -- as the structurally optimal decomposition for managing complexity at the scale of 92 umbrella applications, 552 agents, and over 2.8 million lines of code.
+3NL (Three Nested Levels) is the Prismatic Platform's foundational architectural framework that organizes all platform components into three hierarchical levels of abstraction. Derived from systems theory and layered architecture principles, 3NL establishes a strict separation of concerns where each level encapsulates the complexity of the level below while exposing a clean, well-defined interface to the level above. The term "3NL" serves as the canonical shorthand for the full [Three Nested Levels](@/glossary/three-nl.md) framework, appearing throughout code, configuration files, agent specifications, and technical documentation. The etymological origin combines the numeral "3" with the abbreviation "NL" (Nested Levels), reflecting the framework's emphasis on exactly three tiers of nesting -- no more, no fewer -- as the structurally optimal decomposition for managing complexity at the scale of 95 umbrella applications, 1,110 agent definitions (~70 runtime), and over ~99,800 lines of code.
 
 The three levels -- Strategic (L1), Tactical (L2), and Operational (L3) -- correspond to decreasing levels of abstraction and increasing levels of implementation detail. L1 defines what the system does (public APIs, agent commands, dashboard interfaces). L2 defines how components coordinate (inter-app protocols, pipeline orchestration, quality enforcement). L3 defines how things actually work (OTP processes, storage adapters, [BEAM](@/glossary/beam.md) primitives). This separation ensures that changes at one level do not cascade unnecessarily to others -- a storage adapter replacement at L3 does not affect the public API at L1.
 
@@ -44,7 +44,7 @@ The outermost level visible to external consumers and high-level orchestration. 
 | **API** | [REST](@/glossary/rest-api.md) and [GraphQL](@/glossary/graphql.md) endpoints | `POST /api/v1/perimeter/discover` |
 | **Agents** | Command interfaces | `/archer-supreme`, `/orchestrate` |
 | **Dashboard** | [LiveView](@/glossary/liveview.md) pages | `/perimeter`, `/perimeter/assets` |
-| **Quality** | Score display, grade output | Quality 100/100, 13/13 domains |
+| **Quality** | Score display, grade output | Quality doctrine-enforced, 13/13 domains |
 | **Integration** | External system adapters | [OpenAPI](@/glossary/openapi.md) spec, webhook endpoints |
 
 ### Level 2: Tactical (Internal Coordination)

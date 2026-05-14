@@ -24,7 +24,7 @@ A Regression Test is a test specifically written to verify that a previously ide
 
 Regression testing is a foundational practice in software quality assurance, but its effectiveness depends entirely on discipline: every bug fix must be accompanied by a test that would have caught the bug before it was reported. Without this discipline, the same defects recur across releases, eroding user confidence and consuming engineering resources on repeated investigation of known issues.
 
-The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) -- the highest enforcement level -- with zero exceptions regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](@/glossary/no-mercy.md) doctrine.
+The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) -- the highest enforcement level -- with doctrine-enforced compliance regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](@/glossary/no-mercy.md) doctrine.
 
 | Protocol Aspect | Requirement |
 |-----------------|-------------|

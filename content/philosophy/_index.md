@@ -32,7 +32,7 @@ peer_reviewed = false
 # Content classification
 content_version = "1.0.0"
 last_enhanced = "2026-02-23"
-quality_score = 100
+quality_score = 0
 
 # Cross-references
 related_articles = ["ghl-license", "intellectual-sovereignty", "ceremonial-computing"]

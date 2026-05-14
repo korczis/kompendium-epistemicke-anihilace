@@ -249,7 +249,7 @@ Session context is saved to `.claude/session-context/` in a structured markdown 
 - apps/prismatic_perimeter/test/easm/cert_scanner_test.exs
 
 ## Quality State
-- Quality Score: 100/100
+- Quality Score: doctrine-enforced
 - Tests: All passing
 - QDP: 0
 

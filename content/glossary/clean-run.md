@@ -18,7 +18,7 @@ safety_level = "p0-absolute"
 documentation_required = true
 testing_strategy = "compile-time-and-runtime-validation"
 current_status = "100-percent-compliant"
-quality_score = "100/100"
+quality_score = "doctrine-enforced"
 quality_domains_clean = "13/13"
 compiler_warnings = "0"
 credo_violations = "0"
@@ -305,7 +305,7 @@ Clean Run is enforced uniformly across the entire platform.
 | **Compiler Warnings** | 0 (zero) |
 | **Credo Violations** | 0 (zero) |
 | **Dialyzer Violations** | 0 (zero) |
-| **Quality Score** | 100/100 (PERFECT) |
+| **Quality Score** | doctrine-enforced (PERFECT) |
 | **Quality Domains Clean** | 13/13 (ALL) |
 | **Lines of Code** | ~2.8M LOC |
 | **QDP (Quality Debt Points)** | 0 (zero) |
@@ -366,7 +366,7 @@ Clean Run status is recorded in each application's Quality DNA file (`.claude/qu
 
 - **Pre-Commit Validation**: Enforcing zero warnings before any code enters the repository, preventing quality debt accumulation
 - **CI/CD Quality Gates**: Blocking merges that introduce warnings, Credo violations, or Dialyzer errors
-- **Platform Quality Scoring**: Contributing to the 100/100 quality score across 13 quality domains
+- **Platform Quality Scoring**: Contributing to the 22-pillar doctrine compliance across 13 quality domains
 - **Deployment Confidence**: Ensuring production releases are built from warning-free codebases
 - **Developer Discipline**: Maintaining a culture where warnings are treated as errors, keeping the signal-to-noise ratio at maximum
 - **Operational Clarity**: Ensuring production log output contains only genuine events warranting attention

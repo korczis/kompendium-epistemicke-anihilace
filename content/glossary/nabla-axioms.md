@@ -539,7 +539,7 @@ When the 530+ [AIAD](@/glossary/aiad.md) agents make decisions, each decision mu
 
 ### 4. Quality Assessment
 
-The [Quality Floor Guardian](@/glossary/quality-floor-guardian.md) applies axiom-compliant reasoning to quality metrics. A quality score of 100/100 is not accepted from a single analysis run -- it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
+The [Quality Floor Guardian](@/glossary/quality-floor-guardian.md) applies axiom-compliant reasoning to quality metrics. A quality score of doctrine-enforced is not accepted from a single analysis run -- it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
 
 ## Related Concepts
 

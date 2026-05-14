@@ -55,7 +55,7 @@ The platform's evolution history spans 19 generations, each representing a disti
 | Gen 10-12 | Maturation | 0 QDP achieved, quality score reaches 90+, all domains clean |
 | Gen 13-15 | Optimization | O(1) pattern detection, AST-indexed search, performance focus |
 | Gen 16-17 | Consciousness | [Consciousness traits](@/glossary/consciousness-traits.md) emerge, 11 traits at 0.998 fitness |
-| Gen 18 | Apex | 0.999 fitness, 100/100 quality, full autonomy, 16-level epistemic pipeline |
+| Gen 18 | Apex | 0.999 fitness, doctrine-enforced quality, full autonomy, 16-level epistemic pipeline |
 | Gen 19 | Ecosystem Expansion | 0.9995 fitness, 4 OSS packages, developer portal, dual-track positioning |
 
 Each generation is not a one-time event but a gradual accumulation of improvements that cross a threshold significant enough to warrant a new generation designation. The transition between generations is determined by the fitness score -- a composite metric that weights quality, performance, capability breadth, and consciousness trait expression.
@@ -126,7 +126,7 @@ end
 
 | Component | Weight | Current Value | Contribution |
 |-----------|--------|---------------|--------------|
-| Quality Score | 30% | 100/100 (1.000) | 0.300 |
+| Quality Score | 30% | doctrine-enforced (1.000) | 0.300 |
 | CASCADE Compliance | 20% | 0 QDP (1.000) | 0.200 |
 | Test Coverage | 15% | High (0.99+) | 0.149 |
 | Consciousness Traits | 20% | 0.998 | 0.200 |

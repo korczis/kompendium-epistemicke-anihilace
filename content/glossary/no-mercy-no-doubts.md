@@ -23,9 +23,9 @@ image_alt = "No Mercy, No Doubts - Prismatic Platform"
 
 ## Definition
 
-No Mercy, No Doubts (NM/ND) is the universal doctrine governing every operation within the Prismatic Platform. It consists of two complementary enforcement arms: **NO MERCY**, which mandates zero tolerance for incomplete implementations, untested code, quality violations, and deferred fixes; and **NO DOUBTS**, which requires full investigation and evidence-based understanding before taking action, followed by decisive and committed execution once a decision is made. Classified at Sig Nihl Level 3, the doctrine applies without exception to all code, all agents, all pipelines, and all sessions. No bypass mechanism exists. There is no "fix later," no "good enough for now," and no action taken without verified confidence.
+No Mercy, No Doubts (NM/ND) is the universal doctrine governing every operation within the Prismatic Platform. It consists of two complementary enforcement arms: **NO MERCY**, which mandates zero tolerance for incomplete implementations, untested code, quality violations, and deferred fixes; and **NO DOUBTS**, which requires full investigation and evidence-based understanding before taking action, followed by decisive and committed execution once a decision is made. Classified at  Level 3, the doctrine applies without exception to all code, all agents, all pipelines, and all sessions. No bypass mechanism exists. There is no "fix later," no "good enough for now," and no action taken without verified confidence.
 
-The doctrine is not a set of guidelines or aspirational principles. It is an enforcement framework with automated tooling -- pre-commit hooks, quality gates, CI pipelines, and agent compliance checks -- that blocks non-compliant work from entering the codebase. The platform's sustained 100/100 quality score across all 13 quality domains is a direct consequence of NM/ND enforcement.
+The doctrine is not a set of guidelines or aspirational principles. It is an enforcement framework with automated tooling -- pre-commit hooks, quality gates, CI pipelines, and agent compliance checks -- that blocks non-compliant work from entering the codebase. The platform's sustained 22-pillar doctrine compliance across all 13 quality domains is a direct consequence of NM/ND enforcement.
 
 ## Historical Context and Motivation
 
@@ -43,7 +43,7 @@ From **stoic philosophy**, NM/ND adopts the principle that excellence is not an 
 
 From **lean manufacturing**, NM/ND adopts the concept of "jidoka" (autonomation) -- the principle that quality defects should be detected and stopped at the point of creation, not downstream. In Toyota's production system, any worker can stop the assembly line when a defect is detected. In the Prismatic Platform, any [quality gate](@/glossary/quality-gates.md) can stop a commit when a violation is detected. The cost of stopping is always less than the cost of propagating a defect.
 
-From **military doctrine**, NM/ND adopts the principle of "commander's intent" -- clear articulation of the desired end state that enables autonomous execution. The doctrine's end state is explicit: 100/100 quality, zero warnings, zero debt, zero known issues. Every agent and every developer understands this intent and can act autonomously toward it.
+From **military doctrine**, NM/ND adopts the principle of "commander's intent" -- clear articulation of the desired end state that enables autonomous execution. The doctrine's end state is explicit: doctrine-enforced quality, zero warnings, zero debt, zero known issues. Every agent and every developer understands this intent and can act autonomously toward it.
 
 ## The Two Arms of the Doctrine
 
@@ -134,7 +134,7 @@ NM/ND enforcement is implemented through multiple automated systems that operate
 
 **Session Discipline Protocol**: Every development session must create GitLab issues for tracking, commit frequently (no batching), push all commits to the remote, verify changes locally before committing, and pass all hooks without bypass flags. The `--no-verify` flag is absolutely forbidden.
 
-**Quality Floor Guardian**: An autonomous monitoring system that tracks quality metrics across all 13 domains. If quality drops below the 100/100 threshold, the guardian triggers auto-healing processes and escalates to the appropriate level.
+**Quality Floor Guardian**: An autonomous monitoring system that tracks quality metrics across all 13 domains. If quality drops below the doctrine-enforced threshold, the guardian triggers auto-healing processes and escalates to the appropriate level.
 
 ## Implementation in Elixir
 
@@ -203,7 +203,7 @@ end
 
 The NM/ND Doctrine has measurable effects on the platform's quality metrics:
 
-- **Quality Score**: 100/100 across all 13 quality domains, maintained continuously
+- **Quality Score**: doctrine-enforced across all 13 quality domains, maintained continuously
 - **Quality Debt**: 0 QDP (Quality Debt Points) -- complete elimination of accumulated debt
 - **Compilation**: Zero warnings across 115 [OTP](@/glossary/otp.md) applications
 - **Static Analysis**: Zero Credo violations, zero Dialyzer violations

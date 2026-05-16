@@ -31,7 +31,7 @@ At its core, AIAD is an interface definition language (IDL) purpose-built for AI
 
 ### Specification Format
 
-Every AIAD definition is a Markdown file with a structured YAML frontmatter block and free-form documentation body. The file extension convention is `.agent.md` for agents, `.cmd.md` for commands, `.pipeline.md` for pipelines, `.policy.md` for policies, and `.adapter.md` for adapters.
+Every AIAD definition is a Markdown file with a structured YAML frontmatter block and free-form documentation body. The file extension convention is `.agent.md` for agents, `.md` for commands, `.pipeline.md` for pipelines, `.policy.md` for policies, and `.adapter.md` for adapters.
 
 The YAML frontmatter follows a strict schema:
 
@@ -93,7 +93,7 @@ AIAD governs five distinct component types within the platform:
 | Component | File Pattern | Purpose | Count |
 |-----------|-------------|---------|-------|
 | Agents | `*.agent.md` | Autonomous operational units | 404+ |
-| Commands | `*.cmd.md` | User-invocable operations | 210+ |
+| Commands | `*.md` | User-invocable operations | 210+ |
 | Pipelines | `*.pipeline.md` | Multi-step processing workflows | 40+ |
 | Policies | `*.policy.md` | Governance and enforcement rules | 25+ |
 | Adapters | `*.adapter.md` | Integration interfaces | 15+ |
@@ -122,7 +122,7 @@ The AIAD toolchain provides automated discovery and indexing:
 ./.aiad/bin/aiad index
 
 # Output: Scans .aiad/ directory tree
-# - Discovers all *.agent.md, *.cmd.md, *.pipeline.md, *.policy.md, *.adapter.md
+# - Discovers all *.agent.md, *.md, *.pipeline.md, *.policy.md, *.adapter.md
 # - Validates YAML frontmatter schema compliance
 # - Checks enforcement block presence
 # - Generates registry entries
@@ -141,8 +141,8 @@ The indexer produces a machine-readable registry consumed by the runtime agent s
     elixir-architect.agent.md
     ...
   commands/          # 210+ command definitions
-    orchestrate.cmd.md
-    investigate.cmd.md
+    orchestrate.md
+    investigate.md
     ...
   pipelines/         # Processing workflow definitions
     quality-gate.pipeline.md

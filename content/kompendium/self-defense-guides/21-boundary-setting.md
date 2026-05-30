@@ -66,6 +66,6 @@ Hranice někoho ztratí. Lidé, kteří profitovali z jejich absence, neradi př
 
 - [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
 - [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-reality.com/academy)
+- [Akademie Prismatic](https://prismatic-platform.com/academy)
 - [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
 - [Kontakt](mailto:[e-mail odstraněn])

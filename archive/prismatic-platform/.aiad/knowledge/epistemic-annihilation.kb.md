@@ -773,7 +773,7 @@ Located in `apps/prismatic/lib/prismatic/epistemic/self_deep/`:
 - **[L11 Existential Modalities](apps/prismatic/lib/prismatic/modalities/definitions/l11_existential.ex)** - Elixir implementation
 - **[Validation Chain Schema](apps/prismatic_web/lib/prismatic_web/schemas/validation_chain.ex)** - Consciousness level enum
 - **[Workflow Engine](apps/prismatic/lib/prismatic/agents/validation/workflow_engine.ex)** - Meta-analysis conditions
-- **[NABLA CLAUDE.md](apps/prismatic_nabla/CLAUDE.md)** - NABLA 14-level architecture overview
+- **[NABLA CLAUDE.md](../../CLAUDE.md)** - NABLA 14-level architecture overview
 
 ### Related Elixir Modules
 

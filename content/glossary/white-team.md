@@ -292,7 +292,7 @@ White Team proofs flow into Purple Team, where they are combined with Red Team f
 
 ### SPARKLINE Contract Verification
 
-White Team plays a critical role in verifying [SPARKLINE](@/glossary/sparkline.md) contracts. The contract validator ensures that all interface contracts between platform modules are satisfied, preventing integration failures and behavioral regressions. Contract verification is mandatory before SPARKLINE canonicalization.
+White Team plays a critical role in verifying SPARKLINE contracts. The contract validator ensures that all interface contracts between platform modules are satisfied, preventing integration failures and behavioral regressions. Contract verification is mandatory before SPARKLINE canonicalization.
 
 ### Trinity Gate Integration
 
@@ -332,7 +332,6 @@ All White Team output must pass the [Trinity Gate](@/glossary/trinity-gate.md) b
 - [Red Team](@/glossary/red-team.md) - Adversarial counterpart to White Team's constructive approach
 - [Blue Team](@/glossary/blue-team.md) - Defensive posture team complementing White Team verification
 - [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic axioms governing verification standards
-- [SPARKLINE](@/glossary/sparkline.md) - Contract system verified by White Team
 - [NM/ND Doctrine](@/glossary/nm-nd.md) - Doctrine requiring evidence-based verification
 - [Quality Gates](@/glossary/quality-gates.md) - Platform quality enforcement consuming White Team evidence
 

@@ -4,7 +4,7 @@ weight = 23
 [extra]
 description = "Constructive verification team for formal proofs and contract validation"
 category = "security"
-related_terms = ["color-teams", "trinity-gate", "nabla-infinity", "sparkline", "purple-team"]
+related_terms = ["color-teams", "trinity-gate", "nabla-infinity", "purple-team"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
 word_count = 1233

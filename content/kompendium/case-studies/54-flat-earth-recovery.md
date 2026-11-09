@@ -1,10 +1,12 @@
 +++
-title = "Pripad 54-flat-earth-recovery: Flat Earth recovery"
-description = "Anonymizovana pripadova studie — Flat Earth recovery. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 54: Zotavení z flat-earth komunity"
+description = "Anonymizovaná případová studie zámečníka, jemuž se po rozvodu stala online komunita zastánců ploché Země jedinou sociální sítí a identitou."
 weight = 54
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["52-pseudoscience-recovery", "53-anti-vaxx-recovery", "55-qanon-recovery", "56-incel-deep-recovery"]
 parent = "kompendium-case-studies"
@@ -12,79 +14,152 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 54-flat-earth-recovery: Zotaveni z flat-earth komunity
+# Případová studie 54: Zotavení z flat-earth komunity
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Jména, místa,
+> časové údaje a identifikující detaily jsou změněny. Text je určen kvalifikovaným odborníkům
+> a slouží k rozpoznání, prevenci a léčbě, nikoli jako návod.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 54-flat-earth-recovery) byl muz ve veku 28 let, pracovni profese (zamecnik), bez vyssiho vzdelani, ktery se postupne ponoril do flat-earth komunity pres YouTube. Před totalizací neměl explicitní zájem o vědu. Vstupní motivace: pocit, že "establishment" lže o všem, hledání alternativní pravdy.
+Muž, 28 let, vyučený zámečník, zručný a technicky nadaný, bez vyššího vzdělání. Krátce po
+rozvodu žil sám, s bývalými přáteli se vídal málo. O vědu se dříve nezajímal; z domova si
+nesl nedůvěru k „elitám“ a pocit, že „lidi jako on“ nikdo neposlouchá. Vstupní motivací bylo
+hledání pravdy, kterou „establishment“ zamlčuje, a také potřeba někam patřit.
 
-Rizikové faktory: deficit formalní vědecké výchovy, kombinace technické inteligence a slabé filozofie vědy, sociální izolace po rozvodu, a YouTube algoritmus posilující content, ekonomické zázemí pracovní třídy s nedůvěrou v "elity".
+Rizikové faktory: sociální izolace po rozvodu, mezery ve formálním přírodovědném vzdělání při
+dobré praktické inteligenci, zkušenost s přehlížením ze strany institucí, hodně volného času
+večer a doporučovací systém videoplatformy.
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
-|------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | YouTube videa "NASA hoaxes" |
-| **Perturbace** | mesice 4-12 | Plné flat-earth content, online komunity |
-| **Rekonfigurace** | roky 1-2 | Internalizace, evangelizace, ztráta neflat-earth přátel |
-| **Konsolidace** | roky 2-4 | Identita = flat-earther, izolace |
-| **Exit / detekce** | rok 4+ | Konfrontace s evidence, externi konfrontace |
+| Fáze | Trvání | Klíčové události |
+|------|--------|------------------|
+| Vstup | měsíce 1–3 | Videa o „podvrhnutých“ záběrech kosmických agentur |
+| Prohlubování | měsíce 4–12 | Celovečerní dokumenty, online konference, chatové komunity |
+| Přestavba světonázoru | roky 1–2 | Plochá Země jako klíč k „celému podvodu“, horlivé přesvědčování okolí |
+| Konsolidace | roky 2–4 | Komunita jako jediná síť přátel, ztráta většiny dřívějších kontaktů |
+| Krize a odchod | rok 4+ | Rozhovor s pilotem, obnovený kontakt s bratrem, učitelem fyziky |
 
-V inicialni fazi byl subjekt přitažen YouTube videi presentujícími "NASA hoaxes". Algoritmus posiloval expozici. Tato faze měla kvalitu intelektuálního dobrodružství.
+Vstupní fáze měla kvalitu dobrodružství: „konečně přemýšlím sám“. Komunita ho přijala vřele
+a oceňovala jeho praktické pokusy (vodováhy, dalekohledy, měření horizontu), které vypadaly
+jako empirie, ale byly navrženy tak, aby nemohly selhat. Každá kritika zvenku byla čtena jako
+„důkaz, že se establishment bojí“. Na sociálních sítích „evangelizoval“; přátelé, kteří ho
+odmítli, mu potvrdili, že „pravda bolí“. Práci si udržel, veškerý volný čas však věnoval
+„výzkumu“ a online debatám.
 
-V perturbacni fazi se prohlubovalo zapojení. Subjekt sledoval flat-earth conferences online, koupil si kompletní flat-earth literaturu, připojil se k Discord komunitám. Každá kritika byla ramcována jako "důkaz, že establishment se obává pravdy".
+## Projevené EA techniky
 
-Rekonfiguracni faze: kompletní flat-earth identita. Subjekt evangelizoval na sociálních sítích, ztratil přátele, kteří ho odmítli. Komunita flat-earth se stala primarní vrstevnickou skupinou.
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md)
+  – vědci, kosmické agentury a učitelé jako „placení lháři“; autorita vědění paušálně
+  znevěrohodněna.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – každý protidůkaz (fotografie, lety, satelitní navigace) se stal „součástí podvodu“.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  feed, který po několika týdnech nabízel téměř výhradně obsah komunity.
+- [EA-1.2.3 Iluzorní komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) –
+  složité pseudovysvětlení (mapové projekce, „perspektiva“, „refrakce“) působící odborně.
+- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) – komunita
+  jako náhradní recenze, která oceňuje loajalitu.
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  několik populárních tvůrců, jejichž výklad byl brán jako závazný.
+- [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
+  – „jen my vidíme pravdu, ostatní jsou ovce“.
 
-Konsolidacni faze: identita se redukovala na flat-earth. Práce zustala, ale veškerý volný čas byl věnován "výzkumu" a online debatam.
+## Fenomenologický průběh
 
-Exit byl iniciovan setkáním s pilotem, který trpělivě vysvětloval praktickou navigaci. Toto setkání spolu s návratem k bratrovi (učiteli fyziky) iniciovalo postupnou rekonstrukci.
+„Když mi pilot ukazoval, jak se plánuje let přes oceán a proč to na ploché mapě nevychází,
+viděl jsem to. Roky jsem to popíral, ale viděl jsem to. A pak mi došlo, že jsem byl v bublině,
+kde jsem viděl jen to jedno. Že ta platforma se mě nesnažila poznat, ale udržet. Že já jsem
+byl zboží.“
 
-## EA techniky manifestovane
+Jde o obnovu [metakognice](@/glossary/metakognice.md) po období
+[metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md): klient poprvé nahlédl
+nejen obsah, ale i prostředí, které jeho přesvědčení utvářelo
+([epistemic bubble](@/glossary/epistemic-bubble.md)). Bolestnější než změna názoru byla
+ztráta komunity: „Byli to jediní lidi, co mi psali, jak se mám.“ Identita postavená na
+přesvědčení se po jeho opuštění na několik měsíců vyprázdnila.
 
-- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — útoky na vědeckou autoritu (NASA, vláda)
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kazda evidence = "součást konspirace"
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — YouTube algoritmus
-- [EA-1.2.3 Iluzorni komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) — pseudo-vědecké vysvětlení (azimuthální projekce, etc.)
-- [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — flat-earth komunity jako pseudo-recenzent
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — flat-earth influenceři
-- [EA-5.1.18 Solipsisticka dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — "jen my vidíme pravdu"
+## Detekční bod
 
-## Fenomenologicky kurz
+Viditelné byly [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md),
+rychlé [prohlubování izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
+a postupná [sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)
+slov jako „důkaz“ či „měření“. Zlom nepřinesla debata, ale zkušenost: náhodné setkání
+s pilotem v práci, který měl trpělivost a vysvětloval prakticky. Následně se klient sám
+ozval bratrovi, s nímž roky nemluvil.
 
-V terapii subjekt popisoval: "Když mi pilot ukazoval, jak GPS funguje na sférickém modelu, viděl jsem to. Roky jsem to popíral, ale viděl jsem to. A pak jsem si uvědomil, že jsem byl v bublině, kde jsem viděl jen flat-earth content. Že YouTube se mě nepokouší poznat, ale prodat mi něco. A že já jsem byl tomu trhu."
+## Diferenciální diagnostika
 
-Tato narace odpovida [metakognitivni destrukci](@/glossary/metakognitivni-destrukce.md) a následujícímu obnovení.
+- **Zvídavost a zábava.** Mnoho lidí sleduje podobný obsah ironicky nebo ze zvědavosti;
+  rozhodující je, zda přesvědčení řídí vztahy, čas a identitu.
+- **Bludná porucha nebo prodromy psychózy.** Přesvědčení bylo sdílené komunitou,
+  ohraničené tématem a klient zachovával testování reality v práci a běžném životě
+  ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+- **Deprese po rozvodu.** Byla pravděpodobně přítomna a zvyšovala potřebu přináležitosti;
+  vyžadovala samostatné posouzení.
+- **Sociální úzkost či rysy autistického spektra.** Zvažovány kvůli izolaci a intenzivnímu
+  zájmu; vyšetření je nepotvrdilo, ale u podobných klientů je třeba je vyloučit, aby se
+  neurovývojová odlišnost nezaměnila za ideologii nebo naopak.
 
-## Detekcni bod
+## Intervenční strategie
 
-Setkání s pilotem a bratrem-fyzikem. Klicovy moment: trpělivý ne-konfrontační rozhovor založený na praktické zkušenosti.
+Léčba proběhla v pěti fázích. Terapeutické jádro tvořil [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) se stupni S1 validace a
+mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
+konsolidace a transfer; fáze níže ukazují, jak byl zasazen do celého plánu:
 
-## Intervencni strategie
+- **Fáze 1 – Stabilizace:** bratr nabídl klientovi bydlení na několik týdnů; dohoda o omezení
+  večerního sledování a o tom, co dělat, když přijde nutkání „vrátit se do skupiny“
+  ([detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)).
+- **Fáze 2 – Externí kotva:** bratr jako trpělivý průvodce, ne arbitr; pilot jako příležitostný
+  partner pro otázky. Kontakt s dalšími lidmi, kteří komunitu opustili.
+- **Fáze 3 – Rekonstrukce metody:** praktické pokusy, které **mohou** selhat – měření stínů na
+  dvou místech, pozorování lodí na horizontu dalekohledem, čtení navigačních dat. Klient
+  předem formuloval, co by jeho názor vyvrátilo ([falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)).
+- **Fáze 4 – Sociální rehabilitace:** obnova několika přátelství, zapojení do amatérského
+  astronomického kroužku, kde jeho manuální zručnost (stavba montáží dalekohledů) měla
+  hodnotu.
+- **Fáze 5 – Integrace:** práce s pocitem, že „ho nikdo neposlouchá“, který byl skutečným
+  jádrem; hledání legitimních míst, kde může mít hlas.
 
-**S1 - Stabilizace:** Návrat k rodině, omezení online expozice.
-**S2 - Externi epistemicka kotva:** Bratr-fyzik jako trpělivý mentor, kontakt s bývalými flat-earthery.
-**S3 - Epistemicka rekonstrukce:** Práce na vědecké metodologii pres praktické experimenty.
-**S4 - Sociální rehabilitace:** Restituce přátelství.
-**S5 - Integrace:** Subjekt se stal obhájcem vědecké gramotnosti v dělnické komunitě.
+## Výsledek
 
-## Vysledek
+Po 12 měsících funkční stabilizace. Obnovil vztah s bratrem a několik přátelství, z komunity
+odešel úplně. Reziduálně: stud za veřejné „evangelizování“, jehož stopy na internetu zůstaly,
+a období prázdnoty, kdy mu chyběl pocit výjimečnosti. Krátkodobý návrat k podobnému obsahu
+v období osamělosti se objevil jednou a byl zvládnut podle plánu prevence relapsu.
 
-Po 12 měsících funkční stabilizace. Restituce přátelství, postupná oprava sociálních sítí. Reziduální: studá za roky propagace flat-earth.
+## Klinické poučení
 
-## Klinicke pouceni
+- Pod obsahem bývá sociální potřeba: přináležitost, uznání, pocit, že na mně záleží. Bez
+  náhrady těchto zdrojů je změna názoru nestabilní.
+- Praktická zkušenost a vlastní pokus fungují lépe než abstraktní argument; klient musí
+  být spoluautorem testu.
+- Platformní prostředí není neutrální; součástí terapie je porozumění tomu, jak feed
+  vybírá obsah.
+- Otevřená otázka: jak pracovat s digitální stopou vlastního minulého přesvědčení, která
+  nelze smazat.
 
-Flat-earth recovery ukazuje koerci v digitálních platformách. Klinik musí pracovat skrze praktickou zkušenost, ne abstraktní argumenty. Trpělivost a empatie jsou klíčové. Reformně: vědecká gramotnost a kritická mediální výchova.
+## Související
 
-## Cross-linky
+### Techniky
+- [EA-5.1.18 Solipsistická dekompozice](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md) — „jen my vidíme pravdu“
+- [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md) — mechanismus feedu
+- [EA-2.1.3 Credentialing attack](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md) — znevěrohodnění vědecké autority
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-- **Glossary**: [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md), [epistemic-bubble](@/glossary/epistemic-bubble.md)
-- **Techniques**: [EA-2.1.3](@/kompendium/techniques/ea-2-1-3-credentialing-attack.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-1.1.1](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), [EA-5.1.18](@/kompendium/techniques/ea-5-1-18-solipsisticka-dekompozice.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+### Glosář
+- [Epistemic bubble](@/glossary/epistemic-bubble.md) — uzavřené prostředí zdrojů
+- [Sociální izolace](@/glossary/socialni-izolace.md) — vstupní i udržující faktor
+- [Reality testing](@/glossary/reality-testing.md) — zachované testování reality jako diferenciální znak
+
+### Protokoly a obrana
+- [Obnova sociální sítě](@/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md) — náhrada ztracené komunity
+- [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) — prevence
+
+### Sousední případy
+- [Případ 52: Zotavení z pseudovědeckého prostředí](@/kompendium/case-studies/52-pseudoscience-recovery.md) — popírání vědy u technicky vzdělaného člověka
+- [Případ 22: Online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) — platformní dynamika vstupu
 
 ---
 

@@ -1,10 +1,12 @@
 +++
-title = "Pripad 79-discord-server-cult: Discord server cult"
-description = "Anonymizovana pripadova studie — Discord server cult. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 79: Kult discordového serveru"
+description = "Anonymizovaný kompozit: patnáctiletá členka fanouškovského serveru se přes „vent“ kanály, role a čistky dostala pod kontrolu dospělého majitele serveru."
 weight = 79
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["77-twitch-streamer-cult", "78-forum-cult", "80-subreddit-cult", "76-youtuber-cult"]
 parent = "kompendium-case-studies"
@@ -12,56 +14,167 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 79-discord-server-cult: Discord server cult
+# Případová studie 79: Kult discordového serveru
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Subjekt byl
+> nezletilý; věk, fandom, názvy kanálů i chronologie byly změněny a vynechány jsou všechny
+> detaily, které by mohly vést k identifikaci. Text je určen odborníkům na ochranu dětí,
+> klinikům a pedagogům k rozpoznání a obraně.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 79-discord-server-cult) byl vystaven systematickemu vzorci EA pres rozsahly casovy interval. Demograficke detaily, profesni rola a kontext byly zachovany strukturalni — konkretni identifikatory odstranene.
+Subjektem je patnáctiletá žákyně devátého ročníku, výtvarně nadaná, s úzkostnými rysy a
+zkušeností se šikanou na předchozí škole. Rodiče jsou rozvedení, subjekt žije s matkou, která
+pracuje dlouho do večera. Přes fanouškovské kresby k animovanému seriálu se dostala na
+discordový server s několika sty členy, kde se sdílela tvorba a „lore“ postav.
 
-## Casova osa expozice
+Server založil a vedl uživatel, kterého členové považovali za studenta vysoké školy, s
+okruhem moderátorů ve věku 16–19 let. Server měl ověřovací bránu, systém barevných rolí,
+„vent“ kanály pro sdílení trápení a soukromé kanály pro užší okruh. Subjekt dříve neměla
+psychiatrickou péči; školní psycholožka ji znala z intervence po šikaně.
 
-| Faze | Trvani | Klicove udalosti |
-|------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Etablovani duveryhodne role, budovani zavislosti |
-| **Perturbace** | mesice 4-12 | Introdukce epistemickych disonanci, destabilizace |
-| **Rekonfigurace** | mesice 13-24 | Akceptace alternativniho ramce, "prulom" |
-| **Konsolidace** | roky 2-5 | Internalizace, defenzivni rigidita |
-| **Exit / detekce** | rok 5+ | Externi konfrontace, postupna rekonstrukce |
+## Časová osa expozice
 
-## EA techniky manifestovane
+| Fáze | Trvání | Klíčové události |
+|------|--------|------------------|
+| **Přijetí** | měsíce 1–2 | nadšené reakce na kresby, vlastní role „umělkyně“, první soukromé zprávy od majitele |
+| **Důvěrnost** | měsíce 3–6 | sdílení trápení ve vent kanálu, majitel jako „starší bratr“, tajemství před matkou |
+| **Vnitřní kruh** | měsíce 7–11 | přístup do uzavřeného kanálu, noční hovory, povinnost hlásit „zrádce“ |
+| **Čistky** | měsíce 12–14 | hromadné vyloučení skupiny členů, přesun na „záložní server“, výhrůžky snímky |
+| **Krize** | měsíc 15 | sebepoškozování po vyloučení kamarádky, odhalení matkou, zapojení školy |
 
-V tomto pripadu byly identifikovany nasledujici EA kody (ilustrativni — konkretni map se lisi dle kontextu):
+## Projevené EA techniky
 
-- [EA-1.1.1 Selektivni expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — kontrolovany pristup k informacim
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — emocionalni kondicionovani
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — strukturalni obrana proti revizi
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — asymetricky epistemicky vztah
+- [Love bombing](@/glossary/love-bombing.md) při vstupu – lavina pozornosti k tvorbě dívky, která
+  ve škole slýchala jen posměch; role „umělkyně“ jako okamžitý status.
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) v
+  podobě „staršího sourozence“ – majitel se nabízel jako jediný, kdo „rozumí“, a vymezoval
+  se vůči rodičům a učitelům.
+- [EA-2.2.2 Mentee Isolation](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) –
+  požadavek mlčenlivosti („rodiče by to nepochopili, zakázali by ti nás“) a zpochybňování
+  kamarádek mimo server.
+- Kult zpovědi (Lifton) – vent kanály sbíraly důvěrné informace o sebepoškozování, rodině,
+  sexualitě. Ty se později staly pákou: majitel připomínal, že „má snímky“. Strukturálně jde o
+  přípravu [epistemického doxxingu](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md).
+- [EA-9.3.6 Content Moderation Bias](@/kompendium/techniques/ea-9-3-6-content-moderation-bias.md)
+  – role a bany jako nástroj loajality; kdo zpochybnil majitele, ztratil barvu role a do
+  týdne i přístup.
+- [Dvojný závazek](@/glossary/double-bind.md) – „můžeš kdykoli odejít“ zároveň s líčením toho,
+  co odchod znamená („všichni, kdo odešli, skončili sami“).
 
-## Fenomenologicky kurz
+Struktura vykazuje znaky typické pro [child grooming](@/glossary/child-grooming.md), které
+vyžadují bezpečnostní posouzení: věkový rozdíl, utajování před rodiči, sběr intimních informací
+a postupné stupňování osobní blízkosti. V tomto kompozitu nebylo prokázáno sexuální zneužití,
+posouzení ale bylo nezbytné.
 
-Subjekt prochazel typickymi fenomenologickymi znaky [epistemicke alienace](@/glossary/epistemicka-alienace.md) a v pokrocilych fazich [metakognitivni destrukce](@/glossary/metakognitivni-destrukce.md).
+## Fenomenologický průběh
 
-## Detekcni bod
+Subjekt popisovala první týdny jako „poprvé, kdy mě někdo bral vážně“. Server byl prostor, kde
+nebyla „ta divná z třídy“. Ve vent kanálu sdílela věci, které nikdy neřekla matce, a dostávala
+okamžité porozumění. Hranice mezi bezpečím a závislostí se rozplývala.
 
-Externi konfrontace s alternativnimi epistemickymi zdroji (rodina, kvalifikovany profesional mimo kontext) iniciovala pochybnost a postupne otevreni interventnimu procesu.
+Vstup do vnitřního kruhu přinesl povinnosti: být online večer, kdy majitel „potřeboval
+mluvit“, hlídat, kdo o něm píše jinde. Spánek se posunul do časných ranních hodin. Subjekt
+popisovala trvalý stav pohotovosti: „Když telefon zavibroval, srdce mi skočilo.“ Tento stav
+odpovídá hypervigilanci popisované u [trauma bondingu](@/glossary/trauma-bonding.md).
 
-## Intervencni strategie
+Čistky změnily server v místo strachu. Po vyloučení skupiny členů, mezi nimiž byla její
+nejbližší kamarádka, dostala subjekt výběr: veřejně se od kamarádky distancovat, nebo
+„ukázat, na čí straně stojí“, jinak se „vent snímky dostanou ven“. Subjekt se distancovala a
+týž večer se poprvé po roce sebepoškodila. Vina a stud vůči kamarádce se staly jádrem krize.
 
-Aplikovan [protokol epistemicke rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) v 5 stadiich (S1-S5) s adaptacemi pro specificky kontext.
+## Detekční bod
 
-## Vysledek
+Matka objevila čerstvá zranění a otevřela s dcerou rozhovor, v němž dívka nejprve vše
+popřela. Teprve druhý den, po klidném a nehodnotícím rozhovoru, ukázala matce telefon.
+Matka nesmazala server ani nezabavila zařízení, ale pořídila snímky a druhý den kontaktovala
+školní psycholožku a dětského psychiatra.
 
-Castecna az plna rekonstrukce po 12-36 mesicich strukturovane terapie s [trauma-focused pristupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md). Reziduálni deficity v oblastech specifickych pro kontext — viz [trajektorie zotaveni](@/kompendium/visualizations/_index.md) pro vizualni prehled.
+Pozdě rozpoznané markery: [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
+od rodiny a kamarádek, [časová dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)
+z nočního režimu a [asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md):
+dívka o sobě sdílela vše, o majiteli nevěděla ani skutečné jméno.
 
-## Cross-linky
+## Diferenciální diagnostika
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Diferencialni diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [betrayal-trauma](@/glossary/betrayal-trauma.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [gaslighting](@/glossary/gaslighting.md)
-- **Sekce 03**: [Scenar F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [Scenar G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [Scenar H](@/kompendium/03-zakladni-kategorie/scenar-h.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+- **Běžná online přátelství dospívajících.** Většina fanouškovských serverů je bezpečná a
+  smysluplná. Varovné je utajování před rodiči na žádost dospělého, sběr intimních informací
+  a trestání nesouhlasu.
+- **Vrstevnický konflikt.** Spory a vylučování mezi dospívajícími se dějí i bez kontroly
+  shora. Rozlišuje centrální autorita, která konflikty řídí, a hrozba zveřejněním důvěrností.
+- **Depresivní a úzkostná porucha.** Příznaky deprese a úzkosti byly přítomny a vyžadovaly
+  vlastní léčbu; nedají se ale vysvětlit bez kontextu serveru, protože se zhoršovaly v
+  souladu s jeho dynamikou.
+- **Sebepoškozování jako samostatný problém.** Sebepoškozování bylo hodnoceno podle
+  standardního postupu pro hodnocení rizika ([akutní self-harm](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md))
+  bez ohledu na to, co ho spustilo.
+- **Sexuální zneužívání.** Je nutné ho aktivně vyloučit, nikoli předpokládat ani přehlížet;
+  forenzní rozhovor vedl specializovaný pracovník.
+
+## Intervenční strategie
+
+Bezpečnost měla přednost před rekonstrukcí. Postupovalo se podle
+[protokolu pro adolescenty v akutní krizi](@/kompendium/emergency-protocols/22-adolescent-emergency-EA.md),
+posouzení [povinnosti oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md)
+a s orgánem sociálně-právní ochrany dětí. Snímky byly zajištěny podle zásad
+[uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md) dříve, než server
+zmizel. Následovaly stupně [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+přizpůsobené věku ([rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md)):
+
+- **S1 – Validace a mapování.** Ujištění, že za situaci nenese vinu, a že únik snímků je
+  problém toho, kdo vyhrožuje, ne její. Plán bezpečí pro noc a pro chvíle, kdy ji láká se
+  vrátit.
+- **S2 – Externalizace introjektů.** Pojmenování vět majitele, které si opakovala („nikdo jiný
+  ti nerozumí“), a jejich odlišení od vlastního hlasu.
+- **S3 – Rekonstrukce metakognice.** Krátké a konkrétní: jak poznat, kdy online vztah
+  vyžaduje tajemství, a proč je tajemství na žádost dospělého varovným signálem.
+- **S4 – Hermeneutická obnova.** Práce s vinou vůči kamarádce, podpořená setkáním obou dívek
+  za přítomnosti psycholožky.
+- **S5 – Konsolidace a transfer.** Výtvarný kroužek a bezpečný online prostor s viditelnou
+  moderací; matka s dcerou dohodly pravidla, ne zákaz.
+
+## Výsledek
+
+Po roce subjekt nesebepoškozuje, dochází k terapeutce a do výtvarného kroužku. Kamarádství
+se podařilo obnovit. Server byl po nahlášení platformě zrušen; vyšetřování identity majitele
+zůstalo podle dostupných informací neuzavřené. Reziduálně přetrvává úzkost při vibraci
+telefonu a strach, že se „vent snímky“ někde objeví. Ten se zmírňuje, ale nezmizel.
+
+## Klinické poučení
+
+- Vent kanály mohou podporovat, ale v uzavřené hierarchii s dospělým v centru se mění v
+  archiv páky. Otázka „kdo má přístup k tomu, co jsi tam napsala?“ patří do anamnézy.
+- Klidná reakce rodiče rozhoduje o tom, zda dítě ukáže telefon. Zabavení zařízení a smazání
+  účtu mohou zničit důkazy i důvěru.
+- Kontrola u nezletilých musí vést k posouzení ochrany dítěte, i když sexuální zneužití není
+  zjevné ([ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md)).
+- Otevřená otázka: jak učit dospívající rozpoznat rozdíl mezi bezpečným sdílením a sběrem
+  důvěrností, aniž by se jim vzala chuť vyhledat pomoc?
+
+## Související
+
+### Techniky
+
+- [EA-2.2.2 Mentee Isolation](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – tajemství před rodiči
+- [EA-2.3.8 Doxxing Epistemický](@/kompendium/techniques/ea-2-3-8-doxxing-epistemicky.md) – hrozba zveřejnění důvěrností
+- [EA-9.3.6 Content Moderation Bias](@/kompendium/techniques/ea-9-3-6-content-moderation-bias.md) – role a bany jako loajalita
+
+### Glosář
+
+- [Child grooming](@/glossary/child-grooming.md) – markery vyžadující posouzení bezpečnosti
+- [Trauma bonding](@/glossary/trauma-bonding.md) – hypervigilance a vazba na zdroj strachu
+- [Double bind](@/glossary/double-bind.md) – „můžeš odejít“ spolu s hrozbou
+
+### Protokoly a obrana
+
+- [Adolescent v EA-emergency](@/kompendium/emergency-protocols/22-adolescent-emergency-EA.md) – bezpečnost na prvním místě
+- [Povinné oznámení](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) – kdy a komu
+- [Rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md) – vývojově citlivá rekonstrukce
+
+### Sousední případy
+
+- [Případ 77: Kult streamera na Twitchi](@/kompendium/case-studies/77-twitch-streamer-cult.md) – moderátorská služba a loajalita
+- [Případ 78: Kult internetového fóra](@/kompendium/case-studies/78-forum-cult.md) – veřejné vylučování a spisy
 
 ---
 

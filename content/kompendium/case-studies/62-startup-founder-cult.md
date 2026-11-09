@@ -1,10 +1,12 @@
 +++
-title = "Pripad 62-startup-founder-cult: Startup founder kult"
-description = "Anonymizovana pripadova studie — Startup founder kult. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 62: Kult zakladatele startupu"
+description = "Softwarový inženýr pět let ve startupu s uctívaným zakladatelem; vyhoření maskované „vášní“ a existenciální krize po úspěšném vstupu firmy na burzu."
 weight = 62
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["60-mass-formation-psychosis", "61-corporate-leadership-cult", "63-investor-cult", "64-ngo-cult"]
 parent = "kompendium-case-studies"
@@ -12,79 +14,177 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 62-startup-founder-cult: Startup founder kult v unicorn firme
+# Případová studie 62: Kult zakladatele startupu
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturně podobných případů; firma, osoby,
+> částky a časové údaje byly změněny. Text je určen kvalifikovaným odborníkům a slouží
+> k rozpoznání vzorce, prevenci a léčbě, nikoli k hodnocení konkrétních firem.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 62-startup-founder-cult) byl muz ve veku 31 let, software engineer prvních 50 zaměstnanců "unicorn" startupu (valuace > 1 miliarda USD). Před totalizací vykazoval výborné technické dovednosti, idealistickou angažovanost, a stabilní rodinu. Vstupní motivace: identifikace s firemní misií, stock options.
+Muž, 31 let, softwarový inženýr, jeden z prvních padesáti zaměstnanců startupu, který během
+jeho působení dosáhl ocenění přes miliardu dolarů („jednorožec“). Technicky výborný,
+idealistický, v dlouhodobém partnerském vztahu, s blízkým vztahem k rodičům. Vstupní motivací
+byla identifikace s posláním firmy („měníme svět“) a zaměstnanecké opce.
 
-Rizikové faktory: charismatický founder, silná firemní kultura ("crush it", "10x"), kombinace finančních incentiv a ideologie, dlouhé pracovní hodiny normalizovány, a izolace od mimo-firemního světa.
+Zakladatel byl vnímán jako vizionář. Firemní kultura stála na heslech „crush it“, „10x“
+a „moonshot“; dlouhé pracovní hodiny byly normou a znakem příslušnosti.
 
-## Casova osa expozice
+Rizikové faktory: charismatický zakladatel s neomezenou kontrolou nad firmou, spojení finanční
+motivace (opce, jejichž hodnota závisí na setrvání) s ideologií, normalizace extrémní pracovní
+zátěže a postupné splynutí soukromého a pracovního života (jídlo, sport i přátelství ve firmě).
 
-| Faze | Trvani | Klicove udalosti |
-|------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-3 | Onboarding, "ty jsi věřící v misi", love-bombing |
-| **Perturbace** | mesice 4-12 | 80+hodinové týdny, founder worship, vyhoření |
-| **Rekonfigurace** | roky 1-3 | Plné podlehnutí, ztráta identity mimo firmu |
-| **Konsolidace** | roky 3-5 | Burnout maskovaný "passion", panicke ataky |
-| **Exit / detekce** | rok 5+ | Akutní krize, IPO, externi konfrontace |
+## Časová osa expozice
 
-V inicialni fazi byl subjekt onboardován do firmy s love-bombingem zaměřeným na "true believers". Pre-IPO stock options byly motivaci.
+| Fáze | Trvání | Klíčové události |
+|------|--------|------------------|
+| **Iniciální kontakt** | měsíce 1–3 | Nástup, intenzivní uvítání „věřících v misi“, pocit výjimečnosti |
+| **Perturbace** | měsíce 4–12 | Pracovní týdny přes 80 hodin, uctívání zakladatele, nesouhlas jako „not a fit“ |
+| **Rekonfigurace** | roky 1–3 | Identita mimo firmu mizí, konec partnerského vztahu |
+| **Konsolidace** | roky 3–5 | Vyčerpání vydávané za „vášeň“, panické ataky, vysoký vnější úspěch |
+| **Exit / detekce** | rok 5 | Vstup firmy na burzu, finanční zajištění, existenciální kolaps, hospitalizace |
 
-V perturbacni fazi se vyvinula intenzivní pracovní kultura. Founder byl uctíván jako vizionář. 80+hodinové týdny byly normou. Disent = "ne fit".
+V iniciální fázi byl subjekt přijat s nadšením, které připomínalo [love bombing](@/glossary/love-bombing.md):
+zakladatel osobně oceňoval jeho práci, tým ho bral jako „jednoho z nás“. Opce dávaly odchodu
+konkrétní cenu.
 
-Rekonfiguracni faze: subjekt internalizoval firemní rétoriku jako vlastní identitu. "We're changing the world." Romantický vztah skoncen.
+V perturbační fázi se z intenzity stala norma. Zakladatel byl citován na poradách jako autorita
+i v otázkách mimo byznys. Kdo odcházel před půlnocí nebo zpochybňoval termíny, „nebyl fit“.
+Odchody kolegů se nekomentovaly; jejich jména zmizela z komunikace.
 
-Konsolidacni faze: vyhoření maskované "passion". Panicke ataky. Profesní úspěch externe vysoký.
+V rekonfigurační fázi subjekt přijal firemní rétoriku jako vlastní identitu. Partnerka vztah
+ukončila („žiju s tvým notebookem“); subjekt to vyložil jako důkaz, že „nesdílela vizi“.
 
-Exit byl iniciovan IPO úspěchem (subjekt vydělal několik milionů USD), ktery paradoxně způsobil akutní existencialní krizi — "co teď, když mám peníze?". Hospitalizace pro depresi byla zlomová.
+V konsolidační fázi se objevily panické ataky, nespavost a ztráta zájmu o cokoli mimo práci.
+Vnější úspěch byl přitom vysoký: povýšení, uznání, rostoucí hodnota opcí.
 
-## EA techniky manifestovane
+Exit paradoxně spustil úspěch. Po vstupu firmy na burzu a uplynutí blokační lhůty subjekt
+získal jmění v řádu milionů dolarů. Krize přišla v okamžiku, kdy cíl, kvůli kterému pět let
+„nespal“, zmizel: „Co teď, když už mám ty peníze?“ Následovala těžká depresivní epizoda
+a hospitalizace.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — founder jako vizionár
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "10x", "crush it", "moonshot"
-- [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z "ne fit"
-- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — kritika = "negative attitude"
-- [EA-5.1.10 Temporalni dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) — startup time vs. normal time
-- [EA-1.2.1 Falesne dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — "all in or out"
-- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — identita = startup
+## Projevené EA techniky
 
-## Fenomenologicky kurz
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  zakladatel jako vizionář, jehož úsudek je nadřazen odbornosti týmu.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – „10x“, „crush it“, „moonshot“: slova, která proměňují přetížení v ctnost.
+- [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)
+  – strach z „not a fit“ a z toho, že odchod znamená zradu týmu.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – kritika je „negative attitude“; selhání produktu je „učení“, nikoli doklad o chybné strategii.
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  – „startupový čas“: každé čtvrtletí jako boj o přežití, budoucnost i minulost mimo firmu
+  přestávají existovat.
+- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – „all in, nebo
+  out“; zdravé hranice jsou vykládány jako nedostatek oddanosti.
+- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) –
+  identita je totožná se startupem; po jeho „úspěchu“ nezbývá nic.
 
-V terapii subjekt popisoval: "Po IPO jsem měl peníze, kvůli kterým jsem pět let nespal. A byl jsem prázdný. Sedl jsem si v luxusním bytě a uvědomil jsem si, že nemám žádné koníčky, žádné přátele mimo firmu, ne jsem schopen romantické vztahu. Vyměnil jsem identitu za stock options."
+## Fenomenologický průběh
 
-Tato narace odpovida [identitni dezintegraci](@/glossary/epistemicka-alienace.md).
+Subjekt popisoval pět let jako jednu nepřerušenou směnu, ve které se dny odlišovaly jen čísly
+sprintů. Únava byla důkazem nasazení, úzkost „palivem“. [Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)
+bylo tak trvalé, že přestal vnímat, že jde o tlak.
 
-## Detekcni bod
+„Po vstupu na burzu jsem měl peníze, kvůli kterým jsem pět let nespal. A byl jsem prázdný.
+Sedl jsem si v novém bytě a uvědomil si, že nemám koníčky, nemám přátele mimo firmu a nevím, jak
+se chodí na rande. Vyměnil jsem identitu za opce.“
 
-Post-IPO existencialni krize. Klicovy moment: terapeut identifikoval startup cult dynamiku.
+Odpovídá to [epistemické alienaci](@/glossary/epistemicka-alienace.md) a rozpadu [narativní
+identity](@/glossary/narativni-identita.md): životní příběh měl jen jednu kapitolu, a ta skončila.
 
-## Intervencni strategie
+## Detekční bod
 
-**S1 - Stabilizace:** Sick leave, redukce expozice firmě.
-**S2 - Externi epistemicka kotva:** Group therapy pro startup burnout survivors, kontakt s rodinou.
-**S3 - Identitni rekonstrukce:** Restituce mimo-firemní identity, hodnotová mapování.
-**S4 - Profesni rekontextualizace:** Změna do menší firmy s zdravými hranicemi nebo sabbatical.
-**S5 - Integrace:** Subjekt se stal advokátem zdravé práce v tech komunitě.
+Okolí si změn všímalo (rodiče, bývalá partnerka), ale vysoký příjem a status je činily
+nevěrohodnými – „vždyť se mu daří“. Detekční bod nastal až při hospitalizaci, kdy psychiatr
+rozpoznal, že depresivní epizoda nemá jen biologický a situační rozměr, ale že subjekt nemá
+k dispozici žádný rámec smyslu mimo firmu. Retrospektivně byly patrné [fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md)
+a [temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md).
 
-## Vysledek
+## Diferenciální diagnostika
 
-Po 24 měsících terapie funkční stabilizace. Restituce vztahů, navrat k práci v rozumných hranicích. Reziduální: opatrnost vůči "10x" rétorice.
+- **Legitimní startupová intenzita.** Rané fáze firem bývají náročné a mnoho lidí je volí
+  vědomě. Rozlišující je, zda je intenzita časově ohraničená a dobrovolná, zda lze nesouhlasit
+  se zakladatelem bez sociální exkomunikace a zda odchod není interpretován jako zrada.
+- **Syndrom vyhoření.** Vyčerpání odpovídalo vyhoření (MKN-11, QD85, fenomén spojený se
+  zaměstnáním, nikoli nemoc), to však nevysvětluje ideologickou fúzi identity s firmou.
+- **Depresivní epizoda.** Přítomna a vyžadovala léčbu; obsah krize (ztráta smyslu po dosažení
+  cíle) ukazuje na předchozí ztrátu identity, nikoli jen na náhlou změnu situace.
+- **Panická porucha.** Panické ataky je třeba vyšetřit samostatně; zde byly vázané na pracovní
+  zátěž a po stabilizaci odezněly.
+- **Porucha přizpůsobení po náhlé změně životní situace.** Náhlé zbohatnutí je stresor samo
+  o sobě; rozlišení spočívá v tom, že subjekt neztratil jen strukturu dne, ale celý rámec hodnot.
 
-## Klinicke pouceni
+## Intervenční strategie
 
-Startup founder cult ukazuje, jak finanční motivace a ideologie se mohou kombinovat. Klinik musí rozeznat, že "passion" může maskovat koerci. Reformně: tech komunita potřebuje normalizovat zdravé pracovní praktiky.
+Stabilizace: léčba depresivní epizody, pracovní neschopnost, odstup od firemní komunikace
+a [akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+s rodiči a starými přáteli. Poté [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md):
 
-## Cross-linky
+- **S1 – Validace a mapování:** uznání, že práce měla skutečnou hodnotu a nadšení bylo
+  autentické; mapa míst, kde se vize změnila v kontrolu.
+- **S2 – Externalizace introjektů:** zachycení vět typu „odpočinek je pro ty, kdo to nemyslí
+  vážně“ a jejich připsání firemní kultuře.
+- **S3 – Rekonstrukce metakognice:** obnova vnímání času a únavy; [řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
+- **S4 – Hermeneutická obnova:** hledání hodnot a zájmů, které existovaly před firmou
+  (hudba, sport), a mapování, co pro subjekt znamená smysluplná práce.
+- **S5 – Konsolidace a transfer:** delší sabatikl, poté návrat do menší firmy s jasnými
+  hranicemi; skupina pro lidi po vyčerpání v technologickém sektoru.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [iatrogenic-harm](@/glossary/iatrogenic-harm.md)
-- **Techniques**: [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-1.3.1](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md), [EA-5.1.10](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+Pro organizace: zakladatelská kontrola bez protiváhy je strukturální riziko. Pomáhá nezávislé
+představenstvo ([odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)),
+[anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
+a investoři, kteří se ptají i na fluktuaci a pracovní dobu.
+
+## Výsledek
+
+Po 24 měsících terapie funkční stabilizace. Subjekt obnovil vztahy s rodiči, navázal nový
+partnerský vztah a pracuje v rozumných hranicích. Reziduálně přetrvává nedůvěra k rétorice
+„10x“, obtížné prožívání volného času (pocit, že „ztrácí čas“) a ambivalentní vztah k vlastnímu
+jmění, které vnímá jako odměnu za ztracené roky.
+
+## Klinické poučení
+
+- Finanční motivace a ideologie se ve startupu navzájem posilují: opce dávají odchodu cenu,
+  ideologie mu dává morální stigma.
+- „Vášeň“ může maskovat koerci; klinik se má ptát, zda klient umí popsat den, kdy nepracuje.
+- Úspěch nechrání. Krize může nastat právě po dosažení cíle, kdy zmizí jediný organizační
+  princip identity.
+- Otevřená otázka: jakou roli by měli mít investoři při dohledu nad kulturou firem, do kterých
+  investují.
+
+## Související
+
+### Techniky
+
+- [EA-5.1.10 Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md)
+  – „startupový čas“
+- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+  – identita totožná s firmou
+
+### Glosář
+
+- [Love bombing](@/glossary/love-bombing.md) – intenzivní uvítání do „rodiny“
+- [Narativní identita](@/glossary/narativni-identita.md) – životní příběh s jedinou kapitolou
+
+### Protokoly a obrana
+
+- [Pracovní prevence EA](@/kompendium/prevention-resilience/5-workplace-prevention-EA.md) –
+  prevence na pracovišti
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) –
+  protiváha zakladatelské kontroly
+- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md)
+  – práce s identitou po odchodu
+
+### Sousední případy
+
+- [Případ 36: Odchod ze startupového kultu](@/kompendium/case-studies/36-startup-cult-exit.md) –
+  jiná trajektorie odchodu
+- [Případ 37: Tech-bro totalizace](@/kompendium/case-studies/37-tech-bro-totalizace.md) –
+  monokultura velkých technologických firem
+- [Případ 61: Kult vedení v korporaci](@/kompendium/case-studies/61-corporate-leadership-cult.md)
+  – tatáž struktura ve zralé firmě
 
 ---
 

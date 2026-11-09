@@ -12,7 +12,8 @@ It changes nothing else: the result is parsed again and must equal the original 
 the moved keys, or the page is left untouched and reported.
 
 Usage:
-  scripts/normalize-front-matter.py [path ...]   normalise content/ (or the given files)
+  scripts/normalize-front-matter.py [path ...]   normalise content/ (or the given files and
+                                                 directories)
   scripts/normalize-front-matter.py --check      exit 1 when a page would change
 """
 import json
@@ -194,7 +195,11 @@ def normalise(text: str, is_section: bool = False):
 def main() -> int:
     args = [a for a in sys.argv[1:] if a != "--check"]
     check = "--check" in sys.argv[1:]
-    paths = [pathlib.Path(a) for a in args] or sorted((ROOT / "content").rglob("*.md"))
+    paths = []
+    for arg in args:
+        path = pathlib.Path(arg)
+        paths.extend(sorted(path.rglob("*.md")) if path.is_dir() else [path])
+    paths = paths or sorted((ROOT / "content").rglob("*.md"))
     changed, refused = [], []
     for path in paths:
         text = path.read_text(encoding="utf-8")

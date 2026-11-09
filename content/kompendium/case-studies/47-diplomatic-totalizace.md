@@ -1,10 +1,12 @@
 +++
-title = "Pripad 47-diplomatic-totalizace: Diplomaticka totalizace"
-description = "Anonymizovana pripadova studie — Diplomaticka totalizace. EA techniky, fenomenologicky kurz, intervence, vysledek."
+title = "Případ 47: Diplomatická totalizace na zastupitelském úřadu"
+description = "Anonymizovaný kompozit mladého diplomata, u něhož se mentorství velvyslance a „diplomatický kód“ změnily v ztrátu vlastních preferencí a identity."
 weight = 47
+
 [taxonomies]
 tags = ["kompendium", "case-study", "anonymizovany", "klinicky"]
 categories = ["academic", "clinical", "case-study"]
+
 [extra]
 related_terms = ["45-celebrity-totalizace", "46-political-totalizace", "48-intelligence-totalizace", "49-religious-leadership"]
 parent = "kompendium-case-studies"
@@ -12,79 +14,170 @@ anonymized = true
 toc = true
 +++
 
-# Pripadova studie 47-diplomatic-totalizace: Diplomaticka totalizace ve velvyslanectvi
+# Případová studie 47: Diplomatická totalizace na zastupitelském úřadu
 
-> WARNING: Plne anonymizovana studie. Vsechna jmena, mista, casy a identifikujici detaily byly menene. Pouzitelne pouze pro edukativni ucely.
+> **Upozornění:** Anonymizovaný kompozit několika strukturálně podobných případů. Země
+> působení, úřad, ministerstvo, funkce a časové údaje byly změněny. Text nehodnotí diplomatickou
+> službu, ale vzorec, v němž se profesní disciplína a izolace v zahraničí mění v totalizaci
+> identity.
 
-## Background subjektu
+## Výchozí situace subjektu
 
-Subjekt (anonymizovany kod 47-diplomatic-totalizace) byl mlady diplomat v rané fazi kariery, vyslany do zahranicniho velvyslanectvi pod vedenim seniorniho velvyslance s tradicni diplomatickou kulturou. Pred totalizaci vykazoval vysokou jazykovou vybavenost, vyzname vzdelanecke pripravy, a stabilni rodinne zazemi. Vstupni motivace: identifikace s diplomatickou misí, sluzba státu.
+Subjekt byl mladý diplomat v rané fázi kariéry, vyslaný na zastupitelský úřad v zahraničí pod
+vedení zkušeného velvyslance s tradiční, formální kulturou řízení. Měl výborné jazykové
+schopnosti, kvalitní vzdělání a stabilní rodinné zázemí. Motivace byla autentická: služba státu
+a zájem o mezinárodní vztahy.
 
-Rizikove faktory: geograficka separace od podpurne site, financni zavislost na sluzbe, instituconalní hierarchie, kultura diskrétnosti znesnadňující stížnosti, a pravidlo "diplomat nesmi mit problemy".
+Rizikové faktory: geografická vzdálenost od podpůrné sítě, finanční i pobytová závislost na
+vyslání, přísná institucionální hierarchie, kultura diskrétnosti, která ztěžuje stížnosti,
+a nepsané pravidlo, že „diplomat nemá problémy“. Malý úřad v cizí zemi navíc spojuje pracovní,
+sociální i bydlicí prostor – kolegové jsou zároveň sousedy i jedinými přáteli.
 
-## Casova osa expozice
+## Časová osa expozice
 
-| Faze | Trvani | Klicove udalosti |
+| Fáze | Trvání | Klíčové události |
 |------|--------|-------------------|
-| **Inicialni kontakt** | mesice 1-6 | Prijeti do mise, "ucim te diplomatickemu remeslu" |
-| **Perturbace** | mesice 7-18 | Permanentni dostupnost, mikromanagement, izolace |
-| **Rekonfigurace** | roky 1-3 | Velvyslanec = jediny mentor, diplomaticky kód = identita |
-| **Konsolidace** | roky 3-6 | Profesionalita rovna se zacepili emocnich potřeb |
-| **Exit / detekce** | rok 6+ | Akutni krize, navrat do prage, externi konfrontace |
+| **Iniciální kontakt** | měsíce 1–6 | příjezd na úřad, „naučím tě diplomatickému řemeslu“, exkluzivní pozornost |
+| **Perturbace** | měsíce 7–18 | nepřetržitá dostupnost, mikromanagement, kontrola soukromí |
+| **Rekonfigurace** | roky 1–3 | velvyslanec jediným mentorem, „diplomatický kód“ jako identita |
+| **Konsolidace** | roky 3–6 | potlačení emocí jako profesionalita, únava, alkohol, deprese |
+| **Exit / detekce** | rok 6+ | návrat do centrály, depersonalizace, panická porucha, psychiatr |
 
-V inicialni fazi byl subjekt zařazen pod mentorství velvyslance, ktery mu venoval velkou pozornost — privatne diskuse, "tajné" diplomatické informace, pozvanky na exkluzivní akce. Tato faze vytvořila silnou emoční vazbu.
+V iniciální fázi se velvyslanec subjektu intenzivně věnoval – soukromé rozhovory, sdílení
+„důvěrných“ informací, pozvánky na exkluzivní akce. Mentorský vztah byl skutečně cenný
+a subjekt se v něm rychle učil; zároveň vznikla emoční vazba, která později ztěžovala odstup.
 
-V perturbacni fazi se rozvinul mikromanagement. Velvyslanec kontroloval timing, presentaci, slovník, dokonce i partnerske vztahy ("musíš si dávat pozor, kdo jsi v cizí zemi"). Permanentní dostupnost ramcovala "loajalitu". Subjekt dostal výtku za pohyb mimo diplomatický okruh.
+V perturbační fázi se rozvinul mikromanagement. Velvyslanec kontroloval načasování, vystupování,
+slovník i partnerské vztahy („musíš si dávat pozor, s kým se v cizí zemi stýkáš“). Nepřetržitá
+dostupnost byla rámována jako loajalita, pohyb mimo diplomatický okruh jako bezpečnostní riziko
+a neprofesionalita. Část těchto požadavků má v diplomacii reálný základ, což jejich rozšíření
+na celý život činilo obtížně napadnutelným.
 
-Rekonfiguracni faze: subjekt internalizoval "diplomatický kód" — nemít emoce, nemít osobní názor, vždycky reprezentovat. Romantický vztah s ne-diplomatkou byl rámcován jako "neprofesionální". Kontakt s rodinou se redukoval.
+V rekonfigurační fázi subjekt převzal „diplomatický kód“ jako osobní identitu: nemít emoce,
+nemít vlastní názor, vždy reprezentovat. Vztah s partnerkou mimo diplomatické prostředí byl
+označen za „neprofesionální“ a skončil; kontakt s rodinou řídl. Konsolidace přinesla chronickou
+únavu, nadužívání alkoholu a depresi, zatímco hodnocení služby bylo výborné.
 
-Konsolidacni faze: somatická dekompenzace (chronická únava, alkohol, deprese), profesní úspěch externe vysoky.
+## Projevené EA techniky
 
-Exit byl iniciovan akutni krizí pri repatriaci do Prahy — depersonalizace, nemoznost navrhnout vlastni nazor v normalnim rozhovoru.
+- [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) –
+  velvyslanec jako absolutní mentor a jediný zdroj hodnocení.
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) –
+  diplomatický protokol rozšířený na totální tělesnou disciplínu i v soukromí.
+- [EA-1.3.3 Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) – osobní
+  emoce a potřeby přerámovány na „neprofesionalitu“.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) –
+  „diplomatický kód“, „služba státu“, „reprezentace“ jako pojmy bez hranic.
+- [EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) –
+  neutrální diplomatický rejstřík hlasu jako jediný přípustný způsob mluvy.
+- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) –
+  splynutí profesní role s osobní identitou.
+- [EA-5.1.9 Identitní dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) –
+  postupná ztráta vlastních preferencí a úsudku.
 
-## EA techniky manifestovane
+Specifikum diplomacie: reprezentace, diskrétnost a protokol jsou legitimní pracovní požadavky.
+Problém nastává, když se z pracovní role stává jediný přípustný způsob existence a když
+izolace v zahraničí odstraní všechny korektivy mimo úřad.
 
-- [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — velvyslanec jako absolutní mentor
-- [EA-1.5.2 Dominantni telesne hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) — diplomatický protokol jako totální tělesná disciplína
-- [EA-1.3.3 Tematicka diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md) — osobní emoce přerámovány na "neprofesionalitu"
-- [EA-1.1.3 Terminologicka mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — "diplomatický kód", "služba státu", "reprezentace"
-- [EA-5.1.9 Identitni dezintegrace](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — postupná ztráta osobní identity
-- [EA-1.4.1 Prosodicka dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md) — diplomatický rejstřík hlasu jako neutralní fasáda
-- [EA-5.1.6 Kategoricka transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) — konflace profesní role a osobní identity
+## Fenomenologický průběh
 
-## Fenomenologicky kurz
+V terapii subjekt popisoval: „Po návratu jsem v supermarketu nemohl vybrat sýr. Stál jsem
+deset minut a nevěděl, co chci. Naučil jsem se nerozhodovat sám – vždycky jsem dělal to, co by
+chtěl velvyslanec, co je správné, co reprezentuje. Vlastní preference jsem zapomněl.“
 
-V terapii subjekt popisoval: "V Praze v supermarketu jsem nemohl vybrat sýr. Stál jsem deset minut a nevěděl jsem, co chci. Naučil jsem se, že se nesmím rozhodovat sám — vždy jsem dělal, co chtěl velvyslanec, co je správné, co reprezentuje. Vlastní preference jsem zapomněl."
+Drobná scéna ukazuje [identitní dezintegraci](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md)
+na úrovni nejzákladnějších voleb: diplomatická role nahradila osobní já. Přidává se
+[epistemická alienace](@/glossary/epistemicka-alienace.md) od vlastních potřeb a
+[depersonalizace](@/glossary/depersonalizace.md) – subjekt se v civilních situacích pozoroval
+„jako na recepci“, vždy zvenku.
 
-Tato narace odpovida [identitni dezintegraci](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md) — diplomatická role nahradila osobní já. [Epistemicka alienace](@/glossary/epistemicka-alienace.md) — odcizení od vlastních potřeb.
+Charakteristické bylo i to, že subjekt dlouho nevnímal nic jako „zneužití“: vše, co se dělo, se
+dalo vysvětlit profesními normami. Až s odstupem rozpoznal, že normy byly rozšířeny i tam, kam
+nepatří – na partnerský vztah, volný čas a vnitřní prožívání.
 
-## Detekcni bod
+## Detekční bod
 
-Akutni krize pri repatriaci, panická porucha. Klicovy moment: psychiatr identifikoval [c-PTSD](@/glossary/c-ptsd.md) s identitní dezintegraci, ne klasicky "kulturní šok".
+Akutní krize po návratu do centrály: depersonalizace, panické ataky a neschopnost vyjádřit vlastní
+názor v běžném rozhovoru. Psychiatr mimo institucionální okruh identifikoval [C-PTSD](@/glossary/c-ptsd.md)
+s identitní dezintegrací, nikoli „reverzní kulturní šok“, jak stav zpočátku interpretoval
+subjekt i jeho okolí.
 
-## Intervencni strategie
+Zpětně byly patrné markery: [temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md)
+po návratu, [emoční otupění](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md)
+a [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)
+během vyslání.
 
-**S1 - Stabilizace:** Pracovní neschopnost, farmakoterapie.
-**S2 - Externi epistemicka kotva:** Kontakt s bývalými diplomaty, terapie mimo institucionální okruh.
-**S3 - Identitni rekonstrukce:** Restituce osobní preference, hodnot, vztahů mimo profesní roli.
-**S4 - Profesni rekontextualizace:** Změna do mezinárodní organizace s plochější strukturou.
-**S5 - Integrace:** Subjekt přispěl k reformě mentorského systému v MFA.
+## Diferenciální diagnostika
 
-## Vysledek
+- **Reverzní kulturní šok:** přechodná dezorientace po návratu je běžná a odeznívá během měsíců;
+  neprovází ji ztráta schopnosti rozhodovat se ani hluboká depersonalizace.
+- **Zdravá profesionalita:** zahrnuje sebeovládání při výkonu funkce, ale nechává prostor pro
+  soukromý život, vlastní názor mimo službu a emoce.
+- **Depresivní porucha:** byla přítomna; nevysvětlovala však specifickou ztrátu preferencí ani
+  vazbu symptomů na hierarchické podněty.
+- **Úzkostná porucha:** panické ataky byly součástí obrazu, nikoli jeho jádrem.
+- **Adaptace na náročné vyslání:** krize nebo nebezpečné prostředí mohou samy být traumatizující;
+  je nutné odlišit trauma z vnějších událostí od traumatu ze vztahu s nadřízeným.
 
-Po 24 měsících terapie funkční stabilizace. Reziduální: hypervigilance ohledně formálního chování, omezená schopnost spontánnosti.
+## Intervenční strategie
 
-## Klinicke pouceni
+Použit byl [protokol epistemické
+rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md). Jeho stupně (S1
+validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická
+obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl
+v pěti fázích:
 
-Diplomatická totalizace ukazuje, jak profesní disciplína může přerůst v identitní expropriace. Klinik musí rozlisit zdravou profesionalitu od totalizace. Reformně: institucionální podpora repatriace by měla být systematicky integrována.
+**Fáze 1 – Stabilizace:** pracovní neschopnost, farmakoterapie, [somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md).
 
-## Cross-linky
+**Fáze 2 – Externí epistemická kotva:** kontakt s bývalými diplomaty, kteří podobnou zkušenost
+zpracovali, a terapie mimo institucionální okruh ministerstva.
 
-- **Sekce 06**: [Klinicke aplikace](@/kompendium/06-klinicke-aplikace/_index.md), [Vulnerabilni populace](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md)
-- **Glossary**: [c-ptsd](@/glossary/c-ptsd.md), [epistemicke-trauma](@/glossary/epistemicke-trauma.md), [epistemicka-alienace](@/glossary/epistemicka-alienace.md), [metakognitivni-destrukce](@/glossary/metakognitivni-destrukce.md)
-- **Techniques**: [EA-1.5.2](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md), [EA-1.1.3](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), [EA-5.1.9](@/kompendium/techniques/ea-5-1-9-identitni-dezintegrace.md), [EA-5.1.6](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md)
-- **Visualization**: [Recovery trajectory](@/kompendium/visualizations/_index.md)
-- **Index pripadu**: [Case studies](@/kompendium/case-studies/_index.md)
+**Fáze 3 – Identitní rekonstrukce:** obnova osobních preferencí od drobných každodenních voleb
+(jídlo, oblečení, volný čas), [vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md)
+a vztahů mimo profesní roli.
+
+**Fáze 4 – Profesní rekontextualizace:** přechod do mezinárodní organizace s plošší strukturou
+a týmovým, nikoli osobním mentorstvím.
+
+**Fáze 5 – Integrace:** subjekt přispěl k úvahám o reformě mentorského systému a přípravě na návrat
+z vyslání.
+
+## Výsledek
+
+Po čtyřiadvaceti měsících terapie funkční stabilizace. Reziduálně přetrvává zvýšená ostražitost
+ve formálních situacích a omezená spontánnost; subjekt ji popisuje jako „zapnutou diplomacii,
+kterou se učím vypínat“.
+
+## Klinické poučení
+
+Diplomatická totalizace ukazuje, jak profesní disciplína může přerůst v expropriaci identity,
+aniž by se kdykoli objevil zjevně zneužívající čin. Klinik musí rozlišit zdravou profesionalitu
+od totalizace podle toho, zda existuje soukromý prostor, do kterého pracovní normy nezasahují.
+
+Instituce s vysíláním do zahraničí by měly systematicky podporovat návrat: debriefing,
+nezávislou psychologickou péči, mentory mimo linii hodnocení a [rotaci rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md),
+která brání tomu, aby jediný nadřízený určoval celý profesní i osobní svět mladého pracovníka.
+
+## Související
+
+### Techniky
+- [EA-5.1.6 Kategorická transgrese](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – splynutí role a identity
+- [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) – protokol jako tělesná disciplína
+
+### Glosář
+- [Depersonalizace](@/glossary/depersonalizace.md) – pozorování sebe sama zvenku
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastních potřeb
+- [Sociální izolace](@/glossary/socialni-izolace.md) – role uzavřeného prostředí úřadu
+
+### Protokoly a obrana
+- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) – stabilizace po návratu
+- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md) – institucionální pojistka
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – udržení vazeb mimo úřad
+
+### Sousední případy
+- [Případ 48: Zpravodajská služba](@/kompendium/case-studies/48-intelligence-totalizace.md) – mlčenlivost a dvojí život
+- [Případ 46: Poslanecká kancelář](@/kompendium/case-studies/46-political-totalizace.md) – loajalita k osobě
+- [Případ 42: Elitní jednotka](@/kompendium/case-studies/42-military-totalizace.md) – návrat z nasazení jako zlom
 
 ---
 

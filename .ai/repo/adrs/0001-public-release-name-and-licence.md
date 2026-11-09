@@ -1,18 +1,18 @@
 ---
-schema: context/v1
-id: ai.repo.adrs.0001
-kind: context
-title: "ADR 0001: public release name and licence"
-description: The repository name, Pages URL and licence of the recovered Kompendium, as answered by the owner.
-status: active
-scope: subtree
-providers: ["*"]
-audience: [human, agent]
-composition: extend
-order: 101
+schema: adr/v1
+id: adr-0001
+kind: adr
+title: "Public release name and licence"
+status: accepted
+date: 2026-11-09
+tags:
+  - release
+  - licence
+provenance:
+  origin: authored
 ---
 
-# ADR 0001: public release name and licence
+# 1. Public release name and licence
 
 ## Context
 

@@ -43,6 +43,11 @@
 }
 
 @layer components {
+  /* The page header already shows the title; the content's own leading H1 repeats it. */
+  .format > h1:first-child {
+    display: none;
+  }
+
   /* Zola emits <pre class="giallo"> with inline token colours; keep it scrollable inside cards. */
   .format pre {
     overflow-x: auto;

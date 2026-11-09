@@ -1,0 +1,79 @@
+@import 'tailwindcss' source(none);
+
+@source '../templates';
+@source '../static/js/site.js';
+@source '../node_modules/flowbite/lib/esm/components';
+
+@plugin 'flowbite/plugin';
+@plugin 'flowbite-typography';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Flowbite Pro primary, shifted to indigo: the book's diagrams already use indigo-600. */
+  --color-primary-50: #eef2ff;
+  --color-primary-100: #e0e7ff;
+  --color-primary-200: #c7d2fe;
+  --color-primary-300: #a5b4fc;
+  --color-primary-400: #818cf8;
+  --color-primary-500: #6366f1;
+  --color-primary-600: #4f46e5;
+  --color-primary-700: #4338ca;
+  --color-primary-800: #3730a3;
+  --color-primary-900: #312e81;
+
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+}
+
+@utility transition-width {
+  transition-property: width;
+}
+
+@layer base {
+  html {
+    scroll-padding-top: 5rem;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary-500);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Zola emits <pre class="giallo"> with inline token colours; keep it scrollable inside cards. */
+  .format pre {
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  .format table {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+
+  .format .zola-anchor {
+    margin-left: 0.4rem;
+    opacity: 0;
+    text-decoration: none;
+    color: var(--color-gray-400);
+  }
+
+  .format :is(h2, h3, h4):hover .zola-anchor {
+    opacity: 1;
+  }
+
+  .format canvas,
+  .format svg {
+    max-width: 100%;
+  }
+
+  .format pre.mermaid,
+  .format .mermaid {
+    background: transparent;
+    text-align: center;
+  }
+}

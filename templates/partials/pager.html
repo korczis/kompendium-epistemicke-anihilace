@@ -1,0 +1,16 @@
+{%- if doc.lower or doc.higher %}
+<nav class="mt-8 grid gap-4 border-t border-gray-200 pt-6 sm:grid-cols-2 dark:border-gray-700" aria-label="Předchozí a další">
+  {%- if doc.higher %}
+  <a href="{{ doc.higher.permalink }}" class="block rounded-lg border border-gray-200 p-4 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
+    <span class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400">&larr; Předchozí</span>
+    <span class="mt-1 block text-sm font-semibold text-gray-900 dark:text-white">{{ doc.higher.title }}</span>
+  </a>
+  {%- else %}<span></span>{%- endif %}
+  {%- if doc.lower %}
+  <a href="{{ doc.lower.permalink }}" class="block rounded-lg border border-gray-200 p-4 text-right hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
+    <span class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400">Další &rarr;</span>
+    <span class="mt-1 block text-sm font-semibold text-gray-900 dark:text-white">{{ doc.lower.title }}</span>
+  </a>
+  {%- endif %}
+</nav>
+{%- endif %}

@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set root = get_section(path="kompendium/_index.md") -%}
+{%- set techniques = get_section(path="kompendium/techniques/_index.md") -%}
+{%- set cases = get_section(path="kompendium/case-studies/_index.md") -%}
+{%- set history = get_section(path="kompendium/historical-cases/_index.md") -%}
+{%- set glossary = get_section(path="glossary/_index.md") -%}
+{%- set refs = get_page(path="references.md") -%}
+{%- set_global total = 0 -%}
+{%- set_global words = 0 -%}
+{%- for path in root.subsections -%}
+  {%- set s = get_section(path=path) -%}
+  {%- set_global total = total + s.pages | length + 1 -%}
+  {%- for p in s.pages -%}{%- set_global words = words + p.word_count -%}{%- endfor -%}
+{%- endfor -%}
+<section class="bg-white dark:bg-gray-800">
+  <div class="mx-auto grid max-w-screen-xl gap-8 px-4 py-10 lg:grid-cols-12 lg:py-16">
+    <div class="mr-auto place-self-center lg:col-span-7">
+      <span class="mb-4 inline-flex items-center rounded-full bg-primary-100 px-3 py-1 text-sm font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">Defenzivní taxonomie · čeština</span>
+      <h1 class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl xl:text-6xl dark:text-white">Kompendium epistemické a kognitivní anihilace</h1>
+      <p class="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400">{{ section.extra.lead }}</p>
+      <div class="flex flex-wrap gap-3">
+        <a href="{{ get_url(path='@/kompendium/01-predmluva/_index.md') }}" class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+          Začít předmluvou
+          <svg class="-mr-1 ml-2 h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+        </a>
+        <a href="{{ get_url(path='@/kompendium/_index.md') }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Obsah kompendia</a>
+        <a href="{{ config.extra.wiki_url }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Wiki</a>
+      </div>
+    </div>
+    <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
+      <img src="{{ get_url(path='img/cover.svg') }}" alt="Obálka: pravidelná síť pojmů, která se směrem ke středu rozpadá do fragmentů." class="w-full rounded-lg shadow-lg" width="600" height="800">
+    </div>
+  </div>
+</section>
+
+<div class="px-4 pt-6">
+  <div class="grid w-full grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+    {%- for stat in [[total, "stránek knihy", "kapitoly a kolekce"], [techniques.pages | length, "technik", "katalog EA-X.Y.Z"], [cases.pages | length + history.pages | length, "případových studií", "kazuistiky a historické případy"], [glossary.pages | length, "hesel glosáře", "pojmy, na které kniha odkazuje"]] %}
+    <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+      <span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">{{ stat[0] }}</span>
+      <h3 class="text-base font-normal text-gray-500 dark:text-gray-400">{{ stat[1] }}</h3>
+      <p class="mt-3 border-t border-gray-200 pt-3 text-sm text-gray-500 dark:border-gray-700 dark:text-gray-400">{{ stat[2] }}</p>
+    </div>
+    {%- endfor %}
+  </div>
+
+  <div class="mt-4 grid grid-cols-1 gap-4 xl:grid-cols-3">
+    <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:col-span-2 xl:p-8 dark:bg-gray-800">
+      <div class="mb-4 flex items-center justify-between">
+        <h2 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Kapitoly</h2>
+        <a href="{{ root.permalink }}" class="inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Celý obsah</a>
+      </div>
+      <ol class="grid gap-3 md:grid-cols-2">
+        {%- for path in root.subsections %}
+        {%- set s = get_section(path=path, metadata_only=true) %}
+        {%- set first = s.components | last | truncate(length=1, end="") %}
+        {%- if first in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] %}
+        <li>
+          <a href="{{ s.permalink }}" class="flex h-full gap-3 rounded-lg border border-gray-200 p-4 hover:bg-gray-100 dark:border-gray-700 dark:hover:bg-gray-700">
+            <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary-100 font-mono text-sm font-semibold text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ s.components | last | truncate(length=2, end="") }}</span>
+            <span class="min-w-0">
+              <span class="block text-sm font-semibold text-gray-900 dark:text-white">{{ s.title }}</span>
+              {%- if s.description %}<span class="mt-1 block text-sm text-gray-500 dark:text-gray-400">{{ s.description | truncate(length=120) }}</span>{% endif %}
+            </span>
+          </a>
+        </li>
+        {%- endif %}
+        {%- endfor %}
+      </ol>
+    </div>
+    <div class="space-y-4">
+      <div class="rounded-lg border border-yellow-300 bg-yellow-50 p-4 text-sm text-yellow-800 sm:p-6 dark:border-yellow-800 dark:bg-gray-800 dark:text-yellow-300" role="note">
+        <h2 class="mb-2 text-base font-semibold">Poznání s dvojím užitím</h2>
+        <p>Kompendium je defenzivní taxonomie: popisuje mechanismy, aby je šlo rozpoznat, předejít jim a léčit jejich následky. Není to operativní manuál ani náhrada odborné péče. Před čtením technických kapitol si přečtěte <a class="font-medium underline" href="{{ get_url(path='@/kompendium/01-predmluva/eticke-aspekty.md') }}">etické aspekty</a>.</p>
+      </div>
+      <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
+        <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Pro koho</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400">{{ section.extra.audience }}</p>
+        <a href="{{ get_url(path='@/kompendium/01-predmluva/jak-pouzivat.md') }}" class="mt-4 inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Jak kompendium používat &rarr;</a>
+      </div>
+      <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
+        <h2 class="mb-4 text-xl font-bold leading-none text-gray-900 dark:text-white">Kolekce</h2>
+        <ul class="flex flex-wrap gap-2">
+          {%- for path in root.subsections %}
+          {%- set s = get_section(path=path, metadata_only=true) %}
+          {%- set first = s.components | last | truncate(length=1, end="") %}
+          {%- if first not in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] %}
+          <li><a href="{{ s.permalink }}" class="inline-block rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">{{ s.title | truncate(length=40) }}</a></li>
+          {%- endif %}
+          {%- endfor %}
+        </ul>
+      </div>
+      <div class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800">
+        <h2 class="mb-2 text-xl font-bold leading-none text-gray-900 dark:text-white">Rozsah</h2>
+        <p class="text-sm text-gray-500 dark:text-gray-400">Přibližně {{ (words / 1000) | round }} tisíc slov v kapitolách a kolekcích, {{ refs.extra.entries }} citovaných pramenů. Čísla se počítají při každém sestavení webu.</p>
+        <a href="{{ get_url(path='@/references.md') }}" class="mt-4 inline-flex items-center rounded-lg p-2 text-sm font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700">Reference &rarr;</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

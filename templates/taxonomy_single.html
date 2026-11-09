@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = {"title": "#" ~ term.name, "description": term.page_count ~ " stránek se štítkem #" ~ term.name ~ ".", "ancestors": [], "extra": {}} %}
+{% include "partials/header.html" %}
+<div class="px-4 pt-6">
+  <div class="rounded-lg bg-white shadow dark:bg-gray-800">
+    <ul class="divide-y divide-gray-200 dark:divide-gray-700">
+      {%- for p in paginator.pages %}
+      <li><a href="{{ p.permalink }}" class="block px-4 py-3 hover:bg-gray-100 sm:px-6 dark:hover:bg-gray-700"><span class="block text-sm font-medium text-gray-900 dark:text-white">{{ p.title }}</span>{% if p.description %}<span class="block truncate text-sm text-gray-500 dark:text-gray-400">{{ p.description }}</span>{% endif %}</a></li>
+      {%- endfor %}
+    </ul>
+    {%- if paginator.number_pagers > 1 %}
+    <nav class="flex items-center justify-between border-t border-gray-200 p-4 dark:border-gray-700" aria-label="Stránkování">
+      {%- if paginator.previous %}<a href="{{ paginator.previous }}" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700">&larr; Předchozí</a>{% else %}<span></span>{% endif %}
+      <span class="text-sm text-gray-500 dark:text-gray-400">{{ paginator.current_index }} / {{ paginator.number_pagers }}</span>
+      {%- if paginator.next %}<a href="{{ paginator.next }}" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700">Další &rarr;</a>{% else %}<span></span>{% endif %}
+    </nav>
+    {%- endif %}
+  </div>
+</div>
+{% endblock content %}

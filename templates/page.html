@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = page %}
+{% include "partials/header.html" %}
+<div class="grid grid-cols-1 gap-4 px-4 pt-6 xl:grid-cols-4">
+  <article class="min-w-0 rounded-lg bg-white p-4 shadow sm:p-6 xl:col-span-3 xl:p-8 dark:bg-gray-800">
+    <div class="format format-sm sm:format-base lg:format-lg format-blue mx-auto w-full max-w-none dark:format-invert">
+      {{ page.content | safe }}
+    </div>
+    {%- if page.taxonomies.tags is defined and page.taxonomies.tags %}
+    <div class="mt-8 flex flex-wrap gap-2 border-t border-gray-200 pt-6 dark:border-gray-700">
+      {%- for tag in page.taxonomies.tags %}
+      <a href="{{ get_taxonomy_url(kind='tags', term=tag) }}" class="rounded-md bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">#{{ tag }}</a>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+    {% include "partials/pager.html" %}
+  </article>
+  <aside class="hidden xl:block" aria-label="Na této stránce">
+    {% include "partials/toc.html" %}
+  </aside>
+</div>
+{% endblock content %}

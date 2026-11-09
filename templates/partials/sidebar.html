@@ -1,0 +1,87 @@
+{#- Chapter navigation. Numbered sections are chapters; the rest are thematic collections. -#}
+{%- set root = get_section(path="kompendium/_index.md", metadata_only=true) -%}
+{%- set item = "group flex items-center rounded-lg p-2 text-base font-normal text-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700" -%}
+{%- set sub = "flex items-center rounded-lg p-2 pl-11 text-sm font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-700" -%}
+{%- set active = " bg-gray-100 dark:bg-gray-700" -%}
+<aside id="sidebar" class="fixed left-0 top-0 z-20 flex h-full w-64 shrink-0 -translate-x-full flex-col pt-16 transition-transform lg:translate-x-0" aria-label="Sidebar" aria-description="Obsah kompendia">
+  <div class="relative flex min-h-0 flex-1 flex-col border-r border-gray-200 bg-white pt-0 dark:border-gray-700 dark:bg-gray-800">
+    <div class="flex flex-1 flex-col overflow-y-auto pb-4 pt-5">
+      <div class="flex-1 space-y-1 divide-y divide-gray-200 bg-white px-3 dark:divide-gray-700 dark:bg-gray-800">
+        <ul class="space-y-2 pb-2">
+          <li>
+            <form class="lg:hidden" role="search" data-search-form>
+              <label for="mobile-search" class="sr-only">Hledat</label>
+              <div class="relative">
+                <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"><svg class="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg></div>
+                <input type="search" id="mobile-search" data-search-input autocomplete="off" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-400" placeholder="Hledat">
+                <div data-search-results class="absolute z-50 mt-2 hidden max-h-[60vh] w-full overflow-y-auto rounded-lg border border-gray-200 bg-white text-sm shadow-lg dark:border-gray-600 dark:bg-gray-700" role="listbox"></div>
+              </div>
+            </form>
+          </li>
+          <li>
+            <a href="{{ get_url(path='@/_index.md') }}" class="{{ item }}{% if cur == '/' %}{{ active }}{% endif %}">
+              <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"/></svg>
+              <span class="ml-3 flex-1 whitespace-nowrap">Úvod</span>
+            </a>
+          </li>
+          <li>
+            <a href="{{ get_url(path='@/kompendium/_index.md') }}" class="{{ item }}{% if cur == '/kompendium/' %}{{ active }}{% endif %}">
+              <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/></svg>
+              <span class="ml-3 flex-1 whitespace-nowrap">Obsah kompendia</span>
+            </a>
+          </li>
+          {%- for group in [["chapters", "Kapitoly"], ["collections", "Kolekce"]] %}
+          {%- set_global open = false -%}
+          {%- for path in root.subsections -%}
+            {%- set s = get_section(path=path, metadata_only=true) -%}
+            {%- set numbered = (s.components | last | truncate(length=1, end="")) in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] -%}
+            {%- if (group[0] == "chapters") == numbered and s.path in cur -%}{%- set_global open = true -%}{%- endif -%}
+          {%- endfor %}
+          <li>
+            <button type="button" class="{{ item }} w-full" aria-controls="nav-{{ group[0] }}" data-collapse-toggle="nav-{{ group[0] }}" aria-expanded="{% if open or group[0] == 'chapters' %}true{% else %}false{% endif %}">
+              {%- if group[0] == "chapters" %}
+              <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M3 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm0 4a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"/></svg>
+              {%- else %}
+              <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"/></svg>
+              {%- endif %}
+              <span class="ml-3 flex-1 whitespace-nowrap text-left">{{ group[1] }}</span>
+              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+            </button>
+            <ul id="nav-{{ group[0] }}" class="{% if not open and group[0] != 'chapters' %}hidden {% endif %}space-y-1 py-2">
+              {%- for path in root.subsections %}
+              {%- set s = get_section(path=path, metadata_only=true) -%}
+              {%- set numbered = (s.components | last | truncate(length=1, end="")) in ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] -%}
+              {%- if (group[0] == "chapters") == numbered %}
+              <li><a href="{{ s.permalink }}" class="{{ sub }}{% if s.path in cur %}{{ active }}{% endif %}" title="{{ s.title }}"><span class="truncate">{{ s.title }}</span></a></li>
+              {%- endif %}
+              {%- endfor %}
+            </ul>
+          </li>
+          {%- endfor %}
+        </ul>
+        <div class="space-y-2 pt-2">
+          <a href="{{ get_url(path='@/glossary/_index.md') }}" class="{{ item }}{% if '/glossary/' in cur %}{{ active }}{% endif %}">
+            <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/></svg>
+            <span class="ml-3">Glosář</span>
+          </a>
+          <a href="{{ get_url(path='@/philosophy/_index.md') }}" class="{{ item }}{% if '/philosophy/' in cur %}{{ active }}{% endif %}">
+            <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0z"/></svg>
+            <span class="ml-3">Filozofie</span>
+          </a>
+          <a href="{{ get_url(path='@/references.md') }}" class="{{ item }}{% if '/references/' in cur %}{{ active }}{% endif %}">
+            <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"/></svg>
+            <span class="ml-3">Reference</span>
+          </a>
+          <a href="{{ get_url(path='@/about.md') }}" class="{{ item }}{% if '/about/' in cur %}{{ active }}{% endif %}">
+            <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/></svg>
+            <span class="ml-3">O projektu</span>
+          </a>
+          <a href="{{ config.base_url }}/tags/" class="{{ item }}{% if '/tags/' in cur %}{{ active }}{% endif %}">
+            <svg class="h-6 w-6 shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/></svg>
+            <span class="ml-3">Štítky</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>

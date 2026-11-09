@@ -1,0 +1,14 @@
+<footer class="mx-4 my-6 rounded-lg bg-white p-4 shadow md:flex md:items-center md:justify-between md:p-6 xl:p-8 dark:bg-gray-800">
+  <div class="mb-4 text-sm text-gray-500 md:mb-0 dark:text-gray-400">
+    <p>&copy; 2025–2026 {{ config.extra.author }}. Text a grafika: <a href="{{ config.extra.licence_url }}" class="hover:underline" rel="license">{{ config.extra.licence }}</a>, kód: MIT.</p>
+    <p class="mt-1">Defenzivní taxonomie pro detekci, prevenci a intervenci. Není to operativní manuál ani náhrada odborné péče.</p>
+  </div>
+  <ul class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500 dark:text-gray-400">
+    <li><a href="{{ get_url(path='@/about.md') }}" class="hover:underline">O projektu</a></li>
+    <li><a href="{{ get_url(path='@/references.md') }}" class="hover:underline">Reference</a></li>
+    <li><a href="{{ config.extra.wiki_url }}" class="hover:underline">Wiki</a></li>
+    <li><a href="{{ config.extra.repo_url }}" class="hover:underline">GitHub</a></li>
+    <li><a href="{{ get_url(path='atom.xml') }}" class="hover:underline">Atom</a></li>
+    <li><a href="https://majordomus.dev" class="hover:underline">Majordomus</a></li>
+  </ul>
+</footer>

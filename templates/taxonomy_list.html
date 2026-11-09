@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = {"title": "Štítky", "description": "Všechny štítky kompendia, seřazené podle počtu stránek.", "ancestors": [], "extra": {}} %}
+{% include "partials/header.html" %}
+<div class="px-4 pt-6">
+  <div class="rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+    <div class="flex flex-wrap gap-2">
+      {%- for t in terms | sort(attribute="page_count") | reverse %}
+      <a href="{{ t.permalink }}" class="inline-flex items-center gap-1.5 rounded-md bg-gray-100 px-2.5 py-1 text-sm font-medium text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">#{{ t.name }} <span class="rounded-full bg-primary-100 px-1.5 text-xs text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ t.page_count }}</span></a>
+      {%- endfor %}
+    </div>
+  </div>
+</div>
+{% endblock content %}

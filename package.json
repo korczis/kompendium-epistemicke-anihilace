@@ -1,0 +1,32 @@
+{
+  "name": "kompendium-epistemicke-anihilace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kompendium epistemické a kognitivní anihilace: defenzivní taxonomie epistemické a kognitivní manipulace.",
+  "license": "SEE LICENSE IN LICENSE-CONTENT.md",
+  "author": "Tomas Korcak",
+  "homepage": "https://korczis.github.io/kompendium-epistemicke-anihilace/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korczis/kompendium-epistemicke-anihilace.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "prepare": "git config core.hooksPath .githooks 2>/dev/null || true",
+    "vendor": "node scripts/vendor.mjs",
+    "css": "tailwindcss --input styles/app.css --output static/css/app.css --minify",
+    "assets": "npm run --silent vendor && npm run --silent css",
+    "graphics": "scripts/render-graphics.sh",
+    "build": "npm run --silent assets && zola build",
+    "check": "python3 scripts/migrate-content.py --check && python3 scripts/build-references.py --check && npm run --silent assets && zola check --skip-external-links",
+    "dev": "npm run --silent assets && zola serve"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "flowbite": "4.0.2",
+    "flowbite-typography": "1.0.5",
+    "tailwindcss": "4.3.3"
+  }
+}

@@ -1,0 +1,7 @@
+.ai/local/
+.ai/repo/**/.tmp.*
+/node_modules/
+/public/
+/static/css/app.css
+/static/js/vendor/flowbite.min.js
+.DS_Store

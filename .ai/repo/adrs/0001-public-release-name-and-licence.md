@@ -2,7 +2,7 @@
 schema: adr/v1
 id: adr-0001
 kind: adr
-title: "Public release name and licence"
+title: "Název veřejného vydání a licence"
 status: accepted
 date: 2026-11-09
 tags:
@@ -12,20 +12,20 @@ provenance:
   origin: authored
 ---
 
-# 1. Public release name and licence
+# 1. Název veřejného vydání a licence
 
 ## Context
 
-The Kompendium had no repository of its own. Its source lived inside the private monorepo
+Kompendium nemělo vlastní repozitář. Zdroj ležel uvnitř soukromého monorepozitáře
 `gitlab.com/korczis/prismatic-platform` (`apps/prismatic_web/priv/content/kompendium/`, 1587
-files), its rendered pages in `github.com/prismatic-reality-com/prismatic-promo`, and older
-versions in `gitlab.com/korczis/prismatic-legacy` and three secret gists. The owner asked for it
-to be recovered as a public GitHub project with GitHub Pages, a wiki and graphics.
+souborů), vyrenderované stránky v `github.com/prismatic-reality-com/prismatic-promo` a starší
+verze v `gitlab.com/korczis/prismatic-legacy`, `gitlab.com/korczis/prismatic` a třech secret
+gistech. Autor požádal o obnovu jako veřejného projektu na GitHubu s GitHub Pages, wiki a grafikou.
 
 ## Decision
 
-Owner answers (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
-2026-11-09T21:33Z), recorded verbatim:
+Odpovědi autora (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
+2026-11-09T21:33Z), doslovně:
 
 - Q: "What should the public GitHub repo (and the GitHub Pages URL) be called?"
   A: "korczis/kompendium-epistemicke-anihilace (Recommended)"
@@ -33,18 +33,16 @@ Owner answers (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
   is meant for code, not for a book."
   A: "CC BY-NC-SA 4.0 (Recommended)"
 
-So: repository `korczis/kompendium-epistemicke-anihilace`, Pages at
-`https://korczis.github.io/kompendium-epistemicke-anihilace/`. The text and graphics are licensed
-under CC BY-NC-SA 4.0, and the code (templates, scripts, workflows) under MIT.
+Tedy: repozitář `korczis/kompendium-epistemicke-anihilace`, web na
+`https://korczis.github.io/kompendium-epistemicke-anihilace/`. Text a grafika jsou pod
+CC BY-NC-SA 4.0, kód (šablony, skripty, workflow) pod MIT.
 
-## Alternatives rejected
-
-- `korczis/kompendium` and `korczis/epistemic-annihilation`, both offered as repository names.
-- CC BY-SA 4.0, CC BY 4.0 and all rights reserved, offered as licences.
+Zamítnuté možnosti: názvy `korczis/kompendium` a `korczis/epistemic-annihilation`; licence
+CC BY-SA 4.0, CC BY 4.0 a „všechna práva vyhrazena“.
 
 ## Consequences
 
-- `LICENSE` (MIT, code) and `LICENSE-CONTENT.md` (CC BY-NC-SA 4.0, `content/`, `archive/`,
-  `static/img/`) sit at the root, and the README states which path falls under which.
-- History of the book was extracted from `prismatic-platform` with `git filter-repo`, so the
-  commits before this decision keep their original authorship and dates.
+- V kořeni jsou `LICENSE` (MIT, kód) a `LICENSE-CONTENT.md` (CC BY-NC-SA 4.0, `content/`,
+  `archive/`, `static/img/`, `static/js/p5/`); README uvádí, co pod kterou licenci patří.
+- Historie knihy i starších linií byla převzata pomocí `git filter-repo`, takže commity před
+  tímto rozhodnutím si ponechávají původní autorství a data.

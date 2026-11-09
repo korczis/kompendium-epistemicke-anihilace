@@ -1,16 +1,16 @@
-# Content licence
+# Licence obsahu
 
-Copyright (c) 2025-2026 Tomas Korcak.
+Copyright (c) 2025–2026 Tomas Korcak.
 
-The book text, glossary, archive and graphics (`content/`, `archive/`, `static/img/`,
-`static/favicon.svg`, `static/data/`, `static/js/kompendium/`) are licensed under the
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International licence
-(CC BY-NC-SA 4.0): https://creativecommons.org/licenses/by-nc-sa/4.0/
+Text knihy, glosář, archiv a grafika (`content/`, `archive/`, `static/img/`,
+`static/favicon.svg`, `static/data/`, `static/js/kompendium/`, `static/js/p5/`) jsou
+licencovány pod Creative Commons Uveďte původ-Neužívejte komerčně-Zachovejte licenci 4.0
+Mezinárodní (CC BY-NC-SA 4.0): https://creativecommons.org/licenses/by-nc-sa/4.0/deed.cs
 
-Code (templates, styles, scripts, workflows) is licensed under the MIT licence in `LICENSE`.
-Third-party browser libraries under `static/js/vendor/` keep their own licences; see `NOTICE.md`.
+Kód (šablony, styly, skripty, workflow) je licencován pod licencí MIT v souboru `LICENSE`.
+Knihovny třetích stran v `static/js/vendor/` si ponechávají vlastní licence; viz `NOTICE.md`.
 
-The full legal code follows.
+Následuje úplné znění licence (anglický originál je právně závazný).
 
 ```text
 Attribution-NonCommercial-ShareAlike 4.0 International

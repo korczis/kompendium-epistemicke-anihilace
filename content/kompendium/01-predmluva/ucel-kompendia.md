@@ -69,7 +69,7 @@ Taxonomie zahrnuje techniky s potenciálně **devastujícím účinkem**, a prot
 
 ### 5. Empirická validace skrze platformové nástroje
 
-Kompendium není uzavřeným textovým artefaktem — je [strukturálně propojeno](@/kompendium/01-predmluva/vztah-k-platforme.md) s **Prismatic Platformou**, která poskytuje empirický kontext pro testování taxonomických hypotéz. {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} implementuje konkrétní mechanismy detekce manipulace, [NABLA Infinity](@/glossary/nabla-infinity.md) modeluje epistemickou strukturu argumentů, a [Color Teams](@/glossary/color-teams.md) operacionalizují bezpečnostní protokoly. Tato bidirekcionalita umožňuje **kontinuální verifikaci** taxonomických tvrzení.
+Kompendium není uzavřeným textovým artefaktem — je [strukturálně propojeno](@/kompendium/01-predmluva/vztah-k-platforme.md) s **Prismatic Platformou**, která poskytuje empirický kontext pro testování taxonomických hypotéz. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} implementuje konkrétní mechanismy detekce manipulace, [NABLA Infinity](@/glossary/nabla-infinity.md) modeluje epistemickou strukturu argumentů, a [Color Teams](@/glossary/color-teams.md) operacionalizují bezpečnostní protokoly. Tato bidirekcionalita umožňuje **kontinuální verifikaci** taxonomických tvrzení.
 
 ## Defenzivní imperativ
 
@@ -120,7 +120,7 @@ Na rozdíl od klasických nozologických manuálů kompendium **explicitně odm�
 - [Glossary: Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
 
 ## ⚡ Kritický krok
@@ -137,6 +137,6 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -31,7 +31,7 @@ For epistemic security, the consequence is decisive. Knowledge is not a set of p
 
 In the Prismatic Platform's threat model, embodied cognition explains why **somatic dimensions of [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** are not "side effects" but core damage. Several EA techniques in the [Kompendium](@/kompendium/_index.md) operate primarily through somatic disruption rather than propositional persuasion: chronic threat induction (sympathetic overdrive), shame conditioning (interoceptive collapse), sleep disruption, and forced cognitive load against vagal capacity. These are documented in [Kompendium → Somatické vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) and link to specific techniques in the EA-1.6.x and EA-3.x families.
 
-The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats reports of somatic dysregulation in subjects as a **negative confidence signal** for any decision based on the subject's stated beliefs — an enactivist correction against the cognitivist fallacy that "what they say they believe" is detachable from "what state their body is in when they say it." Recovery protocols documented at [/kompendium/06-zotaveni/](@/kompendium/recovery-protocols/_index.md) integrate somatic-phenomenological work (Hanna, Levine, Porges) with classical cognitive therapy.
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of somatic dysregulation in subjects as a **negative confidence signal** for any decision based on the subject's stated beliefs — an enactivist correction against the cognitivist fallacy that "what they say they believe" is detachable from "what state their body is in when they say it." Recovery protocols documented at [/kompendium/06-zotaveni/](@/kompendium/recovery-protocols/_index.md) integrate somatic-phenomenological work (Hanna, Levine, Porges) with classical cognitive therapy.
 
 ## See Also
 
@@ -47,7 +47,7 @@ The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

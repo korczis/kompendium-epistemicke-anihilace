@@ -35,7 +35,7 @@ Recovery trajectories from epistemic trauma have been studied less systematicall
 
 Within the Prismatic Platform, the recovery model informs platform design as much as direct user-facing tooling:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} is structurally designed for **scaffolded re-trust**: explicit external records, calibration feedback, and source-diversity tracking are exactly the affordances epistemic-trauma recovery requires. A subject in recovery can rely on the platform's metacognitive scaffolding while their own [metakognice](@/glossary/metakognice.md) is rebuilt.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} is structurally designed for **scaffolded re-trust**: explicit external records, calibration feedback, and source-diversity tracking are exactly the affordances epistemic-trauma recovery requires. A subject in recovery can rely on the platform's metacognitive scaffolding while their own [metakognice](@/glossary/metakognice.md) is rebuilt.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **immutable observation logs** that survive subjective doubt — a critical feature when the subject's own confidence in their memory has been damaged. The record exists independent of the subject's current epistemic state.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team includes scenarios drawn from documented epistemic-trauma recovery cases — verifying that platform UX does not inadvertently reproduce trauma-adjacent patterns (sudden silent record changes, unexplained reframings, suppressed user-confirmed events).
 - The kompendium explicitly cautions against premature **content-level intervention**: arguing about the truth of specific claims with a subject whose epistemic-trust capacity is damaged often re-traumatizes rather than helps. Structural restoration must precede content restoration. Czech-language treatment: [/kompendium/05-recovery/trauma/](@/kompendium/recovery-protocols/trauma.md).
@@ -56,7 +56,7 @@ Epistemic trauma is **not** a license for pathologizing all post-EA experience: 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -112,7 +112,7 @@ Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní dest
 
 ## Vztah k platformě Prismatic
 
-EMA data lze importovat do {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} jako **temporální evidenci** o pacientově epistemické stabilitě. To je užitečné při (a) monitorování průběhu terapie, (b) detekci [retraumatizace](@/glossary/retraumatizace.md) a (c) kalibraci důvěry v pacientovo svědectví v [forenzním kontextu](/kompendium/06-klinicke-aplikace/legal-aspects-EA-recovery/).
+EMA data lze importovat do {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} jako **temporální evidenci** o pacientově epistemické stabilitě. To je užitečné při (a) monitorování průběhu terapie, (b) detekci [retraumatizace](@/glossary/retraumatizace.md) a (c) kalibraci důvěry v pacientovo svědectví v [forenzním kontextu](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/06-klinicke-aplikace/legal-aspects-EA-recovery/).
 
 ## Související
 
@@ -127,7 +127,7 @@ EMA data lze importovat do {{ cross_link(path="/hub/dd/decisions/", text="Decisi
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

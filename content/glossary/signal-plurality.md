@@ -372,7 +372,7 @@ end
 
 ## Contradiction Handling with Plural Signals
 
-When plural signals contradict each other, the [Contradiction Preservation](@/glossary/contradiction-preservation.md) axiom takes precedence. Contradictions between valid signals are preserved as informative data points rather than being resolved by discarding one signal:
+When plural signals contradict each other, the [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) axiom takes precedence. Contradictions between valid signals are preserved as informative data points rather than being resolved by discarding one signal:
 
 ```elixir
 defmodule Prismatic.Epistemic.ContradictionHandler do
@@ -489,12 +489,12 @@ Signal Plurality does not operate in isolation. It interacts with the other six 
 
 | Axiom | Relationship to Signal Plurality |
 |-------|----------------------------------|
-| **[Contradiction Preservation](@/glossary/contradiction-preservation.md)** | When plural signals contradict, both are preserved |
+| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | When plural signals contradict, both are preserved |
 | **Absence Informative** | Missing second signal is itself data -- investigated as potential gap |
-| **[Time Decay](@/glossary/time-decay.md)** | Plural signals must be temporally current; aged signals lose weight |
+| **[Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | Plural signals must be temporally current; aged signals lose weight |
 | **Unknown Valid** | "Insufficient signals" is a valid state; do not fabricate plurality |
 | **Source Independence** | Weighting favors independent sources; shared upstream degrades confidence |
-| **[Provenance Mandatory](@/glossary/provenance-mandatory.md)** | Independence verification requires provenance; signals without it are rejected |
+| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Independence verification requires provenance; signals without it are rejected |
 
 ## Best Practices
 
@@ -526,10 +526,10 @@ Signal Plurality does not operate in isolation. It interacts with the other six 
 - [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation requiring signal plurality
 - [Blue Team](@/glossary/blue-team.md) -- Signal aggregation with plurality enforcement
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate complementing plurality requirements
-- [Confidence Threshold](@/glossary/confidence-threshold.md) -- Scoring system for evaluating plural signals
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) -- Handling contradictions between plural signals
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- Traceability requirement enabling independence verification
-- [Time Decay](@/glossary/time-decay.md) -- Temporal weighting applied to plural signals
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Scoring system for evaluating plural signals
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Handling contradictions between plural signals
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Traceability requirement enabling independence verification
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- Temporal weighting applied to plural signals
 - [Shodan](@/glossary/shodan.md) -- Primary discovery signal source in EASM
 - [Censys](@/glossary/censys.md) -- Secondary discovery signal source in EASM
 - [GreyNoise](@/glossary/greynoise.md) -- Threat context signal source complementing discovery signals
@@ -537,15 +537,15 @@ Signal Plurality does not operate in isolation. It interacts with the other six 
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Agents](@/agents/_index.md) -- Agent catalog including Blue Team aggregators
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Agent catalog including Blue Team aggregators
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

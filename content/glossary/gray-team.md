@@ -396,19 +396,19 @@ The escalation guard introduces minimal overhead -- less than 50ms per finding r
 - [Purple Team](@/glossary/purple-team.md) -- Synthesis team incorporating Gray findings into closure analysis
 - [Black Team](@/glossary/black-team.md) -- Isolated team whose access Gray's escalation guard protects
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing boundary exploration methodology
-- [Quality Gates](@/glossary/quality-gates.md) -- Quality enforcement enhanced by Gray Team findings
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Quality enforcement enhanced by Gray Team findings
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Agents](@/agents/_index.md) -- AIAD agents including Gray Team members
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- AIAD agents including Gray Team members
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

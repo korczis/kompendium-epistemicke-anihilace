@@ -79,13 +79,13 @@ Spaced repetition, in-person workshopy, certifikace s expirací, peer-to-peer le
 
 ## 6. Cross-linky
 
-- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
 - [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
 - [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
 - [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
 - [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
@@ -94,8 +94,8 @@ Spaced repetition, in-person workshopy, certifikace s expirací, peer-to-peer le
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

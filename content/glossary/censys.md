@@ -41,7 +41,7 @@ Censys is a security intelligence platform that performs continuous internet-wid
 
 Censys differentiates itself through its deep focus on TLS/SSL certificate transparency, its structured and strongly-typed data model, and its comprehensive coverage of the X.509 certificate ecosystem. While [Shodan](@/glossary/shodan.md) excels at service and device discovery through banner grabbing, Censys provides superior visibility into the certificate landscape -- tracking certificate issuance, expiration, chain validity, and compliance with certificate transparency (CT) requirements. This complementary focus makes Censys an essential corroborating data source for multi-signal security assessments.
 
-The platform offers both a web interface for interactive exploration and a RESTful API for programmatic integration. Censys continuously refreshes its dataset through regular full-internet scans, maintaining a historical record of how the internet's infrastructure evolves over time. This longitudinal data enables trend analysis, tracking how an organization's [attack surface](@/glossary/attack-surface.md) changes across weeks, months, and years.
+The platform offers both a web interface for interactive exploration and a RESTful API for programmatic integration. Censys continuously refreshes its dataset through regular full-internet scans, maintaining a historical record of how the internet's infrastructure evolves over time. This longitudinal data enables trend analysis, tracking how an organization's [attack surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) changes across weeks, months, and years.
 
 ## Scanning Methodology
 
@@ -311,7 +311,7 @@ end
 
 ## Context in Prismatic
 
-Censys serves as a complementary data source alongside [Shodan](@/glossary/shodan.md) in the Prismatic Perimeter module. The platform queries Censys for certificate data, host services, and autonomous system information during [attack surface](@/glossary/attack-surface.md) discovery. As required by the [Signal Plurality](@/glossary/signal-plurality.md) axiom, Censys findings corroborate or contradict Shodan data, providing the independent second signal needed for confident security assessments.
+Censys serves as a complementary data source alongside [Shodan](@/glossary/shodan.md) in the Prismatic Perimeter module. The platform queries Censys for certificate data, host services, and autonomous system information during [attack surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) discovery. As required by the [Signal Plurality](@/glossary/signal-plurality.md) axiom, Censys findings corroborate or contradict Shodan data, providing the independent second signal needed for confident security assessments.
 
 The integration leverages Censys's specific strengths in the multi-source discovery pipeline:
 
@@ -320,10 +320,10 @@ The integration leverages Censys's specific strengths in the multi-source discov
 | **Certificate discovery** | Deep CT integration, comprehensive cert database | Primary source for certificate-based asset discovery |
 | **TLS assessment** | Detailed cipher suite and protocol analysis | Corroboration of Shodan TLS findings |
 | **Subdomain enumeration** | SAN field extraction from certificates | Complementary to DNS-based enumeration |
-| **Historical analysis** | Longitudinal data on host changes | [Time decay](@/glossary/time-decay.md) calibration |
+| **Historical analysis** | Longitudinal data on host changes | [Time decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) calibration |
 | **ASN mapping** | Accurate autonomous system attribution | Organization boundary definition |
 
-When Shodan and Censys agree on a finding (e.g., both detect an expired TLS certificate on the same host), the finding receives a high confidence score. When they disagree, the platform preserves both signals per the [Contradiction Preservation](@/glossary/contradiction-preservation.md) axiom and flags the finding for analyst review.
+When Shodan and Censys agree on a finding (e.g., both detect an expired TLS certificate on the same host), the finding receives a high confidence score. When they disagree, the platform preserves both signals per the [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) axiom and flags the finding for analyst review.
 
 ## Multi-Source Correlation Pipeline
 
@@ -405,7 +405,7 @@ end
 | **Teams** | 250,000 | 10,000 | Team access, advanced analytics |
 | **Enterprise** | Custom | Unlimited | Dedicated infrastructure, SLA |
 
-The Prismatic Platform implements [rate limiting](@/glossary/rate-limiting.md) for Censys API calls using a sliding window algorithm calibrated to the subscription tier. Failed requests due to rate limiting are automatically retried with exponential backoff.
+The Prismatic Platform implements [rate limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) for Censys API calls using a sliding window algorithm calibrated to the subscription tier. Failed requests due to rate limiting are automatically retried with exponential backoff.
 
 ```elixir
 defmodule PrismaticPerimeter.Sources.Censys.RateLimiter do
@@ -477,27 +477,27 @@ When building integrations with the Censys API, the following practices ensure r
 - [Shodan](@/glossary/shodan.md) - Complementary internet scanning platform for service discovery
 - [EASM](@/glossary/easm.md) - Attack surface management consuming Censys data
 - [Signal Plurality](@/glossary/signal-plurality.md) - Axiom requiring Censys as corroborating source
-- [Attack Surface](@/glossary/attack-surface.md) - External infrastructure Censys helps discover
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) - External infrastructure Censys helps discover
 - [GreyNoise](@/glossary/greynoise.md) - Noise classification complementing Censys findings
-- [TLS](@/glossary/tls.md) - Certificate and protocol analysis from Censys scans
+- [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/) - Certificate and protocol analysis from Censys scans
 - [Risk Score](@/glossary/risk-score.md) - Ratings informed by Censys-validated findings
-- [Rate Limiting](@/glossary/rate-limiting.md) - API quota management for Censys integration
-- [Time Decay](@/glossary/time-decay.md) - Historical Censys data calibrated for recency
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) - Handling Shodan/Censys disagreements
-- [Knowledge Graph](@/glossary/knowledge-graph.md) - Graph database storing correlated Censys findings
+- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) - API quota management for Censys integration
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) - Historical Censys data calibrated for recency
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) - Handling Shodan/Censys disagreements
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) - Graph database storing correlated Censys findings
 - [Entity Resolution](@/glossary/entity-resolution.md) - Linking Censys host data to organizational entities
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - EASM data source architecture
-- [Apps](@/apps/_index.md) - Prismatic Perimeter application
-- [OSINT](@/osint/_index.md) - Open-source intelligence collection methodology
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - EASM data source architecture
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Prismatic Perimeter application
+- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) - Open-source intelligence collection methodology
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

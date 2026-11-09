@@ -36,13 +36,13 @@ Structurally the kompendium consists of: a **definitional section** (the foundat
 
 Within the Prismatic Platform, the kompendium serves three operational roles:
 
-1. **Threat model source** — the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}, [NABLA Infinity](@/glossary/nabla-infinity.md), and [Color Teams](@/glossary/color-teams.md) all draw their adversarial-scenario libraries directly from the kompendium taxonomy. The platform's structural defenses (source diversity, falsification clauses, immutable observation logs, calibration loops) correspond systematically to specific kompendium technique-families.
+1. **Threat model source** — the {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [NABLA Infinity](@/glossary/nabla-infinity.md), and [Color Teams](@/glossary/color-teams.md) all draw their adversarial-scenario libraries directly from the kompendium taxonomy. The platform's structural defenses (source diversity, falsification clauses, immutable observation logs, calibration loops) correspond systematically to specific kompendium technique-families.
 2. **Vocabulary source** — this glossary, including all twelve recently-added entries, derives its conceptual vocabulary from the kompendium. Users encountering ambiguous epistemic-quality issues can move from a glossary term to the kompendium's deeper treatment via the consistent cross-reference pattern (`/kompendium/...`).
 3. **Operational reference** — clinicians, researchers, and platform operators with appropriate access use the kompendium for case-specific reference: identifying which technique-cluster is operating in a given case, what the typical progression is, and what structural defenses are indicated.
 
 The kompendium is a living document: new techniques are added as they are documented, the taxonomy is revised as new mechanisms are understood, and recovery sections are updated as clinical experience accumulates. Stability of the `EA-X.Y.Z-α` codes — preserved across URL and content revisions — provides the cross-temporal reference anchor that allows older clinical and research literature to remain navigable.
 
-The kompendium is published under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE) with the access tiering described under [dual-use poznání](@/glossary/dual-use-poznani.md). Full Czech-language reference: [/kompendium/](@/kompendium/_index.md).
+The kompendium is published under [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md) with the access tiering described under [dual-use poznání](@/glossary/dual-use-poznani.md). Full Czech-language reference: [/kompendium/](@/kompendium/_index.md).
 
 ## See Also
 
@@ -58,7 +58,7 @@ The kompendium is published under [GHL](https://github.com/korczis/prismatic-pla
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

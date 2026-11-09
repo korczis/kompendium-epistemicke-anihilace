@@ -58,11 +58,11 @@ graph TD
 ## Související pojmy
 
 - [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Academy](@/glossary/academy.md) — slug `academy`
-- [Adaptive Learning](@/glossary/adaptive-learning.md) — slug `adaptive-learning`
-- [Adversarial Architecture](@/glossary/adversarial-architecture.md) — slug `adversarial-architecture`
-- [Access Control](@/glossary/access-control.md) — slug `access-control`
-- [Adversarial Drift](@/glossary/adversarial-drift.md) — slug `adversarial-drift`
+- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
+- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
+- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
+- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
+- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
 
 ## Navigace
 
@@ -71,8 +71,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

@@ -38,7 +38,7 @@ C-PTSD is the **predictable downstream outcome** of sustained exposure to the te
 Within the Prismatic Platform:
 
 - The kompendium at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) explicitly anchors the epistemic-annihilation framework in the C-PTSD literature, making the taxonomy clinically actionable for trauma-informed practitioners.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treatment of testimony from C-PTSD survivors incorporates **calibration-aware** weighting: such testimony is **not less reliable** in content, but its presentation (fragmented, affect-laden, non-linear) requires different epistemic processing.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treatment of testimony from C-PTSD survivors incorporates **calibration-aware** weighting: such testimony is **not less reliable** in content, but its presentation (fragmented, affect-laden, non-linear) requires different epistemic processing.
 - Kompendium [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats C-PTSD as evidence that epistemic harm is **biologically and developmentally real** — not merely a philosophical construct.
 
 ## See Also
@@ -56,7 +56,7 @@ Within the Prismatic Platform:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

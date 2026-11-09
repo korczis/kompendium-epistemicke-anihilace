@@ -173,12 +173,12 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — meta-úroveň se zhroutí v rekurzivní bod.
-- **[EA-5.2.27 Trans-kategoriální fluktuace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje.
+- **[EA-5.2.27 Trans-kategoriální fluktuace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje.
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** operuje s **explicitními kategoriálními predikáty**, jejichž stabilita je vynucena typovým systémem — rekurzivní destabilizace by byla zachycena jako typová chyba.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
 - **OSINT pipeline** odděluje **identifikaci** od **klasifikace** — rekurzivní destabilizace klasifikace by nezasáhla identifikační vrstvu.
 
 ## Související
@@ -216,6 +216,6 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -17,7 +17,7 @@ quality_score = 35
 
 **Decision engine** is a system component that synthesizes multi-factor inputs (evidence, signals, heuristics) into a structured decision with confidence or priority ranking. Decision engines may be rule-based (deterministic), probabilistic, or neural network-based.
 
-The Prismatic Platform embeds decision engines in the [Trinity Gate](@/glossary/trinity-gate.md) verification pipeline and [confidence scoring](@/glossary/confidence-scoring.md) system. Decision engines balance:
+The Prismatic Platform embeds decision engines in the [Trinity Gate](@/glossary/trinity-gate.md) verification pipeline and [confidence scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) system. Decision engines balance:
 - Signal quality and provenance
 - Temporal decay of evidence
 - Conflict resolution among contradictory signals
@@ -65,12 +65,12 @@ graph TD
 
 ## Související pojmy
 
-- [Adversarial Conditions](@/glossary/adversarial-conditions.md) — slug `adversarial-conditions`
-- [ACID Transactions](@/glossary/acid-transactions.md) — slug `acid-transactions`
-- [Actor Model](@/glossary/actor-model.md) — slug `actor-model`
-- [Adversarial Drift](@/glossary/adversarial-drift.md) — slug `adversarial-drift`
+- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
+- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
+- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
 - [3NL](@/glossary/3nl.md) — slug `3nl`
-- [Access Control](@/glossary/access-control.md) — slug `access-control`
+- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
 
 ## Navigace
 
@@ -79,8 +79,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

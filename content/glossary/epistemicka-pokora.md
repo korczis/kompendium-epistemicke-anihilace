@@ -31,9 +31,9 @@ The diagnostic distinction lies in **functional outcome**: legitimate humility *
 
 ## Context
 
-Within the Prismatic Platform, the legitimate/weaponized distinction is operationalized in the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration metrics. A subject reporting **uniformly low confidence across all domains** triggers a calibration alert — this is not "humility," it is a marker of epistemic compromise. The pattern is documented at [Kompendium → EA-1.6.5](@/kompendium/techniques/ea-1-6-5.md) with full case studies and recovery protocols at [/kompendium/06-zotaveni/pokora/](@/kompendium/recovery-protocols/pokora.md).
+Within the Prismatic Platform, the legitimate/weaponized distinction is operationalized in the {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration metrics. A subject reporting **uniformly low confidence across all domains** triggers a calibration alert — this is not "humility," it is a marker of epistemic compromise. The pattern is documented at [Kompendium → EA-1.6.5](@/kompendium/techniques/ea-1-6-5.md) with full case studies and recovery protocols at [/kompendium/06-zotaveni/pokora/](@/kompendium/recovery-protocols/pokora.md).
 
-The [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline distinguishes the two modes via cross-domain confidence variance: legitimate humility produces *high variance* in confidence across domains (the subject is humble where they should be, confident where they should be); weaponized humility produces *flat, uniformly suppressed* confidence. This metric is exposed in the platform's calibration dashboard and feeds into the [Brier score](@/glossary/epistemic-confidence.md) tracking on the {{ cross_link(path="/hub/dd/decisions/calibration", text="Calibration LiveView") }}.
+The [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline distinguishes the two modes via cross-domain confidence variance: legitimate humility produces *high variance* in confidence across domains (the subject is humble where they should be, confident where they should be); weaponized humility produces *flat, uniformly suppressed* confidence. This metric is exposed in the platform's calibration dashboard and feeds into the [Brier score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-confidence/) tracking on the {{ <cross_link path="/hub/dd/decisions/calibration" text="Calibration LiveView" /> }}.
 
 The recovery doctrine — documented in [Kompendium](@/kompendium/_index.md) — emphasizes that the antidote to weaponized humility is not "more confidence" but **restored domain-indexing**: helping the subject reconstruct the differentiated structure of legitimate humility versus legitimate confidence.
 
@@ -44,14 +44,14 @@ The recovery doctrine — documented in [Kompendium](@/kompendium/_index.md) —
 - [Metakognice](@/glossary/metakognice.md) — Reflective monitoring required for calibrated humility
 - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Damage that disables humility-calibration
 - [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
-- [Epistemic Confidence](@/glossary/epistemic-confidence.md) — Calibration counterpart
+- [Epistemic Confidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-confidence/) — Calibration counterpart
 - [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

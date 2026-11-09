@@ -59,7 +59,7 @@ Návazný na **EA-8.2.5 Stark Coercive Control** a **EA-8.1.4 Coercive Control S
 ## Cross-linky
 
 - [/kompendium/08-prilohy/](@/kompendium/08-prilohy/_index.md) — Hlavní kapitola Přílohy
-- [/kompendium/techniques/ea-8-1-4-*](/kompendium/techniques/ea-8-1-4-*) — Sourozenecká příloha
+- [/kompendium/techniques/ea-8-1-4-*](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/techniques/ea-8-1-4-*/) — Sourozenecká příloha
 - [/kompendium/techniques/](@/kompendium/techniques/_index.md) — Index všech technik
 - [/kompendium/03-zakladni-kategorie/](@/kompendium/03-zakladni-kategorie/_index.md) — Základní kategorie EA
 - [/kompendium/04-terminalni-protokoly/](@/kompendium/04-terminalni-protokoly/_index.md) — Terminální protokoly
@@ -75,9 +75,9 @@ Návazný na **EA-8.2.5 Stark Coercive Control** a **EA-8.1.4 Coercive Control S
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Promo Site](https://korczis.github.io/prismatic-promo) | [Developer Portal](@/developers/_index.md) | [Kompendium](@/kompendium/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Promo Site](https://korczis.github.io/prismatic-promo) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Kompendium](@/kompendium/_index.md)
 
 *Příloha EA frameworku | EA-8.1.3 | Verze 1.0*

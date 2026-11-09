@@ -34,8 +34,8 @@ The pure attack on this layer is documented as [metakognitivní destrukce](@/glo
 
 Within the Prismatic Platform, metacognition is treated as a **first-class system property**, not a personal trait:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} implements **explicit metacognitive scaffolding**: every high-stakes decision must register predictions, falsification clauses, source-diversity assessments, and confidence calibration. The platform compels metacognitive operations that human reflection often skips.
-- The {{ cross_link(path="/hub/dd/decisions/calibration", text="calibration loop") }} measures the subject's metacognitive accuracy directly: do their confidence reports track their actual reliability? Systematic over- or under-confidence is metacognitive miscalibration, detectable independently of content-level error.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} implements **explicit metacognitive scaffolding**: every high-stakes decision must register predictions, falsification clauses, source-diversity assessments, and confidence calibration. The platform compels metacognitive operations that human reflection often skips.
+- The {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }} measures the subject's metacognitive accuracy directly: do their confidence reports track their actual reliability? Systematic over- or under-confidence is metacognitive miscalibration, detectable independently of content-level error.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) treats metacognitive observations as their own evidence stream — separate from object-level beliefs, with their own provenance ledger. Subjects can revise object-level beliefs without losing the metacognitive history that revealed the need for revision; this prevents EA techniques from rewriting "why I changed my mind".
 - The [3NL architecture](@/glossary/3nl.md) (Logic + Neural + Linguistic) is itself a metacognitive structure at the platform level: each layer monitors the others, no single layer can fail silently.
 - The [Color Teams](@/glossary/color-teams.md) Red Team explicitly tests metacognitive resilience — under adversarial conditions, can platform users still notice their own confidence shifts, source-diversity drops, and calibration drift? Czech-language treatment: [/kompendium/04-mechanismy/metakognice/](@/kompendium/03-zakladni-kategorie/metakognice.md).
@@ -56,7 +56,7 @@ The platform's design rests on a structural insight from the kompendium: **metac
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

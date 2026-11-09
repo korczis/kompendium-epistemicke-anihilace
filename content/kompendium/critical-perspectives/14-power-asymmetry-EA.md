@@ -57,9 +57,9 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 - [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
 - [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
-- [Důvěrnost v EA detekci](/kompendium/critical-perspectives/17-confidentiality-EA/)
+- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)
 - [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)
-- [Stigmatizace skrze EA kategorie](/kompendium/critical-perspectives/12-EA-stigma-risk/)
+- [Stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md)
 - [Political economy alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md)
 - [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
 - [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
@@ -72,7 +72,7 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

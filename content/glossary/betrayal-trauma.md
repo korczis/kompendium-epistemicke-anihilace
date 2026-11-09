@@ -35,7 +35,7 @@ Specifically:
 
 - **EA-1.3.x immunization techniques** weaponize betrayal blindness — the victim cannot examine evidence against the abuser without triggering attachment threat.
 - **EA-2.x metakognitivní destrukce** exploits the dissociative gap: the victim cannot trust their own perceptions because doing so would name the betrayal.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats high-dependency relational contexts as **structural risk factors** in confidence calibration — testimony from victims of trusted institutions requires different epistemic weighting than testimony about strangers.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats high-dependency relational contexts as **structural risk factors** in confidence calibration — testimony from victims of trusted institutions requires different epistemic weighting than testimony about strangers.
 - The kompendium's clinical reflections at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) build directly on BTT to explain why standard reality-testing interventions often fail with EA survivors and why attachment-aware therapeutic modalities are required.
 
 ## See Also
@@ -53,7 +53,7 @@ Specifically:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

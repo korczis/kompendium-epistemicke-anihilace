@@ -39,7 +39,7 @@ Specifically:
 - **Advanced EA-2.x metakognitivní destrukce** progresses through Baudrillard's orders: early-stage manipulation operates in the second order (lies that mask truth); mature manipulation operates in the third (lies that mask the absence of accessible truth); terminal-stage epistemic annihilation generates a fourth-order environment in which the victim has no leverage to even pose the truth-question. See [/glossary/metakognitivni-destrukce/](@/glossary/metakognitivni-destrukce.md).
 - **Mass-scale algorithmic information environments** (deepfakes, generative AI, recommendation-curated reality) are the contemporary infrastructure of third- and fourth-order simulacra — Baudrillard's diagnosis is no longer speculative but operational.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Baudrillard alongside Lyotard's [metanarrative collapse](@/glossary/metanarrative-collapse.md) and Derridean [différance](@/glossary/differance.md) as the postmodern theoretical pillar — the diagnostic apparatus for **late-stage** EA environments where modern (correspondence-theoretic) defenses are insufficient.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicit **provenance tracking** and **source diversity auditing** are anti-simulacral architectural commitments: they refuse to operate purely on internal coherence and demand grounding in extra-systemic reality checks.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicit **provenance tracking** and **source diversity auditing** are anti-simulacral architectural commitments: they refuse to operate purely on internal coherence and demand grounding in extra-systemic reality checks.
 - The kompendium's clinical applications at [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) describe interventions specifically designed to re-anchor patients who have spent extended periods in third- or fourth-order simulacral environments.
 
 ## See Also
@@ -56,7 +56,7 @@ Specifically:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -80,7 +80,7 @@ Cross-departmental matching, neutral mentor coordinator, anonymous mentee feedba
 ## 6. Cross-linky
 
 - [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
+- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
 - [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
 - [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
 - [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
@@ -94,8 +94,8 @@ Cross-departmental matching, neutral mentor coordinator, anonymous mentee feedba
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

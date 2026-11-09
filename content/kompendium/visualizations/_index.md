@@ -23,8 +23,7 @@ Doughnut chart ukazující kolik [EA technik](@/glossary/taxonomie-ea.md) je v k
 
 <canvas id="taxonomy-distribution" width="800" height="500"></canvas>
 <div id="taxonomy-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<script src="/js/kompendium/taxonomy-distribution-chart.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/taxonomy-distribution-chart.js"></script>
 
 ## 2. Severity matrix — kategorie × závažnost (Chart.js)
 
@@ -32,7 +31,7 @@ Bubble chart s velikostí kódovanou počtem technik, barva = úroveň závažno
 
 <canvas id="severity-matrix" width="800" height="500"></canvas>
 <div id="severity-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/severity-matrix-chart.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/severity-matrix-chart.js"></script>
 
 ## 3. 3D graf vztahů technik (Three.js)
 
@@ -40,8 +39,7 @@ Force-layout 3D graph 18 reprezentativních technik napříč EA-1, EA-5.1, EA-5
 
 <div id="technique-graph-3d" style="width:100%; height:500px; background:#0f172a; border-radius:8px;"></div>
 <div id="graph-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
-<script src="/js/kompendium/technique-graph-3d.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/technique-graph-3d.js"></script>
 
 ## 4. Trajektorie zotavení (Chart.js)
 
@@ -49,7 +47,7 @@ Multi-line chart reziduálního deficitu (%) v čase pro 4 úrovně závažnosti
 
 <canvas id="recovery-trajectory" width="800" height="400"></canvas>
 <div id="recovery-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/recovery-trajectory-chart.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/recovery-trajectory-chart.js"></script>
 
 ## 5. Simulace epistemické dezintegrace (p5.js)
 
@@ -58,8 +56,7 @@ Animace 80 částic reprezentujících přesvědčení/koncepty. Cykluje fázemi
 <div id="epistemic-disintegration"></div>
 <input id="disintegration-intensity" type="range" min="0" max="1" step="0.01" value="0.3" class="w-full mt-2">
 <p class="text-slate-400 text-sm mt-1">Intenzita manipulačního tlaku (0 = stabilita, 1 = totální fragmentace)</p>
-<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-<script src="/js/kompendium/epistemic-disintegration-sim.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/epistemic-disintegration-sim.js"></script>
 
 ## 6. Simulace narušení pozornosti (p5.js)
 
@@ -68,7 +65,7 @@ Demonstrace [EA-1.1.2 informačního přetížení](@/kompendium/techniques/ea-1
 <div id="attention-disruption"></div>
 <input id="attention-rate" type="range" min="0.1" max="5" step="0.1" value="1" class="w-full mt-2">
 <p class="text-slate-400 text-sm mt-1">Tempo informačního streamu (0.1 = pomalé, 5 = přetížení)</p>
-<script src="/js/kompendium/attention-disruption-sim.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/attention-disruption-sim.js"></script>
 
 ## 7. Fenomenologická timeline symptomů (Chart.js)
 
@@ -76,7 +73,7 @@ Scatter chart s pěti symptomovými stopami (úzkost, depersonalizace, epistemic
 
 <canvas id="phenomenology-timeline" width="800" height="500"></canvas>
 <div id="phenomenology-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/phenomenology-timeline-chart.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/phenomenology-timeline-chart.js"></script>
 
 ## 8. 2D síť EA technik (Chart.js)
 
@@ -84,7 +81,7 @@ Statická 2D síť ~30 reprezentativních technik se vztahy. Klikněte na uzel �
 
 <canvas id="ea-network-2d" width="800" height="600"></canvas>
 <div id="ea-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/ea-network-2d.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/ea-network-2d.js"></script>
 
 ## 9. Rekurzivní spirála myšlení (p5.js)
 
@@ -92,7 +89,7 @@ Vizualizace [hyperreflexivity (EA-5.1.13)](@/kompendium/techniques/_index.md) a 
 
 <div id="recursive-thought-spiral"></div>
 <p class="text-slate-400 text-sm mt-1">Pohni myší: vertikální poloha řídí hloubku rekurze (1–12). Nad 9 = metakognitivní paralýza.</p>
-<script src="/js/kompendium/recursive-thought-spiral.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/recursive-thought-spiral.js"></script>
 
 ## 10. NABLA Infinity 16-úrovňová pipeline (Three.js)
 
@@ -100,7 +97,7 @@ Vizualizace [hyperreflexivity (EA-5.1.13)](@/kompendium/techniques/_index.md) a 
 
 <div id="nabla-pipeline-viz" style="width:100%; height:600px; background:#0f172a; border-radius:8px;"></div>
 <div id="nabla-pipeline-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/nabla-pipeline-viz.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/nabla-pipeline-viz.js"></script>
 
 ## 11. Historické případy EA — timeline 1930–2024 (Chart.js)
 
@@ -108,7 +105,7 @@ Scatter chart 40 historických případů: totalitní režimy, kulty, dezinforma
 
 <canvas id="historical-cases-timeline" width="800" height="500"></canvas>
 <div id="historical-cases-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/historical-cases-timeline.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/historical-cases-timeline.js"></script>
 
 ## 12. Rozhodovací strom protokolů (Three.js 3D)
 
@@ -116,7 +113,7 @@ Scatter chart 40 historických případů: totalitní režimy, kulty, dezinforma
 
 <div id="protocol-decision-tree" class="w-full h-[500px] bg-slate-900 rounded-lg"></div>
 <div id="protocol-tree-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/protocol-decision-tree.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/protocol-decision-tree.js"></script>
 
 ## 13. 2D síť top 50 glossary termínů (p5.js force-directed)
 
@@ -124,7 +121,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 <div id="glossary-network"></div>
 <div id="glossary-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/glossary-network-2d.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/glossary-network-2d.js"></script>
 
 ## 14. Sankey-like progrese zotavení (Chart.js custom plugin)
 
@@ -132,7 +129,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 <canvas id="recovery-sankey" width="800" height="450"></canvas>
 <div id="recovery-sankey-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/recovery-progression-sankey.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/recovery-progression-sankey.js"></script>
 
 ## 15. Digitální útočná plocha EA-9 (Three.js)
 
@@ -140,7 +137,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 <div id="ea9-attack-surface" style="width:100%; height:500px; background:#0a0a0a; border-radius:8px;"></div>
 <div id="ea9-attack-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/ea9-digital-attack-surface.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/ea9-digital-attack-surface.js"></script>
 
 ## 16. Cross-cultural EA heatmap (Chart.js)
 
@@ -148,7 +145,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 <canvas id="cross-cultural-heatmap" width="800" height="500"></canvas>
 <div id="cross-cultural-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/cross-cultural-heatmap.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/cross-cultural-heatmap.js"></script>
 
 ## 17. Forenzní tok důkazů (p5.js)
 
@@ -156,7 +153,7 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 <div id="forensic-evidence-flow"></div>
 <div id="forensic-evidence-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/forensic-evidence-flow.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/forensic-evidence-flow.js"></script>
 
 ## 18. 3D síť recovery protokolů (Three.js)
 
@@ -164,19 +161,19 @@ Force-directed síť 50 nejdůležitějších termínů glossary. Hrany = `relat
 
 <div id="recovery-network-3d" style="width:100%; height:550px; background:#0f172a; border-radius:8px;"></div>
 <div id="recovery-network-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="/js/kompendium/recovery-network-3d.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/recovery-network-3d.js"></script>
 
 ## Související
 
 - [Hub kompendia](@/kompendium/_index.md)
 - [Techniques index](@/kompendium/techniques/_index.md)
 - [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
-- {{ cross_link(path="/hub/dd/decisions/", text="Glossary: Decision Engine") }}
+- {{ <cross_link path="/hub/dd/decisions/" text="Glossary: Decision Engine" /> }}
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

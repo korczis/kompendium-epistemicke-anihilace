@@ -31,7 +31,7 @@ Five definitional features distinguish epistemic annihilation from ordinary cogn
 
 Within the Prismatic Platform, epistemic annihilation serves as a **threat model** integrated into multiple subsystems:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly treats indicators of epistemic manipulation as **negative confidence signals** in calibration — a decision based on inputs from a corrupted epistemic process is itself epistemically suspect, even if formally consistent.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly treats indicators of epistemic manipulation as **negative confidence signals** in calibration — a decision based on inputs from a corrupted epistemic process is itself epistemically suspect, even if formally consistent.
 - The [Color Teams](@/glossary/color-teams.md) framework includes **Red Team** simulations that test platform-level resilience to epistemic adversarial scenarios drawn from the kompendium taxonomy.
 - The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements structural defenses corresponding to the kompendium's neutralization strategies: source diversity checks (defense against EA-1.1.1 selective exposure), explicit falsifiability tracking (defense against EA-1.3.1 immunization), provenance auditing (defense against EA-1.3.3 thematic diversion).
 - The Czech-language Kompendium itself is published at [/kompendium/](@/kompendium/_index.md) as a standalone reference, with per-technique deep-dives at [/kompendium/techniques/](@/kompendium/techniques/_index.md).
@@ -54,7 +54,7 @@ Epistemic annihilation is distinguished from **doxastic annihilation** — the d
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

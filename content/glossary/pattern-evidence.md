@@ -40,12 +40,12 @@ In OSINT-driven due diligence, pattern evidence is frequently the strongest avai
 
 ## Related Concepts
 
-- [Evidence](@/glossary/evidence.md) - Parent category
-- [Verifiable Evidence](@/glossary/verifiable-evidence.md) - Quality standard pattern evidence must meet
-- [Pattern Matching](@/glossary/pattern-matching.md) - Underlying technical mechanism
-- [Behaviour Pattern](@/glossary/behaviour-pattern.md) - Behavioral subset of pattern evidence
-- [Anomaly Detection](@/glossary/anomaly-detection.md) - Inverse approach (deviation from pattern)
-- [Statistical Detection](@/glossary/statistical-detection.md) - Quantitative framework for pattern evaluation
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) - Parent category
+- [Verifiable Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/verifiable-evidence/) - Quality standard pattern evidence must meet
+- [Pattern Matching](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pattern-matching/) - Underlying technical mechanism
+- [Behaviour Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour-pattern/) - Behavioral subset of pattern evidence
+- [Anomaly Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/anomaly-detection/) - Inverse approach (deviation from pattern)
+- [Statistical Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/statistical-detection/) - Quantitative framework for pattern evaluation
 - [Expert Witness](@/glossary/expert-witness.md) - Required to introduce pattern evidence at trial
 
 ## References

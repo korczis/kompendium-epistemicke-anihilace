@@ -28,9 +28,9 @@ Konkrétní popis pro **Propaganda** vyžaduje analýzu specifického kanálu, s
 
 ## Etický kontext
 
-{% callout(type="warning") %}
+{% <callout type="warning"> %}
 Analýza populačně-měřítkových jevů přechází z klinické do politické sféry. Prismatic Platform používá tuto sekci pro **defensivní analýzu** (detekce + ochrana populací), nikoli pro ofenzivní operace.
-{% end %}
+{% </callout> %}
 
 ## Operační aplikace
 

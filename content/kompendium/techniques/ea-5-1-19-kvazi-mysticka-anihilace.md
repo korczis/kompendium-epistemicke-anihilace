@@ -179,7 +179,7 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický monitor explicitně modeluje *unfalsifiable interpretive frames* jako kategorii rizika.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrační logika penalizuje rozhodnutí, jejichž odůvodnění není redukovatelné na falsifikovatelná tvrzení.
 - **[Color Teams](@/glossary/color-teams.md)** — Red Team scénáře explicitně zahrnují kvazi-mystické vektory v hodnocení společenské manipulace.
 
 ## Související
@@ -194,7 +194,7 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
   - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
@@ -221,6 +221,6 @@ Klient absolvoval sérii ayahuasca seancí s "shamanem" bez klinické supervize.
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

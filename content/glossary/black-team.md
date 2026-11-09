@@ -166,7 +166,7 @@ Purple Team (synthesizes with Blue Team findings)
 Blue Team (builds defensive posture)
 ```
 
-[White Team](@/glossary/white-team.md) may occasionally validate Black Team's logical consistency through [formal verification](@/glossary/formal-verification.md) using [Lean4](@/glossary/lean4.md) proofs, but this verification operates on the abstract output only -- White Team never accesses Black Team's internal reasoning processes.
+[White Team](@/glossary/white-team.md) may occasionally validate Black Team's logical consistency through [formal verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) using [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, but this verification operates on the abstract output only -- White Team never accesses Black Team's internal reasoning processes.
 
 The [Purple Team](@/glossary/purple-team.md) coordinator may reference Black Team output when performing Red-Blue loop closure, but only through the filtered, abstracted versions that have passed through the AbstractionFilter. Purple Team has no authority to request lower-abstraction output from Black Team.
 
@@ -430,7 +430,7 @@ end
 
 4. **Rotate threat class focus across campaigns** -- avoid over-indexing on a single threat class. Information asymmetry, trust chain degradation, resource exhaustion, state corruption, and signal manipulation each require dedicated analytical cycles.
 
-5. **Validate abstraction levels through White Team formal verification** -- whenever possible, submit critical threat models to [White Team](@/glossary/white-team.md) for [Lean4](@/glossary/lean4.md) logical consistency proof. This catches reasoning errors without exposing internal processes.
+5. **Validate abstraction levels through White Team formal verification** -- whenever possible, submit critical threat models to [White Team](@/glossary/white-team.md) for [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) logical consistency proof. This catches reasoning errors without exposing internal processes.
 
 6. **Monitor audit trail completeness continuously** -- gaps in the immutable audit trail indicate potential enforcement failures. Every operation must have a corresponding audit entry.
 
@@ -454,12 +454,12 @@ end
 - [Agent Registry](@/glossary/agent-registry.md) -- Central catalog where Black Team agents are registered
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing abstraction constraints
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that Black Team output must pass
-- [Formal Verification](@/glossary/formal-verification.md) -- Techniques used to validate Black Team logical consistency
-- [Lean4](@/glossary/lean4.md) -- Theorem prover used in White Team validation of Black output
-- [Threat Intelligence](@/glossary/threat-intelligence.md) -- Strategic intelligence derived from Black Team models
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- Techniques used to validate Black Team logical consistency
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in White Team validation of Black output
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Strategic intelligence derived from Black Team models
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline through which filtered output flows
-- [Penetration Testing](@/glossary/penetration-testing.md) -- Operational testing informed by Black Team analysis
-- [Consciousness Traits](@/glossary/consciousness-traits.md) -- Platform traits that Black Team threat models help protect
+- [Penetration Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/penetration-testing/) -- Operational testing informed by Black Team analysis
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Platform traits that Black Team threat models help protect
 
 ## Ethical Framework
 
@@ -475,17 +475,17 @@ These ethical constraints are enforced through the same mechanisms as the techni
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Capabilities](@/capabilities/_index.md) -- Platform capability catalog
-- [Agents](@/agents/_index.md) -- Full agent catalog including Black Team agents
-- {{ cross_link(path="/security/", text="Security") }} -- Security architecture and operations
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Black Team agents
+- {{ <cross_link path="/security/" text="Security" /> }} -- Security architecture and operations
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

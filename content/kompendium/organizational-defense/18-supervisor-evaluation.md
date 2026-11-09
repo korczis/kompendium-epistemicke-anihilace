@@ -79,9 +79,9 @@ Aggregated reports s NLP analýzou, mandatory coaching při red flags, korelace 
 
 ## 6. Cross-linky
 
-- [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
+- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
 - [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
+- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
 - [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
 - [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
@@ -94,8 +94,8 @@ Aggregated reports s NLP analýzou, mandatory coaching při red flags, korelace 
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

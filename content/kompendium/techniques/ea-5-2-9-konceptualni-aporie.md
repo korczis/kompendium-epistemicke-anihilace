@@ -170,12 +170,12 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pojmová aporie přenesena na meta-kognitivní úroveň.
-- **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
+- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** vyžaduje **explicitně typované pojmy** v každém epistemickém aktu — aporie by byla zachycena jako typová chyba.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **konkrétní formulaci** rozhodovaných pojmů; aporetická paralyzace by zablokovala vstup.
 - **OSINT framework** strukturálně vyžaduje **operacionalizované** pojmy (entity, atribut, relace), které musí být **funkčně použitelné**.
 
 ## Související
@@ -212,6 +212,6 @@ Intervence: editoriální intervence, povinný **stylistický** rámec, redukce 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -44,7 +44,7 @@ Undue influence is the central litigation theory in contested wills, irrevocable
 - [Trauma Bonding](@/glossary/trauma-bonding.md) - Psychological mechanism that enables sustained influence
 - [Gaslighting](@/glossary/gaslighting.md) - Manipulation tactic that erodes capacity for independent judgment
 - [Informed Consent](@/glossary/informed-consent.md) - Standard that undue influence vitiates
-- [Consent](@/glossary/consent.md) - General doctrine of voluntary agreement
+- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) - General doctrine of voluntary agreement
 - [Expert Witness](@/glossary/expert-witness.md) - Authority typically required to prove undue influence
 
 ## References

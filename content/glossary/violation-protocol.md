@@ -46,7 +46,7 @@ The four escalation levels form a strict hierarchy:
 
 ## Historical Context and Motivation
 
-The Violation Protocol was formalized in Generation 6 of the Prismatic Platform's evolution, during the period when [quality gates](@/glossary/quality-gates.md) were being introduced systematically. Before the protocol's existence, quality enforcement was binary: checks either passed or failed, with no distinction between a minor formatting issue and a deliberate hook bypass attempt. This lack of granularity created two problems.
+The Violation Protocol was formalized in Generation 6 of the Prismatic Platform's evolution, during the period when [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) were being introduced systematically. Before the protocol's existence, quality enforcement was binary: checks either passed or failed, with no distinction between a minor formatting issue and a deliberate hook bypass attempt. This lack of granularity created two problems.
 
 First, developers treated all failures equally, applying minimal effort to pass the gate regardless of the underlying issue's severity. A compilation warning received the same attention as a stub implementation, despite the fact that the latter represents a fundamentally different category of quality risk. Second, there was no escalation pathway for systemic violations. When a pattern of repeated failures indicated a deeper process problem rather than an isolated coding mistake, the enforcement system had no mechanism to escalate beyond the immediate blocking action.
 
@@ -62,7 +62,7 @@ Each violation level carries precise semantic meaning that determines both the e
 
 **L1 - Minor Deviation** represents cosmetic or stylistic departures from platform standards. These include variable naming inconsistencies, suboptimal but functional code patterns, missing documentation on internal helper functions, or minor formatting deviations. L1 violations do not affect correctness or security. The response is a warning with immediate correction expected in the same commit or work session. L1 violations are tracked but do not block progress.
 
-**L2 - Quality Violation** represents functional quality failures detected by automated tooling. Compilation warnings (under `--warnings-as-errors`), [Credo](@/glossary/credo.md) strict violations, [Dialyzer](@/glossary/dialyzer.md) type errors, failed unit tests, and coverage regressions all trigger L2. The response is a hard block: the commit, merge, or deployment is rejected until the violation is corrected. L2 violations require the developer or agent to fix the issue and re-submit through the full quality gate pipeline.
+**L2 - Quality Violation** represents functional quality failures detected by automated tooling. Compilation warnings (under `--warnings-as-errors`), [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) strict violations, [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) type errors, failed unit tests, and coverage regressions all trigger L2. The response is a hard block: the commit, merge, or deployment is rejected until the violation is corrected. L2 violations require the developer or agent to fix the issue and re-submit through the full quality gate pipeline.
 
 **L3 - Incomplete Delivery** represents work product that fails to meet the NM/ND completeness standard. Stub implementations, placeholder functions returning hardcoded values, TODO or FIXME comments left in production code, mock implementations where real ones are required, and missing regression tests for bug fixes all trigger L3. The response is rejection with restart: the entire deliverable is rejected, and the work must be redone from scratch rather than patched incrementally. This ensures that incomplete work is never built upon.
 
@@ -305,7 +305,7 @@ The `mix quality.gates` task orchestrates the full violation detection suite. It
 
 ### Agent Enforcement
 
-AIAD agents continuously monitor code changes and classify violations in real time. The [Quality Floor Guardian](@/glossary/quality-gates.md) agent maintains a baseline quality score and triggers violations when the score drops below defined thresholds. Agent-detected violations follow the same L1-L4 escalation pathway as automated tooling violations.
+AIAD agents continuously monitor code changes and classify violations in real time. The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) agent maintains a baseline quality score and triggers violations when the score drops below defined thresholds. Agent-detected violations follow the same L1-L4 escalation pathway as automated tooling violations.
 
 ## Code Examples
 
@@ -460,7 +460,7 @@ The key differentiator is that the Violation Protocol combines deterministic cla
 
 - **Confusing violation level with effort required**: An L2 violation (compilation warning) may take 30 seconds to fix. An L1 violation (naming inconsistency) may require renaming across 50 files. The level reflects severity to platform integrity, not effort to resolve.
 
-- **Assuming CI catches everything**: [Pre-commit hooks](@/glossary/pre-commit-hooks.md) are the first line of defense. Relying solely on CI for violation detection introduces delay between violation and feedback, reducing developer productivity.
+- **Assuming CI catches everything**: [Pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) are the first line of defense. Relying solely on CI for violation detection introduces delay between violation and feedback, reducing developer productivity.
 
 - **Treating the protocol as punitive**: The Violation Protocol is a quality assurance mechanism, not a punishment system. It exists to maintain the platform's [zero-warning](@/glossary/zero-warning-policy.md), zero-debt state across the entire codebase.
 
@@ -475,30 +475,30 @@ This integration creates a closed feedback loop: violations are detected immedia
 ## Related Concepts
 
 - [NM/ND Doctrine](@/glossary/nm-nd.md) - The governing framework that the Violation Protocol enforces
-- [NO MERCY](@/glossary/no-mercy.md) - Zero tolerance enforcement principle triggering violations
-- [NO DOUBTS](@/glossary/no-doubts.md) - Evidence-based decision principle preventing L4 doubt-compromised states
-- [Quality Gates](@/glossary/quality-gates.md) - Automated enforcement pipeline detecting L2+ violations
-- [Pre-Commit Hooks](@/glossary/pre-commit-hooks.md) - First enforcement point in the violation detection chain
+- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Zero tolerance enforcement principle triggering violations
+- [NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) - Evidence-based decision principle preventing L4 doubt-compromised states
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Automated enforcement pipeline detecting L2+ violations
+- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - First enforcement point in the violation detection chain
 - [Archer Supreme](@/glossary/archer-supreme.md) - L5 agent conducting Supreme Review for L4 violations
 - [Regression Test](@/glossary/regression-test.md) - Mandatory test preventing repeat violations
 - [Quality Debt](@/glossary/quality-debt.md) - Accumulated violations tracked as Quality Debt Points before elimination
-- [Credo](@/glossary/credo.md) - Static analysis tool detecting L2 violations
-- [Dialyzer](@/glossary/dialyzer.md) - Type analysis tool detecting L2 violations
+- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) - Static analysis tool detecting L2 violations
+- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) - Type analysis tool detecting L2 violations
 - [Clean Run](@/glossary/clean-run.md) - The compilation and test state required by enforcement
 - [Zero Warning Policy](@/glossary/zero-warning-policy.md) - The policy that makes compilation warnings L2 violations
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - Platform architecture overview
-- [Technologies](@/technologies/_index.md) - Technology stack details
-- [Apps](@/apps/_index.md) - Application ecosystem governed by the Violation Protocol
-- [Capabilities](@/capabilities/_index.md) - Platform enforcement capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Application ecosystem governed by the Violation Protocol
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) - Platform enforcement capabilities
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

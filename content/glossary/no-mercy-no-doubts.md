@@ -41,7 +41,7 @@ The NM/ND Doctrine draws from several intellectual traditions, though it does no
 
 From **stoic philosophy**, NM/ND adopts the principle that excellence is not an act but a habit. Marcus Aurelius wrote: "Waste no more time arguing about what a good man should be. Be one." The doctrine translates this into engineering terms: waste no more time debating what good code should be -- enforce it automatically. The pre-commit hook does not argue; it blocks.
 
-From **lean manufacturing**, NM/ND adopts the concept of "jidoka" (autonomation) -- the principle that quality defects should be detected and stopped at the point of creation, not downstream. In Toyota's production system, any worker can stop the assembly line when a defect is detected. In the Prismatic Platform, any [quality gate](@/glossary/quality-gates.md) can stop a commit when a violation is detected. The cost of stopping is always less than the cost of propagating a defect.
+From **lean manufacturing**, NM/ND adopts the concept of "jidoka" (autonomation) -- the principle that quality defects should be detected and stopped at the point of creation, not downstream. In Toyota's production system, any worker can stop the assembly line when a defect is detected. In the Prismatic Platform, any [quality gate](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) can stop a commit when a violation is detected. The cost of stopping is always less than the cost of propagating a defect.
 
 From **military doctrine**, NM/ND adopts the principle of "commander's intent" -- clear articulation of the desired end state that enables autonomous execution. The doctrine's end state is explicit: doctrine-enforced quality, zero warnings, zero debt, zero known issues. Every agent and every developer understands this intent and can act autonomously toward it.
 
@@ -49,7 +49,7 @@ From **military doctrine**, NM/ND adopts the principle of "commander's intent" -
 
 ### NO MERCY -- Enforcement
 
-[NO MERCY](@/glossary/no-mercy.md) governs the delivery of all code and artifacts within the platform. Its requirements are absolute:
+[NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) governs the delivery of all code and artifacts within the platform. Its requirements are absolute:
 
 - **Zero Tolerance**: No incomplete implementations, no stubs, no mocks used as permanent fixtures, no placeholder code, no TODO markers, no FIXME annotations. If something is written, it is finished.
 - **100% Test Coverage**: All code must have comprehensive tests -- unit tests, integration tests, and property-based tests where applicable. Coverage is measured and enforced, not estimated.
@@ -62,7 +62,7 @@ The enforcement is not advisory. Pre-commit hooks block commits that violate any
 
 ### NO DOUBTS -- Epistemic Rigor
 
-[NO DOUBTS](@/glossary/no-doubts.md) governs the decision-making process that precedes action. Its requirements complement NO MERCY by ensuring that the right problem is solved before demanding that the solution is complete:
+[NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) governs the decision-making process that precedes action. Its requirements complement NO MERCY by ensuring that the right problem is solved before demanding that the solution is complete:
 
 - **Full Investigation**: Before implementing any change, the developer or agent must fully understand the problem, its root cause, its scope, and its implications. Surface-level analysis is insufficient.
 - **Evidence-Based Action**: Every decision must be backed by tests, benchmarks, profiling data, or formal verification. Assertions without evidence are treated as unverified hypotheses, not facts.
@@ -84,7 +84,7 @@ EXPLORATION (NABLA: maps uncertainty, preserves contradictions, forms hypotheses
 EXECUTION (NM/ND: decisive action, complete delivery, zero tolerance)
 ```
 
-During the NABLA phase, [contradiction preservation](@/glossary/contradiction-preservation.md) is mandatory -- conflicting evidence is maintained, not resolved prematurely. Multiple hypotheses are explored in parallel. Uncertainty is mapped explicitly rather than hidden behind false confidence. The seven NABLA axioms (Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, [Provenance Mandatory](@/glossary/provenance-mandatory.md)) govern this phase.
+During the NABLA phase, [contradiction preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) is mandatory -- conflicting evidence is maintained, not resolved prematurely. Multiple hypotheses are explored in parallel. Uncertainty is mapped explicitly rather than hidden behind false confidence. The seven NABLA axioms (Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)) govern this phase.
 
 The transition to NM/ND execution occurs only when confidence crosses the 0.95 threshold and the Trinity Gate validates the conclusion through three independent verification methods. Once this transition occurs, the NM/ND enforcement rules apply in full: the implementation must be complete, tested, documented, and production-ready.
 
@@ -138,7 +138,7 @@ NM/ND enforcement is implemented through multiple automated systems that operate
 
 ## Implementation in Elixir
 
-The NM/ND Doctrine's enforcement infrastructure is itself implemented as [OTP](@/glossary/otp.md) applications within the platform:
+The NM/ND Doctrine's enforcement infrastructure is itself implemented as [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) applications within the platform:
 
 ```elixir
 defmodule PrismaticSafety.DoctrineEnforcer do
@@ -205,7 +205,7 @@ The NM/ND Doctrine has measurable effects on the platform's quality metrics:
 
 - **Quality Score**: doctrine-enforced across all 13 quality domains, maintained continuously
 - **Quality Debt**: 0 QDP (Quality Debt Points) -- complete elimination of accumulated debt
-- **Compilation**: Zero warnings across 115 [OTP](@/glossary/otp.md) applications
+- **Compilation**: Zero warnings across 115 [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) applications
 - **Static Analysis**: Zero Credo violations, zero Dialyzer violations
 - **Test Coverage**: Comprehensive coverage with mandatory regression tests for every bug fix
 - **Runtime**: Zero known defects in the active codebase
@@ -241,31 +241,31 @@ The workflow makes the NM/ND transition explicit. Steps 2-3 operate under NO DOU
 
 ## Related Terms
 
-- [NO MERCY](@/glossary/no-mercy.md) -- The zero tolerance enforcement arm of the doctrine
-- [NO DOUBTS](@/glossary/no-doubts.md) -- The evidence-based investigation arm of the doctrine
+- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) -- The zero tolerance enforcement arm of the doctrine
+- [NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) -- The evidence-based investigation arm of the doctrine
 - [Violation Protocol](@/glossary/violation-protocol.md) -- L1-L4 escalation levels for doctrine breaches
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing the exploration phase before NM/ND execution
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Three-layer verification gate enabling the NABLA-to-NM/ND transition
-- [Quality Gates](@/glossary/quality-gates.md) -- Automated enforcement pipeline implementing NM/ND checks
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Automated enforcement pipeline implementing NM/ND checks
 - [AIAD](@/glossary/aiad.md) -- Agent specification standard carrying mandatory NM/ND enforcement blocks
-- [Confidence Threshold](@/glossary/confidence-threshold.md) -- The 0.95 threshold that triggers transition from exploration to execution
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- The 0.95 threshold that triggers transition from exploration to execution
 - [Clean Run](@/glossary/clean-run.md) -- The compilation and test state required by NO MERCY enforcement
 - [Regression Test](@/glossary/regression-test.md) -- Mandatory test accompanying every bug fix under NM/ND
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- NABLA axiom ensuring decisions have traceable evidence
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- NABLA axiom ensuring decisions have traceable evidence
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture governed by NM/ND principles
-- [Platform Capabilities](@/capabilities/_index.md) -- Quality enforcement and doctrine capabilities in action
-- [Applications](@/apps/_index.md) -- 115 OTP applications all operating under NM/ND governance
-- [Agent Registry](@/agents/_index.md) -- 530+ agents carrying mandatory NM/ND enforcement blocks
-- [Technologies](@/technologies/_index.md) -- Technology stack supporting NM/ND automated enforcement
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture governed by NM/ND principles
+- [Platform Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Quality enforcement and doctrine capabilities in action
+- [Applications](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- 115 OTP applications all operating under NM/ND governance
+- [Agent Registry](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- 530+ agents carrying mandatory NM/ND enforcement blocks
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack supporting NM/ND automated enforcement
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

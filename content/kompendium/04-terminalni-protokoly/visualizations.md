@@ -27,8 +27,7 @@ Listy stromu jsou **barevně kódované** podle úrovně rizika a klikatelné pr
 
 <div id="section-04-decision-tree" class="rounded bg-slate-900"></div>
 <div id="tree-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-<script src="/js/kompendium/section-04-decision-tree.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-04-decision-tree.js"></script>
 
 ## Jak číst strom
 
@@ -53,6 +52,6 @@ Listy stromu jsou **barevně kódované** podle úrovně rizika a klikatelné pr
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

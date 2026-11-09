@@ -31,7 +31,7 @@ The diagnostic principle is **identity-preservation under counter-evidence**: a 
 
 Within the Prismatic Platform, falsifiability is operationalized as a **mandatory decision-engine input**:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} requires every high-confidence claim to be paired with an explicit **falsification clause** — the observation or evidence that would lower confidence. A belief without a falsification clause is automatically downgraded in calibration scoring, regardless of how many supporting sources exist.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} requires every high-confidence claim to be paired with an explicit **falsification clause** — the observation or evidence that would lower confidence. A belief without a falsification clause is automatically downgraded in calibration scoring, regardless of how many supporting sources exist.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) tracks **prediction registration**: confidence claims must be made before outcomes are observed, not after. Post-hoc rationalization is structurally prevented because the prediction record is immutable.
 - The [Color Teams](@/glossary/color-teams.md) Red Team builds scenarios designed specifically to test whether platform reasoning can be **immunized** against counter-evidence — verifying that the falsification-clause requirement is not merely cosmetic.
 - The contrast with [Lakatos' research programmes](@/glossary/lakatos-vyzkumny-program.md) is operational: legitimate auxiliary-hypothesis introduction *increases* the empirical content of the program (progressive shift); EA-1.3.1 immunization *decreases* it (degenerative shift). The Decision Engine tracks this distinction by content-delta scoring.
@@ -52,7 +52,7 @@ Falsifiability has well-known limits. Quine-Duhem holism shows that no single hy
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

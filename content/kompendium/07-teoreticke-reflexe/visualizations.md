@@ -26,8 +26,7 @@ Tato sekce-specifická vizualizace zobrazuje **25+ filosofů** teoreticky releva
 
 <div id="section-07-framework-map" class="rounded bg-slate-900"></div>
 <div id="framework-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
-<script src="/js/kompendium/section-07-framework-map.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-07-framework-map.js"></script>
 
 ## Jak číst mapu
 
@@ -54,6 +53,6 @@ Tato sekce-specifická vizualizace zobrazuje **25+ filosofů** teoreticky releva
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

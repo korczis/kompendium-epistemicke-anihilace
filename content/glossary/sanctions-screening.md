@@ -36,7 +36,7 @@ Sanctions screening is the regulatory compliance process of systematically check
 
 Sanctions screening operates at the intersection of regulatory compliance, financial crime prevention, and national security. Organizations subject to sanctions regulations -- including financial institutions, insurance companies, trade facilitators, and increasingly technology companies -- must screen counterparties, customers, beneficial owners, and transactions against applicable lists before engaging in business relationships or processing payments. Failure to comply carries severe penalties including criminal prosecution, substantial fines (reaching billions of dollars for major violations), and reputational damage.
 
-The Prismatic Platform implements sanctions screening as an integrated component of its [OSINT](@/glossary/osint.md) and [intelligence fusion](@/glossary/intelligence-fusion.md) pipeline, leveraging Elixir's concurrency model to perform parallel multi-list screening with sub-second response times. The platform's screening results feed directly into [security ratings](@/glossary/security-rating.md) and [compliance assessments](@/glossary/compliance-framework.md), providing a unified view of entity risk across regulatory, security, and operational dimensions.
+The Prismatic Platform implements sanctions screening as an integrated component of its [OSINT](@/glossary/osint.md) and [intelligence fusion](@/glossary/intelligence-fusion.md) pipeline, leveraging Elixir's concurrency model to perform parallel multi-list screening with sub-second response times. The platform's screening results feed directly into [security ratings](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) and [compliance assessments](@/glossary/compliance-framework.md), providing a unified view of entity risk across regulatory, security, and operational dimensions.
 
 ## Historical Context and Regulatory Landscape
 
@@ -329,12 +329,12 @@ The platform's screening results feed into multiple downstream systems:
 
 | Component | Integration | Purpose |
 |-----------|------------|---------|
-| [Security Rating](@/glossary/security-rating.md) | Risk level affects score | Sanctions exposure degrades organization rating |
+| [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) | Risk level affects score | Sanctions exposure degrades organization rating |
 | [EASM](@/glossary/easm.md) | Supply chain screening | Identifies sanctioned entities in vendor networks |
-| [NIS2](@/glossary/nis2.md) Compliance | Supply chain risk | NIS2 requires supply chain security assessment |
+| [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) Compliance | Supply chain risk | NIS2 requires supply chain security assessment |
 | [Intelligence Fusion](@/glossary/intelligence-fusion.md) | Multi-source correlation | Screening results correlated with other OSINT data |
-| [Audit Trail](@/glossary/audit-trail.md) | Compliance documentation | All screening decisions logged with full audit trail |
-| [SIEM](@/glossary/siem.md) | Security events | Screening results emitted as security telemetry events |
+| [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) | Compliance documentation | All screening decisions logged with full audit trail |
+| [SIEM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/siem/) | Security events | Screening results emitted as security telemetry events |
 
 ## Comparison with Alternatives
 
@@ -411,26 +411,26 @@ end
 
 - [OSINT](@/glossary/osint.md) -- Source methodology for accessing public sanctions data
 - [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation of screening results
-- [NIS2 Directive](@/glossary/nis2.md) -- Compliance framework requiring supply chain screening
+- [NIS2 Directive](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) -- Compliance framework requiring supply chain screening
 - [EASM](@/glossary/easm.md) -- Attack surface context enriching screening results
-- [Security Rating](@/glossary/security-rating.md) -- Scores incorporating sanctions screening outcomes
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Scores incorporating sanctions screening outcomes
 - [Entity Resolution](@/glossary/entity-resolution.md) -- Deduplication technology underlying screening accuracy
-- [Threat Intelligence](@/glossary/threat-intelligence.md) -- External feeds complementing sanctions data
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- External feeds complementing sanctions data
 - [Compliance Framework](@/glossary/compliance-framework.md) -- Regulatory requirements driving screening obligations
-- [Audit Trail](@/glossary/audit-trail.md) -- Immutable documentation of screening decisions
-- [SDN List](@/glossary/sdn-list.md)
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable documentation of screening decisions
+- [SDN List](https://prismatic-reality-com.github.io/prismatic-promo/glossary/sdn-list/)
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Apps](@/apps/_index.md) -- Application directory
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Application directory
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

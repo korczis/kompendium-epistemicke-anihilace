@@ -194,7 +194,7 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} ontology stability check** — kalibrační logika monitoruje **stabilitu ontologických referencí** napříč rozhodovacími sekvencemi; progresivní odlupování je flagováno.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} ontology stability check** — kalibrační logika monitoruje **stabilitu ontologických referencí** napříč rozhodovacími sekvencemi; progresivní odlupování je flagováno.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) ontological ground tracking** — každý epistemický inferenční řetězec má dohledatelnou ontologickou bázi; ztráta báze bez rekonstrukčního kroku je strukturálně blokována.
 - **[Color Teams](@/glossary/color-teams.md) reality-check protocol** — institucionální mechanismy pro periodické ověřování ontologické integrity.
 
@@ -220,7 +220,7 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -245,6 +245,6 @@ Uživatel internetové subkultury "od-iluze-osvobozený" reportoval po 18 měsí
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

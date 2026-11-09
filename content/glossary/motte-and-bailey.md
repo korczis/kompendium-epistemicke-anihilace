@@ -38,7 +38,7 @@ Diagnostic test: **track the strongest-form proposition** the speaker advances w
 
 Within the Prismatic Platform's threat model, the motte-and-bailey is one of the most operationally-common rhetorical EA techniques, classified across multiple positions in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md). It functions as a **delivery mechanism** for many other EA techniques: a technique encoded in a bailey-claim is shielded from challenge by the bailey/motte switching machinery. Documentation: [Kompendium → 04-techniky → motte-bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md).
 
-The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} detects motte-and-bailey patterns operationally by **tracking proposition-version drift**: when a single source advances a strong claim in unchallenged context and a weaker claim in challenged context, the source is flagged with a `MOTTE_BAILEY_PATTERN` confidence penalty. The detection runs over conversational logs in the {{ cross_link(path="/hub/dd/cases/", text="Investigation") }} workflows and is documented in the [Kompendium → detekce → motte-bailey](@/kompendium/detection-signatures/motte-bailey.md) chapter.
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} detects motte-and-bailey patterns operationally by **tracking proposition-version drift**: when a single source advances a strong claim in unchallenged context and a weaker claim in challenged context, the source is flagged with a `MOTTE_BAILEY_PATTERN` confidence penalty. The detection runs over conversational logs in the {{ <cross_link path="/hub/dd/cases/" text="Investigation" /> }} workflows and is documented in the [Kompendium → detekce → motte-bailey](@/kompendium/detection-signatures/motte-bailey.md) chapter.
 
 The technique pairs naturally with [Sealioning](@/glossary/sealioning.md) (bad-faith inquiry on the motte to exhaust the challenger) and with weaponized [Epistemická pokora](@/glossary/epistemicka-pokora.md) ("I'm only suggesting…"). All three operate by inflating the cost of challenge.
 
@@ -56,7 +56,7 @@ The technique pairs naturally with [Sealioning](@/glossary/sealioning.md) (bad-f
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

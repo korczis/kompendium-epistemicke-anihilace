@@ -52,7 +52,7 @@ The [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) approa
 
 - [Disociace](@/glossary/disociace.md) and EA must be carefully distinguished; treating one as the other produces reliable iatrogenic harm.
 - [Narrative Identity](@/glossary/narrative-identity.md) reconstruction must be **client-led** rather than therapist-imposed.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} supports clinicians by surfacing differential-diagnosis indicators rather than committing to single hypotheses prematurely — a design pattern that mirrors good clinical practice.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} supports clinicians by surfacing differential-diagnosis indicators rather than committing to single hypotheses prematurely — a design pattern that mirrors good clinical practice.
 - [Color Teams](@/glossary/color-teams.md) Blue Team protocols include iatrogenic-risk audits when designing platform interventions: even technical defenses against EA can produce iatrogenic effects (e.g., aggressive content filtering inducing learned helplessness or reality-checking-dependence).
 
 The kompendium's stance is unequivocal: an EA recovery intervention that **does not actively monitor for iatrogenic harm** is professional malpractice, not therapeutic care.
@@ -71,7 +71,7 @@ The kompendium's stance is unequivocal: an EA recovery intervention that **does 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

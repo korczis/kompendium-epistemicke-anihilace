@@ -40,7 +40,7 @@ Within the Prismatic Platform, hyperreality functions as a **theoretical horizon
 
 - The Kompendium's [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) chapter explicitly engages Baudrillard's framework to discuss what it calls **ontological annihilation** — a limit-case beyond standard EA where not only individual cognition but the shared reality-anchor itself is dissolved.
 - The [Deepfake](@/glossary/deepfake.md) entry notes that synthetic-media saturation produces hyperreal conditions almost mechanically: the question "did this happen?" becomes structurally undecidable, and audiences increasingly stop asking it.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} does not attempt to *resolve* hyperreality — that would be philosophically incoherent — but maintains **provenance-anchored chains** that preserve referential traceability even as surrounding content streams become hyperreal. A decision rooted in C2PA-signed source documents retains a reality-anchor that pure aggregation lacks.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} does not attempt to *resolve* hyperreality — that would be philosophically incoherent — but maintains **provenance-anchored chains** that preserve referential traceability even as surrounding content streams become hyperreal. A decision rooted in C2PA-signed source documents retains a reality-anchor that pure aggregation lacks.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) treats provenance as an axiom: claims without verifiable provenance cannot achieve high confidence regardless of plausibility.
 - [Narrative Identity](@/glossary/narrative-identity.md) is one of the human-scale capacities most directly threatened by hyperreal conditions — when the surrounding world loses referential coherence, the self-narrative loses the world against which to constitute itself.
 - [Info-Ops](@/glossary/info-ops.md), [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), and [Epistemic Security](@/glossary/epistemic-security.md) describe the operational pathways by which hyperreal conditions are deliberately produced.
@@ -61,7 +61,7 @@ Hyperreality is the kompendium's **outer-bound theoretical concept**: the condit
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

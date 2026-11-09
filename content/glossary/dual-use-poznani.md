@@ -38,7 +38,7 @@ Within the Prismatic Platform, dual-use considerations are operationalized throu
 
 - The [Kompendium](@/kompendium/_index.md) itself follows the tiered model: high-level taxonomy and recognition material are open at [/kompendium/](@/kompendium/_index.md) and [/glossary/](@/glossary/_index.md); per-technique deep-dives at [/kompendium/techniques/](@/kompendium/techniques/_index.md) include implementation-relevant detail and require authenticated access plus declared professional context.
 - The [Color Teams](@/glossary/color-teams.md) Red Team operations — which by design use EA techniques against platform-internal targets — run under audit and are restricted to vetted operators. Red Team scenario libraries are not openly published.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} records the operational use of any technique-level kompendium reference, providing accountability without restricting legitimate use.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} records the operational use of any technique-level kompendium reference, providing accountability without restricting legitimate use.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) treats EA-related knowledge as a **provenance-tagged class of evidence**: when EA reasoning informs a decision, the reasoning is recorded explicitly so that later review can distinguish defensive from offensive applications.
 
 The kompendium frames the alternative — secrecy — as **epistemically self-defeating** in this domain. EA techniques propagate through observation and imitation regardless of publication; what publication adds is the **defensive vocabulary** that allows targets and clinicians to recognize and resist what would otherwise propagate undetected. The asymmetry favors graduated openness: recognition-level material as widely available as the platform's general epistemic literacy work; novelty-level material restricted with audit; offensive operational material tightly controlled and accountable.
@@ -59,7 +59,7 @@ Czech-language treatment of the publication-ethics framework: [/kompendium/06-et
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

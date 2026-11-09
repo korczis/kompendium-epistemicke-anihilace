@@ -256,23 +256,23 @@ end
 - [Signal Plurality](@/glossary/signal-plurality.md) - NABLA axiom requiring multiple independent sources for any belief
 - [NABLA Infinity](@/glossary/nabla-infinity.md) - Governing epistemic framework defining fusion rules and axioms
 - [OSINT](@/glossary/osint.md) - Primary source methodology providing raw intelligence for fusion
-- [Confidence Threshold](@/glossary/confidence-threshold.md) - Tau scoring system for fused intelligence products
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) - Tau scoring system for fused intelligence products
 - [Entity Resolution](@/glossary/entity-resolution.md) - Identity disambiguation within fused intelligence
-- [Threat Intelligence](@/glossary/threat-intelligence.md) - Security intelligence domain leveraging fusion methodology
-- [Knowledge Graph](@/glossary/knowledge-graph.md) - Graph representation storing fused intelligence relationships
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) - NABLA axiom governing conflicting evidence handling
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) - Security intelligence domain leveraging fusion methodology
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) - Graph representation storing fused intelligence relationships
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) - NABLA axiom governing conflicting evidence handling
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - Intelligence fusion architecture and data flow
-- [Technologies](@/technologies/_index.md) - Fusion processing technology stack
-- [Capabilities](@/capabilities/_index.md) - Intelligence and analysis capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Intelligence fusion architecture and data flow
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Fusion processing technology stack
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) - Intelligence and analysis capabilities
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -36,7 +36,7 @@ Specifically:
 - **EA-1.3.x immunization techniques** are often perfectly rational under instrumental criteria: each move efficiently serves the end of belief preservation. The pathology is not in the calculation but in the **fact that the end is exempt from evaluation**.
 - **Mass-scale EA via algorithmic systems** (recommendation engines, ad targeting, predictive policing) is the instrumental-reason critique made operational: the systems are technically optimal for their stated ends, while the ends themselves systematically degrade the epistemic commons.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) pairs the Frankfurt-School diagnosis with [Habermasian communicative rationality](@/glossary/communicative-rationality.md) as the normative counter-move: communicative rationality is the contemporary heir to the Frankfurt project's attempt to recover a non-instrumental form of reason.
-- The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly tracks **which ends are being optimized** alongside **how well they are being optimized** — a Habermas-Adorno-aware design move that refuses to treat the optimization criterion itself as beyond audit.
+- The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks **which ends are being optimized** alongside **how well they are being optimized** — a Habermas-Adorno-aware design move that refuses to treat the optimization criterion itself as beyond audit.
 - The [Color Teams](@/glossary/color-teams.md) framework includes Red Team scenarios in which the platform's own optimization machinery becomes adversarial to user epistemic interests — instrumental-reason auto-corruption tested as a threat model.
 
 ## See Also
@@ -53,7 +53,7 @@ Specifically:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

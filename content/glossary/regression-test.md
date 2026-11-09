@@ -24,7 +24,7 @@ A Regression Test is a test specifically written to verify that a previously ide
 
 Regression testing is a foundational practice in software quality assurance, but its effectiveness depends entirely on discipline: every bug fix must be accompanied by a test that would have caught the bug before it was reported. Without this discipline, the same defects recur across releases, eroding user confidence and consuming engineering resources on repeated investigation of known issues.
 
-The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) -- the highest enforcement level -- with doctrine-enforced compliance regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](@/glossary/no-mercy.md) doctrine.
+The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) -- the highest enforcement level -- with doctrine-enforced compliance regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
 
 | Protocol Aspect | Requirement |
 |-----------------|-------------|
@@ -188,7 +188,7 @@ end
 
 ### Integration with Quality Gates
 
-Regression tests integrate into the broader [Quality Gates](@/glossary/quality-gates.md) pipeline, which runs on every commit. The quality gates system verifies not only that all tests pass but that recent bug fix commits include corresponding regression test additions:
+Regression tests integrate into the broader [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) pipeline, which runs on every commit. The quality gates system verifies not only that all tests pass but that recent bug fix commits include corresponding regression test additions:
 
 ```
 Commit --> Pre-Commit Hook --> Quality Gates Pipeline
@@ -241,7 +241,7 @@ The Mandatory Regression Test Protocol has been instrumental in achieving the pl
 
 **Zero Regression Incidents**: Since implementing the P0 protocol, the platform has experienced zero regression incidents -- no previously fixed bug has recurred in any subsequent release.
 
-**Quality Floor Guardian Integration**: The [Quality Floor Guardian](@/glossary/quality-floor-guardian.md) monitors regression test health as part of its autonomous quality monitoring. If a regression test becomes flaky (intermittently failing), it triggers investigation before the flakiness masks a genuine regression.
+**Quality Floor Guardian Integration**: The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) monitors regression test health as part of its autonomous quality monitoring. If a regression test becomes flaky (intermittently failing), it triggers investigation before the flakiness masks a genuine regression.
 
 **Pre-Commit Enforcement**: The `.githooks/pre-commit` hook validates that commits tagged as bug fixes include corresponding test additions. Commits that fail this validation are blocked at the local development stage, before reaching CI/CD.
 
@@ -402,25 +402,25 @@ These metrics feed into the Quality DNA system, which tracks quality trends acro
 
 ## Related Concepts
 
-- [Quality Gates](@/glossary/quality-gates.md) - Enforcement pipeline including regression test validation
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Enforcement pipeline including regression test validation
 - [NM/ND Doctrine](@/glossary/nm-nd.md) - Governance framework requiring regression tests for every fix
 - [Violation Protocol](@/glossary/violation-protocol.md) - Escalation triggered by missing regression tests
 - [Purple Team](@/glossary/purple-team.md) - Security regression guard applying the same principle
-- [NO MERCY](@/glossary/no-mercy.md) - Zero tolerance doctrine mandating complete fix coverage
-- [Pre-Commit Hooks](@/glossary/pre-commit-hooks.md) - Local enforcement mechanism for regression protocol
-- [SEADF](@/glossary/seadf.md) - Self-evolving framework tracking regression test coverage
+- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Zero tolerance doctrine mandating complete fix coverage
+- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - Local enforcement mechanism for regression protocol
+- [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) - Self-evolving framework tracking regression test coverage
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - Platform architecture overview
-- [Technologies](@/technologies/_index.md) - Technology stack details
-- [Commands](@/commands/_index.md) - Quality enforcement commands
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Quality enforcement commands
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

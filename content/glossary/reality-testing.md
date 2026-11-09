@@ -63,12 +63,12 @@ graph TD
 
 ## Související pojmy
 
-- [Adaptive Testing](@/glossary/adaptive-testing.md) — slug `adaptive-testing`
+- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
 - [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Access Control](@/glossary/access-control.md) — slug `access-control`
+- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
 - [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [ACID Transactions](@/glossary/acid-transactions.md) — slug `acid-transactions`
-- [Academy](@/glossary/academy.md) — slug `academy`
+- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
 
 ## Navigace
 
@@ -77,8 +77,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

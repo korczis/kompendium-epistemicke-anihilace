@@ -83,8 +83,8 @@ policy v souladu s jurisdikcnimi pozadavky.
 
 ## Connect
 
-- [Prismatic Platform](/) — komplexni EA detection & response
+- [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
-- [Academy](@/academy/_index.md) — vzdelavaci modul
-- {{ cross_link(path="/investigate/", text="Investigation Hub") }} — vysetrovaci nastroje
+- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
+- {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
 

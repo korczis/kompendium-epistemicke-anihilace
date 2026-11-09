@@ -177,7 +177,7 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} temporal coherence check** — flagsuje rozhodnutí, jejichž zdrojová biografie obsahuje **nekonzistentní chronologie**.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} temporal coherence check** — flagsuje rozhodnutí, jejichž zdrojová biografie obsahuje **nekonzistentní chronologie**.
 - **NABLA Infinity provenance tracking** — každé tvrzení časově kotveno, takže narrativní drift lze detekovat algoritmicky.
 - **Investigative protocols** — [forenzní výslech](@/glossary/dual-use-poznani.md) v Prismatic explicitně chrání před indukcí dekoherence opakovanými rekonstrukcemi.
 
@@ -199,7 +199,7 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
@@ -223,6 +223,6 @@ Vedoucí pracovník po sérii reorganizací prožíval "kariérní biografii" ja
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

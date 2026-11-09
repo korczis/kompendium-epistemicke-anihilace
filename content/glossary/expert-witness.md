@@ -40,12 +40,12 @@ In due-diligence engagements, independent experts are commissioned for accountin
 
 ## Related Concepts
 
-- [Evidence](@/glossary/evidence.md) - General category that expert testimony interprets
-- [Verifiable Evidence](@/glossary/verifiable-evidence.md) - Standard expert opinions should support
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) - General category that expert testimony interprets
+- [Verifiable Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/verifiable-evidence/) - Standard expert opinions should support
 - [Pattern Evidence](@/glossary/pattern-evidence.md) - Common subject of expert testimony
 - [Forensic Interview](@/glossary/forensic-interview.md) - Procedure expert witnesses may evaluate
 - [Chain of Custody](@/glossary/chain-of-custody.md) - Foundation expert testimony depends on
-- [Evidence Over Opinion](@/glossary/evidence-over-opinion.md) - Doctrine constraining expert practice
+- [Evidence Over Opinion](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence-over-opinion/) - Doctrine constraining expert practice
 
 ## References
 

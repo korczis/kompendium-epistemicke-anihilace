@@ -18,12 +18,12 @@ quality_score = 75
 
 ## Definition
 
-3NL (Three-Nested-Loops) is the foundational architectural philosophy of the Prismatic platform. Three concentric control loops: **outer** (mission-scope, days-weeks), **middle** (epoch-scope, hours), **inner** (cycle-scope, seconds-minutes). Each loop has its own state, telemetry, and termination criteria. See [doctrine overview](@/faq/_index.md#q-doctrine-overview) and [3NL pillar policy](@/capabilities/aiad-standard.md).
+3NL (Three-Nested-Loops) is the foundational architectural philosophy of the Prismatic platform. Three concentric control loops: **outer** (mission-scope, days-weeks), **middle** (epoch-scope, hours), **inner** (cycle-scope, seconds-minutes). Each loop has its own state, telemetry, and termination criteria. See [doctrine overview](https://prismatic-reality-com.github.io/prismatic-promo/faq/#q-doctrine-overview) and [3NL pillar policy](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/aiad-standard/).
 
 ## See Also
 
 - [Glossary index](@/glossary/_index.md)
-- [Doctrine Overview](@/glossary/doctrine-overview.md)
+- [Doctrine Overview](https://prismatic-reality-com.github.io/prismatic-promo/glossary/doctrine-overview/)
 - [Nabla Infinity](@/glossary/nabla-infinity.md)
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 
@@ -63,11 +63,11 @@ graph TD
 
 ## Související pojmy
 
-- [ACID Transactions](@/glossary/acid-transactions.md) — slug `acid-transactions`
-- [Academy](@/glossary/academy.md) — slug `academy`
-- [Adapter](@/glossary/adapter.md) — slug `adapter`
-- [Adaptive Testing](@/glossary/adaptive-testing.md) — slug `adaptive-testing`
-- [Access Control](@/glossary/access-control.md) — slug `access-control`
+- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
+- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
+- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
+- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
 - [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
 
 ## Navigace
@@ -77,8 +77,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

@@ -80,7 +80,7 @@ Internal-first communication, dedicated HR liaison, mental health resources, tow
 ## 6. Cross-linky
 
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
 - [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
 - [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
 - [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
@@ -94,8 +94,8 @@ Internal-first communication, dedicated HR liaison, mental health resources, tow
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

@@ -186,7 +186,7 @@ Agents are classified across 16 operational domains, each representing a distinc
 | **Documentation** | ~25 | Docs, guides, knowledge management | Doc generator, knowledge indexer |
 | **Deployment** | ~15 | CI/CD, releases, infrastructure | Deploy coordinator, release manager |
 | **Epistemic** | ~30 | [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md), pipeline | Epistemic validator, belief manager |
-| **Consciousness** | ~20 | [Consciousness traits](@/glossary/consciousness-traits.md), self-awareness | Consciousness monitor, trait evaluator |
+| **Consciousness** | ~20 | [Consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/), self-awareness | Consciousness monitor, trait evaluator |
 | **Perimeter** | ~15 | [EASM](@/glossary/easm.md), attack surface, compliance | Perimeter scanner, compliance assessor |
 | **Promo** | ~10 | Content enhancement, site management | Promo content enhancer |
 | **API** | ~10 | API gateway, endpoint discovery, OpenAPI | API scanner, spec generator |
@@ -218,7 +218,7 @@ The registry enables several discovery patterns that are essential for platform 
 
 **Tier Query**: Given a tier level, retrieve all agents at that authority level. Used by L4+ agents to identify peers for cross-domain coordination.
 
-**Capability Match**: Given a required capability, find agents that provide it. Used by the [Blackboard](@/glossary/blackboard.md) system to route knowledge requests to appropriate specialists.
+**Capability Match**: Given a required capability, find agents that provide it. Used by the [Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/) system to route knowledge requests to appropriate specialists.
 
 **Dependency Resolution**: Given an agent, identify all agents it depends on and verify they are available. Used during deployment to ensure operational prerequisites are met.
 
@@ -290,7 +290,7 @@ end
 
 Beyond the 500+ statically defined agents, the platform generates approximately 30 additional agents at runtime. These runtime agents are created dynamically in response to platform conditions -- for example, when a new umbrella application is added and requires a dedicated quality monitoring agent, or when a specific investigation requires a temporary specialist agent.
 
-Runtime agents are registered in the same registry as static agents, with an additional `runtime: true` flag distinguishing them. They follow the same [Agent Tier](@/glossary/agent-tier.md) classification, domain assignment, and capability specification as static agents. The key difference is lifecycle: static agents persist across platform restarts, while runtime agents are recreated as needed by their parent [supervisors](@/glossary/supervisor.md).
+Runtime agents are registered in the same registry as static agents, with an additional `runtime: true` flag distinguishing them. They follow the same [Agent Tier](@/glossary/agent-tier.md) classification, domain assignment, and capability specification as static agents. The key difference is lifecycle: static agents persist across platform restarts, while runtime agents are recreated as needed by their parent [supervisors](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/).
 
 ```elixir
 defmodule PrismaticAgents.Registry.RuntimeExtension do
@@ -333,7 +333,7 @@ The registry serves as the foundation for agent governance:
 - **Deprecation Tracking**: Agents marked as deprecated remain in the registry for audit purposes but are excluded from active discovery
 - **Change History**: Registry regeneration timestamps and diff tracking enable audit trails for governance changes
 
-The registry also integrates with the platform's [structured logging](@/glossary/structured-logging.md) and [observability](@/glossary/observability.md) systems, providing correlation between agent identities and their operational telemetry.
+The registry also integrates with the platform's [structured logging](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structured-logging/) and [observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) systems, providing correlation between agent identities and their operational telemetry.
 
 ## Color Team Registry Integration
 
@@ -354,10 +354,10 @@ The Agent Registry integrates with several core platform systems:
 
 | System | Integration | Purpose |
 |--------|-------------|---------|
-| **[Blackboard](@/glossary/blackboard.md)** | Agent capability lookup | Routes knowledge requests to appropriate specialists |
+| **[Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/)** | Agent capability lookup | Routes knowledge requests to appropriate specialists |
 | **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)** | Tier-based access control | Ensures agents access only tier-appropriate pipeline levels |
 | **[AutoEvolve](@/glossary/autoevolve.md)** | Registry consistency monitoring | Detects and corrects registry drift |
-| **[Supervisor](@/glossary/supervisor.md)** | Process-agent mapping | Links OTP processes to their agent identities |
+| **[Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/)** | Process-agent mapping | Links OTP processes to their agent identities |
 | **Quality Gates** | Agent compliance checking | Validates that all agents meet quality standards |
 | **[Color Teams](@/glossary/color-teams.md)** | Team composition validation | Ensures team agent composition matches specifications |
 | **SEADF** | Subsystem coordination | Routes tasks to appropriate agent domains |
@@ -370,25 +370,25 @@ The Agent Registry integrates with several core platform systems:
 - [Archer Supreme](@/glossary/archer-supreme.md) -- L5 Supreme authority agent registered in the catalog
 - [Supreme Commander](@/glossary/supreme-commander.md) -- L5 agent using the registry for cross-domain coordination
 - [Color Teams](@/glossary/color-teams.md) -- 20 security agents registered across 6 teams
-- [Blackboard](@/glossary/blackboard.md) -- Shared knowledge store using registry for agent discovery
-- [Consciousness Traits](@/glossary/consciousness-traits.md) -- Traits tracked per agent in the registry
+- [Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/) -- Shared knowledge store using registry for agent discovery
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Traits tracked per agent in the registry
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing registered agent behavior
-- [Supervisor](@/glossary/supervisor.md) -- OTP supervision managing registered agent processes
+- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP supervision managing registered agent processes
 - [AutoEvolve](@/glossary/autoevolve.md) -- Evolution system monitoring registry consistency
 - [AutoHeal](@/glossary/autoheal.md) -- Self-repair system using registry for agent health checks
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Agents](@/agents/_index.md) -- Full agent catalog
-- [Capabilities](@/capabilities/_index.md) -- Platform capability catalog
-- [Technologies](@/technologies/_index.md) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

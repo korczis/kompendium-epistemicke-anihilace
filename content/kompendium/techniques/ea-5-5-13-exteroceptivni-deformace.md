@@ -102,7 +102,7 @@ EA-5.5.12 (interoceptivní rozpojení), EA-5.5.27 (taktilní pre-konceptuální)
 
 ## Vztah k Prismatic platformě
 
-Technika **exteroceptivní deformace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.13.
+Technika **exteroceptivní deformace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.13.
 
 
 ## Teoretické zázemí
@@ -169,10 +169,10 @@ Pro **objektivní detekci** aplikace techniky **exteroceptivní deformace** v po
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- **Sourozenecké techniky**: [Subkategorie 5.5 Transkonceptuální mechanismy](/kompendium/05-ultramari-techniky/#subkategorie-ea-5-5)
+- **Sourozenecké techniky**: [Subkategorie 5.5 Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-ea-5-5)
 - **Cross-categorical**:
-  - [EA-5.1 Epistemická singularita](/kompendium/05-ultramari-techniky/#subkategorie-5-1)
-  - [EA-5.3 Hypertransformativní protokoly](/kompendium/05-ultramari-techniky/#subkategorie-5-3)
+  - [EA-5.1 Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-1)
+  - [EA-5.3 Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/_index.md#subkategorie-5-3)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
@@ -181,7 +181,7 @@ Pro **objektivní detekci** aplikace techniky **exteroceptivní deformace** v po
   - [Embodied cognition](@/glossary/embodied-cognition.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -200,6 +200,6 @@ Pro **objektivní detekci** aplikace techniky **exteroceptivní deformace** v po
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

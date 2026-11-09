@@ -43,12 +43,7 @@ Klinický model **Lenore E. Walker** (*The Battered Woman*, 1979) rozlišuje čt
 
 Interaktivní vizualizace níže ukazuje typický průběh dvou po sobě jdoucích cyklů. Sledujte zejména **fázový posun** mezi stresem oběti (červeně) a vazbou na agresora (fialově) — vrcholy vazby přicházejí těsně po vrcholech stresu, právě v důsledku oxytocinové vlny při „smíření".
 
-{{ chart_inline(
-  slug="trauma-bonding-cycle",
-  title="Cyklus traumatické vazby — průběh dvou cyklů",
-  caption="Stres oběti vs. intenzita vazby na agresora a sebehodnocení v průběhu fází: klid → napětí → eskalace → incident → smíření → líbánky.",
-  alt="Liniový graf zobrazující tři proměnné na stupnici 0–10 napříč 12 fázemi dvou cyklů zneužívání. Stres oběti vrcholí během incidentů, vazba na agresora vrcholí během fází líbánek, sebehodnocení trvale klesá."
-) }}
+{{ <chart_inline slug="trauma-bonding-cycle" title="Cyklus traumatické vazby — průběh dvou cyklů" caption="Stres oběti vs. intenzita vazby na agresora a sebehodnocení v průběhu fází: klid → napětí → eskalace → incident → smíření → líbánky." alt="Liniový graf zobrazující tři proměnné na stupnici 0–10 napříč 12 fázemi dvou cyklů zneužívání. Stres oběti vrcholí během incidentů, vazba na agresora vrcholí během fází líbánek, sebehodnocení trvale klesá." /> }}
 
 ## Klinické vzorce a varovné signály
 

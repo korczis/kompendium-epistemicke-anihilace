@@ -80,12 +80,12 @@ Mandatory vacation policy, cross-training, documented runbooks, rotation calenda
 ## 6. Cross-linky
 
 - [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
+- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
 - [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
-- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
+- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
 - [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
+- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
@@ -94,8 +94,8 @@ Mandatory vacation policy, cross-training, documented runbooks, rotation calenda
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

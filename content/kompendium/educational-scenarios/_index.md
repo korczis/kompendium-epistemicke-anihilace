@@ -54,4 +54,4 @@ analýze a obraně proti epistemickým útokům všech úrovní.
 
 ## Connect
 
-Otázky, zpětná vazba: [[e-mail odstraněn]](mailto:[e-mail odstraněn]) | [GitHub](https://github.com/korczis)
+Otázky, zpětná vazba: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

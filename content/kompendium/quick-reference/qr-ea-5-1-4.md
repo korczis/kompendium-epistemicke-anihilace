@@ -67,8 +67,8 @@ Sémantická imploze se vyskytuje typicky v dlouhodobém abusivním partnerství
 - **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
 - **Glossary**: [Sémantická afázie](@/glossary/semanticka-afazie.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Newspeak](@/glossary/newspeak.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Lingvistická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine sémantická vrstva") }}, [Glossary canonical](@/glossary/_index.md)
+- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine sémantická vrstva" /> }}, [Glossary canonical](@/glossary/_index.md)
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

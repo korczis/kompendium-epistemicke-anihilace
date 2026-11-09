@@ -67,8 +67,8 @@ Identitní dezintegrace se vyskytuje v dlouhodobém koerzivně-kontrolním vztah
 - **Sourozenecké techniky**: [EA-5.1.10 Temporální dekoherence](@/kompendium/quick-reference/qr-ea-5-1-10.md), [EA-5.1.18 Solipsistická dekompozice](@/kompendium/quick-reference/qr-ea-5-1-18.md), [EA-5.1.25 Singulární narativní kolaps](@/kompendium/quick-reference/qr-ea-5-1-25.md)
 - **Glossary**: [Narativní identita](@/glossary/narativni-identita.md), [Coercive control](@/glossary/coercive-control.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Gaslighting](@/glossary/gaslighting.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Narativní rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine narrative trace") }}, [Color Teams identity protokol](@/glossary/color-teams.md)
+- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine narrative trace" /> }}, [Color Teams identity protokol](@/glossary/color-teams.md)
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

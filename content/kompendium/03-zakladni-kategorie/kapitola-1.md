@@ -382,7 +382,7 @@ Taxonomie EA-1.* by neměla být přijímána jako apriorní; vyžaduje **empiri
 | **Experimentální simulace** | Kontrolované expozice s měřením efektů | Plánováno |
 | **Cross-cultural validace** | Aplikovatelnost taxonomie napříč kulturními kontexty | Plánováno |
 
-Tato validační infrastruktura je integrována do platformového nástroje {{ cross_link(path="/hub/dd/decisions/", text="DD Decisions") }} a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
+Tato validační infrastruktura je integrována do platformového nástroje {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }} a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
 
 ## Závěr
 
@@ -404,7 +404,7 @@ V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) 
 - [Sekce 07 — Prevence](@/kompendium/prevention-resilience/_index.md)
 - [Sekce 08 — Etika](@/kompendium/08-prilohy/_index.md)
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
-- Platforma: {{ cross_link(path="/hub/dd/decisions/", text="DD Decisions") }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
+- Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
@@ -423,6 +423,6 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

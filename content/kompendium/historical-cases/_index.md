@@ -67,4 +67,4 @@ pro studium mechanismů, varovných signálů a recovery trajektorií.
 
 ## Connect
 
-Doplňující prameny, opravy: [[e-mail odstraněn]](mailto:[e-mail odstraněn]) | [GitHub](https://github.com/korczis)
+Doplňující prameny, opravy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

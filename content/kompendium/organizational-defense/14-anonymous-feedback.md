@@ -85,7 +85,7 @@ Externí provider, agregace pouze ≥10 odpovědí, transparentní zveřejňová
 - [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
 - [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
@@ -94,8 +94,8 @@ Externí provider, agregace pouze ≥10 odpovědí, transparentní zveřejňová
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

@@ -35,19 +35,19 @@ Platform-level defenses include: (1) detecting interaction patterns suggestive o
 
 ## See Also
 
-- [Prefrontal Cortex](@/glossary/prefrontal-cortex.md) — DMN includes the mPFC node
-- [Mental Models](@/glossary/mental-models.md) — Cognitive schemas DMN constructs
-- [Schema Theory](@/glossary/schema-theory.md) — Theoretical framework for DMN function
-- [Interoception](@/glossary/interoception.md) — Body-state signal that anchors DMN-self
-- [Trauma Spectrum](@/glossary/trauma-spectrum.md) — Conditions with DMN dysconnectivity
-- [Dissociative Spectrum](@/glossary/dissociative-spectrum.md) — Acute DMN disruption
+- [Prefrontal Cortex](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prefrontal-cortex/) — DMN includes the mPFC node
+- [Mental Models](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mental-models/) — Cognitive schemas DMN constructs
+- [Schema Theory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/schema-theory/) — Theoretical framework for DMN function
+- [Interoception](https://prismatic-reality-com.github.io/prismatic-promo/glossary/interoception/) — Body-state signal that anchors DMN-self
+- [Trauma Spectrum](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-spectrum/) — Conditions with DMN dysconnectivity
+- [Dissociative Spectrum](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dissociative-spectrum/) — Acute DMN disruption
 - [Kompendium](@/kompendium/_index.md) — EA technique taxonomy
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

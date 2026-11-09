@@ -25,9 +25,9 @@ Tato sekce aplikuje klasický public-health framework prevence (primární / sek
 
 1. [Budování dětské reziliencie](@/kompendium/prevention-resilience/1-childhood-resilience-foundation.md)
 2. [Školní prevence EA](@/kompendium/prevention-resilience/2-school-based-prevention.md)
-3. [Rodinná reziliencie](/kompendium/prevention-resilience/3-family-resilience-EA/)
-4. [Komunitní reziliencie](/kompendium/prevention-resilience/4-community-resilience-EA/)
-5. [Pracovní prevence EA](/kompendium/prevention-resilience/5-workplace-prevention-EA/)
+3. [Rodinná reziliencie](@/kompendium/prevention-resilience/3-family-resilience-EA.md)
+4. [Komunitní reziliencie](@/kompendium/prevention-resilience/4-community-resilience-EA.md)
+5. [Pracovní prevence EA](@/kompendium/prevention-resilience/5-workplace-prevention-EA.md)
 6. [Mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md)
 7. [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md)
 8. [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md)
@@ -38,7 +38,7 @@ Tato sekce aplikuje klasický public-health framework prevence (primární / sek
 
 ### Sekundární prevence (včasná detekce a intervence)
 
-11. [Včasný screening EA](/kompendium/prevention-resilience/11-early-screening-EA/)
+11. [Včasný screening EA](@/kompendium/prevention-resilience/11-early-screening-EA.md)
 12. [Rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md)
 13. [Rychlá odezva](@/kompendium/prevention-resilience/13-rapid-response-protocol.md)
 14. [Deeskalace](@/kompendium/prevention-resilience/14-de-escalation-prevention.md)
@@ -53,8 +53,8 @@ Tato sekce aplikuje klasický public-health framework prevence (primární / sek
 
 ### Terciární prevence (po EA, prevence chronicity a relapsu)
 
-21. [Prevence relapsu](/kompendium/prevention-resilience/21-relapse-prevention-EA/)
-22. [Obnova sociální sítě](/kompendium/prevention-resilience/22-post-EA-network-rebuilding/)
+21. [Prevence relapsu](@/kompendium/prevention-resilience/21-relapse-prevention-EA.md)
+22. [Obnova sociální sítě](@/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md)
 23. [Obnova dovedností](@/kompendium/prevention-resilience/23-skills-rebuilding-program.md)
 24. [Obnova smyslu](@/kompendium/prevention-resilience/24-meaning-restoration-prevention.md)
 25. [Pracovní rehabilitace](@/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md)
@@ -76,13 +76,13 @@ Tato sekce aplikuje klasický public-health framework prevence (primární / sek
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
 - [Glosář](@/glossary/_index.md)
-- [Blog](@/blog/_index.md)
-- {{ cross_link(path="/cer/", text="CER") }}
+- [Blog](https://prismatic-reality-com.github.io/prismatic-promo/blog/)
+- {{ <cross_link path="/cer/" text="CER" /> }}
 
 ---
 
 ## Connect
 
 - **Web**: [prismatic.dev](https://prismatic.dev)
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
-- **Kontakt**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
+- **Kontakt**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

@@ -40,7 +40,7 @@ Within the Prismatic Platform, deplatforming is treated as an **intervention** w
 
 - The Kompendium discusses deplatforming under [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) as a **defensive technique against EA actors operating at scale** — particularly EA-1.2 (falsification) and EA-3 (collective cognitive disruption) — while flagging the epistemic-monoculture risk it introduces.
 - [Color Teams](@/glossary/color-teams.md) Blue Team protocols evaluate deplatforming proposals against five criteria: (1) harm specificity, (2) intervention reversibility, (3) precedent generality, (4) due-process adequacy, (5) post-intervention monitoring.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats actors recently subject to deplatforming as **provenance-ambiguous**: their post-deplatforming output may be either genuinely problematic or selection-biased by migration to lower-moderation environments.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats actors recently subject to deplatforming as **provenance-ambiguous**: their post-deplatforming output may be either genuinely problematic or selection-biased by migration to lower-moderation environments.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) explicitly avoids deplatformed-source-only diets in its source-diversity checks — a model trained or reasoning over only "approved" sources fails the diversity invariant.
 - The [Info-Ops](@/glossary/info-ops.md) and [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entries describe the threat models against which deplatforming is sometimes justified.
 
@@ -60,7 +60,7 @@ Deplatforming is best understood as a **trade-off** rather than a victory: it is
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

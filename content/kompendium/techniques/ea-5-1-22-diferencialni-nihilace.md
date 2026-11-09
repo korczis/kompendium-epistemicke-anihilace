@@ -175,7 +175,7 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} granularity check** — kalibrační logika sleduje, zda subjektova rozhodnutí používají **konzistentně** stejné kategorie nebo zda dochází k jejich kolapsu v čase.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} granularity check** — kalibrační logika sleduje, zda subjektova rozhodnutí používají **konzistentně** stejné kategorie nebo zda dochází k jejich kolapsu v čase.
 - **NABLA Infinity distinction tracking** — provenance záznamy fixují, jaké distinkce byly v původní formulaci tvrzení aktivní; jejich pozdější absence je flagována.
 - **Glossary auto-audit** — periodická kontrola, zda se v platformovém diskurzu zachovává původní rozsah termínů.
 
@@ -191,7 +191,7 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
   - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [Kognitivní zploštění](@/glossary/kognitivni-zplosteni.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -219,6 +219,6 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

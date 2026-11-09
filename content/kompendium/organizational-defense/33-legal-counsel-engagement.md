@@ -82,7 +82,7 @@ Pre-engaged crisis counsel, defined escalation, regular tabletop exercises, priv
 - [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
 - [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
 - [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
 - [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
 - [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
@@ -94,8 +94,8 @@ Pre-engaged crisis counsel, defined escalation, regular tabletop exercises, priv
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

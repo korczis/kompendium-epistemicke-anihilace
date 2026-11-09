@@ -195,7 +195,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na "dostatečnou jistotu", jsou flagována jako rekurzivně paralyzovaná.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operační uzávěrka** — kalibrační logika obsahuje **time-boxed** reflexi s povinným přechodem k rozhodnutí; rozhodnutí, která čekají na "dostatečnou jistotu", jsou flagována jako rekurzivně paralyzovaná.
 - **NABLA Infinity reflective depth limit** — epistemický pipeline má **maximální hloubku** sebepoukazu; po dosažení limitu se aktivuje operační rozhodnutí na základě nejlepšího aktuálního stavu.
 - **Color Teams reflexivní rotace** — Red Team má mandát **zastavit** Blue Team v rekurzivní reflexi, pokud paralyzuje rozhodování.
 
@@ -214,7 +214,7 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
   - [Metakognice](@/glossary/metakognice.md)
   - [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -242,6 +242,6 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

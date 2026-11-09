@@ -84,7 +84,7 @@ Veto právo na vybrané transakce, přímý reporting do board, vlastní vyšet�
 - [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
 - [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
 - [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
+- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
 - [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
@@ -94,8 +94,8 @@ Veto právo na vybrané transakce, přímý reporting do board, vlastní vyšet�
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

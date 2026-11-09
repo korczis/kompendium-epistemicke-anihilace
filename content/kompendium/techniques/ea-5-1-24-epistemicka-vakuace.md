@@ -183,7 +183,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} foundational source check** — kalibrace explicitně vyžaduje **více nezávislých** základen pro vysokou důvěru, čímž strukturálně bloku­je zdrojovou epistemologii.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} foundational source check** — kalibrace explicitně vyžaduje **více nezávislých** základen pro vysokou důvěru, čímž strukturálně bloku­je zdrojovou epistemologii.
 - **NABLA Infinity grounding map** — udržuje seznam epistemických základen, na nichž každé tvrzení v pipeline stojí; rovnoměrná destabilizace více základen je flagována.
 - **Color Teams adversarial validation** — Red Team operuje s explicitním protokolem testujícím odolnost klíčových rozhodnutí vůči vakuačním tlakům.
 
@@ -200,7 +200,7 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
   - [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md)
   - [Epistemické základny](@/glossary/epistemicke-zakladny.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -228,6 +228,6 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

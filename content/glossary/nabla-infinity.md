@@ -190,8 +190,8 @@ TRANSITION CONDITIONS (ALL must be satisfied)
         |
         v
 EXECUTION PHASE (NM/ND Doctrine active)
-  - [No Mercy](@/glossary/no-mercy.md): Complete execution, zero tolerance for incomplete delivery
-  - [No Doubts](@/glossary/no-doubts.md): Full commitment to the verified conclusion
+  - [No Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/): Complete execution, zero tolerance for incomplete delivery
+  - [No Doubts](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/): Full commitment to the verified conclusion
   - Decisive action based on formally verified, robustness-tested beliefs
 ```
 
@@ -204,35 +204,35 @@ This dual-phase approach prevents both failure modes: acting too soon on unverif
 - [Trinity Gate](@/glossary/trinity-gate.md) -- 4-layer verification gate for NABLA-governed beliefs
 - [QEVE](@/glossary/qeve.md) -- Verification engine implementing NABLA axioms in its pipeline
 - [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom requiring minimum 2 independent signals
-- [Confidence Threshold](@/glossary/confidence-threshold.md) -- Decision thresholds derived from NABLA axiom compliance
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- Axiom requiring full traceability for all beliefs
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Decision thresholds derived from NABLA axiom compliance
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom requiring full traceability for all beliefs
 - [NM/ND Doctrine](@/glossary/nm-nd.md) -- Execution doctrine activated when NABLA confidence is sufficient
-- [No Mercy](@/glossary/no-mercy.md) -- Execution-phase enforcement of complete delivery
-- [No Doubts](@/glossary/no-doubts.md) -- Execution-phase enforcement of decisive action
-- [3NL Framework](@/glossary/three-nl.md) -- Integration framework connecting NABLA to AIAD agents
+- [No Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) -- Execution-phase enforcement of complete delivery
+- [No Doubts](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) -- Execution-phase enforcement of decisive action
+- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Integration framework connecting NABLA to AIAD agents
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which NABLA operates
 - [White Team](@/glossary/white-team.md) -- Verification team producing NABLA-compliant formal proofs
 - [Red Team](@/glossary/red-team.md) -- Adversarial team testing NABLA's resistance to epistemic attacks
 - [Blue Team](@/glossary/blue-team.md) -- Defensive team maintaining NABLA compliance across the platform
 - [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team surfacing NABLA edge cases
-- [Lean4](@/glossary/lean4.md) -- Theorem prover used in formal verification of NABLA-governed beliefs
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in formal verification of NABLA-governed beliefs
 
 ## See Also
 
-- [prismatic_nabla](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_nabla/README.md) -- NABLA Infinity framework runtime implementation
-- [prismatic_deduction](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_deduction/README.md) -- Formal deduction engine for Trinity Gate
-- [prismatic_lean4](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_lean4/README.md) -- Lean4 formal verification for NABLA proofs
-- [prismatic_monte_carlo](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_monte_carlo/README.md) -- Monte Carlo verification for QEVE
-- [prismatic_3nl](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_3nl/README.md) -- 3NL framework with Level 3 NABLA integration
-- [prismatic_trinity_nexus](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_trinity_nexus/README.md) -- Trinity Gate implementation
-- [prismatic_agents](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_agents/README.md) -- Agent runtime enforcing NABLA axiom compliance
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
+- [prismatic_nabla](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_nabla/README.md) -- NABLA Infinity framework runtime implementation
+- [prismatic_deduction](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_deduction/README.md) -- Formal deduction engine for Trinity Gate
+- [prismatic_lean4](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_lean4/README.md) -- Lean4 formal verification for NABLA proofs
+- [prismatic_monte_carlo](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_monte_carlo/README.md) -- Monte Carlo verification for QEVE
+- [prismatic_3nl](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_3nl/README.md) -- 3NL framework with Level 3 NABLA integration
+- [prismatic_trinity_nexus](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_trinity_nexus/README.md) -- Trinity Gate implementation
+- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) -- Agent runtime enforcing NABLA axiom compliance
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

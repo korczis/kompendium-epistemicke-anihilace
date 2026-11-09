@@ -84,7 +84,7 @@ a socioekonomického statusu (5 kvintilů).
 
 ## Connect footer
 
-- **GitHub**: [korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **GitHub**: [korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **Docs**: [Kompendium /population-health/](@/kompendium/population-health/_index.md)
 - **API**: `GET /api/v1/epi/ea/population-screening-EA` (auto-introspecting)
 - **Helpline**: 116 123 (CZ), 800 200 207 (CZ Linka bezpečí)

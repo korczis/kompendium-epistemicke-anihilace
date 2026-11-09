@@ -83,8 +83,8 @@ Vendor scorecard (delivery, price, behavior), 3-vendor minimum pro kritické slu
 - [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
 - [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
-- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
 - [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
@@ -94,8 +94,8 @@ Vendor scorecard (delivery, price, behavior), 3-vendor minimum pro kritické slu
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

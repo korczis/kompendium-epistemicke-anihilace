@@ -35,7 +35,7 @@ Phenomenology is the kompendium's **default subject-side methodology** because t
 
 Within the Prismatic Platform, phenomenological method is operationalized in three places:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats subject self-report as an **independent evidence stream**, not as a noisy proxy for objective measurement. Self-reports of disorientation, eroded confidence in routine perception, or pervasive ambiguity are tracked even when no third-person indicator confirms them — these are the phenomenological prodromes the kompendium maps.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats subject self-report as an **independent evidence stream**, not as a noisy proxy for objective measurement. Self-reports of disorientation, eroded confidence in routine perception, or pervasive ambiguity are tracked even when no third-person indicator confirms them — these are the phenomenological prodromes the kompendium maps.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements **structured first-person observation logs** with phenomenological vocabulary (givenness, salience, certainty-tone, temporal flow) so that subjects can record disturbances at the level where they actually appear. The vocabulary itself is a defense — it gives subjects categories they would otherwise lack. See also [metakognice](@/glossary/metakognice.md).
 - The [Color Teams](@/glossary/color-teams.md) Blue Team explicitly trains operators to attend to phenomenological signals (the felt-sense indicators of EA-1.4.x emotional modulation, EA-1.3.2 strategic reinterpretation) before structural confirmation. The kompendium documents this as a recurring pattern: subjects feel the EA before they can name it.
 - [Epistemická alienace](@/glossary/epistemicka-alienace.md) and [epistemické trauma](@/glossary/epistemicke-trauma.md) are described in the kompendium primarily in phenomenological terms — they are *modes of givenness* (the world appearing as opaque, the self appearing as untrustworthy) rather than belief-state descriptions.
@@ -56,7 +56,7 @@ Phenomenology complements but does not replace third-person methods. The platfor
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

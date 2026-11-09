@@ -45,9 +45,9 @@ Entity resolution sits at the intersection of data engineering, information theo
 
 ## Context in Prismatic
 
-The Prismatic Platform performs entity resolution through dedicated L2 resolver agents that consolidate intelligence records across OSINT sources. Social media profiles, corporate registry records, domain registrations, certificate transparency logs, and financial data are linked to master entity records using multi-signal correlation validated against [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. The [Signal Plurality](@/glossary/signal-plurality.md) axiom requires that entity links be supported by at least two independent signals, and the [Provenance Mandatory](@/glossary/provenance-mandatory.md) axiom ensures that every link is traceable to its evidence sources.
+The Prismatic Platform performs entity resolution through dedicated L2 resolver agents that consolidate intelligence records across OSINT sources. Social media profiles, corporate registry records, domain registrations, certificate transparency logs, and financial data are linked to master entity records using multi-signal correlation validated against [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. The [Signal Plurality](@/glossary/signal-plurality.md) axiom requires that entity links be supported by at least two independent signals, and the [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) axiom ensures that every link is traceable to its evidence sources.
 
-Resolution [confidence scores](@/glossary/confidence-scoring.md) must exceed the standard operations threshold (tau = 0.80) before entity links are established in the [Knowledge Graph](@/glossary/knowledge-graph.md). Links below the threshold are preserved as candidate associations for analyst review rather than being discarded -- consistent with the [contradiction preservation](@/glossary/contradiction-preservation.md) principle. The [Trinity Gate](@/glossary/trinity-gate.md) validates resolution assertions through structural consistency (the entity graph remains a valid DAG), logical consistency (attribute values do not contradict), and formal verification.
+Resolution [confidence scores](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) must exceed the standard operations threshold (tau = 0.80) before entity links are established in the [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/). Links below the threshold are preserved as candidate associations for analyst review rather than being discarded -- consistent with the [contradiction preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) principle. The [Trinity Gate](@/glossary/trinity-gate.md) validates resolution assertions through structural consistency (the entity graph remains a valid DAG), logical consistency (attribute values do not contradict), and formal verification.
 
 ## Entity Resolution Pipeline
 
@@ -322,7 +322,7 @@ end
 
 ### Graph-Based Matching
 
-Graph-based resolution analyzes relationship patterns in the [Knowledge Graph](@/glossary/knowledge-graph.md):
+Graph-based resolution analyzes relationship patterns in the [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/):
 
 ```elixir
 defmodule PrismaticResolution.GraphMatcher do
@@ -490,7 +490,7 @@ Entity resolution at scale requires careful performance optimization:
 | Medium | 100,000 | 5 billion | 500,000 | < 1 minute |
 | Large | 10,000,000 | 50 trillion | 50,000,000 | < 1 hour |
 
-The Prismatic Platform uses [Broadway](@/glossary/broadway.md) for [stream processing](@/glossary/stream-processing.md) of resolution pipelines, enabling real-time resolution of incoming intelligence as it arrives rather than batch-processing accumulated records.
+The Prismatic Platform uses [Broadway](https://prismatic-reality-com.github.io/prismatic-promo/glossary/broadway/) for [stream processing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/stream-processing/) of resolution pipelines, enabling real-time resolution of incoming intelligence as it arrives rather than batch-processing accumulated records.
 
 ```elixir
 defmodule PrismaticResolution.StreamResolver do
@@ -536,29 +536,29 @@ end
 
 ## Related Terms
 
-- [Knowledge Graph](@/glossary/knowledge-graph.md) - Graph structure storing resolved entity relationships
-- [Ontology](@/glossary/ontology.md) - Schema defining entity types and relationship categories
-- [Data Pipeline](@/glossary/data-pipeline.md) - Infrastructure for processing resolution workflows
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) - Graph structure storing resolved entity relationships
+- [Ontology](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ontology/) - Schema defining entity types and relationship categories
+- [Data Pipeline](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-pipeline/) - Infrastructure for processing resolution workflows
 - [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing resolution confidence
 - [Trinity Gate](@/glossary/trinity-gate.md) - Verification of resolution assertions
-- [Confidence Scoring](@/glossary/confidence-scoring.md) - Calibrated match confidence assignment
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) - Calibrated match confidence assignment
 - [Signal Plurality](@/glossary/signal-plurality.md) - Minimum evidence requirement for entity links
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) - Traceability requirement for all resolution evidence
-- [Stream Processing](@/glossary/stream-processing.md) - Real-time resolution pipeline execution
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) - Traceability requirement for all resolution evidence
+- [Stream Processing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/stream-processing/) - Real-time resolution pipeline execution
 - [Shodan](@/glossary/shodan.md) - OSINT source providing infrastructure intelligence for resolution
 - [Censys](@/glossary/censys.md) - Certificate and host data for entity correlation
-- [Broadway](@/glossary/broadway.md) - Stream processing framework for resolution pipelines
+- [Broadway](https://prismatic-reality-com.github.io/prismatic-promo/glossary/broadway/) - Stream processing framework for resolution pipelines
 
 ## See Also
 
-- [Agents](@/agents/_index.md) - Entity resolution agents in the AIAD ecosystem
-- [Architecture](@/architecture/_index.md) - Intelligence processing architecture
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Entity resolution agents in the AIAD ecosystem
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Intelligence processing architecture
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

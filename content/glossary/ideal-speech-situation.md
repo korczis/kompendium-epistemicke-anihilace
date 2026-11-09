@@ -41,7 +41,7 @@ Specifically:
 - **Coercive control / institutional EA** violates condition (4) — external power asymmetries determine outcomes regardless of argument quality.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) explicitly uses the ISS as the four-dimensional diagnostic grid against which any manipulation case can be coded: which conditions are violated, by what techniques, with what compounding interactions.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team deliberation protocols are designed as approximations of the ISS — equal participation rules, structured-dissent procedures, audit trails for argument-quality versus power-asymmetry contributions to outcomes.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration loop treats ISS-violations in source provenance as **structural risk factors** in confidence weighting: a conclusion produced under massively non-ISS conditions inherits epistemic taint regardless of its formal validity.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop treats ISS-violations in source provenance as **structural risk factors** in confidence weighting: a conclusion produced under massively non-ISS conditions inherits epistemic taint regardless of its formal validity.
 
 ## See Also
 
@@ -57,7 +57,7 @@ Specifically:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

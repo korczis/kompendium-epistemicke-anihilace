@@ -136,9 +136,9 @@ Sekce 05 je vědecký fundament pro tři operační moduly platformy:
 
 - **[NABLA Infinity (∇∞)](@/glossary/nabla-infinity.md)** — epistemický engine, který využívá taxonomii EA-5 jako **detekční slovník** pro identifikaci ultramárních technik v reálném čase v korpusech textu, dialogu a rozhodovacích procesech. Každá z 150 technik má korespondující detektor.
 - **[Color Teams](@/glossary/color-teams.md)** — multidisciplinární adversariální týmy (Red, Blue, Purple), které simulují aplikaci ultramárních technik v kontrolovaném IRB prostředí pro účely tréninku detektorů a klinické přípravy.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — rozhodovací subsystém, který používá detekční výstupy z taxonomie EA-5 jako vstup do hodnocení epistemické důvěryhodnosti zdrojů (parametr `epistemic_integrity`).
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — rozhodovací subsystém, který používá detekční výstupy z taxonomie EA-5 jako vstup do hodnocení epistemické důvěryhodnosti zdrojů (parametr `epistemic_integrity`).
 
-Detailní specifikace integrace viz [Vývojářský portál](@/developers/_index.md) → NABLA Infinity dokumentace.
+Detailní specifikace integrace viz [Vývojářský portál](https://prismatic-reality-com.github.io/prismatic-promo/developers/) → NABLA Infinity dokumentace.
 
 ## Pedagogická sekvence
 
@@ -184,7 +184,7 @@ Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány p�
 - [Sekce 07 — Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — meta-analýzy
 - [Etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) — IRB rámec
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Kompendium EA](@/glossary/kompendium-ea.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md)
-- Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
 
@@ -207,6 +207,6 @@ obecnému studiu. Před četbou potvrď, že:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

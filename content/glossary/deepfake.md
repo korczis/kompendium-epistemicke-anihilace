@@ -33,7 +33,7 @@ Provenance-based defenses (C2PA content credentials, hardware-anchored capture a
 
 Within the Prismatic Platform, deepfakes are modeled as a **first-class threat vector** in several subsystems:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} Source Assessment stage applies provenance-confidence scoring to ingested audiovisual evidence; unsigned media from low-trust channels are downweighted regardless of apparent content.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} Source Assessment stage applies provenance-confidence scoring to ingested audiovisual evidence; unsigned media from low-trust channels are downweighted regardless of apparent content.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements multi-modal cross-checks: claims attested by single-channel evidence (video only, audio only) carry lower epistemic weight than multi-channel corroboration with independent provenance.
 - [Color Teams](@/glossary/color-teams.md) Red Team scenarios include deepfake-enabled attack patterns: synthetic-CEO fraud, fabricated political endorsements, false-flag testimonial videos.
 - The Kompendium catalogues deepfake-enabled techniques under **EA-1.2 (epistemic falsification)** with cross-references at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) regarding the philosophical implications for testimonial epistemology.
@@ -56,7 +56,7 @@ Deepfakes are not merely a "fake content" problem; they are a **systemic erosion
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

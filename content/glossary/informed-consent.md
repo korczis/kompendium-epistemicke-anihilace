@@ -40,12 +40,12 @@ A defensible consent form is short enough to be read, written at the participant
 
 ## Related Concepts
 
-- [Consent](@/glossary/consent.md) - General doctrine of voluntary agreement
+- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) - General doctrine of voluntary agreement
 - [IRB Review](@/glossary/irb-review.md) - Body that approves consent forms
 - [Transformative Experience](@/glossary/transformative-experience.md) - Category challenging consent's foundational assumptions
 - [Undue Influence](@/glossary/undue-influence.md) - Doctrine that vitiates consent
-- [GDPR](@/glossary/gdpr.md) - EU framework defining consent for personal-data processing
-- [Data Protection](@/glossary/data-protection.md) - Broader compliance domain
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - EU framework defining consent for personal-data processing
+- [Data Protection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-protection/) - Broader compliance domain
 - [Individual Risk Map](@/glossary/individual-risk-map.md) - Tool for personalizing risk disclosure
 
 ## References

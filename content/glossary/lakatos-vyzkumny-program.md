@@ -40,7 +40,7 @@ Within the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index
 
 Within the Prismatic Platform, Lakatos's distinction is operationalized as a **content-delta metric** on belief revisions:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} tracks every revision to a belief's auxiliary structure and computes the **content delta** — does the revision generate new testable predictions, or only neutralize the prior counter-evidence? Revisions with negative or zero content-delta are flagged as candidate degenerative shifts and weight the belief's calibration score downward.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} tracks every revision to a belief's auxiliary structure and computes the **content delta** — does the revision generate new testable predictions, or only neutralize the prior counter-evidence? Revisions with negative or zero content-delta are flagged as candidate degenerative shifts and weight the belief's calibration score downward.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **per-belief auxiliary-hypothesis ledgers** with timestamps and prediction registrations, so the progressive/degenerative judgment can be made post-hoc against the actual record rather than against narrative reconstruction.
 - The [Color Teams](@/glossary/color-teams.md) Red Team explicitly seeds platform reasoning with degenerative-shift patterns to verify that the content-delta gating intercepts them before they harden into [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md).
 - The complement is the **honest hard-core declaration**: the platform requires explicit identification of which beliefs are core (not subject to single-evidence revision) versus belt (revisable). Concealed hard cores — beliefs that *behave* as hard core while being *presented* as evidence-driven — are a documented EA pattern.
@@ -62,7 +62,7 @@ The MSRP framework also clarifies why naïve falsificationism fails as a defense
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

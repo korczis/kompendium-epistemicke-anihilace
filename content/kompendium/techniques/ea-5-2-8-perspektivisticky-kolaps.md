@@ -41,7 +41,7 @@ Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **
 
 EA-5.2.8 je odlišná od **změny perspektivy** (přijetí jiného pohledu) a od **multi-perspektivismu** (uznání mnoha pohledů). V obou těchto případech **schopnost** zaujímat perspektivu zůstává intaktní. EA-5.2.8 destruuje samotnou schopnost.
 
-V kontrastu s [EA-5.2.16 aperspektivistickou saturací](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-16-aperspektivisticka-saturace), kde subjekt **přijímá všechny perspektivy současně**, perspektivistický kolaps neoperuje skrze přesycení, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho.
+V kontrastu s [EA-5.2.16 aperspektivistickou saturací](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace), kde subjekt **přijímá všechny perspektivy současně**, perspektivistický kolaps neoperuje skrze přesycení, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho.
 
 ## Operační modus
 
@@ -161,18 +161,18 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 ### Často se kombinuje s
 
-- **[EA-5.2.16 Aperspektivistická saturace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-16-aperspektivisticka-saturace)** — kompenzační reakce na kolaps.
-- **[EA-5.2.21 Transcendentální solipsismus](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-21-transcendentalni-solipsismus)** — opačný extrém: vše je *moje*, ale Já samo je vyprázdněné.
+- **[EA-5.2.16 Aperspektivistická saturace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace)** — kompenzační reakce na kolaps.
+- **[EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)** — opačný extrém: vše je *moje*, ale Já samo je vyprázdněné.
 - **[EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)** — strukturní podobnost na úrovni hyperreflexivního přesouvání.
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
-- **[EA-5.2.12 Apercepční roztržka](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-12-apercepcni-roztrzka)** — rozpad transcendentální jednoty apercepce.
+- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
+- **[EA-5.2.12 Apercepční roztržka](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka)** — rozpad transcendentální jednoty apercepce.
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **explicitní stanovisko** rozhodovatele s perspektivním ukotvením; aperspektivismus by byl zachycen jako **chybějící input**.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní stanovisko** rozhodovatele s perspektivním ukotvením; aperspektivismus by byl zachycen jako **chybějící input**.
 - **OSINT framework** strukturálně rozlišuje **vlastní pozorování** od **pozorování zdroje** — perspektivnost je vynucená.
 - **NABLA Infinity provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
 
@@ -182,8 +182,8 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 - **Sourozenecké techniky**:
   - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
   - [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
-  - [EA-5.2.16 Aperspektivistická saturace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-16-aperspektivisticka-saturace)
-  - [EA-5.2.21 Transcendentální solipsismus](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-21-transcendentalni-solipsismus)
+  - [EA-5.2.16 Aperspektivistická saturace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace)
+  - [EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
@@ -211,6 +211,6 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

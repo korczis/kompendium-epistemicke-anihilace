@@ -48,7 +48,7 @@ Consequently, techniques that induce anti-recursivity are particularly dangerous
 - **EA-1.3.3 Thematic Diversion** applied specifically to self-reflective topics
 - The **"Guru and Adept" pattern** in its consolidation phase, where the mentor reframes any self-reflection as "ego defense"
 
-In Prismatic-relevant applications, anti-recursivity functions as a **systemic vulnerability marker**. The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline includes explicit recursion tests (Levels L10–L13 + Meta) precisely because anti-recursive collapse would undermine all higher-order epistemic operations. The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats outputs from sources that show anti-recursive symptoms as having **diminished evidential weight**, regardless of formal source credentials.
+In Prismatic-relevant applications, anti-recursivity functions as a **systemic vulnerability marker**. The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline includes explicit recursion tests (Levels L10–L13 + Meta) precisely because anti-recursive collapse would undermine all higher-order epistemic operations. The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats outputs from sources that show anti-recursive symptoms as having **diminished evidential weight**, regardless of formal source credentials.
 
 Therapeutically, recovery from anti-recursivity typically requires **scaffolded re-introduction** of recursive operations through guided meta-cognitive exercises, often beginning with low-stakes domains and gradually expanding to the originally damaged areas. Direct confrontation with recursive prompts in advanced anti-recursivity can be counterproductive — triggering the very avoidance mechanisms the recovery aims to dissolve.
 
@@ -64,7 +64,7 @@ Therapeutically, recovery from anti-recursivity typically requires **scaffolded 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -28,5 +28,5 @@ toc = true
 ## Connect
 
 - [Kompendium home](@/kompendium/_index.md)
-- [GitHub](https://github.com/korczis/prismatic-platform)
-- [Email](mailto:[e-mail odstraněn])
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace)
+- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

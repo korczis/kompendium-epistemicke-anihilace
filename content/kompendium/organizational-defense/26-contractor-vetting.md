@@ -83,7 +83,7 @@ Tiered access model, time-limited credentials, quarterly access review, mandator
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
 - [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
 - [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
+- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
 - [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
 - [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
@@ -94,8 +94,8 @@ Tiered access model, time-limited credentials, quarterly access review, mandator
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

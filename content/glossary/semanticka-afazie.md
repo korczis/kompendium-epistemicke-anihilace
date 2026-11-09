@@ -44,7 +44,7 @@ Syndrom poprvé systematicky popsali John Hodges a Karalyn Patterson (Cambridge,
 
 - [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) - Higher-order language ability often preserved early in svPPA
 - [Narativní identita](@/glossary/narativni-identita.md) - Self-construction layer eroded by semantic loss
-- [Amygdala](@/glossary/amygdala.md) - Subcortical structure with overlapping degeneration in late svPPA
+- [Amygdala](https://prismatic-reality-com.github.io/prismatic-promo/glossary/amygdala/) - Subcortical structure with overlapping degeneration in late svPPA
 - [Epistemic Trauma](@/glossary/epistemicke-trauma.md) - Differential consideration in atypical presentations
 - [Reality Testing](@/glossary/reality-testing.md) - Cognitive function affected indirectly by conceptual loss
 

@@ -40,8 +40,8 @@ A robust individual risk map proceeds in four phases. *Baseline establishment* d
 
 ## Related Concepts
 
-- [Risk Assessment](@/glossary/risk-assessment.md) - Parent methodology
-- [Risk Management](@/glossary/risk-management.md) - Operational application
+- [Risk Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/risk-assessment/) - Parent methodology
+- [Risk Management](https://prismatic-reality-com.github.io/prismatic-promo/glossary/risk-management/) - Operational application
 - [Risk Score](@/glossary/risk-score.md) - Common output format
 - [Informed Consent](@/glossary/informed-consent.md) - Process that depends on individual risk understanding
 - [IRB Review](@/glossary/irb-review.md) - Governance body requiring IRM in research

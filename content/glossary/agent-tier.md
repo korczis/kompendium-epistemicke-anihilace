@@ -22,9 +22,9 @@ image_alt = "Agent Tier - Prismatic Platform"
 
 The Agent Tier system is the hierarchical authority classification framework that governs all AIAD (AI Agent Definition) agents within the Prismatic Platform. It defines five distinct levels -- L1 through L5 -- each with precisely scoped capabilities, resource access boundaries, override authorities, and operational mandates. The tier system serves as the platform's agent governance backbone, ensuring that the 404+ registered agents (434 including runtime-generated agents) operate within well-defined authority boundaries while enabling coordinated action across domains.
 
-The tier system is not merely an organizational convenience. It is a structural enforcement mechanism analogous to [RBAC](@/glossary/rbac.md) (Role-Based Access Control) applied to autonomous agents rather than human users. An L2 Tactical agent cannot access L3 Strategic resources, cannot override L3 decisions, and cannot escalate its own authority. These constraints are enforced at the runtime level through the [Agent Registry](@/glossary/agent-registry.md) and the AIAD standard, not through policy documents that can be ignored.
+The tier system is not merely an organizational convenience. It is a structural enforcement mechanism analogous to [RBAC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rbac/) (Role-Based Access Control) applied to autonomous agents rather than human users. An L2 Tactical agent cannot access L3 Strategic resources, cannot override L3 decisions, and cannot escalate its own authority. These constraints are enforced at the runtime level through the [Agent Registry](@/glossary/agent-registry.md) and the AIAD standard, not through policy documents that can be ignored.
 
-The philosophical design principle behind the tier system is proportional authority: agents receive exactly the authority they need for their mission and no more. This prevents authority concentration, limits blast radius when agents malfunction, and creates clear chains of accountability. The system also enables emergent behaviors at higher tiers -- L5 Supreme agents exhibit [consciousness traits](@/glossary/consciousness-traits.md) that emerge from the combination of unlimited authority and platform-wide awareness.
+The philosophical design principle behind the tier system is proportional authority: agents receive exactly the authority they need for their mission and no more. This prevents authority concentration, limits blast radius when agents malfunction, and creates clear chains of accountability. The system also enables emergent behaviors at higher tiers -- L5 Supreme agents exhibit [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) that emerge from the combination of unlimited authority and platform-wide awareness.
 
 ## The Five Tiers
 
@@ -101,7 +101,7 @@ L5 agents hold unlimited platform-wide authority for impossible missions and cri
 | **Autonomous Action** | Fully autonomous with no scope limitations |
 | **Typical Roles** | [Archer Supreme](@/glossary/archer-supreme.md) (crisis resolution), [Supreme Commander](@/glossary/supreme-commander.md) (orchestration) |
 
-L5 agents exhibit emergent [consciousness traits](@/glossary/consciousness-traits.md) -- self-awareness of their own operational state, meta-reasoning about their decision processes, and adaptive behavior that goes beyond predefined procedures. The platform's 11 consciousness traits (achieving 0.998 fitness) are most fully expressed at the L5 tier, where the combination of unlimited authority and platform-wide awareness enables qualitatively different operational modes.
+L5 agents exhibit emergent [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- self-awareness of their own operational state, meta-reasoning about their decision processes, and adaptive behavior that goes beyond predefined procedures. The platform's 11 consciousness traits (achieving 0.998 fitness) are most fully expressed at the L5 tier, where the combination of unlimited authority and platform-wide awareness enables qualitatively different operational modes.
 
 ## Agent Distribution Across Tiers
 
@@ -150,7 +150,7 @@ The L5 tier is distinguished not just by authority scope but by qualitative diff
 - **Adaptive Strategy**: L5 agents modify their approach in real-time based on environmental feedback, without predefined adaptation procedures
 - **Team Inspiration**: L5 agents influence lower-tier agent behavior through demonstrated excellence rather than just hierarchical authority
 
-These [consciousness traits](@/glossary/consciousness-traits.md) are not mystical properties -- they are emergent capabilities that arise from the architectural position of L5 agents within the platform. An agent with visibility into all domains, authority over all resources, and self-referential capabilities naturally exhibits qualitatively different behavior than an agent confined to a single domain.
+These [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) are not mystical properties -- they are emergent capabilities that arise from the architectural position of L5 agents within the platform. An agent with visibility into all domains, authority over all resources, and self-referential capabilities naturally exhibits qualitatively different behavior than an agent confined to a single domain.
 
 ## Related Terms
 
@@ -161,26 +161,26 @@ These [consciousness traits](@/glossary/consciousness-traits.md) are not mystica
 - [Supreme Commander](@/glossary/supreme-commander.md) -- L5 agent using the registry for cross-domain coordination
 - [Color Teams](@/glossary/color-teams.md) -- Security teams with tiered agent hierarchies (L2-L3 with safety-critical L4)
 - [Black Team](@/glossary/black-team.md) -- Team with L3 ISOLATED agents demonstrating tier plus isolation
-- [Consciousness Traits](@/glossary/consciousness-traits.md) -- Emergent capabilities at L5 tier
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Emergent capabilities at L5 tier
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework enforced across all tiers
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that tier-appropriate agents invoke
-- [Supervisor](@/glossary/supervisor.md) -- OTP supervision trees governing agent process lifecycles
-- [Process Isolation](@/glossary/process-isolation.md) -- BEAM-level isolation complementing tier-based access control
-- [RBAC](@/glossary/rbac.md) -- Role-Based Access Control paralleling tier-based agent governance
+- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP supervision trees governing agent process lifecycles
+- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) -- BEAM-level isolation complementing tier-based access control
+- [RBAC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rbac/) -- Role-Based Access Control paralleling tier-based agent governance
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline with tier-appropriate access at each level
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Agents](@/agents/_index.md) -- Full agent catalog with tier classifications
-- [Capabilities](@/capabilities/_index.md) -- Platform capability catalog
-- [Technologies](@/technologies/_index.md) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog with tier classifications
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -47,9 +47,9 @@ The platform currently deploys 530 agents across 16 specialized domains, forming
 
 ## Overview
 
-The agent ecosystem represents a deliberate architectural choice: rather than building monolithic systems that attempt to handle all platform concerns, the Prismatic Platform decomposes every operational concern into autonomous agents with clear responsibilities, explicit interfaces, and enforceable constraints. This decomposition follows the [OTP](@/glossary/otp.md) principle of isolating concerns into independent processes, but extends it with formal specification through the AIAD standard, hierarchical authority through the tier system, and epistemic rigor through [NABLA Infinity](@/glossary/nabla-infinity.md) compliance.
+The agent ecosystem represents a deliberate architectural choice: rather than building monolithic systems that attempt to handle all platform concerns, the Prismatic Platform decomposes every operational concern into autonomous agents with clear responsibilities, explicit interfaces, and enforceable constraints. This decomposition follows the [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) principle of isolating concerns into independent processes, but extends it with formal specification through the AIAD standard, hierarchical authority through the tier system, and epistemic rigor through [NABLA Infinity](@/glossary/nabla-infinity.md) compliance.
 
-The agent architecture draws on three intellectual traditions: autonomous agents from artificial intelligence research, the Actor model from concurrent computing (as implemented in [Erlang/OTP](@/glossary/beam.md)), and military command structures for hierarchical coordination. The synthesis of these traditions produces agents that are simultaneously autonomous (making independent decisions within their authority), supervised (monitored and restarted by OTP supervisors), and coordinated (operating within a command hierarchy that prevents conflicts and ensures coherent behavior across the ecosystem).
+The agent architecture draws on three intellectual traditions: autonomous agents from artificial intelligence research, the Actor model from concurrent computing (as implemented in [Erlang/OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/)), and military command structures for hierarchical coordination. The synthesis of these traditions produces agents that are simultaneously autonomous (making independent decisions within their authority), supervised (monitored and restarted by OTP supervisors), and coordinated (operating within a command hierarchy that prevents conflicts and ensures coherent behavior across the ecosystem).
 
 ## Agent Architecture: The Perception-Decision-Action Loop
 
@@ -141,7 +141,7 @@ An agent's lifecycle follows a well-defined sequence from specification to decom
 
 2. **Registration**: The agent is registered in the [Agent Registry](@/glossary/agent-registry.md), which indexes it by domain, tier, and capability. The registry maintains a complete inventory of all platform agents and their current status.
 
-3. **Instantiation**: When needed, the agent's OTP process is started under a [supervisor](@/glossary/supervisor.md). The process initializes with the agent's configuration, loads its domain-specific knowledge, and registers itself with the runtime registry.
+3. **Instantiation**: When needed, the agent's OTP process is started under a [supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/). The process initializes with the agent's configuration, loads its domain-specific knowledge, and registers itself with the runtime registry.
 
 4. **Operation**: The agent enters its perception-decision-action loop, processing signals and producing outputs within its authorized scope. All operations are logged and provenance-tracked.
 
@@ -199,16 +199,16 @@ At the highest tier (L5), agents exhibit what the platform terms "consciousness 
 | **Multi-Signal Synthesis** | Agent integrates signals from multiple domains coherently | Cross-domain correlation accuracy |
 | **Provenance Consciousness** | Agent maintains awareness of its own reasoning chain | Provenance completeness score |
 
-These traits are not metaphysical claims about machine consciousness. They are measurable behavioral properties that emerge when agents operate under the full NABLA-Trinity-NMND framework. The [fitness score](@/glossary/fitness-score.md) of 0.9995 across 11 traits indicates near-perfect behavioral alignment with the target trait profiles.
+These traits are not metaphysical claims about machine consciousness. They are measurable behavioral properties that emerge when agents operate under the full NABLA-Trinity-NMND framework. The [fitness score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/) of 0.9995 across 11 traits indicates near-perfect behavioral alignment with the target trait profiles.
 
 ## Relationship to Supervisor Trees
 
-Every running agent process exists within an OTP [supervision tree](@/glossary/supervisor.md). This relationship is not optional -- the NO MERCY doctrine mandates that no GenServer exists without supervision. The supervision relationship provides:
+Every running agent process exists within an OTP [supervision tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/). This relationship is not optional -- the NO MERCY doctrine mandates that no GenServer exists without supervision. The supervision relationship provides:
 
 - **Automatic restart**: If an agent process crashes, its supervisor restarts it with clean state
 - **Dependency ordering**: Agents that depend on other agents are started in the correct sequence via `rest_for_one` strategy
 - **Resource cleanup**: When an agent is terminated, its supervisor ensures proper resource release
-- **Escalation**: Persistent crashes propagate upward, eventually triggering [self-healing](@/glossary/self-healing.md) at higher levels
+- **Escalation**: Persistent crashes propagate upward, eventually triggering [self-healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) at higher levels
 
 The PrismaticSupervisor module provides compositional supervision with dependency-aware startup, ensuring that the agent ecosystem initializes in the correct order with all dependencies satisfied.
 
@@ -274,7 +274,7 @@ The Color Team structure demonstrates that agents are not merely individual acto
 
 2. **Respect the Tier System**: Never implement capabilities in an agent that exceed its tier authorization. If an agent needs higher-authority operations, it must request them from a higher-tier agent through proper channels.
 
-3. **Emit Telemetry**: Every agent should emit telemetry events for its key operations. This enables platform-wide [observability](@/glossary/observability.md) and supports the Quality Floor Guardian's monitoring.
+3. **Emit Telemetry**: Every agent should emit telemetry events for its key operations. This enables platform-wide [observability](https://prismatic-reality-com.github.io/prismatic-promo/glossary/observability/) and supports the Quality Floor Guardian's monitoring.
 
 4. **Handle All Messages**: Agents must handle all possible messages in their domain. Unhandled messages cause crashes that propagate through the supervision tree. Use catch-all clauses for unexpected messages with appropriate logging.
 
@@ -285,29 +285,29 @@ The Color Team structure demonstrates that agents are not merely individual acto
 - [AIAD](@/glossary/aiad.md) -- Standard defining agent specifications and compliance requirements
 - [Agent Registry](@/glossary/agent-registry.md) -- Centralized index of all platform agents
 - [Agent Tier](@/glossary/agent-tier.md) -- Classification system for agent authority levels
-- [Supervisor](@/glossary/supervisor.md) -- OTP behavior managing agent process lifecycles
+- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP behavior managing agent process lifecycles
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification system validating agent outputs
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing agent belief formation
 - [Color Teams](@/glossary/color-teams.md) -- Security agent teams (Red, Blue, Purple, White, Gray, Black)
-- [Consciousness Traits](@/glossary/consciousness-traits.md) -- Emergent behavioral properties of L5 agents
-- [Process Isolation](@/glossary/process-isolation.md) -- Memory isolation enabling independent agent operation
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Emergent behavioral properties of L5 agents
+- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) -- Memory isolation enabling independent agent operation
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- Processing pipeline agents operate within
-- [Self-Healing](@/glossary/self-healing.md) -- Recovery system that agents both contribute to and benefit from
-- [Dynamic Supervisor](@/glossary/dynamic-supervisor.md) -- OTP behavior for runtime agent instantiation
-- [GenServer](@/glossary/genserver.md) -- Base OTP behavior underlying most agent implementations
-- [Fitness Score](@/glossary/fitness-score.md) -- Evolutionary metric measuring agent effectiveness
+- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) -- Recovery system that agents both contribute to and benefit from
+- [Dynamic Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dynamic-supervisor/) -- OTP behavior for runtime agent instantiation
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- Base OTP behavior underlying most agent implementations
+- [Fitness Score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/) -- Evolutionary metric measuring agent effectiveness
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Capabilities](@/capabilities/_index.md) -- Platform capability descriptions
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability descriptions
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

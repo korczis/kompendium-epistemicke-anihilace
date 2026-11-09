@@ -184,7 +184,7 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} source modality check** — explicitně rozlišuje *fakt* / *hypotézu* / *kontrafaktuál* / *imaginaci* v evidenčním řetězci a vyžaduje, aby každý vstup nesl modální označení.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} source modality check** — explicitně rozlišuje *fakt* / *hypotézu* / *kontrafaktuál* / *imaginaci* v evidenčním řetězci a vyžaduje, aby každý vstup nesl modální označení.
 - **NABLA Infinity provenance tracking** — každé tvrzení označeno typem zdroje (přímé pozorování / nepřímé / spekulace), čímž **algoritmicky** udržuje modální distinkci.
 - **OSINT framework's "evidence vs. hypothesis" gate** — výstupy investigací nesmí mísit ověřená fakta s hypotézami bez explicitního označení.
 
@@ -207,7 +207,7 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
@@ -231,6 +231,6 @@ Klientka po pětiletém vztahu hlásí: "Nevím, co se vlastně stalo a co mi pa
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

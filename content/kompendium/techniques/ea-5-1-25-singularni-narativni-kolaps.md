@@ -182,7 +182,7 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} narrative-diversity check** — audituje rozhodnutí založená na **jediné biografické interpretaci** subjektu.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} narrative-diversity check** — audituje rozhodnutí založená na **jediné biografické interpretaci** subjektu.
 - **NABLA Infinity provenance tracking** — udržuje historii interpretací, umožňuje detekci diskontinuity narativu.
 - **Color Teams biographical audit** — Red Team protokol pro detekci narativního monismu v high-stakes kontextech.
 
@@ -198,7 +198,7 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
   - [Narativní topologie](@/glossary/narativni-topologie.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -226,6 +226,6 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

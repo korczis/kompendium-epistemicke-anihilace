@@ -79,11 +79,11 @@ External assessment, transparentní kritéria, board ratification, public job de
 
 ## 6. Cross-linky
 
-- [Exit interview s EA fokusem](/kompendium/organizational-defense/13-exit-interview-EA/)
+- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
 - [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
 - [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
+- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
 - [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
 - [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
@@ -94,8 +94,8 @@ External assessment, transparentní kritéria, board ratification, public job de
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

@@ -181,7 +181,7 @@ Klient po 18 měsících intenzivního programu spontánně přijímal výroky t
 
 Logická diskontinuita je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} inferential trace** — každé rozhodnutí má dohledatelný řetězec premis, inferencí a závěru. Diskontinuované řetězce jsou flagovány jako epistemicky nestabilní.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inferential trace** — každé rozhodnutí má dohledatelný řetězec premis, inferencí a závěru. Diskontinuované řetězce jsou flagovány jako epistemicky nestabilní.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) compositional consistency** — provenance tracking sleduje, zda jsou výsledky jednotlivých kroků kompozičně koherentní s celkovým závěrem; lokální validita ne implikuje globální validitu.
 - **[Color Teams](@/glossary/color-teams.md) compositional adversarial test** — Red Team explicitně testuje, zda argumentace odolá kompozici dílčích kroků pod adversariální kritikou.
 - **Strukturovaný formát pro kritická rozhodnutí** — platformové kritické rozhodnutí vyžaduje explicitní strukturu (premisy / inference / závěr), nikoli narativní formu, která maskuje diskontinuity.
@@ -211,7 +211,7 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -236,6 +236,6 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

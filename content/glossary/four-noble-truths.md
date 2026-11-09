@@ -38,7 +38,7 @@ A related structural feature: the third truth (*nirodha*) is non-trivial. It blo
 
 Within the Prismatic Platform, the Four Noble Truths structure is referenced not as religious content but as a **comparative diagnostic framework** in [Kompendium → 06-zotaveni → ramce](@/kompendium/recovery-protocols/ramce.md), alongside Aristotelian *eudaimonia*, Stoic *prosochē*, and CBT/ACT therapeutic schemas. The cross-traditional comparison serves a specific purpose: identifying the **invariant features** of any credible epistemic-damage recovery framework.
 
-Three invariants emerge across all traditions: (1) **diagnostic specificity** — name the damage precisely; (2) **causal etiology** — identify mechanism, not just symptom; (3) **path specification** — make the recovery protocol enumerable, repeatable, and falsifiable. The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} recovery-tracking logic enforces all three: a "recovery plan" without enumerated steps fails validation.
+Three invariants emerge across all traditions: (1) **diagnostic specificity** — name the damage precisely; (2) **causal etiology** — identify mechanism, not just symptom; (3) **path specification** — make the recovery protocol enumerable, repeatable, and falsifiable. The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} recovery-tracking logic enforces all three: a "recovery plan" without enumerated steps fails validation.
 
 The *anatta* / non-self component of Buddhist epistemology is *not* incorporated into the platform — it carries metaphysical commitments orthogonal to the diagnostic question. The platform's use is restricted to the structural skeleton.
 
@@ -56,7 +56,7 @@ The *anatta* / non-self component of Buddhist epistemology is *not* incorporated
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

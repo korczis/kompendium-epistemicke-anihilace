@@ -185,11 +185,11 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — terminální stav, kdy meta-reflexe se zhroutí v jediný sebereferenční bod.
-- **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — úplný kolaps meta-reflexivní kapacity.
+- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — úplný kolaps meta-reflexivní kapacity.
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
 - **OSINT framework's source-quality matrix** — strukturovaná hodnotící mřížka brání idiosynkratickému převrácení reliability.
 - **NABLA Infinity epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
 
@@ -227,6 +227,6 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

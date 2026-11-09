@@ -60,7 +60,7 @@ The 225+ glossary terms are organized into seven categories. Each category repre
 
 Terms describing the platform's structural design, runtime environment, and deployment topology. This category covers the foundational building blocks -- from the BEAM virtual machine and OTP supervision trees up through the umbrella application structure and storage adapter layer.
 
-**Representative terms**: [BEAM](@/glossary/beam.md), [OTP](@/glossary/otp.md), [Supervisor](@/glossary/supervisor.md), [GenServer](@/glossary/genserver.md), [ETS](@/glossary/ets.md), [3NL Framework](@/glossary/three-nl.md), [Adapter Pattern](@/glossary/adapter-pattern.md), [Umbrella Application](@/glossary/umbrella.md), [Process Isolation](@/glossary/process-isolation.md), [Message Passing](@/glossary/message-passing.md)
+**Representative terms**: [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/), [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/), [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/), [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/), [ETS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ets/), [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/), [Adapter Pattern](@/glossary/adapter-pattern.md), [Umbrella Application](https://prismatic-reality-com.github.io/prismatic-promo/glossary/umbrella/), [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/), [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/)
 
 Architecture terms form the vocabulary needed to understand how the platform's 90 OTP applications are organized, supervised, and interconnected. A reader who understands these terms can follow any architectural discussion in the platform documentation.
 
@@ -92,7 +92,7 @@ Intelligence terms bridge the gap between traditional OSINT methodology and the 
 
 Terms describing the platform's security architecture, including the Color Team adversarial-defensive framework, role-based access control, attack surface analysis, and epistemic security concepts. Security terms in this glossary extend beyond traditional application security to include the epistemic dimension -- protecting the integrity of the platform's knowledge and belief systems.
 
-**Representative terms**: [Color Teams](@/glossary/color-teams.md), [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [Gray Team](@/glossary/gray-team.md), [White Team](@/glossary/white-team.md), [Black Team](@/glossary/black-team.md), [RBAC](@/glossary/rbac.md), [Attack Surface](@/glossary/attack-surface.md)
+**Representative terms**: [Color Teams](@/glossary/color-teams.md), [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [Gray Team](@/glossary/gray-team.md), [White Team](@/glossary/white-team.md), [Black Team](@/glossary/black-team.md), [RBAC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rbac/), [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/)
 
 The Color Team terms deserve particular attention. While Red Team and Blue Team are established security concepts, the platform extends the model to six teams (Gray, Red, Blue, Purple, White, Black) with specific epistemic functions that go beyond traditional penetration testing and defense.
 
@@ -100,7 +100,7 @@ The Color Team terms deserve particular attention. While Red Team and Blue Team 
 
 Terms from the platform's epistemic framework, covering belief formation, knowledge validation, formal verification, and the NABLA Infinity axiom system. This category contains the most novel terminology in the glossary -- concepts that are specific to the Prismatic Platform's approach to computational epistemology.
 
-**Representative terms**: [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md), [Epistemic Pipeline](@/glossary/epistemic-pipeline.md), [Confidence Threshold](@/glossary/confidence-threshold.md), [Signal Plurality](@/glossary/signal-plurality.md), [Provenance Mandatory](@/glossary/provenance-mandatory.md), [Consciousness Traits](@/glossary/consciousness-traits.md), [QEVE](@/glossary/qeve.md), [Fitness Score](@/glossary/fitness-score.md)
+**Representative terms**: [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md), [Epistemic Pipeline](@/glossary/epistemic-pipeline.md), [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/), [Signal Plurality](@/glossary/signal-plurality.md), [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/), [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/), [QEVE](@/glossary/qeve.md), [Fitness Score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/)
 
 Epistemic terms are foundational for understanding how the platform differs from conventional software systems. Traditional platforms process data; the Prismatic Platform forms beliefs about data and subjects those beliefs to formal verification before acting on them.
 
@@ -108,7 +108,7 @@ Epistemic terms are foundational for understanding how the platform differs from
 
 Terms describing the specific technologies, libraries, tools, and external services that compose the platform's technology stack. This category covers everything from programming languages and frameworks to databases, search engines, and deployment infrastructure.
 
-**Representative terms**: [Elixir](@/glossary/elixir.md), [Phoenix](@/glossary/phoenix.md), [LiveView](@/glossary/liveview.md), [Ecto](@/glossary/ecto.md), [PostgreSQL](@/glossary/postgresql.md), [Meilisearch](@/glossary/meilisearch.md), [KuzuDB](@/glossary/kuzudb.md), [Redis](@/glossary/redis.md), [Docker](@/glossary/docker.md), [Lean4](@/glossary/lean4.md), [Ollama](@/glossary/ollama.md), [Hex](@/glossary/hex.md), [Mix](@/glossary/mix.md), [Credo](@/glossary/credo.md), [Dialyzer](@/glossary/dialyzer.md)
+**Representative terms**: [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/), [Phoenix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/phoenix/), [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/), [Ecto](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ecto/), [PostgreSQL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/postgresql/), [Meilisearch](https://prismatic-reality-com.github.io/prismatic-promo/glossary/meilisearch/), [KuzuDB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kuzudb/), [Redis](https://prismatic-reality-com.github.io/prismatic-promo/glossary/redis/), [Docker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/docker/), [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/), [Ollama](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ollama/), [Hex](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hex/), [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/), [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/), [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/)
 
 Technology terms serve as a bridge between the platform's domain-specific vocabulary and the broader software engineering ecosystem. A developer joining the project can start with these familiar terms and navigate outward to the platform-specific concepts they connect to.
 
@@ -181,11 +181,11 @@ Every glossary term page includes a "See Also" section linking to 3-5 related te
 
 The cross-reference topology follows three patterns:
 
-**Hierarchical references** link terms to their parent concepts. For example, [GenServer](@/glossary/genserver.md) references [OTP](@/glossary/otp.md), which references [BEAM](@/glossary/beam.md). A reader can follow these links upward to broader concepts or downward to specific implementations.
+**Hierarchical references** link terms to their parent concepts. For example, [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) references [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/), which references [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/). A reader can follow these links upward to broader concepts or downward to specific implementations.
 
 **Lateral references** link terms at the same abstraction level. For example, [Red Team](@/glossary/red-team.md) references [Blue Team](@/glossary/blue-team.md) and [Purple Team](@/glossary/purple-team.md). These links help readers understand how peer concepts relate to and complement each other.
 
-**Cross-domain references** link terms across category boundaries. For example, [NABLA Infinity](@/glossary/nabla-infinity.md) (epistemic) references [Trinity Gate](@/glossary/trinity-gate.md) (epistemic) but also connects to [Color Teams](@/glossary/color-teams.md) (security) and [3NL Framework](@/glossary/three-nl.md) (architecture). These links reveal the integrative nature of the platform's design.
+**Cross-domain references** link terms across category boundaries. For example, [NABLA Infinity](@/glossary/nabla-infinity.md) (epistemic) references [Trinity Gate](@/glossary/trinity-gate.md) (epistemic) but also connects to [Color Teams](@/glossary/color-teams.md) (security) and [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) (architecture). These links reveal the integrative nature of the platform's design.
 
 ### Example Cross-Reference Network
 
@@ -292,9 +292,9 @@ The 225+ terms across seven categories represent the current state of the platfo
 
 ### Related Sections
 
-- [Architecture](@/architecture/_index.md) -- Technical deep-dive using architecture terms
-- [Platform Capabilities](@/capabilities/_index.md) -- Doctrine and quality enforcement terms in action
-- [Applications](@/apps/_index.md) -- OTP application catalog referencing technology terms
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Technical deep-dive using architecture terms
+- [Platform Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Doctrine and quality enforcement terms in action
+- [Applications](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- OTP application catalog referencing technology terms
 
 ### External References
 
@@ -311,7 +311,7 @@ The 225+ terms across seven categories represent the current state of the platfo
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -39,7 +39,7 @@ Within the Prismatic Platform, epistemic security is the **organizing frame** th
 
 - The Kompendium ([/kompendium/](@/kompendium/_index.md)) is itself an epistemic-security artifact: a taxonomy of attack techniques against individual and collective cognition, designed for use by qualified clinicians, researchers, and security professionals.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) is a platform-level epistemic-security pipeline: source-diversity invariants, falsifiability tracking, provenance audits, and multi-modal cross-checks together implement a defense-in-depth posture against the EA technique catalog.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats epistemic-process integrity as a **first-class confidence signal**: a decision is only as credible as the epistemic process producing its inputs.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats epistemic-process integrity as a **first-class confidence signal**: a decision is only as credible as the epistemic process producing its inputs.
 - [Color Teams](@/glossary/color-teams.md) operationalize the field's recommendations: Red Team simulates attackers, Blue Team hardens defenses, Purple Team integrates findings.
 - The [Info-Ops](@/glossary/info-ops.md), [Deepfake](@/glossary/deepfake.md), [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md), and [Deplatforming](@/glossary/deplatforming.md) entries each address specific subdomains of the broader epistemic-security field.
 
@@ -59,7 +59,7 @@ Epistemic security is the **macro-frame** within which the Kompendium's micro-le
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

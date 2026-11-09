@@ -209,7 +209,7 @@ Intervence: Podpůrná síť pro bývalé členy s explicitní pojmovou rehabili
 
 Konceptuální nihilace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} operational definitions** — všechny rozhodovací proměnné mají **operativní, machine-checkable** definice, které nemohou být diskurzivně rozkývány.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} operational definitions** — všechny rozhodovací proměnné mají **operativní, machine-checkable** definice, které nemohou být diskurzivně rozkývány.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) categorial invariants** — epistemický pipeline udržuje stabilní kategorialní topologii napříč transformacemi; pokus o destabilizaci základních kategorií je flagován.
 - **[Color Teams](@/glossary/color-teams.md) blue-team protocol** — defenzivní validace, že interní diskurz Prismatic neprodukuje konceptuální nihilaci u operátorů (zejména v dlouhodobých výcvikových rámcích).
 
@@ -235,7 +235,7 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -260,6 +260,6 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

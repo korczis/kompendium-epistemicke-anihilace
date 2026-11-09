@@ -42,9 +42,9 @@ Herbert Simon (1956, 1957) formalizoval kontrast mezi *maximizing* (hledání op
 
 ## Related Concepts
 
-- [Bayesian Reasoning](@/glossary/bayesian-reasoning.md) - Provides termination criterion (when prior is updated enough)
-- [Uncertainty](@/glossary/uncertainty.md) - The substrate driving decision pathology
-- [Anomaly Detection](@/glossary/anomaly-detection.md) - Operational context where rapid decisions are required
+- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) - Provides termination criterion (when prior is updated enough)
+- [Uncertainty](https://prismatic-reality-com.github.io/prismatic-promo/glossary/uncertainty/) - The substrate driving decision pathology
+- [Anomaly Detection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/anomaly-detection/) - Operational context where rapid decisions are required
 - [Reality Testing](@/glossary/reality-testing.md) - Cognitive function that bounds analysis to relevant signals
 
 ## References

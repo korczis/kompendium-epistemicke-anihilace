@@ -36,7 +36,7 @@ Specifically:
 - **EA-1.2.x delegitimization at societal scale** weaponizes metanarrative collapse: the victim's appeal to scientific consensus, journalistic standards, judicial procedure, or historical record can be neutralized by reframing each as "just one narrative among others," creating false equivalence between epistemic infrastructures with very different validity-credentials.
 - **Algorithmic information environments** accelerate the collapse: the splintering of public discourse into recommendation-curated sub-publics produces precisely the local-language-game dispersal Lyotard describes — but optimized for engagement rather than for substantive incommensurability.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Lyotard alongside [simulacra](@/glossary/simulacra.md) and [différance](@/glossary/differance.md) as the **postmodern theoretical pillar**, and pairs the postmodern diagnosis with [Habermasian communicative rationality](@/glossary/communicative-rationality.md) as the normative response: the question is not whether to defend a specific metanarrative, but how to maintain conditions of [legitimate discourse](@/glossary/ideal-speech-situation.md) without one.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} refuses to operate under any single metanarrative by design: it tracks **explicit calibration metrics** (Brier, ECE) that can be applied across narrative frames, and it surfaces frame-dependence rather than hiding it.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} refuses to operate under any single metanarrative by design: it tracks **explicit calibration metrics** (Brier, ECE) that can be applied across narrative frames, and it surfaces frame-dependence rather than hiding it.
 - The kompendium itself, by deliberately producing a **technical taxonomy in Czech** anchored in cross-disciplinary scientific literature, performs a kind of **post-metanarrative legitimation** — it does not appeal to a grand narrative but offers itself for testing within multiple local language games (clinical, philosophical, computational).
 
 ## See Also
@@ -53,7 +53,7 @@ Specifically:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -80,9 +80,9 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 
 ## Connect
 
-- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/prismatic-platform/discussions)
-- **Bug reporty**: [GitLab Issues](https://gitlab.com/korczis/prismatic-platform/-/issues)
-- **Email**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
+- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/kompendium-epistemicke-anihilace/discussions)
+- **Bug reporty**: [GitLab Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **Email**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
 - **LinkedIn**: [korczis](https://linkedin.com/in/korczis)
 
 ---

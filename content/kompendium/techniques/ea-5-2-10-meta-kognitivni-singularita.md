@@ -168,12 +168,12 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav celé kapitoly 7.
+- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav celé kapitoly 7.
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) calibration** — celá platforma je založena na **diferenciované** metakognici (kalibrované konfidenci); singularita by byla zachycena jako **strukturní porucha** kalibrace.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} outcome processor** — pravidelná **konfrontace** předpovědí s realitou vynucuje metakognitivní revizi.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} outcome processor** — pravidelná **konfrontace** předpovědí s realitou vynucuje metakognitivní revizi.
 - **OSINT framework's source-confidence matrix** — strukturní vyžadování **diferencované** jistoty napříč zdroji.
 
 ## Související
@@ -213,6 +213,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

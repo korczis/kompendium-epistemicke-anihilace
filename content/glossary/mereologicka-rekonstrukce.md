@@ -42,7 +42,7 @@ Mereologická rekonstrukce is a central practical contribution of the Kompendium
 - It distinguishes carefully between [Disociace](@/glossary/disociace.md) (which has different sequencing needs) and EA-induced fragmentation.
 - It targets [Narrative Identity](@/glossary/narrative-identity.md) only after the parts that constitute narrative-evaluation are rebuilt.
 - It addresses [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) directly in stage 2 by rebuilding metacognitive monitoring as a discrete functional capacity.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} parallels this clinical logic at the platform level: source-evaluation, falsifiability tracking, and provenance-checking are implemented as independent parts before integration into composite confidence scores. The architectural pattern reflects the same insight that compromised parts cannot produce reliable wholes.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} parallels this clinical logic at the platform level: source-evaluation, falsifiability tracking, and provenance-checking are implemented as independent parts before integration into composite confidence scores. The architectural pattern reflects the same insight that compromised parts cannot produce reliable wholes.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) similarly enforces part-integrity (per-source provenance, per-claim falsifiability) before whole-integration (aggregate confidence).
 
 Mereologická rekonstrukce is the kompendium's signature **constructive contribution**: not merely a description of damage but a structured pathway toward restoration that respects the specific architecture of EA-induced harm.
@@ -61,7 +61,7 @@ Mereologická rekonstrukce is the kompendium's signature **constructive contribu
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

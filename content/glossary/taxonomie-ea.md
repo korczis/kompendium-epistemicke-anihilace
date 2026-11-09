@@ -60,7 +60,7 @@ The notation is designed with five engineering properties relevant to long-term 
 Within the Prismatic Platform, EA codes serve as **first-class cross-references**:
 
 - The [Kompendium hub](@/kompendium/_index.md) and [techniques index](@/kompendium/techniques/_index.md) use them as canonical anchors.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration logic references EA codes when flagging epistemic manipulation indicators in input sources.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration logic references EA codes when flagging epistemic manipulation indicators in input sources.
 - [Glossary](@/glossary/_index.md) entries link directly to relevant EA codes for context.
 - Future automation (RAG over the kompendium, structured ML training) will use EA codes as the primary indexing key.
 
@@ -77,7 +77,7 @@ The taxonomy follows **semver discipline**: bug-fix reclassifications increment 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

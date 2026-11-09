@@ -81,7 +81,7 @@ Triangulace dat (survey + exits + sick days + turnover), longitudinal tracking, 
 
 - [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
 - [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
+- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
 - [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
 - [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
@@ -94,8 +94,8 @@ Triangulace dat (survey + exits + sick days + turnover), longitudinal tracking, 
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

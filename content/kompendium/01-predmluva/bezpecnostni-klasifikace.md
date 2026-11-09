@@ -272,7 +272,7 @@ Uživatelé jsou nejen oprávněni, ale **povinni** hlásit podezření na zneu�
 
 ## Sankce za porušení
 
-Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](/kompendium/01-predmluva/eticke-aspekty/#sankcni-ramec). Specifické bezpečnostní sankce zahrnují:
+Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](@/kompendium/01-predmluva/eticke-aspekty.md#sankcni-ramec). Specifické bezpečnostní sankce zahrnují:
 
 - Suspenzní karanténu uživatele (default 30 dní)
 - Trvalé odejmutí přístupu pro celou afilijovanou instituci
@@ -290,7 +290,7 @@ Detailní sankční rámec odpovídá kategorizaci v [Etických aspektech](/komp
 - [Sekce 05: Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
 
 ## ⚡ Kritický krok
@@ -307,6 +307,6 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

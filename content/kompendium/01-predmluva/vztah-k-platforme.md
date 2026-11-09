@@ -17,7 +17,7 @@ toc = true
 
 # 1.6 Vztah ke Prismatic Platformě
 
-Kompendium není uzavřeným textovým artefaktem oddělitelným od kontextu jeho vzniku. Je **strukturálně propojeno** s [Prismatic Platformou](/) — soustavou nástrojů a systémů, která poskytuje empirický kontext pro testování, validaci a evoluci taxonomických tvrzení. Tato kapitola popisuje toto propojení, jeho motivaci, operační implementaci a důsledky pro práci s kompendiem.
+Kompendium není uzavřeným textovým artefaktem oddělitelným od kontextu jeho vzniku. Je **strukturálně propojeno** s [Prismatic Platformou](@/_index.md) — soustavou nástrojů a systémů, která poskytuje empirický kontext pro testování, validaci a evoluci taxonomických tvrzení. Tato kapitola popisuje toto propojení, jeho motivaci, operační implementaci a důsledky pro práci s kompendiem.
 
 ## Motivace pro platformovou integraci
 
@@ -49,7 +49,7 @@ Tato architektura je **fundamentální inovací** ve vztahu k tradičnímu model
 
 ## Decision Engine
 
-{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} je centrálním empirickým nástrojem pro testování taxonomických tvrzení.
+{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} je centrálním empirickým nástrojem pro testování taxonomických tvrzení.
 
 ### Strukturální propojení
 
@@ -81,7 +81,7 @@ Tato data jsou agregována do kvartálních **Taxonomy Health Reports**, které 
 
 ### Confidence calibration
 
-Decision Engine implementuje {{ cross_link(path="/hub/dd/decisions/calibration", text="calibration loop") }}, který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](@/kompendium/01-predmluva/eticke-aspekty.md) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
+Decision Engine implementuje {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }}, který explicitně počítá s indikátory epistemické manipulace jako negativními signály pro confidence score. Toto napojení je důsledkem [etického principu](@/kompendium/01-predmluva/eticke-aspekty.md) — rozhodnutí přijatá pod vlivem manipulace by neměla být kvalifikována jako vysoce konfidenční bez explicitní verifikace.
 
 ## NABLA Infinity (∇∞)
 
@@ -110,7 +110,7 @@ Výstupem je strukturovaný popis argumentu, který kompendium využívá k **op
 
 ## OSINT Framework
 
-[OSINT framework](@/osint/_index.md) Prismatic Platformy poskytuje **128+ self-registering adapterů** pro sběr veřejně dostupných dat z různých zdrojů.
+[OSINT framework](https://prismatic-reality-com.github.io/prismatic-promo/osint/) Prismatic Platformy poskytuje **128+ self-registering adapterů** pro sběr veřejně dostupných dat z různých zdrojů.
 
 ### Role ve vztahu ke kompendiu
 
@@ -167,7 +167,7 @@ Tento cyklus zajišťuje, že taxonomie **nezaostává za empirickou realitou**.
 
 ## PrismaticDD (Due Diligence)
 
-{{ cross_link(path="/hub/dd/", text="PrismaticDD") }} aplikuje taxonomii v kontextu **due diligence operací** — typicky v M&A transakcích, regulatorní compliance a forenzní investigaci.
+{{ <cross_link path="/hub/dd/" text="PrismaticDD" /> }} aplikuje taxonomii v kontextu **due diligence operací** — typicky v M&A transakcích, regulatorní compliance a forenzní investigaci.
 
 ### Aplikační doména
 
@@ -255,10 +255,10 @@ Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
 - [Definice epistemické a kognitivní anihilace](@/kompendium/02-uvod/definice.md)
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Sekce 07: Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
-- {{ cross_link(path="/hub/dd/decisions/calibration/", text="Calibration Dashboard") }}
-- {{ cross_link(path="/hub/dd/", text="PrismaticDD") }}
-- [OSINT Framework](@/osint/_index.md)
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+- {{ <cross_link path="/hub/dd/decisions/calibration/" text="Calibration Dashboard" /> }}
+- {{ <cross_link path="/hub/dd/" text="PrismaticDD" /> }}
+- [OSINT Framework](https://prismatic-reality-com.github.io/prismatic-promo/osint/)
 - [Glossary: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
@@ -279,6 +279,6 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

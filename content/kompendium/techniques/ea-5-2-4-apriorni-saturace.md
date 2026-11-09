@@ -183,7 +183,7 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
 - **OSINT pipeline auditovaná NABLA Infinity** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
 - **Methodological adversarial review** — interní praxe Prismatic je strukturováním kritického posouzení napříč paradigmaty.
 
@@ -221,6 +221,6 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

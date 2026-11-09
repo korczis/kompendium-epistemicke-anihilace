@@ -229,7 +229,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
 - **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
 
-**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} pro průběžné kalibrační monitoring.
+**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro průběžné kalibrační monitoring.
 
 ## Long-term follow-up
 
@@ -264,7 +264,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 - **[Color Teams Black Team](@/glossary/color-teams.md)** — Black Team operuje jako dedikovaná detekční jednotka pro markery terminálních protokolů ve forenzních a klinických materiálech zpracovávaných platformou.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
 - **[Compliance framework](@/glossary/compliance-framework.md)** — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
 
 ## Související
@@ -294,7 +294,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 - **Související platformové koncepty**:
   - [Color Teams](@/glossary/color-teams.md)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Compliance framework](@/glossary/compliance-framework.md)
 
 
@@ -312,6 +312,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -84,8 +84,8 @@ GDPR-compliant šifrování end-to-end, zákaz odvet (whistleblower act), extern
 - [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
 - [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
 - [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
-- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
+- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
@@ -94,8 +94,8 @@ GDPR-compliant šifrování end-to-end, zákaz odvet (whistleblower act), extern
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

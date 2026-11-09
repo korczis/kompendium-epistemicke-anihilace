@@ -79,13 +79,13 @@ Roční self-disclosure, peer review deklarací, automatické dotazy do veřejn�
 
 ## 6. Cross-linky
 
-- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
 - [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
 - [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Řízení dodavatelů s EA fokusem](/kompendium/organizational-defense/25-vendor-management-EA/)
+- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
 - [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
 - [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
@@ -94,8 +94,8 @@ Roční self-disclosure, peer review deklarací, automatické dotazy do veřejn�
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

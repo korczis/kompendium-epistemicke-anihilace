@@ -239,24 +239,24 @@ HAWKEYE's primary differentiator is its integration with the Prismatic Platform'
 
 - [EASM](@/glossary/easm.md) - External attack surface management complementing HAWKEYE's visitor-facing intelligence
 - [OSINT](@/glossary/osint.md) - Intelligence methodology providing visitor data enrichment sources
-- [Threat Intelligence](@/glossary/threat-intelligence.md) - Structured threat data providing visitor classification context
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) - Structured threat data providing visitor classification context
 - [Blue Team](@/glossary/blue-team.md) - Defensive team consuming HAWKEYE's visitor signal feed
-- [Security Rating](@/glossary/security-rating.md) - Overall security posture score incorporating visitor intelligence
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) - Overall security posture score incorporating visitor intelligence
 - [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing classification confidence requirements
 - [Signal Plurality](@/glossary/signal-plurality.md) - NABLA axiom requiring multiple signals for visitor classification
 - [Color Teams](@/glossary/color-teams.md) - Security operations framework integrating HAWKEYE intelligence
-- [GDPR](@/glossary/gdpr.md) - Privacy regulation governing HAWKEYE's data handling practices
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - Privacy regulation governing HAWKEYE's data handling practices
 
 ## See Also
 
-- [prismatic_visitor_intelligence](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_visitor_intelligence/README.md) -- HAWKEYE visitor intelligence application
-- [prismatic_hawkeye](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_hawkeye/README.md) -- HAWKEYE core engine
-- [prismatic_hawkeye_web](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_hawkeye_web/README.md) -- HAWKEYE web dashboard
-- [prismatic_perimeter](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter/README.md) -- Complementary EASM for external posture
-- [prismatic_osint_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_osint_core/README.md) -- OSINT enrichment for visitor profiles
-- [prismatic_tracking](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_tracking/README.md) -- Behavioral tracking infrastructure
-- [Architecture](@/architecture/_index.md) -- Platform security architecture
-- [Capabilities](@/capabilities/_index.md) -- Security and intelligence capabilities overview
+- [prismatic_visitor_intelligence](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_visitor_intelligence/README.md) -- HAWKEYE visitor intelligence application
+- [prismatic_hawkeye](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye/README.md) -- HAWKEYE core engine
+- [prismatic_hawkeye_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye_web/README.md) -- HAWKEYE web dashboard
+- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) -- Complementary EASM for external posture
+- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) -- OSINT enrichment for visitor profiles
+- [prismatic_tracking](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_tracking/README.md) -- Behavioral tracking infrastructure
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Security and intelligence capabilities overview
 
 ---
 
@@ -579,7 +579,7 @@ Future versions will support federated learning across multiple Prismatic Platfo
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

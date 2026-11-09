@@ -43,9 +43,9 @@ Researchers prepare an IRB submission well in advance of intended start, includi
 - [Informed Consent](@/glossary/informed-consent.md) - Central document IRB reviews
 - [Individual Risk Map](@/glossary/individual-risk-map.md) - Risk-assessment tool feeding IRB review
 - [Transformative Experience](@/glossary/transformative-experience.md) - Category requiring heightened IRB scrutiny
-- [Consent](@/glossary/consent.md) - Underlying ethical principle
-- [Data Protection](@/glossary/data-protection.md) - Required IRB consideration
-- [GDPR](@/glossary/gdpr.md) - EU data-protection framework intersecting IRB
+- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) - Underlying ethical principle
+- [Data Protection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-protection/) - Required IRB consideration
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - EU data-protection framework intersecting IRB
 - [Due Diligence](@/glossary/due-diligence.md) - Process where IRB-style review can be adapted
 
 ## References

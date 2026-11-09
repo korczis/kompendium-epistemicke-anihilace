@@ -16,9 +16,9 @@ quality_score = 80
 
 **Biographical Timeline Rekonstrukce** je klinický protokol z sekce 06 Prismatic Kompendia (klinické aplikace), který poskytuje strukturovaný rámec pro hodnocení, intervenci nebo dokumentaci epistemických škod u klientů s historií expozice manipulativním vzorcům (EA — epistemic attack patterns).
 
-{% callout(type="note") %}
+{% <callout type="note"> %}
 Protokoly sekce 06 jsou určené pro **klinické pracovníky** s odpovídajícím vzděláním (psychoterapie, klinická psychologie, krizová intervence). Nejedná se o self-help nástroje — vyžadují diagnostický kontext a profesionální supervizi.
-{% end %}
+{% </callout> %}
 
 ## Implementační rámec
 

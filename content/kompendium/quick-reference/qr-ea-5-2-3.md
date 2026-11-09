@@ -67,8 +67,8 @@ Noumenální redukce se vyskytuje typicky v alternativně-medicínských tradic�
 - **Sourozenecké techniky**: [EA-5.2.1 Meta-epistemická inverze](@/kompendium/quick-reference/qr-ea-5-2-1.md), [EA-5.2.2 Transcendentální iluze](@/kompendium/quick-reference/qr-ea-5-2-2.md), [EA-5.2.4 Apriorní saturace](@/kompendium/quick-reference/qr-ea-5-2-4.md)
 - **Glossary**: [Ding-an-sich](@/glossary/ding-an-sich.md), [Noumenum](@/glossary/noumenum.md), [Fenomén](@/glossary/fenomen.md), [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Empirická rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [Multidisciplinární tým](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine empirická validace") }}, [Color Teams pseudoscience detection](@/glossary/color-teams.md)
+- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine empirická validace" /> }}, [Color Teams pseudoscience detection](@/glossary/color-teams.md)
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -47,7 +47,7 @@ Exit byl iniciovan vážným průběhem černého kašle u nejmladšího dítět
 - [EA-1.4.2 Latentni emocionalni modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) — strach z poškození dítěte
 - [EA-2.1.1 Expertni disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md) — pediatři "jsou v kapse pharma"
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) — vědecké studie = "manipulace"
-- [EA-1.1.1 Selektivni expozice](/kompendium/techniques/ea-1.1.1-selektivni-expozice/) — FB algoritmus filtrující content
+- [EA-1.1.1 Selektivni expozice](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/techniques/ea-1.1.1-selektivni-expozice/) — FB algoritmus filtrující content
 - [EA-2.1.2 Pseudo-peer mob](@/kompendium/techniques/ea-2-1-2-pseudo-peer-mob.md) — online matčí komunity jako kvazi-expertní
 - [EA-1.2.2 Falesna ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — "moje zkušenost" = "vědecká data"
 - [EA-1.6.1 Vzorec Guru a adept](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — anti-vaxx influenceři jako autority
@@ -88,4 +88,4 @@ Anti-vaxx recovery vyžaduje motivacionální pohovor a empatii, ne konfrontaci.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

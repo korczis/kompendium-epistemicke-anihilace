@@ -40,10 +40,10 @@ In research design and IRB review, transformative interventions warrant heighten
 
 ## Related Concepts
 
-- [Epistemic Reasoning](@/glossary/epistemic-reasoning.md) - Broader framework for knowledge-based decision making
+- [Epistemic Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-reasoning/) - Broader framework for knowledge-based decision making
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) - Disposition appropriate to transformative-experience uncertainty
-- [Bayesian Reasoning](@/glossary/bayesian-reasoning.md) - Framework that transformative experience challenges
-- [Belief Graph](@/glossary/belief-graph.md) - Structure that transformative experiences reorganize
+- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) - Framework that transformative experience challenges
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) - Structure that transformative experiences reorganize
 - [Informed Consent](@/glossary/informed-consent.md) - Doctrine most directly affected
 - [IRB Review](@/glossary/irb-review.md) - Governance mechanism for transformative-research consent
 - [Individual Risk Map](@/glossary/individual-risk-map.md) - Tool for personalizing transformative-risk assessment

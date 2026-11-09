@@ -110,15 +110,15 @@ Kompendium operuje uvnitř širšího platformového ekosystému Prismatic, kter
 | **NLLB** | No Link Left Behind | Link integrity |
 | **HYGIENE** | Repository hygiene | Repo cleanliness |
 
-> Plný popis viz [hlavní CLAUDE.md](https://github.com/korczis/prismatic-platform/blob/main/CLAUDE.md).
+> Plný popis viz [hlavní CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md).
 
 ## 6. Platformové kapacity
 
 | Zkratka | Plný název | Funkce |
 |---------|------------|--------|
 | **NABLA** | NABLA Infinity (∇∞) | Epistemic framework L0–L13 → [Glossary](@/glossary/nabla-infinity.md) |
-| **AIAD** | AI-Augmented Development | Standardní rámec → [AIAD README](https://github.com/korczis/prismatic-platform/blob/main/.aiad/README.md) |
-| **DD** | Due Diligence | Modul pro investigativní práci → {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} |
+| **AIAD** | AI-Augmented Development | Standardní rámec → [AIAD README](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/.aiad/README.md) |
+| **DD** | Due Diligence | Modul pro investigativní práci → {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} |
 | **OSINT** | Open Source Intelligence | Adapter framework |
 | **EASM** | External Attack Surface Management | Perimeter modul |
 | **SEADF** | Self-Evolving Autonomous Development Framework | Evolution |
@@ -224,12 +224,12 @@ Kompendium používá **modifikovaný APA 7. styl**:
 
 ## Platformový kontext
 
-- [CLAUDE.md](https://github.com/korczis/prismatic-platform/blob/main/CLAUDE.md) — kanonický zdroj 18-pillar doctrine zkratek.
+- [CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md) — kanonický zdroj 18-pillar doctrine zkratek.
 - [Glossary](@/glossary/_index.md) — všechny domain zkratky mají glosářová hesla.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemic framework.
 - [3NL](@/glossary/three-nested-loops.md) — architektura platformy.
 - [Color Teams](@/glossary/color-teams.md) — Red/Blue/Purple/Green týmy.
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — operativní použití DD zkratky.
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — operativní použití DD zkratky.
 
 
 ## ⚡ Kritický krok
@@ -266,7 +266,7 @@ Místo lineární četby:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

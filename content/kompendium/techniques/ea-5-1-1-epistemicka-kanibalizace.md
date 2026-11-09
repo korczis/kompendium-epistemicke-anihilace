@@ -203,7 +203,7 @@ Intervence: Veřejné svědectví, deklarace komunity jako kanibalizační struk
 
 Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} provenance ledger** — každé tvrzení v rozhodovacím procesu má **kryptograficky podepsanou** linii autorství s timestampy, což činí retrospektivní reframování technicky neproveditelným.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} provenance ledger** — každé tvrzení v rozhodovacím procesu má **kryptograficky podepsanou** linii autorství s timestampy, což činí retrospektivní reframování technicky neproveditelným.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) authorship invariants** — epistemický pipeline zachovává atribuci napříč všemi transformacemi; ztráta atribuce je flagována jako anomálie.
 - **[Color Teams](@/glossary/color-teams.md) red-team protocol** — periodická revize asymetrických intelektuálních vztahů v rámci Prismatic operací s explicitní detekcí kanibalizačních vzorců.
 
@@ -228,7 +228,7 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -253,6 +253,6 @@ Epistemická kanibalizace je **strukturálním motivem** pro několik defenzivn�
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

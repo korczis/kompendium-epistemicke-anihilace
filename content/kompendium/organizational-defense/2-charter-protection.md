@@ -80,11 +80,11 @@ Veřejný changelog stanov, dvoukolové schvalování, externí právní review 
 ## 6. Cross-linky
 
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
 - [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
 - [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
 - [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
+- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
@@ -94,8 +94,8 @@ Veřejný changelog stanov, dvoukolové schvalování, externí právní review 
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

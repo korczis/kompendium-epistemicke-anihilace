@@ -72,7 +72,7 @@ Stav rozpadu je **legitimizován** jako *"přímý kontakt s realitou"*, *"vidě
 - **Specifická forma odcizení**, která se liší od depersonalizace tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
 - **Vyhasnutí motivace** — bez konstitucí předmětů chybí to, na co by motivace mířila.
 
-V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-12-apercepcni-roztrzka) vede ke stavu, který literatura označuje jako *strukturální dezintegrace zkušenosti*.
+V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka) vede ke stavu, který literatura označuje jako *strukturální dezintegrace zkušenosti*.
 
 ## Detekční markery
 
@@ -168,8 +168,8 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ### Eskaluje do
 
-- **[EA-5.2.12 Apercepční roztržka](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-12-apercepcni-roztrzka)** — narušení transcendentální jednoty apercepce.
-- **[EA-5.2.30 Metatranscendentální terminace](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
+- **[EA-5.2.12 Apercepční roztržka](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka)** — narušení transcendentální jednoty apercepce.
+- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
 
 ## Vztah k Prismatic platformě
 
@@ -211,6 +211,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

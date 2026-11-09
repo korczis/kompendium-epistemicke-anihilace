@@ -33,7 +33,7 @@ Intentional structure is **what makes manipulation possible**. To manipulate cog
 
 Within the Prismatic Platform's threat model, intentional structure provides the **formal vocabulary** for classifying [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) techniques. The [Kompendium taxonomy](@/glossary/taxonomie-ea.md) is structured along intentional axes: EA-1.x targets the *target* (what the subject is thinking *about*); EA-2.x targets the *mode* (whether they're perceiving, remembering, doubting); EA-3.x targets the *horizon* (the unthematized background of taken-for-granted possibilities).
 
-This intentional analysis is documented in [Kompendium → 03-mechanismy → intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md), which walks through each major EA family in terms of which intentional component it primarily attacks. The [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline uses this decomposition for defense: signals are tagged with intentional metadata (target / mode / horizon), and structural anomalies — e.g., an unusually large fraction of recent communication targeting the subject's *horizon* (planted assumptions) versus the *target* (ostensive content) — produce confidence penalties on downstream {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} outputs.
+This intentional analysis is documented in [Kompendium → 03-mechanismy → intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md), which walks through each major EA family in terms of which intentional component it primarily attacks. The [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline uses this decomposition for defense: signals are tagged with intentional metadata (target / mode / horizon), and structural anomalies — e.g., an unusually large fraction of recent communication targeting the subject's *horizon* (planted assumptions) versus the *target* (ostensive content) — produce confidence penalties on downstream {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} outputs.
 
 The Husserlian concept of **horizon** has particular operational weight: the most subtle EA techniques (EA-3.x family) operate by altering what the subject takes for granted *without ever foregrounding the change*. The platform's audit logs distinguish thematic content from horizon-shifting content explicitly.
 
@@ -51,7 +51,7 @@ The Husserlian concept of **horizon** has particular operational weight: the mos
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

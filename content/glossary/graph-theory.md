@@ -581,25 +581,25 @@ Quality gates have dependencies: Dialyzer depends on compilation, tests depend o
 
 Graph theory connects to numerous aspects of the Prismatic Platform:
 
-- [Graph Database](@/glossary/graph-database.md) provides the persistent storage layer for graph-structured data, powered by KuzuDB
-- [Knowledge Graph](@/glossary/knowledge-graph.md) is the primary application of graph theory in the platform's intelligence domain
+- [Graph Database](https://prismatic-reality-com.github.io/prismatic-promo/glossary/graph-database/) provides the persistent storage layer for graph-structured data, powered by KuzuDB
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) is the primary application of graph theory in the platform's intelligence domain
 - [Trinity Gate](@/glossary/trinity-gate.md) uses graph theory for its structural consistency verification channel
-- [Structural Consistency](@/glossary/structural-consistency.md) is the specific Trinity Gate check that validates belief graph DAG properties
-- [Belief Graph](@/glossary/belief-graph.md) is the directed acyclic graph structure that represents the platform's epistemic state
-- [Supervision Tree](@/glossary/supervision-tree.md) is the OTP construct that models process hierarchies as rooted trees
-- [Entity Graph](@/glossary/entity-graph.md) applies graph theory to model relationships between OSINT-discovered entities
-- [Formal Verification](@/glossary/formal-verification.md) uses graph-theoretic proofs for algorithmic correctness claims
-- [Circular Dependency](@/glossary/circular-dependency.md) is the graph-theoretic concept of a cycle in a dependency graph
-- [Dependency Injection](@/glossary/dependency-injection.md) decouples graph vertices to prevent unwanted edge formation
+- [Structural Consistency](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structural-consistency/) is the specific Trinity Gate check that validates belief graph DAG properties
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) is the directed acyclic graph structure that represents the platform's epistemic state
+- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) is the OTP construct that models process hierarchies as rooted trees
+- [Entity Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/entity-graph/) applies graph theory to model relationships between OSINT-discovered entities
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) uses graph-theoretic proofs for algorithmic correctness claims
+- [Circular Dependency](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circular-dependency/) is the graph-theoretic concept of a cycle in a dependency graph
+- [Dependency Injection](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dependency-injection/) decouples graph vertices to prevent unwanted edge formation
 
 ## See Also
 
-- [DAG (Directed Acyclic Graph)](@/glossary/ast.md) -- the specific graph structure used for dependency resolution and belief networks
-- [Formal Proof](@/glossary/formal-proof.md) -- mathematical proofs that often rely on graph-theoretic arguments
-- [Modal Logic](@/glossary/modal-logic.md) -- logical framework whose Kripke semantics are graph-based (possible worlds as vertices)
-- [Lean4](@/glossary/lean4.md) -- the theorem prover used for formal graph-theoretic proofs in the Trinity Gate
-- [Theorem Proving](@/glossary/theorem-proving.md) -- automated verification that leverages graph-theoretic structures
+- [DAG (Directed Acyclic Graph)](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ast/) -- the specific graph structure used for dependency resolution and belief networks
+- [Formal Proof](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-proof/) -- mathematical proofs that often rely on graph-theoretic arguments
+- [Modal Logic](https://prismatic-reality-com.github.io/prismatic-promo/glossary/modal-logic/) -- logical framework whose Kripke semantics are graph-based (possible worlds as vertices)
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- the theorem prover used for formal graph-theoretic proofs in the Trinity Gate
+- [Theorem Proving](https://prismatic-reality-com.github.io/prismatic-promo/glossary/theorem-proving/) -- automated verification that leverages graph-theoretic structures
 
 ---
 
-**Connect & Contribute**: Built by [Tomas Korcak (korczis)](https://github.com/korczis) as part of the [Prismatic Platform](https://github.com/korczis/prismatic-platform). Licensed under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE). Contributions welcome via [GitHub Issues](https://github.com/korczis/prismatic-platform/issues) and [Pull Requests](https://github.com/korczis/prismatic-platform/pulls).
+**Connect & Contribute**: Built by [Tomas Korcak (korczis)](https://github.com/korczis) as part of the [Prismatic Platform](https://github.com/korczis/kompendium-epistemicke-anihilace). Licensed under [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md). Contributions welcome via [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) and [Pull Requests](https://github.com/korczis/kompendium-epistemicke-anihilace/pulls).

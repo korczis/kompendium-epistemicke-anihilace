@@ -55,11 +55,11 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [Důvěrnost v EA detekci](/kompendium/critical-perspectives/17-confidentiality-EA/)
-- [EA jako mocenský nástroj](/kompendium/critical-perspectives/18-EA-as-power-tool/)
+- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)
+- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)
 - [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
 - [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
-- [Mocenská asymetrie v EA aplikaci](/kompendium/critical-perspectives/14-power-asymmetry-EA/)
+- [Mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)
 - [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
 - [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
 - [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
@@ -72,7 +72,7 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

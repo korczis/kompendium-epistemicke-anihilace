@@ -84,7 +84,7 @@ DLP tooling, automatic classification (NLP), regular audit, training s practical
 - [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
 - [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
-- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
 - [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
@@ -94,8 +94,8 @@ DLP tooling, automatic classification (NLP), regular audit, training s practical
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

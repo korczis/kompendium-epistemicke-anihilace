@@ -202,7 +202,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} tvrzecí integrita** — kalibrační logika **vyžaduje** explicitní pozitivní formulaci hypotézy; rozhodnutí formulovaná **výlučně** v negativní formě jsou flagována jako kandidáti pro apofatickou paralýzu.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} tvrzecí integrita** — kalibrační logika **vyžaduje** explicitní pozitivní formulaci hypotézy; rozhodnutí formulovaná **výlučně** v negativní formě jsou flagována jako kandidáti pro apofatickou paralýzu.
 - **NABLA Infinity kataphatická povinnost** — každá inference v pipeline musí mít **pozitivně formulovaný výstup**; čistě negativní výstupy spouštějí intervenci.
 - **Color Teams operační closure** — Red Team má mandát identifikovat negativní zacyklení, Blue Team má povinnost formulovat **pracovní hypotézu** v pozitivní formě.
 
@@ -222,7 +222,7 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
   - [Apofatický modus](@/glossary/apofaticky-modus.md)
   - [Epistemická stáze](@/glossary/epistemicka-staze.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -250,6 +250,6 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -305,7 +305,7 @@ curl -X POST http://localhost:4004/api/v1/perimeter/assess_compliance \
 
 ### Security Rating Contextualization
 
-[Security ratings](@/glossary/security-rating.md) (A-F) are contextualized against specific compliance frameworks:
+[Security ratings](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) (A-F) are contextualized against specific compliance frameworks:
 
 | Rating | NIS2 Implication | ZKB Implication |
 |--------|-----------------|-----------------|
@@ -343,25 +343,25 @@ curl -X POST http://localhost:4004/api/v1/perimeter/assess_compliance \
 
 ## Related Concepts
 
-- [GDPR](@/glossary/gdpr.md) -- EU data protection regulation assessed by the platform
-- [NIS2](@/glossary/nis2.md) -- EU network and information security directive
-- [ZKB](@/glossary/zkb.md) -- Czech cybersecurity regulation
-- [Security Rating](@/glossary/security-rating.md) -- Technical score contextualized against compliance frameworks
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) -- EU data protection regulation assessed by the platform
+- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) -- EU network and information security directive
+- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) -- Czech cybersecurity regulation
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Technical score contextualized against compliance frameworks
 - [EASM](@/glossary/easm.md) -- External attack surface management providing compliance data
-- [CVE](@/glossary/cve.md) -- Vulnerability identifiers used in compliance assessments
+- [CVE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cve/) -- Vulnerability identifiers used in compliance assessments
 
 ## Further Reading
 
 - [NIS2 Directive Full Text](https://eur-lex.europa.eu/eli/dir/2022/2555) -- Official EU legislation
-- [Architecture](@/architecture/_index.md) -- Compliance assessment architecture
-- [Apps](@/apps/_index.md) -- Prismatic Perimeter compliance features
-- [Technologies](@/technologies/_index.md) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Compliance assessment architecture
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Prismatic Perimeter compliance features
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

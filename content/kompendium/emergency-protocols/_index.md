@@ -32,42 +32,42 @@ Tato sekce obsahuje **40 emergency intervenčních protokolů** pro klinickou pr
 
 ## Akutní krize (1–10)
 
-- [Akutní dekompenzace po EA](/kompendium/emergency-protocols/1-acute-decompensation-EA/)
-- [Akutní suicidální riziko po EA](/kompendium/emergency-protocols/2-suicide-risk-EA/)
-- [Psychotický zlom po EA](/kompendium/emergency-protocols/3-psychotic-break-EA/)
-- [Akutní disociativní stav po EA](/kompendium/emergency-protocols/4-acute-dissociation-EA/)
-- [Kaskáda flashbacků po EA](/kompendium/emergency-protocols/5-flashback-cascade-EA/)
-- [Panická ataka po EA](/kompendium/emergency-protocols/6-panic-attack-EA/)
+- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
+- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
+- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+- [Akutní disociativní stav po EA](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md)
+- [Kaskáda flashbacků po EA](@/kompendium/emergency-protocols/5-flashback-cascade-EA.md)
+- [Panická ataka po EA](@/kompendium/emergency-protocols/6-panic-attack-EA.md)
 - [Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md)
 - [Akutní extrakce z kultu](@/kompendium/emergency-protocols/8-emergency-extraction-cult.md)
-- [Povinné oznámení v kontextu EA](/kompendium/emergency-protocols/9-mandatory-reporting-EA/)
-- [Akutní self-harm po EA](/kompendium/emergency-protocols/10-acute-self-harm-EA/)
+- [Povinné oznámení v kontextu EA](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md)
+- [Akutní self-harm po EA](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)
 
 ## Koordinace péče (11–20)
 
-- [ER → EA-recovery handoff](/kompendium/emergency-protocols/11-er-EA-handoff/)
-- [Hospitalizace v EA-kontextu](/kompendium/emergency-protocols/12-inpatient-admission-EA/)
+- [ER → EA-recovery handoff](@/kompendium/emergency-protocols/11-er-EA-handoff.md)
+- [Hospitalizace v EA-kontextu](@/kompendium/emergency-protocols/12-inpatient-admission-EA.md)
 - [Deployment krizového týmu](@/kompendium/emergency-protocols/13-crisis-team-deployment.md)
 - [Debrief rodiny v EA-emergency](@/kompendium/emergency-protocols/14-family-emergency-debrief.md)
-- [Mobile crisis EA intervention](/kompendium/emergency-protocols/15-mobile-crisis-EA/)
-- [Rozpoznání EA pro 112 dispečink](/kompendium/emergency-protocols/16-911-EA-recognition/)
-- [Krizová linka v EA-emergency](/kompendium/emergency-protocols/17-crisis-hotline-EA/)
+- [Mobile crisis EA intervention](@/kompendium/emergency-protocols/15-mobile-crisis-EA.md)
+- [Rozpoznání EA pro 112 dispečink](@/kompendium/emergency-protocols/16-911-EA-recognition.md)
+- [Krizová linka v EA-emergency](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md)
 - [Emergency farmakoterapie v EA](@/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md)
-- [Vyhnutí se restraint v EA](/kompendium/emergency-protocols/19-restraint-avoidance-EA/)
-- [Deeskalace v EA-emergency](/kompendium/emergency-protocols/20-deescalation-EA/)
+- [Vyhnutí se restraint v EA](@/kompendium/emergency-protocols/19-restraint-avoidance-EA.md)
+- [Deeskalace v EA-emergency](@/kompendium/emergency-protocols/20-deescalation-EA.md)
 
 ## Cílové populace (21–30)
 
-- [Děti v EA-emergency](/kompendium/emergency-protocols/21-children-emergency-EA/)
-- [Adolescent v EA-emergency](/kompendium/emergency-protocols/22-adolescent-emergency-EA/)
-- [Senioři v EA-emergency](/kompendium/emergency-protocols/23-elder-emergency-EA/)
-- [Těhotná v EA-emergency](/kompendium/emergency-protocols/24-pregnant-emergency-EA/)
-- [EA s medicínskou komorbiditou](/kompendium/emergency-protocols/25-medical-comorbidity-EA/)
-- [Substance use v EA-emergency](/kompendium/emergency-protocols/26-substance-EA/)
+- [Děti v EA-emergency](@/kompendium/emergency-protocols/21-children-emergency-EA.md)
+- [Adolescent v EA-emergency](@/kompendium/emergency-protocols/22-adolescent-emergency-EA.md)
+- [Senioři v EA-emergency](@/kompendium/emergency-protocols/23-elder-emergency-EA.md)
+- [Těhotná v EA-emergency](@/kompendium/emergency-protocols/24-pregnant-emergency-EA.md)
+- [EA s medicínskou komorbiditou](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md)
+- [Substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md)
 - [Aktivní kult emergency](@/kompendium/emergency-protocols/27-active-cult-emergency.md)
 - [Ex-cult member emergency](@/kompendium/emergency-protocols/28-ex-cult-emergency.md)
-- [Bývalý politický vězeň v EA-emergency](/kompendium/emergency-protocols/29-political-prisoner-EA/)
-- [Uprchlík v EA-emergency](/kompendium/emergency-protocols/30-refugee-EA-emergency/)
+- [Bývalý politický vězeň v EA-emergency](@/kompendium/emergency-protocols/29-political-prisoner-EA.md)
+- [Uprchlík v EA-emergency](@/kompendium/emergency-protocols/30-refugee-EA-emergency.md)
 
 ## Recovery transitions (31–40)
 
@@ -91,7 +91,7 @@ Tato sekce obsahuje **40 emergency intervenčních protokolů** pro klinickou pr
 
 ## Connect
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 ---
 

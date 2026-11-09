@@ -184,8 +184,8 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemic monitor flaguje claims s univerzální applicability bez doménové specifikace.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu "vše je projev X" jsou strukturálně odmítnuty.
-- **{{ cross_link(path="/osint/toolbox", text="OSINT framework") }}** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — vyžaduje **specifická falsifikační kritéria** pro každé rozhodnutí; rámce typu "vše je projev X" jsou strukturálně odmítnuty.
+- **{{ <cross_link path="/osint/toolbox" text="OSINT framework" /> }}** — vyžaduje **konkrétní zdrojovou evidenci** pro každý claim, eliminuje pseudo-totalitní generalizace.
 
 ## Související
 
@@ -199,7 +199,7 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
   - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
@@ -226,6 +226,6 @@ Online komunita sdílí "synchronicity" události — ekonomické zprávy, gesta
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

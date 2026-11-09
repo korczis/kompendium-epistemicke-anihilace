@@ -79,7 +79,7 @@ Kompendium nabízí několik komplementárních navigačních nástrojů, které
 | **Per-technique články** | [techniques](@/kompendium/techniques/_index.md) — hloubkové samostatné stránky pro každou techniku EA-X.Y.Z |
 | **Glosář** | [glossary](@/glossary/_index.md) — abecední seznam s definicemi a odkazy na relevantní sekce |
 | **Scénářové spinout články** | [Scénář F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md) — detailní rozpracování |
-| **Platformová integrace** | {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} pro empirické testování taxonomických hypotéz |
+| **Platformová integrace** | {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro empirické testování taxonomických hypotéz |
 
 ### Doporučené navigační postupy
 
@@ -111,7 +111,7 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 3. Analýza vztahů mezi zkoumanými fenomény pomocí konceptuálních map
 4. Bibliografické odkazy pro hlubší ponor do specifických aspektů
 5. **Etická preregistrace** výzkumného protokolu před zahájením
-6. Využití {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} jako empirického nástroje pro testování hypotéz
+6. Využití {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} jako empirického nástroje pro testování hypotéz
 
 ### Pro pedagogické účely
 
@@ -126,7 +126,7 @@ V závislosti na účelu a kontextu využití kompendia jsou doporučeny násled
 
 1. Důkladné porozumění detekčním markerům jednotlivých fenoménů
 2. Studium scénářových sekvencí ([F](@/kompendium/03-zakladni-kategorie/scenar-f.md), [G](@/kompendium/03-zakladni-kategorie/scenar-g.md), [H](@/kompendium/03-zakladni-kategorie/scenar-h.md))
-3. Operacionalizace markerů do detekčních pravidel pro {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+3. Operacionalizace markerů do detekčních pravidel pro {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 4. Pravidelná aktualizace detekčních heuristik podle nových případů
 5. Koordinace s [Color Teams](@/glossary/color-teams.md) skrze institucionální kanály
 
@@ -355,7 +355,7 @@ Kompendium epistemické a kognitivní anihilace nepředstavuje uzavřený a defi
 
 ## Vztah k Prismatic Decision Engine
 
-Kompendium není pouhým statickým akademickým textem — je integrováno s {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} platformy Prismatic, který umožňuje **empirické testování taxonomických hypotéz** v reálných případech. Detekční markery jednotlivých fenoménů lze operacionalizovat do detekčních pravidel, která Decision Engine aplikuje na vstupní data, čímž vzniká zpětná vazba mezi taxonomií a její validací v praxi.
+Kompendium není pouhým statickým akademickým textem — je integrováno s {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} platformy Prismatic, který umožňuje **empirické testování taxonomických hypotéz** v reálných případech. Detekční markery jednotlivých fenoménů lze operacionalizovat do detekčních pravidel, která Decision Engine aplikuje na vstupní data, čímž vzniká zpětná vazba mezi taxonomií a její validací v praxi.
 
 ## Související
 
@@ -370,7 +370,7 @@ Kompendium není pouhým statickým akademickým textem — je integrováno s {{
 - [Sekce 06: Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - [Techniques index](@/kompendium/techniques/_index.md)
 - [Glossary](@/glossary/_index.md)
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
 
 ## ⚡ Kritický krok
@@ -387,6 +387,6 @@ materiál nečíst** (vyhořelý stav, akutní krize, neexistující supervizní
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

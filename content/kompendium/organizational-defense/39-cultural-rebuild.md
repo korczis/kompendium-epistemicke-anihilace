@@ -79,11 +79,11 @@ Public acknowledgment, structured listening sessions, value-redefinition worksho
 
 ## 6. Cross-linky
 
-- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
-- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
+- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
 - [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
 - [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
 - [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
 - [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
@@ -94,8 +94,8 @@ Public acknowledgment, structured listening sessions, value-redefinition worksho
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

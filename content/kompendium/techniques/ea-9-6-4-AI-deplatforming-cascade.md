@@ -135,33 +135,33 @@ Prismatic Platform implementuje detekci a neutralizaci AI Deplatforming Cascade 
 **Související EA techniky:**
 
 - [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)
-- [EA-9.1.2 Prompt Injection EA](/kompendium/techniques/ea-9-1-2-prompt-injection-EA/)
+- [EA-9.1.2 Prompt Injection EA](@/kompendium/techniques/ea-9-1-2-prompt-injection-EA.md)
 - [EA-9.2.1 Deepfake Personality](@/kompendium/techniques/ea-9-2-1-deepfake-personality.md)
-- [EA-9.2.2 Voice Cloning EA](/kompendium/techniques/ea-9-2-2-voice-cloning-EA/)
+- [EA-9.2.2 Voice Cloning EA](@/kompendium/techniques/ea-9-2-2-voice-cloning-EA.md)
 - [EA-9.3.1 Algoritmická amplifikace](@/kompendium/techniques/ea-9-3-1-algorithmic-amplification.md)
-- [EA-9.3.2 Engagement Optimization EA](/kompendium/techniques/ea-9-3-2-engagement-optimization-EA/)
+- [EA-9.3.2 Engagement Optimization EA](@/kompendium/techniques/ea-9-3-2-engagement-optimization-EA.md)
 - [EA-9.4.1 Bot Amplification Coordinated](@/kompendium/techniques/ea-9-4-1-bot-amplification-coordinated.md)
 - [EA-9.4.2 Coordinated Inauthentic Behavior](@/kompendium/techniques/ea-9-4-2-coordinated-inauthentic-behavior.md)
 - [EA-9.6.1 Algorithmic Decision Bias](@/kompendium/techniques/ea-9-6-1-algorithmic-decision-bias.md)
-- [EA-9.6.2 AI Judgment Laundering](/kompendium/techniques/ea-9-6-2-AI-judgment-laundering/)
+- [EA-9.6.2 AI Judgment Laundering](@/kompendium/techniques/ea-9-6-2-AI-judgment-laundering.md)
 - [EA-9.6.3 Automated Content Takedown](@/kompendium/techniques/ea-9-6-3-automated-content-takedown.md)
-- [EA-9.6.5 AI Credit Scoring Bias](/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias/)
+- [EA-9.6.5 AI Credit Scoring Bias](@/kompendium/techniques/ea-9-6-5-AI-credit-scoring-bias.md)
 
 **Doktrinální a infrastructure odkazy:**
 
 - [Kompendium — Digitální věk](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md)
-- {{ cross_link(path="/nabla/", text="Nabla Infinity Engine") }}
-- {{ cross_link(path="/osint/toolbox/", text="OSINT Toolbox") }}
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- {{ <cross_link path="/nabla/" text="Nabla Infinity Engine" /> }}
+- {{ <cross_link path="/osint/toolbox/" text="OSINT Toolbox" /> }}
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under {{ cross_link(path="/license/", text="GHL") }}
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: {{ <cross_link path="/license/" text="GHL" /> }}
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Kompendium](@/kompendium/_index.md) | [Techniques Index](@/kompendium/techniques/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
 
 ---
 

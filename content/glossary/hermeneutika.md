@@ -37,7 +37,7 @@ The kompendium uses hermeneutics precisely to **distinguish legitimate interpret
 
 Within the Prismatic Platform, the hermeneutic framework is operationalized in two layers:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats interpretation as a **separate epistemic operation** from data ingestion. Multiple interpretations of the same source material are kept available, with provenance and evidential support tracked per interpretation. A reinterpretation is registered with timestamp, author, and the justification offered — not silently overwritten.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats interpretation as a **separate epistemic operation** from data ingestion. Multiple interpretations of the same source material are kept available, with provenance and evidential support tracked per interpretation. A reinterpretation is registered with timestamp, author, and the justification offered — not silently overwritten.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains an **interpretation history** so that when a current interpretation conflicts with prior ones, the conflict is surfaced rather than suppressed. This is the structural defense against EA-1.3.2: a strategic reinterpretation depends on the prior interpretation being silently erased; immutable interpretation history prevents the erasure.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team validates this with adversarial reinterpretation drills — testing that platform records cannot be retroactively rewritten without leaving an audit trail.
 
@@ -59,7 +59,7 @@ The framework distinguishes hermeneutics from postmodern relativism. Recognizing
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

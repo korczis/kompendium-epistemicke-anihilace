@@ -16,9 +16,9 @@ quality_score = 80
 
 **Epistemicka Kalibrace** je detekční signatura ze sekce `detection-signatures/` Prismatic Kompendia. Signatury slouží jako diagnostické markery pro identifikaci konkrétních epistemických útoků (EA-techniques) v reálném čase nebo retrospektivně z transkriptů, dokumentace nebo klinického rozhovoru.
 
-{% callout(type="info") %}
+{% <callout type="info"> %}
 Detection signatures jsou **interpretační nástroje**, ne deterministické testy. Pozitivní marker zvyšuje pravděpodobnost EA, ale vyžaduje korelaci s dalšími signaturami a klinickým kontextem.
-{% end %}
+{% </callout> %}
 
 ## Lingvistické a behaviorální markery
 

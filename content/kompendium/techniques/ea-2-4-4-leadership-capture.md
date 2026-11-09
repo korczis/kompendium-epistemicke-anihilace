@@ -103,5 +103,5 @@ Prismatic Platform poskytuje pro detekci a analýzu této techniky následujíc�
 ## Connect
 
 - **Kompendium**: [Hlavní rozcestník](@/kompendium/_index.md) | [Kapitola 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | [Glossary](@/glossary/_index.md)
-- **Platforma**: {{ cross_link(path="/decisions/", text="Decision Engine") }} | [OSINT Toolbox](@/osint/_index.md) | {{ cross_link(path="/nabla/", text="Nabla") }}
-- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [[e-mail odstraněn]](mailto:[e-mail odstraněn])
+- **Platforma**: {{ <cross_link path="/decisions/" text="Decision Engine" /> }} | [OSINT Toolbox](https://prismatic-reality-com.github.io/prismatic-promo/osint/) | {{ <cross_link path="/nabla/" text="Nabla" /> }}
+- **Zpětná vazba**: Pro hlášení nových případů této techniky kontaktujte [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

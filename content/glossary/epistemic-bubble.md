@@ -36,9 +36,9 @@ In contemporary digital infrastructure, **algorithmic curation** is the dominant
 
 Within the Prismatic Platform threat model, epistemic bubbles are treated as a **prerequisite condition** for several [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) techniques rather than as EA proper. Specifically, **EA-1.1.1** (selective exposure) and **EA-1.1.2** (information starvation) operate by *deepening* a pre-existing bubble until the subject's epistemic field collapses to a single source. Documentation: [Kompendium → EA-1.1.x](@/kompendium/techniques/ea-1-1-1.md).
 
-The platform's [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline implements **source diversity scoring** as a structural defense: incoming signals are tagged with provenance and diversity metrics; if the diversity score collapses below threshold over a moving window, the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} emits a `BUBBLE_RISK` confidence penalty on any decision drawing on that window's data. This implements Nguyen's prescription operationally: *measure the structural property, not the propositional content*.
+The platform's [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline implements **source diversity scoring** as a structural defense: incoming signals are tagged with provenance and diversity metrics; if the diversity score collapses below threshold over a moving window, the {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} emits a `BUBBLE_RISK` confidence penalty on any decision drawing on that window's data. This implements Nguyen's prescription operationally: *measure the structural property, not the propositional content*.
 
-For {{ cross_link(path="/osint/toolbox", text="OSINT") }} workflows the same logic applies: investigations relying on a single source family — even when the sources are individually high-quality — are flagged. The 128 OSINT adapters are categorized by source family precisely so that automated diversity audits can run across investigations. The distinction between bubble and echo chamber also drives different remediation in [Kompendium → 06-zotaveni](@/kompendium/recovery-protocols/_index.md): bubble-recovery emphasizes exposure protocols; chamber-recovery emphasizes trust-topology repair.
+For {{ <cross_link path="/osint/toolbox" text="OSINT" /> }} workflows the same logic applies: investigations relying on a single source family — even when the sources are individually high-quality — are flagged. The 128 OSINT adapters are categorized by source family precisely so that automated diversity audits can run across investigations. The distinction between bubble and echo chamber also drives different remediation in [Kompendium → 06-zotaveni](@/kompendium/recovery-protocols/_index.md): bubble-recovery emphasizes exposure protocols; chamber-recovery emphasizes trust-topology repair.
 
 ## See Also
 
@@ -54,7 +54,7 @@ For {{ cross_link(path="/osint/toolbox", text="OSINT") }} workflows the same log
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

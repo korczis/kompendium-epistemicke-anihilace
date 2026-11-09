@@ -224,7 +224,7 @@ Intervence: Manuální **deduplikace** zdrojů, přihlášení k **antagonistick
 
 Selektivní expozice je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} source diversity check** — kalibrační logika explicitně penalizuje rozhodnutí založená na zdrojích z **úzkého okruhu** ([EA-1.1.1 detekční marker](#detekcni-markery-pohled-pozorovatele) implementovaný algoritmicky).
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} source diversity check** — kalibrační logika explicitně penalizuje rozhodnutí založená na zdrojích z **úzkého okruhu** ([EA-1.1.1 detekční marker](#detekcni-markery-pohled-pozorovatele) implementovaný algoritmicky).
 - **OSINT framework's multi-source default** — všechny investigation pipelines defaultují na **multiple nezávislé zdroje** a flagují případy, kdy je výsledek závislý na jediném zdroji.
 - **NABLA Infinity provenance tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou linii zdrojů, což umožňuje identifikaci **strukturálních filtrací** v dlouhodobém sledování.
 
@@ -238,7 +238,7 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -266,6 +266,6 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

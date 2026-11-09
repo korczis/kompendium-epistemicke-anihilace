@@ -85,7 +85,7 @@ Přílohy jsou organizovány podle **funkční vrstvy**, nikoliv podle obsahu:
 Přílohy nejsou izolované — jsou **operativně propojeny** s běžícími systémy:
 
 - **[Glossary](@/glossary/_index.md)** → [Index pojmů](@/kompendium/08-prilohy/index-pojmu.md) deriváuje termíny z hlavního platformového glosáře a recipročně do něj přispívá.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) poskytují signály pro kalibraci důvěry.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md) poskytují signály pro kalibraci důvěry.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** → [Klasifikační schéma](@/kompendium/08-prilohy/klasifikace.md) mapuje techniky na úrovně L0–L13.
 - **[Color Teams](@/glossary/color-teams.md)** → [Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) definuje hranice Red Team adversariální simulace.
 - **[3NL architektura](@/glossary/three-nested-loops.md)** → [Zkratky a notace](@/kompendium/08-prilohy/zkratky.md) sjednocuje doctrine zkratky napříč platformou.
@@ -129,7 +129,7 @@ Místo lineární četby:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](@/kompendium/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Hub kompendia](@/kompendium/_index.md) | [Techniques](@/kompendium/techniques/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

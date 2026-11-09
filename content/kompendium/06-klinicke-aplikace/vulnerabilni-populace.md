@@ -250,9 +250,9 @@ Práce s touto populací nese **vysoké riziko vicarious trauma a EA-přenosu** 
 
 Pro institucionální podporu vulnerabilních populací nabízí platforma:
 - **[Color Teams](@/glossary/color-teams.md)** — defenzivní agenti pro detekci EA v institucionálních kontextech;
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — kalibrace klinické důvěry s ohledem na rizikové signály manipulace;
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrace klinické důvěry s ohledem na rizikové signály manipulace;
 - **Glosář a kompendium** — psychoedukační nástroje pro klienty, jejich rodiny a institucionální partnery;
-- **{{ cross_link(path="/investigations/", text="Investigation reports") }}** — specifická role v případech podezření z institucionálního zneužívání.
+- **{{ <cross_link path="/investigations/" text="Investigation reports" /> }}** — specifická role v případech podezření z institucionálního zneužívání.
 
 ## Limity a otevřené otázky
 
@@ -299,7 +299,7 @@ Před aplikací:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

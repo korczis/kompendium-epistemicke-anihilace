@@ -36,8 +36,8 @@ The kompendium's diagnostic principle: confirmation bias is **universal** and **
 
 Within the Prismatic Platform, confirmation bias is treated as a **first-class structural problem**, not a personal weakness:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly tracks **source diversity** in its information graph: a decision based on a low-diversity source set receives a confidence penalty regardless of internal coherence. High coherence + low diversity is a confirmation-bias signature, not a strength.
-- The platform's {{ cross_link(path="/hub/dd/decisions/calibration", text="calibration loop") }} compares predicted vs. realized outcomes specifically to detect the systematic over-confidence that confirmation bias produces. A subject whose confirming predictions outperform their disconfirming predictions is showing signature bias even without content-level analysis.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks **source diversity** in its information graph: a decision based on a low-diversity source set receives a confidence penalty regardless of internal coherence. High coherence + low diversity is a confirmation-bias signature, not a strength.
+- The platform's {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }} compares predicted vs. realized outcomes specifically to detect the systematic over-confidence that confirmation bias produces. A subject whose confirming predictions outperform their disconfirming predictions is showing signature bias even without content-level analysis.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements **mandatory disconfirmation queries**: any high-confidence belief must be paired with an explicit list of sources that would disconfirm it; absence of such sources is itself an alarm.
 - The [Color Teams](@/glossary/color-teams.md) Red Team builds adversarial information environments to validate that platform-level diversity checks survive deliberate gaming. Czech-language treatment of confirmation bias in EA context: [/kompendium/04-mechanismy/biasy/konfirmacni/](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md).
 
@@ -58,7 +58,7 @@ The principled defense, drawn from [falsifikace](@/glossary/falsifikace.md) (Pop
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

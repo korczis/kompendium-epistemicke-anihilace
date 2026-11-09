@@ -38,7 +38,7 @@ Within the Prismatic Platform, induced gestalt shift is classified as **EA-5.1.2
 
 What distinguishes EA-5.1.26 from legitimate paradigm correction is the **provenance of the new frame**: legitimate shifts emerge from the subject's own pattern-recognition over accumulated evidence; weaponized shifts are *seeded externally* and the subject is steered into "discovering" them. Diagnostic markers: rapid onset, suspiciously coherent reinterpretation of all past data, emotional charge characteristic of insight without the corresponding evidential base.
 
-The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats reports of recent dramatic worldview reorganization as a **calibration alert**: the {{ cross_link(path="/hub/dd/decisions/calibration", text="confidence lens") }} flags subjects whose stated certainty has spiked across multiple unrelated domains simultaneously — a structural signature of induced rather than organic gestalt shift. Recovery work, documented at [/kompendium/06-zotaveni/paradigm/](@/kompendium/recovery-protocols/paradigm.md), centers on *frame archaeology*: reconstructing where each component of the new frame originated, separating evidence from suggestion.
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of recent dramatic worldview reorganization as a **calibration alert**: the {{ <cross_link path="/hub/dd/decisions/calibration" text="confidence lens" /> }} flags subjects whose stated certainty has spiked across multiple unrelated domains simultaneously — a structural signature of induced rather than organic gestalt shift. Recovery work, documented at [/kompendium/06-zotaveni/paradigm/](@/kompendium/recovery-protocols/paradigm.md), centers on *frame archaeology*: reconstructing where each component of the new frame originated, separating evidence from suggestion.
 
 ## See Also
 
@@ -54,7 +54,7 @@ The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

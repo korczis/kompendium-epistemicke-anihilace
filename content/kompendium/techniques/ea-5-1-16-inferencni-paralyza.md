@@ -181,7 +181,7 @@ Soudce se hrdě prezentoval jako "epistemicky pokorný", odkládal rozsudky done
 
 Inferenční paralýza je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem "epistemické pokory".
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** explicitně staví **operační rozhodnutí v omezeném čase** s konfidenčními intervaly — neumožňuje paralýzu pod jménem "epistemické pokory".
 - **Calibration loop** trénuje rozhodovatele na **operační rychlost** s následným feedbackem, čímž odstraňuje paralyzér.
 - **NABLA Infinity** rozlišuje mezi **L1 logickou** a **L2 metakognitivní** vrstvou a zabraňuje, aby L2 trvale dominovala nad L1.
 
@@ -207,7 +207,7 @@ Inferenční paralýza je strukturálním motivem pro několik defenzivních mec
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
@@ -234,6 +234,6 @@ Inferenční paralýza je strukturálním motivem pro několik defenzivních mec
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

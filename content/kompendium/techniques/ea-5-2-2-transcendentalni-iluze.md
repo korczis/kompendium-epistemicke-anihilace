@@ -178,11 +178,11 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pseudo-transcendence se zhroutí do sebereferenčního bodu.
-- **[EA-5.2.21 Transcendentální solipsismus](/kompendium/05-ultramari-techniky/kapitola-7/#ea-5-2-21-transcendentalni-solipsismus)**.
+- **[EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)**.
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** odmítá rozhodnutí založená výhradně na **fenomenologické jistotě** bez korespondující evidenční stopy.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** odmítá rozhodnutí založená výhradně na **fenomenologické jistotě** bez korespondující evidenční stopy.
 - **OSINT framework** vyžaduje **multiple nezávislé zdroje** pro extraordinární tvrzení, čímž neutralizuje pseudo-transcendentní jednotlivý "vhled".
 - **NABLA Infinity** odděluje **konfidenci** (kalibrovanou pravděpodobnost) od **subjektivního pocitu jistoty**.
 
@@ -220,6 +220,6 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

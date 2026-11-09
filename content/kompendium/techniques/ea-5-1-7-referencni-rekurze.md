@@ -203,7 +203,7 @@ Intervence: Operační rekonstrukce — definice obou pojmů přes pozorovateln�
 Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapování:
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) cycle detector** — provenance graf každého epistemického tvrzení je analyzován na uzavřené cykly; podezřelé struktury jsou flagovány a vyžadují externí kotvu.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} terminační guard** — každé rozhodovací okno má pevný *decision deadline*; po jeho překročení systém vynucuje pragmatický kompromis a zaznamenává jej do kalibrační historie.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} terminační guard** — každé rozhodovací okno má pevný *decision deadline*; po jeho překročení systém vynucuje pragmatický kompromis a zaznamenává jej do kalibrační historie.
 - **Color Teams cross-paradigm review** — sporná rozhodnutí jsou rutinně konzultována s týmy operujícími mimo původní pojmový aparát, čímž se snižuje pravděpodobnost uvíznutí v lokálním cyklu.
 
 ## Související
@@ -220,7 +220,7 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
@@ -247,6 +247,6 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

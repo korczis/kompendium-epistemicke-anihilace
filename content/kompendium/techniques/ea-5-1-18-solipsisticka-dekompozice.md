@@ -204,7 +204,7 @@ Doktorand 5 let pracoval na disertaci o "iluzornosti vnějšího světa". Postup
 
 Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou linii Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** explicitně **vyžaduje externí evidenci** a **multi-source triangulaci** — solipsistická data nejsou přijatelná jako podklad rozhodování.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** explicitně **vyžaduje externí evidenci** a **multi-source triangulaci** — solipsistická data nejsou přijatelná jako podklad rozhodování.
 - **NABLA Infinity** udržuje **L3 lingvistickou vrstvu** vázanou na **veřejně sdílené** referenty — privátní solipsistický slovník neprochází validací.
 - **OSINT framework** systematicky vyžaduje **externí fyzickou evidenci** (registry, dokumenty, právní akty) — vše, co existuje **mimo** subjekt.
 - **Color Teams** (Red/Blue/Purple) provádějí **adversariální** validaci, která rozbíjí solipsistické bubliny v rozhodovacích procesech.
@@ -231,7 +231,7 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -259,6 +259,6 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

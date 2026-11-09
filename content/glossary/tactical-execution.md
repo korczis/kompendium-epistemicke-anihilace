@@ -420,7 +420,7 @@ L2 Tactical Execution agents operate under the [NABLA Infinity](@/glossary/nabla
 
 **Signal Plurality**: L2 findings must be supported by at least two independent signals. A single observation is insufficient for a finding to be submitted.
 
-**Provenance Mandatory**: Every finding must carry a complete provenance chain from the raw signal through evidence processing to the final conclusion. The [Provenance Mandatory](@/glossary/provenance-mandatory.md) axiom is enforced structurally in the finding report schema.
+**Provenance Mandatory**: Every finding must carry a complete provenance chain from the raw signal through evidence processing to the final conclusion. The [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) axiom is enforced structurally in the finding report schema.
 
 **Confidence Calibration**: L2 agents must calibrate their confidence scores to reflect the actual strength of their evidence. The confidence threshold system (0.95 for critical, 0.85 for high, 0.70 for medium) prevents premature escalation of uncertain findings.
 
@@ -539,15 +539,15 @@ These constraints are non-negotiable and apply equally in testing and production
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Agents](@/agents/_index.md) -- Full agent catalog
-- [Commands](@/commands/_index.md) -- Command catalog including agent operations
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command catalog including agent operations
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

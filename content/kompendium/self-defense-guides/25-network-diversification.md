@@ -67,5 +67,5 @@ Diverzifikace bez hloubky vede k povrchním vztahům. Hloubka v 3-5 vztazích je
 - [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
 - [Kompendium epistemické anihilace](@/kompendium/_index.md)
 - [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
-- [Kontakt](mailto:[e-mail odstraněn])
+- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
+- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

@@ -276,24 +276,24 @@ The quantitative impact of GreyNoise integration on alert accuracy:
 - [Censys](@/glossary/censys.md) - Discovery platform complemented by GreyNoise noise filtering
 - [EASM](@/glossary/easm.md) - Attack surface management benefiting from noise reduction
 - [Signal Plurality](@/glossary/signal-plurality.md) - Axiom satisfied by GreyNoise as third signal source
-- [Attack Surface](@/glossary/attack-surface.md) - External surface where noise filtering improves accuracy
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) - External surface where noise filtering improves accuracy
 - [Risk Score](@/glossary/risk-score.md) - Grades improved by filtering benign scanner activity
-- [Rate Limiting](@/glossary/rate-limiting.md) - API quota management for GreyNoise integration
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) - Handling conflicting threat assessments
-- [Time Decay](@/glossary/time-decay.md) - GreyNoise temporal context for aging findings
-- [Confidence Scoring](@/glossary/confidence-scoring.md) - Classification confidence levels from GreyNoise data
+- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) - API quota management for GreyNoise integration
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) - Handling conflicting threat assessments
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) - GreyNoise temporal context for aging findings
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) - Classification confidence levels from GreyNoise data
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - EASM enrichment pipeline architecture
-- [Apps](@/apps/_index.md) - Prismatic Perimeter application
-- [OSINT](@/osint/_index.md) - Open-source intelligence collection methodology
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - EASM enrichment pipeline architecture
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Prismatic Perimeter application
+- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) - Open-source intelligence collection methodology
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

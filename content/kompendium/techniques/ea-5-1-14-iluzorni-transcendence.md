@@ -197,7 +197,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} inflační detektor** — kalibrační logika **flaguje** rozhodnutí, kde subjektivní jistota je disproporční vůči epistemické opoře, jako kandidáty pro inflační epistemiku.
 - **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení "z vlastního vhledu" bez dohledatelnosti je flagováno.
 - **Color Teams adversarial check** — Red Team má mandát **falsifikovat** transcendentní tvrzení; Blue Team má povinnost odpovědět na falsifikační test.
 
@@ -217,7 +217,7 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
   - [Falsifikovatelnost](@/glossary/falsifikovatelnost.md)
   - [Epistemická regrese](@/glossary/epistemicka-regrese.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -245,6 +245,6 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

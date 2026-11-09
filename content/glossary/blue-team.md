@@ -38,7 +38,7 @@ image_alt = "Blue Team - Prismatic Platform"
 
 The Blue Team is a defensive Color Team composed of 4 specialized [agents](@/glossary/agent.md) focused on epistemic defense through evidence synthesis. In traditional cybersecurity, a blue team defends networks against attacks. In the Prismatic Platform, the Blue Team defends the **epistemic integrity** of the platform's knowledge systems -- ensuring that beliefs are well-evidenced, signals are not corrupted, and the platform's reasoning has not drifted from its validated baseline.
 
-The fundamental distinction between Prismatic's Blue Team and conventional blue teams is the output type. A conventional blue team produces **alerts**: "suspicious login detected," "malware signature found," "anomalous traffic observed." Prismatic's Blue Team produces **structured evidence**: documented observations with [provenance](@/glossary/provenance-mandatory.md), confidence levels, [signal plurality](@/glossary/signal-plurality.md) compliance, and explicit uncertainty quantification. Alerts are ephemeral and actionable; evidence is persistent and analyzable.
+The fundamental distinction between Prismatic's Blue Team and conventional blue teams is the output type. A conventional blue team produces **alerts**: "suspicious login detected," "malware signature found," "anomalous traffic observed." Prismatic's Blue Team produces **structured evidence**: documented observations with [provenance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/), confidence levels, [signal plurality](@/glossary/signal-plurality.md) compliance, and explicit uncertainty quantification. Alerts are ephemeral and actionable; evidence is persistent and analyzable.
 
 This shift from alerts to evidence reflects the platform's [NABLA Infinity](@/glossary/nabla-infinity.md) axiom framework. An alert that says "drift detected" is a single signal that may or may not warrant action. A structured evidence artifact that documents the drift, provides multiple independent measurements, preserves contradictory observations, and traces its reasoning back to raw telemetry data is a knowledge claim that can be verified, disputed, refined, and synthesized with other evidence through the [Purple Team](@/glossary/purple-team.md).
 
@@ -82,8 +82,8 @@ The auth-sentinel operates at the boundary between external users and internal p
 
 - **Authentication attempts**: Patterns of failed logins, credential stuffing indicators, brute-force detection
 - **Authorization boundaries**: Requests that test RBAC limits, privilege escalation sequences, role confusion attempts
-- **Token integrity**: [JWT](@/glossary/jwt.md) validation failures, token reuse detection, session fixation indicators
-- **API boundary**: [REST API](@/glossary/rest-api.md) access patterns, [rate limiting](@/glossary/rate-limiting.md) triggers, [OpenAPI](@/glossary/openapi.md) schema violation attempts
+- **Token integrity**: [JWT](https://prismatic-reality-com.github.io/prismatic-promo/glossary/jwt/) validation failures, token reuse detection, session fixation indicators
+- **API boundary**: [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) access patterns, [rate limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) triggers, [OpenAPI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/openapi/) schema violation attempts
 
 ### blue-drift-detector (L2 Operational Specialist)
 
@@ -194,12 +194,12 @@ The Blue Team's evidence production is fundamentally grounded in [NABLA Infinity
 | Axiom | Blue Team Application | Enforcement |
 |-------|----------------------|-------------|
 | **Signal Plurality** | Every finding requires 2+ independent signals. Signal-aggregator certifies plurality. | HARD -- single-signal findings are quarantined, not published |
-| **[Contradiction Preservation](@/glossary/contradiction-preservation.md)** | When one detector finds drift and another finds stability, both observations are preserved | HARD -- contradictions annotated with severity and routed to Purple |
+| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | When one detector finds drift and another finds stability, both observations are preserved | HARD -- contradictions annotated with severity and routed to Purple |
 | **Absence Informative** | Expected signals that are missing are tracked. A service that should emit telemetry but does not is itself a finding | SOFT -- absence logged, investigation triggered |
-| **[Time Decay](@/glossary/time-decay.md)** | Evidence older than the configured staleness threshold receives reduced weight | HARD -- stale evidence decays toward neutral confidence |
+| **[Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | Evidence older than the configured staleness threshold receives reduced weight | HARD -- stale evidence decays toward neutral confidence |
 | **Unknown Valid** | When evidence is insufficient for a determination, the Blue Team reports "unknown" rather than guessing | HARD -- forced determinations are forbidden |
 | **Source Independence** | Signal-aggregator tracks source correlation and discounts correlated observations | SOFT -- correlated sources flagged, independence assessment included |
-| **[Provenance Mandatory](@/glossary/provenance-mandatory.md)** | Every evidence artifact traces back to raw telemetry through documented processing steps | HARD -- unprovenanced evidence rejected |
+| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Every evidence artifact traces back to raw telemetry through documented processing steps | HARD -- unprovenanced evidence rejected |
 
 ## Evidence Synthesis vs. Alert Generation
 
@@ -306,19 +306,19 @@ All Blue Team operations are subject to the platform's security safety protocols
 
 ### Platform Quality Monitoring
 
-The Blue Team monitors the Prismatic Platform's 13 quality domains for drift. When the compilation warning count, [Credo](@/glossary/credo.md) violation count, or [Dialyzer](@/glossary/dialyzer.md) error count changes, the drift-detector captures the change, the signal-aggregator correlates it with recent code changes, and the blue-commander produces an evidence package for the Quality Floor Guardian.
+The Blue Team monitors the Prismatic Platform's 13 quality domains for drift. When the compilation warning count, [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) violation count, or [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) error count changes, the drift-detector captures the change, the signal-aggregator correlates it with recent code changes, and the blue-commander produces an evidence package for the Quality Floor Guardian.
 
 ### OSINT Source Reliability Assessment
 
-When OSINT intelligence sources produce conflicting data about the same entity, the Blue Team preserves the contradiction and produces a structured evidence artifact documenting which sources disagree, the confidence levels of each source, and the potential impact on downstream assessments. This evidence feeds into the [Prismatic Perimeter](@/glossary/prismatic-perimeter.md) security rating calculations.
+When OSINT intelligence sources produce conflicting data about the same entity, the Blue Team preserves the contradiction and produces a structured evidence artifact documenting which sources disagree, the confidence levels of each source, and the potential impact on downstream assessments. This evidence feeds into the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating calculations.
 
 ### Authentication Boundary Monitoring
 
-The auth-sentinel monitors authentication patterns across the platform's [REST API](@/glossary/rest-api.md) and [LiveView](@/glossary/liveview.md) endpoints. When unusual patterns emerge -- spike in failed authentications from a new IP range, unexpected token validation failures, session fixation indicators -- the auth-sentinel produces evidence artifacts that feed into the defensive posture assessment.
+The auth-sentinel monitors authentication patterns across the platform's [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) and [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/) endpoints. When unusual patterns emerge -- spike in failed authentications from a new IP range, unexpected token validation failures, session fixation indicators -- the auth-sentinel produces evidence artifacts that feed into the defensive posture assessment.
 
 ### Dependency Supply Chain Monitoring
 
-The drift-detector tracks dependency versions across all 115 umbrella applications. When a dependency releases a security advisory, the detector produces evidence documenting which applications are affected, the severity classification, and the [OTP](@/glossary/otp.md) supervision tree impact. This evidence enables prioritized remediation.
+The drift-detector tracks dependency versions across all 115 umbrella applications. When a dependency releases a security advisory, the detector produces evidence documenting which applications are affected, the severity classification, and the [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) supervision tree impact. This evidence enables prioritized remediation.
 
 ## Related Terms
 
@@ -330,26 +330,26 @@ The drift-detector tracks dependency versions across all 115 umbrella applicatio
 - [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 security teams and their interactions
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework grounding all Blue Team evidence
 - [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom enforced by the signal-aggregator
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) -- Axiom requiring preservation of conflicting observations
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- Axiom requiring traceable evidence chains
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Axiom requiring preservation of conflicting observations
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom requiring traceable evidence chains
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that Blue Team evidence must pass
-- [Epistemic Robustness](@/glossary/epistemic-robustness.md) -- Measure of defense resilience to epistemic attack
-- [Confidence Scoring](@/glossary/confidence-scoring.md) -- Uncertainty quantification for Blue Team evidence
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of defense resilience to epistemic attack
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Uncertainty quantification for Blue Team evidence
 - [Agent](@/glossary/agent.md) -- Autonomous entities composing the Blue Team
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform security architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Capabilities](@/capabilities/_index.md) -- Platform defensive capability descriptions
-- [OTP](@/glossary/otp.md) -- OTP process model underlying Blue Team agent isolation
-- [Supervision Tree](@/glossary/supervision-tree.md) -- Hierarchical organization of Blue Team processes
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform defensive capability descriptions
+- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) -- OTP process model underlying Blue Team agent isolation
+- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) -- Hierarchical organization of Blue Team processes
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

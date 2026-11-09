@@ -257,7 +257,7 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 
 ## Platformový kontext
 
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
 - [Color Teams](@/glossary/color-teams.md) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
 
@@ -296,7 +296,7 @@ Místo lineární četby:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | [Glossary](@/glossary/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) | [Glossary](@/glossary/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -31,7 +31,7 @@ The crisis has produced a methodological reform agenda: pre-registration, regist
 
 ## Context
 
-Within the Prismatic Platform, the replication-crisis literature directly informs the {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} calibration model. Confidence updates from published research are scaled by the **replication-class prior** for the source field: a single study from a low-replication field (e.g., social-priming psychology) produces a smaller confidence update than a single study from a high-replication field (e.g., randomized controlled drug trials with multi-center confirmation), even if both are published in equally prestigious venues. This implementation is documented in [Kompendium → 05-detekce → epistemicka-kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
+Within the Prismatic Platform, the replication-crisis literature directly informs the {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration model. Confidence updates from published research are scaled by the **replication-class prior** for the source field: a single study from a low-replication field (e.g., social-priming psychology) produces a smaller confidence update than a single study from a high-replication field (e.g., randomized controlled drug trials with multi-center confirmation), even if both are published in equally prestigious venues. This implementation is documented in [Kompendium → 05-detekce → epistemicka-kalibrace](@/kompendium/detection-signatures/epistemicka-kalibrace.md).
 
 For [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) work, the crisis matters because **published research is itself a vector**: low-replication-rate findings can be cited as decisive evidence in EA techniques, exploiting the asymmetry between the social authority of "published peer-reviewed" and the actual evidential reliability. Recovery work in [/kompendium/06-zotaveni/](@/kompendium/recovery-protocols/_index.md) explicitly addresses subjects whose epistemic damage was mediated through citations of low-replicability research.
 
@@ -40,7 +40,7 @@ The platform's [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline supports 
 ## See Also
 
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Threat framework
-- [Epistemic Confidence](@/glossary/epistemic-confidence.md) — Calibration framework
+- [Epistemic Confidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-confidence/) — Calibration framework
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) — Legitimate humility about replication failures
 - [Kompendium EA](@/glossary/kompendium-ea.md) — Full taxonomic reference
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — Platform-level epistemic architecture
@@ -51,7 +51,7 @@ The platform's [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline supports 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

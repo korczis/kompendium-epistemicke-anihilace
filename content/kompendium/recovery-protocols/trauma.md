@@ -16,9 +16,9 @@ quality_score = 80
 
 **Trauma** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, coercive control, gaslighting) v specifické fázi obnovy.
 
-{% callout(type="note") %}
+{% <callout type="note"> %}
 Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% end %}
+{% </callout> %}
 
 ## Implementace
 

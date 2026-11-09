@@ -177,7 +177,7 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} attribution checks** — kalibrační logika explicitně modeluje **kauzální graf** a flagsuje rozhodnutí, jejichž předpoklady obsahují atribuční asymetrie nezávisle podpořené evidencí.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} attribution checks** — kalibrační logika explicitně modeluje **kauzální graf** a flagsuje rozhodnutí, jejichž předpoklady obsahují atribuční asymetrie nezávisle podpořené evidencí.
 - **NABLA Infinity provenance tracking** — každé tvrzení v decision pipeline obsahuje **kauzální atribuci** s explicitně označeným zdrojem; subjekt může v post-hoc analýze rekonstruovat **původní** atribuční strukturu.
 - **OSINT framework's actor-action graphs** — investigations rozlišují *agenta* a *reagujícího* na úrovni datové struktury, což znemožňuje implicitní inverzi v reportování.
 
@@ -199,7 +199,7 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Dual-use poznání](@/glossary/dual-use-poznani.md)
 - **Platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
 
@@ -223,6 +223,6 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

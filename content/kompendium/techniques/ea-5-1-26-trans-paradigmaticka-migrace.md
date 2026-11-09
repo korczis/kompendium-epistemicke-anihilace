@@ -187,7 +187,7 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} paradigm-stability check** — audituje rozhodovací rámce klientů na sekvenční eskalaci.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradigm-stability check** — audituje rozhodovací rámce klientů na sekvenční eskalaci.
 - **NABLA Infinity multi-paradigm provenance** — uchovává historii rámců, detekuje vynucenou supresi.
 - **Color Teams paradigmatic adversarial review** — Red Team protokol pro detekci sekvenční eskalace v coaching/training pipeline.
 
@@ -203,7 +203,7 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
   - [Paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -231,6 +231,6 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

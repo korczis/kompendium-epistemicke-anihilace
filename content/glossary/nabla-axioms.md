@@ -46,7 +46,7 @@ The Prismatic Platform was designed to resist these tendencies at the architectu
 
 The axioms draw from three intellectual traditions. From formal logic, they inherit rigor and verifiability. From intelligence analysis, they inherit the requirement for source plurality and contradiction tracking. From philosophy of science, they inherit the principle that unfalsifiable claims and claims without provenance are epistemically worthless regardless of their apparent plausibility.
 
-Every claim that passes through the platform -- whether a security rating from the [Prismatic Perimeter](@/glossary/prismatic-perimeter.md), a threat assessment from the [Red Team](@/glossary/red-team.md), or a quality score from the [Quality Floor Guardian](@/glossary/quality-floor-guardian.md) -- must satisfy all seven axioms before it can influence platform behavior. This is not optional. There is no bypass. The axioms are enforced at COSMIC CLEARANCE authority level.
+Every claim that passes through the platform -- whether a security rating from the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/), a threat assessment from the [Red Team](@/glossary/red-team.md), or a quality score from the [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- must satisfy all seven axioms before it can influence platform behavior. This is not optional. There is no bypass. The axioms are enforced at COSMIC CLEARANCE authority level.
 
 ## Technical Details
 
@@ -473,7 +473,7 @@ Most AI systems use simple confidence scores (0.0-1.0) to represent belief certa
 
 ### NABLA Axioms vs. Bayesian Reasoning
 
-[Bayesian reasoning](@/glossary/bayesian-reasoning.md) updates beliefs based on new evidence using Bayes' theorem. The NABLA Axioms are compatible with Bayesian updating but add constraints that vanilla Bayesian reasoning lacks: source independence verification (correlated evidence should not be double-counted), contradiction preservation (conflicting priors and likelihoods are tracked, not silently resolved), and provenance requirements (the Bayesian update itself must be auditable).
+[Bayesian reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) updates beliefs based on new evidence using Bayes' theorem. The NABLA Axioms are compatible with Bayesian updating but add constraints that vanilla Bayesian reasoning lacks: source independence verification (correlated evidence should not be double-counted), contradiction preservation (conflicting priors and likelihoods are tracked, not silently resolved), and provenance requirements (the Bayesian update itself must be auditable).
 
 ### NABLA Axioms vs. Intelligence Analysis Standards
 
@@ -531,7 +531,7 @@ When the [OSINT toolbox](@/glossary/osint.md) queries 120 sources about a target
 
 ### 2. Security Rating Computation
 
-The [Prismatic Perimeter](@/glossary/prismatic-perimeter.md) security rating system uses axiom-compliant belief formation. A security grade of "B" is never assigned from a single scan -- it requires multiple independent assessment signals, preservation of any contradicting findings, and a full provenance chain from raw scan data through scoring algorithms to the final rating.
+The [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating system uses axiom-compliant belief formation. A security grade of "B" is never assigned from a single scan -- it requires multiple independent assessment signals, preservation of any contradicting findings, and a full provenance chain from raw scan data through scoring algorithms to the final rating.
 
 ### 3. Agent Decision Making
 
@@ -539,33 +539,33 @@ When the 530+ [AIAD](@/glossary/aiad.md) agents make decisions, each decision mu
 
 ### 4. Quality Assessment
 
-The [Quality Floor Guardian](@/glossary/quality-floor-guardian.md) applies axiom-compliant reasoning to quality metrics. A quality score of doctrine-enforced is not accepted from a single analysis run -- it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
+The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) applies axiom-compliant reasoning to quality metrics. A quality score of doctrine-enforced is not accepted from a single analysis run -- it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
 
 ## Related Concepts
 
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- the overarching epistemic framework that the axioms ground and constrain
 - [Signal Plurality](@/glossary/signal-plurality.md) -- Axiom 1: the requirement for multiple independent evidence sources
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) -- Axiom 2: the mandate to preserve rather than discard conflicting evidence
-- [Time Decay](@/glossary/time-decay.md) -- Axiom 4: mandatory temporal degradation of belief confidence
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- Axiom 7: full traceability requirement for all beliefs
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Axiom 2: the mandate to preserve rather than discard conflicting evidence
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- Axiom 4: mandatory temporal degradation of belief confidence
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom 7: full traceability requirement for all beliefs
 - [Trinity Gate](@/glossary/trinity-gate.md) -- the three-layer verification system that axioms feed into
-- [Belief Graph](@/glossary/belief-graph.md) -- the data structure that stores axiom-validated beliefs
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- the data structure that stores axiom-validated beliefs
 - [Addiction Recovery](@/glossary/addiction-recovery.md) -- the doctrine of constant vigilance against epistemic shortcuts
-- [Axiom Enforcement](@/glossary/axiom-enforcement.md) -- the runtime machinery that enforces axiom compliance
-- [Epistemic Robustness](@/glossary/epistemic-robustness.md) -- the system property that axiom compliance produces
+- [Axiom Enforcement](https://prismatic-reality-com.github.io/prismatic-promo/glossary/axiom-enforcement/) -- the runtime machinery that enforces axiom compliance
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- the system property that axiom compliance produces
 
 ## See Also
 
 - [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) -- the execution doctrine that axioms constrain with epistemic rigor
-- [Formal Verification](@/glossary/formal-verification.md) -- the mathematical proof systems used in Trinity Gate Layer 3
-- [Confidence Scoring](@/glossary/confidence-scoring.md) -- the numeric confidence values that axioms contextualize
-- [Evidence](@/glossary/evidence.md) -- the raw data that axioms evaluate and validate
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- the mathematical proof systems used in Trinity Gate Layer 3
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- the numeric confidence values that axioms contextualize
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) -- the raw data that axioms evaluate and validate
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

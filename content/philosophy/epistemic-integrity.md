@@ -297,7 +297,7 @@ The [intellectual sovereignty](@/philosophy/intellectual-sovereignty.md) framewo
 
 ### Ceremonial Verification
 
-The [ceremonial computing](@/philosophy/ceremonial-computing.md) framework supports epistemic integrity through:
+The [ceremonial computing](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ceremonial-computing/) framework supports epistemic integrity through:
 
 - **Conscious Engagement**: Users must actively acknowledge their understanding
 - **Oath Commitment**: Sworn commitment to proper interpretation and usage
@@ -350,7 +350,7 @@ Even without malicious intent, systems naturally degrade epistemic integrity:
 
 ### Licensing as Epistemic Protection
 
-The [General Honest License](@/philosophy/ghl-framework.md) serves as an epistemic protection mechanism:
+The [General Honest License](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/) serves as an epistemic protection mechanism:
 
 - **Modification Controls**: Prevent unauthorized changes that could corrupt meaning
 - **Interpretation Authority**: Ensure the author's intended meaning is preserved
@@ -420,7 +420,7 @@ The alternative - a world of corrupted meaning, lost provenance, and suppressed 
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

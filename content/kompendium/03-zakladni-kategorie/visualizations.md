@@ -28,8 +28,7 @@ Body grafu reprezentují techniky umístěné podle fáze (X) a typické závaž
 
 <canvas id="section-03-progression" width="800" height="500"></canvas>
 <div id="progression-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<script src="/js/kompendium/section-03-progression.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-03-progression.js"></script>
 
 ## Jak číst graf
 
@@ -51,6 +50,6 @@ Body grafu reprezentují techniky umístěné podle fáze (X) a typické závaž
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -224,7 +224,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
 - **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
 
-**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} pro průběžné kalibrační monitoring.
+**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro průběžné kalibrační monitoring.
 
 ## Long-term follow-up
 
@@ -240,7 +240,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k jiným technikám
 
-Kompatibilní s [EA-6.5.2 suicidálním protokolem](/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol/), [EA-6.5.3 psychotic spektrum](@/kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md), navazuje [EA-6.5.7 partial hospitalizaci](@/kompendium/techniques/ea-6-5-7-partialni-hospitalizace.md).
+Kompatibilní s [EA-6.5.2 suicidálním protokolem](@/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol.md), [EA-6.5.3 psychotic spektrum](@/kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md), navazuje [EA-6.5.7 partial hospitalizaci](@/kompendium/techniques/ea-6-5-7-partialni-hospitalizace.md).
 
 ## Vztah k Prismatic platformě
 
@@ -256,14 +256,14 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 ### Sesterské techniky (6.5 Krizové intervence)
 
 - [EA-6.5.1 Akutní krize protokol](@/kompendium/techniques/ea-6-5-1-akutni-krize-protokol.md)
-- [EA-6.5.2 Suicidalní EA-trauma protokol](/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol/)
+- [EA-6.5.2 Suicidalní EA-trauma protokol](@/kompendium/techniques/ea-6-5-2-suicidalni-EA-protokol.md)
 - [EA-6.5.3 Psychotic-spektrum protokol](@/kompendium/techniques/ea-6-5-3-psychotic-spektrum-protokol.md)
 - [EA-6.5.4 Disociativní akutní protokol](@/kompendium/techniques/ea-6-5-4-disociativni-akutni-protokol.md)
-- [EA-6.5.5 ER screening EA-trauma](/kompendium/techniques/ea-6-5-5-er-screening-EA/)
+- [EA-6.5.5 ER screening EA-trauma](@/kompendium/techniques/ea-6-5-5-er-screening-EA.md)
 - [EA-6.5.7 Partialní hospitalizace](@/kompendium/techniques/ea-6-5-7-partialni-hospitalizace.md)
-- [EA-6.5.8 Day program EA](/kompendium/techniques/ea-6-5-8-day-program-EA/)
-- [EA-6.5.9 Residential program EA](/kompendium/techniques/ea-6-5-9-residential-program-EA/)
-- [EA-6.5.10 Outpatient EA protokol](/kompendium/techniques/ea-6-5-10-outpatient-EA-protokol/)
+- [EA-6.5.8 Day program EA](@/kompendium/techniques/ea-6-5-8-day-program-EA.md)
+- [EA-6.5.9 Residential program EA](@/kompendium/techniques/ea-6-5-9-residential-program-EA.md)
+- [EA-6.5.10 Outpatient EA protokol](@/kompendium/techniques/ea-6-5-10-outpatient-EA-protokol.md)
 
 ### Rodičovská kapitola
 
@@ -281,7 +281,7 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Prismatic platforma
 
-- [Prismatic Nabla](@/about/architecture.md) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
-- {{ cross_link(path="/osint/toolbox/", text="OSINT toolbox") }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Prismatic Nabla](https://prismatic-reality-com.github.io/prismatic-promo/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
+- {{ <cross_link path="/osint/toolbox/" text="OSINT toolbox" /> }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace klinického rozhodování s Brierův skór monitoring
+- [Akademie](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — interaktivní vzdělávací moduly pro klinickou populaci

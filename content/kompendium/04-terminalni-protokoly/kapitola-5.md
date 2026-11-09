@@ -290,7 +290,7 @@ Standardní auditní log musí zachycovat:
 - Pro jaký účel
 - Pod jakou autorizací
 
-Integrace s platformovým {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} umožňuje formální evidence-based hodnocení governance compliance.
+Integrace s platformovým {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} umožňuje formální evidence-based hodnocení governance compliance.
 
 ## 7. Long-term follow-up
 
@@ -390,7 +390,7 @@ Každý adverse event musí vést k **strukturované integraci poznatků** do pr
 Robustní bezpečnostní protokoly nejsou pouze procedurálním ukotvením, ale vyžadují integraci s platformovou infrastrukturou:
 
 - **[Color Teams](@/glossary/color-teams.md)** — Strukturovaná vícebarevná evaluace rizikového profilu (red team adversarial probing, blue team defensive analysis, purple team integration); aplikovatelná na review protokolů před implementací.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** — Evidence-based formální hodnocení rozhodnutí včetně calibration tracking (Brier score, ECE) pro evaluaci kvality klinických a operačních rozhodnutí.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — Evidence-based formální hodnocení rozhodnutí včetně calibration tracking (Brier score, ECE) pro evaluaci kvality klinických a operačních rozhodnutí.
 - **[NABLA Infinity Framework](@/glossary/nabla-infinity.md)** — Formální reprezentace epistemických trajektorií subjektů; podporuje detekci subtilních epistemických změn, které by jinak unikly standardnímu screeningu.
 - **[Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)** — Filozofický rámec, který informuje cílový stav reintegrace (zachování či rekonstituce epistemické autonomie).
 - **[Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)** — Etický rámec definující obligace výzkumníka vůči subjektovi.
@@ -427,7 +427,7 @@ Návaznost: [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/
 - [NABLA Infinity Framework](@/glossary/nabla-infinity.md) — formální epistemická reprezentace
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — evidence-based hodnocení rozhodnutí
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evidence-based hodnocení rozhodnutí
 
 
 ## ⚡ Kritický krok
@@ -450,7 +450,7 @@ terminálního protokolu (i v rámci sebe-monitoringu) ověř:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md) | {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}

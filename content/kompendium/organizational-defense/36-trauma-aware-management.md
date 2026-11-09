@@ -79,7 +79,7 @@ Trauma-informed training, peer support groups, paced return-to-normal, recogniti
 
 ## 6. Cross-linky
 
-- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
 - [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
 - [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
 - [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
@@ -94,8 +94,8 @@ Trauma-informed training, peer support groups, paced return-to-normal, recogniti
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

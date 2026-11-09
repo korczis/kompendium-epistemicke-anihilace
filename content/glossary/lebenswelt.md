@@ -33,7 +33,7 @@ The lifeworld is the **deepest stratum of cognition**. It is also therefore the 
 
 Within the Prismatic Platform threat model, lifeworld-damage is treated as the **highest severity stratum** in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md). The EA-6.x family — the most severe — operates explicitly at this level: techniques that disrupt the subject's basic sense of *what is real, what is shared, what is taken for granted*. Documentation: [Kompendium → 03-mechanismy → lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) and [/kompendium/06-zotaveni/lifeworld/](@/kompendium/recovery-protocols/lifeworld.md).
 
-Three diagnostic markers of lifeworld-damage drive the platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} severity calibration: (1) **derealization** — the subject reports that *the world itself* has become unreal or thin; (2) **intersubjective collapse** — the subject can no longer assume shared reality with others, including non-adversarial others; (3) **horizon collapse** — the structured background of possibilities flattens into either claustrophobia or vertiginous undifferentiation.
+Three diagnostic markers of lifeworld-damage drive the platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} severity calibration: (1) **derealization** — the subject reports that *the world itself* has become unreal or thin; (2) **intersubjective collapse** — the subject can no longer assume shared reality with others, including non-adversarial others; (3) **horizon collapse** — the structured background of possibilities flattens into either claustrophobia or vertiginous undifferentiation.
 
 These markers are *not* symptoms in the standard psychiatric sense — they are structural-phenomenological diagnostics that *precede* and *underlie* psychiatric symptomatology. The platform's recovery doctrine prioritizes lifeworld-restoration over symptom-management: stabilizing intersubjective ground (trusted others, shared everyday practices, repetitive embodied activities) before any propositional therapy. This sequencing is documented at [/kompendium/06-zotaveni/sekvence/](@/kompendium/recovery-protocols/sekvence.md).
 
@@ -51,7 +51,7 @@ These markers are *not* symptoms in the standard psychiatric sense — they are 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

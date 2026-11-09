@@ -58,7 +58,7 @@ GPA pokrývá čtyři faktory: kompliance, exploatace, vědomí mysli, emoční 
 **Délka**: 38 položek, 5 domén.
 **EA-relevantní domény**: "Mind manipulation" + "Reality denial".
 
-CCB je nejvhodnější pro detekci EA-2.x.x (gaslighting) a EA-3.x.x (autorita-závislost) v partnerských vztazích. Skóre ≥80 (z 190) klinicky signifikantní; ≥120 indikuje **akutní coercive control**, vyžaduje krizovou intervenci a zvážení ochrany oběti (viz [krizová intervence](/kompendium/06-klinicke-aplikace/crisis-intervention-EA/)).
+CCB je nejvhodnější pro detekci EA-2.x.x (gaslighting) a EA-3.x.x (autorita-závislost) v partnerských vztazích. Skóre ≥80 (z 190) klinicky signifikantní; ≥120 indikuje **akutní coercive control**, vyžaduje krizovou intervenci a zvážení ochrany oběti (viz [krizová intervence](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/06-klinicke-aplikace/crisis-intervention-EA/)).
 
 ### MCQ-30 — Metacognitions Questionnaire
 
@@ -109,7 +109,7 @@ Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání
 
 ## Vztah k platformě Prismatic
 
-{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](@/glossary/due-diligence.md). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
+{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} integruje GES + GPA + CCB skóre jako **negativní signály důvěry** v reportech [Due Diligence](@/glossary/due-diligence.md). Klinik může exportovat výsledky do strukturovaného formátu pro **kalibrovaný úsudek** o pravděpodobnosti EA u investigovaného subjektu.
 
 ## Související
 
@@ -146,7 +146,7 @@ Před aplikací:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

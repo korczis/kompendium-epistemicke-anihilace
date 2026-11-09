@@ -46,9 +46,9 @@ V investigativní praxi Prismatic Platform se kritérium uplatňuje třemi způs
 
 - [Falsifikace](@/glossary/falsifikace.md) - The act of refuting a theory by counterexample
 - [Lakatos](@/glossary/lakatos.md) - Methodology of scientific research programmes refining Popper
-- [Hypothesis Generation](@/glossary/hypothesis-generation.md) - Producing testable claims for evaluation
-- [Evidence](@/glossary/evidence.md) - The observational currency of falsification
-- [Bayesian Reasoning](@/glossary/bayesian-reasoning.md) - Complementary probabilistic update framework
+- [Hypothesis Generation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hypothesis-generation/) - Producing testable claims for evaluation
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) - The observational currency of falsification
+- [Bayesian Reasoning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/bayesian-reasoning/) - Complementary probabilistic update framework
 - [Epistemic Trauma](@/glossary/epistemicke-trauma.md) - Pathology arising when falsification is socially blocked
 
 ## References

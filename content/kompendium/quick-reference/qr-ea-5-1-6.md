@@ -67,8 +67,8 @@ Kategorická transgrese se vyskytuje v sektách s gnostickým holismem ("vše je
 - **Sourozenecké techniky**: [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md), [EA-5.1.11 Modální dezorientace](@/kompendium/quick-reference/qr-ea-5-1-11.md), [EA-5.1.12 Kauzální inverze](@/kompendium/quick-reference/qr-ea-5-1-12.md)
 - **Glossary**: [Category mistake](@/glossary/category-mistake.md), [Aristotelovy kategorie](@/glossary/aristotelovy-kategorie.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Kategoriální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [NABLA Infinity typové vrstvy](@/glossary/nabla-infinity.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine kategoriální schémata") }}
+- **Platforma**: [NABLA Infinity typové vrstvy](@/glossary/nabla-infinity.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine kategoriální schémata" /> }}
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

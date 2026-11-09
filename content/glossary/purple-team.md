@@ -42,7 +42,7 @@ The Purple Team is a specialized security operations unit that serves as the cen
 
 In the broader cybersecurity industry, Purple Teaming emerged as a recognition that Red and Blue teams operating in isolation often fail to transfer knowledge effectively. Findings get lost, defenses remain untested against known attacks, and organizations develop blind spots. The Purple Team model solves this by creating a dedicated synthesis function that bridges offensive and defensive perspectives, ensuring that every attack scenario maps to a verified defense and every defense is validated against realistic threats.
 
-The Prismatic Platform elevates the Purple Team concept beyond human-mediated workshops into a permanent, autonomous agent-driven synthesis layer. Within Prismatic, the Purple Team consists of four specialized agents operating at L3-L4 classification levels, continuously monitoring the Red-Blue loop and enforcing rigorous closure conditions that prevent false resolution of security findings. The team operates under the [NO MERCY](@/glossary/no-mercy.md) doctrine, applying zero-tolerance standards to finding closure and regression prevention.
+The Prismatic Platform elevates the Purple Team concept beyond human-mediated workshops into a permanent, autonomous agent-driven synthesis layer. Within Prismatic, the Purple Team consists of four specialized agents operating at L3-L4 classification levels, continuously monitoring the Red-Blue loop and enforcing rigorous closure conditions that prevent false resolution of security findings. The team operates under the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine, applying zero-tolerance standards to finding closure and regression prevention.
 
 ## Historical Context and Industry Evolution
 
@@ -436,7 +436,7 @@ end
 | [Red Team](@/glossary/red-team.md) | Finding ingestion | Receives adversarial scenarios for defense mapping |
 | [Blue Team](@/glossary/blue-team.md) | Defense posture data | Receives defensive capability assessments |
 | [White Team](@/glossary/white-team.md) | Verification proofs | Receives formal proofs for closure conditions |
-| [Quality Gates](@/glossary/quality-gates.md) | Deployment blocking | Blocks deployments with unclosed critical findings |
+| [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) | Deployment blocking | Blocks deployments with unclosed critical findings |
 | AIAD Registry | Agent coordination | Manages Purple agent lifecycle and communication |
 | Telemetry | Event emission | Emits closure events for platform-wide monitoring |
 | [Trinity Gate](@/glossary/trinity-gate.md) | Verification alignment | Closure proofs pass through Trinity Gate validation |
@@ -480,20 +480,20 @@ end
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate complementing Purple closure requirements
 - [Regression Test](@/glossary/regression-test.md) -- Code-level pattern for preventing recurrence
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing Purple Team evidence standards
-- [Audit Trail](@/glossary/audit-trail.md) -- Immutable record of all closure decisions and evidence
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable record of all closure decisions and evidence
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Agents](@/agents/_index.md) -- Full agent catalog including Purple Team agents
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Apps](@/apps/_index.md) -- Application directory
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Purple Team agents
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Application directory
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

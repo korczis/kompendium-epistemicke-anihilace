@@ -67,8 +67,8 @@ Konceptuální fragmentace se vyskytuje v hyperakademických prostředích, jež
 - **Sourozenecké techniky**: [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md), [EA-5.1.20 Holografická redukce](@/kompendium/quick-reference/qr-ea-5-1-20.md), [EA-5.1.30 Konceptuální entropie](@/kompendium/quick-reference/qr-ea-5-1-30.md)
 - **Glossary**: [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Integrative collapse](@/glossary/integrative-collapse.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Konceptuální rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine concept graph") }}, [NABLA Infinity integrace](@/glossary/nabla-infinity.md)
+- **Platforma**: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine concept graph" /> }}, [NABLA Infinity integrace](@/glossary/nabla-infinity.md)
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

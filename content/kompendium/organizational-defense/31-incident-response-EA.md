@@ -80,7 +80,7 @@ Cross-functional IR team, defined severity matrix, mandatory board notification,
 ## 6. Cross-linky
 
 - [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
+- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
 - [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
 - [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
 - [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
@@ -94,8 +94,8 @@ Cross-functional IR team, defined severity matrix, mandatory board notification,
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

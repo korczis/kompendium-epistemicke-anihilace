@@ -18,13 +18,13 @@ quality_score = 75
 
 ## Definition
 
-Polyvagální teorie (Porges) modeluje autonomní nervový systém jako odstupňovaný social-engagement systém s třemi vagálními okruhy: ventral vagal (social), sympathetic (mobilization), dorsal vagal (immobilization/freeze). V Prismatic frameworku slouží jako teoretická základna pro detekci dysregulace v coercive-control situacích a pro design [co-regulation](@/glossary/co-regulation.md) intervencí.
+Polyvagální teorie (Porges) modeluje autonomní nervový systém jako odstupňovaný social-engagement systém s třemi vagálními okruhy: ventral vagal (social), sympathetic (mobilization), dorsal vagal (immobilization/freeze). V Prismatic frameworku slouží jako teoretická základna pro detekci dysregulace v coercive-control situacích a pro design [co-regulation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/co-regulation/) intervencí.
 
 ## See Also
 
 - [Glossary index](@/glossary/_index.md)
 - [Interocepce](@/glossary/interocepce.md)
-- [Co Regulation](@/glossary/co-regulation.md)
+- [Co Regulation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/co-regulation/)
 - [Secure Attachment](@/glossary/secure-attachment.md)
 
 ---
@@ -63,12 +63,12 @@ graph TD
 
 ## Související pojmy
 
-- [Actor Model](@/glossary/actor-model.md) — slug `actor-model`
-- [ACID Transactions](@/glossary/acid-transactions.md) — slug `acid-transactions`
-- [Accuracy](@/glossary/accuracy.md) — slug `accuracy`
-- [Adversarial Drift](@/glossary/adversarial-drift.md) — slug `adversarial-drift`
-- [Adversarial Conditions](@/glossary/adversarial-conditions.md) — slug `adversarial-conditions`
-- [Adaptive Learning](@/glossary/adaptive-learning.md) — slug `adaptive-learning`
+- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
+- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+- [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/) — slug `accuracy`
+- [Adversarial Drift](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-drift/) — slug `adversarial-drift`
+- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
+- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
 
 ## Navigace
 
@@ -77,8 +77,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

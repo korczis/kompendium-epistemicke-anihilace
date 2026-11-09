@@ -203,7 +203,7 @@ Aktivista po 3 letech v intenzivním rámci reportoval, že nedokáže rozlišit
 
 Kategorická transgrese je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} ontological audit** — rozhodovací logika vyžaduje, aby vstupní data byla explicitně klasifikována (fakt / hypotéza / hodnocení / narativ). Klasifikační konfuze je flagována jako epistemická červená vlajka.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} ontological audit** — rozhodovací logika vyžaduje, aby vstupní data byla explicitně klasifikována (fakt / hypotéza / hodnocení / narativ). Klasifikační konfuze je flagována jako epistemická červená vlajka.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance + ontological tagging** — provenance tracking sleduje, **odkud** zkušenost / informace pochází (vlastní vjem, převzatý narativ, model output, historický záznam) a explicitně tag pro detekci memory blending.
 - **[Color Teams](@/glossary/color-teams.md) ontologická forenzika** — Red Team explicitně testuje, zda argumentace odolá auditu kategoriální stability vstupů.
 - **OSINT framework's source ontology** — všechny zdroje jsou explicitně klasifikovány (primary / secondary / interpretive / narrative); platforma ne směšuje narativní a faktická tvrzení.
@@ -233,7 +233,7 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -258,6 +258,6 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

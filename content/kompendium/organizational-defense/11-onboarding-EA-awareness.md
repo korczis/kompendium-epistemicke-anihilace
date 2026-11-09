@@ -80,7 +80,7 @@ Buddy systém prvních 6 měsíců, anonymní 30/60/90 day check-ins, exit-poll 
 ## 6. Cross-linky
 
 - [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
 - [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
 - [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
@@ -94,8 +94,8 @@ Buddy systém prvních 6 měsíců, anonymní 30/60/90 day check-ins, exit-poll 
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

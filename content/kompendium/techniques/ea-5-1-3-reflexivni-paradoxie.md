@@ -211,7 +211,7 @@ Intervence: Změna supervize na pragmatičtěji orientovaného mentora, povinné
 
 Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} hierarchical typing** — rozhodovací logika operuje na **explicitně typovaných úrovních**, které brání rekurzivním zhroucením; meta-validace je oddělená od operativních rozhodnutí.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} hierarchical typing** — rozhodovací logika operuje na **explicitně typovaných úrovních**, které brání rekurzivním zhroucením; meta-validace je oddělená od operativních rozhodnutí.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) anti-recursion safeguards** — epistemický pipeline detekuje pokusy o nekonečnou regresi v reflexivních operacích a uzavírá je explicitním pragmatickým rozhodnutím.
 - **[Color Teams](@/glossary/color-teams.md) blue-team metakognitive review** — pravidelná revize, zda interní procesy Prismatic neprodukují metakognitivní paralýzu u operátorů, zejména v doktrinálních a tréninkových kontextech.
 
@@ -239,7 +239,7 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
   - [Kapitola 4 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
   - [Kapitola 6 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -264,6 +264,6 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

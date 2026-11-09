@@ -85,7 +85,7 @@ Vedle hlavních sekcí je kompendium doprovázeno **[per-technique podknihovnou]
 
 ### Distribuce obsahu
 
-{{ chart_inline(slug="kompendium-distribution", title="Distribuce publikovaných článků napříč kompendiem", caption="Rozdělení 1 000+ publikovaných článků: 8 hlavních kapitol (modrá/fialová/růžová) + 8 doplňkových kolekcí (žlutá/azurová/zelená). Najed myší pro přesné počty.", alt="Vodorovný sloupcový graf článků v kompendiu") }}
+{{ <chart_inline slug="kompendium-distribution" title="Distribuce publikovaných článků napříč kompendiem" caption="Rozdělení 1 000+ publikovaných článků: 8 hlavních kapitol (modrá/fialová/růžová) + 8 doplňkových kolekcí (žlutá/azurová/zelená). Najed myší pro přesné počty." alt="Vodorovný sloupcový graf článků v kompendiu" /> }}
 
 ## Klíčové koncepty
 
@@ -156,7 +156,7 @@ Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic pl
 
 - **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
 - **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány Red Team agenty pro epistemic adversarial simulation.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
 - **[Glossary](@/glossary/_index.md)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
 
 ## Inkrementální publikace
@@ -221,7 +221,7 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

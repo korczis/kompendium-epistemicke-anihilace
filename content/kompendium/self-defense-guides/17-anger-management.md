@@ -67,5 +67,5 @@ Potlačený vztek je škodlivější než vyjádřený. Cíl není vztek elimino
 - [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
 - [Kompendium epistemické anihilace](@/kompendium/_index.md)
 - [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: prismatic-platform](https://github.com/korczis/prismatic-platform)
-- [Kontakt](mailto:[e-mail odstraněn])
+- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
+- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

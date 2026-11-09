@@ -194,7 +194,7 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně udržuje **dvě úrovně tvrzení**: fenomenologickou (*systém zaznamenal X*) a propoziční (*X je skutečnost*) s odlišnou kalibrační logikou.
 - **OSINT framework** strukturálně rozlišuje **observation** od **inference** — distinkce strojově vynucovaná.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
 
 ## Související
 
@@ -230,6 +230,6 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

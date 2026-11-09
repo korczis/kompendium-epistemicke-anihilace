@@ -20,7 +20,7 @@ image_alt = "Risk Score - Prismatic Platform"
 
 ## Definition
 
-A Risk Score is a numeric value quantifying the security risk associated with a specific asset, finding, or vulnerability. Unlike an aggregate Security Rating (which scores an entire organization on a letter grade from A to F), risk scores apply to individual items: a specific open port, a misconfigured service, an expired certificate, a DNS zone transfer vulnerability. Each score includes a confidence level indicating how certain the assessment is, and an evidence chain linking the score to specific observable data through [provenance mandatory](@/glossary/provenance-mandatory.md) compliance.
+A Risk Score is a numeric value quantifying the security risk associated with a specific asset, finding, or vulnerability. Unlike an aggregate Security Rating (which scores an entire organization on a letter grade from A to F), risk scores apply to individual items: a specific open port, a misconfigured service, an expired certificate, a DNS zone transfer vulnerability. Each score includes a confidence level indicating how certain the assessment is, and an evidence chain linking the score to specific observable data through [provenance mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) compliance.
 
 Risk scores serve as the atomic building blocks of the Prismatic Perimeter's security assessment system. They are computed from observable evidence using methodology aligned with CVSS (Common Vulnerability Scoring System) principles, adapted for external-only observation. The scores are then aggregated, weighted by asset criticality and finding severity, to produce the overall A-F Security Rating that organizations, compliance officers, and due diligence analysts consume.
 
@@ -151,9 +151,9 @@ Every risk score in the Prismatic Platform satisfies [NABLA Infinity](@/glossary
 | NABLA Axiom | Application to Risk Scoring | Enforcement |
 |-------------|---------------------------|-------------|
 | **[Signal Plurality](@/glossary/signal-plurality.md)** | Minimum 2 independent sources must confirm a finding before it affects the score | HARD -- single-source findings quarantined |
-| **[Contradiction Preservation](@/glossary/contradiction-preservation.md)** | If one scanner finds a vulnerability and another does not, both results are preserved | HARD -- contradiction reduces confidence |
-| **[Time Decay](@/glossary/time-decay.md)** | Scan results older than 30 days receive progressively reduced weight | HARD -- stale findings decay toward neutral |
-| **[Provenance Mandatory](@/glossary/provenance-mandatory.md)** | Every score traces back to specific scan data through documented evidence chain | HARD -- unprovenanced scores rejected |
+| **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)** | If one scanner finds a vulnerability and another does not, both results are preserved | HARD -- contradiction reduces confidence |
+| **[Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/)** | Scan results older than 30 days receive progressively reduced weight | HARD -- stale findings decay toward neutral |
+| **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)** | Every score traces back to specific scan data through documented evidence chain | HARD -- unprovenanced scores rejected |
 | **Source Independence** | Scores from [Shodan](@/glossary/shodan.md), [Censys](@/glossary/censys.md), and [GreyNoise](@/glossary/greynoise.md) are weighted by source independence | SOFT -- correlated sources discounted |
 
 The confidence calculation incorporates all axiom compliance factors:
@@ -170,7 +170,7 @@ This approach means that a risk score's confidence naturally degrades over time,
 
 ## Monte Carlo Validation
 
-For critical risk assessments (organizations being evaluated for acquisition, regulatory compliance, or strategic partnership), the platform applies [Monte Carlo verification](@/glossary/monte-carlo-verification.md) to validate risk score distributions. Rather than producing a single point estimate, Monte Carlo simulation produces a probability distribution of likely risk scores.
+For critical risk assessments (organizations being evaluated for acquisition, regulatory compliance, or strategic partnership), the platform applies [Monte Carlo verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) to validate risk score distributions. Rather than producing a single point estimate, Monte Carlo simulation produces a probability distribution of likely risk scores.
 
 The simulation process:
 
@@ -294,7 +294,7 @@ This classification directly informs deal structuring: critical findings may blo
 
 ## Relationship to Confidence Scoring
 
-[Confidence scoring](@/glossary/confidence-scoring.md) and risk scoring are related but distinct concepts in the Prismatic Platform:
+[Confidence scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) and risk scoring are related but distinct concepts in the Prismatic Platform:
 
 | Dimension | Risk Score | Confidence Score |
 |-----------|-----------|-----------------|
@@ -308,7 +308,7 @@ Every risk score carries a confidence score. The risk score says "this port is d
 
 ## Relationship to Epistemic Robustness
 
-[Epistemic robustness](@/glossary/epistemic-robustness.md) measures how well a risk score withstands adversarial challenge. A risk score is epistemically robust if it would survive [Red Team](@/glossary/red-team.md) epistemic attacks: truth distortion, confidence manipulation, signal poisoning, drift induction, and salience hijacking.
+[Epistemic robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) measures how well a risk score withstands adversarial challenge. A risk score is epistemically robust if it would survive [Red Team](@/glossary/red-team.md) epistemic attacks: truth distortion, confidence manipulation, signal poisoning, drift induction, and salience hijacking.
 
 ### Robustness Validation Framework
 
@@ -391,30 +391,30 @@ Risk scores that fail epistemic robustness checks are flagged with reduced confi
 ## Related Terms
 
 - [EASM](@/glossary/easm.md) -- External Attack Surface Management producing items to score
-- [Attack Surface](@/glossary/attack-surface.md) -- The total collection of assets being scored
-- [Confidence Scoring](@/glossary/confidence-scoring.md) -- Meta-assessment of risk score reliability
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- The total collection of assets being scored
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Meta-assessment of risk score reliability
 - [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom requiring multiple evidence sources
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- NABLA axiom requiring traceable evidence chains
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- NABLA axiom requiring traceable evidence chains
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing risk score evidence quality
-- [Monte Carlo Verification](@/glossary/monte-carlo-verification.md) -- Statistical validation of score distributions
-- [Epistemic Robustness](@/glossary/epistemic-robustness.md) -- Measure of score resilience to epistemic attack
+- [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) -- Statistical validation of score distributions
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of score resilience to epistemic attack
 - [Blue Team](@/glossary/blue-team.md) -- Defensive team validating risk score integrity
 - [Shodan](@/glossary/shodan.md) -- External scanner providing network exposure evidence
 - [Censys](@/glossary/censys.md) -- External scanner providing certificate and service evidence
 - [GreyNoise](@/glossary/greynoise.md) -- External scanner providing internet noise context
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) -- NABLA axiom handling conflicting scan results
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- NABLA axiom handling conflicting scan results
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform security architecture
-- [Technologies](@/technologies/_index.md) -- Scanning and assessment technology details
-- [Capabilities](@/capabilities/_index.md) -- Platform risk assessment capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Scanning and assessment technology details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform risk assessment capabilities
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

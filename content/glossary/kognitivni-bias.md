@@ -41,7 +41,7 @@ The kompendium's diagnostic principle is that **any single bias is correctable**
 
 Within the Prismatic Platform, cognitive bias is operationalized as **decision quality input**, not just a content-level signal:
 
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} explicitly tracks bias-relevant decision conditions (time pressure, source diversity, prior commitment, emotional load) and incorporates them into calibration. A confidently held belief formed under high-bias conditions is automatically discounted in the confidence pipeline.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks bias-relevant decision conditions (time pressure, source diversity, prior commitment, emotional load) and incorporates them into calibration. A confidently held belief formed under high-bias conditions is automatically discounted in the confidence pipeline.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **per-source diversity metrics** that detect echo-chamber formation early — before a subject's confirmation bias has converted a narrow input distribution into a stable belief.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team simulations include scripted bias-exploitation scenarios drawn from the kompendium taxonomy, validating that platform-level checks (review queues, dissent surfacing, calibration alarms) intercept the patterns.
 - The [3NL architecture](@/glossary/3nl.md) (Logic + Neural + Linguistic) is designed precisely so that bias active at one layer (e.g., Linguistic-layer framing) is checked by the others (Logic-layer formal validity, Neural-layer pattern divergence).
@@ -62,7 +62,7 @@ Bias is **not pathology**: heuristics are typically efficient and only fail unde
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -73,7 +73,7 @@ Před administrací protokolu musí být splněno:
 - Jak rozeznáváte spolehlivý zdroj od nespolehlivého?
 - Stalo se vám, že jste si později uvědomil/a, že vaše paměť události byla jiná, než jak se skutečně stala?
 
-**Klinické vodítko**: neschopnost popsat proces poznávání + nemožnost generovat falsifikační kritéria = klastr A markery (viz [6.1](/kompendium/06-klinicke-aplikace/diagnosticke-indikatory/#klastr-a-metakognitivni-destrukce)).
+**Klinické vodítko**: neschopnost popsat proces poznávání + nemožnost generovat falsifikační kritéria = klastr A markery (viz [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md#klastr-a-metakognitivni-destrukce)).
 
 ## Modul 4: Změny self-narrativa (20–25 min)
 
@@ -135,7 +135,7 @@ Po dokončení rozhovoru klinik:
 
 ## Vztah k platformě Prismatic
 
-Strukturované poznámky z SSI-EA lze importovat do {{ cross_link(path="/hub/dd/decisions/runtime/", text="DD Decision Engine") }} jako **kvalitativní evidenci** pro hodnocení důvěry v reportu pacienta jako svědka. To je užitečné v post-kultové či forensní psychologii, kde se klinik účastní jako expert.
+Strukturované poznámky z SSI-EA lze importovat do {{ <cross_link path="/hub/dd/decisions/runtime/" text="DD Decision Engine" /> }} jako **kvalitativní evidenci** pro hodnocení důvěry v reportu pacienta jako svědka. To je užitečné v post-kultové či forensní psychologii, kde se klinik účastní jako expert.
 
 ## Související
 
@@ -150,7 +150,7 @@ Strukturované poznámky z SSI-EA lze importovat do {{ cross_link(path="/hub/dd/
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -55,14 +55,14 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Cross-linky
 
-- [EA jako mocenský nástroj](/kompendium/critical-perspectives/18-EA-as-power-tool/)
+- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)
 - [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
-- [Publikační etika v EA literatuře](/kompendium/critical-perspectives/20-publication-ethics-EA/)
+- [Publikační etika v EA literatuře](@/kompendium/critical-perspectives/20-publication-ethics-EA.md)
 - [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
 - [Otázka validity souhlasu v EA výzkumu](@/kompendium/critical-perspectives/15-consent-validity-question.md)
 - [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
 - [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
-- [Reprodukční krize a EA výzkum](/kompendium/critical-perspectives/7-replication-EA-research/)
+- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md)
 - [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
 - [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
 - [Hub kompendia](@/kompendium/_index.md)
@@ -72,7 +72,7 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

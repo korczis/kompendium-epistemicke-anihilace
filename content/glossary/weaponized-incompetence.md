@@ -35,7 +35,7 @@ Within the Prismatic Platform's threat model, weaponized incompetence is catalog
 
 The structural damage is doubled. First, the target absorbs the labor that was supposed to be shared. Second — and more severely from an epistemic-security standpoint — the target's calibration of competence-attributions is corrupted: confronted with persistent failure-where-success-was-expected, the target either downgrades their model of the actor (causing relational rupture) or downgrades their own assessment-capacity (the EA-relevant outcome).
 
-The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the {{ cross_link(path="/hub/dd/decisions/calibration", text="confidence lens") }} flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](@/glossary/sealioning.md) (just-asking-for-clarification on every task) and [Motte and Bailey](@/glossary/motte-and-bailey.md) (retreating to "I just don't understand" as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](@/kompendium/recovery-protocols/incompetence.md).
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the {{ <cross_link path="/hub/dd/decisions/calibration" text="confidence lens" /> }} flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](@/glossary/sealioning.md) (just-asking-for-clarification on every task) and [Motte and Bailey](@/glossary/motte-and-bailey.md) (retreating to "I just don't understand" as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](@/kompendium/recovery-protocols/incompetence.md).
 
 ## See Also
 
@@ -51,7 +51,7 @@ The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

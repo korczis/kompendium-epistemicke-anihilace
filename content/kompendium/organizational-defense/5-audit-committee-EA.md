@@ -84,7 +84,7 @@ Mix finančních + behaviorálních auditorů, externí psycholog v týmu, čtvr
 - [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
 - [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Onboarding s EA awareness](/kompendium/organizational-defense/11-onboarding-EA-awareness/)
+- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
 - [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
 - [Detection Signatures](@/kompendium/detection-signatures/_index.md)
@@ -94,8 +94,8 @@ Mix finančních + behaviorálních auditorů, externí psycholog v týmu, čtvr
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

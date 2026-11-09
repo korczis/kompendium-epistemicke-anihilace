@@ -195,7 +195,7 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} conceptual stability check** — kalibrační logika monitoruje **stabilitu pojmových distinkcí** v rozhodovacích sekvencích; rozmazávání klíčových termínů je flagováno.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} conceptual stability check** — kalibrační logika monitoruje **stabilitu pojmových distinkcí** v rozhodovacích sekvencích; rozmazávání klíčových termínů je flagováno.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) taxonomic integrity** — každý epistemický inferenční řetězec má dohledatelný taxonomický rámec; randomizace vztahů je strukturálně blokována.
 - **[Color Teams](@/glossary/color-teams.md) conceptual rigor protocol** — institucionální mechanismy pro periodické vyžadování pojmové preciznosti.
 
@@ -221,7 +221,7 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -246,6 +246,6 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního "
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

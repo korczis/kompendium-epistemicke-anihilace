@@ -41,7 +41,7 @@ In M&A due diligence, structured interviews of target-company management, key cu
 ## Related Concepts
 
 - [Chain of Custody](@/glossary/chain-of-custody.md) - Required for handling materials produced during interview
-- [Evidence](@/glossary/evidence.md) - Output of the interview process
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) - Output of the interview process
 - [Expert Witness](@/glossary/expert-witness.md) - Authority who may evaluate interview quality at trial
 - [Trauma Bonding](@/glossary/trauma-bonding.md) - Phenomenon affecting victim disclosure
 - [Pattern Evidence](@/glossary/pattern-evidence.md) - Type of evidence interviews may elicit

@@ -598,21 +598,21 @@ IO.puts("Completed: #{result.phases_completed}/#{result.phases_total}")
 - [AIAD](@/glossary/aiad.md) -- Agent definition standard governing Supreme Commander
 - [Agent Registry](@/glossary/agent-registry.md) -- Catalog of all agents managed by Supreme Commander
 - [Tactical Execution](@/glossary/tactical-execution.md) -- L2 specialists coordinated through the hierarchy
-- [GenServer](@/glossary/genserver.md) -- OTP behavior implementing Supreme Commander's process
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- OTP behavior implementing Supreme Commander's process
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing decision confidence
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate for high-stakes decisions
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Agents](@/agents/_index.md) -- Full agent catalog
-- [Commands](@/commands/_index.md) -- Command catalog including `/orchestrate`
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command catalog including `/orchestrate`
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

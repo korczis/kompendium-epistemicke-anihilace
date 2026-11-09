@@ -258,34 +258,34 @@ end
 
 ## Related Concepts
 
-- [Security Rating](@/glossary/security-rating.md) - A-F grading system produced by EASM analysis
-- [NIS2](@/glossary/nis2.md) - EU compliance framework assessed by the platform
-- [ZKB](@/glossary/zkb.md) - Czech compliance framework assessed alongside NIS2
-- [DNS Enumeration](@/glossary/dns-enumeration.md) - Core discovery technique within EASM
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) - A-F grading system produced by EASM analysis
+- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) - EU compliance framework assessed by the platform
+- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) - Czech compliance framework assessed alongside NIS2
+- [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/) - Core discovery technique within EASM
 - [OSINT](@/glossary/osint.md) - Intelligence methodology powering asset discovery
-- [Attack Surface](@/glossary/attack-surface.md) - The total exposure area that EASM manages
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) - The total exposure area that EASM manages
 - [HAWKEYE](@/glossary/hawkeye.md) - Visitor intelligence system complementing external EASM
-- [Threat Intelligence](@/glossary/threat-intelligence.md) - Structured threat data enriching EASM findings
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) - Structured threat data enriching EASM findings
 - [Shodan](@/glossary/shodan.md) - Internet scanner providing port and service intelligence
 - [Censys](@/glossary/censys.md) - Certificate and host scanner enriching discovery results
-- [GDPR](@/glossary/gdpr.md) - Data protection regulation assessed through EASM compliance
-- [Breach Database](@/glossary/breach-database.md)
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) - Data protection regulation assessed through EASM compliance
+- [Breach Database](https://prismatic-reality-com.github.io/prismatic-promo/glossary/breach-database/)
 
 ## See Also
 
-- [prismatic_perimeter](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter/README.md) -- Primary EASM application with discovery, rating, and compliance
-- [prismatic_perimeter_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter_core/README.md) -- Core EASM logic and domain models
-- [prismatic_perimeter_web](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_perimeter_web/README.md) -- LiveView dashboards for EASM visualization
-- [prismatic_osint_core](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_osint_core/README.md) -- OSINT engine powering asset discovery
-- [prismatic_osint_network](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_osint_network/README.md) -- Network reconnaissance for attack surface mapping
-- [prismatic_compliance](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_compliance/README.md) -- Compliance assessment engine for NIS2 and ZKB
-- [prismatic_web](https://github.com/korczis/prismatic-platform/blob/main/apps/prismatic_web/README.md) -- Main web interface hosting Perimeter dashboards
+- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) -- Primary EASM application with discovery, rating, and compliance
+- [prismatic_perimeter_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_core/README.md) -- Core EASM logic and domain models
+- [prismatic_perimeter_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_web/README.md) -- LiveView dashboards for EASM visualization
+- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) -- OSINT engine powering asset discovery
+- [prismatic_osint_network](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_network/README.md) -- Network reconnaissance for attack surface mapping
+- [prismatic_compliance](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_compliance/README.md) -- Compliance assessment engine for NIS2 and ZKB
+- [prismatic_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_web/README.md) -- Main web interface hosting Perimeter dashboards
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

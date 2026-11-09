@@ -33,7 +33,7 @@ The technique is closely related to *JAQing off* ("Just Asking Questions") — a
 
 Within the Prismatic Platform's threat model, sealioning is catalogued as a **delivery mechanism** that operationally couples with two specific [Kompendium](@/kompendium/_index.md) techniques: **EA-1.1.2** (information starvation — sealioning consumes the target's epistemic resources, leaving none for legitimate inquiry) and **EA-1.3.3** (thematic diversion — sealioning shifts attention from substantive claims to defending the meta-question of one's right to refuse to answer). Documentation: [Kompendium → 04-techniky → sealioning](@/kompendium/05-ultramari-techniky/sealioning.md).
 
-The platform's {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} detects sealioning patterns via **process metrics** computed over conversational logs: ratio of new questions to integrated answers, consistency of the asker's stated framework over time, and the presence/absence of evidence-acknowledgment across multi-turn engagements. These metrics feed a `BAD_FAITH_INQUIRY` confidence flag that downgrades the weight assigned to the asker's claims in downstream processing.
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} detects sealioning patterns via **process metrics** computed over conversational logs: ratio of new questions to integrated answers, consistency of the asker's stated framework over time, and the presence/absence of evidence-acknowledgment across multi-turn engagements. These metrics feed a `BAD_FAITH_INQUIRY` confidence flag that downgrades the weight assigned to the asker's claims in downstream processing.
 
 The technique pairs operationally with [Motte and Bailey](@/glossary/motte-and-bailey.md) (sealioning the motte to exhaust challenges to the bailey) and with weaponized [Epistemická pokora](@/glossary/epistemicka-pokora.md) ("I'm just trying to understand…"). Recovery doctrine documented at [/kompendium/06-zotaveni/sealioning/](@/kompendium/recovery-protocols/sealioning.md) emphasizes the legitimacy of disengagement: a target is not epistemically obligated to entertain bad-faith inquiry indefinitely.
 
@@ -51,7 +51,7 @@ The technique pairs operationally with [Motte and Bailey](@/glossary/motte-and-b
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -40,7 +40,7 @@ Shodan is a search engine for internet-connected devices that continuously scans
 
 Shodan's scanning methodology involves sending crafted packets to every IP address on specific ports, collecting the responses (banners), and indexing the results in a searchable database. A banner is the initial response a service sends when a connection is established -- it typically reveals the software name, version, configuration details, and sometimes even the operating system. This passive reconnaissance data is invaluable for security professionals conducting asset discovery, vulnerability assessment, and exposure monitoring without actively probing target infrastructure.
 
-The platform has become an indispensable tool in the External Attack Surface Management ([EASM](@/glossary/easm.md)) discipline, where organizations need to understand their externally visible footprint from an attacker's perspective. By querying Shodan for assets associated with a target organization, security teams can discover shadow IT, forgotten servers, misconfigured services, and exposed databases that the organization may not know exist. In the Prismatic Platform, Shodan serves as the primary data source for the [Prismatic Perimeter](@/glossary/easm.md) module's asset discovery pipeline, feeding findings into the [security rating](@/glossary/security-rating.md) engine that produces A-F grades for organizational security posture.
+The platform has become an indispensable tool in the External Attack Surface Management ([EASM](@/glossary/easm.md)) discipline, where organizations need to understand their externally visible footprint from an attacker's perspective. By querying Shodan for assets associated with a target organization, security teams can discover shadow IT, forgotten servers, misconfigured services, and exposed databases that the organization may not know exist. In the Prismatic Platform, Shodan serves as the primary data source for the [Prismatic Perimeter](@/glossary/easm.md) module's asset discovery pipeline, feeding findings into the [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) engine that produces A-F grades for organizational security posture.
 
 ## Historical Context and Evolution
 
@@ -238,7 +238,7 @@ The Prismatic Platform integrates Shodan as a primary data source in the Perimet
 2. **Enrichment**: Extract software versions, TLS configurations, and vulnerability tags from banner data
 3. **Correlation**: Cross-reference Shodan findings with [Censys](@/glossary/censys.md) and [GreyNoise](@/glossary/greynoise.md) data
 4. **Scoring**: Feed validated findings into the [risk scoring](@/glossary/risk-score.md) engine
-5. **Rating**: Aggregate scored findings into the organization's [security rating](@/glossary/security-rating.md)
+5. **Rating**: Aggregate scored findings into the organization's [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/)
 
 Shodan findings feed into the platform's epistemic pipeline, where the [Signal Plurality](@/glossary/signal-plurality.md) axiom requires corroboration from at least one additional independent source before a finding can affect security ratings. A service detected by Shodan alone is flagged as "unconfirmed" until Censys or another source provides corroborating evidence.
 
@@ -295,7 +295,7 @@ end
 
 ### Rate Limiting and Circuit Breaker
 
-The Prismatic Platform implements sophisticated rate limiting for Shodan API calls, combining token bucket rate limiting with [circuit breaker](@/glossary/circuit-breaker.md) patterns to handle API failures gracefully.
+The Prismatic Platform implements sophisticated rate limiting for Shodan API calls, combining token bucket rate limiting with [circuit breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) patterns to handle API failures gracefully.
 
 ```elixir
 defmodule PrismaticPerimeter.Sources.Shodan.RateLimiter do
@@ -348,11 +348,11 @@ The Prismatic Platform's rate limiter configuration automatically adjusts to the
 | Consideration | Description | Prismatic Approach |
 |--------------|-------------|-------------------|
 | **Authorization** | Scanning others' infrastructure may have legal implications | Query only for authorized targets |
-| **Data sensitivity** | Shodan results may reveal sensitive infrastructure details | [Encryption at rest](@/glossary/encryption-at-rest.md) for all stored results |
+| **Data sensitivity** | Shodan results may reveal sensitive infrastructure details | [Encryption at rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) for all stored results |
 | **Responsible disclosure** | Discovered vulnerabilities should be reported | Integrated finding notification workflow |
 | **Terms of service** | Shodan ToS restricts certain automated usage patterns | Rate limiting and ToS-compliant queries |
-| **Data retention** | Historical data may contain outdated findings | Timestamp-based [time decay](@/glossary/time-decay.md) scoring |
-| **GDPR compliance** | IP addresses may constitute personal data under GDPR | [GDPR](@/glossary/gdpr.md)-compliant data handling and retention |
+| **Data retention** | Historical data may contain outdated findings | Timestamp-based [time decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) scoring |
+| **GDPR compliance** | IP addresses may constitute personal data under GDPR | [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/)-compliant data handling and retention |
 
 The Prismatic Platform enforces strict authorization checks before any Shodan queries are executed. The platform's color team security architecture, particularly the [Blue Team](@/glossary/blue-team.md) defensive posture agents, continuously monitors that OSINT collection operates within authorized boundaries. Any query targeting infrastructure outside the authorized scope triggers an immediate alert and blocks execution.
 
@@ -400,26 +400,26 @@ Shodan Monitor provides continuous surveillance of specified network ranges. The
 - [EASM](@/glossary/easm.md) -- Attack surface management consuming Shodan data as primary source
 - [Censys](@/glossary/censys.md) -- Complementary internet scan data source for corroboration
 - [GreyNoise](@/glossary/greynoise.md) -- Internet noise analysis complementing Shodan findings
-- [Attack Surface](@/glossary/attack-surface.md) -- The externally visible infrastructure Shodan discovers
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- The externally visible infrastructure Shodan discovers
 - [Signal Plurality](@/glossary/signal-plurality.md) -- Axiom requiring Shodan data corroboration
 - [Risk Score](@/glossary/risk-score.md) -- A-F grades informed by Shodan findings
-- [Security Rating](@/glossary/security-rating.md) -- Organization-level rating fed by Shodan evidence
-- [Rate Limiting](@/glossary/rate-limiting.md) -- API quota management for Shodan integration
-- [TLS](@/glossary/tls.md) -- Certificate and cipher analysis from Shodan banner data
-- [Encryption at Rest](@/glossary/encryption-at-rest.md) -- Protection of stored Shodan reconnaissance data
-- [Circuit Breaker](@/glossary/circuit-breaker.md) -- Resilience pattern for Shodan API calls
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Organization-level rating fed by Shodan evidence
+- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) -- API quota management for Shodan integration
+- [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/) -- Certificate and cipher analysis from Shodan banner data
+- [Encryption at Rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) -- Protection of stored Shodan reconnaissance data
+- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) -- Resilience pattern for Shodan API calls
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- EASM data source architecture
-- [Apps](@/apps/_index.md) -- Prismatic Perimeter application
-- [OSINT](@/osint/_index.md) -- Open-source intelligence collection methodology
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- EASM data source architecture
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Prismatic Perimeter application
+- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) -- Open-source intelligence collection methodology
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

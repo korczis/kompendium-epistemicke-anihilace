@@ -83,7 +83,7 @@ Verzovaný repozitář, mandatory peer review, sunset clauses na každé politic
 - [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
 - [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
 - [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Reakce na incident s EA fokusem](/kompendium/organizational-defense/31-incident-response-EA/)
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
 - [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
 - [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
@@ -94,8 +94,8 @@ Verzovaný repozitář, mandatory peer review, sunset clauses na každé politic
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

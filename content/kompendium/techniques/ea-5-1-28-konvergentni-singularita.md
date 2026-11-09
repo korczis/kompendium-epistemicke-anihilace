@@ -179,7 +179,7 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} topology check** — kalibrační logika detekuje rozhodovací řady s **monotónní strukturou** (všechna rozhodnutí konvergující ke stejnému doporučení) jako červenou vlajku.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} topology check** — kalibrační logika detekuje rozhodovací řady s **monotónní strukturou** (všechna rozhodnutí konvergující ke stejnému doporučení) jako červenou vlajku.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) divergence guarantee** — epistemický pipeline má strukturálně vynucené **multiple competing hypotheses**; konvergence k jedné hypotéze bez ortogonální evidence je flagována.
 - **[Color Teams](@/glossary/color-teams.md) red-team adversariality** — institucionální devil's advocacy proti monotonizaci.
 
@@ -205,7 +205,7 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
@@ -230,6 +230,6 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

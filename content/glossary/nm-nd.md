@@ -41,7 +41,7 @@ The NM/ND Doctrine (NO MERCY, NO DOUBTS) is the universal governing framework th
 
 The doctrine represents a philosophical synthesis of two complementary principles: **NO MERCY** demands that all work be production-ready from the moment of creation, with zero tolerance for incomplete implementations, untested code, or deferred quality fixes. **NO DOUBTS** requires thorough investigation before action, evidence-backed decisions, and decisive commitment once understanding is achieved. Together, they eliminate the two most common failure modes in software development: shipping substandard work and making uninformed decisions.
 
-NM/ND is not merely a quality standard or coding guideline. It is a comprehensive governance framework that permeates every layer of the platform -- from the 530+ AIAD agent definitions (each carrying mandatory `enforcement: doctrine: "no-mercy-no-doubts"`) to the [pre-commit hooks](@/glossary/pre-commit-hooks.md) that block non-compliant code, from the session discipline protocol that governs development workflows to the violation protocol that escalates breaches through four severity levels.
+NM/ND is not merely a quality standard or coding guideline. It is a comprehensive governance framework that permeates every layer of the platform -- from the 530+ AIAD agent definitions (each carrying mandatory `enforcement: doctrine: "no-mercy-no-doubts"`) to the [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) that block non-compliant code, from the session discipline protocol that governs development workflows to the violation protocol that escalates breaches through four severity levels.
 
 The doctrine's effectiveness stems from its non-negotiable nature. There are no exceptions, no bypass mechanisms, and no "temporary" waivers. This absolute enforcement creates a predictable quality baseline that makes the impossible -- maintaining doctrine-enforced quality across 13 domains in a 2.8M LOC codebase -- not just possible but routine.
 
@@ -266,7 +266,7 @@ end
 
 ## Usage in Prismatic Platform
 
-The NM/ND Doctrine is the foundational governance framework of the Prismatic Platform, embedded in every layer of the system. Its influence extends across all 530+ AIAD agents, all CI pipelines, all [pre-commit hooks](@/glossary/pre-commit-hooks.md), and all development session protocols.
+The NM/ND Doctrine is the foundational governance framework of the Prismatic Platform, embedded in every layer of the system. Its influence extends across all 530+ AIAD agents, all CI pipelines, all [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/), and all development session protocols.
 
 ### Agent Integration
 
@@ -453,7 +453,7 @@ end
 
 ### Quality Gates Integration
 
-The [Quality Gates](@/glossary/quality-gates.md) pipeline is the primary enforcement mechanism for NM/ND. Each gate stage enforces specific doctrine requirements:
+The [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) pipeline is the primary enforcement mechanism for NM/ND. Each gate stage enforces specific doctrine requirements:
 
 | Gate Stage | NM/ND Requirement | Violation Level on Failure |
 |------------|-------------------|---------------------------|
@@ -480,30 +480,30 @@ The SessionLifecycle GenServer enforces NM/ND at session boundaries:
 
 ## Related Concepts
 
-- [NO MERCY](@/glossary/no-mercy.md) - Zero tolerance enforcement arm of the doctrine
-- [NO DOUBTS](@/glossary/no-doubts.md) - Evidence-based execution arm of the doctrine
+- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Zero tolerance enforcement arm of the doctrine
+- [NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) - Evidence-based execution arm of the doctrine
 - [Violation Protocol](@/glossary/violation-protocol.md) - L1-L4 escalation levels for doctrine breaches
 - [AIAD](@/glossary/aiad.md) - Agent standard carrying mandatory NM/ND enforcement blocks
-- [Quality Gates](@/glossary/quality-gates.md) - Automated enforcement pipeline implementing NM/ND
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Automated enforcement pipeline implementing NM/ND
 - [Trinity Gate](@/glossary/trinity-gate.md) - Verification gate enabling the NABLA-to-NM/ND transition
-- [Pre-Commit Hooks](@/glossary/pre-commit-hooks.md) - First enforcement point for NM/ND compliance
+- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - First enforcement point for NM/ND compliance
 - [Session Discipline](@/glossary/session-discipline.md) - Development workflow protocol governed by NM/ND
 - [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing the investigation phase
 - [Regression Test](@/glossary/regression-test.md) - Mandatory testing protocol under NM/ND
-- [Quality DNA](@/glossary/quality-dna.md) - Cross-session quality state persistence
+- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) - Cross-session quality state persistence
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - Platform architecture overview
-- [Technologies](@/technologies/_index.md) - Technology stack details
-- [Agents Registry](@/agents/_index.md) - All 530+ agents carrying NM/ND enforcement
-- [Commands Registry](@/commands/_index.md) - Commands implementing NM/ND enforcement
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
+- [Agents Registry](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - All 530+ agents carrying NM/ND enforcement
+- [Commands Registry](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Commands implementing NM/ND enforcement
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -67,8 +67,8 @@ Manifestuje se v intelektualizujících sektách, akademických prostředích s 
 - **Sourozenecké techniky**: [EA-5.1.1 Epistemická kanibalizace](@/kompendium/quick-reference/qr-ea-5-1-1.md), [EA-5.1.4 Sémantická imploze](@/kompendium/quick-reference/qr-ea-5-1-4.md), [EA-5.1.17 Tautologická imploze](@/kompendium/quick-reference/qr-ea-5-1-17.md)
 - **Glossary**: [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Sémantická afázie](@/glossary/semanticka-afazie.md), [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Klinika**: [Diagnostika](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md), [Rekonstrukce konceptuální stability](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-- **Platforma**: [Glossary cache](@/glossary/_index.md), {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine concept ledger") }}
+- **Platforma**: [Glossary cache](@/glossary/_index.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine concept ledger" /> }}
 
 ---
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

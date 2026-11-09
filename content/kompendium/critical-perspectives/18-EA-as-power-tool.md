@@ -56,9 +56,9 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 ## Cross-linky
 
 - [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
-- [Publikační etika v EA literatuře](/kompendium/critical-perspectives/20-publication-ethics-EA/)
+- [Publikační etika v EA literatuře](@/kompendium/critical-perspectives/20-publication-ethics-EA.md)
 - [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)
-- [Důvěrnost v EA detekci](/kompendium/critical-perspectives/17-confidentiality-EA/)
+- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)
 - [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
 - [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
 - [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
@@ -72,7 +72,7 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

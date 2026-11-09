@@ -41,7 +41,7 @@ Misdiagnosis runs in both directions and produces [Iatrogenic Harm](@/glossary/i
 - The Kompendium chapter [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md) provides a differential-diagnosis matrix.
 - [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) describes the whole-part reintegration approach used in both conditions but with different sequencing.
 - [Narrative Identity](@/glossary/narrative-identity.md) is structurally damaged in both presentations but through different mechanisms.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} does not pathologize dissociated testimony but flags it for context-sensitive integration: gaps and contradictions in dissociative reporting carry different evidentiary weight than in non-dissociative testimony.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} does not pathologize dissociated testimony but flags it for context-sensitive integration: gaps and contradictions in dissociative reporting carry different evidentiary weight than in non-dissociative testimony.
 - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) is a distinct EA mechanism that may co-occur with dissociation but is not reducible to it.
 
 ## See Also
@@ -58,7 +58,7 @@ Misdiagnosis runs in both directions and produces [Iatrogenic Harm](@/glossary/i
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

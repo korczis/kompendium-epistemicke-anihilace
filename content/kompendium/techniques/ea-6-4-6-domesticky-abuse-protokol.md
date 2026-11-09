@@ -224,7 +224,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
 - **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
 
-**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} pro průběžné kalibrační monitoring.
+**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise vs. realita; target Brier < 0.20 pro experienced klinika, ECE < 0.10. Tato metrika integrována do platformové {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro průběžné kalibrační monitoring.
 
 ## Long-term follow-up
 
@@ -258,7 +258,7 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 - [EA-6.4.1 Děti — vývojově-senzitivní protokol](@/kompendium/techniques/ea-6-4-1-deti-protokol.md)
 - [EA-6.4.2 Post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md)
 - [EA-6.4.3 Uprchlík/migrant protokol](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md)
-- [EA-6.4.4 LGBTQI EA-protokol](/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol/)
+- [EA-6.4.4 LGBTQI EA-protokol](@/kompendium/techniques/ea-6-4-4-LGBTQI-EA-protokol.md)
 - [EA-6.4.5 Veterán/voják protokol](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md)
 - [EA-6.4.7 Policejní trauma protokol](@/kompendium/techniques/ea-6-4-7-policejni-trauma-protokol.md)
 - [EA-6.4.8 Zdravotníci — burnout protokol](@/kompendium/techniques/ea-6-4-8-zdravotnici-burnout-protokol.md)
@@ -281,7 +281,7 @@ Technika je integrována do širšího ekosystému platformy Prismatic prostřed
 
 ### Prismatic platforma
 
-- [Prismatic Nabla](@/about/architecture.md) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
-- {{ cross_link(path="/osint/toolbox/", text="OSINT toolbox") }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — kalibrace klinického rozhodování s Brierův skór monitoring
-- [Akademie](@/academy/_index.md) — interaktivní vzdělávací moduly pro klinickou populaci
+- [Prismatic Nabla](https://prismatic-reality-com.github.io/prismatic-promo/about/architecture/) — epistemický engine pro modelování EA-trauma jako kvantifikovatelné epistemické poškození
+- {{ <cross_link path="/osint/toolbox/" text="OSINT toolbox" /> }} — investigation backend pro forenzní DD klientů s podezřením na manipulativní expozici
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace klinického rozhodování s Brierův skór monitoring
+- [Akademie](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — interaktivní vzdělávací moduly pro klinickou populaci

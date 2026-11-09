@@ -352,8 +352,8 @@ Cca 50–60 % případů dosahuje **plné funkční rekonstrukce**. Další 30�
 - [Anihilační fenomény](@/glossary/anihilacni-fenomeny.md)
 
 ### Platforma
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
-- {{ cross_link(path="/hub/dd/decisions/calibration/", text="Calibration Dashboard") }}
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
+- {{ <cross_link path="/hub/dd/decisions/calibration/" text="Calibration Dashboard" /> }}
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
 - [Glossary: Color Teams](@/glossary/color-teams.md)
@@ -374,6 +374,6 @@ posledních 12 měsíců sám/sama pozoroval/a (na sobě nebo v okolí), a v
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

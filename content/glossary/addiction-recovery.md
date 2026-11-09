@@ -69,12 +69,12 @@ The insight that ties these parallels together is that neither addiction recover
 Addiction Recovery is not a standalone principle but a meta-level framing that infuses the entire [NABLA Infinity](@/glossary/nabla-infinity.md) framework. Every NABLA axiom can be understood as a specific anti-relapse mechanism:
 
 - **[Signal Plurality](@/glossary/signal-plurality.md)**: Prevents the rationalization "this one source is authoritative enough"
-- **[Contradiction Preservation](@/glossary/contradiction-preservation.md)**: Prevents the minimization "this disagreement is probably just noise"
+- **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)**: Prevents the minimization "this disagreement is probably just noise"
 - **Absence Informative**: Prevents the selective attention "if there's no evidence of a problem, there is no problem"
 - **Time Decay**: Prevents the staleness rationalization "this evidence is still good enough"
 - **Unknown Valid**: Prevents the false certainty "we need to give an answer even if we're not sure"
 - **Source Independence**: Prevents the correlation blindness "ten articles confirm this" (from the same source)
-- **[Provenance Mandatory](@/glossary/provenance-mandatory.md)**: Prevents the accountability evasion "everyone knows this"
+- **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)**: Prevents the accountability evasion "everyone knows this"
 
 ## Technical Details
 
@@ -388,7 +388,7 @@ The key distinction is that Addiction Recovery is a **preventive** mechanism, no
 
 - **Treating the principle as metaphorical rather than structural**: Addiction Recovery is not a philosophical stance or a team culture aspiration. It is a concrete set of automated checks, enforced at the code level, with no manual bypass. Teams that treat it as a "mindset" rather than an enforcement mechanism will find it degrading as organizational pressure increases.
 
-- **Optimizing for false positive reduction at the expense of detection**: Tuning thresholds to reduce false positives inevitably reduces true positive detection. The asymmetric cost analysis (Section 4 of [Contradiction Preservation](@/glossary/contradiction-preservation.md)) applies here: the cost of a false positive (one unnecessary investigation) is far lower than the cost of a missed rationalization pattern (corrupted belief graph).
+- **Optimizing for false positive reduction at the expense of detection**: Tuning thresholds to reduce false positives inevitably reduces true positive detection. The asymmetric cost analysis (Section 4 of [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)) applies here: the cost of a false positive (one unnecessary investigation) is far lower than the cost of a missed rationalization pattern (corrupted belief graph).
 
 - **Assuming that smart people are immune to rationalization**: Research consistently shows that higher intelligence correlates with more sophisticated rationalization, not less. Smart people are better at constructing plausible-sounding justifications for biased conclusions. Automated enforcement is necessary precisely because human judgment, regardless of expertise, is vulnerable.
 
@@ -419,29 +419,29 @@ AI agents within the platform form beliefs through multi-step reasoning chains. 
 ## Related Concepts
 
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- The parent epistemic framework whose seven axioms Addiction Recovery enforces through continuous vigilance
-- [Contradiction Preservation](@/glossary/contradiction-preservation.md) -- The specific axiom most directly protected by Addiction Recovery's anti-rationalization enforcement
-- [Cherry Picking](@/glossary/cherry-picking.md) -- The evidence selection anti-pattern that Addiction Recovery detects and blocks
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- The specific axiom most directly protected by Addiction Recovery's anti-rationalization enforcement
+- [Cherry Picking](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cherry-picking/) -- The evidence selection anti-pattern that Addiction Recovery detects and blocks
 - [Signal Plurality](@/glossary/signal-plurality.md) -- The axiom preventing single-source beliefs, reinforced by source laundering detection
-- [Belief Graph](@/glossary/belief-graph.md) -- The data structure monitored by the Vigilance Monitor for structural rationalization patterns
-- [Confidence Scoring](@/glossary/confidence-scoring.md) -- The quantitative system protected from inflation through calibrated deviation monitoring
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- The data structure monitored by the Vigilance Monitor for structural rationalization patterns
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- The quantitative system protected from inflation through calibrated deviation monitoring
 - [Trinity Gate](@/glossary/trinity-gate.md) -- The verification gate that provides structural defense complementary to Addiction Recovery's temporal monitoring
 - [Red Team](@/glossary/red-team.md) -- The adversarial team that tests Addiction Recovery resilience through drift induction scenarios
 - [Blue Team](@/glossary/blue-team.md) -- The defensive team maintaining monitoring posture against rationalization patterns
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- The axiom enforcing traceability, preventing accountability evasion rationalization
-- [Epistemic Robustness](@/glossary/epistemic-robustness.md) -- The overall system property that Addiction Recovery protects from gradual erosion
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- The axiom enforcing traceability, preventing accountability evasion rationalization
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- The overall system property that Addiction Recovery protects from gradual erosion
 - [QEVE](@/glossary/qeve.md) -- The verification engine implementing NABLA axiom checks that Addiction Recovery monitors for bypass attempts
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
-- [Agents](@/agents/_index.md) -- Full agent catalog including Vigilance Monitor agents
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Vigilance Monitor agents
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

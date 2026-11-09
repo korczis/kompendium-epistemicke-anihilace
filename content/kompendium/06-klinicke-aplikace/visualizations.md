@@ -28,8 +28,7 @@ Tato sekce-specifická vizualizace zobrazuje **pětifázovou klinickou cestu** z
 
 <canvas id="section-06-recovery-flow" width="800" height="500"></canvas>
 <div id="recovery-flow-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-<script src="/js/kompendium/section-06-recovery-flow.js"></script>
+<script src="/kompendium-epistemicke-anihilace/js/kompendium/section-06-recovery-flow.js"></script>
 
 ## Jak číst diagram
 
@@ -54,6 +53,6 @@ Tato sekce-specifická vizualizace zobrazuje **pětifázovou klinickou cestu** z
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

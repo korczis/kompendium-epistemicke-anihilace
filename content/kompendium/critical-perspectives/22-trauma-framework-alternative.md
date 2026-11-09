@@ -59,8 +59,8 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 - [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
 - [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
 - [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)
-- [Publikační etika v EA literatuře](/kompendium/critical-perspectives/20-publication-ethics-EA/)
-- [Stigmatizace skrze EA kategorie](/kompendium/critical-perspectives/12-EA-stigma-risk/)
+- [Publikační etika v EA literatuře](@/kompendium/critical-perspectives/20-publication-ethics-EA.md)
+- [Stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md)
 - [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
 - [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
 - [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
@@ -72,7 +72,7 @@ EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivn
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

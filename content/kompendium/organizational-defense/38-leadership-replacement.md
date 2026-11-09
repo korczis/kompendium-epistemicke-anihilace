@@ -80,9 +80,9 @@ Pre-vetted interim executives, board emergency protocol, 48h activation SLA, def
 ## 6. Cross-linky
 
 - [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](/kompendium/organizational-defense/34-PR-narrative-defense/)
-- [Asistence zaměstnancům v krizi](/kompendium/organizational-defense/35-employee-assistance-EA/)
-- [Plánování nástupnictví s EA fokusem](/kompendium/organizational-defense/20-succession-planning-EA/)
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
+- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
+- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
 - [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
 - [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
@@ -94,8 +94,8 @@ Pre-vetted interim executives, board emergency protocol, 48h activation SLA, def
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

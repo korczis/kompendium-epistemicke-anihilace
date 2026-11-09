@@ -50,4 +50,4 @@ rozhodovacího procesu a posiluje robustnost.
 
 ## Connect
 
-Otázky, zpětná vazba, vlastní případy: [[e-mail odstraněn]](mailto:[e-mail odstraněn]) | [GitHub](https://github.com/korczis)
+Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -132,19 +132,19 @@ document.addEventListener('alpine:init', () => {
 
 ## See Also
 
-- [Trauma Spectrum](@/glossary/trauma-spectrum.md) — Parent category
-- [Trauma Bond](@/glossary/trauma-bond.md) — Characteristic complex-trauma feature
-- [Structural Dissociation](@/glossary/structural-dissociation.md) — Severe form
-- [Hippocampus and Trauma](@/glossary/hippocampus-trauma.md) — Neural substrate
-- [HPA Axis](@/glossary/hpa-axis.md) — Chronic dysregulation
-- [Fawn Response](@/glossary/fawn-response.md) — Adaptation to inescapable harm
+- [Trauma Spectrum](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-spectrum/) — Parent category
+- [Trauma Bond](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-bond/) — Characteristic complex-trauma feature
+- [Structural Dissociation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/structural-dissociation/) — Severe form
+- [Hippocampus and Trauma](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hippocampus-trauma/) — Neural substrate
+- [HPA Axis](https://prismatic-reality-com.github.io/prismatic-promo/glossary/hpa-axis/) — Chronic dysregulation
+- [Fawn Response](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fawn-response/) — Adaptation to inescapable harm
 - [Kompendium](@/kompendium/_index.md) — EA technique taxonomy
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

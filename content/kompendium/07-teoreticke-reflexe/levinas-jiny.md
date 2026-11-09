@@ -99,7 +99,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 Kompendium absorbuje Levinasovu fenomenologii tváře, ale **odbočuje** ve dvou bodech:
 
 1. **Riziko etického fundamentalismu**: Levinasova absolutní asymetrie je obtížně **operacionalizovatelná** — kompendium ji čte jako **regulativní ideu**, nikoli jako **operativní pravidlo**.
-2. **Politická aplikace**: Levinas sám měl problematické pozice (Palestina) — ukazuje, že etika tváře nemůže být **mechanicky** aplikována. Vyžaduje **soudnost** ([Arendt, viz 7.19](/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení/)).
+2. **Politická aplikace**: Levinas sám měl problematické pozice (Palestina) — ukazuje, že etika tváře nemůže být **mechanicky** aplikována. Vyžaduje **soudnost** ([Arendt, viz 7.19](@/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md)).
 
 ## 8. Primární literatura
 
@@ -125,7 +125,7 @@ Kompendium absorbuje Levinasovu fenomenologii tváře, ale **odbočuje** ve dvou
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

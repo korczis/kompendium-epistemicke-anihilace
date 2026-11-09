@@ -45,9 +45,9 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
-- [Akutní dekompenzace po EA](/kompendium/emergency-protocols/1-acute-decompensation-EA/)
-- [Psychotický zlom po EA](/kompendium/emergency-protocols/3-psychotic-break-EA/)
-- [Akutní disociativní stav po EA](/kompendium/emergency-protocols/4-acute-dissociation-EA/)
+- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
+- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+- [Akutní disociativní stav po EA](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md)
 
 **Návazná dlouhodobá péče:**
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
@@ -64,14 +64,14 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
-- {{ cross_link(path="/hub/dd/decisions/calibration", text="Decision Engine — kalibrace klinických rozhodnutí") }}
+- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 
 ## 6. Connect
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
 
 ---
 

@@ -15,7 +15,7 @@ ref_count_at_creation = 1
 
 ## Definition
 
-**Scam Compliance** is a security-domain term used in the Prismatic Platform context — relevant to threat modeling, OWASP risk analysis, [security posture](@/glossary/security-posture.md) assessment, or compliance gates. This entry is a structural stub — full treatment with attack vectors, detection patterns, and mitigation recipes is part of the security knowledge-base buildout.
+**Scam Compliance** is a security-domain term used in the Prismatic Platform context — relevant to threat modeling, OWASP risk analysis, [security posture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-posture/) assessment, or compliance gates. This entry is a structural stub — full treatment with attack vectors, detection patterns, and mitigation recipes is part of the security knowledge-base buildout.
 
 ## See Also
 
@@ -57,12 +57,12 @@ graph TD
 
 ## Související pojmy
 
-- [Adapter](@/glossary/adapter.md) — slug `adapter`
-- [Adversarial Architecture](@/glossary/adversarial-architecture.md) — slug `adversarial-architecture`
+- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
+- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
 - [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
 - [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Accreditation](@/glossary/accreditation.md) — slug `accreditation`
-- [Adaptive Testing](@/glossary/adaptive-testing.md) — slug `adaptive-testing`
+- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
+- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
 
 ## Navigace
 
@@ -71,8 +71,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

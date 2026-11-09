@@ -80,9 +80,9 @@ Email/ticket-based decisions, retention policy, mandatory CC pro key stakeholder
 ## 6. Cross-linky
 
 - [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](/kompendium/organizational-defense/28-access-control-EA/)
+- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
 - [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Auditní výbor proti EA](/kompendium/organizational-defense/5-audit-committee-EA/)
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md)
 - [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
 - [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
 - [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
@@ -94,8 +94,8 @@ Email/ticket-based decisions, retention policy, mandatory CC pro key stakeholder
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

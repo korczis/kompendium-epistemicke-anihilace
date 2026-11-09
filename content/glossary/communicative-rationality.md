@@ -37,7 +37,7 @@ Specifically:
 - **EA-1.2.x delegitimization techniques** violate the **rightness claim** — they deny the speaker the normative status of legitimate participant in discourse.
 - **EA-1.3.x immunization techniques** violate the **sincerity claim** — they preserve appearance of openness to argument while structurally precluding update.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Habermas's framework as the **normative pillar** of the EA taxonomy: it supplies the criterion against which manipulation can be identified as such.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} is designed to track validity-claim violations as **calibration risk factors** — when an information source systematically violates one or more validity claims, downstream confidence in conclusions drawn from that source is appropriately discounted.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} is designed to track validity-claim violations as **calibration risk factors** — when an information source systematically violates one or more validity claims, downstream confidence in conclusions drawn from that source is appropriately discounted.
 - The [Color Teams](@/glossary/color-teams.md) Blue Team practice is explicitly modeled on communicative-action norms: deliberation is conducted under conditions designed to approximate the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as a pragmatic working ideal.
 - The kompendium itself, as a published, peer-reviewable, openly contestable taxonomy, performs communicative rationality at the meta-level: it submits its own validity claims to public discursive testing.
 
@@ -55,7 +55,7 @@ Specifically:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -88,7 +88,7 @@ The logical check applies rule-based evaluation to the structurally valid belief
 
 ### Stage 4: Lean4 Formal Layer
 
-The formal layer uses [Lean4](@/glossary/lean4.md) theorem proving to establish mathematical certainty for the core claims:
+The formal layer uses [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) theorem proving to establish mathematical certainty for the core claims:
 
 - **Theorem generation**: Translate the critical hypothesis and its supporting evidence chain into a Lean4 theorem statement
 - **Proof search**: Attempt to prove the theorem using Lean4's automated and interactive proving capabilities
@@ -240,27 +240,27 @@ QEVE distinguishes itself from conventional AI validation approaches in several 
 
 ## Related Terms
 
-- [Lean4](@/glossary/lean4.md) -- Theorem prover powering QEVE's formal verification layer
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover powering QEVE's formal verification layer
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing QEVE's belief graph construction
 - [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate consuming QEVE outputs for belief acceptance
 - [White Team](@/glossary/white-team.md) -- Constructive verification team that uses QEVE methods extensively
 - [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom enforced in QEVE's graph build stage
-- [Confidence Threshold](@/glossary/confidence-threshold.md) -- Decision thresholds applied to QEVE confidence scores
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- Axiom ensuring QEVE evidence chains are fully traceable
-- [Property-Based Testing](@/glossary/property-based-testing.md) -- Complementary testing approach used alongside QEVE
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Decision thresholds applied to QEVE confidence scores
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom ensuring QEVE evidence chains are fully traceable
+- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Complementary testing approach used alongside QEVE
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which QEVE operates
 - [Color Teams](@/glossary/color-teams.md) -- Security teams whose outputs are validated through QEVE
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

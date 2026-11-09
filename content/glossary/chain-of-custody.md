@@ -40,9 +40,9 @@ In M&A due diligence, CoC governs how data-room exports, executed agreements, an
 
 ## Related Concepts
 
-- [Evidence](@/glossary/evidence.md) - General category that CoC protects
-- [Verifiable Evidence](@/glossary/verifiable-evidence.md) - Output standard that CoC enables
-- [Evidence Over Opinion](@/glossary/evidence-over-opinion.md) - Doctrine requiring documented support for claims
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) - General category that CoC protects
+- [Verifiable Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/verifiable-evidence/) - Output standard that CoC enables
+- [Evidence Over Opinion](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence-over-opinion/) - Doctrine requiring documented support for claims
 - [Due Diligence](@/glossary/due-diligence.md) - Workflow where CoC is mandatory
 - [Forensic Interview](@/glossary/forensic-interview.md) - Sister procedure for testimonial evidence
 - [Expert Witness](@/glossary/expert-witness.md) - Authority who establishes CoC at trial

@@ -200,7 +200,7 @@ This is not negligence; it is a deliberate design decision based on the observat
 
 ### Supervision as Architecture
 
-In the BEAM paradigm, the [supervision tree](@/glossary/supervision-tree.md) is not an implementation detail -- it is the architecture. The structure of the supervision tree determines the failure domains of the system, the order of initialization, and the recovery strategy for each component. Designing a BEAM application starts with designing its supervision tree, not its class hierarchy or its module structure.
+In the BEAM paradigm, the [supervision tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) is not an implementation detail -- it is the architecture. The structure of the supervision tree determines the failure domains of the system, the order of initialization, and the recovery strategy for each component. Designing a BEAM application starts with designing its supervision tree, not its class hierarchy or its module structure.
 
 The Prismatic Platform's 115-application umbrella is organized as a hierarchy of supervisors, with each application contributing its supervision subtree to the platform's overall supervision tree. This structure ensures that a failure in one application (say, an OSINT adapter encountering an unexpected API response) is isolated to that application's supervision subtree and does not affect the rest of the platform.
 
@@ -256,19 +256,19 @@ The Prismatic Platform avoids this trap through rigorous enforcement of paradigm
 
 ## Cross-References
 
-- [BEAM VM](@/glossary/beam-vm.md) -- The virtual machine underlying the OTP paradigm
-- [BEAM](@/glossary/beam.md) -- Bogdan/Bjorn's Erlang Abstract Machine
-- [OTP](@/glossary/otp.md) -- The framework that defines the BEAM paradigm
-- [Erlang](@/glossary/erlang.md) -- The original BEAM paradigm language
-- [Elixir](@/glossary/elixir.md) -- Modern language bringing the BEAM paradigm to new audiences
-- [Functional Programming Language](@/glossary/functional-programming-language.md) -- The broader functional paradigm
-- [Actor Model](@/glossary/actor-model.md) -- The concurrency model underlying BEAM processes
-- [GenServer](@/glossary/genserver.md) -- The primary abstraction for stateful processes
-- [Supervision Tree](@/glossary/supervision-tree.md) -- Architecture as process hierarchy
-- [Behaviour](@/glossary/behaviour.md) -- OTP abstractions for common patterns
-- [Architectural Pattern](@/glossary/architectural-pattern.md) -- Patterns within and across paradigms
-- [Autonomous Evolution](@/glossary/autonomous-evolution.md) -- The paradigm shift toward self-improving systems
+- [BEAM VM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam-vm/) -- The virtual machine underlying the OTP paradigm
+- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) -- Bogdan/Bjorn's Erlang Abstract Machine
+- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) -- The framework that defines the BEAM paradigm
+- [Erlang](https://prismatic-reality-com.github.io/prismatic-promo/glossary/erlang/) -- The original BEAM paradigm language
+- [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) -- Modern language bringing the BEAM paradigm to new audiences
+- [Functional Programming Language](https://prismatic-reality-com.github.io/prismatic-promo/glossary/functional-programming-language/) -- The broader functional paradigm
+- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) -- The concurrency model underlying BEAM processes
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- The primary abstraction for stateful processes
+- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) -- Architecture as process hierarchy
+- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) -- OTP abstractions for common patterns
+- [Architectural Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/architectural-pattern/) -- Patterns within and across paradigms
+- [Autonomous Evolution](https://prismatic-reality-com.github.io/prismatic-promo/glossary/autonomous-evolution/) -- The paradigm shift toward self-improving systems
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

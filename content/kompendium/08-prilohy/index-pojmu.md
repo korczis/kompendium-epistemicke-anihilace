@@ -61,14 +61,14 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 
 | CS termín | EN ekvivalent | Lokace | Glosa |
 |-----------|---------------|--------|-------|
-| **Decision Engine** | Decision Engine [=] | {{ cross_link(path="/hub/dd/decisions/", text="Hub DD") }} | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
+| **Decision Engine** | Decision Engine [=] | {{ <cross_link path="/hub/dd/decisions/" text="Hub DD" /> }} | Platformový subsystém pro strukturované epistemicky kalibrované rozhodování. |
 | **Delegitimizace** | Delegitimization [=] | [Sekce 03](@/kompendium/03-zakladni-kategorie/_index.md) | Sytematický útok na epistemickou důvěryhodnost zdroje. |
 | **Demarkační problém** | Demarcation problem [=] | [Bibliografie §I](@/kompendium/08-prilohy/bibliografie.md) | Popperovský problém rozlišení vědy od pseudovědy. |
 | **DES-II** | Dissociative Experiences Scale [=] | [Diagnostika](@/kompendium/08-prilohy/diagnosticke-nastroje.md) | Carlson-Putnamův dotazník disociativních zkušeností. |
 | **Diferenciální nihilace** | Differential nihilation [≈] | [`EA-5.1.22`](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) | Eliminace schopnosti rozlišovat — vše splývá. |
 | **Disociace** | Dissociation [=] | [Bibliografie §IX](@/kompendium/08-prilohy/bibliografie.md) | Klinický termín: rozštěpení vědomí, paměti, identity. |
 | **Diskursivní formace** | Discursive formation [=] | [Bibliografie §III](@/kompendium/08-prilohy/bibliografie.md) | Foucaultův pojem: pravidly řízený systém produkce výpovědí. |
-| **Doctrine** | Doctrine [=] | [CLAUDE.md](https://github.com/korczis/prismatic-platform/blob/main/CLAUDE.md) | 18-pillar enforcement systém platformy. |
+| **Doctrine** | Doctrine [=] | [CLAUDE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/CLAUDE.md) | 18-pillar enforcement systém platformy. |
 | **Dominantní tělesné hieroglyfy** | Dominant bodily hieroglyphs [≈] | [`EA-1.5.2`](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md) | Posturální dominance jako neverbální argument. |
 | **Doubling** | Doubling [=] | [Bibliografie §IV](@/kompendium/08-prilohy/bibliografie.md) | Liftonův pojem: profesionální štěpení self. |
 
@@ -230,7 +230,7 @@ Index je odvozen z [hlavního platformového glosáře](@/glossary/_index.md) a 
 - [Philosophy](@/philosophy/_index.md) — filozofická vrstva platformy.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13.
 - [Color Teams](@/glossary/color-teams.md) — adversariální simulace.
-- {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} — operativní použití termínů v běžícím systému.
+- {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — operativní použití termínů v běžícím systému.
 
 
 ## ⚡ Kritický krok
@@ -267,7 +267,7 @@ Místo lineární četby:
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Hub kompendia](@/kompendium/_index.md) | [Přílohy](@/kompendium/08-prilohy/_index.md) | [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

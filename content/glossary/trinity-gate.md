@@ -59,14 +59,14 @@ Logical consistency verification includes:
 
 - **Premise-conclusion alignment**: Every conclusion must follow from its stated premises through a valid inference rule. Conclusions that assert more than the premises support are flagged as overreach
 - **Rule soundness**: The inference rules themselves are validated. A rule that produces contradictory outputs from the same inputs is unsound regardless of whether it happens to produce a correct result in this instance
-- **Axiom compliance**: All seven NABLA axioms are checked at every inference step. [Signal Plurality](@/glossary/signal-plurality.md) violations (single-source beliefs), [Provenance Mandatory](@/glossary/provenance-mandatory.md) violations (untraceable claims), and other axiom breaches trigger immediate gate failure
+- **Axiom compliance**: All seven NABLA axioms are checked at every inference step. [Signal Plurality](@/glossary/signal-plurality.md) violations (single-source beliefs), [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) violations (untraceable claims), and other axiom breaches trigger immediate gate failure
 - **Assumption tracking**: Every assumption introduced during inference is explicitly tracked. Hidden assumptions -- premises that are used but never stated -- are detected through dependency analysis and flagged as assumption leakage
 
 Logical consistency catches errors that structural analysis misses. A belief graph can be a perfectly valid DAG while containing logically unsound inference steps. This gate ensures the reasoning is correct, not just well-formed.
 
 ### Gate 3: Formal Necessity (Modal Logic + Lean4)
 
-The third gate is the most rigorous. It uses modal logic and [Lean4](@/glossary/lean4.md) formal proofs to determine whether the conclusion is not merely probable but **necessary**:
+The third gate is the most rigorous. It uses modal logic and [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) formal proofs to determine whether the conclusion is not merely probable but **necessary**:
 
 **Core requirement**: The conclusion must be provably necessary given the evidence, not merely possible or probable.
 
@@ -161,7 +161,7 @@ end
 
 ## Confidence Thresholds
 
-Trinity Gate operates in conjunction with the [Confidence Threshold](@/glossary/confidence-threshold.md) system. The required confidence level and Trinity Gate strictness vary by context:
+Trinity Gate operates in conjunction with the [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) system. The required confidence level and Trinity Gate strictness vary by context:
 
 | Context | Threshold (tau) | Trinity Gate | Rationale |
 |---------|---------|--------------|-----------|
@@ -197,7 +197,7 @@ EXECUTION PHASE (No Mercy, No Doubts)
   - Full commitment to verified conclusion
 ```
 
-The transition is unidirectional and irreversible within a single decision cycle. Once Trinity Gate passes and execution begins, the [No Mercy](@/glossary/no-mercy.md) doctrine requires complete follow-through. There is no partial execution and no hedging. The rigor of the gate justifies the decisiveness of the action.
+The transition is unidirectional and irreversible within a single decision cycle. Once Trinity Gate passes and execution begins, the [No Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine requires complete follow-through. There is no partial execution and no hedging. The rigor of the gate justifies the decisiveness of the action.
 
 This integration prevents two failure modes:
 
@@ -312,27 +312,27 @@ The [Purple Team](@/glossary/purple-team.md) (Synthesis and Closure) serves as t
 
 - [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework whose axioms Trinity Gate enforces
 - [QEVE](@/glossary/qeve.md) -- Verification engine producing the inputs Trinity Gate evaluates
-- [Lean4](@/glossary/lean4.md) -- Theorem prover powering the Formal Necessity gate
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover powering the Formal Necessity gate
 - [NM/ND Doctrine](@/glossary/nm-nd.md) -- Execution doctrine enabled by successful gate passage
-- [Confidence Threshold](@/glossary/confidence-threshold.md) -- Score thresholds that determine gate strictness
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Score thresholds that determine gate strictness
 - [White Team](@/glossary/white-team.md) -- Constructive verification team producing formal proofs for gate evaluation
 - [Purple Team](@/glossary/purple-team.md) -- Synthesis team ensuring Red-Blue closure complements gate verification
 - [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom checked during logical consistency gate
-- [Provenance Mandatory](@/glossary/provenance-mandatory.md) -- Axiom ensuring traceability through all gate stages
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom ensuring traceability through all gate stages
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which Trinity Gate operates
-- [3NL Framework](@/glossary/three-nl.md) -- Integration framework connecting Trinity Gate to AIAD agents
-- [Property-Based Testing](@/glossary/property-based-testing.md) -- Testing approach complementing formal verification
+- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Integration framework connecting Trinity Gate to AIAD agents
+- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Testing approach complementing formal verification
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) -- Platform architecture overview
-- [Technologies](@/technologies/_index.md) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

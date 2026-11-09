@@ -211,7 +211,7 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} epistemic-pluralism check** — auditní vrstva ověřující, že rozhodovací proces zahrnuje **více než jeden** epistemický standard a že jakýkoli použitý meta-standard je **falsifikovatelně formulovaný**.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} epistemic-pluralism check** — auditní vrstva ověřující, že rozhodovací proces zahrnuje **více než jeden** epistemický standard a že jakýkoli použitý meta-standard je **falsifikovatelně formulovaný**.
 - **NABLA Infinity falsifiability tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou **falsifikační podmínku**; tvrzení bez ní jsou flagována.
 - **Color Teams adversarial epistemology** — Red Team protokol povinné konfrontace meta-standardů s **alternativními** epistemickými rámci.
 
@@ -228,7 +228,7 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
   - [Falsifikabilita](@/glossary/falsifikabilita.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -256,6 +256,6 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *"co 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

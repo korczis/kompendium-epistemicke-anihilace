@@ -50,7 +50,7 @@ The result is what the Kompendium chapter [/kompendium/07-teoreticke-reflexe/](@
 - [Disociace](@/glossary/disociace.md) damages narrative identity through different mechanisms (compartmentalization rather than disintegration); the differential matters clinically.
 - [Hyperreality](@/glossary/hyperreality.md) creates ambient conditions in which narrative-identity formation becomes structurally harder for everyone, not only EA survivors.
 - [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) risks include premature narrative reconstruction by therapists.
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} treats source-narratives as analytically separable from source-claims: a witness's autobiographical narrative is evidence about the witness, not direct evidence about the world; both are weighted appropriately.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats source-narratives as analytically separable from source-claims: a witness's autobiographical narrative is evidence about the witness, not direct evidence about the world; both are weighted appropriately.
 
 Narrative identity is the **deep structural target** that explains why EA produces such characteristic, durable, and difficult-to-treat damage. It is not just that beliefs are corrupted — it is that the architecture by which beliefs become integrated into a self is being dismantled.
 
@@ -68,7 +68,7 @@ Narrative identity is the **deep structural target** that explains why EA produc
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

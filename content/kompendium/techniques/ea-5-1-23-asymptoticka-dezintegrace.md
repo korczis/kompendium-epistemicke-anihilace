@@ -173,7 +173,7 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 ## Vztah k Prismatic platformě
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} drift detector** — sleduje, zda **kalibrace** rozhodovacích parametrů u uživatele driftuje konzistentním směrem mimo původní baseline.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} drift detector** — sleduje, zda **kalibrace** rozhodovacích parametrů u uživatele driftuje konzistentním směrem mimo původní baseline.
 - **NABLA Infinity trajectory tracking** — uchovává časovou řadu pozic, jež subjekt zastával, a flaguje kumulativní posuny pod prahem afektivní detekce.
 - **Color Teams retrospective audit** — Red Team operuje s explicitním protokolem pro retrospektivní audit driftu kultury bezpečnostního týmu.
 
@@ -189,7 +189,7 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
   - [Epistemická singularita](@/glossary/epistemicka-singularita.md)
   - [Asymptotický kolaps](@/glossary/asymptoticky-kolaps.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 - **Filozofie**:
@@ -217,6 +217,6 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

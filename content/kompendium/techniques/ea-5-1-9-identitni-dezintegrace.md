@@ -230,7 +230,7 @@ Intervence: Strukturní oddělení od partnera bylo prerekvizitou jakékoliv dal
 Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapování:
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) narrative integrity check** — provenance graf každého subjektově-relevantního tvrzení je analyzován na **kontinuitu** s předchozími tvrzeními téhož aktéra; náhlé diskontinuity jsou flagovány.
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} self-model audit** — rozhodnutí týkající se vlastní identity (kariérní, vztahové, hodnotové) jsou validována proti dlouhodobému self-model snapshotu; extrémní deviace vyžaduje **dvojí potvrzení**.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} self-model audit** — rozhodnutí týkající se vlastní identity (kariérní, vztahové, hodnotové) jsou validována proti dlouhodobému self-model snapshotu; extrémní deviace vyžaduje **dvojí potvrzení**.
 - **Color Teams identity defense protocol** — *Blue Team* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
 
 ## Související
@@ -252,7 +252,7 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
@@ -279,6 +279,6 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

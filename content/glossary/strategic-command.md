@@ -224,7 +224,7 @@ end
 
 ## Escalation Protocol
 
-L4 agents follow a defined escalation protocol for operations exceeding their authority. The protocol is implemented as a first-class module with [telemetry](@/glossary/telemetry.md) instrumentation for audit trail compliance:
+L4 agents follow a defined escalation protocol for operations exceeding their authority. The protocol is implemented as a first-class module with [telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) instrumentation for audit trail compliance:
 
 ```elixir
 defmodule PrismaticAgents.StrategicCommand.EscalationProtocol do
@@ -435,7 +435,7 @@ L5 Supreme Commander / Archer Supreme (4 agents)
 
 4. **Communicate across teams through structured interfaces**. L4 agents should not reach into L2-L3 agent internals. Use the defined command interfaces for all cross-team communication, preserving encapsulation and enabling independent evolution of specialist agents.
 
-5. **Log coordination decisions for audit**. Strategic decisions about domain coordination, resource allocation, and escalation are logged via [telemetry](@/glossary/telemetry.md) for post-operation review and compliance evidence.
+5. **Log coordination decisions for audit**. Strategic decisions about domain coordination, resource allocation, and escalation are logged via [telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) for post-operation review and compliance evidence.
 
 6. **Implement rollback strategies**. Multi-domain operations can fail partway through. L4 agents must define rollback strategies (compensate, abort, or manual) for each coordination plan to maintain system consistency.
 
@@ -460,20 +460,20 @@ L5 Supreme Commander / Archer Supreme (4 agents)
 - [AIAD](@/glossary/aiad.md) - Agent definition standard for all tiers
 - [Purple Team](@/glossary/purple-team.md) - Cross-team synthesis at L3
 - [Color Teams](@/glossary/color-teams.md) - Six-team security operations framework coordinated by L4
-- [GenServer](@/glossary/genserver.md) - OTP process model backing agent coordination
-- [Telemetry](@/glossary/telemetry.md) - Instrumentation for coordination monitoring
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) - OTP process model backing agent coordination
+- [Telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) - Instrumentation for coordination monitoring
 
 ## See Also
 
-- [Architecture](@/architecture/_index.md) - Platform architecture overview
-- [Agents](@/agents/_index.md) - Full agent catalog
-- [Commands](@/commands/_index.md) - Command catalog including strategic operations
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Full agent catalog
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Command catalog including strategic operations
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

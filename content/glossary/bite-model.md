@@ -34,7 +34,7 @@ Within the Prismatic Platform, the BITE Model functions as a **screening instrum
 - BITE Information Control axis maps onto Kompendium category EA-1.1 (epistemic isolation): selective exposure (EA-1.1.1), source delegitimization (EA-1.1.2), reality narrowing (EA-1.1.3).
 - BITE Thought Control maps onto EA-1.3 (epistemic immunization) and EA-2 (cognitive anihilace targeting metacognition).
 - BITE Emotion Control maps onto the affective vectors discussed in [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md).
-- The {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }} Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
+- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
 - [Color Teams](@/glossary/color-teams.md) use BITE checklists during Red Team exercises to model adversary group structures.
 
 The BITE Model is referenced in the Kompendium's clinical applications section as a **first-pass triage tool** preceding more granular taxonomic analysis.
@@ -53,7 +53,7 @@ The BITE Model is referenced in the Kompendium's clinical applications section a
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/prismatic-platform)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

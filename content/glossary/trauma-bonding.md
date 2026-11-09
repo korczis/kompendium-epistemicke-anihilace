@@ -40,8 +40,8 @@ Investigators conducting forensic interviews with suspected trauma-bonded subjec
 
 ## Related Concepts
 
-- [Trauma Bond](@/glossary/trauma-bond.md) - Closely related concept describing the resulting attachment
-- [Trauma Spectrum](@/glossary/trauma-spectrum.md) - Range of trauma severity classifications
+- [Trauma Bond](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-bond/) - Closely related concept describing the resulting attachment
+- [Trauma Spectrum](https://prismatic-reality-com.github.io/prismatic-promo/glossary/trauma-spectrum/) - Range of trauma severity classifications
 - [Betrayal Trauma](@/glossary/betrayal-trauma.md) - Specific trauma type that often precedes bonding
 - [Coercive Control](@/glossary/coercive-control.md) - Pattern of behavior that produces trauma bonds
 - [Gaslighting](@/glossary/gaslighting.md) - Manipulation tactic reinforcing trauma bonds

@@ -82,7 +82,7 @@ Pravidlo "one share, one vote", veřejné minutes z AGM, právo na nezávislý a
 - [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
 - [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
 - [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
-- [Kontinuita podnikání s EA fokusem](/kompendium/organizational-defense/37-business-continuity-EA/)
+- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
 - [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
 - [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
@@ -94,8 +94,8 @@ Pravidlo "one share, one vote", veřejné minutes z AGM, právo na nezávislý a
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

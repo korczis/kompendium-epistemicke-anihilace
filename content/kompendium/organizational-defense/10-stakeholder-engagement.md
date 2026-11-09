@@ -83,7 +83,7 @@ Diverzifikované zastoupení (klienti, dodavatelé, komunita), strukturovaná de
 - [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
 - [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
 - [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](/kompendium/organizational-defense/15-culture-survey-EA/)
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
 - [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
 - [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
 - [Kompendium — Hlavní index](@/kompendium/_index.md)
@@ -94,8 +94,8 @@ Diverzifikované zastoupení (klienti, dodavatelé, komunita), strukturovaná de
 
 ## Connect
 
-- **Otázky / konzultace**: [[e-mail odstraněn]](mailto:[e-mail odstraněn])
-- **GitHub**: [github.com/korczis/prismatic-platform](https://github.com/korczis/prismatic-platform)
+- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
 

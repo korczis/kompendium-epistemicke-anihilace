@@ -21,9 +21,9 @@ image_alt = "3NL - Prismatic Platform"
 
 ## Definition
 
-3NL (Three Nested Levels) is the Prismatic Platform's foundational architectural framework that organizes all platform components into three hierarchical levels of abstraction. Derived from systems theory and layered architecture principles, 3NL establishes a strict separation of concerns where each level encapsulates the complexity of the level below while exposing a clean, well-defined interface to the level above. The term "3NL" serves as the canonical shorthand for the full [Three Nested Levels](@/glossary/three-nl.md) framework, appearing throughout code, configuration files, agent specifications, and technical documentation. The etymological origin combines the numeral "3" with the abbreviation "NL" (Nested Levels), reflecting the framework's emphasis on exactly three tiers of nesting -- no more, no fewer -- as the structurally optimal decomposition for managing complexity at the scale of 95 umbrella applications, 1,110 agent definitions (~70 runtime), and over ~99,800 lines of code.
+3NL (Three Nested Levels) is the Prismatic Platform's foundational architectural framework that organizes all platform components into three hierarchical levels of abstraction. Derived from systems theory and layered architecture principles, 3NL establishes a strict separation of concerns where each level encapsulates the complexity of the level below while exposing a clean, well-defined interface to the level above. The term "3NL" serves as the canonical shorthand for the full [Three Nested Levels](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) framework, appearing throughout code, configuration files, agent specifications, and technical documentation. The etymological origin combines the numeral "3" with the abbreviation "NL" (Nested Levels), reflecting the framework's emphasis on exactly three tiers of nesting -- no more, no fewer -- as the structurally optimal decomposition for managing complexity at the scale of 95 umbrella applications, 1,110 agent definitions (~70 runtime), and over ~99,800 lines of code.
 
-The three levels -- Strategic (L1), Tactical (L2), and Operational (L3) -- correspond to decreasing levels of abstraction and increasing levels of implementation detail. L1 defines what the system does (public APIs, agent commands, dashboard interfaces). L2 defines how components coordinate (inter-app protocols, pipeline orchestration, quality enforcement). L3 defines how things actually work (OTP processes, storage adapters, [BEAM](@/glossary/beam.md) primitives). This separation ensures that changes at one level do not cascade unnecessarily to others -- a storage adapter replacement at L3 does not affect the public API at L1.
+The three levels -- Strategic (L1), Tactical (L2), and Operational (L3) -- correspond to decreasing levels of abstraction and increasing levels of implementation detail. L1 defines what the system does (public APIs, agent commands, dashboard interfaces). L2 defines how components coordinate (inter-app protocols, pipeline orchestration, quality enforcement). L3 defines how things actually work (OTP processes, storage adapters, [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) primitives). This separation ensures that changes at one level do not cascade unnecessarily to others -- a storage adapter replacement at L3 does not affect the public API at L1.
 
 ## Overview
 
@@ -41,11 +41,11 @@ The outermost level visible to external consumers and high-level orchestration. 
 
 | Component | L1 Manifestation | Example |
 |-----------|-----------------|---------|
-| **API** | [REST](@/glossary/rest-api.md) and [GraphQL](@/glossary/graphql.md) endpoints | `POST /api/v1/perimeter/discover` |
+| **API** | [REST](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) and [GraphQL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/graphql/) endpoints | `POST /api/v1/perimeter/discover` |
 | **Agents** | Command interfaces | `/archer-supreme`, `/orchestrate` |
-| **Dashboard** | [LiveView](@/glossary/liveview.md) pages | `/perimeter`, `/perimeter/assets` |
+| **Dashboard** | [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/) pages | `/perimeter`, `/perimeter/assets` |
 | **Quality** | Score display, grade output | Quality doctrine-enforced, 13/13 domains |
-| **Integration** | External system adapters | [OpenAPI](@/glossary/openapi.md) spec, webhook endpoints |
+| **Integration** | External system adapters | [OpenAPI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/openapi/) spec, webhook endpoints |
 
 ### Level 2: Tactical (Internal Coordination)
 
@@ -53,10 +53,10 @@ The middle level handling coordination between platform components. L2 defines t
 
 | Component | L2 Manifestation | Example |
 |-----------|-----------------|---------|
-| **Communication** | Inter-app messaging, [PubSub](@/glossary/pubsub.md) | Agent-to-agent event routing |
-| **Pipelines** | [Data pipeline](@/glossary/data-pipeline.md) orchestration | OSINT source aggregation flow |
+| **Communication** | Inter-app messaging, [PubSub](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pubsub/) | Agent-to-agent event routing |
+| **Pipelines** | [Data pipeline](https://prismatic-reality-com.github.io/prismatic-promo/glossary/data-pipeline/) orchestration | OSINT source aggregation flow |
 | **Quality** | Gate enforcement, QDP tracking | `mix quality.gates` pipeline |
-| **Coordination** | [Domain-Driven Design](@/glossary/domain-driven-design.md) boundaries | [Bounded Context](@/glossary/bounded-context.md) protocols |
+| **Coordination** | [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) boundaries | [Bounded Context](@/glossary/bounded-context.md) protocols |
 | **Evolution** | Autoevolve and autoheal cycles | `mix autoevolve.scan` |
 
 ### Level 3: Operational (Implementation)
@@ -65,9 +65,9 @@ The innermost level containing implementation details. L3 is where the actual wo
 
 | Component | L3 Manifestation | Example |
 |-----------|-----------------|---------|
-| **Processes** | GenServers, [Supervisors](@/glossary/supervisor.md), Tasks | Agent runtime processes |
+| **Processes** | GenServers, [Supervisors](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/), Tasks | Agent runtime processes |
 | **Storage** | [Adapter pattern](@/glossary/adapter-pattern.md) implementations | ETS, Ecto, Meilisearch backends |
-| **BEAM** | Process scheduling, message passing | [Message Passing](@/glossary/message-passing.md) |
+| **BEAM** | Process scheduling, message passing | [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) |
 | **Memory** | ETS tables, process heaps | O(1) pattern detection caches |
 | **System** | OS interaction, file I/O, networking | Certificate transparency log queries |
 
@@ -198,22 +198,22 @@ The key advantage of 3NL over alternatives is its alignment with OTP's natural p
 
 ## Related Concepts
 
-- [Three-NL](@/glossary/three-nl.md) - Full name of the Three Nested Levels framework
-- [PVM](@/glossary/pvm.md) - Platform Virtual Machine organized by 3NL
+- [Three-NL](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) - Full name of the Three Nested Levels framework
+- [PVM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pvm/) - Platform Virtual Machine organized by 3NL
 - [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework at 3NL Level 3 integration
 - [Bounded Context](@/glossary/bounded-context.md) - Domain boundaries aligned with 3NL levels
 - [Adapter Pattern](@/glossary/adapter-pattern.md) - L3 pattern for pluggable implementations
-- [Supervisor](@/glossary/supervisor.md) - OTP primitive at L3 providing process management
+- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) - OTP primitive at L3 providing process management
 - [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) - Knowledge processing organized by 3NL
-- [Domain-Driven Design](@/glossary/domain-driven-design.md) - Design methodology complementing 3NL
+- [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) - Design methodology complementing 3NL
 - [AIAD](@/glossary/aiad.md) - Agent standard following 3NL structure
-- [REST API](@/glossary/rest-api.md) - L1 interface pattern for external access
+- [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) - L1 interface pattern for external access
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
-- [Developer Portal](@/developers/_index.md) | [Architecture](@/architecture/_index.md) | [Meet the Creator](@/about/author.md)
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

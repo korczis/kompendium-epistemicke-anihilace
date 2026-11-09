@@ -25,7 +25,7 @@ Secure attachment is the healthy attachment style characterized by mutual attune
 - [Glossary index](@/glossary/_index.md)
 - [Pseudoempaticka Vazba](@/glossary/pseudoempaticka-vazba.md)
 - [Trauma Bonding](@/glossary/trauma-bonding.md)
-- [Co Regulation](@/glossary/co-regulation.md)
+- [Co Regulation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/co-regulation/)
 
 ---
 
@@ -63,11 +63,11 @@ graph TD
 
 ## Související pojmy
 
-- [Adversarial Architecture](@/glossary/adversarial-architecture.md) — slug `adversarial-architecture`
-- [Adapter](@/glossary/adapter.md) — slug `adapter`
+- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
+- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
 - [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
 - [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Accreditation](@/glossary/accreditation.md) — slug `accreditation`
+- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
 - [3NL](@/glossary/3nl.md) — slug `3nl`
 
 ## Navigace
@@ -77,8 +77,8 @@ graph TD
 - **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
 - **Sourozenci v sekci**:
   - [3NL](@/glossary/3nl.md)
-  - [Academy](@/glossary/academy.md)
-  - [Access Control](@/glossary/access-control.md)
-  - [Accreditation](@/glossary/accreditation.md)
-  - [Accuracy](@/glossary/accuracy.md)
+  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
+  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
+  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
+  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
 <!-- ENHANCED:NLLB-AUTO-BLOCK END -->

@@ -63,4 +63,4 @@ těchto vrstev do soudržného systému.
 
 ## Connect
 
-Doplňující prameny, opravy, vlastní výzkum: [[e-mail odstraněn]](mailto:[e-mail odstraněn]) | [GitHub](https://github.com/korczis)
+Doplňující prameny, opravy, vlastní výzkum: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

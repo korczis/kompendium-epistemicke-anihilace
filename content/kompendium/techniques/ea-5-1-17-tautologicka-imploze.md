@@ -193,7 +193,7 @@ Kruh praktikující "vědomí čistého vědomí". Adepti po letech reportovali 
 
 Tautologická imploze je strukturálním motivem pro několik defenzivních mechanismů Prismatic:
 
-- **{{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}** vyžaduje **explicitní falsifikační podmínky** a **měřitelné predikce** — tautologické teze nejsou přijatelné jako podklad rozhodování.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní falsifikační podmínky** a **měřitelné predikce** — tautologické teze nejsou přijatelné jako podklad rozhodování.
 - **NABLA Infinity provenance** dohledává **observační konsekvence** každé propozice — tautologie selhávají na nulové stopě.
 - **Glossary discipline** — definice ve slovníku jsou kontrolovány na **ne-cirkulárnost** a **operacionalitu**.
 
@@ -219,7 +219,7 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
 - **Související platformové koncepty**:
-  - {{ cross_link(path="/hub/dd/decisions/", text="Decision Engine") }}
+  - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
@@ -246,6 +246,6 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](@/developers/_index.md)
+- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

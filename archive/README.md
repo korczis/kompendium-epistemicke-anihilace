@@ -7,7 +7,7 @@ this repository's Issues and to this repository instead.
 
 | Folder | Source | Revision | Date |
 |---|---|---|---|
-| `docs-kompendium/` | `gitlab.com/korczis/prismatic-platform`, `docs/kompendium/` (history kept, via `git filter-repo`) | `e9e00da` in this repository | 2025-09-30 to 2026-08-30 |
+| `docs-kompendium/` | `gitlab.com/korczis/prismatic-platform`, `docs/kompendium/` (history kept, via `git filter-repo`) | `45cee76` in this repository | 2025-09-30 to 2026-08-30 |
 | `legacy-2025/unsorted-kompendium/` | `gitlab.com/korczis/prismatic-legacy`, `unsorted/kompendium/` | `36073be527f9` | 2025-03-29 |
 | `legacy-2025/blog-kompendium/` | `gitlab.com/korczis/prismatic-legacy`, `blog/content/kompendium/` | `36073be527f9` | 2025-03-29 |
 | `legacy-2025/blog-anihilace/` | `gitlab.com/korczis/prismatic-legacy`, `blog/content/anihilace/` | `36073be527f9` | 2025-03-29 |
@@ -23,3 +23,6 @@ The rendered site of the platform era is still served at
 (`github.com/prismatic-reality-com/prismatic-promo`, last deploy `e6caea928`, 2026-05-06).
 
 Licence: CC BY-NC-SA 4.0, see `../LICENSE-CONTENT.md`.
+
+The imported history was rewritten once before publication (`git filter-repo --replace-text`)
+to remove the owner's e-mail addresses from file contents; authorship and dates are unchanged.

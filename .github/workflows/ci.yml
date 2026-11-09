@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Last commit imported from the platform monorepo; its history predates the convention.
-      IMPORT_BASE: e9e00da7a6b72693252452d938da599498fb49d8
+      IMPORT_BASE: 45cee7644201dd94fba3d942e79f823288333811
     steps:
       - uses: actions/checkout@v7
         with:

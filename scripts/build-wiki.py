@@ -177,7 +177,7 @@ struktury, detekční markery, klinický rámec a cestu k obraně a zotavení.
 | | Stránka | Obsah |
 |:-:|---|---|
 | 📖 | [[Kapitoly]] | všechny oddíly s počtem stránek |
-| 🧬 | [[Katalog technik\|Katalog-technik]] | hesla EA-X.Y.Z podle rodin |
+| 🧬 | [[Katalog technik\\|Katalog-technik]] | hesla EA-X.Y.Z podle rodin |
 | 🗂️ | [[Případy]] | kazuistiky a historické případy |
 | 🧭 | [[Provenience]] | odkud kniha pochází a jak se vyvíjela |
 | 🛠️ | [[Sestavení]] | jak web sestavit a přispět |

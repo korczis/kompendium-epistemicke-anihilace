@@ -1,0 +1,59 @@
+{#- Odvozené vazby stránky: zpětné odkazy (Zola page.backlinks) a související stránky podle
+    nejspecifičtějšího sdíleného štítku. Bez zásahu do obsahu dostane každá stránka další cesty. -#}
+{%- set backlinks = doc.backlinks | default(value=[]) -%}
+{%- set_global related = [] -%}
+{%- set_global related_tag = "" -%}
+{%- if doc.taxonomies.tags is defined and doc.taxonomies.tags -%}
+  {%- set_global best = 100000 -%}
+  {%- for tag in doc.taxonomies.tags -%}
+    {%- set t = get_taxonomy_term(kind="tags", term=tag) -%}
+    {%- if t.page_count > 1 and t.page_count < best -%}
+      {%- set_global best = t.page_count -%}
+      {%- set_global related_tag = tag -%}
+      {%- set_global related = t.pages -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
+{#- Stránka bez štítků: související jsou sousedé ze stejného oddílu. -#}
+{%- if related | length < 2 and doc.ancestors is defined and doc.ancestors | length > 1 -%}
+  {%- set parent = get_section(path=doc.ancestors | last) -%}
+  {%- set_global related = parent.pages -%}
+  {%- set_global related_tag = "" -%}
+  {%- set_global related_section = parent -%}
+{%- endif -%}
+{%- if backlinks or related | length > 1 %}
+<div class="mt-8 grid gap-4 border-t border-gray-200 pt-6 md:grid-cols-2 dark:border-gray-700">
+  {%- if backlinks %}
+  <section aria-labelledby="backlinks-title">
+    <h2 id="backlinks-title" class="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">
+      Odkazují sem
+      <span class="rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium normal-case text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ backlinks | length }}</span>
+    </h2>
+    <ul class="space-y-1 text-sm">
+      {%- for b in backlinks %}{% if loop.index <= 12 %}
+      <li><a href="{{ b.permalink }}" class="block rounded-lg px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white">{{ b.title | default(value=b.permalink) }}</a></li>
+      {%- endif %}{% endfor %}
+    </ul>
+    {%- if backlinks | length > 12 %}<p class="mt-2 px-2 text-xs text-gray-500 dark:text-gray-400">a {{ backlinks | length - 12 }} dalších</p>{% endif %}
+  </section>
+  {%- endif %}
+  {%- if related | length > 1 %}
+  <section aria-labelledby="related-title">
+    <h2 id="related-title" class="mb-3 text-sm font-semibold uppercase tracking-wide text-gray-900 dark:text-white">
+      Související
+      {%- if related_tag %} <a href="{{ get_taxonomy_url(kind='tags', term=related_tag) }}" class="ml-1 rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium normal-case text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">#{{ related_tag }}</a>
+      {%- else %} <a href="{{ related_section.permalink }}" class="ml-1 rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium normal-case text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600">{{ related_section.title | truncate(length=40) }}</a>{% endif %}
+    </h2>
+    <ul class="space-y-1 text-sm">
+      {%- set_global shown = 0 -%}
+      {%- for r in related -%}
+      {%- if r.permalink != doc.permalink and shown < 8 %}
+      {%- set_global shown = shown + 1 %}
+      <li><a href="{{ r.permalink }}" class="block rounded-lg px-2 py-1 text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white">{{ r.title }}</a></li>
+      {%- endif -%}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+</div>
+{%- endif %}

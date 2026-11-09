@@ -37,7 +37,7 @@ done
 
 head=$(git -C "$work/src" rev-parse HEAD)
 count=$(git -C "$work/src" rev-list --count HEAD)
-first=$(git -C "$work/src" log --reverse --format=%cs | head -1)
+first=$(git -C "$work/src" log --reverse --format=%cs | sed -n 1p)  # sed čte vše: žádný SIGPIPE pod pipefail
 last=$(git -C "$work/src" log -1 --format=%cs)
 git -C "$root" fetch -q "$work/src" "HEAD:refs/lineage/$lineage"
 git -C "$root" merge -q --allow-unrelated-histories --no-edit -m "chore(archive): převzít historii linie $lineage

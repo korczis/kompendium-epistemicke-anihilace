@@ -25,13 +25,21 @@ Etický rámec, bezpečnostní klasifikaci a doporučený způsob čtení popisu
 
 ## Odkud tato edice pochází
 
-| Zdroj | Co obsahoval | Kde je teď |
-|---|---|---|
-| Prismatic Platform, `apps/prismatic_web/priv/content/kompendium/` | plná kniha, 1587 souborů, 2026 | `content/kompendium/`, s historií commitů |
-| Prismatic Platform, `docs/kompendium/` | první strukturovaná verze, 2025 | `archive/docs-kompendium/` |
-| prismatic-legacy, `unsorted/kompendium`, `blog/content/kompendium`, `blog/content/anihilace` | rané texty, rejstříky, slovníky, 2025 | `archive/legacy-2025/` |
-| gist „Epistemická a kognitivní anihilace: kompletní taxonomie“ a dva související gisty | obsah, rejstříky, výkladový slovník, 2025 | `archive/gists/` |
-| Glosář a filozofie Prismatic Platform | hesla, na která kniha odkazuje | `content/glossary/`, `content/philosophy/` |
+Kniha rostla od března 2025 v několika liniích. Všechny jsou v repozitáři **s původní
+historií** commitů:
+
+| Období | Linie | Co obsahovala | Kde je teď |
+|---|---|---|---|
+| 2025-03 | gist „Epistemická a kognitivní anihilace: kompletní taxonomie“, gist „Hypersyntaktická anihilace“ | obsah, rejstříky, výkladový slovník | `archive/gists/` |
+| 2025-03 až 05 | prismatic-legacy | rané texty, rejstříky, slovníky, blog | `archive/prismatic-legacy/` |
+| 2025-07 | gist „Absolutní epistemická disoluční komora“, korczis/prismatic | první struktura o osmi oddílech | `archive/gists/`, `archive/prismatic/` |
+| 2025-09 až 2026-08 | Prismatic Platform, `docs/kompendium/` | strukturovaná verze 29 souborů | `archive/docs-kompendium/` |
+| 2026-01 | psychonautic | znalostní báze o epistemické anihilaci | `archive/psychonautic/` |
+| 2026-04 až dnes | Prismatic Platform, `apps/prismatic_web/priv/content/kompendium/` | plná kniha, 1587 souborů | `content/kompendium/` (zdroj tohoto webu) |
+| | glosář a filozofie Prismatic Platform | hesla, na která kniha odkazuje | `content/glossary/`, `content/philosophy/` |
+
+Přehled linií a postup hledání popisuje
+[`archive/README.md`](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/archive/README.md).
 
 Odkazy na stránky, které do knihy nepatří (vývojářský portál, akademie, architektura platformy),
 vedou na původní veřejný web

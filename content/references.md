@@ -672,6 +672,6 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 
 ## Prameny této edice
 
-- Zdroj knihy: monorepozitář Prismatic Platform, `apps/prismatic_web/priv/content/kompendium/` (historie převzata pomocí `git filter-repo`, 91 commitů 2025-09-30 až 2026-08-30).
-- Původní publikovaná verze: [prismatic-reality-com.github.io/prismatic-promo/kompendium](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/).
-- Rané verze 2025 a gisty: složka [`archive/`](https://github.com/korczis/kompendium-epistemicke-anihilace/tree/main/archive) v repozitáři.
+- Plná kniha: monorepozitář Prismatic Platform, `apps/prismatic_web/priv/content/kompendium/`, převzato i s historií (`git filter-repo`).
+- Starší linie od března 2025 (gisty, prismatic-legacy, korczis/prismatic, `docs/kompendium`, psychonautic): složka [`archive/`](https://github.com/korczis/kompendium-epistemicke-anihilace/tree/main/archive), každá s vlastní historií.
+- Web z doby platformy: [prismatic-reality-com.github.io/prismatic-promo/kompendium](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/).

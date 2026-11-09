@@ -2,6 +2,7 @@
 title = "EA-5-5 konvergentní techniky"
 description = "Konvergentní pre-konceptuální techniky řady EA-5-5"
 weight = 100
+
 [extra]
 draft = false
 stub = true

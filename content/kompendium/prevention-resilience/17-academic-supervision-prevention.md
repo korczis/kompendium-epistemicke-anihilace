@@ -2,9 +2,11 @@
 title = "Akademický dohled"
 description = "Prevence a rezilience — akademický dohled."
 weight = 17
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["15-relationship-monitoring", "16-employer-vigilance", "18-clinical-vigilance-prevention", "19-pastoral-vigilance-prevention"]
 parent = "kompendium-prevention-resilience"

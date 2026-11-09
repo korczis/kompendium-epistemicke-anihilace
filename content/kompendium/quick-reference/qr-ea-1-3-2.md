@@ -2,9 +2,11 @@
 title = "QR: EA-1.3.2 Strategická reinterpretace"
 description = "Rychlá referenční karta — Reinterpretace evidence z kontradiktorní na podporující."
 weight = 132
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-3-2", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-2-3", "qr-ea-1-3-1", "qr-ea-1-3-3", "qr-ea-1-4-1"]
 parent = "kompendium-quick-reference"

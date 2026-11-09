@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Správa narativu"
 description = "Praktický návod sebe-obrany — správa narativu."
 weight = 41
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["4-claim-verification", "40-ai-content-detection", "42-relational-anchors", "43-memory-archive"]
 parent = "kompendium-self-defense-guides"

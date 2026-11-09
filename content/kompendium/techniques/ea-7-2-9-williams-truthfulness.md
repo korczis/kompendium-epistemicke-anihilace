@@ -2,9 +2,11 @@
 title = "EA-7.2.9 Williams: Truthfulness"
 description = "Teoretická reflexe — Williams: Truthfulness a vztah k EA."
 weight = 729
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-7-quine-web-belief", "ea-7-2-8-davidson-charity", "ea-7-3-1-kahneman-system12", "ea-7-3-10-tononi-iit"]
 parent = "kompendium-techniques"

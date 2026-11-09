@@ -2,9 +2,13 @@
 title = "Epistemická anihilace"
 weight = 60
 
+description = "Systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny vedoucí k fundamentálnímu narušení schopnosti poznávat, evaluovat a integrovat informace."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+
 [extra]
 category = "epistemic"
-description = "Systematický, cílený a graduální proces destrukce epistemických struktur jedince nebo skupiny vedoucí k fundamentálnímu narušení schopnosti poznávat, evaluovat a integrovat informace."
 related_terms = ["kognitivni-anihilace", "taxonomie-ea", "metakognitivni-destrukce", "epistemicka-alienace", "nabla-infinity", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 720
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epistemická anihilace", "epistemic annihilation", "destrukce poznání", "kompendium", "manipulace", "epistemic security"]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

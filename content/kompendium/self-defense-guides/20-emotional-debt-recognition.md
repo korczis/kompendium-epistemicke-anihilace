@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Rozpoznání emočního dluhu"
 description = "Praktický návod sebe-obrany — rozpoznání emočního dluhu."
 weight = 20
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["19-fear-processing", "2-evidence-evaluation", "21-boundary-setting", "22-relationship-audit"]
 parent = "kompendium-self-defense-guides"

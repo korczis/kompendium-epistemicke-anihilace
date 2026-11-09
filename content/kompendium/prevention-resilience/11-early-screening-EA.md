@@ -2,9 +2,11 @@
 title = "Včasný screening EA"
 description = "Prevence a rezilience — včasný screening ea."
 weight = 11
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["1-childhood-resilience-foundation", "10-public-discourse-quality", "12-warning-sign-recognition", "13-rapid-response-protocol"]
 parent = "kompendium-prevention-resilience"

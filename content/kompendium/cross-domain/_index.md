@@ -3,6 +3,7 @@ title = "Cross-Domain Bridges"
 description = "Bridges mezi EA frameworkem a doménami OSINT, DD, Security, Compliance — 30 articles."
 sort_by = "weight"
 template = "section.html"
+
 [extra]
 toc = true
 +++

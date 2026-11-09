@@ -2,9 +2,11 @@
 title = "Blue Team & EA detection"
 description = "Integrace agenta Blue Team s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 11
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "blue-team-ea-defense"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["autoheal-ea-regression-repair", "black-team-ea-modeling", "compliance-ea-regulatory-screening", "czech-ares-ea-screening"]
 parent = "kompendium-aiad-integration"

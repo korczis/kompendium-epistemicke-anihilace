@@ -2,9 +2,11 @@
 title = "EA-2.1.4 Publikační blokace"
 description = "Delegitimizační technika — Publikační blokace."
 weight = 2104
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-4", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-2-pseudo-peer-mob", "ea-2-1-3-credentialing-attack", "ea-2-1-5-citation-suppression", "ea-2-1-6-funding-attack"]
 parent = "kompendium-techniques"

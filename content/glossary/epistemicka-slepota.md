@@ -1,14 +1,17 @@
 +++
 title = "Epistemicka Slepota"
 weight = 100
+description = "Epistemicka Slepota — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Epistemicka Slepota — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
 related_terms = ["academy", "actor-model", "addiction-recovery", "adaptive-learning", "3nl", "access-control"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 ref_count_at_creation = 2
 +++

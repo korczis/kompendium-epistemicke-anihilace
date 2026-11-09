@@ -1,9 +1,13 @@
 +++
 title = "QDP"
 weight = 11
+description = "Quality Debt Points - metric tracking code quality issues where each violation counts as debt. Current platform total: 0 QDP (complete elimination)."
+
+[taxonomies]
+tags = ["qdp", "quality", "debt", "metrics", "enforcement", "cascade", "zero-tolerance", "code-quality"]
+
 [extra]
 category = "quality"
-description = "Quality Debt Points - metric tracking code quality issues where each violation counts as debt. Current platform total: 0 QDP (complete elimination)."
 acronym = "QDP"
 technical_domain = "Quality Engineering"
 complexity_level = "Advanced"
@@ -22,7 +26,6 @@ cascade_phases = 4
 industry_comparison = "SonarQube, Code Climate, Coveralls"
 first_introduced = "Gen 3"
 last_updated = "2026-02-22"
-tags = ["qdp", "quality", "debt", "metrics", "enforcement", "cascade", "zero-tolerance", "code-quality"]
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
 word_count = 1494

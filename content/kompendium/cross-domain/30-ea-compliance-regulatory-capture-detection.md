@@ -2,9 +2,11 @@
 title = "EA × Compliance: Regulatory Capture Detection"
 description = "Regulatory capture jako narrative-warfare phenomenon — EA-detection"
 weight = 300
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "compliance"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["29-ea-compliance-kyc-narrative-validation", "3-ea-osint-justice-cz-screening", "4-ea-osint-sanctions-list-bias", "5-ea-osint-social-media-manipulation"]
 parent = "kompendium-cross-domain"

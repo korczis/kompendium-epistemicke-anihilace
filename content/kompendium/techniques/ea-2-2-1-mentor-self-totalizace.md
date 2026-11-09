@@ -2,9 +2,11 @@
 title = "EA-2.2.1 Mentor Self-totalizace"
 description = "Delegitimizační technika — Mentor Self-totalizace."
 weight = 2201
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-1", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-8-reputation-laundering-inverze", "ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-2-10-future-blackmail-implantace", "ea-2-2-2-mentee-isolation"]
 parent = "kompendium-techniques"

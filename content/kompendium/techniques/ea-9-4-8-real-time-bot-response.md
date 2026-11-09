@@ -2,9 +2,11 @@
 title = "EA-9.4.8 Real-Time Bot Response"
 description = "Současná digitální EA — real-time bot response."
 weight = 948
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-6-mass-comment-coordination", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-9-bot-narrative-injection", "ea-9-5-1-meme-cascade-injection"]
 parent = "kompendium-techniques"

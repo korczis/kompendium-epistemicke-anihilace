@@ -2,9 +2,11 @@
 title = "EA-9.6.7 AI Medical Decision EA"
 description = "Současná digitální EA — ai medical decision ea."
 weight = 967
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-5-AI-credit-scoring-bias", "ea-9-6-6-AI-hiring-narrative", "ea-9-6-8-AI-legal-decision-EA", "ea-9-6-9-AI-immigration-decision"]
 parent = "kompendium-techniques"

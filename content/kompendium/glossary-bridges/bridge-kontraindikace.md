@@ -1,14 +1,17 @@
 +++
 title = "Bridge: Kontraindikace / Contraindications"
 weight = 100
+description = "Bridge entry for contraindications across clinical, security, and intervention domains."
+
+[taxonomies]
+tags = ["glossary-bridge", "kompendium", "interactive"]
+
 [extra]
 category = "kompendium-bridge"
-description = "Bridge entry for contraindications across clinical, security, and intervention domains."
 related_terms = ["bridge-autoheal", "bridge-agent", "bridge-aiad", "bridge-3nl", "bridge-autoevolve", "bridge-betrayal-trauma"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "interactive"]
 quality_score = 75
 +++
 

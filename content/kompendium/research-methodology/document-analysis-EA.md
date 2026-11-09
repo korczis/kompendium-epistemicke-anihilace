@@ -2,9 +2,11 @@
 title = "Analýza Dokumentů v EA Výzkumu"
 description = "Výzkumná metodologie EA — analýza dokumentů v ea výzkumu."
 weight = 29
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["debriefing-protocol-research", "discourse-analysis-EA", "effect-size-EA", "ethnography-EA"]
 parent = "kompendium-research-methodology"

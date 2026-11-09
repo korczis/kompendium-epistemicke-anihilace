@@ -1,8 +1,12 @@
 +++
 title = "Undue Influence"
 weight = 5
-[extra]
 description = "Legal and psychological doctrine recognizing that ostensibly voluntary acts may be the product of overborne free will when one party exerts excessive psychological pressure, exploits a position of trust, or operates in conditions that suppress independent judgment"
+
+[taxonomies]
+tags = ["legal", "ethics", "investigation", "due-diligence", "compliance"]
+
+[extra]
 category = "legal"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["coercive-control", "trauma-bonding", "gaslighting", "expert-witness", "consent", "due-diligence", "informed-consent"]
 keywords = ["undue influence", "coercion", "free will", "fiduciary duty", "elder abuse", "testamentary capacity", "contractual consent", "high-control groups"]
-tags = ["legal", "ethics", "investigation", "due-diligence", "compliance"]
 key_takeaway = "Undue influence is the doctrine that lets the law set aside contracts, wills, and consent obtained when one party's free judgment was overborne by another's psychological pressure, dependency exploitation, or institutional control — even where no overt threat or fraud is present."
 see_also = ["forensic-interview", "expert-witness", "informed-consent"]
 image = "/images/sections/glossary.png"

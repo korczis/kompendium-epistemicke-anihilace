@@ -2,9 +2,13 @@
 title = "Deplatforming"
 weight = 60
 
+description = "Removal of an actor's access to digital infrastructure (social platforms, payment processors, hosting, DNS) as a platform-level epistemic intervention; trade-offs between harm reduction and epistemic-monoculture risk."
+
+[taxonomies]
+tags = ["glossary", "security", "epistemic", "kompendium"]
+
 [extra]
 category = "security"
-description = "Removal of an actor's access to digital infrastructure (social platforms, payment processors, hosting, DNS) as a platform-level epistemic intervention; trade-offs between harm reduction and epistemic-monoculture risk."
 related_terms = ["epistemic-security", "info-ops", "firehose-of-falsehood", "delegitimizace", "epistemicka-anihilace", "hyperreality"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["deplatforming", "content moderation", "platform governance", "epistemic intervention", "no-platform", "infrastructure denial"]
-tags = ["glossary", "security", "epistemic", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

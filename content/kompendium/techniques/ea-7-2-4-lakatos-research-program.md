@@ -2,9 +2,11 @@
 title = "EA-7.2.4 Lakatos: Vědecký výzkumný program"
 description = "Teoretická reflexe — Lakatos: Vědecký výzkumný program a vztah k EA."
 weight = 724
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-2-goldman-veritism", "ea-7-2-3-popper-falsification", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-6-feyerabend-anti-method"]
 parent = "kompendium-techniques"

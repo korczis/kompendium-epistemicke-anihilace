@@ -2,9 +2,11 @@
 title = "EA-7.1.4 Habermas: Komunikativní jednání"
 description = "Teoretická reflexe — Habermas: Komunikativní jednání a vztah k EA."
 weight = 714
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-2-foucault-discipline", "ea-7-1-3-adorno-instrumental-reason", "ea-7-1-5-arendt-banality-evil", "ea-7-1-6-sloterdijk-spheres"]
 parent = "kompendium-techniques"

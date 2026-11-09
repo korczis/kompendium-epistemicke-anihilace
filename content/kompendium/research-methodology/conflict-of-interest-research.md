@@ -2,9 +2,11 @@
 title = "Conflict of Interest ve Výzkumu EA"
 description = "Výzkumná metodologie EA — conflict of interest ve výzkumu ea."
 weight = 37
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["case-study-design-EA", "causal-inference-EA", "conversation-analysis-EA", "data-security-EA-research"]
 parent = "kompendium-research-methodology"

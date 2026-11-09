@@ -2,9 +2,11 @@
 title = "IRB Protokol pro EA Výzkum"
 description = "Výzkumná metodologie EA — irb protokol pro ea výzkum."
 weight = 30
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["IPA-EA", "RCT-EA-considerations", "anonymization-EA-research", "case-study-design-EA"]
 parent = "kompendium-research-methodology"

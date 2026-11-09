@@ -2,9 +2,11 @@
 title = "EA-2.4.6 Peer Review Capture"
 description = "Delegitimizační technika — Peer Review Capture."
 weight = 2406
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-6", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-4-leadership-capture", "ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-7-conference-capture", "ea-2-4-8-journal-capture"]
 parent = "kompendium-techniques"

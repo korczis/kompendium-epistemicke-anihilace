@@ -1,9 +1,13 @@
 +++
 title = "Hermeneutic Outsourcing / Hermeneutický outsourcing"
 weight = 50
+description = "Delegation of meaning-making to an external authority, eroding interpretive autonomy."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Delegation of meaning-making to an external authority, eroding interpretive autonomy."
 related_terms = [
   "epistemic-pipeline",
   "delegitimizace",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

@@ -2,9 +2,11 @@
 title = "Důvěrnost v EA detekci"
 description = "Kritická perspektiva — důvěrnost v ea detekci."
 weight = 17
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "ethical"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["15-consent-validity-question", "16-treatment-coercion-risk", "18-EA-as-power-tool", "19-research-exploitation"]
 parent = "kompendium-critical-perspectives"

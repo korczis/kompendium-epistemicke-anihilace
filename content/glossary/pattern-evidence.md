@@ -1,8 +1,12 @@
 +++
 title = "Pattern Evidence"
 weight = 5
-[extra]
 description = "Evidence consisting of observable, repeatable configurations or sequences — physical impressions, behavioral signatures, statistical regularities — that supports inference about origin, agency, or causation in forensic, OSINT, and investigative contexts"
+
+[taxonomies]
+tags = ["forensic", "investigation", "evidence", "osint", "due-diligence"]
+
+[extra]
 category = "forensic"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["evidence", "verifiable-evidence", "pattern-matching", "behaviour-pattern", "anomaly-detection", "statistical-detection", "expert-witness"]
 keywords = ["pattern evidence", "physical evidence", "behavioral patterns", "forensic pattern analysis", "modus operandi", "signature analysis", "statistical inference", "Daubert"]
-tags = ["forensic", "investigation", "evidence", "osint", "due-diligence"]
 key_takeaway = "Pattern evidence supports inference from regularity — that something repeats across cases, locations, or time in ways unlikely to be coincidence. Its evidentiary weight depends entirely on the rigor of the underlying classification scheme and the empirical base rate of the pattern in the relevant population."
 see_also = ["forensic-interview", "expert-witness", "chain-of-custody"]
 image = "/images/sections/glossary.png"

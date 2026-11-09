@@ -2,9 +2,11 @@
 title = "EA-2.2.2 Mentee Isolation"
 description = "Delegitimizační technika — Mentee Isolation."
 weight = 2202
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-2", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-1-mentor-self-totalizace", "ea-2-2-10-future-blackmail-implantace", "ea-2-2-3-thesis-direction-capture", "ea-2-2-4-collaboration-monopolizace"]
 parent = "kompendium-techniques"

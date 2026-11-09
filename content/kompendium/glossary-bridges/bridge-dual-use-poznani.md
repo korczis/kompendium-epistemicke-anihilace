@@ -2,9 +2,11 @@
 title = "Bridge: dual-use-poznani"
 description = "Glossary bridge — propojeni kompendia s glossary entry dual-use-poznani."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "dual-use-poznani", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-differance", "bridge-disociace", "bridge-easm", "bridge-embodied-cognition"]
 parent = "kompendium-glossary-bridges"

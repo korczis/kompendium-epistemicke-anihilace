@@ -2,9 +2,11 @@
 title = "Bridge: qdp"
 description = "Glossary bridge — propojeni kompendia s glossary entry qdp."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "qdp", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-propaganda", "bridge-purple-team", "bridge-qeve", "bridge-quality-debt"]
 parent = "kompendium-glossary-bridges"

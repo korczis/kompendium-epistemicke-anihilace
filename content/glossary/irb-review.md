@@ -1,8 +1,12 @@
 +++
 title = "IRB Review"
 weight = 5
-[extra]
 description = "Independent ethics committee evaluation of research involving human participants, designed to protect subjects from undue risk, ensure informed consent, verify scientific merit, and maintain compliance with national and international research-ethics frameworks"
+
+[taxonomies]
+tags = ["ethics", "research", "compliance", "regulatory"]
+
+[extra]
 category = "ethics"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["informed-consent", "individual-risk-map", "transformative-experience", "consent", "data-protection", "gdpr", "due-diligence"]
 keywords = ["IRB", "Institutional Review Board", "research ethics", "ethics committee", "Belmont Report", "Common Rule", "human subjects research", "vulnerable populations"]
-tags = ["ethics", "research", "compliance", "regulatory"]
 key_takeaway = "An Institutional Review Board (or its national equivalent) is the gatekeeping body without whose approval most research involving human subjects cannot lawfully proceed. The board's task is not to optimize science but to ensure that the rights and welfare of participants are not subordinated to research goals."
 see_also = ["informed-consent", "individual-risk-map", "transformative-experience"]
 image = "/images/sections/glossary.png"

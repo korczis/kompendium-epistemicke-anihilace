@@ -2,9 +2,11 @@
 title = "EA-2.1.10 Credentials Rekonfigurace"
 description = "Delegitimizační technika — Credentials Rekonfigurace."
 weight = 2110
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-10", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-1-7-iluzorni-komplexita", "ea-2-1-1-expertni-disinflation", "ea-2-1-2-pseudo-peer-mob", "ea-2-1-3-credentialing-attack"]
 parent = "kompendium-techniques"

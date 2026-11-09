@@ -2,9 +2,11 @@
 title = "Konverzační Analýza EA Interakcí"
 description = "Výzkumná metodologie EA — konverzační analýza ea interakcí."
 weight = 28
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["causal-inference-EA", "conflict-of-interest-research", "data-security-EA-research", "debriefing-protocol-research"]
 parent = "kompendium-research-methodology"

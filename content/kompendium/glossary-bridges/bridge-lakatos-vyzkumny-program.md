@@ -2,9 +2,11 @@
 title = "Bridge: lakatos-vyzkumny-program"
 description = "Glossary bridge — propojeni kompendia s glossary entry lakatos-vyzkumny-program."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "lakatos-vyzkumny-program", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-kompendium-ea", "bridge-kontraindikace", "bridge-lebenswelt", "bridge-mereologicka-rekonstrukce"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "Digitální hygiena"
 description = "Prevence a rezilience — digitální hygiena."
 weight = 7
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["5-workplace-prevention-EA", "6-media-literacy-prevention", "8-critical-thinking-curriculum", "9-civic-education-prevention"]
 parent = "kompendium-prevention-resilience"

@@ -2,9 +2,11 @@
 title = "Dekoloniální epistemologie"
 description = "Kritická perspektiva — dekoloniální epistemologie."
 weight = 27
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["25-critical-psychiatry-alternative", "26-mad-studies-perspective", "28-feminist-epistemology-alt", "29-process-philosophy-alt"]
 parent = "kompendium-critical-perspectives"

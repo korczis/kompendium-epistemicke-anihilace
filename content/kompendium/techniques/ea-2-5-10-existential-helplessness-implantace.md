@@ -2,9 +2,11 @@
 title = "EA-2.5.10 Existential Helplessness Implantace"
 description = "Delegitimizační technika — Existential Helplessness Implantace."
 weight = 2510
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-10", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-falesny-konsensus", "ea-2-5-1-pseudo-pokora-internalizace", "ea-2-5-2-imposter-syndrome-amplifikace", "ea-2-5-3-self-doubt-cultivation"]
 parent = "kompendium-techniques"

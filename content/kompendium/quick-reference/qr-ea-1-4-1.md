@@ -2,9 +2,11 @@
 title = "QR: EA-1.4.1 Prosodická dominance"
 description = "Rychlá referenční karta — Hlasové vzorce signalizující epistemickou autoritu."
 weight = 141
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-4-1", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-3-2", "qr-ea-1-3-3", "qr-ea-1-4-2", "qr-ea-1-5-1"]
 parent = "kompendium-quick-reference"

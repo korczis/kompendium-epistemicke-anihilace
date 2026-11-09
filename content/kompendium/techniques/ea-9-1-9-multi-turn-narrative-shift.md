@@ -2,9 +2,11 @@
 title = "EA-9.1.9 Multi-Turn Narrative Shift"
 description = "Současná digitální EA — multi-turn narrative shift."
 weight = 919
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-7-synthetic-expertise-claim", "ea-9-1-8-llm-confabulation-amplification", "ea-9-2-1-deepfake-personality", "ea-9-2-10-AI-personhood-claim"]
 parent = "kompendium-techniques"

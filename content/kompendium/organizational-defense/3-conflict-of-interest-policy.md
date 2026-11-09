@@ -2,9 +2,11 @@
 title = "Politika střetu zájmů"
 description = "Organizační obrana — politika střetu zájmů."
 weight = 30
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["28-access-control-EA", "29-segregation-duties", "30-rotation-of-roles", "31-incident-response-EA"]
 parent = "kompendium-organizational-defense"

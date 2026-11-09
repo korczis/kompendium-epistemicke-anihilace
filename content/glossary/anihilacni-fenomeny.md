@@ -1,8 +1,12 @@
 +++
 title = "Anihilační fenomény (Annihilation Phenomena)"
 weight = 7
-[extra]
 description = "Phenomenological and clinical category for experiences of self-dissolution, ego-loss, ontological erasure, and the felt collapse of one's existence — observed in mystical states, severe trauma, certain psychotic episodes, and totalitarian coercion contexts"
+
+[taxonomies]
+tags = ["phenomenology", "clinical", "psychology", "mystical-experience"]
+
+[extra]
 category = "phenomenology"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["ego-death", "mysticky-prozitek", "epistemicke-trauma", "disociace", "identity-destruction", "narativni-identita"]
 keywords = ["annihilation", "ego death", "self-dissolution", "phenomenology", "mystical experience", "trauma", "depersonalization"]
-tags = ["phenomenology", "clinical", "psychology", "mystical-experience"]
 key_takeaway = "Anihilační fenomény share a common phenomenological core — the felt loss of the experiencing subject — but their clinical, mystical, and coercive variants diverge sharply in trigger, trajectory, and integrative outcome. Conflating them produces both diagnostic error and ideological abuse."
 see_also = ["ego-death", "mysticky-prozitek", "epistemicke-trauma"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "EA-7.3.10 Tononi: IIT"
 description = "Teoretická reflexe — Tononi: IIT a vztah k EA."
 weight = 740
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-9-williams-truthfulness", "ea-7-3-1-kahneman-system12", "ea-7-3-2-tversky-heuristics", "ea-7-3-3-friston-active-inference"]
 parent = "kompendium-techniques"

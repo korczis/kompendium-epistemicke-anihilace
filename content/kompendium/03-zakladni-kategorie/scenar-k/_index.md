@@ -2,6 +2,7 @@
 title = "Scénář K"
 description = "Scénář K — pokročilý scenář epistemické anihilace"
 weight = 100
+
 [extra]
 draft = false
 stub = true

@@ -2,9 +2,11 @@
 title = "Black Team & EA detection"
 description = "Integrace agenta Black Team s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 14
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "black-team-ea-modeling"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["autoevolve-ea-pattern-evolution", "autoheal-ea-regression-repair", "blue-team-ea-defense", "compliance-ea-regulatory-screening"]
 parent = "kompendium-aiad-integration"

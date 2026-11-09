@@ -2,9 +2,11 @@
 title = "Vigilance zaměstnavatele"
 description = "Prevence a rezilience — vigilance zaměstnavatele."
 weight = 16
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["14-de-escalation-prevention", "15-relationship-monitoring", "17-academic-supervision-prevention", "18-clinical-vigilance-prevention"]
 parent = "kompendium-prevention-resilience"

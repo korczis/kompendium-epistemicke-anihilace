@@ -2,9 +2,11 @@
 title = "Tréninky odolnosti"
 description = "Organizační obrana — tréninky odolnosti."
 weight = 120
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["10-stakeholder-engagement", "11-onboarding-EA-awareness", "13-exit-interview-EA", "14-anonymous-feedback"]
 parent = "kompendium-organizational-defense"

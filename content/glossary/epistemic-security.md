@@ -2,9 +2,13 @@
 title = "Epistemic Security"
 weight = 60
 
+description = "Interdisciplinary field studying systemic threats to collective and individual cognition; encompasses disinformation, manipulated media, platform governance, and platform-level epistemic integrity."
+
+[taxonomies]
+tags = ["glossary", "security", "epistemic", "kompendium"]
+
 [extra]
 category = "security"
-description = "Interdisciplinary field studying systemic threats to collective and individual cognition; encompasses disinformation, manipulated media, platform governance, and platform-level epistemic integrity."
 related_terms = ["info-ops", "deepfake", "deplatforming", "firehose-of-falsehood", "epistemicka-anihilace", "nabla-infinity"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epistemic security", "information security", "disinformation", "epistemic integrity", "collective cognition", "infohazard"]
-tags = ["glossary", "security", "epistemic", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

@@ -1,9 +1,13 @@
 +++
 title = "AutoHeal"
 weight = 59
+description = "Automatic platform self-repair mechanism for quality regression recovery"
+
+[taxonomies]
+tags = ["glossary", "evolution", "autoheal", "prismatic"]
+
 [extra]
 category = "evolution"
-description = "Automatic platform self-repair mechanism for quality regression recovery"
 related_terms = ["autoevolve", "cascade", "cascade-pattern", "clean-run", "qdp", "self-healing", "supervisor", "circuit-breaker", "fault-tolerance", "let-it-crash", "mix", "dialyzer"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -11,7 +15,6 @@ word_count = 1193
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["AutoHeal", "Automatic", "glossary", "evolution", "Prismatic Platform", "Level", "AutoEvolve", "Cross"]
-tags = ["glossary", "evolution", "autoheal", "prismatic"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

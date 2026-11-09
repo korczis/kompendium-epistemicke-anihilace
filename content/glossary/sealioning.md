@@ -2,9 +2,13 @@
 title = "Sealioning"
 weight = 60
 
+description = "Bad-faith inquiry technique: persistent, ostensibly polite demands for evidence and explanation deployed as harassment. Operationally couples with EA-1.1.2 (information starvation) and EA-1.3.3 (thematic diversion)."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "rhetoric"]
+
 [extra]
 category = "epistemic"
-description = "Bad-faith inquiry technique: persistent, ostensibly polite demands for evidence and explanation deployed as harassment. Operationally couples with EA-1.1.2 (information starvation) and EA-1.3.3 (thematic diversion)."
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "motte-and-bailey", "epistemicka-pokora", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["sealioning", "bad-faith inquiry", "JAQing off", "harassment", "EA-1.1.2", "EA-1.3.3"]
-tags = ["glossary", "epistemic", "kompendium", "rhetoric"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

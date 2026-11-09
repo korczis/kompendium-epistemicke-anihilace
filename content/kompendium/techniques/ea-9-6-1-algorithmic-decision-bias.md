@@ -2,9 +2,11 @@
 title = "EA-9.6.1 Algorithmic Decision Bias"
 description = "Současná digitální EA — algorithmic decision bias."
 weight = 961
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-8-meme-context-collapse", "ea-9-5-9-meme-radicalization-pipeline", "ea-9-6-10-AI-welfare-decision-EA", "ea-9-6-2-AI-judgment-laundering"]
 parent = "kompendium-techniques"

@@ -2,9 +2,11 @@
 title = "EA-7.3.3 Friston: Active Inference"
 description = "Teoretická reflexe — Friston: Active Inference a vztah k EA."
 weight = 733
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-3-10-tononi-iit", "ea-7-3-2-tversky-heuristics", "ea-7-3-4-clark-extended-mind", "ea-7-3-5-metzinger-ego-tunnel"]
 parent = "kompendium-techniques"

@@ -2,9 +2,11 @@
 title = "Klasifikace informací"
 description = "Organizační obrana — klasifikace informací."
 weight = 270
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["25-vendor-management-EA", "26-contractor-vetting", "28-access-control-EA", "29-segregation-duties"]
 parent = "kompendium-organizational-defense"

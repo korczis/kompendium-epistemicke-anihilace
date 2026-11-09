@@ -2,9 +2,11 @@
 title = "Bridge: lebenswelt"
 description = "Glossary bridge — propojeni kompendia s glossary entry lebenswelt."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "lebenswelt", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-kontraindikace", "bridge-lakatos-vyzkumny-program", "bridge-mereologicka-rekonstrukce", "bridge-metakognice"]
 parent = "kompendium-glossary-bridges"

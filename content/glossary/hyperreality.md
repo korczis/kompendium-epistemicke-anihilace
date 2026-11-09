@@ -2,9 +2,13 @@
 title = "Hyperreality"
 weight = 60
 
+description = "Baudrillardian condition in which simulations precede and replace the real; ontological frame for understanding deepfake-saturated, platform-mediated, AI-generated information environments."
+
+[taxonomies]
+tags = ["glossary", "philosophical", "epistemic", "kompendium"]
+
 [extra]
 category = "philosophical"
-description = "Baudrillardian condition in which simulations precede and replace the real; ontological frame for understanding deepfake-saturated, platform-mediated, AI-generated information environments."
 related_terms = ["deepfake", "epistemic-security", "epistemicka-anihilace", "narrative-identity", "info-ops", "deplatforming"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["hyperreality", "Baudrillard", "simulacra", "simulation", "postmodern", "ontological annihilation", "media philosophy"]
-tags = ["glossary", "philosophical", "epistemic", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

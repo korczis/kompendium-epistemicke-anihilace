@@ -2,9 +2,11 @@
 title = "Plánování nástupnictví s EA fokusem"
 description = "Organizační obrana — plánování nástupnictví s ea fokusem."
 weight = 200
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["19-mentorship-protection", "2-charter-protection", "21-decision-traceability", "22-meeting-structure"]
 parent = "kompendium-organizational-defense"

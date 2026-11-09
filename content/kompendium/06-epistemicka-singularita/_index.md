@@ -2,6 +2,7 @@
 title = "Epistemická singularita"
 description = "Krajní stav epistemické anihilace"
 weight = 100
+
 [extra]
 draft = false
 stub = true

@@ -1,8 +1,12 @@
 +++
 title = "Ego Death"
 weight = 6
-[extra]
 description = "Phenomenological state in which the ordinary sense of being a separate, continuous self temporarily dissolves — most commonly reported in advanced contemplative practice, mystical experience, high-dose psychedelic states, and certain trauma contexts"
+
+[taxonomies]
+tags = ["phenomenology", "mystical-experience", "consciousness", "clinical"]
+
+[extra]
 category = "phenomenology"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "medium"
 related_terms = ["anihilacni-fenomeny", "mysticky-prozitek", "epistemicke-trauma", "disociace", "narativni-identita", "identity-destruction"]
 keywords = ["ego death", "ego dissolution", "self-transcendence", "mystical experience", "psychedelic", "non-dual states"]
-tags = ["phenomenology", "mystical-experience", "consciousness", "clinical"]
 key_takeaway = "Ego death is a temporary suspension of the self-as-narrator function. Whether it produces lasting integration or persistent destabilization depends almost entirely on context, preparation, and post-experience integration support — not on the intensity of the state itself."
 see_also = ["anihilacni-fenomeny", "mysticky-prozitek", "narativni-identita"]
 image = "/images/sections/glossary.png"

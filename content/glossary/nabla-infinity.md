@@ -1,8 +1,12 @@
 +++
 title = "NABLA Infinity"
 weight = 31
-[extra]
 description = "Epistemic framework with 7 non-negotiable axioms governing all belief formation, knowledge validation, and evidence handling across the platform."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "nabla-infinity", "prismatic"]
+
+[extra]
 category = "epistemic"
 abbreviation = "nabla"
 related_terms = ["trinity-gate", "signal-plurality", "confidence-threshold", "three-nl", "provenance-mandatory", "blue-team", "consciousness-traits", "entity-resolution", "epistemic-pipeline", "gray-team", "intelligence-fusion", "lean4", "no-doubts", "no-mercy", "nm-nd", "ollama", "qeve", "red-team", "white-team"]
@@ -12,7 +16,6 @@ word_count = 2258
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["NABLA", "Infinity", "Epistemic", "glossary", "Prismatic Platform", "BLOCK", "Trinity Gate", "NABLA Infinity"]
-tags = ["glossary", "epistemic", "nabla-infinity", "prismatic"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

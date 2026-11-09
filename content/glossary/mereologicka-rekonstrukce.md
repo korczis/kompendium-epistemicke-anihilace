@@ -2,9 +2,13 @@
 title = "Mereologická rekonstrukce"
 weight = 60
 
+description = "Whole-part reconstruction therapy — staged restoration of fragmented epistemic and identity structures by sequenced re-integration of evaluative parts before narrative wholes."
+
+[taxonomies]
+tags = ["glossary", "clinical", "kompendium"]
+
 [extra]
 category = "clinical"
-description = "Whole-part reconstruction therapy — staged restoration of fragmented epistemic and identity structures by sequenced re-integration of evaluative parts before narrative wholes."
 related_terms = ["disociace", "iatrogenic-harm", "narrative-identity", "epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 580
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["mereologická rekonstrukce", "mereological reconstruction", "whole-part therapy", "EA recovery", "fragmentation", "reintegration"]
-tags = ["glossary", "clinical", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

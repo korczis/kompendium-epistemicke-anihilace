@@ -2,9 +2,11 @@
 title = "QR: EA-1.5.2 Dominantní tělesné hieroglyfy"
 description = "Rychlá referenční karta — Body language ustanovující neverbální hierarchii."
 weight = 152
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-5-2", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-4-2", "qr-ea-1-5-1", "qr-ea-2-1-1", "qr-ea-2-1-10"]
 parent = "kompendium-quick-reference"

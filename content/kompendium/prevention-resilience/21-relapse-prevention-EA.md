@@ -2,9 +2,11 @@
 title = "Prevence relapsu"
 description = "Prevence a rezilience — prevence relapsu."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "tertiary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["2-school-based-prevention", "20-peer-vigilance-prevention", "22-post-EA-network-rebuilding", "23-skills-rebuilding-program"]
 parent = "kompendium-prevention-resilience"

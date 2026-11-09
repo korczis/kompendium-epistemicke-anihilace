@@ -1,14 +1,17 @@
 +++
 title = "Trauma"
 weight = 100
+description = "Trauma — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Trauma — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["longterm-altruistic-channeling", "longterm-relapse-prevention", "duvera", "acute-information-curation", "acute-stabilization-protocol", "acute-safety-establishment"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

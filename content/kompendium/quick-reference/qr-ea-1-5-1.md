@@ -2,9 +2,11 @@
 title = "QR: EA-1.5.1 Strategická proxemika"
 description = "Rychlá referenční karta — Manipulace s prostorem pro indukci kognitivních efektů."
 weight = 151
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-5-1", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-4-1", "qr-ea-1-4-2", "qr-ea-1-5-2", "qr-ea-2-1-1"]
 parent = "kompendium-quick-reference"

@@ -1,9 +1,13 @@
 +++
 title = "Identity Destruction"
 weight = 50
+description = "Systematic dismantling of selfhood via coercive influence techniques."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Systematic dismantling of selfhood via coercive influence techniques."
 related_terms = [
   "love-bombing",
   "discard",
@@ -13,7 +17,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

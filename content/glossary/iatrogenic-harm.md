@@ -2,9 +2,13 @@
 title = "Iatrogenic Harm"
 weight = 60
 
+description = "Harm caused by therapeutic intervention itself; specific risks in EA recovery contexts include retraumatization, false-memory induction, and reinforcement of perpetrator framings."
+
+[taxonomies]
+tags = ["glossary", "clinical", "kompendium"]
+
 [extra]
 category = "clinical"
-description = "Harm caused by therapeutic intervention itself; specific risks in EA recovery contexts include retraumatization, false-memory induction, and reinforcement of perpetrator framings."
 related_terms = ["disociace", "mereologicka-rekonstrukce", "epistemicka-anihilace", "narrative-identity", "kognitivni-anihilace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["iatrogenic harm", "therapy-induced harm", "false memory", "retraumatization", "treatment risk", "EA recovery"]
-tags = ["glossary", "clinical", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

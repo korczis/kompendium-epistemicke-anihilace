@@ -2,9 +2,13 @@
 title = "Complex Trauma"
 weight = 60
 
+description = "Trauma resulting from prolonged, repeated exposure to interpersonal violation in contexts of inescapability — Judith Herman's category encompassing damage that single-incident PTSD frameworks fail to capture."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "clinical"]
+
 [extra]
 category = "clinical"
-description = "Trauma resulting from prolonged, repeated exposure to interpersonal violation in contexts of inescapability — Judith Herman's category encompassing damage that single-incident PTSD frameworks fail to capture."
 related_terms = ["trauma-spectrum", "trauma-bond", "structural-dissociation", "hippocampus-trauma", "hpa-axis", "fawn-response"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-26"
 date_modified = "2026-04-26"
 keywords = ["complex trauma", "C-PTSD", "Herman", "DESNOS", "captivity", "interpersonal trauma", "clinical"]
-tags = ["glossary", "epistemic", "kompendium", "clinical"]
 quality_score = 82
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

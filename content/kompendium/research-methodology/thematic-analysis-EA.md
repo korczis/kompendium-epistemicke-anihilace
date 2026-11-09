@@ -2,9 +2,11 @@
 title = "Tematická Analýza EA Dat"
 description = "Výzkumná metodologie EA — tematická analýza ea dat."
 weight = 26
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["replication-EA-research", "survey-design-EA", "time-series-EA", "vulnerable-population-research"]
 parent = "kompendium-research-methodology"

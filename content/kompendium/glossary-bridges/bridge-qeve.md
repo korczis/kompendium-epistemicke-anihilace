@@ -2,9 +2,11 @@
 title = "Bridge: qeve"
 description = "Glossary bridge — propojeni kompendia s glossary entry qeve."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "qeve", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-purple-team", "bridge-qdp", "bridge-quality-debt", "bridge-readiness"]
 parent = "kompendium-glossary-bridges"

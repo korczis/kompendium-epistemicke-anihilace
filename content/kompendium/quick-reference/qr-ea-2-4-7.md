@@ -2,9 +2,11 @@
 title = "QR: EA-2.4.7 Conference capture"
 description = "Rychla referencni karta pro EA-2.4.7 (delegitimizace)."
 weight = 30247
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-4-7", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-4-5", "qr-ea-2-4-6", "qr-ea-2-4-8", "qr-ea-2-4-9"]
 parent = "kompendium-quick-reference"

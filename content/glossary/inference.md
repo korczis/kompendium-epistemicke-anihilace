@@ -1,9 +1,13 @@
 +++
 title = "Inference"
 weight = 36
+description = "Executing a trained AI model to generate predictions or outputs"
+
+[taxonomies]
+tags = ["glossary", "technology", "inference", "prismatic"]
+
 [extra]
 category = "technology"
-description = "Executing a trained AI model to generate predictions or outputs"
 related_terms = ["ollama", "beam", "telemetry", "observability", "rate-limiting", "backpressure"]
 author = "Tomas Korcak (korczis)"
 reading_time = "4 min"
@@ -11,7 +15,6 @@ word_count = 783
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Inference", "Executing", "glossary", "technology", "Prismatic Platform", "README", "Cache"]
-tags = ["glossary", "technology", "inference", "prismatic"]
 quality_score = 67
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

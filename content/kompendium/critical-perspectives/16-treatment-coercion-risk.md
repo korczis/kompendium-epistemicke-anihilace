@@ -2,9 +2,11 @@
 title = "Coerce léčba a EA framework"
 description = "Kritická perspektiva — coerce léčba a ea framework."
 weight = 16
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "ethical"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["14-power-asymmetry-EA", "15-consent-validity-question", "17-confidentiality-EA", "18-EA-as-power-tool"]
 parent = "kompendium-critical-perspectives"

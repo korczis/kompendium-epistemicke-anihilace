@@ -2,9 +2,11 @@
 title = "Bridge: panopticism"
 description = "Glossary bridge — propojeni kompendia s glossary entry panopticism."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "panopticism", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-ontologicka-anihilace", "bridge-osint", "bridge-power-knowledge", "bridge-predictive-processing"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,13 @@
 title = "Gestalt Shift"
 weight = 60
 
+description = "Sudden perceptual or conceptual reorganization in which the same data is reinterpreted under a new structural frame. Connects to Kuhnian paradigm shift and EA-5.1.26 paradigm-migration techniques."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "perception"]
+
 [extra]
 category = "epistemic"
-description = "Sudden perceptual or conceptual reorganization in which the same data is reinterpreted under a new structural frame. Connects to Kuhnian paradigm shift and EA-5.1.26 paradigm-migration techniques."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "kompendium-ea", "taxonomie-ea", "metakognice", "intentionalita"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["gestalt shift", "perceptual reorganization", "paradigm shift", "Kuhn", "EA-5.1.26", "frame switch"]
-tags = ["glossary", "epistemic", "kompendium", "perception"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

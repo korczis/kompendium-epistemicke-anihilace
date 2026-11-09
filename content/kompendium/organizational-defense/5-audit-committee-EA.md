@@ -2,9 +2,11 @@
 title = "Auditní výbor proti EA"
 description = "Organizační obrana — auditní výbor proti ea."
 weight = 50
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["4-whistleblower-mechanism", "40-post-incident-learning", "6-ombudsman-role", "7-ethics-officer-mandate"]
 parent = "kompendium-organizational-defense"

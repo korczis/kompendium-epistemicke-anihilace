@@ -2,9 +2,11 @@
 title = "Reprodukční krize a EA výzkum"
 description = "Kritická perspektiva — reprodukční krize a ea výzkum."
 weight = 7
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["5-false-positive-risk", "6-political-instrumentalization", "8-theoretical-imperialism", "9-essentialism-critique"]
 parent = "kompendium-critical-perspectives"

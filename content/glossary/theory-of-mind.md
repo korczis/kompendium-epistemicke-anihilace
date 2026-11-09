@@ -2,9 +2,13 @@
 title = "Theory of Mind"
 weight = 60
 
+description = "The capacity to attribute mental states — beliefs, desires, intentions — to self and others. Indispensable for cooperation; structurally exploitable by manipulators with high-fidelity reverse-mindreading capacity."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "cognition"]
+
 [extra]
 category = "epistemic"
-description = "The capacity to attribute mental states — beliefs, desires, intentions — to self and others. Indispensable for cooperation; structurally exploitable by manipulators with high-fidelity reverse-mindreading capacity."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognice", "intentionalita", "embodied-cognition", "kompendium-ea"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 550
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["theory of mind", "ToM", "mindreading", "Premack Woodruff", "false-belief task", "manipulation"]
-tags = ["glossary", "epistemic", "kompendium", "cognition"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

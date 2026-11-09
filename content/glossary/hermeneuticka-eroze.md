@@ -1,14 +1,17 @@
 +++
 title = "Hermeneuticka Eroze"
 weight = 100
+description = "Hermeneuticka Eroze — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Hermeneuticka Eroze — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
 related_terms = ["academy", "adapter-pattern", "accuracy", "access-control", "adaptive-testing", "3nl"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 ref_count_at_creation = 2
 +++

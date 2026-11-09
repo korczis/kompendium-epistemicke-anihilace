@@ -2,9 +2,13 @@
 title = "Konfirmační bias"
 weight = 60
 
+description = "Systematická tendence vyhledávat, interpretovat a pamatovat si informace způsobem, který potvrzuje již existující přesvědčení; nejintenzivněji zneužívaná zranitelnost ze všech kognitivních zkreslení."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "cognitive", "kompendium"]
+
 [extra]
 category = "epistemic"
-description = "Systematická tendence vyhledávat, interpretovat a pamatovat si informace způsobem, který potvrzuje již existující přesvědčení; nejintenzivněji zneužívaná zranitelnost ze všech kognitivních zkreslení."
 related_terms = ["kognitivni-bias", "epistemicka-anihilace", "taxonomie-ea", "metakognice", "falsifikace", "kognitivni-anti-rekurzivita"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 640
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["konfirmační bias", "confirmation bias", "selektivní expozice", "echo chamber", "kompendium", "epistemic security"]
-tags = ["glossary", "epistemic", "cognitive", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

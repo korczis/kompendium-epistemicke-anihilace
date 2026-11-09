@@ -2,9 +2,11 @@
 title = "Ochrana akcionářů"
 description = "Organizační obrana — ochrana akcionářů."
 weight = 90
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["7-ethics-officer-mandate", "8-policy-review-cycles", "6-ombudsman-role"]
 parent = "kompendium-organizational-defense"

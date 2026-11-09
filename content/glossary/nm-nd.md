@@ -1,8 +1,12 @@
 +++
 title = "NM/ND Doctrine"
 weight = 3
-[extra]
 description = "Combined NO MERCY, NO DOUBTS enforcement framework governing all platform operations with zero-tolerance quality and evidence-based execution"
+
+[taxonomies]
+tags = ["glossary", "doctrine", "nm-nd-doctrine", "prismatic"]
+
+[extra]
 category = "doctrine"
 abbreviation = "NM/ND"
 related_terms = ["no-mercy", "no-doubts", "violation-protocol", "clean-run", "regression-test", "aiad", "archer-supreme", "confidence-threshold", "pre-commit-hooks", "session-discipline", "nabla-infinity", "trinity-gate", "quality-gates"]
@@ -29,7 +33,6 @@ word_count = 1864
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["NMND", "Doctrine", "Combined", "MERCY", "DOUBTS", "glossary", "Prismatic Platform"]
-tags = ["glossary", "doctrine", "nm-nd-doctrine", "prismatic"]
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
 image_alt = "NM/ND Doctrine - Prismatic Platform"

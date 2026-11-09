@@ -2,9 +2,11 @@
 title = "Bridge: intentionalita"
 description = "Glossary bridge — propojeni kompendia s glossary entry intentionalita."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "intentionalita", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-instrumental-reason", "bridge-intelligence-fusion", "bridge-kognitivni-anihilace", "bridge-kognitivni-anti-rekurzivita"]
 parent = "kompendium-glossary-bridges"

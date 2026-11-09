@@ -2,9 +2,11 @@
 title = "EA-9.3.10 Trend Manipulation EA"
 description = "Současná digitální EA — trend manipulation ea."
 weight = 940
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-9-AI-document-forgery", "ea-9-3-1-algorithmic-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-9-3-3-feed-personalization-bias"]
 parent = "kompendium-techniques"

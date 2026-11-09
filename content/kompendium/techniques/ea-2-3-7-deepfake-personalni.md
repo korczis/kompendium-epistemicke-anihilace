@@ -2,9 +2,11 @@
 title = "EA-2.3.7 Deepfake Personalní"
 description = "Delegitimizační technika — Deepfake Personalní."
 weight = 2307
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-3-7", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-3-6-platform-coordinated-attack", "ea-2-3-8-doxxing-epistemicky", "ea-2-3-9-sealioning-medialni"]
 parent = "kompendium-techniques"

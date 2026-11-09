@@ -1,9 +1,13 @@
 +++
 title = "Delegitimizace / Delegitimization"
 weight = 50
+description = "Systematic undermining of credibility, authority, or epistemic standing of an individual, institution, or claim."
+
+[taxonomies]
+tags = ["glossary-bridge", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Systematic undermining of credibility, authority, or epistemic standing of an individual, institution, or claim."
 related_terms = [
   "bridge-nclb",
   "gaslighting",
@@ -13,7 +17,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "psychology", "interactive"]
 quality_score = 75
 +++
 

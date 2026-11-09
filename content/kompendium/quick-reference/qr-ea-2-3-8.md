@@ -2,9 +2,11 @@
 title = "QR: EA-2.3.8 Doxxing"
 description = "Rychla referencni karta pro EA-2.3.8 (delegitimizace)."
 weight = 30238
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-3-8", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-3-6", "qr-ea-2-3-7", "qr-ea-2-3-9", "qr-ea-2-4-1"]
 parent = "kompendium-quick-reference"

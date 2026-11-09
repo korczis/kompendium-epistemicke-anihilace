@@ -2,9 +2,11 @@
 title = "EA-9.4.6 Mass Comment Coordination"
 description = "Současná digitální EA — mass comment coordination."
 weight = 946
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-4-AI-bot-personhood", "ea-9-4-5-troll-farm-EA", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-8-real-time-bot-response"]
 parent = "kompendium-techniques"

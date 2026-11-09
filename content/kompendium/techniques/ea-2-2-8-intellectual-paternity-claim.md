@@ -2,9 +2,11 @@
 title = "EA-2.2.8 Intellectual Paternity Claim"
 description = "Delegitimizační technika — Intellectual Paternity Claim."
 weight = 2208
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-8", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-6-time-control-academic", "ea-2-2-7-emotional-debt-cultivation", "ea-2-2-9-disciplinary-boundary-coercion", "ea-2-3-1-clip-takeout"]
 parent = "kompendium-techniques"

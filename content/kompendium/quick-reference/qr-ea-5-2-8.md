@@ -2,9 +2,11 @@
 title = "QR: EA-5.2.8 Perspektivisticky kolaps"
 description = "Rychla referencni karta pro EA-5.2.8 (metatranscendentalni anihilace)."
 weight = 20008
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-2", "ultramari", "metatranscendentalni", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-2-6", "qr-ea-5-2-7", "qr-ea-5-2-9", "qr-ea-5-2-5"]
 parent = "kompendium-quick-reference"

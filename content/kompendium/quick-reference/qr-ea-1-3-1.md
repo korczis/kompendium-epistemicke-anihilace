@@ -2,9 +2,11 @@
 title = "QR: EA-1.3.1 Imunizace proti falsifikaci"
 description = "Rychlá referenční karta — Modifikace teorie imunizující ji vůči kontradiktorní evidenci."
 weight = 131
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-1-3-1", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-1-2-2", "qr-ea-1-2-3", "qr-ea-1-3-2", "qr-ea-1-3-3"]
 parent = "kompendium-quick-reference"

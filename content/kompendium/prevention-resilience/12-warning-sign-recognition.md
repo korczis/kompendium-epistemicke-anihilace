@@ -2,9 +2,11 @@
 title = "Rozpoznání varovných signálů"
 description = "Prevence a rezilience — rozpoznání varovných signálů."
 weight = 12
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["10-public-discourse-quality", "11-early-screening-EA", "13-rapid-response-protocol", "14-de-escalation-prevention"]
 parent = "kompendium-prevention-resilience"

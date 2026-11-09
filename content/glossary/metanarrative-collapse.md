@@ -2,9 +2,13 @@
 title = "Metanarrative Collapse"
 weight = 60
 
+description = "Lyotard's diagnosis of the postmodern condition: incredulity toward grand narratives that legitimize knowledge claims; structural background for contemporary delegitimization techniques."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Lyotard's diagnosis of the postmodern condition: incredulity toward grand narratives that legitimize knowledge claims; structural background for contemporary delegitimization techniques."
 related_terms = ["simulacra", "differance", "power-knowledge", "epistemicka-injustice", "epistemicka-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["metanarrative", "grand narrative", "Lyotard", "postmodern condition", "incredulity", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

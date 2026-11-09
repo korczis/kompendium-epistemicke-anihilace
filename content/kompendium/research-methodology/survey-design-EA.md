@@ -2,9 +2,11 @@
 title = "Survey Design v EA Výzkumu"
 description = "Výzkumná metodologie EA — survey design v ea výzkumu."
 weight = 10
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["publication-ethics-EA", "replication-EA-research", "thematic-analysis-EA", "time-series-EA"]
 parent = "kompendium-research-methodology"

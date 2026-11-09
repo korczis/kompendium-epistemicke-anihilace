@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Časové sešívání já"
 description = "Praktický návod sebe-obrany — časové sešívání já."
 weight = 49
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["47-identity-resilience-training", "48-existential-meaning-protection", "5-falsification-thinking", "50-personal-mythology-defense"]
 parent = "kompendium-self-defense-guides"

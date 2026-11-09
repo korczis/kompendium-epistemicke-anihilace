@@ -2,9 +2,11 @@
 title = "Bridge: metakognice"
 description = "Glossary bridge — propojeni kompendia s glossary entry metakognice."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "metakognice", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-lebenswelt", "bridge-mereologicka-rekonstrukce", "bridge-metakognitivni-destrukce", "bridge-metanarrative-collapse"]
 parent = "kompendium-glossary-bridges"

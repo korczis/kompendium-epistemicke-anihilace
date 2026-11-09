@@ -2,9 +2,11 @@
 title = "Bridge: gish-gallop"
 description = "Glossary bridge — propojeni kompendia s glossary entry gish-gallop."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "gish-gallop", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-gaslighting", "bridge-gestalt-shift", "bridge-gray-team", "bridge-greynoise"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "EA-9.5.6 Frame War Coordination"
 description = "Současná digitální EA — frame war coordination."
 weight = 956
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-4-meme-network-amplification", "ea-9-5-5-counter-meme-suppression", "ea-9-5-7-narrative-meme-fusion", "ea-9-5-8-meme-context-collapse"]
 parent = "kompendium-techniques"

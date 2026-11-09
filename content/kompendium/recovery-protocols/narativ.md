@@ -1,14 +1,17 @@
 +++
 title = "Narativ"
 weight = 100
+description = "Narativ — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Narativ — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["acute-cognitive-anchoring", "longterm-altruistic-channeling", "incompetence", "acute-safety-establishment", "acute-somatic-regulation", "acute-social-reconnection"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

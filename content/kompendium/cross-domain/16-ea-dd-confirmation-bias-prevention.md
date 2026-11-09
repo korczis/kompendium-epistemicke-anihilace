@@ -2,9 +2,11 @@
 title = "EA × Due Diligence: Systemic Confirmation Bias Prevention"
 description = "Architectural prevention biasu v DD — beyond individual training"
 weight = 160
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["14-ea-dd-narrative-warfare", "15-ea-dd-evidence-quality-assessment", "17-ea-security-social-engineering", "18-ea-security-spear-phishing"]
 parent = "kompendium-cross-domain"

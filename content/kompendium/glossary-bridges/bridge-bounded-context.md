@@ -2,9 +2,11 @@
 title = "Bridge: bounded-context"
 description = "Glossary bridge — propojeni kompendia s glossary entry bounded-context."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "bounded-context", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-black-team", "bridge-blue-team", "bridge-c-ptsd", "bridge-censys"]
 parent = "kompendium-glossary-bridges"

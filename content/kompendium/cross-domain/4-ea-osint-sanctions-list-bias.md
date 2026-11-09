@@ -2,9 +2,11 @@
 title = "EA × OSINT: Sankční seznamy a Atribuční Bias"
 description = "OFAC, EU, UN sankční seznamy — politická konstrukce 'pravdy'"
 weight = 40
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["3-ea-osint-justice-cz-screening", "30-ea-compliance-regulatory-capture-detection", "5-ea-osint-social-media-manipulation", "6-ea-osint-bot-detection"]
 parent = "kompendium-cross-domain"

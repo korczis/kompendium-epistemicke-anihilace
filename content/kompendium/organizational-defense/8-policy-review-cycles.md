@@ -2,9 +2,11 @@
 title = "Cykly revize politik"
 description = "Organizační obrana — cykly revize politik."
 weight = 80
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["6-ombudsman-role", "7-ethics-officer-mandate", "9-shareholder-protection", "5-audit-committee-EA"]
 parent = "kompendium-organizational-defense"

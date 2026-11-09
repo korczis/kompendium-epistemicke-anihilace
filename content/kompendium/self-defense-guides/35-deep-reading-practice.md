@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Hluboké čtení"
 description = "Praktický návod sebe-obrany — hluboké čtení."
 weight = 35
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["33-information-diet", "34-attention-budget", "36-cross-source-routine", "37-time-locked-evaluation"]
 parent = "kompendium-self-defense-guides"

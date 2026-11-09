@@ -2,9 +2,11 @@
 title = "EA × OSINT: Source Credibility under Epistemic Attack"
 description = "Hodnocení důvěryhodnosti OSINT zdrojů v kontextu narativní manipulace"
 weight = 10
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["10-ea-dd-source-weighting", "11-ea-dd-decision-engine-calibration", "12-ea-dd-counterparty-manipulation"]
 parent = "kompendium-cross-domain"

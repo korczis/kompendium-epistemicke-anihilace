@@ -2,9 +2,11 @@
 title = "Bridge: bite-model"
 description = "Glossary bridge — propojeni kompendia s glossary entry bite-model."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "bite-model", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-autoheal", "bridge-betrayal-trauma", "bridge-black-team", "bridge-blue-team"]
 parent = "kompendium-glossary-bridges"

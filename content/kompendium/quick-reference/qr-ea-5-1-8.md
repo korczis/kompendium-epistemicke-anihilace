@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.8 Konceptualni fragmentace"
 description = "Rychla referencni karta pro ultramarine techniku Konceptualni fragmentace (epistemicka singularita)."
 weight = 10008
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-1-6", "qr-ea-5-1-7", "qr-ea-5-1-9", "qr-ea-5-2-1"]
 parent = "kompendium-quick-reference"

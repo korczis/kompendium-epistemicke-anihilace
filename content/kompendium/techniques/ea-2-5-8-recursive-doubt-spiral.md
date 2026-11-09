@@ -2,9 +2,11 @@
 title = "EA-2.5.8 Recursive Doubt Spiral"
 description = "Delegitimizační technika — Recursive Doubt Spiral."
 weight = 2508
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-8", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-6-platonic-cave-self", "ea-2-5-7-self-cancelation", "ea-2-5-9-identity-uncertainty-cult", "ea-3-1-1-graduated-exposure-design"]
 parent = "kompendium-techniques"

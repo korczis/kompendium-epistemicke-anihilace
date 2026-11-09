@@ -2,9 +2,11 @@
 title = "Bridge: red-team"
 description = "Glossary bridge — propojeni kompendia s glossary entry red-team."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "red-team", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-quality-debt", "bridge-readiness", "bridge-regression-test", "bridge-replication-crisis"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Audit vztahů"
 description = "Praktický návod sebe-obrany — audit vztahů."
 weight = 22
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["20-emotional-debt-recognition", "21-boundary-setting", "23-trust-calibration", "24-communication-assertiveness"]
 parent = "kompendium-self-defense-guides"

@@ -2,9 +2,11 @@
 title = "EA-9.3.4 Recommendation Radicalization"
 description = "Současná digitální EA — recommendation radicalization."
 weight = 934
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-3-2-engagement-optimization-EA", "ea-9-3-3-feed-personalization-bias", "ea-9-3-5-shadowban-coordination", "ea-9-3-6-content-moderation-bias"]
 parent = "kompendium-techniques"

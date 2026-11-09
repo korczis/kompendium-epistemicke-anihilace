@@ -2,9 +2,11 @@
 title = "Replikační Výzkum EA Studií"
 description = "Výzkumná metodologie EA — replikační výzkum ea studií."
 weight = 38
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["pre-registration-EA-research", "publication-ethics-EA", "survey-design-EA", "thematic-analysis-EA"]
 parent = "kompendium-research-methodology"

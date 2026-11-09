@@ -2,9 +2,11 @@
 title = "Bridge: zero-warning-policy"
 description = "Glossary bridge — propojeni kompendia s glossary entry zero-warning-policy."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "zero-warning-policy", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-weaponized-incompetence", "bridge-white-team", "delegitimizace", "epistemicke-trauma"]
 parent = "kompendium-glossary-bridges"

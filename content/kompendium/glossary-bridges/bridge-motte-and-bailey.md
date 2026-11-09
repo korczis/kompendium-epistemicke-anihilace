@@ -2,9 +2,11 @@
 title = "Bridge: motte-and-bailey"
 description = "Glossary bridge — propojeni kompendia s glossary entry motte-and-bailey."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "motte-and-bailey", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-metakognitivni-destrukce", "bridge-metanarrative-collapse", "bridge-nabla-infinity", "bridge-narrative-identity"]
 parent = "kompendium-glossary-bridges"

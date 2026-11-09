@@ -2,9 +2,11 @@
 title = "Anonymizace EA Výzkumných Dat"
 description = "Výzkumná metodologie EA — anonymizace ea výzkumných dat."
 weight = 34
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["IRB-protocol-design-EA", "RCT-EA-considerations", "case-study-design-EA", "causal-inference-EA"]
 parent = "kompendium-research-methodology"

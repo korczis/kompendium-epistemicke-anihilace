@@ -2,9 +2,11 @@
 title = "Monitorování vztahů"
 description = "Prevence a rezilience — monitorování vztahů."
 weight = 15
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["13-rapid-response-protocol", "14-de-escalation-prevention", "16-employer-vigilance", "17-academic-supervision-prevention"]
 parent = "kompendium-prevention-resilience"

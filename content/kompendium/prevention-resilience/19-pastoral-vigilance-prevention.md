@@ -2,9 +2,11 @@
 title = "Pastorální vigilance"
 description = "Prevence a rezilience — pastorální vigilance."
 weight = 19
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "secondary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["17-academic-supervision-prevention", "18-clinical-vigilance-prevention", "2-school-based-prevention", "20-peer-vigilance-prevention"]
 parent = "kompendium-prevention-resilience"

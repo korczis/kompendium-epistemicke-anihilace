@@ -1,10 +1,14 @@
 +++
 title = "QEVE"
 weight = 3
+description = "Quantified Epistemic Verification Engine combining Lean4 theorem proving, NABLA axioms, and Monte Carlo simulation for formal verification of platform beliefs."
+
+[taxonomies]
+tags = ["glossary", "ai-ml", "qeve", "prismatic"]
+
 [extra]
 category = "ai-ml"
 acronym = "QEVE"
-description = "Quantified Epistemic Verification Engine combining Lean4 theorem proving, NABLA axioms, and Monte Carlo simulation for formal verification of platform beliefs."
 related_terms = ["lean4", "nabla-infinity", "trinity-gate", "color-teams", "white-team", "confidence-threshold", "signal-plurality", "provenance-mandatory", "epistemic-pipeline", "property-based-testing"]
 author = "Tomas Korcak (korczis)"
 reading_time = "11 min"
@@ -12,7 +16,6 @@ word_count = 2244
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["QEVE", "Quantified", "Epistemic", "Verification", "Engine", "Lean4", "NABLA", "glossary", "ai ml", "Prismatic Platform"]
-tags = ["glossary", "ai-ml", "qeve", "prismatic"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

@@ -1,9 +1,13 @@
 +++
 title = "Epistemic Singularity / Epistemická singularita"
 weight = 50
+description = "State where epistemic system collapses to single dominant interpretation, eliminating plurality."
+
+[taxonomies]
+tags = ["glossary", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "State where epistemic system collapses to single dominant interpretation, eliminating plurality."
 related_terms = [
   "signal-plurality",
   "epistemicka-anihilace",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "philosophy", "interactive"]
 quality_score = 75
 +++
 

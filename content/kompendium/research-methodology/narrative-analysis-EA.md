@@ -2,9 +2,11 @@
 title = "Narativní Analýza EA Příběhů"
 description = "Výzkumná metodologie EA — narativní analýza ea příběhů."
 weight = 23
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["meta-analysis-EA", "mixed-methods-EA", "network-analysis-EA", "phenomenological-interview-EA"]
 parent = "kompendium-research-methodology"

@@ -2,9 +2,11 @@
 title = "EA-9.1.7 Synthetic Expertise Claim"
 description = "Současná digitální EA — synthetic expertise claim."
 weight = 917
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-5-llm-narrative-injection", "ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-8-llm-confabulation-amplification", "ea-9-1-9-multi-turn-narrative-shift"]
 parent = "kompendium-techniques"

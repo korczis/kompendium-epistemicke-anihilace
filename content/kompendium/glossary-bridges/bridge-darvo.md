@@ -2,9 +2,11 @@
 title = "Bridge: darvo"
 description = "Glossary bridge — propojeni kompendia s glossary entry darvo."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "darvo", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-communicative-rationality", "bridge-companion", "bridge-decision-engine", "bridge-deepfake"]
 parent = "kompendium-glossary-bridges"

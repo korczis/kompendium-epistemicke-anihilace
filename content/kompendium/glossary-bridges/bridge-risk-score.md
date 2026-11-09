@@ -2,9 +2,11 @@
 title = "Bridge: risk-score"
 description = "Glossary bridge — propojeni kompendia s glossary entry risk-score."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "risk-score", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-regression-test", "bridge-replication-crisis", "bridge-sanctions-screening", "bridge-sealioning"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "EA-2.5.3 Self-doubt Cultivation"
 description = "Delegitimizační technika — Self-doubt Cultivation."
 weight = 2503
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-5-3", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-5-10-existential-helplessness-implantace", "ea-2-5-2-imposter-syndrome-amplifikace", "ea-2-5-4-radical-relativism-internalize", "ea-2-5-5-bothsidesizm-internalizace"]
 parent = "kompendium-techniques"

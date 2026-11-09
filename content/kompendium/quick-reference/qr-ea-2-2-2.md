@@ -2,9 +2,11 @@
 title = "QR: EA-2.2.2 Mentee isolation"
 description = "Rychla referencni karta pro EA-2.2.2 (delegitimizace)."
 weight = 30222
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-2-2", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-2-1", "qr-ea-2-2-10", "qr-ea-2-2-3", "qr-ea-2-2-4"]
 parent = "kompendium-quick-reference"

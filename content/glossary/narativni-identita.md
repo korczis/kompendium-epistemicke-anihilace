@@ -1,8 +1,12 @@
 +++
 title = "Narativní identita (Narrative Identity)"
 weight = 6
-[extra]
 description = "Theoretical construct in personality psychology and philosophy of self according to which personal identity is constituted by an internalized, integrative life story that connects reconstructed past, perceived present, and imagined future"
+
+[taxonomies]
+tags = ["psychology", "phenomenology", "identity", "clinical"]
+
+[extra]
 category = "psychology"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["pragmaticka-kompetence", "epistemicke-trauma", "ego-death", "identity-destruction", "anihilacni-fenomeny", "reality-testing"]
 keywords = ["narrative identity", "McAdams", "Ricoeur", "life story", "self-construction", "biographical coherence", "personality"]
-tags = ["psychology", "phenomenology", "identity", "clinical"]
 key_takeaway = "Narativní identita is the medium through which a person sustains themselves as a continuous agent over time. Its disruption — through trauma, coercion, or pathology — produces measurable distress; its restoration is the operational goal of most depth therapies."
 see_also = ["epistemicke-trauma", "identity-destruction", "ego-death"]
 image = "/images/sections/glossary.png"

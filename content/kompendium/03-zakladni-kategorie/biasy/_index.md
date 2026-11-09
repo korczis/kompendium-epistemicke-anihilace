@@ -3,9 +3,10 @@ title = "Kognitivní biasy / Cognitive Biases"
 weight = 100
 sort_by = "weight"
 template = "kompendium/section.html"
+description = "Subsekce Základních kategorií zaměřená na kognitivní biasy relevantní pro epistemickou anihilaci."
+
 [extra]
 category = "kompendium-section"
-description = "Subsekce Základních kategorií zaměřená na kognitivní biasy relevantní pro epistemickou anihilaci."
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"

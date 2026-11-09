@@ -2,9 +2,11 @@
 title = "Etnografie EA Skupin"
 description = "Výzkumná metodologie EA — etnografie ea skupin."
 weight = 25
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["document-analysis-EA", "effect-size-EA", "grounded-theory-EA", "informed-consent-EA-research"]
 parent = "kompendium-research-methodology"

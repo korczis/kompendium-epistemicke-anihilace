@@ -2,9 +2,11 @@
 title = "EA-7.1.9 Heidegger: Dasein"
 description = "Teoretická reflexe — Heidegger: Dasein a vztah k EA."
 weight = 719
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-7-deleuze-rhizome", "ea-7-1-8-derrida-deconstruction", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-10-nagel-view-from-nowhere"]
 parent = "kompendium-techniques"

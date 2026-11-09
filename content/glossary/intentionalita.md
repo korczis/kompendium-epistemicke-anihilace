@@ -2,9 +2,13 @@
 title = "Intencionalita"
 weight = 60
 
+description = "Brentanian/Husserlian intentionality — the directedness of consciousness toward an object. The 'aboutness' that distinguishes mental states from physical states. Core structural feature exploited by EA techniques."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "phenomenology"]
+
 [extra]
 category = "epistemic"
-description = "Brentanian/Husserlian intentionality — the directedness of consciousness toward an object. The 'aboutness' that distinguishes mental states from physical states. Core structural feature exploited by EA techniques."
 related_terms = ["epistemicka-anihilace", "lebenswelt", "embodied-cognition", "metakognice", "kognitivni-anihilace", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 550
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["intentionality", "Brentano", "Husserl", "phenomenology", "aboutness", "noesis", "noema"]
-tags = ["glossary", "epistemic", "philosophy", "phenomenology"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

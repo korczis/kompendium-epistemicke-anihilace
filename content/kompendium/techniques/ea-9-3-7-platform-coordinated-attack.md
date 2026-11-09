@@ -2,9 +2,11 @@
 title = "EA-9.3.7 Platform Coordinated Attack"
 description = "Současná digitální EA — platform coordinated attack."
 weight = 937
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-3", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-3-5-shadowban-coordination", "ea-9-3-6-content-moderation-bias", "ea-9-3-8-mass-reporting-coordination", "ea-9-3-9-tag-hijacking-EA"]
 parent = "kompendium-techniques"

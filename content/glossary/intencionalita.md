@@ -1,9 +1,13 @@
 +++
 title = "Intentionality / Intencionalita"
 weight = 50
+description = "Husserlian property of consciousness as 'aboutness' — directedness toward an object."
+
+[taxonomies]
+tags = ["glossary", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "Husserlian property of consciousness as 'aboutness' — directedness toward an object."
 related_terms = [
   "pasivni-synteza",
   "core-consciousness",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "philosophy", "interactive"]
 quality_score = 75
 +++
 

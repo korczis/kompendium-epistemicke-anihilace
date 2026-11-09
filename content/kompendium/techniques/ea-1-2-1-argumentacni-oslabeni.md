@@ -1,14 +1,17 @@
 +++
 title = "EA-1-2-1-argumentacni-oslabeni"
 weight = 100
+description = "EA-1-2-1-argumentacni-oslabeni — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
+
+[taxonomies]
+tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+
 [extra]
 category = "kompendium-technique"
-description = "EA-1-2-1-argumentacni-oslabeni — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
 related_terms = ["ea-1-1-2-informacni-pretizeni", "ea-1-1-2", "ea-1-2-2-memorni-rekonstrukce", "ea-1-2-2-falesna-ekvivalence", "ea-1-2-1-falesne-dilema", "ea-1-2-3-iluzorni-komplexita"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
 quality_score = 75
 ref_count_at_creation = 2
 +++

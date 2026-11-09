@@ -2,9 +2,11 @@
 title = "EA-9.2.6 AI News Cascade"
 description = "Současná digitální EA — ai news cascade."
 weight = 926
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-4-image-manipulation-EA", "ea-9-2-5-video-manipulation-EA", "ea-9-2-7-synthetic-witness-testimony", "ea-9-2-8-AI-eyewitness-fabrication"]
 parent = "kompendium-techniques"

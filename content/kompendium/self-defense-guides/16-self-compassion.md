@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Sebesoucit"
 description = "Praktický návod sebe-obrany — sebesoucit."
 weight = 16
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "emotional"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["14-grounding-techniques", "15-emotional-distancing", "17-anger-management", "18-shame-resilience"]
 parent = "kompendium-self-defense-guides"

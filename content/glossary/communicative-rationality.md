@@ -2,9 +2,13 @@
 title = "Communicative Rationality"
 weight = 60
 
+description = "Habermas's reconstruction of reason as oriented toward mutual understanding through valid argument; normative criterion distinguishing legitimate discourse from strategic, manipulative, or coercive communication."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Habermas's reconstruction of reason as oriented toward mutual understanding through valid argument; normative criterion distinguishing legitimate discourse from strategic, manipulative, or coercive communication."
 related_terms = ["ideal-speech-situation", "instrumental-reason", "epistemicka-anihilace", "epistemicka-injustice", "power-knowledge"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["communicative rationality", "Habermas", "discourse ethics", "kommunikative Rationalität", "validity claims", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

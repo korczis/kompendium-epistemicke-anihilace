@@ -1,9 +1,13 @@
 +++
 title = "Strategic Command"
 weight = 15
+description = "L4 Multi-domain coordination agent tier for cross-cutting operations that bridge specialist teams and supreme authority"
+
+[taxonomies]
+tags = ["agents", "coordination", "architecture", "command-hierarchy", "multi-domain"]
+
 [extra]
 category = "agents"
-description = "L4 Multi-domain coordination agent tier for cross-cutting operations that bridge specialist teams and supreme authority"
 related_terms = ["agent-tier", "tactical-execution", "supreme-commander", "aiad", "archer-supreme", "red-team", "blue-team", "purple-team", "color-teams"]
 difficulty = "advanced"
 importance = "high"
@@ -21,7 +25,6 @@ standards = ["AIAD-Agent-Specification-v2", "NO-MERCY-NO-DOUBTS-Doctrine"]
 tools = ["mix", "telemetry", "genserver", "task-supervisor"]
 platforms = ["beam", "otp", "prismatic-platform"]
 keywords = ["strategic command agent", "multi-domain coordination", "agent hierarchy L4", "cross-cutting operations", "escalation protocol", "agent orchestration", "command and control", "AIAD strategic tier"]
-tags = ["agents", "coordination", "architecture", "command-hierarchy", "multi-domain"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
 word_count = 1192

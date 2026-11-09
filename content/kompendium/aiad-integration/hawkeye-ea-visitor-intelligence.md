@@ -2,9 +2,11 @@
 title = "Hawkeye Agent & EA detection"
 description = "Integrace agenta Hawkeye Agent s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 32
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "hawkeye-ea-visitor-intelligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["epistemic-pipeline-ea-detection", "gray-team-ea-edge-cases", "nabla-infinity-ea-pipeline", "operational-execution-ea-deployment"]
 parent = "kompendium-aiad-integration"

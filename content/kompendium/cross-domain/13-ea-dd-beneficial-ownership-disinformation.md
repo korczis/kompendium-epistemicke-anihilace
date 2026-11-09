@@ -2,9 +2,11 @@
 title = "EA × Due Diligence: UBO Disinformation Patterns"
 description = "Beneficial ownership obfuscation — narrative warfare na ownership chains"
 weight = 130
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["11-ea-dd-decision-engine-calibration", "12-ea-dd-counterparty-manipulation", "14-ea-dd-narrative-warfare", "15-ea-dd-evidence-quality-assessment"]
 parent = "kompendium-cross-domain"

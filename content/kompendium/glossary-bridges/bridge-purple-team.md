@@ -2,9 +2,11 @@
 title = "Bridge: purple-team"
 description = "Glossary bridge — propojeni kompendia s glossary entry purple-team."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "purple-team", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-predictive-processing", "bridge-propaganda", "bridge-qdp", "bridge-qeve"]
 parent = "kompendium-glossary-bridges"

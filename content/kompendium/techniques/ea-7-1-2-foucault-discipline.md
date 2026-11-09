@@ -2,9 +2,11 @@
 title = "EA-7.1.2 Foucault: Discipline & Punish"
 description = "Teoretická reflexe — Foucault: Discipline & Punish a vztah k EA."
 weight = 712
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-1-foucault-power-knowledge", "ea-7-1-10-merleau-ponty-embodiment", "ea-7-1-3-adorno-instrumental-reason", "ea-7-1-4-habermas-communicative-action"]
 parent = "kompendium-techniques"

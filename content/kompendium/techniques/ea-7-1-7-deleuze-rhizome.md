@@ -2,9 +2,11 @@
 title = "EA-7.1.7 Deleuze & Guattari: Rhizome"
 description = "Teoretická reflexe — Deleuze & Guattari: Rhizome a vztah k EA."
 weight = 717
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-1", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-1-5-arendt-banality-evil", "ea-7-1-6-sloterdijk-spheres", "ea-7-1-8-derrida-deconstruction", "ea-7-1-9-heidegger-dasein"]
 parent = "kompendium-techniques"

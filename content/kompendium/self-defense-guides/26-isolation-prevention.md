@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Prevence izolace"
 description = "Praktický návod sebe-obrany — prevence izolace."
 weight = 26
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["24-communication-assertiveness", "25-network-diversification", "27-mentor-evaluation", "28-community-engagement"]
 parent = "kompendium-self-defense-guides"

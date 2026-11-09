@@ -2,9 +2,11 @@
 title = "QR: EA-2.5.8 Recursive doubt"
 description = "Rychla referencni karta pro EA-2.5.8 (delegitimizace)."
 weight = 30258
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-5-8", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-5-6", "qr-ea-2-5-7", "qr-ea-2-5-9", "qr-ea-5-1-1"]
 parent = "kompendium-quick-reference"

@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Detekce AI obsahu"
 description = "Praktický návod sebe-obrany — detekce ai obsahu."
 weight = 40
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["39-information-fasting", "4-claim-verification", "41-narrative-stewardship", "42-relational-anchors"]
 parent = "kompendium-self-defense-guides"

@@ -1,8 +1,12 @@
 +++
 title = "Pragmatická kompetence (Pragmatic Competence)"
 weight = 6
-[extra]
 description = "The cognitive and social ability to use language appropriately in context — interpreting implicature, performing speech acts, and navigating conversational norms beyond literal meaning"
+
+[taxonomies]
+tags = ["linguistics", "cognition", "communication", "clinical"]
+
+[extra]
 category = "linguistics"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -14,7 +18,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["semanticka-afazie", "double-bind", "gaslighting", "narativni-identita", "reality-testing"]
 keywords = ["pragmatic competence", "Grice", "speech acts", "implicature", "conversational maxims", "context", "linguistics"]
-tags = ["linguistics", "cognition", "communication", "clinical"]
 key_takeaway = "Pragmatická kompetence is the layer of language use that sits above grammar — it determines whether a speaker can recognize sarcasm, infer intent, follow turn-taking conventions, and detect when a conversational partner is violating cooperative principles for manipulative ends."
 see_also = ["semanticka-afazie", "gaslighting", "double-bind"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "Systémová teorie jako alternativa"
 description = "Kritická perspektiva — systémová teorie jako alternativa."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["2-pathologization-critique", "20-publication-ethics-EA", "22-trauma-framework-alternative", "23-political-economy-alternative"]
 parent = "kompendium-critical-perspectives"

@@ -2,9 +2,11 @@
 title = "EA × Due Diligence: Confirmation Bias v DD Procesu"
 description = "Investigation bias — jak DD týmy nevědomě hledají potvrzení deal teze"
 weight = 90
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["7-ea-osint-narrative-injection", "8-ea-osint-cross-source-triangulation", "6-ea-osint-bot-detection"]
 parent = "kompendium-cross-domain"

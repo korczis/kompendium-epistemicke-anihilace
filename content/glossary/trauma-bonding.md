@@ -1,8 +1,12 @@
 +++
 title = "Trauma Bonding"
 weight = 5
-[extra]
 description = "Powerful emotional attachment formed between a victim and an abuser through cycles of intermittent reinforcement, dependency, and intermittent kindness, observed in coercive control, captivity, cult dynamics, and high-control relationships"
+
+[taxonomies]
+tags = ["psychological", "trauma", "coercion", "investigation", "due-diligence"]
+
+[extra]
 category = "psychological"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["trauma-bond", "trauma-spectrum", "betrayal-trauma", "complex-trauma", "coercive-control", "gaslighting", "undue-influence"]
 keywords = ["trauma bonding", "Stockholm syndrome", "intermittent reinforcement", "coercive control", "domestic abuse", "cult dynamics", "victim psychology", "captor-bonding"]
-tags = ["psychological", "trauma", "coercion", "investigation", "due-diligence"]
 key_takeaway = "Trauma bonding is a measurable psychological mechanism — not weakness — by which intermittent reinforcement and survival dependency forge attachment to the source of harm. Recognizing it is essential when interviewing victims, evaluating witness credibility, and assessing capacity in vetting workflows."
 see_also = ["forensic-interview", "undue-influence", "expert-witness"]
 image = "/images/sections/glossary.png"

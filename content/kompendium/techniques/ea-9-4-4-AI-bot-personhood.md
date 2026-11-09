@@ -2,9 +2,11 @@
 title = "EA-9.4.4 AI Bot Personhood"
 description = "Současná digitální EA — ai bot personhood."
 weight = 944
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-4", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-3-sock-puppet-network", "ea-9-4-5-troll-farm-EA", "ea-9-4-6-mass-comment-coordination"]
 parent = "kompendium-techniques"

@@ -2,6 +2,7 @@
 title = "Filozofické tradice"
 description = "Filozofické tradice relevantní pro doktrínu EA"
 weight = 100
+
 [extra]
 draft = false
 stub = true

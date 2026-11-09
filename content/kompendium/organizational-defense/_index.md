@@ -3,6 +3,7 @@ title = "Organizační obrana"
 description = "40 kapitol systematické obrany organizace proti epistemickým útokům — governance, HR, operativa, krizová reakce."
 sort_by = "weight"
 weight = 95
+
 [extra]
 tags = ["kompendium", "organizational-defense"]
 categories = ["academic", "organizational", "governance"]

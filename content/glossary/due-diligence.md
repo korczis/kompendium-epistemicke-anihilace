@@ -1,8 +1,12 @@
 +++
 title = "Due Diligence"
 weight = 50
-[extra]
 description = "Comprehensive investigation and analysis of a business entity, individual, or asset before a transaction, investment, or partnership, combining automated OSINT collection, entity resolution, sanctions screening, and cross-validated risk assessment."
+
+[taxonomies]
+tags = ["glossary", "intelligence", "compliance", "osint", "kyc", "aml", "risk-assessment", "entity-resolution", "sanctions"]
+
+[extra]
 category = "intelligence"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -24,7 +28,6 @@ version_introduced = "0.7.0"
 stability_level = "stable"
 testing_scenarios = ["entity-search-accuracy", "sanctions-hit-detection", "cross-source-validation", "risk-score-calibration", "false-positive-rate"]
 keywords = ["due diligence", "KYC", "AML", "compliance", "entity resolution", "sanctions screening", "beneficial ownership", "risk assessment", "OSINT", "Czech registry", "ARES", "commercial register"]
-tags = ["glossary", "intelligence", "compliance", "osint", "kyc", "aml", "risk-assessment", "entity-resolution", "sanctions"]
 related_terms = ["kyc", "aml", "sanctions-screening", "beneficial-ownership", "entity-resolution", "osint", "compliance-framework", "risk-score", "knowledge-graph", "triple-check"]
 word_count = 1728
 date_created = "2026-02-23"

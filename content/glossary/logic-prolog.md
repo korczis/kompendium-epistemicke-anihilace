@@ -1,14 +1,17 @@
 +++
 title = "Logic Prolog"
 weight = 100
+description = "Logic Prolog — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie ai-systems."
+
+[taxonomies]
+tags = ["glossary", "ai-systems", "interactive"]
+
 [extra]
 category = "ai-systems"
-description = "Logic Prolog — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie ai-systems."
 related_terms = ["adaptive-testing", "academy", "addiction-recovery", "adversarial-drift", "actor-model", "adversarial-conditions"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "ai-systems", "interactive"]
 quality_score = 75
 ref_count_at_creation = 2
 +++

@@ -2,9 +2,11 @@
 title = "QR: EA-5.2.9 Konceptualni aporie"
 description = "Rychla referencni karta pro EA-5.2.9 (metatranscendentalni anihilace)."
 weight = 20009
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-2", "ultramari", "metatranscendentalni", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-2-7", "qr-ea-5-2-8", "qr-ea-5-2-6"]
 parent = "kompendium-quick-reference"

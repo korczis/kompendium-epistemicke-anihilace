@@ -2,9 +2,11 @@
 title = "EA-7.3.6 Thompson: Mind in Life"
 description = "Teoretická reflexe — Thompson: Mind in Life a vztah k EA."
 weight = 736
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-3-4-clark-extended-mind", "ea-7-3-5-metzinger-ego-tunnel", "ea-7-3-7-dennett-intentional-stance", "ea-7-3-8-chalmers-hard-problem"]
 parent = "kompendium-techniques"

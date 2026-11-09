@@ -2,9 +2,13 @@
 title = "Coercive Control"
 weight = 60
 
+description = "Evan Stark's framework conceptualizing intimate partner abuse as a systematic pattern of domination through isolation, intimidation, surveillance, and micro-regulation."
+
+[taxonomies]
+tags = ["glossary", "clinical", "manipulace", "kompendium"]
+
 [extra]
 category = "clinical"
-description = "Evan Stark's framework conceptualizing intimate partner abuse as a systematic pattern of domination through isolation, intimidation, surveillance, and micro-regulation."
 related_terms = ["bite-model", "epistemicka-anihilace", "darvo", "gaslighting", "taxonomie-ea", "anankasticky-rezim"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["coercive control", "Evan Stark", "intimate partner violence", "domestic abuse", "domination", "systematic abuse"]
-tags = ["glossary", "clinical", "manipulace", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "Bridge: deepfake"
 description = "Glossary bridge — propojeni kompendia s glossary entry deepfake."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "deepfake", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-darvo", "bridge-decision-engine", "bridge-delegitimizace", "bridge-deplatforming"]
 parent = "kompendium-glossary-bridges"

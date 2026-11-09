@@ -2,9 +2,11 @@
 title = "QR: EA-2.3.5 Pseudo-kontroverze"
 description = "Rychla referencni karta pro EA-2.3.5 (delegitimizace)."
 weight = 30235
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-3-5", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-3-3", "qr-ea-2-3-4", "qr-ea-2-3-6", "qr-ea-2-3-7"]
 parent = "kompendium-quick-reference"

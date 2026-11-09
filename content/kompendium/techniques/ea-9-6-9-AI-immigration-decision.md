@@ -2,9 +2,11 @@
 title = "EA-9.6.9 AI Immigration Decision"
 description = "Současná digitální EA — ai immigration decision."
 weight = 969
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-6", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-6-7-AI-medical-decision-EA", "ea-9-6-8-AI-legal-decision-EA", "ea-9-6-6-AI-hiring-narrative"]
 parent = "kompendium-techniques"

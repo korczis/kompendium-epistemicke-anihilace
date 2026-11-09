@@ -2,9 +2,11 @@
 title = "Ochrana zakládací listiny"
 description = "Organizační obrana — ochrana zakládací listiny."
 weight = 20
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["18-supervisor-evaluation", "19-mentorship-protection", "20-succession-planning-EA", "21-decision-traceability"]
 parent = "kompendium-organizational-defense"

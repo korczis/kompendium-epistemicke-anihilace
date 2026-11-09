@@ -1,9 +1,13 @@
 +++
 title = "Agent Registry"
 weight = 17
+description = "Central catalog of all 530+ AIAD agents with capabilities and authority levels"
+
+[taxonomies]
+tags = ["glossary", "agents", "agent-registry", "prismatic"]
+
 [extra]
 category = "agents"
-description = "Central catalog of all 530+ AIAD agents with capabilities and authority levels"
 related_terms = ["aiad", "agent-tier", "archer-supreme", "supreme-commander", "blackboard", "color-teams", "agent", "consciousness-traits", "nabla-infinity", "supervisor", "process-isolation", "epistemic-pipeline", "mix", "autoevolve", "autoheal"]
 total_agents = "530+"
 static_agents = "500+"
@@ -26,7 +30,6 @@ word_count = 1614
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Agent", "Registry", "Central", "AIAD", "glossary", "agents", "Prismatic Platform", "Agent Tier", "Domain"]
-tags = ["glossary", "agents", "agent-registry", "prismatic"]
 quality_score = 90
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

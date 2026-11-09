@@ -2,9 +2,13 @@
 title = "Delegitimizace"
 weight = 60
 
+description = "Systematický proces zbavování osob, institucí, zdrojů nebo poznávacích postupů jejich legitimní autority — strukturní předpoklad pro pokročilé scénáře epistemické anihilace."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "delegitimizace"]
+
 [extra]
 category = "epistemic"
-description = "Systematický proces zbavování osob, institucí, zdrojů nebo poznávacích postupů jejich legitimní autority — strukturní předpoklad pro pokročilé scénáře epistemické anihilace."
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "kognitivni-anihilace", "taxonomie-ea", "gaslighting", "epistemicke-trauma"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 640
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["delegitimizace", "delegitimization", "autorita", "důvěra", "epistemic security", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "delegitimizace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

@@ -1,14 +1,17 @@
 +++
 title = "Sektarska Konverze"
 weight = 100
+description = "Sektarska Konverze — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+
+[taxonomies]
+tags = ["glossary", "architecture", "interactive"]
+
 [extra]
 category = "architecture"
-description = "Sektarska Konverze — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
 related_terms = ["3nl", "adapter-pattern", "adversarial-architecture", "adversarial-conditions", "adversarial-drift", "accreditation"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "architecture", "interactive"]
 quality_score = 75
 ref_count_at_creation = 1
 +++

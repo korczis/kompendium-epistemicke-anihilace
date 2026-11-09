@@ -2,9 +2,11 @@
 title = "Trinity Gate & EA detection"
 description = "Integrace agenta Trinity Gate s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 25
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "trinity-gate-ea-verification"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["supreme-commander-ea-strategy", "tactical-execution-ea-operations", "white-team-ea-verification", "strategic-command-ea-coordination"]
 parent = "kompendium-aiad-integration"

@@ -2,9 +2,11 @@
 title = "Časové Řady v EA Monitoringu"
 description = "Výzkumná metodologie EA — časové řady v ea monitoringu."
 weight = 16
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["survey-design-EA", "thematic-analysis-EA", "vulnerable-population-research", "replication-EA-research"]
 parent = "kompendium-research-methodology"

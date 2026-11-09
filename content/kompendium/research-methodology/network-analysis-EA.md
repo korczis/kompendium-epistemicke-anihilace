@@ -2,9 +2,11 @@
 title = "Síťová Analýza EA Symptomů"
 description = "Výzkumná metodologie EA — síťová analýza ea symptomů."
 weight = 15
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["mixed-methods-EA", "narrative-analysis-EA", "phenomenological-interview-EA", "power-analysis-EA"]
 parent = "kompendium-research-methodology"

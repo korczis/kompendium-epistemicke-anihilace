@@ -2,9 +2,11 @@
 title = "QR: EA-2.3.2 Context collapse"
 description = "Rychla referencni karta pro EA-2.3.2 (delegitimizace)."
 weight = 30232
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-3-2", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-3-1", "qr-ea-2-3-10", "qr-ea-2-3-3", "qr-ea-2-3-4"]
 parent = "kompendium-quick-reference"

@@ -1,14 +1,17 @@
 +++
 title = "Ding An Sich"
 weight = 100
+description = "Ding An Sich — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Ding An Sich — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
 related_terms = ["addiction-recovery", "adversarial-conditions", "accreditation", "access-control", "adaptive-testing", "accuracy"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 ref_count_at_creation = 2
 +++

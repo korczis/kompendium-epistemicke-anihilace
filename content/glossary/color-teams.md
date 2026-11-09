@@ -1,9 +1,13 @@
 +++
 title = "Color Teams"
 weight = 18
+description = "Six adversarial-defensive security teams providing epistemic security through structured signal flow and adversarial-defensive synthesis"
+
+[taxonomies]
+tags = ["glossary", "security", "color-teams", "prismatic"]
+
 [extra]
 category = "security"
-description = "Six adversarial-defensive security teams providing epistemic security through structured signal flow and adversarial-defensive synthesis"
 related_terms = ["red-team", "blue-team", "purple-team", "gray-team", "white-team", "black-team", "attack-surface", "chaos-engineering", "easm", "hawkeye", "lean4", "qeve", "rbac", "threat-intelligence", "agent-tier", "agent-registry", "nabla-infinity", "trinity-gate", "epistemic-pipeline", "formal-verification", "consciousness-traits"]
 domain = "epistemic-security"
 complexity = "advanced"
@@ -27,7 +31,6 @@ word_count = 2254
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Color", "Teams", "adversarial-defensive", "security", "providing", "epistemic", "glossary", "Prismatic Platform", "Purple Team", "Blue Team"]
-tags = ["glossary", "security", "color-teams", "prismatic"]
 quality_score = 90
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

@@ -1,8 +1,12 @@
 +++
 title = "Chain of Custody"
 weight = 5
-[extra]
 description = "Continuous, documented control of evidence from collection through presentation, ensuring authenticity, integrity, and admissibility in forensic, legal, and due-diligence proceedings"
+
+[taxonomies]
+tags = ["forensic", "legal", "compliance", "evidence", "due-diligence"]
+
+[extra]
 category = "forensic"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "critical"
 related_terms = ["evidence", "verifiable-evidence", "evidence-over-opinion", "due-diligence", "forensic-interview", "pattern-evidence", "expert-witness"]
 keywords = ["chain of custody", "evidence handling", "forensic procedure", "evidence integrity", "admissibility", "spoliation", "tamper-evident", "audit trail"]
-tags = ["forensic", "legal", "compliance", "evidence", "due-diligence"]
 key_takeaway = "Chain of Custody is the unbroken, contemporaneously documented record proving that evidence has remained authentic and unaltered from the moment of collection to the moment of adjudication. Any unexplained gap can render otherwise probative evidence inadmissible."
 see_also = ["forensic-interview", "expert-witness", "pattern-evidence"]
 image = "/images/sections/glossary.png"

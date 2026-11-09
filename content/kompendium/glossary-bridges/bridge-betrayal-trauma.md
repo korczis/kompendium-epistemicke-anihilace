@@ -2,9 +2,11 @@
 title = "Bridge: betrayal-trauma"
 description = "Glossary bridge — propojeni kompendia s glossary entry betrayal-trauma."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "betrayal-trauma", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-autoevolve", "bridge-autoheal", "bridge-bite-model", "bridge-black-team"]
 parent = "kompendium-glossary-bridges"

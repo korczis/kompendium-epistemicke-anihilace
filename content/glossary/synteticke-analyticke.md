@@ -1,14 +1,17 @@
 +++
 title = "Synteticke Analyticke"
 weight = 100
+description = "Synteticke Analyticke — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+
+[taxonomies]
+tags = ["glossary", "architecture", "interactive"]
+
 [extra]
 category = "architecture"
-description = "Synteticke Analyticke — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
 related_terms = ["actor-model", "adversarial-conditions", "adapter", "adaptive-learning", "addiction-recovery", "acid-transactions"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "architecture", "interactive"]
 quality_score = 75
 ref_count_at_creation = 1
 +++

@@ -1,9 +1,13 @@
 +++
 title = "Agent Tier"
 weight = 12
+description = "L1-L5 authority classification system for AIAD agents"
+
+[taxonomies]
+tags = ["glossary", "agents", "agent-tier", "prismatic"]
+
 [extra]
 category = "agents"
-description = "L1-L5 authority classification system for AIAD agents"
 related_terms = ["aiad", "archer-supreme", "supreme-commander", "strategic-command", "tactical-execution", "agent-registry", "color-teams", "agent", "consciousness-traits", "nabla-infinity", "trinity-gate", "supervisor", "process-isolation", "rbac", "epistemic-pipeline", "formal-verification"]
 author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
@@ -11,7 +15,6 @@ word_count = 1608
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Agent", "Tier", "L1-L5", "AIAD", "glossary", "agents", "Prismatic Platform", "Attribute", "Value"]
-tags = ["glossary", "agents", "agent-tier", "prismatic"]
 quality_score = 82
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

@@ -1,8 +1,12 @@
 +++
 title = "Falsifikovatelnost (Falsifiability)"
 weight = 6
-[extra]
 description = "Karl Popper's demarcation criterion distinguishing scientific from non-scientific claims — a proposition is scientific only if it can in principle be refuted by empirical observation"
+
+[taxonomies]
+tags = ["epistemology", "philosophy", "science", "methodology"]
+
+[extra]
 category = "philosophy-of-science"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["falsifikace", "lakatos", "epistemicke-trauma", "hypothesis-generation", "evidence", "bayesian-reasoning"]
 keywords = ["falsifiability", "Popper", "demarcation", "scientific method", "refutation", "testability", "philosophy of science"]
-tags = ["epistemology", "philosophy", "science", "methodology"]
 key_takeaway = "A theory that explains every possible observation explains nothing — only claims that forbid certain outcomes carry empirical content. Falsifikovatelnost is the structural property that separates science from rhetoric, ideology, and pseudoscience."
 see_also = ["falsifikace", "lakatos", "hypothesis-generation"]
 image = "/images/sections/glossary.png"

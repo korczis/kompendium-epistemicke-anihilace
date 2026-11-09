@@ -2,9 +2,11 @@
 title = "Výzkum Zranitelných Populací"
 description = "Výzkumná metodologie EA — výzkum zranitelných populací."
 weight = 33
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["thematic-analysis-EA", "time-series-EA", "survey-design-EA"]
 parent = "kompendium-research-methodology"

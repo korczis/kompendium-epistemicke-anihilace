@@ -1,14 +1,17 @@
 +++
 title = "Collateral Interview Protokol"
 weight = 100
+description = "Collateral Interview Protokol — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Collateral Interview Protokol — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["semi-structured-interview-protokol", "terapeuticke-pristupy", "epistemicka-rekonstrukce", "pripad-akademie", "diagnosticke-indikatory", "visualizations"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

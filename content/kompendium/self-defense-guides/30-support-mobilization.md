@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Mobilizace podpory"
 description = "Praktický návod sebe-obrany — mobilizace podpory."
 weight = 30
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["29-conflict-resolution", "3-source-triangulation", "31-source-curation", "32-feed-detoxification"]
 parent = "kompendium-self-defense-guides"

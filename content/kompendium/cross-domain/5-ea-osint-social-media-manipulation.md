@@ -2,9 +2,11 @@
 title = "EA × OSINT: Sociální Sítě jako EA Bojiště"
 description = "Twitter/X, LinkedIn, Telegram — koordinované kampaně proti DD targetům"
 weight = 50
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["30-ea-compliance-regulatory-capture-detection", "4-ea-osint-sanctions-list-bias", "6-ea-osint-bot-detection", "7-ea-osint-narrative-injection"]
 parent = "kompendium-cross-domain"

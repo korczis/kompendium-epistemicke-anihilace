@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Řízení pozornosti"
 description = "Praktický návod sebe-obrany — řízení pozornosti."
 weight = 9
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["7-belief-revision", "8-cognitive-flexibility", "6-paradigm-pluralism"]
 parent = "kompendium-self-defense-guides"

@@ -2,9 +2,11 @@
 title = "EA-9.2.4 Image Manipulation EA"
 description = "Současná digitální EA — image manipulation ea."
 weight = 924
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-2-voice-cloning-EA", "ea-9-2-3-synthetic-text-narrative", "ea-9-2-5-video-manipulation-EA", "ea-9-2-6-AI-news-cascade"]
 parent = "kompendium-techniques"

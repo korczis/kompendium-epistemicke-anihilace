@@ -2,9 +2,11 @@
 title = "Bridge: c-ptsd"
 description = "Glossary bridge — propojeni kompendia s glossary entry c-ptsd."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "c-ptsd", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-blue-team", "bridge-bounded-context", "bridge-censys", "bridge-clean-run"]
 parent = "kompendium-glossary-bridges"

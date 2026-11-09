@@ -2,9 +2,11 @@
 title = "EA-2.4.4 Leadership Capture"
 description = "Delegitimizační technika — Leadership Capture."
 weight = 2404
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-4", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-2-policy-rewriting-skryta", "ea-2-4-3-funding-redirect", "ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-6-peer-review-capture"]
 parent = "kompendium-techniques"

@@ -2,9 +2,11 @@
 title = "Budování dětské reziliencie"
 description = "Prevence a rezilience — budování dětské reziliencie."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "prevention-resilience", "primary"]
 categories = ["academic", "prevention"]
+
 [extra]
 related_terms = ["10-public-discourse-quality", "11-early-screening-EA", "12-warning-sign-recognition"]
 parent = "kompendium-prevention-resilience"

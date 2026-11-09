@@ -2,9 +2,11 @@
 title = "EA-2.4.2 Policy Rewriting Skrytá"
 description = "Delegitimizační technika — Policy Rewriting Skrytá."
 weight = 2402
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-2", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-1-board-capture", "ea-2-4-10-disciplinary-society-capture", "ea-2-4-3-funding-redirect", "ea-2-4-4-leadership-capture"]
 parent = "kompendium-techniques"

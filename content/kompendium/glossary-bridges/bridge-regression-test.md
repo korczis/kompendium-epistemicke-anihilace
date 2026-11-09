@@ -2,9 +2,11 @@
 title = "Bridge: regression-test"
 description = "Glossary bridge — propojeni kompendia s glossary entry regression-test."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "regression-test", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-readiness", "bridge-red-team", "bridge-replication-crisis", "bridge-risk-score"]
 parent = "kompendium-glossary-bridges"

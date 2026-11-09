@@ -2,6 +2,7 @@
 title = "Reference"
 description = "Literatura citovaná v kompendiu: každá položka jednou, s odkazy na stránky, které ji citují."
 weight = 900
+
 [extra]
 toc = false
 entries = 296

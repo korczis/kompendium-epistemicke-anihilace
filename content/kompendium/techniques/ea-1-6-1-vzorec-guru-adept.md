@@ -1,14 +1,17 @@
 +++
 title = "EA-1-6-1-vzorec-guru-adept"
 weight = 100
+description = "EA-1-6-1-vzorec-guru-adept — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
+
+[taxonomies]
+tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+
 [extra]
 category = "kompendium-technique"
-description = "EA-1-6-1-vzorec-guru-adept — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
 related_terms = ["ea-1-2-2-memorni-rekonstrukce", "ea-1-3-1-immunization-against-falsification", "ea-1-3-2-sokratovska-past", "ea-1-1-1-selektivni-expozice", "ea-1-1-1", "ea-1-1-2-informacni-pretizeni"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
 quality_score = 75
 ref_count_at_creation = 1
 +++

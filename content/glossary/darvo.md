@@ -2,9 +2,13 @@
 title = "DARVO"
 weight = 60
 
+description = "Deny, Attack, Reverse Victim and Offender — a stereotyped accountability-deflection pattern empirically associated with sexual offenders, coercive controllers, and bad-faith actors under confrontation."
+
+[taxonomies]
+tags = ["glossary", "clinical", "manipulace", "kompendium"]
+
 [extra]
 category = "clinical"
-description = "Deny, Attack, Reverse Victim and Offender — a stereotyped accountability-deflection pattern empirically associated with sexual offenders, coercive controllers, and bad-faith actors under confrontation."
 related_terms = ["coercive-control", "gaslighting", "epistemicka-anihilace", "taxonomie-ea", "delegitimizace", "bite-model"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["DARVO", "Jennifer Freyd", "deny attack reverse", "accountability deflection", "perpetrator response", "manipulation pattern"]
-tags = ["glossary", "clinical", "manipulace", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

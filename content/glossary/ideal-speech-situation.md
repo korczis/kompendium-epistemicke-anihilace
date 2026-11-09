@@ -2,9 +2,13 @@
 title = "Ideal Speech Situation"
 weight = 60
 
+description = "Habermas's regulative ideal of unconstrained discourse — equal speaker access, freedom from coercion, no force but the better argument; pragmatic benchmark against which manipulative communication is identified."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Habermas's regulative ideal of unconstrained discourse — equal speaker access, freedom from coercion, no force but the better argument; pragmatic benchmark against which manipulative communication is identified."
 related_terms = ["communicative-rationality", "instrumental-reason", "epistemicka-injustice", "epistemicka-anihilace", "power-knowledge"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["ideal speech situation", "ISS", "Habermas", "discourse ethics", "ideale Sprechsituation", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

@@ -2,9 +2,11 @@
 title = "EA-7.2.7 Quine: Web of Belief"
 description = "Teoretická reflexe — Quine: Web of Belief a vztah k EA."
 weight = 727
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-2", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-6-feyerabend-anti-method", "ea-7-2-8-davidson-charity", "ea-7-2-9-williams-truthfulness"]
 parent = "kompendium-techniques"

@@ -2,9 +2,13 @@
 title = "Info-Ops"
 weight = 60
 
+description = "Information operations — military and intelligence-grade epistemic attacks integrating cyber, psychological, deception, and electronic warfare to shape perception and decision-making in adversarial environments."
+
+[taxonomies]
+tags = ["glossary", "security", "epistemic", "kompendium"]
+
 [extra]
 category = "security"
-description = "Information operations — military and intelligence-grade epistemic attacks integrating cyber, psychological, deception, and electronic warfare to shape perception and decision-making in adversarial environments."
 related_terms = ["epistemic-security", "firehose-of-falsehood", "deepfake", "deplatforming", "epistemicka-anihilace", "delegitimizace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["information operations", "info-ops", "psyops", "cyber operations", "military doctrine", "hybrid warfare", "PSYOP"]
-tags = ["glossary", "security", "epistemic", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

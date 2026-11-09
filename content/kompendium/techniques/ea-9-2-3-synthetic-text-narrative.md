@@ -2,9 +2,11 @@
 title = "EA-9.2.3 Synthetic Text Narrative"
 description = "Současná digitální EA — synthetic text narrative."
 weight = 923
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-2", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-2-10-AI-personhood-claim", "ea-9-2-2-voice-cloning-EA", "ea-9-2-4-image-manipulation-EA", "ea-9-2-5-video-manipulation-EA"]
 parent = "kompendium-techniques"

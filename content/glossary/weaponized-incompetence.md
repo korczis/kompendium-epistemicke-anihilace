@@ -2,9 +2,13 @@
 title = "Weaponized Incompetence"
 weight = 60
 
+description = "Strategic incompetence — performance of inability as a coercion mechanism that transfers labor and accountability to others. Operationally couples with delegitimization techniques in the EA-2.x family."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+
 [extra]
 category = "epistemic"
-description = "Strategic incompetence — performance of inability as a coercion mechanism that transfers labor and accountability to others. Operationally couples with delegitimization techniques in the EA-2.x family."
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "sealioning", "motte-and-bailey", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["weaponized incompetence", "strategic incompetence", "learned helplessness as tactic", "labor transfer", "delegitimization"]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

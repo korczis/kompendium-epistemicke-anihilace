@@ -2,9 +2,11 @@
 title = "Bridge: strategic-command"
 description = "Glossary bridge — propojeni kompendia s glossary entry strategic-command."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "strategic-command", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-shodan", "bridge-simulacra", "bridge-supreme-commander", "bridge-tactical-execution"]
 parent = "kompendium-glossary-bridges"

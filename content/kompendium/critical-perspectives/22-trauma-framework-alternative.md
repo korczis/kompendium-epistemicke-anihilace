@@ -2,9 +2,11 @@
 title = "Trauma-informovaný framework"
 description = "Kritická perspektiva — trauma-informovaný framework."
 weight = 22
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "alternative"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["20-publication-ethics-EA", "21-systems-theory-alternative", "23-political-economy-alternative", "24-narrative-medicine-alternative"]
 parent = "kompendium-critical-perspectives"

@@ -2,9 +2,11 @@
 title = "EA-2.1.7 Institucionální vyloučení"
 description = "Delegitimizační technika — Institucionální vyloučení."
 weight = 2107
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-7", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-5-citation-suppression", "ea-2-1-6-funding-attack", "ea-2-1-8-reputation-laundering-inverze", "ea-2-1-9-pseudo-konsenzus-vytvoreni"]
 parent = "kompendium-techniques"

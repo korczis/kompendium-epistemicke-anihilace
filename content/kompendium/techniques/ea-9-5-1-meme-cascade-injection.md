@@ -2,9 +2,11 @@
 title = "EA-9.5.1 Meme Cascade Injection"
 description = "Současná digitální EA — meme cascade injection."
 weight = 951
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-4-8-real-time-bot-response", "ea-9-4-9-bot-narrative-injection", "ea-9-5-10-meme-attribution-laundering", "ea-9-5-2-symbolic-hijacking"]
 parent = "kompendium-techniques"

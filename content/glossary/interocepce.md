@@ -1,9 +1,13 @@
 +++
 title = "Interoception / Interocepce"
 weight = 50
+description = "Sense of internal bodily state — heart rate, breath, viscera, hunger, etc."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Sense of internal bodily state — heart rate, breath, viscera, hunger, etc."
 related_terms = [
   "body-schema",
   "polyvagalni-teorie",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

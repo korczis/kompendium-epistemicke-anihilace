@@ -2,9 +2,13 @@
 title = "Hermeneutika"
 weight = 60
 
+description = "Filosofická teorie interpretace textů, jednání a historických událostí (Gadamer, Ricoeur); rámec pro odlišení legitimní reinterpretace od EA-1.3.2 strategické reinterpretace."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "interpretation"]
+
 [extra]
 category = "epistemic"
-description = "Filosofická teorie interpretace textů, jednání a historických událostí (Gadamer, Ricoeur); rámec pro odlišení legitimní reinterpretace od EA-1.3.2 strategické reinterpretace."
 related_terms = ["fenomenologie", "epistemicka-anihilace", "taxonomie-ea", "gaslighting", "falsifikace", "lakatos-vyzkumny-program"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 660
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["hermeneutika", "hermeneutics", "Gadamer", "Ricoeur", "interpretace", "kompendium"]
-tags = ["glossary", "epistemic", "philosophy", "interpretation"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

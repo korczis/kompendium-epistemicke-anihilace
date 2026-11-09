@@ -2,9 +2,11 @@
 title = "Bridge: mereologicka-rekonstrukce"
 description = "Glossary bridge — propojeni kompendia s glossary entry mereologicka-rekonstrukce."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "mereologicka-rekonstrukce", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-lakatos-vyzkumny-program", "bridge-lebenswelt", "bridge-metakognice", "bridge-metakognitivni-destrukce"]
 parent = "kompendium-glossary-bridges"

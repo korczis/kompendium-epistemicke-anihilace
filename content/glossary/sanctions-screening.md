@@ -1,12 +1,15 @@
 +++
 title = "Sanctions Screening"
 weight = 29
+description = "Automated checking against EU, US, UK, and UN sanctions lists with fuzzy matching and entity resolution in the Prismatic Platform"
+
+[taxonomies]
+tags = ["sanctions", "compliance", "osint", "screening", "aml"]
+
 [extra]
 category = "osint"
-description = "Automated checking against EU, US, UK, and UN sanctions lists with fuzzy matching and entity resolution in the Prismatic Platform"
 related_terms = ["osint", "intelligence-fusion", "nis2", "easm", "entity-resolution", "security-rating", "threat-intelligence", "compliance-framework", "gdpr"]
 keywords = ["sanctions screening automation", "OFAC SDN list checking", "EU sanctions compliance", "fuzzy name matching", "entity resolution deduplication", "AML KYC screening", "sanctions list management", "PEP screening", "Elixir parallel screening", "regulatory compliance automation"]
-tags = ["sanctions", "compliance", "osint", "screening", "aml"]
 platform_integration = "deep"
 related_app = "prismatic_intel"
 complexity = "advanced"

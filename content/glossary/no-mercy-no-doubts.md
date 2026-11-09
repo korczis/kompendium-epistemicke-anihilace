@@ -1,8 +1,12 @@
 +++
 title = "No Mercy, No Doubts"
 weight = 3
-[extra]
 description = "The universal doctrine governing all Prismatic Platform operations: zero tolerance for incomplete work combined with full investigation before decisive action"
+
+[taxonomies]
+tags = ["glossary", "doctrine", "no-mercy-no-doubts", "prismatic"]
+
+[extra]
 category = "doctrine"
 abbreviation = "NM/ND"
 date_created = "2026-02-13"
@@ -14,7 +18,6 @@ difficulty = "intermediate"
 related_terms = ["no-mercy", "no-doubts", "nm-nd", "violation-protocol", "clean-run", "regression-test", "aiad", "archer-supreme", "confidence-threshold", "pre-commit-hooks", "session-discipline", "nabla-infinity", "trinity-gate", "quality-gates", "qdp", "zero-warning-policy"]
 date_modified = "2026-02-23"
 keywords = ["Mercy", "Doubts", "Prismatic", "Platform", "glossary", "doctrine", "Prismatic Platform", "Every"]
-tags = ["glossary", "doctrine", "no-mercy-no-doubts", "prismatic"]
 quality_score = 90
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

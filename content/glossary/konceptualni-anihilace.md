@@ -1,9 +1,13 @@
 +++
 title = "Conceptual Annihilation / Konceptuální anihilace"
 weight = 50
+description = "Systematic dismantling of conceptual schemas and meaning-making structures."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Systematic dismantling of conceptual schemas and meaning-making structures."
 related_terms = [
   "epistemicka-anihilace",
   "epistemicka-singularita",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

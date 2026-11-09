@@ -2,9 +2,13 @@
 title = "Epistemická pokora"
 weight = 60
 
+description = "Epistemic humility — disposition to acknowledge limits of one's knowledge. Distinguished from its weaponized form (EA-1.6.5), where humility is induced as a control mechanism rather than a virtue."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+
 [extra]
 category = "epistemic"
-description = "Epistemic humility — disposition to acknowledge limits of one's knowledge. Distinguished from its weaponized form (EA-1.6.5), where humility is induced as a control mechanism rather than a virtue."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognice", "metakognitivni-destrukce", "kompendium-ea", "epistemic-confidence"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epistemic humility", "epistemická pokora", "EA-1.6.5", "weaponized humility", "calibration"]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

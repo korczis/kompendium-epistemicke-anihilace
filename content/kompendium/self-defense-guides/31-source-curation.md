@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Kurátorství zdrojů"
 description = "Praktický návod sebe-obrany — kurátorství zdrojů."
 weight = 31
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["3-source-triangulation", "30-support-mobilization", "32-feed-detoxification", "33-information-diet"]
 parent = "kompendium-self-defense-guides"

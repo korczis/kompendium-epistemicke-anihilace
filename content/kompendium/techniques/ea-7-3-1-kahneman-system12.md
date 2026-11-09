@@ -2,9 +2,11 @@
 title = "EA-7.3.1 Kahneman: System 1/2"
 description = "Teoretická reflexe — Kahneman: System 1/2 a vztah k EA."
 weight = 731
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-2-8-davidson-charity", "ea-7-2-9-williams-truthfulness", "ea-7-3-10-tononi-iit", "ea-7-3-2-tversky-heuristics"]
 parent = "kompendium-techniques"

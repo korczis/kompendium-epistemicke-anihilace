@@ -1,9 +1,13 @@
 +++
 title = "Secure Attachment"
 weight = 50
+description = "Healthy attachment style characterized by mutual attunement and stable trust."
+
+[taxonomies]
+tags = ["glossary", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Healthy attachment style characterized by mutual attunement and stable trust."
 related_terms = [
   "pseudoempaticka-vazba",
   "trauma-bonding",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "psychology", "interactive"]
 quality_score = 75
 +++
 

@@ -1,8 +1,12 @@
 +++
 title = "Transformative Experience"
 weight = 5
-[extra]
 description = "L.A. Paul's epistemic-decision-theory concept describing experiences that simultaneously deliver new knowledge unavailable in advance and reshape the values, preferences, and identity of the person who undergoes them, generating distinctive challenges for rational choice"
+
+[taxonomies]
+tags = ["epistemic", "philosophy", "ethics", "research", "decision-theory"]
+
+[extra]
 category = "epistemic"
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -15,7 +19,6 @@ date_updated = "2026-05-03"
 importance = "high"
 related_terms = ["epistemic-reasoning", "epistemicka-pokora", "bayesian-reasoning", "belief-graph", "informed-consent", "irb-review", "trauma-spectrum"]
 keywords = ["transformative experience", "L.A. Paul", "epistemic transformation", "personal transformation", "rational choice", "decision theory", "preference change", "first-person knowledge"]
-tags = ["epistemic", "philosophy", "ethics", "research", "decision-theory"]
 key_takeaway = "A transformative experience is one whose subjective character cannot be known in advance and whose impact on the person's values is so deep that pre-experience preferences are not a reliable guide. This breaks classical decision theory and creates genuine challenges for informed consent in research, medicine, and life decisions."
 see_also = ["informed-consent", "irb-review", "individual-risk-map"]
 image = "/images/sections/glossary.png"

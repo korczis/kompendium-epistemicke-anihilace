@@ -2,9 +2,13 @@
 title = "Metakognitivní destrukce"
 weight = 60
 
+description = "Narušení schopnosti reflektovat vlastní myšlení a regulovat vlastní kognitivní procesy — destrukce metakognitivního aparátu."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
+
 [extra]
 category = "epistemic"
-description = "Narušení schopnosti reflektovat vlastní myšlení a regulovat vlastní kognitivní procesy — destrukce metakognitivního aparátu."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "kognitivni-anti-rekurzivita", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 480
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["metakognitivní destrukce", "metakognice", "kognitivní reflexe"]
-tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 quality_score = 82
 see_also = ["kompendium", "kognitivni-anihilace"]
 image = "/images/sections/glossary.png"

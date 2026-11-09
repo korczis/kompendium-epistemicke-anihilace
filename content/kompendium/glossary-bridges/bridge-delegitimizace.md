@@ -2,9 +2,11 @@
 title = "Bridge: delegitimizace"
 description = "Glossary bridge — propojeni kompendia s glossary entry delegitimizace."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "delegitimizace", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-decision-engine", "bridge-deepfake", "bridge-deplatforming", "bridge-differance"]
 parent = "kompendium-glossary-bridges"

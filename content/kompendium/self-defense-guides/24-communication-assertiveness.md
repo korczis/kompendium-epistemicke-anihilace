@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Asertivní komunikace"
 description = "Praktický návod sebe-obrany — asertivní komunikace."
 weight = 24
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["22-relationship-audit", "23-trust-calibration", "25-network-diversification", "26-isolation-prevention"]
 parent = "kompendium-self-defense-guides"

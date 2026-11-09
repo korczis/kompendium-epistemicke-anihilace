@@ -2,9 +2,11 @@
 title = "EA-2.1.9 Pseudo-konsenzus vytvoření"
 description = "Delegitimizační technika — Pseudo-konsenzus vytvoření."
 weight = 2109
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-1-9", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-1-7-institucionalni-vyloucenni", "ea-2-1-8-reputation-laundering-inverze", "ea-2-2-1-mentor-self-totalizace", "ea-2-2-10-future-blackmail-implantace"]
 parent = "kompendium-techniques"

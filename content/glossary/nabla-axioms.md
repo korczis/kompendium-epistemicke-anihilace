@@ -1,9 +1,12 @@
 +++
 title = "NABLA Axioms"
 weight = 50
-[extra]
-tags = ["glossary", "epistemic", "nabla-infinity", "axioms", "belief-formation", "signal-processing", "contradiction-preservation", "provenance"]
 description = "The seven non-negotiable epistemic principles governing all belief formation in the Prismatic Platform: Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, and Provenance Mandatory"
+
+[taxonomies]
+tags = ["glossary", "epistemic", "nabla-infinity", "axioms", "belief-formation", "signal-processing", "contradiction-preservation", "provenance"]
+
+[extra]
 category = "epistemic"
 status = "active"
 author = "Tomas Korcak (korczis)"

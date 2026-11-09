@@ -2,9 +2,11 @@
 title = "Bridge: anankasticky-rezim"
 description = "Glossary bridge — propojeni kompendia s glossary entry anankasticky-rezim."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "anankasticky-rezim", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-agent-tier", "bridge-aiad", "bridge-archer-supreme", "bridge-autoevolve"]
 parent = "kompendium-glossary-bridges"

@@ -2,9 +2,11 @@
 title = "EA-9.1.8 LLM Confabulation Amplification"
 description = "Současná digitální EA — llm confabulation amplification."
 weight = 918
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-7-synthetic-expertise-claim", "ea-9-1-9-multi-turn-narrative-shift", "ea-9-2-1-deepfake-personality"]
 parent = "kompendium-techniques"

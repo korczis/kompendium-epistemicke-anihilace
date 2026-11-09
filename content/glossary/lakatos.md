@@ -1,9 +1,13 @@
 +++
 title = "Lakatos Research Programme"
 weight = 50
+description = "Imre Lakatos' methodology of scientific research programmes — refinement of Popperian falsification."
+
+[taxonomies]
+tags = ["glossary", "philosophy", "interactive"]
+
 [extra]
 category = "philosophy"
-description = "Imre Lakatos' methodology of scientific research programmes — refinement of Popperian falsification."
 related_terms = [
   "falsifiability",
   "predictive-processing",
@@ -12,7 +16,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary", "philosophy", "interactive"]
 quality_score = 75
 +++
 

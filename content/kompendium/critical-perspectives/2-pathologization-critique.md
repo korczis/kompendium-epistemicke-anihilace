@@ -2,9 +2,11 @@
 title = "Patologizace normálních variací"
 description = "Kritická perspektiva — patologizace normálních variací."
 weight = 2
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["18-EA-as-power-tool", "19-research-exploitation", "20-publication-ethics-EA", "21-systems-theory-alternative"]
 parent = "kompendium-critical-perspectives"

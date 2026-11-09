@@ -2,9 +2,11 @@
 title = "EA-7.3.2 Tversky & Kahneman: Heuristiky"
 description = "Teoretická reflexe — Tversky & Kahneman: Heuristiky a vztah k EA."
 weight = 732
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-7-3", "teoreticke"]
 categories = ["academic", "theory"]
+
 [extra]
 related_terms = ["ea-7-3-1-kahneman-system12", "ea-7-3-10-tononi-iit", "ea-7-3-3-friston-active-inference", "ea-7-3-4-clark-extended-mind"]
 parent = "kompendium-techniques"

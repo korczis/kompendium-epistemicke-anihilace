@@ -2,9 +2,11 @@
 title = "EA × OSINT: Bot Detection v Investigativním Workflow"
 description = "Detekce automatizovaných účtů a generated content v OSINT pipeline"
 weight = 60
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "osint"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["4-ea-osint-sanctions-list-bias", "5-ea-osint-social-media-manipulation", "7-ea-osint-narrative-injection", "8-ea-osint-cross-source-triangulation"]
 parent = "kompendium-cross-domain"

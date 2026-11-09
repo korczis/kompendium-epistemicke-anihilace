@@ -2,9 +2,13 @@
 title = "Kognitivní anti-rekurzivita"
 weight = 60
 
+description = "Narušení meta-kognitivní rekurzivní funkce — schopnosti aplikovat kognitivní procesy na jejich vlastní výstupy a strukturu."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
+
 [extra]
 category = "epistemic"
-description = "Narušení meta-kognitivní rekurzivní funkce — schopnosti aplikovat kognitivní procesy na jejich vlastní výstupy a strukturu."
 related_terms = ["kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-anihilace", "anankasticky-rezim"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 520
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["kognitivní anti-rekurzivita", "metakognice", "kognitivní rekurze"]
-tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 quality_score = 82
 see_also = ["kompendium", "kognitivni-anihilace"]
 image = "/images/sections/glossary.png"

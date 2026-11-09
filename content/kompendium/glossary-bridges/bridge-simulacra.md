@@ -2,9 +2,11 @@
 title = "Bridge: simulacra"
 description = "Glossary bridge — propojeni kompendia s glossary entry simulacra."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "simulacra", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-session-discipline", "bridge-shodan", "bridge-strategic-command", "bridge-supreme-commander"]
 parent = "kompendium-glossary-bridges"

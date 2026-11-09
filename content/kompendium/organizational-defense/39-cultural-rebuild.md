@@ -2,9 +2,11 @@
 title = "Kulturní obnova"
 description = "Organizační obrana — kulturní obnova."
 weight = 390
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["37-business-continuity-EA", "38-leadership-replacement", "4-whistleblower-mechanism", "40-post-incident-learning"]
 parent = "kompendium-organizational-defense"

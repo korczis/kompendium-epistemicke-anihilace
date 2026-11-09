@@ -2,9 +2,13 @@
 title = "Propaganda"
 weight = 60
 
+description = "Ellul's structural theory: propaganda as a sociological phenomenon operating at population scale through total media saturation. The infrastructure-level analogue of EA at individual scale."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+
 [extra]
 category = "epistemic"
-description = "Ellul's structural theory: propaganda as a sociological phenomenon operating at population scale through total media saturation. The infrastructure-level analogue of EA at individual scale."
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "epistemic-bubble", "kognitivni-anihilace", "taxonomie-ea", "lebenswelt"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["propaganda", "Ellul", "structural propaganda", "integration propaganda", "agitation propaganda", "population-scale EA"]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

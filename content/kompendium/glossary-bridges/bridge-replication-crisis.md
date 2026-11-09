@@ -2,9 +2,11 @@
 title = "Bridge: replication-crisis"
 description = "Glossary bridge — propojeni kompendia s glossary entry replication-crisis."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "replication-crisis", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-red-team", "bridge-regression-test", "bridge-risk-score", "bridge-sanctions-screening"]
 parent = "kompendium-glossary-bridges"

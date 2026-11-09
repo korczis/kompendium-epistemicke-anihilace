@@ -1,9 +1,13 @@
 +++
 title = "Clean Run"
 weight = 5
+description = "Zero runtime warnings, zero info/debug logs, --warnings-as-errors compilation across the entire platform"
+
+[taxonomies]
+tags = ["glossary", "doctrine", "clean-run", "prismatic"]
+
 [extra]
 category = "doctrine"
-description = "Zero runtime warnings, zero info/debug logs, --warnings-as-errors compilation across the entire platform"
 related_terms = ["cascade", "cascade-pattern", "qdp", "dialyzer", "typespec", "autoevolve", "autoheal", "code-coverage", "property-based-testing", "mix", "supervisor"]
 platform_relevance = "critical"
 complexity = "intermediate"
@@ -31,7 +35,6 @@ word_count = 1934
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Clean", "Run", "Zero", "--warnings-as-errors", "glossary", "doctrine", "Prismatic Platform", "Clean Run", "Credo", "Dialyzer"]
-tags = ["glossary", "doctrine", "clean-run", "prismatic"]
 image = "/images/sections/glossary.png"
 image_alt = "Clean Run - Prismatic Platform"
 +++

@@ -2,9 +2,11 @@
 title = "Oddělení povinností"
 description = "Organizační obrana — oddělení povinností."
 weight = 290
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["27-information-classification", "28-access-control-EA", "3-conflict-of-interest-policy", "30-rotation-of-roles"]
 parent = "kompendium-organizational-defense"

@@ -2,9 +2,11 @@
 title = "QR: EA-2.5.9 Identity uncertainty"
 description = "Rychla referencni karta pro EA-2.5.9 (delegitimizace)."
 weight = 30259
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-5-9", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-5-7", "qr-ea-2-5-8", "qr-ea-5-1-1", "qr-ea-5-1-10"]
 parent = "kompendium-quick-reference"

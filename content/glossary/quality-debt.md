@@ -1,8 +1,12 @@
 +++
 title = "Quality Debt"
 weight = 53
-[extra]
 description = "Quality Debt Points tracked, measured, and systematically eliminated"
+
+[taxonomies]
+tags = ["glossary", "quality", "quality-debt", "prismatic"]
+
+[extra]
 category = "quality"
 subcategory = "debt_management"
 difficulty = "advanced"
@@ -31,7 +35,6 @@ word_count = 934
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Quality", "Debt", "Points", "glossary", "Prismatic Platform", "Custom", "Dialyzer", "CASCADE"]
-tags = ["glossary", "quality", "quality-debt", "prismatic"]
 quality_score = 75
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

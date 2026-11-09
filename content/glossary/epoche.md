@@ -2,9 +2,13 @@
 title = "Epoché"
 weight = 60
 
+description = "Husserl's phenomenological reduction: methodical bracketing of the natural attitude to expose the structure of experience itself; usable as a defensive epistemic technique against ontological annihilation."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Husserl's phenomenological reduction: methodical bracketing of the natural attitude to expose the structure of experience itself; usable as a defensive epistemic technique against ontological annihilation."
 related_terms = ["epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "predictive-processing", "differance"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["epoché", "phenomenological reduction", "Husserl", "bracketing", "natural attitude", "phenomenology", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

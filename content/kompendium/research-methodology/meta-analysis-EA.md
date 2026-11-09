@@ -2,9 +2,11 @@
 title = "Meta-Analýza EA Studií"
 description = "Výzkumná metodologie EA — meta-analýza ea studií."
 weight = 14
+
 [taxonomies]
 tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
+
 [extra]
 related_terms = ["informed-consent-EA-research", "longitudinal-study-EA", "mixed-methods-EA", "narrative-analysis-EA"]
 parent = "kompendium-research-methodology"

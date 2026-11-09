@@ -2,9 +2,11 @@
 title = "Bridge: adapter-pattern"
 description = "Glossary bridge — propojeni kompendia s glossary entry adapter-pattern."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "adapter-pattern", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-3nl", "bridge-agent", "bridge-agent-registry", "bridge-agent-tier"]
 parent = "kompendium-glossary-bridges"

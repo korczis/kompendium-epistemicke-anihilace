@@ -1,14 +1,17 @@
 +++
 title = "Bridge: Etický rámec / Ethical Framework"
 weight = 100
+description = "Bridge entry connecting kompendium ethical framework discussions to platform doctrine."
+
+[taxonomies]
+tags = ["glossary-bridge", "kompendium", "interactive"]
+
 [extra]
 category = "kompendium-bridge"
-description = "Bridge entry connecting kompendium ethical framework discussions to platform doctrine."
 related_terms = ["bridge-autoheal", "bridge-bounded-context", "bridge-anankasticky-rezim", "bridge-adapter-pattern", "bridge-blue-team", "bridge-autoevolve"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "kompendium", "interactive"]
 quality_score = 75
 +++
 

@@ -2,9 +2,13 @@
 title = "Narrative Trauma"
 weight = 60
 
+description = "Vetlesen's narrative trauma — damage to the subject's capacity to integrate experience into a coherent self-narrative. Critical site of EA recovery work."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "trauma"]
+
 [extra]
 category = "epistemic"
-description = "Vetlesen's narrative trauma — damage to the subject's capacity to integrate experience into a coherent self-narrative. Critical site of EA recovery work."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "epistemicke-trauma", "lebenswelt", "metakognice", "embodied-cognition"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 550
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["narrative trauma", "Vetlesen", "narrative identity", "Ricoeur", "self-narrative", "EA recovery"]
-tags = ["glossary", "epistemic", "kompendium", "trauma"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

@@ -1,9 +1,13 @@
 +++
 title = "Gaslighting"
 weight = 50
+description = "Manipulation technique systematically eroding victim's perception of reality, memory, and self-trust."
+
+[taxonomies]
+tags = ["glossary-bridge", "psychology", "interactive"]
+
 [extra]
 category = "psychology"
-description = "Manipulation technique systematically eroding victim's perception of reality, memory, and self-trust."
 related_terms = [
   "delegitimizace",
   "epistemicke-trauma",
@@ -13,7 +17,6 @@ related_terms = [
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-03"
-tags = ["glossary-bridge", "psychology", "interactive"]
 quality_score = 75
 +++
 

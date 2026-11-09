@@ -2,9 +2,11 @@
 title = "Medikalizace etického aktérství"
 description = "Kritická perspektiva — medikalizace etického aktérství."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["10-cultural-bias-critique", "11-iatrogenic-overreach", "12-EA-stigma-risk"]
 parent = "kompendium-critical-perspectives"

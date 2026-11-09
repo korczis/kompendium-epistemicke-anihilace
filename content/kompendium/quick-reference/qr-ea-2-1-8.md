@@ -2,9 +2,11 @@
 title = "QR: EA-2.1.8 Reputation laundering inverze"
 description = "Rychla referencni karta pro EA-2.1.8 (delegitimizace)."
 weight = 30218
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-1-8", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-1-6", "qr-ea-2-1-7", "qr-ea-2-1-9", "qr-ea-2-2-1"]
 parent = "kompendium-quick-reference"

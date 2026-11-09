@@ -1,9 +1,13 @@
 +++
 title = "Intelligence Fusion"
 weight = 28
+description = "Multi-source correlation and confidence scoring for intelligence products"
+
+[taxonomies]
+tags = ["glossary", "osint", "intelligence-fusion", "prismatic"]
+
 [extra]
 category = "osint"
-description = "Multi-source correlation and confidence scoring for intelligence products"
 related_terms = ["osint", "signal-plurality", "nabla-infinity", "threat-intelligence", "entity-resolution", "sanctions-screening", "confidence-threshold"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -11,7 +15,6 @@ word_count = 1210
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Intelligence", "Fusion", "Multi-source", "glossary", "osint", "Prismatic Platform", "Source", "Level", "NABLA"]
-tags = ["glossary", "osint", "intelligence-fusion", "prismatic"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

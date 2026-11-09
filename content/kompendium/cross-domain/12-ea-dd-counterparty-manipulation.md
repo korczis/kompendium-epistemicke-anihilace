@@ -2,9 +2,11 @@
 title = "EA × Due Diligence: Counterparty Information Manipulation"
 description = "Cílená manipulace informací DD targetem — co nevidí standard process"
 weight = 120
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["10-ea-dd-source-weighting", "11-ea-dd-decision-engine-calibration", "13-ea-dd-beneficial-ownership-disinformation", "14-ea-dd-narrative-warfare"]
 parent = "kompendium-cross-domain"

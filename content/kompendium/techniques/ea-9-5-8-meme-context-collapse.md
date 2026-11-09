@@ -2,9 +2,11 @@
 title = "EA-9.5.8 Meme Context Collapse"
 description = "Současná digitální EA — meme context collapse."
 weight = 958
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-5", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-5-6-frame-war-coordination", "ea-9-5-7-narrative-meme-fusion", "ea-9-5-9-meme-radicalization-pipeline", "ea-9-6-1-algorithmic-decision-bias"]
 parent = "kompendium-techniques"

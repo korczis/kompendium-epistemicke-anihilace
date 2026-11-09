@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Informační dieta"
 description = "Praktický návod sebe-obrany — informační dieta."
 weight = 33
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["31-source-curation", "32-feed-detoxification", "34-attention-budget", "35-deep-reading-practice"]
 parent = "kompendium-self-defense-guides"

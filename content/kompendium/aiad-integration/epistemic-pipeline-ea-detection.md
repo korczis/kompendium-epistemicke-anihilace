@@ -2,9 +2,11 @@
 title = "Epistemic Pipeline & EA detection"
 description = "Integrace agenta Epistemic Pipeline s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
 weight = 27
+
 [taxonomies]
 tags = ["kompendium", "aiad-integration", "epistemic-pipeline-ea-detection"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["dd-engine-ea-source-weighting", "decision-engine-ea-calibration", "gray-team-ea-edge-cases", "hawkeye-ea-visitor-intelligence"]
 parent = "kompendium-aiad-integration"

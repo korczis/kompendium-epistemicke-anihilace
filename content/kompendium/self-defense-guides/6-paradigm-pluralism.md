@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Pluralita paradigmat"
 description = "Praktický návod sebe-obrany — pluralita paradigmat."
 weight = 6
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["5-falsification-thinking", "50-personal-mythology-defense", "7-belief-revision", "8-cognitive-flexibility"]
 parent = "kompendium-self-defense-guides"

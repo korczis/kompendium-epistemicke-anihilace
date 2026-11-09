@@ -2,9 +2,11 @@
 title = "Bridge: archer-supreme"
 description = "Glossary bridge — propojeni kompendia s glossary entry archer-supreme."
 weight = 1
+
 [taxonomies]
 tags = ["kompendium", "glossary-bridge", "archer-supreme", "cross-link"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["bridge-aiad", "bridge-anankasticky-rezim", "bridge-autoevolve", "bridge-autoheal"]
 parent = "kompendium-glossary-bridges"

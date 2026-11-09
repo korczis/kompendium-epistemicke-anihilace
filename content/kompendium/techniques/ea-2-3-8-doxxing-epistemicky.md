@@ -2,9 +2,11 @@
 title = "EA-2.3.8 Doxxing Epistemický"
 description = "Delegitimizační technika — Doxxing Epistemický."
 weight = 2308
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-3-8", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-6-platform-coordinated-attack", "ea-2-3-7-deepfake-personalni", "ea-2-3-9-sealioning-medialni", "ea-2-4-1-board-capture"]
 parent = "kompendium-techniques"

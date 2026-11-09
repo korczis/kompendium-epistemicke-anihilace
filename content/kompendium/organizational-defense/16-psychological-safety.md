@@ -2,9 +2,11 @@
 title = "Psychologická bezpečnost"
 description = "Organizační obrana — psychologická bezpečnost."
 weight = 160
+
 [taxonomies]
 tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
+
 [extra]
 related_terms = ["14-anonymous-feedback", "15-culture-survey-EA", "17-team-rotation-policy", "18-supervisor-evaluation"]
 parent = "kompendium-organizational-defense"

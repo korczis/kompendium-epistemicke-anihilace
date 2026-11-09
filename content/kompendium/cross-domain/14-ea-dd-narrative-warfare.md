@@ -2,9 +2,11 @@
 title = "EA × Due Diligence: Narrative Warfare v M&A"
 description = "M&A jako bojiště narrativů — competitive intelligence vs. disinformation"
 weight = 140
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["12-ea-dd-counterparty-manipulation", "13-ea-dd-beneficial-ownership-disinformation", "15-ea-dd-evidence-quality-assessment", "16-ea-dd-confirmation-bias-prevention"]
 parent = "kompendium-cross-domain"

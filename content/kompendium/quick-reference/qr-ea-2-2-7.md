@@ -2,9 +2,11 @@
 title = "QR: EA-2.2.7 Emotional debt"
 description = "Rychla referencni karta pro EA-2.2.7 (delegitimizace)."
 weight = 30227
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-2-7", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-2-5", "qr-ea-2-2-6", "qr-ea-2-2-8", "qr-ea-2-2-9"]
 parent = "kompendium-quick-reference"

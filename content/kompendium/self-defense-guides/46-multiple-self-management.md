@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Správa mnohočetného já"
 description = "Praktický návod sebe-obrany — správa mnohočetného já."
 weight = 46
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["44-axiology-clarification", "45-life-story-integration", "47-identity-resilience-training", "48-existential-meaning-protection"]
 parent = "kompendium-self-defense-guides"

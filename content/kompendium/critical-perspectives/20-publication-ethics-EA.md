@@ -2,9 +2,11 @@
 title = "Publikační etika v EA literatuře"
 description = "Kritická perspektiva — publikační etika v ea literatuře."
 weight = 20
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "ethical"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["19-research-exploitation", "2-pathologization-critique", "21-systems-theory-alternative", "22-trauma-framework-alternative"]
 parent = "kompendium-critical-perspectives"

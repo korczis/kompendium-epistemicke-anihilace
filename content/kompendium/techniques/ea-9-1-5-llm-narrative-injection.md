@@ -2,9 +2,11 @@
 title = "EA-9.1.5 LLM Narrative Injection"
 description = "Současná digitální EA — llm narrative injection."
 weight = 915
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-9-1", "digitalni", "AI"]
 categories = ["academic", "digital", "AI"]
+
 [extra]
 related_terms = ["ea-9-1-3-jailbreak-cascade", "ea-9-1-4-rag-context-poisoning", "ea-9-1-6-llm-source-attribution-bypass", "ea-9-1-7-synthetic-expertise-claim"]
 parent = "kompendium-techniques"

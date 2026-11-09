@@ -2,9 +2,13 @@
 title = "Gaslighting"
 weight = 60
 
+description = "Specifický manipulační vzorec útočící na důvěru jedince ve vlastní vnímání, paměť a úsudek; relační varianta epistemické anihilace operující v interpersonálních vazbách."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "manipulace"]
+
 [extra]
 category = "epistemic"
-description = "Specifický manipulační vzorec útočící na důvěru jedince ve vlastní vnímání, paměť a úsudek; relační varianta epistemické anihilace operující v interpersonálních vazbách."
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "metakognitivni-destrukce", "delegitimizace", "epistemicke-trauma", "metakognice"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 660
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["gaslighting", "manipulace", "epistemická anihilace", "kompendium", "interpersonální násilí", "epistemic security"]
-tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

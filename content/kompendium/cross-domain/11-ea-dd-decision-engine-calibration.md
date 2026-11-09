@@ -2,9 +2,11 @@
 title = "EA × Due Diligence: Decision Engine Kalibrace v DD"
 description = "Calibration loop — proč DD predikce musí být ex-post validovány"
 weight = 110
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "due-diligence"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["1-ea-osint-source-credibility", "10-ea-dd-source-weighting", "12-ea-dd-counterparty-manipulation", "13-ea-dd-beneficial-ownership-disinformation"]
 parent = "kompendium-cross-domain"

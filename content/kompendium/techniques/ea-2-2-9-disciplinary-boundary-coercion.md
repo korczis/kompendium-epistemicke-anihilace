@@ -2,9 +2,11 @@
 title = "EA-2.2.9 Disciplinary Boundary Coercion"
 description = "Delegitimizační technika — Disciplinary Boundary Coercion."
 weight = 2209
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-2-9", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-2-7-emotional-debt-cultivation", "ea-2-2-8-intellectual-paternity-claim", "ea-2-3-1-clip-takeout", "ea-2-3-10-viralni-misrepresentation"]
 parent = "kompendium-techniques"

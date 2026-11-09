@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Vyjasnění hodnot"
 description = "Praktický návod sebe-obrany — vyjasnění hodnot."
 weight = 44
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["42-relational-anchors", "43-memory-archive", "45-life-story-integration", "46-multiple-self-management"]
 parent = "kompendium-self-defense-guides"

@@ -1,14 +1,17 @@
 +++
 title = "Sekvence"
 weight = 100
+description = "Sekvence — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+
+[taxonomies]
+tags = ["kompendium", "sub-page", "interactive"]
+
 [extra]
 category = "kompendium-sub"
-description = "Sekvence — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
 related_terms = ["longterm-meaning-deepening", "lifeworld", "longterm-resilience-cultivation", "incompetence", "duvera", "longterm-community-rebuilding"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-05-04"
-tags = ["kompendium", "sub-page", "interactive"]
 quality_score = 80
 +++
 

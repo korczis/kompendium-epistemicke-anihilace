@@ -2,9 +2,11 @@
 title = "EA-2.3.4 Mob Coordination"
 description = "Delegitimizační technika — Mob Coordination."
 weight = 2304
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-3-4", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-3-2-context-collapse", "ea-2-3-3-quote-mining", "ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-3-6-platform-coordinated-attack"]
 parent = "kompendium-techniques"

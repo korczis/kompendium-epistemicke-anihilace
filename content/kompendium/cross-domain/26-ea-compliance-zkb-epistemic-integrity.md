@@ -2,9 +2,11 @@
 title = "EA × Compliance: ZKB & Epistemic Integrity"
 description = "Český Zákon o kybernetické bezpečnosti — epistemic integrity jako audit topic"
 weight = 260
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "compliance"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["24-ea-security-threat-intelligence-validation", "25-ea-compliance-nis2-integrity", "27-ea-compliance-gdpr-narrative-protection", "28-ea-compliance-aml-pattern-recognition"]
 parent = "kompendium-cross-domain"

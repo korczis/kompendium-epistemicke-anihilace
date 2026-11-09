@@ -1,8 +1,12 @@
 +++
 title = "Regression Test"
 weight = 56
-[extra]
 description = "Mandatory test proving a bug fix prevents recurrence of the specific defect"
+
+[taxonomies]
+tags = ["glossary", "quality", "regression-test", "prismatic"]
+
+[extra]
 category = "quality"
 related_terms = ["quality-gates", "nm-nd", "violation-protocol", "purple-team", "no-mercy"]
 author = "Tomas Korcak (korczis)"
@@ -11,7 +15,6 @@ word_count = 1612
 date_created = "2026-02-23"
 date_modified = "2026-02-23"
 keywords = ["Regression", "Test", "Mandatory", "glossary", "quality", "Prismatic Platform", "Regression Test", "Step"]
-tags = ["glossary", "quality", "regression-test", "prismatic"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"

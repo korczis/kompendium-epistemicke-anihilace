@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Osobní audit zkreslení"
 description = "Praktický návod sebe-obrany — osobní audit zkreslení."
 weight = 38
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["36-cross-source-routine", "37-time-locked-evaluation", "39-information-fasting", "4-claim-verification"]
 parent = "kompendium-self-defense-guides"

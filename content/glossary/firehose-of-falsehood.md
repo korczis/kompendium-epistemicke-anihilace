@@ -2,9 +2,13 @@
 title = "Firehose of Falsehood"
 weight = 60
 
+description = "Russian propaganda technique characterized by high-volume, multi-channel, rapid, contradictory, and unconcerned-with-consistency messaging; weaponizes cognitive load against truth-seeking."
+
+[taxonomies]
+tags = ["glossary", "security", "epistemic", "kompendium"]
+
 [extra]
 category = "security"
-description = "Russian propaganda technique characterized by high-volume, multi-channel, rapid, contradictory, and unconcerned-with-consistency messaging; weaponizes cognitive load against truth-seeking."
 related_terms = ["info-ops", "epistemic-security", "deepfake", "gish-gallop", "epistemicka-anihilace", "deplatforming"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 560
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["firehose of falsehood", "RAND", "Russian propaganda", "disinformation", "Paul Matthews", "information warfare"]
-tags = ["glossary", "security", "epistemic", "kompendium"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

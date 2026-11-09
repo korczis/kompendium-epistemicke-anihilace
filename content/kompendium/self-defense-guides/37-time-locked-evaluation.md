@@ -2,9 +2,11 @@
 title = "Sebe-obrana: Časově odložené hodnocení"
 description = "Praktický návod sebe-obrany — časově odložené hodnocení."
 weight = 37
+
 [taxonomies]
 tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
+
 [extra]
 related_terms = ["35-deep-reading-practice", "36-cross-source-routine", "38-bias-audit-personal", "39-information-fasting"]
 parent = "kompendium-self-defense-guides"

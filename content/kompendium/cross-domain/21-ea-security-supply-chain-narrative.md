@@ -2,9 +2,11 @@
 title = "EA × Security: Supply Chain Narrative Attacks"
 description = "Supply chain attacks zahrnují narrative manipulation — ne just code injection"
 weight = 210
+
 [taxonomies]
 tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
+
 [extra]
 related_terms = ["2-ea-osint-czech-ares-validation", "20-ea-security-insider-threat", "22-ea-security-incident-response-narrative", "23-ea-security-attribution-bias"]
 parent = "kompendium-cross-domain"

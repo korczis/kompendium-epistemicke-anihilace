@@ -3,10 +3,12 @@ title = "Intellectual Sovereignty & Authorial Independence"
 description = "Explore the philosophical foundations of intellectual sovereignty - the author's inalienable right to creative control, meaning preservation, and resistance to collaborative dilution of original intent."
 weight = 10
 
+[taxonomies]
+tags = ["philosophy", "sovereignty", "authorship", "ghl", "licensing"]
+
 [extra]
 # Taxonomies moved to extra section for section files
 keywords = ["intellectual sovereignty", "authorial independence", "creative control", "meaning preservation", "anti-commons", "author rights"]
-tags = ["philosophy", "sovereignty", "authorship", "ghl", "licensing"]
 categories = ["foundations"]
 
 # Core metadata

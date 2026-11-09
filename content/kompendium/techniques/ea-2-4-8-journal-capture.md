@@ -2,9 +2,11 @@
 title = "EA-2.4.8 Journal Capture"
 description = "Delegitimizační technika — Journal Capture."
 weight = 2408
+
 [taxonomies]
 tags = ["kompendium", "techniques", "ea-2-4-8", "delegitimizace"]
 categories = ["academic"]
+
 [extra]
 related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-4-7-conference-capture", "ea-2-4-9-curriculum-capture", "ea-2-4-falesny-konsensus"]
 parent = "kompendium-techniques"

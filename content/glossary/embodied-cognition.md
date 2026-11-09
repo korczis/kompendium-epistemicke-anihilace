@@ -2,9 +2,13 @@
 title = "Embodied Cognition"
 weight = 60
 
+description = "Theoretical framework holding that cognition is grounded in bodily interaction with the environment; somatic dimension is constitutive of meaning, not peripheral to it."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "philosophy", "cognition"]
+
 [extra]
 category = "epistemic"
-description = "Theoretical framework holding that cognition is grounded in bodily interaction with the environment; somatic dimension is constitutive of meaning, not peripheral to it."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "lebenswelt", "intentionalita", "metakognice", "narrative-trauma"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -12,7 +16,6 @@ word_count = 540
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["embodied cognition", "enactivism", "Varela", "Thompson", "Rosch", "somatic cognition", "phenomenology"]
-tags = ["glossary", "epistemic", "philosophy", "cognition"]
 quality_score = 88
 see_also = ["kompendium", "philosophy", "decisions"]
 image = "/images/sections/glossary.png"

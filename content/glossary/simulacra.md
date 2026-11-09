@@ -2,9 +2,13 @@
 title = "Simulacra"
 weight = 60
 
+description = "Baudrillard's three orders of simulacra culminating in pure simulation: signs that no longer refer to any reality, only to themselves; structural template for ontological annihilation in advanced epistemic-attack environments."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+
 [extra]
 category = "epistemic"
-description = "Baudrillard's three orders of simulacra culminating in pure simulation: signs that no longer refer to any reality, only to themselves; structural template for ontological annihilation in advanced epistemic-attack environments."
 related_terms = ["differance", "metanarrative-collapse", "epistemicka-anihilace", "kognitivni-anihilace", "epistemic-bubble"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 510
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["simulacra", "Baudrillard", "simulation", "hyperreality", "third order", "kompendium"]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

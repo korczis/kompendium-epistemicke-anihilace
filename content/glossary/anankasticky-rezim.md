@@ -2,9 +2,13 @@
 title = "Anankastický režim"
 weight = 60
 
+description = "Stav extrémní rigidity kognice a myšlenkové uzavřenosti charakterizovaný systematickým odmítáním revizí přesvědčení a postupnou epistemickou izolací."
+
+[taxonomies]
+tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
+
 [extra]
 category = "epistemic"
-description = "Stav extrémní rigidity kognice a myšlenkové uzavřenosti charakterizovaný systematickým odmítáním revizí přesvědčení a postupnou epistemickou izolací."
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -12,7 +16,6 @@ word_count = 480
 date_created = "2026-04-25"
 date_modified = "2026-04-25"
 keywords = ["anankastický režim", "kognitivní rigidita", "epistemická uzavřenost"]
-tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 quality_score = 82
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"

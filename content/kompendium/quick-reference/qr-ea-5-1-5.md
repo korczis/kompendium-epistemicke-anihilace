@@ -2,9 +2,11 @@
 title = "QR: EA-5.1.5 Logicka diskontinuita"
 description = "Rychla referencni karta pro ultramarine techniku Logicka diskontinuita (epistemicka singularita)."
 weight = 10005
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-5-1", "ultramari", "qr-card"]
 categories = ["academic", "reference", "ultramari"]
+
 [extra]
 related_terms = ["qr-ea-5-1-30", "qr-ea-5-1-4", "qr-ea-5-1-6", "qr-ea-5-1-7"]
 parent = "kompendium-quick-reference"

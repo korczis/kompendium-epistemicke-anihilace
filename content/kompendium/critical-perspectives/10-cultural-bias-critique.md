@@ -2,9 +2,11 @@
 title = "Kulturní zaujatost EA kategorií"
 description = "Kritická perspektiva — kulturní zaujatost ea kategorií."
 weight = 10
+
 [taxonomies]
 tags = ["kompendium", "critical-perspectives", "methodological"]
 categories = ["academic", "critical-theory"]
+
 [extra]
 related_terms = ["1-medicalization-critique", "11-iatrogenic-overreach", "12-EA-stigma-risk", "13-victim-blaming-risk"]
 parent = "kompendium-critical-perspectives"

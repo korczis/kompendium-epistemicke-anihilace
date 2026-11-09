@@ -2,9 +2,11 @@
 title = "QR: EA-2.4.2 Policy rewriting"
 description = "Rychla referencni karta pro EA-2.4.2 (delegitimizace)."
 weight = 30242
+
 [taxonomies]
 tags = ["kompendium", "quick-reference", "ea-2-4-2", "delegitimizace", "qr-card"]
 categories = ["academic", "reference"]
+
 [extra]
 related_terms = ["qr-ea-2-4-1", "qr-ea-2-4-10", "qr-ea-2-4-3", "qr-ea-2-4-4"]
 parent = "kompendium-quick-reference"

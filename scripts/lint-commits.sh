@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Conventional Commits gate, shared by the commit-msg hook and CI.
-# usage: lint-commits.sh <rev-range>     check every commit subject in the range
+# usage: lint-commits.sh <rev-range>     check every commit subject on the first-parent line of the range
+#        (histories merged in from other repositories keep their original messages)
 #        lint-commits.sh --file <path>   check one commit message file (commit-msg hook)
 set -euo pipefail
 
@@ -36,7 +37,7 @@ while IFS= read -r line; do
     echo "✗ $line" >&2
     bad=1
   fi
-done < <(git log --format='%h %s' "$RANGE")
+done < <(git log --first-parent --format='%h %s' "$RANGE")
 
 if [[ "$bad" == 1 ]]; then
   explain

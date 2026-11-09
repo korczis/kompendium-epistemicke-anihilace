@@ -55,7 +55,7 @@ Explicitní vymezení hranic legitimního využití poznatků a potenciálních 
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/prismatic-platform/blob/main/LICENSE)
+**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Open Source under [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
-- [GitHub](https://github.com/korczis/prismatic-platform) | [GitLab](https://gitlab.com/korczis/prismatic-platform) | [LinkedIn](https://linkedin.com/in/korczis) | [Contact](mailto:[e-mail odstraněn])
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [GitLab](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
 - [Developer Portal](/developers/) | [Architecture](/architecture/) | [Meet the Creator](/about/author/)

@@ -1,0 +1,79 @@
+name: CI
+
+# Runs on pull requests and non-main branches, and is called by pages.yml for main,
+# so the gate in front of a deployment is exactly the gate in front of a merge.
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  commits:
+    name: Conventional commits
+    runs-on: ubuntu-latest
+    env:
+      # Last commit imported from the platform monorepo; its history predates the convention.
+      IMPORT_BASE: e9e00da7a6b72693252452d938da599498fb49d8
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Lint commit subjects
+        env:
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+          PUSH_BEFORE: ${{ github.event.before }}
+        run: |
+          head="${PR_HEAD:-$GITHUB_SHA}"
+          if [ -n "$PR_BASE" ]; then
+            range="$PR_BASE..$head"
+          elif [ -n "$PUSH_BEFORE" ] && git cat-file -e "$PUSH_BEFORE^{commit}" 2>/dev/null; then
+            range="$PUSH_BEFORE..$head"
+          else
+            range="$IMPORT_BASE..$head"
+          fi
+          scripts/lint-commits.sh "$range"
+
+  supervision:
+    name: Majordomus supervision
+    runs-on: ubuntu-latest
+    env:
+      MAJORDOMUS_VERSION: v1.0.0
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - name: Install majordomus (pinned; the installer verifies the SHA-256 of the release)
+        run: |
+          curl -fsSL https://majordomus.dev/install.sh | sh -s -- --version "$MAJORDOMUS_VERSION"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+      - name: majordomus doctor
+        run: |
+          git config core.hooksPath .githooks
+          majordomus version
+          majordomus doctor
+
+  validate:
+    name: Validate and build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+      - name: Content migration is complete and idempotent
+        run: python3 scripts/migrate-content.py --check
+      - name: References page is current
+        run: python3 scripts/build-references.py --check
+      - name: Build (internal links are errors)
+        run: npm run build
+      - name: Stamp the revision
+        run: printf '%s\n' "$GITHUB_SHA" > public/revision.txt
+      - name: Upload the site
+        uses: actions/upload-artifact@v7
+        with:
+          name: site
+          path: public
+          retention-days: 7

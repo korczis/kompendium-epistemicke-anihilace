@@ -26,3 +26,10 @@ Licence: CC BY-NC-SA 4.0, see `../LICENSE-CONTENT.md`.
 
 The imported history was rewritten once before publication (`git filter-repo --replace-text`)
 to remove the owner's e-mail addresses from file contents; authorship and dates are unchanged.
+
+## Not included
+
+Four other gists mention annihilation but are not part of the book: "Destroy"
+(`db3633d25c3f`), "Manifest" (`e44124e8a1e0`), "PICA" (`2da53c372f74`) and `9b860df57a1a`.
+The owner decided on 2026-11-09 (session `5d49a595-d035-4bbe-b04a-d12695922860`) to keep them
+out: "ne, ty gisty tam nepřidávej".

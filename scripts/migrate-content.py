@@ -32,8 +32,8 @@ AT_LINK = re.compile(r"\]\(@/(?P<path>[^)#\s]+?)(?P<anchor>#[^)\s]*)?\)")
 ROOT_LINK = re.compile(r"\]\((?P<path>/(?!/)[^)#\s]*)(?P<anchor>#[^)\s]*)?\)")
 SCRIPT_SRC = re.compile(r'src="/js/')
 # Chart.js and three.js are self-hosted and loaded by the base template (no CDN).
-# The owner's personal and work addresses do not belong in the public copy; Issues replace them.
-MAILTO = re.compile(r"\[[^\]]*\]\(mailto:(?:tomas\.korcak@able\.cz|korcak@able\.cz|korczis@gmail\.com)\)")
+# Personal e-mail addresses do not belong in the public copy; every mailto link becomes Issues.
+MAILTO = re.compile(r"\[[^\]]*\]\(mailto:[^)\s]+\)")
 CDN_SCRIPT = re.compile(r'^<script src="https://cdn\.jsdelivr\.net/npm/[^"]+"></script>\s*\n', re.M)
 REPO = "https://github.com/korczis/kompendium-epistemicke-anihilace"
 # The monorepo the book came from is private; its links would be dead for public readers.
@@ -48,8 +48,6 @@ REPLACEMENTS = [
     ("[GitHub: prismatic-platform](", "[GitHub: kompendium-epistemicke-anihilace]("),
     ("[korczis/prismatic-platform](", "[korczis/kompendium-epistemicke-anihilace]("),
     ("https://gitlab.com/korczis/prismatic-platform", REPO),
-    ("[Contact](mailto:[e-mail odstraněn])", f"[Kontakt]({REPO}/issues)"),
-    ("[[e-mail odstraněn]](mailto:[e-mail odstraněn])", f"[GitHub Issues]({REPO}/issues)"),
     ("Open Source under", "Licence:"),
 ]
 

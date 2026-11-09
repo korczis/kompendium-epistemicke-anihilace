@@ -28,9 +28,12 @@
         <a href="{{ config.extra.wiki_url }}" class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800">Wiki</a>
       </div>
     </div>
-    <div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
-      <img src="{{ get_url(path='img/cover.svg') }}" alt="Obálka: pravidelná síť pojmů, která se směrem ke středu rozpadá do fragmentů." class="w-full rounded-lg shadow-lg" width="600" height="800">
-    </div>
+    <figure class="lg:col-span-5 lg:mt-0">
+      <div class="overflow-hidden rounded-lg border border-gray-200 shadow-lg dark:border-gray-700" data-p5="rozpad" data-ratio="1.05" data-intensity="0.8" data-label="Síť pojmů, která se v ohnisku rozpadá a mimo něj znovu obnovuje.">
+        <noscript><img src="{{ get_url(path='img/cover.svg') }}" alt="Obálka: pravidelná síť pojmů, která se směrem ke středu rozpadá do fragmentů." class="w-full" width="600" height="800"></noscript>
+      </div>
+      <figcaption class="mt-2 text-sm text-gray-500 dark:text-gray-400">Síť pojmů v rozkladu a obnově. Pohybem myši posunete ohnisko. <a href="{{ get_url(path='@/galerie.md') }}" class="font-medium text-primary-700 hover:underline dark:text-primary-500">Galerie</a></figcaption>
+    </figure>
   </div>
 </section>
 

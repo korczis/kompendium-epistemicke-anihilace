@@ -2,6 +2,7 @@
 title = "Bridge: Falsifikace"
 description = "Most mezi heslem falsifikace a knihou: Popperův požadavek vyvratitelnosti jako nástroj rozpoznání imunizovaných tvrzení, jeho meze podle Quina a Lakatose a praktické falzifikační myšlení."
 weight = 1
+aliases = ["/kompendium/glossary-bridges/falsifikace/"]
 
 [taxonomies]
 tags = ["glossary-bridge", "kompendium", "cross-link", "falsifikace", "filozofie-vedy"]

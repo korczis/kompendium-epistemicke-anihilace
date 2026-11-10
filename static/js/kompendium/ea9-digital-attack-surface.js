@@ -39,7 +39,7 @@
 
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', fid + ' ' + K.familyName(fid) +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', fid + ' ' + K.familyName(fid) +
         ': ' + vectors.length + ' stránek technik. Podrodiny: ' + subs.map(function (s) {
           return subLabel(s) + ' (' +
             vectors.filter(function (t) { return t.sub === s; }).length + ')';
@@ -111,7 +111,7 @@
       K.clear(detail);
       detail.appendChild(K.h('h3', 'text-lg font-bold text-red-300',
         tech.code + ' — ' + tech.label));
-      detail.appendChild(K.h('p', 'text-slate-300 mt-1 text-sm',
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1 text-sm',
         'Podrodina: ' + subLabel(tech.sub)));
       var p = K.h('p', 'mt-2 text-sm');
       p.appendChild(K.link(tech.node, '→ stránka techniky'));

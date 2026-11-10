@@ -59,8 +59,8 @@
       h.appendChild(K.link(d.row.node, rowLabel(d.row), 'text-amber-300 underline'));
       h.appendChild(document.createTextNode(' × ' + d.fam + ' ' + K.familyName(d.fam)));
       detail.appendChild(h);
-      detail.appendChild(K.h('p', 'text-slate-400 text-sm mt-1', d.row.group));
-      detail.appendChild(K.h('p', 'text-slate-300 mt-1', d.v ? 'Stránka odkazuje na ' + d.v + ' stránek technik této rodiny:'
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm mt-1', d.row.group));
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', d.v ? 'Stránka odkazuje na ' + d.v + ' stránek technik této rodiny:'
         : 'Stránka na techniky této rodiny neodkazuje.'));
       if (d.v) detail.appendChild(K.list(d.items.map(function (t) { return t.node; }), function (n) {
         return K.techniqueText(K.technique(n));

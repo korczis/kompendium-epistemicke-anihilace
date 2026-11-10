@@ -134,7 +134,7 @@
       t.render();
       K.clear(detail);
       detail.appendChild(K.h('h4', 'font-bold text-lg mb-2', node.label));
-      detail.appendChild(K.h('p', 'text-xs text-slate-400 mb-2', 'Úroveň ' + node.lvl + ' · ' +
+      detail.appendChild(K.h('p', 'text-xs text-gray-500 dark:text-gray-400 mb-2', 'Úroveň ' + node.lvl + ' · ' +
         LEVEL[node.lvl] + (node.group ? ' · ' + node.group : '') +
         (node.count ? ' · ' + node.count + ' protokolů' : '')));
       if (node.text) detail.appendChild(K.h('p', 'text-sm', node.text));

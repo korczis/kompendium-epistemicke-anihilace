@@ -23,13 +23,13 @@
       function show(f) {
         if (!detail) return;
         K.clear(detail);
-        detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100',
+        detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white',
           f.id + (f.name ? ' ' + f.name : '') + ' (' + f.items.length + ' stránek technik)'));
         var subs = [];
         f.items.forEach(function (t) { if (subs.indexOf(t.sub) < 0) subs.push(t.sub); });
         subs.forEach(function (s) {
           var items = f.items.filter(function (t) { return t.sub === s; });
-          detail.appendChild(K.h('p', 'mt-3 font-semibold text-slate-200', s + ' (' + items.length + ')'));
+          detail.appendChild(K.h('p', 'mt-3 font-semibold text-gray-800 dark:text-gray-200', s + ' (' + items.length + ')'));
           detail.appendChild(K.list(items.map(function (t) { return t.node; }), function (n) {
             return K.techniqueText(K.technique(n));
           }));

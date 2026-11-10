@@ -17,7 +17,7 @@
     return kniha().then(function (K) {
       var ts = K.contextNodes(host).map(K.technique).filter(Boolean);
       if (ts.length) {
-        var p = K.h('p', 'mt-1 text-sm text-slate-400', 'Simulace ilustruje: ');
+        var p = K.h('p', 'mt-1 text-sm text-gray-500 dark:text-gray-400', 'Simulace ilustruje: ');
         ts.forEach(function (t, i) {
           if (i) p.appendChild(document.createTextNode(', '));
           p.appendChild(K.link(t.node, K.techniqueText(t)));

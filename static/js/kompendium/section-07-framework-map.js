@@ -61,10 +61,10 @@
 
   function setDetail(K, container, node, neighbors) {
     K.clear(container);
-    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', (node.num ? node.num + ' ' : '') + node.label));
-    container.appendChild(K.h('p', 'text-slate-400 text-sm', 'Tradice: ' + node.trad.label));
-    container.appendChild(K.h('p', 'text-slate-300 mt-2 text-sm', node.concept));
-    container.appendChild(K.h('p', 'text-slate-300 mt-2 font-semibold', 'Vazby podle odkazů v knize (' + neighbors.length + '):'));
+    container.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', (node.num ? node.num + ' ' : '') + node.label));
+    container.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', 'Tradice: ' + node.trad.label));
+    container.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2 text-sm', node.concept));
+    container.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2 font-semibold', 'Vazby podle odkazů v knize (' + neighbors.length + '):'));
     container.appendChild(K.list(neighbors.map(function (d) { return d.node; })));
     var p = K.h('p', 'mt-2 text-sm');
     p.appendChild(K.link(node.node, '→ Otevřít plný článek'));
@@ -84,7 +84,7 @@
     const PHILOSOPHERS = M.data;
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', PHILOSOPHERS.length + ' kapitol, ' + M.edges.length +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', PHILOSOPHERS.length + ' kapitol, ' + M.edges.length +
         ' vazeb podle odkazů v knize. Barvy: ' + M.traditions.map(function (t) { return t.label + ' (' + t.count + ')'; }).join(' · ') + '.'));
       if (M.source) detail.appendChild(K.link(M.source, '→ přehled filozofických tradic'));
     }

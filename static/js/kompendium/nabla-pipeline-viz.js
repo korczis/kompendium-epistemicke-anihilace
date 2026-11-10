@@ -40,10 +40,10 @@
   function setDetail(container, idx) {
     K.clear(container);
     const lvl = LEVELS[idx];
-    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100',
+    container.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white',
       lvl.id + (lvl.name ? ' — ' + lvl.name : '')));
-    if (lvl.desc) container.appendChild(K.h('p', 'text-slate-300 mt-1', lvl.desc));
-    container.appendChild(K.h('p', 'text-slate-400 text-xs mt-2',
+    if (lvl.desc) container.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', lvl.desc));
+    container.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-xs mt-2',
       'Úroveň ' + (idx + 1) + ' z ' + LEVELS.length + ' (' + lvl.group + ')'));
     const a = K.link(SOURCE_NODE, '→ úroveň ve stránce „' + SOURCE_NODE.title + '“');
     if (a.href && lvl.anchor) a.href += '#' + lvl.anchor;
@@ -80,7 +80,7 @@
         if (!LEVELS.length) throw new Error('stránka pipeline nemá úrovně');
         if (detail) {
           K.clear(detail);
-          detail.appendChild(K.h('p', 'text-slate-300 text-sm',
+          detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm',
             LEVELS.length + ' úrovní podle oddílu „' + LEVELS[0].group +
             '“. Klikněte na prstenec.'));
         }

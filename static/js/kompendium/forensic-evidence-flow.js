@@ -49,17 +49,17 @@
       var s = stages[i];
       K.clear(detail);
       var h = K.h('h3', 'text-lg font-bold', s.group.title);
-      // Panel je tmavý (text-slate-300) v obou tématech: tmavá paleta.
+      // Panel je tmavý (text-gray-700 dark:text-gray-300) v obou tématech: tmavá paleta.
       h.style.color = window.KompendiumVrstva.paletteFor(true)[s.ci % 16];
       detail.appendChild(h);
-      if (s.group.text) detail.appendChild(K.h('p', 'text-slate-300 mt-1 text-sm', s.group.text));
-      detail.appendChild(K.h('p', 'text-slate-400 mt-2 text-sm', 'Kapitoly stádia podle rejstříku (' + s.ids.length + '):'));
+      if (s.group.text) detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1 text-sm', s.group.text));
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 mt-2 text-sm', 'Kapitoly stádia podle rejstříku (' + s.ids.length + '):'));
       detail.appendChild(K.list(s.group.nodes));
     }
 
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Klikněte na stádium. Částice mezi stádii: ' +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', 'Klikněte na stádium. Částice mezi stádii: ' +
         flows.map(function (f, i) { return stages[i].label + ' → ' + stages[i + 1].label + ' ' + f + ' odkazů'; }).join(' · ') + '. '));
       detail.appendChild(K.link(idx, '→ rejstřík oddílu'));
     }

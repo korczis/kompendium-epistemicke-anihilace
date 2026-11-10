@@ -52,9 +52,9 @@
     function show(t) {
       if (!detail) return;
       K.clear(detail);
-      detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', t.code + ' — ' + t.label));
-      detail.appendChild(K.h('p', 'text-slate-400 text-sm', famLabel(t.family) + ' • odkazů z knihy: ' + t.node.in));
-      detail.appendChild(K.h('p', 'text-slate-300 mt-2 font-semibold', 'Sousední techniky podle odkazů v knize (' + nb[t.id].length + '):'));
+      detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', t.code + ' — ' + t.label));
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', famLabel(t.family) + ' • odkazů z knihy: ' + t.node.in));
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2 font-semibold', 'Sousední techniky podle odkazů v knize (' + nb[t.id].length + '):'));
       detail.appendChild(K.list(nb[t.id].map(function (id) { return byId[id].node; }), function (n) {
         return K.techniqueText(K.technique(n));
       }));

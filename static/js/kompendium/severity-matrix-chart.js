@@ -49,8 +49,8 @@
         function show(p) {
           if (!detail) return;
           K.clear(detail);
-          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', famLabel(p.fam) + ' • riziko ' + p.level.label));
-          detail.appendChild(K.h('p', 'text-slate-300 mt-1', p.count + ' stránek technik s touto úrovní rizika.'));
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', famLabel(p.fam) + ' • riziko ' + p.level.label));
+          detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', p.count + ' stránek technik s touto úrovní rizika.'));
           detail.appendChild(K.list(p.items.map(function (t) { return t.node; }), function (n) {
             return K.techniqueText(K.technique(n));
           }));

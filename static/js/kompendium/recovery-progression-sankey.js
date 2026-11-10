@@ -46,7 +46,7 @@
       K.clear(detail);
       detail.appendChild(K.h('h4', 'font-bold text-lg mb-2', s.group.title));
       if (s.group.text) detail.appendChild(K.h('p', 'mb-3', s.group.text));
-      detail.appendChild(K.h('h5', 'font-semibold mb-1 text-slate-300', 'Protokoly fáze podle rejstříku (' + s.ids.length + '):'));
+      detail.appendChild(K.h('h5', 'font-semibold mb-1 text-gray-700 dark:text-gray-300', 'Protokoly fáze podle rejstříku (' + s.ids.length + '):'));
       detail.appendChild(K.list(s.group.nodes));
     }
 

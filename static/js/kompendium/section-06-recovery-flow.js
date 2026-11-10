@@ -61,18 +61,18 @@
       function show(s) {
         if (!detail) return;
         K.clear(detail);
-        detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', 'Fáze ' + s.id + ' — ' + s.name));
-        if (s.desc) detail.appendChild(K.h('p', 'text-slate-300 mt-1', s.desc));
-        detail.appendChild(K.h('p', 'text-slate-300 mt-3 font-semibold', 'Stránky knihy u této fáze (' + s.nodes.length + '):'));
+        detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', 'Fáze ' + s.id + ' — ' + s.name));
+        if (s.desc) detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', s.desc));
+        detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-3 font-semibold', 'Stránky knihy u této fáze (' + s.nodes.length + '):'));
         if (s.nodes.length) {
           detail.appendChild(K.list(s.nodes, function (n) { return pageLabel(K, n); }));
         } else {
-          detail.appendChild(K.h('p', 'text-slate-400 text-sm', 'Text stránky u této fáze žádnou stránku neodkazuje.'));
+          detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', 'Text stránky u této fáze žádnou stránku neodkazuje.'));
         }
         var rel = flows.filter(function (f) { return f.from === s.id || f.to === s.id; });
         if (rel.length) {
-          detail.appendChild(K.h('p', 'text-slate-300 mt-3 font-semibold', 'Odkazy mezi fázemi podle grafu knihy:'));
-          var ul = K.h('ul', 'text-slate-300 list-disc list-inside text-sm');
+          detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-3 font-semibold', 'Odkazy mezi fázemi podle grafu knihy:'));
+          var ul = K.h('ul', 'text-gray-700 dark:text-gray-300 list-disc list-inside text-sm');
           rel.forEach(function (f) {
             ul.appendChild(K.h('li', null, stages[f.from - 1].name + ' → ' + stages[f.to - 1].name + ': ' + f.weight));
           });

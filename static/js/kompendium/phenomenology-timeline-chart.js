@@ -39,9 +39,9 @@
           if (!detail) return;
           var gr = tracks[pt.gi].group;
           K.clear(detail);
-          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', pt.n.title));
-          detail.appendChild(K.h('p', 'text-slate-400 text-sm', gr.title + ' • odkazuje sem ' + pt.n.in + ' stránek knihy'));
-          if (gr.text) detail.appendChild(K.h('p', 'text-slate-300 mt-2', gr.text));
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', pt.n.title));
+          detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', gr.title + ' • odkazuje sem ' + pt.n.in + ' stránek knihy'));
+          if (gr.text) detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2', gr.text));
           var p = K.h('p', 'mt-2 text-sm');
           p.appendChild(K.link(pt.n, '→ stránka signatury'));
           detail.appendChild(p);

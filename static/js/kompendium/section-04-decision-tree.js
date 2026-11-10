@@ -68,15 +68,15 @@
 
   function setDetail(K, container, node) {
     K.clear(container);
-    container.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', node.full || node.label));
+    container.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', node.full || node.label));
     if (node.targets) {
-      container.appendChild(K.h('p', 'text-slate-400 text-sm', 'Stránka „' + node.from.title + '“ sem odkazuje ' +
+      container.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', 'Stránka „' + node.from.title + '“ sem odkazuje ' +
         node.targets.length + '×:'));
       container.appendChild(K.list(node.targets));
       return;
     }
     if (node.children) {
-      container.appendChild(K.h('p', 'text-slate-400 text-sm', node._depth === 0
+      container.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', node._depth === 0
         ? node.children.length + ' stránek kapitoly'
         : 'Odkazuje do ' + node.children.length + ' oddílů knihy.'));
     }
@@ -99,7 +99,7 @@
     layout(TREE, 0, -Math.PI, Math.PI, flatList);
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Vnitřní prstenec: ' + TREE.children.length +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', 'Vnitřní prstenec: ' + TREE.children.length +
         ' stránek kapitoly; vnější: oddíly knihy, na které odkazují (barva = oddíl). Klikněte na uzel.'));
     }
 

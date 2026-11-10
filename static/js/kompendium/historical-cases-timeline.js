@@ -54,8 +54,8 @@
       function show(n) {
         if (!detail) return;
         K.clear(detail);
-        detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', name(n)));
-        detail.appendChild(K.h('p', 'text-slate-400 text-sm mt-1', n.category + ' • ' + period(n) + (n.place ? ' • ' + n.place : '')));
+        detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', name(n)));
+        detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm mt-1', n.category + ' • ' + period(n) + (n.place ? ' • ' + n.place : '')));
         var p = K.h('p', 'mt-2 text-sm');
         p.appendChild(K.link(n, '→ stránka případu'));
         detail.appendChild(p);
@@ -63,7 +63,7 @@
 
       if (detail && undated.length) {
         K.clear(detail);
-        detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Bez určeného období (' + undated.length + '):'));
+        detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', 'Bez určeného období (' + undated.length + '):'));
         detail.appendChild(K.list(undated, name));
       }
 

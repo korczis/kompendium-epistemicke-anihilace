@@ -25,7 +25,7 @@
     function show(n, nbIds) {
       K.clear(detail);
       detail.appendChild(K.h('h4', 'font-bold text-lg mb-2', n.title));
-      detail.appendChild(K.h('p', 'text-sm text-slate-400', 'Odkazuje sem ' + n.in + ' stránek knihy; ' + nbIds.length +
+      detail.appendChild(K.h('p', 'text-sm text-gray-500 dark:text-gray-400', 'Odkazuje sem ' + n.in + ' stránek knihy; ' + nbIds.length +
         ' sousedů mezi ' + TERMS.length + ' nejodkazovanějšími pojmy:'));
       detail.appendChild(K.list(nbIds.map(function (id) { return byId[id]; })));
       var p = K.h('p', 'mt-2 text-sm');

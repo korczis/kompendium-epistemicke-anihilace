@@ -114,9 +114,9 @@
       if (!detail) return;
       K.clear(detail);
       detail.appendChild(K.h('h3', 'text-lg font-bold text-emerald-300', n.title));
-      detail.appendChild(K.h('p', 'text-slate-400 mt-1 text-sm',
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 mt-1 text-sm',
         'Fáze: ' + phases[phaseOf[n.id]].title));
-      detail.appendChild(K.h('p', 'text-slate-300 mt-2 font-semibold',
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2 font-semibold',
         'Vazby na jiné protokoly podle odkazů v knize (' + nb[n.id].length + '):'));
       detail.appendChild(K.list(nb[n.id].map(function (id) { return byId[id]; })));
       var p = K.h('p', 'mt-2 text-sm');
@@ -126,7 +126,7 @@
 
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', nodes.length + ' protokolů, ' +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', nodes.length + ' protokolů, ' +
         edges.length + ' vazeb podle odkazů v knize. Vrstvy shora: ' +
         phases.map(function (p) { return p.title + ' (' + p.nodes.length + ')'; }).join(' · ') +
         '.'));

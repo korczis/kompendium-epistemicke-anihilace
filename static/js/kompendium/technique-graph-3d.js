@@ -99,17 +99,17 @@
     function show(tech) {
       if (!detail) return;
       K.clear(detail);
-      detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', tech.code));
-      detail.appendChild(K.h('p', 'text-slate-300 mt-1', tech.label));
-      detail.appendChild(K.h('p', 'text-slate-400 text-sm', tech.family +
+      detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', tech.code));
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', tech.label));
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm', tech.family +
         (K.familyName(tech.family) ? ' ' + K.familyName(tech.family) : '') +
         ' • ' + (degree[tech.id] || 0) + ' vazeb na jiné techniky podle odkazů v knize'));
       detail.appendChild(K.link(tech.node, '→ otevřít stránku techniky',
-        'text-blue-400 underline'));
+        'text-primary-700 dark:text-primary-400 underline'));
     }
 
     if (detail && !detail.firstChild) {
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', techs.length + ' stránek technik, ' +
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', techs.length + ' stránek technik, ' +
         edges.length + ' vazeb podle odkazů v knize. Klikněte na uzel.'));
     }
 

@@ -20,6 +20,7 @@ run "Migrace obsahu je úplná" python3 scripts/migrate-content.py --check
 run "Reference jsou aktuální" python3 scripts/build-references.py --check
 run "Graf odkazů a metriky jsou aktuální" python3 scripts/build-graph.py --check
 run "Data shellu jsou aktuální" python3 scripts/build-ui-data.py --check
+run "Grafiky jsou aktuální" python3 scripts/render-graphics.py --check
 run "README je aktuální" python3 scripts/build-readme.py --check
 run "Vizualizace jdou přes komponentovou vrstvu" python3 scripts/check-viz-layer.py
 run "Front matter je normalizovaný" python3 scripts/normalize-front-matter.py --check

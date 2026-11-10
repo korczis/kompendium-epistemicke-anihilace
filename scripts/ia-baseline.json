@@ -866,9 +866,6 @@
  "bold:osint-toolbox": [
   "bold-candidate"
  ],
- "bold:osobni": [
-  "bold-candidate"
- ],
  "bold:osobni-signaly": [
   "bold-candidate"
  ],
@@ -1125,9 +1122,6 @@
   "bold-candidate"
  ],
  "bold:referencni-ramec-pro-detekci": [
-  "bold-candidate"
- ],
- "bold:reflexe": [
   "bold-candidate"
  ],
  "bold:regrese": [
@@ -1403,9 +1397,6 @@
  "bold:terminalni-stav": [
   "bold-candidate"
  ],
- "bold:terminalnim-stavem": [
-  "bold-candidate"
- ],
  "bold:terminologicka-mystifikace": [
   "bold-candidate"
  ],
@@ -1663,12 +1654,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/anankasticky-rezim.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/anihilacni-fenomeny.md": [
   "detail",
   "weak-link",
@@ -1866,12 +1851,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/delegitimizace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/demarkacni-problem.md": [
   "detail",
   "weak-link",
@@ -2042,12 +2021,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/epistemicka-anihilace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/epistemicka-bezdomovost.md": [
   "detail",
   "weak-link",
@@ -2085,12 +2058,6 @@
   "citations"
  ],
  "content/glossary/epistemicka-reintegrace.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/epistemicka-singularita.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -2605,12 +2572,6 @@
   "bullets",
   "citations",
   "bold-term"
- ],
- "content/glossary/metakognitivni-destrukce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
  ],
  "content/glossary/metanarrative-collapse.md": [
   "detail",

@@ -70,7 +70,28 @@
       </template>
     </div>
   </div>
+
+  {#- Rozsah a stav stránek: treemap ze static/data/ia.json (static/js/viz/oddil-prehled.js). -#}
+  <div data-js data-pohled="oddil-prehled" class="mt-6 border-t border-gray-200 pt-6 dark:border-gray-700">
+    <h3 class="mb-1 text-base font-semibold text-gray-900 dark:text-white">Rozsah a stav stránek</h3>
+    <p id="oddil-prehled-d" class="mb-2 text-sm text-gray-500 dark:text-gray-400">Dlaždice je stránka oddílu, plocha odpovídá počtu slov a barva stavu podle pravidel informační architektury knihy: rozpracovaná stránka je pod hranicí rozsahu (u běžné stránky {{ config.extra.ia_detail_words }} slov). Klepnutím ji otevřete; z klávesnice graf vyberte tabulátorem, šipkami procházejte stránky od nejrozsáhlejší a klávesou Enter je otevřete.</p>
+    <ul class="mb-3 flex flex-wrap gap-x-4 gap-y-1" aria-label="Legenda: barvy stavu stránek">
+      {%- for s in [["rozvinuta", "rozvinutá"], ["rozpracovana", "rozpracovaná"], ["generovana", "s generovaným textem"]] %}
+      <li class="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300"><span data-pohled-stav-barva="{{ s[0] }}" class="h-3 w-3 shrink-0 rounded-sm bg-gray-300 dark:bg-gray-600" aria-hidden="true"></span>{{ s[1] }} <span data-pohled-pocet="{{ s[0] }}" class="rounded-full bg-gray-100 px-1.5 text-xs font-medium text-gray-800 dark:bg-gray-700 dark:text-gray-300">…</span></li>
+      {%- endfor %}
+    </ul>
+    <div data-pohled-graf tabindex="0" role="img" aria-label="Treemap stránek oddílu podle počtu slov a stavu; stejné stránky jsou v textové podobě pod grafem" aria-describedby="oddil-prehled-d" class="h-80 w-full rounded-lg focus:outline-none focus:ring-4 focus:ring-primary-300 sm:h-96 dark:focus:ring-primary-800">
+      <div class="flex h-full items-center justify-center rounded-lg bg-gray-50 text-sm text-gray-500 dark:bg-gray-700 dark:text-gray-300">Graf se načte, až se k němu doposouváte.</div>
+    </div>
+    <p data-pohled-vyber aria-live="polite" class="mt-2 min-h-5 text-sm font-medium text-gray-900 dark:text-white"></p>
+    <details class="mt-3 rounded-lg border border-gray-200 dark:border-gray-700">
+      <summary class="cursor-pointer rounded-lg px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-primary-800">Textová podoba grafu</summary>
+      <ol data-pohled-seznam class="divide-y divide-gray-200 border-t border-gray-200 px-4 dark:divide-gray-700 dark:border-gray-700"></ol>
+    </details>
+    <template data-pohled-polozka><li class="flex flex-col gap-0.5 py-2"><a data-slot="odkaz" class="break-words text-sm font-medium text-primary-700 hover:underline dark:text-primary-400"></a><span data-slot="popis" class="break-words text-sm text-gray-500 dark:text-gray-400"></span></li></template>
+  </div>
 </section>
 <script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
 <script src="{{ get_url(path='js/viz/oddil.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/oddil-prehled.js', cachebust=true) }}" defer></script>
 {%- endif %}

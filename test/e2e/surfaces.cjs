@@ -92,15 +92,10 @@ async function drawer(page, failures) {
 }
 
 // Vyhledávání v horní liště (ARIA combobox): kód EA dá svou techniku na první místo, šipka ji
-// vybere, Enter ji otevře. Podstrom sidebaru se rozbalí tlačítkem.
+// vybere, Enter ji otevře. Sidebar ukazuje aktuální stránku v podstromu aktivní větve.
 async function combobox(page, s, failures) {
-  const sub = page.locator('#sidebar button[aria-controls^="sub-"][aria-expanded="false"]').first();
-  if (await sub.count()) {
-    const target = await sub.getAttribute('aria-controls');
-    await sub.click();
-    await page.waitForTimeout(300);
-    if (await page.locator('#' + target).evaluate((el) => el.classList.contains('hidden'))) failures.push('podstrom sidebaru se nerozbalí');
-  }
+  // Sidebar: aktivní větev ukáže podstrom z nav.json až k aktuální stránce (aria-current).
+  if (!(await page.locator('#sidebar a[aria-current="page"]').first().isVisible().catch(() => false))) failures.push('sidebar neukazuje aktuální stránku (aria-current="page")');
   if (!s.code) { failures.push('technika nemá v rejstříku kód EA'); return; }
   const input = page.locator('#topbar-search');
   await input.click();

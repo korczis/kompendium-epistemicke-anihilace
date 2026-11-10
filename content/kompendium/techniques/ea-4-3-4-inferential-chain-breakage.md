@@ -96,73 +96,9 @@ Technika **EA-4.3.4** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: akutní destabilizace pojmového systému subjektu pod tlakem cíleně dezorganizujících výcvikových intervencí (deep cover identity work, ideologická dekonstrukce v deprogramming kontextech). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající F44 Disociativní poruchy (ICD-11 6B60-6B66), s explicitním rizikem akutního přechodu do F44.81 DID (ICD-11 6B64) při inadekvátní integraci. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
-
-## Evidence base
-
-Empirická opora techniky se opírá o tři primární evidenční pilíře: (a) randomizované kontrolované studie (RCT) s validovanými outcome metrikami, (b) meta-analytické syntézy efektivity intervencí pro EA-trauma spektra, (c) longitudinální observační studie sledující trajektorie subjektů 2-10 let po dokončení intervence.
-
-(1) **Foa, E. B., et al. (2018)** — randomizovaná kontrolovaná studie, *Journal of Consulting and Clinical Psychology*. Klíčový nález: redukce symptomatologie na PCL-5 proti čekací kontrole.
-
-(2) **Resick, P. A., et al. (2017)** — randomizovaná kontrolovaná studie, *JAMA Psychiatry*. Klíčový nález: redukce na PCL-5 s retencí efektu v ročním follow-up.
-
-(3) **Cloitre, M., et al. (2019)** — multicentrická studie, *Lancet Psychiatry*. Klíčový nález: zlepšení v doméně Disturbances in Self-Organization (ITQ), tedy v outcome specifickém pro CPTSD podle ICD-11.
-
-**Synthesa důkazů**: agregovaná evidence pro intervence z této kategorie ukazuje konzistentní efekt na primární trauma symptomatologii (PCL-5, CAPS-5) a slabší, ale rovněž konzistentní efekt na sekundární komorbidní depresivní a úzkostnou symptomatologii. Konkrétní souhrnné velikosti účinku kompendium neuvádí: dostupné zdroje je pro tuto kategorii technik neudávají odděleně a čísla uváděná v dřívější verzi stránky nebyla doložitelná.
-
-**Limitace evidenční báze**: dostupná literatura má dokumentované metodologické limitace — (i) převaha studií na západní populacích (WEIRD bias), (ii) krátké follow-up rámce (typicky 3-12 měsíců, vzácně >2 roky), (iii) výběrové bias směrem k populacím s vysokou compliance, (iv) heterogenita v operacionalizaci EA-trauma napříč studiemi. Aplikace techniky v české klinické praxi proto vyžaduje kritickou adaptaci a průběžné monitorování individuálního outcome subjektu.
-
-**Recommendation grade**: dle GRADE methodology dosahuje evidenční báze úrovně **B (moderate-quality)** — konzistentní efekt napříč studiemi, ale heterogenita designů a nedostatek replikací v non-WEIRD populacích.
-
-## Algoritmický rozhodovací strom
-
-Klinické rozhodování o technice **EA-4.3.4** postupuje po rozhodovacích uzlech. Prahové hodnoty, počty sezení a velikosti účinku, které dřívější verze stránky u jednotlivých uzlů uváděla, byly na všech stránkách této kategorie shodné bez ohledu na techniku a žádný zdroj na stránce je nedokládal; proto zde nejsou. Kvantifikaci určuje manuál konkrétního použitého nástroje a supervizní rámec pracoviště, nikoli kompendium.
-
-**Uzel 1 — Indikační audit (vstupní)**:
-
-- Symptomatologie nad klinickým prahem použitého nástroje (PCL-5, ITQ DSO) bez psychotické symptomatologie → POKRAČUJ k Uzel 2
-- Symptomatologie pod klinickým prahem a krátké trvání → ZVAŽ watchful waiting + krizová podpora
-- Aktivní psychotická symptomatologie NEBO akutní suicidalita → STABILIZACE PRIORITNĚ, technika **kontraindikována**
-
-**Uzel 2 — Stabilizační prerekvizity**:
-
-- Výrazná dysregulace emocí (DERS) bez stabilizačních dovedností → ZAŘAĎ pre-protokol nácviku zvládání tísně (DBT distress tolerance)
-- Disociativní symptomatologie nad screeningovým prahem ([DES-II](@/glossary/des-ii.md)) a aktivní fragmentace → ZAŘAĎ disociativní stabilizační protokol PŘED expozičními komponentami
-- JINAK → POKRAČUJ k Uzel 3
-
-**Uzel 3 — Modulární stratifikace**:
-
-- Type I trauma (jednorázová událost) → standardní rozsah protokolu
-- Type II trauma (chronické relační) → rozšířený rozsah s posílenou stabilizační fází
-- Aktivní externí ohrožení (domácí násilí, kult, koercivní vztah) → BEZPEČNOSTNÍ PLÁN PRIORITNĚ, technika odložena do bezpečné distance
-
-**Uzel 4 — Průběžné re-evaluation**:
-
-- V pravidelných, předem dohodnutých bodech: PCL-5 + CGI-S + terapeutická aliance (WAI-SR)
-- Zhoršení proti baseline NEBO oslabená aliance → SUPERVIZE + modifikace protokolu
-- Redukce symptomatologie A funkční zlepšení → POKRAČUJ do konsolidační fáze
-
-**Uzel 5 — Terminace**:
-
-- Klinicky významná redukce podle kritérií použitého nástroje A její udržení A obnova funkce → ŘÁDNÁ TERMINACE s plánem posilovacích setkání
-
-## Neuropsychologické markery
-
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
-
-**Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroopova interference), sníženou vigilanční kapacitu (CPT-3) a afektivní bias v emoční Stroopově úloze (prodloužená latence u podnětů vázaných na trauma). Post-intervenčně bývá dokumentována částečná normalizace; její rozsah dostupné zdroje pro tuto kategorii technik nekvantifikují.
-
-**Exekutivní funkce**: populace zasažené traumatem vykazují sníženou kognitivní flexibilitu (perseverační chyby ve WCST), deficity v pracovní paměti (úloha n-back) a impulzivitu v rozhodovacích úlohách (Iowa Gambling Task). Post-intervenční zlepšení bývá popisováno souběžně s redukcí na PCL-5.
-
-**Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) vede k progresivní normalizaci specificity.
-
-**Sociálně-kognitivní markery**: pre-intervenčně narušená [teorie mysli](@/glossary/theory-of-mind.md) (podprůměrný výkon v Reading the Mind in the Eyes Test), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
-
-**Doporučená neuropsychologická baterie**: Stroop, CPT-3, WCST, n-back, CVLT-3, AMT, RMET, Iowa Gambling Task. Cena/přínos analýza ukazuje, že full baseline + post-baterie je indikována u L2 výzkumných protokolů; v rutinní klinice postačuje screening-úroveň (Stroop + AMT + CVLT-3).
 
 ## Vulnerabilní podpopulace
 
@@ -195,50 +131,6 @@ Klinický kontext **EA-4.3.4** připouští následující dokumentované adapta
 **Kulturně senzitivní adaptace**: česká adaptace zohledňuje (a) jazyk a metaforický rámec specifický pro středoevropské vyprávění o traumatu, (b) postkomunistická intergenerační traumata jako kontext, (c) explicitní eskalační cesty v rámci hrazené péče. Slovenská a polská adaptace sdílejí s českou většinu rámce.
 
 **Crisis-modifikovaná verze**: redukce expozičních komponent ve prospěch posílených stabilizačních modulů pro aktuálně dekompenzované pacienty; přechod do standardního protokolu až po dosažení klinické stabilizace.
-
-## Outcome měření
-
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
-
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
-
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | redukce a pokles pod klinický práh podle manuálu nástroje |
-| **ITQ** | ICD-11 PTSD/CPTSD | doména DSO pod klinickým prahem |
-| **CAPS-5** | Klinicián-administrovaná PTSD | redukce celkového skóru podle manuálu nástroje |
-| **DERS** | Emoční regulace | zlepšení emoční regulace proti baseline |
-| **WHODAS 2.0** | Funkční disabilita | pokles funkční disability proti baseline |
-
-**Sekundární outcome**:
-
-- **PHQ-9** (depresivní symptomatologie)
-- **GAD-7** (úzkostná symptomatologie)
-- [DES-II](@/glossary/des-ii.md) (disociativní symptomatologie)
-- **WAI-SR** (terapeutická aliance)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
-
-**Benchmarks pro úspěch intervence**:
-
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: skór WHODAS 2.0 v pásmu srovnatelné nontraumatizované populace
-- **Sustained Remission**: udržení nad prahem RCI v ročním follow-up
-
-**Brier skór kalibrace**: prediktivní kalibrace klinikova odhadu remise proti skutečnému průběhu. Tato metrika je integrována do platformové {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} pro průběžné kalibrační monitoring.
-
-## Long-term follow-up
-
-Longitudinální data sledující subjekty 1-5 let po dokončení intervence dokumentují následující trajektorii:
-
-**1-rok follow-up**: většina subjektů udržuje klinicky významnou redukci primární symptomatologie. Relaps není vzácný; nejčastější spouštěče: (a) re-exposure k similar traumatic stimuli, (b) ztráta klíčové podpůrné figury, (c) major life transition (rozvod, stěhování, ztráta zaměstnání), (d) somatická onemocnění s funkční disabilitou.
-
-**3-rok follow-up**: remise přetrvává u podstatné části subjektů; podskupina s Type II komplexním traumatem ukazuje delší trajektorii — křivka zlepšení pokračuje i roky po ukončení intervence. Konkrétní podíly dřívější verze stránky uváděla shodně pro všechny techniky této kategorie a žádný zdroj na stránce je nedokládal.
-
-**5-rok follow-up**: dostupná longitudinální data ukazují udržení nadbaseline funkce u části sledovaných; klíčové prediktory dlouhodobé prosperity: (i) post-traumatic growth komponenta, (ii) integrovaná podpůrná síť, (iii) najaté smysluplné práce/role, (iv) dostupnost booster sessions (1-2× ročně).
-
-**Doporučení pro dlouhodobou péči**: pravidelné follow-up sezení v intervalu dohodnutém se subjektem, otevřená cesta zpět při relapsu symptomatologie, integrace do peer-support komunity a průběžný monitoring pomocí [self-report](@/glossary/self-report.md) instrumentů (PCL-5, PHQ-9).
 
 ## Vztah k jiným technikám
 

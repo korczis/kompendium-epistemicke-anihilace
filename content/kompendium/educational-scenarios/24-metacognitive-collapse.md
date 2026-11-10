@@ -158,7 +158,3 @@ jako realistický časový rámec.
 - [Metakognitivní deficit](@/glossary/metakognitivni-deficit.md) – klinický pojem.
 - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – proces, který ke kolapsu vede.
 - [Reality testing](@/glossary/reality-testing.md) – co se obnovou vrací.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

@@ -57,7 +57,3 @@ Eskalujte, když vyloučení následuje po oznámení pochybení nebo když pře
 - **Technika a kapitola:** [plná stránka EA-2.1.7](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [exit interview](@/kompendium/organizational-defense/13-exit-interview-EA.md) – jak instituce vzorec zachytí; [psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md) – prevence.
 - **Sousední karty:** [EA-2.1.1 Expertní disinflace](@/kompendium/quick-reference/qr-ea-2-1-1.md) – častá předehra; [EA-2.4.1 Zachycení správních orgánů](@/kompendium/quick-reference/qr-ea-2-4-1.md) – strukturní kořen; [EA-2.2.2 Izolace svěřence](@/kompendium/quick-reference/qr-ea-2-2-2.md) – obdoba ve vztahu školitele a studenta.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

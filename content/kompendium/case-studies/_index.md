@@ -94,7 +94,3 @@ při práci s klientem nenahrazují individuální posouzení ani
   historické události, s nimiž lze kompozity srovnávat.
 - **Orientace:** [Rychlá reference](@/kompendium/quick-reference/_index.md) a
   [Hub kompendia](@/kompendium/_index.md).
-
----
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

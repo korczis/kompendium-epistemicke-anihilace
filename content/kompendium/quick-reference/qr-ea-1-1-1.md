@@ -57,7 +57,3 @@ Eskalujte, když filtrace provází závislost na jedné autoritě, odrazování
 - **Detekce:** [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – měřitelný otisk filtrace.
 - **Glosář:** [epistemická monokultura](@/glossary/epistemicka-monokultura.md) – stav, do kterého filtrace vede.
 - **Sousední karty:** [EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) – jazyk, který filtraci zpevňuje; [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/quick-reference/qr-ea-1-3-1.md) – co následuje, když filtrace selže.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

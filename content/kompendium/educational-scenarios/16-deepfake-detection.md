@@ -157,7 +157,3 @@ případy ve skupině.
 
 - [Deepfake](@/glossary/deepfake.md) – definice a typy.
 - [EA v digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md) – širší kontext generativní AI.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

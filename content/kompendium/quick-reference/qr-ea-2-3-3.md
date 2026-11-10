@@ -57,7 +57,3 @@ Eskalujte, když vytržený citát slouží jako podklad pro sankci, soudní tvr
 - **Technika a kapitola:** [plná stránka EA-2.3.3](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – mechanismus, ověření a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Detekce:** [fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md) – útržky místo celku.
 - **Sousední karty:** [EA-2.1.1 Expertní disinflace](@/kompendium/quick-reference/qr-ea-2-1-1.md) – citáty jako munice; [EA-2.3.2 Kolaps kontextu](@/kompendium/quick-reference/qr-ea-2-3-2.md) – přenos k jinému publiku; [EA-1.3.3 Tematická diverze](@/kompendium/quick-reference/qr-ea-1-3-3.md) – únik od celku argumentu.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

@@ -57,7 +57,3 @@ Eskalujte, když je svěřenci bráněno v přechodu nebo stáži sankcí, horš
 - **Technika a kapitola:** [plná stránka EA-2.2.9](@/kompendium/techniques/ea-2-2-9-disciplinary-boundary-coercion.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [epistemická monokultura](@/glossary/epistemicka-monokultura.md) – výsledek jediné povolené metody; [epistemický monismus](@/glossary/epistemicky-monismus.md) – postoj, který ji ospravedlňuje.
 - **Sousední karty:** [EA-2.2.3 Zachycení směru kvalifikační práce](@/kompendium/quick-reference/qr-ea-2-2-3.md) – omezení tématu; [EA-2.4.9 Zachycení kurikula](@/kompendium/quick-reference/qr-ea-2-4-9.md) – hranice vynucená výukou.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

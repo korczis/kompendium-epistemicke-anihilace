@@ -57,7 +57,3 @@ Eskalujte, když existuje doložitelný vzorec nebo podezření na zneužití d�
 - **Technika a kapitola:** [plná stránka EA-2.1.4](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [replikační krize](@/glossary/replication-crisis.md) – proč jsou blokovány i negativní replikace.
 - **Sousední karty:** [EA-2.4.8 Zachycení časopisu](@/kompendium/quick-reference/qr-ea-2-4-8.md) – institucionální podoba úzkého hrdla; [EA-2.4.6 Zachycení recenzního řízení](@/kompendium/quick-reference/qr-ea-2-4-6.md) – kdo rozhoduje o posudcích; [EA-2.5.7 Preventivní sebecenzura](@/kompendium/quick-reference/qr-ea-2-5-7.md) – sebecenzura jako důsledek.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

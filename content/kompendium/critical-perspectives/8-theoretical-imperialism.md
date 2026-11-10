@@ -78,10 +78,3 @@ Je otázka, jak má rozsáhlá taxonomie zůstat otevřená, aniž by se rozpadl
 
 - [Pluralismus](@/glossary/pluralismus.md) – princip, o který se pojistky opírají.
 - [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – stav, kterému se má kniha sama vyhnout.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -149,13 +149,3 @@ centrum potvrdí telefonický kontakt.
   použitelný i v řízení.
 - [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – škoda ze špatně provedeného přechodu.
 - [Betrayal trauma](@/glossary/betrayal-trauma.md) – proč na kontinuitě tolik záleží.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 11 · v18.4.0*

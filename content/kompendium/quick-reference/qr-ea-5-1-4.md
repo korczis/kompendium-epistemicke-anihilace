@@ -59,7 +59,3 @@ Eskalujte, pokud se k rozpadu řeči přidávají halucinace, bludy nebo dezorga
 - **Technika a kapitola:** [plná stránka EA-5.1.4](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [newspeak](@/glossary/newspeak.md) – literární model řízeného vyprázdnění slov.
 - **Sousední karty:** [EA-5.1.5 Logická diskontinuita](@/kompendium/quick-reference/qr-ea-5-1-5.md) – rozpad usuzování; [EA-5.1.6 Kategorická transgrese](@/kompendium/quick-reference/qr-ea-5-1-6.md) – rozpad kategorií; [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md) – rozpad nosných pojmů.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

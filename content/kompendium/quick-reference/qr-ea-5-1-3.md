@@ -59,7 +59,3 @@ Eskalujte při úplné neschopnosti rozhodovat, suicidálních myšlenkách nebo
 - **Technika a kapitola:** [plná stránka EA-5.1.3](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) – terminální stav; [rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md) – klinický obraz.
 - **Sousední karty:** [EA-5.1.2 Konceptuální nihilace](@/kompendium/quick-reference/qr-ea-5-1-2.md) – vyprázdněné pojmy jako palivo paradoxů; [EA-5.1.16 Inferenční paralýza](@/kompendium/quick-reference/qr-ea-5-1-16.md) – zablokované usuzování.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

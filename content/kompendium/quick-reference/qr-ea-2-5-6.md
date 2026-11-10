@@ -57,7 +57,3 @@ Eskalujte, když přesvědčení vede k odmítání nutné léčby, ohrožení d
 - **Technika a kapitola:** [plná stránka EA-2.5.6](@/kompendium/techniques/ea-2-5-6-platonic-cave-self.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [BITE model](@/glossary/bite-model.md) – kontrola informací a myšlení; [thought-stopping](@/glossary/thought-stopping.md) – „ego“ jako ukončení úvahy.
 - **Sousední karty:** [EA-5.1.27 Meta-epistemická redukce](@/kompendium/quick-reference/qr-ea-5-1-27.md) – jediné měřítko pravdy; [EA-2.5.3 Pěstování sebepochybnosti](@/kompendium/quick-reference/qr-ea-2-5-3.md) – nedůvěra ve vlastní vnímání.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

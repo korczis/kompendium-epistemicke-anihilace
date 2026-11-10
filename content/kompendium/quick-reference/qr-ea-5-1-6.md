@@ -59,7 +59,3 @@ Eskalujte vždy, když se objevují bludy, halucinace nebo ztráta schopnosti po
 - **Technika a kapitola:** [plná stránka EA-5.1.6](@/kompendium/techniques/ea-5-1-6-kategoricka-transgrese.md) – mechanismus, případy a neutralizace; [kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) – [epistemická singularita](@/glossary/epistemicka-singularita.md).
 - **Glosář:** [kategoriální omyl](@/glossary/category-mistake.md) – filozofický pojem, který transgrese zneužívá; [reality testing](@/glossary/reality-testing.md) – co je třeba obnovit.
 - **Sousední karty:** [EA-5.1.19 Kvazi-mystická anihilace](@/kompendium/quick-reference/qr-ea-5-1-19.md) – „jednota“ jako past; [EA-5.1.18 Solipsistická dekompozice](@/kompendium/quick-reference/qr-ea-5-1-18.md) – rozpad hranice já a svět.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

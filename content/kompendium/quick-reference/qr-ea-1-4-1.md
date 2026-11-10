@@ -56,7 +56,3 @@ Samotná působivá řeč není pochybení. Eskalujte, když hlasová dominance 
 - **Obrana:** [metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – zachytit, odkud přesvědčení pochází.
 - **Glosář:** [charisma](@/glossary/charisma.md) – širší rámec osobní autority.
 - **Sousední karty:** [EA-1.4.2 Latentní emocionální modulace](@/kompendium/quick-reference/qr-ea-1-4-2.md) – sourozenecká technika; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – rychlé tempo a záplava; [EA-1.5.1 Strategická proxemika](@/kompendium/quick-reference/qr-ea-1-5-1.md) – prostorová složka dominance.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

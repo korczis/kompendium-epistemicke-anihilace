@@ -142,13 +142,3 @@ nespavost; na dva týdny se vrátí k častějším kontaktům a pak pokračuje 
 
 - [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – co se postupně vrací.
 - [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – cíl přechodu.
-
-## Connect
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-
----
-
-*Kompendium epistemické anihilace · Akutní protokol č. 32 · v18.4.0*

@@ -57,7 +57,3 @@ Eskalujte, když signály tvoří vzorec diskriminace či šikany nebo vedou k v
 - **Technika a kapitola:** [plná stránka EA-2.5.2](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [perfekcionismus](@/glossary/perfekcionismus.md) – častý souputník.
 - **Sousední karty:** [EA-2.1.1 Expertní disinflace](@/kompendium/quick-reference/qr-ea-2-1-1.md) – vnější předloha; [EA-2.2.8 Nárok na intelektuální otcovství](@/kompendium/quick-reference/qr-ea-2-2-8.md) – přisvojované zásluhy.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

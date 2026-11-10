@@ -57,7 +57,3 @@ Eskalujte při střetu zájmů, porušení pravidel nebo odvetě za kritiku: [me
 - **Technika a kapitola:** [plná stránka EA-2.4.4](@/kompendium/techniques/ea-2-4-4-leadership-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Organizace:** [plánování nástupnictví](@/kompendium/organizational-defense/20-succession-planning-EA.md) – prevence; [kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md) – po odchodu zachyceného vedení.
 - **Sousední karty:** [EA-2.1.2 Pseudo-peer mob](@/kompendium/quick-reference/qr-ea-2-1-2.md) – mob, který získá moc; [EA-2.4.3 Přesměrování financí](@/kompendium/quick-reference/qr-ea-2-4-3.md) – typický nástroj zachyceného vedení.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

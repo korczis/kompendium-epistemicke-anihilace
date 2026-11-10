@@ -144,7 +144,3 @@ stočí k vlastním dětem, uznejte obavu a vraťte se k metodě; cvičení nepo
 - [Evidence-based](@/glossary/evidence-based.md) – co znamená opírat se o důkazy.
 - [Pseudoscience](@/glossary/pseudoscience.md) – rozlišení vědy a jejího napodobení.
 - [Replikační krize](@/glossary/replication-crisis.md) – proč jedna studie nestačí.
-
-## Connect
-
-Otázky, zpětná vazba, vlastní případy: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues) | [GitHub](https://github.com/korczis)

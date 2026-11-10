@@ -55,9 +55,3 @@ Krmí **Red Team** novými útočnými scénáři; informuje **[Strategic Comman
 - [agent-tier](@/glossary/agent-tier.md) — platform glossary
 - [color-teams](@/glossary/color-teams.md) — platform glossary
 - [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
-
-## Connect & Contribute
-
-Created by [Tomáš Korcak (korczis)](https://github.com/korczis) | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)

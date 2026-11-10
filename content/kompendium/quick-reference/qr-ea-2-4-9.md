@@ -57,7 +57,3 @@ Eskalujte, když zúžení kurikula ovlivňuje odbornou způsobilost absolventů
 - **Technika a kapitola:** [plná stránka EA-2.4.9](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md) – mechanismus, odlišení a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře [delegitimizace](@/glossary/delegitimizace.md).
 - **Glosář:** [epistemická monokultura](@/glossary/epistemicka-monokultura.md) – výsledek.
 - **Sousední karty:** [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – mechanismus na úrovni sylabu; [EA-2.4.5 Přepis hodnoticích kritérií](@/kompendium/quick-reference/qr-ea-2-4-5.md) – hodnocení podle jednoho rámce.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

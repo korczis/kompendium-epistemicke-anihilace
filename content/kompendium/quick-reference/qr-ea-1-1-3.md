@@ -56,7 +56,3 @@ Eskalujte, když žargon slouží k vyloučení lidí z rozhodování (souhlas s
 - **Detekce:** [hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – měřitelný signál; [cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md) – strukturní znak.
 - **Glosář:** [pseudověda](@/glossary/pseudoscience.md) – kde se mystifikace vyskytuje často.
 - **Sousední karty:** [EA-1.1.1 Selektivní expozice](@/kompendium/quick-reference/qr-ea-1-1-1.md) – jazyk znepřístupní vnější zdroje; [EA-1.1.2 Informační přetížení](@/kompendium/quick-reference/qr-ea-1-1-2.md) – žargon násobí zátěž; [EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/quick-reference/qr-ea-1-5-2.md) – neverbální signál expertního statusu.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

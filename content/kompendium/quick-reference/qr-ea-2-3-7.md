@@ -57,7 +57,3 @@ Eskalujte vždy: deepfake intimní povahy, vydírání nebo podvodný hlasový p
 - **Technika a kapitola:** [plná stránka EA-2.3.7](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) – mechanismus, ověření, právní rámec a obrana; [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) – scénáře delegitimizace.
 - **Glosář:** [hyperrealita](@/glossary/hyperreality.md) – kulturní rámec záznamů bez originálu.
 - **Sousední karty:** [EA-2.3.10 Virální zkreslení výroku](@/kompendium/quick-reference/qr-ea-2-3-10.md) – textová obdoba; [EA-2.3.6 Koordinovaný útok napříč platformami](@/kompendium/quick-reference/qr-ea-2-3-6.md) – jak se deepfake šíří.
-
----
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)

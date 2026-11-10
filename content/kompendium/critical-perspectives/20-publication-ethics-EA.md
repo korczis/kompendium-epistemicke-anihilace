@@ -79,10 +79,3 @@ Kdo má posoudit, zda text přesáhl hranici k návodu, když kniha nemá redak�
 
 - [Dual-use poznání](@/glossary/dual-use-poznani.md) – riziko návodu.
 - [Stapel fraud](@/kompendium/historical-cases/34-stapel-fraud.md) – co se stane, když kontrola selže.
-
-## Connect & Contribute
-
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

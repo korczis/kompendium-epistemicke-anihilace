@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 377,
+        "in": 376,
         "kind": "Pojem",
         "path": "glossary/taxonomie-ea.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 97,
+        "in": 96,
         "kind": "Pojem",
         "path": "glossary/kompendium-ea.md",
         "tier": 6,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 95,
+        "in": 87,
         "kind": "Kapitola",
         "path": "kompendium/_index.md",
         "tier": 6,

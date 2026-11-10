@@ -59,8 +59,8 @@ heslo [embodied cognition](@/glossary/embodied-cognition.md).
 
 ## Co ustálená literatura rozlišuje
 
-Klinická a vývojová literatura rozlišuje **kognitivní** složku, tedy pochopení, co si druhý
-myslí, a **afektivní** složku, tedy spolucítění s tím, co prožívá; obě se mohou vyskytovat
+Klinická a vývojová literatura rozlišuje kognitivní složku, tedy pochopení, co si druhý
+myslí, a afektivní složku, tedy spolucítění s tím, co prožívá; obě se mohou vyskytovat
 odděleně (Blair et al., 2005). Příbuzným, ale samostatným pojmem je **mentalizace**, totiž
 schopnost rozumět vlastnímu i cizímu jednání jako vycházejícímu z duševních stavů, rozvíjená
 v rámci teorie vztahové vazby a v terapii založené na mentalizaci (Fonagy a Target, 1997).
@@ -180,8 +180,8 @@ popis zranitelnosti, ale ne nástroj k posouzení osob ani k předpovědi, kdo b
 
 ## Literatura
 
-- Apperly, I. (2011). *Mindreaders: The Cognitive Basis of "Theory of Mind"*. Psychology Press.
-- Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). *Does the autistic child have a "theory of mind"?* Cognition.
+- Apperly, I. (2011). *Mindreaders: The Cognitive Basis of „Theory of Mind“*. Psychology Press.
+- Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). *Does the autistic child have a „theory of mind“?* Cognition.
 - Bateman, A., & Fonagy, P. (2016). *Mentalization-Based Treatment for Personality Disorders*. Oxford University Press.
 - Blair, R. J. R., Mitchell, D., & Blair, K. (2005). *The Psychopath: Emotion and the Brain*. Blackwell.
 - Dennett, D. C. (1987). *The Intentional Stance*. MIT Press.
@@ -189,7 +189,7 @@ popis zranitelnosti, ale ne nástroj k posouzení osob ani k předpovědi, kdo b
 - Gallagher, S., & Zahavi, D. (2008). *The Phenomenological Mind*. Routledge.
 - Gernsbacher, M. A., & Yergeau, M. (2019). *Empirical failures of the claim that autistic people lack a theory of mind*. Archives of Scientific Psychology.
 - Hare, R. D. (1993). *Without Conscience*. Guilford Press.
-- Milton, D. (2012). *On the ontological status of autism: The "double empathy problem"*. Disability & Society.
+- Milton, D. (2012). *On the ontological status of autism: The „double empathy problem“*. Disability & Society.
 - Onishi, K. H., & Baillargeon, R. (2005). *Do 15-month-old infants understand false beliefs?* Science.
 - Paulhus, D. L., & Williams, K. M. (2002). *The Dark Triad of personality*. Journal of Research in Personality.
 - Premack, D., & Woodruff, G. (1978). *Does the chimpanzee have a theory of mind?* Behavioral and Brain Sciences.

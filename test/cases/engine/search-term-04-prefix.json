@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 311,
+        "in": 306,
         "kind": "Pojem",
         "path": "glossary/color-teams.md",
         "tier": 4,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 81,
+        "in": 79,
         "kind": "Pojem",
         "path": "glossary/blue-team.md",
         "tier": 6,
@@ -115,7 +115,7 @@
       },
       {
         "code": null,
-        "in": 36,
+        "in": 40,
         "kind": "Pojem",
         "path": "glossary/replication-crisis.md",
         "tier": 6,

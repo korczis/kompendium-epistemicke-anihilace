@@ -140,7 +140,7 @@ staví obnovu vyprávění do prostřední fáze zotavení, po stabilizaci a př
 a výslovně varuje před předčasnou rekonstrukcí vedenou terapeutem (Herman, 1992). Totéž
 riziko pojmenovává heslo [iatrogenní újma](@/glossary/iatrogenic-harm.md).
 
-Narativní terapie k tomu nabízí nástroje, jejichž předpokladem je, že výklad vlastního
+[Narativní terapie](@/glossary/narativni-terapie.md) k tomu nabízí nástroje, jejichž předpokladem je, že výklad vlastního
 příběhu zůstává v rukou klienta a terapeut pomáhá jen externalizovat problém (White
 a Epston, 1990). V knize na to navazují protokoly
 [Narativ](@/kompendium/recovery-protocols/narativ.md) a [Subakutní narativní
@@ -162,8 +162,8 @@ chybějící souvislé vyprávění není samo o sobě znakem poškození a že 
 k vlastní minulosti nelze patologizovat.
 
 Druhou námitkou je normativní tlak: pokud je soudržný příběh měřítkem zdraví, mohou terapie
-i posudky vymáhat vyprávění, které člověk dosud nemá, a tím zvyšovat riziko konfabulace
-a retraumatizace (Herman, 1992). Kniha proto pracuje s pojmem jako s popisem toho, co bylo
+i posudky vymáhat vyprávění, které člověk dosud nemá, a tím zvyšovat riziko [konfabulace](@/glossary/konfabulace.md)
+a [retraumatizace](@/glossary/retraumatizace.md) (Herman, 1992). Kniha proto pracuje s pojmem jako s popisem toho, co bylo
 zasaženo, ne jako s cílem, jehož má přeživší dosáhnout. Otevřenou otázkou zůstává, jak
 odlišit narativní poškození od kulturně odlišného způsobu vyprávění o sobě; McAdams sám
 upozorňuje, že zápletky jsou dodávány kulturou a jejich hodnocení není neutrální (McAdams,

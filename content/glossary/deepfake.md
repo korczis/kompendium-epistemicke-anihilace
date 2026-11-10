@@ -93,7 +93,7 @@ nahrávky nespočívá v tom, že je pravdivá, ale v tom, že nese informaci �
 spolehlivá souvislost mezi tím, co je na ní vidět, a tím, co se stalo. Syntetická média tuto
 souvislost zeslabují, a tím snižují informační hodnotu i těch záznamů, které jsou pravé
 (Fallis, 2021). Kniha v tom vidí blízkost [hyperrealitě](@/glossary/hyperreality.md) Jeana
-Baudrillarda, tedy stavu, v němž simulakra předcházejí skutečnosti a nahrazují ji
+Baudrillarda, tedy stavu, v němž [simulakra](@/glossary/simulacra.md) předcházejí skutečnosti a nahrazují ji
 (Baudrillard, 1981); *interpretace knihy* je zde to spojení, ne Baudrillardův text sám.
 
 Dopad není rozložen rovnoměrně. Kdo je už předem brán jako nedůvěryhodný, přijde o možnost

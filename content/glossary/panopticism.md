@@ -134,7 +134,7 @@ situace se mohou vyskytovat současně (Freeman, 2007).
 Od **[epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md)** se liší předmětem:
 Frickerová popisuje, komu se nevěří, panoptismus popisuje, jak viditelnost formuje to, co
 lidé vůbec řeknou; oba jevy se často sčítají, protože kdo mlčí, nemůže být ani vyslechnut
-(Fricker, 2007). Od **společnosti kontroly** se odlišuje mechanismem: kontrola nepracuje
+(Fricker, 2007). Od společnosti kontroly se odlišuje mechanismem: kontrola nepracuje
 s uzavřením a normou, nýbrž s průběžnou modulací (Deleuze, 1990).
 
 ## Právní a etický rámec

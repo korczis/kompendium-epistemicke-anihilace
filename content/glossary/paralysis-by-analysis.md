@@ -181,7 +181,7 @@ tam, kde závažnost následků není předem známa (Gigerenzer a Selten, 2001)
 - Gigerenzer, G., & Selten, R. (Eds.) (2001). *Bounded Rationality: The Adaptive Toolbox*. MIT Press.
 - Iyengar, S. S., & Lepper, M. R. (2000). *When choice is demotivating*. Journal of Personality and Social Psychology.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
-- Paul, C., & Matthews, M. (2016). *The Russian "Firehose of Falsehood" Propaganda Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Scheibehenne, B., Greifeneder, R., & Todd, P. M. (2010). *Can there ever be too many options? A meta-analytic review of choice overload*. Journal of Consumer Research.
 - Schwartz, B. (2004). *The Paradox of Choice: Why More Is Less*. Harper.
 - Simon, H. A. (1956). *Rational choice and the structure of the environment*. Psychological Review.

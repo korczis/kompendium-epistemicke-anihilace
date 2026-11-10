@@ -181,7 +181,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 377,
+        "in": 376,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
@@ -223,14 +223,14 @@
       {
         "class": "glossary",
         "distance": 2,
-        "in": 604,
+        "in": 605,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 2,
-        "in": 384,
+        "in": 380,
         "path": "glossary/nabla-infinity.md",
         "title": "NABLA Infinity (∇∞)"
       },
@@ -253,7 +253,7 @@
     "op": "neighbourhood",
     "path": "matice.md",
     "schema": "kompendium-engine/v1",
-    "total": 550,
+    "total": 549,
     "truncated": true
   },
   "input": {

@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 604,
+        "in": 605,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 6,
@@ -105,7 +105,7 @@
       },
       {
         "code": null,
-        "in": 44,
+        "in": 45,
         "kind": "Pojem",
         "path": "glossary/narrative-identity.md",
         "tier": 6,
@@ -115,12 +115,12 @@
       },
       {
         "code": null,
-        "in": 32,
-        "kind": "Kapitola",
-        "path": "kompendium/organizational-defense/40-post-incident-learning.md",
+        "in": 33,
+        "kind": "Pojem",
+        "path": "glossary/kognitivni-bias.md",
         "tier": 6,
-        "title": "Učení po incidentu",
-        "url": "/kompendium/organizational-defense/40-post-incident-learning/",
+        "title": "Kognitivní bias",
+        "url": "/glossary/kognitivni-bias/",
         "why": "description"
       }
     ],

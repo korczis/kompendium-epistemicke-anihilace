@@ -239,21 +239,21 @@
       {
         "class": "glossary",
         "distance": 0,
-        "in": 604,
+        "in": 605,
         "path": "glossary/epistemicka-anihilace.md",
         "title": "Epistemická anihilace"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 384,
+        "in": 380,
         "path": "glossary/nabla-infinity.md",
         "title": "NABLA Infinity (∇∞)"
       },
       {
         "class": "glossary",
         "distance": 1,
-        "in": 377,
+        "in": 376,
         "path": "glossary/taxonomie-ea.md",
         "title": "Taxonomie EA"
       },
@@ -274,7 +274,7 @@
       {
         "class": "glossary",
         "distance": 1,
-        "in": 311,
+        "in": 306,
         "path": "glossary/color-teams.md",
         "title": "Color Teams (barevné týmy)"
       },
@@ -318,7 +318,7 @@
     "op": "neighbourhood",
     "path": "glossary/epistemicka-anihilace.md",
     "schema": "kompendium-engine/v1",
-    "total": 1899,
+    "total": 1904,
     "truncated": true
   },
   "input": {

@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 384,
+        "in": 380,
         "kind": "Pojem",
         "path": "glossary/nabla-infinity.md",
         "tier": 4,
@@ -115,12 +115,12 @@
       },
       {
         "code": null,
-        "in": 3,
-        "kind": "Kapitola",
-        "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
+        "in": 4,
+        "kind": "Pojem",
+        "path": "glossary/lowballing.md",
         "tier": 5,
-        "title": "Most: NABLA Infinity platformy → Kompendium",
-        "url": "/kompendium/section-bridges/bridge-platform-nabla-to-kompendium/",
+        "title": "Lowballing (technika nízké nabídky)",
+        "url": "/glossary/lowballing/",
         "why": "title_word"
       }
     ],
@@ -130,7 +130,7 @@
     "op": "search",
     "query": "NAB",
     "schema": "kompendium-engine/v1",
-    "total": 40
+    "total": 41
   },
   "input": {
     "op": "search",

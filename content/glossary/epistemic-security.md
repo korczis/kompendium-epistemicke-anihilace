@@ -177,7 +177,7 @@ podmínek, ne jako oprávnění k zásahu.
 - Lewandowsky, S., Ecker, U. K. H., & Cook, J. (2017). *Beyond misinformation: Understanding and coping with the post-truth era*. Journal of Applied Research in Memory and Cognition.
 - Nguyen, C. T. (2020). *Echo chambers and epistemic bubbles*. Episteme.
 - O'Connor, C., & Weatherall, J. O. (2019). *The Misinformation Age: How False Beliefs Spread*. Yale University Press.
-- Paul, C., & Matthews, M. (2016). *The Russian "Firehose of Falsehood" Propaganda Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Seger, E., Avin, S., Pearson, G., et al. (2020). *Tackling Threats to Informed Decision-Making in Democratic Societies: Promoting Epistemic Security in a Technologically-Advanced World*. The Alan Turing Institute.
 - Sunstein, C. R., & Vermeule, A. (2009). *Conspiracy theories: Causes and cures*. Journal of Political Philosophy.
 - Wardle, C., & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.

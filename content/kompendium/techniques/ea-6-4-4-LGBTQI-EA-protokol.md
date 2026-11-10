@@ -66,7 +66,7 @@ Každý krok je dokumentován v klinickém záznamu s časovými razítky, klí�
 
 ## Trvání a frekvence
 
-**Typická délka:** 12-24 měsíců.
+Délku a frekvenci stanoví indikace, manuál použité modality a supervize, nikoli tato kniha.
 
 Frekvence sezení a celková délka intervence jsou závislé na komplexitě klinického obrazu, komorbiditách a individuální responsivitě. V populacích s komplexním C-PTSD je třeba počítat s prolongovaným průběhem, zatímco u single-incident traumat lze očekávat rychlejší progression.
 
@@ -76,7 +76,7 @@ Klinická efektivita techniky je posuzována podle následujících outcome metr
 
 IH-MS, LGBT-PTSD, identity coherence markers.
 
-Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významná změna je definována jako Cohenovo d ≥ 0.5 nebo redukce primárního skóru o ≥ 30%.
+Pre-post administrace standardizovaných nástrojů poskytuje kvantitativní podklad pro klinické rozhodování o pokračování, modifikaci nebo ukončení intervence. Klinicky významnou změnu tato kniha nekvantifikuje; publikovaným kritériem je index spolehlivé změny RCI > 1.96 a posttestový skór v rozsahu 1 SD netraumatizované normy (Jacobson a Truax, 1991). Prahy jednotlivých nástrojů patří jejich manuálům a supervizi, ne této stránce.
 
 ## Adaptace pro specifické EA kategorie
 
@@ -100,8 +100,6 @@ Technika **EA-6.4.4** se historicky vyvinula z konvergence několika klinických
 
 **Klinické zacílení**: specializované populace s unikátním rizikovým profilem — pediatrická, geriatrická, post-cult, refugee, LGBTQI+, veteráni, oběti DV, policejní, zdravotnictví, novináři, aktivisté. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající diferencované podle populace: F43.1 PTSD (univerzální), F94 Reactive attachment disorder (děti, ICD-11 6B44), F62.0 (komplexní cohorty), specifické profesní burnout (ICD-11 QD85). V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
-
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
 **Klinická tradice ukotvení**: česká psychiatrická a psychologická tradice (Vondráček, Mečíř, Kratochvíl, Höschl, Praško) poskytuje specifický rámec pro adaptaci globálních [evidence-based](@/glossary/evidence-based.md) přístupů na středoevropské sociokulturní specifika — postkomunistická intergenerační traumata, religijně-sektářská specifika regionu, vzorce institucionálního násilí v rámci totalitního dědictví.
@@ -110,47 +108,47 @@ Technika **EA-6.4.4** se historicky vyvinula z konvergence několika klinických
 
 Aplikace techniky **EA-6.4.4** vyžaduje specifickou modifikaci v následujících podpopulacích, kde standardní protokol nese zvýšené iatrogenní riziko:
 
-**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), zkrácená sezení (30-45 min vs. 60-90 min standard), vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
+**Děti a adolescenti (< 18 let)**: vývojově citlivá adaptace s explicitním zapojením pečující osoby (TF-CBT model), kratší sezení, vyšší frekvence stabilizačních prvků, hra a kreativní expresivní techniky jako preferovaný kanál. Riziko: dlouhodobá identifikace s rolí pacienta (sick role internalization). Doporučené nástroje: UCLA PTSD-RI, CAPS-CA-5, Trauma Symptom Checklist for Children.
 
 **Geriatrická populace (> 65 let)**: kognitivní akomodace (delší pauzy, opakování klíčových konceptů, písemné podpůrné materiály), screening pro early-stage demenci (MoCA), zohlednění kohortně specifické historie (postkomunistická intergenerační traumata), častá komorbidita s chronickými somatickými onemocněními.
 
-**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci (atypická antipsychotika), úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
+**Komorbidní psychotické spektrum**: technika vyžaduje předchozí farmakologickou stabilizaci v péči psychiatra, úzká spolupráce s psychiatrem, redukce konfrontačních elementů, posílené reality-testing protokoly. Riziko: psychotická dekompenzace pod expozičním tlakem.
 
-**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise (≥ 90 dní), poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
+**Komorbidní substance use disorders**: doporučená sekvence — primární SUD léčba do funkční remise, poté trauma-fokusovaná intervence. Paralelní integrované přístupy (Seeking Safety) jsou alternativou pro pacienty neschopné dosáhnout primární abstinence.
 
-**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training 12-24 týdnů) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
+**Komorbidní borderline personality disorder**: rozšířená stabilizační fáze (DBT skill training) předchází trauma expozičním komponentám. Riziko regresivní idealizace/devalvace v terapeutickém vztahu vyžaduje peer-supervizi.
 
-**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence do 6 měsíců post-partum.
+**Pregnancy a perinatální období**: relativní kontraindikace pro vysokoexpoziční varianty; preferovány sensorimotor a stabilizační intervence v perinatálním období.
 
-## Outcome měření
+## Kdy je rámec legitimní
 
-Validace efektivity techniky vyžaduje multidimenzionální outcome battery aplikovanou v klinicky validovaných intervalech:
+Rámec je legitimní jen tam, kde cílem není změna orientace ani identity. Koercivní „konverzní“ postupy nejsou péčí; poskytování zdravotních služeb a informovaný souhlas s nimi upravuje zákon č. 372/2011 Sb., o zdravotních službách, a nic z toho, co kniha popisuje, nad tento rámec vlastní oprávnění nestaví.
 
-**Primární outcome instrumenty** (administrace baseline / mid-treatment / termination / 3-month FU / 12-month FU):
+Druhou podmínkou je souhlas, který lze odvolat, aniž je odvolání vykládáno jako vyhýbání se. U této populace je to podstatné proto, že chronický tlak menšinového postavení sám vytváří očekávání odmítnutí a odchod z péče bývá čten jako potvrzení diagnózy (Meyer, 2003).
 
-| Instrument | Doména | Klinicky významná změna |
-|------------|--------|--------------------------|
-| **PCL-5** | PTSD symptomy (DSM-5) | ≥ 10-bodová redukce, sub-threshold < 33 |
-| **ITQ** | ICD-11 PTSD/CPTSD | DSO klinicky pod prahem, redukce ≥ 30% |
-| **CAPS-5** | Klinicián-administrovaná PTSD | ≥ 30% redukce celkového skóru |
-| **DERS** | Emoční regulace | g ≥ 0.5 pre-post |
-| **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
+Třetí podmínkou je dokumentace, kterou dotčený smí vidět, a cíl formulovaný jako jeho vlastní kapacita rozhodovat, komu a kdy se otevře. Poškození ze strany nejbližších, na nichž je člověk závislý, má přitom vlastní strukturu, k níž patří i to, že si zkušenost nelze vybavit (Freyd, 1996).
 
-**Sekundární outcome**:
+Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-- **PHQ-9** (depresivní symptomatologie, target < 10)
-- **GAD-7** (úzkostná symptomatologie, target < 10)
-- **DES-II** (disociativní symptomatologie, target < 30)
-- **WAI-SR** (terapeutická aliance, target ≥ 25. percentil)
-- **CGI-S** (klinické globální zhodnocení)
-- **PSQI** (kvalita spánku)
+## Odlišení
 
-**Benchmarks pro úspěch intervence**:
+Od obvyklé rozpolcenosti při hledání vlastního místa se vzorec odlišuje tím, že se dotčený nedokáže vztáhnout k vlastnímu svědectví o sobě. Internalizovaný odmítavý hlas není jen názor na sebe; je to poškozená schopnost být vlastním zdrojem poznání (Fricker, 2007).
 
-- **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
-- **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
-- **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
-- **Sustained Remission**: udržení nad RCI prahem v 12měsíčním FU
+Druhým hlediskem je zdroj distresu. Tam, kde jej nese prostředí a jeho stigma, nejde o vlastnost dotčeného, a model menšinového stresu toto rozlišení formuluje výslovně a dohledatelně (Meyer, 2003).
+
+Od sousední techniky — [EA-6.4.2 post-cult protokol](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md) — se tento rámec odlišuje tím, že odchod z prostředí dotčeného nezbaví toho, co bylo předmětem tlaku: po opuštění náboženské skupiny zůstává jeho identita jeho vlastní součástí (Freyd, 1996).
+
+Třetím hlediskem je to, co se po intervenci stalo s vztahem dotčeného k vlastní minulosti. Tam, kde zůstane jediné přípustné vyprávění o sobě, jde o tentýž nárok, jaký vznášelo původní prostředí (Freyd, 1996).
+
+## Rizikové kontexty
+
+Nejčastěji je tento rámec zneužit v prostředí, které nabízí pomoc a současně má na výsledku zájem — v rodině, v náboženském společenství, v poradně s vlastní doktrínou. Nárok na změnu je tam formulován jako péče a stigma, které jej provází, je součástí mechanismu (Meyer, 2003).
+
+Druhým kontextem je závislost na tom, kdo tlak vyvíjí. Nezletilý nebo ekonomicky závislý člověk nemůže souhlas odvolat bez nákladů; právě kombinace blízkosti a poškození je popsána jako zrada, kterou nelze pojmenovat bez ztráty vztahu (Freyd, 1996).
+
+Třetím kontextem je klinické prostředí samo. Vnucení terapeutovy představy o správné identitě i předčasné odhalení jsou v této populaci popsanými riziky a obojí odnímá dotčenému autoritu nad vlastním svědectvím (Fricker, 2007).
+
+Čtvrtým kontextem jsou poradny, které svou doktrínu nepojmenují. Nabídka pomoci bez deklarovaného cíle je u této populace zdrojem zátěže, protože dotčený nemůže odhadnout, co se po něm očekává (Meyer, 2003).
 
 ## Vztah k jiným technikám
 
@@ -160,6 +158,7 @@ Adaptace [EA-6.3.6 narativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-nar
 
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Fricker, M. (2007). *Epistemic Injustice*. Oxford University Press.
+- Jacobson, N. S., & Truax, P. (1991). Clinical significance: a statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology*.
 - Meyer, I. H. (2003). Prejudice, social stress, and mental health in lesbian, gay, and bisexual populations. *Psychological Bulletin*.
 
 ## Související

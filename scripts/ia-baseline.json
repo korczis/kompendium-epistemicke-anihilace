@@ -73,10 +73,6 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/bounded-choice.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/c-ptsd.md": [
   "detail",
   "weak-link"
@@ -98,10 +94,6 @@
   "weak-link"
  ],
  "content/glossary/cirkularni-argumentace.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/coercive-control.md": [
   "detail",
   "weak-link"
  ],
@@ -190,10 +182,6 @@
   "weak-link"
  ],
  "content/glossary/doxing.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/dual-use-poznani.md": [
   "detail",
   "weak-link"
  ],
@@ -393,10 +381,6 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/high-control-group.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/hodnotova-destrukce.md": [
   "detail",
   "weak-link"
@@ -442,10 +426,6 @@
   "weak-link"
  ],
  "content/glossary/info-ops.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/informed-consent.md": [
   "detail",
   "weak-link"
  ],
@@ -773,10 +753,6 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/retraumatizace.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/russell-paradox.md": [
   "detail",
   "weak-link"
@@ -853,15 +829,7 @@
   "detail",
   "weak-link"
  ],
- "content/glossary/testimonialni-nespravedlnost.md": [
-  "detail",
-  "weak-link"
- ],
  "content/glossary/theory-of-mind.md": [
-  "detail",
-  "weak-link"
- ],
- "content/glossary/thought-reform.md": [
   "detail",
   "weak-link"
  ],
@@ -910,10 +878,6 @@
   "weak-link"
  ],
  "content/glossary/zenon-paradox.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/01-predmluva/ucel-kompendia.md": [
   "detail",
   "weak-link"
  ],
@@ -1481,10 +1445,6 @@
   "detail",
   "weak-link"
  ],
- "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/emergency-protocols/10-acute-self-harm-EA.md": [
   "detail",
   "weak-link"
@@ -1513,19 +1473,11 @@
   "detail",
   "weak-link"
  ],
- "content/kompendium/emergency-protocols/17-crisis-hotline-EA.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md": [
   "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/19-restraint-avoidance-EA.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/emergency-protocols/2-suicide-risk-EA.md": [
   "detail",
   "weak-link"
  ],
@@ -1554,10 +1506,6 @@
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/26-substance-EA.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/emergency-protocols/27-active-cult-emergency.md": [
   "detail",
   "weak-link"
  ],
@@ -1633,247 +1581,7 @@
   "detail",
   "weak-link"
  ],
- "content/kompendium/emergency-protocols/8-emergency-extraction-cult.md": [
-  "detail",
-  "weak-link"
- ],
  "content/kompendium/emergency-protocols/9-mandatory-reporting-EA.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-3nl.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-adapter-pattern.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-agent-registry.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-agent-tier.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-agent.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-aiad.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-anankasticky-rezim.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-archer-supreme.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-autoevolve.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-autoheal.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-black-team.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-blue-team.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-bounded-context.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-censys.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-clean-run.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-color-teams.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-companion.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-decision-engine.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-dual-use-poznani.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-easm.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-embodied-cognition.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-entity-resolution.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-epistemic-bubble.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-epistemic-pipeline.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-epistemic-security.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-eticky-ramec.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-exit.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-four-noble-truths.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-gray-team.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-greynoise.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-hawkeye.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-intelligence-fusion.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-kompendium-ea.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-kontraindikace.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-mereologicka-rekonstrukce.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-nabla-infinity.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-nm-nd.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-osint.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-predictive-processing.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-purple-team.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-qdp.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-qeve.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-quality-debt.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-readiness.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-red-team.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-regression-test.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-risk-score.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-sanctions-screening.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-session-discipline.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-shodan.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-strategic-command.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-supreme-commander.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-tactical-execution.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-taxonomie-ea.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-threshold.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-trinity-gate.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-violation-protocol.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-white-team.md": [
-  "detail",
-  "weak-link"
- ],
- "content/kompendium/glossary-bridges/bridge-zero-warning-policy.md": [
   "detail",
   "weak-link"
  ],

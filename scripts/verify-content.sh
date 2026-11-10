@@ -14,7 +14,8 @@
 #   scripts/verify-content.sh --help     this text
 #
 # Gates: migrate-content, normalize-front-matter, polish-markdown, link-terms, check-ia,
-# build-references, build-graph, zola build, graph urls resolve, test/run.sh. The export is deleted afterwards.
+# build-references, build-graph, build-ui-data, build-readme (when present), zola build,
+# graph urls resolve, test/run.sh. The export is deleted afterwards.
 set -euo pipefail
 
 case "${1:-}" in
@@ -60,10 +61,17 @@ step "link-terms"                 python3 scripts/link-terms.py --check
 if [ "$fix" = --fix ]; then
   step "build-references"         python3 scripts/build-references.py
   step "build-graph"              python3 scripts/build-graph.py
+  step "build-ui-data"            python3 scripts/build-ui-data.py
+  # README's derived section table (dev-31's generator); it reads graph.json and metrics.json.
+  if [ -f scripts/build-readme.py ]; then step "build-readme" python3 scripts/build-readme.py; fi
 fi
 step "check-ia"                   python3 scripts/check-ia.py
 step "build-references --check"   python3 scripts/build-references.py --check
 step "build-graph --check"        python3 scripts/build-graph.py --check
+step "build-ui-data --check"      python3 scripts/build-ui-data.py --check
+if [ -f scripts/build-readme.py ]; then
+  step "build-readme --check"     python3 scripts/build-readme.py --check
+fi
 step "zola build"                 zola build --force -o "$work/.out"
 # Every URL the derived data hands to the site's surfaces must be a page Zola built.
 step "graph urls resolve"         python3 -c '
@@ -80,7 +88,9 @@ if [ "$fix" = --fix ]; then
   cp scripts/ia-baseline.json "$root/scripts/ia-baseline.json"
   cp static/data/*.json "$root/static/data/"
   cp content/references.md "$root/content/references.md"
-  (cd "$root" && git add scripts/ia-baseline.json static/data content/references.md)
+  derived="scripts/ia-baseline.json static/data content/references.md"
+  if [ -f scripts/build-readme.py ]; then cp README.md "$root/README.md"; derived="$derived README.md"; fi
+  (cd "$root" && git add $derived)
   echo "verify-content: derived files regenerated from the staged tree and staged"
 fi
 echo "verify-content: the staged tree passes every content gate"

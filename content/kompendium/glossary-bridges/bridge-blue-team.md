@@ -1,6 +1,6 @@
 +++
-title = "Bridge: blue-team"
-description = "Glossary bridge — propojeni kompendia s glossary entry blue-team."
+title = "Bridge: Blue Team (modrý tým)"
+description = "Most mezi heslem Blue Team a knihou: obrana epistemické integrity syntézou důkazů, zachováním rozporů a sledováním pomalého posunu – a její lidská obdoba v osobní a institucionální obraně."
 weight = 1
 
 [taxonomies]
@@ -8,68 +8,171 @@ tags = ["kompendium", "glossary-bridge", "blue-team", "cross-link"]
 categories = ["academic", "reference"]
 
 [extra]
-related_terms = ["bridge-bite-model", "bridge-black-team", "bridge-bounded-context", "bridge-c-ptsd"]
+category = "kompendium-bridge"
+related_terms = ["blue-team", "color-teams", "red-team", "purple-team", "signal-plurality", "epistemic-security"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "blue-team"
 toc = false
 +++
 
-# Bridge — Blue team
+# Bridge: Blue Team (modrý tým)
 
-## Glossary entry
+> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> rozpoznání, obraně a nápravě. Přehled všech mostů je v rejstříku
+> [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-[blue-team](@/glossary/blue-team.md) — Blue team.
+## Pojem
 
-Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
+[Blue Team](@/glossary/blue-team.md) je obranný tým v rámci [barevných týmů](@/glossary/color-teams.md)
+platformy, z níž Kompendium vzešlo. V tradiční kybernetické bezpečnosti brání modrý tým sítě a systémy
+proti útokům, které simuluje [Red Team](@/glossary/red-team.md). Na platformě je jeho předmětem
+**epistemická integrita**: tým složený ze specializovaných agentů dbá na to, aby přesvědčení platformy
+byla dobře doložena, signály nebyly poškozeny a uvažování se neodchylovalo od ověřeného výchozího stavu.
+Místo jednotlivých výstrah vytváří strukturované důkazní záznamy a opírá se o axiomy rámce
+[NABLA Infinity](@/glossary/nabla-infinity.md).
 
-## Definice z glossary
+Rozlišení „modré“ a „červené“ strany pochází z vojenských válečných her a do bezpečnostní praxe se
+přeneslo jako metoda, při níž obránci čelí řízenému protivníkovi. Zenko (2015) popsal dějiny a meze
+této praxe a zdůraznil, že hodnota cvičení stojí na tom, zda se obránci z nálezů skutečně poučí.
+Heslo patří do kontextu platformy; kniha ho zařazuje mezi mosty, protože zásady modrého týmu jsou
+strojovou obdobou obrany, kterou doporučuje lidem.
 
-Blue team je v Prismatic color-team taxonomii agentní rodina specializovaná na defenzivní bezpečnost, threat detection, incident response a infrastructure hardening. Komplementární k [red team](@/glossary/red-team.md) (offensive) v klasickém security paradigmatu; operuje pod zvýšenou auditní zátěží a předvídatelností.
+## Epistemická obrana očima knihy
 
-Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
+První zásadou modrého týmu je **pluralita nezávislých zdrojů** pro každé důležité tvrzení. Heuer (1999)
+v metodě analýzy konkurenčních hypotéz ukázal, že důkaz má hodnotu podle toho, jak dobře rozlišuje mezi
+hypotézami, ne podle toho, kolikrát je opakován; tvrzení potvrzené pěti kanály, které čerpají z jednoho
+zdroje, je stále tvrzením jednoho zdroje. Kniha tuto zásadu uplatňuje v návodu
+[Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) a v pojmu
+[plurality signálů](@/glossary/signal-plurality.md).
 
-## Pozice v kompendiu
+Druhou zásadou je **zachování rozporů**. Systém, který rozpory potlačuje, aby dospěl k jednoznačnému
+závěru, ztrácí právě informaci, která by odhalila manipulaci. Wohlstetter (1962) v analýze útoku na
+Pearl Harbor ukázala, že varovné signály byly k dispozici, ale zanikly v šumu a v převládajícím výkladu;
+neúspěch nespočíval v nedostatku dat, ale v tom, jak s nimi bylo naloženo.
 
-Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+Třetí zásadou je **sledování pomalého posunu pod prahem pozornosti**. Vaughan (1996) popsala v analýze
+havárie raketoplánu Challenger „normalizaci odchylky“: drobné odchylky od standardu se postupně stávaly
+přijatelnými, až se z výjimky stala norma. Dekker (2011) tento proces zobecnil jako „sklouzávání
+k selhání“. Pro knihu jde o klíčový vzorec, protože řada technik EA nepůsobí jedním zásahem, ale
+postupným posouváním toho, co člověk považuje za normální – viz detekční signatury
+[Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) a
+[Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md).
 
-- **Sekce 04 — [Color teams](@/glossary/color-teams.md) overview**: blue team mezi 6 týmy
-- **Sekce 05 — Defensive security**: SIEM, IDS/IPS, threat modeling
-- **Sekce 06 — Incident response**: playbook, IR pipeline, post-mortem
-- **Sekce 07 — Red vs. Blue**: [purple team](@/glossary/purple-team.md) jako sjednocení
-- **Per-technique články**: defensive playbooks, MITRE ATT&CK mapping
+## Kde se pojem v knize vyskytuje
 
-Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+Jak modrý tým platformy brání epistemickou integritu a co z toho plyne pro čtenáře, popisuje stránka
+[Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md). Jeho protějšek, který útoky
+simuluje v izolovaném prostředí, je popsán na stránce [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md),
+a tým, který nálezy obou stran propojuje a uzavírá, na stránce
+[Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md). Celkový rámec
+adversariálního testování taxonomie vysvětluje kapitola
+[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md).
 
-## Konceptualni mapa
+Lidskou podobu obrany rozvádějí [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md),
+návod [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) a v
+institucích kapitola [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md).
 
-Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+## Od pojmu k praxi
 
-| Vztah | Cílový koncept | Typ vazby |
-|---|---|---|
-| instance | Color Team | specializace |
-| kontrastuje | Red team (ofenzivní) | polarita |
-| integruje | Purple team | sjednocení |
+### Rozpoznání
 
-Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+Modrý tým nepracuje s jedním nápadným incidentem, ale se vzorcem. Lidskou obdobou je schopnost všimnout
+si, že se v čase mění něco, co by mělo zůstat stálé: význam slov, rozsah toho, co je „normální“, okruh
+lidí, s nimiž člověk mluví, nebo míra jistoty ve vlastní paměť. Kniha k tomu nabízí signatury
+[Skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md) a
+[Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md). Vaughan
+(1996) připomíná, že zevnitř systému posun téměř nikdy nevypadá jako posun; proto má obrana smysl jen
+tehdy, když existuje výchozí stav, s nímž lze srovnávat.
 
-## Klinicke a filosoficke implikace
+### Obrana
 
-Blue team reprezentuje epistemiku obrany: znalost vlastní infrastruktury, předvídání útočníka, kontinuální vigilance. Filosoficky implementuje princip Maginot-line vs. defense-in-depth. Klinicky musí blue team pracovat s information asymmetry — útočník volí čas a místo, defendant musí být všude vždy.
+Obrana modrého týmu stojí na záznamu výchozího stavu, na pluralitě zdrojů a na tom, že rozpor se
+nezahladí, ale zapíše. Pro jednotlivce z toho plynou tři praktické zvyky: uchovávat záznamy událostí
+a rozhovorů pořízené v době, kdy se staly; udržovat vztahy a zdroje mimo prostředí, které by mohlo
+manipulovat; a nepovažovat opakování za potvrzení. Institucím kniha doporučuje pravidelný přezkum
+toho, co se během let stalo „normálním“, a to někým, kdo v organizaci nevyrostl.
 
-Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
+### Náprava
 
-## Cross-linky
+Když posun proběhl a byl rozpoznán, náprava začíná obnovou výchozího stavu: co platilo dřív a jak se to
+změnilo. U jednotlivců tomu odpovídá rekonstrukce časové osy – viz
+[Biographical Timeline Rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
+V organizaci jde o učení bez hledání viníka; Dekker (2011) upozorňuje, že sklouzávání k selhání
+je výsledkem rozumných místních rozhodnutí, a proto ho trest jednotlivce nezastaví.
 
-- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
-- **Glossary entry**: [/glossary/blue-team/](@/glossary/blue-team.md)
-- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
-- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
-- **Glossary index**: [/glossary/](@/glossary/_index.md)
-- **Bridge hub**: [/kompendium/glossary-bridges/](@/kompendium/glossary-bridges/_index.md)
-- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](@/kompendium/konceptualni-mapa/_index.md)
-- **Per-technique katalog**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
-- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md)
+### Rámec pro profesionály
+
+Pro klinika a vyšetřovatele je z práce modrého týmu nejcennější disciplína oddělení pozorování od
+výkladu. Záznam má nejprve zachytit, co bylo řečeno a uděláno, kdy a před kým, a teprve odděleně, co
+to podle hodnotitele znamená. Heuer (1999) ukázal, že analytik, který si výklad vytvoří brzy, pak
+nové informace nevědomky třídí podle něj; stejné riziko hrozí terapeutovi, který si příliš brzy
+„všimne manipulace“, i tomu, kdo ji příliš dlouho přehlíží. Kniha proto doporučuje vést hypotézy
+výslovně a k jejich přezkumu využít supervizi – viz
+[Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) a kritickou kapitolu
+[Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md).
+
+## Odlišení od příbuzných pojmů
+
+Blue Team je třeba odlišit od [Purple Teamu](@/glossary/purple-team.md): modrý tým brání a dokládá,
+fialový propojuje nálezy útoku a obrany a rozhoduje o uzavření. Od [White Teamu](@/glossary/white-team.md)
+se liší tím, že nedokazuje formální správnost systému, ale udržuje jeho důkazní základnu v provozu.
+V lidské analogii je třeba odlišit obranu od podezíravosti: modrý tým neodmítá nové informace, ale
+ověřuje je; nedůvěra ke všemu je stejně nekalibrovaná jako důvěra ke všemu.
+
+## Časté omyly
+
+Prvním omylem je měřit obranu počtem výstrah. Množství výstrah zahlcuje a vede k jejich ignorování;
+kniha i platforma dávají přednost méně, ale doloženým nálezům. Druhým omylem je domněnka, že obrana
+musí vždy dospět k jednoznačnému závěru; zachovaný rozpor je legitimním výsledkem. Třetím omylem je
+přenášet logiku „útočník a obránce“ doslova na mezilidské vztahy: kniha analogii používá ke čtení
+epistemických vzorců, ne k tomu, aby z blízkých lidí dělala nepřátele.
+
+## Příklad (anonymizovaný kompozit)
+
+Učitel na střední škole si všimne, že studentka, dříve otevřená různým názorům, během půl roku převzala
+slovník jediné online komunity a odmítá jakýkoli jiný zdroj jako „propagandu“. Nevede s ní spor o obsah.
+Požádá ji, aby u jednoho tématu, které ji zajímá, dohledala původní zdroj tvrzení a druhý nezávislý
+zdroj. Studentka zjistí, že několik „různých“ článků v komunitě odkazuje na tentýž anonymní příspěvek.
+Nejde o obrat, ale o první zkušenost s tím, že opakování není potvrzení. Učitel pak spolupracuje
+s rodiči a se školní psycholožkou, aby studentka neztratila vztahy mimo komunitu.
+
+## Meze a otevřené otázky
+
+Přenos zásad strojové obrany na lidské poznávání je analogie, nikoli empiricky ověřený model. Otevřená
+zůstává otázka, jak u lidí stanovit „výchozí stav“, když se přesvědčení legitimně vyvíjejí – ne každý
+posun je výsledkem manipulace. Zenko (2015) navíc upozorňuje, že obranná cvičení selhávají, když je
+vedení bere jako formalitu; obdobně selže osobní obrana, která se stane rituálem bez skutečného ověřování.
+
+## Literatura
+
+- Dekker, S. (2011). *Drift into Failure: From Hunting Broken Components to Understanding Complex Systems*. Ashgate.
+- Heuer, R. J. (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence, CIA.
+- Vaughan, D. (1996). *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press.
+- Wohlstetter, R. (1962). *Pearl Harbor: Warning and Decision*. Stanford University Press.
+- Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. Basic Books.
+
+## Související
+
+**Glosář**
+
+- [Blue Team](@/glossary/blue-team.md) – technické heslo, které most propojuje.
+- [Color Teams](@/glossary/color-teams.md) – soustava barevných týmů.
+- [Red Team](@/glossary/red-team.md) – řízený protivník, proti němuž se obrana testuje.
+- [Signal Plurality](@/glossary/signal-plurality.md) – zásada nezávislých zdrojů.
+
+**Kniha**
+
+- [Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md) – obrana epistemické integrity na platformě.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – lidská obdoba plurality signálů.
+- [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) – pomalý posun pod prahem pozornosti.
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – sledování vlastního uvažování.
+
+**Sesterské mosty**
+
+- [Bridge: Color Teams](@/kompendium/glossary-bridges/bridge-color-teams.md) – celý systém týmů.
+- [Bridge: Purple Team](@/kompendium/glossary-bridges/bridge-purple-team.md) – syntéza a uzavírání nálezů.
+- [Bridge: White Team](@/kompendium/glossary-bridges/bridge-white-team.md) – konstruktivní ověřování.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

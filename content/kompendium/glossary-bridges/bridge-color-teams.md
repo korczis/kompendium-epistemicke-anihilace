@@ -1,6 +1,6 @@
 +++
-title = "Bridge: color-teams"
-description = "Glossary bridge — propojeni kompendia s glossary entry color-teams."
+title = "Bridge: Color Teams (barevné týmy)"
+description = "Most mezi heslem Color Teams a knihou: šest oddělených rolí útoku, obrany, ověření a syntézy, hodnota institucionalizovaného nesouhlasu a meze simulací na lidech."
 weight = 1
 
 [taxonomies]
@@ -8,68 +8,170 @@ tags = ["kompendium", "glossary-bridge", "color-teams", "cross-link"]
 categories = ["academic", "reference"]
 
 [extra]
-related_terms = ["bridge-clean-run", "bridge-coercive-control", "bridge-communicative-rationality", "bridge-companion"]
+category = "kompendium-bridge"
+related_terms = ["color-teams", "red-team", "blue-team", "purple-team", "white-team", "gray-team"]
 parent = "kompendium-glossary-bridges"
 glossary_target = "color-teams"
 toc = false
 +++
 
-# Bridge — Color Teams
+# Bridge: Color Teams (barevné týmy)
 
-## Glossary entry
+> **Most** vede od hesla glosáře k místům knihy, kde se pojem používá, a od nich k praxi:
+> rozpoznání, obraně a nápravě. Přehled všech mostů je v rejstříku
+> [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-[color-teams](@/glossary/color-teams.md) — Color Teams.
+## Pojem
 
-Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary heslem a poskytuje rozsireny vyklad konceptualniho ukotveni v kompendialnim korpusu.
+[Color Teams](@/glossary/color-teams.md) je souhrnné označení šesti bezpečnostních týmů platformy, z níž
+Kompendium vzešlo. [Gray Team](@/glossary/gray-team.md) pouze čtením hledá mezery ve specifikacích a
+okrajové případy; [Red Team](@/glossary/red-team.md) v izolovaném prostředí simuluje útoky;
+[Blue Team](@/glossary/blue-team.md) brání epistemickou integritu syntézou důkazů;
+[Purple Team](@/glossary/purple-team.md) propojuje nálezy útoku a obrany a jako jediný smí nález uzavřít;
+[White Team](@/glossary/white-team.md) konstruktivně dokládá, že systém drží; a
+[Black Team](@/glossary/black-team.md) modeluje teoretické hrozby. Zjištění postupují strukturovaným
+tokem signálů od průzkumu přes adversariální test k ověřené obraně.
 
-## Definice z glossary
+Rozdělení rolí podle barev pochází z vojenských válečných her a z bezpečnostních cvičení, kde proti
+sobě stojí obránci a řízený protivník a kde neutrální „bílá“ buňka cvičení řídí a hodnotí. Zenko
+(2015) popsal tuto tradici a její přenos do podnikové a státní praxe. Heslo patří do kontextu
+platformy. Pro knihu jde o jedno z míst, kde se její taxonomie uplatňuje obranně: červený tým
+simuluje epistemické útoky, které kniha popisuje, a modrý tým proti nim staví důkazní obranu.
 
-Color Teams je organizační taxonomie 552 Prismatic agentů podle specializačního zaměření: red (offensive), blue (defensive), green (intelligence), black (covert ops), gray (ambiguous/strategic), white (governance/audit). Color affiliace ortogonální s tier hierarchií.
+## Oddělené role očima knihy
 
-Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
+Hodnota systému barevných týmů nespočívá v počtu týmů, ale v **oddělení funkcí**, které by jinak
+splynuly v jedné osobě nebo skupině. Kdo navrhuje obranu, ji sám netestuje; kdo testuje, nerozhoduje
+o uzavření; kdo uzavírá, musí doložit nápravu. Kniha v tom vidí strukturní protiklad k prostředím
+s vysokou mírou kontroly, v nichž jediná autorita určuje, co je hrozba, co je obrana i co je pravda.
+Lifton (1961) popsal tento stav jako „posvátnou vědu“ – soustavu, která je nadřazena jakékoli kritice
+a v níž chybí místo, odkud by bylo možné ji zpochybnit.
 
-## Pozice v kompendiu
+Barevné týmy jsou zároveň **institucionalizovaným nesouhlasem**. Janis (1972) ukázal, že soudržné
+skupiny pod tlakem sklouzávají k předčasné shodě, a jako protilék doporučil určit někoho, kdo bude
+systematicky hledat slabiny. Schweiger, Sandberg a Ragan (1986) experimentálně srovnali dialektické
+zkoumání a roli ďáblova advokáta s prostým hledáním konsenzu a zjistili, že strukturovaný konflikt
+vede ke kvalitnějším rozhodnutím. Nemeth, Brown a Rogers (2001) však upozornili na důležitou mez:
+autentický nesouhlas podněcuje přemýšlení účinněji než nesouhlas hraný z povinnosti. Pro knihu z toho
+plyne, že role „protivníka“ musí mít skutečnou váhu, jinak se z ní stane rituál.
 
-Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
+## Kde se pojem v knize vyskytuje
 
-- **Sekce 02 — Agent organization**: color teams jako specialization axis
-- **Sekce 04 — Security operations**: red vs. blue klasické paradigma
-- **Sekce 05 — Intelligence ops**: green team (OSINT) a [black team](@/glossary/black-team.md) (covert)
-- **Sekce 06 — Governance**: [white team](@/glossary/white-team.md) a audit [doctrine](@/glossary/doctrine.md)
-- **Per-technique články**: [purple team](@/glossary/purple-team.md) formation, color team interplay
+Úlohy jednotlivých týmů v obraně proti technikám EA popisují stránky
+[Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md),
+[Blue Team a EA](@/kompendium/aiad-integration/blue-team-ea-defense.md),
+[Purple Team a EA](@/kompendium/aiad-integration/purple-team-ea-synthesis.md),
+[White Team a EA](@/kompendium/aiad-integration/white-team-ea-verification.md),
+[Gray Team a EA](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md) a
+[Black Team a EA](@/kompendium/aiad-integration/black-team-ea-modeling.md). Teoretický rámec,
+v němž barevné týmy slouží jako adversariální test taxonomie, vysvětluje kapitola
+[Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md).
 
-Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
+Lidskou podobu oddělení funkcí rozebírají kapitoly organizační obrany
+[Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) a
+[Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md). Etické meze cvičení, v nichž
+lidé čelí simulovanému epistemickému tlaku, stanoví kapitola
+[Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) a
+vzdělávací scénář [Iatrogenní riziko](@/kompendium/educational-scenarios/27-iatrogenic-risk.md).
 
-## Konceptualni mapa
+## Od pojmu k praxi
 
-Vztahy konceptu k souvisejicim entitam v platformovem korpusu:
+### Rozpoznání
 
-| Vztah | Cílový koncept | Typ vazby |
-|---|---|---|
-| ortogonální | [Agent Tier](@/glossary/agent-tier.md) | klasifikace |
-| instance | Red, Blue, Green, Black, Gray, White | concrete teams |
-| kombinuje | Purple team | sjednocení |
+V organizaci se chybějící oddělení rolí pozná podle toho, že tytéž lidé navrhují opatření, hodnotí jeho
+účinnost a rozhodují, zda je problém vyřešen. Varovným znakem je i opačný stav: kritická role formálně
+existuje, ale její nálezy nikdy nic nezmění. Klein (2007) navrhl metodu „premortem“, při níž tým před
+rozhodnutím předpokládá, že projekt selhal, a hledá důvody; pokud v organizaci nikdo nemůže takovou
+otázku položit bez sankce, je to signál, že nesouhlas nemá kam se obrátit.
 
-Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich vizualizacich a graph databazi.
+### Obrana
 
-## Klinicke a filosoficke implikace
+Obrana spočívá v tom, že se jednotlivé funkce svěří různým lidem s odlišnými zájmy a že nálezy kritické
+role mají povinnou odpověď. Instituce nemusí mít šest týmů; stačí, aby oddělila návrh, test, ověření a
+rozhodnutí o uzavření. Pro jednotlivce je obdobou zvyk vystavit vlastní závěr někomu, kdo nemá důvod
+s ním souhlasit, a vyslechnout jeho námitky dřív, než závěr uzavře. Kniha k tomu vede v návodu
+[Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md).
 
-Color teams reflektují historii bezpečnostních operací (red/blue z Cold War wargaming, expanded by NSA/DoD doctrine). Filosoficky umožňují epistemic differentiation: žádný agent není neutral observer; specializace barví jeho výstupy. Operačně tato klasifikace pomáhá identifikovat epistemic blind spots — jaká barva chybí v daném mission?
+### Náprava
 
-Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
+Když se ukáže, že organizace dlouho fungovala bez kritické role, nestačí ji zřídit. Je třeba projít,
+které dosavadní závěry nebyly nikdy testovány, a vrátit se k nim. Kapitola
+[Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md) popisuje, jak
+takovou revizi vést bez hledání viníka; u lidí, kteří v organizaci byli trestáni za nesouhlas,
+navazuje [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md).
 
-## Cross-linky
+### Rámec pro profesionály
 
-- **Hub kompendia**: [/kompendium/](@/kompendium/_index.md)
-- **Glossary entry**: [/glossary/color-teams/](@/glossary/color-teams.md)
-- **Quick reference**: [/kompendium/quick-reference/](@/kompendium/quick-reference/_index.md)
-- **Visualizations**: [/kompendium/visualizations/](@/kompendium/visualizations/_index.md)
-- **Glossary index**: [/glossary/](@/glossary/_index.md)
-- **Bridge hub**: [/kompendium/glossary-bridges/](@/kompendium/glossary-bridges/_index.md)
-- **Konceptualni mapa**: [/kompendium/konceptualni-mapa/](@/kompendium/konceptualni-mapa/_index.md)
-- **Per-technique katalog**: [/kompendium/techniques/](@/kompendium/techniques/_index.md)
-- **Klinicke aplikace**: [/kompendium/klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Teoreticke reflexe**: [/kompendium/teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md)
+Pro výzkumníky a vzdělavatele, kteří chtějí princip červeného týmu použít na lidech – například
+v nácviku rozpoznávání manipulace –, kniha stanoví přísnější podmínky než pro testování softwaru.
+Simulovaný epistemický tlak může u osoby s vlastní zkušeností manipulace vyvolat retraumatizaci.
+Proto se před cvičením posuzuje připravenost a kontraindikace, účastník může cvičení kdykoli přerušit
+a cvičení končí rozborem. Obecný etický základ tvoří zásady respektu k osobám, prospěšnosti a
+spravedlnosti, jak je formulovala Belmontská zpráva (National Commission 1979).
+
+## Odlišení od příbuzných pojmů
+
+Barevné týmy je třeba odlišit od běžného rozdělení práce: nejde o specializaci podle dovedností, ale
+o záměrné postavení rolí proti sobě. Od auditu se liší tím, že audit hodnotí soulad s pravidly, kdežto
+červený tým hledá, kde pravidla nestačí. Od konfrontačního stylu vedení se systém liší tím, že konflikt
+je vymezen rolí a končí syntézou; nejde o soupeření osob.
+
+## Časté omyly
+
+Prvním omylem je považovat cvičení červeného týmu za zkoušku, kterou je třeba „vyhrát“. Cílem je najít
+slabiny, a cvičení, v němž obrana vždy obstojí, bylo nejspíš špatně navrženo. Druhým omylem je
+domněnka, že stačí roli formálně zřídit. Třetím omylem je přenášet barevné role na mezilidské vztahy
+doslova: kniha analogii používá ke čtení struktury institucí, ne k tomu, aby jednotlivce dělila na
+„útočníky“ a „obránce“.
+
+## Příklad (anonymizovaný kompozit)
+
+Krajský úřad připravuje komunikační plán pro případ dezinformační kampaně během povodní. Tým, který plán
+napsal, ho chce schválit. Vedoucí místo toho požádá kolegy z jiného odboru, aby si představili, že
+kampaň už proběhla a plán selhal, a sepsali proč. Ukáže se, že plán počítá jen s jedním komunikačním
+kanálem, který může být přetížen. Plán se doplní a jeho uzavření potvrdí třetí osoba, která ověří, že
+doplnění bylo skutečně provedeno.
+
+## Meze a otevřené otázky
+
+Přenos systému barevných týmů z bezpečnosti softwaru na lidské instituce je analogie, nikoli ověřený
+organizační model. Otevřená zůstává otázka, jak zachovat autenticitu nesouhlasu v roli, která je
+přidělena – Nemeth et al. (2001) ukazují, že přidělený nesouhlas má slabší účinek. Druhou otázkou je,
+jak etický rámec cvičení na lidech sladit s požadavkem, aby cvičení bylo dost realistické na to, aby
+mělo smysl.
+
+## Literatura
+
+- Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.
+- Klein, G. (2007). Performing a project premortem. *Harvard Business Review*, 85(9), 18–19.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report*. U.S. Department of Health, Education, and Welfare.
+- Nemeth, C., Brown, K., & Rogers, J. (2001). Devil's advocate versus authentic dissent: Stimulating quantity and quality. *European Journal of Social Psychology*, 31(6), 707–720.
+- Schweiger, D. M., Sandberg, W. R., & Ragan, J. W. (1986). Group approaches for improving strategic decision making. *Academy of Management Journal*, 29(1), 51–71.
+- Zenko, M. (2015). *Red Team: How to Succeed by Thinking Like the Enemy*. Basic Books.
+
+## Související
+
+**Glosář**
+
+- [Color Teams](@/glossary/color-teams.md) – technické heslo, které most propojuje.
+- [Red Team](@/glossary/red-team.md) – řízený protivník.
+- [Purple Team](@/glossary/purple-team.md) – syntéza a uzavírání nálezů.
+- [White Team](@/glossary/white-team.md) – konstruktivní ověřování.
+
+**Kniha**
+
+- [Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) – adversariální test taxonomie.
+- [Red Team a EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – simulace útoků z knihy.
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) – lidská obdoba oddělených rolí.
+- [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) – meze cvičení na lidech.
+
+**Sesterské mosty**
+
+- [Bridge: Blue Team](@/kompendium/glossary-bridges/bridge-blue-team.md) – obrana.
+- [Bridge: Purple Team](@/kompendium/glossary-bridges/bridge-purple-team.md) – syntéza.
+- [Bridge: White Team](@/kompendium/glossary-bridges/bridge-white-team.md) – ověření.
+- [Bridge: Gray Team](@/kompendium/glossary-bridges/bridge-gray-team.md) – okrajové případy.
 
 <!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
 

@@ -1,6 +1,6 @@
 +++
 title = "Praktické návody sebe-obrany"
-description = "Padesát praktických návodů sebe-obrany napříč pěti pilíři – kognitivní, emocionální, sociální, informační hygiena a ochrana identity."
+description = "Praktické návody sebeobrany napříč pěti pilíři – kognitivní, emocionální, sociální, informační hygiena a ochrana identity."
 weight = 11
 sort_by = "weight"
 template = "kompendium/section.html"

@@ -1,6 +1,6 @@
 +++
 title = "Auditní výbor proti EA"
-description = "Organizační obrana — auditní výbor proti ea."
+description = "Jak rozšířit mandát výboru pro audit z financí na kulturní a behaviorální rizika: zdroje dat, nezávislost, hloubkové sondy a postup při zjištění epistemického útoku."
 weight = 50
 
 [taxonomies]
@@ -8,95 +8,143 @@ tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["4-whistleblower-mechanism", "40-post-incident-learning", "6-ombudsman-role", "7-ethics-officer-mandate"]
+related_terms = ["1-board-resilience", "15-culture-survey-EA", "21-decision-traceability", "32-internal-investigation"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Auditní výbor proti EA
 
-> **Bucket:** Governance · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Správa a řízení · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Klasický finanční audit nezachytí EA — výbor musí mít explicitní mandát na behaviorální a kulturní rizika.
+Výbor pro audit dohlíží na spolehlivost finančního výkaznictví, na vnitřní kontrolní systém
+a na nezávislost auditora. Epistemický útok uvnitř organizace však v účetnictví často
+nezanechá stopu: projeví se v tom, kdo mluví na poradách, kdo odchází, co se přestalo
+zapisovat a které otázky se přestaly klást. Výbor, který sleduje jen čísla, takové
+signály nevidí. Kapitola popisuje, jak mu dát mandát a nástroje na kulturní a behaviorální
+rizika, aniž by se stal policií myšlení.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **auditní výbor proti ea** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+U subjektů veřejného zájmu (banky, pojišťovny, emitenti cenných papírů) je výbor pro audit
+povinný podle zákona č. 93/2009 Sb., o auditorech; jinde – ve větších firmách, nemocnicích
+ve formě akciové společnosti, nadacích, na univerzitách – plní podobnou roli kontrolní či
+revizní orgán. Ve všech těchto prostředích se opakuje vzorec, kdy zpráva auditora je „bez
+výhrad“, a přitom v organizaci probíhá dlouhodobé zastrašování, zkreslování výsledků nebo
+„compliance jako divadlo“: formálně splněné postupy bez
+skutečné kontroly. V nemocnici se to týká hlášení nežádoucích událostí, ve výzkumu
+integrity dat, v médiích oddělení obchodu od redakce.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Výbor dostává informace výhradně od finančního ředitele a externího auditora.
+- Interní audit podléhá výkonnému vedení, které má prověřovat.
+- Chybí odborník na lidská a kulturní rizika; výbor tvoří jen finančníci.
+- Kulturní signály (fluktuace, nemocenská, výsledky průzkumů, exit interview) se nikdy
+  nedostanou na stůl výboru.
+- Jednání je formální, bez sezení s auditory a vedoucími kontrolních funkcí bez vedení.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Mandát výboru výslovně zahrnuje kulturu, chování a integritu informací – nejen finance.
+- Vedoucí interního auditu podléhá funkčně výboru, administrativně vedení (model „tří
+  linií“ podle Institutu interních auditorů).
+- Člen výboru nebo stálý poradce se zkušeností z organizační psychologie či vyšetřování.
+- Pravidelný přehled „měkkých dat“: fluktuace po útvarech, výsledky
+  [kulturního průzkumu](@/kompendium/organizational-defense/15-culture-survey-EA.md),
+  agregace [exit interview](@/kompendium/organizational-defense/13-exit-interview-EA.md),
+  počty a typy oznámení.
+- Právo výboru zadat nezávislou sondu bez souhlasu vedení a s vlastním rozpočtem.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Doplňte standardní audit checklist o EA-detekční otázky (rotation patterns, pressure escalation, compliance theater).
+Předseda výboru odpovídá za to, že program pokrývá i nefinanční rizika. Interní audit
+připravuje roční plán, v němž je aspoň jedna sonda zaměřená na kulturu nebo integritu
+rozhodování. Externí auditor sděluje výboru, kde narazil na neochotu, omezení přístupu nebo
+nevysvětlené zásahy do podkladů. Compliance a příslušná osoba podle zákona o ochraně
+oznamovatelů předávají anonymizované přehledy. Vedení odpovídá za úplnost dat a nesmí
+výboru bránit v přístupu k lidem.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Statut výboru s výslovným rozsahem a s právem přístupu ke všem dokumentům a
+   zaměstnancům.
+2. Roční mapa rizik doplněná o otázky: Kde je moc koncentrována? Kde chybí oddělení
+   povinností? Kde se lidé bojí mluvit?
+3. Kontrolní seznam pro sondy: vzorce střídání lidí na klíčových pozicích, eskalace tlaku na
+   výsledky, rozdíl mezi formálním a skutečným postupem, retroaktivní úpravy záznamů.
+4. Každé jednání končí krátkým sezením výboru s interním auditem bez vedení.
+5. Zápis zjištění, odpovědnosti a termínů nápravy s kontrolou při dalším jednání.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Členové výboru potřebují znát vzorce, jak se zkreslování informací v organizaci šíří:
+[asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md),
+[posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) v
+podkladech, normalizaci odchylek, kterou Diane Vaughan popsala na rozhodování před havárií
+raketoplánu Challenger (1996). Školení má učit, jak se ptát na data, která chybějí, a jak
+číst rozpor mezi tvrdými a měkkými ukazateli.
 
-- Audit pokrývá pouze finance, ignoruje HR a kulturní signály, výbor je formální.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Narazí-li výbor na známky epistemického útoku – například na systematicky upravované
+výsledky, umlčované kritiky nebo zastrašený tým:
 
-## 5. Best practices
+1. Zajistí podklady a vyžádá si původní data, nejen zpracované přehledy.
+2. Zadá nezávislou sondu nebo [interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+   s externím vedením, je-li dotčeno vedení.
+3. Informuje nejvyšší orgán a v případě povinnosti i regulátora nebo auditora.
+4. Dohlédne, aby se po dobu šetření neměnily kontrolní funkce ani neodcházeli klíčoví
+   svědci pod tlakem.
 
-Mix finančních + behaviorálních auditorů, externí psycholog v týmu, čtvrtletní hloubkové sondy.
+## Ochrana dotčené osoby
 
-**Dodatečné principy:**
+Sonda do kultury pracuje s výpověďmi lidí, kteří se mohou bát. Rozhovory proto vede osoba
+mimo linii řízení, výstupy se agregují a citace se anonymizují. Člověk, který výboru
+poskytl informace, nesmí být „odhalen“ tím, že zjištění popisuje situaci jen jeho týmu.
+Pokud výpověď spadá do rozsahu zákona č. 171/2023 Sb., je dotyčný chráněn jako oznamovatel.
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Vyhodnocení a indikátory selhání
 
-## 6. Cross-linky
+- Audit pokrývá jen finance, ignoruje personální a kulturní signály, výbor je formální.
+- Zpráva auditora je čistá, ale fluktuace v jednom útvaru je dlouhodobě dvojnásobná.
+- Interní audit nikdy nenašel nic podstatného v útvaru nejvlivnějšího manažera.
+- Doporučení výboru se opakují rok co rok bez nápravy.
 
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
-- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+Výbor jednou ročně hodnotí sám sebe: kolik nefinančních zjištění vzniklo, kolik bylo
+napraveno, odkud přišla první informace.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Výbor nemůže a nemá nahradit vedení v řízení kultury; jeho úkolem je vidět a ptát se.
+Měkká data jsou citlivá na interpretaci a snadno vedou k falešně pozitivním závěrům (viz
+[riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
+Otevřenou otázkou zůstává, jak měřit integritu rozhodování, aniž by se z ní stala další
+metrika, kterou lze vylepšovat na papíře.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) –
+  orgán, jemuž výbor slouží.
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+  – hlavní zdroj měkkých dat.
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+  – podklad pro sondy do integrity rozhodování.
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md) –
+  když sonda najde vážné podezření.
+
+**Detekce a pojmy**
+
+- [Asymetrické odhalování](@/kompendium/detection-signatures/15-behavioral-asymmetric-disclosure.md)
+  – selektivní předávání informací orgánům.
+- [Pattern evidence](@/glossary/pattern-evidence.md) – proč opakované drobné signály tvoří
+  důkaz, který jednotlivě chybí.
+- [Compliance framework](@/glossary/compliance-framework.md) – rámec, do něhož se kulturní
+  audit zapojuje.
+
+**Kritika**
+
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
+  – proč měkká data vyžadují opatrnost.

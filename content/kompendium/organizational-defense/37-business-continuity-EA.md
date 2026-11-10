@@ -1,6 +1,6 @@
 +++
 title = "Kontinuita podnikání s EA fokusem"
-description = "Organizační obrana — kontinuita podnikání s ea fokusem."
+description = "Plán kontinuity řeší výpadek systémů a budov, ale ne odchod vedení, hromadné výpovědi či ztrátu důvěry. Kapitola popisuje scénáře epistemické krize, zástupce, ochranu závislých a obnovu."
 weight = 370
 
 [taxonomies]
@@ -8,95 +8,142 @@ tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["35-employee-assistance-EA", "36-trauma-aware-management", "38-leadership-replacement", "39-cultural-rebuild"]
+related_terms = ["38-leadership-replacement", "30-rotation-of-roles", "20-succession-planning-EA", "31-incident-response-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Kontinuita podnikání s EA fokusem
 
-> **Bucket:** Krizová reakce · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Krizová reakce · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Klasický BCP řeší výpadky technologie/budovy — EA-induced BCP musí počítat s odchody klíčových lidí a reputational damage.
+Plán kontinuity činností (business continuity plan) má zajistit, že organizace přežije
+výpadek – a obvykle se myslí na výpadek elektřiny, informačních systémů nebo budovy. Epistemická
+krize však způsobuje jiné výpadky: odvolání nebo odstoupení vedení, hromadné odchody lidí,
+ztrátu důvěry klientů, pacientů, dárců nebo regulátora, paralýzu rozhodování, když nikdo neví,
+čemu věřit. Organizace, která na tyto scénáře není připravena, je v krizi vystavena tlaku
+udělat cokoli, jen aby fungovala – včetně ponechání problematických lidí ve funkcích.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **kontinuita podnikání s ea fokusem** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě hrozí, že odchod klíčového manažera po odhalení ochromí obchod a zákazníci
+odejdou. Ve škole náhlé odvolání ředitele nebo pozastavení výkonu práce učitele vyžaduje
+okamžité zajištění výuky a péče o žáky. V nemocnici odchod přednosty oddělení ohrožuje péči
+i přípravu mladých lékařů. Na univerzitě pozastavení vedoucího laboratoře ohrožuje
+doktorandy, jejichž financování, data a vedení na něm závisejí. V neziskové organizaci
+odchod zakladatele může vyvolat odliv dárců; v médiích odchod šéfredaktora krizi důvěry
+čtenářů. Ve veřejné správě jde o zajištění výkonu agendy. Riziko je, že se z obavy o
+kontinuitu nezasáhne vůbec – „bez něj to nepůjde“.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Plán kontinuity počítá jen s technickými výpadky.
+- Neexistuje plán pro náhlý odchod vedení ani pro hromadné výpovědi.
+- Kritické znalosti a vztahy jsou soustředěny u několika lidí – viz
+  [rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md).
+- Chybí plán komunikace s klienty, pacienty, rodiči, dárci.
+- Závislí lidé (studenti, pacienti, děti) nemají zajištěnou návaznost.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Scénáře epistemické krize v plánu kontinuity: odvolání vedení, pozastavení klíčové osoby,
+  hromadný odchod týmu, ztráta důvěry klíčových partnerů, mediální krize, zásah regulátora.
+  Rámcem může být norma ISO 22301 pro systémy řízení kontinuity.
+- Připravení zástupci pro klíčové pozice, interní i externí – navazuje na
+  [plánování nástupnictví](@/kompendium/organizational-defense/20-succession-planning-EA.md)
+  a [náhradu vedení](@/kompendium/organizational-defense/38-leadership-replacement.md).
+- Zdokumentované kritické procesy a vztahy (zákazníci, dodavatelé, partneři), aby nezávisely
+  na jedné osobě.
+- Plán udržení klíčových lidí a podpory týmu – viz [asistence zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md).
+- Plán návaznosti pro závislé osoby: náhradní vedení studentů, převzetí pacientů, zajištění
+  výuky.
+- Komunikační plán pro klíčové partnery.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Definujte EA-specific BCP scénáře (CEO ousting, mass resignation, customer churn) s pre-positioned interim leadership.
+Nejvyšší orgán schvaluje plán a rozhoduje o aktivaci scénářů týkajících se vedení. Manažer
+kontinuity plán udržuje a testuje. Vedoucí útvarů zajišťují zastupitelnost a dokumentaci.
+Krizový tým aktivuje plán v incidentu – viz [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md).
+Personální útvar zajišťuje plán udržení lidí. Útvar komunikace zajišťuje komunikaci s
+partnery.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Analýza dopadů, která zahrnuje lidské a důvěrové scénáře, nejen technické.
+2. Seznam kritických rolí, zástupců a externích kandidátů na dočasné vedení.
+3. Plány pro jednotlivé scénáře s prvními kroky, odpovědnostmi a kontakty.
+4. Pravidelné testy (cvičení na scénáři) a aktualizace.
+5. Zásada, že kontinuita nesmí být důvodem k ponechání osoby, která ohrožuje druhé, ve
+   funkci; pro takovou situaci plán počítá s dočasným zastoupením.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Vedení a krizový tým procházejí cvičení na scénářích epistemické krize: Co uděláme, když
+musíme ze dne na den pozastavit výkon funkce vedoucího divize? Kdo převezme jeho klienty?
+Co řekneme týmu? Cvičení odhalí skryté závislosti. Vedoucí útvarů se učí, že zastupitelnost
+není nedůvěra, ale podmínka odolnosti.
 
-- BCP pokrývá pouze IT outage, no playbook na lidský odchod, no interim CEO plan, no customer communication strategy.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+1. Krizový tým vyhodnotí dopad na kontinuitu (lidé, procesy, partneři, závislé osoby).
+2. Aktivuje příslušný scénář: dočasné zastoupení, převzetí agend, komunikace s partnery.
+3. Zajistí návaznost pro závislé osoby (studenti, pacienti, žáci).
+4. Sleduje odchody a náladu týmu a nabízí podporu.
+5. Po stabilizaci vyhodnotí, které závislosti se ukázaly, a upraví plán – vazba na
+   [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
 
-## 5. Best practices
+**Příklad (anonymizovaný kompozit).** Výzkumný ústav pozastavil vedoucímu laboratoře výkon
+funkce kvůli vyšetřování. Pět doktorandů bylo závislých na jeho grantu a jeho datech.
+Plán kontinuity, zpracovaný po podobném případu jinde, určil zástupného školitele a
+převedení přístupů k datům na ústav. Studenti mohli pokračovat bez přerušení a nemuseli
+volit mezi studiem a výpovědí ve vyšetřování.
 
-Scenario-based BCP, interim leadership bench, customer retention playbook, vendor continuity contracts.
+## Ochrana dotčené osoby
 
-**Dodatečné principy:**
+Dotčení nesmí nést náklady kontinuity: oznamovatelé nesmí přijít o projekty, studenti o
+financování, pacienti o péči. Plán kontinuity proto výslovně řeší osoby závislé na
+dotčeném vedoucím. Lidé, kteří v krizi převezmou práci navíc, potřebují uznání a podporu,
+aby nevyhořeli. Ochrana oznamovatelů podle zákona č. 171/2023 Sb. zahrnuje i ochranu před
+nepříznivými změnami pracovních podmínek.
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Vyhodnocení a indikátory selhání
 
-## 6. Cross-linky
+- Plán kontinuity pokrývá jen výpadky informačních technologií, chybí plán na odchod lidí,
+  dočasné vedení a komunikaci se zákazníky.
+- Organizace odkládá zásah, protože „bez něj to nepůjde“.
+- Po odchodu klíčové osoby se ukáže, že nikdo nezná její agendu.
+- Závislí lidé jsou v krizi ponecháni bez návaznosti.
 
-- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
-- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
-- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+## Meze a otevřené otázky
 
-## 7. Connect
+Žádný plán nepokryje všechny scénáře; cílem je schopnost improvizovat na připraveném
+základě. Plán pro odchod vedení může být vnímán jako nedůvěra a je třeba ho vysvětlit jako
+běžnou pojistku. Otevřené zůstává, jak zajistit kontinuitu v malých organizacích bez zástupců
+– tam pomáhají sítě spolupracujících organizací.
 
-## Connect
+## Související
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Sesterské kapitoly**
+
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md) –
+  dočasné a trvalé vedení.
+- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md) –
+  zastupitelnost jako prevence.
+- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
+  – připravení kandidáti.
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
+  – aktivace plánu.
+
+**Zotavení a komunita**
+
+- [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md)
+  – obnova vztahů po krizi.
+- [Středně-dobá vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md)
+  – návrat dotčených k práci.
+
+**Analýza**
+
+- [EA × Security: Incident Response – Narrative](@/kompendium/cross-domain/22-ea-security-incident-response-narrative.md)
+  – komunikace s partnery v incidentu.
+- [Prevalence EA v korporátním prostředí](@/kompendium/population-health/06-corporate-EA-prevalence.md)
+  – kontext rizika.

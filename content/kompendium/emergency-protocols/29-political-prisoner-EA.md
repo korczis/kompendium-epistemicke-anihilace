@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Bývalý politický vězeň v EA-emergency"
-description = "Akutní intervenční protokol — emergency u bývalého politického vězně/dissident."
+title = "Akutní protokol: Bývalý politický vězeň či disident v akutní krizi"
+description = "Protokol pro akutní krizi bývalého politického vězně, disidenta nebo exulanta: jazyk, oprávněné obavy ze sledování, bezpečná dokumentace a dlouhodobá péče o trauma."
 weight = 29
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "trauma"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,140 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Bývalý politický vězeň v EA-emergency
+# Akutní protokol: Bývalý politický vězeň či disident v akutní krizi
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 29** · skupina Cílové populace · okno: akutní kontakt a první týdny
+>
+> **Ohrožení života = 155; konkrétní výhrůžky nebo sledování = Policie ČR (158).** Zdravotník
+> nerozhoduje o tom, zda je obava ze sledování „reálná“ – posoudí riziko a předá bezpečnostní
+> otázky příslušným orgánům.
 
-## 1. Klinická situace
+## Indikace
 
-Bývalý politický vězeň, dissident, exilová osoba v EA-emergency — historický trauma, ongoing surveillance fear, rodinná dezintegrace, ztráta domova/jazyka. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency u bývalého politického vězně/dissident** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se týká lidí, kteří prošli politickým vězněním, výslechy, mučením, dlouhodobým
+sledováním nebo systematickým rozkladem osobnosti státní mocí – ať jde o pamětníky
+komunistických režimů, nebo o současné disidenty a exulanty z autoritářských zemí. Zkušenosti,
+jako byla východoněmecká [Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md)
+nebo praktiky [československé normalizace](@/kompendium/historical-cases/6-czechoslovak-normalizace.md),
+jsou příklady [epistemické anihilace](@/glossary/epistemicka-anihilace.md) organizované státem:
+cílem bylo, aby člověk přestal věřit sobě, svým blízkým a vlastnímu vnímání.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Akutní krize přichází po spouštěčích, které jinému nic neříkají: uniforma, výslechová situace na
+úřadě, dopis od policie, výročí, zpráva o pronásledování přátel, zdravotní zákrok. Typické je
+prolínání minulých a současných hrozeb – u exulantů může být obava ze sledování zcela oprávněná.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Použij interpreter pokud dostupný** — jazykový switch v emergency může být regresivní k traumatickému jazyku.
-2. **Adresuj surveillance fear validitu** — pro některé osoby (Rusové, Číňané, Iránci) je riziko reálné, ne paranoidní.
-3. **Bezpečné zacházení s dokumentací** — tito klienti často nedůvěřují digitálním systémům (oprávněně historicky).
-4. **Connect with diaspora resources** — kulturně-specifická podpora často funguje lépe než mainstream mental health.
-5. **Naplánuj long-term trauma therapy** — testimony therapy, narrative exposure therapy (NET); ne krátkodobá CBT.
+1. **Posouzení rizika:** suicidalita, psychotické příznaky, [disociace](@/glossary/disociace.md), flashbacky
+   ([protokoly č. 2–5](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)).
+2. **Jazyk.** Zajisti profesionálního tlumočníka, ne člena rodiny ani komunity; zeptej se, v
+   jakém jazyce chce člověk mluvit. Mateřský jazyk může přinášet vzpomínky i úlevu; rozhodnutí
+   patří jemu.
+3. **Prostředí bez připomínek výslechu:** žádné uniformy, žádné sezení naproti „vyšetřovateli“,
+   otevřené dveře, vysvětlení, proč se na co ptáš a co se zapisuje.
+4. **Obavy ze sledování ber vážně.** Neoznačuj je předčasně za paranoiu; posuď, zda jde o
+   konkrétní hrozby (výhrůžky, kontakty od úřadů domovské země, sledování příbuzných) a v
+   takovém případě je předej policii.
+5. **Bezpečné zacházení s údaji:** co se zapisuje, kdo k tomu má přístup, co se předává dál.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Anamnéza traumatu** v míře, kterou člověk sám chce sdílet; nevyptávat se na podrobnosti
+  mučení v akutní fázi.
+- **Somatické následky:** chronická bolest, poranění, neurologické potíže, poruchy spánku.
+- **Psychický stav:** [komplexní trauma](@/glossary/complex-trauma.md), deprese, paranoidní
+  příznaky (odlišení oprávněné obavy od bludu vyžaduje kontext a čas), užívání látek.
+- **Aktuální rizika:** nadnárodní represe, výhrůžky příbuzným doma, pobytový status
+  ([protokol č. 30](@/kompendium/emergency-protocols/30-refugee-EA-emergency.md)).
+- **Zdroje:** komunita, krajanské a lidskoprávní organizace, rodina, smysl, který člověk
+  připisuje svému boji.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Ohrožení života, somatická urgence | 155 |
+| Konkrétní výhrůžky, sledování, kontakty cizí moci | Policie ČR (158) |
+| Psychotické příznaky nebo těžká deprese | psychiatrické vyšetření s tlumočníkem |
+| Potřeba doložit mučení pro řízení | lékař a psycholog se zkušeností s Istanbulským protokolem (manuál OSN k dokumentaci mučení) |
+| Stabilizace | péče se zkušeností s traumatem po politickém pronásledování |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš jen to, co je nutné pro péči a bezpečí; u citlivých údajů o pronásledování zvaž, kde a jak
+jsou uloženy. Klientovi vysvětli, co se zapisuje a kdo k tomu má přístup – nedůvěra k záznamům je
+u této skupiny historicky oprávněná. Pro právní účely platí standardy [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md).
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Dlouhodobá práce s traumatem potřebuje čas a stabilitu. Pro přeživší politického násilí a mučení
+existují specifické přístupy, například narativní expoziční terapie (NET) nebo terapie
+svědectvím, které propojují osobní zpracování s uznáním křivdy. Pomáhá propojení s komunitou a
+organizacemi, které rozumí politickému kontextu. Navazuje [protokol pro politické vězně](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md),
+[subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) a
+[subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Výslechový styl anamnézy** (rychlé otázky, zapisování bez vysvětlení).
+- **Tlumočník z komunity,** který může být napojen na domovský režim nebo informace šířit.
+- **Automatické označení obav za paranoiu.**
+- **Okamžitá traumatická explorace.**
+- **Politizace rozhovoru** odborníkem – vlastní názory na režim či zemi do péče nepatří.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Klient má plnou kontrolu nad tím, co sdílí a s kým. Respekt k jeho zkušenosti zahrnuje i uznání,
+že křivda byla skutečná – neutralita odborníka nesmí vyznít jako zpochybnění. Zároveň je potřeba
+chránit ho před tím, aby se péče stala dalším „výslechem“: každý dotaz má mít důvod, který mu
+umíš vysvětlit.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Kdo vás sleduje? To se vám zdá.“ | „Řekněte mi, čeho se obáváte. Některé obavy mohou být oprávněné.“ | bez předčasné nálepky |
+| (zapisovat mlčky během rozhovoru) | „Zapíšu si jen tohle, kvůli péči. Kdo to uvidí, vám řeknu.“ | průhlednost záznamu |
+| „Popište, co vám dělali.“ | „O tom, co se stalo, můžete mluvit, až a pokud budete chtít.“ | ne výslech |
+| „To už je minulost.“ | „Co jste prožil, má dopady dodnes. Je to pochopitelné.“ | uznání křivdy |
 
-**Platformové reference:**
+Pokud je přítomen tlumočník, mluv k pacientovi, ne k tlumočníkovi, a předem s tlumočníkem domluv mlčenlivost a doslovnost. U citlivých témat se ptej, zda pacientovi tlumočník vyhovuje.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Starší muž, za minulého režimu vězněný a vyslýchaný, je hospitalizován na interně a v noci se
+pokusí odejít; tvrdí, že ho „zase zavřeli“. Sestra pozná, že spouštěčem byla zamčená vrata a
+noční kontroly baterkou. Lékař s ním ráno mluví, vysvětlí režim oddělení a upraví noční kontroly;
+muž souhlasí s návštěvou psychologa.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Uprchlík v akutní situaci](@/kompendium/emergency-protocols/30-refugee-EA-emergency.md) –
+  pobytový status a tlumočení.
+- [Kaskáda flashbacků](@/kompendium/emergency-protocols/5-flashback-cascade-EA.md) – intruze
+  vzpomínek.
+- [Psychotický zlom](@/kompendium/emergency-protocols/3-psychotic-break-EA.md) – odlišení obavy od
+  bludu.
+
+**Dlouhodobá péče**
+
+- [Protokol pro politické vězně](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md) –
+  dlouhodobé zotavení.
+- [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md) –
+  smysl utrpení a boje.
+
+**Historie, právo a pojmy**
+
+- [Historický případ: Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md) –
+  státem řízený rozklad osobnosti.
+- [Případ: Reziduální totalitní trauma](@/kompendium/case-studies/09-rezidualni-totalitarni-trauma.md) –
+  dlouhodobé následky.
+- [Mezinárodní právo](@/kompendium/forensic-legal/50-international-law-EA.md) – rámec ochrany.
+- [Panopticism](@/glossary/panopticism.md) – zvnitřněné sledování.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +155,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #29 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 29 · v18.4.0*

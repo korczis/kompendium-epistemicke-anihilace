@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Mobilizace podpory"
-description = "Praktický návod sebe-obrany — mobilizace podpory."
+description = "Jak si předem připravit síť lidí a institucí, v krizi konkrétně požádat o pomoc a přijmout ji – včetně krizových linek a kontaktů."
 weight = 30
 
 [taxonomies]
@@ -8,66 +8,111 @@ tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["29-conflict-resolution", "3-source-triangulation", "31-source-curation", "32-feed-detoxification"]
+related_terms = ["26-isolation-prevention", "29-conflict-resolution", "42-relational-anchors", "19-fear-processing"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Mobilizace podpory
 
+V krizi je nejtěžší vzpomenout si, komu zavolat. Člověk vystavený manipulaci k tomu má ještě další překážky: stud, strach, že mu nikdo neuvěří, pocit, že „by měl zvládnout sám“, a často i síť, kterou mu někdo postupně odebral. Mobilizace podpory je dovednost připravit si pomoc *předem* – sepsat lidi a instituce, vědět, co od koho žádat, a v krizi umět požádat konkrétně. Je to protějšek [prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md): ta síť udržuje, mobilizace ji v pravou chvíli aktivuje.
+
+## Pro koho je návod
+
+- Pro člověka, který „nikoho nechce obtěžovat“ a v těžkých chvílích zůstává sám.
+- Pro ty, kdo se připravují na odchod z kontrolujícího vztahu nebo skupiny.
+- Pro lidi s opakovanými krizemi, kteří chtějí mít plán.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá při odchodu z násilného vztahu, při odchodu ze skupiny s vysokou kontrolou, po finančním podvodu, při náhlé psychické krizi, při soudním řízení a v obdobích, kdy se staré obtíže vracejí ([rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md)). Pomáhá také blízkým, kteří chtějí vědět, jak se zapojit.
+
+## Varovné signály
+
+- Nemáte nikoho, komu byste v noci zavolali.
+- Žádost o pomoc ve vás vyvolává silný stud nebo strach.
+- Jediný člověk, na kterého se můžete obrátit, je ten, kdo vám ubližuje.
+- Odmítáte nabídky pomoci, i když je potřebujete.
+- Krize trvají déle a mají horší následky, protože o nich nikdo neví.
+
+## Modelová situace
+
+Žena připravující odchod od partnera, který kontroloval její peníze, si s pracovnicí intervenčního centra sepsala mapu podpory: sestra (přespání), kamarádka (hlídání dětí v den odchodu), kolegyně (doprovod na úřad), intervenční centrum (poradenství, právní informace), advokátka (péče o děti), krizové linky. Ke každému napsala, o co konkrétně požádá. V den odchodu nemusela nic vymýšlet; stačilo zavolat podle seznamu. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Naučit se v krizi efektivně požádat o pomoc a tu pomoc přijmout, aniž bychom zůstali viset v hrdém solipsismu.
+Naučit se v krizi efektivně požádat o pomoc a přijmout ji – a mít síť lidí a institucí připravenou dřív, než krize přijde.
 
 ## Pět praktických cvičení
 
-### 1. Mapa zdrojů
+### 1. Mapa podpory
 
-Předem sepište 10 lidí + 5 institucí, na které se v různých krizích můžete obrátit. Krizi není doba na hledání kontaktů.
+Předem sepište zhruba deset lidí a pět institucí, na které se můžete obrátit v různých typech krizí. U každého poznamenejte, v čem může pomoci (praktická pomoc, rozhovor, přespání, peníze, odborná rada). Mapu mějte i na papíře mimo telefon.
 
-### 2. Specifická žádost
+### 2. Konkrétní žádost
 
-Místo 'potřebuji pomoct' řekněte konkrétně: 'Potřebuji, abys 3× tento týden přišel/a večer a poslechl/a si mě 30 minut.' Konkrétní žádosti se plní.
+Místo „potřebuji pomoc“ řekněte konkrétně: „Můžeš tento týden dvakrát večer zavolat a půl hodiny mě poslouchat?“ „Můžeš se mnou jít na policii?“ Konkrétní žádosti lidé splní snáz.
 
-### 3. Pravidlo 3 zdrojů
+### 3. Více zdrojů
 
-V každé krizi mobilizujte minimálně 3 různé zdroje (rodina + přítel + odborník). Nedat všechnu váhu jednomu.
+V krizi oslovte několik různých zdrojů – například rodinu, přítele a odborníka. Nekládejte celou váhu na jednoho člověka; vyčerpá se a vy zůstanete bez opory.
 
-### 4. Trénink přijímání
+### 4. Cvičit přijímání
 
-Týdně cvičte přijímání drobných nabídek (ano, dej mi tu kávu; ano, vezmu tě). Trénuje to svaly přijímání.
+Přijímejte drobné nabídky: ano, dám si tu kávu; ano, sveze mě. Kdo se naučil přijímat malé věci, snáz přijme i velkou pomoc.
 
-### 5. Reciprocita předem
+### 5. Vzájemnost předem
 
-Investujte do vztahů ještě před krizí. Pomáhejte, naslouchejte, buďte přítomní. Krize prověří síť, kterou jste utkali.
+Pečujte o vztahy i mimo krizi – naslouchejte, pomáhejte, buďte přítomní. Síť, kterou budujete v dobrých časech, unese i ty zlé.
 
-## Časový rámec
+## Důležité kontakty
 
-Roční audit mapy zdrojů 1 hodina; průběžná investice do reciprocity; akutní mobilizace v krizi.
+- **112** – jednotné evropské číslo tísňového volání.
+- **155** – zdravotnická záchranná služba.
+- **158** – Policie ČR.
+- **116 123** – Linka první psychické pomoci.
+- **116 006** – Linka pomoci obětem kriminality a domácího násilí.
+- **116 111** – Linka bezpečí pro děti a mladé lidi.
+- Intervenční centra v krajích – pomoc osobám ohroženým domácím násilím.
 
-## Indikátory pokroku
+## Jak si vést záznam
 
-Kratší trvání krizí; menší následky; pocit, že nejste sám/sama.
+Mapu podpory aktualizujte jednou ročně a po každé krizi: kdo pomohl, co fungovalo, co chybělo. Pokud se připravujete na odchod z nebezpečného prostředí, mějte mapu a důležité doklady uložené na bezpečném místě (u důvěryhodné osoby, mimo domov).
 
-## Limitace
+## Časový rámec a indikátory pokroku
 
-Některá traumata vyžadují odborníka, ne přítele. Rozlišovat moudře.
+Jednou ročně zhruba hodina na aktualizaci mapy, průběžně péče o vztahy, v krizi okamžitá aktivace. Pokrok poznáte podle kratších krizí, menších následků a pocitu, že nejste sami.
 
-## Cross-linky
+## Kdy a koho požádat o pomoc
 
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
-- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
-- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+Tento návod je celý o tom. Pravidlo: když si nejste jistí, zda je situace „dost vážná“, požádejte. Krizové linky jsou tu i pro chvíle, kdy jen potřebujete mluvit. V bezprostředním ohrožení volejte 112 nebo 155 ([krizová linka v EA-emergency](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md)).
 
-## Connect
+## Čeho se vyvarovat
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- Nesvěřujte plán odchodu lidem, kteří by ho mohli prozradit osobě, od níž odcházíte.
+- Nespoléhejte na jediného zachránce.
+- Neodmítejte odbornou pomoc jen proto, že vám ji někdo dříve rozmlouval.
+
+## Meze svépomoci
+
+Některá traumata a krize vyžadují odborníka, ne přítele; přátelé a rodina jsou opora, ne náhrada léčby. A někdy pomoc z okolí selže – lidé neuvěří nebo nevědí, jak pomoci. Proto je důležité mít v mapě i instituce, které jsou na takové situace připravené.
+
+## Související
+
+**Návody**
+
+- [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – síť, kterou lze mobilizovat.
+- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – nejspolehlivější body sítě.
+- [Zpracování strachu](@/kompendium/self-defense-guides/19-fear-processing.md) – bezpečnostní plán.
+- [Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md) – stud, který brání požádat.
+
+**Protokoly**
+
+- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) – obnova kontaktů po izolaci.
+- [Emergency: Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) – kdy volat ihned.
+- [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) – přehled akutních situací.
+
+**Pojmy a prevence**
+
+- [Secure Attachment](@/glossary/secure-attachment.md) – bezpečná vazba jako základ schopnosti žádat o pomoc.
+- [Peer vigilance](@/kompendium/prevention-resilience/20-peer-vigilance-prevention.md) – jak si lidé mohou navzájem všímat.

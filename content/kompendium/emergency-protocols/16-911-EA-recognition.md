@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Rozpoznání EA pro 112 dispečink"
-description = "Akutní intervenční protokol — rozpoznání EA-emergency pro 112 dispečink a první respondéry."
+title = "Akutní protokol: Rozpoznání epistemické anihilace pro dispečink 112 a první složky"
+description = "Protokol pro operátory tísňových linek a první zasahující: rozpoznání znaků epistemické anihilace, bezpečný první kontakt, eskalace a předávání informací."
 weight = 16
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "interventions"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,138 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Rozpoznání EA pro 112 dispečink
+# Akutní protokol: Rozpoznání epistemické anihilace pro dispečink 112 a první složky
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 16** · skupina Koordinace péče · okno: tísňové volání a příjezd na místo
+>
+> **Tento protokol doplňuje, nikdy nepřepisuje standardní postupy** operačních středisek a
+> složek integrovaného záchranného systému. Priorita záchrany života a bezpečnosti zasahujících
+> se nemění.
 
-## 1. Klinická situace
+## Indikace
 
-Vzdělávání dispečinků 112/155 a prvních respondérů (policie, hasiči, RZP) v rozpoznání EA-emergency oproti generic mental health crisis. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **rozpoznání EA-emergency pro 112 dispečink a první respondéry** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol slouží ke vzdělávání operátorů tísňových linek (112, 155, 158) a prvních zasahujících
+(policie, zdravotnická záchranná služba, hasiči), kteří se setkají s člověkem v duševní krizi
+související s [epistemickou anihilací](@/glossary/epistemicka-anihilace.md). Takové hovory a
+výjezdy se snadno zaměňují za „obvyklou“ psychiatrickou krizi, rodinnou hádku nebo intoxikaci.
+Přehlédnutí kontextu má konkrétní důsledky: zasahující převezmou výklad od osoby, která
+oběť kontroluje, oběť je označena za „agresivní“ nebo „zmatenou“ a vrací se do stejného
+prostředí.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Cílem není, aby dispečer stanovoval diagnózu. Cílem je zachytit několik signálů, které mění
+riziko a postup: přítomnost kontrolující osoby, izolace, výhrůžky, skupinová příslušnost,
+nedávný rozpad vztahu či odchod ze skupiny.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Trénuj klíčové markers** — gaslighting verbální stopy, kult-jazyk, „nemůžu věřit vlastnímu rozumu" formulace.
-2. **Pre-arrival triáž** — dispatcher se ptá na EA-screen otázky (přítomnost manipulátora, kult-affiliation, recent EA-event).
-3. **Equip first responders s EA-awareness card (laminovaný karta, klíčové do/don't, hotline kontakty)** — Equip first responders s EA-awareness card (laminovaný karta, klíčové do/don't, hotline kontakty).
-4. **Stanovte eskalační protokol pro EA-cases** — automatická konzultace s mental health professional do 30 minut.
-5. **Vyhodnocuj quality post-incident** — měsíční review EA-flagged calls, refinement triáž algoritmu.
+1. **Standardní triáž napřed.** Život, vědomí, dýchání, krvácení, zbraň, probíhající násilí –
+   postup podle algoritmu operačního střediska.
+2. **Kdo volá a kdo je u něj.** Zjistit, zda volající mluví volně, nebo zda je někdo nablízku;
+   nabídnout otázky s odpovědí ano/ne („Můžete teď mluvit? Je u vás někdo, kdo vás ohrožuje?“).
+3. **Volá třetí osoba?** Pokud krizi hlásí partner či „člen komunity“, zvážit, zda nejde o
+   kontrolující osobu; zasahující mají mluvit s dotyčným samostatně.
+4. **Bezpečnost zasahujících.** Informace o zbraních, předchozích incidentech, zvířatech,
+   skupině osob na místě předat posádce.
+5. **Příjezd:** oddělit osoby, mluvit klidně, nevyužívat fráze, které zlehčují vnímání
+   („přeháníte“, „uklidněte se“), nabídnout jednoduché volby.
 
-## 3. Stabilizace
+## Posouzení – signály pro operátora a posádku
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Řeč volajícího:** „nevím, jestli si to nevymýšlím“, „on říká, že jsem blázen“, „nesmím
+  nikomu volat“, převzatý jazyk skupiny, strach z „trestu“ za to, že volá.
+- **Okolnosti:** volající šeptá nebo je přerušen, telefon převezme jiná osoba, hovor náhle končí.
+- **Na místě:** jedna osoba mluví za druhou, oběť nemá vlastní telefon nebo doklady, známky
+  izolace, opakované výjezdy na stejnou adresu.
+- **Skupinový kontext:** více osob, které o člověku „rozhodují“, rituální předměty spojené s
+  trestáním, děti bez zjevné péče.
 
-## 4. Předání péče + Kontraindikace
+Signály nejsou důkazem; jsou důvodem k opatrnosti, k samostatnému rozhovoru a k informování
+navazující služby.
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+## Rozhodovací body a eskalace
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+| Situace | Postup |
+|---|---|
+| Ohrožení života, zdravotní urgence | výjezd ZZS (155) podle standardu |
+| Probíhající násilí, výhrůžky, zadržování | výjezd Policie ČR; zvážit vykázání ze společného obydlí podle zákona o Policii ČR |
+| Akutní duševní krize bez násilí | ZZS, psychiatrická pohotovost, kde jsou dostupné, krizové týmy ([protokol č. 13](@/kompendium/emergency-protocols/13-crisis-team-deployment.md)) |
+| Děti v ohrožení | policie a OSPOD |
+| Opakované výzvy na stejnou adresu s podobným vzorcem | interní hlášení, předání informace intervenčnímu centru podle pravidel složky |
 
-## 5. Cross-linky
+## Dokumentace
 
-**Sesterské emergency protokoly:**
+Operátor zapíše doslovné klíčové výroky, kdo volal, zda volající mohl mluvit volně, přerušení
+hovoru. Posádka zapíše, kdo byl na místě, kdo mluvil za koho, pozorování prostředí a zranění,
+samostatné výpovědi. Takový záznam je pro pozdější šetření [vzorce chování](@/kompendium/forensic-legal/38-pattern-evidence.md)
+cennější než souhrn „rodinný spor“.
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+## Předání do dlouhodobé péče
 
-**Návazná dlouhodobá péče:**
+Zasahující předávají osobu do zdravotnické péče s informací o podezření na kontrolující vztah; při
+domácím násilí mají oběti nárok na informace o službách pro oběti (zákon č. 45/2013 Sb., o
+obětech trestných činů). Navazující péče: [akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md),
+intervenční centra, poradny pro oběti. Pro posádky má smysl jednoduchá karta s nejdůležitějšími
+„dělej / nedělej“ a kontakty, inspirovaná [rychlými referenčními kartami](@/kompendium/quick-reference/_index.md).
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+## Kontraindikace a časté chyby
 
-**Souvisejícící klinické techniky:**
+- **Řešení „rodinné hádky“ společným rozhovorem** s oběma stranami.
+- **Převzetí výkladu kontrolující osoby** („je psychicky nemocná, bere léky“).
+- **Označení oběti za agresora,** protože je v afektu hlasitější.
+- **Spoléhání na to, že oběť „by si řekla“** – po EA často nedokáže situaci pojmenovat.
+- **Nepředání informace** navazující službě.
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+## Etika a souhlas
 
-**Glossary reference:**
+Zasahující respektují důstojnost a soukromí osoby, zejména před sousedy a dětmi. Informace o
+zdravotním stavu a o vztahu se sdělují jen tomu, kdo je potřebuje k pomoci. Samostatný rozhovor
+s obětí není nedůvěrou vůči druhé osobě, ale standardem bezpečné praxe, a tak se má i
+vysvětlovat.
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+## Komunikace v akutní fázi
 
-**Platformové reference:**
+| Místo | Raději | Proč |
+|---|---|---|
+| „Řekněte mi, co se děje.“ (při skrytém hovoru) | „Odpovídejte jen ano, nebo ne. Je u vás někdo?“ | volající nemusí moci mluvit |
+| „Je to rodinná hádka?“ | „Ohrožuje vás někdo?“ | přímá otázka na riziko |
+| „Paní je hysterická.“ (v hlášení) | „Paní pláče, mluví zmateně, partner odpovídá za ni.“ | popis místo nálepky |
+| „Vyřešte si to spolu.“ | „Promluvíme si s každým zvlášť.“ | bezpečný standard |
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+Pro výcvik operátorů a posádek se osvědčují modelové hovory s typickými formulacemi lidí po EA a rozbor anonymizovaných výjezdů. Cílem není rozpoznat „správnou diagnózu“, ale nepřehlédnout kontrolu a nebezpečí.
 
-## 6. Connect
+## Modelová situace
+
+Na linku 112 volá žena šeptem, že „nesmí volat“ a že partner tvrdí, že si všechno vymýšlí; pak
+hovor skončí. Operátorka zavolá zpět otázkami s odpovědí ano/ne, zjistí, že je partner doma a
+vyhrožuje. Vysílá policii s informací, že je třeba ženu vyslechnout samostatně. Hlídka partnera
+vykáže a předá ženě kontakt na intervenční centrum.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Krizová linka](@/kompendium/emergency-protocols/17-crisis-hotline-EA.md) – telefonický
+  kontakt mimo tísňové linky.
+- [Mobilní krizová intervence](@/kompendium/emergency-protocols/15-mobile-crisis-EA.md) – postup
+  na místě.
+- [Deeskalace](@/kompendium/emergency-protocols/20-deescalation-EA.md) – verbální postup.
+
+**Prevence a organizace**
+
+- [Rozpoznání varovných signálů](@/kompendium/prevention-resilience/12-warning-sign-recognition.md) –
+  širší sada signálů.
+- [Rychlá odezva](@/kompendium/prevention-resilience/13-rapid-response-protocol.md) – rámec
+  rychlé reakce.
+- [Quick Reference](@/kompendium/quick-reference/_index.md) – karty pro rychlou orientaci.
+
+**Právo a pojmy**
+
+- [Právo o coercive control](@/kompendium/forensic-legal/12-coercive-control-law.md) – právní
+  rámec kontroly.
+- [Coercive control](@/glossary/coercive-control.md) – vymezení.
+- [DARVO](@/glossary/darvo.md) – obrácení role oběti a pachatele na místě.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +153,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #16 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 16 · v18.4.0*

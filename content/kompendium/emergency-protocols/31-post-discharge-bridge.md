@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Post-discharge bridge protokol"
-description = "Akutní intervenční protokol — bridge intervence v týdnu po propuštění z hospitalizace."
+title = "Akutní protokol: Most po propuštění z hospitalizace"
+description = "Protokol pro první dva týdny po propuštění z psychiatrické hospitalizace u pacienta po epistemické anihilaci: kontakt do 24 hodin, návštěva do 72 hodin a varovné signály."
 weight = 31
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "interventions"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,142 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Post-discharge bridge protokol
+# Akutní protokol: Most po propuštění z hospitalizace
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 31** · skupina Přechody do zotavení · okno: den propuštění až 14 dní po něm
+>
+> **Období po propuštění z psychiatrické hospitalizace patří k nejrizikovějším.** Při návratu
+> sebevražedných myšlenek s plánem nebo při ohrožení života = 155; plán musí obsahovat i tuto
+> možnost.
 
-## 1. Klinická situace
+## Indikace
 
-Pacient propuštěný po EA-related hospitalizaci — kritické okno 7–14 dní s nejvyšším rizikem readmission a suicidality. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **bridge intervence v týdnu po propuštění z hospitalizace** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije u každého pacienta propouštěného z psychiatrické hospitalizace, jejíž
+příčinou byla krize související s [epistemickou anihilací](@/glossary/epistemicka-anihilace.md).
+Dny a týdny po propuštění jsou známé zvýšeným rizikem sebevraždy a opětovného přijetí. U lidí
+po EA přistupují další rizika: návrat do prostředí, kde je kontrola stále přítomná; tlak
+skupiny nebo partnera, kteří „čekali, až se vrátí“; samota po strukturovaném dni na oddělení; a
+nedůvěra k ambulantní péči, pokud hospitalizace nebyla dobrou zkušeností.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+„Most“ znamená, že mezi oddělením a ambulancí nevznikne prázdné místo: někdo konkrétní se
+ozve, někdo konkrétní pacienta uvidí a pacient ví, co dělat, když se stav zhorší.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední kroky
 
-1. **Telefonický kontakt do 24h od propuštění** — ne SMS, ne email; verbální verifikace stavu.
-2. **First in-person follow-up do 72h** — ne čekat týden na „regulérní" appointment.
-3. **Verifikuj medication compliance** — počítej tablety, zhodnoť vedlejší účinky, adjust dle potřeby.
-4. **Aktivuj support network** — předem stanovený 3-osobový tým rodina/přátelé denní check-in první týden.
-5. **Stanov clear escalation triggers** — co = volat lékaře, co = jet na ER, ne abstraktní „pokud bude hůř".
+1. **Před propuštěním:** domluvený termín v navazující péči (nejlépe do 72 hodin), teplé předání
+   ambulantnímu klinikovi ([protokol č. 11](@/kompendium/emergency-protocols/11-er-EA-handoff.md)),
+   aktualizovaný plán bezpečí, ověřené místo pobytu.
+2. **Telefonický kontakt do 24 hodin** – hovor, ne SMS: jak se pacient má, zda je v bezpečí, zda
+   má léky, zda ví o termínu.
+3. **Osobní kontakt do 72 hodin** – u ambulantního klinika, v centru duševního zdraví nebo
+   návštěvou terénního týmu.
+4. **Léky:** zda je pacient má, rozumí jim, snáší je; u sebevražedného rizika menší balení a
+   bezpečné uložení.
+5. **Podpůrná síť:** dva až tři bezpeční lidé, kteří se v prvním týdnu ozvou; ne osoby z
+   manipulativního prostředí.
+6. **Konkrétní varovné signály:** co znamená „zavolej klinikovi“, co znamená „jeď na
+   pohotovost“, co znamená „volej 155“ – v pacientových slovech.
 
-## 3. Stabilizace
+## Posouzení při kontaktech
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Riziko:** sebevražedné myšlenky, sebepoškozování, užívání látek.
+- **Bezpečí prostředí:** pokusy o kontakt ze strany pachatele nebo skupiny, výhrůžky, tlak na
+  návrat.
+- **Fungování:** spánek, jídlo, struktura dne, samota.
+- **Léčba:** užívání léků, nežádoucí účinky, docházka.
+- **Vztah k péči:** zda se pacient cítí slyšen, nebo „odbyt“; nedůvěru je třeba pojmenovat dřív,
+  než vede k přerušení péče.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Pacient se nedá zastihnout | opakovaný kontakt týž den, kontakt bezpečné osoby (se souhlasem daným předem), při známkách ohrožení výjezd nebo policie |
+| Návrat sebevražedných myšlenek s plánem | [protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md), zvážit znovupřijetí |
+| Tlak skupiny nebo partnera, výhrůžky | bezpečnostní plán, Policie ČR (158), intervenční centrum |
+| Přerušení léků | [protokol č. 35](@/kompendium/emergency-protocols/35-treatment-noncompliance.md) |
+| Stabilní průběh | postupné rozvolnění kontaktu, přechod do běžné ambulantní péče |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš datum a čas každého kontaktu nebo pokusu o něj, posouzení rizika, změny plánu a kdo za ně
+odpovídá. Pokud se pacienta nepodaří zastihnout, zapiš i kroky, které byly podniknuty – nevyřízený
+kontakt je klinická informace, ne administrativní poznámka.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Po dvou týdnech se most uzavírá předáním do pravidelné péče, případně do
+[stupňovitého přechodu péče](@/kompendium/emergency-protocols/32-step-down-program.md). Plán
+obsahuje individuální varovné signály relapsu ([protokol č. 33](@/kompendium/emergency-protocols/33-relapse-recognition.md)).
+Dlouhodobá práce pokračuje v [akutním stabilizačním protokolu](@/kompendium/recovery-protocols/acute-stabilization-protocol.md),
+[akutní sociální rekonekci](@/kompendium/recovery-protocols/acute-social-reconnection.md) a
+[mobilizaci podpory](@/kompendium/self-defense-guides/30-support-mobilization.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Propuštění s termínem za několik týdnů** bez přemostění.
+- **Kontakt jen SMS nebo dopisem.**
+- **„Zavolejte, kdyby něco“** bez konkrétních signálů.
+- **Bezpečná osoba je ve skutečnosti součást problému.**
+- **Propuštění v pátek odpoledne** bez zajištění kontaktu přes víkend.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Následné kontakty se domlouvají s pacientem před propuštěním: kdo se ozve, jak často a koho smí
+tým kontaktovat, když se ho nepodaří zastihnout. Aktivní kontaktování po propuštění je péče, ne
+dohled – je dobré to říct výslovně, protože lidé z kontrolujících prostředí mohou vnímat
+opakované telefonáty jako sledování.
 
-**Glossary reference:**
+## Specifika epistemické anihilace
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+Po propuštění se pacient po EA často vrací do prostředí, kde mu někdo vysvětluje, co se v nemocnici „doopravdy“ stalo: že ho „zavřeli“, že lékaři „nic nepochopili“, že „bez nás to nezvládne“. Takový výklad může během několika dnů zrušit vše, co si pacient na oddělení ujasnil. Most proto neslouží jen ke kontrole příznaků, ale i k tomu, aby pacient měl kde ověřit svůj vlastní pohled. Pomáhá písemné shrnutí hospitalizace pacientovými slovy („přijel jsem, protože…“, „pomohlo mi…“), ke kterému se může vracet, když slyší jinou verzi. Rizikovým signálem je náhlé odmítnutí následné péče krátce po kontaktu s osobou z dřívějšího prostředí; v takovém případě je vhodné kontakt nabídnout znovu a neodkládat ho.
 
-**Platformové reference:**
+## Komunikace v akutní fázi
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| SMS „Jak se máte?“ | telefonát: „Volám, jak jsme se domluvili. Jak jste spal?“ | rozhovor, ne formalita |
+| „Kdyby bylo hůř, ozvěte se.“ | „Pokud se vrátí myšlenky s plánem, voláte 155; pokud nespíte dvě noci, voláte mě.“ | konkrétní signály |
+| „Hlídáme vás.“ | „Ozýváme se, protože první dny bývají těžké.“ | péče, ne dohled |
+| „Nezvedal jste to, tak jsme to vzdali.“ | „Zkoušeli jsme vás třikrát, pak jsme volali sestře, jak jsme se dohodli.“ | předvídatelný postup |
 
-## 6. Connect
+Pacient by měl mít plán v písemné podobě a vědět, kdo se mu kdy ozve. Nečekaný telefonát od neznámého pracovníka může u lidí po EA vyvolat spíš obavu než úlevu.
+
+## Modelová situace
+
+Muž je propuštěn po týdenní hospitalizaci pro suicidální krizi po vyloučení z komunity. Den po
+propuštění mu volá sestra z centra duševního zdraví; muž zmíní, že mu bývalí „bratři“ píší, ať
+se vrátí. Sestra s ním projde plán bezpečí a domluví, že zprávy bude číst jen s kamarádem.
+Třetí den přijde na schůzku s psychologem.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Hospitalizace](@/kompendium/emergency-protocols/12-inpatient-admission-EA.md) – co mostu
+  předchází.
+- [Stupňovitý přechod péče](@/kompendium/emergency-protocols/32-step-down-program.md) – další
+  krok.
+- [Rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md) – varovné
+  signály.
+- [Akutní suicidální riziko](@/kompendium/emergency-protocols/2-suicide-risk-EA.md) – při
+  zhoršení.
+
+**Dlouhodobá péče a sebeobrana**
+
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
+  první týdny.
+- [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – síť
+  bezpečných lidí.
+- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) –
+  udržení stability.
+
+**Pojmy**
+
+- [Sociální izolace](@/glossary/socialni-izolace.md) – riziko po propuštění.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – proč táhne návrat k pachateli.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +157,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #31 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 31 · v18.4.0*

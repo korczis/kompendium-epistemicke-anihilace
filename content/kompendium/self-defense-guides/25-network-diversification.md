@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Diverzifikace sítě"
-description = "Praktický návod sebe-obrany — diverzifikace sítě."
+description = "Jak budovat vztahy napříč obory, generacemi a prostředími, aby žádná jednotlivá osoba ani skupina nemohla ovládnout váš obraz světa."
 weight = 25
 
 [taxonomies]
@@ -8,66 +8,102 @@ tags = ["kompendium", "self-defense-guide", "social"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["23-trust-calibration", "24-communication-assertiveness", "26-isolation-prevention", "27-mentor-evaluation"]
+related_terms = ["22-relationship-audit", "26-isolation-prevention", "27-mentor-evaluation", "28-community-engagement"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Diverzifikace sítě
 
+Lidé kolem nás nejsou jen zdrojem citové opory; jsou také „čidly reality“. Když se něco děje, ptáme se jich, porovnáváme a opravujeme vlastní pohled. Pokud všichni, s kým mluvíme, patří do jednoho prostředí – jedné rodiny, firmy, skupiny, internetové komunity –, ztrácí se schopnost porovnávat. Taková síť je zranitelná: ovládne-li ji jeden člověk nebo jeden výklad, nemá kdo upozornit, že něco nesedí. Kniha tento stav popisuje jako [epistemickou bublinu](@/glossary/epistemic-bubble.md). Diverzifikace sítě znamená vědomě udržovat vztahy v několika nezávislých světech.
+
+## Pro koho je návod
+
+- Pro člověka, jehož přátelé jsou téměř všichni z jedné skupiny, práce nebo komunity.
+- Pro ty, kdo po stěhování, rozvodu nebo odchodu z organizace ztratili většinu kontaktů najednou.
+- Pro lidi, kteří chtějí předejít tomu, aby je jedna ztráta připravila o celý svět.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá, když jste součástí intenzivní komunity (náboženské, sportovní, profesní) a mimo ni se vaše vztahy vytrácejí; když pracujete v organizaci, která se stává „rodinou“; když jste přišli o síť kvůli nemoci nebo péči o blízkého; a při obnově po odchodu ze skupiny, kde byla síť záměrně omezena na členy ([formace epistemické komunity](@/kompendium/techniques/ea-3-1-4-epistemic-community-formation.md)).
+
+## Varovné signály
+
+- Všichni vaši blízcí se navzájem znají a sdílejí stejný názor na většinu věcí.
+- Odchod z práce nebo skupiny by znamenal ztrátu téměř všech přátel.
+- Lidé „zvenku“ jsou ve vašem okolí popisováni jako nebezpeční nebo méněcenní.
+- Nemáte nikoho, s kým byste mohli probrat pochybnost o vlastní skupině.
+
+## Modelová situace
+
+Programátor pracoval sedm let ve startupu, kde se celý tým stýkal i po práci a zakladatel tvrdil, že „kdo odejde, zradí rodinu“. Když se firma začala chovat neeticky, neměl s kým o tom mluvit – všichni jeho známí byli kolegové. Začal chodit do horolezeckého oddílu a obnovil kontakt se spolužákem z gymnázia. Teprve s nimi si uvědomil, jak neobvyklé jsou podmínky ve firmě. Odchod pak zvládl, protože jeho svět už nestál na jednom místě. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Budovat vztahovou síť napříč obory, věkovými skupinami a kulturami, aby žádná jednotlivá ztráta nebyla epistemicky devastující.
+Budovat vztahovou síť napříč obory, generacemi, prostředími a názory, aby žádná jednotlivá ztráta nebyla devastující a žádný jednotlivý vliv nemohl ovládnout váš obraz světa.
 
 ## Pět praktických cvičení
 
 ### 1. Mapa sítě
 
-Nakreslete diagram 30 lidí kolem sebe. Označte: profese, věk, kultura. Identifikujte slepá místa (jen jeden obor? jen vrstevníci?).
+Nakreslete si kolem sebe třicet lidí, se kterými jste v kontaktu, a u každého označte prostředí (práce, rodina, koníček, sousedství, škola), věk a jak dlouho se znáte. Hledejte slepá místa: jen jedno prostředí? Jen vrstevníci? Všichni se znají navzájem?
 
-### 2. Cíl 3 nových světů
+### 2. Nové světy
 
-Ročně se cíleně seznamte s 3 lidmi z domén, ve kterých nikoho neznáte. Konference, kurzy, nové kluby.
+Jednou za čas se cíleně seznamte s lidmi z prostředí, kde nikoho neznáte – kurz, dobrovolnictví, spolek, sportovní oddíl. Nejde o počet kontaktů, ale o otevření nového okna.
 
 ### 3. Mezigenerační vztah
 
-Vědomě budujte vztah s někým o 20+ let starším a o 20+ let mladším. Korigují se vám slepá místa generace.
+Udržujte vztah s někým výrazně starším a s někým výrazně mladším. Každá generace vidí jinak a koriguje slepá místa té druhé.
 
-### 4. Ne-kolega
+### 4. Blízcí mimo práci a skupinu
 
-Dbejte na to, aby vaši nejbližší 3 přátelé NEBYLI z práce. Diverzifikuje to riziko izolace při změně práce.
+Dbejte na to, aby alespoň dva nebo tři vaši nejbližší lidé nebyli z práce ani z jediné komunity. Při změně zaměstnání nebo odchodu ze skupiny vám zůstane opora.
 
 ### 5. Slabé vazby
 
-Investujte čas do tzv. slabých vazeb (známí na okraji sítě). Často přinášejí největší příležitosti.
+Pěstujte i volnější známosti – sousedy, bývalé spolužáky, lidi z kurzů. Sociologie popisuje „sílu slabých vazeb“: právě volní známí často přinášejí nové informace a příležitosti, protože se pohybují v jiných okruzích.
 
-## Časový rámec
+## Jak si vést záznam
 
-Roční review mapy 2 hodiny; měsíční 1 nová kontaktní iniciativa.
+Mapu sítě si uložte a jednou ročně ji aktualizujte; vývoj ukáže, zda se síť zužuje, nebo rozšiřuje. Pokud vám někdo kontakty omezuje („s nimi se nestýkej“), zapisujte si, kdy a jak; omezování kontaktů je jedním ze znaků kontroly.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Větší odolnost vůči ztrátám; rozmanitější perspektivy; širší příležitosti.
+Jednou ročně zhruba dvě hodiny na mapu sítě, jednou měsíčně jedna nová iniciativa (zavolat, pozvat, přihlásit se). Pokrok poznáte podle větší odolnosti vůči ztrátám, rozmanitějších pohledů, širších příležitostí a podle toho, že máte s kým probrat pochybnost – i o lidech, kterým jinak věříte.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Diverzifikace bez hloubky vede k povrchním vztahům. Hloubka v 3-5 vztazích je důležitější než šířka.
+- Pokud vám někdo zakazuje stýkat se s přáteli a rodinou nebo za kontakty trestá, jde o znak kontroly; poradí intervenční centrum nebo linka 116 006.
+- Pokud se cítíte osamělí natolik, že ztrácíte chuť do života, volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155.
+- Pomoc s návratem do společnosti po dlouhé izolaci nabízejí sociální služby, komunitní centra a centra duševního zdraví.
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) — sebe-obrana (sociální)
-- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) — sebe-obrana (sociální)
-- [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) — sebe-obrana (sociální)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Nebudujte nové vztahy tajně, pokud by odhalení mohlo vést k násilí; nejprve si zajistěte bezpečí.
+- Nehledejte náhradu za uzavřenou skupinu v jiné stejně uzavřené skupině.
+- Nepovažujte počet kontaktů za kvalitu.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Diverzifikace bez hloubky vede k povrchním vztahům; několik hlubokých vztahů je důležitějších než široká, ale mělká síť. Budování sítě vyžaduje čas a energii, které v krizi chybějí; tehdy je vhodnější opřít se o několik spolehlivých lidí a o profesionální podporu.
+
+## Související
+
+**Návody**
+
+- [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – když síť začne slábnout.
+- [Zapojení do komunity](@/kompendium/self-defense-guides/28-community-engagement.md) – komunity jako zdroj nových vztahů.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – nezávislé hlasy i v informacích.
+- [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – různí lidé, různé výklady.
+
+**Pojmy**
+
+- [Epistemic Bubble](@/glossary/epistemic-bubble.md) – síť, v níž chybějí jiné hlasy.
+- [Epistemicka Komunita](@/glossary/epistemicka-komunita.md) – společenství, které sdílí způsob poznávání.
+
+**Prevence a protokoly**
+
+- [Obnova sociální sítě](@/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md) – obnova sítě po manipulaci.
+- [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md) – dlouhodobý rámec.
+- [Případ: Exit ze startup kultu](@/kompendium/case-studies/36-startup-cult-exit.md) – firma jako uzavřený svět.

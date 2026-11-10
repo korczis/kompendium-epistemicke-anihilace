@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Obrana osobní mytologie"
-description = "Praktický návod sebe-obrany — obrana osobní mytologie."
+description = "Jak pečovat o symboly, příběhy a rituály, které tvoří hluboké jádro identity, a chránit je před kolonizací skupinou, kultem osobnosti či trhem."
 weight = 50
 
 [taxonomies]
@@ -8,66 +8,103 @@ tags = ["kompendium", "self-defense-guide", "identity"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["49-temporal-self-stitching", "5-falsification-thinking", "6-paradigm-pluralism", "7-belief-revision"]
+related_terms = ["5-falsification-thinking", "6-paradigm-pluralism", "48-existential-meaning-protection", "41-narrative-stewardship"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Obrana osobní mytologie
 
+Osobní mytologie je soubor příběhů, postav, symbolů a rituálů, které člověka hluboce formovaly: pohádka z dětství, postava z knihy, hrdina rodinné historie, místo, kam se vrací, gesto, které ho uklidní. Nejsou to fakta k ověřování, ale nosníky smyslu a identity. Proto o ně stojí ti, kdo chtějí člověka ovládnout. Skupiny přebírají a přepisují symboly členů („tvůj sen znamenal, že jsi předurčen k nám“), [kult osobnosti](@/glossary/kult-osobnosti.md) staví vůdce na místo osobních hrdinů a komerce nabízí hotové mýty výměnou za spotřebu. Obrana osobní mytologie znamená vědět, které symboly jsou vaše, pečovat o ně a nedovolit, aby se staly vstupní branou cizí moci.
+
+## Pro koho je návod
+
+- Pro člověka, jehož osobní symboly a příběhy převzala skupina nebo vůdce a dal jim nový výklad.
+- Pro ty, kdo hledají duchovní a symbolický život a chtějí ho chránit před zneužitím.
+- Pro lidi po odchodu ze skupiny, kteří se snaží odlišit vlastní symboly od těch, které jim byly vnuceny.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá ve spirituálních a esoterických skupinách, které vykládají sny a znamení členů vždy ve prospěch skupiny ([případ New Age recovery](@/kompendium/case-studies/51-new-age-recovery.md)); u hnutí, která přebírají národní, náboženské nebo kulturní symboly a připisují si je; ve vztazích, kde partner přepisuje význam společných vzpomínek; a v době, kdy reklama a sociální sítě nabízejí hotové identity.
+
+## Varovné signály
+
+- Vaše sny, symboly a „znamení“ vykládá vždy někdo jiný – a vždy stejným směrem.
+- Vůdce nebo partner se stal ústřední postavou vašeho vnitřního příběhu.
+- Symboly, které jste měli rádi, vám skupina zakázala nebo označila za „temné“.
+- Rituály, které vám patřily (rodinné svátky, výročí), byly nahrazeny rituály skupiny.
+- Cítíte, že bez skupiny by váš vnitřní svět „neměl obsah“.
+
+## Modelová situace
+
+Muž si odmalička nosil kamínek z potoka u dědova domu jako symbol klidu. V esoterické skupině mu vedoucí vysvětlila, že kamínek „nese energii jeho minulých chyb“ a musí ho odevzdat. Udělal to a cítil se prázdně. Po odchodu ze skupiny zajel k potoku a vybral si nový kamínek. Byl to malý čin, ale pro něj znamenal návrat vlastního symbolu, který mu nikdo nemusí vykládat. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Vědomě formovat a chránit symboly, příběhy a archetypy, které tvoří hluboké jádro vaší identity, před erozí a kolonizací.
+Vědomě pečovat o symboly, příběhy a rituály, které tvoří hluboké jádro vaší identity, a chránit je před erozí a kolonizací cizími výklady – a přitom je nechat živé a proměnlivé.
 
 ## Pět praktických cvičení
 
-### 1. Mytologický inventář
+### 1. Soupis osobní mytologie
 
-Které příběhy, postavy, archetypy vás formovaly? Sepište 10. To je vaše osobní mytologie.
+Které příběhy, postavy, místa a symboly vás formovaly? Sepište jich deset a ke každému napište, co pro vás znamená – vlastními slovy. Pokud zjistíte, že některý výklad pochází od skupiny nebo osoby, která vás ovládala, označte si ho.
 
 ### 2. Symbol jako kotva
 
-Vyberte 1-2 osobní symboly (předmět, gesto, místo) s hlubokým významem. Návštěvujte je v krizi.
+Vyberte jeden nebo dva osobní symboly – předmět, místo, gesto, píseň – s hlubokým významem. Vracejte se k nim v těžkých chvílích. Patří vám a jejich význam určujete vy.
 
-### 3. Detekce kolonizace
+### 3. Rozpoznat kolonizaci
 
-Sledujte: které cizí narativy se vás snaží pohltit (komerční, ideologické, módní)? Vědomě odolávejte.
+Sledujte, které cizí příběhy se snaží vaše symboly pohltit – ideologické, náboženské, komerční, příběh partnera. Zeptejte se: Kdo z tohoto výkladu těží? Mohu tomu symbolu rozumět jinak?
 
-### 4. Rituální obnova
+### 4. Vlastní rituály
 
-Definujte si vlastní rituály ke klíčovým momentům: nový rok, narozeniny, výročí ztrát. Mytický čas v profánním.
+Vytvořte si vlastní rituály pro důležité chvíle – narozeniny, nový rok, výročí ztrát, začátek a konec období. Rituál, který si člověk vytvoří sám, je těžké mu vzít.
 
-### 5. Mytologie zítřejšího já
+### 5. Postavy, které chcete posílit
 
-Jaké archetypy chcete posílit? Hrdina? Mudrc? Tvůrce? Vědomě sytíte jejich příběhy a vzory.
+Které postavy nebo vlastnosti z vaší mytologie chcete ve svém životě posílit – vytrvalost, péči, zvídavost, odvahu? Vyhledávejte příběhy a lidi, kteří je nesou, a nechte je působit.
 
-## Časový rámec
+## Jak si vést záznam
 
-Měsíční reflexe 1 hodina; ritualy v klíčových momentech; denní symbol-kontakt 1 minuta.
+Soupis osobní mytologie si uchovávejte spolu s dalšími osobními záznamy a čas od času ho revidujte. U symbolů, které vám skupina přepsala nebo vzala, si zapište, co se stalo – kdo symbol vykládal, co jste museli odevzdat. Pomůže to při zotavení i v rozhovoru s terapeutem.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Hlubší pocit identity; klesající zranitelnost vůči manipulaci; bohatší vnitřní život.
+Jednou měsíčně hodina reflexe, rituály v klíčových chvílích, denně krátký kontakt se symbolem. Pokrok poznáte podle hlubšího pocitu identity, bohatšího vnitřního života, menší zranitelnosti vůči nabídkám „vyvolenosti“ a podle toho, že výklad vlastních symbolů nepotřebujete od nikoho jiného.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Mytologie může zatuhnout v dogma. Buďte ochotni nechat staré symboly zemřít, když přestanou sloužit.
+- Pokud vás ztráta symbolického a duchovního světa po odchodu ze skupiny hluboce zasáhla, pomůže psychoterapeut se zkušeností s lidmi po odchodu ze skupin, případně nezávislý duchovní doprovod.
+- Pokud se objeví beznaděj nebo myšlenky na sebepoškození, volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155.
+- Pokud vám skupina vyhrožuje nadpřirozenými tresty a vy se cítíte ohroženi, poraďte se s odborníkem; strach z „prokletí“ je v takových skupinách častý a dá se zpracovat.
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
-- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) — sebe-obrana (identitní)
-- [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) — sebe-obrana (identitní)
-- [Vyjasnění hodnot](@/kompendium/self-defense-guides/44-axiology-clarification.md) — sebe-obrana (identitní)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
+- Nenechte nikoho vykládat své sny a symboly jako „jediný správný výklad“.
+- Neodevzdávejte předměty a symboly s osobním významem jako cenu za přijetí.
+- Nepřeměňujte osobní mytologii v dogma, které musíte bránit za každou cenu.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Mytologie může zatuhnout v dogma; buďte ochotni nechat staré symboly odejít, když přestanou sloužit, a přijmout nové. Osobní mytologie není empirické tvrzení a nepatří pod [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – ale ani nemá nahrazovat ověřování faktů tam, kde jde o zdraví, peníze nebo bezpečí.
+
+## Související
+
+**Návody**
+
+- [Ochrana existenciálního smyslu](@/kompendium/self-defense-guides/48-existential-meaning-protection.md) – symboly jako nosiče smyslu.
+- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) – příběh, do kterého symboly patří.
+- [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – víc výkladů jednoho symbolu.
+- [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – kde končí test a začíná identita.
+
+**Pojmy**
+
+- [Kult Osobnosti](@/glossary/kult-osobnosti.md) – vůdce na místě osobních hrdinů.
+- [Mystický prožitek (Mystical Experience)](@/glossary/mysticky-prozitek.md) – silné prožitky a jejich zneužitelnost.
+- [Charisma](@/glossary/charisma.md) – přitažlivost, která přebírá symboly.
+
+**Prevence a protokoly**
+
+- [Kulturní obnova](@/kompendium/prevention-resilience/29-cultural-restoration-prevention.md) – obnova kulturních kořenů.
+- [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) – zotavení po odchodu ze skupiny.

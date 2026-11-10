@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Akutní relaps po EA-recovery"
-description = "Akutní intervenční protokol — akutní relaps po dříve dosažené EA-recovery."
+title = "Akutní protokol: Akutní relaps po dosaženém zotavení"
+description = "Protokol pro akutní krizi u člověka, který se po epistemické anihilaci už zotavoval: stud z relapsu, reaktivace zdrojů, spouštěč, intenzita péče a úprava plánu."
 weight = 34
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "trauma"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,135 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Akutní relaps po EA-recovery
+# Akutní protokol: Akutní relaps po dosaženém zotavení
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 34** · skupina Přechody do zotavení · okno: akutní krize a následující týdny
+>
+> **Relaps může být stejně nebezpečný jako první krize.** Sebevražedné riziko po „neúspěchu“ se
+> posuzuje vždy; ohrožení života = 155.
 
-## 1. Klinická situace
+## Indikace
 
-Pacient s několikaměsíční až několikaletou EA-recovery prezentuje akutní relaps — emergency intervence v kontextu „nazpět tam, odkud jsem začal" demoralization. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **akutní relaps po dříve dosažené EA-recovery** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije u člověka, který se po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
+měsíce nebo roky zotavoval – pracoval, měl vztahy, rozuměl tomu, co se mu stalo – a nyní se
+ocitá znovu v akutní krizi: návrat deprese, [disociace](@/glossary/disociace.md), flashbacků, užívání látek, sebepoškozování,
+nebo návrat k pachateli či skupině. Typickým prožitkem je demoralizace: „jsem zpátky na začátku“,
+„všechno bylo zbytečné“, „asi měli pravdu, že to bez nich nezvládnu“. Poslední věta je
+signálem, že relaps není jen klinický, ale i epistemický ([protokol č. 33](@/kompendium/emergency-protocols/33-relapse-recognition.md)).
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Relaps je v zotavení po traumatu častý a předvídatelný. Neruší to, čeho bylo dosaženo; ukazuje,
+kde je opora zatím slabá.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední kroky
 
-1. **Specifically address shame about relapse** — relapse je předvídatelná část recovery, ne osobní selhání; psychoedukuj.
-2. **Reaktivuj prior toolkit** — co fungovalo dříve, není ztraceno; rapid review prior treatment notes.
-3. **Identifikuj trigger** — co se stalo v posledních 4–8 týdnech (anniversary, kontakt s manipulátorem, life stressor).
-4. **Zhodnoť potřebu intenzifikace péče** — někdy relapse = signal pro vyšší level care temporarily.
-5. **Update long-term plán** — relapse je informace o gap v recovery scaffolding, ne důvod pro úplný restart.
+1. **Bezpečí:** suicidalita, sebepoškození, látky, ohrožení třetí osobou ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
+   [č. 10](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md), [č. 26](@/kompendium/emergency-protocols/26-substance-EA.md)).
+2. **Pojmenuj stud.** Relaps není selhání ani důkaz, že „pachatel měl pravdu“. Řekni to výslovně a
+   brzy – stud je u lidí po EA častým důvodem, proč se neozvou včas.
+3. **Reaktivuj osvědčené.** Co pomáhalo dřív? Plán bezpečí, dovednosti, kontakty, rutiny. Projdi
+   dřívější záznamy; to, co pacient uměl, nezmizelo.
+4. **Najdi spouštěč.** Co se dělo v posledních týdnech – výročí, kontakt od pachatele, soudní
+   řízení, ztráta, nový vztah, změna léčby.
+5. **Krátkodobý plán** na nejbližší dny s konkrétními kroky a kontakty.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Závažnost a rychlost zhoršení,** porovnání s první krizí.
+- **Typ relapsu:** klinický, epistemický, nebo obojí.
+- **Kontakt s pachatelem či skupinou:** zda byl obnoven, kým, s jakým obsahem; zda nejde o cílený
+  pokus o „získání zpět“ (např. [love bombing](@/glossary/love-bombing.md) po letech mlčení).
+- **Ochranné faktory,** které od první krize vznikly: vztahy, práce, dovednosti, náhled.
+- **Léčba:** změny, vysazení léků, ukončení terapie, výměna terapeuta.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Ohrožení života | 155, akutní protokoly |
+| Těžké zhoršení bez bezpečného zázemí | dočasně vyšší stupeň péče, zvážit hospitalizaci |
+| Obnovený kontakt s pachatelem s výhrůžkami či násilím | Policie ČR (158), bezpečnostní plán |
+| Návrat do skupiny | respekt k rozhodnutí, otevřené dveře, plán bezpečí ([protokol č. 27](@/kompendium/emergency-protocols/27-active-cult-emergency.md)) |
+| Zvládnutelné zhoršení s oporou | intenzivnější ambulantní péče, reaktivace dovedností |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš průběh relapsu, pravděpodobné spouštěče, posouzení rizika, co z dřívějšího plánu
+fungovalo a co ne, změny v plánu. Formuluj relaps jako událost v průběhu zotavení, ne jako
+charakteristiku pacienta („chronicky relabující“ je nálepka, která později škodí).
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Po stabilizaci se dlouhodobý plán upraví, ne začíná znovu: doplní se opora tam, kde chyběla,
+zpřesní varovné signály, případně se změní forma léčby. Navazuje
+[dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md),
+[dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md)
+a v pozdější fázi [posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md).
+Pacientovi pomáhá i [sebesoucit](@/kompendium/self-defense-guides/16-self-compassion.md) a
+[integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md), ve
+které relaps dostane místo jako kapitola, ne jako konec.
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Vyčítání** („vždyť už jste to zvládal“).
+- **Úplný restart léčby,** který ignoruje dosažené.
+- **Okamžitá traumatická práce** v akutní fázi.
+- **Přehlédnutí cíleného pokusu pachatele** o obnovení kontroly.
+- **Ukončení péče** s odůvodněním, že pacient „nespolupracuje“.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Pacient je partnerem při vyhodnocení relapsu i při úpravě plánu. Pokud se vrací k pachateli nebo
+do skupiny, je to jeho rozhodnutí; úkolem odborníka je zachovat kontakt a bezpečí, ne trestat
+odmítnutím péče. Respekt k tomu, co pacient už dokázal, je terapeutický prvek – a protiváha
+narativu, který mu kdysi vnucoval, že bez kontroly nemůže obstát.
 
-**Glossary reference:**
+## Specifika epistemické anihilace
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+Pachatelé i skupiny relaps často interpretují jako „důkaz“: že pacient bez nich nemůže fungovat, že léčba „venku“ selhala, že se má vrátit. Tento výklad může přijít přímo (zprávy, návštěvy) nebo nepřímo přes společné známé. Klinik by měl tento vzorec pacientovi pojmenovat a nabídnout jiný výklad: relaps je běžnou součástí zotavení a ukazuje, kde je opora slabá, ne že by zotavení bylo iluzí. Zvlášť opatrně je třeba přistupovat k situaci, kdy relaps následuje po náhlém laskavém kontaktu po letech mlčení – cyklus idealizace a znehodnocení může začínat znovu. Bezpečnostní plán z doby odchodu je proto vhodné obnovit, i když pacient zatím žádné ohrožení nepociťuje.
 
-**Platformové reference:**
+## Komunikace v akutní fázi
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Vždyť už jste byl v pořádku.“ | „To, co jste zvládl, nezmizelo.“ | ochrana proti demoralizaci |
+| „Zase začínáme od nuly.“ | „Upravíme plán tam, kde nefungoval.“ | relaps jako informace |
+| „Proč jste se mu ozvala?“ | „Co se dělo, když se ozval?“ | vzorec, ne vina |
+| „Asi to bez léků nepůjde.“ (jako výčitka) | „Zvažme, co by teď pomohlo nejvíc.“ | společné rozhodnutí |
 
-## 6. Connect
+Pacientovi pomáhá připomenout konkrétní dovednosti a období, kdy se mu dařilo – pokud možno z jeho vlastních zápisků. Vlastní důkazy jsou silnější než povzbuzení terapeuta.
+
+## Modelová situace
+
+Žena tři roky po odchodu z kontrolujícího vztahu dostane od bývalého partnera omluvný dopis a
+dárek. Několik týdnů si píší; pak se vrátí výčitky, ona přestane spát a začne se znovu
+sebepoškozovat. Na krizovém sezení s terapeutkou nejprve mluví o studu. Spolu projdou starý plán
+bezpečí, terapeutka pojmenuje dopis jako známý vzorec a domluví na čtyři týdny častější sezení.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md) – varovné
+  signály.
+- [Přerušení léčby](@/kompendium/emergency-protocols/35-treatment-noncompliance.md) – častý
+  předchůdce relapsu.
+- [Akutní sebepoškozování](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md) – návrat
+  starého vzorce.
+
+**Dlouhodobá péče a sebeobrana**
+
+- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) –
+  úprava plánu.
+- [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md) –
+  posílení opory.
+- [Sebesoucit](@/kompendium/self-defense-guides/16-self-compassion.md) – protiváha studu.
+
+**Pojmy**
+
+- [Love bombing](@/glossary/love-bombing.md) – typický pokus o obnovení vztahu.
+- [Trauma bonding](@/glossary/trauma-bonding.md) – síla vazby k pachateli.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +150,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #34 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 34 · v18.4.0*

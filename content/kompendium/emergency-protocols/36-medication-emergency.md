@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Akutní medication emergency"
-description = "Akutní intervenční protokol — akutní medication emergency u EA-pacienta."
+title = "Akutní protokol: Lékové pohotovostní stavy u pacienta po epistemické anihilaci"
+description = "Protokol pro předávkování, závažné nežádoucí účinky a odvykací stavy psychofarmak: rozpoznání syndromů, somatická stabilizace, vysazení, dokumentace a další léčba."
 weight = 36
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "interventions"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,141 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Akutní medication emergency
+# Akutní protokol: Lékové pohotovostní stavy u pacienta po epistemické anihilaci
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 36** · skupina Přechody do zotavení · okno: minuty až dny
+>
+> **Toto je somatická urgence.** Podezření na předávkování, serotoninový syndrom, neuroleptický
+> maligní syndrom, intoxikaci lithiem nebo těžký odvykací stav = 155 a urgentní příjem. Stránka
+> neobsahuje dávkování ani léčebná schémata; ta určuje lékař podle aktuálních doporučených postupů.
+> K dispozici je konzultace toxikologického informačního střediska.
 
-## 1. Klinická situace
+## Indikace
 
-EA-pacient v akutní medication situaci — overdose, severe side effects, withdrawal, serotonin syndrome, NMS, akathisie. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **akutní medication emergency u EA-pacienta** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se týká akutních stavů způsobených léky u pacienta po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md):
+úmyslné i neúmyslné předávkování, závažné nežádoucí reakce, lékové interakce a odvykací stavy.
+U této skupiny pacientů je takový stav dvojí zátěží. Somaticky je nebezpečný; psychologicky může
+potvrdit přesvědčení, které pachatel nebo skupina pěstovali („léky tě otráví“, „doktoři ti
+ublíží“), a ohrozit důvěru v další léčbu. Stav proto vyžaduje stejně pečlivé somatické řešení
+jako vysvětlení a dokumentaci.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+## Bezprostřední kroky
 
-## 2. Bezprostřední intervence (5 kroků)
+1. **Somatická stabilizace** podle standardu: vědomí, dýchání, oběh, teplota, glykemie, EKG,
+   laboratoř; zajištění na urgentním příjmu.
+2. **Zjisti, co a kolik:** léky, dávky, čas, kombinace s alkoholem či jinými látkami, obaly.
+   U úmyslného předávkování nepodceňuj látky, jejichž toxicita se projeví se zpožděním (typicky
+   paracetamol) – pacient se může zpočátku cítit dobře.
+3. **Rozpoznej syndrom** (orientační přehled níže) a konzultuj toxikologa.
+4. **Vysazení vyvolávající látky** u život ohrožující reakce; u odvykacích stavů naopak hrozí
+   nebezpečí z náhlého vysazení – rozhodnutí patří lékaři.
+5. **Posouzení sebevražedného úmyslu,** jakmile to stav dovolí ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)).
 
-1. **Identifikuj specific syndrome** — serotonin syndrome (hyperthermia, clonus, agitation), NMS (rigidity, fever, autonomic), akathisie (motor restlessness).
-2. **Stabilizuj somaticky** — IV fluids, cooling, benzodiazepines pro agitation; ER pokud ne-zdravotnické zařízení.
-3. **Discontinue offending agent** — okamžitě, ne taper, pokud life-threatening.
-4. **Vyhodnocuj indikaci do budoucna** — některé syndromy mean re-challenge je relative kontraindikace.
-5. **Document precision** — každá medication change s rationale, časový stamp, alternativní options zvážené.
+## Posouzení – orientační přehled syndromů
 
-## 3. Stabilizace
+- **Serotoninový syndrom:** neklid, třes, myoklonus a klonus (často dolních končetin), pocení,
+  horečka, průjem; vzniká po přidání nebo zvýšení serotonergních léků či při interakci.
+- **Neuroleptický maligní syndrom:** svalová rigidita, horečka, kolísání vědomí, autonomní
+  nestabilita; po antipsychoticích, často v prvních dnech po zahájení či zvýšení.
+- **Intoxikace lithiem:** třes, nevolnost, průjem, ataxie, zmatenost; riziko při dehydrataci a
+  interakcích.
+- **Anticholinergní toxicita:** zmatenost, rozšířené zornice, suchá teplá kůže, retence moči,
+  tachykardie.
+- **Akatizie:** mučivý vnitřní neklid a nutkání k pohybu; snadno se zamění za úzkost či agitovanost
+  a může zvyšovat sebevražedné riziko.
+- **Odvykací stavy:** po benzodiazepinech a alkoholu riziko křečí a deliria; po některých
+  antidepresivech nepříjemný syndrom z vysazení.
+- **Paradoxní reakce** na sedativa (zvýšený neklid, dezinhibice).
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+Diferenciálně je nutné myslet na intoxikaci jinými látkami ([protokol č. 26](@/kompendium/emergency-protocols/26-substance-EA.md)),
+infekci, delirium a somatická onemocnění ([protokol č. 25](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md)).
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Předávkování, život ohrožující reakce | 155, urgentní příjem, toxikologická konzultace |
+| Úmyslné předávkování | po stabilizaci psychiatrické vyšetření, omezení přístupu k lékům |
+| Lék podala jiná osoba, nátlak | Policie ČR (158) |
+| Lehká nežádoucí reakce | konzultace s předepisujícím lékařem v řádu hodin až dnů |
+| Opakované reakce, nedůvěra k léčbě | revize léčby, případně [druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš látky, dávky a časy (s uvedením zdroje informace), klinický obraz, laboratorní nálezy,
+léčbu, změny medikace a jejich zdůvodnění, zvažované alternativy, posouzení úmyslu. Závažné
+nežádoucí účinky se hlásí podle platných pravidel farmakovigilance (v ČR Státnímu ústavu pro
+kontrolu léčiv). Ve zprávě uveď, zda je opakované podání látky do budoucna relativně nebo
+absolutně kontraindikováno.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Předepisující lékař a navazující klinik musí vědět, co se stalo, a pacient musí dostat
+srozumitelné vysvětlení: co reakci způsobilo, co to znamená pro další léčbu, na jaké signály
+dávat pozor. U úmyslného předávkování navazuje [most po propuštění](@/kompendium/emergency-protocols/31-post-discharge-bridge.md).
+Důvěru v léčbu pomáhá obnovit [subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md);
+pokud stav vznikl chybou péče, platí [protokol č. 37](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Záměna akatizie za úzkost** a přidání dalšího léku.
+- **Přehlédnutí serotoninového syndromu** při polyfarmakoterapii.
+- **Propuštění po „bezpříznakovém“ předávkování** bez ohledu na zpožděnou toxicitu.
+- **Náhlé vysazení** léků s rizikem odvykacího stavu bez lékařského plánu.
+- **Chybějící vysvětlení pacientovi** – posiluje nedůvěru a přesvědčení „ze skupiny“.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Neodkladná péče u pacienta, který není schopen souhlasu, je přípustná; jakmile se stav zlepší,
+pacient má právo na úplnou informaci o tom, co se stalo a co se s ním dělalo. Pokud reakci
+způsobila chyba v péči, má právo to vědět. Otevřenost o chybě je profesní povinností a zároveň
+nejlepší ochranou před tím, aby se zkušenost stala dalším důkazem, že „venku“ se nedá nikomu věřit.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Vzal jste si toho moc.“ (vyčítavě) | „Potřebuji vědět, co a kdy jste užil, abychom vás mohli léčit.“ | přesné informace |
+| „Nic vám není, můžete jít.“ | „Některé léky působí se zpožděním, proto vás ještě sledujeme.“ | zpožděná toxicita |
+| „To byla jen reakce na lék.“ | „Reakce byla způsobena kombinací léků X a Y; příště se jí vyhneme takto.“ | vysvětlení buduje důvěru |
+| „Lék jste měl brát správně.“ | „Pojďme spolu projít, jak léky užíváte.“ | bez obviňování |
 
-**Platformové reference:**
+Pokud reakci způsobila chyba v předepsání nebo podání, řekni to pacientovi otevřeně a vysvětli, co se změní. Zamlčení je u lidí po EA rychle odhaleno a podkopává celou další léčbu.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Muž, kterému po hospitalizaci přidali další antidepresivum, přichází s neklidem, pocením a
+záškuby nohou. Lékař urgentu rozpozná pravděpodobný serotoninový syndrom, vysadí podezřelé léky a
+pacienta přijme ke sledování. Druhý den mu vysvětlí, co se stalo a proč; psychiatrička upraví
+léčbu a zapíše interakci do dokumentace jako kontraindikaci.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Akutní farmakoterapie](@/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md) –
+  rozhodování o nasazení léků.
+- [Přerušení léčby](@/kompendium/emergency-protocols/35-treatment-noncompliance.md) – rizika
+  vysazení.
+- [Iatrogenní poškození](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md) – když
+  stav způsobila chyba.
+- [Užívání látek](@/kompendium/emergency-protocols/26-substance-EA.md) – intoxikace a odvykání.
+
+**Dlouhodobá péče a forenzní rámec**
+
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) –
+  návrat důvěry v léčbu.
+- [Medicínská nedbalost](@/kompendium/forensic-legal/18-medical-malpractice-EA.md) – právní
+  rámec chyb.
+
+**Pojmy a historie**
+
+- [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – škoda způsobená péčí.
+- [Informed consent](@/glossary/informed-consent.md) – informace o rizicích léčby.
+- [Historický případ: FDA a opioidy](@/kompendium/historical-cases/40-fda-opioid.md) – systémové
+  selhání lékové bezpečnosti.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +156,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #36 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 36 · v18.4.0*

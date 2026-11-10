@@ -1,6 +1,6 @@
 +++
 title = "Exit interview s EA fokusem"
-description = "Organizační obrana — exit interview s ea fokusem."
+description = "Odcházející lidé znají realitu organizace a mají nejméně důvodů mlčet. Kapitola popisuje nezávislé vedení rozhovoru, otázky na manipulativní vzorce, agregaci a ochranu údajů."
 weight = 130
 
 [taxonomies]
@@ -8,95 +8,145 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["11-onboarding-EA-awareness", "12-training-resilience", "14-anonymous-feedback", "15-culture-survey-EA"]
+related_terms = ["14-anonymous-feedback", "15-culture-survey-EA", "18-supervisor-evaluation", "11-onboarding-EA-awareness"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Exit interview s EA fokusem
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Odcházející zaměstnanci jsou nejlepší zdroj informací o EA — mají nejnižší motivaci lhát a nejvyšší znalost reality.
+Lidé, kteří odcházejí, znají organizaci zevnitř a už nejsou tolik závislí na jejím
+hodnocení. Přesto výstupní rozhovor často vede jejich přímý nadřízený, v posledních dnech,
+kdy člověk potřebuje reference a nechce „pálit mosty“. Výsledkem je zdvořilý rozhovor bez
+informací. Rozhovor zaměřený na epistemické a manipulativní vzorce se vede jinak: nezávisle,
+s odstupem a s otázkami, které umožní popsat, co se dělo, i tomu, kdo to sám ještě nemá
+pojmenované.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **exit interview s ea fokusem** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě odchody z jednoho týmu často představují jediný viditelný signál dlouhodobého
+zneužívání moci. Na univerzitě je obdobou ukončení studia nebo změna školitele; tyto odchody
+se často vykládají jako „nezvládl to“, ačkoli mohou být výsledkem
+[soustavného pěstování sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md).
+V nemocnici odchody lékařů a sester z přípravy nebo z oddělení, ve škole odchody učitelů
+v prvních letech, v neziskové organizaci odchody dobrovolníků a zaměstnanců s pocitem
+vyhoření. V médiích odchody novinářů z redakce, kde se změnila linie. Ve všech případech
+platí, že jednotlivý odchod nic nedokazuje, ale opakovaný vzorec ano.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Rozhovor vede přímý nadřízený nebo HR, které je na něm závislé.
+- Rozhovor proběhne v posledním dni, pod tlakem formalit a referencí.
+- Otázky jsou obecné („Co bychom mohli zlepšit?“) a nepřipouštějí popis vzorců.
+- Výstupy se ukládají jednotlivě a nikdo je neagreguje.
+- Odcházející nevěří, že informace nebudou použity proti nim.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Rozhovor vedený třetí stranou nebo útvarem mimo linii řízení.
+- Nabídka rozhovoru i s odstupem (například za měsíc po odchodu), kdy je člověk méně
+  zranitelný.
+- Strukturovaný rozhovor s otázkami na zkušenosti, nikoli na hodnocení osob: Měl jste pocit,
+  že jste mohl vyjádřit nesouhlas? Měnila se zadání bez záznamu? Byl jste odříznut od
+  informací nebo lidí? Pochyboval jste o vlastním úsudku víc než dříve?
+- Anonymizovaná agregace po útvarech a vedoucích s pravidlem, že opakované podobné
+  zkušenosti se stejným vedoucím vedou k automatickému podnětu k prověření.
+- Oddělení výstupního rozhovoru od referencí: obsah rozhovoru nesmí reference ovlivnit.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Veďte exit interview externí třetí stranou minimálně 30 dní po odchodu, s explicitními otázkami na manipulaci/abusive patterns.
+HR vlastní proces a zajišťuje nezávislého tazatele. Tazatel odpovídá za důvěrnost a za
+přesný záznam. Analytik (HR nebo interní audit) agreguje výstupy a hlásí vzorce. Vedení a
+[auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md) dostávají
+souhrny. Přímí nadřízení nemají přístup k individuálním záznamům svých bývalých podřízených.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Nabídka rozhovoru všem odcházejícím, včetně těch, kdo odcházejí ve zkušební době,
+   studentů a stážistů.
+2. Informace o účelu, o tom, kdo uvidí výstupy a jak dlouho se uchovají; zpracování v
+   souladu s GDPR (nařízení EU 2016/679) a zákonem č. 110/2019 Sb., o zpracování osobních
+   údajů.
+3. Strukturovaný scénář rozhovoru s volitelnou otevřenou částí.
+4. Čtvrtletní agregace s prahem pro automatický podnět (například dvě a více podobných
+   zkušeností se stejným vedoucím za rok).
+5. Možnost, aby odcházející podal oznámení podle zákona č. 171/2023 Sb. – tazatel ho na tuto
+   možnost upozorní, ale rozhovor sám oznámením není.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Tazatel potřebuje umět vést rozhovor s člověkem, který může být vyčerpaný, rozzlobený
+nebo zmatený, a nechat ho mluvit bez sugestivních otázek. Pomůže znalost
+[forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) a
+vědomí, že lidé po dlouhodobé manipulaci popisují zkušenost často roztříštěně
+([fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)).
+Roztříštěnost není znakem nepravdivosti.
 
-- Exit interview vede přímý nadřízený, odcházející se bojí mluvit, výstupy se neagregují.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Zazní-li v rozhovoru vážné tvrzení (šikana, zneužití moci, protiprávní jednání):
 
-## 5. Best practices
+1. Tazatel zaznamená tvrzení co nejpřesněji a zeptá se, zda si odcházející přeje, aby se
+   věc řešila.
+2. S jeho souhlasem předá věc etickému řediteli nebo příslušné osobě.
+3. Bez souhlasu použije informaci jen agregovaně, ledaže hrozí vážná újma dalším lidem.
+4. Při opakování vzorce zahájí organizace prověření i bez konkrétního oznámení.
 
-Externí firma, anonymizovaná čtvrtletní agregace trends, automatický flag při >2 stejných stížnostech na manažera.
+**Příklad (anonymizovaný kompozit).** Agregace rozhovorů v jedné společnosti ukázala, že
+pět z osmi lidí, kteří za dva roky odešli z obchodního týmu, uvedlo, že jejich vedoucí
+popíral dříve dohodnuté cíle a vyčítal jim „špatnou paměť“. Jednotlivě byly odchody
+vysvětleny výkonem. Prověření vedlo k zavedení písemného zadávání cílů a ke změně vedení
+týmu.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Odcházející má mít jistotu, že rozhovor neovlivní reference, výplatu ani budoucí spolupráci.
+Pokud popíše zkušenost, která ho poškodila, organizace mu nabídne kontakt na podporu
+(například [program asistence zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md))
+i po odchodu. Bývalý zaměstnanec, který oznámí protiprávní jednání, může být chráněn zákonem
+o ochraně oznamovatelů i po skončení pracovního poměru, pokud se oznámení týká informací
+získaných v souvislosti s prací.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
-- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kontinuita podnikání s EA fokusem](@/kompendium/organizational-defense/37-business-continuity-EA.md)
-- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Rozhovor vede přímý nadřízený, odcházející se bojí mluvit, výstupy se neagregují.
+- Podíl lidí, kteří rozhovor odmítnou, je vysoký.
+- Vzorce z rozhovorů se nikdy nepromítnou do opatření.
+- Výstupy z rozhovorů a z [kulturního průzkumu](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+  si odporují, a nikdo to neřeší.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Odcházející mohou mít vlastní zájmy a jejich výpověď není nestranná; proto se pracuje se
+vzorci, ne s jednotlivými výroky. Odchody z nejtíže postižených týmů se často konají bez
+rozhovoru – lidé odejdou nemocní nebo bez rozloučení. Otevřené zůstává, jak oslovit ty, kdo
+odešli dávno a jejichž zkušenost je pro pochopení historie problému klíčová.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md) –
+  kanál pro ty, kdo zůstávají.
+- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
+  – data k triangulaci.
+- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md) –
+  kam vedou opakované signály o vedoucím.
+- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
+  – rozhovory s těmi, kdo odejdou brzy.
+
+**Techniky a signatury**
+
+- [EA-2.5.3 Self-doubt Cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
+  – vzorec, který rozhovor často odhalí.
+- [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md)
+  – proč výpovědi bývají roztříštěné.
+
+**Forenzní praxe**
+
+- [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md) –
+  zásady nesugestivního rozhovoru.
+- [Důkaz vzorcem](@/kompendium/forensic-legal/38-pattern-evidence.md) – opakovaný vzorec
+  jako důkaz.

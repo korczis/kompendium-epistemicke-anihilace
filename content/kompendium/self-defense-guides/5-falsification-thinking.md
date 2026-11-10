@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Falsifikační myšlení"
-description = "Praktický návod sebe-obrany — falsifikační myšlení."
+description = "Jak formulovat přesvědčení tak, aby šla vyvrátit, a rozpoznat systém, který vyvrátit nejde – obrana proti uzavřeným výkladům skupin a vztahů."
 weight = 5
 
 [taxonomies]
@@ -8,66 +8,100 @@ tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["48-existential-meaning-protection", "49-temporal-self-stitching", "50-personal-mythology-defense", "6-paradigm-pluralism"]
+related_terms = ["2-evidence-evaluation", "6-paradigm-pluralism", "7-belief-revision", "50-personal-mythology-defense"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Falsifikační myšlení
 
+Falsifikační myšlení vychází z myšlenky Karla Poppera, že tvrzení o světě má smysl testovat podle toho, co by ho mohlo vyvrátit ([falsifikovatelnost](@/glossary/falsifikovatelnost.md)). V osobní sebe-obraně má tato myšlenka velmi praktický význam: uzavřené systémy – sekty, kontrolující vztahy, konspirační komunity – se poznají právě podle toho, že je vyvrátit nejde. Každý protipříklad je v nich předem vysvětlen jako zkouška víry, dílo nepřátel nebo důkaz vaší slabosti. Kdo umí položit otázku „co by to vyvrátilo?“, má v ruce nástroj, kterým takovou uzavřenost rozpozná.
+
+## Pro koho je návod
+
+- Pro člověka ve skupině nebo vztahu, kde je „pravda“ vždy na jedné straně a pochybnost vždy vaší vinou.
+- Pro ty, kdo se vracejí z konspiračního nebo pseudovědeckého prostředí a hledají způsob, jak znovu poměřovat tvrzení.
+- Pro každého, kdo chce, aby jeho vlastní přesvědčení zůstala živá a opravitelná.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá u výkladů, které pokrývají vše: když se předpověď skupiny nesplní a vysvětlení zní „to byla zkouška“; když je jakákoli kritika vůdce důkazem, že kritik je zkažený; když blízký člověk vysvětluje každé vaše chování jako potvrzení své teorie o vás. Takové [cirkulární argumentace](@/glossary/cirkularni-argumentace.md) jsou typickým jazykovým znakem uzavřeného systému.
+
+## Varovné signály
+
+- Na otázku „co by tě přesvědčilo, že se mýlíš?“ neexistuje odpověď, nebo vede ke zlosti.
+- Nesplněná předpověď se nikdy nepočítá jako omyl.
+- Pojmy se předefinují vždy tak, aby výklad vyšel ([cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)).
+- Pochybnost je pojmenována jako nemoc, hřích nebo „ego“.
+
+## Modelová situace
+
+Muž strávil několik let ve skupině, která předpovídala blízkou celosvětovou katastrofu. Když se ohlášené datum nenaplnilo, skupina oznámila, že katastrofu odvrátila její modlitba. Muž si v té době začal vést registr předpovědí a jejich vysvětlení. Po třetím posunutí data uviděl ve vlastních zápisech vzorec, který mu dovolil začít o odchodu mluvit s psychologem – dřív, než by ho skupina stačila přesvědčit, že pochybnost je zrada. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Zvyknout si formulovat hypotézy tak, aby byly potenciálně vyvratitelné — a aktivně hledat důkazy, které je vyvracejí.
+Zvyknout si formulovat vlastní hypotézy tak, aby byly vyvratitelné, aktivně hledat doklady proti nim a rozpoznat výklad, který vyvrátit nejde.
 
 ## Pět praktických cvičení
 
-### 1. Definice porážky
+### 1. Podmínka odvolání
 
-Pro každou důležitou tezi explicitně napište: 'Tuto tezi přestanu zastávat, pokud zjistím X.' Bez X je teze náboženská, ne empirická.
+U důležitého přesvědčení napište větu: „Tento názor opustím, pokud zjistím…“ Pokud nic takového nedokážete napsat, nejde o empirické tvrzení, ale o víru nebo hodnotu. To není chyba – jen je dobré vědět, co je co. Stejnou otázku můžete v duchu položit výkladu, který vám předkládá skupina.
 
-### 2. Pre-mortem
+### 2. Předběžná pitva
 
-Před každým důležitým projektem si představte, že selhal. Napište 5 nejpravděpodobnějších příčin selhání. Pak je preventivně řešte.
+Před velkým rozhodnutím (vstup do skupiny, investice, stěhování) si představte, že za rok se ukázalo jako omyl. Sepište pět nejpravděpodobnějších důvodů a promyslete, jak byste je poznali včas.
 
 ### 3. Detektiv ve vlastní hlavě
 
-Týdně 30 minut hledejte důkazy, které vyvracejí váš nejdražší pohled na svět. Cíl: 3 vážné kandidáty na vyvrácení.
+Jednou týdně půl hodiny hledejte doklady, které by mohly vyvrátit názor, na kterém vám nejvíc záleží. Cílem není ho opustit, ale znát jeho slabá místa dřív, než je využije někdo jiný.
 
-### 4. Predikční registr
+### 4. Registr předpovědí
 
-Veřejně si zapisujte předpovědi (s deadline a číslem). Po roce vyhodnoťte. Trénujte kalibraci.
+Zapisujte si předpovědi s datem a odhadem pravděpodobnosti – o práci, o vztazích, o událostech. Po čase je vyhodnoťte. Stejně si zapisujte předpovědi, které vám dává skupina nebo vůdce, a sledujte, jak se s jejich nesplněním zachází.
 
-### 5. Anti-portfolio
+### 5. Seznam opuštěných názorů
 
-Veďte si seznam přesvědčení, která jste opustili, s daty a příčinami. Roste? Skvělé. Statické? Pravděpodobně se nevyvíjíte.
+Veďte si seznam přesvědčení, která jste opustili, s datem a důvodem. Pokud seznam roste, vaše myšlení žije. Pokud léta stojí, stojí za to se ptát proč.
 
-## Časový rámec
+## Jak si vést záznam
 
-Měsíční rituál 2 hodiny na predikční registr a anti-portfolio; pre-mortem před každým projektem nad týden práce.
+Registr předpovědí je sám o sobě záznamem: datum, předpověď, kdo ji vyslovil, odhad, výsledek, vysvětlení nesplnění. U skupinových předpovědí si zapisujte i to, jak se o nich mluvilo poté – posun výkladu je jeden z nejlépe doložitelných znaků uzavřeného systému. Záznamy uchovávejte mimo prostor, který skupina kontroluje.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Schopnost rychle změnit názor; pokles emocionální vazby na vlastní teorie; růst [diferenciace](@/glossary/diferenciace.md) mezi vírou a věděním.
+Měsíčně zhruba dvě hodiny na registr a seznam opuštěných názorů; předběžná pitva před každým rozhodnutím s dlouhodobým dopadem. Pokrok poznáte podle toho, že dokážete změnit názor bez pocitu porážky, že rozlišíte víru od vědění ([diferenciace](@/glossary/diferenciace.md)) a že vás neodradí, když vás za otázku „co by to vyvrátilo?“ někdo zesměšní.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Naivní [falsifikace](@/glossary/falsifikace.md) ignoruje, že vědecké teorie odolávají vyvrácení skrze pomocné hypotézy. Není to mechanická procedura.
+- Pokud odchod od uzavřeného výkladu znamená odchod ze skupiny, nedělejte ho bez opory: poraďte se s psychologem, se specializovanou poradnou pro oběti manipulativních skupin nebo s důvěryhodnou osobou mimo skupinu.
+- Pokud se po rozpadu přesvědčení dostaví pocit prázdnoty, beznaděje nebo myšlenky na smrt, volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155 ([protokol pro bývalé členy kultů](@/kompendium/emergency-protocols/28-ex-cult-emergency.md)).
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
-- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
-- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Nepokoušejte se „usvědčit“ vůdce nebo skupinu z nefalsifikovatelnosti přímo; uzavřený systém má na takovou výzvu připravenou odpověď a vy se můžete stát terčem.
+- Nepoužívejte falsifikaci na všechno: hodnoty, láska nebo smysl života nejsou empirické hypotézy a nemusí se testovat.
+- Neodhazujte celý svůj světový názor najednou; přestavba je postupná.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Naivní falsifikace přehlíží, že i vědecké teorie po dlouhou dobu odolávají jednotlivým protipříkladům pomocí pomocných hypotéz, a není mechanickou procedurou (srov. [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)). Pokud jste byli v uzavřeném systému dlouho, může být rozpad dosavadního výkladu krizí identity; to je situace pro odborné doprovázení, ne pro samostatné „ladění“ myšlení.
+
+## Související
+
+**Návody**
+
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – co se počítá jako doklad.
+- [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – jak držet více výkladů vedle sebe.
+- [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) – jak bezpečně změnit názor.
+- [Obrana osobní mytologie](@/kompendium/self-defense-guides/50-personal-mythology-defense.md) – kde končí test a začíná identita.
+
+**Pojmy**
+
+- [Falsifikace](@/glossary/falsifikace.md) – vyvracení hypotéz jako metoda.
+- [Pseudoscience](@/glossary/pseudoscience.md) – nauky, které se tváří jako věda, ale nejdou vyvrátit.
+
+**Výuka a signatury**
+
+- [Vzdělávací scénář: Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) – cvičení na sestavení testu.
+- [Detekční signatura: Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) – jak taková tvrzení znějí.

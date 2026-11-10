@@ -1,6 +1,6 @@
 +++
 title = "Praktické návody sebe-obrany"
-description = "Padesát praktických návodů sebe-obrany napříč pěti pilíři — kognitivní, emocionální, sociální, informační hygiena a ochrana identity."
+description = "Padesát praktických návodů sebe-obrany napříč pěti pilíři – kognitivní, emocionální, sociální, informační hygiena a ochrana identity."
 weight = 11
 sort_by = "weight"
 template = "kompendium/section.html"
@@ -17,13 +17,13 @@ status = "complete"
 
 # Praktické návody sebe-obrany
 
-Padesát praktických návodů uspořádaných do pěti pilířů sebe-obrany. Každý návod má jasný cíl dovednosti, pět konkrétních cvičení, časový rámec, indikátory pokroku, limitace a křížové odkazy do dalších návodů.
+Padesát praktických návodů uspořádaných do pěti pilířů sebe-obrany. Jsou psané pro člověka, který je vystaven epistemické manipulaci nebo se z ní zotavuje, a pro ty, kdo ho doprovázejí. Každý návod říká, pro koho je a v jaké situaci pomáhá, jaké jsou varovné signály, uvádí anonymizovanou modelovou situaci, cíl dovednosti a pět konkrétních cvičení, radí, jak si vést záznam, kdy a koho požádat o pomoc, čeho se vyvarovat a kde jsou meze svépomoci.
 
-Sebe-obrana zde není fyzická, ale **epistemická, emocionální, sociální, informační a identitní** — pět vrstev odolnosti vůči manipulaci, vyhoření, kognitivnímu úpadku a erozi identity v moderním prostředí.
+Sebe-obrana zde není fyzická, ale **epistemická, emocionální, sociální, informační a identitní** – pět vrstev odolnosti vůči manipulaci, vyhoření, kognitivnímu úpadku a erozi identity v moderním prostředí.
 
 ## Kognitivní sebe-obrana
 
-Praktiky pro posílení kvality myšlení — [metakognice](@/glossary/metakognice.md), hodnocení důkazů, falsifikační disciplína a [pluralismus](@/glossary/pluralismus.md) paradigmat.
+Praktiky pro posílení kvality myšlení – [metakognice](@/glossary/metakognice.md), hodnocení důkazů, falsifikační disciplína a [pluralismus](@/glossary/pluralismus.md) paradigmat.
 
 1. [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)
 2. [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
@@ -38,7 +38,7 @@ Praktiky pro posílení kvality myšlení — [metakognice](@/glossary/metakogni
 
 ## Emocionální sebe-obrana
 
-Trénink rozpoznávání, regulace a integrace emočního života — od somatické pozornosti přes uzemnění až po práci se starými emočními dluhy.
+Trénink rozpoznávání, regulace a integrace emočního života – od somatické pozornosti přes uzemnění až po práci se starými emočními dluhy.
 
 1. [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md)
 2. [Rozpoznávání spouštěčů](@/kompendium/self-defense-guides/12-trigger-recognition.md)
@@ -98,16 +98,23 @@ Správa narativu, vztahových kotev, paměťového archivu, hodnot a osobní myt
 
 ## Jak používat
 
-1. **Začni od jednoho pilíře.** Nezačínejte všech 50 najednou. Vyberte si pilíř, kde cítíte největší zranitelnost.
-2. **Tři návody měsíčně.** Realistická kadence — důkladně, ne extenzivně.
-3. **Cvičení, ne čtení.** Hodnota je v praxi, ne v četbě. Každý návod má 5 cvičení; vyberte si 1-2 a integrujte je do týdne.
-4. **Indikátory ne za týden.** Většina dovedností potřebuje 90 dní habituace. Buďte trpěliví.
-5. **Limitace berte vážně.** Každý návod má limitace. Nejsou kosmetické — ukazují, kdy metoda škodí.
+1. **Začněte od jednoho pilíře.** Nezačínejte všech padesát najednou. Vyberte pilíř, kde cítíte největší zranitelnost – nebo návod, který odpovídá situaci, v níž právě jste.
+2. **Několik návodů měsíčně.** Realistická kadence je dva až tři návody za měsíc – důkladně, ne extenzivně.
+3. **Cvičení, ne čtení.** Hodnota je v praxi. Z pěti cvičení si vyberte jedno nebo dvě a zařaďte je do týdne.
+4. **Trpělivost s pokrokem.** Většina dovedností potřebuje měsíce opakování, než se stane návykem.
+5. **Meze berte vážně.** Oddíl „Meze svépomoci“ není kosmetický – ukazuje, kdy metoda přestává stačit nebo by mohla uškodit.
 
-## Connect
+## Bezpečí na prvním místě
 
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Návody nikdy nedoporučují konfrontaci, která by vás ohrozila. Pokud vám v blízkém vztahu, v rodině nebo ve skupině hrozí násilí, výhrůžky nebo pronásledování, má přednost bezpečnostní plán a odborná pomoc – intervenční centrum, Linka pomoci obětem kriminality a domácího násilí 116 006, Policie ČR 158. V psychické krizi volejte Linku první psychické pomoci 116 123, děti a mladí lidé Linku bezpečí 116 111. V bezprostředním ohrožení zdraví nebo života volejte 112 nebo zdravotnickou záchrannou službu 155. Přehled kontaktů a postup, jak si síť pomoci připravit předem, obsahuje návod [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md); akutní situace popisují [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md).
+
+Záznamy, které si podle návodů vedete, ukládejte tam, kam osoba, která vás ohrožuje, nemá přístup. Pokud je chcete použít v řízení, postupujte podle [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) a poraďte se s právníkem.
+
+## Související
+
+- [Kompendium epistemické anihilace](@/kompendium/_index.md) – celá kniha, do níž návody patří.
+- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md) – vedené zotavení, na které svépomoc navazuje.
+- [Prevence a rezilience](@/kompendium/prevention-resilience/_index.md) – prevence na úrovni rodiny, školy a komunity.
+- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – jak manipulaci rozpoznat zvenčí.
+- [Vzdělávací scénáře](@/kompendium/educational-scenarios/_index.md) – modelové případy k procvičení.
+- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace) – zdrojový text knihy a hlášení chyb.

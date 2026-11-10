@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Iatrogenic harm emergency"
-description = "Akutní intervenční protokol — iatrogenic harm emergency u EA-pacienta."
+title = "Akutní protokol: Akutní krize po iatrogenním poškození"
+description = "Protokol pro akutní krizi pacienta poškozeného předchozí péčí – manipulativním terapeutem, nucenou léčbou nebo chybnou diagnózou: validace, dokumentace, nová péče a práva."
 weight = 37
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "ethics"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,138 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Iatrogenic harm emergency
+# Akutní protokol: Akutní krize po iatrogenním poškození
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 37** · skupina Přechody do zotavení · okno: akutní kontakt a první týdny nové péče
+>
+> **Nedůvěra ke zdravotnictví nesmí vést k odkladu neodkladné péče.** Ohrožení života = 155;
+> pokud pacient péči odmítá kvůli předchozímu poškození, hledej s ním přijatelnou cestu, ne
+> nátlak.
 
-## 1. Klinická situace
+## Indikace
 
-EA-pacient s iatrogenickou škodou od předchozí terapie — gaslighting therapist, forced medication, misdiagnosis-driven harm; emergency intervence. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **iatrogenic harm emergency u EA-pacienta** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se týká pacientů v akutní krizi, jejichž potíže vznikly nebo se prohloubily v důsledku
+předchozí péče – [iatrogenní poškození](@/glossary/iatrogenic-harm.md). V kontextu
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md) jde zvlášť o situace, kdy péče
+sama fungovala jako manipulace: terapeut, který zneužil vztah, izoloval klienta od blízkých a
+vytvořil závislost (viz [případ psychoterapeutické totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md));
+sugestivní terapie, která vytvářela „vzpomínky“ (srov. [hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md));
+zlehčování skutečných potíží jako „psychických“; chybná diagnóza, která pak sloužila ke
+zpochybnění pacienta v rodinném sporu; nucená léčba bez dostatečného důvodu nebo vysvětlení.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Pacient přichází se zkušeností, že ten, kdo měl pomáhat, ublížil – a často s otázkou, zda se dá
+věřit i vlastnímu vnímání toho, co se stalo. To je specifická forma [betrayal trauma](@/glossary/betrayal-trauma.md).
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední kroky
 
-1. **Validate iatrogenic experience** — ne minimalizuj; mnoho EA-survivors má traumatic mental health system history.
-2. **Document detailně** — pro budoucí potential legal action nebo formal complaint k profesní komoře.
-3. **Adresuj medical mistrust** — pacient pravděpodobně bude opatrný na další clinicians; build alliance pomalu.
-4. **Reroute care** — ne back to the harm source; identifikuj trauma-aware alternativy v lokální systému.
-5. **Connect with patient advocacy** — Liga lidských práv, Mental Disability Advocacy Center; informovat o options.
+1. **Akutní bezpečí:** suicidalita, sebepoškození, dekompenzace – podle akutních protokolů, s
+   maximální transparentností.
+2. **Validace bez soudu.** „Je pochopitelné, že je pro vás těžké znovu sedět u lékaře.“ Validuj
+   prožitek; o tom, zda došlo k pochybení, v akutní fázi nerozhoduj, ale ani ho nezlehčuj.
+3. **Kontrola pro pacienta:** vysvětli předem každý krok, nabídni volby, přítomnost blízké osoby,
+   možnost přestávky.
+4. **Žádná kritika kolegy** před pacientem, ale ani obrana „profese“ – pacient potřebuje cítit, že
+   jeho výpověď je brána vážně.
+5. **Zajisti, aby se pacient nevracel** k poskytovateli, který ho poškodil, pokud si to nepřeje.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Co se stalo** podle pacienta: druh péče, trvání, konkrétní jednání (zneužití vztahu, sexuální
+  kontakt, izolace, sugestivní postupy, nucená léčba, zpochybňování).
+- **Následky:** příznaky, změny vztahů, ztráta důvěry, nová „přesvědčení“ vzniklá v terapii.
+- **Současná léčba:** zda pacient užívá léky nasazené v poškozující péči a zda je jejich indikace
+  doložená.
+- **Bezpečí:** zda bývalý terapeut či zařízení pacienta kontaktuje, zda nehrozí odveta.
+- **Diagnózy v dokumentaci:** které jsou opřené o vyšetření a které je vhodné přehodnotit.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Ohrožení života | 155, akutní protokoly |
+| Podezření na trestný čin (sexuální zneužití, vydírání) | informovat pacienta o možnosti oznámení; Policie ČR (158) |
+| Pacient chce podat stížnost | informace o postupu: stížnost poskytovateli, krajskému úřadu, profesní komoře; veřejný ochránce práv u omezení svobody |
+| Pochybná diagnóza nebo léčba | nové vyšetření, [druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) |
+| Bývalý terapeut stále kontaktuje pacienta | bezpečnostní plán, právní pomoc |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš pacientovu výpověď doslovně a s daty, s odlišením od vlastních pozorování a závěrů. Neuváděj
+hodnocení kolegy, ale uchovej fakta, která mohou být později podstatná (časová osa, svědci,
+záznamy, korespondence). Dokumentaci použitelnou v řízení popisují [klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md),
+[profesní pochybení](@/kompendium/forensic-legal/19-professional-misconduct-EA.md) a
+[medicínská nedbalost](@/kompendium/forensic-legal/18-medical-malpractice-EA.md).
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Nová péče má být od začátku jiná: jasné hranice, transparentní pravidla, pravidelná zpětná vazba,
+supervize terapeuta. Vztah se buduje pomalu; nedůvěru je třeba pojmenovávat jako oprávněnou
+reakci, ne jako odpor. Navazuje [subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md),
+[hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) a nácvik
+[kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) a
+[hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md). Organizace pro
+práva pacientů mohou poskytnout podporu při stížnostech.
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Zlehčování** („to se vám asi jen tak jevilo“) – opakuje poškození.
+- **Opačná chyba:** ukvapené potvrzení pochybení bez znalosti faktů.
+- **Převzetí stejného léčebného rámce** bez kritického přehodnocení.
+- **Návrat k poškozujícímu poskytovateli** kvůli „kontinuitě péče“.
+- **Terapeut jako nový zachránce,** který vytváří jinou závislost.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Pacient má právo na informace o své dřívější péči včetně nahlížení do dokumentace, na stížnost a
+na volbu nového poskytovatele. Odborník má povinnost jednat poctivě vůči pacientovi i vůči
+profesi: nekrýt pochybení, ale ani nevynášet soudy bez podkladů. Pacient musí v nové péči zažít,
+že jeho souhlas a nesouhlas mají skutečnou váhu.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Kolega to tak jistě nemyslel.“ | „To, co popisujete, je pro vás zjevně velmi zraňující.“ | validace prožitku |
+| „To je strašný terapeut.“ | „Podíváme se na fakta a na vaše možnosti.“ | bez ukvapeného soudu |
+| „Teď už jste v dobrých rukou.“ | „Řeknu vám, jak moje péče vypadá a kde jsou její hranice.“ | žádný nový zachránce |
+| „Nedůvěřujete mi, to je odpor.“ | „Vaše opatrnost je po té zkušenosti pochopitelná.“ | nedůvěra jako oprávněná reakce |
 
-**Platformové reference:**
+Pomáhá dohodnout si s pacientem pravidelnou zpětnou vazbu („řekněte mi, když vám bude něco připomínat předchozí terapii“). Dává mu to kontrolu, kterou v poškozující péči neměl.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Žena přichází v krizi poté, co ukončila několikaletou „terapii“, ve které ji terapeut odrazoval od
+kontaktu s rodinou a vyžadoval každodenní hlášení. Nový psycholog validuje její zmatek, vysvětlí,
+jak bude jeho péče vypadat a kde jsou hranice, a nabídne informace o stížnosti profesní
+organizaci. Žena se rozhodne nejprve stabilizovat a stížnost podat později.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) – přehodnocení
+  diagnózy a léčby.
+- [Lékové pohotovostní stavy](@/kompendium/emergency-protocols/36-medication-emergency.md) –
+  poškození léky.
+- [Přerušení léčby](@/kompendium/emergency-protocols/35-treatment-noncompliance.md) – odmítnutí
+  péče po zkušenosti s poškozením.
+- [Právní krize](@/kompendium/emergency-protocols/39-legal-emergency.md) – role klinika v řízení.
+
+**Dlouhodobá péče a sebeobrana**
+
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) –
+  nový vztah k péči.
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – komu a jak věřit.
+
+**Případy, právo a pojmy**
+
+- [Případ: Psychoterapeut totalizace](@/kompendium/case-studies/16-psychoterapeut-totalizace.md) –
+  terapie jako kontrola.
+- [Profesní pochybení](@/kompendium/forensic-legal/19-professional-misconduct-EA.md) – stížnosti
+  a řízení.
+- [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – vymezení.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +153,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #37 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 37 · v18.4.0*

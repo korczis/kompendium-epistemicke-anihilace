@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Hluboké čtení"
-description = "Praktický návod sebe-obrany — hluboké čtení."
+description = "Jak obnovit schopnost soustředěně číst dlouhé texty, kterou rozkládá scrollování – a proč je hluboké čtení obranou samostatného úsudku."
 weight = 35
 
 [taxonomies]
@@ -8,66 +8,102 @@ tags = ["kompendium", "self-defense-guide", "information-hygiene"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["33-information-diet", "34-attention-budget", "36-cross-source-routine", "37-time-locked-evaluation"]
+related_terms = ["33-information-diet", "34-attention-budget", "36-cross-source-routine", "9-attention-management"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Hluboké čtení
 
+Hluboké čtení je pomalé, soustředěné čtení souvislého textu, při kterém čtenář sleduje argument, klade si otázky, nesouhlasí a vytváří si vlastní obraz. Je to jiná činnost než přelétání titulků a příspěvků. Pro sebe-obranu má zvláštní význam: manipulace se šíří v krátkých, emocionálně nabitých útržcích, které nedávají prostor pro otázku „opravdu?“. Kdo umí číst do hloubky, umí také rozpoznat, kdy argument chybí, kdy se pojmy posouvají a kdy text nic netvrdí, jen působí. Kniha upozorňuje na techniky typu [terminologické mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), které hluboký čtenář odhalí snáz.
+
+## Pro koho je návod
+
+- Pro člověka, který si všiml, že „už nedokáže číst knihy“ a že se po pár odstavcích ztrácí.
+- Pro ty, kdo odcházejí z prostředí, kde se četly jen texty schválené skupinou a jen jedním způsobem.
+- Pro studenty a profesionály, jejichž práce vyžaduje porozumění složitým textům.
+
+## Situace, ve kterých pomáhá
+
+Pomáhá při čtení smluv, úředních dopisů a podmínek, kde rozhodují detaily; při posuzování odborných tvrzení, která jsou ve zprávách zjednodušená; u textů skupin a hnutí, které používají vlastní žargon ([hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md)); a při obnově po manipulaci, kdy se člověk učí znovu číst sám za sebe, bez povinného výkladu.
+
+## Varovné signály
+
+- Po několika minutách čtení sáhnete po telefonu.
+- Čtete jen titulky a shrnutí a věříte jim.
+- Texty vaší skupiny čtete jen s jejich oficiálním výkladem.
+- Složitý text ve vás vyvolává úzkost nebo vztek, ne zvědavost.
+- Nedokážete po přečtení říct, co text tvrdil.
+
+## Modelová situace
+
+Bývalý člen náboženské komunity léta četl posvátné texty výhradně s komentáři vedoucího. Po odchodu měl dojem, že knihy „nedokáže číst“. Začal s krátkými eseji, po každé kapitole psal pět minut shrnutí a jednu námitku. Po několika měsících přečetl stejné texty, které dřív znal jen s výkladem, a zjistil, že dovolují i jiné čtení. Byla to pro něj jedna z nejosvobodivějších zkušeností celého zotavení. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Obnovit kapacitu hlubokého, soustředěného čtení dlouhých textů, kterou rozkládá scrollování.
+Obnovit schopnost hlubokého, soustředěného čtení dlouhých textů a používat ji k samostatnému posuzování toho, co text skutečně tvrdí.
 
 ## Pět praktických cvičení
 
-### 1. Knihy denně
+### 1. Denní čtení knihy
 
-Minimum 30 minut čtení knihy denně. Bez telefonu v dosahu. Stejný čas a místo, abyste vybudovali návyk.
+Denně alespoň půl hodiny čtěte knihu, bez telefonu v dosahu, ideálně ve stejný čas a na stejném místě. Na začátku stačí deset minut; čas postupně prodlužujte.
 
-### 2. Aktivní podtrhávání
+### 2. Čtení s tužkou
 
-Neexistuje pasivní hluboké čtení. Podtrhávejte, dělejte poznámky na okraj, polemizujte v marginalích.
+Hluboké čtení není pasivní. Podtrhávejte, pište otázky a námitky na okraj nebo do sešitu. Polemika s textem je známkou, že ho čtete sami.
 
-### 3. Shrnutí v mlčení
+### 3. Shrnutí po kapitole
 
-Po každé kapitole zavřete knihu a 5 minut psáno: 'Co jsem přečetl/a? Co je hlavní bod? Co s tím nesouhlasím?'
+Po každé kapitole zavřete knihu a pět minut pište: Co jsem přečetl? Jaký je hlavní bod? S čím nesouhlasím? Bez nahlížení do textu. Ukáže se, čemu jste porozuměli.
 
-### 4. Hloubka před šíří
+### 4. Hloubka před počtem
 
-Místo 50 knih ročně raději 12, ale pročtených dvakrát s reflexí. Hloubka transformuje, šířka informuje.
+Raději méně knih přečtených pozorně – i dvakrát – než mnoho knih přelétnutých. Hloubka mění myšlení, počet jen přidává informace.
 
 ### 5. Pomalý odstavec
 
-Týdně si vyberte 1 odstavec a strávte nad ním 20 minut. Co všechno tam je? Buduje to čtenářskou hloubku.
+Jednou týdně si vyberte jeden odstavec a věnujte mu dvacet minut. Co přesně tvrdí? Jaké pojmy používá? Co předpokládá a nevysloví? Kde by se dalo nesouhlasit? Totéž cvičení můžete použít na text, který vás znepokojil.
 
-## Časový rámec
+## Jak si vést záznam
 
-Denně 30 minut čtení; týdně 1 hodina hloubkové reflexe; měsíčně 1 dokončená kniha s shrnutím.
+Veďte si čtenářský deník: datum, kniha, shrnutí kapitol, otázky, námitky. Kromě toho, že posiluje porozumění, je deník i záznamem vlastního myšlení v čase – užitečným proti pozdějšímu tvrzení, že jste „vždycky věřili“ něčemu jinému. U důležitých dokumentů (smlouvy, rozhodnutí) si zapisujte, co jste pochopili a na co se zeptat.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Schopnost dokončit dlouhé texty; pocit hlubšího porozumění; kvalitnější vlastní myšlení.
+Denně půl hodiny čtení, týdně hodina hlubší reflexe, měsíčně jedna dočtená kniha se shrnutím. Pokrok poznáte podle toho, že dokončíte delší texty, že máte pocit hlubšího porozumění, že vaše vlastní myšlení je souvislejší a že snadno poznáte text, který nic netvrdí.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Hluboké čtení je proti módě. V profesi vyžadující rychlost je nutné kompenzovat hloubku ve volném čase.
+- Pokud čtení vázne kvůli potížím se soustředěním, pamětí nebo zrakem, nechte se vyšetřit lékařem.
+- U smluv a úředních dokumentů se před podpisem poraďte s advokátem nebo bezplatnou právní poradnou.
+- Pokud vás návrat k textům skupiny vrací do úzkosti nebo krize, pracujte s nimi s terapeutem; v akutní krizi volejte 116 123, v ohrožení života 112 nebo 155.
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md) — sebe-obrana (informační hygiena)
-- [Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md) — sebe-obrana (informační hygiena)
-- [Rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md) — sebe-obrana (informační hygiena)
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Nečtěte texty, které vás traumatizují, bez opory a bez možnosti přestat.
+- Nepovažujte délku textu za záruku kvality.
+- Netrestejte se za to, že čtení zpočátku nejde; schopnost se vrací postupně.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Hluboké čtení jde proti tempu doby; v profesích, které vyžadují rychlost, je potřeba si pro ně vyhradit volný čas. Potíže se čtením mohou mít i zdravotní příčinu (dyslexie, poruchy pozornosti, deprese, zrakové vady), kterou cvičení nevyřeší.
+
+## Související
+
+**Návody informační hygieny**
+
+- [Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md) – místo pro hluboký text v denním režimu.
+- [Rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md) – kde vzít čas.
+- [Řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md) – soustředění jako dovednost.
+- [Pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md) – čtení mimo vlastní obor.
+
+**Signatury a techniky**
+
+- [Detekční signatura: Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) – když slova zakrývají obsah.
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – mlžení pojmy.
+
+**Pojmy a teorie**
+
+- [Hermeneutika](@/glossary/hermeneutika.md) – nauka o výkladu textů.
+- [Hermeneutic Outsourcing / Hermeneutický outsourcing](@/glossary/hermeneuticky-outsourcing.md) – svěření výkladu někomu jinému.

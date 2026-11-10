@@ -1,6 +1,6 @@
 +++
 title = "Mandát etického ředitele"
-description = "Organizační obrana — mandát etického ředitele."
+description = "Etický ředitel nebo vedoucí compliance bez pravomocí je dekorace. Kapitola popisuje mandát, eskalační stupně, vlastní rozpočet, nezávislost a postup při zablokování."
 weight = 70
 
 [taxonomies]
@@ -8,95 +8,138 @@ tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["5-audit-committee-EA", "6-ombudsman-role", "8-policy-review-cycles", "9-shareholder-protection"]
+related_terms = ["4-whistleblower-mechanism", "5-audit-committee-EA", "6-ombudsman-role", "8-policy-review-cycles"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Mandát etického ředitele
 
-> **Bucket:** Governance · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Správa a řízení · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Bez vykonávacích pravomocí je etický ředitel pouze dekorativní funkcí — EA toto rozpozná a zneužije.
+Etický ředitel, vedoucí compliance nebo předseda etické komise je funkce, která má
+organizaci připomínat, že „můžeme“ neznamená „smíme“. Bez pravomocí, rozpočtu a přímé linky
+na nejvyšší orgán se však mění v dekoraci: vydává kodexy, organizuje školení a jeho zprávy
+končí v šuplíku. Epistemicky to má zvláštní důsledek – existence funkce vytváří dojem, že
+etika je „zařízena“, a tím snižuje ostražitost všech ostatních.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **mandát etického ředitele** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě je etický ředitel či compliance officer často součástí právního útvaru a podléhá
+generálnímu řediteli. Na univerzitě a ve výzkumných institucích plní podobnou roli etická
+komise pro výzkum a komise pro akademickou integritu; jejich slabinou bývá složení z kolegů,
+kteří jsou na posuzovaných osobách závislí (srov.
+[institucionální etická rada](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)).
+V nemocnici existují etické komise pro výzkum a klinické otázky, ale chybí často funkce,
+která by posuzovala etiku řízení. Ve veřejné správě má etický kodex často jen proklamativní
+povahu. V médiích je obdobou etická rada redakce, v neziskovém sektoru etická komise
+sdružení. Útok na tuto funkci má podobu marginalizace: funkce není zvána, nemá data, nemá
+čas.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Podřízenost osobě, jejíž rozhodnutí má funkce posuzovat.
+- Chybějící rozpočet na vlastní šetření a externí odborníky.
+- Žádné právo pozastavit rozhodnutí nebo eskalovat mimo linii řízení.
+- Kumulace s jinou rolí (právník organizace, HR), která vede ke střetu loajalit.
+- Měření úspěchu počtem proškolených lidí místo počtem vyřešených problémů.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Mandát schválený nejvyšším orgánem s výslovnými pravomocemi: přístup ke všem dokumentům
+  a lidem, zahájení šetření, doporučení s povinností odpovědi.
+- Eskalační žebřík: upozornění vedoucímu útvaru → vedení → výbor nejvyššího orgánu (např.
+  [auditní výbor](@/kompendium/organizational-defense/5-audit-committee-EA.md)) → v krajním
+  případě vnější orgán; každý stupeň má lhůtu na odpověď a nečinnost znamená automatický
+  postup na další stupeň.
+- Právo pozastavit vybrané transakce nebo rozhodnutí do posouzení (např. dary nad limit,
+  transakce se spřízněnými osobami, výjimky z politik).
+- Vlastní rozpočet na šetření a odborníky.
+- Odvolání jen rozhodnutím nejvyššího orgánu s odůvodněním. Rámcem pro systém řízení může
+  být norma ISO 37301 (systémy řízení compliance) a pro oblast úplatkářství ISO 37001.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Definujte tří úrovňový eskalátor (warning → board → public) s 30denní deadline na odpověď a automatickou eskalací při nečinnosti.
+Etický ředitel vlastní etický kodex, politiku střetu zájmů a obvykle i vnitřní oznamovací
+systém; může být i příslušnou osobou podle zákona č. 171/2023 Sb., pokud tím neohrozí její
+nestrannost. Nejvyšší orgán odpovídá za jeho nezávislost. Vedení odpovídá za odpověď na
+doporučení ve lhůtě. Ombudsman s ním spolupracuje bez sdílení identit. Interní audit ověřuje,
+že doporučení byla splněna.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Etický kodex psaný pro konkrétní dilemata organizace, nikoli obecné hodnoty.
+2. Registr etických podnětů a doporučení s termíny, odpovědností a stavem.
+3. Eskalační postup s lhůtami (například třicet dní na odpověď) a s automatickým postupem.
+4. Roční zpráva nejvyššímu orgánu bez úprav ze strany vedení.
+5. Revize kodexu a politik ve stanoveném cyklu – viz
+   [cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Etický ředitel potřebuje znalost práva, ale i schopnost rozpoznat, jak se etická
+argumentace zneužívá: [motte-and-bailey](@/glossary/motte-and-bailey.md) (silné tvrzení se
+při kritice stáhne na neškodné), [přesouvání viny](@/glossary/blame-shifting.md) nebo
+přeznačení problému na „komunikační nedorozumění“. Pro zaměstnance je účinnější školení na
+dilematech vlastního oboru než obecný e-learning. Vedení má jednou ročně projít simulaci,
+v níž samo stojí na straně posuzovaného.
 
-- Etické zprávy končí v šuplíku, ředitel nemá rozpočet, není zván na klíčové schůze.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+1. Etický ředitel přijme podnět, posoudí jeho závažnost a rozhodne o postupu (doporučení,
+   šetření, předání).
+2. Při podezření, že je do věci zapojen člen vedení, postoupí věc přímo výboru nejvyššího
+   orgánu.
+3. Zajistí podklady a vyžádá si stanoviska dotčených stran.
+4. Vydá písemné doporučení s lhůtou; při nečinnosti eskaluje.
+5. Zaznamená poučení pro revizi politik a pro [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
 
-## 5. Best practices
+## Ochrana dotčené osoby
 
-Veto právo na vybrané transakce, přímý reporting do board, vlastní vyšetřovací rozpočet.
+Kdo se na etického ředitele obrátí, musí vědět, co se s jeho podnětem stane a kdo se o něm
+dozví. Ten, kdo upozornil na neetickou praxi nadřízeného, potřebuje stejnou ochranu před
+odvetou jako oznamovatel. Osoba, proti níž podnět směřuje, má právo se vyjádřit a nesmí být
+předem odsouzena. Pokud dotčená osoba utrpěla psychickou újmu, etický ředitel ji odkáže na
+podporu (viz [asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)).
 
-**Dodatečné principy:**
+## Vyhodnocení a indikátory selhání
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+- Etické zprávy končí v šuplíku, funkce nemá rozpočet a není zvána na klíčová jednání.
+- Doporučení zůstávají bez odpovědi a eskalace se nekoná.
+- Etický ředitel se střídá často nebo odchází po nepříjemném zjištění.
+- Kodex obsahuje jen obecné hodnoty a nikdo podle něj nerozhodl konkrétní případ.
 
-## 6. Cross-linky
+Metriky: počet doporučení, podíl splněných ve lhůtě, počet eskalací, důvěra zaměstnanců
+ve funkci.
 
-- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
-- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
-- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
-- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
-- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
-- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+## Meze a otevřené otázky
 
-## 7. Connect
+Etický ředitel nemůže nahradit etiku vedení; může ji jen zviditelnit. Silný mandát nese
+opačné riziko – funkci lze zneužít k umlčování nepohodlných lidí pod záminkou etiky (viz
+[EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)).
+Proto i etický ředitel podléhá kontrole a jeho rozhodnutí jsou přezkoumatelná.
 
-## Connect
+## Související
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Sesterské kapitoly**
+
+- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md) – neformální
+  partner etické funkce.
+- [Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)
+  – systém, který etický ředitel často vlastní.
+- [Auditní výbor proti EA](@/kompendium/organizational-defense/5-audit-committee-EA.md) –
+  eskalační adresát.
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) –
+  údržba kodexu a politik.
+
+**Techniky a pojmy**
+
+- [EA-3.3.1 Institucionální etická rada](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+  – návrh nezávislého etického orgánu.
+- [Motte and Bailey](@/glossary/motte-and-bailey.md) – typický únik z etické kritiky.
+- [Blame shifting](@/glossary/blame-shifting.md) – přesouvání odpovědnosti.
+
+**Kritika**
+
+- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md) –
+  když se etická funkce sama stane nástrojem moci.

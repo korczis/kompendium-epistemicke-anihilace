@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Step-down program po EA-emergency"
-description = "Akutní intervenční protokol — step-down program z hospitalizace do ambulantní péče."
+title = "Akutní protokol: Stupňovitý přechod z hospitalizace do ambulantní péče"
+description = "Protokol pro postupný přechod z hospitalizace přes denní stacionář a intenzivní ambulantní péči: kritéria stupňů, kontinuita terapeuta, varovné signály a samostatnost."
 weight = 32
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "interventions"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,136 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Step-down program po EA-emergency
+# Akutní protokol: Stupňovitý přechod z hospitalizace do ambulantní péče
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 32** · skupina Přechody do zotavení · okno: týdny až měsíce po hospitalizaci
+>
+> **Stupňovitý přechod není náhrada krizové péče.** Při akutním zhoršení platí akutní protokoly
+> a v ohrožení života 155; plán musí umožnit rychlý návrat na vyšší stupeň.
 
-## 1. Klinická situace
+## Indikace
 
-Pacient přechází z full hospitalizace přes partial hospitalization program (PHP) nebo intensive outpatient program (IOP) do plně ambulantní péče. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **step-down program z hospitalizace do ambulantní péče** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije, když pacient po hospitalizaci kvůli krizi související s [epistemickou
+anihilací](@/glossary/epistemicka-anihilace.md) potřebuje víc než běžné ambulantní kontroly, ale
+plnou hospitalizaci už ne. Stupně péče se v různých systémech jmenují různě; v českém prostředí
+jde typicky o denní stacionář, intenzivní ambulantní péči (např. v centru duševního zdraví s
+terénní složkou), krizové a rehabilitační služby a běžnou ambulantní psychiatrickou a
+psychoterapeutickou péči.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+U lidí po EA má stupňovitý přechod zvláštní význam: struktura a předvídatelnost pomáhají
+obnovit vlastní úsudek postupně, bez náhlého skoku z prostředí, kde o všem rozhodoval
+někdo jiný (oddělení, dříve skupina či partner), do úplné samostatnosti. Přechod by měl
+pacientovi vracet rozhodování krok za krokem.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední kroky
 
-1. **Stanov tier criteria** — co je požadavek pro pohyb na další level (symptom severity, functional capacity, social support).
-2. **Zachovej kontinuitu therapist** — ne switch při každém step-down; preferuj clinician, který provází přes celé continuum.
-3. **Plánuj relapse warning signs explicitně** — write-down signs konkrétní pro tohoto pacienta, ne generický seznam.
-4. **Build community-based scaffolding** — peer support skupiny, vocational rehabilitation, sober/safe housing pokud potřeba.
-5. **Setup graduated independence** — denní → 3× týdně → týdně sessions s explicitním timeline.
+1. **Kritéria stupňů.** Pro každý stupeň stanov s pacientem, co je podmínkou přechodu dál
+   (zvládání příznaků, fungování, bezpečí, opora) a co je signálem návratu o stupeň výš.
+2. **Kontinuita vztahu.** Pokud to systém dovolí, ať pacienta provází alespoň jeden stálý
+   klinik napříč stupni; každá výměna terapeuta znamená nové budování důvěry.
+3. **Individuální varovné signály** zapsané konkrétně (ne obecný seznam), viz [protokol č. 33](@/kompendium/emergency-protocols/33-relapse-recognition.md).
+4. **Komunitní opora:** skupiny vzájemné podpory, pracovní rehabilitace, bezpečné bydlení,
+   pokud je potřeba.
+5. **Postupná samostatnost** s časovým rámcem: denní kontakt → několikrát týdně → týdně → podle
+   potřeby; každé snížení se vyhodnotí.
 
-## 3. Stabilizace
+## Posouzení na každém stupni
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Příznaky** a jejich vývoj (strukturovaně, s pacientovým vlastním hodnocením).
+- **Fungování:** režim dne, práce či studium, péče o sebe, finance.
+- **Bezpečí:** kontakt pachatele či skupiny, bydlení, výhrůžky.
+- **Sociální síť:** kolik bezpečných vztahů má pacient mimo péči.
+- **Vlastní úsudek:** zda pacient zvládá menší i větší rozhodnutí; zda se neobjevuje nová
+  závislost na autoritě (i terapeutické).
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Kritéria stupně splněna | přechod o stupeň níž, s domluveným vyhodnocením |
+| Varovné signály relapsu | návrat o stupeň výš, plán včasné reakce |
+| Akutní krize | akutní protokoly, případně znovupřijetí; [protokol č. 34](@/kompendium/emergency-protocols/34-relapse-emergency.md) |
+| Ohrožení ze strany třetí osoby | bezpečnostní plán, Policie ČR (158) |
+| Pacient chce péči ukončit dřív | rozhovor o důvodech, [protokol č. 35](@/kompendium/emergency-protocols/35-treatment-noncompliance.md) |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Pro každý stupeň zapiš cíle, kritéria přechodu, datum hodnocení, kdo odpovídá za koordinaci a
+jak je zajištěn kontakt mimo pracovní dobu. Zapisuj i pacientovo hodnocení – plán je společný a
+záznam to má ukazovat.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Konec stupňovitého přechodu je začátkem dlouhodobé rekonstrukční práce: [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md),
+[obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md),
+[vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md) a
+[dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md).
+Pomáhá i [pracovní rehabilitace](@/kompendium/prevention-resilience/25-vocational-rehabilitation-prevention.md)
+a [obnova sociální sítě](@/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Skok z hospitalizace rovnou na řídké kontroly.**
+- **Výměna terapeuta při každém stupni** bez předání.
+- **Kritéria stupňů stanovená bez pacienta** – opakují zkušenost, že o něm rozhoduje někdo jiný.
+- **Snížení intenzity jako „odměna“** a zvýšení jako „trest“.
+- **Nová závislost** na programu nebo terapeutovi, která se neřeší.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Pacient se podílí na každém rozhodnutí o změně stupně a má právo péči ukončit nebo změnit.
+Program nesmí kopírovat strukturu skupiny: povinné „vyznávání“, kolektivní tlak, hierarchie bez
+možnosti nesouhlasu. Transparentní pravidla, možnost stížnosti a respekt k vlastnímu tempu jsou
+součástí léčby, protože obnovují zkušenost, že lze nesouhlasit a zůstat v bezpečí.
 
-**Glossary reference:**
+## Specifika epistemické anihilace
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+Struktura programu, která pacientovi pomáhá, se může snadno změnit v prostředí, které připomíná skupinu: pevný denní řád, skupinová sezení, hodnocení pokroku, autorita terapeutů. Rozdíl je v průhlednosti a možnosti nesouhlasu. Pacient po EA by měl vědět, proč jednotlivé části programu existují, smět některé odmítnout a vidět, že nesouhlas nemá trestní důsledky. Ve skupinové terapii je třeba hlídat dynamiku, ve které se jeden člen stane „hvězdou“ nebo naopak terčem, a konfrontační styly, které připomínají veřejné „napravování“. Dobrým ukazatelem zdravého průběhu je, že pacient postupně častěji rozhoduje sám a méně se ptá, „co je správně“.
 
-**Platformové reference:**
+## Komunikace v akutní fázi
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Až budete v pořádku, pustíme vás.“ | „Tady jsou kritéria, která jsme spolu stanovili.“ | předvídatelnost |
+| „Vracíte se na oddělení, nezvládl jste to.“ | „Na dva týdny přidáme kontakty, abyste měl víc opory.“ | stupeň není trest |
+| „Teď dostanete jiného terapeuta.“ | „Paní X vás bude provázet i dál, přibude jen…“ | kontinuita vztahu |
+| „Program je povinný celý.“ | „Které části vám pomáhají a které ne?“ | pacient spoluurčuje plán |
 
-## 6. Connect
+Při každém přechodu pomáhá krátké společné shrnutí: co pacient zvládl, co ho čeká, kdo je kontakt. Pojmenování pokroku je pro lidi po EA protiváhou dlouhodobého znehodnocování.
+
+## Modelová situace
+
+Žena po hospitalizaci pro těžkou depresi po odchodu z kontrolujícího manželství nastoupí do
+denního stacionáře. S terapeutkou si stanoví, že po čtyřech týdnech bez sebepoškození a s
+pravidelným spánkem přejde na intenzivní ambulantní péči. Při rozvodovém jednání se objeví
+nespavost; na dva týdny se vrátí k častějším kontaktům a pak pokračuje dál.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Most po propuštění](@/kompendium/emergency-protocols/31-post-discharge-bridge.md) – první
+  dny po hospitalizaci.
+- [Rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md) – kdy se
+  vrátit o stupeň.
+- [Akutní relaps](@/kompendium/emergency-protocols/34-relapse-emergency.md) – když se krize
+  vrátí.
+
+**Dlouhodobá péče a prevence**
+
+- [Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md) –
+  návrat dovedností.
+- [Středně-dobá vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md) –
+  návrat do práce.
+- [Obnova sociální sítě](@/kompendium/prevention-resilience/22-post-EA-network-rebuilding.md) –
+  vztahy mimo péči.
+
+**Pojmy**
+
+- [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – co se postupně vrací.
+- [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – cíl přechodu.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +151,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #32 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 32 · v18.4.0*

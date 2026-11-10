@@ -1,6 +1,6 @@
 +++
 title = "Právní podpora v krizi"
-description = "Organizační obrana — právní podpora v krizi."
+description = "V epistemické krizi potřebuje organizace právníka, který chrání ji i dotčené, ne jen pověst vedení. Kapitola popisuje výběr, nezávislost, střet rolí a povinnosti vůči úřadům."
 weight = 330
 
 [taxonomies]
@@ -8,95 +8,142 @@ tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["31-incident-response-EA", "32-internal-investigation", "34-PR-narrative-defense", "35-employee-assistance-EA"]
+related_terms = ["31-incident-response-EA", "32-internal-investigation", "34-PR-narrative-defense", "38-leadership-replacement"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Právní podpora v krizi
 
-> **Bucket:** Krizová reakce · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Krizová reakce · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Bez specializovaného právního zastoupení je organizace v EA krizi rozbita ze strany regulátorů, médií i interně.
+Krize, v níž jde o manipulaci, zneužití moci nebo zkreslování informací uvnitř organizace,
+má vždy právní rozměr: pracovněprávní vztahy, ochrana oznamovatelů, ochrana osobních údajů,
+odpovědnost členů orgánů, možné trestné činy, komunikace s úřady a médii. Interní právník,
+který běžně řeší smlouvy, na ni často nestačí – a navíc může být ve střetu, pokud podléhá
+vedení, jehož se krize týká. Kapitola popisuje, jak právní podporu zajistit předem a jak
+zabránit tomu, aby se z ní stal nástroj obrany vedení proti vlastním lidem.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **právní podpora v krizi** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě je typickým rizikem „obranný“ právní postoj: minimalizovat odpovědnost, zpochybnit
+stěžovatele, podepsat dohody o mlčenlivosti. Ve škole a v organizacích pracujících s dětmi
+jde o povinnosti vůči orgánům sociálně-právní ochrany dětí a policii, které nelze
+„vyřešit interně“ (viz [ochrana dětí](@/kompendium/forensic-legal/47-child-protection-EA.md)).
+V nemocnici o práva pacientů a o povinnosti při nežádoucích událostech. Ve veřejné správě o
+odpovědnost úředních osob a o žádosti podle zákona o svobodném přístupu k informacím. Na
+univerzitě o disciplinární řízení a akademické svobody. V médiích o tiskové právo a riziko
+žalob za [pomluvu](@/kompendium/forensic-legal/14-defamation-EA.md). V neziskové
+organizaci o odpovědnost vůči dárcům. Zvláštním rizikem je strategické zastrašování
+kritiků žalobami, které nemají vést k rozhodnutí, ale k umlčení.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Krizová rozhodnutí dělá interní právník bez specializace a bez vnějšího pohledu.
+- Právník podléhá osobě, jejíž jednání je předmětem krize.
+- Právník organizace radí i jednotlivým členům vedení a zaměňuje jejich zájmy se zájmy
+  organizace.
+- Reaktivní postoj: právník přijde až po prvním mediálním článku nebo žalobě.
+- Právní strategie spoléhá na mlčenlivost obětí, nikoli na nápravu.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Předem uzavřená smlouva s kanceláří specializovanou na správu a řízení společností,
+  pracovní právo a vyšetřování, dostupná do několika hodin.
+- Jasné určení klienta: právník zastupuje organizaci (jednající přes nejvyšší orgán nebo
+  jeho výbor), nikoli jednotlivé členy vedení; ti mají vlastní právníky.
+- Nezávislost na dotčených: u krizí týkajících se vedení zadává práci nejvyšší orgán.
+- Výslovné pravidlo, že dohody o mlčenlivosti nesmí bránit oznámení protiprávního jednání
+  úřadům ani ochraně podle zákona č. 171/2023 Sb.
+- Koordinace s krizovým týmem – viz [reakce na incident](@/kompendium/organizational-defense/31-incident-response-EA.md)
+  – a s komunikací, aby právní a komunikační linie byly v souladu.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Mějte předem retainer s firmou specializovanou na corporate governance a employment law (ne pouze general counsel).
+Externí právník posuzuje povinnosti, rizika a možnosti, navrhuje postup a zastupuje
+organizaci vůči úřadům a soudům. Interní právník koordinuje, poskytuje kontext a dokumenty.
+Nejvyšší orgán rozhoduje o strategii. Vedoucí krizového týmu zajišťuje, aby právní rady byly
+zohledněny spolu s potřebami dotčených lidí. Pověřenec pro ochranu osobních údajů posuzuje
+zpracování údajů v krizi.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Seznam externích kanceláří a odborníků s kontakty a smluvními podmínkami.
+2. Pravidla zadání: kdo může právníka v krizi angažovat a kdo je klient.
+3. Postup pro posouzení povinnosti oznámit (trestný čin, ohrožení dětí, porušení ochrany
+   údajů) – viz [povinné hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md).
+4. Pravidla pro dohody s odcházejícími a pro mlčenlivost.
+5. Blokace mazání a zajištění dokumentů na pokyn právníka.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Vedení a krizový tým se učí, kdy volat právníka a co mu sdělit. Právníci, kteří s
+organizací pracují, by měli rozumět psychologickému rozměru epistemických incidentů:
+že výpovědi obětí dlouhodobé manipulace mohou být roztříštěné, že stěžovatel může
+působit „nestabilně“ právě kvůli tomu, co prožil, a že tvrdý postup proti němu může vést k
+[retraumatizaci](@/glossary/retraumatizace.md) i k vážnému reputačnímu poškození
+organizace. Užitečná je znalost [pracovního práva v kontextu EA](@/kompendium/forensic-legal/44-employment-law-EA.md)
+a [doktríny nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md).
 
-- Krizové rozhodnutí dělá general counsel bez specializace, žádný outside expert, reactive právní postoj.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+1. Do prvního dne: kontakt s externím právníkem, posouzení bezprostředních povinností,
+   blokace mazání.
+2. Do prvního týdne: právní posouzení skutkového stavu, zadání nebo dohled nad
+   [interním vyšetřováním](@/kompendium/organizational-defense/32-internal-investigation.md),
+   komunikace s úřady, je-li povinná.
+3. Průběžně: konzultace komunikačních výstupů, posouzení opatření vůči osobám, ochrana
+   oznamovatelů.
+4. Po skončení: vyhodnocení právních rizik a návrhy změn předpisů.
 
-## 5. Best practices
+**Příklad (anonymizovaný kompozit).** Po stížnostech na šéfa redakce navrhl interní
+právník vydavatelství odstupné výměnou za mlčenlivost pro všechny stěžovatelky. Externí
+kancelář, kterou angažovala dozorčí rada, upozornila, že takové dohody nesmí bránit oznámení
+úřadům a že organizace by tím převzala riziko opakování. Vydavatelství zvolilo nezávislé
+vyšetřování a změnu vedení.
 
-Pre-engaged crisis counsel, defined escalation, regular tabletop exercises, privileged communication channels.
+## Ochrana dotčené osoby
 
-**Dodatečné principy:**
+Právní strategie organizace nesmí stát na umlčení dotčených. Oznamovatelé a svědci mají
+ochranu podle zákona č. 171/2023 Sb.; směrnice EU 2019/1937, kterou zákon provádí, výslovně
+stanoví, že práva oznamovatelů nelze vyloučit ani omezit dohodou. Dotčené osoby by měly být upozorněny, že mohou mít vlastního právníka.
+Organizace může zvážit příspěvek na jejich právní poradenství, zejména tam, kde je
+asymetrie sil zřejmá.
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Vyhodnocení a indikátory selhání
 
-## 6. Cross-linky
+- Krizové rozhodnutí dělá interní právník bez specializace, bez vnějšího odborníka, s
+  reaktivním postojem.
+- Právník organizace hájí jednotlivé členy vedení.
+- Opatření se omezují na dohody o mlčenlivosti.
+- Úřady se o incidentu dozvídají z médií.
 
-- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
-- [Politika rotace týmů](@/kompendium/organizational-defense/17-team-rotation-policy.md)
-- [Hodnocení supervizorů](@/kompendium/organizational-defense/18-supervisor-evaluation.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+## Meze a otevřené otázky
 
-## 7. Connect
+Právní pohled je nutný, ale nestačí: co je právně obhajitelné, nemusí být spravedlivé ani
+uzdravující. Nadměrná opatrnost (nic neříkat, nic nepřiznat) poškozuje důvěru zaměstnanců i
+veřejnosti. Otevřené zůstává, jak sladit právní ochranu organizace s potřebou veřejného
+přiznání pochybení, které je často podmínkou [kulturní obnovy](@/kompendium/organizational-defense/39-cultural-rebuild.md).
 
-## Connect
+## Související
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Sesterské kapitoly**
+
+- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
+  – krizový tým, jehož je právník součástí.
+- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md) –
+  právní dohled nad šetřením.
+- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md) –
+  soulad právní a komunikační linie.
+- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md) – právní
+  stránka výměny vedení.
+
+**Právo**
+
+- [Pracovní právo](@/kompendium/forensic-legal/44-employment-law-EA.md) – pracovněprávní rámec.
+- [Doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md)
+  – právní pojetí manipulace.
+- [Povinné hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md) – kdy je
+  oznámení povinné.
+- [Legal emergency v EA-kontextu](@/kompendium/emergency-protocols/39-legal-emergency.md) –
+  akutní právní situace.

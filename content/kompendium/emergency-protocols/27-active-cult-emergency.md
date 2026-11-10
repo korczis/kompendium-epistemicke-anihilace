@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Aktivní kult emergency"
-description = "Akutní intervenční protokol — emergency u aktivního člena kultu."
+title = "Akutní protokol: Aktivní člen kultu v akutní krizi"
+description = "Protokol pro akutní krizi člověka, který je stále loajálním členem kultu nebo high-control skupiny: řešit krizi, ne přesvědčení, zachovat kontakt a chránit práva."
 weight = 27
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "cult"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,138 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Aktivní kult emergency
+# Akutní protokol: Aktivní člen kultu v akutní krizi
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 27** · skupina Cílové populace · okno: akutní kontakt a navázání vztahu
+>
+> **Ohrožení života = 155; omezování svobody, násilí, ohrožení dětí = Policie ČR (158).**
+> Členství ve skupině samo o sobě není důvodem k nedobrovolnému zásahu.
 
-## 1. Klinická situace
+## Indikace
 
-Aktivní člen kultu v emergency situaci — typicky osoba kontaktována rodinou nebo dorazí z vlastní iniciativy v krizi, ale stále loajální ke skupině. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency u aktivního člena kultu** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije, když do kontaktu s pomáhající profesí přijde člověk, který je stále aktivním
+a loajálním členem kultu nebo jiné [high-control group](@/glossary/high-control-group.md), a je v
+akutní krizi: vyčerpání, somatické onemocnění neléčené kvůli pravidlům skupiny, deprese,
+sebevražedné myšlenky, psychotická dekompenzace, zranění. Často ho přivede rodina, někdy přijde
+sám, ale skupinu hájí a odchod nezvažuje. Pro situaci, kdy člověk odejít chce, platí
+[protokol č. 8](@/kompendium/emergency-protocols/8-emergency-extraction-cult.md).
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Hlavní poučka zní: **řeš krizi, ne přesvědčení**. Pokus „převrátit“ člověka během akutní krize
+obvykle selže – přímá konfrontace s učením skupiny zvyšuje loajalitu, protože potvrzuje, co
+skupina říká o vnějším světě. Krize je naopak příležitostí ukázat, že mimo skupinu existuje
+respektující a bezpečný kontakt; ten může být za měsíce či roky tím, k čemu se člověk vrátí.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Nezahrávej se s direct deprogramming** — zvyšuje commitment ke skupině (cognitive dissonance reduction).
-2. **Použij Strategic Interaction Approach (SIA)** — ne konfrontace, ale otázky vedoucí k vlastnímu kritickému myšlení.
-3. **Adresuj akutní crisis (suicidalita, decompenzace) bez pokusu „převrátit" osobu z kultu během akutní fáze** — Adresuj akutní crisis (suicidalita, decompenzace) bez pokusu „převrátit" osobu z kultu během akutní fáze.
-4. **Zachovej kontakt** — i když osoba zůstává v kultu po emergency, otevřená dveře pro budoucí výstup.
-5. **Educate rodinu o long game** — exit z kultu typicky trvá 2–7 let; jejich role je consistent, non-judgmental presence.
+1. **Ošetři akutní stav** stejně jako u jiného pacienta: somatika, suicidalita
+   ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)), psychotické příznaky
+   ([protokol č. 3](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)).
+2. **Mluv s pacientem samostatně,** bez doprovodu ze skupiny i bez rodiny, pokud o to požádá.
+3. **Respektuj jazyk a víru.** Neber učení skupiny jako téma k debatě; ptej se, co pacient
+   potřebuje, co mu pomáhá, co se mu stalo.
+4. **Vysvětli léčbu tak, aby mohl rozhodovat.** Pokud skupina odmítá některé postupy (léky,
+   transfuze, hospitalizaci), poskytni úplné informace o rizicích a o alternativách a ověř, že
+   rozhodnutí je jeho, ne diktované přítomnou osobou.
+5. **Bezpečí dětí:** pokud ve skupině žijí děti a existují známky jejich ohrožení, postupuj
+   podle [protokolu č. 9](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md).
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Akutní stav** a jeho příčiny (vyčerpání, nedostatek spánku, půsty, náročné praktiky).
+- **Míra kontroly:** komunikace, finance, rozhodování o zdraví, kontakt s rodinou (model
+  [BITE](@/glossary/bite-model.md) jako orientační mapa, ne diagnostický nástroj).
+- **Svoboda rozhodnutí:** zda pacient může mluvit bez dozoru, zda se bojí trestu za to, že vyhledal
+  pomoc, zda je mu bráněno v odchodu.
+- **Rizika:** fyzické tresty, sexuální zneužívání, vykořisťování práce, ohrožení dětí.
+- **Zdroje mimo skupinu:** kdo z rodiny či přátel je pro pacienta stále přijatelný.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Ohrožení života, somatická urgence | 155, standardní léčba |
+| Pacient odmítá léčbu se zachovanou kapacitou | respektovat, poskytnout informace, nabídnout návrat; dokumentovat |
+| Pacient odmítá léčbu, ale je zjevně pod nátlakem přítomné osoby | mluvit o samotě, ověřit svobodnou vůli; při omezování svobody policie |
+| Ohrožení dětí | OSPOD a policie |
+| Rodina chce pacienta „vyvést“ proti jeho vůli | vysvětlit protiprávnost a rizika, nabídnout poradenství rodině |
+| Stabilizace, pacient se vrací do skupiny | otevřené dveře, kontakt pro případ potřeby, plán bezpečí |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš akutní stav a léčbu, pacientova rozhodnutí v jeho slovech, poskytnuté informace o rizicích,
+posouzení kapacity a svobody rozhodnutí (kdo byl přítomen), známky ohrožení dalších osob.
+Popis skupiny drž věcný a bez hodnocení; dokumentace se může dostat do rukou skupiny, pokud ji
+pacient sdílí, a hodnotící formulace by kontakt uzavřely.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Cílem je zachovat kontakt: domluvit možnost se ozvat, kontrolu zdravotního stavu, předat kontakt
+na odborníka se zkušeností s high-control skupinami. Rodině pomůže poradenství o tom, jak udržet
+vztah bez ultimát – konzistentní, neodsuzující přítomnost je pro pozdější odchod podstatnější než
+argumenty. Přístupy, které místo konfrontace podporují vlastní kritické myšlení člověka, popisuje
+Hassan (1988, 2015). Pokud pacient později odejde, navazuje
+[protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Konfrontace s učením** a zesměšňování vedoucího.
+- **Podmiňování péče odchodem ze skupiny.**
+- **Nucené „vyvedení“ nebo zadržení** z důvodu členství.
+- **Diagnóza z víry:** přesvědčení sdílené skupinou není samo o sobě bludem.
+- **Spolupráce s rodinou za pacientovými zády.**
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Dospělý člověk má právo na víru i na členství ve skupině, kterou okolí považuje za škodlivou.
+Odborník chrání jeho zdraví a svobodu rozhodnutí, ne „správný“ světonázor. Hranicí je ohrožení
+života, omezování svobody a ohrožení dětí; tam platí zákon bez ohledu na ideologii. Respekt k
+osobě, ne k pravidlům skupiny, je nejsilnějším protiváhou toho, co skupina o „vnějším světě“
+učí.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Musíte z té sekty odejít.“ | „Co potřebujete teď, aby vám bylo líp?“ | krize, ne přesvědčení |
+| „Váš vedoucí vás zneužívá.“ | „Jak se ve skupině rozhoduje o zdraví?“ | otázka místo útoku |
+| „Bez léčby umřete, je to vaše chyba.“ | „Tady jsou rizika a možnosti. Rozhodnutí je vaše.“ | informované rozhodnutí |
+| „Kdyby vás to přestalo bavit, víte, kde nás najdete.“ (ironicky) | „Kdykoli budete potřebovat, můžete přijít.“ | otevřené dveře |
 
-**Platformové reference:**
+Otázky, které vedou k vlastnímu přemýšlení („Jak byste poznal, že se mýlíte?“, „Co by se stalo, kdybyste se zeptal?“), mají smysl až mimo akutní fázi a jen v respektujícím vztahu.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Muž ve skupině s přísnými půsty je přivezen s kolapsem a těžkou dehydratací. Rodiče, kteří ho
+přivezli, chtějí, aby ho lékař „nepustil zpátky“. Lékař ho léčí, mluví s ním o samotě a ptá se,
+co potřebuje. Muž po zotavení odchází do skupiny; lékař mu dá kontakt pro případ potíží a
+rodičům doporučí poradnu, kde se naučí udržet s ním vztah bez nátlaku.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Akutní odchod z kultu](@/kompendium/emergency-protocols/8-emergency-extraction-cult.md) – když
+  člověk odejít chce.
+- [Bývalý člen kultu v krizi](@/kompendium/emergency-protocols/28-ex-cult-emergency.md) – krize
+  po odchodu.
+- [Debrief rodiny](@/kompendium/emergency-protocols/14-family-emergency-debrief.md) – práce s
+  rodinou.
+
+**Právo a historie**
+
+- [Právní aspekty deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md) –
+  meze zásahů rodiny.
+- [Náboženské výjimky](@/kompendium/forensic-legal/48-religious-exemption-EA.md) – víra a péče.
+- [Historický případ: Jonestown](@/kompendium/historical-cases/11-jonestown.md) – extrémní
+  vyústění kontroly.
+
+**Pojmy**
+
+- [High-control group](@/glossary/high-control-group.md) – vymezení prostředí.
+- [BITE model](@/glossary/bite-model.md) – mapování kontroly.
+- [Thought stopping](@/glossary/thought-stopping.md) – proč argumenty nepronikají.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +153,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #27 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 27 · v18.4.0*

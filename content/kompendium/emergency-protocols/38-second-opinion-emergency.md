@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Akutní second opinion request"
-description = "Akutní intervenční protokol — emergency request na second opinion."
+title = "Akutní protokol: Žádost o druhý názor v akutní situaci"
+description = "Protokol pro naléhavou žádost pacienta po epistemické anihilaci o druhý názor na diagnózu či léčbu: legitimita žádosti, volba odborníka, koordinace a řešení rozporů."
 weight = 38
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "ethics"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,135 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Akutní second opinion request
+# Akutní protokol: Žádost o druhý názor v akutní situaci
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 38** · skupina Přechody do zotavení · okno: od žádosti do sjednocení postupu
+>
+> **Druhý názor nesmí odložit neodkladnou péči.** Při bezprostředním ohrožení života se jedná
+> podle akutních protokolů (155) a druhý názor se zajišťuje souběžně nebo bezprostředně poté.
 
-## 1. Klinická situace
+## Indikace
 
-EA-pacient v akutní situaci požaduje second opinion — diagnostická nebo léčebná divergence, kritické rozhodnutí (hospitalizace, medikace, custody). Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency request na second opinion** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije, když pacient po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
+nebo jeho zákonný zástupce v kritické situaci požádá o nezávislé posouzení: nesouhlasí s
+diagnózou, s navrženou hospitalizací, s medikací, s doporučením, které má vliv na péči o děti nebo
+na právní řízení. Žádost o druhý názor je právem pacienta (zákon č. 372/2011 Sb., o zdravotních
+službách, mu přiznává právo vyžádat si konzultaci jiného poskytovatele) a není projevem „odporu“.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+U lidí po EA má žádost často hlubší význam: člověk, jehož vnímání bylo léta zpochybňováno,
+potřebuje vědět, že jeho pochybnost je legitimní a že se o jeho situaci nerozhoduje jediným
+hlasem. Zároveň může žádost vycházet z vlivu třetí osoby – pachatel nebo skupina mohou chtít
+„svého“ odborníka, který potvrdí jejich výklad.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední kroky
 
-1. **Validate request** — second opinion je legitimní pacientovo právo, ne sign of „resistance".
-2. **Identify expert** — ne random clinician, ale clinician s relevant expertise (cult-aware, trauma-specialist, EA-fluent).
-3. **Coordinate handoff** — share documentation, dialog mezi opinions, ne paralelní silos.
-4. **Resolve discrepancies** — pokud opinions divergent, multidisciplinární konzilium ne unilateral decision.
-5. **Document process** — pro pacientovu transparentnost a future reference.
+1. **Přijmi žádost jako legitimní.** „Rozumím, že chcete, aby to posoudil ještě někdo jiný. To je
+   vaše právo. Pojďme se domluvit, jak to zajistit.“
+2. **Zhodnoť naléhavost.** Lze rozhodnutí odložit do druhého názoru bez ohrožení? Pokud ne,
+   vysvětli proč a zajisti neodkladnou péči s tím, že posouzení proběhne co nejdřív.
+3. **Zjisti, o co jde:** který závěr pacient zpochybňuje a proč, čeho se obává.
+4. **Ověř, čí je žádost.** Mluv s pacientem o samotě; zjisti, zda za žádostí není tlak jiné osoby
+   a zda navrhovaný odborník není s touto osobou spojen.
+5. **Neber žádost osobně** a nepodmiňuj další péči jejím stažením.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Předmět sporu:** diagnóza, léčba, hospitalizace, posudek pro soud, péče o dítě.
+- **Kontext EA:** zda diagnóza nebo zpráva může být využita pachatelem (např. v rozvodovém sporu
+  jako „důkaz“ nestability), zda pacient zažil [iatrogenní poškození](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md).
+- **Potřebná odbornost:** trauma, [disociace](@/glossary/disociace.md), high-control skupiny, dětská psychiatrie,
+  forenzní psychiatrie – druhý názor má posoudit někdo s odpovídající zkušeností, ne náhodně
+  dostupný kolega.
+- **Nezávislost:** odborník bez vazby na první posuzovatele i na strany sporu.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Neodkladná situace | jednat podle akutních protokolů, druhý názor zajistit souběžně |
+| Odkladná situace | zajistit druhý názor, mezitím bezpečný provizorní plán |
+| Názory se shodují | vysvětlit pacientovi, pokračovat |
+| Názory se rozcházejí | společná konzultace nebo multidisciplinární konzilium; pacient se účastní |
+| Žádost vynucená třetí osobou | rozhovor o samotě, posouzení vlivu, ochrana pacienta |
+| Spor se týká soudního posudku | rozlišit roli ošetřujícího a znalce ([protokol č. 39](@/kompendium/emergency-protocols/39-legal-emergency.md)) |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš žádost a její důvody, posouzení naléhavosti, koho a proč jsi navrhl, jaké podklady byly
+předány (se souhlasem pacienta), výsledek druhého názoru a způsob řešení rozdílů. Pacient má
+dostat písemné shrnutí obou názorů. Transparentní záznam chrání pacienta i kliniky a je cenným
+podkladem v případném řízení.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Ať druhý názor dopadne jakkoli, pokračující péče by měla vycházet z dohody, ne z „vítězství“
+jednoho z názorů. Pokud se pacient rozhodne přejít k jinému poskytovateli, proběhne řádné předání.
+Navazuje [subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md),
+[hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) a
+[triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – dovednosti,
+kterými pacient sám posuzuje rozporné informace.
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Odmítnutí nebo zdržování** žádosti.
+- **Výběr „spřáteleného“ posuzovatele,** který jen potvrdí první názor.
+- **Odklad neodkladné péče** kvůli čekání na druhý názor.
+- **Paralelní, nekoordinované posudky** bez výměny informací.
+- **Převzetí odborníka navrženého pachatelem** bez ověření nezávislosti.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Právo na druhý názor patří k ochraně autonomie pacienta. Předání dokumentace jinému odborníkovi
+vyžaduje souhlas. Pacient má být rovnocenným účastníkem rozhodování o tom, který názor převáží,
+a to i tehdy, když nakonec rozhoduje zákonná procedura. Pro člověka po EA je zkušenost, že jeho
+pochybnost vedla k pečlivému ověření, sama o sobě rekonstrukcí důvěry v poznání.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Nevěříte mi?“ | „Je dobře, že se chcete ujistit.“ | legitimita žádosti |
+| „Na druhý názor teď není čas.“ (bez důvodu) | „Tohle musíme udělat hned, protože… Druhý názor zajistíme co nejdřív.“ | vysvětlená naléhavost |
+| „Kolega řekne totéž.“ | „Navrhuji odborníka X, protože má zkušenost s…“ | zdůvodněná volba |
+| „Ten druhý názor je špatně.“ | „Názory se liší v tomhle; pojďme to probrat společně.“ | řešení rozporu |
 
-**Platformové reference:**
+Písemné shrnutí obou názorů pomáhá pacientovi rozhodnout se v klidu a s možností se k informacím vrátit. Ústní sdělení v krizi bývají zapomenuta nebo zkreslena.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Muž po rozvodu s partnerkou, která ho dlouhodobě zesměšňovala a kontrolovala, dostal na
+pohotovosti v krizi pracovní diagnózu poruchy osobnosti. Bývalá partnerka ji chce použít v řízení
+o péči o děti. Muž požádá o druhý názor. Ošetřující psychiatr žádost přijme, navrhne nezávislého
+odborníka se zkušeností s traumatem a předá podklady. Druhý názor popíše akutní stresovou reakci
+a obě zprávy dostane muž písemně.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Iatrogenní poškození](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md) – když
+  předchozí péče škodila.
+- [Právní krize](@/kompendium/emergency-protocols/39-legal-emergency.md) – posudky a soudy.
+- [Přerušení léčby](@/kompendium/emergency-protocols/35-treatment-noncompliance.md) – nesouhlas
+  s plánem.
+
+**Sebeobrana a dlouhodobá péče**
+
+- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – posouzení
+  rozporných informací.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – více
+  nezávislých pohledů.
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) –
+  důvěra v péči.
+
+**Klinický a právní rámec**
+
+- [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) –
+  rozvaha mezi diagnózami.
+- [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – role znalce.
+- [Signal plurality](@/glossary/signal-plurality.md) – proč je víc nezávislých hlasů bezpečnější.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +150,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #38 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 38 · v18.4.0*

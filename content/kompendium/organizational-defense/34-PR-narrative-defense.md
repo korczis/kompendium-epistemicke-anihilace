@@ -1,6 +1,6 @@
 +++
 title = "PR obrana narativu"
-description = "Organizační obrana — pr obrana narativu."
+description = "Pravdivá krizová komunikace jako obrana proti dezinformacím a kampaním, ne jako nástroj zakrývání. Kapitola popisuje připravená sdělení, mluvčího, ověřování faktů a monitorování útoků."
 weight = 340
 
 [taxonomies]
@@ -8,95 +8,146 @@ tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["32-internal-investigation", "33-legal-counsel-engagement", "35-employee-assistance-EA", "36-trauma-aware-management"]
+related_terms = ["31-incident-response-EA", "33-legal-counsel-engagement", "10-stakeholder-engagement", "35-employee-assistance-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # PR obrana narativu
 
-> **Bucket:** Krizová reakce · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Krizová reakce · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-EA aktéři často přesouvají bitvu do médií — bez kontroly narativu organizace prohrává před tím, než se dostane k faktům.
+Organizace v krizi čelí dvěma odlišným situacím, které se snadno zamění. V první je terčem
+dezinformační nebo koordinované kampaně: [vytržené citace](@/kompendium/techniques/ea-2-3-3-quote-mining.md),
+[sestřihy](@/kompendium/techniques/ea-2-3-1-clip-takeout.md), [podvržené nahrávky](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md),
+[koordinovaný dav](@/kompendium/techniques/ea-2-3-4-mob-coordination.md). Ve druhé vychází
+na veřejnost skutečné pochybení. Obrana narativu v Kompendiu znamená v obou případech totéž:
+pravdivou, včasnou a konzistentní komunikaci, která brání šíření nepravd. Nikdy neznamená
+přesvědčit veřejnost o něčem, co není pravda, ani diskreditovat lidi, kteří na pochybení
+upozornili – to by organizace sama prováděla epistemický útok.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **pr obrana narativu** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě je riziko, že komunikace ustoupí obraně vedení a vznikne rozpor mezi tím, co se
+říká navenek a co vědí zaměstnanci. Ve škole a v nemocnici jde o komunikaci s rodiči a
+pacienty, kde mlčení vede ke spekulacím a příliš mnoho detailů ohrožuje soukromí dětí nebo
+pacientů. Ve veřejné správě platí informační povinnost a komunikace je pod politickým
+tlakem. V médiích je zvláštním případem komunikace o vlastních pochybeních – bez
+transparentní politiky oprav ztrácí redakce důvěryhodnost. V neziskové organizaci závisí na
+důvěře dárců. Univerzity čelí kampaním proti jednotlivým vědcům (srov.
+[mediální mob attack](@/kompendium/case-studies/04-medialni-mob-attack.md)).
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Reakce jsou improvizované, z různých úst zaznívají protichůdná sdělení.
+- Chybí jeden mluvčí a schvalovací postup.
+- Fakta se neověřují dřív, než se sdělí; pozdější opravy podkopávají důvěru.
+- Organizace nesleduje, co se o ní šíří, a o kampani se dozví pozdě.
+- Komunikace navenek předbíhá komunikaci se zaměstnanci.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Krizový komunikační plán se scénáři (oznámení pochybení, odchod člena vedení, zásah
+  úřadu, koordinovaná kampaň, podvržený obsah) a s připravenými základními sděleními, která
+  se doplní fakty.
+- Jeden určený mluvčí a schvalovací postup s právníkem a vedoucím krizového týmu.
+- Protokol ověřování faktů: nic se nesděluje, co není ověřené; co ověřené není, se tak
+  výslovně označí.
+- Monitorování médií a sítí s cílem rozpoznat [koordinaci](@/kompendium/detection-signatures/21-network-platform-coordination.md)
+  a [asymetrii amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md).
+- Připravená stránka pro krizové informace, aktualizovaná s datem a časem.
+- Pravidlo „nejdřív dovnitř“: zaměstnanci se dozvídají podstatné informace dřív než média
+  nebo současně – viz [asistence zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md).
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Připravte holding statements pro 5 nejpravděpodobnějších scénářů (whistleblower leak, ousted exec, regulatory action, etc.).
+Mluvčí sděluje schválené informace a odpovídá na dotazy. Vedoucí komunikace připravuje
+sdělení a monitoruje prostředí. [Právník](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
+posuzuje rizika (ochrana údajů, presumpce neviny, pomluva). Vedoucí krizového týmu rozhoduje
+o obsahu. Nejvyšší orgán schvaluje zásadní sdělení. Všichni ostatní zaměstnanci odkazují
+média na mluvčího.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Krizový komunikační plán se scénáři, kontakty a schvalováním.
+2. Etická pravidla komunikace: pravdivost, ochrana soukromí dotčených, zákaz útoků na
+   oznamovatele a stěžovatele, zákaz zpochybňování jejich duševního zdraví.
+3. Protokol ověřování faktů a oprav (co se opraví, jak, kde).
+4. Postup pro podvržený nebo zmanipulovaný obsah: zdokumentovat, ověřit, nahlásit
+   platformě, sdělit veřejnosti s doklady.
+5. Pravidla komunikace zaměstnanců na sociálních sítích během krize.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Mluvčí a vedení procházejí nácvikem rozhovorů pod tlakem: jak říct „nevíme“, jak
+nespekulovat, jak nepřenášet vinu. Útvar komunikace se učí rozpoznat techniky
+dezinformačních kampaní – [firehose of falsehood](@/glossary/firehose-of-falsehood.md),
+[kontextový kolaps](@/kompendium/techniques/ea-2-3-2-context-collapse.md), [deepfake](@/glossary/deepfake.md) – a
+nereagovat na každé tvrzení zvlášť, ale na vzorec. Užitečný je
+[scénář rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md)
+a [scénář detekce deepfake](@/kompendium/educational-scenarios/16-deepfake-detection.md).
 
-- PR reagují adhoc, contradicting statements z různých úst, no single spokesperson, no fact-checking.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+1. Ověřit, co se šíří, odkud a jak rychle; odlišit skutečné pochybení od kampaně.
+2. Vydat krátké základní sdělení: co víme, co děláme, kdy budeme informovat znovu.
+3. Informovat zaměstnance a dotčené skupiny.
+4. U kampaně a podvrženého obsahu zajistit důkazy, nahlásit platformám a právně posoudit.
+5. Průběžně aktualizovat a po skončení vyhodnotit.
 
-## 5. Best practices
+**Příklad (anonymizovaný kompozit).** Na sociálních sítích se šířil sestřih z přednášky
+nemocničního lékaře, který obrátil smysl jeho výroku. Nemocnice do několika hodin zveřejnila
+celý záznam s časovými značkami a krátké vysvětlení. Kampaň během několika dní utichla,
+protože úplný záznam byl snadno dostupný a sdílený.
 
-Crisis comms playbook, designated spokesperson, fact-check protocol, social media monitoring, dark site ready.
+## Ochrana dotčené osoby
 
-**Dodatečné principy:**
+Komunikace nesmí odhalit identitu oznamovatelů, obětí, pacientů ani dětí. Zaměstnanec, který
+se stal terčem kampaně, potřebuje podporu organizace, ochranu před [doxingem](@/glossary/doxing.md)
+a pomoc s odstraněním obsahu. Pokud jde o skutečné pochybení, komunikace nesmí obviňovat
+oběti ani je zpochybňovat; to by bylo pokračováním poškození. Osoba podezřelá z pochybení
+má právo na presumpci neviny a na to, aby organizace nešířila neověřená tvrzení.
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+## Vyhodnocení a indikátory selhání
 
-## 6. Cross-linky
+- Improvizované reakce, protichůdná sdělení, žádný mluvčí, žádné ověřování faktů.
+- Zaměstnanci se o krizi dozvídají z médií.
+- Organizace odpovídá na kritiku útokem na kritiky.
+- Opravy přicházejí pozdě nebo vůbec.
 
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
+## Meze a otevřené otázky
+
+Ani nejlepší komunikace nezastaví kampaň, která má dost zdrojů; může jen zajistit, že pravdivé
+informace jsou dostupné. Pokušení „řídit narativ“ je silné a hranice mezi obranou a
+zakrýváním je tenká – proto je etická pravidla nutné mít písemně předem. Otevřené zůstává,
+jak reagovat na podvržený obsah, jehož vyvrácení vyžaduje technickou analýzu, kterou
+veřejnost nedokáže ověřit.
+
+## Související
+
+**Sesterské kapitoly**
+
 - [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Struktura jednání](@/kompendium/organizational-defense/22-meeting-structure.md)
-- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)
-- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
-- [Řízení dodavatelů s EA fokusem](@/kompendium/organizational-defense/25-vendor-management-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+  – komunikace jako součást krizové reakce.
+- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
+  – právní rizika sdělení.
+- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md) –
+  naslouchání vedle komunikace.
 
-## 7. Connect
+**Techniky kampaní**
 
-## Connect
+- [EA-2.3.3 Quote Mining](@/kompendium/techniques/ea-2-3-3-quote-mining.md) – vytržené
+  citace.
+- [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) –
+  koordinovaný dav.
+- [EA-2.3.7 Deepfake Personalní](@/kompendium/techniques/ea-2-3-7-deepfake-personalni.md) –
+  podvržený obsah.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+**Obrana a analýza**
+
+- [EA × Security: Enterprise Disinformation Defense](@/kompendium/cross-domain/19-ea-security-disinformation-defense.md)
+  – obrana organizace proti dezinformacím.
+- [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) – záplava tvrzení jako
+  strategie.
+- [Kvalita veřejného diskurzu](@/kompendium/prevention-resilience/10-public-discourse-quality.md)
+  – širší kontext.

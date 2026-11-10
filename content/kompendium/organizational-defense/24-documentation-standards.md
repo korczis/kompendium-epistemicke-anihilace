@@ -1,6 +1,6 @@
 +++
 title = "Dokumentační standardy"
-description = "Organizační obrana — dokumentační standardy."
+description = "Co nelze najít ani popsat, nelze bránit. Kapitola popisuje šablony klíčových dokumentů, jedno místo pravdy, vlastnictví, verzování bez přepisu a pravidelný audit zastaralých dokumentů."
 weight = 240
 
 [taxonomies]
@@ -8,95 +8,142 @@ tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["22-meeting-structure", "23-communication-policy", "25-vendor-management-EA", "26-contractor-vetting"]
+related_terms = ["21-decision-traceability", "8-policy-review-cycles", "23-communication-policy", "27-information-classification"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Dokumentační standardy
 
-> **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Provoz · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Špatná dokumentace = oslabená obrana — nemůžete bránit, co neumíte popsat ani najít.
+Dokumentace je dlouhodobá paměť organizace: postupy, rozhodnutí, incidenty, role, smlouvy.
+Když jsou dokumenty v různých formátech, na různých místech, bez verzí a bez vlastníka,
+organizace neví, co ví. Pro epistemický útok je to výhoda: kdo má přístup k „té správné“
+verzi nebo kdo dokáže dokument nenápadně upravit, ovládá to, co bude platit za fakt.
+Dokumentační standardy nejsou byrokracie, ale podmínka toho, aby bylo možné cokoli doložit.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **dokumentační standardy** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve zdravotnictví je dokumentace upravena právně (zákon č. 372/2011 Sb., o zdravotních
+službách, a prováděcí předpisy) a dodatečné úpravy zdravotnické dokumentace jsou závažným
+problémem; v řízení provozu a personálu však takové standardy často chybí. Ve škole jde o
+dokumentaci výchovných opatření a řešení šikany, kde neúplný záznam znemožní pozdější
+posouzení. Ve výzkumu o laboratorní deníky a záznamy o datech, jejichž neúplnost umožní
+spory o autorství a o integritu výsledků. Ve firmě o postupy a smlouvy, ve veřejné správě o
+spisy, v médiích o záznamy o ověřování zdrojů. Ve všech oblastech je riziko stejné:
+retroaktivně upravený dokument mění minulost.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Neexistuje jedno místo pravdy; každý má „svou“ verzi.
+- Dokumenty nemají vlastníka, datum ani verzi.
+- Úpravy přepisují původní obsah bez historie.
+- Klíčové znalosti nejsou zapsané vůbec (v hlavách jednotlivců).
+- Zastaralé dokumenty se neodlišují od platných.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Jedno úložiště pro každý typ dokumentu s řízeným přístupem a s historií verzí.
+- Šablony pro klíčové typy dokumentů s povinnými metadaty (vlastník, verze, datum
+  účinnosti, stav, související dokumenty):
+  - **rozhodnutí** – viz [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md);
+  - **incident** – co se stalo, kdy, kdo, jaká opatření;
+  - **postup** – kroky, odpovědnosti, výjimky;
+  - **role** – odpovědnosti, pravomoci, zastupitelnost;
+  - **smlouva** – strany, závazky, schválení, změny.
+- Pravidlo „neměnnosti“: úprava jen novou verzí; původní zůstává čitelná. U záznamů s
+  důkazní hodnotou (incidenty, stížnosti) je vhodné technické zajištění proti přepisu.
+- Pravidelný audit zastaralých dokumentů a jejich archivace nebo aktualizace.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Standardizujte šablony pro 5 klíčových typů (rozhodnutí, incident, postup, role, smlouva) s povinnými metadaty.
+Vlastník dokumentu odpovídá za obsah, aktuálnost a za to, že dokument je k nalezení. Správce
+úložiště (IT, kancelář) odpovídá za techniku, přístupy a zálohy. Compliance a interní audit
+ověřují vzorky. Vedoucí útvarů odpovídají za to, že klíčové znalosti jejich útvaru jsou
+zapsány – vazba na [rotaci rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md).
+Každý autor odpovídá za pravdivost a úplnost.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Dokumentační standard: typy dokumentů, šablony, metadata, úložiště, přístupy.
+2. Pravidla verzování a zákaz přepisu záznamů s důkazní hodnotou.
+3. Měsíční nebo čtvrtletní audit zastaralých dokumentů s hlášením vlastníkům.
+4. Pravidla uchovávání a skartace v souladu s právem; blokace skartace při sporu.
+5. Navázání na [cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
+   a [klasifikaci informací](@/kompendium/organizational-defense/27-information-classification.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Autoři se učí psát dokumenty pro čtenáře, který o věci nic neví, a zapisovat fakta odděleně
+od interpretací. U záznamů o incidentech a stížnostech je důležité zapisovat přesná slova,
+data a svědky, nikoli dojmy. Vedoucí se učí, že „to máme v hlavě“ je riziko. Užitečné jsou
+zásady [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) a
+[klinické dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md), které
+ukazují, jak zapisovat tak, aby záznam obstál i ve sporu.
 
-- Dokumenty jsou v různých formátech, na různých místech, bez verzování, bez ownership.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Zjistí-li se, že dokument byl dodatečně upraven nebo že klíčová dokumentace chybí:
 
-## 5. Best practices
+1. Zajistit všechny dostupné verze a historii úprav (kdo, kdy, co změnil).
+2. Porovnat s jinými zdroji (e-maily, kopie, výtisky, zálohy).
+3. Posoudit dopad: která rozhodnutí se o upravený dokument opírala.
+4. Při podezření na úmysl postupovat podle [interního vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md);
+   zachovat [řetězec úschovy](@/glossary/chain-of-custody.md) zajištěných verzí.
 
-Single source of truth (Wiki/Confluence/Notion), mandatory metadata, ownership clarity, monthly stale-doc audit.
+**Příklad (anonymizovaný kompozit).** Ve škole rodiče tvrdili, že na šikanu upozorňovali
+opakovaně, škola tvrdila, že poprvé. Záznamy z jednání s rodiči byly v různých souborech u
+různých učitelů a dva z nich byly upraveny po stížnosti. Teprve zavedení jednotné šablony a
+úložiště s historií verzí zabránilo opakování podobného sporu.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Člověk, o němž dokumentace vypovídá (pacient, žák, zaměstnanec, stěžovatel), má právo na
+přesnost záznamů a v mnoha případech i na přístup k nim (například podle GDPR nebo podle
+předpisů o zdravotnické dokumentaci). Kdo upozorní na úpravy záznamů, může být chráněn
+podle zákona č. 171/2023 Sb. Pro dotčenou osobu je zkušenost, kdy oficiální záznam popírá
+její zkušenost, zvláště zatěžující; potvrzení skutečného průběhu je součástí nápravy.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Exit interview s EA fokusem](@/kompendium/organizational-defense/13-exit-interview-EA.md)
-- [Anonymní zpětná vazba](@/kompendium/organizational-defense/14-anonymous-feedback.md)
-- [Kulturní průzkum s EA detekcí](@/kompendium/organizational-defense/15-culture-survey-EA.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Dokumenty v různých formátech, na různých místech, bez verzí a bez vlastníka.
+- Při šetření nelze najít klíčový dokument nebo jeho původní verzi.
+- Velký podíl dokumentů je zastaralý.
+- Lidé vědí, jak se věci dělají, ale nikde to není zapsáno.
 
-## 7. Connect
+Metriky: podíl dokumentů s vlastníkem a datem revize, doba potřebná k nalezení dokumentu,
+počet zastaralých dokumentů.
 
-## Connect
+## Meze a otevřené otázky
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+Dokumentace nezachytí tacitní znalost a kontext; příliš mnoho dokumentů vede k tomu, že nikdo
+nic nečte. Standard musí být jednoduchý, jinak se obchází. Otevřené zůstává, jak zajistit
+integritu dokumentů v prostředí sdílených editorů, kde lze obsah snadno měnit, a jak
+zacházet s dokumenty, které generují nástroje umělé inteligence.
+
+## Související
+
+**Sesterské kapitoly**
+
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+  – záznamy rozhodnutí jako typ dokumentu.
+- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md) –
+  údržba předpisů.
+- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md) –
+  co se zaznamenává.
+- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
+  – citlivost dokumentů.
+
+**Forenzní praxe**
+
+- [Forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) – jak
+  zapisovat, aby záznam obstál.
+- [Chain of custody](@/glossary/chain-of-custody.md) – řetězec úschovy záznamů.
+- [EA-4.2.7 Documentation chain of custody](@/kompendium/techniques/ea-4-2-7-documentation-chain-custody.md)
+  – nepřerušený řetězec dokumentace.
+
+**Techniky**
+
+- [EA-2.4.2 Policy Rewriting Skrytá](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)
+  – skryté úpravy pravidel a dokumentů.

@@ -1,6 +1,6 @@
 +++
 title = "Sebe-obrana: Pluralita paradigmat"
-description = "Praktický návod sebe-obrany — pluralita paradigmat."
+description = "Jak udržet více výkladových rámců pro tutéž situaci a nenechat si vnutit jediný – obrana proti epistemickému monismu skupin a vztahů."
 weight = 6
 
 [taxonomies]
@@ -8,66 +8,101 @@ tags = ["kompendium", "self-defense-guide", "cognitive"]
 categories = ["academic", "practical"]
 
 [extra]
-related_terms = ["5-falsification-thinking", "50-personal-mythology-defense", "7-belief-revision", "8-cognitive-flexibility"]
+related_terms = ["5-falsification-thinking", "7-belief-revision", "8-cognitive-flexibility", "50-personal-mythology-defense"]
 parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
 # Sebe-obrana: Pluralita paradigmat
 
+Paradigma je rámec, kterým se díváme na svět: určuje, co považujeme za důležité, jaké otázky klademe a co vůbec dokážeme uvidět. Většina epistemické manipulace nefunguje tak, že by člověku vnutila jednotlivé lži. Funguje tak, že mu postupně odebere všechny rámce kromě jednoho – rámce skupiny, vůdce nebo partnera – a v tom jediném pak každá událost vychází „správně“. Kniha tento stav popisuje jako [epistemický monismus](@/glossary/epistemicky-monismus.md). Pluralita paradigmat je jeho protiváha: vědomé udržování několika výkladů vedle sebe, které vám dovolí vidět, co jeden rámec zakrývá.
+
+## Pro koho je návod
+
+- Pro člověka, který si všiml, že na všechno má „stejnou odpověď“ – a že ji převzal od někoho jiného.
+- Pro ty, kdo odcházejí z ideologicky uzavřeného prostředí (náboženského, politického, firemního) a cítí se bez jeho výkladu ztraceni.
+- Pro profesionály, kteří chtějí chránit sebe i klienty před zúžením pohledu.
+
+## Situace, ve kterých pomáhá
+
+Typicky když skupina nabízí jediný klíč ke všemu („všechno je energie“, „všechno je trauma“, „všechno je spiknutí“, „všechno je tvoje chyba“), když se vaše problémy ve vztahu vykládají pouze psychologizujícím slovníkem druhé strany, nebo když v práci platí jediná metrika, podle níž se měří i váš lidský význam. Pomáhá i po odchodu z takového prostředí, kdy hrozí [paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md) – pocit, že bez starého výkladu nemáte kde stát.
+
+## Varovné signály
+
+- Na otázky z různých oblastí života dáváte odpověď ze stejného slovníku.
+- Lidé mimo skupinu vám připadají „nepochopitelní“ nebo „nevědomí“.
+- Jiný výklad téže věci ve vás vyvolá úzkost nebo vztek, ne zvědavost.
+- Ve skupině se používá vlastní jazyk, který jinde nikdo nerozumí, a překlad do běžné řeči je odrazován.
+
+## Modelová situace
+
+Žena prošla kurzem osobního rozvoje, v němž se každý problém vykládal jako „nedostatek vnitřní hojnosti“. Když přišla o práci, její mentorka to vysvětlila jejím „blokem“. Cvičení tří čoček jí ukázalo i jiné vrstvy: ekonomickou (firma propouštěla celé oddělení), mocenskou (kurz z jejího pocitu viny finančně profitoval) a psychologickou (strach z nejistoty). Žádný výklad nebyl úplný, ale jediný nabízený rámec přestal být jediný. (Anonymizovaný kompozit.)
+
 ## Cíl dovednosti
 
-Záměrně udržovat ve vědomí více alternativních interpretačních rámců pro tutéž realitu, abychom nesklouzli k monistické rigiditě.
+Záměrně udržovat ve vědomí více alternativních výkladových rámců pro tutéž skutečnost, umět mezi nimi přecházet a vybrat si ten, který nejlépe odpovídá dokladům – ne ten, který vám někdo předepsal.
 
 ## Pět praktických cvičení
 
-### 1. 3 čočky
+### 1. Tři čočky
 
-Pro každou důležitou situaci si položte otázku ze 3 různých paradigmat: ekonomické, psychologické, mocenské. Co každé z nich vidí?
+U důležité situace se zeptejte ze tří různých úhlů: Jak by to vysvětlil ekonom (kdo co získává)? Psycholog (jaké potřeby a strachy tu působí)? Člověk, který sleduje moc (kdo rozhoduje a kdo ne)? Každý pohled uvidí něco jiného; žádný není úplný.
 
 ### 2. Cizí slovník
 
-Měsíčně si přečtěte základní text z disciplíny, kterou neznáte (sociologie, biologie, teologie, ekonomie). Hledejte přenositelné koncepty.
+Jednou měsíčně si přečtěte úvodní text z oboru, který neznáte – sociologie, biologie, historie, práva. Hledejte pojmy, které jdou přenést do vlastního života. Nový slovník rozšiřuje to, co vůbec dokážete pojmenovat.
 
-### 3. Změna metafory
+### 3. Výměna metafory
 
-Když uvíznete v problému, zaměňte základní metaforu, kterou ho popisujete (mašina → organismus, válka → tanec, růst → cyklus). Jaká nová řešení se objeví?
+Když uvíznete, změňte základní metaforu, kterou si situaci popisujete: místo „válka“ zkuste „vyjednávání“, místo „zkouška“ zkuste „nedorozumění“, místo „osud“ zkuste „rozhodnutí“. Sledujte, jaká nová řešení se objeví.
 
-### 4. Steelman cizího pohledu
+### 4. Nejsilnější verze druhé strany
 
-Pro každý názor, se kterým nesouhlasíte, dokážete formulovat jeho nejsilnější verzi tak, aby s ní souhlasil i jeho zastánce?
+U názoru, se kterým nesouhlasíte, zkuste formulovat jeho nejsilnější podobu tak, aby s ní souhlasil i jeho zastánce. Pokud to nejde, pravděpodobně znáte jen karikaturu, kterou vám někdo předložil.
 
-### 5. Hetero-doxie deník
+### 5. Deník odlišnosti
 
-Týdně 1 stránka: 'V čem se dnes nejvíc liší můj pohled od pohledu mého souseda/kolegy/rodiče? Kdo má víc pravdy a v čem?'
+Jednou týdně napište stránku: V čem se dnes nejvíc lišil můj pohled od pohledu souseda, kolegy nebo příbuzného? Kdo měl v čem pravdu? Cvičení udržuje kontakt s lidmi mimo vaši bublinu i v době, kdy je vztah k nim napjatý.
 
-## Časový rámec
+## Jak si vést záznam
 
-Měsíční čtenářský rituál 4 hodiny; týdenní steelman 30 minut; průběžně při zaseknutí.
+Ke každému cvičení si zapisujte datum, situaci a výklady, které jste vyzkoušeli. Po několika týdnech se podívejte, zda se v záznamech neopakuje stále jeden rámec. Pokud ano, poznamenejte si, odkud pochází – od koho jste ho převzali a kdy. Tato „genealogie výkladu“ je cenná i pro případnou terapii.
 
-## Indikátory pokroku
+## Časový rámec a indikátory pokroku
 
-Větší tolerance ambiguity; schopnost vidět platnost v opačných pozicích; pokles potřeby mít 'správný' názor.
+Měsíčně několik hodin četby mimo obor, týdně půl hodiny na nejsilnější verzi druhé strany, průběžně výměna metafory při zaseknutí. Pokrok poznáte podle větší tolerance nejednoznačnosti, schopnosti uznat platné body v opačné pozici a menší potřeby mít vždy „ten správný“ výklad. Dobrým znamením je i to, že dokážete vysvětlit pohled své bývalé skupiny někomu zvenčí – a zároveň jeho slabá místa.
 
-## Limitace
+## Kdy a koho požádat o pomoc
 
-Plurarita bez závazku se může zvrhnout v paralyzující relativismus. Je nutné nakonec rozhodnout a jednat.
+- Pokud se po odchodu z uzavřeného prostředí cítíte bez opory, s pocitem, že „nic nedává smysl“, vyhledejte psychologa nebo psychoterapeuta, ideálně se zkušeností s prací s bývalými členy skupin.
+- Pokud se přidává panika, nespavost nebo myšlenky na sebepoškození, volejte Linku první psychické pomoci 116 123; v akutním ohrožení 112 nebo 155.
+- Mladí lidé mohou volat Linku bezpečí 116 111.
 
-## Cross-linky
+## Čeho se vyvarovat
 
-- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) — sebe-obrana (kognitivní)
-- [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) — sebe-obrana (kognitivní)
-- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) — sebe-obrana (kognitivní)
-- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) — sebe-obrana (kognitivní)
-- [Emoční regulace](@/kompendium/self-defense-guides/11-emotional-regulation.md) — sebe-obrana (emocionální)
-- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) — sebe-obrana (sociální)
-- [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) — sebe-obrana (informační hygiena)
-- [Správa narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md) — sebe-obrana (identitní)
+- Nevyměňujte jeden uzavřený rámec za jiný stejně uzavřený – například odchod ze sekty do konspirační komunity.
+- Nepoužívejte pluralitu jako výmluvu k tomu, abyste se nikdy nerozhodli.
+- Nediskutujte o „jiných pohledech“ s vůdcem nebo partnerem, který vás za ně trestá; cvičte je v bezpečí.
 
-## Connect
+## Meze svépomoci
 
-- [Hlavní index sebe-obrany](@/kompendium/self-defense-guides/_index.md)
-- [Kompendium epistemické anihilace](@/kompendium/_index.md)
-- [Akademie Prismatic](https://prismatic-platform.com/academy)
-- [GitHub: kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Pluralita bez závazku se může zvrhnout v paralyzující relativismus, v němž je vše stejně platné a nic nelze udělat. Nakonec je třeba rozhodnout a jednat – podle dokladů a hodnot, ne podle cizího předpisu. U lidí, kteří zažili hluboký rozpad světového názoru, je vhodné postupovat podle [středně-dobého hermeneutického resetu](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) s odborným doprovodem.
+
+## Související
+
+**Návody**
+
+- [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) – jak rozpoznat rámec, který nejde vyvrátit.
+- [Kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md) – mentální přepínání, na kterém pluralita stojí.
+- [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – různé rámce žijí v různých lidech.
+
+**Pojmy**
+
+- [Pluralismus](@/glossary/pluralismus.md) – filozofické zázemí mnohosti výkladů.
+- [Paradigm Shift](@/glossary/paradigm-shift.md) – co se děje, když se rámec změní najednou.
+- [Epistemicka Monokultura](@/glossary/epistemicka-monokultura.md) – kolektivní podoba jediného rámce.
+
+**Výuka a teorie**
+
+- [Vzdělávací scénář: Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) – cvičný případ.
+- [Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) – teoretický původ pojmu paradigma.

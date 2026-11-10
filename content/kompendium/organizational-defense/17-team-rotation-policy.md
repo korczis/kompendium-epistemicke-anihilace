@@ -1,6 +1,6 @@
 +++
 title = "Politika rotace týmů"
-description = "Organizační obrana — politika rotace týmů."
+description = "Neměnné složení týmu po léta vytváří mocenské shluky a uzavřené mikrokultury. Kapitola popisuje plánovanou rotaci, přenos znalostí a ochranu před zneužitím přeřazení jako odvety."
 weight = 170
 
 [taxonomies]
@@ -8,95 +8,139 @@ tags = ["kompendium", "organizational-defense", "hr-culture"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["15-culture-survey-EA", "16-psychological-safety", "18-supervisor-evaluation", "19-mentorship-protection"]
+related_terms = ["30-rotation-of-roles", "19-mentorship-protection", "24-documentation-standards", "16-psychological-safety"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Politika rotace týmů
 
-> **Bucket:** HR & kultura · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Lidé a kultura · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Stagnující týmové složení je živnou půdou pro mocenské shluky a EA mikrokultury — rotace je hygiena.
+Tým, jehož složení se deset let nemění, si vytvoří vlastní jazyk, vlastní pravidla a vlastní
+výklad toho, co se děje ve zbytku organizace. To může být síla – sehranost, důvěra, hluboká
+znalost. Může to být ale i živná půda pro uzavřenou mikrokulturu, v níž jeden člověk
+určuje, co je pravda, a nikdo zvenku to nevidí. Plánovaná rotace lidí mezi týmy je hygienou,
+která do uzavřených prostředí vnáší vnější pohled. Zároveň je to nástroj, který lze zneužít,
+a proto potřebuje pravidla.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **politika rotace týmů** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě se uzavřené týmy projevují jako „knowledge silos“, kam nikdo nesmí nahlédnout, a
+jako lokální normy, které se od pravidel organizace liší. Ve výzkumu jde o skupinu kolem
+jednoho vedoucího, v níž lidé nemají kontakt s jinými přístupy a přebírají výklad vedoucího
+o oboru – [epistemická monokultura](@/glossary/epistemicka-monokultura.md). V nemocnici
+je rotace součástí přípravy lékařů; problém vzniká na oddělení, kde se sloužící personál
+nemění a odchylky od standardů se normalizují. Ve veřejné správě a v institucích s vysokým
+korupčním rizikem (kontrolní a dozorové činnosti) je rotace na citlivých místech známým
+protikorupčním opatřením. V neziskové organizaci se uzavírá „jádro“ kolem zakladatele.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Stejní lidé ve stejných týmech po mnoho let, bez projektů napříč útvary.
+- Znalosti uložené jen v hlavách, bez dokumentace; tým je nenahraditelný a tím chráněný.
+- Vedoucí rozhoduje o všech přesunech sám, bez kritérií.
+- Rotace se používá výběrově – jako trest pro nepohodlné (přeřazení jako odveta).
+- Nově příchozí se do týmu nedostanou nebo jsou rychle vytlačeni.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Plánovaná rotace s pravidly: maximální doba v jednom týmu na určitých pozicích, povinná
+  krátkodobá působení v jiném útvaru, projekty napříč útvary.
+- Plánování s předstihem (měsíce, ne dny) a s individuálním rozvojovým cílem.
+- Přenos znalostí jako podmínka: dokumentace, zaučení nástupce, audit předání – viz
+  [dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md).
+- Kritéria a odůvodnění každé rotace; přezkum přesunů, které proběhly krátce po
+  oznámení nebo stížnosti.
+- Doplnění [rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md) na
+  kritických pozicích a [rotace supervizorů](@/kompendium/techniques/ea-4-1-8-supervisor-rotation.md)
+  v klinických a vzdělávacích programech.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Stanovte maximální dobu na jedné pozici/v jednom týmu na 5 let s povinným cross-team assignment minimálně 3 měsíce ročně.
+HR vlastní politiku rotace a kalendář. Vedoucí útvarů navrhují rotace a odpovídají za
+předání znalostí. Vyšší vedení schvaluje výjimky. Compliance nebo etický ředitel přezkoumá
+přesuny, které by mohly být odvetou. Zaměstnanec má právo vyjádřit se k navrhované rotaci
+a znát její důvod.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Politika rotace s definicí pozic, kterých se týká, a s výjimkami (vysoce specializované
+   role, osobní důvody).
+2. Roční plán rotací a projektů napříč útvary.
+3. Postup předání s kontrolním seznamem a ověřením nástupcem.
+4. Pravidlo, že přesun zaměstnance do šesti měsíců po jeho oznámení nebo stížnosti
+   podléhá přezkumu nezávislou osobou.
+5. Vyhodnocení rotace po návratu: co se člověk naučil, co viděl, co by doporučil.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Vedoucí potřebují vědět, že rotace není ztráta, ale pojistka organizace i týmu. Lidé, kteří
+přicházejí do jiného týmu, se učí všímat si rozdílů v normách a nebát se je pojmenovat:
+nováček v týmu je často první, kdo vidí, že „tady se to dělá jinak“ – a že to není v pořádku.
+Užitečné je sdílet postřehy z rotací strukturovaně, ne jen jako „zážitek“.
 
-- Stejní lidé v stejných týmech 10+ let, žádné cross-functional projekty, knowledge silos.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Rotace někdy odhalí problém: nový člen týmu zjistí, že tým jedná mimo pravidla, nebo
+člověk, který z týmu odešel, poprvé popíše, co se v něm dělo.
 
-## 5. Best practices
+1. Výpověď se přijme vážně a ověří se dalšími zdroji.
+2. Pokud se potvrdí, že tým funguje jako uzavřená mikrokultura s manipulativním vedením,
+   postupuje se podle [interního vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md).
+3. Člověk, který problém přinesl, nesmí být vrácen do týmu proti své vůli.
 
-Strukturované rotace s 6měsíčním plánováním, mentor-replacement protokol, knowledge transfer audit.
+**Příklad (anonymizovaný kompozit).** Analytik, který v rámci rotace strávil tři měsíce v
+účetním útvaru, si všiml, že výjimky z postupů schvaluje vždy tentýž člověk a že nikdo v
+týmu nikdy nečerpal dlouhou dovolenou. Tým měl vlastní výklad pravidel, který vedoucí
+vysvětloval jako „zkušenost“. Prověření vedlo k zavedení oddělení povinností a povinné
+zastupitelnosti.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Přeřazení může být formou [institucionálního vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md):
+člověk, který promluvil, je „rotován“ na méně významné místo. Zákon č. 171/2023 Sb. mezi
+odvetná opatření, jež zakazuje, řadí i převedení na jinou práci či přeložení. Organizace proto u každé
+rotace, která se týká oznamovatele nebo stěžovatele, ověří, že nejde o odvetu, a dotčený má
+možnost přesun napadnout.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Onboarding s EA awareness](@/kompendium/organizational-defense/11-onboarding-EA-awareness.md)
-- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [PR obrana narativu](@/kompendium/organizational-defense/34-PR-narrative-defense.md)
-- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
-- [Trauma-aware management](@/kompendium/organizational-defense/36-trauma-aware-management.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Stejní lidé ve stejných týmech deset a více let, žádné projekty napříč útvary.
+- Rotace se uplatňuje výběrově a nepohodlní lidé jsou přesouváni častěji.
+- Předání znalostí selhává a tým je nenahraditelný.
+- Nováčci z týmu rychle odcházejí.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Rotace stojí čas a může narušit sehranost a péči o klienty či pacienty; u malých organizací
+je omezeně proveditelná a lze ji nahradit spoluprací s jinými organizacemi nebo externím
+pohledem. Otevřené zůstává, jak dlouho musí být člověk v týmu, aby rozuměl práci, a kdy už
+ztrácí schopnost vidět ji zvenku.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md) – rotace na
+  kritických pozicích a zastupitelnost.
+- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md) –
+  vztahy, které se v uzavřeném týmu snadno zneužijí.
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
+  – podmínka předání znalostí.
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+  – nováček, který může mluvit.
+
+**Pojmy a techniky**
+
+- [Epistemická monokultura](@/glossary/epistemicka-monokultura.md) – uzavřený tým jako
+  jediný zdroj poznání.
+- [EA-4.1.8 Supervisor rotation](@/kompendium/techniques/ea-4-1-8-supervisor-rotation.md) –
+  rotace v klinickém a výcvikovém kontextu.
+- [EA-2.1.7 Institucionální vyloučení](@/kompendium/techniques/ea-2-1-7-institucionalni-vyloucenni.md)
+  – zneužití přesunu jako odvety.
+
+**Případy**
+
+- [Případ 35: Výzkumná laboratoř jako kult](@/kompendium/case-studies/35-research-lab-cult.md)
+  – uzavřená skupina ve výzkumu.

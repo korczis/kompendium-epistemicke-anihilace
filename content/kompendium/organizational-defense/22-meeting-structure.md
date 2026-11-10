@@ -1,6 +1,6 @@
 +++
 title = "Struktura jednání"
-description = "Organizační obrana — struktura jednání."
+description = "Nestrukturovaná porada je prostředí, kde se snadno ovládá, co se „řeklo“ a „rozhodlo“. Kapitola popisuje program, podklady předem, zápis, kolo vyjádření a kontrolu úkolů."
 weight = 220
 
 [taxonomies]
@@ -8,95 +8,144 @@ tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["20-succession-planning-EA", "21-decision-traceability", "23-communication-policy", "24-documentation-standards"]
+related_terms = ["21-decision-traceability", "16-psychological-safety", "23-communication-policy", "1-board-resilience"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Struktura jednání
 
-> **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Provoz · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Nestrukturovaná jednání jsou ideální prostředí pro manipulaci — bez agendy, minutes a action items se realita rozpadá.
+Porada, jednání orgánu, pedagogická rada, redakční porada nebo lékařský seminář jsou místa,
+kde organizace vytváří společný obraz situace a rozhoduje. Kde jednání nemá program,
+podklady, zápis a kontrolu úkolů, rozhoduje ten, kdo mluví nejdéle, nejhlasitěji nebo
+poslední, a výsledek si každý pamatuje jinak. V takovém prostředí lze snadno přepisovat, co
+se „řeklo“, a vytvářet dojem shody, která neexistuje. Struktura jednání je jednoduchá,
+levná a velmi účinná obrana.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **struktura jednání** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmách jde o porady vedení a projektové porady, v nichž se rozhodnutí rodí bez
+podkladů. Ve školách o pedagogickou radu, kde ředitel předkládá hotová rozhodnutí. Na
+univerzitách o jednání kateder a rad, kde se program mění na místě. V nemocnicích o porady
+oddělení a rozbory případů, kde hierarchie určuje, kdo smí mluvit. V médiích o redakční
+porady, kde se rozhoduje o tématech. Ve veřejné správě o porady vedení úřadu (zastupitelstvo
+obce jedná veřejně a pořizuje zápis, interní porady však takovou ochranu nemají). Opakující
+se vzorce: [vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md),
+[vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md),
+zahlcení množstvím tvrzení ([Gish gallop](@/glossary/gish-gallop.md)) a prohlášení
+„všichni souhlasíme“ bez hlasování.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Jednání bez programu; témata určuje ten, kdo jednání vede, na místě.
+- Podklady přicházejí na jednání nebo vůbec.
+- Zápis chybí, nebo ho píše a upravuje předsedající sám.
+- Úkoly se nezapisují a „zapomínají“.
+- Opakované kruhové diskuse, které končí bez rozhodnutí, a rozhodnutí, které pak padne
+  mimo jednání.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Program rozeslaný předem s časovým rozvržením a s uvedením, zda jde o informaci,
+  diskusi, nebo rozhodnutí.
+- Podklady k rozhodnutí předem (například den nebo více); bez podkladů se nerozhoduje.
+- Určený zapisovatel, ideálně střídaný, odlišný od předsedajícího.
+- Na konci každého bodu krátké shrnutí rozhodnutí přečtené nahlas.
+- Kolo vyjádření u důležitých rozhodnutí: každý účastník se vyjádří, nejprve ti s nejnižším
+  postavením.
+- Zápis rozeslaný v krátké lhůtě s možností připomínek; připomínky se zaznamenají.
+- Sledování úkolů s odpovědností a termínem; kontrola na dalším jednání.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Vyžadujte pre-read 24h před každou schůzí, time-boxed agenda, written minutes, public action items s deadlines.
+Předsedající odpovídá za program, čas a prostor pro všechny. Zapisovatel odpovídá za věrný
+záznam, včetně nesouhlasu. Účastníci odpovídají za přípravu a za to, že námitky vznesou na
+jednání, ne až po něm. Vlastník úkolu odpovídá za jeho splnění nebo včasné ohlášení, že ho
+nesplní. Nadřízený orgán může vyžádat zápisy a ověřit, že se rozhodovalo řádně.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Standard jednání: šablona programu, lhůta pro podklady, role zapisovatele, lhůta pro
+   zápis.
+2. Pravidlo, že rozhodnutí bez podkladů nebo mimo program se jen projednají a rozhodnou na
+   příštím jednání (s výjimkou krizí).
+3. Zápis obsahuje rozhodnutí, zdůvodnění, nesouhlas a úkoly – vazba na
+   [sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md).
+4. Pravidla pro nahrávání jednání (souhlas, účel, uchování), pokud se používá.
+5. Roční vyhodnocení jednání: kolik rozhodnutí, kolik úkolů splněno, zda se lidé cítí
+   slyšeni.
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Předsedající se učí facilitaci: držet program, dát prostor tichým, zastavit dominující,
+shrnout. Zapisovatelé se učí zapisovat přesně a neutrálně. Všichni účastníci se učí
+rozpoznat manipulativní vzorce na jednání a reagovat na ně procedurálně: „Navrhuji zapsat,
+že s tím nesouhlasím.“ „Můžeme si to shrnout, než budeme pokračovat?“ „Tento bod nebyl v
+programu, navrhuji ho přesunout.“ Procedurální reakce je bezpečnější než konfrontace.
 
-- Jednání bez agendy, žádné minutes, action items zapomenuty, opakující se circular discussions.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Pokud se ukáže, že zápis neodpovídá průběhu jednání, nebo že rozhodnutí vydávané za
+společné nikdo nepřijal:
 
-## 5. Best practices
+1. Účastníci písemně vznesou připomínku k zápisu a požádají o opravu.
+2. Pokud předsedající opravu odmítne, připomínka se přiloží k zápisu a věc se předá
+   nadřízenému orgánu.
+3. Při opakovaném přepisování zápisů jde o vážný signál manipulace s organizační pamětí;
+   zajistí se původní verze a postupuje se podle [interního vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md).
 
-Templated agenda, dedicated note-taker (rotating), 5-minute decision summary, follow-up tracker.
+**Příklad (anonymizovaný kompozit).** Na katedře několik měsíců vycházely zápisy, v nichž
+stálo, že „katedra souhlasí“ s návrhy vedoucího, ačkoli o nich nikdo nehlasoval. Když tři
+členové vznesli připomínky, vedoucí je označil za „nekolegiální“. Zavedení rozesílání
+zápisů s lhůtou na připomínky a střídaného zapisovatele obnovilo shodu mezi zápisem a
+skutečností.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Ten, kdo na jednání nesouhlasí nebo žádá opravu zápisu, bývá terčem zesměšnění nebo
+vyloučení z dalších jednání. Organizace musí chránit právo každého účastníka na zápis
+nesouhlasu. Pokud se nesouhlas týká protiprávního jednání, je jeho autor chráněn podle
+zákona č. 171/2023 Sb. Opakované popírání toho, co člověk na jednání slyšel, vede k
+[nejistotě o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md);
+vlastní poznámky z jednání jsou proto užitečnou osobní ochranou.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md)
-- [Klasifikace informací](@/kompendium/organizational-defense/27-information-classification.md)
-- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
-- [Náhrada vedení](@/kompendium/organizational-defense/38-leadership-replacement.md)
-- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md)
-- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md)
-- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Jednání bez programu, bez zápisů, zapomenuté úkoly, opakující se kruhové diskuse.
+- Zápisy se liší od toho, co si účastníci pamatují.
+- Rozhodnutí padají mimo jednání.
+- Na jednání mluví stále tíž lidé.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Příliš formální jednání ztrácí pružnost a lidé začnou rozhodovat jinde. Struktura nezabrání
+neformálnímu vlivu před jednáním. Otevřené zůstává, jak strukturovat krátké a online porady,
+které dnes tvoří většinu jednání, a jak zacházet s nahrávkami a automatickými přepisy.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
+  – záznam rozhodnutí z jednání.
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+  – podmínka, aby lidé na jednání mluvili.
+- [Komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md) –
+  rozhodnutí mimo jednání.
+- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md) –
+  jednací řád nejvyššího orgánu.
+
+**Signatury a pojmy**
+
+- [Vyhýbání se tématu](@/kompendium/detection-signatures/11-behavioral-topic-evasion.md) –
+  odsouvání nepohodlných bodů.
+- [Vytváření časového tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)
+  – rozhodnutí „hned teď“.
+- [Gish Gallop](@/glossary/gish-gallop.md) – zahlcení tvrzeními.
+
+**Techniky**
+
+- [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
+  – shoda, která neexistuje.

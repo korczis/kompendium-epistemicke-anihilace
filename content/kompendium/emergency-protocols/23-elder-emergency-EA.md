@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Senioři v EA-emergency"
-description = "Akutní intervenční protokol — geriatrická EA-emergency."
+title = "Akutní protokol: Senior v akutní situaci po epistemické anihilaci"
+description = "Protokol pro akutní krizi seniora při finančním zneužívání, cílených podvodech nebo izolační kontrole: odlišení od demence a deliria, bezpečí, ochrana majetku a péče."
 weight = 23
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "diagnostika"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,138 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Senioři v EA-emergency
+# Akutní protokol: Senior v akutní situaci po epistemické anihilaci
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 23** · skupina Cílové populace · okno: akutní kontakt a první týden
+>
+> **Náhlá zmatenost u staršího člověka je delirium, dokud se neprokáže opak** – to je urgentní
+> somatický stav (155). Probíhající podvod, výhrůžky nebo násilí = Policie ČR (158).
 
-## 1. Klinická situace
+## Indikace
 
-Senior (65+) v EA-emergency — typicky finanční abuse, kognitivně-targeted scams, izolační kontrola adultním dítětem nebo pečovatelem. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **geriatrická EA-emergency** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se týká starších lidí v akutní krizi, ve které hraje roli manipulace narušující jejich
+úsudek a orientaci: [zneužívání seniorů](@/glossary/elder-abuse.md) blízkou osobou nebo
+pečujícím (finanční, psychické, izolace), cílené podvody (telefonické „vnuk v nouzi“, falešní
+úředníci, investiční a romantické podvody), dlouhodobé přesvědčování, že senior „už nic
+nepamatuje“ a o ničem nemá rozhodovat. Takový [gaslighting](@/glossary/gaslighting.md) je u
+starších lidí obzvlášť účinný, protože se opírá o skutečné obavy ze stárnutí a o nejistotu ve
+vlastní paměti; zároveň se snadno přehlédne, protože okolí změny přičte věku.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Akutní krize se projevuje zmateností, úzkostí, depresí se sebevražednými myšlenkami, ztrátou
+peněz nebo bydlení, náhlým odmítáním kontaktu s rodinou, zanedbaností.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Diferencuj EA-symptoms od demence** — důležitá comprehensive geriatric assessment včetně MoCA/MMSE.
-2. **Aktivuj sociálního pracovníka pro [elder abuse](@/glossary/elder-abuse.md) screening** — APS (Adult Protective Services) ekvivalent v ČR (sociální odbor).
-3. **Zajisti finanční bezpečnost** — freeze účtů s pomocí důvěryhodné rodiny nebo právníka, ne sám/sama.
-4. **Specifické komunikační adaptace** — nízká frekvence řeči, eliminuj background noise, dej čas na odpověď.
-5. **Plánuj care navigation** — geriatr, sociální péče, právník specializovaný na elder abuse, mental health follow-up.
+1. **Vyluč delirium a somatickou příčinu.** Infekce, dehydratace, léky (včetně jejich
+   nesprávného podávání pečující osobou), metabolické poruchy, poranění hlavy, cévní příhoda.
+   Pomocí krátkých nástrojů pro screening deliria (např. CAM) a laboratoře.
+2. **Probíhající podvod zastav.** Pokud senior právě posílá peníze, předává hotovost nebo
+   podepisuje smlouvy pod tlakem: kontakt s bankou, policie, zablokování karet.
+3. **Rozhovor bez podezřelé osoby.** Mluv se seniorem samostatně, i když pečující „vše ví lépe“.
+4. **Přizpůsob komunikaci.** Klidné prostředí bez hluku, pomalá řeč, čas na odpověď, kontrola
+   brýlí a naslouchadel, písemné shrnutí.
+5. **Bezpečí bydlení a péče.** Má kdo o seniora pečovat dnes večer? Je pečující zdrojem rizika?
+6. **Ověř sebevražedné myšlenky** – u starších mužů zvlášť nepodceňovat.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Kognice:** orientace, paměť, úsudek; krátké screeningové testy (např. MoCA, MMSE) jsou
+  orientační a v akutní krizi či deliriu zkreslené. Rozdíl mezi demencí a manipulací se nedá
+  posoudit jedním testem – rozhoduje průběh, kolaterální informace a opakované vyšetření.
+- **Známky zneužívání:** nevysvětlitelné finanční pohyby, změny závěti či plných mocí, izolace
+  od přátel, zanedbání hygieny a léků, strach z pečující osoby, pečující mluví za seniora.
+- **Funkční stav:** soběstačnost, mobilita, bezpečnost domova.
+- **Psychický stav:** deprese, úzkost, sebevražedné myšlenky, zneužívání alkoholu nebo léků.
+- **Svéprávnost a zastoupení:** existují plné moci, opatrovnictví, podpůrná opatření? Kdo je
+  vykonává?
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Delirium, somatická urgence | 155 / urgentní příjem |
+| Probíhající podvod nebo výhrůžky | Policie ČR (158), banka |
+| Podezření na zneužívání pečující osobou | sociální odbor obce, policie podle závažnosti; [protokol č. 9](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) |
+| Senior nemá bezpečnou péči | odlehčovací služba, krizové lůžko, hospitalizace |
+| Pochybnost o schopnosti rozhodovat a hrozí újma | podpůrná opatření, soud; nikdy z podnětu podezřelé osoby bez prověření |
+| Stabilní stav, bezpečné zázemí | geriatrická a psychiatrická péče, sociální služba |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš kognitivní vyšetření s uvedením okolností (delirium, únava, smyslové vady), pozorované
+známky zanedbání či zranění, výroky seniora a pečující osoby zvlášť, finanční informace, které
+senior uvedl, a komu byly předány. Pozdější řízení o [zneužívání seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md)
+nebo o platnosti právních jednání často stojí právě na takových záznamech.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Plán zahrnuje geriatra nebo gerontopsychiatra, sociální službu, právní pomoc při ochraně
+majetku a bezpečného člena rodiny, pokud existuje. Navazuje
+[rekonstrukční protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md),
+[akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) a
+[prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Připsání všech změn demenci** bez prověření okolností.
+- **Opačná chyba:** přehlédnutí skutečné demence, kterou pak zneužívá podvodník.
+- **Rozhovor jen s pečující osobou.**
+- **Rychlé omezení svéprávnosti** jako „ochrana“ – zbavuje seniora hlasu a často posílí toho, kdo
+  ho kontroluje.
+- **Ponižující komunikace** („dědečku, to vy už nechápete“).
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Starší člověk má právo rozhodovat o svém životě, i když jeho rozhodnutí okolí nesouhlasí.
+Kapacita se posuzuje ke konkrétnímu rozhodnutí a podporované rozhodování má přednost před
+zastoupením. Zároveň platí povinnost chránit před zneužitím. Vyvažování obou principů vyžaduje
+čas, opakované rozhovory a transparentnost – senior má vědět, co se o něm zjišťuje a proč.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Babičko, to vy už nechápete.“ | „Paní X, vysvětlím vám to pomaleji, ptejte se.“ | důstojnost |
+| (mluvit jen s pečující osobou) | „Teď bych rád mluvil jen s vámi.“ | vlastní hlas seniora |
+| „Tohle už za vás vyřídí synovec.“ | „Co chcete udělat vy? Pomůžeme vám to zařídit.“ | podporované rozhodování |
+| „Naletěl jste podvodníkům.“ | „Tihle podvodníci jsou velmi zkušení, naletí jim mnoho lidí.“ | stud brání oznámení |
 
-**Platformové reference:**
+Písemné shrnutí rozhovoru velkým písmem, s kontakty a dohodnutými kroky, pomáhá seniorovi zůstat v obraze i tehdy, když ho okolí přesvědčuje, že „zapomíná“.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Osmdesátiletá vdova je přivezena záchrankou pro zmatenost. Lékař zjistí infekci močových cest;
+po léčbě je orientovaná a popíše, že ji synovec přesvědčuje, že „zapomíná“, a že mu podepsala
+plnou moc k účtu. Sociální pracovnice s ní mluví o samotě, domluví právní poradnu, kontakt s
+bankou a pečovatelskou službu.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Medicínská komorbidita](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md) –
+  somatické příčiny psychických příznaků.
+- [Akutní kognitivní paralýza](@/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md) –
+  odlišení od demence.
+- [Oznamovací povinnost](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) – při
+  zneužívání.
+
+**Dlouhodobá péče a sebeobrana**
+
+- [Rekonstrukční protokol pro seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md) –
+  zotavení.
+- [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – obnovení
+  kontaktů.
+
+**Právo a pojmy**
+
+- [Právo o zneužívání seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md) – právní rámec.
+- [Doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md) –
+  podpisy pod tlakem.
+- [Elder abuse](@/glossary/elder-abuse.md) – vymezení.
+- [Scam compliance](@/glossary/scam-compliance.md) – proč oběti podvodu vyhoví.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +153,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #23 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 23 · v18.4.0*

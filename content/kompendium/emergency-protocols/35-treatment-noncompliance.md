@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Treatment noncompliance emergency"
-description = "Akutní intervenční protokol — akutní situace při treatment noncompliance."
+title = "Akutní protokol: Přerušení léčby a odmítnutí péče"
+description = "Protokol pro situaci, kdy pacient po epistemické anihilaci přeruší léky, terapii nebo plán: odlišení svobodné volby od příznaku, rizika vysazení, vztah a záložní plán."
 weight = 35
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "ethics"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,136 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Treatment noncompliance emergency
+# Akutní protokol: Přerušení léčby a odmítnutí péče
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 35** · skupina Přechody do zotavení · okno: od zjištění přerušení do nové dohody
+>
+> **Náhlé vysazení některých léků může být nebezpečné.** Křeče, delirium, vysoká teplota nebo
+> těžká agitovanost po vysazení = 155. Odmítnutí péče se zachovanou kapacitou je právem pacienta.
 
-## 1. Klinická situace
+## Indikace
 
-EA-pacient přerušil medikaci, sessions, nebo recovery plán — emergency consultation jak diferencovat noncompliance jako symptom vs. autonomy assertion. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **akutní situace při treatment noncompliance** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije, když pacient po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
+náhle přeruší léky, přestane docházet na terapii nebo odmítne domluvený plán. V běžné řeči se
+tomu říká „nespolupráce“; přesnější je ptát se, **co přerušení znamená**. Může jít o:
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+- **svobodné a informované rozhodnutí** – pacient zvážil přínosy a rizika a rozhodl se jinak;
+- **příznak** – deprese, psychotické přesvědčení, [disociace](@/glossary/disociace.md), kognitivní paralýza;
+- **signál o vztahu** – pacient se necítí slyšen, péče mu připomíná kontrolu, kterou zažil;
+- **vliv třetí osoby** – pachatel nebo skupina, které léčbu označují za „jed“, „slabost“ nebo
+  „spiknutí“; obnovený kontakt s nimi bývá častou příčinou;
+- **praktickou překážku** – peníze, doprava, nežádoucí účinky, ztráta bydlení.
 
-## 2. Bezprostřední intervence (5 kroků)
+U lidí po EA je zvlášť důležité nezaměnit asertivní odmítnutí za příznak: učit se znovu říkat
+„ne“ je součástí zotavení.
 
-1. **Diferencuj autonomous choice od symptom** — informed refusal ≠ ne-compliance; pacient má právo na vlastní rozhodnutí.
-2. **Zhodnoť medical risk** — některé medikace (benzo, antipsychotika) mají withdrawal risk; safe taper plán.
-3. **Adresuj therapeutic alliance rupture** — noncompliance je často signál o relationship issue s clinician.
-4. **Re-negotiate plán** — místo direktivního „musíš", explore pacientovo vlastní motivation, alternativní cesty.
-5. **Setup contingency plán** — pokud pacient odmítá care, jak zůstat v kontaktu pro emergency situations.
+## Bezprostřední kroky
 
-## 3. Stabilizace
+1. **Zjisti fakta:** co přesně bylo přerušeno, kdy, náhle nebo postupně.
+2. **Zhodnoť zdravotní riziko vysazení.** Některé léky (sedativa, antiepileptika, některá
+   antidepresiva a antipsychotika) mají při náhlém vysazení rizika od nepříjemných příznaků po
+   život ohrožující stavy; rozhodnutí o bezpečném postupu patří lékaři ([protokol č. 36](@/kompendium/emergency-protocols/36-medication-emergency.md)).
+3. **Zeptej se na důvody** bez obviňování: „Pomozte mi pochopit, co vás k tomu vedlo.“
+4. **Posuď riziko** zhoršení stavu, suicidality, relapsu ([protokol č. 33](@/kompendium/emergency-protocols/33-relapse-recognition.md)).
+5. **Nabídni kontakt i bez léčby,** pokud pacient léčbu odmítá – kontakt je pojistka.
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+## Posouzení
 
-## 4. Předání péče + Kontraindikace
+- **Kapacita k rozhodnutí** o konkrétní léčbě: rozumí informacím, zvažuje je, chápe důsledky,
+  vyjádří volbu.
+- **Svobodnost rozhodnutí:** kdo s pacientem o léčbě mluvil, zda nedostává instrukce od jiné
+  osoby, zda se neobává trestu.
+- **Stav:** příznaky, které mohou rozhodnutí ovlivňovat, a jejich vývoj.
+- **Vztah k péči:** co se stalo před přerušením (výměna terapeuta, nepříjemná zkušenost, pocit
+  přehlížení), [iatrogenní poškození](@/glossary/iatrogenic-harm.md) v minulosti.
+- **Alternativy,** které by pro pacienta byly přijatelné.
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+## Rozhodovací body a eskalace
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+| Situace | Postup |
+|---|---|
+| Nebezpečný odvykací stav, somatické zhoršení | 155 / urgentní lékařské vyšetření |
+| Zachovaná kapacita, informované rozhodnutí | respektovat, nabídnout bezpečný postup vysazení, záložní plán a kontakt |
+| Rozhodnutí ovlivněné příznakem, rostoucí riziko | intenzivnější kontakt, psychiatrické vyšetření; při bezprostředním ohrožení akutní protokoly |
+| Rozhodnutí vynucené třetí osobou | rozhovor o samotě, bezpečnostní plán, při nátlaku či násilí Policie ČR (158) |
+| Narušený vztah s klinikem | rozhovor o vztahu, nabídka jiného klinika nebo [druhého názoru](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) |
 
-## 5. Cross-linky
+## Dokumentace
 
-**Sesterské emergency protokoly:**
+Zapiš, co a kdy bylo přerušeno, pacientovy důvody v jeho slovech, posouzení kapacity a
+svobodnosti rozhodnutí, poskytnuté informace o rizicích, dohodnutý záložní plán. Formulace
+„nonkompliantní pacient“ nic nevysvětluje a v dokumentaci škodí; popiš rozhodnutí a jeho kontext.
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+## Předání do dlouhodobé péče
 
-**Návazná dlouhodobá péče:**
+Nová dohoda vzniká společně: co pacient chce, čeho se bojí, co je ochoten zkusit, jak se pozná,
+že plán nefunguje. Pomáhá [subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md),
+[nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – včetně hranic vůči
+péči – a [asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md).
+Pokud přerušení provází relaps, platí [protokol č. 34](@/kompendium/emergency-protocols/34-relapse-emergency.md).
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+## Kontraindikace a časté chyby
 
-**Souvisejícící klinické techniky:**
+- **„Musíte“** místo rozhovoru; vyhrožování ukončením péče.
+- **Automatický výklad odmítnutí jako příznaku.**
+- **Opačně:** přijetí „rozhodnutí“, které ve skutečnosti diktuje pachatel nebo skupina.
+- **Ignorování nežádoucích účinků,** které pacient popisoval.
+- **Ukončení kontaktu,** protože pacient „nespolupracuje“.
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+## Etika a souhlas
 
-**Glossary reference:**
+Dospělý se zachovanou kapacitou má právo léčbu odmítnout, i když s tím odborník nesouhlasí;
+léčba bez souhlasu je výjimkou v přesně vymezených situacích. Pro lidi po EA je zkušenost, že
+jejich „ne“ je respektováno a vztah přesto trvá, sama o sobě léčivá. Zároveň má odborník
+povinnost poskytnout úplné informace o rizicích a hledat, zda rozhodnutí opravdu patří pacientovi.
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+## Specifika epistemické anihilace
 
-**Platformové reference:**
+Lidé po EA bývají v léčbě rozpolcení: potřebují pomoc, ale každý nevysvětlený pokyn v nich vyvolává vzpomínku na kontrolu. Přerušení léčby je proto někdy pokusem získat zpět rozhodování, ne odmítnutím pomoci. Pomáhá rozlišit mezi tím, co pacient odmítá (konkrétní lék, frekvenci sezení, styl terapeuta), a tím, co by přijal. Druhým specifikem je vliv třetích osob: skupiny i kontrolující partneři často léčbu systematicky zpochybňují, protože ohrožuje jejich vliv. Pokud pacient cituje jejich argumenty, je užitečné se ptát, jak k nim dospěl a co si myslí sám – bez snahy argumenty vyvracet. Rozhodnutí, které pacient udělá po takovém rozhovoru, je jeho, i když s ním klinik nesouhlasí.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Komunikace v akutní fázi
 
-## 6. Connect
+| Místo | Raději | Proč |
+|---|---|---|
+| „Proč jste nás neposlouchal?“ | „Pomozte mi pochopit, co vás k tomu vedlo.“ | důvody místo viny |
+| „Bez léků to nepůjde.“ | „Tady jsou rizika a možnosti. Co by pro vás bylo přijatelné?“ | informované rozhodnutí |
+| „Jestli nebudete spolupracovat, ukončíme péči.“ | „I když léky nechcete, rád vás budu vídat.“ | kontakt jako pojistka |
+| „To vám napovídá ta skupina.“ | „Kdo s vámi o lécích mluvil? Co si o tom myslíte vy?“ | odlišení vlivu bez útoku |
+
+Pokud se ukáže, že důvodem byly nežádoucí účinky, o kterých se pacient styděl mluvit, stojí za to poděkovat mu za otevřenost – posiluje to ochotu mluvit o potížích příště dřív.
+
+## Modelová situace
+
+Mladý muž po odchodu z „holistické“ komunity přestane brát antidepresivum, protože mu bývalý
+vedoucí napsal, že léky „otupují duši“. Psychiatrička ho nekárá, zeptá se, jak to vnímá on sám, a
+vysvětlí rizika náhlého vysazení. Muž přizná, že ho trápila ztráta libida, o které se styděl
+mluvit. Domluví změnu léku a schůzku za týden.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Lékové pohotovostní stavy](@/kompendium/emergency-protocols/36-medication-emergency.md) –
+  rizika vysazení.
+- [Iatrogenní poškození](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md) – když
+  odmítnutí vychází z předchozí škody.
+- [Druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md) – při nedůvěře
+  k plánu.
+- [Akutní relaps](@/kompendium/emergency-protocols/34-relapse-emergency.md) – když přerušení
+  vede ke krizi.
+
+**Dlouhodobá péče a sebeobrana**
+
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) –
+  vztah k péči.
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – zdravé „ne“.
+
+**Pojmy**
+
+- [Informed consent](@/glossary/informed-consent.md) – souhlas a odmítnutí.
+- [Epistemická agentnost](@/glossary/epistemicka-agentnost.md) – vlastní rozhodování.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +151,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #35 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 35 · v18.4.0*

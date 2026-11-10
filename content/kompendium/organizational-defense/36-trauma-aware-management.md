@@ -1,6 +1,6 @@
 +++
 title = "Trauma-aware management"
-description = "Organizační obrana — trauma-aware management."
+description = "Vedení, které po epistemické krizi tlačí na „návrat k normálu“, prodlužuje zotavení. Kapitola popisuje traumaticky informované vedení: rozpoznat, reagovat, odkázat, a zásady bezpečí a důvěry."
 weight = 360
 
 [taxonomies]
@@ -8,95 +8,141 @@ tags = ["kompendium", "organizational-defense", "crisis"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["34-PR-narrative-defense", "35-employee-assistance-EA", "37-business-continuity-EA", "38-leadership-replacement"]
+related_terms = ["35-employee-assistance-EA", "39-cultural-rebuild", "16-psychological-safety", "12-training-resilience"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Trauma-aware management
 
-> **Bucket:** Krizová reakce · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Krizová reakce · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-EA způsobuje organizační trauma — vedení, které ho ignoruje, prodlužuje recovery o měsíce nebo roky.
+Dlouhodobá manipulace, zastrašování nebo zkreslování reality v organizaci zanechává stopy
+nejen v jednotlivcích, ale i v týmech: nedůvěru, ostražitost, mlčení, únavu, cynismus. Vedoucí,
+který týden po odchodu problematického šéfa vyzve tým, aby „hodil minulost za hlavu“,
+nevědomky opakuje vzorec, který tým zná – jeho prožitek se znovu prohlašuje za nedůležitý.
+Traumaticky informované vedení (trauma-informed management) neznamená, že z vedoucích budou
+terapeuti. Znamená, že rozumí tomu, jak trauma působí na práci, a jednají tak, aby ho
+neprohlubovali.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **trauma-aware management** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě se riziko projevuje tlakem na výkon bez ohledu na stav týmu. Ve škole se týká
+učitelů i žáků po incidentu; nové vedení musí počítat s tím, že důvěra dětí a rodičů se
+vrací pomalu. V nemocnici jde o personál po letech strachu z hlášení chyb, kde se k zátěži
+z péče přidává zátěž z prostředí. Na univerzitě o doktorandy a mladé vědce po zneužívajícím
+vedení, u nichž je častá [amplifikace syndromu podvodníka](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md).
+V neziskové organizaci o lidi, kteří ztratili důvěru v poslání, ve veřejné správě o úředníky
+po politickém tlaku. Ve všech případech mohou vedoucí bagatelizovat, přehlížet známky
+vyhoření nebo – nejhůře – zpochybňovat prožitky dotčených, což je forma
+[gaslightingu](@/glossary/gaslighting.md) na úrovni instituce.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Vedoucí nemají žádné znalosti o dopadech traumatu na chování a výkon.
+- Organizace měří jen výkon a „návrat k normálu“ je cílem.
+- Noví vedoucí nemají informace o tom, čím tým prošel.
+- Dotčení nemají hlas v tom, jak bude obnova probíhat.
+- Chybí odborná podpora, na kterou by vedoucí mohli odkázat.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Školení vedoucích v principu „rozpoznat – reagovat – odkázat“: rozpoznat známky zátěže,
+  reagovat bez bagatelizace a bez vyptávání, odkázat na odbornou pomoc.
+- Zásady traumaticky informovaného přístupu, jak je formuloval americký úřad SAMHSA (2014):
+  bezpečí; důvěryhodnost a transparentnost; vzájemná podpora; spolupráce; posílení hlasu a
+  volby; citlivost ke kulturním a dalším souvislostem.
+- Postupný návrat k plné zátěži, dohodnutý s týmem, ne nařízený.
+- Skupiny vzájemné podpory a supervize pro vedoucí
+  (srov. [supervizorská sebepéče](@/kompendium/techniques/ea-3-2-10-supervisor-self-care.md)).
+- Přístup k odborné podpoře – [asistence zaměstnancům](@/kompendium/organizational-defense/35-employee-assistance-EA.md).
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Trénujte střední management v základech trauma-informed leadership (recognize, respond, refer) s certifikací.
+Vedoucí týmu odpovídá za každodenní jednání s lidmi a za to, že rozpozná, kdy je třeba
+odkázat na pomoc. Vyšší vedení odpovídá za realistická očekávání a za čas na obnovu.
+Personální útvar zajišťuje školení a podporu vedoucích. Odborníci (psycholog, kouč se
+znalostí traumatu) poskytují konzultace. Členové týmu mají hlas v tom, jak obnova probíhá.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Povinné školení pro vedoucí týmů, které prošly incidentem, a doporučené pro všechny.
+2. Předávací informace pro nového vedoucího o tom, čím tým prošel (v mezích důvěrnosti).
+3. Plán obnovy týmu s postupným návratem zátěže a s pravidelnými kontrolami.
+4. Pravidla pro hodnocení výkonu v období po krizi.
+5. Navázání na [kulturní obnovu](@/kompendium/organizational-defense/39-cultural-rebuild.md)
+   a [psychologickou bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Školení vysvětluje, jak se dopad dlouhodobé manipulace projevuje v práci: ostražitost vůči
+autoritě, potřeba mít vše písemně, citlivost na nejasnosti, potíže se soustředěním,
+pochybnosti o vlastním úsudku ([skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)).
+Tyto projevy nejsou „problémové chování“, ale pochopitelné reakce. Vedoucí se učí
+srozumitelnosti a předvídatelnosti (jasné úkoly, písemné dohody, žádná překvapení), protože
+právě nejistota a měnící se pravidla byly nástrojem manipulace. Učí se také rozpoznat
+hranici své role a [riziko retraumatizace](@/glossary/retraumatizace.md).
 
-- Manažeři tlačí na „návrat k normálu“ týden po incidentu, ignorují signály vyhoření, gaslightují oběti.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Incidentem je i situace, kdy vedení v období obnovy jedná způsobem, který dotčené znovu
+zraňuje (bagatelizace, veřejné „uzavření“ tématu, tlak na výkon):
 
-## 5. Best practices
+1. Dotčení nebo personální útvar to pojmenují a eskalují.
+2. Vyšší vedení s vedoucím situaci probere a dohodne změnu.
+3. Tým dostane prostor vyjádřit, co potřebuje.
+4. Pokud vedoucí nedokáže změnit přístup, je třeba zvážit změnu vedení týmu.
 
-Trauma-informed training, peer support groups, paced return-to-normal, recognition of grief stages.
+**Příklad (anonymizovaný kompozit).** Po odchodu vedoucího, který léta měnil zadání a
+popíral dohody, nastoupila nová vedoucí. Tým reagoval nedůvěrou a žádal vše písemně. Místo
+aby to brala jako útok, zavedla písemné shrnutí každé porady a předvídatelný rozvrh. Po
+půl roce tým sám navrhl některá písemná pravidla zmírnit.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Dotčení mají právo na to, aby jejich zkušenost byla uznána, a na to, aby nemuseli o ní
+mluvit, když nechtějí. Vedoucí nesmí vyžadovat sdílení prožitků ani diagnostikovat. Pokud
+dotčený potřebuje úpravy práce, poskytují se bez stigmatu. Herman (1992) popisuje zotavení z
+traumatu jako proces, jehož prvním krokem je bezpečí; organizace může bezpečí na pracovišti
+podpořit, ale terapii nenahradí.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [Role ombudsmana](@/kompendium/organizational-defense/6-ombudsman-role.md)
-- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
-- [Cykly revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md)
-- [Ochrana akcionářů](@/kompendium/organizational-defense/9-shareholder-protection.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Vedoucí tlačí na „návrat k normálu“ týden po incidentu, ignorují známky vyhoření,
+  zpochybňují prožitky dotčených.
+- Fluktuace a nemocenská po incidentu dál rostou.
+- Tým nemá hlas v obnově.
+- Školení vedoucích se nekoná.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Vedoucí nejsou terapeuti a nemají jimi být; příliš „terapeutický“ přístup může být stejně
+nevhodný jako bagatelizace. Pojem trauma se může nadužívat a zastřít rozdíl mezi
+nepříjemnou zkušeností a skutečným traumatem (srov.
+[trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)).
+Otevřené zůstává, jak dlouho má období obnovy trvat a jak poznat, že skončilo.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Asistence zaměstnancům v krizi](@/kompendium/organizational-defense/35-employee-assistance-EA.md)
+  – odborná podpora, na kterou vedoucí odkazují.
+- [Kulturní obnova](@/kompendium/organizational-defense/39-cultural-rebuild.md) – obnova na
+  úrovni organizace.
+- [Psychologická bezpečnost](@/kompendium/organizational-defense/16-psychological-safety.md)
+  – cíl obnovy týmu.
+- [Tréninky odolnosti](@/kompendium/organizational-defense/12-training-resilience.md) –
+  vzdělávací rámec.
+
+**Pojmy a zotavení**
+
+- [Retraumatizace](@/glossary/retraumatizace.md) – riziko necitlivého vedení.
+- [Komplexní trauma](@/glossary/complex-trauma.md) – dlouhodobé trauma a jeho projevy.
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md)
+  – obnova důvěry.
+
+**Kritika**
+
+- [Trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)
+  – přínos a meze traumatického rámce.

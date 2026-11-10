@@ -1,6 +1,6 @@
 +++
 title = "Řízení dodavatelů s EA fokusem"
-description = "Organizační obrana — řízení dodavatelů s ea fokusem."
+description = "Dodavatelé a poradci mohou získat nad organizací vliv, který nikdo neschválil. Kapitola popisuje závislost, zachycení vztahu, výběr se čtyřma očima, střídání komisí a hodnocení dodavatelů."
 weight = 250
 
 [taxonomies]
@@ -8,95 +8,142 @@ tags = ["kompendium", "organizational-defense", "operational"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["23-communication-policy", "24-documentation-standards", "26-contractor-vetting", "27-information-classification"]
+related_terms = ["26-contractor-vetting", "3-conflict-of-interest-policy", "29-segregation-duties", "28-access-control-EA"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Řízení dodavatelů s EA fokusem
 
-> **Bucket:** Operativní · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Provoz · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Dodavatelé jsou často infiltrační vektor — relationship capture vede k institucionální závislosti a EA propagaci.
+Dodavatelé nedodávají jen zboží a služby. Poradenské firmy dodávají analýzy, podle nichž se
+rozhoduje; dodavatelé softwaru určují, jaká data organizace vidí; agentury dodávají obraz
+organizace navenek; výrobci léčiv a pomůcek dodávají lékařům informace o svých produktech.
+Když se vztah s dodavatelem stane neprůhledným a nezaměnitelným, získá dodavatel nad
+organizací vliv, který nikdo neschválil – a s ním i vliv na to, co organizace považuje za
+pravdivé. Kapitola popisuje řízení dodavatelů z tohoto pohledu.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **řízení dodavatelů s ea fokusem** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě se riziko projevuje jako „rodinný“ vztah s dodavatelem trvající desetiletí,
+bez nových výběrových řízení, s neformálními výhodami pro rozhodovatele. U poradců jde
+o objednávání analýz, jejichž závěr je předem dán, aby legitimizovaly rozhodnutí. Ve
+veřejném sektoru platí zákon č. 134/2016 Sb., o zadávání veřejných zakázek, s povinnostmi
+transparentnosti a předcházení střetu zájmů; riziko leží v přípravě zadávacích podmínek
+šitých na míru. V nemocnici jde o vztahy s výrobci, ve škole o dodavatele vzdělávacích
+materiálů a programů, které mohou nést vlastní agendu (srov.
+[zachycení kurikula](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md)), na univerzitě
+o průmyslové financování výzkumu, v médiích o PR agentury a dodavatele obsahu. Obecným
+vzorem jsou [narativní útoky přes dodavatelský řetězec](@/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md).
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Stejný dodavatel mnoho let bez srovnání s trhem.
+- Výběr dodavatele řídí jedna osoba nebo stále stejná komise.
+- Dodavatel se podílí na přípravě zadání, podle něhož je pak vybírán.
+- Organizace nemá vlastní kapacitu ověřit, co dodavatel tvrdí (technologická nebo
+  znalostní závislost).
+- Dary, pohoštění, cesty a neformální vztahy rozhodovatelů s dodavatelem.
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Pravidlo čtyř očí pro výběr dodavatelů nad stanovený limit; oddělení toho, kdo zadání
+  připravuje, kdo vybírá a kdo přebírá plnění (viz [oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)).
+- Střídání členů výběrových komisí v pravidelném intervalu.
+- Prohlášení o střetu zájmů u každého výběru – [politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md).
+- U kritických služeb více dodavatelů nebo plán přechodu, aby organizace nebyla zajatcem.
+- Hodnocení dodavatelů podle plnění, ceny a chování (transparentnost, dodržování pravidel).
+- U poradců a analytických služeb oddělení zadání od očekávaného závěru a možnost
+  nezávislé oponentury.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Implementujte 4-eyes pravidlo pro výběr dodavatelů > 100k, s povinnou rotací RFP komise každé 2 roky.
+Nákupní útvar řídí proces výběru a evidenci. Věcný útvar definuje potřebu, ale nesmí sám
+vybírat a přebírat. Compliance prověřuje střet zájmů a rizikové vazby. Interní audit
+testuje vzorky zakázek. Vedení odpovídá za to, že na dodavatelích nevzniká nekontrolovaná
+závislost. Každý pracovník, který s dodavatelem jedná, odpovídá za dodržování pravidel o
+darech a pohoštění.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Nákupní směrnice s limity, počtem nabídek a postupem výběru.
+2. Registr dodavatelů s historií zakázek, hodnocením a vazbami.
+3. Pravidla pro dary, pohoštění a sponzoring ze strany dodavatelů.
+4. Pravidelné tržní srovnání u dlouhodobých smluv.
+5. Plán přechodu u kritických dodavatelů.
+6. Prověrka dodavatelů a jejich skutečných majitelů – navazuje na
+   [prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Pracovníci, kteří jednají s dodavateli, se učí rozpoznat budování vztahové závislosti:
+postupné poskytování výhod, osobní pozornost, „pomoc“ s přípravou zadání, vytváření dojmu,
+že bez dodavatele to nejde. Analytici a vedoucí se učí kriticky číst zakázkové analýzy:
+Kdo je objednal? Byly zadány s otevřenou otázkou? Kdo z nich má prospěch? Vhodným rámcem je
+[due diligence](@/glossary/due-diligence.md) a [prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md).
 
-- Stejný dodavatel 10+ let, žádné nové RFP, „rodinné“ vztahy s vendory, kickback signály.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+## Řešení incidentu
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Při podezření na zachycení vztahu s dodavatelem (opakované vítězství, přizpůsobené zadání,
+výhody pro rozhodovatele):
 
-## 5. Best practices
+1. Zajistit dokumentaci zakázek, komunikaci a hodnocení.
+2. Prověřit vazby rozhodovatelů na dodavatele z veřejných i interních zdrojů.
+3. Vyloučit dotčené osoby z dalšího rozhodování o dodavateli.
+4. Posoudit, zda jde o porušení předpisů nebo o trestný čin; podle toho postupovat.
+5. Připravit přechod k jinému dodavateli, pokud je vztah neudržitelný.
 
-Vendor scorecard (delivery, price, behavior), 3-vendor minimum pro kritické služby, conflict-of-interest screening.
+**Příklad (anonymizovaný kompozit).** Nemocnice deset let nakupovala zdravotnický materiál
+od jednoho dodavatele. Výběrová řízení vyhrával díky technickým podmínkám, které připravoval
+vedoucí oddělení, jenž přednášel na akcích dodavatele. Nová nákupní směrnice oddělila
+přípravu podmínek od výběru a zavedla prohlášení o vazbách; další řízení vyhrál jiný
+dodavatel s nižší cenou.
 
-**Dodatečné principy:**
+## Ochrana dotčené osoby
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+Pracovník, který upozorní na neprůhledný vztah s dodavatelem, často upozorňuje na vlivného
+kolegu. Zákon č. 171/2023 Sb. ho chrání při oznámení protiprávního jednání, například
+porušení pravidel zadávání veřejných zakázek. Organizace musí zajistit, aby oznamovatel
+nebyl izolován a aby dodavatel nezískal informace o jeho identitě.
 
-## 6. Cross-linky
+## Vyhodnocení a indikátory selhání
 
-- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)
-- [Ochrana mentorství](@/kompendium/organizational-defense/19-mentorship-protection.md)
-- [Plánování nástupnictví s EA fokusem](@/kompendium/organizational-defense/20-succession-planning-EA.md)
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+- Stejný dodavatel deset a více let, žádná nová výběrová řízení, „rodinné“ vztahy, signály
+  provizí.
+- Zadávací podmínky odpovídají jen jednomu dodavateli.
+- Organizace nedokáže bez dodavatele fungovat ani ho posoudit.
+- Rozhodovatelé se účastní akcí a cest hrazených dodavatelem.
 
-## 7. Connect
+## Meze a otevřené otázky
 
-## Connect
+Dlouhodobý vztah s dodavatelem může být hodnotou (znalost, spolehlivost); cílem není
+střídat kvůli střídání, ale zachovat schopnost srovnávat a odejít. Malé organizace nemají
+kapacitu na složité procesy. Otevřené zůstává, jak řídit závislost na velkých technologických
+platformách, kde alternativy prakticky neexistují.
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+## Související
+
+**Sesterské kapitoly**
+
+- [Prověřování kontraktorů](@/kompendium/organizational-defense/26-contractor-vetting.md) –
+  externí lidé uvnitř organizace.
+- [Politika střetu zájmů](@/kompendium/organizational-defense/3-conflict-of-interest-policy.md)
+  – vazby rozhodovatelů.
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) –
+  zadání, výběr a převzetí v různých rukou.
+- [Řízení přístupů s EA fokusem](@/kompendium/organizational-defense/28-access-control-EA.md)
+  – přístupy dodavatelů do systémů.
+
+**Analýza a prověrka**
+
+- [EA × Security: Supply Chain Narrative Attacks](@/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md)
+  – dodavatelský řetězec jako vektor.
+- [EA × Due Diligence: Counterparty Information Manipulation](@/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md)
+  – manipulace informacemi protistrany.
+- [Due diligence](@/glossary/due-diligence.md) – prověrka protistrany.
+
+**Techniky**
+
+- [EA-2.4.9 Curriculum Capture](@/kompendium/techniques/ea-2-4-9-curriculum-capture.md) –
+  dodavatel obsahu jako nositel agendy.

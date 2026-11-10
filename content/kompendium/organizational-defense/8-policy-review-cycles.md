@@ -1,6 +1,6 @@
 +++
 title = "Cykly revize politik"
-description = "Organizační obrana — cykly revize politik."
+description = "Zastaralé a neprůhledné vnitřní předpisy vytvářejí mezery i prostor pro skryté změny. Kapitola popisuje verzování, expiraci politik, revizní postup a kontrolu souladu s praxí."
 weight = 80
 
 [taxonomies]
@@ -8,95 +8,141 @@ tags = ["kompendium", "organizational-defense", "governance"]
 categories = ["academic", "organizational", "governance"]
 
 [extra]
-related_terms = ["6-ombudsman-role", "7-ethics-officer-mandate", "9-shareholder-protection", "5-audit-committee-EA"]
+related_terms = ["2-charter-protection", "7-ethics-officer-mandate", "24-documentation-standards", "40-post-incident-learning"]
 parent = "kompendium-organizational-defense"
 toc = true
 +++
 
 # Cykly revize politik
 
-> **Bucket:** Governance · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
+> **Pilíř:** Správa a řízení · **Oddíl:** [Organizační obrana](@/kompendium/organizational-defense/_index.md)
 
-Zastaralé politiky vytvářejí mezery, kterými EA proniká — „podle pravidel z roku 2015“ je červená vlajka.
+Vnitřní předpisy – směrnice, řády, metodiky, kodexy – jsou společnou pamětí organizace o
+tom, jak se má jednat. Stárnou dvěma způsoby: buď přestanou odpovídat realitě a lidé je
+obcházejí, nebo se mění nenápadně a nikdo neví, která verze platí. Obojí otevírá prostor pro
+epistemický útok: kde se pravidlo neví nebo neplatí, rozhoduje ten, kdo tvrdí, že ho zná.
+„Postupujeme podle směrnice z roku 2015“ je stejně varovným signálem jako „to se změnilo,
+nevíte?“.
 
-## 1. Organizační kontext
+## Riziko v daném prostředí
 
-V kontextu **epistemických útoků (EA)** představuje **cykly revize politik** kritický kontrolní bod, kde se rozhoduje
-o tom, zda organizace dokáže rozpoznat manipulaci dříve, než ji asimiluje. Bez funkčního mechanismu v této oblasti
-se organizace stává **strukturálně zranitelnou** — útočník (interní nebo externí) může využít chybějící obrany
-k postupnému získání vlivu, informací nebo kontroly.
+Ve firmě se zastaralé politiky týkají zejména přístupů, nákupu a personálních postupů. Ve
+škole se školní řád a postupy pro řešení šikany často nemění, ačkoli se změnil život žáků
+(sociální sítě, sdílení obrázků). V nemocnici jde o klinické standardy a postupy hlášení
+nežádoucích událostí, které se v praxi nahrazují „zvykem oddělení“. Na univerzitě o studijní
+a disciplinární řády, jejichž výklad drží v rukou úzký okruh lidí. Ve veřejné správě o
+interní směrnice, které se odkazují na zrušené předpisy. V neziskové organizaci o pravidla,
+která psal zakladatel a nikdo je neotevřel. Vzorec
+[skrytého přepisování pravidel](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)
+těží z toho, že nikdo nesleduje, co přesně platí.
 
-Tato kapitola není teoretickým cvičením. Každý popisovaný prvek vychází z reálných případů institucionálního
-zachycení (institutional capture), board capture, nebo whistleblower retaliation, které jsou dokumentovány
-v navazujících sekcích kompendia.
+## Strukturální zranitelnosti
 
-## 2. Klíčové prvky obrany
+- Neexistuje jediný registr platných předpisů s vlastníkem a datem revize.
+- Politiky nemají datum účinnosti ani historii změn.
+- Změny se dělají „opravou souboru“ bez schválení a bez oznámení.
+- Revize je kosmetická: mění se datum, ne obsah.
+- Praxe se od pravidla odchyluje a odchylka se postupně normalizuje – jev, který Diane
+  Vaughan nazvala normalizací odchylek (1996).
 
-1. **Strukturální nezávislost** — žádná osoba nesmí mít kontrolu nad celým rozhodovacím cyklem
-2. **Auditovatelnost** — každá akce musí mít trvalý, nezfalšovatelný záznam
-3. **Eskalační kanál** — musí existovat cesta nahoru i mimo strukturu (externí ombudsman, board)
-4. **Periodicita** — kontrolní mechanismy musí běžet pravidelně, ne ad-hoc
-5. **Transparentnost** — kde to právní rámec dovoluje, výstupy musí být veřejné
-6. **Redundance** — žádný kontrolní bod nesmí být single-point-of-failure
+## Ochranné struktury
 
-## 3. Implementační postup
+- Centrální registr předpisů: název, vlastník, verze, datum účinnosti, datum příští revize.
+- Verzované úložiště s úplnou historií a srovnáním verzí; nová verze nahrazuje starou jen
+  po schválení.
+- Doložka o expiraci: politika, která nebyla revidována ve stanovené lhůtě (typicky do dvou
+  let), je označena jako propadlá a vlastník musí revizi dokončit.
+- Revizní postup s připomínkami dotčených útvarů a s kontrolou souladu s právem.
+- Kontrola souladu s praxí: vzorek případů, v nichž se ověří, zda se postupovalo podle
+  pravidla, a pokud ne, proč.
 
-**Konkrétní krok pro tuto oblast:**
+## Role a odpovědnosti
 
-> Implementujte kalendář s automatickou expirací každé politiky po 24 měsících (force-renewal), bez výjimek.
+Vlastník politiky odpovídá za její obsah, revizi a výklad. Správce registru (právní útvar,
+compliance) hlídá lhůty a verze. [Etický ředitel](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
+nebo compliance posuzuje, zda změna neoslabuje kontrolu nebo práva zaměstnanců. Vedoucí
+útvarů hlásí, kde praxe s pravidlem nesouhlasí. Interní audit testuje soulad pravidla a
+praxe a hlásí propadlé politiky nejvyššímu orgánu.
 
-**Doporučená sekvence implementace:**
+## Politiky a postupy
 
-1. **Diagnostika** (2 týdny): Zmapujte aktuální stav, identifikujte gap mezi best practice a realitou
-2. **Stakeholder alignment** (2 týdny): Získejte buy-in od board / executive / HR / legal
-3. **Pilot** (4 týdny): Spusťte na omezeném scope (jeden tým / jedna divize)
-4. **Iterace** (4 týdny): Sbírejte feedback, upravujte proces a tooling
-5. **Roll-out** (8 týdnů): Postupné rozšíření na celou organizaci s training a komunikací
-6. **Audit** (kontinuální): Pravidelná evaluace efektivity, minimálně pololetně
+1. Politika o politikách: kdo smí vydávat předpisy, jakou mají formu, jak se schvalují a
+   publikují.
+2. Kalendář revizí s automatickým upozorněním vlastníka.
+3. Každá změna má srovnání s předchozím zněním a krátké zdůvodnění.
+4. Oznámení změny dotčeným lidem s datem účinnosti a shrnutím.
+5. Zákaz zpětné účinnosti, ledaže jde o opravu chyby ve prospěch dotčených.
+6. Vyhodnocení incidentů jako vstup revize – vazba na
+   [učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md).
 
-## 4. Indikátory selhání
+## Vzdělávání a trénink
 
-Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl kompromitován:
+Vlastníci politik potřebují umět napsat srozumitelné pravidlo a rozpoznat, kdy změna
+zasahuje do rovnováhy moci (rozšíření výjimek, přesun pravomoci, oslabení kontroly).
+Zaměstnanci mají vědět, kde najdou platné znění a jak se zeptat na výklad. Krátké cvičení
+na srovnání dvou verzí politiky ukáže, jak malá formulační změna – například
+[posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md) – může mít
+velký dopad.
+
+## Řešení incidentu
+
+Zjistí-li se, že se jednalo podle neplatného nebo nepublikovaného pravidla:
+
+1. Určit, která verze platila v rozhodné době, a doložit to z historie úložiště.
+2. Zjistit, kdo a kdy změnu provedl, a zda byla schválena – v souladu s
+   [dokumentačními standardy](@/kompendium/organizational-defense/24-documentation-standards.md).
+3. Posoudit dopad na dotčená rozhodnutí a lidi; případně je přezkoumat.
+4. Opravit registr a doplnit chybějící kontroly; při úmyslném zásahu postupovat podle
+   [interního vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md).
+
+## Ochrana dotčené osoby
+
+Člověk, na něhož bylo uplatněno neplatné nebo zpětně změněné pravidlo, zažívá specifický
+druh dezorientace: pravidla, jimiž se řídil, „najednou neplatila“. Je třeba mu výslovně
+potvrdit, jaká verze platila, a pokud mu vznikla újma, napravit ji. Kdo upozorní na
+neplatný postup, nesmí být označen za obstrukčníka; jde-li o porušení předpisu v rozsahu
+zákona č. 171/2023 Sb., je chráněn jako oznamovatel.
+
+## Vyhodnocení a indikátory selhání
 
 - Politiky se nemění léta, revize jsou kosmetické, nikdo neví, která verze platí.
-- Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
-- Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
-- Externí auditoři dostávají omezený přístup k datům nebo lidem
+- V registru je mnoho propadlých předpisů bez vlastníka.
+- Výklad pravidla podává pokaždé jiný člověk jinak.
+- Změny se dozvídají dotčení až při uplatnění.
 
-Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
-a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, ombudsman, externí counsel).
+Metriky: podíl politik revidovaných v termínu, počet propadlých politik, výsledky testů
+souladu s praxí.
 
-## 5. Best practices
+## Meze a otevřené otázky
 
-Verzovaný repozitář, mandatory peer review, sunset clauses na každé politice.
+Více pravidel neznamená víc ochrany; přeregulovaná organizace vede lidi k obcházení. Expirace
+nesmí vést k tomu, že platí „nic“ – propadlá politika platí do vydání nové, ale je
+viditelně označena. Otevřené zůstává, jak zapojit do revize lidi, kteří pravidla skutečně
+používají, a ne jen ty, kteří je píší.
 
-**Dodatečné principy:**
+## Související
 
-- **Defense in depth** — jeden mechanismus nikdy nestačí, vždy kombinujte
-- **Trust but verify** — i good-faith aktéři mohou nevědomě umožnit EA
-- **Fail loudly** — selhání musí být viditelné, ne potlačené
-- **Document everything** — bez záznamu se realita rozpadá v post-hoc rationalization
-- **External validation** — interní audit nikdy plně nenahradí externí pohled
+**Sesterské kapitoly**
 
-## 6. Cross-linky
+- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md) –
+  stejný princip na úrovni základního dokumentu.
+- [Dokumentační standardy](@/kompendium/organizational-defense/24-documentation-standards.md)
+  – verzování a vlastnictví.
+- [Mandát etického ředitele](@/kompendium/organizational-defense/7-ethics-officer-mandate.md)
+  – kdo posuzuje dopad změn.
+- [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md) –
+  incidenty jako vstup revize.
 
-- [Zapojení stakeholderů](@/kompendium/organizational-defense/10-stakeholder-engagement.md)
-- [Odolnost představenstva](@/kompendium/organizational-defense/1-board-resilience.md)
-- [Ochrana zakládací listiny](@/kompendium/organizational-defense/2-charter-protection.md)
-- [Rotace rolí](@/kompendium/organizational-defense/30-rotation-of-roles.md)
-- [Reakce na incident s EA fokusem](@/kompendium/organizational-defense/31-incident-response-EA.md)
-- [Interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
-- [Právní podpora v krizi](@/kompendium/organizational-defense/33-legal-counsel-engagement.md)
-- [Kompendium — Hlavní index](@/kompendium/_index.md)
-- [Detection Signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
+**Techniky a signatury**
 
-## 7. Connect
+- [EA-2.4.2 Policy Rewriting Skrytá](@/kompendium/techniques/ea-2-4-2-policy-rewriting-skryta.md)
+  – vzorec, proti němuž revize chrání.
+- [EA-2.4.5 Evaluation Criteria Rewrite](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)
+  – změna kritérií jako zvláštní případ.
+- [Posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md) – jak se
+  změna skrývá ve formulaci.
 
-## Connect
+**Prevence**
 
-- **Otázky / konzultace**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
-- **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
-- **Kompendium**: [Hlavní index](@/kompendium/_index.md)
+- [Vigilance zaměstnavatele](@/kompendium/prevention-resilience/16-employer-vigilance.md) –
+  obecný rámec prevence na pracovišti.

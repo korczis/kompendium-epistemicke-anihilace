@@ -25,6 +25,8 @@
       <div class="format format-sm sm:format-base lg:format-lg format-blue mx-auto w-full max-w-none dark:format-invert">
         {{ section.content | safe }}
       </div>
+      {#- Odvozený pohled; na rozcestníku jen bez podstránek (jinak nese přehled oddílu níže). -#}
+      {%- if not explorer %}{% include "partials/pohled-stranky.html" %}{% endif %}
     </article>
     {%- endif %}
     {#- Obecný interaktivní přehled oddílu; specializované průzkumníky jsou nad textem. -#}

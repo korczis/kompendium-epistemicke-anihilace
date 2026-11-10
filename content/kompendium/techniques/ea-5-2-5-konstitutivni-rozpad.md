@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L3 |
 | **Riziková úroveň** | Extrémní — rozpad principů konstituce předmětů zkušenosti |
-| **Reverzibilita** | Téměř nulová bez specializované transcendentální rekonstrukce, 24–60 měsíců |
+| **Reverzibilita** | Téměř nulová bez specializované transcendentální rekonstrukce |
 | **Rodičovská kapitola** | [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

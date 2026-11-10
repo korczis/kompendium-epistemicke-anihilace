@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 | **Subkategorie** | 5.2 Metatranscendentální anihilace |
 | **Přístupová úroveň** | L4 (kosmická — výhradně doktrinální analýza) |
 | **Riziková úroveň** | Extrémní — racionální paralýza skrze antinomie |
-| **Reverzibilita** | Nízká — 18–36 měsíců, vyžaduje rekonstrukci kantovské *Auflösung* antinomií |
+| **Reverzibilita** | Nízká —, vyžaduje rekonstrukci kantovské *Auflösung* antinomií |
 | **Rodičovská kapitola** | [Kapitola 7 — Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) |
 
 ## Definice

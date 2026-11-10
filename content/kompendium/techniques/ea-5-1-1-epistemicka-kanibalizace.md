@@ -29,7 +29,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 | **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L3 (omezená — výhradně pro kvalifikovanou klinickou, forenzní a doktrinální analýzu) |
 | **Riziková úroveň** | Extrémní — strukturální poškození epistemické identity, dlouhodobé následky srovnatelné s [epistemickým traumatem](@/glossary/epistemicke-trauma.md) |
-| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemické autorství v terapeutickém rámci, často 12–36 měsíců |
+| **Reverzibilita** | Velmi nízká — návrat vyžaduje rekonstrukci epistemické autorství v terapeutickém rámci |
 | **Rodičovská kapitola** | [Kapitola 5 — Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) |
 
 ## Definice

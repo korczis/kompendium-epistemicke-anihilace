@@ -4,6 +4,8 @@
 // Knihovny se načítají až ve chvíli, kdy je stránka potřebuje.
 (function () {
   'use strict';
+  // Šablona ji může vložit víckrát (stránka i pohled); inicializuje se jen jednou.
+  if (window.KompendiumViz) return;
 
   var body = document.body;
   var base = (body.getAttribute('data-base-url') || '').replace(/\/$/, '');

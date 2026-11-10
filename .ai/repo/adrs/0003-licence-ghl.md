@@ -26,6 +26,9 @@ Pokyn autora (session `30dc7a0e-8a7f-48e6-8922-1b1b2dc08588`, 2026-11-10), doslo
 
 > „vse je pod korczis honest licencse,  link znas“
 
+Potvrzení v jiné session (AskUserQuestion, session `5d49a595-d035-4bbe-b04a-d12695922860`,
+2026-11-10T00:12Z, předáno session `dev-31`), odpověď doslovně: „Přepnout vše na GHL v1.0“.
+
 Celý repozitář – text, grafika, archiv i kód – je pod **General Honest License (GHL) v1.0**
 autora Tomáše Korčáka. Kanonické znění: <https://github.com/korczis/prismatic/tree/main/docs/ghl>
 (veřejné; `docs/ghl/README.md` a šest oddílů 01-foundations až 06-appendices).

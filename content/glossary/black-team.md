@@ -580,3 +580,11 @@ konzistence výstupu), *Threat Intelligence* (strategické zpravodajství odvoze
 - [Dual-use poznání](@/glossary/dual-use-poznani.md) – etický problém, který abstrakce řeší.
 - [Black Team: modelování EA](@/kompendium/aiad-integration/black-team-ea-modeling.md) –
   modelování technik EA na úrovni abstrakce.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: black-team](@/kompendium/glossary-bridges/bridge-black-team.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

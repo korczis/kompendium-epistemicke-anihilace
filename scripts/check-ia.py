@@ -22,6 +22,11 @@ Requirements (id: what is checked):
                    application surface and exempt
   generated        no machine-generated text: no NLLB auto block, structural stub, placeholder
                    note or "pojem v sekci … znalostní báze Prismatic Platform" boilerplate
+  weak-link        every internal link leads to a page that meets `detail` and `generated`
+                   (the violation is on the linking page and clears itself when the target
+                   is developed)
+  summary          a glossary entry carries a short summary (its description) and opens with a
+                   `## Definice` section before the detail
   term-page        every term of the index of terms (08-prilohy/index-pojmu.md) has a page
                    of its own: a glossary entry or a technique page (keyed as term:<slug>)
 
@@ -84,14 +89,25 @@ def min_words(page: dict) -> int:
     return 300 if page["is_index"] else 600
 
 
+def weak(page: dict) -> bool:
+    surface = bool(page["template"]) and not page["is_index"]
+    return (not surface and page["words"] < min_words(page)) or page["generated"]
+
+
 def current() -> dict:
     result = {}
     pages = load_pages()
+    weak_pages = {p["path"] for p in pages if weak(p)}
     for page in pages:
         key = f"content/{page['path']}"
         if key in EXEMPT:
             continue
         found = violations(page)
+        if any(target in weak_pages for target in page["links"]):
+            found.append("weak-link")
+        if (page["path"].startswith("glossary/") and not page["is_index"]
+                and not page["has_definition"]):
+            found.append("summary")
         if found:
             result[key] = found
     for term in load_terms(pages):

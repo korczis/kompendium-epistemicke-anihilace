@@ -100,3 +100,11 @@ Fenomenologický slovník je pro dotčené praktickým nástrojem: kdo umí pops
 - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) – kapitola základních kategorií.
 - [Detekční signatury](@/kompendium/detection-signatures/_index.md) – fenomenologické signatury EA.
 - [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: fenomenologie](@/kompendium/glossary-bridges/bridge-fenomenologie.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -105,3 +105,11 @@ Na platformě Prismatic, z níž kniha vzešla, model zotavení ovlivňuje návr
 - [Epistemické trauma v teoretické části](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md) – rozšířený výklad.
 - [Trauma](@/kompendium/recovery-protocols/trauma.md) – protokol zotavení.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemicke-trauma](@/kompendium/glossary-bridges/bridge-epistemicke-trauma.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

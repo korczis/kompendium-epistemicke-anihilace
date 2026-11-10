@@ -1,114 +1,136 @@
 +++
-title = "Ramce"
+title = "Rámce zotavení – srovnání tradic"
 weight = 100
-description = "Ramce — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Srovnávací přehled rámců, jimiž lze uspořádat zotavení po epistemické anihilaci: Hermanovy fáze, stoická pozornost, aristotelská eudaimonie a čtyři pravdy."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "philosophy"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["incompetence", "longterm-relapse-prevention", "acute-information-curation", "lifeworld", "longterm-resilience-cultivation", "acute-stabilization-protocol"]
+related_terms = ["four-noble-truths", "sekvence", "c-ptsd", "spiritual-bypassing", "narativni-terapie", "longterm-meaning-deepening"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Rámce zotavení – srovnání tradic
 
-**Ramce** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: srovnávací kapitola k protokolům zotavení; není samostatným léčebným postupem.
+> **Použití**: pomáhá terapeutovi i klientovi zvolit **jazyk**, v němž se zotavení uspořádá,
+> a rozpoznat, kdy rámec pomáhá a kdy se sám stává nástrojem tlaku.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Proč na rámci záleží
 
-## Implementace
+Zotavení po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) není jen odstraňování
+příznaků. Člověk potřebuje příběh o tom, kde je, kam jde a co je smysluplný další krok. Takový
+příběh poskytuje **rámec** – soubor pojmů, které uspořádají zkušenost. Klient, který opustil
+uzavřenou skupinu, přichází často s rámcem rozbitým nebo zneužitým; nabídnout mu jiný rámec jako
+„jediný správný“ by opakovalo strukturu, z níž odešel. Proto kniha pracuje se **srovnáním**:
+několik ověřených tradic vedle sebe, každá s vlastními silnými stránkami a riziky.
 
-Implementace **Ramce** se opírá o standardní strukturu recovery protokolů:
+## 2. Klinický rámec: Hermanovy tři fáze
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+Judith Hermanová v knize *Trauma and Recovery* (1992) popsala zotavení z dlouhodobého traumatu ve
+třech fázích: **nastolení bezpečí**, **vzpomínání a truchlení** a **znovupropojení s běžným
+životem**. Rámec je klinicky nejlépe zakotven a přímo souvisí s pojmem
+[komplexní PTSD](@/glossary/c-ptsd.md), který Hermanová prosazovala.
 
-## Hodnotící kritéria
+- *Síla*: jasné pořadí; zdůrazňuje, že zpracování traumatu bez bezpečí škodí.
+- *Riziko*: lineární čtení – fáze se v praxi prolínají a vracejí.
+- *V knize*: fázová struktura sekce [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+  a protokol [Sekvence](@/kompendium/recovery-protocols/sekvence.md).
 
-Protokol **Ramce** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+## 3. Stoická pozornost (*prosoché*)
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+Stoická tradice (Epiktétos, Marcus Aurelius) pracuje s rozlišením toho, co je v naší moci, a co
+ne, a s průběžnou pozorností k vlastním soudům. Pro zotavení po manipulaci je cenné zejména
+rozlišení **dojmu a souhlasu**: to, co se mi jeví, ještě nemusím přijmout za pravdivé.
 
-## Sesterské protokoly
+- *Síla*: dává klientovi aktivní roli; podporuje [metakognici](@/glossary/metakognice.md).
+- *Riziko*: zjednodušené „stoické“ potlačování emocí, které může zakrýt nezpracované trauma.
+- *V knize*: [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md),
+  [Emoční odstup](@/kompendium/self-defense-guides/15-emotional-distancing.md).
 
-**Ramce** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+## 4. Aristotelská *eudaimonie*
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+Aristotelés v *Etice Níkomachově* chápe dobrý život jako činnost v souladu s ctnostmi, rozvíjenými
+praxí a ve společenství. Pro dlouhodobou fázi zotavení nabízí rámec, který se neptá „jak odstranit
+škodu“, ale „jak žít dobře“: rozvoj schopností, přátelství, praktická moudrost.
 
-## See Also
+- *Síla*: orientace na růst a vztahy; navazuje na přístup schopností, viz
+  [Nussbaumová: Capabilities approach](@/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md).
+- *Riziko*: normativní obraz „dobrého života“, který může klientovi někdo znovu předepsat.
+- *V knize*: [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md).
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## 5. Struktura čtyř pravd
 
----
+Buddhistické [čtyři vznešené pravdy](@/glossary/four-noble-truths.md) mají strukturu, kterou kniha
+používá **jako srovnávací diagnostické schéma**, ne jako náboženský obsah: pojmenování utrpení,
+jeho příčina, možnost jeho ukončení a cesta. Tato čtveřice odpovídá klinickému sledu obtíž –
+etiologie – prognóza – léčba.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+- *Síla*: pomáhá klientovi vidět utrpení jako pochopitelné a řešitelné; podporuje nesoudící
+  pozornost (srov. [Mindfulness based trauma](@/kompendium/techniques/ea-6-2-7-mindfulness-based-trauma.md)).
+- *Riziko*: [spiritual bypassing](@/glossary/spiritual-bypassing.md) – duchovní jazyk použitý
+  k přeskočení bolesti nebo k jejímu zlehčení; u lidí po odchodu z duchovní skupiny může být
+  jazyk spouštěčem.
+- *V knize*: [Buddhistická psychologie](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md).
 
-## Manažerské shrnutí
+## 6. Narativní a smyslový rámec
 
-**Ramce** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+[Narativní terapie](@/glossary/narativni-terapie.md) (White a Epston 1990) a logoterapie Viktora Frankla (*…a přesto říci životu
+ano*, 1946) uspořádávají zotavení kolem příběhu a smyslu. Jsou blízké práci s
+[narativní identitou](@/glossary/narativni-identita.md).
 
-## Koncepční síť
+- *Síla*: vrací klientovi autorství; propojuje minulost a budoucnost.
+- *Riziko*: tlak „najít smysl“ v utrpení může působit jako jeho ospravedlnění.
+- *V knize*: protokol [Narativ](@/kompendium/recovery-protocols/narativ.md).
 
-Vizualizace propojení **Ramce** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## 7. Jak rámec volit
 
-```mermaid
-graph TD
-    C0["Ramce"]
-    N1["Incompetence"]
-    N2["Dlouhodobá prevence relapsu"]
-    N3["Akutní informační kurace"]
-    N4["Lifeworld"]
-    N5["Dlouhodobá kultivace resilience"]
-    N6["Akutní stabilizační protokol"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+1. **Ptát se klienta**, jaký jazyk je mu blízký a jaký je pro něj zatížený.
+2. **Kombinovat**: klinický rámec (bezpečí, pořadí) je základ; ostatní rámce jsou nabídky.
+3. **Sledovat znaky zneužití rámce**: rámec vysvětluje vše, nepřipouští výjimky, dělá z klienta
+   viníka jeho utrpení, vyžaduje loajalitu.
+4. **Ponechat otevřenost**: klient může rámec změnit, aniž by to znamenalo selhání.
 
-## Související pojmy
+Kulturní kontext volbu dále zpřesňuje. Pro klienta z prostředí, kde je víra přirozenou součástí
+života, může být čistě sekulární rámec stejně cizí jako pro jiného klienta náboženský jazyk. Totéž
+platí pro rodinné a komunitní tradice: v kolektivistických kulturách je zotavení často chápáno jako
+návrat do vztahů, ne jako individuální růst; viz
+[Kolektivistické kultury – EA](@/kompendium/international/18-collective-cultures-EA/index.md).
 
-- [Incompetence](@/kompendium/recovery-protocols/incompetence.md) — slug `incompetence`
-- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) — slug `longterm-relapse-prevention`
-- [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md) — slug `acute-information-curation`
-- [Lifeworld](@/kompendium/recovery-protocols/lifeworld.md) — slug `lifeworld`
-- [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md) — slug `longterm-resilience-cultivation`
-- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) — slug `acute-stabilization-protocol`
+## 8. Kazuistika (anonymizovaný kompozit)
 
-## Navigace
+Žena po odchodu z meditační komunity reaguje na slova „pozornost“ a „přijetí“ panikou – skupina je
+používala k umlčení stížností. Terapeutka proto začne čistě klinickým jazykem bezpečí a fází. Po
+roce si klientka sama vybere stoický rámec, který jí dává pocit kontroly, a později se vrací
+k meditaci v jiném, otevřeném společenství. Srovnání rámců jí umožnilo oddělit praxi od zneužití.
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## 9. Meze a otevřené otázky
+
+Srovnání tradic je zjednodušující; každá z nich má vlastní vnitřní rozmanitost a odbornou
+literaturu, kterou tato kapitola nenahrazuje. Empirická evidence existuje především pro klinické
+postupy; filozofické a duchovní rámce jsou zde nabídkou jazyka, ne léčebnou metodou.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků, na kterém stojí model Hermanové.
+- [Narativ](@/kompendium/recovery-protocols/narativ.md) – narativní rámec v praxi.
+- [Paradigma](@/kompendium/recovery-protocols/paradigm.md) – jak rozpoznat a rozebrat rámec, který se stal nástrojem.
+- [Dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md) – rámce v dlouhodobé fázi.
+
+**Glosář**
+
+- [Four Noble Truths](@/glossary/four-noble-truths.md) – heslo ke srovnávacímu schématu.
+- [Spiritual bypassing](@/glossary/spiritual-bypassing.md) – hlavní riziko duchovních rámců.
+- [C-PTSD](@/glossary/c-ptsd.md) – klinický kontext modelu Hermanové.
+
+**Kritické perspektivy**
+
+- [Trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md) – alternativní rámec ke knize.
+- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md) – příbuzná tradice.

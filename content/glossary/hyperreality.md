@@ -98,3 +98,11 @@ Obrana proti hyperrealitě nemůže být jen individuální, ale individuální 
 - [Postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) – teoretický kontext.
 - [Rozpoznání deepfaku](@/kompendium/educational-scenarios/16-deepfake-detection.md) – výukový scénář.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: hyperreality](@/kompendium/glossary-bridges/bridge-hyperreality.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

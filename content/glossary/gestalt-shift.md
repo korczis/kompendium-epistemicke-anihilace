@@ -109,3 +109,11 @@ Práce se zotavením, popsaná v protokolu [Paradigma](@/kompendium/recovery-pro
 - [EA-5.1.26 Trans-paradigmatická migrace](@/kompendium/techniques/ea-5-1-26-trans-paradigmaticka-migrace.md) – technika navozeného přesmyku.
 - [Paradigma](@/kompendium/recovery-protocols/paradigm.md) – protokol archeologie rámce.
 - [Kompendium EA](@/glossary/kompendium-ea.md) – úplný taxonomický přehled.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: gestalt-shift](@/kompendium/glossary-bridges/bridge-gestalt-shift.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

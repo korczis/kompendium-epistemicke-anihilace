@@ -121,7 +121,7 @@ Inverze [EA-5.2.14](@/kompendium/techniques/ea-5-2-14-konstitutivni-zhrouceni.md
 Dialektické pohyby (teze–antiteze–syntéza) se zacyklí v **degenerované formě**: každá syntéza okamžitě generuje novou antitezi, ale nová syntéza nikdy nepřichází. Subjekt zůstává v **chronické dialektické nestabilitě**.
 
 #### EA-5.2.26 Meta-noumenální projekce
-Subjekt projektuje noumenální vrstvu **na sebe sama**: vlastní Já je prožíváno jako *věc o sobě*, nepřístupná vlastnímu poznání. Stav patologického transcendentálního solipsismu druhého řádu.
+Subjekt projektuje noumenální vrstvu **na sebe sama**: vlastní Já je prožíváno jako *[věc o sobě](@/glossary/ding-an-sich.md)*, nepřístupná vlastnímu poznání. Stav patologického transcendentálního solipsismu druhého řádu.
 
 #### EA-5.2.27 Trans-kategoriální fluktuace
 Kategorialní organizace nekolabuje, ale **kontinuálně osciluje** — kauzalita se chvíli chová jako substance, pak jako relace, pak jako modalita. Žádná kategorie nezachovává svou identitu.

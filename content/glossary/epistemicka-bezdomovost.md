@@ -1,80 +1,165 @@
 +++
-title = "Epistemicka Bezdomovost"
+title = "Epistemická bezdomovost"
 weight = 100
-description = "Epistemicka Bezdomovost — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+description = "Stav po rozpadu výlučného rámce poznání, kdy člověk nedůvěřuje starému zdroji pravdy a ještě nemá nový: chybí mu komunita i měřítka, o něž by se opřel."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "epistemic", "cult"]
 
 [extra]
-category = "psychology"
-related_terms = ["accreditation", "addiction-recovery", "accuracy", "academy", "adversarial-architecture", "acid-transactions"]
+category = "epistemic"
+related_terms = ["paradigmaticka-bezdomovina", "epistemicka-alienace", "epistemicka-komunita", "epistemicka-reintegrace", "high-control-group", "socialni-izolace"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Epistemicka Bezdomovost** je termín z oblasti psychologie a fenomenologie používaný v Prismatic Kompendiu pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů. Tato položka je strukturálním stub zápisem — plná definice, klinické příklady a integrace do EA taxonomie jsou součástí probíhající kompendiální výstavby.
+**Epistemická bezdomovost** je stav, v němž člověk ztratil „domov“ svého poznání: rámec,
+komunitu a zdroje, kterým dříve důvěřoval a podle nichž rozhodoval, co je pravda, a nový
+domov zatím nenašel. Starému zdroji už věřit nemůže, protože poznal, že ho klamal nebo
+ovládal. Okolní svět mu ale také nepřipadá důvěryhodný – často proto, že ho skupina
+dlouho učila, že „venku“ panuje lež.
 
-## See Also
+Výsledkem není jen nejistota v jednotlivých otázkách, ale ztráta **místa, odkud se ptát**.
+Člověk neví, komu věřit, jak poznat dobrý zdroj, ani zda vůbec smí věřit sám sobě.
+Postižení stav často popisují obrazně: „vidět svůj dům, ve kterém bydlí někdo jiný“,
+„stát na nádraží, odkud nejezdí žádný vlak“.
 
-- [Glossary index](@/glossary/_index.md)
+Kompendium tento stav považuje za **typickou přechodnou fázi** po odchodu ze skupiny
+s vysokou mírou kontroly nebo z dlouhodobého nátlakového vztahu. Není to selhání; je to
+bolestné, ale předvídatelné období, které vyžaduje doprovod.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Termín je pracovním pojmem Kompendia. Obraz „bezdomovectví“ má ve filozofii delší tradici –
+moderní člověk jako bytost, jíž se ztratila samozřejmost tradičního světa, je častým
+motivem existencialismu a filozofie kultury. Kompendium jej zužuje na **epistemickou**
+rovinu: nejde o ztrátu smyslu obecně, ale o ztrátu struktur, jež umožňují rozhodovat
+o pravdivosti.
 
-## Manažerské shrnutí
+Klinicky navazuje na pozorování z práce s lidmi odcházejícími z kultů, jak je popisují
+například Robert Lifton (*[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*, 1961) a Steven
+Hassan (*Combatting Cult Mind Control*, 1988): totalitní prostředí nahrazuje vlastní úsudek
+doktrínou a po jeho ztrátě zůstává prázdné místo. Sociálněepistemologicky navazuje na
+myšlenku, že poznání je vždy neseno [epistemickou komunitou](@/glossary/epistemicka-komunita.md).
 
-**Epistemicka Bezdomovost** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
-## Koncepční síť
+- **Univerzální nedůvěra.** Podezření se přenáší z bývalé skupiny na všechny zdroje: média,
+  lékaře, vědu, rodinu. „Všichni manipulují.“
+- **Chybějící měřítka.** Člověk neví, podle čeho rozlišit dobrý zdroj od špatného, protože
+  měřítka mu dávala skupina.
+- **Střídání krajností.** Krátká období horlivého přijetí nového rámce (nová víra, nová
+  ideologie, nový guru) se střídají s jeho odmítnutím.
+- **Stud a mlčení.** Obava, že ostatní budou soudit „jak jsi tomu mohl věřit“, vede
+  k izolaci ([sociální izolace](@/glossary/socialni-izolace.md)).
+- **Únava z rozhodování.** Každá drobnost vyžaduje vlastní posouzení, protože dřív platila
+  pravidla; to rychle vyčerpává.
+- **Ztráta jazyka.** Skupinové pojmy už nesedí, běžné pojmy ještě nejsou vlastní; člověk
+  neví, jakými slovy vlastní zkušenost popsat.
 
-Vizualizace propojení **Epistemicka Bezdomovost** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Mechanismus
 
-```mermaid
-graph TD
-    C0["Epistemicka Bezdomovost"]
-    N1["Accreditation"]
-    N2["Addiction Recovery"]
-    N3["Accuracy"]
-    N4["Academy"]
-    N5["Adversarial Architecture"]
-    N6["ACID Transactions"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Strukturálně vzniká epistemická bezdomovost **souběhem dvou ztrát**:
 
-## Související pojmy
+1. **Ztráta výlučného rámce.** Skupina nebo vztah poskytovaly úplný výklad světa
+   ([epistemická singularita](@/glossary/epistemicka-singularita.md)). Po jeho zhroucení
+   nezůstávají „zbytky“, které by šly použít – rámec byl celistvý, a proto padá celý.
+2. **Předem zničené alternativy.** Během pobytu ve skupině byly vnější zdroje soustavně
+   [delegitimizovány](@/glossary/delegitimizace.md) a vztahy mimo skupinu přerušeny. Když
+   člověk odchází, nemá kam se vrátit.
 
-- [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/) — slug `accreditation`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/) — slug `accuracy`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
+K tomu přistupuje **ztráta důvěry ve vlastní úsudek**: „Když jsem se tolik let mýlil, jak
+mám vědět, že se nemýlím teď?“ Tato otázka je rozumná, ale bez opory může vést
+k [rekurzivní paralýze](@/glossary/rekurzivni-paralyza.md). Zranitelnost je v tomto období
+vysoká: kdo nabídne nový úplný domov, má velkou šanci být přijat. Proto se v kazuistikách
+objevuje přechod z jedné skupiny do druhé.
 
-## Navigace
+**Obecný příklad (anonymizovaný kompozit).** Muž po patnácti letech v uzavřené
+náboženské komunitě odešel, když zjistil, že vedení zatajovalo zneužívání. Během prvního
+roku vystřídal tři „pravdy“: radikální ateismus z internetových fór, konspirační výklad
+světa a nakonec jiné, stejně uzavřené společenství. Pokaždé hledal totéž – úplnou odpověď
+a lidi, kteří ji sdílejí. Teprve s terapeutem a skupinou bývalých členů začal pracovat
+s menšími jistotami: s lékařem, kterému důvěřoval, se sestrou, s níž obnovil kontakt,
+a s několika ověřenými zdroji zpráv.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Od [paradigmatické bezdomoviny](@/glossary/paradigmaticka-bezdomovina.md):** ta vzniká
+  rychlým střídáním neslučitelných rámců, které člověka připraví o jakýkoli z nich.
+  Epistemická bezdomovost vzniká rozpadem jednoho výlučného rámce. Obě se mohou kombinovat.
+- **Od [epistemické alienace](@/glossary/epistemicka-alienace.md):** alienace je odcizení od
+  vlastního myšlení; bezdomovost je ztráta vnějšího zázemí poznání. Alienace se týká „já“,
+  bezdomovost „domova“.
+- **Od zdravé skepse:** skeptik má měřítka, podle nichž pochybuje; epistemicky bezdomovému
+  chybějí právě měřítka.
+- **Od klinických stavů:** generalizovaná nedůvěra může být součástí paranoidních stavů,
+  deprese nebo [komplexní PTSD](@/glossary/c-ptsd.md). Pro odlišení je podstatná historie
+  odchodu ze skupiny či vztahu a to, zda se nedůvěra s podporou zmírňuje.
+
+## Význam pro Kompendium
+
+Pojem vysvětluje, proč odchod z nátlakového prostředí **nekončí odchodem**. Objevuje se
+v kazuistikách [Cult recovery po 12 letech](@/kompendium/case-studies/06-cult-recovery-12-let.md),
+[Kult výzkumné disciplíny](@/kompendium/case-studies/67-research-discipline-cult.md)
+a [Platform cult](@/kompendium/case-studies/73-platform-cult.md) i ve [Scénáři
+L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md). V taxonomii souvisí
+s [EA-5.1.24 Epistemickou vakuací](@/kompendium/techniques/ea-5-1-24-epistemicka-vakuace.md),
+která popisuje vyprázdnění zdrojů poznání, a s [epistemickými
+základnami](@/glossary/epistemicke-zakladny.md), jejichž ztrátu bezdomovost prožívá.
+
+## Obrana a zotavení
+
+**Pro postiženého:**
+
+- Nehledat hned nový úplný rámec. Stačí několik spolehlivých opor: jeden člověk, jeden
+  lékař, jeden ověřený zdroj informací.
+- Učit se měřítka zdrojů jako dovednost, ne jako víru ([Triangulace
+  zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md), [Kurátorství
+  zdrojů](@/kompendium/self-defense-guides/31-source-curation.md)).
+- Hledat lidi s podobnou zkušeností; skupiny bývalých členů pomáhají najít jazyk.
+- Dovolit si nevědět. „Ještě nevím“ je legitimní odpověď, ne prohra.
+
+**Pro profesionála:**
+
+- Nenabízet se jako nový domov; terapeut, který zaujme místo bývalého vůdce, prodlužuje
+  závislost.
+- Postupovat podle [Protokolu kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md)
+  a [Dlouhodobé rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md).
+- Sledovat riziko přechodu do jiné skupiny s vysokou mírou kontroly a riziko krize
+  ([Ex-cult member emergency](@/kompendium/emergency-protocols/28-ex-cult-emergency.md)).
+
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*.
+- Hassan, S. (1988). *Combatting Cult Mind Control*.
+
+## Související
+
+**Příbuzné stavy**
+
+- [Paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md) – ztráta rámce
+  rychlým střídáním výkladů.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – odcizení od vlastního myšlení.
+- [Epistemická singularita](@/glossary/epistemicka-singularita.md) – výlučný rámec, jehož
+  rozpad bezdomovost způsobuje.
+
+**Opory poznání**
+
+- [Epistemická komunita](@/glossary/epistemicka-komunita.md) – sociální domov poznání, který
+  je třeba obnovit.
+- [Epistemické základny](@/glossary/epistemicke-zakladny.md) – nosné předpoklady, které se
+  zhroutily.
+
+**Obnova**
+
+- [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md) – proces návratu
+  k vlastnímu poznání.
+- [Sebe-obrana: Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md)
+  – jak budovat více nezávislých opor.
+- [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md)
+  – odborný rámec doprovodu po odchodu.

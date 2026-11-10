@@ -589,3 +589,11 @@ Scoring*, *Provenance Mandatory*, *Stream Processing* a *Broadway*.
 - [OSINT](@/glossary/osint.md) – pravidla práce s otevřenými zdroji.
 - [Pomluva a EA](@/kompendium/forensic-legal/14-defamation-EA.md) – právní rizika chybného
   přisouzení.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: entity-resolution](@/kompendium/glossary-bridges/bridge-entity-resolution.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

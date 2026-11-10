@@ -80,7 +80,7 @@ Co může vidět vnější pozorovatel:
 ### Individuální
 
 1. Externí archivace předchozích self-narativů (deníky, dopisy, autobiografické texty)
-2. Narativní terapie zaměřená na multiplicit narativních linií
+2. [Narativní terapie](@/glossary/narativni-terapie.md) zaměřená na multiplicit narativních linií
 3. Setkání s 'biografickými svědky' z období před implantátem
 
 ### Institucionální
@@ -96,7 +96,7 @@ Co může vidět vnější pozorovatel:
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 

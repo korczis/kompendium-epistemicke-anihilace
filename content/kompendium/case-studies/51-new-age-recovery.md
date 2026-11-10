@@ -106,7 +106,7 @@ o zdraví, eskalující výdaje a postupné vymizení dřívějších přátel z
 - **Deprese a vyhoření.** Byly přítomny jako vstupní stav a vyžadovaly samostatnou péči;
   nevysvětlují však přestavbu kritérií evidence.
 - **Psychotické prožitky.** „Vidění energie“ bylo naučeným popisem skupinové praxe, ne
-  halucinací; testování reality mimo ideologické téma bylo zachováno (viz
+  halucinací; [testování reality](@/glossary/reality-testing.md) mimo ideologické téma bylo zachováno (viz
   [EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
 - **Komplexní PTSD (MKN-11 6B41).** Po odchodu se objevily jen dílčí rysy (stud, narušený
   sebeobraz); plná kritéria splněna nebyla, proto byla vedena jako hypotéza ke sledování.

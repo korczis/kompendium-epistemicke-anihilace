@@ -93,7 +93,7 @@ Pro EA z toho plyne:
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
 - **Performativní subverze** jako klinický cíl — pacient se učí **přepisovat** indukované pozice.
-- **Narativní terapie** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na butlerovských kategoriích.
+- **[Narativní terapie](@/glossary/narativni-terapie.md)** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na butlerovských kategoriích.
 - **Riziko**: nucená „subverze“ může být **dalším formou EA**, pokud není pacientem zvolena.
 
 ## 8. Kritická distance

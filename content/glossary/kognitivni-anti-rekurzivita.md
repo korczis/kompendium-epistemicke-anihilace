@@ -109,3 +109,11 @@ Terapeuticky vyžaduje zotavení z anti-rekurzivity obvykle **podepřené znovuz
 - [EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) – přebujelá rekurze.
 - [Metakognitivní rehabilitace](@/kompendium/techniques/ea-6-3-3-metakognitivni-rehabilitace.md) – terapeutický protokol.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: kognitivni-anti-rekurzivita](@/kompendium/glossary-bridges/bridge-kognitivni-anti-rekurzivita.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

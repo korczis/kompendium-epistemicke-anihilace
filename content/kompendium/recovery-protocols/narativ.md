@@ -1,114 +1,145 @@
 +++
-title = "Narativ"
+title = "Narativ – protokol rekonstrukce životního příběhu"
 weight = 100
-description = "Narativ — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Průřezový protokol obnovy narativní identity po epistemické anihilaci: od fragmentů a cizího výkladu k vlastnímu, souvislému a revidovatelnému příběhu."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "identity"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["acute-cognitive-anchoring", "longterm-altruistic-channeling", "incompetence", "acute-safety-establishment", "acute-somatic-regulation", "acute-social-reconnection"]
+related_terms = ["narrative-identity", "narrative-trauma", "narativni-terapie", "subacute-narrative-externalization", "midterm-identity-reconstruction", "internalizovany-pachatel"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Narativ – protokol rekonstrukce životního příběhu
 
-**Narativ** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: průřezový rekonstruktivní protokol; sjednocuje narativní práci, která je ve fázových
+> protokolech rozdělena do více kroků.
+> **Fáze**: subakutní až dlouhodobá.
+> **Cíl**: příběh, který je **vlastní, souvislý a otevřený revizi** – ne nový „správný“ příběh.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Účel
 
-## Implementace
+Člověk rozumí sám sobě skrze příběh: co se stalo, proč, kým byl a kým je. Tento rozměr popisuje
+pojem [narativní identity](@/glossary/narativni-identita.md). Manipulativní prostředí příběh
+přepisuje: minulost před vstupem do vztahu nebo skupiny je vykládána jako omyl či temnota,
+vlastní zkušenost je nahrazena oficiálním výkladem, rozpory jsou zamlčeny. Po odchodu zůstávají
+fragmenty a cizí výklad, který dál mluví hlasem pachatele – v knize
+[internalizovaný pachatel](@/glossary/internalizovany-pachatel.md).
 
-Implementace **Narativ** se opírá o standardní strukturu recovery protokolů:
+Strukturální popis toho, jak k poškození dochází, je v kapitole
+[Narativní trauma](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) a v heslu
+[Narrative trauma](@/glossary/narrative-trauma.md). Tento protokol popisuje cestu zpět.
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+## 2. Klinický obraz
 
-## Hodnotící kritéria
+- **Fragmentace**: klient vypráví v útržcích, chronologie se rozpadá, chybí přechody;
+  srov. signaturu [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md).
+- **Cizí hlas**: o sobě mluví slovníkem skupiny nebo partnera („byl jsem sobecký, neduchovní“).
+- **Kontaminace**: dobré období života je zpětně „otráveno“ tím, co následovalo.
+- **Vymazaná minulost**: období před vstupem chybí nebo je popsané jen negativně.
+- **Inverze zájmen** a odcizení od vlastní historie; viz [Inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md).
 
-Protokol **Narativ** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+## 3. Cíle protokolu
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+1. Obnovit **chronologii** – co se kdy stalo, s oporou v dokladech.
+2. **Externalizovat** cizí výklad: odlišit, co je vlastní zkušenost a co převzatý komentář.
+3. Znovu připojit **vymazanou minulost** a zdroje, které obsahuje.
+4. Integrovat období expozice jako **kapitolu**, ne jako celý příběh.
+5. Udržet příběh **revidovatelný**: nová fakta mohou výklad měnit, aniž by se identita hroutila.
 
-## Sesterské protokoly
+## 4. Postup
 
-**Narativ** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+### Fáze 1 – časová osa
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+Klient s terapeutem sestaví časovou osu života: místa, lidé, události, s oporou ve fotografiích,
+zprávách, dokumentech a výpovědích blízkých. Metodicky se opírá o
+[Biographical timeline rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
+Osa je pracovní, ne konečná; mezery se nevyplňují domněnkami.
 
-## See Also
+### Fáze 2 – oddělení hlasů
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Ke klíčovým událostem klient zapisuje dvě vrstvy: co se stalo a jak to bylo vykládáno. Často se
+ukáže, že výklad pochází z jednoho zdroje. Externalizační postupy [narativní terapie](@/glossary/narativni-terapie.md) (White a
+Epston 1990) pomáhají pojmenovat cizí hlas jako postavu, s níž lze vést rozhovor, místo aby
+byl prožíván jako vlastní svědomí. Navazuje
+[Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md).
 
----
+### Fáze 3 – vymazaná minulost
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Klient se vrací k období před expozicí: k dovednostem, vztahům, hodnotám, které tehdy měl.
+Často je překvapen, kolik z nich přežilo. Tato fáze předchází zpracování nejtěžších událostí,
+protože poskytuje oporu.
 
-## Manažerské shrnutí
+### Fáze 4 – zpracování klíčových scén
 
-**Narativ** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Traumatické události se zpracovávají metodami s ověřenou účinností (traumaterapie zaměřená na
+trauma, EMDR) a jen v rozsahu, který klient snese; viz
+[Trauma-focused CBT protokol](@/kompendium/techniques/ea-6-2-1-trauma-focused-cbt-protokol.md).
+Protokol nenařizuje „vylíčit všechno“: cílem je integrace, ne úplnost.
 
-## Koncepční síť
+### Fáze 5 – nová syntéza
 
-Vizualizace propojení **Narativ** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Klient píše nebo vypráví svůj příběh tak, aby v něm období expozice bylo jednou kapitolou mezi
+jinými, s pochopitelným začátkem a koncem. Navazuje
+[Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) a
+dlouhodobě [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md).
 
-```mermaid
-graph TD
-    C0["Narativ"]
-    N1["Akutní kognitivní ukotvení"]
-    N2["Dlouhodobé altruistické kanalizování"]
-    N3["Incompetence"]
-    N4["Akutní zajištění bezpečnosti"]
-    N5["Akutní somatická regulace"]
-    N6["Akutní sociální rekonekce"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## 5. Hodnocení průběhu
 
-## Související pojmy
+- Klient vypráví souvisle, s přechody a s jasnou časovou orientací.
+- Rozliší vlastní zkušenost od převzatého komentáře a umí ho pojmenovat.
+- Minulost před expozicí je přítomna i s pozitivními zdroji.
+- Při setkání s novou informací (např. od jiného bývalého člena) dokáže výklad upravit bez
+  kolapsu sebeobrazu.
 
-- [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) — slug `acute-cognitive-anchoring`
-- [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) — slug `longterm-altruistic-channeling`
-- [Incompetence](@/kompendium/recovery-protocols/incompetence.md) — slug `incompetence`
-- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) — slug `acute-safety-establishment`
-- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) — slug `acute-somatic-regulation`
-- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) — slug `acute-social-reconnection`
+## 6. Kontraindikace a rizika
 
-## Navigace
+- **Indukované vzpomínky**: terapeut nesmí naznačovat obsahy, které klient nepopsal. Historie
+  hnutí za „znovuobjevené vzpomínky“ ukazuje, jak sugestivní postupy mohou vytvořit falešné
+  vzpomínky; viz [Hnutí znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md).
+- **Nový oficiální příběh**: nahradit výklad skupiny výkladem terapeuta je stejná struktura s
+  jiným obsahem.
+- **Předčasná konfrontace** s nejtěžšími scénami před stabilizací; viz
+  [Sekvence](@/kompendium/recovery-protocols/sekvence.md).
+- Forenzní kontext: pokud klient bude svědčit, je nutné koordinovat terapii s právním postupem,
+  aby nevznikla námitka ovlivnění výpovědi; viz [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md).
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## 7. Kazuistika (anonymizovaný kompozit)
+
+Žena po odchodu z terapeutické skupiny popisuje dětství jako „období ega a temnoty“ – tak to
+skupina nazývala. Při sestavování časové osy se objeví fotografie z gymnázia, divadelní kroužek
+a přátelství, které skupina označila za „nízké vibrace“. Ve fázi oddělení hlasů klientka zjistí,
+že všechny negativní výklady dětství pocházejí od jediné osoby – vedoucí skupiny. Po roce práce
+vypráví příběh, v němž je skupina pětiletou kapitolou, chybou, z níž se poučila, ne definicí
+celého života.
+
+## 8. Meze a otevřené otázky
+
+Narativní soudržnost není totéž co pravdivost; příběh může být souvislý a přesto zkreslený.
+Protokol proto spojuje narativní práci s doklady. Otevřené zůstává, jak pracovat s lidmi, kteří
+v uzavřeném prostředí vyrostli a nemají „minulost před expozicí“, k níž by se mohli vrátit.
+
+## Související
+
+**Pojmy a techniky**
+
+- [Narativní trauma (kapitola 05)](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) – jak je příběh poškozen.
+- [Narrative identity](@/glossary/narrative-identity.md) – teoretický rámec identity jako příběhu.
+- [Internalizovaný pachatel](@/glossary/internalizovany-pachatel.md) – cizí hlas, který protokol externalizuje.
+- [Narrativní rekonstrukce](@/kompendium/techniques/ea-6-3-6-narrativni-rekonstrukce.md) – klinická technika rekonstrukce.
+
+**Sesterské protokoly**
+
+- [Subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md) – fázový modul externalizace.
+- [Trauma](@/kompendium/recovery-protocols/trauma.md) – zpracování epistemického traumatu.
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků.
+
+**Nástroje**
+
+- [Biographical timeline rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md) – metodika časové osy.
+- [Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md) – svépomocná práce s kontinuitou.

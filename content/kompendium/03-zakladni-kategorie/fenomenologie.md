@@ -1,103 +1,151 @@
 +++
-title = "Fenomenologie"
+title = "Fenomenologie – prožitek jako kategorie analýzy"
 weight = 100
-description = "Fenomenologie — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Fenomenologie jako analytická kategorie knihy: popis toho, jak se manipulace jeví zevnitř, a proč je první osoba nezbytná pro detekci i léčbu."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "philosophy", "fenomenologie", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["falsifikovatelnost", "metakognice", "hermeneutika", "kapitola-2", "lebenswelt", "delegitimizace"]
+related_terms = ["fenomenologie", "intencionalita", "lebenswelt", "epoche", "predreflexivni-vedomi", "pasivni-synteza"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Fenomenologie – prožitek jako kategorie analýzy
 
-**Fenomenologie** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+> **Pozice v knize**: interpretační kategorie sekce 03. Definici a dějiny pojmu podává heslo
+> [Fenomenologie](@/glossary/fenomenologie.md); širší filozofický kontext je v kapitole
+> [Filosofický rámec: epistemologie, fenomenologie, hermeneutika](@/kompendium/02-uvod/filosoficky-ramec.md).
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+## Vymezení
 
-## Filozofický kontext
+Fenomenologie je filozofická tradice založená Edmundem Husserlem (*Logická zkoumání*, 1900–1901;
+*Ideje I*, 1913), kterou rozvinuli mimo jiné Martin Heidegger, Maurice Merleau-Ponty
+(*Fenomenologie vnímání*, 1945) a v českém prostředí Jan Patočka. Zkoumá, **jak se věci dávají
+ve zkušenosti**: vnímání, pamatování, prožívání času, těla a druhých lidí – z perspektivy první
+osoby, popisem, ne vysvětlením z vnějšku.
 
-Koncept **Fenomenologie** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+Kniha si z fenomenologie bere tři nástroje:
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+- **[Intencionalitu](@/kompendium/03-zakladni-kategorie/intencionalita.md)** – vědomí je vždy
+  vědomím *něčeho*; manipulace mění, k čemu a jak je vědomí zaměřeno.
+- **[Žitý svět](@/kompendium/03-zakladni-kategorie/lebenswelt.md)** – předvědeckou půdu
+  samozřejmostí, na níž stojí každý soud.
+- **[Epoché](@/glossary/epoche.md)** – metodické uzávorkování předpokladů, které umožní popsat
+  zkušenost dřív, než ji vyložíme.
 
-## Klinická a operační relevance
+## Proč je to kategorie analýzy
 
-V due-diligence praxi a klinickém poradenství se **Fenomenologie** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+Behaviorální popis manipulace (co kdo řekl a udělal) je nezbytný, ale nestačí. Tytéž věty mohou
+v jednom vztahu působit neškodně a v jiném rozkládat člověku svět. Rozdíl je v tom, **jak se
+situace jeví** tomu, kdo ji prožívá: zda se mu zužuje pole možností, zda ztrácí jistotu vlastního
+vnímání, zda se mění prožívání času a těla. Fenomenologická kategorie proto doplňuje každou
+techniku v knize oddílem „pohled subjektu“ a podkládá skupinu
+[fenomenologických detekčních signatur](@/kompendium/detection-signatures/_index.md).
 
-## Detekční vztah
+Ultramární techniky sekce 05 cílí právě na fenomenologické struktury – na reflexi, prožívání času,
+identitu poznávajícího a předpojmovou vrstvu zkušenosti; viz
+[Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md).
 
-Pro praktickou detekci konzultujte:
+### Tři roviny zásahu
 
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+Pro analýzu technik kniha rozlišuje tři roviny, na nichž lze prožitkové struktury narušit:
 
-## See Also
+1. **Obsah prožitku** – co člověk vnímá a pamatuje si. Sem patří popírání událostí a
+   přepisování vzpomínek; viz [Memorní rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md).
+2. **Forma prožitku** – jak vnímá: zúžení pozornosti, změna prožívání času, ztráta tělesné opory.
+   Na tuto rovinu míří paralingvistické a proxemické techniky
+   [kapitoly 3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md).
+3. **Podmínky prožitku** – reflexe, identita poznávajícího a předreflexivní sebeuvědomění
+   (srov. [Předreflexivní vědomí](@/glossary/predreflexivni-vedomi.md)). Tyto podmínky jsou
+   cílem nejhlubších technik a jejich narušení se nejhůře rozpoznává, protože postižený ztrácí
+   právě ten nástroj, jímž by změnu zaznamenal.
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Čím hlubší rovina, tím větší význam mají pro detekci vnější pozorovatelé a záznamy z doby před
+expozicí.
 
----
+## Jak se zásah do prožitkových struktur projevuje
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Pozorovatelné, i když jen v první osobě vyslovitelné znaky:
 
-## Manažerské shrnutí
+- **Kognitivní mlha** – myšlení je „zastřené“, souvislost se rozpadá; viz
+  [Kognitivní mlha](@/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md).
+- **Nejistota o realitě** – „nevím, jestli se to stalo“; viz
+  [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md).
+- **Časová dezorientace** – ztráta kontinuity mezi minulostí a přítomností; viz
+  [Temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md).
+- **Emoční otupění** – svět je plochý, bez významu; viz
+  [Emocionální otupění](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md).
+- **Fragmentace identity** – „nevím, kdo jsem“; viz
+  [Fragmentace identity](@/kompendium/detection-signatures/30-phenomenological-identity-fragmentation.md).
 
-**Fenomenologie** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Tyto znaky nejsou specifické – objevují se i u deprese, [disociace](@/glossary/disociace.md) nebo vyčerpání. Specifická je
+jejich **vazba na vztah nebo prostředí**: zhoršují se v kontaktu s určitou osobou či skupinou a
+zmírňují se v odstupu.
 
-## Koncepční síť
+## Odlišení
 
-Vizualizace propojení **Fenomenologie** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **Fenomenologický popis není diagnóza**: popisuje prožitek, nestanovuje příčinu. Klinická
+  diagnostika musí proběhnout zvlášť; viz [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+- **Psychopatologie**: derealizace, [depersonalizace](@/glossary/depersonalizace.md) a bludné prožitky mají vlastní
+  fenomenologii, kterou podrobně popisuje klinická psychopatologie (Karl Jaspers, *Obecná
+  psychopatologie*, 1913). Kniha se o tuto tradici opírá, ale nezaměňuje manipulací vyvolané
+  změny prožitku s psychózou.
+- **Spirituální prožitky**: změněné stavy vědomí nejsou samy o sobě znakem manipulace; viz
+  [Mystický prožitek](@/glossary/mysticky-prozitek.md).
 
-```mermaid
-graph TD
-    C0["Fenomenologie"]
-    N1["Falsifikovatelnost"]
-    N2["Metakognice"]
-    N3["Hermeneutika"]
-    N4["3.2 Scénáře epistemické delegitimizace"]
-    N5["Lebenswelt"]
-    N6["Delegitimizace"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Klinický a praktický význam
 
-## Související pojmy
+Fenomenologický přístup v terapii znamená **nejprve popsat, potom vykládat**. Klient, jehož
+zkušenost byla léta vykládána za něj, potřebuje prostor, kde jeho popis platí jako popis, bez
+okamžitého hodnocení. Prakticky to podporuje [Fenomenologický interview](@/kompendium/research-methodology/phenomenological-interview-EA.md)
+a ve výzkumu [Interpretativní fenomenologická analýza](@/kompendium/research-methodology/IPA-EA.md).
+V protokolech zotavení se fenomenologický pohled promítá do důrazu na tělo, čas a každodennost;
+viz [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md).
 
-- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) — slug `falsifikovatelnost`
-- [Metakognice](@/kompendium/03-zakladni-kategorie/metakognice.md) — slug `metakognice`
-- [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md) — slug `hermeneutika`
-- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — slug `kapitola-2`
-- [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) — slug `lebenswelt`
-- [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md) — slug `delegitimizace`
+## Příklad (anonymizovaný kompozit)
 
-## Navigace
+Mladá lékařka popisuje práci na oddělení, kde ji vedoucí soustavně veřejně opravoval a její
+diagnostické úvahy označoval za „dětinské“. Behaviorálně jde o nepříjemné, ale v nemocnicích
+běžné chování. Fenomenologický popis ukáže víc: lékařka přestala „vidět“ pacienty jako celek –
+vnímá jen to, co by mohla udělat špatně; čas na oddělení se jí rozpadá na úzkostné okamžiky; doma
+nedokáže vzpomenout, co dělala. Teprve tento popis odliší běžnou hierarchii od prostředí, které
+mění strukturu jejího vnímání, a otevře cestu k obraně.
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md)
-  - [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Obrana
+
+- Všímat si **změn prožívání**, ne jen událostí: zužuje se mi svět? Ztrácím čas?
+- Vést si krátké záznamy prožitků a porovnávat je v čase a v různých prostředích.
+- Dopřát si odstup od prostředí a sledovat, zda se prožitek mění.
+- Opora: [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) a
+  [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md).
+
+## Meze a otevřené otázky
+
+Fenomenologie poskytuje jazyk, ne měřítko; prožitek první osoby nelze přímo ověřit. Kniha proto
+spojuje fenomenologické znaky s behaviorálními a síťovými signaturami. Otevřené zůstává, jak
+fenomenologické popisy standardizovat, aniž by ztratily individuálnost, na níž jejich hodnota stojí.
+
+## Související
+
+**Sesterské kategorie**
+
+- [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md) – zaměřenost vědomí, kterou manipulace přetváří.
+- [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) – [žitý svět](@/glossary/lebenswelt.md) jako půda zkušenosti.
+- [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md) – výklad, který na popis navazuje.
+- [Somatické vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) – tělesná rovina zkušenosti.
+
+**Glosář a teorie**
+
+- [Fenomenologie (heslo)](@/glossary/fenomenologie.md) – definice a dějiny pojmu.
+- [Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) – tělesná fenomenologie.
+- [Bridge: Fenomenologie](@/kompendium/glossary-bridges/bridge-fenomenologie.md) – propojení hesla s knihou.
+
+**Techniky**
+
+- [Fenomenologická rekonstituce](@/kompendium/techniques/ea-5-3-16-fenomenologicka-rekonstituce.md) – technika cílící na prožitkové struktury.
+- [Somato-fenomenologická disrupce](@/kompendium/techniques/ea-5-5-2-somato-fenomenologicka-disrupce.md) – zásah pod prahem pojmů.

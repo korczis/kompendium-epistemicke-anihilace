@@ -100,3 +100,11 @@ Jak knihu používat bezpečně: číst ji jako mapu rozpoznání, ne jako sebed
 - [Kompendium](@/kompendium/_index.md) – úplná česká příručka.
 - [Jak používat](@/kompendium/01-predmluva/jak-pouzivat.md) – vstupní bod pro nové čtenáře.
 - [Kritické perspektivy](@/kompendium/critical-perspectives/_index.md) – sebekritika rámce.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: kompendium-ea](@/kompendium/glossary-bridges/bridge-kompendium-ea.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

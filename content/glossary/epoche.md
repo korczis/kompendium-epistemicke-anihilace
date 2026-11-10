@@ -94,3 +94,11 @@ Klinická obdoba epoché se učí v malých krocích: popisné cvičení prožit
 - [EA-5.2.17 Perverze husserlovské redukce](@/kompendium/techniques/ea-5-2-17-husserlovska-redukce-perverze.md) – zneužitá podoba.
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epoche](@/kompendium/glossary-bridges/bridge-epoche.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

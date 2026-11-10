@@ -1,114 +1,146 @@
 +++
-title = "Pokora"
+title = "Pokora – protokol obnovy kalibrované pokory"
 weight = 100
-description = "Pokora — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Protokol zotavení po zneužité pokoře: od rovnoměrně nízké jistoty a sebeumlčení ke kalibrované jistotě, která odpovídá dokladům."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "epistemologie"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["acute-stabilization-protocol", "longterm-post-traumatic-growth", "longterm-altruistic-channeling", "acute-somatic-regulation", "longterm-community-rebuilding", "duvera"]
+related_terms = ["epistemicka-pokora", "metakognice", "midterm-metacognitive-rehab", "duvera", "epistemicka-agentnost", "self-reference"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Pokora – protokol obnovy kalibrované pokory
 
-**Pokora** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: tematický rekonstruktivní protokol k zneužité epistemické pokoře.
+> **Fáze**: středně-dobá; v subakutní fázi psychoedukace.
+> **Cíl**: ne „více sebevědomí“, ale **jistota úměrná dokladům** – vysoká tam, kde doklady jsou, nízká tam, kde nejsou.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Účel
 
-## Implementace
+[Epistemická pokora](@/glossary/epistemicka-pokora.md) je ctnost: vědomí mezí vlastního poznání,
+ochota se opravit, otevřenost vůči druhým. Právě proto je zneužitelná. Manipulativní prostředí ji
+přetváří v nástroj podřízení: „Kdo jsi ty, abys soudil?“, „Tvoje pochybnost je jen ego“, „Skutečně
+pokorný člověk se neptá.“ Kniha tento vzorec popisuje jako
+[internalizaci pseudo-pokory](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md).
 
-Implementace **Pokora** se opírá o standardní strukturu recovery protokolů:
+Výsledkem není pokora, ale její karikatura: člověk má **rovnoměrně nízkou jistotu ve všech
+oblastech**, i tam, kde je odborníkem nebo kde má přímé doklady, a zároveň **vysokou jistotu v
+jediném zdroji** – v autoritě, které se podřídil. Kalibrace je tedy rozbitá dvojím směrem.
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+## 2. Klinický obraz
 
-## Hodnotící kritéria
+- Klient se omlouvá za vlastní názor, i když jde o věc jeho profese nebo přímé zkušenosti.
+- Na otázku „co si myslíte vy?“ odpovídá „nevím, nemohu to posoudit“ nebo citací autority.
+- Pochybnost o sobě prožívá jako morální hodnotu, jistotu jako hřích nebo pýchu.
+- Paradoxně: k vybraným tvrzením autority projevuje neochvějnou jistotu.
+- Silné prvky studu; srov. [Odolnost vůči studu](@/kompendium/self-defense-guides/18-shame-resilience.md).
+- Souvisí s jevy [Self-doubt cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)
+  a [Imposter syndrome amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md).
 
-Protokol **Pokora** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+## 3. Odlišení
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+- **Zdravá pokora**: nejistota se liší podle oblasti a reaguje na doklady.
+- **Depresivní kognice**: celková negativní sebehodnotící tendence bez vazby na konkrétní autoritu;
+  vyžaduje vlastní léčbu, i když se s tímto obrazem může překrývat.
+- **Kulturní norma skromnosti**: klient se vyjadřuje zdrženlivě, ale v rozhodování se o vlastní
+  úsudek opírá.
+- **Úzkostná porucha s nadměrnou potřebou jistoty**: nejistota se týká rizik, ne práva na úsudek.
 
-## Sesterské protokoly
+## 4. Cíle protokolu
 
-**Pokora** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+1. Oddělit **pokoru** jako postoj od **sebeumlčení** jako naučeného chování.
+2. Obnovit **kalibraci**: přiřadit jistotu podle dokladů a odbornosti, oblast po oblasti.
+3. Snížit absolutní jistotu ve výrokech bývalé autority na úroveň, kterou doklady podporují.
+4. Obnovit **epistemickou agentnost** – právo i schopnost soudit; viz
+   [Epistemická agentnost](@/glossary/epistemicka-agentnost.md).
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+## 5. Postup
 
-## See Also
+### Krok 1 – mapa jistoty
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Klient vybere deset až patnáct oblastí (vlastní obor, vztahy, zdraví, politika, víra, praktické
+dovednosti) a u každé odhadne, jak moc si věří a proč. Terapeut se ptá na doklady: vzdělání,
+zkušenost, výsledky. Rozpor mezi doklady a odhadem je první viditelný údaj.
 
----
+### Krok 2 – kalibrační cvičení
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Krátké predikce s ověřitelným výsledkem („kolik minut mi zabere cesta“, „jak dopadne zkouška“),
+u nichž klient uvádí míru jistoty a později porovná s výsledkem. Cvičení ukazuje, že vlastní
+úsudek je často spolehlivější, než si klient myslí. Navazuje
+[Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md).
 
-## Manažerské shrnutí
+### Krok 3 – rekonstrukce pokory
 
-**Pokora** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+S klientem se pracuje na tom, co pro něj pokora znamenala před expozicí a co znamená nyní.
+Pomáhá rozlišení: pokora je ochota změnit názor **na základě dokladu**; sebeumlčení je vzdání se
+názoru **na základě tlaku**. Terapeut nerozbíjí hodnotu pokory – vrací jí obsah.
 
-## Koncepční síť
+### Krok 4 – zkouška autority
 
-Vizualizace propojení **Pokora** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Výroky bývalé autority, jimž klient dosud přisuzuje nejvyšší jistotu, se zkoumají stejným
+způsobem jako ostatní: jaký byl doklad? Kdo jiný to potvrzuje? Postup je shodný s archeologií
+rámce v protokolu [Paradigma](@/kompendium/recovery-protocols/paradigm.md).
 
-```mermaid
-graph TD
-    C0["Pokora"]
-    N1["Akutní stabilizační protokol"]
-    N2["Dlouhodobý posttraumatický růst"]
-    N3["Dlouhodobé altruistické kanalizování"]
-    N4["Akutní somatická regulace"]
-    N5["Dlouhodobá rekonstrukce komunity"]
-    N6["Duvera"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+### Krok 5 – vyjádření názoru
 
-## Související pojmy
+Klient postupně vyjadřuje vlastní úsudek v bezpečném prostředí (terapie, přátelé, pracovní porada)
+a sleduje, co se stane. Opora: [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md).
 
-- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) — slug `acute-stabilization-protocol`
-- [Dlouhodobý posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md) — slug `longterm-post-traumatic-growth`
-- [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) — slug `longterm-altruistic-channeling`
-- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) — slug `acute-somatic-regulation`
-- [Dlouhodobá rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md) — slug `longterm-community-rebuilding`
-- [Duvera](@/kompendium/recovery-protocols/duvera.md) — slug `duvera`
+## 6. Hodnocení průběhu
 
-## Navigace
+- Mapa jistoty se diferencuje: vysoká jistota v oblastech s doklady, nízká bez nich.
+- Klient umí vyslovit názor bez omluvy a zároveň připustit možnost omylu.
+- Výroky bývalé autority hodnotí podle dokladů, ne podle zdroje.
+- K podpoře lze použít metakognitivní dotazník podle oddílu
+  [Metakognitivní questionnaire](@/kompendium/techniques/ea-8-1-9-metakognitivni-questionnaire.md).
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## 7. Kontraindikace a rizika
+
+- Přechod do opačného extrému – rigidní jistoty jako obrany. Cílem je kalibrace, ne obrat.
+- Terapeut, který klienta „učí sebevědomí“ jako novou autoritu, opakuje vzorec.
+- Těžká depresivní epizoda vyžaduje nejprve léčbu; kalibrační cvičení mohou výsledky zkreslit.
+
+## 8. Kazuistika (anonymizovaný kompozit)
+
+Zkušená zdravotní sestra po letech v duchovní komunitě nedokáže na poradě obhájit postup, který
+deset let úspěšně používá – „kdo jsem, abych to věděla“. Zároveň s jistotou opakuje výroky vedoucího
+komunity o léčivých účincích půstu. Mapa jistoty odhalí obrácenou kalibraci. Po několika měsících
+kalibračních cvičení a práce s pojmem pokory klientka na poradě postup obhájí a o výrocích vedoucího
+říká: „Nevím, jestli je to pravda. Neviděla jsem pro to doklad.“ Sama to označuje za první skutečně
+pokornou větu po letech.
+
+## 9. Meze a otevřené otázky
+
+Kalibrace je dobře zkoumána v psychologii úsudku, ale její obnova po manipulaci systematicky
+studována není; protokol stojí na klinickém úsudku a obecných postupech. Otevřená je i otázka
+náboženských tradic, v nichž je pokora ústřední hodnotou: oddělit ji od kontrolního zneužití
+vyžaduje citlivost a často spolupráci s duchovním mimo původní skupinu.
+
+## Související
+
+**Pojmy**
+
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – ctnost, kterou vzorec zneužívá.
+- [Bridge: Epistemická pokora](@/kompendium/glossary-bridges/bridge-epistemicka-pokora.md) – propojení hesla s knihou.
+- [Metakognice (kapitola 03)](@/kompendium/03-zakladni-kategorie/metakognice.md) – kalibrace jako metakognitivní dovednost.
+
+**Techniky**
+
+- [Pseudo-pokora internalizace](@/kompendium/techniques/ea-2-5-1-pseudo-pokora-internalizace.md) – vzorec, po němž protokol následuje.
+- [Self-doubt cultivation](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md) – příbuzná technika pěstování pochybnosti.
+
+**Sesterské protokoly**
+
+- [Důvěra](@/kompendium/recovery-protocols/duvera.md) – obnova důvěry ve vlastní vnímání.
+- [Středně-dobá metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) – širší metakognitivní práce.
+- [Paradigma](@/kompendium/recovery-protocols/paradigm.md) – zkouška výroků bývalé autority.
+
+**Sebeobrana**
+
+- [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – každodenní kalibrace.

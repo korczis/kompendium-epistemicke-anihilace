@@ -93,3 +93,11 @@ Samo Kompendium tím, že záměrně vytváří **odbornou taxonomii v češtin�
 - [Postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) – teoretická reflexe.
 - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – technika, která rozpad zneužívá.
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: metanarrative-collapse](@/kompendium/glossary-bridges/bridge-metanarrative-collapse.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -101,3 +101,11 @@ Na platformě Prismatic, z níž kniha vzešla, je Lakatosovo rozlišení převe
 - [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) – kapitola základních kategorií.
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – technika, kterou rámec odhaluje.
 - [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: lakatos-vyzkumny-program](@/kompendium/glossary-bridges/bridge-lakatos-vyzkumny-program.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

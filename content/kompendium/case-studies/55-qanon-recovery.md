@@ -98,7 +98,7 @@ a [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation
 - **Politický názor a nedůvěra k institucím.** Kritika vlády či médií je legitimní; vzorec
   se liší uzavřeností vůči evidenci, apokalyptickým očekáváním a ztrátou vztahů.
 - **Bludná porucha a psychóza.** Přesvědčení bylo sdílené, naučené ze skupiny a mimo téma
-  zůstávalo testování reality zachováno ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+  zůstávalo [testování reality](@/glossary/reality-testing.md) zachováno ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
   U starších klientů je přesto nutné vyloučit organickou příčinu a začínající kognitivní
   poruchu.
 - **Komplikovaný zármutek a deprese.** Byly přítomny a podstatné; léčba deprese byla

@@ -266,3 +266,11 @@ Principy fúze jsou v knize obecnými pravidly epistemické hygieny, nejen techn
 - [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) – architektura a datové toky fúze.
 - [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) – technologie zpracování fúze.
 - [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) – zpravodajské a analytické schopnosti.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: intelligence-fusion](@/kompendium/glossary-bridges/bridge-intelligence-fusion.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — rozštěpení integrovaného konceptu na nesouvisející fragmenty, jež subjekt nedokáže znovu sloučit.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — rozštěpení integrovaného konceptu na nesouvisející fragmenty, jež subjekt nedokáže znovu sloučit.
 
 ## Definice
 

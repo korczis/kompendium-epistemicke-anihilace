@@ -174,3 +174,11 @@ vedeny hlavně v řadě EA-2.
 - [EA-2.1.1 Expertní disinflace](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md)
   – delegitimizace odborníka.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: delegitimizace](@/kompendium/glossary-bridges/bridge-delegitimizace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

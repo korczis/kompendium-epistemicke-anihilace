@@ -108,7 +108,7 @@ interpretaci**. To je strukturální znak, podle kterého ji pozorovatel pozná.
 |---|---|---|---|
 | Transformativní | dobrovolný, ritualizovaný, s oporou | časově ohraničený | integrace, větší flexibilita |
 | Traumatická | nesnesitelná událost, ohrožení | opakované vynořování, spouštěče | fragmentace, vyhýbání |
-| Psychotická | endogenní, často bez zjevného spouštěče | spolu s bludy a halucinacemi | narušené testování reality |
+| Psychotická | endogenní, často bez zjevného spouštěče | spolu s bludy a halucinacemi | narušené [testování reality](@/glossary/reality-testing.md) |
 | Koercivní | vnější, plánovaný tlak | výklad dodává skupina | závislost, ztráta autonomie |
 
 Rozlišovací otázky pro klinika: Byl vstup dobrovolný? Kdo vykládá, co se stalo? Roste po

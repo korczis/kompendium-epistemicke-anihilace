@@ -101,3 +101,11 @@ Na platformě Prismatic, z níž kniha vzešla, začleňuje povědomí o svědec
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
 - [Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md) – forenzní praxe.
 - [Kompendium](@/kompendium/_index.md) – česká taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemicka-injustice](@/kompendium/glossary-bridges/bridge-epistemicka-injustice.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

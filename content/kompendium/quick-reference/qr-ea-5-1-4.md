@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — kolaps sémantického prostoru, v němž slova subjektu přestávají odkazovat ke stabilním denotátům.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — kolaps sémantického prostoru, v němž slova subjektu přestávají odkazovat ke stabilním denotátům.
 
 ## Definice
 

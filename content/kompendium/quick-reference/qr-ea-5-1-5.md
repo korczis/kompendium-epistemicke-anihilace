@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — destrukce subjektovy schopnosti udržet logickou koherenci napříč diskurzem.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — destrukce subjektovy schopnosti udržet logickou koherenci napříč diskurzem.
 
 ## Definice
 

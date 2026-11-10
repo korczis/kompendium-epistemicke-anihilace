@@ -52,7 +52,7 @@ Varelova centrální teze: kognice je **strukturálně vtělená**. Tělo není 
 
 [Embodied cognition](@/glossary/embodied-cognition.md) má **trojí dimenzi**:
 
-1. **Tělesné schéma** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
+1. **[Tělesné schéma](@/glossary/body-schema.md)** (rezonuje s Merleau-Ponty, [viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md))
 2. **Senzomotorické vazby**: percepce je **akčně** definovaná
 3. **Afektivní fundament**: emoce jsou **strukturálně** kognitivní
 

@@ -110,3 +110,11 @@ Rozměr první osoby doplňuje [fenomenologie](@/glossary/fenomenologie.md); co 
 - [Metakognice](@/kompendium/03-zakladni-kategorie/metakognice.md) – kapitola základních kategorií.
 - [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – sebeobranný průvodce.
 - [Metakognitivní kolaps](@/kompendium/educational-scenarios/24-metacognitive-collapse.md) – výukový scénář.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: metakognice](@/kompendium/glossary-bridges/bridge-metakognice.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -105,3 +105,11 @@ Doktrína zotavení v [Kompendiu](@/kompendium/_index.md) zdůrazňuje, že lék
 **Mimo knihu**
 
 - [Epistemic Confidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-confidence/) – kalibrační protějšek na webu platformy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemicka-pokora](@/kompendium/glossary-bridges/bridge-epistemicka-pokora.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

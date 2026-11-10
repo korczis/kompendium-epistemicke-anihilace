@@ -1,114 +1,153 @@
 +++
-title = "Observational Assessment"
+title = "Observační hodnocení – protokol"
 weight = 100
-description = "Observational Assessment — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Protokol strukturovaného klinického pozorování u klientů po epistemické anihilaci: co sledovat v řeči, chování a interakci, jak pozorování zapisovat a jak se vyhnout zkreslení."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "klinicke-aplikace", "diagnostika", "klinicke"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["pripad-akademie", "supervizni-ramce", "collateral-interview-protokol", "visualizations", "diagnosticke-indikatory", "diferencialni-diagnostika"]
+related_terms = ["diagnosticke-indikatory", "semi-structured-interview-protokol", "collateral-interview-protokol", "supervizni-ramce", "konfirmacni-bias", "disociace"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice a cíl
+# Observační hodnocení – protokol
 
-**Observational Assessment** je klinický protokol z sekce 06 Prismatic Kompendia (klinické aplikace), který poskytuje strukturovaný rámec pro hodnocení, intervenci nebo dokumentaci epistemických škod u klientů s historií expozice manipulativním vzorcům (EA — epistemic attack patterns).
+> **Pro koho**: klinické pracovníky pod supervizí. Protokol patří do sekce
+> [06. Klinické aplikace a diagnostika](@/kompendium/06-klinicke-aplikace/_index.md); doplňuje
+> rozhovor, dotazníky a kolaterální údaje.
 
-{% <callout type="note"> %}
-Protokoly sekce 06 jsou určené pro **klinické pracovníky** s odpovídajícím vzděláním (psychoterapie, klinická psychologie, krizová intervence). Nejedná se o self-help nástroje — vyžadují diagnostický kontext a profesionální supervizi.
-{% </callout> %}
+## Účel a klinická pozice
 
-## Implementační rámec
+Klienti po expozici [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) často nedokážou
+své obtíže popsat: chybí jim slova, nedůvěřují vlastnímu vnímání, nebo popisují sami sebe slovníkem
+prostředí. Část informací proto přináší **pozorování** – jak klient mluví, jak reaguje na otázky,
+jak se chová ve vztahu ke klinikovi a jak se jeho projev mění v čase. Observační hodnocení tyto
+údaje zachycuje systematicky, aby nezůstaly u dojmu.
 
-Protokol **Observational Assessment** se aplikuje v rámci širší klinické cesty popsané v [klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md):
+Protokol navazuje na [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+a na detekční signatury knihy, zejména behaviorální a fenomenologické; viz
+[Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md).
 
-1. **Diagnostická fáze** — viz [diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-2. **Diferenciální diagnostika** — odlišení od PTSD, dissociativních poruch, hraniční organizace osobnosti
-3. **Volba intervence** — kompatibilní recovery protokol z [recovery-protocols/](@/kompendium/recovery-protocols/_index.md)
-4. **Dokumentace a follow-up** — strukturované záznamy pro multidisciplinární tým
+## Prostředí pozorování
 
-## Hodnotící kritéria
+- **Individuální sezení** – hlavní zdroj; pozorování probíhá v každém sezení krátce, ne jako
+  zvláštní vyšetření.
+- **Skupinová terapie** – ukazuje vztah k autoritě a k vrstevníkům.
+- **Rodinná sezení** – jen se souhlasem klienta a bez osob spojených s prostředím.
+- **Telehealth** – omezené pozorování neverbálních projevů; zapisuje se jako omezení.
 
-Klinický postup **Observational Assessment** používá tyto výsledkové měřítka:
+## Co sledovat
 
-- Standardní sebepopulační škály (PHQ-9, GAD-7, IES-R) — týdenní kadence
-- Working Alliance Inventory (WAI) — měsíční kadence
-- Strukturované klinické rozhovory — kvartální kadence
-- Specifické indikátory dle dominantního EA typu
+### Řeč a jazyk
+
+- Přítomnost skupinového slovníku a jeho ubývání v čase.
+- [Inverze zájmen](@/kompendium/detection-signatures/5-linguistic-pronoun-inversion.md) („my“ místo „já“).
+- Fragmentace vyprávění, chybějící přechody a časová orientace; viz
+  [Fragmentace narativu](@/kompendium/detection-signatures/6-linguistic-narrative-fragmentation.md).
+- Omluvné rámování vlastních výroků („vím, že to zní šíleně, ale…“).
+
+### Vztah k otázkám a k nejistotě
+
+- Reakce na upřesňující otázku: úzkost, hotová odpověď, odmítnutí, zvědavost.
+- Schopnost říct „nevím“ bez paniky.
+- Rychlost, s jakou klient přijímá výklad klinika – nadměrná ochota je stejně důležitý údaj jako odpor.
+- Kalibrace: přiměřenost jistoty k tématu; viz [Nepřiměřená sebejistota](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md).
+
+### Vztah ke klinikovi
+
+- Testování důvěry, hypervigilance vůči změnám (zpoždění, změna místnosti).
+- Podřízenost, potřeba schválení, „správné odpovědi“.
+- Idealizace a devalvace v rychlém sledu.
+
+### Afekt a tělo
+
+- Otupělost nebo náhlé zaplavení při určitých tématech; viz
+  [Emocionální otupění](@/kompendium/detection-signatures/27-phenomenological-emotional-numbing.md).
+- Tělesné napětí, ztuhnutí, vyhýbavý pohled.
+- Známky disociace: zamlklost, ztráta kontaktu, „nepřítomnost“; viz [Disociace](@/glossary/disociace.md).
+
+### Chování mezi sezeními (z výpovědi a pozorování)
+
+- Kontrola telefonu během sezení, potřeba „hlásit se“ někomu.
+- Změny v docházce po kontaktu s prostředím.
+
+## Zápis
+
+Pozorování se zapisuje **popisně**, ne interpretačně: „při otázce na rodiče třikrát změnil téma,
+mluvil rychleji, díval se k oknu“, ne „vyhýbá se tématu rodičů kvůli indoktrinaci“. Každý zápis
+obsahuje datum, kontext (téma, prostředí) a případné okolnosti (únava, nemoc, nedávný kontakt
+s prostředím). Interpretace se zapisuje zvlášť a jako hypotéza.
+
+Vhodné je sledovat několik málo vybraných ukazatelů v čase (např. podíl skupinového slovníku,
+schopnost říct „nevím“, reakce na upřesňující otázku), protože změna je výmluvnější než jednotlivé
+pozorování. Pro zápis do dokumentace viz [Klinická dokumentace](@/kompendium/forensic-legal/31-clinical-documentation-EA.md).
+
+## Interpretace a odlišení
+
+Žádný ze sledovaných znaků není specifický. Podobně se může projevovat deprese, úzkostná porucha,
+posttraumatická stresová porucha, neurovývojová odlišnost, kulturní styl komunikace nebo prostá
+nervozita z terapie. Proto platí:
+
+- interpretace stojí na **vzorci** více znaků a na **vazbě na prostředí** (zhoršení po kontaktu,
+  zlepšení v odstupu);
+- pozorování se konfrontuje s rozhovorem, dotazníky a kolaterálními údaji; viz
+  [Kolaterální rozhovor](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md);
+- odlišení od klinických stavů vede [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+
+## Zkreslení pozorovatele
+
+Největším rizikem je **[konfirmační bias](@/glossary/konfirmacni-bias.md)** klinika: kdo předem „ví“, že jde o manipulaci, vidí
+v každém zaváhání její stopu; viz [Konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md)
+a [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md).
+Ochranou je popisný zápis, explicitní alternativní hypotézy a supervize; viz
+[Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
+
+## Etické limity
+
+- Klient ví, že klinik sleduje i způsob projevu, a ví, proč.
+- Pozorování neslouží k „usvědčování“ klienta z neupřímnosti.
+- Záznamy ze skupinových sezení chrání soukromí ostatních účastníků.
+- Kulturní a jazykové odlišnosti se zohledňují; viz [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md).
 
 ## Kontraindikace
 
-Před zahájením **Observational Assessment** vylučte:
+Protokol se nepoužívá jako samostatný podklad pro diagnózu ani pro forenzní závěry. U akutně
+dekompenzovaných klientů má přednost krizová péče; viz
+[Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md).
 
-- Aktivní psychóza nezvládnutá medikamentózně
-- Akutní suicidalita vyžadující hospitalizaci
-- Akutní intoxikace
-- Aktivní kontakt s pachatelem (vyžaduje napřed safety planning)
+## Příklad (anonymizovaný kompozit)
 
-Pro detailní postup viz parent index a sourozenecké klinické články.
-<!-- EXPANDED:PHASE11 -->
+Klientka po odchodu z firmy s totální kulturou v prvních sezeních odpovídá na každou otázku
+okamžitě a hotově a souhlasí s každým návrhem terapeutky. Popisný zápis zachytí, že nikdy neřekne
+„nevím“ a že při upřesňující otázce se omlouvá. Po třech měsících se objevují první „nevím, musím
+o tom přemýšlet“ a první nesouhlas. Terapeutka změnu zapíše jako důležitý ukazatel obnovy
+vlastního úsudku – a sama ji konzultuje v supervizi, aby nevykládala nesouhlas jako odpor.
 
-## See Also
+## Meze a otevřené otázky
 
-- [Parent section](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Observační hodnocení je citlivé na zkušenost a očekávání pozorovatele; standardizované observační
+škály pro epistemickou anihilaci zatím neexistují. Protokol proto doporučuje jen několik popisných
+ukazatelů a jejich sledování v čase.
 
----
+## Související
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+**Klinické postupy sekce 06**
 
-## Manažerské shrnutí
+- [Diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) – rámec, do něhož pozorování patří.
+- [Kolaterální rozhovor](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) – pohled blízkých.
+- [Rekonstrukce biografické časové osy](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md) – průběh v čase.
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – ochrana proti zkreslení pozorovatele.
 
-**Observational Assessment** je aktivní uzel taxonomického grafu sekce `kompendium/06-klinicke-aplikace` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+**Detekce**
 
-## Koncepční síť
+- [Detekční signatury EA technik](@/kompendium/detection-signatures/_index.md) – katalog sledovaných znaků.
+- [Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) – jeden z klíčových behaviorálních znaků.
 
-Vizualizace propojení **Observational Assessment** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+**Kritika**
 
-```mermaid
-graph TD
-    C0["Observational Assessment"]
-    N1["6.7 Případová studie: Akademický kontext (anonymizovaná)"]
-    N2["6.6 Supervizní rámce v klinické praxi EA"]
-    N3["Collateral Interview Protokol"]
-    N4["Vizualizace pro Sekci 06 — Klinická cesta zotavení"]
-    N5["6.1 Diagnostické indikátory a markery EA"]
-    N6["6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
-
-## Související pojmy
-
-- [6.7 Případová studie: Akademický kontext (anonymizovaná)](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) — slug `pripad-akademie`
-- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) — slug `supervizni-ramce`
-- [Collateral Interview Protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) — slug `collateral-interview-protokol`
-- [Vizualizace pro Sekci 06 — Klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) — slug `visualizations`
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) — slug `diagnosticke-indikatory`
-- [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) — slug `diferencialni-diagnostika`
-
-## Navigace
-
-- **Nadřazená sekce**: [kompendium/06-klinicke-aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Biographical Timeline Rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
-  - [Collateral Interview Protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
-  - [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  - [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-  - [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – proč pozorování nestačí samo.

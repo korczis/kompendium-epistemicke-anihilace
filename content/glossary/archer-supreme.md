@@ -519,3 +519,11 @@ eskaluje na Archer Supreme.
 
 - [Archer Supreme: orchestrace EA](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md)
   – role agenta v obraně proti technikám EA.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: archer-supreme](@/kompendium/glossary-bridges/bridge-archer-supreme.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

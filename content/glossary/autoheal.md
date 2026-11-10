@@ -278,3 +278,11 @@ a *Mix*.
   – samooprava detekce technik EA.
 - [Akutní stabilizace](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
   lidská obdoba přiměřeného, fázového zásahu.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

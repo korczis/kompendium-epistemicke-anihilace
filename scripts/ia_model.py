@@ -108,6 +108,7 @@ def load_pages() -> list:
             "has_related": bool(RELATED_HEADING.search(body)),
             "generated": bool(GENERATED_MARKERS.search(text)),
             "template": str(front.get("template", "")),
+            "has_definition": bool(re.search(r"^##\s+Definice\b", body, re.M)),
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
     known = {p["path"] for p in pages}

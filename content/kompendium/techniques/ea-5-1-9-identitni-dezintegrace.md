@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 |------|---------|
 | **EA kód** | `EA-5.1.9` |
 | **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
+| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext, vyžaduje supervizi) |
 | **Riziková úroveň** | Extrémní — riziko trvalého [epistemického traumatu](@/glossary/epistemicke-trauma.md), depersonalizační/derealizační symptomatiky, suicidálních ideací |
 | **Reverzibilita** | Nízká bez profesionální intervence; střední s integrovaným klinickým programem |
@@ -196,7 +196,7 @@ Intervence: Třiměsíční hospitalizace + osmnáctiměsíční exit counseling
 
 Detekce: Při prvním kontaktu s exit counselorem nedokázala odpovědět na otázku *„kdo jsi?"*.
 
-Intervence: Kombinace EMDR, narativní terapie, strukturované auto-archeologie. Rekonstituce trvala čtyři roky.
+Intervence: Kombinace EMDR, [narativní terapie](@/glossary/narativni-terapie.md), strukturované auto-archeologie. Rekonstituce trvala čtyři roky.
 
 ### Případ 3 — High-control vztah
 

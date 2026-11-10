@@ -150,3 +150,11 @@ relativismus, který znemožní rozpoznat manipulaci jako manipulaci.
 - [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) –
   Lyotard, Baudrillard, Derrida v souvislosti.
 - [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretické základy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: differance](@/kompendium/glossary-bridges/bridge-differance.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

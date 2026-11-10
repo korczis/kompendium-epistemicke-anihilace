@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-6/"
 |------|---------|
 | **EA kód** | `EA-5.1.17` |
 | **Kategorie** | 5. Ultramarinní techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
+| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L4 (ultramarinní — vyžaduje supervizi) |
 | **Riziková úroveň** | Ultramarinní — produkuje subjekta, který "ví hodně", ale nezná nic |
 | **Reverzibilita** | Nízká — subjekt **prožívá** [tautologie](@/glossary/tautologie.md) jako hluboké vhledy, takže odmítá intervenci |

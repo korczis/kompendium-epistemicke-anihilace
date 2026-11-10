@@ -388,3 +388,11 @@ end
 
 - [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md) – jak agenti
   platformy využívají taxonomii knihy k obraně.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

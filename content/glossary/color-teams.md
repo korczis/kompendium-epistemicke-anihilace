@@ -465,3 +465,11 @@ Bez vlastního hesla v glosáři knihy: *Formal Verification* a *Lean4* (technik
   zapadá.
 - [Red Team: detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – simulace
   technik EA v praxi.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: color-teams](@/kompendium/glossary-bridges/bridge-color-teams.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

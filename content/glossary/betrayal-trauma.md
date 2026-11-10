@@ -115,7 +115,7 @@ z racionální adaptivní logiky zachování vazby. Konkrétně:
   závislostí za **strukturální rizikové faktory** při kalibraci důvěryhodnosti: výpověď obětí
   důvěryhodných institucí vyžaduje jiné epistemické vážení než výpověď o cizích lidech.
 - Klinické kapitoly v [06. Klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md)
-  stavějí přímo na BTT, když vysvětlují, proč běžné intervence testování reality u lidí
+  stavějí přímo na BTT, když vysvětlují, proč běžné intervence [testování reality](@/glossary/reality-testing.md) u lidí
   po epistemické anihilaci často selhávají a proč jsou nutné terapeutické přístupy citlivé
   k vazbě.
 - Pojem vysvětluje [epistemickou alienaci](@/glossary/epistemicka-alienace.md) – odcizení
@@ -169,3 +169,11 @@ z racionální adaptivní logiky zachování vazby. Konkrétně:
 - [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – protokol
   pro období po odchodu z poškozujícího vztahu.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: betrayal-trauma](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

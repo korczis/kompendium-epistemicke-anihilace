@@ -102,7 +102,7 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.4.7** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu polyvagální teorie (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje biografická a identitní rekonstrukce po totalizující expozici.
+Technika **EA-4.4.7** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje biografická a identitní rekonstrukce po totalizující expozici.
 
 **Klinické zacílení**: narativní a identitní rekonstrukce v post-engagement fázi po totalizující expozici (post-cult trauma, deep cover decompression, reentry trauma). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 

@@ -1,114 +1,140 @@
 +++
-title = "Collateral Interview Protokol"
+title = "Kolaterální rozhovor – protokol"
 weight = 100
-description = "Collateral Interview Protokol — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Protokol kolaterálního rozhovoru s blízkými klienta po epistemické anihilaci: souhlas, výběr informátorů, struktura, rizika a interpretace údajů z druhé ruky."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "klinicke-aplikace", "diagnostika", "ethics"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["semi-structured-interview-protokol", "terapeuticke-pristupy", "epistemicka-rekonstrukce", "pripad-akademie", "diagnosticke-indikatory", "visualizations"]
+related_terms = ["informed-consent", "biographical-timeline-rekonstrukce", "semi-structured-interview-protokol", "parental-alienation", "coercive-control", "forensic-interview"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice a cíl
+# Kolaterální rozhovor – protokol
 
-**Collateral Interview Protokol** je klinický protokol z sekce 06 Prismatic Kompendia (klinické aplikace), který poskytuje strukturovaný rámec pro hodnocení, intervenci nebo dokumentaci epistemických škod u klientů s historií expozice manipulativním vzorcům (EA — epistemic attack patterns).
+> **Pro koho**: klinické pracovníky pod supervizí. Protokol patří do sekce
+> [06. Klinické aplikace a diagnostika](@/kompendium/06-klinicke-aplikace/_index.md) a doplňuje
+> rozhovor s klientem; nikdy ho nenahrazuje.
 
-{% <callout type="note"> %}
-Protokoly sekce 06 jsou určené pro **klinické pracovníky** s odpovídajícím vzděláním (psychoterapie, klinická psychologie, krizová intervence). Nejedná se o self-help nástroje — vyžadují diagnostický kontext a profesionální supervizi.
-{% </callout> %}
+## Účel a klinická pozice
 
-## Implementační rámec
+Kolaterální rozhovor je rozhovor s osobami z okolí klienta – rodiči, sourozenci, partnery, přáteli,
+kolegy, dřívějšími terapeuty. V psychiatrii a klinické psychologii je zavedenou součástí vyšetření
+(anamnéza od blízkých), zejména tam, kde vlastní výpověď klienta naráží na meze: u dětí, u
+kognitivních poruch, u závislostí. Po expozici [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
+má zvláštní význam, protože klientův vlastní pohled na minulost může být přepsán výkladem prostředí.
 
-Protokol **Collateral Interview Protokol** se aplikuje v rámci širší klinické cesty popsané v [klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md):
+Rozhovor slouží k tomu:
 
-1. **Diagnostická fáze** — viz [diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-2. **Diferenciální diagnostika** — odlišení od PTSD, dissociativních poruch, hraniční organizace osobnosti
-3. **Volba intervence** — kompatibilní recovery protokol z [recovery-protocols/](@/kompendium/recovery-protocols/_index.md)
-4. **Dokumentace a follow-up** — strukturované záznamy pro multidisciplinární tým
+- doplnit [biografickou časovou osu](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
+  o pohled zvenčí, zejména o období před expozicí;
+- zachytit změny v chování, vztazích a sebepojetí, které klient sám nevidí;
+- zmapovat bezpečné vztahy a zdroje podpory;
+- rozpoznat rizika (kdo z okolí je s prostředím stále spojen).
 
-## Hodnotící kritéria
+## Souhlas a hranice
 
-Klinický postup **Collateral Interview Protokol** používá tyto výsledkové měřítka:
+- **Souhlas klienta je podmínkou**, s výjimkou situací stanovených zákonem (ochrana dětí, akutní
+  ohrožení). Klient určuje, s kým lze mluvit a o čem; viz [Informed consent](@/glossary/informed-consent.md).
+- **Mlčenlivost platí oběma směry**: informátor se nedozví víc, než klient dovolí; klient by měl
+  vědět, že informace od informátora budou použity v péči.
+- **Ochrana osobních údajů**: zapisovat jen to, co je pro péči potřebné; viz
+  [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md).
+- **U dospělých klientů** rozhovor nikdy neslouží k tomu, aby rodina „rozhodla za klienta“.
 
-- Standardní sebepopulační škály (PHQ-9, GAD-7, IES-R) — týdenní kadence
-- Working Alliance Inventory (WAI) — měsíční kadence
-- Strukturované klinické rozhovory — kvartální kadence
-- Specifické indikátory dle dominantního EA typu
+## Výběr informátorů
+
+Před rozhovorem se s klientem zmapuje okolí:
+
+1. **Kdo zná klienta dlouho**, zejména z doby před expozicí.
+2. **Kdo je s prostředím (skupinou, partnerem) stále spojen** – takový informátor může předat
+   informace zpět nebo přinášet výklad prostředí. Rozhovor s ním se zpravidla nevede, nebo jen
+   s velkou opatrností a s jasným bezpečnostním plánem.
+3. **Kdo má vlastní zájem** na výsledku (spor o péči o děti, dědictví, rozvod) – údaje je třeba
+   vážit s ohledem na tento zájem; srov. [Rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md).
+
+## Struktura rozhovoru
+
+### Modul 1 – vztah a kontext (5–10 min)
+
+Jak dlouho a v jaké roli informátor klienta zná, jak často se vídají, kdy naposledy.
+
+### Modul 2 – klient před expozicí (10–15 min)
+
+Jaký byl, co ho bavilo, s kým se stýkal, jak se rozhodoval. Otázky otevřené, bez návrhů.
+
+### Modul 3 – pozorované změny (15–20 min)
+
+Kdy si informátor všiml změn, jakých (kontakty, slovník, finance, zdraví, nálada, dostupnost), jak
+probíhaly a jak na ně klient reagoval, když o nich mluvili. Klinik se ptá na **konkrétní situace**,
+ne na hodnocení („co přesně se stalo, když…?“).
+
+### Modul 4 – vztah dnes a zdroje (5–10 min)
+
+Je informátor ochoten a schopen klienta podpořit? Jaké jsou jeho vlastní obavy a hranice?
+
+### Modul 5 – uzavření (5 min)
+
+Shrnutí, poděkování, informace o tom, co se s údaji stane, a případně kontakty na podporu pro
+samotného informátora – rodiny lidí v uzavřených skupinách jsou často samy vyčerpané.
+
+## Interpretace
+
+- Údaje z druhé ruky jsou **perspektivou**, ne faktem. Zapisuje se zdroj každého údaje.
+- Shoda více nezávislých informátorů zvyšuje váhu údaje; viz
+  [Třetíosobní potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md).
+- Rozpory mezi informátory a klientem nejsou „usvědčením“ klienta ani informátora; jsou údajem pro
+  další práci.
+- Pozor na vlastní [konfirmační bias](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md):
+  klinik, který už „ví“, že jde o manipulaci, slyší jen potvrzení.
+
+## Rizika
+
+- **Únik informací** do prostředí, z něhož klient odchází.
+- **Triangulace**: informátor se snaží získat klinika na svou stranu sporu.
+- **Rodinná dynamika**: obvinění typu [parental alienation](@/glossary/parental-alienation.md)
+  bývají ve sporech o děti oboustranná; klinik nevystupuje jako soudce.
+- **Poškození vztahu s klientem**, pokud má klient pocit, že se „mluví o něm za jeho zády“.
 
 ## Kontraindikace
 
-Před zahájením **Collateral Interview Protokol** vylučte:
+Rozhovor se nevede bez souhlasu klienta (mimo zákonné výjimky), s osobou, která je pravděpodobným
+pachatelem, ani tehdy, kdy by mohl ohrozit bezpečí klienta.
 
-- Aktivní psychóza nezvládnutá medikamentózně
-- Akutní suicidalita vyžadující hospitalizaci
-- Akutní intoxikace
-- Aktivní kontakt s pachatelem (vyžaduje napřed safety planning)
+## Příklad (anonymizovaný kompozit)
 
-Pro detailní postup viz parent index a sourozenecké klinické články.
-<!-- EXPANDED:PHASE11 -->
+Klient po letech ve vztahu s [coercive control](@/glossary/coercive-control.md) tvrdí, že „vždycky
+byl nesamostatný a potřeboval vedení“. S jeho souhlasem proběhne rozhovor s bratrem a s bývalým
+kolegou. Oba nezávisle popisují samostatného, podnikavého muže, který v prvním roce vztahu přestal
+chodit na společné akce a začal mluvit o sobě jako o „neschopném“. Údaje klientovi pomohou oddělit
+převzatý sebeobraz od vlastní historie.
 
-## See Also
+## Meze a otevřené otázky
 
-- [Parent section](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Kolaterální údaje jsou nenahraditelné, ale zatížené perspektivou a zájmy informátorů. Protokol je
+klinicky odůvodněný, ne specificky validovaný. Otevřená je otázka, jak postupovat u klientů, jejichž
+celé okolí bylo součástí uzavřeného prostředí.
 
----
+## Související
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+**Klinické postupy sekce 06**
 
-## Manažerské shrnutí
+- [Rekonstrukce biografické časové osy](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md) – osa, kterou rozhovor doplňuje.
+- [Semi-strukturovaný klinický rozhovor](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md) – výchozí vyšetření klienta.
+- [Observační hodnocení](@/kompendium/06-klinicke-aplikace/observational-assessment.md) – pozorování v průběhu péče.
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – supervize při práci s rodinou.
 
-**Collateral Interview Protokol** je aktivní uzel taxonomického grafu sekce `kompendium/06-klinicke-aplikace` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+**Etika a právo**
 
-## Koncepční síť
+- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md) – meze sdílení informací.
+- [Třetíosobní potvrzení](@/kompendium/forensic-legal/37-third-party-corroboration.md) – forenzní váha údajů od třetích osob.
 
-Vizualizace propojení **Collateral Interview Protokol** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+**Zotavení**
 
-```mermaid
-graph TD
-    C0["Collateral Interview Protokol"]
-    N1["6.1.2 Semi-strukturovaný klinický rozhovor pro EA"]
-    N2["6.3 Terapeutické přístupy — přehled"]
-    N3["6.4 Protokoly epistemické rekonstrukce"]
-    N4["6.7 Případová studie: Akademický kontext (anonymizovaná)"]
-    N5["6.1 Diagnostické indikátory a markery EA"]
-    N6["Vizualizace pro Sekci 06 — Klinická cesta zotavení"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
-
-## Související pojmy
-
-- [6.1.2 Semi-strukturovaný klinický rozhovor pro EA](@/kompendium/06-klinicke-aplikace/semi-structured-interview-protokol.md) — slug `semi-structured-interview-protokol`
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) — slug `terapeuticke-pristupy`
-- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) — slug `epistemicka-rekonstrukce`
-- [6.7 Případová studie: Akademický kontext (anonymizovaná)](@/kompendium/06-klinicke-aplikace/pripad-akademie.md) — slug `pripad-akademie`
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) — slug `diagnosticke-indikatory`
-- [Vizualizace pro Sekci 06 — Klinická cesta zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) — slug `visualizations`
-
-## Navigace
-
-- **Nadřazená sekce**: [kompendium/06-klinicke-aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Biographical Timeline Rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
-  - [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  - [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-  - [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-  - [6.10 Kolektivní/institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md) – zapojení bezpečných vztahů.
+- [Debrief rodiny](@/kompendium/emergency-protocols/14-family-emergency-debrief.md) – podpora rodiny v krizi.

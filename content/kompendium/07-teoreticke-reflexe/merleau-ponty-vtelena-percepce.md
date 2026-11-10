@@ -68,7 +68,7 @@ Pro EA z toho plyne:
 
 Merleau-Ponty pracuje s pojmem **tělesného schématu** — preverbální, dynamické **mapy** vlastního těla v prostoru, jež umožňuje plynulé pohyby a orientaci.
 
-Pro EA má tělesné schéma **diagnostickou hodnotu**:
+Pro EA má [tělesné schéma](@/glossary/body-schema.md) **diagnostickou hodnotu**:
 
 - **Trauma** narušuje tělesné schéma — pacient ztrácí **bezprostřední** orientaci ve vlastním těle.
 - **Disociativní symptomy** lze fenomenologicky popsat jako **rozpad** tělesného schématu — subjekt přestává **obývat** vlastní tělo (analog Polanyiho indwelling, [viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).

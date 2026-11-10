@@ -108,3 +108,11 @@ Obrana stojí na obnově toho, co anihilace bere: **rozmanitosti zdrojů**, **v�
 - [Definice](@/kompendium/02-uvod/definice.md) – úplný výklad pojmu v úvodu.
 - [Techniky](@/kompendium/techniques/_index.md) – rejstřík technik `EA-X.Y.Z`.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemicka-anihilace](@/kompendium/glossary-bridges/bridge-epistemicka-anihilace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

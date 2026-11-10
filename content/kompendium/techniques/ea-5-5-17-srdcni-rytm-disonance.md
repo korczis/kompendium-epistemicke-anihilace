@@ -92,7 +92,7 @@ EA-5.5.16 (dech rytm rozklad), EA-5.5.18 (cirkadianní disrupce)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — pre-konceptuální disrupce podpírá epistemickou substituci
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — pre-konceptuální disrupce podpírá epistemickou substituci
 - **EA-5.3.* (Hypertransformativní protokoly)** — pre-konceptuální rekonfigurace umožňuje identitární substituci
 - **EA-1.5.* (Somatické techniky)** — pre-konceptuální manipulace často kombinovaná s somatickými technikami
 

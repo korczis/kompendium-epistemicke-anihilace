@@ -153,7 +153,7 @@ Klíčová a etiky náročná intervence — **postupná konfrontace** klienta s
 | Stádium | Cíl | Doporučené modality |
 |---------|-----|---------------------|
 | **Akutní krize** | Stabilizace, bezpečí | Krizová intervence, psychoedukace, stabilizační dovednosti |
-| **Časná rekonstrukce** | Validace, narativní mapování | Narativní terapie, IFS, dialogická validace |
+| **Časná rekonstrukce** | Validace, narativní mapování | [Narativní terapie](@/glossary/narativni-terapie.md), IFS, dialogická validace |
 | **Trauma-zpracování** | Zpracování diskrétních traumat | EMDR, TF-CBT, PE |
 | **Epistemická rehabilitace** | Obnova metakognice, hermeneutiky | MCT, MERIT, mindfulness, dialektická konfrontace |
 | **Konsolidace** | Integrace, prevence relapsu | Skupinová terapie, peer-support, expresivní terapie |

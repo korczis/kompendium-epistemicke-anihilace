@@ -24,7 +24,7 @@ jeho já nebylo skutečné nebo jako by jednal automaticky. Typické výpovědi:
 jak mluvím, ale nejsem to já.“ „Ruce mi připadají cizí.“ „Necítím nic, jen vím, že bych
 měl.“
 
-Klíčovým rysem je, že **testování reality zůstává zachováno**: člověk ví, že jde
+Klíčovým rysem je, že **[testování reality](@/glossary/reality-testing.md) zůstává zachováno**: člověk ví, že jde
 o prožitek, nikoli o skutečnou proměnu, a obvykle ho popisuje slovy „jako by“. To
 depersonalizaci odlišuje od psychotických stavů.
 

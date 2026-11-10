@@ -385,3 +385,11 @@ Decay*, *Provenance Mandatory*, *Cherry-Picking* (zakázaný antivzor), *Formal 
   – odhalování technik EA v procesu.
 - [Vztah k NABLA](@/kompendium/02-uvod/vztah-k-nabla.md) – vztah knihy k epistemickému rámci
   platformy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: epistemic-pipeline](@/kompendium/glossary-bridges/bridge-epistemic-pipeline.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Přístupová úroveň L3. Tato karta poskytuje pouze přehled.
 
-**Doména**: Epistemická singularita — narušení Aristotelových/Kantových kategoriálních hranic, jež subjekt používá k organizaci zkušenosti.
+**Doména**: [Epistemická singularita](@/glossary/epistemicka-singularita.md) — narušení Aristotelových/Kantových kategoriálních hranic, jež subjekt používá k organizaci zkušenosti.
 
 ## Definice
 

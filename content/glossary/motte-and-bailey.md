@@ -105,3 +105,11 @@ Pro čtenáře knihy je vzorec užitečný hlavně jako nástroj sebeobrany v ro
 - [Motte and bailey](@/kompendium/05-ultramari-techniky/motte-bailey.md) – kapitola mezi ultramarínovými technikami.
 - [Signatura motte-bailey](@/kompendium/detection-signatures/motte-bailey.md) – detekce.
 - [Kompendium EA](@/glossary/kompendium-ea.md) – úplný taxonomický přehled.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: motte-and-bailey](@/kompendium/glossary-bridges/bridge-motte-and-bailey.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

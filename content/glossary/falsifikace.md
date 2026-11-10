@@ -95,3 +95,11 @@ Obranou je **falzifikační myšlení** jako návyk: u každého důležitého p
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – technika, která falsifikaci vyřazuje.
 - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – kapitola základních kategorií.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: falsifikace](@/kompendium/glossary-bridges/bridge-falsifikace.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

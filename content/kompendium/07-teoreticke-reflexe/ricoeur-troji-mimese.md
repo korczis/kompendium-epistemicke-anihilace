@@ -91,7 +91,7 @@ Pro EA má tato perspektiva **specifickou relevanci**:
 
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
-- **Narativní terapie** (White & Epston) operuje na ricoeurovských kategoriích.
+- **[Narativní terapie](@/glossary/narativni-terapie.md)** (White & Epston) operuje na ricoeurovských kategoriích.
 - **Trauma-focused terapie** (Herman, van der Kolk) musí znovuvybudovat **narativní kontinuitu**.
 - **Ipse-identita** jako klinický cíl — schopnost slibovat, zavazovat se, **být sebou v čase**.
 

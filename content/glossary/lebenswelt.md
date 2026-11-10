@@ -102,3 +102,11 @@ Tři diagnostické znaky uvedené výše řídí kalibraci závažnosti v [Decis
 - [Lebenswelt](@/kompendium/03-zakladni-kategorie/lebenswelt.md) – kapitola základních kategorií.
 - [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md) – protokol obnovy.
 - [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků zotavení.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: lebenswelt](@/kompendium/glossary-bridges/bridge-lebenswelt.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

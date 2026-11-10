@@ -103,3 +103,11 @@ Pro klinika a terapeuta je rozklad praktický: pomáhá určit, *co* bylo zasaž
 - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md) – kapitola základních kategorií.
 - [EA-1.4.1 Latentní podbarvení](@/kompendium/techniques/ea-1-4-1-latentni-podbarveni.md) – příklad útoku na horizont.
 - [Kompendium](@/kompendium/_index.md) – úplná taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: intentionalita](@/kompendium/glossary-bridges/bridge-intentionalita.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

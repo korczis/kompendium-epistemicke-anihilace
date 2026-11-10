@@ -1,80 +1,143 @@
 +++
-title = "Narativni Topologie"
+title = "Narativní topologie"
 weight = 100
-description = "Narativni Topologie — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie psychology."
+description = "Tvar životního příběhu – jeho uzly, spojení, větve, mezery a smyčky; pomocný model, který ukazuje, jak manipulace příběh deformuje a jak se při obnově skládá znovu."
 
 [taxonomies]
-tags = ["glossary", "psychology", "interactive"]
+tags = ["glossary", "kompendium", "psychology", "narativ", "narativni-identita"]
 
 [extra]
 category = "psychology"
-related_terms = ["actor-model", "addiction-recovery", "acid-transactions", "adapter", "adversarial-conditions", "academy"]
+related_terms = ["narativni-identita", "narrative-trauma", "narativni-terapie", "epistemicka-singularita", "husserl-retence", "graph-theory"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 ref_count_at_creation = 1
 +++
 
-## Definition
+## Definice
 
-**Narativni Topologie** je termín z oblasti psychologie a fenomenologie používaný v Prismatic Kompendiu pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů. Tato položka je strukturálním stub zápisem — plná definice, klinické příklady a integrace do EA taxonomie jsou součástí probíhající kompendiální výstavby.
+**Narativní topologie** je pracovní model Kompendia, který popisuje **tvar** životního
+příběhu, nikoli jeho obsah. Vychází z představy, že vyprávění o sobě má strukturu podobnou
+síti: obsahuje **uzly** (klíčové události, vztahy, rozhodnutí), **spojení** mezi nimi (protože,
+a proto, navzdory), **větve** (alternativní linie – kým jsem mohl být, kým ještě mohu být),
+**hranice** (co do příběhu patří a co ne), **mezery** (období, o nichž nelze vyprávět)
+a **smyčky** (události, které se v příběhu opakovaně vracejí).
 
-## See Also
+Zdravý příběh není dokonale hladký. Má mezery i rozpory, ale je **souvislý** (z jedné části
+se lze dostat do jiné), **rozvětvený** (existuje více možných výkladů a budoucností)
+a **otevřený** (nové zkušenosti lze připojit). Manipulace tyto vlastnosti cíleně mění.
 
-- [Glossary index](@/glossary/_index.md)
+Slovo „topologie“ je zde metaforou převzatou z matematiky, kde topologie zkoumá vlastnosti
+útvarů, které se nemění při spojité deformaci (souvislost, díry). Kompendium z matematiky
+přebírá jen tuto intuici, nikoli formální aparát.
 
----
+## Původ a kontext pojmu
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Termín je pracovním pojmem Kompendia. Navazuje na psychologii a filozofii [narativní
+identity](@/glossary/narativni-identita.md) – na myšlenku, že identitu tvoří životní příběh
+spojující minulost, přítomnost a budoucnost (Paul Ricoeur, Alasdair MacIntyre, v psychologii
+Dan McAdams); viz [Ricoeur: Trojí mimésis](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)
+a [MacIntyre: After Virtue](@/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md).
+Z klinické literatury o traumatu přebírá pozorování, že traumatická zkušenost často zůstává
+**nezačleněná** – vyčnívá z příběhu jako cizí těleso nebo v něm chybí ([narrative
+trauma](@/glossary/narrative-trauma.md)).
 
-## Manažerské shrnutí
+Prismatic Platform, z níž Kompendium vzešlo, pracuje s grafovými modely ([Graph
+theory](@/glossary/graph-theory.md)); narativní topologie je jejich volnou analogií pro oblast
+osobního příběhu.
 
-**Narativni Topologie** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Jak se projevuje
 
-## Koncepční síť
+Topologické deformace se poznají podle toho, **jak** člověk vypráví:
 
-Vizualizace propojení **Narativni Topologie** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- **Singulární bod.** Jediná událost nebo osoba vysvětluje všechno – před ní „nic nebylo“,
+  po ní „vše je jen důsledek“.
+- **Přetržení.** Příběh se dělí na „před“ a „po“, mezi nimiž nevede žádné spojení; dřívější
+  já je cizí.
+- **Uzavřená smyčka.** Vyprávění se točí kolem téže scény a nedokáže pokračovat dál.
+- **Prořezané větve.** Neexistují alternativní výklady ani budoucnosti; „jinak to být
+  nemohlo, jinak to být nemůže“.
+- **Díry.** Celá období chybějí nebo jsou popsána jen převzatými frázemi.
+- **Přepsané hrany.** Spojení mezi událostmi jsou nahrazena cizími výklady („nemocná jsem
+  byla, protože jsem pochybovala“).
 
-```mermaid
-graph TD
-    C0["Narativni Topologie"]
-    N1["Actor Model"]
-    N2["Addiction Recovery"]
-    N3["ACID Transactions"]
-    N4["Adapter"]
-    N5["Adversarial Conditions"]
-    N6["Academy"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Mechanismus
 
-## Související pojmy
+Strukturálně manipulace mění topologii příběhu **několika vzorci**, které Kompendium
+popisuje jako techniky:
 
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — slug `actor-model`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [ACID Transactions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/acid-transactions/) — slug `acid-transactions`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
+- **Kolaps do jediného bodu** – všechny linie se sbíhají k jedinému výkladu
+  ([EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md));
+  je to narativní podoba [epistemické singularity](@/glossary/epistemicka-singularita.md).
+- **Rozpojení a dekonstrukce** – souvislosti mezi obdobími jsou zpochybněny, dřívější já je
+  prohlášeno za falešné ([EA-5.3.2 Autobiografická dekonstrukce](@/kompendium/techniques/ea-5-3-2-autobiograficka-dekonstrukce.md),
+  [EA-4.4.5 Narušení časového já](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md)).
+- **Náhrada příběhu** – původní vyprávění je nahrazeno novým, připraveným zvenčí
+  ([EA-5.3.7 Náhrada sebe-narativu](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md),
+  [EA-4.4.4 Biografická rekontextualizace](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md)).
 
-## Navigace
+Model ukazuje, proč jsou tyto vzorce tak účinné: nemusí měnit fakta, stačí změnit spojení
+mezi nimi. Člověk si může pamatovat všechny události správně, a přesto žít v příběhu, který
+mu nepatří.
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Odlišení
+
+- **Od narativní identity:** narativní identita je obsah a funkce příběhu („kdo jsem“);
+  topologie je jeho tvar („jak jsou části spojeny“).
+- **Od přirozeného přelomu:** konverze, rozvod, nemoc nebo emigrace mohou příběh rozdělit na
+  „před“ a „po“; rozdíl je v tom, zda člověk dokáže obě části spojit vlastním výkladem.
+- **Od disociativních poruch paměti:** mezery v příběhu mohou mít klinickou příčinu
+  ([Disociativní amnézie](@/glossary/dissociativni-amnezie.md)) a vyžadují odborné posouzení.
+- **Od kulturně odlišných forem vyprávění:** ne každá kultura vypráví lineárně; měřítkem je
+  souvislost a otevřenost, ne konkrétní forma.
+
+## Význam pro Kompendium
+
+Narativní topologie slouží jako **mapa pro diagnostiku i léčbu**. Při rozhovoru pomáhá
+všimnout si, kde příběh chybí, kde se uzavírá a kde má cizí spojení. Při obnově ukazuje,
+co je třeba udělat: obnovit spojení mezi obdobími, znovu otevřít větve, zaplnit díry vlastními
+slovy a rozpustit singulární bod do více vysvětlení. Na model navazuje [narativní
+terapie](@/glossary/narativni-terapie.md) a klinický postup [Biographical Timeline
+Rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md).
+
+**Obecný příklad (anonymizovaný kompozit).** Žena vyprávěla svůj život tak, že vše začalo
+setkáním s duchovní učitelkou; dětství, studium a první manželství shrnula větou „tehdy jsem
+spala“. S terapeutem kreslila časovou osu a hledala, co v ní dřívější období spojuje
+s pozdějším. Objevila, že zájem o lidi a touha pomáhat byly její dávno před skupinou – a že
+je skupina jen přejmenovala.
+
+## Obrana a zotavení
+
+- **Časová osa vlastníma rukama** – zakreslit události a spojení mezi nimi; všimnout si děr
+  ([Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)).
+- **Více verzí** – vyprávět totéž období ze dvou či tří úhlů ([Správa mnohočetného
+  já](@/kompendium/self-defense-guides/46-multiple-self-management.md)).
+- **Svědci** – ověřit spojení s lidmi, kteří období znali.
+- **Pro profesionála:** nevnucovat nový tvar, ale pomáhat obnovit souvislost; postupovat
+  podle [EA-4.4.9 Narativní rekonstrukce](@/kompendium/techniques/ea-4-4-9-narrative-reconstruction.md)
+  a [Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md).
+
+## Související
+
+**Příběh a identita**
+
+- [Narativní identita](@/glossary/narativni-identita.md) – obsah a funkce životního příběhu.
+- [Narrative trauma](@/glossary/narrative-trauma.md) – nezačleněná zkušenost v příběhu.
+- [Narativní terapie](@/glossary/narativni-terapie.md) – terapeutická práce s tvarem příběhu.
+- [Husserlova retence](@/glossary/husserl-retence.md) – časová souvislost na úrovni okamžiku.
+
+**Deformace**
+
+- [EA-5.1.25 Singulární narativní kolaps](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md)
+  – kolaps všech linií do jednoho bodu.
+- [EA-5.3.7 Náhrada sebe-narativu](@/kompendium/techniques/ea-5-3-7-self-narrative-replacement.md)
+  – nahrazení vlastního příběhu cizím.
+- [Epistemická singularita](@/glossary/epistemicka-singularita.md) – obecný stav, jehož
+  narativní podobou je singulární bod.
+
+**Obnova**
+
+- [Biographical Timeline Rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
+  – klinický postup obnovy časové osy.

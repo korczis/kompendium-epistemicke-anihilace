@@ -96,7 +96,7 @@ EA-5.5.1 (pre-predikativní blokace), [EA-5.5.29](@/kompendium/techniques/ea-5-5
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — pre-konceptuální disrupce podpírá epistemickou substituci
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — pre-konceptuální disrupce podpírá epistemickou substituci
 - **EA-5.3.* (Hypertransformativní protokoly)** — pre-konceptuální rekonfigurace umožňuje identitární substituci
 - **EA-1.5.* (Somatické techniky)** — pre-konceptuální manipulace často kombinovaná s somatickými technikami
 

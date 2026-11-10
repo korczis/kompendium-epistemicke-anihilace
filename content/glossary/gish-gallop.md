@@ -101,3 +101,11 @@ Pro jednotlivce platí i [řízení kognitivní zátěže](@/kompendium/self-def
 - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – technika, pod kterou je cval zařazen.
 - [Ověřování tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – obrana jednotlivce.
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – ústřední pojem Kompendia.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: gish-gallop](@/kompendium/glossary-bridges/bridge-gish-gallop.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -51,3 +51,11 @@ Bridge popisuje vztah mezi kompendialnimi clanky a glossary entry:
 ---
 
 **Created by [Tomas Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [White Team (bílý tým)](@/glossary/white-team.md) – heslo glosáře, které tento most propojuje s knihou
+
+<!-- kompendium:odvozene-vazby:end -->

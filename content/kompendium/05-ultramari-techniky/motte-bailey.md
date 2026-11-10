@@ -1,111 +1,152 @@
 +++
-title = "Motte Bailey"
+title = "Motte and bailey – střídání obhajitelného a odvážného tvrzení"
 weight = 100
-description = "Motte Bailey — pojem v sekci kompendium/05-ultramari-techniky znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Motte and bailey v sekci 05: vzorec, v němž se odvážné tvrzení při kritice stáhne do obhajitelné pozice a po ní se vrátí; mechanismus, detekce, odlišení a obrana."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "ultramari", "manipulace", "delegitimizace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["sealioning", "kapitola-8", "weaponized-incompetence", "kapitola-7", "kapitola-6", "kapitola-10"]
+related_terms = ["motte-and-bailey", "sealioning", "gish-gallop", "cirkularni-argumentace", "falsifikovatelnost", "newspeak"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Motte and bailey – střídání obhajitelného a odvážného tvrzení
 
-**Motte Bailey** patří mezi **ultramari techniky** (sekce 05 Prismatic Kompendia) — kategorii high-severity epistemických útoků, které kombinují více útočných vektorů současně a vyžadují koordinovanou víceúrovňovou obranu. Ultramari techniky překračují individuální epistemické útoky a pracují na úrovni celé interakce, narativu nebo identity oběti.
+> **Pozice v sekci 05**: [ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md)
+> nezasahují jednotlivé tvrzení, ale podmínky, za nichž lze o tvrzeních vůbec rozhodovat. Motte and
+> bailey sem patří v podobě, kdy se z argumentačního triku stane **trvalá struktura komunikace**,
+> která znemožňuje určit, co mluvčí vlastně tvrdí. Definice pojmu je v hesle
+> [Motte and bailey](@/glossary/motte-and-bailey.md); jazykovou signaturu popisuje
+> [Detekční signatura: Motte and bailey](@/kompendium/detection-signatures/motte-bailey.md).
 
-{% <callout type="warning"> %}
-Ultramari techniky mají **severity = HIGH**. Klinická konzultace je doporučena při dlouhodobé expozici. Recovery protokoly v sekci `recovery-protocols/` jsou navrženy pro extrakci z těchto vzorců.
-{% </callout> %}
+## Vymezení
 
-## Anatomie útoku
+Název pochází ze středověkého opevnění: *bailey* je rozlehlé, výnosné, ale špatně bránitelné
+nádvoří, *motte* malá, strmá a snadno bránitelná věž. Filozof Nicholas Shackel (2005) tak označil
+argumentační vzorec, v němž mluvčí v běžné praxi prosazuje **odvážné a sporné tvrzení** (bailey),
+při napadení se stáhne k **skromnému a téměř nepopiratelnému** tvrzení (motte) – a když kritika
+odezní, vrátí se k odvážnému.
 
-Mechanismus **Motte Bailey** typicky zahrnuje tři fáze:
+Příklad struktury: „Tato metoda léčí rakovinu“ (bailey) se při kritice změní na „Chci jen říct, že
+zdravý životní styl je důležitý“ (motte). S druhým tvrzením nikdo nepolemizuje, a obhájce proto
+„vyhrál“ – nikdy ale neobhájil první.
 
-1. **Setup phase** — útočník etabluje rámec, který činí standardní obranné mechanismy oběti irelevantními nebo invertuje jejich smysl
-2. **Eskalační fáze** — útočník vystupňuje tlak nebo nejednoznačnost, dokud oběť nezačne pochybovat o vlastním úsudku
-3. **Konsolidační fáze** — útočník upevní novou epistemickou pozici jako „normální“ nebo „samozřejmou“, takže návrat k původnímu stavu vyžaduje externí intervenci
+## Mechanismus (strukturální popis)
 
-Detailní analýza jednotlivých fází je dokumentována v technique-level článcích (`techniques/ea-X-X-X.md`) a v detection-signature záznamech.
+Vzorec funguje, protože využívá **dvojznačnost** a **asymetrii pozornosti**:
 
-## Detekční signatura
+- Odvážné tvrzení je formulováno tak, aby mělo blízkou skromnou verzi (stejná slova, jiný význam).
+- Kritik musí napadnout konkrétní formulaci; mluvčí si vybere tu, kterou bude hájit.
+- Publikum si pamatuje výsledek sporu („obhájil se“), ne to, které tvrzení bylo obhájeno.
+- Opakováním se z dvojznačnosti stává norma: tvrzení skupiny mají vždy dvě verze a nikdo z vnějšku
+  neví, za kterou skupina ručí.
 
-Operační detekce **Motte Bailey** se opírá o behaviorální a lingvistické markery dokumentované v [detection-signatures/](@/kompendium/detection-signatures/_index.md). Analytik hledá diskrepance mezi:
+V dlouhodobém působení (skupina, vztah, organizace) vzorec mění epistemické prostředí: **pojmy
+ztrácejí stabilní význam**. To spojuje motte and bailey se sémantickou erozí a se
+[zatíženým jazykem](@/glossary/newspeak.md), a proto je zařazen mezi ultramární vzorce.
 
-- explicitním obsahem výroku a implicitním rámcem (motte-bailey vzorec)
-- rychlostí přechodu mezi pozicemi ([sealioning](@/glossary/sealioning.md) timing)
-- asymetrií v důkazních standardech mezi vlastními a oponentovými tvrzeními
+## Fáze průběhu
 
-## Counter-protokol
+1. **Ustavení dvojznačného pojmu** – klíčové slovo skupiny („energie“, „svoboda“, „ochrana“,
+   „poctivost“) nese skromný i odvážný význam.
+2. **Praxe na nádvoří** – v interní komunikaci a rozhodování platí odvážný význam.
+3. **Ústup do věže** – při kritice zvenčí nebo při pochybnosti člena se uplatní skromný význam a
+   kritik je vylíčen jako ten, kdo útočí na samozřejmost („vy jste proti ochraně dětí?“).
+4. **Návrat** – po odeznění kritiky se praxe vrací k odvážnému významu, nyní s pocitem, že
+   „obstála“.
 
-Ochrana proti **Motte Bailey** vyžaduje:
+## Detekční znaky
 
-- **Externalizaci epistemických procesů** — peer review, dokumentační stopy, časové razítko
-- **Strukturní přerušení interakce** — stop-pravidla, time-outs, externí mediace
-- **Rekonstruktivní práci po expozici** — viz [recovery-protocols/](@/kompendium/recovery-protocols/_index.md), zejména protokoly orientované na narativ a paradigm-rebuilding
-<!-- EXPANDED:PHASE11 -->
+- Tvrzení se při kritice podstatně mění, ale mluvčí tvrdí, že „to říkal celou dobu“.
+- Skromná verze je tak samozřejmá, že by ji nikdo nemusel hájit – proč se o ni tedy vede spor?
+- Klíčové pojmy nejsou nikdy definovány; žádost o definici je vnímána jako útok.
+- Kritik je obviněn z toho, že napadá skromnou verzi (morální převrácení).
+- Interní a externí komunikace skupiny používají stejná slova v odlišném smyslu.
+- Signatury: [Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md),
+  [Posun rozsahu](@/kompendium/detection-signatures/7-linguistic-scope-creep.md),
+  [Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md).
 
-## See Also
+## Odlišení
 
-- [Parent section](@/kompendium/05-ultramari-techniky/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+- **Legitimní zpřesnění**: mluvčí, který po kritice přizná, že formuloval příliš silně, a své
+  tvrzení **trvale** zúží, neprovádí motte and bailey. Rozhodující je návrat k silné verzi.
+- **Přirozená mnohoznačnost**: většina slov má více významů; vzorec vzniká až systematickým
+  přepínáním podle potřeby obrany.
+- **Strawman (slaměný panák)**: opačný vzorec – kritik útočí na zkreslenou verzi cizího tvrzení.
+  Obvinění z motte and bailey může být samo strawmanem, pokud mluvčí odvážnou verzi nikdy netvrdil.
+- **Příbuzné vzorce**: [Gish gallop](@/glossary/gish-gallop.md) (zahlcení množstvím tvrzení) a
+  [sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) (vyčerpání otázkami) se s motte
+  and bailey často kombinují.
 
----
+## Klinický a právní rámec
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Klinicky se dlouhodobá expozice projevuje jako **nejistota ve významu slov**: člověk nedokáže říct,
+co skupina nebo partner „doopravdy“ tvrdí, a proto ani posoudit, zda s tím souhlasí. Typické je
+sebeobviňování („asi jsem to pochopil špatně“). V terapii pomáhá slovník významů a návrat k
+vlastním definicím; viz protokol [Paradigma](@/kompendium/recovery-protocols/paradigm.md).
 
-## Manažerské shrnutí
+Právně a organizačně má vzorec váhu u zavádějících obchodních a zdravotních tvrzení: obhajoba
+skromnou verzí („jen jsme doporučovali zdravý životní styl“) neodstraňuje odpovědnost za to, co
+bylo skutečně slibováno. Pro posouzení je klíčová **dokumentace odvážné verze** – inzeráty,
+interní materiály, nahrávky; viz [Uchování důkazů](@/kompendium/forensic-legal/32-evidence-preservation.md).
 
-**Motte Bailey** je aktivní uzel taxonomického grafu sekce `kompendium/05-ultramari-techniky` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana
 
-## Koncepční síť
+**Individuální**
 
-Vizualizace propojení **Motte Bailey** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- Zapsat si **přesnou formulaci** tvrzení dřív, než začne spor.
+- Ptát se: „Tvrdíte A, nebo B?“ – a trvat na volbě.
+- Uznat skromnou verzi a pokračovat k odvážné: „Souhlasím, že zdravý životní styl je důležitý.
+  Tvrdíte také, že metoda léčí rakovinu?“
+- Opora: [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md).
 
-```mermaid
-graph TD
-    C0["Motte Bailey"]
-    N1["Sealioning"]
-    N2["Kapitola 8: Hypertransformativní protokoly"]
-    N3["Weaponized Incompetence"]
-    N4["Kapitola 7: Metatranscendentální anihilace"]
-    N5["Kapitola 6: Epistemická singularita"]
-    N6["Kapitola 10: Transkonceptuální mechanismy"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+**Institucionální**
 
-## Související pojmy
+- Vyžadovat písemné a definované formulace v rozhodovacích procesech; viz
+  [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md).
+- Porovnávat interní a externí komunikaci organizace.
 
-- [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) — slug `sealioning`
-- [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md) — slug `kapitola-8`
-- [Weaponized Incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md) — slug `weaponized-incompetence`
-- [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md) — slug `kapitola-7`
-- [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md) — slug `kapitola-6`
-- [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md) — slug `kapitola-10`
+## Zotavení
 
-## Navigace
+Po dlouhé expozici je potřeba obnovit **stabilitu pojmů**: s terapeutem nebo důvěryhodnou osobou
+vytvořit vlastní definice klíčových slov a porovnat je s tím, jak je používala skupina. Postup
+navazuje na slovník překladu v protokolu [Žitý svět](@/kompendium/recovery-protocols/lifeworld.md).
 
-- **Nadřazená sekce**: [kompendium/05-ultramari-techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Kapitola 10: Transkonceptuální mechanismy](@/kompendium/05-ultramari-techniky/kapitola-10.md)
-  - [Kapitola 6: Epistemická singularita](@/kompendium/05-ultramari-techniky/kapitola-6.md)
-  - [Kapitola 7: Metatranscendentální anihilace](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-  - [Kapitola 8: Hypertransformativní protokoly](@/kompendium/05-ultramari-techniky/kapitola-8.md)
-  - [Kapitola 9: Paradoxální metaanihilační protokoly](@/kompendium/05-ultramari-techniky/kapitola-9.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Kazuistika (anonymizovaný kompozit)
+
+Členka spolku, který propaguje „přirozené rodičovství“, si postupně všimne, že uvnitř spolku
+„přirozené“ znamená odmítání očkování a lékařské péče, zatímco navenek spolek tvrdí, že jen
+podporuje kojení a blízkost s dítětem. Když se zeptá na schůzi, je obviněna, že „útočí na kojící
+matky“. Rozpoznání vzorce jí umožní formulovat otázku přesně a rozhodnout se podle odpovědi,
+nikoli podle pocitu viny.
+
+## Meze a otevřené otázky
+
+Rozlišit motte and bailey od legitimního zpřesnění vyžaduje znalost historie komunikace; z jediné
+výměny to často nelze. Obvinění z tohoto vzorce se samo stalo rétorickou zbraní, a proto ho kniha
+používá jen s doložením obou verzí.
+
+## Související
+
+**Pojmy a detekce**
+
+- [Motte and bailey (heslo)](@/glossary/motte-and-bailey.md) – definice a původ pojmu.
+- [Detekční signatura: Motte and bailey](@/kompendium/detection-signatures/motte-bailey.md) – jazykové markery.
+- [Bridge: Motte and bailey](@/kompendium/glossary-bridges/bridge-motte-and-bailey.md) – propojení hesla s knihou.
+
+**Příbuzné vzorce v sekci 05**
+
+- [Sealioning](@/kompendium/05-ultramari-techniky/sealioning.md) – vyčerpání nekonečnými otázkami.
+- [Weaponized incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md) – přesun kognitivní práce předstíraným nepochopením.
+- [Narativní trauma](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) – poškození příběhu.
+
+**Techniky a obrana**
+
+- [Strategická reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md) – dodatečná změna významu tvrzení.
+- [Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – nedefinované pojmy jako nástroj.
+- [Verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md) – svépomocná obrana.

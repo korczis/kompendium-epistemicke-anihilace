@@ -41,7 +41,7 @@ Obnova smyslu čerpá z několika ověřených terapeutických tradic:
 
 - **logoterapie Viktora Frankla**, podle níž člověk může najít smysl i v utrpení, a to v díle,
   ve vztahu a v postoji k nevyhnutelnému,
-- **narativní terapie** Michaela Whitea a Davida Epstona (1990), která pomáhá oddělit člověka
+- **[narativní terapie](@/glossary/narativni-terapie.md)** Michaela Whitea a Davida Epstona (1990), která pomáhá oddělit člověka
   od „problémového příběhu“ a napsat alternativní,
 - **výzkum posttraumatického růstu** Richarda Tedeschiho a Lawrence Calhouna, který popisuje,
   že po traumatu může vedle utrpení nastat i pozitivní proměna – nikoli však nutně a nikoli

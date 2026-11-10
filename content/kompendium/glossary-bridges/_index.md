@@ -47,3 +47,14 @@ Pro každý bridge článek:
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: Case Studies → Glossary Bridges](@/kompendium/section-bridges/bridge-case-studies-to-glossary-bridges.md) – most k navazující sekci
+- [Bridge: Glossary Bridges → Filozofie](@/kompendium/section-bridges/bridge-glossary-bridges-to-philosophy.md) – most k navazující sekci
+- [Bridge: Quick Reference → Glossary](@/kompendium/section-bridges/bridge-quick-reference-to-glossary.md) – most k navazující sekci
+- [Bridge: Techniques → Glossary](@/kompendium/section-bridges/bridge-techniques-to-glossary.md) – most k navazující sekci
+
+<!-- kompendium:odvozene-vazby:end -->

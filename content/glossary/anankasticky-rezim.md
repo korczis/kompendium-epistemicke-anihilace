@@ -206,3 +206,11 @@ popisuje jako pracovní konstrukt pro rozpoznání a plánování intervence.
 - [Metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
   – střednědobý protokol obnovy flexibility.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: anankasticky-rezim](@/kompendium/glossary-bridges/bridge-anankasticky-rezim.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -1,88 +1,52 @@
 +++
-title = "Delegitimizace / Delegitimization"
+title = "Delegitimizace – stručný most"
 weight = 50
-description = "Systematic undermining of credibility, authority, or epistemic standing of an individual, institution, or claim."
+description = "Stručný most mezi heslem delegitimizace a knihou: definice, zařazení v taxonomii EA, hlavní znaky a cesty ke kapitolám, technikám a obraně."
 
 [taxonomies]
-tags = ["glossary-bridge", "psychology", "interactive"]
+tags = ["glossary-bridge", "psychology", "cross-link", "delegitimizace"]
 
 [extra]
 category = "psychology"
-related_terms = [
-  "bridge-nclb",
-  "gaslighting",
-  "epistemicke-trauma",
-  "konceptualni-anihilace",
-]
+related_terms = ["delegitimizace", "bridge-delegitimizace", "gaslighting", "darvo", "epistemicka-injustice", "epistemicke-trauma"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+# Delegitimizace – stručný most
 
-[Delegitimizace](@/glossary/delegitimizace.md) je systematické podkopávání důvěryhodnosti, autority nebo epistemického postavení jednotlivce, instituce, nebo nárokovaného tvrzení. Operuje skrze ad hominem útoky, smear campaigns, projektivní inverzi obvinění (DARVO) a strategické zpochybňování zkušeností. V Prismatic Kompendiu klasifikováno jako EA-1-3 a EA-2-x manipulační vzorce. Charakteristická pro coercive-control vztahy, totalitarian dynamiky, a digitální echo-chamber prostředí.
+> Stručná vstupní stránka. Podrobný most je [Bridge: Delegitimizace](@/kompendium/glossary-bridges/bridge-delegitimizace.md);
+> definici podává heslo [Delegitimizace](@/glossary/delegitimizace.md) a kategorii rozebírá kapitola
+> [Delegitimizace – odnětí epistemického postavení](@/kompendium/03-zakladni-kategorie/delegitimizace.md).
 
-## See Also
+## Definice
 
-- [Kompendium Glossary Bridges Index](@/kompendium/glossary-bridges/_index.md)
-- [Bridge Nclb](@/kompendium/glossary-bridges/bridge-nclb/_index.md)
-- [Gaslighting](@/kompendium/glossary-bridges/gaslighting.md)
-- [Epistemicke Trauma](@/kompendium/glossary-bridges/epistemicke-trauma.md)
-- [Konceptualni Anihilace](@/glossary/konceptualni-anihilace.md)
+**Delegitimizace** je systematické podkopávání důvěryhodnosti, autority nebo epistemického postavení
+jednotlivce, instituce nebo tvrzení. Působí útoky na osobu místo na argument, pomlouvačnými kampaněmi,
+převrácením obvinění ([DARVO](@/glossary/darvo.md)) a strategickým zpochybňováním zkušeností. Kniha ji
+řadí k vzorcům skupin EA-1.3 a EA-2; typicky se objevuje ve vztazích s [coercive control](@/glossary/coercive-control.md), v totalitních
+dynamikách a v uzavřených digitálních prostředích.
 
----
+## Zařazení v knize
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Delegitimizace je předpokladem mnoha dalších technik: kdo ztratí epistemické postavení, nemůže námitkou
+zastavit manipulaci. Scénáře rozebírá [kapitola 3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md),
+profesní a akademické techniky skupina EA-2.1, například
+[Expertní disinflation](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md).
 
-## Manažerské shrnutí
+## Hlavní znaky
 
-**Delegitimizace / Delegitimization** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+- Diskuse se stáčí od obsahu k osobě mluvčího.
+- Nesouhlas je vykládán jako nemoc, nestabilita nebo zlá vůle.
+- Kdo upozorní na problém, je označen za jeho původce.
 
-## Koncepční síť
+## Související
 
-Vizualizace propojení **Delegitimizace / Delegitimization** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
-
-```mermaid
-graph TD
-    C0["Delegitimizace / Delegitimization"]
-    N1["Bridge: adapter-pattern"]
-    N2["Bridge: agent-registry"]
-    N3["Bridge: archer-supreme"]
-    N4["Bridge: betrayal-trauma"]
-    N5["Bridge: aiad"]
-    N6["Bridge: agent-tier"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
-
-## Související pojmy
-
-- [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md) — slug `bridge-adapter-pattern`
-- [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md) — slug `bridge-agent-registry`
-- [Bridge: archer-supreme](@/kompendium/glossary-bridges/bridge-archer-supreme.md) — slug `bridge-archer-supreme`
-- [Bridge: betrayal-trauma](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md) — slug `bridge-betrayal-trauma`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-- [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md) — slug `bridge-agent-tier`
-
-## Navigace
-
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Bridge: Delegitimizace](@/kompendium/glossary-bridges/bridge-delegitimizace.md) – podrobný most.
+- [Delegitimizace (kapitola 03)](@/kompendium/03-zakladni-kategorie/delegitimizace.md) – kategorie analýzy.
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – filozofický rámec.
+- [Gaslighting – stručný most](@/kompendium/glossary-bridges/gaslighting.md) – osobní podoba delegitimizace.
+- [Epistemické trauma – stručný most](@/kompendium/glossary-bridges/epistemicke-trauma.md) – následek.
+- [Pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md) – právní rámec.

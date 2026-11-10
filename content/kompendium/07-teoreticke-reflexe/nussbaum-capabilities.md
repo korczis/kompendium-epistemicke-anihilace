@@ -121,7 +121,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 - **Capabilities-based assessment**: hodnocení pacienta podle **schopností**, nikoli pouze symptomů.
 - **Klinický cíl**: restituce kapacit, nikoli pouze „stabilizace“.
-- **Narativní terapie** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na nussbaumovské narativní představivosti.
+- **[Narativní terapie](@/glossary/narativni-terapie.md)** ([Ricoeur, viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) operuje strukturálně na nussbaumovské narativní představivosti.
 
 ## 8. Primární literatura
 

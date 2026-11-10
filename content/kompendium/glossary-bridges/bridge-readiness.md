@@ -1,82 +1,99 @@
 +++
-title = "Bridge: Readiness Assessment"
+title = "Bridge: Připravenost (readiness)"
 weight = 100
-description = "Bridge entry for readiness assessment patterns in clinical and security contexts."
+description = "Most mezi pojmem připravenosti a knihou: jak posoudit, zda je člověk připraven na odchod, psychoedukaci, zpracování traumatu, výpověď nebo simulační cvičení."
 
 [taxonomies]
-tags = ["glossary-bridge", "kompendium", "interactive"]
+tags = ["glossary-bridge", "kompendium", "cross-link", "klinicke"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["bridge-autoheal", "bridge-autoevolve", "bridge-aiad", "bridge-3nl", "bridge-agent", "bridge-adapter-pattern"]
+related_terms = ["bridge-kontraindikace", "bridge-exit", "bridge-threshold", "pred-simulacni-screening", "sekvence", "informed-consent"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
+date_modified = "2026-11-10"
 quality_score = 75
 +++
 
-## Definition
+# Bridge: Připravenost (readiness)
 
-Bridge entry for readiness assessment patterns in clinical and security contexts. This bridge entry is a structurally complete stub created during the
-2026-05-03 NLLB Phase 7 sweep — full integration with kompendium taxonomy
-and cross-domain references is part of ongoing knowledge-base buildout.
+> **Most** spojuje pojem připravenosti s místy knihy, kde se rozhoduje, zda je vhodná chvíle pro
+> další krok. Přehled mostů je v rejstříku [Glossary Bridges](@/kompendium/glossary-bridges/_index.md).
 
-## See Also
+## Pojem
 
-- [Kompendium Glossary Bridges](@/kompendium/glossary-bridges/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+**Připravenost** (*readiness*) je stav, v němž je člověk schopen další krok podstoupit s rozumnou
+nadějí na užitek a bez nepřiměřeného rizika. Je to pozitivní protějšek
+[kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md): kontraindikace říká, kdy
+nezačínat, připravenost říká, kdy je čas začít.
 
----
+V psychologii změny chování je nejznámější transteoretický model Jamese Prochasky a Carla
+DiClementeho (stadia prekontemplace, kontemplace, příprava, akce, udržení), původně vyvinutý pro
+odvykání kouření. Kniha z něj přebírá zásadu, že intervence musí odpovídat stadiu: člověku, který
+o změně teprve uvažuje, nepomůže akční plán, ale prostor pro ambivalenci.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Připravenost má v knize pět typických podob:
 
-## Manažerské shrnutí
+1. **na odchod** z manipulativního prostředí;
+2. **na psychoedukaci** – na informace o technikách, jimž byl člověk vystaven;
+3. **na zpracování traumatu** a práci s obsahem přesvědčení;
+4. **na výpověď** a účast v řízení;
+5. **na výukové a simulační cvičení** (u studentů a profesionálů).
 
-**Bridge: Readiness Assessment** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Znaky připravenosti
 
-## Koncepční síť
+- **Stabilita**: pravidelný spánek a denní rytmus, žádná akutní krize.
+- **Bezpečí**: ukončený nebo kontrolovaný kontakt s pachatelem či skupinou.
+- **Opora**: alespoň několik důvěryhodných vztahů; viz [Bridge: Doprovodná osoba](@/kompendium/glossary-bridges/bridge-companion.md).
+- **Vlastní zájem**: člověk sám klade otázky a chce rozumět; nejde o tlak okolí.
+- **Snesitelnost nejistoty**: dokáže zůstat u otázky bez okamžité potřeby odpovědi.
+- **Souhlas**: ví, co krok obnáší, a může ho kdykoli přerušit; viz [Informed consent](@/glossary/informed-consent.md).
 
-Vizualizace propojení **Bridge: Readiness Assessment** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Kde se pojem v knize vyskytuje
 
-```mermaid
-graph TD
-    C0["Bridge: Readiness Assessment"]
-    N1["Bridge: autoheal"]
-    N2["Bridge: autoevolve"]
-    N3["Bridge: aiad"]
-    N4["Bridge: 3nl"]
-    N5["Bridge: agent"]
-    N6["Bridge: adapter-pattern"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+- **Pořadí zotavení** – přechod mezi fázemi; viz [Sekvence](@/kompendium/recovery-protocols/sekvence.md)
+  a rejstřík [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md).
+- **Odchod** – [Bridge: Exit](@/kompendium/glossary-bridges/bridge-exit.md).
+- **Výpověď a disclosure** – [Disclosure traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md)
+  a [Příprava na proces](@/kompendium/forensic-legal/27-trial-prep.md).
+- **Výuka a simulace** – [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md)
+  a [Pre-engagement screening](@/kompendium/techniques/ea-4-2-1-pre-engagement-screening.md).
 
-## Související pojmy
+## Sémantický vztah
 
-- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) — slug `bridge-autoheal`
-- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) — slug `bridge-autoevolve`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-- [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md) — slug `bridge-3nl`
-- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) — slug `bridge-agent`
-- [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md) — slug `bridge-adapter-pattern`
+| Vztah | Cílový pojem | Typ vazby |
+|---|---|---|
+| protějšek | [Bridge: Kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md) | podmínka zahájení |
+| měří se prahem | [Bridge: Threshold](@/kompendium/glossary-bridges/bridge-threshold.md) | rozhodovací kritérium |
+| chrání před | [Retraumatizace](@/glossary/retraumatizace.md) | riziko předčasného kroku |
 
-## Navigace
+## Klinické a praktické implikace
 
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+1. **Připravenost se posuzuje společně s klientem**, ne o něm. Otázka „Co by vám pomohlo poznat, že
+   jste připraven(a)?“ vrací klientovi rozhodování, které mu manipulace vzala.
+2. **Připravenost není trvalý stav** – po spouštěči, soudním jednání nebo kontaktu se skupinou se
+   může vrátit o krok zpět.
+3. **Tlak okolí není připravenost** – rodina, advokát nebo média mohou chtít rychlý postup; klinik
+   chrání tempo klienta.
+4. **U profesionálů a studentů** se připravenost na simulační cvičení posuzuje stejně vážně –
+   i oni mohou mít vlastní historii expozice.
+
+## Časté omyly
+
+- „Když nebude připraven, nikdy to neudělá“ – připravenost se dá podpořit stabilizací a oporou.
+- „Připravenost poznám podle toho, že souhlasí“ – souhlas pod tlakem nebo z touhy vyhovět není
+  připravenost; to platí zvlášť u lidí zvyklých podřizovat se autoritě.
+
+## Související
+
+**Sesterské mosty**
+
+- [Bridge: Kontraindikace](@/kompendium/glossary-bridges/bridge-kontraindikace.md) – kdy nezačínat.
+- [Bridge: Threshold](@/kompendium/glossary-bridges/bridge-threshold.md) – prahy pro rozhodnutí.
+- [Bridge: Exit](@/kompendium/glossary-bridges/bridge-exit.md) – připravenost na odchod.
+
+**Protokoly**
+
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků a přechody mezi nimi.
+- [Před-simulační screening](@/kompendium/04-terminalni-protokoly/pred-simulacni-screening.md) – posouzení před výukovými cvičeními.
+- [Disclosure traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md) – připravenost na výpověď.

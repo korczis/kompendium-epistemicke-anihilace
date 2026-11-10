@@ -165,3 +165,11 @@ které vytváří podmínky pro otevřené zpochybnění.
 - [Psychologické bezpečí](@/kompendium/organizational-defense/16-psychological-safety.md) –
   organizační podmínky pro komunikativní jednání.
 - [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: communicative-rationality](@/kompendium/glossary-bridges/bridge-communicative-rationality.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

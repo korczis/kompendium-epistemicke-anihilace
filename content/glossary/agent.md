@@ -394,3 +394,11 @@ procesů agentů), *Consciousness Traits* (emergentní behaviorální vlastnosti
 
 - [AIAD integrace a detekce EA](@/kompendium/aiad-integration/_index.md) – agenti platformy
   v obranných úlohách knihy.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

@@ -57,7 +57,7 @@ Vzájemnost vnímání-vnímaného je systematicky podlamována. Subjekt je vede
 
 ### Krok 4 — Atrofie kinestetického schématu
 
-Tělesné schéma — pasivní syntéza tělesnosti — je oslabováno přerušením rutinní kinestetické zkušenosti. Subjekt ztrácí intuitivní vztah k vlastnímu tělu.
+[Tělesné schéma](@/glossary/body-schema.md) — [pasivní syntéza](@/glossary/pasivni-synteza.md) tělesnosti — je oslabováno přerušením rutinní kinestetické zkušenosti. Subjekt ztrácí intuitivní vztah k vlastnímu tělu.
 
 ### Krok 5 — Konsolidace dualismu jako „spirituality“
 

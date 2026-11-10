@@ -1,103 +1,128 @@
 +++
-title = "Intencionalita"
+title = "Intencionalita – zaměřenost vědomí jako kategorie analýzy"
 weight = 100
-description = "Intencionalita — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Intencionalita jako analytická kategorie knihy: jak manipulace mění, k čemu a jakým způsobem je vědomí zaměřeno, a jak tento posun rozpoznat."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "philosophy", "fenomenologie", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["kapitola-2", "falsifikovatelnost", "scenar-h", "scenar-g", "delegitimizace", "scenar-f"]
+related_terms = ["intencionalita", "intentionalita", "fenomenologie", "pasivni-synteza", "theory-of-mind", "metakognice"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Definice
+# Intencionalita – zaměřenost vědomí jako kategorie analýzy
 
-**[Intencionalita](@/glossary/intentionalita.md)** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+> **Pozice v knize**: interpretační kategorie sekce 03. Definice pojmu je v hesle
+> [Intencionalita](@/glossary/intencionalita.md); tato stránka popisuje, jak kniha pojem používá k
+> analýze technik, které **přesměrovávají vědomí** – co člověk vnímá, čemu věnuje pozornost a jak
+> se k věcem vztahuje.
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+## Vymezení
 
-## Filozofický kontext
+Franz Brentano v *Psychologii z empirického hlediska* (1874) označil intencionalitu za znak
+duševních jevů: každý akt vědomí je zaměřen na nějaký předmět – vnímání je vnímáním něčeho,
+přání přáním něčeho, strach strachem z něčeho. Edmund Husserl pojem rozpracoval v *Logických
+zkoumáních* (1900–1901): rozlišil **akt** (vnímání, vzpomínání, fantazie, soud) a jeho
+**předmět**, a ukázal, že tentýž předmět může být dán různými způsoby – jako vnímaný, vzpomínaný,
+obávaný, chtěný.
 
-Koncept **Intencionalita** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+Pozor na dvojí užití slova. Ve filozofii mysli znamená [intencionalita](@/glossary/intentionalita.md) **zaměřenost**, ne „úmysl“.
+Úmyslům druhých se věnuje kategorie [Theory of Mind](@/kompendium/03-zakladni-kategorie/tom-exploitation.md)
+a Dennettův [intencionální postoj](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md).
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+## Proč je to kategorie analýzy
 
-## Klinická a operační relevance
+Manipulace často nemění, **co je pravda**, ale **na co se člověk dívá a jak**. Kniha rozlišuje tři
+roviny zásahu do intencionality:
 
-V due-diligence praxi a klinickém poradenství se **Intencionalita** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+1. **Výběr předmětu** – co se do pole vědomí vůbec dostane. Patří sem
+   [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) a
+   [Tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md): pozornost je vedena
+   k jednomu tématu, jiné z pole mizí.
+2. **Způsob danosti** – jak je předmět dán. Tatáž událost může být připomínána jako vina, jako
+   hrozba, jako dluh. Opakované spojování určitých předmětů s úzkostí nebo studem mění samotný
+   způsob, jakým se člověku jeví; viz [Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md).
+3. **Struktura aktu** – schopnost odlišit vnímání od vzpomínky, vzpomínku od fantazie, vlastní
+   soud od převzatého. Na tuto rovinu míří nejhlubší techniky, například
+   [Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md) a
+   [Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md), kdy se pozornost
+   obrací na vlastní akty tak intenzivně, že přestane být zaměřena na svět.
 
-## Detekční vztah
+## Jak se posun intencionality projevuje
 
-Pro praktickou detekci konzultujte:
+- **Zúžení pole**: člověk mluví stále o tomtéž (partner, vedoucí, skupina); jiné oblasti života
+  z vyprávění mizí.
+- **Monotematická pozornost** ke hrozbě: neustálé sledování nálad druhého, předvídání reakcí.
+- **Zaměňování aktů**: „nevím, jestli jsem to viděla, nebo mi to jen řekl“.
+- **Ztráta vlastního předmětu**: člověk neví, co chce nebo co ho zajímá – zájem je zaměřen jen
+  na přání druhého.
+- **Hyperreflexivní smyčky**: přemýšlení o vlastním myšlení bez konce, neschopnost obrátit se ven;
+  viz [Rekurzivní paralýza](@/glossary/rekurzivni-paralyza.md).
 
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+## Odlišení
 
-## See Also
+- **Běžná pozornost a zájem**: zamilovanost, nadšení pro projekt nebo starost o nemocné dítě
+  pole vědomí také zužují. Rozdíl je v dobrovolnosti, v reverzibilitě a v tom, zda zúžení slouží
+  člověku, nebo někomu jinému.
+- **Úzkostné a obsedantní poruchy**: monotematická pozornost ke hrozbě je jejich součástí.
+  Manipulací vyvolaný obraz se odliší vazbou na konkrétní vztah a zmírněním v odstupu.
+- **Disociace**: zaměňování aktů (vzpomínka – představa) může být disociativní; vyžaduje
+  klinické vyšetření, viz [Disociace](@/glossary/disociace.md).
+- **ADHD a poruchy pozornosti**: obtíže s řízením pozornosti jsou dlouhodobé a nezávislé na vztahu.
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## Klinický a praktický význam
 
----
+V diagnostice pomáhá jednoduchá otázka: **o čem klient mluví a o čem ne?** Mapování pole pozornosti
+(kolik oblastí života se v rozhovoru objevuje, jak často se vrací k jedné osobě) je citlivým
+ukazatelem. V terapii se intencionalita obnovuje **rozšiřováním pole**: návratem k zájmům, smyslovým
+činnostem a vztahům, které s expozicí nesouvisejí – to je jádro protokolu
+[Žitý svět](@/kompendium/recovery-protocols/lifeworld.md). U hyperreflexivity pomáhají
+metakognitivní postupy, které učí pozornost odvrátit od vlastních myšlenek; viz
+[Metacognitive therapy protokol](@/kompendium/techniques/ea-6-2-4-metacognitive-therapy-protokol.md).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Příklad (anonymizovaný kompozit)
 
-## Manažerské shrnutí
+Muž po šesti letech manželství, v němž partnerka určovala, o čem se v rodině mluví a co je „téma
+na hádku“, přichází s tím, že „nemá žádné zájmy“. Při prvním rozhovoru se všechny jeho věty týkají
+partnerky – co řekne, jak zareaguje, čím ji nerozčílit. Mapa pozornosti ukáže, že před vztahem
+fotografoval, hrál v kapele a jezdil na kole. První týdny terapie se nevěnují vztahu, ale návratu
+k fotografování. Klient po měsíci popisuje: „Poprvé jsem se díval na něco jen proto, že mě to zajímá.“
 
-**Intencionalita** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana
 
-## Koncepční síť
+- Všímat si **šíře pole**: o čem jsem tento týden přemýšlel? Kolik oblastí života se v tom objevuje?
+- Rozlišovat **co jsem viděl** a **co mi bylo řečeno**; zapisovat si obojí zvlášť.
+- Chránit čas pro vlastní zájmy – [Řízení pozornosti](@/kompendium/self-defense-guides/9-attention-management.md)
+  a [Rozpočet pozornosti](@/kompendium/self-defense-guides/34-attention-budget.md).
+- Při hyperreflexivních smyčkách obracet pozornost ven, k smyslům a činnosti – [Uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md).
 
-Vizualizace propojení **Intencionalita** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Meze a otevřené otázky
 
-```mermaid
-graph TD
-    C0["Intencionalita"]
-    N1["3.2 Scénáře epistemické delegitimizace"]
-    N2["Falsifikovatelnost"]
-    N3["3.2.H Scénář H: Destruktivní 'konstruktivní' kritika"]
-    N4["3.2.G Scénář G: Progresivní kognitivní dekonstrukce"]
-    N5["Delegitimizace"]
-    N6["3.2.F Scénář F: Kolektivní epistemická delegitimizace"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Intencionalita je filozofický pojem s dlouhou a spornou tradicí; kniha z ní bere jen to, co
+pomáhá popsat pozorovatelné změny pozornosti a prožívání. Otevřená je otázka, jak tyto změny
+spolehlivě měřit a jak je odlišit od běžných změn pozornosti v náročných životních obdobích.
 
-## Související pojmy
+## Související
 
-- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — slug `kapitola-2`
-- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) — slug `falsifikovatelnost`
-- [3.2.H Scénář H: Destruktivní 'konstruktivní' kritika](@/kompendium/03-zakladni-kategorie/scenar-h.md) — slug `scenar-h`
-- [3.2.G Scénář G: Progresivní kognitivní dekonstrukce](@/kompendium/03-zakladni-kategorie/scenar-g.md) — slug `scenar-g`
-- [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md) — slug `delegitimizace`
-- [3.2.F Scénář F: Kolektivní epistemická delegitimizace](@/kompendium/03-zakladni-kategorie/scenar-f.md) — slug `scenar-f`
+**Sesterské kategorie**
 
-## Navigace
+- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) – tradice, z níž pojem pochází.
+- [Metakognice](@/kompendium/03-zakladni-kategorie/metakognice.md) – vědomí vlastních aktů a jeho meze.
+- [Tom exploitation](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) – druhý význam slova „intence“: úmysly druhých.
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
-  - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+**Glosář a teorie**
+
+- [Intencionalita (heslo)](@/glossary/intencionalita.md) – definice pojmu.
+- [Bridge: Intencionalita](@/kompendium/glossary-bridges/bridge-intentionalita.md) – propojení hesla s knihou.
+- [Pasivní syntéza](@/glossary/pasivni-synteza.md) – předreflexivní utváření předmětů zkušenosti.
+
+**Techniky**
+
+- [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – řízení výběru předmětu.
+- [Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md) – zásah do struktury aktu.
+- [Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md) – pozornost uvězněná ve vlastních aktech.

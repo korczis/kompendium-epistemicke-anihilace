@@ -1,114 +1,165 @@
 +++
-title = "Duvera"
+title = "Důvěra – protokol obnovy kalibrované důvěry"
 weight = 100
-description = "Duvera — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Průřezový protokol obnovy důvěry k sobě, k druhým a k institucím po expozici epistemické anihilaci: od nedůvěry ke kalibraci."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "trauma"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["acute-safety-establishment", "acute-cognitive-anchoring", "acute-somatic-regulation", "longterm-altruistic-channeling", "longterm-resilience-cultivation", "midterm-educational-reintegration"]
+related_terms = ["subacute-trust-rebuilding", "betrayal-trauma", "gaslighting", "reality-testing", "secure-attachment", "trauma"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Důvěra – protokol obnovy kalibrované důvěry
 
-**Duvera** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: průřezový rekonstruktivní protokol; doplňuje fázové protokoly sekce
+> [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md).
+> **Fáze**: začíná v subakutní fázi a prochází všemi dalšími.
+> **Cíl**: ne „znovu důvěřovat“, ale **důvěřovat přiměřeně** – podle dokladů, s možností revize.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Účel a cílová populace
 
-## Implementace
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) poškozuje důvěru ve třech směrech zároveň. **Důvěra k sobě** se rozpadá
+po dlouhé expozici [gaslightingu](@/glossary/gaslighting.md), kdy člověk opakovaně slyšel, že
+jeho paměť a úsudek selhávají. **Důvěra k druhým** se rozpadá po zradě blízké osoby, na jejímž
+uznání člověk závisel – to je jádro [betrayal trauma](@/glossary/betrayal-trauma.md), jak ji
+popsala Jennifer Freyd (Freyd 1996). **Důvěra k institucím** se rozpadá tam, kde instituce
+(škola, církev, zaměstnavatel, soud, zdravotnictví) člověka nechránila, nebo se sama stala
+nástrojem tlaku.
 
-Implementace **Duvera** se opírá o standardní strukturu recovery protokolů:
+Protokol je určen klientům, kteří už nejsou v aktivním kontaktu s manipulativním prostředím a
+prošli akutní stabilizací. Typicky jde o lidi po vztahu s [coercive control](@/glossary/coercive-control.md),
+po odchodu z [vysoce kontrolující skupiny](@/glossary/high-control-group.md) nebo po
+dlouhodobém mobbingu v instituci.
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+## 2. Klinický obraz: dvě podoby rozbité důvěry
 
-## Hodnotící kritéria
+Poškozená důvěra se v praxi neprojevuje jen jako nedůvěra. Typické jsou dva protilehlé obrazy,
+které se u jednoho člověka mohou střídat:
 
-Protokol **Duvera** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+- **Generalizovaná nedůvěra** – každý vstřícný krok druhých je čten jako příprava další
+  manipulace; klient testuje terapeuta, odmítá doporučení, nevěří vlastním vzpomínkám ani
+  dokumentům, které sám pořídil. Hypervigilance je zde naučená ochrana, ne porucha úsudku.
+- **Nekritické přenesení důvěry** – klient hledá novou autoritu, která mu „řekne, jak to
+  bylo“, a přenese na ni závislost původního vztahu: na terapeuta, nového partnera, skupinu
+  bývalých členů nebo online komunitu. Je to riziko re-viktimizace a známý vzorec u
+  [traumatického pouta](@/glossary/trauma-bonding.md).
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+Pozorovatelné znaky: klient neumí odpovědět na otázku „Podle čeho poznáte, že někomu můžete
+věřit?“; popisuje důvěru jako vše, nebo nic; po drobném zklamání okamžitě ruší celý vztah;
+nebo naopak přehlíží zjevné rozpory u nové autority.
 
-## Sesterské protokoly
+## 3. Cíle protokolu
 
-**Duvera** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+1. Oddělit **důvěru** (postoj) od **spolehnutí** (rozhodnutí v konkrétní věci podle dokladů).
+2. Obnovit důvěru ve vlastní vnímání – skrze externí kotvy, ne skrze přesvědčování.
+3. Vybudovat **kalibrovanou** důvěru k druhým: postupnou, oblastní a odvolatelnou.
+4. Rozlišit selhání konkrétní instituce od nedůvěryhodnosti všech institucí.
+5. Předejít přenesení závislosti na nového „průvodce“, včetně terapeuta.
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+## 4. Postup
 
-## See Also
+### Modul A – důvěra ve vlastní vnímání
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Začíná se u sebe, protože bez ní nelze hodnotit nikoho dalšího. Klient si vede
+[paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md): krátké, datované
+záznamy toho, co viděl, slyšel a udělal, oddělené od výkladu. Terapeut s klientem pravidelně
+porovnává záznamy s tím, co si klient pamatuje, a ukazuje, že jeho paměť je ve většině bodů
+spolehlivá – a kde chybuje, chybuje běžným lidským způsobem, ne „bláznivě“. Tím se rozpouští
+sebeobraz, který gaslighting vytvořil. Opora: [testování reality](@/glossary/reality-testing.md)
+jako sdílená, klidná dovednost, ne jako výslech.
 
----
+### Modul B – mapa důvěry
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Klient vytvoří přehled lidí a institucí ve svém okolí a ke každému uvede, **v čem** a **do jaké
+míry** se na ně může spolehnout (např. „sestra – praktické věci ano, rady o vztazích ne“).
+Smyslem je nahradit binární důvěru důvěrou oblastní. Navazuje na příručku
+[Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) a na
+[Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md).
 
-## Manažerské shrnutí
+### Modul C – malé, ověřitelné kroky
 
-**Duvera** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Důvěra se obnovuje zkušeností, ne výkladem. Klient volí malé situace s nízkým rizikem, kde
+může někomu něco svěřit a sledovat, zda druhý dodrží slovo. Důležité je, aby výsledek
+vyhodnotil sám, podle předem pojmenovaných kritérií, a ne podle pocitu, který manipulativní
+vztah naučil číst jako jediný ukazatel.
 
-## Koncepční síť
+### Modul D – terapeutický vztah jako cvičný prostor
 
-Vizualizace propojení **Duvera** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Terapeut výslovně pojmenuje, že klient mu **nemusí** věřit a že nedůvěra je legitimní
+informace. Ruptury v terapeutickém vztahu (zpoždění, nedorozumění, chyba terapeuta) se řeší
+otevřeně a slouží jako zkušenost, že vztah může přežít chybu bez trestu a bez popírání.
+Terapeut se vyhýbá roli autority, která „ví, jak to bylo“: nevynáší verdikty o minulosti, ale
+pomáhá klientovi vážit doklady.
 
-```mermaid
-graph TD
-    C0["Duvera"]
-    N1["Akutní zajištění bezpečnosti"]
-    N2["Akutní kognitivní ukotvení"]
-    N3["Akutní somatická regulace"]
-    N4["Dlouhodobé altruistické kanalizování"]
-    N5["Dlouhodobá kultivace resilience"]
-    N6["Středně-dobá vzdělávací reintegrace"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+### Modul E – instituce
 
-## Související pojmy
+Klient odliší konkrétní selhání (osoba, oddělení, rozhodnutí) od instituce jako celku a zmapuje,
+které kontrolní mechanismy existují (stížnost, ombudsman, odvolání, profesní komora). Pokud jde
+o právní kroky, je vhodné zapojit advokáta a postupovat podle oddílu
+[Forenzní a právní rozměr EA](@/kompendium/forensic-legal/_index.md).
 
-- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) — slug `acute-safety-establishment`
-- [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) — slug `acute-cognitive-anchoring`
-- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) — slug `acute-somatic-regulation`
-- [Dlouhodobé altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md) — slug `longterm-altruistic-channeling`
-- [Dlouhodobá kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md) — slug `longterm-resilience-cultivation`
-- [Středně-dobá vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md) — slug `midterm-educational-reintegration`
+## 5. Hodnocení průběhu
 
-## Navigace
+- Klient umí popsat svá kritéria důvěry vlastními slovy a použít je v nové situaci.
+- Mapa důvěry obsahuje odstupňované, ne binární položky.
+- Klesá frekvence „testování“ terapeuta a zároveň nevzniká idealizace.
+- Strukturované nástroje podle oddílu [Self-report instrumenty](@/kompendium/06-klinicke-aplikace/self-report-instrumenty.md)
+  a Working Alliance Inventory pro sledování terapeutické aliance.
+- Kvalitativně: klient je schopen připustit vlastní omyl, aniž by to vedlo ke zhroucení
+  sebedůvěry.
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## 6. Kontraindikace a rizika
+
+- **Trvající kontakt s pachatelem** (sdílená péče o děti, společné bydlení, závislé zaměstnání):
+  prioritou je bezpečí, viz [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md).
+- **Předčasná práce s důvěrou k druhým** dřív, než klient získá oporu ve vlastním vnímání.
+- **Iatrogenní riziko**: terapeut, který nabízí jistotu místo kalibrace, opakuje strukturu
+  původního vztahu; viz [Iatrogenic harm](@/glossary/iatrogenic-harm.md).
+- U paranoidní symptomatiky je nutné odlišení podle oddílu
+  [Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
+
+## 7. Kazuistika (anonymizovaný kompozit)
+
+Žena po čtyřicítce opustila desetiletý vztah, v němž partner pravidelně popíral události, které
+spolu zažili. Do terapie přichází s tím, že „nevěří ničemu, co si pamatuje“, a zároveň rychle
+přilnula k online skupině, jejíž moderátorka jí vykládá, „co se jí doopravdy stalo“. V prvních
+týdnech si vede datované záznamy a porovnává je s fotografiemi a zprávami; zjišťuje, že její
+paměť je přesná. Mapa důvěry ukáže, že skupině svěřuje rozhodování, které jí nepřísluší. Po
+několika měsících si skupinu ponechá jako zdroj sdílení, ale rozhodnutí o rozvodu konzultuje
+s advokátkou a se sestrou. Sama popisuje změnu větou: „Už nehledám, komu uvěřit. Hledám, podle
+čeho se rozhodnout.“
+
+## 8. Meze a otevřené otázky
+
+Kalibrovanou důvěru nelze měřit jedním nástrojem; kvalitativní hodnocení zůstává nezbytné.
+Hranice mezi zdravou opatrností a přetrvávající hypervigilancí je kulturně podmíněná. Otevřená
+je i otázka, jak pracovat s institucionální nedůvěrou u lidí, jejichž zkušenost s institucemi
+je oprávněně špatná – zde nelze cílit na „návrat důvěry“, ale na schopnost využít kontrolní
+mechanismy.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – fázový protokol, do něhož tento průřezový protokol vstupuje.
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – proč obnova struktury předchází práci s obsahem.
+- [Trauma](@/kompendium/recovery-protocols/trauma.md) – zpracování epistemického traumatu, z něhož nedůvěra vzniká.
+- [Pokora](@/kompendium/recovery-protocols/pokora.md) – kalibrace jistoty ve vlastním úsudku.
+
+**Glosář**
+
+- [Betrayal trauma](@/glossary/betrayal-trauma.md) – teoretický rámec zrady ve vztahu závislosti.
+- [Gaslighting](@/glossary/gaslighting.md) – nejčastější zdroj ztráty důvěry ve vlastní vnímání.
+- [Secure attachment](@/glossary/secure-attachment.md) – vztahový cíl, k němuž kalibrace směřuje.
+
+**Klinika a nástroje**
+
+- [Epistemic trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md) – vstupní hodnocení epistemické důvěry.
+- [Kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md) – svépomocná příručka pro klienta.
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – supervize terapeuta při práci s přenosem důvěry.

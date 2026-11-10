@@ -1,114 +1,158 @@
 +++
-title = "Incompetence"
+title = "Incompetence – protokol zotavení po zneužité neschopnosti"
 weight = 100
-description = "Incompetence — pojem v sekci kompendium/recovery-protocols znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Protokol zotavení pro člověka, který dlouho nesl břemeno zneužité předstírané neschopnosti druhého: únava, vina a ztráta měřítka férovosti."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "recovery-protocol", "klinicke", "manipulace"]
 
 [extra]
 category = "kompendium-sub"
-related_terms = ["longterm-post-traumatic-growth", "midterm-educational-reintegration", "acute-safety-establishment", "longterm-relapse-prevention", "acute-stabilization-protocol", "duvera"]
+related_terms = ["weaponized-incompetence", "coercive-control", "darvo", "blame-shifting", "emocionalni-terorismus", "midterm-skill-rebuilding"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
+date_modified = "2026-11-10"
 quality_score = 80
 +++
 
-## Cílová populace a fáze
+# Incompetence – protokol zotavení po zneužité neschopnosti
 
-**Incompetence** je rekonstruktivní protokol ze sekce `recovery-protocols/` Prismatic Kompendia. Protokol je určen klientům po extrakci z epistemicky toxického prostředí (EA expozice — kult, high-conflict relationship, [coercive control](@/glossary/coercive-control.md), [gaslighting](@/glossary/gaslighting.md)) v specifické fázi obnovy.
+> **Status**: tematický rekonstruktivní protokol k jevu
+> [weaponized incompetence](@/glossary/weaponized-incompetence.md).
+> **Fáze**: subakutní až středně-dobá; v akutní fázi jen psychoedukace a odpočinek.
+> **Klíčový rozdíl**: protokol nepracuje s „neschopným“, ale s tím, kdo jeho neschopnost nesl.
 
-{% <callout type="note"> %}
-Protokoly recovery jsou *fázově sekvenční*: akutní (týdny 1–4) → subakutní (měsíce 2–3) → midterm (měsíce 4–6) → longterm (měsíce 7+). Použití mimo cílovou fázi může způsobit retraumatizaci nebo neefektivitu intervence.
-{% </callout> %}
+## 1. Účel a cílová populace
 
-## Implementace
+Zneužitá neschopnost (*weaponized incompetence*) je vzorec, v němž jedna strana opakovaně a
+selektivně „neumí“, „zapomíná“ nebo „nerozumí“ – a tím přesouvá práci, odpovědnost i rozhodování
+na druhého. Kniha ji popisuje i v epistemické podobě: předstírané nepochopení nutí druhého
+znovu a znovu vysvětlovat, obhajovat a dokazovat, až vyčerpá kapacitu i důvěru ve vlastní
+měřítko férovosti. Strukturální popis vzorce je v kapitole
+[Weaponized incompetence](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md).
 
-Implementace **Incompetence** se opírá o standardní strukturu recovery protokolů:
+Protokol je určen lidem, kteří tento vzorec dlouhodobě nesli: v partnerství, při péči o
+domácnost a děti, v pracovním týmu, v akademické spolupráci. Přicházejí obvykle s vyčerpáním,
+s pocitem viny („jsem kontrolující, nic nedokážu pustit“) a s nejistotou, zda vůbec mají
+právo něco požadovat.
 
-1. **Krizové hodnocení** — strukturovaný klinický rozhovor + safety mapping
-2. **Stabilizační intervence** — frequency dle fáze (akutní = denní, longterm = týdenní/měsíční)
-3. **Bezpečné prostředí** — fyzická, finanční, právní separace od pachatele
-4. **Somatická regulace** — krátká cvičení, vyhnout se intenzivním tělově-orientovaným technikám v akutní fázi
-5. **Sociální opora** — identifikace bezpečných kontaktů + krizová síť
-6. **Spánkový režim** — sleep hygiene jako externalizovaný kontejner
+## 2. Klinický obraz
 
-## Hodnotící kritéria
+- **Kumulované vyčerpání**: chronická únava, poruchy spánku, pocit, že „všechno je na mně“.
+- **Převrácená vina**: klient se považuje za příčinu problému, protože je to on, kdo připomíná,
+  kontroluje a „dělá scény“. To odpovídá přesunu viny popsanému u
+  [blame shifting](@/glossary/blame-shifting.md) a u [DARVO](@/glossary/darvo.md).
+- **Eroze měřítka**: klient neumí říct, co je spravedlivé rozdělení práce, protože jeho
+  představa byla opakovaně označena za přehnanou.
+- **Ztráta vlastní kompetence**: paradoxně i ten, kdo vše nesl, může ztratit dovednosti mimo
+  péči o druhého – odborný růst, koníčky, kontakty.
+- **Ambivalence**: klient často chrání druhého („on to opravdu neumí“) a zároveň cítí vztek,
+  který si nedovolí.
 
-Protokol **Incompetence** používá týdenní [self-report](@/glossary/self-report.md) (PHQ-9, GAD-7, IES-R) a milníky závislé na fázi:
+## 3. Odlišení: kdy nejde o zneužitou neschopnost
 
-- Subjektivní stabilita
-- Spánková kontinuita (cíl: 6+ hodin, sleep latency <30 min)
-- Suicidalita (žádné aktivní ideace)
-- Safety milestones (separace, finance, právní status)
-- Working Alliance Inventory (WAI) ≥ 5/7
+Protokol se nesmí použít jako nálepka. Před zahájením je nutné zvážit:
 
-## Sesterské protokoly
+- skutečný deficit (porucha pozornosti, deprese, kognitivní porucha, chybějící dovednost),
+  který se projevuje **konzistentně**, ne selektivně podle toho, zda je úkol nepříjemný;
+- kulturně a genderově naučené rozdělení rolí, kde chybí vědomá strategie;
+- vzájemnou dynamiku, v níž obě strany přispívají (nadfunkční a podfunkční role).
 
-**Incompetence** se aplikuje v koordinaci s ostatními protokoly téže fáze:
+Rozlišujícím znakem zneužité neschopnosti je **selektivita a asymetrie přínosu**: neschopnost se
+objevuje právě tam, kde by druhému ulehčila, a mizí, kde jde o vlastní zájem; upozornění na
+vzorec vyvolá spíš útok nebo uraženost než snahu o změnu. Odlišení nevede terapeut sám od stolu –
+opírá se o konkrétní, datované situace.
 
-- [Recovery protocols index](@/kompendium/recovery-protocols/_index.md) — celkový rámec
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — diagnostické pozadí
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — markery pro identifikaci dominantního EA typu
-<!-- EXPANDED:PHASE11 -->
+## 4. Cíle protokolu
 
-## See Also
+1. Pojmenovat vzorec bez nutnosti „usvědčit“ druhého z úmyslu.
+2. Obnovit vlastní měřítko férovosti a právo na požadavky.
+3. Snížit vyčerpání a obnovit odpočinek jako legitimní potřebu.
+4. Vrátit klientovi kompetence a zdroje, které ztratil péčí o druhého.
+5. Připravit rozhodnutí o budoucnosti vztahu nebo spolupráce z pozice síly, ne viny.
 
-- [Parent section](@/kompendium/recovery-protocols/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## 5. Postup
 
----
+### Fáze 1 – inventura zátěže
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Klient po dva až čtyři týdny zapisuje, co dělá, co připomíná a co dělá znovu po druhém. Záznam
+není důkazem proti druhému, ale zrcadlem pro klienta: poprvé vidí rozsah zátěže v celku.
+Metodicky navazuje na [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md).
 
-## Manažerské shrnutí
+### Fáze 2 – psychoedukace
 
-**Incompetence** je aktivní uzel taxonomického grafu sekce `kompendium/recovery-protocols` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Terapeut vysvětlí strukturu vzorce: selektivitu, přesun kognitivní práce, roli opakovaného
+vysvětlování a to, proč protesty klienta končí jeho vlastní vinou. Cílem je, aby klient vzorec
+**rozpoznal**, ne aby přijal hotový výklad. Pomáhá srovnání s heslem
+[Emocionální terorismus](@/glossary/emocionalni-terorismus.md), kde se tlak vede přes vinu.
 
-## Koncepční síť
+### Fáze 3 – obnova měřítka
 
-Vizualizace propojení **Incompetence** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Klient formuluje, co pro něj znamená spravedlivé rozdělení, a ověří to u důvěryhodných třetích
+osob (přátelé, skupina podpory). Externí srovnání vrací měřítko, které vztah rozmělnil. Práce
+s hranicemi navazuje na [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md)
+a [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md).
 
-```mermaid
-graph TD
-    C0["Incompetence"]
-    N1["Dlouhodobý posttraumatický růst"]
-    N2["Středně-dobá vzdělávací reintegrace"]
-    N3["Akutní zajištění bezpečnosti"]
-    N4["Dlouhodobá prevence relapsu"]
-    N5["Akutní stabilizační protokol"]
-    N6["Duvera"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+### Fáze 4 – zastavení nadfunkce
 
-## Související pojmy
+Klient po dohodě přestává přebírat vybrané úkoly a sleduje, co se stane. Terapeut připravuje
+na to, že druhá strana může zareagovat eskalací, výčitkami nebo náhlou „bezmocí“. Důležité je
+bezpečí: pokud by zastavení nadfunkce ohrozilo děti nebo závislé osoby, postupuje se po malých
+krocích a s podporou.
 
-- [Dlouhodobý posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md) — slug `longterm-post-traumatic-growth`
-- [Středně-dobá vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md) — slug `midterm-educational-reintegration`
-- [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md) — slug `acute-safety-establishment`
-- [Dlouhodobá prevence relapsu](@/kompendium/recovery-protocols/longterm-relapse-prevention.md) — slug `longterm-relapse-prevention`
-- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) — slug `acute-stabilization-protocol`
-- [Duvera](@/kompendium/recovery-protocols/duvera.md) — slug `duvera`
+### Fáze 5 – návrat kompetencí
 
-## Navigace
+Středně-dobá práce na tom, co klient kvůli zátěži opustil: odborný růst, vztahy, zájmy. Opora:
+[Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md).
 
-- **Nadřazená sekce**: [kompendium/recovery-protocols](@/kompendium/recovery-protocols/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
-  - [Akutní informační kurace](@/kompendium/recovery-protocols/acute-information-curation.md)
-  - [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md)
-  - [Akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md)
-  - [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## 6. Hodnocení průběhu
+
+- Klient umí vzorec popsat vlastními slovy na konkrétních situacích.
+- Snižuje se subjektivní vyčerpání a zlepšuje spánek.
+- Klesá míra sebeobviňování; klient dokáže vyslovit požadavek bez omluvy.
+- Rozhodnutí o vztahu nebo spolupráci je formulováno podle vlastních kritérií.
+
+## 7. Kontraindikace a rizika
+
+- Prvky [coercive control](@/glossary/coercive-control.md) nebo násilí: protokol ustupuje
+  bezpečnostnímu plánu, viz [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md).
+- Párová terapie je vhodná jen tam, kde nejde o kontrolu a obě strany jsou ochotny pracovat;
+  jinak hrozí, že se vzorec přenese do terapie.
+- Riziko nálepkování: označit partnera za „manipulátora“ bez důkladného odlišení poškodí
+  klienta i vztah.
+
+## 8. Kazuistika (anonymizovaný kompozit)
+
+Muž ve středním věku vede výzkumný tým, v němž kolega opakovaně „nestíhá“ administrativu a
+„nerozumí“ požadavkům grantu; práce končí u vedoucího, který pak čelí výtkám, že „vše strhává
+na sebe“. Inventura ukáže, že kolega úkoly zvládá, když jde o jeho publikace. Po psychoedukaci
+vedoucí zavede písemné rozdělení odpovědností a přestane úkoly přebírat; kolega reaguje stížností
+u vedení. Díky dokumentaci a jasným dohodám se situace řeší organizačně, ne osobně. Klient
+popisuje hlavní změnu: přestal se ptát, zda je „moc přísný“, a začal se ptát, co je dohodnuto.
+
+## 9. Meze a otevřené otázky
+
+Úmysl je z vnějšku těžko prokazatelný a protokol ho prokazovat nemusí: pracuje se vzorcem a
+jeho dopadem. Empirická literatura k *weaponized incompetence* je zatím převážně populární a
+teoretická; protokol proto stojí na obecně ověřených postupech (psychoedukace, práce s
+hranicemi, léčba vyčerpání), ne na specifické evidenci.
+
+## Související
+
+**Jev a technika**
+
+- [Weaponized incompetence (heslo)](@/glossary/weaponized-incompetence.md) – definice a odlišení.
+- [Weaponized incompetence (kapitola 05)](@/kompendium/05-ultramari-techniky/weaponized-incompetence.md) – strukturální popis vzorce.
+- [Blame shifting](@/glossary/blame-shifting.md) – mechanismus, jímž se vina vrací k nositeli zátěže.
+
+**Sesterské protokoly**
+
+- [Důvěra](@/kompendium/recovery-protocols/duvera.md) – obnova důvěry ve vlastní měřítko.
+- [Středně-dobé obnovení kompetencí](@/kompendium/recovery-protocols/midterm-skill-rebuilding.md) – návrat opuštěných dovedností.
+- [Sekvence](@/kompendium/recovery-protocols/sekvence.md) – pořadí kroků zotavení.
+
+**Sebeobrana a organizace**
+
+- [Rozpoznání emočního dluhu](@/kompendium/self-defense-guides/20-emotional-debt-recognition.md) – vina jako nástroj přesunu práce.
+- [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – praktická opora fáze 4.
+- [Oddělení povinností](@/kompendium/organizational-defense/29-segregation-duties.md) – organizační obrana ve firmách a týmech.

@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 |------|---------|
 | **EA kód** | `EA-5.1.8` |
 | **Kategorie** | 5. Ultramární techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
+| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L3 (omezená — výzkumný / klinický / forenzní kontext) |
 | **Riziková úroveň** | Extrémní — produkuje persistentní ztrátu holistické kompetence v dotčených doménách |
 | **Reverzibilita** | Střední; vyžaduje cílenou rekonstituci propojení mezi fragmenty |

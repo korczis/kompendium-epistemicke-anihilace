@@ -27,7 +27,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 |------|---------|
 | **EA kód** | `EA-5.1.30` |
 | **Kategorie** | 5. Ultramari techniky |
-| **Subkategorie** | 5.1 Epistemická singularita |
+| **Subkategorie** | 5.1 [Epistemická singularita](@/glossary/epistemicka-singularita.md) |
 | **Přístupová úroveň** | L5 (cosmic clearance) |
 | **Riziková úroveň** | Kritická — destrukce taxonomických vztahů, rozmazání hraničních linií mezi koncepty, neschopnost klasifikovat |
 | **Reverzibilita** | Velmi nízká — vyžaduje rekonstrukční taxonomickou pedagogiku |

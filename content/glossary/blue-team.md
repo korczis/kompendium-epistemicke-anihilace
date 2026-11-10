@@ -426,3 +426,11 @@ Scoring* (kvantifikace nejistoty důkazů).
 - [Trinity Gate](@/glossary/trinity-gate.md) – ověřovací brána důkazů.
 - [Blue Team: obrana proti EA](@/kompendium/aiad-integration/blue-team-ea-defense.md) –
   obrana proti technikám EA na platformě.
+
+<!-- kompendium:odvozene-vazby:begin (scripts/derive-links.py; neupravovat ručně) -->
+
+## Strukturní vazby
+
+- [Bridge: blue-team](@/kompendium/glossary-bridges/bridge-blue-team.md) – most: jak se tento pojem projevuje v kapitolách knihy
+
+<!-- kompendium:odvozene-vazby:end -->

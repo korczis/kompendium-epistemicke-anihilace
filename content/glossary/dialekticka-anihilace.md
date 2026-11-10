@@ -30,10 +30,12 @@ paralýzy](@/glossary/rekurzivni-paralyza.md), u níž se zacyklí reflexe sama 
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká závažnost, postupný průběh,
-obtížná vratnost, „uvězněné myšlení v antinomiích“) a jednou vinětou. Tato stránka z ní
-přebírá myšlenku a typické projevy, nikoli zařazení mezi „techniky“ jako něco, co se
-provádí; kniha popisuje jen rozpoznatelný vzorec a jeho obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů s typickým projevem „uvězněné myšlení
+v antinomiích“ a jednou vinětou. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to
+nemá empirickou oporu a kniha je nepřebírá. Tato stránka z ní přebírá myšlenku a typické
+projevy, nikoli zařazení mezi „techniky“ jako něco, co se provádí; kniha popisuje jen
+rozpoznatelný vzorec a jeho obranu v souladu se svými [etickými
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Filozofické zázemí tvoří dvě tradice. Kant ukázal, že rozum se při překročení mezí možné
 zkušenosti zaplétá do antinomií, tedy dvojic stejně dobře zdůvodněných a navzájem se
@@ -149,8 +151,9 @@ Kde jde o vztah závislosti, patří k obraně i institucionální kroky, např�
 ## Meze a otevřené otázky
 
 Hlavní mez pojmu je, že spojuje filozofickou metaforu s psychologickým popisem a neexistuje
-pro něj validovaný nástroj ani empirická studie (Watkins, 2008). Otevřenou otázkou je, zda
-nejde jen o zvláštní případ dvojné vazby nebo ruminace v intelektuálním prostředí; kniha
+pro něj validovaný nástroj ani empirická studie. Otevřenou otázkou je, zda nejde jen
+o zvláštní případ dvojné vazby (Bateson et al., 1956) nebo ruminace (Watkins, 2008)
+v intelektuálním prostředí; kniha
 pojem drží proto, že pojmenovává obsah zacyklení (protiklady a syntézu), který obecnější
 pojmy nezachycují. Riziko nadužití rozebírá kritická kapitola [Přesah
 rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).

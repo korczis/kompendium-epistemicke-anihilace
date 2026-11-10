@@ -25,11 +25,18 @@ která si navzájem odporují, slova, jejichž význam se pod rukama mění, neb
 dokončit, protože každý krok otevírá nové pochybnosti. Watzlawick, Beavin a Jackson (1967)
 popsali paradoxní příkaz typu „buď spontánní“, který nelze splnit právě proto, že je
 příkazem. Rodina rukopisu sdružuje takové nesplnitelné struktury a jejich důsledky pro význam,
-smysl a schopnost rozhodnout se (Watzlawick a kol. 1967).
+smysl a schopnost rozhodnout se.
 
 ## Techniky rodiny a konstrukty, jimž se podobají
 
-Dochovaný seznam kapitoly obsahuje patnáct technik. První skupinu tvoří sémantická
+Abecední rejstřík rukopisu uvádí v rozsahu čísel 91–120 patnáct technik a tematický rejstřík
+přidává tři další: epistemickou teratogenezi (93), absolutní superkognitivní paralýzu (94) a
+absolutní epistemickou ultraparadoxní metastabilitu (95). Oba rejstříky tedy pro tuto kapitolu
+uvádějí osmnáct položek. Tři přidané položky tematický rejstřík uvádí jen jménem, bez
+definice, a kniha je proto do skupin níže nezařazuje; jak kniha s neúplnými seznamy rukopisu
+zachází, popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
+
+První skupinu tvoří sémantická
 destabilizace, sémioinfekční kontaminace a sémantická apokalypsa, tedy rozklad stálosti
 významu klíčových slov. Klemperer (1947) zaznamenal, jak jazyk totalitního režimu nenápadně
 posouval význam běžných slov, až jimi lidé mysleli v jeho rámci, a Lifton (1961) popsal [loading
@@ -37,39 +44,38 @@ the language](@/glossary/loading-the-language.md) jako zúžení slovníku na na
 Kniha jádro skupiny vykládá heslem [konceptuální
 destabilizace](@/glossary/konceptualni-destabilizace.md) a zpracovává jako [EA-5.1.4 Sémantická
 imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) a [EA-4.3.3 Semantic
-stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
-(Klemperer 1947).
+stability disruption](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md).
 
 Druhou skupinu tvoří absolutní epistemická kvantová metastabilita, logická antikoherence,
 absolutní epistemická autodisoluce, konceptuální anti-materialita, metateoretická destrukce a
 absolutní epistemická anti-rezonance. Všechny popisují struktury, které jsou současně
-potvrzovány a popírány, takže na ně nelze odpovědět bez ztráty. Bateson a kol. (1956) ukázali,
-že dvojná vazba působí tehdy, když jsou dvě neslučitelná sdělení na různých úrovních a člověk
+potvrzovány a popírány, takže na ně nelze odpovědět bez ztráty. Bateson a kol. (1956) popsali
+dvojnou vazbu jako situaci, v níž jsou dvě neslučitelná sdělení na různých úrovních a člověk
 nesmí rozpor pojmenovat. Logické jádro skupiny je [paradox lháře](@/glossary/liaruv-paradox.md),
-ovšem v knize nejde o logiku, ale o vztah, v němž je paradox nastražen (Bateson a kol. 1956).
+ovšem v knize nejde o logiku, ale o vztah, v němž je paradox nastražen.
 
 Třetí skupinu tvoří absolutní epistemická virulence, kognitivní hypervirulenční infekce a
 kognitivní anti-emergenční pole. Rukopis zde mluví o myšlenkách jako o virech, které se šíří a
 brání vzniku nových myšlenek; prostředí, které vznik nových celků blokuje, vykládá heslo
 [anti-emergenční pole](@/glossary/anti-emergencni-pole.md). Dawkins (1976) zavedl pojem mem jako analogii genu pro kulturní
 replikaci, Sperber (1996) ale namítl, že ideje se při předávání pokaždé rekonstruují, nikoli
-kopírují, a virová metafora proto zkresluje. Doloženým jevem za skupinou je spíš [thought-stopping](@/glossary/thought-stopping.md),
-naučené přerušování myšlenek, které odporují ideologii skupiny (Sperber 1996).
+kopírují, a virová metafora proto zkresluje. Za skupinou podle *interpretace knihy* stojí spíš
+[thought-stopping](@/glossary/thought-stopping.md), naučené přerušování myšlenek, které
+odporují ideologii skupiny.
 
 Čtvrtou skupinu tvoří kognitivní retrogeneze a metafyzický nihilismus. Retrogeneze je v rukopisu
 návratem k jednodušším způsobům myšlení, což kniha popisuje jako [epistemickou
 regresi](@/glossary/epistemicka-regrese.md); název přitom koliduje s pojmem retrogeneze, který
 Reisberg a kol. (1999) zavedli pro obrácené pořadí ztráty schopností u demence. Metafyzický
 nihilismus, ztráta jakéhokoli smyslu, má nejblíže k existenciální prázdnotě, kterou Frankl
-(1946) popsal u vězňů koncentračních táborů, a k demoralizaci, jak ji popsal Frank (1961)
-(Frankl 1946).
+(1946) popsal u vězňů koncentračních táborů, a k demoralizaci, jak ji popsal Frank (1961).
 
 Pátou skupinu tvoří jediná, ale klinicky nejzřetelnější položka: absolutní anankastická
 paralýza, nekonečná obsedantní analýza bez možnosti úniku. Rachman (1997) vysvětlil obsese
 jako katastrofický výklad běžných vtíravých myšlenek, který vede k neutralizaci a tím k
 jejich udržování. Nolen-Hoeksema (1991) ukázala, že ruminace prodlužuje depresivní epizody.
 Kniha stav vykládá heslem [anankastický režim](@/glossary/anankasticky-rezim.md) a v rozhodování
-jako [paralysis by analysis](@/glossary/paralysis-by-analysis.md) (Rachman 1997).
+jako [paralysis by analysis](@/glossary/paralysis-by-analysis.md).
 
 ## Znaky, podle nichž vzorec poznat
 
@@ -77,13 +83,13 @@ Hlavním znakem je, že každá odpověď dotčeného je špatně. Když souhlas
 nesouhlasí, je uzavřený; když mlčí, něco skrývá. Bateson a kol. (1956) zdůraznili, že takovou
 situaci poznáme podle toho, že z ní nelze odejít a nelze ji ani komentovat, protože komentář
 se trestá jako další chyba. U jazykových podob je znakem, že slova jako „otevřenost“, „pravda“
-nebo „péče“ znamenají v daném vztahu něco jiného než mimo něj (Bateson a kol. 1956).
+nebo „péče“ znamenají v daném vztahu něco jiného než mimo něj.
 
 U anankastické podoby jsou znakem hodiny strávené přezkoumáváním téhož, neschopnost dokončit
 práci, vracení se k počátku a úzkost při každém pokusu postoupit dál. Rachman (1997) upozornil,
 že obsedantní myšlenka je udržována právě snahou ji neutralizovat. Rozhodující je, zda smyčku
 někdo zvenčí živí, například školitel, který na každý hotový krok reaguje dalším zpochybněním
-základů, nebo zda vzniká sama (Rachman 1997).
+základů, nebo zda vzniká sama.
 
 ## Odlišení od běžné kritiky a od klinických stavů
 
@@ -91,14 +97,13 @@ Paradox a protiklad jsou běžnou součástí filozofie i vědy a jejich zkoumá
 Akademický spor, v němž oponent upozorní na vnitřní rozpor teorie, dává autorovi možnost rozpor
 vyřešit, přeformulovat nebo přiznat; Popper (1959) považoval odhalení rozporu za motor růstu
 poznání. Manipulace začíná tam, kde rozpor nemá řešení, protože je zabudován do požadavků, a
-kde pojmenování rozporu je trestáno (Popper 1959).
+kde pojmenování rozporu je trestáno.
 
 Klinicky je třeba odlišit obsedantně-kompulzivní poruchu, generalizovanou úzkostnou poruchu a
 depresi s ruminací, které vznikají bez vnějšího působení (American Psychiatric Association
 2022). MKN-11 navíc uvádí anankastii jako jednu z rysových domén poruchy osobnosti, což je
 stálý rys, nikoli stav vyvolaný prostředím (World Health Organization 2019). Vnější vzorec
-může existující sklon zesilovat, a proto se posouzení neobejde bez anamnézy před expozicí
-(World Health Organization 2019).
+může existující sklon zesilovat, a proto se posouzení neobejde bez anamnézy před expozicí.
 
 ## Překryv s taxonomií EA-X.Y.Z
 
@@ -108,16 +113,16 @@ Paradoxní skupina má v knize rozsáhlou kódovanou podobu v řadě EA-5.4. Nej
 [EA-5.4.20 Indukce performativního rozporu](@/kompendium/techniques/ea-5-4-20-performative-contradiction-induction.md);
 metateoretická destrukce se kryje s [EA-5.2.9 Konceptuální
 aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md) a logická antikoherence s
-[EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md)
-(Watzlawick a kol. 1967).
-
+[EA-5.1.30 Konceptuální entropie](@/kompendium/techniques/ea-5-1-30-konceptualni-entropie.md).
 Jazyková skupina se dotýká také [EA-1.1.3 Terminologická
 mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md), kde se význam
 nezničí, ale zahalí. Anankastická paralýza odpovídá [EA-5.1.16 Inferenční
 paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) a [EA-2.5.8 Rekurzivní
 spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md). Kde se
 rodina a kódovaná technika kryjí, platí kódovaná stránka, která je zpracována se zdroji,
-detekcí a obranou (Nolen-Hoeksema 1991).
+detekcí a obranou. Přiřazení je *interpretací knihy*; proč kniha z rukopisu přebírá jen to, co
+slouží rozpoznání a obraně, vysvětlují [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Klinický, právní a etický rámec
 
@@ -132,7 +137,7 @@ Právně jsou tyto vzorce téměř vždy pod prahem trestnosti, protože jde o k
 ne o čin. V akademickém prostředí lze nesplnitelné a měnící se požadavky na kvalifikační práci
 řešit vnitřními předpisy školy a ochranou akademických svobod podle zákona o vysokých školách
 (zákon č. 111/1998 Sb.). Eticky platí, že kniha nepopisuje, jak paradoxní komunikaci vytvořit,
-ale jak ji poznat a pojmenovat (Watzlawick a kol. 1967).
+ale jak ji poznat a pojmenovat.
 
 ## Obrana a zotavení
 
@@ -140,14 +145,14 @@ Proti paradoxní komunikaci pomáhá metakomunikace: klidně pojmenovat, že dva
 odporují, a požádat, který z nich platí. Watzlawick a kol. (1967) ukázali, že paradox ztrácí
 sílu, jakmile lze o vztahu mluvit z vnějšku vztahu. Pokud to prostředí nedovolí, je samo
 zjištění, že rozpor nelze pojmenovat, důležitým diagnostickým údajem a důvodem hledat oporu
-mimo něj, například u [vztahových kotev](@/kompendium/self-defense-guides/42-relational-anchors.md)
-(Watzlawick a kol. 1967).
+mimo něj, například u [vztahových kotev](@/kompendium/self-defense-guides/42-relational-anchors.md).
 
-Proti jazykovým podobám pomáhá vrátit slovům jejich běžný význam, například slovníkem, druhým
-člověkem nebo vlastními staršími texty. U anankastické paralýzy pomáhá stanovit předem, co bude
-„dost dobré“, omezit čas na přezkoumávání a nechat hotový krok posoudit někomu nezávislému.
-Nolen-Hoeksema (1991) ukázala, že přesměrování pozornosti od ruminace k činnosti zkracuje
-depresivní obtíže, a tento poznatek je jádrem obrany (Nolen-Hoeksema 1991).
+Proti jazykovým podobám kniha doporučuje vrátit slovům jejich běžný význam, například
+slovníkem, druhým člověkem nebo vlastními staršími texty. U anankastické paralýzy doporučuje
+stanovit předem, co bude „dost dobré“, omezit čas na přezkoumávání a nechat hotový krok
+posoudit někomu nezávislému (*pojetí knihy*). Nolen-Hoeksema (1991) ukázala, že přesměrování
+pozornosti od ruminace k činnosti zkracuje depresivní obtíže, a tento poznatek je jádrem
+obrany.
 
 ## Kritika a meze
 
@@ -155,15 +160,15 @@ Rukopis v této kapitole užívá slovník kvantové fyziky a epidemiologie: met
 virulence, infekce, rezonance. Sokal a Bricmont (1998) ukázali, že přenos takových pojmů mimo
 jejich obor obvykle nepřináší vysvětlení, jen dojem přesnosti. Myšlenka není virus a mysl
 není kvantový systém; kniha proto tato slova ponechává jen jako historické názvy a obsah
-skupin vykládá pomocí doložených pojmů komunikace, jazyka a obsedantní ruminace (Sokal a
-Bricmont 1998).
+skupin vykládá pomocí doložených pojmů komunikace, jazyka a obsedantní ruminace.
 
-Druhou mezí je rozsah. Rukopis slibuje třicet technik, ale uvádí patnáct, dvě z nich se stejným
-číslem a téměř stejnou definicí a jednu se jménem, které už v medicíně označuje něco jiného.
-Bowker a Star (1999) připomínají, že klasifikace, která nepřiznává své mezery, snadno předstírá
-úplnost. Rozdělení do pěti skupin je proto interpretací knihy a výklad virových a kvantových
-položek jako thought-stopping a dvojné vazby je pokusem o střízlivé čtení, nikoli rekonstrukcí
-záměru rukopisu (Bowker a Star 1999).
+Druhou mezí je rozsah. Rukopis vyhrazuje kapitole třicet čísel, ale abecední rejstřík uvádí
+patnáct technik a tematický osmnáct; dvě z abecedních položek mají stejné číslo a téměř
+stejnou definici a jedna nese jméno, které už v medicíně označuje něco jiného. Bowker a Star
+(1999) připomínají, že žádná skutečná klasifikace nesplňuje ideál úplného pokrytí. Rozdělení
+do pěti skupin je proto *interpretací knihy* a výklad virových a kvantových položek jako
+thought-stopping a dvojné vazby je pokusem o střízlivé čtení, nikoli rekonstrukcí záměru
+rukopisu.
 
 ## Literatura
 

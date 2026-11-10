@@ -20,7 +20,7 @@ filozofie ani kliniky. Kniha jím označuje stav, v němž člověk ztratí dův
 cokoli srozumitelně vyslovit a sdílet: každé vlastní stanovisko se mu předem jeví jako
 nesoudržné, nepochopitelné nebo sebepodvracející, a komunikace se zastaví. Pojem ukazuje
 na dobře popsané jevy, na umlčení mluvčího (Langton, 1993; Dotson, 2011) a na narušení
-podmínek komunikativního jednání (Habermas, 1981), ale jako celek je interpretací knihy.
+podmínek komunikativního jednání (Habermas, 1981), ale jako celek je *interpretací knihy*.
 
 V rámci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) je diskurzivní
 anihilace jevem na rozhraní poznání a vztahu. Nezasahuje jen to, co člověk ví, ale to, zda
@@ -29,11 +29,11 @@ podmínkou poznání vůbec (Fricker, 2007).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) uvádí u jevu postupný, prohlubující se průběh a typické projevy
-„neschopnost smysluplné artikulace, komunikační paralýza, sémantická izolace“; jako obranu
-navrhuje minimalistickou komunikaci a externalizaci komunikačních struktur. Kniha z tabulky
-přebírá tyto projevy a obranu, nikoli zařazení mezi techniky, a celý jev popisuje jako
-rozpoznatelný vzorec (Lifton, 1961).
+Původní taxonomie (2025) uvádí u jevu typické projevy „neschopnost smysluplné artikulace,
+komunikační paralýza, sémantická izolace“; jako obranu navrhuje minimalistickou komunikaci
+a externalizaci komunikačních struktur. Kniha z tabulky přebírá tyto projevy a obranu, nikoli
+zařazení mezi techniky, a celý jev popisuje jako rozpoznatelný vzorec, jak její postup vymezují
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Filozofické pozadí tvoří Habermasova teorie komunikativního jednání: každé vážně míněné
 sdělení s sebou nese nároky na srozumitelnost, pravdivost, správnost a upřímnost, které lze
@@ -79,19 +79,19 @@ skutečnosti i přenos záměru (Grice, 1975). Gricův princip kooperace popisuj
 stojí na předpokladu vzájemné snahy o porozumění; kde tento předpoklad trvale chybí, mizí
 i smysl mluvit.
 
-Kniha tu vidí blízkost se [sémantickou implozí](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md),
-u níž se hroutí význam jednotlivých slov, a se [zastavením
-myšlení](@/glossary/thought-stopping.md), které přerušuje úvahu dřív, než vznikne. Souvislost
-s [dialektickou anihilací](@/glossary/dialekticka-anihilace.md) je v tom, že obě znehodnocují
-každou možnou odpověď (Bateson et al., 1956). Tyto vazby jsou interpretací knihy, nikoli
-empirickým zjištěním.
+Kniha tu vidí blízkost se [sémantickou
+implozí](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md), u níž se hroutí význam
+jednotlivých slov, a se [zastavením myšlení](@/glossary/thought-stopping.md), které přerušuje úvahu
+dřív, než vznikne. Souvislost s [dialektickou anihilací](@/glossary/dialekticka-anihilace.md) je
+v tom, že obě znehodnocují každou možnou odpověď (Bateson et al., 1956). Tyto vazby jsou
+*interpretací knihy*, nikoli empirickým zjištěním.
 
 Wittgensteinova pozdní filozofie pomáhá vysvětlit, proč se jev váže k určitému prostředí.
 Význam slova podle ní spočívá v jeho užití ve sdílené praxi, v [jazykové
 hře](@/glossary/jazykova-hra.md), a nikoli v soukromém vnitřním obsahu (Wittgenstein, 1953).
 Když je člověku soustavně upírána účast na sdílené praxi, kde by jeho slova mohla fungovat,
-ztrácí opěrný bod, o nějž se význam opírá; když se do takové praxe vrátí, význam se
-zpravidla obnoví. Kniha tuto souvislost rozvádí v kapitole [Wittgenstein: jazykové
+ztrácí opěrný bod, o nějž se význam opírá. Podle *pojetí knihy* se význam obnovuje, když se
+člověk do takové praxe vrátí. Kniha tuto souvislost rozvádí v kapitole [Wittgenstein: jazykové
 hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md).
 
 ## Odlišení

@@ -27,14 +27,16 @@ techniky a scénáře [delegitimizace](@/glossary/delegitimizace.md), část II 
 filozofické a interdisciplinární reflexe. Přílohy obsahovaly úplnou taxonomii technik,
 kazuistiky, výcvikovou metodiku a glosář. Názvy jako [epistemická singularita](@/glossary/epistemicka-singularita.md)
 nebo metatranscendentální anihilace jsou autorskými novotvary, nikoli ustálenými odbornými
-termíny, a kniha je tak také označuje (Bowker a Star 1999).
+termíny, a kniha je tak také označuje. Jak kniha s kategoriemi taxonomie zachází, vysvětlují
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Rukopis nesl zřetelné stopy konceptu. Seznamy technik v kapitolách 6–10 nejsou úplné, některá
 čísla se opakují u dvou různých technik a několik dvojic má téměř totožnou definici. Podnadpisy
 v obsahu navíc u kapitol 6–10 jmenují techniky, které podle číslování patří do následující
 kapitoly. Kniha tyto nesrovnalosti neopravuje dotvářením chybějících položek, ale řadí
-techniky podle jejich čísla, protože vymyšlená úplnost by byla horší než přiznaná mezera
-(Hacking 1995).
+techniky podle jejich čísla, protože vymyšlená úplnost by byla horší než přiznaná mezera. Obecné
+zásady, jimiž kniha svou taxonomii buduje, shrnují [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Vztah k dnešní taxonomii EA-X.Y.Z
 
@@ -69,7 +71,7 @@ publikací. Kniha z toho vyvozuje jednoduché pravidlo: z původní taxonomie p�
 slouží k rozpoznání, odlišení, péči a obraně. Tabulky rukopisu s řádky o procesu,
 implementaci nebo nezbytných podmínkách se proto převádějí na znaky, podle nichž lze vzorec
 poznat, nebo se vypouštějí. Stejná zásada platí pro celé [dual-use
-poznání](@/glossary/dual-use-poznani.md) v knize (Miller a Selgelid 2008).
+poznání](@/glossary/dual-use-poznani.md) v knize.
 
 ## Jak se z rukopisu stala hesla a stránky
 
@@ -85,7 +87,7 @@ je zde stránka rodiny vzorců, která techniky jmenuje v textu, seskupuje je po
 jevů, jimž se podobají, a uvádí jejich znaky, odlišení, obranu a meze. Vlastní stránky
 jednotlivých technik vznikají v této sekci postupně; dokud technika stránku nemá, zůstává jen
 jmenována bez odkazu. Modelové situace rukopisu kniha přejímá jen jako anonymizované kompozity,
-jak to vyžaduje její obranný rámec (Herman 1992).
+jak to vyžaduje její [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ## Pět rodin vzorců
 
@@ -94,8 +96,8 @@ sdružuje vzorce útoku na sebedůvěru, metakognici a pocit vlastní účinnost
 [metatranscendentální anihilace](@/kompendium/puvodni-taxonomie/metatranscendentalni-anihilace.md)
 se týká rámců, v nichž člověk myslí: pravidel, metod, času a sdílené reality. Rodina
 [hypertransformativních vzorců](@/kompendium/puvodni-taxonomie/hypertransformativni-protokoly.md)
-popisuje uzavření, zahlcení a ztrátu jazyka a hodnot. Lifton (1961) ukázal, že podobné
-vzorce se dají popsat jako znaky prostředí, nikoli jako program.
+popisuje uzavření, zahlcení a ztrátu jazyka a hodnot. Lifton (1961) popsal podobné vzorce
+jako osm znaků totalistického prostředí, podle nichž lze takové prostředí poznat.
 
 Rodina [paradoxálních metaanihilačních
 vzorců](@/kompendium/puvodni-taxonomie/paradoxalni-metaanihilacni-vzorce.md) shrnuje
@@ -103,8 +105,8 @@ destabilizaci významu, nesplnitelné paradoxní požadavky a nekonečnou obseda
 Rodina [transkonceptuálních
 mechanismů](@/kompendium/puvodni-taxonomie/transkonceptualni-mechanismy.md) je nejrozsáhlejší
 a nejabstraktnější: tvoří ji dlouhá řada „anti-“ pojmů, z nichž mnohé popisují mezní stavy,
-které nelze pozorovat. Bateson a kol. (1956) ukázali na dvojné vazbě, že i velmi abstraktně
-znějící vzorec lze popsat střízlivě, a toho se stránky rodin drží.
+které nelze pozorovat. Bateson a kol. (1956) popsali dvojnou vazbu jako konkrétní
+komunikační situaci s pozorovatelnými znaky; stejně střízlivý popis hledají i stránky rodin.
 
 ## Jak sekci číst
 
@@ -122,7 +124,6 @@ co skutečně znamená a kde jeho užití přesahuje doklady.
 - Bowker, G. C., Star, S. L. (1999). *Sorting Things Out: Classification and Its Consequences*. MIT Press.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Hacking, I. (1995). *The Looping Effects of Human Kinds*. In D. Sperber, D. Premack, A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate*. Clarendon Press.
-- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
 - Miller, S., Selgelid, M. J. (2008). *Ethical and Philosophical Consideration of the Dual-Use Dilemma in the Biological Sciences*. Springer.

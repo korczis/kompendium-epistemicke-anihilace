@@ -33,15 +33,17 @@ paradigmatu (Kuhn, 1962).
 Slovo „imploze“ je metafora: na rozdíl od exploze, která rozmetá stavbu ven, imploze ji nechá
 propadnout dovnitř. V rámci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) patří
 k jevům s časovým profilem [akutního narušení](@/glossary/akutni-naruseni.md), tedy k těm, které
-se odehrají v hodinách nebo dnech, nikoli v letech (Festinger, 1957).
+se odehrají v hodinách nebo dnech, nikoli v letech, podobně jako akutní stresová reakce, jejíž
+příznaky MKN-11 popisuje jako nastupující v řádu hodin až dnů (World Health Organization, 2019).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (kritická závažnost, náhlý průběh, velmi
-obtížná vratnost, kognitivní kolaps, epistemický šok a dezorientace jako typické projevy)
-a vinětou logika, který při práci na důkazu konzistence objeví rozpor. Tato stránka z ní
-přebírá myšlenku a projevy, nikoli zařazení mezi „techniky“; kniha popisuje jen rozpoznatelný
-vzorec, jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (kognitivní kolaps, epistemický šok
+a dezorientace jako typické projevy) a vinětou logika, který při práci na důkazu konzistence
+objeví rozpor. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to nemá empirickou
+oporu a kniha je nepřebírá. Tato stránka z ní přebírá myšlenku a projevy, nikoli zařazení mezi
+„techniky“; kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu v souladu se svými
+[etickými aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Psychologické zázemí tvoří dvě tradice. Festinger popsal kognitivní disonanci jako nepříjemné
 napětí mezi neslučitelnými přesvědčeními, které lidé obvykle řeší úpravou jednoho z nich
@@ -71,18 +73,19 @@ stojí mnoho dalších, a s ním padají i ona. Janoff-Bulmanová popisuje podob
 traumatu, jimž otřes jediné události zpochybní celý obraz světa (Janoff-Bulman, 1992).
 
 Třetím znakem, který ukazuje na možnou manipulaci, je vnější aktér, který rozpor nejen předložil,
-ale soustavně brání jeho zpracování: zesiluje jeho dosah, odmítá běžné cesty, jimiž se rozpory
-v oboru řeší, a nabízí sám sebe jako jediný výklad. Tento vzorec kniha sleduje u [eskalace
+ale soustavně brání jeho zpracování: zesiluje jeho dosah, odmítá běžné cesty, jimiž lidé
+rozpor zmírňují, tedy úpravu okrajového přesvědčení a oporu v druhých (Festinger, 1957), a nabízí
+sám sebe jako jediný výklad. Tento vzorec kniha sleduje u [eskalace
 logických paradoxů](@/kompendium/techniques/ea-5-4-22-logicka-paradox-eskalace.md) a
-[tautologické imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) (Lifton, 1961).
+[tautologické imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md).
 
 ## Mechanismus
 
-Strukturně jde o souběh dvou podmínek: rozpor zasáhne přesvědčení, na němž stojí mnoho
-dalších, a zároveň chybí čas, opora a nástroje k jeho postupnému zpracování. Za běžných
-okolností lidé rozpor zvládají právě postupností, tedy úpravou okrajových přesvědčení,
-odložením problému nebo jeho sdílením s druhými (Festinger, 1957). Imploze podle výkladu knihy
-nastává, když jsou všechny tyto cesty najednou zavřené.
+Strukturně se jev pozná podle souběhu dvou okolností: rozpor zasáhl přesvědčení, na němž stojí mnoho
+dalších, a člověk zároveň nemá čas, oporu ani nástroje k jeho postupnému zpracování. Za běžných
+okolností lidé rozpor zvládají právě postupností, tedy úpravou okrajových přesvědčení, odložením
+problému nebo jeho sdílením s druhými (Festinger, 1957). Imploze se podle výkladu knihy pozná podle
+toho, že v danou chvíli není k dispozici žádná z těchto cest.
 
 Logický rámec nabízí princip exploze (*ex contradictione quodlibet*): v klasické logice z rozporu
 plyne cokoli, takže jediný rozpor znehodnotí celý systém. Parakonzistentní logiky ukazují, že
@@ -94,22 +97,23 @@ imploze jako samostatného jevu neexistuje.
 ## Odlišení
 
 Od běžné intelektuální krize se jev liší rozsahem a průběhem. Historie matematiky zná skutečný
-rozpor v základech: když Russell v roce 1902 upozornil Frega na paradox v jeho soustavě, Frege
-v dodatku druhého svazku *Základních zákonů aritmetiky* napsal, že se mu tím otřásl jeden ze
-základů stavby (Frege, 1903). Nenásledoval kolaps myšlení, ale revize, a z paradoxu vzešla teorie typů
-i moderní teorie množin; kniha mu věnuje heslo [Russellův paradox](@/glossary/russell-paradox.md).
+rozpor v základech: když Russell v roce 1902 upozornil Frega na paradox v jeho soustavě, Frege v
+dodatku druhého svazku *Základních zákonů aritmetiky* napsal, že se mu tím otřásl jeden ze základů
+stavby (Frege, 1903). Nenásledoval kolaps myšlení, ale revize, a z paradoxu vzešla teorie typů i
+moderní teorie množin; kniha mu věnuje heslo [Russellův paradox](@/glossary/russell-paradox.md).
 
-Viněta původní taxonomie přitom zachází s logikou volněji, než dovoluje stav poznání. Gödel
-dokázal, že dostatečně silný bezesporný formální systém nemůže dokázat všechny pravdy své
-aritmetiky ani vlastní bezespornost (Gödel, 1931); nedokázal, že každý systém schopný
-[sebereference](@/glossary/self-reference.md) je sporný. Kniha proto tvrzení viněty nepřebírá; souvislosti vykládá heslo
-[Gödelův teorém](@/glossary/godeluv-teorem.md).
+Viněta původní taxonomie přitom zachází s logikou volněji, než dovoluje stav poznání. Gödel dokázal,
+že dostatečně silný bezesporný formální systém nemůže dokázat všechny pravdy své aritmetiky ani
+vlastní bezespornost (Gödel, 1931); nedokázal, že každý systém schopný
+[sebereference](@/glossary/self-reference.md) je sporný. Kniha proto tvrzení viněty nepřebírá;
+souvislosti vykládá heslo [Gödelův teorém](@/glossary/godeluv-teorem.md).
 
 Od příbuzných pojmů knihy je třeba imploze oddělit podle průběhu. [Epistemická
 singularita](@/glossary/epistemicka-singularita.md) je zhroucení do jediného rámce, který
-vysvětluje vše; imploze je zhroucení bez náhradního rámce. [Implozivní
+vysvětluje vše; imploze je zhroucení bez náhradního rámce, tedy stav rozbitých předpokladů,
+které se teprve musí znovu sestavit (Janoff-Bulman, 1992). [Implozivní
 rekurze](@/glossary/implozivni-rekurze.md) popisuje postupný rozpad opakovanou sebeaplikací;
-imploze je náhlá (Kuhn, 1962).
+imploze je náhlá.
 
 Od klinických stavů je třeba odlišit akutní psychotickou dekompenzaci, při níž se objevují bludy
 a halucinace (American Psychiatric Association, 2022), panickou ataku a akutní disociaci. Zde je
@@ -127,8 +131,8 @@ spojení s druhými a naději (Hobfoll a kol., 2007).
 Eticky je podstatné, že kniha nepopisuje, jak takový stav navodit, a tabulku původní taxonomie
 převádí jen na rozpoznávací znaky v souladu s [etickými aspekty
 Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md). Předložení skutečného rozporu, například
-v recenzi nebo v diskusi, manipulací není; manipulací se stává teprve soustavné bránění jeho
-zpracování (Lifton, 1961).
+v recenzi nebo v diskusi, manipulací není, protože anomálie a rozpory patří k běžnému chodu vědy
+(Kuhn, 1962); znakem manipulace je podle pojetí knihy teprve soustavné bránění jeho zpracování.
 
 ## Obecný příklad
 
@@ -148,8 +152,9 @@ odpovídá doporučení krizové intervence obnovit nejdřív bezpečí a teprve
 (Herman, 1992).
 
 Pro profesionála je klíčové lokalizovat rozpor. Pomáhá společně zapsat, na kterém přesvědčení
-rozpor stojí a která další přesvědčení na něm skutečně závisejí; obvykle jich je méně, než se
-v krizi zdá (Quine, 1951). Dlouhodobě navazuje [středně dobá metakognitivní
+rozpor stojí a která další přesvědčení na něm skutečně závisejí, protože v síti přesvědčení
+nezávisí všechno na všem stejně těsně (Quine, 1951); podle pojetí knihy jich bývá méně, než se
+v krizi zdá. Dlouhodobě navazuje [středně dobá metakognitivní
 rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md) a práce na
 [epistemické reintegraci](@/glossary/epistemicka-reintegrace.md). Kde otřes otevřel hlubokou
 změnu hodnot, nabízí rámec heslo [transformativní
@@ -157,11 +162,11 @@ zkušenost](@/glossary/transformative-experience.md) (Paul, 2014).
 
 ## Meze a otevřené otázky
 
-Hlavní mez pojmu je, že pro něj neexistuje validovaný nástroj ani empirická studie a že
-historické případy rozporů v základech vědy vedly k revizi, nikoli ke zhroucení (Frege, 1903).
-Otevřenou otázkou je, zda nejde jen o akutní stresovou reakci s intelektuálním obsahem; kniha
-pojem drží proto, že pojmenovává mechanismus šíření rozporu, který obecnější pojmy nepopisují.
-Riziko nadužití rozebírá kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
+Hlavní mez pojmu je, že pro něj neexistuje validovaný nástroj ani empirická studie a že historické
+případy rozporů v základech vědy vedly k revizi, nikoli ke zhroucení (Frege, 1903). Otevřenou
+otázkou je, zda nejde jen o akutní stresovou reakci s intelektuálním obsahem; kniha pojem drží
+proto, že pojmenovává mechanismus šíření rozporu, který obecnější pojmy nepopisují. Riziko nadužití
+rozebírá kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 
@@ -174,7 +179,6 @@ Riziko nadužití rozebírá kapitola [Přesah rámce](@/kompendium/critical-per
 - Janoff-Bulman, R. (1992). *Shattered Assumptions: Towards a New Psychology of Trauma*. Free Press.
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 - Lakatos, I. (1970). *Falsification and the methodology of scientific research programmes*. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Paul, L. A. (2014). *Transformative Experience*. Oxford University Press.
 - Priest, G. (1987). *In Contradiction: A Study of the Transconsistent*. Martinus Nijhoff.
 - Quine, W. V. O. (1951). *Two Dogmas of Empiricism*. The Philosophical Review.

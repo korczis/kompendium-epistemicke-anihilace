@@ -23,24 +23,26 @@ včetně vlastního, jen nedostatky a přestane cokoli dokončovat. Pojem odkazu
 doloženým jevům: k převaze negativních informací v lidském hodnocení (Baumeister et al., 2001;
 Rozin a Royzman, 2001) a ke kognitivnímu zkreslení zveličování a zlehčování (Beck et al., 1979).
 
-V rámci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) patří vzorec k mírnějším
-a nejčastějším jevům. Původní taxonomie mu přisuzuje střední až vysokou závažnost a částečnou
-vratnost, a kniha s tím souhlasí: jde o zkreslení hodnocení, které lze rozpoznat a napravit
-(Beck et al., 1979).
+V rámci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) patří vzorec k jevům,
+které vycházejí z běžného a dobře doloženého zkreslení hodnocení. Původní taxonomie uvádí
+hodnocení závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Samo zkreslení
+zveličování a zlehčování kognitivní terapie popisuje jako rozpoznatelné a upravitelné (Beck et
+al., 1979).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) uvádí u jevu postupný, kumulativní průběh a typické projevy
-„hypertrofie skepse, paralyzující nejistota, epistemický pesimismus“; jako obranu navrhuje
-„pragmatický falibilismus“ a „epistemický optimismus“. Kniha z tabulky přebírá projevy
-a obranu a celý jev popisuje jako rozpoznatelný vzorec, nikoli jako postup (Lifton, 1961).
+Původní taxonomie (2025) uvádí u jevu typické projevy „hypertrofie skepse, paralyzující
+nejistota, epistemický pesimismus“; jako obranu navrhuje „pragmatický falibilismus“
+a „epistemický optimismus“. Kniha z tabulky přebírá projevy a obranu a celý jev popisuje jako
+rozpoznatelný vzorec, nikoli jako postup, v souladu se svými [etickými
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Psychologickou oporu tvoří výzkum asymetrie negativního a pozitivního. Baumeister
 a spolupracovníci shrnuli doklady, že špatné události, kritika a ztráty mají na lidské
 hodnocení silnější vliv než dobré události srovnatelné velikosti (Baumeister et al., 2001).
 Rozin a Royzman popsali negativitní zkreslení (*negativity bias*) jako obecnou vlastnost
 lidského hodnocení (Rozin a Royzman, 2001). Negativní epistemická amplifikace podle výkladu
-knihy nastává, když toto přirozené zkreslení vnější prostředí soustavně posiluje. Obecné
+knihy pozná podle toho, že toto přirozené zkreslení vnější prostředí soustavně posiluje. Obecné
 pozadí rozebírá heslo [kognitivní bias](@/glossary/kognitivni-bias.md).
 
 Klinickou oporu dává kognitivní terapie. Beck a spolupracovníci popsali u deprese zkreslení
@@ -72,13 +74,13 @@ Seligman popsal jako přesvědčení, že vlastní jednání nemá vliv na výsl
 
 ## Mechanismus
 
-Strukturně jde o soustavnou změnu měřítka. Chyby se poměřují s ideálem dokonalosti, přínos
-s nulou, a protože žádný poznatek ideálu nedosáhne, výsledkem je vždy záporná bilance
-(Beck et al., 1979). Když tuto změnu měřítka opakovaně provádí autorita, na níž člověk
-závisí, převezme ji dotčený za vlastní. Kniha tu vidí blízkost s [pěstováním
-sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md), s [rekurzivní
-spirálou pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) a s
-[expertní deflací](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md).
+Strukturně jde o soustavnou změnu měřítka. Chyby se poměřují s ideálem dokonalosti, přínos s nulou,
+a protože žádný poznatek ideálu nedosáhne, výsledkem je vždy záporná bilance (Beck et al., 1979).
+Pozorovatel vzorec pozná podle toho, že změnu měřítka opakovaně provádí autorita, na níž člověk
+závisí, a že dotčený ji postupně užívá jako vlastní. Kniha tu vidí blízkost s [pěstováním
+sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md), s [rekurzivní spirálou
+pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) a s [expertní
+deflací](@/kompendium/techniques/ea-2-1-1-expertni-disinflation.md).
 
 Vztah ke [skepticismu](@/glossary/skepticismus.md) je podstatný. Filozofický skeptik zkoumá
 meze poznání soustavně a stejně přísně vůči všem tvrzením; negativní amplifikace je naopak
@@ -155,7 +157,6 @@ soustavná a doložitelná.
 - Clance, P. R., & Imes, S. A. (1978). *The impostor phenomenon in high achieving women: Dynamics and therapeutic intervention*. Psychotherapy: Theory, Research & Practice.
 - Einarsen, S., Hoel, H., Zapf, D., & Cooper, C. L. (Eds.) (2011). *Bullying and Harassment in the Workplace: Developments in Theory, Research, and Practice* (2nd ed.). CRC Press.
 - Frost, R. O., Marten, P., Lahart, C., & Rosenblate, R. (1990). *The dimensions of perfectionism*. Cognitive Therapy and Research.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Merton, R. K. (1942). *The normative structure of science*.
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.
 - Rozin, P., & Royzman, E. B. (2001). *Negativity bias, negativity dominance, and contagion*. Personality and Social Psychology Review.

@@ -35,15 +35,17 @@ Metafora inflace je výkladem knihy: stejně jako měna ztrácí hodnotu, když 
 než roste skutečné bohatství, ztrácí hodnotu poznání, když nároky rostou rychleji než možnosti
 je splnit. V rámci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) patří
 hyperinflace k jevům, které nezpochybňují jednotlivá tvrzení, ale měřítko, jímž se tvrzení
-posuzují (Popper, 1963).
+posuzují; že se měřítko vědění může měnit, zatímco tvrzení zůstává stejné, ukazuje
+kontextualismus (srov. Lewis, 1996).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká závažnost, zrychlující se
-průběh, obtížná vratnost, devalvace poznání a kognitivní rezignace jako typické projevy)
-a vinětou z doktorského studia. Tato stránka z ní přebírá myšlenku a projevy, nikoli zařazení
-mezi „techniky“ jako něco, co se provádí; kniha popisuje jen rozpoznatelný vzorec, jeho
-odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (devalvace poznání a kognitivní
+rezignace jako typické projevy) a vinětou z doktorského studia. Původní taxonomie uvádí
+hodnocení závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Tato stránka
+z ní přebírá myšlenku a projevy, nikoli zařazení mezi „techniky“ jako něco, co se provádí;
+kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu v souladu se svými [etickými
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Filozofické zázemí nabízí debata o standardech vědění. Unger hájil názor, že vědění vyžaduje
 absolutní jistotu, a proto skoro nic nevíme (Unger, 1975). Lewis ukázal, že pouhé zmínění
@@ -171,7 +173,6 @@ rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 - Hewitt, P. L., & Flett, G. L. (1991). *Perfectionism in the self and social contexts: Conceptualization, assessment, and association with psychopathology*. Journal of Personality and Social Psychology.
 - Lamont, M. (2009). *How Professors Think: Inside the Curious World of Academic Judgment*. Harvard University Press.
 - Lewis, D. (1996). *Elusive knowledge*. Australasian Journal of Philosophy.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Maslach, C., & Jackson, S. E. (1981). *The measurement of experienced burnout*. Journal of Occupational Behaviour.
 - Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury Press.
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.

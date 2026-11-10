@@ -15,7 +15,7 @@ keywords = ["egologická dezintegrace", "ego-pól", "minimální self", "ipseita
 ## Definice
 
 Egologická dezintegrace je vlastní název této knihy z její původní taxonomie (2025), kde je
-zařazena mezi „subjektivní destrukční techniky“ s kritickou závažností. Nejde o ustálený
+zařazena mezi „subjektivní destrukční techniky“. Nejde o ustálený
 klinický ani filozofický termín. Kniha jím označuje stav, v němž se rozpadá prožitek já jako
 středu zkušenosti: člověk přestává zakoušet své myšlenky a vjemy jako vlastní, chybí mu
 jednotící bod, z něhož by prožíval, a jeho schopnost reflexe a samostatného úsudku tím
@@ -30,10 +30,11 @@ roviny rozlišil jako minimální a narativní self (Gallagher, 2000).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) uvádí u jevu postupný, kumulativní průběh, velmi obtížnou vratnost
-a typické projevy „ztráta subjektivní jednoty, rozpad ego-pólu, multiplikace subjektivních
-pozic“; jako obranu navrhuje narativní reintegraci a „psychosomatické kotevní techniky“.
-Kniha z tabulky přebírá projevy a obranu, nikoli zařazení mezi techniky (Lifton, 1961).
+Původní taxonomie (2025) uvádí u jevu typické projevy „ztráta subjektivní jednoty, rozpad ego-pólu,
+multiplikace subjektivních pozic“; jako obranu navrhuje narativní reintegraci a „psychosomatické
+kotevní techniky“. Kniha z tabulky přebírá projevy a obranu, nikoli zařazení mezi techniky, jak její
+postup vymezují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md). Původní
+taxonomie uvádí hodnocení závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá.
 
 Fenomenologickou oporu tvoří rozbor minimálního self: předreflexivního vědomí, že prožitek
 je můj, a vědomí, že jednání vychází ode mne. Gallagher rozlišil pocit vlastnictví (*sense
@@ -74,9 +75,9 @@ vzorec u některých intenzivních tréninků a skupin s vysokou mírou kontroly
 
 ## Mechanismus
 
-Strukturně jde o oslabení předreflexivní samozřejmosti já. Když je člověk opakovaně veden
-k tomu, aby každý prožitek reflexivně zkoumal a zpochybňoval jeho vlastnictví, může se
-reflexe obrátit proti tomu, co má reflektovat; Sass a Parnas tento obrat popisují jako
+Strukturně jde o oslabení předreflexivní samozřejmosti já. Pozorovatel ho pozná podle toho, že se
+reflexe dotčeného obrací proti tomu, co má reflektovat: každý prožitek zkoumá a zpochybňuje, zda je
+jeho, a dělá to v prostředí, které ho k tomu opakovaně vede; Sass a Parnas tento obrat popisují jako
 hyperreflexivitu (Sass a Parnas, 2003). Kniha tu vidí blízkost s [deformací minimálního
 self](@/kompendium/techniques/ea-5-3-25-minimal-self-deformace.md), s [apercepčním
 rozkladem](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md) a s [identitní
@@ -116,7 +117,7 @@ Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Obecný příklad
 
-Anonymizovaný kompozit podle viněty původní taxonomie (2025): filozofka se zúčastní týdenního
+Anonymizovaný kompozit podle viněty původní taxonomie (2025): filozofka se zúčastní vícedenního
 uzavřeného kurzu, na němž vedoucí opakovaně vykládá prožitek jednotného já jako iluzi
 a každé její zaváhání jako odpor, který je třeba překonat. Po návratu má týdny pocit, že
 myšlenky se dějí bez ní a že se pozoruje zvenčí. Pomoc přichází od psychiatra, který vyloučí
@@ -159,7 +160,6 @@ poškození od dlouhého, ale přechodného stavu, a kniha proto pojem použív�
 - Gallagher, S. (2000). *Philosophical conceptions of the self: implications for cognitive science*. Trends in Cognitive Sciences.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Niemeyer.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). *The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists*. PLoS ONE.
 - Metzinger, T. (2009). *The Ego Tunnel: The Science of the Mind and the Myth of the Self*. Basic Books.
 - Nour, M. M., Evans, L., Nutt, D., & Carhart-Harris, R. L. (2016). *Ego-dissolution and psychedelics: validation of the Ego-Dissolution Inventory (EDI)*. Frontiers in Human Neuroscience.

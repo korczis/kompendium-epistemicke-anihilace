@@ -38,12 +38,13 @@ doložený vnější vliv na jazyk se týká hlavně slovníku a ustálených fr
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká až kritická závažnost, postupný
-průběh s možným zrychlením, omezená vratnost, gramatický kolaps a rozpad koheze jako typické
-projevy), výkladem po rovinách jazyka a vinětou jazykového společenství, jehož digitální
-komunikace postupně ztrácí stavbu. Tato stránka z ní přebírá rozlišení rovin a projevy, nikoli
-zařazení mezi „destrukce“ ani popis postupných fází; kniha popisuje jen rozpoznatelný vzorec,
-jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (gramatický kolaps a rozpad koheze jako
+typické projevy), výkladem po rovinách jazyka a vinětou jazykového společenství, jehož digitální
+komunikace postupně ztrácí stavbu. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to
+nemá empirickou oporu a kniha je nepřebírá. Tato stránka z ní přebírá rozlišení rovin a projevy,
+nikoli zařazení mezi „destrukce“ ani popis postupných fází; kniha popisuje jen rozpoznatelný
+vzorec, jeho odlišení a obranu v souladu se svými [etickými
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Lingvistické zázemí tvoří teorie skladby. Chomsky popsal syntax jako konečný soubor pravidel,
 z něhož lze tvořit neomezeně mnoho vět (Chomsky, 1957), a Hauser, Chomsky a Fitch považovali
@@ -83,13 +84,14 @@ jazyka než rozpadu syntaxe (Lifton, 1961).
 Strukturně jde o ztrátu hierarchie. Syntax umožňuje skládat jednotky do vyšších celků a vkládat
 celky do sebe; když hierarchie zmizí, zůstanou jednotky bez vztahů (Hauser a kol., 2002). Původní
 taxonomie popisuje tento rozpad jako postupný a šířící se zdola nahoru. Kniha tento popis přebírá
-jen jako model rovin, na nichž lze narušení pozorovat, nikoli jako popis doloženého procesu.
+jen jako model rovin, na nichž lze narušení pozorovat, nikoli jako popis doloženého procesu;
+pořadí rovin není postup.
 
-Kde jde o vnější vliv, kniha mluví o mechanismu nepřímém. Opakované vystavení jazyku, který
-nepřipouští složitější stavbu, výhrady a podmínky, může podle výkladu knihy omezit, co se ve
-skupině běžně vyslovuje, a tím i co se domýšlí (Orwell, 1949). Jde o interpretaci opřenou
-o literární a historické prameny, nikoli o empirický nález; přímý vliv manipulace na skladbu
-jazyka doložen není (Klemperer, 1947).
+Kde jde o vnější vliv, kniha mluví o mechanismu nepřímém. Pozná se podle toho, že skupina dlouhodobě
+užívá jazyk, který nepřipouští složitější stavbu, výhrady a podmínky, a že se v ní podle výkladu
+knihy zužuje i to, co se běžně vyslovuje a domýšlí (Orwell, 1949). Jde o interpretaci opřenou o
+literární a historické prameny, nikoli o empirický nález; přímý vliv manipulace na skladbu jazyka
+doložen není.
 
 ## Odlišení
 
@@ -100,18 +102,20 @@ se řídí pravidly a vyžaduje dobrou znalost obou jazyků (Poplack, 1980). Vin
 v níž „nestandardní slovosled“ ohlašuje rozpad, proto vyžaduje opatrnost: odchylka od normy sama
 nic nedokazuje.
 
-Od neurologických a psychiatrických stavů je třeba jev odlišit vždy. Náhle vzniklá porucha
-řeči je naléhavým příznakem, který vyžaduje okamžité lékařské vyšetření, protože může jít
-o cévní mozkovou příhodu. Skladba řeči souvisí i s neurodegenerativními onemocněními: v dlouhodobé
-studii byla nízká hustota myšlenek a mluvnická jednoduchost v textech mladých dospělých spojena
-s vyšším rizikem Alzheimerovy nemoci o desítky let později (Snowdon a kol., 1996). Nesouvislá řeč může být příznakem psychózy (American Psychiatric Association,
-2022); odlišení rozebírá kapitola [EA a psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
+Od neurologických a psychiatrických stavů je třeba jev odlišit vždy. Náhle vzniklá porucha řeči je
+naléhavým příznakem, který vyžaduje okamžité lékařské vyšetření, protože může jít o cévní mozkovou
+příhodu. Skladba řeči souvisí i s neurodegenerativními onemocněními: v dlouhodobé studii byla nízká
+hustota myšlenek a mluvnická jednoduchost v textech mladých dospělých spojena s vyšším rizikem
+Alzheimerovy nemoci o desítky let později (Snowdon a kol., 1996). Nesouvislá řeč může být příznakem
+psychózy (American Psychiatric Association, 2022); odlišení rozebírá kapitola [EA a
+psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
 
 Od příbuzných pojmů knihy je třeba jev oddělit podle roviny. [Sémantická
-afázie](@/glossary/semanticka-afazie.md) je ztráta pojmového vědění při zachované plynulé řeči,
-tedy opak agramatismu. [Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md)
-a [narušení sémantické stability](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
-se týkají významů, nikoli stavby (Goodglass a Kaplan, 1972).
+afázie](@/glossary/semanticka-afazie.md) je ztráta pojmového vědění při zachované plynulé řeči, tedy
+opak agramatismu (Goodglass a Kaplan, 1972). [Sémantická
+imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md) a [narušení sémantické
+stability](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md) se týkají významů,
+nikoli stavby.
 
 ## Klinický a etický rámec
 
@@ -125,7 +129,7 @@ jazykové modely trénované opakovaně na textech, které vygenerovaly předcho
 vzácné vzorce a jejich výstupy se zhoršují (Shumailov a kol., 2024). Jde o degradaci rozložení
 dat, nikoli o rozpad gramatiky, a kniha ji uvádí jen jako příbuzný problém. Eticky je podstatné,
 že kniha nepopisuje, jak jazyk společenství narušit, a výklad převádí jen na rozpoznávací znaky
-v souladu s [etickými aspekty Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md) (Lifton, 1961).
+v souladu s [etickými aspekty Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Obecný příklad
 
@@ -140,7 +144,7 @@ zatížení jazyka a izolaci skupiny (srov. Lifton, 1961).
 
 Pro jednotlivce je obranou udržovat kontakt s jazykem v plné šíři: číst delší a stavebně složité
 texty, psát vlastní souvislé texty a mluvit s lidmi mimo skupinu, jak doporučuje průvodce [hluboké
-čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md) (Halliday a Hasan, 1976).
+čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md).
 Původní taxonomie navrhuje „syntaktickou stabilizaci“ a „strukturální zjednodušení“; v obranném
 rámci to znamená vracet se k jasné a úplné větě, která nese podmínky a výhrady (Orwell, 1949).
 
@@ -148,7 +152,7 @@ Pro profesionála je klíčové nejdřív vyloučit zdravotní příčinu. U por
 neurologické a logopedické vyšetření, u nesouvislé řeči psychiatrické (American Psychiatric
 Association, 2022). Teprve potom má smysl uvažovat o vlivu prostředí a pracovat s klientem na
 obnově vlastního slovníku a výpovědi, včetně [mediální
-gramotnosti](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) (Klemperer, 1947).
+gramotnosti](@/kompendium/prevention-resilience/6-media-literacy-prevention.md).
 
 ## Meze a otevřené otázky
 

@@ -28,6 +28,10 @@ depersonalizaci odlišuje od psychotických stavů.
 
 Příbuzným jevem je **derealizace** – odcizení od okolního světa, který působí neskutečně,
 vzdáleně, „za sklem“, bez barev. Oba jevy se často vyskytují společně.
+Od klinického pojmu je třeba odlišit [kognitivní
+depersonalizaci](@/glossary/kognitivni-depersonalizace.md), vlastní pojem knihy z její původní
+taxonomie (2025), který označuje oslabený pocit původcovství vlastních úsudků bez odcizení od
+těla či vnímání.
 
 ## Původ a kontext pojmu
 

@@ -23,20 +23,22 @@ pracovat. Pojem odkazuje k dobře popsaným jevům, k derealizaci a depersonaliz
 Psychiatric Association, 2022), k nežádoucím zkušenostem při intenzivní meditaci (Lindahl et
 al., 2017) a k účinkům senzorické deprivace (Bexton et al., 1954); sám je ale metaforou knihy.
 
-Obě verze původního textu se liší důrazem. Kratší verze popisuje komoru jako diskurzivní
-prostor, v němž okolní řeč každý pojem okamžitě rozostřuje. Delší verze ji popisuje jako
-stav vědomí, v němž se rozpouštějí všechny interpretační rámce: jazyk, logika, identita
-i časovost. Kniha drží obě roviny pohromadě, protože vnější prostředí a vnitřní stav se
-v popsaných případech navzájem posilují (Lifton, 1961).
+Obě verze původního textu (2025) se liší důrazem. Kratší verze popisuje komoru jako diskurzivní prostor,
+v němž okolní řeč každý pojem okamžitě rozostřuje. Delší verze ji popisuje jako stav vědomí, v němž
+se rozpouštějí všechny interpretační rámce: jazyk, logika, identita i časovost. Kniha drží obě
+roviny pohromadě, protože vnější prostředí a vnitřní stav se v popsaných případech navzájem
+posilují; jde o vymezení knihy, jehož meze popisují [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) uvádí u jevu „okamžitý, kontinuální“ průběh, obtížnou vratnost
-a typické projevy „nemožnost stabilizace myšlenek, okamžitá ztráta konceptuální
-distinktivnosti, kognitivní fluidita“. Delší verze přidává souvislost s mystickými tradicemi,
-s psychospirituální krizí a s poststrukturalistickou kritikou stability významu. Kniha
-z těchto souvislostí ponechává ty, které lze doložit, a popis jevu převádí na rozpoznávací
-znaky (Grof a Grof, 1989).
+Původní taxonomie (2025) uvádí u jevu typické projevy „nemožnost stabilizace myšlenek, okamžitá
+ztráta konceptuální distinktivnosti, kognitivní fluidita“. Původní taxonomie uvádí hodnocení
+závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Delší verze přidává
+souvislost s mystickými tradicemi, s psychospirituální krizí a s poststrukturalistickou kritikou
+stability významu. Kniha z těchto souvislostí ponechává ty, které lze doložit, a popis jevu převádí
+na rozpoznávací znaky v souladu s [etickými aspekty
+Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Mystické a kontemplativní tradice znají stavy, v nichž se běžné pojmy a hranice já
 rozplývají; kniha je rozebírá v heslech [mystický prožitek](@/glossary/mysticky-prozitek.md)
@@ -69,7 +71,7 @@ podobné změny hranic sebe a vnímání, někdy s úzkostí, jindy s euforií �
 al., 2017). Kniha tuto rovinu spojuje s [depersonalizací](@/glossary/depersonalizace.md)
 a s [disociací](@/glossary/disociace.md).
 
-Třetím znakem jsou okolnosti, za nichž se popisy jevu objevují: dlouhodobá izolace, omezení
+Třetí znak se pozná podle okolností, za nichž se popisy jevu objevují: dlouhodobá izolace, omezení
 smyslových podnětů, zahlcení navzájem neslučitelnými výklady a chybějící vztah, který by
 nesl souvislost. Bexton, Heron a Scott popsali u dobrovolníků v prostředí s omezenými
 podněty zhoršení soustředění a přechodné změny vnímání (Bexton et al., 1954). Kniha tyto
@@ -77,19 +79,18 @@ okolnosti uvádí jako rizikové faktory, které má poradce či blízký člov�
 
 ## Mechanismus
 
-Strukturně jde o souběh dvou procesů. Vnější prostředí soustavně rozostřuje každé
-rozlišení, které člověk zavede, a zároveň mu odnímá oporu, o niž by se rozlišení mohlo
-opřít, tedy druhé lidi, záznamy a tělesnou orientaci (Lifton, 1961). Vnitřní stav, například
-vyčerpání, nedostatek spánku nebo intenzivní introspekce, snižuje schopnost rozostření
-odolat. Kniha tu vidí blízkost s [narušením sémantické
-stability](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md) a s
-[kategoriální disolucí](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md).
+Kniha čte jev jako souběh vnějšího prostředí a vnitřního stavu a pozorovatel ho pozná podle toho, že
+rozostření pojmů je vázáno na prostředí, v němž dotčenému chybí opora v druhých lidech, záznamech
+a tělesné orientaci. Lifton u kontroly prostředí popsal, že skupina, která řídí komunikaci člověka
+se světem, získává vliv i na jeho myšlení (Lifton, 1961). Kniha tu vidí blízkost s [narušením
+sémantické stability](@/kompendium/techniques/ea-4-3-3-semantic-stability-disruption.md)
+a s [kategoriální disolucí](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md).
 
 Původní text v delší verzi popisuje průběh ve čtyřech fázích, od eroze struktur přes kolaps
 orientačních bodů a ztrátu rozlišení až k přechodu, nebo uvíznutí. Kniha tento průběh čte
-jako popis toho, co prožívá dotčený, ne jako postup, a z jeho poslední fáze přebírá hlavní
-klinický poznatek: z takového stavu se člověk zpravidla dostává s pomocí vnější struktury
-a vztahu (Herman, 1992).
+jako popis toho, co prožívá dotčený; pořadí není postup. Z poslední fáze přebírá poznatek
+literatury o traumatu, podle níž se zotavení opírá o bezpečí, vnější strukturu a vztah
+(Herman, 1992).
 
 ## Odlišení
 
@@ -105,7 +106,7 @@ a psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md). Od fil
 dekonstrukce se jev liší stejně jako u [diskurzivní
 anihilace](@/glossary/diskurzivni-anihilace.md): teoretická pochybnost o stabilitě významu
 je pozice, kterou lze vést, publikovat a obhajovat, zatímco disoluční komora je stav, v němž
-nelze vést nic (Habermas, 1981).
+nelze vést nic.
 
 ## Klinický a etický rámec
 
@@ -129,9 +130,9 @@ několika hodinách nedokáže udržet žádnou myšlenku dost dlouho, aby s ní
 doma, s poznámkami a v rozhovoru s kolegou mimo seminář, se jí schopnost vrací; rozpouštění
 bylo vázáno na prostředí, ne na její myšlení (srov. Lifton, 1961).
 
-Anonymizovaný kompozit podle delší verze: žena s dlouholetou meditační praxí stráví deset dní
-v prostředí ticha, tmy a izolace a sedmý den přestane rozlišovat mezi vlastní myšlenkou a tím,
-co přichází zvenčí; po návratu má týdny obtíže s řečí a orientací. Zotavení přichází
+Anonymizovaný kompozit podle delší verze: žena s dlouholetou meditační praxí absolvuje vícedenní
+pobyt v tmě a izolaci, během něhož přestane rozlišovat mezi vlastní myšlenkou a tím, co
+přichází zvenčí; po návratu má delší dobu obtíže s řečí a orientací. Zotavení přichází
 s pravidelným režimem, tělesnou aktivitou a vedením terapeuta, který zná nežádoucí účinky
 meditace (srov. Lindahl et al., 2017).
 
@@ -157,8 +158,9 @@ praxi, izolaci a psychiatrická onemocnění (Lindahl et al., 2017). Delší ver
 přenáší obraz i na generativní modely, které při tréninku na neslučitelných datech ztrácejí
 soudržnost; kniha tuto analogii nerozvíjí, protože kolaps modelů je technicky popsaný jev
 s vlastními příčinami (Shumailov et al., 2024). Otevřenou otázkou zůstává, jak vratný je
-stav u lidí; tvrzení původního textu o obtížné vratnosti nemá oporu ve výzkumu, a kniha proto
-zdůrazňuje, že zotavení je běžné.
+stav u lidí; tvrzení původního textu o obtížné vratnosti nemá oporu ve výzkumu. Kniha proto stav
+nepokládá předem za trvalý; Lindahl a spolupracovníci zaznamenali u obtíží spojených
+s meditací velmi různou dobu trvání (Lindahl et al., 2017).
 
 ## Literatura
 
@@ -166,7 +168,6 @@ zdůrazňuje, že zotavení je běžné.
 - Bexton, W. H., Heron, W., & Scott, T. H. (1954). *Effects of decreased variation in the sensory environment*. Canadian Journal of Psychology.
 - Clark, A., & Chalmers, D. (1998). *The extended mind*. Analysis.
 - Grof, S., & Grof, C. (Eds.) (1989). *Spiritual Emergency: When Personal Transformation Becomes a Crisis*. Tarcher.
-- Habermas, J. (1981). *Theorie des kommunikativen Handelns*. Suhrkamp.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). *The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists*. PLoS ONE.

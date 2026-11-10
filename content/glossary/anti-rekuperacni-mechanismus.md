@@ -26,7 +26,7 @@ ustálený klinický ani filozofický termín. Označuje vzorec, v němž je po 
 zablokován každý pokus o obnovu: navázání na dřívější úspěchy, zúžení práce na méně sporné
 části, hledání opory u druhých i změna směru. Škoda se tak udržuje sama, protože se uzavírají
 všechny cesty ven. Herman (1992) ukazuje, že zotavení z traumatu probíhá ve vztazích a nemůže
-proběhnout v izolaci; právě na tyto podmínky vzorec míří.
+proběhnout v izolaci; vzorec se pozná podle toho, že zasahuje právě tyto podmínky.
 
 V knize jde o jednu z podob [epistemické anihilace](@/glossary/epistemicka-anihilace.md), která
 nenavazuje na první zranění, ale na pokusy o jeho zhojení. Nejbližším ustáleným konstruktem je
@@ -40,8 +40,8 @@ Následky dlouhodobého stavu rozvádí heslo [epistemické trauma](@/glossary/e
 Herman (1992) popsala zotavení jako postup od obnovy bezpečí přes vzpomínání a truchlení
 k novému spojení s druhými lidmi a se světem. Model rozvádí [EA-8.2.10 Stadia zotavení podle
 Judith Hermanové](@/kompendium/techniques/ea-8-2-10-herman-recovery-stages.md). Původní taxonomie
-(2025) k němu přidává opačnou otázku: jak vypadá prostředí, v němž je každé z těchto stadií
-předem znemožněno.
+(2025) k němu přidává opačnou otázku: podle čeho se pozná prostředí, v němž je pokrok
+v kterémkoli z těchto stadií pokaždé zmařen.
 
 Teorie atribucí dává vzorci přesný jazyk. Abramson a kol. (1978) rozlišili, zda člověk
 vysvětluje neúspěch příčinou ve sobě, nebo mimo sebe, příčinou trvalou, nebo přechodnou,
@@ -73,24 +73,25 @@ ověřit si vlastní vnímání u druhých.
 
 U dotčeného je vidět zhoršení po každém pokusu o obnovu, postupné vzdávání pokusů, stud
 a přesvědčení, že chyba je v něm samém a všude. Maier a Seligman (2016) ukazují, že pasivita po
-nekontrolovatelné zátěži je výchozí reakcí, kterou tlumí až zkušenost vlastní kontroly; tam,
-kde je každá taková zkušenost zmařena, pasivita přetrvává. Vratný pohyb zpět popisuje heslo
-[epistemická regrese](@/glossary/epistemicka-regrese.md).
+nekontrolovatelné zátěži je výchozí reakcí, kterou tlumí až zkušenost vlastní kontroly;
+přetrvávající pasivita se proto pozná podle toho, že dotčený takovou zkušenost opakovaně nedostane.
+Vratný pohyb zpět popisuje heslo [epistemická regrese](@/glossary/epistemicka-regrese.md).
 
 ## Mechanismus
 
-Vlastní interpretací knihy je, že anti-rekuperační mechanismus nepřidává nové zranění, ale
-zavírá východy. Každé ze stadií, která popsala Herman (1992), má svůj blok: bezpečí ruší trvalé
-hodnocení, smysl ruší zpětné přepsání minulosti a nové spojení s druhými ruší izolace. Proto
-může vzorec působit i tehdy, když žádné jednotlivé sdělení nevypadá jako útok.
+Vlastní *interpretací knihy* je, že anti-rekuperační mechanismus nepřidává nové zranění, ale
+zavírá východy. Pozná se podle toho, že pokrok v kterémkoli ze stadií, která popsala Herman
+(1992), tedy v obnově bezpečí, ve vzpomínání a truchlení i v novém spojení s druhými, je
+pokaždé zmařen; pořadí není postup. Proto ho lze rozpoznat i tehdy, když žádné jednotlivé
+sdělení nevypadá jako útok.
 
 Institucionální rozměr je podstatný. Smith a Freyd (2014) shrnují doklady, že institucionální zrada je spojena s vyšší mírou potíží souvisejících s traumatem, než by odpovídalo samotné události.
 Když tutéž roli převezme nadřízený, školitel nebo celé pracoviště, nabývá vzorec váhy, kterou
 by výtka kolegy neměla; souvislosti rozvádí heslo [trauma ze zrady](@/glossary/betrayal-trauma.md).
 
 Příbuzný vzorec, [alethický režim](@/glossary/alethicky-rezim.md), posouvá kritéria pravdivosti;
-pokud se podle posouvaných kritérií posuzuje i zotavení, nemůže uspět. Kde je zrušeno každé
-výchozí místo, popisuje heslo [radikální
+v souběhu s ním se vzorec pozná podle toho, že se podle posouvaných kritérií posuzuje i zotavení.
+Kde je zrušeno každé výchozí místo, popisuje heslo [radikální
 anti-fundacionismus](@/glossary/radikalni-anti-fundacionismus.md). Kniha tyto vazby uvádí jako
 interpretaci; atribuční jádro všech tří vzorců popsali Abramson a kol. (1978).
 
@@ -156,7 +157,7 @@ růst nesmí být požadavkem: nárok „měl bys z toho vyrůst“ by se sám s
 Ražba jde za stávající důkazy. Slovo „mechanismus“ naznačuje záměr, který často nelze doložit;
 Smith a Freyd (2014) ukazují, že institucionální zrada může vzniknout i opomenutím, bez úmyslu
 kohokoli. Spojení blokované obnovy s naučenou bezmocností a institucionální zradou je
-interpretací knihy a jejího kompozitního příkladu. Heslo je nástrojem k rozpoznání vzorce,
+*interpretací knihy* a jejího kompozitního příkladu. Heslo je nástrojem k rozpoznání vzorce,
 nikoli dokladem o úmyslu.
 
 ## Literatura

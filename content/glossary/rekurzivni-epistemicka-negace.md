@@ -38,25 +38,26 @@ negace střídá na každé úrovni přijetí a popření téhož obsahu (Hofsta
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká závažnost, prohlubující se
-průběh, obtížná vratnost, „nekonečná negativní rekurze“ a nemožnost kladné formulace jako
-typické projevy) a vinětou filozofa, jehož teze o povaze poznání podléhá mezím, které sama
-popisuje. Tato stránka z ní přebírá myšlenku a projevy, nikoli zařazení mezi „techniky“; kniha
-popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů („nekonečná negativní rekurze“ a nemožnost
+kladné formulace jako typické projevy) a vinětou filozofa, jehož teze o povaze poznání podléhá
+mezím, které sama popisuje. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to nemá
+empirickou oporu a kniha je nepřebírá. Tato stránka z ní přebírá myšlenku a projevy, nikoli zařazení
+mezi „techniky“; kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu v souladu se svými
+[etickými aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Filozofické zázemí je staré. Burnyeat rozebral antickou námitku, že teze „žádné tvrzení není
-pravdivé“ vyvrací sama sebe (Burnyeat, 1976). Sextus Empiricus odpovídal, že skeptické formule
-se vztahují i na sebe a ruší se spolu s ostatním, podobně jako projímadlo, které z těla odejde
-i s tím, co vypudilo (Sextus Empiricus, 2000). Pyrrhonik však smyčku nepovažoval za trýzeň, ale za cestu
-ke klidu, a dál se řídil tím, jak se věci jeví; heslo [pyrrhonismus](@/glossary/pyrrhonismus.md)
-ho proto užívá jako kontrastní model zdravé pochybnosti.
+pravdivé“ vyvrací sama sebe (Burnyeat, 1976). Sextus Empiricus odpovídal, že skeptické formule se
+vztahují i na sebe a ruší se spolu s ostatním, podobně jako projímadlo, které z těla odejde i s tím,
+co vypudilo (Sextus Empiricus, 2000). Pyrrhonik však smyčku nepovažoval za trýzeň, ale za cestu ke
+klidu, a dál se řídil tím, jak se věci jeví; heslo [pyrrhonismus](@/glossary/pyrrhonismus.md) ho
+proto užívá jako kontrastní model zdravé pochybnosti.
 
-Logické zázemí nabízí teorie [sebereference](@/glossary/self-reference.md). [Paradox lháře](@/glossary/liaruv-paradox.md) je
-nejjednodušší případ věty, která přechází z pravdy do nepravdy a zpět: je-li pravdivá, je
-nepravdivá, a naopak. Russell na podobné paradoxy odpověděl teorií typů, která zakazuje, aby se
-výrok vztahoval k úrovni, k níž sám patří (Russell, 1908), a Tarski hierarchií jazyků, v níž se
-o pravdivosti vět jednoho jazyka mluví jen v jazyce vyšším (Tarski, 1944). Původní taxonomie
-navrhuje jako obranu právě „hierarchickou typizaci“.
+Logické zázemí nabízí teorie [sebereference](@/glossary/self-reference.md). [Paradox
+lháře](@/glossary/liaruv-paradox.md) je nejjednodušší případ věty, která přechází z pravdy do
+nepravdy a zpět: je-li pravdivá, je nepravdivá, a naopak. Russell na podobné paradoxy odpověděl
+teorií typů, která zakazuje, aby se výrok vztahoval k úrovni, k níž sám patří (Russell, 1908), a
+Tarski hierarchií jazyků, v níž se o pravdivosti vět jednoho jazyka mluví jen v jazyce vyšším
+(Tarski, 1944). Původní taxonomie navrhuje jako obranu právě „hierarchickou typizaci“.
 
 ## Jak se projevuje
 
@@ -100,11 +101,10 @@ a posouvá myšlení dál (Hegel, 1807). Rekurzivní negace podle výkladu knihy
 a nikam nevede.
 
 Od příbuzných pojmů knihy je třeba negaci oddělit podle tvaru smyčky. [Infinitní
-regres](@/glossary/infinitni-regress.md) je řetězec zdůvodnění, který nekončí; negace je
-kyvadlo mezi dvěma póly. [Implozivní rekurze](@/glossary/implozivni-rekurze.md) popisuje
-opakovanou sebeaplikaci operace, která postupně rozkládá samu operaci. [Epistemologická
-paralýza](@/glossary/epistemologicka-paralyza.md) je konečný stav, v němž nelze vynést žádný
-soud (Hofstadter, 1979).
+regres](@/glossary/infinitni-regress.md) je řetězec zdůvodnění, který nekončí; negace je kyvadlo
+mezi dvěma póly (srov. Hofstadter, 1979). [Implozivní rekurze](@/glossary/implozivni-rekurze.md)
+popisuje opakovanou sebeaplikaci operace, která postupně rozkládá samu operaci. [Epistemologická
+paralýza](@/glossary/epistemologicka-paralyza.md) je konečný stav, v němž nelze vynést žádný soud.
 
 Od klinických stavů je třeba odlišit obsedantní pochybování u obsedantně-kompulzivní poruchy
 a depresivní ruminaci (American Psychiatric Association, 2022). U obou se smyčka objevuje bez
@@ -152,8 +152,8 @@ metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognit
 ## Meze a otevřené otázky
 
 Hlavní mez pojmu je, že spojuje logickou strukturu s psychologickým popisem a neexistuje pro něj
-validovaný nástroj ani empirická studie (Watkins, 2008). Otevřenou otázkou je, zda nejde jen
-o ruminaci s filozofickým obsahem; kniha pojem drží proto, že pojmenovává tvar smyčky, který
+validovaný nástroj ani empirická studie. Otevřenou otázkou je, zda nejde jen o ruminaci
+(Watkins, 2008) s filozofickým obsahem; kniha pojem drží proto, že pojmenovává tvar smyčky, který
 obecnější pojmy nerozlišují. Riziko nadužití rozebírá kapitola [Přesah
 rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
@@ -165,7 +165,6 @@ rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 - Burnyeat, M. F. (1976). *Protagoras and self-refutation in later Greek philosophy*. The Philosophical Review.
 - Hegel, G. W. F. (1807). *Phänomenologie des Geistes*.
 - Hofstadter, D. R. (1979). *Gödel, Escher, Bach: An Eternal Golden Braid*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Nolen-Hoeksema, S. (1991). *Responses to depression and their effects on the duration of depressive episodes*. Journal of Abnormal Psychology.
 - Russell, B. (1908). *Mathematical logic as based on the theory of types*. American Journal of Mathematics.
 - Sextus Empiricus (2000). *Outlines of Scepticism*. Přel. J. Annas & J. Barnes. Cambridge University Press.

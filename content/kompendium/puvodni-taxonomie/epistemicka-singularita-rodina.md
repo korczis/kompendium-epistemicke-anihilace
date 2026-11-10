@@ -27,16 +27,18 @@ umí rozpoznat, že jeho úsudek něco znamená a že má smysl se snažit. Lehr
 důvěru v sebe jako podmínku, bez níž rozumné poznávání nemůže fungovat, protože každý úsudek
 na ní nakonec stojí. Rodina epistemické singularity jmenuje způsoby, jak se tato důvěra může
 rozpadat, a kniha je čte jako varianty [metakognitivní
-destrukce](@/glossary/metakognitivni-destrukce.md) (Lehrer 1997).
+destrukce](@/glossary/metakognitivni-destrukce.md).
 
 ## Techniky rodiny a konstrukty, jimž se podobají
 
-Dochovaný seznam kapitoly obsahuje osm technik: absolutní epistemickou dezintegraci, absolutní
+Abecední rejstřík rukopisu uvádí v rozsahu čísel 1–30 osm technik a tematický rejstřík žádnou
+další: absolutní epistemickou dezintegraci, absolutní
 epistemickou implozi, identitní dekonstrukci, metakognitivní destrukci, absolutní epistemickou
 bezmocnost, absolutní epistemickou autodezintegraci, kognitivní anti-metamorfózu a
 zpochybnění intencionality. Kniha je dělí do čtyř skupin podle skutečných jevů, jimž se
 podobají, protože rukopis je řadí jen podle čísla. Zbytek z třiceti míst kapitoly rukopis
-nevyplnil a kniha ho nedoplňuje (Bowker a Star 1999).
+nevyplnil a kniha ho nedoplňuje; jak kniha se svou taxonomií zachází, popisují [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 První skupinu tvoří identitní dekonstrukce, tedy soustavné podkopávání akademické identity a
 profesní sebedůvěry. Nejblíže má k šikaně na pracovišti, kterou Leymann (1996) popsal jako
@@ -59,7 +61,7 @@ zkušenosti s nekontrolovatelnou situací přestane jednat i tam, kde by jednán
 Seligman (2016) později ukázali, že pasivita je spíše výchozí reakcí, kterou zkušenost kontroly
 překonává, což je pro obranu podstatné. Kognitivní anti-metamorfóza, ztráta schopnosti se měnit
 a přizpůsobovat, odpovídá tomu, co kniha nazývá [kognitivní
-stagnace](@/glossary/kognitivni-stagnace.md) (Seligman 1975).
+stagnace](@/glossary/kognitivni-stagnace.md).
 
 Čtvrtou skupinu tvoří zpochybnění intencionality a absolutní epistemická dezintegrace. Rukopis
 zpochybněním intencionality myslí podkopání toho, že člověk může mít záměr a jednat účelně;
@@ -67,7 +69,7 @@ filozofický pojem [intencionalita](@/glossary/intentionalita.md) ovšem v tradi
 založil Brentano (1874), označuje zaměřenost vědomí na předmět, nikoli účelnost jednání. Skutečný jev za názvem je
 spíš soustavné zpochybňování motivů, při němž se každý záměr člověka vykládá jako skrytý nebo
 nepravý. Absolutní epistemická dezintegrace pak označuje souhrnný kolaps všech předchozích
-vrstev a kniha ji čte jako synonymum hesla epistemické singularity (Brentano 1874).
+vrstev a kniha ji čte jako synonymum hesla epistemické singularity.
 
 ## Znaky, podle nichž vzorec poznat
 
@@ -76,7 +78,7 @@ přestává předkládat vlastní závěry, odkládá rozhodnutí, opakovaně ž
 mluví jako o něčem, co „asi není dost dobré“. Abramson (2014) ukazuje na
 [gaslightingu](@/glossary/gaslighting.md), že takové působení cílí na schopnost člověka brát
 vlastní vnímání a úsudek vážně, a právě tento posun je hlavním znakem i u rodiny epistemické
-singularity (Abramson 2014).
+singularity.
 
 Druhým znakem je asymetrie. Pochybnost směřuje vždy jedním směrem, kritika přichází od téže
 osoby nebo skupiny a nikdy nepřipouští vlastní omyl. Leymann (1996) zdůraznil, že šikanu nelze
@@ -90,16 +92,15 @@ Rigorózní kritika se týká díla, uvádí důvody a ukazuje cestu ke zlepšen
 společenství ji institucionalizuje jako organizovaný [skepticismus](@/glossary/skepticismus.md),
 který platí pro všechny stejně (Merton 1973). Supervize má dohodnutý cíl, hranice a směřuje k samostatnosti
 supervidovaného, jak ji popisují Hawkins a Shohet (1989). Rozdíl tedy nespočívá v ostrosti
-kritiky, ale v tom, zda posiluje, nebo oslabuje schopnost člověka samostatně posuzovat
-(Merton 1973).
+kritiky, ale v tom, zda posiluje, nebo oslabuje schopnost člověka samostatně posuzovat.
 
 Klinicky je třeba odlišit depresi, úzkostné poruchy a vyhoření, které samy o sobě vedou k
 nejistotě, nerozhodnosti a ztrátě sebedůvěry bez jakéhokoli vnějšího působení (American
 Psychiatric Association 2022). U dlouhodobého a opakovaného ohrožení je třeba zvážit
-komplexní posttraumatickou stresovou poruchu, kterou MKN-11 uvádí jako samostatnou diagnózu
-([C-PTSD](@/glossary/c-ptsd.md)). Vnější vzorec a vnitřní porucha se nevylučují; posouzení
-patří do [diferenciální diagnostiky](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-(World Health Organization 2019).
+komplexní posttraumatickou stresovou poruchu ([C-PTSD](@/glossary/c-ptsd.md)), kterou MKN-11
+uvádí jako samostatnou diagnózu (World Health Organization 2019). Vnější vzorec a vnitřní
+porucha se nevylučují; posouzení patří do [diferenciální
+diagnostiky](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
 ## Překryv s taxonomií EA-X.Y.Z
 
@@ -110,7 +111,9 @@ Metakognitivní skupina se kryje s hyperreflexivitou a s [EA-5.1.27 Meta-epistem
 redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md). Absolutní epistemická
 imploze má blízko k [EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md)
 a souhrnná dezintegrace k [EA-5.1.23 Asymptotická
-dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md) (Flavell 1979).
+dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md). Přiřazení je
+*interpretací knihy*; rukopis sám kódy EA neznal a pravidla převodu popisují [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Bezmocnost odpovídá [EA-2.5.10 Implantace existenciální
 bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md) a soustavné
@@ -118,7 +121,9 @@ zpochybňování motivů se dotýká [EA-5.2.22 Intencionální
 rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md) a [EA-2.5.3 Pěstování
 sebepochybnosti](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md). Kde se rodina a
 kódovaná technika kryjí, platí kódovaná stránka, protože je zpracovaná se zdroji, detekcí a
-obranou; rodinová stránka jen ukazuje, odkud původní název pochází (Seligman 1975).
+obranou; rodinová stránka jen ukazuje, odkud původní název pochází. Proč kniha u rukopisu
+popisuje jen to, co slouží rozpoznání a obraně, vysvětlují [etické
+aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Klinický, právní a etický rámec
 
@@ -127,7 +132,7 @@ ztrátou profesní identity, ne s popisem techniky. Herman (1992) ukázala, že 
 ohrožení se následky snadno zaměňují za rysy osobnosti, a doporučuje nejdřív zajistit bezpečí
 a teprve potom pracovat s obsahem. Posouzení proto začíná otázkou, zda vnější působení stále
 trvá, a pokračuje podle cesty péče, kterou popisuje oddíl
-[Klinika](@/kompendium/04-klinika/_index.md) (Herman 1992).
+[Klinika](@/kompendium/04-klinika/_index.md).
 
 Právně je většina projevů rodiny mimo trestní právo, protože jde o soustavný vzorec, ne o
 jednotlivý čin. V pracovním prostředí se uplatní ochrana zaměstnance podle zákoníku práce
@@ -141,38 +146,36 @@ dokumentace vzorce (Stark 2007).
 Obrana stojí na obnově vnějších kotev úsudku. Pomáhá datovaný záznam událostí a originály
 korespondence, jak to popisuje [paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md),
 a lidé mimo dotčené prostředí, kteří mohou úsudek potvrdit nebo opravit. Fricker (2007)
-ukázala, že ztráta důvěryhodnosti v očích druhých se přenáší do důvěry v sebe; proto má
-nezávislé uznání, například od oponenta mimo instituci, větší léčivou sílu než vnitřní
-přesvědčování (Fricker 2007).
+ukázala, že ztráta důvěryhodnosti v očích druhých se přenáší do důvěry v sebe. Kniha z toho
+vyvozuje, že nezávislé uznání, například od oponenta mimo instituci, váží víc než vnitřní
+přesvědčování (*pojetí knihy*).
 
 Při zotavení se osvědčuje práce s metakognicí samotnou: místo dalšího zkoumání vlastních
 pochybností se člověk učí ruminaci přerušit a vrátit pozornost k jednání, jak to popisuje
 metakognitivní terapie (Wells 2009). Zkušenost kontroly, i v malých krocích, působí proti
 bezmocnosti, což odpovídá zjištění, že kontrola pasivitu překonává (Maier a Seligman 2016).
 Strukturovaný postup nabízí [metakognitivní rehabilitace](@/kompendium/recovery-protocols/midterm-metacognitive-rehab.md)
-a [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) (Wells 2009).
+a [vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md).
 
 ## Kritika a meze
 
 Slovo singularita je vypůjčené z fyziky a v rukopisu funguje jako metafora bez fyzikálního
 obsahu; Sokal a Bricmont (1998) popsali, jak takové výpůjčky vyvolávají dojem přesnosti, který
 text nemá. Rukopis navíc popisuje stav úplného a nevratného kolapsu poznání, pro který neexistují
-klinické doklady. Lidé po dlouhodobém znevažování trpí, ale nadále myslí, pamatují si a
-zotavují se, a výrazy „absolutní“ a „nevratný“ proto kniha nepřebírá jako popis skutečnosti
-(Sokal a Bricmont 1998).
+klinické doklady. Herman (1992) popisuje i po dlouhodobém ohrožení cestu zotavení, a výrazy
+„absolutní“ a „nevratný“ proto kniha nepřebírá jako popis skutečnosti.
 
 Modelová situace rukopisu, v níž filozof po intenzivním bádání skončí ve stavu podobném
 katatonii, je podle výkladu knihy nebezpečně zavádějící. Katatonie je klinický syndrom s
 psychiatrickými i somatickými příčinami, který vyžaduje lékařské vyšetření, a nelze ji
 vykládat jako důsledek myšlenkového obsahu (American Psychiatric Association 2022). Kniha z
 rodiny přebírá jen to, co je doložené: útoky na sebedůvěru, ruminaci a bezmocnost, a jejich
-souhrnný název chápe jako interpretaci, ne jako diagnózu (Herman 1992).
+souhrnný název chápe jako *interpretaci knihy*, ne jako diagnózu.
 
 ## Literatura
 
 - Abramson, K. (2014). *Turning up the Lights on Gaslighting*. Philosophical Perspectives, 28.
 - American Psychiatric Association (2022). *Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition, Text Revision (DSM-5-TR)*. American Psychiatric Publishing.
-- Bowker, G. C., Star, S. L. (1999). *Sorting Things Out: Classification and Its Consequences*. MIT Press.
 - Brentano, F. (1874). *Psychologie vom empirischen Standpunkte*. Duncker & Humblot.
 - Clance, P. R., Imes, S. A. (1978). *The Imposter Phenomenon in High Achieving Women: Dynamics and Therapeutic Intervention*. Psychotherapy: Theory, Research & Practice, 15(3).
 - Flavell, J. H. (1979). *Metacognition and Cognitive Monitoring: A New Area of Cognitive-Developmental Inquiry*. American Psychologist, 34(10).

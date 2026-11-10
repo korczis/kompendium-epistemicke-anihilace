@@ -40,11 +40,12 @@ se o jakékoli pozici dalo rozhodovat (Wittgenstein, 1969).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (kritická závažnost, proměnlivý a často
-náhlý průběh, obtížná vratnost, neschopnost formulovat soudy, „epistemická agonie“ a kognitivní
-zamrznutí jako typické projevy) a vinětou filozofky na semináři o radikálním skepticismu. Tato
-stránka z ní přebírá myšlenku a projevy, nikoli zařazení mezi „techniky“; kniha popisuje jen
-rozpoznatelný vzorec, jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (neschopnost formulovat soudy,
+„epistemická agonie“ a kognitivní zamrznutí jako typické projevy) a vinětou filozofky na semináři
+o radikálním skepticismu. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to nemá
+empirickou oporu a kniha je nepřebírá. Tato stránka z ní přebírá myšlenku a projevy, nikoli
+zařazení mezi „techniky“; kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu
+v souladu se svými [etickými aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Filozofické zázemí je bohaté. Descartes podrobil pochybnosti smysly, rozum i matematiku, ale
 pochybnost chápal jako metodu, která má vést k pevnému základu (Descartes, 1641). Hume na konci
@@ -85,15 +86,15 @@ paralýzy](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) (Lifton, 19
 
 Strukturně jde o současné odebrání všech nástrojů, jimiž lidé pochybnost zvládají. Za běžných
 okolností se pochybnost o jednom zdroji řeší oporou v jiném: vnímání se ověřuje rozumem, rozum
-zkušeností, obojí svědectvím druhých (Wittgenstein, 1969). Paralýza podle výkladu knihy nastává,
-když jsou všechny zdroje zpochybněny zároveň a chybí i návrat do běžného života, který Humovi
-obnovil schopnost jednat (Hume, 1739).
+zkušeností, obojí svědectvím druhých (Wittgenstein, 1969). Paralýza se podle výkladu knihy pozná
+podle toho, že jsou zpochybněny všechny zdroje zároveň a chybí i návrat do běžného života, který
+Humovi obnovil schopnost jednat (Hume, 1739).
 
-Rozhodující je kontext a trvání. Seminář o skepticismu, na němž se zdroje poznání rozebírají,
-je legitimní součástí filozofického vzdělání, a jeho účastníci se po skončení vracejí ke
-každodenním soudům. Paralýza podle výkladu knihy předpokládá prostředí, které tento návrat
-neumožní a které z pochybnosti dělá trvalý stav. Tento předpoklad je interpretací knihy;
-empirický výzkum epistemologické paralýzy jako samostatného jevu neexistuje (Peirce, 1868).
+Rozhodující je kontext a trvání. Seminář o skepticismu, na němž se zdroje poznání rozebírají, je
+legitimní součástí filozofického vzdělání, a jeho účastníci se po skončení vracejí ke každodenním
+soudům, jak tento návrat popsal už Hume (Hume, 1739). Paralýza podle výkladu knihy předpokládá
+prostředí, které tento návrat neumožní a které z pochybnosti dělá trvalý stav. Tento předpoklad je
+interpretací knihy; empirický výzkum epistemologické paralýzy jako samostatného jevu neexistuje.
 
 ## Odlišení
 
@@ -104,10 +105,11 @@ pochybnost, která poznání slouží, a jak ta, která ho rozkládá.
 
 Od příbuzných pojmů knihy je třeba paralýzu oddělit podle mechanismu. [Rekurzivní
 paralýza](@/glossary/rekurzivni-paralyza.md) je zacyklení hodnocení vlastního myšlení, [paralýza
-analýzou](@/glossary/paralysis-by-analysis.md) zablokování rozhodnutí nadměrným zvažováním
+analýzou](@/glossary/paralysis-by-analysis.md) zablokování rozhodnutí nadměrným zvažováním,
+které připomíná hypervigilanci popsanou u rozhodovacího konfliktu (Janis a Mann, 1977),
 a [rekurzivní epistemická negace](@/glossary/rekurzivni-epistemicka-negace.md) střídání přijetí
 a popření. [Epistemická hyperinflace](@/glossary/epistemicka-hyperinflace.md) nástroje poznání
-ponechává, jen jim upírá hodnotu; paralýza je ztráta nástrojů samých (Janis a Mann, 1977).
+ponechává, jen jim upírá hodnotu; paralýza je ztráta nástrojů samých.
 
 Od klinických stavů je třeba odlišit nerozhodnost u deprese, obsedantní pochybování a katatonii,
 u níž je zamrznutí motorické a vyžaduje neodkladné lékařské vyšetření (American Psychiatric
@@ -140,11 +142,12 @@ skutečně nepochybovala (srov. Hume, 1739).
 ## Obrana a zotavení
 
 Pro dotčeného je první obranou rozlišit skutečnou pochybnost od předstírané: „pochybuji o tom, že
-vidím svou ruku“ je jiný druh pochybnosti než „nevím, zda je toto tvrzení doložené“ (Peirce,
-1868). Původní taxonomie navrhuje „pragmatický epistemický minimalismus“, což odpovídá Humovu
-návratu k běžnému životu a Wittgensteinovým jistotám, které nevyžadují důkaz, protože na nich
-důkaz teprve stojí (Wittgenstein, 1969). Pomáhá [kalibrace důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md),
-která učí důvěřovat zdrojům odstupňovaně, a ne všem nebo žádnému.
+vidím svou ruku“ je jiný druh pochybnosti než „nevím, zda je toto tvrzení doložené“ (Peirce, 1868).
+Původní taxonomie navrhuje „pragmatický epistemický minimalismus“, což odpovídá Humovu návratu k
+běžnému životu a Wittgensteinovým jistotám, které nevyžadují důkaz, protože na nich důkaz teprve
+stojí (Wittgenstein, 1969). Pomáhá [kalibrace
+důvěry](@/kompendium/self-defense-guides/23-trust-calibration.md), která učí důvěřovat zdrojům
+odstupňovaně, a ne všem nebo žádnému.
 
 Druhou navrhovanou obranou je „externalizace rozhodovacích procesů“: dočasně se opřít o úsudek
 důvěryhodných lidí a rozhodovat po malých krocích, a to se souhlasem dotčeného a s cílem vrátit mu
@@ -156,11 +159,12 @@ pracovat s obsahem pochybností (Herman, 1992).
 ## Meze a otevřené otázky
 
 Hlavní mez pojmu je, že spojuje filozofický problém s psychologickým popisem a neexistuje pro něj
-validovaný nástroj ani empirická studie (Janis a Mann, 1977). Otevřenou otázkou je, zda nejde jen
-o depresivní nerozhodnost s filozofickým obsahem; kniha pojem drží proto, že pojmenovává ztrátu
-zdrojů poznání, kterou obecnější pojmy nepostihují. Kde paralýza přichází náhle a se šokem, kniha
-mluví o [epistemické implozi](@/glossary/epistemicka-imploze.md). Riziko nadužití rozebírá
-kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
+validovaný nástroj ani empirická studie. Otevřenou otázkou je, zda nejde jen o depresivní
+nerozhodnost (American Psychiatric Association, 2022) s filozofickým obsahem; kniha pojem drží
+proto, že pojmenovává ztrátu zdrojů poznání, kterou obecnější pojmy nepostihují. Kde paralýza
+přichází náhle a se šokem, kniha mluví o [epistemické implozi](@/glossary/epistemicka-imploze.md).
+Riziko nadužití rozebírá kapitola [Přesah
+rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 

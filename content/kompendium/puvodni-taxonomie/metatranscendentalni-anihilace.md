@@ -26,17 +26,21 @@ argumentuje, pracuje a vztahuje se k druhým, ale kritéria, podle nichž se roz
 se posouvají, převracejí nebo množí. Watzlawick, Beavin a Jackson (1967) ukázali, že
 komunikace vždy nese i sdělení o vztahu a o pravidlech, a právě na této metaúrovni se vzorce
 rodiny odehrávají. Kniha je proto řadí blíže k jevům komunikace a moci než k filozofii poznání,
-odkud si rukopis vypůjčil názvy (Watzlawick a kol. 1967).
+odkud si rukopis vypůjčil názvy.
 
 ## Techniky rodiny a konstrukty, jimž se podobají
 
-Dochovaný seznam kapitoly obsahuje dvanáct technik: absolutní epistemickou sterilitu, absolutní
+Abecední rejstřík rukopisu uvádí v rozsahu čísel 31–60 dvanáct technik: absolutní epistemickou
+sterilitu, absolutní
 epistemickou účelovou dezorientaci, absolutní axiomatickou inverzi, kognitivní
 čtyřdimenzionální šach, metodologický anihilismus, absolutní epistemickou rekurzivní negaci,
 koordinovanou multipersonální gaslightingovou strategii, konceptuální anihilaci, totální
 identitní substituci, temporální dezintegraci, ontologickou anihilaci a ontologickou nebytnost.
-Poslední dvě mají v rukopisu stejné číslo i definici, a kniha je proto chápe jako jeden jev
-(Bowker a Star 1999).
+Poslední dvě mají v rukopisu stejné číslo i definici, a kniha je proto chápe jako jeden jev.
+Tematický rejstřík přidává třináctou položku, epistemickou kvantovou delokalizaci (48), kterou
+řadí mezi akademické manipulační techniky; uvádí ji jen jménem, bez definice, a kniha ji proto
+do skupin níže nezařazuje. Jak kniha s neúplnými seznamy rukopisu zachází, popisují
+[metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 První skupinu tvoří kognitivní čtyřdimenzionální šach, absolutní axiomatická inverze,
 metodologický anihilismus a absolutní [rekurzivní epistemická
@@ -61,9 +65,10 @@ absolutní [epistemická sterilita](@/glossary/epistemicka-sterilita.md). Lifton
 reform](@/glossary/thought-reform.md) nadřazení doktríny člověku a „smrt a znovuzrození“
 identity, kdy je dosavadní já vykládáno jako falešné a nahrazováno předepsaným. Ztráta smyslu
 a cílů, kterou kniha vykládá heslem [teleologická
-dezorientace](@/glossary/teleologicka-dezorientace.md), odpovídá tomu, co Frank (1961) nazval demoralizací: stavu, kdy člověk ztratí víru, že
-může svou situaci ovlivnit. Neschopnost tvořit nové myšlenky je v tomto výkladu spíš
-důsledkem demoralizace než samostatnou technikou (Frank 1961).
+dezorientace](@/glossary/teleologicka-dezorientace.md), odpovídá tomu, co Frank (1961) nazval
+demoralizací: stavu, kdy člověk ztratí víru, že může svou situaci ovlivnit. Neschopnost tvořit
+nové myšlenky je podle *interpretace knihy* spíš důsledkem demoralizace než samostatnou
+technikou.
 
 Čtvrtou skupinu tvoří temporální dezintegrace, [konceptuální
 anihilace](@/glossary/konceptualni-anihilace.md) a [ontologická
@@ -72,8 +77,7 @@ kontrola narušují vztah k času: minulost ztrácí význam, budoucnost se zuž
 přítomného dne. Kniha tuto zkušenost vykládá pojmem [vnitřní
 časovost](@/glossary/vnitrni-casovost.md). Konceptuální a ontologická anihilace jsou v rukopisu
 formulovány jako zničení samotné možnosti pojmů a bytí; skutečným jevem za nimi je spíš
-[disociace](@/glossary/disociace.md) a pocit neskutečnosti, který kniha popisuje jinde (Herman
-1992).
+[disociace](@/glossary/disociace.md) a pocit neskutečnosti, který kniha popisuje jinde.
 
 ## Znaky, podle nichž vzorec poznat
 
@@ -82,14 +86,14 @@ hodnocení se mění po odevzdání práce, chyba se vytýká bez možnosti ji n
 vede k dalším, složitějším požadavkům. Watzlawick a kol. (1967) upozornili, že paradoxní
 komunikace se pozná podle toho, že ji nelze řešit na úrovni obsahu, protože protiklad je
 zabudován do vztahu. Dalším znakem je, že stížnost na nejasná pravidla se vykládá jako důkaz
-neschopnosti (Watzlawick a kol. 1967).
+neschopnosti.
 
 U skupinové podoby jsou znakem shodné formulace, které od různých lidí přicházejí v krátkém
 čase, a náhlá ztráta spojenců, kteří dříve vnímání dotčeného sdíleli. Sweet (2019) ukazuje, že
 institucionální gaslighting využívá autoritu instituce k tomu, aby zkušenost jednotlivce
 vypadala jako nepřiměřená. Pro posouzení je užitečné zjistit, zda shoda vznikla nezávislým
 posouzením, nebo šířením jednoho výkladu, což kniha rozebírá u [EA-2.1.9 Vytváření
-pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) (Sweet 2019).
+pseudokonsenzu](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md).
 
 ## Odlišení od běžné kritiky a od klinických stavů
 
@@ -105,8 +109,7 @@ perzekučních bludů. Rozhoduje doložitelnost: shodné zprávy, záznamy a sv�
 vzorec, zatímco blud vzniká bez takových dokladů a bývá provázen dalšími příznaky (American
 Psychiatric Association 2022). Protože i skutečně pronásledovaný člověk může reagovat
 podezíravě, posouzení patří odborníkovi; postup popisuje stránka [EA vs.
-psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md) (American Psychiatric
-Association 2022).
+psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
 
 ## Překryv s taxonomií EA-X.Y.Z
 
@@ -117,9 +120,7 @@ kritérií [EA-4.3.5 Evidential criteria
 modification](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md).
 Čtyřdimenzionální šach se dotýká [EA-1.2.3 Iluzorní
 komplexita](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md) a rekurzivní negace
-[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
-(Watzlawick a kol. 1967).
-
+[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 Skupinový gaslighting má kódovanou podobu v [EA-2.3.4 Koordinace
 davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md), identitní substituce v
 [EA-5.3.1 Identitární substituce](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) a
@@ -127,37 +128,39 @@ davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md), identitní substitu
 Temporální dezintegrace odpovídá [EA-5.1.10 Temporální
 dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) a [EA-4.4.5 Temporal
 self-disruption](@/kompendium/techniques/ea-4-4-5-temporal-self-disruption.md), konceptuální
-anihilace [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md)
-(Lifton 1961).
+anihilace [EA-5.1.2 Konceptuální nihilace](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md).
+Přiřazení je *interpretací knihy*; proč kniha z rukopisu přebírá jen to, co slouží rozpoznání a
+obraně, vysvětlují [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Klinický, právní a etický rámec
 
 Klinicky se rodina projevuje zmateností, ztrátou orientace v pravidlech prostředí a pocitem, že
 člověk „vidí jinak než všichni“. Herman (1992) zdůrazňuje, že u lidí z prostředí soustavné
 kontroly je prvním úkolem obnova bezpečí a teprve potom práce s významem zážitků. Pro
-terapeuta je důležité nestát se dalším hlasem, který člověku vysvětluje, jak to doopravdy bylo,
-ale pomáhat mu obnovit vlastní kritéria (Herman 1992).
+terapeuta je podle *pojetí knihy* důležité nestát se dalším hlasem, který člověku vysvětluje,
+jak to doopravdy bylo, ale pomáhat mu obnovit vlastní kritéria.
 
 Právně je kolektivní podoba nejlépe uchopitelná v pracovním a akademickém prostředí. Zákoník
 práce (zákon č. 262/2006 Sb.) ukládá zaměstnavateli povinnosti při ochraně zaměstnanců a zákon
 o vysokých školách (zákon č. 111/1998 Sb.) chrání akademické svobody, mezi něž patří svoboda
 vědeckého bádání. Stark (2007) zdůraznil, že soustavnou kontrolu nelze prokázat jednotlivým
-incidentem, ale jen dokumentací vzorce v čase; to platí i zde (Stark 2007).
+incidentem, ale jen dokumentací vzorce v čase; to platí i zde.
 
 ## Obrana a zotavení
 
 Obranou proti měnícím se pravidlům je jejich zviditelnění. Pomáhá žádat zadání a kritéria
 písemně, zaznamenávat jejich změny s datem a sdílet je s člověkem mimo vztah, který posoudí,
-zda jsou splnitelná. Bateson a kol. (1956) zdůraznili, že dvojná vazba působí hlavně tam, kde
-ji nelze pojmenovat ani opustit; obrana proto spočívá v metakomunikaci, tedy v klidném
-pojmenování rozporu, a v získání možnosti z prostředí odejít (Bateson a kol. 1956).
+zda jsou splnitelná. Bateson a kol. (1956) popsali dvojnou vazbu jako situaci, kterou dotčený
+nesmí pojmenovat ani opustit; obrana proto spočívá v metakomunikaci, tedy v klidném
+pojmenování rozporu, a v získání možnosti z prostředí odejít.
 
 Proti skupinové podobě pomáhá hledat nezávislé svědky a pamatovat, že i Aschovy pokusy
 ukázaly, jak výrazně klesá tlak většiny, jakmile má člověk aspoň jednoho spojence (Asch 1956).
-Při zotavení po ztrátě identity a smyslu se osvědčuje návrat k vlastnímu životnímu příběhu a
-k hodnotám, které existovaly před expozicí, jak to popisuje [epistemická
-reintegrace](@/glossary/epistemicka-reintegrace.md). Lifton (1961) ukázal, že předchozí identita
-se v prostředí převýchovy obvykle nezničí, jen ustoupí, a lze se k ní vrátit (Lifton 1961).
+Při zotavení po ztrátě identity a smyslu kniha klade důraz na návrat k vlastnímu životnímu
+příběhu a k hodnotám, které existovaly před expozicí (*pojetí knihy*), jak to popisuje
+[epistemická reintegrace](@/glossary/epistemicka-reintegrace.md). Lifton (1961) u svých
+respondentů popsal, že předchozí identita v prostředí převýchovy nezanikla, ale ustoupila, a po
+odchodu se k ní mnozí z nich vraceli.
 
 ## Kritika a meze
 
@@ -166,14 +169,13 @@ Kantově smyslu nejsou něco, co by mohl jeden člověk druhému odebrat; mohou 
 okolnosti, za nichž člověk myslí, ne apriorní struktura myšlení. Sokal a Bricmont (1998)
 varovali před slovy, která svým zvukem slibují hloubku, jež v textu chybí. Kniha proto název
 zachovává jen jako historické označení a obsah rodiny vykládá pomocí doložených pojmů
-komunikace, kontroly a traumatu (Sokal a Bricmont 1998).
+komunikace, kontroly a traumatu.
 
 Druhou mezí jsou duplicity a nejasnosti rukopisu. Ontologická anihilace a ontologická nebytnost
 mají stejný popis, sterilita a účelová dezorientace popisují spíš následky než vzorce působení
 a „čtyřdimenzionální šach“ je metafora bez jasného obsahu. Bowker a Star (1999) připomínají, že
 nevyjasněná kategorie může zakrýt víc, než odhalí. Výklad těchto položek jako demoralizace,
-disociace nebo dvojné vazby je proto interpretací knihy, nikoli tvrzením rukopisu (Bowker a Star
-1999).
+disociace nebo dvojné vazby je proto *interpretací knihy*, nikoli tvrzením rukopisu.
 
 ## Literatura
 

@@ -38,11 +38,12 @@ kontext objevu a nedovolí nápadu vzniknout dřív, než by mohl být testován
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká závažnost, postupný a prohlubující
-se průběh, částečná vratnost, konceptuální neplodnost a stagnace jako typické projevy) a vinětou
-teoretického fyzika, jehož každý návrh je okamžitě odmítnut jako spekulativní. Tato stránka z ní
-přebírá myšlenku a projevy, nikoli zařazení mezi „techniky“; kniha popisuje jen rozpoznatelný
-vzorec, jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (konceptuální neplodnost a stagnace jako
+typické projevy) a vinětou teoretického fyzika, jehož každý návrh je okamžitě odmítnut jako
+spekulativní. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to nemá empirickou
+oporu a kniha je nepřebírá. Tato stránka z ní přebírá myšlenku a projevy, nikoli zařazení mezi
+„techniky“; kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu v souladu se svými
+[etickými aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Filozofické zázemí nabízí Popperova teorie vědy. Popper zdůrazňoval, že poznání roste odvážnými
 domněnkami, které se teprve poté vystavují vyvrácení, a že bez domněnek není co testovat
@@ -78,9 +79,10 @@ kritice, a postupně je přestane i formulovat pro sebe. Kniha tento vzorec sled
 ## Mechanismus
 
 Strukturně jde o zhroucení rozdílu mezi tvorbou a hodnocením. Tvůrčí práce podle Wallase prochází
-fázemi přípravy, inkubace, osvícení a ověření, a ověření přichází až na konci (Wallas, 1926). Když
-se měřítka ověření uplatňují už ve fázi vzniku, nápad se nestihne vytvořit. Podle výkladu knihy
-se vnější kritika postupně stane vnitřním hlasem, který tvorbu zastaví dřív než kdokoli zvenčí.
+fázemi přípravy, inkubace, osvícení a ověření, a ověření přichází až na konci (Wallas, 1926).
+Sterilita se pozná podle toho, že se měřítka ověření uplatňují už ve fázi vzniku a nápad se
+nestihne vytvořit. Podle výkladu knihy se z vnější kritiky postupně stává vnitřní hlas, který
+tvorbu zastaví dřív než kdokoli zvenčí.
 
 Rozhodující je načasování a opakování. Tvrdá kritika hotové práce je součástí vědy, a právě ona
 ji odlišuje od spekulace (Popper, 1963). Sterilita podle výkladu knihy předpokládá dlouhodobé
@@ -102,9 +104,11 @@ znehodnocování nápadů.
 
 Od příbuzných pojmů knihy se sterilita liší tím, co zůstává zachováno. U [epistemické
 nekrózy](@/glossary/epistemicka-nekroza.md) se ztrácí i porozumění pojmům oblasti; u sterility
-zůstává porozumění a ztrácí se jen tvorba. [Kognitivní stagnace](@/glossary/kognitivni-stagnace.md)
-je zastavení revize přesvědčení, [epistemická hyperinflace](@/glossary/epistemicka-hyperinflace.md)
-znehodnocení poznání rostoucími nároky, které sterilitě často předchází (Kuhn, 1962).
+zůstává porozumění a ztrácí se jen tvorba, což odpovídá rozlišení oborových dovedností a tvůrčích
+postupů jako samostatných složek tvořivosti (Amabile, 1996). [Kognitivní
+stagnace](@/glossary/kognitivni-stagnace.md) je zastavení revize přesvědčení, [epistemická
+hyperinflace](@/glossary/epistemicka-hyperinflace.md) znehodnocení poznání rostoucími nároky, které
+podle pojetí knihy může sterilitě předcházet.
 
 Od klinických stavů je třeba odlišit depresi, u níž DSM-5-TR uvádí sníženou schopnost myslet
 a soustředit se (American Psychiatric Association, 2022), a vyhoření s jeho vyčerpáním a ztrátou
@@ -143,20 +147,21 @@ taxonomie navrhuje „externalizaci tvůrčích procesů“, což odpovídá zap
 rozpracovaných myšlenek s bezpečným partnerem, a „radikální změnu kontextu“, která odpovídá
 inkubaci v jiném prostředí (Wallas, 1926).
 
-Pro profesionála je klíčové obnovit prostor, v němž se nápad smí zrodit nehotový. Pomáhá
-dohodnout se s týmem nebo školitelem na oddělených fázích práce, zavést zpětnou vazbu, která
-informuje, a ne kontroluje (Amabile, 1996), a pracovat s postupy [sebesoucitu](@/kompendium/self-defense-guides/16-self-compassion.md).
-Dlouhodobě navazuje [dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md),
-které vrací práci vnitřní motivaci (Edmondson, 1999).
+Pro profesionála je klíčové obnovit prostor, v němž se nápad smí zrodit nehotový. Pomáhá dohodnout
+se s týmem nebo školitelem na oddělených fázích práce, zavést zpětnou vazbu, která informuje, a ne
+kontroluje (Amabile, 1996), a pracovat s postupy
+[sebesoucitu](@/kompendium/self-defense-guides/16-self-compassion.md). Dlouhodobě navazuje
+[dlouhodobé prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md),
+které má práci vrátit vnitřní motivaci.
 
 ## Meze a otevřené otázky
 
-Hlavní mez pojmu je, že pro něj neexistuje validovaný nástroj ani empirická studie a že
-tvořivost je obtížně měřitelná (Amabile, 1996). Otevřenou otázkou je, zda nejde jen o tvůrčí blok
-v náročném prostředí; kniha pojem drží proto, že pojmenovává rozpor mezi zachovaným porozuměním
-a ztracenou tvorbou, který obecnější pojmy nepostihují. Kde se sterilita spojí s rozpadem vazeb
-mezi oblastmi, kniha mluví o [epistemické fragmentaci](@/glossary/epistemicka-fragmentace.md).
-Riziko nadužití rozebírá kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
+Hlavní mez pojmu je, že pro něj neexistuje validovaný nástroj ani empirická studie a že tvořivost je
+obtížně měřitelná (Amabile, 1996). Otevřenou otázkou je, zda nejde jen o tvůrčí blok v náročném
+prostředí; kniha pojem drží proto, že pojmenovává rozpor mezi zachovaným porozuměním a ztracenou
+tvorbou, který obecnější pojmy nepostihují. Kde se sterilita spojí s rozpadem vazeb mezi oblastmi,
+kniha mluví o [epistemické fragmentaci](@/glossary/epistemicka-fragmentace.md). Riziko nadužití
+rozebírá kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md).
 
 ## Literatura
 
@@ -167,7 +172,6 @@ Riziko nadužití rozebírá kapitola [Přesah rámce](@/kompendium/critical-per
 - Edmondson, A. (1999). *Psychological safety and learning behavior in work teams*. Administrative Science Quarterly.
 - Feyerabend, P. (1975). *Against Method*. New Left Books.
 - Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Maslach, C., & Jackson, S. E. (1981). *The measurement of experienced burnout*. Journal of Occupational Behaviour.
 - Osborn, A. F. (1953). *Applied Imagination*. Scribner.
 - Popper, K. R. (1963). *Conjectures and Refutations*. Routledge.

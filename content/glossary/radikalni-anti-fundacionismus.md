@@ -58,7 +58,7 @@ semináře. Vyučující postupně rozebere empirické poznání, apriorní axio
 užitečnost, koherenci, konsenzus i jistotu vlastní zkušenosti; když doktorandka navrhne začít
 alespoň metodickou skepsí, ukáže, že i ta něco předpokládá. Po semestru studentka neumí stát na
 žádném výchozím bodě, a to ani mimo seminář. Samotný rozbor základů je přitom běžnou filozofickou
-prací (Haack, 1993); patologický je až konec, z něhož není cesty zpět.
+prací (Haack, 1993); patologický je až konec, z něhož seminář nenabízí cestu zpět.
 
 ## Jak se projevuje
 
@@ -76,7 +76,7 @@ ale nelze mezi nimi rozhodnout, popisuje heslo [epistemická stáze](@/glossary/
 
 ## Mechanismus
 
-Vlastní interpretací knihy je, že vzorec zaměňuje dvě otázky: zda poznání má konečný základ
+Vlastní *interpretací knihy* je, že vzorec zaměňuje dvě otázky: zda poznání má konečný základ
 a zda lze jednat na základě prozatímních východisek. Na první otázku může filozofie oprávněně
 odpovědět záporně, ale záporná odpověď z ní neplyne pro druhou. Wittgenstein (1969) tuto záměnu
 ukazuje na tom, že pevné body, na nichž stojí jednání, nejsou poznatky, které by bylo třeba

@@ -39,11 +39,12 @@ profesi nebo dlouhodobém intelektuálním projektu.
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká závažnost, postupný průběh,
-částečná vratnost, rozpad poznatkových celků a kognitivní dezorientace jako typické projevy)
-a jednou vinětou z akademického prostředí. Tato stránka z ní přebírá myšlenku a typické
-projevy, nikoli zařazení mezi „techniky“ jako něco, co se provádí; kniha popisuje jen
-rozpoznatelný vzorec, jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (rozpad poznatkových celků a kognitivní
+dezorientace jako typické projevy) a jednou vinětou z akademického prostředí. Původní taxonomie
+uvádí hodnocení závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Tato
+stránka z ní přebírá myšlenku a typické projevy, nikoli zařazení mezi „techniky“ jako něco, co
+se provádí; kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu v souladu se svými
+[etickými aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 Filozofické zázemí tvoří koherenční pojetí poznání. Quine popsal přesvědčení jako síť, v níž
 se jednotlivé uzly opírají o ostatní a žádný se netestuje izolovaně (Quine, 1951); jeho pojetí
@@ -82,16 +83,16 @@ souběh vnitřní dezorientace s vnějším vzorcem opravňuje k úvaze o manipu
 
 Integrace poznání potřebuje dvě věci: mostní pojmy, které spojují oblasti, a společenství,
 které tyto mosty uznává jako legitimní. Galison ukázal, že bez zón výměny se ani blízké
-subkultury fyziky nedomluví (Galison, 1997). Podle výkladu knihy fragmentace nastává, když se
-mostní pojmy soustavně označují za nelegitimní, a to opakovaně a ze všech stran, takže prvky
-zůstanou, ale jejich vztahy ztratí oporu.
+subkultury fyziky nedomluví (Galison, 1997). Fragmentace se podle výkladu knihy pozná podle toho,
+že se mostní pojmy soustavně a ze všech stran označují za nelegitimní a že prvky zůstávají, ale
+jejich vztahy ztrácejí oporu.
 
 Rozhodující je asymetrie a opakování. Jedna ostrá oponentura interdisciplinárního návrhu je
 běžná součást vědy, a Lamontová popsala, jak obtížně hodnoticí komise posuzují práce na pomezí
 oborů (Lamont, 2009). Epistemická fragmentace podle výkladu knihy předpokládá dlouhodobé
 prostředí, v němž se hodnotitelé neshodnou na ničem kromě toho, že propojení je chybné. Tento
 předpoklad je interpretací knihy; empirický výzkum epistemické fragmentace jako samostatného
-jevu neexistuje (Lifton, 1961).
+jevu neexistuje.
 
 ## Odlišení
 
@@ -101,12 +102,17 @@ kritéria, která lze vyslovit a o nichž lze diskutovat (Lamont, 2009). Kde kri
 že propojení „není věda“ nebo „není filozofie“, jde o signál, nikoli o důkaz manipulace.
 
 Od příbuzných pojmů knihy je třeba fragmentaci oddělit podle úrovně. [Konceptuální
-fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md) popisuje rozpad
-jednotlivých pojmů; epistemická fragmentace rozpad celého poznatkového pole. [Integrativní
-kolaps](@/glossary/integrative-collapse.md) je neschopnost spojit prvky jedné situace; zde jde
-o vztahy mezi oblastmi vědění (Thagard, 2000). [Epistemická
-bublina](@/glossary/epistemic-bubble.md) je vlastnost informačního prostředí, kdy člověk
-nepotkává jiné hlasy; fragmentace je vlastnost jeho poznatkové struktury (Nguyen, 2020).
+fragmentace](@/kompendium/techniques/ea-5-1-8-konceptualni-fragmentace.md) (EA-5.1.8) popisuje
+rozpad vazeb mezi pojmy jedné domény, které jediný aktér přemísťuje do cizích kontextů;
+epistemická fragmentace se pozná podle toho, že se rozpadá pole na pomezí oborů a že se
+hodnotitelé s navzájem neslučitelnými kritérii shodnou jen na odmítnutí mostních pojmů, tedy
+podle vzorce hraniční práce (Gieryn, 1983). [Integrativní
+kolaps](@/glossary/integrative-collapse.md) je stav, v němž člověk nedokáže prvky jednoho pojmu
+nebo situace spojit v úsudek, podle něhož by jednal; u fragmentace zůstává úsudek uvnitř
+každého oboru zachován a chybí jen syntéza mezi obory, na níž interdisciplinární práce stojí
+(Klein, 1990). [Epistemická bublina](@/glossary/epistemic-bubble.md) je vlastnost informačního
+prostředí, kdy člověk nepotkává jiné hlasy; fragmentace je vlastnost jeho poznatkové struktury
+(Nguyen, 2020).
 
 Od klinických stavů je třeba odlišit [disociaci](@/glossary/disociace.md), která odpojuje
 vědomí, paměť a identitu (van der Hart a kol., 2006), a dezorganizované myšlení a řeč
@@ -180,7 +186,6 @@ rozebírá kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framew
 - Janet, P. (1889). *L'Automatisme psychologique*. Alcan.
 - Klein, J. T. (1990). *Interdisciplinarity: History, Theory, and Practice*. Wayne State University Press.
 - Lamont, M. (2009). *How Professors Think: Inside the Curious World of Academic Judgment*. Harvard University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
 - Nguyen, C. T. (2020). *Echo chambers and epistemic bubbles*. Episteme.
 - Novak, J. D., & Gowin, D. B. (1984). *Learning How to Learn*. Cambridge University Press.
 - Quine, W. V. O. (1951). *Two Dogmas of Empiricism*. The Philosophical Review.

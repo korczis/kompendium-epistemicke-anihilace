@@ -23,11 +23,11 @@ image_alt = "Destruktivní cirkularita – glosář"
 
 Destruktivní cirkularita je vlastní název knihy z její původní taxonomie (2025), v níž se jmenuje v obráceném pořadí „Cirkularita destruktivní“; v odborné literatuře takový termín ustálený není. Označuje podobu kruhového myšlení, která na rozdíl od [hermeneutického kruhu](@/glossary/hermeneuticky-kruh.md) nevede k hlubšímu porozumění, ale k neplodné smyčce: myšlení se vrací do stejného bodu, každý pokus o pokrok vyvolá požadavek, který jej ruší, a východisko chybí. Pojem ukazuje na dobře popsané jevy, zejména na neproduktivní opakované myšlení a ruminaci (Watkins 2008; Nolen-Hoeksema 1991) a na regres požadavků na reflexivitu, který rozebírala sociologie vědeckého poznání (Woolgar 1988; Ashmore 1989).
 
-Výklad, že smyčku může zvenčí udržovat jiná osoba a že je pak podobou [epistemické anihilace](@/glossary/epistemicka-anihilace.md), je interpretací knihy. Kruhovost sama o sobě vadou není: Gadamer ukázal, že porozumění se vždy pohybuje mezi předporozuměním a textem a že tento kruh je produktivní (Gadamer 1960). Pojem míří jen na smyčky, které porozumění neprohlubují a nemají výstup.
+Výklad, že smyčku může zvenčí udržovat jiná osoba a že je pak podobou [epistemické anihilace](@/glossary/epistemicka-anihilace.md), je *interpretací knihy*. Kruhovost sama o sobě vadou není: Gadamer ukázal, že porozumění se vždy pohybuje mezi předporozuměním a textem a že tento kruh je produktivní (Gadamer 1960). Pojem míří jen na smyčky, které porozumění neprohlubují a nemají výstup.
 
 ## Původ a kontext pojmu
 
-Původní taxonomie řadí destruktivní cirkularitu mezi rekurzivní poruchy myšlení střední až vysoké závažnosti, s cyklickým a sebeposilujícím průběhem. Jako typické projevy uvádí myšlenkové smyčky, neschopnost postupu a frustrující opakování, jako obranu vnější přerušení cyklu a rozbor rekurzivních vzorců z vyšší úrovně. Obě obrany odpovídají metakognitivní terapii, podle níž ruminaci neudržuje obsah myšlenek, ale přesvědčení o užitečnosti dalšího přemýšlení a ztráta kontroly nad pozorností (Wells 2009).
+Původní taxonomie řadí destruktivní cirkularitu mezi rekurzivní poruchy myšlení. Původní taxonomie uvádí hodnocení závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Jako typické projevy uvádí myšlenkové smyčky, neschopnost postupu a frustrující opakování, jako obranu vnější přerušení cyklu a rozbor rekurzivních vzorců z vyšší úrovně. Obě obrany odpovídají metakognitivní terapii, podle níž ruminaci neudržuje obsah myšlenek, ale přesvědčení o užitečnosti dalšího přemýšlení a ztráta kontroly nad pozorností (Wells 2009).
 
 Sociologie vědeckého poznání zná vzorec z vlastní historie. Požadavek, aby výzkumník reflektoval svou pozici, lze uplatnit i na reflexi samu, a tak dále bez konce; Woolgar a Ashmore tuto potíž rozebrali jako problém reflexivity a ukázali, že jí nelze uniknout dalším patrem reflexe (Woolgar 1988; Ashmore 1989). Bourdieu naopak hájil reflexivitu jako kolektivní a metodickou praxi, která má zlepšit výzkum, nikoli jej zastavit (Bourdieu a Wacquant 1992).
 
@@ -55,11 +55,13 @@ Od náročné recenze nebo supervize se vzorec liší tím, zda je požadavek sp
 
 Od klinických stavů je třeba vzorec odlišit pečlivě. Ruminace provází depresi a prodlužuje její epizody (Nolen-Hoeksema 1991), opakující se pochybnosti a potřeba ujištění patří k obsedantně-kompulzivní poruše a k úzkostným stavům (American Psychiatric Association 2022). Tyto stavy vycházejí zevnitř a trvají napříč situacemi, kdežto destruktivní cirkularita v pojetí knihy je vázána na vztah nebo prostředí; klinický stav ji však může napodobit i zesílit, a proto patří do [diferenciální diagnostiky](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md).
 
+Od techniky [EA-2.5.8 Rekurzivní spirála pochybnosti](@/kompendium/techniques/ea-2-5-8-recursive-doubt-spiral.md) se vzorec liší strukturou i zdrojem. Spirála je regres, v němž pochybnost míří na sebe samu a otevírá stále vyšší patra, a udržuje ji metakognitivní přesvědčení, že je nutné přemýšlet až do jistoty (Wells 2009); destruktivní cirkularita je kruh, který se vrací do stejného bodu, protože vnější požadavek se každým splněním obnoví.
+
 ## Klinický, právní a etický rámec
 
-Destruktivní cirkularita není diagnóza. Klinicky zasluhují pozornost její následky, zejména ruminace, úzkost, vyčerpání a ztráta důvěry ve vlastní úsudek. Metakognitivní terapie nabízí pro ruminaci ověřený rámec: nepracuje s obsahem smyčky, ale s přesvědčením, že je nutné v ní pokračovat (Wells 2009). V akademickém prostředí, kde se vzorec objevuje nejčastěji, platí stejný institucionální rámec jako u jiných podob zneužívajícího vedení (Tepper 2000).
+Destruktivní cirkularita není diagnóza. Klinicky zasluhují pozornost její následky, zejména ruminace, úzkost, vyčerpání a ztráta důvěry ve vlastní úsudek. Metakognitivní terapie nabízí pro ruminaci ověřený rámec: nepracuje s obsahem smyčky, ale s přesvědčením, že je nutné v ní pokračovat (Wells 2009). V akademickém prostředí platí stejný institucionální rámec jako u jiných podob zneužívajícího vedení (Tepper 2000).
 
-Právně jde většinou o vztah s vnitřními předpisy instituce; doktorské studium se v Česku řídí zákonem č. 111/1998 Sb., o vysokých školách, a vnitřními předpisy školy, které umožňují obrátit se na orgány dohlížející na studijní program. Eticky platí, že popis vzorce nesmí sloužit k odmítání oprávněných požadavků na reflexivitu; o vzorci lze mluvit, až když je doloženo, že žádná odpověď nemůže obstát (Ashmore 1989).
+Právně jde většinou o vztah s vnitřními předpisy instituce; doktorské studium se v Česku řídí zákonem č. 111/1998 Sb., o vysokých školách, a vnitřními předpisy školy, které umožňují obrátit se na orgány dohlížející na studijní program. Eticky platí, že popis vzorce nesmí sloužit k odmítání oprávněných požadavků na reflexivitu; o vzorci lze mluvit, až když je doloženo, že žádná odpověď nemůže obstát; tak to vymezuje [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) knihy.
 
 ## Obrana a zotavení
 
@@ -69,7 +71,7 @@ Druhou obranou je rozbor smyčky z vyšší úrovně, ale jen jednou a s cílem 
 
 ## Meze pojmu
 
-Pojem nemá vlastní empirickou validaci a v původní taxonomii slučuje kruh s regresem. Kniha jej proto užívá úzce, pro smyčky bez výstupu ve vztahu nebo prostředí, a regres odkazuje k sousedním pojmům. Nebezpečím je i zneužití pojmu proti oprávněné kritice: ne každá opakovaná připomínka je smyčkou, protože opakuje-li se, může to znamenat, že nebyla vypořádána. Rozlišovacím měřítkem zůstává splnitelnost požadavku (Watkins 2008).
+Pojem nemá vlastní empirickou validaci a v původní taxonomii slučuje kruh s regresem. Kniha jej proto užívá úzce, pro smyčky bez výstupu ve vztahu nebo prostředí, a regres odkazuje k sousedním pojmům. Nebezpečím je i zneužití pojmu proti oprávněné kritice, včetně požadavků na metodickou reflexivitu, které hájí Bourdieu (Bourdieu a Wacquant 1992): ne každá opakovaná připomínka je smyčkou, protože opakuje-li se, může to znamenat, že nebyla vypořádána. Rozlišovacím měřítkem zůstává splnitelnost požadavku, jak ji kniha vymezuje ve svých [metodologických poznámkách](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Literatura
 

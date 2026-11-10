@@ -37,12 +37,13 @@ tohoto vztahu rozebírá heslo [sebereference](@/glossary/self-reference.md).
 
 ## Původ a kontext pojmu
 
-Původní taxonomie (2025) popisuje jev tabulkou aspektů (vysoká závažnost, nelineární průběh
-s kaskádovitým zrychlením, nevratnost po dosažení kritického bodu, rekurzivní kolaps
-a sebedestruktivní iterace jako typické projevy), výkladem v rovině formální, kognitivní,
-informační a metafyzické a vinětou logika, jehož sebereferenční formální systém se rozpadá.
-Tato stránka z ní přebírá myšlenku a projevy, nikoli zařazení mezi „dezintegrace“ ani tvrzení
-o nevratnosti; kniha popisuje jen rozpoznatelný vzorec, jeho odlišení a obranu (Lifton, 1961).
+Původní taxonomie (2025) popisuje jev tabulkou aspektů (rekurzivní kolaps a sebedestruktivní iterace
+jako typické projevy), výkladem v rovině formální, kognitivní, informační a metafyzické a vinětou
+logika, jehož sebereferenční formální systém se rozpadá. Původní taxonomie uvádí hodnocení
+závažnosti a vratnosti; to nemá empirickou oporu a kniha je nepřebírá. Tato stránka z ní přebírá
+myšlenku a projevy, nikoli zařazení mezi „dezintegrace“; kniha popisuje jen rozpoznatelný vzorec,
+jeho odlišení a obranu, jak je vymezují [metodologické
+poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 Logické zázemí tvoří paradoxy sebereference. Russellův paradox množiny všech množin, které
 nejsou svými prvky, ukázal, že neomezená sebeaplikace pojmu vede k rozporu, a Russell na něj
@@ -74,9 +75,10 @@ upíná na vnitřní hrozbu a starost se stává předmětem další starosti (W
 
 Třetím znakem, který ukazuje na možnou manipulaci, je prostředí, které sebereflexi vynucuje
 a zároveň trestá: každou odpověď vrací s požadavkem „a proč si myslíš, že si to myslíš?“
-a nikdy nepřijme žádnou úroveň jako dostatečnou. Kniha tento vzorec sleduje u [referenční
-rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) a [sebereferenčního
-paradoxu](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md) (Lifton, 1961).
+a nikdy nepřijme žádnou úroveň jako dostatečnou. Lifton popsal podobně nekonečný požadavek
+sebekritiky v myšlenkové reformě jako kult zpovědi (Lifton, 1961). Kniha tento vzorec sleduje
+u [referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md)
+a [sebereferenčního paradoxu](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md).
 
 ## Mechanismus
 
@@ -86,12 +88,12 @@ podobné sebezesilující smyčky ve vztazích a společnostech a ukázal, že b
 k rozpadu systému (Bateson, 1972). Podle výkladu knihy je implozivní rekurze tento typ smyčky
 uvnitř poznávání.
 
-Rozhodující je, že smyčku lze zastavit omezením úrovní. V logice to dělá teorie typů nebo
-hierarchie jazyků, které nedovolí, aby se výrok vztahoval k vlastní úrovni (Russell, 1908);
-v psychologii odstup od myšlenek, který s nimi nepolemizuje (Wells, 2009). Původní taxonomie
-mluví o „rekurzivní limitaci“ a „hierarchické segmentaci“. Výklad jevu jako nevratného
-„fázového přechodu“ je interpretací původní taxonomie, kterou kniha nepřebírá; empirický výzkum
-implozivní rekurze jako samostatného jevu neexistuje.
+Rozhodující je, že smyčku lze zastavit omezením úrovní. V logice to dělá teorie typů nebo hierarchie
+jazyků, které nedovolí, aby se výrok vztahoval k vlastní úrovni (Russell, 1908; Tarski, 1944);
+v psychologii odstup od myšlenek, který s nimi nepolemizuje (Wells, 2009). Původní taxonomie mluví
+o „rekurzivní limitaci“ a „hierarchické segmentaci“. Výklad jevu jako nevratného „fázového přechodu“
+je interpretací původní taxonomie, kterou kniha nepřebírá; empirický výzkum implozivní rekurze jako
+samostatného jevu neexistuje.
 
 ## Odlišení
 
@@ -123,9 +125,9 @@ nebo terapie přijetí a závazku, která pracuje s odstupem od myšlenek (Hayes
 U podezření na psychotické onemocnění má přednost psychiatrická péče.
 
 Eticky je podstatné, že kniha nepopisuje, jak takovou smyčku navodit, a tabulku původní taxonomie
-převádí jen na rozpoznávací znaky v souladu s [etickými aspekty
+(2025) převádí jen na rozpoznávací znaky v souladu s [etickými aspekty
 Kompendia](@/kompendium/01-predmluva/eticke-aspekty.md). Výzkum sebereference v logice
-a informatice je legitimní a plodný obor a jeho výsledky nejsou návodem ke škodě (Kripke, 1975).
+a informatice je legitimní a plodný obor a jeho výsledky nejsou návodem ke škodě.
 
 ## Obecný příklad
 
@@ -135,7 +137,7 @@ složitějšími formulemi naráží na rozpory. Měsíce nad nimi uvažuje i v 
 vlastní úsudky stejně jako formule, až nedokáže dokončit ani běžný důkaz. Obrat přichází, když
 s kolegou systém omezí na stupně, v nichž se formule vztahují jen k nižší úrovni, a zároveň si
 vymezí čas, kdy o vlastním myšlení nepřemýšlí; systém přestane být sporný a úsudky se vrátí
-(srov. Kripke, 1975).
+(srov. Tarski, 1944).
 
 ## Obrana a zotavení
 
@@ -174,6 +176,7 @@ rozebírá kapitola [Přesah rámce](@/kompendium/critical-perspectives/3-framew
 - Priest, G. (1987). *In Contradiction: A Study of the Transconsistent*. Martinus Nijhoff.
 - Russell, B. (1908). *Mathematical logic as based on the theory of types*. American Journal of Mathematics.
 - Sass, L. A., & Parnas, J. (2003). *Schizophrenia, consciousness, and the self*. Schizophrenia Bulletin.
+- Tarski, A. (1944). *The semantic conception of truth and the foundations of semantics*. Philosophy and Phenomenological Research.
 - Turing, A. M. (1936). *On computable numbers, with an application to the Entscheidungsproblem*. Proceedings of the London Mathematical Society.
 - Wells, A. (1995). *Meta-cognition and worry: A cognitive model of generalized anxiety disorder*. Behavioural and Cognitive Psychotherapy.
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.

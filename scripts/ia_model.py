@@ -23,6 +23,10 @@ GENERATED_MARKERS = re.compile(
     r"NLLB-AUTO-BLOCK|[Ss]trukturální stub|structural stub|Tato stránka je placeholder"
     r"|pojem v sekci \S+ znalostní báze Prismatic Platform|^stub\s*=\s*true", re.M
 )
+# The site's own base path or host written into content goes stale when the site moves; links
+# to pages are @/ links and scripts are {{ <viz_script name="…" /> }}.
+HARDCODED = re.compile(r"""(?:src|href)=["']/kompendium-epistemicke-anihilace/"""
+                       r"|https?://korczis\.github\.io/kompendium-epistemicke-anihilace/")
 RELATED_HEADING = re.compile(r"^##\s+(Související|Cross-linky|Související stránky)\b", re.M | re.I)
 
 
@@ -109,6 +113,8 @@ def load_pages() -> list:
             "generated": bool(GENERATED_MARKERS.search(text)),
             "template": str(front.get("template", "")),
             "has_definition": bool(re.search(r"^##\s+Definice\b", body, re.M)),
+            "hardcoded": bool(HARDCODED.search(body)),
+            "ea_category": str(extra.get("ea_category", "")) if isinstance(extra, dict) else "",
             "links": [m.group(1) for m in AT_LINK.finditer(body)],
         })
     known = {p["path"] for p in pages}

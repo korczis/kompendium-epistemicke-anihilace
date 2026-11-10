@@ -82,6 +82,8 @@
       });
       return {
         raw: g, nodes: g.nodes, edges: g.edges, byId: byId, byPath: byPath, out: out, in: inn,
+        // Názvy rodin technik odvozené při sestavení (graph v2 „families“, např. EA-1 → název).
+        families: g.families || {},
         sections: sections,
         color: function (section) { return PALETTE[(sectionIndex[section] || 0) % PALETTE.length]; },
         url: function (n) { return basePath + n.url; },

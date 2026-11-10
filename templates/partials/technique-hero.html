@@ -88,6 +88,9 @@
 {%- endfor -%}
 {%- set hx_cat_parts = hx_cat | split(pat=". ") -%}
 {%- if hx_cat is starting_with(pat=hx_a ~ ". ") and hx_cat_parts | length == 2 %}{% set hx_family_name = hx_cat_parts[1] %}{% elif hx_cat is starting_with(pat=hx_a ~ ". ") %}{% set hx_family_name = hx_cat | replace(from=hx_a ~ ". ", to="") %}{% elif hx_cat %}{% set hx_family_name = hx_cat %}{% else %}{% set hx_family_name = "Rodina " ~ hx_family %}{% endif -%}
+{#- Název rodiny přednostně z odvozeného grafu (graph.json „families“, build-graph.py). -#}
+{%- set hx_graph = load_data(path="static/data/graph.json") -%}
+{%- if hx_graph.families is defined and hx_family in hx_graph.families %}{% set hx_family_name = hx_graph.families[hx_family] %}{% endif -%}
 {%- set hx_pos = hx_before + 1 -%}
 {%- set hx_pct = (hx_pos * 100 / hx_count) | round(precision=1) -%}
 {%- if hx_pct < 4 %}{% set hx_pct = 4 %}{% endif -%}

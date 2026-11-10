@@ -14,7 +14,7 @@ const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/,
 // Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
 // (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
 const FIXED = [
-  { path: '', painted: 1, note: 'úvod: p5 síť pojmů' },
+  { path: '', painted: 1, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1]], note: 'úvod: p5 síť pojmů, upozornění s kontakty pomoci' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
   { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
   { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },

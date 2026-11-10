@@ -1,76 +1,81 @@
 +++
-title = "Narativní medicína"
-description = "Kritická perspektiva — narativní medicína."
+title = "Narativní medicína jako alternativa"
+description = "Místo zařazení do kategorie porozumění příběhu: co narativní medicína a narativní terapie knize ukazují, proč hrozí cizí vypravěč a kde má vyprávění své meze."
 weight = 24
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "alternative"]
+tags = ["kompendium", "critical-perspectives", "alternative", "klinicke", "identity"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["22-trauma-framework-alternative", "23-political-economy-alternative", "25-critical-psychiatry-alternative", "26-mad-studies-perspective"]
+related_terms = ["9-essentialism-critique", "11-iatrogenic-overreach", "26-mad-studies-perspective", "29-process-philosophy-alt"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Narativní medicína
+# Narativní medicína jako alternativa
 
-> **Bucket**: alternative · **Unique angle**: narrative-as-meaning vs. category-as-type
+> **Okruh**: alternativní rámec · **Jádro námitky**: kategorie řekne, čím člověk je; příběh řekne, kým se stal a proč – a pro zotavení je důležitější to druhé
 
-## Kritika nebo alternativa
+Taxonomie pracuje s typy: technika, marker, fáze, protokol. Narativní medicína pracuje s příběhy: s tím, jak člověk vypráví o sobě, o tom, co se mu stalo, a o světě, ve kterém žije. Jako alternativa k rámci [epistemické anihilace](@/glossary/epistemicka-anihilace.md) nabízí jiný způsob poznání – ne zařazení případu, ale porozumění osobě – a varuje, že kategorie mohou příběh člověka přepsat.
 
-Narativní medicína (Charon, Frank) nabízí alternativu — místo klasifikace přistupuje k osobě jako k autorovi vlastního příběhu, jehož chování má smysl ve vlastní narativě.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Rita Charonová definovala narativní medicínu jako klinickou praxi založenou na schopnosti rozpoznat, vstřebat, vyložit a nechat se pohnout příběhy nemoci; zdůraznila pozorné naslouchání a „blízké čtení“ toho, co pacient říká (Charon 2006). Arthur Kleinman rozlišil nemoc jako biologický proces a nemoc jako žitou zkušenost, která má pro člověka smysl a kterou lékař musí slyšet (Kleinman 1988). Arthur Frank popsal tři typy vyprávění nemocných: příběh návratu ke zdraví, chaotický příběh, který nemá souvislý děj, a příběh hledání, v němž nemoc dává nový směr; varoval, že lékaři a okolí často vnucují příběh návratu tam, kde člověk žije chaos (Frank 1995). Michael White a David Epston v narativní terapii ukázali, že lidé žijí v „dominantních příbězích“, které jim často napsal někdo jiný, a že terapie může pomoci problém „externalizovat“ a najít alternativní příběh (White a Epston 1990; viz [narativní terapie](@/glossary/narativni-terapie.md)). Jerome Bruner připomněl, že vyprávění je základní způsob, jímž lidé utvářejí smysl (Bruner 1990).
 
-## Argumentace
+Výtka vůči rámci EA zní: kategorie, ať jakkoli přesná, je příběh vyprávěný zvenčí. Když klinik řekne „tohle byla technika [EA-2.5.3](@/kompendium/techniques/ea-2-5-3-self-doubt-cultivation.md)“, nabízí člověku hotovou zápletku s pachatelem, technikou a obětí. Pokud ji člověk převezme, může získat jasnost – ale také ztratit vlastní slova, ambivalenci a části zkušenosti, které se do zápletky nevejdou: lásku, která ve vztahu byla, vlastní volby, chvíle odporu.
 
-Klasifikační framework redukuje osobu na typ. Narativní přístup ptá: jaký příběh tento člověk vypráví o sobě a o světě? Co dává jeho chování smysl z jeho perspektivy? To je epistemologicky a eticky odlišné — místo objektivace nabízí porozumění.
+## Kde zasahuje tuto knihu
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Kniha narativní rozměr nepřehlíží. Popisuje narušení [narativní identity](@/glossary/narativni-identita.md) jako jeden z následků EA a v [návodech sebeobrany](@/kompendium/self-defense-guides/_index.md) nabízí [integraci životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) a [správu narativu](@/kompendium/self-defense-guides/41-narrative-stewardship.md); výzkumná metodologie zahrnuje [narativní analýzu](@/kompendium/research-methodology/narrative-analysis-EA.md). Napětí je ale v pořadí: v diagnostice a kazuistikách přichází kategorie první a příběh ji ilustruje. Narativní medicína by pořadí obrátila: nejprve příběh vlastními slovy, a teprve pak – pokud to člověku pomůže – kategorie jako jeden z možných výkladů.
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+## Ilustrační případ
 
-## Empirická opora
+Obecný kompozit: muž, který deset let žil v náboženské komunitě, ji opustil a přichází do terapie. Terapeut, který zná rámec EA, rychle pozná znaky kontroly a nabídne mu výklad: byl jste manipulován těmito technikami. Muž přikývne, ale v dalších sezeních mluví čím dál méně. Později řekne, že v komunitě prožil i nejlepší roky života, že tam poznal ženu i Boha a že výklad „byl jste manipulován“ mu vzal i tohle. Narativní přístup by začal jinak: nechal by ho vyprávět, včetně toho, co bylo dobré, a hledal by, kde v příběhu jsou chvíle, kdy si sám něčeho všiml, odporoval nebo se rozhodl. Pojmy EA by pak mohly přijít jako nástroj, kterým muž sám pojmenuje to, co mu ublížilo – aniž by přišel o zbytek.
 
-Charon (2006) *Narrative Medicine*; Frank (1995) *The Wounded Storyteller*; Bruner (1990) *Acts of Meaning*.
+## Co alternativa nevidí
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+Příběh není zárukou pravdy. Člověk může vyprávět příběh, který mu vštípila skupina nebo partner, a jeho vlastní slova mohou být ozvěnou cizích; právě to kniha popisuje jako internalizaci. Narativní soudržnost také není totéž co faktická přesnost, a ve forenzním kontextu rozhoduje to druhé. Konečně: odmítnutí kategorií může člověka připravit o slova, která by mu pomohla pochopit, že nebyl „slabý“, ale vystavený vzorci, který má jméno.
 
-## Implikace pro EA framework
+## Co si z alternativy vzít
 
-EA framework musí integrovat **narativní vrstvu**: jaká je životní narativa osoby? Jak její chování dává smysl v jejím příběhu? Glossary entries musí obsahovat narrative-context sekci.
+- **Příběh před kategorií.** V prvních setkáních nechat člověka vyprávět vlastními slovy a kategorie nenabízet, dokud k nim příběh sám nevede.
+- **Zapisovat slova klienta.** V dokumentaci zachovat klientovy formulace vedle odborných výkladů.
+- **Respektovat chaos.** Netlačit na souvislý příběh návratu tam, kde člověk zatím žije zmatek; i to je fáze, ne selhání.
+- **Externalizovat problém.** Mluvit o „kontrole, která se ve vztahu usadila“, ne o tom, že je člověk „poškozený“.
+- **Hledat chvíle odporu.** V příběhu vyhledávat okamžiky, kdy člověk něco tušil nebo se bránil; jsou základem obnovy důvěry ve vlastní úsudek.
+- **Ambivalence je povolená.** Dobré vzpomínky na skupinu nebo vztah nejsou známkou nedokončeného zotavení.
 
-Konkrétní implementační kroky:
+## Co zůstává otevřené
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+Jak rozlišit vlastní příběh od příběhu, který člověku vnutil někdo jiný, aniž by terapeut sám nevnutil třetí? Jak spojit narativní pravdu, která je pro zotavení klíčová, s faktickou pravdou, kterou vyžaduje soud? A může taxonomie, jako je tato kniha, vůbec psát kazuistiky, které nejsou vyprávěny zvenčí?
 
-## Odpovědi z kompendia
+## Literatura
 
-Kompendium recovery-protocols a self-defense-guides integrují narativní přístup. Educational scenarios často používají narrative format.
+- Charon, R. (2006). *Narrative Medicine: Honoring the Stories of Illness*. Oxford University Press.
+- Kleinman, A. (1988). *The Illness Narratives*. Basic Books.
+- Frank, A. W. (1995). *The Wounded Storyteller*. University of Chicago Press.
+- White, M., & Epston, D. (1990). *Narrative Means to Therapeutic Ends*. W. W. Norton.
+- Bruner, J. (1990). *Acts of Meaning*. Harvard University Press.
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+## Související
 
-## Cross-linky
+**Kritické perspektivy**
 
-- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
-- [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
-- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
-- [Political economy alternativa](@/kompendium/critical-perspectives/23-political-economy-alternative.md)
-- [Trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)
-- [Mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
-- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
-- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+- [Esencialistický klam v kategoriích EA](@/kompendium/critical-perspectives/9-essentialism-critique.md) – nálepka jako cizí vypravěč.
+- [Iatrogenní účinky intervencí EA](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md) – přepis biografie jako škoda.
+- [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md) – vlastní hlas jako zdroj poznání.
+
+**Kapitoly a postupy**
+
+- [Sebe-obrana: Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) – narativní práce postiženého.
+- [Narativní analýza EA příběhů](@/kompendium/research-methodology/narrative-analysis-EA.md) – výzkumná metoda.
+- [Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) – filozofické zázemí.
+
+**Pojmy**
+
+- [Narativní identita](@/glossary/narativni-identita.md) – co EA narušuje a co zotavení obnovuje.
+- [Narativní terapie](@/glossary/narativni-terapie.md) – externalizace a alternativní příběhy.
 
 ## Connect & Contribute
 

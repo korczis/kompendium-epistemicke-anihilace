@@ -1,76 +1,82 @@
 +++
-title = "Political economy alternativa"
-description = "Kritická perspektiva — political economy alternativa."
+title = "Politická ekonomie jako alternativa"
+description = "Velkou část epistemického poškození vyrábějí ekonomické struktury – reklama, PR, ekonomika pozornosti. Co politickoekonomický pohled knize ukazuje a kde sám přestřeluje."
 weight = 23
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "alternative"]
+tags = ["kompendium", "critical-perspectives", "alternative", "propaganda", "digitalni"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["21-systems-theory-alternative", "22-trauma-framework-alternative", "24-narrative-medicine-alternative", "25-critical-psychiatry-alternative"]
+related_terms = ["21-systems-theory-alternative", "14-power-asymmetry-EA", "6-political-instrumentalization", "3-framework-overreach"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Political economy alternativa
+# Politická ekonomie jako alternativa
 
-> **Bucket**: alternative · **Unique angle**: strukturální producenti manipulace — kapitalismus jako kontext
+> **Okruh**: alternativní rámec · **Jádro námitky**: rámec, který hledá jednotlivé manipulátory, přehlíží ty, kdo epistemické poškození vyrábějí ve velkém a s výdělkem
 
-## Kritika nebo alternativa
+Kniha popisuje techniky převážně v lidském měřítku: mentor a doktorand, vůdce a skupina, partner a partnerka. Politická ekonomie se dívá jinam. Ptá se, kdo vlastní prostředky, jimiž se šíří informace, kdo vydělává na tom, čemu lidé věří, a jaké pobídky vedou firmy, média a platformy k tomu, aby utvářely lidské poznání způsobem, který slouží jim. Z tohoto pohledu je největším producentem [epistemické anihilace](@/glossary/epistemicka-anihilace.md) nikoli osamělý manipulátor, ale struktura.
 
-Politická ekonomie (Marx, Polanyi, Harvey) rámuje 'manipulaci' jako strukturální produkt kapitalistických vztahů — ne osobnostní vlastnost, ale systémovou nutnost.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Edward Bernays, jeden ze zakladatelů oboru public relations, otevřeně psal o „vědomé a inteligentní manipulaci organizovaných zvyků a názorů mas“ jako o důležité součásti demokratické společnosti (Bernays 1928). Karl Polanyi popsal, jak tržní logika proniká do oblastí života, které jí dříve nepodléhaly (Polanyi 1944). Edward Herman a Noam Chomsky navrhli model propagandy, podle něhož zpravodajství v tržních médiích prochází filtry vlastnictví, závislosti na reklamě, závislosti na oficiálních zdrojích, tlaku kritiků a ideologického nepřítele, takže i bez cenzury vytváří obraz světa příznivý mocným (Herman a Chomsky 1988). Naomi Oreskesová a Erik Conway doložili, jak tabákový průmysl a později další odvětví cíleně vyráběly pochybnosti o vědeckých poznatcích (Oreskes a Conway 2010). Shoshana Zuboffová popsala „sledovací kapitalismus“, který z lidského chování těží data k predikci a ovlivňování (Zuboff 2019).
 
-## Argumentace
+Výtka vůči rámci EA má dvě části. Zaprvé: rámec se soustředí na jednotlivé aktéry a tím odvádí pozornost od struktur, které mají nesrovnatelně větší dosah. Zadruhé: i obrana je individualizovaná. Doporučení vést informační dietu, triangulovat zdroje a pěstovat kritické myšlení přenášejí odpovědnost na jednotlivce, zatímco příčina leží v pobídkách, které by šlo změnit regulací.
 
-Reklama je strukturálně manipulativní. Korporátní PR je strukturálně manipulativní. Volební kampaně jsou strukturálně manipulativní. EA framework, který se zaměřuje na individuální manipulátory, riskuje, že přehlédne systémové producenty manipulace v ekonomickém systému.
+## Kde zasahuje tuto knihu
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Kniha strukturní producenty nepomíjí. Mezi [historickými případy](@/kompendium/historical-cases/_index.md) jsou [manipulace tabákovým průmyslem](@/kompendium/historical-cases/25-tobacco-doubt.md), [popírání klimatu](@/kompendium/historical-cases/26-climate-denial.md) a [FDA a opioidy](@/kompendium/historical-cases/40-fda-opioid.md); teoretické reflexe rozebírají [model propagandy](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md) a [sledovací kapitalismus](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md); populační část se věnuje [regulaci platforem](@/kompendium/population-health/25-platform-regulation-EA.md). Těžiště knihy – techniky, diagnostika, terapie, [návody sebeobrany](@/kompendium/self-defense-guides/_index.md) – je ale v individuální rovině. Čtenář, který prochází katalog technik, se dozví mnoho o tom, jak rozpoznat manipulujícího člověka, a méně o tom, jak rozpoznat obchodní model.
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+## Ilustrační případ
 
-## Empirická opora
+Obecný kompozit: starší muž se během dvou let dostane do stavu, kdy nevěří lékařům, rodině ani zprávám a stráví hodiny denně u videí, která mu doporučuje aplikace. Rodina hledá „toho, kdo ho zmanipuloval“. Žádný takový člověk neexistuje. Existuje systém doporučování optimalizovaný na čas strávený u obrazovky, ekosystém tvůrců, kteří vydělávají na pozornosti, a prodejci doplňků stravy, kteří sponzorují nejsledovanější kanály. Pojmy EA popisují dopad na muže přesně – izolace od nezávislých zdrojů, eroze důvěry, odolnost vůči korekci. Kdo by ale hledal jen techniky a jejich autora, mine příčinu. Pomoc muži zahrnuje vztah a péči; prevence u dalších lidí zahrnuje i pravidla pro platformy.
 
-Marx (1867) *Capital*; Polanyi (1944) *The Great Transformation*; Harvey (2005) *A Brief History of Neoliberalism*; Chomsky & Herman (1988) *Manufacturing Consent*.
+## Co alternativa nevidí
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+Politická ekonomie vysvětluje masové jevy, ale špatně vysvětluje intimní. Ovládání v partnerském vztahu nebo v malé náboženské skupině nemá obchodní model a nevymizí regulací trhu. Pohled, který vidí za každým poškozením kapitalismus, navíc riskuje stejnou nefalzifikovatelnost, jakou Popper vytýkal marxismu (viz [Přesah rámce](@/kompendium/critical-perspectives/3-framework-overreach.md)). A historie ukazuje, že nejhlubší systémové epistemické poškození způsobily i nekapitalistické režimy, které kniha také popisuje.
 
-## Implikace pro EA framework
+## Co si z alternativy vzít
 
-EA framework musí integrovat **strukturální analýzu**: kdo má prospěch z manipulativního systému? Kde jsou ekonomické pobídky? Glossary entries musí obsahovat structural-context.
+- **Otázka „komu to prospívá“.** U každého rozsáhlého vzorce se ptát po ekonomických a institucionálních pobídkách, ne jen po aktérech.
+- **Obrana nejen individuální.** Vedle dovedností jednotlivce jmenovat strukturální opatření: transparentnost algoritmů, pravidla pro reklamu, nezávislost médií, odpovědnost platforem.
+- **Střet zájmů ve výzkumu.** Sledovat, kdo financuje výzkum manipulace a obrany a co z toho má (viz [Conflict of Interest ve výzkumu](@/kompendium/research-methodology/conflict-of-interest-research.md)).
+- **Nevinit jednotlivce za strukturu.** Člověk zasažený strukturou není „naivní“; nese důsledky prostředí, které ho k tomu vedlo.
+- **Rozlišovat měřítka.** Pro intimní vzorce používat jazyk aktérů, pro masové vzorce jazyk struktur – a nepřenášet jeden do druhého bez důvodu.
+- **Strukturní data v posudku.** U rozsáhlých kampaní a platforem doložit obchodní model, zdroje financování a pobídky stejně pečlivě jako jednotlivé techniky; bez toho zůstane analýza u symptomů.
 
-Konkrétní implementační kroky:
+## Co zůstává otevřené
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+Je reklama nebo optimalizace pozornosti formou epistemické anihilace, nebo jen jejím prostředím? Kde je hranice mezi přesvědčováním, které tržní společnost potřebuje, a strukturálním poškozením poznání? A jak má kniha mluvit o strukturách, aby neupadla do konspiračního myšlení, které sama popisuje u [teorií o hlubokém státu](@/kompendium/historical-cases/30-deep-state-narrative.md)?
 
-## Odpovědi z kompendia
+## Literatura
 
-Kompendium organizational-defense a population-health integrují strukturální analýzu. Cross-domain rozšiřuje na ekonomický kontext.
+- Bernays, E. L. (1928). *Propaganda*. Horace Liveright.
+- Polanyi, K. (1944). *The Great Transformation*. Farrar & Rinehart.
+- Herman, E. S., & Chomsky, N. (1988). *Manufacturing Consent: The Political Economy of the Mass Media*. Pantheon.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury Press.
+- Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+## Související
 
-## Cross-linky
+**Kritické perspektivy**
 
-- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
-- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
-- [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
-- [Trauma-informovaný framework](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md)
-- [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)
-- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
-- [Framework overreach — když EA vysvětluje vše](@/kompendium/critical-perspectives/3-framework-overreach.md)
-- [Kruhové uvažování v EA detekci](@/kompendium/critical-perspectives/4-circular-reasoning-risk.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+- [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md) – systém na úrovni vztahů a organizací.
+- [Mocenská asymetrie v aplikaci EA](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md) – kdo má moc nad výkladem.
+- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md) – kdy se analýza struktur mění v nálepkování.
+
+**Kapitoly a případy**
+
+- [Chomsky: Manufacturing Consent a model propagandy](@/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md) – teorie mediálních filtrů.
+- [Zuboff: Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md) – data a predikce chování.
+- [Manipulace tabákovým průmyslem](@/kompendium/historical-cases/25-tobacco-doubt.md) – výroba pochybností jako obchodní strategie.
+- [Regulace platforem v kontextu EA](@/kompendium/population-health/25-platform-regulation-EA.md) – strukturální obrana.
+
+**Pojmy**
+
+- [Propaganda](@/glossary/propaganda.md) – organizované utváření názorů.
+- [Epistemic Bubble](@/glossary/epistemic-bubble.md) – izolace od zdrojů, kterou mohou vytvářet algoritmy.
 
 ## Connect & Contribute
 

@@ -1,76 +1,84 @@
 +++
-title = "Otázka validity souhlasu v EA výzkumu"
-description = "Kritická perspektiva — otázka validity souhlasu v ea výzkumu."
+title = "Otázka platnosti souhlasu ve výzkumu a praxi EA"
+description = "Paradox souhlasu: EA poškozuje právě ty schopnosti, které informovaný souhlas předpokládá. Formální a skutečný souhlas, podporované rozhodování a průběžné odvolání."
 weight = 15
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "ethical"]
+tags = ["kompendium", "critical-perspectives", "ethical", "ethics", "research-methodology"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["13-victim-blaming-risk", "14-power-asymmetry-EA", "16-treatment-coercion-risk", "17-confidentiality-EA"]
+related_terms = ["16-treatment-coercion-risk", "19-research-exploitation", "17-confidentiality-EA", "14-power-asymmetry-EA"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Otázka validity souhlasu v EA výzkumu
+# Otázka platnosti souhlasu ve výzkumu a praxi EA
 
-> **Bucket**: ethical · **Unique angle**: substantivní vs. formální souhlas — [informed consent](@/glossary/informed-consent.md) v EA
+> **Okruh**: etická kritika · **Jádro námitky**: od člověka, jehož schopnost posuzovat byla poškozena, chceme souhlas, který tuto schopnost předpokládá
 
-## Kritika nebo alternativa
+[Informovaný souhlas](@/glossary/informed-consent.md) je základní pojistkou moderní medicíny i výzkumu. Norimberský kodex z roku 1947 a Helsinská deklarace z roku 1964 ho učinily podmínkou etického výzkumu na lidech; Ruth Fadenová a Tom Beauchamp popsali jeho vývoj a teorii (Faden a Beauchamp 1986). Kritika platnosti souhlasu upozorňuje, že u [epistemické anihilace](@/glossary/epistemicka-anihilace.md) naráží souhlas na zvláštní paradox: jev, o jehož zkoumání či léčbu jde, zasahuje právě ty schopnosti, na nichž souhlas stojí.
 
-Souhlas s EA výzkumem nebo klinickou aplikací je problematický — výzkumný subjekt nemůže plně rozumět implikacím klasifikace.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Thomas Grisso a Paul Appelbaum rozložili způsobilost k souhlasu na čtyři schopnosti: porozumět informacím, docenit jejich význam pro vlastní situaci, zvažovat možnosti a vyjádřit volbu (Grisso a Appelbaum 1998). Kniha definuje epistemickou anihilaci jako poškození schopnosti „poznávat, evaluovat, integrovat a využívat informace“ ([definice](@/kompendium/02-uvod/definice.md)). Překryv je téměř úplný. Z toho plynou tři problémy:
 
-## Argumentace
+1. **Souhlas postiženého s výzkumem nebo léčbou.** Pokud je úsudek člověka poškozen, nakolik je jeho souhlas skutečný? A pokud ho za nezpůsobilého prohlásíme, nezopakujeme to, co mu udělal působící – nepřevezmeme kontrolu nad jeho poznáním?
+2. **Souhlas se zařazením do kategorie.** Mnohá použití rámce EA – organizační šetření, screening, analýza komunikace – se o souhlas posuzovaného vůbec nepokoušejí. Člověk se dozví, že byl „klasifikován“, až když to má důsledky.
+3. **Souhlas v závislosti.** Účastník výzkumu, který je zároveň pacientem, studentem nebo zaměstnancem výzkumníka, souhlasí v situaci, kdy odmítnutí může něco stát. Takový souhlas je formálně platný, ale věcně zatížený.
 
-Informovaný souhlas vyžaduje pochopení rizik. Když subjekt nerozumí, co znamená být klasifikován v EA kategorii (sociální dopad, stigma, právní implikace), jeho souhlas je formální, nikoli substantivní. To je obzvlášť kritické u zranitelných populací (pacienti, zaměstnanci, vězni).
+Silná verze námitky zní: souhlas, který se v rámci EA získává, je často formální, nikoli skutečný – a rámec nemá nástroj, jak ten rozdíl poznat, aniž by sám nepřiměřeně zasáhl do autonomie člověka.
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+## Kde zasahuje tuto knihu
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+[Etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) řadí informovaný souhlas mezi své body a kniha má kapitolu o [informovaném souhlasu ve výzkumu EA](@/kompendium/research-methodology/informed-consent-EA-research.md) i postup [odvolání souhlasu](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md). Paradox poškozené způsobilosti však kniha výslovně neřeší. A pojem souhlasu má v knize ještě jednu roli: slouží k posouzení, zda člověk do skupiny nebo vztahu vstoupil svobodně. Tady se problém zrcadlí – pokud lze každý souhlas se skupinou zpochybnit jako produkt manipulace, nelze už rozlišit svobodnou volbu odlišného života od nesvobody (srov. [Nepřípustný vliv](@/glossary/undue-influence.md)).
 
-## Empirická opora
+## Ilustrační případ
 
-Faden & Beauchamp (1986) *A History and Theory of Informed Consent*; Lidz et al. (1984) on consent in psychiatric settings; Roberts (2002) on coerced consent.
+Obecný kompozit: výzkumný tým chce dělat rozhovory s lidmi, kteří odešli z uzavřených skupin. Jedna účastnice je současně klientkou terapeutky, která v týmu pracuje. Souhlas podepíše rychle a říká, že „chce pomoci“. Pečlivý postup změní několik věcí: souhlas s ní projedná člověk mimo terapeutický vztah; výslovně jí řekne, že odmítnutí nijak neovlivní terapii; vysvětlí, jak budou její údaje chráněny a co může znamenat, kdyby se její účast stala známou; nechá jí čas na rozmyšlenou; a dohodne se, že se během rozhovorů bude k souhlasu vracet a že kdykoli může skončit bez udání důvodu. Žádný z těchto kroků nezpochybňuje její způsobilost. Všechny zmenšují vliv závislosti.
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+## Co námitka neprokazuje
 
-## Implikace pro EA framework
+Neprokazuje, že lidé po zkušenosti s manipulací nejsou schopni souhlasit. Většina z nich způsobilá je, a předpoklad opaku by byl ponižující a v rozporu s principem respektu k osobě. Způsobilost se posuzuje k určitému rozhodnutí a v určitém čase, ne paušálně. Námitka také nevylučuje výzkum; bez výzkumu by poznatky o EA zůstaly na úrovni domněnek.
 
-EA framework musí vyžadovat **substantivní informed consent**: explicitní popis rizik klasifikace, právo odmítnout, právo požádat o vymazání dat, externí etický review.
+## Pojistky pro praxi
 
-Konkrétní implementační kroky:
+- **Souhlas jako proces.** Souhlas není podpis, ale rozhovor, který se opakuje a ke kterému se lze vracet; odvolání musí být snadné a bez následků.
+- **Podporované, ne nahrazující rozhodování.** Místo prohlášení nezpůsobilosti hledat podporu: srozumitelné informace, čas, důvěrnou osobu, zpětné ověření porozumění vlastními slovy. Úmluva OSN o právech osob se zdravotním postižením (2006) posunula mezinárodní standard k podporovanému rozhodování.
+- **Oddělení rolí.** Souhlas nezískává osoba, na níž je účastník závislý (viz [Výzkum zranitelných populací](@/kompendium/research-methodology/vulnerable-population-research.md)).
+- **Rizika klasifikace výslovně.** Informace o souhlasu obsahuje i rizika zařazení do kategorie: stigma, možné právní důsledky, kdo k údajům získá přístup.
+- **Žádná klasifikace bez vědomí.** Mimo akutní ochranu nikoho neposuzovat v rámci EA, aniž by o tom věděl a mohl se vyjádřit.
+- **Souhlas se skupinou posuzovat podle podmínek.** Otázkou není, zda člověk „opravdu chtěl“, ale zda měl informace, alternativy a možnost odejít.
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+## Co zůstává otevřené
 
-## Odpovědi z kompendia
+Jak posoudit způsobilost k souhlasu, když měřítkem je úsudek, jehož poškození je předmětem posouzení? Kdo smí rozhodnout, že souhlas se skupinou byl „vynucený“, a podle jakých kritérií, aby se nezneužil proti náboženským a životním menšinám? A jak získat souhlas v analýze organizací a komunikace, kde jsou posuzováni lidé, kteří o posouzení nevědí?
 
-Kompendium research-methodology sekce explicitně diskutuje consent. Glossary entries pro klinické techniky obsahují consent requirements.
+## Literatura
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+- Faden, R. R., & Beauchamp, T. L. (1986). *A History and Theory of Informed Consent*. Oxford University Press.
+- Grisso, T., & Appelbaum, P. S. (1998). *Assessing Competence to Consent to Treatment*. Oxford University Press.
+- Beauchamp, T. L., & Childress, J. F. (1979). *Principles of Biomedical Ethics*. Oxford University Press.
 
-## Cross-linky
+## Související
 
-- [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
-- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)
-- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)
-- [Mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)
-- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)
-- [Narativní medicína](@/kompendium/critical-perspectives/24-narrative-medicine-alternative.md)
-- [Kritická psychiatrie](@/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md)
-- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+**Kritické perspektivy**
+
+- [Nucená léčba a rámec EA](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md) – co se stane, když se souhlas obejde.
+- [Výzkumná exploatace ve studiích EA](@/kompendium/critical-perspectives/19-research-exploitation.md) – souhlas jako minimum, ne záruka.
+- [Důvěrnost v detekci EA](@/kompendium/critical-perspectives/17-confidentiality-EA.md) – k čemu člověk souhlasem dává svolení.
+
+**Kapitoly a postupy**
+
+- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md) – metodologický postup.
+- [EA-4.2.6 Consent withdrawal](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – odvolání souhlasu.
+- [Doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md) – právní měřítko svobody vůle.
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – závazky ke souhlasu a respektu k subjektu.
+
+**Pojmy**
+
+- [Informed Consent](@/glossary/informed-consent.md) – heslo glosáře.
+- [Undue Influence](@/glossary/undue-influence.md) – kdy vliv zbavuje souhlas platnosti.
 
 ## Connect & Contribute
 

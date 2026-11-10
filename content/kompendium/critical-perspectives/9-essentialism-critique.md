@@ -1,76 +1,83 @@
 +++
-title = "Esencialistický klam v EA kategoriích"
-description = "Kritická perspektiva — esencialistický klam v ea kategoriích."
+title = "Esencialistický klam v kategoriích EA"
+description = "Kritika jazyka, který z jednání dělá podstatu osoby („je to manipulátor“): nálepkování, smyčkové efekty podle Hackinga a pojistky jazyka činu."
 weight = 9
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "methodological"]
+tags = ["kompendium", "critical-perspectives", "methodological", "epistemologie", "psychology"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["7-replication-EA-research", "8-theoretical-imperialism", "6-political-instrumentalization"]
+related_terms = ["2-pathologization-critique", "12-EA-stigma-risk", "29-process-philosophy-alt", "1-medicalization-critique"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Esencialistický klam v EA kategoriích
+# Esencialistický klam v kategoriích EA
 
-> **Bucket**: methodological · **Unique angle**: act vs. essence — proč 'použil X' je lepší než 'je X-er'
+> **Okruh**: metodologická kritika · **Jádro námitky**: „použil manipulativní techniku“ je pozorování; „je manipulátor“ je soud o podstatě, který pozorování nedokládá
 
-## Kritika nebo alternativa
+Věta „je to gaslighter“ zní jako zkratka věty „opakovaně popíral, co jsem zažila“. Ve skutečnosti říká víc: tvrdí, že popírání vychází z trvalé povahy člověka, že se bude opakovat a že k němu patří i jinde. Stejně funguje „narcis“, „psychopat“ nebo „toxický člověk“. Kritika esencialismu tvrdí, že tento posun od činu k podstatě je u kategorií [epistemické anihilace](@/glossary/epistemicka-anihilace.md) častý, zřídka doložený a pro všechny zúčastněné škodlivý.
 
-Když mluvíme o 'manipulátorech', 'psychopatech', 'gaslighterech', riskujeme esencialismus — implikujeme, že tito lidé *jsou* tím typem, místo aby *projevovali* to chování.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Psychologický esencialismus je sklon chápat kategorie lidí, jako by měly skrytou neměnnou podstatu, která určuje jejich chování. Spojuje se se známou chybou atribuce: pozorovatelé přeceňují vliv povahy a podceňují vliv situace, když vysvětlují chování druhých (Ross 1977). Sociologie nálepkování ukázala, že nálepka sama mění to, jak s člověkem zacházejí ostatní, a tím i jeho další jednání (Becker 1963; Scheff 1966).
 
-## Argumentace
+Ian Hacking přidal pojem smyčkových efektů (*looping effects*): kategorie lidí nejsou jako kategorie nerostů. Když se lidé dozvědí, do jaké kategorie patří, mění se – přijímají ji, bojují s ní, přizpůsobují se jí – a tím se mění i kategorie samotná. Ve studii o mnohočetné osobnosti ukázal, jak se diagnóza, odborná literatura, terapeutická praxe a sebepopis pacientů vzájemně utvářely (Hacking 1995). Pro rámec EA to znamená: označení „manipulátor“ nebo „oběť EA“ není neutrální popis, ale zásah, který ovlivňuje to, co popisuje.
 
-Esencialismus má hluboké sociální důsledky: když někoho nálepkujeme jako 'psychopata', nutíme jej do role, ze které není návratu. To je v rozporu s důkazy o plasticitě chování, vývojových změnách a kontextuální specifičnosti. Behavior-as-act vs. behavior-as-essence je klíčový epistemologický rozdíl.
+## Kde zasahuje tuto knihu
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Kniha je převážně postavena na technikách, tedy na činech – to je silná stránka. Esencialismus ale vstupuje jinými dveřmi: v kazuistikách a protokolech se mluví o „pachatelích“, „působících“ a „obětech“ jako o stálých rolích; v kapitolách o kultech a vůdcích se popisují typy osob; a některé převzaté pojmy (psychopatie, narcistická porucha) jsou samy osobnostní kategorie. Esencialismus má také druhou stranu: i „oběť EA“ se může stát identitou, která člověku znesnadní vidět vlastní sílu a změnu.
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+Kniha popisuje [narativní identitu](@/glossary/narativni-identita.md) jako to, co manipulace narušuje. Nálepka – ať „pachatel“, nebo „oběť“ – je cizí vypravěč, který do této identity vstupuje.
 
-## Empirická opora
+## Ilustrační případ
 
-Haslam (2000) *Categories versus dimensions in personality*; Yzerbyt et al. (1997) on psychological essentialism; Walton & Cohen (2007) on identity-based interventions.
+Obecný kompozit: v rozvodovém sporu jedna strana předloží znalci seznam situací a označí druhého rodiče za „narcistického manipulátora“. Esencialistický posudek by kategorii převzal a vyvodil z ní riziko pro dítě. Posudek v jazyce činu postupuje jinak: popíše konkrétní doložené situace, jejich četnost a kontext (všechny se odehrály v posledním roce vyhroceného rozchodu), ověří, jak se rodič choval dříve a jak se chová k dítěti, a odliší vzorec vázaný na konflikt mezi rodiči od trvalého rysu. Závěr pak může být přísný i mírný, ale je opřený o to, co se stalo, ne o to, kým člověk „je“ (srov. [Rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md)).
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+## Co námitka neprokazuje
 
-## Implikace pro EA framework
+Neprokazuje, že by lidé neměli stabilní rysy. Osobnostní charakteristiky jsou v dospělosti poměrně stálé a některé poruchy osobnosti se projevují dlouhodobě a napříč situacemi. Pro plánování bezpečí je navíc opatrné předpokládat, že se doložený vzorec bude opakovat; postižený nemusí čekat, až se působící „změní“. Jazyk činu tedy nemá vést k naivitě. Má vést k přesnosti: trvalost vzorce je hypotéza, kterou je třeba doložit, ne výchozí předpoklad.
 
-EA framework musí používat **act-based jazyk**: 'použil [gaslighting](@/glossary/gaslighting.md) v této situaci' místo 'je gaslighter'. Glossary entries musí systematicky preferovat slovesa nad podstatnými jmény pro lidi.
+## Pojistky pro praxi
 
-Konkrétní implementační kroky:
+- **Slovesa místo podstatných jmen.** „V uvedených situacích zpochybňoval její vnímání“ místo „je gaslighter“; „zažila dlouhodobou kontrolu“ místo „je oběť EA“.
+- **Časový a situační index.** Každé zjištění opatřit obdobím a kontextem, v nichž bylo pozorováno.
+- **Trvalost jako samostatné tvrzení.** Pokud posudek tvrdí, že jde o trvalý rys, musí to doložit chováním v různých obdobích a vztazích.
+- **Prostor pro změnu.** Záznamy o jednání mají mít možnost revize; nálepka nemá přežívat v dokumentech déle než její důvod.
+- **Sebepopis postiženého.** Respektovat, jak se člověk sám nazývá („přeživší“, „člověk, který prošel…“, nebo bez označení), a nenutit mu kategorii.
+- **Jazyk v týmu.** I v interní komunikaci odborníků se vyhýbat zkratkám typu „náš narcis“ nebo „ta oběť“; neformální jazyk se snadno přenese do zpráv a rozhodnutí.
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+## Co zůstává otevřené
 
-## Odpovědi z kompendia
+Jak psát o opakovaném, nebezpečném vzorci jednání tak, aby text varoval, ale neodsoudil člověka k roli? Jak zacházet s převzatými osobnostními kategoriemi, které mají v klinice i forenzní praxi své místo? A jak zachytit smyčkové efekty knihy samotné – kolik lidí se po jejím přečtení začne vidět jako „oběti“ nebo vidět druhé jako „pachatele“ – když je nikdo neměří?
 
-Kompendium důsledně používá behavior-based jazyk. Glossary entries pro techniky jsou definovány jako akty, ne typy lidí. Stigma-prevention je explicitní cíl.
+## Literatura
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+- Hacking, I. (1995). *Rewriting the Soul: Multiple Personality and the Sciences of Memory*. Princeton University Press.
+- Hacking, I. (1999). *The Social Construction of What?* Harvard University Press.
+- Becker, H. S. (1963). *Outsiders: Studies in the Sociology of Deviance*. Free Press.
+- Scheff, T. J. (1966). *Being Mentally Ill: A Sociological Theory*. Aldine.
+- Ross, L. (1977). The intuitive psychologist and his shortcomings. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology*, Vol. 10. Academic Press.
 
-## Cross-linky
+## Související
 
-- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
-- [Iatrogenní účinky EA intervencí](@/kompendium/critical-perspectives/11-iatrogenic-overreach.md)
-- [Stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md)
-- [Teoretický imperialismus — EA jako totalizující rámec](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)
-- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md)
-- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)
-- [Feministická epistemologie](@/kompendium/critical-perspectives/28-feminist-epistemology-alt.md)
-- [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md)
-- [Procesuální filosofie](@/kompendium/critical-perspectives/29-process-philosophy-alt.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+**Kritické perspektivy**
+
+- [Stigmatizace skrze kategorie EA](@/kompendium/critical-perspectives/12-EA-stigma-risk.md) – sociální důsledky nálepky.
+- [Procesuální filosofie](@/kompendium/critical-perspectives/29-process-philosophy-alt.md) – filozofická alternativa: jednání jako proces, ne podstata.
+- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md) – dimenze místo kategorie.
+
+**Kapitoly a postupy**
+
+- [Rodinné právo](@/kompendium/forensic-legal/41-family-court-EA.md) – prostředí, kde nálepky mají největší váhu.
+- [Ricoeur: Trojí mimésis a narativní identita](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md) – identita jako vyprávění, ne esence.
+- [Sebe-obrana: Integrace životního příběhu](@/kompendium/self-defense-guides/45-life-story-integration.md) – jak postižený získává zpět vlastní vyprávění.
+
+**Pojmy**
+
+- [Narativní identita](@/glossary/narativni-identita.md) – co nálepka přepisuje.
+- [Redukcionismus](@/glossary/redukcionismus.md) – obecnější podoba chyby.
 
 ## Connect & Contribute
 

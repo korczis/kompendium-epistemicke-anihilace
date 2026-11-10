@@ -1,76 +1,84 @@
 +++
-title = "Iatrogenní účinky EA intervencí"
-description = "Kritická perspektiva — iatrogenní účinky ea intervencí."
+title = "Iatrogenní účinky intervencí EA"
+description = "Kdy práce s rámcem EA sama škodí: sugesce, přepis biografie, hyperdetekce manipulace a terapeut jako nová autorita. Poučení z hnutí znovuobjevené paměti a pojistky."
 weight = 11
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "ethical"]
+tags = ["kompendium", "critical-perspectives", "ethical", "ethics", "klinicke"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["1-medicalization-critique", "10-cultural-bias-critique", "12-EA-stigma-risk", "13-victim-blaming-risk"]
+related_terms = ["1-medicalization-critique", "13-victim-blaming-risk", "16-treatment-coercion-risk", "22-trauma-framework-alternative"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Iatrogenní účinky EA intervencí
+# Iatrogenní účinky intervencí EA
 
-> **Bucket**: ethical · **Unique angle**: iatrogenic risk — když framework sám působí škodu
+> **Okruh**: etická kritika · **Jádro námitky**: rámec, který učí hledat manipulaci, může v rukou terapeuta vyrobit to, co měl léčit
 
-## Kritika nebo alternativa
+Iatrogenní škoda je škoda způsobená samotnou péčí. V somatické medicíně je to vedlejší účinek léku nebo komplikace zákroku; v psychoterapii jsou iatrogenní účinky méně viditelné, ale dobře doložené. Kritika se ptá, jakou škodu může způsobit terapeut, poradce nebo vyšetřovatel, který pracuje s rámcem [epistemické anihilace](@/glossary/epistemicka-anihilace.md) – tedy s rámcem, jehož předmětem je ovlivňování cizího poznání.
 
-EA framework, aplikovaný klinicky, může působit iatrogenně — sám zhoršovat to, co měl léčit.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Scott Lilienfeld shrnul doklady o psychologických postupech, které klientům škodí, a mezi nimi uvedl i techniky zaměřené na „odkrývání“ údajně potlačených vzpomínek (Lilienfeld 2007). V osmdesátých a devadesátých letech vedla v USA a dalších zemích terapeutická praxe sugestivního vybavování k tomu, že řada klientů nabyla přesvědčení o traumatech, která se nestala, s rozbitím rodin a s trestními řízeními (viz [Hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md) a [Satanic Panic](@/kompendium/historical-cases/38-satanic-panic.md)). Elizabeth Loftus experimentálně ukázala, jak lze do paměti vnést vzpomínky na události, které se nestaly (Loftus a Ketcham 1994). Ian Hacking popsal, jak se v téže době diagnóza mnohočetné osobnosti šířila v interakci s terapeutickou praxí (Hacking 1995). U psychologického debriefingu po jednorázové traumatické události systematické přehledy nenašly ochranný účinek a některé studie naznačily zhoršení.
 
-## Argumentace
+Společný mechanismus je strukturální: terapeut má autoritu, klient hledá vysvětlení svého trápení, a výklad, který terapeut nabízí, se stává vyprávěním klienta. Rámec EA tuto strukturu nese v zesílené podobě. Terapeut, který klientovi vysvětlí, že byl „anihilován“, nabízí výklad, který se dotýká samotné schopnosti klienta věřit vlastnímu úsudku. Pokud je výklad chybný, je to škoda přesně toho druhu, který kniha popisuje.
 
-Iatrogenní efekty jsou v psychoterapii dobře dokumentované: false memory syndrome, sekundární traumatizace, exposure-induced PTSD u špatně provedeného EMDR. EA framework, pokud je aplikován bez pečlivé klinické rozvahy, může produkovat: hyperdetekci manipulace v běžných vztazích, paranoidní rámování, sekundární trauma z 'odhalení' minulých vztahů.
+## Kde zasahuje tuto knihu
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+Kniha obsahuje [protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md), [terapeutické přístupy](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) a [rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md). Má také nástroj [hodnocení iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md) začíná zásadou *primum non nocere*. Rizika, která nejsou dostatečně pojmenována:
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+- **Hyperdetekce.** Klient se naučí vidět techniky všude – u partnera, kolegů, rodičů – a začne odmítat běžné neshody jako manipulaci. Výsledkem může být izolace a podezíravost, tedy stav připomínající právě to, co rámec popisuje.
+- **Přepis biografie.** Celá minulost se zpětně přečte jako řetězec manipulací; vztahy, které byly smíšené, se stanou jednoznačně zlými.
+- **Terapeut jako nová autorita.** Klient, který se vymanil z vlivu jedné autority, přenese důvěru na terapeuta a jeho rámec. Kniha sama popisuje [mentorskou self-totalizaci](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – terapie se jí může nechtěně podobat.
+- **[Retraumatizace](@/glossary/retraumatizace.md)** opakovaným a předčasným podrobným rozebíráním zážitků.
 
-## Empirická opora
+## Ilustrační případ
 
-Lilienfeld (2007) *Psychological treatments that cause harm*; Boisvert & Faust (2002); Mohr (1995) on negative outcomes in psychotherapy.
+Obecný kompozit: muž po rozchodu vyhledá terapii kvůli smutku a pochybnostem o sobě. Terapeutka v prvních sezeních zmíní, že jeho popis „odpovídá technikám EA“, a doporučí mu kapitoly knihy. Během měsíců muž přehodnotí celý desetiletý vztah jako systematickou manipulaci, přeruší kontakt se společnými přáteli, kteří „to nevidí“, a začne pochybovat i o vlastních rodičích. Jeho úzkost neklesá, ale roste. Při supervizi se ukáže, že bývalá partnerka měla obtížné rysy, ale nic, co by naplňovalo definici systematické anihilace – a že hypotézu do terapie vnesla terapeutka, ne klient.
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+## Co námitka neprokazuje
 
-## Implikace pro EA framework
+Neprokazuje, že by se o manipulaci v terapii nemělo mluvit. Skutečné oběti dlouhodobé kontroly potřebují, aby jim někdo pomohl vzorec pojmenovat; mlčení terapeuta by bylo také škodou (viz [Riziko obviňování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)). Neprokazuje ani, že rámec EA je nebezpečnější než jiné terapeutické rámce – jen že má specifická rizika, která je třeba znát.
 
-EA framework v klinické aplikaci vyžaduje **explicitní iatrogenic-risk assessment** před každou intervencí. Glossary entries musí obsahovat 'kontraindikace' a 'možná poškození'.
+## Pojistky pro praxi
 
-Konkrétní implementační kroky:
+- **Hypotéza přichází od klienta.** Terapeut nevnáší výklad EA, dokud k němu klientovo vyprávění samo nevede; i pak ho nabízí jako možnost, ne jako zjištění.
+- **Otevřené otázky.** Vyhýbat se sugestivním otázkám a „pomáhání“ se vzpomínkami (viz [Sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md)).
+- **Klientův úsudek je cíl.** Úspěchem není, že klient převezme rámec, ale že znovu důvěřuje vlastnímu posuzování – včetně posuzování rámce a terapeuta.
+- **Sledování výsledků.** Pravidelně ověřovat, zda se klientovi daří lépe; zhoršení vztahů, izolace nebo rostoucí podezíravost jsou signály k revizi postupu.
+- **[Informovaný souhlas](@/glossary/informed-consent.md) o rizicích.** Klient má vědět, že práce s rámcem může vést k přehodnocení vztahů a že to nemusí být vždy přesné.
+- **Supervize u každého výkladu EA.** Kdo klientovi výklad nabídl, nechá ho posoudit kolegou.
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+## Co zůstává otevřené
 
-## Odpovědi z kompendia
+O iatrogenních účincích práce s pojmy manipulace a gaslightingu neexistují systematická data; víme o nich z analogií a z kazuistik. Otevřená je i otázka popularizace: knihy a sociální sítě, které tyto pojmy šíří, působí na lidi bez jakékoli terapeutické pojistky. Co z toho plyne pro to, jak má být kniha dostupná?
 
-Kompendium 06-klinicke-aplikace obsahuje sekci o iatrogenním riziku. Recovery protocols a self-defense guides explicitně varují před nadužíváním.
+## Literatura
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+- Lilienfeld, S. O. (2007). Psychological treatments that cause harm. *Perspectives on Psychological Science*, 2(1).
+- Loftus, E. F., & Ketcham, K. (1994). *The Myth of Repressed Memory*. St. Martin's Press.
+- Hacking, I. (1995). *Rewriting the Soul*. Princeton University Press.
 
-## Cross-linky
+## Související
 
-- [Stigmatizace skrze EA kategorie](@/kompendium/critical-perspectives/12-EA-stigma-risk.md)
-- [Riziko obětování oběti](@/kompendium/critical-perspectives/13-victim-blaming-risk.md)
-- [Mocenská asymetrie v EA aplikaci](@/kompendium/critical-perspectives/14-power-asymmetry-EA.md)
-- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
-- [Esencialistický klam v EA kategoriích](@/kompendium/critical-perspectives/9-essentialism-critique.md)
-- [Publikační etika v EA literatuře](@/kompendium/critical-perspectives/20-publication-ethics-EA.md)
-- [Buddhistická psychologie](@/kompendium/critical-perspectives/30-buddhist-psychology-alt.md)
-- [Systémová teorie jako alternativa](@/kompendium/critical-perspectives/21-systems-theory-alternative.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Patologizace normálních variací](@/kompendium/critical-perspectives/2-pathologization-critique.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+**Kritické perspektivy**
+
+- [Medikalizace morálního selhání](@/kompendium/critical-perspectives/1-medicalization-critique.md) – kdy terapie nahrazuje uznání křivdy.
+- [Nucená léčba a rámec EA](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md) – škoda z intervence, kterou si člověk nevybral.
+- [Trauma-informovaný rámec](@/kompendium/critical-perspectives/22-trauma-framework-alternative.md) – zásady bezpečí a volby v péči.
+
+**Kapitoly a nástroje**
+
+- [EA-3.2.9 Hodnocení iatrogenního rizika](@/kompendium/techniques/ea-3-2-9-iatrogenic-risk-assessment.md) – nástroj, který kniha k riziku nabízí.
+- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) – intervence, jichž se rizika týkají.
+- [Hnutí znovuobjevené paměti](@/kompendium/historical-cases/37-recovered-memory.md) – historické varování.
+
+**Pojmy**
+
+- [Iatrogenic Harm](@/glossary/iatrogenic-harm.md) – heslo glosáře.
+- [Retraumatizace](@/glossary/retraumatizace.md) – jedna z forem škody.
 
 ## Connect & Contribute
 

@@ -1,76 +1,83 @@
 +++
-title = "Reprodukční krize a EA výzkum"
-description = "Kritická perspektiva — reprodukční krize a ea výzkum."
+title = "Replikační krize a výzkum EA"
+description = "Kritika empirického základu rámce EA ve světle replikační krize psychologie: co je doložené, co je klinická zkušenost a co teoretický konstrukt knihy."
 weight = 7
 
 [taxonomies]
-tags = ["kompendium", "critical-perspectives", "methodological"]
+tags = ["kompendium", "critical-perspectives", "methodological", "evidence", "research-methodology"]
 categories = ["academic", "critical-theory"]
 
 [extra]
-related_terms = ["5-false-positive-risk", "6-political-instrumentalization", "8-theoretical-imperialism", "9-essentialism-critique"]
+related_terms = ["3-framework-overreach", "5-false-positive-risk", "20-publication-ethics-EA", "19-research-exploitation"]
 parent = "kompendium-critical-perspectives"
 toc = true
 +++
 
-# Reprodukční krize a EA výzkum
+# Replikační krize a výzkum EA
 
-> **Bucket**: methodological · **Unique angle**: evidence tiers — multi-replicated vs. heuristic
+> **Okruh**: metodologická kritika · **Jádro námitky**: rámec stojí na literatuře, jejíž značná část se při opakování nepotvrdila, a na vlastních konstruktech, které dosud nikdo netestoval
 
-## Kritika nebo alternativa
+V roce 2015 publikovala skupina Open Science Collaboration výsledky pokusu zopakovat sto studií z předních psychologických časopisů. Zatímco původní studie téměř vždy hlásily statisticky významný výsledek, replikace jej přinesly zhruba u třetiny a průměrná síla účinků byla zhruba poloviční (Open Science Collaboration 2015). Spolu s dalšími projekty a s případy vědeckých podvodů, jako byl [případ Stapel](@/kompendium/historical-cases/34-stapel-fraud.md), to odstartovalo období, které se nazývá [replikační krize](@/glossary/replication-crisis.md). Kritika se ptá, co tato zkušenost znamená pro knihu, jejíž tvrzení se o psychologickou literaturu opírají.
 
-Mnoho výzkumu, na kterém EA framework staví (psychopatie, manipulace, dark triad), neprošlo replikací — jeho empirický základ je vratký.
+## Námitka v nejsilnější podobě
 
-Tato kritika není okrajová — sahá k samotnému jádru toho, jak EA framework operuje. Pokud ji chceme brát vážně (a měli bychom), musíme být ochotní revidovat strukturu, jazyk i aplikaci frameworku, ne jen kosmetické detaily.
+Příčiny krize jsou dobře popsané. Joseph Simmons, Leif Nelson a Uri Simonsohn ukázali, že běžná volnost při analýze dat – kdy přestat sbírat, které proměnné vykázat, které pozorování vyřadit – dokáže vyrobit „významný“ výsledek i tam, kde žádný účinek není (Simmons et al. 2011). John Ioannidis argumentoval, že při malých vzorcích, malých účincích a velké pružnosti designu je velká část publikovaných pozitivních nálezů pravděpodobně chybná (Ioannidis 2005). Zvlášť zranitelné jsou oblasti s obtížně měřitelnými konstrukty a malou tradicí přímých replikací.
 
-## Argumentace
+Výzkum manipulace a temných osobnostních rysů do této kategorie zčásti patří. Konstrukt „temné triády“ (Paulhus a Williams 2002) se rychle rozšířil, ale vedou se spory o to, nakolik jsou jeho složky odlišitelné a jak dobře je zachycují krátké dotazníky. Výzkum sociálního vlivu obsahuje klasické nálezy, které obstály, i takové, které po opakování zeslábly nebo zmizely.
 
-[Replikační krize](@/glossary/replication-crisis.md) v psychologii (Open Science Collaboration, 2015) ukázala, že 36-50% klasických studií se nereplikuje. Dark triad konstrukty (Paulhus & Williams, 2002), Machiavelliánismus a měření manipulability mají problematické psychometrické vlastnosti. EA framework musí brát toto vážně.
+Silná verze námitky zní: kniha přebírá autoritu empirické psychologie, ale ne její nejistotu. Čtenář nevidí, které tvrzení stojí na opakovaně potvrzeném nálezu, které na klinické zkušenosti a které na úvaze autora.
 
-Argumentace má tři vrstvy: epistemologickou (co můžeme vědět), metodologickou (jak to zjišťujeme), etickou (co s tím vědomím děláme). Každá vrstva produkuje vlastní limity. EA framework, aby byl dospělý, musí všechny tři přiznat.
+## Kde zasahuje tuto knihu
 
-Klíčový bod: kritika neničí framework, ale zostřuje jeho aplikační hranice. Jasně vyznačené limity jsou *funkcí* zralého frameworku, ne jeho slabinou. Bez nich se framework stává ideologií.
+Kniha je převážně teoretická a klinicko-popisná taxonomie. Její technické kapitoly popisují mechanismy, znaky a obranu, ale jen výjimečně odkazují na studie, které by daný mechanismus testovaly. Kazuistiky jsou anonymizované kompozity, tedy ilustrace, ne data. [Metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) stanoví validační kritéria – shodu hodnotitelů, predikční a intervenční validitu, mezikulturní konzistenci – ale jako požadavky do budoucna. Kapitola [otevřených výzkumných otázek](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) empirickou validaci taxonomie výslovně uvádí jako nevyřešený problém. To je poctivé; riziko je v tom, že jednotlivé stránky mluví sebejistěji, než celek dovoluje.
 
-## Empirická opora
+Při revizi obsahu se navíc ukázalo, že starší strojově generované texty obsahovaly čísla bez zdroje – prevalence, velikosti účinků, prahové hodnoty. Taková čísla jsou horší než žádná, protože vypadají jako výsledek výzkumu.
 
-Open Science Collaboration (2015) *Estimating the reproducibility of psychological science*; Camerer et al. (2018); Pashler & Wagenmakers (2012) special issue.
+## Ilustrační případ
 
-Tato literatura není okrajová — pochází z hlavního proudu odborné diskuse. EA framework, který by ji ignoroval, by se diskvalifikoval z akademické konverzace.
+Obecný kompozit: soudní znalec cituje z knihy popis techniky a dodává, že „podle odborné literatury“ vede k určitým následkům. Protistrana se zeptá, na které studii toto tvrzení stojí, jak velký byl vzorek a zda byl nález zopakován. Pokud odpověď zní „jde o teoretický popis z kompendia“, znalec ztratí důvěryhodnost – a s ním i postižený, jehož věc zastupuje. Kdyby znalec od začátku jasně řekl, že jde o klinicky užitečný rámec bez přímého empirického ověření, a své závěry opřel o ověřitelné skutečnosti případu, jeho posudek by obstál lépe (srov. [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)).
 
-## Implikace pro EA framework
+## Co námitka neprokazuje
 
-EA framework nesmí stavět na nereplikovaných nálezech. Každá technika musí mít **evidence tier**: tier 1 (multi-replicated), tier 2 (replicated), tier 3 (theoretical/heuristic). Glossary entries musí toto explicitně označovat.
+Replikační krize neznamená, že psychologie nic neví. Řada nálezů, o které se kniha může opírat – například systematická zkreslení úsudku, vliv [sociální izolace](@/glossary/socialni-izolace.md) na duševní zdraví nebo následky dlouhodobého traumatu – je doložena mnoha nezávislými liniemi výzkumu. Klinická zkušenost je také evidence, jen jiného druhu a s jinými limity. Námitka nevyžaduje, aby kniha přestala tvrdit cokoli, co není replikováno; vyžaduje, aby u svých tvrzení přiznala, jakou mají oporu.
 
-Konkrétní implementační kroky:
+## Pojistky pro praxi
 
-1. **Revize glossary entries** — explicitní zmínka této kritiky u relevantních pojmů
-2. **Detection signatures** — integrace varovných sekcí ('kdy NEAPLIKOVAT')
-3. **Educational scenarios** — případy, kde EA framework selhává
-4. **Cross-domain bridges** — odkazy na alternativní rámce
-5. **Audit checklist** — pravidelná revize, zda kritika je adekvátně reflektována
+- **Úrovně opory.** Rozlišovat (a) nálezy převzaté z literatury s opakovaným potvrzením, (b) klinickou zkušenost a konsenzus, (c) teoretické konstrukty knihy. Tvrzení z (c) se nesmí prezentovat jako (a).
+- **Žádné číslo bez zdroje.** Odhad se označí jako odhad; číslo, které nelze dohledat, se odstraní.
+- **Předregistrace a zveřejnění dat.** Vlastní výzkum taxonomie plánovat s předem zapsanými hypotézami (viz [předregistrace](@/kompendium/research-methodology/pre-registration-EA-research.md)) a s plánem replikace (viz [replikační výzkum EA studií](@/kompendium/research-methodology/replication-EA-research.md)).
+- **Síla účinku a vzorek.** U každé citované studie uvádět velikost vzorku a účinku, ne jen „studie prokázala“ (viz [Effect Size v EA studiích](@/kompendium/research-methodology/effect-size-EA.md)).
+- **Forenzní střídmost.** V posudcích používat rámec jako strukturu výkladu, ne jako důkaz.
 
-## Odpovědi z kompendia
+## Co zůstává otevřené
 
-Kompendium 07-teoreticke-reflexe diskutuje [evidence-based](@/glossary/evidence-based.md) limity. Research-methodology sekce explicitně varuje před nedostatečnou replikací.
+Jak vůbec empiricky testovat jev, který se z etických důvodů nesmí experimentálně vyvolat? Kniha bude odkázána na observační, retrospektivní a kvalitativní data se všemi jejich slabinami (viz [Kauzální inference v EA výzkumu](@/kompendium/research-methodology/causal-inference-EA.md)). Otevřené je i to, zda se konstrukty knihy vůbec dají převést na měřitelné proměnné, aniž by ztratily to, co na nich bylo klinicky cenné.
 
-EA framework v Prismatic Platform tuto kritiku nepřijímá pasivně, ale aktivně ji integruje do struktury. To je rozdíl mezi obrannou a dospělou epistemologií.
+## Literatura
 
-## Cross-linky
+- Open Science Collaboration (2015). Estimating the reproducibility of psychological science. *Science*, 349(6251).
+- Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2011). False-positive psychology. *Psychological Science*, 22(11).
+- Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLoS Medicine*, 2(8).
+- Paulhus, D. L., & Williams, K. M. (2002). The Dark Triad of personality. *Journal of Research in Personality*, 36(6).
 
-- [Teoretický imperialismus — EA jako totalizující rámec](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)
-- [Esencialistický klam v EA kategoriích](@/kompendium/critical-perspectives/9-essentialism-critique.md)
-- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
-- [Politická instrumentalizace EA](@/kompendium/critical-perspectives/6-political-instrumentalization.md)
-- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)
-- [Coerce léčba a EA framework](@/kompendium/critical-perspectives/16-treatment-coercion-risk.md)
-- [Mad Studies perspektiva](@/kompendium/critical-perspectives/26-mad-studies-perspective.md)
-- [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)
-- [Dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)
-- [Medikalizace etického aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)
-- [Hub kompendia](@/kompendium/_index.md)
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [Research methodology](@/kompendium/research-methodology/_index.md)
-- [Glossary platformy](@/glossary/_index.md)
+## Související
+
+**Kritické perspektivy**
+
+- [Přesah rámce – když EA vysvětluje všechno](@/kompendium/critical-perspectives/3-framework-overreach.md) – testovatelnost jako logický požadavek.
+- [Publikační etika v literatuře EA](@/kompendium/critical-perspectives/20-publication-ethics-EA.md) – publikační praxe, která krizi živila.
+- [Riziko falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md) – proč chybějící validační data škodí v praxi.
+
+**Kapitoly a metodologie**
+
+- [7.9 Otevřené výzkumné otázky](@/kompendium/07-teoreticke-reflexe/otevrene-otazky.md) – empirická validace jako přiznaný problém.
+- [Replikační výzkum EA studií](@/kompendium/research-methodology/replication-EA-research.md) – jak replikace plánovat.
+- [Historický případ: Replikační krize](@/kompendium/historical-cases/33-replication-crisis.md) – průběh krize podrobněji.
+
+**Pojmy**
+
+- [Replication Crisis](@/glossary/replication-crisis.md) – heslo glosáře.
+- [Evidence-based](@/glossary/evidence-based.md) – co znamená opírat praxi o doklady.
 
 ## Connect & Contribute
 

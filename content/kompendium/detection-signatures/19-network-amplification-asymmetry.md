@@ -26,6 +26,8 @@ Lidé usuzují na důležitost a pravdivost sdělení z toho, kolik lidí ho sd�
 
 Model „hasičské hadice lží“ ([firehose of falsehood](@/glossary/firehose-of-falsehood.md), Paul & Matthews 2016) popisuje, jak vysoký objem a opakování nahrazují důvěryhodnost; asymetrie amplifikace je jedním z pozorovatelných otisků takového přístupu.
 
+Experimentální výzkum ukazuje, jak silně vnímaná popularita mění skutečnou popularitu. Salganik, Dodds a Watts (2006) vytvořili umělý hudební trh, v němž část účastníků viděla, kolikrát si ostatní skladby stáhli; sociální informace zvýšila nerovnost i nepředvídatelnost úspěchu, takže o výsledku do značné míry rozhodlo, co mělo náhodou náskok na začátku. Muchnik, Aral a Taylor (2013) v randomizovaném experimentu na zpravodajském webu doložili, že jediný umělý kladný hlas na začátku diskuse zvýšil pravděpodobnost dalších kladných hlasů a konečné hodnocení příspěvku. Shao et al. (2018) zjistili, že automatizované účty se zvlášť angažují v raných fázích šíření obsahu s nízkou důvěryhodností – tedy právě v okamžiku, kdy umělý náskok nejvíc ovlivní další vývoj. Na straně publika vysvětluje „spirála mlčení“ (Noelle-Neumann, 1974), proč se lidé, kteří vnímají svůj názor jako menšinový, přestávají vyjadřovat, a pluralistická nevědomost (Prentice & Miller, 1993), proč se mohou mýlit v tom, co si většina skutečně myslí.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -56,22 +58,23 @@ Pozitivní při splnění bodu 1 a alespoň jednoho z bodů 2–3. Jediná virá
 
 ## Odlišení od benigních podob
 
-- **Organická viralita**: zábavný nebo silně dojemný obsah se může šířit prudce; jeho šíření však vychází od mnoha skutečných a různorodých uživatelů.
-- **Zásah velkého uzlu**: sdílení celebritou nebo médiem vytvoří skok, který je vysvětlitelný a dohledatelný.
-- **Legitimní koordinace**: aktivistické a fanouškovské komunity organizují sdílení otevřeně; skutečné osoby sdílejí z vlastní vůle a nevydávají se za někoho jiného.
-- **Zpravodajská událost**: skutečná událost vyvolá nárůst zájmu napříč sítěmi.
+**Organická viralita** je běžná: zábavný nebo silně dojemný obsah se může šířit prudce a nepředvídatelně. Jeho šíření však vychází od mnoha skutečných a různorodých uživatelů s odlišnou historií a časovým rozložením aktivity. Vosoughi, Roy a Aral (2018) ukázali, že i nepravdivé zprávy se na sociálních sítích šíří rychleji a dál než pravdivé převážně díky lidem, nikoli robotům; rychlé šíření samo o sobě proto umělou amplifikaci nedokazuje.
+
+**Zásah velkého uzlu**, například sdílení celebritou nebo velkým médiem, vytvoří skok, který je vysvětlitelný a dohledatelný v časové ose. Podobně **zpravodajská událost** vyvolá nárůst zájmu napříč sítěmi a platformami, protože lidé reagují na tutéž skutečnost nezávisle na sobě.
+
+Zvláštní pozornost zasluhuje **legitimní koordinace**. Aktivistické a fanouškovské komunity organizují sdílení otevřeně, a jejich koordinace je součástí běžného veřejného života. Skutečné osoby zde sdílejí z vlastní vůle a nevydávají se za někoho jiného; signaturou se koordinace stává teprve tehdy, když zakrývá svůj původ nebo předstírá více nezávislých hlasů, než ve skutečnosti existuje.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-Pro jednotlivce má asymetrie dva dopady. Jako čtenář může mylně usoudit, že „všichni si to myslí“, a přizpůsobit svůj názor nebo zmlknout. Jako **cíl** amplifikované kampaně (masivní vlna kritiky, posměchu, výhrůžek) zažívá prudký stres, pocit ohrožení a ztrátu kontroly – stav, který může připomínat traumatickou reakci.
+Pro jednotlivce má asymetrie dva dopady. Jako **čtenář** může mylně usoudit, že „všichni si to myslí“, a přizpůsobit svůj názor nebo zmlknout; výzkum spirály mlčení a pluralistické nevědomosti tento účinek popisuje i bez jakéhokoli zásahu zvenčí, a umělá amplifikace ho dále zesiluje. Jako **cíl** amplifikované kampaně – masivní vlny kritiky, posměchu nebo výhrůžek – zažívá prudký stres, pocit ohrožení a ztrátu kontroly, tedy stav, který může připomínat traumatickou reakci a vyžadovat odbornou pomoc.
 
-Osoba, která tvrdí, že je terčem uměle vyrobené vlny, může mít pravdu a zaslouží si, aby její tvrzení bylo ověřeno daty. Rozlišení od paranoidních obav: kampaň zanechává doložitelné stopy (snímky, data, čísla), zatímco perzekuční přesvědčení se opírá o skryté významy a rozšiřuje se mimo sítě. Obě situace se mohou kombinovat – útok může zhoršit existující zranitelnost.
+Osoba, která tvrdí, že je terčem uměle vyrobené vlny, může mít pravdu a zaslouží si, aby její tvrzení bylo ověřeno daty. Rozlišení od paranoidních obav spočívá v tom, že kampaň zanechává doložitelné stopy – snímky, data, čísla, časové průběhy – zatímco perzekuční přesvědčení se opírá o skryté významy a rozšiřuje se mimo sítě. Obě situace se mohou kombinovat a útok může zhoršit existující zranitelnost; klinické posouzení přísluší kvalifikovanému odborníkovi a nemá předcházet ověření faktů.
 
 ## Riziko falešné pozitivity
 
-- Nepopulární sdělení, které se šíří, bývá jeho odpůrci označeno za „boty“; obvinění z umělé amplifikace samo může sloužit k diskreditaci.
-- Hodnotitel nemá úplná data; veřejně dostupná metrika je jen částečná.
-- Algoritmy platforem vytvářejí asymetrie i bez vnějšího aktéra.
+Nepopulární sdělení, které se šíří, bývá jeho odpůrci označeno za dílo „botů“. Obvinění z umělé amplifikace tak samo může sloužit k diskreditaci skutečných lidí s nepohodlným názorem, a hodnotitel, který je přebírá bez dat, se stává součástí sporu. Signatura proto vyžaduje doložení nepoměru mezi dosahem a organickou základnou, nikoli jen nesouhlas s obsahem.
+
+Hodnotitel navíc obvykle nemá úplná data; veřejně dostupná metrika je jen částečná a platformy mohou počty zobrazení počítat různě. Algoritmy platforem také vytvářejí asymetrie i bez vnějšího aktéra, protože odměňují rychlý nárůst aktivity. Bez znalosti doporučovacího systému nelze vždy rozlišit, zda asymetrii způsobil koordinovaný aktér, nebo samotná architektura platformy.
 
 ## Validační test
 
@@ -97,9 +100,19 @@ Ukládat snímky obrazovky s časovým razítkem, odkazy, archivní kopie a expo
 
 ## Limity a otevřené otázky
 
-- Hranice mezi organickým a vyrobeným šířením se stírá, když vyrobený začátek spustí skutečné sdílení.
-- Platformy zveřejňují data omezeně; nezávislá analýza je často odkázána na vzorky.
-- Rozpoznání asymetrie neříká nic o pravdivosti obsahu – i pravdivé sdělení může být uměle amplifikováno.
+Hranice mezi organickým a vyrobeným šířením se stírá, když vyrobený začátek spustí skutečné sdílení. Experimenty Salganika a spolupracovníků (2006) i Muchnika a spolupracovníků (2013) naznačují, že po takovém spuštění už nelze výsledek rozložit na „umělou“ a „skutečnou“ složku; detekce tak může doložit zásah na začátku, ale ne jeho celkový podíl.
+
+Platformy zveřejňují data omezeně a nezávislá analýza je často odkázána na vzorky, jejichž reprezentativnost nelze ověřit. Konečně rozpoznání asymetrie neříká nic o pravdivosti obsahu: i pravdivé sdělení může být uměle amplifikováno a nepravdivé se může šířit zcela organicky. Paul a Matthews (2016) zdůrazňují, že u modelu „hasičské hadice“ je podstatou objem a opakování, nikoli obsah jednotlivých sdělení; otevřenou otázkou zůstává, jak by na takový model měla reagovat obrana, která nechce sama omezovat svobodu projevu.
+
+## Literatura
+
+- Muchnik, L., Aral, S., & Taylor, S. J. (2013). Social influence bias: A randomized experiment. *Science*, 341(6146), 647–651.
+- Noelle-Neumann, E. (1974). The spiral of silence: A theory of public opinion. *Journal of Communication*, 24(2), 43–51.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model: Why It Might Work and Options to Counter It*. RAND Corporation.
+- Prentice, D. A., & Miller, D. T. (1993). Pluralistic ignorance and alcohol use on campus: Some consequences of misperceiving the social norm. *Journal of Personality and Social Psychology*, 64(2), 243–256.
+- Salganik, M. J., Dodds, P. S., & Watts, D. J. (2006). Experimental study of inequality and unpredictability in an artificial cultural market. *Science*, 311(5762), 854–856.
+- Shao, C., Ciampaglia, G. L., Varol, O., Yang, K.-C., Flammini, A., & Menczer, F. (2018). The spread of low-credibility content by social bots. *Nature Communications*, 9, 4787.
+- Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
 
 ## Související
 

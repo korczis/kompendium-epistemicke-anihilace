@@ -27,6 +27,8 @@ Vzorec umožňuje mít výhody silného tvrzení bez rizika jeho obhajoby. Kriti
 
 Příklad struktury (obecně, bez konkrétního obsahu): bailey „naše metoda léčí tuto nemoc“; motte „naše metoda pomáhá lidem cítit se lépe“. Nebo bailey „kdo nesouhlasí s vedením, škodí skupině“; motte „je důležité, aby skupina držela pohromadě“. Rozdíl mezi oběma pozicemi je obrovský, ale stejná slova je zakrývají. Epistemicky jde o ekvivokaci – užití jednoho výrazu ve dvou významech – a o asymetrii důkazního břemene, kterou motte bailey skrytě přesouvá.
 
+Teorie argumentace popisuje obě složky vzorce samostatně. Hamblin (1970) zařadil ekvivokaci mezi klasické klamy, které vznikají z víceznačnosti jazyka, a Walton (1996) ukázal, že klamy z víceznačnosti nejsou chybou samotného slova, ale jeho užití v dialogu, kde se význam nepozorovaně mění mezi premisou a závěrem. Shackel (2005) vystihl, co motte and bailey přidává: střídání neprobíhá v jediném úsudku, ale v čase a podle toho, zda je mluvčí právě napadán. Van Eemeren a Grootendorst (2004) formulují pravidla kritické diskuse, podle nichž strana smí obhajovat jen stanovisko, které skutečně zaujala, a musí přijmout, že neúspěšná obhajoba stanoviska vede k jeho stažení; motte and bailey obě pravidla obchází, protože stažené stanovisko se po skončení diskuse tiše vrací. Ve skupinovém prostředí se vzorec pojí s Liftonovým (1961) „nabitým jazykem“: formule, které mají pro členy skupiny širší, závazný význam, a navenek zní neškodně.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -57,23 +59,23 @@ Pozitivní při splnění všech tří kritérií. Kritérium 2 je klíčové �
 
 ## Odlišení od benigních podob
 
-- **Upřesnění po kritice**: mluvčí může po kritice uznat, že se vyjádřil příliš silně, a nadále zastávat jen slabší pozici. To je epistemická poctivost, ne signatura – rozhoduje, zda se k silné pozici vrátí.
-- **Různé publikum**: odborník mluví jinak s laiky a jinak s kolegy; obsah se však nemění, mění se jen míra detailu.
-- **Vývoj názoru**: lidé názory mění; signaturou je cyklus, ne jednorázová změna.
-- **Obecný cíl a konkrétní opatření**: odkaz na cíl je legitimní, pokud je zároveň zvlášť obhájeno konkrétní opatření.
+**Upřesnění po kritice** je projevem epistemické poctivosti, nikoli signaturou. Mluvčí může po kritice uznat, že se vyjádřil příliš silně, a nadále zastávat jen slabší pozici. Rozhoduje, zda se k silné pozici vrátí, jakmile kritika odezní; kdo upřesnění dodrží i v dalším jednání, signaturu nenaplňuje.
+
+**Různé publikum** vyžaduje různý způsob výkladu: odborník mluví jinak s laiky a jinak s kolegy. Obsah se však nemění, mění se jen míra detailu a slovník. Signaturou by se rozdíl stal teprve tehdy, kdyby laikům sliboval to, co před kolegy popírá. Podobně **vývoj názoru** je přirozený: lidé názory mění a nová pozice může být skromnější než původní. Signaturou je cyklus návratů, ne jednorázová změna.
+
+Konečně je legitimní spojovat **obecný cíl a konkrétní opatření**. Odkaz na cíl, s nímž všichni souhlasí, je v pořádku, pokud je zároveň zvlášť obhájeno konkrétní opatření; signatura nastává, když souhlas s cílem slouží jako náhrada obhajoby opatření.
 
 ## Klinická diferenciální diagnostika
 
-Signatura je argumentační, nikoli klinická. U zasažené osoby se projevuje tím, že přijala bailey, ale obhajuje ho motte („přece jen chci být lepší člověk“), a nedokáže rozlišit, s čím vlastně souhlasila. Nejde o poruchu myšlení. Odlišit je však třeba:
+Signatura je argumentační, nikoli klinická. U zasažené osoby se projevuje tím, že přijala bailey, ale obhajuje ho motte („přece jen chci být lepší člověk“), a nedokáže rozlišit, s čím vlastně souhlasila. Nejde o poruchu myšlení, ale o převzatý způsob argumentace, který se v rozhovoru o konkrétních důsledcích obvykle uvolní.
 
-- **konkrétní myšlení** u některých kognitivních poruch, kdy osoba obtížně rozlišuje různé významy slov obecně;
-- **rigidní, černobílé uvažování** v rámci úzkosti nebo některých osobnostních struktur, které vede k přepínání mezi krajními pozicemi bez vnějšího zdroje.
+Odlišit je však třeba **konkrétní myšlení** u některých kognitivních poruch, kdy osoba obtížně rozlišuje různé významy slov obecně, nejen v tématech skupiny; to se projeví i v neutrálních situacích a při neuropsychologickém vyšetření. Dále **rigidní, černobílé uvažování** v rámci úzkosti nebo některých osobnostních struktur, které vede k přepínání mezi krajními pozicemi bez vnějšího zdroje. Beck et al. (1979) popsali dichotomické myšlení jako jedno z kognitivních zkreslení; od převzatého motte and bailey se liší tím, že není vázáno na určitý slovník ani určité téma. Klinické posouzení přísluší kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Obvinění z motte and bailey se snadno stává rétorickým nástrojem: kritik připíše oponentovi silnou pozici, kterou nikdy nezastával (*straw man*), a jeho skutečnou pozici označí za ústup.
-- Kolektivní hnutí mají různé členy s různými pozicemi; střídání pozic „hnutí“ nemusí být strategií jednotlivce.
-- Krátký úryvek bez kontextu nestačí; je nutné doložit obě pozice u téhož zdroje.
+Obvinění z motte and bailey se snadno stává rétorickým nástrojem: kritik připíše oponentovi silnou pozici, kterou nikdy nezastával, a jeho skutečnou pozici pak označí za ústup. Jde o variantu klamu slaměného panáka, kterou Aikin a Casey (2011) rozebrali v několika podobách – od zkreslení oponentova názoru po výběr nejslabšího zastánce. Hodnotitel proto musí doložit obě pozice citací téhož zdroje, nikoli je rekonstruovat.
+
+Kolektivní hnutí mají různé členy s různými pozicemi. Když jeden člen tvrdí bailey a jiný motte, nemusí jít o strategii, ale o prostou názorovou rozmanitost; střídání pozic „hnutí“ proto nelze připsat jednotlivci. Konečně krátký úryvek bez kontextu nestačí: signatura vyžaduje doložit obě pozice u téhož zdroje a časovou souvislost mezi ústupem a kritikou i mezi návratem a jejím odezněním.
 
 ## Validační test
 
@@ -97,9 +99,19 @@ Uchovat doklady obou pozic s datem a kontextem (propagační materiály, intern�
 
 ## Limity a otevřené otázky
 
-- Hranice mezi upřesněním a ústupem se v živé debatě těžko určuje.
-- Pojem se v online diskusích sám rozmělňuje a užívá se jako nálepka ([sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
-- Signatura nic neříká o pravdivosti silné ani slabé pozice; zachycuje jen nepoctivé přepínání mezi nimi.
+Hranice mezi upřesněním a ústupem se v živé debatě těžko určuje; teprve pozdější jednání ukáže, zda šlo o skutečnou revizi. Signatura proto vyžaduje sledování v čase a v jedné výměně se dá nanejvýš zaznamenat podezření.
+
+Pojem se v online diskusích sám rozmělňuje a užívá se jako nálepka pro jakýkoli nesouhlas s oponentovou formulací ([sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)). Shackel (2005) jej zavedl pro specifickou strukturu, a jeho užitečnost závisí na tom, zda bude takto přesně užíván i nadále. Signatura nic neříká o pravdivosti silné ani slabé pozice; zachycuje jen nepoctivé přepínání mezi nimi. Otevřenou otázkou zůstává, zda je vzorec vždy vědomou strategií, nebo zda může vzniknout i z neschopnosti mluvčího rozlišit, co přesně tvrdí.
+
+## Literatura
+
+- Aikin, S. F., & Casey, J. (2011). Straw men, weak men, and hollow men. *Argumentation*, 25(1), 87–105.
+- Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.
+- Hamblin, C. L. (1970). *Fallacies*. Methuen.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36(3), 295–320.
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge University Press.
+- Walton, D. N. (1996). *Fallacies Arising from Ambiguity*. Kluwer Academic.
 
 ## Související
 

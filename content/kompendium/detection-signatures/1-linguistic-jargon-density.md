@@ -30,6 +30,8 @@ Na úrovni struktury jde o přesun epistemické autority: místo „je to pravda
 
 U zasažené osoby se dlouhodobá expozice projevuje tím, že přebírá slovník, aniž by přebírala jeho obsah: mluví plynule, ale na otázku „co tím myslíš“ odpovídá dalším termínem. To je jeden z raných znaků [hermeneutického outsourcingu](@/glossary/hermeneuticky-outsourcing.md) – výklad vlastní zkušenosti se svěřuje cizímu slovníku.
 
+Empirický výzkum podporuje, že složitost formulace se u posluchače skutečně zaměňuje za hloubku, i když ne vždy ve prospěch mluvčího. Oppenheimer (2006) ukázal, že zbytečně dlouhá a vzácná slova snižují hodnocení inteligence autora u čtenářů, kteří text dokážou posoudit; jinak je tomu tam, kde posluchač nemá s čím srovnávat a kde je mluvčí v pozici autority. Weisberg et al. (2008) doložili, že laici hodnotí vysvětlení psychologických jevů jako uspokojivější, obsahuje-li irelevantní neurovědní terminologii, a to i tehdy, když je vysvětlení samo kruhové. Obě zjištění dohromady vysvětlují, proč signatura působí nejsilněji v asymetrických vztazích: tam, kde chybí nezávislé měřítko, terminologie funguje jako náhrada důkazu. Sokal a Bricmont (1998) popsali obdobný vzorec v akademickém diskurzu, kde se pojmy přírodních věd přenášejí do jiných oborů bez zachování jejich významu, a Frankfurt (2005) obecněji charakterizoval řeč, jejímž cílem není pravdivost, ale dojem.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -65,7 +67,7 @@ Jediný splněný bod je slabý signál. Kombinace bodů 3–5 má větší váh
 
 ## Odlišení od benigních podob
 
-Hustý odborný jazyk je v mnoha prostředích legitimní: akademická přednáška pro specialisty, technická dokumentace, právní text, klinická zpráva pro kolegu. Rozhodující není počet termínů, ale **vztah k ověřitelnosti**:
+Hustý odborný jazyk je v mnoha prostředích legitimní: akademická přednáška pro specialisty, technická dokumentace, právní text nebo klinická zpráva pro kolegu. Rozhodující proto není počet termínů, ale **vztah k ověřitelnosti**. Orwell (1946) v eseji o politickém jazyce upozornil, že nejasnost sama není důkazem nepoctivosti, ale stává se jí tam, kde zakrývá, co se skutečně tvrdí nebo dělá; Pinker (2014) přidává z pohledu kognitivní psychologie „prokletí znalosti“, tedy neschopnost odborníka představit si, že čtenář jeho termíny nezná. Druhý jev je benigní a reaguje na zpětnou vazbu, první nikoli. Rozdíl shrnuje následující přehled.
 
 | Legitimní odborný jazyk | Žargon jako bariéra |
 |---|---|
@@ -74,25 +76,21 @@ Hustý odborný jazyk je v mnoha prostředích legitimní: akademická předná�
 | Dotaz na význam je vítán. | Dotaz na význam je trestán nebo patologizován. |
 | Žargon ubývá, když se mění publikum. | Žargon zůstává stejný i vůči laikům, kterým je sdělení určeno. |
 
-Častou benigní podobou je také **nejistota začátečníka**: student nebo nový zaměstnanec užívá termíny, jimž ještě nerozumí, aby obstál. Chybí tu však mocenská asymetrie a sankce za dotaz.
+Častou benigní podobou je také **nejistota začátečníka**: student nebo nový zaměstnanec užívá termíny, jimž ještě nerozumí, aby obstál. Chybí tu však mocenská asymetrie a sankce za dotaz, a žargon s rostoucí kompetencí ubývá, místo aby se zahušťoval.
 
 ## Klinická diferenciální diagnostika
 
-Neobvyklý jazyk může mít i klinické příčiny, které nesouvisejí s manipulací:
+Neobvyklý jazyk může mít klinické příčiny, které s vnějším působením nesouvisejí, a hodnotitel je musí zvážit dříve, než jazykový vzorec připíše prostředí. Jaspers (1913) ve své obecné psychopatologii zdůraznil, že formu prožitku a řeči je nutné posuzovat odděleně od jejího obsahu; tato metodická zásada platí i zde. **Neologismy a rozvolnění asociací** u psychotických poruch se liší tím, že mluvčí sám nerozlišuje mezi vlastním a sdíleným významem a jeho slovník obvykle není sdílen skupinou. Naproti tomu převzatý skupinový slovník je konzistentní, naučený a sdílený s ostatními členy.
 
-- **neologismy a rozvolnění asociací** u psychotických poruch – mluvčí sám nerozlišuje mezi vlastním a sdíleným významem a obvykle se netýká skupinově sdíleného slovníku;
-- **pedantská, formální řeč** u některých lidí s poruchou autistického spektra – termíny jsou přesné a mluvčí je ochoten je vysvětlit, i když způsobem, který posluchač může vnímat jako nepřiměřený;
-- **hypermanické zrychlení řeči** s vysokou hustotou pojmů;
-- **obranná intelektualizace** u traumatizovaných osob, které o bolestné zkušenosti mluví odborným jazykem, aby si od ní udržely odstup.
+**Pedantská, formální řeč** u některých lidí s poruchou autistického spektra se liší ochotou termíny vysvětlit, i když způsobem, který posluchač může vnímat jako nepřiměřený; chybí zde funkce bariéry. **Hypermanické zrychlení řeči** s vysokou hustotou pojmů je provázeno dalšími znaky afektivní poruchy a kolísá s její fází. **Obranná intelektualizace** u traumatizovaných osob, které o bolestné zkušenosti mluví odborným jazykem, aby si od ní udržely odstup, je samostatný jev, který Herman (1992) popisuje jako součást ochranného odpojení od traumatického obsahu.
 
-U zasažené osoby, která převzala skupinový slovník, je třeba odlišit naučený jazyk skupiny od formální poruchy myšlení. Pomáhá rozhovor o tématech mimo skupinu: naučený žargon se v nich obvykle neobjevuje (viz [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+U zasažené osoby, která převzala skupinový slovník, je proto třeba odlišit naučený jazyk skupiny od formální poruchy myšlení. Pomáhá rozhovor o tématech mimo skupinu: naučený žargon se v nich obvykle neobjevuje, zatímco formální porucha myšlení prostupuje všechna témata (viz [diferenciální diagnostika EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)). Konečné klinické posouzení je vždy věcí kvalifikovaného odborníka.
 
 ## Riziko falešné pozitivity
 
-- **Mezioborová neznalost hodnotitele**: to, co je pro hodnotitele žargon, může být běžná řeč jiného oboru. Před závěrem je vhodné konzultovat odborníka z dané oblasti.
-- **Kulturní a jazykové rozdíly**: přejatá slova v mladších profesních komunitách nejsou sama o sobě znakem manipulace.
-- **Zaměnění tónu za funkci**: arogance nebo nepříjemný styl není totéž co epistemická bariéra.
-- **Konfirmační zkreslení**: kdo hledá manipulaci, najde v každém odborném textu „mlžení“ (srov. [konfirmační bias](@/glossary/konfirmacni-bias.md) a kritiku v [riziku falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
+Nejčastějším zdrojem omylu je **mezioborová neznalost hodnotitele**: to, co je pro hodnotitele žargon, může být běžná řeč jiného oboru. Před závěrem je vhodné konzultovat odborníka z dané oblasti, protože bez něj nelze rozhodnout, zda jsou definice dohledatelné mimo skupinu. Podobně **kulturní a jazykové rozdíly** – přejatá slova v mladších profesních komunitách, generační slang nebo regionální odborné zvyklosti – nejsou samy o sobě znakem manipulace.
+
+Druhou skupinou omylů je **zaměnění tónu za funkci**. Arogance nebo nepříjemný styl mluvčího nejsou totéž co epistemická bariéra; signatura se týká toho, zda posluchač dostane přístup k významu, ne toho, zda je mu mluvčí sympatický. Třetím rizikem je **konfirmační zkreslení**: kdo hledá manipulaci, najde v každém odborném textu „mlžení“. Nickerson (1998) shrnul, jak široce se tento sklon projevuje i u vyškolených hodnotitelů, a proto signatura vyžaduje validační test a souběh s dalšími znaky (srov. [konfirmační bias](@/glossary/konfirmacni-bias.md) a kritiku v [riziku falešně pozitivních detekcí](@/kompendium/critical-perspectives/5-false-positive-risk.md)).
 
 ## Validační test
 
@@ -136,9 +134,23 @@ Samotná hustota žargonu nikdy neodůvodňuje akutní intervenci. Ta přicház�
 
 ## Limity a otevřené otázky
 
-- Neexistuje obecně platná hranice „normální“ hustoty termínů; každé měření je relativní k žánru a publiku.
-- Automatizovaná detekce (počítání termínů) zachytí množství, ale ne funkci žargonu, a sama o sobě produkuje mnoho falešných poplachů.
-- Hranice mezi oborovou kulturou a uzavírajícím se jazykem skupiny je plynulá; signatura popisuje směr, ne binární stav.
+Neexistuje obecně platná hranice „normální“ hustoty termínů; každé měření je relativní k žánru, publiku a účelu sdělení. Nástroje počítačové analýzy textu, jako je slovníková metoda LIWC (Tausczik & Pennebaker, 2010), dokážou zachytit podíl neobvyklých nebo dlouhých slov, ale ne funkci žargonu v konkrétním vztahu. Automatizovaná detekce proto sama o sobě produkuje mnoho falešných poplachů a může sloužit nanejvýš jako podnět k pozornějšímu čtení.
+
+Hranice mezi oborovou kulturou a uzavírajícím se jazykem skupiny je navíc plynulá. Lifton (1961) popisoval nabitý jazyk jako jeden z osmi znaků totalistického prostředí, nikoli jako izolovaný jev; signatura proto popisuje směr vývoje, ne binární stav. Otevřenou otázkou zůstává, jak dlouho po odchodu ze skupiny převzatý slovník přetrvává a zda jeho postupné vymizení může sloužit jako ukazatel zotavení.
+
+## Literatura
+
+- Frankfurt, H. G. (2005). *On Bullshit*. Princeton University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Jaspers, K. (1913). *Allgemeine Psychopathologie*. Springer.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+- Oppenheimer, D. M. (2006). Consequences of erudite vernacular utilized irrespective of necessity: Problems with using long words needlessly. *Applied Cognitive Psychology*, 20(2), 139–156.
+- Orwell, G. (1946). Politics and the English Language. *Horizon*, 13(76).
+- Pinker, S. (2014). *The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century*. Viking.
+- Sokal, A., & Bricmont, J. (1998). *Fashionable Nonsense: Postmodern Intellectuals' Abuse of Science*. Picador.
+- Tausczik, Y. R., & Pennebaker, J. W. (2010). The psychological meaning of words: LIWC and computerized text analysis methods. *Journal of Language and Social Psychology*, 29(1), 24–54.
+- Weisberg, D. S., Keil, F. C., Goodstein, J., Rawson, E., & Gray, J. R. (2008). The seductive allure of neuroscience explanations. *Journal of Cognitive Neuroscience*, 20(3), 470–477.
 
 ## Související
 

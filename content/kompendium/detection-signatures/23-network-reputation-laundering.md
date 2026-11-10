@@ -26,6 +26,8 @@ Instituce a jednotlivci nemají kapacitu ověřit všechno a spoléhají na sign
 
 Mechanismus má řetězovou povahu: první přijetí usnadní druhé, druhé třetí. Instituce, které se zapojí později, se odvolávají na ty předchozí – a vzniká [cirkularita](@/kompendium/detection-signatures/18-network-citation-circularity.md) na úrovni reputace. Pro jednotlivce, který na pochybnost upozorňuje, je situace obtížná: jeho varování stojí proti „všem těm institucím“.
 
+Sociologie i psychologie nabízejí pro tento mechanismus několik vysvětlení. Bourdieu (1986) rozlišil ekonomický, kulturní, sociální a symbolický kapitál a ukázal, že jednotlivé formy kapitálu lze za určitých podmínek převádět jednu na druhou; praní reputace lze chápat jako konverzi ekonomického kapitálu na symbolický, která zakrývá původ prvního. Thorndike (1920) popsal haló efekt – sklon přenášet celkový dojem z osoby na hodnocení jejích jednotlivých vlastností –, který vysvětluje, proč prestiž instituce přechází na toho, kdo se s ní spojí. Merton (1968) ukázal kumulaci výhod u těch, kdo už uznání mají, a řetězová povaha praní reputace je její obdobou: každé uznání usnadňuje další. Cooley, Heathershaw a Sharman (2018) popsali, jak aktéři s bohatstvím nejasného původu využívají služeb poradců, filantropie a institucí v demokratických zemích ke „vybílení“ své pověsti. Goldman (2001) by celý proces popsal jako zneužití nepřímých ukazatelů důvěryhodnosti, na které se laik musí spoléhat, protože sám nemůže posoudit podstatu.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -57,22 +59,21 @@ Pozitivní při splnění bodů 1–3; bod 4 zvyšuje závažnost.
 
 ## Odlišení od benigních podob
 
-- **Skutečná náprava**: aktér, který své dřívější jednání přizná, napraví škody a změní chování, si legitimně buduje novou reputaci.
-- **Rehabilitace po křivém obvinění**: osoba, jejíž pověst byla neoprávněně poškozena, má právo na obnovu; pochybnosti jsou v takovém případě vyvráceny, nikoli překryty.
-- **Normální kariérní růst**: nové vazby přicházejí s výsledky práce, bez vzorce výměnných obchodů.
-- **Filantropie** sama o sobě není praním reputace; je jím tehdy, když slouží k překrytí nevyřešených problémů.
+**Skutečná náprava** je legitimní a společensky žádoucí: aktér, který své dřívější jednání přizná, napraví škody a změní chování, si oprávněně buduje novou reputaci. Rozdíl oproti signatuře spočívá v tom, že pochybnosti jsou otevřeně řešeny, nikoli překryty novými asociacemi. Podobně **rehabilitace po křivém obvinění** obnovuje pověst osoby, která byla neoprávněně poškozena; pochybnosti jsou v takovém případě vyvráceny, a to je třeba odlišit od jejich zamlčení.
+
+**Normální kariérní růst** přináší nové vazby s výsledky práce, bez vzorce výměnných obchodů, v nichž prestiž následuje dar nebo službu. Konečně **filantropie** sama o sobě praním reputace není a většina darů slouží svému účelu. Signaturou se filantropie stává tehdy, když slouží k překrytí nevyřešených problémů, když dar předchází nebo podmiňuje institucionální uznání a když se instituce na pochybnosti nepodívá, protože by mohla o dar přijít.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-Signatura zasahuje jednotlivce zejména jako **oběti aktéra**, jehož reputace byla vyprána: jejich zkušenost je zpochybňována autoritou institucí, které aktéra přijaly. To prohlubuje [epistemickou nespravedlnost](@/glossary/epistemicka-injustice.md) (Fricker 2007) – nevěří se jim, protože proti nim stojí „renomovaný“ člověk. Může to vést k pocitu bezmoci, k sebeobviňování a k pochybnostem o vlastní paměti.
+Signatura zasahuje jednotlivce zejména jako **oběti aktéra**, jehož reputace byla vyprána. Jejich zkušenost je zpochybňována autoritou institucí, které aktéra přijaly, a prohlubuje se tak [epistemická nespravedlnost](@/glossary/epistemicka-injustice.md) ve smyslu Frickerové (2007): nevěří se jim, protože proti nim stojí „renomovaný“ člověk. Dotson (2011) popsala, jak opakovaná zkušenost, že výpověď nebude přijata, vede mluvčího k sebeumlčení, tedy k tomu, že výpověď ani nepodá. To může vést k pocitu bezmoci, k sebeobviňování a k pochybnostem o vlastní paměti.
 
-V inverzní podobě je jednotlivec terčem: jeho pověst je cíleně poškozována asociacemi a citacemi. Klinik by měl takovou zkušenost brát vážně, ověřovat ji doklady a rozlišovat ji od obecně perzekučního myšlení podle konkrétnosti a doložitelnosti.
+V inverzní podobě je jednotlivec terčem: jeho pověst je cíleně poškozována asociacemi a citacemi. Goffman (1963) popsal, jak stigma přechází i na ty, kdo jsou se stigmatizovanou osobou spojeni, a inverzní praní reputace využívá právě tento přenos. Klinik by měl takovou zkušenost brát vážně, ověřovat ji doklady a rozlišovat ji od obecně perzekučního myšlení podle konkrétnosti a doložitelnosti. Klinické posouzení náleží kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Nesouhlas s aktérem nebo s jeho politikou není důkazem praní reputace.
-- Hodnotitel nemusí znát okolnosti, za nichž byly pochybnosti vyřešeny (například soudní rozhodnutí, vyrovnání).
-- Instituce mohou přijmout aktéra po řádném prověření; absence veřejné informace o prověření neznamená, že neproběhlo.
+Nesouhlas s aktérem nebo s jeho politikou není důkazem praní reputace. Signatura se týká rozporu mezi nevyřešenými pochybnostmi a získanou prestiží, nikoli toho, zda je aktér hodnotiteli sympatický. Zvlášť v polarizovaném prostředí je pokušení označit za „praní“ každé uznání protivníka velké a hodnotitel mu musí odolat.
+
+Hodnotitel také nemusí znát okolnosti, za nichž byly pochybnosti vyřešeny – soudní rozhodnutí, vyrovnání nebo interní šetření, jehož výsledek nebyl zveřejněn. Instituce mohou aktéra přijmout po řádném prověření, a absence veřejné informace o prověření neznamená, že neproběhlo. Před závěrem je proto namístě se instituce zeptat a odpověď zaznamenat.
 
 ## Validační test
 
@@ -98,9 +99,20 @@ Archivovat zdroje pochybností, protože bývají odstraňovány; zaznamenat dat
 
 ## Limity a otevřené otázky
 
-- Vztah mezi asociací a „praním“ je interpretační; signatura vyžaduje opatrný jazyk a doložitelné kroky.
-- Institucionální prověřování je nákladné a nerovnoměrně dostupné.
-- Inverzní podoba (ničení reputace) se obtížně odlišuje od legitimní kritiky.
+Vztah mezi asociací a „praním“ je interpretační; signatura vyžaduje opatrný jazyk a doložitelné kroky. Formulace „aktér získal ocenění X rok po daru Y, zatímco pochybnosti Z zůstávají veřejně nevyřešeny“ je dokumentací; formulace „aktér si koupil reputaci“ je závěrem, který mohou učinit jen příslušné instituce, například soud.
+
+Institucionální prověřování je nákladné a nerovnoměrně dostupné; malé instituce nemají kapacitu prověřit dárce, a právě ony mohou být prvním článkem řetězu. Inverzní podoba – ničení reputace – se navíc obtížně odlišuje od legitimní kritiky, protože obě pracují s veřejnými informacemi a asociacemi. Otevřenou otázkou zůstává, jak nastavit pravidla prověřování tak, aby chránila instituce i bez toho, aby z nich udělala nástroj vylučování nepohodlných lidí.
+
+## Literatura
+
+- Bourdieu, P. (1986). The forms of capital. In J. G. Richardson (Ed.), *Handbook of Theory and Research for the Sociology of Education* (s. 241–258). Greenwood.
+- Cooley, A., Heathershaw, J., & Sharman, J. C. (2018). The rise of kleptocracy: Laundering cash, whitewashing reputations. *Journal of Democracy*, 29(1), 39–53.
+- Dotson, K. (2011). Tracking epistemic violence, tracking practices of silencing. *Hypatia*, 26(2), 236–257.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Goffman, E. (1963). *Stigma: Notes on the Management of Spoiled Identity*. Prentice-Hall.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Merton, R. K. (1968). The Matthew effect in science. *Science*, 159(3810), 56–63.
+- Thorndike, E. L. (1920). A constant error in psychological ratings. *Journal of Applied Psychology*, 4(1), 25–29.
 
 ## Související
 

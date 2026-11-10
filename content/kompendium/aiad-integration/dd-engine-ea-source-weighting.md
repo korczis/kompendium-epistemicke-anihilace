@@ -1,63 +1,87 @@
 +++
-title = "DD Engine & EA detection"
-description = "Integrace agenta DD Engine s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
+title = "DD Engine a vážení zdrojů v prověrkách s ohledem na EA"
+description = "Jak DD Engine na Prismatic Platform řídí prověrky protistran, váží zdroje a sestavuje matici rozporů tvrzení – a proč je rozpor mezi zdroji nejcennějším signálem i pro lidského posuzovatele."
 weight = 31
 
 [taxonomies]
-tags = ["kompendium", "aiad-integration", "dd-engine-ea-source-weighting"]
+tags = ["kompendium", "aiad-integration", "prismatic", "agents", "due-diligence"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["compliance-ea-regulatory-screening", "czech-ares-ea-screening", "decision-engine-ea-calibration", "epistemic-pipeline-ea-detection"]
+related_terms = ["czech-ares-ea-screening", "osint-ea-source-validation", "compliance-ea-regulatory-screening", "decision-engine-ea-calibration", "trinity-gate-ea-verification"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++
 
-# DD Engine & EA detection
+# DD Engine a vážení zdrojů v prověrkách s ohledem na EA
 
-## Agent overview
+DD Engine je podle původní verze této stránky doménovým agentem Prismatic Platform, softwarové platformy, z níž kniha vzešla, který řídí prověrky protistran (*due diligence*). Koordinuje vyšetřování napříč doménami, váží zdroje podle jejich spolehlivosti a nezávislosti a vytváří zprávy připravené k auditu, jejichž jádrem je **matice rozporů** – přehled, který pro každý zdroj a každé tvrzení ukazuje, kde se zdroje shodují a kde si odporují. Ve vztahu k taxonomii epistemických útoků (EA) je DD Engine místem, kde se celá obranná infrastruktura platformy uplatňuje v praxi: prověrka je prostředím, pro které byla taxonomie podle glosáře původně vytvořena. Stránka popisuje práci agenta, jeho souvislost s technikami EA a poučení pro každého, kdo posuzuje důvěryhodnost zdrojů.
 
-DD Engine je due-diligence orchestrátor — koordinuje multi-doménové investigation, weighted scoring zdrojů a generuje audit-ready reporty s contradiction matrix. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+## Agent v kostce
 
-## EA relevance
+Heslo [Due Diligence](@/glossary/due-diligence.md) popisuje prověrku jako soustavné prošetření firmy, osoby nebo aktiva před transakcí, partnerstvím či spoluprací. Zahrnuje sběr informací z otevřených zdrojů, [sjednocování entit](@/glossary/entity-resolution.md) napříč datovými sadami, analýzu vztahů, screening sankčních seznamů a strukturované hodnocení rizik. DD Engine tyto činnosti orchestruje: volá agenty [OSINT](@/kompendium/aiad-integration/osint-ea-source-validation.md), [Czech ARES](@/kompendium/aiad-integration/czech-ares-ea-screening.md) a [Compliance](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) a jejich výstupy skládá do zprávy s vážením zdrojů, maticí rozporů a důkazním řetězcem.
 
-DD Engine je **konzument celé EA infrastruktury** — pro každou DD investigation aplikuje relevant subset detekčních vrstev. Konzumuje **glossary-bridges/** pro konzistentní terminologii v reportech.
+Původní stránka zdůrazňuje, že rozpory jsou pro DD Engine signály nejvyšší priority: pokud subjekt o sobě uvádí údaj, který nezávislý zdroj nepotvrzuje nebo mu odporuje, je to místo, kde se prověrka musí zastavit a ověřovat. Pro jednotnou terminologii zpráv agent využívá [mosty glosáře](@/kompendium/glossary-bridges/_index.md).
 
-## Detection mechanisms
+## Proč se týká technik EA
 
-Detekce: **contradiction matrix** — každý zdroj × každý claim, hledá **logické rozpory** (Casper deklaruje 800M, ale rejstřík ukazuje 229M). Contradictions = high-priority red flags.
+Heslo glosáře uvádí, že prověrka je jedním z prostředí, pro která byla [taxonomie EA](@/glossary/taxonomie-ea.md) vytvořena: posuzovatel potřebuje rozpoznat, zda zdroje, výpovědi a dokumenty nenesou stopy manipulace. Kniha tento průnik rozvádí v řadě stránek [Cross-Domain](@/kompendium/cross-domain/_index.md): [vážení zdrojů v prověrce](@/kompendium/cross-domain/10-ea-dd-source-weighting.md), [potvrzovací zkreslení vyšetřovatele](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md), [manipulace informacemi protistrany](@/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md), [narativní válka v transakcích](@/kompendium/cross-domain/14-ea-dd-narrative-warfare.md) a [hodnocení kvality důkazů](@/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md). Techniky, které se v prověrkách objevují nejčastěji, jsou [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) – předkládání jen příznivých dokumentů –, [informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) – zahlcení posuzovatele objemem podkladů – a [pseudokonsenzus](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md) – zdánlivá shoda mnoha zdrojů se společným původem.
 
-## Operational protocols
+## Jak pracuje
 
-Provoz: per-deal investigation, days-to-weeks horizon. Výstup: **NBS report** (No Bullshit) s contradiction matrix, source weighting, evidence chain. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Vážení zdrojů navazuje na zavedenou praxi zpravodajské analýzy, v níž se hodnotí spolehlivost zdroje a věrohodnost informace odděleně: spolehlivý zdroj může přinést chybnou informaci a nespolehlivý zdroj pravdivou. Heuer (1999) upozornil, že analytici mají sklon přeceňovat informace, které přicházejí v živé a konkrétní podobě, a podceňovat absenci informací. Matice rozporů odpovídá technice analýzy soupeřících hypotéz, kterou Heuer a Pherson (2011) zařadili mezi strukturované analytické techniky: místo hledání potvrzení se systematicky hledá, které údaje si odporují a které hypotézy jednotlivé údaje vylučují.
 
-## Limitations
+Pro prověrky s ohledem na praní peněz a financování terorismu platí mezinárodní standardy, které formuluje Finanční akční výbor (FATF 2012) a které zdůrazňují identifikaci skutečného majitele a přístup založený na riziku. DD Engine tyto zásady neuplatňuje sám jako právní posouzení, ale jako strukturu, do níž skládá výstupy ostatních agentů.
 
-DD Engine je **report-grade**, ne **real-time** — výstup vyžaduje hodiny analýzy. Také závislý na kvalitě upstream OSINT a ARES dat.
+Třetím principem je oddělení faktu od hodnocení. Matice zaznamenává, co který zdroj tvrdí, a teprve v dalším kroku se hodnotí, čemu věřit. Toto oddělení brání tomu, aby se hodnocení zdroje promítlo do toho, jak se jeho tvrzení vůbec zapíše – chyba, při níž se nepohodlný údaj z nedůvěryhodného zdroje „ztratí“ dřív, než mohl být porovnán s jinými. V lidské praxi odpovídá tomuto principu zásada zapisovat výpovědi doslova a hodnotit je až potom (srov. [vedení forenzního rozhovoru](@/kompendium/forensic-legal/1-forensic-interview-protocol.md)).
 
-## Coordination
+## Spolupráce s dalšími agenty
 
-Volá **OSINT Agent**, **Czech ARES**, **Compliance**; výstupy validuje **[Trinity Gate](@/glossary/trinity-gate.md)**; reporty auditovány **[White Team](@/glossary/white-team.md)**.
+DD Engine volá [OSINT](@/kompendium/aiad-integration/osint-ea-source-validation.md), [Czech ARES](@/kompendium/aiad-integration/czech-ares-ea-screening.md) a [Compliance](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md); hloubkovou analýzu jednotlivých tvrzení svěřuje [epistemickému procesu](@/kompendium/aiad-integration/epistemic-pipeline-ea-detection.md); závěry ověřuje [Trinity Gate](@/kompendium/aiad-integration/trinity-gate-ea-verification.md); rozhodnutí kalibruje [Decision Engine](@/kompendium/aiad-integration/decision-engine-ea-calibration.md) a zprávy audituje [White Team](@/kompendium/aiad-integration/white-team-ea-verification.md).
 
-## Cross-linky
+## Příklad
 
-- [Czech Ares Ea Screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) — peer v rámci Domain Agents
-- [Osint Ea Source Validation](@/kompendium/aiad-integration/osint-ea-source-validation.md) — peer v rámci Domain Agents
-- [Hawkeye Ea Visitor Intelligence](@/kompendium/aiad-integration/hawkeye-ea-visitor-intelligence.md) — peer v rámci Domain Agents
-- [Perimeter Ea Attack Surface](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md) — peer v rámci Domain Agents
-- [Compliance Ea Regulatory Screening](@/kompendium/aiad-integration/compliance-ea-regulatory-screening.md) — peer v rámci Domain Agents
-- [Red Team Ea Detection](@/kompendium/aiad-integration/red-team-ea-detection.md) — cross-group koordinace
-- [Archer Supreme Ea Orchestration](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md) — cross-group koordinace
-- [Autoevolve Ea Pattern Evolution](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md) — cross-group koordinace
-- [základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md) — EA taxonomie
-- [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — EA taxonomie
-- [ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) — EA taxonomie
-- [agent-tier](@/glossary/agent-tier.md) — platform glossary
-- [color-teams](@/glossary/color-teams.md) — platform glossary
-- [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
+Protistrana předloží rozsáhlý balík dokumentů dokládajících její finanční stabilitu. DD Engine sestaví matici: v řádcích tvrzení (výše obratu, počet zaměstnanců, hlavní zákazníci, vlastnická struktura), ve sloupcích zdroje (dokumenty protistrany, výroční zprávy ve sbírce listin, rejstříkové údaje, nezávislé mediální zdroje). Ukáže se, že tvrzení o obratu podporují jen dokumenty protistrany a v posledních účetních závěrkách ve veřejné sbírce listin je výrazně nižší údaj; tvrzení o hlavních zákaznících nepotvrzuje žádný nezávislý zdroj. Matice tyto rozpory zvýrazní jako nejvyšší prioritu. Objem předložených dokumentů nemá na hodnocení vliv – rozhoduje nezávislost a shoda zdrojů. Zpráva pak výslovně uvádí, které rozpory zůstaly nevysvětleny a co by je mohlo vysvětlit.
 
-## Connect & Contribute
+## Co z toho plyne pro čtenáře knihy
 
-Created by [Tomáš Korcak (korczis)](https://github.com/korczis) | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Prvním poučením je **rozpor jako nejcennější signál**. Lidé mají sklon přehlížet rozpory nebo je vysvětlovat ve prospěch toho, čemu už věří. Nickerson (1998) shrnul, jak všudypřítomné je potvrzovací zkreslení. Matice rozporů je jednoduchý nástroj proti němu a kniha ji doporučuje i mimo prověrky – v klinice při porovnání výpovědí, ve forenzní práci při [rekonstrukci časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md), v osobním životě při [triangulaci zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md).
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Druhým poučením je **objem není důkaz**. Informační přetížení funguje proto, že velké množství podkladů vytváří dojem důkladnosti. DD Engine váží zdroje podle nezávislosti a kvality, nikoli podle počtu stran. Lidský posuzovatel by měl postupovat stejně a výslovně se ptát, kolik nezávislých zdrojů za objemem stojí.
+
+Třetím poučením je **zkreslení posuzovatele**. Kniha věnuje samostatnou stránku [potvrzovacímu zkreslení v prověrkách](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md) a [systémové prevenci potvrzovacího zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md). Manipulace v prověrce často nepracuje proti posuzovateli, ale s ním – dodává mu přesně to, co čeká. Matice rozporů pomáhá i proti vlastnímu očekávání.
+
+## Prověrka a ochrana lidí
+
+Prověrky se netýkají jen firem, ale i lidí – statutárních orgánů, skutečných majitelů, klíčových zaměstnanců. Kniha zdůrazňuje, že stejné nástroje, které chrání před manipulací, mohou při nedbalém použití poškodit nevinného: záměnou osob, převzetím nepodložené pověsti nebo spojením nesouvisejících údajů. Zpráva prověrky má proto rozlišovat mezi ověřenými skutečnostmi, nepotvrzenými tvrzeními a hypotézami a nemá šířit údaje o soukromých osobách nad rámec účelu prověrky. Tento požadavek odpovídá zásadě minimalizace údajů v obecném nařízení o ochraně osobních údajů a obranné logice knihy, která OSINT popisuje jen v zákonném rámci (viz [doxing](@/glossary/doxing.md)).
+
+## Meze a otevřené otázky
+
+DD Engine vytváří zprávy, nikoli rozhodnutí v reálném čase, a jeho výstupy vyžadují hodiny analýzy. Je závislý na kvalitě vstupů od OSINT a rejstříkových agentů. Zpráva není právním ani investičním doporučením; je podkladem pro rozhodnutí lidí. Původní stránka uváděla příklad s konkrétními částkami a názvem subjektu; ty se zde z důvodu anonymity a ověřitelnosti neuvádějí.
+
+Otevřenou otázkou zůstává, jak v matici zachytit zdroje, jejichž nezávislost nelze zjistit – kniha doporučuje počítat je jako závislé, dokud se neprokáže opak.
+
+## Literatura
+
+- FATF (2012). *International Standards on Combating Money Laundering and the Financing of Terrorism & Proliferation: The FATF Recommendations* (s pozdějšími aktualizacemi). Paris: FATF.
+- Heuer, R. J., Jr. (1999). *Psychology of Intelligence Analysis*. Washington, DC: Center for the Study of Intelligence, Central Intelligence Agency.
+- Heuer, R. J., Jr., & Pherson, R. H. (2011). *Structured Analytic Techniques for Intelligence Analysis*. Washington, DC: CQ Press.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2), 175–220.
+
+## Související
+
+**Agenti**
+
+- [Czech ARES a screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) – rejstříková data.
+- [OSINT a validace zdrojů](@/kompendium/aiad-integration/osint-ea-source-validation.md) – otevřené zdroje.
+- [Trinity Gate a ověřování](@/kompendium/aiad-integration/trinity-gate-ea-verification.md) – ověření závěrů prověrky.
+
+**Pojmy**
+
+- [Due Diligence](@/glossary/due-diligence.md) – heslo glosáře.
+- [Sanctions Screening](@/glossary/sanctions-screening.md) – screening sankčních seznamů.
+
+**Kniha**
+
+- [EA × Due Diligence: vážení zdrojů](@/kompendium/cross-domain/10-ea-dd-source-weighting.md) – podrobný rozbor.
+- [Potvrzovací zkreslení v prověrkách](@/kompendium/cross-domain/9-ea-dd-investigation-bias.md) – zkreslení posuzovatele.

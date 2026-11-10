@@ -26,6 +26,8 @@ Lidé i instituce posuzují spolehlivost tvrzení podle počtu a kvality zdrojů
 
 Pro manipulaci je cirkularita způsob, jak „vyprat“ nepodložené tvrzení do zdánlivého konsenzu – souvisí s technikou [EA-2.1.9 Pseudo-konsenzus vytvoření](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md). Cirkularita však často vzniká i bez úmyslu, z pracovní rutiny, kdy se zdroje přebírají bez ověření.
 
+Nejpřesněji tento jev empiricky zachytil Greenberg (2009), který zmapoval citační síť kolem jednoho biomedicínského tvrzení a ukázal, jak se z malého počtu primárních prací – některé z nich tvrzení vůbec nepodporovaly – stala citováním „nezpochybnitelná“ autorita. Popsal přitom konkrétní mechanismy: zesilování citováním přehledů místo primárních dat, ignorování protichůdných studií a postupný posun tvrzení z hypotézy na fakt. Epistemologicky jde o porušení podmínky, kterou Goldman (2001) formuloval pro hodnocení svědectví: počet souhlasných zdrojů zvyšuje oprávnění jen tehdy, když zdroje nejsou pouhými ozvěnami jednoho z nich. Psychologicky cirkularitu posiluje efekt iluzorní pravdy – Hasher, Goldstein a Toppino (1977) prokázali, že opakované vystavení tvrzení zvyšuje jeho hodnocenou pravdivost bez ohledu na obsah. Benkler, Faris a Roberts (2018) popsali v mediálním ekosystému „propagandistickou zpětnou smyčku“, v níž se média, politici a publikum vzájemně potvrzují a nezávislé ověření z okruhu vypadává.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -56,22 +58,23 @@ Pozitivní při splnění všech tří bodů. Míra závažnosti roste, pokud je
 
 ## Odlišení od benigních podob
 
-- **Přebírání ověřených zpráv**: zpravodajská média přebírají zprávy agentur; pokud otevřeně uvádějí původ a agentura má ověřený zdroj, nejde o signaturu.
-- **Shrnutí literatury**: přehledové články citují primární studie; cirkularita nastává, až když citují jen jiné přehledy.
-- **Zavedená fakta**: některá fakta se citují bez odkazu, protože jsou obecně ověřená a ověřitelná.
-- **Vědecké školy** se přirozeně citují více navzájem; rozdíl je v tom, zda existují primární data a zda jsou přístupná.
+**Přebírání ověřených zpráv** je běžnou a legitimní praxí: zpravodajská média přebírají zprávy agentur, a pokud otevřeně uvádějí původ a agentura má ověřený zdroj, nejde o signaturu. Čtenář tu ví, že deset článků představuje jednu zprávu, a může váhu potvrzení správně odhadnout.
+
+Podobně **shrnutí literatury** v přehledových článcích citují primární studie, a cirkularita nastává teprve tehdy, když citují jen jiné přehledy a primární data se z řetězce vytratí. **Zavedená fakta** se citují bez odkazu, protože jsou obecně ověřená a ověřitelná; jejich opakování bez zdroje nezakládá cirkularitu, protože kdokoli je může dohledat. Konečně **vědecké školy** se přirozeně citují více navzájem, protože pracují na společných otázkách. Rozdíl je v tom, zda existují primární data, zda jsou přístupná a zda škola vstupuje do kritické výměny s jinými přístupy; Merton (1968) ukázal, že nerovnoměrné rozložení citací je normálním rysem vědy a samo o sobě o cirkularitě nevypovídá.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-Jednotlivce cirkularita zasahuje dvojím způsobem. Jako **čtenáře** ho vede k přesvědčení, že tvrzení je dobře doložené, a k nedůvěře vůči tomu, kdo ho zpochybňuje. Jako **cíl** ho může zasáhnout, když o něm koluje nepodložené tvrzení, které se „potvrzuje“ citováním (pomluva, falešná obvinění). Člověk, o němž se takové tvrzení šíří, prožívá bezmoc: každé vyvrácení musí čelit „mnoha zdrojům“.
+Jednotlivce cirkularita zasahuje dvojím způsobem. Jako **čtenáře** ho vede k přesvědčení, že tvrzení je dobře doložené, a k nedůvěře vůči tomu, kdo ho zpochybňuje. Lewandowsky et al. (2012) ukázali, že jednou přijatá dezinformace přetrvává v úsudku i po opravě, zvláště když ji podporuje dojem širokého souhlasu; cirkularita vytváří právě tento dojem.
 
-Pokud osoba uvádí, že o ní kolují nepravdy citované z jednoho zdroje na druhý, je třeba ji brát vážně a ověřit to. Rozlišení od paranoidních obav spočívá v tom, že cirkularitu lze doložit konkrétními odkazy; paranoidní přesvědčení se obvykle opírá o nejasné náznaky a rozšiřuje se na další osoby a situace.
+Jako **cíl** může člověka zasáhnout, když o něm koluje nepodložené tvrzení, které se „potvrzuje“ citováním – pomluva nebo falešné obvinění. Člověk, o němž se takové tvrzení šíří, prožívá bezmoc, protože každé vyvrácení musí čelit „mnoha zdrojům“, a může se u něj rozvinout úzkost, nespavost nebo stažení z veřejného života.
+
+Pokud osoba uvádí, že o ní kolují nepravdy citované z jednoho zdroje na druhý, je třeba ji brát vážně a ověřit to. Rozlišení od paranoidních obav spočívá v tom, že cirkularitu lze doložit konkrétními odkazy; paranoidní přesvědčení se obvykle opírá o nejasné náznaky a rozšiřuje se na další osoby a situace. Klinické posouzení náleží kvalifikovanému odborníkovi a nesmí předcházet ověření faktů.
 
 ## Riziko falešné pozitivity
 
-- Nedostupnost primárního zdroje (placené databáze, uzavřené archivy) může vypadat jako jeho neexistence.
-- Odborné obory s malým počtem specialistů se nutně citují navzájem.
-- Hodnotitel může cirkularitu vidět jen u tvrzení, která se mu nelíbí; test je nutné aplikovat symetricky.
+Nedostupnost primárního zdroje může vypadat jako jeho neexistence. Placené databáze, uzavřené archivy, interní dokumenty nebo zdroje v jiném jazyce často obsahují doklad, k němuž se hodnotitel nedostane; závěr „primární zdroj neexistuje“ proto vyžaduje, aby bylo vyčerpáno rozumné hledání, a měl by být formulován jako „primární zdroj nebyl nalezen“.
+
+Odborné obory s malým počtem specialistů se nutně citují navzájem, a hustá vzájemná citovanost je v nich znakem malé komunity, ne praní tvrzení. Konečně hodnotitel může cirkularitu vidět jen u tvrzení, která se mu nelíbí. Test je nutné aplikovat symetricky, včetně tvrzení, která hodnotitel sám považuje za samozřejmá; právě u nich je cirkularita nejméně nápadná.
 
 ## Validační test
 
@@ -95,9 +98,18 @@ Uchovat kopie všech zdrojů ve stromu citací s datem a URL, pokud možno archi
 
 ## Limity a otevřené otázky
 
-- Trasování je časově náročné a u masově šířených tvrzení prakticky nemožné bez automatizace.
-- Odkazy na smazané nebo změněné stránky ztěžují rekonstrukci.
-- Nejednoznačná je hranice mezi legitimním převzetím a „praním“ tvrzení; rozhoduje transparentnost a existence dokladu.
+Trasování citací je časově náročné a u masově šířených tvrzení prakticky nemožné bez automatizace. Nástroje citační analýzy existují ve vědecké bibliometrii, ale pro mediální a sociální prostředí jsou méně rozvinuté, a jejich výsledky je nutné ověřovat ručně.
+
+Odkazy na smazané nebo změněné stránky ztěžují rekonstrukci, a archivní služby nezachycují vše. Nejednoznačná je také hranice mezi legitimním převzetím a „praním“ tvrzení; rozhoduje transparentnost původu a existence dokladu, nikoli počet mezikroků. Otevřenou otázkou zůstává, jak se cirkularita projeví u odpovědí jazykových modelů, které reprodukují tvrzení bez uvedení původu a mohou je vracet zpět do textů, z nichž se další modely učí (srov. [EA-9.1.1 LLM Hallucination Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)).
+
+## Literatura
+
+- Benkler, Y., Faris, R., & Roberts, H. (2018). *Network [Propaganda](@/glossary/propaganda.md): Manipulation, Disinformation, and Radicalization in American Politics*. Oxford University Press.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Greenberg, S. A. (2009). How citation distortions create unfounded authority: Analysis of a citation network. *BMJ*, 339, b2680.
+- Hasher, L., Goldstein, D., & Toppino, T. (1977). Frequency and the conference of referential validity. *Journal of Verbal Learning and Verbal Behavior*, 16(1), 107–112.
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*, 13(3), 106–131.
+- Merton, R. K. (1968). The Matthew effect in science. *Science*, 159(3810), 56–63.
 
 ## Související
 

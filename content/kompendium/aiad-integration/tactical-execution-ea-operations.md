@@ -1,62 +1,86 @@
 +++
-title = "Tactical Execution & EA detection"
-description = "Integrace agenta Tactical Execution s kompendium EA taxonomií — role, detekční mechanismy, operační protokoly."
+title = "Tactical Execution a obranné operace proti EA"
+description = "Jak úroveň L2 Tactical Execution na Prismatic Platform provádí obranné operace podle připravených postupů, kdy eskaluje a co z práce podle protokolu plyne pro krizovou a klinickou praxi."
 weight = 19
 
 [taxonomies]
-tags = ["kompendium", "aiad-integration", "tactical-execution-ea-operations"]
+tags = ["kompendium", "aiad-integration", "prismatic", "agents", "operational"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["strategic-command-ea-coordination", "supreme-commander-ea-strategy", "trinity-gate-ea-verification", "white-team-ea-verification"]
+related_terms = ["strategic-command-ea-coordination", "operational-execution-ea-deployment", "quality-monitor-ea-tracking", "archer-supreme-ea-orchestration", "autoheal-ea-regression-repair"]
 parent = "kompendium-aiad-integration"
 toc = true
 +++
 
-# Tactical Execution & EA detection
+# Tactical Execution a obranné operace proti EA
 
-## Agent overview
+[Tactical Execution](@/glossary/tactical-execution.md) (taktická exekuce) je úroveň agentů L2 v hierarchii agentů Prismatic Platform, softwarové platformy, z níž kniha vzešla. Podle hesla glosáře jde o specialisty pro soustředěné operace v jedné doméně, kteří pod koordinací velitelů týmů provádějí konkrétní úlohy a opírají své výsledky o důkazy. Ve vztahu k taxonomii epistemických útoků (EA) je Tactical Execution vrstvou, která obranu skutečně provádí: spouští kontrolní cykly, aplikuje opravy a koordinuje reakci na zachycený incident podle připravených postupů. Stránka popisuje, jak tato vrstva pracuje, kdy předává rozhodnutí výš a proč je její logika – jednat podle protokolu a vědět, kdy protokol nestačí – blízká krizové péči, jak ji popisuje kniha.
 
-[Tactical Execution](@/glossary/tactical-execution.md) provádí konkrétní obranné operace na taktické úrovni — spouští skenovací cykly, aplikuje patche a koordinuje aktivní response na zachycené EA. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+## Agent v kostce
 
-## EA relevance
+Glosář uvádí, že agenti L2 tvoří provozní páteř platformy; jejich počet odpovídá v době zápisu přibližně dvěma stovkám a půl. Provádějí úlohy jako simulace útoků v rámci [Red Teamu](@/kompendium/aiad-integration/red-team-ea-detection.md), detekci posunu v rámci [Blue Teamu](@/kompendium/aiad-integration/blue-team-ea-defense.md), validaci kontraktů v rámci [White Teamu](@/kompendium/aiad-integration/white-team-ea-verification.md) nebo průzkum hranic v rámci [Gray Teamu](@/kompendium/aiad-integration/gray-team-ea-edge-cases.md). Pracují v časovém měřítku hodin až dnů – mezi strategickým plánováním a okamžitým provedením.
 
-Tactical Execution operuje na **hodinové až denní časové škále** — mezi strategickým plánováním a real-time exekucí. Konzumuje **emergency-protocols/** a **recovery-protocols/** jako runbooky.
+Původní verze této stránky popisuje práci podle postupů (*playbooks*): podle klasifikace incidentu se vybere odpovídající postup, provede se s telemetrickým záznamem každého kroku a sleduje se, zda se průběh od postupu neodchyluje. Odchylka je důvodem k eskalaci. Vstupem jsou úkoly od [Strategic Command](@/kompendium/aiad-integration/strategic-command-ea-coordination.md), výstupem zprávy o úspěchu nebo neúspěchu jednotlivých úkolů.
 
-## Detection mechanisms
+## Proč se týká technik EA
 
-Detekce: **playbook-driven** — na základě klasifikace EA incidentu vybere odpovídající runbook a provede ho s telemetrickým záznamem každého kroku. Hledá **deviation z runbooku** a triggeruje eskalaci.
+Taxonomie knihy je pro taktickou vrstvu zdrojem klasifikace: podle toho, o jaký druh útoku jde, se volí postup. Původní stránka uvádí, že jako vzor postupů slouží i [akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) a [protokoly zotavení](@/kompendium/recovery-protocols/_index.md) knihy – nikoli proto, že by platforma léčila lidi, ale proto, že tyto protokoly mají stavbu, kterou dobrý obranný postup potřebuje: jasný vstupní stav, posloupnost kroků, kritéria úspěchu a body, v nichž se rozhoduje o eskalaci. Kniha tuto stavbu používá z opačné strany – u lidí, kteří prošli manipulací.
 
-## Operational protocols
+## Jak pracuje
 
-Provoz: continuous, tasking-based. Vstup: tasks z **[Strategic Command](@/glossary/strategic-command.md)**. Výstup: **execution reports** s success/failure pro každý task. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Práce podle postupu má dvě strany. Na jedné straně snižuje chyby z opomenutí a umožňuje jednat rychle i pod tlakem; Gawande (2009) to doložil na kontrolních seznamech v chirurgii a letectví. Na druhé straně je postup vždy navržen pro situace, které autor předvídal. Klein (1998) ukázal, že zkušení odborníci v náročných situacích nejednají jen podle pravidel, ale rozpoznávají, kdy situace neodpovídá vzorci, a mění postup. Tactical Execution tento rozdíl řeší jednoznačně: odchylku od postupu nevyřeší sama, ale eskaluje ji na úroveň, která má širší pohled. Tím se vyhýbá dvěma chybám – slepému provádění postupu, který na situaci nesedí, a improvizaci bez pravomoci a přehledu.
 
-## Limitations
+Druhým principem je záznam. Každý krok je zaznamenán tak, aby bylo možné zpětně zjistit, co se stalo a proč. Reason (1990) ukázal, že většina selhání ve složitých systémech nevzniká jednou chybou, ale souhrou drobných selhání na více úrovních; bez záznamu nelze tuto souhru rekonstruovat a poučit se z ní.
 
-Tactical Execution je **playbook-bound** — nezvládá situace mimo definované runbooky. Vyžaduje eskalaci do Strategic Command při anomáliích.
+## Spolupráce s dalšími agenty
 
-## Coordination
+Tactical Execution přijímá úkoly od [Strategic Command](@/kompendium/aiad-integration/strategic-command-ea-coordination.md) a konkrétní technické kroky deleguje na [Operational Execution](@/kompendium/aiad-integration/operational-execution-ea-deployment.md). Kvalitu provedení sleduje s [Quality Monitor](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md), opravy známých regresí může převzít [AutoHeal](@/kompendium/aiad-integration/autoheal-ea-regression-repair.md) a v krizi se řídí rozdělením úkolů od [Archer Supreme](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md).
 
-Přijímá tasks od **Strategic Command**; deleguje konkrétní akce na **Operational Execution**; koordinuje s **Quality Monitor** pro QA.
+## Příklad
 
-## Cross-linky
+[Blue Team](@/glossary/blue-team.md) zachytí soubor tvrzení, která se šíří znalostní bází platformy s chybějící proveniencí. Tactical Execution podle klasifikace incidentu vybere postup: označit dotčená tvrzení, zastavit jejich použití v doporučeních, dohledat jejich původ a ověřit, která rozhodnutí z nich vycházela. První tři kroky proběhnou podle postupu. Při čtvrtém se ukáže, že tvrzení byla použita i v doméně, kterou postup nepředvídal. Agent nepokračuje improvizací; zapíše odchylku a eskaluje ji na [Strategic Command](@/glossary/strategic-command.md), který rozhodne, zda rozšířit zásah. Zbytek postupu pokračuje beze změny a celý průběh je zaznamenán.
 
-- [Archer Supreme Ea Orchestration](@/kompendium/aiad-integration/archer-supreme-ea-orchestration.md) — peer v rámci Strategic Agents
-- [Supreme Commander Ea Strategy](@/kompendium/aiad-integration/supreme-commander-ea-strategy.md) — peer v rámci Strategic Agents
-- [Strategic Command Ea Coordination](@/kompendium/aiad-integration/strategic-command-ea-coordination.md) — peer v rámci Strategic Agents
-- [Operational Execution Ea Deployment](@/kompendium/aiad-integration/operational-execution-ea-deployment.md) — peer v rámci Strategic Agents
-- [Red Team Ea Detection](@/kompendium/aiad-integration/red-team-ea-detection.md) — cross-group koordinace
-- [Autoevolve Ea Pattern Evolution](@/kompendium/aiad-integration/autoevolve-ea-pattern-evolution.md) — cross-group koordinace
-- [Czech Ares Ea Screening](@/kompendium/aiad-integration/czech-ares-ea-screening.md) — cross-group koordinace
-- [základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md) — EA taxonomie
-- [terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md) — EA taxonomie
-- [ultramari techniky](@/kompendium/05-ultramari-techniky/_index.md) — EA taxonomie
-- [agent-tier](@/glossary/agent-tier.md) — platform glossary
-- [color-teams](@/glossary/color-teams.md) — platform glossary
-- [archer-supreme glossary](@/glossary/archer-supreme.md) — platform glossary
+V krizové péči odpovídá tomuto příkladu situace, kdy protokol akutní stabilizace narazí na okolnost, s níž nepočítá – například na souběžnou somatickou komplikaci. Kniha v takovém případě doporučuje totéž: pokračovat v tom, co protokol bezpečně pokrývá, a pro zbytek přizvat odborníka s širší kompetencí (srov. [EA s medicínskou komorbiditou](@/kompendium/emergency-protocols/25-medical-comorbidity-EA.md)).
 
-## Connect & Contribute
+## Co z toho plyne pro čtenáře knihy
 
-Created by [Tomáš Korcak (korczis)](https://github.com/korczis) | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Pro kliniky a pracovníky krizových služeb je taktická vrstva ilustrací vztahu mezi protokolem a úsudkem. Protokoly knihy – například [akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) nebo [deeskalace v akutní situaci](@/kompendium/emergency-protocols/20-deescalation-EA.md) – nejsou algoritmy, které by nahradily odborný úsudek, ale opora, která zajišťuje, že na nic podstatného se nezapomene. Kdo pracuje podle protokolu, má vědět, kde protokol končí, a mít jasno, komu situaci předá.
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+Druhým poučením je **eskalace jako dovednost, nikoli selhání**. V mnoha prostředích, které kniha popisuje, je předání situace výš chápáno jako přiznání slabosti, a lidé proto improvizují za hranicí své kompetence. Platforma eskalaci odchylek vyžaduje; i v lidské praxi má být jasné, že předat případ supervizorovi nebo specialistovi je správný krok (viz [supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) a [žádost o druhý názor](@/kompendium/emergency-protocols/38-second-opinion-emergency.md)).
+
+Třetím poučením je **záznam každého kroku**. V krizi se snadno zapomíná zapisovat. Pro pozdější péči i pro případné právní kroky je však záznam toho, co bylo uděláno, kdy a proč, nenahraditelný (viz [hlášení incidentů](@/kompendium/forensic-legal/39-incident-reporting.md)).
+
+## Protokol, který se učí
+
+Postup je užitečný jen tehdy, když odpovídá skutečnosti, a skutečnost se mění. Každá eskalovaná odchylka je proto i informací o postupu samém: ukazuje místo, kde postup nepočítal s tím, co nastalo. Weick a Sutcliffe (2007) popsali organizace s vysokou spolehlivostí jako ty, které se soustředí na selhání a malé odchylky, protože v nich vidí včasné varování, ne obtěžování. Pro taktickou vrstvu to znamená, že odchylky se nesmějí jen vyřešit, ale musí se vrátit do postupů, aby se příště neopakovaly. Pro kliniku a krizové služby z toho plyne obdobný požadavek: protokoly mají mít vlastníka, pravidelnou revizi a cestu, jak do nich vracet zkušenosti z případů, které se jimi nedaly zvládnout. Kniha k tomu odkazuje na [poincidentní učení](@/kompendium/organizational-defense/40-post-incident-learning.md) a na [revize politik](@/kompendium/organizational-defense/8-policy-review-cycles.md).
+
+## Meze a otevřené otázky
+
+Tactical Execution je vázán na postupy a nezvládá situace, které v nich nejsou popsány; proto závisí na kvalitě postupů a na funkční eskalaci. Postupy se navíc s časem odchylují od skutečnosti, pokud se pravidelně neaktualizují podle zkušeností. Údaj o počtu agentů L2 odpovídá stavu v době zápisu. Otevřenou otázkou je, jak zajistit, aby se z eskalovaných odchylek stávaly úpravy postupů, a ne jen jednorázová řešení – otázka, kterou si klade i klinická praxe při revizi vlastních protokolů.
+
+## Literatura
+
+- Weick, K. E., & Sutcliffe, K. M. (2007). *Managing the Unexpected: Resilient Performance in an Age of Uncertainty* (2nd ed.). San Francisco: Jossey-Bass.
+- Gawande, A. (2009). *The Checklist Manifesto: How to Get Things Right*. New York: Metropolitan Books.
+- Klein, G. (1998). *Sources of Power: How People Make Decisions*. Cambridge, MA: MIT Press.
+- Reason, J. (1990). *Human Error*. Cambridge: Cambridge University Press.
+
+## Související
+
+**Agenti**
+
+- [Strategic Command a koordinace](@/kompendium/aiad-integration/strategic-command-ea-coordination.md) – zdroj úkolů a cíl eskalace.
+- [Operational Execution a nasazení](@/kompendium/aiad-integration/operational-execution-ea-deployment.md) – provádí technické kroky.
+- [Quality Monitor a sledování](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md) – kontrola kvality provedení.
+
+**Pojmy**
+
+- [Tactical Execution](@/glossary/tactical-execution.md) – heslo glosáře.
+- [Agent Tier](@/glossary/agent-tier.md) – úrovně oprávnění.
+
+**Kniha**
+
+- [Akutní intervenční protokoly](@/kompendium/emergency-protocols/_index.md) – lidská obdoba postupů.
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) – protokol a jeho meze.
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – eskalace v klinice.

@@ -26,6 +26,8 @@ Kaskáda využívá dvě vlastnosti moderních platforem: automatizované nebo p
 
 Kromě umlčení konkrétního hlasu působí kaskáda **odstrašujícím účinkem** (*chilling effect*) na ostatní: lidé, kteří vidí, co se stalo, se začnou sami cenzurovat. Pro epistemické prostředí to znamená úbytek nesouhlasných a menšinových hlasů – i těch, které nic neporušily.
 
+Vzájemné ohlížení institucí má přesný ekonomický model v teorii informačních kaskád. Bikhchandani, Hirshleifer a Welch (1992) ukázali, že když se aktéři rozhodují postupně a pozorují rozhodnutí svých předchůdců, může být racionální následovat je bez ohledu na vlastní informace; výsledná shoda pak nese mnohem méně informace, než se zdá, a je křehká. Deplatformingová kaskáda je institucionální obdobou: druhé a třetí vyloučení se opírá o první, nikoli o nezávislé posouzení. Gillespie (2018) a Roberts (2019) popsali, jak moderování obsahu na velkých platformách probíhá pod tlakem objemu, často přes subdodavatele a automatizované systémy, s omezeným prostorem pro posouzení kontextu; právě tyto podmínky činí moderování náchylným k tomu, aby reagovalo na počet stížností místo na jejich obsah. Odstrašující účinek popsal v právní teorii Schauer (1978) jako situaci, v níž obava z postihu odrazuje i od jednání, které je legitimní, a Penney (2016) doložil empiricky, že po zveřejnění informací o plošném sledování klesl počet zobrazení citlivých hesel na Wikipedii.
+
 ## Pozorovatelné markery
 
 ### Obsahové a lingvistické
@@ -57,22 +59,25 @@ Pozitivní při splnění bodů 1–3; bod 4 odlišuje zneužití od legitimníh
 
 ## Odlišení od benigních podob
 
-- **Legitimní vymáhání pravidel**: vyloučení za šíření násilí, výhrůžky, podvody, sexuální vykořisťování nebo cílené obtěžování je ochranou ostatních, i když proběhne na více platformách zároveň (platformy mohou sdílet informace o závažných hrozbách).
-- **Nezávislá rozhodnutí**: více institucí může nezávisle dojít ke stejnému závěru, protože jednání bylo skutečně závadné.
-- **Technické chyby**: automatické systémy omylem omezí účty; obvykle se to týká jedné platformy a lze to napravit odvoláním.
-- **Ztráta zájmu publika** není deplatformingem.
+**Legitimní vymáhání pravidel** je nezbytnou součástí provozu platforem. Vyloučení za šíření násilí, výhrůžky, podvody, sexuální vykořisťování nebo cílené obtěžování je ochranou ostatních, i když proběhne na více platformách zároveň; platformy mohou legitimně sdílet informace o závažných hrozbách. Signatura se takových případů netýká a nesmí sloužit k jejich zpochybňování.
+
+**Nezávislá rozhodnutí** více institucí mohou vést ke stejnému závěru, protože jednání bylo skutečně závadné. Souběžnost sama proto kaskádu nedokládá; rozhoduje, zda každá instituce uvádí vlastní důvod opřený o vlastní pravidla, nebo se odvolává jen na rozhodnutí ostatních.
+
+**Technické chyby** automatických systémů mohou omylem omezit účty. Obvykle se týkají jedné platformy, mají zřetelnou technickou příčinu a lze je napravit odvoláním. Konečně **ztráta zájmu publika** – pokles dosahu, protože obsah přestal lidi zajímat – deplatformingem není, i když ji dotčená osoba může tak prožívat.
 
 ## Dopad na jednotlivce a klinický rozměr
 
-Pro osobu, jejíž práce, příjem nebo sociální vazby závisejí na platformách, může kaskáda znamenat náhlou ztrátu obživy, komunity a hlasu. Typické reakce zahrnují šok, bezmoc, hněv, ztrátu sebedůvěry ([skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)) a izolaci. Pokud kaskádu provází veřejné zostuzení, mohou se objevit příznaky podobné traumatické reakci a riziko sebepoškození.
+Pro osobu, jejíž práce, příjem nebo sociální vazby závisejí na platformách, může kaskáda znamenat náhlou ztrátu obživy, komunity a hlasu. Typické reakce zahrnují šok, bezmoc, hněv, ztrátu sebedůvěry ([skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md)) a izolaci. Williams (2007) v přehledu výzkumu ostrakismu ukázala, že vyloučení ze skupiny ohrožuje základní potřeby sounáležitosti, sebeúcty, kontroly a smysluplné existence, a to i tehdy, když je vyloučení krátké nebo zprostředkované technologií.
 
-Klinik by měl brát vážně tvrzení, že kaskáda byla koordinovaná, a zároveň pomoci klientovi oddělit doložené od domnělého; v akutní fázi je však prioritou stabilizace, ne analýza.
+Pokud kaskádu provází veřejné zostuzení, mohou se objevit příznaky podobné traumatické reakci a riziko sebepoškození. Ronson (2015) zaznamenal na řadě případů, jak hromadné online zostuzení vedlo ke ztrátě zaměstnání, k dlouhodobé úzkosti a ke stažení ze společnosti, a to i u lidí, jejichž prohřešek byl malý.
+
+Klinik by měl brát vážně tvrzení, že kaskáda byla koordinovaná, a zároveň pomoci klientovi oddělit doložené od domnělého. V akutní fázi je však prioritou stabilizace a posouzení rizika, ne analýza; při známkách suicidálního rizika má přednost krizový postup a kvalifikované klinické posouzení.
 
 ## Riziko falešné pozitivity
 
-- Osoby vyloučené za závažné porušení pravidel často tvrdí, že jsou obětí koordinovaného umlčení; signatura nesmí sloužit k jejich automatické obhajobě.
-- Hodnotitel nemá přístup k důvodům platforem, které mohou vycházet z neveřejných informací.
-- Politizace tématu vede k tomu, že každé vyloučení je vykládáno podle sympatií.
+Osoby vyloučené za závažné porušení pravidel často tvrdí, že jsou obětí koordinovaného umlčení. Signatura nesmí sloužit k jejich automatické obhajobě; tvrzení o kaskádě je nutné posuzovat stejně kriticky jako rozhodnutí platforem samotných a požadovat k němu doklady o koordinovaném tlaku.
+
+Hodnotitel nemá přístup k důvodům platforem, které mohou vycházet z neveřejných informací – z hlášení obětí, z bezpečnostních údajů nebo z právních požadavků. Absence veřejného zdůvodnění proto neznamená, že rozhodnutí bylo svévolné. Politizace tématu navíc vede k tomu, že každé vyloučení je vykládáno podle sympatií k vyloučenému; signatura vyžaduje stejné měřítko bez ohledu na to, čí hlas byl umlčen.
 
 ## Validační test
 
@@ -98,9 +103,19 @@ Pravidelně zálohovat vlastní obsah, kontakty a data (před kaskádou, pokud m
 
 ## Limity a otevřené otázky
 
-- Platformy neposkytují dostatek informací k nezávislému posouzení, takže analýza zůstává neúplná.
-- Mezi legitimní ochranou a zneužitím moderování je napětí, které nelze vyřešit pravidlem.
-- Odstrašující účinek se měří obtížně, protože se projevuje tím, co nebylo řečeno.
+Platformy neposkytují dostatek informací k nezávislému posouzení, takže analýza zůstává neúplná a často se opírá jen o výpověď dotčené osoby a veřejně viditelné kroky. Gillespie (2018) upozorňuje, že pravidla moderování a jejich uplatňování zůstávají pro veřejnost z velké části neprůhledné.
+
+Mezi legitimní ochranou a zneužitím moderování je napětí, které nelze vyřešit jediným pravidlem: rychlá reakce chrání oběti obtěžování, ale zvyšuje riziko kaskády; pomalé posouzení chrání před kaskádou, ale nechává oběti bez ochrany. Odstrašující účinek se navíc měří obtížně, protože se projevuje tím, co nebylo řečeno (Schauer, 1978). Otevřenou otázkou zůstává, jaké procesní záruky – zdůvodnění, odvolání, nezávislý přezkum – by kaskády omezily, aniž by oslabily ochranu před skutečným zneužíváním.
+
+## Literatura
+
+- Bikhchandani, S., Hirshleifer, D., & Welch, I. (1992). A theory of fads, fashion, custom, and cultural change as informational cascades. *Journal of Political Economy*, 100(5), 992–1026.
+- Gillespie, T. (2018). *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*. Yale University Press.
+- Penney, J. W. (2016). Chilling effects: Online surveillance and Wikipedia use. *Berkeley Technology Law Journal*, 31(1), 117–182.
+- Roberts, S. T. (2019). *Behind the Screen: Content Moderation in the Shadows of Social Media*. Yale University Press.
+- Ronson, J. (2015). *So You've Been Publicly Shamed*. Riverhead Books.
+- Schauer, F. (1978). Fear, risk and the First Amendment: Unraveling the chilling effect. *Boston University Law Review*, 58, 685–732.
+- Williams, K. D. (2007). Ostracism. *Annual Review of Psychology*, 58, 425–452.
 
 ## Související
 

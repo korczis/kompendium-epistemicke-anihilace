@@ -30,6 +30,8 @@ Ve zdravém epistemickém vztahu se důvěra pohybuje podle zkušenosti: kdo se 
 
 Takové odpojení je strukturálním jádrem mnoha jiných signatur: [gaslighting](@/kompendium/detection-signatures/12-behavioral-gaslighting-pattern.md) snižuje důvěru ve vlastní paměť navzdory dokladům, [cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) zvyšuje důvěru v tvrzení bez nových dokladů, [monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) odstraňuje srovnání, podle něhož by se dalo kalibrovat. Proto je tato signatura **průřezová**: shrnuje, co mají ostatní signatury společného na úrovni úsudku.
 
+Pojem kalibrace pochází z výzkumu pravděpodobnostních úsudků. Brier (1950) navrhl pro meteorologické předpovědi skóre, které měří, jak blízko jsou vyjádřené pravděpodobnosti skutečným výsledkům, a dodnes je základem hodnocení kalibrace. Lichtenstein, Fischhoff a Phillips (1982) shrnuli tehdejší výzkum s výsledkem, který se opakovaně potvrzuje: lidé jsou u obtížných otázek obvykle příliš sebejistí a jejich jistota roste rychleji než přesnost. Tversky a Kahneman (1974) ukázali, že úsudky v nejistotě se opírají o heuristiky, které jsou užitečné, ale vedou k soustavným zkreslením; kalibrační rozladění v epistemickém vztahu lze chápat jako situaci, v níž je takové zkreslení zesíleno a nasměrováno zvenčí. Tetlock a Gardner (2015) doložili, že kalibraci lze trénovat zpětnou vazbou a pravidelným zaznamenáváním předpovědí, což dává signatuře i obrannou stránku. Flavell (1979) popsal metakognici jako schopnost sledovat a řídit vlastní poznávání; kalibrace je její nejlépe měřitelnou složkou.
+
 ## Pozorovatelné markery
 
 ### Na straně zdroje
@@ -61,26 +63,23 @@ Pozitivní při splnění bodů 1–3; bod 4 ukazuje na vztahový původ rozlad�
 
 ## Odlišení od benigních podob
 
-- **Oprávněná důvěra v experta**: laik legitimně důvěřuje lékaři více než sobě v otázkách medicíny; rozdíl je v tom, že lékař svou jistotu dokládá a přiznává omyly.
-- **Učení**: student na začátku oboru správně přisuzuje větší váhu učiteli; s rostoucí zkušeností jeho vlastní jistota roste.
-- **Přirozená nekalibrovanost**: většina lidí je v některých oblastech přehnaně sebejistá; to samo není důsledkem působení.
-- **Krátkodobá krize**: v akutním stresu člověk přechodně přenechá úsudek druhým; po odeznění se vrací k vlastnímu.
+**Oprávněná důvěra v experta** je racionální: laik legitimně důvěřuje lékaři více než sobě v otázkách medicíny. Goldman (2001) ukázal, že laik má i bez odborných znalostí k dispozici nepřímé ukazatele – argumentaci, shodu s jinými odborníky, záznam úspěšnosti –, podle nichž může důvěru kalibrovat. Rozdíl oproti signatuře spočívá v tom, že lékař svou jistotu dokládá, přiznává omyly a důvěra laika se pohybuje podle výsledků.
+
+Při **učení** student na začátku oboru správně přisuzuje větší váhu učiteli a s rostoucí zkušeností jeho vlastní jistota roste. Signatura předpokládá opačný směr: s trváním vztahu vlastní jistota klesá, i když se úsudek osvědčuje. **Přirozená nekalibrovanost** je u většiny lidí běžná – v některých oblastech jsou přehnaně sebejistí, v jiných příliš opatrní (Moore & Healy, 2008) – a sama o sobě není důsledkem působení. Konečně v **krátkodobé krizi** člověk přechodně přenechá úsudek druhým, což může být rozumné; po odeznění krize se k vlastnímu úsudku vrací.
 
 ## Klinická diferenciální diagnostika
 
-- **Deprese** systematicky snižuje důvěru ve vlastní schopnosti a úsudek, plošně a bez vazby na jeden vztah.
-- **Úzkostné poruchy** zvyšují nejistotu a potřebu ujištění.
-- **Hypomanie a mánie** naopak nafukují vlastní jistotu.
-- **Závislá struktura osobnosti** se projevuje dlouhodobým přenecháváním rozhodnutí druhým, napříč vztahy.
-- **Kognitivní pokles** může oprávněně snižovat důvěru ve vlastní paměť; i zde však hrozí zneužití.
+**Deprese** systematicky snižuje důvěru ve vlastní schopnosti a úsudek, a to plošně a bez vazby na jeden vztah. Zajímavou výhradou je výzkum tzv. depresivního realismu: Alloy a Abramson (1979) zjistili, že mírně depresivní účastníci odhadovali svou kontrolu nad výsledkem v některých úlohách přesněji než nedepresivní. Snížená jistota tedy nemusí znamenat sníženou přesnost, a hodnotitel musí posuzovat obojí zvlášť.
 
-Rozlišovacím znakem signatury je **vztahová specifičnost** a doložitelná správnost úsudku, kterému osoba přestala věřit.
+**Úzkostné poruchy** zvyšují nejistotu a potřebu ujištění, **hypomanie a mánie** naopak nafukují vlastní jistotu. **Závislá struktura osobnosti** se projevuje dlouhodobým přenecháváním rozhodnutí druhým napříč vztahy; Bornstein (1992) ji popisuje jako stabilní vzorec, který se vytváří již ve vývoji. **Kognitivní pokles** může oprávněně snižovat důvěru ve vlastní paměť; i zde však hrozí zneužití, protože oprávněná nejistota v jedné oblasti se snadno rozšíří na oblasti, v nichž úsudek zůstává spolehlivý.
+
+Rozlišovacím znakem signatury je **vztahová specifičnost** a doložitelná správnost úsudku, kterému osoba přestala věřit. Klinické posouzení přísluší kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Hodnotitel, který zdroji nevěří z jiných důvodů, může jeho jistotu chybně označit za nepřiměřenou.
-- U oborů, kde chybí ověřitelné výsledky (umění, hodnoty), nelze kalibraci měřit.
-- Zpětné hodnocení předpovědí trpí zkreslením zpětného pohledu.
+Hodnotitel, který zdroji nevěří z jiných důvodů, může jeho jistotu chybně označit za nepřiměřenou. Kalibraci je proto třeba posuzovat podle výsledků, ne podle sympatií, a pokud možno na záznamu předpovědí, který vznikl před tím, než byly výsledky známy.
+
+U oborů, kde chybí ověřitelné výsledky – v umění, v hodnotových otázkách, v dlouhodobých výhledech – nelze kalibraci měřit vůbec, a signatura se v nich může opírat jen o vztahovou dynamiku. Zpětné hodnocení předpovědí navíc trpí zkreslením zpětného pohledu: Fischhoff (1975) ukázal, že znalost výsledku vede lidi k přesvědčení, že byl předvídatelnější, než ve skutečnosti byl. Hodnotitel tak může zdroji vyčítat omyl, který v době předpovědi nebylo rozumné očekávat.
 
 ## Validační test
 
@@ -104,9 +103,23 @@ Zaznamenat konkrétní tvrzení, míru jistoty (slovně nebo na škále), datum 
 
 ## Limity a otevřené otázky
 
-- Kalibraci lze měřit jen tam, kde existují ověřitelné výsledky a dostatek případů.
-- Lidé vyjadřují jistotu nepřesně; převod slov na čísla je sám nejistý.
-- Obnova kalibrace u zasažené osoby vyžaduje čas a zkušenosti, které nelze nahradit vysvětlením.
+Kalibraci lze měřit jen tam, kde existují ověřitelné výsledky a dostatek případů; u jednotlivého vztahu jich často není dost pro spolehlivý závěr. Lidé navíc vyjadřují jistotu nepřesně a převod slov na čísla je sám nejistý. Kent (1964) upozornil již v kontextu zpravodajských analýz, že výrazy jako „pravděpodobně“ nebo „možná“ si různí čtenáři vykládají velmi odlišně, a navrhl jejich standardizaci; v běžné řeči taková standardizace chybí.
+
+Obnova kalibrace u zasažené osoby vyžaduje čas a zkušenosti, které nelze nahradit vysvětlením. Tetlock a Gardner (2015) popisují trénink kalibrace jako postupné zpřesňování na základě opakované zpětné vazby, a podobně i zasažená osoba potřebuje řadu malých ověřených úsudků, než znovu získá důvěru ve vlastní. Otevřenou otázkou zůstává, jak takovou zpětnou vazbu bezpečně organizovat, aby ji nebylo možné zneužít k dalšímu zpochybňování.
+
+## Literatura
+
+- Alloy, L. B., & Abramson, L. Y. (1979). Judgment of contingency in depressed and nondepressed students: Sadder but wiser? *Journal of Experimental Psychology: General*, 108(4), 441–485.
+- Bornstein, R. F. (1992). The dependent personality: Developmental, social, and clinical perspectives. *Psychological Bulletin*, 112(1), 3–23.
+- Brier, G. W. (1950). Verification of forecasts expressed in terms of probability. *Monthly Weather Review*, 78(1), 1–3.
+- Fischhoff, B. (1975). Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. *Journal of Experimental Psychology: Human Perception and Performance*, 1(3), 288–299.
+- Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry. *American Psychologist*, 34(10), 906–911.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological Research*, 63(1), 85–110.
+- Kent, S. (1964). Words of estimative probability. *Studies in Intelligence*, 8(4), 49–65.
+- Lichtenstein, S., Fischhoff, B., & Phillips, L. D. (1982). Calibration of probabilities: The state of the art to 1980. In D. Kahneman, P. Slovic, & A. Tversky (Eds.), *Judgment under Uncertainty: Heuristics and Biases* (s. 306–334). Cambridge University Press.
+- Moore, D. A., & Healy, P. J. (2008). The trouble with overconfidence. *Psychological Review*, 115(2), 502–517.
+- Tetlock, P. E., & Gardner, D. (2015). *Superforecasting: The Art and Science of Prediction*. Crown.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science*, 185(4157), 1124–1131.
 
 ## Související
 

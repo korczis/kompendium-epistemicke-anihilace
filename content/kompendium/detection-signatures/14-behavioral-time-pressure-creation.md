@@ -26,6 +26,8 @@ Kvalitní rozhodnutí potřebuje čas: na získání informací, na konzultaci s
 
 Pro zdroj je časový tlak výhodný ještě z jiného důvodu: zabraňuje kontaktu s lidmi, kteří by rozhodnutí zpochybnili. V tom se signatura úzce pojí s [akcelerací izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md). Dlouhodobě vystavená osoba si zvyká na trvalý pocit naléhavosti, což oslabuje schopnost rozlišit skutečnou krizi od vyrobené.
 
+Výzkum rozhodování pod časovým tlakem tento mechanismus podrobně dokumentuje. Studie shromážděné ve sborníku Svensona a Mauleho (1993) ukazují, že lidé pod tlakem zpracovávají méně informací, přikládají větší váhu negativním údajům a přecházejí k jednodušším rozhodovacím pravidlům. Janis a Mann (1977) popsali stav hypervigilance, kdy člověk pod tlakem blížící se hrozby a nedostatku času chaoticky přeskakuje mezi možnostmi a chytá se prvního řešení, které slibuje úlevu. Mullainathan a Shafir (2013) doplnili, že nedostatek – času, peněz nebo jiných zdrojů – zužuje pozornost na bezprostřední problém a snižuje kapacitu pro všechno ostatní; tento efekt nazývají tunelováním. Cialdini (1984) pak ukázal, že vzácnost a časové omezení zvyšují vnímanou hodnotu nabídky nezávisle na jejím obsahu. Všechny tyto poznatky vysvětlují, proč je umělá naléhavost účinná i u vzdělaných a zkušených lidí: neobchází jejich znalosti, ale podmínky, za nichž je mohou použít.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -59,24 +61,23 @@ Pozitivní při splnění bodů 1–3. Bod 4 ukazuje na systematickou techniku, 
 
 ## Odlišení od benigních podob
 
-- **Skutečné lhůty**: termíny přihlášek, uzávěrky, lékařské indikace mají ověřitelný důvod a lze je doložit.
-- **Akutní medicína**: lékař může oprávněně trvat na rychlém rozhodnutí; i tehdy vysvětlí důvody a respektuje informovaný souhlas (srov. [informed consent](@/glossary/informed-consent.md)).
-- **Běžný obchod**: slevy s omezenou platností jsou rozšířené; signaturou se stávají, když jde o velké rozhodnutí, nabídka se opakuje a konzultace je aktivně potlačována.
-- **Krize**: v nouzi je rychlé jednání legitimní – ale skutečná krize obvykle nevyžaduje utajení před blízkými.
+**Skutečné lhůty**, jako jsou termíny přihlášek, uzávěrky nebo lékařské indikace, mají ověřitelný důvod, lze je doložit a nezávisejí na tom, zda se člověk s někým poradí. Signatura naopak předpokládá lhůtu, jejíž důvod zůstává neprůhledný nebo se mění, když je zpochybněn.
+
+V **akutní medicíně** může lékař oprávněně trvat na rychlém rozhodnutí. I tehdy však vysvětlí důvody, uvede alternativy a respektuje informovaný souhlas, který Beauchamp a Childress (1979) řadí k základním projevům respektu k autonomii pacienta (srov. [informed consent](@/glossary/informed-consent.md)). Rychlost zde slouží zájmu pacienta, nikoli toho, kdo rozhodnutí vyžaduje.
+
+**Běžný obchod** pracuje se slevami s omezenou platností a sám o sobě signaturu nezakládá. Signaturou se časové omezení stává, když jde o velké rozhodnutí, nabídka se opakuje „naposledy“ a konzultace s druhými je aktivně potlačována. Právní řády ostatně pro některé typy smluv, například uzavřené na dálku, poskytují spotřebiteli lhůtu k odstoupení, právě aby korigovaly rozhodnutí učiněná pod tlakem. Konečně v **krizi** je rychlé jednání legitimní – ale skutečná krize obvykle nevyžaduje utajení před blízkými, zatímco vyrobená naléhavost ho vyžaduje téměř vždy.
 
 ## Klinická diferenciální diagnostika
 
-- **Úzkostné poruchy** mohou vést k tomu, že osoba sama prožívá naléhavost i tam, kde chybí vnější tlak.
-- **Impulzivita** (např. u ADHD, hraniční poruchy osobnosti, mánie) zkracuje čas rozhodování bez vnějšího zdroje; zároveň zvyšuje zranitelnost vůči vnějšímu tlaku.
-- **Kognitivní pokles u seniorů** snižuje schopnost odolat tlaku a ověřit informace – proto bývají cílem podvodů s časovým tlakem (srov. [elder abuse](@/glossary/elder-abuse.md)).
+**Úzkostné poruchy** mohou vést k tomu, že osoba sama prožívá naléhavost i tam, kde chybí vnější tlak; takový prožitek je obecný a neváže se na jednoho zdroje. **Impulzivita**, například u ADHD, hraniční poruchy osobnosti nebo při mánii, zkracuje čas rozhodování bez vnějšího zdroje; zároveň však zvyšuje zranitelnost vůči vnějšímu tlaku, takže obě možnosti se mohou sčítat.
 
-Rozhoduje, zda je naléhavost vnesena zvenčí a od koho.
+**Kognitivní pokles u seniorů** snižuje schopnost odolat tlaku a ověřit informace, a proto bývají senioři častým cílem podvodů s časovým tlakem (srov. [elder abuse](@/glossary/elder-abuse.md)). Kognitivní pokles zde není alternativním vysvětlením, ale rizikovým faktorem, který posiluje význam signatury. Rozhoduje, zda je naléhavost vnesena zvenčí a od koho; posouzení kognitivních funkcí nebo psychiatrické poruchy přísluší kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Osoba s vysokou úzkostí může každé omezení vnímat jako nátlak.
-- Hodnotitel nemusí znát skutečné důvody lhůty (například regulatorní termíny).
-- Dodatečný pohled („kdyby počkal, neudělal by chybu“) zkresluje; posuzovat je třeba informace dostupné v době rozhodnutí.
+Osoba s vysokou úzkostí může každé omezení vnímat jako nátlak, a hodnotitel, který přebírá jen její perspektivu, pak přisoudí zdroji tlak, který nevznikl. Proto je nutné posuzovat samotné výroky a lhůty, nejlépe v písemné podobě, a ne jen prožitek naléhavosti.
+
+Hodnotitel také nemusí znát skutečné důvody lhůty, například regulatorní termíny nebo provozní omezení protistrany; než lhůtu označí za umělou, měl by se pokusit ji ověřit. Zvláště zrádný je dodatečný pohled („kdyby počkal, neudělal by chybu“). Fischhoff (1975) prokázal, že znalost výsledku zkresluje hodnocení toho, co bylo v době rozhodnutí předvídatelné; posuzovat je proto třeba informace dostupné v době rozhodnutí, nikoli výsledek.
 
 ## Validační test
 
@@ -102,9 +103,19 @@ Uchovat nabídky, zprávy a dokumenty s uvedenými lhůtami; zapsat, kdy a jak b
 
 ## Limity a otevřené otázky
 
-- Hranice mezi agresivním obchodem a manipulací je v praxi i právně neostrá.
-- Časový tlak působí i na profesionály (vyšetřovatele, lékaře, soudce); i oni mohou být jeho cílem.
-- Prevence vyžaduje návyk, který je nutné vybudovat dřív, než tlak nastane.
+Hranice mezi agresivním obchodem a manipulací je v praxi i právně neostrá; signatura nemůže nahradit právní posouzení nekalé obchodní praktiky nebo podvodu. Popisuje strukturu situace, jejíž právní kvalifikace je věcí příslušných institucí.
+
+Časový tlak působí i na profesionály – vyšetřovatele, lékaře, soudce – a i oni mohou být jeho cílem, ať ze strany účastníků řízení, nebo z institucionálních důvodů. Prevence vyžaduje návyk, který je nutné vybudovat dřív, než tlak nastane: pravidlo „velká rozhodnutí nikdy týž den“ nebo dohodu s blízkým člověkem, že se před takovým rozhodnutím vždy poradí. Otevřenou otázkou zůstává, jak takové pravidlo udržet u lidí, kteří už žijí v trvalém pocitu naléhavosti a pro něž je odklad sám zdrojem úzkosti.
+
+## Literatura
+
+- Beauchamp, T. L., & Childress, J. F. (1979). *Principles of Biomedical Ethics*. Oxford University Press.
+- Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*. William Morrow.
+- Fischhoff, B. (1975). Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. *Journal of Experimental Psychology: Human Perception and Performance*, 1(3), 288–299.
+- Janis, I. L., & Mann, L. (1977). *Decision Making: A Psychological Analysis of Conflict, Choice, and Commitment*. Free Press.
+- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
+- Mullainathan, S., & Shafir, E. (2013). *Scarcity: Why Having Too Little Means So Much*. Times Books.
+- Svenson, O., & Maule, A. J. (Eds.). (1993). *Time Pressure and Stress in Human Judgment and Decision Making*. Plenum Press.
 
 ## Související
 

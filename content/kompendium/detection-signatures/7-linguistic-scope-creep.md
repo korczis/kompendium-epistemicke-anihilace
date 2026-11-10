@@ -26,6 +26,8 @@ Mechanismus využívá **konzistenci**: kdo jednou souhlasil, cítí se vázán 
 
 Rozšiřování rozsahu se týká jak pojmů („bezpečí“, „péče“, „profesionalita“), tak závazků (pracovní náplň, finanční příspěvek, dostupnost) a hranic (co je „soukromé“). V kontextu [coercive control](@/glossary/coercive-control.md) bývá jedním z mechanismů, jimiž se kontrola rozprostírá do stále dalších oblastí života.
 
+Experimentální oporu má tento mechanismus v práci Freedmana a Frasera (1966), kteří ukázali, že lidé, kteří vyhověli malé žádosti, s vyšší pravděpodobností vyhoví i následné větší. Burger (1999) v přehledu pozdějších studií doložil, že efekt je spolehlivý, ale ne univerzální, a že k němu přispívá sebepojetí („jsem člověk, který takovým věcem vyhoví“) i tlak na konzistenci. Cialdini (1984) popsal závazek a konzistenci jako jeden ze základních principů vlivu. Staw (1976) doplnil obraz o eskalaci závazku: kdo už do určitého směru investoval, má sklon v něm pokračovat, i když výsledky svědčí proti němu. Ve vztahovém a organizačním kontextu lze signaturu chápat také jako jazykovou podobu toho, co Vaughan (1996) nazvala normalizací odchylky – každé malé překročení původní hranice se stává novou normou, od níž se měří další krok. Stark (2007) popsal, jak se v nátlakové kontrole (*coercive control*) regulace rozšiřuje na drobné každodenní činnosti; pojem coercive control přitom označuje vzorec jednání, nikoli klinickou diagnózu.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -58,25 +60,25 @@ Body 1 a 2 jsou nutné; bod 3 odlišuje signaturu od pouhé nepřesnosti; bod 4 
 
 ## Odlišení od benigních podob
 
-- **Přirozený vývoj dohody**: vztahy a projekty se mění a rozsah se legitimně upravuje. Rozdíl je ve výslovnosti – změna je pojmenována a druhá strana k ní dává souhlas, který může odmítnout bez sankce.
-- **Vývoj odborného pojmu**: obory rozšiřují pojmy na základě nových poznatků, otevřeně a s diskusí (byť i to může vést k inflaci pojmu, viz [sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
-- **Projektové řízení** zná scope creep jako běžný provozní problém bez manipulativního záměru; signaturou je teprve vzorec, kdy rozšíření jednostranně slouží jedné straně a odmítnutí je trestáno.
+**Přirozený vývoj dohody** je normální součástí každého vztahu a projektu: okolnosti se mění a rozsah se legitimně upravuje. Rozdíl spočívá ve výslovnosti. Legitimní změna je pojmenována, druhá strana k ní dává souhlas a může ji odmítnout bez sankce; signatura naopak předpokládá, že změna je podána jako pouhé upřesnění toho, co už bylo dohodnuto.
+
+Podobně **vývoj odborného pojmu** je v mnoha oborech žádoucí. Haslam (2016) však ukázal, že i v psychologii dochází k tomu, co nazval *concept creep*: pojmy škody a patologie, jako je trauma, šikana nebo závislost, se postupně rozšiřují „vertikálně“ na mírnější projevy a „horizontálně“ na nové jevy. Tento posun probíhá otevřeně a s odbornou diskusí, takže sám signaturou není, ale ukazuje, že rozšiřování pojmu může mít reálné důsledky i bez manipulativního záměru (viz [sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
+
+Konečně **projektové řízení** zná scope creep jako běžný provozní problém, který vzniká z nejasného zadání a dobrých úmyslů. Signaturou je teprve vzorec, kdy rozšíření soustavně a jednostranně slouží jedné straně a odmítnutí je trestáno.
 
 ## Klinická diferenciální diagnostika
 
-U zasažené osoby, která přijímá stále širší povinnosti, je třeba odlišit:
+U zasažené osoby, která přijímá stále širší povinnosti, je třeba odlišit vnější rozšiřování od vnitřních faktorů. **Obtíže s vymezováním hranic** mohou být celoživotním vzorcem, například při závislé nebo vyhýbavé struktuře osobnosti; takový vzorec se projevuje ve všech vztazích, ne jen v jednom, a sahá do doby před kontaktem se zdrojem.
 
-- **obtíže s vymezováním hranic** jako celoživotní vzorec (např. při závislé nebo vyhýbavé struktuře osobnosti), který se projevuje ve všech vztazích, ne jen v jednom;
-- **perfekcionismus a přepracování** (srov. [perfekcionismus](@/glossary/perfekcionismus.md)), kde osoba rozšiřuje nároky sama na sebe;
-- **depresivní pasivitu**, kdy osoba nemá energii odmítat.
+**Perfekcionismus a přepracování** vedou k tomu, že osoba rozšiřuje nároky sama na sebe. Frost et al. (1990) rozlišili několik dimenzí perfekcionismu, mezi nimi i vnímaná očekávání rodičů a obavy z chyb; rozšiřování rozsahu zvenčí se s nimi může snadno propojit a zesílit je (srov. [perfekcionismus](@/glossary/perfekcionismus.md)). **Depresivní pasivita** se projevuje tím, že osoba nemá energii odmítat, a k přijetí nároku tak nedochází pod tlakem konzistence, ale z vyčerpání.
 
-Rozlišovací otázka: rozšiřuje se rozsah v jednom vztahu nebo prostředí, kde existuje zdroj požadavků, nebo všude stejně? Vztahová specifičnost podporuje signaturu, univerzalita spíše osobnostní nebo afektivní faktor – oba mohou koexistovat.
+Rozlišovací otázka zní: rozšiřuje se rozsah v jednom vztahu nebo prostředí, kde existuje zdroj požadavků, nebo všude stejně? Vztahová specifičnost podporuje signaturu, univerzalita spíše osobnostní nebo afektivní faktor. Oba mohou koexistovat, a jejich vzájemné působení posoudí kvalifikovaný klinik.
 
 ## Riziko falešné pozitivity
 
-- Bez dokladu o původním vymezení je signatura jen dojmem; paměť obou stran se může lišit.
-- Konflikt o rozsah práce může být legitimní pracovní spor, nikoli manipulace.
-- Osoba s potížemi s hranicemi může vnímat každý nový požadavek jako neoprávněný; hodnotitel by neměl automaticky přebírat její perspektivu ani perspektivu zdroje.
+Bez dokladu o původním vymezení je signatura jen dojmem. Paměť obou stran se může lišit, a jak ukazuje výzkum rekonstrukční povahy paměti, lidé si vzpomínají na dohody v podobě, která odpovídá jejich současnému postoji. Proto je pro tuto signaturu rozhodující písemný záznam původního rozsahu – smlouva, zpráva, zápis – a jeho srovnání s dnešní praxí.
+
+Konflikt o rozsah práce může být legitimním pracovním sporem, v němž se obě strany upřímně liší ve výkladu, a nikoli manipulací. Hodnotitel by v takové situaci neměl automaticky přebírat perspektivu jedné strany. Zvláště opatrný musí být u osoby s potížemi s hranicemi, která může vnímat každý nový požadavek jako neoprávněný; ani její perspektivu, ani perspektivu zdroje nelze přijmout bez dokladů.
 
 ## Validační test
 
@@ -100,9 +102,20 @@ Uchovat původní dohody a jejich změny; zapisovat nové požadavky s datem a f
 
 ## Limity a otevřené otázky
 
-- Hranice mezi vývojem dohody a jejím jednostranným rozšířením je často věcí výkladu.
-- Mnoho dohod je ústních a původní rozsah nelze doložit.
-- Signatura popisuje strukturu, ne úmysl: rozšiřování může být i důsledkem nejasné komunikace obou stran.
+Hranice mezi vývojem dohody a jejím jednostranným rozšířením je často věcí výkladu, a signatura proto nemůže nahradit právní nebo pracovněprávní posouzení. Mnoho dohod je navíc ústních a původní rozsah nelze doložit; tam signatura zůstává hypotézou, kterou lze nanejvýš podpořit výpověďmi svědků.
+
+Signatura popisuje strukturu, ne úmysl. Rozšiřování může být i důsledkem nejasné komunikace obou stran nebo institucionální setrvačnosti, kterou popsala Vaughan (1996). Otevřenou otázkou zůstává, jak odlišit kumulaci drobných posunů od záměrného postupu bez znalosti vnitřních záznamů zdroje, a zda tato otázka má pro ochranu zasažené osoby vůbec rozhodující význam – účinek na ni je v obou případech podobný.
+
+## Literatura
+
+- Burger, J. M. (1999). The foot-in-the-door compliance procedure: A multiple-process analysis and review. *Personality and Social Psychology Review*, 3(4), 303–325.
+- Cialdini, R. B. (1984). *Influence: The Psychology of Persuasion*. William Morrow.
+- Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. *Journal of Personality and Social Psychology*, 4(2), 195–202.
+- Frost, R. O., Marten, P., Lahart, C., & Rosenblate, R. (1990). The dimensions of perfectionism. *Cognitive Therapy and Research*, 14(5), 449–468.
+- Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. *Psychological Inquiry*, 27(1), 1–17.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. *Organizational Behavior and Human Performance*, 16(1), 27–44.
+- Vaughan, D. (1996). *The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*. University of Chicago Press.
 
 ## Související
 

@@ -32,6 +32,8 @@ Gaslighting útočí na **epistemickou sebedůvěru**: na předpoklad, že vlast
 
 Tento popis fází (Stern 2007) je klinicky užitečný jako orientace, nikoli jako pevná posloupnost. Důsledkem bývá [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md), [nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md) a závislost na zdroji jako arbitrovi toho, co je pravda.
 
+Jednotlivé teoretické přístupy zdůrazňují různé vrstvy téhož jevu. Calef a Weinshel (1981) popsali gaslighting v psychoanalytické literatuře jako proces, v němž jedna osoba „vkládá“ druhé své vlastní nepřijatelné obsahy a ta je introjikuje. Abramson (2014) vymezuje gaslighting jako snahu přimět druhého, aby ztratil samotný základ pro to, aby mohl vznést námitku – nejen aby přijal jinou verzi, ale aby přestal být tím, kdo verze posuzuje. Sweet (2019) ukázala na rozhovorech s ženami, které zažily násilí v blízkém vztahu, že gaslighting je účinný právě proto, že se opírá o rozšířené stereotypy, například o „iracionalitě“ žen, a že se k němu přidávají instituce, které oběti nevěří. Tento sociologický rozměr spojuje gaslighting s tím, co Fricker (2007) popsala jako svědeckou nespravedlnost: menší váhu přisuzovanou výpovědi člověka kvůli předsudku o skupině, k níž patří.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -66,25 +68,23 @@ Pro závěr je klíčová kombinace bodů 1–3; bod 4 popisuje dopad.
 
 ## Odlišení od benigních podob
 
-- **Rekonstrukční povaha paměti**: lidé si běžně pamatují tutéž událost různě. Benigní spor o vzpomínku je oboustranný, jednotlivý a končí nejistotou nebo kompromisem, ne zpochybněním duševního zdraví druhého.
-- **Upřímná oprava**: „myslím, že to bylo jinak, podívejme se do kalendáře“ je pozvánkou k ověření, nikoli útokem.
-- **Konflikt vysoké intenzity**: v rozvodových sporech obě strany často zpochybňují verzi druhé; posuzuje se asymetrie moci, opakovanost a přítomnost dokladů.
+Lidská paměť je rekonstrukční a lidé si běžně pamatují tutéž událost různě. Loftus (2005) shrnula desítky let výzkumu, podle něhož lze vzpomínky měnit dodatečnými informacemi, aniž by si toho člověk byl vědom. **Benigní spor o vzpomínku** je proto oboustranný, jednotlivý a končí nejistotou nebo kompromisem, ne zpochybněním duševního zdraví druhého. Ani jedna strana v něm netvrdí, že druhá „není normální“, a obě připouštějí, že se mohou mýlit.
+
+**Upřímná oprava** („myslím, že to bylo jinak, podívejme se do kalendáře“) je pozvánkou k ověření, nikoli útokem: odkazuje na vnější doklad a nechává výsledek otevřený. Gaslighting naopak doklady odmítá nebo je zpochybňuje a jako rozhodčího nabízí jen sebe. Konečně **konflikt vysoké intenzity**, například v rozvodových sporech, vede k tomu, že obě strany zpochybňují verzi druhé. Posuzuje se zde asymetrie moci, opakovanost a přítomnost dokladů; vzájemné obviňování z gaslightingu samo o sobě nic nerozhoduje.
 
 ## Klinická diferenciální diagnostika
 
-Zde je nutná zvláštní pečlivost, protože gaslighting sám využívá klinické nálepky:
+Zde je nutná zvláštní pečlivost, protože gaslighting sám využívá klinické nálepky. **Skutečné poruchy paměti**, jako je demence, poranění mozku, účinky léků nebo alkoholu, mohou vést k tomu, že zasažená osoba se mýlí a okolí ji oprávněně opravuje. Před závěrem je proto vhodné vyloučit organickou příčinu, a to citlivě, aby vyšetření samo nepotvrdilo narativ zdroje („i lékař říká, že máš problém s pamětí“).
 
-- **Skutečné poruchy paměti** (demence, poranění mozku, účinky léků, alkohol) mohou vést k tomu, že zasažená osoba se mýlí a okolí ji oprávněně opravuje. Před závěrem je vhodné vyloučit organickou příčinu, a to citlivě, aby vyšetření samo nepotvrdilo narativ zdroje.
-- **Paranoidní myšlení** může vést k přesvědčení, že druhý úmyslně manipuluje. Rozlišuje se podle existence nezávislých dokladů, podle konkrétnosti popisů a podle toho, zda podezření zahrnuje i lidi bez vztahu k situaci.
-- **Komplexní traumatické reakce** (srov. [C-PTSD](@/glossary/c-ptsd.md)) mohou následky gaslightingu zesilovat a komplikovat diagnostiku.
+**Paranoidní myšlení** může vést k přesvědčení, že druhý úmyslně manipuluje. Rozlišuje se podle existence nezávislých dokladů, podle konkrétnosti popisů a podle toho, zda podezření zahrnuje i lidi bez vztahu k situaci. Stern (2007) upozorňuje, že osoby vystavené gaslightingu naopak často pochybují samy o sobě, ne o druhých – opačný směr pochybnosti, než jaký je typický pro paranoiu.
 
-Klinik by se měl vyhnout tomu, aby diagnostické posouzení zasažené osoby proběhlo jen na základě informací od zdroje (viz [collateral interview](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) s opatrností vůči tomu, kdo informace poskytuje).
+**Komplexní traumatické reakce** mohou následky gaslightingu zesilovat a komplikovat diagnostiku. Herman (1992) navrhla pojem komplexního traumatu pro následky dlouhodobého, opakovaného působení v podmínkách zajetí nebo závislosti (srov. [C-PTSD](@/glossary/c-ptsd.md)). Klinik by se měl vyhnout tomu, aby diagnostické posouzení zasažené osoby proběhlo jen na základě informací od zdroje (viz [collateral interview](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md) s opatrností vůči tomu, kdo informace poskytuje). Gaslighting zůstává popisem vzorce jednání; diagnostické závěry o zasažené osobě i o zdroji přísluší kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Termín „gaslighting“ podléhá [sémantické erozi](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md): běžně se jím označuje jakýkoli nesouhlas. To oslabuje jeho užitečnost pro skutečné oběti.
-- Obvinění z gaslightingu může být samo nástrojem manipulace (zpochybnit kritiku tím, že ji označíme za gaslighting).
-- Hodnotitel, který slyší jen jednu stranu, nemá k dispozici srovnání.
+Termín „gaslighting“ podléhá [sémantické erozi](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md): běžně se jím označuje jakýkoli nesouhlas nebo jiný názor na minulost. To oslabuje jeho užitečnost pro skutečné oběti, jejichž zkušenost se pak snadno zlehčí jako „módní slovo“. Hodnotitel by proto měl pojem užívat jen tehdy, když jsou splněna detekční kritéria, a jinak popisovat konkrétní chování.
+
+Obvinění z gaslightingu může být samo nástrojem manipulace: kritiku lze zpochybnit tím, že ji označíme za gaslighting, a tím přesunout pozornost od obsahu ke stylu. Sweet (2019) i Abramson (2014) zdůrazňují, že gaslighting je definován strukturou moci a cílem podkopat schopnost druhého posuzovat, nikoli pouhým nesouhlasem. Konečně hodnotitel, který slyší jen jednu stranu, nemá k dispozici srovnání a nemůže posoudit asymetrii; v takové situaci je namístě zaznamenat výpověď a hledat nezávislé doklady, ne vynášet závěr.
 
 ## Validační test
 
@@ -123,9 +123,20 @@ Zasažená osoba si může vést **bezpečně uložený** deník (mimo dosah zdr
 
 ## Limity a otevřené otázky
 
-- Hranice mezi gaslightingem a obyčejným, i když tvrdým konfliktem o vzpomínky není ostrá.
-- Validované nástroje přímo pro gaslighting jsou zatím méně rozvinuté než nástroje pro coercive control obecně.
-- Úmysl zdroje často nelze zjistit; vzorec může mít stejné účinky, i když není plně vědomý.
+Hranice mezi gaslightingem a obyčejným, i když tvrdým konfliktem o vzpomínky není ostrá. Signatura se proto opírá o souběh kritérií – opakovanost, asymetrii moci, útok na duševní soudnost a dopad na zasaženou osobu – a ne o jednotlivý znak. Validované nástroje přímo pro gaslighting jsou zatím méně rozvinuté než nástroje pro hodnocení nátlakové kontroly a psychického násilí obecně; Stark (2007) nabízí rámec pro vzorec kontroly, ale ne specifický nástroj pro epistemickou složku.
+
+Úmysl zdroje často nelze zjistit a vzorec může mít stejné účinky, i když není plně vědomý. Otevřenou otázkou zůstává, jak s touto nejistotou pracovat v právním prostředí, kde úmysl hraje roli, a v terapii, kde je podstatnější obnova důvěry zasažené osoby ve vlastní vnímání než hodnocení motivace druhého.
+
+## Literatura
+
+- Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*, 28(1), 1–30.
+- Calef, V., & Weinshel, E. M. (1981). Some clinical consequences of introjection: Gaslighting. *The Psychoanalytic Quarterly*, 50(1), 44–66.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Loftus, E. F. (2005). Planting misinformation in the human mind: A 30-year investigation of the malleability of memory. *Learning & Memory*, 12(4), 361–366.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stern, R. (2007). *The Gaslight Effect: How to Spot and Survive the Hidden Manipulation Others Use to Control Your Life*. Morgan Road Books.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*, 84(5), 851–875.
 
 ## Související
 

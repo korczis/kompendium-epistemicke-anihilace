@@ -26,6 +26,8 @@ Vágní tvrzení má pro zdroj dvě výhody: může ho později vyložit podle p
 
 Pro tazatele má opakovaná zkušenost odmítnutého upřesnění dva účinky. Učí se nežádat (žádost je spojena se sankcí) a začíná přisuzovat nejasnost sobě („asi to nechápu“). V dlouhodobých vztazích tak odpor k upřesnění přispívá k [indukované pochybnosti](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md) a k pocitu, že vlastní otázky jsou nevhodné.
 
+Teorie argumentace popisuje tento vzorec jako porušení základních pravidel kritické diskuse. Van Eemeren a Grootendorst (2004) formulují pravidlo, podle něhož ten, kdo předloží stanovisko, je povinen je na žádost obhájit, a pravidlo, podle něhož se formulace nesmějí být záměrně nejasné ani víceznačné; odpor k upřesnění porušuje obě současně. Grice (1975) by stejný jev popsal jako soustavné porušování maximy způsobu („vyhýbej se nejasnosti a víceznačnosti“) bez toho, že by porušení bylo zjevné a posluchači vysvětlitelné. Lifton (1961) si v prostředí myšlenkové reformy všiml formulí, které nazval klišé ukončující myšlení (*thought-terminating cliché*): krátkých, opakovatelných vět, jimiž se otázka uzavře, aniž by byla zodpovězena. Shackel (2005) pak ukázal, jak vágnost umožňuje střídat obhajitelnou a odvážnou verzi tvrzení – strukturu, kterou kniha popisuje jako [motte and bailey](@/kompendium/detection-signatures/motte-bailey.md). Odpor k upřesnění je behaviorální podmínkou, bez níž by tato záměna nebyla udržitelná.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -57,28 +59,23 @@ Pozitivní při splnění bodů 1–3, posílené bodem 4. Důležité je, aby o
 
 ## Odlišení od benigních podob
 
-- **Skutečná složitost**: některé věci nelze krátce upřesnit. Poctivý mluvčí to však řekne a nabídne cestu (literaturu, delší rozhovor, příklad, i když nedokonalý).
-- **Nejistota**: „nevím přesně“ je upřesněním, nikoli odporem.
-- **Ochrana důvěrnosti**: lékař, právník nebo terapeut může odmítnout upřesnit, protože je vázán mlčenlivostí, a důvod uvede.
-- **Únava a kontext**: odklad ve chvíli, kdy na rozhovor není čas, je legitimní, pokud se k němu mluvčí vrátí.
-- **Zdvořilostní normy**: v některých kulturách je přímé „ne“ nebo přímé upřesnění nezdvořilé a odpověď přichází nepřímo.
+**Skutečná složitost** je nejčastější benigní podobou. Některé věci nelze krátce upřesnit, protože vyžadují odborné zázemí nebo delší výklad. Poctivý mluvčí to však řekne a nabídne cestu – literaturu, delší rozhovor nebo příklad, i když nedokonalý – a tazateli nevyčítá, že se ptá. Podobně **nejistota** není odporem: „nevím přesně“ je upřesněním, protože sděluje míru jistoty, a je v souladu s tím, co Grice (1975) nazval maximou kvality, tedy netvrdit, k čemu nemám dostatečné důvody.
+
+**Ochrana důvěrnosti** je legitimním důvodem odmítnutí: lékař, právník nebo terapeut může odmítnout upřesnit, protože je vázán mlčenlivostí, a důvod uvede. **Únava a kontext** ospravedlňují odklad ve chvíli, kdy na rozhovor není čas, pokud se k němu mluvčí skutečně vrátí. Konečně **zdvořilostní normy** se kulturně liší; Brown a Levinson (1987) popsali, jak nepřímé vyjadřování chrání tvář obou účastníků, a v některých prostředích je přímé „ne“ nebo přímé upřesnění nezdvořilé, takže odpověď přichází oklikou. Rozlišujícím znakem zůstává, zda informace nakonec dorazí.
 
 ## Klinická diferenciální diagnostika
 
-Neschopnost upřesnit může mít i klinické příčiny:
+Neschopnost upřesnit může mít i klinické příčiny, které je nutné zvážit dříve, než se signatura připíše zdroji. **Poruchy exekutivních funkcí** a pracovní paměti, například u ADHD nebo po poranění mozku, způsobují, že mluvčí ztrácí nit a obtížně generuje příklady; potíž se projevuje i v neutrálních tématech.
 
-- **poruchy exekutivních funkcí** a pracovní paměti (ADHD, poranění mozku), kdy mluvčí ztrácí nit a obtížně generuje příklady;
-- **alexithymie** – obtíž pojmenovat a popsat emoce, což se může projevit vágními odpověďmi na otázky o pocitech;
-- **úzkost z hodnocení**, kdy se mluvčí upřesnění vyhýbá ze strachu z chyby;
-- **[disociace](@/glossary/disociace.md)** během rozhovoru o zatěžujícím tématu.
+**Alexithymie**, tedy obtíž pojmenovat a popsat emoce, se může projevit vágními odpověďmi na otázky o pocitech. Taylor, Bagby a Parker (1997) ji popisují jako rys afektivní regulace, nikoli jako komunikační strategii, a osoba s ní obvykle nepřesouvá potíž na tazatele. **Úzkost z hodnocení** vede k tomu, že se mluvčí upřesnění vyhýbá ze strachu z chyby, a **[disociace](@/glossary/disociace.md)** během rozhovoru o zatěžujícím tématu může upřesnění dočasně znemožnit.
 
-Tyto stavy se liší tím, že mluvčí obvykle sám vnímá potíž jako svou a nepřesouvá ji na tazatele. Přesun odpovědnosti na tazatele je proto užitečným rozlišovacím znakem.
+Tyto stavy se liší tím, že mluvčí obvykle sám vnímá potíž jako svou a nepřesouvá ji na tazatele. Přesun odpovědnosti na tazatele („proč se pořád ptáš?“) je proto užitečným rozlišovacím znakem. Klinické posouzení přísluší kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Hodnotitel, který klade otázky konfrontačně, vyvolá obranu a pak ji chybně čte jako signaturu.
-- Mocenská asymetrie může působit opačně: podřízený neupřesňuje, protože se bojí, ne proto, že manipuluje.
-- Jedna situace nestačí; potřeba je vzorec napříč časem a tématy.
+Hodnotitel, který klade otázky konfrontačně, vyvolá obranu a pak ji chybně čte jako signaturu. Žádost o upřesnění má smysl jen tehdy, když je položena věcně, s respektem a s dostatkem času na odpověď; kdo se ptá výslechovým tónem, měří spíše vlastní styl než chování zdroje.
+
+Mocenská asymetrie může působit i opačně, než signatura předpokládá: podřízený nebo člověk v závislém postavení neupřesňuje, protože se bojí následků, ne proto, že manipuluje. Signatura je proto silná zejména tehdy, když odpor projevuje strana s větší mocí vůči straně s menší. Konečně jedna situace nestačí; potřeba je vzorec napříč časem a tématy, doložený v záznamu, v němž jsou vidět otázka i odpověď.
 
 ## Validační test
 
@@ -102,9 +99,18 @@ Zapsat přesné znění otázky a odpovědi, ne jen „odmítl upřesnit“. Uv�
 
 ## Limity a otevřené otázky
 
-- Rozlišit neochotu od neschopnosti upřesnit vyžaduje znalost osoby a kontextu.
-- Žebřík upřesnění funguje u verbálně zdatných mluvčích; u dětí, lidí s jazykovou bariérou nebo kognitivním omezením je nutná úprava.
-- Signatura je silná jen v kombinaci; sama popisuje komunikační vzorec, nikoli úmysl.
+Rozlišit neochotu od neschopnosti upřesnit vyžaduje znalost osoby a kontextu, kterou hodnotitel často nemá. Signatura proto popisuje komunikační vzorec, nikoli úmysl, a její závěr má podobu „upřesnění nebylo poskytnuto ani na opakovanou žádost“, nikoli „mluvčí záměrně mlžil“.
+
+Žebřík upřesnění popsaný ve validačním testu funguje u verbálně zdatných mluvčích. U dětí, lidí s jazykovou bariérou nebo s kognitivním omezením je nutná úprava, aby test neměřil jazykovou kompetenci místo ochoty. Signatura je silná jen v kombinaci s dalšími znaky, zejména s [nefalsifikovatelnými tvrzeními](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md) a [nepřiměřenou sebejistotou](@/kompendium/detection-signatures/9-behavioral-disproportionate-confidence.md). Otevřenou otázkou zůstává, jak ji spolehlivě zachytit v písemné komunikaci, kde lze otázku snadno přejít mlčením.
+
+## Literatura
+
+- Brown, P., & Levinson, S. C. (1987). *Politeness: Some Universals in Language Usage*. Cambridge University Press.
+- Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and Semantics 3: Speech Acts* (s. 41–58). Academic Press.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Shackel, N. (2005). The vacuity of postmodernist methodology. *Metaphilosophy*, 36(3), 295–320.
+- Taylor, G. J., Bagby, R. M., & Parker, J. D. A. (1997). *Disorders of Affect Regulation: Alexithymia in Medical and Psychiatric Illness*. Cambridge University Press.
+- van Eemeren, F. H., & Grootendorst, R. (2004). *A Systematic Theory of Argumentation: The Pragma-Dialectical Approach*. Cambridge University Press.
 
 ## Související
 

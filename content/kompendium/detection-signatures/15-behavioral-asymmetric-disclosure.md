@@ -26,6 +26,8 @@ Sebeodhalení je v běžných vztazích **reciproční**: důvěra roste tím, �
 
 V terapeutických a poradenských vztazích je určitá asymetrie legitimní a nutná (klient mluví o sobě, terapeut ne). Proto je u této signatury zvlášť důležité, zda je asymetrie **rámována pravidly, která chrání slabší stranu** (mlčenlivost, etický kodex, supervize), nebo slouží straně silnější.
 
+Reciprocitu sebeodhalení popsali Altman a Taylor (1973) v teorii sociální penetrace: vztahy se prohlubují postupně, od povrchních vrstev k hlubším, a obě strany se otevírají přibližně stejným tempem. Jourard (1971) chápal vzájemné sebeodhalení jako znak zdravého vztahu a Collins a Miller (1994) v metaanalýze doložili, že sebeodhalení a vzájemná náklonnost se ovlivňují oběma směry – kdo se nám svěří, toho máme raději, a komu se svěříme, k tomu se cítíme blíž. Aron et al. (1997) dokonce ukázali, že strukturované, postupně se prohlubující vzájemné sdílení vytváří v krátké době pocit blízkosti mezi cizími lidmi. Tyto poznatky vysvětlují, proč asymetrie funguje: pocit blízkosti, který otevřenost u zasažené osoby vytváří, nezávisí na tom, zda se otevírá i druhá strana. Petronio (2002) v teorii řízení soukromí doplňuje, že sdílením se z druhého stává spoluvlastník informace a vznikají pravidla, kdo s ní smí nakládat; při asymetrickém odhalování tato pravidla určuje jen jedna strana.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -58,26 +60,23 @@ Body 1–3 tvoří signaturu; bod 4 ukazuje na její zneužití a zvyšuje záva
 
 ## Odlišení od benigních podob
 
-- **Profesionální vztahy** (psychoterapie, lékařství, právní poradenství, zpovědní tajemství) jsou asymetrické z podstaty; chrání je však mlčenlivost, etický kodex a možnost stížnosti. Signaturou se stávají až při porušení těchto rámců (srov. [případová studie: psychoterapeut](@/kompendium/case-studies/16-psychoterapeut-totalizace.md)).
-- **Introverze a soukromí**: někteří lidé o sobě mluví málo z povahy, nepodněcují však otevřenost druhých a nepoužívají ji.
-- **Podpůrné skupiny** (např. svépomocné) pracují se sdílením, ale bývají reciproční a mají pravidla důvěrnosti.
+**Profesionální vztahy**, jako je psychoterapie, lékařství, právní poradenství nebo zpovědní tajemství, jsou asymetrické z podstaty. Chrání je však mlčenlivost, etický kodex a možnost stížnosti, a asymetrie v nich slouží slabší straně. Gabbard a Lester (1995) popsali, jak porušení profesních hranic – například když terapeut začne sdílet vlastní osobní problémy nebo když se vztah přesune mimo terapeutický rámec – mění ochrannou asymetrii v nebezpečnou. Signaturou se proto profesionální vztah stává až při porušení těchto rámců (srov. [případová studie: psychoterapeut](@/kompendium/case-studies/16-psychoterapeut-totalizace.md)).
+
+**Introverze a soukromí** jsou běžné osobnostní rysy: někteří lidé o sobě mluví málo z povahy, nepodněcují však otevřenost druhých a nepoužívají to, co se dozvědí. Rozlišujícím znakem je tedy aktivní podněcování a následné využití, nikoli pouhá zdrženlivost. Konečně **podpůrné skupiny**, například svépomocné, pracují se sdílením jako se základním nástrojem; bývají však reciproční, sdílení je dobrovolné a skupiny mívají pravidla důvěrnosti, jejichž porušení je sankcionováno.
 
 ## Klinická diferenciální diagnostika
 
-U zasažené osoby, která se nadměrně odhaluje, je třeba zvážit:
+U zasažené osoby, která se nadměrně odhaluje, je třeba zvážit faktory, které otevřenost zvyšují nezávisle na zdroji. **Snížená schopnost vymezit hranice** po vývojovém traumatu může vést k tomu, že osoba neumí rozlišit bezpečné a nebezpečné sdílení; Herman (1992) popisuje, jak dlouhodobé zneužívání v dětství narušuje schopnost posoudit důvěryhodnost druhých. **Hypomanické stavy** rozvolňují zábrany a vedou k náhlému sdílení i s cizími lidmi; **intoxikace** v době sdílení má podobný účinek.
 
-- **sníženou schopnost vymezit hranice** po vývojovém traumatu, kdy osoba neumí rozlišit bezpečné a nebezpečné sdílení;
-- **hypomanické stavy** s rozvolněním zábran;
-- **intoxikaci** v době sdílení;
-- **vývojová specifika** u dětí a dospívajících, kteří jsou vůči podněcování otevřenosti zvlášť zranitelní (srov. [child grooming](@/glossary/child-grooming.md)).
+Zvláštní pozornost zasluhují **vývojová specifika** u dětí a dospívajících, kteří jsou vůči podněcování otevřenosti zvlášť zranitelní. Craven, Brown a Gilchrist (2006) v přehledu literatury o groomingu popisují, jak pachatel buduje důvěru a postupně zjišťuje informace o dítěti a jeho okolí (srov. [child grooming](@/glossary/child-grooming.md)). Ochrana dítěte zde má přednost před jakoukoli diagnostickou úvahou.
 
-U zdroje, který se neodhaluje, nelze z mlčení samotného vyvozovat klinický závěr.
+U zdroje, který se neodhaluje, nelze z mlčení samotného vyvozovat klinický závěr. Signatura popisuje vzorec ve vztahu, nikoli osobnost zdroje, a klinická posouzení přísluší kvalifikovaným odborníkům.
 
 ## Riziko falešné pozitivity
 
-- Profesionální asymetrie bývá chybně vnímána jako manipulace; je nutné ověřit, zda rámce existují a jsou dodržovány.
-- Asymetrie vzniká i v kulturách, kde se o osobních věcech mluví jen v určitých rolích.
-- Zasažená osoba může zpětně vykládat dobrovolné sdílení jako vynucené; posuzuje se podněcování ze strany zdroje, nikoli jen výsledek.
+Profesionální asymetrie bývá chybně vnímána jako manipulace, zejména klienty, kteří s terapií nemají zkušenost, nebo jejich blízkými. Hodnotitel proto nejprve ověří, zda ochranné rámce existují a jsou dodržovány – mlčenlivost, supervize, jasné hranice vztahu – a teprve jejich porušení považuje za relevantní.
+
+Asymetrie vzniká i v kulturách a rolích, kde se o osobních věcech mluví jen s určitými lidmi, například se staršími členy rodiny nebo s duchovními. Zasažená osoba také může zpětně vykládat dobrovolné sdílení jako vynucené, zvláště poté, co se vztah rozpadl a informace byly použity proti ní. Posuzuje se proto podněcování ze strany zdroje a způsob, jakým se s informacemi nakládalo, nikoli jen výsledná nerovnováha.
 
 ## Validační test
 
@@ -103,9 +102,22 @@ Zaznamenat, jaké informace byly sdíleny, v jakém rámci a s jakým příslibe
 
 ## Limity a otevřené otázky
 
-- Míru „normální“ reciprocity nelze stanovit univerzálně; mění se s kulturou, rolí a fází vztahu.
-- V online prostředí lze reciprocitu předstírat – zdroj sdílí smyšlené informace.
-- Neexistuje jasná hranice, kdy se z neopatrného sdílení stává nátlakem vynucené.
+Míru „normální“ reciprocity nelze stanovit univerzálně; mění se s kulturou, rolí a fází vztahu, jak ukazuje už teorie sociální penetrace (Altman & Taylor, 1973). Signatura proto pracuje se srovnáním v čase a se směrem vývoje, ne s pevnou hranicí.
+
+V online prostředí lze reciprocitu předstírat: zdroj sdílí smyšlené informace, které působí jako sebeodhalení, a zasažená osoba tak nemá důvod asymetrii postřehnout. Whitty a Buchanan (2012) popsali tento vzorec u podvodů s online romancí, kde falešná identita a smyšlené osudy slouží k vytvoření důvěry. Signatura se tak v online prostředí posouvá od otázky „kolik o sobě zdroj řekl“ k otázce „co z toho lze ověřit“. Otevřenou otázkou zůstává, kde je hranice, kdy se z neopatrného sdílení stává nátlakem vynucené, a zda je vůbec možné ji stanovit bez znalosti celého průběhu vztahu.
+
+## Literatura
+
+- Altman, I., & Taylor, D. A. (1973). *Social Penetration: The Development of Interpersonal Relationships*. Holt, Rinehart & Winston.
+- Aron, A., Melinat, E., Aron, E. N., Vallone, R. D., & Bator, R. J. (1997). The experimental generation of interpersonal closeness: A procedure and some preliminary findings. *Personality and Social Psychology Bulletin*, 23(4), 363–377.
+- Collins, N. L., & Miller, L. C. (1994). Self-disclosure and liking: A meta-analytic review. *Psychological Bulletin*, 116(3), 457–475.
+- Craven, S., Brown, S., & Gilchrist, E. (2006). Sexual grooming of children: Review of literature and theoretical considerations. *Journal of Sexual Aggression*, 12(3), 287–299.
+- Gabbard, G. O., & Lester, E. P. (1995). *Boundaries and Boundary Violations in Psychoanalysis*. Basic Books.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Jourard, S. M. (1971). *The Transparent Self* (rev. ed.). Van Nostrand Reinhold.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Petronio, S. (2002). *Boundaries of Privacy: Dialectics of Disclosure*. State University of New York Press.
+- Whitty, M. T., & Buchanan, T. (2012). The online romance scam: A serious cybercrime. *Cyberpsychology, Behavior, and Social Networking*, 15(3), 181–183.
 
 ## Související
 

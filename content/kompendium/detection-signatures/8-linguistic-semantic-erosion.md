@@ -26,6 +26,8 @@ Erodovaný pojem je užitečný tomu, kdo kontroluje jeho použití. Protože ne
 
 V tomto smyslu je eroze i otázkou [hermeneutické nespravedlnosti](@/glossary/epistemicka-injustice.md) ve smyslu Frickerové (2007): kolektivu ubývají pojmy, jimiž by mohl zkušenost sdílet. U zasažené osoby se projevuje jako [hermeneutická eroze](@/glossary/hermeneuticka-eroze.md) – ztráta jistoty, co vlastní slova znamenají.
 
+Filozofie jazyka popsala tento mechanismus dříve, než se o něm začalo mluvit v souvislosti s manipulací. Stevenson (1938, 1944) rozlišil deskriptivní a emotivní význam hodnotících slov a ukázal, že tzv. přesvědčovací definice mění deskriptivní obsah slova, zatímco jeho emotivní náboj ponechává – a právě tím přenáší hodnocení na nové předměty. Sémantická eroze je krajním případem: deskriptivní obsah se ztratí úplně a zůstane jen náboj. Klemperer (1947) zaznamenal, jak se v jazyce Třetí říše slova jako „fanatický“ proměnila z výtky v pochvalu a jak se hodnotící výrazy opakováním vyprázdnily natolik, že přestaly umožňovat rozlišení. Havel (1978) popsal v *Moci bezmocných* ideologický jazyk jako rituál, jehož věty už nic nesdělují, ale stvrzují poslušnost; Arendt (1963) si u Eichmanna všimla neschopnosti mluvit jinak než klišé úřední řeči. Ve všech těchto popisech je společné, že erodovaný jazyk neslouží k myšlení, ale k jeho nahrazení.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -57,21 +59,21 @@ Signatura je pozitivní při splnění všech tří bodů. Užitečným doplňke
 
 ## Odlišení od benigních podob
 
-- **Přirozený vývoj jazyka**: slova mění význam a rozšiřují se, často během generací. Signaturou je rychlé, účelové vyprazdňování s hodnotící funkcí.
-- **Metafora a nadsázka** v běžné řeči („to je vražda“ o náročném dni) nejsou erozí, protože obě strany vědí, že jde o obrazné užití.
-- **Popularizace odborných pojmů** („trauma“, „narcismus“) vede k jejich rozmělnění bez manipulativního záměru; přesto stojí za to ji pojmenovat, protože má dopad na ty, kdo pojem potřebují v plném smyslu.
+**Přirozený vývoj jazyka** je trvalý a většinou neškodný: slova mění význam, rozšiřují se a zužují, často během generací. Wittgenstein (1953) ukázal, že význam slova je dán jeho užíváním v určité jazykové hře, a změna užívání je proto přirozeně i změnou významu. Signaturou je teprve rychlé, účelové vyprazdňování s hodnotící funkcí, které slouží jedné straně komunikace a jehož výsledkem je ztráta schopnosti rozlišovat.
+
+**Metafora a nadsázka** v běžné řeči („to je vražda“ o náročném dni) erozí nejsou, protože obě strany vědí, že jde o obrazné užití, a doslovný význam zůstává nedotčen. Složitější je **popularizace odborných pojmů**, jako je „trauma“ nebo „narcismus“. Haslam (2016) popsal rozšiřování psychologických pojmů škody a patologie, které probíhá bez manipulativního záměru, a přesto má důsledky: ti, kdo pojem potřebují v jeho plném smyslu, se s ním hůře dorozumívají. Takový posun stojí za to pojmenovat, ale signaturou manipulace není, pokud chybí jednostranné využití hodnotícího náboje.
 
 ## Klinická diferenciální diagnostika
 
-- **Sémantická afázie a jiné poruchy řeči** po poškození mozku narušují význam slov obecně, ne selektivně u hodnotících pojmů (srov. [sémantická afázie](@/glossary/semanticka-afazie.md)).
-- **Formální poruchy myšlení** u psychóz mohou vést k idiosynkratickému užívání slov bez sdíleného vzorce.
-- U zasažené osoby může být užívání nálepek, které převzala ze skupiny, mylně považováno za **paranoidní obsah** („oni jsou všichni toxičtí“); rozlišuje se podle toho, zda nálepka pochází z identifikovatelného zdroje a zda ji osoba umí na vyzvání nahradit popisem.
+Narušení významu slov má i neurologické příčiny. **Sémantická afázie a sémantická demence** postihují význam slov obecně, ne selektivně u hodnotících pojmů; Hodges et al. (1992) popsali sémantickou demenci jako progresivní ztrátu pojmových znalostí při zachované plynulosti řeči (srov. [sémantická afázie](@/glossary/semanticka-afazie.md)). Rozlišení je zde zpravidla zřetelné, protože porucha zasahuje i konkrétní a neutrální slova.
+
+**Formální poruchy myšlení** u psychóz mohou vést k idiosynkratickému užívání slov bez sdíleného vzorce, který by šlo dohledat u určitého zdroje. U zasažené osoby může být naopak užívání nálepek převzatých ze skupiny mylně považováno za **paranoidní obsah** („oni jsou všichni toxičtí“). Rozlišuje se podle toho, zda nálepka pochází z identifikovatelného zdroje, zda ji sdílí další členové skupiny a zda ji osoba umí na vyzvání nahradit konkrétním popisem. Konečné klinické posouzení náleží kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Hodnotitel může za erozi označit legitimní posun pojmu, s nímž nesouhlasí; i spory o význam slov mohou být věcné.
-- V kulturních a politických sporech obě strany obvykle tvrdí, že ta druhá pojem „vyprázdnila“; detekce nesmí rozhodovat politický spor.
-- Krátké sdělení (titulek, příspěvek) nedává dost materiálu k posouzení vzorce.
+Hodnotitel může za erozi označit legitimní posun pojmu, s nímž nesouhlasí. I spory o význam slov mohou být věcné a obě strany v nich mohou mít dobré důvody; Stevenson (1944) ostatně ukázal, že spory o definice hodnotících pojmů často skrývají spory o hodnoty samotné. Detekce proto nesmí sloužit k tomu, aby hodnotitel prosadil vlastní výklad sporného slova.
+
+Zvláštní opatrnost vyžadují kulturní a politické spory, v nichž obě strany obvykle tvrdí, že ta druhá pojem „vyprázdnila“. Detekce nesmí rozhodovat politický spor; může nanejvýš popsat, jak je pojem v konkrétní komunikaci užíván a zda ještě něco rozlišuje. Konečně krátké sdělení – titulek, příspěvek na sociální síti – nedává dost materiálu k posouzení vzorce, protože eroze je jev časový a projeví se teprve v řadě užití.
 
 ## Validační test
 
@@ -95,9 +97,24 @@ Zaznamenávat jednotlivá použití pojmu s kontextem a datem, ne jen souhrnné 
 
 ## Limity a otevřené otázky
 
-- Mez mezi legitimní změnou významu a erozí nelze určit jednou provždy; závisí na funkci a rychlosti změny.
-- Erozi mohou způsobit i dobře míněné kampaně, které pojem šíří příliš široce.
-- Obnova obsahu jednou erodovaného pojmu v širší společnosti je obtížná a dlouhodobá.
+Mez mezi legitimní změnou významu a erozí nelze určit jednou provždy; závisí na funkci a rychlosti změny a na tom, komu změna slouží. Signatura proto pracuje se směrem vývoje a s jeho dopadem, nikoli s pevným kritériem.
+
+Erozi mohou způsobit i dobře míněné kampaně, které pojem šíří příliš široce, a právě u nich je pojmenování obtížné, protože jejich cíle bývají sympatické. Fricker (2007) upozornila, že hermeneutické mezery postihují především ty, kdo mají nejmenší vliv na sdílené pojmy; eroze tak může mít nerovnoměrné dopady, i když nikdo nejedná ve zlé víře.
+
+Obnova obsahu jednou erodovaného pojmu v širší společnosti je obtížná a dlouhodobá. Klemperer (1947) pochyboval, že se jazyk nacismu dá rychle očistit, a Havel (1978) spojoval obnovu jazyka s „životem v pravdě“, tedy s jednáním, ne jen s redefinicí. Otevřenou otázkou zůstává, co v tomto ohledu může udělat jednotlivý klinik nebo vyšetřovatel; nejbližší odpovědí je pečlivá práce s konkrétním popisem, jakou umožňuje inventář referentů popsaný ve validačním testu výše.
+
+## Literatura
+
+- Arendt, H. (1963). *Eichmann in Jerusalem: A Report on the Banality of Evil*. Viking Press.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. *Psychological Inquiry*, 27(1), 1–17.
+- Havel, V. (1978). *Moc bezmocných*. Samizdat.
+- Hodges, J. R., Patterson, K., Oxbury, S., & Funnell, E. (1992). Semantic dementia: Progressive fluent aphasia with temporal lobe atrophy. *Brain*, 115(6), 1783–1806.
+- Klemperer, V. (1947). *LTI – Notizbuch eines Philologen*. Aufbau.
+- Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
+- Stevenson, C. L. (1938). Persuasive definitions. *Mind*, 47(187), 331–350.
+- Stevenson, C. L. (1944). *Ethics and Language*. Yale University Press.
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical Investigations*. Blackwell.
 
 ## Související
 

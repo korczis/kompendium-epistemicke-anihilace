@@ -33,6 +33,8 @@ Mentalizace je jedním z hlavních nástrojů, jimiž lidé poznávají sociáln
 
 S tím souvisí pojem **epistemické důvěry**, který rozvíjí Peter Fonagy a jeho spolupracovníci: ochota přijímat od druhých informace jako relevantní a zobecnitelné. Rozladěná ToM vede k tomu, že epistemická důvěra se upne k jedinému člověku – a vůči ostatním se uzavře (srov. [EA-8.1.5 Epistemic Trust Scale](@/kompendium/techniques/ea-8-1-5-epistemic-trust-scale.md) a [EA-6.1.10 Epistemická trust assessment](@/kompendium/techniques/ea-6-1-10-epistemicka-trust-assessment.md)).
 
+Pojem teorie mysli zavedli Premack a Woodruff (1978) v otázce, zda šimpanzi přisuzují duševní stavy druhým, a Baron-Cohen, Leslie a Frith (1985) jej přenesli do vývojové a klinické psychologie. Fonagy et al. (2002) rozpracovali mentalizaci jako schopnost, která se vyvíjí ve vztahu s pečující osobou a je úzce spjata s regulací emocí; Fonagy a Allison (2014) pak popsali epistemickou důvěru jako stav, v němž člověk otevírá svou mysl informacím od druhého a přijímá je jako osobně relevantní. Toto pojetí vysvětluje i zranitelnost: epistemická důvěra se probouzí, když se člověk cítí druhým pochopen, a zdroj, který předvádí porozumění, ji může vyvolat dříve, než si ji zaslouží. Epley (2014) shrnul výzkum, podle něhož lidé přeceňují, jak přesně dokážou číst myšlenky druhých, a Ickes (1997) ukázal, že empatická přesnost – shoda mezi odhadem a skutečným stavem druhého – je měřitelná a liší se mezi lidmi i vztahy. Signatura tak popisuje situaci, v níž je vysoká mentalizační aktivita zasažené osoby odpojena od přesnosti a nasměrována jedním směrem.
+
 ## Pozorovatelné markery
 
 ### Na straně zasažené osoby
@@ -65,25 +67,23 @@ Pozitivní při splnění bodů 1, 2 a 4; bod 3 ukazuje na aktivní využíván�
 
 ## Odlišení od benigních podob
 
-- **Empatie v blízkém vztahu**: blízcí lidé se navzájem vstřícně vykládají; zdravý vztah je však v tomto ohledu reciproční.
-- **Péče o nemocného nebo dítě**: zvýšená pozornost k potřebám druhého je přiměřená, pokud pečující nepřestane vnímat vlastní potřeby.
-- **Profesionální mentalizace** terapeuta je vědomá, omezená rolí a supervidovaná.
-- **Shovívavost** k člověku v krizi je přiměřená, pokud nevylučuje jeho odpovědnost.
+**Empatie v blízkém vztahu** je zdravá a žádoucí: blízcí lidé se navzájem vstřícně vykládají, omlouvají si únavu a špatnou náladu a snaží se porozumět motivům druhého. Zdravý vztah je však v tomto ohledu reciproční – oba partneři vnímají i potřeby toho druhého a vstřícný výklad nevylučuje, že si řeknou, co je zranilo.
+
+**Péče o nemocného nebo dítě** vyžaduje zvýšenou pozornost k potřebám druhého a je přiměřená, pokud pečující nepřestane vnímat vlastní potřeby; vyčerpání pečujících je samostatný problém, nikoli signatura. **Profesionální mentalizace** terapeuta je vědomá, omezená rolí a supervidovaná, a slouží klientovi, ne terapeutovi. Konečně **shovívavost** k člověku v krizi je přiměřená, pokud nevylučuje jeho odpovědnost za jednání. Bloom (2016) upozornil, že empatie má sklon zaměřovat se na ty, kdo jsou nám blízcí nebo kdo své utrpení dávají najevo; tato vlastnost je lidská, ale právě ji signatura popisuje jako zranitelné místo.
 
 ## Klinická diferenciální diagnostika
 
-- **Hypermentalizace** (nadměrné, nepřesné přisuzování stavů druhým) je popisována u některých lidí s hraniční poruchou osobnosti a v adolescenci; bývá napříč vztahy, nikoli v jednom.
-- **Hypomentalizace a deficity ToM** u poruch autistického spektra nebo schizofrenie – obraz je opačný, osoba stavy druhých obtížně odhaduje.
-- **Kodependentní vzorce** a vývojově naučené „čtení“ druhých u lidí, kteří vyrůstali s nepředvídatelným rodičem: vysoká citlivost vůči stavům druhých jako stará adaptace, kterou nový vztah může využít.
-- **Deprese a nízké sebehodnocení** zmenšují váhu vlastních potřeb obecně.
+**Hypermentalizace**, tedy nadměrné a nepřesné přisuzování stavů druhým, je popisována u některých dospívajících s hraničními rysy; Sharp et al. (2011) ji spojili s obtížemi v regulaci emocí. Takový vzorec se projevuje napříč vztahy, nikoli jen v jednom, a předchází současnému vztahu.
 
-Rozhodujícím rozlišovacím znakem je opět vztahová specifičnost a role zdroje.
+Opačný obraz představují **hypomentalizace a deficity teorie mysli** u poruch autistického spektra (Baron-Cohen, Leslie & Frith, 1985) nebo u schizofrenie (Frith, 1992), kdy osoba stavy druhých obtížně odhaduje. **Vývojově naučené „čtení“ druhých** u lidí, kteří vyrůstali s nepředvídatelným rodičem, se projevuje vysokou citlivostí vůči stavům druhých jako starou adaptací, kterou nový vztah může využít; v populární literatuře se pro něj užívá pojem kodependence, který však není klinickou diagnózou. Konečně **deprese a nízké sebehodnocení** zmenšují váhu vlastních potřeb obecně, nikoli jen vůči jednomu člověku.
+
+Rozhodujícím rozlišovacím znakem je opět vztahová specifičnost a role zdroje. Klinické posouzení mentalizačních obtíží a případné poruchy osobnosti náleží kvalifikovanému odborníkovi.
 
 ## Riziko falešné pozitivity
 
-- Empatičnost a ochota rozumět druhým jsou ctnosti; signatura je nesmí patologizovat.
-- Okolí, které vztah neschvaluje, může vstřícnost osoby vykládat jako manipulaci zdrojem.
-- Hodnotitel nemusí znát kontext (například vážnou nemoc zdroje), který vstřícný výklad opravňuje.
+Empatičnost a ochota rozumět druhým jsou ctnosti, a signatura je nesmí patologizovat. Kdo hodnotí vstřícný výklad jako známku manipulace, může zasaženou osobu zahanbit za vlastnost, kterou je třeba chránit, nikoli potlačovat; cílem není méně empatie, ale její obnovená vyváženost vůči sobě.
+
+Okolí, které vztah neschvaluje, může vstřícnost osoby vykládat jako manipulaci zdrojem, i když jde o běžnou loajalitu k partnerovi nebo příteli. Hodnotitel nemusí znát kontext – například vážnou nemoc zdroje nebo období mimořádné zátěže –, který vstřícný výklad opravňuje. Signatura proto vyžaduje doložit vzorec v čase, včetně toho, že vstřícný výklad trvá i proti opakovanému a zjevně škodlivému chování.
 
 ## Validační test
 
@@ -107,9 +107,22 @@ Zaznamenat výklady osoby doslovně, s rozlišením „co se stalo“ a „jak t
 
 ## Limity a otevřené otázky
 
-- Měření mentalizace je metodicky náročné a nástroje se liší podle teoretického rámce.
-- Hranice mezi empatií a nadměrnou mentalizací je kulturně a vztahově proměnlivá.
-- Vývojová historie (vazba, dětství) a současný vztah se v signatuře prolínají a nelze je zcela oddělit.
+Měření mentalizace je metodicky náročné a nástroje se liší podle teoretického rámce: některé měří schopnost rozpoznat emoce z výrazu, jiné reflexivní funkci v rozhovoru o vztazích, a jejich výsledky spolu ne vždy souvisejí. Bateman a Fonagy (2004) zdůrazňují, že mentalizace kolísá s emočním napětím a vztahovým kontextem, takže jednorázové měření zachytí jen část obrazu.
+
+Hranice mezi empatií a nadměrnou mentalizací je kulturně a vztahově proměnlivá; v kulturách s vysokým důrazem na harmonii je předjímání potřeb druhých normou. Vývojová historie a současný vztah se v signatuře prolínají a nelze je zcela oddělit. Otevřenou otázkou zůstává, zda lze kalibraci teorie mysli posílit tréninkem, který by zvýšil přesnost odhadu druhých, aniž by snížil ochotu jim rozumět.
+
+## Literatura
+
+- Baron-Cohen, S., Leslie, A. M., & Frith, U. (1985). Does the autistic child have a „theory of mind“? *Cognition*, 21(1), 37–46.
+- Bateman, A., & Fonagy, P. (2004). *Psychotherapy for Borderline Personality Disorder: Mentalization-Based Treatment*. Oxford University Press.
+- Bloom, P. (2016). *Against Empathy: The Case for Rational Compassion*. Ecco.
+- Epley, N. (2014). *Mindwise: How We Understand What Others Think, Believe, Feel, and Want*. Knopf.
+- Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the therapeutic relationship. *Psychotherapy*, 51(3), 372–380.
+- Fonagy, P., Gergely, G., Jurist, E. L., & Target, M. (2002). *Affect Regulation, Mentalization, and the Development of the Self*. Other Press.
+- Frith, C. D. (1992). *The Cognitive Neuropsychology of Schizophrenia*. Lawrence Erlbaum.
+- Ickes, W. (Ed.). (1997). *Empathic Accuracy*. Guilford Press.
+- Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences*, 1(4), 515–526.
+- Sharp, C., Pane, H., Ha, C., Venta, A., Patel, A. B., Sturek, J., & Fonagy, P. (2011). Theory of mind and emotion regulation difficulties in adolescents with borderline traits. *Journal of the American Academy of Child & Adolescent Psychiatry*, 50(6), 563–573.
 
 ## Související
 

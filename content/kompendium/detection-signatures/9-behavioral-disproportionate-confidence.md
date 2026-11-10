@@ -26,6 +26,8 @@ Lidé užívají jistotu druhých jako zkratku k pravdě: kdo mluví jistě, pra
 
 Pro zasaženou osobu je důsledkem postupné **přenesení kalibrace**: přestává hodnotit tvrzení podle důkazů a hodnotí je podle jistoty zdroje. Vlastní nejistota (zdravý znak poctivého uvažování) se jí začne jevit jako slabost. Tento posun připravuje půdu pro [skok sebepochybnosti](@/kompendium/detection-signatures/26-phenomenological-self-doubt-spike.md).
 
+Empirický výzkum tuto heuristiku dobře popsal. Price a Stone (2004) ukázali, že lidé dávají přednost poradcům, kteří vyjadřují vyšší jistotu, a to i tehdy, když jejich přesnost není vyšší; autoři hovoří o heuristice důvěry (*confidence heuristic*). Tenney, Spellman a MacCoun (2008) doplnili, že jistota přestává být výhodou, jakmile posluchač dostane informaci o skutečné přesnosti mluvčího – špatně kalibrovaný a sebejistý zdroj pak ztrácí důvěryhodnost víc než opatrný. Z toho plyne praktický závěr pro detekci: signatura je nejúčinnější tam, kde zpětná vazba o přesnosti chybí nebo je potlačena. Anderson et al. (2012) navíc doložili, že přehnaná sebedůvěra zvyšuje sociální status jedince ve skupině, i když není podložena výkonem, což vysvětluje, proč se ve skupinách soustředěných kolem jednoho mluvčího udržuje. Weber (1922) popsal charismatickou autoritu jako autoritu, jež se legitimizuje mimořádností osoby, nikoli pravidly nebo doklady; nepřiměřená sebejistota je jedním z jejích pozorovatelných projevů.
+
 ## Pozorovatelné markery
 
 ### Lingvistické
@@ -56,26 +58,23 @@ Pozitivní je kombinace všech tří bodů pozorovaná na více tématech nebo v
 
 ## Odlišení od benigních podob
 
-- **Oprávněná jistota experta**: zkušený odborník může mluvit jistě, protože důkazy jsou silné. Rozlišuje se podle toho, zda umí důkazy uvést, zda vymezí hranice své jistoty a zda ji v jiných oblastech přiměřeně snižuje.
-- **Komunikace v krizi**: lékař nebo velitel může záměrně mluvit jistě, aby uklidnil. Taková jistota se týká postupu („teď uděláme tohle“), ne nepodložených faktických tvrzení, a po krizi bývá doplněna vysvětlením.
-- **Kulturní a osobnostní styl**: někteří lidé mluví přímo a bez kvalifikátorů, ale přiznají omyl, když jsou s ním konfrontováni.
-- **Efekt Dunning–Kruger** (Kruger & Dunning 1999) popisuje přeceňování vlastní kompetence u méně zdatných; jde o kognitivní zkreslení, nikoli nutně o manipulaci, a také on vyžaduje opatrnou interpretaci.
+**Oprávněná jistota experta** je nejčastější benigní podobou. Zkušený odborník může mluvit jistě, protože důkazy jsou silné; rozlišuje se podle toho, zda umí důkazy uvést, zda vymezí hranice své jistoty a zda ji v jiných oblastech přiměřeně snižuje. Tetlock (2005) ukázal, že i uznávaní experti bývají v dlouhodobých politických předpovědích špatně kalibrováni, ale také to, že ti lepší z nich svou jistotu průběžně upravují; právě tato ochota je rozlišujícím znakem.
+
+**Komunikace v krizi** představuje druhý případ. Lékař nebo velitel může záměrně mluvit jistě, aby uklidnil a umožnil jednání; taková jistota se však týká postupu („teď uděláme tohle“), ne nepodložených faktických tvrzení, a po krizi bývá doplněna vysvětlením. Třetím případem je **kulturní a osobnostní styl**: někteří lidé mluví přímo a bez kvalifikátorů, ale přiznají omyl, když jsou s ním konfrontováni, a jejich jistota se mění s důkazy.
+
+Konečně je třeba zmínit **Dunningův–Krugerův efekt** (Kruger & Dunning, 1999), který popisuje přeceňování vlastní kompetence u méně zdatných. Jde o kognitivní zkreslení, nikoli nutně o manipulaci, a samotný efekt je předmětem metodologické diskuse; Moore a Healy (2008) ukázali, že přehnaná sebedůvěra má několik odlišných podob, jež je nutné rozlišovat.
 
 ## Klinická diferenciální diagnostika
 
-Nepřiměřená sebejistota zdroje může mít i klinickou povahu; tyto možnosti se uvádějí jako diferenciální úvaha, nikoli jako diagnóza na dálku:
+Nepřiměřená sebejistota zdroje může mít i klinickou povahu. Tyto možnosti se uvádějí jako diferenciální úvaha, nikoli jako diagnóza na dálku, kterou nelze bez osobního vyšetření stanovit. **Hypomanické nebo manické stavy** se projevují zvýšeným sebevědomím, zrychlenou řečí a sníženou potřebou spánku; obvykle mají časový průběh a představují změnu oproti dřívějšímu stavu osoby. **Grandiózní bludy** jsou idiosynkratické, nezřídka bizarní a nesdílené. **Osobnostní rysy** s nafouknutým sebeobrazem samy o sobě neurčují, zda zdroj manipuluje; signatura se týká chování v komunikaci, nikoli osobnostní diagnózy.
 
-- **hypomanické nebo manické stavy** se zvýšeným sebevědomím, zrychlenou řečí a sníženou potřebou spánku – obvykle s časovým průběhem a změnou oproti dřívějšímu stavu;
-- **grandiózní bludy**, které jsou idiosynkratické a nezřídka bizarní;
-- **osobnostní rysy** s nafouknutým sebeobrazem; ty samy o sobě neurčují, zda zdroj manipuluje.
-
-U zasažené osoby je naopak třeba odlišit, zda její vlastní snížená důvěra v úsudek není projevem deprese nebo úzkostné poruchy nezávislé na zdroji.
+U zasažené osoby je naopak třeba odlišit, zda její vlastní snížená důvěra v úsudek není projevem deprese nebo úzkostné poruchy nezávislé na zdroji. Pomáhá časová osa: vznikla nejistota až v kontaktu se zdrojem a je zvlášť výrazná v tématech, v nichž zdroj vystupuje s jistotou? Posouzení přísluší kvalifikovanému klinikovi.
 
 ## Riziko falešné pozitivity
 
-- Hodnotitel, který sám nemá k tématu odbornost, může zaměnit oprávněnou jistotu za nepřiměřenou.
-- Některá prostředí (soudní síň, obchodní jednání) sebejistý projev vyžadují; měří se vztah k důkazům, ne styl.
-- Ženy a příslušníci menšin bývají za sebejistý projev hodnoceni přísněji; detekce nesmí reprodukovat takové zkreslení (srov. [epistemická injustice](@/glossary/epistemicka-injustice.md)).
+Hodnotitel, který sám nemá k tématu odbornost, může zaměnit oprávněnou jistotu za nepřiměřenou, protože nedokáže posoudit sílu důkazů. Konzultace s odborníkem z dané oblasti je proto součástí posouzení všude tam, kde se signatura opírá o obsahová tvrzení.
+
+Některá prostředí, například soudní síň nebo obchodní jednání, sebejistý projev přímo vyžadují; měří se proto vztah k důkazům a schopnost revize, ne styl řeči. Zvláštní pozornost vyžaduje sociální zkreslení na straně hodnotitele. Rudman (1998) doložila, že ženy, které se prezentují sebevědomě, bývají hodnoceny jako méně sympatické než muži se stejným projevem; obdobná asymetrie postihuje i příslušníky menšin. Detekce nesmí takové zkreslení reprodukovat, jinak se stává nástrojem toho, co Fricker (2007) nazvala svědeckou nespravedlností (srov. [epistemická injustice](@/glossary/epistemicka-injustice.md)).
 
 ## Validační test
 
@@ -99,9 +98,21 @@ Uchovat tvrzení doslovně a s datem, připojit tehdy dostupné důkazy a pozdě
 
 ## Limity a otevřené otázky
 
-- Míra „přiměřené“ jistoty závisí na oboru a na tom, jak dobře je obor sám kalibrován.
-- Kalibrační záznam vyžaduje čas a dostatek ověřitelných předpovědí, které mnohé zdroje záměrně nedávají.
-- Charisma a sebejistota jsou kulturně oceňované vlastnosti; signatura nesmí patologizovat přesvědčivý projev jako takový.
+Míra „přiměřené“ jistoty závisí na oboru a na tom, jak dobře je obor sám kalibrován. V meteorologii, kde existuje okamžitá zpětná vazba, je kalibrace měřitelná; v oblastech bez ní je posouzení nutně hrubší. Kalibrační záznam navíc vyžaduje čas a dostatek ověřitelných předpovědí, které mnohé zdroje záměrně nedávají – a vyhýbání se ověřitelným předpovědím je samo o sobě informací, nikoli však důkazem.
+
+Charisma a sebejistota jsou kulturně oceňované vlastnosti. Signatura nesmí patologizovat přesvědčivý projev jako takový; jejím předmětem je jistota, která nahrazuje důkaz a nereaguje na selhání. Otevřenou otázkou zůstává, jak vysvětlit zasažené osobě rozdíl mezi jistotou a správností, aniž by to vedlo k opačnému extrému – k nedůvěře ke každému, kdo mluví jistě.
+
+## Literatura
+
+- Anderson, C., Brion, S., Moore, D. A., & Kennedy, J. A. (2012). A status-enhancement account of overconfidence. *Journal of Personality and Social Psychology*, 103(4), 718–735.
+- Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
+- Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing one's own incompetence lead to inflated self-assessments. *Journal of Personality and Social Psychology*, 77(6), 1121–1134.
+- Moore, D. A., & Healy, P. J. (2008). The trouble with overconfidence. *Psychological Review*, 115(2), 502–517.
+- Price, P. C., & Stone, E. R. (2004). Intuitive evaluation of likelihood judgment producers: Evidence for a confidence heuristic. *Journal of Behavioral Decision Making*, 17(1), 39–57.
+- Rudman, L. A. (1998). Self-promotion as a risk factor for women: The costs and benefits of counterstereotypical impression management. *Journal of Personality and Social Psychology*, 74(3), 629–645.
+- Tenney, E. R., Spellman, B. A., & MacCoun, R. J. (2008). The benefits of knowing what you know (and what you don't): How calibration affects credibility. *Journal of Experimental Social Psychology*, 44(5), 1368–1375.
+- Tetlock, P. E. (2005). *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton University Press.
+- Weber, M. (1922). *Wirtschaft und Gesellschaft*. J. C. B. Mohr (Paul Siebeck).
 
 ## Související
 

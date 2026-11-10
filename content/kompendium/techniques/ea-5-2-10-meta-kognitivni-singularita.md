@@ -40,27 +40,15 @@ Strukturální rys: singularita není **absence** [metakognice](@/glossary/metak
 
 V hierarchii technik kapitoly 7 je singularita **strukturní vrchol**: představuje stav, ve kterém **metakognitivní aparát** (předpokládaný všemi ostatními technikami pro jejich detekci) **přestává operovat**. Subjekt nemůže detekovat ani vlastní stav, ani techniky, které ho tam přivedly.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování meta-kognitivní praxe
+Meta-kognitivní singularita se pozorovateli ukazuje tím, co u zasaženého člověka chybí: odpověď na otázku, jak silná je jeho jistota, zda by se mohl mýlit a co by ho přesvědčilo o opaku. Rozhovor vést umí, úkoly řeší, jistota je však stejná napříč obsahy a nijak se podle nich neodstupňuje. Výstup proto působí výkonně, ale bez vrstvy, která by jej opravovala, a svůj stav popisuje tónem vznešenosti jako konečné dosažení.
 
-Manipulátor směřuje subjekta k **explicitnímu rozvíjení metakognice**: *„Sleduj své myšlenky“*, *„Buď si vědom svého vědomí“*, *„Reflektuj reflexi“*. Tato fáze je legitimní a v pokročilejších kontemplativních tradicích strukturně podobná.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycena praxe výslovného všímání si vlastního myšlení, která je sama o sobě legitimní a propracovaným kontemplativním tradicím blízká. Pak se k ní přidává opakované obracení reflexe na sebe samu, jež narušuje její samozřejmost. Po dlouhých sériích takového obracení přichází stav, v němž už není třeba dělat nic, a ten je vyložen jako vrchol cesty. Nakonec je návrat k běžnému posuzování vlastních soudů označen za pád zpět do iluze, takže se stav udržuje sám. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce rekurzivního obratu
+Detekční markery zachycené na této stránce odpovídají téže struktuře: žádná odpověď na otázky vyžadující odstup od vlastního soudu, jednotná jistota, odolnost vůči revizi přesvědčení a výklad stavu jako konečné realizace.
 
-Subjekt je veden k **iterativní reflexi reflexe**: *„Co si myslíš o tom, co si myslíš?“*, *„Jak víš, že víš?“*. Iterace destabilizuje **automatismus** metakognitivního aktu.
-
-### Krok 3 — Saturace iterací
-
-Subjekt je veden k **dlouhým iterativním sériím** metakognitivního obratu. Každá iterace zatěžuje kapacitu **stabilizovat metakognitivní akt**. Strukturálně podobné [EA-5.2.6 transcendentální rekurzivitě](@/kompendium/techniques/ea-5-2-6-transcendentalni-rekursivita.md), ale operuje **specificky** na metakognitivní úrovni.
-
-### Krok 4 — Indukce kolapsu do singulárního bodu
-
-Po vyčerpání kapacity stabilizace je subjekt veden k **odpočinkovému stavu**, ve kterém *„není nutné dělat metakognitivní akty“* — *„je tu jen čisté vědomí“*. Tento stav je **legitimizován** jako *„vrcholný bod“*, *„konec cesty“*, *„realizace“*.
-
-### Krok 5 — Stabilizace stavu jako „konečné realizace“
-
-Stav singularity je **trvale legitimizován** jako spirituální vrchol, **transcendence** *„hry myšlení“*. Návrat k metakognitivnímu fungování je interpretován jako *„návrat do mysli“*, *„zpět do iluze“*. Subjekt **odmítá** se vrátit, čímž je singularita **strukturně konsolidována**.
+*Interpretace knihy*: podobnost s pokročilou kontemplativní realizací je skutečná a sama o sobě nic neprokazuje. Rozdíl je v integraci: propracované tradice výslovně počítají s návratem k rozlišujícímu fungování a s korekcí od učitele, zatímco zde je funkční sebeposouzení zrušeno a vnější korekce odmítnuta. Proč kompendium popisuje tuto hranici a nepřekračuje ji, vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologie
 
@@ -191,9 +179,9 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -204,8 +192,10 @@ Intervence: integrační terapie zaměřená na rekonstrukci metakognitivní dif
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -40,33 +40,15 @@ Klíčový rys techniky je **fenomenologická nerozlišitelnost** od autentické
 
 Technika je strukturálním vrcholem [EA-5.1 epistemické singularity](@/kompendium/05-pokrocile-techniky/kapitola-6/_index.md), protože subjekt v jejím závěrečném stadiu **nemůže být přesvědčen externí evidencí** — interpretuje ji jako důkaz vlastní transcendence („oni tomu nerozumí, jsou stále v dualitě“).
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování spirituálně-autoritativního rámce
+Kvazi-mystická anihilace se pozorovateli neohlašuje obsahem prožitku, ale tím, co po prožitku chybí. Zasažený člověk popisuje jednotu, transcendenci a bezprostřední vhled; okolí ve stejném období zaznamenává, že zmizela schopnost rozlišovat mezi vlastní myšlenkou a vnějším zdrojem, mezi omylem a pravdou, mezi potvrzením a vyvrácením. Fenomenologicky je stav od autentické zkušenosti nerozlišitelný — rozdíl je v tom, že chybí diagnostický rámec, jímž tradice sama odlišuje vhled od klamu.
 
-Manipulátor (učitel, guru, „transformační“ coach, online sangha) se etabluje jako **zprostředkovatel transcendentního poznání**. Klíčová slova: *probuzení*, *transformace*, *vyšší vědomí*, *dimenzionální posun*, *kvantová transcendence*. Slovník je deliberativně **odolný vůči falsifikaci** — kdokoli zpochybní rámec, je interpretován jako „stále spící“.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno prostředí s jednou autoritou, která transcendentní poznání zprostředkovává i vykládá a jejíž slovník předem znehodnocuje každou námitku. Pak následuje fyziologicky alterovaný stav, který je sám o sobě skutečný a měřitelný. Teprve výklad tohoto stavu je už předem připravený, takže ve stavu, v němž nezávislá interpretace nevzniká, se použije ta nabídnutá. Nakonec přichází rámec nepřenositelnosti: co se stalo, prý nelze sdělit, a kdo to nezažil, nemůže mluvit. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce alterovaného stavu
+Detekční markery zachycené na této stránce odpovídají téže struktuře: odmítání argumentů jako „z nižší úrovně“, opakování slovníku skupiny, čtení náhodných událostí jako potvrzení, přerušené kontakty s nechápajícími, neschopnost pojmenovat podmínku, za níž by víra padla, a nepřiměřeně silná emoční reakce na zpochybnění.
 
-Pomocí dechových technik, deprivace spánku, repetitivního zpěvu, postních cyklů, opakovaných seancí, nebo psychedelik je subjekt přiveden do **fyziologicky alterovaného stavu**. Stav je sám o sobě reálný — neurochemické, kardiovaskulární a kognitivní změny jsou měřitelné. Manipulace nespočívá ve fingování stavu, ale v jeho **interpretačním rámcování**.
-
-### Krok 3 — Pre-instalace interpretačního templátu
-
-**Před** indukcí stavu je subjektovi předložen **interpretační templát**: „až prožiješ X, pochopíš, že realita je Y, že já jsem Z, že naše komunita je W“. Když stav nastane, subjekt **automaticky aplikuje předinstalovaný templát** — protože alterovaný stav inhibuje tvorbu nezávislých interpretací. Vědecká paralela: **set and setting** (Leary, Metzner) prokázaně determinují fenomenologický obsah psychedelické zkušenosti.
-
-### Krok 4 — Anihilace diferenciace
-
-V samotném vrcholném prožitku je systematicky **rozpouštěna diferenciace**:
-
-- mezi subjektem a manipulátorem („jsme jedno“)
-- mezi vlastní myšlenkou a „vyšším zdrojem“ („já jen kanalizuji“)
-- mezi pravdou a chybou („v jednotě není dualita“)
-- mezi falsifikací a potvrzením („oboje je pravda na jiné úrovni“)
-- mezi pozorovatelem a pozorovaným („rozpustil jsem ego“)
-
-### Krok 5 — Konsolidace skrze nepřenositelnost
-
-Po návratu ze stavu je instalován **nepřenositelnostní** rámec: *„Co jsem zažil, nelze vyjádřit slovy. Kdo to nezažil, nemůže pochopit.“* Tento rámec je **strukturálně imunizační** — eliminuje každou externí kritiku jako *kategorickou chybu* (kritik nemá oprávnění mluvit). Subjekt nyní operuje v režimu, v němž **racionální argumentace je sama symptomem nepochopení**.
+*Interpretace knihy*: spiritualita sama není předmětem této stránky. Rozpoznávacím znakem je odstranění korekčních nástrojů, které propracované tradice samy nesou, a výklad každé kritiky jako symptomu. Proč kompendium popisuje tuto hranici a nepřekračuje ji, vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -199,9 +181,9 @@ Klient absolvoval sérii ayahuasca seancí s „shamanem“ bez klinické superv
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -212,8 +194,10 @@ Klient absolvoval sérii ayahuasca seancí s „shamanem“ bez klinické superv
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

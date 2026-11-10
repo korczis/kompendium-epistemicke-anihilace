@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Tělesná [disociace](@/glossary/disociace.md)** je technika **rozpojující somatický self-experience** od kognitivně-narativního self. Manipulátor systematicky vede subjekta k pochybování o validite vlastních tělesných signálů, dokud tělo přestane fungovat jako spolehlivý zdroj self-informace.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že fyziologické signály jsou soustavně přecházeny — jídlo, spánek, návštěva lékaře — a že člověk o vlastním těle mluví jako o cizím předmětu. Tělesná vrstva následků dlouhodobého vztahového tlaku je v klinické literatuře dobře popsána (van der Kolk, 2014).
 
-### Krok 1 — Devalvace tělesných signálů
+Retrospektivně se sled znaků jeví takto: nejprve jsou tělesné signály znevažovány, pak se objeví cizí výklad, jak jim rozumět, a nakonec je k porozumění vlastnímu tělu potřeba někdo druhý. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok cizího výkladu na přednost před vlastním vjemem odpovídá popisu doktríny nadřazené osobě (Lifton, 1961).
 
-Hlad, únava, bolest, sexuální touha jsou označovány za 'iluze ega', 'slabost', 'nezralé reakce'.
+Zvenčí je doložitelné zejména to, že přibývají somatizované obtíže, zatímco afektivně-tělesný rozsah se zužuje, a že člověk při popisu tělesných stavů cituje cizí výklad. Kontrola nad tím, co smí být považováno za vlastní pocit, patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Implantace alternativní somatické gramatiky
-
-Manipulátor poskytuje 'správný' výklad tělesných stavů — typicky takový, který slouží manipulátorovým zájmům.
-
-### Krok 3 — Konsolidace somatické závislosti
-
-Subjekt potřebuje manipulátora k 'porozumění' vlastnímu tělu; samostatná somatická interpretace se vytrácí.
+*Interpretace knihy*: snížená interoceptivní citlivost má mnoho příčin a sama o sobě není znakem ničeho; její posouzení patří klinice. Odlišuje až zdroj náhradního výkladu a jeho prospěch. Tělesná stabilizace předchází práci s vyprávěním (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **tělesná disociace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.4.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- van der Kolk, B. A. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

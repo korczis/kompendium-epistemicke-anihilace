@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.15 Transcendentální imploze"
-description = "Detailní per-technique článek: technika transcendentální imploze — vnitřní kolaps transcendentálního aparátu do bodu nulové diferenciace. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika transcendentální imploze — vnitřní kolaps transcendentálního aparátu do bodu nulové diferenciace. Struktura vzorce, fenomenologie, detekční markery."
 weight = 5215
 insert_anchor_links = "right"
 
@@ -40,27 +40,15 @@ V Husserlově slovníku: jde o kolaps transcendentální subjektivity v **monadi
 
 Tento stav bývá pseudo-mysticky interpretován jako **„návrat k Jednomu“** nebo **„zjednání s prvotní skutečností“**, ale strukturně jde o totální paralýzu transcendentálního fungování. Komunikace, jednání, percepce přetrvávají reziduálně, ale bez koherentní transcendentální podpory.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Akumulace předchozích destrukcí
+Pozorovatel nachází tento vzorec zpravidla u lidí, kteří už delší dobu prošli řadou dílčích otřesů v jednom a témže prostředí, a teprve na jejich pozadí dojde ke zlomu. Prostředí bývá uzavřené, s vlastním výkladem všeho, co se v něm děje, a s nárokem rozhodovat, co člen smí pokládat za skutečné — konfigurace, kterou jako kritéria totalistického prostředí popsal (Lifton, 1961) a kterou do měřitelných dimenzí převádí (Hassan, 2018).
 
-Imploze typicky **navazuje na předchozí dílčí destrukce** ([EA-5.2.11–14](@/kompendium/05-ultramari-techniky/kapitola-7.md)). Bez akumulovaných oslabení nelze imploze dosáhnout u zdravého subjektu.
+Postižení popisují stav, v němž přestávají platit rozdíly: mezi sebou a okolím, mezi dříve a nyní, mezi jednou věcí a druhou. Krátká euforie bývá vystřídána úzkostí; řeč pokračuje, ale neodkazuje spolehlivě; jednoduché úkony selhávají. Mluví se o sobě neosobně nebo v množném čísle. Ztrátu prožitku sebe jako zdroje vlastních aktů při současné hyperreflexi popisují (Sass & Parnas, 2003).
 
-### Krok 2 — Pseudo-mystická konvergence
+Zpětně se znaky skládají takto: dlouhé období dílčích otřesů, pak výklad, podle něhož všechny rozdíly směřují k jednotě, pak akutní zlom s výpadkem vnímání, jednání i vůle a nakonec usazení stavu jako nové trvalé identity. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Že intenzivní praxe může vyústit v dlouhodobě nepříznivé stavy, a nikoli v přechodnou zkušenost, doložili (Lindahl et al., 2017).
 
-Subjekt je veden k přesvědčení, že **všechny dílčí struktury** (kategorie, formy, schémata) konvergují do **jednoho bodu** — „Jednoho“, „Brahmanu“, „Univerzální vědomí“. Klíčová formulace: *„Diferenciace je iluze; pravda je nediferencované.“*
-
-### Krok 3 — Akcelerace destrukce skrze „konvergenční praxi“
-
-Manipulátor zavádí intenzivní praxi (24+ hodin meditace, deprivace, přerušení rutiny), která akceleruje simultánní oslabení všech transcendentálních struktur.
-
-### Krok 4 — Bod imploze
-
-V určitém momentu subjekt prožívá **akutní strukturní kolaps**: percepční, kognitivní a volní funkce simultánně selhávají. Stav je interpretován jako **„prolomení do absolutna“**.
-
-### Krok 5 — Konsolidace pseudo-osvícenecké narativizace
-
-Stav nediferencovatelnosti je etablován jako **trvalá identita** („po probuzení“). Identitární investice činí návrat k diferencovanému fungování psychologicky nemožným bez externí intervence.
+*Interpretace knihy*: diferenciálně rozhoduje návrat. Náboženská a kontemplativní literatura popisuje zkušenosti jednoty, po nichž se člověk vrací k rozlišujícímu fungování (James, 1902); zde se nevrací a nevratnost je součástí nabízeného výkladu. Na riziko, že duchovní rámec přikryje poškození, upozorňuje (Deikman, 1990).
 
 ## Fenomenologické znaky
 
@@ -78,7 +66,7 @@ Stav nediferencovatelnosti je etablován jako **trvalá identita** („po probuz
 | Subjekt **systematicky popírá všechny diferenciace** současně | Imploze v plném rozsahu |
 | **Pseudo-mystický slovník** překrývající dysfunkci | Konsolidace narativem |
 | **Akutní praktická dysfunkce** v základních úkolech | Strukturální dopad |
-| **Identitární rozplynutí** — subjekt nemluví v první osobě | Krok 5 absorpce |
+| **Identitární rozplynutí** — subjekt nemluví v první osobě | Fáze — absorpce |
 | **Kombinovaný výskyt** předchozích destrukcí ([EA-5.2.11–14](@/kompendium/05-ultramari-techniky/kapitola-7.md)) | Akumulační příprava |
 
 ## Diferenciální detekce
@@ -137,21 +125,32 @@ Klíčový diferenciální rys: **autentický mystik se vrací**; subjekt po imp
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) diferenciační axiom** — epistemická provenience vyžaduje strukturní diferenciaci.
 - **OSINT entitní distinkce** — explicitní práce s rozlišnými entitami obnovuje diferencovanou kompetenci.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Deikman, A. J. (1990). *The Wrong Way Home*. Boston: Beacon Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

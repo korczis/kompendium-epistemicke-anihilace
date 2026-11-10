@@ -36,21 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Cirkadianní disrupce** narušuje subjektovu **cirkadianní biologickou strukturu** skrze řízenou manipulaci se spánkem, světelnou expozicí, jídlem. Subjekt operuje s narušenou cirkadianní stabilitou — což ho činí vysoce manipulovatelným na úrovních předcházejících kognitivnímu zpracování.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí strukturální nepravidelnost spánku a bdění, chronickou únavu střídanou epizodami přebuzení a zhoršení nálady, soustředění a paměti; v okolí člověka je to vykládáno jako fáze pokroku, nikoli jako zdravotní nález (Lindahl et al., 2017).
 
-### Krok 1 — Cílené narušení spánkového vzorce
+Sám popisuje, že bez rituálního rozvržení dne ztrácí orientaci, a o vlastní únavě mluví převzatými slovy — jako o překážce, kterou má překonat. Singer (1995) popisuje tuto podobu závislosti: rozvrh drží skupina a člověku se ztrácí měřítko vlastního stavu.
 
-Sleep deprivation, irregular timing.
+Klinicky je podstatné, že jde o stav navozený prostředím, ne o primární poruchu spánku. Rozhodující je souběh se doktrinálním výkladem únavy a s klesající schopností ten výklad zpochybnit; rezistence vůči nátlaku klesá souběžně s prohlubující se únavou. Lifton (1961) označuje toto nadřazení nauky osobní zkušenosti za znak totalistického prostředí.
 
-### Krok 2 — Manipulace s světelnou expozicí
+Od dobrovolné změny režimu se vzorec liší tím, že člověk nemá přístup k vlastnímu stavu jako k důvodu něco změnit: únava je mu argumentem pro pokračování, ne proti němu. Herman (1992) popisuje tuto ztrátu vlastního měřítka jako jádro poškození v asymetrickém vztahu.
 
-Custom lighting, ritualizovaná tmavá období.
-
-### Krok 3 — Konsolidace disrupce
-
-Subjektova cirkadianní stabilita je narušena; psychická resistance klesá.
+*Interpretace knihy*: nálezem není nespavost, ale to, že si ji člověk vykládá cizími slovy.
 
 ## Fenomenologické znaky
 
@@ -127,17 +123,17 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **cirkadiánní di
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.18 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.18 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **cirkadiánní disrupce** v post-hoc forensní analýze:
-
-- **Primární marker**: Salivární kortizol: dlaždicový profil (cortisol awakening response <50% normy) — narušení HPA osy.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -183,15 +179,15 @@ Pro **objektivní detekci** aplikace techniky **cirkadiánní disrupce** v post-
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

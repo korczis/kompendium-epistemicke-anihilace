@@ -40,34 +40,15 @@ Subjekt si zachovává schopnost tyto kategorie pojmenovat — **přestává je 
 
 Technika se odlišuje od běžné konfuze (kdy si člověk *není jistý*, ale *ví, že si není jistý*) tím, že **ničí samotnou metakognitivní funkci**, která modální status sleduje. Subjekt přestává mít k dispozici interní marker „toto je realita“ vs. „toto je představa“ — všechny prožitky přicházejí s rovnocennou ontologickou váhou.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování diskurzu „vše je interpretace“
+Modální dezorientace se pozorovateli ohlašuje jako ztráta rozdílu mezi tím, co se stalo, a tím, co bylo jen uvažováno. Subjekt uvádí tutéž událost jednou jako fakt, jednou jako úvahu, a na otázku „stalo se to, ano nebo ne?“ odpovídá kvalifikacemi. Chybějícím prvkem je sledování zdroje obsahu, ne obsah sám (Johnson, Hashtroudi, & Lindsay, 1993).
 
-Manipulátor systematicky snižuje epistemickou váhu rozlišení mezi *fakt* a *vyprávění*: „Realita je vždy příběh, žádná čistá fakta neexistují“. Tento postoj je v izolaci defenzibilní filosofická pozice — operativně však slouží jako vstupní brána pro **rovnoměrné nasazení modální váhy** na zcela odlišné typy obsahů.
+V retrospektivě se znaky objevují v tomto sledu: setření rozdílu mezi představou a zážitkem u jedné oblasti, jeho rozšíření, odmítání realitních testů jako redukcionistických a nakonec rozhodování podle scénářů, které se neodehrály. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Detailní vzpomínka na neprožitou událost přitom vzniká opakovanou imaginací a bývá prožívána s plnou jistotou (Loftus & Pickrell, 1995).
 
-### Krok 2 — Modální zaměňování v běžné komunikaci
+Diferenciální znak uvedený na této stránce odlišuje dezorientaci od psychotické konfuze: psychóza přidává pozitivní symptomy, kdežto zde chybí marker, podle kterého by se obsahy třídily. Hraniční případ představují kontemplativní praxe, kde je modální flexibilita přechodná, strukturovaná a kotvená učitelem (Herman, 1992).
 
-V běžných výměnách se systematicky zaměňuje:
-
-- „Mohlo by se stát, že…“ prezentováno jako de facto událost
-- Skutečné události reformulovány jako „jedna z možných verzí“
-- Sny a fantazie mluvčího aplikovány na subjekta jako „co se stalo“
-- Subjektovy faktické vzpomínky jsou klasifikovány jako „dojem“ nebo „verze“
-
-Klíčová je **konzistentnost asymetrie** — modality se posouvají ne náhodně, ale vždy ve směru posilujícím manipulátorovu pozici.
-
-### Krok 3 — Vsazování imaginace do reality
-
-Subjekt je opakovaně zván k **detailní imaginaci** scénářů (často s pomocí návodných otázek „jak by ses cítil, kdybys…“) s následnou diskuzí imaginace, **jako by se odehrála**. Postupně začínají emocionální stopy imaginovaných scénářů konkurovat stopám reálných událostí o stejné neurální zdroje.
-
-### Krok 4 — Eroze realitního testování
-
-Klasické markery realitního testování — *kontinuita s ostatními paměťovými stopami*, *konzistence smyslových modalit*, *intersubjektivní validace* — jsou systematicky podkopávány: „tvoje paměť je nespolehlivá“, „ostatní si to pamatují jinak“, „fyzické důkazy by se daly interpretovat jinak“. Subjekt postupně přestává mít vnější ani vnitřní pevný bod, k němuž by realitu mohl kotvit.
-
-### Krok 5 — Konsolidace skrze metafyzickou abdikaci
-
-Subjekt se stahuje do pozice „**nemůžu vědět, co je skutečné, a možná to ani nezáleží**“. Tato pozice je manipulátorem prezentována jako *zralost*, *filosofická hloubka*, *překonání naivity*. Operativně je to **kapitulace metakognitivní funkce** — subjekt přestal mít investovaný zájem na rozlišení modálního statusu vlastních prožitků.
+*Interpretace knihy*: forenzní význam vzorce je v tom, že vysvětluje pseudo-svědectví bez předpokladu lži. Metodologické meze tohoto tvrzení popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologie
 
@@ -187,6 +168,13 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
 - **NABLA Infinity provenance tracking** — každé tvrzení označeno typem zdroje (přímé pozorování / nepřímé / spekulace), čímž **algoritmicky** udržuje modální distinkci.
 - **OSINT framework's „evidence vs. hypothesis“ gate** — výstupy investigací nesmí mísit ověřená fakta s hypotézami bez explicitního označení.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Johnson, M. K., Hashtroudi, S., & Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*, 114(1), 3–28.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Loftus, E. F., & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md)
@@ -209,9 +197,9 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -222,8 +210,10 @@ Klientka po pětiletém vztahu hlásí: „Nevím, co se vlastně stalo a co mi 
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -42,27 +42,15 @@ Apperceptivní rozklad tuto syntetickou jednotu destruuje. Subjekt prožívá sv
 
 Tento stav bývá pseudo-mysticky interpretován jako *anatta* (no-self) nebo „[rozpuštění ega](@/glossary/ego-death.md)“, ale strukturně jde o destrukci transcendentální subjektivity, nikoli o autentický buddhistický vhled.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-buddhistická indoktrinace
+Pozorovatel vidí člověka, který o sobě mluví neosobně a tuto řeč vydává za dosažený vhled: myšlenky prý nejsou ničí, vzpomínky patří někomu jinému, jednání nemá iniciátora. Slovník bývá převzat z buddhistického prostředí, ale používá se mimo tradici, která jej drží — ve skupině, kde zároveň slouží jako znak příslušnosti a jako obrana proti námitce. Toto zatížení jazyka popsal (Lifton, 1961).
 
-Subjekt je veden k radikální verzi *anatta* — „neexistuje žádné já“. Buddhistický nuancovaný výklad (anatta jako absence stálé substanciální identity) je redukován na **strukturní popření jednoty subjektivity**.
+Postižení popisují, že jejich zkušenosti pokračují, ale nedrží pohromadě jako zkušenosti jednoho člověka; vzpomínky jsou dostupné, a přesto nepůsobí jako vlastní; záměr nevzniká, protože chybí ten, kdo by jej měl. Oslabení prožitku sebe jako zdroje vlastních aktů při současné hyperreflexi je popsáno jako samostatná osa psychopatologie (Sass & Parnas, 2003) a je systematicky mapováno nástrojem EASE (Parnas, 2005). Klinicky se obraz překrývá s depersonalizací (Simeon & Abugel, 2006).
 
-### Krok 2 — Saturace fragmentačními praxemi
+Zpětně se znaky skládají takto: nejprve nauka popírající jednotu subjektu, pak dlouhá období praxe bez supervize, pak zpochybnění vlastní životní kontinuity a nakonec akutní zlom, po němž se stav vykládá jako realizace. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Že intenzivní praxe vede u části lidí k přetrvávajícímu rozpadu prožitku sebe, dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
-Intenzivní meditace zaměřená na „pozorování myšlenek bez pozorovatele“ (perverze legitimní praxe) systematicky oslabuje syntetickou jednotu apperzepce.
-
-### Krok 3 — Destrukce mnemonické integrace
-
-Pamět je systematicky destabilizována — subjekt je veden k pochybnostem o autobiografické kontinuitě, k disociaci od minulých „já“.
-
-### Krok 4 — Bod apperceptivního rozkladu
-
-V určitém momentu subjekt prožívá **akutní rozklad** jednoty sebevědomí: myšlenky se zdají „ničí“, vzpomínky „neosobní“, percepce „bez subjektu“.
-
-### Krok 5 — Konsolidace pseudo-osvícenecky
-
-Stav je etablován jako *anatta*-realizace. Identitární investice činí návrat k unifikované subjektivitě obtížným.
+*Interpretace knihy*: diferenciálně nerozhoduje nauka, nýbrž funkce. Jednota sebevědomí je u Kanta podmínkou toho, aby představy byly vůbec mé (Kant, 1787); její ztráta tedy není obsahem vhledu, ale ztrátou pole, v němž by se vhled dal mít.
 
 ## Fenomenologické znaky
 
@@ -77,10 +65,10 @@ Stav je etablován jako *anatta*-realizace. Identitární investice činí návr
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt mluví o sobě v **třetí osobě** s pseudo-mystickou intonací | Krok 5 konsolidace |
-| **Mnemonická disociace** racionalizovaná jako "anatta" | Krok 3 destrukce |
+| Subjekt mluví o sobě v **třetí osobě** s pseudo-mystickou intonací | Fáze — konsolidace |
+| **Mnemonická disociace** racionalizovaná jako "anatta" | Fáze — destrukce |
 | **Akutní volní paralýza** | Strukturální dopad |
-| **Pseudo-buddhistický slovník** mimo legitimní dharma kontext | Krok 1 indoktrinace |
+| **Pseudo-buddhistický slovník** mimo legitimní dharma kontext | Fáze — indoktrinace |
 | **Subjektové bezdomovství** v subjektivních zprávách | Pokročilý rozklad |
 
 ## Diferenciální detekce
@@ -139,21 +127,32 @@ Klíčový diferenciál: **autentický buddhista funguje**; subjekt po appercept
 - **[Decision Engine](@/glossary/decision-engine.md) accountability** — strukturní vlastnictví rozhodnutí obnovuje funkční subjektivitu.
 - **OSINT investigator continuity** — kontinuální vlastnictví case file kompenzuje rozklad.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -40,33 +40,15 @@ Subjekt je doveden ke stavu, v němž si **uvědomuje** logickou strukturu argum
 
 Tato technika představuje hraniční případ [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) a je strukturálně příbuzná [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md) — paralýza vzniká, když metakognitivní reflexe inferenčního pravidla převáží nad samotným pravidlem.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v šesti krocích:
+Inferenční paralýza se pozorovateli neohlašuje jako výpadek logiky, ale jako rozpor mezi zachovanou logickou kompetencí a ztracenou schopností úsudek uzavřít. Zasažený člověk premisy zopakuje přesně, závěr pojmenuje a přesto jej nevysloví; mezi obojím popisuje prožívanou propast, kterou nedokáže přejít. Okolí přitom zaznamenává, že i triviální krok — z data na den v týdnu, ze souboru nálezů na klinický úsudek — zabere minuty rozvažování a končí odložením rozhodnutí.
 
-### Krok 1 — Etablování metakognitivního rámce
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejdřív bývá zachyceno prostředí, v němž otázky druhého řádu o inferenci — čím je vlastně pravidlo ospravedlněno — zůstávají trvale otevřené a nikdy se nevracejí k běžnému usuzování. Pak se v řeči zasaženého člověka objevují klasické skeptické figury, Humeův problém indukce i Carrollův regres pravidel, užité už ne jako lokální námitka, ale jako důvod nevyvozovat vůbec. Nakonec přichází performativní zhroucení: člověk vidí premisy i závěr a nedokáže závěr potvrdit. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor zavádí jazyk druhého řádu o inferenci: „Co vlastně dělá inference platnou?“, „Jaký je důvod věřit modu ponens?“, „Není každé inferenční pravidlo jen konvencí?“. Tento jazyk je prezentován jako **legitimní filozofické bádání** — a v omezených dávkách jím skutečně je. Kritické je **systematické setrvávání** na metakognitivní úrovni bez návratu k operacionalitě.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: opakovaná otázka po platnosti pravidla u triviálních kroků, porozumění argumentu spojené s odmítnutím závěru bez jakékoli protievidence, odkládání všeho, co vyžaduje induktivní zobecnění, a nakonec výklad vlastní nerozhodnosti jako epistemické ctnosti spolu s hodnocením běžného usuzování jako naivity.
 
-### Krok 2 — Problém indukce a Hume jako trojský kůň
-
-Zavádí se klasický **Humeův problém indukce**: induktivní inference nelze ospravedlnit ne-cirkulárně, protože jakékoli ospravedlnění samo používá induktivní strukturu. Tento argument, použitý jako **lokální skeptický nástroj**, je legitimní. Jako **globální paralyzér** se stává destruktivní — subjekt přestává důvěřovat induktivním krokům **v praxi**.
-
-### Krok 3 — Lewis Carroll a regres pravidel
-
-Zavádí se argument z Carrollova *„What the Tortoise Said to Achilles“*: aplikace pravidla vyžaduje další pravidlo o aplikaci pravidla, ad infinitum. Subjekt je dovedený k poznání, že **žádný konečný systém pravidel** sám sebe nemůže ospravedlnit. To je formálně korektní, ale operacionálně paralyzující.
-
-### Krok 4 — Suspenze deduktivní jistoty
-
-Manipulátor systematicky předkládá **paradoxy deduktivní logiky** — Sorites, Liar, paradox materiální implikace, Lewisovo paradoxon — bez doprovodu řešení nebo institucionálních konvencí, které tyto paradoxy „domestikují“ v praxi. Subjekt si začíná myslet: *„Pokud sama dedukce produkuje paradoxy, jak jí mohu věřit kdykoli?“*
-
-### Krok 5 — Performativní zhroucení
-
-Subjekt se ocitá v situaci, kdy musí učinit závěr — a **nemůže**. Akt inference je prožíván jako **arogance bez ospravedlnění**. Subjekt vidí premisy A → B a A; vidí závěr B; a přesto **nedokáže říct B s přesvědčením**, protože každý hlas v hlavě říká „ale jak víš, že modus ponens platí *zde*?“.
-
-### Krok 6 — Konsolidace přes „epistemickou pokoru“
-
-Paralýza se stabilizuje pod jménem **epistemické pokory** nebo **filozofické důslednosti**. Subjekt si racionalizuje neschopnost vyvozovat jako ctnost. Manipulátor toto narativní rámování posiluje: „Jen ti, kdo opravdu chápou hloubku problému, nemohou snadno usuzovat.“
+*Interpretace knihy*: rozhodující pro rozpoznání není přítomnost skeptického argumentu, ale jeho dosah a důsledek. Legitimní skepse je lokální a nechává operační schopnost nedotčenu; zde je globální a operační schopnost ruší. Takové čtení drží kompendium záměrně na úrovni struktury — důvody uvádějí [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md) a [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -212,9 +194,9 @@ Inferenční paralýza je strukturálním motivem pro několik defenzivních mec
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -225,8 +207,10 @@ Inferenční paralýza je strukturálním motivem pro několik defenzivních mec
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

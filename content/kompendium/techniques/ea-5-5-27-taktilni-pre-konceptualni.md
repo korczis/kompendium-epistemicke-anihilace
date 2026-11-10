@@ -36,15 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Taktilní pre-konceptuální** využívá **řízenou taktilní stimulaci a deprivaci** (intense touch, sensory deprivation, ritualizovaný kontakt) k vyvolání pre-konceptuálních stavů. Subjekt prožívá taktilní zkušenosti jako 'mystické'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že zážitky jsou vázány na určitý druh doteku a na určité lidi, že člověk tento kontakt vyhledává a že se u něj objevuje přecitlivělost nebo naopak odpor k běžnému dotyku (Lindahl et al., 2017).
 
-### Krok 1 — Cílená taktilní manipulace
+Sám o těchto zkušenostech mluví slovy skupiny a jinak je popsat neumí. Lifton (1961) označuje takové převzetí jazyka za znak prostředí, které si vyhrazuje výklad zkušenosti; chybějící vlastní slovník je přitom to, co bývá na stránce zachytitelné dřív než cokoli jiného.
 
-### Krok 2 — Doktrinální výklad
+Klinicky je podstatné, že dotek v nerovném vztahu je současně otázkou hranic a souhlasu, ne jen fenomenologickým nálezem. Herman (1992) popisuje, jak se v asymetrickém vztahu ztrácí měřítko toho, co je přijatelné. Löken et al. (2009) ukazují, že afektivní dotek má vlastní dráhu mimo vědomé rozlišování, takže jeho účinek předchází úvaze o něm.
 
-### Krok 3 — Konsolidace závislosti na rituálním taktilním kontextu
+Od běžného tělesného kontaktu se vzorec liší asymetrií: pravidla kontaktu drží druhá strana a člověk pro ně nemá vlastní slovník. Singer (1995) popisuje tuto asymetrii jako uspořádání, v němž se souhlas stává formalitou.
+
+*Interpretace knihy*: nálezem je ztráta hranice, ne dotek sám.
 
 ## Fenomenologické znaky
 
@@ -121,17 +123,18 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **taktilní pre-ko
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.27 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.27 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **taktilní pre-konceptuální** v post-hoc forensní analýze:
-
-- **Primární marker**: Quantitative sensory testing: snížený CT-afferent treshold + zvýšená hyperalgesie — narušení affective-discriminative balance.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Löken, L. S., Wessberg, J., Morrison, I., McGlone, F., & Olausson, H. (2009). Coding of pleasant touch by unmyelinated afferents in humans. *Nature Neuroscience*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -177,15 +180,15 @@ Pro **objektivní detekci** aplikace techniky **taktilní pre-konceptuální** v
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -25,7 +25,7 @@ Všechny technique-články dodržují stejnou strukturu:
 |-------|-------|
 | **Identifikace** | EA kód, kategorie, přístupová úroveň |
 | **Definice** | Stručné vymezení techniky |
-| **Operační modus** | Mechanismus, jak technika funguje |
+| **Struktura vzorce** | Mechanismus, jak technika funguje |
 | **Fenomenologické znaky** | Co prožívá subjekt techniky |
 | **Detekční markery** | Co pozoruje pozorovatel zvenčí |
 | **Rizikové kontexty** | Kde se technika typicky vyskytuje |
@@ -331,7 +331,7 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 
 ## ⚡ Kritický krok
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+**Než si techniku nastuduješ** (i pro účely diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální

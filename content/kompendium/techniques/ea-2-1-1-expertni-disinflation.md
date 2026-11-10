@@ -38,34 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 Kritický rys: cílem není vyvrátit konkrétní tvrzení, ale **rozpustit pozadí**, na kterém je expertní výrok srozumitelný jako autoritativní. Expert pak působí jako „samozvanec“, „kontroverzní postava“ nebo „okrajový hlas“ — bez nutnosti adresovat samotnou substanci jeho práce.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Mapování legitimizačního pozadí
+Expertní disinflace je rozpoznatelná podle toho, čeho se kritika netýká: obsah odborné práce zůstává stranou, zatímco se přepisuje pozadí, z něhož byla srozumitelná jako odborná. Zasažený člověk pak odpovídá na otázky o svých školitelích, časopisech a financování, nikoli o svých zjištěních. Oreskes a Conway (2010) dokládají na archivních materiálech, že tento přesun z tvrzení na osobu byl v kampaních proti nepohodlným zjištěním opakovaně volenou cestou.
 
-Útočník identifikuje **strukturální zdroje** expertní legitimity oběti: doktorská afilace, mentorská linie, peer-reviewed publikace, institucionální pozice, profesní ocenění, citační síť.
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve se v textech o cílové osobě objeví soupis jejího zázemí — škola, linie školitelů, publikační místa, zdroje financování. Pak je každá položka převyprávěna v redukujícím světle, aniž by bylo nutné cokoli vymyslet: stačí jednostranná akcentace. Dále se jednotlivosti slijí do příběhu, v jehož rámci je pak vykládána každá nová informace. Nakonec rozhoduje opakování: příběh se stane výchozím kontextem a i jeho odmítnutí jej potvrzuje jako legitimní téma. Proctor a Schiebinger (2008) popisují tento výsledek jako vyráběnou nevědomost — nikoli chybějící poznání, nýbrž poznání uvedené v nedůvěru. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Selektivní rekontextualizace
+Detekční markery zachycené níže odpovídají téže struktuře: žádné z tvrzení zasaženého odborníka není rozebráno věcně, kritika se při odpovědi přesouvá na jinou část zázemí a kolegové se stahují z obavy z přenosu pověsti. Nichols (2017) připomíná, že nedůvěra k odbornosti se v takovém prostředí neváže na konkrétní omyl, a je proto neopravitelná věcnou odpovědí.
 
-Každý prvek pozadí je převyprávěn ve **redukující perspektivě**:
-
-- „PhD z X“ → „X má kontroverzní pověst v Y“
-- „Mentor byl Z“ → „Z byl spojen s W“
-- „Publikoval v J“ → „J má nízký impact factor / problematickou recenzi“
-- „Pracoval na K“ → „K bylo financováno L“
-
-Žádná z rekontextualizací není přímou lží — je to **selektivní akcentace** jedné strany komplexní reality.
-
-### Krok 3 — Agregace do narativu
-
-Jednotlivé rekontextualizace jsou agregovány do **konzistentního příběhu**: „X není respektovaný expert, ale produkt problematické sítě“. Narativ je strukturovaný tak, aby každá nová informace o expertovi byla **interpretována** v jeho rámci.
-
-### Krok 4 — Distribuční kampaň
-
-Narativ je šířen prostřednictvím **více kanálů současně** (sociální média, dopisy redaktorům, tweety s výňatky, blogové posty), čímž vzniká dojem **organického konsenzu**.
-
-### Krok 5 — Fixace prostřednictvím opakování
-
-Opakování fixuje narativ jako **default** v komunikaci o expertovi. Každý nový text musí buď narativ přijmout, nebo se vůči němu **explicitně vymezit** — což samo o sobě validuje narativ jako legitimní téma debaty.
+*Interpretace knihy*: zkoumat zázemí odborníka je legitimní a u střetu zájmů nutné. Rozlišujícím znakem je, zda prověřování míří k posouzení tvrzení, nebo je nahrazuje — a zda by stejná měřítka obstála, kdyby byla použita na kohokoli jiného v témž oboru (Nichols, 2017).
 
 ## Fenomenologické znaky
 
@@ -139,6 +120,12 @@ Co prožívá oběť expertní disinflace:
 - **NABLA Infinity provenance** — citační síť expertů je dohledatelná, což ztěžuje **selektivní rekontextualizaci**.
 - **OSINT framework** — multi-source default detekuje koordinovanou kampaň disinflace prostřednictvím vzorové synchronizace publikací.
 
+## Literatura
+
+- Nichols, T. (2017). *The Death of Expertise: The Campaign Against Established Knowledge and Why It Matters*. Oxford University Press.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
+- Proctor, R. N., & Schiebinger, L. (Eds.) (2008). *Agnotology: The Making and Unmaking of Ignorance*. Stanford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 2 — Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)
@@ -156,21 +143,23 @@ Co prožívá oběť expertní disinflace:
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

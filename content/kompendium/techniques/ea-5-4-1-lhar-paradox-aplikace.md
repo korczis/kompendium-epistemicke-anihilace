@@ -40,33 +40,15 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Pozorovatel nezaznamená argument, nýbrž zádrhel: při formulaci jednoduchého hodnotícího soudu nastává stáze a v řeči přibývají obraty typu „to by zase bylo paradoxní“. Člověk popisuje stálé napětí, jehož zdrojem není konkrétní obava, nýbrž forma vlastního uvažování. Komunikace, v níž je každá odpověď předem znehodnocena, je popsána jako [dvojná vazba](@/glossary/double-bind.md) (Bateson et al., 1956).
 
-### Krok 1 — Etablování paradoxního pole
+V retrospektivě se v anamnéze dá rozlišit sled, v němž znaky vystupují: nejprve prostředí, kde je legitimní zkoumat hraniční otázky o pravdě a sebereferenci, pak posun, v němž se paradox z technického problému stává popisem vlastní mysli, a nakonec stav, kdy je hodnocení možné jen s cizí pomocí. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Paradoxní sdělení se v komunikaci chovají jinak než logické úlohy právě tím, že je nelze zevnitř odmítnout (Watzlawick et al., 1967).
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zvenčí doložitelnými markery jsou obracení se na jednu osobu s otázkami, které člověk dříve řešil sám, přibývání formulací bez jasné pravdivostní hodnoty a zúžení vlastní produkce na poznámky o nemožnosti cokoli tvrdit. Rozlišení objektového jazyka a metajazyka, které paradox v logice odstraňuje, přitom zůstává nedosažitelné (Tarski, 1944).
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor přesměruje subjektovo sebehodnocení na rekurzivně nedokazatelnou výpověď; každé subjektovo tvrzení je následně dotázáno otázkou „a víš, že to není zase jen ta nepravdivá věta o sobě?“. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt prožívá rostoucí neschopnost přiřadit pravdivostní hodnotu vlastním introspektivním výrokům — každé „ano“ se okamžitě rozpadá v „ano, že lžu, že říkám ano“.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: práce s paradoxy je běžnou součástí filozofie i výuky a sama o sobě není znakem ničeho; odlišuje až to, zda zůstává zachován odstup mezi zkoumaným paradoxem a tím, kdo jej zkoumá. Trvalé napětí bez možnosti úniku má klinickou váhu a jeho posouzení začíná bezpečím (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -153,6 +135,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science*, 1(4).
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Tarski, A. (1944). The semantic conception of truth and the foundations of semantics. *Philosophy and Phenomenological Research*, 4(3).
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. W. W. Norton.
 
 ## Související
 

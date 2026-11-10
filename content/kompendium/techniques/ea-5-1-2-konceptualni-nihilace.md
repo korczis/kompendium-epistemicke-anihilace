@@ -42,48 +42,15 @@ Strukturálně připomíná konceptuální nihilace **filozofickou skepsi**, ale
 
 Technika je strukturálním předkladem pro [EA-5.1.3 reflexivní paradoxii](@/kompendium/techniques/ea-5-1-3-reflexivni-paradoxie.md) — bez kategoriální destabilizace by reflexivní paradoxy nebyly produktivní. Společně s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) tvoří jádro **epistemické singularity**.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, často iterovaných napříč různými kategoriemi:
+Konceptuální nihilace se pozorovateli ukazuje nejdřív na jazyce a teprve potom na jednání. Zasažený člověk přestává definovat klíčové pojmy a každou žádost o vymezení odkládá jako „velkou otázku“; z řeči mizí operativní slovesa — vím, chci, rozhodl jsem se — a nahrazuje je spekulativní lexikon i tam, kde jde o praktickou věc. Okolí ve stejném období zaznamenává, že rozhovory nekončí rozhodnutím, ale potřebou další reflexe, a že odborné výstupy působí rozkývaně a bez závěrů.
 
-### Krok 1 — Identifikace nosných pojmů
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zasažena malá skupina nosných pojmů, na nichž stála praktická orientace: u akademika evidence a argument, u klienta já, cit a vůle, u člena společenství pravda a věrnost. Pak zůstává jejich problematizace trvale otevřená, bez operativního uzavření. Každý pokus o pracovní definici je rozevřen o patro výš, takže vzniká regresivní spirála. Teprve pak se nerozhodnost přenáší do běžného života a nakonec zůstává funkční závislost na cizím pojmovém rámci jako na jediné dostupné struktuře. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor identifikuje **nosné pojmy** subjektova kognitivního rámce — typicky 4–7 kategorií, na nichž subjekt staví praktickou orientaci ve světě. U akademika jsou to obvykle *evidence*, *argument*, *konsenzus*, *expertiza*. U klienta v terapeutickém vztahu jsou to *já*, *cit*, *vůle*, *potřeba*. U následovníka komunity jsou to *pravda*, *autenticita*, *věrnost*, *růst*.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: systematické odmítání definic, nedokončená rozhodnutí, vyhýbání se operativním slovům, úleva při cizím „objasnění pojmu“ a postupná ztráta schopnosti mluvit mimo jeden rámec.
 
-### Krok 2 — Strategická ambiguace
-
-Pro každý nosný pojem je systematicky předkládán **diskurz, který činí pojem ambivalentní**:
-
-- *„Co vlastně myslíš slovem 'evidence'? Není evidence vždy už interpretovaná?“*
-- *„Když říkáš 'já', kdo to říká? To 'já' z včerejška, nebo to dnešní?“*
-- *„'Pravda' v jakém smyslu? Pragmatickém, korespondenčním, koherenčním? A která z nich je 'opravdu' pravda o pravdě?“*
-
-Otázky **jsou filozoficky validní** a izolovaně by představovaly legitimní pojmovou analýzu. Manipulátor je však předkládá **systematicky, simultánně** napříč všemi nosnými pojmy a **bez nabídky operativního zakončení** — ambiguace zůstává **otevřená**, nedořešená, zavěšená.
-
-### Krok 3 — Inhibice rekonstrukce
-
-Když se subjekt pokusí pojem **rekonstruovat** (operativně předefinovat, zvolit jednu z analýz, pragmaticky se rozhodnout pro pracovní definici), manipulátor zavádí **další úroveň destabilizace**:
-
-- *„To je velmi pragmatické. Ale není pragmatismus sám předmětem stejné analýzy?“*
-- *„Vybíráš si definici. Co tě vede k tomu výběru? Není ten 'výběr' také konstrukcí?“*
-- *„Říkáš 'pracovní definice' — ale 'pracovní' v jakém rámci? Ten rámec sám potřebuje analýzu.“*
-
-Subjekt není schopen **uzavřít** žádnou kategorii, protože každý pokus o uzavření je rozevřen na meta-úrovni. Vzniká **regresivní spirála** směrem k pojmovému kolapsu.
-
-### Krok 4 — Přenos na praktickou orientaci
-
-Pojmová destabilizace je systematicky přenášena na **praktická rozhodnutí**:
-
-- Subjekt se nedokáže **rozhodnout**, protože pojem *rozhodnutí* je destabilizován
-- Nedokáže **chtít**, protože *vůle* je problematizována
-- Nedokáže **vědět**, protože *vědění* je rozloženo
-- Nedokáže **být sebou**, protože *já* je fragmentováno
-
-Praktická paralýza je **produktem** — nikoli vedlejším účinkem, ale cílem techniky.
-
-### Krok 5 — Substituce manipulátorovým rámcem
-
-V terminálním stadiu nabízí manipulátor **vlastní kategoriální rámec** jako **únik z paralýzy**: nikoli rekonstrukci subjektových pojmů, ale **kompletní substituci**. Subjekt přijímá manipulátorův rámec, protože je to jediná dostupná operativní struktura. Tím vzniká stav popsaný v [glosáři jako *anankastický režim*](@/glossary/anankasticky-rezim.md) — subjekt je **funkčně závislý** na vnějším kategoriálním rámci.
+*Interpretace knihy*: pojmová analýza sama rozpoznávacím znakem není. Rozhoduje, co po ní zbyde — zda přesnější práce s pojmem, nebo prázdné místo. Právě tento rozdíl odlišuje vzorec od filozofického vzdělávání i od terapeutické restrukturalizace, jak uvádí [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -238,9 +205,9 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -251,8 +218,10 @@ Konceptuální nihilace je **strukturálním motivem** pro několik defenzivníc
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -38,27 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 Technika exploituje **bayesovskou heuristiku** přihlížejícího: pokud N nezávislých expertů kritizuje X, je pravděpodobnost, že X je problematický, vysoká. Když je nezávislost iluzí, je [heuristika](@/glossary/heuristika.md) **systematicky klamná**.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování koordinačního jádra
+Pseudo-peer mob se pozná podle rozporu mezi zdáním a doložitelnou nezávislostí: kritika přichází z mnoha stran, ale sdílí časování, formulace a okruh zdrojů. Pro přihlížejícího je přitom nezávislost rozhodující — počet hlasů má váhu jen tehdy, pokud se k témuž závěru dospělo odděleně. Noelle-Neumann (1974) popsala, co se děje, jakmile se jeden názor jeví jako převažující: nositelé opačného stanoviska mlčí, čímž převahu dále zdánlivě posilují.
 
-Iniciátor (často soukromou komunikací — DM skupiny, mailing list, chat) **mobilizuje skupinu** kolegů sdílejících antipatii vůči cíli nebo společný strategický zájem.
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejdříve bývá doložitelné jádro, které spolu komunikovalo mimo veřejný prostor. Pak se ukáže shoda ve slovníku a stavbě námitek, aniž by si je jednotliví autoři zjevně předávali. Následuje vlna vystoupení v krátkém časovém okně, po ní druhá vlna skutečně spontánní, která už ale pracuje s rámcem nastaveným první. Nakonec jsou třetí strany — redakce, instituce — dotázány na stanovisko a zdánlivá shoda odborníků je nutí brát věc vážně. Asch (1956) doložil, že i zjevně chybný většinový soud posune úsudek jednotlivce, a že stačí jediný nesouhlasící hlas, aby účinek zeslábl. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Synchronizace narativu
+Detekční markery zachycené níže odpovídají téže struktuře: shodné formulace napříč autory, účastníci bez předchozí publikační stopy v daném tématu, hustá vzájemná propojenost a mlčení k věcným protiargumentům. Lewandowsky a kol. (2012) upozorňují, že opakování samo zvyšuje důvěryhodnost tvrzení nezávisle na jeho obsahu — proto působí i opakování z jednoho zdroje, rozdělené do mnoha hlasů.
 
-Skupina **konverguje na společné formulace** — klíčová slova, frázování, „talking points“. Žádný účastník nemusí znát plný plán; stačí, když souhlasí s několika body.
-
-### Krok 3 — Distribuovaný launch
-
-Útok je **kvazi-simultánně** publikován z různých účtů, časopisů, blogů. Dojem **nezávislé konvergence** je strukturálně klamný.
-
-### Krok 4 — Amplifikace prostřednictvím retweetů
-
-Druhá vlna účastníků (kteří nemusí být součástí koordinace) **přidává svou váhu** — sdílí, „thread“, komentuje. Tato vlna je **autentická**, ale celé pole je již **rámováno** koordinovanou první vlnou.
-
-### Krok 5 — Žádost o stanovisko
-
-Třetí strany (média, instituce) jsou **dotazovány**, jak hodnotí situaci. Vzhledem k zdánlivé peer-konvergenci jsou **nuceny** brát útok vážně.
+*Interpretace knihy*: shodná kritika z více stran může být prostě správná a koordinace sama není proviněním. Rozlišujícím znakem je přiznaná organizovanost — zda je zřejmé, kdo vystoupení inicioval a jak vzniklo. Kde se organizovanost zastírá, nenese počet hlasů žádnou informaci o věci (Asch, 1956).
 
 ## Fenomenologické znaky
 
@@ -131,6 +119,12 @@ Co prožívá oběť pseudo-peer mob:
 - **OSINT framework koordinační detekce** — pipelines analyzují **synchronizované publikační vzory** napříč sociálními sítěmi a flagují koordinované kampaně.
 - **NABLA Infinity** epistemická citační síť rozlišuje **nezávislé** od **kolinearních** zdrojů.
 - **[Decision Engine](@/glossary/decision-engine.md)** — penalizuje rozhodnutí založená na zdrojích s vysokou interní korelací (proxy pro koordinaci).
+
+## Literatura
+
+- Asch, S. E. (1956). Studies of independence and conformity: A minority of one against a unanimous majority. *Psychological Monographs: General and Applied*, 70(9).
+- Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest*, 13(3).
+- Noelle-Neumann, E. (1974). The spiral of silence: A theory of public opinion. *Journal of Communication*, 24(2).
 
 ## Související
 

@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Self-narrative replacement nahrazuje subjektovu schopnost narativně organizovat vlastní život. Manipulátor poskytne hotový narativní rámec ('osudový příběh', 'duchovní cesta', 'pravá biografie') a subjekt do něj postupně zasadí všechny životní události — vlastní narativní agency je outsourcována.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel slyší životní příběh, který se strukturálně shoduje s naukou jednoho prostředí, zatímco dřívější sebepopisy jsou odmítány jako mělké. Narativní identita se utváří vyprávěním a jejím zdrojem je i to, jak o člověku mluví druzí (McAdams, 1993).
 
-### Krok 1 — Devalvace dosavadního narativu
+Retrospektivně blízcí popisují sled: nejprve je dosavadní příběh znehodnocen, pak je nabídnut hotový rámec, a nakonec jsou do něj přepsány i jednotlivé životní epizody. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Autobiografická vzpomínka je rekonstruktivní a její podoba se řídí právě platným obrazem sebe (Conway a Pleydell-Pearce, 2000).
 
-'Tvůj příběh, jak ho vyprávíš, je mělký/falešný/povrchní'.
+Zvenčí je doložitelné zejména to, že při popisu vlastních událostí člověk cituje jednu osobu, a že setkání s lidmi z dřívějšího období působí dezorientačně. Kontrola nad tím, který příběh o sobě smí platit, patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Nabídka alternativního narativu
-
-Manipulátor poskytne strukturovaný rámec — typicky se sebou v centrální roli.
-
-### Krok 3 — Re-narativizace životních událostí
-
-Subjekt přepisuje životní epizody do nového rámce; původní interpretace se vytrácí.
+*Interpretace knihy*: přijmout nový výklad vlastního života je běžné a psychoterapie z něj žije. Odlišuje až to, že nový rámec je jediný přípustný a že v něm má ústřední místo jeho autor. Nárok nauky na přednost před vlastní zkušeností odpovídá doktríně nadřazené osobě (Lifton, 1961).
 
 ## Fenomenologické znaky
 
@@ -102,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **self-narrative replacement** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.7.
+
+## Literatura
+
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2).
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
 
 ## Související
 
@@ -188,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -40,33 +40,27 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Gödelova první věta o neúplnosti (Gödel, 1931) říká, že každý bezesporný, efektivně
+axiomatizovaný systém dostatečně silný pro elementární aritmetiku obsahuje tvrzení, které v něm
+není ani dokazatelné, ani vyvratitelné; druhá věta dodává, že takový systém nedokáže dokázat svou
+vlastní bezespornost. Věty platí o formálních systémech s uvedenými vlastnostmi. Přenos na lidskou
+mysl předpokládá, že mysl takovým systémem je; tento argument předložil Lucas (1961) a většina
+logiků jej odmítá (Franzén, 2005). Věta o pevném bodě, na niž se název této techniky odvolává, je
+konstrukce v aritmetice, nikoli tvrzení o přesvědčeních.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí vzorec, který tyto věty užívá jako diagnózu člověka. Zasažený člověk referuje, že
+o vlastní mysli nelze rozhodnout nic, a setrvává v reflexivní smyčce o své úplnosti; doprovodnými
+znaky jsou stáze při běžných hodnoceních a zúžení vlastní činnosti na poznámky o nemožnosti se
+vyslovit.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky objevují v pořadí: nejprve je sebereflexe vedena k tvrzením o vlastní úplnosti,
+pak je ukázána jejich nerozhodnutelnost, pak nastupuje rezignace na metaúroveň a nakonec je soud o
+vlastní mysli přenechán druhé straně (Lifton, 1961; Kramer & Alstad, 1993). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor strukturuje subjektovu sebereflexi tak, že vede k formálně nerozhodnutelným tvrzením o vlastní mysli — nemožnost ani potvrzení, ani vyvrácení. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Ochromující stav epistemické nerozhodnutelnosti; subjekt se ocitá v nekonečné reflexivní smyčce ohledně vlastní úplnosti.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: rozlišení dokazatelnosti a pravdivosti je naučitelné a vrací sebereflexi
+použitelnost. Nároky na doložení takových tvrzení stanoví [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -85,11 +79,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -153,6 +147,14 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. *Monatshefte für Mathematik und Physik*, 38, 173–198.
+- Lucas, J. R. (1961). Minds, machines and Gödel. *Philosophy*, 36(137), 112–127.
+- Franzén, T. (2005). *Gödel’s Theorem: An Incomplete Guide to Its Use and Abuse*. A K Peters.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Kramer, J., & Alstad, D. (1993). *The Guru Papers: Masks of Authoritarian Power*. North Atlantic Books.
 
 ## Související
 

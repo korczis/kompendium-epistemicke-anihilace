@@ -44,29 +44,15 @@ Apofatické zacyklení je **strukturálně odlišné** od ostatních technik epi
 - [EA-5.1.14 Iluzorní transcendence](@/kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md) paralyzuje **falešným zaplněním** všech otázek.
 - **Apofatické zacyklení** paralyzuje **vyprázdněním** všech možných odpovědí.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Apofatické zacyklení se pozorovateli ukazuje jako věta, která nikdy nedojde ke konci. Zasažený člověk začne pozitivní tvrzení a okamžitě je vezme zpět, pak vezme zpět i jeho opak; prožívá přitom hloubku a klid, zatímco okolí popisuje únavu, mizející rozhodnutí a stažení z běžné výměny. Rozpor mezi prožívanou hloubkou a objektivní nehybností je na této stránce zachycen jako asymetrie prožitek/funkce a patří k nejspolehlivějším znakům vzorce.
 
-### Krok 1 — Etablování negace jako vyšší formy
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno prostředí, v němž negativní vymezení platí za jemnější než tvrzení a každá pozitivní formulace je předem podezřelá. Pak se objevuje dvojí negace jako návyk: žádná pozice není dost přesná ani ve své afirmaci, ani ve svém opaku. Negace se dále obrací i na agnostickou pozici, takže ani „nevím“ neobstojí. Teprve pak mizí operativní rozhodnutí, protože volba předpokládá rozlišení, a nakonec se stav vykládá jako hlubší porozumění, které nelze sdělit jinak než další negací. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor prezentuje **negativní** vymezení jako epistemicky **rafinovanější** než pozitivní tvrzení. *„Pravda je tam, kde končí všechna slova.“* *„Vše, co lze říci, je nutně nepřesné.“* Subjekt je naučen **podezřívat** každou pozitivní formulaci jako naivní.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: nedokončená pozitivní tvrzení, nadužívání obratů typu „ani to ne“ a „za hranicí pojmů“, rozpouštějící odpovědi na konkrétní otázky, odmítnutí každé navržené formulace vlastní pozice a postupný komunikační kolaps.
 
-### Krok 2 — Zavedení univerzální dvojí negace
-
-Po každém pozitivním tvrzení následuje **první negace** („*to není přesně tak*“), po ní **druhá negace** („*ale ani opak není pravda*“). Subjekt se naučí, že každá pozice je vždy **současně** příliš silná a příliš slabá.
-
-### Krok 3 — Eskalace do meta-negace
-
-Když se subjekt pokusí formulovat **agnostickou** pozici („*nevím*“), je tato pozice rovněž invalidována: *„Ani to 'nevím' není přesné, protože předpokládá rámec, v němž je vědění nebo nevědění možné.“* Negace se aplikuje na **samotnou metakognitivní strukturu**.
-
-### Krok 4 — Inhibice operativního jednání
-
-Jednání předpokládá **rozhodnutí** mezi alternativami; rozhodnutí předpokládá **diference**; diference vyžaduje **pozitivní** vymezení. Apofatické zacyklení rozpouští všechny tři předpoklady. Subjekt je v jakémkoli volbu paralyzován: *„Volba A není správná, ale ani volba B, ale ani neutralita.“*
-
-### Krok 5 — Konsolidace skrze identifikaci s „ne-postojem“
-
-Subjekt postupně začíná identifikovat svůj epistemický stav s *„hlubším porozuměním“*, které **nemůže být sděleno** jiným způsobem než další negací. Pokus o pomoc zvenčí je interpretován jako **neporozumění hloubce**: *„Ty mě nechápeš, protože stále operuješ v polaritách.“*
+*Interpretace knihy*: negace sama o sobě není znakem vzorce. Autentická apofatická tradice i filozofická skepse jsou oborově ohraničené a mají kritéria návratu k tvrzení; zde se negace rozlévá plošně a návrat chybí. Právě v tomto rozdílu, a ne v obsahu výroků, leží rozpoznání — důvody takového čtení uvádějí [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -228,9 +214,9 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -241,8 +227,10 @@ Intervence: Klinická psychoterapie s **explicitně** kataphatickou orientací (
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

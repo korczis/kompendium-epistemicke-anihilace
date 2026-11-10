@@ -41,42 +41,15 @@ Klíčové pojmenování — **selektivní expozice** vs. *selektivní kurátors
 
 Selektivní expozice je **strukturálním předkladem** několika dalších technik (zejména [EA-1.3.1 imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.3.3 tematická diverze](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)) — bez ní by tyto techniky byly snadno odhalitelné konfrontací s vyloučeným materiálem.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Selektivní expozice se pozorovateli neohlašuje jako událost, ale jako tvar vědění, který po ní zůstává. Zasažený člověk zná své pole jako uzavřený celek, přestože viděl jen jeho výsek, a nemá jak zaznamenat, co mu nebylo předloženo. Nickerson (1998) shrnuje rozsáhlou evidenci, že chybějící informaci člověk nedoplňuje spontánně: ověřuje to, co má před sebou.
 
-### Krok 1 — Etablování role kurátora
+Retrospektivně se v anamnéze dá rozlišit, v jakém pořadí znaky vystupují. Nejdřív bývá zachytitelná role kurátora přijímaná jako legitimní — vyučující, školitel, recenzní okruh, doporučovací algoritmus. Pak se ukáže, že objem materiálu je velký, ale jeho směr jednostranný: nechybí množství, chybí protipól. Dále se objevuje jazyk úplnosti („kompletní úvod“, „vše, co potřebujete vědět“) a nakonec pocit nasycení, po němž člověk přestává hledat. Festinger (1957) popsal tento sklon vyhýbat se nesouladné informaci jako důsledek úsilí o vnitřní konzistenci, nikoli jako vědomou volbu. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor se etabluje jako **legitimní zdroj** výběru relevantních informací: pedagog, supervizor, oborový expert, algoritmus s reputací autoritativnosti, redakční systém. Klíčové je, že role je **přijata jako legitimní** subjektem — selektivní expozice nefunguje, pokud subjekt vnímá kurátora jako podezřelého.
+Detekční markery zachycené níže odpovídají téže struktuře: stále stejný okruh citovaných autorit, neznalost klíčových jmen alternativní pozice, slovník převzatý od kurátora a sebejistota neúměrná objemu skutečně načteného materiálu. Pariser (2011) a Sunstein (2001) ukazují, že tentýž tvar vzniká i bez jakéhokoli úmyslu, pouhou architekturou doporučování a sdružováním podobně smýšlejících čtenářů.
 
-### Krok 2 — Strategická filtrace
-
-Z dostupných informací jsou systematicky vynechány:
-
-- Materiály podporující **alternativní pozici**
-- Důkazy svědčící proti **preferované pozici**
-- Autority s **divergentními** závěry
-- **Metodologické kritiky** preferovaných přístupů
-- **Disciplinární perspektivy** mimo úzce vymezenou doménu
-
-Filtrace **není totální** — to by bylo příliš nápadné. Místo toho je **vyvážená co do objemu** (subjekt dostává hodně informací) a **nevyvážená co do směru** (informace svědčí převážně jedním směrem).
-
-### Krok 3 — Vytváření dojmu komprehenzivity
-
-Filtrovaný materiál je **prezentován jako úplný přehled**. Klíčová slova: „kompletní úvod“, „comprehensive review“, „definitive guide“, „all you need to know“. Cíl: nahradit u subjektu hypotézu *„toto je výběr“* hypotézou *„toto je celé pole“*.
-
-### Krok 4 — Inhibice externího vyhledávání
-
-Často kombinováno s **explicitním** nebo **implicitním** odrazováním od externího vyhledávání:
-
-- „Tyto zdroje jsou problematické / non-rigorózní / outdated“
-- „Začni s tímto, pak se dostaneš dál“ (přičemž k „dál“ se nikdy nedostává)
-- „Internet je plný šumu, drž se etablovaných autorit“ (kde „etablované autority“ = filtrovaný výběr)
-- Algoritmické personalizace, které samy o sobě generují filter bubbles
-
-### Krok 5 — Konsolidace skrze epistemickou saturaci
-
-Subjekt **prožívá pocit informovanosti** (četl jsem hodně, znám literaturu, dělal jsem si poznámky). Tento pocit je **fenomenologicky nerozlišitelný** od skutečné epistemické saturace — a proto účinně inhibuje další vyhledávání. Subjekt přestává hledat, protože **má pocit**, že už našel.
+*Interpretace knihy*: rozlišujícím znakem není filtrace sama — každá výuka vybírá —, nýbrž to, zda výběr o sobě říká, že je výběrem. Legitimní kurátorství vyloučené zpřístupňuje; vzorec popsaný na této stránce je skrývá za nárok na úplnost. Proto je většina případů v akademickém prostředí nezáměrná: přenáší se filtrace, kterou kurátor sám nerozpoznal (Nickerson, 1998).
 
 ## Fenomenologické znaky
 
@@ -228,6 +201,13 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
 - **OSINT framework's multi-source default** — všechny investigation pipelines defaultují na **multiple nezávislé zdroje** a flagují případy, kdy je výsledek závislý na jediném zdroji.
 - **NABLA Infinity provenance tracking** — každé tvrzení v epistemickém pipeline má dohledatelnou linii zdrojů, což umožňuje identifikaci **strukturálních filtrací** v dlouhodobém sledování.
 
+## Literatura
+
+- Festinger, L. (1957). *A Theory of Cognitive Dissonance*. Stanford University Press.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2).
+- Pariser, E. (2011). *The Filter Bubble: What the Internet Is Hiding from You*. Penguin Press.
+- Sunstein, C. R. (2001). *Republic.com*. Princeton University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -245,21 +225,23 @@ Selektivní expozice je **strukturálním motivem** pro několik defenzivních m
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

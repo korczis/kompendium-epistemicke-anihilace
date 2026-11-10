@@ -38,16 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Supervizorská certifikace** je institucionální technika ověřování kompetencí kandidátů na supervizní role v EA edukaci. Certifikace je multi-stage proces zahrnující kompetenční assessment, etický screening, simulační hodnocení a continuing education requirements. Necertifikovaní supervizoři představují nejčastější zdroj iatrogenních efektů.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Supervizorská certifikace je pozorovatelná na tom, co se vlastně ověřuje: zda jen znalost látky, nebo doložené chování v supervizní situaci. Falender a Shafranske (2004) popsali posun ke kompetenčnímu pojetí supervize právě jako přechod od odsloužených let k pojmenovaným a pozorovatelným dovednostem.
 
-1. **Application screening** — CV, motivační esej, dvě reference, etické declaration.
-2. **Knowledge assessment** — písemná zkouška z taxonomie + scénářů (passing 85 %).
-3. **Live simulation panel** — 4h simulační hodnocení supervize ve 3 různých scénářích.
-4. **Personal therapy attestation** — minimum 50h vlastní terapie v posledních 5 letech.
-5. **Probationary period** — první rok supervize pod meta-supervizí experienced.
-6. **Recertification cycle** — každé 3 roky s continuing education evidence.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se složky ověření objevují: nejprve doložené zázemí a dosavadní praxe uchazeče, pak znalost látky, dále pozorování jeho práce v modelové situaci, poté období, v němž supervizuje pod dohledem zkušenějšího, a nakonec pravidelné obnovování způsobilosti. Milne (2009) ukazuje, že z těchto složek má největší vypovídací hodnotu přímé pozorování — sebeposouzení a výkaz hodin ji mají nejmenší. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, že se ověřování odpoutá od praxe a stane se formalitou. Ellis a kol. (2014) doložili, že nedostatečná a v menšině případů škodlivá supervize není v praxi vzácná a že ji supervidovaní zpravidla nenahlásí — bez cesty, jak na ni upozornit mimo vlastního supervizora, zůstane neviditelná.
+
+*Interpretace knihy*: rozlišujícím znakem je dostupnost stížnosti. Certifikace, kterou nelze ztratit, neověřuje způsobilost, nýbrž příslušnost; teprve odvolatelnost z ní dělá ochranu supervidovaných (Falender a Shafranske, 2004).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Ellis, M. V., Berger, L., Hanus, A. E., Ayala, E. E., Swords, B. A., & Siembor, M. (2014). Inadequate and harmful clinical supervision: Testing a revised framework and assessing occurrence. *The Counseling Psychologist*, 42(4).
+- Falender, C. A., & Shafranske, E. P. (2004). *Clinical Supervision: A Competency-Based Approach*. American Psychological Association.
+- Milne, D. (2009). *Evidence-Based Clinical Supervision: Principles and Practice*. BPS Blackwell.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

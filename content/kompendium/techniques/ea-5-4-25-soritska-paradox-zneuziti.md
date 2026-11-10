@@ -40,33 +40,25 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Soritský paradox, připisovaný Eubúlidovi z Mílétu, vychází z toho, že jedno zrnko nerozhoduje o
+tom, zda jde o hromadu, a přesto opakované odebírání skončí u nehromady. Je to argument o chování
+vágních predikátů; moderní rozbory se rozcházejí v tom, kde se řetěz láme (Hyde, 2008;
+Williamson, 1994). Žádný z nich netvrdí, že kumulativní úbytek je nezjistitelný — jen že není
+zjistitelný po jednotlivých krocích.
 
-### Krok 1 — Etablování paradoxního pole
+Právě na tom vzorec stojí. Pozorovatel nevidí jednotlivou událost, kterou by bylo možné označit za
+přehmat; vidí člověka, jemuž se postupně ztenčil okruh závazků, vztahů a jistot, aniž by uměl
+ukázat, kde se to stalo. Stark (2007) popisuje u donucovací kontroly tutéž vlastnost: každý
+jednotlivý akt se jeví bezvýznamný a poškození je patrné až v souhrnu za delší období.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky řadí takto: nejprve drobné ústupky pod prahem pozornosti, pak nejistota o tom,
+co vlastně dříve platilo, pak zúžení vlastní činnosti na poznámky o nemožnosti jednat a nakonec
+obracení se k druhé straně i v triviálních věcech (Herman, 1992). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor po jednom „zrnku“ odebírá subjektovy přesvědčení; v žádném okamžiku to není „dost“, aby zareagoval — kumulativně ztrácí celé pole. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt si nevšimne ztráty důležitých závazků, protože každý jednotlivý krok je pod prahem detekce.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: detekce této třídy vzorců je úlohou agregace, nikoli jednotlivého pozorování.
+Metodický rámec takového souhrnu vymezují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -85,11 +77,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -153,6 +145,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Hyde, D. (2008). *Vagueness, Logic and Ontology*. Ashgate.
+- Williamson, T. (1994). *Vagueness*. Routledge.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 
 ## Související
 

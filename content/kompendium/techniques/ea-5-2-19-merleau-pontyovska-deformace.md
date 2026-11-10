@@ -40,27 +40,17 @@ Merleau-Pontyho fenomenologie vnímání etabluje tělo ne jako objekt, ale jako
 
 Subjekt v terminálním stadiu trpí strukturní depersonalizací s patologickou racionalizací: tělo je „stroj“, vnímání je „mentální projekce“, svět je „obraz v hlavě“. Praktická tělesná kompetence kolabuje.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-karteziánská indoktrinace
+Jméno v katalogovém označení pojmenovává látku, kterou si vzorec přivlastňuje, nikoli pozici, kterou by Merleau-Ponty zastával: *Fenomenologie vnímání* ukazuje vlastní tělo jako to, čím se ke světu vztahujeme, nikoli jako předmět mezi předměty (Merleau-Ponty, 1945), a pozdní text rozvíjí vzájemnost vnímajícího a vnímaného (Merleau-Ponty, 1964).
 
-Subjekt je veden k radikálnímu mind-body dualismu — myšlení a tělo jako oddělené substance. Merleau-Pontyho integrující model je ignorován nebo zesměšněn.
+Pozorovatel vidí člověka, který o svém těle mluví ve třetí osobě — „toto tělo“, „schránka“, „stroj“ — a který se tělesným činnostem vyhýbá s duchovním odůvodněním. Zprávy o opuštění těla se podávají jako doklad pokroku. Nápadná bývá nejistota v pohybech, které dříve nevyžadovaly pozornost, a v jemné motorice. Odtělesněné sebepojetí jako klinicky popsaný rys rozpracoval (Fuchs, 2005).
 
-### Krok 2 — Disociační cvičení
+Postižení popisují, že svět vidí jakoby z odstupu a nikoli ze svého místa v něm, že tělo přestalo být tím, čím jednají, a že blízkost druhých se stala technicky obtížnou. Odtělesnění jako rozpad předreflexivního vtělení popisuje (Fuchs, 2005); příbuzný obraz odpojení od těla a oduševnělého světa rozpracovává (Stanghellini, 2004). Klinicky se stav překrývá s chronickou depersonalizací (Simeon & Abugel, 2006).
 
-Manipulátor zavádí praxe údajně „transcendující tělo“ — intenzivní mentální cvičení, vizualizace „duše opouštějící tělo“, out-of-body experiences indukované různými metodami.
+Zpětně se znaky skládají takto: nejprve ostré oddělení mysli a těla v řeči, pak praxe, po nichž následují epizody odpoutání, pak úbytek tělesné kompetence a nakonec výklad celého stavu jako duchovního zisku. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-### Krok 3 — Destrukce chiazmu
-
-Vzájemnost vnímání-vnímaného je systematicky podlamována. Subjekt je veden k pozici **čistého pozorovatele**, který svět pozoruje „zvenku“, nikoli z těla v něm.
-
-### Krok 4 — Atrofie kinestetického schématu
-
-[Tělesné schéma](@/glossary/body-schema.md) — [pasivní syntéza](@/glossary/pasivni-synteza.md) tělesnosti — je oslabováno přerušením rutinní kinestetické zkušenosti. Subjekt ztrácí intuitivní vztah k vlastnímu tělu.
-
-### Krok 5 — Konsolidace dualismu jako „spirituality“
-
-Stav strukturní [disociace](@/glossary/disociace.md) je interpretován jako **„spirituální transcendence těla“**. Identitární investice činí návrat k tělesné integraci obtížným.
+*Interpretace knihy*: rozlišující není obsah nauky, ale to, že se odstup od těla nikdy neuzavírá. Na nutnost obnovit tělesné ukotvení dříve než narativní práci upozorňuje (van der Kolk, 2014); nepříznivé tělesné průběhy intenzivní praxe dokládají (Lindahl et al., 2017).
 
 ## Fenomenologické znaky
 
@@ -75,10 +65,10 @@ Stav strukturní [disociace](@/glossary/disociace.md) je interpretován jako **�
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt **odkazuje na své tělo v třetí osobě** ("toto tělo") | Krok 1 dualismus |
-| **Out-of-body epizody** racionalizované jako "spiritualita" | Krok 2 disociační cvičení |
-| **Kinestetická dezorientace** v běžných úkolech | Krok 4 atrofie |
-| **Avoidance tělesných praxí** s pseudo-filozofickým zdůvodněním | Krok 5 konsolidace |
+| Subjekt **odkazuje na své tělo v třetí osobě** ("toto tělo") | Fáze — dualismus |
+| **Out-of-body epizody** racionalizované jako "spiritualita" | Fáze — disociační cvičení |
+| **Kinestetická dezorientace** v běžných úkolech | Fáze — atrofie |
+| **Avoidance tělesných praxí** s pseudo-filozofickým zdůvodněním | Fáze — konsolidace |
 | **Pseudo-spirituální slovník** ("opuštění těla", "transcendence") | Maskování patologie |
 
 ## Diferenciální detekce
@@ -97,13 +87,13 @@ Merleau-Pontyovská deformace je odlišitelná od:
 | **Některé asketické sekty** | Destrukce těla jako "duchovní cíl" |
 | **Disociativní subkultury** | Trance praxe bez supervize |
 | **Akademická patologie** | Patologická forma karteziánského fenomenologismu |
-| **Trauma-induced disociace** *post-hoc* spiritualizovaná | Maskování patologie |
+| **Trauma-induced [disociace](@/glossary/disociace.md)** *post-hoc* spiritualizovaná | Maskování patologie |
 
 ## Neutralizace
 
 ### Individuální
 
-1. **Somatická práce** — Feldenkrais, Alexander Technique, Iyengar jóga obnovují tělesné schéma.
+1. **Somatická práce** — Feldenkrais, Alexander Technique, Iyengar jóga obnovují [tělesné schéma](@/glossary/body-schema.md).
 2. **Korektní merleau-pontyovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad chiazmatické struktury.
 3. **Smyslová zakotvenost** — explicitní pozornost k tělesným pocitům, dotekům, dechu.
 4. **Manuální práce** — fyzická aktivita s rukama obnovuje kinestetické schéma.
@@ -135,21 +125,33 @@ Merleau-Pontyovská deformace je odlišitelná od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) embodied epistemic axiom** — epistemická provenience pracuje s tělem v terénu.
 - **[Decision Engine](@/glossary/decision-engine.md) kinestetický feedback** — tělesné signály jsou součást rozhodovacího procesu.
 
+## Literatura
+
+- Fuchs, T. (2005). Corporealized and disembodied minds. *Philosophy, Psychiatry, & Psychology*, 12(2), 95–107.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Paris: Gallimard.
+- Merleau-Ponty, M. (1964). *Le Visible et l'invisible*. Paris: Gallimard.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
+- Stanghellini, G. (2004). *Disembodied Spirits and Deanimated Bodies*. Oxford: Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

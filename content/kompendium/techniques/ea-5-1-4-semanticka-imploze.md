@@ -42,29 +42,15 @@ Technika exploituje skutečnost, že v běžném používání jazyka **nikdy ne
 
 Sémantická imploze je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde **prostředek poznání** (jazyk) je sám předmětem destrukce.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, typicky v dlouhodobém rámci (měsíce až roky):
+Sémantická imploze se pozorovateli ukazuje na pojmech, které zasažený člověk běžně používá a zároveň nedokáže vymezit. Když je o vymezení požádán, rozpadne se mu pojem do kruhu nebo do složek, které se vylučují; žádost o vysvětlení pak odmítá jako [redukcionismus](@/glossary/redukcionismus.md). Věty přitom zůstávají mluvnicky v pořádku a znějí plynule, jen se v nich nedá najít, k čemu odkazují.
 
-### Krok 1 — Identifikace klíčových termínů
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejdřív bývá zasažena hrstka nosných termínů oboru nebo životní situace — metoda, evidence a platnost u odborníka, já, potřeba a hranice v terapeutickém kontextu, víra a smysl v náboženském. Jejich význam se pak posouvá po malých krocích, z nichž každý vypadá jako upřesnění. Rozpětí významu se tím rozšiřuje, až pojme i významy neslučitelné, a nakonec se týž termín v jediném rozhovoru použije v obou najednou, aniž by rozpor někdo zachytil. Výsledkem bývá únava a dezorientace, někdy ale i prožitek osvícení nad tím, že slova jsou jen slova. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor identifikuje **kotvící pojmy** subjektova oboru / života: termíny, na nichž visí významová síť. V akademickém kontextu: „metoda“, „evidence“, „validita“. V politickém: „demokracie“, „občan“, „právo“. V terapeutickém: „já“, „potřeba“, „hranice“. V náboženském: „víra“, „duše“, „smysl“.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: neschopnost definovat vlastní klíčové pojmy, kruhové definice, obcházení dřív běžných termínů opisem a syntakticky správné, obsahově prázdné věty.
 
-### Krok 2 — Postupná introduktivní redefinice
-
-Manipulátor začne používat klíčové termíny ve **mírně posunutých** významech, prezentovaných jako **upřesnění** nebo **prohloubení**. Posun je v jednom kroku malý — subjekt jej registruje jako legitimní rafinaci, nikoli jako narušení.
-
-### Krok 3 — Akumulace nekonzistentních použití
-
-V průběhu času je tentýž termín použit v **mnoha různých** mírně posunutých významech. Žádné dvě použití nejsou ve sporu **přímo**, ale **rozpětí** významu se postupně rozšiřuje až k **mutuálně neslučitelným** referentům.
-
-### Krok 4 — Konfrontační superpozice
-
-Manipulátor explicitně používá termín v kontextu, kde **vyžaduje** současně dva neslučitelné významy (např. „svoboda“ jako absence omezení **a** jako podřízení vyšší autoritě). Subjekt je nucen oba významy přijmout — v rámci akumulované důvěry již nemá nástroj, jak je rozlišit.
-
-### Krok 5 — Generalizovaný kolaps
-
-Po dostatečné expozici subjekt **generalizuje** vzorec: každý termín může v každý okamžik znamenat cokoliv. Lingvistický substrát myšlení se rozkládá. Subjekt často reaguje **únavou**, **dezorientací**, nebo **paradoxním pocitem osvícení** — „konečně jsem pochopil, že slova jsou jen slova“.
+*Interpretace knihy*: posouvat význam pojmu je legitimní filozofická práce, pokud je posun pojmenovaný a staré i nové užití zůstanou rozlišitelné. Rozpoznávacím znakem je právě zánik tohoto rozlišení, ne mnohoznačnost sama — ta má u zdravého mluvčího strukturu a řídí se kontextem; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -213,9 +199,9 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -226,8 +212,10 @@ Sémantická imploze je strukturálním motivem pro několik defenzivních mecha
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

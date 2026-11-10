@@ -25,7 +25,7 @@
       },
       {
         "code": "EA-5.1.13",
-        "in": 50,
+        "in": 51,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-13-hyperreflexivita.md",
         "tier": 4,
@@ -45,7 +45,7 @@
       },
       {
         "code": "EA-5.1.10",
-        "in": 26,
+        "in": 27,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md",
         "tier": 4,
@@ -55,7 +55,7 @@
       },
       {
         "code": "EA-5.1.14",
-        "in": 24,
+        "in": 25,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-14-iluzorni-transcendence.md",
         "tier": 4,
@@ -105,7 +105,7 @@
       },
       {
         "code": "EA-5.1.12",
-        "in": 11,
+        "in": 12,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-12-kauzalni-inverze.md",
         "tier": 4,
@@ -115,7 +115,7 @@
       },
       {
         "code": "EA-5.1.11",
-        "in": 8,
+        "in": 9,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-5-1-11-modalni-dezorientace.md",
         "tier": 4,

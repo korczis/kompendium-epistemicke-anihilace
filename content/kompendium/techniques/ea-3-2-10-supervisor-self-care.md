@@ -38,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Supervizorská sebepéče** je institucionalizovaná technika udržování supervizorského well-being. Sebepéče není luxus, ale **profesní povinnost** — vyhořelý supervizor je iatrogenní riziko. Technika přesahuje individuální praktiky a zahrnuje organizační podporu (přiměřená caseload, sabbaticals, terapie benefit).
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Supervizorská sebepéče je pozorovatelná nepřímo — na tom, co se děje s kvalitou supervize, nikoli na výčtu zvyklostí. Maslach a Leiter (2016) popisují vyhoření jako souběh vyčerpání, odstupu od lidí, s nimiž člověk pracuje, a ztráty pocitu vlastní účinnosti; druhá z těchto složek se v supervizi projeví dřív než únava.
 
-1. **Personal self-care plan** — explicitní písemný plán (sleep, exercise, relationships, hobbies, terapie).
-2. **Caseload limits** — institucionální cap na maximum supervisees.
-3. **Mandatory time off** — minimum 4 týdnů ročně + 1 sabbatical každých 7 let.
-4. **Personal therapy benefit** — institucionální financování vlastní terapie.
-5. **Annual burnout assessment** — Maslach Burnout Inventory s intervenčním protokolem.
+Retrospektivně se dá rozlišit sled, v němž se znaky objevují. Nejprve ubývá zvídavosti: případy začnou být zařazovány rychleji, než jsou vyslechnuty. Pak se objevuje odstup, zprvu podaný jako profesionalita. Dále se vytrácí ochota přinést vlastní nejistotu do vlastní supervize. Nakonec klesá pocit smysluplnosti práce. Figley (1995) popsal zvláštní podobu tohoto opotřebení u těch, kdo opakovaně pracují s cizím utrpením — nevzniká z množství práce, nýbrž z povahy materiálu. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh nelze podle těchto autorů řešit jen na straně jednotlivce. Maslach a Leiter (2016) opakovaně ukazují, že rozhodující podíl má uspořádání práce — její množství, míra vlastního rozhodování a spravedlnost prostředí — a že výzvy k sebepéči bez změny podmínek přenášejí odpovědnost na toho, kdo ji nemá.
+
+*Interpretace knihy*: rozlišujícím znakem je, kdo nese náklad. Sebepéče pojatá jako soukromá povinnost zakrývá institucionální selhání; teprve tam, kde instituce nese svou část, chrání supervidované (Falender a Shafranske, 2004).
 
 ## Cílová populace
 
@@ -130,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Falender, C. A., & Shafranske, E. P. (2004). *Clinical Supervision: A Competency-Based Approach*. American Psychological Association.
+- Figley, C. R. (Ed.) (1995). *Compassion Fatigue: Coping with Secondary Traumatic Stress Disorder in Those Who Treat the Traumatized*. Brunner/Mazel.
+- Maslach, C., & Leiter, M. P. (2016). Understanding the burnout experience: Recent research and its implications for psychiatry. *World Psychiatry*, 15(2).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -151,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

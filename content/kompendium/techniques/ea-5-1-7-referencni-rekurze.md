@@ -40,33 +40,15 @@ Na rozdíl od běžné [logické cirkularity](@/glossary/kognitivni-anti-rekurzi
 
 Technika cílí na [metakognitivní vrstvu](@/glossary/metakognitivni-destrukce.md): nejde o zfalšování konkrétního přesvědčení, ale o **destrukci samotného mechanismu**, kterým subjekt uvažuje o platnosti čehokoliv. Výsledkem je decizní paralýza — neschopnost dospět k jakémukoli závěru, protože každý závěr by vyžadoval předchozí závěr, který by vyžadoval předchozí závěr.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování dvou (nebo více) **vzájemně závislých** referenčních kotev
+Referenční rekurze se pozorovateli ukazuje jako úvaha, která se po měsících vrací na totéž místo a přitom je prožívána jako prohlubování. Zasažený člověk vymezuje dva klíčové pojmy výhradně jeden druhým, nedokončuje věty, v nichž by z něčeho něco plynelo, a v oblasti, kde dřív rozhodoval rutinně, nerozhodne nic. Okolí zaznamenává nepoměr mezi rozsahem přemýšlení a šíří závěrů a nápadně silnou citovou reakci na návrh pracovní definice.
 
-Manipulátor v komunikaci s subjektem zavádí dva pojmy, **A** a **B**, které jsou prezentovány jako fundamentální pro jakékoli další uvažování v dané doméně. Příklady:
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývají zachyceny dvě kotvy, z nichž každá se opírá o tu druhou — pravá víra a pravé porozumění, poznání a důvěra — a jejich vzájemná závislost je předkládána jako odhalení struktury skutečnosti. Pak je každé vykročení ven, k vymezení nebo k praktické zkoušce, označeno za povrchní a nepravé. Souběžně se kruh vykládá jako hermeneutický, takže obranná reakce, kterou by jinak rozpoznaná kruhovost vyvolala, nepřijde. Každý další průchod přináší drobnou nuanci a roste s ním i investovaný čas a sebepojetí, takže výstup je čím dál nákladnější. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- *„Abys pochopil, co je autenticita, musíš nejprve pochopit, co je svoboda.„* + *„Abys pochopil, co je svoboda, musíš nejprve pochopit, co je autenticita.“*
-- *„Skutečné poznání předpokládá skutečnou důvěru.„* + *„Skutečná důvěra předpokládá skutečné poznání.“*
-- *„Pravá víra vyžaduje pravé porozumění.„* + *„Pravé porozumění vyžaduje pravou víru.“*
+Detekční markery zachycené na této stránce odpovídají téže struktuře: pojmy vymezené jen navzájem, táž sekvence úvah s drobnými obměnami po dlouhou dobu, rozhodovací paralýza a opakované odkazy na tutéž dvojici textů, které se vzájemně podpírají.
 
-Klíčové je, aby kotvy **vypadaly hluboce** — aby subjekt přijal, že vzájemná závislost je *odhalením struktury skutečnosti*, nikoliv konstrukčním artefaktem.
-
-### Krok 2 — Inhibice externí terminace
-
-Každý pokus subjektu **vystoupit** z cyklu odkazem na **třetí pojem C** (operační definice, externí kritérium, pragmatický test) je manipulátorem reframován jako *povrchní*, *redukcionistický*, *neautentický*. Externí kotva je systematicky delegitimizována — typicky kombinací s [EA-1.3.1 imunizací proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [EA-1.1.3 terminologickou mystifikací](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md).
-
-### Krok 3 — Estetizace cyklu
-
-Cirkularita je prezentována jako **[hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)** — legitimní vlastnost porozumění v humanitních vědách. Subjekt přijímá, že cyklus **není chybou**, ale *strukturou hloubkového poznání*. Tato estetizace blokuje obrannou reakci, kterou by jinak vyvolalo logické rozpoznání kruhové argumentace.
-
-### Krok 4 — Iterace s eskalující emocionální investicí
-
-Subjekt opakovaně prochází smyčku **A → B → A**. Každá iterace je provázena *zdánlivým* zjemněním — drobnou nuancí, novou citací, novým příkladem. Subjekt prožívá iteraci jako **prohlubování**, nikoli jako opakování. Emocionální investice (čas, identita, sebepojetí jako hloubavého myslitele) roste, což činí výstup z cyklu psychologicky nákladnějším.
-
-### Krok 5 — Konsolidace decizní paralýzy
-
-V pokročilé fázi subjekt **nemůže učinit žádné rozhodnutí v dané doméně**, protože každé rozhodnutí by vyžadovalo dořešení A, které vyžaduje dořešení B, které vyžaduje dořešení A. Subjekt setrvává v *trvalé suspendaci* — což manipulátor často interpretuje jako *„zralost, která už nepotřebuje rychlé soudy"*.
+*Interpretace knihy*: [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) sám znakem vzorce není — je otevřený a napojený na evidenci, která jej může narušit. Rozpoznávacím znakem je uzavřenost, při níž korekce zvenčí není přípustná a jednání zůstává zablokované; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -225,9 +207,9 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -238,8 +220,10 @@ Referenční rekurze má v Prismatic platformě tři hlavní defenzivní mapová
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

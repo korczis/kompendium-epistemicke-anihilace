@@ -40,27 +40,15 @@ Kant explicitně upozorňoval, že rozum **nemá oprávnění** činit pozitivn�
 
 Na rozdíl od [EA-5.2.3 noumenální redukce](@/kompendium/techniques/ea-5-2-3-noumenalni-redukce.md), která redukuje fenomény na pseudo-noumena, noumenální paralýza zachovává **kantovský dualismus**, ale zneužívá ho k destrukci motivace.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-kantovská indoktrinace
+Noumenální paralýza se pozorovateli ukazuje jako nehybnost, která o sobě mluví filozoficky. Zasažený člověk opakovaně odkazuje k tomu, co je „za jevy“, prožitky ztrácejí citovou váhu, věci vypadají tence a zdánlivě a praktické záměry — práce, vztahy, rozdělaná věc — ztrácejí význam. Hodiny tráví vnitřním pozorováním bez dopadu na cokoli a svou nečinnost odůvodňuje pseudofilozoficky.
 
-Subjekt je veden k přijetí silně metafyzické verze Kantovy distinkce phenomena/noumena, kde noumena jsou *„skutečnější realita za závojem zdání“*.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycena silně metafyzická verze rozdílu mezi jevem a věcí o sobě, v níž je věc o sobě skutečnější realitou za závojem zdání. Pak je všechno prožívané prohlášeno za pouhý jev. Souběžně je nedostupnost toho, co je za ním, podávána jako zdroj utrpení, nikoli jako hranice myšlení. Vzniká tím dvojí vazba: jednat ve světě jevů nemá cenu a jinde jednat nelze. Nakonec je paralýza vyložena jako vhled a spojí se s vlastní identitou. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Devalvace fenomenálního světa
+Detekční markery zachycené na této stránce odpovídají téže struktuře: pseudomystická intonace odkazů za jevy, volní paralýza s filozofickým odůvodněním, ztráta praktického projektu a derealizační epizody vykládané mysticky.
 
-Vše, co subjekt prožívá, je systematicky reframováno jako „pouhý fenomén“, „iluze“, „konstrukt rozvažování“. Klíčová formulace: *„To, co prožíváš, není realita — je to jen tvá kategoriální syntéza.“*
-
-### Krok 3 — Etablování noumenální nedostupnosti
-
-Současně je subjekt přesvědčován, že **noumenální realita je principiálně nepoznatelná** — ale v specifickém pseudo-kantovském významu, kde nepoznatelnost je interpretována jako **zdroj utrpení**.
-
-### Krok 4 — Generace strukturální paralýzy
-
-Subjekt je v dvojné vazbě: fenomenální jednání je devalvované (jen iluze), noumenální jednání je nemožné (nedostupné). Praktická racionalita kolabuje.
-
-### Krok 5 — Konsolidace pseudo-mystikou
-
-Stav paralýzy je interpretován jako **vyšší vhled** — *„Jen ten, kdo prokoukl iluzi fenoménů, dosáhl pravdy.“* Identitární investice činí stav rezistentním vůči kritice.
+*Interpretace knihy*: samo kantovské rozlišení jevu a věci o sobě znakem vzorce není — Kant výslovně upíral rozumu oprávnění vynášet o věci o sobě kladné soudy a myslel ji jen jako mez. Rozpoznávacím znakem je obrat této opatrnosti v důvod nejednat. Od klinické deprese se vzorec liší tím, že se opírá o tvrzení o neskutečnosti jevů; rozlišení patří klinické supervizi, jak uvádějí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -142,15 +130,18 @@ Také odlišitelná od **klinické deprese** — depresivní pacient netvrdí, �
 - **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
 - Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

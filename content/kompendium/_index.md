@@ -202,7 +202,7 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 
 ## Kritický krok
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+**Než si techniku nastuduješ** (i pro účely diagnostiky) ověř:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální

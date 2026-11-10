@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = page %}
+{% include "partials/header.html" %}
+<div class="px-4 pt-6" x-data="kompendiumMapa()" x-init="init()">
+  <div class="rounded-lg bg-white shadow dark:bg-gray-800">
+    {#- Pro toolbar: pohled, oddíl, štítek, hledání -#}
+    <div class="flex flex-col gap-3 border-b border-gray-200 p-4 lg:flex-row lg:items-end dark:border-gray-700">
+      <div class="flex flex-wrap items-center gap-2" role="group" aria-label="Pohled">
+        <button type="button" @click="showSections()" :class="mode === 'sections' ? 'bg-primary-700 text-white hover:bg-primary-800 dark:bg-primary-600' : 'border border-gray-300 bg-white text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700'" class="rounded-lg px-3 py-2 text-sm font-medium focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800">Oddíly</button>
+        <button type="button" @click="fit()" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700">Vycentrovat</button>
+      </div>
+      <div class="grid flex-1 grid-cols-1 gap-3 sm:grid-cols-3">
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Oddíl</span>
+          <select x-model="section" @change="showSection(section)" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <option value="">— všechny oddíly —</option>
+            <template x-for="o in sectionOptions" :key="o.value"><option :value="o.value" x-text="o.label"></option></template>
+          </select>
+        </label>
+        <label class="block text-sm">
+          <span class="mb-1 block font-medium text-gray-900 dark:text-white">Štítek</span>
+          <select x-model="tag" @change="showTag(tag)" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <option value="">— bez filtru —</option>
+            <template x-for="o in tagOptions" :key="o.value"><option :value="o.value" x-text="o.label"></option></template>
+          </select>
+        </label>
+        <form class="block text-sm" @submit.prevent="search()">
+          <label for="mapa-q" class="mb-1 block font-medium text-gray-900 dark:text-white">Okolí stránky</label>
+          <div class="flex">
+            <input id="mapa-q" x-model="query" list="mapa-titles" autocomplete="off" placeholder="Název stránky…" class="block w-full rounded-l-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400">
+            <button type="submit" class="rounded-r-lg bg-primary-700 px-3 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600">Najít</button>
+          </div>
+          <datalist id="mapa-titles"><template x-for="t in titles"><option :value="t"></option></template></datalist>
+        </form>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 xl:grid-cols-4">
+      <div class="relative xl:col-span-3">
+        <div x-ref="canvas" class="h-[65vh] min-h-[420px] w-full" role="img" aria-label="Graf odkazů mezi stránkami knihy"></div>
+        <div x-show="!ready && !error" class="absolute inset-0 flex items-center justify-center text-sm text-gray-500 dark:text-gray-400">Načítám graf…</div>
+      </div>
+      <aside class="border-t border-gray-200 p-4 xl:border-l xl:border-t-0 dark:border-gray-700" aria-live="polite">
+        <p class="text-sm text-gray-500 dark:text-gray-400" x-text="stats"></p>
+        <template x-if="selected">
+          <div class="mt-4 rounded-lg border border-gray-200 p-4 dark:border-gray-700">
+            <p class="text-xs font-medium uppercase text-gray-500 dark:text-gray-400" x-text="selected.section"></p>
+            <h2 class="mt-1 text-base font-semibold text-gray-900 dark:text-white" x-text="selected.title"></h2>
+            <dl class="mt-3 grid grid-cols-3 gap-2 text-center">
+              <div class="rounded-lg bg-gray-50 p-2 dark:bg-gray-700"><dt class="text-xs text-gray-500 dark:text-gray-400">slov</dt><dd class="text-sm font-bold text-gray-900 dark:text-white" x-text="selected.words"></dd></div>
+              <div class="rounded-lg bg-gray-50 p-2 dark:bg-gray-700"><dt class="text-xs text-gray-500 dark:text-gray-400">ven</dt><dd class="text-sm font-bold text-gray-900 dark:text-white" x-text="selected.out"></dd></div>
+              <div class="rounded-lg bg-gray-50 p-2 dark:bg-gray-700"><dt class="text-xs text-gray-500 dark:text-gray-400">sem</dt><dd class="text-sm font-bold text-gray-900 dark:text-white" x-text="selected.in"></dd></div>
+            </dl>
+            <div class="mt-3 flex flex-wrap gap-1">
+              <template x-for="t in selected.tags"><button type="button" @click="showTag(t)" class="rounded-md bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-800 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600" x-text="'#' + t"></button></template>
+            </div>
+            <div class="mt-4 flex flex-wrap gap-2">
+              <a :href="selected.url" class="inline-flex items-center rounded-lg bg-primary-700 px-3 py-2 text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600">Otevřít stránku</a>
+              <button type="button" @click="showEgo(selected.id)" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700">Okolí</button>
+              <button type="button" @click="showSection(selected.sectionKey)" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700">Oddíl</button>
+            </div>
+          </div>
+        </template>
+        <div class="mt-4 text-xs text-gray-500 dark:text-gray-400">
+          <p>Klepnutí vybere uzel, dvojklik otevře stránku, kolečko přibližuje. Barva = oddíl.</p>
+          <p class="mt-1">Data: <a class="underline" href="{{ get_url(path='data/graph.json') }}">graph.json</a> (odvozeno z odkazů v textu při sestavení).</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+  {%- if page.content | trim %}
+  <article class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+    <div class="format format-sm sm:format-base format-blue max-w-none dark:format-invert">{{ page.content | safe }}</div>
+  </article>
+  {%- endif %}
+</div>
+{% endblock content %}
+{% block page_scripts %}
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/mapa.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/vendor/alpine.min.js') }}" defer></script>
+{% endblock page_scripts %}

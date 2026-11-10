@@ -82,3 +82,17 @@
     text-align: center;
   }
 }
+
+@layer components {
+  /* Klikací uzly v diagramech Mermaid. */
+  .kea-mermaid-link:hover :is(rect, polygon, circle, path),
+  .kea-mermaid-link:focus-visible :is(rect, polygon, circle, path),
+  .mermaid svg a:hover :is(rect, polygon, circle, path) {
+    stroke: #ef4444 !important;
+    stroke-width: 2px !important;
+  }
+
+  .mermaid svg a {
+    cursor: pointer;
+  }
+}

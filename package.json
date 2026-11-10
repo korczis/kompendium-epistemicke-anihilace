@@ -25,6 +25,9 @@
   },
   "devDependencies": {
     "@tailwindcss/cli": "4.3.3",
+    "alpinejs": "3.17.5",
+    "cytoscape": "3.34.4",
+    "echarts": "6.1.0",
     "flowbite": "4.0.2",
     "flowbite-typography": "1.0.5",
     "tailwindcss": "4.3.3"

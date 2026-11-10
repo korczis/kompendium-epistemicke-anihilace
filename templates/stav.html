@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+{%- set doc = page %}
+{% include "partials/header.html" %}
+<div class="px-4 pt-6">
+  <div id="stav-kpi" class="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4" aria-live="polite">
+    <div class="rounded-lg bg-white p-6 text-sm text-gray-500 shadow dark:bg-gray-800 dark:text-gray-400">Načítám metriky…</div>
+  </div>
+  <div class="mt-4 grid grid-cols-1 gap-4 xl:grid-cols-2">
+    <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="h-sekce">
+      <h2 id="h-sekce" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Stránky podle oddílů</h2>
+      <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Kolik stránek má každý oddíl a kolik z nich už nese sekci souvisejících pojmů.</p>
+      <div id="stav-sekce" class="h-[900px] w-full" role="img" aria-label="Sloupcový graf stránek podle oddílů"></div>
+    </section>
+    <div class="space-y-4">
+      <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="h-slova">
+        <h2 id="h-slova" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Rozsah textu</h2>
+        <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Dvacet oddílů s nejvíce slovy; plocha odpovídá počtu slov.</p>
+        <div id="stav-slova" class="h-[380px] w-full" role="img" aria-label="Stromová mapa počtu slov podle oddílů"></div>
+      </section>
+      <section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="h-odkazovane">
+        <h2 id="h-odkazovane" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Nejodkazovanější stránky</h2>
+        <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Pojmy, na kterých kniha stojí. Klepnutím otevřete stránku.</p>
+        <div id="stav-odkazovane" class="h-[420px] w-full" role="img" aria-label="Sloupcový graf patnácti nejodkazovanějších stránek"></div>
+      </section>
+    </div>
+  </div>
+  <section class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="h-kvalita">
+    <h2 id="h-kvalita" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Co ještě čeká</h2>
+    <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Sirotci, stránky v angličtině a stránky bez diakritiky podle oddílů. Kontrola informační architektury (scripts/check-ia.py) dovolí tato čísla jen snižovat.</p>
+    <div id="stav-kvalita" class="h-[380px] w-full" role="img" aria-label="Skládaný sloupcový graf nedokončené práce podle oddílů"></div>
+  </section>
+  <section class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="h-rozptyl">
+    <h2 id="h-rozptyl" class="mb-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Rozsah a provázanost stránek</h2>
+    <p class="mb-4 text-sm text-gray-500 dark:text-gray-400">Každý bod je stránka: vodorovně počet slov, svisle počet stránek, které na ni odkazují. Klepnutím ji otevřete.</p>
+    <div id="stav-rozptyl" class="h-[480px] w-full" role="img" aria-label="Bodový graf stránek podle rozsahu a počtu odkazů"></div>
+  </section>
+  {%- if page.content | trim %}
+  <article class="mt-4 rounded-lg bg-white p-4 shadow sm:p-6 xl:p-8 dark:bg-gray-800">
+    <div class="format format-sm sm:format-base format-blue max-w-none dark:format-invert">{{ page.content | safe }}</div>
+  </article>
+  {%- endif %}
+</div>
+{% endblock content %}
+{% block page_scripts %}
+<script src="{{ get_url(path='js/viz/kompendium-viz.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/viz/stav.js', cachebust=true) }}" defer></script>
+{% endblock page_scripts %}

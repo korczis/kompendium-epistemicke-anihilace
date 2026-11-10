@@ -58,9 +58,12 @@ Vše je hostováno na GitHub Pages bez externích CDN. Repozitář je pod dohled
 
 ## Licence
 
-Text a grafika: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.cs).
-Uveďte autora, nepoužívejte komerčně a odvozená díla šiřte pod stejnou licencí. Kód (šablony,
-skripty, workflow): MIT.
+Celý repozitář – text, grafika, archiv i kód – je pod licencí
+[General Honest License (GHL) v1.0](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE)
+autora Tomáše Korčáka. Kanonické znění je v repozitáři
+[korczis/prismatic, `docs/ghl`](https://github.com/korczis/prismatic/tree/master/docs/ghl).
+Knihovny třetích stran si ponechávají vlastní licence
+([NOTICE.md](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/NOTICE.md)).
 
 ## Opravy a podněty
 

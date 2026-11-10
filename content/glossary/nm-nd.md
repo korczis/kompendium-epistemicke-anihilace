@@ -1,144 +1,107 @@
 +++
-title = "NM/ND Doctrine"
+title = "Doktrína NM/ND"
 weight = 3
-description = "Combined NO MERCY, NO DOUBTS enforcement framework governing all platform operations with zero-tolerance quality and evidence-based execution"
+description = "Doktrína NM/ND (No Mercy, No Doubts): dvě ramena, bod přechodu od zkoumání k jednání a meze rozhodné jistoty v práci s poznáním."
 
 [taxonomies]
-tags = ["glossary", "doctrine", "nm-nd-doctrine", "prismatic"]
+tags = ["glossary", "doktrína", "epistemologie", "teorie-rozhodování", "kvalita", "kompendium"]
 
 [extra]
-category = "doctrine"
+category = "doktrína platformy"
 abbreviation = "NM/ND"
-related_terms = ["no-mercy", "no-doubts", "violation-protocol", "clean-run", "regression-test", "aiad", "archer-supreme", "confidence-threshold", "pre-commit-hooks", "session-discipline", "nabla-infinity", "trinity-gate", "quality-gates"]
-domain = "governance"
-complexity = "advanced"
-platform_adoption = "universal"
-enforcement_level = "absolute"
-clearance = "sig-nihl-l3"
-version = "2.0.0"
-compliance = "mandatory"
-violation_levels = ["L1", "L2", "L3", "L4"]
-confidence_threshold = "0.95"
-transition_mechanism = "nabla-to-nmnd"
-agents_governed = "530+"
-quality_score = "doctrine-enforced"
-quality_domains = "13"
-qdp_eliminated = "905"
-pre_commit_phases = "11"
-bypass_mechanisms = "none"
-session_protocol = "mandatory"
+related_terms = ["violation-protocol", "clean-run", "regression-test", "aiad", "session-discipline", "nabla-infinity", "trinity-gate", "qdp", "zero-warning-policy", "no-mercy-no-doubts", "epistemicka-pokora", "falsifikace"]
 author = "Tomas Korcak (korczis)"
-reading_time = "9 min"
-word_count = 1864
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
-keywords = ["NMND", "Doctrine", "Combined", "MERCY", "DOUBTS", "glossary", "Prismatic Platform"]
-see_also = ["capabilities", "architecture", "agents"]
-image = "/images/sections/glossary.png"
-image_alt = "NM/ND Doctrine - Prismatic Platform"
+date_modified = "2026-11-10"
 +++
 
-## Definition and Overview
+## Vymezení
 
-The NM/ND Doctrine (NO MERCY, NO DOUBTS) is the universal governing framework that combines zero-tolerance enforcement with evidence-based decisive action. Classified at  L3 clearance, it governs all platform operations without exception -- from individual code commits to strategic architectural decisions, from agent behavior specifications to CI/CD pipeline configurations.
+Zkratka NM/ND označuje doktrínu „No Mercy, No Doubts“ („žádná milost, žádné pochyby“), kterou
+autor kompendia formuloval jako řídicí zásadu vývoje Prismatic Platform, prostředí, z něhož
+kniha vzešla. Doktrína se skládá ze dvou ramen: „No Mercy“ žádá nulovou toleranci k chybám,
+které by se vracely, protože je někdo pokaždé omluví, a „No Doubts“ žádá důkladné zkoumání
+před rozhodnutím a po něm jednání bez vnitřního váhání, pokud jsou data k dispozici (Korčák,
+2025a). Toto heslo je hlavním výkladem doktríny v knize: popisuje její stavbu, bod přechodu od
+zkoumání k jednání a mechanismus vynucení. Myšlenkovým zdrojům hesla a jeho etické stránce se
+věnuje sesterské heslo [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md).
 
-The doctrine represents a philosophical synthesis of two complementary principles: **NO MERCY** demands that all work be production-ready from the moment of creation, with zero tolerance for incomplete implementations, untested code, or deferred quality fixes. **NO DOUBTS** requires thorough investigation before action, evidence-backed decisions, and decisive commitment once understanding is achieved. Together, they eliminate the two most common failure modes in software development: shipping substandard work and making uninformed decisions.
+Kompendium doktrínu nepřebírá jako technický předpis pro software, ale čte ji jako doktrínu
+epistemické integrity v práci s poznáním. Její jádro lze vyjádřit dvěma tezemi: tvrzení se
+nesmí vydávat za hotové, dokud není doloženo, a jednou rozpoznaná chyba se nesmí znovu objevit
+bez povšimnutí. Obě teze mají v epistemologii dlouhou předhistorii. William Clifford hájil
+zásadu, že je nesprávné věřit čemukoli na základě nedostatečných důkazů (Clifford, 1877), a
+Karl Popper ukázal, že poznání roste tím, že se chybné domněnky systematicky vyřazují, nikoli
+tím, že se hromadí potvrzení (Popper, 1959). Pro knihu o rozpadu schopnosti poznávat je
+doktrína důležitá i jako protiklad: tam, kde se heslo „žádné pochyby“ vztáhne na osoby a jejich
+otázky místo na ověřená data, vzniká přesně ten vzorec, který kompendium popisuje jako
+nadřazení doktríny nad osobu (Lifton, 1961).
 
-NM/ND is not merely a quality standard or coding guideline. It is a comprehensive governance framework that permeates every layer of the platform -- from the 530+ AIAD agent definitions (each carrying mandatory `enforcement: doctrine: "no-mercy-no-doubts"`) to the [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) that block non-compliant code, from the session discipline protocol that governs development workflows to the violation protocol that escalates breaches through four severity levels.
+## Pojmová historie
 
-The doctrine's effectiveness stems from its non-negotiable nature. There are no exceptions, no bypass mechanisms, and no "temporary" waivers. This absolute enforcement creates a predictable quality baseline that makes the impossible -- maintaining doctrine-enforced quality across 13 domains in a 2.8M LOC codebase -- not just possible but routine.
+Doktrína vznikla v prostředí vývoje softwaru s pomocí umělé inteligence. Její kanonické znění
+ve verzi 2.0.0 je datováno do prosince 2025 a je součástí standardu
+[AIAD](@/glossary/aiad.md), který každému agentovi, příkazu a pracovnímu postupu ukládá
+deklarovat podřízenost doktríně v povinném bloku vynucení (Korčák, 2025a). Text doktríny
+zdůvodňuje její vznik zkušeností, že systémy nereagují na dobré úmysly, ale jen na provedení,
+a že „příště“ je statisticky jen opakováním minulosti; vyrovnání se s chybou proto nemá být
+odkládáno do neurčité budoucnosti (Korčák, 2025a). Tato úvaha odpovídá metafoře technického
+dluhu, kterou Ward Cunningham zavedl pro situaci, kdy se rychlé, ale nedokončené řešení musí
+později splácet s úroky (Cunningham, 1992).
 
-## Historical Context and Evolution
+Archiv knihy dokládá, že doktrína nebyla omezena na kód. Dokumentace aplikace platformy, z níž
+se později extrahovala taxonomie kompendia (`archive/prismatic-platform/apps/prismatic_annihilation/`),
+uváděla, že každé její použití musí odpovídat etickému rámci a doktríně NO MERCY/NO DOUBTS;
+doktrína tak od počátku stála vedle obranného rámce knihy jako norma pro zacházení s poznatky
+o manipulaci. Pozdější vývoj doplnil doktrínu o samostatnou politiku vynucení se čtyřmi stupni
+porušení (Korčák, 2025c) a o epistemické axiomy rámce
+[NABLA Infinity](@/glossary/nabla-infinity.md), které upravují fázi zkoumání (Korčák, 2026a).
 
-The NM/ND Doctrine emerged from the Prismatic Platform's evolutionary history, born from the recognition that quality aspirations without enforcement are meaningless. In the platform's early generations (Gen 1-5), quality was managed through advisory guidelines and manual review. Quality debt accumulated silently, regressions went undetected for weeks, and the codebase gradually degraded despite everyone's good intentions. The turning point came when the platform's quality score dropped below 80/100, triggering an architectural crisis that threatened to halt feature development entirely.
+## Struktura doktríny
 
-The NO MERCY principle crystallized first -- a commitment that no code would enter the repository unless it was production-ready, tested, and compliant with all quality standards. This immediately eliminated the "we'll fix it later" pattern that accounted for the majority of quality debt. But NO MERCY alone created a different problem: developers were shipping code quickly to satisfy the completeness requirement without adequate investigation, leading to well-tested but poorly designed implementations that needed frequent rework.
+První rameno, No Mercy, se v původním znění týká dokončenosti díla. Žádá, aby nic nebylo
+odevzdáno jako hotové, pokud obsahuje pahýl kódu, zástupnou implementaci nebo odložený úkol,
+aby každá oprava chyby nesla [regresní test](@/glossary/regression-test.md), který by tutéž
+chybu příště zachytil, a aby žádné tvrzení o výsledku nebylo vysloveno bez ověření (Korčák,
+2025a). V softwarovém inženýrství odpovídá tento požadavek praxi vývoje řízeného testy, v níž
+se nejprve formuluje kontrola selhání a teprve poté řešení (Beck, 2002), a principu jidoka
+z výrobního systému Toyota, podle něhož se vada zastavuje v místě vzniku, a ne až na konci
+linky (Ohno, 1988).
 
-The NO DOUBTS principle was added to address this gap -- mandating thorough investigation before execution. The combined doctrine created a feedback loop: NO DOUBTS prevents poorly understood implementations, and NO MERCY prevents incomplete implementations. Together, they drive toward well-understood, well-implemented code as the only acceptable output.
+Druhé rameno, No Doubts, upravuje rozhodování. Doktrína formuluje protokol nejistoty: kdo si
+není jistý, má se zastavit, zkoumat a ověřit, a teprve poté jednat s plným nasazením; jednat
+s pochybností nebo odevzdávat s nejistotou je podle textu porušením (Korčák, 2025a). Zdroji
+oprávněné jistoty jsou testy, statická analýza, měření a dokumentace, tedy veřejně
+kontrolovatelné doklady, nikoli autorita nebo pocit (Korčák, 2025a). Charles Sanders Peirce
+rozlišil metody ustalování přesvědčení – houževnatost, autoritu, apriorní zalíbení a metodu
+vědeckou – a jen poslední podle něj váže přesvědčení na skutečnost nezávislou na tom, kdo
+věří (Peirce, 1877). Rameno No Doubts lze číst jako požadavek, aby se jistota ustalovala
+právě touto čtvrtou cestou.
 
-Version 2.0.0 of the doctrine (current) formalized the NABLA Infinity integration, establishing the confidence threshold and Trinity Gate transition mechanism that governs the shift from exploratory investigation to decisive execution. This version also introduced the four-level violation protocol and the mandatory enforcement block for all AIAD components.
+Mezi oběma rameny stojí bod přechodu. Doktrína se výslovně popisuje nikoli jako další vrstva
+systému, ale jako režim řízení: rámec NABLA mapuje nejistotu, drží souběžné hypotézy a snáší
+epistemické nepohodlí, zatímco NM/ND určuje okamžik, kdy zkoumání končí a začíná provedení
+(Korčák, 2025a). Bez tohoto bodu by podle textu zkoumání plodilo nekonečně mnoho variant a
+nikdy nic neuzavřelo; bez zkoumání by naopak tvrdost přešla v brutalitu (Korčák, 2025a).
+Pozdější doktrína epistemických axiomů přechod podmiňuje mírou důvěry nejméně 0,95, splněním
+axiomů a průchodem třístupňovou kontrolou [Trinity Gate](@/glossary/trinity-gate.md)
+(Korčák, 2026a).
 
-## Technical Deep Dive
+Z hlediska teorie rozhodování jde o pravidlo zastavení. Abraham Wald ukázal, že při
+sekvenčním sběru dat lze předem stanovit hranice, při jejichž dosažení je racionální přestat
+sbírat důkazy a rozhodnout (Wald, 1947). Herbert Simon doplnil, že skutečný rozhodovatel
+nehledá optimum mezi všemi možnostmi, ale zastavuje se u první, která splní předem stanovenou
+úroveň nároků (Simon, 1955). Číselný práh doktríny je takovou úrovní nároků; jeho hodnota je
+konvencí platformy, ne odvozeným optimem, a kniha ji tak také uvádí.
 
-### Dual Philosophy Architecture
-
-The NM/ND Doctrine operates as a dual-phase system that maps directly to the software development lifecycle:
-
-| Phase | Doctrine | Principle | Application |
-|-------|----------|-----------|-------------|
-| Investigation | NO DOUBTS | Full understanding before action | Requirements analysis, root cause investigation, architectural evaluation |
-| Execution | NO MERCY | Zero tolerance for incompleteness | Implementation, testing, deployment, quality enforcement |
-| Transition | NABLA Gateway | Confidence >= 0.95 + Trinity Gate | Moving from exploration to decisive action |
-| Verification | Combined | Evidence-backed results | Post-deployment validation, regression testing, quality scoring |
-
-### NO MERCY Requirements Matrix
-
-The NO MERCY arm of the doctrine defines explicit requirements for every code artifact:
-
-| Requirement | Description | Enforcement Point |
-|-------------|-------------|-------------------|
-| **Zero Stubs** | No stubs, mocks, placeholders, or naive implementations in lib/ | Pre-commit Phase 8 |
-| **Zero TODOs** | No TODO, FIXME, HACK, WORKAROUND, or XXX comments | Pre-commit Phase 8 |
-| **100% Test Coverage** | All code must have comprehensive tests | CI pipeline |
-| **Zero Warnings** | `--warnings-as-errors` on all compilations | Pre-commit Phase 1 |
-| **Production-Ready** | Every line of code is deployable from moment of creation | Code review |
-| **Regression Tests** | Every bug fix includes regression tests | Mandatory protocol |
-| **Clean Run** | No runtime warnings, no info/debug log noise | CI pipeline |
-| **Type Safety** | @spec on all public functions, Dialyzer clean | Quality gates |
-
-### NO DOUBTS Requirements Matrix
-
-The NO DOUBTS arm mandates evidence-based decision-making:
-
-| Requirement | Description | Validation |
-|-------------|-------------|------------|
-| **Full Investigation** | Understand completely before acting | NABLA confidence >= 0.95 |
-| **Signal Plurality** | Minimum 2 independent signals for any belief | Trinity Gate |
-| **Contradiction Preservation** | Never discard inconvenient evidence | Addiction Preservation |
-| **Evidence Backing** | Every claim supported by tests, benchmarks, or verification | Review |
-| **Verified Results** | No unvalidated claims, no unchecked outputs | Post-action validation |
-| **Provenance Tracking** | All beliefs traceable to their source | Audit trail |
-
-### NABLA-to-NM/ND Transition Protocol
-
-The transition between the exploratory NABLA Infinity phase and the decisive NM/ND execution phase is governed by strict confidence thresholds:
-
-```
-EXPLORATION (NABLA Infinity)
-  |
-  |-- Maps uncertainty landscape
-  |-- Forms parallel hypotheses
-  |-- Preserves contradictions (Addiction Preservation)
-  |-- Maintains signal plurality
-  |
-  v [confidence >= 0.95 AND trinity_gate.passed AND axioms_compliant]
-  |
-EXECUTION (NM/ND)
-  |
-  |-- NO MERCY: Complete implementation, zero tolerance
-  |-- NO DOUBTS: Decisive action, full commitment
-  |-- Verification: Evidence-backed results
-  |-- Enforcement: Quality gates, pre-commit hooks
-```
-
-This transition mechanism prevents two critical failure modes: premature action (acting before understanding) and analysis paralysis (investigating without ever committing to execution). The 0.95 confidence threshold with [Trinity Gate](@/glossary/trinity-gate.md) validation provides a rigorous, measurable transition criterion.
-
-### Violation Protocol (L1-L4)
-
-The doctrine enforces compliance through a four-level violation protocol with progressively severe consequences:
-
-| Level | Classification | Trigger | Response | Authority |
-|-------|---------------|---------|----------|-----------|
-| **L1** | Minor Deviation | Style violation, documentation gap | Warning + immediate correction | Agent |
-| **L2** | Quality Violation | Failed quality gate, missing test | Block + required correction before proceeding | System |
-| **L3** | Incomplete Delivery | Shipped with stubs, TODOs, missing coverage | Rejection + mandatory restart from scratch | Supreme |
-| **L4** | Doubt-Compromised | Bypassed hooks, unvalidated claims | Rejection + Supreme Review escalation | Cosmic |
-
-The violation protocol is enforced automatically at multiple integration points. Pre-commit hooks catch L1/L2 violations before code enters the repository. CI pipeline stages catch L2/L3 violations before code reaches production. Session discipline protocol catches L4 violations through behavioral monitoring.
-
-### Enforcement Block Specification
-
-Every AIAD component must include the NM/ND enforcement block in its definition:
+Vynucení není ponecháno na dobré vůli. Kontroly před uložením změny, brány kvality v průběžné
+integraci a povinný blok v každé specifikaci AIAD převádějí doktrínu v chování nástrojů, takže
+porušení se nezjišťuje dodatečnou kontrolou, ale znemožňuje se v místě vzniku (Korčák, 2025a).
+Porušení se třídí podle [protokolu porušení](@/glossary/violation-protocol.md) od upozornění
+přes blokaci a odmítnutí s novým začátkem až po úplné přezkoumání, kdy byla obejita sama
+kontrola (Korčák, 2025c). Blok vynucení, který ukázka níže přebírá z dokumentace platformy,
+nenese žádnou logiku; je to deklarace, podle níž nástroje poznají, jaká pravidla mají na
+součást uplatnit (Korčák, 2025a).
 
 ```yaml
 enforcement:
@@ -147,366 +110,145 @@ enforcement:
   compliance: mandatory
 ```
 
-This block is not decorative. The AIAD indexer validates its presence during `./aiad/bin/aiad index` operations, and agents without the enforcement block are rejected from the registry.
-
-## Architecture and Implementation
-
-### Enforcement Architecture
-
-The NM/ND doctrine is enforced through a multi-layered architecture that creates defense-in-depth against quality violations:
-
-```
-Developer Workstation          CI/CD Pipeline           Production
-+-------------------+    +-------------------+    +------------------+
-| Pre-Commit Hooks  |    | GitLab CI Stages  |    | Quality Floor    |
-| - Compilation     |--->| - Compile         |--->| Guardian         |
-| - Credo           |    | - Credo           |    | - Real-time      |
-| - Pattern Scan    |    | - Dialyzer        |    |   monitoring     |
-| - QDP Check       |    | - Tests           |    | - Threshold      |
-| - Risk Detection  |    | - Quality Gates   |    |   alerts         |
-+-------------------+    +-------------------+    +------------------+
-         |                        |                       |
-         v                        v                       v
-+-----------------------------------------------------------+
-|              Violation Protocol (L1-L4)                    |
-+-----------------------------------------------------------+
-         |                        |                       |
-         v                        v                       v
-+-----------------------------------------------------------+
-|            Quality DNA Persistence Layer                   |
-+-----------------------------------------------------------+
-```
-
-### Implementation in Elixir
-
-```elixir
-defmodule PrismaticSafety.DoctrineEnforcement do
-  @moduledoc """
-  NM/ND Doctrine enforcement engine.
-
-  Validates code changes against the NO MERCY, NO DOUBTS doctrine
-  and routes violations to the appropriate escalation level.
-  Implements all four violation levels (L1-L4) with structured
-  remediation guidance for each violation type.
-  """
-
-  @type violation_level :: :l1 | :l2 | :l3 | :l4
-  @type enforcement_result :: {:ok, :compliant} | {:error, violation_level(), String.t()}
-
-  @spec enforce(map()) :: enforcement_result()
-  def enforce(change_set) do
-    with :ok <- validate_completeness(change_set),
-         :ok <- validate_test_coverage(change_set),
-         :ok <- validate_quality_gates(change_set),
-         :ok <- validate_no_bypass(change_set),
-         :ok <- validate_evidence_backing(change_set),
-         :ok <- validate_regression_tests(change_set) do
-      {:ok, :compliant}
-    end
-  end
-
-  @spec validate_completeness(map()) :: :ok | {:error, violation_level(), String.t()}
-  defp validate_completeness(change_set) do
-    forbidden_patterns = [
-      ~r/TODO\b/i,
-      ~r/FIXME\b/i,
-      ~r/HACK\b/i,
-      ~r/stub/i,
-      ~r/placeholder/i,
-      ~r/naive.*implementation/i,
-      ~r/WORKAROUND\b/i,
-      ~r/XXX\b/
-    ]
-
-    case find_violations(change_set.files, forbidden_patterns) do
-      [] -> :ok
-      violations -> {:error, :l3, "Incomplete delivery: #{format_violations(violations)}"}
-    end
-  end
-
-  @spec validate_no_bypass(map()) :: :ok | {:error, violation_level(), String.t()}
-  defp validate_no_bypass(change_set) do
-    if change_set.hook_bypass_attempted? do
-      {:error, :l4, "Hook bypass detected -- L4 Supreme Review required"}
-    else
-      :ok
-    end
-  end
-
-  @spec validate_regression_tests(map()) :: :ok | {:error, violation_level(), String.t()}
-  defp validate_regression_tests(change_set) do
-    if change_set.is_bug_fix? and not change_set.has_regression_tests? do
-      {:error, :l2, "Bug fix without regression tests -- mandatory protocol violation"}
-    else
-      :ok
-    end
-  end
-
-  defp find_violations(files, patterns) do
-    Enum.flat_map(files, fn file ->
-      Enum.flat_map(patterns, fn pattern ->
-        if Regex.match?(pattern, file.content) do
-          [{file.path, pattern}]
-        else
-          []
-        end
-      end)
-    end)
-  end
-
-  defp format_violations(violations) do
-    violations
-    |> Enum.map(fn {path, _pattern} -> path end)
-    |> Enum.uniq()
-    |> Enum.join(", ")
-  end
-
-  defp validate_test_coverage(_change_set), do: :ok
-  defp validate_quality_gates(_change_set), do: :ok
-  defp validate_evidence_backing(_change_set), do: :ok
-end
-```
-
-## Usage in Prismatic Platform
-
-The NM/ND Doctrine is the foundational governance framework of the Prismatic Platform, embedded in every layer of the system. Its influence extends across all 530+ AIAD agents, all CI pipelines, all [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/), and all development session protocols.
-
-### Agent Integration
-
-Every agent in the platform's agent registry carries the mandatory NM/ND enforcement block. The AIAD indexer validates compliance during registration, and non-compliant agent definitions are rejected. This ensures that agent behaviors, from the tactical [ARCHER Supreme](@/glossary/archer-supreme.md) to specialized quality guardians, all operate under the same governance framework.
-
-### Session Discipline
-
-The [Session Discipline](@/glossary/session-discipline.md) protocol extends NM/ND to development workflow governance. Every session must create GitLab issues for tracking, commit frequently (no batching), push to remote immediately, run local tests before committing, and pass all hooks without bypass. The `--no-verify` flag is absolutely forbidden and triggers L4 Supreme Review escalation.
-
-### Quality Score Maintenance
-
-The doctrine is directly responsible for the platform's 22-pillar doctrine compliance across all 13 quality domains. The complete elimination of 905 Quality Debt Points was achieved through systematic application of NM/ND principles -- no violation was deferred, no fix was incomplete, and no regression was tolerated.
-
-### Mandatory Regression Test Protocol
-
-Every bug fix operation must follow the regression test protocol:
-
-1. **BEFORE fixing**: Identify the bug's root cause and failure mode
-2. **CREATE regression test(s)** that would have caught this bug
-3. **VERIFY test fails** with unfixed code (proves test validity)
-4. **APPLY the fix** to the codebase
-5. **VERIFY test passes** with fixed code (proves fix works)
-6. **REPORT completion** to user with brief summary
-
-This protocol has doctrine-enforced compliance and zero bypass mechanisms.
-
-## Code Examples
-
-### Doctrine Compliance Check
-
-```elixir
-defmodule PrismaticSafety.DoctrineCheck do
-  @moduledoc """
-  Runtime doctrine compliance verification for AIAD agents.
-  Validates that all agent definitions include the required
-  NM/ND enforcement block with correct version and compliance level.
-  """
-
-  @spec verify_agent_compliance(map()) :: {:ok, :compliant} | {:error, String.t()}
-  def verify_agent_compliance(agent_definition) do
-    with {:ok, _} <- check_enforcement_block(agent_definition),
-         {:ok, _} <- check_doctrine_version(agent_definition),
-         {:ok, _} <- check_compliance_field(agent_definition) do
-      {:ok, :compliant}
-    end
-  end
-
-  @spec check_enforcement_block(map()) :: {:ok, :present} | {:error, String.t()}
-  defp check_enforcement_block(%{enforcement: %{doctrine: "no-mercy-no-doubts"}} = _def) do
-    {:ok, :present}
-  end
-
-  defp check_enforcement_block(_agent_definition) do
-    {:error, "Missing NM/ND enforcement block -- agent rejected"}
-  end
-
-  @spec check_doctrine_version(map()) :: {:ok, :current} | {:error, String.t()}
-  defp check_doctrine_version(%{enforcement: %{version: version}}) do
-    case Version.compare(version, "2.0.0") do
-      :lt -> {:error, "Doctrine version #{version} below minimum 2.0.0"}
-      _ -> {:ok, :current}
-    end
-  end
-
-  @spec check_compliance_field(map()) :: {:ok, :mandatory} | {:error, String.t()}
-  defp check_compliance_field(%{enforcement: %{compliance: :mandatory}}) do
-    {:ok, :mandatory}
-  end
-
-  defp check_compliance_field(_agent_definition) do
-    {:error, "Compliance field must be :mandatory -- no optional doctrine compliance"}
-  end
-end
-```
-
-### Pre-Commit NM/ND Enforcement
-
-```elixir
-defmodule PrismaticSafety.PreCommitEnforcer do
-  @moduledoc """
-  Pre-commit hook enforcement implementing NM/ND doctrine.
-  Blocks commits that violate doctrine requirements across
-  all 11 pre-commit phases.
-  """
-
-  @type violation_level :: :l1 | :l2 | :l3 | :l4
-
-  @spec run_enforcement(list(String.t())) :: :ok | {:error, violation_level(), String.t()}
-  def run_enforcement(staged_files) do
-    results =
-      staged_files
-      |> Enum.map(&analyze_file/1)
-      |> Enum.reject(&match?({:ok, _}, &1))
-
-    case results do
-      [] -> :ok
-      violations -> {:error, highest_level(violations), format_report(violations)}
-    end
-  end
-
-  @spec analyze_file(String.t()) :: {:ok, :compliant} | {:error, violation_level(), String.t()}
-  defp analyze_file(file_path) do
-    with {:ok, content} <- File.read(file_path),
-         :ok <- check_no_todos(content, file_path),
-         :ok <- check_no_process_sleep(content, file_path),
-         :ok <- check_no_length_antipattern(content, file_path),
-         :ok <- check_has_typespec(content, file_path) do
-      {:ok, :compliant}
-    end
-  end
-
-  defp check_no_todos(content, path) do
-    if Regex.match?(~r/\b(TODO|FIXME|HACK|XXX)\b/, content) do
-      {:error, :l3, "Forbidden pattern in #{path}"}
-    else
-      :ok
-    end
-  end
-
-  defp check_no_process_sleep(content, path) do
-    if Regex.match?(~r/Process\.sleep/, content) do
-      {:error, :l2, "Process.sleep detected in #{path}"}
-    else
-      :ok
-    end
-  end
-
-  defp check_no_length_antipattern(content, path) do
-    if Regex.match?(~r/length\([^)]+\)\s*>\s*0/, content) do
-      {:error, :l2, "length() > 0 anti-pattern in #{path}"}
-    else
-      :ok
-    end
-  end
-
-  defp check_has_typespec(_content, _path), do: :ok
-
-  defp highest_level(violations) do
-    violations
-    |> Enum.map(fn {:error, level, _} -> level end)
-    |> Enum.max_by(&level_severity/1)
-  end
-
-  defp level_severity(:l1), do: 1
-  defp level_severity(:l2), do: 2
-  defp level_severity(:l3), do: 3
-  defp level_severity(:l4), do: 4
-
-  defp format_report(violations) do
-    violations
-    |> Enum.map(fn {:error, level, msg} -> "[#{level}] #{msg}" end)
-    |> Enum.join("\n")
-  end
-end
-```
-
-## Best Practices
-
-1. **Internalize Before Enforcing**: The doctrine works best when developers understand its philosophy rather than viewing it as an external constraint. The investigation-before-action principle of NO DOUBTS prevents the frustration of having NO MERCY reject incomplete work.
-
-2. **Use NABLA Transition Wisely**: Do not rush past the 0.95 confidence threshold. Thorough investigation during the NABLA phase means fewer rejections during the NM/ND execution phase. Time invested in understanding pays dividends in execution quality.
-
-3. **Treat Violations as Learning**: L1 and L2 violations are signals that the development process needs adjustment, not punishments. The violation protocol exists to maintain quality, not to create fear.
-
-4. **Leverage Automation**: The enforcement architecture handles most compliance checking automatically. Rely on pre-commit hooks and CI gates rather than manual review for doctrine compliance.
-
-5. **Complete Small Units**: The doctrine's completeness requirement is most easily satisfied by working in small, focused increments. Each commit should be a complete, tested, production-ready unit of work.
-
-6. **Embrace the Regression Test Protocol**: Treat every bug fix as an opportunity to strengthen the test suite. The regression test protocol is not overhead -- it is the mechanism that prevents the same bug from recurring.
-
-## Common Pitfalls
-
-- **Treating NM/ND as Optional**: The doctrine has no exception mechanism. Attempting to bypass it (e.g., `--no-verify`) triggers the highest violation level (L4). Accept the constraints and work within them.
-
-- **Confusing NO MERCY with Perfectionism**: NO MERCY demands completeness, not perfection. Code must be production-ready and tested, but iterative improvement is expected. The key distinction is between shipping incomplete work (forbidden) and shipping complete work that will later be enhanced (acceptable).
-
-- **Skipping the NO DOUBTS Phase**: Rushing to implementation without thorough investigation leads to L3 violations when the implementation proves incomplete. The investigation phase is not optional overhead -- it is a mandatory prerequisite.
-
-- **Attempting Partial Compliance**: The doctrine's enforcement block requires `compliance: mandatory`. There is no `compliance: partial` or `compliance: best_effort`. Either the component is fully compliant or it is rejected.
-
-- **Batching Quality Fixes**: NO MERCY requires immediate remediation. Accumulating quality issues for a "cleanup sprint" violates the doctrine. Fix issues at the moment they are discovered.
-
-## Integration with Platform Systems
-
-### Quality Gates Integration
-
-The [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) pipeline is the primary enforcement mechanism for NM/ND. Each gate stage enforces specific doctrine requirements:
-
-| Gate Stage | NM/ND Requirement | Violation Level on Failure |
-|------------|-------------------|---------------------------|
-| Compilation | Zero warnings | L2 |
-| Credo | Code pattern compliance | L1-L2 |
-| Dialyzer | Type correctness | L2 |
-| Tests | Functional correctness | L2-L3 |
-| QDP Scan | No forbidden patterns | L3 |
-| Custom Checks | Domain-specific rules | L2 |
-| Integration | Cross-app contracts | L2-L3 |
-
-### AIAD Standard Integration
-
-Every AIAD component -- agents, commands, pipelines, policies, adapters -- carries the mandatory enforcement block. The AIAD standard defines the block format, version requirements, and compliance validation rules. The `./aiad/bin/aiad index` command validates all components during indexing.
-
-### Session Lifecycle Integration
-
-The SessionLifecycle GenServer enforces NM/ND at session boundaries:
-
-- **Session Start**: Baseline capture, context loading, issue creation
-- **Pre-Command**: Fast quality gate check
-- **Post-Command**: Quick autoevolve scan
-- **Session End**: Full quality gates, context save, push verification
-
-## Related Concepts
-
-- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Zero tolerance enforcement arm of the doctrine
-- [NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) - Evidence-based execution arm of the doctrine
-- [Violation Protocol](@/glossary/violation-protocol.md) - L1-L4 escalation levels for doctrine breaches
-- [AIAD](@/glossary/aiad.md) - Agent standard carrying mandatory NM/ND enforcement blocks
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Automated enforcement pipeline implementing NM/ND
-- [Trinity Gate](@/glossary/trinity-gate.md) - Verification gate enabling the NABLA-to-NM/ND transition
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - First enforcement point for NM/ND compliance
-- [Session Discipline](@/glossary/session-discipline.md) - Development workflow protocol governed by NM/ND
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework governing the investigation phase
-- [Regression Test](@/glossary/regression-test.md) - Mandatory testing protocol under NM/ND
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) - Cross-session quality state persistence
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Agents Registry](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - All 530+ agents carrying NM/ND enforcement
-- [Commands Registry](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Commands implementing NM/ND enforcement
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Odlišení od příbuzných jevů
+
+NM/ND je nutné odlišit od perfekcionismu. Text doktríny sice používá slova jako „dokonalost“,
+ale jeho operační požadavky se týkají dokončenosti a ověřitelnosti, nikoli bezchybnosti:
+dílo smí být později vylepšeno, nesmí však být vydáváno za hotové, když hotové není (Korčák,
+2025a). [Perfekcionismus](@/glossary/perfekcionismus.md) v psychologickém smyslu je naproti
+tomu vztah člověka k sobě samému, v němž se hodnota osoby měří neúprosnými standardy a
+sebekritikou (Frost, Marten, Lahart a Rosenblate, 1990). Doktrína se v tomto bodě sama
+vymezuje větou, že tvrdost patří chybám, a ne lidem (Korčák, 2025a).
+
+Ještě důležitější je odlišení od ideologické jistoty. Rameno No Doubts nevylučuje
+pochybnost o datech, ale vylučuje váhání poté, co data byla shromážděna a vyhodnocena; zůstává
+tedy podřízeno ověřování a otevřené revizi, jakmile se objeví nový doklad (Popper, 1959).
+Totalistická skupina pracuje opačně: pochybnost potlačuje dříve, než se ji podaří ověřit, a
+odpovědnost za rozpor přenáší na pochybujícího (Lifton, 1961). Psychologie tuto potřebu
+rychlého uzavření popisuje jako „uchopení a zamrznutí“, kdy člověk pod tlakem přijme první
+přijatelný úsudek a dále ho chrání před novými informacemi (Kruglanski a Webster, 1996).
+Rozdíl mezi doktrínou a jejím zneužitím tak leží v tom, zda bod uzavření stanoví důkazy, nebo
+autorita; podrobněji ho rozebírá heslo [falsifikace](@/glossary/falsifikace.md).
+
+## Organizační rámec a uplatnění v práci s poznáním
+
+V organizaci znalostní práce lze doktrínu převést do tří pravidel, která kompendium uplatňuje
+i samo na sebe. Žádná stránka knihy nesmí být pahýlem ani ohlášením budoucího obsahu, každé
+tvrzení musí nést ověřitelný zdroj a nejistý údaj se raději vynechá, než aby byl vydáván za
+jistý; jde o přímou analogii požadavků No Mercy na úplnost a No Doubts na doložení (Korčák,
+2025a). Takové nastavení odpovídá tomu, co Lorraine Code nazývá epistemickou odpovědností:
+povinnosti poznávajícího ručit za to, jak k přesvědčení dospěl, a ne jen za jeho obsah (Code,
+1987).
+
+Pro tým je podstatné, že doktrína klade důraz na strukturu, nikoli na osobní hrdinství.
+Kontroly v nástrojích chrání před tím, aby se standard rozmělnil pod časovým tlakem, což je
+podle literatury o organizačních nehodách typická cesta, jíž se odchylka od pravidla postupně
+stane normou (Vaughan, 1996). Zároveň však organizační výzkum ukazuje, že tvrdá pravidla
+fungují jen v prostředí, v němž je bezpečné chybu přiznat; tam, kde ohlášení chyby vede k
+trestu, se chyby skrývají (Edmondson, 1999). Doktrína proto v kompendiu platí pro výstupy a
+tvrzení, nikoli pro hodnocení lidí, jak rozvádí oddíl
+[organizační obrana](@/kompendium/organizational-defense/_index.md).
+
+## Význam pro epistemickou obranu
+
+Pro čtenáře, který se zabývá manipulací, nabízí NM/ND užitečný model zdravé jistoty. Daniel
+Kahneman ukázal, že pocit jistoty vzniká z koherence příběhu, a ne z kvality důkazů, takže
+subjektivní přesvědčení samo o sobě nic neříká o pravdivosti (Kahneman, 2011). Doktrína tento
+poznatek obrací v pravidlo: jistota je oprávněná jen tehdy, když ji podepírá vnější doklad,
+který může zkontrolovat i někdo jiný, a právě to odlišuje rozhodnost od sebejistoty, kterou
+kniha popisuje jako varovný znak (Korčák, 2025a).
+
+Druhým přínosem je důraz na paměť chyb. Požadavek, aby se chyba, která se jednou projevila,
+už nikdy nepropustila, odpovídá klinické zkušenosti, že zotavení z manipulativního vztahu
+vyžaduje pojmenovat vzorec, který působil, a ne jen jednotlivou epizodu (Herman, 1992).
+Terapeut nebo vyšetřovatel může z doktríny převzít postoj, v němž se rozpoznaný mechanismus
+zapisuje tak, aby příště zachytil i podobný případ, obdobně jako regresní test zachycuje
+návrat stejné vady (Beck, 2002). Praktickou podobu rozpracovává oddíl
+[obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md).
+
+## Meze a otevřené otázky
+
+Hlavní mezí doktríny je, že práh jistoty je číslem jen zdánlivě přesným. Míra důvěry 0,95 je
+konvence, jejíž výpočet závisí na modelu, a výzkum expertního úsudku ukazuje, že odhadované
+pravděpodobnosti bývají špatně kalibrované, zvlášť u lidí s jednou velkou teorií (Tetlock,
+2005). Kniha proto práh nepovažuje za objektivní míru pravdy, ale za procedurální závazek, že
+se před rozhodnutím musí zkoumat a že rozhodnutí lze znovu otevřít.
+
+Druhou otevřenou otázkou je přenos jazyka. Výrazy jako „žádná milost“ nebo „bez výjimek“
+jsou v technickém kontextu metaforou pro neúprosnost kontrol, v lidském kontextu však mohou
+fungovat jako načtený jazyk, který ukončuje diskusi dříve, než začne (Lifton, 1961). Irving
+Janis ukázal, že skupiny s vysokou soudržností a silným vedením mají sklon potlačovat
+nesouhlas a přeceňovat vlastní neomylnost (Janis, 1972). Doktrína, která má sloužit epistemické
+integritě, si proto musí uchovat i protiváhu: legitimní místo pro pochybnost, která přichází
+s novým dokladem, a vědomí, že také „dokončená“ teorie zůstává podle Lakatose jen dočasně
+chráněným jádrem výzkumného programu (Lakatos, 1970).
+
+## Literatura
+
+- Beck, K. (2002). *Test-driven development: By example*. Addison-Wesley.
+- Clifford, W. K. (1877). The ethics of belief. *Contemporary Review, 29*, 289–309.
+- Code, L. (1987). *Epistemic responsibility*. University Press of New England.
+- Cunningham, W. (1992). The WyCash portfolio management system. In *OOPSLA '92: Addendum to
+  the proceedings on object-oriented programming systems, languages, and applications*. ACM.
+- Edmondson, A. (1999). Psychological safety and learning behavior in work teams.
+  *Administrative Science Quarterly, 44*(2), 350–383.
+- Frost, R. O., Marten, P., Lahart, C., & Rosenblate, R. (1990). The dimensions of
+  perfectionism. *Cognitive Therapy and Research, 14*(5), 449–468.
+- Herman, J. L. (1992). *Trauma and recovery*. Basic Books.
+- Janis, I. L. (1972). *Victims of groupthink*. Houghton Mifflin.
+- Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
+- Korčák, T. (2025a). *NO MERCY, NO DOUBTS – AIAD execution doctrine* (verze 2.0.0). Prismatic
+  Platform, interní dokument `.aiad/doctrine/no-mercy-no-doubts.doctrine.md`.
+- Korčák, T. (2025c). *NMND – Žádná milost, žádné pochyby (Enforcement Policy)*. Prismatic
+  Platform, interní dokument `.aiad/policies/no-mercy-no-doubts-enforcement.policy.md`.
+- Korčák, T. (2026a). *Addiction Preservation Doctrine* (verze 1.0.0). Prismatic Platform,
+  interní dokument `.aiad/doctrine/addiction-preservation.doctrine.md`.
+- Kruglanski, A. W., & Webster, D. M. (1996). Motivated closing of the mind: „Seizing“ and
+  „freezing“. *Psychological Review, 103*(2), 263–283.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes.
+  In I. Lakatos & A. Musgrave (Eds.), *Criticism and the growth of knowledge*. Cambridge
+  University Press.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Ohno, T. (1988). *Toyota production system: Beyond large-scale production*. Productivity
+  Press.
+- Peirce, C. S. (1877). The fixation of belief. *Popular Science Monthly, 12*, 1–15.
+- Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson. (Původně *Logik der
+  Forschung*, 1934.)
+- Simon, H. A. (1955). A behavioral model of rational choice. *Quarterly Journal of
+  Economics, 69*(1), 99–118.
+- Tetlock, P. E. (2005). *Expert political judgment: How good is it? How can we know?*
+  Princeton University Press.
+- Vaughan, D. (1996). *The Challenger launch decision: Risky technology, culture, and deviance
+  at NASA*. University of Chicago Press.
+- Wald, A. (1947). *Sequential analysis*. Wiley.
+
+## Související
+
+**Doktrína a její nástroje**
+
+- [No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md) – myšlenkové zdroje hesla a jeho
+  etická hranice.
+- [Protokol porušení](@/glossary/violation-protocol.md) – stupně porušení doktríny a odpověď na
+  ně.
+- [QDP](@/glossary/qdp.md) – metrika, jíž platforma měřila dluh kvality.
+- [AIAD](@/glossary/aiad.md) – standard, který doktrínu ukládá každé specifikaci agenta.
+
+**Epistemický rámec**
+
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – fáze zkoumání, kterou doktrína uzavírá.
+- [Trinity Gate](@/glossary/trinity-gate.md) – kontrola, jejímž průchodem je podmíněn přechod
+  k jednání.
+- [Falsifikace](@/glossary/falsifikace.md) – kritérium, které drží rozhodnou jistotu otevřenou
+  revizi.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – protiváha, bez níž rozhodnost
+  přechází v sebejistotu.
+
+**Kontext knihy**
+
+- [Doktrinální rámec](@/kompendium/02-doktrinalni-ramec/_index.md) – dva významy doktríny
+  v kompendiu.
+- [Vztah k NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak kniha navazuje na
+  epistemický rámec platformy.
+- [Perfekcionismus](@/glossary/perfekcionismus.md) – klinický jev, od něhož je třeba doktrínu
+  odlišit.

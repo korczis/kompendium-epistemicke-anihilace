@@ -1,85 +1,202 @@
 +++
-title = "EA-1-6-1-vzorec-guru-adept"
+title = "EA-1.6.1 Vzorec guru a adept – epistemická závislost"
 weight = 100
-description = "EA-1-6-1-vzorec-guru-adept — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
+description = "Vzorec guru a adept z hlediska epistemologie důvěry: kdy se oprávněná závislost na autoritě mění v suspenzi vlastního úsudku a jak to rozpoznat."
 
 [taxonomies]
-tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+tags = ["kompendium", "technique", "ea-taxonomy", "manipulace", "epistemologie", "kulty"]
 
 [extra]
-category = "kompendium-technique"
-related_terms = ["ea-1-2-2-memorni-rekonstrukce", "ea-1-3-1-immunization-against-falsification", "ea-1-3-2-sokratovska-past", "ea-1-1-1-selektivni-expozice", "ea-1-1-1", "ea-1-1-2-informacni-pretizeni"]
+category = "technika"
+related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-1-6-5", "charisma", "kult-osobnosti", "high-control-group", "bite-model"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 75
-ref_count_at_creation = 1
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Vymezení
 
-**EA 1 6 1 Vzorec Guru Adept** je technika klasifikovaná v Prismatic Kompendiu EA (Epistemická Anihilace) taxonomii. Strukturální stub zápis — plná specifikace včetně mechanismu manipulace, detekčních markerů, klinických případových studií, a profylaktických intervencí je součástí probíhající kompendiální výstavby.
+Vzorec guru a adept (EA-1.6.1) označuje v taxonomii kompendia asymetrický vztah, v němž jedna
+osoba získá nad druhou rozhodující epistemickou autoritu a druhá přestane podrobovat její
+výroky běžnému kritickému hodnocení. Hlavní pojednání vzorce, jeho kompoziční stavbu a
+historické příklady obsahuje stránka
+[vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md). Tato stránka
+k ní přistupuje z odlišného úhlu, z epistemologie důvěry: ptá se, kde přesně leží hranice mezi
+rozumnou závislostí na autoritě, bez níž se žádné poznání neobejde, a patologickou závislostí,
+kterou vzorec vytváří (Hardwig, 1985).
 
-Pro architekturu EA taxonomie viz [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md). Pro kontextové sekce viz odpovídající kapitolu v [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md).
+Výchozí teze je, že závislost sama o sobě problémem není. John Hardwig ukázal, že laik, který
+přebírá úsudek odborníka, jedná racionálně, protože většinu toho, co ví, nemůže sám ověřit, a
+že moderní poznání je ze své podstaty kolektivní (Hardwig, 1985). Linda Zagzebská tento závěr
+rozvedla v teorii epistemické autority: přijmout cizí úsudek je oprávněné tehdy, když člověk po
+svědomité reflexi dospěje k tomu, že se tak spíše přiblíží pravdě, než kdyby soudil sám
+(Zagzebski, 2012). Vzorec guru a adept je deformací právě této struktury. Autorita v něm
+přestává být podložena reflexí adepta a začíná ji nahrazovat.
 
-## See Also
+## Mechanismus
 
-- [Kompendium index](@/kompendium/_index.md)
-- [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md)
+Na úrovni struktury se vzorec projevuje třemi souběžnými posuny. Prvním je rozšíření domény:
+autorita, kterou si guru získal v jedné oblasti, kde může mít skutečnou kompetenci, se postupně
+vztahuje na oblasti, v nichž žádnou kompetenci nedoložil, od osobních vztahů po výklad světa.
+Alvin Goldman upozorňuje, že laik nemůže kompetenci odborníka posoudit přímo a musí se opírat o
+nepřímé ukazatele, jako je shoda s jinými odborníky, doložená úspěšnost a absence střetu zájmů;
+v rozvinutém vzorci jsou právě tyto ukazatele nedostupné (Goldman, 2001).
 
----
+Druhým posunem je uzavření validační smyčky. Adeptův pokrok, správnost jeho porozumění a
+nakonec i jeho hodnotu jako člověka posuzuje pouze guru, takže neexistuje vnější měřítko, s nímž
+by bylo možné hodnocení porovnat. Joel Kramer a Diana Alstadová popsali tuto strukturu jako
+jádro autoritářské podoby vztahu učitele a žáka: odevzdání vlastního úsudku se v ní vydává za
+duchovní pokrok, takže každá pochybnost se stává důkazem nedostatečné zralosti (Kramer a Alstad,
+1993). Robert Lifton týž obrat v prostředí myšlenkové reformy označil jako nadřazení doktríny
+nad osobu: kde se zkušenost člověka neshoduje s učením, je chybná zkušenost (Lifton, 1961).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Třetím posunem je personalizace pravdivosti. Výrok platí proto, že ho pronesl guru, a nikoli
+pro důvody, které ho podporují. Tento obrat odpovídá Weberovu popisu charismatické autority,
+která trvá jen potud, pokud ji stoupenci uznávají, a proto se brání každému testu, který by
+uznání mohl oslabit (Weber, 1922). Relační povahu takové autority podrobně rozebírá heslo
+[charisma](@/glossary/charisma.md). Výsledkem všech tří posunů je stav, který Janja Lalichová
+nazývá ohraničenou volbou: adept nadále rozhoduje, ale jen uvnitř rámce, jehož hranice určil
+někdo jiný (Lalich, 2004).
 
-## Manažerské shrnutí
+## Detekční markery
 
-**EA-1-6-1-vzorec-guru-adept** je aktivní uzel taxonomického grafu sekce `kompendium/techniques` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Pozorovatel pozná vzorec podle toho, jak adept zachází s důvody. Typickým znakem je, že na
+otázku, proč určité tvrzení považuje za pravdivé, odpovídá odkazem na osobu, nikoli na
+argument nebo doklad, a že tuto odpověď považuje za dostatečnou i v oblastech, kde guru nemá
+žádné zvláštní vzdělání (Goldman, 2001). Dalším znakem je asymetrie kritiky: chyby gurua se
+vysvětlují jako skrytý záměr nebo zkouška, chyby adepta jako selhání, což odpovídá Liftonově
+mystické manipulaci (Lifton, 1961).
 
+Na úrovni prožívání adept typicky popisuje kombinaci intelektuálního uspokojení a trvalé
+nedostatečnosti, kterou může zmírnit jen další přiblížení se guruovi. Anthony Storr si ve
+srovnávací studii guruů všiml, že jejich autorita často spočívá na osobním zjevení, které nelze
+sdílet ani ověřit, a že kritika bývá vykládána jako nepřátelství (Storr, 1996). Pozorovatelným
+korelátem je zužování okruhu dalších zdrojů poznání a vztahů, které odpovídá informační a
+vztahové kontrole v [modelu BITE](@/glossary/bite-model.md) (Hassan, 1988).
 
-## Koncepční síť
+## Diferenciální diagnostika
 
-Vizualizace propojení **EA-1-6-1-vzorec-guru-adept** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Od vzorce je nutné odlišit legitimní vztahy s vysokou mírou důvěry, jako je učednictví v
+řemesle, doktorské vedení, psychoterapie nebo duchovní doprovázení. Rozhodující kritérium
+nabízí Zagzebská: legitimní autorita je taková, kterou by člověk při svědomité reflexi sám
+schválil, a vztah s ní proto snese otázku, proč by měl autoritě věřit (Zagzebski, 2012). V
+legitimním vztahu se navíc závislost s časem zmenšuje, protože cílem je samostatnost žáka; ve
+vzorci guru a adept se prohlubuje (Kramer a Alstad, 1993).
 
-```mermaid
-graph TD
-    C0["EA-1-6-1-vzorec-guru-adept"]
-    N1["EA-1-2-2-memorni-rekonstrukce"]
-    N2["EA-1-3-1-immunization-against-falsification"]
-    N3["EA-1-3-2-sokratovska-past"]
-    N4["EA-1.1.1 Selektivní expozice"]
-    N5["EA-1-1-1"]
-    N6["EA-1.1.2 Informační přetížení"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Od klinických stavů se vzorec odlišuje tím, že jde o vlastnost vztahu, a ne o diagnózu kterékoli
+z jeho stran. Silná oddanost adepta sama o sobě není symptomem a závislá porucha osobnosti
+vyžaduje stálý vzorec napříč vztahy a kontexty, nikoli jediný vztah (American Psychiatric
+Association, 2013). Podobně narcistické rysy gurua, které popisuje Jerrold Post, patří do
+standardního klinického posouzení, a ne do laického soudu (Post, 1986).
 
-## Související pojmy
+## Klinický a právní rámec
 
-- [EA-1-2-2-memorni-rekonstrukce](@/kompendium/techniques/ea-1-2-2-memorni-rekonstrukce.md) — slug `ea-1-2-2-memorni-rekonstrukce`
-- [EA-1-3-1-immunization-against-falsification](@/kompendium/techniques/ea-1-3-1-immunization-against-falsification.md) — slug `ea-1-3-1-immunization-against-falsification`
-- [EA-1-3-2-sokratovska-past](@/kompendium/techniques/ea-1-3-2-sokratovska-past.md) — slug `ea-1-3-2-sokratovska-past`
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — slug `ea-1-1-1-selektivni-expozice`
-- [EA-1-1-1](@/kompendium/techniques/ea-1-1-1.md) — slug `ea-1-1-1`
-- [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md) — slug `ea-1-1-2-informacni-pretizeni`
+Klinik se se vzorcem setkává nejčastěji v jeho důsledcích: u člověka, který vztah opustil a
+zjišťuje, že ztratil důvěru ve vlastní úsudek, nebo u člověka, který ve vztahu setrvává a
+přichází kvůli úzkosti, vyčerpání či konfliktu s blízkými. Lifton zdůraznil, že po odchodu
+z totalistického prostředí je nutné obnovit schopnost samostatného úsudku dříve, než je člověk
+schopen vztah přehodnotit (Lifton, 1961). Marc Galanter na empirických datech ukázal, že
+členství ve skupině kolem charismatické postavy může přechodně snižovat psychické obtíže, což
+vysvětluje, proč odchod bývá spojen se zhoršením (Galanter, 1989).
 
-## Navigace
+Právní rámec vzorce samotného neexistuje, protože důvěra v učitele není protiprávní. Relevantní
+se stává tam, kde vztah přechází v nátlak, zneužití závislosti nebo majetkový prospěch. Evan
+Stark v pojmu coercive control, tedy donucující kontroly, ukázal, že škodlivost takových vztahů
+spočívá v kumulativním omezení svobody, a ne v jednotlivých incidentech (Stark, 2007); tento
+přístup převzala například anglická úprava Serious Crime Act 2015. Podrobnosti rozebírá heslo
+[coercive control](@/glossary/coercive-control.md).
 
-- **Nadřazená sekce**: [kompendium/techniques](@/kompendium/techniques/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
-  - [EA-1-1-1](@/kompendium/techniques/ea-1-1-1.md)
-  - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
-  - [EA-1-1-2](@/kompendium/techniques/ea-1-1-2.md)
-  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Obrana a neutralizace
+
+Hlavní obranou je udržet podmínky, za nichž je závislost na autoritě rozumná. Goldmanovy nepřímé
+ukazatele lze převést na otázky, které si člověk klade průběžně: zda se tvrzení autority shodují
+s tím, co říkají jiní odborníci, zda má autorita doloženou úspěšnost právě v dané oblasti a zda
+nemá na přijetí tvrzení osobní zájem (Goldman, 2001). Užitečný je i test oddělení obsahu od
+osoby, tedy otázka, zda by člověk tvrzení přijal, kdyby je pronesl někdo jiný (Lifton, 1961).
+
+Na institucionální úrovni chrání před vzorcem vícečetné vedení, nezávislé hodnocení pokroku a
+kultura, v níž je odchod od učitele legitimní volbou, jak rozvádí oddíl
+[hodnocení mentora](@/kompendium/self-defense-guides/27-mentor-evaluation.md) (Hassan, 1988).
+Příbuzný vzorec, v němž se adeptova pokora vůči guruovi rozšiřuje na celkovou nedůvěru ve
+vlastní poznání, popisuje stránka
+[zneužitá epistemická pokora](@/kompendium/techniques/ea-1-6-5.md) (Roberts a Wood, 2007).
+
+## Zotavení
+
+Zotavení po rozpadu vzorce je především obnovou kalibrované důvěry. Cílem není naučit člověka
+nevěřit nikomu, protože to by bylo jen další formou epistemické bezmoci, ale znovu vybudovat
+schopnost rozlišovat, komu a v čem věřit (Hardwig, 1985). Lalichová popisuje, že bývalí členové
+skupin potřebují pochopit, jak se jejich volby postupně zužovaly, aby mohli přijmout, že
+rozhodovali v dobré víře, a přitom převzít odpovědnost za další kroky (Lalich, 2004).
+
+Profesionál by měl postiženého vést k porozumění potřebám, které vztah naplňoval, například
+potřebě smyslu, uznání nebo jistoty, protože právě nenaplněné potřeby vystavují člověka riziku
+dalšího podobného vztahu (Galanter, 1989). Postup obnovy důvěry rozvádí protokol
+[obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) a širší rámec
+[protokoly zotavení](@/kompendium/recovery-protocols/_index.md) (Herman, 1992).
+
+## Meze a otevřené otázky
+
+Epistemologie důvěry neposkytuje ostrou hranici mezi rozumnou a patologickou závislostí; obě
+leží na kontinuu a Zagzebské kritérium svědomité reflexe je obtížné použít zvenčí, protože
+adept své rozhodnutí obvykle považuje za reflektované (Zagzebski, 2012). Otevřenou otázkou
+zůstává, jak vzorec funguje ve zprostředkovaných vztazích, kde guru adepta osobně nezná a
+autorita vzniká v online komunitách; Goldmanovy ukazatele jsou tam formálně dostupné, ale
+algoritmicky filtrované (Goldman, 2001). Text proto tyto aplikace uvádí jako hypotézu.
+
+## Literatura
+
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Galanter, M. (1989). *Cults: Faith, healing, and coercion*. Oxford University Press.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and
+  Phenomenological Research, 63*(1), 85–110.
+- Hardwig, J. (1985). Epistemic dependence. *The Journal of Philosophy, 82*(7), 335–349.
+- Hassan, S. (1988). *Combatting cult mind control*. Park Street Press.
+- Herman, J. L. (1992). *Trauma and recovery*. Basic Books.
+- Kramer, J., & Alstad, D. (1993). *The guru papers: Masks of authoritarian power*. Frog, Ltd.
+- Lalich, J. (2004). *Bounded choice: True believers and charismatic cults*. University of
+  California Press.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Post, J. M. (1986). Narcissism and the charismatic leader-follower relationship. *Political
+  Psychology, 7*(4), 675–688.
+- Roberts, R. C., & Wood, W. J. (2007). *Intellectual virtues: An essay in regulative
+  epistemology*. Oxford University Press.
+- Stark, E. (2007). *Coercive control: How men entrap women in personal life*. Oxford
+  University Press.
+- Storr, A. (1996). *Feet of clay: Saints, sinners, and madmen: A study of gurus*. Free Press.
+- Weber, M. (1922). *Wirtschaft und Gesellschaft*. J. C. B. Mohr (Paul Siebeck).
+- Zagzebski, L. T. (2012). *Epistemic authority: A theory of trust, authority, and autonomy in
+  belief*. Oxford University Press.
+
+## Související
+
+**Techniky taxonomie EA**
+
+- [Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – hlavní
+  pojednání vzorce, jeho kompozice a historické příklady.
+- [EA-1.6.5 Zneužitá epistemická pokora](@/kompendium/techniques/ea-1-6-5.md) – rozšíření
+  podřízenosti na celkovou nedůvěru ve vlastní poznání.
+- [EA-1.6 Falešný paradigmatický nárok](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md)
+  – doktrinální rámec, který guruovu autoritu imunizuje vůči kritice.
+
+**Pojmy glosáře**
+
+- [Charisma](@/glossary/charisma.md) – relační autorita, na níž vzorec staví.
+- [Kult osobnosti](@/glossary/kult-osobnosti.md) – kolektivní podoba personalizované pravdivosti.
+- [Model BITE](@/glossary/bite-model.md) – rámec pro rozpoznání informační a vztahové kontroly.
+
+**Kapitoly a kazuistiky**
+
+- [Kapitola 1 – Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md) –
+  kompoziční vzorce, k nimž EA-1.6.1 patří.
+- [Totalizace akademické supervize](@/kompendium/case-studies/01-akademicka-supervize-totalizace.md)
+  – anonymizovaná kazuistika vzorce v doktorském vedení.
+
+**Obrana a zotavení**
+
+- [Hodnocení mentora](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – průběžné
+  ověřování legitimity autority.
+- [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – postup
+  obnovy kalibrované důvěry po odchodu ze vztahu.

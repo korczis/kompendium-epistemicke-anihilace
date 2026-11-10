@@ -1,104 +1,170 @@
 +++
 title = "Lebenswelt"
 weight = 100
-description = "Lebenswelt — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Lebenswelt jako kategorie taxonomie EA: zásah do předteoretických samozřejmostí, jeho znaky, odlišení od traumatu a psychózy, obrana a obnova sdíleného světa."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "zakladni-kategorie", "fenomenologie", "filozofie", "trauma"]
 
 [extra]
-category = "kompendium-sub"
+category = "zakladni-kategorie"
 related_terms = ["kapitola-1", "lakatos", "falsifikovatelnost", "delegitimizace", "hermeneutika", "tom-exploitation"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
-quality_score = 80
+date_modified = "2026-11-10"
 +++
 
-## Definice
+## Vymezení a místo v taxonomii
 
-**Lebenswelt** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+Lebenswelt, česky přirozený nebo žitý svět, označuje v pozdní Husserlově filozofii předteoretický
+horizont samozřejmostí, v němž člověk žije dříve, než o čemkoli začne uvažovat (Husserl, 1936).
+Patří k němu jistota, že věci existují i bez našeho dohledu, že druzí lidé vnímají tentýž svět a
+že zítřek bude v hlavních rysech podobný dnešku. Výklad pojmu a jeho místa v Husserlově díle
+podává heslo [Lebenswelt](@/glossary/lebenswelt.md) v glosáři; tato stránka ho používá jako
+kategorii kapitoly 3, tedy jako nejhlubší vrstvu, kterou mohou techniky epistemické anihilace
+zasáhnout.
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+V taxonomii kompendia má tato kategorie zvláštní postavení. Většina technik se týká přesvědčení,
+výkladů nebo vztahů, které lze vědomě reflektovat; zásah do Lebenswelt však mění samotné pozadí,
+na němž se přesvědčení tvoří, a proto ho postižený obvykle nedokáže pojmenovat (Schutz a
+Luckmann, 1973). Kategorie navazuje na sesterské stránky
+[fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) a
+[hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md), které popisují vyšší vrstvy
+téže stavby.
 
-## Filozofický kontext
+## Teoretický původ
 
-Koncept **Lebenswelt** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+Husserl zavedl pojem Lebenswelt v pozdním díle o krizi evropských věd, kde tvrdil, že
+matematizovaná přírodověda zapomněla na svůj původ v žitém světě a že každý vědecký pojem nakonec
+čerpá smysl z předteoretické zkušenosti (Husserl, 1936). Jan Patočka ve své habilitační práci
+téhož roku rozpracoval přirozený svět jako filozofický problém a zdůraznil jeho
+historickou a společenskou povahu (Patočka, 1936). Alfred Schütz převedl pojem do sociologie jako
+svět každodenního života, jehož struktury sdílíme s druhými a bereme za dané, dokud nás něco
+nepřinutí je zpochybnit (Schütz, 1932; Schutz a Luckmann, 1973).
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+Peter Berger a Thomas Luckmann ukázali, že tento svět samozřejmostí je společensky konstruován a
+udržován každodenní komunikací, a proto je zranitelný, když se komunikační struktury rozpadnou
+(Berger a Luckmann, 1966). Harold Garfinkel experimentálně prokázal, jak silnou úzkost vyvolá
+narušení i drobných samozřejmostí běžné interakce (Garfinkel, 1967). Jürgen Habermas popsal
+kolonizaci žitého světa, tedy pronikání logiky trhu a byrokracie do oblastí, které se dříve
+řídily dorozuměním (Habermas, 1981).
 
-## Klinická a operační relevance
+## Mechanismus a pozorovatelné znaky
 
-V due-diligence praxi a klinickém poradenství se **Lebenswelt** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+Zásah do Lebenswelt se strukturálně liší od běžné manipulace tím, že nemíří na konkrétní
+přesvědčení, ale na samozřejmosti, z nichž přesvědčení vyrůstají. Ronnie Janoff-Bulmanová v
+teorii otřesených předpokladů ukázala, že trauma rozbíjí tři základní implicitní jistoty: že svět
+je převážně dobrý, že je smysluplný a že já sám mám hodnotu (Janoff-Bulman, 1992). Manipulativní
+prostředí může tytéž jistoty narušovat pozvolna a bez jediné traumatické události, například
+soustavným zpochybňováním toho, co druzí lidé vnímají, nebo nepředvídatelným střídáním pravidel.
 
-## Detekční vztah
+Pozorovatel rozpozná zásah do Lebenswelt podle znaků, které se týkají spíše tónu než obsahu
+výpovědí. Postižený popisuje, že svět „přestal být samozřejmý“, že každou běžnou situaci musí
+vědomě vyhodnocovat, a že ztratil jistotu, zda druzí vidí totéž co on (Garfinkel, 1967). Patří
+sem také ztráta důvěry v kontinuitu času, kdy budoucnost přestává být představitelná. Tyto znaky
+zachycují signatury
+[nejistoty o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)
+a [temporální dezorientace](@/kompendium/detection-signatures/29-phenomenological-temporal-disorientation.md);
+krajní podobu popisuje heslo [epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md).
 
-Pro praktickou detekci konzultujte:
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+Fenomenologicky jde o zážitek ztráty pozadí. Schütz a Luckmann popisují, že žitý svět je dán
+v modu „a tak dále“: očekáváme, že se věci budou chovat jako dosud (Schutz a Luckmann, 1973).
+Když tato očekávání opakovaně selhávají, člověk se ocitá v trvalé ostražitosti, která vyčerpává a
+paradoxně zvyšuje závislost na tom, kdo nabízí nový, jednoznačný řád (Berger a Luckmann, 1966).
 
+## Odlišení od příbuzných jevů
 
-## See Also
+Zásah do Lebenswelt je třeba odlišit od běžných životních změn, například stěhování, emigrace
+nebo ztráty blízkého, které rovněž otřásají samozřejmostmi, ale nemají manipulativní zdroj a
+obvykle se postupně vstřebají (Schutz a Luckmann, 1973). Od posttraumatické stresové poruchy se
+liší tím, že nemusí být vázán na jedinou ohrožující událost, i když se s ní může kombinovat;
+Janoff-Bulmanová ukazuje, že otřesení předpokladů je společným mechanismem obou (Janoff-Bulman,
+1992).
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Od klinických stavů je nutné oddělit derealizaci, depersonalizaci a prodromální fáze psychózy,
+které rovněž mění prožívání samozřejmosti světa (American Psychiatric Association, 2013). U
+psychózy se ztráta samozřejmosti často dostavuje bez vnější příčiny a je provázena dalšími
+příznaky, kdežto u manipulace bývá zjistitelný vztahový nebo skupinový kontext a obsah
+zpochybněných samozřejmostí s ním souvisí. Rozlišení rozvádí oddíl
+[diferenciální diagnostiky EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
 
----
+## Klinický, právní a organizační rámec
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Klinicky je kategorie důležitá pro správné pořadí intervencí. Pokud je narušen žitý svět, nemá
+smysl začínat prací s jednotlivými přesvědčeními, protože chybí pozadí, na němž by šlo jejich
+pravdivost posoudit; prvním krokem je obnova bezpečí a předvídatelnosti každodenního života
+(Herman, 1992). Tomu odpovídá protokol [akutního zajištění bezpečí](@/kompendium/recovery-protocols/acute-safety-establishment.md)
+a pojetí obnovy žitého světa v oddílu [lifeworld](@/kompendium/recovery-protocols/lifeworld.md).
 
-## Manažerské shrnutí
+V organizační a právní rovině má Habermasova teze o kolonizaci žitého světa praktický význam:
+prostředí, v němž pracovní logika pohltí veškerý soukromý čas a vztahy, vytváří podmínky, za
+nichž se samozřejmosti mimo organizaci vytrácejí (Habermas, 1981). Ochrana hranic mezi pracovním
+a soukromým životem proto není jen otázkou pohodlí, ale i epistemické odolnosti zaměstnanců.
 
-**Lebenswelt** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana a zotavení
 
+Obranou je udržování více nezávislých světů, v nichž člověk žije: vztahů, míst a činností, které
+nepatří do jediného rámce a mohou sloužit jako srovnání (Berger a Luckmann, 1966). Pokud se
+samozřejmosti v jednom prostředí začnou rozpadat, jiný svět poskytne pevný bod. Prakticky tomu
+odpovídá průvodce [vztahovými kotvami](@/kompendium/self-defense-guides/42-relational-anchors.md).
 
-## Koncepční síť
+Zotavení po hlubokém zásahu do žitého světa je pomalé a vychází z obnovy rutin, tělesného rytmu
+a předvídatelných vztahů, na nichž se samozřejmosti znovu usadí (Janoff-Bulman, 1992). Judith
+Hermanová popisuje návrat do společenství jako závěrečnou fázi zotavení, v níž člověk znovu
+sdílí svět s druhými (Herman, 1992). Profesionál by měl počítat s tím, že tento proces nelze
+urychlit argumentací.
 
-Vizualizace propojení **Lebenswelt** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Meze a otevřené otázky
 
-```mermaid
-graph TD
-    C0["Lebenswelt"]
-    N1["3.1 Akademické techniky intelektuální manipulace"]
-    N2["Lakatos"]
-    N3["Falsifikovatelnost"]
-    N4["Delegitimizace"]
-    N5["Hermeneutika"]
-    N6["Tom Exploitation"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Pojem Lebenswelt je vágní a různí autoři ho používají v odlišných významech, od Husserlova
+transcendentálního pojetí po Schützův sociologický popis každodennosti (Schutz a Luckmann, 1973).
+Kompendium ho užívá v praktickém, deskriptivním smyslu a nečiní si nárok na rozhodnutí sporu
+o jeho filozofickém statusu. Otevřenou otázkou zůstává, jak empiricky měřit hloubku zásahu do
+žitého světa; dotazníky odvozené z modelu Janoff-Bulmanové zachycují spíše
+explicitní přesvědčení než předreflexivní pozadí, o něž v této kategorii jde (Janoff-Bulman,
+1992).
 
-## Související pojmy
+## Literatura
 
-- [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) — slug `kapitola-1`
-- [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) — slug `lakatos`
-- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) — slug `falsifikovatelnost`
-- [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md) — slug `delegitimizace`
-- [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md) — slug `hermeneutika`
-- [Tom Exploitation](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) — slug `tom-exploitation`
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Berger, P. L., & Luckmann, T. (1966). *The social construction of reality: A treatise in the
+  sociology of knowledge*. Doubleday.
+- Garfinkel, H. (1967). *Studies in ethnomethodology*. Prentice-Hall.
+- Habermas, J. (1981). *Theorie des kommunikativen Handelns*. Suhrkamp.
+- Herman, J. L. (1992). *Trauma and recovery*. Basic Books.
+- Husserl, E. (1936). Die Krisis der europäischen Wissenschaften und die transzendentale
+  Phänomenologie. *Philosophia, 1*.
+- Janoff-Bulman, R. (1992). *Shattered assumptions: Towards a new psychology of trauma*. Free
+  Press.
+- Patočka, J. (1936). *Přirozený svět jako filosofický problém*. Praha.
+- Schütz, A. (1932). *Der sinnhafte Aufbau der sozialen Welt*. Springer.
+- Schutz, A., & Luckmann, T. (1973). *The structures of the life-world*. Northwestern University
+  Press.
 
-## Navigace
+## Související
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
-  - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+**Pojmy glosáře**
+
+- [Lebenswelt](@/glossary/lebenswelt.md) – hlavní výklad pojmu v Husserlově díle.
+- [Epistemická bezdomovost](@/glossary/epistemicka-bezdomovost.md) – krajní ztráta pozadí
+  samozřejmostí.
+- [Epoché](@/glossary/epoche.md) – metodické zpřítomnění toho, co je jinak samozřejmé.
+
+**Kapitola 3 a teorie**
+
+- [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md) – sesterská kategorie:
+  vrstvy zkušenosti nad žitým světem.
+- [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md) – sesterská kategorie:
+  výklad, který z žitého světa čerpá.
+- [Scénář L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md) – terminální scénář, v němž
+  se žitý svět uzavírá do jediného prostředí.
+
+**Detekce a zotavení**
+
+- [Nejistota o realitě](@/kompendium/detection-signatures/28-phenomenological-reality-uncertainty.md)
+  – fenomenologická signatura ztráty samozřejmosti.
+- [Lifeworld](@/kompendium/recovery-protocols/lifeworld.md) – obnova žitého světa v protokolech
+  zotavení.
+- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – obrana více
+  nezávislými světy.

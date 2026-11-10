@@ -1,83 +1,169 @@
 +++
-title = "Bridge: Exit Protocols"
+title = "Most: Odchod (exit)"
 weight = 100
-description = "Bridge entry for exit protocols across kompendium recovery and intervention domains."
+description = "Odchod z kontrolujícího prostředí jako proces: jak pojem exit propojuje glosář s kazuistikami, krizovými protokoly a pojistkami čtvrté kapitoly."
 
 [taxonomies]
-tags = ["glossary-bridge", "kompendium", "interactive"]
+tags = ["glossary-bridge", "kompendium", "zotaveni", "kulty", "coercive-control"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["bridge-agent", "bridge-aiad", "bridge-autoheal", "bridge-3nl", "bridge-autoevolve", "bridge-blue-team"]
+related_terms = ["high-control-group", "coercive-control", "sektarska-konverze", "trauma-bonding", "informed-consent"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 75
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Vymezení a postavení v knize
 
-Bridge entry for exit protocols across kompendium recovery and intervention domains. This bridge entry is a structurally complete stub created during the
-2026-05-03 NLLB Phase 7 sweep — full integration with kompendium taxonomy
-and cross-domain references is part of ongoing knowledge-base buildout.
+Odchodem (anglicky *exit*) se v tomto kompendiu rozumí proces, jímž člověk opouští prostředí,
+které systematicky omezovalo jeho schopnost samostatně poznávat a rozhodovat: skupinu s vysokou
+mírou kontroly, vztah s donucující kontrolou, extremistické hnutí nebo organizaci s kultovní
+kulturou. Pojem má v knize i druhý, technický význam: ve čtvrté kapitole označuje zaručenou
+možnost účastníka výcvikové nebo simulační sekvence ji kdykoli opustit. Oba významy spojuje
+stejná myšlenka, kterou sociologie formulovala už dávno: odchod není jednorázový čin, ale
+postupná proměna role, která začíná pochybnostmi dlouho před fyzickým odchodem a končí teprve
+vytvořením nové identity „bývalého“ (Ebaugh, 1988).
 
-## See Also
+Most vede od glosářových hesel [skupina s vysokou mírou kontroly](@/glossary/high-control-group.md),
+[coercive control](@/glossary/coercive-control.md) a [traumatické pouto](@/glossary/trauma-bonding.md),
+která vysvětlují, proč je odchod obtížný, ke kapitolám, které popisují, jak odchod probíhá a jak
+ho bezpečně provázet: ke kazuistikám odchodu, ke krizovým protokolům a k protokolu
+[zotavení po vyvedení z kultu](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md)
+(Lalich, 2004).
 
-- [Kompendium Glossary Bridges](@/kompendium/glossary-bridges/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## Teoretický most: proč je odchod obtížný
 
----
+Hirschmanova klasická analýza rozlišuje dvě reakce člena na úpadek organizace: odchod a
+hlas, tedy otevřené vyjádření nesouhlasu, přičemž loajalita oddaluje odchod a dává hlasu čas
+(Hirschman, 1970). Prostředí s vysokou mírou kontroly je charakteristické tím, že potlačuje obě
+možnosti současně: nesouhlas se trestá jako zrada a odchod se zatěžuje tak vysokými náklady, že
+se zdá nemyslitelný. Lifton tento druhý mechanismus popsal jako „rozhodování o existenci“
+(*dispensing of existence*), v němž skupina těm, kdo ji opouštějí, upírá plnohodnotnou lidskou
+existenci (Lifton, 1961). Kdo odchází, neopouští tedy jen organizaci, ale celý výklad světa, který
+mu skupina poskytovala.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Lalichová vysvětluje, proč lidé v takovém prostředí zůstávají, i když vnějšímu pozorovateli se
+jejich situace jeví jako neúnosná: skupina postupně ohraničuje pole voleb, takže setrvání se
+zevnitř jeví jako jediná racionální možnost (Lalich, 2004). Ebaughová na rozhovorech s lidmi,
+kteří opustili nejrůznější role, popsala typický průběh: první pochybnosti, hledání a
+poměřování alternativ, zlomový bod a budování nové role, v níž bývalá identita zůstává trvale
+přítomna (Ebaugh, 1988). Pro kliniku z toho plyne, že ambivalence a návraty nejsou selháním
+odchodu, ale jeho běžnou součástí.
 
-## Manažerské shrnutí
+V párových vztazích má odchod ještě jeden rozměr. Stark ukazuje, že donucující kontrola se
+rozchodem nekončí a často pokračuje jinými prostředky, například přes děti, finance nebo soudní
+řízení (Stark, 2007). Multicentrická studie případů vražd v partnerských vztazích zjistila, že
+odloučení od kontrolujícího partnera patřilo mezi významné rizikové faktory, což z období
+odchodu činí fázi zvýšeného rizika, a nikoli bezpečí (Campbell et al., 2003). Horgan na výpovědích
+lidí, kteří opustili extremistická hnutí, rozlišil odpoutání chování od změny přesvědčení: člověk
+může skupinu opustit dříve, než opustí její ideologii, a naopak (Horgan, 2009).
 
-**Bridge: Exit Protocols** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Odchod v kapitolách knihy
 
+Kazuistiky odchodu ilustrují tento průběh v různých prostředích, od
+[extrémní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md) přes
+[náboženské společenství](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md) až po
+[startupový kult](@/kompendium/case-studies/36-startup-cult-exit.md); všechny jsou složeny
+z typických prvků více situací a neodkazují ke konkrétním osobám. Krizová část knihy obsahuje
+protokol pro [akutní situace bývalých členů](@/kompendium/emergency-protocols/28-ex-cult-emergency.md),
+který počítá s krizemi v odstupu měsíců až let po odchodu a vychází mimo jiné z popisu Margaret
+Singerové, podle něhož se po odchodu objevují stavy „plování“ (*floating*), tedy náhlé návraty do myšlenkových vzorců skupiny vyvolané podněty z okolí (Singer,
+1995).
 
-## Koncepční síť
+Ve čtvrté kapitole má odchod podobu závazné pojistky. Právo účastníka
+[odvolat souhlas](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) a postup
+[nouzového vyvedení](@/kompendium/techniques/ea-4-2-10-emergency-extraction.md) jsou tím, co podle
+knihy odlišuje supervidovanou výcvikovou sekvenci od koercitivního prostředí: tam, kde je odchod
+volný a bez sankce, nemůže vzniknout Liftonova kontrola existence (Lifton, 1961). V organizacích
+se odchod stává zdrojem poznání o kultuře instituce; text o
+[výstupním rozhovoru](@/kompendium/organizational-defense/13-exit-interview-EA.md) ukazuje, jak
+z odcházejících získat informace o skryté kontrole, aniž by se rozhovor stal dalším nátlakem
+(Hirschman, 1970).
 
-Vizualizace propojení **Bridge: Exit Protocols** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Praktický důsledek
 
-```mermaid
-graph TD
-    C0["Bridge: Exit Protocols"]
-    N1["Bridge: agent"]
-    N2["Bridge: aiad"]
-    N3["Bridge: autoheal"]
-    N4["Bridge: 3nl"]
-    N5["Bridge: autoevolve"]
-    N6["Bridge: blue-team"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Pro klinika z mostu plyne, že práce s odcházejícím začíná bezpečím, nikoli rozborem ideologie.
+Hermanová řadí ustavení bezpečí na začátek celého zotavení a varuje před předčasnou prací
+s traumatickými obsahy (Herman, 1992). Poradenství při odchodu má být dobrovolné a postavené na
+informovaném souhlasu; historie nuceného „deprogramování“ ukazuje, že donucení k odchodu jen
+zrcadlí kontrolu, z níž má člověk vystoupit (Langone, 1993).
 
-## Související pojmy
+Pro vyšetřovatele a právníky plyne, že období odchodu vyžaduje hodnocení rizika a plán bezpečí.
+V českém právu umožňuje zákon č. 135/2006 Sb., kterým se mění některé zákony v oblasti ochrany
+před domácím násilím, vykázání násilné osoby ze společného obydlí, a přenáší tak náklady odchodu
+z ohrožené osoby na osobu ohrožující. Pro organizace plyne, že odcházející člen není problém
+k vyřešení, ale svědek, jehož výpověď může odhalit kontrolu, kterou zevnitř nikdo nepojmenoval
+(Ebaugh, 1988).
 
-- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) — slug `bridge-agent`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) — slug `bridge-autoheal`
-- [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md) — slug `bridge-3nl`
-- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) — slug `bridge-autoevolve`
-- [Bridge: blue-team](@/kompendium/glossary-bridges/bridge-blue-team.md) — slug `bridge-blue-team`
+Obecný, anonymně složený příklad ukazuje typický průběh. Člověk, který strávil řadu let ve
+skupině s vysokou mírou kontroly, si první pochybnosti připouští jen v soukromí a dlouho je
+vykládá jako vlastní selhání. Rozhodnutí odejít přichází až po události, která pochybnosti
+zviditelní, například po rozporu mezi tím, co vedení slibovalo, a tím, co se skutečně stalo. Po
+odchodu se střídají úleva a stesk po společenství, objevují se myšlenky na návrat a stará slovní
+spojení se vracejí v nečekaných chvílích. Ebaughová by tento průběh popsala jako přechod přes
+zlomový bod k budování role „bývalého“, v níž se minulá identita nevymaže, ale přeskupí (Ebaugh,
+1988).
 
-## Navigace
+## Meze a otevřené otázky
 
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+Velká část poznání o odchodu se opírá o retrospektivní výpovědi bývalých členů. Bromleyho
+sborník o odpadlictví ukazuje, že tyto výpovědi jsou utvářeny tím, jak člověk svou minulost
+dodatečně vykládá, a že jejich věrohodnost byla předmětem dlouhé odborné debaty (Bromley, 1988).
+Kniha proto kazuistiky nepoužívá jako důkaz o konkrétních skupinách, ale jako ilustraci struktury.
+Otevřenou otázkou zůstává, jak rozlišit zdravý odchod, po němž člověk integruje i hodnotné
+prvky bývalé zkušenosti, od odchodu, který jen vymění jeden uzavřený výklad světa za jiný
+(Horgan, 2009).
+
+## Literatura
+
+- Bromley, D. G. (Ed.). (1988). *Falling from the faith: Causes and consequences of religious
+  apostasy*. Sage.
+- Campbell, J. C., Webster, D., Koziol-McLain, J., Block, C., Campbell, D., Curry, M. A., et al.
+  (2003). Risk factors for femicide in abusive relationships: Results from a multisite case
+  control study. *American Journal of Public Health, 93*(7), 1089–1097.
+- Ebaugh, H. R. F. (1988). *Becoming an ex: The process of role exit*. University of Chicago
+  Press.
+- Herman, J. L. (1992). *Trauma and recovery*. Basic Books.
+- Hirschman, A. O. (1970). *Exit, voice, and loyalty: Responses to decline in firms,
+  organizations, and states*. Harvard University Press.
+- Horgan, J. (2009). *Walking away from terrorism: Accounts of disengagement from radical and
+  extremist movements*. Routledge.
+- Lalich, J. (2004). *Bounded choice: True believers and charismatic cults*. University of
+  California Press.
+- Langone, M. D. (Ed.). (1993). *Recovery from cults: Help for victims of psychological and
+  spiritual abuse*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Singer, M. T. (1995). *Cults in our midst*. Jossey-Bass.
+- Stark, E. (2007). *Coercive control: How men entrap women in personal life*. Oxford
+  University Press.
+
+## Související
+
+**Pojmy glosáře**
+
+- [Skupina s vysokou mírou kontroly](@/glossary/high-control-group.md) – prostředí, jehož
+  opuštění kniha popisuje.
+- [Coercive control](@/glossary/coercive-control.md) – vzorec, který rozchodem nekončí.
+- [Traumatické pouto](@/glossary/trauma-bonding.md) – důvod, proč odchod provázejí návraty.
+
+**Kazuistiky a protokoly**
+
+- [Odchod z extrémní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md) – odpoutání
+  chování a přesvědčení.
+- [Odchod z náboženského společenství](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md)
+  – odchod spojený se ztrátou rodiny a komunity.
+- [Akutní situace bývalých členů](@/kompendium/emergency-protocols/28-ex-cult-emergency.md) –
+  krizová péče v měsících a letech po odchodu.
+- [Zotavení po vyvedení z kultu](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md)
+  – dlouhodobý postup zotavení.
+
+**Pojistky a mosty**
+
+- [Odvolání souhlasu](@/kompendium/techniques/ea-4-2-6-consent-withdrawal.md) – zaručený odchod
+  z výcvikové sekvence.
+- [Výstupní rozhovor](@/kompendium/organizational-defense/13-exit-interview-EA.md) – odchod jako
+  zdroj poznání o organizaci.
+- [Most: Doprovod](@/kompendium/glossary-bridges/bridge-companion.md) – kdo odchod provází a
+  jaká rizika s sebou nese.

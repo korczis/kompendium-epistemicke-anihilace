@@ -1,81 +1,171 @@
 +++
 title = "Tautologie"
 weight = 100
-description = "Tautologie — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Tautologie v logice a v rétorice: výrok pravdivý ze své formy, který nic netvrdí, a jeho užití k ukončení otázky v uzavřeném myšlenkovém systému."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "logika", "filozofie", "manipulace", "kompendium"]
 
 [extra]
-category = "architecture"
-related_terms = ["adaptive-learning", "adversarial-architecture", "adversarial-conditions", "addiction-recovery", "accuracy", "adapter-pattern"]
+category = "logika a jazyk"
+related_terms = ["cirkularni-argumentace", "synteticke-analyticke", "thought-stopping", "newspeak", "logicka-koherence", "falsifikovatelnost"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 75
-ref_count_at_creation = 1
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Vymezení
 
-**Tautologie** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+Tautologie je v logice výrok, který je pravdivý při každém přiřazení pravdivostních hodnot
+svým složkám, tedy pravdivý pouze díky své logické formě, nezávisle na tom, jak se věci ve
+světě mají. Typickým příkladem je výrok „prší, nebo neprší“. Wittgenstein (1922) ukázal, že
+tautologie a kontradikce jsou krajními případy výrokové logiky: tautologie připouští všechny
+možné stavy světa, kontradikce žádný, a proto ani jedna o světě nic neříká. Tautologie podle
+něj nejsou nesmyslné, ale jsou bez obsahu; ukazují logickou strukturu jazyka, nikoli fakt.
 
-## See Also
+V rétorice a běžné řeči označuje tautologie výpověď, která v predikátu opakuje subjekt nebo
+jeho synonymum („zákon je zákon“, „pravda je to, co je pravdivé“), a v širším smyslu i
+zdůvodnění, které vrací otázku tam, odkud vyšla. Toto heslo zachycuje oba významy a jejich
+intelektuální historii. Pro kompendium je podstatné, že tautologická forma může vyvolávat
+dojem poznání tam, kde žádné nevzniklo; cílené vytváření takových struktur jako vzorec v
+taxonomii EA popisuje technika
+[tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md), k níž je
+toto heslo pojmovým základem (Barthes, 1957).
 
-- [Glossary index](@/glossary/_index.md)
+## Pojmová historie
 
----
+Logický pojem tautologie zformuloval Wittgenstein (1922) v *Traktátu*, kde zavedl metodu
+pravdivostních tabulek a s jejich pomocí charakterizoval logické pravdy jako tautologie.
+Tento výklad měl velký vliv na logický empirismus, který tvrdil, že pravdy logiky a
+matematiky jsou analytické, a proto nevypovídají o zkušenosti; podrobněji viz heslo
+[syntetické a analytické soudy](@/glossary/synteticke-analyticke.md) (Ayer, 1936).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Kritickou analýzu rétorické tautologie podal Roland Barthes (1957), který ji zařadil mezi
+figury moderního mýtu, tedy jazyka, jímž se kulturní konstrukce vydávají za přirozenost.
+Podle Barthese se k tautologii uchylujeme ve chvíli, kdy nám chybí vysvětlení, a tautologie
+pak plní funkci obrany: místo zdůvodnění nabízí opakování a místo otázky uzavřený svět.
+Barthes v ní viděl odmítnutí racionality, které se samo prezentuje jako zdravý rozum.
 
-## Manažerské shrnutí
+Teorie argumentace řadí tautologické zdůvodnění k bludu předpokládání toho, co se má
+dokázat, tedy *petitio principii*. Hamblin (1970) ve své kritické historii bludů ukázal, že
+tento blud je obtížné vymezit formálně, protože logicky platný argument vždy v jistém smyslu
+obsahuje svůj závěr v premisách; rozhodující je proto dialogický kontext, v němž premisa
+nemůže být přijata nezávisle na závěru. Walton (1989) tuto dialogickou perspektivu rozvedl
+do praktického nástroje pro posuzování argumentů.
 
-**Tautologie** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Mechanismus a pozorovatelné znaky
 
+V uzavřených myšlenkových systémech plní tautologie funkci ukončení otázky. Výroky typu „je
+to tak, protože to tak je“, „učení je pravdivé, protože je to pravda učení“ nebo „věrný člen
+je ten, kdo je věrný“ vypadají jako odpovědi, ale neposkytují žádnou informaci, kterou by
+bylo možné ověřit nebo vyvrátit. Lifton (1961) popsal v totalistickém prostředí jazyk
+zatížený klišé, jimiž se nejsložitější lidské problémy stlačují do krátkých, definitivně
+znějících frází; tautologie je jejich logicky nejčistší podobou. S tímto mechanismem souvisí
+heslo [thought-stopping](@/glossary/thought-stopping.md).
 
-## Koncepční síť
+Pozorovatel pozná tautologický vzorec podle několika znaků. Odpověď na otázku „proč“ se
+vrací k výchozímu tvrzení jinými slovy; klíčové pojmy jsou definovány navzájem, takže
+nelze vystoupit z kruhu; a pokus požádat o nezávislý doklad je vnímán jako nepochopení nebo
+neloajálnost. Detekční signatura
+[cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)
+popisuje tento vzorec v jazyce skupin. Orwell (1949) zachytil podobnou strukturu v jazyce,
+který zúžením slovníku znemožňuje formulovat otázky, na něž by tautologická odpověď nestačila.
 
-Vizualizace propojení **Tautologie** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Odlišení od příbuzných jevů
 
-```mermaid
-graph TD
-    C0["Tautologie"]
-    N1["Adaptive Learning"]
-    N2["Adversarial Architecture"]
-    N3["Adversarial Conditions"]
-    N4["Addiction Recovery"]
-    N5["Accuracy"]
-    N6["Adapter Pattern"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Logická tautologie sama o sobě není chybou. V logice a matematice jsou tautologie
+nezbytné, protože vyjadřují platné formy úsudku, a jejich prázdnota vůči světu je jejich
+přednost, nikoli vada (Wittgenstein, 1922). Problém nastává teprve tehdy, když se tautologie
+vydává za empirické zjištění nebo za zdůvodnění, které má přimět k jednání.
 
-## Související pojmy
+Běžné řečové tautologie typu „děti jsou děti“ nebo „válka je válka“ obvykle nejsou ani
+logickou chybou, ani manipulací. Grice (1975) je vysvětlil jako zjevné porušení konverzační
+maximy kvantity, které posluchače vede k hledání implikovaného smyslu, například „od dětí
+nelze čekat víc“. Rozhodující je, zda tautologie nese srozumitelný implikovaný obsah, s nímž
+lze nesouhlasit, nebo zda slouží k tomu, aby nesouhlas nebyl možný. Od
+[cirkulární argumentace](@/glossary/cirkularni-argumentace.md) se tautologie liší tím, že
+kruh je v ní obsažen v jediném výroku, zatímco cirkulární argument ho rozkládá do řetězce
+premis.
 
-- [Adaptive Learning](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-learning/) — slug `adaptive-learning`
-- [Adversarial Architecture](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-architecture/) — slug `adversarial-architecture`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
-- [Addiction Recovery](@/glossary/addiction-recovery.md) — slug `addiction-recovery`
-- [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/) — slug `accuracy`
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
+Od klinických jevů, jako je perseverace nebo stereotypní řeč u některých neurologických a
+psychiatrických stavů, je třeba manipulativní tautologii odlišit tím, že je situačně účelná
+a mluvčí v jiných kontextech mluví běžně; posouzení řeči jako symptomu patří do odborného
+klinického rámce (American Psychiatric Association, 2013).
 
-## Navigace
+## Klinický, právní a organizační rámec
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+V terapii lidí, kteří odešli z uzavřených skupin, se tautologické formule často objevují jako
+vnitřní hlas, který automaticky ukončuje pochybnost. Lifton (1961) zdůrazňoval, že obnova
+vlastního jazyka je součástí obnovy vlastního úsudku; terapeut může klientovi pomoci formule
+zpomalit a zeptat se, co přesně tvrdí a jak by se to dalo ověřit. Ve forenzní praxi má
+rozpoznání tautologie význam při hodnocení výpovědí i znaleckých posudků: závěr, který jen
+opakuje předpoklad, neposkytuje soudu žádný nový doklad (Walton, 1989).
+
+V organizacích se tautologie objevuje v podobě zdůvodnění typu „děláme to takto, protože je
+to náš postup“, které uzavírá diskusi o smyslu postupu. Organizační obrana spočívá v tom,
+že se u rozhodnutí vyžaduje zdůvodnění, které odkazuje k cíli nebo dokladu mimo samotné
+pravidlo (Popper, 1959).
+
+## Obrana a zotavení
+
+Základní obrannou otázkou je, co by se ve světě muselo změnit, aby byl výrok nepravdivý.
+Pokud nic, výrok neříká nic o světě, a nemůže tedy sloužit jako důvod k víře ani k jednání
+(Popper, 1959). Tato otázka souvisí s heslem
+[falsifikovatelnost](@/glossary/falsifikovatelnost.md). Druhým krokem je přeložit tautologii
+do implikovaného obsahu a ten posoudit samostatně; Grice (1975) ukazuje, že teprve
+explicitní formulace implikatury umožňuje s ní nesouhlasit.
+
+Zotavení zahrnuje postupné rozpouštění naučených formulí a jejich nahrazení otázkami. Pro
+člověka, jemuž léta tautologie poskytovaly pocit jistoty, může být jejich ztráta zpočátku
+úzkostná; Barthes (1957) poznamenává, že tautologie chrání před nejistotou, a proto je třeba
+nabídnout jiný zdroj bezpečí, nejlépe vztah, v němž je nejistota přípustná (Lifton, 1961).
+
+## Meze a otevřené otázky
+
+Hranice mezi legitimním vyjádřením nutné pravdy, pragmaticky smysluplnou řečovou tautologií
+a manipulativním ukončením otázky není ostrá a závisí na kontextu (Hamblin, 1970). Text proto
+neoznačuje tautologii za manipulativní podle formy, ale podle funkce v rozhovoru. Otevřenou
+otázkou zůstává, jak tautologické struktury působí v krátkých formátech digitální
+komunikace, kde se opakovaná fráze může šířit bez jakéhokoli kontextu; tento vztah zatím
+nemá pevné empirické zpracování (Barthes, 1957).
+
+## Literatura
+
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Ayer, A. J. (1936). *Language, truth and logic*. Victor Gollancz.
+- Barthes, R. (1957). *Mythologies*. Éditions du Seuil.
+- Grice, H. P. (1975). Logic and conversation. In P. Cole & J. L. Morgan (Eds.), *Syntax and
+  semantics 3: Speech acts* (pp. 41–58). Academic Press.
+- Hamblin, C. L. (1970). *Fallacies*. Methuen.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Orwell, G. (1949). *Nineteen eighty-four*. Secker & Warburg.
+- Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson.
+- Walton, D. N. (1989). *Informal logic: A handbook for critical argumentation*. Cambridge
+  University Press.
+- Wittgenstein, L. (1922). *Tractatus logico-philosophicus*. Kegan Paul.
+
+## Související
+
+**Pojmy glosáře**
+
+- [Cirkulární argumentace](@/glossary/cirkularni-argumentace.md) – rozložená podoba téhož
+  kruhu do řetězce premis.
+- [Syntetické a analytické soudy](@/glossary/synteticke-analyticke.md) – rozlišení, které
+  vysvětluje, proč tautologie o světě nic neříká.
+- [Thought-stopping](@/glossary/thought-stopping.md) – funkce, kterou tautologická formule v
+  uzavřené skupině plní.
+- [Newspeak](@/glossary/newspeak.md) – jazyk, který zúžením významů znemožňuje otázky.
+- [Logická koherence](@/glossary/logicka-koherence.md) – nárok na soudržnost, který
+  tautologie splňuje jen prázdně.
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – test, který tautologii odhalí.
+
+**Techniky a detekce**
+
+- [EA-5.1.17 Tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md)
+  – hlavní zpracování vzorce v taxonomii EA.
+- [Detekční signatura: Cirkulární definice](@/kompendium/detection-signatures/2-linguistic-circular-definitions.md)
+  – rozpoznání vzorce v jazyce skupin.
+- [EA-5.1.21 Sebe-referenční paradox](@/kompendium/techniques/ea-5-1-21-sebe-referencni-paradox.md)
+  – příbuzná struktura, v níž se výrok vztahuje sám k sobě.

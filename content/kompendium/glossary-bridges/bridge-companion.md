@@ -1,83 +1,178 @@
 +++
-title = "Bridge: Companion / Doprovod"
+title = "Most: Doprovod a podpůrná osoba"
 weight = 100
-description = "Bridge entry for companion / support-person concepts in recovery and clinical contexts."
+description = "Jak pojem doprovázející osoby propojuje glosářová hesla o izolaci a důvěře s kapitolami knihy o odchodu, zotavení a supervizi."
 
 [taxonomies]
-tags = ["glossary-bridge", "kompendium", "interactive"]
+tags = ["glossary-bridge", "kompendium", "zotaveni", "klinika", "trauma"]
 
 [extra]
 category = "kompendium-bridge"
-related_terms = ["bridge-autoheal", "bridge-agent", "bridge-aiad", "bridge-3nl", "bridge-autoevolve", "bridge-agent-tier"]
+related_terms = ["socialni-izolace", "secure-attachment", "reality-testing", "high-control-group", "coercive-control"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 75
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Vymezení a postavení v knize
 
-Bridge entry for companion / support-person concepts in recovery and clinical contexts. This bridge entry is a structurally complete stub created during the
-2026-05-03 NLLB Phase 7 sweep — full integration with kompendium taxonomy
-and cross-domain references is part of ongoing knowledge-base buildout.
+Doprovodem (anglicky *companion*, v klinické literatuře též podpůrná osoba) se v tomto kompendiu
+rozumí člověk, který postiženého provází procesem rozpoznání manipulace, odchodu z kontrolujícího
+prostředí a zotavení, aniž by sám převzal roli autority, která rozhoduje za něj. Může jít o osobu
+blízkou, o bývalého člena téže skupiny, o sociálního pracovníka nebo o terapeuta; rozhodující
+není profese, ale funkce: doprovázející osoba vrací do života postiženého nezávislý vnější bod,
+s nímž lze vlastní vnímání porovnat. Judith Hermanová tuto funkci formuluje jako výchozí podmínku
+zotavení po traumatu z dlouhodobé kontroly, které podle ní nemůže probíhat v izolaci, ale jen
+v obnovených vztazích (Herman, 1992).
 
-## See Also
+Tento most spojuje glosářová hesla, která popisují, co manipulace ničí, s kapitolami, které
+popisují, jak se to obnovuje. Na straně glosáře stojí především
+[sociální izolace](@/glossary/socialni-izolace.md) jako mechanismus kontroly,
+[bezpečná vazba](@/glossary/secure-attachment.md) jako vývojový základ důvěry a
+[testování reality](@/glossary/reality-testing.md) jako schopnost, kterou doprovod pomáhá
+obnovit. Na straně kapitol jde o protokoly zotavení, o průvodce sebeobranou a o bezpečnostní
+rámec čtvrté kapitoly, v němž je nezávislý supervizor strukturní pojistkou výcvikových sekvencí
+(Hassan, 1988).
 
-- [Kompendium Glossary Bridges](@/kompendium/glossary-bridges/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+## Teoretický most: izolace a obnova vnějšího srovnání
 
----
+Literatura o skupinách s vysokou mírou kontroly se shoduje v tom, že omezení vztahů mimo skupinu
+je jedním z ústředních mechanismů, jimiž si prostředí zajišťuje monopol na výklad reality. Robert
+Lifton tento mechanismus popsal jako kontrolu prostředí (*milieu control*), která neomezuje jen
+tok informací, ale i možnost člověka mluvit sám se sebou o tom, co prožívá (Lifton, 1961). Steven
+Hassan v modelu BITE řadí omezení vztahů k informační a behaviorální kontrole (Hassan, 1988) a
+Evan Stark ukazuje, že v párových vztazích plní izolace stejnou úlohu jako součást vzorce
+[coercive control](@/glossary/coercive-control.md), tedy donucující kontroly, jež postupně
+odstraňuje svědky a zdroje podpory (Stark, 2007).
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Ze sociální epistemologie plyne, proč je ztráta vnějších vztahů ztrátou poznávací, nikoli jen
+citovou. Poznání jednotlivce se z velké části opírá o svědectví druhých a o možnost vlastní
+úsudek konfrontovat s úsudkem jiných lidí; kdo o tuto možnost přijde, nemá podle čeho rozpoznat,
+že je jeho obraz světa systematicky zkreslován (Goldman, 1999). Doprovázející osoba proto
+neplní roli zdroje správných odpovědí, ale roli druhého hlasu, vůči němuž je opět možné ověřovat.
+Fonagy a Allisonová v této souvislosti hovoří o epistemické důvěře, tedy o ochotě přijímat od
+druhého poznání jako osobně relevantní a zobecnitelné, která se obnovuje jen ve vztahu, v němž
+se člověk cítí porozuměn (Fonagy a Allison, 2014).
 
-## Manažerské shrnutí
+Vývojovým podkladem této úvahy je Bowlbyho teorie vazby: dítě zkoumá svět z bezpečné základny
+vztahu a ztráta této základny vede k obranné uzavřenosti (Bowlby, 1969). Porgesova polyvagální
+teorie k tomu doplňuje fyziologickou rovinu vzájemné regulace, v níž přítomnost bezpečného
+druhého snižuje obrannou aktivaci a umožňuje sociální angažovanost (Porges, 2011). Výzkum
+sociální opory obecně podporuje hypotézu nárazníku, podle níž dostupná opora tlumí dopad
+stresových událostí na zdraví (Cohen a Wills, 1985). Tyto rámce dohromady vysvětlují, proč
+protokoly [obnovy sociálních vazeb](@/kompendium/recovery-protocols/acute-social-reconnection.md)
+stojí v knize na samém začátku zotavení, ještě před prací s obsahem přesvědčení.
 
-**Bridge: Companion / Doprovod** je aktivní uzel taxonomického grafu sekce `kompendium/glossary-bridges` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Riziko náhradní závislosti
 
+Doprovod nese specifické riziko, které kniha zdůrazňuje napříč kapitolami: člověk, který opouští
+prostředí s jedinou autoritou, má sklon hledat autoritu novou. Margaret Singerová upozornila, že
+bývalí členové kultů jsou v prvním období po odchodu zvlášť zranitelní vůči dalším skupinám a
+vztahům podobné struktury (Singer, 1995). Doprovázející osoba, která začne rozhodovat za
+postiženého, vnucovat mu vlastní výklad jeho zkušenosti nebo jej odvádět od jiných vztahů,
+reprodukuje tutéž dynamiku, z níž člověk odešel, byť s opačným obsahem.
 
-## Koncepční síť
+Historie zásahů vůči členům kultů tuto hranici ilustruje. Nucené „deprogramování“, které
+v sedmdesátých letech zahrnovalo i zadržování proti vůli, bylo kritizováno jako eticky i právně
+nepřijatelné a postupně nahrazeno dobrovolným poradenstvím při odchodu (*exit counseling*), které
+stojí na informovaném souhlasu a na respektu k rozhodnutí dotyčného (Langone, 1993). Lalichová a
+Tobiasová v příručce pro bývalé členy doporučují, aby podpůrné osoby pomáhaly pojmenovat
+mechanismy a obnovit síť vztahů, ale ponechaly závěry na člověku samém (Lalich a Tobias, 2006).
+Most věnovaný [odchodu ze skupiny](@/kompendium/glossary-bridges/bridge-exit.md) tento princip
+rozvádí podrobněji.
 
-Vizualizace propojení **Bridge: Companion / Doprovod** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Strukturní obdobou této pojistky je ve čtvrté kapitole rotace supervizorů ve výcvikových
+sekvencích, jejímž smyslem je zabránit, aby se jediný doprovázející člověk stal pro účastníka
+nenahraditelnou autoritou, což je přesně ten typ závislosti, který Lifton popisuje jako jádro
+totalistického prostředí (Lifton, 1961). Kniha tuto pojistku popisuje v hesle
+[rotace supervizora](@/kompendium/techniques/ea-4-1-8-supervisor-rotation.md) jako ochranný,
+nikoli manipulační prvek.
 
-```mermaid
-graph TD
-    C0["Bridge: Companion / Doprovod"]
-    N1["Bridge: autoheal"]
-    N2["Bridge: agent"]
-    N3["Bridge: aiad"]
-    N4["Bridge: 3nl"]
-    N5["Bridge: autoevolve"]
-    N6["Bridge: agent-tier"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Praktický důsledek pro profesionály a blízké
 
-## Související pojmy
+Pro klinika z mostu plyne, že doprovázející osobu je vhodné do péče zapojit, ale s jasně
+rozdělenými rolemi. Terapeut nese odpovědnost za diagnostiku a léčebný plán, doprovod za
+každodenní přítomnost a za nabídku vnějšího srovnání; splývání obou rolí oslabuje obě (Herman,
+1992). Doprovod by měl znát základní znaky [retraumatizace](@/glossary/retraumatizace.md) a vědět, kdy přivolat odbornou pomoc,
+což kniha rozvádí v průvodci
+[mobilizací podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) a v textu
+o [vztahových kotvách](@/kompendium/self-defense-guides/42-relational-anchors.md); obecná
+zjištění o nárazníkové funkci opory tento důraz podporují (Cohen a Wills, 1985).
 
-- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) — slug `bridge-autoheal`
-- [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md) — slug `bridge-agent`
-- [Bridge: aiad](@/kompendium/glossary-bridges/bridge-aiad.md) — slug `bridge-aiad`
-- [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md) — slug `bridge-3nl`
-- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) — slug `bridge-autoevolve`
-- [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md) — slug `bridge-agent-tier`
+V trestním řízení má doprovod i právní podobu. Zákon č. 45/2013 Sb., o obětech trestných činů,
+přiznává oběti právo na doprovod důvěrníkem, tedy osobou, kterou si oběť zvolí jako oporu při
+úkonech řízení. Pro vyšetřovatele to znamená, že přítomnost podpůrné osoby není překážkou, ale
+standardní součástí ochrany zranitelného svědka, a zároveň že role důvěrníka musí zůstat oddělena
+od obsahu výpovědi, aby nebyla zpochybněna její autenticita.
 
-## Navigace
+Doprovod samotný je vystaven zátěži. Charles Figley popsal únavu ze soucitu a sekundární
+traumatický stres u lidí, kteří se dlouhodobě věnují traumatizovaným osobám (Figley, 1995).
+Kniha proto v oddíle o supervizi zdůrazňuje péči o pomáhající, včetně hesla
+[péče supervizora o sebe](@/kompendium/techniques/ea-3-2-10-supervisor-self-care.md); stejná
+zásada platí pro laické doprovázející osoby, které nemají profesionální zázemí ani supervizi.
 
-- **Nadřazená sekce**: [kompendium/glossary-bridges](@/kompendium/glossary-bridges/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Bridge: 3nl](@/kompendium/glossary-bridges/bridge-3nl.md)
-  - [Bridge: adapter-pattern](@/kompendium/glossary-bridges/bridge-adapter-pattern.md)
-  - [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md)
-  - [Bridge: agent-tier](@/kompendium/glossary-bridges/bridge-agent-tier.md)
-  - [Bridge: agent](@/kompendium/glossary-bridges/bridge-agent.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+## Meze a otevřené otázky
+
+Pojem doprovodu není v klinické ani právní literatuře standardizován a kniha jej používá jako
+funkční označení, nikoli jako odbornou kategorii. Empirické poznatky o účinnosti laického
+doprovodu při odchodu ze skupin s vysokou mírou kontroly jsou převážně kvalitativní a opírají se
+o klinickou zkušenost a výpovědi bývalých členů (Lalich a Tobias, 2006). Obecná zjištění o
+sociální opoře nelze bez dalšího přenášet na situaci, v níž je opora sama zdrojem rizika nové
+závislosti (Cohen a Wills, 1985). Otevřenou otázkou zůstává, jak doprovod uplatnit u lidí, jejichž
+blízké vztahy byly samy součástí kontrolujícího prostředí, například v rodinách, kde kontrolu
+vykonával rodič; zde kniha odkazuje na specifické
+[protokoly pro děti](@/kompendium/recovery-protocols/recovery-children-protocol.md) (Herman, 1992).
+
+## Literatura
+
+- Bowlby, J. (1969). *Attachment and loss: Vol. 1. Attachment*. Basic Books.
+- Cohen, S., & Wills, T. A. (1985). Stress, social support, and the buffering hypothesis.
+  *Psychological Bulletin, 98*(2), 310–357.
+- Figley, C. R. (Ed.). (1995). *Compassion fatigue: Coping with secondary traumatic stress
+  disorder in those who treat the traumatized*. Brunner/Mazel.
+- Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the
+  therapeutic relationship. *Psychotherapy, 51*(3), 372–380.
+- Goldman, A. I. (1999). *Knowledge in a social world*. Oxford University Press.
+- Hassan, S. (1988). *Combatting cult mind control*. Park Street Press.
+- Herman, J. L. (1992). *Trauma and recovery*. Basic Books.
+- Lalich, J., & Tobias, M. (2006). *Take back your life: Recovering from cults and abusive
+  relationships*. Bay Tree Publishing.
+- Langone, M. D. (Ed.). (1993). *Recovery from cults: Help for victims of psychological and
+  spiritual abuse*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions,
+  attachment, communication, and self-regulation*. W. W. Norton.
+- Singer, M. T. (1995). *Cults in our midst*. Jossey-Bass.
+- Stark, E. (2007). *Coercive control: How men entrap women in personal life*. Oxford
+  University Press.
+
+## Související
+
+**Pojmy glosáře**
+
+- [Sociální izolace](@/glossary/socialni-izolace.md) – mechanismus, proti němuž doprovod působí.
+- [Bezpečná vazba](@/glossary/secure-attachment.md) – vývojový základ důvěry, kterou doprovod
+  obnovuje.
+- [Testování reality](@/glossary/reality-testing.md) – schopnost, k jejíž obnově slouží vnější
+  srovnání.
+- [Skupina s vysokou mírou kontroly](@/glossary/high-control-group.md) – prostředí, z něhož
+  doprovod pomáhá odejít.
+
+**Zotavení a sebeobrana**
+
+- [Obnova sociálních vazeb](@/kompendium/recovery-protocols/acute-social-reconnection.md) –
+  akutní fáze, v níž doprovod hraje hlavní roli.
+- [Obnova důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) – subakutní fáze
+  práce s epistemickou důvěrou.
+- [Mobilizace podpory](@/kompendium/self-defense-guides/30-support-mobilization.md) – jak si
+  postižený podporu sám zajišťuje.
+
+**Bezpečnostní rámec a mosty**
+
+- [Rotace supervizora](@/kompendium/techniques/ea-4-1-8-supervisor-rotation.md) – strukturní
+  pojistka proti závislosti na jediné osobě.
+- [Most: Odchod](@/kompendium/glossary-bridges/bridge-exit.md) – proces, který doprovod
+  provází.
+- [Rozcestník mostů](@/kompendium/glossary-bridges/_index.md) – přehled všech mostů mezi
+  glosářem a kapitolami.

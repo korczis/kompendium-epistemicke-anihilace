@@ -1,85 +1,180 @@
 +++
-title = "EA-1-5-terminologicka-mystifikace"
+title = "Terminologická mystifikace: jazyková hra expertizy"
 weight = 100
-description = "EA-1-5-terminologicka-mystifikace — pojem v sekci kompendium/techniques znalostní báze Prismatic Platform, kategorie kompendium-technique."
+description = "Terminologická mystifikace z hlediska filozofie jazyka a teorie expertizy: hra na odbornost bez jejích pravidel, její rozpoznání a obrana."
 
 [taxonomies]
-tags = ["kompendium", "technique", "ea-taxonomy", "interactive"]
+tags = ["kompendium", "technique", "ea-taxonomy", "filozofie-jazyka", "manipulace"]
 
 [extra]
 category = "kompendium-technique"
-related_terms = ["ea-1-1-3-terminologicka-mystifikace", "ea-1-1-2", "ea-1-2-1-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema", "ea-1-2-2-falesna-ekvivalence", "ea-1-1-1-selektivni-expozice"]
+related_terms = ["ea-1-1-3-terminologicka-mystifikace", "ea-1-1-1", "ea-1-1-2", "ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-4-1-latentni-podbarveni"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 75
-ref_count_at_creation = 2
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Vymezení
 
-**EA 1 5 Terminologicka Mystifikace** je technika klasifikovaná v Prismatic Kompendiu EA (Epistemická Anihilace) taxonomii. Strukturální stub zápis — plná specifikace včetně mechanismu manipulace, detekčních markerů, klinických případových studií, a profylaktických intervencí je součástí probíhající kompendiální výstavby.
+Terminologická mystifikace označuje užívání zbytečně složitého, obskurního nebo
+idiosynkratického výraziva, které se vydává za nezbytnou odbornou terminologii a které brání
+posluchači posoudit obsah. V kanonické taxonomii nese kód EA-1.1.3 a její hlavní výklad
+obsahuje článek [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md);
+tato stránka, vedená ve starším číslování knihy jako „EA-1.5“, k ní přistupuje z hlediska
+filozofie jazyka a teorie expertizy. Klade otázku, čím se odborný jazyk liší od jeho
+napodobeniny, a odpovídá, že mystifikace je hrou na odbornost prováděnou bez pravidel
+odbornosti (Wittgenstein, 1953).
 
-Pro architekturu EA taxonomie viz [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md). Pro kontextové sekce viz odpovídající kapitolu v [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md).
+## Teoretický původ
 
-## See Also
+Wittgenstein (1953) chápe význam slova jako jeho užití v jazykové hře, tedy v praxi řízené
+pravidly, kterou sdílí určité společenství. Odborná terminologie je v tomto pohledu legitimní
+jazykovou hrou: její výrazy mají určené užití, lze je vysvětlit, nahradit opisem a jejich
+správnost kontrolují ostatní účastníci hry. Mystifikace přebírá vnější podobu této hry, slovník
+a syntax, ale nepřebírá její pravidla; výrazy nemají stálé užití, opisu se brání a nikdo mimo
+mluvčího nemůže rozhodnout, zda byly užity správně. Souvislosti rozvádí oddíl
+[Wittgenstein: jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md).
 
-- [Kompendium index](@/kompendium/_index.md)
-- [05 Ultramari Techniky](@/kompendium/05-ultramari-techniky/_index.md)
-- [Taxonomie EA](@/kompendium/glossary-bridges/taxonomie-ea.md)
+Teorie expertizy tento rozdíl zpřesňuje. Collins a Evans (2007) rozlišují různé druhy odborné
+znalosti a mezi nimi interakční expertizu, tedy schopnost plynně mluvit jazykem oboru bez
+schopnosti v něm prakticky pracovat. Interakční expertiza je sama o sobě legitimní a užitečná,
+ale ukazuje, že plynulost v odborném jazyce není důkazem odborné kompetence. Mystifikace tuto
+mezeru využívá: plynulost předvádí jako kompetenci.
 
----
+Kritiku obskurního stylu v humanitních a sociálních vědách formuloval Andreski (1972), podle
+něhož nesrozumitelnost často zakrývá banalitu nebo nepřítomnost obsahu. Sokal (1996) ji
+zviditelnil tím, že redakce kulturněvědního časopisu přijala k publikaci jeho úmyslně
+nesmyslný článek napsaný módním žargonem, a Sokal a Bricmont (1998) následně rozebrali užívání
+přírodovědných pojmů mimo jejich význam. Frankfurt (2005) nabídl obecný pojem pro řeč, které
+nezáleží na pravdivosti, protože jejím cílem je dojem: mystifikace je v tomto smyslu jeho
+odbornou podobou.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+## Mechanismus
 
-## Manažerské shrnutí
+Strukturu jevu tvoří tři prvky. Prvním je nahrazení běžného výrazu odborně znějícím bez
+zisku na přesnosti; druhým je odmítnutí opisu, kdy se žádost o vysvětlení vykládá jako
+neznalost tazatele; třetím je přesun odpovědnosti za nepochopení na posluchače. Lifton (1961)
+popsal příbuzný jev v totalistickém prostředí jako zatížení jazyka, v němž zkratkovité
+výrazy ukončují myšlení místo toho, aby ho otevíraly; mystifikace je jeho akademickou
+obdobou, která neukončuje myšlení heslem, ale složitostí.
 
-**EA-1-5-terminologicka-mystifikace** je aktivní uzel taxonomického grafu sekce `kompendium/techniques` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Empirický výzkum ukazuje, že tato struktura nemusí ani fungovat ve prospěch mluvčího.
+Oppenheimer (2006) zjistil, že čtenáři hodnotí autory zbytečně složitých textů jako méně
+inteligentní, nikoli jako více. Weisberg a kolegové však prokázali, že laici hodnotí slabá
+vysvětlení psychologických jevů jako lepší, pokud obsahují nadbytečnou zmínku o neurovědě
+(Weisberg et al., 2008). Mystifikace tedy nepůsobí obecnou složitostí, ale prestiží určitého
+slovníku, který posluchač spojuje s autoritou oboru.
 
+## Detekční markery
 
-## Koncepční síť
+Pozorovatel rozpozná mystifikaci podle odmítání nebo nemožnosti převést tvrzení do běžné řeči,
+podle toho, že stejný výraz mění význam podle potřeby, podle hromadění prestižních termínů z
+cizích oborů a podle reakce na žádost o definici, která útočí na tazatele (Andreski, 1972).
+Kvantitativní stránku zachycuje detekční signatura
+[hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) a
+behaviorální stránku signatura
+[odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md).
 
-Vizualizace propojení **EA-1-5-terminologicka-mystifikace** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+Posluchač zažívá pocit, že „na to nemá“, a připisuje nepochopení vlastní nedostatečnosti; pokud
+však zkusí obsah převyprávět, zjistí, že nemá co převyprávět (Frankfurt, 2005).
 
-```mermaid
-graph TD
-    C0["EA-1-5-terminologicka-mystifikace"]
-    N1["EA-1.1.3 Terminologická mystifikace"]
-    N2["EA-1-1-2"]
-    N3["EA-1-2-1-argumentacni-oslabeni"]
-    N4["EA-1.2.1 Falešné dilema"]
-    N5["EA-1.2.2 Falešná ekvivalence"]
-    N6["EA-1.1.1 Selektivní expozice"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Diferenciální diagnostika
 
-## Související pojmy
+Od mystifikace je nutné odlišit legitimní odborný jazyk, který je obtížný proto, že jeho
+předmět je obtížný. Rozlišujícím testem je opis: odborník umí svůj termín vysvětlit, i když
+vysvětlení bude delší a méně přesné, a připouští, že opis něco ztrácí (Collins a Evans, 2007).
+Odlišit je třeba i nově vznikající obor, jehož terminologie se teprve ustaluje; Kuhn (1962)
+upozorňuje, že nová paradigmata přinášejí nový slovník, který starší generace zprvu nepovažuje
+za srozumitelný.
 
-- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) — slug `ea-1-1-3-terminologicka-mystifikace`
-- [EA-1-1-2](@/kompendium/techniques/ea-1-1-2.md) — slug `ea-1-1-2`
-- [EA-1-2-1-argumentacni-oslabeni](@/kompendium/techniques/ea-1-2-1-argumentacni-oslabeni.md) — slug `ea-1-2-1-argumentacni-oslabeni`
-- [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — slug `ea-1-2-1-falesne-dilema`
-- [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) — slug `ea-1-2-2-falesna-ekvivalence`
-- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — slug `ea-1-1-1-selektivni-expozice`
+Klinicky je třeba odlišit novotvary a dezorganizovanou řeč u psychotických poruch a
+vysoce formální, neobvyklý jazyk u některých lidí na autistickém spektru, kde nejde o strategii,
+ale o vlastnost jazykového projevu (American Psychiatric Association, 2013).
 
-## Navigace
+## Klinický a právní rámec
 
-- **Nadřazená sekce**: [kompendium/techniques](@/kompendium/techniques/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)
-  - [EA-1-1-1](@/kompendium/techniques/ea-1-1-1.md)
-  - [EA-1.1.2 Informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
-  - [EA-1-1-2](@/kompendium/techniques/ea-1-1-2.md)
-  - [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+V klinické praxi se mystifikace objevuje u klientů z prostředí, kde vlastní slovník sloužil
+k oddělení „zasvěcených“ od ostatních, a u klientů, které profesionální jazyk zastrašil a
+odradil od kladení otázek. Lékař a terapeut mají povinnost sdělovat informace srozumitelně,
+protože porozumění je podmínkou [informovaného souhlasu](@/glossary/informed-consent.md)
+(Beauchamp a Childress, 2013). Ve forenzní oblasti se mystifikace může objevit ve znaleckých
+posudcích; soud i strany mají právo žádat vysvětlení odborných pojmů v jazyce srozumitelném
+laikovi (Collins a Evans, 2007).
+
+## Obrana a neutralizace
+
+Obrana spočívá ve vyžádání opisu a definice a v pokusu převyprávět tvrzení vlastními slovy.
+Pokud se tvrzení po převyprávění rozplyne, neslo ho slovo, nikoli obsah (Frankfurt, 2005).
+Instituce mohou stejný princip zavést požadavkem srozumitelného shrnutí u odborných textů,
+posudků a souhlasů. Pro posluchače je důležité vědět, že nepochopení není vždy jeho vinou a
+že otázka „co přesně to znamená“ je legitimní příspěvek, nikoli přiznání neznalosti
+(Oppenheimer, 2006).
+
+## Zotavení
+
+Lidé, kteří delší dobu žili v prostředí mystifikačního slovníku, mohou po odchodu ztrácet
+schopnost mluvit o vlastní zkušenosti jinými slovy, než jaká se naučili. Zotavení proto
+zahrnuje i jazykovou práci: nacházení vlastních slov pro to, co dříve popisoval slovník skupiny
+(Lifton, 1961). Tuto práci podporuje protokol
+[subakutní narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md).
+
+## Meze a otevřené otázky
+
+Hranice mezi náročným a mystifikačním jazykem není ostrá a obvinění z mystifikace se může stát
+způsobem, jak odmítnout obtížnou myšlenku bez jejího pochopení; Sokalova aféra je dodnes
+vykládána jak jako odhalení prázdnoty, tak jako selhání jedné redakce (Sokal a Bricmont, 1998).
+Otevřenou otázkou zůstává, jak posoudit mystifikaci v oborech, kde opis do běžné řeči
+skutečně nelze provést bez ztráty podstaty, například v matematice.
+
+## Literatura
+
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Andreski, S. (1972). *Social sciences as sorcery*. André Deutsch.
+- Beauchamp, T. L., & Childress, J. F. (2013). *Principles of biomedical ethics* (7th ed.).
+  Oxford University Press.
+- Collins, H., & Evans, R. (2007). *Rethinking expertise*. University of Chicago Press.
+- Frankfurt, H. G. (2005). *On bullshit*. Princeton University Press.
+- Kuhn, T. S. (1962). *The structure of scientific revolutions*. University of Chicago Press.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Oppenheimer, D. M. (2006). Consequences of erudite vernacular utilized irrespective of
+  necessity: Problems with using long words needlessly. *Applied Cognitive Psychology,
+  20*(2), 139–156.
+- Sokal, A. D. (1996). Transgressing the boundaries: Toward a transformative hermeneutics of
+  quantum gravity. *Social Text, 46/47*, 217–252.
+- Sokal, A., & Bricmont, J. (1998). *Fashionable nonsense: Postmodern intellectuals' abuse of
+  science*. Picador.
+- Weisberg, D. S., Keil, F. C., Goodstein, J., Rawson, E., & Gray, J. R. (2008). The seductive
+  allure of neuroscience explanations. *Journal of Cognitive Neuroscience, 20*(3), 470–477.
+- Wittgenstein, L. (1953). *Philosophische Untersuchungen / Philosophical investigations*.
+  Blackwell.
+
+## Související
+
+**Hlavní výklad a sousední kódy**
+
+- [EA-1.1.3 Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md)
+  – hlavní článek o technice.
+- [EA-1.1.1](@/kompendium/techniques/ea-1-1-1.md) – taxonomické místo sousední techniky
+  vstupní vrstvy.
+- [EA-1.1.2](@/kompendium/techniques/ea-1-1-2.md) – přetížení, které mystifikace často
+  znásobuje.
+- [QR: EA-1.1.3 Terminologická mystifikace](@/kompendium/quick-reference/qr-ea-1-1-3.md) –
+  stručná karta pro terénní rozpoznání.
+
+**Pojmy a teorie**
+
+- [Wittgenstein: jazykové hry](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)
+  – význam jako užití v praxi řízené pravidly.
+- [Newspeak](@/glossary/newspeak.md) – krajní podoba jazyka, který omezuje myšlení.
+- [Thought-stopping](@/glossary/thought-stopping.md) – výrazy, které ukončují úvahu.
+
+**Detekce a zotavení**
+
+- [Hustota žargonu](@/kompendium/detection-signatures/1-linguistic-jargon-density.md) –
+  jazyková detekční signatura.
+- [Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md)
+  – behaviorální detekční signatura.
+- [Narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md)
+  – protokol hledání vlastních slov pro vlastní zkušenost.

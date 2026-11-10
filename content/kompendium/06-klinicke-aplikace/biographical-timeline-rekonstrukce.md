@@ -1,114 +1,186 @@
 +++
-title = "Biographical Timeline Rekonstrukce"
+title = "Rekonstrukce biografické časové osy"
 weight = 100
-description = "Biographical Timeline Rekonstrukce — pojem v sekci kompendium/06-klinicke-aplikace znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Klinická metoda společného sestavení časové osy života klienta po expozici manipulaci: indikace, průběh, rizika zkreslení paměti a hodnocení výsledků."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "klinika", "diagnostika", "trauma", "pamet"]
 
 [extra]
-category = "kompendium-sub"
-related_terms = ["epistemicka-rekonstrukce", "pripad-doktorat", "supervizni-ramce", "observational-assessment", "terapeuticke-pristupy", "diagnosticke-indikatory"]
+category = "klinicka-metoda"
+related_terms = ["epistemicka-rekonstrukce", "terapeuticke-pristupy", "diagnosticke-indikatory", "collateral-interview-protokol", "observational-assessment"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
-quality_score = 80
+date_modified = "2026-11-10"
 +++
 
-## Definice a cíl
+## Vymezení a indikace
 
-**Biographical Timeline Rekonstrukce** je klinický protokol z sekce 06 Prismatic Kompendia (klinické aplikace), který poskytuje strukturovaný rámec pro hodnocení, intervenci nebo dokumentaci epistemických škod u klientů s historií expozice manipulativním vzorcům (EA — epistemic attack patterns).
+Rekonstrukce biografické časové osy je klinická metoda, při níž klient spolu s terapeutem
+postupně sestavuje chronologický přehled svého života: období, vztahy, místa, události
+a změny v prožívání. Metoda navazuje na kalendář životní historie, který vznikl v sociologii
+jako nástroj pro spolehlivější retrospektivní sběr údajů a který využívá toho, že si lidé
+vybavují události lépe, když je mohou zasadit do souvislosti s jinými událostmi téhož období
+(Freedman et al., 1988). V klinickém prostředí se obdobný princip uplatňuje v terapii
+narativní expozicí, kde klient vytváří „čáru života“ s vyznačenými dobrými a traumatickými
+událostmi (Schauer, Neuner a Elbert, 2011).
 
-{% <callout type="note"> %}
-Protokoly sekce 06 jsou určené pro **klinické pracovníky** s odpovídajícím vzděláním (psychoterapie, klinická psychologie, krizová intervence). Nejedná se o self-help nástroje — vyžadují diagnostický kontext a profesionální supervizi.
-{% </callout> %}
+V rámci [klinických aplikací](@/kompendium/06-klinicke-aplikace/_index.md) je metoda
+indikována u klientů, jejichž schopnost orientovat se ve vlastní minulosti byla narušena
+dlouhodobou manipulací, kontrolou nebo traumatem: po odchodu ze skupiny s vysokou mírou
+kontroly, po vztahu poznamenaném [coercive control](@/glossary/coercive-control.md) nebo
+gaslightingem a u lidí, kteří popisují, že „nevědí, co bylo skutečné“. Lalich a Tobias
+doporučují sestavení přehledu života před vstupem do skupiny, během členství a po odchodu
+jako jeden ze základních kroků zotavení (Lalich a Tobias, 2006). Taxonomické zařazení
+příbuzného postupu uvádí technika
+[EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md);
+tato stránka popisuje metodu v klinické cestě kapitoly 6.
 
-## Implementační rámec
+## Teoretická východiska
 
-Protokol **Biographical Timeline Rekonstrukce** se aplikuje v rámci širší klinické cesty popsané v [klinických aplikacích](@/kompendium/06-klinicke-aplikace/_index.md):
+Metoda vychází z poznatků o organizaci autobiografické paměti. Podle modelu systému
+paměti a já jsou autobiografické vzpomínky rekonstruovány vždy znovu z hierarchie
+obecných životních období, typických událostí a konkrétních detailů, a tato rekonstrukce je
+řízena aktuálními cíli a sebepojetím člověka (Conway a Pleydell-Pearce, 2000). Z toho plyne
+dvojí důsledek: vybavování v rámci životních období je spolehlivější než izolované
+vybavování, a zároveň je paměť citlivá na to, jaký výklad minulosti člověk právě zastává.
 
-1. **Diagnostická fáze** — viz [diagnostické indikátory EA expozice](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-2. **Diferenciální diagnostika** — odlišení od PTSD, dissociativních poruch, hraniční organizace osobnosti
-3. **Volba intervence** — kompatibilní recovery protokol z [recovery-protocols/](@/kompendium/recovery-protocols/_index.md)
-4. **Dokumentace a follow-up** — strukturované záznamy pro multidisciplinární tým
+Belli ukázal, že kalendářní metody zlepšují kvalitu retrospektivních výpovědí právě tím, že
+využívají přirozené struktury autobiografické paměti, tedy časových a tematických vazeb mezi
+událostmi (Belli, 1998). Pro klienty po dlouhodobé manipulaci má tato struktura ještě jiný
+význam: kontrolující prostředí často přepisuje minulost do vlastního výkladu, jak popsal
+Lifton u požadavku zpovědi a přeznačení dosavadního života (Lifton, 1961). Časová osa
+sestavená z ověřitelných opor vrací klientovi rámec, do něhož může vlastní vzpomínky znovu
+zasadit, a navazuje tak na práci s [narativní identitou](@/glossary/narativni-identita.md)
+popsanou na stránce [narativního traumatu](@/kompendium/05-ultramari-techniky/narrativni-trauma.md).
 
-## Hodnotící kritéria
+Třetím východiskem je fázový model léčby traumatu. Herman popsala zotavení jako sled
+stabilizace, rekonstrukce traumatického příběhu a znovuzačlenění do života (Herman, 1992).
+Rekonstrukce časové osy patří do přechodu mezi první a druhou fází: nejprve se mapuje
+bezpečný rámec celého života, teprve pak se případně podrobněji pracuje s obtížnými obdobími.
 
-Klinický postup **Biographical Timeline Rekonstrukce** používá tyto výsledkové měřítka:
-- Standardní sebepopulační škály (PHQ-9, GAD-7, IES-R) — týdenní kadence
-- Working Alliance Inventory (WAI) — měsíční kadence
-- Strukturované klinické rozhovory — kvartální kadence
-- Specifické indikátory dle dominantního EA typu
+## Průběh
 
-## Kontraindikace
+Práce začíná vymezením účelu a souhlasem klienta s tím, jaká období a do jaké hloubky se
+budou mapovat. Nejprve se zaznamenávají neutrální opory, které lze snadno ověřit: bydliště,
+školy, zaměstnání, narození blízkých a veřejné události. Freedman a spolupracovníci ukázali,
+že takové opory zlepšují přesnost datování ostatních událostí (Freedman et al., 1988).
+Teprve na tento rámec se postupně vrstvy doplňují vztahy, změny prožívání a období, v nichž
+manipulace nebo kontrola působily.
 
-Před zahájením **Biographical Timeline Rekonstrukce** vylučte:
-- Aktivní psychóza nezvládnutá medikamentózně
-- Akutní suicidalita vyžadující hospitalizaci
-- Akutní intoxikace
-- Aktivní kontakt s pachatelem (vyžaduje napřed safety planning)
+Klient je veden k tomu, aby rozlišoval, co si pamatuje sám, co ví z dokladů a co mu bylo
+řečeno druhými, protože právě toto rozlišení bývá po dlouhodobé manipulaci narušeno (Lalich
+a Tobias, 2006). Terapeut nepředkládá vlastní výklad událostí a nepoužívá sugestivní otázky;
+Loftus a Pickrell prokázali, že opakované sugestivní vybavování může u části lidí vytvořit
+vzpomínku na událost, která se nestala (Loftus a Pickrell, 1995). Kde je to vhodné a klient
+souhlasí, lze oporu hledat v dokumentech, fotografiích nebo v rozhovoru s blízkými, jak
+popisuje [protokol rozhovoru s blízkými](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md).
 
-Pro detailní postup viz parent index a sourozenecké klinické články.
-<!-- EXPANDED:PHASE11 -->
+Výsledná osa není jednorázovým dokumentem, ale pracovním materiálem, který se během léčby
+doplňuje a opravuje. V terapii narativní expozicí se na ni navazuje podrobným vyprávěním
+jednotlivých událostí v chronologickém pořadí (Schauer, Neuner a Elbert, 2011); jinde slouží
+jako podklad pro [epistemickou rekonstrukci](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+a pro rozlišení období, v nichž klient jednal podle vlastního úsudku, od období, v nichž
+jednal pod vnějším tlakem.
 
+## Kontraindikace a rizika
 
-## See Also
+Metoda není vhodná v akutní krizi, při aktivní suicidalitě, u nezvládnuté psychotické
+poruchy a u akutní intoxikace, kdy má přednost stabilizace (Herman, 1992). Opatrnost je na
+místě také tam, kde je klient stále v kontaktu s osobou, která na něj vyvíjí kontrolu, protože
+písemný přehled minulosti se může stát předmětem jejího zájmu a ohrozit bezpečí klienta
+(Stark, 2007). V takových případech předchází práci bezpečnostní plán.
 
-- [Parent section](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Hlavním odborným rizikem je zkreslení paměti. Schacter popsal sugestibilitu, zkreslení
+vlivem současného přesvědčení a chybné přiřazení zdroje jako běžné vlastnosti zdravé paměti
+(Schacter, 2001). Brown, Scheflin a Hammond upozorňují, že terapeut pracující se vzpomínkami
+na trauma musí volit neutrální postupy a dokumentovat je, aby se terapeutická práce
+nezaměňovala se zjišťováním skutkového stavu (Brown, Scheflin a Hammond, 1998). Dalším
+rizikem je zahlcení při setkání s obtížnými obdobími a [retraumatizace](@/glossary/retraumatizace.md),
+které se předchází tempem, které určuje klient.
 
----
+## Hodnocení výsledků
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+Výsledek se posuzuje na dvou rovinách. Na rovině symptomů lze sledovat posttraumatické
+příznaky standardizovaným nástrojem, například dotazníkem PCL-5 (Blevins et al., 2015),
+a depresivní příznaky dotazníkem PHQ-9 (Kroenke, Spitzer a Williams, 2001). Kvalitu
+terapeutického vztahu, která je u klientů po manipulaci zvlášť citlivá, zachycuje inventář
+pracovní aliance (Horvath a Greenberg, 1989).
 
-## Manažerské shrnutí
+Na rovině specifické pro metodu se hodnotí, zda klient dokáže umístit klíčové události do
+času, zda rozlišuje vlastní vzpomínky od převzatého výkladu a zda vyprávění o vlastním životě
+vnímá jako své. Tyto ukazatele nejsou standardizované a opírají se o klinický úsudek, který by
+měl být podroben [supervizi](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+(Herman, 1992).
 
-**Biographical Timeline Rekonstrukce** je aktivní uzel taxonomického grafu sekce `kompendium/06-klinicke-aplikace` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Meze
 
+Metoda nemůže zaručit pravdivost rekonstruovaných událostí, a není to ani jejím cílem: jde
+o obnovu orientace a autorství vyprávění, nikoli o forenzní zjištění (Brown, Scheflin
+a Hammond, 1998). Empirická opora pochází převážně z výzkumu kalendářních metod v sociologii
+a z terapie narativní expozicí, nikoli ze studií zaměřených přímo na klienty po manipulaci;
+přenos těchto poznatků je proto rozumnou hypotézou, nikoli ověřeným výsledkem (Belli, 1998).
+U klientů s výraznými disociativními obtížemi může být lineární časová osa nevhodným rámcem
+a vyžaduje specializovaný přístup (American Psychiatric Association, 2013).
 
-## Koncepční síť
+## Literatura
 
-Vizualizace propojení **Biographical Timeline Rekonstrukce** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Belli, R. F. (1998). The structure of autobiographical memory and the event history
+  calendar: Potential improvements in the quality of retrospective reports in surveys.
+  *Memory, 6*(4), 383–406.
+- Blevins, C. A., Weathers, F. W., Davis, M. T., Witte, T. K., & Domino, J. L. (2015). The
+  Posttraumatic Stress Disorder Checklist for DSM-5 (PCL-5): Development and initial
+  psychometric evaluation. *Journal of Traumatic Stress, 28*(6), 489–498.
+- Brown, D., Scheflin, A. W., & Hammond, D. C. (1998). *Memory, trauma treatment, and the law*.
+  W. W. Norton.
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical
+  memories in the self-memory system. *Psychological Review, 107*(2), 261–288.
+- Freedman, D., Thornton, A., Camburn, D., Alwin, D., & Young-DeMarco, L. (1988). The life
+  history calendar: A technique for collecting retrospective data. *Sociological
+  Methodology, 18*, 37–68.
+- Herman, J. L. (1992). *Trauma and recovery*. Basic Books.
+- Horvath, A. O., & Greenberg, L. S. (1989). Development and validation of the Working
+  Alliance Inventory. *Journal of Counseling Psychology, 36*(2), 223–233.
+- Kroenke, K., Spitzer, R. L., & Williams, J. B. W. (2001). The PHQ-9: Validity of a brief
+  depression severity measure. *Journal of General Internal Medicine, 16*(9), 606–613.
+- Lalich, J., & Tobias, M. (2006). *Take back your life: Recovering from cults and abusive
+  relationships*. Bay Tree Publishing.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Loftus, E. F., & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric
+  Annals, 25*(12), 720–725.
+- Schacter, D. L. (2001). *The seven sins of memory: How the mind forgets and remembers*.
+  Houghton Mifflin.
+- Schauer, M., Neuner, F., & Elbert, T. (2011). *Narrative exposure therapy: A short-term
+  treatment for traumatic stress disorders* (2nd ed.). Hogrefe.
+- Stark, E. (2007). *Coercive control: How men entrap women in personal life*. Oxford
+  University Press.
 
-```mermaid
-graph TD
-    C0["Biographical Timeline Rekonstrukce"]
-    N1["6.4 Protokoly epistemické rekonstrukce"]
-    N2["6.8 Případová studie: Doktorské vedení (anonymizovaná)"]
-    N3["6.6 Supervizní rámce v klinické praxi EA"]
-    N4["Observational Assessment"]
-    N5["6.3 Terapeutické přístupy — přehled"]
-    N6["6.1 Diagnostické indikátory a markery EA"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+## Související
 
-## Související pojmy
+**Klinické metody kapitoly 6**
 
-- [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) — slug `epistemicka-rekonstrukce`
-- [6.8 Případová studie: Doktorské vedení (anonymizovaná)](@/kompendium/06-klinicke-aplikace/pripad-doktorat.md) — slug `pripad-doktorat`
-- [6.6 Supervizní rámce v klinické praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) — slug `supervizni-ramce`
-- [Observational Assessment](@/kompendium/06-klinicke-aplikace/observational-assessment.md) — slug `observational-assessment`
-- [6.3 Terapeutické přístupy — přehled](@/kompendium/06-klinicke-aplikace/terapeuticke-pristupy.md) — slug `terapeuticke-pristupy`
-- [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) — slug `diagnosticke-indikatory`
+- [Protokol rozhovoru s blízkými](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
+  – vnější opora pro datování a ověření událostí.
+- [Pozorovací hodnocení](@/kompendium/06-klinicke-aplikace/observational-assessment.md) –
+  doplňující zdroj informací o současném fungování klienta.
+- [Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
+  – navazující práce s obnovou úsudku.
+- [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) – kontrola
+  klinického úsudku při práci se vzpomínkami.
 
-## Navigace
+**Techniky a fenomény**
 
-- **Nadřazená sekce**: [kompendium/06-klinicke-aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Collateral Interview Protokol](@/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md)
-  - [6.1 Diagnostické indikátory a markery EA](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  - [6.2 Diferenciální diagnostika EA vs. PTSD/cPTSD/disociativní poruchy](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md)
-  - [6.4 Protokoly epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md)
-  - [6.10 Kolektivní/institucionální intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [EA-6.1.7 Trauma history protokol](@/kompendium/techniques/ea-6-1-7-trauma-history-protokol.md)
+  – taxonomické zařazení příbuzného postupu.
+- [EA-4.4.4 Biographical recontextualization](@/kompendium/techniques/ea-4-4-4-biographical-recontextualization.md)
+  – manipulativní přepis biografie, jehož následky metoda řeší.
+- [Narativní trauma](@/kompendium/05-ultramari-techniky/narrativni-trauma.md) – poškození,
+  na jehož obnovu metoda míří.
+
+**Pojmy glosáře**
+
+- [Narativní identita](@/glossary/narativni-identita.md) – teoretický rámec obnovy vyprávění.
+- [Retraumatizace](@/glossary/retraumatizace.md) – hlavní riziko nevhodně vedené práce.

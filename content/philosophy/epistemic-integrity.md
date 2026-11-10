@@ -1,428 +1,256 @@
 +++
-title = "Epistemic Integrity & Meaning Preservation"
-description = "How the Prismatic Platform preserves meaning, maintains truth, and protects knowledge integrity across time and context through rigorous epistemic frameworks and verification protocols."
+title = "Epistemická integrita a zachování významu"
+description = "Epistemická integrita jako závazek chránit pravdivost, význam a původ poznání: etika přesvědčení, zásady NABLA Infinity, hrozby a meze formalizace."
 weight = 25
 
 [taxonomies]
-tags = ["philosophy", "epistemology", "integrity", "ghl", "nabla"]
+tags = ["filozofie", "epistemologie", "integrita", "nabla", "ghl", "kompendium"]
 
 [extra]
-# Taxonomies moved to extra section for section files
-keywords = ["epistemic integrity", "meaning preservation", "knowledge integrity", "truth preservation", "semantic consistency", "epistemic framework"]
-categories = ["foundations"]
-
-# Core metadata
+category = "filozofie"
+related_terms = ["nabla-infinity", "nabla-axioms", "trinity-gate", "epistemicka-pokora", "epistemic-security"]
 author = "Tomas Korcak (korczis)"
-reading_time = "15 min"
-word_count = 3400
-difficulty = "advanced"
-icon = "eye"
-color = "amber"
-
-# SEO & Social
-image = "/images/philosophy/epistemic-integrity.png"
-image_alt = "Epistemic integrity and meaning preservation in software"
-og_type = "article"
-twitter_card = "summary_large_image"
-
-# Academic metadata
-academic_tier = "foundational"
-citation_style = "IEEE"
-doi_placeholder = "10.prismatic/philosophy/epistemic-integrity"
-peer_reviewed = false
-
-# Content classification
-content_version = "1.0.0"
-last_enhanced = "2026-02-23"
-quality_score = 0
-
-# Cross-references
-related_articles = ["ghl-framework", "intellectual-sovereignty", "ceremonial-computing", "boundary-ethics"]
-glossary_terms = ["epistemic-integrity", "meaning-preservation", "nabla-infinity", "trinity-gate"]
-see_also = ["capabilities", "about/author", "glossary/nabla-infinity"]
-
-# Category-specific metadata
-philosophy_level = "foundational"
-epistemic_framework = "NABLA Infinity"
-verification_model = "Trinity Gate"
 date_created = "2026-02-23"
-date_updated = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 +++
 
-## Abstract
-
-Epistemic integrity is the philosophical commitment to **preserving the truth-value, meaning, and provenance of knowledge** across time, context, and interpretation. In the Prismatic Platform, this manifests as a rigorous framework for ensuring that information maintains its intended meaning from creation through consumption, that contradictions are preserved rather than suppressed, and that every claim can be traced back to its evidential foundations.
-
-This philosophy integrates with the NABLA Infinity epistemic framework, the Trinity Gate verification system, and the General Honest License to create a comprehensive approach to knowledge integrity in software systems.
-
-## The Crisis of Meaning in Software
-
-### The Erosion Problem
-
-Software systems process, transform, and transmit information at unprecedented scale. Yet the very mechanisms that enable this scale also create conditions for **systematic meaning erosion**:
-
-1. **Lossy Transformation**: Each processing step may alter or discard semantic content
-2. **Context Stripping**: Information separated from its originating context loses meaning
-3. **Interpretation Divergence**: Multiple consumers interpret the same data differently
-4. **Temporal Drift**: Meaning changes as the surrounding context evolves
-5. **Aggregation Distortion**: Combining information sources introduces new biases
-
-### The Software-Specific Challenge
-
-Software compounds the general epistemic challenge with unique properties:
-
-- **Abstraction Layers**: Each abstraction potentially transforms meaning
-- **Distributed Processing**: Meaning fragments across network boundaries
-- **Version Proliferation**: Multiple versions carry different truths simultaneously
-- **Automation Bias**: Automated processes may perpetuate errors at scale
-- **Scale Amplification**: Small errors in meaning can propagate to massive impact
-
-### Why This Matters
-
-In a world increasingly mediated by software, epistemic integrity is not merely a philosophical luxury but a **practical necessity**. Corrupted meaning in software systems can lead to:
-
-- **Decision Errors**: Flawed data leads to flawed decisions
-- **Trust Degradation**: Unreliable information erodes institutional trust
-- **Systemic Risk**: Propagated errors create cascading failures
-- **Democratic Erosion**: Manipulated information undermines informed consent
-
-## Core Principles of Epistemic Integrity
-
-### 1. Meaning Preservation
-
-The first principle requires that information maintain its intended meaning through all transformations:
-
-#### Semantic Consistency
-
-Every operation on information must preserve its **core semantic content**:
-
-```yaml
-semantic_preservation:
-  requirements:
-    - "Transformations must be meaning-preserving"
-    - "Lossy operations must be explicitly marked"
-    - "Original meaning must be recoverable or acknowledged as lost"
-    - "Context must travel with content"
-
-  violations:
-    - "Silent data truncation"
-    - "Implicit type coercion that changes meaning"
-    - "Context-free aggregation"
-    - "Unmarked interpretation changes"
-```
-
-#### Provenance Tracking
-
-All information must carry traceable provenance:
-
-- **Origin**: Where the information was first created or observed
-- **Transformations**: Every operation that has modified the information
-- **Interpretations**: How the information has been interpreted at each stage
-- **Confidence**: The degree of certainty associated with the information
-
-### 2. Contradiction Preservation
-
-The second principle requires that contradictions be preserved rather than resolved prematurely:
-
-#### The Addiction to Consistency
-
-Human cognition has a powerful drive to resolve contradictions, even when resolution requires discarding valid evidence. The Prismatic Platform's addiction preservation doctrine addresses this tendency:
-
-- **Both Sides Maintained**: Contradictory signals are preserved simultaneously
-- **No Premature Resolution**: Contradictions are not resolved until sufficient evidence exists
-- **Evidence Plurality**: Resolution requires multiple independent sources
-- **Acknowledgment of Uncertainty**: "I don't know" is a legitimate epistemic state
-
-#### Practical Implementation
-
-```yaml
-contradiction_handling:
-  policy: "preserve_both_sides"
-  resolution_threshold: 0.95  # Confidence required for resolution
-  minimum_sources: 2          # Independent sources for belief formation
-
-  forbidden_actions:
-    - "cherry_picking"         # Selecting only supporting evidence
-    - "false_certainty"        # Claims without adequate proof
-    - "contradiction_burial"   # Hiding inconvenient contradictions
-    - "single_source_truth"    # Believing without plurality
-```
-
-### 3. Transparency of Reasoning
-
-The third principle demands that all reasoning be traceable and verifiable:
-
-#### Reasoning Chains
-
-Every conclusion must be connected to its premises through explicit reasoning:
-
-- **Premise Documentation**: All starting assumptions clearly stated
-- **Inference Rules**: Logical steps explicitly identified
-- **Confidence Propagation**: Uncertainty properly propagated through chains
-- **Alternative Paths**: Competing reasoning chains preserved
-
-#### Verification Points
-
-```yaml
-verification_framework:
-  trinity_gate:
-    structural_consistency:
-      description: "Belief network forms valid directed acyclic graph"
-      enforcement: "mandatory"
-
-    logical_consistency:
-      description: "Propositions follow logical rules without contradiction"
-      enforcement: "mandatory"
-
-    formal_necessity:
-      description: "Claims proven through formal systems (modal logic, Lean4)"
-      enforcement: "mandatory_for_critical"
-```
-
-### 4. Temporal Awareness
-
-The fourth principle recognizes that meaning exists in time and must be protected across temporal boundaries:
-
-#### Time-Stamped Beliefs
-
-All beliefs carry temporal metadata:
-
-- **Creation Time**: When the belief was first formed
-- **Evidence Time**: When the supporting evidence was gathered
-- **Decay Rate**: How quickly the belief's reliability degrades
-- **Refresh Requirements**: When the belief needs re-verification
-
-#### Historical Integrity
-
-Past states must be preservable and distinguishable from current states:
-
-- **Version History**: Complete record of how beliefs have evolved
-- **Correction Tracking**: Clear documentation of errors and corrections
-- **Context Preservation**: Historical context maintained alongside historical beliefs
-- **Non-Revisionism**: Past errors acknowledged, not silently corrected
-
-## The NABLA Infinity Integration
-
-### Seven Non-Negotiable Axioms
-
-Epistemic integrity in the Prismatic Platform is enforced through seven axioms:
-
-| Axiom | Description | Enforcement |
-|-------|-------------|-------------|
-| **Signal Plurality** | Minimum 2 signals for any belief | HARD - blocks until satisfied |
-| **Contradiction Preservation** | Both sides maintained, never discarded | HARD - blocks until acknowledged |
-| **Absence Informative** | Missing signals tracked as data | SOFT - warnings logged |
-| **Time Decay** | Mandatory timestamps on all beliefs | HARD - blocks until provided |
-| **Unknown Valid** | "I don't know" is legitimate | HARD - blocks until uncertainty acknowledged |
-| **Source Independence** | Independent sources weighted higher | SOFT - bias assessment required |
-| **Provenance Mandatory** | All beliefs must be traceable | HARD - blocks until provided |
-
-### Enforcement Protocol
-
-```yaml
-enforcement_levels:
-  E1:
-    trigger: "Single axiom soft violation"
-    response: "Warning + correction request"
-    authority: "Agent"
-
-  E2:
-    trigger: "Single axiom hard violation"
-    response: "BLOCK + rejection"
-    authority: "System"
-
-  E3:
-    trigger: "Trinity Gate failure"
-    response: "HALT + review required"
-    authority: "Supreme"
-
-  E4:
-    trigger: "Multiple axiom violations"
-    response: "Investigation + audit"
-    authority: "Cosmic"
-```
-
-### The Trinity Gate
-
-All significant claims must pass through three independent verification gates:
-
-#### Gate 1: Structural Consistency
-
-The belief network must form a valid directed acyclic graph (DAG):
-
-- No circular dependencies between beliefs
-- All beliefs connected to evidential foundations
-- No orphaned claims without supporting evidence
-- Network topology validates logical structure
-
-#### Gate 2: Logical Consistency
-
-Propositions must follow logical rules:
-
-- No internal contradictions within accepted belief set
-- Inference rules properly applied
-- Quantifier logic correctly structured
-- Modal claims properly qualified
-
-#### Gate 3: Formal Necessity
-
-Critical claims require formal mathematical proof:
-
-- Lean4 theorem proofs for structural claims
-- Modal logic proofs for necessity claims
-- Statistical validation for empirical claims
-- Cryptographic proofs for integrity claims
-
-## Epistemic Integrity in Practice
-
-### Software as Knowledge Artifact
-
-Code is not merely functional but represents **crystallized knowledge**:
-
-- **Variable Names**: Encode conceptual models and domain understanding
-- **Architecture**: Embodies structural knowledge about problem domains
-- **Comments**: Carry explanatory knowledge and reasoning
-- **Tests**: Encode expectations and assumptions about behavior
-- **Documentation**: Preserves contextual knowledge and intent
-
-Each of these knowledge dimensions requires protection against corruption and drift.
-
-### The Author as Epistemic Authority
-
-The [intellectual sovereignty](@/philosophy/intellectual-sovereignty.md) framework establishes the author as the primary epistemic authority over their work:
-
-- **Intent Knowledge**: The author possesses the most complete knowledge of their intent
-- **Context Knowledge**: The author understands the full context of creation
-- **Trade-off Knowledge**: The author knows what alternatives were considered and rejected
-- **Evolution Knowledge**: The author understands how the work should develop
-
-### Ceremonial Verification
-
-The [ceremonial computing](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ceremonial-computing/) framework supports epistemic integrity through:
-
-- **Conscious Engagement**: Users must actively acknowledge their understanding
-- **Oath Commitment**: Sworn commitment to proper interpretation and usage
-- **Community Verification**: Witnesses validate understanding and compliance
-- **Ongoing Accountability**: Continuous responsibility for maintaining integrity
-
-## Challenges to Epistemic Integrity
-
-### Internal Challenges
-
-#### Cognitive Biases
-
-Human reasoning is subject to systematic biases that threaten epistemic integrity:
-
-- **Confirmation Bias**: Seeking evidence that supports existing beliefs
-- **Anchoring Effect**: Over-weighting first information encountered
-- **Availability Heuristic**: Overvaluing easily recalled information
-- **Dunning-Kruger Effect**: Overestimating competence in unfamiliar domains
-
-#### Organizational Pressures
-
-Institutions may pressure individuals to compromise epistemic integrity:
-
-- **Deadline Pressure**: Insufficient time for proper verification
-- **Conformity Pressure**: Social pressure to align with group conclusions
-- **Commercial Pressure**: Financial incentives to misrepresent findings
-- **Political Pressure**: Power dynamics that suppress inconvenient truths
-
-### External Challenges
-
-#### Adversarial Manipulation
-
-Bad actors may deliberately attack epistemic integrity:
-
-- **Disinformation**: Deliberate creation of false information
-- **Data Poisoning**: Introducing corrupted data into trusted sources
-- **Context Manipulation**: Presenting accurate information in misleading contexts
-- **Trust Exploitation**: Leveraging established trust to propagate falsehoods
-
-#### Systemic Degradation
-
-Even without malicious intent, systems naturally degrade epistemic integrity:
-
-- **Information Entropy**: Meaning naturally degrades through processing
-- **Scale Effects**: Large systems amplify small errors
-- **Complexity Obscuration**: Complex systems make verification difficult
-- **Temporal Drift**: Changing contexts alter the meaning of static information
-
-## Epistemic Integrity and the GHL
-
-### Licensing as Epistemic Protection
-
-The [General Honest License](https://prismatic-reality-com.github.io/prismatic-promo/philosophy/ghl-framework/) serves as an epistemic protection mechanism:
-
-- **Modification Controls**: Prevent unauthorized changes that could corrupt meaning
-- **Interpretation Authority**: Ensure the author's intended meaning is preserved
-- **Derivative Restrictions**: Prevent derivative works that misrepresent original intent
-- **Revocation Power**: Enable correction when integrity is compromised
-
-### The Oath as Epistemic Commitment
-
-The GHL oath includes epistemic commitments:
-
-- **Understanding Commitment**: Oath-takers commit to understanding the software's purpose
-- **Meaning Preservation**: Commitment to preserving intended meaning in usage
-- **Honest Reporting**: Obligation to report integrity issues honestly
-- **Community Support**: Commitment to helping others maintain proper understanding
-
-## Future Directions
-
-### Automated Integrity Verification
-
-Development of automated systems for epistemic integrity:
-
-- **Semantic Analysis**: AI-powered detection of meaning drift
-- **Provenance Verification**: Automated tracking of information provenance
-- **Contradiction Detection**: Systematic identification of inconsistencies
-- **Confidence Calibration**: Automated assessment of claim reliability
-
-### Formal Epistemology Integration
-
-Deeper integration with formal epistemology:
-
-- **Bayesian Networks**: Probabilistic reasoning for belief update
-- **Dempster-Shafer Theory**: Evidence combination under uncertainty
-- **Paraconsistent Logic**: Formal handling of contradictions
-- **Dynamic Epistemic Logic**: Modeling knowledge change over time
-
-### Cross-Domain Application
-
-Extending epistemic integrity principles beyond software:
-
-- **Scientific Research**: Protecting research integrity in computational science
-- **Journalism**: Maintaining truth in algorithmic news distribution
-- **Governance**: Ensuring integrity in computational governance systems
-- **Education**: Preserving educational integrity in digital learning
-
-## Conclusion
-
-### The Imperative of Integrity
-
-Epistemic integrity is not optional in an information-mediated world. As software systems increasingly mediate our relationship with knowledge, the preservation of meaning becomes a **fundamental ethical obligation**. The Prismatic Platform's commitment to epistemic integrity - through NABLA Infinity axioms, Trinity Gate verification, and GHL protection mechanisms - represents a comprehensive approach to this obligation.
-
-### A Call to Epistemic Responsibility
-
-Epistemic integrity requires effort from all participants in the software ecosystem:
-
-- **Creators** must encode meaning carefully and protect it through appropriate mechanisms
-- **Users** must engage honestly with knowledge systems and respect their limitations
-- **Organizations** must create cultures that value truth over convenience
-- **Communities** must hold each other accountable for maintaining epistemic standards
-
-### The Path Forward
-
-The future of epistemic integrity lies in the integration of philosophical principles with technical implementation. By building systems that embody epistemic values - transparency, provenance, contradiction preservation, and temporal awareness - we can create a more trustworthy information environment for all.
-
-The alternative - a world of corrupted meaning, lost provenance, and suppressed contradictions - is too dangerous to accept. Epistemic integrity is not merely a philosophical ideal but a **practical necessity** for any society that depends on accurate information for its functioning.
-
----
-
-## Connect & Contribute
-
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+## Vymezení
+
+Epistemickou integritou se v tomto oddílu rozumí závazek zachovávat pravdivostní hodnotu,
+význam a původ poznatků napříč časem, kontextem a výkladem. Integrita v tomto smyslu není
+vlastností jednotlivého tvrzení, ale vlastností zacházení s ním: poznatek si ji uchová, když
+se při každém přenosu, úpravě a spojení s jinými poznatky ví, odkud pochází, co se s ním stalo
+a s jakou jistotou platí. Esej navazuje na tradici etiky přesvědčení, podle níž za své
+přesvědčení neseme odpovědnost (Clifford, 1877), a vykládá zásady, jimiž se tato odpovědnost v
+kompendiu převádí do metody. Úzce souvisí s esejí
+[intelektuální suverenita](@/philosophy/intellectual-sovereignty.md), která chrání význam díla
+na straně autora, a s esejí [etika hranic](@/philosophy/boundary-ethics.md), která popisuje
+prostředky jeho ochrany.
+
+Pro knihu o epistemické anihilaci má pojem zvláštní váhu. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) podle
+[definice](@/kompendium/02-uvod/definice.md) nerozkládá jednotlivá přesvědčení, ale nástroje,
+jimiž člověk pravdu od nepravdy rozlišuje. Epistemická integrita je pozitivním protějškem
+téhož: popisuje podmínky, za nichž tyto nástroje fungují, a tím i to, co obrana a zotavení
+obnovují. Bernard Williams označil dvě ctnosti, na nichž stojí společné poznání, za přesnost,
+tedy péči o to, aby přesvědčení byla pravdivá, a upřímnost, tedy ochotu sdělovat to, čemu
+člověk skutečně věří (Williams, 2002).
+
+## Teoretický původ
+
+William Clifford formuloval etiku přesvědčení na příkladu majitele lodi, který potlačil
+pochybnosti o její způsobilosti a upřímně uvěřil, že doplují; vinen je podle Clifforda ne proto,
+že loď ztroskotala, ale proto, že k přesvědčení neměl právo na základě důkazů, které měl
+(Clifford, 1877). William James mu oponoval tím, že v situacích, kde je volba živá, nevyhnutelná
+a závažná a kde ji důkazy nerozhodnou, smí rozhodnout i naše vášnivá povaha (James, 1896).
+Kompendium stojí v tomto sporu blíže Cliffordovi, ale přebírá od Jamese vědomí, že jednat je
+nutné i za nejistoty; řešením není víra bez důkazů, ale výslovné označení nejistoty.
+
+Epistemologie ctností přenesla otázku z jednotlivých přesvědčení na charakter poznávajícího.
+Lorraine Codeová popsala epistemickou odpovědnost jako ctnost, která zahrnuje péči o kvalitu
+vlastních přesvědčení i o jejich dopad na druhé, a Linda Zagzebská rozvinula pojetí
+intelektuálních ctností, k nimž patří poctivost, pokora a otevřenost (Code, 1987; Zagzebski,
+1996). Harry Frankfurt doplnil, čím se poctivost liší od svého protikladu: lhář se o pravdu
+stará, protože ji skrývá, zatímco ten, kdo „kecá“, je k pravdě lhostejný, a právě tato
+lhostejnost je pro společné poznání nebezpečnější než lež (Frankfurt, 2005).
+
+## Eroze významu při přenosu
+
+Původní text oddílu popsal pět způsobů, jimiž software, který informace zpracovává a předává ve
+velkém měřítku, narušuje jejich význam: ztrátovou transformaci, oddělení od kontextu, rozcházející
+se výklady, posun v čase a zkreslení při spojování zdrojů. Claude Shannon ve své teorii
+komunikace výslovně vyloučil význam z inženýrského problému přenosu, protože jeho teorie
+zachycuje jen věrnost signálu, a nikoli smysl zprávy (Shannon, 1948). Zachování signálu proto
+nezaručuje zachování významu, a otázka, kterou si klade epistemická integrita, začíná přesně
+tam, kde Shannonova teorie končí. Luciano Floridi tuto mezeru zpracoval jako filozofii
+sémantické informace, podle níž je informace dobře utvořená, smysluplná a pravdivá data
+(Floridi, 2011).
+
+Oddělení od kontextu je nejméně nápadnou a nejzávažnější formou eroze. Helen Nissenbaumová
+ukázala, že informace nese normy kontextu, v němž vznikla, a že tytéž údaje mohou být v jednom
+kontextu neškodné a v jiném škodlivé (Nissenbaum, 2010). Claire Wardleová a Hossein Derakhshan
+zavedli pro informační prostředí rozlišení mezi misinformací, tedy nepravdou šířenou bez úmyslu
+škodit, dezinformací, tedy nepravdou šířenou úmyslně, a malinformací, tedy pravdivou informací
+použitou ke škodě, často právě vytržením z kontextu (Wardle a Derakhshan, 2017). Kniha tento
+rámec rozvádí v kapitole o [typologii dezinformačního ekosystému](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md).
+
+## Čtyři zásady
+
+První zásadou je zachování významu: každá operace s poznatkem má jeho jádro zachovat, ztrátová
+operace má být jako ztrátová označena, a kde se původní význam obnovit nedá, má být ztráta
+přiznána. Druhou zásadou je sledování původu. C. A. J. Coady ukázal, že převážná část toho, co
+víme, pochází ze svědectví druhých, a že svědectví je legitimním zdrojem poznání jen tehdy,
+když lze jeho důvěryhodnost posoudit (Coady, 1992). Původ poznatku, jeho transformace, výklady
+a míra jistoty jsou údaje, bez nichž takové posouzení není možné.
+
+Třetí zásadou je průhlednost úsudku: každý závěr má být spojen s premisami výslovným řetězcem
+úvah, nejistota se má šířit řetězcem a soupeřící řetězce mají zůstat zachovány. Karl Popper
+vyložil, že vědecké poznání nespočívá v tom, že tvrzení potvrzujeme, ale v tom, že je
+vystavujeme pokusům o vyvrácení, a to je možné jen tehdy, když jsou jeho důvody veřejné
+(Popper, 1959). Čtvrtou zásadou je časové vědomí: přesvědčení nese údaj o tom, kdy vzniklo a
+kdy byly shromážděny důkazy, a minulé stavy zůstávají odlišitelné od současných. Hannah
+Arendtová připomněla, že faktická pravda je zranitelnější než pravda rozumová, protože jakmile
+je jednou vymazána, rozum ji znovu neobjeví (Arendt, 1967); Orwellův obraz ministerstva, které
+přepisuje minulost, je literární podobou téhož ohrožení (Orwell, 1949).
+
+## Zásady NABLA Infinity
+
+Doktrinální aparát knihy převádí tyto zásady do sedmi axiomů, které podrobně popisuje heslo
+[NABLA Infinity](@/glossary/nabla-infinity.md) a přehledově heslo
+[axiomy NABLA](@/glossary/nabla-axioms.md). Požadavek plurality signálů stanoví, že žádné
+přesvědčení nemá spočívat na jediném zdroji, a požadavek nezávislosti zdrojů dodává, že dva
+zdroje, které čerpají z téhož, nejsou dvěma signály. Alvin Goldman ukázal, že shoda svědků má
+epistemickou váhu jen tehdy, když jejich svědectví nejsou podmíněně závislá, tedy když druhý
+svědek neopakuje prvního (Goldman, 2001). Kapitola o [vztahu k NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
+ukazuje, jak kniha tento požadavek uplatňuje na vlastní zdroje.
+
+Požadavek zachování rozporu stanoví, že protichůdné signály se nemají předčasně rozhodovat
+vyřazením nepohodlného důkazu. [Imre Lakatos](@/glossary/lakatos.md) ukázal, že výzkumný program, který anomálie
+zaznamenává a nese, místo aby je zakrýval, je racionálnější než program, který je odstraňuje
+ad hoc úpravami (Lakatos, 1970); logika této zásady má formální obdobu v parakonzistentních
+logikách, které dovolují pracovat s rozporem, aniž by z něho plynulo cokoli (Priest, 1987).
+Požadavek informativní absence stanoví, že chybějící signál je údaj, nikoli prázdné místo, a
+působí proti sklonu, který Daniel Kahneman popsal jako přesvědčení, že to, co vidíme, je vše,
+co existuje (Kahneman, 2011).
+
+Zbývající tři axiomy se týkají času, nevědění a původu. Požadavek časového rozpadu stanoví, že
+každé přesvědčení nese časový údaj a jeho spolehlivost s časem slábne, pokud není znovu
+ověřeno. Požadavek platnosti nevědění uznává „nevím“ za legitimní epistemický stav; v jazyce
+epistemologie ctností jde o intelektuální pokoru, kterou glosář rozvádí jako
+[epistemickou pokoru](@/glossary/epistemicka-pokora.md) (Zagzebski, 1996). Požadavek povinného
+původu stanoví, že každé přesvědčení musí být dohledatelné ke zdroji, a navazuje tak na
+Coadyho podmínku posouditelnosti svědectví (Coady, 1992). Doktrína rozlišuje axiomy tvrdé, jejichž
+porušení zastaví další postup, a měkké, jejichž porušení se zaznamená jako varování.
+
+K axiomům přistupují tři kontrolní brány, které glosář popisuje jako
+[Trinity Gate](@/glossary/trinity-gate.md). První požaduje strukturální konzistenci: síť
+přesvědčení nemá obsahovat kruhové závislosti a každé tvrzení má vést k důkazům, což odpovídá
+požadavku, s nímž pracují bayesovské sítě, jejichž struktura je orientovaným acyklickým grafem
+(Pearl, 1988). Druhá požaduje logickou konzistenci přijatých přesvědčení a třetí formální
+podložení u tvrzení, na nichž nejvíce záleží. Mezi druhou bránou a axiomem zachování rozporu
+není spor, pokud se rozlišuje mezi přijatým přesvědčením a otevřenou hypotézou: zachovány
+jsou soupeřící hypotézy, přijata je jen ta, která obstála (Lakatos, 1970).
+
+## Ohrožení epistemické integrity
+
+Vnitřní hrozby pocházejí z povahy lidského úsudku. Amos Tversky a Daniel Kahneman popsali
+heuristiky, jako je ukotvení a dostupnost, které v obvyklých situacích šetří úsilí, ale za
+určitých podmínek vedou k systematickým chybám (Tversky a Kahneman, 1974). Raymond Nickerson
+shrnul doklady o konfirmačním zkreslení, tedy sklonu hledat a vykládat důkazy ve prospěch již
+přijatého přesvědčení, a Justin Kruger a David Dunning ukázali, že lidé s nízkou kompetencí v
+určité oblasti svou kompetenci přeceňují, protože jim chybí právě ta dovednost, jíž by chybu
+rozpoznali (Nickerson, 1998; Kruger a Dunning, 1999).
+
+Organizační hrozby vznikají z tlaku prostředí. Solomon Asch ukázal, že značná část lidí se pod
+tlakem jednomyslné většiny přikloní k zjevně nesprávnému úsudku, a Irving Janis popsal
+skupinové myšlení jako stav, v němž soudržná skupina potlačuje nesouhlas ve prospěch shody
+(Asch, 1956; Janis, 1972). Časový tlak, obchodní zájem a mocenské vztahy působí stejným směrem:
+zkracují ověřování a trestají nepohodlná zjištění. Vnější hrozby představuje úmyslná
+manipulace, od dezinformace po využití pravdivé informace v zavádějícím kontextu, a systémové
+hrozby složitost a měřítko, v nichž se drobná chyba množí bez povšimnutí (Wardle a Derakhshan,
+2017). Obranné nástroje kniha soustřeďuje v oddílu [obrana](@/kompendium/06-obrana/_index.md).
+
+## Epistemická integrita a autorství
+
+Původní text oddílu spojoval epistemickou integritu s licenční filozofií knihy. General Honest
+License vymezuje „epistemický posun“ jako degradaci koncepční celistvosti díla nesprávným
+výkladem nebo zjednodušením a omezuje úpravy a odvozená díla, aby se význam nezkreslil
+(Korcak, 2025). Tato vazba je oprávněná v rozsahu, v němž chrání to, co autor skutečně řekl:
+požadavek, aby úprava byla označena jako úprava a aby se dílu nepřipisovalo, co neobsahuje, je
+přímou aplikací zásady sledování původu. Williamsova ctnost upřímnosti tu má protějšek v
+povinnosti nezkreslovat cizí slova (Williams, 2002).
+
+Za touto hranicí se však vazba obrací. Epistemická integrita nemůže znamenat, že autor má
+poslední slovo o pravdivosti toho, co řekl, protože by tím byla porušena zásada průhlednosti
+úsudku, podle níž o platnosti tvrzení rozhodují důvody, a ne osoba (Popper, 1959). Kniha proto
+sama podrobuje své teze stejným požadavkům, jaké klade na zdroje: každé tvrzení cituje,
+nejisté údaje vynechává a čtenáře vybízí, aby si zdroje ověřil. Praktickou podobu tohoto
+postupu pro čtenáře rozvádějí kapitoly o [triangulaci zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
+a o [paměťovém archivu](@/kompendium/self-defense-guides/43-memory-archive.md).
+
+## Meze a otevřené otázky
+
+Původní text oddílu vytyčil jako směr dalšího rozvoje propojení zásad s formální epistemologií:
+bayesovské sítě pro aktualizaci přesvědčení, Dempsterovu a Shaferovu teorii pro kombinaci
+důkazů za nejistoty, parakonzistentní logiku pro práci s rozpory a dynamickou epistemickou
+logiku pro modelování změn poznání (Pearl, 1988; Shafer, 1976; Priest, 1987; van Ditmarsch, van
+der Hoek a Kooi, 2007). Každý z těchto nástrojů je dobře propracovaný, ale žádný z nich
+neodstraňuje potřebu úsudku při volbě vstupních údajů a vah; formalizace zpřesňuje zacházení s
+nejistotou, ale nevytváří jistotu, kterou vstupy nemají.
+
+Prahové hodnoty, jako je požadovaná míra jistoty před rozhodnutím nebo minimální počet zdrojů,
+jsou konvencemi, a nikoli výsledky teorie, a je třeba je tak také prezentovat. Kahneman
+upozorňuje, že číselné vyjádření jistoty může vyvolat dojem přesnosti, který neodpovídá
+kvalitě podkladů (Kahneman, 2011). Otevřenou otázkou zůstává, jak zásady epistemické integrity
+uplatnit v prostředí, kde zdroje nejsou nezávislé, protože čerpají z téhož algoritmicky
+šířeného obsahu; kniha tuto otázku zpracovává jako výzkumný problém, nikoli jako vyřešenou věc
+(Goldman, 2001).
+
+## Literatura
+
+- Arendt, H. (1967, 25. února). Truth and politics. *The New Yorker*.
+- Asch, S. E. (1956). Studies of independence and conformity: I. A minority of one against a
+  unanimous majority. *Psychological Monographs, 70*(9), 1–70.
+- Clifford, W. K. (1877). The ethics of belief. *Contemporary Review, 29*, 289–309.
+- Coady, C. A. J. (1992). *Testimony: A philosophical study*. Clarendon Press.
+- Code, L. (1987). *Epistemic responsibility*. University Press of New England.
+- Floridi, L. (2011). *The philosophy of information*. Oxford University Press.
+- Frankfurt, H. G. (2005). *On bullshit*. Princeton University Press.
+- Goldman, A. I. (2001). Experts: Which ones should you trust? *Philosophy and Phenomenological
+  Research, 63*(1), 85–110.
+- James, W. (1896). The will to believe. *The New World, 5*.
+- Janis, I. L. (1972). *Victims of groupthink*. Houghton Mifflin.
+- Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
+- Korcak, T. (2025). *General Honest License (GHL) v1.0* [licenční text].
+  https://github.com/korczis/prismatic/tree/master/docs/ghl
+- Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it: How difficulties in recognizing
+  one’s own incompetence lead to inflated self-assessments. *Journal of Personality and Social
+  Psychology, 77*(6), 1121–1134.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In
+  I. Lakatos & A. Musgrave (Eds.), *Criticism and the growth of knowledge*. Cambridge University
+  Press.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of
+  General Psychology, 2*(2), 175–220.
+- Nissenbaum, H. (2010). *Privacy in context: Technology, policy, and the integrity of social
+  life*. Stanford University Press.
+- Orwell, G. (1949). *Nineteen eighty-four*. Secker & Warburg.
+- Pearl, J. (1988). *Probabilistic reasoning in intelligent systems: Networks of plausible
+  inference*. Morgan Kaufmann.
+- Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson.
+- Priest, G. (1987). *In contradiction: A study of the transconsistent*. Martinus Nijhoff.
+- Shafer, G. (1976). *A mathematical theory of evidence*. Princeton University Press.
+- Shannon, C. E. (1948). A mathematical theory of communication. *Bell System Technical Journal,
+  27*(3), 379–423.
+- Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases.
+  *Science, 185*(4157), 1124–1131.
+- van Ditmarsch, H., van der Hoek, W., & Kooi, B. (2007). *Dynamic epistemic logic*. Springer.
+- Wardle, C., & Derakhshan, H. (2017). *Information disorder: Toward an interdisciplinary
+  framework for research and policy making*. Council of Europe.
+- Williams, B. (2002). *Truth and truthfulness: An essay in genealogy*. Princeton University
+  Press.
+- Zagzebski, L. T. (1996). *Virtues of the mind: An inquiry into the nature of virtue and the
+  ethical foundations of knowledge*. Cambridge University Press.
+
+## Související
+
+**Eseje oddílu**
+
+- [Filozofická východiska](@/philosophy/_index.md) – úvod do oddílu a licenční filozofie knihy.
+- [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) – ochrana významu na
+  straně autora.
+- [Etika hranic](@/philosophy/boundary-ethics.md) – prostředky, jimiž se význam chrání.
+
+**Doktrinální pojmy**
+
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – sedm axiomů práce s důkazy.
+- [Trinity Gate](@/glossary/trinity-gate.md) – tři kontrolní brány před přijetím tvrzení.
+- [Epistemická pokora](@/glossary/epistemicka-pokora.md) – uznání nevědění jako legitimního stavu.
+
+**Kapitoly a obrana**
+
+- [Vztah k NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak kniha zásady uplatňuje
+  na vlastní zdroje.
+- [Typologie dezinformací](@/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md) –
+  eroze významu v informačním prostředí.
+- [Triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md) – praktická
+  podoba plurality a nezávislosti signálů.
+- [Obrana proti epistemické anihilaci](@/kompendium/06-obrana/_index.md) – obranné nástroje knihy.

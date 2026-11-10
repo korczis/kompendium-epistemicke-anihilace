@@ -1,82 +1,187 @@
 +++
-title = "Konfirmacni"
+title = "Konfirmační bias jako zranitelnost"
 weight = 100
-description = "Konfirmacni — pojem v sekci kompendium/03-zakladni-kategorie/biasy znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Konfirmační bias v taxonomii EA: proč je nejčastěji využívanou kognitivní zranitelností, jak se jeho využití pozná, čím se liší od běžného usuzování a jak se mu bránit."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "zakladni-kategorie", "kognitivni-bias", "psychologie", "manipulace"]
 
 [extra]
-category = "kompendium-sub"
-related_terms = []
+category = "zakladni-kategorie"
+related_terms = ["konfirmacni-bias", "kognitivni-bias"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
-quality_score = 80
+date_modified = "2026-11-10"
 +++
 
-## Definice
+## Vymezení a místo v taxonomii
 
-**Konfirmacni** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+Konfirmační bias, česky konfirmační zkreslení, označuje sklon vyhledávat, vykládat a vybavovat
+si informace tak, aby potvrzovaly již existující přesvědčení nebo hypotézu (Nickerson, 1998).
+Psychologický výklad jevu a dějiny jeho výzkumu podává heslo
+[konfirmační bias](@/glossary/konfirmacni-bias.md) v glosáři; tato stránka se na něj dívá
+z úhlu podsekce [kognitivních biasů](@/kompendium/03-zakladni-kategorie/biasy/_index.md)
+kapitoly 3, tedy jako na zranitelnost, kterou mohou manipulativní techniky využít, a ptá se,
+proč je právě tato zranitelnost využívána nejčastěji a jak se lze jejímu využití bránit.
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+Odpověď na první otázku je strukturální. Většina zkreslení působí jen za určitých podmínek,
+kdežto konfirmační zkreslení provází téměř každé usuzování, od vědeckého testování hypotéz po
+lékařskou diagnózu a soudní rozhodování (Nickerson, 1998). Manipulace proto nemusí člověka
+přesvědčovat o něčem novém; stačí mu nabídnout první výklad a nechat konfirmační zkreslení
+dokončit zbytek. Kapitola
+[3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md) popisuje tuto součinnost u technik
+skupiny EA-1.1.
 
-## Filozofický kontext
+## Teoretický původ
 
-Koncept **Konfirmacni** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+Peter Wason v klasickém experimentu s posloupností čísel ukázal, že účastníci hledající pravidlo
+převážně testovali příklady, které odpovídaly jejich hypotéze, a jen zřídka zkoušeli takové,
+které by ji mohly vyvrátit (Wason, 1960). Joshua Klayman a Young-Won Ha později upřesnili, že
+tato strategie pozitivního testování není sama o sobě iracionální a v mnoha prostředích je
+účinná, avšak selhává tam, kde správné pravidlo je širší nebo jiné než hypotéza (Klayman a Ha,
+1987). Raymond Nickerson shrnul rozsáhlý výzkum a ukázal, že zkreslení se projevuje v mnoha
+podobách, od výběru informací po jejich výklad a paměť (Nickerson, 1998).
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+Charles Lord, Lee Ross a Mark Lepper prokázali, že lidé s opačnými názory, kteří četli tytéž
+smíšené důkazy, se po přečtení v názorech dále rozešli, protože každá strana přijímala
+podporující studie jako přesvědčivé a odmítala ty opačné jako metodicky vadné (Lord, Ross a
+Lepper, 1979). Ziva Kunda vysvětlila tento jev motivovaným usuzováním: lidé nevěří tomu, čemu
+chtějí, libovolně, ale hledají důvody, které by jim dovolily požadovaný závěr obhájit (Kunda,
+1990). Daniel Kahneman zařadil zkreslení do rámce rychlého, intuitivního myšlení, které vytváří
+soudržný příběh z dostupných informací a nepočítá s tím, co chybí (Kahneman, 2011).
 
-## Klinická a operační relevance
+## Mechanismus a pozorovatelné znaky
 
-V due-diligence praxi a klinickém poradenství se **Konfirmacni** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+Manipulativní využití konfirmačního zkreslení má na úrovni struktury dvě fáze. V první fázi se
+člověku nabídne rámec, často v okamžiku nejistoty, kdy je ochoten přijmout jakýkoli výklad, který
+přináší řád; ve druhé fázi se mu dodávají informace, které rámec potvrzují, zatímco opačné jsou
+vynechány nebo předem zdiskreditovány (Nickerson, 1998). Druhou fázi popisuje technika
+[EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md). Pokud je
+rámec spojen s identitou nebo se silnou emocí, dynamika, kterou popsali Lord, Ross a Lepper,
+způsobí, že každá další informace jej posílí bez ohledu na obsah (Lord, Ross a Lepper, 1979).
 
-## Detekční vztah
+Pozorovatel rozpozná využití konfirmačního zkreslení podle několika znaků. Zdroje informací se
+zužují na jeden okruh, který se navzájem cituje; potvrzující údaje se přijímají bez prověření,
+zatímco opačné se odmítají s odkazem na zaujatost zdroje; a člověk přestává klást otázku, jaký
+údaj by jeho názor změnil (Nickerson, 1998). Síťové projevy zachycují signatury
+[monokultury zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) a
+[cirkularity citací](@/kompendium/detection-signatures/18-network-citation-circularity.md).
 
-Pro praktickou detekci konzultujte:
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+Pro postiženého je tento proces zevnitř nepostřehnutelný, protože prožívá rostoucí jistotu, a
+nikoli rostoucí zkreslení (Kahneman, 2011). Hugo Mercier a Dan Sperber upozorňují, že lidské
+usuzování je výborně uzpůsobeno k hledání argumentů pro vlastní stanovisko a mnohem méně
+k samostatnému hledání vlastních chyb; chyby v našem uvažování obvykle odhalí až druzí (Mercier a
+Sperber, 2011). Izolace od lidí s odlišným názorem proto konfirmační zkreslení výrazně zesiluje.
 
+## Odlišení od příbuzných jevů
 
-## See Also
+Konfirmační zkreslení není samo o sobě poruchou ani znakem manipulace. Přiměřená stabilita
+přesvědčení je rozumná, protože nelze měnit názor při každém novém údaji, a Klayman a Ha ukázali,
+že pozitivní testování je v mnoha situacích efektivní strategií (Klayman a Ha, 1987). Problémem
+se stává teprve tehdy, když je informační prostředí uspořádáno tak, aby opačné údaje k člověku
+vůbec nepronikly, nebo když je přesvědčení imunizováno proti vyvrácení, jak popisuje sesterská
+kategorie [falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md).
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/biasy/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Od klinických stavů je třeba odlišit fixovaná přesvědčení u bludných poruch a u
+obsedantně-kompulzivní symptomatiky, kde odolnost vůči opačným důkazům nevychází ze skupinového
+informačního prostředí (American Psychiatric Association, 2013). Od kognitivní disonance se
+konfirmační zkreslení liší tím, že nevyžaduje prožívaný rozpor; disonance však může zkreslení
+posílit, když člověk do přesvědčení již mnoho investoval (Festinger, 1957).
 
----
+## Klinický, právní a organizační rámec
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+V medicíně je konfirmační zkreslení dobře zdokumentovaným zdrojem diagnostických chyb, kdy lékař
+po stanovení první hypotézy přehlíží údaje, které jí neodpovídají; Pat Croskerry doporučuje
+vědomé zvažování alternativních diagnóz jako ochranu (Croskerry, 2003). Ve forenzní oblasti Saul
+Kassin, Itiel Dror a Jeff Kukucka shrnuli doklady o tom, že znalost kontextu případu může
+ovlivnit i zdánlivě objektivní forenzní posudky, a navrhli postupy, které posuzovatele před
+takovým kontextem chrání (Kassin, Dror a Kukucka, 2013). Tyto poznatky jsou přímo použitelné ve
+vyšetřování případů epistemické manipulace, kde vyšetřovatel sám může podlehnout prvnímu výkladu.
 
-## Manažerské shrnutí
+V organizacích se konfirmační zkreslení projevuje při hodnocení investic, prověrkách a strategických
+rozhodnutích, kde tým po přijetí hypotézy shromažďuje jen podporující údaje. Ochranou je
+strukturované hledání vyvracejících důkazů a oddělení role toho, kdo hypotézu navrhuje, od role
+toho, kdo ji testuje (Kassin, Dror a Kukucka, 2013); tento přístup rozvádí stránka
+[prevence konfirmačního zkreslení v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md).
 
-**Konfirmacni** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie/biasy` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana a zotavení
 
+Nejlépe doloženou individuální obranou je strategie „zvažte opak“, při níž si člověk výslovně
+představí, jak by vypadaly důkazy, kdyby jeho hypotéza byla mylná; Lord, Lepper a Prestonová
+ukázali, že tento postup zkreslení snižuje účinněji než pouhá výzva k nestrannosti (Lord, Lepper a
+Preston, 1984). Druhou obranou je záměrné vyhledávání lidí, kteří zastávají odlišný názor, protože
+podle Merciera a Sperbera jsou chyby v uvažování nejsnáze odhaleny v dialogu (Mercier a Sperber,
+2011). Praktický návod nabízí průvodce
+[osobním auditem zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md).
 
-## Koncepční síť
+Zotavení po dlouhodobém pobytu v uzavřeném informačním prostředí vyžaduje obnovu rozmanitosti
+zdrojů a obnovu ochoty nechat se opravit. Scott Lilienfeld a jeho spolupracovníci upozorňují, že
+snahy o odstranění zkreslení mají jen omezený a nejistý přenos do běžného života, a proto je
+vhodné je kombinovat se změnou informačního prostředí (Lilienfeld, Ammirati a Landfield, 2009).
 
-Vizualizace propojení **Konfirmacni** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Meze a otevřené otázky
 
-```mermaid
-graph TD
-    C0["Konfirmacni"]
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-```
+Pojem konfirmačního zkreslení zahrnuje řadu odlišných jevů, od strategie testování hypotéz po
+selektivní paměť, a někteří autoři navrhují je rozlišovat, protože mají odlišné příčiny
+(Nickerson, 1998). Mercier a Sperber navíc tvrdí, že to, co se jeví jako vada jednotlivce, může
+být funkční součástí kolektivního usuzování, kde se jednostranné argumenty vzájemně vyvažují
+(Mercier a Sperber, 2011). Otevřenou otázkou zůstává, jak účinná je výuka rozpoznávání zkreslení
+mimo laboratoř; kompendium proto klade důraz spíše na strukturu informačního prostředí než na
+individuální trénink.
 
-## Související pojmy
+## Literatura
 
-- [Sekce `kompendium/03-zakladni-kategorie/biasy` — index](@/kompendium/03-zakladni-kategorie/biasy/_index.md)
-- [Hlavní glosář](@/glossary/_index.md)
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Croskerry, P. (2003). The importance of cognitive errors in diagnosis and strategies to
+  minimize them. *Academic Medicine, 78*(8), 775–780.
+- Festinger, L. (1957). *A theory of cognitive dissonance*. Row, Peterson.
+- Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
+- Kassin, S. M., Dror, I. E., & Kukucka, J. (2013). The forensic confirmation bias: Problems,
+  perspectives, and proposed solutions. *Journal of Applied Research in Memory and Cognition,
+  2*(1), 42–52.
+- Klayman, J., & Ha, Y.-W. (1987). Confirmation, disconfirmation, and information in hypothesis
+  testing. *Psychological Review, 94*(2), 211–228.
+- Kunda, Z. (1990). The case for motivated reasoning. *Psychological Bulletin, 108*(3), 480–498.
+- Lilienfeld, S. O., Ammirati, R., & Landfield, K. (2009). Giving debiasing away: Can
+  psychological research on correcting cognitive errors promote human welfare? *Perspectives on
+  Psychological Science, 4*(4), 390–398.
+- Lord, C. G., Lepper, M. R., & Preston, E. (1984). Considering the opposite: A corrective
+  strategy for social judgment. *Journal of Personality and Social Psychology, 47*(6),
+  1231–1243.
+- Lord, C. G., Ross, L., & Lepper, M. R. (1979). Biased assimilation and attitude polarization:
+  The effects of prior theories on subsequently considered evidence. *Journal of Personality and
+  Social Psychology, 37*(11), 2098–2109.
+- Mercier, H., & Sperber, D. (2011). Why do humans reason? Arguments for an argumentative theory.
+  *Behavioral and Brain Sciences, 34*(2), 57–74.
+- Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of
+  General Psychology, 2*(2), 175–220.
+- Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. *Quarterly
+  Journal of Experimental Psychology, 12*(3), 129–140.
 
-## Navigace
+## Související
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie/biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
+**Pojmy glosáře**
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – hlavní psychologický výklad jevu.
+- [Kognitivní bias](@/glossary/kognitivni-bias.md) – obecný pojem, pod nějž zkreslení patří.
+
+**Kapitola 3 a techniky**
+
+- [Kognitivní biasy](@/kompendium/03-zakladni-kategorie/biasy/_index.md) – podsekce, do níž
+  stránka patří.
+- [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+  technika, která zkreslení přímo využívá.
+- [Falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) – sesterská
+  kategorie: imunizace přesvědčení proti vyvrácení.
+
+**Detekce, obrana a praxe**
+
+- [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) –
+  síťová signatura zúženého informačního prostředí.
+- [Osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md) –
+  praktický nácvik rozpoznání vlastních zkreslení.
+- [Prevence konfirmačního zkreslení v due diligence](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
+  – organizační aplikace v prověrkách.
+- [Rozpoznání kognitivních zkreslení](@/kompendium/educational-scenarios/2-cognitive-bias-recognition.md)
+  – vzdělávací scénář pro výuku.

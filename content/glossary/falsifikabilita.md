@@ -1,81 +1,171 @@
 +++
 title = "Falsifikabilita"
 weight = 100
-description = "Falsifikabilita — pojem v sekci glossary znalostní báze Prismatic Platform, kategorie architecture."
+description = "Falsifikabilita jako stupňovitá vlastnost tvrzení: empirický obsah, třída možných vyvracečů a jejich úbytek jako znak imunizace přesvědčení vůči zkušenosti."
 
 [taxonomies]
-tags = ["glossary", "architecture", "interactive"]
+tags = ["glossary", "filozofie", "epistemologie", "věda", "kompendium"]
 
 [extra]
-category = "architecture"
-related_terms = ["adapter-pattern", "adaptive-testing", "access-control", "adapter", "academy", "adversarial-conditions"]
+category = "metodologie"
+related_terms = ["falsifikovatelnost", "falsifikace", "popperianismus", "lakatos-vyzkumny-program", "holismus", "pseudoscience"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-03"
-quality_score = 75
-ref_count_at_creation = 1
+date_modified = "2026-11-10"
 +++
 
-## Definition
+## Vymezení
 
-**Falsifikabilita** is a platform-architecture term used across the Prismatic Platform documentation. This entry is a structural stub created during the 2026-05-03 NLLB content-completion sweep — full treatment is part of the ongoing knowledge-base buildout.
+Falsifikabilita je logická vlastnost tvrzení, které se může dostat do rozporu s nějakým
+možným pozorováním. Karl Popper ji zavedl jako kritérium, jež odlišuje empirickou vědu od
+metafyziky a pseudovědy, a zároveň ji pojal jako vlastnost stupňovitou: tvrzení je tím
+falsifikovatelnější, čím více možných stavů světa zakazuje (Popper, 1959). V češtině se
+užívají oba tvary, falsifikabilita i falsifikovatelnost, a znamenají totéž.
 
-## See Also
+Toto heslo se soustředí na stupňovitou stránku pojmu, tedy na otázku „jak moc“ tvrzení
+riskuje, a na to, jak se míra rizika v manipulativních systémech postupně snižuje. Základní
+výklad Popperova demarkačního kritéria nabízí heslo
+[falsifikovatelnost](@/glossary/falsifikovatelnost.md), akt vyvrácení a jeho metodické
+důsledky heslo [falsifikace](@/glossary/falsifikace.md) a zařazení pojmu mezi základní
+kategorie knihy kapitola
+[falsifikovatelnost](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md) (Popper, 1959).
 
-- [Glossary index](@/glossary/_index.md)
+## Teoretický původ
 
----
+Popper v *Logice vědeckého bádání* zavedl pojem třídy potenciálních falsifikátorů: souboru
+základních výroků, které by s teorií byly v rozporu, kdyby byly pravdivé. Empirický obsah
+teorie se podle něj měří velikostí této třídy, a teorie, která zakazuje více, je informativní
+a zároveň méně pravděpodobná (Popper, 1959). Odtud plyne jeho na první pohled paradoxní
+závěr, že věda by měla upřednostňovat odvážné, nepravděpodobné hypotézy, protože jen ty
+mohou mnoho vysvětlit.
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+V eseji o vědě a pseudovědě Popper uvedl jako protipříklady marxistickou teorii dějin a
+psychoanalýzu: obě podle něj dokázaly vysvětlit jakékoli chování a tuto všestrannost
+zastánci mylně pokládali za sílu (Popper, 1963). Adolf Grünbaum později ukázal, že v případě
+psychoanalýzy je Popperovo hodnocení příliš paušální, protože některá Freudova tvrzení
+testovatelná jsou (Grünbaum, 1984). [Imre Lakatos](@/glossary/lakatos.md) pak přesunul pozornost od jednotlivých
+teorií k výzkumným programům a rozlišil program progresivní, který s každou úpravou získává
+nový empirický obsah, a degenerující, který ho ztrácí (Lakatos, 1970).
 
-## Manažerské shrnutí
+## Mechanismus a pozorovatelné znaky
 
-**Falsifikabilita** je aktivní uzel taxonomického grafu sekce `glossary` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+Pro obranu poznání je podstatné, že falsifikabilitu lze ztrácet postupně. Popper popsal
+konvenční strategie, jimiž lze kteroukoli teorii zachránit: přidání pomocné hypotézy ad hoc,
+změnu definic pojmů tak, aby nepohodlné pozorování přestalo platit, nebo odmítnutí
+svědectví pozorovatele (Popper, 1959). Každá taková úprava zmenšuje třídu možných
+vyvracečů. Výsledkem je tvrzení, které formálně zůstává stejné, ale již nic nezakazuje.
 
+Klasickou ilustraci poskytla studie Leona Festingera a spolupracovníků o skupině, jejíž
+předpověď konce světa se nenaplnila. Místo opuštění přesvědčení skupina přijala vysvětlení,
+že katastrofa byla odvrácena díky její víře, a začala víru aktivněji šířit (Festinger,
+Riecken a Schachter, 1956). Tvrzení, které zpočátku riskovalo konkrétní datum, se po
+neúspěchu přeměnilo v tvrzení, které neriskovalo nic. Tento vzorec odpovídá technice
+[imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
-## Koncepční síť
+Pozorovatel úbytek falsifikability rozpozná podle několika znaků. Předpovědi se stávají
+neurčitými co do času a obsahu; každý nepříznivý výsledek je dodatečně vyložen jako
+potvrzení; pochybnost sama je zahrnuta do teorie jako projev nepřátelství nebo duchovní
+nezralosti; a otázka „co by tě přesvědčilo o opaku?“ nemá odpověď. Popper by takový stav
+označil za přechod od vědy k pseudovědě, Lakatos za degeneraci programu (Lakatos, 1970).
 
-Vizualizace propojení **Falsifikabilita** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Odlišení od příbuzných jevů
 
-```mermaid
-graph TD
-    C0["Falsifikabilita"]
-    N1["Adapter Pattern"]
-    N2["Adaptive Testing"]
-    N3["Access Control"]
-    N4["Adapter"]
-    N5["Academy"]
-    N6["Adversarial Conditions"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Úbytek falsifikability je nutné odlišit od legitimní revize teorie. Pierre Duhem a později
+Willard Van Orman Quine ukázali, že pozorování nikdy netestuje izolovanou hypotézu, ale vždy
+celek hypotézy a pomocných předpokladů; nepříznivý výsledek proto připouští více oprávněných
+reakcí (Duhem, 1906; Quine, 1951). Rozhodující není to, že se pomocná hypotéza přidává, ale
+to, zda zvyšuje, nebo snižuje empirický obsah. Tuto souvislost rozvádí heslo
+[holismus](@/glossary/holismus.md).
 
-## Související pojmy
+Rovněž je nutné odlišit nefalsifikovatelnost od nesmyslnosti. Popper výslovně odmítl
+pozitivistickou tezi, že metafyzická tvrzení postrádají význam; nefalsifikovatelná tvrzení
+mohou být smysluplná a mohou mít hodnotu jako regulativní ideje nebo hodnotové postoje
+(Popper, 1959). Epistemicky problematickým se stává až tvrzení, které se vydává za empirické
+a zároveň si zajišťuje imunitu vůči zkušenosti. Thomas Kuhn navíc připomněl, že běžná věda
+anomálie dočasně toleruje, aniž by tím ztrácela racionalitu (Kuhn, 1962).
 
-- [Adapter Pattern](@/glossary/adapter-pattern.md) — slug `adapter-pattern`
-- [Adaptive Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adaptive-testing/) — slug `adaptive-testing`
-- [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/) — slug `access-control`
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — slug `adapter`
-- [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/) — slug `academy`
-- [Adversarial Conditions](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adversarial-conditions/) — slug `adversarial-conditions`
+## Klinický, právní a organizační rámec
 
-## Navigace
+V klinické praxi se pojem uplatňuje dvojím způsobem. Odborník posuzuje, zda přesvědčení
+klienta o něm samém nebo o jeho situaci připouštějí opravu zkušeností, a zároveň hlídá
+falsifikabilitu vlastních hypotéz: diagnóza, kterou nelze vyvrátit žádným chováním klienta,
+se mění v nálepku. Lilienfeld a spolupracovníci uvádějí neochotu vystavit tvrzení testu
+mezi hlavními varovnými znaky pseudovědy v klinické psychologii (Lilienfeld, Lynn a Lohr,
+2003).
 
-- **Nadřazená sekce**: [glossary](@/glossary/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [3NL](@/glossary/3nl.md)
-  - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/academy/)
-  - [Access Control](https://prismatic-reality-com.github.io/prismatic-promo/glossary/access-control/)
-  - [Accreditation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accreditation/)
-  - [Accuracy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/accuracy/)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+V právním a vyšetřovacím kontextu odpovídá falsifikabilitě požadavek, aby vyšetřovací
+hypotéza určila, jaký důkaz by ji vyvrátil, a aby se tento důkaz aktivně hledal. Bez toho
+hrozí, že se každé zjištění vyloží ve prospěch původní verze, což popisuje oddíl
+[prevence konfirmačního zkreslení](@/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md)
+(Popper, 1963). V organizacích plní obdobnou úlohu předem stanovená kritéria úspěchu
+projektu, která nelze dodatečně měnit.
+
+## Obrana a zotavení
+
+Nejjednodušší obranou je formulovat u důležitých přesvědčení předem, co by je vyvrátilo, a
+zapsat to dříve, než výsledek nastane. Tento postup odpovídá Popperově požadavku, aby kritéria
+vyvrácení byla stanovena před testem, a nikoli po něm (Popper, 1963). Nácvik nabízí průvodce
+[myšlení ve falsifikaci](@/kompendium/self-defense-guides/5-falsification-thinking.md) a
+vzdělávací scénář [návrh falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md).
+
+Pro člověka, který opouští systém s imunizovanými přesvědčeními, je užitečné zrekonstruovat,
+jak se dřívější konkrétní sliby proměňovaly v neurčité. Studie Festingera a spolupracovníků
+ukazuje, že po nenaplněné předpovědi bývá oddanost silnější, nikoli slabší, a že odchod
+proto nevyvolává jediný protidůkaz, ale až postupné hromadění rozporů v podpůrném prostředí
+(Festinger, Riecken a Schachter, 1956).
+
+## Meze a otevřené otázky
+
+Falsifikabilita není postačujícím kritériem dobré teorie: tvrzení může být falsifikovatelné
+a přesto zjevně nepravdivé. Lakatos navíc ukázal, že naivní falsifikacionismus neodpovídá
+dějinám vědy, v nichž byly teorie často drženy navzdory anomáliím, a to oprávněně (Lakatos,
+1970). Otevřenou otázkou zůstává, jak míru falsifikability poměřovat u tvrzení o lidském
+prožívání, kde pozorování nikdy není zcela nezávislé na výkladu; kompendium proto pojem
+používá jako vodítko pro kladení otázek, nikoli jako měřicí nástroj (Grünbaum, 1984).
+
+## Literatura
+
+- Duhem, P. (1906). *La théorie physique: Son objet et sa structure*. Chevalier et Rivière.
+- Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When prophecy fails*. University
+  of Minnesota Press.
+- Grünbaum, A. (1984). *The foundations of psychoanalysis: A philosophical critique*.
+  University of California Press.
+- Kuhn, T. S. (1962). *The structure of scientific revolutions*. University of Chicago
+  Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes.
+  In I. Lakatos & A. Musgrave (Eds.), *Criticism and the growth of knowledge*. Cambridge
+  University Press.
+- Lilienfeld, S. O., Lynn, S. J., & Lohr, J. M. (Eds.). (2003). *Science and pseudoscience
+  in clinical psychology*. Guilford Press.
+- Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson.
+- Popper, K. R. (1963). *Conjectures and refutations: The growth of scientific knowledge*.
+  Routledge & Kegan Paul.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review, 60*(1),
+  20–43.
+
+## Související
+
+**Pojmy glosáře**
+
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – hlavní výklad Popperova
+  demarkačního kritéria.
+- [Falsifikace](@/glossary/falsifikace.md) – akt vyvrácení a jeho metodické důsledky.
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – rozlišení
+  progresivních a degenerujících úprav.
+- [Holismus](@/glossary/holismus.md) – Duhemova a Quinova teze o testování celků.
+- [Pseudověda](@/glossary/pseudoscience.md) – tvrzení, které se vydává za empirické bez
+  rizika vyvrácení.
+
+**Kapitoly a techniky**
+
+- [Falsifikovatelnost v základních kategoriích](@/kompendium/03-zakladni-kategorie/falsifikovatelnost.md)
+  – místo pojmu v taxonomii knihy.
+- [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – technika postupného snižování falsifikability.
+
+**Obrana a vzdělávání**
+
+- [Myšlení ve falsifikaci](@/kompendium/self-defense-guides/5-falsification-thinking.md) –
+  praktická dovednost stanovit kritéria vyvrácení předem.
+- [Návrh falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) –
+  vzdělávací scénář.

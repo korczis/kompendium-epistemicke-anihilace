@@ -1,6 +1,6 @@
 +++
 title = "3.1 Akademické techniky intelektuální manipulace"
-description = "Systematický přehled 13 pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu — kódy EA-1.1.1 až EA-1.5.2 — včetně teoretického fundamentu, fenomenologických znaků, neutralizačních strategií, kompozičních vzorců (Guru/adept, Trojan, Salami) a komparativní analýzy vůči etablovaným taxonomiím (Bachman, Williamson, Fricker)."
+description = "Přehled třinácti technik intelektuální manipulace v akademickém diskurzu (EA-1.1.1 až EA-1.5.2): teoretický rámec, znaky, protiopatření a otevřené výzkumné otázky."
 weight = 1
 insert_anchor_links = "right"
 
@@ -37,7 +37,7 @@ Akademické techniky intelektuální manipulace operují na distinktním teoreti
 
 Intelektuální manipulace systematicky exploituje inherentní kognitivní biasy, které predisponují lidské myšlení k specifickým formám epistemické vulnerability:
 
-- **Konfirmační bias** — Tendence preferenčně vyhledávat, interpretovat a pamatovat si informace kongruentní s existujícími přesvědčeními. Je exploitována selektivní prezentací důkazů, která vytváří dojem komprehenzivity.
+- **[Konfirmační bias](@/glossary/konfirmacni-bias.md)** — Tendence preferenčně vyhledávat, interpretovat a pamatovat si informace kongruentní s existujícími přesvědčeními. Je exploitována selektivní prezentací důkazů, která vytváří dojem komprehenzivity.
 - **Důvěra v autoritu** — Tendence přisuzovat vyšší epistemickou váhu informacím prezentovaným entitami s vnímanou autoritou. Je exploitována manipulací s indikátory epistemické autority (titul, instituce, prosodické signály).
 - **Efekt zarámování** — Tendence formovat úsudky v závislosti na způsobu prezentace informací. Je exploitována strategickým rámováním diskurzu (volba metafor, sekvence informací, kontrastní pole).
 - **Kotvení a adjustace** — Tendence nadměrně spoléhat na iniciálně prezentované informace. Je exploitována strategickým sekvenčním dávkováním informací a načasováním klíčových premis.
@@ -47,7 +47,7 @@ Intelektuální manipulace systematicky exploituje inherentní kognitivní biasy
 Intelektuální manipulace často zahrnuje subtilní subverzi standardních evaluačních kritérií, která jsou fundamentální pro legitimní akademický diskurz:
 
 - **Adiaphoretická neutralizace** — Systematická relativizace evaluačních kritérií, která suspenduje standardní mechanismy rozlišování mezi validními a invalidními argumenty.
-- **Meta-epistemická rekonfigurace** — Modifikace samotných kritérií, jež určují, co je považováno za "důkaz", "argument" nebo "expertízu", často prostřednictvím rekurzivního zpochybňování legitimity těchto kritérií. Tato vrstva je úzce spjata s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md).
+- **Meta-epistemická rekonfigurace** — Modifikace samotných kritérií, jež určují, co je považováno za „důkaz“, „argument“ nebo „expertízu“, často prostřednictvím rekurzivního zpochybňování legitimity těchto kritérií. Tato vrstva je úzce spjata s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md).
 - **Paralogická substituce** — Nahrazení standardních kritérií logické validity a empirické adekvátnosti alternativními kritérii (narativní koherence, rétorická přesvědčivost, emocionální rezonance).
 
 ### Exploitace sociální epistemické dynamiky
@@ -81,7 +81,7 @@ Bachmanova taxonomie rozkládá komunikační kompetenci na **gramatickou**, **t
 
 ### Williamsonova teorie poznání jako mentálního stavu (1996)
 
-Williamson v *Knowledge and its Limits* obhajuje **knowledge-first epistemologii** — poznání není redukovatelné na vyšší kombinace přesvědčení a justifikace. EA-1 je s tímto rámcem konzistentní: techniky jako EA-1.3.1 (imunizace proti falsifikaci) a EA-1.3.2 (strategická reinterpretace) systematicky narušují **factive** dimenzi poznání tím, že rozkládají vazbu mezi přesvědčením a stavem světa. Williamsonova kritika "epistemologie zevnitř" rezonuje s naší kritikou pseudo-epistemic-humility (sebeindukovaná delegitimizace).
+Williamson v *Knowledge and its Limits* obhajuje **knowledge-first epistemologii** — poznání není redukovatelné na vyšší kombinace přesvědčení a justifikace. EA-1 je s tímto rámcem konzistentní: techniky jako EA-1.3.1 (imunizace proti falsifikaci) a EA-1.3.2 (strategická reinterpretace) systematicky narušují **factive** dimenzi poznání tím, že rozkládají vazbu mezi přesvědčením a stavem světa. Williamsonova kritika „epistemologie zevnitř“ rezonuje s naší kritikou pseudo-epistemic-humility (sebeindukovaná [delegitimizace](@/glossary/delegitimizace.md)).
 
 ### Aristotelská rétorika a její moderní recepce
 
@@ -125,7 +125,7 @@ Tyto techniky primárně cílí na procesy, jejichž prostřednictvím jsou nov�
 
 **Detail EA-1.1.2 (Informační přetížení)**: Prezentace excesivního množství informací nebo náročně komplexních dat způsobem znemožňujícím adekvátní kritické zpracování. Operační modus exploituje kognitivní limity pracovní paměti, následované rychlými závěry. Fenomenologicky: kognitivní zahlcení, epistemická úzkost, tendence akceptovat závěry bez evaluace. Rizikové kontexty: odborné prezentace, technické texty, kvantitativní argumentace. Neutralizace: systematická dekompozice, request pro zpomalení, dokumentace klíčových premis, odmítnutí akceptovat závěry bez adekvátního času.
 
-**Detail EA-1.1.3 (Terminologická mystifikace)**: Používání zbytečně komplexní, obskurní nebo idiosynkratické terminologie prezentované jako nezbytné odborné výrazivo. Operační modus vytváří nepřístupnou "expertní" jazykovou doménu inhibující kritickou evaluaci a vytvářející falešnou epistemickou hierarchii. Fenomenologicky: pocit epistemické nedostatečnosti, atribuce nepochopení vlastním kognitivním limitům spíše než problematické prezentaci. Rizikové kontexty: interdisciplinární diskurzy, emergentní výzkumné domény, metodologické diskuse. Neutralizace: request pro definice, identifikace zbytečně komplexních formulací, demystifikační parafráze, evaluace substantivního obsahu za terminologickou fasádou.
+**Detail EA-1.1.3 (Terminologická mystifikace)**: Používání zbytečně komplexní, obskurní nebo idiosynkratické terminologie prezentované jako nezbytné odborné výrazivo. Operační modus vytváří nepřístupnou „expertní“ jazykovou doménu inhibující kritickou evaluaci a vytvářející falešnou epistemickou hierarchii. Fenomenologicky: pocit epistemické nedostatečnosti, atribuce nepochopení vlastním kognitivním limitům spíše než problematické prezentaci. Rizikové kontexty: interdisciplinární diskurzy, emergentní výzkumné domény, metodologické diskuse. Neutralizace: request pro definice, identifikace zbytečně komplexních formulací, demystifikační parafráze, evaluace substantivního obsahu za terminologickou fasádou.
 
 ### 1.2 Narušení procesů evaluace a integrace
 
@@ -139,7 +139,7 @@ Tyto techniky primárně cílí na procesy kritické evaluace a integrace inform
 
 **Detail EA-1.2.1 (Falešné dilema)**: Prezentace komplexního epistemického problému jako binární volby mezi dvěma extrémními pozicemi, s implicitním delegitimizováním nuancovaných nebo hybridních perspektiv. Operační modus představuje artificiální polarizaci diskurzu, která znemožňuje subtilnější pozice. Fenomenologicky: kognitivní tenze a push k výběru mezi dvěma neadekvátními pozicemi, pocit epistemické rezignace. Rizikové kontexty: politizované akademické debaty, metodologické kontroverze, interdisciplinární dialogy. Neutralizace: explicitní identifikace dilematu jako potenciálně falešného, aktivní artikulace alternativních pozic mimo prezentovanou dichotomii, dekonstrukce předpokládaných exkluzivit.
 
-**Detail EA-1.2.2 (Falešná ekvivalence)**: Prezentace fundamentálně asymetrických epistemických entit (argumentů, evidencí, teorií) jako ekvivalentních, často skrze superficiální podobnosti. Operační modus exploituje normu nestrannosti a tendenci k "balance fallacy" v akademickém diskurzu. Fenomenologicky: epistemická dezorientace, neschopnost adekvátně prioritizovat distinktní entity. Rizikové kontexty: vědecké kontroverze, mediální reprezentace akademických debat, pedagogická prezentace kompetitivních teorií. Neutralizace: explicitní artikulace relevantních asymetrií, metaepistemická analýza evaluačních kritérií, odmítnutí falešné neutrality.
+**Detail EA-1.2.2 (Falešná ekvivalence)**: Prezentace fundamentálně asymetrických epistemických entit (argumentů, evidencí, teorií) jako ekvivalentních, často skrze superficiální podobnosti. Operační modus exploituje normu nestrannosti a tendenci k „balance fallacy“ v akademickém diskurzu. Fenomenologicky: epistemická dezorientace, neschopnost adekvátně prioritizovat distinktní entity. Rizikové kontexty: vědecké kontroverze, mediální reprezentace akademických debat, pedagogická prezentace kompetitivních teorií. Neutralizace: explicitní artikulace relevantních asymetrií, metaepistemická analýza evaluačních kritérií, odmítnutí falešné neutrality.
 
 **Detail EA-1.2.3 (Iluzorní komplexita)**: Prezentace fundamentálně jasného nebo rozřešeného problému jako vysoce komplexního, kontroverzního nebo nerozřešitelného. Operační modus představuje umělou komplikaci jednoduchých problémů skrze irelevantní faktory, marginální nuance nebo pseudo-technické detaily. Fenomenologicky: epistemická nejistota a tendence suspendovat úsudek navzdory adekvátní dostupné evidenci. Rizikové kontexty: diskurz ohledně vědeckého konsensu, politizované debaty, strategické narativy zájmových skupin. Neutralizace: fokus na centrální propoziční jádro, identifikace irelevantních komplikujících faktorů, rozlišení mezi legitimními nuancemi a uměle vytvořenou komplexitou.
 
@@ -153,11 +153,11 @@ Tyto techniky primárně cílí na procesy kritického přezkumu a případné r
 | **[EA-1.3.2](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md)** | Strategická reinterpretace | Reinterpretace kontradiktorní evidence jako podporující | Hermeneutická flexibilita |
 | **[EA-1.3.3](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md)** | Tematická diverze | Přesměrování diskuse od problematických aspektů k irelevantním | Konverzační fluidita |
 
-**Detail EA-1.3.1 (Imunizace proti falsifikaci)**: Systematická modifikace teorie nebo argumentu způsobem činícím je resistentními vůči potenciální falsifikační evidenci, při zachování zdání empirické testovatelnosti. Operační modus je strategické zavádění ad hoc výjimek, auxiliárních hypotéz nebo flexibilních definic absorbujících kontradiktorní evidenci. Fenomenologicky: frustrace z "pohyblivého cíle", neschopnost identifikovat definitivní falsifikační kritéria. Rizikové kontexty: teoretické debaty, interdisciplinární aplikace, defense ideologicky motivovaných pozic. Neutralizace: požadavek na explicitní specifikaci falsifikačních kritérií, identifikace ad hoc modifikací, evaluace z perspektivy Occamovy břitvy.
+**Detail EA-1.3.1 (Imunizace proti falsifikaci)**: Systematická modifikace teorie nebo argumentu způsobem činícím je resistentními vůči potenciální falsifikační evidenci, při zachování zdání empirické testovatelnosti. Operační modus je strategické zavádění ad hoc výjimek, auxiliárních hypotéz nebo flexibilních definic absorbujících kontradiktorní evidenci. Fenomenologicky: frustrace z „pohyblivého cíle“, neschopnost identifikovat definitivní falsifikační kritéria. Rizikové kontexty: teoretické debaty, interdisciplinární aplikace, defense ideologicky motivovaných pozic. Neutralizace: požadavek na explicitní specifikaci falsifikačních kritérií, identifikace ad hoc modifikací, evaluace z perspektivy Occamovy břitvy.
 
 **Detail EA-1.3.2 (Strategická reinterpretace)**: Systematické přeinterpretování evidence kontradiktující specifickou teorii nebo pozici způsobem transformujícím ji na podporující evidenci. Operační modus exploituje inherentní interpretační flexibilitu empirických dat, kombinovanou s rekurzivní hermeneutickou adjustací. Fenomenologicky: epistemická dezorientace, konfúze ohledně toho, co konstituuje podporující vs. falsifikující evidenci. Rizikové kontexty: metodologické debaty, interpretace experimentálních výsledků, evaluace historické evidence. Neutralizace: požadavek na explicitní artikulaci interpretačních principů před evaluací evidence, fokus na prediktivní aspekty teorií, identifikace cirkulárních interpretačních schémat.
 
-**Detail EA-1.3.3 (Tematická diverze)**: Systematické přesměrování diskurzu od potenciálně problematických nebo falsifikujících aspektů teorie k irelevantním, triviálně pravdivým nebo defensible aspektům. Operační modus exploituje konverzační fluiditu a epistemickou kontinuitu mezi distinktními tématy. Fenomenologicky: kontinuální "následování králíka do nory", frustrace z neschopnosti adresovat centrální problematické body. Rizikové kontexty: akademické debaty, peer review proces, pedagogické diskuse. Neutralizace: explicitní dokumentace původního kontroverzního bodu, rekurzivní návrat k centrální otázce, meta-konverzační poznámky identifikující diverzi.
+**Detail EA-1.3.3 (Tematická diverze)**: Systematické přesměrování diskurzu od potenciálně problematických nebo falsifikujících aspektů teorie k irelevantním, triviálně pravdivým nebo defensible aspektům. Operační modus exploituje konverzační fluiditu a epistemickou kontinuitu mezi distinktními tématy. Fenomenologicky: kontinuální „následování králíka do nory“, frustrace z neschopnosti adresovat centrální problematické body. Rizikové kontexty: akademické debaty, peer review proces, pedagogické diskuse. Neutralizace: explicitní dokumentace původního kontroverzního bodu, rekurzivní návrat k centrální otázce, meta-konverzační poznámky identifikující diverzi.
 
 ### 1.4 Paralingvistické techniky
 
@@ -189,7 +189,7 @@ Tyto techniky využívají prostorové a tělesné aspekty komunikace. Operují 
 
 Vedle základních technik kompendium identifikuje **kompoziční vzorce** — koherentní sekvence technik kombinovaných s temporální dynamikou. Vzorce nejsou nezávislé techniky, ale **strukturální architektury**, které organizují multiple techniky do koherentních manipulativních strategií.
 
-### Vzorec "Guru a adept"
+### Vzorec „Guru a adept“
 
 **Deskripce**: Systematické etablování asymetrického epistemického vztahu charakterizovaného extrémní deferencí adepta k epistemické autoritě gurua a suspenzí kritických evaluačních procesů.
 
@@ -201,15 +201,15 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 4. Postupná izolace od alternativních epistemických autorit
 5. Etablování rekurzivních validačních smyček (adeptův progres je evaluován exkluzivně guruem)
 
-**Typické kombinace technik**: EA-1.1.1 (selektivní expozice ke "schválené" literatuře) + EA-1.4.2 (latentní emocionální modulace) + EA-1.5.2 (dominantní tělesné hieroglyfy). Vzorec frequently kulminuje v [anankastickém režimu](@/glossary/anankasticky-rezim.md) a [epistemické alienaci](@/glossary/epistemicka-alienace.md).
+**Typické kombinace technik**: EA-1.1.1 (selektivní expozice ke „schválené“ literatuře) + EA-1.4.2 (latentní emocionální modulace) + EA-1.5.2 (dominantní tělesné hieroglyfy). Vzorec frequently kulminuje v [anankastickém režimu](@/glossary/anankasticky-rezim.md) a [epistemické alienaci](@/glossary/epistemicka-alienace.md).
 
 **Rizikové kontexty**: Mentorské vztahy, doktorské studium, specializované výzkumné skupiny.
 
 **Neutralizace**: Aktivní udržování multiple epistemických vztahů, periodická externí evaluace, explicitní separace osobní afinity od epistemické autority.
 
-### Vzorec "Epistemický trojský kůň"
+### Vzorec „Epistemický trojský kůň“
 
-**Deskripce**: Strategické využití legitimních epistemických obsahů jako "vehikula" pro vpašování problematických prvků.
+**Deskripce**: Strategické využití legitimních epistemických obsahů jako „vehikula“ pro vpašování problematických prvků.
 
 **Operační dynamika**:
 
@@ -225,7 +225,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 
 **Neutralizace**: Segmentace a samostatná evaluace distinktních propozic, explicitní tracking provenience tvrzení, graduální namísto binární epistemická důvěra.
 
-### Vzorec "Salámová technika"
+### Vzorec „Salámová technika“
 
 **Deskripce**: Graduální introdukce problematické pozice prostřednictvím sekvence minimálních kroků pod prahem rezistence.
 
@@ -233,7 +233,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 
 1. Etablování iniciální, obecně akceptovatelné pozice
 2. Sekvence minimálních modifikací, každá prezentována jako triviální extenze
-3. Kontinuální reframing aktuální pozice jako "jen mírně odlišné" od předchozí
+3. Kontinuální reframing aktuální pozice jako „jen mírně odlišné“ od předchozí
 4. Exploitace epistemické setrvačnosti a avoidance diskomfortu
 5. Eventuální arrival na pozici, která by byla rejected při přímé prezentaci
 
@@ -241,7 +241,7 @@ Vedle základních technik kompendium identifikuje **kompoziční vzorce** — k
 
 **Rizikové kontexty**: Dlouhodobé teoretické vývoje, graduální paradigmatické shifty, extenzivní argumentační sekvence. Tento vzorec je často vehikulem pro [ontologickou anihilaci](@/glossary/ontologicka-anihilace.md), kde je za desítky kroků posunuto samotné chápání toho, co existuje a co ne.
 
-**Neutralizace**: Periodické pauzy pro holistickou evaluaci celkové trajektorie, explicitní komparace aktuální pozice s výchozím bodem, preemptivní artikulace potenciálních "end states".
+**Neutralizace**: Periodické pauzy pro holistickou evaluaci celkové trajektorie, explicitní komparace aktuální pozice s výchozím bodem, preemptivní artikulace potenciálních „end states“.
 
 ## Pokročilá pozorovací matrice
 
@@ -252,7 +252,7 @@ Tyto indikátory signalizují potenciální přítomnost intelektuální manipul
 1. **Neproporční epistemická jistota** k dostupné evidenci a metodologické rigorozitě
 2. **Resistence specifických propozic** vůči jasné artikulaci a explicitní kritické evaluaci
 3. **Diskrepance mezi statusem tvrzení** a jejich logickým či empirickým základem
-4. **Persistentní epistemické "kluzké svahy"** nebo kontinuální redefinice klíčových termínů
+4. **Persistentní epistemické „kluzké svahy“** nebo kontinuální redefinice klíčových termínů
 5. **Paradoxní kombinace komplexní terminologie** a simplických explanačních modelů
 6. **Systematická asymetrie ve standardech evidence** aplikovaných na různé pozice
 7. **Persistentní tematické diverze** od centrálních kritických bodů
@@ -338,7 +338,7 @@ Třináct technik EA-1.* netvoří izolovaný seznam, ale **propojenou strukturu
 
 ### Funkční komplementarita
 
-Techniky 1.1–1.3 (akvizice, evaluace, revize) tvoří **kompletní cyklus epistemického procesu**: získání → vyhodnocení → revize. Techniky 1.4–1.5 (paralingvistika, proxemika) jsou **multiplikátory** — mohou být kombinovány s libovolnou technikou z 1.1–1.3 pro zesílení účinku. Tato struktura znamená, že obrana proti manipulaci musí adresovat **všechny tři vrstvy** simultánně, jinak vznikají epistemické "back doors".
+Techniky 1.1–1.3 (akvizice, evaluace, revize) tvoří **kompletní cyklus epistemického procesu**: získání → vyhodnocení → revize. Techniky 1.4–1.5 (paralingvistika, proxemika) jsou **multiplikátory** — mohou být kombinovány s libovolnou technikou z 1.1–1.3 pro zesílení účinku. Tato struktura znamená, že obrana proti manipulaci musí adresovat **všechny tři vrstvy** simultánně, jinak vznikají epistemické „back doors“.
 
 ### Eskalační hierarchie
 
@@ -368,21 +368,41 @@ Jürgen Habermas rozlišuje **strategickou** a **komunikativní** akci — strat
 
 ### Lakatos a vědecké výzkumné programy
 
-Imre Lakatos rozlišuje **progresivní** a **degenerativní** výzkumné programy. EA-1.3.* (techniky imunizace a reinterpretace) odpovídají strategiím **degenerativních ad hoc rescue operations**, které charakterizují epistemicky problematické výzkumné programy.
+[Imre Lakatos](@/glossary/lakatos.md) rozlišuje **progresivní** a **degenerativní** výzkumné programy. EA-1.3.* (techniky imunizace a reinterpretace) odpovídají strategiím **degenerativních ad hoc rescue operations**, které charakterizují epistemicky problematické výzkumné programy.
 
-## Empirická validační infrastruktura
+## Otevřené výzkumné otázky
 
-Taxonomie EA-1.* by neměla být přijímána jako apriorní; vyžaduje **empirickou validaci** prostřednictvím systematického výzkumu. Současná validační infrastruktura zahrnuje:
+Taxonomie EA-1.* by neměla být přijímána jako apriorní; je to soubor hypotéz o tom, které vzorce
+akademického diskurzu narušují poznávání, a jako takový vyžaduje empirické ověření. Lee Cronbach a
+Paul Meehl ukázali, že platnost konstruktu nelze prokázat jediným měřením, ale jen sítí
+navzájem souvisejících zjištění, která konstrukt odliší od příbuzných pojmů (Cronbach a Meehl,
+1955). Pro taxonomii z toho plyne první otevřená otázka: zda se jednotlivé techniky dají od sebe
+spolehlivě odlišit, nebo zda některé kategorie popisují jeden a týž jev z různých stran.
 
-| Validační metoda | Aplikace | Status |
-|------------------|----------|--------|
-| **Inter-rater reliability studie** | Klasifikace technik nezávislými hodnotiteli v autentickém materiálu | Pilotní fáze |
-| **Fenomenologické interview** | Subjektivní reporty účastníků manipulativních interakcí | Probíhá |
-| **Historicko-archivní analýza** | Identifikace technik v dokumentovaných případech akademických skandálů | Probíhá |
-| **Experimentální simulace** | Kontrolované expozice s měřením efektů | Plánováno |
-| **Cross-cultural validace** | Aplikovatelnost taxonomie napříč kulturními kontexty | Plánováno |
+Druhou otázkou je shoda posuzovatelů. Pokud mají kategorie sloužit klinikům, vyšetřovatelům a
+recenzentům, musí je nezávislí hodnotitelé přiřazovat autentickému materiálu shodně, a tuto shodu
+je třeba měřit ukazateli, které opravují náhodnou shodu, jako je Cohenova kappa (Cohen, 1960).
+Studie tohoto typu zatím chybějí a jejich výsledek může vést ke sloučení nebo zrušení některých
+kódů. Třetí otázka se týká zkušenosti postižených: fenomenologické znaky, které kapitola uvádí
+u každé techniky, je třeba ověřit metodicky vedenými rozhovory, které zachytí prožitek bez
+vnášení výkladu tazatele (Petitmengin, 2006).
 
-Tato validační infrastruktura je integrována do platformového nástroje {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }} a využívá analytický rámec [Nabla Infinity](@/glossary/nabla-infinity.md) pro kvantifikaci epistemické nejistoty diagnostických soudů.
+Čtvrtou otázkou je historická a archivní analýza. Dokumentované případy organizované výroby
+pochybností o vědeckých poznatcích ukazují, že některé vzorce popsané v této kapitole lze doložit
+na písemných pramenech, a nabízejí tak cestu k validaci bez experimentální manipulace lidí
+(Oreskes a Conway, 2010). Pátou otázkou je experimentální ověření, které naráží na etickou mez:
+spory, které vyvolaly Milgramovy studie poslušnosti, ukazují, že vystavit účastníky skutečnému
+nátlaku je eticky problematické i tehdy, když je výzkumný cíl legitimní (Milgram, 1963; Baumrind,
+1964). Experimentální výzkum proto může zkoumat nanejvýš mírné, vratné a předem vysvětlené
+podoby jevů.
+
+Šestou otázkou je kulturní přenositelnost. Joseph Henrich, Steven Heine a Ara Norenzayan
+upozornili, že velká část psychologických poznatků pochází ze vzorků západních, vzdělaných a
+bohatých společností a nelze je bez ověření zobecnit (Henrich, Heine a Norenzayan, 2010).
+Taxonomie, která vychází z akademického prostředí euroatlantického typu, proto musí být v jiných
+kulturních a institucionálních kontextech testována dříve, než se její kategorie použijí jako
+diagnostická vodítka. Dokud tyto otázky nejsou zodpovězeny, slouží kapitola jako heuristický
+rámec pro rozpoznání vzorců, nikoli jako ověřený diagnostický nástroj (Cronbach a Meehl, 1955).
 
 ## Závěr
 
@@ -391,6 +411,23 @@ Akademické techniky intelektuální manipulace představují signifikantní epi
 Je esenciální zdůraznit, že porozumění těmto technikám není pouze defenzivní kompetencí, ale **fundamentální součástí epistemické resilience a akademické integrity**. Kritická epistemická vigilance by však nikdy neměla degenerovat v hyperskepticismus, paranoidní epistemologie nebo reflexivní odmítání legitimně challenging idejí. Cílem taxonomie není kultivovat suspici, ale **kalibrovanou diskriminační schopnost** — kapacitu rozlišovat manipulativní a legitimní formy epistemického vyzývání.
 
 V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) jsou analyzovány **scénáře epistemické delegitimizace** — komplexní aplikace základních technik v koordinovaných sekvencích. [Kapitola 3](@/kompendium/03-zakladni-kategorie/kapitola-3.md) následně specifikuje **edukativní implementaci** poznatků této taxonomie skrze třífázový strukturovaný protokol.
+
+## Literatura
+
+- Baumrind, D. (1964). Some thoughts on ethics of research: After reading Milgram's „Behavioral
+  study of obedience“. *American Psychologist, 19*(6), 421–423.
+- Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological
+  Measurement, 20*(1), 37–46.
+- Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests.
+  *Psychological Bulletin, 52*(4), 281–302.
+- Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world?
+  *Behavioral and Brain Sciences, 33*(2–3), 61–83.
+- Milgram, S. (1963). Behavioral study of obedience. *Journal of Abnormal and Social Psychology,
+  67*(4), 371–378.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of doubt*. Bloomsbury Press.
+- Petitmengin, C. (2006). Describing one's subjective experience in the second person: An
+  interview method for the science of consciousness. *Phenomenology and the Cognitive Sciences,
+  5*(3–4), 229–269.
 
 ## Související
 
@@ -406,7 +443,6 @@ V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) 
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

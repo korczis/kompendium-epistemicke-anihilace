@@ -1,104 +1,180 @@
 +++
 title = "Falsifikovatelnost"
 weight = 100
-description = "Falsifikovatelnost — pojem v sekci kompendium/03-zakladni-kategorie znalostní báze Prismatic Platform, kategorie kompendium-sub."
+description = "Falsifikovatelnost jako kategorie taxonomie EA: jak se tvrzení imunizují proti vyvrácení, podle čeho to pozorovatel pozná a jak se obnovuje ověřitelnost úsudku."
 
 [taxonomies]
-tags = ["kompendium", "sub-page", "interactive"]
+tags = ["kompendium", "zakladni-kategorie", "filozofie-vedy", "epistemologie", "manipulace"]
 
 [extra]
-category = "kompendium-sub"
+category = "zakladni-kategorie"
 related_terms = ["tom-exploitation", "kapitola-2", "intencionalita", "hermeneutika", "lakatos", "delegitimizace"]
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
-date_modified = "2026-05-04"
-quality_score = 80
+date_modified = "2026-11-10"
 +++
 
-## Definice
+## Vymezení a místo v taxonomii
 
-**Falsifikovatelnost** je filozoficko-epistemický pojem zařazený v sekci `03-zakladni-kategorie` Prismatic Kompendia jako základní kategorie pro analýzu manipulativních technik. Pojem představuje strukturální optiku, kterou Prismatic používá při klasifikaci a detekci epistemických útoků (EA-techniques) a při návrhu rekonstruktivních protokolů.
+Falsifikovatelnost je vlastnost tvrzení, které lze alespoň v principu vyvrátit pozorováním nebo
+argumentem, protože vylučuje některé možné stavy světa. Karl Popper ji navrhl jako demarkační
+kritérium mezi empirickou vědou a nevědeckými systémy (Popper, 1959). Výklad samotného kritéria a
+jeho filozofických sporů obsahuje heslo [falsifikovatelnost](@/glossary/falsifikovatelnost.md)
+v glosáři; tato stránka ho používá z úhlu kapitoly 3, tedy jako kategorii, podle níž kompendium
+třídí techniky, které tvrzení systematicky chrání před vyvrácením.
 
-{% <callout type="note"> %}
-Filozofické kategorie v sekci 03 nejsou samostatné koncepty — slouží jako *interpretační rámce* pro analýzu konkrétních EA-technik (sekce 04–05) a klinických aplikací (sekce 06).
-{% </callout> %}
+Pro epistemickou obranu je falsifikovatelnost důležitá proto, že je podmínkou učení z chyby.
+Přesvědčení, které nemůže být vyvráceno žádnou zkušeností, nemůže být ani opraveno, a člověk,
+jehož klíčová přesvědčení byla takto uzavřena, ztrácí schopnost na základě zkušenosti změnit
+názor (Popper, 1963). Kapitola
+[3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
+proto řadí techniky imunizace do skupiny EA-1.3, která narušuje procesy revize přesvědčení.
 
-## Filozofický kontext
+## Teoretický původ
 
-Koncept **Falsifikovatelnost** se v Prismatic Kompendiu vztahuje k širšímu rámci epistemologie a fenomenologie zaměřené na to, jak agenti konstituují, validují a obhajují svá tvrzení. Pojem není používán deskriptivně, ale **operativně**: každá EA-technika dokumentovaná v Kompendiu je analyzována z hlediska toho, jak ovlivňuje tento konkrétní filozofický rozměr poznávání.
+Popper vyšel z asymetrie mezi ověřením a vyvrácením: žádný konečný počet potvrzujících pozorování
+nedokazuje obecné tvrzení, avšak jediné řádně doložené protipozorování ho vyvrací (Popper,
+1959). Za odstrašující příklady považoval teorie, které dokázaly vysvětlit jakékoli chování, a
+v jejich neomezené vysvětlovací síle neviděl přednost, ale slabinu (Popper, 1963). Adolf
+Grünbaum později ukázal, že Popperova kritika psychoanalýzy byla v části bodů nepřesná, a tím
+připomněl, že posouzení falsifikovatelnosti vyžaduje pečlivé čtení konkrétní teorie, ne paušální
+nálepku (Grünbaum, 1984).
 
-Vazby na klasické zdroje (Popper, Lakatos, Husserl, Heidegger, Wittgenstein, Habermas dle pojmu) jsou explicitní v sourozeneckých souborech sekce — viz cross-link síť níže pro nejbližší pojmy stejného rámce.
+Pierre Duhem a později Willard Van Orman Quine upozornili, že tvrzení se nikdy netestuje
+izolovaně, ale vždy spolu se souborem pomocných předpokladů, takže protipozorování lze vždy
+přičíst některému z nich (Duhem, 1906; Quine, 1951). [Imre Lakatos](@/glossary/lakatos.md) z toho vyvodil, že rozhodující
+není, zda teorie odolá vyvrácení, ale jak to dělá: zda nové pomocné hypotézy předpovídají dosud
+nepozorované jevy, nebo jen dodatečně zachraňují jádro (Lakatos, 1970). Tento rozdíl rozvádí
+sesterská stránka [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md).
 
-## Klinická a operační relevance
+## Mechanismus a pozorovatelné znaky
 
-V due-diligence praxi a klinickém poradenství se **Falsifikovatelnost** používá jako diagnostický filtr: analytik nebo terapeut hodnotí, zda subjektova tvrzení respektují, narušují nebo systematicky obcházejí tento epistemický rozměr. Operační detekce probíhá skrze [detection-signatures](@/kompendium/detection-signatures/_index.md) sekci, kde jsou kalibrační markery pro každou kategorii vypracovány.
+Manipulativní využití kategorie spočívá v imunizaci: systém přesvědčení se přetvoří tak, aby
+každý možný výsledek zkušenosti vyzněl jako jeho potvrzení. Klasickou empirickou ilustraci
+poskytla studie skupiny, jejíž proroctví o konci světa se nenaplnilo; část členů po nesplněném
+proroctví přesvědčení neopustila, ale zesílila a nesplnění vyložila jako důkaz účinnosti vlastní
+víry (Festinger, Riecken a Schachter, 1956). Leon Festinger tento vzorec vysvětlil snahou snížit
+nesoulad mezi přesvědčením a skutečností, kterou je snazší dosáhnout změnou výkladu než změnou
+přesvědčení (Festinger, 1957).
 
-## Detekční vztah
+Robert Lifton popsal v totalistických prostředích „posvátnou vědu“, tedy doktrínu, která je
+současně prohlášena za absolutně pravdivou a za vědecky dokázanou, takže její zpochybnění je
+morálním i intelektuálním selháním pochybujícího (Lifton, 1961). Pozorovatel takovou imunizaci
+rozpozná podle několika znaků: na otázku, co by tvrzení vyvrátilo, nepřichází konkrétní odpověď;
+rozpor se vykládá jako důkaz nepřátelství nebo nedostatečného porozumění; a vysvětlení se
+přizpůsobují dodatečně, vždy až po události. Tyto znaky shrnuje signatura
+[nefalsifikovatelných tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)
+a technika [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md).
 
-Pro praktickou detekci konzultujte:
-- [Detection signatures](@/kompendium/detection-signatures/_index.md) — diagnostické markery
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — terapeutické použití
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md) — rekonstruktivní intervence
-<!-- EXPANDED:PHASE11 -->
+Pro člověka uvnitř takového systému má imunizace zvláštní fenomenologii. Pochybnost se nedá
+vyslovit jako argument, protože každý argument už má připravený výklad, a proto se obrací dovnitř
+jako pocit vlastní nedostatečnosti (Lifton, 1961). Zkušenost, která by za jiných okolností vedla
+k revizi, se tak stává dalším potvrzením a člověk ztrácí důvěru v to, co sám vidí (Festinger,
+Riecken a Schachter, 1956).
 
+## Odlišení od příbuzných jevů
 
-## See Also
+Ne každé nefalsifikovatelné tvrzení je manipulací. Metafyzické, etické a náboženské výroky často
+nejsou empiricky vyvratitelné a Popper sám zdůrazňoval, že demarkační kritérium neoznačuje
+nevědecké výroky za nesmyslné ani bezcenné (Popper, 1963). Manipulace začíná teprve tam, kde se
+nefalsifikovatelný systém vydává za empiricky prokázaný a kde jeho nevyvratitelnost slouží
+k ovládání chování a úsudku druhých (Lifton, 1961). Od běžné vědecké praxe se imunizace liší
+tím, že nepředpovídá nic nového: Lakatos by takový výzkumný program označil za degenerující
+(Lakatos, 1970).
 
-- [Parent section](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Kompendium index](@/kompendium/_index.md)
+Od klinických stavů je třeba oddělit bludné přesvědčení, které je rovněž odolné vůči opačným
+důkazům. Bludy v psychiatrickém smyslu vznikají bez sociálního zdroje a nejsou sdíleny kulturním
+ani skupinovým rámcem, kdežto imunizovaná přesvědčení v manipulativním prostředí jsou skupinově
+sdílena a mají identifikovatelný zdroj (American Psychiatric Association, 2013). Rozlišení
+vyžaduje klinické posouzení a rozvádí ho oddíl
+[diferenciální diagnostiky EA a psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md).
 
----
+## Klinický, právní a organizační rámec
 
-<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->
+V terapii lidí, kteří odcházejí ze skupin s uzavřeným systémem přesvědčení, se falsifikovatelnost
+neuplatňuje jako zbraň proti klientovi, protože přímá konfrontace s důkazy často vyvolá obranné
+zesílení přesvědčení (Festinger, 1957). Účinnější bývá postupné obnovování schopnosti klást si
+otázku, co by vlastní názor změnilo, a to nejprve u méně citlivých témat, jak to Lifton popisuje
+při návratu vlastního úsudku po odchodu z totalistického prostředí (Lifton, 1961).
 
-## Manažerské shrnutí
+V právní a forenzní praxi má falsifikovatelnost obdobu v požadavku na ověřitelnost znaleckých
+metod; tvrzení, které nelze testovat, nelze ani kontrolovat, a jeho váha v řízení by tomu měla
+odpovídat (Popper, 1963). V organizacích se kategorie uplatňuje v posuzování strategických
+dokumentů a interních hodnocení: plán, u něhož nikdo nedokáže říct, jaký výsledek by znamenal
+jeho selhání, nelze vyhodnotit a otevírá prostor dodatečnému přepisování úspěchu (Lakatos, 1970).
 
-**Falsifikovatelnost** je aktivní uzel taxonomického grafu sekce `kompendium/03-zakladni-kategorie` v Prismatic Platform. Cross-link síť (related_terms ve frontmatteru, Mermaid graf níže, Související pojmy a Navigace) zajišťuje, že uzel je dohledatelný z minimálně tří vstupních bodů a má quality_score ≥ 75 dle zero-stub-tolerance doktríny. Pro detailní teoretický kontext, klinické použití nebo praktické aplikace konzultujte odkazy v sekci Související pojmy nebo nadřazený index sekce.
+## Obrana a zotavení
 
+Základní obranou je návyk předem formulovat, co by vlastní přesvědčení vyvrátilo, a tuto
+podmínku si zapsat dříve, než přijdou výsledky; tento postup přímo vychází z Popperova požadavku
+riskantních předpovědí (Popper, 1963). Praktický nácvik nabízí průvodce
+[falsifikačním myšlením](@/kompendium/self-defense-guides/5-falsification-thinking.md). Druhou
+obranou je sledovat, zda vysvětlení přicházejí před událostí, nebo až po ní, protože dodatečné
+přizpůsobování je typickým znakem degenerujícího programu (Lakatos, 1970).
 
-## Koncepční síť
+Zotavení po dlouhodobém pobytu v imunizovaném systému je postupné a vyžaduje trpělivost, protože
+člověk musí znovu získat důvěru v to, že zkušenost má právo jeho přesvědčení změnit (Lifton,
+1961). Profesionál pomáhá tím, že odděluje otázku pravdivosti jednotlivých tvrzení od otázky, zda
+je klient vůbec oprávněn je testovat; teprve obnova tohoto oprávnění umožní skutečnou revizi
+(Festinger, 1957).
 
-Vizualizace propojení **Falsifikovatelnost** s nejbližšími souvisejícími pojmy z korpusu Prismatic Platform. Síť slouží jako rychlá orientace, kde tento koncept zapadá do širšího taxonomického rámce.
+## Meze a otevřené otázky
 
-```mermaid
-graph TD
-    C0["Falsifikovatelnost"]
-    N1["Tom Exploitation"]
-    N2["3.2 Scénáře epistemické delegitimizace"]
-    N3["Intencionalita"]
-    N4["Hermeneutika"]
-    N5["Lakatos"]
-    N6["Delegitimizace"]
-    C0 --> N1
-    C0 --> N2
-    C0 --> N3
-    C0 --> N4
-    C0 --> N5
-    C0 --> N6
-    classDef center fill:#4f46e5,stroke:#312e81,color:#fff,stroke-width:2px
-    classDef related fill:#1e293b,stroke:#475569,color:#cbd5e1
-    class C0 center
-    class N1,N2,N3,N4,N5,N6 related
-```
+Popperovo kritérium zůstává předmětem sporů. Thomas Kuhn ukázal, že skutečná věda často
+pokračuje i přes anomálie a že předčasné opuštění teorie kvůli jednomu protipozorování by bylo
+iracionální (Kuhn, 1962). Duhemova a Quinova teze navíc znamená, že žádné jednotlivé tvrzení není
+izolovaně vyvratitelné, a hranice mezi oprávněnou ochranou jádra a imunizací je proto otázkou
+míry (Quine, 1951). Kompendium falsifikovatelnost nepoužívá jako mechanický test, ale jako
+heuristiku, která upozorňuje na podezřelou neomezenou vysvětlovací sílu; otevřenou otázkou
+zůstává, jak tuto heuristiku spolehlivě operacionalizovat v posuzování skutečných textů (Lakatos,
+1970).
 
-## Související pojmy
+## Literatura
 
-- [Tom Exploitation](@/kompendium/03-zakladni-kategorie/tom-exploitation.md) — slug `tom-exploitation`
-- [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) — slug `kapitola-2`
-- [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md) — slug `intencionalita`
-- [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md) — slug `hermeneutika`
-- [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) — slug `lakatos`
-- [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md) — slug `delegitimizace`
+- American Psychiatric Association. (2013). *Diagnostic and statistical manual of mental
+  disorders* (5th ed.). American Psychiatric Publishing.
+- Duhem, P. (1906). *La théorie physique: Son objet et sa structure*. Chevalier et Rivière.
+- Festinger, L. (1957). *A theory of cognitive dissonance*. Row, Peterson.
+- Festinger, L., Riecken, H. W., & Schachter, S. (1956). *When prophecy fails*. University of
+  Minnesota Press.
+- Grünbaum, A. (1984). *The foundations of psychoanalysis: A philosophical critique*. University
+  of California Press.
+- Kuhn, T. S. (1962). *The structure of scientific revolutions*. University of Chicago Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I.
+  Lakatos & A. Musgrave (Eds.), *Criticism and the growth of knowledge*. Cambridge University
+  Press.
+- Lifton, R. J. (1961). *Thought reform and the psychology of totalism: A study of
+  „brainwashing“ in China*. W. W. Norton.
+- Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson. (Původně *Logik der
+  Forschung*, 1934.)
+- Popper, K. R. (1963). *Conjectures and refutations: The growth of scientific knowledge*.
+  Routledge & Kegan Paul.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review, 60*(1), 20–43.
 
-## Navigace
+## Související
 
-- **Nadřazená sekce**: [kompendium/03-zakladni-kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- **Hlavní glosář**: [@/glossary/_index.md](@/glossary/_index.md)
-- **Kompendium index**: [@/kompendium/_index.md](@/kompendium/_index.md)
-- **Sourozenci v sekci**:
-  - [Delegitimizace](@/kompendium/03-zakladni-kategorie/delegitimizace.md)
-  - [Fenomenologie](@/kompendium/03-zakladni-kategorie/fenomenologie.md)
-  - [Hermeneutika](@/kompendium/03-zakladni-kategorie/hermeneutika.md)
-  - [Intencionalita](@/kompendium/03-zakladni-kategorie/intencionalita.md)
-  - [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
-<!-- ENHANCED:NLLB-AUTO-BLOCK END -->
+**Pojmy glosáře**
+
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – hlavní výklad Popperova kritéria a
+  jeho filozofických sporů.
+- [Falsifikace](@/glossary/falsifikace.md) – samotný akt vyvrácení a jeho logická struktura.
+- [Konfirmační bias](@/glossary/konfirmacni-bias.md) – kognitivní sklon, který imunizaci
+  usnadňuje.
+
+**Kapitola 3 a techniky**
+
+- [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) – sesterská kategorie: progresivní
+  a degenerující výzkumné programy.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+  – technika, kterou tato kategorie primárně popisuje.
+- [EA-7.2.3 Popper: Falsifikace](@/kompendium/techniques/ea-7-2-3-popper-falsification.md) –
+  Popperův rámec jako analytický nástroj taxonomie.
+
+**Detekce a obrana**
+
+- [Nefalsifikovatelná tvrzení](@/kompendium/detection-signatures/3-linguistic-unfalsifiable-claims.md)
+  – jazyková signatura imunizace.
+- [Falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md) –
+  praktický nácvik formulace podmínek vyvrácení.
+- [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) – obnova
+  schopnosti měnit názor na základě zkušenosti.

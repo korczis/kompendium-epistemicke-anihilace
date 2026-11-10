@@ -36,17 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Pulzace disrupce** narušuje subjektovu **pulzační dynamiku** — pre-konceptuální expanzivně-kontraktivní rytmus, který organizuje afektivní/vitalní flow. Subjekt operuje v 'plochém' stavu bez pulzace.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Vzorec se pozorovateli ukazuje jako plochost: afektivní výraz je napříč různými situacemi stejný, člověk označuje vlastní vitální kolísání za rušení, které je třeba utišit, a jeho okolí tuto plochost rámuje jako dosaženou rovnost (Lindahl et al., 2017).
 
-### Krok 1 — Cílené narušení vitalní pulzace
+Ve vlastním popisu mizí střídání expanze a stažení, které dřív neslo prožívání; zůstává stav bez spádu, o němž člověk mluví jako o klidu, ale popisuje ho bez živosti. Damasio (1999) váže tuto vrstvu vitálního afektu na průběžné mapování vlastního stavu, které předchází autobiografické paměti.
 
-### Krok 2 — Implantace 'klidu/rovnoměrnosti' jako ideálu
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachytitelné prostředí, v němž je přirozená proměnlivost prožívání označena za slabost, pak doktrinální výklad plochosti jako pokroku a nakonec neschopnost udržet stav bez opory druhého. Lifton (1961) popsal podřízení osobní zkušenosti nauce jako znak totalistického prostředí. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 3 — Konsolidace 'plochého' stavu
-
-Subjekt prožívá vitalní disrupci jako 'duchovní pokrok'.
+*Interpretace knihy*: plochost se pozná podle toho, že ji člověk hájí, ale neumí z ní vystoupit.
 
 ## Fenomenologické znaky
 
@@ -135,6 +133,16 @@ Pro **objektivní detekci** aplikace techniky **pulzační disrupce** v post-hoc
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -179,15 +187,15 @@ Pro **objektivní detekci** aplikace techniky **pulzační disrupce** v post-hoc
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

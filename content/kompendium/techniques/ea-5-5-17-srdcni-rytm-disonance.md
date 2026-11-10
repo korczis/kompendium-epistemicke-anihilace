@@ -36,17 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Srdeční rytm disonance** vyvolává **disonanci** mezi subjektovým srdečním rytmem a pre-konceptuálním afektivně-vitalním flow. Manipulátor používá specifické afektivně-rytmické praktiky tak, aby srdeční rytmus byl decoupled od baseline emocionální dynamiky.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel zaznamenává rozpor mezi tím, co člověk říká, že cítí, a tím, jak reaguje jeho tělo. Srdeční odezva přichází v rituálním kontextu a chybí tam, kde by ji situace čekala; sám tuto nesourodost popisuje převzatými slovy jako znak pokroku (Lindahl et al., 2017).
 
-### Krok 1 — Cílená disociace srdečního rytmu od afektu
+Ve vlastním popisu se city dostavují jen na určitém místě a v určité společnosti, mimo ně se nedostaví nic. Damasio (1999) váže tuto vrstvu na průběžné tělesné mapování, z něhož teprve vzniká pocit vlastního stavu; jeho rozpojení se nehlásí jako myšlenka, ale jako nepřítomnost citu.
 
-### Krok 2 — Implantace doktrinální vazby (rituál ↔ srdeční rytmus)
+Klinicky je podstatné odlišení od úzkostných a kardiologických stavů: vedoucím znakem zde není obava z vlastního srdce, ale vázanost tělesné odezvy na cizí kontext. Porges (2011) popisuje autonomní regulaci jako vztahově podmíněnou, což vysvětluje, proč se znak ukazuje až v sociálním prostředí a proč je v samostatném vyšetření přehlédnutelný.
 
-### Krok 3 — Konsolidace disonance
-
-Subjektův srdeční rytmus reaguje na doktrinální stimuly, ne na vlastní afekt.
+*Interpretace knihy*: nálezem není srdeční rytmus, ale to, kdo rozhoduje, kdy člověk cítí.
 
 ## Fenomenologické znaky
 
@@ -135,6 +133,17 @@ Pro **objektivní detekci** aplikace techniky **srdeční rytmus disonance** v p
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Porges, S. W. (2011). *The Polyvagal Theory*. W. W. Norton.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -179,15 +188,15 @@ Pro **objektivní detekci** aplikace techniky **srdeční rytmus disonance** v p
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

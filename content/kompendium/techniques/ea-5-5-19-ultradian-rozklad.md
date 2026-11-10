@@ -36,17 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Ultradian rozklad** narušuje subjektovy **ultradianní cykly** (BRAC — Basic Rest-Activity Cycle, ~90-120 min) skrze ritualizované strukturování dne. Subjektovy přirozené aktivačně-relaxační vlny jsou rozloženy.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí chronickou kognitivní únavu a to, že člověk neudrží střídání soustředění a odpočinku jinde než v rituálním kontextu. Výkony kolísají, únava je vykládána doktrinálně a sám ji neuvádí jako důvod k vyšetření (Lindahl et al., 2017).
 
-### Krok 1 — Ritualizace dne neslučitelná s ultradianní strukturou
+Ve vlastním popisu se vytrácí přirozené vlnění pozornosti: člověk nerozpozná, kdy je unavený, protože měřítkem už není jeho stav, ale rozvrh skupiny. Singer (1995) popisuje strukturování dne jako jeden z nejméně nápadných způsobů, jimiž se v takových prostředích ztrácí autonomie.
 
-### Krok 2 — Devalvace přirozených aktivačních fluktuací
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachytitelné prostředí, které přirozené kolísání výkonu hodnotí jako nekázeň, pak výklad trvalé únavy jako očisty a nakonec závislost na vnějším rozvrhu i mimo skupinu. Lifton (1961) popsal toto nadřazení nauky osobní zkušenosti jako znak totalismu. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 3 — Konsolidace rozkladu
-
-Subjekt operuje s rozloženými ultradian rytmy; chronický kognitivní stres.
+*Interpretace knihy*: nálezem je ztráta vlastního měřítka únavy, ne únava sama.
 
 ## Fenomenologické znaky
 
@@ -135,6 +133,17 @@ Pro **objektivní detekci** aplikace techniky **ultradiánní rozklad** v post-h
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -179,15 +188,15 @@ Pro **objektivní detekci** aplikace techniky **ultradiánní rozklad** v post-h
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

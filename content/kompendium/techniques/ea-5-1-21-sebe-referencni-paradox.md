@@ -44,49 +44,15 @@ Cíl není filozofická zábava ani podpora pluralismu — cíl je **deaktivace 
 
 Klíčový rys techniky je její **logická legitimita na povrchu**: skutečné paradoxy (Russell, lhář) jsou **autentické problémy** logiky a teorie množin, řešené Whiteheadem-Russellem (Principia Mathematica) skrze typovou teorii a Tarským skrze hierarchii metajazyků. **Sebe-referenční paradox jako manipulativní technika** záměrně **odstraňuje tyto řešitelské nástroje** a prezentuje paradoxy jako **terminální** — *neřešitelné v principu*, čímž dosahuje epistemické paralýzy.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování paradoxního rámce
+Sebe-referenční paradox se pozorovateli ukazuje jako myšlení, které se při každém pokusu o konzistenci samo vyvrací. Zasažený člověk cituje klasické paradoxy — lhářův, Russellův, Berryho, Curryho — bez jejich technických řešení a předkládá je jako vhled do povahy skutečnosti, nikoli jako problém formálního systému. Okolí přitom zaznamenává, že vlastní pozici nedokáže formulovat, aniž by ji v téže větě nezrušil, a že racionální rozhovor u něj budí úzkost.
 
-Manipulátor předkládá **autentický logický paradox** — typicky:
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycen paradox přednesený jako konečný, nikoli jako řešitelný. Pak se jeho struktura objevuje v otázkách mířených na to, co zasažený člověk sám tvrdí, takže každá odpověď vede ke sporu. Souběžně mizí rozlišení jazyka a metajazyka, typových úrovní i performativního aktu od propozičního obsahu, protože takové rozlišení je vykládáno jako únik. Nakonec se rezignace na logiku vyloží jako její překročení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- **Lhářův paradox**: *„Tato věta je nepravdivá.“*
-- **[Russellův paradox](@/glossary/russell-paradox.md)**: *„Množina všech množin, které neobsahují samy sebe.“*
-- **Berryho paradox**: *„Nejmenší přirozené číslo, které nelze popsat méně než dvanácti slovy.“*
-- **Curryho paradox**: *„Pokud je tato věta pravdivá, pak X“* — kde X je libovolné tvrzení.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: paradoxy bez znalosti jejich řešení, odmítání technických distinkcí jako vyhýbání, přijímání sporu jako vyšší pravdy, obraty o tom, co je „za logikou“, a duchovní výklad paradoxu.
 
-Paradox je prezentován jako **hluboký vhled do povahy reality** spíše než jako **technický problém formálního systému**.
-
-### Krok 2 — Aplikace paradoxu na uvažování subjektu
-
-Manipulátor systematicky **aplikuje paradoxní strukturu** na centrální tvrzení subjektu:
-
-- *„Tvrdíš, že hledáš pravdu — ale samotné toto hledání předpokládá, že pravda existuje. Existuje pravda?“*
-- *„Pokud řekneš ano, nemůžeš hledat to, co už máš. Pokud řekneš ne, na základě čeho hledáš?“*
-- *„Říkáš, že chceš svobodu — ale tvoje rozhodnutí být svobodný je samo determinováno. Jsi svobodný?“*
-
-Každá z těchto formulací **má autentický filozofický kořen**, ale je vytržena z kontextu, který by umožnil řešení.
-
-### Krok 3 — Eliminace typových úrovní
-
-Klíčový operační moment: subjekt je **odrazován** od rozlišování:
-
-- **objektového jazyka** vs. **metajazyka**
-- **typových úrovní** (vlastnost vs. vlastnost vlastností)
-- **performativního aktu** vs. **propozičního obsahu**
-- **konstativní** vs. **regulativní** funkce výroku
-
-Subjekt, který by řekl *„výrok 'tato věta je nepravdivá' je smysluplný pouze, pokud rozlišíme jazyk a metajazyk“*, je obviněn z *„unikání před paradoxem“* nebo z *„lpění na technické distinkci místo skutečné pravdy“*.
-
-### Krok 4 — Indukce kognitivní paralýzy
-
-Subjekt **opakovaně prožívá**, že jakákoli jeho odpověď generuje kontradikci. Toto je **subjektivně traumatizující** — racionální mysl je strukturálně závislá na **principu non-kontradikce** a jeho systematické porušování generuje **epistemickou úzkost**.
-
-V pokročilých stadiích subjekt **rezignuje** na racionální argumentaci a přijímá rámec manipulátora jako *„jediný, který paradox transcenduje“* — typicky pseudo-mystický rámec („v jednotě paradox neexistuje“, srov. [EA-5.1.19](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md)).
-
-### Krok 5 — Konsolidace skrze „transcendenci logiky“
-
-Konečná konsolidace: subjekt **přijímá pozici**, že *„logika je nižší úroveň myšlení“* a že *„skutečné poznání je za logikou“*. Tím je **dokončena epistemická anihilace** — subjekt **opustil** samotný nástroj, kterým by mohl detekovat manipulaci.
+*Interpretace knihy*: paradoxy samy nejsou znakem vzorce — jsou autentickým problémem logiky a mají propracovaná řešení, od typové teorie po hierarchii metajazyků. Znakem je jejich předložení jako neřešitelných v principu a odmítnutí nástrojů, jimiž by se rozpor dal zpracovat. Totéž platí o disciplinované práci s kóanem, která má vlastní rámec. Proč kompendium takový rozdíl popisuje jako strukturu, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -219,9 +185,9 @@ Komunita aplikovala paradoxní strukturu: *„Že nás kritizuješ, dokazuje, ja
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -232,8 +198,10 @@ Komunita aplikovala paradoxní strukturu: *„Že nás kritizuješ, dokazuje, ja
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

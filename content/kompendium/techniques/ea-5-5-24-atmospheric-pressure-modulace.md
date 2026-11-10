@@ -36,21 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Atmospheric pressure modulace** využívá **změny atmosférického tlaku** (nadmořská výška, vakuum, dechové techniky simulující výškový stres) k vyvolání pre-konceptuálních stavů, které jsou pak doktrinálně rámovány jako 'mystické'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel zaznamenává, že „mystické“ zážitky člověka jsou vázány na stavy se sníženou dostupností kyslíku a že tato vazba je v jeho okolí vykládána jako duchovní, nikoli jako zdravotní nález; známky opakovaně navozené hypoxie přitom bývají patrné (Lindahl et al., 2017).
 
-### Krok 1 — Cílená atmospheric pressure manipulace
+Sám o těchto stavech mluví jako o spojení a vyhledává je; zdravotní riziko neuvádí ani jako možnost. Lifton (1961) popsal převedení tělesného stavu na důkaz nauky jako mystickou manipulaci — znak prostředí, které si potvrzení obstarává samo.
 
-High-altitude retreats, breath holds, hypoxia praktiky.
+Klinicky je podstatné, že jde o tělesný stav s vlastními riziky a že jeho duchovní výklad tato rizika zakrývá a odkládá vyšetření. Rozlišení od autentické kontemplativní zkušenosti přitom nestojí na obsahu zážitku: Stace (1960) ukazuje, že kritéria mystické zkušenosti se týkají struktury prožitku, ne okolností, za nichž vznikl.
 
-### Krok 2 — Doktrinální výklad indukovaných stavů
+Od rizikové, ale skutečně zvolené praxe se vzorec liší tím, že riziko není součástí rozvahy: člověk o něm nemluví ani jako o možnosti. Herman (1992) popisuje toto zúžení rozvahy jako důsledek asymetrického vztahu, ne jako povahovou vlastnost.
 
-'Mystická zkušenost', 'spojení s vyšším'.
-
-### Krok 3 — Konsolidace závislosti
-
-Subjekt vyhledává tlakovou manipulaci pro 'mystické' stavy.
+*Interpretace knihy*: nálezem je výklad, který ze zdravotního rizika dělá důkaz.
 
 ## Fenomenologické znaky
 
@@ -139,6 +135,17 @@ Pro **objektivní detekci** aplikace techniky **atmosférický tlak modulace** v
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -183,15 +190,15 @@ Pro **objektivní detekci** aplikace techniky **atmosférický tlak modulace** v
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

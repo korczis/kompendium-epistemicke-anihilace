@@ -36,21 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Konvergentní pre-konceptuální** je technika kombinující simultánně několik pre-konceptuálních disrupčních prvků (atmosféra, body-schema, temporální flow, gestalt) tak, aby jejich kumulativní efekt překročil schopnost subjekta odolávat.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel nachází znaky z několika pre-konceptuálních oblastí současně — tělesné, časové, atmosférické i percepční — a hlubokou dezorientaci, kterou člověk shrnuje slovy, že neví, kde je a jak se cítí; pokus o oddělení od kontextu vede k rozpadu (Lindahl et al., 2017).
 
-### Krok 1 — Simultánní aktivace pre-konceptuálních disrupcí
+Stav je v jeho okolí vykládán jako duchovní průlom a tvar mu dává jen nabídnutý rámec. Lifton (1961) popsal tento výlučný nárok nauky na výklad zkušenosti jako znak totalistického prostředí, v němž se protichůdná zkušenost nemá kam uložit.
 
-Současné narušení několika pre-konceptuálních vrstev.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují: vrstvy se neuvolňovaly samy, ale vzájemně se potvrzovaly, a souběh znaků předcházel chvíli, kdy si jich okolí všimlo. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Singer (1995) připomíná, že nápadné bývá až funkční selhání, ne to, co mu předcházelo.
 
-### Krok 2 — Doktrinální integrace fragmentární zkušenosti
+Od jednotlivé disrupce se vzorec liší tím, že se vrstvy drží navzájem a že odebrání jedné stav nezmění. Herman (1992) popisuje tuto odolnost poškození vůči dílčí nápravě jako důvod, proč obnova začíná bezpečím.
 
-Manipulátor poskytuje 'integrující' rámec.
-
-### Krok 3 — Konsolidace závislosti
-
-Subjekt potřebuje doktrinu pro 'integraci' fragmentárního prožívání.
+*Interpretace knihy*: nálezem je souběh vrstev, ne jejich obsah.
 
 ## Fenomenologické znaky
 
@@ -139,6 +135,18 @@ Pro **objektivní detekci** aplikace techniky **konvergentní pre-konceptuální
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -183,15 +191,15 @@ Pro **objektivní detekci** aplikace techniky **konvergentní pre-konceptuální
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -44,47 +44,15 @@ Na rozdíl od běžné nadměrné introspekce, která pouze **zpomaluje** myšle
 
 V akutní fázi prožívá subjekt stav, který fenomenologie označuje jako **kognitivní zamrznutí**: produktivní myšlení se zastavuje v okamžiku, kdy se obrací k sobě samému. Spolu s [EA-5.1.1 epistemickou kanibalizací](@/kompendium/techniques/ea-5-1-1-epistemicka-kanibalizace.md) a [EA-5.1.2 konceptuální nihilací](@/kompendium/techniques/ea-5-1-2-konceptualni-nihilace.md) tvoří reflexivní paradoxie jádro **epistemické singularity** — subjekt přestává být schopný operovat jako autonomní epistemický agent.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterován s rostoucí intenzitou:
+Reflexivní paradoxie se pozorovateli ukazuje tam, kde se myšlení obrací k sobě. Na přímou otázku, co si o věci myslí, odpovídá zasažený člověk další otázkou o vlastním myšlení; rozhodnutí odkládá s tím, že potřebuje ještě reflektovat, a návrh rozhodnout se prostě podle intuice v něm budí úzkost. Okolí přitom zaznamenává, že vyhledává cizí posouzení i u drobností a že za vyjasnění vlastního myšlení druhým projevuje nepoměrnou vděčnost.
 
-### Krok 1 — Etablování meta-kompetence manipulátora
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno uspořádání, v němž někdo druhý platí za kompetentnějšího v úvahách o úvahách samých. Pak se objevuje paradox, který je logicky skutečný — zda lze důvěřovat vlastnímu úsudku o vlastním úsudku, zda by rozpoznal manipulaci ten, kdo je manipulován — a zůstává trvale otevřený, protože běžné východisko, pragmatické odložení otázky nebo rozlišení úrovní, je odmítáno jako naivní. Souběžně se otázce přisuzuje existenciální váha, takže paralýzu provází úzkost. Nakonec je metakognice delegována: posuzuje ji někdo jiný. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor se etabluje jako **mistr [metakognice](@/glossary/metakognice.md)**: ten, kdo „vidí, jak člověk myslí o myšlení“. Tato role je obvykle prezentována jako mentorská, terapeutická, nebo doktrinální. Klíčové je, že subjekt přijímá, že **on sám** v meta-úrovni operuje **méně kompetentně** než manipulátor.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: meta-otázka místo odpovědi, odkládaná rozhodnutí, citování paradoxů jako důvodu nečinnosti a zamrznutí místo reakce při citové konfrontaci.
 
-### Krok 2 — Indukce primárního paradoxu
-
-Manipulátor zavádí **primární paradoxní strukturu** v reflexi. Klasické formy:
-
-- **Paradox důvěry úsudku**: *„Než si budeš věřit, musíš vědět, že tvůj úsudek o vlastním úsudku je validní. Ale tento meta-úsudek je sám produktem stejného úsudku.“*
-- **Paradox manipulace**: *„Když si myslíš, že nejsi manipulován, je to právě nejsilnější efekt manipulace. Když si myslíš, že jsi, je to často projev paranoie.“*
-- **Paradox autenticity**: *„To, co cítíš jako 'své pravé já', je sociálně konstruováno. Ale i odhalení této konstrukce je sociálně konstruováno.“*
-- **Paradox volby**: *„Tvoje rozhodnutí ze svobodné vůle je důsledkem příčin. Ale rozhodnutí to vědět je také důsledkem příčin.“*
-
-Paradox je **logicky reálný** — má autentickou strukturu rekurze nebo autoreference. Manipulátorův příspěvek není ve fabrikaci paradoxu, ale ve **strategickém** zavádění a **inhibici** běžných operativních úniků (pragmatické bracketing, hierarchické typování, fenomenologická redukce).
-
-### Krok 3 — Inhibice operativních úniků
-
-Když se subjekt pokusí paradox **operativně překročit** (např. pragmaticky se rozhodnout důvěřovat úsudku navzdory regresi), manipulátor zavádí **další úroveň meta-otázky**:
-
-- *„To je rozumné rozhodnutí. Ale rozhodnutí to považovat za rozumné je samo součástí toho, co se snažíš obhájit.“*
-- *„Pragmatická volba je únik. Ale únik před čím? Před pravdou? Nebo před úzkostí? A jak to chceš rozlišit?“*
-
-Subjekt je **stržen** zpět do paradoxního pole pokaždé, když se z něj pokusí vystoupit. Tato dynamika produkuje **kognitivní bezvýchodnost**.
-
-### Krok 4 — Indukce metakognitivní úzkosti
-
-Paradoxní pole je **emocionálně nabíjeno** vyhrocením stakes:
-
-- *„Pokud nedokážeš vyřešit tento paradox, nejsi schopen autenticky žít.“*
-- *„Toto je ta nejdůležitější otázka. Vše ostatní je odvozené.“*
-- *„Lidé, kteří tento paradox neřeší, jsou v podstatě bezvědomí.“*
-
-Subjekt prožívá paradox nikoli jako **filozofickou kuriozitu**, ale jako **existenciální nutnost** — která je **nerozhodnutelná**. Vzniká **metakognitivní úzkost**: úzkost z toho, že nejsem schopen myslet o svém myšlení správně.
-
-### Krok 5 — Substituce externího meta-arbitra
-
-Manipulátor nabízí **externí výstup**: nikoli řešení paradoxu, ale **vlastní arbitráž**. *„Já vidím tvé myšlení zvenčí. Můžu ti říct, kdy jsi v pravém režimu, a kdy ne.“* Subjekt přijímá manipulátora jako **externí meta-vědomí**, protože vlastní metakognitivní operace je paralyzována. Tím vzniká struktura, kterou literatura označuje jako [epistemickou alienaci](@/glossary/epistemicka-alienace.md) v terminálním tvaru — subjekt **delegoval** vlastní metakognici.
+*Interpretace knihy*: paradoxy sebevztažného myšlení jsou předmětem seriózní filozofie a jejich studium operační rovinu chrání — umisťuje je do rámce, v němž je co dělat dál. Rozpoznávacím znakem je odebrání každého takového východiska a rostoucí závislost na cizím posouzení. Proč kompendium popisuje tento rozdíl jako strukturu, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -242,9 +210,9 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -255,8 +223,10 @@ Reflexivní paradoxie je **strukturálním motivem** pro několik defenzivních 
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

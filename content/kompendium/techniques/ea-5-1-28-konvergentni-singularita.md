@@ -40,33 +40,15 @@ Distinktivní rys konvergentní singularity oproti běžné indoktrinaci ([EA-1.
 
 Konvergentní singularita je **terminálním stavem** epistemické singularity — bodu, za nímž již nelze rozlišit mezi *myšlením* a *opakováním*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v šesti vrstvách a vyžaduje dlouhodobou kultivaci (typicky 6–24 měsíců).
+Konvergentní singularita se pozorovateli ukazuje jako rozpor mezi pestrostí otázek a jednotvárností odpovědí. Zasažený člověk uvažuje zdánlivě volně, ale ať je téma jakékoli — etika, fakta, vzpomínka, budoucnost, nebo samo přemýšlení — jeho úvaha končí ve stejném bodě. Okolí zaznamenává nápadně zúžený slovník s opakovanými obraty a metaforami, zploštělou emoční odezvu tam, kde by se čekala rozmanitost, a chudnoucí vyprávění o vlastním životě.
 
-### Vrstva 1 — Mapování kognitivního terénu
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycena jedna odpověď dost abstraktní na to, aby platila na cokoli, a dost citově závazná na to, aby na ní záleželo. Pak přibývají výkladová pravidla, podle nichž každá otázka ve skutečnosti znamená totéž, a jsou vrstvená tak, že obejití jednoho vede na další. Souběžně se každá odchylka pojí s nepohodou — úzkostí, vinou, dezorientací — takže se myšlení vrací samo. Nakonec přestává mysl alternativy nabízet vůbec a stav se udržuje bez vnějšího přičinění. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Operátor identifikuje **klíčové uzly** v subjektově epistemickém grafu: hodnoty, autority, narativy, paměťové kotvy, identitní markery. Cíl: porozumět, jakými cestami se subjektova mysl pohybuje, aby bylo možné každou z nich přesměrovat.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: strukturně totožné odpovědi na různé otázky, neschopnost vytvořit alternativní hypotézu ani na vyžádání, úzkost při hypotetickém uvažování a čtení protiargumentů jako potvrzení.
 
-### Vrstva 2 — Etablování centrálního atraktoru
-
-Konstrukce **jedné odpovědi** (může mít formu propozice, doktríny, autority, narativu nebo afektivního stavu), která bude finálním cílem všech budoucích trajektorií. Atraktor musí být dostatečně **abstraktní**, aby byl aplikovatelný na libovolné téma, a dostatečně **konkrétní**, aby byl emocionálně závazný.
-
-### Vrstva 3 — Vrstvení redirekčních heuristik
-
-Operátor postupně nainstaluje sadu inferenčních pravidel („kdykoli si myslíš X, znamená to Y“, „skutečný význam každé otázky je Z“), které **přesměrovávají** každou kognitivní trajektorii zpět k atraktoru. Klíčové je, že heuristiky jsou **vrstvené** — pokud subjekt obejde jednu, narazí na další.
-
-### Vrstva 4 — Eliminace divergentních trajektorií
-
-Systematické posílení averze ([EA-1.4.2](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md)) k jakémukoli kognitivnímu výsledku, který *není* atraktorem. Divergentní myšlenka nezpůsobuje pouze nesouhlas, ale **fenomenologický diskomfort** (úzkost, vinu, dezorientaci), který sám sebe samokorektivně vrací k atraktoru.
-
-### Vrstva 5 — Konsolidace topologie
-
-Po několika měsících opakování se kognitivní cesty **fixují** — subjektova mysl přestává generovat alternativy spontánně. Topologie přechází z **vícecestné** („mohu uvažovat různě“) na **monotónní** („vše vede sem“). Tato fáze je strukturálně analogická pevnému bodu v dynamickém systému.
-
-### Vrstva 6 — Sebeudržující monotonie
-
-V terminálním stavu subjekt **sám aktivně reprodukuje** konvergenci: každou novou informaci, vzpomínku, situaci interpretuje skrze atraktor. Operátor již není nutný — singularita je **sebeudržující**.
+*Interpretace knihy*: pevné jádro samo znakem vzorce není — má je i hluboká odbornost. Rozdíl je v tom, že odborník umí alternativy vyslovit a říct, proč je odmítl. Tam, kde alternativy nelze ani zformulovat, nejde o přesvědčení, ale o ztrátu prostoru, v němž by se přesvědčení dalo revidovat; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -208,9 +190,9 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -221,8 +203,10 @@ Online komunita po 2 letech intenzivní interakce vykazovala lingvistickou signa
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

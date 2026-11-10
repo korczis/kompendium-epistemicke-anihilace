@@ -36,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Dech rytm rozklad** narušuje subjektův **přirozený dechový rytmus** skrze intenzivní řízenou dechovou praxi (pranayama, holotropic breathwork, rebirthing). Subjektova baseline dechová struktura je rozložena; nahrazena doktrinálním 'správným' dechem.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že spontánní dech přestal být samozřejmý. Člověk ho sleduje, hodnotí a opravuje, mluví o něm převzatými kategoriemi a vyhledává kontext, v němž dech řídí někdo jiný; vlastní dechový vzorec mimo tento kontext vykazuje nápadnosti (Lindahl et al., 2017).
 
-### Krok 1 — Devalvace přirozeného dechu
+K obrazu patří epizody závratí, brnění a úzkosti, které jsou v jeho okolí vykládány jako očista, nikoli jako nežádoucí účinek. Lindahl et al. (2017) zaznamenali mezi obtížemi spojenými s intenzivní praxí právě somatické a dechové projevy a popsali, že je účastníci sami od duchovního výkladu neoddělovali.
 
-'Tvůj normální dech je mělký/plytký.'
+Pro klinické rozlišení je podstatné, že tyto projevy samy o sobě diagnózou nejsou. Od panické poruchy se liší tím, že jsou vázány na doktrinální kontext a jsou v něm vítány, a že si člověk nestěžuje na ně, ale na to, že se nedostavují dost často. Lifton (1961) popsal toto přijetí stavu kvůli nauce, nikoli kvůli jeho účinku na člověka, jako znak totalistického prostředí.
 
-### Krok 2 — Intenzivní řízená dechová praxe
-
-Specifické techniky narušující baseline rytmus.
-
-### Krok 3 — Konsolidace doktrinálního dechu
-
-Subjekt operuje s implantovaným dechovým vzorcem.
+*Interpretace knihy*: nálezem není dech sám, ale ztráta důvěry ve vlastní dech.
 
 ## Fenomenologické znaky
 
@@ -139,6 +133,16 @@ Pro **objektivní detekci** aplikace techniky **dechový rytmus rozklad** v post
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -183,15 +187,15 @@ Pro **objektivní detekci** aplikace techniky **dechový rytmus rozklad** v post
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

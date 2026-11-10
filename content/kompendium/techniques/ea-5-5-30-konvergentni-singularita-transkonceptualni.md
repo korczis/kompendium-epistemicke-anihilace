@@ -36,17 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Konvergentní singularita transkonceptuální** je **terminální stav** EA-5.5 subkategorie — bod, v němž všechny pre-konceptuální disrupční techniky operují v koherentní singularitě. Subjekt operuje s úplně rekonfigurovanou pre-konceptuální vrstvou; každá zkušenost je mediována doktrinou na úrovni, která předchází kognici.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel nachází znaky popsané u ostatních technik subkategorie EA-5.5 současně: smyslová, atmosférická i časová zkušenost je shodná s naukou a člověk nedokáže popsat, jak prožíval dřív. Pokus o oddělení od kontextu vede k rozpadu, ne k úlevě (Lindahl et al., 2017).
 
-### Krok 1 — Postupná aplikace všech EA-5.5 technik
+Vlastní popis je chudý a převzatý; chybí slovník, který by nebyl doktrinální. Lifton (1961) označuje toto zúžení jazyka za jeden z nejspolehlivějších znaků totalistického prostředí, protože zasahuje i prostředky, jimiž by se dala situace pojmenovat.
 
-### Krok 2 — Konvergence efektů v singularitě
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují: jednotlivé vrstvy zkušenosti se neuzavřely najednou, ale postupně a vzájemně se potvrzovaly. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Herman (1992) připomíná, že obnova probíhá v opačném pořadí a začíná bezpečím, ne výkladem.
 
-### Krok 3 — Konsolidace terminálního stavu
+Od jednotlivých vzorců subkategorie se terminální stav liší tím, že chybí místo, odkud by šlo cokoli z něj zpochybnit. Singer (1995) popisuje toto uzavření jako konec procesu, ne jako jeho začátek.
 
-Subjekt operuje skrze úplně rekonfigurovanou pre-konceptuální vrstvu.
+*Interpretace knihy*: nálezem je nepřítomnost vlastního slovníku, ne jednotlivý zážitek.
 
 ## Fenomenologické znaky
 
@@ -135,6 +135,19 @@ Pro **objektivní detekci** aplikace techniky **konvergentní singularita transk
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Brewer, J. A., Worhunsky, P. D., Gray, J. R., Tang, Y.-Y., Weber, J., & Kober, H. (2011). Meditation experience is associated with differences in default mode network activity and connectivity. *PNAS*, 108(50).
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -177,15 +190,15 @@ Pro **objektivní detekci** aplikace techniky **konvergentní singularita transk
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

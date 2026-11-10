@@ -36,15 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Světelná frekvence modulace** využívá **řízenou expozici specifickým světelným frekvencím** (flicker, strobe, monochromatic, full-spectrum deprivation) k vyvolání pre-konceptuálních stavů. Tyto stavy jsou pak doktrinálně rámované jako 'transformační'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že „transformační“ zážitky jsou vázány na určité světelné prostředí, které člověk napodobuje i doma, a že se objevuje světloplachost nebo naopak otupění vůči běžnému osvětlení (Lindahl et al., 2017).
 
-### Krok 1 — Cílená manipulace světelné expozice
+K obrazu patří přibývající epizody podobné migréně nebo záchvatu, které jsou vykládány doktrinálně. Lifton (1961) popsal převedení tělesné reakce na důkaz nauky jako znak prostředí, které si potvrzení zajišťuje samo, a tím znemožňuje, aby se taková epizoda posoudila jako zdravotní událost.
 
-### Krok 2 — Doktrinální výklad indukovaných stavů
+Klinicky je podstatné, že fotosenzitivní reakce jsou známé neurologické riziko a že jejich duchovní výklad odkládá vyšetření. To, co vzorec odlišuje od běžné zkušenosti se světlem, je vázanost zážitku na prostředí: Stace (1960) připomíná, že mystická zkušenost se posuzuje podle struktury prožitku, ne podle okolností, za nichž nastala.
 
-### Krok 3 — Konsolidace závislosti na specifické světelné expozici
+Od zájmu o světelné prostředí se vzorec liší tím, že zdravotní událost je vykládána jako potvrzení a že vyšetření nepřichází v úvahu. Herman (1992) popisuje toto zúžení rozvahy jako důsledek asymetrického vztahu.
+
+*Interpretace knihy*: nálezem je to, že zážitek bez určitého prostředí nepřichází.
 
 ## Fenomenologické znaky
 
@@ -133,6 +135,18 @@ Pro **objektivní detekci** aplikace techniky **světelná frekvence modulace** 
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
 - **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
+## Literatura
+
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- Iaccarino, H. F., Singer, A. C., Martorell, A. J., et al. (2016). Gamma frequency entrainment attenuates amyloid load and modifies microglia. *Nature*, 540(7632).
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
+
 ## Cross-linky (rozšířené)
 
 - **Hierarchie EA**:
@@ -177,15 +191,15 @@ Pro **objektivní detekci** aplikace techniky **světelná frekvence modulace** 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

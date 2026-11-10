@@ -40,42 +40,15 @@ Klíčový rozdíl proti běžnému narativnímu vlivu spočívá v **eliminaci 
 
 Singulární narativní kolaps je strukturálním předkladem pro [EA-5.1.27 meta-epistemická redukce](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — narativní monismus tvoří fenomenologickou půdu pro [epistemický monismus](@/glossary/epistemicky-monismus.md).
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Mapování narativní topologie subjektu
+Singulární narativní kolaps se pozorovateli ukazuje na tom, kolik příběhů o sobě zasažený člověk ještě dokáže vyprávět. Dřív jich bylo několik a lišily se podle kontextu; teď je jeden a je všude stejný, vyprávěný jako přímá cesta k dnešní pozici. Okolí zaznamenává, že klíčové životní okamžiky mají napříč situacemi doslova shodný výklad, často ve stejných obratech, jaké používá osoba, která výklad dodala.
 
-Manipulátor systematicky shromažďuje **biografická data**: vyprávění o klíčových rozhodnutích, vztazích, kariérních zlomech, traumatu, hodnotových konfliktech. Cílem je identifikace **multiplicity narativních linií** — toho, **kolik různých příběhů** subjekt o sobě vypráví v různých kontextech.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejzranitelnější bývá ta linie, která je citově nejvíc obsazená, nejhůř slučitelná se zbytkem a spojená s otevřenou otázkou po vlastní identitě. Právě ji nový výklad vysvětlí a propojí se zbytkem do souvislého celku — jeho silou není nepravdivost, ale výlučnost. Ostatní čtení jsou pak postupně vykládána jako nezralé verze téhož, až si zasažený člověk začne vlastní životopis přepisovat sám a prožívá to jako konečné porozumění. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Identifikace dominantní zranitelné linie
+Detekční markery zachycené na této stránce odpovídají téže struktuře: život vyprávěný jako přímá cesta, neschopnost zrekonstruovat, jak týž okamžik vykládal dotyčný před lety, cizota při setkání s vlastními starými zápisky, chybějící vyprávění o tom, co mohlo být jinak, a podrobnosti nahrazené heslovitými formulacemi.
 
-Mezi narativními liniemi se vyhledává ta, která je:
-
-- Nejvíce **emocionálně investovaná** (subjekt o ní mluví s největší afektivitou)
-- Nejméně **integrovaná** s ostatními (vlastní vnitřní rozpory)
-- Spojená s **nedořešenými** otázkami identity nebo smyslu
-- **Otevřená** vůči externí re-interpretaci (subjekt sám projevuje pochybnost o „správné“ interpretaci)
-
-### Krok 3 — Re-templátování přes interpretační rámec
-
-Manipulátor nabízí **integrující interpretaci**, která zranitelnou linii **vysvětluje** a zároveň ji propojuje s ostatními liniemi do koherentního celku. Klíčová slova: *„teprve teď chápeš, proč…“*, *„všechno to směřovalo k tomuto…“*, *„tvoje cesta byla vždycky o…“*.
-
-Nabízený narativ **nemusí být lživý** — naopak, jeho síla spočívá v tom, že **vysvětluje** evidenci, která dosud zůstávala nevysvětlená. Problém není ve faktické nesprávnosti, ale v **monopolu na interpretaci**.
-
-### Krok 4 — Postupná likvidace alternativních linií
-
-Jak se nový narativ konsoliduje, alternativní linie jsou systematicky **delegitimizovány**:
-
-- *„To byl jen způsob, jakým ses bránil/a vidět pravdu.“*
-- *„Tehdy jsi to ještě nemohl/a chápat.“*
-- *„To byla fáze, ze které jsi musel/a vyrůst.“*
-
-Každá alternativa je **subsumována** pod dominantní narativ jako jeho **nezralá forma**.
-
-### Krok 5 — Konsolidace skrze biografickou re-narrativizaci
-
-Subjekt sám začíná **přepisovat** svou biografii v souladu s dominantním narativem. Vyprávění o minulosti se mění: dříve uváděné motivy mizí, nové se objevují. Subjekt prožívá tuto změnu **nikoli jako revizi**, ale jako *„konečně skutečné porozumění“*.
-
-V pokročilém stadiu subjekt **nedokáže rekonstruovat** vlastní dřívější interpretace — jsou pro něj nedostupné nikoli pamětí, ale fenomenologicky: nedávají smysl, působí cize.
+*Interpretace knihy*: scelování vlastního příběhu je samo o sobě zdravé. Rozpoznávacím znakem je ztráta nahodilosti a plurality — vědomí, že to mohlo dopadnout jinak a že motivů bylo víc. Tam, kde současné vyprávění vystupuje jako nutné a úplné a alternativy jako klam, jde o vzorec, nikoli o integraci; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -204,9 +177,9 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -217,8 +190,10 @@ Subjekt po sedmi letech vztahu rekonstruuje celou předchozí biografii skrze pa
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

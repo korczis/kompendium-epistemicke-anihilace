@@ -52,7 +52,10 @@ async function derived() {
   const idx = await (await fetch(BASE + 'data/search.json')).json();
   const F = Object.fromEntries(idx.fields.map((f, i) => [f, i]));
   const techEntry = tech && idx.entries.find((e) => e[F.url] === '/' + zolaPath(tech.url));
-  if (tech) out.push({ path: page(tech), painted: 1, counts: [['[data-kontext] a[href]', 1], ['[data-hx-family]', 1]], interact: 'hledani', code: techEntry && techEntry[F.code], url: '/' + zolaPath(tech.url), note: 'nejodkazovanější technika: karta, okolí, kontext, hledání a podstrom sidebaru' });
+  // Kód může nést víc stránek (graph.json code_shared_with): na prvním místě musí být jedna z nich.
+  const code = techEntry && techEntry[F.code];
+  const codeUrls = idx.entries.filter((e) => code && e[F.code] === code).map((e) => e[F.url]);
+  if (tech) out.push({ path: page(tech), painted: 1, counts: [['[data-kontext] a[href]', 1], ['[data-hx-family]', 1]], interact: 'hledani', code, codeUrls, url: '/' + zolaPath(tech.url), note: 'nejodkazovanější technika: karta, okolí, kontext, hledání a podstrom sidebaru' });
   const kase = top(g, 'kompendium/case-studies');
   if (kase) out.push({ path: page(kase), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější kazuistika: kontext' });
   const term = top(g, 'glossary');
@@ -105,7 +108,7 @@ async function combobox(page, s, failures) {
   await page.waitForTimeout(1200);
   if (await input.getAttribute('aria-expanded') !== 'true') failures.push('combobox nerozbalil výsledky');
   const first = await page.locator('#topbar-search-results [role="option"]').first().getAttribute('data-href').catch(() => null);
-  if (!first || !first.endsWith(s.url)) failures.push(`kód ${s.code} nedá svou techniku na první místo (${first})`);
+  if (!first || !s.codeUrls.some((u) => first.endsWith(u))) failures.push(`kód ${s.code} nedá techniku s tímto kódem na první místo (${first})`);
   await page.keyboard.press('ArrowDown');
   const active = await input.getAttribute('aria-activedescendant');
   if (!active) failures.push('šipka dolů nevybere výsledek');
@@ -113,8 +116,13 @@ async function combobox(page, s, failures) {
   await input.fill(s.code);
   await page.waitForTimeout(800);
   await page.keyboard.press('ArrowDown');
-  await Promise.all([page.waitForURL((u) => u.pathname.endsWith(s.url), { timeout: 5000 }).catch(() => failures.push('Enter neotevře vybraný výsledek')), page.keyboard.press('Enter')]);
-  await page.goBack({ waitUntil: 'networkidle' }).catch(() => {});
+  const chosen = await page.locator('#topbar-search-results [role="option"][aria-selected="true"]').first().getAttribute('data-href').catch(() => null);
+  // Vybraný výsledek může být i tatáž stránka: čeká se na skutečnou navigaci, ne jen na adresu.
+  const navigated = page.waitForEvent('framenavigated', { predicate: (f) => f === page.mainFrame(), timeout: 5000 }).then(() => true, () => false);
+  await page.keyboard.press('Enter');
+  const ok = await navigated;
+  await page.waitForLoadState('networkidle').catch(() => {});
+  if (!ok || !chosen || new URL(page.url()).pathname !== new URL(chosen, page.url()).pathname) failures.push(`Enter neotevře vybraný výsledek (${chosen})`);
 }
 
 // Průzkumník glosáře: výběr kategorie zúží karty hesel, zrušení filtru je vrátí.

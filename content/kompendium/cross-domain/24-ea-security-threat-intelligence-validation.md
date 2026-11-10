@@ -1,6 +1,6 @@
 +++
-title = "EA × Security: Threat Intel Source Validation"
-description = "Threat intelligence je často OSINT in disguise — EA aplikuje source-credibility framework"
+title = "Bezpečnost: validace zpravodajství o hrozbách"
+description = "Jak hodnotit zprávy o kybernetických hrozbách: zdroj a věrohodnost, indikátory a jejich stárnutí, sdílení podle TLP, zkreslení dodavatelů a otrávené zdroje."
 weight = 240
 
 [taxonomies]
@@ -8,84 +8,154 @@ tags = ["kompendium", "cross-domain", "security"]
 categories = ["academic", "platform-integration"]
 
 [extra]
-related_terms = ["22-ea-security-incident-response-narrative", "23-ea-security-attribution-bias", "25-ea-compliance-nis2-integrity", "26-ea-compliance-zkb-epistemic-integrity"]
+related_terms = ["23-ea-security-attribution-bias", "1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "21-ea-security-supply-chain-narrative"]
 parent = "kompendium-cross-domain"
 toc = true
 +++
 
-# EA × Security: Threat Intel Source Validation
+Zpravodajství o hrozbách (*cyber threat intelligence*) má organizacím pomoci rozhodovat:
+které hrozby jsou pro ně relevantní, jak útočníci postupují, co hledat v sítích a jak se
+připravit. Organizace přijímají zprávy od komerčních dodavatelů, národních týmů CERT,
+oborových sdílecích skupin i z otevřených zdrojů. Hodnota těchto informací závisí na tom,
+jak dobře je organizace umí hodnotit – a zpravodajství o hrozbách je samo terčem i nástrojem
+manipulace. Tato stránka přenáší principy hodnocení zdrojů, které kniha uplatňuje na
+lidské poznání, do bezpečnostní praxe.
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **Security**.
+## Doména a problém
 
-## Doména
+Zpravodajství o hrozbách se tradičně dělí na **strategické** (trendy a aktéři pro vedení),
+**operační** (kampaně a jejich cíle), **taktické** (postupy útočníků) a **technické**
+(konkrétní indikátory kompromitace – adresy, domény, otisky souborů). Pro popis postupů
+útočníků se ustálily rámce jako Cyber Kill Chain (Hutchins, Cloppert a Amin 2011), Diamond
+Model (Caltagirone, Pendergast a Betz 2013) a znalostní báze MITRE ATT&CK. Pro sdílení
+se používají standardy STIX a TAXII a protokol semaforu TLP (Traffic Light Protocol), jehož
+verzi 2.0 vydalo fórum FIRST v roce 2022.
 
-**Security** v kontextu Prismatic Platform pokrývá: investigativní operace, due-diligence pipeline, security operations, regulatory compliance. Tato doména se v posledních letech transformovala — z procedurální kontroly na **adversarial intelligence operation**, kde každý zdroj informace je potenciálně manipulovaný a každé rozhodnutí je výsledkem narrative warfare.
+Technické indikátory rychle stárnou: útočník změní infrastrukturu a adresa, která byla
+včera škodlivá, je dnes neutrální nebo patří někomu jinému. Bianco (2013) to vyjádřil
+„pyramidou bolesti“: indikátory na spodku (otisky souborů, IP adresy) útočník změní snadno,
+postupy a nástroje na vrcholu obtížně. Zpravodajství zaměřené jen na indikátory proto
+přináší krátkodobý užitek a velké množství falešných poplachů.
 
-Klasické nástroje této domény (rule-based monitoring, document verification, technical IOCs) byly designovány pro epistemic-stable prostředí. Současná realita — AI-generovaný obsah, koordinované disinformační kampaně, sophisticated obfuscation — vyžaduje **EA-augmented** přístup.
+Komerční zpravodajství o hrozbách má vlastní zkreslení. Dodavatelé mají zájem na tom, aby
+hrozby vypadaly závažně a aby jejich vlastní analýzy byly vnímány jako unikátní;
+pojmenovávají skupiny útočníků vlastními jmény, takže tatáž skupina má v různých zprávách
+různá jména a zdánlivě nezávislé zprávy mohou popisovat totéž. Viditelnost dodavatelů je
+navíc nerovnoměrná – vidí hlavně to, co se děje u jejich zákazníků.
 
-## EA Relevance
+## Průnik s epistemickou anihilací
 
-Commercial threat intel feeds vary 10× v false-positive rate. EA-Security validuje feeds before consumption: source provenance, FP rates, narrative bias.
+Kniha popisuje, jak se u jednotlivce narušuje schopnost hodnotit zdroje a jak se vytváří
+dojem shody, který neodpovídá skutečnosti. Ve zpravodajství o hrozbách se tytéž mechanismy
+uplatňují v profesionálním prostředí. [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md)
+má podobu zpráv, které se navzájem citují; [pseudo-konsenzus](@/kompendium/techniques/ea-2-1-9-pseudo-konsenzus-vytvoreni.md)
+podobu „všichni dodavatelé varují“, i když všichni vycházejí z jedné analýzy; [informační přetížení](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md)
+podobu tisíců indikátorů denně, mezi nimiž se podstatné ztratí.
 
-EA framework přináší do security domény tři kritické dimenze:
+Zpravodajství může být i záměrně **otráveno**: útočník, který ví, že obránci sdílejí
+indikátory, může do sdílecích kanálů podstrčit falešné, aby obránci zablokovali legitimní
+služby nebo přehlédli skutečný útok. Falešné stopy v útocích (viz [zkreslení při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md))
+mají stejný účel: zavést analytiky špatným směrem.
 
-1. **Narrative integrity** — informace není jen fact, ale součást příběhu. Manipulátor pracuje s celým narrativem, ne s izolovanými fakty.
-2. **Source provenance** — proveniencia každé informace musí být sledovatelná až k root-source, ne jen k poslednímu publisher.
-3. **Adversarial assumption** — předpokládáme, že někdo se aktivně snaží manipulovat naše rozhodování. Bez této assumption padáme do confirmation bias a source-laundering pastí.
+Třetím průnikem je strach jako měna. Zprávy o hrozbách se snáze prodávají a čtou, když
+jsou dramatické; dramatické zprávy vytvářejí tlak na rychlé a nákladné reakce. Organizace,
+jejíž rozhodování řídí nejhlasitější varování, se dostává do stavu, který kniha u jednotlivců
+popisuje jako chronickou hypervigilanci: všechno je hrozba, a proto nic není prioritou.
 
-Bez EA-augmentace produkuje security pipeline **plausible-but-wrong** závěry s vysokou confidence — což je horší než žádný závěr, protože vede k akcím založeným na falešné jistotě.
+## Rozpoznávací znaky
 
-## Detekční metody
+Na problematické zpravodajství ukazuje **chybějící hodnocení zdroje a jistoty**, **indikátory
+bez kontextu** (bez data, kampaně, způsobu získání), **neúměrná naléhavost** bez doložení,
+**nemožnost ověřit** tvrzení z vlastních dat, **opakování stejného obsahu** ve více zdrojích
+bez vlastní analýzy a **nesoulad s vlastní telemetrií** organizace. Na otrávení zdroje ukazují
+indikátory, které vedou na **legitimní a široce používané služby**, nebo náhlá vlna indikátorů
+od **nového nebo neznámého přispěvatele** do sdílecí skupiny.
 
-- FP-rate measurement per feed (track false alerts za 90 days)
-- Source-provenance audit (where does the feed get its data?)
-- Narrative-bias check (feed's public reports — political slant?)
-- Cross-feed corroboration (require ≥2 feeds for high-confidence alerts)
+## Rámec: standardy a odpovědnost
 
-Tyto metody jsou implementovány v Prismatic Platform jako kombinace deterministických engine (PrismaticDd, PrismaticOsintCore) a EA-validation layeru (PrismaticDecision).
+NIS2 (směrnice (EU) 2022/2555, čl. 29) výslovně podporuje dobrovolné sdílení informací
+o kybernetické bezpečnosti mezi subjekty včetně informací o hrozbách, zranitelnostech
+a indikátorech, v rámci důvěryhodných komunit a s ohledem na ochranu citlivých informací.
+TLP 2.0 stanoví, s kým lze informaci sdílet; jeho porušení podkopává důvěru, na níž sdílení
+stojí. Při sdílení indikátorů obsahujících osobní údaje (např. IP adresy fyzických osob)
+platí GDPR.
 
-## Obranné mechanismy
+## Ochranná opatření
 
-- Per-feed weighted scoring (high-FP feeds get lower weight in correlation)
-- Quarterly feed audit (drop feeds with FP >20 %)
-- Internal feed integration (organizational TTPs prioritized over external)
-- Continuous calibration (analyst feedback → weight updates)
+Prvním opatřením je **hodnocení každého zdroje a každé zprávy** – spolehlivost zdroje
+a věrohodnost informace zvlášť, jak to dělá zpravodajská praxe (srov. [důvěryhodnost zdrojů v OSINT](@/kompendium/cross-domain/1-ea-osint-source-credibility.md)).
+Druhým je **mapování pojmenování** skupin útočníků mezi dodavateli, aby se tatáž informace
+nepočítala vícekrát. Třetím je **ověření proti vlastním datům** a **testování indikátorů**
+před nasazením blokací (zejména u indikátorů vedoucích na sdílenou infrastrukturu). Čtvrtým
+je **stárnutí indikátorů** – automatické vyřazování po určité době, pokud nejsou znovu
+potvrzeny. Pátým je **zaměření na postupy** (TTP) spíše než na jednotlivé indikátory. Šestým
+je **zpětná vazba** zdrojům: co se potvrdilo a co ne. Kontext platformy, z níž kniha vzešla,
+popisuje [Perimeter Agent & EA detection](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md)
+a nástroje jako [GreyNoise](@/glossary/greynoise.md), který pomáhá odlišit cílený provoz
+od plošného skenování internetu.
 
-Obranné mechanismy nejsou jen reaktivní — proaktivně **změny architekturu rozhodování** tak, aby manipulace byla detekovatelná **před** tím, než ovlivní akci. Cílem není blokovat všechny manipulace (nemožné), ale **redukovat blast radius** úspěšné manipulace pod akceptovatelný práh.
+## Lidský rozměr a zotavení
 
-## Případové scénáře
+Analytici bezpečnostních týmů pracují pod neustálým proudem varování. Dlouhodobé vystavení
+vede k únavě z poplachů, cynismu a vyhoření – stavům, v nichž klesá schopnost rozlišit
+podstatné od nepodstatného. Pomáhá kvalita místo kvantity (méně, ale ověřených zpráv),
+rotace, supervize a kultura, v níž je přijatelné říct, že zpráva je nedůvěryhodná.
+Obecné principy péče o pozornost popisuje [Řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
 
-### Scénář 1
+## Přesah do dalších oborů
 
-Threat intel feed flagged 47 IPs as 'C2 servers' over 30 days — investigation found 32 % were home routers, feed dropped from blocklist tier
+Problém validace zpravodajství má obdoby všude, kde se rozhoduje na základě varování od
+třetích stran. Ve zdravotnictví jde o hlášení nežádoucích účinků léků, kde je třeba odlišit
+skutečný signál od šumu a od kampaní; ve veřejném zdraví o varování před epidemiemi;
+ve finančnictví o varování před podvodníky sdílená mezi bankami; ve školství o varování
+před rizikovými trendy mezi žáky, která se šíří mezi rodiči a učiteli často bez ověření.
+Bianco (2013) i zpravodajská tradice zdůrazňují totéž: hodnota varování neleží v jeho
+naléhavosti, ale v jeho ověřitelnosti a v tom, zda vede k užitečnému jednání.
 
-### Scénář 2
+## Ilustrativní scénář
 
-Premium feed claimed 'Russian APT campaign' — independent review found 80 % of indicators recycled from 2-year-old reports, feed downgraded
+*Hypotetický, anonymizovaný scénář.* Bezpečnostní tým střední firmy obdrží od tří dodavatelů
+varování před novou kampaní proti jejímu odvětví, každé s jiným jménem skupiny útočníků.
+Analytik porovná zprávy a zjistí, že všechny vycházejí z jedné analýzy jednoho dodavatele;
+indikátory jsou z větší části totožné. Před nasazením blokací je ověří proti vlastním datům
+a zjistí, že jedna z domén patří legitimní službě, kterou firma používá. Blokuje proto jen
+indikátory, které potvrdí vlastní telemetrie, a zaměří se na detekci postupů popsaných
+ve zprávě. Dodavatelům pošle zpětnou vazbu o chybném indikátoru.
 
-Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
+O dva měsíce později jiný dodavatel zprávu o kampani opraví: chybný indikátor byl do
+sdílecího kanálu pravděpodobně podstrčen. Firma, která ho nezablokovala, se vyhnula
+výpadku vlastní služby.
 
-## Cross-linky
+## Meze a otevřené otázky
 
-- [Kompendium — Úvod](@/kompendium/02-uvod/_index.md)
-- [Základní kategorie EA](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Detection signatures](@/kompendium/detection-signatures/_index.md)
-- [Recovery protocols](@/kompendium/recovery-protocols/_index.md)
-- [Glossary bridges](@/kompendium/glossary-bridges/_index.md)
-- [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
-- [Case studies](@/kompendium/case-studies/_index.md)
-- [Quick reference](@/kompendium/quick-reference/_index.md)
+Většina organizací nemá kapacitu hodnotit zpravodajství do hloubky a spoléhá na dodavatele.
+Otevřenou otázkou je, jak budovat sdílecí komunity, které jsou důvěryhodné, odolné vůči
+otrávení a dostupné i menším organizacím, a jak měřit skutečnou hodnotu zpravodajství
+místo jeho objemu.
 
-## Connect
+## Literatura
 
-- **Komentáře a otázky**: [GitHub Discussions](https://github.com/korczis/kompendium-epistemicke-anihilace/discussions)
-- **Bug reporty**: [GitLab Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **Email**: [GitHub Issues](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- **LinkedIn**: [korczis](https://linkedin.com/in/korczis)
+- Bianco, D. J. (2013). *The Pyramid of Pain.*
+- Caltagirone, S., Pendergast, A., Betz, C. (2013). *The Diamond Model of Intrusion Analysis.*
+- FIRST (2022). *Traffic Light Protocol (TLP) Version 2.0.*
+- Hutchins, E. M., Cloppert, M. J., Amin, R. M. (2011). Intelligence-driven computer network defense informed by analysis of adversary campaigns and intrusion kill chains.
+- Směrnice (EU) 2022/2555 (NIS2), čl. 29.
 
----
+## Související
 
-*Built with precision. Optimized for adversarial intelligence operations.*
-*Část série: Cross-Domain Bridges | EA × Security*
+**Mezioborové mosty**
+
+- [Zkreslení při atribuci](@/kompendium/cross-domain/23-ea-security-attribution-bias.md) – od indikátorů k aktérům.
+- [Důvěryhodnost zdrojů v OSINT](@/kompendium/cross-domain/1-ea-osint-source-credibility.md) – hodnocení zdroje a informace.
+- [Triangulace napříč zdroji](@/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md) – nezávislost zpráv.
+- [Dodavatelský řetězec](@/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md) – varování o dodavatelích.
+
+**Signatury, techniky a kontext platformy**
+
+- [Cirkularita citací](@/kompendium/detection-signatures/18-network-citation-circularity.md) – zprávy citující zprávy.
+- [Perimeter Agent & EA detection](@/kompendium/aiad-integration/perimeter-ea-attack-surface.md) – útočný povrch.
+
+**Pojmy**
+
+- [Intelligence fusion](@/glossary/intelligence-fusion.md) – spojování zpravodajských zdrojů.
+- [GreyNoise](@/glossary/greynoise.md) – odlišení plošného šumu.

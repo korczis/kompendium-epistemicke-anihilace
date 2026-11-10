@@ -1,6 +1,6 @@
 +++
-title = "Interpretative Phenomenological Analysis (IPA)"
-description = "Výzkumná metodologie EA — interpretative phenomenological analysis (ipa)."
+title = "Interpretativní fenomenologická analýza (IPA)"
+description = "IPA podle Smithe, Flowerse a Larkina: idiografický důraz, dvojí hermeneutika a práce s malým vzorkem lidí po zkušenosti s epistemickou manipulací."
 weight = 27
 
 [taxonomies]
@@ -8,106 +8,179 @@ tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["IRB-protocol-design-EA", "RCT-EA-considerations", "anonymization-EA-research"]
+related_terms = ["phenomenological-interview-EA", "thematic-analysis-EA", "narrative-analysis-EA", "vulnerable-population-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Interpretativní fenomenologická analýza (*interpretative phenomenological analysis*, IPA) se
+ptá, jak konkrétní lidé dávají smysl významné životní zkušenosti. Pro výzkum
+[epistemické anihilace](@/glossary/epistemicka-anihilace.md) je zvlášť vhodná: zkušenost
+ztráty a obnovy důvěry ve vlastní vnímání je hluboce osobní, liší se člověk od člověka
+a obecná témata ji snadno zploští. IPA dává jednotlivci prostor, než se začne hledat to,
+co je společné.
 
-Tento článek pokrývá **Interpretative Phenomenological Analysis (IPA)** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Smith-Flowers-Larkin protokol. Idiografický důraz — case-by-case před cross-case analýzou. Hermeneutic circle. Double hermeneutics (researcher interpreting participant interpreting).
+IPA rozvinul Jonathan Smith v 90. letech; standardním textem je kniha Smithe, Flowerse
+a Larkina (2009). Opírá se o tři teoretické zdroje:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **fenomenologii** – zájem o zkušenost tak, jak se jeví ([fenomenologie](@/glossary/fenomenologie.md));
+- **hermeneutiku** – každé porozumění je výklad; IPA mluví o **dvojí hermeneutice**:
+  výzkumník se snaží porozumět účastníkovi, který se snaží porozumět své zkušenosti
+  (srov. [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md));
+- **idiografii** – zájem o jednotlivé, konkrétní případy, než se přistoupí ke srovnání.
 
-## Klíčové principy
+Od deskriptivní fenomenologie se IPA liší otevřeným přiznáním interpretace, od
+[tematické analýzy](@/kompendium/research-methodology/thematic-analysis-EA.md) důrazem
+na jednotlivce a na smysl, který zkušenosti dává on sám.
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+## Kdy metodu použít
 
-## Procedurální postup
+- Když jde o **zkušenost s velkým osobním významem**: rozhodnutí odejít ze skupiny, moment
+  poznání, že partner soustavně popíral realitu, návrat do rodiny po letech odloučení.
+- Když je vzorek **malý a homogenní** – IPA pracuje typicky s několika až málo desítkami
+  účastníků, kteří sdílejí podobnou zkušenost.
+- Když nás zajímá **jak lidé sami chápou**, co se jim stalo, a jakou roli v tom hrají pojmy,
+  které mají k dispozici.
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+## Postup
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+1. **Účelový, homogenní vzorek** – lidé s podobnou zkušeností v podobném kontextu.
+2. **Polostrukturovaný rozhovor** s otevřenými otázkami a prostorem pro rozvinutí (viz
+   [fenomenologický rozhovor](@/kompendium/research-methodology/phenomenological-interview-EA.md)).
+3. **Analýza prvního případu do hloubky**: opakované čtení, poznámky na třech rovinách
+   (popisné – co účastník říká; jazykové – jak to říká; konceptuální – co to může znamenat),
+   z nich formulace zkušenostních bodů a jejich seskupení do osobních zkušenostních témat
+   (starší terminologie: emergentní a nadřazená témata).
+4. **Opakování pro každý další případ** se snahou nepřenášet témata z předchozích.
+5. **Srovnání napříč případy** – skupinová zkušenostní témata, která ukazují sdílené
+   i jedinečné.
+6. **Psaní** – výklad, který se drží konkrétních výpovědí a zachovává hlas jednotlivých
+   účastníků.
 
-**Fáze 2 — Sběr dat (variabilní)**
+## Specifika výzkumu epistemické manipulace
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Dvojí [hermeneutika](@/glossary/hermeneutika.md) v prostředí zpochybněné interpretace.** Lidé po epistemické manipulaci
+často zažili, že jejich výklad vlastní zkušenosti byl soustavně přepisován. Výzkum založený
+na interpretaci jejich interpretace musí být k tomuto citlivý: výklad výzkumníka má
+účastníkův výklad rozvíjet, ne nahrazovat. Pomáhá jazyk „zdá se, že…“, doslovné citace
+a oddělení vrstev výkladu.
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Hledání smyslu jako součást zotavení.** Účastníci se během rozhovoru často snaží svou
+zkušenost teprve pojmenovat; rozhovor jim může pomoci, nebo je přetížit. Výzkumník nesmí
+nabízet hotové pojmy („to je přece [trauma bonding](@/glossary/trauma-bonding.md)“), ani když
+by se zdály užitečné.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Ambivalence a stud.** IPA umožňuje zachytit protichůdné významy u jednoho člověka:
+vděčnost i hněv vůči skupině, stud za to, že „jsem tomu věřil“, i hrdost na to, že odešel.
+Tyto protiklady jsou často jádrem zkušenosti.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Tělesná rovina zkušenosti.** Účastníci často popisují, že „tělo vědělo dřív“: napětí,
+nevolnost nebo únava předcházely vědomému pojmenování toho, co se děje. IPA, která vychází
+i z fenomenologie vtělenosti, je pro tyto výpovědi vnímavá. Výzkumník by se měl na tělesné
+prožívání ptát otevřeně a nepovažovat ho za méně důležité než racionální výklad – v kontextu
+epistemické manipulace bývá právě tělesný signál první vlastní „evidencí“, kterou člověk
+nedokázal potlačit (srov. [Damasio: Somatic Marker](@/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md)).
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Homogenita vzorku.** Zkušenost z párového vztahu, z náboženské skupiny a z pracoviště se
+liší; IPA studie má vzorek vymezit úzce a výsledky nepřenášet mimo něj.
 
-## Riziková místa
+**Výzkumníkova vlastní zkušenost.** Výzkumníci v této oblasti mají často osobní zkušenost
+s tématem. To může být zdrojem porozumění i zkreslení; IPA vyžaduje tuto pozici reflektovat.
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+## Kritéria kvality
 
-## Best practices
+Pro IPA se často používají Yardleyové (2000) kritéria kvality kvalitativního výzkumu:
+citlivost ke kontextu, zaujetí a důslednost, transparentnost a koherence, dopad a význam.
+Smith (2011) doplnil, že dobrá IPA má jasné zaměření, silná data, důslednost, dostatek
+prostoru pro každé téma, interpretační hloubku a ukazuje sdílené i jedinečné.
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+| Oblast | Co doložit |
+|---|---|
+| Vzorek | homogenita a její zdůvodnění |
+| Idiografie | analýza jednotlivých případů před srovnáním |
+| Doklady | citace od většiny účastníků u každého tématu |
+| Interpretace | rozlišení popisné a interpretační roviny |
+| Reflexivita | pozice a zkušenost výzkumníka |
 
-## Validační kritéria
+## Etika a ochrana účastníků
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+Malý a homogenní vzorek znamená vysoké riziko identifikace – zvlášť pokud jde o lidi z jedné
+skupiny nebo komunity. Je třeba zvážit, které detaily lze publikovat, a nabídnout účastníkům
+možnost vyjádřit se k citacím. Hloubkový rozhovor o osobní zkušenosti vyžaduje připravenost
+na distres a následné odkázání na pomoc ([debriefing](@/kompendium/research-methodology/debriefing-protocol-research.md),
+[výzkum zranitelných populací](@/kompendium/research-methodology/vulnerable-population-research.md)).
 
-## Cross-linky
+## Časté chyby
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+- velký heterogenní vzorek, který znemožní idiografickou hloubku;
+- přeskočení analýzy jednotlivých případů a rovnou hledání společných témat;
+- popis bez interpretace (pak jde spíš o tematickou analýzu);
+- interpretace bez opory v citacích;
+- výklad, který účastníkům přisuzuje význam, s nímž by nesouhlasili, bez označení.
 
----
+## Ilustrativní příklad
 
-## Connect
+*Hypotetická studie.* Šest žen popisuje zkušenost s rozhodnutím ukončit vztah, v němž
+partner dlouhodobě popíral jejich vnímání událostí. Analýza prvního rozhovoru vede k osobním
+tématům jako „tělo vědělo dřív“ (fyzické signály předcházely vědomému poznání), „hledání
+svědka“ a „strach z vlastní mylnosti“. U dalších účastnic se objevují podobná i odlišná
+témata – jedna například popisuje rozhodnutí jako náhlý zlom, jiná jako roky trvající
+posun. Skupinové téma „Svědek jako opora reality“ zachycuje, že pro většinu účastnic bylo
+klíčové, aby někdo další potvrdil, co viděly. Studie to propojuje s praktickým doporučením
+o [vztahových kotvách](@/kompendium/self-defense-guides/42-relational-anchors.md) a se
+[somatickou pozorností](@/kompendium/self-defense-guides/13-somatic-awareness.md) – ale jako
+interpretaci, nikoli jako zjištění o všech lidech v podobné situaci.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvalitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Výzkumnice v reflexivní části popisuje, že ji téma svědka zaujalo i kvůli vlastní profesní
+zkušenosti z poradny; proto se v analýze zvlášť zaměřila na účastnici, pro niž svědek
+klíčový nebyl, a její zkušenost ve zprávě rozvádí jako protipříklad.
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Využití v praxi
+
+IPA studie mají pro praxi hodnotu především tím, že ukazují rozmanitost cest. Klinik se
+z nich dozví, jaké významy mohou lidé své zkušenosti dávat, a může se klienta ptát, který
+z nich je jeho – místo aby mu jeden výklad předložil. Studie pomáhají i při přípravě
+psychoedukačních textů, které mají znít jako hlas lidí se zkušeností, ne jako učebnice.
+Pro forenzní a sociální praxi je důležité, že IPA ukazuje, proč se výpovědi lidí po
+manipulaci mohou v čase měnit – jejich smysl se teprve hledá (srov.
+[disclosure traumatu](@/kompendium/forensic-legal/6-trauma-disclosure.md)).
+
+## Jak číst studii tohoto typu
+
+- **Je vzorek skutečně homogenní** a je zdůvodněno proč?
+- **Je vidět práce s jednotlivými případy?** Například tabulka, kdo k jakému tématu přispěl.
+- **Je zřejmé, kde končí popis a začíná interpretace?**
+- **Zůstávají v textu jedineční účastníci**, nebo se rozpustili v průměru?
+
+## Meze a otevřené otázky
+
+IPA neposkytuje zobecnitelné závěry o populaci a závisí na schopnosti účastníků
+artikulovat zkušenost. Otevřenou otázkou je, jak IPA použít u lidí, jejichž jazyk byl
+manipulací výrazně přetvořen, a u dětí a dospívajících.
+
+## Literatura
+
+- Smith, J. A., Flowers, P., Larkin, M. (2009). *Interpretative Phenomenological Analysis: Theory, Method and Research.*
+- Smith, J. A. (2011). Evaluating the contribution of interpretative phenomenological analysis.
+- Yardley, L. (2000). Dilemmas in qualitative health research.
+
+## Související
+
+**Metody v této sekci**
+
+- [Fenomenologický rozhovor](@/kompendium/research-methodology/phenomenological-interview-EA.md) – sběr dat pro IPA.
+- [Tematická analýza](@/kompendium/research-methodology/thematic-analysis-EA.md) – sdílená témata bez idiografie.
+- [Narativní analýza](@/kompendium/research-methodology/narrative-analysis-EA.md) – příběh jako jednotka.
+- [Výzkum zranitelných populací](@/kompendium/research-methodology/vulnerable-population-research.md) – ochrana účastníků.
+
+**Sebeobrana a zotavení**
+
+- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – svědek jako opora.
+- [Subakutní rekonstrukce smyslu](@/kompendium/recovery-protocols/subacute-meaning-reconstruction.md) – hledání smyslu v zotavení.
+
+**Pojmy**
+
+- [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) – základ dvojí hermeneutiky.
+- [Fenomenologie](@/glossary/fenomenologie.md) – zkušenost tak, jak se jeví.

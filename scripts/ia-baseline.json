@@ -2192,129 +2192,97 @@
   "weak-link"
  ],
  "content/kompendium/cross-domain/1-ea-osint-source-credibility.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/10-ea-dd-source-weighting.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/11-ea-dd-decision-engine-calibration.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/12-ea-dd-counterparty-manipulation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/13-ea-dd-beneficial-ownership-disinformation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/14-ea-dd-narrative-warfare.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/15-ea-dd-evidence-quality-assessment.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/16-ea-dd-confirmation-bias-prevention.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/17-ea-security-social-engineering.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/18-ea-security-spear-phishing.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/19-ea-security-disinformation-defense.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/2-ea-osint-czech-ares-validation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/20-ea-security-insider-threat.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/21-ea-security-supply-chain-narrative.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/22-ea-security-incident-response-narrative.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/23-ea-security-attribution-bias.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/24-ea-security-threat-intelligence-validation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/25-ea-compliance-nis2-integrity.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/26-ea-compliance-zkb-epistemic-integrity.md": [
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/27-ea-compliance-gdpr-narrative-protection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/28-ea-compliance-aml-pattern-recognition.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/29-ea-compliance-kyc-narrative-validation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/3-ea-osint-justice-cz-screening.md": [
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/30-ea-compliance-regulatory-capture-detection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/4-ea-osint-sanctions-list-bias.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/6-ea-osint-bot-detection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/7-ea-osint-narrative-injection.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/8-ea-osint-cross-source-triangulation.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/9-ea-dd-investigation-bias.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/cross-domain/_index.md": [
-  "detail"
+  "weak-link"
  ],
  "content/kompendium/detection-signatures/1-linguistic-jargon-density.md": [
   "weak-link"
@@ -4708,130 +4676,96 @@
   "detail"
  ],
  "content/kompendium/research-methodology/IPA-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/IRB-protocol-design-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/RCT-EA-considerations.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/anonymization-EA-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/case-study-design-EA.md": [
-  "not-orphan",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/causal-inference-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/conflict-of-interest-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/conversation-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/data-security-EA-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/debriefing-protocol-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/discourse-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/document-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/effect-size-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/ethnography-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/grounded-theory-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/informed-consent-EA-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/longitudinal-study-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/meta-analysis-EA.md": [
-  "description",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/mixed-methods-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/narrative-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/network-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/phenomenological-interview-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/power-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/pre-registration-EA-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/publication-ethics-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/replication-EA-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/survey-design-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/thematic-analysis-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/time-series-EA.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/research-methodology/vulnerable-population-research.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/section-bridges/_index.md": [
@@ -4940,7 +4874,6 @@
  ],
  "content/kompendium/section-bridges/bridge-case-studies-to-clinical.md": [
   "related",
-  "not-orphan",
   "detail",
   "weak-link"
  ],

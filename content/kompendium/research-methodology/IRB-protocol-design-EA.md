@@ -1,6 +1,6 @@
 +++
-title = "IRB Protokol pro EA Výzkum"
-description = "Výzkumná metodologie EA — irb protokol pro ea výzkum."
+title = "Etické posouzení výzkumného protokolu"
+description = "Jak připravit protokol pro etickou komisi u výzkumu epistemické manipulace: posouzení rizika a přínosu, ochrana účastníků, monitorování a pravidla zastavení."
 weight = 30
 
 [taxonomies]
@@ -8,106 +8,181 @@ tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["IPA-EA", "RCT-EA-considerations", "anonymization-EA-research", "case-study-design-EA"]
+related_terms = ["informed-consent-EA-research", "vulnerable-population-research", "debriefing-protocol-research", "data-security-EA-research", "conflict-of-interest-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md) pracuje s lidmi, jejichž
+důvěra v sebe i v autority byla poškozena, s tématy, která vyvolávají stud a distres,
+a s poznáním, které by se dalo zneužít. Nezávislé etické posouzení není byrokratická
+překážka, ale první ochrana účastníků – a výzkumníka před vlastní slepotou. Tato stránka
+popisuje, jak protokol připravit tak, aby etická komise mohla posoudit skutečná rizika,
+a jak protokol používat i po schválení.
 
-Tento článek pokrývá **IRB Protokol pro EA Výzkum** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Detailní risk-benefit analýza. EA techniky často spadají do **greater than minimal risk**. DSMB (Data Safety Monitoring Board) pro intervenční studie. Stopping rules definované předem.
+**Etická komise** (v USA *Institutional Review Board*, IRB; v Evropě *research ethics
+committee*) je nezávislý orgán, který před zahájením posuzuje, zda je výzkum s lidmi eticky
+přijatelný, a dohlíží na jeho průběh. Opírá se o mezinárodní dokumenty – Norimberský kodex
+(1947), Helsinskou deklaraci Světové lékařské asociace (od 1964, opakovaně revidovanou),
+Belmontskou zprávu (1979) s principy respektu k osobám, dobročinnosti a spravedlnosti –
+a o směrnice CIOMS pro výzkum zdraví s lidmi. V Evropské unii k tomu přistupuje ochrana
+osobních údajů podle GDPR (nařízení (EU) 2016/679). Pojem shrnuje heslo
+[IRB review](@/glossary/irb-review.md); praktický rozpis pro výcvikové prostředí knihy viz
+[EA-3.3.2 IRB protokol design](@/kompendium/techniques/ea-3-3-2-irb-protocol-design.md).
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+## Kdy je téma klíčové
 
-## Klíčové principy
+Vždy, když výzkum zahrnuje lidské účastníky nebo jejich identifikovatelné údaje. Zvláštní
+pozornost vyžadují studie, které:
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+- se ptají na zkušenost s manipulací, násilím nebo kontrolou;
+- zahrnují lidi, kteří jsou stále v rizikovém vztahu nebo skupině;
+- používají klamání nebo neúplnou informaci (viz [debriefing](@/kompendium/research-methodology/debriefing-protocol-research.md));
+- pracují s nahrávkami, deníky, interními dokumenty nebo síťovými daty o třetích osobách;
+- zahrnují [zranitelné populace](@/kompendium/research-methodology/vulnerable-population-research.md);
+- testují intervence (viz [Randomizované studie](@/kompendium/research-methodology/RCT-EA-considerations.md)).
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+Protokol pro etickou komisi by měl obsahovat:
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+1. **Vědecké zdůvodnění** – otázka, design, proč nelze odpovědět bez účasti lidí nebo
+   s menší zátěží. Vědecky slabý výzkum je neetický, protože zatěžuje lidi zbytečně
+   (srov. [analýza síly testu](@/kompendium/research-methodology/power-analysis-EA.md)).
+2. **Popis účastníků a náboru** – kdo, odkud, jak oslovení, jak se předchází tlaku
+   (např. terapeut nenabírá vlastní klienty).
+3. **Posouzení rizik** – psychická (distres, [retraumatizace](@/glossary/retraumatizace.md)), sociální (odhalení účasti,
+   odveta skupiny či partnera), právní (výpovědi o trestné činnosti), informační (únik dat).
+4. **Opatření ke snížení rizik** ke každému riziku zvlášť.
+5. **Přínosy** – pro účastníky (pokud vůbec) a pro společnost; přínos se nemá nadsazovat.
+6. **[Informovaný souhlas](@/glossary/informed-consent.md)** – text, postup, ověření porozumění, odstoupení
+   ([informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md)).
+7. **Ochrana dat** – co se sbírá, jak se ukládá, kdo má přístup, kdy se maže
+   ([datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md),
+   [anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md)).
+8. **Postup při distresu a odhalení rizika** – kdo, kdy a jak zasáhne; hranice mlčenlivosti.
+9. **Monitorování a pravidla zastavení** – u studií s vyšším rizikem nezávislá rada pro
+   monitorování dat a bezpečnosti; předem stanovené podmínky přerušení.
+10. **Kvalifikace týmu** a supervize.
+11. **Střety zájmů** ([střet zájmů](@/kompendium/research-methodology/conflict-of-interest-research.md)).
+12. **Plán zveřejnění** včetně posouzení rizika [dvojího užití](@/glossary/dual-use-poznani.md).
 
-**Fáze 2 — Sběr dat (variabilní)**
+## Specifika výzkumu epistemické manipulace
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Odveta jako hlavní riziko.** U lidí v kontrolujících vztazích a skupinách je největším
+rizikem často to, že se druhá strana o účasti dozví. Protokol má popsat, jak se kontaktuje
+účastník (bezpečné kanály, neutrální názvy), jak se vyplňuje (bezpečné zařízení) a co
+se stane, když účastník ohlásí, že je ohrožen.
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Souhlas lidí s oslabenou důvěrou ve vlastní úsudek.** Člověk zvyklý vyhovět autoritě
+může souhlasit, protože se „to od něj čeká“. Protokol má obsahovat ověření porozumění
+a výslovné ujištění, že odmítnutí nemá žádné důsledky – a postup tak skutečně provádět
+(k problému validity souhlasu viz [Otázka validity souhlasu](@/kompendium/critical-perspectives/15-consent-validity-question.md)).
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Žádné vystavení manipulaci.** Protokol by měl výslovně uvádět, že účastníci nebudou
+vystaveni technikám popisovaným v knize. Pokud studie používá krátký experimentální podnět
+(např. zavádějící text), musí být mírný, vratný a následovaný debriefingem.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Riziko pro výzkumníka.** Výzkumníci, kteří pracují s výpověďmi o manipulaci, jsou
+vystaveni sekundární traumatizaci a v některých případech i tlaku ze strany skupin
+(stížnosti, žaloby, obtěžování). Protokol má počítat se supervizí a s institucionální oporou.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Dvojí užití výsledků.** Popis toho, kdo je k manipulaci náchylnější nebo jaké vzorce
+fungují, může posloužit i k zneužití. Etická komise by měla posoudit i plán zveřejnění
+(viz [přílohu Dual Use](@/kompendium/08-prilohy/dual-use.md)).
 
-## Riziková místa
+## Kritéria kvality
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+| Oblast | Co doložit |
+|---|---|
+| Rizika | konkrétní, ne obecná („minimální riziko“ bez zdůvodnění nestačí) |
+| Opatření | ke každému riziku konkrétní postup a odpovědná osoba |
+| Souhlas | text, ověření porozumění, odstoupení i po sběru dat |
+| Data | celý životní cyklus dat |
+| Monitorování | kdo, jak často, podle jakých kritérií |
+| Změny | postup pro dodatky protokolu během studie |
 
-## Best practices
+## Vztah k ostatním etickým pojistkám
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+Schválení komisí je začátek, ne konec etiky. Protokol žije: změny designu se předkládají
+jako dodatky, nežádoucí události se hlásí, a pokud se ukáže riziko, které nikdo nepředvídal,
+studie se upravuje nebo zastavuje. Postupné rozšiřování invazivnosti bez nového posouzení
+(*ethical creep*) je typickým selháním dlouhých studií. Etické posouzení doplňuje
+[etický kodex výzkumníka](@/kompendium/08-prilohy/eticky-kodex.md),
+[pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
+a [publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md).
 
-## Validační kritéria
+## Časté chyby
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+- „minimální riziko“ u studie, která se ptá na zkušenost s týráním;
+- postup při distresu formulovaný obecně („účastník bude odkázán na pomoc“);
+- žádný plán pro situaci, kdy výzkumník zjistí ohrožení dítěte nebo vážnou újmu;
+- souhlas, který nepokrývá budoucí použití dat;
+- nábor vlastních klientů nebo studentů;
+- schválení získané pro jinou verzi studie, než která se nakonec provádí.
 
-## Cross-linky
+## Ilustrativní příklad
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+*Hypotetický protokol.* Studie plánuje rozhovory s dospělými, kteří opustili skupinu
+s vysokou kontrolou v posledních dvou letech. Protokol identifikuje rizika: distres při
+rozhovoru, odhalení účasti bývalými spoluvěřícími, výpovědi o trestné činnosti třetích osob.
+K distresu stanoví: výzkumníci s klinickým vzděláním, přestávky, možnost ukončit rozhovor
+kdykoli, debriefing a seznam kontaktů na pomoc. K odhalení: nábor přes několik organizací,
+aby nebylo zřejmé, odkud kdo přišel, rozhovory mimo místa spojená se skupinou, pseudonymy
+od prvního kontaktu. K výpovědím o trestné činnosti: účastník je předem informován o hranicích
+mlčenlivosti a je mu doporučeno nesdělovat jména. Komise požaduje doplnit postup pro případ,
+kdy účastník ohlásí, že je skupinou pronásledován; tým doplní kontakt na právní poradnu
+a postup pro předání informace se souhlasem účastníka.
 
----
+## Využití v praxi
 
-## Connect
+Struktura etického protokolu je užitečná i mimo akademický výzkum. Organizace, které
+provádějí [interní vyšetřování](@/kompendium/organizational-defense/32-internal-investigation.md)
+nebo [kulturní průzkumy](@/kompendium/organizational-defense/15-culture-survey-EA.md),
+mohou použít stejnou logiku: identifikovat rizika pro lidi, kteří vypovídají, navrhnout
+ochranu, stanovit hranice důvěrnosti a předem určit, co se stane s daty. Podpůrné organizace,
+které sbírají příběhy klientů pro osvětu, by měly mít obdobu etického posouzení, i když
+je zákon nevyžaduje.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: etické a governance metody | **Kompendium**: [Index](@/kompendium/_index.md)
+## Jak posoudit studii z tohoto hlediska
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+- **Uvádí studie schválení etickou komisí** a číslo či označení rozhodnutí?
+- **Jak popisuje rizika a ochranu?** Obecná věta je slabší než konkrétní popis.
+- **Hlásí nežádoucí události** nebo odchody kvůli distresu?
+- **Odpovídá zveřejněná studie schválenému protokolu?**
+
+## Meze a otevřené otázky
+
+Etické komise nemusejí znát specifika manipulativních skupin a kontrolujících vztahů; mohou
+rizika podceňovat (odveta) i přeceňovat (odmítání výzkumu, který by účastníkům dal hlas).
+Otevřenou otázkou je, jak vzdělávat komise v tomto tématu a jak posuzovat výzkum, který
+probíhá mimo instituce s vlastní komisí – například v podpůrných organizacích nebo online
+komunitách.
+
+## Literatura
+
+- National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report.*
+- World Medical Association. *Declaration of Helsinki* (aktuální revize).
+- CIOMS (2016). *International Ethical Guidelines for Health-related Research Involving Humans.*
+
+## Související
+
+**Etika v této sekci**
+
+- [Informovaný souhlas](@/kompendium/research-methodology/informed-consent-EA-research.md) – jádro každého protokolu.
+- [Výzkum zranitelných populací](@/kompendium/research-methodology/vulnerable-population-research.md) – zvláštní ochrana.
+- [Debriefing](@/kompendium/research-methodology/debriefing-protocol-research.md) – ukončení účasti.
+- [Datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md) – ochrana dat.
+
+**Rámec knihy**
+
+- [Etický kodex výzkumníka EA](@/kompendium/08-prilohy/eticky-kodex.md) – závazky výzkumníka.
+- [EA-3.3.1 Institucionální etická rada](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md) – instituce dohledu.
+- [Dual Use](@/kompendium/08-prilohy/dual-use.md) – riziko zneužití poznání.
+
+**Kritika a pojmy**
+
+- [Výzkumná exploatace v EA studiích](@/kompendium/critical-perspectives/19-research-exploitation.md) – kdy výzkum využívá účastníky.
+- [IRB review](@/glossary/irb-review.md) – heslo glosáře.

@@ -1,6 +1,6 @@
 +++
-title = "Analýza Dokumentů v EA Výzkumu"
-description = "Výzkumná metodologie EA — analýza dokumentů v ea výzkumu."
+title = "Analýza dokumentů"
+description = "Dokumenty jako pramen výzkumu manipulace: autenticita, věrohodnost, reprezentativnost a význam, interní materiály skupin, deníky a digitální stopy."
 weight = 29
 
 [taxonomies]
@@ -8,106 +8,183 @@ tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["debriefing-protocol-research", "discourse-analysis-EA", "effect-size-EA", "ethnography-EA"]
+related_terms = ["case-study-design-EA", "discourse-analysis-EA", "anonymization-EA-research", "data-security-EA-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Dokumenty jsou pro výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md)
+zvlášť cenné, protože vznikly v době událostí – nejsou přepracované pozdější pamětí.
+Deník z období vztahu, interní pravidla skupiny, zápisy z porad, e-maily, soudní spisy
+nebo archiv sociálních sítí mohou ukázat, co se tehdy psalo a jak. Zároveň platí, že
+dokumenty z prostředí manipulace mohou být samy jejím nástrojem. Analýza dokumentů proto
+vyžaduje pramennou kritiku, ne jen čtení.
 
-Tento článek pokrývá **Analýza Dokumentů v EA Výzkumu** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Bowen 2009 protokol. Skimming → reading → interpretation. Authenticity/credibility/representativeness/meaning kritéria. Triangulace s primárními zdroji.
+Analýza dokumentů je systematický postup hledání, výběru, hodnocení a interpretace
+písemných a elektronických materiálů (Bowen 2009). Může stát samostatně, nebo být součástí
+[případové studie](@/kompendium/research-methodology/case-study-design-EA.md) a
+[kombinovaného designu](@/kompendium/research-methodology/mixed-methods-EA.md). John Scott
+(1990) navrhl čtyři kritéria hodnocení dokumentů:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **autenticita** – je dokument pravý a je to, za co se vydává?
+- **věrohodnost** – je obsah bez zkreslení, nebo zkreslený záměrně či nevědomky?
+- **reprezentativnost** – je typický, nebo výjimečný? Co se nezachovalo?
+- **význam** – co dokument znamená, v jakém kontextu a pro koho byl psán?
 
-## Klíčové principy
+## Kdy metodu použít
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+- **Historické a institucionální případy**, kde jsou svědci nedostupní (viz
+  [historické případy](@/kompendium/historical-cases/_index.md) – například
+  [Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md) je dobře
+  doložen právě archivními dokumenty).
+- **Interní materiály skupin a organizací**: pravidla, výukové texty, interní zpravodaje –
+  pro analýzu toho, jak se formuje jazyk a pravidla (srov. [diskurzivní analýza](@/kompendium/research-methodology/discourse-analysis-EA.md)).
+- **Osobní dokumenty** se souhlasem autora: deníky, dopisy, zprávy – pro zachycení
+  prožitku v reálném čase.
+- **Veřejné a digitální stopy**: publikace, webové archivy, příspěvky na sociálních sítích.
+- **Doplnění rozhovorů** – ověření časové osy, doplnění detailů, které paměť ztratila.
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+1. **Otázka a typy dokumentů**, které na ni mohou odpovědět.
+2. **Vyhledání a zpřístupnění** – archivy, osobní sbírky se souhlasem, veřejné zdroje;
+   dokumentace, odkud každý dokument pochází.
+3. **Pramenná kritika** podle Scottových kritérií: kdo dokument vytvořil, kdy, proč,
+   pro koho, v jaké verzi.
+4. **Povrchní pročtení → důkladné čtení → interpretace** (Bowen 2009) s kódováním obsahu
+   nebo s cílenou analýzou podle otázky.
+5. **Triangulace** s jinými zdroji – rozhovory, další dokumenty, nezávislé záznamy.
+6. **Záznam rozhodnutí** – které dokumenty byly zahrnuty, které vyřazeny a proč.
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 2 — Sběr dat (variabilní)**
+**Dokumenty jako nástroj kontroly.** Ve skupinách s vysokou kontrolou členové často píší
+„přiznání“, sebekritiky, hlášení o druhých nebo deníky určené ke čtení vedoucími. Takový
+dokument nevypovídá o vnitřním prožitku autora, ale o tom, co bylo třeba napsat. Lifton
+(1961) popsal kult vyznávání jako jeden ze znaků totalismu; podobné texty jsou cenným
+pramenem právě o tomto mechanismu.
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Přepisovaná dokumentace.** Organizace i jednotlivci mohou dokumenty měnit dodatečně:
+upravené zápisy, smazané zprávy, „ztracené“ e-maily. Rozpor mezi verzemi dokumentu je sám
+o sobě nález. Pro výzkum i praxi je proto důležité zachovávat metadata a verze (viz
+[chain of custody](@/kompendium/forensic-legal/7-evidence-chain-of-custody.md)
+a [elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md)).
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Selektivní zachování.** Zachované dokumenty nejsou náhodný výběr. Skupiny ničí
+nepohodlné materiály; bývalí členové zachovávají to, co dokládá jejich verzi; archivy
+obsahují to, co úřady považovaly za důležité. Výzkumník má popsat, co pravděpodobně chybí.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Vlastní deník jako opora reality.** Lidé po zkušenosti s popíráním vnímání často
+říkají, že jim vlastní poznámky z doby vztahu pomohly uvěřit si
+([paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md)). Pro výzkum jsou
+takové deníky mimořádně cenné, ale jejich zpřístupnění je intimní akt a souhlas musí být
+velmi konkrétní: co se smí číst, co citovat, co nikdy.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Oficiální historie.** Skupiny a instituce často vytvářejí vlastní historii – kroniky,
+jubilejní publikace, životopisy zakladatelů. Tyto texty jsou spolehlivým pramenem o tom,
+jak se skupina chce vidět, a nespolehlivým pramenem o tom, co se stalo. Srovnání oficiální
+historie s nezávislými dokumenty (soudní spisy, dobový tisk, úřední záznamy) často ukáže,
+které události byly vypuštěny nebo přepsány. Samotný vzorec vynechávek je pak důležitým
+výsledkem: ukazuje, co skupina považuje za ohrožující.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Digitální dokumenty a autenticita.** Snímky obrazovky lze upravit, zprávy vytrhnout
+z kontextu, obsah vygenerovat. Ověření autenticity digitálních dokumentů vyžaduje metadata,
+originální soubory a u sporných případů forenzní posouzení (viz
+[deepfake](@/glossary/deepfake.md) a [detekce AI obsahu](@/kompendium/self-defense-guides/40-ai-content-detection.md)).
 
-## Riziková místa
+## Kritéria kvality
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+| Oblast | Co doložit |
+|---|---|
+| Korpus | typy dokumentů, zdroje, období, rozsah |
+| Pramenná kritika | autenticita, věrohodnost, reprezentativnost, význam |
+| Chybějící | co se pravděpodobně nezachovalo a proč |
+| Analýza | postup kódování nebo interpretace |
+| Triangulace | s čím byly dokumenty porovnány |
+| Dohledatelnost | evidence, odkud každý dokument pochází |
 
-## Best practices
+## Etika a ochrana účastníků
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+Dokumenty obsahují údaje o lidech, kteří s výzkumem nesouhlasili – třetích osobách,
+bývalých partnerech, členech skupiny. Výzkumník musí zvážit právní rámec (autorská práva,
+ochrana osobních údajů, obchodní tajemství, případně utajované informace) a etické
+důsledky citování. Interní dokumenty získané od bývalých členů mohou být předmětem sporu;
+jejich použití je třeba konzultovat s etickou komisí a případně s právníkem. Osobní dokumenty
+se vracejí nebo bezpečně ničí podle dohody s autorem
+([datová bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md)).
 
-## Validační kritéria
+## Časté chyby
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+- dokument přijatý jako popis reality bez pramenné kritiky;
+- nerozlišení dokumentu psaného „pro sebe“ a dokumentu psaného „pro vedení“;
+- ignorování toho, co v archivu chybí;
+- citace interních materiálů, které umožní identifikaci zdroje;
+- práce s kopiemi a snímky bez ověření originálu.
 
-## Cross-linky
+## Ilustrativní příklad
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+*Hypotetická studie.* Výzkumnice zkoumá vývoj pravidel v komunitě, která se během deseti
+let uzavřela. Pracuje s veřejně dostupnými publikacemi komunity, s interními pravidly, která
+jí poskytli bývalí členové, a s osobními deníky tří z nich (se souhlasem). Srovnáním verzí
+pravidel zjistí, jak se postupně rozšiřovalo, co se nesmí číst a s kým se nesmí mluvit
+(srov. [selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md)).
+Deníky ukazují, že autorům změny v reálném čase připadaly drobné a odůvodněné; teprve
+ze srovnání verzí je vidět celkový posun. Výzkumnice pečlivě odlišuje, co dokládají
+dokumenty, a co je její výklad, a interní pravidla necituje doslova tam, kde by šlo
+identifikovat, kdo je poskytl.
 
----
+Ve zprávě výzkumnice uvádí i to, co v korpusu chybí: z prvních let komunity se zachovalo
+jen málo interních textů a deníky pocházejí od lidí, kteří odešli. Hlas těch, kdo zůstali,
+je zastoupen jen veřejnými publikacemi. Tato asymetrie se promítá do formulace závěrů.
 
-## Connect
+## Využití v praxi
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvalitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Dovednosti analýzy dokumentů jsou přímo přenositelné do klinické, forenzní a organizační
+praxe. Terapeut, který s klientem prochází staré zprávy nebo deníky, potřebuje stejnou
+citlivost k tomu, kdy byl text psán „pro sebe“ a kdy „pro druhého“. Vyšetřovatel a právník
+potřebují pramennou kritiku, když hodnotí korespondenci jako doklad kontrolujícího chování
+(viz [forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md)).
+Organizace mohou z interní dokumentace zpětně zjistit, jak se měnila pravidla a kdo o změnách
+rozhodoval – předpokladem je, že taková dokumentace existuje (viz
+[sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md)).
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Jak číst studii tohoto typu
+
+- **Odkud dokumenty pocházejí** a kdo je vybral?
+- **Byla provedena pramenná kritika**, nebo jsou dokumenty brány jako fakta?
+- **Je řečeno, co chybí?**
+- **Jsou odlišeny dokumenty psané pod dohledem od dokumentů soukromých?**
+
+## Meze a otevřené otázky
+
+Dokumenty ukazují, co bylo zapsáno, ne co bylo prožito. Otevřenou otázkou je, jak bezpečně
+zacházet s rostoucím objemem digitálních stop – zpráv, nahrávek, archivů sociálních sítí –,
+které nesou informace o mnoha lidech najednou, a jak ověřovat autenticitu v prostředí,
+kde lze obsah snadno vytvořit uměle.
+
+## Literatura
+
+- Bowen, G. A. (2009). Document analysis as a qualitative research method.
+- Scott, J. (1990). *A Matter of Record: Documentary Sources in Social Research.*
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+
+## Související
+
+**Metody v této sekci**
+
+- [Případová studie](@/kompendium/research-methodology/case-study-design-EA.md) – dokumenty jako jeden ze zdrojů případu.
+- [Diskurzivní analýza](@/kompendium/research-methodology/discourse-analysis-EA.md) – jazyk interních textů.
+- [Anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md) – ochrana třetích osob v dokumentech.
+
+**Forenzní rovina**
+
+- [Chain of custody](@/kompendium/forensic-legal/7-evidence-chain-of-custody.md) – zachování původu a verzí.
+- [Elektronické důkazy](@/kompendium/forensic-legal/35-electronic-evidence-EA.md) – digitální dokumenty.
+- [Forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) – dokumenty v řízení.
+
+**Historie a sebeobrana**
+
+- [Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md) – případ doložený archivy.
+- [Paměťový archiv](@/kompendium/self-defense-guides/43-memory-archive.md) – vlastní záznamy jako opora.

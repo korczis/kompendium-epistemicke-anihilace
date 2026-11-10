@@ -1,6 +1,6 @@
 +++
-title = "Meta-Analýza EA Studií"
-description = "Výzkumná metodologie EA — meta-analýza ea studií."
+title = "Systematický přehled a metaanalýza"
+description = "Jak shrnout výzkum příbuzný epistemické manipulaci: systematické vyhledávání, PRISMA, modely náhodných efektů, heterogenita a publikační zkreslení."
 weight = 14
 
 [taxonomies]
@@ -8,106 +8,175 @@ tags = ["kompendium", "research-methodology", "quantitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["informed-consent-EA-research", "longitudinal-study-EA", "mixed-methods-EA", "narrative-analysis-EA"]
+related_terms = ["effect-size-EA", "replication-EA-research", "pre-registration-EA-research", "publication-ethics-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Literatura o jevech, které kniha shrnuje pod [epistemickou anihilaci](@/glossary/epistemicka-anihilace.md),
+je roztříštěná mezi psychologii traumatu, výzkum násilí v blízkých vztazích, studium
+manipulativních skupin, výzkum dezinformací a sociální epistemologii. Jednotlivé studie bývají
+malé a měří odlišné věci. Systematický přehled a metaanalýza jsou způsob, jak z takové
+literatury vyvodit, co je doložené, a – stejně důležité – co doložené není.
 
-Tento článek pokrývá **Meta-Analýza EA Studií** v rámci kvantitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Random-effects model kvůli heterogenitě protokolů. Hedges' g pro effect size. Funnel plot + Egger's test pro publication bias. Moderator analýza dle EA techniky.
+**Systematický přehled** odpovídá na předem formulovanou otázku vyhledáním, výběrem
+a kritickým zhodnocením všech relevantních studií podle explicitního a opakovatelného postupu.
+**Metaanalýza** je jeho statistická část: kombinuje [velikosti účinku](@/kompendium/research-methodology/effect-size-EA.md)
+z jednotlivých studií do souhrnného odhadu a zkoumá, proč se studie liší. Přehled může být
+systematický i bez metaanalýzy, pokud jsou studie příliš nesourodé ke kombinaci.
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+## Kdy metodu použít
 
-## Klíčové principy
+- Shrnutí účinnosti **intervencí**: např. programů prebunkingu, psychoedukace o manipulaci
+  nebo terapeutických přístupů pro lidi po odchodu z kontrolujících skupin.
+- Odhad **síly souvislostí**: mezi zkušeností s psychickým týráním a symptomy
+  [komplexního traumatu](@/glossary/complex-trauma.md) nebo [disociace](@/glossary/disociace.md).
+- **Mapování mezer**: přehled rozsahu (*scoping review*) ukáže, které z mechanismů popsaných
+  v knize nemají žádnou empirickou oporu.
+- Podklad pro **klinická doporučení** a veřejnou politiku (viz
+  [rámec veřejné politiky](@/kompendium/population-health/21-EA-public-policy-framework.md)).
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+## Postup
 
-## Procedurální postup
+1. **Otázka v rámci PICO/PECO** (populace, intervence či expozice, srovnání, výsledek).
+2. **Protokol a registrace** předem, například v registru PROSPERO
+   (viz [pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)).
+3. **Vyhledávání** ve více databázích (pro psychologii typicky PsycINFO, PubMed, Web of Science
+   nebo Scopus), s rešeršní strategií připravenou ideálně s knihovníkem; doplňkově šedá
+   literatura a ruční procházení citací. K terminologii viz
+   [PubMed/MeSH výzkumná terminologie](@/kompendium/international/37-research-terminology-PubMed/index.md).
+4. **Výběr studií** dvěma nezávislými posuzovateli, s dokumentovanými důvody vyřazení
+   a vývojovým diagramem podle PRISMA 2020.
+5. **Extrakce dat** do předem připraveného formuláře.
+6. **Hodnocení rizika zkreslení** (např. nástroje Cochrane pro randomizované studie)
+   a jistoty důkazů (přístup GRADE).
+7. **Syntéza**: u nesourodých studií model náhodných efektů, odhad heterogenity, analýza
+   moderátorů; jinak strukturovaná narativní syntéza.
+8. **Publikační zkreslení**: trychtýřový graf, testy asymetrie (Egger a kol. 1997), citlivostní
+   analýzy. Žádný z testů zkreslení neprokáže ani nevyloučí – jen na ně upozorní.
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+## Specifika výzkumu epistemické manipulace
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+**Pojmový chaos.** Tentýž jev se v různých oborech jmenuje jinak („psychological abuse“,
+„[coercive control](@/glossary/coercive-control.md)“, „[undue influence](@/glossary/undue-influence.md)“, „[thought reform](@/glossary/thought-reform.md)“), a naopak tentýž termín znamená
+v různých studiích různé věci. Rešeršní strategie musí pokrýt synonyma napříč obory
+a přehled musí jasně říct, které operacionalizace sloučil. Slučování nesrovnatelného
+(„jablka a hrušky“) je hlavní riziko oboru.
 
-**Fáze 2 — Sběr dat (variabilní)**
+**Malé a vybrané vzorky.** Mnoho studií pracuje s lidmi získanými přes podpůrné organizace
+nebo terapeuty. Souhrnný odhad pak platí pro tuto populaci, ne pro všechny, kdo podobnou
+zkušenost mají. Typ náboru je vhodný moderátor.
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Převaha retrospektivních dat** – viz [dotazníkový výzkum](@/kompendium/research-methodology/survey-design-EA.md).
+Hodnocení jistoty důkazů by mělo tuto slabinu promítnout.
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Rozhodnutí o zahrnutí kvalitativních studií.** Pro porozumění prožitku je vhodná samostatná
+kvalitativní syntéza (metaetnografie, tematická syntéza), ne pokus „započítat“ rozhovory do
+metaanalýzy.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Publikační tlak oboru.** Téma je morálně silné a výsledek „manipulace škodí“ se publikuje
+snáz než výsledek „souvislost je slabší, než jsme čekali“. To zvyšuje riziko, že publikovaná
+literatura nadhodnocuje účinky (k širšímu kontextu viz
+[replikační krize](@/glossary/replication-crisis.md)).
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+## Kritéria kvality
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+| Oblast | Co doložit |
+|---|---|
+| Protokol | registrace před vyhledáváním, odchylky vysvětlené |
+| Vyhledávání | úplná strategie pro každou databázi, datum |
+| Výběr | dva posuzovatelé, shoda, diagram PRISMA |
+| Riziko zkreslení | hodnocení každé studie, vliv na výsledky |
+| Syntéza | volba modelu, heterogenita, moderátory, citlivostní analýzy |
+| Jistota | GRADE nebo obdobné hodnocení |
+| Otevřenost | extrahovaná data a analytický kód k dispozici |
 
-## Riziková místa
+## Etika a ochrana účastníků
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+Metaanalýza pracuje s publikovanými daty, ale etické otázky nemizí: přehled by měl
+zaznamenat, zda zahrnuté studie měly etické schválení, a zvážit vyřazení studií s vážnými
+etickými vadami. Při práci s individuálními daty (metaanalýza na úrovni jednotlivců) platí
+pravidla pro [datovou bezpečnost](@/kompendium/research-methodology/data-security-EA-research.md).
+Shrnutí určené veřejnosti nemá zjednodušovat do té míry, že by z nejistého nálezu vznikla
+„vědecky prokázaná“ diagnóza vztahu nebo skupiny.
 
-## Best practices
+## Časté chyby
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+- zahrnutí jen studií v angličtině bez zdůvodnění;
+- fixní model u zjevně nesourodých studií;
+- souhrnný odhad bez intervalu předpovědi, který ukazuje, jak se mohou lišit budoucí studie;
+- dvojí započítání téhož vzorku z více publikací;
+- interpretace souvislostí na úrovni studií jako vztahů na úrovni jednotlivců.
 
-## Validační kritéria
+## Ilustrativní příklad
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+*Hypotetický návrh.* Tým chce shrnout studie o souvislosti mezi psychickým týráním v párovém
+vztahu a pozdějšími obtížemi s důvěrou ve vlastní úsudek. Po registraci protokolu prohledá
+čtyři databáze a šedou literaturu. Z několika set záznamů zůstane menší počet studií
+s velmi různými nástroji. Tým kombinuje jen studie s porovnatelnými měřeními a zbytek popisuje
+narativně; jako moderátory testuje typ náboru a retrospektivní versus prospektivní design.
+Závěr zní opatrně a jistota důkazů je hodnocena jako nízká – což je samo o sobě užitečné
+sdělení pro praxi i pro další výzkum.
 
-## Cross-linky
+## Jak číst studii tohoto typu
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+Metaanalýza bývá vnímána jako „konečné slovo“. Ve skutečnosti je to argument postavený
+na mnoha rozhodnutích autorů a čtenář by měl umět je zkontrolovat:
 
----
+- **Jaká byla otázka a kritéria zahrnutí.** Široká otázka („psychické týrání a duševní
+  zdraví“) přinese mnoho studií a nízkou srovnatelnost; úzká otázka málo studií a vysokou
+  srovnatelnost. Obojí je legitimní, ale závěr platí jen pro to, co bylo zahrnuto.
+- **Kolik studií nese výsledek.** Pokud souhrnný odhad stojí převážně na jedné velké studii,
+  je to fakticky výsledek té studie.
+- **Jak velká je heterogenita.** Vysoká heterogenita znamená, že průměrný účinek je abstrakce
+  – v některých prostředích může být účinek velký, v jiných nulový. Interval předpovědi to
+  ukáže lépe než samotný souhrnný odhad.
+- **Co ukázala analýza moderátorů.** Pokud se účinek liší podle typu náboru nebo designu,
+  je to často důležitější zjištění než průměr.
+- **Jak byla hodnocena kvalita studií** a zda se výsledek mění, když se vyřadí studie
+  s vysokým rizikem zkreslení.
+- **Zda autoři hledali nepublikované výsledky** a jak testovali publikační zkreslení.
+- **Kdo metaanalýzu financoval a zda jsou autoři zároveň autory zahrnutých studií.**
 
-## Connect
+Pro kliniku a právo je užitečné rozlišovat dvě sdělení: „souvislost existuje“ (na to často
+stačí i literatura průměrné kvality) a „souvislost je tak silná a obecná, že z ní lze
+usuzovat na konkrétního člověka“ (to metaanalýza téměř nikdy neumožňuje). Přenos souhrnného
+odhadu na jednotlivý případ je chybou úsudku, nikoli statistiky.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvantitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+## Meze a otevřené otázky
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+Metaanalýza je jen tak dobrá jako studie, které shrnuje. U mnoha mechanismů popsaných v knize
+neexistuje dost primárních studií ke kombinaci. Otevřenou otázkou je, jak systematicky
+shrnovat poznání, které existuje hlavně jako klinická zkušenost a kazuistiky (viz
+[Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md)).
+
+## Literatura
+
+- Borenstein, M., Hedges, L. V., Higgins, J. P. T., Rothstein, H. R. (2009). *Introduction to Meta-Analysis.*
+- Higgins, J. P. T. a kol. (eds.) *Cochrane Handbook for Systematic Reviews of Interventions.*
+- Page, M. J. a kol. (2021). The PRISMA 2020 statement.
+- Egger, M., Davey Smith, G., Schneider, M., Minder, C. (1997). Bias in meta-analysis detected by a simple, graphical test.
+
+## Související
+
+**Metody v této sekci**
+
+- [Velikost účinku](@/kompendium/research-methodology/effect-size-EA.md) – stavební jednotka metaanalýzy.
+- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md) – co dělat, když se nálezy nepotvrdí.
+- [Publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md) – zdroj publikačního zkreslení.
+
+**Kritika a historie**
+
+- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md) – empirický základ rámce.
+- [Historický případ: Replikační krize](@/kompendium/historical-cases/33-replication-crisis.md) – jak obor na krizi reagoval.
+
+**Populace**
+
+- [Odhady prevalence](@/kompendium/population-health/01-EA-prevalence-estimates.md) – kde se souhrnné odhady používají.
+
+**Pojmy**
+
+- [Replikační krize](@/glossary/replication-crisis.md) – kontext nadhodnocených účinků.
+- [Evidence based](@/glossary/evidence-based.md) – co znamená opírat praxi o důkazy.

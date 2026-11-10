@@ -1,6 +1,6 @@
 +++
-title = "Replikační Výzkum EA Studií"
-description = "Výzkumná metodologie EA — replikační výzkum ea studií."
+title = "Replikace a ověřování nálezů"
+description = "Přímé a konceptuální replikace, mnohopracovištní projekty a výklad nepotvrzených nálezů ve výzkumu manipulace, důvěry ve vlastní úsudek a odolnosti."
 weight = 38
 
 [taxonomies]
@@ -8,106 +8,171 @@ tags = ["kompendium", "research-methodology", "ethics"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["pre-registration-EA-research", "publication-ethics-EA", "survey-design-EA", "thematic-analysis-EA"]
+related_terms = ["pre-registration-EA-research", "meta-analysis-EA", "effect-size-EA", "publication-ethics-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Jediná studie je hypotéza, kterou svět ještě neověřil. Teprve opakování ukáže, zda nález
+platí, za jakých podmínek a jak je silný. Pro výzkum [epistemické anihilace](@/glossary/epistemicka-anihilace.md)
+je to zvlášť důležité: obor je mladý, opírá se o literaturu z oblastí zasažených
+[replikační krizí](@/glossary/replication-crisis.md) a jeho výsledky rychle přecházejí do
+klinické a soudní praxe. Replikace je proto nejen metodou, ale i etickou povinností vůči
+lidem, kterým mají výsledky sloužit.
 
-Tento článek pokrývá **Replikační Výzkum EA Studií** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Direct replication (same protocol) vs conceptual replication (same construct, different operationalization). Many-Labs collaborations. Replication failure ≠ original fraud — důkladná analýza.
+**Přímá replikace** opakuje studii co nejvěrněji – stejný postup, stejná měření, nový vzorek
+– a ověřuje, zda se původní výsledek objeví znovu. **Konceptuální replikace** testuje tutéž
+hypotézu jinými prostředky – jinými měřeními, jinou populací, jiným designem – a ověřuje,
+zda nález není vázán na jedno konkrétní provedení (Schmidt 2009). **Reprodukce** (výpočetní
+reprodukovatelnost) znamená, že z původních dat a kódu vyjdou stejné výsledky; je
+nejjednodušší formou ověření a selhává překvapivě často.
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+Rozsáhlý pokus Open Science Collaboration (2015) zopakovat sto studií z předních
+psychologických časopisů přinesl statisticky významný výsledek zhruba u třetiny replikací
+a průměrné účinky zhruba poloviční. Projekty typu Many Labs (Klein a kol. 2014) ukázaly, že
+některé jevy se opakují spolehlivě napříč zeměmi a pracovišti, jiné vůbec. Tyto výsledky
+nejsou důvodem k cynismu, ale k opatrnosti při čtení jednotlivých studií. Kniha je rozvádí
+ve stránce [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md)
+a v historickém případu [Replikační krize](@/kompendium/historical-cases/33-replication-crisis.md).
 
-## Klíčové principy
+## Kdy je téma klíčové
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+Replikace má přednost u nálezů, které se už používají v praxi nebo mají takové použití
+mít – například tvrzení o účinnosti programů prevence, o souvislosti mezi určitou zkušeností
+a následky, o tom, jak rozpoznat manipulaci podle jazykových znaků. Má přednost také
+u nálezů z malých studií s velkým účinkem, protože ty bývají při opakování nejvíc
+nadhodnocené (Button a kol. 2013), a u nálezů, které se staly součástí populární představy
+o tématu.
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+1. **Výběr nálezu** – podle významu pro praxi a nejistoty.
+2. **Kontakt s původními autory** – materiály, postupy, nepublikované detaily; jejich
+   připomínky k protokolu.
+3. **Protokol replikace** s dostatečnou silou testu – replikace potřebuje obvykle větší
+   vzorek než původní studie (viz [analýza síly testu](@/kompendium/research-methodology/power-analysis-EA.md)).
+4. **Registrace** předem, ideálně ve formátu Registered Report (viz [pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)).
+5. **Provedení a analýza** podle protokolu; odchylky popsané.
+6. **Výklad** – srovnání velikosti účinku s původní studií, nejen „významné / nevýznamné“.
+7. **Publikace** bez ohledu na výsledek.
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 2 — Sběr dat (variabilní)**
+Mnoho důležitých zdrojů tohoto oboru nejsou experimenty, ale kvalitativní studie, kazuistiky
+a historické analýzy. U nich nemá smysl mluvit o přímé replikaci; ověřování má podobu
+**přenositelnosti** – zda se podobné vzorce objevují v jiných skupinách, kulturách a obdobích.
+Liftonovy znaky totalismu (Lifton 1961), odvozené z rozhovorů s lidmi, kteří prošli čínským
+„převýchovným“ programem, se staly východiskem pro analýzu mnoha dalších skupin. To je
+silná konceptuální opora, ale ne důkaz, že všechny znaky platí všude – což je otázka pro
+další srovnávací výzkum.
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+U kvantitativních nálezů je hlavní obtíží **nejednotné měření**. Pokud každá studie používá
+jinou škálu, nelze rozlišit, zda neúspěšná replikace znamená, že jev neexistuje, nebo že
+nástroj měří něco jiného. Proto je pro obor důležité sdílet nástroje a validovat je
+(viz [Dotazníkový výzkum](@/kompendium/research-methodology/survey-design-EA.md)).
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+Výklad neúspěšné replikace vyžaduje zdrženlivost. Nepotvrzený nález neznamená, že původní
+autoři podváděli, ani že jev neexistuje; může jít o menší účinek, než se myslelo, o jev
+vázaný na specifické podmínky, nebo o rozdíl ve vzorku. Zároveň platí, že rozdíl ve vzorku
+nelze používat jako univerzální výmluvu – pokud původní studie tvrdila obecný nález, musí
+obstát i v jiném vzorku. Kniha připomíná také případy, kdy nepotvrzené nálezy nebyly omylem,
+ale podvodem (viz [Stapel](@/kompendium/historical-cases/34-stapel-fraud.md)).
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+Zvláštní riziko oboru je **morální odpor k nepotvrzení**. Výsledek „program prevence nemá
+prokazatelný účinek“ nebo „souvislost je slabší, než se předpokládalo“ může vypadat jako
+útok na oběti nebo na pomáhající organizace. Proto je důležité, aby replikace prováděly
+i týmy, které k tématu nemají advokační vztah, a aby výsledky byly formulovány věcně.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+Konečně, některé historicky vlivné představy v příbuzných oblastech se ukázaly jako mylné
+s vážnými důsledky – například hnutí kolem [znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md)
+a [Satanic Panic](@/kompendium/historical-cases/38-satanic-panic.md). Loftusová (1993)
+upozornila na to, jak sugestivní terapeutické postupy mohou vytvářet nepravdivé vzpomínky.
+Pro obor zabývající se manipulací je to připomínka, že i dobře míněná praxe bez empirického
+ověření může sama poškozovat lidské poznání.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+## Kritéria kvality
 
-## Riziková místa
+| Oblast | Co doložit |
+|---|---|
+| Věrnost | srovnání postupu s původní studií, odchylky |
+| Síla | výpočet vzorku pro rozumný odhad účinku |
+| Registrace | protokol před sběrem dat |
+| Výklad | srovnání velikostí účinku s intervaly |
+| Otevřenost | data, materiály a kód |
+| Komunikace | věcný popis výsledku bez obviňování |
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+## Vztah k ostatním etickým pojistkám
 
-## Best practices
+Replikace je možná jen tehdy, když původní studie [hlásila úplně](@/kompendium/research-methodology/publication-ethics-EA.md)
+a sdílela materiály. Výsledky replikací vstupují do [metaanalýz](@/kompendium/research-methodology/meta-analysis-EA.md)
+a mění odhad [velikosti účinku](@/kompendium/research-methodology/effect-size-EA.md).
+Etické posouzení replikace je obvykle jednodušší, protože rizika postupu jsou známá – ale
+ne nulové; replikace s citlivou populací vyžaduje stejnou ochranu jako původní studie.
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+## Časté chyby
 
-## Validační kritéria
+Typické chyby jsou replikace s menším vzorkem než původní studie, výklad „nevýznamné, tedy
+nereplikováno“ bez srovnání účinků, změny postupu, které replikaci zneplatní, a naopak
+lpění na detailech, které s jevem nesouvisejí. V praxi je chybou i citovat původní studii
+bez zmínky o neúspěšných replikacích.
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+## Ilustrativní příklad
 
-## Cross-linky
+*Hypotetická situace.* Malá studie ukázala, že krátký program o rozpoznávání manipulativních
+argumentů výrazně zlepšuje schopnost lidí odlišit manipulativní a věcné texty. Tři pracoviště
+se dohodnou na přímé replikaci ve formátu Registered Report s původními autory jako
+konzultanty. Replikace najde účinek ve stejném směru, ale zhruba třetinový, a ukáže,
+že program současně mírně zvyšuje nedůvěru k věcným textům. Výsledek se publikuje spolu
+s komentářem původních autorů, kteří program upraví tak, aby učil rozlišovat, ne jen
+podezírat.
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+## Využití v praxi
 
----
+Pro kliniky, vzdělavatele a tvůrce politik plyne jednoduchá zásada: zavádět rozsáhlé
+programy jen na základě opakovaně potvrzených nálezů, a tam, kde potvrzení chybí, program
+zavádět jako pilot s měřením. Znalci by měli u citované literatury uvádět, zda byla
+replikována (viz [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)).
 
-## Connect
+## Jak posoudit studii z tohoto hlediska
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: etické a governance metody | **Kompendium**: [Index](@/kompendium/_index.md)
+Čtenář se může ptát, zda byl nález nezávisle zopakován, kolik replikací existuje a jak
+dopadly, zda autoři sdíleli data a materiály, které replikaci umožňují, a zda je velikost
+účinku v replikacích podobná původní. U nálezů, které nikdo nezopakoval, je správné mluvit
+o předběžném výsledku.
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+## Meze a otevřené otázky
+
+Otevřenou otázkou je, jak ověřovat nálezy kvalitativního a klinického výzkumu, které tvoří
+jádro oboru, a jak zajistit financování replikací, které nepřinášejí „nové“ poznatky.
+K financování viz [Financování výzkumu EA](@/kompendium/population-health/29-research-funding-EA.md).
+
+## Literatura
+
+- Button, K. S. a kol. (2013). Power failure: why small sample size undermines the reliability of neuroscience.
+- Klein, R. A. a kol. (2014). Investigating variation in replicability: A „Many Labs“ replication project.
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+- Loftus, E. F. (1993). The reality of repressed memories.
+- Open Science Collaboration (2015). Estimating the reproducibility of psychological science.
+- Schmidt, S. (2009). Shall we really do it again? The powerful concept of replication is neglected in the social sciences.
+
+## Související
+
+**Metody a etika v této sekci**
+
+- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md) – Registered Reports pro replikace.
+- [Metaanalýza](@/kompendium/research-methodology/meta-analysis-EA.md) – souhrn původních studií a replikací.
+- [Velikost účinku](@/kompendium/research-methodology/effect-size-EA.md) – srovnání účinků.
+- [Publikační etika](@/kompendium/research-methodology/publication-ethics-EA.md) – předpoklady replikovatelnosti.
+
+**Kritika a historie**
+
+- [Reprodukční krize a EA výzkum](@/kompendium/critical-perspectives/7-replication-EA-research.md) – empirický základ knihy.
+- [Historický případ: Hnutí znovuobjevených vzpomínek](@/kompendium/historical-cases/37-recovered-memory.md) – neověřená praxe a její škody.
+- [Historický případ: Replikační krize](@/kompendium/historical-cases/33-replication-crisis.md) – průběh krize.
+
+**Pojmy**
+
+- [Replikační krize](@/glossary/replication-crisis.md) – heslo glosáře.
+- [Falsifikovatelnost](@/glossary/falsifikovatelnost.md) – testovatelnost jako podmínka vědy.

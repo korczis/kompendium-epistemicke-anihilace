@@ -1,6 +1,6 @@
 +++
-title = "Case Study Design pro EA"
-description = "Výzkumná metodologie EA — case study design pro ea."
+title = "Design případové studie"
+description = "Výzkumná případová studie vztahu, skupiny nebo instituce: vymezení případu, více zdrojů dat, řetěz důkazů, srovnání případů a odlišení od klinické kazuistiky."
 weight = 21
 
 [taxonomies]
@@ -8,106 +8,175 @@ tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["RCT-EA-considerations", "anonymization-EA-research", "causal-inference-EA", "conflict-of-interest-research"]
+related_terms = ["document-analysis-EA", "ethnography-EA", "mixed-methods-EA", "anonymization-EA-research"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+Velká část poznání o [epistemické anihilaci](@/glossary/epistemicka-anihilace.md) pochází
+z jednotlivých případů: z kazuistik terapeutů, z popisu historických skupin, z vyšetřování
+institucí. Případová studie je však víc než dobře vyprávěný příběh. Jako výzkumný design má
+pravidla, která rozhodují o tom, zda z případu lze něco obecného vyvodit – a co ne.
 
-Tento článek pokrývá **Case Study Design pro EA** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Yinův framework: explanatory/exploratory/descriptive. Multiple case design s replication logic (literal vs theoretical). Chain of evidence + case study database.
+Robert Yin definuje případovou studii jako empirické zkoumání současného jevu v jeho
+reálném kontextu, zvlášť tam, kde hranice mezi jevem a kontextem nejsou zřejmé. Robert Stake
+rozlišuje případy **vnitřní** (případ zajímá sám o sobě), **instrumentální** (případ slouží
+k pochopení obecnější otázky) a **kolektivní** (více případů). Yin dále rozlišuje případové
+studie **popisné, explorační a vysvětlující** a designy s jedním nebo více případy.
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+Od **klinické kazuistiky** se výzkumná případová studie liší cílem a postupem: kazuistika
+slouží výuce a péči o pacienta, případová studie odpovídá na výzkumnou otázku s plánovaným
+sběrem více druhů dat. Kazuistiky knihy (sekce [Případové studie](@/kompendium/case-studies/_index.md))
+jsou anonymizované kompozity – tedy ilustrace, nikoli výzkumná data.
 
-## Klíčové principy
+## Kdy metodu použít
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+- Když je jevem **celý systém**: kontrolující skupina, pracoviště s kulturou zpochybňování,
+  instituce, v níž postupně selhaly pojistky (srov. [institucionální anihilace](@/kompendium/04-terminalni-protokoly/institucionalni-anihilace.md)).
+- Když nás zajímá **jak a proč** se něco v čase vyvinulo – například jak se v organizaci
+  postupně měnila pravidla, až umlčela kritiky.
+- Když jsou případy **vzácné nebo historicky jedinečné** a srovnání s větším vzorkem není
+  možné (viz [historické případy](@/kompendium/historical-cases/_index.md)).
+- Když je třeba **otestovat teorii na případu**, který by ji mohl vyvrátit.
 
-## Procedurální postup
+## Postup
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+1. **Výzkumná otázka typu „jak“ a „proč“** a teoretická tvrzení, která případová studie
+   ověřuje nebo rozvíjí.
+2. **Vymezení případu**: co je případ (osoba, vztah, skupina, organizace), časové a prostorové
+   hranice, co do případu nepatří.
+3. **Výběr případu nebo případů**: typický, krajní, kritický (takový, který teorii nejspíš
+   vyvrátí), nebo případy vybrané pro srovnání. U více případů Yin mluví o replikační logice –
+   případy se volí tak, aby předpověděly podobné výsledky (doslovná replikace), nebo odlišné
+   výsledky z předvídatelných důvodů (teoretická replikace).
+4. **Více zdrojů dat**: rozhovory, [dokumenty](@/kompendium/research-methodology/document-analysis-EA.md),
+   archivní záznamy, pozorování, fyzické artefakty. Triangulace zdrojů je jádrem designu.
+5. **Databáze případu**: uspořádaný soubor všech dat, oddělený od výsledné zprávy, aby šlo
+   zpětně ověřit, z čeho závěry vycházejí.
+6. **Řetěz důkazů**: z každého závěru má vést dohledatelná cesta k datům a zpět.
+7. **Analýza**: srovnání se vzorcem předpovězeným teorií (*pattern matching*), budování
+   vysvětlení, analýza časových řad událostí, u více případů křížová syntéza.
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+## Specifika výzkumu epistemické manipulace
 
-**Fáze 2 — Sběr dat (variabilní)**
+**Konkurenční verze případu.** U kontrolujících skupin a vztahů existují ostře protichůdné
+výklady téže historie – bývalí členové, současní členové, vedení, rodiny. Případová studie
+nemá jednu verzi „vybrat“, ale popsat, kde se verze shodují, kde se rozcházejí a jaké
+doklady podporují kterou. Pomáhá časová osa s uvedením zdroje každého údaje
+(viz [rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md)).
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Dokumenty vyrobené manipulací.** Vnitřní materiály skupiny nebo organizace mohou být samy
+nástrojem kontroly – přepisované zápisy, „přiznání“ členů, oficiální historie. Jsou
+cenným pramenem, ale ne o tom, co se stalo, nýbrž o tom, jak se o tom mělo mluvit.
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Identifikovatelnost.** Případ je ze své podstaty jedinečný, a proto snadno rozpoznatelný.
+Anonymizace u výzkumné případové studie často nestačí; je třeba zvážit, zda je publikace
+bezpečná pro účastníky a zda nezakládá právní riziko (viz
+[anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md) a
+[pomluva v EA kontextu](@/kompendium/forensic-legal/14-defamation-EA.md)).
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Hlas těch, kdo zůstali.** Případové studie kontrolujících skupin a pracovišť stojí
+převážně na výpovědích lidí, kteří odešli. Ti mají o případu nejvíc co říct, ale jejich
+perspektiva je zformovaná odchodem. Současní členové bývají nedostupní, nebo mluví jazykem
+skupiny. Obojí je třeba brát jako data o perspektivě, ne jako neutrální popis. Studie, která
+nemá přístup k jedné ze stran, to má výslovně uvést a omezit podle toho své závěry; zvlášť
+opatrně je třeba formulovat tvrzení o úmyslech vedení, k nimž vede jen nepřímý doklad.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Časová vzdálenost.** U historických případů je navíc nutné odlišit doložená fakta od
+pozdějších interpretací a legend, které se kolem známých skupin vytvořily. Kniha tento
+požadavek uplatňuje v sekci historických případů: interpretace se značí jako interpretace.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Pokušení zobecnit.** Případová studie umožňuje **analytické zobecnění** – k teorii –,
+nikoli statistické zobecnění na populaci. Silný případ ukazuje, že se něco *může* stát a jak,
+ne jak často se to děje.
 
-## Riziková místa
+## Kritéria kvality
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+Yin uvádí čtyři testy kvality a k nim taktiky:
 
-## Best practices
+| Test | Taktika |
+|---|---|
+| Konstruktová validita | více zdrojů, řetěz důkazů, ověření návrhu zprávy klíčovými informátory |
+| Vnitřní validita (u vysvětlujících studií) | srovnání vzorců, budování vysvětlení, zvážení soupeřících vysvětlení |
+| Vnější validita | teorie u jednoho případu, replikační logika u více případů |
+| Reliabilita | protokol případové studie, databáze případu |
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+## Etika a ochrana účastníků
 
-## Validační kritéria
+Kromě souhlasu jednotlivých účastníků je třeba zvážit souhlas a ohrožení těch, kdo o studii
+nevědí, ale v případu figurují. Pokud případová studie zkoumá skupinu, která je stále aktivní,
+může publikace vést k odvetě vůči zdrojům. Zprávu je vhodné před publikací posoudit
+i z bezpečnostního hlediska, nejen akademického. U případů, které se týkají možné trestné
+činnosti, je třeba předem promyslet hranice mlčenlivosti (viz
+[povinné hlášení](@/kompendium/forensic-legal/40-mandatory-reporting-state.md)).
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+## Časté chyby
 
-## Cross-linky
+- „případová studie“, která je ve skutečnosti jen popisem bez otázky a bez teorie;
+- jediný zdroj dat (např. jen výpověď bývalého člena);
+- výběr případu podle toho, že dobře ilustruje předem hotový závěr;
+- absence soupeřících vysvětlení;
+- detailní popis, který umožní identifikaci skupiny nebo osob.
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+## Ilustrativní příklad
 
----
+*Hypotetická studie.* Výzkumný tým zkoumá, jak se na jednom vysokoškolském pracovišti během
+několika let změnila kultura tak, že doktorandi přestali zpochybňovat interpretace dat
+vedoucího. Případ je vymezen pracovištěm a obdobím. Data zahrnují rozhovory se současnými
+i bývalými členy, interní předpisy, zápisy z porad a statistiku odchodů. Teoretické tvrzení
+– že klíčovou roli hrála postupná změna hodnoticích kritérií (srov.
+[EA-2.4.5 Evaluation Criteria Rewrite](@/kompendium/techniques/ea-2-4-5-evaluation-criteria-rewrite.md)) –
+se srovnává se soupeřícím vysvětlením, že šlo o obecný tlak na publikační výkon v oboru. Druhý
+případ, pracoviště se stejným tlakem, ale jiným vedením, slouží jako teoretická replikace.
 
-## Connect
+Zpráva nepojmenuje instituci, popisuje obor jen obecně a citace upravuje tak, aby nebylo
+možné poznat autory. Návrh zprávy čte několik účastníků, kteří mohou upozornit na pasáže,
+z nichž by je kolegové poznali.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvalitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+## Jak číst studii tohoto typu
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+- **Je jasné, co je případ a proč byl vybrán?** Bez toho nelze posoudit, kam závěr sahá.
+- **Kolik nezávislých zdrojů závěr nese?** Závěr opřený jen o jednu skupinu výpovědí je
+  hypotéza.
+- **Uvažují autoři o jiných vysvětleních?** Případová studie bez soupeřících vysvětlení se
+  blíží reportáži.
+- **Zobecňuje studie k teorii, nebo k populaci?** Věta „takto fungují kontrolující skupiny“
+  z jednoho případu neplyne.
+
+## Meze a otevřené otázky
+
+Případová studie je nenahraditelná pro porozumění mechanismu v kontextu, ale nemůže
+odpovědět na otázky četnosti. Otevřenou otázkou je, jak v oboru budovat sdílené databáze
+případů, které by umožnily srovnání, a zároveň chránily účastníky. K tomu, jak případy
+z knihy navazují na kliniku, viz [Bridge: Case Studies → Klinika](@/kompendium/section-bridges/bridge-case-studies-to-clinical.md).
+
+## Literatura
+
+- Yin, R. K. *Case Study Research and Applications: Design and Methods* (více vydání, první 1984).
+- Stake, R. E. (1995). *The Art of Case Study Research.*
+- Flyvbjerg, B. (2006). Five misunderstandings about case-study research.
+
+## Související
+
+**Metody v této sekci**
+
+- [Analýza dokumentů](@/kompendium/research-methodology/document-analysis-EA.md) – hlavní zdroj dat případu.
+- [Etnografie](@/kompendium/research-methodology/ethnography-EA.md) – dlouhodobé pozorování v poli.
+- [Kombinované designy](@/kompendium/research-methodology/mixed-methods-EA.md) – kvantitativní data uvnitř případu.
+- [Anonymizace](@/kompendium/research-methodology/anonymization-EA-research.md) – ochrana jedinečného případu.
+
+**Případy v knize**
+
+- [Případové studie](@/kompendium/case-studies/_index.md) – anonymizované kompozity.
+- [Historické případy](@/kompendium/historical-cases/_index.md) – doložené historické události.
+
+**Forenzní rovina**
+
+- [Rekonstrukce časové osy](@/kompendium/forensic-legal/33-timeline-reconstruction.md) – uspořádání verzí s jejich zdroji.
+- [Řetěz důkazů](@/kompendium/forensic-legal/34-chain-evidence-narrative.md) – dohledatelnost závěrů.
+
+**Pojmy**
+
+- [Pattern evidence](@/glossary/pattern-evidence.md) – vzorec jako doklad.

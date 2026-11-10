@@ -1,6 +1,6 @@
 +++
-title = "Diskurzivní Analýza EA Komunikace"
-description = "Výzkumná metodologie EA — diskurzivní analýza ea komunikace."
+title = "Diskurzivní analýza"
+description = "Jak jazyk konstruuje realitu, autoritu a pozice mluvčích: diskurzivní psychologie, kritická analýza diskurzu a foucaultovský přístup ve výzkumu manipulace."
 weight = 24
 
 [taxonomies]
@@ -8,106 +8,187 @@ tags = ["kompendium", "research-methodology", "qualitative"]
 categories = ["academic", "methodology", "research"]
 
 [extra]
-related_terms = ["data-security-EA-research", "debriefing-protocol-research", "document-analysis-EA", "effect-size-EA"]
+related_terms = ["conversation-analysis-EA", "document-analysis-EA", "narrative-analysis-EA", "publication-ethics-EA"]
 parent = "kompendium-research-methodology"
 toc = true
 +++
 
-## Metodologický kontext
+[Epistemická anihilace](@/glossary/epistemicka-anihilace.md) se z velké části odehrává
+v jazyce: v pojmech, které skupina zavede, v tom, kdo smí co pojmenovat, v rámcích, které
+předem určují, co se bude považovat za důkaz. Diskurzivní analýza je soubor přístupů, které
+zkoumají jazyk ne jako průhledné okno ke skutečnosti, ale jako jednání, které skutečnost,
+vztahy a identity spoluvytváří. Pro výzkum manipulace je přirozeným nástrojem – a zároveň
+metodou, která musí hlídat vlastní moc pojmenovávat.
 
-Tento článek pokrývá **Diskurzivní Analýza EA Komunikace** v rámci kvalitativního výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+## Vymezení
 
-**Specifický metodologický háček EA výzkumu:** Foucauldian discourse analysis: jak řečové formace konstruují subjekty. Identifikace diskurzivních strategií, subject positions, power-knowledge nexus.
+Pod označení diskurzivní analýza spadá několik tradic:
 
-EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani naopak utopit data v interpretativní mlze. Cílem je **triangulační konvergence** mezi behaviorálními markery, subjektivním prožitkem a strukturálními invarianty deformace ega.
+- **Diskurzivní psychologie** (Potter a Wetherellová 1987) zkoumá, jak lidé v řeči
+  vytvářejí verze událostí, jak zdůvodňují, obviňují a omlouvají a jak používají „interpretační
+  repertoáry“.
+- **Kritická analýza diskurzu** (Fairclough; van Dijk; Wodaková) spojuje rozbor textu
+  s rozborem společenské moci a ideologie; Faircloughův model pracuje s rovinou textu,
+  diskurzivní praxe a sociální praxe.
+- **Foucaultovská diskurzivní analýza** se ptá, jak historicky vznikají diskurzy, které
+  vymezují, co lze říci, kdo je oprávněným mluvčím a jaké subjekty („pacient“, „odpadlík“,
+  „hysterka“) diskurz vytváří. Navazuje na Foucaultovo pojetí vztahu [moci a vědění](@/glossary/power-knowledge.md).
 
-## Klíčové principy
+Od [konverzační analýzy](@/kompendium/research-methodology/conversation-analysis-EA.md) se
+liší zaměřením: konverzační analýza zkoumá mikrostrukturu interakce, diskurzivní analýza
+významy, repertoáry a mocenské vztahy v širším kontextu.
 
-1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
-2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
-4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
-5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
-6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
+## Kdy metodu použít
 
-## Procedurální postup
+- Při zkoumání **jazyka uzavřených skupin**: „načtený jazyk“ (*loaded language*), který Lifton
+  (1961) popsal jako jeden z osmi znaků totalismu, slova ukončující přemýšlení
+  ([thought stopping](@/glossary/thought-stopping.md)), redefinice běžných pojmů
+  ([newspeak](@/glossary/newspeak.md)).
+- Při analýze **delegitimizace**: jak se v textech konstruuje osoba, jejíž svědectví „se
+  nepočítá“ ([delegitimizace](@/glossary/delegitimizace.md), [epistemická injustice](@/glossary/epistemicka-injustice.md)).
+- Při studiu **veřejných a mediálních diskurzů** – propagandy, dezinformačních kampaní,
+  rámování skupin (viz [propaganda](@/glossary/propaganda.md),
+  [posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md)).
+- Při **sebereflexi oboru**: jak samotný diskurz o „manipulaci“ a „obětech“ vytváří pozice,
+  které mohou lidem ubírat hlas (viz [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md)).
 
-**Fáze 1 — Příprava (4-12 týdnů)**
+## Postup
 
-- Literature review s PRISMA flow chart
-- Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
-- IRB submission + amendments
-- Pilot study (n=10-30) pro feasibility a item refinement
+1. **Výzkumná otázka** zaměřená na *jak*: jak se v textech skupiny konstruuje pochybnost jako
+   slabost; jak média rámují bývalé členy.
+2. **Korpus** – texty, přepisy rozhovorů, nahrávky veřejných projevů, interní materiály; jeho
+   hranice a zdůvodnění výběru.
+3. **Opakované čtení** a identifikace míst, kde se něco konstruuje: kategorizace osob,
+   metafory, zdůvodnění, kontrasty, vynechání.
+4. **Analýza podle tradice**: u diskurzivní psychologie interpretační repertoáry a jejich
+   funkce, u kritické analýzy vztah textu k institucím a moci, u foucaultovského přístupu
+   subjektové pozice a podmínky, za nichž je výpověď možná.
+5. **Doklady** – detailní rozbor konkrétních úryvků, nikoli parafráze.
+6. **Reflexe vlastního diskurzu** – jakými kategoriemi výzkumník sám popisuje účastníky.
 
-**Fáze 2 — Sběr dat (variabilní)**
+## Specifika výzkumu epistemické manipulace
 
-- Strict protocol adherence — deviations log povinný
-- Real-time data quality checks (missingness, výpadky)
-- Periodic safety review (DSMB pro intervenční studie)
+**Redefinice jako mechanismus.** Kontrolující systémy často nezakazují myšlenky přímo,
+ale mění význam slov: „láska“ znamená poslušnost, „upřímnost“ přiznávání se skupině,
+„kritické myšlení“ pochybování o vnějším světě. Diskurzivní analýza může tyto posuny
+zmapovat systematicky – srovnáním užití téhož slova uvnitř a vně skupiny a v čase
+(srov. [sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md)).
 
-**Fáze 3 — Analýza (4-8 týdnů)**
+**Předem vyložená kritika.** Typickým znakem uzavřených diskurzů je, že kritiku předem
+zařazují: kdo pochybuje, „ještě nedozrál“; kdo odešel, „byl ovládnut egem“. Tato
+[imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+je v textu dohledatelná jako opakující se kategorizace kritiků.
 
-- Pre-registered analysis first, exploratory analyses jasně označené
-- Sensitivity analyses (alternative model specifications)
-- Multiple comparison correction (Bonferroni/FDR/Holm)
+**Diskurz pomoci.** Ani diskurz terapeutů, podpůrných organizací a výzkumníků není neutrální.
+Kategorie „oběť“, „přeživší“, „vymytý mozek“ přidělují pozice a mohou bránit lidem mluvit
+o ambivalenci – o tom, co jim skupina také dala. Diskurzivní analýza je vhodná i pro
+kritický pohled na vlastní obor.
 
-**Fáze 4 — Reporting (4-12 týdnů)**
+**Riziko „čtení mezi řádky“.** Diskurzivní analýza snadno sklouzne k tomu, že výzkumník
+„ví“, co text skutečně znamená, lépe než jeho autor – což je struktura, kterou kniha popisuje
+jako znak manipulace. Ochranou je přísná vazba výkladu na doložitelné rysy textu a otevřenost
+alternativním čtením.
 
-- CONSORT/STROBE/COREQ checklist dle designu
-- Open materials/data/code (FAIR principles)
-- Limitations sekce explicitní, ne defenzivní
+**Texty jako stopy, ne důkazy úmyslu.** Rétorický vzorec v textu neprokazuje, že autor
+zamýšlel manipulovat. Diskurzivní analýza popisuje, co text dělá, ne co si autor myslel.
+To je důležité zvlášť tehdy, když se výsledky mají použít v právním kontextu.
 
-## Riziková místa
+## Kritéria kvality
 
-- **Selection bias** — kdo se hlásí na EA výzkum není reprezentativní vzorek populace.
-- **Demand characteristics** — participanti tuší, co výzkumník chce, a chovají se podle toho.
-- **Researcher allegiance effect** — přesvědčení výzkumníka o efektu inflatuje pozorovaný účinek.
-- **Attrition selectivní** — kdo odejde ze studie není random podmnožina, vytváří survivorship bias.
-- **Construct drift** — operacionalizace EA pojmu se mezi studiemi liší, brání meta-analýze.
-- **Ethical creep** — postupné rozšiřování invazivnosti bez re-konzultace s IRB.
+| Oblast | Co doložit |
+|---|---|
+| Tradice | zvolený přístup a jeho teoretické předpoklady |
+| Korpus | rozsah, zdroje, kritéria výběru a vyřazení |
+| Doklady | rozbor konkrétních úryvků v dostatečném rozsahu |
+| Alternativy | zvážená jiná čtení a důvod jejich odmítnutí |
+| Kontext | historický a institucionální kontext textů |
+| Reflexivita | pozice výzkumníka a jeho vlastní kategorie |
 
-## Best practices
+## Etika a ochrana účastníků
 
-1. **Multi-method assessment** — žádný jednotlivý nástroj nezachytí EA fenomén kompletně.
-2. **Standardizované administrace** — videozáznam pro inter-rater reliability check.
-3. **Blinding kdekoliv to jde** — účastník vůči podmínce, hodnotitel vůči hypotéze.
-4. **Manipulation checks** — ověřte, že intervence skutečně manipulovala, co jste zamýšleli.
-5. **Effect size + CI** — p-hodnoty samotné nestačí, hlaste velikost účinku s 95% CI.
-6. **Data audit trail** — každá transformace dat dokumentovaná, reprodukovatelná skript.
-7. **Independent replication budget** — alokujte prostředky na nezávislou replikaci klíčových nálezů.
+U veřejných textů (projevy, publikace) je etická otázka hlavně v přesnosti a spravedlnosti
+výkladu. U interních textů a přepisů rozhovorů platí obvyklá ochrana účastníků a navíc
+ochrana třetích osob, o nichž texty mluví. Citace z interních materiálů mohou být snadno
+dohledatelné; i tam, kde to právo umožňuje, je třeba zvážit, zda zveřejnění neohrozí
+konkrétní lidi. Výsledky, které popisují rétorické vzorce, je vhodné formulovat tak, aby
+nesloužily jako šablona k jejich napodobení – popis funkce vzorce, ne návod k jeho tvorbě
+(viz [Dual Use](@/kompendium/08-prilohy/dual-use.md)).
 
-## Validační kritéria
+## Časté chyby
 
-| Kritérium | Minimální standard |
-|-----------|-------------------|
-| Pre-registrace | OSF/AsPredicted před sběrem dat |
-| IRB approval | Aktivní, s amendments dokumentovanými |
-| Sample size | [A priori](@/glossary/apriori.md) power analysis, n ≥ vypočtené |
-| Reliability | α ≥ 0.70, ICC ≥ 0.75 pro kontinuální measures |
-| Validity | Konvergentní + diskriminantní evidence |
-| Transparency | Materials, data (anonym.), code veřejně |
-| Ethical compliance | Helsinki + Belmont + lokální regulace |
-| Reporting | CONSORT/STROBE/COREQ checklist |
+- výběr úryvků, které potvrzují předem hotový výklad;
+- obecné teoretické tvrzení bez detailního rozboru textu;
+- zaměňování popisu funkce textu s tvrzením o úmyslu autora;
+- ignorování kontextu, v němž text vznikl;
+- výzkumník, který nevidí vlastní diskurz.
 
-## Cross-linky
+## Ilustrativní příklad
 
-- [Etický rámec EA výzkumu](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [IRB protokol design](@/kompendium/research-methodology/IRB-protocol-design-EA.md)
-- [Informovaný souhlas v EA výzkumu](@/kompendium/research-methodology/informed-consent-EA-research.md)
-- [Anonymizace dat](@/kompendium/research-methodology/anonymization-EA-research.md)
-- [Pre-registrace](@/kompendium/research-methodology/pre-registration-EA-research.md)
-- [Power analysis](https://prismatic-reality-com.github.io/prismatic-promo/kompendium/research-methodology/power-analysis-EA-research/)
-- [Effect size](@/kompendium/research-methodology/effect-size-EA.md)
-- [Mixed methods design](@/kompendium/research-methodology/mixed-methods-EA.md)
-- [Replikační výzkum](@/kompendium/research-methodology/replication-EA-research.md)
-- [Glossary — výzkumné termíny](@/glossary/_index.md)
-- [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
+*Hypotetická studie.* Tým analyzuje veřejně dostupné texty několika skupin osobního rozvoje,
+které bývalí účastníci popisují jako kontrolující. Hledá, jak texty konstruují pochybnost:
+zda je pochybnost popisována jako přirozená součást učení, nebo jako znak nedostatečnosti
+(„odpor“, „staré programy“). Srovnávacím korpusem jsou texty skupin, o nichž takové stížnosti
+nejsou známy. Analýza může ukázat, že rozdíl neleží v jednotlivých slovech, ale ve vzorci:
+v kontrolujících textech je každá pochybnost připsána osobě, která pochybuje, nikdy obsahu
+učení. Tento nález se formuluje jako popis diskurzivní funkce a doplní se upozorněním,
+že vzorec sám o sobě nedokazuje, že skupina je kontrolující – je jedním z markerů, který
+je třeba posoudit spolu s dalšími (srov. [BITE model](@/glossary/bite-model.md)).
 
----
+## Využití v praxi
 
-## Connect
+Diskurzivní nálezy mají přímé praktické použití. Klinikům pomáhají rozpoznat, kdy klient
+mluví jazykem skupiny nebo partnera, a pracovat s ním citlivě – ne slova zakazovat, ale
+vracet jim běžný význam. Poradcům rodin pomáhají vysvětlit, proč rozhovor s blízkým, který
+je ve skupině, naráží na zeď: argument je předem zařazen do kategorie, která ho zneplatňuje.
+Organizacím umožňují posoudit vlastní komunikaci – zda interní jazyk nevytváří kategorie
+lidí, jejichž námitky se „nepočítají“ (srov. [komunikační politika](@/kompendium/organizational-defense/23-communication-policy.md)).
+Novinářům a moderátorům platforem dávají slovník pro popis manipulativních rámců bez
+nutnosti tvrdit, co si autor textu myslel.
 
-**Sekce**: [Research Methodology Index](@/kompendium/research-methodology/_index.md) | **Bucket**: kvalitativní metody | **Kompendium**: [Index](@/kompendium/_index.md)
+## Jak číst studii tohoto typu
 
-**Související domény**: Klinická psychologie · Fenomenologie · Výzkumná etika · Statistická metodologie · Bezpečnostní governance
+- **Vidím text, nebo jen výklad?** Dobrá diskurzivní studie ukazuje dost úryvků, abych mohl
+  výklad posoudit sám.
+- **Byl korpus vybrán před analýzou?** Korpus složený z nejvýraznějších příkladů ilustruje,
+  ale nedokládá.
+- **Je zde srovnání?** Bez srovnávacího korpusu nevíme, zda je vzorec specifický.
+- **Jak opatrně autoři mluví o úmyslu a účincích?** Z textu nelze přímo vyčíst, jak na
+  čtenáře působí – to je otázka pro jiné metody.
+
+## Meze a otevřené otázky
+
+Diskurzivní analýza popisuje, jak jazyk funguje, ale nedokáže sama říct, jak působí na
+konkrétní lidi. Otevřenou otázkou je, jak propojit analýzu diskurzu skupiny se zkušeností
+členů (např. v [kombinovaném designu](@/kompendium/research-methodology/mixed-methods-EA.md))
+a jak kriticky analyzovat diskurz manipulace, aniž by se z něj stal další totalizující rámec
+(viz [teoretický imperialismus](@/kompendium/critical-perspectives/8-theoretical-imperialism.md)).
+
+## Literatura
+
+- Potter, J., Wetherell, M. (1987). *Discourse and Social Psychology.*
+- Fairclough, N. (1995). *Critical Discourse Analysis.*
+- Foucault, M. (1969). *L'archéologie du savoir.*
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+
+## Související
+
+**Metody v této sekci**
+
+- [Konverzační analýza](@/kompendium/research-methodology/conversation-analysis-EA.md) – mikroanalýza interakce.
+- [Analýza dokumentů](@/kompendium/research-methodology/document-analysis-EA.md) – práce s interními materiály.
+- [Narativní analýza](@/kompendium/research-methodology/narrative-analysis-EA.md) – příběh jako jednotka.
+
+**Detekce a techniky**
+
+- [Sémantická eroze](@/kompendium/detection-signatures/8-linguistic-semantic-erosion.md) – posun významů slov.
+- [Terminologická mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) – jazyk jako nástroj autority.
+
+**Kritika a teorie**
+
+- [EA jako mocenský nástroj](@/kompendium/critical-perspectives/18-EA-as-power-tool.md) – reflexe diskurzu oboru.
+- [Lakoff: Konceptuální metafora](@/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md) – rámce a metafory.
+
+**Pojmy**
+
+- [Power-Knowledge](@/glossary/power-knowledge.md) – Foucaultův vztah moci a vědění.
+- [Newspeak](@/glossary/newspeak.md) – zúžení jazyka jako zúžení myšlení.

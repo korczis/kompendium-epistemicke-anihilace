@@ -140,9 +140,6 @@
  "content/glossary/demarkacni-problem.md": [
   "weak-link"
  ],
- "content/glossary/depersonalizace.md": [
-  "weak-link"
- ],
  "content/glossary/deplatforming.md": [
   "weak-link"
  ],
@@ -162,9 +159,6 @@
   "weak-link"
  ],
  "content/glossary/disociace.md": [
-  "weak-link"
- ],
- "content/glossary/dissociativni-amnezie.md": [
   "weak-link"
  ],
  "content/glossary/doctrine.md": [
@@ -241,12 +235,6 @@
   "weak-link"
  ],
  "content/glossary/epistemicka-reintegrace.md": [
-  "weak-link"
- ],
- "content/glossary/epistemicka-singularita.md": [
-  "weak-link"
- ],
- "content/glossary/epistemicka-staze.md": [
   "weak-link"
  ],
  "content/glossary/epistemicke-trauma.md": [
@@ -599,9 +587,6 @@
  "content/glossary/replication-crisis.md": [
   "weak-link"
  ],
- "content/glossary/retraumatizace.md": [
-  "weak-link"
- ],
  "content/glossary/risk-score.md": [
   "weak-link"
  ],
@@ -943,13 +928,7 @@
  "content/kompendium/06-klinicke-aplikace/collateral-interview-protokol.md": [
   "weak-link"
  ],
- "content/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md": [
-  "weak-link"
- ],
  "content/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md": [
-  "weak-link"
- ],
- "content/kompendium/06-klinicke-aplikace/observational-assessment.md": [
   "weak-link"
  ],
  "content/kompendium/06-klinicke-aplikace/screening-instrumenty-detail.md": [
@@ -1307,12 +1286,6 @@
  "content/kompendium/case-studies/44-arts-totalizace.md": [
   "weak-link"
  ],
- "content/kompendium/case-studies/45-celebrity-totalizace.md": [
-  "weak-link"
- ],
- "content/kompendium/case-studies/46-political-totalizace.md": [
-  "weak-link"
- ],
  "content/kompendium/case-studies/47-diplomatic-totalizace.md": [
   "weak-link"
  ],
@@ -1323,9 +1296,6 @@
   "weak-link"
  ],
  "content/kompendium/case-studies/50-spiritual-cult-recovery.md": [
-  "weak-link"
- ],
- "content/kompendium/case-studies/51-new-age-recovery.md": [
   "weak-link"
  ],
  "content/kompendium/case-studies/52-pseudoscience-recovery.md": [
@@ -1643,9 +1613,6 @@
  "content/kompendium/detection-signatures/23-network-reputation-laundering.md": [
   "weak-link"
  ],
- "content/kompendium/detection-signatures/24-network-deplatforming-cascade.md": [
-  "weak-link"
- ],
  "content/kompendium/detection-signatures/25-phenomenological-cognitive-fog.md": [
   "weak-link"
  ],
@@ -1745,9 +1712,6 @@
  "content/kompendium/educational-scenarios/26-recovery-trajectory.md": [
   "weak-link"
  ],
- "content/kompendium/educational-scenarios/27-iatrogenic-risk.md": [
-  "weak-link"
- ],
  "content/kompendium/educational-scenarios/28-multi-target-coordination.md": [
   "weak-link"
  ],
@@ -1779,207 +1743,126 @@
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/1-acute-decompensation-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/10-acute-self-harm-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/11-er-EA-handoff.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/12-inpatient-admission-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/13-crisis-team-deployment.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/14-family-emergency-debrief.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/15-mobile-crisis-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/16-911-EA-recognition.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/17-crisis-hotline-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/19-restraint-avoidance-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/2-suicide-risk-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/20-deescalation-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/21-children-emergency-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/22-adolescent-emergency-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/23-elder-emergency-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/24-pregnant-emergency-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/25-medical-comorbidity-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/26-substance-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/27-active-cult-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/28-ex-cult-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/29-political-prisoner-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/3-psychotic-break-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/30-refugee-EA-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/31-post-discharge-bridge.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/32-step-down-program.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/33-relapse-recognition.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/34-relapse-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/35-treatment-noncompliance.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/36-medication-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/37-iatrogenic-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/38-second-opinion-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/39-legal-emergency.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/4-acute-dissociation-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/40-witness-protection.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/5-flashback-cascade-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/6-panic-attack-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/8-emergency-extraction-cult.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/9-mandatory-reporting-EA.md": [
-  "related",
-  "detail",
   "weak-link"
  ],
  "content/kompendium/emergency-protocols/_index.md": [
-  "detail",
   "weak-link"
  ],
  "content/kompendium/forensic-legal/10-forensic-documentation.md": [
@@ -2000,9 +1883,6 @@
  "content/kompendium/forensic-legal/15-witness-tampering.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/18-medical-malpractice-EA.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/19-professional-misconduct-EA.md": [
   "weak-link"
  ],
@@ -2012,16 +1892,10 @@
  "content/kompendium/forensic-legal/22-fact-witness-protection.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/25-victim-statement.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/26-impact-statement.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/27-trial-prep.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/28-courtroom-decompensation.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/3-dissociation-forensic.md": [
@@ -2042,12 +1916,6 @@
  "content/kompendium/forensic-legal/41-family-court-EA.md": [
   "weak-link"
  ],
- "content/kompendium/forensic-legal/42-immigration-EA.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/43-asylum-EA.md": [
-  "weak-link"
- ],
  "content/kompendium/forensic-legal/45-disability-law-EA.md": [
   "weak-link"
  ],
@@ -2061,9 +1929,6 @@
   "weak-link"
  ],
  "content/kompendium/forensic-legal/6-trauma-disclosure.md": [
-  "weak-link"
- ],
- "content/kompendium/forensic-legal/8-witness-prep-EA.md": [
   "weak-link"
  ],
  "content/kompendium/forensic-legal/9-victim-impact-assessment.md": [
@@ -2817,9 +2682,6 @@
   "weak-link"
  ],
  "content/kompendium/organizational-defense/31-incident-response-EA.md": [
-  "weak-link"
- ],
- "content/kompendium/organizational-defense/33-legal-counsel-engagement.md": [
   "weak-link"
  ],
  "content/kompendium/organizational-defense/34-PR-narrative-defense.md": [
@@ -4056,9 +3918,6 @@
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/49-temporal-self-stitching.md": [
-  "weak-link"
- ],
- "content/kompendium/self-defense-guides/5-falsification-thinking.md": [
   "weak-link"
  ],
  "content/kompendium/self-defense-guides/50-personal-mythology-defense.md": [

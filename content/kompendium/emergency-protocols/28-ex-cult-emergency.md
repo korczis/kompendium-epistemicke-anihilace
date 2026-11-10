@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Ex-cult member emergency"
-description = "Akutní intervenční protokol — emergency u bývalého člena kultu."
+title = "Akutní protokol: Bývalý člen kultu v akutní krizi"
+description = "Protokol pro akutní krizi měsíce až roky po odchodu z kultu: rozpoznání floatingu, odlišení od psychózy, spouštěče, bezpečí a specializovaná navazující péče."
 weight = 28
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "cult"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,140 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Ex-cult member emergency
+# Akutní protokol: Bývalý člen kultu v akutní krizi
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 28** · skupina Cílové populace · okno: akutní krize a první dva týdny
+>
+> **Sebevražedné riziko po odchodu ze skupiny nepodceňuj.** Ohrožení života = 155; výhrůžky nebo
+> pronásledování ze strany skupiny = Policie ČR (158).
 
-## 1. Klinická situace
+## Indikace
 
-Bývalý člen kultu v emergency situaci — typicky 6 měsíců až 5 let po výstupu; emergency může být akutní depresivní epizoda, suicidalita, dissociativní fuga, „floating" episodes. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency u bývalého člena kultu** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se týká lidí, kteří ze skupiny odešli před měsíci nebo lety a nyní se ocitají v akutní
+krizi: deprese se sebevražednými myšlenkami, panika, disociativní epizody, náhlé návraty myšlení
+a pocitů skupiny, intenzivní vina a strach z trestu, existenciální prázdnota. Spouštěčem bývá
+výročí, zpráva o skupině v médiích, kontakt od bývalých členů, smrt nebo nemoc blízkého, nový
+vztah či práce s autoritativní strukturou, nebo terapie, která otevře téma příliš rychle.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Bývalí členové často popisují tzv. **floating** – krátké stavy, kdy se znovu ocitnou „uvnitř“:
+myslí jazykem skupiny, cítí její strach a vinu, mají pocit, že „odchod byl chyba“. Floating je
+přechodný, vázaný na spouštěč a člověk si ho obvykle uvědomuje; nejde o psychózu, ale může s ní
+být zaměněn – a naopak, skutečný psychotický stav nesmí být přehlédnut s poukazem na „floating“.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Diferencuj „floating" (dissociativní návrat ke kult-mindset) od plné psychotické epizody** — floating je transient, kontextuální.
-2. **Aktivuj ex-cult support network** — ICSA, Cult Education Institute, SECT (CZ); peer support s vlastní ex-cult zkušeností.
-3. **Adresuj specific ex-cult triggers** — anniversary reactions, news articles o skupině, kontakt z dřívějších členů.
-4. **Plánuj specialized therapy** — ne generický trauma therapist, ale cult-aware clinician (training v [BITE model](@/glossary/bite-model.md), Lifton, Hassan).
-5. **Validate identity reconstruction** — osoba prochází rebuilding self-concept; emergency je často developmental milestone, ne pathology.
+1. **Posouzení rizika:** sebevražedné myšlenky, sebepoškození, užívání látek ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
+   [č. 26](@/kompendium/emergency-protocols/26-substance-EA.md)).
+2. **Pojmenuj, co se děje.** Pokud jde o floating, vysvětli ho jako známou reakci na spouštěč:
+   „To, co teď cítíte, je ozvěna skupiny. Je silná, ale přechodná.“ Psychoedukace bývá sama o sobě
+   stabilizující.
+3. **Ukotvení v přítomnosti** – kde je, kdy je, co je jinak než ve skupině, co sám rozhodl
+   ([uzemňovací techniky](@/kompendium/self-defense-guides/14-grounding-techniques.md)).
+4. **Odstraň aktuální spouštěč,** pokud to jde (zprávy od bývalých členů, sledování skupiny na
+   sítích).
+5. **Bezpečí:** obtěžuje-li skupina, vyhrožuje-li nebo zveřejňuje-li informace, řeš to jako
+   bezpečnostní problém.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Fenomenologie:** floating, [disociace](@/glossary/disociace.md), flashbacky, psychotické příznaky (odliš, viz
+  [protokol č. 3](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)), deprese, panika.
+- **Spouštěče** a jejich časová souvislost.
+- **Obsah viny a strachu:** naučená „proroctví“ o osudu odpadlíků, internalizované tresty
+  ([internalizovaný pachatel](@/glossary/internalizovany-pachatel.md)).
+- **Identita a sociální síť:** kdo je člověk mimo skupinu, na koho se může obrátit, zda nemá
+  kontakt jen s bývalými členy.
+- **Dosavadní péče:** zda terapeut rozuměl zkušenosti se skupinou, nebo ji bagatelizoval.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Sebevražedné jednání, intoxikace | 155 |
+| Psychotické příznaky nezávislé na spouštěči, s rozpadem fungování | psychiatrické vyšetření |
+| Floating nebo disociace, která neustupuje a ohrožuje fungování | krizové centrum, zvážit krátkodobé krizové lůžko |
+| Výhrůžky, pronásledování ze strany skupiny | Policie ČR (158), bezpečnostní plán |
+| Stabilizace během kontaktu | psychoedukace, ambulantní péče do týdne |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš spouštěč, popis stavu (včetně toho, zda si člověk uvědomoval, že jde o návrat myšlení
+skupiny), posouzení rizika, užité kroky, odlišení od psychotické epizody a jeho důvody. Pokud
+existuje zápis o dřívějších diagnózách, poznamenej, zda byla zkušenost se skupinou vzata v úvahu.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Doporuč terapeuta, který rozumí zkušenosti s high-control skupinami (Lifton 1961, Hassan 1988 a
+2015 a další literatura o zotavení bývalých členů), a skupiny vzájemné podpory bývalých členů,
+pokud jsou dobře vedené. Krize po letech nemusí znamenat selhání: často provází další krok v
+rekonstrukci identity. Navazuje [protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md),
+[rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md),
+[hermeneutický reset](@/kompendium/recovery-protocols/midterm-hermeneutic-reset.md) a
+[axiologická restaurace](@/kompendium/recovery-protocols/subacute-axiological-restoration.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Záměna floatingu za psychózu** a nasazení léčby bez rozvahy – nebo opačně.
+- **Generická terapie,** která skupinu chápe jako „koníček“ či „vlastní volbu“ a vinu nepozná
+  jako naučenou.
+- **Konfrontace s bývalou vírou,** zesměšnění toho, čemu člověk věřil.
+- **Doporučení vrátit se „pro uzavření“** do kontaktu se skupinou.
+- **Přehlédnutí izolace:** jediní přátelé jsou bývalí členové, kteří sami nejsou stabilní.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Bývalý člen se často bojí, že ho pomáhající budou „řídit“ podobně jako skupina. Je důležité
+vysvětlovat, nabízet volby a respektovat jeho tempo. Duchovní či ideové hledání po odchodu je
+legitimní; úkolem odborníka není nabízet nový světonázor, ale podpořit schopnost rozhodovat se
+svobodně. Mlčenlivost vůči skupině i vůči rodině platí plně.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „Pořád tomu věříte?“ | „Teď se vám vrací myšlení skupiny. Je to známá a přechodná reakce.“ | pojmenování floatingu |
+| „Už je to roky, měl byste být dál.“ | „Zotavení po skupině trvá dlouho a má výkyvy.“ | bez výčitek |
+| „Byl jste v sektě, to je jasné.“ | „Jak jste tomu tehdy rozuměl vy?“ | respekt k vlastnímu výkladu |
+| „Prostě na ně zapomeňte.“ | „Co vám pomáhá, když se ozvou?“ | konkrétní strategie |
 
-**Platformové reference:**
+Pomáhá i pojmenování převzatých výrazů skupiny jako „jazyka skupiny“ – bez opravování, s možností, aby si člověk sám zvolil, jaká slova chce používat teď.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Žena pět let po odchodu z apokalyptické skupiny vidí v televizi reportáž o jejím vedoucím. Během
+noci ji zaplaví strach, že „konec je blízko“ a že se odchodem odsoudila. Na krizové lince řekne,
+že ví, že je to „hlas skupiny“, ale nemůže ho zastavit. Pracovnice jí vysvětlí floating, provede ji
+ukotvením a domluví kontakt s terapeutkou, se kterou dříve pracovala.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Akutní odchod z kultu](@/kompendium/emergency-protocols/8-emergency-extraction-cult.md) –
+  první dny po odchodu.
+- [Aktivní člen kultu v krizi](@/kompendium/emergency-protocols/27-active-cult-emergency.md) –
+  dosud loajální člen.
+- [Akutní disociativní stav](@/kompendium/emergency-protocols/4-acute-dissociation-EA.md) –
+  příbuzný jev.
+- [Rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md) – varovné
+  signály.
+
+**Dlouhodobá péče**
+
+- [Protokol kultovní extrakce](@/kompendium/recovery-protocols/recovery-cult-extraction-protocol.md) –
+  rámec zotavení.
+- [Středně-dobá rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md) –
+  kdo jsem mimo skupinu.
+
+**Případy a pojmy**
+
+- [Případ: Cult recovery 12 let](@/kompendium/case-studies/06-cult-recovery-12-let.md) – dlouhý
+  průběh zotavení.
+- [Případ: Zotavení ze spirituálního kultu](@/kompendium/case-studies/50-spiritual-cult-recovery.md) –
+  krize po odchodu.
+- [Identity destruction](@/glossary/identity-destruction.md) – co se rekonstruuje.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +155,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #28 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 28 · v18.4.0*

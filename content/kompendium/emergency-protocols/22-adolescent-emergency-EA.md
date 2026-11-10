@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Adolescent v EA-emergency"
-description = "Akutní intervenční protokol — adolescentní EA-emergency."
+title = "Akutní protokol: Dospívající v akutní situaci po epistemické anihilaci"
+description = "Protokol pro akutní krizi dospívajícího po online radikalizaci, náboru do skupiny, kontrolujícím vztahu nebo rodinné manipulaci: vztah, online dimenze, rodina a péče."
 weight = 22
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "trauma"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,143 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Adolescent v EA-emergency
+# Akutní protokol: Dospívající v akutní situaci po epistemické anihilaci
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 22** · skupina Cílové populace · okno: krize a první dva týdny
+>
+> **Sebevražedné jednání, intoxikace, zranění = 155.** Ohrožení třetí osobou nebo vydírání
+> intimními materiály = Policie ČR (158). Dospívajícím je k dispozici Linka bezpečí (116 111).
 
-## 1. Klinická situace
+## Indikace
 
-Adolescent (13–17) v EA-emergency — typicky po online radikalizaci, kult-recruitmentu, abuzivním vztahu, akademickém gaslightingu. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **adolescentní EA-emergency** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije u dospívajících v akutní krizi, kterou spustila nebo udržuje manipulace
+narušující jejich schopnost poznávat: [online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md),
+nábor do skupiny (online komunity, „koučinkové“ či duchovní skupiny), kontrolující partnerský
+vztah, sexuální vydírání, dlouhodobý [gaslighting](@/glossary/gaslighting.md) v rodině nebo škole.
+Dospívání je obdobím, kdy člověk hledá identitu, příslušnost a vlastní pravdu; právě tyto potřeby
+manipulativní prostředí využívá. Akutní krize přichází často po vyloučení ze skupiny, po
+zveřejnění intimních materiálů, po rozpadu vztahu nebo po konfliktu s rodiči, kteří skupinu
+„zakázali“.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Dospívající jsou citliví na to, že dospělí s nimi mají „vlastní agendu“. Pokud intervence začne
+poučováním nebo výslechem, kontakt často skončí dřív, než začne.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Build alliance dříve než assessment** — adolescenti jsou senzitivní na „adult agenda"; první 15 minut budování trustu.
-2. **Adresuj online dimenzi** — sociální média, Discord servery, online cult communities; specifický tech-screen.
-3. **Validate autonomy** — adolescent má právo na vlastní vnímání reality; nediagnostikuj „naivitu" nebo „rebelství".
-4. **Zapoj rodinu opatrně** — pokud rodič je součást EA-systému (parental cult, abuse), separace nutná.
-5. **Multimodální plán** — DBT-A skupina, individuální TF-CBT, family therapy pokud bezpečné, peer support online.
+1. **Vztah před posouzením.** Prvních několik minut věnuj tomu, aby dospívající věděl, kdo jsi,
+   co se bude dít a co zůstane mezi vámi (a kde jsou hranice).
+2. **Přímý dotaz na sebevražedné myšlenky** a sebepoškozování; u dospívajících po online
+   šikaně či vydírání je riziko vysoké ([protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),
+   [č. 10](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md)).
+3. **Online dimenze.** Zjisti, kde kontakt probíhá (sociální sítě, chatovací servery, hry), zda
+   je pod tlakem, vydírán nebo sledován; nemazat důkazy, pokud může jít o trestný čin.
+4. **Bezpečí doma.** Je rodina bezpečná? Pokud je rodič součástí manipulativního systému (rodinná
+   skupina, násilí), postupuje se jako u ohrožení dítěte.
+5. **Nezakazovat hned zařízení** – náhlé odebrání telefonu může přerušit i kontakty s bezpečnými
+   lidmi a zvýšit izolaci; řeš konkrétní rizika.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Psychický stav:** deprese, úzkost, [disociace](@/glossary/disociace.md), porucha příjmu potravy, užívání látek, psychotické
+  příznaky.
+- **Mapa vlivů:** kdo je pro dospívajícího autorita, kde tráví čas online, jaký jazyk skupiny
+  přebírá, co mu skupina dává (příslušnost, smysl, uznání).
+- **Rizika:** vydírání, sexuální vykořisťování, plánované setkání s neznámou osobou, násilné
+  plány (u radikalizace), dluhy.
+- **Rodinný kontext:** vztahy, konflikty, zda rodiče problém zlehčují nebo naopak reagují
+  zákazy a kontrolou.
+- **Škola:** šikana, izolace, akademický tlak, vztah s pedagogy.
+- **Autonomie:** dospívající má právo na vlastní pohled; „naivita“ nebo „vzdor“ nejsou diagnózy.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Sebevražedné jednání, intoxikace | 155 |
+| Vydírání, sexuální vykořisťování, výhrůžky | Policie ČR (158), uchování důkazů; OSPOD |
+| Rodič je zdrojem ohrožení | OSPOD, [protokol č. 21](@/kompendium/emergency-protocols/21-children-emergency-EA.md) a [č. 9](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) |
+| Náznaky přípravy násilí vůči jiným | posouzení rizika, policie podle závažnosti |
+| Akutní krize bez bezpečného zázemí | dětská a dorostová psychiatrie, krizové lůžko |
+| Stabilizace, bezpečná rodina | ambulantní péče, kontakt do 72 hodin |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš slova dospívajícího, jak sám popisuje skupinu nebo vztah, zjištěná online rizika, uchované
+důkazy (kdo je uchovává), posouzení rizika, informování zákonných zástupců a OSPOD. U nezletilých
+pacientů je třeba zaznamenat, které informace byly rodičům sděleny a proč.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Plán bývá vícesložkový: individuální terapie zaměřená na trauma a regulaci (např. adaptace
+dialekticky behaviorální terapie pro dospívající), rodinná terapie, pokud je rodina bezpečná,
+spolupráce se školou a bezpečná komunita vrstevníků. Navazuje
+[rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md),
+[digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) a
+[detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md); později
+[vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Moralizování a zesměšnění** skupiny nebo vztahu – posiluje loajalitu k nim.
+- **Výslech** místo rozhovoru.
+- **Plošný zákaz** internetu bez plánu a bez náhrady.
+- **Informování rodičů o všem** bez rozlišení, co je nutné pro bezpečí.
+- **Podcenění online vydírání** jako „dětské hádky“.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Dospívající se podílí na rozhodování v míře odpovídající jeho zralosti; souhlas zákonných
+zástupců se vyžaduje podle zákona. Důvěrnost je pro vztah zásadní – na začátku řekni, co zůstane
+mezi vámi a co musíš sdělit (ohrožení života, týrání, zneužívání). Respekt k jeho úsudku je
+zároveň obranou: dospívající, který zažije, že jeho názor je slyšet, je méně závislý na skupině,
+která mu uznání slibuje.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „To je přece sekta, nevidíš to?“ | „Co ti ta skupina dávala?“ | zvídavost místo útoku |
+| „Rodiče se to stejně dozvědí.“ | „Tohle zůstane mezi námi, kromě situace, kdy ti hrozí nebezpečí – pak ti to řeknu dřív.“ | jasné hranice důvěrnosti |
+| „Smaž to všechno.“ | „Nech to zatím být, může to být důkaz. Řekneme si, co dál.“ | ochrana důkazů |
+| „Byl jsi naivní.“ | „Tihle lidé vědí, jak získat důvěru. Není to tvoje chyba.“ | stud je překážkou |
 
-**Platformové reference:**
+Dospívajícímu pomáhá, když může sám navrhnout část plánu – kdo bude kontaktní osobou, jak omezí kontakt se skupinou, kterou aplikaci si nechá. Plán, který vymyslí dospělí, často nevydrží.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Patnáctiletá dívka je přivezena na pohotovost po požití léků poté, co ji online „komunita“, ve
+které trávila noci, vyloučila a začala šířit její fotografie. Po ošetření s ní psycholožka
+nejprve jen mluví o tom, co pro ni skupina znamenala. Dívka souhlasí, aby se rodičům řeklo o
+vydírání; policie zajistí důkazy a domluví se denní stacionář pro dospívající.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Dítě v akutní situaci](@/kompendium/emergency-protocols/21-children-emergency-EA.md) – mladší
+  děti.
+- [Akutní sebepoškozování](@/kompendium/emergency-protocols/10-acute-self-harm-EA.md) – časté u
+  dospívajících.
+- [Deeskalace](@/kompendium/emergency-protocols/20-deescalation-EA.md) – úprava stylu pro
+  dospívající.
+
+**Dlouhodobá péče a prevence**
+
+- [Rekonstrukční protokol pro adolescenty](@/kompendium/recovery-protocols/recovery-adolescent-protocol.md) –
+  zotavení.
+- [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) –
+  online bezpečí.
+- [Detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md) – praktický krok.
+
+**Případy a pojmy**
+
+- [Případ: Online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md) –
+  anonymizovaný průběh.
+- [Případ: Discord server cult](@/kompendium/case-studies/79-discord-server-cult.md) – online
+  skupina.
+- [Epistemic bubble](@/glossary/epistemic-bubble.md) – uzavřený informační svět.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +158,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #22 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 22 · v18.4.0*

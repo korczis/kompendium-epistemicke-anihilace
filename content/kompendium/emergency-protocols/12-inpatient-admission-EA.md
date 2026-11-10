@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Hospitalizace v EA-kontextu"
-description = "Akutní intervenční protokol — hospitalizace v psychiatrickém zařízení v kontextu EA."
+title = "Akutní protokol: Hospitalizace v kontextu epistemické anihilace"
+description = "Protokol pro přijetí pacienta po epistemické anihilaci k psychiatrické hospitalizaci: indikace, dobrovolnost, ochrana před pachatelem, léčebný a propouštěcí plán."
 weight = 12
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "interventions"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,140 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Hospitalizace v EA-kontextu
+# Akutní protokol: Hospitalizace v kontextu epistemické anihilace
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 12** · skupina Koordinace péče · okno: rozhodnutí o přijetí, první 72 hodiny
+>
+> **Hospitalizace nesmí čekat na volné „ideální“ lůžko, je-li ohrožen život.** Při bezprostředním
+> ohrožení se postupuje podle akutních protokolů a záchranná služba (155) zajišťuje převoz.
 
-## 1. Klinická situace
+## Indikace
 
-Indikována hospitalizace pacienta s EA-historií — kritické rozhodnutí o setting, dobrovolnost, integrace EA-recovery prvků. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **hospitalizace v psychiatrickém zařízení v kontextu EA** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Hospitalizace je indikována, když akutní stav po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md)
+nelze bezpečně zvládnout ambulantně: vysoké sebevražedné riziko, psychotický stav, těžká
+[disociace](@/glossary/disociace.md) s ohrožením, opakované závažné sebepoškozování, neschopnost postarat se o sebe,
+nebezpečné domácí prostředí bez jiné alternativy. Pro člověka po EA je však oddělení
+specifickým prostředím: uzavřené dveře, pravidla, kterým nerozumí, ztráta telefonu a soukromí,
+hierarchie a nedobrovolnost mohou připomínat skupinu nebo vztah, ze kterého odešel. Dobře
+provedená hospitalizace je bezpečným útočištěm; špatně provedená se stává
+[retraumatizací](@/glossary/retraumatizace.md).
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+## Bezprostřední bezpečnostní kroky
 
-## 2. Bezprostřední intervence (5 kroků)
+1. **Rozhodni o formě.** Dobrovolné přijetí má přednost. Hospitalizace bez souhlasu je možná jen
+   za zákonných podmínek (§ 38 zákona č. 372/2011 Sb., o zdravotních službách); zařízení ji
+   oznamuje soudu a následuje detenční řízení. Pacientovi to vysvětli srozumitelně.
+2. **Předej relevantní anamnézu** přijímajícímu týmu: spouštěče, kdo jsou nebezpečné osoby,
+   historie skupiny či vztahu, zkušenosti s dřívější léčbou (zejména nucenou), plán bezpečí.
+3. **Ochrana před kontaktem.** Na přání pacienta nebo při ohrožení zapiš omezení návštěv a
+   telefonických informací vůči konkrétním osobám; personál nesděluje bez souhlasu, že je pacient
+   hospitalizován.
+4. **Orientace na oddělení.** Při přijetí vysvětli pravidla, proč existují, kdo je kdo a na koho
+   se může obrátit; dej pacientovi písemné informace o jeho právech.
+5. **Minimum omezení.** Omezovací prostředky jen podle [protokolu č. 19](@/kompendium/emergency-protocols/19-restraint-avoidance-EA.md);
+   osobní věci a telefon omezovat jen s konkrétním důvodem.
 
-1. **Vyber zařízení s trauma-informed care kompetencí** — ne každá oddělení rozumí EA dynamice.
-2. **Předej EA-relevantní anamnézu přijímajícímu týmu** — zejména triggery, identifikované manipulátory, kult-historie.
-3. **Specifikuj omezení návštěv** — zejména bývalí kultisté, manipulátoři, abuzéři; písemně do dekursu.
-4. **Naplánuj integrativní léčebný plán** — psychiatr + EA-clinician + sociální pracovník koordinují společně.
-5. **Připravit discharge plán už při přijetí** — kde bude pacient bydlet, kdo poskytne podporu prvních 14 dní.
+## Posouzení
 
-## 3. Stabilizace
+- **Vstupní psychiatrické a somatické vyšetření,** posouzení rizika a kapacity.
+- **Kontext EA:** míra kontroly, kterou pacient zažíval, zda je ohrožen zvenčí, zda skupina
+  nebo partner mají přístup k jeho dokladům, penězům, dětem.
+- **Zkušenosti s péčí:** dřívější hospitalizace, nucená medikace, [iatrogenní poškození](@/glossary/iatrogenic-harm.md),
+  terapeut, který zneužil vztah ([protokol č. 37](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md)).
+- **Diagnostická opatrnost:** pracovní diagnóza s vědomím kontextu; přehodnocení po odeznění
+  akutní fáze.
+- **Sociální situace:** bydlení po propuštění, sociální dávky, práce, péče o děti.
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+## Rozhodovací body a eskalace
 
-## 4. Předání péče + Kontraindikace
+| Situace | Postup |
+|---|---|
+| Pacient souhlasí, indikace trvá | dobrovolné přijetí, informovaný souhlas s hospitalizací |
+| Pacient nesouhlasí, je bezprostředně a závažně ohrožen | hospitalizace bez souhlasu, oznámení soudu, poučení o právech |
+| Na oddělení se dostaví osoba, která pacienta ohrožuje | nepouštět, informovat pacienta, při hrozbě Policie ČR (158) |
+| Pacient se cítí na oddělení ohrožen spolupacientem nebo jako ve skupině | individuální rozhovor, úprava režimu, zvážit přeložení |
+| Nezletilé dítě zůstalo bez péče nebo v ohrožení | OSPOD; [protokol č. 9](@/kompendium/emergency-protocols/9-mandatory-reporting-EA.md) |
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+## Dokumentace
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+Zapiš indikaci k přijetí a důvod formy (dobrovolná, bez souhlasu), poučení o právech, osoby s
+omezeným kontaktem a důvod omezení, každý omezující zásah s časem a odůvodněním, a plán.
+Záznamy o EA formuluj jako výpověď pacienta a pozorování. Dokumentace hospitalizace bývá později
+předmětem soudního zájmu (péče o děti, opatrovnictví) – nálepky bez opory škodí.
 
-## 5. Cross-linky
+## Předání do dlouhodobé péče
 
-**Sesterské emergency protokoly:**
+Plán propuštění začíná v den přijetí: kde bude pacient bydlet, kdo ho podpoří v prvních dvou
+týdnech, kdo bude ambulantní klinik, kdy proběhne první kontakt. Před propuštěním proběhne teplé
+předání a pak [most po propuštění](@/kompendium/emergency-protocols/31-post-discharge-bridge.md);
+u delší hospitalizace [stupňovitý přechod](@/kompendium/emergency-protocols/32-step-down-program.md).
+Dlouhodobá práce navazuje na [akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)
+a [subakutní rekonstrukci důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md).
+Rodina, pokud je bezpečná, se zapojí podle [protokolu č. 14](@/kompendium/emergency-protocols/14-family-emergency-debrief.md).
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+## Kontraindikace a časté chyby
 
-**Návazná dlouhodobá péče:**
+- **Hospitalizace jako trest** nebo jako náhrada za chybějící sociální služby.
+- **Nekritické přijetí informací od „rodiny“,** která je součástí skupiny.
+- **Odebrání telefonu a věcí rutinně** bez individuálního zdůvodnění.
+- **Skupinová terapie s konfrontačním stylem** v akutní fázi – může připomínat skupinové praktiky
+  kontroly.
+- **Propuštění bez plánu** nebo do prostředí pachatele.
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+## Etika a souhlas
 
-**Souvisejícící klinické techniky:**
+[Informovaný souhlas](@/glossary/informed-consent.md) se týká hospitalizace i jednotlivých
+výkonů a léků a obnovuje se. Pacient hospitalizovaný bez souhlasu má právo na informace, na
+právní zastoupení a na soudní přezkum. U člověka, kterému skupina dlouho upírala vlastní hlas,
+je důležité, aby se jeho názor na léčbu zapisoval a bral vážně i tam, kde ho nelze plně
+respektovat. Transparentní pravidla a možnost stížnosti jsou zde léčebným prvkem.
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+## Komunikace v akutní fázi
 
-**Glossary reference:**
+| Místo | Raději | Proč |
+|---|---|---|
+| „Tady platí naše pravidla.“ | „Tady jsou pravidla oddělení a důvody, proč existují.“ | pravidla bez vysvětlení připomínají skupinu |
+| „Telefon odevzdejte.“ | „Telefon můžete mít; omezíme ho jen, když bude důvod, a řekneme vám jaký.“ | individuální důvod |
+| „Rodina už ví, že jste tu.“ | „Komu smíme říct, že jste tady?“ | kontrola nad informacemi |
+| „Až se zlepšíte, uvidíme.“ | „Plán propuštění začneme dělat zítra spolu.“ | předvídatelnost |
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+Pro lidi z uzavřených skupin bývá užitečné předem říct, na koho se mohou obrátit se stížností a že stížnost nebude mít vliv na kvalitu péče. Ta informace sama snižuje napětí.
 
-**Platformové reference:**
+## Modelová situace
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+Žena po odchodu z komunity, kde byla léta „pod dohledem“, je přijata dobrovolně pro
+suicidální krizi. Při přijetí jí sestra vysvětlí pravidla oddělení a proč existují, zapíše, že
+komunita nemá dostávat informace, a nechá jí telefon. Když se na oddělení dostaví „sestra z
+komunity“, personál ji nepustí a informuje pacientku. Propouštěcí plán se tvoří od druhého dne.
 
-## 6. Connect
+## Související
+
+**Sesterské protokoly**
+
+- [Předání z urgentního příjmu](@/kompendium/emergency-protocols/11-er-EA-handoff.md) – cesta
+  na oddělení.
+- [Vyhnutí se omezovacím prostředkům](@/kompendium/emergency-protocols/19-restraint-avoidance-EA.md) –
+  bezpečí bez retraumatizace.
+- [Most po propuštění](@/kompendium/emergency-protocols/31-post-discharge-bridge.md) – rizikové
+  období po odchodu.
+- [Debrief rodiny](@/kompendium/emergency-protocols/14-family-emergency-debrief.md) – zapojení
+  bezpečných blízkých.
+
+**Dlouhodobá péče**
+
+- [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md) –
+  pokračování po propuštění.
+- [Subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) –
+  vztah k pomáhajícím.
+
+**Klinický rámec a pojmy**
+
+- [Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) –
+  zvláštní ohledy.
+- [Informed consent](@/glossary/informed-consent.md) – souhlas s léčbou.
+- [Retraumatizace](@/glossary/retraumatizace.md) – riziko, kterému protokol předchází.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +155,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #12 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 12 · v18.4.0*

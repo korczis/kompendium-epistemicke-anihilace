@@ -1,10 +1,10 @@
 +++
-title = "Emergency: EA s medicínskou komorbiditou"
-description = "Akutní intervenční protokol — EA-emergency u pacienta s vážnou medicínskou komorbiditou."
+title = "Akutní protokol: Akutní situace při závažné somatické komorbiditě"
+description = "Protokol pro akutní krizi po epistemické anihilaci u pacienta s vážným somatickým onemocněním: somatické příčiny, interakce, lékařské trauma a společný plán péče."
 weight = 25
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "diagnostika"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,140 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: EA s medicínskou komorbiditou
+# Akutní protokol: Akutní situace při závažné somatické komorbiditě
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 25** · skupina Cílové populace · okno: akutní ošetření a koordinace v prvních dnech
+>
+> **Somatická nestabilita má vždy přednost.** Dušnost, bolest na hrudi, porucha vědomí,
+> krvácení nebo náhlé neurologické příznaky = 155, bez ohledu na psychiatrický kontext.
 
-## 1. Klinická situace
+## Indikace
 
-EA-pacient s medicínskou komorbiditou (kardiopulmonální, oncologie, autoimunita, chronická bolest) v emergency — interakce mezi somatickou a EA-akutní situací. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **EA-emergency u pacienta s vážnou medicínskou komorbiditou** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se použije u člověka po [epistemické anihilaci](@/glossary/epistemicka-anihilace.md),
+který zároveň trpí závažným somatickým onemocněním – srdečním, plicním, onkologickým,
+neurologickým, autoimunitním, chronickou bolestí, diabetem – a ocitne se v akutní psychické krizi.
+Souběh je nebezpečný oběma směry: somatický stav může vyvolat psychické příznaky (zmatenost,
+úzkost, depresi), a psychická krize může vést k zanedbání léčby nemoci.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+U EA jsou dvě zvláštní rizika. Za prvé **diagnostické zastínění**: tělesné potíže se připisují
+„psychice“ a nevyšetří se. Lidé po [gaslightingu](@/glossary/gaslighting.md) to zažívají
+opakovaně – nejdřív od pachatele („nic ti není, vymýšlíš si“), pak někdy i od zdravotníků. Za
+druhé **zdravotní kontrola jako nástroj manipulace**: partner nebo skupina mohli kontrolovat
+přístup k lékům a k lékaři, odmítat léčbu („nemoc je trest“, „léčba je slabost“) nebo nemoc
+využívat k udržení závislosti.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Vylučuj somatické příčiny pseudo-psychiatrických symptomů** — encefalopatie, electrolyte imbalance, hypoxie.
-2. **Koordinuj s primárním lékařem do 4 hodin** — psychiatrické intervence mohou interagovat s onkologickou nebo kardiologickou medikací.
-3. **Adresuj medical PTSD overlay** — mnoho EA-survivors má traumatické medical experiences (forced hospitalizace, gaslightingoví lékaři).
-4. **Pharmacotherapy s ohledem na comorbidity** — QTc prodloužení (kardio), hepatic metabolism (onko), interakce s autoimmune medikací.
-5. **Multidisciplinární care plán** — medical team, psychiatrist, EA-recovery clinician koordinují weekly.
+1. **Somatické zhodnocení napřed:** vitální funkce, saturace, glykemie, bolest, známky
+   infekce, laboratoř podle stavu. Encefalopatie, elektrolytové poruchy, hypoxie, sepse,
+   hypoglykemie a léky mohou napodobit psychiatrickou poruchu.
+2. **Ověř, zda pacient užívá své léky** – a zda mu k nim někdo nebrání nebo je nepodává jinak.
+3. **Kontakt s ošetřujícím lékařem** (praktik, kardiolog, onkolog) v řádu hodin u nestabilního
+   onemocnění.
+4. **Bezpečí:** suicidalita (somatická nemoc a chronická bolest jsou rizikovými faktory),
+   přístup k lékům s vysokou toxicitou.
+5. **Lékařské trauma bere vážně:** zeptej se, co pacient od zdravotníků zažil a co potřebuje,
+   aby vyšetření zvládl (vysvětlení předem, přítomnost blízké osoby, přestávky).
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Časová souvislost** psychických příznaků s průběhem nemoci, změnou léčby, novou medikací.
+- **Interakce a kontraindikace** psychofarmak s léčbou nemoci (srdeční rytmus, jaterní a
+  ledvinné funkce, imunosuprese, opioidy) – rozhoduje lékař s farmakologickou konzultací
+  ([protokol č. 18](@/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md)).
+- **Zdravotní kontrola v anamnéze:** kdo spravoval léky, kdo chodil s pacientem k lékaři, zda
+  byly pacientovy potíže zlehčovány.
+- **Funkční stav a soběstačnost**, potřeba péče.
+- **Psychický stav:** deprese, úzkost, posttraumatické příznaky spojené s léčbou, demoralizace.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Somatická nestabilita | 155 / urgentní příjem, psychiatrie konziliárně |
+| Delirium | léčba příčiny, bezpečné prostředí, konziliární psychiatr |
+| Suicidalita u chronické nemoci | [protokol č. 2](@/kompendium/emergency-protocols/2-suicide-risk-EA.md), omezení přístupu k lékům |
+| Někdo pacientovi brání v léčbě nebo léky zneužívá | posouzení trestného činu, policie, sociální služba |
+| Stabilní somatický stav, psychická krize | psychiatrická péče s koordinací se somatickými obory |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš somatické nálezy a jak byly vyloučeny somatické příčiny, všechny léky (včetně
+volnoprodejných a „přírodních“), konzultace s ošetřujícími lékaři, pacientovy výpovědi o
+kontrole léčby. Záznam má ukázat, že tělesné potíže byly vyšetřeny – i jako korektivní zkušenost
+pro pacienta, jehož potíže byly dříve odbývány.
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Plán je multidisciplinární: somatický specialista, praktický lékař, psychiatr nebo psycholog a
+sociální pracovník, s jedním koordinátorem a pravidelnou komunikací. U pacienta s nedůvěrou ke
+zdravotnictví pomáhá stálý kontakt a předvídatelnost. Navazuje
+[akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md),
+[subakutní rekonstrukce důvěry](@/kompendium/recovery-protocols/subacute-trust-rebuilding.md) a
+nácvik [somatické pozornosti](@/kompendium/self-defense-guides/13-somatic-awareness.md), který
+pomáhá znovu věřit tělesným signálům.
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **„Je to psychické“** bez somatického vyšetření.
+- **Opačně:** nekonečné vyšetřování bez vysvětlení a bez psychické péče.
+- **Psychofarmaka bez kontroly interakcí.**
+- **Přehlédnutí, že někdo kontroluje pacientovu léčbu.**
+- **Roztříštěná péče,** kde každý obor řeší jen „svůj“ orgán.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+Pacient má právo na úplné informace o své nemoci i o psychické péči a na rozhodování o léčbě.
+U člověka, kterému byla léta upírána důvěra ve vlastní tělo, je obzvlášť důležité jeho potíže
+nebagatelizovat a vysvětlovat, co se zjistilo. Mlčenlivost platí i vůči blízkým, kteří se
+dosud „starali“ o jeho zdraví, pokud s jejich informováním nesouhlasí.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| „To bude psychické.“ | „Nejdřív vyloučíme tělesné příčiny, pak se podíváme na zbytek.“ | bez zastínění |
+| „Výsledky jsou v pořádku, nic vám není.“ | „Tyto výsledky vylučují…; potíže jsou skutečné a budeme hledat dál.“ | potíže nejsou vymyšlené |
+| „Kdo vám dává léky?“ (před doprovodem) | „Rád bych prošel léky jen s vámi.“ | bezpečí při kontrole léčby |
+| „Tohle je kardiologie, ne my.“ | „S kardiologem se domluvíme a řekneme vám, co navrhujeme společně.“ | koordinace |
 
-**Platformové reference:**
+Pacient, kterému pachatel tvrdil, že si nemoc vymýšlí, potřebuje slyšet výsledek i jeho význam. Ověřené tělesné nálezy pro něj bývají nečekaně důležitou opěrou reality.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Muž s cukrovkou je přivezen pro zmatenost a agresivitu, s poznámkou „psychiatrický pacient“.
+Glykemie je výrazně nízká; po úpravě je klidný a orientovaný. Popíše, že mu družka v posledních
+měsících „spravovala“ inzulin a tvrdila, že si potíže vymýšlí. Lékař zapíše nález, domluví
+edukaci, sociální pracovnici a psychologa a s mužovým souhlasem informuje praktického lékaře.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Senior v akutní situaci](@/kompendium/emergency-protocols/23-elder-emergency-EA.md) – delirium
+  a kognice.
+- [Lékové pohotovostní stavy](@/kompendium/emergency-protocols/36-medication-emergency.md) –
+  nežádoucí účinky a interakce.
+- [Panická ataka](@/kompendium/emergency-protocols/6-panic-attack-EA.md) – odlišení od
+  somatického stavu.
+- [Iatrogenní poškození](@/kompendium/emergency-protocols/37-iatrogenic-emergency.md) – když
+  škodila péče.
+
+**Dlouhodobá péče a sebeobrana**
+
+- [Akutní somatická regulace](@/kompendium/recovery-protocols/acute-somatic-regulation.md) –
+  práce s tělem.
+- [Somatická pozornost](@/kompendium/self-defense-guides/13-somatic-awareness.md) – důvěra v
+  tělesné signály.
+
+**Pojmy a případy**
+
+- [Případ: Zdravotnický iatrogen](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md) –
+  zpochybnění pacienta péčí.
+- [Interocepce](@/glossary/interocepce.md) – vnímání vlastního těla.
+- [Iatrogenic harm](@/glossary/iatrogenic-harm.md) – škoda způsobená péčí.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +155,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #25 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 25 · v18.4.0*

@@ -1,10 +1,10 @@
 +++
-title = "Emergency: Uprchlík v EA-emergency"
-description = "Akutní intervenční protokol — emergency u uprchlíka s historií trafficking nebo EA."
+title = "Akutní protokol: Uprchlík v akutní situaci po epistemické anihilaci"
+description = "Protokol pro akutní krizi uprchlíka či žadatele o azyl s vrstveným traumatem: tlumočení, pobytový status, screening obchodování s lidmi, somatika a návazné služby."
 weight = 30
 
 [taxonomies]
-tags = ["kompendium", "emergency-protocol", "klinicke", "akutni"]
+tags = ["kompendium", "emergency-protocol", "klinicke", "akutni", "trauma"]
 categories = ["academic", "clinical", "emergency"]
 
 [extra]
@@ -14,65 +14,138 @@ section_icon = "🚨"
 toc = true
 +++
 
-# Emergency: Uprchlík v EA-emergency
+# Akutní protokol: Uprchlík v akutní situaci po epistemické anihilaci
 
-> **Akutní intervenční protokol** | Klinický rámec | Pre-stabilizační okno
+> **Akutní intervenční protokol č. 30** · skupina Cílové populace · okno: akutní kontakt a první týdny
+>
+> **Neodkladná péče se poskytuje bez ohledu na pobytový status.** Ohrožení života = 155;
+> podezření na obchodování s lidmi, vykořisťování nebo výhrůžky = Policie ČR (158).
 
-## 1. Klinická situace
+## Indikace
 
-Uprchlík/azylant v EA-emergency — [komplexní trauma](@/glossary/complex-trauma.md) stack (war trauma, displacement, trafficking, asylum stress, post-arrival EA), legal vulnerability, jazyková bariéra. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **emergency u uprchlíka s historií trafficking nebo EA** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+Protokol se týká uprchlíků, žadatelů o mezinárodní ochranu a dalších migrantů v nouzi, u nichž
+se vrství více traumat: válka nebo pronásledování, útěk, převaděči, ztráta blízkých, nejistota
+azylového řízení, život v zařízení, jazyková a kulturní izolace. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+se zde může projevit několikrát: v propagandě a represích doma, v manipulaci převaděčů a
+vykořisťovatelů („policie vás deportuje, věřte jen nám“), i v nedůvěře úřadů, které výpověď
+člověka zpochybňují. Výsledkem je [komplexní trauma](@/glossary/complex-trauma.md) a hluboká
+nejistota, komu a čemu věřit.
 
-> **Epistemický status**: Protokol integruje [evidence-based](@/glossary/evidence-based.md) postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
+Akutní krize: sebevražedné myšlenky, panika, [disociace](@/glossary/disociace.md), psychotické příznaky, somatické potíže
+po mučení či dlouhé cestě, krize po zamítnutí žádosti, po zprávě o smrti blízkých, po
+konfrontaci s osobou z cesty.
 
-## 2. Bezprostřední intervence (5 kroků)
+## Bezprostřední bezpečnostní kroky
 
-1. **Verifikuj legal status** — undocumented status komplikuje access ke care; coordinate s migration lawyer.
-2. **Use cultural broker** — ne jen interpreter, ale culturally aware mediator pro psychiatrické intervence.
-3. **Screen for trafficking** — IOM screening tool, oddělit od smuggling; trafficking = obět, automatic protection.
-4. **Adresuj acute somatic concerns** — torture survivors, female genital mutilation, untreated chronic conditions.
-5. **Connect with refugee mental health services** — InTrust v ČR, IRC, UNHCR partneři; ne generická mental health.
+1. **Somatika:** zranění, infekce, podvýživa, neléčená chronická onemocnění, těhotenství,
+   následky mučení či sexuálního násilí; ošetření má přednost.
+2. **Profesionální tlumočník,** ne rodinný příslušník, dítě ani člen komunity; u citlivých témat
+   zvaž pohlaví tlumočníka. Kde je to možné, kulturní mediátor pomůže porozumět významu příznaků.
+3. **Posouzení rizika:** suicidalita, sebepoškození, psychotické příznaky; respektuj, že
+   vyjadřování tísně se mezi kulturami liší.
+4. **Screening obchodování s lidmi:** dluh vůči „zprostředkovateli“, zadržené doklady, nucená
+   práce či sexuální vykořisťování, kontrola pohybu. Oběť obchodování je obětí, ne pachatelem
+   nelegálního pobytu.
+5. **Vysvětli roli.** Zdravotník není úředník azylového řízení; řekni, co se s informacemi stane.
 
-## 3. Stabilizace
+## Posouzení
 
-Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–120 minut**, ve kterém klinický pracovník monitoruje somatické vitální funkce, afektivní stav (SUDS 0–10), kognitivní orientaci (čas, místo, osoba) a kapacitu pro engagement. Cílem stabilizační fáze je dosažení **„pre-acute baseline"** — pacient je schopen základní rozhodovací autonomie, somaticky stabilní, ne v aktivním nebezpečí pro sebe nebo okolí. Stabilizační rozhodnutí (kontinuita ambulantní péče vs. hospitalizace vs. mobilní krizová péče) musí být dokumentováno s **explicitní rozhodovací maticí**.
+- **Pobytový status** a probíhající řízení (zákon č. 325/1999 Sb., o azylu) – ovlivňuje přístup k
+  péči, stres a možnosti dalšího postupu; koordinuj s právní pomocí pro cizince.
+- **Trauma:** co člověk zažil, v rozsahu, který chce sdílet; podrobné výpovědi nepatří do
+  akutního kontaktu.
+- **Rodina:** kde jsou blízcí, zda jsou v ohrožení, zda jsou s ním nezletilé děti, zda jde o
+  nezletilého bez doprovodu.
+- **Bydlení a obživa:** pobytové zařízení, ubytování, práce, závislost na osobě, která pomoc
+  podmiňuje.
+- **Kulturní a náboženský kontext:** význam duševní nemoci, stigma, role rodiny při rozhodování.
 
-## 4. Předání péče + Kontraindikace
+## Rozhodovací body a eskalace
 
-**Předání péče (handoff)**: Vždy proveď **warm handoff** — přímý telefonický nebo osobní kontakt s přijímajícím klinikem, ne jen předání papírů. Předej anamnézu EA-historie, aktuální medikaci, identifikované triggery, klíčové osoby v podpůrné síti a explicitní follow-up plán do 24–72 hodin.
+| Situace | Postup |
+|---|---|
+| Somatická urgence, ohrožení života | 155 |
+| Podezření na obchodování s lidmi či vykořisťování | Policie ČR (158); specializované programy pro oběti obchodování |
+| Nezletilý bez doprovodu nebo dítě v ohrožení | OSPOD |
+| Akutní psychiatrický stav | psychiatrie s tlumočníkem; hospitalizace podle stavu, ne podle statusu |
+| Potřeba doložit mučení či pronásledování | odborníci se zkušeností s Istanbulským protokolem, koordinace s právníkem |
+| Stabilizace | služby duševního zdraví pro uprchlíky, neziskové organizace pro pomoc cizincům |
 
-**Kontraindikace tohoto protokolu**: (a) primární medicínská emergency (kardiopulmonální nestabilita, akutní intoxikace) — nejprve somatická stabilizace; (b) aktivní psychotická epizoda s nemožností engagement — modifikovaný protokol s nižší kognitivní zátěží; (c) absence kvalifikovaného klinického personálu — eskalace na vyšší level péče; (d) refusal of care s preserved capacity — respekt autonomie + safety net.
+## Dokumentace
 
-## 5. Cross-linky
+Zapiš, v jakém jazyce a s jakým tlumočníkem rozhovor proběhl, somatické nálezy (u možných
+následků mučení podrobně a popisně), posouzení rizika, údaje o vykořisťování. Nesrovnalosti ve
+výpovědi zapisuj bez hodnocení – trauma, disociace, únava a tlumočení je běžně vytvářejí a v
+azylovém řízení mohou být mylně vykládány jako nevěrohodnost ([azyl a EA](@/kompendium/forensic-legal/43-asylum-EA.md)).
 
-**Sesterské emergency protokoly:**
+## Předání do dlouhodobé péče
 
-- [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
-- [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
-- [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
+Předání musí pokrýt jazyk (tlumočení i v navazující péči), kulturní kontext, právní situaci a
+praktické potřeby. Navazuje [protokol pro survivors obchodování s lidmi](@/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md)
+tam, kde je relevantní, [akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md),
+[kulturní obnova](@/kompendium/prevention-resilience/29-cultural-restoration-prevention.md) a
+[komunitní reintegrace](@/kompendium/prevention-resilience/27-community-reintegration-prevention.md).
 
-**Návazná dlouhodobá péče:**
+## Kontraindikace a časté chyby
 
-- [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
+- **Dítě jako tlumočník.**
+- **Podmiňování péče** doklady nebo pobytovým statusem v neodkladné situaci.
+- **Výklad kulturně podmíněného vyjádření tísně** jako psychózy, nebo naopak přehlédnutí psychózy.
+- **Opakované vyptávání** na traumatické zážitky různými službami.
+- **Přehlédnutí obchodování s lidmi,** protože člověk „přišel dobrovolně“.
 
-**Souvisejícící klinické techniky:**
+## Etika a souhlas
 
-- [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
+[Informovaný souhlas](@/glossary/informed-consent.md) vyžaduje porozumění – bez tlumočení není platný. Klient má právo vědět, co
+se s jeho údaji stane, a zejména že zdravotní péče není součástí azylového řízení, pokud sám
+nechce zprávu použít. Respekt k jeho kultuře a víře neznamená přijímat praktiky, které ho
+ohrožují; znamená to ptát se, co pro něj věci znamenají.
 
-**Glossary reference:**
+## Komunikace v akutní fázi
 
-- [c-PTSD](@/glossary/c-ptsd.md)
-- [Betrayal trauma](@/glossary/betrayal-trauma.md)
-- [Gaslighting](@/glossary/gaslighting.md)
-- [Disociace](@/glossary/disociace.md)
-- [Iatrogenic harm](@/glossary/iatrogenic-harm.md)
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
+| Místo | Raději | Proč |
+|---|---|---|
+| (dítě jako tlumočník) | „Zavoláme profesionálního tlumočníka.“ | ochrana dítěte i pacienta |
+| „Nejdřív doklady.“ | „Nejdřív vás ošetříme.“ | neodkladná péče |
+| „Vaše výpověď si odporuje.“ | „Řekněte mi to znovu, jak to pamatujete. Je v pořádku, že si všechno nepamatujete.“ | trauma mění paměť |
+| „Jsme tu kvůli úřadům.“ | „Jsem zdravotník; to, co mi řeknete, nejde automaticky do azylového řízení.“ | vymezení role |
 
-**Platformové reference:**
+Pomáhá ptát se, jak by takovou tíseň popsali lidé v pacientově zemi a co by tam pomáhalo. Odpověď často ukáže zdroje, se kterými lze pracovat.
 
-- {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
-- [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
+## Modelová situace
 
-## 6. Connect
+Mladý muž v pobytovém zařízení přestane jíst a spát a mluví o tom, že „jsou za ním“. S
+profesionálním tlumočníkem se ukáže, že dluží převaděči a jeho lidé mu volají a vyhrožují
+rodině. Lékař vyloučí somatickou příčinu, psychiatr popíše akutní stresovou reakci bez psychózy a
+sociální pracovnice kontaktuje policii a program pro oběti obchodování s lidmi.
+
+## Související
+
+**Sesterské protokoly**
+
+- [Bývalý politický vězeň](@/kompendium/emergency-protocols/29-political-prisoner-EA.md) –
+  pronásledování a mučení.
+- [Ochrana svědka](@/kompendium/emergency-protocols/40-witness-protection.md) – když člověk
+  svědčí proti vykořisťovatelům.
+- [Psychotický zlom](@/kompendium/emergency-protocols/3-psychotic-break-EA.md) – kulturně citlivé
+  odlišení.
+
+**Dlouhodobá péče**
+
+- [Protokol pro survivors obchodování s lidmi](@/kompendium/recovery-protocols/recovery-trafficking-survivor-protocol.md) –
+  zotavení po vykořisťování.
+- [Kulturní obnova](@/kompendium/prevention-resilience/29-cultural-restoration-prevention.md) –
+  identita v novém prostředí.
+
+**Právo a pojmy**
+
+- [Azyl a EA](@/kompendium/forensic-legal/43-asylum-EA.md) – trauma a azylové řízení.
+- [Právo o obchodování s lidmi](@/kompendium/forensic-legal/49-trafficking-law-EA.md) – ochrana
+  obětí.
+- [Právo cizinců](@/kompendium/forensic-legal/42-immigration-EA.md) – pobytový rámec.
+- [Complex trauma](@/glossary/complex-trauma.md) – vrstvené trauma.
+
+## Connect
 
 **Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
@@ -80,4 +153,4 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 
 ---
 
-*Kompendium epistemické anihilace · Emergency Protocol #30 · v18.4.0*
+*Kompendium epistemické anihilace · Akutní protokol č. 30 · v18.4.0*

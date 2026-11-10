@@ -191,6 +191,9 @@ CODED_HEADING = re.compile(r"^#{2,6}\s+`?EA-(\d+\.\d+\.\d+)`?\s*[—–:.-]?\s*(
 # steps; this names the whole class so none is written, old or reframed.
 HOWTO_HEADING = re.compile(r"^#{2,6}\s+Operační\s+(?:modus|postup|sekvence)\b", re.M | re.I)
 HOWTO_APPLIER = re.compile(r"před\s+aplikac[ií]\s+\S+\s+techniky", re.I)
+# A numbered step subheading ("### Krok 1 — …", "### Krok:") is the playbook shape ADR 0006
+# removes; the reframe renames it to a sign ("### Znak: X" or "### X").
+HOWTO_STEP = re.compile(r"^#{2,6}\s+Krok[\s:0-9]", re.M | re.I)
 # A drug dose or dose range: a number and a dose unit. A bibliography (a work's title, e.g.
 # "Mediator 150 mg") is skipped by section, so only a dosing claim in prose is caught.
 DRUG_DOSE = re.compile(r"\d[\d.,]*\s*(?:[–-]|až)?\s*\d*\s*(?:mg|µg|μg|mcg|IU)\b", re.I)
@@ -263,7 +266,9 @@ def analyse(pages: list) -> dict:
         page["misnamed_techniques"] = [] if page["path"].startswith("kompendium/techniques/") \
             else misnamed_headings(body, catalogue)
         prose = FENCE.sub("", body)
-        page["howto"] = bool(HOWTO_HEADING.search(prose) or HOWTO_APPLIER.search(prose))
+        technique = page["path"].startswith("kompendium/techniques/")
+        page["howto"] = bool(HOWTO_HEADING.search(prose) or HOWTO_APPLIER.search(prose)
+                             or (technique and HOWTO_STEP.search(prose)))
         page["drug_dose"] = has_drug_dose(prose)
         page["bold_unlinked"] = []
         for _, _, text, linked in bold_spans(body, lines):

@@ -37,6 +37,8 @@ odchozí a příchozí odkazy):
 | `broken-link` | žádný odkaz `@/` na neexistující stránku |
 | `detail` | stránka má skutečný obsah: aspoň 600 slov (karta `quick-reference` 250, rozcestník sekce `_index.md` 300); žádná stránka „na oko“ |
 | `generated` | žádný strojově přidaný text platformy: blok NLLB, „structural stub“, poznámka o zástupné stránce, šablona „pojem v sekci … znalostní báze Prismatic Platform“ (viz `knowledge/curated/platform-artifacts-in-content.md`) |
+| `weak-link` | každý vnitřní odkaz vede na detailní stránku, která splňuje `detail` i `generated`; porušení nese odkazující stránka a zmizí samo, jakmile se cíl rozvine |
+| `summary` | heslo glosáře má krátké shrnutí (`description`) a začíná oddílem `## Definice`, za nímž následuje podrobný výklad |
 | `term-page` | každý pojem z rejstříku `08-prilohy/index-pojmu.md` má vlastní stránku: heslo glosáře (podle názvu nebo anglického ekvivalentu), esej ve `philosophy/` nebo stránku techniky (podle kódu EA) |
 
 Strukturní vazby, které plynou z cest (karta `qr-ea-X-Y-Z` ↔ technika `ea-X-Y-Z`, most

@@ -50,6 +50,13 @@ python3 scripts/check-ia.py --list detail | grep -x 'content/kompendium/case-01-
 printf '\n<!-- ENHANCED:NLLB-AUTO-BLOCK BEGIN -->\nx\n<!-- ENHANCED:NLLB-AUTO-BLOCK END -->\n' \
   >> content/kompendium/case-01-fixture/seeded.md
 python3 scripts/check-ia.py --list generated | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
+# A page that links the thin seeded page carries weak-link; a glossary entry without Definice, summary.
+printf '+++\ntitle = "Odkazující"\n+++\n\nViz [seeded](@/kompendium/case-01-fixture/seeded.md).\n' \
+  > content/kompendium/case-01-fixture/linking.md
+python3 scripts/check-ia.py --list weak-link | grep -x 'content/kompendium/case-01-fixture/linking.md' >/dev/null
+printf '+++\ntitle = "Fixturové heslo"\n+++\n\nBez oddílu definice.\n' > content/glossary/case-01-fixture.md
+python3 scripts/check-ia.py --list summary | grep -x 'content/glossary/case-01-fixture.md' >/dev/null
+rm content/glossary/case-01-fixture.md
 # The normalizer infers the missing tags from where the page is, and a second run is a no-op.
 python3 scripts/normalize-front-matter.py content/kompendium/case-01-fixture >/dev/null
 grep -x 'tags = \["kompendium", "case-01-fixture"\]' content/kompendium/case-01-fixture/seeded.md >/dev/null

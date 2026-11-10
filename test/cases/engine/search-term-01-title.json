@@ -1,0 +1,139 @@
+{
+  "category": "term",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 563,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-anihilace.md",
+        "tier": 2,
+        "title": "Epistemická anihilace",
+        "url": "/glossary/epistemicka-anihilace/",
+        "why": "exact_title"
+      },
+      {
+        "code": null,
+        "in": 1,
+        "kind": "Kapitola",
+        "path": "kompendium/02-uvod/v-kostce.md",
+        "tier": 4,
+        "title": "Epistemická anihilace v kostce",
+        "url": "/kompendium/02-uvod/v-kostce/",
+        "why": "title_prefix"
+      },
+      {
+        "code": null,
+        "in": 15,
+        "kind": "Krizový protokol",
+        "path": "kompendium/emergency-protocols/17-crisis-hotline-EA.md",
+        "tier": 5,
+        "title": "Akutní protokol: Krizová linka a epistemická anihilace",
+        "url": "/kompendium/emergency-protocols/17-crisis-hotline-ea/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 8,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-epistemicka-anihilace.md",
+        "tier": 5,
+        "title": "Bridge: Epistemická anihilace",
+        "url": "/kompendium/glossary-bridges/bridge-epistemicka-anihilace/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 4,
+        "kind": "Kapitola",
+        "path": "kompendium/07-populacni/propaganda.md",
+        "tier": 5,
+        "title": "Propaganda – epistemická anihilace v populačním měřítku",
+        "url": "/kompendium/07-populacni/propaganda/",
+        "why": "title_word"
+      },
+      {
+        "code": null,
+        "in": 223,
+        "kind": "Kapitola",
+        "path": "kompendium/05-ultramari-techniky/_index.md",
+        "tier": 6,
+        "title": "05. Ultramární techniky fundamentální dekonstrukce",
+        "url": "/kompendium/05-ultramari-techniky/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 31,
+        "kind": "Kapitola",
+        "path": "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
+        "tier": 6,
+        "title": "7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes",
+        "url": "/kompendium/07-teoreticke-reflexe/digitalni-vek/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 29,
+        "kind": "Pojem",
+        "path": "glossary/epistemicka-agentnost.md",
+        "tier": 6,
+        "title": "Epistemická agentnost",
+        "url": "/glossary/epistemicka-agentnost/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 11,
+        "kind": "Kapitola",
+        "path": "kompendium/06-epistemicka-singularita/_index.md",
+        "tier": 6,
+        "title": "Epistemická singularita",
+        "url": "/kompendium/06-epistemicka-singularita/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 8,
+        "kind": "Kapitola",
+        "path": "kompendium/04-klinika/_index.md",
+        "tier": 6,
+        "title": "Klinika",
+        "url": "/kompendium/04-klinika/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 8,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-c-ptsd.md",
+        "tier": 6,
+        "title": "Bridge: C-PTSD (komplexní posttraumatická stresová porucha)",
+        "url": "/kompendium/glossary-bridges/bridge-c-ptsd/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Kapitola",
+        "path": "kompendium/05-diagnostika/_index.md",
+        "tier": 6,
+        "title": "Diagnostika",
+        "url": "/kompendium/05-diagnostika/",
+        "why": "description"
+      }
+    ],
+    "limit": 12,
+    "normalised": "epistemicka anihilace",
+    "ok": true,
+    "op": "search",
+    "query": "Epistemická anihilace",
+    "schema": "kompendium-engine/v1",
+    "total": 13
+  },
+  "input": {
+    "op": "search",
+    "query": "Epistemická anihilace"
+  }
+}

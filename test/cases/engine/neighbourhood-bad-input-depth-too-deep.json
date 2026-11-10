@@ -1,0 +1,18 @@
+{
+  "category": "bad_input",
+  "expected": {
+    "error": {
+      "code": "bad_input",
+      "field": "depth",
+      "message": "depth must be 1 or 2"
+    },
+    "ok": false,
+    "op": "neighbourhood",
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "depth": 3,
+    "op": "neighbourhood",
+    "path": "glossary/epistemicka-anihilace.md"
+  }
+}

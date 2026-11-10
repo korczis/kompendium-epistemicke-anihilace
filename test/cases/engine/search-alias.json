@@ -1,0 +1,49 @@
+{
+  "category": "alias",
+  "expected": {
+    "code": null,
+    "hits": [
+      {
+        "code": null,
+        "in": 325,
+        "kind": "Pojem",
+        "path": "glossary/color-teams.md",
+        "tier": 3,
+        "title": "Color Teams (barevné týmy)",
+        "url": "/glossary/color-teams/",
+        "why": "exact_alias"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Most",
+        "path": "kompendium/glossary-bridges/bridge-color-teams.md",
+        "tier": 3,
+        "title": "Bridge: Color Teams (barevné týmy)",
+        "url": "/kompendium/glossary-bridges/bridge-color-teams/",
+        "why": "exact_alias"
+      },
+      {
+        "code": null,
+        "in": 17,
+        "kind": "Kapitola",
+        "path": "kompendium/aiad-integration/_index.md",
+        "tier": 6,
+        "title": "AIAD integrace a detekce technik EA",
+        "url": "/kompendium/aiad-integration/",
+        "why": "description"
+      }
+    ],
+    "limit": 12,
+    "normalised": "barevne tymy",
+    "ok": true,
+    "op": "search",
+    "query": "barevné týmy",
+    "schema": "kompendium-engine/v1",
+    "total": 3
+  },
+  "input": {
+    "op": "search",
+    "query": "barevné týmy"
+  }
+}

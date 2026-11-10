@@ -1,0 +1,18 @@
+{
+  "category": "bad_input",
+  "expected": {
+    "error": {
+      "code": "bad_input",
+      "field": "limit",
+      "message": "limit must be an integer from 1 to 50"
+    },
+    "ok": false,
+    "op": "search",
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "limit": 51,
+    "op": "search",
+    "query": "Epistemická anihilace"
+  }
+}

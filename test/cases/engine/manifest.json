@@ -1,0 +1,294 @@
+{
+  "counts": {
+    "alias": 1,
+    "bad_input": 16,
+    "code": 27,
+    "description": 1,
+    "neighbourhood": 4,
+    "none": 1,
+    "schema_mismatch": 2,
+    "term": 15,
+    "unknown_path": 1
+  },
+  "data": {
+    "graph": "kompendium-graph/v2",
+    "search": "kompendium-search/v1"
+  },
+  "engine": "kompendium-engine/v1",
+  "fixtures": [
+    {
+      "category": "bad_input",
+      "file": "neighbourhood-bad-input-depth-string.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "neighbourhood-bad-input-depth-too-deep.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "neighbourhood-bad-input-limit-too-big.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "neighbourhood-bad-input-missing-path.json"
+    },
+    {
+      "category": "neighbourhood",
+      "file": "neighbourhood-hub-depth-1.json"
+    },
+    {
+      "category": "neighbourhood",
+      "file": "neighbourhood-hub-depth-2.json"
+    },
+    {
+      "category": "neighbourhood",
+      "file": "neighbourhood-leaf-depth-1.json"
+    },
+    {
+      "category": "neighbourhood",
+      "file": "neighbourhood-leaf-depth-2.json"
+    },
+    {
+      "category": "unknown_path",
+      "file": "neighbourhood-unknown-path.json"
+    },
+    {
+      "category": "schema_mismatch",
+      "file": "schema-mismatch-graph.json"
+    },
+    {
+      "category": "schema_mismatch",
+      "file": "schema-mismatch-search.json"
+    },
+    {
+      "category": "alias",
+      "file": "search-alias.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-limit-string.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-limit-too-big.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-limit-zero.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-missing-op.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-missing-query.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-not-object.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-query-blank.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-query-number.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-query-only-marks.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-query-too-long.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-unknown-field.json"
+    },
+    {
+      "category": "bad_input",
+      "file": "search-bad-input-unknown-op.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-1-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-1-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-1-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-2-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-2-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-2-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-3-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-3-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-3-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-4-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-4-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-4-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-5-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-5-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-5-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-6-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-6-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-6-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-7-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-7-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-7-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-8-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-8-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-8-lower-space.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-9-canonical.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-9-joined.json"
+    },
+    {
+      "category": "code",
+      "file": "search-code-ea-9-lower-space.json"
+    },
+    {
+      "category": "description",
+      "file": "search-description.json"
+    },
+    {
+      "category": "none",
+      "file": "search-none.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-01-folded.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-01-prefix.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-01-title.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-02-folded.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-02-prefix.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-02-title.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-03-folded.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-03-prefix.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-03-title.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-04-folded.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-04-prefix.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-04-title.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-05-folded.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-05-prefix.json"
+    },
+    {
+      "category": "term",
+      "file": "search-term-05-title.json"
+    }
+  ],
+  "note": "fixtures are derived by scripts/build-engine-fixtures.py; never edit by hand",
+  "schema": "kompendium-engine-fixtures/v1"
+}

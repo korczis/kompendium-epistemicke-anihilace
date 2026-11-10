@@ -1,0 +1,17 @@
+{
+  "category": "bad_input",
+  "expected": {
+    "error": {
+      "code": "bad_input",
+      "field": "query",
+      "message": "query is empty after normalisation"
+    },
+    "ok": false,
+    "op": "search",
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "op": "search",
+    "query": " \t "
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "category": "bad_input",
+  "expected": {
+    "error": {
+      "code": "bad_input",
+      "field": "limit",
+      "message": "limit must be an integer from 1 to 200"
+    },
+    "ok": false,
+    "op": "neighbourhood",
+    "schema": "kompendium-engine/v1"
+  },
+  "input": {
+    "limit": 201,
+    "op": "neighbourhood",
+    "path": "glossary/epistemicka-anihilace.md"
+  }
+}

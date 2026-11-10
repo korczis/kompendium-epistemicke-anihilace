@@ -49,6 +49,8 @@
     {%- endfor -%}
   {%- endif -%}
 {%- endif -%}
+{#- Stránku, kterou už nabízí stránkování (page.higher = další v pořadí oddílu), neopakovat. -#}
+{%- if pk_next and page.higher and page.higher.relative_path == pk_next %}{% set_global pk_next = "" %}{% endif -%}
 
 {#- Sousedé v grafu: odkazy z této stránky z graph.json (hrany jsou seřazené podle zdroje, takže
     odkazy uzlu jsou souvislý úsek dlouhý jeho „out“, od součtu „out“ uzlů před ním) a zpětné

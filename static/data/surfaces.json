@@ -32,6 +32,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -83,11 +84,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -134,6 +137,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -158,11 +162,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -172,7 +178,8 @@
     "kompendium/section.html": 1
    },
    "views": {
-    "chart-inline": 1
+    "chart-inline": 1,
+    "viz/oddil-prehled": 1
    }
   },
   "kompendium/01-predmluva": {
@@ -204,6 +211,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -228,20 +236,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 10,
     "section.html": 2
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 2
+   }
   },
   "kompendium/01-zaklady-manipulace": {
    "components": [],
@@ -263,6 +275,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -296,8 +309,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -327,6 +342,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -348,8 +364,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -392,6 +410,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -428,11 +447,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -442,7 +463,8 @@
     "section.html": 1
    },
    "views": {
-    "viz/kostka": 1
+    "viz/kostka": 1,
+    "viz/oddil-prehled": 1
    }
   },
   "kompendium/03-manipulacni-vzorce": {
@@ -463,6 +485,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -484,8 +507,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -529,6 +554,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -554,11 +580,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -569,7 +597,8 @@
     "section.html": 3
    },
    "views": {
-    "kompendium/section-03-progression": 1
+    "kompendium/section-03-progression": 1,
+    "viz/oddil-prehled": 2
    }
   },
   "kompendium/04-klinika": {
@@ -590,6 +619,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -611,8 +641,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -640,6 +672,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -661,8 +694,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -690,6 +725,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -711,8 +747,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -756,6 +794,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -781,11 +820,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -795,7 +836,8 @@
     "section.html": 1
    },
    "views": {
-    "kompendium/section-04-decision-tree": 1
+    "kompendium/section-04-decision-tree": 1,
+    "viz/oddil-prehled": 1
    }
   },
   "kompendium/05-diagnostika": {
@@ -816,6 +858,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -837,8 +880,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -866,6 +911,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -887,8 +933,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -916,6 +964,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -937,8 +986,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -966,6 +1017,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -987,8 +1039,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1016,6 +1070,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1037,8 +1092,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1077,6 +1134,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1101,20 +1159,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 9,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/06-epistemicka-singularita": {
    "components": [],
@@ -1134,6 +1196,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1155,8 +1218,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1184,6 +1249,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1205,8 +1271,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1250,6 +1318,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1275,11 +1344,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1290,7 +1361,8 @@
     "section.html": 1
    },
    "views": {
-    "kompendium/section-06-recovery-flow": 1
+    "kompendium/section-06-recovery-flow": 1,
+    "viz/oddil-prehled": 1
    }
   },
   "kompendium/06-obrana": {
@@ -1311,6 +1383,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1332,8 +1405,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1370,6 +1445,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1394,26 +1470,32 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 1,
     "kompendium/section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/07-teoreticke-reflexe": {
    "components": [
     "viz_script"
    ],
-   "covered_views": [],
+   "covered_views": [
+    "viz/teorie-pojmy"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -1440,6 +1522,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1449,7 +1532,18 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/teorie-pojmy"
+     ],
+     "note": "pohled teorie-pojmy: graf pojmů nejodkazovanější teoretické reflexe",
+     "origin": "derived",
+     "page": "kompendium/07-teoreticke-reflexe/filosoficky-ramec.md",
+     "painted": 1,
+     "path": "kompendium/07-teoreticke-reflexe/filosoficky-ramec/"
+    }
+   ],
    "scripts": [
     "js/kompendium/section-07-framework-map.js",
     "js/p5/grafika.js",
@@ -1465,21 +1559,25 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "uncovered",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 60,
     "section.html": 2
    },
    "views": {
-    "kompendium/section-07-framework-map": 1
+    "kompendium/section-07-framework-map": 1,
+    "viz/oddil-prehled": 1,
+    "viz/teorie-pojmy": 60
    }
   },
   "kompendium/08-prilohy": {
@@ -1513,6 +1611,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1553,11 +1652,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1568,6 +1669,7 @@
    },
    "views": {
     "mermaid": 1,
+    "viz/oddil-prehled": 1,
     "viz/rejstrik": 1
    }
   },
@@ -1598,6 +1700,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1622,25 +1725,31 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 25,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/case-studies": {
    "components": [],
    "covered_views": [
-    "viz/kontext"
+    "viz/kontext",
+    "viz/oddil-prehled",
+    "viz/pripad-faze"
    ],
    "data": [
     "static/data/graph.json",
@@ -1666,6 +1775,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1677,7 +1787,9 @@
    ],
    "scenarios": [
     {
-     "covers": [],
+     "covers": [
+      "viz/oddil-prehled"
+     ],
      "note": "přehled oddílu",
      "origin": "fixed",
      "page": "kompendium/case-studies/_index.md",
@@ -1690,13 +1802,36 @@
       1
      ],
      "covers": [
-      "viz/kontext"
+      "viz/kontext",
+      "viz/pripad-faze"
      ],
      "note": "nejodkazovanější kazuistika: kontext",
      "origin": "derived",
      "page": "kompendium/case-studies/08-gaslighting-partnersky.md",
      "painted": 1,
      "path": "kompendium/case-studies/08-gaslighting-partnersky/"
+    },
+    {
+     "covers": [
+      "viz/kontext",
+      "viz/pripad-faze"
+     ],
+     "note": "pohled pripad-faze: stupně intervence S1–S5 kazuistiky",
+     "origin": "derived",
+     "page": "kompendium/case-studies/08-gaslighting-partnersky.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/08-gaslighting-partnersky/"
+    },
+    {
+     "covers": [
+      "viz/kontext",
+      "viz/pripad-faze"
+     ],
+     "note": "pohled pripad-faze: fáze kazuistiky z tabulky časové osy",
+     "origin": "derived",
+     "page": "kompendium/case-studies/50-spiritual-cult-recovery.md",
+     "painted": 1,
+     "path": "kompendium/case-studies/50-spiritual-cult-recovery/"
     }
    ],
    "scripts": [
@@ -1713,11 +1848,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -1727,7 +1864,9 @@
     "kompendium/section.html": 1
    },
    "views": {
-    "viz/kontext": 80
+    "viz/kontext": 80,
+    "viz/oddil-prehled": 1,
+    "viz/pripad-faze": 52
    }
   },
   "kompendium/critical-perspectives": {
@@ -1757,6 +1896,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1781,20 +1921,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/cross-domain": {
    "components": [],
@@ -1823,6 +1967,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1847,20 +1992,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/detection-signatures": {
    "components": [],
@@ -1889,6 +2038,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1913,20 +2063,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 33,
     "kompendium/section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/educational-scenarios": {
    "components": [],
@@ -1955,6 +2109,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -1979,24 +2134,31 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/emergency-protocols": {
    "components": [],
-   "covered_views": [],
+   "covered_views": [
+    "viz/oddil-prehled",
+    "viz/protokol-tok"
+   ],
    "data": [
     "static/data/graph.json",
     "static/data/nav.json",
@@ -2021,6 +2183,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2030,7 +2193,28 @@
     "partials/toc.html",
     "partials/toc_mobile.html"
    ],
-   "scenarios": [],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "pohled oddil-prehled: treemap rozsahu a stavu stránek oddílu",
+     "origin": "derived",
+     "page": "kompendium/emergency-protocols/_index.md",
+     "painted": 1,
+     "path": "kompendium/emergency-protocols/"
+    },
+    {
+     "covers": [
+      "viz/protokol-tok"
+     ],
+     "note": "pohled protokol-tok: tok rozhodovacích bodů nejodkazovanějšího protokolu",
+     "origin": "derived",
+     "page": "kompendium/emergency-protocols/2-suicide-risk-EA.md",
+     "painted": 1,
+     "path": "kompendium/emergency-protocols/2-suicide-risk-ea/"
+    }
+   ],
    "scripts": [
     "js/p5/grafika.js",
     "js/site.js",
@@ -2045,20 +2229,25 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "covered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1,
+    "viz/protokol-tok": 40
+   }
   },
   "kompendium/forensic-legal": {
    "components": [],
@@ -2087,6 +2276,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2111,20 +2301,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "page.html": 50,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/glossary-bridges": {
    "components": [],
@@ -2153,6 +2347,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2177,20 +2372,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 108,
     "section.html": 2
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/historical-cases": {
    "components": [],
@@ -2220,6 +2419,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2255,11 +2455,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -2300,6 +2502,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2324,20 +2527,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/konceptualni-mapa": {
    "components": [],
@@ -2357,6 +2564,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2378,8 +2586,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -2418,6 +2628,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2442,20 +2653,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/population-health": {
    "components": [],
@@ -2484,6 +2699,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2508,20 +2724,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/prevention-resilience": {
    "components": [],
@@ -2550,6 +2770,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2574,20 +2795,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "kompendium/section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/quick-reference": {
    "components": [],
@@ -2616,6 +2841,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2640,20 +2866,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 123,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/recovery-protocols": {
    "components": [],
@@ -2682,6 +2912,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2706,20 +2937,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 40,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/research-methodology": {
    "components": [],
@@ -2748,6 +2983,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2772,20 +3008,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "kompendium/section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/section-bridges": {
    "components": [],
@@ -2814,6 +3054,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2838,20 +3079,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 30,
     "section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/self-defense-guides": {
    "components": [],
@@ -2880,6 +3125,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2904,20 +3150,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "kompendium/page.html": 50,
     "kompendium/section.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "kompendium/techniques": {
    "components": [
@@ -2926,7 +3176,8 @@
    "covered_views": [
     "viz/kontext",
     "viz/technika",
-    "viz/techniky"
+    "viz/techniky",
+    "viz/techniky-rozptyl"
    ],
    "data": [
     "static/data/graph.json",
@@ -2951,6 +3202,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -2963,7 +3215,19 @@
    "scenarios": [
     {
      "covers": [
-      "viz/techniky"
+      "viz/techniky",
+      "viz/techniky-rozptyl"
+     ],
+     "note": "pohled techniky-rozptyl: rizikový profil rodin technik",
+     "origin": "derived",
+     "page": "kompendium/techniques/_index.md",
+     "painted": 1,
+     "path": "kompendium/techniques/"
+    },
+    {
+     "covers": [
+      "viz/techniky",
+      "viz/techniky-rozptyl"
      ],
      "note": "průzkumník technik",
      "origin": "fixed",
@@ -3008,11 +3272,13 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -3024,7 +3290,8 @@
    "views": {
     "viz/kontext": 502,
     "viz/technika": 502,
-    "viz/techniky": 1
+    "viz/techniky": 1,
+    "viz/techniky-rozptyl": 1
    }
   },
   "kompendium/visualizations": {
@@ -3070,6 +3337,7 @@
     "partials/header.html",
     "partials/nav.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -3137,8 +3405,10 @@
     "js/viz/glosar.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/paleta.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
@@ -3194,6 +3464,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/section-overview.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
@@ -3218,20 +3489,24 @@
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
     "js/viz/oddil.js",
     "js/viz/okoli.js",
     "js/viz/paleta.js",
     "js/viz/rejstrik.js",
     "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
     "js/viz/techniky.js",
     "js/viz/vrstva.js"
    ],
-   "status": "no-view",
+   "status": "uncovered",
    "templates": {
     "philosophy/detail.html": 3,
     "philosophy/list.html": 1
    },
-   "views": {}
+   "views": {
+    "viz/oddil-prehled": 1
+   }
   },
   "root": {
    "components": [],
@@ -3267,6 +3542,7 @@
     "partials/page-context.html",
     "partials/pager.html",
     "partials/paleta.html",
+    "partials/pohled-graf.html",
     "partials/sidebar.html",
     "partials/sidebar_pages.html",
     "partials/sidebar_subtree.html",
@@ -3411,13 +3687,11 @@
   "kompendium/06-klinicke-aplikace",
   "kompendium/06-obrana",
   "kompendium/07-populacni",
-  "kompendium/07-teoreticke-reflexe",
   "kompendium/aiad-integration",
   "kompendium/critical-perspectives",
   "kompendium/cross-domain",
   "kompendium/detection-signatures",
   "kompendium/educational-scenarios",
-  "kompendium/emergency-protocols",
   "kompendium/forensic-legal",
   "kompendium/glossary-bridges",
   "kompendium/international",

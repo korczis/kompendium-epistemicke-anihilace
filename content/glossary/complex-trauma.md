@@ -11,12 +11,9 @@ tags = ["glossary", "epistemic", "kompendium", "clinical", "trauma"]
 category = "clinical"
 related_terms = ["trauma-spectrum", "trauma-bond", "structural-dissociation", "hippocampus-trauma", "hpa-axis", "fawn-response"]
 author = "Tomáš Korcak (korczis)"
-reading_time = "7 min"
-word_count = 1200
 date_created = "2026-04-25"
 date_modified = "2026-11-10"
 keywords = ["komplexní trauma", "complex trauma", "C-PTSD", "Herman", "DESNOS", "zajetí", "mezilidské trauma", "klinika"]
-quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
 image_alt = "Komplexní trauma – glosář"
@@ -116,13 +113,13 @@ afektu, kognici, biologii a sebepojetí.
 > Model je **didaktická ilustrace**, nikoli diagnostický nástroj: koeficienty
 > a prahy jsou zvoleny pro názornost a nejsou odvozeny z validovaných dat.
 
-<div class="bg-gray-800 rounded-xl border border-gray-700 my-8 p-6" x-data="complexTrauma()">
+<div class="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 my-8 p-6" x-data="complexTrauma()">
     <div class="mb-6">
-        <label class="block text-sm font-medium text-gray-300 mb-2">
-            Intenzita nepříznivých zkušeností na vývojový rok: <span class="text-rose-300 font-mono" x-text="adversity"></span>
+        <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Intenzita nepříznivých zkušeností na vývojový rok: <span class="text-rose-700 dark:text-rose-300 font-mono" x-text="adversity"></span>
         </label>
         <input type="range" min="0" max="10" x-model.number="adversity" class="w-full accent-rose-500" />
-        <p class="text-xs text-gray-400 mt-1">Trvalé mezilidské násilí v situaci bez úniku (0 = žádné, 10 = všudypřítomné)</p>
+        <p class="text-xs text-gray-600 dark:text-gray-400 mt-1">Trvalé mezilidské násilí v situaci bez úniku (0 = žádné, 10 = všudypřítomné)</p>
     </div>
     <div class="flex flex-wrap gap-2 mb-6">
         <button @click="adversity = 1" class="px-3 py-1 text-xs bg-emerald-700 text-white rounded-md hover:bg-emerald-600">Bezpečné dětství</button>
@@ -131,9 +128,9 @@ afektu, kognici, biologii a sebepojetí.
         <button @click="adversity = 8" class="px-3 py-1 text-xs bg-rose-700 text-white rounded-md hover:bg-rose-600">Komplexní trauma</button>
         <button @click="adversity = 10" class="px-3 py-1 text-xs bg-purple-700 text-white rounded-md hover:bg-purple-600">Polyviktimizace</button>
     </div>
-    <div class="bg-gray-900 rounded-lg p-4 mb-4">
+    <div class="bg-gray-100 dark:bg-gray-900 rounded-lg p-4 mb-4">
         <div class="text-center mb-3">
-            <span class="text-xs text-gray-400 uppercase tracking-wide">Kumulativní zátěž dysregulace</span>
+            <span class="text-xs text-gray-600 dark:text-gray-400 uppercase tracking-wide">Kumulativní zátěž dysregulace</span>
             <div class="text-3xl font-mono font-bold" :class="loadTextClass" x-text="cumulativeLoad.toFixed(0)"></div>
             <span class="text-xs" :class="loadTextClass" x-text="loadCategory"></span>
         </div>
@@ -153,20 +150,20 @@ afektu, kognici, biologii a sebepojetí.
             </template>
         </svg>
     </div>
-    <div class="mt-4 text-sm text-gray-300" x-show="adversity <= 2">
-        <span class="text-emerald-400 font-semibold">Bezpečný základ.</span> Vývojová okna se uzavírají na odolném podkladu. Bez podpisu C-PTSD; platí běžný výklad výpovědi.
+    <div class="mt-4 text-sm text-gray-700 dark:text-gray-300" x-show="adversity <= 2">
+        <span class="text-emerald-700 dark:text-emerald-400 font-semibold">Bezpečný základ.</span> Vývojová okna se uzavírají na odolném podkladu. Bez podpisu C-PTSD; platí běžný výklad výpovědi.
     </div>
-    <div class="mt-4 text-sm text-gray-300" x-show="adversity > 2 && adversity <= 5">
-        <span class="text-amber-400 font-semibold">Podprahová kumulace.</span> Některé domény zvýšené, ale bez sbíhavého obrazu C-PTSD. Může stačit rámec PTSD z jednorázové události.
+    <div class="mt-4 text-sm text-gray-700 dark:text-gray-300" x-show="adversity > 2 && adversity <= 5">
+        <span class="text-amber-700 dark:text-amber-400 font-semibold">Podprahová kumulace.</span> Některé domény zvýšené, ale bez sbíhavého obrazu C-PTSD. Může stačit rámec PTSD z jednorázové události.
     </div>
-    <div class="mt-4 text-sm text-gray-300" x-show="adversity > 5 && adversity <= 7">
-        <span class="text-orange-400 font-semibold">Blízko prahu C-PTSD.</span> Více domén zvýšeno; poruchy sebeorganizace se začínají sbíhat. Je namístě kalibrační úprava.
+    <div class="mt-4 text-sm text-gray-700 dark:text-gray-300" x-show="adversity > 5 && adversity <= 7">
+        <span class="text-orange-700 dark:text-orange-400 font-semibold">Blízko prahu C-PTSD.</span> Více domén zvýšeno; poruchy sebeorganizace se začínají sbíhat. Je namístě kalibrační úprava.
     </div>
-    <div class="mt-4 text-sm text-gray-300" x-show="adversity > 7 && adversity <= 9">
-        <span class="text-rose-400 font-semibold">Podpis C-PTSD.</span> Plný okruh poruch sebeorganizace. Nutné klinické doporučení; výpověď se posuzuje spolu s vnějším potvrzením.
+    <div class="mt-4 text-sm text-gray-700 dark:text-gray-300" x-show="adversity > 7 && adversity <= 9">
+        <span class="text-rose-700 dark:text-rose-400 font-semibold">Podpis C-PTSD.</span> Plný okruh poruch sebeorganizace. Nutné klinické doporučení; výpověď se posuzuje spolu s vnějším potvrzením.
     </div>
-    <div class="mt-4 text-sm text-gray-300" x-show="adversity > 9">
-        <span class="text-purple-400 font-semibold">Profil polyviktimizace.</span> Maximální kumulace ve všech doménách. Silná sbíhavá indicie dlouhodobého prostředí epistemické anihilace bez ohledu na povrchové vyprávění osoby.
+    <div class="mt-4 text-sm text-gray-700 dark:text-gray-300" x-show="adversity > 9">
+        <span class="text-purple-700 dark:text-purple-400 font-semibold">Profil polyviktimizace.</span> Maximální kumulace ve všech doménách. Silná sbíhavá indicie dlouhodobého prostředí epistemické anihilace bez ohledu na povrchové vyprávění osoby.
     </div>
 </div>
 
@@ -198,7 +195,7 @@ document.addEventListener('alpine:init', () => {
             if (this.adversity <= 2) return 'text-emerald-300';
             if (this.adversity <= 5) return 'text-amber-300';
             if (this.adversity <= 7) return 'text-orange-300';
-            if (this.adversity <= 9) return 'text-rose-300';
+            if (this.adversity <= 9) return 'text-rose-700 dark:text-rose-300';
             return 'text-purple-300';
         }
     }));

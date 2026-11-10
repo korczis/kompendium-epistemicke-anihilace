@@ -12,8 +12,6 @@ related_terms = ["kognitivni-stagnace", "epistemicka-staze", "asymptoticky-kolap
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
-ref_count_at_creation = 1
 +++
 
 ## Definice

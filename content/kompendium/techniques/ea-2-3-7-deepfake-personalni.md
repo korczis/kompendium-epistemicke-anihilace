@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-2-2-voice-cloning-EA", "ea-2-3-1-clip-takeout", "ea-2-3-10-viralni-misrepresentation", "deepfake", "hyperreality"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.7"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

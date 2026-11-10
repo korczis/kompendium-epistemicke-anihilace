@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["38-management-consulting", "39-finance-totalizace", "41-medical-residency", "42-military-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -214,7 +213,7 @@ duševním zdraví.
   reconsideration and recent applications. *Harvard Review of Psychiatry*.
 - Krill, P. R., Johnson, R., a Albert, L. (2016). The prevalence of substance use and other mental
   health concerns among American attorneys. *Journal of Addiction Medicine*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009).
   Moral injury and moral repair in war veterans: A preliminary model and intervention strategy.
   *Clinical Psychology Review*.

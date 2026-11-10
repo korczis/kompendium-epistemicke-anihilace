@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["19-ea-security-disinformation-defense", "23-ea-security-attribution-bias", "18-ea-security-spear-phishing", "26-ea-compliance-zkb-epistemic-integrity"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

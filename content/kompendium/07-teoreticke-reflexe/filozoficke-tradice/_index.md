@@ -34,7 +34,7 @@ používá k umlčení otázek.
 ## Fenomenologie: zkušenost z první osoby
 
 **Otázka:** jak je nám svět dán dřív, než o něm začneme teoretizovat? Fenomenologie
-(Husserl, Heidegger, Merleau-Ponty, Sartre) popisuje [intencionalitu](@/glossary/intencionalita.md),
+(Husserl, Heidegger, Merleau-Ponty, Sartre) popisuje [intencionalitu](@/glossary/intentionalita.md),
 [žitý svět](@/glossary/lebenswelt.md), [epoché](@/glossary/epoche.md) a tělesnost
 vnímání.
 

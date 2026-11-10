@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["lebenswelt", "fenomenologie", "konsenzualni-realita", "embodied-cognition", "intentionalita", "communicative-rationality"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "lebenswelt"
 toc = false
 +++

@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-1-1-selektivni-expozice", "ea-1-1-2", "ea-1-1-3-terminologicka-mystifikace", "ea-1-2-1-argumentacni-oslabeni"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.1.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.1 Narušení procesů akvizice poznání"
@@ -40,44 +39,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčová **iluze**: subjekt prožívá obtíž zpracování jako **vlastní kognitivní limit** („nestíhám“, „to je na mě moc“), nikoli jako **strategicky nastavenou** přetíženost. Tato attribution je esenciální — bez ní by subjekt zpomalil a požadoval více času, což by techniku zneutralizovalo.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování legitimní rychlosti / objemu
+Informační přetížení je rozpoznatelné podle rozporu mezi objemem materiálu a časem, který je na jeho vyhodnocení k dispozici — a podle toho, komu je ten rozpor přičítán. Zasažený člověk o sobě mluví jako o pomalém, nepřipraveném nebo unaveném; pozorovatel přitom vidí, že by za týchž podmínek selhal kdokoli. Eppler a Mengis (2004) shrnují napříč obory, že nad určitou mírou vstupů kvalita rozhodnutí klesá, a že se tak děje bez vědomí rozhodujícího.
 
-Manipulátor etabluje **tempo prezentace** nebo **objem materiálu** jako **standardní očekávání**:
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve je zachytitelné tempo nebo objem ustavený jako samozřejmý standard, vůči němuž člověk nemá srovnání. Pak se ukáže, co z kritické práce odpadlo jako první: ne porozumění jednotlivostem, ale jejich vzájemné vyhodnocení. Pracovní paměť udrží jen několik položek současně (Miller, 1956; Cowan, 2001) a zátěž navíc, která nesouvisí s obsahem, se v učení projeví právě ztrátou integrace (Sweller, 1988). Teprve pak přicházejí rychlé závěry, jež vypadají jako vyústění předchozího, a nakonec mlčení tam, kde by patřila žádost o zpomalení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- „V tomto kurzu pokrýváme látku rychle“ → studenti nemají referenční rámec pro to, co je **rozumné** tempo.
-- „Prosím prostudujte přiloženou dokumentaci“ → 400stránkový dokument 24 hodin před schůzkou.
-- Konferenční prezentace s 60 slidy v 20 minutách.
+Detekční markery zachycené níže odpovídají téže struktuře: člověk přijímá závěr, který neumí vlastními slovy odvodit, opakuje formulace, které nerozvine, a únava neodpovídá obsahu. Simon (1971) tento tvar pojmenoval už v době před digitálními kanály: bohatství informace spotřebovává pozornost, a tím se pozornost stává vzácným statkem, o který se soupeří.
 
-### Krok 2 — Strukturální exploitace kognitivních limitů
-
-Lidský pracovní paměť drží **5±2 položek** simultánně. Kritická evaluace argumentu vyžaduje **udržet** premisy, **vyhodnotit** vztahy mezi nimi, **porovnat** s externími referencemi. Při překročení kapacity **kritická evaluace selhává jako první** — nahrazena heuristickým akceptováním nebo plošným odmítnutím.
-
-Manipulativní informační přetížení tuto vulnerabilitu **strategicky exploituje**: subjekt obdrží **multiple komplexní propozice** v rychlém sledu, **bez** prostoru pro evaluaci jednotlivě.
-
-### Krok 3 — Rapid conclusions
-
-Po fázi přetížení následují **rychlé závěry** nebo interpretace, prezentované jako „**logicky vyplývající**“ z předchozí prezentace. Subjekt — neschopný evaluovat odvození kvůli zahlcení — typicky:
-
-- **Akceptuje** závěr (z důvěry v narativní strukturu)
-- **Plošně odmítá** (z averze k zahlcení)
-- **Suspenduje úsudek** (deferuje na manipulátora)
-
-Všechny tři reakce vedou k **delegaci epistemické autority** na manipulátora.
-
-### Krok 4 — Inhibice požadavku na zpomalení
-
-Klíčová součást techniky — **inhibice** subjektova požadavku na pomalejší tempo:
-
-- **Sociální tlak**: ostatní (skutečně či domněle) tempo zvládají
-- **Status threat**: požadavek na zpomalení = signál nedostatečné kompetence
-- **Time pressure**: „musíme to dokončit dnes“ / „rozhodnutí potřebujeme do pátku“
-- **[Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md) of pace**: „rychlé tempo je standardní“ / „ostatní si stěžovat nepotřebovali“
-
-### Krok 5 — Konsolidace vzorce
-
-Pokud subjekt nezareaguje, vzorec se konsoliduje: subjekt **internalizuje** přetíženost jako **normu**, vzdává se **požadavku na adekvátní čas**, automaticky deferuje na rychlejší / kompetentnější aktéry. Konsolidovaný stav je strukturálně podobný **anankastickému režimu** ([viz glossary](@/glossary/anankasticky-rezim.md)) — i když z jiné etiologie.
+*Interpretace knihy*: rozlišujícím znakem není hustota sdělení, nýbrž osud žádosti o čas. Tam, kde je materiál dostupný i později, kde existuje mapa celku a kde se otázka nepočítá za ztrátu, hustota nepoškozuje. Tam, kde žádost o zpomalení nese sociální cenu, je přetížení strukturální, ať už je úmyslné, nebo ne (Eppler a Mengis, 2004).
 
 ## Fenomenologické znaky
 
@@ -221,6 +191,14 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
 - **NABLA Infinity 16-level pipeline** — strukturální obrana proti rapid acceptance: **každá** úroveň generuje **explicitní intermediate verifikaci** s časovým labelingem.
 - **OSINT Investigation Pipeline** — defaultně rozkládá komplexní queries na **menší kroky**, aby žádný analytik nemusel pracovat s celkovým objemem najednou.
 
+## Literatura
+
+- Cowan, N. (2001). The magical number 4 in short-term memory: A reconsideration of mental storage capacity. *Behavioral and Brain Sciences*, 24(1).
+- Eppler, M. J., & Mengis, J. (2004). The concept of information overload: A review of literature from organization science, accounting, marketing, MIS, and related disciplines. *The Information Society*, 20(5).
+- Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review*, 63(2).
+- Simon, H. A. (1971). Designing organizations for an information-rich world. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest*. Johns Hopkins University Press.
+- Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science*, 12(2).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -235,21 +213,23 @@ Intervence: Redesign — méně článků, více integračních seminářů, exp
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-4-apriorni-saturace", "ea-5-2-5-konstitutivni-rozpad", "ea-5-2-7-kategorialni-disoluce", "ea-5-2-8-perspektivisticky-kolaps"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.6"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,33 +40,15 @@ Strukturální rys: rekurze je **jiná než klasická paradoxálnost**. Klasick�
 
 Strukturálně blízká [EA-5.1.7 referenční rekurzi](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md), ale operuje **o úroveň výš**: nejen reference rozpouštějí svůj objekt, ale samotná kategorie reference se rozpouští v rekurzivní aplikaci na sebe.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Identifikace dominantních kategorií
+Pozorovatel pozná vzorec podle toho, že rozbor nelze uzavřít: každý závěr otevře o patro výš další otázku téhož druhu. Běžná věta se promění ve zkoumání toho, co znamená být na něčem; kauzální přiřazení uvázne v otázce, co je příčinou kauzality. Řeč zůstává gramaticky v pořádku a prakticky nepoužitelná. Hyperreflexi, která schopnosti neodnímá, ale znemožňuje jejich samozřejmé použití, rozpracoval (Sass, 1992).
 
-Manipulátor mapuje, **které kategorie** subjekt používá s nejvyšší frekvencí a důvěrou. U analyticky orientovaných subjektů je to často **kauzalita**, u kontemplativních **substance** nebo **jednota**, u sociálně orientovaných **relace**.
+Postižení popisují, že nedokážou použít pojem, aniž by zároveň zkoumali jeho ustrojení; že se význam v běžných situacích přestal držet; a že v rané fázi tuto hyperreflexi prožívali jako filozofický pokrok, zatímco později jako vyčerpání bez výsledku. Hyperreflexi, která schopnosti neodnímá, ale znemožňuje jejich samozřejmé použití, rozpracoval (Sass, 1992) a v klinickém kontextu (Sass & Parnas, 2003). Opakované zpracování, které se nikdy neuzavře, je popsáno jako udržovací faktor úzkosti a deprese (Wells, 2009; Nolen-Hoeksema, 1991).
 
-### Krok 2 — Inducední reflexivní obrat
+Zpětně se znaky skládají takto: nejprve soustředěná reflexe jedné často užívané kategorie, pak její opakované obracení proti sobě, pak ztráta schopnosti ji v běžné situaci použít a nakonec stav, v němž i pokus o návrat tuto kategorii potřebuje. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Prostředí, v němž takový rozbor zároveň slouží jako znak příslušnosti, odpovídá popisu zatíženého jazyka u (Lifton, 1961).
 
-Manipulátor přesměrovává pozornost na **kategorii samu**: *„Co je vlastně kauzalita?“*, *„Co dělá substanci substancí?“*. Tato fáze je legitimní filozofickou reflexí, dokud nezačne **iteraci**.
-
-### Krok 3 — Iterativní aplikace kategorie na sebe
-
-Manipulátor postupně směřuje subjekta k aplikaci kategorie na **sama sebe**:
-
-- *„Co je příčinou kauzality? Existuje **kauzalita kauzality**?“*
-- *„Je substance ‚substancí‘? Co je **substancí substance**?“*
-- *„Tvoří jednota **jednotu**? Existuje **jednota jednoty jednoty**?“*
-
-Každá iterace destabilizuje **jednou stabilizovaný význam** a přenáší ho na další úroveň, kde **musí být znovu konstituován**.
-
-### Krok 4 — Saturace iterací
-
-Subjekt je veden k **dlouhým iterativním sériím**, často strukturovaným jako „filozofická cvičení“ nebo „kontemplativní práce“. Každá iterace zatěžuje kognitivní kapacitu **stabilizovat kategorii**, dokud kapacita není vyčerpaná.
-
-### Krok 5 — Konsolidace v rekurzivní pasti
-
-Po vyčerpání kapacity stabilizace kategorie **funkčně přestává operovat**. Subjekt nedokáže rozeznat **kauzální relaci** v běžné situaci, protože každá pokus o identifikaci se znovu otevírá: *„je to kauzalita, nebo zdánlivá kauzalita kauzality, nebo…?“*. Rekurze je **strukturálně konsolidována**: pokus o návrat sám používá kategorii, která je narušená.
+*Interpretace knihy*: transcendentální filozofie takovou rekurzi tematizuje a přitom nechává kategorie fungovat v každodenním užití (Kant, 1787; Husserl, 1913) — rozlišujícím znakem je tedy ztráta funkce, ne obsah reflexe.
 
 ## Fenomenologie
 
@@ -173,13 +154,24 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — meta-úroveň se zhroutí v rekurzivní bod.
-- **[EA-5.2.27 Trans-kategoriální fluktuace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje.
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** operuje s **explicitními kategoriálními predikáty**, jejichž stabilita je vynucena typovým systémem — rekurzivní destabilizace by byla zachycena jako typová chyba.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} terminační logika** — rozhodnutí má hard-coded depth limit pro kategoriální analýzu, čímž brání nezakončené iteraci.
 - **OSINT pipeline** odděluje **identifikaci** od **klasifikace** — rekurzivní destabilizace klasifikace by nezasáhla identifikační vrstvu.
+
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Nolen-Hoeksema, S. (1991). Responses to depression and their effects on the duration of depressive episodes. *Journal of Abnormal Psychology*, 100(4), 569–582.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Sass, L. A. (1992). *Madness and Modernism*. Cambridge, MA: Harvard University Press.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
 
 ## Související
 
@@ -195,21 +187,15 @@ Intervence: rozprášení školy externí akademickou intervencí; rekonstrukce 
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

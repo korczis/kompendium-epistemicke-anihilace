@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-15-mentalizacni-disrupce", "ea-5-3-16-fenomenologicka-rekonstituce", "ea-5-3-18-esencialisticka-redukce", "ea-5-3-19-autobiograficka-amnestizace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.17"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Existenciální rekonfigurace mění subjektovy odpovědi na **fundamentální existenciální otázky** — smysl života, vztah ke smrti, svoboda, samotnost. Manipulátorův rámec se stává jedinou platnou odpovědí; subjekt nedokáže existenciálně operovat bez manipulátorova systému.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že odpovědi na otázky po smyslu, smrti, svobodě a samotě přicházejí v jediné idiomatice a vždy z jednoho zdroje. Existenciální otázky samy o sobě patří k lidskému životu a jejich klinické zpracování má vlastní rámec a vlastní metodu (Yalom, 1980).
 
-### Krok 1 — Probouzení existenciální úzkosti
+Retrospektivně blízcí popisují sled znaků: nejprve přibývá existenciální úzkosti, pak se objeví jeden systém odpovědí prezentovaný jako jediný platný, a nakonec se dostavuje panika při představě odchodu z něj. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Uzavřený systém, v němž je odchod rámován jako ztráta existence, odpovídá kritériím totalitního prostředí (Lifton, 1961).
 
-Manipulátor systematicky aktivuje existenciální otázky.
+Zvenčí doložitelné markery jsou odmítání kontaktu s alternativními existenciálními rámci — filozofickými, náboženskými i vědeckými — a vázanost základní stability na přítomnost jedné osoby. Zúžení dostupných voleb až na jedinou je popsáno jako strukturální rys vysoce kontrolujících skupin (Lalich, 2004).
 
-### Krok 2 — Nabídka rámce jako jediné odpovědi
-
-Manipulátor poskytuje strukturovaný systém odpovědí — typicky se sebou v centrální roli.
-
-### Krok 3 — Konsolidace existenciální závislosti
-
-Subjekt nedokáže čelit existenciálním otázkám bez manipulátorova systému.
+*Interpretace knihy*: hledání rámce pro existenciální otázky není patologie a náboženská ani filozofická příslušnost sama o sobě nic neindikuje. Odlišujícím znakem je monopol: žádná jiná odpověď nesmí být ani zvážena. Obnova začíná bezpečím a vztahy mimo systém (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **existenciální rekonfigurace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.17.
+
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Yalom, I. D. (1980). *Existential Psychotherapy*. Basic Books.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

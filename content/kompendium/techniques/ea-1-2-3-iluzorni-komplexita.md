@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-2-2-falesna-ekvivalence", "ea-1-2-2-memorni-rekonstrukce", "ea-1-3-1-immunization-against-falsification", "ea-1-3-1-imunizace-proti-falsifikaci"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.2.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
@@ -42,45 +41,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **strategická introdukce irelevantních faktorů**, **marginálních nuancí** a **pseudo-technických detailů**, které vytvářejí **iluzi**, že problém je **mnohem komplexnější**, než ve skutečnosti je.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování jádra problému
+Iluzorní komplexita se pozná podle toho, co s rozpravou dělá čas: počet uvažovaných činitelů roste, jejich uspořádání nikoli. Nikdo nepopírá, že odpověď existuje; jen se nikdy nedospěje k tomu, které okolnosti jsou rozhodující a které okrajové. Michaels (2008) popisuje tuto podobu sporu z pozice regulatorní praxe — pochybnost se vyrábí jako produkt a jejím účelem je odklad, nikoli poznání.
 
-Manipulátor uznává **existenci** problému. To je strategicky důležité — kdyby popřel existenci, byl by snadno detekovatelný. Místo toho **uznává** a **rozšiřuje**.
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve bývá existence problému výslovně uznána, což odvrací podezření. Pak přibývají činitelé, z nichž každý je sám o sobě skutečný, ale pro jádro otázky nerozhodný. Dále se nafukuje váha technických podrobností, které běžná praxe standardně ošetřuje. Nakonec se u zasaženého člověka usadí trvale odložený úsudek, prožívaný jako epistemická skromnost. Oreskes a Conway (2010) dokládají tutéž posloupnost na archivních materiálech sporů o kouření a klima. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Strategická introdukce irelevantních faktorů
+Detekční markery zachycené níže odpovídají téže struktuře: chybí jakékoli rozlišení rozhodujícího od okrajového, na každý uzavřený závěr navazuje další „ale co když“, a hromadění činitelů je jednosměrné — ubývá jich jen zřídka. Proctor a Schiebinger (2008) pro tento předmět zavedli pojem agnotologie: nevědomost zde není zbytkem, který nebyl zaplněn, ale výsledkem, který byl vytvořen.
 
-Do diskuse jsou **systematicky** zavedeny faktory, které:
-
-- **Existují**, ale nejsou **kausálně relevantní** pro centrální otázku
-- Jsou **technicky validní**, ale **marginal** v dopadu
-- Jsou **otevřené debatě** v okrajových aspektech, **ne** v jádru
-
-Příklady:
-
-- „Klimatologie je komplexní — nezapomeňte na cosmic ray modulation, mid-Holocene optimum, urban heat island…“
-- „Bezpečnost vakcín je komplexní — preservatives, adjuvants, cold chain, batch-to-batch variability…“
-- „Tato právní otázka je komplexní — common law tradition, civil law tradition, comparative jurisprudence…“
-
-Každý jednotlivý faktor je **technicky validní** — kombinovaně vytvářejí **iluzi nerozřešitelnosti**.
-
-### Krok 3 — Inflace pseudo-technických detailů
-
-Detaily na **velmi nízkém rozlišení** jsou prezentovány jako **rozhodující**:
-
-- Statistické nuance, které **nemění** závěry
-- Methodological subtleties, které jsou **standardně řešeny**
-- Edge cases, které jsou **strukturálně marginal**
-
-Tyto detaily jsou **legitimní**, ale jejich relevance je **strategicky nafouknuta**.
-
-### Krok 4 — Indukce epistemické skromnosti
-
-Subjekt, vystaven **kaskádě** faktorů a detailů, prožívá **epistemickou skromnost**: „asi to není tak jasné, jak jsem si myslel“. Tato pokora je **legitimní** v kontextu skutečně komplexních problémů, **patologická** v kontextu uměle inflovaných.
-
-### Krok 5 — Suspendace úsudku
-
-Konečný outcome: subjekt **suspenduje úsudek** „dokud problém nebude vyřešen“. V uměle inflovaných problémech **vyřešení nikdy nenastane** — strategicky introdukované faktory generují **infinite regress** dotazování. Suspendovaný úsudek se stává **trvalým epistemickým stavem**.
+*Interpretace knihy*: skutečně složité otázky se poznají podle toho, že jejich složitost je uspořádaná — jsou pojmenovány osy sporu a je zřejmé, co by jej rozhodlo. Kde složitost nelze uspořádat a kde žádný myslitelný nález nic neuzavírá, nejde o náročnost problému, nýbrž o rámec, který uzavření znemožňuje (Michaels, 2008).
 
 ## Fenomenologické znaky
 
@@ -242,6 +211,12 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
 - **NABLA Infinity confidence calibration** — pokud kandidátní decision suspenduje úsudek navzdory robustní evidenci, system flagguje anomálii.
 - **OSINT investigation closure protocols** — strukturální deadlines proti infinite-regress investigation.
 
+## Literatura
+
+- Michaels, D. (2008). *Doubt Is Their Product: How Industry's Assault on Science Threatens Your Health*. Oxford University Press.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming*. Bloomsbury Press.
+- Proctor, R. N., & Schiebinger, L. (Eds.) (2008). *Agnotology: The Making and Unmaking of Ignorance*. Stanford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -255,21 +230,23 @@ Intervence: Strukturovaná psychoeducation o **rozlišení** legitimní nuance v
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

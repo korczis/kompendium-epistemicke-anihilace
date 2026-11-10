@@ -13,7 +13,6 @@ related_terms = ["nabla-infinity", "trinity-gate", "consciousness-traits", "thre
 date_created = "2026-01-15"
 date_updated = "2026-11-10"
 author = "Tomas Korcak (korczis)"
-quality_score = 97
 +++
 
 ## Definice

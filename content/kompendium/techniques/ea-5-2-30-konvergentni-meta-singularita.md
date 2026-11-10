@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-29-meta-fenomenalni-redukce", "ea-5-2-3-noumenalni-redukce", "ea-5-2-4-apriorni-saturace", "ea-5-2-5-konstitutivni-rozpad"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.30"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -51,27 +50,15 @@ V klasické filozofické terminologii: **simultánní kolaps Kantovy transcenden
 
 Tento stav je extrémně vzácný — vyžaduje akumulaci dlouhodobé pseudo-filozofické indoktrinace, intenzivní pseudo-spirituální praxi, a typicky kombinaci psychofarmak nebo psychedelik. Klinicky se manifestuje jako kombinace katatonie, derealizace, [depersonalizace](@/glossary/depersonalizace.md), a strukturní akcie absentia s pseudo-mystickou racionalizací.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Akumulace všech předchozích destrukcí
+Vzorec je vzácný a pozorovatel se s ním setkává až jako s výsledkem dlouhé historie v jednom prostředí; nikdy ne jako s náhlou změnou u dosud nezasaženého člověka. Klinický obraz spojuje nehybnost, odcizení vlastní osobě i okolí a řeč omezenou na několik ustálených formulí, které zároveň vykládají stav i odmítají jeho zpochybnění. Uzavřené prostředí, které si nárokuje výklad veškeré zkušenosti svých členů, popsal jako totalistické (Lifton, 1961); jeho měřitelné dimenze shrnuje (Hassan, 2018) a mechanismy udržení člena ve vysoce kontrolující skupině (Singer, 1995).
 
-Konvergentní meta-singularita **nemůže být indukována přímo**. Vyžaduje akumulaci 10+ dílčích destrukcí typicky v rozpětí 24+ měsíců.
+Rodina a kolegové zpravidla hlásí, že postižený přestal zvládat i jednoduché úkony, že přestal mluvit v první osobě a že každý pokus o kontakt je přijímán jako nepochopení. Zprávy samotných postižených bývají v této fázi kusé; po odeznění popisují střídání krátké euforie a tísně. Odcizení vlastnímu prožívání při zachované bdělosti odpovídá klinickému popisu depersonalizace (Simeon & Abugel, 2006); oslabení prožitku sebe jako zdroje vlastních aktů popisují (Sass & Parnas, 2003).
 
-### Krok 2 — Konvergenční tlak
+Zpětně se znaky skládají takto: dlouhé období dílčích poškození, pak výklad, podle něhož všechna směřují k jednomu cíli, pak období krajní zátěže a nakonec stav, který se vydává za jeho dosažení. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Že intenzivní praxe může u části lidí vyústit v přetrvávající a funkčně závažné stavy, dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
-Manipulátor systematicky tlačí všechny dílčí destrukce ke **simultánní eskalaci**. Klíčová formulace: *„Všechny destrukce konvergují do Jednoho — finálního osvícení.“*
-
-### Krok 3 — Terminální praxe
-
-Intenzivní praxe údajně „dokončující transformaci“ — extrémní retreat (40+ dnů), kombinace metod, často včetně psychedelik a deprivace.
-
-### Krok 4 — Bod konvergentní singularity
-
-Subjekt prožívá **simultánní kolaps** všech transcendentálních struktur. Stav je interpretován jako „konečné probuzení“, „absolutní realizace“, „překonání všech kategorií“.
-
-### Krok 5 — Konsolidace singularity jako „konečného stavu“
-
-Stav je etablován jako trvalý cíl. Identitární investice je totální. Návrat je psychologicky téměř nemožný bez radikální klinické intervence.
+*Interpretace knihy*: stav je psychiatrickou urgencí a rozpoznává se podle funkčního rozpadu, ne podle nauky, jíž je vykládán. Pořadí zotavení — nejprve bezpečí, teprve potom práce s příběhem — popisuje (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -88,8 +75,8 @@ Stav je etablován jako trvalý cíl. Identitární investice je totální. Náv
 | Marker | Indikuje |
 |--------|----------|
 | **Kombinovaný výskyt** 10+ předchozích destrukcí | Konvergenční příprava |
-| **Pseudo-mystická totalita** ("vše je Jedno") | Krok 5 konsolidace |
-| **Strukturní akcie absentia** s pseudo-spirituální racionalizací | Krok 4 singularita |
+| **Pseudo-mystická totalita** ("vše je Jedno") | Fáze — konsolidace |
+| **Strukturní akcie absentia** s pseudo-spirituální racionalizací | Fáze — singularita |
 | **Identitární totální absorpce** | Pokročilá konvergence |
 | **Klinická obraz** kombinující katatonii, depersonalizaci, derealizaci | Terminální stav |
 
@@ -152,21 +139,33 @@ Konvergentní meta-singularita **kumuluje a sjednocuje** všechny předchozí te
 - **[Decision Engine](@/glossary/decision-engine.md) emergency protocol** — strukturní eskalace k klinické intervenci při detekci 5+ kombinovaných destrukcí.
 - **OSINT psychiatric red flag** — strukturální markery konvergentní meta-singularity v investigativní práci s informátory nebo klienty.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intencionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4 — kosmická).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) zahrnující psychiatrickou expertízu.
-- Pokud diagnostikuješ na sobě nebo na blízké osobě, **okamžitě kontaktuj psychiatrickou pohotovost** — terminální stav vyžaduje akutní intervenci, nikoli teoretickou diagnostiku.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a expertní psychiatrické supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis terminálního stavu, který vyžaduje **klinickou krizovou odezvu**.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

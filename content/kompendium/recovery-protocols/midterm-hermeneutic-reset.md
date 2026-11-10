@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["midterm-metacognitive-rehab", "midterm-identity-reconstruction", "ramce", "hermeneuticka-eroze", "hermeneuticky-outsourcing", "hermeneuticky-kruh"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
 +++

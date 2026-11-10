@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -168,7 +167,7 @@ je přípustná, pokud ji vyvažují procesní záruky obhajoby.
 - Fyfe, N. R. (2001). *Protecting Intimidated Witnesses*. Ashgate.
 - Loftus, E. F. (2005). *Planting misinformation in the human mind: A 30-year investigation of the malleability of memory*. Learning & Memory.
 - Orth, U. (2002). *Secondary victimization of crime victims by criminal proceedings*. Social Justice Research.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Woodlock, D. (2017). *The abuse of technology in domestic violence and stalking*. Violence Against Women.
 - Zákon č. 45/2013 Sb., o obětech trestných činů (2013).
 - Zákon č. 137/2001 Sb., o zvláštní ochraně svědka a dalších osob v souvislosti s trestním řízením (2001).

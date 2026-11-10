@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["34-attention-budget", "43-memory-archive", "45-life-story-integration", "48-existential-meaning-protection"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -97,7 +96,7 @@ Deklarované hodnoty ne vždy odpovídají žitým a sebepoznání může bolet.
 
 - Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*, 3(3), 193–209.
 - Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (1999). *Acceptance and Commitment Therapy: An Experiential Approach to Behavior Change*. Guilford Press.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Rokeach, M. (1973). *The Nature of Human Values*. Free Press.
 - Schwartz, S. H. (1992). Universals in the content and structure of values: Theoretical advances and empirical tests in 20 countries. *Advances in Experimental Social Psychology*, 25, 1–65.
 

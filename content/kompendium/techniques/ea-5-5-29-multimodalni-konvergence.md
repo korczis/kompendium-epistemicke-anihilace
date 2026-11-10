@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-27-taktilni-pre-konceptualni", "ea-5-5-28-olfacticka-modulace", "ea-5-5-3-atmosfericka-modulace", "ea-5-5-30-konvergentni-singularita-transkonceptualni"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.29"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"
@@ -37,15 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Multimodální konvergence** kombinuje **simultánně všechny smyslové modality** (vizuální, auditorní, taktilní, olfaktickou, vestibulární, interoceptivní) v koherentním pre-konceptuálním manipulačním protokolu. Kumulativní efekt překračuje subjektovu schopnost odolávat.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že „transformační“ zážitky vyžadují celé prostředí najednou a že se mimo ně nedostaví. Člověk toto prostředí napodobuje doma, běžný svět mu připadá chudý a vykazuje přecitlivělost nebo odpor vůči obyčejnému smyslovému okolí (Lindahl et al., 2017).
 
-### Krok 1 — Simultánní aktivace všech smyslových manipulací
+Současně bývá patrná dezorientace v běžném smyslovém prostředí a rozhodnutí o bydlení, práci a vztazích se uspořádávají kolem přístupu k rituálnímu kontextu. Singer (1995) popisuje tuto podobu závislosti jako postupné zúžení života na kontext, který stav dodává.
 
-### Krok 2 — Koherentní doktrinální struktura
+Klinicky je podstatné, že souběh znaků z více smyslových oblastí má vyšší výpovědní hodnotu než kterýkoli z nich sám. Lindahl et al. (2017) zaznamenali, že obtíže spojené s intenzivní praxí se objevují napříč modalitami a že je účastníci sami neoddělovali — proto se u tohoto vzorce hodnotí obraz jako celek, ne jednotlivá stížnost.
 
-### Krok 3 — Konsolidace multimodální závislosti
+Od náročné, ale skutečně zvolené praxe se vzorec liší tím, že se kolem přístupu k prostředí uspořádává celý život. Herman (1992) popisuje toto zúžení jako důsledek asymetrického vztahu, ne jako volbu.
+
+*Interpretace knihy*: nálezem je souběh, ne jednotlivý zážitek.
 
 ## Fenomenologické znaky
 
@@ -122,17 +123,17 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **multimodální k
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.29 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.29 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **multimodální konvergence** v post-hoc forensní analýze:
-
-- **Primární marker**: Synesthesia battery: výskyt grafém-barevné synestesie >3 × baseline — zvýšená cross-modal konektivita.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -177,15 +178,15 @@ Pro **objektivní detekci** aplikace techniky **multimodální konvergence** v p
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

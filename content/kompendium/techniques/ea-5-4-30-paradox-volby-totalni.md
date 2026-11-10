@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-29-newcomb-paradox-implantace", "ea-5-4-3-tarsky-diagonalizace", "ea-5-4-31-paradox-vsemocnosti", "ea-5-4-32-paradox-tolerance"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.30"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"
@@ -41,33 +40,26 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+„Paradox volby“ není logický paradox, nýbrž empirické tvrzení o přetížení z nabídky: Schwartz
+(2004) shrnul doklady, že rozsáhlý výběr snižuje spokojenost a odkládá rozhodnutí. Zázemí má v
+Simonově rozlišení uspokojivé a maximalizující volby (Simon, 1955). Doklady jsou přitom smíšené:
+metaanalýza experimentů nenašla spolehlivý průměrný účinek nabídkového přetížení
+(Scheibehenne, Greifeneder & Todd, 2010). Tato stránka proto s tvrzením nezachází jako s
+prokázaným zákonem.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí vzorec, který obě strany každé volby předkládá jako současnou ztrátu. Zasažený
+člověk referuje, že každý výběr prožívá jako totální ztrátu všeho nevybraného, a proto nevybírá;
+doprovodnými znaky jsou odkládací konstrukce a stáze při zcela běžných rozhodnutích.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky objevují v tomto pořadí: nejprve je každé rozhodnutí rámováno jako nevratné, pak
+se vytrácí schopnost srovnávat alternativy podle vlastních kritérií, pak nastupuje volební
+paralýza a nakonec je rozhodování přeneseno na druhou stranu; Stark (2007) popisuje stejné
+vyústění u prostředí, které drobná rozhodnutí druhého trvale reguluje. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor zdůrazňuje obě strany každé volby: její „otevírací“ i „uzavírací“ funkci, dokud volba není možná. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt vstupuje do volební paralýzy; každý výběr je prožíván jako totální ztráta.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: diagnosticky rozhoduje, zda člověk zná vlastní kritérium dostatečnosti a
+smí je uplatnit. Toto rozlišení drží [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -86,11 +78,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -154,6 +146,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Schwartz, B. (2004). *The Paradox of Choice: Why More Is Less*. Ecco.
+- Simon, H. A. (1955). A behavioral model of rational choice. *The Quarterly Journal of Economics*, 69(1), 99–118.
+- Scheibehenne, B., Greifeneder, R., & Todd, P. M. (2010). Can there ever be too many options? A meta-analytic review of choice overload. *Journal of Consumer Research*, 37(3), 409–425.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

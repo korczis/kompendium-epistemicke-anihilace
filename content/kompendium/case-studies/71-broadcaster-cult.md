@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["69-policy-circle-cult", "70-media-organization-cult", "72-publisher-cult", "73-platform-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -267,7 +266,7 @@ zranění (Litz et al., 2009); eticky a právně tato otázka zůstává otevře
 
 - Cohen, J. (2004). Parasocial break-up from favorite television characters. *Journal of Social and Personal Relationships*.
 - Coser, L. A. (1974). *Greedy Institutions: Patterns of Undivided Commitment*. Free Press.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md). *Victimology*.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding. *Victimology*.
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*.
 - Einarsen, S., Hoel, H., Zapf, D., a Cooper, C. L. (Eds.) (2011). *Bullying and Harassment in the Workplace*. CRC Press.
 - Flavell, J. H. (1979). Metacognition and cognitive monitoring. *American Psychologist*.
@@ -278,9 +277,9 @@ zranění (Litz et al., 2009); eticky a právně tato otázka zůstává otevře
 - Horton, D., a Wohl, R. R. (1956). Mass communication and para-social interaction. *Psychiatry*.
 - Johnson, M. K., Hashtroudi, S., a Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*.
 - Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain Research*.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Leymann, H. (1996). The content and development of mobbing at work. *European Journal of Work and Organizational Psychology*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - Marwick, A. E., a boyd, d. (2011). I tweet honestly, I tweet passionately. *New Media & Society*.
 - Ogden, P., Minton, K., a Pain, C. (2006). *Trauma and the Body*. W. W. Norton.

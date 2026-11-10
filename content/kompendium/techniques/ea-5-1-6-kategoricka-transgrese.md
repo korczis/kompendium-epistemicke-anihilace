@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-4-semanticka-imploze", "ea-5-1-5-logicka-diskontinuita", "ea-5-1-7-referencni-rekurze", "ea-5-1-8-konceptualni-fragmentace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.6"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -51,36 +50,15 @@ Technika exploituje skutečnost, že kategoriální struktura zkušenosti je **i
 
 Kategorická transgrese je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), s úzkým vztahem k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md) — destruuje **ontologickou** klasifikační schopnost.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, typicky v dlouhodobém rámci:
+Kategorická transgrese se pozorovateli ukazuje jako dezorientace, kterou zasažený člověk neumí pojmenovat, protože se rozpadlo to, čím by ji pojmenoval. Zaměňuje vlastní prožitek s převzatým vyprávěním, vysvětluje skutečné události pomocí smyšlených bytostí, prožívá hodnotové soudy jako empirickou nutnost a vzpomínku jako přítomnou situaci. Požadavek rozlišit kategorie odmítá jako omezující a redukcionistický.
 
-### Krok 1 — Identifikace cílových kategorií
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývají zachycena překročení hranice, která jsou běžná a legitimní — metafora, ponoření do vyprávění, hluboké vcítění; hranice je přitom překročena, ale stále platí. Pak takové překročení přestává být označováno jako obraz a je předkládáno jako hlubší pravda či jiná úroveň skutečnosti. Dál se rozpouštění hranice oceňuje jako pokrok a její obnova se vykládá jako obrana ega nebo intelektualizace. Nakonec se struktura zkušenosti rozpadá a bývá prožívána jako pocit jednoty. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor identifikuje **kategoriální hranice**, jejichž rozpad maximalizuje destruktivní efekt v daném kontextu. V terapeutickém: já / druhý. V kultovním: reálné / fiktivní. V psychologicko-spirituálním: živé / neživé. V politickém: fakt / hodnota.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: splývající hranice mezi já a druhým, mezi skutečným a smyšleným, mezi živým a neživým, mezi faktem a hodnotou i mezi minulostí a přítomností, a neschopnost rozlišit obraz od tvrzení.
 
-### Krok 2 — Akceptovatelné překročení
-
-Manipulátor začíná **legitimními** překročeními kategorie: metafora, narativní imerze, hluboká empatie. Subjekt akceptuje překročení, protože **rozumí**, že jde o tropus, performativní hru, terapeutickou techniku. Hranice je překročena, ale **udržena**.
-
-### Krok 3 — Postupná dereifikace hranice
-
-Postupně manipulátor přestává **explicitně označovat** překročení jako tropus. Metafora je prezentována jako „hlubší pravda“. Narativ je prezentován jako „jiná úroveň reality“. Identifikace s druhým je prezentována jako „rozpuštění iluze ega“. Subjekt přijímá tyto rámce, protože v rámci akumulovaného vztahu nemá nástroj, jak je odmítnout.
-
-### Krok 4 — Konsolidace transgresivního vzorce
-
-Manipulátor sytematicky **odměňuje** transgresivní akty (afirmace, „průlom“, „vyšší pochopení“) a **trestá** kategorialní obnovu („zpátky do iluze“, „ego se brání“, „intelektualizace“). Subjekt internalizuje vzorec: rozpouštění hranice = pokrok, udržování hranice = patologie.
-
-### Krok 5 — Generalizovaný kategoriální kolaps
-
-Po dostatečné expozici subjekt **generalizuje** vzorec. Kategoriální struktura zkušenosti se rozpadá:
-
-- Symboly **jsou** věci (fiktivní bytost je reálnou bytostí)
-- Druhý **je** já (memory blending, konfuze autorství zkušeností)
-- Hodnoty **jsou** fakty (normativní výroky prožívané jako empirické nutnosti)
-- Minulost **je** přítomnost (re-traumatizace bez schopnosti časové lokalizace)
-
-Subjekt často reportuje **mystický pocit jednoty** — strukturálně tomu odpovídá ztráta klasifikační schopnosti.
+*Interpretace knihy*: kritika kategorií i terapeutické ponoření pracují s hranicemi vědomě a mají rámec s počátkem a koncem; autentický mystický prožitek bývá ohraničený a návrat k běžné struktuře neničí. Rozpoznávacím znakem je strukturální ztráta schopnosti rozlišovat, nikoli rozhodnutí rozdílu nepřikládat váhu. Proč kompendium popisuje tuto hranici a nepřekračuje ji, vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -239,9 +217,9 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -252,8 +230,10 @@ Kategorická transgrese je strukturálním motivem pro několik defenzivních me
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

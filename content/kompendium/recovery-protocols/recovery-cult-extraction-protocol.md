@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-adolescent-protocol", "recovery-elder-protocol", "recovery-political-prisoner-protocol", "high-control-group", "bite-model", "sektarska-konverze"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++
@@ -79,7 +78,7 @@ zkušenost myšlenkové reformy.
    případně s bývalými členy, kde člověk dostane informace o skupině a o technikách vlivu
    a sám je posoudí (Langone 1993; Hassan 2015). Setkání je transparentní a člověk ho
    může kdykoli ukončit.
-3. **Nucené „deprogramování“** – zadržení člověka proti jeho vůli – je eticky i právně
+3. Nucené „deprogramování“ – zadržení člověka proti jeho vůli – je eticky i právně
    nepřijatelné a protokol ho odmítá; viz [Právní rámec deprogramování](@/kompendium/forensic-legal/13-cult-deprogramming-legal.md).
 
 **Odchod a první měsíce**
@@ -143,7 +142,7 @@ a jak chránit práva lidí, kteří se rozhodnou ve skupině zůstat.
   Relationships*. Berkeley: Bay Tree Publishing.
 - Langone, M. D. (Ed.) (1993). *Recovery from Cults: Help for Victims of Psychological and
   Spiritual Abuse*. New York: W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 
 ## Související

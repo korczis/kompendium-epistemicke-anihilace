@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["15-zdravotnicky-iatrogen", "16-psychoterapeut-totalizace", "18-fitness-cult", "19-dieta-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -204,7 +203,7 @@ chybí (Berglas, 2002).
   theoretical and risk-management dimensions. *American Journal of Psychiatry*, 150(2).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of
   „Brainwashing“ in China*. W. W. Norton.
 - Staw, B. M. (1976). Knee-deep in the big muddy: a study of escalating commitment to a chosen
   course of action. *Organizational Behavior and Human Performance*, 16(1).

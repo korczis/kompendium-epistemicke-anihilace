@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-1-clip-takeout", "ea-2-3-3-quote-mining", "ea-9-5-8-meme-context-collapse", "ea-2-3-4-mob-coordination", "hermeneutika", "epistemic-bubble"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

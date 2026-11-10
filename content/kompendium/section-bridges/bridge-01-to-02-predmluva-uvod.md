@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-01-to-04-eticky-ramec-protokoly", "bridge-01-to-05-eticky-ramec-ultramari", "bridge-02-to-03-uvod-zakladni-kategorie", "bridge-02-to-07-uvod-teoreticke"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 
@@ -103,7 +102,7 @@ Pořadí „nejprve rámec, potom předmět“ odpovídá zásadám, které výz
 
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). New York: Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of Brainwashing in China*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of Brainwashing in China*. New York: W. W. Norton.
 - National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research (1979). *The Belmont Report*. Washington, DC: U.S. Department of Health, Education, and Welfare.
 
 ## Související

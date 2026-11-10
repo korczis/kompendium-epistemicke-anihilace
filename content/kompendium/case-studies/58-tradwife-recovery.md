@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["56-incel-deep-recovery", "57-mra-recovery", "59-political-cult-recovery", "60-mass-formation-psychosis"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -196,13 +195,13 @@ bezpečnosti.
 - Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
 - Harsey, S. J., Zurbriggen, E. L., a Freyd, J. J. (2017). Perpetrator responses to victim confrontation: DARVO and victim self-blame. *Journal of Aggression, Maltreatment & Trauma*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Maslach, C., a Leiter, M. P. (2016). Understanding the burnout experience: Recent research and its implications for psychiatry. *World Psychiatry*.
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
-- Sweet, P. L. (2019). The sociology of [gaslighting](@/glossary/gaslighting.md). *American Sociological Review*.
+- Sweet, P. L. (2019). The sociology of gaslighting. *American Sociological Review*.
 - World Health Organization. (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 
 ## Související

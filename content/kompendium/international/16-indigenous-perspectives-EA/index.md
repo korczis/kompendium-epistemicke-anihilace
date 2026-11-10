@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "cross-cultural"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -221,7 +220,7 @@ výzkum, který komunita sama iniciuje, řídí a jehož výsledky jí patří.
 - Hinton, L., & Hale, K. (Eds.) (2001). *The Green Book of Language Revitalization in Practice*. Academic Press.
 - Human Rights and Equal Opportunity Commission (1997). *Bringing Them Home: Report of the National Inquiry into the Separation of Aboriginal and Torres Strait Islander Children from Their Families*. HREOC.
 - Kirmayer, L. J., Gone, J. P., & Moses, J. (2014). Rethinking historical trauma. *Transcultural Psychiatry*, 51(3).
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - National Inquiry into Missing and Murdered Indigenous Women and Girls (2019). *Reclaiming Power and Place: The Final Report of the National Inquiry into Missing and Murdered Indigenous Women and Girls*. National Inquiry.
 - Orange, C. (1987). *The Treaty of Waitangi*. Allen & Unwin.
 - Reverby, S. M. (2009). *Examining Tuskegee: The Infamous Syphilis Study and Its Legacy*. University of North Carolina Press.

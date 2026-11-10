@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-4-10-aktivisti-protokol", "ea-6-4-7-policejni-trauma-protokol", "ea-9-4-6-mass-comment-coordination", "ea-9-3-8-mass-reporting-coordination", "ea-2-3-8-doxxing-epistemicky"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.9"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

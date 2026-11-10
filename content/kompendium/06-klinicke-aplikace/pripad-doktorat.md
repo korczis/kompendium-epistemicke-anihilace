@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["preventivni-strategie", "pripad-akademie", "screening-instrumenty-detail", "self-report-instrumenty"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true
 access_level = "L2"

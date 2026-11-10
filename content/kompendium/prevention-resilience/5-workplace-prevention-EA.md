@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["16-employer-vigilance", "25-vocational-rehabilitation-prevention", "4-community-resilience-EA", "weaponized-incompetence", "gaslighting"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

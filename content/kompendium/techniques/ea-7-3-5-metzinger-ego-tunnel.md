@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-5-3-25-minimal-self-deformace", "ea-5-1-9-identitni-dezintegrace", "ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-3-4-telesna-disociace", "ea-7-3-6-thompson-mind-life", "ea-7-3-8-chalmers-hard-problem"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.5"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -89,8 +88,8 @@ Vývojová psychologie ukazuje, že i malé děti mohou podat spolehlivou výpov
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Katz, E. (2016). Beyond the physical incident model: How children living with domestic violence are harmed by and resist regimes of coercive control. *Child Abuse Review*, 25(1).
 - Lamb, M. E., Hershkowitz, I., Orbach, Y., & Esplin, P. W. (2008). *Tell Me What Happened: Structured Investigative Interviews of Child Victims and Witnesses*. Wiley.
-- Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., & Horowitz, D. (2007). A structured [forensic interview](@/glossary/forensic-interview.md) protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol. *Child Abuse & Neglect*, 31(11–12).
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.
+- Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., & Horowitz, D. (2007). A structured forensic interview protocol improves the quality and informativeness of investigative interviews with children: A review of research using the NICHD Investigative Interview Protocol. *Child Abuse & Neglect*, 31(11–12).
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. Norton.
 - London, K., Bruck, M., Ceci, S. J., & Shuman, D. W. (2005). Disclosure of child sexual abuse: What does the research tell us about the ways that children tell? *Psychology, Public Policy, and Law*, 11(1).
 - Nathan, D., & Snedeker, M. (1995). *Satan's Silence: Ritual Abuse and the Making of a Modern American Witch Hunt*. Basic Books.
 - Výbor OSN pro práva dítěte (2009). *General Comment No. 12: The right of the child to be heard* (CRC/C/GC/12). Organizace spojených národů.

@@ -11,7 +11,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-4-hermeneuticka-rekonstrukce", "ea-6-3-5-konsolidace-protokol", "ea-6-1-9-metakognitivni-functional-assessment", "ea-6-2-4-metacognitive-therapy-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.3.3"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.3 Rekonstrukční protokoly"

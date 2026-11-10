@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-4-2-latentni-emocionalni-modulace", "ea-1-5-1-emocni-podbarveni", "ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-5-terminologicka-mystifikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.5.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.5 Proxemické a kinetické techniky"
@@ -39,49 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **exploitace automatických psychologických a kognitivních efektů** asociovaných s fyzickou **proximitou** a **distancí**. Tyto efekty jsou **evolučně formované** — proximita signalizuje **intimitu/hrozbu**, distance signalizuje **respekt/vyloučení**. Manipulátor strategicky moduluje prostorovou dynamiku k indukci specifických psychologických stavů.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování proxemické baseline
+Strategická proxemika je pozorovatelná jako soulad mezi prostorem a obsahem rozhovoru: vzdálenost mezi lidmi se mění právě v okamžicích, kdy se mění sporný bod. Zasažený člověk hlásí tělesnou nepohodu, kterou nedovede odvodit z toho, co bylo řečeno, a přičítá ji závažnosti tématu. Hall (1966) popsal odstup mezi lidmi jako ustálenou soustavu pásem, jejichž porušení je registrováno okamžitě a téměř vždy mimo pozornost.
 
-Manipulátor etabluje **comfortable** proxemickou baseline — typicky **střední distance** (Hallova *social distance*, ~1.2–3.6 metru). Tato baseline je strategicky důležitá — slouží jako **referenční bod** pro pozdější modulaci.
+Retrospektivně se dá rozlišit, podle čeho se znaky skládají. Nápadný bývá nepoměr mezi ustáleným odstupem a odchylkami od něj v klíčových bodech rozpravy. Přiblížení provází body, kde je žádán souhlas, odstup nebo odvrácení naopak nesouhlas, takže prostorová odezva funguje jako odměna a trest, aniž by cokoli takového bylo vysloveno. K tomu přistupuje uspořádání místnosti — kdo sedí a kdo stojí, kdo je u dveří, kdo zády ke stěně. Hall, Coats a Smith LeBeau (2005) dokládají, že tyto znaky jsou v sociálním styku čteny jako znaky postavení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Strategická modulace pro specifické cíle
+Detekční markery zachycené níže odpovídají téže struktuře: změny v dechu a svalovém napětí bez zjevné příčiny, souhlas, k němuž se člověk nepamatuje rozhodnout, a vázanost určitých stavů na určitá místa. Knapp a Hall (2010) proto doporučují posuzovat sdělení i mimo situaci, v níž zaznělo — v záznamu, v jiném uspořádání prostoru, s odstupem.
 
-Manipulátor **moduluje** distance v reakci na specifické komunikační cíle:
-
-#### Approach (snížení distance)
-
-- **Indukce intimity** → tendence k souhlasu, snížení kritičnosti
-- **Indukce hrozby** → defensive response, freeze pattern
-- **Indukce afiliace** → emocionální bonding override rational evaluation
-
-#### Withdrawal (zvýšení distance)
-
-- **Indukce vyloučení** → social pain, motivace k re-conformity
-- **Indukce respektu** → epistemická deference
-- **Indukce isolace** → snížení ability k peer triangulation
-
-### Krok 3 — Synchronizace s rétorickými cíli
-
-Modulace je **strategicky synchronizovaná** s rétorickými cíli:
-
-- **Critical claim** → approach (intimita podporuje akceptaci)
-- **Disagreement** → withdrawal (vyloučení trestá disagreement)
-- **Identity reinforcement** → approach (bonding moment)
-- **Maintenance compliance** → modulace based on response
-
-### Krok 4 — Architecture exploitation
-
-Strategická proxemika operuje **také na úrovni** fyzického prostoru:
-
-- **Office layout** podporující asymetrické distance
-- **Conference seating** etablující hierarchie
-- **Door positioning** kontrolující entry/exit (klíčové v interrogation contexts)
-- **Spatial framing** sociálních interakcí (kdo stojí, kdo sedí)
-
-### Krok 5 — Konsolidace prostorové asociace
-
-Po opakované expozici subjekt **internalizuje asociaci** mezi prostorovou dynamikou a epistemickým stavem. Konkrétní spatial konfigurations evokují konkrétní cognitive states automaticky.
+*Interpretace knihy*: blízkost sama není nátlak a odstup není trest; obojí patří k běžnému styku a jeho výklad je silně kulturně podmíněn (Hall, 1966). Rozlišujícím znakem je, zda se prostorové uspořádání drží, nebo zda se mění spolu se sporným bodem — a zda člověk může odejít, aniž by to něco stálo.
 
 ## Fenomenologické znaky
 
@@ -252,6 +217,12 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 - **Decision-making protocols** — klíčová rozhodnutí Prismatic platformy preferují **written-first** protocols, snížící vliv proxemiky.
 - **Investigation interview protocols** — explicit guidelines pro proxemicky neutral setups.
 
+## Literatura
+
+- Hall, E. T. (1966). *The Hidden Dimension*. Doubleday.
+- Hall, J. A., Coats, E. J., & Smith LeBeau, L. (2005). Nonverbal behavior and the vertical dimension of social relations: A meta-analysis. *Psychological Bulletin*, 131(6).
+- Knapp, M. L., & Hall, J. A. (2010). *Nonverbal Communication in Human Interaction* (7th ed.). Wadsworth.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -271,21 +242,23 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

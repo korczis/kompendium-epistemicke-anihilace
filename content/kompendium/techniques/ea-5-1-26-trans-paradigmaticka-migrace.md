@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-25-singularni-narativni-kolaps", "ea-5-1-26", "ea-5-1-27-meta-epistemicka-redukce", "ea-5-1-28-konvergentni-singularita"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.26"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -42,40 +41,15 @@ Klíčový rozdíl proti běžnému intelektuálnímu vývoji spočívá ve **vy
 
 Trans-paradigmatická migrace produkuje **prekursorový stav** pro [EA-5.1.27 meta-epistemickou redukci](@/kompendium/techniques/ea-5-1-27-meta-epistemicka-redukce.md) — paradigmatická bezdomovina je optimální půdou pro akceptaci jediného meta-standardu.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Diagnostika počátečního paradigmatu
+Trans-paradigmatická migrace se pozorovateli ukazuje jako řada zásadních obratů, které na sebe navazují příliš rychle. Zasažený člověk vystřídal několik vzájemně neslučitelných výkladových rámců v krátké době, každý z nich popisuje jako vyšší patro toho předchozího a o žádném už neumí říct, co v něm bylo platné. Okolí přitom zaznamenává únavu z hledání, nepoměrnou vděčnost vůči současnému zdroji autority a úplnou absenci kritického odstupu od rámce, v němž právě je.
 
-Manipulátor identifikuje **základní interpretační rámec** subjektu — jeho kombinaci ontologických, epistemologických a axiologických předpokladů. Klíčové je rozpoznat:
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycen otřes výchozího rámce: anomálie, které nevysvětluje, společenské znehodnocení a citová cena za jeho udržení. Pak následují další rámce, z nichž každý vydrží právě tak dlouho, aby zpochybnil ten minulý, a nikdy tak dlouho, aby se usadil. Po několika cyklech se dostavuje vyčerpání — každá další nabídka vypadá jako další iluze, a přitom bez rámce se žít nedá. Nakonec je přijat rámec vydávaný za stojící nad všemi ostatními, a přijat je s malým odporem, protože jakékoli ukotvení je lepší než pokračující bezdomoví. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- Co subjekt považuje za **reálné** (ontologie)
-- Jak subjekt **poznává** (epistemologie)
-- Co subjekt považuje za **hodnotné** (axiologie)
+Detekční markery zachycené na této stránce odpovídají téže struktuře: rychlý sled rámců, řeč o další úrovni, neschopnost pojmenovat, co bylo platné dřív, popis současného rámce jako nad-paradigmatického a chybějící kritický vztah k němu.
 
-### Krok 2 — Cílená destabilizace
-
-Manipulátor systematicky **otřásá** počátečním paradigmatem skrz:
-
-- **Vystavení anomáliím**, které paradigma nedokáže vysvětlit
-- **Sociální delegitimizaci** — *„to už dnes nikdo seriózní nezastává“*
-- **Emocionální cenu** za udržování — frustrace, izolace
-- **Atraktivní alternativy**, které anomálie vysvětlují
-
-### Krok 3 — Migrace přes mezisaturaci paradigmat
-
-Subjekt je veden **sekvenčně** skrz několik paradigmat. Každé je prezentováno jako **konečné řešení** předchozího nedostatku, ale brzy je samo destabilizováno — typicky tak, že nové paradigma **vyzdvihuje hodnotu** předchozího kroku, ale demonstruje, že předchozí paradigma šlo *„jen dál po cestě“*.
-
-Sekvence často probíhá v vlnách: scientistický racionalismus → relativismus → holistická spirituality → integrální syntéza → meta-skepse → atd. Každá fáze trvá tak akorát na to, aby destabilizovala minulost, nikdy dost na konsolidaci.
-
-### Krok 4 — Vyčerpání paradigmatické imunity
-
-Po několika cyklech subjekt zažívá **kognitivní vyčerpání**: každý nově nabízený rámec se jeví jako *„další iluze“*. Zároveň však subjekt **nedokáže** existovat bez interpretačního rámce — vyčerpání plodí **akutní touhu** po stabilizujícím řešení.
-
-### Krok 5 — Nabídnutí „konečného“ rámce
-
-V momentu maximální paradigmatické bezdomoviny manipulátor nabízí **stabilizující [meta-rámec](@/kompendium/nlp-vzorce/sleight-of-mouth/som-meta-ramec.md)** — typicky prezentovaný jako *„nad-paradigmatický“*, *„za všemi paradigmaty“*, *„přímo pravda za vším konstruktem“*. Subjekt akceptuje s **minimální kritickou rezistencí**, protože jakákoli stabilizace je preferovaná před pokračující bezdomovinou.
-
-Akceptovaný meta-rámec je obvykle **doktrinální** — vyžaduje submisivitu vůči konkrétnímu zdroji autority (manipulátor, skupina, text).
+*Interpretace knihy*: měnit rámec není znakem vzorce — intelektuální vývoj to dělá také. Rozhoduje, co po předchozích rámcích zůstane: u vývoje integrovaná zkušenost, zde slepé uličky. Proč kompendium popisuje tento rozdíl jako strukturu, a ne jako nástroj, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -211,9 +185,9 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -224,8 +198,10 @@ Doktorand během 24 měsíců prošel: pozitivismus → konstruktivismus → kri
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-6-kategoricka-transgrese", "ea-5-1-7-referencni-rekurze", "ea-5-1-9-identitni-dezintegrace", "ea-5-2-1-meta-epistemicka-inverze"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.8"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -43,57 +42,15 @@ Technika cílí na [metakognitivní vrstvu](@/glossary/metakognitivni-destrukce.
 
 V terminologii [taxonomie EA](@/glossary/taxonomie-ea.md) je konceptuální fragmentace komplementární k [referenční rekurzi (EA-5.1.7)](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md): zatímco rekurze blokuje terminaci uvažování, fragmentace blokuje agregaci. Společně produkují plnou epistemickou paralýzu.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Mapování dosavadní integrované struktury
+Konceptuální fragmentace se pozorovateli ukazuje jako rozpor mezi znalostí a kompetencí. Zasažený člověk definuje jednotlivé pojmy přesně a umí je vyložit, ale ve složitější situaci je nedokáže dát dohromady; rozhodnutí, která dřív padala rychle, se protahují a místo jednání následuje další rozlišování úrovní. Okolí zaznamenává, že znalostí přibývá, zatímco schopnost rozhodnout klesá, a že dřívější cit pro obor, dřív okamžitý, vyžaduje dlouhé rozvažování.
 
-Manipulátor nejprve identifikuje, **jaké pojmové vazby** subjekt používá jako organizační páteř v cílové doméně. Příklady integrovaných struktur:
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zasažena nosná vazba oboru — řada, v níž na sebe pojmy navazovaly a dohromady tvořily použitelné porozumění. Jednotlivé pojmy se pak objevují v jiných souvislostech, v nichž samy o sobě obstojí, jenže původní spojení mezi nimi přestává být dostupné. Pokusy o jejich obnovení jsou vykládány jako naivita, zjednodušení nebo záměna úrovní, až je zasažený člověk přestane podnikat sám. Nabídnutá nová spojení bývají slabší, neověřitelná bez cizí autority a v praxi nevyzkoušená. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- *„Etika → odpovědnost → svoboda → autonomie"* (kantovsko-deontologické organizační schéma)
-- *„Příčina → následek → kontext → odpovědnost"* (klinicko-forenzní organizační schéma)
-- *„Diagnóza → mechanismus → léčba → prognóza"* (medicínské organizační schéma)
-- *„Mise → strategie → taktika → exekuce"* (organizační schéma řízení)
+Detekční markery zachycené na této stránce odpovídají téže struktuře: přesné definice vedle nesoudržného užití, neúměrně dlouhé složité rozhodování, přenechávání souhrnných úsudků autoritě a úzkost při pokusu o sjednocení.
 
-Mapování probíhá obvykle skrze **dlouhou observaci** subjektova diskursu — manipulátor nejprve porozumí, **jak** subjekt myslí, než začne strukturu rozkládat.
-
-### Krok 2 — Selektivní rekontextualizace fragmentů
-
-Každý fragment je postupně **přemístěn** do nového kontextu, ve kterém ztrácí původní vazby:
-
-- Pojem *odpovědnost* je opakovaně diskutován jako **právní** kategorie, čímž se odpojí od **etického** pole.
-- Pojem *svoboda* je redefinován jako **ekonomický** koncept, čímž se odpojí od **kantovské** etiky.
-- Pojem *autonomie* je rámován jako **psychologický** stav, čímž se odpojí od **politické** filozofie.
-
-Po dostatečném počtu rekontextualizací subjekt **rozumí každému pojmu samostatně v novém kontextu**, ale **původní vazby mezi nimi přestávají být dostupné**. Pojmy zůstávají, ale gramatika, která je svazovala, zmizela.
-
-### Krok 3 — Aktivní inhibice pokusů o reintegraci
-
-Když se subjekt pokusí pojmy **zpětně propojit** podle původní struktury, manipulátor reaguje:
-
-- *„To je naivní, takhle se to dnes už neuvažuje."*
-- *„Takhle to dělali staří kantiánci — pole se posunulo."*
-- *„Tohle je zaměňování úrovní — nepleť právní s etickým."*
-
-Reintegrace je systematicky delegitimizována jako **regrese**, **simplifikace**, nebo **kategoriální chyba**. Subjekt internalizuje inhibici a **přestává integrační pokusy iniciovat sám**.
-
-### Krok 4 — Zavedení **arbitrárních** alternativních propojení
-
-Manipulátor nabízí **nová propojení** mezi fragmenty, která jsou:
-
-- Strukturálně **slabší** než původní (méně predikční síly, více ad-hoc výjimek)
-- **Závislá na manipulátorově autoritě** (subjekt je nemůže ověřit nezávisle)
-- **Nevyzkoušená** v praxi (na rozdíl od původní struktury, kterou subjekt používal úspěšně)
-
-Subjekt přijímá nová propojení, ale praktická kompetence v doméně **klesá** — což manipulátor často interpretuje jako *„konečně se začínáš učit"*.
-
-### Krok 5 — Konsolidace ztráty integrační kompetence
-
-V pokročilé fázi subjekt:
-
-- **Recituje** jednotlivé pojmy bez schopnosti je smysluplně použít v komplexní situaci
-- **Vyhýbá se** komplexním rozhodnutím v dotčené doméně
-- **Deferuje** integrační úsudky na manipulátora nebo na *„autority"*
-- **Ztratí** původní funkční intuici (*„cit pro pole"*) bez toho, aby si to uvědomoval
+*Interpretace knihy*: rozlišovat jemněji je samo o sobě přínos — legitimní distinkce vazby přidává a učí nejen kdy rozlišit, ale i kdy rozlišování pustit. Rozpoznávacím znakem je odebrání vazeb bez náhrady a směr, který k vyšší integraci nevede; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -253,9 +210,9 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -266,8 +223,10 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

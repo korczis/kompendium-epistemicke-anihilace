@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-21-semanticka-vzpoury", "ea-5-4-22-logicka-paradox-eskalace", "ea-5-4-24-epistemic-vagueness-trap", "ea-5-4-25-soritska-paradox-zneuziti"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.23"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"
@@ -41,33 +40,26 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Modální logika pracuje od Kripkeho práce ze šedesátých let se sémantikou možných světů (Kripke, 1963): nutné je to, co platí ve
+všech dosažitelných světech, možné to, co platí aspoň v jednom. Potíž s identitou napříč světy
+formuloval Chisholm (1967): řetěz drobných záměn vlastností může osobu převést v jinou, aniž by
+kterýkoli jednotlivý krok byl sporný. Lewis (1973) k tomu přidal analýzu kontrafaktuálů. Všechno
+to jsou nástroje formální sémantiky; o tom, zda konkrétní rozhodnutí z člověka „dělá jiného
+člověka“, nevynášejí soud.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí, že vzorec tento rozdíl ruší a převádí jej na rozhodovací situaci. Zasažený člověk
+referuje, že nedokáže určit, kdo by vlastně rozhodoval, kdyby rozhodl jinak, a volbu proto
+odkládá. Doprovodnými znaky jsou odkládací konstrukce a trvalá podprahová úzkost bez konkrétního
+obsahu.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky objevují v pořadí: nejprve jsou volby rámovány jako nevratné proměny osoby, pak se
+vytrácí schopnost srovnávat alternativy, pak nastupuje volební paralýza a nakonec jsou běžná
+rozhodnutí přenesena na druhou stranu (Kramer & Alstad, 1993). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor strukturuje volby tak, že nutné implikace generují kontrafaktické rozpory („musíš X, ale kdybys X, byl bys jiný subjekt“). Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt nemůže rozhodnout, kdo by rozhodoval, kdyby rozhodl jinak — modální propast.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: modální úvaha s pevně vymezenou referenční doménou je zvládnutelná a její
+obnova bývá prvním znakem zotavení. Postup práce s takovým nálezem upravují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -86,11 +78,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -154,6 +146,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Kripke, S. A. (1963). Semantical considerations on modal logic. *Acta Philosophica Fennica*, 16, 83–94.
+- Chisholm, R. M. (1967). Identity through possible worlds: Some questions. *Noûs*, 1(1), 1–8.
+- Lewis, D. (1973). *Counterfactuals*. Blackwell.
+- Kramer, J., & Alstad, D. (1993). *The Guru Papers: Masks of Authoritarian Power*. North Atlantic Books.
 
 ## Související
 

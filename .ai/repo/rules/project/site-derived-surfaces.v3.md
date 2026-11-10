@@ -1,6 +1,6 @@
 ---
 id: project.site-derived-surfaces
-version: 2
+version: 3
 kind: rule
 title: Navigační a datové plochy webu jsou odvozené a interaktivní
 description: Mapa knihy, stav knihy, shell, graf okolí, zpětné odkazy, karty a metadata každé stránky se odvozují z obsahu a dat, nikdy se nepíšou ručně, a každá karta je odkaz.
@@ -72,6 +72,15 @@ Požadavek autora doslova (bez diakritiky, jak byl napsán; předala session
   5. přebarví se při změně `color-theme` a respektuje `prefers-reduced-motion` (p5.js a
      Three.js zastaví animaci, karusel nepřehrává sám).
 
+- **Interaktivní pohled pro každou třídu stránek** (pokyn autora 2026-11-10, předala session
+  2e: „pridej grafy, visualizc, simulace, interaktivitu, bsude, enforce it for fure via .ai/“):
+  každá třída stránek (oddíl podle `scripts/ia_model.py:section_of`) má aspoň jeden odvozený
+  interaktivní pohled, který na stránce této třídy ověřuje scénář `test/e2e/surfaces.cjs`.
+  Katalog ploch `static/data/surfaces.json` (šablony, data, skripty, pohledy a scénáře každé
+  třídy) se odvozuje z obsahu, šablon a sestaveného webu a nikdy se nepíše ručně; třída bez
+  pokrytého pohledu, která není na seznamu `KNOWN_GAPS`, sestavení zastaví, a seznam se smí jen
+  zmenšovat.
+
 # Failure behaviour
 
 Plocha, která něco píše ručně, ukazuje prázdný graf, nevede na stránky, nebo karta, která
@@ -86,7 +95,8 @@ se dřív, než se sloučí do `main`.
 pod produkční cestou) a jeho kontrola karet (každý kontejner karty je právě jeden odkaz na
 existující stránku; vlastní malá větev hned po této verzi, do té doby ji ověřuje recenze);
 `node ~/.claude/skills/flowbite-pro/verify.mjs .` s 0 nálezy; data hlídá
-`python3 scripts/build-graph.py --check`, `python3 scripts/build-ui-data.py --check`
+`python3 scripts/build-graph.py --check`, `python3 scripts/build-surfaces.py --check` (katalog
+ploch a pokrytí tříd stránek po sestavení, také ve `verify-content.sh`), `python3 scripts/build-ui-data.py --check`
 (manifest viz-deps odpovídá skriptům, bod 1 vizualizací) a
 `python3 scripts/render-section-graphics.py --check` (až přistane větev úvodní stránky; do té
 doby recenze); text úvodu hlídá `scripts/check-ia.py` nad `content/_index.md`. Bod 3 vizualizací hlídá axe

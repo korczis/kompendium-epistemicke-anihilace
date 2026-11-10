@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["deepfake", "info-ops", "hyperreality", "simulacra", "chain-of-custody", "doxing"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "deepfake"
 toc = false
 +++

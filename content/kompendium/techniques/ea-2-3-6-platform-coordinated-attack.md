@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-9-3-7-platform-coordinated-attack", "ea-2-3-4-mob-coordination", "ea-9-4-7-cross-platform-bot-cascade", "ea-9-4-2-coordinated-inauthentic-behavior", "info-ops", "deplatforming"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.6"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

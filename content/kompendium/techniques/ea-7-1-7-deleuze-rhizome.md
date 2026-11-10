@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-2-foucault-discipline", "ea-2-3-6-platform-coordinated-attack", "ea-9-4-2-coordinated-inauthentic-behavior", "graph-theory", "info-ops", "firehose-of-falsehood"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.7"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

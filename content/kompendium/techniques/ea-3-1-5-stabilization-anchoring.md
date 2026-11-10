@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-1-3-metacognitive-cultivation", "ea-3-1-4-epistemic-community-formation", "ea-3-1-6-recognition-training", "ea-3-1-7-neutralization-practicum"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.5"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Stabilizační kotvení** je technika opakované integrace **somatických, identitních a vztahových kotev** po expozici destabilizujícímu obsahu. Bez kotvení riskuje kurikulum reprodukci samotných scénářů, proti nimž školí — zejména scénáře G (kognitivní dekonstrukce). Kotvy nejsou symbolické rituály, ale [evidence-based](@/glossary/evidence-based.md) regulační intervence.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Stabilizační kotvení je pozorovatelné na tom, co se děje po setkání s destabilizujícím obsahem: zda se člověk vrací do běžného stavu, nebo v něm napětí přetrvává. Herman (1992) popsala stabilizaci jako první z fází zotavení a zdůraznila, že bez ní nemá práce s těžkým materiálem nápravnou hodnotu — jen jej opakuje.
 
-1. **Pre-exposure baseline** — HRV monitoring + subjektivní arousal scale před modulem.
-2. **In-session marking** — supervizor v reálném čase signalizuje destabilizační momenty.
-3. **Immediate post-exposure protocol** — 15min strukturovaná somatická regulace (4-7-8 dýchání + grounding).
-4. **Identity reaffirmation** — explicitní artikulace stabilní self-koncepce (nepředmětné/předmětné).
-5. **Relational anchor activation** — kontakt s důvěryhodnou osobou ze support network do 24 h.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve je zachytitelný obvyklý stav člověka, vůči němuž je vůbec možné rozpoznat odchylku. Pak se ukáže okamžik, v němž odchylka nastala, a schopnost ji v reálném čase pojmenovat. Dále nastupuje návrat k tělesné regulaci — orientace v prostoru, dech, pohyb — který Ogden, Minton a Pain (2006) popisují jako práci zdola nahoru, od těla k výkladu, nikoli obráceně. Nakonec se obnovuje vztahový kontakt s někým, kdo stojí mimo situaci. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle rozporu mezi hlášenou spokojeností a přetrvávajícím napětím. Lindahl a kol. (2017) zdokumentovali, že obtíže po intenzivní vnitřní práci bývají vykládány jako součást procesu, a proto nejsou hlášeny jako obtíže; rozpoznávají se spíš podle spánku, soustředění a chování mimo výuku.
+
+*Interpretace knihy*: rozlišujícím znakem není klid během setkání, nýbrž návratnost po něm. Kde se ztráta stability přijímá jako cena za hloubku, přestává kotvení chránit a stává se obřadem (Herman, 1992).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the Body: A Sensorimotor Approach to Psychotherapy*. W. W. Norton.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

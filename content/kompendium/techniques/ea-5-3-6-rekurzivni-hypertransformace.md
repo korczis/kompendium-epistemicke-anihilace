@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-42-self-objektifikace-totalni", "ea-5-3-5-temporalne-vyvojova-inverze", "ea-5-3-7-self-narrative-replacement", "ea-5-3-8-mnemonicka-rekonfigurace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.6"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Rekurzivní hypertransformace neukončuje subjektovu transformaci — namísto stabilizace nové self-konfigurace je každá konfigurace označena za 'pouze přechodnou' a podrobena další transformaci. Výsledkem je permanentní self-nestabilita, v níž manipulátor zůstává jediným fixním bodem.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí řadu radikálních proměn v krátkém čase, z nichž každá byla ohlášena jako konečná, a rostoucí vyčerpání, úzkost a depresivitu navzdory řeči o růstu. Rozpor mezi deklarovaným pokrokem a zhoršujícím se stavem je popsán u nežádoucích účinků intenzivních kontemplativních praxí (Lindahl et al., 2017).
 
-### Krok 1 — První transformace
+Retrospektivně se sled znaků jeví takto: po každé stabilizaci následuje označení dosaženého stavu za neúplný a další proměna, až chybí jakýkoli bod, který by člověk označil za výchozí. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Trvalý nárok na další očišťování bez dosažitelného konce odpovídá popisu požadavku čistoty v totalitním prostředí (Lifton, 1961).
 
-Subjekt podstupuje radikální self-rekonfiguraci s prezentovanou stabilitou jako konečným stavem.
+Zvenčí je doložitelné zejména to, že člověk nedokáže popsat svou budoucnost jinak než jako „něco pravdivějšího“, a že jediným stálým bodem zůstává jedna osoba. Takto udržovaná závislost patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Prohlášení nedokonalosti
-
-Manipulátor po stabilizaci označí stav za 'neúplný' a vyzve k další transformaci.
-
-### Krok 3 — Iterace
-
-Cyklus se opakuje — subjekt se nikdy neusadí v stabilní self-konfiguraci, je závislý na manipulátorovi pro 'navigaci ke správnému self'.
+*Interpretace knihy*: opakované zásadní změny samy o sobě nic neindikují, protože některé životy je skutečně obsahují. Odlišuje až nedosažitelnost konce a to, komu stav prospívá. Vyčerpání a depresivita v tomto obraze patří do klinického posouzení, které začíná bezpečím (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **rekurzivní hypertransformace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.6.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

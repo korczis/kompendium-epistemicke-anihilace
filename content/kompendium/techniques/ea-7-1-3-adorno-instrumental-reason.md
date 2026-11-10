@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-5-3-42-self-objektifikace-totalni", "ea-7-1-4-habermas-communicative-action", "ea-7-1-5-arendt-banality-evil", "instrumental-reason", "propaganda", "hodnotova-destrukce"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.3"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

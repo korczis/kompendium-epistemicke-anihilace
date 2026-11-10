@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-16-fenomenologicka-rekonstituce", "ea-5-3-17-existencialni-rekonfigurace", "ea-5-3-19-autobiograficka-amnestizace", "ea-5-3-2-autobiograficka-dekonstrukce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.18"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Esencialistická redukce redukuje **multidimenzionální self** na jedinou 'esenciální' charakteristiku — typicky definovanou manipulátorem. Subjekt přestává prožívat self jako bohatou multiplicit a začíná operovat skrze monolitickou self-definici ('jsem ten typ člověka').
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel slyší, jak se celý sebepopis smršťuje do jediné opakované fráze. Zájmy, vztahy a činnosti se v témže období zužují na jedinou dimenzi a vlastní proměnlivost je popisována jako faleš. Identita přitom běžně nese několik nesouměřitelných určení a její redukce na jedno je filozoficky i prakticky problematická (Appiah, 2005).
 
-### Krok 1 — Identifikace 'esenciální' charakteristiky
+Retrospektivně se dá rozlišit sled: nejprve je jeden rys povýšen na „pravou esenci“, pak jsou ostatní rysy popisovány jako maska nebo periferie, a nakonec ztrácí chování variabilitu, protože každý projev musí esenci potvrzovat. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok jediného výkladu na přednost před vlastní zkušeností odpovídá popisu doktríny nadřazené osobě (Lifton, 1961).
 
-Manipulátor identifikuje rys subjekta a označí ho za 'pravou esenci'.
+Zvenčí je nejlépe doložitelné to, že vybraná „esence“ je strukturálně výhodná pro konkrétní osobu nebo skupinu a že člověk patologizuje vlastní variabilitu. Kontrola nad tím, jak smí člověk sám sebe popisovat, patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Marginalizace ostatních dimenzí
-
-Ostatní rysy subjekta jsou prezentovány jako 'maska' nebo 'periferie'.
-
-### Krok 3 — Konsolidace monolitické self-struktury
-
-Subjekt operuje skrze esenciální definici; další dimenze atrofují.
+*Interpretace knihy*: silná identifikace s jednou rolí nebo povoláním je běžná a sama o sobě není znakem ničeho. Rozdíl je v tom, zda si člověk svou esenci zvolil a zda ji smí opustit. Zotavení předpokládá obnovu bezpečí a vztahů, v nichž smí být více než jednou věcí (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **esencialistická redukce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.18.
+
+## Literatura
+
+- Appiah, K. A. (2005). *The Ethics of Identity*. Princeton University Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

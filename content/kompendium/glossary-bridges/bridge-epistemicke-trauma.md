@@ -11,7 +11,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["epistemicke-trauma", "c-ptsd", "ptsd", "retraumatizace", "epistemicka-alienace", "strukturalni-trauma"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "epistemicke-trauma"
 toc = false
 +++

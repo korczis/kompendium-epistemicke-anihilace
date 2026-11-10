@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-18-cirkadianni-disrupce", "ea-5-5-19-ultradian-rozklad", "ea-5-5-20-pre-spaclni-restrukturalizace", "ea-5-5-21-dream-state-implantace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Somato-fenomenologická disrupce** narušuje subjektovo **body-schema** — pre-konceptuální tělesnou self-percepci, která organizuje pohyb, prostorové vnímání, body-mapping. Disrupce této úrovně zanechává subjekta v tělesné dezorientaci, která předchází jakékoli kognitivní reflexe.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že spontánní pohyb a prostorová orientace přestaly být samozřejmé. Pohyby působí nekoherentně, při popisu vlastního těla člověk cituje druhé a vyhledává intenzivní tělesné praxe, aby se „spojil s tělem“; zároveň bývají patrné známky odstupu od vlastní tělesnosti (Lindahl et al., 2017).
 
-### Krok 1 — Cílené narušení body-schema
+Sám mluví o tělesné dezorientaci, kterou nedokáže pojmenovat — „něco není v pořádku, ale nevím co“. Gallagher (2005) rozlišuje tělesné schéma, které pohyb organizuje mimo vědomí, od tělesného obrazu, k němuž máme přístup; narušení prvního se proto hlásí jako nevysvětlitelná cizost, ne jako stížnost na konkrétní obtíž.
 
-Specifické praktiky narušující habituální body-mapping (extreme posture, sensory deprivation, breath manipulation).
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá patrné prostředí, v němž je vlastní tělesná zkušenost prohlášena za nespolehlivou, pak převzatý výklad toho, jak se má tělo cítit, a nakonec závislost na druhém při běžné tělesné orientaci. Lifton (1961) popsal toto nadřazení nauky osobní zkušenosti jako znak totalistického prostředí. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Implantace alternativního body-schema
-
-Manipulátor poskytuje 'správné' body-schema — typicky vázané na doktrinu.
-
-### Krok 3 — Konsolidace cizího body-schema
-
-Subjekt operuje skrze implantát; baseline body-schema je vytraceno.
+*Interpretace knihy*: nálezem není cizí pohyb, ale ztráta vlastního měřítka tělesnosti.
 
 ## Fenomenologické znaky
 
@@ -128,17 +121,17 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **somato-fenomenol
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.2 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.2 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **somato-fenomenologická disrupce** v post-hoc forensní analýze:
-
-- **Primární marker**: Video-záznam: subjekt vyhledává tělesný kontakt s pevným povrchem (zeď, stůl) >3× během 5 minut — kompenzační proprioceptivní 'kotvení' při ztrátě tělesné jistoty.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Blanke, O. (2012). Multisensory brain mechanisms of bodily self-consciousness. *Nature Reviews Neuroscience*, 13(8).
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Gallagher, S. (2005). *How the Body Shapes the Mind*. Oxford University Press.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -183,15 +176,15 @@ Pro **objektivní detekci** aplikace techniky **somato-fenomenologická disrupce
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

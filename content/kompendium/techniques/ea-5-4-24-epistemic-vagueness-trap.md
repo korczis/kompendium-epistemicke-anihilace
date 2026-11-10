@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-22-logicka-paradox-eskalace", "ea-5-4-23-modalni-paradox-aplikace", "ea-5-4-25-soritska-paradox-zneuziti", "ea-5-4-26-heap-paradox-eskalace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.24"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"
@@ -41,33 +40,26 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Vágní predikát má případy hraniční — penumbru, v níž ani tvrzení, ani jeho popření nezní správně.
+Supervaluacionismus zachovává klasickou logiku tím, že kvantifikuje přes všechna přípustná
+zostření (Fine, 1975); epistemicismus tvrdí, že ostrá hranice existuje, jen ji nelze poznat
+(Williamson, 1994); fuzzy přístupy pracují se stupni příslušnosti (Zadeh, 1965). Jsou to různé
+teorie, nikoli jedna, a žádná z nich neopravňuje posouvat hranici podle potřeby mluvčího — právě
+to je jádro zneužití.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí posun prahu bez oznámení. Zasažený člověk referuje, že nikdy nedosahuje úrovně
+„dost jistého poznání“, protože ta se pokaždé ukáže být jinde, a postupně přestává své stavy vůbec
+klasifikovat. Doprovodným znakem je nárůst formulací bez jasné pravdivostní hodnoty.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky skládají takto: nejprve se objeví kritérium, které není vysloveno celé, pak se
+jeho hranice ukáže pohyblivá, pak nastupuje rezignace na vlastní klasifikaci a nakonec je vymezení
+„dostatečného“ přenecháno druhé straně; Stark (2007) popisuje tutéž strukturu u nevyslovených a
+měnících se pravidel jako nástroj kontroly. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor neustále posouvá hranici „dost jistého poznání“ — subjekt nikdy nedosahuje prahu pro své jistoty. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt přestává klasifikovat vlastní stavy — každá kategorie je vágně mimo dosah.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: diagnosticky rozhoduje, zda je kritérium vyslovitelné předem a zda platí pro
+obě strany. Toto rozlišení drží [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -86,11 +78,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -154,6 +146,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Fine, K. (1975). Vagueness, truth and logic. *Synthese*, 30(3–4), 265–300.
+- Williamson, T. (1994). *Vagueness*. Routledge.
+- Zadeh, L. A. (1965). Fuzzy sets. *Information and Control*, 8(3), 338–353.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

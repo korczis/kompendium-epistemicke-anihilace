@@ -25,11 +25,8 @@ standards = ["MITRE-ATT&CK", "OWASP", "NIST-CSF", "ISO-27001"]
 tools = ["PrismaticDark.Sandbox", "PrismaticDark.RedTeam.Taxonomy", "PrismaticDark.RedTeam.Campaign"]
 platforms = ["prismatic-platform", "beam-vm", "fly-io"]
 author = "Tomas Korcak (korczis)"
-reading_time = "12 min"
-word_count = 2346
 date_modified = "2026-11-10"
 keywords = ["Red", "Team", "Adversarial", "glossary", "security", "Prismatic Platform", "Red Team", "Purple Team"]
-quality_score = 90
 image = "/images/sections/glossary.png"
 image_alt = "Red Team (červený tým) – glosář"
 +++

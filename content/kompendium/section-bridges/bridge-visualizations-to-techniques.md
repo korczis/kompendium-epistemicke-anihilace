@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-techniques-to-visualizations", "bridge-visualizations-to-clinical", "bridge-techniques-to-glossary", "bridge-techniques-to-quick-reference"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 

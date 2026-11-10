@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["20-network-bot-coordination", "21-network-platform-coordination", "23-network-reputation-laundering", "24-network-deplatforming-cascade"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"
 +++

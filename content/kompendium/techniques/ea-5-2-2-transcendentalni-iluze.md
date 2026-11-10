@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-18-heideggerovska-rozklady", "ea-5-2-19-merleau-pontyovska-deformace", "ea-5-2-20-apperceptivni-rozklad", "ea-5-2-21-subjekt-objekt-fuzia"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -43,34 +42,17 @@ Klíčový paradox: subjekt v transcendentální iluzi **prožívá vyšší epi
 
 V kontrastu k [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md), která převrací epistemická pravidla **na meta-úrovni**, EA-5.2.2 generuje falešnou meta-úroveň jako takovou. Často se kombinují: meta-inverze potřebuje pseudo-transcendenci jako legitimizační vrstvu.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování epistemické nespokojenosti
+Pozorovatel vidí člověka, pro něhož se jediná zkušenost stala zdrojem jistoty o věcech, k nimž žádná zkušenost přístup nedává — o politice, o penězích, o druhých lidech. Jistota je nepoměrná k tomu, co by zkušenost mohla doložit, a její obsah nedokáže postižený vyložit jinak než odkazem na to, že u ní byl. Okolí hlásí, že námitku nelze vznést, aniž by byla sama vyložena jako nedostatek úrovně — znak, který mezi rysy totalistického prostředí popsal (Lifton, 1961).
 
-Manipulátor identifikuje a kultivuje **epistemickou nespokojenost** subjektu se „běžným“ videním světa. Klíčové formulace: *„Cítíš, že ti něco uniká?“*, *„Standardní vysvětlení tě nepřesvědčují?“*, *„Existuje hlubší úroveň, kterou většina nevidí.“* Cíl: **etablovat touhu** po překročení.
+Prostředí bývá uspořádáno do stupňů a každý stupeň má vlastní zkušenost a vlastní slovník. Takto odstupňované členství, v němž se příslušnost stvrzuje prožitkem a jeho výkladem, popisuje u náboženských skupin (Galanter, 1999); posvátnou nauku, zatížený jazyk a nadřazení doktríny osobě jako kritéria totalistického prostředí (Lifton, 1961), měřitelné dimenze téhož (Hassan, 2018).
 
-### Krok 2 — Inscenace pseudo-transcendentního zážitku
+Postižení popisují hlubokou pravdu, kterou nelze vyslovit; klesající snesitelnost běžného hovoru; a to, že jakýkoli pokus o kritický odstup prožívají jako sestup. Zpětně často uvádějí, že výklad zkušenosti dostali až po ní a od někoho jiného. Že silná náboženská zkušenost sama o sobě nic netvrdí o světě a nabývá obsahu teprve výkladem, rozpracoval (James, 1902); mechanismus, jímž praxe mění obvyklou strukturu vnímání, popsal (Deikman, 1966).
 
-Manipulátor organizuje **fenomenologicky silný zážitek**, který je prezentován jako transcendentální vhled. Modality:
+Zpětně se znaky skládají takto: nejprve rostoucí nespokojenost s běžným porozuměním, pak silná zkušenost v kontextu, který pro ni má připravený výklad, pak ztotožnění vlastní identity s pravdivostí tohoto výkladu a nakonec postup po stupních, z nichž není návratu bez znehodnocení všeho předchozího. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-- **Rituální / iniciační kontext** — postupné vylučování běžných senzorických referencí, přemýšlivá sugesce.
-- **Intenzivní intelektuální zážitek** — prezentace strukturované syntézy, která se zdá vysvětlovat „vše“.
-- **Farmakologická nebo somatická intervence** — kombinovaná s narativní strukturou.
-- **Komunitní synchronizace** — sdílení zážitku s ostatními, kteří potvrzují jeho výjimečnost.
-
-Strukturální rys: zážitek **není transcendentální** ve filozofickém smyslu — je to **specifický obsah** prezentovaný v rámci, který činí jeho kategorialní status nekontrolovatelným.
-
-### Krok 3 — Narativní rámování zážitku jako transcendentálního
-
-Po zážitku manipulátor poskytuje **interpretační rámec**, který přidělí zážitku status transcendentálního vhledu. *„To, co jsi prožil, je úroveň, ke které většina nikdy nedospěje.“* *„Teď vidíš věci tak, jak skutečně jsou.“* Subjekt přijímá rámec, protože alternativa (interpretovat zážitek jako pouze psychologický) by znehodnocovala fenomenologickou intenzitu.
-
-### Krok 4 — Identitární investice
-
-Subjekt **investuje vlastní identitu** do statusu „probuzeného“, „viditele“, „zasvěcence“. Identita se stává strukturálně závislou na pravdivosti transcendentálního statusu zážitku — uznání, že zážitek byl pouze fenomenologicky intenzivní, ale strukturálně běžný, by zničilo identitární investici.
-
-### Krok 5 — Konsolidace skrze hierarchii zasvěcení
-
-Manipulátor etabluje **hierarchii zasvěcení**, ve které je nutno postupně překračovat další „úrovně“. Každá další úroveň je dalším pseudo-transcendentním zážitkem, který je **kompatibilní s předchozím** v rámci narativní struktury. Subjekt ztrácí možnost se vrátit, protože návrat by znamenal **degradovat všechny předchozí zážitky**.
+*Interpretace knihy*: diferenciálně rozhoduje, zda zkušenost zvýšila, nebo snížila epistemickou skromnost; na riziko, že duchovní rámec zakryje poškození, upozorňuje (Deikman, 1990), a na soudržnost skupiny udržující neudržitelnou pozici (Festinger, Riecken & Schachter, 1956).
 
 ## Fenomenologie
 
@@ -86,8 +68,8 @@ Manipulátor etabluje **hierarchii zasvěcení**, ve které je nutno postupně p
 | Marker | Indikuje |
 |--------|----------|
 | Subjekt **odkazuje na zážitek** jako na zdroj jistoty, ale **nedokáže artikulovat jeho strukturu** | Pseudo-transcendentní status |
-| **Hierarchická organizace** komunity okolo "úrovní zasvěcení" | Krok 5 konsolidace |
-| **Identitární obrana** zážitku — kritika je interpretována jako útok na osobu | Krok 4 identitární investice |
+| **Hierarchická organizace** komunity okolo "úrovní zasvěcení" | Fáze — konsolidace |
+| **Identitární obrana** zážitku — kritika je interpretována jako útok na osobu | Fáze — identitární investice |
 | Subjekt používá **specifický terminologický rámec**, který činí externí kritiku nemožnou | Insulační narativní struktura |
 | **Globální vysvětlovací nárok** s nízkou specifičností | Strukturální pseudo-transcendence |
 | Subjekt **nedokáže rozlišit fenomenologickou intenzitu od epistemické legitimity** | Klíčový diagnostický rys EA-5.2.2 |
@@ -178,13 +160,26 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — pseudo-transcendence se zhroutí do sebereferenčního bodu.
-- **[EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)**.
 
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** odmítá rozhodnutí založená výhradně na **fenomenologické jistotě** bez korespondující evidenční stopy.
 - **OSINT framework** vyžaduje **multiple nezávislé zdroje** pro extraordinární tvrzení, čímž neutralizuje pseudo-transcendentní jednotlivý „vhled“.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** odděluje **konfidenci** (kalibrovanou pravděpodobnost) od **subjektivního pocitu jistoty**.
+
+## Literatura
+
+- Deikman, A. J. (1966). Deautomatization and the mystic experience. *Psychiatry*, 29(4), 324–338.
+- Deikman, A. J. (1990). *The Wrong Way Home*. Boston: Beacon Press.
+- Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.
+- Galanter, M. (1999). *Cults: Faith, Healing, and Coercion*. 2. vyd. New York: Oxford University Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- James, W. (1902). *The Varieties of Religious Experience*. New York: Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
 
 ## Související
 
@@ -199,21 +194,15 @@ Intervence: pomalá deradikalizace prostřednictvím individuálních vztahovýc
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

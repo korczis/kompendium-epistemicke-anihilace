@@ -10,7 +10,6 @@ categories = ["academic", "security"]
 
 [extra]
 related_terms = ["eticke-aspekty", "jak-pouzivat", "pro-koho-je-urceno"]
-parent = "kompendium-01-predmluva"
 section_icon = "🔐"
 toc = true
 +++
@@ -29,7 +28,7 @@ Tier-based klasifikace je kompromisem mezi dvěma extrémními pozicemi:
 Středovou cestou je **stratifikovaný přístup**, kde každá úroveň balancuje:
 
 1. **Užitečnost** — kolik práce uživatel skutečně může vykonat
-2. **Riziko** — jaká část poznání je dostupná
+2. Riziko — jaká část poznání je dostupná
 3. **Odpovědnost** — jaké závazky uživatel přijímá
 4. **Verifikace** — jak je prokázána způsobilost
 

@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-2-1-supervisor-certification", "ea-3-2-10-supervisor-self-care", "ea-3-2-3-emotional-regulation-mastery", "ea-3-2-4-metacommunication-skill"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.2.2"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.2 Supervizorské techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Multiparadigmatická fluence** je supervizorská kompetence pohybu mezi epistemologickými rámci (klinický, sociologický, kognitivně-vědní, fenomenologický, etický) bez redukce jednoho na druhý. Bez fluence supervizor systematicky prosazuje jednu perspektivu — což reprodukuje epistemický uzávěr, proti němuž EA edukace školí.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Multiparadigmatická fluence je pozorovatelná na tom, zda supervizor dokáže tentýž případ vyložit ve více rámcích, aniž by jeden převedl na druhý. Kuhn (1962) popsal potíž, která za tím stojí: rámce nesdílejí všechny pojmy ani měřítka, takže přechod mezi nimi není překlad, nýbrž změna toho, co se počítá za údaj.
 
-1. **Paradigm self-mapping** — explicitní artikulace vlastních primárních a sekundárních rámců.
-2. **Quarterly literature rotation** — strukturované čtení v non-primárním paradigmatu.
-3. **Cross-paradigm consultation** — supervizní kazuistiky analyzovány z minimum 3 perspektiv.
-4. **Visiting supervisor exchange** — periodická supervize od kolegy z jiného paradigmatu.
-5. **Annual fluency assessment** — peer rating multiparadigmatické pohyblivosti.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve si supervizor pojmenuje vlastní výchozí rámec a jeho meze. Pak se objevuje schopnost nabídnout alternativní výklad, byť zprvu jen jako cvičení. Dále přestává být volba rámce samozřejmá a stává se předmětem rozvahy; v kazuistikách se objevují dvě čtení vedle sebe. Nakonec je supervizor s to přiznat, že se v daném případě jeho vlastní rámec neosvědčil. Schön (1983) popisuje tuto schopnost jako rozhovor se situací, která klade odpor — a odpor je zde právě to, co rámec sám nezachytí. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle jednotvárnosti výkladů napříč nesourodými případy. Falender a Shafranske (2004) upozorňují, že supervizor nevyhnutelně předává i své teoretické předpoklady; kde nejsou vysloveny, předávají se jako fakta.
+
+*Interpretace knihy*: rozlišujícím znakem je dostupnost druhého čtení. Supervize, v níž lze říci „v jiném rámci to vypadá takto“, zůstává opravitelná; kde je takový návrh chápán jako zpochybnění autority, mění se vedení v uzavření (Schön, 1983).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Falender, C. A., & Shafranske, E. P. (2004). *Clinical Supervision: A Competency-Based Approach*. American Psychological Association.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

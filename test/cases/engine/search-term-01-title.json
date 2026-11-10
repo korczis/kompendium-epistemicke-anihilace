@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 564,
+        "in": 603,
         "kind": "Pojem",
         "path": "glossary/epistemicka-anihilace.md",
         "tier": 2,
@@ -55,7 +55,7 @@
       },
       {
         "code": null,
-        "in": 223,
+        "in": 224,
         "kind": "Kapitola",
         "path": "kompendium/05-ultramari-techniky/_index.md",
         "tier": 6,
@@ -65,7 +65,7 @@
       },
       {
         "code": null,
-        "in": 42,
+        "in": 37,
         "kind": "Kapitola",
         "path": "kompendium/07-teoreticke-reflexe/digitalni-vek.md",
         "tier": 6,
@@ -75,7 +75,7 @@
       },
       {
         "code": null,
-        "in": 29,
+        "in": 33,
         "kind": "Pojem",
         "path": "glossary/epistemicka-agentnost.md",
         "tier": 6,
@@ -95,7 +95,7 @@
       },
       {
         "code": null,
-        "in": 8,
+        "in": 9,
         "kind": "Kapitola",
         "path": "kompendium/04-klinika/_index.md",
         "tier": 6,

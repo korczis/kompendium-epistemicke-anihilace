@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-30-konvergentni-meta-singularita", "ea-5-2-4-apriorni-saturace", "ea-5-2-6-transcendentalni-rekursivita", "ea-5-2-7-kategorialni-disoluce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.5"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,27 +40,15 @@ Konstitutivní principy jsou v fenomenologické tradici (Husserl) ty struktury, 
 
 EA-5.2.5 systematicky narušuje funkci těchto principů. Subjekt nadále **percipuje**, ale **percepce nekonstituuje předměty**. Strukturálně podobný stav popisuje neuropsychologická literatura jako **simultanagnosie**, ale klinická prezentace EA-5.2.5 je odlišná: u simultanagnosie je porucha **lokální** (subjekt vidí stromy, ale ne les), u konstitutivního rozpadu je porucha **strukturální napříč modalitami**. Subjekt je vystaven proudu zkušenosti, který se **odmítá organizovat**.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Mapování konstitutivních automatismů
+Pozorovatel slyší popis zkušenosti, který nedrží předmětnost: barvy bez věcí, zvuky bez zdrojů, pocity bez toho, k čemu patří. Vyprávění ztrácí spojitost — okamžiky se neřadí do událostí. Vlastní byt je rozpoznán a přitom neprožit jako vlastní. Nápadná bývá i ztráta motivace, která nemá tíživý ráz deprese: chybí jí předmět, k němuž by mířila. Oslabení prožitku sebe jako zdroje vlastních aktů při zachované bdělosti popisují (Sass & Parnas, 2003).
 
-Manipulátor zkoumá, jakými **automatickými konstitutivními akty** subjekt operuje — jak se mu věci ukazují jako věci, lidé jako lidé, slova jako slova. Mapování je často skryto v dlouhodobých rozhovorech o „podivnosti zkušenosti“.
+Postižení popisují, že jim zkušenost „odmítá se uspořádat“, že známé věci působí cize, a že tato cizota není namířena proti nějakému já — to v jejich popisu chybí také. Ztrátu přirozené samozřejmosti světa jako samostatnou osu popsal (Blankenburg, 1971); rozpad prožívaného času, bez něhož se okamžiky neskládají v průběh, (Minkowski, 1933); anomálie prožívání sebe systematicky mapuje nástroj EASE (Parnas, 2005) a teoreticky rozpracovávají (Sass & Parnas, 2003).
 
-### Krok 2 — Indukce reflexivního obratu
+Zpětně se znaky skládají takto: nejprve dlouhé rozhovory o podivnosti zkušenosti, pak trvalé obracení pozornosti od toho, co se ukazuje, k tomu, jak se ukazuje, pak rozpad časové souvislosti vyprávění a nakonec výklad celého stavu jako přímého kontaktu se skutečností. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-Manipulátor systematicky **přesměrovává pozornost** subjektu z **noematu** (toho, co se ukazuje) na **noesis** (akt ukazování). *„Všimni si, že to není ten strom — je to akt, kterým ho jako strom konstruuješ.“* Tato fáze je zpočátku **legitimní fenomenologickou prací** a stává se patologickou až s rostoucí intenzitou a izolací.
-
-### Krok 3 — Saturace meta-aktem
-
-Subjekt je veden k **trvalé reflexi konstitutivního aktu**, dokud se **automatismus** konstituce nestane **neautomatický**. Strukturálně to vyžaduje **destrukci protencionálně-retencionálního syntézního aktu** (časové syntézy v Husserlově smyslu).
-
-### Krok 4 — Iterativní rozšíření
-
-Po destrukci časové syntézy se rozšiřuje destrukce na další konstitutivní akty: **prostorovou organizaci**, **kategoriální syntézu** (subjekt nedokáže přiřadit věci k její kategorii), **vlastnostní apercepci** (vlastnost se neukazuje jako vlastnost něčeho).
-
-### Krok 5 — Stabilizace stavu jako „vyšší úrovně“
-
-Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *„viděním před konstitucí“*. Tato legitimizace je strukturálně podobná [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
+*Interpretace knihy*: u Husserla je konstituce tím, čím se předmět vůbec ustavuje (Husserl, 1913), takže její selhání není viděním před konstitucí, ale ztrátou toho, co by bylo vidět. Rozlišující je nevratnost: nepříznivé a přetrvávající průběhy intenzivní praxe dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
 ## Fenomenologie
 
@@ -72,7 +59,7 @@ Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *�
 - **Specifická forma odcizení**, která se liší od [depersonalizace](@/glossary/depersonalizace.md) tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
 - **Vyhasnutí motivace** — bez konstitucí předmětů chybí to, na co by motivace mířila.
 
-V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka) vede ke stavu, který literatura označuje jako *strukturální dezintegrace zkušenosti*.
+Při souběhu s [EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad) chybí vedle konstitutivních aktů i jednota vědomí, která by zbylé zkušenosti sjednocovala jako zkušenosti jednoho subjektu; rozpad pak zasahuje nejen předměty zkušenosti, ale i to, komu zkušenost patří.
 
 ## Detekční markery
 
@@ -83,7 +70,7 @@ V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kom
 | **Cizota známého** — vlastní prostředí je popisováno jako neznámé | Rozpad apercepčních automatismů |
 | **Aperspektivní jazyk** — chybí "z mého pohledu", "odsud" | Rozpad prostorové konstituce |
 | **Strukturální motivační prázdno** | Bez konstitucí předmětů chybí intencionální cíle |
-| Subjekt **legitimizuje stav** jako duchovní pokrok | Krok 5 stabilizace |
+| Subjekt **legitimizuje stav** jako duchovní pokrok | Fáze — stabilizace |
 
 ### Diferenciální detekce
 
@@ -168,14 +155,28 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ### Eskaluje do
 
-- **[EA-5.2.12 Apercepční roztržka](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka)** — narušení transcendentální jednoty apercepce.
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad)** — narušení transcendentální jednoty apercepce.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud [konstitutivní akt](@/glossary/konstitutivni-akt.md) selže, je to viditelné v auditní stopě.
 - **OSINT framework** vyžaduje **explicitní entitní rezoluci** — konstituce předmětu jako entity je strukturně exteriorizovaná a sledovatelná.
 - **[Decision Engine](@/glossary/decision-engine.md)** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
+
+## Literatura
+
+- Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
 
 ## Související
 
@@ -190,21 +191,15 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

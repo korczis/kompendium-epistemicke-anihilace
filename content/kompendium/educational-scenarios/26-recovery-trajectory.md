@@ -66,7 +66,7 @@ Signály v tomto scénáři slouží k určení fáze a k včasnému zachycení 
   měsících, viz [rozpoznání relapsu](@/kompendium/emergency-protocols/33-relapse-recognition.md).
 - **Ztracené praktické kompetence** – doklady, peníze, úřady; bez nich nelze stabilizovat.
 - **Zachované zdroje** – teta, zájem o studium; to jsou budoucí kotvy.
-- **Rizikové faktory** – dluh, závislost na jedné osobě (teta), izolace od vrstevníků.
+- Rizikové faktory – dluh, závislost na jedné osobě (teta), izolace od vrstevníků.
 - **Akutní ohrožení** – sebepoškozující myšlenky by plán okamžitě přesměrovaly k
   [emergency protokolům](@/kompendium/emergency-protocols/_index.md).
 

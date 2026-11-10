@@ -1,6 +1,6 @@
 +++
 title = "7.36 Searle: Čínský pokoj a kritika silné AI"
-description = "John Searle a myšlenkový experiment Čínský pokoj, distinkce slabé/silné AI, sémantika vs. syntaxe — rámec pro kritickou analýzu nároků velkých jazykových modelů a algoritmické EA."
+description = "John Searle: argument čínského pokoje, silná a slabá AI, intencionalita, biologický naturalismus a institucionální fakta; kritika a výklad pro EA."
 weight = 36
 insert_anchor_links = "right"
 
@@ -10,130 +10,199 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["rorty-contingency", "sartre-existencialismus", "sen-development-as-freedom", "snyder-tyranny-essays"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.36 Searle: Čínský pokoj a kritika silné AI
 
-John Searle ve své známé eseji *Minds, Brains, and Programs* (*Behavioral and Brain Sciences*, 1980) formuluje **Argument čínského pokoje** (*Chinese Room Argument*) — myšlenkový experiment proti **silné AI** (silver AI: počítač **rozumí**) ve prospěch **slabé AI** (počítač **simuluje** rozumění).
+John R. Searle, americký filozof, který většinu kariéry působil na Kalifornské univerzitě v
+Berkeley, se proslavil nejprve teorií řečových aktů a poté statí *Minds, Brains, and Programs*,
+v níž představil myšlenkový experiment čínského pokoje (*Chinese Room Argument*). Argument míří
+proti tezi, kterou Searle nazval silnou umělou inteligencí: že vhodně naprogramovaný počítač
+doslova rozumí a má mysl (Searle, 1969; Searle, 1980).
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Searleho argument nástroj pro **kritickou analýzu nároků** velkých jazykových modelů (LLMs) a algoritmické EA — proti naivní inflaci AI rozumění.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) je Searle důležitý ze dvou důvodů. Jeho rozlišení
+syntaxe a sémantiky dává pojmový nástroj pro posouzení tvrzení, že systémy umělé inteligence
+„rozumějí“, „cítí“ nebo „chápou“, a jeho teorie institucionálních faktů ukazuje, jak společenská
+realita – peníze, soudy, instituce – závisí na kolektivním uznání, a je proto zranitelná. Stránka
+vykládá jeho teorie podle primárních děl, uvádí hlavní námitky a v oddílu označeném jako
+interpretace knihy ukazuje jejich použití (Searle, 1995).
 
-## 1. Argument čínského pokoje
+## Výklad teorie
 
-Představte si, že jste uzavřeni v pokoji s:
+### Silná a slabá AI
 
-- **Knihou pravidel** (algoritmus) v angličtině, jež říká, **jak transformovat** čínské znaky
-- **Vstupem**: papír s čínskými znaky vstupuje
-- **Výstupem**: vy, podle pravidel, vyplníte odpovídající znaky a posíláte ven
+Searle rozlišuje dvě teze. Podle slabé AI je počítač užitečným nástrojem pro studium mysli,
+protože umožňuje přesně formulovat a testovat hypotézy o kognitivních procesech. Podle silné AI
+není vhodně naprogramovaný počítač jen nástrojem, ale sám je myslí: o počítači se správným
+programem lze doslova říci, že rozumí a má kognitivní stavy (Searle, 1980). Searle slabou AI
+přijímá a silnou odmítá.
 
-Z vnějšku to vypadá, jako byste **rozuměli** čínsky — vstupní otázky a výstupní odpovědi jsou **smysluplné**. Ale **vy** čínsky **nerozumíte** — manipulujete pouze **syntaktickými** symboly.
+### Čínský pokoj
 
-Searleho závěr: **počítač** je v této strukturní pozici **vždy**. Manipulace symbolů (syntaxe) **není** rozumění (sémantika).
+Searle si představuje, že je zavřen v místnosti a neumí čínsky. Dostává lístky s čínskými znaky
+a má k dispozici příručku v angličtině, která mu říká, jaké znaky vrátit na jaké vstupy. Pokud je
+příručka dost dobrá, jeho odpovědi jsou pro čínsky mluvící lidi venku k nerozeznání od odpovědí
+rodilého mluvčího. Přesto Searle čínsky nerozumí – manipuluje jen formálními symboly podle jejich
+tvaru (Searle, 1980). Protože počítač dělá podle Searla v podstatě totéž, ani on nerozumí jen
+tím, že vykonává program.
 
-Pro EA má tento argument **klíčovou diagnostickou hodnotu**:
+Searle argument později shrnul do podoby úsudku: programy jsou čistě formální (syntaktické),
+lidské mysli mají obsah (sémantiku) a syntaxe sama o sobě nestačí k sémantice; z toho plyne, že
+programy samy nestačí k mysli (Searle, 1984). V knize *The Rediscovery of the Mind* přidal
+silnější tezi: syntaxe není vnitřní vlastností fyzikálních procesů, ale je jim přisuzována
+pozorovatelem (Searle, 1992).
 
-- **LLMs jako čínský pokoj**: GPT, Claude, Gemini operují strukturálně skrze syntaktickou manipulaci — **nerozumí** ve searleovském smyslu.
-- **Riziko antropomorfizace**: zacházení s LLM jako s **rozumějícím** subjektem je strukturálně **chybná inference**.
-- **Manipulativní zneužití antropomorfizace**: marketing AI systémů strukturálně **explouje** lidskou tendenci antropomorfizovat — strukturální technika EA.
+### Odpovědi a Searlovy repliky
 
-## 2. Slabá vs. silná AI
+Searle v původní stati sám rozebral několik námitek. Odpověď systémem tvrdí, že nerozumí člověk,
+ale celý systém pokoje; Searle odpovídá, že si lze představit, že se člověk naučí celou příručku
+nazpaměť, a ani pak čínsky rozumět nebude. Odpověď robotem navrhuje dát programu senzory a
+motorické výstupy; Searle odpovídá, že tím jen přibudou další formální vstupy. Odpověď simulátorem
+mozku navrhuje napodobit neurony; Searle odpovídá, že simulace kauzálních vlastností mozku není
+jejich zdvojením, stejně jako simulace bouřky nikoho nepromočí (Searle, 1980).
 
-Searle rozlišuje:
+### Intencionalita, Síť a Pozadí
 
-- **Slabá AI** (*weak AI*) — počítače jsou **užitečnými nástroji** pro studium mysli, **simulují** kognitivní procesy
-- **Silná AI** (*strong AI*) — počítače **mají mysl**, **doslova rozumí**, mají **subjektivní zkušenost**
+V knize *Intentionality* Searle rozvíjí teorii mentálních stavů zaměřených na svět. Každý
+intencionální stav má obsah a podmínky splnění a dává smysl jen v Síti (*Network*) dalších
+přesvědčení a přání a na Pozadí (*Background*) neintencionálních schopností a dovedností – umět
+chodit, rozpoznávat předměty, zacházet s věcmi –, které samy nejsou představami (Searle, 1983).
+Teorie [intencionality](@/glossary/intentionalita.md) je pro Searla důvodem, proč nelze mysl
+zredukovat na manipulaci se symboly.
 
-Searleho argument: **slabá AI je legitimní** vědecký program; **silná AI je strukturálně mylná**.
+### Biologický naturalismus
 
-Pro EA z toho plyne:
+Searlovo vlastní řešení problému mysli a těla nazývá biologický naturalismus: vědomí je
+skutečný biologický jev, způsobený neurobiologickými procesy a realizovaný v mozku, podobně jako
+trávení je jevem trávicí soustavy. Vědomí je ontologicky subjektivní – existuje jen jako prožitek
+někoho –, ale lze je zkoumat epistemicky objektivně (Searle, 1992). Searle tím odmítá jak
+dualismus, tak funkcionalismus a eliminativismus.
 
-- **Marketing silné AI**: tvrzení „AI rozumí“, „AI cítí“, „AI uvažuje“ jsou strukturálně **manipulativní** — buď nepodložená hypotéza, nebo metafora maskovaná jako tvrzení.
-- **Klinická aplikace**: AI nemůže **substituovat** terapeuta — terapeutický vztah strukturálně vyžaduje **rozumění**, jež AI strukturálně nemá.
-- **Edukační aplikace**: spoléhání na LLM jako **autoritu** je strukturálně **nebezpečné** — model nerozumí, pouze syntakticky transformuje.
+| Pozice | Co je mysl | Vztah k silné AI |
+|---|---|---|
+| Substanční dualismus | nemateriální substance | stroj mysl mít nemůže |
+| Funkcionalismus | funkční organizace, mnohonásobně realizovatelná | správný program by stačil |
+| Eliminativní materialismus | lidová psychologie je mylná teorie | otázka ztrácí smysl |
+| Biologický naturalismus (Searle) | biologický jev s kauzálními silami mozku | program nestačí, stroj se stejnými kauzálními silami by mohl |
 
-## 3. Background a Network
+### Konstrukce společenské reality
 
-V *The Construction of Social Reality* (1995) Searle rozvíjí pojmy:
+V knize *The Construction of Social Reality* Searle rozlišuje hrubá fakta, která existují nezávisle
+na lidech (hora, molekula), a institucionální fakta, která existují jen díky kolektivnímu uznání
+(peníze, manželství, vlastnictví, soudní rozhodnutí). Jejich logickou formou je pravidlo „X se
+počítá jako Y v kontextu C“: papír se počítá jako peníze, slib před úředníkem jako sňatek (Searle,
+1995). Kolektivní intencionalita uděluje statusové funkce, které s sebou nesou práva a
+povinnosti; v knize *Making the Social World* Searle ukazuje, že všechna institucionální fakta
+vznikají deklarací (Searle, 2010).
 
-- **Background** — pre-intencionální kapacity, jež umožňují intencionální stavy
-- **Network** — síť ostatních intencionálních stavů, jež dávají specifickému stavu smysl
+## Kritika a meze teorie
 
-Tyto pojmy strukturálně rezonují s Polanyiho **tichou znalostí** ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)) a Heideggerovým *Befindlichkeit*.
+Daniel Dennett považuje čínský pokoj za „pumpu intuic“, která čtenáře vede k chybnému závěru tím,
+že nepředstavitelně složitý systém líčí jako jednoho člověka s příručkou. Odpověď systémem podle
+něj Searle nevyvrátil: že nerozumí člověk v pokoji, nevylučuje, že rozumí celek (Dennett, 1991).
+Paul a Patricia Churchlandovi přirovnali argument k námitce, že světlo nemůže být
+elektromagnetickým vlněním, protože mávání magnetem místnost neosvětlí; intuice o tom, co by
+mělo nastat, podle nich nerozhoduje o tom, co nastane (Churchland a Churchland, 1990).
 
-Pro EA z toho plyne:
+Stevan Harnad přijal část Searlova závěru a přeformuloval jej jako problém ukotvení symbolů:
+symboly systému musí být spojeny se smyslovým a motorickým kontaktem se světem, jinak jejich
+význam zůstává parazitní na interpretaci pozorovatele (Harnad, 1990). Sborník, který uspořádali
+Preston a Bishop (2002), dokládá, že po dvou desetiletích debaty neexistuje shoda, zda argument
+platí, ani v čem přesně je jeho chyba, pokud nějaká je.
 
-- **AI postrádá background**: LLMs operují bez **vtěleného** backgroundu, jenž lidskému rozumění **dává smysl**.
-- **Útok na background**: techniky, jež **rozkládají** subjektovo pre-intencionální zakotvení (chronická dezorientace, sensorická deprivace), strukturálně podkopávají rozumění.
+V debatě o velkých jazykových modelech se argument vrátil. Bender a Koller (2020) tvrdí, že model
+učený jen na jazykové formě nemůže dosáhnout významu, protože význam je vztahem formy ke
+komunikačnímu záměru a ke světu. Chalmers (2023) naopak považuje otázku vědomí a porozumění
+takových systémů za otevřenou a závislou na jejich budoucí architektuře. Searlův biologický
+naturalismus bývá kritizován i proto, že neříká, které kauzální vlastnosti mozku jsou pro vědomí
+podstatné (Dennett, 1991).
 
-## 4. Konstrukce sociální reality
+## Interpretace pro kompendium
 
-Searle (*The Construction of Social Reality*, 1995): **institucionální fakta** (peníze, manželství, vlastnictví) jsou strukturálně **konstruována** kolektivními intencionálními akty — strukturou „*X počítáno za Y v kontextu C*“.
+Následující oddíl je interpretací knihy, nikoli Searlovým tvrzením. Kniha nerozhoduje spor o
+porozumění strojů; přebírá z něj rozlišení syntaxe a sémantiky, které je užitečné bez ohledu na
+jeho výsledek, a teorii institucionálních faktů (Searle, 1980; Searle, 1995).
 
-Pro EA z toho plyne:
+### Připisování porozumění
 
-- **Institucionální fakta jsou strukturálně zranitelná**: pokud kolektivní [intencionalita](@/glossary/intentionalita.md) kolabuje, instituce kolabují.
-- **Útok na kolektivní intencionalitu**: techniky, jež **rozkládají** sdílenou kapacitu pro institucionální fakta, strukturálně **anihilují** institucionální realitu.
-- **Klinický korelát**: subjekt, jenž **nedůvěřuje** institucionálním faktům (penězům, kontrolám, soudům), vykazuje **strukturální paranoid** — strukturální analog Davidsonovské krize charity ([viz 7.25](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)).
+Joseph Weizenbaum popsal, jak lidé připisovali porozumění a empatii jednoduchému programu ELIZA,
+který jen přeformulovával jejich vlastní výroky, a varoval před nasazením takových systémů v
+terapii (Weizenbaum, 1976). Kompendium za rozpoznatelný vzorec považuje situaci, kdy je
+připisování porozumění záměrně posilováno – systém je prezentován jako přítel, důvěrník nebo
+autorita, a uživatel si k němu vytvoří [pseudoempatickou vazbu](@/glossary/pseudoempaticka-vazba.md).
+Searlovo rozlišení syntaxe a sémantiky připomíná, že plynulá odpověď sama nedokazuje porozumění
+(Searle, 1980).
 
-## 5. Biologický naturalismus
+### Autorita stroje
 
-Searle formuluje **biologický naturalismus**: vědomí je **biologickým fenoménem**, podobně jako trávení nebo dýchání. Strukturálně to **odlišuje** od:
+Druhým vzorcem je přenesení autority na výstup stroje. Parasuraman a Riley (1997) popsali, jak
+lidé automatizaci nadměrně důvěřují a přestávají kontrolovat její chyby. Tvrzení „systém to
+spočítal“ nebo „model to potvrdil“ může sloužit stejně jako dřívější „věda dokázala“: uzavírá
+diskusi, aniž by ukázalo zdroje a meze. Kompendium proto výstupy strojů posuzuje jako tvrzení,
+která vyžadují ověření, a za odpovědnost za ně považuje vždy člověka (Weizenbaum, 1976).
 
-- **Substanční dualismus** (Descartes): vědomí je **nemateriální**
-- **Funkcionalismus** (Putnam, Fodor): vědomí je **mnohonásobně realizovatelné** v jakémkoli substrátu
-- **Eliminativismus** (Churchland): vědomí **neexistuje**
+### Zranitelnost institucionální reality
 
-Searle: vědomí **existuje**, ale je strukturálně **biologicky** vázáno.
+Searlova teorie institucionálních faktů vysvětluje, proč kampaně, které soustavně popírají
+legitimitu soudů, voleb nebo odborných institucí, nepůsobí jen na názory: institucionální fakt
+existuje jen tak dlouho, dokud jej dostatek lidí uznává (Searle, 1995). Kompendium tento vzorec
+popisuje jako [delegitimizaci](@/glossary/delegitimizace.md) a odlišuje jej od legitimní kritiky
+institucí, která navrhuje nápravu a sama se opírá o ověřitelná fakta. Varovným znakem je
+plošné tvrzení, že „nic z toho není skutečné“, spojené s nabídkou jediné alternativní autority.
 
-Pro EA z toho plyne:
+### Obrana
 
-- **Implications pro AI**: silná AI by vyžadovala **biologický** substrát, nikoli pouze funkční.
-- **Riziko biologického reduktivismu**: tato pozice může být **manipulativně** zneužita pro popírání non-lidských vědomí.
+Obranou je trvat na tom, aby každé tvrzení – lidské i strojové – mělo zdroj a podmínky, za nichž
+by bylo nepravdivé, a nepřipisovat porozumění a péči tomu, kdo nebo co je neprokazuje jinak než
+plynulostí řeči (Bender a Koller, 2020). V klinické práci kompendium vychází z Weizenbaumova
+varování: terapeutický vztah předpokládá odpovědnost a porozumění, které nelze delegovat na
+systém, jehož porozumění je přinejmenším sporné (Weizenbaum, 1976).
 
-## 6. Mapping na EA techniky
+## Otevřené otázky
 
-| Searle | EA technika | Mechanismus |
-|--------|-------------|-------------|
-| Antropomorfizace AI | AI marketing | EA-1.5 |
-| Inflace silné AI | Pseudo-AI rozumění | Strukturální |
-| Útok na background | Sensorická deprivace | Klinický |
-| Útok na kolektivní intencionalitu | [Delegitimizace](@/glossary/delegitimizace.md) institucí | EA-3.x |
-| Pseudo-syntaxe jako sémantika | Algoritmická imitace | Strukturální |
+Otevřené zůstává, zda je Searlův argument platný, nebo zda odpověď systémem obstojí (Preston a
+Bishop, 2002), a zda modely spojené se senzory a jednáním ve světě ukotvení symbolů dosáhnou
+(Harnad, 1990). Pro tuto knihu je stejně důležitá praktická otázka, jak chránit lidi před
+připisováním porozumění tam, kde jeho přítomnost nelze ověřit (Weizenbaum, 1976).
 
-## 7. Klinický význam
+## Literatura
 
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **AI nemůže nahradit lidský terapeutický vztah**: rozumění je strukturálně biologicky a sociálně vázáno.
-- **AI jako podpůrný nástroj**: legitimní využití (administrativa, dokumentace, edukace), nikoli substituce.
-- **Riziko závislosti na AI „compagnonu“**: strukturálně zhoršuje schopnost autentických intersubjektivních vztahů.
-
-## 8. Kritická distance
-
-Kompendium absorbuje Searleho argument, ale **odbočuje** v několika bodech:
-
-1. **Riziko biologického reduktivismu**: Searle strukturálně **upřednostňuje** lidské vědomí — kompendium zachovává **otevřenost** pro non-lidská vědomí.
-2. **Anti-funkcionalistická rigidita**: některé funkcionalistické intuice mohou být **užitečné** (např. pro neurální korelace), aniž by vyžadovaly silnou AI.
-
-## 9. Primární literatura
-
-- Searle, J. (1980). „Minds, Brains, and Programs“. *Behavioral and Brain Sciences* 3.
-- Searle, J. (1992). *The Rediscovery of the Mind*. MIT Press.
-- Searle, J. (1995). *The Construction of Social Reality*. Free Press.
-- Searle, J. (2004). *Mind: A Brief Introduction*. Oxford UP.
-- Preston, J. & Bishop, M. (eds.) (2002). *Views into the Chinese Room*. Oxford UP.
+- Bender, E. M. a Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. In *Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics*.
+- Chalmers, D. J. (2023). Could a large language model be conscious? *Boston Review*.
+- Churchland, P. M. a Churchland, P. S. (1990). Could a machine think? *Scientific American*, 262(1).
+- Dennett, D. C. (1991). *Consciousness Explained*. Little, Brown.
+- Harnad, S. (1990). The symbol grounding problem. *Physica D*, 42.
+- Parasuraman, R. a Riley, V. (1997). Humans and automation: Use, misuse, disuse, abuse. *Human Factors*, 39(2).
+- Preston, J. a Bishop, M. (ed.) (2002). *Views into the Chinese Room: New Essays on Searle and Artificial Intelligence*. Oxford University Press.
+- Searle, J. R. (1969). *Speech Acts: An Essay in the Philosophy of Language*. Cambridge University Press.
+- Searle, J. R. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, 3(3).
+- Searle, J. R. (1983). *Intentionality: An Essay in the Philosophy of Mind*. Cambridge University Press.
+- Searle, J. R. (1984). *Minds, Brains and Science*. Harvard University Press.
+- Searle, J. R. (1992). *The Rediscovery of the Mind*. MIT Press.
+- Searle, J. R. (1995). *The Construction of Social Reality*. Free Press.
+- Searle, J. R. (2010). *Making the Social World: The Structure of Human Civilization*. Oxford University Press.
+- Weizenbaum, J. (1976). *Computer Power and Human Reason: From Judgment to Calculation*. W. H. Freeman.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
-- [7.35 Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md)
-- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
-- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
-- [Glosář: Metakognice](@/glossary/metakognice.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – rozcestník sekce.
+- [Dennett: Intentional Stance](@/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md) – hlavní protivník Searlova argumentu.
+- [Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md) – otázka vědomí, kterou čínský pokoj nechává otevřenou.
+- [Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) – poznání zprostředkované algoritmy.
+- [Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md) – Pozadí dovedností jako tichá dimenze porozumění.
+- [Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – výpočetní [teorie mysli](@/glossary/theory-of-mind.md) a její alternativy.
+
+**Glosář**
+
+- [Intencionalita](@/glossary/intentionalita.md) – zaměřenost mentálních stavů, kterou syntax nevysvětlí.
+- [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md) – vztah k systému, který porozumění jen simuluje.
+- [Delegitimizace](@/glossary/delegitimizace.md) – útok na kolektivní uznání institucí.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy, z níž kniha vzešla, s požadavkem ověřitelného původu tvrzení.
+
+**Filozofie knihy**
+
+- [Epistemická integrita](@/philosophy/epistemic-integrity.md) – odpovědnost za tvrzení, kterou nelze delegovat na stroj.

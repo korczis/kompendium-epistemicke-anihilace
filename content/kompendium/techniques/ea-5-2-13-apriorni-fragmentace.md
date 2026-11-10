@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.13 Apriorní fragmentace"
-description = "Detailní per-technique článek: technika apriorní fragmentace — destrukce apriorních forem smyslovosti (prostor, čas) na nesouvislé úseky. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Per-technique článek: technika apriorní fragmentace — destrukce apriorních forem smyslovosti (prostor, čas) na nesouvislé úseky. Struktura vzorce, fenomenologie, detekční markery, neutralizace."
 weight = 5213
 insert_anchor_links = "right"
 
@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-11-kategorialni-anihilace", "ea-5-2-12-noumenalni-paralyza", "ea-5-2-14-konstitutivni-zhrouceni", "ea-5-2-15-transcendentalni-implosion"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.13"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,27 +40,15 @@ V Kantově terminologii: *transcendentální estetika* (Aesthetik) postuluje pro
 
 Subjekt v terminálním stadiu prožívá svět jako **galerii nespojitých snímků** — „skok“ z místa na místo, „skok“ z momentu na moment, bez prožívané kontinuity, jež by je sjednocovala. Paměť přetrvává obsahově, ale ztrácí časovou koherenci.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Identifikace prostoročasových markerů
+Apriorní fragmentace se pozorovateli ukazuje jako přetržená souvislost prostoru a času v samotném prožívání. Zasažený člověk nedokáže zrekonstruovat sled událostí vlastního dne, ztrácí se ve známém prostředí a popisuje, že věci se objevují v nových polohách bez plynulého přechodu a že mezi událostmi chybí čas. Vzpomínky má, ale vypadly z časové řady; dezorientaci přitom prokládá nadšením a vykládá ji jako probuzení mimo iluzi času.
 
-Manipulátor identifikuje, jakými mechanismy subjekt udržuje koherentní prostoročasovou strukturu — typicky rutiny, prostorové orientační body, časové rytmy.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývají zasaženy opory, které prostorovou a časovou souvislost běžně drží: rytmus spánku, jídla a pohybu v prostoru, orientační body a rutina. Souběžně je lineární čas prohlášen za iluzi a prostor za konstrukt, často s odvoláním na fyzikální pojmy přenesené na rovinu prožitku, kam nepatří. Dál přibývají praxe, které nespojitost prožívání nacvičují. Nakonec se výsledná dezorientace vyloží jako vhled a spojí se s vlastní identitou. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Pseudo-revoluční reframing
+Detekční markery zachycené na této stránce odpovídají téže struktuře: nemožnost zrekonstruovat sled dne, prostorová dezorientace ve známém prostředí, rozbitý denní rytmus a disociační epizody vykládané jako vhled.
 
-Subjekt je veden k přesvědčení, že „lineární čas je iluze“ a „euklidovský prostor je konstrukt“. Často se odkazuje na pseudo-fyzikální koncepty (kvantová superpozice, blokový vesmír), aplikované na prožitkovou rovinu.
-
-### Krok 3 — Destrukce rytmu a rutiny
-
-Manipulátor systematicky narušuje subjektovy rytmy — spánkové cykly, jídlo, prostorovou rutinu. Cílem je rozbít behaviorální markery, které stabilizují apriorní formy.
-
-### Krok 4 — Saturace fragmentačními cvičeními
-
-Subjekt podstupuje „praxe“ demonstrující údajnou ne-lineárnost času (intenzivní meditace, retreaty s přerušenou denní strukturou, psychedelika). Cvičení vytvářejí **proceduralizovanou fragmentaci**.
-
-### Krok 5 — Konsolidace dezorientace jako vhledu
-
-Stav prostoročasové fragmentace je interpretován jako **probuzení mimo iluzi času**. Identitární investice v tuto narativizaci činí stav rezistentním.
+*Interpretace knihy*: tematizovat prostor a čas jako formy zkušenosti je legitimní fenomenologická práce — Husserl, Heidegger i Merleau-Ponty ji vedli tak, že formální popis výslovně oddělovali od prožitkové struktury a praktickou orientaci nerušili. Rozpoznávacím znakem je opak: orientace se rozpadá a popis slouží k jejímu ospravedlnění. Odlišení od disociačních poruch, které vznikají po traumatu, patří klinické supervizi, jak uvádějí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -139,18 +126,21 @@ Apriorní fragmentace je odlišitelná od:
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intencionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
 - Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
 - Pokud diagnostikuješ na sobě, konzultuj se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

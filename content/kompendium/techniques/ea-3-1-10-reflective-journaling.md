@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-2-5-9-identity-uncertainty-cult", "ea-3-1-1-graduated-exposure-design", "ea-3-1-2-experiential-scaffolding", "ea-3-1-3-metacognitive-cultivation"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.10"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Reflektivní žurnálování** je technika dlouhodobého strukturovaného písemného záznamu epistemických zkušeností, perturbací, integračních procesů a meta-reflexe. Žurnál slouží trojí funkci: **integrační** (proces zpracování), **diagnostická** (zachycení vzorců) a **evaluační** (důkaz vývoje pro supervizora).
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Reflektivní žurnálování je pozorovatelné na tom, co se v zápiscích v čase mění: zda přibývá souvislosti mezi událostí, úvahou a tím, co z ní plyne. Pennebaker (1997) ukázal, že příznivý účinek psaní o vlastní zkušenosti souvisí právě s rostoucí uspořádaností textu, nikoli s jeho citovou intenzitou.
 
-1. **Format selection** — strukturovaný (rubriky) vs. volný (open-ended); volba dle preference.
-2. **Daily entry minimum** — 10min záznam i v dnech bez výrazné události.
-3. **Weekly review** — vlastní čtení posledního týdne s pattern detection.
-4. **Monthly supervisor share** — selektivní výňatky pro supervizní reflexi.
-5. **Annual longitudinal review** — agregovaná analýza ročního vývoje.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve jde o záznam událostí, často strohý a popisný. Pak se v zápiscích objevují vlastní výklady a s nimi i rozpory mezi nimi. Dále přibývá zpětného čtení vlastních starších zápisů, při němž jsou rozpoznávány opakující se vzorce — Boud, Keogh a Walker (1985) popisují právě tento návrat jako místo, kde se ze zkušenosti stává poznatek. Nakonec se mění role zápisků: z výkazu se stávají pracovním nástrojem. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, že zápisky píšou pro čtenáře, který je bude hodnotit. Schön (1983) upozorňuje, že reflexe vázaná na posouzení ztrácí svou funkci: zaznamenává se to, co se čeká, nikoli to, co se dělo.
+
+*Interpretace knihy*: rozlišujícím znakem je, kdo zápisky vlastní. Kde o jejich sdílení rozhoduje pisatel a kde zůstává právo nesdílet nic, slouží žurnál integraci; kde je sdílení podmínkou, stává se z něj hodnotící nástroj (Boud, Keogh a Walker, 1985).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Boud, D., Keogh, R., & Walker, D. (Eds.) (1985). *Reflection: Turning Experience into Learning*. Kogan Page.
+- Pennebaker, J. W. (1997). Writing about emotional experiences as a therapeutic process. *Psychological Science*, 8(3).
+- Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

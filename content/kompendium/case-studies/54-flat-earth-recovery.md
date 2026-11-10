@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["52-pseudoscience-recovery", "53-anti-vaxx-recovery", "55-qanon-recovery", "56-incel-deep-recovery"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++

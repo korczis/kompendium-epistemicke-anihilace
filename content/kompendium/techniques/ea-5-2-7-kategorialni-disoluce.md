@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-5-konstitutivni-rozpad", "ea-5-2-6-transcendentalni-rekursivita", "ea-5-2-8-perspektivisticky-kolaps", "ea-5-2-9-konceptualni-aporie"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.7"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -43,27 +42,15 @@ Klíčový diagnostický rys: subjekt v disoluci **nedokáže** odpovědět na z
 
 V kontrastu s běžnou afázií nebo agnozií, které jsou neurologickými poruchami specifických funkcí, kategoriální disoluce je **strukturální** porucha napříč kategoriemi a vyplývá z **rekonstruovatelné** epistemické historie — ne z neurologické patologie.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Příprava skrze sousední techniky
+Pozorovatel pozná tento stav podle toho, že nelze odpovědět na nejjednodušší otázky: kolik je zde lidí, jaké je to barvy, co s čím souvisí, zda je to možné nebo nutné. Nejde o nevědomost ani o neochotu — chybí rozměr, v němž by odpověď dávala smysl. Vyprávění se nerozpadá do nesouvislých vět, ale do sledu, který se neskládá v události. Ztrátu samozřejmosti, s níž se svět obvykle ukazuje, popsal jako samostatnou osu (Blankenburg, 1971).
 
-Disoluce je obvykle **vyvrcholením** delší sekvence: rekurzivní destabilizace, konstitutivní rozpad, apriorní saturace. Manipulátor zřídka cílí přímo na disoluci; spíše ji **dosáhne** skrze předchozí kroky.
+Postižení popisují „neurčitou úplnost“: vše se ukazuje a nic není něco. Barvy a zvuky plynou jako měnící se intenzity bez určení; rozdíl mezi možným, nutným a skutečným mizí a vše se prožívá v jediném nerozlišeném „je“. Ztrátu přirozené samozřejmosti jako samostatnou osu popsal (Blankenburg, 1971), rozpad prožívaného času (Minkowski, 1933), anomálie prožívání sebe mapuje (Parnas, 2005).
 
-### Krok 2 — Zviditelnění kategorialní funkce
+Zpětně se znaky skládají takto: nejprve delší období dílčích otřesů, pak soustředěná reflexe toho, jak zkušenost sama pořádá, pak trvalé pozastavení této funkce a nakonec výklad výsledného stavu jako jednoty a přímého kontaktu, který společenství potvrzuje. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zatížený jazyk, který stav zároveň popisuje i chrání před námitkou, popsal (Lifton, 1961); mechanismus, jímž praxe odnímá vnímání jeho obvyklou strukturu, (Deikman, 1966).
 
-Subjekt je veden k **explicitní reflexi** kategorialní organizace zkušenosti. *„Všimni si, jak strukturuješ vše do kategorií.“* Tato fáze je **stejně jako u EA-5.2.5/5.2.6** legitimní fenomenologickou prací do specifického bodu.
-
-### Krok 3 — Indukce *epoché* kategorialní funkce
-
-Manipulátor směřuje subjekta k **závorkování kategorialní organizace samé**: *„Co kdyby ses pokusil prožít zkušenost bez kategorií?“* Tato instrukce, prováděná intenzivně a izolovaně, indukuje **rozpad** kategoriální funkce.
-
-### Krok 4 — Konsolidace stavu jako „vyšší úrovně“
-
-Stav disoluce je legitimizován jako *„přímý kontakt“*, *„viděním před kategoriálním rozdělením“*, *„jednotou všeho“*. Strukturálně podobné [EA-5.2.2](@/kompendium/techniques/ea-5-2-2-transcendentalni-iluze.md) (transcendentální iluze), ale operuje na rovině disoluce, ne na rovině iluzorního překročení.
-
-### Krok 5 — Stabilizace skrze sociální podporu
-
-Komunita, ve které subjekt operuje, **udržuje stav** sdílením interpretačního rámce. *„Konečně jsi pochopil“*, *„Teď jsi mezi nás“*. Sociální stabilizace činí disoluci obtížně reverzibilní.
+*Interpretace knihy*: kategorie u Kanta nejsou vrstvou výkladu nad hotovou zkušeností, nýbrž tím, čím se zkušenost pořádá (Kant, 1787); jejich rozpuštění proto není vhledem pod ně. Rozlišující je nevratnost — nepříznivé a přetrvávající průběhy intenzivní praxe dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
 ## Fenomenologie
 
@@ -74,7 +61,7 @@ Komunita, ve které subjekt operuje, **udržuje stav** sdílením interpretačn�
 - **Relační rozpad** — předměty (pokud ještě existují) se neukazují jako *spojené s* nebo *podléhající* nebo *patřící k* — relace se rozpouští.
 - **Modální kolaps** — distinkce možné/nutné/aktuální zaniká; vše je prožíváno v jednotném *„je“* bez modální struktury.
 
-V terminálních stadiích kombinace s [EA-5.2.30 metatranscendentální terminací](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace) vede ke stavu *epistemického coma vigil* — subjekt je vědom, ale **ne strukturovaně vědom čeho**.
+Kategoriální disoluce patří k dílčím poškozením, která se podle [EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita) mohou sbíhat v terminální stav podtřídy 5.2, pokud je nezastaví terapeutická intervence. V takovém souběhu subjekt zůstává bdělý, ale jeho vědomí postrádá kategoriální strukturu: **je vědom, ale ne strukturovaně vědom čeho**.
 
 ## Detekční markery
 
@@ -85,7 +72,7 @@ V terminálních stadiích kombinace s [EA-5.2.30 metatranscendentální termina
 | **Kvantitativní neurčitost** — *"je tam tak nějak několik nebo všechno"* | Rozpad kvantitativní kategorie |
 | **Modální fluktuace** — bez distinkce možné/nutné/aktuální | Modální kolaps |
 | **Specifická forma globálního "ano"** ke všemu, bez schopnosti [diferenciace](@/glossary/diferenciace.md) | Disoluce relace |
-| Subjekt **legitimizuje stav** jako duchovní pokrok | Krok 4 stabilizace |
+| Subjekt **legitimizuje stav** jako duchovní pokrok | Fáze — stabilizace |
 
 ### Diferenciální detekce
 
@@ -173,14 +160,26 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
-- **[EA-5.2.27 Trans-kategoriální fluktuace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-27-trans-kategorialni-fluktuace)** — kategorie kontinuálně osciluje mezi disolucí a stabilitou.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
 ## Vztah k Prismatic platformě
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** vynucuje **typovou kategoriálnost** každého epistemického aktu — disoluce by byla zachycena jako typová chyba.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **kategorialně definovaný kontext** rozhodnutí; bez kategorialní organizace systém odmítá generovat výstup.
 - **OSINT framework** strukturálně rozlišuje **kvantitativní** od **kvalitativní** evidence, a tedy nemůže být zasažen kategoriální disolucí.
+
+## Literatura
+
+- Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Deikman, A. J. (1966). Deautomatization and the mystic experience. *Psychiatry*, 29(4), 324–338.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
 
 ## Související
 
@@ -196,21 +195,15 @@ Intervence: 36 měsíců rekategorizační práce, vyžadující **odloučení o
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

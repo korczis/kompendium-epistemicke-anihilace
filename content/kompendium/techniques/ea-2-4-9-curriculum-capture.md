@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-5-evaluation-criteria-rewrite", "ea-2-4-10-disciplinary-society-capture", "ea-2-2-9-disciplinary-boundary-coercion", "ea-1-1-1-selektivni-expozice", "epistemicka-monokultura", "habitus"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.4.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"

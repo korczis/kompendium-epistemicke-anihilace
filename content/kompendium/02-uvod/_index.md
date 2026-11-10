@@ -11,7 +11,6 @@ categories = ["academic"]
 section_icon = "🧭"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium"
 +++
 
 # 02. Úvod do epistemické anihilace
@@ -56,10 +55,10 @@ Po úvodu následuje [03. Základní kategorie](@/kompendium/03-zakladni-kategor
 ## Literatura
 
 - Arendt, H. (1951). *The Origins of Totalitarianism*. Harcourt, Brace.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -69,11 +68,3 @@ Po úvodu následuje [03. Základní kategorie](@/kompendium/03-zakladni-kategor
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – heslo glosáře s definicí.
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – sesterský pojem.
 - [Testimoniální nespravedlnost](@/glossary/testimonialni-nespravedlnost.md) – sociální rozměr poznání.
-
----
-
-## Kontakt a příspěvky
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

@@ -12,7 +12,6 @@ related_terms = ["sealioning", "gish-gallop", "motte-and-bailey", "delegitimizac
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 # Sealioning – protokol zotavení a obnovy legitimity

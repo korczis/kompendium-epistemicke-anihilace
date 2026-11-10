@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["decision-engine", "decision-core", "risk-score", "signal-plurality", "testimonialni-nespravedlnost", "color-teams"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "decision-engine"
 toc = false
 +++

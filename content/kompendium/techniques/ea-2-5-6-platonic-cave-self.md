@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-6-1-vzorec-guru-a-adept", "ea-2-5-3-self-doubt-cultivation", "ea-2-5-9-identity-uncertainty-cult", "thought-reform", "spiritual-bypassing", "epistemicka-alienace"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.6"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

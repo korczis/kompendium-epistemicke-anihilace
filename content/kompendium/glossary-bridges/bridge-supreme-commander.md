@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["supreme-commander", "archer-supreme", "strategic-command", "agent-tier", "tactical-execution", "kult-osobnosti"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "supreme-commander"
 toc = false
 +++

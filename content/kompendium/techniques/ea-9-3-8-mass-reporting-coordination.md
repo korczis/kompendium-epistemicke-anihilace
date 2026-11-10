@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-3-5-shadowban-coordination", "ea-9-3-7-platform-coordinated-attack", "ea-9-6-4-AI-deplatforming-cascade"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.3.8"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.3 Sociální platformy"

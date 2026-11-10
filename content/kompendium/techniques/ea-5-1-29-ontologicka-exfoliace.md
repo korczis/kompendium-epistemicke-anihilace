@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-27-meta-epistemicka-redukce", "ea-5-1-28-konvergentni-singularita", "ea-5-1-3-reflexivni-paradoxie", "ea-5-1-30-konceptualni-entropie"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.29"
 ea_category = "5. Ultramari techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,49 +40,15 @@ Exfoliace je strukturálně analogická chemické exfoliaci kůže: každá vrst
 
 V terminálním stavu exfoliace produkuje **ontologickou anihilaci** ([viz ontologická anihilace](@/glossary/ontologicka-anihilace.md)) — subjekt nedokáže s jistotou určit, co je skutečné, co je nikoli, ani kdo je on sám.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti vrstvách odlupování, prováděných sekvenčně.
+Ontologická exfoliace se pozorovateli ukazuje jako ubývání toho, s čím zasažený člověk vůbec počítá jako se skutečným. Zpochybňuje postupně existenci základních kategorií — času, věcí, identity — a mluví o tom jazykem duchovní hloubky, zatímco jeho běžný provoz se rozpadá: mizí rutiny, které dřív zvládal bez přemýšlení, ztrácí se zájem o vztahy a role a o vlastním těle, zdraví i bezpečí hovoří podivně bez účasti.
 
-### Vrstva 1 — Exfoliace abstraktních entit
+Retrospektivně se v anamnéze dá rozlišit sled, v němž vrstvy ubývají. Nejdřív jdou entity nejvzdálenější běžné zkušenosti — čísla, hodnoty, instituce, právo; tuto vrstvu mnoho lidí rozebírá i v rámci běžné kritické reflexe, rozdíl je v tom, že tady nenásleduje nové vymezení. Pak ubývají společenské kategorie: povolání, příslušnost, rodinné role. Dál fyzické věci včetně domova a těla, pak čas a příčinná souvislost, a nakonec samo já jako bod, z něhož se dá ptát. Na otázku, kdo jsi, pak zasažený člověk nedokáže odpovědět tak, aby se odlišil od kohokoli jiného. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Operátor začíná s **nejvzdálenější** ontologickou vrstvou: abstraktními entitami (matematické objekty, hodnoty, instituce, právo). Argumentační vzorec:
+Detekční markery zachycené na této stránce odpovídají téže struktuře: zpochybňování existence základních kategorií, ztráta rutiny, derealizační a depersonalizační epizody a plochá emoční odezva na ztracené jistoty.
 
-- „Spravedlnost je jen jméno pro mocenský vztah“
-- „Čísla neexistují, jsou to konvenční symboly“
-- „Instituce jsou kolektivní halucinace“
-
-Tato vrstva je relativně **bezpečná** pro odstranění — mnoho subjektů ji odlupuje sami v rámci běžné kritické reflexe. Operátor však zajistí, že **rekonstrukční** krok (re-artikulace na vyšší úrovni) **neproběhne**.
-
-### Vrstva 2 — Exfoliace sociokulturních kategorií
-
-Po destabilizaci abstraktních entit operátor cíleně rozkládá **sociokulturní** kategorie: rod, povolání, etnická příslušnost, rodinné role, generace.
-
-- „Tvoje povolání tě nedefinuje“
-- „Příslušnost ke skupině je iluze“
-- „Rodinné vazby jsou jen biologické náhody“
-
-Subjekt je v této fázi typicky pobouřen nebo emocionálně zasažen, ale postupně přijímá narativ, že tyto kategorie jsou **fikční**.
-
-### Vrstva 3 — Exfoliace fyzických objektů
-
-Operátor zpochybňuje stabilní existenci **fyzických objektů**: domov, místa, předměty důvěrné identifikace, dokonce i biologické tělo.
-
-- „Tvůj domov je jen souborem atomů“
-- „Tělo je proudem buněčných obratů, žádná identita“
-- „Místa jsou konstrukty paměti“
-
-Tato vrstva je již vážně dezorientující — subjekt ztrácí orientační kotvy v každodenní zkušenosti.
-
-### Vrstva 4 — Exfoliace temporální a kauzální struktury
-
-Před přechodem k poslednímu kroku operátor destabilizuje **čas a kauzalitu**: minulost je *konstruktem paměti*, budoucnost je *projekcí*, kauzalita je *narativní fikce*.
-
-### Vrstva 5 — Exfoliace self
-
-V terminální vrstvě je odstraněn **subjekt sám jako referenční bod**. Argumentační vzorce: „Žádné stabilní já neexistuje“, „Pocit subjektu je epifenomén“, „Ty, kdo to čte, je jen biochemický proces“.
-
-Po této vrstvě subjekt **nemá z čeho se ptát na to, co existuje** — referenční bod tázání byl odstraněn jako poslední vrstva.
+*Interpretace knihy*: rozebírat ontologické závazky je legitimní filozofická práce a buddhistická praxe ne-já má vlastní stabilizační rámec i komunitu. Rozpoznávacím znakem je chybějící rekonstrukce: nic nového se na místo odloupnutého nestaví a fungování se zhoršuje. Proč kompendium popisuje tuto hranici a nepřekračuje ji, vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -224,9 +189,9 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -237,8 +202,10 @@ Uživatel internetové subkultury „od-iluze-osvobozený“ reportoval po 18 m�
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -12,8 +12,6 @@ related_terms = ["disociace", "interocepce", "ipseita", "c-ptsd", "reality-testi
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
-ref_count_at_creation = 1
 +++
 
 ## Definice
@@ -30,6 +28,10 @@ depersonalizaci odlišuje od psychotických stavů.
 
 Příbuzným jevem je **derealizace** – odcizení od okolního světa, který působí neskutečně,
 vzdáleně, „za sklem“, bez barev. Oba jevy se často vyskytují společně.
+Od klinického pojmu je třeba odlišit [kognitivní
+depersonalizaci](@/glossary/kognitivni-depersonalizace.md), vlastní pojem knihy z její původní
+taxonomie (2025), který označuje oslabený pocit původcovství vlastních úsudků bez odcizení od
+těla či vnímání.
 
 ## Původ a kontext pojmu
 

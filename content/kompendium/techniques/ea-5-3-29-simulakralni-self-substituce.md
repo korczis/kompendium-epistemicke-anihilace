@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-27-ego-skeletalni-redukce", "ea-5-3-28-pseudo-self-implantace", "ea-5-3-3-rolova-fragmentace", "ea-5-3-30-konvergentni-hypertransformace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.29"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Simulakrální self-substituce v Baudrillardovském smyslu **substituuje** autentické self **simulakrem** — strukturou, která zachovává všechny **rysy autenticity** (idiomy, motivace, paměti) bez autentického jádra. Simulakrum je 'kopie bez originálu'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí sebepodání, které působí hladce a „skutečněji“ než dřív: idiomy, pohnutky i vzpomínky jsou na místě, ale všechny se shodují s ideály jednoho prostředí. Kopie, která nemá originál a přesto působí reálněji než on, je pojmem, k němuž se tato stránka hlásí (Baudrillard, 1981).
 
-### Krok 1 — Detailní self-mapping
+Retrospektivně se sled znaků popisuje takto: nejprve jsou dosavadní rysy podrobně pojmenovány, pak se objeví podání, které je věrně reprodukuje, a nakonec otázka, zda jde o něj samotného, přestává dávat smysl. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok jediné nauky na to, co je autentické, odpovídá popisu doktríny nadřazené osobě (Lifton, 1961).
 
-Manipulátor velmi detailně mapuje subjektovy autentické rysy.
+Zvenčí je nejlépe doložitelné to, že „autentické“ rysy se shodují s ideály téhož prostředí, a že schopnost položit si otázku po vlastní skutečnosti vyhasla. Shoda sebepopisu s naukou je popsanou měřitelnou dimenzí vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Konstrukce simulakralního self
-
-Manipulátor poskytuje strukturu, která reprodukuje rysy autenticity.
-
-### Krok 3 — Konsolidace simulakra
-
-Subjekt operuje skrze simulakrum; otázka 'je to skutečné?' přestává mít smysl, protože simulakrum reprodukuje všechny vlastnosti skutečnosti.
+*Interpretace knihy*: vybroušené sebepodání samo o sobě nic neindikuje, protože většina lidí se podává lépe, než žije, a řízení dojmu je běžnou součástí společenského styku (Goffman, 1959). Odlišuje až to, že chybí jakákoli nesourodost a že vzor pochází z jediného zdroje.
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **simulakrální self-substituce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.29.
+
+## Literatura
+
+- Baudrillard, J. (1981). *Simulacres et simulation*. Galilée.
+- Goffman, E. (1959). *The Presentation of Self in Everyday Life*. Doubleday.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

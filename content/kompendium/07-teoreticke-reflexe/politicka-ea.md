@@ -10,7 +10,6 @@ categories = ["academic", "theory", "political-epistemology"]
 
 [extra]
 related_terms = ["otevrene-otazky", "polanyi-ticha-znalost", "postmodernismus", "putnam-internal-realism"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
@@ -193,7 +192,7 @@ Hranice mezi těmito aplikacemi není daná samotnou taxonomií; vyžaduje **exp
 - [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
 - [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
 - [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatos](@/glossary/lakatos.md)
+- [Glosář: Lakatos](@/glossary/lakatos-vyzkumny-program.md)
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
 - [Glosář: Metakognice](@/glossary/metakognice.md)

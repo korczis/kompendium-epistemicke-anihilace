@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["iatrogenic-harm", "retraumatizace", "informed-consent", "konfabulace", "bridge-kontraindikace", "bridge-companion"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "iatrogenic-harm"
 toc = false
 +++

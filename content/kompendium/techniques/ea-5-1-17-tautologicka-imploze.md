@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-15-apofaticke-zacykleni", "ea-5-1-16-inferencni-paralyza", "ea-5-1-18-solipsisticka-dekompozice", "ea-5-1-19-kvazi-mysticka-anihilace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.17"
 ea_category = "5. Ultramarinní techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,37 +40,15 @@ Termín „imploze“ odkazuje na **vnitřní zhroucení obsahu**: zdánlivá zn
 
 Tato technika je formálním protějškem [EA-5.1.16 inferenční paralýzy](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md): zatímco paralýza zastavuje inferenci, imploze umožňuje **zdánlivě bohatou** inferenční aktivitu, která však **nepřidává obsah**.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v sedmi krocích:
+Tautologická imploze se pozorovateli ukazuje jako nepoměr mezi formou a obsahem řeči. Zasažený člověk mluví plynule, jistě a dlouze, s hustou terminologií a pocitem hlubokého porozumění; posluchač s odborným zázemím odchází z rozhovoru s dojmem, že nebylo řečeno nic. Po formální analýze se ukáže, že klíčové pojmy jsou vymezeny samy sebou nebo svými synonymy a že žádné tvrzení neumožňuje předpověď, kterou by šlo ověřit.
 
-### Krok 1 — Etablování privilegované terminologie
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno osvojení privilegovaného slovníku, do něhož zasažený člověk investoval čas i emoce. Pak přibývají přeformulování téže identity do stále nových syntaktických tvarů, prožívaná jako prohlubování vhledu. Souběžně mizí falsifikační podmínka: výroky jsou potvrzené strukturálně, takže kognitivní rozpor nikdy nenastane. Nakonec se slovník stává součástí sebepojetí a okolní kritika je čtena jako důkaz nepochopení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor vytváří nebo přebírá specifický slovník (často filozofický, mystický, nebo pseudo-vědecký) — *„Bytí jest“, „Vědomí si je vědomé“, „Pravda je tím, co se pravdivě jeví“*. Klíčové je, že terminologie je **emocionálně nabita** a vyžaduje od subjekta investici do jejího osvojení.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: abstraktní pojmy nikdy nevymezené operačně, únik do abstrakce při tlaku na konkrétní příklad, odmítnutí převodu vlastních tezí do běžného jazyka a nulová předpovědní hodnota tvrzení. Diferenciální detekce na této stránce přidává hranici, na níž vzorec stojí: pojmová analýza rozlišuje a generuje důsledky, imploze pouze ztotožňuje.
 
-### Krok 2 — Definice prostřednictvím sebe sama
-
-Klíčové pojmy jsou definovány **pomocí sebe sama** nebo svých synonym: *„Pravda je to, co je pravdivé“*, *„Vědomí je sebe-uvědomování“*, *„Bytí je projev bytí“*. Definice vypadají jako odhalení podstaty, ve skutečnosti je obsahem nula.
-
-### Krok 3 — Zdánlivý vývoj prostřednictvím přeformulování
-
-Manipulátor systematicky **přeformulovává** stejnou tautologii do nových syntaktických tvarů: *„Bytí jest“* → *„Co je, jest“* → *„Jsoucno jest jsoucno“* → *„Bytí se projevuje jako bytí“*. Subjekt **prožívá** tyto přeformulace jako **prohlubování porozumění**, zatímco se pouze přesouvá v rámci téhož významu.
-
-### Krok 4 — Eliminace falsifikační podmínky
-
-Tautologie nemají falsifikační podmínky — neexistuje stav světa, ve kterém by *„A = A“* bylo nepravdivé. Manipulátor toto exploituje: tvrzení jsou **vždy potvrzena**, takže subjekt nikdy nezakouší kognitivní disonanci. Pocit konzistence je **strukturálně garantován**, nikoli **empiricky zasloužen**.
-
-### Krok 5 — Mystifikace skrze hloubku
-
-Tautologie jsou prezentovány jako **hluboké vhledy** dosažitelné jen těm, kdo prošli „duchovním tréninkem“. Subjekt prožívající tautologii jako *„banální“* je obviněn z **nepochopení**, ze **zbytkového materialismu**, z **nedostatečné kontemplativní zralosti**.
-
-### Krok 6 — Sociální posílení
-
-Komunita stejně implodovaných subjektů sdílí tautologický slovník a vzájemně si ho potvrzuje. Vznikají **echo komory** zdánlivého porozumění, kde každý člen prožívá společnou epistemickou bohatost — která však **nikdy nevychází** z komunity.
-
-### Krok 7 — Konsolidace skrze inverzní externí kritiku
-
-Externí kritika (logika, věda, kritická filozofie) je rámcována jako **plochá**, **omezená**, **neschopná zahrnout hloubku**. Subjekt si racionalizuje, že kritici „nepochopili“, protože sami nejsou implodovaní. Tautologie se stává nepřístupná intervenci.
+*Interpretace knihy*: samotné užití paradoxního či tautologického jazyka není znakem vzorce — některé tradice jím pracují záměrně a pragmaticky. Vzorec se pozná tím, že se takový jazyk vydává za informaci a slibuje poznání, které nedodá. Proč kompendium tuto hranici popisuje jako rozpoznávací znak, a ne jako nástroj, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -225,9 +202,9 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -238,8 +215,10 @@ Tautologická imploze je strukturálním motivem pro několik defenzivních mech
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

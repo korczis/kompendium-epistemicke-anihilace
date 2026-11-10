@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-4-8-real-time-bot-response", "ea-9-4-6-mass-comment-coordination", "ea-9-1-5-llm-narrative-injection"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.4.9"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.4 Bot networks"

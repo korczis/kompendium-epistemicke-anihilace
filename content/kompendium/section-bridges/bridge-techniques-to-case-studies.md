@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-case-studies-to-clinical", "bridge-case-studies-to-glossary-bridges", "bridge-techniques-to-glossary", "bridge-techniques-to-quick-reference"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 
@@ -77,7 +76,7 @@ Ne každá technika má ve sbírce případ, a ne každý případ je u odpovíd
 
 - Gick, M. L., & Holyoak, K. J. (1983). Schema induction and analogical transfer. *Cognitive Psychology*, 15(1), 1–38.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford University Press.
 
 ## Související

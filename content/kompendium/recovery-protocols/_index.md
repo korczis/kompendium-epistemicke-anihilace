@@ -10,7 +10,6 @@ tags = ["kompendium", "recovery-protocol", "klinicke", "longitudinalni", "rekons
 categories = ["academic", "clinical"]
 section_icon = "🔧"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "in-progress"
 +++

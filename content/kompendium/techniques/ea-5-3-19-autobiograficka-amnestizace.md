@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-17-existencialni-rekonfigurace", "ea-5-3-18-esencialisticka-redukce", "ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-20-self-vector-rotation"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.19"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Autobiografická amnestizace cíleně **vymazává** autobiografické úseky, které jsou v rozporu s implantovanou identitou. Není totální amnezii — je to selektivní; pouze úseky, které by mohly destabilizovat manipulátorovu konstrukci, se stávají 'nepřístupnými'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel nenarazí na úplnou ztrátu paměti, nýbrž na výběrové mezery: chybějí právě ta období, v nichž člověk žil mimo současný výklad svého života. Dotaz na tato období budí úzkost namísto pokusu si vzpomenout. Autobiografická paměť je přitom rekonstruktivní a její dostupnost se řídí právě platným obrazem sebe (Conway a Pleydell-Pearce, 2000).
 
-### Krok 1 — Identifikace 'inkompatibilních' úseků
+V retrospektivě se objevuje sled: nejprve přestanou být některé úseky vyprávěny, pak jsou vykládány jinak nebo přecházeny mlčením, a nakonec k nim chybí spontánní přístup. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nedostupnost vzpomínek vázaná na vztah, na němž člověk závisí, je popsána jako systematický jev (Freyd, 1996).
 
-Manipulátor identifikuje životní úseky, v nichž subjekt operoval mimo manipulátorův rámec.
+Zvenčí je doložitelné především to, že chybějící epizody jsou podloženy nezávislými záznamy, a že se člověk vyhýbá lidem, kteří ho z daného období znali. Izolace od nezávislých svědků vlastního života patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Systematické nepoužívání + reframování
-
-Tyto úseky nejsou explicitně zakázány, ale jsou systematicky reframovány nebo ignorovány.
-
-### Krok 3 — Konsolidace amnezii
-
-Subjekt přestává mít spontánní přístup k těmto úsekům; pamět je 'usnula'.
+*Interpretace knihy*: běžné zapomínání, [disociativní amnézie](@/glossary/dissociativni-amnezie.md) i neurologické příčiny existují nezávisle na jakémkoli vnějším činiteli a mají vlastní diagnostiku. Odlišuje zde až selektivita: nedostupné je právě to, co by platný obraz zpochybnilo. Práce s pamětí patří až po stabilizaci, nikdy před ní (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **autobiografická amnestizace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.19.
+
+## Literatura
+
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2).
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

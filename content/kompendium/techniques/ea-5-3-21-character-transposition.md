@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-2-autobiograficka-dekonstrukce", "ea-5-3-20-self-vector-rotation", "ea-5-3-22-moralni-osy-inverze", "ea-5-3-23-konstitutivni-mytologizace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.21"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Character transposition **transponuje** subjektovu charakterovou strukturu do strukturálně odlišné konfigurace, která zachovává povrchové rysy (jméno, fyzický vzhled, někteří hlas), ale mění hluboké charakterové dispozice.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel zachytí rozpor mezi povrchem a jádrem: jméno, vzhled i způsob řeči zůstávají, ale reakce v zátěžových situacích se strukturálně liší od toho, co je o člověku doloženo z minulosti. Vtělené dispozice, které takto nesouhlasí, se utvářejí dlouhodobě a nemění se ze dne na den (Bourdieu, 1980).
 
-### Krok 1 — Identifikace povrchových vs. hlubokých charakterových rysů
+Retrospektivně blízcí popisují sled: nejprve se objeví neshoda mezi tím, jak člověk působí, a tím, jak jedná, pak se v jeho řeči objeví hodnoty, které mu byly historicky cizí, a nakonec sám necítí kontinuitu se svou dřívější charakterovou strukturou. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Dlouholetí svědci bývají v tomto bodě přesnějším zdrojem než sebepopis (Herman, 1992).
 
-Manipulátor pečlivě mapuje subjekta.
+Mezi markery, které lze doložit zvenčí, patří výpovědi dlouholetých svědků o diskontinuitě a shoda nově vyjadřovaných hodnot s naukou jedné skupiny nebo osoby. Taková shoda je popsána jako měřitelná dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Zachování povrchu, transpozice jádra
-
-Manipulátor podporuje povrchové rysy ale systematicky modifikuje hluboké dispozice.
-
-### Krok 3 — Konsolidace transpozované struktury
-
-Subjekt vypadá jako sám, ale jedná podle modifikované charakterové struktury.
+*Interpretace knihy*: lidé se mění, zrání i obrácení jsou skutečné a nejsou znakem ničeho. Odlišuje struktura změny: povrch je zachován, jádro nikoli, a nová podoba je strukturálně výhodná pro někoho jiného. Nárok na výklad, kým člověk „doopravdy“ je, odpovídá doktríně nadřazené osobě (Lifton, 1961).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **character transposition** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.21.
+
+## Literatura
+
+- Bourdieu, P. (1980). *Le sens pratique*. Les Éditions de Minuit.
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

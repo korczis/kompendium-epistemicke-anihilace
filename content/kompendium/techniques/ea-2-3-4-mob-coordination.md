@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-6-platform-coordinated-attack", "ea-2-1-2-pseudo-peer-mob", "ea-2-3-8-doxxing-epistemicky", "ea-9-4-2-coordinated-inauthentic-behavior", "deplatforming", "socialni-izolace"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["coercive-control", "gaslighting", "darvo", "socialni-izolace", "trauma-bonding", "bridge-gaslighting"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "coercive-control"
 toc = false
 +++

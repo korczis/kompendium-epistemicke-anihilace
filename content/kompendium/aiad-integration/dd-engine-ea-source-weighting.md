@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["czech-ares-ea-screening", "osint-ea-source-validation", "compliance-ea-regulatory-screening", "decision-engine-ea-calibration", "trinity-gate-ea-verification"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

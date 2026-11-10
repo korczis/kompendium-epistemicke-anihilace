@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-18-esencialisticka-redukce", "ea-5-3-19-autobiograficka-amnestizace", "ea-5-3-20-self-vector-rotation", "ea-5-3-21-character-transposition"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Autobiografická dekonstrukce** je technika rozkládající subjektovu schopnost konstituovat **koherentní životní příběh**. Manipulátor systematicky zpochybňuje pravdivost, význam a souvislost subjektovy autobiografické paměti, dokud subjekt nepřestane prožívat vlastní biografii jako spolehlivý zdroj self-koherence.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že souvislé vyprávění vlastního života se při každém pokusu rozpadá do rozporů a že se verze mění od vyprávění k vyprávění. Člověk sám popisuje, že neví, co bylo skutečné. Autobiografická paměť je rekonstruktivní a její koherence závisí na právě platném obrazu sebe (Conway a Pleydell-Pearce, 2000).
 
-### Krok 1 — Selektivní zpochybnění klíčových biografických bodů
+Retrospektivně blízcí popisují sled: nejprve jsou zpochybněny jednotlivé vzpomínky, pak pochybnost pokryje celé úseky, a nakonec je životopis dostupný jen v cizí verzi. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Soustavné zpochybňování vlastního vnímání je popsáno jako jádro donucovací kontroly v blízkých vztazích (Stark, 2007).
 
-Manipulátor cílí specifické vzpomínky — 'opravdu si pamatuješ, že to bylo takhle?', 'možná si to pamatuješ špatně' — vyvolávajíc lokalizovanou nejistotu.
+Zvenčí doložitelné markery jsou dva: jiná osoba poskytuje „správnou“ verzi třetím stranám, a člověk se vyhýbá těm, kdo jeho minulost znají nezávisle. Odříznutí od nezávislých zdrojů informací o sobě patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Generalizace pochybnosti
-
-Zpochybnění se rozšiřuje z lokalizovaných vzpomínek na celé biografické úseky; subjekt přestává důvěřovat narativní kapacitě.
-
-### Krok 3 — Konsolidace biografického vakua
-
-Subjekt operuje bez funkčního autobiografického ukotvení; je závislý na externí (manipulátorově) verzi vlastního příběhu.
+*Interpretace knihy*: nejistota o vlastní minulosti je běžná a paměť se mýlí každému. Rozhodující je, kdo drží konečnou verzi. Obnova nestaví na konfrontaci, ale na bezpečí a na nezávislých záznamech z dřívějšího období (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **autobiografická dekonstrukce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.2.
+
+## Literatura
+
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2).
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

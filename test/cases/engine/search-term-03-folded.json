@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 380,
+        "in": 381,
         "kind": "Pojem",
         "path": "glossary/taxonomie-ea.md",
         "tier": 2,
@@ -75,12 +75,22 @@
       },
       {
         "code": null,
-        "in": 13,
+        "in": 14,
         "kind": "Kapitola",
         "path": "kompendium/visualizations/_index.md",
         "tier": 6,
         "title": "Interaktivní vizualizace",
         "url": "/kompendium/visualizations/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 6,
+        "kind": "Kapitola",
+        "path": "kompendium/puvodni-taxonomie/_index.md",
+        "tier": 6,
+        "title": "Původní taxonomie (2025)",
+        "url": "/kompendium/puvodni-taxonomie/",
         "why": "description"
       },
       {
@@ -100,7 +110,7 @@
     "op": "search",
     "query": "taxonomie ea",
     "schema": "kompendium-engine/v1",
-    "total": 9
+    "total": 10
   },
   "input": {
     "op": "search",

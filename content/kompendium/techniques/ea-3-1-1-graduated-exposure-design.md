@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-2-5-8-recursive-doubt-spiral", "ea-2-5-9-identity-uncertainty-cult", "ea-3-1-10-reflective-journaling", "ea-3-1-2-experiential-scaffolding"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.1"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Graduální expozice design** je systematická kurikulární technika, jíž je obsah o epistemické anihilaci stupňován od minimálně destabilizujících konceptuálních map k plně simulovaným manipulativním scénářům. Sekvence je řízena **kalibrací intenzity** vůči aktuální epistemické rezilienci kohorty — nikoli vůči předem stanovenému harmonogramu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Graduální expozice není pozorovateli dostupná jako jednotlivý modul, nýbrž jako vztah mezi náročností látky a tím, co o sobě účastníci referují. Tam, kde je vedena dobře, popisují lidé setkání s destabilizujícím materiálem jako zvládnutelné a vracejí se k němu dobrovolně; tam, kde je vedena špatně, přetrvává napětí i mimo výuku. Foa a Kozak (1986) popsali podmínku, za níž má setkání s úzkost vyvolávajícím obsahem nápravnou hodnotu: musí být dost blízké, aby se stav vůbec aktivoval, a zároveň musí nechat prostor pro novou zkušenost.
 
-1. **Pre-assessment** — kohortní baseline (MAAS-I + EI-Q) určuje vstupní bod gradace.
-2. **Mapování dose-response** — pro každou kohortu se vytvoří kalibrační křivka intenzita → reakce.
-3. **Sekvenční vrstvení** — moduly o expozici 1–4 hodiny s rostoucí komplexitou; mezi moduly minimum 48 h pro konsolidaci.
-4. **Stabilizační inserts** — po každé expozici 30min reflektivní praxe + somatická regulace.
-5. **Iterační kalibrace** — pokud >15 % kohorty signalizuje destabilizaci, modul se opakuje na nižší intenzitě.
+Retrospektivně se v dobře vedeném kurzu dá rozlišit sled, v němž se znaky objevují. Nejprve bývá patrný rozdíl mezi tím, co účastník zvládne sám, a tím, co zvládne s oporou — Vygotsky (1978) pro něj zavedl pojem zóny nejbližšího vývoje. Pak se objevuje přesun od opory k samostatnosti, doprovázený rostoucí důvěrou ve vlastní zvládání; Bandura (1977) ukázal, že právě zkušenost zvládnutí tuto důvěru ovlivňuje silněji než vysvětlení. Nakonec je zřetelné, že náročnost sleduje stav skupiny, nikoli harmonogram. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Rozpoznat lze i opačný případ. Lindahl a kol. (2017) zdokumentovali, že intenzivní vnitřní práce může mít nežádoucí účinky a že je účastníci sami zpravidla neoddělují od žádoucích — proto se nepříznivý průběh pozná spíš z nesouladu mezi hlášenou spokojeností a chováním mimo výuku než z přímé stížnosti.
+
+*Interpretace knihy*: rozlišujícím znakem dobré edukativní praxe tohoto typu není mírnost, nýbrž odvolatelnost — zda lze kdykoli zpomalit nebo vystoupit, aniž by to něco stálo. Kde tato možnost chybí, mění se výcvik v tutéž strukturu, kterou má umožnit rozpoznat (Bandura, 1977).
 
 ## Cílová populace
 
@@ -131,6 +130,13 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. *Psychological Review*, 84(2).
+- Foa, E. B., & Kozak, M. J. (1986). Emotional processing of fear: Exposure to corrective information. *Psychological Bulletin*, 99(1).
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +158,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

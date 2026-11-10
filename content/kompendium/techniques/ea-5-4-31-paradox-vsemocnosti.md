@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-3-tarsky-diagonalizace", "ea-5-4-30-paradox-volby-totalni", "ea-5-4-32-paradox-tolerance", "ea-5-4-33-paradox-svobody"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.31"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"
@@ -41,33 +40,26 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Paradox kamene — může všemohoucí stvořit kámen, který sám nezvedne? — je scholastická úloha s
+klasickou odpovědí. Tomáš Akvinský ji v Teologické sumě řeší tím, že všemohoucnost se vztahuje na
+to, co je logicky možné; v sobě sporná „věc“ není vůbec žádnou věcí, takže její nestvoření není
+mezí moci. Mavrodes (1963) tentýž rozbor předložil v moderní formě, Geach (1973) ukázal, že
+samotný pojem všemohoucnosti připouští několik neslučitelných čtení, a Kenny (1979) obě linie
+shrnuje. Paradox tedy neprokazuje, že by neomezená moc byla nesoudržná.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí, že vzorec tuto úlohu převádí na vůli konkrétního člověka. Zasažený člověk
+referuje, že má-li být jeho autonomie úplná, musí zahrnout i možnost se jí vzdát, a že tím ji
+ztrácí tak jako tak; zacházení s vlastní vůlí se mu stává sebepodkopávajícím. Doprovodným znakem
+je přenechání běžných rozhodnutí druhé straně.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky skládají takto: nejprve je autonomie rámována jako vše nebo nic, pak je ukázána
+jako v sobě sporná, pak nastupuje rezignace na vlastní vůli a nakonec přijetí cizí vůle jako
+jediné soudržné (Kramer & Alstad, 1993; Stark, 2007). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor přesvědčuje subjekt, že má-li „úplnou“ autonomii, musí mít autonomii sebe omezit — ale pak jí ztrácí. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjektovo zacházení s vlastní vůlí se stává paradoxně sebepodkopávající.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: omezení na soudržné akty není oslabením autonomie, nýbrž jejím vymezením.
+Toto rozlišení drží [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -86,11 +78,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -154,6 +146,14 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Mavrodes, G. I. (1963). Some puzzles concerning omnipotence. *The Philosophical Review*, 72(2), 221–223.
+- Geach, P. T. (1973). Omnipotence. *Philosophy*, 48(183), 7–20.
+- Kenny, A. (1979). *The God of the Philosophers*. Oxford University Press.
+- Kramer, J., & Alstad, D. (1993). *The Guru Papers: Masks of Authoritarian Power*. North Atlantic Books.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

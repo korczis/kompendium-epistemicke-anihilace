@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-21-sebe-referencni-paradox", "ea-5-1-22-diferencialni-nihilace", "ea-5-1-24-epistemicka-vakuace", "ea-5-1-25-singularni-narativni-kolaps"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.23"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -43,29 +42,15 @@ Asymptotická dezintegrace operuje na **prahové struktuře** lidského hodnocen
 
 Asymptotická dezintegrace je obvykle navázána na předchozí [EA-5.1.22 diferenciální nihilaci](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) — bez kolapsu distinkcí by subjekt dokázal kumulativní trajektorii **rekonstruovat** porovnáním současného a počátečního stavu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Asymptotická dezintegrace se pozorovateli neohlašuje žádnou událostí; právě to je její nejnápadnější rys. Zasažený člověk drží současně pozice, které by o rok dřív označil za neslučitelné, a přitom nedokáže popsat, proč se jeho stanovisko změnilo — chybí okamžik, na který by šlo ukázat. Okolí zaznamenává směrově souhlasné drobné ústupky táhnoucí se dlouhým obdobím a zploštělou reakci na stavy, které dřív vyvolávaly odpor.
 
-### Krok 1 — Stanovení **terminálního cíle**
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Jednotlivé posuny jsou malé natolik, že obrana proti nim by působila nepřiměřeně, a mezi nimi je dost času na to, aby se nový stav stal samozřejmým východiskem. Další posun se pak měří vůči tomuto posunutému základu, nikoli vůči původnímu. Nakonec chybí kotva: vzdálenost od výchozího stavu je velká, ale v paměti zůstaly jen poslední kroky, a ty byly malé. Návrat selhává proto, že není kam se vracet. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Operátor identifikuje **finální** stav, jehož chce dosáhnout: konkrétní rezignaci subjektu na konkrétní epistemický nárok, akceptaci konkrétní teze, opuštění konkrétní praxe. Cíl je definován **kvantitativně** — jako velikost změny — i **kvalitativně** — jako charakter koncového stavu.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: souběžně držené neslučitelné pozice, přepsání vlastní minulosti tvrzením, že dotyčný „vždycky“ zastával to, co zastává teď, a neschopnost pojmenovat důvod změny.
 
-### Krok 2 — Kalkulace **detekčního prahu**
-
-Operátor odhaduje, jaká velikost jednotlivého kroku je pro subjekt **pod prahem detekce**. Práh je individuální (závisí na reflexivních kapacitách, kontextu, afektivním stavu) i situační (mění se v čase). Kvalifikovaný operátor monitoruje práh průběžně a kalibruje velikost kroků.
-
-### Krok 3 — **Inkrementální** posun
-
-Subjekt je vystaven sérii drobných posunů: nepatrná úprava formulace, drobná akceptace dříve odmítaného předpokladu, malé připuštění dříve nepřípustné kategorie. Každý krok je **dostatečně malý**, aby aktivace obrany byla nepřiměřená; subjekt by si musel připadat jako paranoidní.
-
-### Krok 4 — **Aklimatizace** mezi kroky
-
-Mezi jednotlivými kroky je ponechán dostatečný čas, aby si subjekt na nový stav **zvykl** a začal jej považovat za **výchozí**. Po aklimatizaci je provedena další inkrementace, která je nyní měřena vůči novému, posunutému základu — nikoli vůči původnímu.
-
-### Krok 5 — Konsolidace skrze **ztrátu kotvy**
-
-V terminálním stadiu subjekt postrádá **referenční bod**, vůči kterému by mohl velikost trajektorie posuzovat. Vzdálenost od počátečního stavu je **velká**, ale subjekt si pamatuje pouze **poslední** kroky — a ty byly malé. Pokus o návrat selhává, protože bez kotvy nelze identifikovat, **kam** se vrátit.
+*Interpretace knihy*: pomalost sama znakem vzorce není — pomalu probíhá i učení. Rozhodující je směr: po učení člověk drží víc rozlišení a umí víc, zde drží méně a vzdal se víc nároků. Bez schopnosti porovnat současný stav s výchozím se tento rozdíl ztrácí, což je důvod, proč kompendium klade důraz na doložitelnost východiska; viz [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -196,9 +181,9 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -209,8 +194,10 @@ Pacientka v terapii objevila, že akceptuje partnerovo chování, jež by **na z
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

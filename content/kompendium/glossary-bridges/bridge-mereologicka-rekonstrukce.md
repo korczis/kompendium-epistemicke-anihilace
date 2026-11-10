@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["mereologicka-rekonstrukce", "metakognitivni-destrukce", "narrative-identity", "iatrogenic-harm", "bridge-metakognitivni-destrukce", "bridge-narrative-identity"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "mereologicka-rekonstrukce"
 toc = false
 +++

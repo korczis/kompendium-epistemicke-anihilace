@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-23-konstitutivni-mytologizace", "ea-5-3-24-proto-self-rozklad", "ea-5-3-26-core-self-fraktura", "ea-5-3-27-autobiografi-self-fragmentace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.25"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Minimal-self deformace cílí na **minimální self** — implicitní self-percepce, která doprovází každý moment zkušenosti ('to jsem já, kdo to vidí'). Deformace této úrovně zanechává subjekta v prožívání bez subjektu — zkušenost se odehrává, ale není nikoho, kdo by ji 'měl'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel zachytí posun v mluvnické osobě: vlastní zážitky jsou popisovány ve třetí osobě nebo neosobně a vlastní jednání se jeví jako cizí. Pocit, že zkušenost je moje, je ve fenomenologickém popisu implicitní vrstvou každého zážitku, nikoli jeho dodatečným soudem (Zahavi, 2005).
 
-### Krok 1 — Disrupce sense-of-mineness
+Retrospektivně se sled znaků jeví takto: nejprve se vytrácí samozřejmost „moje zkušenost“, pak se objeví hotový výklad, podle něhož zkušenost nikomu nepatří, a nakonec je stav popisován jako duchovní pokrok navzdory funkčnímu zhoršení. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok nauky na přednost před vlastním prožitkem odpovídá popisu doktríny nadřazené osobě (Lifton, 1961).
 
-Systematické rozpojení zkušenosti od pocitu 'moje zkušenost'.
+Zvenčí je doložitelné především to, že k funkčnímu zhoršení v každodenním životě dochází souběžně s výkladem, který je prezentuje jako úspěch. Současný výskyt intenzivního prožitku a ztráty orientační schopnosti je popsán u nežádoucích účinků kontemplativních praxí (Lindahl et al., 2017).
 
-### Krok 2 — Implantace alternativního subjektu zkušenosti
-
-Manipulátor poskytuje rámec, v němž 'zkušenost se děje, ale není moje, je to univerzální zkušenost / boží zkušenost / zkušenost manipulátora'.
-
-### Krok 3 — Konsolidace minimal-self deformace
-
-Subjekt operuje bez intaktního pocitu 'moje zkušenost'.
+*Interpretace knihy*: [depersonalizace](@/glossary/depersonalizace.md) má vlastní klinický popis a kontemplativní tradice mají vlastní rámce pro změněné stavy. Odlišuje až to, zda stav někdo vykládá, zda výklad vylučuje korekci a zda s ním roste dysfunkce. Posouzení patří klinice (Simeon a Abugel, 2006).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,14 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **minimal-self deformace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.25.
+
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Simeon, D., & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. Oxford University Press.
+- Zahavi, D. (1999). *Self-Awareness and Alterity: A Phenomenological Investigation*. Northwestern University Press.
+- Zahavi, D. (2005). *Subjectivity and Selfhood: Investigating the First-Person Perspective*. MIT Press.
 
 ## Související
 
@@ -189,15 +190,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

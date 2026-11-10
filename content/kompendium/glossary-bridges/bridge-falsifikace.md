@@ -11,7 +11,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["falsifikace", "falsifikovatelnost", "falsifikabilita", "popperianismus", "lakatos-vyzkumny-program", "demarkacni-problem"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "falsifikace"
 toc = false
 +++

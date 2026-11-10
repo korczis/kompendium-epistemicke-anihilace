@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-21-character-transposition", "ea-5-3-22-moralni-osy-inverze", "ea-5-3-24-proto-self-rozklad", "ea-5-3-25-minimal-self-deformace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.23"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Konstitutivní mytologizace konstruuje **mytologický narativ** o subjektově 'pravém původu' (často spirituální, 'staré duše', 'vyvolený'), který se stává **konstitutivním rámcem** identity. Subjekt operuje jako postava v manipulátorově mýtu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel slyší, že sebepopis obsahuje prvky mýtu o původu — „stará duše“, vyvolení, osud — a že životní rozhodnutí jsou obhajována logikou tohoto příběhu. Lidé běžně organizují svůj život do osobních mýtů a samo o sobě to není znakem ničeho (McAdams, 1993).
 
-### Krok 1 — Identifikace mytologického 'háčku'
+Retrospektivně blízcí popisují sled znaků: nejprve je jeden rys povýšen na doklad zvláštního původu, pak kolem něj vzniká podrobný příběh, a nakonec je běžná životní praxe popisována jako pouhé zdání života. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Nárok posvátné nauky na výklad celého života odpovídá kritériím totalitního prostředí (Lifton, 1961).
 
-Manipulátor identifikuje rys subjekta, který lze mytologizovat ('jsi stará duše').
+Zvenčí doložitelným markerem je, že v příběhu je jedna konkrétní osoba nepostradatelnou postavou a že vztahy „neslučitelné s osudem“ jsou přerušovány. Řízené odpojení od vazeb mimo skupinu je popsáno jako měřitelná dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Konstrukce mytologického narativu
-
-Detailní mýtus o subjektově pravém původu/osudu, typicky s manipulátorem v centrální roli ('jsem ten, kdo tě má vést').
-
-### Krok 3 — Konsolidace mytologické identity
-
-Subjekt operuje jako postava v mýtu; baseline self je 'maska'.
+*Interpretace knihy*: náboženský i osobní mýtus jsou legitimní způsoby, jak dát životu tvar. Odlišuje až to, kdo v mýtu drží roli strážce a co stojí vystoupení z něj. Obnova začíná bezpečím a obnovením přerušených vazeb (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **konstitutivní mytologizace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.23.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- McAdams, D. P. (1993). *The Stories We Live By: Personal Myths and the Making of the Self*. William Morrow.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

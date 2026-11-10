@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-4-mob-coordination", "ea-2-3-8-doxxing-epistemicky", "ea-2-5-1-pseudo-pokora-internalizace", "ea-2-5-10-existential-helplessness-implantace", "panopticism", "socialni-izolace"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.7"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

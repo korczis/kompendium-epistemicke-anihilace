@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-15-transcendentalni-implosion", "ea-5-2-16-kantovska-paradoxie", "ea-5-2-18-heideggerovska-rozklady", "ea-5-2-19-merleau-pontyovska-deformace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.17"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -46,27 +45,17 @@ Korektní *epoché* je **dočasná** — slouží k odhalení struktury a po jej
 
 Subjekt v terminálním stadiu prožívá svět skrze chronické „závorky“ — věci se nezobrazují jako *jsoucí*, ale jako *zdánlivé*, *konstruované*, *uzávorkované*. Praktická angažovanost selhává, protože každý akt je předem „zredukován“ před samotným jednáním.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-fenomenologická indoktrinace
+Jméno v katalogovém označení pojmenovává metodu, kterou si vzorec přivlastňuje, nikoli pozici, kterou by Husserl zastával: *epoché* je u něj metodický krok, jímž se zdržuje soudu o existenci přirozeného postoje, aby se ukázaly intencionální struktury — není to trvalý životní postoj ani popření světa (Husserl, 1913).
 
-Subjekt je uveden do husserlovské terminologie s **chybějícím důrazem na metodologický status epoché**. *Epoché* je prezentována jako „spirituální praxe“ nebo „trvalý modus“ místo jako reflexivní nástroj.
+Pozorovatel vidí člověka, který fenomenologický slovník používá mimo odbornou práci a mimo jakoukoli kontrolu: svět označuje za „konstrukt“, návrat k přirozenému postoji za „naivitu“ a trvalé uzávorkování za dosaženou úroveň. Tento způsob zacházení s jazykem, v němž výraz zároveň popisuje stav i brání jeho zpochybnění, odpovídá tomu, co jako zatížení jazyka popsal (Lifton, 1961).
 
-### Krok 2 — Permanentní uzávorkování
+Postižení popisují, že věci se nejeví jako jsoucí, ale jako zdánlivé; že domácí prostředí přestalo být domovem; že jednání je předem zbaveno váhy, protože každý úkon je „zredukován“ dřív, než začne. Tento obraz odpovídá klinickému popisu chronické derealizace a [depersonalizace](@/glossary/depersonalizace.md) (Simeon & Abugel, 2006); jeho výskyt a trvání v populaci shrnují (Hunter, Sierra & David, 2004). Ztrátu samozřejmosti světa jako samostatnou osu popisuje (Blankenburg, 1971).
 
-Subjekt je veden k **trvalému provádění epoché** — ke každé zkušenosti přistupovat se „závorkami“. Klíčová instrukce: *„Nikdy nevěř existenciální tezi přirozeného postoje.“*
+Zpětně se znaky skládají takto: nejprve nadšené přijetí slovníku, pak stále delší období odstupu od vlastní zkušenosti, pak vymizení praktické angažovanosti a nakonec výklad odcizení jako filozofického zisku. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-### Krok 3 — Destrukce Lebenswelt
-
-Husserlův pozdní koncept *životního světa* — předreflexivního pole praktické zkušenosti — je systematicky podlamován. Subjekt přestává prožívat svět **jako svůj domov** (Heimwelt) a vidí jej jako „konstrukt“.
-
-### Krok 4 — Pseudo-Wesensschau
-
-Subjekt je veden k údajné Wesensschau („nahlédnutí podstaty“) na bázi **trvale uzávorkované zkušenosti**. Výsledné „esence“ jsou strukturně iluzorní.
-
-### Krok 5 — Konsolidace derealizace jako „filozofického vhledu“
-
-Stav permanentní derealizace je etablován jako **„vyšší fenomenologický postoj“**. Identitární investice činí návrat ke přirozenému postoji psychologicky obtížným.
+*Interpretace knihy*: rozlišujícím znakem je nevratnost. Nepříznivé a dlouhodobé průběhy praxe, která odstup pěstuje bez rámce pro návrat, dokládají (Lindahl et al., 2017).
 
 ## Fenomenologické znaky
 
@@ -81,11 +70,11 @@ Stav permanentní derealizace je etablován jako **„vyšší fenomenologický 
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt používá **husserlovský slovník** mimo legitimní fenomenologický kontext | Krok 1 indoktrinace |
-| **Trvalá derealizace** racionalizovaná jako "fenomenologická epoché" | Krok 5 konsolidace |
+| Subjekt používá **husserlovský slovník** mimo legitimní fenomenologický kontext | Fáze — indoktrinace |
+| **Trvalá derealizace** racionalizovaná jako "fenomenologická epoché" | Fáze — konsolidace |
 | **Praktická paralýza** v běžných úkolech | Strukturální dopad |
-| **Lebensweltová dezorientace** — domácí prostředí cizí | Krok 3 destrukce |
-| **Odmítání návratu k přirozenému postoji** jako "naivního" | Krok 5 |
+| **Lebensweltová dezorientace** — domácí prostředí cizí | Fáze — destrukce |
+| **Odmítání návratu k přirozenému postoji** jako "naivního" | Pokročilá fáze |
 
 ## Diferenciální detekce
 
@@ -141,21 +130,33 @@ Husserlovská redukce — perverze je odlišitelná od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) Lebensweltový axiom** — epistemická provenience operuje v praktickém světě.
 - **[Decision Engine](@/glossary/decision-engine.md) actionable verdict** — vynucování praktického jednání kompenzuje paralýzu.
 
+## Literatura
+
+- Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.
+- Hunter, E. C. M., Sierra, M. & David, A. S. (2004). The epidemiology of depersonalisation and derealisation. *Social Psychiatry and Psychiatric Epidemiology*, 39(1), 9–18.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Ratcliffe, M. (2008). *Feelings of Being*. Oxford: Oxford University Press.
+- Sass, L. A. (1992). *Madness and Modernism*. Cambridge, MA: Harvard University Press.
+- Simeon, D. & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. New York: Oxford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intencionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

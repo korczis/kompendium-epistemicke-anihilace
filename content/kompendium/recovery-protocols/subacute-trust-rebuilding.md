@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["duvera", "subacute-narrative-externalization", "subacute-relational-restructuring", "betrayal-trauma", "secure-attachment", "trauma"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "subacute"
 +++

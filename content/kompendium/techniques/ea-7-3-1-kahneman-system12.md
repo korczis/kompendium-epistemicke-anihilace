@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-1-2-informacni-pretizeni", "ea-1-4-2-latentni-emocionalni-modulace", "ea-2-2-6-time-control-academic", "ea-7-3-2-tversky-heuristics", "ea-7-3-9-dehaene-consciousness", "ea-5-1-16-inferencni-paralyza"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.1"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

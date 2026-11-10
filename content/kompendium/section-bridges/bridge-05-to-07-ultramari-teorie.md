@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-03-to-07-techniky-teorie", "bridge-04-to-07-terminalni-teorie", "bridge-05-to-06-ultramari-klinika", "bridge-05-to-08-ultramari-prilohy"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 
@@ -30,7 +29,7 @@ Pro tento most jsou v oddílu 07 klíčové stránky o fenomenologii a filosofii
 
 ## Proč přecházet z oddílu 05 k teorii
 
-Prvním důvodem je srozumitelnost. Pojem „transcendentální podmínky poznání“ má v knize přesný smysl, který pochází z Kantovy *Kritiky čistého rozumu* (Kant 1781): jde o struktury, které zkušenost nečerpá ze světa, ale které jsou předpokladem toho, aby se svět vůbec mohl zkušeností stát. Husserlova fenomenologie (Husserl 1913) tyto struktury zkoumala jako strukturu vědomí a jeho [intencionality](@/glossary/intencionalita.md), Heidegger (1927) jako strukturu bytí-ve-světě. Kdo tento původ nezná, čte Kapitolu 7 jako mlhavou metaforu; kdo jej zná, vidí v ní konkrétní tvrzení, které lze posuzovat.
+Prvním důvodem je srozumitelnost. Pojem „transcendentální podmínky poznání“ má v knize přesný smysl, který pochází z Kantovy *Kritiky čistého rozumu* (Kant 1781): jde o struktury, které zkušenost nečerpá ze světa, ale které jsou předpokladem toho, aby se svět vůbec mohl zkušeností stát. Husserlova fenomenologie (Husserl 1913) tyto struktury zkoumala jako strukturu vědomí a jeho [intencionality](@/glossary/intentionalita.md), Heidegger (1927) jako strukturu bytí-ve-světě. Kdo tento původ nezná, čte Kapitolu 7 jako mlhavou metaforu; kdo jej zná, vidí v ní konkrétní tvrzení, které lze posuzovat.
 
 Druhým důvodem je kritičnost. Filosofické pojmy jsou v oddílu 05 použity k popisu psychologických jevů, a takový přenos není samozřejmý. [Kantovy kategorie](@/glossary/kantovy-kategorie.md) nejsou empirické mechanismy a nelze je „narušit“ ve stejném smyslu, v jakém lze narušit spánek. Teoretické reflexe proto pomáhají rozlišit, kdy kniha mluví o změně *prožívání* těchto struktur – což je empiricky zkoumatelné – a kdy o samotných strukturách, což je tvrzení filosofické a v klinice nepoužitelné.
 
@@ -98,7 +97,7 @@ Oddíl 05 je teoretickým modelem a most mezi ním a oddílem 07 je mostem mezi 
 **Pojmy**
 
 - [Dvojná vazba](@/glossary/double-bind.md) – komunikační protějšek Kapitoly 9.
-- [Intencionalita](@/glossary/intencionalita.md) – fenomenologický základ Kapitoly 7.
+- [Intencionalita](@/glossary/intentionalita.md) – fenomenologický základ Kapitoly 7.
 
 **Sousední mosty**
 

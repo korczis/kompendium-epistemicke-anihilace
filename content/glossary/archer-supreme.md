@@ -24,7 +24,6 @@ mission_types = ["crisis-intervention", "impossible-objective", "strategic-analy
 activation_channels = ["direct-command", "violation-escalation", "quality-emergency"]
 teams_coordinated = ["gray-team", "red-team", "blue-team", "purple-team", "white-team", "black-team"]
 author = "Tomas Korcak (korczis)"
-quality_score = 80
 date_modified = "2026-11-10"
 +++
 

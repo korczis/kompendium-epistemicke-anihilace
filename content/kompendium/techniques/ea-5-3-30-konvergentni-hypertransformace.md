@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-29-simulakralni-self-substituce", "ea-5-3-3-rolova-fragmentace", "ea-5-3-32-rekonstituce-skrze-rituall", "ea-5-3-34-konvergentni-identitarni-tlak"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.30"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Konvergentní hypertransformace je **terminální stav** EA-5.3 subkategorie — bod, v němž všechny hypertransformativní techniky operují simultánně. Subjekt podstoupil úplnou identitární substituci na všech vrstvách (proto-self, minimal-self, core-self, narativní self) a operuje jako manipulátorův plný produkt.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel nevidí jeden znak, nýbrž souběh znaků popsaných na ostatních stránkách této subkategorie: diskontinuitu v tělesné, časové i narativní vrstvě současně, výpovědi dlouholetých svědků, že jde o jiného člověka, a shodu všech oblastí života s jedinou naukou. Prostředí, které takto obsadilo všechny dimenze života, popsal Lifton (1961) jako totalitní.
 
-### Krok 1 — Postupná aplikace hypertransformativních technik
+Retrospektivně se znaky nejeví jako jeden sled, ale jako překrývání několika; v anamnéze obvykle vystupuje nejprve zúžení vazeb, pak ztráta přístupu k dřívějšímu sebepopisu a nakonec propad při každém pokusu o odstup. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zúžení volby na jedinou možnou podobu života je popsaným rysem vysoce kontrolujících skupin (Lalich, 2004).
 
-Sekvenční aplikace [EA-5.3.1](@/kompendium/techniques/ea-5-3-1-identitarni-substituce.md) — [EA-5.3.29](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md) v daném kontextu.
+Zvenčí je nejlépe doložitelné to, že všechny oblasti života se strukturálně shodují s jedinou naukou. Současná kontrola chování, informací, myšlení a emocí je popsána jako měřitelná struktura (Hassan, 2018).
 
-### Krok 2 — Konvergence efektů
-
-Efekty různých technik se zesilují vzájemně.
-
-### Krok 3 — Konsolidace terminálního stavu
-
-Subjekt operuje jako manipulátorův plný produkt bez baseline self.
+*Interpretace knihy*: žádný z uvedených znaků sám o sobě nic neznamená a každý má i neškodná vysvětlení; váhu nese až jejich souběh v čase. Stav popsaný na této stránce je klinicky závažný a jakýkoli krok u něj patří do supervidované péče, která začíná bezpečím (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -92,7 +85,7 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-[EA-5.3.6](@/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md) (rekurzivní hypertransformace), EA-5.3.29 (simulakrální self-substituce)
+[EA-5.3.6](@/kompendium/techniques/ea-5-3-6-rekurzivni-hypertransformace.md) (rekurzivní hypertransformace), [EA-5.3.29](@/kompendium/techniques/ea-5-3-29-simulakralni-self-substituce.md) (simulakrální self-substituce)
 
 ### Cross-categorical references
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **konvergentní hypertransformace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.30.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

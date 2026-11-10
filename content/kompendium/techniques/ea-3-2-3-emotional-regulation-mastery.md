@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-2-10-supervisor-self-care", "ea-3-2-2-multi-paradigm-fluency", "ea-3-2-4-metacommunication-skill", "ea-3-2-5-ethical-sophistication"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.2.3"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.2 Supervizorské techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Mistrovství emoční regulace** je supervizorská kompetence stabilní vlastní regulace pod tlakem indukovaným supervizovaným materiálem. Supervizor je **regulační kotva** pro studenta — pokud sám dysreguluje, ztrácí studenta v bouři. Mistrovství není absence reakce, ale **transparentní regulovatelnost**.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Mistrovství emoční regulace je pozorovatelné nikoli na nepřítomnosti reakce, nýbrž na tom, zda je reakce pro supervidovaného čitelná a zda se po ní vrací pracovní atmosféra. Gross (1998) rozlišil zásahy, které stav upravují dříve, než naplno vznikne, od potlačení už vzniklého projevu, a ukázal, že druhá cesta má vyšší cenu a bývá okolím rozpoznána.
 
-1. **Daily practice** — 30min ranní regulační praxe (meditace + somatické cvičení).
-2. **In-session monitoring** — diskrétní self-monitoring HRV nebo subjektivní arousal scale.
-3. **Microbreaks** — strukturované 2min pauzy mezi supervizními bloky.
-4. **Weekly co-regulation session** — pravidelná peer co-regulation s kolegou.
-5. **Quarterly retreat** — intenzivní 2denní silent retreat pro re-baseline.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve je patrné, že supervizor zaznamená vlastní stav dřív, než se projeví v jednání. Pak se objevuje jeho pojmenování, přiměřené situaci a nezatěžující supervidovaného. Dále následuje návrat k věci, z něhož je zřejmé, že stav nebyl popřen ani přehrán. Nakonec se tento sled opakuje i u materiálu, který je pro supervizora osobně zasahující. Gross (1998) připomíná, že zásah provedený včas mění průběh stavu, zatímco potlačení už rozvinutého projevu mění jen jeho vnější podobu. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, co se stane se vztahem. Bordin (1983) popsal supervizní vztah jako pracovní spojenectví založené na shodě o úkolech a cílech; dysregulace, která se neopraví, toto spojenectví naruší a supervidovaný přestane přinášet to, co je obtížné.
+
+*Interpretace knihy*: rozlišujícím znakem je opravitelnost, nikoli vyrovnanost. Supervizor, který dokáže říci, že ho materiál zasáhl, zůstává oporou; supervizor, jenž svůj stav zapírá, přenáší jeho zvládání na supervidovaného (Falender a Shafranske, 2004).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Bordin, E. S. (1983). A working alliance based model of supervision. *The Counseling Psychologist*, 11(1).
+- Falender, C. A., & Shafranske, E. P. (2004). *Clinical Supervision: A Competency-Based Approach*. American Psychological Association.
+- Gross, J. J. (1998). The emerging field of emotion regulation: An integrative review. *Review of General Psychology*, 2(3).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

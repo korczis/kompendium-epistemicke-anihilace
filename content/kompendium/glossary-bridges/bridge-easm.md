@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["easm", "censys", "shodan", "osint", "doxing", "entity-resolution"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "easm"
 toc = false
 +++

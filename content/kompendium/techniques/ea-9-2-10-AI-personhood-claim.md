@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-2-1-deepfake-personality", "ea-9-4-4-AI-bot-personhood", "ea-9-4-3-sock-puppet-network", "ea-9-1-7-synthetic-expertise-claim"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.2.10"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.2 Generativní média"

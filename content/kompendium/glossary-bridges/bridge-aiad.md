@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["aiad", "agent-tier", "agent-registry", "nm-nd", "doctrine", "informed-consent"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "aiad"
 toc = false
 +++
@@ -143,7 +142,7 @@ bezpečnosti AI – mimo jiné nežádoucí vedlejší účinky a obcházení za
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8. vyd.). Oxford University Press.
 - Fuller, L. L. (1964). *The Morality of Law*. Yale University Press.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Meyer, B. (1992). Applying „design by contract“. *IEEE Computer*, 25(10), 40–51.
 
 ## Související

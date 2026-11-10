@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["causal-inference-EA", "power-analysis-EA", "effect-size-EA", "IRB-protocol-design-EA", "debriefing-protocol-research"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

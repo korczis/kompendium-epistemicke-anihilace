@@ -12,7 +12,6 @@ abbreviation = "EASM"
 related_app = "prismatic-perimeter"
 related_terms = ["security-rating", "nis2", "zkb", "color-teams", "risk-score", "attack-surface", "censys", "hawkeye", "liveview", "osint", "sanctions-screening", "shodan", "threat-intelligence", "timescaledb"]
 author = "Tomas Korcak (korczis)"
-quality_score = 80
 date_modified = "2026-11-10"
 +++
 

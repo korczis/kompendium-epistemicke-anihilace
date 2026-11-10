@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["78-forum-cult", "79-discord-server-cult", "77-twitch-streamer-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -236,7 +235,7 @@ vynutit v otevřené online komunitě, zůstává nejisté.
 - Heuer, R. J. (1999). *Psychology of Intelligence Analysis*. Center for the Study of Intelligence.
 - Janis, I. L. (1982). *Groupthink: Psychological Studies of Policy Decisions and Fiascoes* (2nd ed.). Houghton Mifflin.
 - Johnson, M. K., Hashtroudi, S., a Lindsay, D. S. (1993). Source monitoring. *Psychological Bulletin*.
-- Kraut, R. E., a Resnick, P. (2012). *Building Successful Online Communities: [Evidence-Based](@/glossary/evidence-based.md) Social Design*. MIT Press.
+- Kraut, R. E., a Resnick, P. (2012). *Building Successful Online Communities: Evidence-Based Social Design*. MIT Press.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - Massanari, A. (2017). #Gamergate and The Fappening: How Reddit's algorithm, governance, and culture support toxic technocultures. *New Media & Society*.
 - Matias, J. N. (2019). The civic labor of volunteer moderators online. *Social Media + Society*.

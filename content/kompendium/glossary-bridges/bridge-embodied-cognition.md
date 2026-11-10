@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["embodied-cognition", "predictive-processing", "fenomenologie", "bridge-predictive-processing", "bridge-fenomenologie", "bridge-disociace"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "embodied-cognition"
 toc = false
 +++

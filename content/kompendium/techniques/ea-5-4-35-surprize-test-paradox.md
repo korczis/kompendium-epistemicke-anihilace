@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-33-paradox-svobody", "ea-5-4-34-paradox-pravdy-prizemni", "ea-5-4-36-unexpected-hanging", "ea-5-4-37-paradox-prediktivni"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.35"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"
@@ -41,33 +40,25 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Paradox neočekávané zkoušky vychází z oznámení, že zkouška příští týden přijde a že den jejího
+konání nebude možné předem vědět. Zpětná úvaha se zdá vylučovat každý den po řadě, a přesto
+zkouška přijde a překvapí. Poprvé jej v tisku rozebral D. J. O’Connor v roce 1948 jako pragmatický
+paradox; Quine (1953) ukázal, že vylučovací úvaha mlčky předpokládá, že student oznámení zná jako
+pravdivé, a bez tohoto předpokladu se rozpadá. Sorensen (1988) jej řadí mezi epistemické slepé
+skvrny. Shoda na řešení není, ale úloha se týká oznámeného vědění, nikoli skutečné hrozby.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí vzorec, který této struktuře dává podobu obav konkrétního člověka. Zasažený
+člověk referuje, že jeho obavy nelze ani potvrdit, ani vyvrátit, a že se proto nedají odložit;
+doprovodným znakem je trvalá podprahová úzkost bez určitého obsahu.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky objevují v tomto pořadí: nejprve je vysloveno očekávání, které je zároveň jisté a
+nepředvídatelné, pak se vytrácí možnost je testovat, pak nastupuje trvalé napětí a nakonec je
+výklad situace přenechán druhé straně (Herman, 1992). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor zavádí pravidlo „událost X přijde nečekaně“ — subjektova predikce ji eliminuje, neabsence testu, takže přijde — paradox. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjektovy obavy získávají strukturu paradoxu: nelze je ani potvrdit, ani vyvrátit.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: pojmenování předpokladu, na němž paradox stojí, jej pro praktické účely
+odzbrojuje. Metodický rámec takové analýzy vymezují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -86,11 +77,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -154,6 +145,13 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- O’Connor, D. J. (1948). Pragmatic paradoxes. *Mind*, 57(227), 358–359.
+- Quine, W. V. O. (1953). On a so-called paradox. *Mind*, 62(245), 65–67.
+- Sorensen, R. A. (1988). *Blindspots*. Oxford University Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 
 ## Související
 

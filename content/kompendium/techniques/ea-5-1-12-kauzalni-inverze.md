@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-10-temporalni-dekoherence", "ea-5-1-11-modalni-dezorientace", "ea-5-1-13-hyperreflexivita", "ea-5-1-14-iluzorni-transcendence"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.12"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,27 +40,15 @@ Klasická manifestace: *spouštěč* a *reakce* si vymění role. Manipulátorov
 
 Technika je obzvláště devastující ze dvou důvodů. Za prvé, podkopává **prediktivní funkci poznání** — pokud subjekt neumí spolehlivě identifikovat, co působí na co, ztrácí schopnost činit informovaná rozhodnutí. Za druhé, anuluje **atribuci odpovědnosti** — viník se stává obětí a oběť viníkem. Kombinace obou efektů činí kauzální inverzi jednou z nejbrutálnějších forem [epistemické anihilace](@/glossary/epistemicka-anihilace.md).
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování pseudo-symetrie
+Kauzální inverze se pozorovateli ukáže jako soustavné obracení příčiny a následku ve prospěch jedné strany. Subjekt popisuje sebe jako iniciátora incidentů, v nichž dostupná evidence ukazuje opak, a cítí vinu za emoční stavy druhého. Přenesení odpovědnosti za jednání silnější strany na stranu slabší patří k jádru koercivní kontroly (Stark, 2007).
 
-Manipulátor systematicky prezentuje vztah jako **symetrický**: „oba jsme se na tom podíleli“, „vždycky to bylo vzájemné“, „nikdo není nevinný“. Pseudo-symetrie deaktivuje subjektovu kapacitu rozlišovat **iniciátora** a **reagujícího**.
+Retrospektivně se znaky objevují v tomto pořadí: nejistota v chronologii klíčových incidentů, pseudo-symetrické formulace o sdílené odpovědnosti v situacích strukturálně asymetrických, pokles schopnosti předvídat chování protistrany a nakonec obhajoba jejího jednání subjektem samým. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Tutéž sekvenci popisuje Herman (1992) u obětí dlouhodobého násilí v blízkém vztahu.
 
-### Krok 2 — Reframing časové sekvence
+Diferenciální znak uvedený na této stránce zní, že zdravá sebekritická introspekce se ptá po své roli, kdežto inverze odpovídá „primární a kompletní“ bez ohledu na strukturu situace. Posun odpovědnosti směrem k autoritě a jeho dopad na jednání popsal experimentálně Milgram (1974).
 
-Konkrétní incidenty jsou rekonstruovány tak, že chronologie je **zkrácená nebo invertovaná**: „ty jsi začal“, „tvoje předchozí chování to vyprovokovalo“, „moje reakce byla logickým důsledkem toho, co jsi udělal před tím“. Klíčová je **chronologická eroze** — subjekt postupně přestává mít jistotu, **co se stalo dřív**.
-
-### Krok 3 — Atribuce vnitřních stavů manipulátora subjektu
-
-Manipulátorovy emoční stavy a rozhodnutí jsou prezentovány jako **vyvolané subjektem**: „musel jsem reagovat takhle, protože jsi mě donutil“, „moje hněv je tvoje vina“, „nemůžu jinak, když děláš X“. Manipulátorova **agentivita** je systematicky *odepsána* a převedena na subjekt.
-
-### Krok 4 — Anulace prediktivních vzorců
-
-Subjekt typicky disponuje **vzorci**, které předpovídají chování manipulátora („když dělám X, on reaguje Y“). Tyto vzorce jsou systematicky **falsifikovány** ne změnou chování, ale **změnou rámce**: „to, co popisuješ jako vzorec, je tvoje projekce“, „jen si vybíráš příklady, které ti hodí“. Subjekt postupně přestává důvěřovat **vlastní prediktivní mapě**.
-
-### Krok 5 — Konsolidace skrze „zodpovědnost beze zbytku“
-
-Subjekt internalizuje pozici: „**vše, co se mezi námi děje, je primárně moje odpovědnost**“. Tato pozice je manipulátorem prezentována jako *zralost*, *introspekce*, *empatie*. Operativně je to **kompletní inverze atribuční mapy** — subjekt přestal být schopen vidět vlastní situaci v původní kauzální struktuře.
+*Interpretace knihy*: rozhodující je proporcionalita atribuce vůči doložitelné struktuře situace, ne míra sebekritiky. Rámec tohoto rozlišení popisují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologie
 
@@ -181,6 +168,13 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
 - **NABLA Infinity provenance tracking** — každé tvrzení v decision pipeline obsahuje **kauzální atribuci** s explicitně označeným zdrojem; subjekt může v post-hoc analýze rekonstruovat **původní** atribuční strukturu.
 - **OSINT framework's actor-action graphs** — investigations rozlišují *agenta* a *reagujícího* na úrovni datové struktury, což znemožňuje implicitní inverzi v reportování.
 
+## Literatura
+
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Milgram, S. (1974). *Obedience to Authority*. Harper & Row.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-ultramari-techniky/_index.md)
@@ -202,9 +196,9 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -215,8 +209,10 @@ Oběť dlouhodobého zneužívání během prvního výslechu opakovaně vracela
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

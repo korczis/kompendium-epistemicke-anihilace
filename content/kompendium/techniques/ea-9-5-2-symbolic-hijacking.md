@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-5-1-meme-cascade-injection", "ea-9-5-6-frame-war-coordination", "ea-9-3-9-tag-hijacking-EA", "ea-1-1-3-terminologicka-mystifikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.5.2"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.5 Memetická válka"

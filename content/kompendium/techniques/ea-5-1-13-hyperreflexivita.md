@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-11-modalni-dezorientace", "ea-5-1-12-kauzalni-inverze", "ea-5-1-14-iluzorni-transcendence", "ea-5-1-15-apofaticke-zacykleni"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.13"
 ea_category = "5. Pokročilé operace"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,29 +40,15 @@ Na rozdíl od zdravé metakognice (která je **nástrojová** a slouží primár
 
 Hyperreflexivita je **strukturálně příbuzná** klinickému jevu popsanému Sassem a Parnasem v souvislosti se schizofrenním spektrem, ovšem v kontextu epistemické anihilace je **indukovaná zvenčí** — manipulátor cíleně provokuje rekurzi do té míry, že se z funkční metakognice stane disociativní past.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Hyperreflexivita se pozorovateli ohlašuje jako řeč, která se nikdy nedostane k věci. Subjekt nedokončuje věty, vrací se k metakomentáři a před každým stanoviskem staví dlouhý úvod; na přímou otázku odpovídá otázkou po vlastních předpokladech. Fenomenologicky jde o ztrátu samozřejmosti jednání spolu s trvalou přítomností pozorujícího já — obraz, který v jiné klinické souvislosti popsali Sass a Parnas (2003).
 
-### Krok 1 — Etablování metakognitivního imperativu
+Retrospektivně se znaky objevují v tomto sledu: norma, podle níž je nereflektovaná kognice znakem nezralosti, požadavek reflexe stále vyššího řádu, znehodnocení bezprostředního úsudku jako naivního a nakonec odklad jednání jako trvalý stav. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Prostředí, v němž tuto normu drží jediná autorita, popisuje Lifton (1961).
 
-Manipulátor vytváří **normu**, podle níž je *nereflektovaná kognice* znakem nedostatečné epistemické zralosti. Subjekt je opakovaně konfrontován s otázkami typu: *„Jak víš, že to víš?“*, *„Jakou metodologií jsi došel k tomuto závěru?“*, *„Reflektoval jsi své premisy?“* Norma je prezentována jako **standard intelektuální poctivosti**.
+Zasažený člověk referuje vyčerpání bez výkonu a pocit bezedné hloubky každého kognitivního aktu. Diferenciální znak uvedený na této stránce zní, že zdravá metakognice je nástrojová a časově ohraničená a paralýzu nezpůsobuje; hraničním případem je akademická socializace v oborech, které reflexi trvale odměňují (Herman, 1992).
 
-### Krok 2 — Eskalace řádu reflexe
-
-Po každé úrovni reflexe je požadována reflexe **vyššího řádu**: *„A jak víš, že tvá reflexe je správná?“*, *„A jakým způsobem jsi reflektoval svou metodologii reflexe?“* Eskalace pokračuje, dokud subjekt nedosáhne bodu, kdy nemůže formulovat odpověď bez dalšího sebepoukazu.
-
-### Krok 3 — Delegitimizace primární kognice
-
-Spontánní, neref­lektované akty (intuice, vnímání, bezprostřední úsudek) jsou systematicky označovány jako **naivní**, **nekritické**, **dogmatické**. Subjekt se učí, že každý primární kognitivní akt je třeba **odložit** a podrobit reflexi — jinak je epistemicky podezřelý.
-
-### Krok 4 — Inhibice jednání skrze rekurzivní paralýzu
-
-V okamžicích, kdy subjekt potřebuje jednat či soudit, se aktivuje **rekurzivní smyčka**: každý možný tah vyvolává otázku, která vyvolává otázku, která vyvolává otázku. Subjekt je **fenomenologicky uvězněn** uvnitř sebepoukazu — vědomě či nevědomě dochází k odkladu, otálení, paralýze.
-
-### Krok 5 — Konsolidace skrze identifikaci s reflexivním já
-
-Subjekt se postupně identifikuje s **reflexivním pozorovatelem** spíše než s jednajícím já. Primární kognice je vnímána jako „tělesné“, „afektivní“, „instinktivní“ — a tedy **podřadné**. Reflexivní já je identifikováno jako **pravé já**. Subjekt **nechce** vystoupit ze smyčky, protože smyčka **je** jeho identita.
+*Interpretace knihy*: vzorec se pozná podle toho, že se smyčka stala identitou — subjekt z ní nechce ven. Etický rámec práce s touto stránkou stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -199,6 +184,13 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
 - **NABLA Infinity reflective depth limit** — epistemický pipeline má **maximální hloubku** sebepoukazu; po dosažení limitu se aktivuje operační rozhodnutí na základě nejlepšího aktuálního stavu.
 - **Color Teams reflexivní rotace** — [Red Team](@/glossary/red-team.md) má mandát **zastavit** [Blue Team](@/glossary/blue-team.md) v rekurzivní reflexi, pokud paralyzuje rozhodování.
 
+## Literatura
+
+- Gadamer, H.-G. (1960). *Wahrheit und Methode*. J. C. B. Mohr.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Sass, L. A., & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)
@@ -221,9 +213,9 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -234,8 +226,10 @@ Intervence: Ukončení coachingového vztahu, klinická psychoterapie s **explic
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

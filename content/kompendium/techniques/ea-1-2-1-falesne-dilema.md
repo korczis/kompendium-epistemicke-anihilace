@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-1-3-terminologicka-mystifikace", "ea-1-2-1-argumentacni-oslabeni", "ea-1-2-2-falesna-ekvivalence", "ea-1-2-2-memorni-rekonstrukce"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.2.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.2 Narušení procesů evaluace a integrace"
@@ -41,42 +40,15 @@ Strukturální mechanismus: **artificiální polarizace** kontinuálního probl�
 
 Klíčová asymetrie: subjekt prožívá **kogntivní tenzi** (musí vybrat mezi A a B), aniž by si uvědomoval, že **C, D, E, …, Z** byly strukturálně vyloučeny.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování binárního rámce
+Falešné dilema je na stránce popsáno jako artificiální polarizace spojitého problémového prostoru do dvou bodů. Pozorovatel je nerozpozná podle toho, co v rozhovoru zaznělo, nýbrž podle toho, co v něm nikdy nezaznělo: zdůvodnění, proč jsou právě tyto dvě možnosti vyčerpávající. Hamblin (1970) ukazuje, že tradiční výčty klamů selhávají přesně v tomto bodě — posuzují tvrzené premisy, nikoli rámec, v němž se premisy vybíraly.
 
-Problém je **iniciálně formulován** v binárních termínech:
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve je zachytitelné binární zarámování předložené bez opory. Pak se ukáže, že jsou zastoupeny jen vyhraněné verze obou pozic, takže i poctivé uvažování uvnitř rámce končí u krajnosti. Následují gesta, která znehodnocují mezipolohy, aniž by proti nim argumentovala, a nakonec stav, v němž člověk už alternativy nedokáže vyjmenovat. Tversky a Kahneman (1981) doložili, že samo zarámování volby posouvá rozhodnutí i tam, kde popisovaná situace zůstává táž. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- „Buď A, nebo B“
-- „Otázka stojí takto: X, nebo Y“
-- „Existují dvě fundamentální pozice: pro a proti“
+Detekční markery zachycené níže odpovídají téže struktuře: člověk cítí nutkání zvolit, přestože mu ani jedna možnost nesedí, nedokáže zrekonstruovat třetí pozici a při otázce, zda jsou A a B vyčerpávající, naráží na sociální odpor, ne na odpověď. Walton (1989) proto klade důraz na právo zpochybnit položenou otázku: dialog, v němž se tázat na rámec nesmí, už není argumentace.
 
-Klíčová vlastnost: **bez explicitního zdůvodnění**, proč jsou pouze tyto dvě možnosti relevantní. Pokud by manipulátor explicitně argumentoval, **proč** jsou A a B vyčerpávající, otevřel by **prostor pro evaluaci**, zda skutečně jsou. Manipulace spočívá v **nezavedení** této otázky.
-
-### Krok 2 — Prezentace polarizovaných pozic
-
-Pozice A a B jsou prezentovány jako **plně rozvinuté**, **vyhraněné**, **neporovnatelné**. Klíčová charakteristika: **nuancované verze** A nebo B (A', A'', B', B'') nejsou prezentovány jako alternativy — pouze **extrémní** verze.
-
-To je **strukturálně významné**: i pokud subjekt přemýšlí kriticky **uvnitř** rámce, dospěje k volbě mezi extrémy, **nikoli** k umírněné alternativě.
-
-### Krok 3 — Implicitní delegitimizace mezilehlých pozic
-
-Rétorické signály delegitimizují středy:
-
-- „Centrismus znamená nepřemýšlet“
-- „Kdo se nerozhodne, je v podstatě pro [opačnou stranu]“
-- „Hybridní řešení jsou typicky kompromis nikomu vyhovující“
-- „Toto není doba pro nuanci“
-
-Tyto signály **nejsou** argumenty — jsou **rámcovými gesty**, která **vylučují** legitimní pozice z prostoru úvahy bez argumentačního důkazu.
-
-### Krok 4 — Time pressure
-
-Často kombinováno s **time pressure**: „Musíme se rozhodnout teď.“ Time pressure inhibuje rekonstrukci alternativ — subjekt nemá kapacitu **zpochybnit rámec**, musí volit **uvnitř** něj.
-
-### Krok 5 — Konsolidace skrze opakování
-
-Pokud subjekt **přijme** binární rámec, jeho další uvažování operuje **v rámci** falešného dilematu. Postupně **zapomíná**, že existovaly alternativy. Strukturální zajetí v binárním prostoru se **kondoluje** do trvalého epistemického vzorce.
+*Interpretace knihy*: binární volba sama není vadou — některé otázky binární skutečně jsou. Rozlišuje se podle toho, zda je vyčerpávající povaha dvojice tvrzena, nebo doložena, a zda otázka po třetí možnosti dostane odpověď, nebo nálepku (Walton, 1989).
 
 ## Fenomenologické znaky
 
@@ -229,6 +201,12 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
 - **NABLA Infinity epistemic divergence detection** — pokud kandidátní rozhodnutí konverguje na binární rámec přes nuancovanou evidenci, system **flagguje** anomálii.
 - **Color Teams Devil's Advocate role** — [Red Team](@/glossary/red-team.md) agenty mají strukturální mandát zpochybnit binární rámce.
 
+## Literatura
+
+- Hamblin, C. L. (1970). *Fallacies*. Methuen.
+- Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science*, 211(4481).
+- Walton, D. N. (1989). *Informal Logic: A Handbook for Critical Argumentation*. Cambridge University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -243,21 +221,23 @@ Intervence: Mandatorní **multi-disciplinary tumor board** review pro všechny k
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

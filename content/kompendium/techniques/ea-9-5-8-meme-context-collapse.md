@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-5-counter-meme-suppression", "ea-9-5-10-meme-attribution-laundering", "ea-2-3-2-context-collapse", "ea-2-3-3-quote-mining"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.5.8"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.5 Memetická válka"

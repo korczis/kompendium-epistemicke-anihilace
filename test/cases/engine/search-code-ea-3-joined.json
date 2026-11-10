@@ -1,39 +1,29 @@
 {
   "category": "code",
   "expected": {
-    "code": "EA-3.3.1",
+    "code": "EA-3.1.6",
     "hits": [
       {
-        "code": "EA-3.3.1",
-        "in": 34,
+        "code": "EA-3.1.6",
+        "in": 33,
         "kind": "Technika",
-        "path": "kompendium/techniques/ea-3-3-1-institutional-ethics-board.md",
+        "path": "kompendium/techniques/ea-3-1-6-recognition-training.md",
         "tier": 1,
-        "title": "EA-3.3.1 Institucionální etická rada",
-        "url": "/kompendium/techniques/ea-3-3-1-institutional-ethics-board/",
+        "title": "EA-3.1.6 Recognition trénink",
+        "url": "/kompendium/techniques/ea-3-1-6-recognition-training/",
         "why": "exact_code"
-      },
-      {
-        "code": "EA-3.3.10",
-        "in": 1,
-        "kind": "Technika",
-        "path": "kompendium/techniques/ea-3-3-10-funding-model-ethics.md",
-        "tier": 4,
-        "title": "EA-3.3.10 Etika finančního modelu",
-        "url": "/kompendium/techniques/ea-3-3-10-funding-model-ethics/",
-        "why": "title_prefix"
       }
     ],
     "limit": 12,
-    "normalised": "ea-3.3.1",
+    "normalised": "ea-3.1.6",
     "ok": true,
     "op": "search",
-    "query": "EA3.3.1",
+    "query": "EA3.1.6",
     "schema": "kompendium-engine/v1",
-    "total": 2
+    "total": 1
   },
   "input": {
     "op": "search",
-    "query": "EA3.3.1"
+    "query": "EA3.1.6"
   }
 }

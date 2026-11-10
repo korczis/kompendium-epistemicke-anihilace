@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["17-ea-security-social-engineering", "22-ea-security-incident-response-narrative", "20-ea-security-insider-threat", "6-ea-osint-bot-detection"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

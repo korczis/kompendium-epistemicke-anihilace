@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-21-dream-state-implantace", "ea-5-5-22-hypnagogicka-modulace", "ea-5-5-24-atmospheric-pressure-modulace", "ea-5-5-25-svetelna-frekvence-modulace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.23"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"
@@ -37,15 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Liminální prostor rozklad** narušuje subjektovu **schopnost orientace v liminálních prostorech** — přechodových zónách mezi stavy, identitami, kontexty. Subjekt ztrácí schopnost bezpečné navigace přechody; manipulátor poskytuje 'mapu' v rituálu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že běžné přechody dne — ráno a večer, práce a domov — vyžadují rituální oporu a že bez ní nastupuje úzkost. Člověk cituje naučené „mapy“ přechodů a v improvizovaných situacích selhává (Lindahl et al., 2017).
 
-### Krok 1 — Cílená dezorientace v přechodových zónách
+Sám popisuje ztrátu schopnosti improvizovat tam, kde situace není předem vyložená. Singer (1995) popisuje tuto podobu závislosti: skupina dodává strukturu tam, kde dřív stačila vlastní zkušenost, a člověk ztrácí měřítko, podle nějž by poznal, že ji potřebuje.
 
-### Krok 2 — Implantace rituální 'mapy' přechodů
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá patrné prostředí, v němž je nejistota v přechodech označena za nebezpečí, pak nabídnutá rituální mapa a nakonec úzkost mimo ni. Lifton (1961) popsal tuto závislost na předem vyloženém prostředí jako znak totalismu. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 3 — Konsolidace závislosti na rituálu pro přechody
+Od dobrovolné ritualizace dne se vzorec liší tím, že bez opory nastupuje úzkost, ne pouhé nepohodlí. Herman (1992) popisuje tuto ztrátu vlastního měřítka jako jádro poškození v asymetrickém vztahu.
+
+*Interpretace knihy*: nálezem je úzkost z nevyloženého přechodu, ne rituál sám.
 
 ## Fenomenologické znaky
 
@@ -122,17 +123,17 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **liminální pros
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.23 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.23 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **liminální prostor rozklad** v post-hoc forensní analýze:
-
-- **Primární marker**: EEG: zvýšená 1/f noise + snížená spectral entropy — atypická 'okrajová' oscilační dynamika.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -178,15 +179,15 @@ Pro **objektivní detekci** aplikace techniky **liminální prostor rozklad** v 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

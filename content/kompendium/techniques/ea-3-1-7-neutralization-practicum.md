@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-1-5-stabilization-anchoring", "ea-3-1-6-recognition-training", "ea-3-1-8-compositional-analysis-drill", "ea-3-1-9-debriefing-protocol"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.7"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Neutralizační praktikum** je technika strukturovaného nácviku **aktivních protikroků** vůči identifikovaným manipulativním vzorcům. Praktikum přesahuje konceptuální znalost — je vtěleným tréninkem v bezpečném ale realisticky náročném prostředí (simulační laboratoř s herci nebo pokročilou videosimulací).
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Neutralizační praktikum je pozorovatelné na rozdílu mezi tím, co člověk o protikrocích ví, a tím, co z toho zůstane dostupné pod tlakem. Právě tento rozdíl je důvodem, proč se nácvik vede v situaci, nikoli ve výkladu. McGuire (1964) ukázal, že odolnost vůči přesvědčování vzniká spíše předchozím setkáním s oslabenou podobou argumentu než pouhým poučením o jeho vadě.
 
-1. **Scenario library** — 30+ standardizovaných scénářů s rostoucí náročností.
-2. **Role assignment** — student v roli respondenta; herec v roli iniciátora; observer trio.
-3. **Live performance** — 5–15min interakce s real-time fyziologickým monitoringem.
-4. **Multi-perspective debrief** — student/herec/observers/video review.
-5. **Refinement iteration** — opakovaný scénář s explicitním cílem zlepšení.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve se mění schopnost rozpoznat, co se v situaci děje, zatímco se to děje. Pak se objevuje odpověď, která drží věcnou linii a nepřechází v protiútok. Dále roste snesitelnost nejistoty: účastník vydrží nerozhodnutý bod, místo aby jej uzavřel. Nakonec zůstávají tyto schopnosti dostupné i mimo nacvičené prostředí. Van der Linden a kol. (2017) doložili, že předchozí seznámení se stavbou klamného argumentu zeslabuje jeho pozdější účinek. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle toho, že nácvik přechází ve výcvik útoku nebo že se účastník učí jen pohotovější odpovědi. Ericsson, Krampe a Tesch-Römer (1993) připomínají, že bez pravdivé zpětné vazby upevní opakování rutinu, nikoli dovednost.
+
+*Interpretace knihy*: tato kniha je obranná taxonomie; nácvik, v němž by se někdo cvičil vzorec provádět, by ji obrátil proti lidem, které má chránit. Rozlišujícím znakem je proto role účastníka — brání se, nebo zkouší, co na druhého platí (McGuire, 1964).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review*, 100(3).
+- McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), *Advances in Experimental Social Psychology*, Vol. 1. Academic Press.
+- van der Linden, S., Leiserowitz, A., Rosenthal, S., & Maibach, E. (2017). Inoculating the public against misinformation about climate change. *Global Challenges*, 1(2).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

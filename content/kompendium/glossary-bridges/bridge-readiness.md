@@ -12,7 +12,6 @@ related_terms = ["bridge-kontraindikace", "bridge-exit", "bridge-threshold", "pr
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
 +++
 
 # Bridge: Připravenost (readiness)
@@ -57,7 +56,7 @@ na výukové a simulační cvičení** u studentů a profesionálů, kteří moh
 ## Znaky připravenosti
 
 Kniha uvádí šest znaků, které připravenost podporují; žádný z nich není podmínkou sám o sobě. Prvním
-je **stabilita** – pravidelný spánek a denní rytmus a nepřítomnost akutní krize. Druhým je **bezpečí** –
+je **stabilita** – pravidelný spánek a denní rytmus a nepřítomnost akutní krize. Druhým je bezpečí –
 ukončený nebo kontrolovaný kontakt s pachatelem či skupinou. Třetím je **opora** – alespoň několik
 důvěryhodných vztahů, viz [Bridge: Doprovodná osoba](@/kompendium/glossary-bridges/bridge-companion.md).
 Čtvrtým je **vlastní zájem** – člověk sám klade otázky a chce rozumět, nejde o tlak okolí. Pátým je

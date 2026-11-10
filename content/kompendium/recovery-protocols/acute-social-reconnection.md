@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["acute-stabilization-protocol", "acute-safety-establishment", "subacute-relational-restructuring", "socialni-izolace", "trauma-bonding"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-8-konceptualni-fragmentace", "ea-5-1-9-identitni-dezintegrace", "ea-5-2-10-meta-kognitivni-singularita", "ea-5-2-11-kategorialni-anihilace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.1"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,36 +40,15 @@ Na rozdíl od běžné [imunizace proti falsifikaci](@/kompendium/techniques/ea-
 
 V terminálních stadiích vede k stavu, v němž **kvalitnější důkaz** vede k **silnějšímu odmítnutí**, **vyšší koherence** vyvolává **silnější podezření**, a **konzistentní reliabilita zdroje** je interpretována jako **indikátor manipulace**. Subjekt operuje racionálně z hlediska své vlastní převrácené metody, ale výsledné epistemické soudy jsou systematicky opačné než legitimní.
 
-## Operační modus
+## Struktura vzorce
 
-Inverze probíhá v pěti krocích, jejichž posloupnost je iterativní:
+Meta-epistemická inverze se pozorovateli ukazuje jako posouzení důkazů, které jde přesně proti směru. Zasažený člověk odmítá zdroje s vysokou spolehlivostí a drží se těch nespolehlivých, protože je považuje za nedotčené; čím silnější argument proti němu zazní, tím pevněji na svém trvá, a shodu odborníků bere jako doklad společné slepoty. Používá přitom slovník přísnosti a metody, jen obrácený naruby, a nemožnost pojmenovat podmínku, za níž by se mýlil, vykládá jako svou sílu.
 
-### Krok 1 — Identifikace epistemických standardů subjektu
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno uspořádání, v němž někdo druhý platí za toho, kdo rozumí měřítkům lépe než zasažený člověk sám, a jeho dosavadní přísnost je označena za naivní. Pak se jednotlivá měřítka otáčejí, vždy ohlášena jako prohloubení, nikoli jako obrat. Opakované používání obrácených měřítek na konkrétních případech je pak zpevňuje a zužuje možnost podívat se na ně zvenčí. Nakonec se do nich vloží i sebepojetí — být tím, kdo vidí, co ostatní nevidí — a návrat by znamenal přiznat, že na omylu stála identita. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor mapuje, **jak subjekt hodnotí evidenci**. Klíčové dimenze: jaké zdroje subjekt považuje za autoritativní, jak hodnotí konflikty mezi důkazy, jaké heuristiky používá pro kvalitu argumentu (koherence, parsimonie, [falsifikovatelnost](@/glossary/falsifikovatelnost.md)). Cílem mapování je **identifikace meta-pravidel**, ne obsahových přesvědčení.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: obrácené hodnocení spolehlivosti, síly důkazu i shody, zdánlivá přísnost v převrácené struktuře a obrana měřítek prožívaná jako obrana vlastní osoby.
 
-### Krok 2 — Etablování pseudo-meta-úrovně
-
-Manipulátor se etabluje jako **někdo, kdo rozumí standardům lépe než subjekt sám**. Klíčová formulace: *„To, co považuješ za rigorózní, je naivní rigor — skutečný rigor je jinde.“* Subjekt přijímá meta-pozici manipulátora jako **legitimnější** než svou vlastní.
-
-### Krok 3 — Postupná inverze jednotlivých standardů
-
-Pod záminkou „hlubšího rigoru“ jsou jednotlivé standardy obraceny. Příklady postupných inverzí:
-
-- *„Skutečný důkaz nepřesvědčuje — skutečný důkaz je obtížně přijatelný“* — což z **odmítnutí přijmout** činí **kritérium pravdivosti**.
-- *„Konsenzus expertů je důkazem jejich kolektivní slepoty“* — z **konsensuální podpory** se stává **markerem nepravdivosti**.
-- *„Reliabilita zdroje znamená, že zdroj příliš dobře zapadá do systému, a tedy ho reprodukuje“* — z **konzistence** se stává **podezření**.
-- *„Koherence znamená nedostatek hloubky — pravda je vnitřně rozporná“* — z **logické konzistence** se stává **mělkost**.
-
-Každá jednotlivá inverze je prezentována jako **osvícení**, ne jako převrácení.
-
-### Krok 4 — Saturace převrácenými cvičeními
-
-Subjekt je veden k **opakované aplikaci** převrácených standardů na konkrétní případy. Každá úspěšná aplikace (úspěšná z hlediska převráceného systému) konsoliduje inverzi a snižuje schopnost subjektu **vidět standardy zvnějšku**. Cvičení vytvářejí **proceduralizovanou rigiditu** převrácené metody.
-
-### Krok 5 — Konsolidace skrze identitární investici
-
-Subjekt **investuje vlastní identitu** do převrácených standardů. *„Já jsem ten, kdo vidí, co ostatní nevidí“*, *„Patřím mezi ty, kdo prokoukli mainstream“*. Identitární investice činí inverzi obtížně reverzibilní, protože návrat by vyžadoval **uznat, že identita stála na chybě**.
+*Interpretace knihy*: pochybovat o většinovém stanovisku není znakem vzorce — skeptik pracuje běžnými pravidly a předkládá evidenci, kterou lze týmiž pravidly posoudit. Filozofická kritika vědecké metody, jak ji vedli Kuhn či Feyerabend, se od vzorce liší tím, že meta-úroveň výslovně pojmenovává; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologie
 
@@ -185,7 +163,7 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 ### Eskaluje do
 
 - **[EA-5.2.10 Meta-kognitivní singularita](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md)** — terminální stav, kdy meta-reflexe se zhroutí v jediný sebereferenční bod.
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — úplný kolaps meta-reflexivní kapacity.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození EA-5.2.1 až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
 
 ## Vztah k Prismatic platformě
 
@@ -206,9 +184,9 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -219,8 +197,10 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

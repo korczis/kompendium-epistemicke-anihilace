@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["nabla-infinity-ea-pipeline", "decision-engine-ea-calibration", "qeve-ea-quality-validation", "trinity-gate-ea-verification", "osint-ea-source-validation"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-3-2-strategicka-reinterpretace", "ea-2-5-5-bothsidesizm-internalizace", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-2-goldman-veritism", "ea-7-2-10-nagel-view-from-nowhere", "ea-7-1-5-arendt-banality-evil"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.9"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

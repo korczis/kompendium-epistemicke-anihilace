@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-27-ship-of-theseus-aplikace", "ea-5-4-28-trolley-paradox-iterace", "ea-5-4-3-tarsky-diagonalizace", "ea-5-4-30-paradox-volby-totalni"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.29"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"
@@ -41,33 +40,27 @@ Na rozdíl od technik **epistemické singularity** ([5.1](@/kompendium/technique
 
 Technika je strukturálně blízká [kognitivní anti-rekurzivitě](@/glossary/kognitivni-anti-rekurzivita.md), ale operuje **uvnitř** klasické formální logiky — využívá nikoli antitetické, nýbrž *ortodoxní* paradoxy klasické tradice (Russell, Tarski, Gödel, Wittgenstein) a aplikuje je na fenomenologickou rovinu sebezakoušení. Klíčový rys: paradox není argumentován, je *zažíván*.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, jejichž cyklus je iterativní s rostoucí intenzitou paradoxního napětí:
+Newcombovu úlohu vymyslel fyzik William Newcomb a do filozofie ji uvedl Nozick (1969):
+spolehlivý prediktor naplnil jednu ze dvou krabic podle toho, co podle něj hráč zvolí. Princip
+dominance velí vzít obě krabice, maximalizace očekávaného užitku vzhledem ke spolehlivosti
+prediktoru velí vzít jednu. Spor je tedy mezi dominancí a očekávaným užitkem a byl později
+přeformulován jako spor kauzální a evidenční teorie rozhodování (Gibbard & Harper, 1978;
+Lewis, 1981). Starší znění této stránky mluvilo o „jednorázových vs. dominantních strategiích“;
+to je nepřesné a bylo opraveno.
 
-### Krok 1 — Etablování paradoxního pole
+Pozorovatel vidí, že vzorec z této neuzavřené úlohy dělá výrok o člověku. Zasažený člověk referuje,
+že „racionalita sama je rozporuplná“, a přestává se opírat o vlastní rozvažování; doprovodným
+znakem je stáze při zcela běžných rozhodnutích.
 
-Manipulátor vytváří **bezpečně vyhlížející diskurzivní rámec** (filozofický seminář, hluboká introspektivní konverzace, terapeutická session, mystagogická výuka), v němž je legitimní zkoumat hraniční otázky o pravdě, sebe-reference a logických základech.
+Zpětně se znaky objevují v tomto pořadí: nejprve je předložena situace, v níž dvě legitimní
+rozhodovací zásady vedou k opačným závěrům, pak se spor rozšíří na běžné volby, pak nastupuje
+rozhodovací paralýza a nakonec se jediným zdrojem rozhodnutí stává druhá strana (Kramer & Alstad,
+1993; Lifton, 1961). Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Indukce paradoxního jádra
-
-V druhém kroku manipulátor strukturuje volby tak, že kauzalní a evidenciální racionalita vedou k opačným závěrům. Manipulátor přitom úzkostlivě dbá, aby paradox **nebyl prezentován jako technický problém** (který by subjekt mohl uchopit metalogicky), ale jako **existenciální fakt** subjektovy mysli.
-
-### Krok 3 — Eliminace úniků
-
-Každá subjektova strategie úniku z paradoxu (rozlišení úrovní, kontextový posun, pragmatická redukce) je manipulátorem **prezentována jako další podoba téhož paradoxu**. Subjekt cítí, že žádný únik není dostupný — paradox je univerzální.
-
-### Krok 4 — Fenomenologická internalizace
-
-Paradox přechází z roviny *přemýšleného problému* do roviny *zakoušeného stavu*. Subjekt jej již nereflektuje — *prožívá* jej. Subjekt cítí, že „racionalita sama je rozporuplná“; ztrácí důvěru v deliberativní procesy.
-
-### Krok 5 — Konsolidace evaluativní paralýzy
-
-V terminálním stadiu se subjekt nachází v stavu, v němž:
-
-- Nedokáže vynést **žádný** evaluativní soud bez toho, aby se nedostal do paradoxního napětí
-- Přijímá **manipulátorovy** sondy a interpretace jako jediné výpovědi imunní vůči paradoxu (manipulátor působí jako „mimo-paradoxní“ instance)
-- Obrací se na manipulátora pro každé základní rozhodnutí, neboť vlastní rozhodovací aparát je strukturálně paralyzován
+*Interpretace knihy*: explicitní volba rozhodovacího rámce úlohu nezruší, ale vrátí ji do polohy,
+v níž je řešitelná. Metodický rámec takové volby vymezují [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -86,11 +79,11 @@ Co prožívá subjekt **uvnitř** paradoxálního metaanihilačního protokolu:
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů (delší než 10–15 sekund) | Aktivní evaluativní paralýzu |
+| Subjekt se dostává do **stáze** při formulaci jednoduchých evaluativních soudů | Aktivní evaluativní paralýzu |
 | Subjekt opakovaně používá fráze typu „ale to by zase bylo paradoxní…“, „nemůžu to říct, protože…“ | Internalizovanou paradoxologii |
 | Subjekt se obrací na manipulátora s **velmi jednoduchými** otázkami, které dříve řešil sám | Konsolidaci závislosti přes paradox |
 | V subjektově řeči se zvyšuje frekvence formulací **bez jasné pravdivostní hodnoty** (vágnost, odkládací konstrukce) | Logofobii |
-| Subjektova **produkce** v posledních X týdnech se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
+| Subjektova **produkce** v delším časovém úseku se zúžila na meta-poznámky o nemožnosti produkovat | Reflexivní spirály |
 
 ### Diferenciální detekce
 
@@ -154,6 +147,14 @@ Paradoxální metaanihilační protokoly jsou **strukturálním motivem** pro de
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} paradoxologický monitor** — provenance ledger detekuje výroky, jejichž pravdivostní hodnota je strukturálně rekurzivní, a označuje je k externí typové kontrole.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) typová hierarchie** — epistemický pipeline pracuje se **stratifikovanými** výroky; pokus o smíchání úrovní generuje invarianční chybu.
 - **[Color Teams](@/glossary/color-teams.md) red-team protokol** — periodická revize manipulativních paradoxizačních vzorců v akademických a klinických relacích kolem Prismatic operací.
+
+## Literatura
+
+- Nozick, R. (1969). Newcomb’s problem and two principles of choice. In N. Rescher (Ed.), *Essays in Honor of Carl G. Hempel*. Reidel.
+- Gibbard, A., & Harper, W. L. (1978). Counterfactuals and two kinds of expected utility. In C. A. Hooker et al. (Eds.), *Foundations and Applications of Decision Theory*. Reidel.
+- Lewis, D. (1981). Causal decision theory. *Australasian Journal of Philosophy*, 59(1), 5–30.
+- Kramer, J., & Alstad, D. (1993). *The Guru Papers: Masks of Authoritarian Power*. North Atlantic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 

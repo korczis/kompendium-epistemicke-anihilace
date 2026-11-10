@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-14-somaticka-rekodifikace", "ea-5-3-15-mentalizacni-disrupce", "ea-5-3-17-existencialni-rekonfigurace", "ea-5-3-18-esencialisticka-redukce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.16"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Fenomenologická rekonstituce nahrazuje **strukturu subjektova přímého prožívání**. Co subjekt 'vidí', 'cítí', 'prožívá' v každém okamžiku je systematicky reframováno tak, aby odpovídalo manipulátorovu fenomenologickému rámci. Subjekt přestává mít přímý přístup k vlastní zkušenosti.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Co pozorovatel vidí, je ztráta přímosti: vlastní zážitek je popisován vždy přes interpretační vrstvu a na otázku, co člověk prožil, přichází odpověď, jak se to má prožívat. Současně přibývají projevy derealizace — svět působí jako kulisy. Tyto stavy mají vlastní klinický popis a samy o sobě nejsou dokladem vnějšího působení (Simeon a Abugel, 2006).
 
-### Krok 1 — Devalvace přímé zkušenosti
+V retrospektivě se v anamnéze dá rozlišit sled: nejprve je znehodnocena váha přímé zkušenosti, pak se v popisech objeví cizí fenomenologické formulace, a nakonec setkání s nezávislými svědky téže události vyvolává dezorientaci místo korekce. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Prostředí, které si nárokuje výklad veškeré zkušenosti, odpovídá popisu totalitního prostředí (Lifton, 1961).
 
-'To, co vidíš, není to, co tam je.'
+Zvenčí je doložitelné zejména to, že si člověk není jistý, co se při konkrétní události skutečně odehrálo, zatímco cizí formulaci reprodukuje doslovně. Kontrola nad tím, co smí být považováno za vlastní zkušenost, patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Implantace alternativního fenomenologického rámce
-
-Manipulátor poskytuje strukturu, jak 'doopravdy vidět/cítit/prožívat'.
-
-### Krok 3 — Konsolidace cizí fenomenologie
-
-Subjektova přímá zkušenost je vždy filtrována cizí strukturou.
+*Interpretace knihy*: fenomenologická práce i psychoterapie běžně nabízejí nový jazyk pro zkušenost. Rozdíl je v tom, zda po nich přímý přístup ke zkušenosti sílí, nebo mizí. Stabilizace a bezpečí předcházejí jakémukoli zpochybňování (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **fenomenologická rekonstituce** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.16.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Simeon, D., & Abugel, J. (2006). *Feeling Unreal: Depersonalization Disorder and the Loss of the Self*. Oxford University Press.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

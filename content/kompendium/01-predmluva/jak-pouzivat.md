@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["bezpecnostni-klasifikace", "eticke-aspekty", "pro-koho-je-urceno", "ucel-kompendia"]
-parent = "kompendium-01-predmluva"
 section_icon = "🗺️"
 toc = true
 +++

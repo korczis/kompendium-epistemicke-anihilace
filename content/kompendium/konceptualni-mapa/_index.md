@@ -13,7 +13,6 @@ tags = ["kompendium", "konceptualni-mapa", "navigace", "glossary", "vztahy", "on
 categories = ["academic", "navigation"]
 section_icon = "🗺️"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "publikovano"
 +++

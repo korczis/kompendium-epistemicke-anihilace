@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-12-noumenalni-paralyza", "ea-5-2-13-apriorni-fragmentace", "ea-5-2-15-transcendentalni-implosion", "ea-5-2-16-kantovska-paradoxie"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.14"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,27 +40,15 @@ Na rozdíl od [EA-5.2.5 konstitutivního rozpadu](@/kompendium/techniques/ea-5-2
 
 Subjekt v terminálním stadiu vidí **profily, ale ne věci**: vidí „stranu z této perspektivy“ a „stranu z druhé“, ale neví, že je to „tatáž věc“. Identita objektu napříč adumbracemi je ztracena. Komunikace přetrvává díky lingvistické rutině, ale referenční stabilita je narušena.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-fenomenologická indoktrinace
+Vzorec se pozorovateli ukazuje nejprve jako proměna slovníku, ne jako proměna chování. Člověk přejímá fenomenologické pojmy — adumbrace, horizont, Wesensschau — ve společenství, které je používá jako znaky příslušnosti a jako důkaz pokroku; řeč se tím odděluje od toho, co by kterýkoli z těch pojmů znamenal v odborné práci. Zatížení jazyka skupiny jako znak prostředí, které si nárokuje výklad zkušenosti svých členů, popsal už (Lifton, 1961).
 
-Subjekt je uveden do radikálně relativistické verze fenomenologie, kde *„každá perspektiva je vlastní svět“*. Husserlův důraz na **identicitu objektu napříč adumbracemi** je ignorován nebo invertován.
+Co postižení popisují, je ztráta samozřejmosti věcí. Předmět viděný z jedné a z druhé strany se přestává prožívat jako tentýž; chybí automatické předjímání dosud neviděných stran, takže každé nové nahlédnutí působí jako nové setkání. Slova zůstávají, ale jejich vztah k věcem kolísá. Blankenburg (1971) popisuje tuto ztrátu přirozené samozřejmosti jako samostatnou osu psychopatologie, odlišnou od poruchy obsahu myšlení; příbuzné anomálie prožívání sebe a světa mapuje nástroj EASE (Parnas, 2005).
 
-### Krok 2 — Saturace perspektivním cvičením
+Zpětně se znaky obvykle skládají v tento sled: nejprve nápadná reflexe toho, jak se věci ukazují, pak slábnoucí schopnost nechat ji odeznít, pak rozpad praktické kompetence při běžném zacházení s předměty a nakonec výklad celého stavu jako hlubšího vhledu. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Hyperreflexivitu spojenou s oslabeným prožitkem sebe jako téhož subjektu popisují (Sass & Parnas, 2003).
 
-Manipulátor vede subjekt k opakovaným cvičením v „perspektivovém izolování“ — pozorování věci z různých úhlů s instrukcí *„každá perspektiva je úplná sama o sobě“*. Cvičení rozbíjejí pasivní syntézu.
-
-### Krok 3 — Destrukce horizontové struktury
-
-Husserlovský **horizont** (*Horizont*) — implicitní očekávání dalších adumbrací — je systematicky podlamován. Subjekt přestává automaticky předjímat *„jak by věc vypadala z druhé strany“*.
-
-### Krok 4 — Pseudo-Wesensschau
-
-Subjekt je veden k údajné Wesensschau („nahlédnutí podstaty“) na bázi **fragmentárních adumbrací** bez konstitutivní syntézy. Výsledné „esence“ jsou strukturně iluzorní, ale prožívány jako autentické.
-
-### Krok 5 — Konsolidace fragmentárního prožívání
-
-Subjekt přijímá fragmentární prožívání jako „hlubší pravdu“ o realitě. Identitární investice činí stav rezistentní vůči obnově konstitutivní kapacity.
+*Interpretace knihy*: rozhodující pro rozpoznání není obsah nauky, nýbrž to, že chybí návrat — legitimní fenomenologická ani kontemplativní práce nenechává reflexi trvale otevřenou, zatímco zde se nevratnost vykládá jako zisk. Nepříznivé průběhy intenzivní kontemplativní praxe, včetně rozpadu vnímání jednoty předmětu, dokumentují (Lindahl et al., 2017).
 
 ## Fenomenologické znaky
 
@@ -77,10 +64,10 @@ Subjekt přijímá fragmentární prožívání jako „hlubší pravdu“ o rea
 | Marker | Indikuje |
 |--------|----------|
 | Subjekt **opakovaně reidentifikuje** věci jako "nové" napříč krátkými intervaly | Konstitutivní fragmentace |
-| **Pseudo-husserlovský slovník** mimo legitimní fenomenologickou tradici | Krok 1 indoktrinace |
-| Selhávající **anticipace skrytých aspektů** objektu | Krok 3 horizontové destrukce |
+| **Pseudo-husserlovský slovník** mimo legitimní fenomenologickou tradici | Fáze — indoktrinace |
+| Selhávající **anticipace skrytých aspektů** objektu | Fáze — horizontové destrukce |
 | **Akutní praktická dezorientace** v běžných manipulačních úkolech | Strukturální dopad |
-| Pseudo-Wesensschau s fragmentárními "vhledy" | Krok 4 |
+| Pseudo-Wesensschau s fragmentárními "vhledy" | Pokročilá fáze |
 
 ## Diferenciální detekce
 
@@ -136,21 +123,31 @@ Konstitutivní zhroucení je odlišitelné od:
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) referenční stabilita** — epistemická provenience vyžaduje stabilní reference.
 - **OSINT cross-source matching** — strukturní práce s identitou napříč zdroji kompenzuje fragmentaci.
 
+## Literatura
+
+- Blankenburg, W. (1971). *Der Verlust der natürlichen Selbstverständlichkeit*. Stuttgart: Enke.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intencionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

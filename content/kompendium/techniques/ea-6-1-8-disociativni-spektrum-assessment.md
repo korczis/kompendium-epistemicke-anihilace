@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-1-6-fyziologicke-monitoring", "ea-6-1-7-trauma-history-protokol", "ea-6-1-9-metakognitivni-functional-assessment", "ea-6-2-1-trauma-focused-cbt-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.1.8"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.1 Diagnostické techniky"

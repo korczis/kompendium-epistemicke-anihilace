@@ -17,15 +17,14 @@
     "static/data/viz-deps.json"
    ],
    "generic_views": {
-    "viz/okoli": 283
+    "viz/okoli": 311
    },
    "libraries": [],
-   "pages": 284,
+   "pages": 312,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -85,8 +84,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -102,14 +99,14 @@
    ],
    "status": "covered",
    "templates": {
-    "glossary/detail.html": 283,
+    "glossary/detail.html": 311,
     "glossary/list.html": 1
    },
    "views": {
     "chart-inline": 1,
-    "mermaid": 3,
+    "mermaid": 1,
     "viz/glosar": 1,
-    "viz/kontext": 283
+    "viz/kontext": 311
    }
   },
   "kompendium": {
@@ -118,7 +115,8 @@
     "cross_link"
    ],
    "covered_views": [
-    "viz/katalog-trener"
+    "chart-inline",
+    "viz/oddil-prehled"
    ],
    "data": [
     "static/data/charts/kompendium-distribution.json",
@@ -133,12 +131,11 @@
     "viz/okoli": 1
    },
    "libraries": [],
-   "pages": 3,
+   "pages": 2,
    "partials": [
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -160,18 +157,15 @@
    ],
    "scenarios": [
     {
-     "count": [
-      "[data-trener-msg]",
-      2
-     ],
      "covers": [
-      "viz/katalog-trener"
+      "chart-inline",
+      "viz/oddil-prehled"
      ],
-     "note": "trenér rozpoznávání nad všemi katalogy",
-     "origin": "fixed",
-     "page": "kompendium/trener.md",
-     "painted": 0,
-     "path": "kompendium/trener/"
+     "note": "třída kompendium: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/_index.md",
+     "painted": 2,
+     "path": "kompendium/"
     }
    ],
    "scripts": [
@@ -186,9 +180,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog-trener.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -204,13 +195,11 @@
    ],
    "status": "covered",
    "templates": {
-    "kompendium/katalog-trener.html": 1,
     "kompendium/page.html": 1,
     "kompendium/section.html": 1
    },
    "views": {
     "chart-inline": 1,
-    "viz/katalog-trener": 1,
     "viz/oddil-prehled": 1
    }
   },
@@ -238,7 +227,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -282,8 +270,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -321,7 +307,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -360,8 +345,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -392,7 +375,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -419,8 +401,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -462,7 +442,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -507,8 +486,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -547,7 +524,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -586,8 +562,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -632,7 +606,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -677,8 +650,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -716,7 +687,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -743,8 +713,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -773,7 +741,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -800,8 +767,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -832,7 +797,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -871,8 +835,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -917,7 +879,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -962,8 +923,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -1000,7 +959,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1027,8 +985,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1057,7 +1013,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1084,8 +1039,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1114,7 +1067,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1141,8 +1093,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1171,7 +1121,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1198,8 +1147,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1228,7 +1175,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1255,8 +1201,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1296,7 +1240,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1340,8 +1283,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -1377,7 +1318,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1404,8 +1344,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1436,7 +1374,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1475,8 +1412,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1521,7 +1456,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1566,8 +1500,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -1605,7 +1537,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1632,8 +1563,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -1671,7 +1600,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1715,8 +1643,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -1765,7 +1691,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1792,9 +1717,9 @@
      ],
      "note": "pohled teorie-pojmy: graf pojmů nejodkazovanější teoretické reflexe",
      "origin": "derived",
-     "page": "kompendium/07-teoreticke-reflexe/kognitivni-vedy.md",
+     "page": "kompendium/07-teoreticke-reflexe/politicka-ea.md",
      "painted": 1,
-     "path": "kompendium/07-teoreticke-reflexe/kognitivni-vedy/"
+     "path": "kompendium/07-teoreticke-reflexe/politicka-ea/"
     }
    ],
    "scripts": [
@@ -1810,8 +1735,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -1860,7 +1783,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -1909,8 +1831,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -1957,7 +1877,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2001,8 +1920,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2023,99 +1940,6 @@
    },
    "views": {
     "viz/oddil-prehled": 1
-   }
-  },
-  "kompendium/argumentacni-fauly": {
-   "components": [],
-   "covered_views": [
-    "viz/katalog",
-    "viz/katalog-ilustrace"
-   ],
-   "data": [
-    "static/data/graph.json",
-    "static/data/nav.json",
-    "static/data/pokracovat.json",
-    "static/data/terms.json",
-    "static/data/viz-deps.json"
-   ],
-   "generic_views": {
-    "viz/okoli": 139
-   },
-   "libraries": [],
-   "pages": 149,
-   "partials": [
-    "partials/connections.html",
-    "partials/explorer-glossary.html",
-    "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
-    "partials/explorer-techniques.html",
-    "partials/footer.html",
-    "partials/header.html",
-    "partials/index-pojmu.html",
-    "partials/nav.html",
-    "partials/page-context.html",
-    "partials/pager.html",
-    "partials/paleta.html",
-    "partials/pohled-graf.html",
-    "partials/pokracovat.html",
-    "partials/section-overview.html",
-    "partials/sidebar.html",
-    "partials/sidebar_pages.html",
-    "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
-   ],
-   "scenarios": [
-    {
-     "covers": [
-      "viz/katalog",
-      "viz/katalog-ilustrace"
-     ],
-     "note": "průzkumník katalogu argumentačních faulů",
-     "origin": "fixed",
-     "page": "kompendium/argumentacni-fauly/_index.md",
-     "painted": 1,
-     "path": "kompendium/argumentacni-fauly/"
-    }
-   ],
-   "scripts": [
-    "js/p5/grafika.js",
-    "js/site.js",
-    "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
-    "js/vendor/flowbite.min.js",
-    "js/vendor/mermaid-11.min.js",
-    "js/vendor/p5-1.7.0.min.js",
-    "js/vendor/three-0.160.min.js",
-    "js/viz/casova-osa.js",
-    "js/viz/glosar.js",
-    "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
-    "js/viz/kompendium-viz.js",
-    "js/viz/kontext.js",
-    "js/viz/kostka.js",
-    "js/viz/oddil-prehled.js",
-    "js/viz/oddil.js",
-    "js/viz/okoli.js",
-    "js/viz/paleta.js",
-    "js/viz/rejstrik.js",
-    "js/viz/technika.js",
-    "js/viz/techniky-rozptyl.js",
-    "js/viz/techniky.js",
-    "js/viz/vrstva.js"
-   ],
-   "status": "covered",
-   "templates": {
-    "kompendium/page.html": 139,
-    "kompendium/section.html": 10
-   },
-   "views": {
-    "mermaid": 9,
-    "viz/katalog": 10,
-    "viz/katalog-ilustrace": 10
    }
   },
   "kompendium/case-studies": {
@@ -2142,7 +1966,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2184,9 +2007,9 @@
      ],
      "note": "nejodkazovanější kazuistika: kontext",
      "origin": "derived",
-     "page": "kompendium/case-studies/06-cult-recovery-12-let.md",
+     "page": "kompendium/case-studies/08-gaslighting-partnersky.md",
      "painted": 1,
-     "path": "kompendium/case-studies/06-cult-recovery-12-let/"
+     "path": "kompendium/case-studies/08-gaslighting-partnersky/"
     },
     {
      "covers": [
@@ -2195,9 +2018,9 @@
      ],
      "note": "pohled pripad-faze: stupně intervence S1–S5 kazuistiky",
      "origin": "derived",
-     "page": "kompendium/case-studies/06-cult-recovery-12-let.md",
+     "page": "kompendium/case-studies/08-gaslighting-partnersky.md",
      "painted": 1,
-     "path": "kompendium/case-studies/06-cult-recovery-12-let/"
+     "path": "kompendium/case-studies/08-gaslighting-partnersky/"
     },
     {
      "covers": [
@@ -2223,8 +2046,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2271,7 +2092,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2315,8 +2135,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2361,7 +2179,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2405,8 +2222,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2451,7 +2266,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2495,8 +2309,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2541,7 +2353,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2585,8 +2396,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2632,7 +2441,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2686,8 +2494,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2733,7 +2539,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2777,8 +2582,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2823,7 +2626,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2867,8 +2669,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -2912,7 +2712,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -2956,8 +2755,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3003,7 +2800,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3047,8 +2843,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3086,7 +2880,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3125,8 +2918,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -3142,112 +2933,6 @@
    },
    "views": {
     "mermaid": 1
-   }
-  },
-  "kompendium/nlp-vzorce": {
-   "components": [],
-   "covered_views": [
-    "mermaid",
-    "viz/katalog",
-    "viz/katalog-ilustrace"
-   ],
-   "data": [
-    "static/data/graph.json",
-    "static/data/nav.json",
-    "static/data/pokracovat.json",
-    "static/data/terms.json",
-    "static/data/viz-deps.json"
-   ],
-   "generic_views": {
-    "viz/okoli": 413
-   },
-   "libraries": [],
-   "pages": 436,
-   "partials": [
-    "partials/connections.html",
-    "partials/explorer-glossary.html",
-    "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
-    "partials/explorer-techniques.html",
-    "partials/footer.html",
-    "partials/header.html",
-    "partials/index-pojmu.html",
-    "partials/nav.html",
-    "partials/page-context.html",
-    "partials/pager.html",
-    "partials/paleta.html",
-    "partials/pohled-graf.html",
-    "partials/pokracovat.html",
-    "partials/section-overview.html",
-    "partials/sidebar.html",
-    "partials/sidebar_pages.html",
-    "partials/sidebar_subtree.html",
-    "partials/subnav.html",
-    "partials/technique-hero.html",
-    "partials/toc.html",
-    "partials/toc_mobile.html"
-   ],
-   "scenarios": [
-    {
-     "covers": [
-      "viz/katalog",
-      "viz/katalog-ilustrace"
-     ],
-     "note": "průzkumník katalogu NLP (ECharts graf vazeb)",
-     "origin": "fixed",
-     "page": "kompendium/nlp-vzorce/_index.md",
-     "painted": 1,
-     "path": "kompendium/nlp-vzorce/"
-    },
-    {
-     "covers": [
-      "mermaid",
-      "viz/katalog",
-      "viz/katalog-ilustrace"
-     ],
-     "note": "průzkumník rodiny katalogu s předvybranou rodinou",
-     "origin": "fixed",
-     "page": "kompendium/nlp-vzorce/milton-model/_index.md",
-     "painted": 1,
-     "path": "kompendium/nlp-vzorce/milton-model/"
-    }
-   ],
-   "scripts": [
-    "js/p5/grafika.js",
-    "js/site.js",
-    "js/vendor/alpine.min.js",
-    "js/vendor/chart.umd.min.js",
-    "js/vendor/flowbite.min.js",
-    "js/vendor/mermaid-11.min.js",
-    "js/vendor/p5-1.7.0.min.js",
-    "js/vendor/three-0.160.min.js",
-    "js/viz/casova-osa.js",
-    "js/viz/glosar.js",
-    "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
-    "js/viz/kompendium-viz.js",
-    "js/viz/kontext.js",
-    "js/viz/kostka.js",
-    "js/viz/oddil-prehled.js",
-    "js/viz/oddil.js",
-    "js/viz/okoli.js",
-    "js/viz/paleta.js",
-    "js/viz/rejstrik.js",
-    "js/viz/technika.js",
-    "js/viz/techniky-rozptyl.js",
-    "js/viz/techniky.js",
-    "js/viz/vrstva.js"
-   ],
-   "status": "covered",
-   "templates": {
-    "kompendium/page.html": 413,
-    "kompendium/section.html": 23
-   },
-   "views": {
-    "mermaid": 22,
-    "viz/katalog": 23,
-    "viz/katalog-ilustrace": 23
    }
   },
   "kompendium/organizational-defense": {
@@ -3272,7 +2957,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3316,8 +3000,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3362,7 +3044,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3406,8 +3087,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3452,7 +3131,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3496,8 +3174,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3515,6 +3191,93 @@
    "templates": {
     "kompendium/page.html": 30,
     "kompendium/section.html": 1
+   },
+   "views": {
+    "viz/oddil-prehled": 1
+   }
+  },
+  "kompendium/puvodni-taxonomie": {
+   "components": [],
+   "covered_views": [
+    "viz/oddil-prehled"
+   ],
+   "data": [
+    "static/data/graph.json",
+    "static/data/nav.json",
+    "static/data/pokracovat.json",
+    "static/data/terms.json",
+    "static/data/viz-deps.json"
+   ],
+   "generic_views": {
+    "viz/oddil": 1,
+    "viz/okoli": 5
+   },
+   "libraries": [],
+   "pages": 6,
+   "partials": [
+    "partials/connections.html",
+    "partials/explorer-glossary.html",
+    "partials/explorer-historical.html",
+    "partials/explorer-techniques.html",
+    "partials/footer.html",
+    "partials/header.html",
+    "partials/index-pojmu.html",
+    "partials/nav.html",
+    "partials/page-context.html",
+    "partials/pager.html",
+    "partials/paleta.html",
+    "partials/pohled-graf.html",
+    "partials/pokracovat.html",
+    "partials/section-overview.html",
+    "partials/sidebar.html",
+    "partials/sidebar_pages.html",
+    "partials/sidebar_subtree.html",
+    "partials/subnav.html",
+    "partials/technique-hero.html",
+    "partials/toc.html",
+    "partials/toc_mobile.html"
+   ],
+   "scenarios": [
+    {
+     "covers": [
+      "viz/oddil-prehled"
+     ],
+     "note": "třída kompendium/puvodni-taxonomie: pohled oddil-prehled",
+     "origin": "derived",
+     "page": "kompendium/puvodni-taxonomie/_index.md",
+     "painted": 1,
+     "path": "kompendium/puvodni-taxonomie/"
+    }
+   ],
+   "scripts": [
+    "js/p5/grafika.js",
+    "js/site.js",
+    "js/vendor/alpine.min.js",
+    "js/vendor/chart.umd.min.js",
+    "js/vendor/flowbite.min.js",
+    "js/vendor/mermaid-11.min.js",
+    "js/vendor/p5-1.7.0.min.js",
+    "js/vendor/three-0.160.min.js",
+    "js/viz/casova-osa.js",
+    "js/viz/glosar.js",
+    "js/viz/jadro.js",
+    "js/viz/kompendium-viz.js",
+    "js/viz/kontext.js",
+    "js/viz/kostka.js",
+    "js/viz/oddil-prehled.js",
+    "js/viz/oddil.js",
+    "js/viz/okoli.js",
+    "js/viz/paleta.js",
+    "js/viz/rejstrik.js",
+    "js/viz/technika.js",
+    "js/viz/techniky-rozptyl.js",
+    "js/viz/techniky.js",
+    "js/viz/vrstva.js"
+   ],
+   "status": "covered",
+   "templates": {
+    "kompendium/page.html": 5,
+    "section.html": 1
    },
    "views": {
     "viz/oddil-prehled": 1
@@ -3542,7 +3305,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3586,8 +3348,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3632,7 +3392,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3676,8 +3435,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3722,7 +3479,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3766,8 +3522,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3812,7 +3566,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3856,8 +3609,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3902,7 +3653,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -3946,8 +3696,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -3996,7 +3744,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -4074,8 +3821,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",
@@ -4139,7 +3884,6 @@
    "partials": [
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -4212,8 +3956,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kostka.js",
     "js/viz/oddil-prehled.js",
@@ -4270,7 +4012,6 @@
     "partials/connections.html",
     "partials/explorer-glossary.html",
     "partials/explorer-historical.html",
-    "partials/explorer-katalog.html",
     "partials/explorer-techniques.html",
     "partials/footer.html",
     "partials/header.html",
@@ -4314,8 +4055,6 @@
     "js/viz/casova-osa.js",
     "js/viz/glosar.js",
     "js/viz/jadro.js",
-    "js/viz/katalog-ilustrace.js",
-    "js/viz/katalog.js",
     "js/viz/kompendium-viz.js",
     "js/viz/kontext.js",
     "js/viz/kostka.js",

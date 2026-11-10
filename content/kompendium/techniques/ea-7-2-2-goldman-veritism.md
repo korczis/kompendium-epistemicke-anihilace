@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-1-10-credentials-rekonfigurace", "ea-1-1-1-selektivni-expozice", "ea-7-2-1-fricker-epistemic-injustice", "ea-7-2-3-popper-falsification", "ea-7-3-2-tversky-heuristics"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.2"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

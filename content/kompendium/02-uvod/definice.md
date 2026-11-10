@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["filosoficky-ramec", "historicky-kontext", "metodologicke-poznamky"]
-parent = "kompendium-02-uvod"
 section_icon = "📐"
 toc = true
 +++
@@ -94,7 +93,7 @@ V reálných případech se tyto fenomény typicky kombinují — totalitní ind
 
 **Axiologická anihilace** označuje systematickou destrukci hodnotových struktur a evaluativních kapacit jedince, vedoucí k fundamentálnímu narušení schopnosti rozlišovat mezi hodnotově signifikantními a insignifikantními entitami a atribuovat adekvátní axiologický status různým aspektům zkušenosti. Manifestuje se jako hodnotová dezorientace a konfúze, axiologická apatie nebo hyperreaktivita, destrukce koherentní hodnotové hierarchie a neschopnost identifikovat morálně relevantní aspekty situací.
 
-**Identitní anihilace** představuje systematickou destrukci struktur personální a sociální identity, vedoucí k fundamentálnímu narušení vědomí kontinuity, koherence a smysluplnosti vlastního já. Projevuje se jako disociace od vlastního biografického narativu, fragmentace self-konceptu, radikální diskontinuita v prožívání vlastní identity a kolaps sociálních identifikačních struktur.
+**Identitní anihilace** představuje systematickou destrukci struktur personální a sociální identity, vedoucí k fundamentálnímu narušení vědomí kontinuity, koherence a smysluplnosti vlastního já. Projevuje se jako disociace od vlastního biografického narativu, fragmentace self-konceptu, [radikální diskontinuita](@/glossary/radikalni-diskontinuita.md) v prožívání vlastní identity a kolaps sociálních identifikačních struktur.
 
 **Fenomenologická anihilace** označuje systematickou destrukci kapacity pro koherentní a strukturovanou fenomenální zkušenost, vedoucí k fundamentálnímu narušení schopnosti jedince integrovat různé aspekty vědomí do smysluplného celku. Manifestuje se jako dezintegrace fenomenálního pole, narušení prereflexivní self-afektivity, kolaps temporální struktury zkušenosti a disociace mezi noetickými a noematickými aspekty vědomí.
 

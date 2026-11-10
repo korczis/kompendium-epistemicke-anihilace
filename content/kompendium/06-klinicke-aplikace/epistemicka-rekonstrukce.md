@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["diagnosticke-indikatory", "diferencialni-diagnostika", "kolektivni-intervence", "observational-assessment"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🧱"
 toc = true
 +++

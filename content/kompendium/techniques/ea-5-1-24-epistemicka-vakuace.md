@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-22-diferencialni-nihilace", "ea-5-1-23-asymptoticka-dezintegrace", "ea-5-1-25-singularni-narativni-kolaps", "ea-5-1-26"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.24"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -43,35 +42,15 @@ Epistemická vakuace je **terminální** technikou v subkategorii 5.1: produkuje
 
 Epistemická vakuace navazuje na předchozí techniky: [EA-5.1.22 diferenciální nihilace](@/kompendium/techniques/ea-5-1-22-diferencialni-nihilace.md) odebírá nástroje rozlišování, [EA-5.1.23 asymptotická dezintegrace](@/kompendium/techniques/ea-5-1-23-asymptoticka-dezintegrace.md) odebírá kotvu trajektorie. Vakuace odebírá poslední — základ.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Epistemická vakuace se pozorovateli ukazuje jako otázka, na kterou zasažený člověk nedokáže odpovědět: na čem vlastně stojí. Zpochybňuje rovnoměrně všechno — smyslovou evidenci, paměť, autoritu, logickou intuici, společenský konsenzus i vlastní zkušenost — a nedrží přitom žádnou metodu, jíž by cokoli z toho zpátky složil. Pochybování samo se v jeho podání stává známkou kompetence a doprovází je slovník hlubšího pochopení, překonání a osvobození.
 
-### Krok 1 — Mapování **epistemických základen**
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Základy neustupují naráz, ale jeden po druhém, a nikdy úplně: zůstává pochybnost, ne jistota o nedostupnosti. Jednotlivé základy se přitom navzájem podemílají — teoretický argument zpochybní vjem, vjem zpochybní argument, konsenzus obojí a osobní zkušenost konsenzus — takže každý z nich stojí na jiném, který už neobstál. Výsledná bezdomovost je vykládána jako zisk, nikoli jako ztráta, což tlumí obrannou reakci. Nakonec vakuum zaplní jediná nabízená struktura, kterou už není čím posoudit. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Operátor identifikuje, na čem subjekt fakticky staví: jaké zdroje jsou pro něj **autoritativní**, jakým intuicím **důvěřuje**, jakou metodologii **používá**, jaký druh evidence považuje za **přesvědčivý**. Kvalitní mapování odhalí pět až sedm hlavních epistemických základen.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: rovnoměrné zpochybňování všech základen, estetizace pochybnosti, neschopnost odpovědět na otázku po vlastním východisku, náhlá citová vazba k novému učení či společenství a odmítání vnějšího ověření jako naivity.
 
-### Krok 2 — **Sekvenční** destabilizace každé základny
-
-Místo paralelní destabilizace operátor postupuje **sekvenčně**: jedna základna po druhé. U každé předkládá:
-
-- Případy, kde základna **selhává** (smyslová evidence v iluzích, paměť v deformacích, autorita v kontradikcích, intuice v paradoxech).
-- Reflexivní argument, podle něhož je základna **principiálně** nespolehlivá.
-- Alternativní hodnocení situací, jež subjekt dříve řešil pomocí oné základny.
-
-Klíčové: destabilizace nikdy není **úplná** — subjekt si zachovává pochybnost, ne jistotu nedostupnosti.
-
-### Krok 3 — **Cross-undermining** mezi základnami
-
-Operátor systematicky využívá jednu základnu k podkopávání druhé a vice versa. Smyslová evidence je zpochybněna pomocí teoretických argumentů; teoretické argumenty jsou zpochybněny pomocí smyslové evidence; obojí je zpochybněno pomocí společenského konsenzu; konsenzus je zpochybněn pomocí osobní zkušenosti. Subjekt postupně zjišťuje, že **každá** základna stojí na jiné, jež je sama destabilizovaná.
-
-### Krok 4 — **Estetizace bezdomovosti**
-
-Stav epistemické vakuace je předkládán jako **vyšší** epistemický stav: jako moudrost, jako autenticita, jako osvobození od naivních jistot, jako překonání dogmatismu. Tato estetizace blokuje obrannou reakci, neboť subjekt prožívá vakuum jako **zisk**, nikoli jako ztrátu.
-
-### Krok 5 — Konsolidace skrze **nabídku struktury**
-
-V terminálním stadiu operátor nabízí **strukturu**, jež zaplní vakuum: ideologii, učení, terapeutický rámec, technologickou platformu, komunitu, autoritativní postavu. Subjekt přijímá nabídku, neboť alternativa — pokračující bezdomovost — je nesnesitelná. Klíčové: subjekt **nemůže** nabízenou strukturu kriticky vyhodnotit, neboť kritické nástroje byly v krocích 2 a 3 destabilizovány.
+*Interpretace knihy*: skepse znakem vzorce není. Skeptik drží metodu a míří k opravenému poznání; zde metoda chybí a výsledkem je závislost na cizí struktuře. Totéž odlišuje vzorec od autentické filozofické krize, která k rekonstrukci mobilizuje. Proč kompendium popisuje toto rozlišení a ne jeho použití, vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -207,9 +186,9 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -220,8 +199,10 @@ PhD studentka po dlouhodobém vystavení radikální variantě postmoderní teor
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

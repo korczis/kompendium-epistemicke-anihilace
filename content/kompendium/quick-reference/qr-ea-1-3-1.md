@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["qr-ea-1-2-2", "qr-ea-1-2-3", "qr-ea-1-3-2", "qr-ea-1-3-3"]
-parent = "kompendium-quick-reference"
 ea_code = "EA-1.3.1"
 toc = false
 +++

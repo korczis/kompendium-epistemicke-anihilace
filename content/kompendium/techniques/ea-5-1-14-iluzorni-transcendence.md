@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-12-kauzalni-inverze", "ea-5-1-13-hyperreflexivita", "ea-5-1-15-apofaticke-zacykleni", "ea-5-1-16-inferencni-paralyza"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.14"
 ea_category = "5. Pokročilé operace"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,29 +40,15 @@ Klíčová asymetrie techniky spočívá v tom, že prožitek transcendence je *
 
 Iluzorní transcendence je **nebezpečnější než hyperreflexivita** ([EA-5.1.13](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)) v jednom klíčovém ohledu: subjekt **nechce** být z ní vyveden. Pocit kosmického vhledu je pro něj **identitarne konstitutivní**, externí korekce je interpretována jako **útok** na „ten nejhlubší vhled, který kdy měl“.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích:
+Iluzorní transcendence se pozorovateli neohlašuje jako událost, ale jako rozpor mezi dvěma popisy téhož člověka ve stejném období. Zasažený člověk referuje o vrcholovém prožitku, po němž „všechno do sebe zapadlo“, zatímco jeho okolí ve téže době popisuje ztrátu rozlišovacích schopností, které předtím měl. Rozsáhlý popis nežádoucích účinků kontemplativních praxí ukazuje, že intenzivní prožitek jednoty a ztráta orientační schopnosti se vyskytují současně a že je sami účastníci neoddělují (Lindahl et al., 2017).
 
-### Krok 1 — Indukce stavu zvýšené sugestibility
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno prostředí s vysokou intenzitou a nízkou možností nezávislého ověření, v němž jedna autorita prožitek současně vyvolává i vykládá; totální výklad tohoto typu popsal Lifton (1961) jako znak prostředí, které si samo zajišťuje potvrzení. Teprve pak přichází prožitek, který je už vykládán uvnitř připraveného vyprávění, a nakonec identifikace s rolí toho, kdo „viděl pravdu“. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Pomocí kombinace technik (dechové cvičení, dlouhodobá meditace, sleep deprivation, rituální struktura, psychoaktivní látky, intenzivní emocionální angažovanost, charismatická autorita) je subjekt přiveden do stavu, v němž jsou **kritické funkce** ([diferenciace](@/glossary/diferenciace.md), [falsifikace](@/glossary/falsifikace.md), kontextualizace) přechodně **utlumeny**.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: zasažený člověk nedokáže pojmenovat podmínku, za níž by jeho vhled padl, každou námitku vykládá jako neporozumění, dříve rozlišované kategorie se mu slévají a dohledatelné zdroje mizí ve prospěch „vlastního vhledu“. Kramer a Alstad (1993) popisují tento posun jako přenesení epistemické váhy z argumentu na zkušenost a na autoritu, která za ni ručí.
 
-### Krok 2 — Prezentace integrující narativy
-
-V okamžiku zvýšené sugestibility je subjektovi nabídnuta **velká narativ­ní struktura**, která tvrdí integrovat **vše**: vědu, spiritualitu, osobní zkušenost, kosmologii, etiku. Narativ je formulován tak, aby každý nový vstup mohl být **interpretován jako další potvrzení**.
-
-### Krok 3 — Indukce vrcholové zkušenosti
-
-Pomocí strukturovaného postupu (často vrcholícího v rituálním momentu) je vyvolán **peak experience** — intenzivní pocit jednoty, jasnosti, kosmického porozumění. Tato zkušenost je interpretována **uvnitř** předem připravené narativy, čímž se narativ stává **fenomenologicky verifikovaný**.
-
-### Krok 4 — Konsolidace skrze „neredukovatelnost“
-
-Subjekt je naučen interpretovat **jakoukoli kritickou redukci** zkušenosti jako **neporozumění** ze strany kritika. *„To se nedá vysvětlit, dokud to sám nezažiješ.“* Argumentace, falsifikační evidence a kontextualizace jsou apriori delegitimizovány jako „neschopné dosáhnout úrovně“.
-
-### Krok 5 — Identifikace s transcendentním já
-
-Subjekt se identifikuje s „tím, kdo viděl pravdu“. Předchozí já — to, které **rozlišovalo** — je interpretováno jako „spící“, „neprobuzené“, „v mysli ego“. Návrat k diferencující kognici je prožíván jako **regrese**, ačkoli z epistemického hlediska je to **progres**.
+*Interpretace knihy*: rozhodující není obsah prožitku, ale to, zda po něm zůstává schopnost rozlišovat. Tím se vzorec odlišuje od autentické kontemplativní zkušenosti, jejíž tradice přinášejí vlastní rámec pro rozlišení platného a neplatného prožitku (Katz, 1978). Izolovaný prožitek bez takového rámce je zvlášť zranitelný vůči skupinovému výkladu (Deikman, 1990).
 
 ## Fenomenologické znaky
 
@@ -89,7 +74,7 @@ Co může vidět vnější pozorovatel:
 | Subjekt **nemůže** specifikovat falsifikační podmínky svého vhledu | Imunizace |
 | Vše je interpretováno jako **potvrzení** transcendentní pozice | Konfirmační uzavření |
 | Použití frází *"to nelze pochopit racionálně"*, *"musíš to zažít"* | Apriori [delegitimizace](@/glossary/delegitimizace.md) kritiky |
-| Kategorie, dříve rozlišované, jsou nyní **slité** ("věda a spiritualita jsou totéž") | Ztráta diferenciace |
+| Kategorie, dříve rozlišované, jsou nyní **slité** ("věda a spiritualita jsou totéž") | Ztráta [diferenciace](@/glossary/diferenciace.md) |
 | Subjekt **necituje** specifické zdroje — vše plyne "z vlastního vhledu" | Ztráta provenience |
 | Disproporční jistota vůči **velkým kosmickým tvrzením** | Inflační epistemika |
 | **Empatická paternalizace** vůči nesouhlasícím | Hierarchické sebepojetí |
@@ -201,6 +186,14 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
 - **NABLA Infinity provenance integrity** — každé tvrzení musí mít **dohledatelnou linii**; tvrzení „z vlastního vhledu“ bez dohledatelnosti je flagováno.
 - **Color Teams adversarial check** — [Red Team](@/glossary/red-team.md) má mandát **falsifikovat** transcendentní tvrzení; [Blue Team](@/glossary/blue-team.md) má povinnost odpovědět na falsifikační test.
 
+## Literatura
+
+- Deikman, A. J. (1990). *The Wrong Way Home: Uncovering the Patterns of Cult Behavior*. Beacon Press.
+- Katz, S. T. (1978). Language, Epistemology, and Mysticism. In S. T. Katz (Ed.), *Mysticism and Philosophical Analysis*. Oxford University Press.
+- Kramer, J., & Alstad, D. (1993). *The Guru Papers: Masks of Authoritarian Power*. North Atlantic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 6 — Epistemická singularita](@/kompendium/05-pokrocile-operace/kapitola-6/_index.md)
@@ -224,9 +217,8 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
-
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+## Co ověřit před čtením
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -237,8 +229,10 @@ Intervence: Časové ohraničení LLM kontaktu, návrat k tradiční lidské kon
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

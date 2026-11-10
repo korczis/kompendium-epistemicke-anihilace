@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-6-falesny-paradigmaticky-narok", "ea-4-3-7-paradigmatic-fluidization", "ea-5-1-26-trans-paradigmaticka-migrace", "ea-7-2-4-lakatos-research-program", "ea-7-2-6-feyerabend-anti-method", "ea-7-2-7-quine-web-belief"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.5"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

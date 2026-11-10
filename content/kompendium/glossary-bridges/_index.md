@@ -10,7 +10,6 @@ tags = ["kompendium", "glossary-bridges", "cross-link", "navigace"]
 categories = ["academic", "reference"]
 section_icon = "🌉"
 toc = true
-parent = "kompendium"
 +++
 
 # Glossary Bridges – mosty mezi glosářem a knihou

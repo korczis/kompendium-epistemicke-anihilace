@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["metanarrative-collapse", "simulacra", "hyperreality", "differance", "epistemicka-bezdomovost", "paradigmaticka-bezdomovina"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "metanarrative-collapse"
 toc = false
 +++
@@ -150,7 +149,7 @@ tradice, která dává celkový smysl a přitom připouští pochybnost a vnitř
 ## Literatura
 
 - Frankl, V. E. (1946). *…trotzdem Ja zum Leben sagen: Ein Psychologe erlebt das Konzentrationslager*. Vídeň.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Lyotard, J.-F. (1979). *La condition postmoderne: Rapport sur le savoir*. Minuit.
 - Ricoeur, P. (1983–1985). *Temps et récit* I–III. Seuil.
 

@@ -26,10 +26,7 @@ tools = ["mix", "telemetry", "genserver", "task-supervisor"]
 platforms = ["beam", "otp", "prismatic-platform"]
 keywords = ["strategic command agent", "multi-domain coordination", "agent hierarchy L4", "cross-cutting operations", "escalation protocol", "agent orchestration", "command and control", "AIAD strategic tier"]
 author = "Tomas Korcak (korczis)"
-reading_time = "6 min"
-word_count = 1192
 date_modified = "2026-11-10"
-quality_score = 80
 image = "/images/sections/glossary.png"
 image_alt = "Strategic Command (strategické velení) – glosář"
 +++

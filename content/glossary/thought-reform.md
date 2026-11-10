@@ -144,9 +144,9 @@ odmítnout; Lifton tento obraz odmítl a výzkumy z 50. let jej nepotvrdily (Hin
 myšlení, ale zpravidla připouští vnější kontakt, kritiku a odchod bez trestu (Lifton, 1961).
 Rozhoduje kombinace a síla kritérií, ne přítomnost jednoho z nich.
 
-**Coercive control** podle Starka popisuje podobnou strukturu v blízkých vztazích (Stark,
+**[Coercive control](@/glossary/coercive-control.md)** podle Starka popisuje podobnou strukturu v blízkých vztazích (Stark,
 2007); heslo [Coercive control](@/glossary/coercive-control.md) tuto paralelu rozvádí.
-**Bounded choice** podle Lalich vysvětluje, proč člověk v takovém prostředí prožívá své
+**[Bounded choice](@/glossary/bounded-choice.md)** podle Lalich vysvětluje, proč člověk v takovém prostředí prožívá své
 volby jako svobodné (Lalich, 2004); viz heslo [Bounded choice](@/glossary/bounded-choice.md).
 
 ## Význam pro Kompendium

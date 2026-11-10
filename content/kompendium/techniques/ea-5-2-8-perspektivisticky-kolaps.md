@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-6-transcendentalni-rekursivita", "ea-5-2-7-kategorialni-disoluce", "ea-5-2-9-konceptualni-aporie", "ea-5-3-1-identitarni-substituce"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.8"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -41,29 +40,17 @@ Perspektiva v transcendentálním smyslu (Husserl, Merleau-Ponty) není pouze **
 
 EA-5.2.8 je odlišná od **změny perspektivy** (přijetí jiného pohledu) a od **multi-perspektivismu** (uznání mnoha pohledů). V obou těchto případech **schopnost** zaujímat perspektivu zůstává intaktní. EA-5.2.8 destruuje samotnou schopnost.
 
-V kontrastu s [EA-5.2.16 aperspektivistickou saturací](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace), kde subjekt **přijímá všechny perspektivy současně**, perspektivistický kolaps neoperuje skrze přesycení, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho.
+Perspektivistický kolaps neoperuje skrze přesycení – stav, v němž by subjekt přijímal všechny perspektivy současně –, ale skrze **vyčerpání** perspektivní funkce. Subjekt nemá žádnou perspektivu, ne mnoho. Pro přesycení perspektivami katalog technik samostatnou položku nevede; sousední techniky podtřídy shrnuje [kompaktní taxonomie kapitoly 7](@/kompendium/05-ultramari-techniky/kapitola-7.md#kompaktni-taxonomie-ea-5-2-11-az-5-2-30).
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Zviditelnění perspektivnosti
+Pozorovatel pozná vzorec podle toho, co v řeči chybí: „odsud“, „teď“, „podle mě“. Na otázku, co si postižený myslí, nepřichází odpověď, protože v ní není kdo by si myslel. Vztahy váznou, protože vztah potřebuje bod, z něhož se k druhému míří; stanovisko v etické otázce se nedostaví ze stejného důvodu. Ukotvení zkušenosti ve „zde“ a „teď“ je strukturním rysem jejího dávání, nikoli volitelným hlediskem (Husserl, 1913).
 
-Manipulátor směřuje subjekta k **explicitní reflexi** perspektivy: *„Všimni si, že se ti vše ukazuje jen z tvého úhlu pohledu.“* Tato fáze je legitimní filozofickou prací.
+Postižení popisují „viditelnost odnikud“ — vše se ukazuje, ale bez místa, z něhož by se ukazovalo. Odcizení zde nesměřuje proti nějakému já, protože to v popisu chybí. Časové ukotvení mizí spolu s prostorovým. Rozpad prožívaného času jako samostatnou strukturu popsal (Minkowski, 1933); perspektivnost jako strukturní rys vnímání, a nikoli jako volitelné hledisko, rozpracovali (Husserl, 1913) a (Merleau-Ponty, 1945); anomálie prožívání sebe mapuje (Parnas, 2005) a teoreticky (Sass & Parnas, 2003).
 
-### Krok 2 — Indukce perspektivního přesouvání
+Zpětně se znaky skládají takto: nejprve soustředěná reflexe vlastní perspektivnosti, pak dlouhá období rychlého střídání hledisek, pak stav, v němž se žádné hledisko neustálí, a nakonec jeho výklad jako objektivity nebo překonání ega, který společenství potvrzuje. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Zatížený jazyk, který stav zároveň popisuje i brání, popsal (Lifton, 1961).
 
-Subjekt je veden k **opakovanému střídání** perspektiv — vlastní, jiné osoby, kosmické, atemporální. Cvičení v *„přijetí jiného úhlu pohledu“*, *„viděním z perspektivy věčnosti“*, *„přijímáním pohledu adversáře“*.
-
-### Krok 3 — Saturace a vyčerpání
-
-Cvičení jsou prováděna **iterativně a intenzivně**. Subjekt je nucen **rychle a mnohonásobně střídat** perspektivy, dokud se **schopnost ustálit perspektivu** nevyčerpává. Strukturálně podobné cvičení svalu k vyčerpání.
-
-### Krok 4 — Indukce **a-perspektivního** stavu
-
-Po vyčerpání je subjekt veden k **odpočinkovému stavu**, ve kterém *„není potřeba zaujímat žádnou perspektivu“*. Tento stav je legitimizován jako *„vyšší úroveň“*, *„viděním sub specie aeternitatis“*, *„objektivitou“*, *„transcendencí ega“*.
-
-### Krok 5 — Stabilizace stavu jako „vyšší“
-
-Aperspektivní stav je **trvale legitimizován**. Návrat k perspektivě je interpretován jako *„návrat do iluze“*, *„snižování úrovně“*. Subjekt se **odmítá vrátit** do perspektivního fungování, čímž je kolaps **strukturálně konsolidován**.
+*Interpretace knihy*: vědecká objektivita je metodickou kázní uvnitř hlediska, ne jeho zrušením; že odstup od vlastního hlediska lze zvětšovat, a přesto je nelze opustit, rozebírá (Nagel, 1986). Rozlišující je nevratnost: nepříznivé a přetrvávající průběhy intenzivní praxe dokládají (Lindahl et al., 2017) a shrnuje (Britton, 2019).
 
 ## Fenomenologie
 
@@ -82,7 +69,7 @@ Aperspektivní stav je **trvale legitimizován**. Návrat k perspektivě je inte
 | **Indexikální dezorganizace** — *"zde"*, *"teď"*, *"já"* nejsou ukotvené | Rozpad perspektivního aparátu |
 | **Etická paralyzace** — subjekt nedokáže formulovat **vlastní** stanovisko | Absence perspektivního ukotvení |
 | **Sociální dezorganizace** — neschopnost běžně reagovat na vztahové situace | Funkční důsledek kolapsu |
-| Subjekt **legitimizuje stav** jako duchovní pokrok / objektivitu | Krok 5 stabilizace |
+| Subjekt **legitimizuje stav** jako duchovní pokrok / objektivitu | Fáze — stabilizace |
 | **Časová desorientace** | Bez perspektivy chybí *teď* |
 
 ### Diferenciální detekce
@@ -161,14 +148,12 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 
 ### Často se kombinuje s
 
-- **[EA-5.2.16 Aperspektivistická saturace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace)** — kompenzační reakce na kolaps.
-- **[EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)** — opačný extrém: vše je *moje*, ale Já samo je vyprázdněné.
 - **[EA-5.1.13 Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md)** — strukturní podobnost na úrovni hyperreflexivního přesouvání.
 
 ### Eskaluje do
 
-- **[EA-5.2.30 Metatranscendentální terminace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-metatranscendentalni-terminace)** — terminální stav.
-- **[EA-5.2.12 Apercepční roztržka](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka)** — rozpad transcendentální jednoty apercepce.
+- **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-30-konvergentni-meta-singularita)** — terminální stav podtřídy 5.2, v němž se sbíhají dílčí poškození [EA-5.2.1](@/kompendium/techniques/ea-5-2-1-meta-epistemicka-inverze.md) až [EA-5.2.29](@/kompendium/techniques/ea-5-2-29-meta-fenomenalni-redukce.md).
+- **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-20-apperceptivni-rozklad)** — rozpad transcendentální jednoty apercepce.
 
 ## Vztah k Prismatic platformě
 
@@ -176,35 +161,40 @@ Intervence: změna pracovního zařazení, terapeutická rekonstrukce; návrat k
 - **OSINT framework** strukturálně rozlišuje **vlastní pozorování** od **pozorování zdroje** — perspektivnost je vynucená.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) provenance** vyžaduje **autorství** každého epistemického aktu; absence perspektivy by byla typová chyba.
 
+## Literatura
+
+- Britton, W. B. (2019). Can mindfulness be too much of a good thing? *Current Opinion in Psychology*, 28, 159–165.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Husserl, E. (1913). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie I*. Halle: Niemeyer.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K. & Britton, W. B. (2017). The varieties of contemplative experience. *PLoS ONE*, 12(5), e0176239.
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Paris: Gallimard.
+- Minkowski, E. (1933). *Le Temps vécu*. Paris: d'Artrey.
+- Nagel, T. (1986). *The View from Nowhere*. New York: Oxford University Press.
+- Parnas, J., Møller, P., Kircher, T., Thalbitzer, J., Jansson, L., Handest, P. & Zahavi, D. (2005). EASE: Examination of Anomalous Self-Experience. *Psychopathology*, 38(5), 236–258.
+- Sass, L. A. & Parnas, J. (2003). Schizophrenia, consciousness, and the self. *Schizophrenia Bulletin*, 29(3), 427–444.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
 - **Sourozenecké techniky**:
   - [EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
   - [EA-5.2.9 Konceptuální aporie](@/kompendium/techniques/ea-5-2-9-konceptualni-aporie.md)
-  - [EA-5.2.16 Aperspektivistická saturace](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-16-aperspektivisticka-saturace)
-  - [EA-5.2.21 Transcendentální solipsismus](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-21-transcendentalni-solipsismus)
 - **Glossary**:
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

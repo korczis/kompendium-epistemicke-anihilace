@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-26", "ea-5-1-26-trans-paradigmaticka-migrace", "ea-5-1-28-konvergentni-singularita", "ea-5-1-29-ontologicka-exfoliace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.27"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,59 +40,15 @@ Klíčový rozdíl proti běžné autoritativní deference spočívá ve **struk
 
 Meta-epistemická redukce je **terminálním stavem** epistemické singularity — kombinace všech předchozích technik kapitoly konverguje k tomuto bodu.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Mapování epistemické gramatiky subjektu
+Meta-epistemická redukce se pozorovateli ukazuje jako otázka, která se u zasaženého člověka slila s jinou: je to pravda a potvrzuje to autorita přestaly být dvě různé věci. Na dotazy z nejrůznějších oborů odpovídá odkazem na jediný zdroj a projevuje jistotu i tam, kde tento zdroj žádnou kompetenci nemá. Okolí přitom zaznamenává, že za delší dobu pozorování nepřijde jediný samovolný projev pochybnosti.
 
-Manipulátor systematicky identifikuje, které **epistemické standardy** subjekt fakticky používá při tvorbě přesvědčení:
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve ubývá jeden standard po druhém — logická bezespornost, empirická kontrola, soudržnost, shoda s druhými, vlastní zkušenost, praktický dopad i tradice — a každý z nich je znehodnocen z pozice těch ostatních, takže nakonec neobstojí žádný. Teprve do takto vzniklé dezorientace vstupuje jediný standard vydávaný za nadřazený všem. Pak se každá nová informace posuzuje už jen jím, aniž by zasažený člověk kruh prožíval jako kruh; naopak jej popisuje jako konečné porozumění. Nakonec brání tento standard sám a každou námitku čte buď jako nepochopení, nebo jako jeho potvrzení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- **Logickou konzistenci** (vnitřní bezrozporotnost)
-- **Empirickou verifikaci** (shoda s pozorovatelnými fakty)
-- **Koherenci** (zapojení do širší sítě přesvědčení)
-- **Intersubjektivitu** (shoda s jinými mysli)
-- **Fenomenologickou evidenci** (přímá zkušenost)
-- **Pragmatickou validitu** (funkční dopady)
-- **Tradici / institucionální autoritu** (sdílené dědictví)
+Detekční markery zachycené na této stránce odpovídají téže struktuře: výlučné odvolávání na jeden zdroj, nemožnost popsat situaci, v níž by se tento zdroj mýlil, vyřazení ostatních rámců jako povrchních a přenos jistoty i mimo doménu zdroje.
 
-### Krok 2 — Postupná delegitimizace jednotlivých standardů
-
-Každý standard je systematicky podkopán **specifickou** rétorikou:
-
-- *Logika* → *„to je jen lineární myšlení, omezení západní racionality“*
-- *Empirické fakty* → *„smysly klamou, materialismus je iluze“*
-- *Koherence* → *„systémy myšlení jsou jen sociální konstrukty“*
-- *Intersubjektivita* → *„většina se mýlila vždycky“*
-- *Fenomenologie* → *„svou zkušenost si interpretuješ špatně“*
-- *Pragmatika* → *„funkční výsledky jsou povrchní“*
-- *Tradice* → *„jen kulturní setrvačnost“*
-
-Klíčové: každý standard je delegitimizován **z perspektivy** ostatních, čímž se vytváří **vzájemně pohlcující skepse**, která zanechává subjekt bez **jakéhokoli** stabilního kritéria.
-
-### Krok 3 — Substituce skrz autoritativní meta-standard
-
-V momentu maximální epistemické desorientace manipulátor nabízí **jediný** standard, který je prezentován jako **nad** všemi předchozími:
-
-- *„Vědění není v hlavě, ale v srdci [/ v mistrovi / v textu / v hnutí].“*
-- *„Až když přijmeš [autoritu], všechno ostatní začne dávat smysl.“*
-- *„Pravda není to, co ti tvoje mysl tvrdí — pravda je to, co potvrzuje [autorita].“*
-
-Substituce je **nereverzibilní** — meta-standard je **definován** tak, že vylučuje vnější validaci. Otázka *„je tento meta-standard pravdivý?“* se v jeho rámci **stává neformulovatelnou**.
-
-### Krok 4 — Konsolidace skrze cirkulární validaci
-
-Subjekt po akceptaci meta-standardu testuje **každou** nově nabytou informaci skrz autoritu. Pokud autorita potvrdí, je informace pravdivá; pokud nepotvrdí, je nepravdivá. **Žádné** jiné kritérium není relevantní.
-
-Cirkulární validace je **fenomenologicky transparentní** — subjekt **neprožívá** strukturu jako cirkulární. Naopak prožívá ji jako *„konečné porozumění“*, *„přímé poznání“*, *„vystoupení z relativismu“*.
-
-### Krok 5 — Sebe-imunizace skrz internalizaci
-
-V terminálním stavu subjekt **sám** brání meta-standard proti jakémukoli vnějšímu zpochybnění. Vnější kritika je interpretována jako:
-
-- **Nepochopení** — *„on/a tomu nerozumí, není uvnitř“*
-- **Útok** — *„snaží se rozbít to, co máme“*
-- **Důkaz** — *„i toto je předpovězeno [autoritou], což potvrzuje pravdu“*
-
-Každý možný **falsifikátor** je transformován ve **konfirmátor**.
+*Interpretace knihy*: důvěřovat autoritě v oboru její kompetence je běžné a legitimní. Rozpoznávacím znakem je zánik souběžného kritéria, jímž by šlo autoritu v principu přehodnotit — zde takové kritérium definuje sama autorita. Proč kompendium popisuje tuto hranici jako strukturu, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -235,9 +190,9 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„c
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -248,8 +203,10 @@ Doktorand v izolovaném akademickém prostředí přijal kritérium pravdy *„c
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

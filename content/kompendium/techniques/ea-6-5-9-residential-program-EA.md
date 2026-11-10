@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-5-8-day-program-EA", "ea-6-5-6-inpatient-stabilizace", "ea-6-4-2-post-cult-protokol", "ea-6-4-6-domesticky-abuse-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.5.9"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.5 Krizové intervence"

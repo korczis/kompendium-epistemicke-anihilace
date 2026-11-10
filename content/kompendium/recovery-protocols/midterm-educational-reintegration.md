@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["midterm-vocational-integration", "midterm-metacognitive-rehab", "longterm-resilience-cultivation", "midterm-identity-reconstruction", "transformative-experience"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
 +++

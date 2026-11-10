@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["23-skills-rebuilding-program", "16-employer-vigilance", "5-workplace-prevention-EA", "midterm-vocational-integration", "21-relapse-prevention-EA"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 
@@ -157,7 +156,7 @@ práce, chybějící pojištění); v takových případech je vhodná právní 
 ## Literatura
 
 - Drake, R. E., Bond, G. R., & Becker, D. R. (2012). *Individual Placement and Support: An
-  [Evidence-Based](@/glossary/evidence-based.md) Approach to Supported Employment*. New York: Oxford University Press.
+  Evidence-Based Approach to Supported Employment*. New York: Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Jahoda, M. (1982). *Employment and Unemployment: A Social-Psychological Analysis*. Cambridge:
   Cambridge University Press.

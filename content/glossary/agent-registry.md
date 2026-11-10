@@ -25,7 +25,6 @@ key_agents = ["archer-supreme", "supreme-coordinator", "red-commander", "blue-co
 safety_critical_agents = ["gray-escalation-guard", "purple-regression-guard", "black-abstraction-enforcer"]
 audit_capabilities = ["Population Audit", "Authority Audit", "Domain Coverage", "Duplicate Detection", "Deprecation Tracking"]
 author = "Tomas Korcak (korczis)"
-quality_score = 90
 date_modified = "2026-11-10"
 +++
 

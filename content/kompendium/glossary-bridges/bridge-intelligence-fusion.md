@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["intelligence-fusion", "osint", "entity-resolution", "signal-plurality", "cirkularni-argumentace", "konfirmacni-bias"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "intelligence-fusion"
 toc = false
 +++

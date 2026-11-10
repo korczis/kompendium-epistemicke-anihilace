@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["qeve", "nabla-axioms", "trinity-gate", "toulmin-model", "modalni-logika", "white-team"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "qeve"
 toc = false
 +++

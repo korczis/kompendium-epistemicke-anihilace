@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-1-10-reflective-journaling", "ea-3-1-2-experiential-scaffolding", "ea-3-1-4-epistemic-community-formation", "ea-3-1-5-stabilization-anchoring"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.3"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Metakognitivní kultivace** je systematická kurikulární praxe rozvíjející čtyři dimenze metakognice: **senzitivitu** (detekce změn vlastních procesů), **regulaci** (jejich modulace), **repertoár** (spektrum dostupných strategií) a **rezilienci** (udržení koherence pod tlakem). Centrální technika protokolu — bez ní zbylé techniky tvoří pouze obsahovou výuku bez transformativní hodnoty.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Metakognitivní kultivace je pozorovatelná na tom, jak člověk mluví o vlastním myšlení: zda dokáže popsat, kdy si přestal být jistý, co ho k úsudku vedlo a čím by jej opravil. Flavell (1979) vymezil tuto oblast jako vědění o vlastních poznávacích procesech a jejich průběžné sledování; právě sledování, nikoli znalost pojmů, se v záznamech projeví.
 
-1. **Mapování baseline metakognice** — Metacognitive Awareness Inventory + reflektivní baseline esej.
-2. **Daily practice protocol** — 15min ranní + 15min večerní strukturovaná reflexe.
-3. **Trigger logging** — záznam epistemických perturbací v reálném čase (mobilní app nebo notebook).
-4. **Weekly meta-review** — 60min skupinová sezení analýza vlastních záznamů s peers.
-5. **Monthly calibration** — supervizor a student porovnávají metakognitivní [self-report](@/glossary/self-report.md) s pozorováním.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve přibývá schopnosti všimnout si změny vlastního stavu — nejistoty, odporu, úlevy — dřív, než se promítne do závěru. Pak se objevuje slovník, jímž lze takovou změnu pojmenovat, a s ním i možnost ji sdílet. Dále roste rejstřík toho, co s ní lze dělat, a nakonec stálost těchto schopností i pod tlakem. Schraw a Dennison (1994) ukázali, že tyto složky lze zachytit jako odlišitelné rozměry sebeposouzení, byť jen jako sebeposouzení. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle rozporu mezi výpovědí a chováním: účastník o sobě referuje jako o tom, kdo si všímá, a přitom v rozhovoru míjí vlastní obrat. Schön (1983) proto klade důraz na reflexi v průběhu jednání, nikoli jen na její pozdější zápis — ta pozdější se snadno stává výkonem pro posuzovatele.
+
+*Interpretace knihy*: rozlišujícím znakem je, zda sebepozorování zůstává opravitelné. Kde se stává předmětem hodnocení, přestává vypovídat o myšlení a začíná vypovídat o tom, co se čeká (Schön, 1983).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. *American Psychologist*, 34(10).
+- Schraw, G., & Dennison, R. S. (1994). Assessing metacognitive awareness. *Contemporary Educational Psychology*, 19(4).
+- Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -11,7 +11,6 @@ categories = ["academic"]
 [extra]
 related_terms = ["metakognice", "scenar-f", "scenar-h", "somaticke-vektory"]
 ea_codes = ["EA-3.2.G"]
-parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🧠"
 toc = true
 ea_code = "EA-3.2.G"

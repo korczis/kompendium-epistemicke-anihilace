@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-2-2-lifton-thought-reform-criteria", "ea-8-2-1-bite-framework", "ea-8-2-4-hassan-cult-criteria", "ea-8-3-9-cult-studies-literature", "ea-2-5-10-existential-helplessness-implantace", "ea-7-3-1-kahneman-system12"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.2.3"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.2 Referenční rámce"

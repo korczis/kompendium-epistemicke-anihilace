@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["10-sektarske-vychazeni", "11-corporate-cult", "13-mlm-recovery", "14-self-help-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -191,7 +190,7 @@ rané ukazatele zatím chybějí.
 - American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5. vyd.). American Psychiatric Publishing.
 - American Psychological Association (2017). *Ethical Principles of Psychologists and Code of Conduct*. APA.
 - Conger, J. A. (1990). The dark side of leadership. *Organizational Dynamics*, 19(2).
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
 - Ferster, C. B., a Skinner, B. F. (1957). *Schedules of Reinforcement*. Appleton-Century-Crofts.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.

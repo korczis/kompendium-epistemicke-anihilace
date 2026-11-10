@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["longterm-community-rebuilding", "longterm-meaning-deepening", "30-trauma-informed-citizenship", "incompetence", "lifeworld"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++

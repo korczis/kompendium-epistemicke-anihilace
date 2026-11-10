@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-3-6-relapse-prevention-program", "ea-3-3-7-alumni-network", "ea-3-3-9-cross-institutional-collaboration", "ea-4-1-1-foundation-stage"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.3.8"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.3 Institucionální techniky"
@@ -37,43 +36,54 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 ## Definice
 
-**Pipeline výzkumné translace** je technika strukturovaného převodu **výzkumných poznatků** o epistemické anihilaci do **praktických edukativních modulů**. Bez pipeline výzkum a praxe drift apart — kurikulum se stává zastaralým, výzkum irrelevantním.
+**Pipeline výzkumné translace** je technika strukturovaného převodu **výzkumných poznatků** o epistemické anihilaci do **praktických edukativních modulů**. Bez pipeline výzkum a praxe drift apart — kurikulum se stává zastaralým, výzkum irrelevantním. Že se nový poznatek nešíří sám a že jeho převzetí závisí na podobě organizace, nikoli jen na síle důkazu, shrnuli pro oblast služeb Greenhalgh a kol. (2004).
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Pozorovatel pozná fungující převod podle obousměrnosti. Do kurikula se dostane nový nález a zpět do výzkumu se dostane otázka z praxe; obojí má dohledatelnou stopu. Šíření novinky přitom probíhá po sociálních kanálech a v čase, ne jako okamžité převzetí (Rogers, 2003).
 
-1. **Research scanning** — systematic monitoring relevant publication streams.
-2. **Practitioner-researcher dialogue** — structured forums pro translation discussion.
-3. **Evidence synthesis** — periodické systematic reviews s GRADE-style evidence rating.
-4. **Curriculum integration** — annual curriculum review incorporating new evidence.
-5. **Practice-to-research feedback** — practitioner-identified questions feeding back to research agenda.
+Jednosměrná podoba se pozná podle toho, že praxe nemá, jak výzkum ovlivnit. Kurikulum se aktualizuje podle toho, co je právě publikováno, včetně nálezů, které se nepotvrdí. Podíl publikovaných zjištění, která neobstojí v replikaci, je přitom strukturálně vysoký (Ioannidis, 2005).
 
-## Cílová populace
+Retrospektivně se znaky objevují v pořadí: nejprve zmizí zpětný kanál z praxe, pak se zkrátí doba mezi publikací a zařazením do výuky a nakonec se kurikulum opírá o jediný zdroj. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Korektivem je reflexe vlastní praxe jako zdroje poznání (Schön, 1983).
 
-Akademická research community; instituce poskytující EA edukaci; certifikační orgány aktualizující standards.
+*Interpretace knihy*: rozhodující není, zda technika proběhla, ale zda po ní zůstává doložitelná cesta k nesouhlasu.
 
-Edukativní cíl není **změna chování** v behaviorálním smyslu, ale **kultivace kompetencí** umožňujících autonomní navigaci v epistemicky náročných kontextech. Cílová populace je primárně dospělí profesionálové s baseline metakognitivní stabilitou — technika není určena pro klinické intervence u aktivně dekompenzovaných jedinců.
+Měřítko stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
-## Předpoklady
+## Čtenář a předpoklady
 
-Active research community; bidirectional komunikace s practitioners; mechanism pro curriculum updates.
+| Pole | Hodnota |
+|---|---|
+| **Pro koho je stránka psána** | Akademická research community; instituce poskytující EA edukaci; certifikační orgány aktualizující standards |
+| **Předpokládaný rámec** | Active research community; bidirectional komunikace s practitioners; mechanism pro curriculum updates |
 
-Bez splnění předpokladů technika produkuje suboptimální výsledky a může generovat iatrogenní efekty. Předpoklady nejsou byrokratické formality, ale **strukturální podmínky** efektivity intervence.
+Předpoklady nejsou formalita. Bez mandátu, rozpočtu a transparentního jmenování zůstává orgán závislý na tom, koho má kontrolovat, a jeho rozhodnutí nelze číst jako nezávislá; nezávislost a veřejná odpovědnost patří mezi podmínky, bez nichž nelze mluvit o etickém dohledu (Emanuel, Wendler a Grady, 2000).
 
-## Implementační protokol
+## Detekční markery (pohled pozorovatele)
 
-Konkrétní implementace vyžaduje:
+Následující znaky jsou to, co člen rady, auditor nebo vyšetřující pozoruje zvenčí; žádný z nich není sám o sobě průkazný a každý se posuzuje proti vlastní historii instituce. Že se formální dohled může zcela míjet s tím, co se skutečně děje, doložil už Beecher (1966) na řadě publikovaných studií.
 
-1. **Pre-implementation assessment** — verifikace předpokladů u individuálních účastníků a kohorty jako celku.
-2. **Resource provisioning** — institucionální alokace času, prostoru, personálu, technologií.
-3. **Documentation infrastructure** — systém zaznamenávání průběhu, výsledků, incidentů.
-4. **Quality assurance** — peer review nebo external observation alespoň 10 % sessions.
-5. **Continuous adjustment** — iterativní úpravy na základě real-time feedback.
+| Co je vidět | Co to naznačuje |
+|---|---|
+| Pravidla existují na papíře, ale rozhodnutí vznikají jinde | governance bez skutečné pravomoci |
+| Přezkum nikdy nevede k zamítnutí ani k podstatné úpravě | potvrzovací provoz místo přezkumu |
+| Kritika je vyřizována personálně, nikoli věcně | posun od obsahu k loajalitě |
+| Zadání, financování a hodnocení drží tentýž útvar | strukturální konflikt zájmů |
+| Odstoupení účastníka má nepřiměřené následky | oslabený souhlas |
+| Otázky z praxe nemají cestu zpět do výzkumu | jednosměrný převod |
+| Do výuky se zařazuje nález bez replikace | předčasný převod slabého důkazu |
 
-Implementace je **iterativní** — každý cyklus generuje data informující úpravy v dalších cyklech.
+Rozlišení od neškodných jevů je nutné: hladký přezkum může odpovídat dobře napsanému návrhu a stabilní financování nemusí nic kompromitovat. Rozhodující je, zda je zájmový vztah vykázán a zda existuje cesta, jak ho zpochybnit (Thompson, 1993).
+
+## Odlišení od neškodných jevů
+
+Od neškodných jevů se vzorec odlišuje tím, co zůstává doložitelné. Rychlý přezkum, stabilní financování i jednotné standardy mohou být v pořádku; poznávacím znakem je, že zdůvodnění rozhodnutí přestalo být zapsáno a že zájmový vztah není vykázán (Thompson, 1993).
+
+Druhým rozlišovacím hlediskem je, kdo nese následek. Dobře vedená instituce umí říci, co se stane účastníkovi, který odstoupí, a tento popis odpovídá praxi; tam, kde se následek přesouvá na nejzranitelnější stranu, jde o vzorec, nikoli o provozní detail (Emanuel, Wendler a Grady, 2000).
 
 ## Hodnotící kritéria
+
+Hodnotící kritéria nejsou cílem práce, ale jejím ukazatelem. Jakmile se měřítko stane cílem, přestává měřit to, kvůli čemu vzniklo — tento efekt popsal Campbell (1979) jako pravidlo, že čím více se kvantitativní ukazatel používá k rozhodování, tím více podléhá zkreslení.
 
 | Kritérium | Měřítko |
 |-----------|---------|
@@ -82,54 +92,45 @@ Implementace je **iterativní** — každý cyklus generuje data informující �
 | Bidirectionality | Research questions originated from practice |
 | Adoption rate | New evidence adopted across institutions
 
-Evaluace integruje **kvantitativní** (validované instrumenty) i **kvalitativní** (reflektivní eseje, ethnographic observation) datové zdroje. Žádná samostatná metrika není dostatečná — multidimenzionální evaluace je nezbytná.
+## Rizikové kontexty
 
-## Rizika a kontraindikace
+Rizikovým kontextem je komerční tlak na rychlost. Pokud o pořadí témat rozhoduje financující strana, převádí se nejdřív to, co je prodejné, nikoli to, co je doložené (Greenhalgh a kol., 2004).
 
-**Kdy techniku NEPOUŽÍVAT nebo modifikovat:**
-
-Research-practice gap pokud pipeline funguje pouze jednosměrně; premature translation of weak evidence; commercial pressures distorting translation priorities.
-
-Specificky:
-
-- **Krizové situace** — technika není akutní intervencí; vyžaduje stabilní baseline.
-- **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
-- **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
-- **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
+Druhým rizikovým kontextem je závislost na jednom pracovišti. Tam, kde výzkum i výuku drží týž okruh lidí, chybí nezávislá replikace a chyba se šíří spolu s poznatkem (Ioannidis, 2005).
 
 ## Vztah k jiným technikám
 
-### Sourozenecké techniky (3.3 Institucionální techniky)
-
-Technika je integrální součástí subkategorie 3.3 a je navržena pro synergickou implementaci s ostatními sourozeneckými technikami:
-
-  - [EA-3.3.1 Institucionální etická rada](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
-  - [EA-3.3.2 IRB protokol design](@/kompendium/techniques/ea-3-3-2-irb-protocol-design.md)
-  - [EA-3.3.3 Architektura kurikula](@/kompendium/techniques/ea-3-3-3-curriculum-architecture.md)
-  - [EA-3.3.4 Evaluační metriky](@/kompendium/techniques/ea-3-3-4-evaluation-metrics.md)
-
-### Cross-kategoriální vztahy
-
-  - [EA-3.3.3 Architektura kurikula](@/kompendium/techniques/ea-3-3-3-curriculum-architecture.md)
-  - [EA-3.3.9 Mezi-institucionální spolupráce](@/kompendium/techniques/ea-3-3-9-cross-institutional-collaboration.md)
-  - [EA-3.3.4 Evaluační metriky](@/kompendium/techniques/ea-3-3-4-evaluation-metrics.md)
-
-### Vztah k EA-1 a EA-2
-
-Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
-
-- **[EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md)** — obsahový materiál pro výuku.
-- **[EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)** — komplexní real-world cases pro analýzu.
-- **[EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md)** — pokročilé materiály pro L2/L3 úrovně.
+| Stránka | Vztah |
+|---|---|
+| [EA-3.3.1 Institucionální etická rada](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md) | Stránka ze stejného okruhu knihy. |
+| [EA-3.3.2 IRB protokol design](@/kompendium/techniques/ea-3-3-2-irb-protocol-design.md) | Stránka ze stejného okruhu knihy. |
+| [EA-3.3.3 Architektura kurikula](@/kompendium/techniques/ea-3-3-3-curriculum-architecture.md) | Stránka ze stejného okruhu knihy. |
+| [EA-3.3.4 Evaluační metriky](@/kompendium/techniques/ea-3-3-4-evaluation-metrics.md) | Stránka ze stejného okruhu knihy. |
+| [EA-3.3.9 Mezi-institucionální spolupráce](@/kompendium/techniques/ea-3-3-9-cross-institutional-collaboration.md) | Stránka ze stejného okruhu knihy. |
+| [EA-1 Techniky epistemické anihilace](@/kompendium/03-zakladni-kategorie/kapitola-1.md) | Stránka ze stejného okruhu knihy. |
+| [EA-2 Scénáře delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md) | Stránka ze stejného okruhu knihy. |
+| [EA-5 Kognitivní anihilace](@/kompendium/04-terminalni-protokoly/kapitola-5.md) | Stránka ze stejného okruhu knihy. |
 
 ## Vztah k Prismatic platformě
 
-Tato edukativní technika je integrovatelná s několika komponentami Prismatic platformy:
+{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — evaluační metriky a kompetenční assessmenty mohou využívat [decision engine](@/glossary/decision-engine.md) pro tracking longitudinálního vývoje studentů s confidence calibration.
 
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — evaluační metriky a kompetenční assessmenty mohou využívat [decision engine](@/glossary/decision-engine.md) pro tracking longitudinálního vývoje studentů s confidence calibration.
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
-- **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
-- **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
+[NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
+
+{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }} — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
+
+{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }} — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
+
+## Literatura
+
+- Beecher, H. K. (1966). Ethics and clinical research. *New England Journal of Medicine*.
+- Campbell, D. T. (1979). Assessing the impact of planned social change. *Evaluation and Program Planning*.
+- Emanuel, E. J., Wendler, D., & Grady, C. (2000). What makes clinical research ethical? *JAMA*.
+- Greenhalgh, T., Robert, G., Macfarlane, F., Bate, P., & Kyriakidou, O. (2004). Diffusion of innovations in service organizations: Systematic review and recommendations. *The Milbank Quarterly*.
+- Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLoS Medicine*.
+- Rogers, E. M. (2003). *Diffusion of Innovations* (5. vyd.). Free Press.
+- Schön, D. A. (1983). *The Reflective Practitioner: How Professionals Think in Action*. Basic Books.
+- Thompson, D. F. (1993). Understanding financial conflicts of interest. *New England Journal of Medicine*.
 
 ## Související
 
@@ -152,23 +153,27 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec).
+- Má k dispozici [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky.
+- Stránka není nástroj sebediagnostiky; podezření na sebe nebo na blízkou osobu patří
+  k [diagnostickým indikátorům](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
+  a ke konzultaci se supervizí.
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje rozpoznatelný vzorec, nikoli nástroj.
 
 ---
 
 ## Connect & Contribute
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+Stránku vytvořil [Tomáš Korcak (korczis)](https://github.com/korczis).
+Licence obsahu: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md).
 
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Glossary](@/glossary/_index.md) | [Philosophy](@/philosophy/_index.md) | [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/)
+Další rozcestníky: [Glossary](@/glossary/_index.md), [Philosophy](@/philosophy/_index.md),
+[Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki),
+[Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues).

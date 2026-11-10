@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["7-ea-osint-narrative-injection", "12-ea-dd-counterparty-manipulation", "22-ea-security-incident-response-narrative", "16-ea-dd-confirmation-bias-prevention"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 
@@ -132,7 +131,7 @@ klíčových tvrzení.
 
 ## Literatura
 
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory.
 - Oreskes, N., Conway, E. M. (2010). *Merchants of Doubt.*
 - Rid, T. (2020). *Active Measures: The Secret History of Disinformation and Political Warfare.*
 - Nařízení (EU) č. 596/2014 o zneužívání trhu; směrnice (EU) 2019/1937; zákon č. 171/2023 Sb., o ochraně oznamovatelů.

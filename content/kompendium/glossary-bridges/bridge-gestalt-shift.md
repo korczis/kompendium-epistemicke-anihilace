@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["gestalt-shift", "paradigm-shift", "kuhnova-revoluce", "transformative-experience", "sektarska-konverze", "lakatos-vyzkumny-program"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "gestalt-shift"
 toc = false
 +++

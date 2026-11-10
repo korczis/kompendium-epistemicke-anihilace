@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["15-relationship-monitoring", "22-post-EA-network-rebuilding", "23-skills-rebuilding-program", "longterm-relapse-prevention", "trauma-bonding"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 
@@ -160,14 +159,14 @@ k pachateli je závislostí v klinickém smyslu.
 
 ## Literatura
 
-- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional
   attachments in battered women and other relationships of intermittent abuse. *Victimology*, 6.
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
   Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive
   Relationships*. Berkeley: Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - Marlatt, G. A., & Gordon, J. R. (Eds.) (1985). *Relapse Prevention: Maintenance Strategies in
   the Treatment of Addictive Behaviors*. New York: Guilford Press.
 - Walker, L. E. (1979). *The Battered Woman*. New York: Harper & Row.

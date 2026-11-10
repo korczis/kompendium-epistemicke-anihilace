@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-7-referencni-rekurze", "ea-5-1-8-konceptualni-fragmentace", "ea-5-2-1-meta-epistemicka-inverze", "ea-5-2-10-meta-kognitivni-singularita"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.9"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -48,49 +47,15 @@ Technika cílí na **fenomenologickou kontinuitu prvního řádu** — na samotn
 
 V kombinaci s technikami subkategorie 5.2 (ontologická anihilace) může produkovat plnou [epistemickou anihilaci](@/glossary/epistemicka-anihilace.md) — stav, ve kterém subjekt ztrácí přístup k samotné možnosti poznání, protože ztratil přístup k sobě jako poznávajícímu.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování důvěrné expoziční zóny
+Identitní dezintegrace se pozorovateli ukazuje jako přetržená souvislost mezi tím, kým zasažený člověk byl, a kým je teď. Mluví o sobě s odstupem nebo ve třetí osobě, vlastní vzpomínky a pohnutky opakovaně zpochybňuje a nad svými staršími fotografiemi nebo zápisky prožívá cizotu místo rozpoznání. Na otázku, co by udělal v konkrétní situaci, nedokáže odpovědět, chování kolísá a sebepojetí si ověřuje u jedné jediné osoby.
 
-Manipulátor etabluje vztah s **vysokou afektivní intenzitou** a **systematickou důvěrností**: pseudoterapeutický, mentorský, intimní, sektářský. Subjekt přijímá manipulátora jako *legitimní zrcadlo* — jako toho, kdo *„opravdu vidí, kdo jsem"*.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycen vztah s vysokou citovou intenzitou a velkou mírou důvěrnosti, v němž zasažený člověk sdílel to, co ho utvářelo, a druhou stranu přijal jako zrcadlo. Pak se jeho vzpomínky, volby i hodnoty jedna po druhé převypravují — každý jednotlivý výklad přitom může být zčásti oprávněný a rozhodující je až to, že nic nezůstane jeho vlastní. Souběžně jsou odpor, pochybnost i intuice vykládány jako obrana staré identity, takže vnitřní filtr mizí. Nakonec nastupuje nová identita, vymezená mlhavě a ověřitelná jen u téhož zdroje. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Klíčové je, aby subjekt sdílel **klíčové autobiografické komponenty** (vzpomínky, hodnoty, vztahové vzorce, formující zážitky). Tyto komponenty se stávají materiálem pro pozdější dezintegrační operace.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: odstup v řeči o sobě, náhlá změna ústředních hodnot bez vnější události, ztráta předvídatelného obrazu sebe sama a vznik depersonalizační a derealizační symptomatiky.
 
-### Krok 2 — Rekontextualizace klíčových autobiografických prvků
-
-Manipulátor postupně **přerámuje** subjektovy vzpomínky a sebepojetí:
-
-- *„To, co popisuješ jako svobodnou volbu, byla ve skutečnosti reakce na traumu."*
-- *„Ten člověk, kterým si myslíš, že jsi, je obranná konstrukce."*
-- *„Tvoje hodnoty jsou internalizované hodnoty rodiče / kultury / patriarchátu / kapitalismu."*
-- *„Tvoje vzpomínky jsou pravděpodobně rekonstruované."*
-
-Každé jednotlivé přerámování může být **částečně oprávněné** (jednotlivé volby skutečně mohou být reakcí na traumu, hodnoty skutečně bývají internalizované). Manipulativní efekt vzniká **kumulací** přerámování bez ponechání jakéhokoliv komponenta jako *autenticky vlastní*.
-
-### Krok 3 — Inhibice ochranných mechanismů
-
-Subjektovy obvyklé obranné reakce jsou systematicky delegitimizovány:
-
-- *„To, co cítíš jako odpor, je defense mechanism."*
-- *„Tvoje intuice ti lže — pochází z té samé poškozené struktury."*
-- *„Pochybnosti, které máš, jsou součástí staré identity, která se brání rozpadu."*
-
-Subjekt přijímá inhibici a **přestává obrannými reakcemi důvěřovat**. Ztrácí tak vnitřní filtr, který chránil identitu před invazivními redefinicemi.
-
-### Krok 4 — Konstrukce nové, závislé identity
-
-V uvolněném prostoru manipulátor postupně nabízí **novou identitu**, která je:
-
-- **Závislá na manipulátorově interpretaci** — subjekt nemůže ověřit, kdo *je*, bez konzultace
-- **Vágně vymezená** — bez konkrétních autobiografických kotev, které by subjekt mohl použít k autonomnímu rozhodování
-- **Strukturálně slabší** než původní — méně predikční stability, větší závislost na vnějším potvrzení
-- **Vysoce afektivně investovaná** — *„konečně víš, kdo jsi"*
-
-### Krok 5 — Konsolidace prostřednictvím epizodické dekontinuity
-
-Subjekt prožívá rostoucí dekontinuitu mezi *minulým já* a *současným já*. Vzpomínky na vlastní chování před manipulací se zdají *cizí*. Subjekt přestává rozumět tomu, co *kdysi* chtěl, hodnotil, miloval. Nová identita je nestabilní, ale alternativa neexistuje — původní identita byla rozpuštěna.
-
-V tomto stavu je subjekt **maximálně závislý** na manipulátorovi pro orientaci v sobě.
+*Interpretace knihy*: proměna identity sama znakem vzorce není; při zdravém vývoji člověk rozumí tomu, jak a proč se posunul, a stále se poznává. Rozpoznávacím znakem je přetržení této souvislosti. Odlišení od změn po těžkém traumatu patří klinické supervizi, jak uvádějí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -258,9 +223,9 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -271,8 +236,10 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

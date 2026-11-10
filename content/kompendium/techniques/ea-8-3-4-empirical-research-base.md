@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-3-1-foundational-readings", "ea-8-3-2-clinical-handbook", "ea-7-3-2-tversky-heuristics", "ea-8-1-6-betrayal-trauma-inventory", "ea-8-2-6-icd-11-complex-trauma", "ea-7-2-3-popper-falsification"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.3.4"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.3 Bibliografie"

@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -209,9 +208,9 @@ osoby jako celek; klinik má posuzovat strukturu kontroly, ne politické postoje
 - Graves, L. (2016). *Deciding What's True: The Rise of Political Fact-Checking in American Journalism*. Columbia University Press.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Mikloško, F. (1991). *Nebudete ich môcť rozvrátiť: Z osudov katolíckej cirkvi na Slovensku v rokoch 1943–89*. Archa.
-- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model*. RAND Corporation.
 - Rada Evropy (2011). *Úmluva Rady Evropy o prevenci a potírání násilí vůči ženám a domácího násilí* (Istanbulská úmluva, CETS No. 210). Rada Evropy.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

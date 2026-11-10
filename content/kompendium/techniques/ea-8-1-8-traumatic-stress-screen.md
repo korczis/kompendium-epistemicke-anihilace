@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-2-7-dsm-5-tr-trauma", "ea-8-2-6-icd-11-complex-trauma", "ea-8-1-7-disociativni-experiences-scale", "ea-8-1-6-betrayal-trauma-inventory", "ea-8-2-9-van-der-kolk-trauma", "ea-8-1-2-cult-leaving-questionnaire"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.8"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"

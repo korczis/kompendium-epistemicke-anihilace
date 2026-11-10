@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-28-transcendentalni-vakuace", "ea-5-2-29-meta-fenomenalni-redukce", "ea-5-2-30-konvergentni-meta-singularita", "ea-5-2-4-apriorni-saturace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.3"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -46,34 +45,17 @@ EA-5.2.3 operuje ve dvou opačných formách:
 
 V obou formách dochází k **rozpadu regulativní funkce** distinkce. První forma vede ke **strukturální nepřístupnosti revize**, druhá ke **strukturální nepřístupnosti péče o pravdu**. V terminálních stadiích se obě formy mohou kombinovat — subjekt cynicky tvrdí, že „nic není“, a zároveň naivně jedná, jako by věděl, jak je to skutečně.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Identifikace fenomenální/noumenální distinkce v subjektově epistemice
+Vzorec má dvě tváře a pozorovatel je potkává i u téhož člověka. V jedné zazní tvrzení tam, kde by jiný vyslovil domněnku: dojem se podává jako skutečnost a žádost o doklad se přijímá jako urážka. V druhé se odmítá každý nárok na poznání jako mocenský konstrukt — a přesto se jedná, jako by určité věci byly jisté. Společné oběma je, že zmizel rozdíl mezi *zdá se mi* a *je*; nesnášenlivost otevřené otázky je přitom doložena jako samostatný rys uzavírání mysli (Kruglanski & Webster, 1996).
 
-Manipulátor zkoumá, **jak subjekt používá distinkci** — kde si připouští, že se mu něco *zdá*, kde tvrdí, že něco *je*, kde rozlišuje mezi **dojmem** a **skutečností**.
+Nápadná bývá nesouměrnost: doklad se vyžaduje od oponenta, nikoli od sebe. Potřeba uzavřít otázku a snížit nejistotu je přitom doložena jako samostatný rys, který se takto projevuje i bez jakéhokoli vnějšího působení (Kruglanski & Webster, 1996), takže sám o sobě vzorec nedokládá.
 
-### Krok 2 — Selekce strategie redukce
+Postižení popisují, že ztratili půdu pro revizi: v naivní podobě proto, že není co revidovat, v cynické proto, že revize by stejně nikam nevedla. Oba výsledky ruší práci na poznání. Že se odstup od vlastního hlediska dá hledat, a přitom se hledisko nedá opustit, rozebírá (Nagel, 1986); že ani základní rozdíly v poznání nejsou hotovými zbraněmi, ale předmětem argumentu, ukazuje (Quine, 1951).
 
-Podle psychologického profilu subjektu se vybírá:
+Zpětně se znaky skládají takto: nejprve posun v tom, jak člověk mluví o vlastních dojmech, pak soustavné potvrzování bezprostřednosti nebo soustavné znevažování každého nároku, pak vymizení formulací typu „zdá se mi“ a nakonec začlenění do okruhu, který týž postoj sdílí. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Roli skupiny při udržení takového postoje dokládá (Festinger, Riecken & Schachter, 1956), zatížení jazyka v uzavřeném prostředí (Lifton, 1961).
 
-- **Strategie naivity** — pro subjekty se silnou potřebou jistoty.
-- **Strategie cynismu** — pro subjekty se silnou epistemickou skromností nebo postmoderními sklony.
-
-### Krok 3a — Indukce naivity
-
-Manipulátor systematicky **legitimuje bezprostřednost vjemu**: *„Pokud to tak vidíš, tak to tak je“*, *„Tvoje intuice je hlubší než jakákoli teorie“*, *„Příliš mnoho přemýšlení zatemňuje pravdu“*. Distinkce mezi *jak se to mi jeví* a *jak to je* je prezentována jako **akademická hra** bez praktického významu.
-
-### Krok 3b — Indukce cynismu
-
-Alternativně manipulátor systematicky **delegitimuje jakýkoliv epistemický nárok**: *„Nikdy nemůžeme vědět, jak to skutečně je“*, *„Všechny perspektivy jsou stejně platné/nelegitimní“*, *„Fakta jsou jen mocenský konstrukt“*. Distinkce kolabuje, protože **noumenální strana** je odepřena jako principálně nepřístupná.
-
-### Krok 4 — Saturace cvičeními
-
-Subjekt je veden k **cvičení v převrácené struktuře**: rozhodovací úlohy, ve kterých má buď **bezprostředně jednat na základě dojmu** (naivita), nebo **odmítnout jednat, protože nic nelze vědět** (cynismus). Každé úspěšné cvičení konsoliduje redukci.
-
-### Krok 5 — Konsolidace skrze sociální podporu
-
-Subjekt je integrován do **komunity**, která redukci sdílí. Sociální posílení činí redukci stabilní — externí kritika je interpretována jako **náležení k jiné komunitě**, ne jako epistemická výzva.
+*Interpretace knihy*: rozdíl jevu a věci o sobě plní u Kanta regulativní úlohu — drží poznání otevřené revizi (Kant, 1787); jeho ztráta proto není filozofickou pozicí, ale ztrátou nástroje.
 
 ## Fenomenologie
 
@@ -197,6 +179,18 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
 - **OSINT framework** strukturálně rozlišuje **observation** od **inference** — distinkce strojově vynucovaná.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje explicitní formulaci hypotéz **a** evidenční podpory, čímž brání kolapsu obou rovin do jediné.
 
+## Literatura
+
+- Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Nagel, T. (1986). *The View from Nowhere*. New York: Oxford University Press.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
@@ -210,21 +204,15 @@ Intervence: redakční intervence, povinný kurz **investigativní metodologie**
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

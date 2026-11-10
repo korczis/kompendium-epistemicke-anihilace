@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-1-2-konceptualni-nihilace", "ea-5-1-21-sebe-referencni-paradox", "ea-5-1-22-diferencialni-nihilace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.20"
 ea_category = "5. Pokročilé techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,44 +40,15 @@ Výsledkem je **pseudo-totalitní pohled na svět**, v němž **veškerá eviden
 
 Holografická redukce je **strukturálně příbuzná** klasickým konspiračním rámcům, ale **kvalitativně sofistikovanější**: zatímco klasická konspirace operuje na úrovni *všechno spolu souvisí prostřednictvím skryté agentury*, holografická redukce operuje na úrovni *všechno je topologickou projekcí téhož vzorce*, čímž obchází kritiku absence kauzálního mechanismu.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování centrálního vzorce
+Holografická redukce se pozorovateli ukazuje jako jediná abstraktní formule, která se vrací u témat, jež spolu nesouvisejí. Zasažený člověk čte náhodný rozhovor, počasí, ekonomická data i gesta druhých jako projev téhož vzorce a prožívá přitom mimořádnou vysvětlovací sílu svého rámce. Okolí přitom zaznamenává opak: čím víc rámec vysvětluje, tím méně konkrétního tvrdí, protože neexistuje událost, která by s ním byla v rozporu.
 
-Manipulátor předkládá **vysoce abstraktní centrální vzorec** — obvykle s pseudovědeckou nebo pseudo-spirituální fasádou: *„vše je vibrace na různých frekvencích“*, *„každá realita je fraktálně sebepodobná“*, *„kvantová informace je přítomna v každém bodě“*, *„struktura DNA odpovídá struktuře galaxie“*. Vzorec je **dostatečně abstraktní**, aby byl aplikovatelný na cokoli, a **dostatečně specifický**, aby zněl jako poznání.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycena ústřední formule dost abstraktní na to, aby šla použít na cokoli, a dost určitá na to, aby zněla jako poznání. Pak přibývá nácvik jejího používání na stále dalších událostech, oceňovaný ve skupině jako průlom. Souběžně mizí rozlišení mezi metaforou a totožností, mezi podobností a izomorfismem, mezi lokálním vzorcem a univerzálním zákonem. Nakonec zůstává stav, v němž zasažený člověk nemá k dispozici pojem jiné perspektivy. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Trénink interpretačního refleksu
+Detekční markery zachycené na této stránce odpovídají téže struktuře: táž abstraktní fráze u nesouvisejících událostí, nedostupnost falsifikačních podmínek, výklad protikladů jako dvou projevů téhož, redukce odborných domén na ilustrace a nepoměr mezi jistotou a empirickým základem.
 
-Subjekt je systematicky trénován **interpretovat každou událost** v termínech centrálního vzorce. Trénink probíhá:
-
-- **explicitními cvičeními** („vidíš ten vzorec? co vidíš v této události?“)
-- **modelováním** (učitel demonstruje aplikaci vzorce na náhodné události)
-- **pozitivním zpevněním** (subjektovy „průlomové“ interpretace jsou oceňovány)
-- **negativním zpevněním** (interpretace mimo vzorec jsou označovány jako „stále lineární myšlení“)
-
-### Krok 3 — Eliminace perspektivální diferenciace
-
-Klíčový operační moment: **rozdíl mezi makroúrovní a mikroúrovní je systematicky popírán**. Vědecká pozice „DNA má jinou strukturální logiku než galaxie, jakkoli mohou existovat povrchní podobnosti“ je redukována na „stále myslíš v lineárních kategoriích“. Subjekt ztrácí schopnost rozlišit:
-
-- **strukturální podobnost** vs. **strukturální izomorfismus**
-- **metaforu** vs. **identitu**
-- **lokální vzorec** vs. **univerzální zákon**
-- **subjektivní rozpoznání** vs. **objektivní existence**
-
-### Krok 4 — Saturace konfirmační evidence
-
-Protože vzorec je dostatečně abstraktní, **každá** událost ho potvrzuje. Subjekt prožívá **každodenní život jako kontinuální proud potvrzení**. Toto je fenomenologicky enormně silné — subjekt **opakovaně zažívá** „důkaz“ rámce, čímž se rámec stává psychologicky neodstranitelným.
-
-### Krok 5 — Konsolidace skrze pseudo-totalitu
-
-Subjekt nyní operuje s rámcem, který:
-
-- **vysvětlí všechno** (a tedy nic specificky)
-- **není falsifikovatelný** (není událost, která by ho mohla zpochybnit)
-- **eliminuje perspektivu** (neexistuje „mimo rámec“)
-- **redukuje druhé** na fraktální projevy téhož
-
-V této fázi subjekt **nemůže** plně diskutovat s nikým, kdo rámec nesdílí — nikoli z arogance, ale protože **strukturálně ztratil koncepci jiné perspektivy**.
+*Interpretace knihy*: rozpoznávacím znakem není práce s podobností napříč měřítky — tu dělá i kybernetika, teorie komplexity a fraktální geometrie, ovšem s vymezenou platností. Znakem je neomezená použitelnost, která tvrzení zbavuje obsahu. Proč kompendium takový rozdíl popisuje jako strukturu, a ne jako nástroj, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -205,9 +175,9 @@ Online komunita sdílí „synchronicity“ události — ekonomické zprávy, g
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -218,8 +188,10 @@ Online komunita sdílí „synchronicity“ události — ekonomické zprávy, g
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

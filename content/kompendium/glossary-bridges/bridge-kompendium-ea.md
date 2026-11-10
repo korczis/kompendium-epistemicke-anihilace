@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["kompendium-ea", "epistemicka-anihilace", "kognitivni-anihilace", "taxonomie-ea", "bridge-epistemicka-anihilace", "bridge-dual-use-poznani"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "kompendium-ea"
 toc = false
 +++
@@ -137,7 +136,7 @@ tyto otázky rozvádí.
 - Hacking, I. (1995). The looping effects of human kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal Cognition: A Multidisciplinary Debate* (pp. 351–394). Clarendon Press.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - World Health Organization (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 

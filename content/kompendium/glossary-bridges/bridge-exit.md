@@ -12,7 +12,6 @@ related_terms = ["high-control-group", "sektarska-konverze", "bite-model", "reco
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
 +++
 
 # Bridge: Odchod (exit)
@@ -47,7 +46,7 @@ trestají a odchod činí nákladným –, a proto bývá odchod z nich tak obt�
 
 ## Dobrovolné a nucené formy pomoci
 
-V USA se v 70. a 80. letech rozšířilo **nucené deprogramování** – únos a zadržení člena skupiny
+V USA se v 70. a 80. letech rozšířilo nucené deprogramování – únos a zadržení člena skupiny
 s cílem ho „přeprogramovat“. Praxe byla eticky odsouzena a soudy ji opakovaně posuzovaly jako
 protiprávní omezení svobody. Na její místo nastoupily **dobrovolné** přístupy (*exit counseling*,
 *[thought reform](@/glossary/thought-reform.md) consultation*), v nichž člověk o rozhovoru ví a

@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-3-1-algorithmic-amplification", "ea-9-3-3-feed-personalization-bias", "ea-9-5-3-emotional-meme-engineering", "ea-1-4-2-latentni-emocionalni-modulace"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.3.2"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.3 Sociální platformy"

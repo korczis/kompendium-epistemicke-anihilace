@@ -10,7 +10,6 @@ tags = ["kompendium", "self-defense-guide", "praktiky", "sebe-obrana"]
 categories = ["academic", "practical"]
 section_icon = "🛡️"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "complete"
 +++
@@ -126,7 +125,7 @@ Záznamy, které si podle návodů vedete, ukládejte tam, kam osoba, která vá
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. *Science*, 359(6380), 1146–1151.
 
 ## Související

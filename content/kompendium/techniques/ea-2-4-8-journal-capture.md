@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-6-peer-review-capture", "ea-2-1-4-publikacni-blokace", "ea-2-1-5-citation-suppression", "ea-2-4-10-disciplinary-society-capture", "replication-crisis", "pseudoscience"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.4.8"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"

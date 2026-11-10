@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-5-1-emocni-podbarveni", "ea-1-5-1-strategicka-proxemika", "ea-1-5-terminologicka-mystifikace", "ea-1-6-1-vzorec-guru-a-adept"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.5.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.5 Proxemické a kinetické techniky"
@@ -41,58 +40,15 @@ Klíčový mechanismus: **exploitace evoluční předispozice** k interpretaci s
 
 Strukturálně sourozenecká s [EA-1.5.1 Strategickou proxemikou](@/kompendium/techniques/ea-1-5-1-strategicka-proxemika.md) — proxemika manipuluje **prostor**, hieroglyfy manipulují **tělo** v prostoru. Spolu tvoří kompletní **kinesic dominance system**.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování baseline body language
+Dominantní tělesné hieroglyfy nejsou pozorovateli dostupné jako jednotlivé pohyby, nýbrž jako rozpor mezi mírou jistoty v držení těla a mírou doloženosti toho, co se říká. Posluchač referuje, že necítil prostor pro nesouhlas, a kompetenci přičítá vzhledu mluvčího. Hall, Coats a Smith LeBeau (2005) shrnují napříč studiemi, že právě tato skupina znaků je v sociálním styku čtena jako znak postavení — nikoli jako znak toho, zda je tvrzení podložené.
 
-Manipulátor etabluje **competent** baseline — neutrálně-autoritativní tělesnou konfiguraci. Tato baseline slouží jako **referenční bod** pro modulaci.
+Retrospektivně se dá rozlišit, podle čeho se znaky skládají. Nápadná je opět neměnnost: držení těla, pohled a tempo pohybů zůstávají stejně pevné u míst doložených i nedoložených. Dále se projevuje zrcadlení — posluchač se sám zmenšuje, omezuje pohled a gesta — a konečně vázanost odezvy na osobu, nikoli na obsah: týž argument přednesený někým jiným vyvolá jinou míru souhlasu. Ekman a Friesen (1969) ukázali, že tělesné znakové soustavy mají vlastní, od řeči oddělenou skladbu a že vnímatel je dekóduje, aniž by o tom rozhodoval. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Strategické konfigurace pro dominance
+Detekční markery zachycené níže odpovídají téže struktuře: tělesný odpor při pokusu o námitku, přisouzení odbornosti na základě vystupování a vyhýbání se přímému pohledu. Knapp a Hall (2010) proto doporučují oddělit posouzení obsahu od situace, v níž zazněl — přepisem, odkladem nebo posouzením třetí osobou, která mluvčího nevidí.
 
-Manipulátor používá specifické konfigurace signalizující dominanci:
-
-#### Postural
-
-- **Open chest** (rozšířené, ne sevřené)
-- **Squared shoulders**
-- **Vertical alignment** (nezakloněný, nezakřivený)
-- **Stable stance** (vyvážené nohy)
-- **Head positioned upward** (slight chin elevation)
-
-#### Gestural
-
-- **Slow, deliberate movements**
-- **Spatial expansion** (rozšířené gesty)
-- **Pointing dominance** (gesto směřované, ne směřované k sobě)
-- **Steady hand positioning** (žádné self-touching, žádné fidgeting)
-
-#### Facial
-
-- **Stable eye contact** (steady, ne darting)
-- **Neutral resting expression** (ne smiling deferentially)
-- **Slow blink rate**
-- **Strategic eyebrow modulation** (raised for emphasis, ne deferentially)
-
-### Krok 3 — Synchronizace s rétorickými cíli
-
-Hieroglyfy jsou **strategicky synchronizovány** s obsahem:
-
-- **Critical claim** → maximum dominant configuration
-- **Weak point** → distraction gestures, modified posture
-- **Disagreement detection** → shift toward more dominant configuration
-- **Compliance achievement** → relaxation of dominance
-
-### Krok 4 — Modulace pro specifické audience
-
-Hieroglyfy jsou **modulovány** pro target audience:
-
-- **High-status audience** → mírnější dominance (deference signals strategic)
-- **Lower-status audience** → maximální dominance
-- **Skeptical audience** → calibrated approach
-
-### Krok 5 — Konsolidace skrze opakování
-
-Po opakované expozici subjekt **internalizuje** asociaci mezi specifickými konfiguracemi a **epistemickou autoritou**. Konsoliduje se **automatic deference** k dominantně-konfigurovaným zdrojům, **bez** kalibrace vůči substantivní kvalitě.
+*Interpretace knihy*: vzpřímené držení těla ani klidný pohled nejsou manipulací a nelze je z odborného styku odstranit. Rozlišujícím znakem je opět kalibrace: zda se jistota v podání mění tam, kde se mění doloženost. Kde je neměnná, nenese podání informaci o síle tvrzení, nýbrž ji nahrazuje postavením mluvčího (Hall, Coats a Smith LeBeau, 2005).
 
 ## Fenomenologické znaky
 
@@ -257,6 +213,12 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
 - **OSINT investigator training** — explicit training v detekci kinesic manipulation patterns.
 - **Color Teams [Black Team](@/glossary/black-team.md)** — explicit threat modeling pro charismatic adversarial scenarios.
 
+## Literatura
+
+- Ekman, P., & Friesen, W. V. (1969). The repertoire of nonverbal behavior: Categories, origins, usage, and coding. *Semiotica*, 1(1).
+- Hall, J. A., Coats, E. J., & Smith LeBeau, L. (2005). Nonverbal behavior and the vertical dimension of social relations: A meta-analysis. *Psychological Bulletin*, 131(6).
+- Knapp, M. L., & Hall, J. A. (2010). *Nonverbal Communication in Human Interaction* (7th ed.). Wadsworth.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -276,21 +238,23 @@ Intervence: Klinické protokoly — written treatment options requirement, manda
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

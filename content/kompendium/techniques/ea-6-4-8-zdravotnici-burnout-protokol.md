@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-4-6-domesticky-abuse-protokol", "ea-6-4-7-policejni-trauma-protokol", "ea-6-4-9-novinari-protokol", "ea-6-5-1-akutni-krize-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.8"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

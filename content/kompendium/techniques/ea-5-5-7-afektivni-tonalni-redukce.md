@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-5-pre-temporalni-rozpojeni", "ea-5-5-6-konvergentni-pre-konceptualni", "ea-5-5-8-korporealni-schema-rozklad", "ea-5-5-9-kinesteticka-deformace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.7"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"
@@ -37,21 +36,17 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Afektivně-tonální redukce** redukuje subjektovo bohaté afektivně-tonální pole — barvy, intenzity, kvality afektu — na monolitický stav definovaný manipulátorem. Subjekt přestává prožívat afektivní rozmanitost; operuje v jediném tónu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí, že afektivní výraz je ve všech situacích stejný a že reakce na různé podněty jsou homogenní. Člověk označuje vlastní citové kolísání za rušení a bez opory skupiny se jeho stav hroutí (Lindahl et al., 2017).
 
-### Krok 1 — Devalvace afektivní rozmanitosti
+Sám mluví o dosažené rovnosti, ale popisuje jedinou náladu bez odstínů a schopnost rozlišovat citové kvality se vytrácí. Lindahl et al. (2017) zaznamenali afektivní oploštění mezi obtížemi spojenými s intenzivní praxí, včetně toho, že je účastníci sami hodnotili jako pokrok.
 
-Manipulátor označuje subjektovy přirozené afektivní variace za 'rušení'.
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá patrné znehodnocení citové rozmanitosti, pak jeden stav prohlášený za jediný správný a nakonec atrofie ostatních. Lifton (1961) popsal toto nadřazení nauky osobní zkušenosti jako znak totalistického prostředí. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-### Krok 2 — Implantace 'pravého' afektivního tónu
+Od vyrovnanosti se vzorec liší tím, že chybí odstíny a že se stav bez skupiny hroutí. Herman (1992) popisuje tuto ztrátu vlastního měřítka jako jádro poškození v asymetrickém vztahu.
 
-Specifický afektivní stav (např. 'klid', 'oddanost') je prezentován jako 'jediný správný'.
-
-### Krok 3 — Konsolidace monolitického afektu
-
-Subjekt operuje v implantovaném tónu; baseline afektivní rozmanitost atrofuje.
+*Interpretace knihy*: nálezem je ztráta odstínů, ne klid.
 
 ## Fenomenologické znaky
 
@@ -128,17 +123,16 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **afektivně-toná
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.7 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.7 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **afektivně-tonální redukce** v post-hoc forensní analýze:
-
-- **Primární marker**: Hlasová analýza: pokles fundamental frequency variability (jitter <0.3%) a snížený dynamic range (<5dB) — 'plochý' prozodický profil typický pro depresivní stavy.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -184,15 +178,15 @@ Pro **objektivní detekci** aplikace techniky **afektivně-tonální redukce** v
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

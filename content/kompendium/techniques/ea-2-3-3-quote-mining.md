@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-1-clip-takeout", "ea-2-3-2-context-collapse", "ea-1-1-1-selektivni-expozice", "ea-2-3-10-viralni-misrepresentation", "motte-and-bailey", "hermeneutika"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.3"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

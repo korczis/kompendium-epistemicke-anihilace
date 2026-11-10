@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-children-protocol", "recovery-cult-extraction-protocol", "pokora", "ramce", "midterm-identity-reconstruction", "love-bombing"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++

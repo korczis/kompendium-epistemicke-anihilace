@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-6-rekurzivni-hypertransformace", "ea-5-3-7-self-narrative-replacement", "ea-5-3-9-afektivni-prepolovani", "ea-5-4-1-lhar-paradox-aplikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.8"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Mnemonická rekonfigurace cílí přímo na **mechanismy paměťové konsolidace**. Manipulátor používá opakování, sugesci a emoční intenzitu k tomu, aby implantoval falešné vzpomínky nebo přepsal existující — využívá známé fenomény paměťové rekonsolidace při retrievalu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí rozpor mezi vzpomínkou a doloženým záznamem: fotografie, dokumenty nebo výpovědi nezávislých svědků neodpovídají tomu, co si člověk vybavuje, a vlastní paměti stále méně důvěřuje. Že lze mít živou a upřímně prožívanou vzpomínku na událost, která se nestala, patří k nejlépe doloženým poznatkům výzkumu paměti (Loftus a Pickrell, 1995).
 
-### Krok 1 — Cílené retrievaly
+Retrospektivně se sled znaků jeví takto: nejprve se opakovaně vracejí tytéž epizody, pak se jejich verze při každém vyprávění mění, a nakonec je nová verze prožívána jako původní. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Autobiografická paměť je rekonstruktivní a její podoba se řídí právě platným obrazem sebe (Conway a Pleydell-Pearce, 2000).
 
-Manipulátor opakovaně vyvolává specifické vzpomínky v emocionálně intenzivním kontextu.
+Zvenčí doložitelnými markery jsou detaily, které nemohly být součástí vlastní zkušenosti, shoda vzpomínek s vyprávěním jedné osoby a nemožnost potvrzení nezávislými svědky. Spor o verzi minulosti přitom bývá rozhodován v její prospěch (Hassan, 2018).
 
-### Krok 2 — Sugestivní reframování
-
-Při retrievalu jsou implantovány nové detaily nebo interpretace ('vzpomínáš si, jak ti tehdy říkali…').
-
-### Krok 3 — Konsolidace přepsané verze
-
-Po opakovaných retrievalech subjekt prožívá implantovanou verzi jako autentickou.
+*Interpretace knihy*: chybovost paměti je normální a sama o sobě není dokladem ničeho; také klinický rozhovor nebo výslech mohou vzpomínku neúmyslně pozměnit, což je důvod k opatrnosti na obou stranách (Loftus, 1993). Váhu nese až soustavná shoda s jedním cizím vyprávěním.
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,14 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **mnemonická rekonfigurace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.8.
+
+## Literatura
+
+- Conway, M. A., & Pleydell-Pearce, C. W. (2000). The construction of autobiographical memories in the self-memory system. *Psychological Review*, 107(2).
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Loftus, E. F. (1993). The reality of repressed memories. *American Psychologist*, 48(5).
+- Loftus, E. F., & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12).
+- Ricoeur, P. (2000). *La mémoire, l'histoire, l'oubli*. Éditions du Seuil.
 
 ## Související
 
@@ -189,15 +190,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

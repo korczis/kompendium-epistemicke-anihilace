@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-30-konceptualni-entropie", "ea-5-1-4-semanticka-imploze", "ea-5-1-6-kategoricka-transgrese", "ea-5-1-7-referencni-rekurze"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.5"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -43,29 +42,15 @@ Technika exploituje pracovní paměť a sekvenční kapacity vědomí: dlouhodob
 
 Logická diskontinuita je [ultramární technikou](@/kompendium/05-ultramari-techniky/_index.md) kategorie [epistemická singularita](@/glossary/epistemicka-anihilace.md), kde je **inferenciální schopnost** sama předmětem destrukce.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v pěti krocích, typicky v dlouhodobém rámci:
+Logická diskontinuita se pozorovateli ukazuje jako myšlení, které funguje po krocích, ale nedrží pohromadě. Zasažený člověk přijme, že z prvního plyne druhé a z druhého třetí, a přesto k závěru sám nedojde, pokud ho někdo krok po kroku nevede. Krátký a citově silný výrok u něj má přednost před delší úvahou, delší argument autority umí zopakovat, ale neumí jej z předpokladů znovu postavit, a ve vlastním delším výkladu se v půli ztratí.
 
-### Krok 1 — Saturace nárazovými „insight“ zážitky
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachycena řada krátkých, silně prožitých okamžiků pochopení, z nichž každý má platit sám za sebe a nemusí nikam zapadat. Souběžně je dlouhá úvaha znehodnocována jako konstrukce nebo past rozumu, takže délka argumentu se sama stává podezřelou. Dál přibývá roztříštěnost pozornosti, krátké cykly a nedostatek spánku, které přetěžují pracovní paměť. Nakonec zůstává zvyk hodnotit argument jen místně a nesoudržnost celku už nikdo nezachytí. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Subjekt je opakovaně exponován **krátkým**, **emocionálně silným** prožitkům „pochopení“ — typicky paradoxních výroků, koánu, mystických formulací. Každý jednotlivý zážitek je prezentován jako **úplné** pochopení, které **nepotřebuje** být zařazeno do širší struktury.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: přijetí tvrzení i jeho opaku v krátkém odstupu bez vědomí rozporu, únik místo opravy při konfrontaci s rozporem a odpor k formálně logickým úlohám, často s mravním odůvodněním.
 
-### Krok 2 — Devalvace dlouhých argumentů
-
-Manipulátor systematicky **devalvuje** dlouhé inferenciální řetězce: „to je jen myšlenkový konstrukt“, „logika je past ega“, „skutečnost se nemůže dokázat“, „intelektualizace zatemňuje porozumění“. Subjekt je naveden, že **dlouhý argument je sám o sobě podezřelý**.
-
-### Krok 3 — Fragmentace pozornosti
-
-Subjekt je vystaven systematické fragmentaci kognitivního pole — rychlé tematické přechody, množství paralelních témat, krátké cykly aktivity, narušování spánku, intenzivní emocionální nárazy. Pracovní paměť je strukturálně přetížena.
-
-### Krok 4 — Trénink přijetí lokálně-validních, globálně-rozporných inferencí
-
-Manipulátor systematicky předkládá kombinace tvrzení, kde každý jednotlivý krok je validní, ale celkový závěr je s některou z premis ve sporu. Subjekt je naveden přijmout všechny kroky **a současně** akceptovat, že „rozpor je pouze zdánlivý“ / „vyšší pravda“.
-
-### Krok 5 — Generalizovaná diskontinuita
-
-Po dostatečné expozici subjekt **generalizuje** vzorec: nepokouší se již komponovat řetězce. Argumentaci vnímá **lokálně** — spokojí se s tím, že jednotlivé kroky „dávají smysl“. Ztrácí schopnost detekovat, že **celek** může být nekoherentní.
+*Interpretace knihy*: chybovat v úsudku je běžné a při vysvětlení to člověk uzná — zde je rozpor odmítán nebo převyprávěn. Od poruchy pozornosti se vzorec liší tím, že zasažený člověk proti svému deficitu nepracuje, nýbrž jej hájí; k rozlišovacím kritériím vede [jak používat kompendium](@/kompendium/01-predmluva/jak-pouzivat.md).
 
 ## Fenomenologické znaky
 
@@ -215,9 +200,9 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -228,8 +213,10 @@ Logická diskontinuita je strukturálním motivem pro několik defenzivních mec
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

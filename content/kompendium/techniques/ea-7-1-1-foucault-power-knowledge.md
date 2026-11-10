@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-2-foucault-discipline", "ea-7-1-3-adorno-instrumental-reason", "ea-2-4-falesny-konsensus", "power-knowledge", "diskursivni-formace", "panopticism"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.1"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-2-2-multi-paradigm-fluency", "ea-3-2-3-emotional-regulation-mastery", "ea-3-2-5-ethical-sophistication", "ea-3-2-6-cohort-monitoring"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.2.4"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.2 Supervizorské techniky"
@@ -39,15 +38,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 
 **Metakomunikační dovednost** je supervizorská kompetence explicitního pojmenování **procesu komunikace** ve chvíli jeho dění. Když student popisuje case a supervizor říká 'všimněte si, že se vyhýbáte konkrétnímu jménu' — to je metakomunikace. Dovednost je centrální pro detekci jemných epistemických posunů v supervizním vztahu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika je strukturována pěti až šesti sekvenčními kroky implementace:
+Metakomunikační dovednost je pozorovatelná v okamžiku, kdy se předmětem hovoru stane hovor sám: supervizor pojmenuje, co se mezi ním a supervidovaným právě děje. Watzlawick, Beavin a Jackson (1967) ukázali, že každé sdělení nese vedle obsahu i určení vztahu, a že spory bývají neřešitelné právě tehdy, když se tato druhá rovina nedá vyslovit.
 
-1. **Pattern detection** — supervizor sleduje proces (tempo, vyhýbání, opakování).
-2. **Hypothesis formation** — interní hypotéza o procesním vzorci.
-3. **Tentative naming** — explicitní pojmenování s osvobozující formulací (*„zvažte…„* spíše než *„vy…“*).
-4. **Student response holding** — supervizor drží prostor pro studentovu reakci bez tlaku.
-5. **Process integration** — výsledek metakomunikace integrován do dalšího postupu.
+Retrospektivně se v dobře vedené praxi dá rozlišit sled, v němž se znaky objevují. Nejprve je patrné, že supervizor sleduje průběh hovoru — tempo, vynechávky, opakování — vedle jeho obsahu. Pak se objevuje nabídnuté pojmenování, formulované jako hypotéza, nikoli jako zjištění. Dále následuje prostor pro odpověď, v němž je přípustné pojmenování odmítnout. Nakonec se výsledek promítne do dalšího postupu. Bateson (1972) popsal, že sdělení o sdělení patří k jiné logické rovině, a proto je lze zaměnit s hodnocením osoby. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
+
+Nepříznivý průběh se pozná podle mlčení. Ladany, Hill, Corbett a Nutt (1996) zjistili, že supervidovaní svým supervizorům běžně zamlčují podstatné části svého prožívání i svých pochybností o supervizi samé — metakomunikace vedená jako výklad o druhém toto mlčení prohlubuje.
+
+*Interpretace knihy*: rozlišujícím znakem je vyvratitelnost pojmenování. Kde smí supervidovaný říci „takhle to nebylo“ a kde to něco změní, slouží metakomunikace vztahu; kde ne, stává se z ní výklad, proti němuž není odvolání (Watzlawick, Beavin a Jackson, 1967).
 
 ## Cílová populace
 
@@ -131,6 +130,12 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
 - **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink ([EA-3.1.6](@/kompendium/techniques/ea-3-1-6-recognition-training.md)) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
 
+## Literatura
+
+- Bateson, G. (1972). *Steps to an Ecology of Mind*. Chandler.
+- Ladany, N., Hill, C. E., Corbett, M. M., & Nutt, E. A. (1996). Nature, extent, and importance of what psychotherapy trainees do not disclose to their supervisors. *Journal of Counseling Psychology*, 43(1).
+- Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). *Pragmatics of Human Communication*. W. W. Norton.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 3 — Pokročilá edukativní implementace](@/kompendium/03-zakladni-kategorie/kapitola-3.md)
@@ -152,17 +157,22 @@ Tato edukativní technika je integrovatelná s několika komponentami Prismatic 
 - **Filozofie**:
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud implementuješ instituci, máš schválení [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Zavedení takového výcviku v instituci je předmětem schválení
+  [institucionální etické rady](@/kompendium/techniques/ea-3-3-1-institutional-ethics-board.md),
+  nikoli rozhodnutí jednotlivého čtenáře
 
-> **Mandatorní akce**: bez ověření institucionální governance, supervizní infrastruktury a evaluačního rámce nepoužívej tuto techniku jako samostatnou intervenci — pouze jako součást komplexního programu.
+> **Rámec čtení**: stránka popisuje, co edukativní praxi tohoto typu charakterizuje
+> a podle čeho se pozná, že je vedena dobře; není to implementační návod. Etický rámec
+> stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

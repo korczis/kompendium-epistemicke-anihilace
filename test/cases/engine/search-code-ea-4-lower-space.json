@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": "EA-4.4.1",
-        "in": 27,
+        "in": 28,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-4-4-1-narrative-disassembly.md",
         "tier": 1,
@@ -15,7 +15,7 @@
       },
       {
         "code": "EA-4.4.10",
-        "in": 3,
+        "in": 4,
         "kind": "Technika",
         "path": "kompendium/techniques/ea-4-4-10-identity-stabilization.md",
         "tier": 4,

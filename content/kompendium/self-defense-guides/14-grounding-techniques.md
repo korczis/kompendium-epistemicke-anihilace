@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["12-trigger-recognition", "13-somatic-awareness", "15-emotional-distancing", "16-self-compassion"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

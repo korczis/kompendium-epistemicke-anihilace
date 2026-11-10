@@ -29,12 +29,9 @@ related_apps = ["prismatic_dark", "prismatic_agents", "prismatic_safety"]
 closure_model = "4-condition-mandatory"
 see_also = ["color-teams", "red-team", "blue-team", "white-team", "trinity-gate", "regression-test"]
 author = "Tomas Korcak (korczis)"
-reading_time = "10 min"
-word_count = 2000
 date_created = "2026-02-23"
 date_modified = "2026-11-10"
 keywords = ["Purple", "Team", "Central", "Red-Blue", "glossary", "security", "Prismatic Platform", "Purple Team", "Red Team", "Blue Team"]
-quality_score = 90
 image = "/images/sections/glossary.png"
 image_alt = "Purple Team (fialový tým) – glosář"
 +++

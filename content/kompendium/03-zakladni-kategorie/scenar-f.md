@@ -11,7 +11,6 @@ categories = ["academic"]
 [extra]
 related_terms = ["lebenswelt", "metakognice", "scenar-g", "scenar-h"]
 ea_codes = ["EA-3.2.F"]
-parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🌐"
 toc = true
 ea_code = "EA-3.2.F"

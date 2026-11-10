@@ -10,7 +10,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["teoreticke-zaklady", "vztah-k-decision-engine", "metodologicke-poznamky"]
-parent = "kompendium-02-uvod"
 section_icon = "∇"
 toc = true
 +++
@@ -122,7 +121,7 @@ Color Teams operují **výhradně** na syntetických datech v sandboxech — ž�
 
 Trinity Gate je 4-vrstvý verifikační mechanismus pro **akceptaci** přesvědčení formovaného pod NABLA constraints. Vrstvy:
 
-1. **Strukturní konzistence** — graf přesvědčení nemá zakázané vzory
+1. Strukturní konzistence — graf přesvědčení nemá zakázané vzory
 2. **Logická konzistence** — axiomy NABLA jsou dodrženy
 3. **Formální verifikace** — kritické vlastnosti formálně dokázány (Lean4)
 4. **Meta-integrita** — verifikace samotné je auditovatelná

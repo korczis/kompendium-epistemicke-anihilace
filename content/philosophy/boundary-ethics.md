@@ -13,8 +13,6 @@ categories = ["foundations"]
 
 # Core metadata
 author = "Tomas Korcak (korczis)"
-reading_time = "14 min"
-word_count = 3200
 difficulty = "advanced"
 icon = "shield"
 color = "emerald"
@@ -34,7 +32,6 @@ peer_reviewed = false
 # Content classification
 content_version = "1.0.0"
 last_enhanced = "2026-02-23"
-quality_score = 0
 
 # Cross-references
 related_articles = ["ghl-framework", "intellectual-sovereignty", "ceremonial-computing", "epistemic-integrity"]
@@ -456,15 +453,6 @@ zapojení a smysluplný vztah k tvůrčím dílům.
 
 Budoucnost softwaru nespočívá v odstranění všech hranic, ale v promyšleném návrhu hranic,
 které chrání význam, umožňují tvořivost a pěstují autentickou komunitu.
-
----
-
-## Kontakt a příspěvky
-
-**Autor: [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
 
 ## Související
 

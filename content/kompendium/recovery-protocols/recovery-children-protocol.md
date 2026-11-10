@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-adolescent-protocol", "ramce", "1-childhood-resilience-foundation", "child-grooming", "parental-alienation", "secure-attachment"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++
@@ -132,7 +131,7 @@ dalekosáhlé právní důsledky a vyžadují nejvyšší opatrnost.
 - Cohen, J. A., Mannarino, A. P., & Deblinger, E. (2006). *Treating Trauma and Traumatic Grief in
   Children and Adolescents*. New York: Guilford Press.
 - Lamb, M. E., Orbach, Y., Hershkowitz, I., Esplin, P. W., & Horowitz, D. (2007). A structured
-  [forensic interview](@/glossary/forensic-interview.md) protocol improves the quality and informativeness of investigative
+  forensic interview protocol improves the quality and informativeness of investigative
   interviews with children. *Child Abuse & Neglect*, 31(11–12).
 - Lieberman, A. F., & Van Horn, P. (2008). *Psychotherapy with Infants and Young Children:
   Repairing the Effects of Stress and Trauma on Early Attachment*. New York: Guilford Press.

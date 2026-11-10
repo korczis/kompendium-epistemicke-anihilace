@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-10-perspektivni-substituce", "ea-5-3-11-axiologicka-inverze", "ea-5-3-13-genealogicka-rekonstrukce", "ea-5-3-14-somaticka-rekodifikace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.12"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Relační restrukturalizace reorganizuje subjektovo vztahové pole. Manipulátor systematicky **devalvuje existující vztahy** (rodina, dlouhodobí přátelé, kolegové) a **konstruuje nové vztahy** v rámci, v němž je manipulátor centrální. Výsledkem je relační izolace s manipulátorem jako jediným plným kontaktem.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel pozná vzorec podle tvaru sociální sítě, ne podle jejího obsahu: okruh postiženého se během krátké doby stáhl na jedno prostředí a nové vazby v něm vedou přes jednu osobu. Dlouholeté vztahy se vytrácejí a postižený o nich mluví s pohrdáním; kontakt s rodinou přerušuje sám. Omezení styků s okolím a kontrola informací patří k popsaným znakům totalistického prostředí (Lifton, 1961) a k měřitelným dimenzím kontroly chování (Hassan, 2018); soudržnost skupiny, která se tímto způsobem uzavírá, popisuje (Galanter, 1999).
 
-### Krok 1 — Devalvace existujících vztahů
+Postižení popisují, že bez onoho prostředí „nemají s kým mluvit“; že odloučení od něj vyvolává paniku; a že se jim obtížně vybavuje, kdy přesně staré vazby ustaly. Závislost orientace na jediné vztahové figuře odpovídá rámci, v němž je vztahová vazba regulátorem tísně (Bowlby, 1969); etickou nenahraditelnost druhého jako nositele vztahu, a nikoli jeho zaměnitelnost, rozpracoval (Levinas, 1961).
 
-'Tvoje rodina ti nikdy nerozuměla', 'tvoji přátelé jsou v tom s tebou jenom proto, že…'.
+Zpětně se znaky skládají takto: nejprve znevažování dosavadních vztahů, pak uvedení do skupiny s jednou ústřední postavou, pak vymizení starých vazeb a nakonec stav, v němž nové vazby závisejí na téže osobě. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-### Krok 2 — Konstrukce alternativní relační sítě
-
-Manipulátor zavádí subjekt do skupiny, kde je manipulátor centrální postavou.
-
-### Krok 3 — Konsolidace nové struktury
-
-Existující vztahy se vytrácejí; nové vztahy závisí na manipulátorovi.
+*Interpretace knihy*: izolace je zde znakem, ne vedlejším důsledkem — odnímá postiženému nezávislé zdroje korekce. Trvalé podřízení v asymetrickém vztahu jako vzorec popisuje (Stark, 2007); obnovení bezpečí a nezávislých vazeb jako první krok zotavení (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,20 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **relační restrukturalizace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.12.
+
+## Literatura
+
+- Bowlby, J. (1969). *Attachment and Loss I: Attachment*. London: Hogarth Press.
+- Galanter, M. (1999). *Cults: Faith, Healing, and Coercion*. 2. vyd. New York: Oxford University Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Levinas, E. (1961). *Totalité et infini*. La Haye: Nijhoff.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- SAMHSA (2014). *TIP 57: Trauma-Informed Care in Behavioral Health Services*. Rockville: SAMHSA.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Stark, E. (2007). *Coercive Control*. New York: Oxford University Press.
+- van der Kolk, B. (2014). *The Body Keeps the Score*. New York: Viking.
 
 ## Související
 
@@ -189,15 +196,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-7-self-narrative-replacement", "ea-5-3-8-mnemonicka-rekonfigurace", "ea-5-4-1-lhar-paradox-aplikace", "ea-5-4-10-berry-paradox-implantace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.9"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Afektivní přepólování invertuje subjektovy afektivní valence. Manipulátor systematicky reframuje pozitivní afekty (radost, klid, autonomie) jako 'falešné' nebo 'patologické' a negativní afekty (strach, závislost, úzkost) jako 'znamení pravdy' nebo 'duchovního pokroku'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel vidí rozpor mezi tím, co člověk říká, a tím, jak vypadá: s rostoucí jistotou o duchovním pokroku roste strádání. Radost je doprovázena vinou, úzkost pocitem ctnosti. Rozpor mezi deklarovaným prospěchem a pozorovatelným zhoršováním je popsán u nežádoucích účinků intenzivních praxí (Lindahl et al., 2017).
 
-### Krok 1 — Devalvace pozitivního afektu
+Retrospektivně blízcí popisují sled: nejprve jsou znehodnoceny příjemné stavy jako samolibost, pak jsou nepříjemné stavy popsány jako znamení pravdy, a nakonec člověk opouští zdroje pohody. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Přejmenování, které obrací hodnocení vlastního jednání i prožívání, je popsaným prvkem morálního odpojení (Bandura, 1999).
 
-Radost, klid, spokojenost jsou označeny za 'samolibost', 'spánek', 'únik před pravdou'.
+Zvenčí je doložitelné zejména to, že člověk vyjadřuje vděčnost za bolest způsobenou konkrétní osobou a patologizuje vlastní klidné stavy. Kontrola nad tím, co se smí cítit, patří mezi popsané dimenze vztahové kontroly (Hassan, 2018).
 
-### Krok 2 — Valorizace negativního afektu
-
-Strach, úzkost, závislost jsou prezentovány jako 'autentické zkušenosti', 'duchovní práce', 'znamení růstu'.
-
-### Krok 3 — Konsolidace inverze
-
-Subjekt aktivně vyhledává negativní afektivní stavy a vyhýbá se pozitivním.
+*Interpretace knihy*: askeze, nepohodlí i záměrné vystavení se těžkému mají legitimní místo v mnoha tradicích i v terapii. Odlišuje až adresát: utrpení pochází od jedné osoby a je jí také vykládáno. Obnova vede přes bezpečí a návrat ke zdrojům pohody (Herman, 1992).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **afektivní přepólování** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.9.
+
+## Literatura
+
+- Bandura, A. (1999). Moral disengagement in the perpetration of inhumanities. *Personality and Social Psychology Review*, 3(3).
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

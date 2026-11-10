@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["29-cultural-restoration-prevention", "4-community-resilience-EA", "10-public-discourse-quality", "longterm-altruistic-channeling", "longterm-post-traumatic-growth"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

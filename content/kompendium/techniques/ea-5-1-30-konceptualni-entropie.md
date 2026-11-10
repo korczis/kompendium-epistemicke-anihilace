@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-29-ontologicka-exfoliace", "ea-5-1-3-reflexivni-paradoxie", "ea-5-1-4-semanticka-imploze", "ea-5-1-5-logicka-diskontinuita"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.30"
 ea_category = "5. Ultramari techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,44 +40,15 @@ Distinktivní rys konceptuální entropie oproti běžné konceptuální revisi 
 
 V terminálním stavu konceptuální entropie produkuje **kognitivní anihilaci** ([viz kognitivní anihilace](@/glossary/kognitivni-anihilace.md)) — subjekt ztrácí schopnost provést jakoukoli kognitivní operaci, která vyžaduje rozlišování (klasifikace, dedukce, kategorické soudy).
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v šesti fázích, které lze provádět paralelně.
+Konceptuální entropie se pozorovateli ukazuje jako mizení hranic mezi pojmy, které si zasažený člověk dřív pohodlně držel od sebe. Na otázku, jaký je rozdíl mezi dvěma blízkými pojmy, nedokáže odpovědět nic nosného; vlastní citový stav popisuje méně přesně než dřív, mluví v obratech typu „jakoby“ a „v jistém smyslu“ a mlhavé vyjádření mu začíná připadat hodnotnější než přesné. Okolí zaznamenává, že přestává své pozice hájit, protože je to prý vždycky složitější.
 
-### Fáze 1 — Mapování konceptuální sítě
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve se pojmy začnou objevovat mimo své obvyklé hranice, takže rozlišovací schopnost v dané oblasti slábne. Pak se rozkolísají i vztahy mezi nimi: v jednom rozhovoru je jeden pojem druhu druhého, jindy jeho opakem, jindy jeho částí, a rozpor přitom nikdo nezaznamená. Dál splývají jemné a prakticky důležité dvojice — strach a úzkost, pozornost a ulpívání, reflexe a přemítání, vcítění a splynutí. Nakonec zůstává jazyk, v němž nelze přesně mluvit o vlastním prožitku, a rozhodování se přesouvá na pocit. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Operátor identifikuje **klíčové distinkce** v subjektově konceptuálním aparátu: které páry konceptů subjekt aktivně odlišuje? Které taxonomické hierarchie používá? Které kategorické soudy provádí?
+Detekční markery zachycené na této stránce odpovídají téže struktuře: týž termín v kontextech, které se vylučují, měnící se zařazení mezi rozhovory bez vědomí rozporu, nadužívaná vágnost a popisy typu „strach a úzkost zároveň“.
 
-### Fáze 2 — Sémantická transgrese
-
-Systematické používání konceptů **mimo jejich tradiční hranice**. Příklady:
-
-- *Svoboda* aplikováno na situace dříve označované jako *povinnost*
-- *Násilí* rozšířeno tak, že zahrnuje libovolnou nesouhlasnou interakci
-- *Pravda* používáno synonymně s *upřímnost*
-
-Po dostatečném opakování se subjektova **diskriminační schopnost** v daných doménách oslabuje.
-
-### Fáze 3 — Randomizace taxonomických vztahů
-
-Operátor podává **protichůdné taxonomické úsudky** v různých kontextech: jednou je X *druhem* Y, jindy je X *protikladem* Y, jindy zase *součástí* Y. Subjekt postupně ztrácí stabilní taxonomickou orientaci.
-
-### Fáze 4 — Rozmazání sousedních konceptů
-
-Cílené prolnutí **jemných distinkcí**, které jsou pro subjektovo fungování klíčové:
-
-- *Strach* a *úzkost* začínají splývat
-- *Pozornost* a *fixace* nelze rozlišit
-- *Reflexe* a *ruminace* se zaměňují
-- *Empatie* a *splynutí* se prezentují jako totéž
-
-### Fáze 5 — Sebepokyvující jazyk
-
-Operátor zavádí **vlastní lingvistický rejstřík**, v němž jsou jednotlivé termíny záměrně mlhavé. Tento rejstřík se stává *interním* slovníkem subjektu, který v něm operuje, aniž by si všiml, že **nelze přesně mluvit** o tom, co prožívá.
-
-### Fáze 6 — Sebeudržující entropie
-
-V terminálním stavu subjekt **sám aktivně reprodukuje** konceptuální blato. Každý nový pokus o klasifikaci selhává, protože *žádný koncept není dostatečně distinktní*. Subjekt přechází k *afektivnímu* fungování — operuje na základě pocitů, protože konceptuálně už nedokáže.
+*Interpretace knihy*: složitost pojmu znakem vzorce není. Skutečná složitost si rozlišení drží a jen si uvědomuje jeho závislost na kontextu; zde rozlišení mizí, aniž by si toho byl kdo vědom. Proč kompendium popisuje tuto hranici jako strukturu, vykládají [metodologické poznámky](@/kompendium/02-uvod/metodologicke-poznamky.md).
 
 ## Fenomenologické znaky
 
@@ -225,9 +195,9 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního �
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -238,8 +208,10 @@ Vrcholový tým velké organizace po dlouhodobém používání korporátního �
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["ontologicka-anihilace", "epistemicka-anihilace", "kognitivni-anihilace", "identity-destruction", "depersonalizace", "konsenzualni-realita"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "ontologicka-anihilace"
 toc = false
 +++

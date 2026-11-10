@@ -11,7 +11,6 @@ categories = ["academic"]
 section_icon = "📖"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium"
 +++
 
 # 01. Předmluva
@@ -71,11 +70,3 @@ Na předmluvu přirozeně navazuje [02. Úvod do epistemické anihilace](@/kompe
 - [Dual use](@/kompendium/08-prilohy/dual-use.md) – riziko zneužití a jeho řízení.
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md) – filozofické zázemí integrity poznání.
 - [Filozofie: Boundary Ethics](@/philosophy/boundary-ethics.md) – etika hranic v práci s citlivým materiálem.
-
----
-
-## Kontakt a příspěvky
-
-**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
-
-- [Glosář](@/glossary/_index.md) | [Filozofie](@/philosophy/_index.md) | [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/)

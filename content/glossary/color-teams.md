@@ -26,7 +26,6 @@ documentation_quality = "academic"
 last_updated = "2026-11-10"
 version = "2.0.0"
 author = "Tomas Korcak (korczis)"
-quality_score = 90
 +++
 
 ## Definice a přehled

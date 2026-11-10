@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-4-1-prosodicka-dominance", "ea-1-4-2-latent-emotional-modulation", "ea-1-5-1-emocni-podbarveni", "ea-1-5-1-strategicka-proxemika"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.4.2"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.4 Paralingvistické manipulativní techniky"
@@ -42,46 +41,15 @@ Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivn
 
 Klíčová charakteristika: **latentní** — emocionální indukce operuje **pod prahem** vědomé detekce. Subjekt prožívá emocionální stav jako „**přirozenou reakci**“ na obsah, **bez** vědomí, že byl strategicky indukován.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování emocionálního baseline
+Latentní emocionální modulace se pozná podle nesouměrnosti citové odezvy na tvrzení, která jsou věcně srovnatelná. Souhlas přináší úlevu, pochybnost nepohodu — a zasažený člověk tento rozdíl přičítá povaze tématu, nikoli situaci, v níž se o něm mluví. Forgas (1995) shrnuje evidenci, že nálada mění zpracování soudu tím víc, čím složitější a méně strukturovaná úloha je, a že si toho posuzující není vědom.
 
-Manipulátor etabluje **emocionálně neutrální** baseline — komfortní, příjemnou atmosféru. Tento baseline je **strategicky důležitý**:
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve bývá zachytitelné nápadně příjemné a bezpečné naladění, vůči němuž pozdější nepohoda vytváří kontrast. Pak se objevuje citový stav vázaný na konkrétní body — obava, vina, stud nebo ohrožení kompetence — aniž by kdy zazněla výzva, aby se tak člověk cítil. Dále se ustaluje spojení mezi tímto stavem a určitým stanoviskem, takže souhlas začne fungovat jako úleva. Nakonec zasažený člověk prožívá cizí kritiku bráněné pozice jako ohrožení vlastní. Hatfield, Cacioppo a Rapson (1994) popisují přenos citových stavů v přímém styku jako do značné míry bezděčný; to vysvětluje, proč bývá takový postup účinný i bez úmyslu. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- Snižuje subjektovu vigilanci
-- Vytváří **kontrast** pro pozdější modulaci
-- Buduje „**důvěru**“, která činí subjekta vulnerabilním
+Detekční markery zachycené níže odpovídají téže struktuře: nepohoda, kterou člověk neumí pojmenovat ani odvodit od obsahu, vyhýbání se celým okruhům otázek a pocit jasnosti dostupný jen v přítomnosti jedné osoby. Gross (1998) připomíná, že citové stavy lze upravit v mnoha bodech, a nejúčinnější zásahy nastávají dřív, než si člověk stav vůbec pojmenuje — proto je dostupnější znakem než příčinou.
 
-### Krok 2 — Strategická indukce emocionálního stavu
-
-V klíčových bodech manipulátor **subtilně** indukuje emocionální stav:
-
-- **Anxiety**: rychlé tempo, urgent tone, časový tlak, hyperbolické prezentace důsledků
-- **Vina**: framing subjektovo „selhání“ jako morální failure
-- **Stud**: implicitní porovnání s „**správnými**“ jedinci
-- **Frustrace**: introdukce neřešitelných paradoxů, pak nabídka manipulátorovho řešení
-- **Strach**: catastrophic framing potential outcomes
-- **Identity threat**: zpochybnění subjektovy kompetence, integrity, hodnoty
-
-Indukce je **subtilní** — bez explicit prohlášení „**měli byste cítit X**“. Místo toho **strukturální** generování emocionálního kontextu, který produkuje X.
-
-### Krok 3 — Asociace emocionálního stavu se specifickou propozicí
-
-Indukovaný emocionální stav je **asociován** se specifickou propozicí:
-
-- **Akceptance** propozice → emocionální relief
-- **Resistance** propozice → emocionální distres prolongation
-- **Doubt** o propozici → identity threat
-
-Subjekt postupně internalizuje **emocionální cost-benefit**: souhlasit = relief, nesouhlasit = distress.
-
-### Krok 4 — Iterace s konsolidací
-
-Cyklus se opakuje s **různými** propozicemi. Každá je etablována stejným emocionálním mechanismem. Postupně subjekt **automaticky** akceptuje propozice z manipulátora — nikoli z **rationale** evaluation, ale z **emocionálního konditioning**.
-
-### Krok 5 — Internalizace emocionální associace
-
-Konečné stadium: subjekt **prožívá emocionální response** k cizí kritice manipulátorovy pozice **jako vlastní**. Nesouhlas s manipulátorem = vlastní guilt, fear, identity threat. Tento emocionální mechanismus **strukturálně** chrání teorii proti revizi.
+*Interpretace knihy*: citová účast poznání nepoškozuje; náročná látka se dotýká a má se dotýkat. Rozlišujícím znakem je, zda je citový stav popsatelný a zda smí být vysloven. Kde nepohodu nelze pojmenovat, nelze ji ani vážit — a tím přestává být údajem a stává se nástrojem (Gross, 1998).
 
 ## Fenomenologické znaky
 
@@ -236,6 +204,12 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 - **[Color Teams](@/glossary/color-teams.md) [Black Team](@/glossary/black-team.md) protocols** — explicit threat modeling pro emocionální adversarial scenarios.
 - **OSINT investigator wellness protocols** — strukturální obrana proti vicarious emocionální manipulaci dlouhodobou exposure k manipulativním materiálům.
 
+## Literatura
+
+- Forgas, J. P. (1995). Mood and judgment: The affect infusion model (AIM). *Psychological Bulletin*, 117(1).
+- Gross, J. J. (1998). The emerging field of emotion regulation: An integrative review. *Review of General Psychology*, 2(3).
+- Hatfield, E., Cacioppo, J. T., & Rapson, R. L. (1994). *Emotional Contagion*. Cambridge University Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -249,21 +223,23 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
   - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

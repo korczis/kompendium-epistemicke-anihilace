@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["bite-model", "undue-influence", "milieu-control", "thought-stopping", "high-control-group", "taxonomie-ea"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "bite-model"
 toc = false
 +++
@@ -177,7 +176,7 @@ Zda model v takovém prostředí měří totéž, není jisté.
 ## Literatura
 
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 
 ## Související

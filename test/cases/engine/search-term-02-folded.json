@@ -5,7 +5,7 @@
     "hits": [
       {
         "code": null,
-        "in": 397,
+        "in": 390,
         "kind": "Pojem",
         "path": "glossary/nabla-infinity.md",
         "tier": 2,
@@ -45,7 +45,7 @@
       },
       {
         "code": null,
-        "in": 4,
+        "in": 3,
         "kind": "Kapitola",
         "path": "kompendium/section-bridges/bridge-platform-nabla-to-kompendium.md",
         "tier": 5,
@@ -65,22 +65,22 @@
       },
       {
         "code": null,
-        "in": 38,
-        "kind": "Kapitola",
-        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
-        "tier": 6,
-        "title": "7.6 Computational epistemology a NABLA",
-        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
-        "why": "description"
-      },
-      {
-        "code": null,
         "in": 35,
         "kind": "Kapitola",
         "path": "kompendium/01-predmluva/vztah-k-platforme.md",
         "tier": 6,
         "title": "1.6 Vztah ke Prismatic Platformě",
         "url": "/kompendium/01-predmluva/vztah-k-platforme/",
+        "why": "description"
+      },
+      {
+        "code": null,
+        "in": 22,
+        "kind": "Kapitola",
+        "path": "kompendium/07-teoreticke-reflexe/computational-epistemology.md",
+        "tier": 6,
+        "title": "7.6 Computational epistemology a NABLA",
+        "url": "/kompendium/07-teoreticke-reflexe/computational-epistemology/",
         "why": "description"
       }
     ],

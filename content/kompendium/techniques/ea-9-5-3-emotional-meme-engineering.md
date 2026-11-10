@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-5-7-narrative-meme-fusion", "ea-9-5-4-meme-network-amplification", "ea-9-3-2-engagement-optimization-EA", "ea-1-5-1-emocni-podbarveni"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.5.3"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.5 Memetická válka"

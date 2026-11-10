@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-3-1-foundational-readings", "ea-8-3-5-historical-cases", "ea-8-3-6-contemporary-cases", "ea-8-2-1-bite-framework", "ea-8-2-3-singer-six-conditions", "ea-8-1-2-cult-leaving-questionnaire"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.3.9"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.3 Bibliografie"

@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -191,7 +190,7 @@ právního kritéria zatím nikdo nenavrhl.
 - Asch, S. E. (1956). Studies of independence and conformity: A minority of one against a unanimous majority. *Psychological Monographs*.
 - Berger, P. L., a Luckmann, T. (1966). *The Social Construction of Reality: A Treatise in the Sociology of Knowledge*. Doubleday.
 - Douglas, K. M., Sutton, R. M., a Cichocka, A. (2017). The psychology of conspiracy theories. *Current Directions in Psychological Science*.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Latané, B., a Darley, J. M. (1970). *The Unresponsive Bystander: Why Doesn't He Help?* Appleton-Century-Crofts.

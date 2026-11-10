@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-3-9-cult-studies-literature", "ea-8-3-2-clinical-handbook", "ea-8-3-4-empirical-research-base", "ea-8-3-10-information-warfare-literature", "ea-8-2-2-lifton-thought-reform-criteria", "ea-8-3-3-philosophical-canon"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.3.1"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.3 Bibliografie"

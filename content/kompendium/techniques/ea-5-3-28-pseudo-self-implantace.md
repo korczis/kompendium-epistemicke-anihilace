@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-3-27-autobiografi-self-fragmentace", "ea-5-3-27-ego-skeletalni-redukce", "ea-5-3-29-simulakralni-self-substituce", "ea-5-3-3-rolova-fragmentace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.3.28"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.3 Hypertransformativní protokoly"
@@ -37,21 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 Pseudo-self implantace **implantuje** kompletní self-strukturu, která se subjektivně vydává za autentické self. Subjekt prožívá manipulátorův implantát jako 'sebe'; baseline self je marginalizováno jako 'falešná maska'.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel slyší sebepopis, který se strukturálně shoduje s naukou jedné skupiny nebo osoby, zatímco dřívější projevy jsou odmítány jako maska. Člověk sám přitom necítí nic cizího. Shoda sebepopisu s naukou prostředí je popsaným znakem totalitního prostředí (Lifton, 1961).
 
-### Krok 1 — Identifikace baseline self-rysů
+Retrospektivně blízcí popisují sled: nejprve jsou pojmenovány dosavadní rysy, pak je nabídnuta „lepší“ verze jako plný potenciál, a nakonec jsou původní projevy aktivně potlačovány. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Dlouholetí svědci bývají v tomto bodě spolehlivějším zdrojem než sebepopis (Herman, 1992).
 
-Manipulátor mapuje subjektovy autentické rysy.
+Zvenčí doložitelnými markery jsou výpovědi dlouholetých svědků, že jde o jiného člověka, a to, že sebecharakteristiky nelze formulovat mimo doktrinální slovník. Kontrola nad myšlením a jazykem patří mezi popsané měřitelné dimenze (Hassan, 2018).
 
-### Krok 2 — Implantace 'lepší' verze
-
-Manipulátor poskytuje strukturovanou pseudo-self jako 'plný potenciál'.
-
-### Krok 3 — Konsolidace pseudo-self
-
-Subjekt prožívá implantát jako sebe; baseline self je devalvováno.
+*Interpretace knihy*: osobní proměna, obrácení i terapeutická změna jsou skutečné a nejsou znakem ničeho. Odlišuje až to, komu nová podoba prospívá a zda ji lze opustit. Zúžení volby na jedinou přijatelnou podobu sebe je popsaným rysem vysoce kontrolujících skupin (Lalich, 2004).
 
 ## Fenomenologické znaky
 
@@ -103,6 +96,13 @@ Co může vidět vnější pozorovatel:
 ## Vztah k Prismatic platformě
 
 Technika **pseudo-self implantace** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.3.28.
+
+## Literatura
+
+- Hassan, S. (2018). *Combating Cult Mind Control*. Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 
 ## Související
 
@@ -189,15 +189,15 @@ Intervence u subjektů s touto technikou v anamnéze vyžaduje trauma-informed f
 - [NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této stránky
+- Pokud popsané znaky rozpoznáváš u sebe, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného čtenáře, nikoli nástroj. Etický rámec stanoví [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

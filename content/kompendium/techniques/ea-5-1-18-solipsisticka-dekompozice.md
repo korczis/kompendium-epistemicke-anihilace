@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-16-inferencni-paralyza", "ea-5-1-17-tautologicka-imploze", "ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-1-2-konceptualni-nihilace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.18"
 ea_category = "5. Ultramarinní techniky"
 ea_subcategory = "5.1 Epistemická singularita"
@@ -41,37 +40,15 @@ Termín „dekompozice“ (oproti pouhé „izolaci“) podtrhuje, že technika 
 
 Tato technika je **terminálním** stupněm v epistemické singularitě: zatímco [EA-5.1.16 inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) zastavuje pohyb a [EA-5.1.17 tautologická imploze](@/kompendium/techniques/ea-5-1-17-tautologicka-imploze.md) vyprazdňuje obsah, **solipsistická dekompozice** odřezává subjekta od světa, vůči kterému by mohl něco vyvozovat nebo o čem by mohl něco vědět.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje v sedmi krocích:
+Solipsistická dekompozice se pozorovateli ukazuje jako postupné mizení vnějších referentů z řeči i z jednání. Zasažený člověk mluví o světě jako o konstrukci nebo diskurzu, o druhých lidech jako o postavách a o vlastních vzpomínkách jako o výrobcích mysli; prožívá to jako filozofickou hloubku a konečně samostatné myšlení. Okolí přitom popisuje emoční plochost, derealizaci, ubývající kontakty a jednání, které přestává odpovídat na zpětnou vazbu z prostředí.
 
-### Krok 1 — Skeptická hygiena jako trojský kůň
+Retrospektivně se v anamnéze dá rozlišit sled, v němž vazby na vnější svět ustupují. Nejprve bývá zachyceno trvalé setrvání u klasických skeptických figur — klamající démon, mozek v nádobě, simulační hypotéza — bez návratu k běžnému provozu. Pak se postupně rozpouští důvěra ve vjem, ve svědectví druhých, ve vlastní paměť, v institucionální a vědeckou evidenci a nakonec v kauzální souvislost mezi vlastním jednáním a jeho následkem. Konečný stav je prožíván jako klid, protože zraňovat už nemá kdo. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor zavádí **klasický epistemologický [skepticismus](@/glossary/skepticismus.md)**: Descartův démon, mozek v kádi, simulační hypotéza. Tyto argumenty mají v omezeném použití legitimní filozofickou roli. Jako **trvalý postoj** se stávají destruktivní.
+Detekční markery zachycené na této stránce odpovídají téže struktuře: odmítnutí vědeckého konsensu jako pouhé společenské dohody, vyjádřená nejistota o existenci vědomí druhých, odmítání konzultace s odborníky a popis vlastních myšlenek jako jediného reálného. V pokročilých stadiích se k nim připojuje klinický obraz derealizace a depersonalizace.
 
-### Krok 2 — Dekompozice percepce
-
-Manipulátor systematicky redukuje percepci na **subjektivní konstrukci**: „Vše, co vnímáš, je tvůj mozek, ne svět.“ Subjekt přijímá, že **percept** ≠ **objekt**, a začíná zacházet s každým vjemem jako s **interpretací** spíše než **kontaktem** se světem.
-
-### Krok 3 — Dekompozice svědectví
-
-Druhých lidí: „Nemůžeš si být jist, že druzí mají vědomí jako ty. Jejich slova jsou pouze tvé interpretace zvuků.“ Subjekt postupně přestává přijímat **svědectví** jako epistemický zdroj. Druhý člověk přestává být **zdrojem** poznání a stává se **objektem** konstruovaným v subjektově mysli.
-
-### Krok 4 — Dekompozice paměti
-
-„Paměť je rekonstruována, nikoli reprodukována. Proč věřit svým vzpomínkám?“ Subjekt přijímá, že paměť je **nedůvěryhodná**, a začíná zacházet s vlastní minulostí jako s **konstrukcí**. Spojení s historickými událostmi se rozpouští.
-
-### Krok 5 — Dekompozice institucionální evidence
-
-Vědecký konsensus, právní rozhodnutí, historický záznam jsou prezentovány jako **diskurzivní konstrukce**, **mocenské dispozitivy**, **narativní výrobky**. Subjekt ztrácí epistemickou důvěru v **kolektivní** zdroje poznání. Vše je „pouze interpretace“.
-
-### Krok 6 — Dekompozice kauzální struktury
-
-„Kauzalita není přirozená. Je to způsob, jakým mysl organizuje data.“ Subjekt přijímá, že kauzální vztahy jsou **subjektivní organizační princip**. Spojení mezi jeho akcí a důsledkem se rozpouští — proč by jeho akce měla mít důsledek ve „světě“, který je sám konstrukcí?
-
-### Krok 7 — Konsolidace v solipsistickém klidu
-
-Konečný stav: subjekt **prožívá** pouze své vlastní myšlenky jako reálné. Cítí **klid** z této pozice — nikdo ho nemůže zranit, protože nikdo „skutečně“ neexistuje. Zároveň ztrácí **schopnost jednat** smysluplně, protože jednání předpokládá svět, na který se jedná.
+*Interpretace knihy*: držet solipsismus jako akademickou pozici a žít v něm jsou dvě různé věci, a právě rozdíl mezi nimi je to, co se dá pozorovat. Diferenciální detekce na této stránce odlišuje vzorec od schizoidního stažení i od derealizační poruchy bez indoktrinace; proč kompendium tyto hranice popisuje a nepřekračuje, vykládají [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md).
 
 ## Fenomenologické znaky
 
@@ -238,9 +215,9 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
 - Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
@@ -251,8 +228,10 @@ Solipsistická dekompozice je strukturálním motivem pro nejvyšší obrannou l
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
   a konzultuj výsledek se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-16-kantovska-paradoxie", "ea-5-2-17-husserlovska-redukce-perverze", "ea-5-2-19-merleau-pontyovska-deformace", "ea-5-2-2-transcendentalni-iluze"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.18"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -46,27 +45,17 @@ Heideggerova analýza pobytu v *Bytí a čase* identifikuje existenciály jako *
 
 Subjekt v terminálním stadiu prožívá pseudo-autentický stav, kde existenciální struktury jsou narušeny, ale narušení je reframované jako „filozofické osvícení“. Ve skutečnosti jde o existenciální paralýzu maskovanou heideggerovským slovníkem.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Pseudo-heideggerovská indoktrinace
+Jméno v katalogovém označení pojmenovává slovník, který si vzorec přivlastňuje, nikoli pozici, kterou by Heidegger zastával: v *Bytí a čase* je bytí k smrti strukturou, která pobyt otevírá jeho vlastním možnostem, a „das Man“ je popisem každodenního bytí s druhými, nikoli výzvou k odchodu od nich — spolubytí je existenciál, ne nedostatek (Heidegger, 1927).
 
-Subjekt je uveden do heideggerovské terminologie s **chybějícím autentickým existenciálním nakletím**. *Eigentlichkeit* je redukována na „spirituální stav“.
+Pozorovatel vidí člověka, jehož izolace má filozofické odůvodnění: odchod od rodiny a kolegů se vykládá jako překonání neosobnosti, chronická úzkost jako autenticita a stížnost na podmínky vlastního života jako hloubka. Okolí zpravidla hlásí, že argumentům nelze odporovat, aniž by odpor byl sám označen za nepravost; tento uzavřený rejstřík odpovídá popisu totalistického prostředí u (Lifton, 1961) a mechanismům, které u vysoce kontrolujících skupin shrnuje (Singer, 1995).
 
-### Krok 2 — Manipulace se Sein-zum-Tode
+Postižení popisují trvalou tíseň kolem konečnosti, která nikdy nepřechází v přijetí, ztrátu zájmu o běžné závazky a současně hořkost vůči okolnostem, do nichž se narodili. Nálada zde není obsahem myšlenky, ale způsobem, jak se ukazuje celý svět — tuto rovinu existenciálního cítění rozpracoval (Ratcliffe, 2008).
 
-Bytí k smrti je systematicky exploitováno: subjekt je veden k chronickému soustředění na konečnost způsobem, jenž **nepřináší autentické přijetí**, ale **úzkostnou paralýzu**.
+Zpětně se znaky skládají takto: nejprve osvojení slovníku, pak stahování se z běžných vztahů s filozofickým odůvodněním, pak chronická úzkost a nakonec její výklad jako dosažené pravosti. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Sled je rekonstrukcí z pozdějších zpráv postižených a jejich okolí; na omylnost takové zpětné rekonstrukce upozorňují (Loftus & Pickrell, 1995).
 
-### Krok 3 — Destrukce Lebensweltové orientace
-
-Heideggerovský **Mitwelt** (spolusvět s druhými) je systematicky podlamován pod záminkou *„Das Man je nepravost“*. Subjekt se izoluje od běžného fungování s druhými.
-
-### Krok 4 — Pervertovaná Geworfenheit
-
-Vrženost do situace je interpretována jako „uvěznění“, což generuje resentiment místo autentického přijetí. Subjekt prožívá život jako „vězení“, nikoli jako podmínku existování.
-
-### Krok 5 — Konsolidace pseudo-autenticity
-
-Stav existenciální paralýzy je interpretován jako *Eigentlichkeit*. Identitární investice činí návrat k integrovanému existování psychologicky obtížným.
+*Interpretace knihy*: existenciální práce, která vede k přijetí konečnosti, otevírá člověka druhým (Yalom, 1980; Frankl, 1946); zde se otevření nekoná a uzavření se vydává za výsledek.
 
 ## Fenomenologické znaky
 
@@ -81,11 +70,11 @@ Stav existenciální paralýzy je interpretován jako *Eigentlichkeit*. Identit�
 
 | Marker | Indikuje |
 |--------|----------|
-| Subjekt používá **heideggerovský slovník** s pseudo-mystickou intonací | Krok 1 indoktrinace |
-| **Chronická úzkost** racionalizovaná jako "autenticita" | Krok 2 manipulace |
-| **Sociální izolace** s heideggerovským zdůvodněním | Krok 3 destrukce |
-| **Resentiment vůči existenci** | Krok 4 perverze |
-| **Pseudo-Eigentlichkeit** bez praktické integrace | Krok 5 konsolidace |
+| Subjekt používá **heideggerovský slovník** s pseudo-mystickou intonací | Fáze — indoktrinace |
+| **Chronická úzkost** racionalizovaná jako "autenticita" | Fáze — manipulace |
+| **Sociální izolace** s heideggerovským zdůvodněním | Fáze — destrukce |
+| **Resentiment vůči existenci** | Fáze — perverze |
+| **Pseudo-Eigentlichkeit** bez praktické integrace | Fáze — konsolidace |
 
 ## Diferenciální detekce
 
@@ -143,21 +132,33 @@ Klíčový diferenciál: **autentický Heidegger vede k otevřenosti druhým**; 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) Mitwelt axiom** — epistemická provenience pracuje s druhými, nikoli izolovaně.
 - **OSINT komunitní validace** — cross-source vetting kompenzuje izolaci.
 
+## Literatura
+
+- Frankl, V. E. (1946). *…trotzdem Ja zum Leben sagen*. Wien: Verlag für Jugend und Volk.
+- Heidegger, M. (1927). *Sein und Zeit*. Halle: Niemeyer.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Loftus, E. F. & Pickrell, J. E. (1995). The formation of false memories. *Psychiatric Annals*, 25(12), 720–725.
+- Ratcliffe, M. (2008). *Feelings of Being*. Oxford: Oxford University Press.
+- Sass, L. A. (1992). *Madness and Modernism*. Cambridge, MA: Harvard University Press.
+- Singer, M. T. (1995). *Cults in Our Midst*. San Francisco: Jossey-Bass.
+- Yalom, I. D. (1980). *Existential Psychotherapy*. New York: Basic Books.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
-- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intencionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
+- **Glossary**: [Epoché](@/glossary/epoche.md), [Intencionalita](@/glossary/intentionalita.md), [Fenomenologie](@/glossary/fenomenologie.md), [Lebenswelt](@/glossary/lebenswelt.md), [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví (L4).
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md).
-- Pokud diagnostikuješ na sobě, konzultuj se supervizí.
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L4 — kosmická, výhradně doktrinální analýza).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

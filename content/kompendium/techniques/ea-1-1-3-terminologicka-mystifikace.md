@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-1-2", "ea-1-1-2-informacni-pretizeni", "ea-1-2-1-argumentacni-oslabeni", "ea-1-2-1-falesne-dilema"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.1.3"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.1 Narušení procesů akvizice poznání"
@@ -44,49 +43,15 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčová asymetrie: **legitimní technická terminologie** zvyšuje preciznost; **mystifikační terminologie** ji **snižuje** — ale skrývá tuto sníženou preciznost za zdáním sofistikace.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Etablování expertní fasády
+Terminologická mystifikace se pozná podle nepoměru mezi složitostí jazyka a složitostí toho, co se jím říká. Parafráze je u ní diagnostická: převedení do běžných slov neubere přesnost, nýbrž odhalí, že sdělení bylo triviální nebo prázdné. Orwell (1946) popsal týž tvar v politickém jazyce jako řeč, která má zabránit tomu, aby bylo vidět, co se tvrdí.
 
-Manipulátor prezentuje doménu jako **technicky náročnou**, vyžadující **specifický slovník**, který „**nelze jednoduše parafrázovat**“. Klíčové formulace:
+Retrospektivně se dá rozlišit, v jakém pořadí znaky vystupují. Nejprve je zachytitelné tvrzení, že doménu nelze říci jinak — někdy pravdivé, u mystifikace vztažené k termínům, které ekvivalent mají. Pak se objevuje nestabilita významu: tentýž termín nese v různých kontextech mírně jiný obsah a jeho definice se uzavírají do kruhu. Následuje přesun přičítání: kdo nerozumí, hledá chybu u sebe, nikoli u mluvčího. Nakonec člověk začne slovník sám používat, aniž by za ním měl pojem — tím se vzorec přenáší z jednotlivce na komunitu. Sokal a Bricmont (1998) tento poslední krok dokládají na recepci textů, jejichž nesrozumitelnost byla čtena jako hloubka. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-- „To je technicky komplexní, vyžaduje to přesné termíny.“
-- „Pokud bych to formuloval jednodušeji, ztratila by se podstata.“
-- „Tento termín nemá ekvivalent v běžném jazyce.“
+Detekční markery zachycené níže odpovídají téže struktuře: neschopnost definovat termín vlastními slovy, odpor vůči parafrázi, cyklické definice a absence ekvivalentu mimo úzkou skupinu. Oppenheimer (2006) ukázal experimentálně opačnou stranu téhož jevu — zbytečně učené vyjadřování snižuje, nikoli zvyšuje, hodnocení kompetence autora, jakmile čtenář text skutečně rozebere.
 
-Někdy jsou tato tvrzení **pravdivá** (řada legitimních technických termínů skutečně nemá běžné ekvivalenty). Mystifikace nastává, když jsou aplikována na termíny, **které je mají**.
-
-### Krok 2 — Zatemnění
-
-Komplexní fakta jsou **zformulována** zbytečně komplexně:
-
-- *„X je více obecný než Y“* → *„X manifestuje superordinátní pozici v ontologické hierarchii vůči Y“*
-- *„To není dobrý test“* → *„Inferenční validita této metodologické intervence nesplňuje epistemicky robustní kritéria pro kausální atribuci“*
-- *„Zákazník to nekupuje“* → *„Konverzní funnel demonstruje suboptimální alokaci prospekčních zdrojů na poslední fázi nákupního cyklu“*
-
-Klíčová charakteristika — **strukturální asymetrie**: prosté tvrzení v komplexním jazyce, **ne** komplexní obsah v komplexním jazyce.
-
-### Krok 3 — Indukce epistemické nedostatečnosti
-
-Subjekt, který nerozumí, je **strukturálně směrován k self-attribution**:
-
-- „Asi nemám dostatečný background“
-- „Měl bych si nastudovat víc literatury“
-- „Toto pole je opravdu komplexní“
-
-Atribuce **nikdy** nesměřuje k legitimnímu **„manipulátor je nepřesný / neprecizní“**.
-
-### Krok 4 — Inhibice požadavku na vyjasnění
-
-Žádost o definice / parafráze / příklady je **strukturálně inhibována**:
-
-- **Sociální cena**: vypadat jako „ne-expert“
-- **Status threat**: ve formálních kontextech (peer review, doktorské obhajoby) request o vyjasnění může být kódován jako „naivní“
-- **[Reframing](@/kompendium/nlp-vzorce/reframing/reframing.md)**: „Pokud chcete, můžeme se k základům vrátit, ale to nás zbytečně zdrží“ → request demaskován jako neefektivnost
-
-### Krok 5 — Internalizace
-
-Nejvíce destruktivní stadium. Subjekt **přejímá** mystifikační terminologii do **vlastního myšlení a komunikace**. Začne **sám** používat termíny, které **plně nechápe**, ale které **signalizují** příslušnost k expertní komunitě. V tomto bodě se mystifikace stává **strukturální** — není už záležitostí jednoho aktéra, ale **internalizovanou patologií** komunity.
+*Interpretace knihy*: hranice nevede mezi odborným a běžným jazykem, nýbrž mezi jazykem, který je ochoten být vysvětlen, a jazykem, který se vysvětlení brání. Lifton (1961) popsal krajní podobu tohoto uzavření jako jazyk, v němž hotové formule nahrazují myšlení; mystifikace v odborném prostředí je její mírnější, institucionálně respektovaná varianta.
 
 ## Fenomenologické znaky
 
@@ -229,6 +194,13 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
 - **API documentation standards** — Prismatic API standardy vyžadují **plain-language descriptions** pro všechny endpointy, **doplňované** technicky preciznímmi specifikacemi.
 - **OSINT report templates** — templáty obsahují **explicit glossary** sekci pro non-expert konzumenty.
 
+## Literatura
+
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Oppenheimer, D. M. (2006). Consequences of erudite vernacular utilized irrespective of necessity: Problems with using long words needlessly. *Applied Cognitive Psychology*, 20(2).
+- Orwell, G. (1946). Politics and the English Language. *Horizon*, 13(76).
+- Sokal, A., & Bricmont, J. (1998). *Fashionable Nonsense: Postmodern Intellectuals' Abuse of Science*. Picador.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 1 — Akademické techniky](@/kompendium/03-zakladni-kategorie/kapitola-1.md)
@@ -242,21 +214,23 @@ Intervence: Část tradice provedla autocritique a sebepředefinovala. Druhá č
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku
   (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
   rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
+  odpovídající úrovni této stránky
+- Rozpoznání vzorce u sebe sama není diagnóza: slouží k tomu
   [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+  a výsledek patří do supervize
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis rozpoznatelného vzorce pro kvalifikovaného
+> čtenáře, nikoli nástroj. Etický rámec stanoví
+> [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a
+> [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

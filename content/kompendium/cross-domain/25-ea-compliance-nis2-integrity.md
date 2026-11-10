@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["26-ea-compliance-zkb-epistemic-integrity", "21-ea-security-supply-chain-narrative", "22-ea-security-incident-response-narrative", "30-ea-compliance-regulatory-capture-detection"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

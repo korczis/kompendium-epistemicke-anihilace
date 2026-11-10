@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -168,7 +167,7 @@ opírají převážně o laické posuzovatele (Ask a Landström, 2010).
 - Rogers, R. (Ed.). (2008). *Clinical Assessment of Malingering and Deception* (3. vyd.). Guilford Press.
 - Schauer, M., & Elbert, T. (2010). *Dissociation following traumatic stress: Etiology and treatment*. Zeitschrift für Psychologie / Journal of Psychology.
 - Siegel, D. J. (1999). *The Developing Mind: Toward a Neurobiology of Interpersonal Experience*. Guilford Press.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Zákon č. 45/2013 Sb., o obětech trestných činů (2013).
 
 ## Související

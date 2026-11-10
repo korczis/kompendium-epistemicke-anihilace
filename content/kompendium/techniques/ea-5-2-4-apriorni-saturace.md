@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-3-noumenalni-redukce", "ea-5-2-30-konvergentni-meta-singularita", "ea-5-2-5-konstitutivni-rozpad", "ea-5-2-6-transcendentalni-rekursivita"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.4"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"
@@ -47,37 +46,17 @@ Příklady falešných syntetických apriori, které byly v klinické literatuř
 
 Funkční výsledek: zkušenost, která by měla revidovat tvrzení, **nemá k němu přístup**, protože tvrzení je strukturálně chráněno svým *zdánlivě apriorním* statusem.
 
-## Operační modus
+## Struktura vzorce
 
-### Krok 1 — Identifikace prázdných apriorních pozic
+Pozorovatel pozná tento vzorec podle jedné otázky, na kterou postižený neumí odpovědět: co by muselo nastat, aby své tvrzení opustil. Tvrzení přitom není ani triviální, ani doložené — tváří se jako zřejmost, kterou netřeba dokazovat, a podle situace se téže věci dovolává jako bezprostředního pozorování. Tato oboustrannost je nápadnější než obsah tvrzení. Nadřazení nauky vlastní zkušenosti patří ke znakům totalistického prostředí popsaným u (Lifton, 1961).
 
-Manipulátor zkoumá subjektovu kognitivní strukturu a identifikuje **místa, kde subjekt operuje s implicitními apriori** — kde existují předpoklady, které subjekt nepovažuje za revizibilní.
+Dalším znakem je uzavřenost: každé sporné tvrzení je podepřeno jiným sporným tvrzením téhož okruhu, takže kritika nemá kudy vstoupit. Zkušenost, která by měla soud opravit, se vykládá jako výjimka — a kategorie výjimky je sama součástí okruhu. Nadřazení doktríny osobní zkušenosti a posvátnou nauku jako znaky uzavřeného prostředí popsal (Lifton, 1961); jejich měřitelné dimenze shrnuje (Hassan, 2018).
 
-### Krok 2 — Substituce nebo vsazení
+Postižení popisují pocit zřejmosti u vět, u nichž si nepamatují, kdy a od koho je přijali; podráždění při otázce „jak to víš“; a dojem, že kdo tvrdí opak, nemůže uvažovat poctivě. Nesnášenlivost otevřené otázky je přitom doložena jako samostatný rys i bez vnějšího působení (Kruglanski & Webster, 1996).
 
-Manipulátor:
+Zpětně se znaky skládají takto: nejprve přijetí několika vět bez argumentu, pak jejich opakované „potvrzování“ na případech, pak mizení schopnosti uvést falzifikační podmínku a nakonec vzájemné podpírání vět v uzavřeném celku. Popsané pořadí je pozorovaný sled znaků, nikoli postup. Soudržnost skupiny udržující neudržitelné tvrzení dokládá (Festinger, Riecken & Schachter, 1956).
 
-- **Substituuje** existující apriori novou verzí, prezentovanou jako „hlubší“ nebo „přesnější“.
-- **Vsazuje nová apriori** do míst, kde dosud nebyla, prezentujíc je jako *„co každý myslitel uznává“*.
-
-Klíčové: substituce/vsazení **není argumentováno**, ale **prezentováno jako zřejmé**. Argumentace by zviditelnila kontingentní status soudu.
-
-### Krok 3 — Maskování apriorního statusu
-
-Falešná apriori jsou prezentována s **dvojí strategií**:
-
-- **Někdy** jako *zřejmé pravdy*, které netřeba dokazovat (apriorní strategie).
-- **Někdy** jako *empirická pozorování*, která tvoří *bezprostřední evidenci* (empirická strategie).
-
-Kombinace umožňuje, aby manipulátor v každé situaci volil tu strategii, která **odolá** aktuální výzvě.
-
-### Krok 4 — Saturace cvičeními
-
-Subjekt aplikuje vsazená apriori na konkrétní případy. Každá aplikace, kde tvrzení „vychází“, konsoliduje jeho status. Případy, kde „nevychází“, jsou interpretovány jako **zvláštní výjimky** — a kategorie *zvláštní výjimky* je sama dalším apriori.
-
-### Krok 5 — Konsolidace skrze hermeneutickou autoizolaci
-
-Soudy se vzájemně podpírají do **uzavřeného hermeneutického systému**, ve kterém každý je legitimizován ostatními. Externí kritika nemá kde vstoupit, protože každý kritický bod je interpretován skrze rámec, který sám obsahuje sporné apriori.
+*Interpretace knihy*: oprávněné apriorní soudy jsou argumentované a uvnitř svého rámce revidovatelné (Kant, 1787); že revidovatelné je i to, co se jeví nedotknutelné, ukazuje (Quine, 1951).
 
 ## Fenomenologie
 
@@ -95,8 +74,8 @@ Soudy se vzájemně podpírají do **uzavřeného hermeneutického systému**, v
 | Subjekt **deklaruje pravdu** bez evidenční podpory a **nenarazí** na vlastní strukturu | Apriorní saturace |
 | Subjekt **nedokáže formulovat falsifikační podmínku** pro tvrzení | Strukturální chránění |
 | **Iritace nad otázkou "Jak víš?"** — interpretovaná jako špatná víra | Defenzivní reakce na pokus o externalizaci apriori |
-| Soudy mají **zvláštní oboustrannou strategii** (apriorní/empirická) | Krok 3 maskování |
-| **Hermeneuticky uzavřená** struktura tvrzení — každé je podpořeno ostatními | Krok 5 autoizolace |
+| Soudy mají **zvláštní oboustrannou strategii** (apriorní/empirická) | Fáze — maskování |
+| **Hermeneuticky uzavřená** struktura tvrzení — každé je podpořeno ostatními | Fáze — autoizolace |
 | **Selektivní empirismus** — silně podložené v některých oblastech, deklarativní v jiných | Lokální saturace |
 
 ### Diferenciální detekce
@@ -188,6 +167,18 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 - **OSINT pipeline auditovaná [NABLA Infinity](@/glossary/nabla-infinity.md)** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
 - **Methodological adversarial review** — interní praxe Prismatic je strukturováním kritického posouzení napříč paradigmaty.
 
+## Literatura
+
+- Festinger, L., Riecken, H. W. & Schachter, S. (1956). *When Prophecy Fails*. Minneapolis: University of Minnesota Press.
+- Hassan, S. (2018). *Combating Cult Mind Control*. 3. vyd. Newton: Freedom of Mind Press.
+- Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
+- Kant, I. (1787). *Kritik der reinen Vernunft*. 2. vyd. Riga: Hartknoch.
+- Kruglanski, A. W. & Webster, D. M. (1996). Motivated closing of the mind. *Psychological Review*, 103(2), 263–283.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: W. W. Norton.
+- Nagel, T. (1986). *The View from Nowhere*. New York: Oxford University Press.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1), 20–43.
+- Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. New York: Guilford Press.
+
 ## Související
 
 - **Rodičovská kapitola**: [Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)
@@ -201,21 +192,15 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku
-  (L1 = volný přístup, L2 = doložená kvalifikace, L3 = omezený doktrinální
-  rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)
-  pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij
-  [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)
-  a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá hodnotě `access_level` v záhlaví článku (L3 — omezený doktrinální rámec).
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro materiál této úrovně.
+- Rozpoznání vzorce u sebe sama není diagnózou — [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se čtou se supervizí.
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize necti
-> tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popisná taxonomie sloužící k rozpoznání vzorce, nikoli nástroj; závazně pro ni platí [etické aspekty](@/kompendium/01-predmluva/eticke-aspekty.md) a [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

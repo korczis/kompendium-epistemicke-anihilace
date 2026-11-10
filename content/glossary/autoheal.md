@@ -10,7 +10,6 @@ tags = ["glossary", "evolution", "autoheal", "prismatic", "quality"]
 category = "evolution"
 related_terms = ["autoevolve", "cascade", "cascade-pattern", "clean-run", "qdp", "self-healing", "supervisor", "circuit-breaker", "fault-tolerance", "let-it-crash", "mix", "dialyzer"]
 author = "Tomas Korcak (korczis)"
-quality_score = 77
 date_modified = "2026-11-10"
 +++
 

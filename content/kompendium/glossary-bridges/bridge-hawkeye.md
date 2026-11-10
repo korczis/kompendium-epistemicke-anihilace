@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["hawkeye", "signal-plurality", "panopticism", "dual-use-poznani", "bridge-panopticism", "bridge-risk-score"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "hawkeye"
 toc = false
 +++

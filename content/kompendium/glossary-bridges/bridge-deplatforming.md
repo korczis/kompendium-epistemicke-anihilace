@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["deplatforming", "delegitimizace", "epistemic-bubble", "info-ops", "epistemicka-injustice", "bridge-delegitimizace"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "deplatforming"
 toc = false
 +++

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-12-interoceptivni-rozpojeni", "ea-5-5-13-exteroceptivni-deformace", "ea-5-5-15-pulzace-disrupce", "ea-5-5-16-dech-rytm-rozklad"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.14"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"
@@ -37,19 +36,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 **Pretemporální rytm disrupce** narušuje subjektovu **pretemporální rytmickou strukturu** — pre-konceptuální časový rytmus, který organizuje plynutí zkušenosti před tím, než je čas pojmenován. Subjekt operuje v fragmentárním 'now' bez rytmu.
 
-## Operační modus
+## Struktura vzorce
 
-Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
+Pozorovatel se s tímto vzorcem nesetkává jako s událostí, ale jako s nesouladem mezi rytmem, v němž člověk žije uvnitř skupiny, a rytmem, který po něm žádá běžný den. Rituální tempo udržuje i tam, kde nemá žádnou funkci, zatímco v běžných časových strukturách — v práci, v domácnosti, ve schůzkách — vykazuje obtíže, které sám nespojuje s praxí (Lindahl et al., 2017).
 
-### Krok 1 — Cílené narušení rytmických struktur
+Ve vlastním popisu se ztrácí samozřejmé plynutí zkušenosti: přítomnost se rozpadá na úseky, mezi nimiž chybí spojitost, a rituální rytmus je jediné, co jim souvislost dodává. Fuchs (2013) popisuje narušení implicitní temporality jako vrstvu, která se projeví ve funkci dřív, než ji postižený dokáže pojmenovat.
 
-### Krok 2 — Implantace doktrinálního rytmu
+Retrospektivně se v anamnéze dá rozlišit sled, v němž znaky vystupují. Nejprve bývá zachyceno prostředí, které vlastní tempo člověka hodnotí jako nedostatečné, pak doktrinální výklad nového rytmu jako pokroku a nakonec vyhledávání rituálního kontextu kvůli orientaci. Lifton (1961) označuje takové prostředí za totalistické právě proto, že si potvrzení obstarává samo. Popsané pořadí je pozorovaný sled znaků, nikoli postup.
 
-Manipulátor poskytuje 'správný' rytmus (rituál, mantra, dech).
-
-### Krok 3 — Konsolidace disrupce
-
-Subjektova baseline temporalita je nahrazena doktrinálním rytmem.
+*Interpretace knihy*: nálezem není změna rytmu, ale ztráta schopnosti žít bez cizího rytmu.
 
 ## Fenomenologické znaky
 
@@ -126,17 +121,16 @@ Klinická [diferenciace](@/glossary/diferenciace.md) techniky **pretemporální 
 
 **vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.14 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.14 se obvykle resolvuje do 24–72h.
 
-## Forensní markery
+## Literatura
 
-Pro **objektivní detekci** aplikace techniky **pretemporální rytmus disrupce** v post-hoc forensní analýze:
-
-- **Primární marker**: Tapping test: koeficient variace inter-tap intervalů >15% — narušení interních časových generátorů.
-- **Sekundární markery**:
-  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
-  - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
-  - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
-- **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- Damasio, A. R. (1999). *The Feeling of What Happens*. Harcourt Brace.
+- Fuchs, T. (2013). Temporality and psychopathology. *Phenomenology and the Cognitive Sciences*, 12(1).
+- Husserl, E. (1939). *Erfahrung und Urteil*. Academia Verlagsbuchhandlung.
+- James, W. (1902). *The Varieties of Religious Experience*. Longmans, Green.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Lindahl, J. R., Fisher, N. E., Cooper, D. J., Rosen, R. K., & Britton, W. B. (2017). The varieties of contemplative experience: A mixed-methods study of meditation-related challenges in Western Buddhists. *PLOS ONE*, 12(5).
+- Merleau-Ponty, M. (1945). *Phénoménologie de la perception*. Gallimard.
+- Stace, W. T. (1960). *Mysticism and Philosophy*. Macmillan.
 
 ## Cross-linky (rozšířené)
 
@@ -182,15 +176,15 @@ Pro **objektivní detekci** aplikace techniky **pretemporální rytmus disrupce*
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-## ⚡ Kritický krok
+## Co ověřit před čtením
 
-**Před aplikací této techniky** (i v rámci diagnostiky) ověř:
+Před prací s touto stránkou si čtenář ověří:
 
-- Tvoje **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
-- Máš [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň této techniky
-- Pokud diagnostikuješ na sobě, použij [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) a konzultuj výsledek se supervizí
+- Jeho **přístupová úroveň** odpovídá `access_level` v záhlaví článku (L3 = omezený doktrinální rámec)
+- Má [supervizní rámec](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md) pro úroveň tohoto materiálu
+- Sebediagnostika z této stránky neplatí: [diagnostické indikátory](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md) se vyhodnocují se supervizí
 
-> **Mandatorní akce**: bez ověření přístupové úrovně a supervize nečti tuto techniku jako instrumentum — pouze jako fenomenologický popis.
+> **Rámec čtení**: stránka je popis vzorce pro kvalifikovaného čtenáře, nikoli nástroj — viz [etický kodex](@/kompendium/08-prilohy/eticky-kodex.md).
 
 ---
 

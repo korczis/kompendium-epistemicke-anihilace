@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["agent", "agent-registry", "agent-tier", "aiad", "bridge-agent-registry", "bridge-tactical-execution"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "agent"
 toc = false
 +++
@@ -57,7 +56,7 @@ regulovat se a reflektovat vlastní jednání (Bandura 2001). S ní souvisí *po
 zkušenost, že jsem to já, kdo jedná a kdo svým jednáním něco mění (Haggard 2017). Obě složky
 jsou pro poznání zásadní: kdo nevěří, že jeho úsudek má váhu, přestane ho používat.
 
-Kniha ukazuje, jak manipulace zasahuje jednotlivé články smyčky. **Vnímání** zužuje
+Kniha ukazuje, jak manipulace zasahuje jednotlivé články smyčky. Vnímání zužuje
 [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md), která
 řídí, k jakým informacím se člověk vůbec dostane. **Rozhodování** zkresluje
 [EA-4.3.5 Modifikace evidenčních kritérií](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md),

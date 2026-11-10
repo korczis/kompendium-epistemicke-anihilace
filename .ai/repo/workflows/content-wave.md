@@ -40,8 +40,9 @@ pravidla o zdrojích a mechaniku ověření (skill `kompendium-page-expansion`).
 
 ## 4. Ověř
 
-Ověřuje se přesně strom, který se commituje: `git archive "$(git write-tree)"` do dočasného
-adresáře a v něm všechny kontroly níže. Pracovní strom obsahuje rozpracované soubory ostatních
+Ověřuje se přesně strom, který se commituje: `scripts/verify-content.sh` (s `--fix` navíc
+přegeneruje odvozené soubory ze staged stromu a přidá je do commitu) exportuje index do
+dočasného adresáře a spustí v něm všechny kontroly níže v pořadí. Pracovní strom obsahuje rozpracované soubory ostatních
 pracovníků a jeho výsledek nic nedokazuje. Artefakty platformy, na které vlna narazí, popisuje
 `.ai/repo/knowledge/curated/platform-artifacts-in-content.md`.
 

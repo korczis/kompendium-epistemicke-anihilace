@@ -86,7 +86,7 @@
       s.findings += p.violations.length;
       p.violations.forEach(function (r) { s.rules[r] = (s.rules[r] || 0) + 1; });
       items.push({
-        title: p.title || p.path, path: p.path, url: V.basePath + p.url, section: p.section,
+        title: p.title || p.path, path: p.path, url: V.basePath + V.pageUrl(p.url), section: p.section,
         rules: p.violations.slice().sort(function (a, b) { return (RULE[a] ? RULE[a].order : 99) - (RULE[b] ? RULE[b].order : 99); }),
         words: p.words, lang: p.lang, in: p.in, out: p.out,
         hay: fold(p.title + ' ' + p.path), sortTitle: fold(p.title || p.path),

@@ -2,6 +2,11 @@
     (číslované = kapitoly, ostatní = kolekce), počty stránek z get_section, sekce NLP vzorců se
     objeví sama, jakmile existuje (allow_missing). Sbalení skupin si prohlížeč pamatuje. -#}
 {%- set root = get_section(path="kompendium/_index.md", metadata_only=true) -%}
+{#- Podstromy aktivní větve a okno stránek: static/data/nav.json (partials/sidebar_subtree.html). -#}
+{%- set_global nav = load_data(path="static/data/nav.json") -%}
+{%- if page is defined -%}{%- set_global here = page.ancestors | last -%}{%- set_global here_url = page.path -%}
+{%- elif section is defined -%}{%- set_global here = section.relative_path -%}{%- set_global here_url = section.path -%}
+{%- else -%}{%- set_global here = "" -%}{%- set_global here_url = "" -%}{%- endif -%}
 {%- set nlp = get_section(path="kompendium/nlp-vzorce/_index.md", allow_missing=true, metadata_only=true) -%}
 {%- set digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"] -%}
 {%- set item = "group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:text-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-700" -%}
@@ -21,8 +26,9 @@
           <label for="mobile-search" class="sr-only">Hledat</label>
           <div class="relative">
             <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3"><svg class="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/></svg></div>
-            <input type="search" id="mobile-search" data-search-input autocomplete="off" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-400" placeholder="Hledat">
-            <div data-search-results class="absolute z-50 mt-2 hidden max-h-[60vh] w-full overflow-y-auto rounded-lg border border-gray-200 bg-white text-sm shadow-lg dark:border-gray-600 dark:bg-gray-700" role="listbox"></div>
+            <input type="search" id="mobile-search" data-search-input autocomplete="off" class="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200 dark:placeholder-gray-400" placeholder="Hledat pojem, techniku, kód EA…">
+            <ul id="mobile-search-results" data-search-results role="listbox" aria-label="Výsledky vyhledávání" class="absolute z-50 mt-2 hidden max-h-[60vh] w-full overflow-y-auto rounded-lg border border-gray-200 bg-white text-sm shadow-lg dark:border-gray-600 dark:bg-gray-700"></ul>
+            <p data-search-status class="sr-only" aria-live="polite"></p>
           </div>
         </form>
         <ul class="space-y-1">
@@ -75,8 +81,9 @@
                 <a href="{{ g.permalink }}" class="{{ sub }}{% if on %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ g.title }}"{% if on %} aria-current="{% if cur == g.path %}page{% else %}location{% endif %}"{% endif %}>
                   {%- if group[0] == "true" %}<span class="mt-0.5 shrink-0 rounded bg-gray-100 px-1 font-mono text-[11px] leading-4 text-gray-600 dark:bg-gray-700 dark:text-gray-300">{{ num }}</span>{% endif %}
                   <span class="line-clamp-2 min-w-0 flex-1">{{ label }}</span>
-                  {%- if g.pages %}<span class="shrink-0 text-xs text-gray-400 dark:text-gray-500">{{ g.pages | length }}</span>{% endif %}
+                  {%- if g.pages %}<span class="shrink-0 text-xs {% if on %}text-primary-800 dark:text-gray-200{% else %}text-gray-500 dark:text-gray-400{% endif %}">{{ g.pages | length }}</span>{% endif %}
                 </a>
+                {%- if on and g.relative_path in nav.sections %}{% set k1 = g.relative_path %}{% include "partials/sidebar_subtree.html" %}{% endif %}
               </li>
               {%- endfor %}
             </ul>
@@ -97,7 +104,7 @@
               {%- for path in nlp_full.subsections | sort %}
               {%- set f = get_section(path=path) %}
               {%- set on = f.path in cur %}
-              <li><a href="{{ f.permalink }}" class="{{ sub }}{% if on %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ f.title }}"{% if on %} aria-current="location"{% endif %}><span class="line-clamp-2 min-w-0 flex-1">{{ f.title }}</span><span class="shrink-0 text-xs text-gray-400 dark:text-gray-500">{{ f.pages | length }}</span></a></li>
+              <li><a href="{{ f.permalink }}" class="{{ sub }}{% if on %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ f.title }}"{% if on %} aria-current="location"{% endif %}><span class="line-clamp-2 min-w-0 flex-1">{{ f.title }}</span><span class="shrink-0 text-xs {% if on %}text-primary-800 dark:text-gray-200{% else %}text-gray-500 dark:text-gray-400{% endif %}">{{ f.pages | length }}</span></a></li>
               {%- endfor %}
               {%- for p in nlp_full.pages %}{% if p.slug == "trener" %}
               <li><a href="{{ p.permalink }}" class="{{ sub }}{% if p.path in cur %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}"><span class="line-clamp-2 min-w-0 flex-1">{{ p.title }}</span></a></li>
@@ -118,9 +125,13 @@
         <p class="{{ heading }}">Rejstříky</p>
         <ul class="space-y-1">
           {%- set glossary = get_section(path="glossary/_index.md") %}
-          {%- for t in [["@/glossary/_index.md", "/glossary/", "Glosář", glossary.pages | length], ["@/philosophy/_index.md", "/philosophy/", "Filozofie", ""], ["@/references.md", "/references/", "Reference", ""]] %}
+          {%- for t in [["@/glossary/_index.md", "/glossary/", "Glosář", glossary.pages | length, "glossary/_index.md"], ["@/philosophy/_index.md", "/philosophy/", "Filozofie", "", "philosophy/_index.md"], ["@/references.md", "/references/", "Reference", "", ""]] %}
           {%- set on = t[1] in cur %}
-          <li><a href="{{ get_url(path=t[0]) }}" class="{{ item }}{% if on %}{{ active }}{% endif %}"{% if on %} aria-current="page"{% endif %}><svg class="{{ icon }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/></svg><span class="ml-3 flex-1">{{ t[2] }}</span>{% if t[3] %}<span class="{{ badge }}">{{ t[3] }}</span>{% endif %}</a></li>
+          <li><a href="{{ get_url(path=t[0]) }}" class="{{ item }}{% if on %}{{ active }}{% endif %}"{% if on and cur == t[1] %} aria-current="page"{% elif on %} aria-current="location"{% endif %}><svg class="{{ icon }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"/></svg><span class="ml-3 flex-1">{{ t[2] }}</span>{% if t[3] %}<span class="{{ badge }}">{{ t[3] }}</span>{% endif %}</a>
+            {%- if t[4] and t[4] == here and page is defined %}
+            <ul class="ml-5 mt-1 border-l border-gray-200 dark:border-gray-700">{% set wkey = t[4] %}{% include "partials/sidebar_pages.html" %}</ul>
+            {%- endif %}
+          </li>
           {%- endfor %}
           {%- set on = '/tags/' in cur %}
           <li><a href="{{ config.base_url }}/tags/" class="{{ item }}{% if on %}{{ active }}{% endif %}"{% if on %} aria-current="page"{% endif %}><svg class="{{ icon }}" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"/></svg><span class="ml-3 flex-1">Štítky</span></a></li>

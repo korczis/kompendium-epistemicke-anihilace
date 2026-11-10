@@ -1,0 +1,20 @@
+{#- A window of the pages of section `wkey` around the current page (at most 15), with the
+    position in the section; the full list is the section page itself. -#}
+{%- set list = nav.sections[wkey].pages -%}
+{%- set_global at = 0 -%}
+{%- for p in list -%}{%- if p[0] == here_url -%}{%- set_global at = loop.index -%}{%- endif -%}{%- endfor -%}
+{%- set count = list | length -%}
+{%- set lo = at - 7 -%}{%- if lo < 1 -%}{%- set lo = 1 -%}{%- endif -%}
+{%- set hi = lo + 14 -%}{%- if hi > count -%}{%- set hi = count -%}{%- set lo = hi - 14 -%}{%- if lo < 1 -%}{%- set lo = 1 -%}{%- endif -%}{%- endif -%}
+{%- if count %}
+<li>
+  <ul class="ml-2 space-y-0.5" aria-label="Stránky oddílu">
+    {%- for p in list %}{% if loop.index >= lo and loop.index <= hi %}
+    <li><a href="{{ config.base_url }}{{ p[0] }}" class="block truncate rounded-r-lg py-1 pl-3 pr-2 text-xs {% if p[0] == here_url %}border-l-2 border-primary-600 bg-primary-50 font-semibold text-primary-800 dark:border-primary-500 dark:bg-gray-700 dark:text-white{% else %}text-gray-600 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white{% endif %}" title="{{ p[1] }}"{% if p[0] == here_url %} aria-current="page"{% endif %}>{% if p[2] and p[2] not in p[1] %}<span class="font-mono text-[0.65rem] text-gray-500 dark:text-gray-400">{{ p[2] }}</span> {% endif %}{{ p[1] }}</a></li>
+    {%- endif %}{% endfor %}
+    {%- if count > 15 %}
+    <li><a href="{{ config.base_url }}{{ nav.sections[wkey].url }}" class="block py-1 pl-3 text-xs font-medium text-primary-700 hover:underline dark:text-primary-400">{% if at %}{{ at }} z {{ count }} · {% endif %}všech {{ count }} stránek &rarr;</a></li>
+    {%- endif %}
+  </ul>
+</li>
+{%- endif %}

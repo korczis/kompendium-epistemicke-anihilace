@@ -36,6 +36,19 @@
     scroll-padding-top: 5rem;
   }
 
+  /* Controls that only work with JavaScript ([data-js]) are hidden only when it is off: the
+     inline script in base.html drops .no-js before the first paint, so they take their place
+     from the start instead of appearing later and pushing the page down (CLS). */
+  html.no-js [data-js] {
+    display: none !important;
+  }
+
+  /* An Alpine explorer appears only once it has booted; until then its slot holds a screen's
+     height, so the section text below starts off-screen and is not pushed down (CLS). */
+  html:not(.no-js) .kea-explorer-slot {
+    min-height: calc(100vh - 4rem);
+  }
+
   :focus-visible {
     outline: 2px solid var(--color-primary-500);
     outline-offset: 2px;
@@ -54,17 +67,45 @@
     max-width: 100%;
   }
 
-  .format table {
-    display: block;
-    overflow-x: auto;
+
+  .format a {
+    text-underline-offset: 2px;
+  }
+
+  /* Wide tables scroll inside a focusable region (static/js/site.js wraps them), so the table
+     keeps its table semantics instead of display:block. */
+  .kea-table-scroll {
     max-width: 100%;
+    overflow-x: auto;
+  }
+
+  .kea-table-scroll > table {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /* p5 sketches reserve their box before the script draws, so nothing shifts (CLS). */
+  [data-p5][data-ratio="0.5"] { aspect-ratio: 2 / 1; }
+  [data-p5][data-ratio="0.6"] { aspect-ratio: 5 / 3; }
+  [data-p5][data-ratio="0.62"] { aspect-ratio: 100 / 62; }
+
+  /* Long-form reading: a comfortable measure on wide screens. */
+  .format {
+    max-width: 72ch !important;
+  }
+
+  @media print {
+    #sidebar, nav[aria-label="Hlavní navigace"], [data-toc], [data-back-to-top], [data-reading-progress],
+    footer, #okoli-title, [data-okoli] { display: none !important; }
+    #main-content { margin-left: 0 !important; }
+    .format a::after { content: " (" attr(href) ")"; font-size: 0.8em; }
   }
 
   .format .zola-anchor {
     margin-left: 0.4rem;
     opacity: 0;
     text-decoration: none;
-    color: var(--color-gray-400);
+    color: var(--color-gray-500);
   }
 
   .format :is(h2, h3, h4):hover .zola-anchor {
@@ -120,4 +161,44 @@
   [data-vrstvy] .kea-layer-panel:not([hidden]) {
     margin-top: 0;
   }
+}
+
+/* Links in prose: the primary palette at AA contrast in both themes (format-blue's dark link,
+   #2b7fff on gray-800, is 3.9:1). Unlayered on purpose: the typography plugin sets these
+   variables in a cascade layer, and only an unlayered rule outranks it. */
+.format {
+  --tw-format-links: var(--color-primary-700);
+  --tw-format-invert-links: var(--color-primary-300);
+}
+
+.dark .format {
+  --tw-format-links: var(--color-primary-300);
+}
+
+/* Long-form reading: body text darker than the typography default for comfortable reading,
+   and section headings subordinate to the page title (Publisher H1: text-3xl/4xl). */
+.format {
+  --tw-format-body: var(--color-gray-700);
+  --tw-format-invert-body: var(--color-gray-300);
+}
+
+.dark .format {
+  --tw-format-body: var(--color-gray-300);
+}
+
+.format :where(h2):not(:where(.not-format *)) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2.25em;
+  margin-bottom: 0.75em;
+}
+
+.format :where(h3):not(:where(.not-format *)) {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.75em;
+}
+
+.format :where(h4):not(:where(.not-format *)) {
+  font-size: 1.0625rem;
 }

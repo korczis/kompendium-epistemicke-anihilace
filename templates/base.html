@@ -16,36 +16,79 @@
 <meta name="description" content="{{ ctx.description | default(value=config.description) }}">
 <meta name="author" content="{{ config.extra.author }}">
 <meta name="color-scheme" content="light dark">
+{#- SEO, all derived from the page or section; nothing is typed per page. og_image is the one
+    place the sharing image is chosen (a per-section image can replace it here later). -#}
+{%- set_global og_image = get_url(path="img/og.png") -%}
+{%- set_global seo_title = ctx.title | default(value=config.title) -%}
+{%- set_global seo_description = ctx.description | default(value=config.description) -%}
+{%- set_global is_home = section is defined and section.path == "/" -%}
+{%- set_global parent_title = "" -%}
+{%- if page is defined and page.ancestors -%}{%- set parent_sec = get_section(path=page.ancestors | last, metadata_only=true) -%}{%- set_global parent_title = parent_sec.title -%}{%- endif -%}
+{%- set_global tags = [] -%}
+{%- if page is defined and page.taxonomies.tags is defined -%}{%- set_global tags = page.taxonomies.tags -%}{%- endif -%}
+{%- set_global modified = "" -%}
+{%- if page is defined -%}{%- if page.updated -%}{%- set_global modified = page.updated -%}{%- elif page.extra.date_modified is defined -%}{%- set_global modified = page.extra.date_modified -%}{%- endif -%}{%- endif %}
 <link rel="canonical" href="{{ ctx.permalink }}">
+{%- if page is defined and page.higher %}
+<link rel="prev" href="{{ page.higher.permalink }}">
+{%- endif %}
+{%- if page is defined and page.lower %}
+<link rel="next" href="{{ page.lower.permalink }}">
+{%- endif %}
+{%- if tags %}
+<meta name="keywords" content="{{ tags | join(sep=', ') }}">
+{%- endif %}
 <meta property="og:type" content="{% if page is defined %}article{% else %}website{% endif %}">
 <meta property="og:site_name" content="{{ config.title }}">
-<meta property="og:title" content="{{ ctx.title | default(value=config.title) }}">
-<meta property="og:description" content="{{ ctx.description | default(value=config.description) }}">
+<meta property="og:title" content="{{ seo_title }}">
+<meta property="og:description" content="{{ seo_description }}">
 <meta property="og:url" content="{{ ctx.permalink }}">
-<meta property="og:image" content="{{ get_url(path='img/og.png') }}">
+<meta property="og:image" content="{{ og_image }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Kompendium epistemické a kognitivní anihilace: síť pojmů, která se rozpadá.">
+<meta property="og:image:alt" content="{% if is_home %}{{ config.title }}: síť pojmů, která se rozpadá.{% else %}{{ seo_title }} · {{ config.title }}{% endif %}">
 <meta property="og:locale" content="cs_CZ">
 {%- if page is defined %}
 <meta property="article:author" content="{{ config.extra.author }}">
-{%- if page.date %}<meta property="article:published_time" content="{{ page.date }}">{% endif %}
-{%- if page.updated %}<meta property="article:modified_time" content="{{ page.updated }}">{% endif %}
-{%- if page.taxonomies.tags is defined %}{% for tag in page.taxonomies.tags %}
-<meta property="article:tag" content="{{ tag }}">{% endfor %}{% endif %}
+{%- if parent_title %}
+<meta property="article:section" content="{{ parent_title }}">
+{%- endif %}
+{%- if page.date %}
+<meta property="article:published_time" content="{{ page.date }}">
+{%- endif %}
+{%- if modified %}
+<meta property="article:modified_time" content="{{ modified }}">
+{%- endif %}
+{%- for tag in tags %}
+<meta property="article:tag" content="{{ tag }}">
+{%- endfor %}
 {%- endif %}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ ctx.title | default(value=config.title) }}">
-<meta name="twitter:description" content="{{ ctx.description | default(value=config.description) }}">
-<meta name="twitter:image" content="{{ get_url(path='img/og.png') }}">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="twitter:title" content="{{ seo_title }}">
+<meta name="twitter:description" content="{{ seo_description }}">
+<meta name="twitter:image" content="{{ og_image }}">
+<meta name="robots" content="{% if cur == '/404/' %}noindex, follow{% else %}index, follow, max-image-preview:large{% endif %}">
 <meta name="theme-color" content="#4f46e5">
 <link rel="sitemap" type="application/xml" href="{{ get_url(path='sitemap.xml') }}">
+{#- Structured data. Zola's Tera has no array building, so the breadcrumb list is written as
+    text with each value through json_encode; test/e2e/surfaces.cjs parses every block. -#}
+{%- set_global crumb_n = 1 %}
 <script type="application/ld+json">
-{%- if page is defined %}
-{{ {"@context": "https://schema.org", "@type": "Article", "headline": ctx.title, "description": ctx.description | default(value=config.description), "inLanguage": "cs", "url": ctx.permalink, "image": get_url(path="img/og.png"), "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"}, "license": config.extra.licence_url} | json_encode | safe }}
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Úvod","item":{{ (config.base_url ~ "/") | json_encode | safe }}}
+{%- if ctx.ancestors is defined %}{% for anc in ctx.ancestors %}{% if anc != "_index.md" %}{% set a = get_section(path=anc, metadata_only=true) %}{% set_global crumb_n = crumb_n + 1 %},{"@type":"ListItem","position":{{ crumb_n }},"name":{{ a.title | json_encode | safe }},"item":{{ a.permalink | json_encode | safe }}}{% endif %}{% endfor %}{% endif %}
+{%- if not is_home and ctx.title %}{% set_global crumb_n = crumb_n + 1 %},{"@type":"ListItem","position":{{ crumb_n }},"name":{{ ctx.title | json_encode | safe }},"item":{{ ctx.permalink | json_encode | safe }}}{% endif %}]}
+</script>
+<script type="application/ld+json">
+{%- if page is defined and page.components | first == "glossary" %}
+{{ {"@context": "https://schema.org", "@type": "DefinedTerm", "name": seo_title, "description": seo_description, "inLanguage": "cs", "url": ctx.permalink, "termCode": page.slug, "inDefinedTermSet": {"@type": "DefinedTermSet", "name": "Glosář · " ~ config.title, "url": get_url(path="@/glossary/_index.md")} } | json_encode | safe }}
+{%- elif page is defined %}
+{{ {"@context": "https://schema.org", "@type": "Article", "headline": seo_title, "description": seo_description, "inLanguage": "cs", "url": ctx.permalink, "mainEntityOfPage": ctx.permalink, "image": og_image, "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"}, "articleSection": parent_title, "wordCount": page.word_count, "keywords": tags | join(sep=", "), "dateModified": modified, "license": config.extra.licence_url} | json_encode | safe }}
+{%- elif is_home %}
+{{ {"@context": "https://schema.org", "@type": "Book", "name": config.title, "description": config.description, "inLanguage": "cs", "url": config.base_url ~ "/", "image": og_image, "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "license": config.extra.licence_url, "genre": "Odborná literatura"} | json_encode | safe }}
+{%- elif section is defined %}
+{{ {"@context": "https://schema.org", "@type": "CollectionPage", "name": seo_title, "description": seo_description, "inLanguage": "cs", "url": ctx.permalink, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"}, "numberOfItems": section.pages | length} | json_encode | safe }}
 {%- else %}
-{{ {"@context": "https://schema.org", "@type": "Book", "name": config.title, "description": config.description, "inLanguage": "cs", "url": config.base_url ~ "/", "image": get_url(path="img/og.png"), "author": {"@type": "Person", "name": config.extra.author, "url": "https://github.com/korczis"}, "license": config.extra.licence_url, "genre": "Odborná literatura"} | json_encode | safe }}
+{{ {"@context": "https://schema.org", "@type": "CollectionPage", "name": seo_title, "description": seo_description, "inLanguage": "cs", "url": ctx.permalink, "isPartOf": {"@type": "Book", "name": config.title, "url": config.base_url ~ "/"} } | json_encode | safe }}
 {%- endif %}
 </script>
 <link rel="icon" href="{{ get_url(path='favicon.svg') }}" type="image/svg+xml">
@@ -64,14 +107,31 @@
   } catch (e) {}
   document.documentElement.classList.remove('no-js');
 </script>
-{%- if "/js/kompendium/" in body_html %}
+{#- Visualisation libraries: only those the page's scripts call, by the derived manifest
+    static/data/viz-deps.json (scripts/build-ui-data.py reads each script's source). -#}
+{%- set_global need_chart = false -%}{%- set_global need_p5 = false -%}{%- set_global need_three = false -%}
+{%- if "/js/kompendium/" in body_html -%}
+{%- set viz = load_data(path="static/data/viz-deps.json") -%}
+{%- for name, libs in viz.scripts -%}
+{%- if "/js/kompendium/" ~ name in body_html -%}
+{%- if "chart" in libs %}{% set_global need_chart = true %}{% endif -%}
+{%- if "p5" in libs %}{% set_global need_p5 = true %}{% endif -%}
+{%- if "three" in libs %}{% set_global need_three = true %}{% endif -%}
+{%- endif -%}
+{%- endfor -%}
+{%- endif %}
+{%- if need_chart %}
 <script src="{{ get_url(path='js/vendor/chart.umd.min.js') }}"></script>
+{%- endif %}
+{%- if need_p5 %}
 <script src="{{ get_url(path='js/vendor/p5-1.7.0.min.js') }}"></script>
+{%- endif %}
+{%- if need_three %}
 <script src="{{ get_url(path='js/vendor/three-0.160.min.js') }}"></script>
 {%- endif %}
 {% block head_extra %}{% endblock head_extra %}
 </head>
-<body class="bg-gray-50 antialiased dark:bg-gray-800" data-base-url="{{ config.base_url }}" data-search-index="{{ get_url(path='search_index.cs.json') }}" data-mermaid="{{ get_url(path='js/vendor/mermaid-11.min.js') }}" data-chartjs="{{ get_url(path='js/vendor/chart.umd.min.js') }}">
+<body class="bg-gray-50 antialiased dark:bg-gray-800" data-base-url="{{ config.base_url }}" data-search-index="{{ get_url(path='data/search.json', cachebust=true) }}" data-mermaid="{{ get_url(path='js/vendor/mermaid-11.min.js') }}" data-chartjs="{{ get_url(path='js/vendor/chart.umd.min.js') }}">
 <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-gray-900 focus:shadow">Přeskočit na obsah</a>
 {% include "partials/nav.html" %}
 {% include "partials/paleta.html" %}
@@ -92,7 +152,7 @@
 <script src="{{ get_url(path='js/viz/kostka.js', cachebust=true) }}" defer></script>
 {%- endif %}
 {%- if "data-p5=" in body_html or (section is defined and section.path == "/") %}
-{%- if "/js/kompendium/" not in body_html %}
+{%- if not need_p5 %}
 <script src="{{ get_url(path='js/vendor/p5-1.7.0.min.js') }}" defer></script>
 {%- endif %}
 <script src="{{ get_url(path='js/p5/grafika.js', cachebust=true) }}" defer></script>

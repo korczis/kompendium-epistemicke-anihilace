@@ -1,65 +1,155 @@
 +++
-title = "Panopticism"
+title = "Panoptismus (panopticism)"
 weight = 60
 
-description = "Foucault's analysis of the panoptic disciplinary mechanism (Discipline and Punish): asymmetric visibility producing internalized self-surveillance; structural template for institutional epistemic annihilation."
+description = "Foucaultův rozbor panoptického disciplinárního mechanismu: asymetrická viditelnost, z níž vzniká zvnitřněný sebedohled; vzor institucionální epistemické anihilace."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "philosophy"]
+tags = ["glossary", "philosophy", "epistemic", "kriticka-teorie", "kompendium"]
 
 [extra]
-category = "epistemic"
+category = "philosophy"
 related_terms = ["power-knowledge", "epistemicka-injustice", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
 word_count = 520
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["panopticism", "panopticon", "Foucault", "Bentham", "discipline", "surveillance", "kompendium"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Panopticism - glossary"
+image_alt = "Panoptismus (panopticism) – glosář"
 +++
 
-## Definition
+## Definice
 
-**Panopticism** is the term Michel Foucault develops in *Discipline and Punish* (1975) for the diffuse disciplinary mechanism modeled on Jeremy Bentham's **Panopticon** — the architectural design (1791) of a circular prison in which a central inspection tower can observe every cell while remaining itself unseen. Foucault's insight is that the Panopticon's specific genius is not constant surveillance but **structural asymmetry**: because the inmate cannot verify whether they are being watched at any given moment, they must behave **as if** they are always watched. The external gaze becomes internal; discipline becomes self-discipline.
+**Panoptismus** (*panopticism*) je pojem, který Michel Foucault rozvíjí v knize *Dohlížet
+a trestat* (*Surveiller et punir*, 1975) pro rozptýlený disciplinární mechanismus podle vzoru
+**Panoptika** Jeremyho Benthama – architektonického návrhu kruhové věznice (publikován 1791),
+v níž ústřední inspekční věž vidí do každé cely, sama však zůstává neviditelná. Foucaultův
+postřeh zní: zvláštní „genialita“ Panoptika nespočívá v neustálém dohledu, ale ve
+**strukturní asymetrii**. Protože vězeň nemůže v žádném okamžiku ověřit, zda je pozorován,
+musí se chovat, **jako by** pozorován byl stále. Vnější pohled se stává vnitřním; disciplína
+se stává sebekázní.
 
-Foucault generalizes from architecture to social mechanism. Panopticism is a **diagram of power** detachable from its original prison context — operative in schools, factories, hospitals, militaries, and ultimately throughout the modern social field. Its productive feature is that it **manufactures the disciplined subject** as a side-effect of asymmetric visibility, without requiring the explicit application of force.
+Foucault zobecňuje od architektury k sociálnímu mechanismu. Panoptismus je **diagram moci**
+oddělitelný od původního vězeňského kontextu – působí ve školách, továrnách, nemocnicích,
+armádách a nakonec v celém moderním sociálním poli. Jeho produktivní rys spočívá v tom, že
+**vyrábí disciplinovaný subjekt** jako vedlejší účinek asymetrické viditelnosti, bez nutnosti
+výslovně použít sílu.
 
-Three structural features matter: (1) **asymmetric visibility** — the watcher sees, the watched cannot see; (2) **unverifiable observation** — the watched cannot tell when watching is occurring; (3) **internalization** — the subject takes up the role of their own watcher, producing self-surveillance.
+Podstatné jsou tři strukturní rysy: (1) **asymetrická viditelnost** – pozorovatel vidí,
+pozorovaný vidět nemůže; (2) **neověřitelné pozorování** – pozorovaný nepozná, kdy pozorování
+probíhá; (3) **zvnitřnění** – subjekt přebírá roli vlastního pozorovatele a vzniká sebedohled.
 
-## Context
+## Původ a kontext pojmu
 
-The Kompendium identifies panopticism as the **structural template** for institutional-scale epistemic annihilation. Where dyadic EA operates through interpersonal manipulation, institutional EA operates through panoptic mechanisms — visibility regimes, evaluation systems, surveillance architectures — that produce self-censoring, self-doubting, self-attacking subjects without any individual perpetrator's intentional act.
+Bentham Panoptikon navrhl jako reformní architekturu pro věznice, chudobince a školy;
+Foucault z něj udělal analytický model moderní disciplinární moci, souběžně s pojmem
+[moc-vědění](@/glossary/power-knowledge.md). V knize navazuje rozbor na kapitolu [7.1
+Filosofický rámec EA: Foucault, Adorno, Sloterdijk,
+Habermas](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) a na rozbor
+[EA-7.1.2 Foucault: Discipline & Punish](@/kompendium/techniques/ea-7-1-2-foucault-discipline.md).
+Pro digitální prostředí pojem rozvíjí mimo jiné Shoshana Zuboff (viz [7.56 Zuboff:
+Surveillance Capitalism](@/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md)).
 
-Specifically:
+## Jak se projevuje
 
-- **EA-1.2.x delegitimization techniques** scaled to institutional contexts (workplace, university, religious community, state) operate via panoptic asymmetries: the victim is visible (every utterance scrutinized) while the evaluation criteria remain opaque. This produces structural self-censorship.
-- **EA-2.x metakognitivní destrukce** at institutional scale corresponds to internalized panoptic self-surveillance: the victim no longer needs to be watched, because they have absorbed the evaluative gaze into their own reflective apparatus. See [/glossary/metakognitivni-destrukce/](@/glossary/metakognitivni-destrukce.md).
-- The kompendium at [/kompendium/03-zakladni-kategorie/](@/kompendium/03-zakladni-kategorie/_index.md) treats panoptic structure as one of the **categorical conditions** under which interpersonal manipulation techniques scale to mass effect.
-- The [Color Teams](@/glossary/color-teams.md) framework includes explicit modeling of panoptic threat scenarios — Red Team simulations test whether the platform's own observability infrastructure (telemetry, logging, audit trails) could be weaponized into panoptic mechanisms against its users.
-- Foucault's analysis is paired in [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) with [power-knowledge](@/glossary/power-knowledge.md) as a single integrated diagnostic apparatus for institutional epistemic harm.
+- lidé si „pro jistotu“ cenzurují i neškodné projevy, protože nevědí, co a kdy je hodnoceno;
+- kritéria hodnocení jsou neprůhledná, zatímco každý výrok hodnoceného je zaznamenán;
+- člověk se začne hodnotit pohledem instituce i v soukromí („jak by to vypadalo, kdyby…“);
+- pochybnost o sobě vzniká bez konkrétního obviňujícího – chybí pachatel, kterého by šlo
+  pojmenovat;
+- přerušení pozorování (dovolená, odchod z organizace) nepřináší úlevu, sebedohled trvá.
 
-The platform's commitment to **transparency** (open source, auditable algorithms, public schema) is a structural counter-panoptic move: it inverts the asymmetry by making the watcher itself watchable.
+## Mechanismus
 
-## See Also
+Kompendium chápe panoptismus jako **strukturní šablonu** epistemické anihilace
+v institucionálním měřítku. Zatímco dyadická EA působí mezilidskou manipulací, institucionální
+EA působí panoptickými mechanismy – režimy viditelnosti, hodnoticími systémy, architekturami
+dohledu –, které vytvářejí sebecenzurující, o sobě pochybující a sebe napadající subjekty bez
+úmyslného činu kteréhokoli jednotlivého pachatele.
 
-- [Power-Knowledge](@/glossary/power-knowledge.md) — Companion Foucauldian concept
-- [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Fricker's structural epistemic harm
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Phenomenon at scale
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Internalized self-surveillance
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Self-estrangement form
-- [Kompendium](@/kompendium/_index.md) — Full taxonomy
-- [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) — Categorical structures
-- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) — Theoretical foundations
+Konkrétně:
+
+- **Techniky [delegitimizace](@/glossary/delegitimizace.md)** přenesené do institucí (pracoviště, univerzita, náboženská
+  komunita, stát) působí přes panoptické asymetrie: oběť je viditelná (každý výrok je
+  zkoumán), zatímco hodnoticí kritéria zůstávají neprůhledná. Vzniká strukturní autocenzura
+  (viz [3.2 Scénáře epistemické delegitimizace](@/kompendium/03-zakladni-kategorie/kapitola-2.md)).
+  Původní verze hesla je přiřazovala ke kódům EA-1.2.x, které však v taxonomii označují
+  argumentační techniky.
+- **[Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)** v institucionálním
+  měřítku odpovídá zvnitřněnému panoptickému sebedohledu: oběť už nepotřebuje být pozorována,
+  protože hodnoticí pohled pohltila do vlastního reflexivního aparátu.
+- Oddíl [03. Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) chápe
+  panoptickou strukturu jako jednu z **kategoriálních podmínek**, za nichž se techniky
+  mezilidské manipulace škálují na masový účinek.
+- Rámec [Color Teams](@/glossary/color-teams.md) zahrnuje výslovné modelování panoptických
+  scénářů hrozby – simulace [Red Teamu](@/glossary/red-team.md) testují, zda by vlastní
+  infrastruktura pozorovatelnosti platformy (telemetrie, logy, auditní stopy) nemohla být
+  obrácena v panoptický mechanismus proti uživatelům.
+- Kapitola [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) spojuje
+  Foucaultův rozbor s pojmem [moc-vědění](@/glossary/power-knowledge.md) do jednoho
+  integrovaného diagnostického aparátu pro institucionální epistemickou újmu.
+
+## Odlišení
+
+- **Od legitimního dohledu a odpovědnosti** – audit, supervize a kontrola kvality nejsou samy
+  panoptické, pokud jsou kritéria veřejná, pozorování ohraničené a existuje odvolání.
+- **Od paranoidního prožívání** – u panoptismu je asymetrie skutečná a doložitelná
+  v uspořádání instituce; u paranoidní poruchy chybí vnější struktura, která by obavy
+  vysvětlovala. Rozlišení vyžaduje klinické posouzení i zmapování prostředí.
+- **Od [epistemické nespravedlnosti](@/glossary/epistemicka-injustice.md)** – Frickerová
+  popisuje, komu se nevěří; panoptismus popisuje, jak viditelnost formuje to, co lidé vůbec
+  řeknou. Oba jevy se často sčítají.
+
+## Význam pro Kompendium
+
+Závazek platformy k **průhlednosti** (otevřený zdrojový kód, auditovatelné algoritmy, veřejné
+schéma) je strukturním protipanoptickým tahem: převrací asymetrii tím, že činí pozorovatelného
+samotného pozorovatele. Pro knihu z toho plyne obecné kritérium: dohled je tím méně
+škodlivý, čím víc je pozorovatel sám pozorovatelný a čím jasnější jsou pravidla.
+
+## Obrana a zotavení
+
+- **Pro jednotlivce**: pojmenovat asymetrii (kdo vidí, co vidí, podle jakých kritérií),
+  oddělit skutečná pravidla od domnělých a hledat místa bez hodnocení (vztahy, komunity),
+  kde lze sebedohled vědomě odkládat.
+- **Pro organizaci**: zveřejnit hodnoticí kritéria, omezit sběr dat na účel, zavést
+  mechanismy odvolání a [ochranu oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md).
+- **Pro terapeuta**: pracovat se zvnitřněným hodnotitelem jako s introjektem (srov.
+  [introjekce](@/glossary/introjekce.md)), ne jako s osobnostním rysem.
+
+## Literatura
+
+- Michel Foucault: *Surveiller et punir: Naissance de la prison* (1975); česky *Dohlížet
+  a trestat*.
+- Jeremy Bentham: *Panopticon; or, The Inspection-House* (1791).
+- Shoshana Zuboff: *The Age of Surveillance Capitalism* (2019).
+
+## Související
+
+**Pojmy**
+
+- [Power-Knowledge](@/glossary/power-knowledge.md) – souběžný Foucaultův pojem.
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – Frickerové strukturní
+  epistemická újma.
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – fenomén v plném měřítku.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – zvnitřněný sebedohled.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – podoba odcizení sobě samému.
+
+**Kniha**
+
+- [Kompendium](@/kompendium/_index.md) – celá taxonomie.
+- [Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md) – kategoriální struktury.
+- [Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – teoretická východiska.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis/kompendium-epistemicke-anihilace)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

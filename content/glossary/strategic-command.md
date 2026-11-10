@@ -1,10 +1,10 @@
 +++
-title = "Strategic Command"
+title = "Strategic Command (strategické velení)"
 weight = 15
-description = "L4 Multi-domain coordination agent tier for cross-cutting operations that bridge specialist teams and supreme authority"
+description = "Úroveň agentů L4 v hierarchii AIAD Prismatic Platform: koordinace napříč doménami mezi specializovanými týmy a nejvyšší autoritou."
 
 [taxonomies]
-tags = ["agents", "coordination", "architecture", "command-hierarchy", "multi-domain"]
+tags = ["glossary", "prismatic", "agents", "architecture", "doctrine"]
 
 [extra]
 category = "agents"
@@ -28,44 +28,80 @@ keywords = ["strategic command agent", "multi-domain coordination", "agent hiera
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
 word_count = 1192
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 quality_score = 80
 image = "/images/sections/glossary.png"
-image_alt = "Strategic Command - Prismatic Platform"
+image_alt = "Strategic Command (strategické velení) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Strategic Command is the L4 agent tier responsible for multi-domain coordination and cross-cutting operational management within the Prismatic Platform's [AIAD](@/glossary/aiad.md) agent hierarchy. L4 agents bridge the gap between L2-L3 domain specialists who operate within focused areas and L5 Supreme agents who provide platform-wide authority. They manage complex workflows that span application boundaries, coordinate between specialist teams, and serve as the escalation gateway to Supreme authority when operations exceed their defined scope.
+Strategic Command (strategické velení) je úroveň agentů L4, která v hierarchii agentů
+[AIAD](@/glossary/aiad.md) Prismatic Platform odpovídá za koordinaci napříč doménami a za řízení
+průřezových operací. Agenti L4 propojují doménové specialisty L2–L3, kteří pracují v úzce
+vymezených oblastech, s agenty L5 Supreme, kteří mají pravomoc nad celou platformou. Řídí složité
+postupy přesahující hranice aplikací, koordinují specializované týmy a slouží jako eskalační
+brána k nejvyšší autoritě, když operace přesáhnou jejich vymezený rozsah.
 
-In military and organizational theory, strategic command sits between tactical execution (the hands-on specialists) and supreme command (the ultimate authority). This middle tier is critical because most real-world operations cross domain boundaries: a security improvement involves quality gates, code changes, testing, deployment, and monitoring -- no single specialist domain covers all these aspects. Without strategic coordination, domain specialists optimize locally but fail to deliver integrated outcomes.
+Ve vojenské a organizační teorii stojí strategické velení mezi taktickou exekucí (praktičtí
+specialisté) a nejvyšším velením (konečná autorita). Tato střední úroveň je kritická, protože
+většina skutečných operací přesahuje hranice domén: zlepšení bezpečnosti zahrnuje brány kvality,
+změny kódu, testování, nasazení i monitorování – žádná jednotlivá specializovaná doména nepokrývá
+všechny tyto stránky. Bez strategické koordinace doménoví specialisté optimalizují lokálně, ale
+nedodají integrovaný výsledek.
 
-The Prismatic Platform's agent hierarchy consists of five tiers, with L4 Strategic Command serving as the coordination hub that transforms high-level objectives from [Supreme Commander](@/glossary/supreme-commander.md) into actionable multi-phase plans executed by L2-L3 specialists:
+Hierarchie agentů Prismatic Platform má pět úrovní ([Agent Tier](@/glossary/agent-tier.md)) a úroveň
+L4 je v ní koordinačním uzlem, který převádí cíle vysoké úrovně od [Supreme
+Commander](@/glossary/supreme-commander.md) na proveditelné vícefázové plány prováděné
+specialisty L2–L3 ([Tactical Execution](@/glossary/tactical-execution.md)). Počty uvádí
+dokumentace platformy v době zápisu:
 
-| Tier | Level | Count | Role | Scope |
+| Úroveň | Stupeň | Počet | Role | Rozsah |
 |------|-------|-------|------|-------|
-| L1 | Assistant | ~50 | Basic task execution | Single function |
-| L2 | Specialist | ~250 | Domain expertise | Single domain |
-| L3 | Commander | ~80 | Team coordination | Single team |
-| **L4** | **Strategic** | **~20** | **Multi-domain coordination** | **Cross-domain** |
-| L5 | Supreme | ~4 | Platform-wide authority | Entire platform |
+| L1 | Assistant | ~50 | základní provádění úloh | jedna funkce |
+| L2 | Specialist | ~250 | doménová odbornost | jedna doména |
+| L3 | Commander | ~80 | koordinace týmu | jeden tým |
+| **L4** | **Strategic** | **~20** | **koordinace více domén** | **napříč doménami** |
+| L5 | Supreme | ~4 | pravomoc nad celou platformou | celá platforma |
 
-Strategic Command agents represent approximately 4% of the 530-agent fleet but handle the most operationally complex scenarios because they must understand multiple domains well enough to coordinate between them effectively. Each L4 agent maintains a coordination model spanning 2-4 domains and delegates single-domain tasks downward while escalating platform-wide concerns upward.
+Agenti strategického velení tvoří přibližně 4 % flotily (v době zápisu 530 agentů), ale zvládají
+provozně nejsložitější scénáře, protože musí rozumět více doménám natolik, aby mezi nimi dokázali
+účinně koordinovat. Každý agent L4 udržuje koordinační model zahrnující 2–4 domény, úlohy jedné
+domény deleguje dolů a záležitosti celé platformy eskaluje nahoru. (Označení úrovní není
+v dokumentaci platformy zcela jednotné – např. koordinátoři barevných týmů se uvádějí jako
+„L3 Strategic Commander“.)
 
-## Historical Context and Design Rationale
+Pro Kompendium je strategické velení pojmem z kontextu platformy, bez přímého protějšku
+v taxonomii EA. Kniha z něj nepřebírá hierarchický model: v lidských organizacích je naopak
+důležité, aby eskalace k vyšší autoritě nebyla jedinou cestou, jak zpochybnit rozhodnutí (srov.
+[Mechanismus oznamovatelů](@/kompendium/organizational-defense/4-whistleblower-mechanism.md)).
 
-The L4 Strategic Command tier emerged from the Prismatic Platform's evolution through Generation 8-10, where increasing agent count (from ~100 to ~300 agents) revealed that a flat or two-tier hierarchy could not handle cross-domain operations efficiently. Early platform versions had L3 Commanders attempting to coordinate across domains, which created two failure modes:
+## Historický kontext a zdůvodnění návrhu
 
-1. **Authority gaps**: L3 agents in domain A could not direct L3 agents in domain B, leading to deadlocks when cross-domain cooperation was needed.
-2. **Supreme overload**: Without a middle tier, every cross-domain operation escalated to L5, overwhelming the 4 Supreme agents with routine coordination tasks.
+Úroveň L4 vznikla během vývoje platformy v generacích 8–10, kdy rostoucí počet agentů (z přibližně
+100 na přibližně 300) ukázal, že plochá nebo dvouúrovňová hierarchie neumí operace napříč
+doménami zvládat efektivně. V raných verzích se o koordinaci napříč doménami pokoušeli velitelé
+L3, což vytvářelo dvě selhání:
 
-The introduction of L4 Strategic Command in Generation 10 resolved both issues by creating explicit multi-domain authority with clear escalation criteria. This mirrors organizational theory (James D. Thompson's "Organizations in Action") where mediating technology coordinates interdependent units -- L4 agents are the platform's mediating technology.
+1. **Mezery v pravomoci**: agenti L3 v doméně A nemohli řídit agenty L3 v doméně B, takže při
+   potřebě spolupráce napříč doménami docházelo k uváznutí.
+2. **Přetížení nejvyšší úrovně**: bez střední úrovně eskalovala každá operace napříč doménami
+   na L5 a zahlcovala čtyři agenty Supreme rutinními koordinačními úlohami.
 
-The NO MERCY, NO DOUBTS doctrine applies differently at L4 than at other tiers. L4 agents operate in the transition zone between the NABLA Infinity exploration phase (where uncertainty is mapped and contradictions preserved) and the decisive execution phase. They must determine when confidence threshold (0.95 for critical decisions) is met across multiple domains before committing to a coordination plan.
+Zavedení úrovně L4 v generaci 10 vyřešilo obojí vytvořením výslovné pravomoci nad více doménami
+s jasnými kritérii eskalace. Návrh volně navazuje na organizační teorii (James D. Thompson,
+*Organizations in Action*, 1967), v níž zprostředkující technologie (*mediating technology*)
+propojuje vzájemně závislé jednotky – agenti L4 jsou zprostředkující technologií platformy.
 
-## L4 Agent Classification
+Doktrína [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) se na úrovni L4 uplatňuje jinak
+než na ostatních úrovních. Agenti L4 pracují v přechodové zóně mezi fází zkoumání [NABLA
+Infinity](@/glossary/nabla-infinity.md) (kde se mapuje nejistota a zachovávají rozpory) a fází
+rozhodné exekuce. Musí určit, kdy je práh důvěry (0,95 u kritických rozhodnutí) splněn napříč
+více doménami, než se zaváží ke koordinačnímu plánu.
 
-L4 agents are classified based on their coordination scope and authority boundaries:
+## Klasifikace agentů L4
+
+Agenti L4 se třídí podle rozsahu koordinace a hranic pravomoci:
 
 ```elixir
 defmodule PrismaticAgents.Tier.StrategicCommand do
@@ -125,9 +161,11 @@ defmodule PrismaticAgents.Tier.StrategicCommand do
 end
 ```
 
-## Multi-Domain Coordination Engine
+## Engine koordinace více domén
 
-The core capability of L4 agents is orchestrating work across multiple domain-specific teams. The coordination engine decomposes high-level objectives into a directed acyclic graph (DAG) of domain-specific phases, resolves dependencies between phases, and executes them with appropriate concurrency:
+Základní schopností agentů L4 je řízení práce napříč více doménovými týmy. Koordinační engine
+rozkládá cíle vysoké úrovně do orientovaného acyklického grafu (DAG) doménových fází, řeší
+závislosti mezi fázemi a provádí je s přiměřenou souběžností:
 
 ```elixir
 defmodule PrismaticAgents.StrategicCommand.Coordinator do
@@ -225,9 +263,12 @@ defmodule PrismaticAgents.StrategicCommand.Coordinator do
 end
 ```
 
-## Escalation Protocol
+## Protokol eskalace
 
-L4 agents follow a defined escalation protocol for operations exceeding their authority. The protocol is implemented as a first-class module with [telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) instrumentation for audit trail compliance:
+Agenti L4 postupují u operací, které přesahují jejich pravomoc, podle definovaného protokolu
+eskalace. Protokol je implementován jako plnohodnotný modul s instrumentací
+[telemetrie](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) kvůli
+souladu auditní stopy:
 
 ```elixir
 defmodule PrismaticAgents.StrategicCommand.EscalationProtocol do
@@ -276,9 +317,11 @@ defmodule PrismaticAgents.StrategicCommand.EscalationProtocol do
 end
 ```
 
-## Cross-Team Synthesis
+## Syntéza napříč týmy
 
-L4 agents coordinate between [Color Teams](@/glossary/color-teams.md) when operations require input from multiple security perspectives. This is the most complex coordination pattern because it involves adversarial-cooperative dynamics:
+Agenti L4 koordinují [barevné týmy](@/glossary/color-teams.md), když operace vyžadují vstupy
+z více bezpečnostních perspektiv. Je to nejsložitější vzor koordinace, protože zahrnuje dynamiku
+soupeření a spolupráce zároveň:
 
 ```elixir
 defmodule PrismaticAgents.StrategicCommand.CrossTeamSynthesis do
@@ -335,21 +378,22 @@ defmodule PrismaticAgents.StrategicCommand.CrossTeamSynthesis do
 end
 ```
 
-## L4 Agents in the Platform
+## Agenti L4 v platformě
 
-The platform includes approximately 20 L4 Strategic Command agents, each with defined domain coverage and coordination authority:
+Platforma zahrnuje přibližně 20 agentů strategického velení, každý s vymezeným pokrytím domén
+a koordinační pravomocí:
 
-| Agent | Domain Coverage | Primary Function | Max Domains |
+| Agent | Pokrytí domén | Hlavní funkce | Max. domén |
 |-------|----------------|-----------------|-------------|
-| Security Audit Coordinator | Red + Blue + White + Purple | Multi-team security assessment | 4 |
-| Quality Campaign Manager | Quality + Safety + CI | Cross-domain quality improvement | 3 |
-| Deployment Coordinator | CI + Release + Monitoring | Multi-stage deployment orchestration | 3 |
-| EASM Orchestrator | Perimeter + Intelligence + Rating | External assessment coordination | 3 |
-| Evolution Strategist | AutoEvolve + SEADF + Quality DNA | Platform evolution planning | 3 |
-| Compliance Coordinator | SOC2 + NIS2 + ZKB + GDPR | Multi-framework compliance | 4 |
-| OSINT Campaign Manager | Czech + Global + Sanctions | Multi-source intelligence collection | 3 |
+| Security Audit Coordinator | Red + Blue + White + Purple | bezpečnostní posouzení více týmy | 4 |
+| Quality Campaign Manager | kvalita + bezpečnost + CI | zlepšování kvality napříč doménami | 3 |
+| Deployment Coordinator | CI + vydání + monitorování | vícefázové řízení nasazení | 3 |
+| EASM Orchestrator | Perimeter + zpravodajství + hodnocení | koordinace vnějšího posouzení | 3 |
+| Evolution Strategist | [AutoEvolve](@/glossary/autoevolve.md) + SEADF + Quality DNA | plánování vývoje platformy | 3 |
+| Compliance Coordinator | SOC2 + NIS2 + ZKB + GDPR | soulad s více rámci | 4 |
+| OSINT Campaign Manager | české + globální zdroje + sankce | sběr zpravodajství z více zdrojů | 3 |
 
-## Command and Control Hierarchy
+## Hierarchie velení a řízení
 
 ```
 L5 Supreme Commander / Archer Supreme (4 agents)
@@ -377,21 +421,21 @@ L5 Supreme Commander / Archer Supreme (4 agents)
                 +-- L2 Security Rating Calculator
 ```
 
-## Authority Boundaries
+## Hranice pravomoci
 
-| Authority | L4 Can Do | L4 Must Escalate |
+| Pravomoc | L4 smí | L4 musí eskalovat |
 |-----------|----------|-----------------|
-| Coordination | Coordinate up to 4 domains | 5+ domains require L5 |
-| Override | Override L2-L3 decisions within scope | Platform-wide overrides require L5 |
-| Resources | Allocate within predefined budgets | Budget exceeding threshold requires L5 |
-| Timeline | Manage operations up to 1 week | Multi-week operations require L5 |
-| Impact | Changes affecting specific domains | Changes affecting 50%+ of platform (57+ apps) |
-| Quality Gates | Enforce within coordinated domains | Bypass quality gates requires L5 |
-| Agent Creation | Spawn temporary L1 agents | Create permanent agents requires L5 |
+| Koordinace | koordinovat až 4 domény | 5 a více domén vyžaduje L5 |
+| Přebití | přebít rozhodnutí L2–L3 v rámci rozsahu | přebití v celé platformě vyžaduje L5 |
+| Zdroje | přidělovat v rámci předem stanovených rozpočtů | rozpočet nad prahem vyžaduje L5 |
+| Časový rámec | řídit operace do 1 týdne | vícetýdenní operace vyžadují L5 |
+| Dopad | změny dotýkající se konkrétních domén | změny dotýkající se 50 % a více platformy (57+ aplikací) |
+| Brány kvality | vynucovat v koordinovaných doménách | obejití bran kvality vyžaduje L5 |
+| Vytváření agentů | spouštět dočasné agenty L1 | vytvoření trvalých agentů vyžaduje L5 |
 
-## Usage in the Prismatic Platform
+## Užití v Prismatic Platform
 
-### Invoking Strategic Command
+### Vyvolání strategického velení
 
 ```elixir
 # Multi-domain security audit
@@ -412,7 +456,7 @@ L5 Supreme Commander / Archer Supreme (4 agents)
 })
 ```
 
-### CLI Commands
+### Příkazy CLI
 
 ```bash
 # Activate strategic coordination
@@ -428,55 +472,74 @@ L5 Supreme Commander / Archer Supreme (4 agents)
 /strategic-command plans --active
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Define clear authority boundaries**. L4 agents should know exactly what they can do and when they must escalate. Ambiguous boundaries lead to either paralysis (always escalating) or overreach (never escalating). The Prismatic Platform encodes boundaries as data in the agent specification rather than relying on runtime judgment.
+1. **Jasně vymezit hranice pravomoci.** Agenti L4 mají přesně vědět, co smějí a kdy musí
+   eskalovat. Nejasné hranice vedou buď k paralýze (stálé eskalování), nebo k překročení
+   pravomoci (nikdy neeskalovat). Prismatic Platform kóduje hranice jako data ve specifikaci
+   agenta, nespoléhá na úsudek za běhu.
+2. **Plánovat koordinační fáze před exekucí.** Operace napříč doménami se mají plánovat jako
+   orientovaný acyklický graf fází s výslovnými závislostmi, ne provádět jako nahodilé sledy.
+   Topologické řazení zaručuje pořadí exekuce bez uváznutí.
+3. **Sledovat závislosti fází kvůli uváznutí.** Závisejí-li fáze na sobě navzájem, mohou kruhové
+   závislosti způsobit uváznutí. Topologickým řazením lze cykly odhalit před začátkem exekuce.
+   Koordinátor při zjištění cyklu vrací `{:error, :circular_dependency}`.
+4. **Komunikovat napříč týmy strukturovanými rozhraními.** Agenti L4 nemají zasahovat do vnitřku
+   agentů L2–L3. Pro veškerou komunikaci mezi týmy se používají definovaná příkazová rozhraní,
+   což zachovává zapouzdření a umožňuje nezávislý vývoj specializovaných agentů.
+5. **Zaznamenávat koordinační rozhodnutí pro audit.** Strategická rozhodnutí o koordinaci domén,
+   přidělení zdrojů a eskalaci se zaznamenávají přes telemetrii pro přezkum po operaci a jako
+   doklad souladu.
+6. **Zavést strategie návratu.** Operace napříč doménami mohou selhat v průběhu. Agenti L4 musí
+   pro každý koordinační plán definovat strategii návratu (kompenzovat, přerušit, nebo ručně),
+   aby byla zachována konzistence systému.
 
-2. **Plan coordination phases before execution**. Multi-domain operations should be planned as a directed acyclic graph of phases with explicit dependencies, not executed as ad-hoc sequences. The topological sort guarantees deadlock-free execution ordering.
+## Časté chyby
 
-3. **Monitor phase dependencies for deadlocks**. When phases depend on each other, circular dependencies can cause deadlocks. Use topological sorting to detect cycles before execution begins. The coordinator raises `{:error, :circular_dependency}` when cycles are detected.
+- **Stát se úzkým hrdlem**: musí-li veškerá komunikace napříč doménami procházet přes L4, stane se
+  koordinační vrstva úzkým hrdlem propustnosti. U rutinních operací, které strategický dohled
+  nepotřebují, povolit přímou komunikaci L3–L3.
+- **Překoordinovávat jednoduché operace**: ne každá operace napříč doménami potřebuje koordinaci
+  L4. Operace dvou domén s jasnými hranicemi lze řešit na úrovni L3 přímým delegováním.
+- **Příliš agresivně eskalovat**: agenti L5 Supreme mají pravomoc nad celou platformou. Eskalace
+  rutinních operací napříč doménami plýtvá nejvyšší autoritou na taktická rozhodnutí.
+- **Přehlížet kritéria eskalace**: neeskalovat, když jsou kritéria splněna, je stejně nebezpečné
+  jako eskalovat příliš. Změny kritické infrastruktury musí vždy dojít k L5 bez ohledu na míru
+  důvěry L4.
+- **Míchat koordinaci s exekucí**: agenti L4 koordinují, doménové úlohy přímo neprovádějí. Agent
+  L4, který začne dělat práci L2, ztratil koordinační perspektivu.
 
-4. **Communicate across teams through structured interfaces**. L4 agents should not reach into L2-L3 agent internals. Use the defined command interfaces for all cross-team communication, preserving encapsulation and enabling independent evolution of specialist agents.
+## Související
 
-5. **Log coordination decisions for audit**. Strategic decisions about domain coordination, resource allocation, and escalation are logged via [telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) for post-operation review and compliance evidence.
+**Pojmy platformy v tomto glosáři**
 
-6. **Implement rollback strategies**. Multi-domain operations can fail partway through. L4 agents must define rollback strategies (compensate, abort, or manual) for each coordination plan to maintain system consistency.
+- [Agent Tier](@/glossary/agent-tier.md) – úplná klasifikace L1–L5.
+- [Tactical Execution](@/glossary/tactical-execution.md) – specialisté L2 koordinovaní úrovní L4.
+- [Supreme Commander](@/glossary/supreme-commander.md) – autorita L5, která přijímá eskalace L4.
+- [Archer Supreme](@/glossary/archer-supreme.md) – agent L5 zaměřený na krize.
+- [AIAD](@/glossary/aiad.md) – standard definic agentů všech úrovní.
+- [Purple Team](@/glossary/purple-team.md) – syntéza napříč týmy na úrovni L3.
+- [Color Teams](@/glossary/color-teams.md) – rámec šesti bezpečnostních týmů koordinovaný L4.
 
-## Common Pitfalls
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Becoming a bottleneck**: If all cross-domain communication must flow through L4, the coordination layer becomes a throughput bottleneck. Allow direct L3-to-L3 communication for routine operations that do not require strategic oversight.
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/),
+  [Telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) – procesní
+  model OTP a instrumentace koordinace.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/).
 
-- **Over-coordinating simple operations**: Not every multi-domain operation needs L4 coordination. Two-domain operations with clear boundaries can be handled at L3 level through direct delegation.
+**Kniha**
 
-- **Escalating too aggressively**: L5 Supreme agents handle platform-wide authority. Escalating routine cross-domain operations wastes Supreme authority on tactical decisions.
-
-- **Ignoring escalation criteria**: Failing to escalate when criteria are met is as dangerous as over-escalating. Critical infrastructure changes must always reach L5 regardless of L4 confidence level.
-
-- **Mixing coordination with execution**: L4 agents coordinate; they do not execute domain-specific tasks directly. An L4 agent that starts performing L2 work has lost its coordination perspective.
-
-## Related Concepts
-
-- [Agent Tier](@/glossary/agent-tier.md) - Full L1-L5 classification system
-- [Tactical Execution](@/glossary/tactical-execution.md) - L2 specialists coordinated by L4
-- [Supreme Commander](@/glossary/supreme-commander.md) - L5 authority receiving L4 escalations
-- [Archer Supreme](@/glossary/archer-supreme.md) - Crisis-focused L5 agent
-- [AIAD](@/glossary/aiad.md) - Agent definition standard for all tiers
-- [Purple Team](@/glossary/purple-team.md) - Cross-team synthesis at L3
-- [Color Teams](@/glossary/color-teams.md) - Six-team security operations framework coordinated by L4
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) - OTP process model backing agent coordination
-- [Telemetry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/telemetry/) - Instrumentation for coordination monitoring
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Full agent catalog
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Command catalog including strategic operations
+- [Strategic Command a detekce EA](@/kompendium/aiad-integration/strategic-command-ea-coordination.md) –
+  koordinace detekce epistemických útoků.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -1,10 +1,10 @@
 +++
-title = "Violation Protocol"
+title = "Violation protocol (protokol porušení)"
 weight = 4
-description = "L1-L4 escalation levels for NM/ND doctrine breaches with deterministic enforcement, audit trails, and automated resolution workflows"
+description = "Úrovně eskalace L1–L4 pro porušení doktríny NM/ND v Prismatic Platform: deterministické vynucení, auditní stopa a pevně dané postupy nápravy."
 
 [taxonomies]
-tags = ["doctrine", "enforcement", "quality", "security", "compliance"]
+tags = ["glossary", "prismatic", "doctrine", "quality", "architecture"]
 
 [extra]
 category = "doctrine"
@@ -24,56 +24,117 @@ use_cases = ["quality-enforcement", "violation-detection", "audit-compliance", "
 prerequisites = ["nm-nd", "quality-gates", "pre-commit-hooks"]
 key_takeaway = "The Violation Protocol transforms quality enforcement from an informal process into a formal state machine with four deterministic escalation levels, ensuring every deviation receives a proportional, auditable response."
 word_count = 2226
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Violation Protocol - Prismatic Platform"
+image_alt = "Violation protocol (protokol porušení) – glosář"
 +++
 
-## Definition & Overview
+## Definice a přehled
 
-The Violation Protocol is the formal escalation and enforcement framework governing responses to breaches of the [NO MERCY, NO DOUBTS (NM/ND) Doctrine](@/glossary/nm-nd.md) within the Prismatic Platform. It defines four precisely calibrated escalation levels---L1 through L4---each mapping to a specific category of violation severity, a prescribed enforcement response, and a resolution authority. The protocol ensures that every quality deviation, incomplete delivery, or doctrine compromise receives a proportional, deterministic, and auditable response.
+Protokol porušení (*Violation Protocol*) je formální rámec eskalace a vynucení, který v Prismatic
+Platform řídí reakce na porušení [doktríny NO MERCY, NO DOUBTS (NM/ND)](@/glossary/nm-nd.md).
+Definuje čtyři přesně odstupňované úrovně eskalace – L1 až L4 –, z nichž každá odpovídá konkrétní
+kategorii závažnosti porušení, předepsané reakci vynucení a autoritě, která porušení řeší.
+Protokol zajišťuje, že každá odchylka od kvality, neúplná dodávka nebo kompromitace doktríny dostane
+přiměřenou, deterministickou a auditovatelnou odpověď.
 
-In traditional software engineering, quality violations are handled informally: code review comments, Jira tickets, or at best, CI pipeline failures that developers can retry or override. The Violation Protocol fundamentally rejects this approach. It treats quality enforcement as a formal system with defined states, transitions, and invariants. Every violation has exactly one correct escalation level, one prescribed response, and one resolution pathway. There is no ambiguity, no negotiation, and no bypass.
+V tradičním softwarovém inženýrství se porušení kvality řeší neformálně: komentáři při code
+review, tikety v Jiře nebo v lepším případě selháními CI pipeline, které mohou vývojáři zopakovat
+nebo přebít. Protokol porušení tento přístup zásadně odmítá. Chápe vynucení kvality jako formální
+systém s definovanými stavy, přechody a invarianty. Každé porušení má právě jednu správnou úroveň
+eskalace, jednu předepsanou reakci a jednu cestu k vyřešení. Neexistuje nejednoznačnost,
+vyjednávání ani obchvat.
 
-The protocol operates across three enforcement domains simultaneously: automated tooling (pre-commit hooks, CI pipelines, quality gates), agent oversight (AIAD agents monitoring code quality in real time), and supreme authority review (L5 agents such as [Archer Supreme](@/glossary/archer-supreme.md) for the most severe violations). This layered enforcement ensures that violations are caught at the earliest possible point and escalated only when the violation severity warrants elevated authority.
+Protokol působí současně ve třech oblastech vynucení: v automatizovaných nástrojích (pre-commit
+hooky, CI pipeline, brány kvality), v dohledu agentů (agenti [AIAD](@/glossary/aiad.md) sledující
+kvalitu kódu v reálném čase) a v přezkumu nejvyšší autoritou (agenti L5, jako je [Archer
+Supreme](@/glossary/archer-supreme.md), u nejzávažnějších porušení). Vrstvené vynucení zajišťuje,
+že porušení se zachytí co nejdříve a eskaluje se jen tehdy, když jeho závažnost vyšší autoritu
+vyžaduje.
 
-The four escalation levels form a strict hierarchy:
+Čtyři úrovně eskalace tvoří přísnou hierarchii:
 
-| Level | Classification | Trigger | Response | Authority |
+| Úroveň | Klasifikace | Spouštěč | Reakce | Autorita |
 |-------|---------------|---------|----------|-----------|
-| **L1** | Minor Deviation | Style issues, naming inconsistencies | Warning + Immediate correction | Agent |
-| **L2** | Quality Violation | Compilation warnings, failed tests, Credo violations | Block + Required correction | System |
-| **L3** | Incomplete Delivery | Stubs, placeholders, TODOs, missing tests | Rejection + Restart | Pipeline |
-| **L4** | Doubt-Compromised | Hook bypass attempts, `--no-verify`, falsified results | Rejection + Supreme Review | L5 Supreme |
+| **L1** | drobná odchylka | problémy stylu, nejednotné pojmenování | varování + okamžitá oprava | agent |
+| **L2** | porušení kvality | varování při kompilaci, neprošlé testy, porušení Credo | blokace + povinná oprava | systém |
+| **L3** | neúplná dodávka | stuby, zástupné kódy, TODO, chybějící testy | odmítnutí + restart | pipeline |
+| **L4** | kompromitováno pochybností | pokusy obejít hooky, `--no-verify`, zfalšované výsledky | odmítnutí + Supreme Review | L5 Supreme |
 
-## Historical Context and Motivation
+Pro Kompendium je protokol porušení pojmem z kontextu platformy a týká se výhradně softwarových
+artefaktů. Kniha upozorňuje, že stupňované tresty, „restart od nuly“ a přezkum nejvyšší autoritou
+mají v lidských skupinách opačný význam – jsou typickými prvky kontroly chování v prostředích
+s vysokou mírou kontroly (viz [model BITE](@/glossary/bite-model.md)); u lidí kniha vychází
+z odpovědnosti s možností odvolání a z ochrany toho, kdo chybu přizná.
 
-The Violation Protocol was formalized in Generation 6 of the Prismatic Platform's evolution, during the period when [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) were being introduced systematically. Before the protocol's existence, quality enforcement was binary: checks either passed or failed, with no distinction between a minor formatting issue and a deliberate hook bypass attempt. This lack of granularity created two problems.
+## Historický kontext a motivace
 
-First, developers treated all failures equally, applying minimal effort to pass the gate regardless of the underlying issue's severity. A compilation warning received the same attention as a stub implementation, despite the fact that the latter represents a fundamentally different category of quality risk. Second, there was no escalation pathway for systemic violations. When a pattern of repeated failures indicated a deeper process problem rather than an isolated coding mistake, the enforcement system had no mechanism to escalate beyond the immediate blocking action.
+Protokol porušení byl formalizován v 6. generaci vývoje Prismatic Platform, v období systematického
+zavádění [bran kvality](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/).
+Před jeho vznikem bylo vynucení kvality binární: kontroly buď prošly, nebo neprošly, bez rozlišení
+mezi drobnou chybou formátování a záměrným pokusem obejít hook. Tento nedostatek jemnosti vytvářel
+dva problémy.
 
-The four-level classification system emerged from analyzing historical violations across the platform's first five generations. The analysis revealed four natural clusters of violation severity: cosmetic deviations that did not affect correctness (L1), functional quality failures caught by tooling (L2), fundamental completeness failures requiring rework (L3), and integrity violations that undermined the enforcement system itself (L4). Each cluster required a distinct response strategy, and the protocol formalized these responses into a deterministic framework.
+Zaprvé vývojáři zacházeli se všemi selháními stejně a vynaložili minimum úsilí, aby branou prošli,
+bez ohledu na závažnost podkladového problému. Varování při kompilaci dostalo stejnou pozornost
+jako stub, přestože ten představuje zásadně jinou kategorii rizika kvality. Zadruhé neexistovala
+eskalační cesta pro systémová porušení. Když vzorec opakovaných selhání ukazoval na hlubší problém
+procesu, a ne na ojedinělou chybu v kódu, neměl systém vynucení mechanismus, jak eskalovat nad
+rámec okamžité blokace.
 
-The decision to make the protocol a formal state machine rather than a set of guidelines was deliberate. State machines provide verifiable correctness properties: every state has defined transitions, every transition has preconditions, and the system's behavior is deterministic and auditable. This formality aligns with the platform's broader commitment to treating quality enforcement as an engineering discipline rather than a social convention.
+Čtyřúrovňová klasifikace vznikla z analýzy historických porušení v prvních pěti generacích
+platformy. Analýza odhalila čtyři přirozené shluky závažnosti: kosmetické odchylky, které
+neovlivňují správnost (L1), funkční selhání kvality zachycená nástroji (L2), zásadní selhání
+úplnosti vyžadující přepracování (L3) a porušení integrity, která podkopávají samotný systém
+vynucení (L4). Každý shluk vyžadoval odlišnou strategii reakce a protokol tyto reakce formalizoval
+do deterministického rámce.
 
-## Technical Deep Dive
+Rozhodnutí udělat z protokolu formální stavový automat místo souboru doporučení bylo záměrné.
+Stavové automaty mají ověřitelné vlastnosti správnosti: každý stav má definované přechody, každý
+přechod má předpoklady a chování systému je deterministické a auditovatelné. Tato formálnost
+odpovídá širšímu závazku platformy chápat vynucení kvality jako inženýrskou disciplínu, ne jako
+společenskou konvenci.
 
-### Escalation Level Semantics
+## Technický rozbor
 
-Each violation level carries precise semantic meaning that determines both the enforcement response and the resolution pathway.
+### Sémantika úrovní eskalace
 
-**L1 - Minor Deviation** represents cosmetic or stylistic departures from platform standards. These include variable naming inconsistencies, suboptimal but functional code patterns, missing documentation on internal helper functions, or minor formatting deviations. L1 violations do not affect correctness or security. The response is a warning with immediate correction expected in the same commit or work session. L1 violations are tracked but do not block progress.
+Každá úroveň porušení nese přesný význam, který určuje reakci vynucení i cestu k vyřešení.
 
-**L2 - Quality Violation** represents functional quality failures detected by automated tooling. Compilation warnings (under `--warnings-as-errors`), [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) strict violations, [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) type errors, failed unit tests, and coverage regressions all trigger L2. The response is a hard block: the commit, merge, or deployment is rejected until the violation is corrected. L2 violations require the developer or agent to fix the issue and re-submit through the full quality gate pipeline.
+**L1 – drobná odchylka** představuje kosmetické nebo stylistické odchylky od standardů
+platformy: nejednotné pojmenování proměnných, méně vhodné, ale funkční vzory kódu, chybějící
+dokumentaci interních pomocných funkcí nebo drobné odchylky formátování. Porušení L1 neovlivňují
+správnost ani bezpečnost. Reakcí je varování s očekávanou okamžitou opravou v témže commitu nebo
+pracovním sezení. Porušení L1 se sledují, ale neblokují postup.
 
-**L3 - Incomplete Delivery** represents work product that fails to meet the NM/ND completeness standard. Stub implementations, placeholder functions returning hardcoded values, TODO or FIXME comments left in production code, mock implementations where real ones are required, and missing regression tests for bug fixes all trigger L3. The response is rejection with restart: the entire deliverable is rejected, and the work must be redone from scratch rather than patched incrementally. This ensures that incomplete work is never built upon.
+**L2 – porušení kvality** představuje funkční selhání kvality odhalená automatizovanými nástroji.
+Varování při kompilaci (pod `--warnings-as-errors`), striktní porušení
+[Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/), typové chyby
+[Dialyzeru](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/), neprošlé
+jednotkové testy a regrese pokrytí spouštějí L2. Reakcí je tvrdá blokace: commit, sloučení nebo
+nasazení se odmítne, dokud se porušení neopraví. Porušení L2 vyžaduje, aby vývojář nebo agent
+problém opravil a znovu ho odeslal celou pipeline bran kvality.
 
-**L4 - Doubt-Compromised** represents the most severe category: violations that undermine the integrity of the enforcement system itself. Using `git commit --no-verify` to bypass pre-commit hooks, using `git push --no-verify`, falsifying test results, disabling quality gates, or any attempt to circumvent the enforcement pipeline triggers L4. The response is rejection plus Supreme Review by L5 authority agents. L4 violations indicate a systemic threat to platform integrity and require investigation by [Archer Supreme](@/glossary/archer-supreme.md) or the Supreme Commander.
+**L3 – neúplná dodávka** představuje výsledek práce, který nesplňuje standard úplnosti NM/ND.
+Stuby, zástupné funkce vracející natvrdo zadané hodnoty, komentáře TODO nebo FIXME ponechané
+v produkčním kódu, mock implementace tam, kde je potřeba skutečná, a chybějící [regresní
+testy](@/glossary/regression-test.md) u oprav chyb spouštějí L3. Reakcí je odmítnutí s restartem:
+celá dodávka se odmítne a práce se musí udělat znovu od začátku, ne postupně záplatovat. Tím se
+zajistí, že na neúplné práci se nikdy nestaví.
 
-### Violation Detection Mechanisms
+**L4 – kompromitováno pochybností** představuje nejzávažnější kategorii: porušení, která
+podkopávají integritu samotného systému vynucení. Použití `git commit --no-verify` k obejití
+pre-commit hooků, `git push --no-verify`, falšování výsledků testů, vypínání bran kvality nebo
+jakýkoli pokus obejít pipeline vynucení spouští L4. Reakcí je odmítnutí a Supreme Review agenty
+autority L5. Porušení L4 ukazují na systémovou hrozbu integritě platformy a vyžadují šetření
+[Archer Supreme](@/glossary/archer-supreme.md) nebo [Supreme
+Commandera](@/glossary/supreme-commander.md).
 
-The Violation Protocol relies on multiple detection layers operating at different stages of the development lifecycle:
+### Mechanismy detekce porušení
+
+Protokol porušení se opírá o několik vrstev detekce působících v různých fázích životního cyklu
+vývoje:
 
 ```
 Developer Action
@@ -97,9 +158,11 @@ Developer Action
 [Supreme Review] --------> L4 Investigation (integrity analysis)
 ```
 
-### Violation Classification Algorithm
+### Algoritmus klasifikace porušení
 
-The classification algorithm uses pattern matching to deterministically assign violation levels based on the violation type. The algorithm is designed to be exhaustive, covering every known violation category with no ambiguity:
+Klasifikační algoritmus používá porovnávání se vzorem k deterministickému přiřazení úrovně porušení
+podle jeho typu. Algoritmus je navržen jako úplný – pokrývá každou známou kategorii porušení bez
+nejednoznačnosti:
 
 ```elixir
 defmodule PrismaticSafety.ViolationClassifier do
@@ -133,11 +196,12 @@ defmodule PrismaticSafety.ViolationClassifier do
 end
 ```
 
-## Architecture & Implementation
+## Architektura a implementace
 
-### Violation State Machine
+### Stavový automat porušení
 
-The Violation Protocol implements a formal state machine where each violation transitions through defined states:
+Protokol porušení implementuje formální stavový automat, v němž každé porušení prochází
+definovanými stavy:
 
 ```elixir
 defmodule PrismaticSafety.ViolationProtocol do
@@ -204,9 +268,10 @@ defmodule PrismaticSafety.ViolationProtocol do
 end
 ```
 
-### Enforcement Pipeline Integration
+### Napojení na pipeline vynucení
 
-The Violation Protocol integrates with the platform's multi-stage enforcement pipeline. Each enforcement point is responsible for detecting specific violation categories and escalating appropriately:
+Protokol porušení je napojen na vícefázovou pipeline vynucení platformy. Každý bod vynucení
+odpovídá za odhalení konkrétních kategorií porušení a jejich přiměřenou eskalaci:
 
 ```elixir
 defmodule PrismaticSafety.EnforcementPipeline do
@@ -251,68 +316,92 @@ defmodule PrismaticSafety.EnforcementPipeline do
 end
 ```
 
-### Audit Trail
+### Auditní stopa
 
-Every violation generates an immutable audit record. The audit trail captures the full lifecycle of the violation from detection through resolution, providing traceability for compliance and post-incident analysis:
+Každé porušení vytváří neměnný auditní záznam. Auditní stopa zachycuje celý životní cyklus
+porušení od detekce po vyřešení a zajišťuje dohledatelnost pro soulad i analýzu po incidentu:
 
-| Field | Description | Example |
+| Pole | Popis | Příklad |
 |-------|-------------|---------|
-| `violation_id` | Unique identifier | `VP-2026-00847` |
-| `level` | Escalation level | `:l2` |
-| `detected_at` | UTC timestamp | `2026-02-15T10:32:18Z` |
-| `detected_by` | Detection mechanism | `:pre_commit_hook` |
-| `source_file` | File triggering violation | `apps/prismatic_web/lib/router.ex` |
-| `description` | Human-readable description | `Unused variable warning on line 47` |
-| `resolution` | How it was resolved | `Variable removed in commit abc123` |
-| `resolved_at` | Resolution timestamp | `2026-02-15T10:35:42Z` |
+| `violation_id` | jedinečný identifikátor | `VP-2026-00847` |
+| `level` | úroveň eskalace | `:l2` |
+| `detected_at` | časové razítko UTC | `2026-02-15T10:32:18Z` |
+| `detected_by` | mechanismus detekce | `:pre_commit_hook` |
+| `source_file` | soubor, který porušení vyvolal | `apps/prismatic_web/lib/router.ex` |
+| `description` | popis srozumitelný člověku | `Unused variable warning on line 47` |
+| `resolution` | jak bylo vyřešeno | `Variable removed in commit abc123` |
+| `resolved_at` | razítko vyřešení | `2026-02-15T10:35:42Z` |
 
-## Violation Resolution Workflows
+## Postupy řešení porušení
 
-Each violation level has a distinct resolution workflow, codified into the platform's process documentation and enforced by the state machine:
+Každá úroveň porušení má odlišný postup řešení, kodifikovaný v procesní dokumentaci platformy
+a vynucovaný stavovým automatem.
 
-### L1 Resolution Flow
+### Řešení L1
 
-L1 violations follow an immediate correction workflow. The developer receives a warning message identifying the issue and its location. Correction is expected within the same work session. L1 violations are tracked for pattern detection but do not block the current commit. If an L1 violation recurs more than three times in the same file, the system automatically escalates it to L2, reflecting a persistent quality discipline issue.
+Porušení L1 se řeší okamžitou opravou. Vývojář dostane varování s označením problému a jeho
+umístění. Oprava se očekává v témže pracovním sezení. Porušení L1 se sledují kvůli odhalování
+vzorců, ale aktuální commit neblokují. Opakuje-li se porušení L1 v témže souboru více než třikrát,
+systém ho automaticky eskaluje na L2, protože odráží přetrvávající problém disciplíny kvality.
 
-### L2 Resolution Flow
+### Řešení L2
 
-L2 violations block the current action (commit, merge, or deployment). The developer must fix the specific issue, verify the fix passes all quality checks locally, and resubmit. The fix is re-validated through the full quality gate pipeline. There is no "force push past L2" capability -- the block is absolute until the underlying issue is resolved.
+Porušení L2 blokují aktuální krok (commit, sloučení nebo nasazení). Vývojář musí konkrétní problém
+opravit, lokálně ověřit, že oprava projde všemi kontrolami kvality, a znovu ji odeslat. Oprava se
+znovu ověří celou pipeline bran kvality. Možnost „protlačit se přes L2“ neexistuje – blokace platí
+absolutně, dokud není podkladový problém vyřešen.
 
-### L3 Resolution Flow
+### Řešení L3
 
-L3 violations require a complete restart of the deliverable. The key distinction from L2 is that L3 violations indicate fundamental incompleteness rather than isolated errors. Patching an incomplete implementation incrementally tends to produce fragmented, poorly integrated code. The restart requirement forces a fresh approach, often resulting in a cleaner design. The rejected deliverable is preserved in the audit trail for reference but is not used as a starting point.
+Porušení L3 vyžadují úplný restart dodávky. Klíčový rozdíl oproti L2 je v tom, že L3 ukazuje na
+zásadní neúplnost, ne na ojedinělé chyby. Postupné záplatování neúplné implementace obvykle vede
+k roztříštěnému, špatně integrovanému kódu. Požadavek restartu vynucuje nový přístup, který často
+vede k čistšímu návrhu. Odmítnutá dodávka se pro informaci uchová v auditní stopě, ale nepoužije se
+jako výchozí bod.
 
-### L4 Resolution Flow
+### Řešení L4
 
-L4 violations trigger the most extensive workflow. The deliverable is rejected, and a Supreme Review is initiated. The L5 authority agent (typically [Archer Supreme](@/glossary/archer-supreme.md)) investigates the violation to determine whether it was accidental (developer error) or intentional (process circumvention). The investigation examines the git history, the specific flags used, and the context of the violation. Resolution requires both fixing the immediate issue and addressing the root cause that led to the integrity violation.
+Porušení L4 spouštějí nejrozsáhlejší postup. Dodávka se odmítne a zahájí se Supreme Review. Agent
+autority L5 (obvykle Archer Supreme) porušení prošetří a určí, zda bylo náhodné (chyba vývojáře),
+nebo záměrné (obcházení procesu). Šetření zkoumá historii gitu, konkrétní použité přepínače
+a kontext porušení. Vyřešení vyžaduje opravit okamžitý problém i kořenovou příčinu, která
+k porušení integrity vedla.
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-The Violation Protocol is deeply integrated into every aspect of the Prismatic Platform's development workflow. It operates continuously across all 115 umbrella applications and the full codebase.
+Protokol porušení je hluboce zapojen do každé stránky vývojového postupu Prismatic Platform.
+Působí nepřetržitě napříč všemi aplikacemi umbrelly (v době zápisu 115) a celou kódovou základnou.
 
-### Pre-Commit Hook Enforcement
+### Vynucení v pre-commit hooku
 
-The `.githooks/pre-commit` script implements multi-phase quality checking. Each phase maps to specific violation levels:
+Skript `.githooks/pre-commit` implementuje vícefázovou kontrolu kvality. Každá fáze odpovídá
+konkrétním úrovním porušení:
 
-- **Phase 1**: Format checking (L1 violations)
-- **Phase 2**: Compilation with `--warnings-as-errors` (L2 violations)
-- **Phase 3**: Credo strict analysis (L2 violations)
-- **Phase 4**: Test execution for changed files (L2 violations)
-- **Phase 5**: Stub and placeholder detection (L3 violations)
-- **Phase 8**: Template validation (L2 violations)
-- **Phase 10**: Design consistency (L1 violations)
+- **fáze 1**: kontrola formátování (porušení L1);
+- **fáze 2**: kompilace s `--warnings-as-errors` (porušení L2);
+- **fáze 3**: striktní analýza Credo (porušení L2);
+- **fáze 4**: spuštění testů pro změněné soubory (porušení L2);
+- **fáze 5**: detekce stubů a zástupných kódů (porušení L3);
+- **fáze 8**: validace šablon (porušení L2);
+- **fáze 10**: konzistence designu (porušení L1).
 
-### Quality Gates Integration
+### Napojení na brány kvality
 
-The `mix quality.gates` task orchestrates the full violation detection suite. It runs all checks in sequence and produces a consolidated violation report. Any L2+ violation causes the gate to fail with a non-zero exit code, blocking the merge pipeline.
+Úloha `mix quality.gates` řídí celou sadu detekce porušení. Spouští všechny kontroly za sebou
+a vytváří souhrnnou zprávu o porušeních. Každé porušení L2 a vyšší způsobí selhání brány
+s nenulovým návratovým kódem, které zablokuje pipeline sloučení.
 
-### Agent Enforcement
+### Vynucení agenty
 
-AIAD agents continuously monitor code changes and classify violations in real time. The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) agent maintains a baseline quality score and triggers violations when the score drops below defined thresholds. Agent-detected violations follow the same L1-L4 escalation pathway as automated tooling violations.
+Agenti AIAD průběžně sledují změny kódu a klasifikují porušení v reálném čase. Agent [Quality
+Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/)
+udržuje výchozí skóre kvality a spouští porušení, když skóre klesne pod stanovené prahy. Porušení
+zjištěná agenty sledují stejnou eskalační cestu L1–L4 jako porušení zjištěná automatizovanými
+nástroji.
 
-## Code Examples
+## Příklady kódu
 
-### Handling Violation Responses
+### Zpracování reakcí na porušení
 
 ```elixir
 defmodule PrismaticSafety.ViolationHandler do
@@ -353,7 +442,7 @@ defmodule PrismaticSafety.ViolationHandler do
 end
 ```
 
-### Violation Metrics Collection
+### Sběr metrik porušení
 
 ```elixir
 defmodule PrismaticSafety.ViolationMetrics do
@@ -392,7 +481,7 @@ defmodule PrismaticSafety.ViolationMetrics do
 end
 ```
 
-### Violation Telemetry Dashboard
+### Telemetrický přehled porušení
 
 ```elixir
 defmodule PrismaticSafety.ViolationDashboard do
@@ -424,84 +513,114 @@ defmodule PrismaticSafety.ViolationDashboard do
 end
 ```
 
-## Comparison with Industry Approaches
+## Srovnání s přístupy v odvětví
 
-The Violation Protocol's formal state machine approach contrasts sharply with how most software organizations handle quality enforcement:
+Přístup protokolu porušení jako formálního stavového automatu se ostře liší od toho, jak vynucení
+kvality řeší většina softwarových organizací:
 
-| Approach | Enforcement Model | Escalation | Auditability | Bypass Resistance |
+| Přístup | Model vynucení | Eskalace | Auditovatelnost | Odolnost vůči obcházení |
 |----------|------------------|------------|--------------|-------------------|
-| **Violation Protocol (Prismatic)** | Formal state machine | L1-L4 deterministic | Full audit trail | L4 triggers Supreme Review |
-| **Code Review Comments** | Social convention | Ad-hoc, reviewer-dependent | Comment history only | Easily dismissed |
-| **CI Pipeline Failures** | Binary pass/fail | None -- all failures equal | Build logs | Retry/re-run |
-| **Jira Tickets** | Manual tracking | Priority labels (P1-P4) | Ticket history | Can be deferred indefinitely |
-| **Sonar Quality Gates** | Threshold-based | Severity levels | Dashboard metrics | Configurable exceptions |
-| **GitHub Required Checks** | Status check pass/fail | None | Check run logs | Admin bypass available |
+| **Protokol porušení (Prismatic)** | formální stavový automat | deterministická L1–L4 | úplná auditní stopa | L4 spouští Supreme Review |
+| **Komentáře v code review** | společenská konvence | nahodilá, závislá na recenzentovi | jen historie komentářů | snadno odbyté |
+| **Selhání CI pipeline** | binární prošlo/neprošlo | žádná – všechna selhání stejná | logy sestavení | opakování/nové spuštění |
+| **Tikety v Jiře** | ruční sledování | štítky priority (P1–P4) | historie tiketu | lze odkládat neomezeně |
+| **Brány kvality Sonar** | podle prahů | úrovně závažnosti | metriky v přehledu | nastavitelné výjimky |
+| **Povinné kontroly GitHubu** | stav kontroly prošlo/neprošlo | žádná | logy běhů kontrol | obchvat pro administrátora |
 
-The key differentiator is that the Violation Protocol combines deterministic classification, proportional response, audit traceability, and bypass resistance into a single integrated framework. Most industry approaches implement only one or two of these properties.
+Klíčový rozdíl je v tom, že protokol porušení spojuje deterministickou klasifikaci, přiměřenou
+reakci, auditní dohledatelnost a odolnost vůči obcházení do jediného integrovaného rámce. Většina
+přístupů v odvětví implementuje jen jednu nebo dvě z těchto vlastností.
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Fix violations immediately**: Never defer an L2 violation to a later commit. The enforcement pipeline blocks progress specifically to prevent quality debt accumulation.
+1. **Opravovat porušení okamžitě**: porušení L2 nikdy neodkládat na pozdější commit. Pipeline
+   vynucení blokuje postup právě proto, aby se nehromadil [dluh kvality](@/glossary/quality-debt.md).
+2. **Brát varování L1 vážně**: porušení L1 sice neblokují, ale jejich vzorec naznačuje
+   upadající disciplínu kódu, která nakonec vyvolá porušení L2 a vyšší.
+3. **Nikdy se nepokoušet o obchvat**: porušení L4 mají nejzávažnější důsledky. Použití
+   `--no-verify` čas neušetří; spustí Supreme Review, které stojí výrazně víc času a podkopává
+   důvěru.
+4. **Psát regresní testy preventivně**: povinný protokol [regresních
+   testů](@/glossary/regression-test.md) existuje, aby bránil opakovaným porušením. Každá oprava
+   chyby musí obsahovat test, který by původní problém zachytil.
+5. **Rozumět klasifikaci**: před řešením porušení pochopit, proč bylo zařazeno právě na danou
+   úroveň. Odmítnutí L3 znamená, že dodávka potřebuje zásadní přepracování, ne postupné záplaty.
+6. **Sledovat trendy porušení**: ke sledování vzorců používat `ViolationMetrics.summary/1`.
+   Rostoucí počet L2 v konkrétní aplikaci signalizuje systémové problémy, které vyžadují
+   architektonickou pozornost.
+7. **Používat auditní stopu k učení**: auditní stopa porušení není jen artefakt souladu, ale zdroj
+   poučení. Analýza historických porušení odhaluje opakující se vzorce, které lze řešit zlepšením
+   nástrojů, dokumentace nebo architektury.
 
-2. **Treat L1 warnings seriously**: While L1 violations do not block, a pattern of L1 violations suggests declining code discipline that will eventually produce L2+ violations.
+## Časté chyby
 
-3. **Never attempt bypass**: L4 violations carry the most severe consequences. Using `--no-verify` does not save time; it triggers Supreme Review, which costs significantly more time and undermines trust.
+- **Postupně záplatovat porušení L3**: L3 (neúplná dodávka) vyžaduje restart, ne záplaty. Vývojáři,
+  kteří se snaží doplnit chybějící části do odmítnuté dodávky bez restartu, často vytvoří
+  roztříštěný, špatně integrovaný kód.
+- **Přehlížet hromadění L1**: porušení L1 jsou jednotlivě neškodná, ale společně ukazují na
+  upadající disciplínu kvality. Týmy, které trvalá porušení L1 tolerují, nakonec zažijí nárůst
+  L2 a L3.
+- **Zaměňovat úroveň porušení s potřebným úsilím**: porušení L2 (varování při kompilaci) může zabrat
+  30 sekund. Porušení L1 (nejednotné pojmenování) může vyžadovat přejmenování v 50 souborech.
+  Úroveň vyjadřuje závažnost pro integritu platformy, ne úsilí potřebné k nápravě.
+- **Předpokládat, že CI zachytí všechno**: [pre-commit
+  hooky](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) jsou
+  první obrannou linií. Spoléhat se při detekci porušení jen na CI zavádí zpoždění mezi porušením
+  a zpětnou vazbou a snižuje produktivitu vývojářů.
+- **Chápat protokol jako trestající**: protokol porušení je mechanismus zajištění kvality, ne systém
+  trestů. Existuje, aby udržoval stav platformy [bez varování](@/glossary/zero-warning-policy.md)
+  a bez dluhu v celé kódové základně.
+- **Nerozlišovat kořenovou příčinu od příznaku**: varování při kompilaci (L2) může být příznakem
+  hlubšího architektonického problému. Oprava varování bez prošetření kořenové příčiny vede
+  k opakovaným porušením v téže oblasti.
 
-4. **Write regression tests preemptively**: The mandatory [regression test](@/glossary/regression-test.md) protocol exists to prevent repeat violations. Every bug fix must include a test that would have caught the original issue.
+## Napojení na disciplínu sezení
 
-5. **Understand the classification**: Before addressing a violation, understand why it was classified at its specific level. An L3 rejection means the deliverable needs fundamental rework, not incremental patching.
+Protokol porušení spolupracuje s protokolem [Session Discipline](@/glossary/session-discipline.md),
+aby se porušení řešila v sezení, v němž vznikla. Disciplína sezení vyžaduje průběžné commity,
+okamžité pushe a lokální ověření testů před každým commitem. Když se během sezení zjistí porušení,
+protokol disciplíny sezení vývojáři nedovolí opravu odložit na pozdější sezení.
 
-6. **Monitor violation trends**: Use `ViolationMetrics.summary/1` to track patterns. A rising L2 count in a specific application signals systemic issues requiring architectural attention.
+Napojení vytváří uzavřenou zpětnou smyčku: porušení se odhalí okamžitě (pre-commit hooky), opraví
+okamžitě (disciplína sezení) a ověří okamžitě (nové spuštění bran kvality). Smyčka odstraňuje mezeru
+mezi detekcí porušení a jeho vyřešením, která sužuje většinu vývojových postupů.
 
-7. **Use the audit trail for learning**: The violation audit trail is not just a compliance artifact. It is a learning resource. Analyzing historical violations reveals recurring patterns that can be addressed through tooling improvements, documentation, or architectural changes.
+## Související
 
-## Common Pitfalls
+**Pojmy platformy v tomto glosáři**
 
-- **Patching L3 violations incrementally**: L3 (Incomplete Delivery) requires restart, not patching. Developers who try to add missing pieces to a rejected deliverable without restarting often produce fragmented, poorly integrated code.
+- [Doktrína NM/ND](@/glossary/nm-nd.md) – řídicí rámec, který protokol vynucuje.
+- [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) – obě ramena doktríny.
+- [Archer Supreme](@/glossary/archer-supreme.md) – agent L5, který provádí Supreme Review u L4.
+- [Regression Test](@/glossary/regression-test.md) – povinný test proti opakovaným porušením.
+- [Quality Debt](@/glossary/quality-debt.md) – nahromaděná porušení sledovaná jako QDP.
+- [Clean Run](@/glossary/clean-run.md) – stav kompilace a testů, který vynucení vyžaduje.
+- [Zero Warning Policy](@/glossary/zero-warning-policy.md) – politika, která z varování dělá L2.
+- [Session Discipline](@/glossary/session-discipline.md) – řešení porušení v témže sezení.
 
-- **Ignoring L1 accumulation**: L1 violations are individually harmless but collectively indicate declining quality discipline. Teams that tolerate persistent L1 violations eventually experience L2 and L3 spikes.
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Confusing violation level with effort required**: An L2 violation (compilation warning) may take 30 seconds to fix. An L1 violation (naming inconsistency) may require renaming across 50 files. The level reflects severity to platform integrity, not effort to resolve.
+- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/),
+  [NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/),
+  [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/),
+  [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/),
+  [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/),
+  [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/),
+  [Schopnosti](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/).
 
-- **Assuming CI catches everything**: [Pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) are the first line of defense. Relying solely on CI for violation detection introduces delay between violation and feedback, reducing developer productivity.
+**Kniha**
 
-- **Treating the protocol as punitive**: The Violation Protocol is a quality assurance mechanism, not a punishment system. It exists to maintain the platform's [zero-warning](@/glossary/zero-warning-policy.md), zero-debt state across the entire codebase.
-
-- **Failing to distinguish root cause from symptom**: A compilation warning (L2) might be a symptom of a deeper architectural issue. Fixing the warning without investigating the root cause leads to repeated violations in the same area.
-
-## Integration with Session Discipline
-
-The Violation Protocol works in concert with the platform's [Session Discipline Protocol](@/glossary/session-discipline.md) to ensure violations are addressed within the session where they occur. Session discipline requires continuous commits, immediate pushes, and local test verification before every commit. When a violation is detected during a session, the session discipline protocol prevents the developer from deferring the fix to a later session.
-
-This integration creates a closed feedback loop: violations are detected immediately (through pre-commit hooks), fixed immediately (through session discipline), and verified immediately (through re-running quality gates). The loop eliminates the gap between violation detection and resolution that plagues most development workflows.
-
-## Related Concepts
-
-- [NM/ND Doctrine](@/glossary/nm-nd.md) - The governing framework that the Violation Protocol enforces
-- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Zero tolerance enforcement principle triggering violations
-- [NO DOUBTS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) - Evidence-based decision principle preventing L4 doubt-compromised states
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Automated enforcement pipeline detecting L2+ violations
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - First enforcement point in the violation detection chain
-- [Archer Supreme](@/glossary/archer-supreme.md) - L5 agent conducting Supreme Review for L4 violations
-- [Regression Test](@/glossary/regression-test.md) - Mandatory test preventing repeat violations
-- [Quality Debt](@/glossary/quality-debt.md) - Accumulated violations tracked as Quality Debt Points before elimination
-- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) - Static analysis tool detecting L2 violations
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) - Type analysis tool detecting L2 violations
-- [Clean Run](@/glossary/clean-run.md) - The compilation and test state required by enforcement
-- [Zero Warning Policy](@/glossary/zero-warning-policy.md) - The policy that makes compilation warnings L2 violations
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Application ecosystem governed by the Violation Protocol
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) - Platform enforcement capabilities
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – co kniha
+  z platformy přebírá.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

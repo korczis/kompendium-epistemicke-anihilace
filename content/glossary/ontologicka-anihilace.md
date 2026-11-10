@@ -2,10 +2,10 @@
 title = "Ontologická anihilace"
 weight = 60
 
-description = "Destrukce základních kategorií bytí, podle kterých subjekt strukturuje svou zkušenost reality — narušení fundamentálních ontologických rozlišení."
+description = "Rozpad základních kategorií bytí, jimiž člověk strukturuje zkušenost reality – já a svět, skutečné a simulované, fakt a hodnota; nejhlubší vrstva taxonomie anihilace."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
+tags = ["glossary", "epistemic", "ontologicka-anihilace", "anihilacni-fenomeny", "kompendium"]
 
 [extra]
 category = "epistemic"
@@ -14,51 +14,156 @@ author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
 word_count = 490
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["ontologická anihilace", "ontological annihilation", "destrukce kategorií"]
 quality_score = 80
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Ontologická anihilace - glossary"
+image_alt = "Ontologická anihilace – glosář"
 +++
 
-## Definition
+## Definice
 
-**Ontologická anihilace** (ontological annihilation) is the destruction of the basic categories of being through which a subject structures their experience of reality — the disruption of fundamental ontological distinctions such as **self vs. world**, **real vs. simulated**, **fact vs. value**, **animate vs. inanimate**, **personal vs. impersonal**, **temporal vs. atemporal**. Unlike epistemic annihilation (which targets the **structure of knowing**) or cognitive annihilation (which targets the **process of thinking**), ontological annihilation targets the **categorical scaffolding of reality itself** as it is structured for the subject.
+**Ontologická anihilace** (*ontological annihilation*) je destrukce základních kategorií bytí,
+jimiž člověk strukturuje svou zkušenost reality – narušení fundamentálních ontologických
+rozlišení, jako jsou **já × svět**, **skutečné × simulované**, **fakt × hodnota**, **živé ×
+neživé**, **osobní × neosobní**, **časové × nadčasové**. Na rozdíl od [epistemické
+anihilace](@/glossary/epistemicka-anihilace.md), která zasahuje **strukturu poznávání**,
+a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md), která zasahuje **proces
+myšlení**, zasahuje ontologická anihilace **kategoriální lešení samotné reality**, jak je pro
+člověka uspořádána.
 
-The phenomenon represents the **deepest** layer of the anihilation taxonomy. Where epistemic annihilation damages how one knows things and cognitive annihilation damages the mental processes by which one operates, ontological annihilation damages the **categorical distinctions that determine what counts as a "thing" at all**.
+Jde o **nejhlubší** vrstvu taxonomie anihilace. Epistemická anihilace poškozuje to, jak člověk
+věci poznává, kognitivní anihilace duševní procesy, jimiž funguje; ontologická anihilace
+poškozuje **kategoriální rozlišení, která určují, co se vůbec počítá jako „věc“**.
 
-Manifestations include:
+## Původ a kontext pojmu
 
-- **Categorical confusion** — inability to maintain stable distinctions between fundamentally different kinds of entities
-- **Boundary collapse** — erosion of the implicit boundary between self and other, inner and outer, fact and interpretation
-- **Existential uncertainty** disproportionate to specific epistemic doubts
-- **Categorical lability** — categories that should be stable for adult cognition become fluid or interchangeable
-- **Reality-status uncertainty** — pervasive doubt about which experiences correspond to "real" versus "constructed" or "implanted"
+Pojem je pracovní kategorií Kompendia. Navazuje na filosofickou tradici kategorií – od
+[Aristotelových kategorií](@/glossary/aristotelovy-kategorie.md) přes [Kantovy
+kategorie](@/glossary/kantovy-kategorie.md) až po fenomenologii žitého světa
+([Lebenswelt](@/glossary/lebenswelt.md)) – a na klinický popis stavů, v nichž se tato
+rozlišení rozvolňují (depersonalizace, derealizace, psychotické rozpady). Původní
+anglická verze hesla neuváděla autora pojmu a ani toto heslo ho nepřipisuje žádnému
+konkrétnímu autorovi.
 
-## Context
+## Jak se projevuje
 
-Ontological annihilation is **rarely** the direct target of explicit techniques in the early kompendium sections — it typically emerges as the **terminal state** of advanced anihilation trajectories rather than as a discrete inducible state. The full Kompendium treats it primarily in **Sekce 05 — Ultramární techniky** (currently in preparation phase, restricted-access).
+- **Kategoriální zmatení** – neschopnost udržet stálá rozlišení mezi zásadně odlišnými druhy
+  entit;
+- **zhroucení hranic** – eroze implicitní hranice mezi já a druhým, vnitřním a vnějším,
+  faktem a výkladem;
+- **existenciální nejistota** nepřiměřená konkrétním epistemickým pochybnostem;
+- **kategoriální labilita** – kategorie, které by v dospělém poznávání měly být stabilní, se
+  stávají tekutými nebo zaměnitelnými;
+- **nejistota o statusu reality** – všudypřítomná pochybnost, které zkušenosti odpovídají
+  „skutečnému“ a které jsou „vytvořené“ nebo „implantované“.
 
-Phenomenologically, the state shares features with certain mystical disintegrative experiences described in religious traditions and with severe psychotic episodes — but the etiology is distinct: ontological annihilation is **systemically induced** through sustained anihilation pressure, not endogenous to the subject. Differential diagnosis is essential because the appropriate clinical response differs significantly.
+V rozhovoru se to ukazuje například otázkami, zda vlastní vzpomínky „vůbec patří“ dotyčnému,
+nejistotou, zda jsou blízcí „skuteční“, nebo neschopností rozlišit, zda je něco fakt, nebo
+názor, i u banálních věcí.
 
-In Prismatic-relevant defensive applications, ontological annihilation functions primarily as an **outcome marker** — a signal that a subject has progressed through earlier stages of damage and is now in a state requiring intensive structured intervention. The platform's threat models include ontological annihilation indicators specifically because their emergence in monitored populations (whistleblowers, defectors from manipulative communities, victims of sustained gaslighting) signals the highest-priority intervention scenario.
+## Mechanismus
 
-Recovery from ontological annihilation is possible but typically requires **months to years** of structured reconstruction. The standard therapeutic approach involves rebuilding ontological categories from the most basic distinctions outward — re-establishing self/world boundary first, then animate/inanimate, then fact/interpretation — rather than trying to address higher-order categories directly.
+Ontologická anihilace je v raných oddílech Kompendia **zřídka** přímým cílem výslovných
+technik – obvykle se objevuje jako **terminální stav** pokročilých trajektorií anihilace,
+ne jako samostatně vyvolatelný stav. Kompendium ji podrobně rozebírá v oddílu [05 –
+Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md), například u technik
+[EA-5.2.11 Kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md),
+[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)
+a [EA-5.1.29 Ontologická exfoliace](@/kompendium/techniques/ea-5-1-29-ontologicka-exfoliace.md).
 
-## See Also
+Strukturálně jde o kumulaci: trvalé popírání vnímání (gaslighting), rozvolňování pojmů
+a izolace od lidí, kteří by mohli rozlišení potvrdit, se postupně přesunou z otázky „co je
+pravda“ k otázce „co je vůbec skutečné“. Popis slouží k rozpoznání stavu a jeho příčin.
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Frequently the precursor
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Often co-occurs
-- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) — Related but distinct in scope
-- [Epistemická alienace](@/glossary/epistemicka-alienace.md) — Often presents in transition
-- [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+## Odlišení
+
+Fenomenologicky stav sdílí rysy s některými mystickými rozpadovými zážitky popisovanými
+v náboženských tradicích (viz [mystický prožitek](@/glossary/mysticky-prozitek.md),
+[ego death](@/glossary/ego-death.md)) a se závažnými psychotickými epizodami – etiologie je
+však odlišná: ontologická anihilace je **systémově navozená** trvalým anihilačním tlakem,
+nevzniká endogenně v člověku. Diferenciální diagnostika je nezbytná, protože vhodná klinická
+odpověď se výrazně liší:
+
+- **psychóza** – bludy a halucinace s vlastní dynamikou, často bez vnějšího zdroje tlaku;
+  vyžaduje psychiatrické vyšetření (viz [diferenciální diagnostiku EA a
+  psychózy](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md));
+- **depersonalizace a derealizace** – [depersonalizace](@/glossary/depersonalizace.md) může
+  být součástí obrazu, ale sama nezahrnuje rozpad kategorií fakt × hodnota apod.;
+- **filosofický [skepticismus](@/glossary/skepticismus.md)** – teoretická pochybnost o realitě bez ztráty každodenní
+  orientace (srov. [solipsismus](@/glossary/solipsismus.md));
+- **mystický nebo psychedelický zážitek** – přechodný, často prožívaný jako smysluplný,
+  s návratem kategorií.
+
+## Význam pro Kompendium
+
+V obranných aplikacích relevantních pro Prismatic Platform slouží ontologická anihilace
+především jako **ukazatel výsledku** – signál, že člověk prošel dřívějšími stadii poškození
+a nyní je ve stavu, který vyžaduje intenzivní strukturovanou intervenci. Modely hrozeb
+platformy obsahují ukazatele ontologické anihilace právě proto, že jejich výskyt
+v monitorovaných populacích (oznamovatelé, lidé odcházející z manipulativních komunit, oběti
+dlouhodobého [gaslightingu](@/glossary/gaslighting.md)) signalizuje intervenční scénář
+s nejvyšší prioritou. Kniha k tomu dodává, že jde o klinickou kategorii pro práci
+s konkrétním člověkem se souhlasem, ne o nástroj plošného hodnocení.
+
+## Obrana a zotavení
+
+Zotavení z ontologické anihilace je možné, ale obvykle vyžaduje **měsíce až roky**
+strukturované rekonstrukce. Standardní terapeutický přístup buduje ontologické kategorie
+znovu od nejzákladnějších rozlišení směrem ven – nejdřív obnovit hranici já × svět, potom
+živé × neživé, potom fakt × výklad –, místo aby se pokoušel řešit kategorie vyššího řádu
+přímo. Prakticky to znamená:
+
+1. **bezpečí a odstranění zdroje tlaku**, jinak rekonstrukce nemá na čem stát (protokol
+   [Akutní stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md));
+2. **tělesné ukotvení** – smyslové a tělesné kotvy obnovují hranici já × svět (srov.
+   [embodied cognition](@/glossary/embodied-cognition.md));
+3. **sdílená realita s bezpečnými druhými** – postupné ověřování jednoduchých faktů
+   s důvěryhodnými lidmi ([reality testing](@/glossary/reality-testing.md));
+4. **teprve potom** práce s výklady, hodnotami a příběhem.
+
+Pro profesionála: nevykládat stav předčasně jako psychózu ani jako duchovní zážitek, ale
+zmapovat vnější tlak; rozhodovat se zřetelem k riziku [iatrogenní
+újmy](@/glossary/iatrogenic-harm.md).
+
+## Literatura
+
+- Aristotelés: *Kategorie*.
+- Immanuel Kant: *Kritika čistého rozumu* (1781, 2. vyd. 1787).
+- Judith L. Herman: *Trauma and Recovery* (1992) – rámec bezpečí, vzpomínání a znovuspojení,
+  z něhož vychází i pořadí kroků zotavení.
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – častý předstupeň.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – často se vyskytuje souběžně.
+- [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) – příbuzná, ale
+  rozsahem odlišná.
+- [Epistemická alienace](@/glossary/epistemicka-alienace.md) – často se objevuje v přechodu.
+- [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md) – rozpad pojmů, který
+  ontologickému často předchází.
+
+**Techniky a výuka**
+
+- [EA-5.2.11 Kategoriální anihilace](@/kompendium/techniques/ea-5-2-11-kategorialni-anihilace.md) –
+  rozpad celé kategoriální struktury.
+- [Vzdělávací scénář: Ontologický útok](@/kompendium/educational-scenarios/23-ontological-attack.md) –
+  výukový rozbor rozpoznání.
+
+**Kniha**
+
+- [05. Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md) – oddíl, kde je
+  fenomén rozpracován.
+- [Kompendium](@/kompendium/_index.md) – celá česká taxonomie.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

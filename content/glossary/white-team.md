@@ -1,10 +1,10 @@
 +++
-title = "White Team"
+title = "White Team (bílý tým)"
 weight = 23
-description = "Constructive verification team for formal proofs and contract validation"
+description = "Tým konstruktivního ověřování v Prismatic Platform: formální důkazy, validace kontraktů a analýza invariantů, které dokládají, že systém skutečně drží."
 
 [taxonomies]
-tags = ["glossary", "security", "white-team", "prismatic"]
+tags = ["glossary", "prismatic", "color-teams", "evidence", "agents"]
 
 [extra]
 category = "security"
@@ -13,50 +13,86 @@ author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
 word_count = 1233
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["White", "Team", "Constructive", "glossary", "security", "Prismatic Platform", "White Team", "Purple Team", "The White"]
 quality_score = 72
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "White Team - Prismatic Platform"
+image_alt = "White Team (bílý tým) – glosář"
 +++
 
-## Definition & Overview
+## Definice a přehled
 
-The White Team is one of six specialized [Color Teams](@/glossary/color-teams.md) in the Prismatic Platform's epistemic security architecture. Comprising three agents operating at L3-L4 authority levels, the White Team is responsible for constructive verification---the discipline of proving that systems behave correctly through progressive verification methodology, formal mathematical proofs, contract validation, and invariant analysis. Unlike the [Red Team](@/glossary/red-team.md), which seeks to break systems through adversarial simulation, the White Team seeks to prove that systems hold.
+White Team (bílý tým) je jedním ze šesti specializovaných [barevných týmů](@/glossary/color-teams.md)
+v architektuře epistemické bezpečnosti Prismatic Platform. Tvoří ho tři agenti na úrovních
+oprávnění L3–L4 a odpovídá za konstruktivní ověřování – disciplínu dokazování, že se systémy chovají
+správně, pomocí postupné ověřovací metodiky, formálních matematických důkazů, validace kontraktů
+a analýzy invariantů. Na rozdíl od [Red Teamu](@/glossary/red-team.md), který se snaží systémy
+rozbít útočnou simulací, se White Team snaží dokázat, že systémy drží.
 
-The White Team occupies a unique position in the Color Team signal flow architecture. While Red Team generates adversarial findings and [Blue Team](@/glossary/blue-team.md) maintains defensive posture, White Team provides the constructive evidence that systems satisfy their specified properties. This evidence feeds into [Purple Team](@/glossary/purple-team.md) closure decisions, where the combination of adversarial findings (Red), defensive posture (Blue), and constructive proofs (White) determines whether a security question has been definitively answered.
+White Team má v architektuře toku signálů barevných týmů jedinečné postavení. Red Team vytváří
+útočná zjištění a [Blue Team](@/glossary/blue-team.md) udržuje obranné postavení, White Team dodává
+konstruktivní důkazy, že systémy splňují specifikované vlastnosti. Tyto důkazy vstupují do
+rozhodnutí o uzavření v [Purple Teamu](@/glossary/purple-team.md), kde kombinace útočných zjištění
+(Red), obranného postavení (Blue) a konstruktivních důkazů (White) určuje, zda byla bezpečnostní
+otázka definitivně zodpovězena.
 
-All White Team output passes through the [Trinity Gate](@/glossary/trinity-gate.md) before being accepted as verified. This four-layer validation ensures that proofs are structurally consistent (valid DAG in the belief network), logically consistent (propositions follow logical rules), and formally necessary (claims proven in formal systems such as Lean4). The Trinity Gate requirement prevents the acceptance of superficially convincing but fundamentally flawed verification artifacts.
+Veškerý výstup White Teamu prochází před přijetím jako ověřený branou [Trinity
+Gate](@/glossary/trinity-gate.md). Čtyřvrstvá validace zajišťuje, že důkazy jsou strukturně
+konzistentní (platný DAG v síti přesvědčení), logicky konzistentní (výroky se řídí logickými
+pravidly) a formálně nutné (tvrzení dokázaná ve formálních systémech, jako je Lean4). Požadavek
+Trinity Gate brání přijetí povrchně přesvědčivých, ale zásadně vadných ověřovacích artefaktů.
 
-The White Team's progressive verification methodology spans six levels (L0-L5), each representing increasing rigor and confidence:
+Postupná ověřovací metodika White Teamu má šest úrovní (L0–L5), z nichž každá představuje rostoucí
+přísnost a důvěru:
 
-| Level | Name | Method | Confidence |
+| Úroveň | Název | Metoda | Důvěra |
 |-------|------|--------|------------|
-| **L0** | Smoke Test | Basic functionality verification | 0.30 |
-| **L1** | Unit Verification | Individual function contract testing | 0.50 |
-| **L2** | Integration Verification | Cross-module interaction testing | 0.65 |
-| **L3** | Property-Based Verification | QuickCheck/StreamData properties | 0.80 |
-| **L4** | Formal Verification | Lean4 formal proofs | 0.95 |
-| **L5** | Complete Verification | Full formal proof with all invariants | 0.99 |
+| **L0** | kouřový test | ověření základní funkčnosti | 0,30 |
+| **L1** | ověření jednotek | testování kontraktů jednotlivých funkcí | 0,50 |
+| **L2** | integrační ověření | testování interakcí mezi moduly | 0,65 |
+| **L3** | ověření založené na vlastnostech | vlastnosti QuickCheck/StreamData | 0,80 |
+| **L4** | formální ověření | formální důkazy v Lean4 | 0,95 |
+| **L5** | úplné ověření | úplný formální důkaz se všemi invarianty | 0,99 |
 
-The progression through these levels is not always linear. White Team agents assess the risk profile of each verification target and determine the appropriate starting level. Critical security properties may begin at L3 or L4, while routine functional contracts start at L0 and progress upward as needed.
+Průchod těmito úrovněmi není vždy lineární. Agenti White Teamu posuzují rizikový profil každého cíle
+ověření a určují vhodnou výchozí úroveň. Kritické bezpečnostní vlastnosti mohou začít na L3 nebo L4,
+rutinní funkční kontrakty začínají na L0 a postupují nahoru podle potřeby.
 
-## Technical Deep Dive
+Pro Kompendium je White Team pojmem z kontextu platformy. Kniha z něj přebírá rozlišení, které je
+užitečné i v klinické a forenzní práci: *doložit, že něco drží* (konstruktivní důkaz), je jiný úkol
+než *nenajít, co to rozbije* (absence vyvrácení). Absence nalezené manipulace ještě není důkazem
+její nepřítomnosti (srov. axiom informativní absence v hesle [Axiomy NABLA](@/glossary/nabla-axioms.md)).
 
-### Agent Composition
+## Technický rozbor
 
-The White Team consists of three agents with distinct specializations and authority levels:
+### Složení agentů
 
-**white-verifier-commander (L3 Strategic Commander)** orchestrates all White Team verification campaigns. The commander receives verification requests from Purple Team, assesses target risk profiles, allocates specialist agents, and constructs composite proofs from individual verification artifacts. The commander has authority to escalate verification requirements when initial results indicate higher risk than anticipated.
+White Team tvoří tři agenti s odlišnou specializací a úrovní oprávnění:
 
-**white-contract-validator (L4 Operational Specialist)** specializes in interface contract testing across three domains: behavioral contracts (function input/output specifications), protocol contracts (message-passing and state machine compliance), and API contracts (endpoint request/response schemas). Contract validation ensures that modules, services, and APIs conform to their declared interfaces under all specified conditions.
+**white-verifier-commander (L3 Strategic Commander)** řídí všechny ověřovací kampaně White Teamu.
+Velitel přijímá požadavky na ověření od Purple Teamu, posuzuje rizikové profily cílů, přiděluje
+specializované agenty a sestavuje složené důkazy z jednotlivých ověřovacích artefaktů. Má pravomoc
+zpřísnit požadavky na ověření, když první výsledky ukazují na vyšší riziko, než se předpokládalo.
 
-**white-invariant-prover (L4 Operational Specialist)** handles the most rigorous verification activities: property-based testing using StreamData, formal proof construction in Lean4, and fault injection analysis. This agent proves that system invariants---properties that must always hold regardless of input or state---are mathematically guaranteed. The invariant prover also performs fault injection analysis, verifying that systems maintain their invariants even under degraded conditions.
+**white-contract-validator (L4 Operational Specialist)** se specializuje na testování kontraktů
+rozhraní ve třech oblastech: behaviorální kontrakty (specifikace vstupů a výstupů funkcí),
+protokolové kontrakty (soulad s předáváním zpráv a stavovými automaty) a kontrakty API (schémata
+požadavků a odpovědí endpointů). Validace kontraktů zajišťuje, že moduly, služby a API odpovídají
+deklarovaným rozhraním za všech specifikovaných podmínek.
 
-### Verification Methodology
+**white-invariant-prover (L4 Operational Specialist)** zajišťuje nejpřísnější ověřovací činnosti:
+testování založené na vlastnostech pomocí StreamData, konstrukci formálních důkazů v Lean4 a analýzu
+vkládání chyb. Agent dokazuje, že systémové invarianty – vlastnosti, které musí platit vždy, bez
+ohledu na vstup nebo stav – jsou matematicky zaručeny. Analýzou vkládání chyb ověřuje, že systémy
+své invarianty udrží i v degradovaných podmínkách.
 
-The White Team's verification methodology is constructive rather than destructive. Where Red Team asks "Can I break this?", White Team asks "Can I prove this holds?". The distinction is fundamental: constructive verification produces positive evidence of correctness, while adversarial testing produces negative evidence of vulnerability. Both are necessary for complete security assurance.
+### Ověřovací metodika
+
+Ověřovací metodika White Teamu je konstruktivní, ne destruktivní. Red Team se ptá „Dokážu to
+rozbít?“, White Team se ptá „Dokážu doložit, že to drží?“. Rozdíl je zásadní: konstruktivní ověření
+vytváří pozitivní důkaz správnosti, útočné testování negativní důkaz zranitelnosti. Pro úplnou
+bezpečnostní jistotu je potřeba obojí.
 
 ```
 Verification Request
@@ -83,15 +119,19 @@ Verification Request
 [Purple Team Delivery] --> Evidence feeds into closure decisions
 ```
 
-### Non-Destructive Operation
+### Nedestruktivní provoz
 
-A critical constraint on White Team operations is non-destructiveness. White Team agents must never modify the systems they verify. All verification activities are read-only or operate on isolated copies. This constraint ensures that verification itself cannot introduce defects or alter system behavior. The evidence artifacts produced are pure data structures---proof trees, test results, contract compliance reports---with no side effects on the target system.
+Zásadním omezením operací White Teamu je nedestruktivnost. Agenti White Teamu nesmějí nikdy měnit
+systémy, které ověřují. Veškeré ověřovací činnosti jsou jen pro čtení nebo pracují s izolovanými
+kopiemi. Toto omezení zajišťuje, že samo ověřování nemůže zavést vady ani změnit chování systému.
+Vytvářené důkazní artefakty jsou čisté datové struktury – stromy důkazů, výsledky testů, zprávy
+o souladu s kontrakty – bez vedlejších účinků na cílový systém.
 
-## Architecture & Implementation
+## Architektura a implementace
 
-### Verification Engine
+### Ověřovací engine
 
-The White Team's verification engine implements the progressive methodology as a composable pipeline:
+Ověřovací engine White Teamu implementuje postupnou metodiku jako skládatelnou pipeline:
 
 ```elixir
 defmodule PrismaticDark.WhiteTeam.VerificationEngine do
@@ -160,9 +200,9 @@ defmodule PrismaticDark.WhiteTeam.VerificationEngine do
 end
 ```
 
-### Contract Validation
+### Validace kontraktů
 
-The contract validator checks three categories of contracts:
+Validátor kontraktů kontroluje tři kategorie kontraktů:
 
 ```elixir
 defmodule PrismaticDark.WhiteTeam.ContractValidator do
@@ -230,9 +270,9 @@ defmodule PrismaticDark.WhiteTeam.ContractValidator do
 end
 ```
 
-### Invariant Proving
+### Dokazování invariantů
 
-The invariant prover handles property-based testing and formal verification:
+Dokazovač invariantů zajišťuje testování založené na vlastnostech a formální ověření:
 
 ```elixir
 defmodule PrismaticDark.WhiteTeam.InvariantProver do
@@ -278,11 +318,11 @@ defmodule PrismaticDark.WhiteTeam.InvariantProver do
 end
 ```
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-### Signal Flow Position
+### Pozice v toku signálů
 
-In the Color Team signal flow architecture, the White Team occupies the constructive verification position:
+V architektuře toku signálů barevných týmů zaujímá White Team pozici konstruktivního ověřování:
 
 ```
 Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) --> Blue (defense)
@@ -291,65 +331,91 @@ Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) -->
                                Black (threat models)     White (proofs)    Platform Defense
 ```
 
-White Team proofs flow into Purple Team, where they are combined with Red Team findings and Blue Team defensive posture to make closure decisions. A security question can only be "closed" when White Team has provided constructive verification that the relevant properties hold, Red Team has exhausted its adversarial scenarios, and Blue Team has confirmed defensive readiness.
+Důkazy White Teamu proudí do Purple Teamu, kde se spojují se zjištěními Red Teamu a obranným
+postavením Blue Teamu k rozhodnutím o uzavření. Bezpečnostní otázku lze „uzavřít“ jen tehdy, když
+White Team dodal konstruktivní ověření, že příslušné vlastnosti platí, Red Team vyčerpal své útočné
+scénáře a Blue Team potvrdil obrannou připravenost.
 
-### SPARKLINE Contract Verification
+### Ověřování kontraktů SPARKLINE
 
-White Team plays a critical role in verifying SPARKLINE contracts. The contract validator ensures that all interface contracts between platform modules are satisfied, preventing integration failures and behavioral regressions. Contract verification is mandatory before SPARKLINE canonicalization.
+White Team hraje klíčovou roli při ověřování kontraktů SPARKLINE. Validátor kontraktů zajišťuje,
+že všechny kontrakty rozhraní mezi moduly platformy jsou splněny, a brání tak integračním selháním
+a regresím chování. Ověření kontraktů je povinné před kanonizací SPARKLINE.
 
-### Trinity Gate Integration
+### Napojení na Trinity Gate
 
-All White Team output must pass the [Trinity Gate](@/glossary/trinity-gate.md) before acceptance. This four-layer gate validates structural consistency, logical consistency, formal necessity, and consciousness alignment. The Trinity Gate requirement ensures that White Team proofs are not merely syntactically correct but semantically meaningful.
+Veškerý výstup White Teamu musí před přijetím projít [Trinity Gate](@/glossary/trinity-gate.md).
+Tato čtyřvrstvá brána ověřuje strukturní konzistenci, logickou konzistenci, formální nutnost
+a – podle původního textu dokumentace – „sladění vědomí“ (*consciousness alignment*); heslo Trinity
+Gate čtvrtou vrstvu popisuje jako metavrstvu integrity. Požadavek Trinity Gate zajišťuje, že důkazy
+White Teamu nejsou jen syntakticky správné, ale i sémanticky smysluplné.
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Start at the appropriate level**: Not every verification target needs L5 formal proofs. Match the verification level to the risk profile. Security-critical invariants warrant L4-L5; routine functional contracts are adequately served by L1-L2.
+1. **Začínat na přiměřené úrovni**: ne každý cíl ověření potřebuje formální důkazy L5. Úroveň
+   ověření se má odpovídat rizikovému profilu. Bezpečnostně kritické invarianty si zaslouží L4–L5,
+   rutinním funkčním kontraktům stačí L1–L2.
+2. **Absolutně dodržovat nedestruktivnost**: agenti White Teamu nesmějí nikdy měnit cílové systémy.
+   I operace čtení je třeba minimalizovat, aby se zabránilo vlivu pozorování na souběžné systémy.
+3. **Vytvářet skládatelné důkazy**: strukturovat důkazní artefakty tak, aby se daly kombinovat do
+   složených důkazů. Izolované výsledky ověření mají menší hodnotu než propojené sítě důkazů.
+4. **Dokumentovat předpoklady ověření**: každý důkaz stojí na předpokladech. Zdokumentovat, jaké
+   podmínky musí platit, aby byl důkaz platný, aby změna těchto podmínek spustila nové ověření.
+5. **Průběžně se napojovat na Purple Team**: důkazy White Teamu mají největší hodnotu, když do Purple
+   Teamu přicházejí v reálném čase a umožňují postupná rozhodnutí o uzavření místo dávkového přezkumu.
+6. **Používat testování založené na vlastnostech jako most**: testování založené na vlastnostech (L3)
+   překlenuje mezeru mezi běžným testováním (L0–L2) a formálním ověřením (L4–L5). Dává vysokou
+   důvěru s nižšími náklady než úplné formální důkazy.
 
-2. **Maintain non-destructiveness absolutely**: White Team agents must never modify target systems. Even read operations should be minimized to avoid observation effects on concurrent systems.
+## Časté chyby
 
-3. **Produce composable evidence**: Structure evidence artifacts so they can be combined into composite proofs. Isolated verification results are less valuable than interconnected proof networks.
+- **Přílišné spoléhání na ověření L0–L1**: kouřové testy a testy kontraktů jednotek dávají omezenou
+  důvěru. Kritické systémy vyžadují ověření L3 a vyšší, aby dosáhly prahů důvěry potřebných pro
+  soulad s [doktrínou NM/ND](@/glossary/nm-nd.md).
+- **Chápat ověření jako jednorázové**: systémy se průběžně vyvíjejí. Důkazy sestavené pro verzi N
+  nemusí platit pro verzi N+1. Při změně cílových systémů je třeba ověření provést znovu (srov.
+  [Regression Test](@/glossary/regression-test.md)).
+- **Zaměňovat testování s dokazováním**: testy ukazují chování pro konkrétní vstupy. Důkazy ukazují
+  chování pro všechny možné vstupy ve specifikované oblasti. Hodnota White Teamu spočívá v postupu
+  od testování (L0–L2) k dokazování (L3–L5).
+- **Zanedbávat údržbu formálních důkazů**: důkazy v Lean4 vyžadují údržbu, když se mění typové
+  signatury, rozhraní modulů nebo systémové invarianty. Neudržované důkazy zastarávají a dávají
+  falešnou jistotu.
+- **Ověřovat izolovaně bez kontextu**: ověření jednotlivých modulů izolovaně mine integrační selhání.
+  Integrační ověření L2 je nezbytné pro zachycení porušení kontraktů mezi moduly.
 
-4. **Document verification assumptions**: Every proof rests on assumptions. Document what conditions must hold for the proof to be valid, so that changes to those conditions trigger re-verification.
+## Související
 
-5. **Integrate with Purple Team continuously**: White Team proofs are most valuable when they arrive at Purple Team in real time, enabling progressive closure decisions rather than batch review.
+**Pojmy platformy v tomto glosáři**
 
-6. **Use property-based testing as the bridge**: L3 property-based testing bridges the gap between conventional testing (L0-L2) and formal verification (L4-L5). It provides high confidence at lower cost than full formal proofs.
+- [Color Teams](@/glossary/color-teams.md) – přehled všech šesti barevných týmů.
+- [Trinity Gate](@/glossary/trinity-gate.md) – čtyřvrstvá brána, která ověřuje výstup White Teamu.
+- [Purple Team](@/glossary/purple-team.md) – přijímá důkazy White Teamu k rozhodnutím o uzavření.
+- [Red Team](@/glossary/red-team.md) – útočný protějšek konstruktivního přístupu.
+- [Blue Team](@/glossary/blue-team.md) – tým obranného postavení doplňující ověřování.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemické axiomy standardů ověřování.
+- [NM/ND](@/glossary/nm-nd.md) – doktrína vyžadující ověření opřené o důkazy.
+- [QEVE](@/glossary/qeve.md) – ověřovací engine, jehož metody White Team používá.
 
-## Common Pitfalls
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Over-reliance on L0-L1 verification**: Smoke tests and unit contract tests provide limited confidence. Critical systems require L3+ verification to achieve confidence thresholds for [NM/ND doctrine](@/glossary/nm-nd.md) compliance.
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) –
+  vynucení kvality, které důkazy White Teamu využívá.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/).
 
-- **Treating verification as one-time**: Systems evolve continuously. Proofs constructed against version N may not hold for version N+1. Verification must be re-executed when target systems change.
+**Kniha**
 
-- **Conflating testing with proving**: Tests demonstrate behavior for specific inputs. Proofs demonstrate behavior for all possible inputs within the specified domain. White Team's value lies in progressing from testing (L0-L2) to proving (L3-L5).
-
-- **Ignoring formal proof maintenance**: Lean4 proofs require maintenance when type signatures, module interfaces, or system invariants change. Unmaintained proofs become stale and provide false confidence.
-
-- **Isolated verification without context**: Verifying individual modules in isolation misses integration failures. L2 integration verification is essential for catching cross-module contract violations.
-
-## Related Concepts
-
-- [Color Teams](@/glossary/color-teams.md) - Full overview of all six color team operations
-- [Trinity Gate](@/glossary/trinity-gate.md) - Four-layer verification gate validating all White Team output
-- [Purple Team](@/glossary/purple-team.md) - Consumes White Team proofs for closure decisions
-- [Red Team](@/glossary/red-team.md) - Adversarial counterpart to White Team's constructive approach
-- [Blue Team](@/glossary/blue-team.md) - Defensive posture team complementing White Team verification
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic axioms governing verification standards
-- [NM/ND Doctrine](@/glossary/nm-nd.md) - Doctrine requiring evidence-based verification
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Platform quality enforcement consuming White Team evidence
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Agent registry including White Team agents
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Application ecosystem verified by White Team
+- [White Team a detekce EA](@/kompendium/aiad-integration/white-team-ea-verification.md) –
+  konstruktivní ověřování v detekci epistemických útoků.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

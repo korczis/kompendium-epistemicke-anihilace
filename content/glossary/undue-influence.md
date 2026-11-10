@@ -1,10 +1,10 @@
 +++
-title = "Undue Influence"
+title = "Undue influence (nepřípustný vliv)"
 weight = 5
-description = "Legal and psychological doctrine recognizing that ostensibly voluntary acts may be the product of overborne free will when one party exerts excessive psychological pressure, exploits a position of trust, or operates in conditions that suppress independent judgment"
+description = "Právní a psychologický institut: zdánlivě dobrovolné jednání může být výsledkem podlomené vůle, když druhá strana zneužije důvěru, závislost nebo izolaci."
 
 [taxonomies]
-tags = ["legal", "ethics", "investigation", "due-diligence", "compliance"]
+tags = ["glossary", "forensic-legal", "legal", "manipulace", "kompendium"]
 
 [extra]
 category = "legal"
@@ -22,41 +22,135 @@ keywords = ["undue influence", "coercion", "free will", "fiduciary duty", "elder
 key_takeaway = "Undue influence is the doctrine that lets the law set aside contracts, wills, and consent obtained when one party's free judgment was overborne by another's psychological pressure, dependency exploitation, or institutional control — even where no overt threat or fraud is present."
 see_also = ["forensic-interview", "expert-witness", "informed-consent"]
 image = "/images/sections/glossary.png"
-image_alt = "Undue Influence - Prismatic Platform"
+image_alt = "Undue influence (nepřípustný vliv) – glosář"
 +++
 
-## Definition
+## Definice
 
-Undue influence is a legal doctrine — with deep roots in equity and modern statutory law — that voids or rescinds transactions, wills, and consents when one party's will was substantially overcome by the improper persuasion of another. Unlike duress (which requires explicit threat) or fraud (which requires misrepresentation), undue influence focuses on the *quality of the consent* in the context of an unequal relationship. Courts examine the relationship between the parties, the susceptibility of the influenced person, the tactics used, and the equity of the resulting transaction.
+**Nepřípustný vliv** (*undue influence*) je právní institut s hlubokými kořeny v ekvitě
+(*equity*) angloamerického práva i v moderní zákonné úpravě, podle něhož lze zneplatnit nebo
+zrušit transakce, závěti a souhlasy, když vůle jedné strany byla podstatně přemožena nepatřičným
+přesvědčováním druhé. Na rozdíl od donucení (*duress*), které vyžaduje výslovnou hrozbu,
+a podvodu (*fraud*), který vyžaduje uvedení v omyl, se nepřípustný vliv soustředí na *kvalitu
+souhlasu* v kontextu nerovného vztahu. Soudy zkoumají vztah mezi stranami, zranitelnost
+ovlivněné osoby, použité postupy a spravedlnost výsledné transakce.
 
-## Manažerské shrnutí
+Typicky jde o důvěrné vztahy: lékař – pacient, advokát – klient, opatrovník – opatrovanec,
+skupina – člen, pečovatel – senior.
 
-Undue influence (nepatřičný vliv) je právní institut, který umožňuje zneplatnit smlouvy, závěti a souhlasy získané v situaci, kdy byla svobodná vůle jedné strany podlomena nepřiměřeným nátlakem druhé strany — typicky v důvěrných vztazích (lékař-pacient, advokát-klient, opatrovník-svěřenec, kult-člen, pečovatel-senior). V due-diligence kontextu jde o klíčové riziko u podpisů provedených staršími nebo zranitelnými osobami, u dárcovských smluv velkých částek, u testamentů uzavřených krátce před úmrtím, a u smluv podepsaných v rámci uzavřených komunit. České právo institut zachycuje skrze § 587 a § 588 OZ (lichva, neplatnost pro stav tísně) a obecné principy poctivosti.
+## Původ a kontext pojmu
 
-## Forensic/Legal Context
+Doktrína se vyvinula v anglickém právu ekvity a v common law se obvykle vyžadují čtyři klasické
+prvky: (1) **zranitelná oběť** (věk, nemoc, izolace, závislost), (2) **příležitost k ovlivnění**
+(fiduciární, důvěrný nebo pečovatelský vztah), (3) **aktivní manipulace** (izolace od poradců,
+kontrola informací, nátlak na rychlost) a (4) **nespravedlivý výsledek** (transakce na první
+pohled nevýhodná). Verze tohoto rámce kodifikuje mimo jiné americký *Restatement (Third) of
+Property: Wills and Other Donative Transfers* § 8.3 (2003) a kalifornský *Welfare and Institutions
+Code* § 15610.70, který obsahuje zákonnou definici nepřípustného vlivu.
 
-The doctrine has four classic elements typically required across common-law jurisdictions: (1) a *susceptible victim* (age, illness, isolation, dependence), (2) an *opportunity to influence* (fiduciary, confidential, or caregiving relationship), (3) *active manipulation* (isolation from advisors, control of information, urgency tactics), and (4) an *unjust outcome* (transaction inequitable on its face). The California "IDEAL" test (Isolation, Dependency, Emotional manipulation, Acquiescence, Loss) and the Restatement (Third) of Property §8.3 both codify versions of this framework. Expert testimony from forensic psychologists and gerontologists is routinely used to establish the susceptibility and manipulation prongs. Civil-law systems (including Czech and German) reach analogous results through doctrines of *unconscionability*, *Wucher*, and good faith.
+Kontinentální právní systémy (včetně českého a německého) dospívají k obdobným výsledkům přes
+instituty nemravnosti, lichvy (něm. *Wucher*) a dobré víry. V českém občanském zákoníku (zákon
+č. 89/2012 Sb.) se obdobné situace řeší zejména úpravou neplatnosti právního jednání – mimo jiné
+pro donucení hrozbou fyzického nebo psychického násilí (§ 587) a pro rozpor s dobrými mravy
+(§ 588) – a úpravou lichvy (§ 1796); konkrétní kvalifikace vždy náleží soudu. Původní verze hesla
+spojovala § 587 a § 588 přímo s lichvou a stavem tísně; tato zkratka byla opravena.
 
-## Practical Application
+Psychologickou stránku institutu v kontextu kultů popsaly Margaret Singerová a Janja Lalichová
+(*Cults in Our Midst*, přepracované vydání 2003); v knize ji rozvádí kapitola [Doktrína
+nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md).
 
-Undue influence is the central litigation theory in contested wills, irrevocable trusts created late in life, large gifts to caregivers, real-estate transfers to family members, and contracts signed within high-control religious or political organizations. In M&A due diligence, the doctrine is relevant when reviewing seller signatures by founders in cognitive decline, transactions executed under pressure from controlling shareholders, or non-competes signed by departing executives during termination negotiations. Compliance teams use undue-influence frameworks to evaluate whether donor consents to data processing, employment arbitration agreements, and AML beneficial-ownership disclosures reflect genuine independent judgment.
+## Jak se projevuje
 
-## Related Concepts
+- izolace osoby od dřívějších poradců, přátel a rodiny krátce před důležitým úkonem;
+- jedna osoba kontroluje přístup k informacím, poště, financím a návštěvám;
+- spěch a utajení („nikomu to neříkej, oni by to nepochopili“);
+- náhlá změna závěti nebo velký dar ve prospěch osoby, která o úkon pečovala;
+- úkon neodpovídá dřívějším hodnotám a dlouhodobým přáním osoby;
+- osoba při rozhovoru opakuje formulace ovlivňující osoby.
 
-- [Coercive Control](@/glossary/coercive-control.md) - Behavioral pattern often underlying undue influence
-- [Trauma Bonding](@/glossary/trauma-bonding.md) - Psychological mechanism that enables sustained influence
-- [Gaslighting](@/glossary/gaslighting.md) - Manipulation tactic that erodes capacity for independent judgment
-- [Informed Consent](@/glossary/informed-consent.md) - Standard that undue influence vitiates
-- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) - General doctrine of voluntary agreement
-- [Expert Witness](@/glossary/expert-witness.md) - Authority typically required to prove undue influence
+## Mechanismus
 
-## References
+Strukturálně jde o souběh **závislosti** a **kontroly prostředí**: kdo má monopol na informace
+a citovou podporu zranitelného člověka, může utvářet jeho rozhodnutí, aniž by použil výslovnou
+hrozbu. Psychologicky se na tom podílí [coercive control](@/glossary/coercive-control.md),
+[traumatické pouto](@/glossary/trauma-bonding.md) a [gaslighting](@/glossary/gaslighting.md),
+který oslabuje schopnost nezávislého úsudku. U seniorů a lidí s kognitivním úpadkem (srov.
+[sémantická afázie](@/glossary/semanticka-afazie.md)) se přidává snížená schopnost chápat význam
+právních pojmů. Popis slouží k rozpoznání a dokazování, ne jako postup.
 
-- Restatement (Third) of Property: Wills and Other Donative Transfers § 8.3 (American Law Institute, 2003)
-- Singer, B. & Lalich, J. *Cults in Our Midst: The Continuing Fight Against Their Hidden Menace* (Jossey-Bass, 2003)
-- California Welfare and Institutions Code § 15610.70 (statutory definition of undue influence)
-- Zákon č. 89/2012 Sb., občanský zákoník, § 587–§ 588 (lichva, neplatnost právního jednání)
+## Odlišení
 
----
+- **Od legitimního přesvědčování a rady** – rada respektuje, že rozhodnutí patří osobě, nechává
+  prostor pro jiné poradce a nespojuje se s výhodou pro radícího.
+- **Od donucení** – donucení stojí na výslovné hrozbě; nepřípustný vliv na podlomení vůle
+  v důvěrném vztahu.
+- **Od podvodu** – podvod vyžaduje klam o skutečnostech; nepřípustný vliv může pracovat
+  s pravdivými informacemi.
+- **Od nedostatku svéprávnosti** – osoba může být svéprávná a přesto pod nepřípustným vlivem;
+  obě otázky se posuzují samostatně.
+- **Od svobodné, i když nečekané volby** – lidé mají právo odkázat majetek komukoli; samotná
+  nečekanost úkonu nepřípustný vliv nedokazuje.
 
-*Built with precision. Optimized for AI consumption.*
+## Význam pro Kompendium
+
+Nepřípustný vliv je ústřední právní teorií v napadených závětích, neodvolatelných svěřenských
+fondech zřízených v pozdním věku, velkých darech pečovatelům, převodech nemovitostí na rodinné
+příslušníky a smlouvách podepsaných v uzavřených náboženských nebo politických organizacích.
+V [due diligence](@/glossary/due-diligence.md) u akvizic je relevantní při přezkumu podpisů zakladatelů s kognitivním úpadkem,
+transakcí provedených pod tlakem ovládajících akcionářů nebo konkurenčních doložek podepsaných
+odcházejícími manažery během jednání o ukončení. Týmy compliance používají rámce nepřípustného
+vlivu k posouzení, zda souhlasy dárců se zpracováním údajů, pracovní rozhodčí smlouvy a údaje
+o skutečném majiteli pro účely AML odrážejí skutečně nezávislý úsudek.
+
+K prokázání zranitelnosti a manipulace se běžně využívá znalecký posudek forenzního psychologa
+nebo gerontologa ([Expert Witness](@/glossary/expert-witness.md), [Znalec
+EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)). Kniha upozorňuje na oboustranné riziko:
+přehlédnutí vlivu poškodí zranitelného člověka, ale neopodstatněné tvrzení o vlivu může popřít
+jeho autonomii (viz [Medikalizace etického
+aktérství](@/kompendium/critical-perspectives/1-medicalization-critique.md)).
+
+## Obrana a zotavení
+
+- **Prevence u zranitelných osob**: důležité úkony provádět s nezávislým poradcem (notář,
+  advokát) bez přítomnosti zainteresované osoby; zaznamenat důvody rozhodnutí vlastními slovy;
+  u seniorů včas plánovat a zapojit více blízkých.
+- **Pro rodiny a pečovatele**: všímat si izolace a kontroly přístupu; nedramatizovat, ale
+  udržovat kontakt (viz [Elder Abuse](@/glossary/elder-abuse.md) a [Právo o zneužívání
+  seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md)).
+- **Pro profesionály**: dokumentovat okolnosti úkonu, zhodnotit kognitivní stav a mluvit
+  s osobou o samotě; u podezření se obrátit na soud nebo příslušné orgány.
+- **Po vymanění z vlivu**: pomoc s právními kroky i s pocitem viny a hanby; vysvětlit, že
+  podlomená vůle není osobní selhání (srov. [Protokol pro
+  seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md)).
+
+## Literatura
+
+- American Law Institute: *Restatement (Third) of Property: Wills and Other Donative Transfers*
+  § 8.3 (2003).
+- Margaret T. Singer, Janja Lalich: *Cults in Our Midst: The Continuing Fight Against Their Hidden
+  Menace* (Jossey-Bass, přepr. vyd. 2003).
+- California Welfare and Institutions Code § 15610.70 (zákonná definice nepřípustného vlivu).
+- Zákon č. 89/2012 Sb., občanský zákoník – § 587, § 588 (neplatnost právního jednání), § 1796
+  (lichva).
+
+## Související
+
+**Pojmy**
+
+- [Coercive Control](@/glossary/coercive-control.md) – vzorec chování, který nepřípustnému vlivu
+  často podkládá.
+- [Trauma Bonding](@/glossary/trauma-bonding.md) – psychologický mechanismus trvalého vlivu.
+- [Gaslighting](@/glossary/gaslighting.md) – manipulace oslabující schopnost nezávislého úsudku.
+- [Informed Consent](@/glossary/informed-consent.md) – standard, který nepřípustný vliv
+  znehodnocuje.
+- [Expert Witness](@/glossary/expert-witness.md) – znalec, bez něhož se vliv obvykle neprokáže.
+- [Elder Abuse](@/glossary/elder-abuse.md) – nejčastější kontext sporů o závěti.
+- [Consent](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consent/) – obecná
+  doktrína dobrovolného souhlasu (heslo platformy).
+
+**Kniha**
+
+- [Doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md) –
+  forenzní kapitola.
+- [Podvod jako element EA](@/kompendium/forensic-legal/17-fraud-EA-element.md) – hranice mezi
+  vlivem a podvodem.

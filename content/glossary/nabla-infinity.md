@@ -1,10 +1,10 @@
 +++
-title = "NABLA Infinity"
+title = "NABLA Infinity (∇∞)"
 weight = 31
-description = "Epistemic framework with 7 non-negotiable axioms governing all belief formation, knowledge validation, and evidence handling across the platform."
+description = "Epistemický rámec Prismatic Platform se sedmi nepodkročitelnými axiomy pro vznik přesvědčení, ověřování poznatků a zacházení s důkazy."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "nabla-infinity", "prismatic"]
+tags = ["glossary", "epistemic", "nabla", "nabla-infinity", "prismatic", "evidence"]
 
 [extra]
 category = "epistemic"
@@ -14,168 +14,283 @@ author = "Tomas Korcak (korczis)"
 reading_time = "11 min"
 word_count = 2258
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["NABLA", "Infinity", "Epistemic", "glossary", "Prismatic Platform", "BLOCK", "Trinity Gate", "NABLA Infinity"]
 quality_score = 87
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "NABLA Infinity - Prismatic Platform"
+image_alt = "NABLA Infinity (∇∞) – glosář"
 +++
 
-## Definition
+## Definice
 
-NABLA Infinity (written as the mathematical symbol for the gradient operator, suggesting infinite-dimensional exploration of epistemic space) is the foundational epistemic framework governing all belief formation and knowledge validation within the Prismatic Platform. It defines seven non-negotiable axioms that every agent, pipeline, and decision process must satisfy. Five axioms carry hard enforcement (violations trigger immediate blocking), and two carry soft enforcement (violations trigger warnings and investigation).
+NABLA Infinity (zapisuje se matematickým symbolem operátoru gradientu, který naznačuje
+nekonečněrozměrné zkoumání epistemického prostoru, tedy ∇∞) je základní epistemický rámec,
+jenž v Prismatic Platform řídí veškerý vznik přesvědčení a ověřování poznatků. Definuje
+sedm nepodkročitelných axiomů, které musí splnit každý agent, každá pipeline a každý
+rozhodovací proces. Pět axiomů se vynucuje tvrdě (porušení vede k okamžitému zablokování),
+dva měkce (porušení vede k varování a šetření). Jednotlivé axiomy podrobně rozebírá heslo
+[Axiomy NABLA](@/glossary/nabla-axioms.md).
 
-The framework operates at 3NL Level 3 integration, meaning it is not a suggestion or a best practice but a structural constraint woven into the platform's runtime. Agents cannot form beliefs, validate claims, or make decisions without NABLA axiom compliance. The axioms are enforced programmatically through the [epistemic pipeline](@/glossary/epistemic-pipeline.md), validated through [QEVE](@/glossary/qeve.md), and gated through [Trinity Gate](@/glossary/trinity-gate.md).
+Rámec působí na úrovni 3 integrace [3NL](@/glossary/3nl.md): není to návrh ani osvědčený
+postup, ale strukturní omezení vetkané do běhového prostředí platformy. Agenti nemohou
+vytvářet přesvědčení, ověřovat tvrzení ani rozhodovat bez souladu s axiomy NABLA. Axiomy se
+vynucují programově v [epistemické pipeline](@/glossary/epistemic-pipeline.md), ověřují se
+prostřednictvím [QEVE](@/glossary/qeve.md) a propouštějí se přes [Trinity
+Gate](@/glossary/trinity-gate.md).
 
-The core philosophical position of NABLA Infinity is uncompromising: **Reality is not a democracy. Evidence is not optional. Contradictions are not embarrassments.** The framework treats epistemic hygiene with the same rigor that type systems bring to software correctness -- violations are caught at the structural level, not left to human judgment.
+Filosofické jádro NABLA Infinity je nekompromisní: **Realita není demokracie. Důkazy nejsou
+volitelné. Rozpory nejsou ostuda.** Rámec zachází s epistemickou hygienou se stejnou
+přísností, jakou typové systémy vnášejí do správnosti softwaru – porušení se zachytí na
+úrovni struktury a nenechávají se na lidském úsudku.
 
-## The 7 Axioms
+Pro Kompendium je NABLA Infinity výchozím bodem: kniha vznikla v kontextu této platformy
+a její obranná logika – trvat na více nezávislých zdrojích, zachovat si rozpor, smět říct
+„nevím“ – je lidským protějškem těchto axiomů (viz [2.6 Vztah ke Prismatic NABLA
+Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)).
 
-### Axiom 1: Signal Plurality (HARD Enforcement)
+## Sedm axiomů
 
-**Requirement**: A minimum of two independent signals is required before any belief can be formed.
+### Axiom 1: Pluralita signálů (tvrdé vynucení)
 
-No claim, hypothesis, or conclusion may rest on a single source of evidence, regardless of how authoritative that source appears. Single-source beliefs are structurally fragile -- if the source is wrong, compromised, or stale, the entire belief collapses with no warning signal.
+**Požadavek**: než vznikne jakékoli přesvědčení, jsou potřeba nejméně dva nezávislé signály.
 
-Signal Plurality enforcement validates independence at the source level. Two articles from the same news outlet referencing the same press release count as one signal, not two. Two independent investigations reaching the same conclusion from different methodologies count as two signals. The `independence_group` field in the evidence data model tracks which signals share common origins.
+Žádné tvrzení, hypotéza ani závěr nesmí stát na jediném zdroji důkazů, ať se ten zdroj
+zdá jakkoli autoritativní. Přesvědčení z jediného zdroje je strukturně křehké – je-li zdroj
+chybný, kompromitovaný nebo zastaralý, celé přesvědčení se zhroutí bez jakéhokoli
+varovného signálu.
 
-**Violation response**: E2 BLOCK. The belief is rejected until additional independent signals are provided. No bypass exists for this axiom.
+Vynucení plurality signálů ověřuje nezávislost na úrovni zdroje. Dva články téhož
+zpravodajského média, které odkazují na tutéž tiskovou zprávu, se počítají jako jeden
+signál, ne dva. Dvě nezávislá šetření, která dospějí ke stejnému závěru odlišnými metodami,
+se počítají jako dva signály. Pole `independence_group` v datovém modelu důkazů sleduje,
+které signály sdílejí společný původ (podrobně [Signal
+Plurality](@/glossary/signal-plurality.md)).
 
-### Axiom 2: Contradiction Preservation (HARD Enforcement)
+**Reakce na porušení**: E2 BLOCK. Přesvědčení je odmítnuto, dokud se nedodají další
+nezávislé signály. Pro tento axiom neexistuje obchvat.
 
-**Requirement**: When contradictory evidence exists, both sides must be preserved explicitly. Neither side may be discarded, downweighted, or rationalized away.
+### Axiom 2: Zachování rozporu (tvrdé vynucení)
 
-This is the most counterintuitive axiom and the one most frequently violated by conventional AI systems. When Signal A says "risk is high" and Signal B says "risk is low," the natural impulse is to resolve the contradiction -- pick a winner, compute an average, or dismiss the weaker signal. NABLA Infinity forbids all of these responses.
+**Požadavek**: existují-li protichůdné důkazy, musí se výslovně zachovat obě strany. Žádnou
+z nich nelze zahodit, snížit jí váhu ani ji „odargumentovat“.
 
-Contradictions are preserved because they carry information. A contradiction between two credible sources indicates either (a) the situation is genuinely ambiguous, (b) one source has information the other lacks, or (c) the framing of the question is flawed. All three possibilities are valuable. Premature resolution destroys this information.
+Je to nejméně intuitivní axiom a ten, který konvenční systémy umělé inteligence porušují
+nejčastěji. Když signál A říká „riziko je vysoké“ a signál B „riziko je nízké“, přirozeným
+impulzem je rozpor vyřešit – vybrat vítěze, spočítat průměr nebo slabší signál odmítnout.
+NABLA Infinity zakazuje všechny tyto reakce.
 
-Preserved contradictions are annotated with severity (weak, moderate, strong) and propagated through the pipeline. The [QEVE](@/glossary/qeve.md) confidence formula includes a contradiction index that reduces final confidence in proportion to unresolved contradictions, ensuring they are never ignored even if they are preserved.
+Rozpory se zachovávají, protože nesou informaci. Rozpor mezi dvěma věrohodnými zdroji
+znamená, že (a) situace je skutečně nejednoznačná, (b) jeden zdroj má informace, které
+druhému chybějí, nebo (c) otázka je chybně položená. Všechny tři možnosti jsou cenné.
+Předčasné řešení tuto informaci ničí.
 
-**Violation response**: E2 BLOCK. Any operation that discards contradictory evidence is halted immediately.
+Zachované rozpory se označují závažností (slabý, střední, silný) a šíří se pipeline dál.
+Vzorec důvěry v [QEVE](@/glossary/qeve.md) obsahuje index rozporu, který snižuje konečnou
+důvěru úměrně nevyřešeným rozporům; rozpory se tak nikdy neignorují, i když se zachovávají.
 
-### Axiom 3: Absence Informative (SOFT Enforcement)
+**Reakce na porušení**: E2 BLOCK. Každá operace, která zahodí protichůdný důkaz, se okamžitě
+zastaví.
 
-**Requirement**: Missing signals must be tracked as data points. The absence of expected evidence is itself evidence.
+### Axiom 3: Informativní absence (měkké vynucení)
 
-When a company that should have public financial filings has none, the absence is informative. When a domain that should have SSL certificates lacks them, the absence is a signal. NABLA Infinity requires that expected-but-missing evidence be recorded with the same rigor as present evidence, tracked through the belief graph, and factored into confidence calculations.
+**Požadavek**: chybějící signály se musí sledovat jako datové body. Absence očekávaného
+důkazu je sama důkazem.
 
-Absence tracking prevents a common failure mode: concluding that "no evidence of risk" means "evidence of no risk." These are logically distinct statements, and NABLA Infinity enforces the distinction.
+Když firma, která by měla mít veřejné finanční výkazy, žádné nemá, je absence informativní.
+Když doméně, která by měla mít SSL certifikáty, chybějí, je absence signálem. NABLA Infinity
+vyžaduje, aby se očekávané, ale chybějící důkazy zaznamenávaly se stejnou přísností jako
+přítomné, sledovaly se v grafu přesvědčení a promítaly se do výpočtů důvěry.
 
-**Violation response**: E1 WARNING. Investigation triggered. Absence tracking failures are less immediately dangerous than active evidence suppression but can accumulate into significant blind spots.
+Sledování absence brání častému selhání: závěru, že „žádný důkaz rizika“ znamená „důkaz,
+že riziko není“. Jsou to logicky odlišná tvrzení a NABLA Infinity jejich rozlišení vynucuje.
 
-### Axiom 4: Time Decay (HARD Enforcement)
+**Reakce na porušení**: E1 WARNING. Spustí se šetření. Selhání ve sledování absence je méně
+bezprostředně nebezpečné než aktivní potlačování důkazů, ale může se nahromadit do
+významných slepých míst.
 
-**Requirement**: All beliefs must carry mandatory timestamps, and evidence weight must decay over time according to configurable decay functions.
+### Axiom 4: Časový rozpad (tvrdé vynucení)
 
-Evidence gathered six months ago is less reliable than evidence gathered today. Regulatory environments change. Corporate structures are restructured. Threat landscapes evolve. NABLA Infinity requires that every signal carry a collection timestamp and that belief strength decreases automatically as evidence ages.
+**Požadavek**: všechna přesvědčení musí nést povinné časové razítko a váha důkazů musí
+s časem klesat podle nastavitelných funkcí rozpadu.
 
-Decay functions are configurable per domain. Financial data may decay faster than geological data. Threat intelligence decays faster than corporate registration records. The decay rate is a domain-specific parameter, but the requirement for decay is universal.
+Důkaz shromážděný před šesti měsíci je méně spolehlivý než důkaz shromážděný dnes.
+Regulatorní prostředí se mění. Firemní struktury se reorganizují. Prostředí hrozeb se
+vyvíjí. NABLA Infinity vyžaduje, aby každý signál nesl časové razítko sběru a aby síla
+přesvědčení se stárnutím důkazů automaticky klesala.
 
-Time decay prevents a specific failure mode: building high-confidence conclusions on stale evidence. A due diligence assessment that relies on 18-month-old data without accounting for staleness is operating on a false sense of precision.
+Funkce rozpadu se nastavují pro každou oblast. Finanční data mohou zastarávat rychleji než
+geologická. Zpravodajství o hrozbách zastarává rychleji než záznamy obchodního rejstříku.
+Rychlost rozpadu je parametr specifický pro oblast, požadavek rozpadu je ale univerzální.
 
-**Violation response**: E2 BLOCK. Beliefs without timestamps are rejected. Beliefs with timestamps but no decay applied are rejected.
+Časový rozpad brání konkrétnímu selhání: stavění vysoce sebejistých závěrů na zastaralých
+důkazech. Posouzení [due diligence](@/glossary/due-diligence.md), které stojí na 18 měsíců
+starých datech, aniž by zohlednilo jejich stáří, pracuje s falešným pocitem přesnosti.
 
-### Axiom 5: Unknown Valid (HARD Enforcement)
+**Reakce na porušení**: E2 BLOCK. Přesvědčení bez časových razítek se odmítají. Odmítají se
+i přesvědčení s razítky, na něž nebyl uplatněn rozpad.
 
-**Requirement**: "I don't know" is a legitimate epistemic state. The system must be capable of expressing and propagating uncertainty rather than forcing a determination.
+### Axiom 5: Platnost neznáma (tvrdé vynucení)
 
-This axiom directly counters the tendency of AI systems to always produce an answer. When evidence is insufficient, contradictory, or stale, the correct response is not a low-confidence guess but an explicit statement of uncertainty. NABLA Infinity requires that the platform's agents, pipelines, and outputs support an "unknown" state with the same structural rigor as "true" and "false."
+**Požadavek**: „nevím“ je legitimní epistemický stav. Systém musí umět nejistotu vyjádřit
+a šířit dál, místo aby vynucoval rozhodnutí.
 
-Unknown states propagate through the belief graph. If a critical premise is unknown, conclusions that depend on it inherit the unknown state rather than silently defaulting to an assumed value. This propagation ensures that uncertainty is visible to decision-makers rather than buried under layers of inference.
+Axiom přímo čelí sklonu systémů umělé inteligence vždy nějakou odpověď vyprodukovat. Když
+jsou důkazy nedostatečné, protichůdné nebo zastaralé, správnou odpovědí není odhad s nízkou
+důvěrou, ale výslovné konstatování nejistoty. NABLA Infinity vyžaduje, aby agenti, pipeline
+a výstupy platformy podporovaly stav „neznámé“ se stejnou strukturní přísností jako
+„pravda“ a „nepravda“.
 
-**Violation response**: E2 BLOCK. Any operation that forces a determination when evidence is insufficient is halted.
+Neznámé stavy se šíří grafem přesvědčení. Je-li kritický předpoklad neznámý, závěry, které
+na něm závisejí, zdědí neznámý stav, místo aby potichu převzaly předpokládanou hodnotu.
+Toto šíření zajišťuje, že nejistota zůstane rozhodujícím osobám viditelná a nezapadne pod
+vrstvami inference.
 
-### Axiom 6: Source Independence (SOFT Enforcement)
+**Reakce na porušení**: E2 BLOCK. Každá operace, která vynucuje rozhodnutí při
+nedostatečných důkazech, se zastaví.
 
-**Requirement**: Independent sources must be weighted higher than correlated sources. Source correlation must be tracked and factored into confidence calculations.
+### Axiom 6: Nezávislost zdrojů (měkké vynucení)
 
-Ten articles from different outlets citing the same original report represent one source, not ten. NABLA Infinity requires that source independence be explicitly tracked through independence grouping and that correlated sources be appropriately discounted in confidence calculations.
+**Požadavek**: nezávislé zdroje musí mít vyšší váhu než korelované. Korelace zdrojů se musí
+sledovat a promítat do výpočtů důvěry.
 
-Source independence is particularly critical in OSINT (Open Source Intelligence) contexts where information amplification is common. A single government press release can generate dozens of news articles, social media posts, and analyst reports, all of which trace back to the same original source. Without independence tracking, the illusion of plurality masks a single-source belief.
+Deset článků z různých médií, které citují tutéž původní zprávu, představuje jeden zdroj,
+ne deset. NABLA Infinity vyžaduje, aby se nezávislost zdrojů výslovně sledovala seskupováním
+podle nezávislosti a aby korelované zdroje dostaly ve výpočtech důvěry přiměřenou slevu.
 
-**Violation response**: E1 WARNING. Bias assessment required. Source correlation that is tracked but not corrected receives a warning rather than a block, as the tracking itself provides transparency.
+Nezávislost zdrojů je obzvlášť kritická v kontextu [OSINT](@/glossary/osint.md) (zpravodajství
+z otevřených zdrojů), kde je zesilování informací běžné. Jediná vládní tisková zpráva může
+vyvolat desítky zpravodajských článků, příspěvků na sociálních sítích a analytických zpráv,
+které všechny vedou k témuž původnímu zdroji. Bez sledování nezávislosti maskuje iluze
+plurality přesvědčení z jediného zdroje.
 
-### Axiom 7: Provenance Mandatory (HARD Enforcement)
+**Reakce na porušení**: E1 WARNING. Je povinné posouzení zkreslení. Korelace zdrojů, která je
+sledovaná, ale neopravená, dostane varování, ne blokaci, protože samotné sledování zajišťuje
+průhlednost.
 
-**Requirement**: All beliefs must be traceable to their origin signals through a complete, auditable chain of custody.
+### Axiom 7: Povinná provenience (tvrdé vynucení)
 
-Every conclusion in the platform must answer the question: "Where did this come from?" The provenance chain links each belief to the evidence that supports it, the inference rules that derived it, and the raw data from which the evidence was extracted. Provenance enables three critical capabilities:
+**Požadavek**: všechna přesvědčení musí jít dohledat k jejich původním signálům úplným,
+auditovatelným řetězcem úschovy ([chain of custody](@/glossary/chain-of-custody.md)).
 
-1. **Audit**: External reviewers can trace any conclusion back to its source data
-2. **Debugging**: When a conclusion is wrong, provenance identifies which evidence or inference step failed
-3. **Accountability**: Provenance establishes who (or what agent) produced each component of the reasoning chain
+Každý závěr v platformě musí odpovědět na otázku „Odkud to pochází?“. Řetězec provenience
+spojuje každé přesvědčení s důkazy, které ho podporují, s inferenčními pravidly, jimiž bylo
+odvozeno, a se surovými daty, z nichž byly důkazy vytěženy. Provenience umožňuje tři
+kritické schopnosti:
 
-Provenance is enforced at the data model level. Every evidence struct includes a `provenance` field (full chain of custody) and a `raw_data_hash` (cryptographic hash of the original data for integrity verification). Evidence without provenance is rejected before entering the pipeline.
+1. **Audit**: externí posuzovatelé mohou každý závěr dohledat k jeho zdrojovým datům.
+2. **Ladění**: když je závěr chybný, provenience ukáže, který důkaz nebo který krok
+   inference selhal.
+3. **Odpovědnost**: provenience určuje, kdo (nebo který agent) vytvořil každou složku
+   řetězce uvažování.
 
-**Violation response**: E2 BLOCK. Beliefs without traceable provenance are rejected. No bypass exists.
+Provenience se vynucuje na úrovni datového modelu. Každá struktura důkazu obsahuje pole
+`provenance` (úplný řetězec úschovy) a `raw_data_hash` (kryptografický otisk původních dat
+pro ověření integrity). Důkaz bez provenience se odmítne dřív, než vstoupí do pipeline.
 
-### Axiom Summary
+**Reakce na porušení**: E2 BLOCK. Přesvědčení bez dohledatelné provenience se odmítají.
+Obchvat neexistuje.
 
-| # | Axiom | Enforcement | Violation | Core Principle |
+### Přehled axiomů
+
+| # | Axiom | Vynucení | Porušení | Základní princip |
 |---|-------|-------------|-----------|----------------|
-| 1 | Signal Plurality | HARD | E2 BLOCK | No single-source beliefs |
-| 2 | Contradiction Preservation | HARD | E2 BLOCK | Never discard inconvenient evidence |
-| 3 | Absence Informative | SOFT | E1 WARNING | Missing evidence is evidence |
-| 4 | Time Decay | HARD | E2 BLOCK | Beliefs weaken over time |
-| 5 | Unknown Valid | HARD | E2 BLOCK | "I don't know" is acceptable |
-| 6 | Source Independence | SOFT | E1 WARNING | Correlated sources are not independent |
-| 7 | Provenance Mandatory | HARD | E2 BLOCK | All beliefs must be traceable |
+| 1 | Pluralita signálů | TVRDÉ | E2 BLOCK | žádná přesvědčení z jediného zdroje |
+| 2 | Zachování rozporu | TVRDÉ | E2 BLOCK | nikdy nezahazovat nepohodlné důkazy |
+| 3 | Informativní absence | MĚKKÉ | E1 WARNING | chybějící důkaz je důkaz |
+| 4 | Časový rozpad | TVRDÉ | E2 BLOCK | přesvědčení s časem slábnou |
+| 5 | Platnost neznáma | TVRDÉ | E2 BLOCK | „nevím“ je přijatelné |
+| 6 | Nezávislost zdrojů | MĚKKÉ | E1 WARNING | korelované zdroje nejsou nezávislé |
+| 7 | Povinná provenience | TVRDÉ | E2 BLOCK | každé přesvědčení musí jít dohledat |
 
 ## Addiction Preservation
 
-Addiction Preservation is the platform's commitment to preserving contradictory signals, maintaining evidence plurality, and refusing to "smooth over" inconvenient truths. The term is deliberate: like addiction recovery, epistemic hygiene requires constant vigilance against the human tendency to rationalize, dismiss, or cherry-pick evidence.
+*Addiction Preservation* je závazek platformy zachovávat protichůdné signály, udržovat
+pluralitu důkazů a odmítat „uhlazování“ nepohodlných pravd. Název je zvolen záměrně:
+podobně jako zotavení ze závislosti vyžaduje epistemická hygiena trvalou bdělost vůči
+lidskému sklonu důkazy racionalizovat, odmítat nebo vybírat jen ty vhodné (viz
+[Addiction Recovery](@/glossary/addiction-recovery.md)).
 
-The analogy is precise. An addict in recovery must remain vigilant against triggers that seem harmless but lead to relapse. Similarly, an epistemic system must remain vigilant against seemingly reasonable shortcuts that erode rigor:
+Analogie je přesná. Člověk zotavující se ze závislosti musí zůstat bdělý vůči spouštěčům,
+které vypadají neškodně, ale vedou k relapsu. Stejně tak musí epistemický systém zůstat
+bdělý vůči zdánlivě rozumným zkratkám, které nahlodávají přísnost:
 
-- "This contradiction is probably just noise -- let's remove it." (Contradiction Burial)
-- "We only need one more source to confirm." (Confirmation Bias)
-- "The timestamp is close enough -- no need for decay." (Time Decay bypass)
-- "Everyone knows this is true." (Single Source masked as common knowledge)
+- „Ten rozpor je nejspíš jen šum – odstraňme ho.“ (pohřbívání rozporu)
+- „Potřebujeme už jen jeden zdroj, který to potvrdí.“ ([konfirmační
+  bias](@/glossary/konfirmacni-bias.md))
+- „Razítko je dost blízko – rozpad není potřeba.“ (obcházení časového rozpadu)
+- „Všichni přece vědí, že je to pravda.“ (jediný zdroj vydávaný za obecně známou věc)
 
-Addiction Preservation mandates that the platform treat each of these impulses as a threat to epistemic integrity, not as a reasonable optimization. The cost of preserving a spurious contradiction is low (one extra node in the belief graph). The cost of discarding a genuine contradiction is potentially catastrophic (a false conclusion treated as verified truth).
+Addiction Preservation ukládá, aby platforma každý z těchto impulzů chápala jako hrozbu
+epistemické integritě, ne jako rozumnou optimalizaci. Cena zachování falešného rozporu je
+nízká (jeden uzel navíc v grafu přesvědčení). Cena zahození skutečného rozporu může být
+katastrofální (nepravdivý závěr považovaný za ověřenou pravdu).
 
-## Anti-Patterns
+## Antivzorce
 
-NABLA Infinity defines five forbidden anti-patterns. These are not guidelines but hard enforcement rules that trigger blocking or halting when detected:
+NABLA Infinity definuje pět zakázaných antivzorců. Nejsou to doporučení, ale pravidla
+tvrdého vynucení, která při zjištění spustí blokaci nebo zastavení:
 
-| Anti-Pattern | Description | Axioms Violated | Enforcement |
+| Antivzorec | Popis | Porušené axiomy | Vynucení |
 |--------------|-------------|-----------------|-------------|
-| **Cherry Picking** | Selecting only evidence that supports a predetermined conclusion while ignoring or downweighting contradictory evidence | Signal Plurality, Contradiction Preservation | E2 BLOCK |
-| **False Certainty** | Presenting a conclusion with higher confidence than the evidence supports, typically by ignoring uncertainty or absence signals | Unknown Valid, Time Decay | E2 BLOCK |
-| **Contradiction Burial** | Acknowledging a contradiction exists but structurally hiding it so downstream consumers never see it | Contradiction Preservation | E3 HALT |
-| **Single Source Truth** | Building a belief on one source (or multiple correlated sources disguised as independent) | Signal Plurality, Source Independence | E2 BLOCK |
-| **Reasoning Opacity** | Producing conclusions without a traceable reasoning chain, making audit impossible | Provenance Mandatory | E2 BLOCK |
+| **Cherry picking** (vybírání hrozinek) | výběr jen těch důkazů, které podporují předem daný závěr, a ignorování nebo oslabování protichůdných | pluralita signálů, zachování rozporu | E2 BLOCK |
+| **Falešná jistota** | prezentace závěru s vyšší důvěrou, než důkazy podporují, obvykle přehlížením nejistoty nebo signálů absence | platnost neznáma, časový rozpad | E2 BLOCK |
+| **Pohřbívání rozporu** | rozpor je přiznán, ale strukturně skryt, takže ho navazující spotřebitelé nikdy neuvidí | zachování rozporu | E3 HALT |
+| **Pravda jediného zdroje** | přesvědčení postavené na jednom zdroji (nebo na více korelovaných zdrojích vydávaných za nezávislé) | pluralita signálů, nezávislost zdrojů | E2 BLOCK |
+| **Neprůhlednost uvažování** | závěry bez dohledatelného řetězce uvažování, takže audit je nemožný | povinná provenience | E2 BLOCK |
 
-Contradiction Burial receives the most severe enforcement (E3 HALT rather than E2 BLOCK) because it is the most dangerous anti-pattern. Unlike Cherry Picking, which is detectable through signal analysis, Contradiction Burial actively hides evidence within the system's own data structures. An E3 HALT requires mandatory review at supreme authority level before operations can resume.
+Pohřbívání rozporu má nejpřísnější vynucení (E3 HALT místo E2 BLOCK), protože je to
+nejnebezpečnější antivzorec. Na rozdíl od cherry pickingu, který lze odhalit analýzou
+signálů, pohřbívání rozporu aktivně skrývá důkazy uvnitř vlastních datových struktur
+systému. E3 HALT vyžaduje povinný přezkum na úrovni nejvyšší autority, než může provoz
+pokračovat.
 
-## Enforcement Protocol
+Tytéž antivzorce popisuje Kompendium u lidí: výběrové připomínání událostí, vnucená jistota
+a skrývání nepohodlné vzpomínky jsou jádrem [gaslightingu](@/glossary/gaslighting.md)
+a [epistemické anihilace](@/glossary/epistemicka-anihilace.md). Rozdíl je v tom, že u člověka
+je nikdo automaticky „neblokuje“ – obranou je obnovit přístup k nezávislým svědkům
+a záznamům.
 
-NABLA Infinity enforcement operates at four escalating levels:
+## Protokol vynucení
 
-| Level | Trigger | Response | Authority Required |
+Vynucování NABLA Infinity probíhá na čtyřech stupňovaných úrovních:
+
+| Úroveň | Spouštěč | Reakce | Potřebná autorita |
 |-------|---------|----------|--------------------|
-| **E1** | Single soft axiom violation (Absence Informative or Source Independence) | Warning issued. Correction requested. Operation continues with logged deviation | Agent-level |
-| **E2** | Single hard axiom violation or anti-pattern detection | BLOCK. Operation halted. Rejection issued. Must be corrected before proceeding | System-level |
-| **E3** | [Trinity Gate](@/glossary/trinity-gate.md) failure or Contradiction Burial detection | HALT. Mandatory review required. No bypass. Full diagnostic logged | Supreme authority |
-| **E4** | Multiple simultaneous axiom violations or systematic pattern of violations | Full investigation. Audit of all recent evaluations. Root cause analysis required | Cosmic clearance |
+| **E1** | jediné porušení měkkého axiomu (informativní absence nebo nezávislost zdrojů) | varování, žádost o opravu; operace pokračuje se zaznamenanou odchylkou | úroveň agenta |
+| **E2** | jediné porušení tvrdého axiomu nebo zjištění antivzorce | BLOCK; operace zastavena, vydáno odmítnutí; před pokračováním je nutná oprava | úroveň systému |
+| **E3** | selhání [Trinity Gate](@/glossary/trinity-gate.md) nebo zjištění pohřbívání rozporu | HALT; povinný přezkum, žádný obchvat, zaznamená se úplná diagnostika | nejvyšší autorita |
+| **E4** | více současných porušení axiomů nebo systematický vzorec porušování | úplné šetření, audit všech nedávných hodnocení, povinná analýza kořenových příčin | cosmic clearance |
 
-Enforcement is non-bypassable. There is no flag, configuration option, or authority level that can disable axiom enforcement. The axioms are structural constraints, not policy preferences. Disabling them would be equivalent to disabling type checking in a compiled language -- technically possible but architecturally destructive.
+Vynucení nelze obejít. Neexistuje přepínač, konfigurační volba ani úroveň oprávnění, která
+by vynucování axiomů vypnula. Axiomy jsou strukturní omezení, ne preference politiky. Jejich
+vypnutí by se rovnalo vypnutí typové kontroly v kompilovaném jazyce – technicky možné, ale
+architektonicky destruktivní.
 
-## Integration with Trinity Gate
+## Napojení na Trinity Gate
 
-NABLA Infinity and [Trinity Gate](@/glossary/trinity-gate.md) serve complementary but distinct roles in the epistemic pipeline:
+NABLA Infinity a [Trinity Gate](@/glossary/trinity-gate.md) mají v epistemické pipeline
+doplňující se, ale odlišné role:
 
-- **NABLA Infinity governs belief formation**: How evidence is gathered, structured, weighted, and connected into a belief graph
-- **Trinity Gate governs belief acceptance**: Whether a formed belief meets the structural, logical, and formal standards required for acceptance
+- **NABLA Infinity řídí vznik přesvědčení**: jak se důkazy shromažďují, strukturují, váží
+  a propojují do grafu přesvědčení.
+- **Trinity Gate řídí přijetí přesvědčení**: zda vzniklé přesvědčení splňuje strukturní,
+  logické a formální standardy nutné pro přijetí.
 
-The relationship is sequential. NABLA axioms constrain the input to Trinity Gate. A belief graph that violates Signal Plurality will fail the Trinity Gate's logical consistency check. A belief graph that buries contradictions will fail the structural consistency check. NABLA compliance is a necessary (but not sufficient) condition for Trinity Gate passage.
+Vztah je sekvenční. Axiomy NABLA omezují vstup do Trinity Gate. Graf přesvědčení, který
+porušuje pluralitu signálů, neprojde kontrolou logické konzistence Trinity Gate. Graf, který
+pohřbívá rozpory, neprojde kontrolou strukturní konzistence. Soulad s NABLA je nutnou (ale
+ne postačující) podmínkou průchodu Trinity Gate.
 
-[QEVE](@/glossary/qeve.md) sits between the two, providing the verification machinery that translates NABLA-compliant belief graphs into Trinity Gate evaluations. The QEVE pipeline's first stage (Graph Build) directly enforces NABLA axioms, while its later stages feed into Trinity Gate's three checks.
+[QEVE](@/glossary/qeve.md) stojí mezi nimi a dodává ověřovací aparát, který převádí grafy
+přesvědčení v souladu s NABLA na hodnocení Trinity Gate. První fáze pipeline QEVE
+(sestavení grafu) přímo vynucuje axiomy NABLA, pozdější fáze vstupují do tří kontrol
+Trinity Gate.
 
-## Transition to Execution
+## Přechod k exekuci
 
-The transition from NABLA-governed exploration to [NM/ND](@/glossary/nm-nd.md)-governed execution follows a strict protocol:
+Přechod od zkoumání řízeného NABLA k exekuci řízené doktrínou [NM/ND](@/glossary/nm-nd.md) se
+řídí přísným protokolem:
 
 ```
 EXPLORATION PHASE (NABLA Infinity active)
@@ -198,44 +313,76 @@ EXECUTION PHASE (NM/ND Doctrine active)
   - Decisive action based on formally verified, robustness-tested beliefs
 ```
 
-The transition is the critical moment in the platform's reasoning process. Before the transition, doubt is not just acceptable but mandatory -- NABLA requires preserving uncertainty, maintaining contradictions, and acknowledging the unknown. After the transition, doubt is replaced by commitment -- the [NM/ND](@/glossary/nm-nd.md) doctrine requires complete execution without hedging.
+Přechod je kritickým okamžikem procesu uvažování platformy. Před přechodem není pochybnost
+jen přípustná, ale povinná – NABLA vyžaduje zachovat nejistotu, udržovat rozpory a přiznávat
+neznámé. Po přechodu nahrazuje pochybnost závazek – doktrína [NM/ND](@/glossary/nm-nd.md)
+vyžaduje úplnou exekuci bez kliček.
 
-This dual-phase approach prevents both failure modes: acting too soon on unverified beliefs (premature execution) and never acting because there is always more evidence to gather (analysis paralysis). NABLA's axioms define what "sufficient verification" means. Trinity Gate certifies that verification is complete. NM/ND governs what happens next.
+Tento dvoufázový přístup brání oběma selháním: jednat příliš brzy na základě neověřených
+přesvědčení (předčasná exekuce) i nikdy nejednat, protože vždy existují další důkazy ke
+shromáždění ([paralýza analýzou](@/glossary/paralysis-by-analysis.md)). Axiomy NABLA
+definují, co znamená „dostatečné ověření“. Trinity Gate potvrzuje, že ověření je úplné.
+NM/ND řídí, co následuje.
 
-## Related Terms
+Kompendium tuto dvoufázovost čte i jako varování: v manipulativních prostředích se
+„přechod k exekuci“ často vynucuje předčasně, uměle vyvolaným časovým tlakem (viz
+[detekční signaturu Vytváření časového
+tlaku](@/kompendium/detection-signatures/14-behavioral-time-pressure-creation.md)).
 
-- [Trinity Gate](@/glossary/trinity-gate.md) -- 4-layer verification gate for NABLA-governed beliefs
-- [QEVE](@/glossary/qeve.md) -- Verification engine implementing NABLA axioms in its pipeline
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom requiring minimum 2 independent signals
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Decision thresholds derived from NABLA axiom compliance
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom requiring full traceability for all beliefs
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Execution doctrine activated when NABLA confidence is sufficient
-- [No Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) -- Execution-phase enforcement of complete delivery
-- [No Doubts](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/) -- Execution-phase enforcement of decisive action
-- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Integration framework connecting NABLA to AIAD agents
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which NABLA operates
-- [White Team](@/glossary/white-team.md) -- Verification team producing NABLA-compliant formal proofs
-- [Red Team](@/glossary/red-team.md) -- Adversarial team testing NABLA's resistance to epistemic attacks
-- [Blue Team](@/glossary/blue-team.md) -- Defensive team maintaining NABLA compliance across the platform
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team surfacing NABLA edge cases
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in formal verification of NABLA-governed beliefs
+## Související
 
-## See Also
+**Pojmy platformy v tomto glosáři**
 
-- [prismatic_nabla](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_nabla/README.md) -- NABLA Infinity framework runtime implementation
-- [prismatic_deduction](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_deduction/README.md) -- Formal deduction engine for Trinity Gate
-- [prismatic_lean4](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_lean4/README.md) -- Lean4 formal verification for NABLA proofs
-- [prismatic_monte_carlo](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_monte_carlo/README.md) -- Monte Carlo verification for QEVE
-- [prismatic_3nl](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_3nl/README.md) -- 3NL framework with Level 3 NABLA integration
-- [prismatic_trinity_nexus](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_trinity_nexus/README.md) -- Trinity Gate implementation
-- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) -- Agent runtime enforcing NABLA axiom compliance
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
+- [Axiomy NABLA](@/glossary/nabla-axioms.md) – podrobný rozbor všech sedmi axiomů
+  s implementací.
+- [Trinity Gate](@/glossary/trinity-gate.md) – čtyřvrstvá ověřovací brána pro přesvědčení
+  řízená NABLA.
+- [QEVE](@/glossary/qeve.md) – ověřovací engine, který axiomy NABLA uplatňuje ve své pipeline.
+- [Signal Plurality](@/glossary/signal-plurality.md) – základní axiom vyžadující nejméně dva
+  nezávislé signály.
+- [NM/ND](@/glossary/nm-nd.md) – exekuční doktrína aktivovaná, když je důvěra NABLA
+  dostatečná.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová pipeline, v níž
+  NABLA působí.
+- [White Team](@/glossary/white-team.md), [Red Team](@/glossary/red-team.md), [Blue
+  Team](@/glossary/blue-team.md), [Gray Team](@/glossary/gray-team.md) – týmy, které
+  vytvářejí formální důkazy, testují odolnost vůči epistemickým útokům, udržují soulad
+  a hledají hraniční případy.
+
+**Hesla a zdrojové moduly platformy mimo tuto knihu**
+
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/),
+  [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/),
+  [No Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/),
+  [No Doubts](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-doubts/),
+  [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/),
+  [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) –
+  rozhodovací prahy, sledovatelnost, exekuční vynucení, integrační rámec a dokazovač vět.
+- Moduly [prismatic_nabla](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_nabla/README.md),
+  [prismatic_deduction](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_deduction/README.md),
+  [prismatic_lean4](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_lean4/README.md),
+  [prismatic_monte_carlo](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_monte_carlo/README.md),
+  [prismatic_3nl](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_3nl/README.md),
+  [prismatic_trinity_nexus](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_trinity_nexus/README.md),
+  [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) –
+  běhová implementace rámce, deduktivní engine, formální ověření, Monte Carlo pro QEVE, 3NL,
+  Trinity Gate a běhové prostředí agentů; [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/)
+  platformy.
+
+**Kniha**
+
+- [2.6 Vztah ke Prismatic NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md) – jak rámec
+  vstupuje do [taxonomie EA](@/glossary/taxonomie-ea.md).
+- [NABLA Infinity a detekce EA](@/kompendium/aiad-integration/nabla-infinity-ea-pipeline.md) –
+  pipeline aplikovaná na signály epistemického útoku.
+- [7.6 Computational epistemology a NABLA](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md) –
+  teoretické zázemí.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

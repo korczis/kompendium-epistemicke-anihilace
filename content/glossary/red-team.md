@@ -1,10 +1,10 @@
 +++
-title = "Red Team"
+title = "Red Team (červený tým)"
 weight = 19
-description = "Adversarial simulation team using 5 epistemic attack primitives in sandboxed environments for security validation"
+description = "Tým útočné simulace v Prismatic Platform: pět primitiv epistemického útoku v izolovaném sandboxu se syntetickými daty slouží k ověření obrany."
 
 [taxonomies]
-tags = ["adversarial-security", "epistemic-attacks", "color-teams", "threat-simulation", "sandbox-isolation", "penetration-testing", "attack-taxonomy"]
+tags = ["glossary", "prismatic", "color-teams", "security", "agents"]
 
 [extra]
 category = "security"
@@ -27,48 +27,106 @@ platforms = ["prismatic-platform", "beam-vm", "fly-io"]
 author = "Tomas Korcak (korczis)"
 reading_time = "12 min"
 word_count = 2346
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Red", "Team", "Adversarial", "glossary", "security", "Prismatic Platform", "Red Team", "Purple Team"]
 quality_score = 90
 image = "/images/sections/glossary.png"
-image_alt = "Red Team - Prismatic Platform"
+image_alt = "Red Team (červený tým) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-The Red Team is a specialized security operations unit within the Prismatic Platform's six-team Color Team architecture that conducts adversarial simulation exercises to identify vulnerabilities, weaknesses, and failure modes in systems, processes, and epistemic defenses. Originating from Cold War military exercises where a dedicated "red" force simulated enemy tactics against defending "blue" forces, the concept has evolved into a cornerstone of modern cybersecurity, AI safety, and epistemic security practices. In the Prismatic Platform, the Red Team extends this tradition into the domain of epistemic security, targeting the integrity of knowledge systems, reasoning pipelines, and decision-making processes rather than just network infrastructure.
+Red Team (červený tým) je specializovaná jednotka bezpečnostního provozu v šestičlenné
+architektuře [barevných týmů](@/glossary/color-teams.md) Prismatic Platform, která provádí
+cvičení útočné simulace s cílem odhalit zranitelnosti, slabiny a způsoby selhání systémů,
+procesů a epistemické obrany. Pojem vychází z vojenských cvičení studené války, v nichž
+vyhrazená „červená“ síla simulovala taktiku nepřítele proti bránícím se „modrým“ silám,
+a vyvinul se v základní kámen moderní kybernetické bezpečnosti, bezpečnosti umělé
+inteligence a epistemické bezpečnosti. V Prismatic Platform rozšiřuje Red Team tuto tradici
+do oblasti [epistemické bezpečnosti](@/glossary/epistemic-security.md): cílem je integrita
+znalostních systémů, pipeline uvažování a rozhodovacích procesů, nejen síťová infrastruktura.
 
-The Prismatic Platform's Red Team operates as one of six color teams -- alongside [Gray Team](@/glossary/gray-team.md), [Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [White Team](@/glossary/white-team.md), and [Black Team](@/glossary/black-team.md) -- forming a comprehensive adversarial-defensive synthesis architecture governed by the [NO MERCY, NO DOUBTS](@/glossary/nm-nd.md) doctrine. The Red Team consists of 4 agents operating in a hierarchical command structure, simulating epistemic attacks using five defined primitives and generating adversarial scenarios from a comprehensive 329-entry attack taxonomy. All operations are sandboxed with synthetic data and zero network access, ensuring that adversarial simulations cannot affect production systems or real data.
+Red Team Prismatic Platform je jedním ze šesti barevných týmů – vedle [Gray
+Teamu](@/glossary/gray-team.md), [Blue Teamu](@/glossary/blue-team.md), [Purple
+Teamu](@/glossary/purple-team.md), [White Teamu](@/glossary/white-team.md) a [Black
+Teamu](@/glossary/black-team.md) – a společně tvoří ucelenou architekturu syntézy útoku
+a obrany, kterou řídí doktrína [NO MERCY, NO DOUBTS](@/glossary/nm-nd.md). Red Team tvoří
+4 agenti v hierarchické velitelské struktuře, kteří simulují epistemické útoky pomocí pěti
+definovaných primitiv a generují útočné scénáře z ucelené taxonomie útoků o 329 položkách
+(stav v době zápisu). Všechny operace běží v sandboxu se syntetickými daty a bez přístupu do
+sítě, takže útočné simulace nemohou ovlivnit produkční systémy ani skutečná data.
 
-The distinction between traditional Red Teaming and epistemic Red Teaming is fundamental to understanding the platform's security model. Traditional Red Teams target network infrastructure, applications, and physical security perimeters. Epistemic Red Teams target the integrity of belief formation, evidence evaluation, and confidence calibration -- areas where subtle manipulation can have outsized impact on system behavior without triggering conventional security alarms.
+Rozdíl mezi tradičním a epistemickým red teamingem je pro pochopení bezpečnostního modelu
+platformy zásadní. Tradiční Red Teamy útočí na síťovou infrastrukturu, aplikace a fyzické
+bezpečnostní perimetry. Epistemické Red Teamy cílí na integritu vzniku přesvědčení, hodnocení
+důkazů a kalibraci důvěry – oblasti, kde jemná manipulace může mít nepřiměřeně velký dopad na
+chování systému, aniž by spustila běžné bezpečnostní poplachy.
 
-| Aspect | Traditional Red Team | Epistemic Red Team (Prismatic) |
+| Hledisko | Tradiční Red Team | Epistemický Red Team (Prismatic) |
 |--------|--------------------|--------------------|
-| **Target** | Network infrastructure, applications | Knowledge systems, reasoning pipelines |
-| **Attack Surface** | Ports, APIs, authentication | Evidence sources, confidence scores, belief formation |
-| **Primitives** | Exploit, pivot, exfiltrate, persist | Distort, manipulate, poison, induce drift, hijack |
-| **Success Metric** | System compromise | Epistemic integrity degradation |
-| **Safety Controls** | Network isolation | Sandbox + synthetic data + zero network |
-| **Taxonomy Size** | Varies by framework | 329 entries, systematically organized |
-| **Integration** | Standalone assessments | Continuous Purple Team synthesis loop |
+| **Cíl** | síťová infrastruktura, aplikace | znalostní systémy, pipeline uvažování |
+| **Útočná plocha** | porty, API, autentizace | zdroje důkazů, skóre důvěry, vznik přesvědčení |
+| **Primitiva** | exploit, pivot, exfiltrace, perzistence | zkreslení, manipulace, otrávení, navození posunu, únos pozornosti |
+| **Měřítko úspěchu** | kompromitace systému | zhoršení epistemické integrity |
+| **Bezpečnostní opatření** | síťová izolace | sandbox + syntetická data + nulová síť |
+| **Velikost taxonomie** | podle rámce | 329 položek, systematicky uspořádaných |
+| **Integrace** | samostatná posouzení | nepřetržitá smyčka syntézy s Purple Teamem |
 
-## The Five Epistemic Attack Primitives
+Pro Kompendium je Red Team pojmem z kontextu platformy. Jeho pět primitiv je však užitečnou
+mřížkou i pro rozpoznání útoků na lidské poznání – každé má v knize obdobu, popsanou vždy
+s detekcí a obranou (viz [Red Team a detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md)).
 
-The Red Team's operations are structured around five fundamental attack primitives that cover the full spectrum of epistemic manipulation. These primitives were derived from analysis of historical epistemic failures in AI systems, intelligence analysis, and decision-support platforms, and represent the minimal complete set needed to model adversarial behavior against knowledge systems.
+## Pět primitiv epistemického útoku
 
-**1. Truth Distortion**: Modifying the factual content of information sources to introduce inaccuracies. This includes subtle alterations that pass surface-level verification but corrupt downstream reasoning. The `red-epistemic-attacker` agent specializes in crafting distortions that exploit the gap between syntactic validity and semantic correctness. For example, modifying a security rating calculation by 2% -- small enough to avoid threshold alerts but sufficient to change a grade boundary from B to C when aggregated across multiple data points.
+Operace Red Teamu jsou postaveny kolem pěti základních primitiv útoku, která pokrývají celé
+spektrum epistemické manipulace. Primitiva byla odvozena z analýzy historických epistemických
+selhání systémů umělé inteligence, zpravodajské analýzy a platforem pro podporu rozhodování
+a představují minimální úplnou sadu potřebnou k modelování útočného chování proti znalostním
+systémům.
 
-**2. Confidence Manipulation**: Inflating or deflating confidence scores associated with beliefs or evidence without changing the underlying facts. This attack exploits systems that use confidence thresholds for decision-making, pushing marginal decisions across threshold boundaries. In the context of [NABLA Infinity](@/glossary/nabla-infinity.md), confidence manipulation targets the transition point between exploration (confidence < 0.95) and execution (confidence >= 0.95), potentially causing premature commitment or indefinite deferral.
+**1. Zkreslení pravdy** (*Truth Distortion*): úprava faktického obsahu informačních zdrojů,
+která do nich vnáší nepřesnosti. Patří sem jemné změny, které projdou povrchním ověřením, ale
+poškodí navazující uvažování. Agent `red-epistemic-attacker` se specializuje na zkreslení,
+která využívají mezeru mezi syntaktickou platností a sémantickou správností. Například úprava
+výpočtu bezpečnostního hodnocení o 2 % – dost malá, aby nespustila prahové výstrahy, ale
+dostatečná, aby při agregaci přes více datových bodů posunula hranici známky z B na C.
 
-**3. Signal Poisoning**: Injecting false or misleading signals into evidence streams to corrupt the [Signal Plurality](@/glossary/signal-plurality.md) axiom that requires minimum two independent signals for belief formation. Poisoned signals appear to originate from independent sources, undermining the plurality requirement by creating the appearance of multi-source corroboration from a single adversarial origin.
+**2. Manipulace důvěry** (*Confidence Manipulation*): nadsazení nebo podhodnocení skóre důvěry
+spojených s přesvědčeními nebo důkazy beze změny podkladových faktů. Útok využívá systémy,
+které rozhodují podle prahů důvěry, a posouvá hraniční rozhodnutí přes prahové hranice.
+V kontextu [NABLA Infinity](@/glossary/nabla-infinity.md) míří manipulace důvěry na bod
+přechodu mezi zkoumáním (důvěra < 0,95) a exekucí (důvěra ≥ 0,95) a může vést k předčasnému
+závazku nebo k neomezenému odkladu.
 
-**4. Drift Induction**: Introducing sub-threshold changes that individually pass detection but collectively shift system behavior over time. The `red-drift-inducer` agent specializes in cascade propagation analysis, identifying how small perturbations compound through interconnected systems. Drift induction is particularly dangerous because each individual change is within normal variance, making detection dependent on tracking cumulative divergence rather than individual anomalies.
+**3. Otrávení signálů** (*Signal Poisoning*): vkládání nepravdivých nebo zavádějících signálů
+do toků důkazů, které poškozuje axiom [Signal Plurality](@/glossary/signal-plurality.md),
+vyžadující pro vznik přesvědčení nejméně dva nezávislé signály. Otrávené signály se tváří, že
+pocházejí z nezávislých zdrojů, a podkopávají požadavek plurality tím, že z jediného útočného
+původu vytvářejí zdání potvrzení z více zdrojů.
 
-**5. Salience Hijacking**: Manipulating which information receives attention in reasoning processes. By elevating irrelevant signals or suppressing critical ones, salience hijacking corrupts prioritization without altering the underlying data. This primitive targets attention mechanisms in both automated systems and human analysts, exploiting the finite bandwidth of reasoning processes.
+**4. Navození posunu** (*Drift Induction*): zavádění podprahových změn, které jednotlivě
+projdou detekcí, ale společně v čase posunou chování systému. Agent `red-drift-inducer` se
+specializuje na analýzu kaskádového šíření a zjišťuje, jak se malá narušení sčítají v propojených
+systémech. Navození posunu je obzvlášť nebezpečné, protože každá jednotlivá změna je v mezích
+běžného rozptylu, takže detekce závisí na sledování kumulativní odchylky, ne jednotlivých anomálií.
 
-## The 329-Entry Attack Taxonomy
+**5. Únos výraznosti** (*Salience Hijacking*): manipulace tím, které informace dostanou
+v procesech uvažování pozornost. Zvýrazněním irelevantních signálů nebo potlačením kritických
+poškozuje únos výraznosti stanovení priorit, aniž by měnil podkladová data. Primitivum míří na
+mechanismy pozornosti automatizovaných systémů i lidských analytiků a využívá omezenou
+kapacitu procesů uvažování.
 
-The Red Team maintains a comprehensive taxonomy of adversarial scenarios organized by attack primitive, target subsystem, and complexity level. This taxonomy serves as both a testing framework and a knowledge base of known epistemic attack patterns.
+Lidské obdoby, které kniha rozebírá: zkreslení pravdy odpovídá [gaslightingu](@/glossary/gaslighting.md),
+otrávení signálů koordinovanému zdání shody ([Firehose of
+Falsehood](@/glossary/firehose-of-falsehood.md), boti), navození posunu postupné eskalaci
+v kultovní konverzi ([sektářská konverze](@/glossary/sektarska-konverze.md)) a únos výraznosti
+[EA-1.1.1 Selektivní expozici](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md).
+
+## Taxonomie útoků o 329 položkách
+
+Red Team vede ucelenou taxonomii útočných scénářů uspořádanou podle primitiva útoku, cílového
+subsystému a úrovně složitosti. Taxonomie slouží zároveň jako testovací rámec a jako znalostní
+báze známých vzorců epistemických útoků.
 
 ```elixir
 defmodule PrismaticDark.RedTeam.Taxonomy do
@@ -147,24 +205,37 @@ defmodule PrismaticDark.RedTeam.Taxonomy do
 end
 ```
 
-The taxonomy is not static. The `red-scenario-generator` agent continuously expands it based on emerging threats, new platform capabilities, findings from [Black Team](@/glossary/black-team.md) theoretical threat models, and real-world epistemic attack patterns observed in the cybersecurity and AI safety communities. Each new scenario undergoes validation through the [Trinity Gate](@/glossary/trinity-gate.md) before inclusion.
+Taxonomie není statická. Agent `red-scenario-generator` ji průběžně rozšiřuje podle nových
+hrozeb, nových schopností platformy, zjištění z teoretických modelů hrozeb [Black
+Teamu](@/glossary/black-team.md) a skutečných vzorců epistemických útoků pozorovaných
+v komunitách kybernetické bezpečnosti a bezpečnosti umělé inteligence. Každý nový scénář před
+zařazením projde ověřením přes [Trinity Gate](@/glossary/trinity-gate.md).
 
-## Agent Architecture
+## Architektura agentů
 
-The Red Team consists of four agents operating in a hierarchical command structure defined by the [AIAD](@/glossary/aiad.md) standard. Each agent has a specific role, authority level, and specialization that determines its operational scope and interaction patterns.
+Red Team tvoří čtyři agenti v hierarchické velitelské struktuře definované standardem
+[AIAD](@/glossary/aiad.md). Každý agent má konkrétní roli, úroveň oprávnění a specializaci,
+které určují jeho provozní rozsah a vzorce interakce.
 
-| Agent | Role | Level | Specialization | Primary Output |
+| Agent | Role | Úroveň | Specializace | Hlavní výstup |
 |-------|------|-------|----------------|----------------|
-| `red-commander` | Strategic Commander | L3 | Campaign orchestration, finding routing to Purple/Blue | Campaign reports, strategic findings |
-| `red-epistemic-attacker` | Tactical Specialist | L2 | Truth distortion, source poisoning simulation | Attack results, evidence artifacts |
-| `red-drift-inducer` | Tactical Specialist | L2 | Sub-threshold drift attacks, cascade propagation | Drift traces, cascade analysis |
-| `red-scenario-generator` | Tactical Specialist | L2 | Multi-technique scenario composition from taxonomy | New scenarios, taxonomy updates |
+| `red-commander` | Strategic Commander | L3 | řízení kampaní, směrování zjištění k Purple/Blue | zprávy z kampaní, strategická zjištění |
+| `red-epistemic-attacker` | Tactical Specialist | L2 | zkreslení pravdy, simulace otrávení zdrojů | výsledky útoků, důkazní artefakty |
+| `red-drift-inducer` | Tactical Specialist | L2 | podprahové útoky posunem, kaskádové šíření | stopy posunu, kaskádová analýza |
+| `red-scenario-generator` | Tactical Specialist | L2 | skládání vícetechnikových scénářů z taxonomie | nové scénáře, aktualizace taxonomie |
 
-The `red-commander` operates at L3 (Strategic Commander) level, orchestrating multi-scenario campaigns and routing findings to the [Purple Team](@/glossary/purple-team.md) for synthesis and the [Blue Team](@/glossary/blue-team.md) for defensive posture updates. The three L2 tactical specialists execute specific attack primitives under the commander's direction, each producing structured finding artifacts that feed into the platform's adversarial-defensive synthesis loop.
+`red-commander` pracuje na úrovni L3 ([Strategic Command](@/glossary/strategic-command.md)),
+řídí kampaně o více scénářích a směruje zjištění k [Purple Teamu](@/glossary/purple-team.md)
+k syntéze a k [Blue Teamu](@/glossary/blue-team.md) k aktualizaci obranného postavení. Tři
+taktičtí specialisté L2 ([Tactical Execution](@/glossary/tactical-execution.md)) provádějí pod
+vedením velitele konkrétní primitiva útoku a každý vytváří strukturované artefakty zjištění,
+které vstupují do smyčky syntézy útoku a obrany.
 
-## Signal Flow Architecture
+## Architektura toku signálů
 
-Red Team operations follow a defined signal flow within the broader [Color Teams](@/glossary/color-teams.md) architecture. Understanding this flow is essential for comprehending how adversarial findings drive defensive improvements.
+Operace Red Teamu se řídí definovaným tokem signálů v širší architektuře [Color
+Teams](@/glossary/color-teams.md). Pochopení tohoto toku je nezbytné pro pochopení, jak útočná
+zjištění vedou ke zlepšení obrany.
 
 ```
 Gray Team (boundary seeds) --> Red Team (adversarial scenarios)
@@ -176,11 +247,20 @@ Gray Team (boundary seeds) --> Red Team (adversarial scenarios)
                               Black Team (theoretical threat models feed Red scenarios)
 ```
 
-The [Gray Team](@/glossary/gray-team.md) provides boundary exploration seeds -- specification gaps, edge cases, and ambiguity zones -- that the Red Team transforms into concrete adversarial scenarios. The [Black Team](@/glossary/black-team.md) provides theoretical threat models that inform Red Team strategy at the abstract level. Red Team findings flow to both the Purple Team (for synthesis with Blue Team defensive findings) and directly to the Blue Team (for immediate defensive posture updates). The [White Team](@/glossary/white-team.md) subsequently validates that remediation efforts have actually addressed the vulnerabilities the Red Team identified.
+[Gray Team](@/glossary/gray-team.md) dodává podněty z průzkumu hranic – mezery ve specifikaci,
+hraniční případy a zóny nejednoznačnosti –, které Red Team převádí na konkrétní útočné
+scénáře. [Black Team](@/glossary/black-team.md) dodává teoretické modely hrozeb, které
+ovlivňují strategii Red Teamu na abstraktní úrovni. Zjištění Red Teamu proudí k Purple Teamu
+(k syntéze s obrannými zjištěními Blue Teamu) a přímo k Blue Teamu (k okamžité aktualizaci
+obranného postavení). [White Team](@/glossary/white-team.md) následně ověřuje, že nápravná
+opatření skutečně řeší zranitelnosti, které Red Team odhalil.
 
-## Sandbox Isolation Architecture
+## Architektura izolace v sandboxu
 
-All Red Team operations execute within the `PrismaticDark.Sandbox` isolation boundary. This architecture ensures that adversarial simulations cannot affect production systems, real data, or external networks. The sandbox enforces three invariants: synthetic data only, zero network access, and immutable audit logging.
+Všechny operace Red Teamu běží uvnitř izolační hranice `PrismaticDark.Sandbox`. Architektura
+zajišťuje, že útočné simulace nemohou ovlivnit produkční systémy, skutečná data ani vnější
+sítě. Sandbox vynucuje tři invarianty: jen syntetická data, nulový přístup do sítě a neměnné
+auditní logování.
 
 ```elixir
 defmodule PrismaticDark.Sandbox do
@@ -245,11 +325,18 @@ defmodule PrismaticDark.Sandbox do
 end
 ```
 
-The sandbox isolation is not merely a best practice -- it is a non-negotiable safety requirement enforced at the infrastructure level. Even "read-only" network access could leak information about adversarial capabilities or internal platform structure. The ethics check interval ensures that automated ethical validation runs every 10 seconds during active operations, preventing scope creep from adversarial thinking into genuinely harmful territory.
+Izolace v sandboxu není jen osvědčený postup – je to nepodkročitelný bezpečnostní požadavek
+vynucovaný na úrovni infrastruktury. I přístup do sítě „jen pro čtení“ by mohl prozradit
+informace o útočných schopnostech nebo vnitřní struktuře platformy. Interval etických kontrol
+zajišťuje, že automatizované etické ověření běží během aktivních operací každých 10 sekund
+a brání tomu, aby se útočné myšlení rozšířilo do skutečně škodlivého území.
 
-## Campaign Execution
+## Provádění kampaní
 
-Red Team operations are organized into campaigns -- structured sequences of adversarial scenarios designed to test specific aspects of platform defenses. Campaigns provide the organizational structure for multi-scenario testing, producing structured findings that the [Purple Team](@/glossary/purple-team.md) uses for adversarial-defensive synthesis.
+Operace Red Teamu se organizují do kampaní – strukturovaných sledů útočných scénářů navržených
+k testování konkrétních aspektů obrany platformy. Kampaně dávají organizační rámec testování
+o více scénářích a vytvářejí strukturovaná zjištění, která [Purple Team](@/glossary/purple-team.md)
+využívá k syntéze útoku a obrany.
 
 ```elixir
 defmodule PrismaticDark.RedTeam.Campaign do
@@ -339,23 +426,47 @@ defmodule PrismaticDark.RedTeam.Campaign do
 end
 ```
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-Within the Prismatic Platform, the Red Team serves several critical functions that directly support the platform's security posture and epistemic integrity.
+V Prismatic Platform plní Red Team několik kritických funkcí, které přímo podporují
+bezpečnostní postavení a epistemickou integritu platformy.
 
-**Epistemic Security Validation**: Red Team scenarios test the [NABLA Infinity](@/glossary/nabla-infinity.md) framework's seven axioms under adversarial conditions. Signal poisoning attacks validate that the Signal Plurality requirement genuinely prevents single-source epistemic failures. Confidence manipulation attacks verify that [Trinity Gate](@/glossary/trinity-gate.md) catches artificially inflated confidence scores. Truth distortion attacks test the Provenance Mandatory axiom's ability to trace beliefs back to their origins and detect tampering.
+**Ověření epistemické bezpečnosti**: scénáře Red Teamu testují sedm [axiomů
+NABLA](@/glossary/nabla-axioms.md) v útočných podmínkách. Útoky otrávením signálů ověřují, že
+požadavek plurality signálů skutečně brání epistemickým selháním z jediného zdroje. Útoky
+manipulací důvěry ověřují, že [Trinity Gate](@/glossary/trinity-gate.md) zachytí uměle
+nadsazená skóre důvěry. Útoky zkreslením pravdy testují schopnost axiomu povinné provenience
+dohledat přesvědčení k jejich původu a odhalit manipulaci.
 
-**Defense Posture Assessment**: Findings from Red Team campaigns flow to the [Blue Team](@/glossary/blue-team.md) for defensive posture updates and to the [Purple Team](@/glossary/purple-team.md) for synthesis. This creates a continuous improvement loop where adversarial discoveries drive defensive enhancements. The Purple Team's closure analyst tracks whether each Red Team finding has been adequately addressed, preventing findings from being acknowledged but not remediated.
+**Posouzení obranného postavení**: zjištění z kampaní Red Teamu proudí k [Blue
+Teamu](@/glossary/blue-team.md) k aktualizaci obranného postavení a k [Purple
+Teamu](@/glossary/purple-team.md) k syntéze. Vzniká smyčka nepřetržitého zlepšování, v níž
+útočné objevy vedou ke zlepšení obrany. Analytik uzavření v Purple Teamu sleduje, zda bylo
+každé zjištění Red Teamu přiměřeně vyřešeno, a brání tomu, aby zjištění byla vzata na vědomí,
+ale nenapravena.
 
-**Drift Detection Calibration**: The `red-drift-inducer` agent generates sub-threshold drift scenarios that calibrate the Blue Team's `blue-drift-detector` sensitivity. By knowing exactly what drift was introduced, the platform can measure detection accuracy and adjust thresholds. This calibration is critical because drift detection sensitivity involves a trade-off: too sensitive causes false positives, too insensitive misses real drift.
+**Kalibrace detekce posunu**: agent `red-drift-inducer` generuje podprahové scénáře posunu,
+které kalibrují citlivost agenta `blue-drift-detector` Blue Teamu. Protože je přesně známo,
+jaký posun byl zaveden, může platforma změřit přesnost detekce a upravit prahy. Kalibrace je
+kritická, protože citlivost detekce posunu je kompromisem: příliš citlivá vede k falešně
+pozitivním výsledkům, příliš necitlivá přehlédne skutečný posun.
 
-**Scenario Library Maintenance**: The `red-scenario-generator` maintains and expands the 329-entry taxonomy based on emerging threats, new platform capabilities, and findings from [Black Team](@/glossary/black-team.md) theoretical threat models. Each new scenario is classified by primitive, complexity, target subsystem, and detection difficulty, ensuring comprehensive coverage of the adversarial landscape.
+**Údržba knihovny scénářů**: `red-scenario-generator` udržuje a rozšiřuje taxonomii o 329
+položkách podle nových hrozeb, nových schopností platformy a zjištění z teoretických modelů
+hrozeb [Black Teamu](@/glossary/black-team.md). Každý nový scénář se klasifikuje podle
+primitiva, složitosti, cílového subsystému a obtížnosti detekce, aby bylo pokrytí útočné
+krajiny úplné.
 
-**NABLA Axiom Stress Testing**: Each of the seven NABLA axioms (Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, Provenance Mandatory) has dedicated Red Team scenarios designed to probe its enforcement boundaries. This systematic coverage ensures that the epistemic framework is not merely theoretically sound but practically resilient under adversarial pressure.
+**Zátěžové testování axiomů NABLA**: každý ze sedmi axiomů NABLA (pluralita signálů, zachování
+rozporu, informativní absence, časový rozpad, platnost neznáma, nezávislost zdrojů, povinná
+provenience) má vyhrazené scénáře Red Teamu, které zkoumají hranice jeho vynucení. Systematické
+pokrytí zajišťuje, že epistemický rámec není jen teoreticky správný, ale prakticky odolný pod
+útočným tlakem.
 
-## Telemetry and Observability
+## Telemetrie a pozorovatelnost
 
-Red Team operations emit comprehensive telemetry events that enable monitoring, alerting, and post-campaign analysis. All events follow the platform's standard telemetry conventions.
+Operace Red Teamu vysílají úplné telemetrické události, které umožňují monitorování, výstrahy
+a analýzu po kampani. Všechny události dodržují standardní telemetrické konvence platformy.
 
 ```elixir
 defmodule PrismaticDark.RedTeam.Telemetry do
@@ -393,87 +504,127 @@ defmodule PrismaticDark.RedTeam.Telemetry do
 end
 ```
 
-## Safety Protocols
+## Bezpečnostní protokoly
 
-The Red Team operates under strict safety protocols that are non-negotiable and non-bypassable. These protocols are enforced at multiple layers -- code, infrastructure, and organizational -- to ensure defense in depth against safety boundary violations.
+Red Team pracuje pod přísnými bezpečnostními protokoly, které nelze vyjednávat ani obejít.
+Vynucují se na několika vrstvách – v kódu, v infrastruktuře a organizačně –, aby vznikla
+hloubková obrana proti porušení bezpečnostních hranic.
 
-| Protocol | Enforcement | Verification |
+| Protokol | Vynucení | Ověření |
 |----------|-------------|-------------|
-| **Sandbox Isolation** | All operations in PrismaticDark.Sandbox | Compile-time + runtime checks |
-| **Synthetic Data Only** | No real data, no PII, no production state | Data source validation on every operation |
-| **Zero Network Access** | No network connectivity for Red operations | Firewall rules + runtime verification |
-| **Ethics Checks** | Automated validation every 10 seconds | Periodic timer with escalation on failure |
-| **Escalation Guards** | Gray Escalation Guard prevents scope creep | Independent safety agent with override authority |
-| **Audit Logging** | Immutable audit trail for every operation | Append-only log with integrity verification |
-| **Duration Limits** | Maximum 1-hour campaign duration | Timer-based enforcement with automatic termination |
-| **Authorized Context Only** | CTF, defensive research, authorized testing | Context validation at campaign initialization |
+| **Izolace v sandboxu** | všechny operace v PrismaticDark.Sandbox | kontroly při kompilaci a za běhu |
+| **Jen syntetická data** | žádná skutečná data, žádné osobní údaje, žádný produkční stav | ověření zdroje dat při každé operaci |
+| **Nulový přístup do sítě** | operace Red bez síťového připojení | pravidla firewallu + ověření za běhu |
+| **Etické kontroly** | automatizované ověření každých 10 sekund | periodický časovač s eskalací při selhání |
+| **Eskalační stráže** | Gray Escalation Guard brání rozšiřování rozsahu | nezávislý bezpečnostní agent s pravomocí přebít |
+| **Auditní logování** | neměnná auditní stopa každé operace | log jen pro připisování s ověřením integrity |
+| **Časové limity** | kampaň nejvýše 1 hodina | vynucení časovačem s automatickým ukončením |
+| **Jen oprávněný kontext** | CTF, obranný výzkum, autorizované testování | ověření kontextu při zahájení kampaně |
 
-The safety protocols are designed with the assumption that adversarial thinking creates cognitive risks even in simulation contexts. The ethics check cadence (every 10 seconds) is deliberately frequent to prevent the gradual normalization of increasingly aggressive attack patterns. The [Gray Team](@/glossary/gray-team.md) escalation guard has independent authority to halt any Red Team operation that shows signs of scope creep beyond the boundaries of epistemic security testing.
+Bezpečnostní protokoly vycházejí z předpokladu, že útočné myšlení vytváří kognitivní rizika
+i v kontextu simulace. Kadence etických kontrol (každých 10 sekund) je záměrně častá, aby
+zabránila postupné normalizaci stále agresivnějších vzorců útoku. Eskalační stráž [Gray
+Teamu](@/glossary/gray-team.md) má nezávislou pravomoc zastavit kteroukoli operaci Red Teamu,
+která vykazuje známky rozšiřování mimo hranice testování epistemické bezpečnosti.
 
-## Best Practices
+Kompendium tento princip přebírá pro vlastní obsah: mechanismy se popisují jen jako
+rozpoznatelné vzorce spolu s detekcí a obranou, nikdy jako postup (viz [1.3 Etické aspekty
+a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md) a [Dual Use](@/kompendium/08-prilohy/dual-use.md)).
 
-1. **Always Sandbox**: Never execute adversarial scenarios outside the isolation boundary, regardless of perceived safety. One misconfigured scenario can corrupt production data or leak internal structure to external observers.
+## Osvědčené postupy
 
-2. **Synthetic Data Exclusively**: Generate realistic but entirely synthetic test data. Using anonymized production data risks re-identification and introduces real-world consequences that violate the simulation-only mandate.
+1. **Vždy v sandboxu**: nikdy nespouštět útočné scénáře mimo izolační hranici, bez ohledu na
+   zdánlivou bezpečnost. Jediný chybně nastavený scénář může poškodit produkční data nebo
+   prozradit vnitřní strukturu vnějším pozorovatelům.
+2. **Výhradně syntetická data**: generovat realistická, ale zcela syntetická testovací data.
+   Použití anonymizovaných produkčních dat hrozí reidentifikací a vnáší skutečné důsledky,
+   které porušují mandát „jen simulace“.
+3. **Strukturovaná zjištění**: každé zjištění dokumentovat s ID scénáře, důkazy, posouzením
+   dopadu, dobou detekce a použitelnými doporučeními. Nestrukturovaná zjištění vytvářejí šum
+   bez zlepšení.
+4. **Napojení na Purple Team**: všechna zjištění směrovat přes syntézu [Purple
+   Teamu](@/glossary/purple-team.md), ne přímo inženýrům. Purple Team zasadí zjištění do
+   kontextu existujících obran a brání zdvojeným nápravám.
+5. **Kadence etických kontrol**: během aktivních operací udržovat automatizované etické
+   ověření každých 10–15 sekund. Brání to přesahu útočného myšlení do skutečně škodlivého území.
+6. **Stupňovaná složitost**: začínat kampaně základními scénáři a eskalovat ke složeným útokům.
+   Tím se ověří základní obrany dřív, než se testují sofistikované útoky z více primitiv.
+7. **Úplnost auditní stopy**: každá operace Red Teamu musí vytvořit neměnný auditní záznam.
+   Mezery v auditu vytvářejí slepá místa odpovědnosti a podkopávají integritu bezpečnostního
+   programu.
+8. **Aktuálnost taxonomie**: taxonomii útoků revidovat a aktualizovat nejméně jednou měsíčně.
+   Nové funkce platformy vytvářejí nové útočné plochy, které existující scénáře nemusí pokrývat.
 
-3. **Structured Findings**: Document every finding with scenario ID, evidence, impact assessment, detection time, and actionable recommendations. Unstructured findings create noise without driving improvement.
+## Časté chyby
 
-4. **Purple Team Integration**: Route all findings through [Purple Team](@/glossary/purple-team.md) synthesis rather than directly to engineering. Purple Team contextualizes findings against existing defenses and prevents duplicate remediation efforts.
+- **Rozšiřování rozsahu**: útočné myšlení se může posunout od testování obrany k vývoji
+  skutečných útočných schopností. Přísné eskalační stráže a eskalační stráž [Gray
+  Teamu](@/glossary/gray-team.md) tomuto přechodu brání. Hranice mezi „testováním obrany“
+  a „vývojem útoku“ vyžaduje trvalou bdělost.
+- **Falešná jistota z ubráněných výsledků**: scénář klasifikovaný jako „ubráněný“ dokazuje jen
+  to, že byl zablokován konkrétní vektor útoku. Varianty mohou uspět. Složené scénáře testují
+  robustnost obrany vůči novým kombinacím, které jednotlivé základní scénáře odhalit nemohou.
+- **Přehlížení podprahových zjištění**: částečná obejití a těsná minutí často ukazují na
+  závažnější zranitelnosti než čistá selhání. Analytik uzavření v Purple Teamu cíleně sleduje
+  vzorce v dílčích výsledcích, které naznačují systémové slabiny.
+- **Porušení síťové izolace**: i přístup do sítě „jen pro čtení“ může prozradit informace
+  o útočných schopnostech nebo vnitřní architektuře. Nulový přístup do sítě je pro operace
+  Red a Black Teamu nepodkročitelný.
+- **Zastarávání taxonomie**: taxonomie útoků vyžadují průběžnou aktualizaci, jak se platforma
+  vyvíjí. Nové funkce vytvářejí nové útočné plochy. Taxonomie o 329 položkách je živý dokument,
+  ne pevná reference.
+- **Předčasné ukončení kampaně**: zastavení kampaně po prvních „ubráněných“ výsledcích vynechá
+  stupňovanou složitost, kterou složené scénáře přinášejí. Plán kampaně je třeba vždy dokončit.
 
-5. **Ethics Check Cadence**: Maintain automated ethics validation every 10-15 seconds during active operations. This prevents scope creep from adversarial thinking into genuinely harmful territory.
+## Historický kontext a vývoj v odvětví
 
-6. **Graduated Complexity**: Start campaigns with basic scenarios and escalate to composite attacks. This ensures fundamental defenses are verified before testing against sophisticated multi-primitive attacks.
+Red teaming má kořeny ve vojenské strategii studené války, kdy se jednotky simulující
+protivníka označovaly „červeně“. Do kybernetické bezpečnosti se praxe dostala přes vojenskou
+a zpravodajskou komunitu v 90. letech, do hlavního proudu ji uvedla publikace NIST SP 800-115
+(*Technical Guide to Information Security Testing and Assessment*) a dále se vyvinula se
+systematickým katalogem taktik, technik a postupů protivníka v rámci MITRE ATT&CK.
 
-7. **Audit Trail Completeness**: Every Red Team operation must produce an immutable audit entry. Audit gaps create accountability blind spots and undermine the security program's integrity.
+Rozšíření red teamingu na epistemickou bezpečnost představuje příspěvek Prismatic Platform
+k tomuto vývoji. Jak se systémy umělé inteligence stále víc podílejí na rozhodování, rozšiřuje
+se útočná plocha za tradiční infrastrukturu na znalostní systémy, pipeline uvažování
+a mechanismy kalibrace důvěry, na které se umělá inteligence spoléhá. Epistemický red teaming
+na tuto rozšířenou útočnou plochu odpovídá pěti primitivy a taxonomií o 329 položkách.
 
-8. **Taxonomy Currency**: Review and update the attack taxonomy at least monthly. New platform features create new attack surfaces that existing scenarios may not cover.
+## Související
 
-## Common Pitfalls
+**Pojmy platformy v tomto glosáři**
 
-- **Scope Creep**: Adversarial thinking can drift from testing defenses to developing actual attack capabilities. Strict escalation guards and the [Gray Team](@/glossary/gray-team.md) escalation guard prevent this transition. The boundary between "testing a defense" and "developing an attack" requires constant vigilance.
+- [Blue Team](@/glossary/blue-team.md) – obranný protějšek, který přijímá zjištění Red.
+- [Purple Team](@/glossary/purple-team.md) – syntetický uzel uzavírání smyčky Red–Blue.
+- [Black Team](@/glossary/black-team.md) – teoretické modelování hrozeb pro scénáře.
+- [Gray Team](@/glossary/gray-team.md) – průzkum hranic, který dodává podněty kampaním.
+- [White Team](@/glossary/white-team.md) – konstruktivní ověření nápravy zjištění.
+- [Color Teams](@/glossary/color-teams.md) – přehled všech šesti barevných týmů.
+- [NABLA Infinity](@/glossary/nabla-infinity.md), [Trinity Gate](@/glossary/trinity-gate.md),
+  [Signal Plurality](@/glossary/signal-plurality.md) – rámec, brána a axiom, které útočná
+  simulace testuje.
+- [Tactical Execution](@/glossary/tactical-execution.md), [AIAD](@/glossary/aiad.md) – úroveň
+  L2 specialistů a standard definic agentů.
 
-- **False Confidence from Defended Results**: A scenario classified as "defended" only proves the specific attack vector was blocked. Variations may succeed. Composite scenarios test defense robustness against novel combinations that individual basic scenarios cannot reveal.
+**Přehledy platformy mimo tuto knihu**
 
-- **Ignoring Sub-Threshold Findings**: Partial bypasses and near-misses often indicate more significant vulnerabilities than clean failures. The Purple Team's closure analyst specifically watches for patterns in partial results that suggest systemic weaknesses.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Schopnosti](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/).
 
-- **Network Isolation Violations**: Even "read-only" network access can leak information about adversarial capabilities or internal architecture. Zero network access is non-negotiable for Red and Black Team operations.
+**Kniha**
 
-- **Taxonomy Staleness**: Attack taxonomies require continuous updates as the platform evolves. New features create new attack surfaces. The 329-entry taxonomy is a living document, not a fixed reference.
-
-- **Premature Campaign Termination**: Stopping a campaign after initial "defended" results misses the graduated complexity that composite scenarios provide. Always complete the full campaign plan.
-
-## Historical Context and Industry Evolution
-
-Red Teaming traces its roots to Cold War military strategy, where NATO forces designated adversary simulation units with the "red" designation. The practice entered cybersecurity through military and intelligence community adoption in the 1990s, became mainstream with the publication of NIST SP 800-115 (Technical Guide to Information Security Testing and Assessment), and evolved further with the MITRE ATT&CK framework's systematic cataloging of adversary tactics, techniques, and procedures.
-
-The extension of Red Teaming to epistemic security represents the Prismatic Platform's contribution to this evolution. As AI systems increasingly participate in decision-making processes, the attack surface expands beyond traditional infrastructure to include the knowledge systems, reasoning pipelines, and confidence calibration mechanisms that AI relies upon. Epistemic Red Teaming addresses this expanded attack surface through the five primitives and 329-entry taxonomy.
-
-## Related Concepts
-
-- [Blue Team](@/glossary/blue-team.md) - Defensive counterpart receiving Red findings for posture assessment
-- [Purple Team](@/glossary/purple-team.md) - Synthesis hub for Red-Blue loop closure and regression monitoring
-- [Black Team](@/glossary/black-team.md) - Theoretical threat modeling feeding Red Team scenarios
-- [Gray Team](@/glossary/gray-team.md) - Boundary exploration providing seeds for Red Team campaigns
-- [White Team](@/glossary/white-team.md) - Constructive verification validating Red Team finding remediation
-- [Color Teams](@/glossary/color-teams.md) - Full overview of all six color team operations
-- [NABLA Infinity](@/glossary/nabla-infinity.md) - Epistemic framework tested through adversarial simulation
-- [Trinity Gate](@/glossary/trinity-gate.md) - Three-layer validation gate tested by confidence manipulation attacks
-- [Signal Plurality](@/glossary/signal-plurality.md) - Axiom tested by signal poisoning attacks
-- [Tactical Execution](@/glossary/tactical-execution.md) - L2 tier of Red Team specialists
-- [AIAD](@/glossary/aiad.md) - Agent standard governing Red Team agent definitions
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Full agent catalog including Red Team agents
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) - Security capabilities powered by Color Team operations
+- [Red Team a detekce EA](@/kompendium/aiad-integration/red-team-ea-detection.md) – útočná
+  simulace jako nástroj rozpoznání EA.
+- [2.7 Vztah ke Decision Engine a Color Teams](@/kompendium/02-uvod/vztah-k-decision-engine.md) –
+  jak barevné týmy vstupují do knihy.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

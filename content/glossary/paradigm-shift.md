@@ -1,10 +1,10 @@
 +++
-title = "Paradigm Shift"
+title = "Paradigm shift (změna paradigmatu)"
 weight = 50
-description = "Comprehensive exploration of technology paradigm shifts with deep focus on the OTP/BEAM paradigm, the functional programming revolution, actor model concurrency, and how the Prismatic Platform embodies the shift from imperative to declarative, process-oriented system design"
+description = "Kuhnův pojem změny paradigmatu použitý na softwarové inženýrství: od OOP k funkcionálnímu programování a procesnímu modelu OTP/BEAM v Prismatic Platform."
 
 [taxonomies]
-tags = ["glossary", "core", "paradigm", "functional-programming", "otp", "beam", "erlang", "elixir", "concurrency", "distributed-systems", "architecture", "evolution"]
+tags = ["glossary", "prismatic", "architecture", "science", "philosophy"]
 
 [extra]
 category = "core"
@@ -24,71 +24,138 @@ date_created = "2026-02-22"
 date_updated = "2026-02-22"
 version = "2.0.0"
 word_count = 2900
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Paradigm", "Shift", "Comprehensive", "OTPBEAM", "Prismatic", "Platform", "glossary", "core", "Prismatic Platform", "BEAM"]
 image = "/images/sections/glossary.png"
-image_alt = "Paradigm Shift - Prismatic Platform"
+image_alt = "Paradigm shift (změna paradigmatu) – glosář"
 +++
 
-## Definition
+## Definice
 
-A paradigm shift is a fundamental change in the underlying assumptions, methods, and frameworks through which a discipline understands and approaches its domain. The term originates from Thomas Kuhn's 1962 work "The Structure of Scientific Revolutions," where he argued that scientific progress is not a smooth, continuous accumulation of knowledge but rather a series of revolutionary ruptures -- paradigm shifts -- in which the entire conceptual framework of a field is replaced by a new one that is incommensurable with its predecessor.
+Změna paradigmatu (*paradigm shift*) je zásadní změna výchozích předpokladů, metod a rámců,
+jimiž obor chápe svou oblast a přistupuje k ní. Pojem pochází z knihy Thomase Kuhna *The
+Structure of Scientific Revolutions* (*Struktura vědeckých revolucí*, 1962). Kuhn v ní tvrdil,
+že vědecký pokrok není plynulé, souvislé hromadění poznatků, ale řada revolučních zlomů –
+změn paradigmatu –, při nichž se celý pojmový rámec oboru nahradí novým, který je
+s předchozím nesouměřitelný (viz heslo [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)
+a kapitolu [7.11 Kuhn: Paradigmatické revoluce a
+inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)).
 
-In software engineering, paradigm shifts manifest as fundamental changes in how we conceptualize computation, structure programs, manage state, handle concurrency, and reason about system behavior. These shifts are not merely new tools or libraries but new ways of thinking that render previous approaches not just obsolete but conceptually inadequate. The shift from procedural to object-oriented programming was not about adding classes to C; it was about reconceptualizing programs as collections of collaborating objects rather than sequences of instructions. Similarly, the shift to functional programming is not about adding lambda expressions to Java; it is about reconceptualizing computation as the evaluation of mathematical functions rather than the mutation of state.
+V softwarovém inženýrství se změny paradigmatu projevují jako zásadní proměny toho, jak
+chápeme výpočet, strukturujeme programy, spravujeme stav, zvládáme souběžnost a uvažujeme
+o chování systému. Nejde jen o nové nástroje nebo knihovny, ale o nové způsoby myšlení, které
+předchozí přístupy činí nejen zastaralými, ale pojmově nedostačujícími. Přechod od
+procedurálního k objektově orientovanému programování nespočíval v přidání tříd do C, ale
+v novém pojetí programu jako souboru spolupracujících objektů místo posloupnosti instrukcí.
+Podobně přechod k funkcionálnímu programování nespočívá v přidání lambda výrazů do Javy, ale
+v novém pojetí výpočtu jako vyhodnocování matematických funkcí místo měnění stavu.
 
-## Kuhn's Framework Applied to Software Engineering
+Toto heslo pochází z technické dokumentace Prismatic Platform. Pro Kompendium je Kuhnův pojem
+důležitý jinak: změna paradigmatu u člověka (konverze, vystoupení ze skupiny) může být
+zdravým vývojem i výsledkem manipulace, a kniha proto rozlišuje mezi svobodnou revizí
+rámce a vnuceným přepisem (viz [Gestalt Shift](@/glossary/gestalt-shift.md),
+[paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md)).
 
-Kuhn identified a recurring pattern in scientific revolutions that maps surprisingly well to technology paradigm shifts.
+## Kuhnův rámec v softwarovém inženýrství
 
-### Normal Science (Normal Engineering)
+Kuhn popsal opakující se vzorec vědeckých revolucí, který překvapivě dobře odpovídá změnám
+technologických paradigmat.
 
-During periods of "normal science," practitioners work within an established paradigm, solving puzzles that the paradigm defines and provides tools to address. In software engineering, this corresponds to periods of incremental improvement within an established technology stack -- new frameworks for the same paradigm, better tooling for the same languages, optimization of existing patterns.
+### Normální věda (normální inženýrství)
 
-The object-oriented paradigm dominated "normal engineering" from the 1990s through the 2010s. During this period, the fundamental assumptions were stable: programs are organized as class hierarchies, state is encapsulated in objects, concurrency is managed through shared memory with locks, and design patterns provide templates for common problems.
+V obdobích „normální vědy“ pracují odborníci uvnitř zavedeného paradigmatu a řeší hádanky,
+které paradigma vymezuje a k jejichž řešení dává nástroje. V softwarovém inženýrství tomu
+odpovídají období postupného zlepšování v rámci zavedeného technologického stacku – nové
+frameworky pro totéž paradigma, lepší nástroje pro tytéž jazyky, optimalizace existujících
+vzorů.
 
-### Anomalies
+Objektově orientované paradigma ovládalo „normální inženýrství“ od 90. let do 10. let
+21. století. V tom období byly základní předpoklady stabilní: programy se organizují jako
+hierarchie tříd, stav je zapouzdřen v objektech, souběžnost se řídí sdílenou pamětí se
+zámky a návrhové vzory poskytují šablony pro běžné problémy.
 
-Anomalies are problems that the current paradigm cannot adequately solve. They accumulate over time, creating growing tension between the paradigm's promises and its actual capabilities. In the object-oriented paradigm, anomalies accumulated around concurrency (shared mutable state + threads = race conditions), distribution (objects assume shared memory, but distributed systems do not have it), and complexity (deep class hierarchies become rigid and difficult to reason about).
+### Anomálie
 
-The "callback hell" of Node.js, the "synchronized everything" approach of Java concurrent programming, and the explosion of Gang of Four design patterns (many of which work around limitations of the paradigm rather than expressing natural solutions) are all anomalies that signaled the limits of the object-oriented paradigm for modern system requirements.
+Anomálie jsou problémy, které současné paradigma nedokáže uspokojivě vyřešit. V čase se
+hromadí a vytvářejí rostoucí napětí mezi sliby paradigmatu a jeho skutečnými schopnostmi.
+V objektově orientovaném paradigmatu se anomálie hromadily kolem souběžnosti (sdílený
+měnitelný stav + vlákna = souběhové chyby), distribuce (objekty předpokládají sdílenou
+paměť, ale distribuované systémy ji nemají) a složitosti (hluboké hierarchie tříd jsou rigidní
+a obtížně se o nich uvažuje).
 
-### Crisis and Revolution
+„Callback hell“ v Node.js, přístup „synchronizovat všechno“ v souběžném programování v Javě
+a exploze návrhových vzorů „Gang of Four“ (mnohé z nich obcházejí omezení paradigmatu,
+místo aby vyjadřovaly přirozená řešení) jsou anomálie, které signalizovaly meze objektově
+orientovaného paradigmatu pro moderní požadavky na systémy.
 
-When anomalies become too numerous or too severe to ignore, the paradigm enters crisis. Alternative paradigms, previously dismissed as academic curiosities, gain traction as practitioners seek better solutions to the problems the old paradigm cannot solve.
+### Krize a revoluce
 
-The concurrent programming crisis of the 2010s -- driven by the end of single-core performance scaling and the rise of distributed systems -- created the conditions for a paradigm shift toward functional programming, immutable data structures, and process-oriented concurrency models. The BEAM virtual machine and its OTP framework, originally designed for telecom switching systems in the 1980s, found new relevance as the paradigm that had already solved the problems the rest of the industry was just discovering.
+Když jsou anomálie příliš četné nebo příliš závažné, než aby je šlo přehlížet, vstupuje
+paradigma do krize. Alternativní paradigmata, dříve odbývaná jako akademické kuriozity,
+získávají půdu, protože odborníci hledají lepší řešení problémů, které staré paradigma řešit
+neumí.
 
-## Major Paradigm Shifts in Software Engineering
+Krize souběžného programování v 10. letech 21. století – hnaná koncem růstu výkonu jednoho
+jádra a nástupem distribuovaných systémů – vytvořila podmínky pro změnu paradigmatu směrem
+k funkcionálnímu programování, neměnným datovým strukturám a procesně orientovaným modelům
+souběžnosti. Virtuální stroj BEAM a jeho framework OTP, původně navržené v 80. letech pro
+telekomunikační ústředny, našly novou relevanci jako paradigma, které už vyřešilo problémy,
+jež zbytek odvětví teprve objevoval.
 
-### Unstructured to Structured Programming (1960s-1970s)
+## Hlavní změny paradigmatu v softwarovém inženýrství
 
-The elimination of GOTO statements and the adoption of structured control flow (if/else, while, for) represented the first major paradigm shift in programming. Edsger Dijkstra's 1968 letter "Go To Statement Considered Harmful" articulated the theoretical basis, and languages like Pascal and C embodied the new paradigm.
+### Od nestrukturovaného ke strukturovanému programování (60.–70. léta)
 
-### Procedural to Object-Oriented (1980s-1990s)
+Odstranění příkazů GOTO a přijetí strukturovaného řízení toku (if/else, while, for)
+představovalo první velkou změnu paradigmatu v programování. Teoretický základ formuloval
+Edsger Dijkstra v dopise „Go To Statement Considered Harmful“ (1968) a nové paradigma
+ztělesnily jazyky jako Pascal a C.
 
-The shift from procedures operating on data structures to objects encapsulating both data and behavior changed how programmers organized code. Smalltalk demonstrated the vision; C++ and Java brought it to mainstream adoption. The shift introduced concepts like inheritance, polymorphism, and encapsulation that became the dominant vocabulary of software design.
+### Od procedurálního k objektově orientovanému (80.–90. léta)
 
-### Sequential to Concurrent (2000s-2010s)
+Přechod od procedur pracujících nad datovými strukturami k objektům, které zapouzdřují data
+i chování, změnil způsob, jak programátoři organizují kód. Smalltalk předvedl vizi, C++
+a Java ji přivedly do hlavního proudu. Změna zavedla pojmy dědičnost, polymorfismus
+a zapouzdření, které se staly převládajícím slovníkem softwarového návrhu.
 
-The end of Moore's Law for single-core performance forced a shift from sequential to concurrent programming. Multi-core processors became ubiquitous, but the dominant paradigm's tools for concurrency -- threads and locks -- were demonstrably inadequate for building reliable concurrent systems. This crisis drove adoption of alternative concurrency models: actors (Erlang/Elixir), communicating sequential processes (Go), software transactional memory (Clojure), and async/await (JavaScript, Rust, Python).
+### Od sekvenčního k souběžnému (první dvě desetiletí 21. století)
 
-### Imperative to Functional (2010s-2020s)
+Konec Moorova zákona pro výkon jednoho jádra si vynutil přechod od sekvenčního k souběžnému
+programování. Vícejádrové procesory se staly všudypřítomnými, ale nástroje převládajícího
+paradigmatu pro souběžnost – vlákna a zámky – se ukázaly jako nedostatečné pro stavbu
+spolehlivých souběžných systémů. Krize vedla k přijetí alternativních modelů souběžnosti:
+aktorů (Erlang/Elixir), komunikujících sekvenčních procesů (Go), softwarové transakční paměti
+(Clojure) a async/await (JavaScript, Rust, Python).
 
-The functional programming paradigm shift replaces mutable state with immutable data, side effects with pure functions, and imperative control flow with declarative transformations. This shift is still ongoing -- most mainstream languages have adopted functional features (lambdas, map/filter/reduce, pattern matching) without fully abandoning their imperative foundations.
+### Od imperativního k funkcionálnímu (10. a 20. léta 21. století)
 
-### Monolithic to Distributed (2010s-present)
+Změna paradigmatu k funkcionálnímu programování nahrazuje měnitelný stav neměnnými daty,
+vedlejší účinky čistými funkcemi a imperativní řízení toku deklarativními transformacemi.
+Změna stále probíhá – většina hlavních jazyků převzala funkcionální prvky (lambdy,
+map/filter/reduce, porovnávání se vzorem), aniž by zcela opustila imperativní základy.
 
-The shift from monolithic applications to distributed systems (microservices, event-driven architectures, serverless) represents a paradigm shift in system architecture. This shift changes the fundamental unit of deployment, the communication model between components, and the failure modes that systems must handle.
+### Od monolitického k distribuovanému (od 2010)
 
-## The OTP/BEAM Paradigm
+Přechod od monolitických aplikací k distribuovaným systémům (mikroslužby, architektury řízené
+událostmi, serverless) je změnou paradigmatu systémové architektury. Mění základní jednotku
+nasazení, komunikační model mezi komponentami i způsoby selhání, s nimiž musí systémy počítat.
 
-The BEAM virtual machine and OTP framework represent a paradigm that is distinct from both the object-oriented and the purely functional paradigms. The BEAM paradigm's fundamental unit is the process -- a lightweight, isolated unit of computation that communicates exclusively through message passing.
+## Paradigma OTP/BEAM
 
-### Process-Oriented Thinking
+Virtuální stroj BEAM a framework OTP představují paradigma odlišné od objektově
+orientovaného i čistě funkcionálního. Základní jednotkou paradigmatu BEAM je proces – lehká,
+izolovaná výpočetní jednotka, která komunikuje výhradně předáváním zpráv.
 
-In the BEAM paradigm, every stateful entity is a process. A user session is a process. A database connection is a process. A cache entry might be a process. This is not an optimization technique or a design pattern -- it is the fundamental organizing principle of all BEAM programs.
+### Procesně orientované myšlení
 
-This process orientation resolves the tension between functional purity and stateful computation. Individual functions within a process are pure -- they take inputs and produce outputs without side effects. State is managed at the process level through recursive message loops (GenServer), creating a clean separation between pure computation and stateful interaction.
+V paradigmatu BEAM je každá stavová entita procesem. Uživatelské sezení je proces.
+Databázové spojení je proces. I položka cache může být proces. Nejde o optimalizační techniku
+ani návrhový vzor – je to základní organizační princip všech programů na BEAM.
+
+Procesní orientace řeší napětí mezi funkcionální čistotou a stavovým výpočtem. Jednotlivé
+funkce uvnitř procesu jsou čisté – berou vstupy a vracejí výstupy bez vedlejších účinků. Stav
+se spravuje na úrovni procesu rekurzivními smyčkami zpráv (GenServer), čímž vzniká čisté
+oddělení čistého výpočtu od stavové interakce.
 
 ```elixir
 defmodule Prismatic.ParadigmExample.SessionProcess do
@@ -195,83 +262,180 @@ defmodule Prismatic.ParadigmExample.SessionProcess do
 end
 ```
 
-### Let It Crash Philosophy
+### Filosofie „let it crash“
 
-Perhaps the most paradigm-shifting aspect of OTP is the "let it crash" philosophy. In the object-oriented paradigm, error handling is defensive -- code wraps operations in try/catch blocks, checks return values, and attempts to recover from every possible failure. In the BEAM paradigm, processes are expected to crash when they encounter unexpected conditions, and supervisors automatically restart them in a known good state.
+Snad nejvíce paradigma měnícím rysem OTP je filosofie „let it crash“ („nech to spadnout“).
+V objektově orientovaném paradigmatu je ošetření chyb defenzivní – kód obaluje operace bloky
+try/catch, kontroluje návratové hodnoty a snaží se zotavit z každého možného selhání.
+V paradigmatu BEAM se od procesů očekává, že při neočekávaných podmínkách spadnou,
+a supervizory je automaticky restartují do známého dobrého stavu.
 
-This is not negligence; it is a deliberate design decision based on the observation that most error recovery code is itself buggy (it handles cases the programmer anticipated, but the bugs that crash systems are by definition unanticipated). By separating the concern of error recovery (supervision) from business logic (worker processes), OTP achieves fault tolerance that is both more robust and simpler to reason about than defensive programming.
+Není to nedbalost; je to záměrné rozhodnutí návrhu založené na pozorování, že většina kódu
+pro zotavení z chyb je sama chybová (ošetřuje případy, které programátor předvídal, ale chyby,
+které shazují systémy, jsou z definice nepředvídané). Oddělením zotavení z chyb (supervize)
+od obchodní logiky (pracovní procesy) dosahuje OTP odolnosti vůči chybám, která je
+robustnější a zároveň jednodušší na uvažování než defenzivní programování.
 
-### Supervision as Architecture
+### Supervize jako architektura
 
-In the BEAM paradigm, the [supervision tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) is not an implementation detail -- it is the architecture. The structure of the supervision tree determines the failure domains of the system, the order of initialization, and the recovery strategy for each component. Designing a BEAM application starts with designing its supervision tree, not its class hierarchy or its module structure.
+V paradigmatu BEAM není [supervizní
+strom](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/)
+implementačním detailem – je to architektura. Struktura supervizního stromu určuje domény
+selhání systému, pořadí inicializace a strategii zotavení každé komponenty. Návrh aplikace
+na BEAM začíná návrhem supervizního stromu, ne hierarchie tříd ani struktury modulů.
 
-The Prismatic Platform's 115-application umbrella is organized as a hierarchy of supervisors, with each application contributing its supervision subtree to the platform's overall supervision tree. This structure ensures that a failure in one application (say, an OSINT adapter encountering an unexpected API response) is isolated to that application's supervision subtree and does not affect the rest of the platform.
+Umbrella Prismatic Platform (v době zápisu 115 aplikací) je uspořádána jako hierarchie
+supervizorů, v níž každá aplikace přispívá svým podstromem do celkového supervizního stromu
+platformy. Tato struktura zajišťuje, že selhání v jedné aplikaci (třeba adaptér
+[OSINT](@/glossary/osint.md), který narazí na neočekávanou odpověď API) zůstane izolované
+v podstromu dané aplikace a neovlivní zbytek platformy.
 
-## Recognizing Paradigm Lock-In
+## Rozpoznání uvíznutí v paradigmatu
 
-One of the most insidious effects of paradigm thinking is paradigm lock-in -- the inability to see solutions outside the current paradigm's conceptual framework. Developers trained in object-oriented programming often write "object-oriented Elixir" -- creating GenServers that mirror class hierarchies, using processes as objects, and fighting the language's functional nature rather than embracing it.
+Jedním z nejzákeřnějších účinků paradigmatického myšlení je uvíznutí v paradigmatu
+(*paradigm lock-in*) – neschopnost vidět řešení mimo pojmový rámec současného paradigmatu.
+Vývojáři vyškolení v objektově orientovaném programování často píší „objektově orientovaný
+Elixir“ – vytvářejí GenServery, které zrcadlí hierarchie tříd, používají procesy jako objekty
+a bojují s funkcionální povahou jazyka, místo aby ji přijali.
 
-Signs of paradigm lock-in include: using GenServers for stateless operations (a function would suffice), creating deep process hierarchies that mirror class inheritance, reaching for mutable state (ETS, process dictionary) when immutable data structures would be simpler, and implementing design patterns from OOP that have no equivalent need in functional programming (most Gang of Four patterns solve problems that do not exist in functional languages).
+Znaky uvíznutí v paradigmatu: GenServery pro bezstavové operace (stačila by funkce), hluboké
+hierarchie procesů zrcadlící dědičnost tříd, sahání po měnitelném stavu (ETS, slovník procesu)
+tam, kde by neměnné datové struktury byly jednodušší, a implementace návrhových vzorů z OOP,
+které ve funkcionálním programování nemají odpovídající potřebu (většina vzorů Gang of Four
+řeší problémy, které ve funkcionálních jazycích neexistují).
 
-The Prismatic Platform's meta-rule -- "If the same solution could be written identically in Node.js, it is WRONG" -- is a heuristic for detecting paradigm lock-in. Code that does not leverage the BEAM's unique capabilities (process isolation, supervision, pattern matching, immutable data) is code that has not completed the paradigm shift.
+Metapravidlo Prismatic Platform – „Kdyby šlo stejné řešení napsat identicky v Node.js, je
+ŠPATNĚ“ – je heuristikou pro odhalení uvíznutí v paradigmatu. Kód, který nevyužívá jedinečné
+schopnosti BEAM (izolaci procesů, supervizi, porovnávání se vzorem, neměnná data), je kód,
+který změnu paradigmatu nedokončil.
 
-## The Functional Programming Shift in Detail
+Kompendium zná analogii u lidí: uvíznutí v rámci, který člověk převzal od skupiny, se
+projevuje tím, že každou novou zkušenost překládá do starého slovníku (srov. [Kognitivní
+stagnace](@/glossary/kognitivni-stagnace.md)).
 
-The functional programming paradigm shift involves several interconnected conceptual changes.
+## Funkcionální změna podrobněji
 
-**Immutability** eliminates an entire category of bugs -- race conditions, unexpected mutations, stale references -- by making data structures unchangeable after creation. In Elixir, all data is immutable. Operations that appear to modify a data structure (like `Map.put/3`) actually create a new data structure, with the runtime efficiently sharing unchanged portions through structural sharing.
+Změna paradigmatu k funkcionálnímu programování zahrnuje několik provázaných pojmových změn.
 
-**Pattern matching** replaces conditional branching with declarative data decomposition. Instead of checking conditions and extracting values imperatively, functions declare the shape of data they expect and the runtime dispatches to the appropriate function clause.
+**Neměnnost** odstraňuje celou kategorii chyb – souběhové chyby, neočekávané mutace, zastaralé
+reference –, protože datové struktury se po vytvoření nedají změnit. V Elixiru jsou všechna
+data neměnná. Operace, které zdánlivě datovou strukturu mění (jako `Map.put/3`), ve
+skutečnosti vytvářejí novou strukturu a běhové prostředí efektivně sdílí nezměněné části
+(strukturní sdílení).
 
-**Pipelines** replace nested function calls with linear data transformation chains. The pipe operator (`|>`) in Elixir makes the flow of data through transformations explicit and readable, replacing the "inside-out" reading order of nested calls with a "top-to-bottom" flow.
+**Porovnávání se vzorem** (*pattern matching*) nahrazuje podmíněné větvení deklarativním
+rozkladem dat. Místo imperativního ověřování podmínek a vybírání hodnot funkce deklarují tvar
+dat, který očekávají, a běhové prostředí zvolí odpovídající klauzuli funkce.
 
-**Algebraic data types** (tagged tuples in Elixir, like `{:ok, value}` and `{:error, reason}`) replace exceptions for expected failure cases, making error handling explicit in function signatures rather than implicit in try/catch blocks.
+**Pipeline** nahrazují vnořená volání funkcí lineárními řetězci transformací dat. Operátor
+pipe (`|>`) v Elixiru činí tok dat transformacemi výslovným a čitelným a nahrazuje čtení
+vnořených volání „zevnitř ven“ tokem „shora dolů“.
 
-## Paradigm Shifts in the Prismatic Platform
+**Algebraické datové typy** (v Elixiru označené n-tice jako `{:ok, value}` a
+`{:error, reason}`) nahrazují výjimky u očekávaných selhání, takže ošetření chyb je výslovně
+v signaturách funkcí, ne skryté v blocích try/catch.
 
-The Prismatic Platform embodies multiple paradigm shifts simultaneously.
+## Změny paradigmatu v Prismatic Platform
 
-**From monolithic to umbrella**: The 115-application umbrella architecture treats applications as independent units with explicit dependencies, rather than a monolithic codebase with implicit coupling.
+Prismatic Platform ztělesňuje několik změn paradigmatu současně.
 
-**From REST to real-time**: Phoenix LiveView shifts web application architecture from request-response cycles to persistent WebSocket connections with server-rendered updates, eliminating the need for separate frontend applications for interactive features.
+**Od monolitu k umbrelle**: architektura umbrella (v době zápisu 115 aplikací) chápe aplikace
+jako nezávislé jednotky s výslovnými závislostmi, ne jako monolitickou kódovou základnu
+s implicitní provázaností (srov. [Bounded Context](@/glossary/bounded-context.md)).
 
-**From manual to autonomous**: The platform's autoevolve and autoheal infrastructure shifts quality management from manual code review to autonomous, continuous quality enforcement that detects and corrects issues without human intervention.
+**Od REST k reálnému času**: Phoenix LiveView posouvá architekturu webových aplikací od cyklů
+požadavek–odpověď k trvalým spojením WebSocket se serverem vykreslovanými aktualizacemi,
+takže pro interaktivní funkce nejsou potřeba samostatné frontendové aplikace.
 
-**From static to adaptive**: The SEADF framework and Quality Floor Guardian shift system operation from static configurations to adaptive systems that measure their own behavior and evolve their own quality standards.
+**Od ručního k autonomnímu**: infrastruktura [AutoEvolve](@/glossary/autoevolve.md)
+a [AutoHeal](@/glossary/autoheal.md) posouvá řízení kvality od ručního code review
+k autonomnímu, průběžnému vynucování kvality, které problémy odhaluje a opravuje bez zásahu
+člověka.
 
-## Evaluating When a Paradigm Shift Is Warranted
+**Od statického k adaptivnímu**: rámec SEADF a Quality Floor Guardian posouvají provoz systému
+od statických konfigurací k adaptivním systémům, které měří vlastní chování a vyvíjejí vlastní
+standardy kvality.
 
-Not every new technology represents a paradigm shift, and not every paradigm shift is appropriate for every context. Evaluating whether to adopt a new paradigm requires honest assessment of several factors.
+## Kdy je změna paradigmatu oprávněná
 
-**Problem-paradigm fit**: Does the new paradigm address genuine anomalies in your current approach, or is it solving problems you do not have? The BEAM paradigm is transformative for concurrent, fault-tolerant systems; it offers less advantage for simple CRUD applications with minimal concurrency requirements.
+Ne každá nová technologie představuje změnu paradigmatu a ne každá změna paradigmatu se hodí
+do každého kontextu. Rozhodnutí o přijetí nového paradigmatu vyžaduje poctivé posouzení
+několika faktorů.
 
-**Team readiness**: Paradigm shifts require retraining. A team of experienced Java developers will not become productive Elixir developers overnight. The investment in learning must be weighed against the expected benefits.
+**Soulad problému a paradigmatu**: řeší nové paradigma skutečné anomálie současného přístupu,
+nebo problémy, které nemáte? Paradigma BEAM je transformační pro souběžné systémy odolné vůči
+chybám; u jednoduchých CRUD aplikací s minimálními požadavky na souběžnost přináší menší
+výhodu.
 
-**Ecosystem maturity**: A paradigm is only as useful as its ecosystem. Libraries, tools, documentation, and community support determine whether the paradigm's theoretical advantages translate into practical productivity.
+**Připravenost týmu**: změny paradigmatu vyžadují přeškolení. Tým zkušených vývojářů v Javě se
+přes noc nestane produktivním týmem v Elixiru. Investici do učení je třeba vážit proti
+očekávanému přínosu.
 
-**Migration cost**: Existing systems cannot be paradigm-shifted in place. The cost of rewriting, integrating, or gradually migrating must be realistic.
+**Zralost ekosystému**: paradigma je jen tak užitečné jako jeho ekosystém. Knihovny, nástroje,
+dokumentace a podpora komunity rozhodují, zda se teoretické výhody paradigmatu promítnou do
+praktické produktivity.
 
-## The Incomplete Shift Trap
+**Náklady migrace**: existující systémy nelze změnit paradigmaticky „na místě“. Náklady
+přepsání, integrace nebo postupné migrace musí být realistické.
 
-Many organizations attempt paradigm shifts but stop halfway, creating hybrid systems that combine the worst aspects of both paradigms. Writing Java-style code in Elixir, using OOP patterns in a functional language, or building monolithic architectures deployed as microservices are all examples of incomplete shifts that increase complexity without delivering the benefits of either paradigm.
+## Past nedokončené změny
 
-The Prismatic Platform avoids this trap through rigorous enforcement of paradigm-native patterns: the quality gates reject code that does not leverage OTP patterns, the meta-rule catches paradigm lock-in, and the 530-agent AIAD ecosystem operates entirely within the BEAM paradigm's conceptual framework.
+Mnoho organizací se o změnu paradigmatu pokusí, ale zastaví se v půli a vytvoří hybridní
+systémy, které spojují nejhorší stránky obou paradigmat. Psaní kódu ve stylu Javy v Elixiru,
+používání vzorů OOP ve funkcionálním jazyce nebo stavba monolitických architektur nasazených
+jako mikroslužby jsou příklady nedokončených změn, které zvyšují složitost, aniž by přinesly
+výhody kteréhokoli paradigmatu.
 
-## Cross-References
+Prismatic Platform se této pasti vyhýbá důsledným vynucováním vzorů vlastních paradigmatu:
+brány kvality odmítají kód, který nevyužívá vzory OTP, metapravidlo zachytí uvíznutí
+v paradigmatu a ekosystém agentů [AIAD](@/glossary/aiad.md) (v době zápisu 530 agentů) pracuje
+celý v pojmovém rámci paradigmatu BEAM.
 
-- [BEAM VM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam-vm/) -- The virtual machine underlying the OTP paradigm
-- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) -- Bogdan/Bjorn's Erlang Abstract Machine
-- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) -- The framework that defines the BEAM paradigm
-- [Erlang](https://prismatic-reality-com.github.io/prismatic-promo/glossary/erlang/) -- The original BEAM paradigm language
-- [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) -- Modern language bringing the BEAM paradigm to new audiences
-- [Functional Programming Language](https://prismatic-reality-com.github.io/prismatic-promo/glossary/functional-programming-language/) -- The broader functional paradigm
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) -- The concurrency model underlying BEAM processes
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- The primary abstraction for stateful processes
-- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) -- Architecture as process hierarchy
-- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) -- OTP abstractions for common patterns
-- [Architectural Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/architectural-pattern/) -- Patterns within and across paradigms
-- [Autonomous Evolution](https://prismatic-reality-com.github.io/prismatic-promo/glossary/autonomous-evolution/) -- The paradigm shift toward self-improving systems
+U lidí má „nedokončená změna“ jiný význam: člověk, který opustil jeden rámec a nový ještě
+nemá, prožívá [paradigmatickou bezdomovinu](@/glossary/paradigmaticka-bezdomovina.md), v níž je
+zvlášť zranitelný vůči nabídce hotového světonázoru. Postup zotavení popisuje protokol
+[Paradigm](@/kompendium/recovery-protocols/paradigm.md).
+
+## Související
+
+**Pojmy v tomto glosáři**
+
+- [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – filosofický původ pojmu.
+- [Gestalt Shift](@/glossary/gestalt-shift.md) – percepční model náhlé změny rámce.
+- [Paradigmatická bezdomovina](@/glossary/paradigmaticka-bezdomovina.md) – stav mezi dvěma
+  rámci u člověka.
+- [AutoEvolve](@/glossary/autoevolve.md) – autonomní vývoj kvality v platformě.
+
+**Hesla platformy mimo tuto knihu**
+
+- [BEAM VM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam-vm/),
+  [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) (Bogdan/Björn's
+  Erlang Abstract Machine), [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/),
+  [Erlang](https://prismatic-reality-com.github.io/prismatic-promo/glossary/erlang/),
+  [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) –
+  virtuální stroj, framework a jazyky paradigmatu.
+- [Functional Programming Language](https://prismatic-reality-com.github.io/prismatic-promo/glossary/functional-programming-language/),
+  [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/),
+  [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/),
+  [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/),
+  [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) –
+  funkcionální paradigma, model aktorů a hlavní abstrakce OTP.
+- [Architectural Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/architectural-pattern/),
+  [Autonomous Evolution](https://prismatic-reality-com.github.io/prismatic-promo/glossary/autonomous-evolution/) –
+  vzory napříč paradigmaty a samozdokonalující se systémy.
+
+**Kniha**
+
+- [7.11 Kuhn: Paradigmatické revoluce a inkomensurabilita](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) –
+  Kuhnův rámec ve vztahu k EA.
+- [Protokol Paradigm](@/kompendium/recovery-protocols/paradigm.md) – zotavení po rozpadu
+  světonázoru.
 
 ---
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+## Autor a zapojení
+
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+
+- [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

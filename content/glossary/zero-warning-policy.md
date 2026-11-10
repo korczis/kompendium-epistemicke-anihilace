@@ -1,10 +1,10 @@
 +++
-title = "Zero Warning Policy"
+title = "Zero warning policy (politika nulových varování)"
 weight = 57
-description = "All code must compile with --warnings-as-errors producing zero warnings"
+description = "Pravidlo Prismatic Platform: veškerý kód se musí přeložit s přepínačem --warnings-as-errors bez jediného varování; důvody, vynucení a časté chyby."
 
 [taxonomies]
-tags = ["glossary", "quality", "zero-warning-policy", "prismatic"]
+tags = ["glossary", "prismatic", "quality", "doctrine", "architecture"]
 
 [extra]
 category = "quality"
@@ -13,51 +13,91 @@ author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
 word_count = 1334
 date_created = "2026-02-23"
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Zero", "Warning", "Policy", "--warnings-as-errors", "glossary", "quality", "Prismatic Platform", "Elixir", "Warnings", "Zero Warning"]
 quality_score = 77
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Zero Warning Policy - Prismatic Platform"
+image_alt = "Zero warning policy (politika nulových varování) – glosář"
 +++
 
-## Definition & Overview
+## Definice a přehled
 
-The Zero Warning Policy is a foundational quality enforcement rule mandating that all Elixir code in the Prismatic Platform must compile successfully with the `--warnings-as-errors` flag enabled. Under this policy, every compiler diagnostic---unused variables, deprecated function calls, missing return values, unreachable code, pattern match warnings, and all other compiler-generated warnings---is treated as a compilation failure. The build process terminates with a non-zero exit code, blocking all downstream operations: testing, deployment, commit, and merge.
+Politika nulových varování (*Zero Warning Policy*) je základní pravidlo vynucování kvality, které
+předepisuje, že veškerý kód v Elixiru v Prismatic Platform se musí úspěšně přeložit se zapnutým
+přepínačem `--warnings-as-errors`. Podle této politiky se každá diagnostika kompilátoru –
+nepoužité proměnné, volání zastaralých funkcí, chybějící návratové hodnoty, nedosažitelný kód,
+varování porovnávání se vzorem a všechna další varování kompilátoru – považuje za selhání
+kompilace. Sestavení skončí s nenulovým návratovým kódem a zablokuje všechny navazující operace:
+testování, nasazení, commit i sloučení.
 
-This policy represents the most uncompromising approach to compiler diagnostics in software engineering. Most projects tolerate some level of warnings, relying on developers to exercise judgment about which warnings are "real problems" and which are "acceptable noise." The Zero Warning Policy rejects this distinction entirely. Every warning is a potential defect indicator. Every warning increases the noise floor that obscures genuinely critical diagnostics. The only acceptable number of warnings is zero.
+Politika představuje nejnekompromisnější přístup k diagnostice kompilátoru v softwarovém
+inženýrství. Většina projektů toleruje určitou míru varování a spoléhá na úsudek vývojářů, která
+varování jsou „skutečné problémy“ a která „přijatelný šum“. Politika nulových varování toto
+rozlišení zcela odmítá. Každé varování je možným ukazatelem vady. Každé varování zvyšuje hladinu
+šumu, která zakrývá skutečně kritické diagnostiky. Jediný přijatelný počet varování je nula.
 
-The rationale is both practical and philosophical. Practically, maintaining zero warnings ensures that every new warning is immediately visible and attributable to a specific change, enabling instant root cause identification. A codebase with 200 existing warnings makes it trivial for a developer to introduce the 201st without noticing. A codebase with zero warnings makes every new warning an unmistakable signal. Philosophically, the policy aligns with the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine: there are no acceptable quality violations, no deferred fixes, and no tolerance for "good enough."
+Zdůvodnění je praktické i filosofické. Prakticky udržení nuly varování zajišťuje, že každé nové
+varování je okamžitě viditelné a přiřaditelné ke konkrétní změně, což umožňuje okamžitě určit
+kořenovou příčinu. V kódové základně s 200 existujícími varováními vývojář snadno zavede 201.
+varování, aniž by si toho všiml. V kódové základně s nulou varování je každé nové varování
+nepřehlédnutelným signálem. Filosoficky politika odpovídá doktríně [NO
+MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) (viz [NO MERCY,
+NO DOUBTS](@/glossary/no-mercy-no-doubts.md)): neexistují přijatelná porušení kvality, odložené
+opravy ani tolerance k „dost dobrému“.
 
-The Prismatic Platform enforces this policy across all 6,652 Elixir source files in 90 umbrella applications. The current status is **zero compilation warnings** across the entire codebase---a state that has been maintained through disciplined enforcement at every stage of the development lifecycle.
+Podle dokumentace platformy se politika v době zápisu vynucovala ve všech 6 652 zdrojových souborech
+Elixiru v 90 aplikacích umbrelly (jinde dokumentace uvádí 99 nebo 115 aplikací – čísla odpovídají
+různým obdobím) a stav byl **nula varování při kompilaci** v celé kódové základně, udržovaný
+disciplinovaným vynucením v každé fázi životního cyklu vývoje.
 
-| Enforcement Point | Command | Blocking? |
+| Bod vynucení | Příkaz | Blokuje? |
 |-------------------|---------|-----------|
-| **Local compilation** | `mix compile --warnings-as-errors` | Yes - blocks development |
-| **Pre-commit hook** | `.githooks/pre-commit` Phase 2 | Yes - blocks commit |
-| **Quality Gates** | `mix quality.gates` | Yes - blocks merge |
-| **CI Pipeline** | GitLab CI compilation stage | Yes - blocks deployment |
-| **Mix project config** | `elixirc_options: [warnings_as_errors: true]` | Yes - permanent |
+| **Lokální kompilace** | `mix compile --warnings-as-errors` | ano – blokuje vývoj |
+| **Pre-commit hook** | `.githooks/pre-commit`, fáze 2 | ano – blokuje commit |
+| **Brány kvality** | `mix quality.gates` | ano – blokuje sloučení |
+| **CI pipeline** | fáze kompilace v GitLab CI | ano – blokuje nasazení |
+| **Konfigurace projektu Mix** | `elixirc_options: [warnings_as_errors: true]` | ano – trvale |
 
-## Technical Deep Dive
+Pro Kompendium je politika nulových varování pojmem z kontextu platformy. Kniha z ní přebírá
+obecný postřeh o *hladině šumu*: kde se toleruje mnoho drobných „varování“, přestane být vidět to
+podstatné. Totéž platí u varovných signálů ve vztazích a organizacích, které se postupně
+normalizují (srov. [detekční signaturu Akcelerace
+izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md)). U lidí ovšem
+kniha nepožaduje „nulovou toleranci“, ale pozornost k vzorci.
 
-### Elixir Compiler Warnings
+## Technický rozbor
 
-The Elixir compiler produces several categories of warnings, each representing a different class of potential issue:
+### Varování kompilátoru Elixiru
 
-**Unused Variable Warnings** are generated when a variable is bound but never referenced. While seemingly harmless, unused variables often indicate incomplete implementations, copy-paste errors, or forgotten debug statements. The idiomatic Elixir fix is to prefix unused variables with an underscore (`_unused`) to explicitly signal intentional non-use.
+Kompilátor Elixiru vytváří několik kategorií varování, z nichž každá představuje jinou třídu
+možného problému:
 
-**Deprecated Function Warnings** signal the use of functions scheduled for removal in future Elixir versions. Ignoring these warnings creates a ticking time bomb: the code compiles today but will break on the next Elixir upgrade. The Zero Warning Policy forces immediate migration to recommended alternatives.
+**Varování o nepoužité proměnné** vzniká, když je proměnná navázána, ale nikdy se na ni
+neodkazuje. Zdánlivě neškodné nepoužité proměnné často ukazují na neúplné implementace, chyby
+z kopírování nebo zapomenuté ladicí příkazy. Idiomatickou opravou v Elixiru je dát nepoužité
+proměnné předponu podtržítka (`_unused`), která výslovně vyjadřuje záměrné nepoužití.
 
-**Unreachable Code Warnings** indicate logic that can never execute---dead branches in case statements, code after unconditional returns, or pattern matches that are subsumed by earlier clauses. Unreachable code is a strong indicator of logic errors or misunderstood control flow.
+**Varování o zastaralé funkci** signalizuje použití funkcí, které budou v budoucích verzích
+Elixiru odstraněny. Přehlížení těchto varování vytváří časovanou bombu: kód se dnes přeloží, ale
+při příští aktualizaci Elixiru se rozbije. Politika nulových varování vynucuje okamžitý přechod na
+doporučené alternativy.
 
-**Missing Return Value Warnings** flag expressions whose return values are ignored. In Elixir, where functions communicate results through return values, ignoring a return value often means ignoring an error condition.
+**Varování o nedosažitelném kódu** ukazuje na logiku, která se nikdy nemůže provést – mrtvé větve
+v příkazech case, kód za nepodmíněným návratem nebo vzory, které pokrývají dřívější klauzule.
+Nedosažitelný kód silně naznačuje logické chyby nebo nepochopený tok řízení.
 
-**Pattern Match Warnings** include non-exhaustive matches and overlapping patterns. These can indicate unhandled edge cases or redundant logic.
+**Varování o chybějící návratové hodnotě** označuje výrazy, jejichž návratové hodnoty se ignorují.
+V Elixiru, kde funkce sdělují výsledky návratovými hodnotami, ignorování návratové hodnoty často
+znamená ignorování chybového stavu.
 
-### The Warning Accumulation Problem
+**Varování porovnávání se vzorem** zahrnují neúplné porovnání a překrývající se vzory. Mohou
+ukazovat na neošetřené hraniční případy nebo nadbytečnou logiku.
 
-The fundamental argument for the Zero Warning Policy is the warning accumulation problem. In codebases that tolerate warnings, the warning count follows a predictable trajectory:
+### Problém hromadění varování
+
+Základním argumentem pro politiku nulových varování je problém hromadění varování. V kódových
+základnách, které varování tolerují, sleduje jejich počet předvídatelnou trajektorii:
 
 ```
 Week 1:   3 warnings  - "We'll fix these soon"
@@ -67,11 +107,14 @@ Month 6:  120 warnings - "Nobody looks at warnings anymore"
 Month 12: 300+ warnings - "Is that a real problem or just a warning?"
 ```
 
-At 300 warnings, the diagnostic system is effectively disabled. Genuine problems---type mismatches, deprecated APIs, logic errors---are invisible in the noise. The Zero Warning Policy prevents this trajectory from ever beginning by maintaining the count at exactly zero.
+Při 300 varováních je diagnostický systém fakticky vypnutý. Skutečné problémy – typové neshody,
+zastaralá API, logické chyby – jsou v šumu neviditelné. Politika nulových varování tuto trajektorii
+nedovolí vůbec zahájit, protože udržuje počet přesně na nule.
 
-### Interaction with Other Quality Tools
+### Souhra s dalšími nástroji kvality
 
-The Zero Warning Policy operates alongside other quality enforcement tools, each covering a different quality dimension:
+Politika nulových varování působí vedle dalších nástrojů vynucování kvality, z nichž každý pokrývá
+jinou dimenzi kvality:
 
 ```
 Compiler Warnings (Zero Warning Policy)
@@ -91,11 +134,11 @@ ExUnit (Testing)
     +--> Covers: behavioral correctness, edge cases, regressions
 ```
 
-## Architecture & Implementation
+## Architektura a implementace
 
-### Mix Project Configuration
+### Konfigurace projektu Mix
 
-Every umbrella application in the Prismatic Platform includes the `warnings_as_errors` flag in its `mix.exs` configuration:
+Každá aplikace umbrelly v Prismatic Platform má v konfiguraci `mix.exs` přepínač `warnings_as_errors`:
 
 ```elixir
 defmodule PrismaticWeb.MixProject do
@@ -118,11 +161,14 @@ defmodule PrismaticWeb.MixProject do
 end
 ```
 
-This configuration ensures that even `mix compile` without explicit flags enforces the zero warning policy. The `--force` flag is added in CI environments to ensure full recompilation catches warnings in all files, not just changed ones.
+Tato konfigurace zajišťuje, že politiku nulových varování vynucuje i `mix compile` bez výslovných
+přepínačů. V prostředí CI se přidává přepínač `--force`, aby úplná rekompilace zachytila varování
+ve všech souborech, ne jen ve změněných.
 
-### Pre-Commit Hook Integration
+### Napojení na pre-commit hook
 
-The `.githooks/pre-commit` script enforces zero warnings before any commit reaches the repository:
+Skript `.githooks/pre-commit` vynucuje nulu varování dřív, než se jakýkoli commit dostane do
+repozitáře:
 
 ```elixir
 defmodule PrismaticSafety.PreCommit.CompilationCheck do
@@ -155,9 +201,10 @@ defmodule PrismaticSafety.PreCommit.CompilationCheck do
 end
 ```
 
-### Quality Gate Integration
+### Napojení na brány kvality
 
-The `mix quality.gates` task includes compilation as its first check, ensuring that all subsequent checks (Credo, Dialyzer, tests) operate on warning-free code:
+Úloha `mix quality.gates` zahrnuje kompilaci jako první kontrolu, takže všechny následující kontroly
+(Credo, Dialyzer, testy) pracují nad kódem bez varování:
 
 ```elixir
 defmodule Mix.Tasks.Quality.Gates do
@@ -186,9 +233,10 @@ defmodule Mix.Tasks.Quality.Gates do
 end
 ```
 
-### Warning Pattern Detection
+### Detekce vzorů vedoucích k varováním
 
-The platform includes proactive detection of patterns known to generate warnings, catching issues before compilation:
+Platforma zahrnuje proaktivní detekci vzorů, o nichž je známo, že vytvářejí varování, a zachytí
+problémy ještě před kompilací:
 
 ```elixir
 defmodule PrismaticSafety.WarningPatternDetector do
@@ -219,36 +267,40 @@ defmodule PrismaticSafety.WarningPatternDetector do
 end
 ```
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-### Daily Development Workflow
+### Každodenní vývojový postup
 
-Developers working on the Prismatic Platform encounter the Zero Warning Policy at multiple points during their daily workflow:
+Vývojáři Prismatic Platform se s politikou nulových varování setkávají v několika bodech
+každodenního postupu:
 
-1. **Writing code**: IDE integration (ElixirLS) shows warnings in real time as code is written
-2. **Local compilation**: `mix compile` in the project enforces `warnings_as_errors: true` via `mix.exs`
-3. **Running tests**: `mix test` recompiles changed files, triggering warning detection
-4. **Committing**: Pre-commit hook runs full `--warnings-as-errors --force` compilation
-5. **Pushing**: Pre-push hook runs quality gates including compilation check
-6. **CI Pipeline**: GitLab CI runs full compilation as the first pipeline stage
+1. **Psaní kódu**: integrace do IDE (ElixirLS) ukazuje varování v reálném čase při psaní kódu.
+2. **Lokální kompilace**: `mix compile` v projektu vynucuje `warnings_as_errors: true` přes `mix.exs`.
+3. **Spouštění testů**: `mix test` rekompiluje změněné soubory a spouští detekci varování.
+4. **Commit**: pre-commit hook spouští úplnou kompilaci s `--warnings-as-errors --force`.
+5. **Push**: pre-push hook spouští brány kvality včetně kontroly kompilace.
+6. **CI pipeline**: GitLab CI spouští úplnou kompilaci jako první fázi pipeline.
 
-### Common Warning Scenarios and Fixes
+### Běžné situace a opravy
 
-| Warning | Root Cause | Fix |
+| Varování | Kořenová příčina | Oprava |
 |---------|-----------|-----|
-| `variable "x" is unused` | Bound but not referenced | Prefix with `_` or remove |
-| `function is deprecated` | Using outdated API | Migrate to recommended alternative |
-| `this clause cannot match` | Unreachable pattern | Remove dead clause or fix pattern |
-| `missing @impl true` | Callback not annotated | Add `@impl true` annotation |
-| `module attribute @foo was set but never used` | Unused module attribute | Remove or use the attribute |
+| `variable "x" is unused` | navázáno, ale nepoužito | předpona `_` nebo odstranit |
+| `function is deprecated` | použití zastaralého API | přejít na doporučenou alternativu |
+| `this clause cannot match` | nedosažitelný vzor | odstranit mrtvou klauzuli nebo opravit vzor |
+| `missing @impl true` | callback bez anotace | přidat anotaci `@impl true` |
+| `module attribute @foo was set but never used` | nepoužitý atribut modulu | odstranit nebo atribut použít |
 
-### Standardization Achievement
+### Standardizace
 
-The `mix quality.standardize_mix` task was used to enforce `warnings_as_errors: true` across all 99 umbrella applications simultaneously. This standardization was one of 321 transformations applied during the Universal Quality Standard implementation, ensuring consistent enforcement across the entire codebase.
+Úloha `mix quality.standardize_mix` byla použita k současnému vynucení `warnings_as_errors: true`
+ve všech 99 aplikacích umbrelly. Tato standardizace byla podle dokumentace jednou z 321 transformací
+provedených při zavádění Universal Quality Standard a zajistila jednotné vynucení v celé kódové
+základně.
 
-## Code Examples
+## Příklady kódu
 
-### Fixing Common Warnings
+### Oprava běžných varování
 
 ```elixir
 # WARNING: variable "result" is unused
@@ -296,7 +348,7 @@ defmodule Router.After do
 end
 ```
 
-### Automated Warning Prevention
+### Automatizovaná prevence varování
 
 ```elixir
 defmodule PrismaticSafety.WarningPrevention do
@@ -331,57 +383,79 @@ defmodule PrismaticSafety.WarningPrevention do
 end
 ```
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Enable in `mix.exs`, not just CLI flags**: Setting `elixirc_options: [warnings_as_errors: true]` in the project configuration ensures enforcement regardless of how compilation is invoked. CLI flags can be forgotten; project configuration is permanent.
+1. **Zapnout v `mix.exs`, ne jen přepínači v příkazové řádce**: nastavení `elixirc_options:
+   [warnings_as_errors: true]` v konfiguraci projektu zajišťuje vynucení bez ohledu na to, jak se
+   kompilace spustí. Přepínače lze zapomenout, konfigurace projektu je trvalá.
+2. **V CI používat `--force`**: inkrementální kompilace kontroluje jen změněné soubory. V prostředí
+   CI používat `mix compile --warnings-as-errors --force`, aby úplná rekompilace zachytila varování
+   ve všech souborech včetně těch, které ovlivnily změny závislostí.
+3. **Opravovat varování okamžitě**: když se při vývoji objeví varování, opravit ho dřív než cokoli
+   jiného. Odkládání oprav varování porušuje politiku nulových varování a hrozí odmítnutím commitu.
+4. **Pochopit varování před opravou**: neumlčovat varování naslepo podtržítky. Varování o nepoužité
+   proměnné může ukazovat na logickou chybu (zapomenuté použití spočítaného výsledku), ne na
+   záměrné nepoužití. Před volbou opravy pochopit kořenovou příčinu.
+5. **Sledovat kategorie varování**: sledovat, které typy varování se objevují nejčastěji. Nárůst
+   varování o nepoužitých proměnných může ukazovat na kopírování kódu. Nárůst varování o zastaralých
+   funkcích může signalizovat blížící se závislost na nové verzi Elixiru.
+6. **Kombinovat s Credo a Dialyzerem**: kompilátor zachytí jen část problémů kvality kódu.
+   [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) pokrývá styl
+   a návrhové vzory, [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/)
+   typovou analýzu. Všechny tři společně dávají úplné pokrytí statickou analýzou.
 
-2. **Use `--force` in CI**: Incremental compilation only checks changed files. In CI environments, use `mix compile --warnings-as-errors --force` to ensure full recompilation catches warnings in all files, including those affected by dependency changes.
+## Časté chyby
 
-3. **Fix warnings immediately**: When a warning appears during development, fix it before doing anything else. Deferring warning fixes violates the Zero Warning Policy and risks commit rejection.
+- **Potlačovat varování bez pochopení**: předpona `_` u proměnných kvůli umlčení varování
+  o nepoužité proměnné bez zjištění, proč proměnná není použita, může skrýt skutečné chyby. Vždy
+  nejdřív pochopit kořenovou příčinu.
+- **Vypínat pro konkrétní soubory**: některé projekty používají potlačení varování po souborech
+  nebo modulech. To vytváří nejednotnost a otevírá cestu k hromadění varování. Prismatic Platform
+  potlačení po souborech nepodporuje.
+- **Zapomínat `--force` v CI**: bez `--force` nemusí inkrementální kompilace rekompilovat soubory
+  ovlivněné změnami proti proudu. Modul, který se včera přeložil čistě, může dnes kvůli změně
+  závislosti vytvářet varování. V CI vždy vynutit úplnou rekompilaci.
+- **Chápat warnings-as-errors jako nepovinné**: není-li politika vynucena v každé bráně (IDE,
+  kompilace, pre-commit, CI), vývojáři se naučí, které brány jsou měkké, a obejdou je. Jednotné
+  vynucení ve všech bodech je nezbytné.
+- **Neaktualizovat zastaralý kód včas**: varování o zastaralých funkcích jsou časované bomby. Dnes
+  se přeloží, ale při příští aktualizaci Elixiru selžou. Mají mít stejnou naléhavost jako problémy
+  správnosti.
 
-4. **Understand the warning before fixing**: Do not blindly suppress warnings with underscores. An unused variable warning may indicate a logic error (forgotten to use a computed result) rather than an intentional non-use. Understand the root cause before choosing the fix.
+## Související
 
-5. **Track warning categories**: Monitor which warning types appear most frequently. A spike in "unused variable" warnings may indicate copy-paste coding. A spike in "deprecated function" warnings may signal an upcoming Elixir version dependency.
+**Pojmy platformy v tomto glosáři**
 
-6. **Combine with Credo and Dialyzer**: The compiler catches a subset of code quality issues. [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) covers style and design patterns. [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) covers type analysis. All three together provide comprehensive static analysis coverage.
+- [Clean Run](@/glossary/clean-run.md) – rozšířená politika čisté kompilace nad rámec varování.
+- [Quality Debt](@/glossary/quality-debt.md) – varování sledovaná jako QDP před odstraněním.
+- [QDP](@/glossary/qdp.md) – metrika dluhu kvality.
+- [Violation Protocol](@/glossary/violation-protocol.md) – úrovně eskalace při porušení politiky.
+- [NM/ND](@/glossary/nm-nd.md) – řídicí doktrína nulové tolerance.
+- [Session Discipline](@/glossary/session-discipline.md) – kontrola před každým commitem.
 
-## Common Pitfalls
+**Hesla a přehledy platformy mimo tuto knihu**
 
-- **Suppressing warnings without understanding**: Prefixing variables with `_` to silence "unused variable" warnings without investigating why the variable is unused can hide real bugs. Always understand the root cause before applying the fix.
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/),
+  [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/),
+  [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/),
+  [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/),
+  [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/),
+  [Mix Task](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix-task/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/),
+  [Aplikace](https://prismatic-reality-com.github.io/prismatic-promo/apps/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/).
 
-- **Disabling for specific files**: Some projects use per-file or per-module warning suppression. This creates inconsistency and provides a pathway for warning accumulation. The Prismatic Platform does not support per-file suppression.
+**Kniha**
 
-- **Forgetting `--force` in CI**: Without `--force`, incremental compilation may not recompile files affected by upstream changes. A module that compiled cleanly yesterday may generate warnings today due to a dependency change. Always force full recompilation in CI.
-
-- **Treating warnings-as-errors as optional**: If the policy is not enforced at every gate (IDE, compile, pre-commit, CI), developers will learn which gates are soft and route around them. Consistent enforcement at all points is essential.
-
-- **Not updating deprecated code promptly**: Deprecated function warnings are time bombs. They compile today but will fail on the next Elixir version upgrade. Treat them with the same urgency as correctness issues.
-
-## Related Concepts
-
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) - Enforcement pipeline including zero-warning compilation
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) - Local enforcement of zero-warning compilation
-- [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) - Doctrine mandating zero tolerance for quality violations
-- [Clean Run](@/glossary/clean-run.md) - Extended clean compilation policy beyond warnings
-- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) - Static analysis complementing compiler warnings
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) - Type analysis complementing compiler warnings
-- [Mix Task](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix-task/) - Build tool providing the `--warnings-as-errors` compilation flag
-- [Quality Debt](@/glossary/quality-debt.md) - Warnings tracked as QDP before elimination
-- [Violation Protocol](@/glossary/violation-protocol.md) - Escalation levels for warning policy violations
-- [NM/ND Doctrine](@/glossary/nm-nd.md) - Governing doctrine mandating zero tolerance
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - 90 umbrella applications under zero-warning enforcement
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) - Quality commands enforcing the policy
+- [1.6 Vztah ke Prismatic Platformě](@/kompendium/01-predmluva/vztah-k-platforme.md) – co kniha
+  z platformy přebírá.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -1,10 +1,10 @@
 +++
-title = "Tactical Execution"
+title = "Tactical Execution (taktická exekuce)"
 weight = 16
-description = "L2 Focused domain execution agent tier for specialized operations within the Prismatic Platform's six Color Teams"
+description = "Úroveň agentů L2 v Prismatic Platform: specialisté pro soustředěné operace v jedné doméně v rámci šesti barevných týmů, s výsledky opřenými o důkazy."
 
 [taxonomies]
-tags = ["agents", "security", "color-teams", "architecture", "operations"]
+tags = ["glossary", "prismatic", "agents", "color-teams", "architecture"]
 
 [extra]
 category = "agents"
@@ -24,35 +24,75 @@ use_cases = ["adversarial-simulation", "defensive-analysis", "formal-verificatio
 prerequisites = ["aiad", "agent-tier", "color-teams"]
 key_takeaway = "L2 Tactical Execution agents are domain-focused specialists forming the operational backbone of the platform, executing precise tasks within defined authority boundaries under L3 commander coordination."
 word_count = 1473
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 see_also = ["capabilities", "architecture", "agents"]
 image = "/images/sections/glossary.png"
-image_alt = "Tactical Execution - Prismatic Platform"
+image_alt = "Tactical Execution (taktická exekuce) – glosář"
 +++
 
-## Definition and Overview
+## Definice a přehled
 
-Tactical Execution is the L2 agent tier responsible for focused, domain-specific operations within a single application or capability area in the Prismatic Platform's agent hierarchy. L2 agents are the operational backbone of the platform -- specialists who execute concrete tasks such as epistemic attacks ([Red Team](@/glossary/red-team.md)), drift detection ([Blue Team](@/glossary/blue-team.md)), contract validation ([White Team](@/glossary/white-team.md)), and boundary exploration ([Gray Team](@/glossary/gray-team.md)) under the coordination of their L3 Team Commander. With approximately 250 agents at this tier, L2 Tactical Execution specialists represent the largest population in the platform's 530-agent fleet.
+Tactical Execution (taktická exekuce) je úroveň agentů L2, která v hierarchii agentů Prismatic
+Platform odpovídá za soustředěné, doménově specifické operace v rámci jedné aplikace nebo oblasti
+schopností. Agenti L2 jsou provozní páteří platformy – specialisté, kteří pod koordinací svého
+velitele týmu L3 provádějí konkrétní úlohy, jako jsou epistemické útoky ([Red
+Team](@/glossary/red-team.md)), detekce posunu ([Blue Team](@/glossary/blue-team.md)), validace
+kontraktů ([White Team](@/glossary/white-team.md)) a průzkum hranic ([Gray
+Team](@/glossary/gray-team.md)). S přibližně 250 agenty (údaj v době zápisu) tvoří specialisté L2
+nejpočetnější skupinu flotily platformy, která tehdy čítala 530 agentů.
 
-The term "tactical" distinguishes this tier from strategic coordination (L4) and supreme authority (L5). In military doctrine, tactical operations are the direct execution of specific missions within well-defined parameters, as opposed to strategic planning that coordinates across multiple theaters. Similarly, L2 agents operate with deep expertise in narrow domains, executing specialized tasks with precision rather than coordinating across domains. This focus enables each L2 agent to maintain expert-level capability within its specialization -- a red-epistemic-attacker does not need to understand defensive posture assessment, and a blue-drift-detector does not need to generate adversarial scenarios.
+Výraz „taktický“ odlišuje tuto úroveň od strategické koordinace (L4, [Strategic
+Command](@/glossary/strategic-command.md)) a nejvyšší autority (L5, [Supreme
+Commander](@/glossary/supreme-commander.md)). Ve vojenské doktríně jsou taktické operace přímým
+prováděním konkrétních misí v jasně vymezených parametrech, na rozdíl od strategického plánování,
+které koordinuje více dějišť. Podobně agenti L2 pracují s hlubokou odborností v úzkých doménách
+a specializované úlohy provádějí přesně, místo aby koordinovali napříč doménami. Toto zaměření
+umožňuje každému agentovi L2 udržet expertní úroveň ve své specializaci – `red-epistemic-attacker`
+nemusí rozumět posuzování obranného postavení a `blue-drift-detector` nemusí generovat útočné
+scénáře.
 
-The L2 tier sits at the intersection of capability and coordination. L1 Assistant agents handle basic task execution within a single function scope, while L2 agents apply domain expertise to solve complex problems within their specialty. The distinction is significant: an L1 agent might format a log entry, while an L2 agent analyzes behavioral drift patterns across temporal windows to detect sub-threshold configuration changes. L2 agents report findings upward to L3 Team Commanders, who synthesize specialist reports into team-level assessments.
+Úroveň L2 stojí na průsečíku schopností a koordinace. Asistenční agenti L1 zajišťují základní
+provádění úloh v rozsahu jedné funkce, zatímco agenti L2 uplatňují doménovou odbornost k řešení
+složitých problémů ve své specializaci. Rozdíl je podstatný: agent L1 může naformátovat záznam
+v logu, agent L2 analyzuje vzorce posunu chování v časových oknech a odhaluje podprahové změny
+konfigurace. Agenti L2 hlásí zjištění nahoru velitelům týmů L3, kteří zprávy specialistů
+syntetizují do posouzení na úrovni týmu.
 
-Within the Prismatic Platform, L2 agents are defined through the [AIAD](@/glossary/aiad.md) (AI Agent Definition) standard, which specifies each agent's capabilities, authority boundaries, communication interfaces, and safety constraints. Every L2 agent has a formal specification document in `.aiad/agents/` that defines its operational parameters, ensuring that tactical execution occurs within well-documented boundaries with traceable accountability.
+V Prismatic Platform se agenti L2 definují standardem [AIAD](@/glossary/aiad.md), který stanoví
+schopnosti každého agenta, hranice jeho pravomoci, komunikační rozhraní a bezpečnostní omezení.
+Každý agent L2 má formální specifikaci v `.aiad/agents/`, která definuje jeho provozní parametry,
+takže taktická exekuce probíhá v dobře zdokumentovaných mezích s dohledatelnou odpovědností.
 
-## Historical Context
+Pro Kompendium je taktická exekuce pojmem z kontextu platformy. Knize je blízká zásada, že
+specialista nesmí sám řešit rozpory mimo svou doménu, ale má je zachovat a předat k syntéze –
+obdoba toho, jak má klinik postupovat u nejasných případů (viz [6.6 Supervizní rámce v klinické
+praxi EA](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)).
 
-The L2 Tactical Execution tier was formalized during Generation 7 of the platform's evolution, when the agent population grew beyond what a flat hierarchy could manage. Early agent implementations operated without formal tier classification -- all agents were peers with varying levels of capability. This flat structure created coordination problems: agents would duplicate work, produce contradictory findings, and lack clear escalation pathways for findings that exceeded their domain authority.
+## Historický kontext
 
-The five-tier hierarchy (L1 through L5) was introduced to address these coordination problems. The L2 tier was specifically designed to capture the largest class of agents: domain specialists who needed autonomy within their expertise area but required coordination with other specialists through a command structure. The Color Team organization provided the natural grouping for L2 agents, with each team's L3 commander managing a cohort of L2 specialists.
+Úroveň L2 byla formalizována v 7. generaci vývoje platformy, kdy populace agentů přerostla to,
+co plochá hierarchie dokázala zvládat. Rané implementace agentů pracovaly bez formální
+klasifikace úrovní – všichni agenti byli rovnocenní s různou mírou schopností. Plochá struktura
+vytvářela problémy koordinace: agenti zdvojovali práci, vytvářeli protichůdná zjištění a chyběly
+jim jasné eskalační cesty pro zjištění, která přesahovala jejich doménovou pravomoc.
 
-The introduction of the AIAD standard in Generation 8 further formalized the L2 tier by requiring every agent to carry a machine-readable specification defining its capabilities, authority boundaries, and safety constraints. This standardization enabled automated compliance checking and allowed the platform to scale from dozens to hundreds of agents without losing coordination discipline.
+Pětiúrovňová hierarchie (L1 až L5, viz [Agent Tier](@/glossary/agent-tier.md)) byla zavedena
+k řešení těchto problémů. Úroveň L2 byla navržena tak, aby zachytila nejpočetnější třídu agentů:
+doménové specialisty, kteří potřebovali autonomii ve své odbornosti, ale vyžadovali koordinaci
+s ostatními specialisty přes velitelskou strukturu. Přirozené seskupení agentů L2 poskytla
+organizace [barevných týmů](@/glossary/color-teams.md), v níž velitel L3 každého týmu řídí kohortu
+specialistů L2.
 
-## Technical Deep Dive
+Zavedení standardu AIAD v 8. generaci úroveň L2 dále formalizovalo, protože každý agent musel nést
+strojově čitelnou specifikaci schopností, hranic pravomoci a bezpečnostních omezení. Standardizace
+umožnila automatizovanou kontrolu souladu a dovolila platformě vyrůst z desítek na stovky agentů,
+aniž by ztratila koordinační disciplínu.
 
-### L2 Agent Classification
+## Technický rozbor
 
-L2 agents are classified by their domain specialization and operational mode:
+### Klasifikace agentů L2
+
+Agenti L2 se třídí podle doménové specializace a provozního režimu:
 
 ```elixir
 defmodule PrismaticAgents.Tier.TacticalExecution do
@@ -120,9 +160,9 @@ defmodule PrismaticAgents.Tier.TacticalExecution do
 end
 ```
 
-### L2 Agent Lifecycle
+### Životní cyklus agenta L2
 
-Each L2 agent follows a defined lifecycle from activation through result delivery:
+Každý agent L2 prochází definovaným životním cyklem od aktivace po doručení výsledku:
 
 ```elixir
 defmodule PrismaticAgents.TacticalExecution.Lifecycle do
@@ -216,9 +256,9 @@ defmodule PrismaticAgents.TacticalExecution.Lifecycle do
 end
 ```
 
-### Specialist Domain Operations
+### Operace specializovaných domén
 
-Each Color Team has distinct L2 specialist types with specific operational capabilities:
+Každý barevný tým má odlišné typy specialistů L2 s konkrétními provozními schopnostmi:
 
 ```elixir
 defmodule PrismaticAgents.TacticalExecution.RedSpecialist do
@@ -306,33 +346,34 @@ defmodule PrismaticAgents.TacticalExecution.BlueSpecialist do
 end
 ```
 
-## Architecture and Implementation
+## Architektura a implementace
 
-### L2 Agent Population by Team
+### Rozložení agentů L2 podle týmů
 
-The approximately 250 L2 agents are distributed across the six Color Teams and domain-specific applications:
+Přibližně 250 agentů L2 je rozděleno mezi šest barevných týmů a doménově specifické aplikace
+(stav v době zápisu):
 
-| Team | L2 Agents | Example Specialists | Primary Domain |
+| Tým | Agenti L2 | Příklady specialistů | Hlavní doména |
 |------|-----------|--------------------|----|
-| Red Team | ~40 | `red-epistemic-attacker`, `red-drift-inducer`, `red-scenario-generator` | Adversarial simulation |
-| Blue Team | ~45 | `blue-auth-sentinel`, `blue-drift-detector`, `blue-signal-aggregator` | Defensive analysis |
-| [Purple Team](@/glossary/purple-team.md) | ~30 | `purple-mapper`, `purple-closure-analyst`, `purple-regression-guard` | Synthesis and closure |
-| White Team | ~25 | `white-contract-validator`, `white-invariant-prover` | Formal verification |
-| Gray Team | ~20 | `gray-edge-finder`, `gray-escalation-guard` | Boundary exploration |
-| Domain Apps | ~90 | Quality specialists, EASM workers, API handlers | Application-specific |
+| Red Team | ~40 | `red-epistemic-attacker`, `red-drift-inducer`, `red-scenario-generator` | útočná simulace |
+| Blue Team | ~45 | `blue-auth-sentinel`, `blue-drift-detector`, `blue-signal-aggregator` | obranná analýza |
+| [Purple Team](@/glossary/purple-team.md) | ~30 | `purple-mapper`, `purple-closure-analyst`, `purple-regression-guard` | syntéza a uzavírání |
+| White Team | ~25 | `white-contract-validator`, `white-invariant-prover` | formální ověření |
+| Gray Team | ~20 | `gray-edge-finder`, `gray-escalation-guard` | průzkum hranic |
+| doménové aplikace | ~90 | specialisté kvality, pracovníci EASM, obsluha API | podle aplikace |
 
-### Authority Boundaries
+### Hranice pravomoci
 
-| Capability | L1 Assistant | L2 Tactical | L3 Commander |
+| Schopnost | L1 Assistant | L2 Tactical | L3 Commander |
 |------------|-------------|-------------|-------------|
-| Scope | Single function | Single domain | Single team |
-| Decision authority | None | Within domain parameters | Team coordination |
-| Resource access | Minimal | Domain resources | Team resources |
-| Override capability | None | None | L1-L2 within team |
-| Escalation target | L2 or L3 | L3 Commander | L4 Strategic |
-| Autonomy level | Directed | Semi-autonomous | Autonomous within team |
+| Rozsah | jedna funkce | jedna doména | jeden tým |
+| Rozhodovací pravomoc | žádná | v rámci parametrů domény | koordinace týmu |
+| Přístup ke zdrojům | minimální | zdroje domény | zdroje týmu |
+| Možnost přebít | žádná | žádná | L1–L2 v rámci týmu |
+| Cíl eskalace | L2 nebo L3 | velitel L3 | L4 Strategic |
+| Míra autonomie | řízená | poloautonomní | autonomní v rámci týmu |
 
-### Communication Architecture
+### Komunikační architektura
 
 ```
 L4 Strategic Command
@@ -352,9 +393,9 @@ L4 Strategic Command
                                  +-- L2 gray-escalation-guard
 ```
 
-### L2 Result Reporting
+### Hlášení výsledků L2
 
-L2 agents produce structured findings that flow upward through the hierarchy:
+Agenti L2 vytvářejí strukturovaná zjištění, která proudí hierarchií nahoru:
 
 ```elixir
 defmodule PrismaticAgents.TacticalExecution.FindingReport do
@@ -417,21 +458,31 @@ defmodule PrismaticAgents.TacticalExecution.FindingReport do
 end
 ```
 
-## NABLA Integration
+## Napojení na NABLA
 
-L2 Tactical Execution agents operate under the [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic framework, which governs how they collect evidence, form conclusions, and report findings. The key NABLA requirements for L2 agents are:
+Agenti taktické exekuce L2 pracují v epistemickém rámci [NABLA Infinity](@/glossary/nabla-infinity.md),
+který řídí, jak shromažďují důkazy, utvářejí závěry a hlásí zjištění. Klíčové požadavky NABLA na
+agenty L2:
 
-**Signal Plurality**: L2 findings must be supported by at least two independent signals. A single observation is insufficient for a finding to be submitted.
+**Pluralita signálů** ([Signal Plurality](@/glossary/signal-plurality.md)): zjištění L2 musí
+podporovat nejméně dva nezávislé signály. Jediné pozorování k podání zjištění nestačí.
 
-**Provenance Mandatory**: Every finding must carry a complete provenance chain from the raw signal through evidence processing to the final conclusion. The [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) axiom is enforced structurally in the finding report schema.
+**Povinná provenience**: každé zjištění musí nést úplný řetězec provenience od surového signálu
+přes zpracování důkazů po konečný závěr. Axiom [Provenance
+Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)
+se strukturně vynucuje ve schématu zprávy o zjištění.
 
-**Confidence Calibration**: L2 agents must calibrate their confidence scores to reflect the actual strength of their evidence. The confidence threshold system (0.95 for critical, 0.85 for high, 0.70 for medium) prevents premature escalation of uncertain findings.
+**Kalibrace důvěry**: agenti L2 musí kalibrovat skóre důvěry tak, aby odpovídalo skutečné síle
+jejich důkazů. Systém prahů důvěry (0,95 pro kritická, 0,85 pro vysoká, 0,70 pro střední) brání
+předčasné eskalaci nejistých zjištění.
 
-**Contradiction Preservation**: When L2 agents encounter contradictory evidence, they must preserve both signals and report the contradiction to their L3 commander rather than resolving it unilaterally. Cross-domain contradiction resolution is the responsibility of [Purple Team](@/glossary/purple-team.md) synthesis operations.
+**Zachování rozporu**: narazí-li agenti L2 na protichůdné důkazy, musí zachovat oba signály
+a rozpor nahlásit veliteli L3, místo aby ho řešili jednostranně. Řešení rozporů napříč doménami
+je odpovědností syntetických operací [Purple Teamu](@/glossary/purple-team.md).
 
-## Usage in Prismatic Platform
+## Užití v Prismatic Platform
 
-### Activating L2 Agents
+### Aktivace agentů L2
 
 ```elixir
 # Direct activation through L3 commander
@@ -448,7 +499,7 @@ results = PrismaticDark.Blue.Commander.fan_out([
 ])
 ```
 
-### CLI Commands
+### Příkazy CLI
 
 ```bash
 # View L2 agent status
@@ -461,9 +512,9 @@ results = PrismaticDark.Blue.Commander.fan_out([
 /agent-findings --tier=l2 --team=blue --severity=high
 ```
 
-### AIAD Agent Definition
+### Definice agenta v AIAD
 
-Every L2 agent has a corresponding AIAD specification:
+Každý agent L2 má odpovídající specifikaci AIAD:
 
 ```yaml
 # .aiad/agents/red-epistemic-attacker.agent.md (frontmatter)
@@ -487,70 +538,92 @@ agent-spec:
     compliance: mandatory
 ```
 
-## Safety and Compliance
+## Bezpečnost a soulad
 
-L2 agents, particularly those in the Red and Black teams, operate under strict safety constraints that are enforced at the infrastructure level:
+Agenti L2, zejména v Red a Black Teamu ([Black Team](@/glossary/black-team.md)), pracují pod
+přísnými bezpečnostními omezeními vynucovanými na úrovni infrastruktury:
 
-| Constraint | Affected Teams | Enforcement | Violation Response |
+| Omezení | Dotčené týmy | Vynucení | Reakce na porušení |
 |------------|---------------|-------------|-------------------|
-| Sandbox isolation | Red, Black | Process-level isolation | L4 [Violation Protocol](@/glossary/violation-protocol.md) |
-| Synthetic data only | Red, Black, Gray | Data source validation | L3 rejection |
-| No network access | Red, Black | Firewall rules | Infrastructure block |
-| Read-only operations | Gray, White | File system permissions | Operation denied |
-| Audit logging | All teams | Immutable append-only log | System enforcement |
+| izolace v sandboxu | Red, Black | izolace na úrovni procesu | L4 podle [Violation Protocol](@/glossary/violation-protocol.md) |
+| jen syntetická data | Red, Black, Gray | ověření zdroje dat | odmítnutí L3 |
+| bez přístupu do sítě | Red, Black | pravidla firewallu | blokace v infrastruktuře |
+| operace jen pro čtení | Gray, White | oprávnění souborového systému | operace zamítnuta |
+| auditní logování | všechny týmy | neměnný log jen pro připisování | vynucení systémem |
 
-These constraints are non-negotiable and apply equally in testing and production environments. The [NM/ND Doctrine](@/glossary/no-mercy-no-doubts.md) enforcement block in every agent's AIAD specification makes compliance mandatory.
+Omezení jsou nepodkročitelná a platí stejně v testovacím i produkčním prostředí. Blok vynucení
+[doktríny NM/ND](@/glossary/no-mercy-no-doubts.md) ve specifikaci AIAD každého agenta činí soulad
+povinným.
 
-## Best Practices
+## Osvědčené postupy
 
-1. **Maintain deep domain focus**. L2 agents derive their value from specialization. An agent that tries to cover multiple domains produces shallow results compared to a focused specialist. If a task requires multiple domains, it belongs at L3 or L4.
+1. **Udržovat hluboké doménové zaměření.** Agenti L2 čerpají hodnotu ze specializace. Agent, který
+   se snaží pokrýt více domén, dává mělké výsledky ve srovnání se soustředěným specialistou.
+   Vyžaduje-li úloha více domén, patří na L3 nebo L4.
+2. **Vytvářet strukturovaná, důkazy podložená zjištění.** Každé zjištění L2 má obsahovat položky
+   důkazů s uvedením zdroje, skóre důvěry a časová razítka. Nepodložená tvrzení porušují axiom
+   provenience NABLA Infinity a pipeline hlášení je odmítne.
+3. **Respektovat hranice pravomoci.** Agenti L2 pracují ve své vymezené doméně a hlásí nahoru.
+   Nekoordinují se s jinými agenty L2 přímo – koordinace mezi specialisty je odpovědností velitelů
+   L3. Boční komunikace obchází koordinační hierarchii a vytváří nesledované závislosti.
+4. **Používat přiměřená bezpečnostní omezení.** Agenti L2 Red a Black Teamu pracují pod přísnými
+   bezpečnostními omezeními (izolace v sandboxu, jen syntetická data, bez přístupu do sítě). Tato
+   omezení jsou nepodkročitelná a vynucují se na úrovni infrastruktury, nejen politikou.
+5. **Hlásit zjištění s kalibrovanou důvěrou.** Přehnaně sebejistá zjištění klamou velitele L3,
+   příliš nejistá plýtvají časem šetření. Skóre důvěry má odpovídat skutečné síle důkazů, s vyššími
+   prahy u závažnějších zjištění.
+6. **Udržovat specifikaci AIAD aktuální.** Když se schopnosti agenta L2 vyvíjejí, musí se jeho
+   specifikace AIAD okamžitě aktualizovat. Zastaralé specifikace vytvářejí rozpor mezi
+   zdokumentovaným a skutečným chováním agenta.
 
-2. **Produce structured, evidence-backed findings**. Every L2 finding should include evidence items with source attribution, confidence scores, and timestamps. Unsubstantiated claims violate the NABLA Infinity provenance axiom and are rejected by the reporting pipeline.
+## Časté chyby
 
-3. **Respect authority boundaries**. L2 agents execute within their defined domain and report upward. They do not coordinate with other L2 agents directly -- cross-specialist coordination is the responsibility of L3 Commanders. Lateral communication bypasses the coordination hierarchy and creates untracked dependencies.
+- **Rozšiřování do sousedních domén**: agenti L2, kteří přesahují svou vymezenou doménu, vytvářejí
+  koordinační konflikty a nesledované závislosti. Má-li zjištění důsledky napříč doménami, nahlásit
+  ho veliteli L3 k eskalaci, místo aby ho agent šetřil sám.
+- **Podhlášení zjištění nízké závažnosti**: zjištění nízké závažnosti od jednotlivých agentů L2
+  mohou po agregaci na L3 odhalit významné vzorce. Nefiltrovat sám – hlásit vše a nechat význam
+  určit velitele.
+- **Přehlížení bezpečnostních omezení v testovacích prostředích**: bezpečnostní omezení (izolace
+  v sandboxu, syntetická data) platí v testování i v produkci stejně. Obcházení omezení v testech
+  vytváří návyky, které vedou k porušením v produkci.
+- **Vázání agentů L2 na konkrétní implementace**: agenti L2 mají pracovat přes definovaná rozhraní
+  (specifikace AIAD, kontrakty Sparkline), ne záviset na vnitřních implementačních detailech
+  cílových systémů. Implementační vazba se rozbije, když se cíle vyvíjejí.
+- **Chápat skóre důvěry binárně**: důvěra není prošlo/neprošlo. Zjištění s důvěrou 0,72 se
+  podstatně liší od zjištění s důvěrou 0,95. Systém prahů důvěry existuje proto, aby bránil
+  předčasnému jednání na základě nejistých zjištění a přitom zachytil cenné signály.
 
-4. **Use appropriate safety constraints**. Red Team and Black Team L2 agents operate under strict safety constraints (sandbox isolation, synthetic data only, no network access). These constraints are non-negotiable and enforced at the infrastructure level, not just by policy.
+## Související
 
-5. **Report findings with calibrated confidence**. Overconfident findings mislead L3 commanders; underconfident findings waste investigation time. Confidence scores should reflect the actual strength of evidence, with higher thresholds required for higher-severity findings.
+**Pojmy platformy v tomto glosáři**
 
-6. **Maintain AIAD specification currency**. When an L2 agent's capabilities evolve, its AIAD specification must be updated immediately. Stale specifications create gaps between documented and actual agent behavior.
+- [Agent Tier](@/glossary/agent-tier.md) – úplná klasifikace L1–L5.
+- [Strategic Command](@/glossary/strategic-command.md) – koordinační úroveň L4.
+- [Supreme Commander](@/glossary/supreme-commander.md) – autorita L5 nad celou platformou.
+- [Red Team](@/glossary/red-team.md), [Blue Team](@/glossary/blue-team.md),
+  [White Team](@/glossary/white-team.md), [Gray Team](@/glossary/gray-team.md) – týmy se
+  specialisty L2 pro útočnou simulaci, obranu, formální ověření a průzkum hranic.
+- [AIAD](@/glossary/aiad.md) – standard definic agentů.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec zjištění L2.
+- [Violation Protocol](@/glossary/violation-protocol.md) – protokol vynucení bezpečnostních omezení.
 
-## Common Pitfalls
+**Přehledy platformy mimo tuto knihu**
 
-- **Scope creep into adjacent domains**: L2 agents that expand beyond their defined domain create coordination conflicts and untracked dependencies. If a finding has cross-domain implications, report it to the L3 commander for escalation rather than investigating directly.
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Agenti](https://prismatic-reality-com.github.io/prismatic-promo/agents/),
+  [Příkazy](https://prismatic-reality-com.github.io/prismatic-promo/commands/).
 
-- **Under-reporting low-severity findings**: Low-severity findings from individual L2 agents may reveal significant patterns when aggregated at L3. Do not self-filter -- report all findings and let the commander determine significance.
+**Kniha**
 
-- **Ignoring safety constraints in test environments**: Safety constraints (sandbox isolation, synthetic data) apply equally in testing and production. Bypassing constraints in test environments creates muscle memory that leads to production violations.
-
-- **Coupling L2 agents to specific implementations**: L2 agents should operate through defined interfaces (AIAD specifications, Sparkline contracts) rather than depending on internal implementation details of target systems. Implementation coupling breaks when targets evolve.
-
-- **Treating confidence scores as binary**: Confidence is not pass/fail. A finding with 0.72 confidence is meaningfully different from one with 0.95 confidence. The confidence threshold system exists to prevent premature action on uncertain findings while still capturing valuable signals.
-
-## Related Concepts
-
-- [Agent Tier](@/glossary/agent-tier.md) -- Full L1-L5 classification system
-- [Strategic Command](@/glossary/strategic-command.md) -- L4 coordination tier managing cross-domain operations
-- [Supreme Commander](@/glossary/supreme-commander.md) -- L5 platform-wide authority
-- [Red Team](@/glossary/red-team.md) -- Team with L2 adversarial simulation specialists
-- [Blue Team](@/glossary/blue-team.md) -- Team with L2 defensive analysis specialists
-- [White Team](@/glossary/white-team.md) -- Team with L2 formal verification specialists
-- [Gray Team](@/glossary/gray-team.md) -- Team with L2 boundary exploration specialists
-- [AIAD](@/glossary/aiad.md) -- Agent definition standard for all tier classifications
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing L2 agent findings
-- [Violation Protocol](@/glossary/violation-protocol.md) -- Enforcement protocol for safety constraint violations
-
-## See Also
-
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command catalog including agent operations
+- [Tactical Execution a detekce EA](@/kompendium/aiad-integration/tactical-execution-ea-operations.md) –
+  specialisté L2 v detekci epistemických útoků.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

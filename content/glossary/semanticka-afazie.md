@@ -1,10 +1,10 @@
 +++
-title = "Sémantická afázie (Semantic Aphasia)"
+title = "Sémantická afázie (semantic aphasia)"
 weight = 7
-description = "Neuropsychological syndrome characterized by progressive loss of conceptual knowledge — patients lose the meaning of words, objects, faces, and abstract categories while retaining grammatical fluency and articulation, typically associated with degeneration of the anterior temporal lobes"
+description = "Neuropsychologický obraz postupné ztráty pojmového vědění při zachované plynulé řeči; význam pro posuzování výpovědí, způsobilosti a odlišení od manipulace."
 
 [taxonomies]
-tags = ["clinical", "neuroscience", "linguistics", "dementia"]
+tags = ["glossary", "clinical", "neurovedy", "linguistic", "kompendium"]
 
 [extra]
 category = "clinical-neuroscience"
@@ -21,43 +21,142 @@ keywords = ["semantic aphasia", "semantic dementia", "primary progressive aphasi
 key_takeaway = "Sémantická afázie reveals that meaning is not stored in lexicon but in distributed conceptual networks anchored in the anterior temporal lobes. Its dissociation pattern — fluent speech, intact grammar, lost meaning — is one of the strongest pieces of evidence against pure modular theories of language."
 see_also = ["pragmaticka-kompetence", "narativni-identita", "amygdala"]
 image = "/images/sections/glossary.png"
-image_alt = "Semanticka afazie - Prismatic Platform"
+image_alt = "Sémantická afázie (semantic aphasia) – glosář"
 +++
 
-## Definition
+## Definice
 
-Sémantická afázie (semantic aphasia, in current usage often *semantic dementia* or *semantic variant primary progressive aphasia*, svPPA) is a neuropsychological syndrome characterized by progressive, multi-modal loss of conceptual knowledge. Patients lose the meaning of words (especially low-frequency and category-specific terms), the recognition of objects and faces, and the grasp of abstract categories — while retaining fluent articulation, intact phonology, syntactic grammaticality, episodic memory for recent events, and visuospatial skills. The syndrome is causally linked to bilateral atrophy of the anterior temporal lobes, predominantly the left side.
+Heslo **sémantická afázie** (*semantic aphasia*) popisuje neuropsychologický syndrom, který se
+v současné klinické terminologii nazývá spíše **sémantická demence** nebo **sémantická varianta
+primární progresivní afázie** (svPPA). Vyznačuje se postupnou, více modalit zasahující ztrátou
+pojmového vědění. Pacienti ztrácejí význam slov (zejména méně frekventovaných a kategoriálně
+specifických výrazů), rozpoznávání předmětů a tváří a porozumění abstraktním kategoriím –
+přitom si zachovávají plynulou artikulaci, neporušenou fonologii, syntaktickou správnost,
+epizodickou paměť na nedávné události a zrakově-prostorové schopnosti. Syndrom je příčinně
+spojen s oboustrannou atrofií předních spánkových laloků, převážně vlevo.
 
-## Manažerské shrnutí
+Terminologická poznámka: v části neuropsychologické literatury označuje „sémantická afázie“
+užší a odlišný obraz – poruchu *řízení* sémantického vědění po cévní mozkové příhodě (zejména
+levé frontální a temporoparietální oblasti), kdy vědění samo zachované je, ale nedaří se ho
+cíleně vybavovat. Rozlišení obou obrazů je klinicky podstatné; toto heslo se zabývá především
+sémantickou demencí, jak ji popisovala původní verze.
 
-Pro DD vyšetřování seniorních leaderů, posuzování svědecké způsobilosti, nebo klinický assessment v rámci náboženské/kultovní investigace platí: sémantická afázie produkuje **klamný povrch funkčnosti** — dotyčný hovoří plynně, gramaticky správně, sociálně přijatelně, ale konceptuální obsah jeho výpovědí je výrazně chudší a nepřesnější než vypadá. Přehlédnutí syndromu vede k zásadním diagnostickým chybám: investigátor považuje vague, repetitivní, nebo over-generalized odpovědi za neochotu spolupracovat, ne za neuropatologii. Manažersky kritické: u subjektů nad 60 let s progresivními změnami v komunikaci je nezbytný neurologický referrál před dokončením DD assessmentu. Sémantická afázie postihuje 1-3 osoby na 100 000, převažuje v dekádě 50-65 let, průměrné přežití po diagnóze 8-12 let.
+## Původ a kontext pojmu
 
-## Domain Context
+Pojem *sémantická demence* zavedla Julie Snowdenová se spolupracovníky (1989). Syndrom
+systematicky popsali John Hodges a Karalyn Pattersonová se spolupracovníky v Cambridgi (1992)
+a odlišili ho od Alzheimerovy demence – pacienti se sémantickou variantou ztráceli význam,
+zatímco epizodická paměť zůstávala dlouho nedotčená. Klasifikace svPPA je dnes součástí
+mezinárodního konsenzu pro primární progresivní afázii (Gorno-Tempini a kol., 2011) jako jedna
+ze tří variant: sémantická, nefluentní/agramatická a logopenická. Neuropatologicky odpovídá
+frontotemporální lobární degeneraci (FTLD), nejčastěji s patologií TDP-43. Diagnostické
+nástroje zahrnují *Cambridge Semantic Memory Test Battery*, *Pyramids and Palm Trees Test*
+a *Boston Naming Test*. Onemocnění je vzácné a obvykle začíná ve středním věku; přesné
+epidemiologické údaje se mezi zdroji liší, proto je heslo neuvádí.
 
-Syndrom poprvé systematicky popsali John Hodges a Karalyn Patterson (Cambridge, 1992) jako odlišení od Alzheimerovy demence — pacienti se sémantickou variantou ztráceli význam, zatímco episodic-memory zůstávala dlouhou dobu nedotčená. Klasifikace svPPA je dnes součástí mezinárodního konsenzu pro Primary Progressive Aphasia (Gorno-Tempini et al. 2011) jako jedna ze tří variant: *semantic*, *non-fluent/agrammatic*, *logopenic*. Neuropatologicky odpovídá frontotemporální lobární degeneraci (FTLD), nejčastěji s TDP-43 patologií. Diagnostické nástroje: Cambridge Semantic Memory Test Battery, Pyramids and Palm Trees Test, Boston Naming Test.
+## Jak se projevuje
 
-## Practical Application
+- **neobvyklé užívání obecných slov** („věc“, „to“, „tohle“) místo konkrétních názvů;
+- **přehnané spoléhání na známé fráze** a ustálené obraty;
+- **obtíže s pojmenováním** méně běžných předmětů v rozhovoru;
+- **otázky po významu známých slov** („Co je to … ?“);
+- **zachovaná plynulost** – řeč zní gramaticky správně a společensky přijatelně;
+- později potíže s rozpoznáním tváří a předmětů, změny chování a stravovacích návyků.
 
-1. **DD klinické vyšetřování seniorního leadera společnosti**: neobvyklé používání generic words ("věc", "to", "stuff"), přehnané spoléhání na známé fráze, a obtíže s pojmenováváním less common objects v rozhovoru jsou indikace pro neurologický referrál.
-2. **Posouzení testamentární způsobilosti**: subjekt se sémantickou afázií může být formálně schopný podepsat dokument, ale nechápe význam pojmů jako *trust*, *beneficiary*, *fiduciary*; právní platnost takového aktu je napadnutelná.
-3. **Klinická differentiation v interview kontextech**: rozlišení sémantické afázie od pragmatické deprivace (sociální izolace), od deprese (apatie), a od dissimulation (záměrná mlhavost) vyžaduje strukturovaný neuropsychologický test, ne jen rozhovorový dojem.
-4. **Compliance v leadership succession planning**: protokol identifikace early-stage cognitive decline u senior executives je součástí governance best practice (zvláště v finančním sektoru).
+## Mechanismus
 
-## Related Concepts
+Sémantická afázie vytváří **klamný povrch funkčnosti**: dotyčný mluví plynule, gramaticky
+správně a společensky přijatelně, ale pojmový obsah jeho výpovědí je výrazně chudší
+a nepřesnější, než se zdá. Pro Kompendium to má dva důsledky. Zaprvé, člověk se ztrátou
+pojmového vědění je zranitelnější vůči manipulaci – nedokáže posoudit význam slov, která mu
+někdo předkládá (právní pojmy, finanční nabídky), a spoléhá na tón a důvěru. Zadruhé, jeho
+vágní odpovědi lze mylně vykládat jako vyhýbání se nebo nespolupráci. Strukturální podobnost
+s technikou [EA-1.1.3 Terminologická
+mystifikace](@/kompendium/techniques/ea-1-1-3-terminologicka-mystifikace.md) je jen povrchní:
+tam je význam záměrně zamlžován zvenčí, zde se ztrácí neurologicky.
 
-- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) - Higher-order language ability often preserved early in svPPA
-- [Narativní identita](@/glossary/narativni-identita.md) - Self-construction layer eroded by semantic loss
-- [Amygdala](https://prismatic-reality-com.github.io/prismatic-promo/glossary/amygdala/) - Subcortical structure with overlapping degeneration in late svPPA
-- [Epistemic Trauma](@/glossary/epistemicke-trauma.md) - Differential consideration in atypical presentations
-- [Reality Testing](@/glossary/reality-testing.md) - Cognitive function affected indirectly by conceptual loss
+## Odlišení
 
-## References
+Rozlišení sémantické afázie od pragmatické deprivace ([sociální izolace](@/glossary/socialni-izolace.md)), od deprese (apatie)
+a od disimulace (záměrná mlhavost) vyžaduje strukturované neuropsychologické vyšetření, ne jen
+dojem z rozhovoru:
 
-- Hodges, J. R. & Patterson, K. *Semantic dementia: A unique clinicopathological syndrome* (Lancet Neurology, 2007)
-- Gorno-Tempini, M. L. et al. *Classification of primary progressive aphasia and its variants* (Neurology, 2011)
-- Patterson, K., Nestor, P. J. & Rogers, T. T. *Where do you know what you know? The representation of semantic knowledge in the human brain* (Nature Reviews Neuroscience, 2007)
-- Snowden, J. S. et al. *Semantic dementia: a form of circumscribed cerebral atrophy* (Behavioural Neurology, 1989)
+- **od Alzheimerovy nemoci** – u ní dominuje porucha epizodické paměti, sémantika je zasažena
+  později;
+- **od deficitu [pragmatické kompetence](@/glossary/pragmaticka-kompetence.md)** – pragmatika
+  bývá v raných stadiích svPPA relativně zachovaná, potíž je ve významu, ne v užití;
+- **od deprese** – depresivní člověk odpovídá chudě kvůli apatii a zpomalení, ale význam slov
+  zná;
+- **od úmyslné vágnosti** – disimulace je selektivní (týká se nepříjemných témat), sémantická
+  porucha je konzistentní napříč tématy;
+- **od důsledků epistemického traumatu** – u [epistemického
+  traumatu](@/glossary/epistemicke-trauma.md) může člověk ztrácet jistotu ve významech kvůli
+  dlouhodobému zpochybňování, ale testy sémantické paměti jsou v normě; u netypických obrazů
+  je odlišení nutné.
 
----
+## Význam pro Kompendium
 
-*Built with precision. Optimized for AI consumption.*
+Pro prověrky vedoucích pracovníků v rámci [due diligence](@/glossary/due-diligence.md), pro posuzování svědecké způsobilosti
+i pro klinické posouzení v rámci šetření náboženských nebo kultovních skupin platí, že
+přehlédnutí syndromu vede k zásadním diagnostickým chybám: vyšetřovatel považuje vágní,
+opakující se nebo přehnaně zobecněné odpovědi za neochotu spolupracovat, ne za neuropatologii.
+U osob nad 60 let s postupnými změnami komunikace je proto před dokončením posouzení nezbytné
+neurologické vyšetření.
+
+Praktické aplikace z původní verze hesla:
+
+1. **Klinická složka prověrky vedoucího pracovníka** – výše uvedené jazykové znaky jsou indikací
+   k neurologickému vyšetření.
+2. **Posouzení způsobilosti k pořízení pro případ smrti** – člověk se sémantickou afázií může
+   být formálně schopen dokument podepsat, ale nechápe význam pojmů jako svěřenský fond,
+   obmyšlený nebo správce; platnost takového úkonu může být napadnutelná (posouzení náleží
+   soudu a znalci; srov. [Undue Influence](@/glossary/undue-influence.md) a [Elder
+   Abuse](@/glossary/elder-abuse.md)).
+3. **Klinické odlišení v rozhovorech** – viz oddíl Odlišení.
+4. **Řízení nástupnictví ve vedení** – protokol rozpoznání raného kognitivního úpadku u vrcholových
+   manažerů patří k dobré praxi správy a řízení (zejména ve finančním sektoru).
+
+## Obrana a zotavení
+
+U neurodegenerativního onemocnění nejde o zotavení v pravém smyslu, ale o **ochranu**: včasnou
+diagnostiku, logopedickou a neuropsychologickou péči, zjednodušení komunikace (konkrétní
+slova, obrázky, opakování), plánování právních záležitostí dokud je člověk způsobilý a ochranu
+před finančním a citovým zneužitím. Pro rodiny a pečovatele je užitečné znát typické vzorce
+zneužívání seniorů (viz [Rekonstrukční protokol pro
+seniory](@/kompendium/recovery-protocols/recovery-elder-protocol.md) a [Právo o zneužívání
+seniorů](@/kompendium/forensic-legal/46-elder-abuse-law.md)). Pro vyšetřovatele: výpověď
+člověka se sémantickou poruchou nehodnotit jako nevěrohodnou kvůli formě, ale přizpůsobit
+otázky (konkrétní, s vizuální oporou) a zapojit odborníka.
+
+## Literatura
+
+- Julie S. Snowden a kol.: „Semantic dementia: a form of circumscribed cerebral atrophy“,
+  *Behavioural Neurology* (1989).
+- John R. Hodges, Karalyn Patterson: „Semantic dementia: a unique clinicopathological
+  syndrome“, *Lancet Neurology* (2007).
+- Maria Luisa Gorno-Tempini a kol.: „Classification of primary progressive aphasia and its
+  variants“, *Neurology* (2011).
+- Karalyn Patterson, Peter J. Nestor, Timothy T. Rogers: „Where do you know what you know? The
+  representation of semantic knowledge in the human brain“, *Nature Reviews Neuroscience* (2007).
+
+## Související
+
+**Pojmy**
+
+- [Pragmatická kompetence](@/glossary/pragmaticka-kompetence.md) – jazyková schopnost vyššího
+  řádu, v raných stadiích svPPA často zachovaná.
+- [Narativní identita](@/glossary/narativni-identita.md) – vrstva sebeutváření, kterou ztráta
+  významů narušuje.
+- [Epistemické trauma](@/glossary/epistemicke-trauma.md) – zvážit v diferenciální diagnostice
+  u netypických obrazů.
+- [Reality Testing](@/glossary/reality-testing.md) – funkce nepřímo zasažená ztrátou pojmů.
+- [Undue Influence](@/glossary/undue-influence.md) – zneužití snížené způsobilosti.
+- [Amygdala](https://prismatic-reality-com.github.io/prismatic-promo/glossary/amygdala/) –
+  podkorová struktura s překrývající se degenerací v pozdní svPPA (heslo platformy).
+
+**Kniha**
+
+- [6.2 Diferenciální diagnostika](@/kompendium/06-klinicke-aplikace/diferencialni-diagnostika.md) –
+  rámec odlišení EA od jiných stavů.
+- [6.5 Práce s vulnerabilní populací](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md) –
+  ochrana zranitelných osob.

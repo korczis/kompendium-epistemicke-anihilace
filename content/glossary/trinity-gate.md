@@ -1,10 +1,10 @@
 +++
-title = "Trinity Gate"
+title = "Trinity Gate (brána Trinity)"
 weight = 32
-description = "4-layer verification gate requiring structural, logical, and formal necessity checks before any platform belief is accepted."
+description = "Čtyřvrstvá ověřovací brána Prismatic Platform: strukturní, logická a formální kontrola nutnosti plus metavrstva integrity, než se přijme jakékoli přesvědčení."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "verification", "formal-methods", "quality", "gate"]
+tags = ["glossary", "prismatic", "nabla", "evidence", "epistemic-pipeline"]
 
 [extra]
 category = "epistemic"
@@ -21,81 +21,138 @@ date_updated = "2026-02-22"
 related_concepts = ["epistemic verification", "formal necessity", "modal logic", "graph theory", "belief networks", "multi-layer validation"]
 see_also = ["nabla-infinity", "lean4", "nm-nd", "epistemic-pipeline", "white-team"]
 word_count = 1939
-date_modified = "2026-02-23"
+date_modified = "2026-11-10"
 keywords = ["Trinity", "Gate", "4-layer", "glossary", "epistemic", "Prismatic Platform", "Trinity Gate", "NABLA Infinity", "Core"]
 image = "/images/sections/glossary.png"
-image_alt = "Trinity Gate - Prismatic Platform"
+image_alt = "Trinity Gate (brána Trinity) – glosář"
 +++
 
-## Definition
+## Definice
 
-The Trinity Gate is a 4-layer verification mechanism that every platform belief, decision, and conclusion must pass before acceptance. It consists of three independent validation gates -- Structural Consistency (graph theory), Logical Consistency (rule-based evaluation), and Formal Necessity (modal logic and Lean4 proofs) -- plus a meta-integrity layer that validates the gate's own correctness. No claim is established without Trinity passage. No exceptions.
+Trinity Gate je čtyřvrstvý ověřovací mechanismus, kterým musí před přijetím projít každé
+přesvědčení, rozhodnutí a závěr platformy. Skládá se ze tří nezávislých ověřovacích bran –
+strukturní konzistence (teorie grafů), logické konzistence (vyhodnocení podle pravidel)
+a formální nutnosti (modální logika a důkazy v Lean4) – a z metavrstvy integrity, která ověřuje
+správnost brány samotné. Žádné tvrzení nevznikne bez průchodu Trinity. Bez výjimek.
 
-The gate exists to solve a fundamental problem in AI-assisted reasoning: the gap between "the model thinks so" and "this is actually true." Statistical confidence alone is insufficient for high-stakes decisions. A system can be 95% confident in a conclusion that is structurally incoherent, logically contradictory, or formally unnecessary. Trinity Gate closes these gaps by requiring independent verification across three orthogonal dimensions before any belief transitions from hypothesis to accepted conclusion.
+Brána existuje, aby řešila základní problém uvažování s asistencí umělé inteligence: mezeru mezi
+„model si to myslí“ a „takhle to skutečně je“. Samotná statistická důvěra pro rozhodnutí
+s vysokými sázkami nestačí. Systém si může být na 95 % jistý závěrem, který je strukturně
+nesoudržný, logicky rozporný nebo formálně nenutný. Trinity Gate tyto mezery uzavírá tím, že
+před přechodem přesvědčení z hypotézy na přijatý závěr vyžaduje nezávislé ověření ve třech
+navzájem kolmých dimenzích.
 
-Within the Prismatic Platform, Trinity Gate serves as the transition threshold between [NABLA Infinity](@/glossary/nabla-infinity.md) exploration and [NM/ND](@/glossary/nm-nd.md) execution. The platform maintains 629 trinity entities with 100% compliance.
+V Prismatic Platform slouží Trinity Gate jako přechodový práh mezi zkoumáním v [NABLA
+Infinity](@/glossary/nabla-infinity.md) a exekucí podle [NM/ND](@/glossary/nm-nd.md). Podle
+dokumentace platformy bylo v době zápisu evidováno 629 entit Trinity se 100% souladem.
 
-## The Three Gates
+Pro Kompendium je Trinity Gate pojmem z kontextu platformy. Kniha z ní přebírá tři otázky,
+které se hodí i při posuzování lidských přesvědčení v kauzách EA: Je řetězec důvodů kruhový?
+Plyne závěr z premis, nebo je přesahuje? Je závěr nutný, nebo jen možný? (viz [Trinity Gate
+a detekce EA](@/kompendium/aiad-integration/trinity-gate-ea-verification.md)).
 
-### Gate 1: Structural Consistency (Graph Theory)
+## Tři brány
 
-The first gate validates the topological integrity of the belief network using graph-theoretic analysis:
+### Brána 1: Strukturní konzistence (teorie grafů)
 
-**Core requirement**: The belief network must form a valid directed acyclic graph (DAG) with no structural contradictions in the dependency topology.
+První brána ověřuje topologickou integritu sítě přesvědčení analýzou z [teorie
+grafů](@/glossary/graph-theory.md):
 
-Structural consistency verification includes:
+**Základní požadavek**: síť přesvědčení musí tvořit platný orientovaný acyklický graf (DAG) bez
+strukturních rozporů v topologii závislostí.
 
-- **DAG validity**: The belief graph must be acyclic. Circular reasoning (A supports B, B supports C, C supports A) is a structural failure regardless of how plausible each individual link appears
-- **Dependency integrity**: Every conclusion node must trace back to evidence nodes through valid edges. Disconnected conclusions (beliefs with no supporting evidence path) are flagged and rejected
-- **Contradiction topology**: When contradictory evidence exists, the graph must explicitly represent both sides with proper annotation rather than silently discarding one side. This enforces the [NABLA Infinity](@/glossary/nabla-infinity.md) Contradiction Preservation axiom at the structural level
-- **Inference path validation**: The knowledge topology must support the inference direction. Evidence flows upward to conclusions, not the reverse. Retroactive evidence generation (fitting evidence to a predetermined conclusion) creates detectable structural anomalies
+Ověření strukturní konzistence zahrnuje:
 
-Structural consistency is the fastest gate to evaluate and the most common point of failure. Approximately 40% of Trinity Gate rejections occur at this stage, typically due to circular reasoning patterns or orphaned belief nodes.
+- **platnost DAG**: graf přesvědčení musí být acyklický. Kruhové uvažování (A podporuje B, B
+  podporuje C, C podporuje A) je strukturním selháním bez ohledu na to, jak věrohodně působí
+  jednotlivé vazby (srov. [kruhová argumentace](@/glossary/cirkularni-argumentace.md));
+- **integrita závislostí**: každý uzel závěru musí jít platnými hranami dohledat k uzlům důkazů.
+  Odpojené závěry (přesvědčení bez cesty k podpůrným důkazům) se označí a odmítnou;
+- **topologie rozporu**: existují-li protichůdné důkazy, musí graf výslovně reprezentovat obě
+  strany s řádnou poznámkou, místo aby jednu potichu zahodil. Tím se na strukturní úrovni
+  vynucuje axiom zachování rozporu z [NABLA Infinity](@/glossary/nabla-infinity.md);
+- **ověření inferenčních cest**: topologie poznatků musí podporovat směr inference. Důkazy proudí
+  nahoru k závěrům, ne naopak. Zpětné vytváření důkazů (přizpůsobení důkazů předem danému
+  závěru) vytváří odhalitelné strukturní anomálie.
 
-### Gate 2: Logical Consistency (Rule-Based)
+Strukturní konzistence se vyhodnocuje nejrychleji a je nejčastějším místem selhání. Přibližně
+40 % odmítnutí Trinity Gate nastává v této fázi, obvykle kvůli kruhovému uvažování nebo
+osiřelým uzlům přesvědčení.
 
-The second gate evaluates whether the inference rules applied within the structurally valid graph are sound:
+### Brána 2: Logická konzistence (podle pravidel)
 
-**Core requirement**: Conclusions must not contradict their premises, inference rules must be valid, and [NABLA Infinity](@/glossary/nabla-infinity.md) axioms must not be violated at any step.
+Druhá brána hodnotí, zda jsou inferenční pravidla použitá ve strukturně platném grafu správná:
 
-Logical consistency verification includes:
+**Základní požadavek**: závěry nesmějí odporovat premisám, inferenční pravidla musí být platná
+a v žádném kroku nesmějí být porušeny axiomy [NABLA Infinity](@/glossary/nabla-infinity.md).
 
-- **Premise-conclusion alignment**: Every conclusion must follow from its stated premises through a valid inference rule. Conclusions that assert more than the premises support are flagged as overreach
-- **Rule soundness**: The inference rules themselves are validated. A rule that produces contradictory outputs from the same inputs is unsound regardless of whether it happens to produce a correct result in this instance
-- **Axiom compliance**: All seven NABLA axioms are checked at every inference step. [Signal Plurality](@/glossary/signal-plurality.md) violations (single-source beliefs), [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) violations (untraceable claims), and other axiom breaches trigger immediate gate failure
-- **Assumption tracking**: Every assumption introduced during inference is explicitly tracked. Hidden assumptions -- premises that are used but never stated -- are detected through dependency analysis and flagged as assumption leakage
+Ověření logické konzistence zahrnuje:
 
-Logical consistency catches errors that structural analysis misses. A belief graph can be a perfectly valid DAG while containing logically unsound inference steps. This gate ensures the reasoning is correct, not just well-formed.
+- **soulad premis a závěru**: každý závěr musí z uvedených premis plynout platným inferenčním
+  pravidlem. Závěry, které tvrdí víc, než premisy podporují, se označí jako přesah;
+- **správnost pravidel**: ověřují se i samotná inferenční pravidla. Pravidlo, které z týchž vstupů
+  vytváří rozporné výstupy, je nesprávné, i když v daném případě náhodou dá správný výsledek;
+- **soulad s axiomy**: v každém inferenčním kroku se kontroluje všech sedm [axiomů
+  NABLA](@/glossary/nabla-axioms.md). Porušení [plurality signálů](@/glossary/signal-plurality.md)
+  (přesvědčení z jediného zdroje), [povinné
+  provenience](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)
+  (nedohledatelná tvrzení) a další porušení axiomů spouštějí okamžité selhání brány;
+- **sledování předpokladů**: každý předpoklad zavedený při inferenci se výslovně sleduje. Skryté
+  předpoklady – premisy, které se používají, ale nikdy nevysloví – se odhalují analýzou
+  závislostí a označují jako prosakování předpokladů.
 
-### Gate 3: Formal Necessity (Modal Logic + Lean4)
+Logická konzistence zachytí chyby, které strukturní analýza mine. Graf přesvědčení může být
+dokonale platným DAG a přitom obsahovat logicky nesprávné inferenční kroky. Tato brána zajišťuje,
+že uvažování je správné, ne jen správně utvořené.
 
-The third gate is the most rigorous. It uses modal logic and [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) formal proofs to determine whether the conclusion is not merely probable but **necessary**:
+### Brána 3: Formální nutnost (modální logika + Lean4)
 
-**Core requirement**: The conclusion must be provably necessary given the evidence, not merely possible or probable.
+Třetí brána je nejpřísnější. Pomocí [modální logiky](@/glossary/modalni-logika.md) a formálních
+důkazů v [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) určuje,
+zda je závěr nejen pravděpodobný, ale **nutný**:
 
-Formal necessity verification includes:
+**Základní požadavek**: závěr musí být při daných důkazech prokazatelně nutný, ne jen možný nebo
+pravděpodobný.
 
-- **Modal logic evaluation**: Distinguishes between necessity (the conclusion must be true in all possible worlds consistent with the evidence) and possibility (the conclusion could be true in some possible worlds). For critical decisions, possibility is insufficient
-- **Lean4 theorem proving**: The core claim is translated into a Lean4 theorem and subjected to formal proof. If the theorem can be proved, the conclusion is formally necessary. If it cannot be proved but cannot be disproved, the conclusion is possible but not necessary. If a counterexample is found, the conclusion is formally refuted
-- **Assumption minimality**: The formal proof is audited to ensure it uses the minimum necessary assumptions. Proofs that depend on unnecessary assumptions are fragile -- removing any unnecessary assumption should not invalidate the proof
-- **Counterexample construction**: When a proof fails, the system attempts to construct an explicit counterexample. A concrete counterexample is far more informative than a generic "proof failed" message, as it identifies the specific conditions under which the conclusion breaks
+Ověření formální nutnosti zahrnuje:
 
-The formal layer is computationally expensive and is applied selectively to high-stakes conclusions. For routine operations, the structural and logical gates provide sufficient verification. For critical decisions (confidence threshold 0.95), all three gates are mandatory.
+- **vyhodnocení v modální logice**: rozlišuje nutnost (závěr musí platit ve všech možných světech
+  slučitelných s důkazy) a možnost (závěr může platit v některých možných světech). U kritických
+  rozhodnutí možnost nestačí;
+- **dokazování v Lean4**: jádro tvrzení se převede na větu v Lean4 a podrobí formálnímu důkazu.
+  Lze-li větu dokázat, je závěr formálně nutný. Nelze-li ji dokázat ani vyvrátit, je závěr možný,
+  ale ne nutný. Najde-li se protipříklad, je závěr formálně vyvrácen;
+- **minimalita předpokladů**: formální důkaz se audituje, aby používal minimum nutných
+  předpokladů. Důkazy, které závisejí na zbytečných předpokladech, jsou křehké – odebrání
+  zbytečného předpokladu by nemělo důkaz zneplatnit;
+- **konstrukce protipříkladu**: když důkaz selže, systém se pokusí sestrojit výslovný protipříklad.
+  Konkrétní protipříklad je mnohem informativnější než obecné „důkaz selhal“, protože určuje
+  konkrétní podmínky, za nichž se závěr hroutí.
 
-## Meta-Integrity Layer
+Formální vrstva je výpočetně náročná a uplatňuje se výběrově u závěrů s vysokými sázkami. U běžných
+operací stačí strukturní a logická brána. U kritických rozhodnutí (práh důvěry 0,95) jsou povinné
+všechny tři brány.
 
-Beyond the three primary gates, a fourth meta-layer validates the gate mechanism itself:
+## Metavrstva integrity
 
-- **Gate independence verification**: Confirms that the three gates are evaluating independently and that a pass in one gate does not influence the evaluation of another
-- **Gate completeness check**: Verifies that the verification covered the full scope of the claim, not a subset. Partial verification that passes because it only checked the easy parts is a meta-integrity failure
-- **Self-consistency audit**: The meta-layer applies the same structural, logical, and formal checks to its own evaluation process, preventing recursive verification failures
-- **Tamper detection**: Identifies any attempt to bypass or weaken gate checks, whether through configuration changes, selective evidence presentation, or scope reduction
+Nad třemi hlavními branami ověřuje čtvrtá metavrstva samotný mechanismus brány:
 
-The meta-integrity layer is what prevents the Trinity Gate from becoming a rubber stamp. Without it, the gate could degrade over time as edge cases accumulate and workarounds become normalized.
+- **ověření nezávislosti bran**: potvrzuje, že tři brány hodnotí nezávisle a průchod jednou branou
+  neovlivňuje hodnocení jiné;
+- **kontrola úplnosti**: ověřuje, že ověření pokrylo celý rozsah tvrzení, ne jeho část. Částečné
+  ověření, které projde, protože zkontrolovalo jen snadné části, je selháním metaintegrity;
+- **audit sebekonzistence**: metavrstva uplatňuje tytéž strukturní, logické a formální kontroly na
+  vlastní hodnoticí proces a brání rekurzivním selháním ověření;
+- **detekce manipulace**: odhaluje jakýkoli pokus kontroly brány obejít nebo oslabit – změnou
+  konfigurace, výběrovým předložením důkazů nebo zúžením rozsahu.
 
-## Implementation Architecture
+Metavrstva integrity brání tomu, aby se z Trinity Gate stalo razítko. Bez ní by brána mohla
+s hromaděním hraničních případů a normalizací obcházení časem degradovat.
 
-The Trinity Gate is implemented as a pipeline of independent verification stages, each operating on the same input claim but producing independent verdicts:
+## Architektura implementace
+
+Trinity Gate je implementována jako pipeline nezávislých ověřovacích fází, které pracují se
+stejným vstupním tvrzením, ale vydávají nezávislé verdikty:
 
 ```elixir
 defmodule PrismaticEpistemic.TrinityGate do
@@ -162,22 +219,28 @@ defmodule PrismaticEpistemic.TrinityGate do
 end
 ```
 
-## Confidence Thresholds
+## Prahy důvěry
 
-Trinity Gate operates in conjunction with the [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) system. The required confidence level and Trinity Gate strictness vary by context:
+Trinity Gate pracuje ve spojení se systémem [prahů
+důvěry](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/).
+Požadovaná úroveň důvěry a přísnost brány se liší podle kontextu:
 
-| Context | Threshold (tau) | Trinity Gate | Rationale |
+| Kontext | Práh (τ) | Trinity Gate | Zdůvodnění |
 |---------|---------|--------------|-----------|
-| Critical Decisions | 0.95 | MANDATORY (all 3 gates + meta) | Production deployments, security assessments, compliance determinations |
-| Standard Operations | 0.80 | MANDATORY (all 3 gates + meta) | Routine platform operations, agent decisions, data processing |
-| Exploratory Analysis | 0.60 | RECOMMENDED | Research, hypothesis generation, pattern exploration |
-| Research Queries | 0.50 | OPTIONAL | Speculative analysis, early-stage investigation |
+| kritická rozhodnutí | 0,95 | POVINNÁ (všechny 3 brány + meta) | produkční nasazení, bezpečnostní posouzení, určení souladu |
+| běžný provoz | 0,80 | POVINNÁ (všechny 3 brány + meta) | rutinní provoz platformy, rozhodnutí agentů, zpracování dat |
+| průzkumná analýza | 0,60 | DOPORUČENÁ | výzkum, tvorba hypotéz, zkoumání vzorců |
+| výzkumné dotazy | 0,50 | VOLITELNÁ | spekulativní analýza, šetření v rané fázi |
 
-The threshold is the minimum confidence score from [QEVE](@/glossary/qeve.md) required to even attempt Trinity Gate validation. A hypothesis with confidence 0.70 in a critical decision context (threshold 0.95) is rejected before reaching the gate. This prevents wasting computational resources on formal proofs for conclusions that lack sufficient evidence.
+Práh je minimálním skóre důvěry z [QEVE](@/glossary/qeve.md), které je potřeba, aby se ověření
+v Trinity Gate vůbec zahájilo. Hypotéza s důvěrou 0,70 v kontextu kritického rozhodnutí (práh 0,95)
+se odmítne dřív, než k bráně dojde. Tím se nemrhá výpočetním výkonem na formální důkazy závěrů,
+kterým chybějí dostatečné důkazy.
 
-## Integration with NM/ND Doctrine
+## Napojení na doktrínu NM/ND
 
-Trinity Gate is the bridge between exploration and execution in the [NM/ND](@/glossary/nm-nd.md) (No Mercy, No Doubts) doctrine:
+Trinity Gate je mostem mezi zkoumáním a exekucí v doktríně [NM/ND](@/glossary/nm-nd.md) (No
+Mercy, No Doubts):
 
 ```
 EXPLORATION PHASE (NABLA Infinity)
@@ -200,16 +263,24 @@ EXECUTION PHASE (No Mercy, No Doubts)
   - Full commitment to verified conclusion
 ```
 
-The transition is unidirectional and irreversible within a single decision cycle. Once Trinity Gate passes and execution begins, the [No Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine requires complete follow-through. There is no partial execution and no hedging. The rigor of the gate justifies the decisiveness of the action.
+Přechod je v rámci jednoho rozhodovacího cyklu jednosměrný a nevratný. Jakmile Trinity Gate projde
+a exekuce začne, vyžaduje doktrína [No
+Mercy](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) úplné dotažení.
+Neexistuje částečná exekuce ani kličkování. Přísnost brány ospravedlňuje rozhodnost jednání.
 
-This integration prevents two failure modes:
+Napojení brání dvěma selháním:
 
-1. **Premature execution**: Acting on unverified beliefs because they "feel right" or because time pressure demands a decision. Trinity Gate forces the pause.
-2. **Perpetual exploration**: Never committing to action because there is always more evidence to gather. The confidence threshold and gate passage provide a clear, objective trigger for transition.
+1. **Předčasná exekuce**: jednání na základě neověřených přesvědčení, protože se „zdají správná“
+   nebo protože časový tlak vyžaduje rozhodnutí. Trinity Gate vynucuje pauzu.
+2. **Nekonečné zkoumání**: nikdy se nezavázat k jednání, protože vždy existují další důkazy ke
+   shromáždění ([paralýza analýzou](@/glossary/paralysis-by-analysis.md)). Práh důvěry a průchod
+   branou dávají jasný, objektivní spouštěč přechodu.
 
-## Failure Analysis and Diagnostics
+## Analýza selhání a diagnostika
 
-When a Trinity Gate evaluation fails, the system produces detailed diagnostic information that enables rapid resolution. Each gate failure includes the specific conditions that caused rejection and the evidence that would be needed to resolve the failure.
+Když hodnocení v Trinity Gate selže, systém vytvoří podrobné diagnostické informace, které
+umožňují rychlé vyřešení. Každé selhání brány obsahuje konkrétní podmínky, které vedly
+k odmítnutí, a důkazy, které by byly k vyřešení potřeba.
 
 ```elixir
 defmodule PrismaticEpistemic.TrinityGate.Diagnostics do
@@ -265,77 +336,119 @@ defmodule PrismaticEpistemic.TrinityGate.Diagnostics do
 end
 ```
 
-## Enforcement Protocol
+## Protokol vynucení
 
-Trinity Gate failures trigger escalating enforcement responses:
+Selhání Trinity Gate spouštějí stupňované reakce vynucení:
 
-| Level | Trigger | Response | Authority |
+| Úroveň | Spouštěč | Reakce | Autorita |
 |-------|---------|----------|-----------|
-| **E1** | Soft axiom violation in exploratory context | Warning issued, correction requested | Agent-level |
-| **E2** | Hard axiom violation or single gate failure | BLOCK -- operation halted, rejection issued | System-level |
-| **E3** | Trinity Gate failure (any gate in mandatory context) | HALT -- mandatory review required, no bypass | Supreme authority |
-| **E4** | Multiple axiom violations or meta-integrity failure | Investigation launched, full audit required | Cosmic clearance |
+| **E1** | porušení měkkého axiomu v průzkumném kontextu | varování, žádost o opravu | úroveň agenta |
+| **E2** | porušení tvrdého axiomu nebo selhání jedné brány | BLOCK – operace zastavena, vydáno odmítnutí | úroveň systému |
+| **E3** | selhání Trinity Gate (kterékoli brány v povinném kontextu) | HALT – povinný přezkum, žádný obchvat | nejvyšší autorita |
+| **E4** | více porušení axiomů nebo selhání metaintegrity | zahájeno šetření, nutný úplný audit | cosmic clearance |
 
-E3 enforcement is the most common consequence of Trinity Gate interaction. When any of the three gates fails in a mandatory context, the entire evaluation halts. The failure is logged with full diagnostic information: which gate failed, why it failed, and what evidence would be needed to resolve the failure. No workaround exists. The conclusion must either be re-evaluated with additional evidence or rejected.
+Vynucení E3 je nejčastějším důsledkem interakce s Trinity Gate. Když v povinném kontextu selže
+kterákoli ze tří bran, celé hodnocení se zastaví. Selhání se zaznamená s úplnými diagnostickými
+informacemi: která brána selhala, proč a jaké důkazy by byly k vyřešení potřeba. Obchvat
+neexistuje. Závěr se musí buď znovu vyhodnotit s dalšími důkazy, nebo odmítnout.
 
-E4 enforcement is reserved for meta-integrity failures and systematic violations. A meta-integrity failure suggests that the verification mechanism itself has been compromised, which threatens the epistemic foundation of all subsequent decisions. E4 triggers require cosmic clearance (the highest authority level in the platform) and result in a full audit of all recent Trinity Gate evaluations.
+Vynucení E4 je vyhrazeno selháním metaintegrity a systematickým porušením. Selhání metaintegrity
+naznačuje, že byl kompromitován samotný ověřovací mechanismus, což ohrožuje epistemický základ
+všech následných rozhodnutí. Spouštěče E4 vyžadují cosmic clearance (nejvyšší úroveň autority
+v platformě) a vedou k úplnému auditu všech nedávných hodnocení v Trinity Gate.
 
-## Platform Statistics
+## Statistiky platformy
 
-The Trinity Gate maintains comprehensive statistics about its operation across the platform:
+Dokumentace platformy v době zápisu uváděla tyto statistiky provozu Trinity Gate:
 
-| Metric | Value |
+| Metrika | Hodnota |
 |--------|-------|
-| Total trinity entities | 629 |
-| Compliance rate | 100% |
-| Average evaluation time (structural) | 12 ms |
-| Average evaluation time (logical) | 45 ms |
-| Average evaluation time (formal) | 250-2000 ms |
-| Rejection rate (structural) | ~40% of failures |
-| Rejection rate (logical) | ~35% of failures |
-| Rejection rate (formal) | ~25% of failures |
+| celkem entit Trinity | 629 |
+| míra souladu | 100 % |
+| průměrná doba hodnocení (strukturní) | 12 ms |
+| průměrná doba hodnocení (logické) | 45 ms |
+| průměrná doba hodnocení (formální) | 250–2000 ms |
+| podíl odmítnutí (strukturní) | ~40 % selhání |
+| podíl odmítnutí (logické) | ~35 % selhání |
+| podíl odmítnutí (formální) | ~25 % selhání |
 
-The rejection distribution across gates reflects their complementary roles: structural checks catch the most common errors (circular reasoning, orphaned nodes), logical checks catch reasoning errors that pass structural validation, and formal checks catch the most subtle issues where conclusions are possible but not necessary.
+Rozložení odmítnutí mezi branami odráží jejich doplňující se role: strukturní kontroly zachytí
+nejčastější chyby (kruhové uvažování, osiřelé uzly), logické kontroly chyby uvažování, které
+strukturním ověřením projdou, a formální kontroly nejjemnější problémy, kdy jsou závěry možné, ale
+ne nutné.
 
-## Why Trinity Gate Exists
+## Proč Trinity Gate existuje
 
-Trinity Gate addresses a specific category of failure that conventional AI validation misses: the gap between confidence and truth.
+Trinity Gate řeší konkrétní kategorii selhání, kterou běžné ověřování umělé inteligence přehlíží:
+mezeru mezi důvěrou a pravdou.
 
-**Confidence is not proof.** A language model can be 99% confident in a factually incorrect statement. Statistical confidence measures how strongly a model believes something, not whether it is true. Structural consistency ensures the belief network is coherent. Logical consistency ensures the reasoning is sound. Formal necessity ensures the conclusion is forced by the evidence, not merely suggested by it.
+**Důvěra není důkaz.** Jazykový model si může být na 99 % jistý fakticky nesprávným tvrzením.
+Statistická důvěra měří, jak silně model něčemu věří, ne zda je to pravda. Strukturní konzistence
+zajišťuje soudržnost sítě přesvědčení. Logická konzistence zajišťuje správnost uvažování. Formální
+nutnost zajišťuje, že závěr je důkazy vynucen, ne jimi jen naznačen.
 
-**Feelings are not evidence.** Human analysts and AI systems alike develop intuitions that feel correct but lack rigorous grounding. Trinity Gate requires that every accepted conclusion pass three independent verification methods. Intuition that survives structural, logical, and formal scrutiny is validated intuition. Intuition that fails any gate is rejected regardless of how compelling it feels.
+**Pocity nejsou důkazy.** Lidští analytici i systémy umělé inteligence si vytvářejí intuice, které
+se zdají správné, ale postrádají přísné ukotvení. Trinity Gate vyžaduje, aby každý přijatý závěr
+prošel třemi nezávislými ověřovacími metodami. Intuice, která obstojí ve strukturním, logickém
+i formálním zkoumání, je ověřená intuice. Intuice, která neprojde kteroukoli branou, se odmítne,
+ať působí jakkoli přesvědčivě.
 
-**Probability is not necessity.** A conclusion that is 95% probable is still 5% wrong. For critical decisions -- security assessments, compliance determinations, acquisition due diligence -- the question is not "how probable?" but "is this necessary?" The formal gate (modal logic + Lean4) answers this question directly.
+**Pravděpodobnost není nutnost.** Závěr, který je na 95 % pravděpodobný, je stále na 5 % chybný.
+U kritických rozhodnutí – bezpečnostních posouzení, určení souladu, [due diligence](@/glossary/due-diligence.md) u akvizic – není
+otázkou „jak pravděpodobné?“, ale „je to nutné?“. Formální brána (modální logika + Lean4) na tuto
+otázku odpovídá přímo.
 
-**Verification must verify itself.** Any verification system that does not check its own integrity is vulnerable to degradation. The meta-layer prevents Trinity Gate from becoming a formality -- a checkbox that always passes because no one checks whether the checkbox itself is working.
+**Ověření musí ověřovat samo sebe.** Každý ověřovací systém, který nekontroluje vlastní integritu,
+je zranitelný vůči degradaci. Metavrstva brání tomu, aby se Trinity Gate stala formalitou –
+políčkem, které vždy projde, protože nikdo nekontroluje, zda funguje samo políčko.
 
-The [Purple Team](@/glossary/purple-team.md) (Synthesis and Closure) serves as the organizational complement to Trinity Gate, ensuring that the Red-Blue adversarial-defensive loop reaches genuine closure rather than false resolution.
+[Purple Team](@/glossary/purple-team.md) (syntéza a uzavírání) je organizačním doplňkem Trinity
+Gate a zajišťuje, že smyčka útoku a obrany Red–Blue dospěje ke skutečnému uzavření, ne
+k falešnému vyřešení.
 
-## Related Terms
+## Meze přenosu na lidské poznání
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework whose axioms Trinity Gate enforces
-- [QEVE](@/glossary/qeve.md) -- Verification engine producing the inputs Trinity Gate evaluates
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover powering the Formal Necessity gate
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Execution doctrine enabled by successful gate passage
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Score thresholds that determine gate strictness
-- [White Team](@/glossary/white-team.md) -- Constructive verification team producing formal proofs for gate evaluation
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis team ensuring Red-Blue closure complements gate verification
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom checked during logical consistency gate
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom ensuring traceability through all gate stages
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which Trinity Gate operates
-- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Integration framework connecting Trinity Gate to AIAD agents
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Testing approach complementing formal verification
+U lidí nelze požadovat „formální nutnost“ každého přesvědčení – většina lidského poznání je
+pravděpodobnostní a opírá se o důvěru ve svědectví. Kniha proto bránu nepřenáší jako normu, ale
+jako diagnostickou pomůcku: manipulativní systémy přesvědčení často vykazují právě strukturní
+vady, které brána zachycuje (kruhové zdůvodnění „vůdce má pravdu, protože to říká vůdce“, závěry
+přesahující premisy, skryté předpoklady; srov. [EA-1.3.1 Imunizace proti
+falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)).
 
-## See Also
+## Související
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+**Pojmy platformy v tomto glosáři**
+
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec, jehož axiomy brána vynucuje.
+- [QEVE](@/glossary/qeve.md) – ověřovací engine, který dodává vstupy brány.
+- [NM/ND](@/glossary/nm-nd.md) – exekuční doktrína, kterou průchod branou umožňuje.
+- [White Team](@/glossary/white-team.md) – konstruktivní ověřovací tým, který vytváří formální důkazy.
+- [Purple Team](@/glossary/purple-team.md) – syntetický tým uzavírání smyčky Red–Blue.
+- [Signal Plurality](@/glossary/signal-plurality.md) – axiom kontrolovaný v logické bráně.
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) – šestnáctiúrovňová pipeline, v níž
+  brána působí.
+- [Modální logika](@/glossary/modalni-logika.md) – logický základ formální brány.
+
+**Hesla a přehledy platformy mimo tuto knihu**
+
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/),
+  [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/),
+  [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/),
+  [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/),
+  [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/).
+- [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/),
+  [Technologie](https://prismatic-reality-com.github.io/prismatic-promo/technologies/).
+
+**Kniha**
+
+- [Trinity Gate a detekce EA](@/kompendium/aiad-integration/trinity-gate-ea-verification.md) –
+  ověřování v detekci epistemických útoků.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomas Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

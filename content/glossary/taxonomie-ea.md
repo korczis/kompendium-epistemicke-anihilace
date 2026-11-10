@@ -2,10 +2,10 @@
 title = "Taxonomie EA"
 weight = 60
 
-description = "Hierarchický klasifikační systém technik epistemické anihilace s notací EA-X.Y.Z-α, pokrývající 8 primárních kategorií a aspirativně 150+ technik."
+description = "Hierarchický klasifikační systém technik epistemické anihilace s notací EA-X.Y.Z-α: struktura kódů, primární kategorie, vlastnosti notace a jak s ní pracovat."
 
 [taxonomies]
-tags = ["glossary", "epistemic", "kompendium", "taxonomy"]
+tags = ["glossary", "kompendium", "ea-taxonomy", "epistemic", "reference"]
 
 [extra]
 category = "epistemic"
@@ -15,72 +15,152 @@ author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
 word_count = 540
 date_created = "2026-04-25"
-date_modified = "2026-04-25"
+date_modified = "2026-11-10"
 keywords = ["taxonomie EA", "EA classification", "epistemic annihilation taxonomy", "EA-X.Y.Z notation"]
 quality_score = 84
 see_also = ["kompendium", "epistemicka-anihilace"]
 image = "/images/sections/glossary.png"
-image_alt = "Taxonomie EA - glossary"
+image_alt = "Taxonomie EA – glosář"
 +++
 
-## Definition
+## Definice
 
-**Taxonomie EA** is the hierarchical classification system of [epistemické anihilace](@/glossary/epistemicka-anihilace.md) techniques used in the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md). It assigns every technique a stable identifier in the form **`EA-X.Y.Z-α`**, where:
+**Taxonomie EA** je hierarchický klasifikační systém technik [epistemické
+anihilace](@/glossary/epistemicka-anihilace.md), který používá [Kompendium epistemické
+a kognitivní anihilace](@/kompendium/_index.md). Každé technice přiřazuje stálý identifikátor ve
+tvaru **`EA-X.Y.Z-α`**, kde:
 
-| Component | Meaning | Example |
+| Složka | Význam | Příklad |
 |-----------|---------|---------|
-| **EA** | Constant prefix (Epistemic Annihilation) | `EA` |
-| **X** | Primary category (1–8) | `1` (Academic Manipulation) |
-| **Y** | Subcategory within the primary category | `1` (Acquisition Disruption) |
-| **Z** | Specific technique within the subcategory | `1` (Selective Exposure) |
-| **α** | Variant suffix (optional, lowercase letter) | `a`, `b`, `c` |
+| **EA** | stálá předpona (epistemická anihilace) | `EA` |
+| **X** | primární kategorie | `1` (akademická manipulace) |
+| **Y** | podkategorie uvnitř primární kategorie | `1` (narušení získávání informací) |
+| **Z** | konkrétní technika v podkategorii | `1` (selektivní expozice) |
+| **α** | přípona varianty (nepovinná, malé písmeno) | `a`, `b`, `c` |
 
-For example, `EA-1.1.1` is [Selective Exposure](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — primary category 1 (Academic Manipulation), subcategory 1 (Acquisition), technique 1 (Selective Exposure). The suffix `-a` would denote a documented variant of the same technique.
+Například `EA-1.1.1` je [Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) –
+primární kategorie 1 (akademická manipulace), podkategorie 1 (získávání informací), technika 1
+(selektivní expozice). Přípona `-a` by označovala zdokumentovanou variantu téže techniky.
 
-The eight primary categories are:
+Taxonomie je klasifikací pro *rozpoznání*: kód pojmenovává vzorec, aby ho kliničtí pracovníci,
+vyšetřovatelé a výzkumníci mohli jednoznačně identifikovat, odlišit a propojit s detekcí,
+obranou a zotavením. Není to katalog postupů k použití (viz [1.3 Etické aspekty
+a upozornění](@/kompendium/01-predmluva/eticke-aspekty.md)).
 
-1. **Akademické techniky** intelektuální manipulace
-2. **Scénáře epistemické delegitimizace**
-3. **Pokročilá edukativní implementace** (constructive counterpart)
-4. **Terminální protokoly** (advanced destructive sequences)
-5. **Ultramární techniky** fundamentální dekonstrukce (150 techniques planned)
-6. **Klinické aplikace** (diagnostic and therapeutic frameworks)
-7. **Teoretické reflexe** (philosophical and interdisciplinary)
-8. **Přílohy** (master index, case studies, glossary)
+## Původ a kontext pojmu
 
-## Context
+Původní verze hesla uváděla osm primárních kategorií, které odpovídají kapitolám knihy:
 
-The notation is designed with five engineering properties relevant to long-term scholarship:
+1. **Akademické techniky intelektuální manipulace** (kapitola [3.1](@/kompendium/03-zakladni-kategorie/kapitola-1.md));
+2. **Scénáře epistemické [delegitimizace](@/glossary/delegitimizace.md)** (kapitola [3.2](@/kompendium/03-zakladni-kategorie/kapitola-2.md));
+3. **Pokročilá [edukativní implementace](@/glossary/edukativni-implementace.md)** – konstruktivní protějšek (kapitola
+   [3.3](@/kompendium/03-zakladni-kategorie/kapitola-3.md));
+4. **Terminální protokoly** – pokročilé destruktivní sekvence, popsané strukturně pro rozpoznání
+   ([04. Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md));
+5. **Ultramární techniky fundamentální dekonstrukce** – v době zápisu plánováno 150 technik
+   ([05. Ultramární techniky](@/kompendium/05-ultramari-techniky/_index.md));
+6. **Klinické aplikace** – diagnostické a terapeutické rámce ([06. Klinické
+   aplikace](@/kompendium/06-klinicke-aplikace/_index.md));
+7. **Teoretické reflexe** – filosofické a interdisciplinární ([7. Teoretické
+   reflexe](@/kompendium/07-teoreticke-reflexe/_index.md));
+8. **Přílohy** – hlavní rejstřík, případové studie, glosář ([08. Přílohy](@/kompendium/08-prilohy/_index.md)).
 
-| Property | Rationale |
+V současném rejstříku technik ([Techniky](@/kompendium/techniques/_index.md) a [Kompletní
+rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md)) se kódy EA-6.x používají pro
+klinické protokoly, EA-7.x pro teoretické rozbory (např. [EA-7.1.1 Foucault:
+Power/Knowledge](@/kompendium/techniques/ea-7-1-1-foucault-power-knowledge.md)), EA-8.x pro
+model BITE a základní literaturu a nově přibyla rodina **EA-9.x** pro digitální a algoritmické
+jevy (např. [EA-9.1.1 LLM Hallucination
+Laundering](@/kompendium/techniques/ea-9-1-1-llm-hallucination-laundering.md)). Číslování
+primárních kategorií tak není totožné s číslováním kapitol a čtenář má vycházet z rejstříku.
+
+## Jak se projevuje
+
+Taxonomie se v knize projevuje jako jednotný systém odkazů:
+
+- každá stránka techniky nese svůj kód v názvu a v adrese;
+- [rychlé referenční karty](@/kompendium/quick-reference/_index.md) mají tvar `qr-ea-X-Y-Z`;
+- kazuistiky, detekční signatury a protokoly zotavení odkazují na kódy technik, které popisují;
+- [index pojmů](@/kompendium/08-prilohy/index-pojmu.md) a [klasifikační
+  schéma](@/kompendium/08-prilohy/klasifikace.md) vysvětlují metaúroveň.
+
+## Mechanismus
+
+Notace je navržena s pěti inženýrskými vlastnostmi, které jsou důležité pro dlouhodobou odbornou
+práci:
+
+| Vlastnost | Zdůvodnění |
 |----------|-----------|
-| **Stability** | The EA code does not change even if presentation URLs are refactored |
-| **Hierarchical readability** | Reader can infer category and subcategory from the code itself |
-| **Variant extensibility** | Suffix `-α` allows variant designation without restructuring |
-| **Machine indexability** | Easy parsing for automated analysis, bibliography systems, ML training |
-| **Auditability** | Unambiguous reference in cross-disciplinary discourse |
+| **Stabilita** | kód EA se nemění, ani když se změní adresy stránek |
+| **Hierarchická čitelnost** | čtenář z kódu vyčte kategorii i podkategorii |
+| **Rozšiřitelnost o varianty** | přípona `-α` umožňuje označit variantu bez přestavby |
+| **Strojová indexovatelnost** | snadné zpracování pro automatickou analýzu, bibliografické systémy a strojové učení |
+| **Auditovatelnost** | jednoznačný odkaz v mezioborové diskusi |
 
-Within the Prismatic Platform, EA codes serve as **first-class cross-references**:
+V Prismatic Platform slouží kódy EA jako **plnohodnotné křížové odkazy**:
 
-- The [Kompendium hub](@/kompendium/_index.md) and [techniques index](@/kompendium/techniques/_index.md) use them as canonical anchors.
-- The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration logic references EA codes when flagging epistemic manipulation indicators in input sources.
-- [Glossary](@/glossary/_index.md) entries link directly to relevant EA codes for context.
-- Future automation (RAG over the kompendium, structured ML training) will use EA codes as the primary indexing key.
+- [rozcestník Kompendia](@/kompendium/_index.md) a [rejstřík technik](@/kompendium/techniques/_index.md)
+  je používají jako kanonické kotvy;
+- kalibrační logika [Decision Engine](@/glossary/decision-engine.md) na kódy EA odkazuje, když
+  ve vstupních zdrojích označuje ukazatele epistemické manipulace;
+- hesla [glosáře](@/glossary/_index.md) odkazují přímo na příslušné kódy EA;
+- budoucí automatizace (RAG nad Kompendiem, strukturované strojové učení) má kódy EA používat
+  jako hlavní indexační klíč.
 
-The taxonomy follows **semver discipline**: bug-fix reclassifications increment the patch version; addition of new techniques increments the minor version; breaking restructuring of the code system increments the major version. The current version is **v0.1.0** — initial publication, taxonomy in active expansion.
+Taxonomie se řídí **disciplínou sémantického verzování**: opravné překlasifikace zvyšují
+opravnou verzi, přidání nových technik vedlejší verzi a zásadní přestavba systému kódů hlavní
+verzi. V době zápisu původního hesla byla aktuální verze **v0.1.0** – první zveřejnění, taxonomie
+v aktivním rozšiřování.
 
-## See Also
+## Odlišení
 
-- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — The phenomenon being classified
-- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Related but distinct phenomenon
-- [Kompendium hub](@/kompendium/_index.md) — The full taxonomic reference
-- [Techniques index](@/kompendium/techniques/_index.md) — Per-technique deep-dives by EA code
+- **Od diagnostických klasifikací (MKN, DSM)** – taxonomie EA neklasifikuje poruchy ani
+  osoby, ale vzorce působení; kód techniky není diagnóza a nemá se tak používat.
+- **Od [modelu BITE](@/glossary/bite-model.md)** – BITE třídí oblasti kontroly (chování,
+  informace, myšlení, emoce); taxonomie EA třídí konkrétní epistemické vzorce a je s BITE
+  propojena v rodině EA-8.x.
+- **Od obecných katalogů logických klamů** – taxonomie zahrnuje i dlouhodobé, institucionální
+  a somatické vzorce, které nejsou chybou argumentu.
+
+## Význam pro Kompendium
+
+Taxonomie je páteří knihy: umožňuje propojit popis fenoménu s detekcí ([detekční
+signatury](@/kompendium/detection-signatures/_index.md)), klinickým rámcem, kazuistikami
+a protokoly zotavení. Kritické kapitoly upozorňují na její meze – riziko esencialismu
+([Esencialistický klam v EA
+kategoriích](@/kompendium/critical-perspectives/9-essentialism-critique.md)), přílišného rozšíření
+([Framework overreach](@/kompendium/critical-perspectives/3-framework-overreach.md)) a stigmatizace.
+
+## Obrana a zotavení
+
+Pro dotčeného může mít pojmenování vzorce samo o sobě úlevný a orientační účinek („to, co se
+dělo, má jméno a je popsané“). Kód ale nemá nahradit vlastní vyprávění – v zotavení je důležité,
+aby člověk svou zkušenost formuloval sám a taxonomii používal jako pomůcku, ne jako nový rámec,
+do něhož se musí vejít (srov. [narativní identita](@/glossary/narativni-identita.md)).
+
+## Související
+
+**Pojmy**
+
+- [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) – klasifikovaný fenomén.
+- [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) – příbuzný, ale odlišný fenomén.
+- [Kompendium EA](@/glossary/kompendium-ea.md) – úplná taxonomická reference.
+
+**Kniha**
+
+- [Rozcestník Kompendia](@/kompendium/_index.md) – úplná taxonomická reference.
+- [Rejstřík technik](@/kompendium/techniques/_index.md) – rozbory technik podle kódu EA.
+- [Kompletní rejstřík technik](@/kompendium/08-prilohy/rejstrik-technik.md) – hlavní index.
+- [Klasifikační schéma a taxonomie – metaúroveň](@/kompendium/08-prilohy/klasifikace.md) –
+  principy třídění.
+- [2.4 Metodologické poznámky k taxonomii](@/kompendium/02-uvod/metodologicke-poznamky.md) –
+  metodologie.
 
 ---
 
-## Connect & Contribute
+## Autor a zapojení
 
-**Created by [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
+**Autor: [Tomáš Korcak (korczis)](https://github.com/korczis)** | Licence: [GHL](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/LICENSE-CONTENT.md)
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
-- [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+- [Portál pro vývojáře](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architektura](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [O autorovi](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.15 Apofatické zacyklení"
-description = "Detailní per-technique článek: technika apofatického zacyklení — uvěznění subjekta v negativně-vymezujících popisech, kdy je každé pozitivní tvrzení invalidováno, vedoucí k totální epistemické stázi. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika apofatického zacyklení — uvěznění subjekta v negativně-vymezujících popisech, kdy je každé pozitivní tvrzení invalidováno, vedoucí k totální epistemické stázi."
 weight = 515
 insert_anchor_links = "right"
 

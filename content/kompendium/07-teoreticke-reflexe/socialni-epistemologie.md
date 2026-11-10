@@ -1,6 +1,6 @@
 +++
 title = "7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson"
-description = "Sociální epistemologie EA — Goldmanův veritism a sociální reliabilismus, Frickerová a epistemická nespravedlnost (testimoniální + hermeneutická), Longino a kritický kontextový empirismus, Anderson a demokratická epistemologie."
+description = "Sociální epistemologie EA — Goldmanův veritism a sociální reliabilismus, Frickerová a epistemická nespravedlnost (testimoniální + hermeneutická), Longino a kritický kontextový empirismus."
 weight = 3
 insert_anchor_links = "right"
 

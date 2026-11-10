@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.4 Sémantická imploze"
-description = "Detailní per-technique článek: technika sémantické imploze — systematický kolaps významů slov a pojmů takovým způsobem, že dříve stabilní termíny odkazují k ničemu nebo simultánně k protichůdným referentům, čímž je podkopán lingvistický substrát myšlení. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika sémantické imploze — systematický kolaps významů slov a pojmů takovým způsobem."
 weight = 514
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.44 Past simulační regrese"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace nekonečného regresu simulace simulace simulace... bez pevného „realného“ patra. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace nekonečného regresu simulace simulace simulace... bez pevného „realného“ patra."
 weight = 5444
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 9: Paradoxální metaanihilační protokoly"
-description = "Kapitola 9 sekce 05 — narativní expozice paradoxálních metaanihilačních protokolů, čtvrtého ultramárního režimu (EA-5.4.1 až 5.4.30). Třicet technik exploitujících sebevztažné paradoxy k destabilizaci rámců evaluace: epimenidovský závazek, Russellova past, Tarského diagonalizace, Gödelovská sebezničující reflexe a další. Kompaktní taxonomie, fenomenologie, klinický obraz, etické scaffolding."
+description = "Kapitola 9 sekce 05 — narativní expozice paradoxálních metaanihilačních protokolů, čtvrtého ultramárního režimu (EA-5.4.1 až 5.4.30)."
 weight = 9
 insert_anchor_links = "right"
 

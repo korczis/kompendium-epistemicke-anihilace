@@ -1,6 +1,6 @@
 +++
 title = "EA-8.2.3 Singer Six Conditions of Mind Control"
-description = "Referenční zdroj — Singerová šest podmínek pro thought reform — keep person unaware, control time/environment, create powerlessness, suppress old behavior, instill new behavior, create closed system of logic."
+description = "Referenční zdroj — Singerová šest podmínek pro thought reform — keep person unaware, control time/environment, create powerlessness, suppress old behavior, instill new behavior."
 weight = 823
 insert_anchor_links = "right"
 

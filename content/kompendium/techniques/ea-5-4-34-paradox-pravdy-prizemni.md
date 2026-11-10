@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.34 Paradox přízemní pravdy"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjekt zjišťuje, že každá „obyčejná“ pravda implikuje paradoxně silnější tvrzení (Mooreův paradox). Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjekt zjišťuje, že každá „obyčejná“ pravda implikuje paradoxně silnější tvrzení (Mooreův paradox)."
 weight = 5434
 insert_anchor_links = "right"
 

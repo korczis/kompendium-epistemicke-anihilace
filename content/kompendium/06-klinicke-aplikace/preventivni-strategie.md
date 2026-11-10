@@ -1,6 +1,6 @@
 +++
 title = "6.9 Preventivní strategie"
-description = "Komplexní rámec preventivních strategií epistemické a kognitivní anihilace na třech úrovních — personální (metakognitivní hygiena, epistemická triangulace, somatické kotvy, dokumentační praxe), institucionální (peer review, supervizní mosty, etické komise, anti-Salami protokoly, anti-Trojan audity, mentorský pluralismus) a kulturní (epistemická vakcinace, mediální kompetence, akademická pluralita, profesní normy, intergenerační přenos kompetence)."
+description = "Komplexní rámec preventivních strategií epistemické a kognitivní anihilace na třech úrovních."
 weight = 9
 insert_anchor_links = "right"
 

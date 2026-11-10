@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.14 Iliadský paradox dokončení"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: paradox nikdy-dokončitelného úkolu po vzoru Achilla a želvy aplikovaný na introspekci. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: paradox nikdy-dokončitelného úkolu po vzoru Achilla a želvy aplikovaný na introspekci."
 weight = 5414
 insert_anchor_links = "right"
 

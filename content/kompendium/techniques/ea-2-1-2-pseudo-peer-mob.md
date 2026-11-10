@@ -1,6 +1,6 @@
 +++
 title = "EA-2.1.2 Pseudo-peer mob"
-description = "Detailní per-technique článek: technika pseudo-peer mob — koordinovaný útok skupiny prezentující se jako spontánní kolektivní reakce kolegů. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika pseudo-peer mob — koordinovaný útok skupiny prezentující se jako spontánní kolektivní reakce kolegů."
 weight = 212
 insert_anchor_links = "right"
 

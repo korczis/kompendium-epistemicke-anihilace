@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.7 Kategoriální disoluce"
-description = "Detailní per-technique článek: technika kategoriální disoluce — kategoriální struktury se rozpouštějí, fenomén se prožívá bez kategorialní organizace. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika kategoriální disoluce — kategoriální struktury se rozpouštějí, fenomén se prožívá bez kategorialní organizace."
 weight = 527
 insert_anchor_links = "right"
 

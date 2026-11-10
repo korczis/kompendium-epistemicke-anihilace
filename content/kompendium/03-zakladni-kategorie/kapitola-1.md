@@ -1,6 +1,6 @@
 +++
 title = "3.1 Akademické techniky intelektuální manipulace"
-description = "Systematický přehled 13 pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu — kódy EA-1.1.1 až EA-1.5.2 — včetně teoretického fundamentu, fenomenologických znaků, neutralizačních strategií, kompozičních vzorců (Guru/adept, Trojan, Salami) a komparativní analýzy vůči etablovaným taxonomiím (Bachman, Williamson, Fricker)."
+description = "Systematický přehled 13 pokročilých technik intelektuální manipulace prezentovaných pod rouškou legitimního akademického diskurzu — kódy EA-1.1.1 až EA-1.5.2."
 weight = 1
 insert_anchor_links = "right"
 

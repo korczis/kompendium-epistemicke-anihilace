@@ -1,6 +1,6 @@
 +++
 title = "6.1.3 Self-report instrumenty pro EA — kalibrace a interpretace"
-description = "Self-report nástroje pro kalibraci pacientovy vlastní zkušenosti epistemické anihilace: deníky, journalingové protokoly, ekologická momentní asesment (EMA), interpretace v kontextu metakognitivní destrukce."
+description = "Self-report nástroje pro kalibraci pacientovy vlastní zkušenosti epistemické anihilace: deníky, journalingové protokoly, ekologická momentní asesment (EMA)."
 weight = 13
 
 [taxonomies]

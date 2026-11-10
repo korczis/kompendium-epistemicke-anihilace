@@ -1,6 +1,6 @@
 +++
 title = "Detekční signatura: Nejistota o realitě"
-description = "Fenomenologická signatura: zpochybnění samozřejmé reality a potřeba ověřovat si běžné věci u druhých, vázaná na prostředí soustavného přepisování skutečnosti; nutné je odlišení od psychózy a disociace."
+description = "Fenomenologická signatura: zpochybnění samozřejmé reality a potřeba ověřovat si běžné věci u druhých, vázaná na prostředí soustavného přepisování skutečnosti."
 weight = 28
 
 [taxonomies]

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.39 Tachyonová anti-kauzalita"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: spekulativně fyzikální analogie zpětné kauzality aplikovaná na subjektovu agency. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: spekulativně fyzikální analogie zpětné kauzality aplikovaná na subjektovu agency."
 weight = 5439
 insert_anchor_links = "right"
 

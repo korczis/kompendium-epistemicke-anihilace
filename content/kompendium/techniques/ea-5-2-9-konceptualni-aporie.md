@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.9 Konceptuální aporie"
-description = "Detailní per-technique článek: technika konceptuální aporie — každý pojem produkuje neřešitelný paradox, pojmovost jako taková kolabuje. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika konceptuální aporie — každý pojem produkuje neřešitelný paradox, pojmovost jako taková kolabuje."
 weight = 529
 insert_anchor_links = "right"
 

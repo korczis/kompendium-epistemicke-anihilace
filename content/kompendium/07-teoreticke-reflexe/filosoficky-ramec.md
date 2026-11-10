@@ -1,6 +1,6 @@
 +++
 title = "7.1 Filosofický rámec EA: Foucault, Adorno, Sloterdijk, Habermas"
-description = "Filosofická lokalizace kompendia EA ve čtyřech velkých tradicích kontinentální filozofie 20. a 21. století — Foucaultova analytika moc-vědění, Adornova negativní dialektika a kritika instrumentálního rozumu, Sloterdijkova sférická imunologie a Habermasova teorie komunikativního jednání."
+description = "Filosofická lokalizace kompendia EA ve čtyřech velkých tradicích kontinentální filozofie 20. a 21."
 weight = 1
 insert_anchor_links = "right"
 

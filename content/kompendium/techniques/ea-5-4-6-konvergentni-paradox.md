@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.6 Konvergentní paradox"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: souběžná aktivace více paradoxů, jejichž jednotlivá řešení jsou vzájemně neslučitelná. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: souběžná aktivace více paradoxů, jejichž jednotlivá řešení jsou vzájemně neslučitelná."
 weight = 5406
 insert_anchor_links = "right"
 

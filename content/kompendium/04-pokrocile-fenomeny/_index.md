@@ -1,6 +1,6 @@
 +++
 title = "Pokročilé fenomény"
-description = "Taxonomie pokročilých fenomenologických vzorců epistemické anihilace — emergentní stavy, které vznikají na rozhraní kognitivních, sociálních a ontologických rovin a které není možné redukovat na jednotlivou techniku ani na samostatný protokol."
+description = "Taxonomie pokročilých fenomenologických vzorců epistemické anihilace — emergentní stavy, které vznikají na rozhraní kognitivních."
 weight = 4
 sort_by = "weight"
 template = "section.html"

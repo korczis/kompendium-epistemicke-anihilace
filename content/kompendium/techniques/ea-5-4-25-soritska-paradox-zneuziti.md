@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.25 Zneužití soritského paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: soritský paradox („kdy se hromada stává hromadou?“) aplikovaný na subjektovu identitu, hodnoty, jistoty. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: soritský paradox („kdy se hromada stává hromadou?“) aplikovaný na subjektovu identitu, hodnoty, jistoty."
 weight = 5425
 insert_anchor_links = "right"
 

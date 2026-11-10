@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.2 Russellova violace typové hierarchie"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukované sebepředikování množiny všech subjektových přesvědčení („přesvědčení, která se sama nezahrnují“) s kolapsem typové vrstvy. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukované sebepředikování množiny všech subjektových přesvědčení („přesvědčení."
 weight = 5402
 insert_anchor_links = "right"
 

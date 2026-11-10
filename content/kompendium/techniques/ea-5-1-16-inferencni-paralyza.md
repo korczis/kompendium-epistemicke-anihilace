@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.16 Inferenční paralýza"
-description = "Detailní per-technique článek: technika inferenční paralýzy — indukovaná neschopnost provádět inferenční kroky vůbec, a to i z validních premis, kvůli systematickému zpochybňování každého inferenčního pravidla. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika inferenční paralýzy — indukovaná neschopnost provádět inferenční kroky vůbec, a to i z validních premis."
 weight = 516
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.7 Epimenidovská implantace"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace charakterového sebehodnocení („jsem ten, kdo vždy lže o sobě“) do identity. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace charakterového sebehodnocení („jsem ten, kdo vždy lže o sobě“) do identity."
 weight = 5407
 insert_anchor_links = "right"
 

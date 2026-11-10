@@ -1,6 +1,6 @@
 +++
 title = "EA-1.1.1 Selektivní expozice"
-description = "Detailní per-technique článek: technika selektivní expozice — strategická filtrace dostupných informací prezentovaná jako objektivní výběr. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika selektivní expozice — strategická filtrace dostupných informací prezentovaná jako objektivní výběr."
 weight = 111
 insert_anchor_links = "right"
 

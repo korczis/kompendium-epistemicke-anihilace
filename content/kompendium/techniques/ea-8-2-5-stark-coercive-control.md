@@ -1,6 +1,6 @@
 +++
 title = "EA-8.2.5 Stark Coercive Control Framework"
-description = "Referenční zdroj — Stark (2007) — sociologická teorie coercive control jako gender-based liberty crime, distinct od situational violence. Jádro: kombinace intimidation + isolation + control + deprivation."
+description = "Referenční zdroj — Stark (2007) — sociologická teorie coercive control jako gender-based liberty crime, distinct od situational violence."
 weight = 825
 insert_anchor_links = "right"
 

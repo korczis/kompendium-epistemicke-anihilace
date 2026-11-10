@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.30 Konvergentní meta-singularita"
-description = "Detailní per-technique článek: terminální technika konvergentní meta-singularity — všechny dílčí destrukce 5.2 konvergují do jediného terminálního bodu metatranscendentální paralýzy. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: terminální technika konvergentní meta-singularity — všechny dílčí destrukce 5.2 konvergují do jediného terminálního bodu metatranscendentální paralýzy."
 weight = 5230
 insert_anchor_links = "right"
 

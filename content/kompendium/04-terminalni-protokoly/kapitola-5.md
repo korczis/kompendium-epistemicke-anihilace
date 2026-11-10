@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 5: Specializované bezpečnostní protokoly"
-description = "Procedurální a institucionální safeguardy pro výzkum a praxi v oblasti terminálních protokolů — pre-engagement screening, real-time monitoring, post-engagement reintegrace, IRB struktura, whistleblower protokoly, dokumentační požadavky a long-term follow-up."
+description = "Procedurální a institucionální safeguardy pro výzkum a praxi v oblasti terminálních protokolů."
 weight = 2
 insert_anchor_links = "right"
 

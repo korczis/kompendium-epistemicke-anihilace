@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.21 Sebe-referenční paradox"
-description = "Detailní per-technique článek: technika sebe-referenčního paradoxu — vsazování klasických logických paradoxů (Russellův, lhář, Berryho) do uvažování subjektu, dokud každý pokus o konzistenci negeneruje kontradikci."
+description = "Detailní per-technique článek: technika sebe-referenčního paradoxu — vsazování klasických logických paradoxů (Russellův, lhář, Berryho) do uvažování subjektu."
 weight = 521
 insert_anchor_links = "right"
 

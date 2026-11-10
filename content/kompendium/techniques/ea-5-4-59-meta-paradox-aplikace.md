@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.59 Aplikace meta-paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: paradox o paradoxech: každý pokus o klasifikaci paradoxu je sám paradoxní. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: paradox o paradoxech: každý pokus o klasifikaci paradoxu je sám paradoxní."
 weight = 5459
 insert_anchor_links = "right"
 

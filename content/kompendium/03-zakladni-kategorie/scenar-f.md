@@ -1,6 +1,6 @@
 +++
 title = "3.2.F Scénář F: Kolektivní epistemická delegitimizace"
-description = "Detailní rozpracování Scénáře F — systematický proces podkopávání epistemické integrity celé skupiny nebo komunity prostřednictvím koordinovaných technik narušujících sdílené epistemické standardy a autority."
+description = "Detailní rozpracování Scénáře F — systematický proces podkopávání epistemické integrity celé skupiny nebo komunity prostřednictvím koordinovaných technik narušujících sdílené epistemické standardy a…"
 weight = 6
 insert_anchor_links = "right"
 

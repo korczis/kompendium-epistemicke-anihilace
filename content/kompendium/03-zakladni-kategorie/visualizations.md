@@ -1,6 +1,6 @@
 +++
 title = "Vizualizace pro Sekci 03 — Postup technik EA-1 fázemi"
-description = "Interaktivní vizualizace specifická pro sekci 03: postup 13 EA-1 technik pěti fázemi (etablování → exploitace → konsolidace → eskalace → intervence) jako Chart.js scatter graf s ko-okurenčními hranami."
+description = "Interaktivní vizualizace specifická pro sekci 03: postup 13 EA-1 technik pěti fázemi (etablování → exploitace → konsolidace → eskalace → intervence) jako Chart.js scatter graf s ko-okurenčními…"
 weight = 99
 
 [taxonomies]

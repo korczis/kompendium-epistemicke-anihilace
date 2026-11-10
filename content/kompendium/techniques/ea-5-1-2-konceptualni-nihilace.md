@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.2 Konceptuální nihilace"
-description = "Detailní per-technique článek: technika konceptuální nihilace — systematická destrukce kategorií, jimiž subjekt organizuje zkušenost, vedoucí k erozi pojmů pravdy, evidence, identity a agency. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika konceptuální nihilace — systematická destrukce kategorií, jimiž subjekt organizuje zkušenost, vedoucí k erozi pojmů pravdy, evidence, identity a agency."
 weight = 512
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "2.3 Teoretické základy a konceptuální rámec"
-description = "Teoretická východiska taxonomie epistemické a kognitivní anihilace — fundamentální principy, konceptuální rámec, interdisciplinární perspektivy, integrativní syntéza, vztah k Prismatic Decision Engine."
+description = "Teoretická východiska taxonomie epistemické a kognitivní anihilace — fundamentální principy, konceptuální rámec, interdisciplinární perspektivy, integrativní syntéza."
 weight = 3
 insert_anchor_links = "right"
 

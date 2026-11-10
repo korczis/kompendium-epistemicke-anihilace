@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.5 Konstitutivní rozpad"
-description = "Detailní per-technique článek: technika konstitutivního rozpadu — rozpouštění principů, kterými se vůbec konstituují předměty zkušenosti. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika konstitutivního rozpadu — rozpouštění principů, kterými se vůbec konstituují předměty zkušenosti."
 weight = 525
 insert_anchor_links = "right"
 

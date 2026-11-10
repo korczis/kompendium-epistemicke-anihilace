@@ -1,6 +1,6 @@
 +++
 title = "6.8 Případová studie: Doktorské vedení (anonymizovaná)"
-description = "Detailní klinická případová studie EA-traumatu v doktorském vedení — anonymizovaný vzdělávací případ M. (28, doktorand v technickém oboru) s explicitním mapováním EA technik (EA-1.1.2, EA-1.2.1, EA-1.2.3, EA-1.3.2, EA-1.3.3, EA-1.4.1 + Salami + Trojan), průběhu graduální delegitimizace, terapeutické trajektorie 14 měsíců, právních aspektů, výsledků a integrované etické reflexe."
+description = "Detailní klinická případová studie EA-traumatu v doktorském vedení — anonymizovaný vzdělávací případ M."
 weight = 8
 insert_anchor_links = "right"
 

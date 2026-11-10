@@ -4,6 +4,9 @@ description = "Konsolidovaný rejstřík všech zkratek a notačních konvencí 
 weight = 7
 sort_by = "weight"
 
+[taxonomies]
+tags = ["kompendium", "08-prilohy"]
+
 [extra]
 related_terms = ["klasifikace", "rejstrik-technik", "index-pojmu"]
 kompendium = ["08-prilohy"]

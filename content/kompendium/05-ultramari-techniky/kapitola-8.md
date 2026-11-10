@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 8: Hypertransformativní protokoly"
-description = "Kapitola 8 sekce 05 — narativní expozice hypertransformativních protokolů, třetího ultramárního režimu (EA-5.3.1 až 5.3.30). Třicet technik vynucené rekurzivní transformace identity poznávajícího subjektu: identitární metamorfóza, autobiografický restart, pozičně-rolová substituce, ontogenetická regrese a další. Kompaktní taxonomie, fenomenologie, klinický obraz, etické scaffolding."
+description = "Kapitola 8 sekce 05 — narativní expozice hypertransformativních protokolů, třetího ultramárního režimu (EA-5.3.1 až 5.3.30)."
 weight = 8
 insert_anchor_links = "right"
 

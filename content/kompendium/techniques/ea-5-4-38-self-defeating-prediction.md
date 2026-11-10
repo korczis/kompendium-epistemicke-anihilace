@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.38 Sebepodkopávající predikce"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: predikce, jejíž akt vyhlášení falsifikuje obsah predikce. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: predikce, jejíž akt vyhlášení falsifikuje obsah predikce."
 weight = 5438
 insert_anchor_links = "right"
 

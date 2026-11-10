@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.11 Modální dezorientace"
-description = "Detailní per-technique článek: ultramární technika modální dezorientace — ztráta stabilního rozlišování mezi možným, skutečným, nutným a kontingentním, vedoucí k zmatku ohledně reality, představy a hypotézy. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: ultramární technika modální dezorientace — ztráta stabilního rozlišování mezi možným, skutečným, nutným a kontingentním, vedoucí k zmatku ohledně reality."
 weight = 5111
 insert_anchor_links = "right"
 

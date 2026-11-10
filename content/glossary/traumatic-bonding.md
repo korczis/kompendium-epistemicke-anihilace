@@ -1,7 +1,7 @@
 +++
 title = "Traumatic Bonding"
 weight = 100
-description = "Paradoxní silná emoční vazba mezi obětí a agresorem, vznikající v důsledku cyklického střídání zneužívání a pozitivního posílení. Klinický fenomén relevantní pro analýzu manipulačních vzorců, identitních dynamik a epistemických procesů v Prismatic Kompendiu."
+description = "Paradoxní silná emoční vazba mezi obětí a agresorem, vznikající v důsledku cyklického střídání zneužívání a pozitivního posílení."
 
 [taxonomies]
 tags = ["glossary", "psychology", "manipulation", "attachment", "interactive"]

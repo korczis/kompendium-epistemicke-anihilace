@@ -5,6 +5,9 @@ description = "Demokratická Kampučie 1975–1979: vyhnání měst, zrušení p
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

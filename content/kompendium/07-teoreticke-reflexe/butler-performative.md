@@ -1,6 +1,6 @@
 +++
 title = "7.21 Butler: Performativita a politika identity"
-description = "Judith Butlerová a teorie performativity, citačnost subjektivace, gender jako performativní akt — rámec pro analýzu EA technik operujících skrze opakovanou indukci a výkonnou produkci identitárních pozic."
+description = "Judith Butlerová a teorie performativity, citačnost subjektivace, gender jako performativní akt."
 weight = 21
 insert_anchor_links = "right"
 

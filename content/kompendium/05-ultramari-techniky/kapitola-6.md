@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 6: Epistemická singularita"
-description = "Kapitola 6 sekce 05 — narativní expozice epistemické singularity, prvního ultramárního režimu (EA-5.1.1 až 5.1.30). Zahrnuje 30 technik destabilizujících reflexivní struktury poznávajícího subjektu: epistemická kanibalizace, sémantická imploze, referenční rekurze, temporální dekoherence, hyperreflexivita, inferenční paralýza, kvazi-mystická anihilace, diferenciální nihilace, singulární narativní kolaps, konvergentní singularita a další. Filozofický fundament, fenomenologie, klinický obraz, rekonstruktivní protokoly."
+description = "Kapitola 6 sekce 05 — narativní expozice epistemické singularity, prvního ultramárního režimu (EA-5.1.1 až 5.1.30)."
 weight = 6
 insert_anchor_links = "right"
 

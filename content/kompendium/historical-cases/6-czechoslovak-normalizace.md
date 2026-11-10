@@ -5,6 +5,9 @@ description = "ČSSR 1969–1989: prověrky, vynucený souhlas s okupací a vým
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

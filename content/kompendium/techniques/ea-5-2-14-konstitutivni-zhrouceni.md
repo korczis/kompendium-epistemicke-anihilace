@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.14 Konstitutivní zhroucení"
-description = "Detailní per-technique článek: technika konstitutivního zhroucení — destrukce schopnosti subjektu konstituovat objekty zkušenosti husserlovskou intencionální syntézou. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika konstitutivního zhroucení — destrukce schopnosti subjektu konstituovat objekty zkušenosti husserlovskou intencionální syntézou."
 weight = 5214
 insert_anchor_links = "right"
 

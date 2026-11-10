@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.12 Noumenální paralýza"
-description = "Detailní per-technique článek: technika noumenální paralýzy — fixace subjektu na nepoznatelnou věc o sobě (Ding an sich) tak, že fenomenální orientace ztrácí motivační sílu. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika noumenální paralýzy — fixace subjektu na nepoznatelnou věc o sobě (Ding an sich) tak, že fenomenální orientace ztrácí motivační sílu."
 weight = 5212
 insert_anchor_links = "right"
 

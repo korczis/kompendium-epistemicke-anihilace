@@ -1,6 +1,6 @@
 +++
 title = "Longitudinální rekonstruktivní protokoly"
-description = "Třicet časově fázovaných protokolů zotavení po expozici epistemické anihilaci — od akutní stabilizace přes subakutní rekonstrukci, středně-dobou rehabilitaci, dlouhodobou kultivaci, až po protokoly pro speciální populace."
+description = "Třicet časově fázovaných protokolů zotavení po expozici epistemické anihilaci — od akutní stabilizace přes subakutní rekonstrukci, středně-dobou rehabilitaci, dlouhodobou kultivaci."
 weight = 9
 sort_by = "weight"
 template = "section.html"

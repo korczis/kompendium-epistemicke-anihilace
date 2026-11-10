@@ -1,6 +1,6 @@
 +++
 title = "7.15 Sartre: Existencialismus, špatná víra a svoboda"
-description = "Jean-Paul Sartrův existencialismus, kategorie mauvaise foi (špatná víra), pour-soi vs. en-soi a radikální svoboda jako rámec pro analýzu sebeklamných a sebepodřizujících struktur, jež EA techniky využívají."
+description = "Jean-Paul Sartrův existencialismus, kategorie mauvaise foi (špatná víra), pour-soi vs."
 weight = 15
 insert_anchor_links = "right"
 

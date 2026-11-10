@@ -1,6 +1,6 @@
 +++
 title = "7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt"
-description = "Maurice Merleau-Pontyho fenomenologie těla, primát percepce a koncept chair (maso) jako rámec pro analýzu somatické dimenze epistemické anihilace — útoků, jež operují skrze tělo, nikoli pouze skrze rozum."
+description = "Maurice Merleau-Pontyho fenomenologie těla, primát percepce a koncept chair (maso) jako rámec pro analýzu somatické dimenze epistemické anihilace."
 weight = 16
 insert_anchor_links = "right"
 

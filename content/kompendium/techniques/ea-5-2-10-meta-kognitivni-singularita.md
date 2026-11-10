@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.10 Meta-kognitivní singularita"
-description = "Detailní per-technique článek: technika meta-kognitivní singularity — metakognice se zhroutí v jediný sebereferenční bod, ze kterého žádný výstup není možný. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika meta-kognitivní singularity — metakognice se zhroutí v jediný sebereferenční bod, ze kterého žádný výstup není možný."
 weight = 5210
 insert_anchor_links = "right"
 

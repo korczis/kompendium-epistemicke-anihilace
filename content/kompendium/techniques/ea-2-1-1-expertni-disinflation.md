@@ -1,6 +1,6 @@
 +++
 title = "EA-2.1.1 Expertní disinflace"
-description = "Detailní per-technique článek: technika expertní disinflace — systematické vyfukování (deflace) expertního statusu cílového aktéra prostřednictvím selektivní rekontextualizace jeho prací, kvalifikací a institucionálních afiliací. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika expertní disinflace — systematické vyfukování (deflace) expertního statusu cílového aktéra prostřednictvím selektivní rekontextualizace jeho prací."
 weight = 211
 insert_anchor_links = "right"
 

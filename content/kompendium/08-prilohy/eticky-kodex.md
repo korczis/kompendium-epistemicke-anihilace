@@ -1,8 +1,11 @@
 +++
 title = "Etický kodex výzkumníka EA"
-description = "12-bodový etický kodex pro výzkumníky epistemické anihilace adaptovaný z norem APA, IRB, Helsinské deklarace a Belmont Report — operacionalizace pro vědecký a klinický výzkum, který zkoumá manipulaci, manipulátory a zranitelné subjekty."
+description = "12-bodový etický kodex pro výzkumníky epistemické anihilace adaptovaný z norem APA, IRB, Helsinské deklarace a Belmont Report."
 weight = 5
 sort_by = "weight"
+
+[taxonomies]
+tags = ["kompendium", "08-prilohy"]
 
 [extra]
 related_terms = ["diagnosticke-nastroje", "dual-use", "index-pojmu", "klasifikace"]

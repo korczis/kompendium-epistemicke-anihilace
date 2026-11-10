@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.24 Epistemická vakuace"
-description = "Detailní per-technique článek: technika epistemické vakuace — produkce epistemického vakua, ve kterém subjekt nemá pevné základy pro žádné tvrzení, každý potenciální základ byl destabilizován, výsledkem je totální epistemická bezdomovost."
+description = "Detailní per-technique článek: technika epistemické vakuace — produkce epistemického vakua, ve kterém subjekt nemá pevné základy pro žádné tvrzení, každý potenciální základ byl destabilizován."
 weight = 524
 insert_anchor_links = "right"
 

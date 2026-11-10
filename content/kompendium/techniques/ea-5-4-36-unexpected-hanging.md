@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.36 Paradox neočekávaného oběšení"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: varianta předchozího paradoxu jako fatalistická struktura ohrožení. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: varianta předchozího paradoxu jako fatalistická struktura ohrožení."
 weight = 5436
 insert_anchor_links = "right"
 

@@ -5,6 +5,9 @@ description = "USA a Velká Británie, 80. a 90. léta: sugestivní terapeutick�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.7 Referenční rekurze"
-description = "Detailní per-technique článek: ultramární technika referenční rekurze — vynucená cirkulární auto-reference subjektova uvažování, která nemůže terminovat. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: ultramární technika referenční rekurze — vynucená cirkulární auto-reference subjektova uvažování, která nemůže terminovat."
 weight = 517
 insert_anchor_links = "right"
 

@@ -4,6 +4,9 @@ description = "Adaptované klinické instrumenty pro detekci a měření expozic
 weight = 4
 sort_by = "weight"
 
+[taxonomies]
+tags = ["kompendium", "08-prilohy"]
+
 [extra]
 related_terms = ["bibliografie", "dual-use", "eticky-kodex", "index-pojmu"]
 kompendium = ["08-prilohy"]

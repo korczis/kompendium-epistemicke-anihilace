@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.53 Paradox teleportu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Parfitův paradox teleportu — pokud jsi teleportován, jsi to stále ty? — aplikovaný na introspektivní transformace. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Parfitův paradox teleportu — pokud jsi teleportován, jsi to stále ty? — aplikovaný na introspektivní transformace."
 weight = 5453
 insert_anchor_links = "right"
 

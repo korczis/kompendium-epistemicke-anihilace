@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.8 Quineho paradox vlnovky"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Quineova věta „yields falsehood when preceded by its quotation“ — varianta lháře imunní vůči klasickým únikům. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Quineova věta „yields falsehood when preceded by its quotation“ — varianta lháře imunní vůči klasickým únikům."
 weight = 5408
 insert_anchor_links = "right"
 

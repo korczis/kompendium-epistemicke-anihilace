@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.45 Zhroucení cogito"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce paradoxu Descartova „myslím, tedy jsem“ přes pochybnost o samotném subjektu myšlení. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce paradoxu Descartova „myslím, tedy jsem“ přes pochybnost o samotném subjektu myšlení."
 weight = 5445
 insert_anchor_links = "right"
 

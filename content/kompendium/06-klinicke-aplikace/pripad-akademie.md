@@ -1,6 +1,6 @@
 +++
 title = "6.7 Případová studie: Akademický kontext (anonymizovaná)"
-description = "Detailní klinická případová studie EA-traumatu v akademickém kontextu — anonymizovaný vzdělávací případ K. (32, postgraduální výzkumník) s explicitním mapováním EA technik (EA-1.1.1, EA-1.1.3, EA-1.3.1, EA-1.4.2, EA-1.5.2 + Guru/adept), fenomenologickým průběhem destabilizace, terapeutickou trajektorií 18 měsíců, supervizními rozhodnutími, výsledky a etickou reflexí."
+description = "Detailní klinická případová studie EA-traumatu v akademickém kontextu — anonymizovaný vzdělávací případ K."
 weight = 7
 insert_anchor_links = "right"
 

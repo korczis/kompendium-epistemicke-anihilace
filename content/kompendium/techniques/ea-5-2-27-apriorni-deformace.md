@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.27 Apriorní deformace"
-description = "Detailní per-technique článek: technika apriorní deformace — kontinuální zkreslení apriorních forem prostoru a času bez jejich fragmentace. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika apriorní deformace — kontinuální zkreslení apriorních forem prostoru a času bez jejich fragmentace."
 weight = 5227
 insert_anchor_links = "right"
 

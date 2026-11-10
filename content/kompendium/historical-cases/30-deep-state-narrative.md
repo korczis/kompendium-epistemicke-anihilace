@@ -5,6 +5,9 @@ description = "Jak se představa skryté byrokratické moci, která sabotuje vol
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

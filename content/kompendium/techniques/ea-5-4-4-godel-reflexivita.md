@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.4 Gödelovská sebereflexe"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjektova analogie Gödelovy věty: reflexe konstruuje výrok „toto přesvědčení nelze ve mně dokázat“. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjektova analogie Gödelovy věty: reflexe konstruuje výrok „toto přesvědčení nelze ve mně dokázat“."
 weight = 5404
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "Institucionální anihilace — destrukce kolektivních epistemických struktur"
-description = "Strukturální analýza terminálního protokolu cíleného na kolektivní epistemické struktury — instituce, profesní komunity, mediální ekosystémy, akademické sítě. Mechanismy delegitimizace, infiltrace, kapture, atomizace a substituce; signální profil, srovnání s historickými případy a etické limity."
+description = "Strukturální analýza terminálního protokolu cíleného na kolektivní epistemické struktury — instituce, profesní komunity, mediální ekosystémy, akademické sítě."
 weight = 6
 insert_anchor_links = "right"
 

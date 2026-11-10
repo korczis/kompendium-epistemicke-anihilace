@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.18 Past kruhového ospravedlnění"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, jehož ospravedlnění vede přes okliku zpět k sobě samému. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, jehož ospravedlnění vede přes okliku zpět k sobě samému."
 weight = 5418
 insert_anchor_links = "right"
 

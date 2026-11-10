@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.14 Iluzorní transcendence"
-description = "Detailní per-technique článek: technika iluzorní transcendence — indukce falešného pocitu překročení běžných epistemických limitů, produkující prožitek vhledu kosmického řádu, který je ve skutečnosti epistemickou regresí. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika iluzorní transcendence — indukce falešného pocitu překročení běžných epistemických limitů, produkující prožitek vhledu kosmického řádu."
 weight = 514
 insert_anchor_links = "right"
 

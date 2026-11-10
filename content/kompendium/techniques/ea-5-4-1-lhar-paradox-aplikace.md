@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.1 Aplikace lhářova paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: vnoření klasického lhářova paradoxu („tato věta je nepravdivá“) do subjektovy reflexe vlastních tvrzení. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: vnoření klasického lhářova paradoxu („tato věta je nepravdivá“) do subjektovy reflexe vlastních tvrzení."
 weight = 5401
 insert_anchor_links = "right"
 

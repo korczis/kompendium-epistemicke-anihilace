@@ -5,6 +5,9 @@ description = "Politika „Fair Game“ a tažení scientologické církve proti
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

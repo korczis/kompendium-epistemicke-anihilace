@@ -1,6 +1,6 @@
 +++
 title = "7.41 Clark: Rozšířená mysl a kognitivní artefakty"
-description = "Andy Clark a teorie rozšířené mysli (extended mind), kognitivní lešení, koncept supersizing the mind — rámec pro pochopení EA jako manipulace kognitivními artefakty, jež jsou strukturálně součástí mysli."
+description = "Andy Clark a teorie rozšířené mysli (extended mind), kognitivní lešení, koncept supersizing the mind."
 weight = 41
 insert_anchor_links = "right"
 

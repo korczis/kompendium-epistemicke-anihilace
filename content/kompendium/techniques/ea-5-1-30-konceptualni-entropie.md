@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.30 Konceptuální entropie"
-description = "Detailní per-technique článek: technika konceptuální entropie — indukce maximálního chaosu v subjektových konceptuálních strukturách, randomizace dříve distinktních konceptů, rozmazání sousedních kategorií, dezintegrace taxonomických vztahů. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika konceptuální entropie — indukce maximálního chaosu v subjektových konceptuálních strukturách, randomizace dříve distinktních konceptů."
 weight = 530
 insert_anchor_links = "right"
 

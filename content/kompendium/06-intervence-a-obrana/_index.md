@@ -1,6 +1,6 @@
 +++
 title = "Intervence a obrana"
-description = "Komplexní rámec intervenčních a obranných protokolů pro epistemickou anihilaci — od akutní stabilizace přes střednědobou rekonstrukci až po dlouhodobou rehabilitaci a prevenci recidivy. Most mezi klinickou taxonomií a operativní praxí."
+description = "Komplexní rámec intervenčních a obranných protokolů pro epistemickou anihilaci — od akutní stabilizace přes střednědobou rekonstrukci až po dlouhodobou rehabilitaci a prevenci recidivy."
 weight = 6
 sort_by = "weight"
 template = "section.html"

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.32 Paradox tolerance"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Popperův paradox tolerance aplikovaný na subjektovu otevřenost. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Popperův paradox tolerance aplikovaný na subjektovu otevřenost."
 weight = 5432
 insert_anchor_links = "right"
 

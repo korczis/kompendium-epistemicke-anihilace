@@ -1,6 +1,6 @@
 +++
 title = "7.4 EA a postmodernismus — Lyotard, Baudrillard, Derrida"
-description = "Vztah kompendia EA k postmoderní filozofii — Lyotardův rozpad metanarativů, Baudrillardova hyperrealita a simulakra, Derridova dekonstrukce. Kritická konfrontace: postmodernismus jako diagnostika EA prostředí, ale také jako riziko hypereflektivního kvietismu."
+description = "Vztah kompendia EA k postmoderní filozofii — Lyotardův rozpad metanarativů, Baudrillardova hyperrealita a simulakra, Derridova dekonstrukce."
 weight = 4
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.29 Meta-fenomenální redukce"
-description = "Detailní per-technique článek: technika meta-fenomenální redukce — terminální fenomenologická redukce, jež redukuje samu redukující kapacitu. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika meta-fenomenální redukce — terminální fenomenologická redukce, jež redukuje samu redukující kapacitu."
 weight = 5229
 insert_anchor_links = "right"
 

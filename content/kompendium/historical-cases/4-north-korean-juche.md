@@ -5,6 +5,9 @@ description = "KLDR od roku 1948: vůdcovský kult, třídní původ songbun, ko
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.47 Implantace Matrix paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: moderní variace zlého démona: indukce přesvědčení, že subjektova realita je simulační vrstvou. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: moderní variace zlého démona: indukce přesvědčení, že subjektova realita je simulační vrstvou."
 weight = 5447
 insert_anchor_links = "right"
 

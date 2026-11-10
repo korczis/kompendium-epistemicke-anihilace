@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.17 Implantace nekonečného regresu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce nekonečného regresu zdůvodňování („proč věříš X? protože Y. Proč Y? protože Z. Proč Z?...“). Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce nekonečného regresu zdůvodňování („proč věříš X? protože Y. Proč Y? protože Z. Proč Z?...“)."
 weight = 5417
 insert_anchor_links = "right"
 

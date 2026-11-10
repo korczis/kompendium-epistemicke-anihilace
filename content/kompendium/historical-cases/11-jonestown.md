@@ -5,6 +5,9 @@ description = "Peoples Temple Jima Jonese a smrt 909 lidí v guyanském Jonestow
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

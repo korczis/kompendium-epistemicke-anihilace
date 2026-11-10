@@ -1,6 +1,6 @@
 +++
 title = "7.33 Nussbaumová: Capabilities approach a lidský rozkvět"
-description = "Martha Nussbaumová a teorie schopností (capabilities approach), seznam centrálních lidských schopností, narativní představivost — rámec pro pochopení EA jako strukturální deprivace specifických schopností."
+description = "Martha Nussbaumová a teorie schopností (capabilities approach), seznam centrálních lidských schopností, narativní představivost."
 weight = 33
 insert_anchor_links = "right"
 

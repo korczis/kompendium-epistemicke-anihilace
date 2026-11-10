@@ -1,6 +1,6 @@
 +++
 title = "Section Bridges — propojení sekcí kompendia"
-description = "30 bridge článků propojujících jednotlivé sekce kompendia (01–08, techniques, case studies, quick reference, visualizations, glossary bridges, platform). Doplňuje glossary bridges na úrovni sekce-sekce."
+description = "30 bridge článků propojujících jednotlivé sekce kompendia (01–08, techniques, case studies, quick reference, visualizations, glossary bridges, platform)."
 weight = 97
 sort_by = "weight"
 template = "section.html"

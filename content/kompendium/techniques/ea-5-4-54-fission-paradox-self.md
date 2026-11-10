@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.54 Paradox fisse sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace narativu, že subjekt se „dělí“ v každém rozhodnutí — každá volba vytváří dvě „já“. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace narativu, že subjekt se „dělí“ v každém rozhodnutí — každá volba vytváří dvě „já“."
 weight = 5454
 insert_anchor_links = "right"
 

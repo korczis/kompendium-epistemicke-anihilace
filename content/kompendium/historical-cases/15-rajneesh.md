@@ -5,6 +5,9 @@ description = "Komuna Rajneeshpuram v Oregonu 1981–1985 a salmonelová otrava 
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

@@ -5,6 +5,9 @@ description = "Konspirace z roku 2016, která z uniklých e-mailů „vyčetla�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

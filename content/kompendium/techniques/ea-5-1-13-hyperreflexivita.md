@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.13 Hyperreflexivita"
-description = "Detailní per-technique článek: technika hyperreflexivity — patologická intenzifikace metakognice, kdy subjekt ztrácí schopnost angažovat primární kognici bez současné reflexe nad ní, vznikající rekurzivní paralýza. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika hyperreflexivity — patologická intenzifikace metakognice, kdy subjekt ztrácí schopnost angažovat primární kognici bez současné reflexe nad ní."
 weight = 513
 insert_anchor_links = "right"
 

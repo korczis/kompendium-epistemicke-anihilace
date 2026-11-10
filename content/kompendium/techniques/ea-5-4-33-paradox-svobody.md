@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.33 Paradox svobody"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjekt zjišťuje, že každá realizovaná svoboda je popřením potenciální svobody. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjekt zjišťuje, že každá realizovaná svoboda je popřením potenciální svobody."
 weight = 5433
 insert_anchor_links = "right"
 

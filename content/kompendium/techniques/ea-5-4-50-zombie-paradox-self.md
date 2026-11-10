@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.50 Zombie paradox vůči sobě"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Chalmersův filozofický zombie aplikovaný introspektivně: „jsem si jistý, že mám fenomenální vědomí?“. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Chalmersův filozofický zombie aplikovaný introspektivně: „jsem si jistý, že mám fenomenální vědomí?“."
 weight = 5450
 insert_anchor_links = "right"
 

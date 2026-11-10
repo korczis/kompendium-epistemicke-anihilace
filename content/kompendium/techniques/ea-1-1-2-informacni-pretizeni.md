@@ -1,6 +1,6 @@
 +++
 title = "EA-1.1.2 Informační přetížení"
-description = "Detailní per-technique článek: technika informačního přetížení — prezentace excesivního množství dat, která znemožňuje kritické zpracování. Operační modus, fenomenologie, detekce, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika informačního přetížení — prezentace excesivního množství dat, která znemožňuje kritické zpracování."
 weight = 112
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "Manipulační vzorce"
-description = "Systematický katalog opakujících se sekvencí manipulačních technik vázaných na typ vztahu, kontext a institucionální nastavení. Tato sekce přemosťuje atomickou taxonomii Sekce 03 (Základní kategorie) a pokročilé scenárování Sekcí 04–05."
+description = "Systematický katalog opakujících se sekvencí manipulačních technik vázaných na typ vztahu, kontext a institucionální nastavení."
 weight = 3
 sort_by = "weight"
 template = "section.html"

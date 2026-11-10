@@ -1,6 +1,6 @@
 +++
 title = "Před-simulační screening"
-description = "Strukturní rámec vstupního screeningu pro účast v simulacích a výcvikových sekvencích s vysokým intenzitním profilem — psychiatrické, somatické, kognitivní, biografické a sociometrické komponenty; absolutní a relativní kontraindikace; informovaný souhlas; eticko-procedurální safeguards."
+description = "Strukturní rámec vstupního screeningu pro účast v simulacích a výcvikových sekvencích s vysokým intenzitním profilem — psychiatrické, somatické, kognitivní, biografické a sociometrické komponenty."
 weight = 8
 insert_anchor_links = "right"
 

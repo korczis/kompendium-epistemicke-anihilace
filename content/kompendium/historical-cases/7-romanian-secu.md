@@ -5,6 +5,9 @@ description = "Rumunsko 1948–1989: převýchova v Pitești, kde se vězni stá
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.55 Paradox fúze sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: opačná operace fisse: subjekt se „fúzuje“ s manipulátorem — paradox dvou já v jedné instanci. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: opačná operace fisse: subjekt se „fúzuje“ s manipulátorem — paradox dvou já v jedné instanci."
 weight = 5455
 insert_anchor_links = "right"
 

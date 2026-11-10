@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.20 Apperceptivní rozklad"
-description = "Detailní per-technique článek: technika apperceptivního rozkladu — destrukce transcendentální jednoty apperzepce, jež provází všechny mé představy. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika apperceptivního rozkladu — destrukce transcendentální jednoty apperzepce, jež provází všechny mé představy."
 weight = 5220
 insert_anchor_links = "right"
 

@@ -1,8 +1,11 @@
 +++
 title = "Klasifikační schéma a taxonomie — meta-úroveň"
-description = "Meta-popis klasifikačního systému kompendia — notace EA-X.Y.Z, dimenzionální osy, kategoriální struktura, principy přiřazování kódů, vztah k jiným taxonomiím (DSM-5, ICD-11, BITE) a metodologie kanonizace nových technik."
+description = "Meta-popis klasifikačního systému kompendia — notace EA-X.Y.Z, dimenzionální osy, kategoriální struktura, principy přiřazování kódů, vztah k jiným taxonomiím (DSM-5, ICD-11."
 weight = 6
 sort_by = "weight"
+
+[taxonomies]
+tags = ["kompendium", "08-prilohy"]
 
 [extra]
 related_terms = ["eticky-kodex", "index-pojmu", "rejstrik-technik", "zkratky"]

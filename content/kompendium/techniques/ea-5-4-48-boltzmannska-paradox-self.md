@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.48 Boltzmannovský paradox sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že subjekt je pravděpodobněji Boltzmannův mozek než historicky kontinuální subjekt. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že subjekt je pravděpodobněji Boltzmannův mozek než historicky kontinuální subjekt."
 weight = 5448
 insert_anchor_links = "right"
 

@@ -5,6 +5,9 @@ description = "Čína 1966–1976: masové kritické schůze, útok na „čtyř
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

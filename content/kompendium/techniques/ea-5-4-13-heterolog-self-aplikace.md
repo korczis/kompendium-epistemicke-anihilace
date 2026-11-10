@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.13 Heterolog self-aplikace"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: rozšířená varianta Grellingova paradoxu na ne-jazyková kvalia subjektu (vnímání, emoce, postoje). Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: rozšířená varianta Grellingova paradoxu na ne-jazyková kvalia subjektu (vnímání, emoce, postoje)."
 weight = 5413
 insert_anchor_links = "right"
 

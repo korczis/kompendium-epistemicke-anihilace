@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.23 Asymptotická dezintegrace"
-description = "Detailní per-technique článek: technika asymptotické dezintegrace — pomalý pohyb k totálnímu epistemickému kolapsu, kde každý jednotlivý krok je malý, ale kumulativní trajektorie destruktivní, bez identifikovatelného bodu, kdy lze říci 'toto je už příliš'."
+description = "Detailní per-technique článek: technika asymptotické dezintegrace — pomalý pohyb k totálnímu epistemickému kolapsu, kde každý jednotlivý krok je malý, ale kumulativní trajektorie destruktivní."
 weight = 523
 insert_anchor_links = "right"
 

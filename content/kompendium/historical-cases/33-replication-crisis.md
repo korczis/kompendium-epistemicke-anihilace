@@ -5,6 +5,9 @@ description = "Od roku 2011: rozsáhlé replikační projekty ukázaly, že velk
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

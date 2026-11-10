@@ -1,6 +1,6 @@
 +++
 title = "Intellectual Sovereignty & Authorial Independence"
-description = "Explore the philosophical foundations of intellectual sovereignty - the author's inalienable right to creative control, meaning preservation, and resistance to collaborative dilution of original intent."
+description = "Explore the philosophical foundations of intellectual sovereignty - the author's inalienable right to creative control, meaning preservation."
 weight = 10
 
 [taxonomies]

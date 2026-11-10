@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 10: Transkonceptuální mechanismy"
-description = "Kapitola 10 sekce 05 — narativní expozice transkonceptuálních mechanismů, pátého a finálního ultramárního režimu (EA-5.5.1 až 5.5.30). Třicet technik operujících pod prahem konceptuálního zachycení: pre-predikativní destabilizace, somato-fenomenologická inverze, atmosférická anihilace, gestalt-rozplývání. Kompaktní taxonomie, fenomenologie, klinický obraz, etické scaffolding."
+description = "Kapitola 10 sekce 05 — narativní expozice transkonceptuálních mechanismů, pátého a finálního ultramárního režimu (EA-5.5.1 až 5.5.30)."
 weight = 10
 insert_anchor_links = "right"
 

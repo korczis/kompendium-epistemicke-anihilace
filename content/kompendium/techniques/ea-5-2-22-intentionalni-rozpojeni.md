@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.22 Intencionální rozpojení"
-description = "Detailní per-technique článek: technika intencionálního rozpojení — destrukce noeticko-noematické korelace, kde akty vědomí ztrácejí svůj předmětný korelát. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika intencionálního rozpojení — destrukce noeticko-noematické korelace, kde akty vědomí ztrácejí svůj předmětný korelát."
 weight = 5222
 insert_anchor_links = "right"
 

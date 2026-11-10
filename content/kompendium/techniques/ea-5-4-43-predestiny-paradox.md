@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.43 Paradox předurčení"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že každá volba je předurčena, ale subjekt je za ni odpovědný. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že každá volba je předurčena, ale subjekt je za ni odpovědný."
 weight = 5443
 insert_anchor_links = "right"
 

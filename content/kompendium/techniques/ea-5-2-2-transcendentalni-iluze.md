@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.2 Transcendentální iluze"
-description = "Detailní per-technique článek: technika transcendentální iluze — falešný pocit překračování epistemických limitů vytvořený inscenovanou pseudo-transcendencí. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika transcendentální iluze — falešný pocit překračování epistemických limitů vytvořený inscenovanou pseudo-transcendencí."
 weight = 522
 insert_anchor_links = "right"
 

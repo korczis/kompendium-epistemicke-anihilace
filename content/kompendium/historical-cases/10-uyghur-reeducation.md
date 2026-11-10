@@ -5,6 +5,9 @@ description = "Sin-ťiang od roku 2017: hromadné zadržování Ujgurů a dalš�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

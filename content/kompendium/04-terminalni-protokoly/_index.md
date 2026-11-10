@@ -1,6 +1,6 @@
 +++
 title = "04. Terminální protokoly"
-description = "Komplexní sekvence vedoucí k systematické epistemické destrukci — kvalitativně odlišná kategorie fenoménů zahrnující extrémní výcvikové sekvence a specializované bezpečnostní protokoly pro jejich rigorózní studium."
+description = "Komplexní sekvence vedoucí k systematické epistemické destrukci — kvalitativně odlišná kategorie fenoménů zahrnující extrémní výcvikové sekvence a specializované bezpečnostní protokoly pro jejich…"
 weight = 4
 sort_by = "weight"
 template = "section.html"

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.26 Schemata rozpad"
-description = "Detailní per-technique článek: technika rozpadu schémat — destrukce kantovských schémat, jež zprostředkovávají mezi kategoriemi rozvažování a smyslovými jevy. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika rozpadu schémat — destrukce kantovských schémat, jež zprostředkovávají mezi kategoriemi rozvažování a smyslovými jevy."
 weight = 5226
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.3 Tarsky diagonalizace pravdy"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: konstrukce subjektovy věty, která tvrdí svou vlastní nepravdivost v subjektově vlastním jazyce. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: konstrukce subjektovy věty, která tvrdí svou vlastní nepravdivost v subjektově vlastním jazyce."
 weight = 5403
 insert_anchor_links = "right"
 

@@ -5,6 +5,9 @@ description = "Davidiáni Davida Koreshe a obležení u Waco v roce 1993: apokal
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

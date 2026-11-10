@@ -46,6 +46,10 @@ if python3 scripts/check-ia.py >"$work/ia.out" 2>&1; then
 fi
 python3 scripts/check-ia.py --list description | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
 python3 scripts/check-ia.py --list tags | grep -x 'content/kompendium/case-01-fixture/seeded.md' >/dev/null
+# The normalizer infers the missing tags from where the page is, and a second run is a no-op.
+python3 scripts/normalize-front-matter.py content/kompendium/case-01-fixture >/dev/null
+grep -x 'tags = \["kompendium", "case-01-fixture"\]' content/kompendium/case-01-fixture/seeded.md >/dev/null
+python3 scripts/normalize-front-matter.py --check content/kompendium/case-01-fixture >/dev/null
 rm -r content/kompendium/case-01-fixture
 
 # A term added to the index of terms without a page of its own is refused as term-page.

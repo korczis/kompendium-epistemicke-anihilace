@@ -1,6 +1,6 @@
 +++
 title = "EA-8.3.3 Philosophical Canon"
-description = "Referenční zdroj — Filosofická literatura kritická pro EA frameworku — autonomy, manipulation, epistemic injustice, totalitarianism, dignity. Předkladatelé teoretických nástrojů pro normativní hodnocení EA technik."
+description = "Referenční zdroj — Filosofická literatura kritická pro EA frameworku — autonomy, manipulation, epistemic injustice, totalitarianism, dignity."
 weight = 833
 insert_anchor_links = "right"
 

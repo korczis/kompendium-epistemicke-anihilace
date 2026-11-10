@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.60 Konvergentní meta-paradox"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: terminální stav: všechny předchozí paradoxy aktivovány současně, každý zesilující ostatní. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: terminální stav: všechny předchozí paradoxy aktivovány současně, každý zesilující ostatní."
 weight = 5460
 insert_anchor_links = "right"
 

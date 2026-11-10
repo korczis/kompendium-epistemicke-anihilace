@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.28 Iterace trolejového paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: opakované etické dilemy bez stabilního normativního řešení, kde každé řešení falsifikuje předchozí. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: opakované etické dilemy bez stabilního normativního řešení, kde každé řešení falsifikuje předchozí."
 weight = 5428
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.1 Epistemická kanibalizace"
-description = "Detailní per-technique článek: technika epistemické kanibalizace — postupné pohlcování a reframování subjektovy vlastní epistemické produkce manipulátorem, vedoucí k erozi epistemické identity zevnitř. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika epistemické kanibalizace — postupné pohlcování a reframování subjektovy vlastní epistemické produkce manipulátorem."
 weight = 511
 insert_anchor_links = "right"
 

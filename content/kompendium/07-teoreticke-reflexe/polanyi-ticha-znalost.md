@@ -1,6 +1,6 @@
 +++
 title = "7.13 Polanyi: Tichá znalost a osobní poznání"
-description = "Michael Polanyi a kategorie tiché znalosti (tacit knowledge), osobního poznání (personal knowledge) a indwellingu jako dimenze epistemické rezilience, již nelze plně artikulovat — a jež je proto specificky zranitelná vůči EA technikám."
+description = "Michael Polanyi a kategorie tiché znalosti (tacit knowledge), osobního poznání (personal knowledge) a indwellingu jako dimenze epistemické rezilience, již nelze plně artikulovat."
 weight = 13
 insert_anchor_links = "right"
 

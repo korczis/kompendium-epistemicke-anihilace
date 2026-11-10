@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.6 Transcendentální rekurzivita"
-description = "Detailní per-technique článek: technika transcendentální rekurzivity — kantovské kategorie použity proti sobě samým rekurzivně, dokud nepřestávají organizovat fenomény. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika transcendentální rekurzivity — kantovské kategorie použity proti sobě samým rekurzivně, dokud nepřestávají organizovat fenomény."
 weight = 526
 insert_anchor_links = "right"
 

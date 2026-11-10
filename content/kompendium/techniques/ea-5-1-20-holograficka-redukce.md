@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.20 Holografická redukce"
-description = "Detailní per-technique článek: technika holografické redukce — vynucení interpretace, podle níž každá část zkušenosti obsahuje kompletní vzorec celku, eliminující perspektivální diferenciaci a produkující pseudo-totalitní pohled na svět."
+description = "Detailní per-technique článek: technika holografické redukce — vynucení interpretace, podle níž každá část zkušenosti obsahuje kompletní vzorec celku."
 weight = 520
 insert_anchor_links = "right"
 

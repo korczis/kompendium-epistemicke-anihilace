@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.40 Past retrokauzality"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že minulost lze přepsat budoucí interpretací — paradox Newcomb-style retrocausation. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že minulost lze přepsat budoucí interpretací — paradox Newcomb-style retrocausation."
 weight = 5440
 insert_anchor_links = "right"
 

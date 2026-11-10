@@ -1,6 +1,6 @@
 +++
 title = "EA-8.2.7 DSM-5-TR Trauma & Stressor-Related Disorders"
-description = "Referenční zdroj — DSM-5-TR (APA 2022) klasifikace trauma- a stressor-related disorders: PTSD, ASD, Adjustment Disorders, Reactive Attachment Disorder, Disinhibited Social Engagement Disorder, Persistent Complex Bereavement."
+description = "Referenční zdroj — DSM-5-TR (APA 2022) klasifikace trauma- a stressor-related disorders: PTSD, ASD, Adjustment Disorders, Reactive Attachment Disorder, Disinhibited Social Engagement Disorder."
 weight = 827
 insert_anchor_links = "right"
 

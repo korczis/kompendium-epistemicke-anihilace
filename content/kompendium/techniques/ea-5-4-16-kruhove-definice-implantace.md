@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.16 Implantace kruhových definic"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjekt přijímá definice klíčových pojmů, které jsou vzájemně cyklické (A přes B, B přes C, C přes A). Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: subjekt přijímá definice klíčových pojmů, které jsou vzájemně cyklické (A přes B, B přes C, C přes A)."
 weight = 5416
 insert_anchor_links = "right"
 

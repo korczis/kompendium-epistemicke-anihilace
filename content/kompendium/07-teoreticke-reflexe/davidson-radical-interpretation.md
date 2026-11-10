@@ -1,6 +1,6 @@
 +++
 title = "7.25 Davidson: Radikální interpretace a princip charity"
-description = "Donald Davidson a teorie radikální interpretace, princip charity (charitable interpretation), triangulace — rámec pro pochopení interpretačních předpokladů, na něž útočí EA techniky operující skrze systematickou nedůvěru."
+description = "Donald Davidson a teorie radikální interpretace, princip charity (charitable interpretation), triangulace."
 weight = 25
 insert_anchor_links = "right"
 

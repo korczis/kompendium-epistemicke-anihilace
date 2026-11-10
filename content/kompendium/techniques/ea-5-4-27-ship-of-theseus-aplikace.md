@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.27 Aplikace lodi Theseovy"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce nejistoty o subjektově diachronní identitě skrze postupnou výměnu mentálních „částí“. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce nejistoty o subjektově diachronní identitě skrze postupnou výměnu mentálních „částí“."
 weight = 5427
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "7.7 EA v digitálním věku — algoritmy, AI, generativní modely, deepfakes"
-description = "Epistemická anihilace v digitálním věku — algoritmické bubliny, AI-mediated manipulace, generativní modely a syntetická média, deepfakes a ontologická eroze, Harariho dataismus, platformový kapitalismus, infrastrukturní zranitelnosti."
+description = "Epistemická anihilace v digitálním věku — algoritmické bubliny, AI-mediated manipulace, generativní modely a syntetická média, deepfakes a ontologická eroze, Harariho dataismus."
 weight = 7
 insert_anchor_links = "right"
 

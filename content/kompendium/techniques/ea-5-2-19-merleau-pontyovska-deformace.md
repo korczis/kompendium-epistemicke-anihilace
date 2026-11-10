@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.19 Merleau-Pontyovská deformace"
-description = "Detailní per-technique článek: technika merleau-pontyovské deformace — destrukce tělesné intencionality (corps propre) a chiazmatické struktury vnímání. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika merleau-pontyovské deformace — destrukce tělesné intencionality (corps propre) a chiazmatické struktury vnímání."
 weight = 5219
 insert_anchor_links = "right"
 

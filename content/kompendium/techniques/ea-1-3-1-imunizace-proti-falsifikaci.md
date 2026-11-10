@@ -1,6 +1,6 @@
 +++
 title = "EA-1.3.1 Imunizace proti falsifikaci"
-description = "Detailní per-technique článek: imunizace proti falsifikaci — systematická modifikace teorie tak, aby byla resistentní vůči potenciální falsifikující evidenci, při zachování zdání empirické testovatelnosti."
+description = "Detailní per-technique článek: imunizace proti falsifikaci — systematická modifikace teorie tak, aby byla resistentní vůči potenciální falsifikující evidenci."
 weight = 131
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "7.12 Feyerabend: Anti-Method a epistemický anarchismus"
-description = "Paul Feyerabendova teze 'anything goes', kritika metodologického monismu a epistemický anarchismus jako produktivní výzva pro taxonomii EA — kde se končí legitimní pluralismus a začíná manipulativní libovůle."
+description = "Paul Feyerabendova teze 'anything goes', kritika metodologického monismu a epistemický anarchismus jako produktivní výzva pro taxonomii EA."
 weight = 12
 insert_anchor_links = "right"
 

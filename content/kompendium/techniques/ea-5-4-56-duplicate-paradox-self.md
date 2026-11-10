@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.56 Paradox duplikátu sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace narativu o vlastním duplikátu (ať už fyzickém, mentálním, virtuálním) — který „já“ je primární?. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace narativu o vlastním duplikátu (ať už fyzickém, mentálním, virtuálním) — který „já“ je primární?."
 weight = 5456
 insert_anchor_links = "right"
 

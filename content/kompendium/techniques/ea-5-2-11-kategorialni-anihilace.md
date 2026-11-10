@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.11 Kategoriální anihilace"
-description = "Detailní per-technique článek: technika kategoriální anihilace — destrukce kantovských rozumových kategorií, jimiž subjekt strukturuje zkušenost. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika kategoriální anihilace — destrukce kantovských rozumových kategorií, jimiž subjekt strukturuje zkušenost."
 weight = 5211
 insert_anchor_links = "right"
 

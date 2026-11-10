@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.17 Husserlovská redukce — perverze"
-description = "Detailní per-technique článek: technika perverze husserlovské fenomenologické redukce — zneužití epoché ke generaci derealizace místo k vyjasnění intencionálních struktur. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika perverze husserlovské fenomenologické redukce — zneužití epoché ke generaci derealizace místo k vyjasnění intencionálních struktur."
 weight = 5217
 insert_anchor_links = "right"
 

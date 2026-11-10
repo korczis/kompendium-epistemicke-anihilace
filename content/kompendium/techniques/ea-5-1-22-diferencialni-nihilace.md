@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.22 Diferenciální nihilace"
-description = "Detailní per-technique článek: technika diferenciální nihilace — systematické vymazávání relevantních distinkcí v subjektově myšlení, kolaps jemně členěných kategorií do hrubších a posléze do žádných, produkující kognitivní zploštění. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika diferenciální nihilace — systematické vymazávání relevantních distinkcí v subjektově myšlení."
 weight = 522
 insert_anchor_links = "right"
 

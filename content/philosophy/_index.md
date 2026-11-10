@@ -1,6 +1,6 @@
 +++
 title = "Philosophical Foundations & Licensing Philosophy"
-description = "Explore the philosophical underpinnings of the Prismatic Platform, including intellectual sovereignty, epistemic frameworks, and the General Honest License (GHL) as a revolutionary approach to software licensing and code ethics"
+description = "Explore the philosophical underpinnings of the Prismatic Platform, including intellectual sovereignty, epistemic frameworks."
 weight = 5
 sort_by = "weight"
 template = "philosophy/list.html"

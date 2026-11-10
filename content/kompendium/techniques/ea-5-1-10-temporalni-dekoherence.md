@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.10 Temporální dekoherence"
-description = "Detailní per-technique článek: ultramární technika temporální dekoherence — systematické narušení časové integrace zkušenosti, znemožňující subjektu udržovat koherentní narativ napříč minulostí, přítomností a budoucností. Operační modus, fenomenologie, detekční markery, neutralizace, vztahy."
+description = "Detailní per-technique článek: ultramární technika temporální dekoherence — systematické narušení časové integrace zkušenosti, znemožňující subjektu udržovat koherentní narativ napříč minulostí."
 weight = 5110
 insert_anchor_links = "right"
 

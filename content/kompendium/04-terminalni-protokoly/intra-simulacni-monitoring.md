@@ -1,6 +1,6 @@
 +++
 title = "Intra-simulační monitoring"
-description = "Strukturální rámec průběžného bezpečnostního monitoringu během intenzivních simulací — vícekanálový dohled (somatický, behaviorální, afektivní, sociometrický), eskalační prahy, role klinického supervizora, safe-word infrastruktura, kritéria okamžitého ukončení, audit-trail."
+description = "Strukturální rámec průběžného bezpečnostního monitoringu během intenzivních simulací."
 weight = 9
 insert_anchor_links = "right"
 

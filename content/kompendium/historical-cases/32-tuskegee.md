@@ -5,6 +5,9 @@ description = "USA 1932–1972: Veřejná zdravotní služba sledovala neléčen
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

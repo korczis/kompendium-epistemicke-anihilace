@@ -1,6 +1,6 @@
 +++
 title = "Boundary Ethics & Protection Philosophy"
-description = "The moral imperative of technical, legal, and conceptual boundaries in software development - how constraints preserve semantic integrity, protect authorial intent, and enable authentic creative expression."
+description = "The moral imperative of technical, legal, and conceptual boundaries in software development - how constraints preserve semantic integrity, protect authorial intent."
 weight = 20
 
 [taxonomies]

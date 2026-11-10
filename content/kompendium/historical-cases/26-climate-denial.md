@@ -5,6 +5,9 @@ description = "Organizované zpochybňování klimatické vědy od konce 80. let
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "disinformation"]
+
 [extra]
 category = "Disinformation"
 type = "historical-case"

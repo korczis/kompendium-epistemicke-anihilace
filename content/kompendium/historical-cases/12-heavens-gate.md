@@ -5,6 +5,9 @@ description = "Skupina Marshalla Applewhitea a Bonnie Nettlesové a smrt 39 čle
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

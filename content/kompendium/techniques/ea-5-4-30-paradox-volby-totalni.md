@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.30 Paradox totální volby"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace přesvědčení, že každá volba současně otvírá a uzavírá nekonečno alternativ. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace přesvědčení, že každá volba současně otvírá a uzavírá nekonečno alternativ."
 weight = 5430
 insert_anchor_links = "right"
 

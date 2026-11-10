@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.25 Singulární narativní kolaps"
-description = "Detailní per-technique článek: technika singulárního narativního kolapsu — vynucené sloučení mnohočetných narativních linií subjektova života do jediného dominantního narativu dodaného manipulátorem, eliminace perspektivální plurality."
+description = "Detailní per-technique článek: technika singulárního narativního kolapsu — vynucené sloučení mnohočetných narativních linií subjektova života do jediného dominantního narativu dodaného manipulátorem."
 weight = 525
 insert_anchor_links = "right"
 

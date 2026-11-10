@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.57 Paradox větvení sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace narativu mnoho-světové větvení vlastní biografie. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: implantace narativu mnoho-světové větvení vlastní biografie."
 weight = 5457
 insert_anchor_links = "right"
 

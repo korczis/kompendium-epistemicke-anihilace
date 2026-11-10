@@ -1,6 +1,6 @@
 +++
 title = "7.14 Heidegger: Být-ve-světě a struktura starosti"
-description = "Martin Heidegger a fundamentální ontologie Bytí a času — In-der-Welt-sein, Sorge, Verfallenheit a Eigentlichkeit jako rámec pro analýzu strukturálních zlomů, jež EA techniky vyvolávají v existenciálním pobývání subjektu."
+description = "Martin Heidegger a fundamentální ontologie Bytí a času — In-der-Welt-sein, Sorge, Verfallenheit a Eigentlichkeit jako rámec pro analýzu strukturálních zlomů."
 weight = 14
 insert_anchor_links = "right"
 

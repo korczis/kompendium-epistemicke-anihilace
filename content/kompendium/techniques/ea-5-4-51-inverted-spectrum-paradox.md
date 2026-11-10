@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.51 Paradox inverzního spektra"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: klasický paradox inverzního spektra aplikovaný na subjektovy emocionální kvalia. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: klasický paradox inverzního spektra aplikovaný na subjektovy emocionální kvalia."
 weight = 5451
 insert_anchor_links = "right"
 

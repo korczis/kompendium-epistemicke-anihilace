@@ -1,6 +1,6 @@
 +++
 title = "Ultimátní výcvikový scénář — strukturální analýza terminální koncentrace"
-description = "Hloubková analýza ultimátního výcvikového scénáře jako vrcholného uzlu pětistupňové progresivní sekvence — strukturální anatomie, mechanismy hraničního přetížení, signální profil katastrofického selhání, srovnání s vojenskými, klinickými a intelligence ekvivalenty, přísné etické limity a kritéria předčasného ukončení."
+description = "Hloubková analýza ultimátního výcvikového scénáře jako vrcholného uzlu pětistupňové progresivní sekvence."
 weight = 3
 insert_anchor_links = "right"
 

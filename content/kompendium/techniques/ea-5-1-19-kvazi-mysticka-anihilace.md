@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.19 Kvazi-mystická anihilace"
-description = "Detailní per-technique článek: technika kvazi-mystické anihilace — imitace strukturálních rysů mystické zkušenosti pro deaktivaci racionálního hodnocení a navození pseudo-transcendence, která je ve skutečnosti epistemickým kolapsem."
+description = "Detailní per-technique článek: technika kvazi-mystické anihilace — imitace strukturálních rysů mystické zkušenosti pro deaktivaci racionálního hodnocení a navození pseudo-transcendence."
 weight = 519
 insert_anchor_links = "right"
 

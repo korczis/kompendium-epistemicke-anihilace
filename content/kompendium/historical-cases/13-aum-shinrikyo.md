@@ -5,6 +5,9 @@ description = "Apokalyptické hnutí Šókó Asahary a sarinový útok v tokijsk
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

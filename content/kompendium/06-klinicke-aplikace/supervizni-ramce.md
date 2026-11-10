@@ -1,6 +1,6 @@
 +++
 title = "6.6 Supervizní rámce v klinické praxi EA"
-description = "Systematický přehled supervizních rámců pro klinickou praxi v doméně epistemické anihilace — kompetenční profil supervizora, struktura supervizní hodiny, typologie supervizních modalit (individuální/skupinová/peer/intervizní), eskalační protokoly, etické závazky a kritéria pro odmítnutí supervize, indikátory selhání supervize, integrace s metakognitivními kotvami a vzdělávací architekturou."
+description = "Systematický přehled supervizních rámců pro klinickou praxi v doméně epistemické anihilace."
 weight = 6
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.25 Kategoriální mlha"
-description = "Detailní per-technique článek: technika kategoriální mlhy — partial degradace kategoriální distinktnosti, kdy kategorie nezanikají, ale ztrácejí ostrost. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika kategoriální mlhy — partial degradace kategoriální distinktnosti, kdy kategorie nezanikají, ale ztrácejí ostrost."
 weight = 5225
 insert_anchor_links = "right"
 

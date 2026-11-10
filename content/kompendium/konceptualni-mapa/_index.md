@@ -1,6 +1,6 @@
 +++
 title = "Konceptuální mapa epistemické anihilace"
-description = "Vizuální navigační síť klíčových pojmů, vztahů a doménových přechodů v doktríně epistemické anihilace. Most mezi atomickým slovníkem (Glossary, 1290+ termínů) a strukturní taxonomií kompendia (sekce 01–08)."
+description = "Vizuální navigační síť klíčových pojmů, vztahů a doménových přechodů v doktríně epistemické anihilace."
 weight = 99
 sort_by = "weight"
 template = "section.html"

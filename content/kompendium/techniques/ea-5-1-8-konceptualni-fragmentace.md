@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.8 Konceptuální fragmentace"
-description = "Detailní per-technique článek: ultramární technika konceptuální fragmentace — systematický rozklad dříve integrovaných pojmových struktur na nepropojené fragmenty, znemožňující subjektovi sestavení holistického porozumění. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: ultramární technika konceptuální fragmentace — systematický rozklad dříve integrovaných pojmových struktur na nepropojené fragmenty."
 weight = 518
 insert_anchor_links = "right"
 

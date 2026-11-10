@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.3 Reflexivní paradoxie"
-description = "Detailní per-technique článek: technika reflexivní paradoxie — indukce paradoxních struktur do subjektova sebereflexivního procesu, vedoucí k metakognitivní paralýze. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika reflexivní paradoxie — indukce paradoxních struktur do subjektova sebereflexivního procesu, vedoucí k metakognitivní paralýze."
 weight = 513
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.18 Solipsistická dekompozice"
-description = "Detailní per-technique článek: technika solipsistické dekompozice — systematická izolace epistemického systému subjektu od vnějších referentů, produkující solipsistické uzavření, kde jen vlastní myšlenky subjektu jsou reálné. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika solipsistické dekompozice — systematická izolace epistemického systému subjektu od vnějších referentů, produkující solipsistické uzavření."
 weight = 518
 insert_anchor_links = "right"
 

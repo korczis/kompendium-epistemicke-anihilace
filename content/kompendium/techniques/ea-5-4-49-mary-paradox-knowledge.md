@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.49 Mary paradox poznání"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Jacksonovo Mary aplikováno na subjektovy „chybějící“ první-osobní zkušenosti. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Jacksonovo Mary aplikováno na subjektovy „chybějící“ první-osobní zkušenosti."
 weight = 5449
 insert_anchor_links = "right"
 

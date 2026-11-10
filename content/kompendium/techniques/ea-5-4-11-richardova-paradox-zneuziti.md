@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.11 Zneužití Richardova paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Richardův paradox o definovatelných číslech aplikovaný na množinu subjektových definovatelných motivací. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Richardův paradox o definovatelných číslech aplikovaný na množinu subjektových definovatelných motivací."
 weight = 5411
 insert_anchor_links = "right"
 

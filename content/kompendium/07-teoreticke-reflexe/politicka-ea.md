@@ -1,6 +1,6 @@
 +++
 title = "7.8 Politická a ideologická EA — totalitní systémy, propaganda, populismus"
-description = "Politické a ideologické formy epistemické anihilace — totalitní režimy (Arendt, Havel), klasická a moderní propaganda (Ellul, Stanley), populismus a post-pravdivá politika, hybridní informační operace, institucionální dimenze EA."
+description = "Politické a ideologické formy epistemické anihilace — totalitní režimy (Arendt, Havel), klasická a moderní propaganda (Ellul, Stanley), populismus a post-pravdivá politika."
 weight = 8
 insert_anchor_links = "right"
 

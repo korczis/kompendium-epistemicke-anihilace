@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.9 Aplikace Cantorovy diagonalizace"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Cantorův diagonální argument vůči subjektově domnělé „úplné introspektivní mapě“. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Cantorův diagonální argument vůči subjektově domnělé „úplné introspektivní mapě“."
 weight = 5409
 insert_anchor_links = "right"
 

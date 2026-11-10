@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.18 Heideggerovské rozklady"
-description = "Detailní per-technique článek: technika heideggerovských rozkladů — destrukce existenciálních struktur pobytu (Da-sein) skrze pervertovanou autenticitu a manipulaci se Sein-zum-Tode. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika heideggerovských rozkladů — destrukce existenciálních struktur pobytu (Da-sein) skrze pervertovanou autenticitu a manipulaci se Sein-zum-Tode."
 weight = 5218
 insert_anchor_links = "right"
 

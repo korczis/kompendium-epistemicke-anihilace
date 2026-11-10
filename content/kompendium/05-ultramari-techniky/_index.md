@@ -1,6 +1,6 @@
 +++
 title = "05. Ultramární techniky fundamentální dekonstrukce"
-description = "Sekce 05 — pět kapitol (6–10), 150 ultramárních technik epistemické anihilace seskupených do pěti operačních režimů: epistemická singularita, metatranscendentální anihilace, hypertransformativní protokoly, paradoxální metaanihilační protokoly a transkonceptuální mechanismy. Přístupová úroveň L3–L4, IRB protokol, etická supervize, výhradně pro kvalifikované výzkumníky."
+description = "Sekce 05 — pět kapitol (6–10), 150 ultramárních technik epistemické anihilace seskupených do pěti operačních režimů: epistemická singularita, metatranscendentální anihilace."
 weight = 5
 sort_by = "weight"
 template = "section.html"

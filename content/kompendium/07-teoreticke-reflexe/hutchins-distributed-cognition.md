@@ -1,6 +1,6 @@
 +++
 title = "7.48 Hutchins: Distribuovaná kognice a kulturní artefakty"
-description = "Edwin Hutchins a teorie distribuované kognice (distributed cognition), Cognition in the Wild, kulturní artefakty jako kognitivní moduly — rámec pro pochopení EA jako útoku na distribuované kognitivní systémy."
+description = "Edwin Hutchins a teorie distribuované kognice (distributed cognition), Cognition in the Wild, kulturní artefakty jako kognitivní moduly."
 weight = 48
 insert_anchor_links = "right"
 

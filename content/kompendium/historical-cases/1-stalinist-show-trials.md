@@ -5,6 +5,9 @@ description = "Moskevské procesy 1936–1938: vynucená přiznání bolševick�
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

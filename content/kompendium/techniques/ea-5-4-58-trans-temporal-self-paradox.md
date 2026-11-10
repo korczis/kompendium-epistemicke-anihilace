@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.58 Trans-temporální paradox sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že „minulé já“ a „budoucí já“ jsou ontologicky odlišné subjekty. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce přesvědčení, že „minulé já“ a „budoucí já“ jsou ontologicky odlišné subjekty."
 weight = 5458
 insert_anchor_links = "right"
 

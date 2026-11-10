@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.21 Subjekt-objekt fúzia"
-description = "Detailní per-technique článek: technika subjekt-objekt fúzie — patologické splynutí subjekt-objektové struktury, kde hranice mezi vnímajícím a vnímaným kolabuje. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika subjekt-objekt fúzie — patologické splynutí subjekt-objektové struktury, kde hranice mezi vnímajícím a vnímaným kolabuje."
 weight = 5221
 insert_anchor_links = "right"
 

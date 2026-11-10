@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.23 Aplikace modálních paradoxů"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: paradoxy nutnosti a možnosti aplikované na subjektova vlastní rozhodnutí. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: paradoxy nutnosti a možnosti aplikované na subjektova vlastní rozhodnutí."
 weight = 5423
 insert_anchor_links = "right"
 

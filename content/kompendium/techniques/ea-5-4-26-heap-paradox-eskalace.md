@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.26 Eskalace paradoxu hromady"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: souběžná aplikace soritu na vícero domén (identita + hodnoty + emoce + paměť). Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: souběžná aplikace soritu na vícero domén (identita + hodnoty + emoce + paměť)."
 weight = 5426
 insert_anchor_links = "right"
 

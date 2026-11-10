@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.29 Implantace Newcombova paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Newcombův paradox racionality (jednorázové vs. dominantní strategie) aplikovaný na subjektova rozhodnutí. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Newcombův paradox racionality (jednorázové vs. dominantní strategie) aplikovaný na subjektova rozhodnutí."
 weight = 5429
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "3.3 Pokročilá edukativní implementace"
-description = "Strukturované metodologické přístupy pro implementaci poznatků o epistemické anihilaci v edukativním kontextu — třífázový tréninkový protokol, supervizorské kompetence, certifikační požadavky, kontraindikační rámec, integrační cvičení, evaluační metriky a komparativní analýza s analogickými pedagogickými modely (CBT supervize, DBT trénink, etika v medicíně)."
+description = "Strukturované metodologické přístupy pro implementaci poznatků o epistemické anihilaci v edukativním kontextu."
 weight = 3
 insert_anchor_links = "right"
 

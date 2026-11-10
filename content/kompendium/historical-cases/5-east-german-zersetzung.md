@@ -5,6 +5,9 @@ description = "NDR v 70. a 80. letech: Stasi nahrazovala zatýkání skrytým �
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "totalitarian"]
+
 [extra]
 category = "Totalitarian"
 type = "historical-case"

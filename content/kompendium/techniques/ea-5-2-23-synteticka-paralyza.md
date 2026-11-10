@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.23 Syntetická paralýza"
-description = "Detailní per-technique článek: technika syntetické paralýzy — destrukce schopnosti vytvářet syntetické a posteriori soudy spojováním kategorií se smyslovým obsahem. Operační modus, fenomenologie, detekční markery, neutralizace."
+description = "Detailní per-technique článek: technika syntetické paralýzy — destrukce schopnosti vytvářet syntetické a posteriori soudy spojováním kategorií se smyslovým obsahem."
 weight = 5223
 insert_anchor_links = "right"
 

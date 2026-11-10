@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.35 Paradox neočekávaného testu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: klasický paradox neočekávaného testu aplikovaný na subjektovy „prediktivní“ obavy. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: klasický paradox neočekávaného testu aplikovaný na subjektovy „prediktivní“ obavy."
 weight = 5435
 insert_anchor_links = "right"
 

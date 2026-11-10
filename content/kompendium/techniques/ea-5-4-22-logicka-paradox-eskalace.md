@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.22 Eskalace logických paradoxů"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: iterativní zesilování paradoxů: každý vyřešený paradox je nahrazen silnější verzí. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: iterativní zesilování paradoxů: každý vyřešený paradox je nahrazen silnější verzí."
 weight = 5422
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.8 Perspektivistický kolaps"
-description = "Detailní per-technique článek: technika perspektivistického kolapsu — ztráta schopnosti zaujímat jakoukoli perspektivu vůbec, nejen záměny jedné za druhou. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika perspektivistického kolapsu — ztráta schopnosti zaujímat jakoukoli perspektivu vůbec, nejen záměny jedné za druhou."
 weight = 528
 insert_anchor_links = "right"
 

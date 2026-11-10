@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 7: Metatranscendentální anihilace"
-description = "Narativní úvod do třiceti technik metatranscendentální anihilace (EA-5.2.1 až EA-5.2.30) — útoky na transcendentální podmínky možnosti poznání samé. Mechanismy, fenomenologie, odlišení od epistemické singularity, kompaktní taxonomie technik 11–30."
+description = "Narativní úvod do třiceti technik metatranscendentální anihilace (EA-5.2.1 až EA-5.2.30) — útoky na transcendentální podmínky možnosti poznání samé."
 weight = 7
 sort_by = "weight"
 insert_anchor_links = "right"

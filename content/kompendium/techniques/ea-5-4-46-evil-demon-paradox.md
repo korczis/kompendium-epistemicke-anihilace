@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.46 Paradox zlého démona"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Descartova hypotéza zlého démona aplikovaná na subjektovo bdělé poznání. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Descartova hypotéza zlého démona aplikovaná na subjektovo bdělé poznání."
 weight = 5446
 insert_anchor_links = "right"
 

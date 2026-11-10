@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.4 Apriorní saturace"
-description = "Detailní per-technique článek: technika apriorní saturace — falešné syntetické apriori vstupované do kognitivní struktury blokují přístup k empirické revizi. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika apriorní saturace — falešné syntetické apriori vstupované do kognitivní struktury blokují přístup k empirické revizi."
 weight = 524
 insert_anchor_links = "right"
 

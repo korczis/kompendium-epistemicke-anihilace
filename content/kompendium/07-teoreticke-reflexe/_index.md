@@ -1,6 +1,6 @@
 +++
 title = "7. Teoretické a metakonceptuální reflexe"
-description = "Sekce 07 — filozofické, sociologické a empirické rámce epistemické a kognitivní anihilace. Foucault, Adorno, Sloterdijk, Habermas, Goldman, Fricker, Lyotard, Baudrillard, Derrida a empirická literatura epistemického traumatu."
+description = "Sekce 07 — filozofické, sociologické a empirické rámce epistemické a kognitivní anihilace."
 weight = 0
 sort_by = "weight"
 template = "section.html"

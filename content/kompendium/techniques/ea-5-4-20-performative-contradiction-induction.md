@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.20 Indukce performativního rozporu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: vyvolání situace, kdy subjektovo *jednání* vyvrací subjektovo *tvrzení* (či opačně). Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: vyvolání situace, kdy subjektovo *jednání* vyvrací subjektovo *tvrzení* (či opačně)."
 weight = 5420
 insert_anchor_links = "right"
 

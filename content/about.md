@@ -3,6 +3,9 @@ title = "O projektu"
 description = "Kdo kompendium napsal, odkud tato edice pochází, jak je sestavena a pod jakou licencí ji lze používat."
 weight = 910
 
+[taxonomies]
+tags = ["kompendium"]
+
 [extra]
 toc = true
 +++

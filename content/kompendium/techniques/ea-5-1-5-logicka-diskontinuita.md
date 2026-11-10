@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.5 Logická diskontinuita"
-description = "Detailní per-technique článek: technika logické diskontinuity — indukovaná neschopnost udržet logické řetězce přes více inferenciálních kroků, kdy každý krok působí v izolaci validně, avšak řetězec jako celek nekomponuje. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika logické diskontinuity — indukovaná neschopnost udržet logické řetězce přes více inferenciálních kroků, kdy každý krok působí v izolaci validně."
 weight = 515
 insert_anchor_links = "right"
 

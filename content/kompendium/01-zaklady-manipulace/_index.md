@@ -1,6 +1,6 @@
 +++
 title = "Základy manipulace"
-description = "Vstupní brána do studia epistemické manipulace — propedeutický most mezi předmluvou, etickým rámcem a operativní taxonomií. Zde se ustanovuje pojmový aparát, axiomy a hraniční kritéria, která rozhodují, co ještě je legitimní přesvědčování a co už je epistemická manipulace."
+description = "Vstupní brána do studia epistemické manipulace — propedeutický most mezi předmluvou, etickým rámcem a operativní taxonomií."
 weight = 1
 sort_by = "weight"
 template = "section.html"

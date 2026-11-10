@@ -1,6 +1,6 @@
 +++
 title = "Kapitola 4: Extrémní výcviková sekvence"
-description = "Systematická analýza terminálních protokolů implementovaných v kontextu zdánlivě legitimních výcvikových programů — pětistupňová progresivní sekvence, etické limity, srovnávací analýza s vojenskou SERE, IDF Lotem, Franklovou logoterapií a DBT distress tolerance."
+description = "Systematická analýza terminálních protokolů implementovaných v kontextu zdánlivě legitimních výcvikových programů."
 weight = 1
 insert_anchor_links = "right"
 

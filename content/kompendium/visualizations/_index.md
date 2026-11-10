@@ -1,6 +1,6 @@
 +++
 title = "Interaktivní vizualizace"
-description = "Klikatelné Chart.js / Three.js / p5.js vizualizace EA taxonomie — distribuce, severity matrix, 3D graph technik, recovery trajectory, fenomenologická timeline, 2D síť, rekurzivní spirála, NABLA pipeline, simulace epistemické dezintegrace, simulace narušení pozornosti."
+description = "Klikatelné Chart.js / Three.js / p5.js vizualizace EA taxonomie — distribuce, severity matrix, 3D graph technik, recovery trajectory, fenomenologická timeline, 2D síť, rekurzivní spirála."
 weight = 90
 sort_by = "weight"
 template = "kompendium/section.html"

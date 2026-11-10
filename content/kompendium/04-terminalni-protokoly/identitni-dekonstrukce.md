@@ -1,6 +1,6 @@
 +++
 title = "Identitní dekonstrukce"
-description = "Strukturální analýza terminálního protokolu cíleného na narativní identitu, role-set a kontinuitu sebe — fáze fragmentace, derealizace, instalace alternativní identity, srovnání s kultovou konverzí, koercitivním výslechem a totalitními reedukačními programy, etické limity."
+description = "Strukturální analýza terminálního protokolu cíleného na narativní identitu, role-set a kontinuitu sebe."
 weight = 5
 insert_anchor_links = "right"
 

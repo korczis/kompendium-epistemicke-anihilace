@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.5 Wittgensteinovský rozklad pravidla"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce paradoxu následování pravidla: každé pravidlo lze interpretovat tak, aby vyhovovalo libovolné aplikaci. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: indukce paradoxu následování pravidla: každé pravidlo lze interpretovat tak, aby vyhovovalo libovolné aplikaci."
 weight = 5405
 insert_anchor_links = "right"
 

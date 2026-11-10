@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.31 Paradox všemohoucnosti"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: scholastický paradox („může všemohoucí stvořit kámen, který nemůže zvednout?“) aplikovaný na subjektovu vůli. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: scholastický paradox („může všemohoucí stvořit kámen, který nemůže zvednout?“) aplikovaný na subjektovu vůli."
 weight = 5431
 insert_anchor_links = "right"
 

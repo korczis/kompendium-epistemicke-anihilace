@@ -1,6 +1,6 @@
 +++
 title = "Kontrolovaná rekonstituce — etický rekonstrukční protokol"
-description = "Detailní analýza šestifázového rekonstrukčního protokolu, který odlišuje legitimní extrémní výcvik od destruktivního terminálního protokolu. Mechanismy obnovy autobiografické kontinuity, role-setu, pojmového aparátu a metakognitivního monitoringu; klinické indikátory úspěšné reintegrace, role dlouhodobého follow-up."
+description = "Detailní analýza šestifázového rekonstrukčního protokolu, který odlišuje legitimní extrémní výcvik od destruktivního terminálního protokolu."
 weight = 7
 insert_anchor_links = "right"
 

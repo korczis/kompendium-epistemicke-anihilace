@@ -5,6 +5,9 @@ description = "Falun Gong mezi uzavřenou naukou a státním pronásledováním:
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "cult"]
+
 [extra]
 category = "Cult"
 type = "historical-case"

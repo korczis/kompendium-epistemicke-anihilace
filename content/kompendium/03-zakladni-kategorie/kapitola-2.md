@@ -1,6 +1,6 @@
 +++
 title = "3.2 Scénáře epistemické delegitimizace"
-description = "Komplexní scénáře A–I systematické delegitimizace epistemických kapacit a autorit jedince i skupiny — koherentní sekvence koordinovaných interakcí narušujících epistemickou integritu, s temporální analýzou pěti fází (incepční, perturbační, rekonfigurační, konsolidační, expanzivní) a strukturálními předpoklady efektivní delegitimizace."
+description = "Komplexní scénáře A–I systematické delegitimizace epistemických kapacit a autorit jedince i skupiny."
 weight = 2
 insert_anchor_links = "right"
 

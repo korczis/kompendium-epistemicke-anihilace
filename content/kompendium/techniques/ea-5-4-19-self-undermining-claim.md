@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.19 Samopodkopávající tvrzení"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: tvrzení, jehož přijetí podmiňuje jeho vlastní falsifikaci. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: tvrzení, jehož přijetí podmiňuje jeho vlastní falsifikaci."
 weight = 5419
 insert_anchor_links = "right"
 

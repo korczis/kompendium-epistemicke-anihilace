@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.6 Kategorická transgrese"
-description = "Detailní per-technique článek: technika kategorické transgrese — systematické porušování kategoriálních hranic (živé/neživé, reálné/fiktivní, já/druhý, fakt/hodnota), dokud subjekt neztratí schopnost takové základní distinkce udržet. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika kategorické transgrese — systematické porušování kategoriálních hranic (živé/neživé, reálné/fiktivní, já/druhý, fakt/hodnota)."
 weight = 516
 insert_anchor_links = "right"
 

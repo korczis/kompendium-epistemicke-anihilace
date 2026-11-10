@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.52 Paradox lodi sebe sama"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: kombinace lodi Theseovy a osobní identity: každá kognitivní operace nahrazuje „část“ subjektu. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: kombinace lodi Theseovy a osobní identity: každá kognitivní operace nahrazuje „část“ subjektu."
 weight = 5452
 insert_anchor_links = "right"
 

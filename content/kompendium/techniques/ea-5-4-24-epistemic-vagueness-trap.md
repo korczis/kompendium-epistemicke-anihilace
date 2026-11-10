@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.24 Past epistemické vágnosti"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: exploit vágnosti pojmů: každá hranice je polohovatelná v rámci penumbry. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: exploit vágnosti pojmů: každá hranice je polohovatelná v rámci penumbry."
 weight = 5424
 insert_anchor_links = "right"
 

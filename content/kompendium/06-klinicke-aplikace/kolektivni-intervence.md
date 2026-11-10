@@ -1,6 +1,6 @@
 +++
 title = "6.10 Kolektivní/institucionální intervence"
-description = "Strukturální rámec kolektivních a institucionálních intervencí v případě detekce systémových manifestací epistemické anihilace — institucionální audit, eticko-právní koordinace, supervizní rady, intervenční protokoly pro výzkumné skupiny, profesní disciplinární mechanismy, restorativní procesy, dokumentační a archivní povinnosti, koordinace s veřejným diskurzem a dlouhodobá kulturní transformace."
+description = "Strukturální rámec kolektivních a institucionálních intervencí v případě detekce systémových manifestací epistemické anihilace."
 weight = 10
 insert_anchor_links = "right"
 

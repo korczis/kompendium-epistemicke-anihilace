@@ -1,6 +1,6 @@
 +++
 title = "EA-5.2.1 Meta-epistemická inverze"
-description = "Detailní per-technique článek: technika meta-epistemické inverze — systematické převrácení epistemických standardů tak, že kvalita důkazu, koherence a reliability operují s opačným znaménkem. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie."
+description = "Detailní per-technique článek: technika meta-epistemické inverze — systematické převrácení epistemických standardů tak, že kvalita důkazu, koherence a reliability operují s opačným znaménkem."
 weight = 521
 insert_anchor_links = "right"
 

@@ -1,6 +1,6 @@
 +++
 title = "7.5 Kognitivní vědy a EA — duální systém, predikční zpracování, embodied cognition"
-description = "Integrace kognitivních věd do teorie epistemické anihilace — duální systém zpracování (Kahneman), prediktivní kódování (Clark, Friston), embodied a enaktivní kognice, neurokognitivní substrát zranitelností a obranných mechanismů."
+description = "Integrace kognitivních věd do teorie epistemické anihilace — duální systém zpracování (Kahneman), prediktivní kódování (Clark, Friston), embodied a enaktivní kognice."
 weight = 5
 insert_anchor_links = "right"
 

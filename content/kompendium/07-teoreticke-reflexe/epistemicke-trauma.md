@@ -1,6 +1,6 @@
 +++
 title = "7.2 Vztah k epistemickému traumatu — empirická literatura"
-description = "Empirická literatura epistemického traumatu — komplexní PTSD (Herman), betrayal trauma (Freyd), prediktivní zpracování (Friston), narušení modelu světa (Janoff-Bulman), neuroplasticita rekonstrukce. Most mezi taxonomií EA a klinickou aplikací."
+description = "Empirická literatura epistemického traumatu — komplexní PTSD (Herman), betrayal trauma (Freyd), prediktivní zpracování (Friston), narušení modelu světa (Janoff-Bulman), neuroplasticita rekonstrukce."
 weight = 2
 insert_anchor_links = "right"
 

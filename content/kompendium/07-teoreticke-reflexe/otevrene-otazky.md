@@ -1,6 +1,6 @@
 +++
 title = "7.9 Otevřené výzkumné otázky a budoucí směry"
-description = "Otevřené výzkumné otázky, metodologické výzvy a budoucí směry pro studium epistemické anihilace — empirická validace taxonomie, neurobiologické fundamenty, dlouhodobé následky, kolektivní subjekty, dual-use etika, mezikulturní variabilita, AI-augmentace."
+description = "Otevřené výzkumné otázky, metodologické výzvy a budoucí směry pro studium epistemické anihilace."
 weight = 9
 insert_anchor_links = "right"
 

@@ -5,6 +5,9 @@ description = "Nizozemsko 2011: sociální psycholog Diederik Stapel léta vymý
 weight = 100
 draft = false
 
+[taxonomies]
+tags = ["kompendium", "historical-cases", "academic"]
+
 [extra]
 category = "Academic"
 type = "historical-case"

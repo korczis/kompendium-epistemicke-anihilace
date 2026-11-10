@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.9 Identitní dezintegrace"
-description = "Detailní per-technique článek: ultramární technika identitní dezintegrace — systematická disrupce subjektova prožívání osobní kontinuity a narativní identity, produkující sebefragmentaci, depersonalizaci či radikální sebeodcizení. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: ultramární technika identitní dezintegrace — systematická disrupce subjektova prožívání osobní kontinuity a narativní identity, produkující sebefragmentaci."
 weight = 519
 insert_anchor_links = "right"
 

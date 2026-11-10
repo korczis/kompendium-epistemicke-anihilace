@@ -1,6 +1,6 @@
 +++
 title = "EA-5.1.17 Tautologická imploze"
-description = "Detailní per-technique článek: technika tautologické imploze — vynucení uvažování do sebe-referenčních tautologií, které se zdají smysluplné, avšak poskytují nulový epistemický obsah, čímž vyprazdňují zdánlivé znalosti subjektu. Operační modus, fenomenologie, detekční markery, neutralizace, případové studie, vztahy k jiným technikám."
+description = "Detailní per-technique článek: technika tautologické imploze — vynucení uvažování do sebe-referenčních tautologií, které se zdají smysluplné, avšak poskytují nulový epistemický obsah."
 weight = 517
 insert_anchor_links = "right"
 

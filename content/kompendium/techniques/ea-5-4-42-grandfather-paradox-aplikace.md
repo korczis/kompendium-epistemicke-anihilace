@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.42 Aplikace paradoxu dědečka"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: kauzální paradox: subjekt by zničil samotnou možnost svého rozhodnutí, kdyby udělal to, co se rozhoduje udělat. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: kauzální paradox: subjekt by zničil samotnou možnost svého rozhodnutí, kdyby udělal to, co se rozhoduje udělat."
 weight = 5442
 insert_anchor_links = "right"
 

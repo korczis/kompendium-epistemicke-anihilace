@@ -1,6 +1,6 @@
 +++
 title = "7.6 Computational epistemology a NABLA"
-description = "Computational epistemology jako disciplína — formalizace epistemických operací, Floridiho informační etika, NABLA Infinity 16-úrovňový pipeline mapovaný na epistemické operace, mechanismus obrany proti specifickým zranitelnostem epistemické anihilace."
+description = "Computational epistemology jako disciplína — formalizace epistemických operací, Floridiho informační etika, NABLA Infinity 16-úrovňový pipeline mapovaný na epistemické operace."
 weight = 6
 insert_anchor_links = "right"
 

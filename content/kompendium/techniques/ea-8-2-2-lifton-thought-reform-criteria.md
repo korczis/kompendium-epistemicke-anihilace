@@ -1,6 +1,6 @@
 +++
 title = "EA-8.2.2 Lifton Thought Reform Criteria"
-description = "Referenční zdroj — Liftonova klasická osmi-kritériová operacionalizace thought reform — milieu control, mystical manipulation, demand for purity, confession, sacred science, loaded language, doctrine over person, dispensing of existence."
+description = "Referenční zdroj — Liftonova klasická osmi-kritériová operacionalizace thought reform."
 weight = 822
 insert_anchor_links = "right"
 

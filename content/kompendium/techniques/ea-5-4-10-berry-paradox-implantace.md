@@ -1,6 +1,6 @@
 +++
 title = "EA-5.4.10 Implantace Berryho paradoxu"
-description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Berryho paradox („nejmenší přirozené číslo nedefinovatelné méně než dvanácti slovy“) přenesený na sebepopis. Operační modus, fenomenologie, detekce, neutralizace, vztahy k jiným technikám."
+description = "Per-technique článek subkategorie 5.4 Paradoxální metaanihilační protokoly: Berryho paradox („nejmenší přirozené číslo nedefinovatelné méně než dvanácti slovy“) přenesený na sebepopis."
 weight = 5410
 insert_anchor_links = "right"
 

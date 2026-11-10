@@ -2,6 +2,8 @@
 
 @source '../templates';
 @source '../static/js/site.js';
+@source '../static/js/viz';
+@source '../static/js/kompendium';
 @source '../node_modules/flowbite/lib/esm/components';
 
 @plugin 'flowbite/plugin';

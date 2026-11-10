@@ -335,16 +335,16 @@
     // Odkaz na stránku knihy jen přes její URL v grafu; uzel bez stránky odkaz nedostane.
     function link(n, text, cls) {
       if (n && n.url) {
-        var a = h('a', cls || 'text-blue-400 underline', text || n.title);
+        var a = h('a', cls || 'text-primary-700 dark:text-primary-400 underline', text || n.title);
         a.href = urlOf(n);
         return a;
       }
-      return h('span', 'text-slate-400', (text || '') + ' (bez stránky)');
+      return h('span', 'text-gray-500 dark:text-gray-400', (text || '') + ' (bez stránky)');
     }
 
     // Seznam odkazů na uzly (s volitelným popiskem uzlu).
     function list(nodes, labelOf) {
-      var ul = h('ul', 'mt-2 space-y-1 text-sm text-slate-300 list-disc list-inside');
+      var ul = h('ul', 'mt-2 space-y-1 text-sm text-gray-700 dark:text-gray-300 list-disc list-inside');
       nodes.forEach(function (n) {
         var li = h('li');
         li.appendChild(link(n, labelOf ? labelOf(n) : n.title));
@@ -383,7 +383,7 @@
     function fail(el, text) {
       if (!el) return;
       clear(el);
-      el.appendChild(h('p', 'text-slate-300 text-sm', text));
+      el.appendChild(h('p', 'text-gray-700 dark:text-gray-300 text-sm', text));
     }
 
     return {

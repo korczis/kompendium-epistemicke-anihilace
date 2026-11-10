@@ -5,22 +5,11 @@
 // („první týdny“, „roky“…) je jen popisek. Klik na pruh → protokoly fáze.
 (function () {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
   // Zdroj dat: rejstřík oddílu protokolů zotavení (cesta v grafu knihy).
   var SOURCE = 'kompendium/recovery-protocols/_index.md';
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -72,10 +61,10 @@
         function show(p) {
           if (!detail) return;
           K.clear(detail);
-          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', p.row.phase + ' fáze'));
-          detail.appendChild(K.h('p', 'text-slate-300 mt-1', 'Orientační rámec: ' + p.row.frame + (p.row.task ? ' · klíčový úkol: ' + p.row.task : '')));
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-gray-900 dark:text-white', p.row.phase + ' fáze'));
+          detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-1', 'Orientační rámec: ' + p.row.frame + (p.row.task ? ' · klíčový úkol: ' + p.row.task : '')));
           if (p.group && p.group.nodes.length) {
-            detail.appendChild(K.h('p', 'text-slate-400 text-sm mt-1', p.group.nodes.length + ' protokolů podle rejstříku:'));
+            detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 text-sm mt-1', p.group.nodes.length + ' protokolů podle rejstříku:'));
             detail.appendChild(K.list(p.group.nodes));
           } else {
             detail.appendChild(K.link(idx, '→ rejstřík protokolů zotavení'));
@@ -84,7 +73,7 @@
 
         if (detail) {
           K.clear(detail);
-          detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Kniha fáze záměrně neváže na přesné týdny či měsíce; rámec je orientační. Klepnutím na fázi zobrazíte její protokoly.'));
+          detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', 'Kniha fáze záměrně neváže na přesné týdny či měsíce; rámec je orientační. Klepnutím na fázi zobrazíte její protokoly.'));
           detail.appendChild(K.link(idx, '→ rejstřík protokolů zotavení'));
         }
 

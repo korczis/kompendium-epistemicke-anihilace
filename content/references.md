@@ -8,12 +8,12 @@ tags = ["kompendium"]
 
 [extra]
 toc = false
-entries = 4177
+entries = 4181
 +++
 
 Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotlivých stránkách kompendia a glosáře; ručně se needituje.
 
-**4177 položek**, seřazených podle autora.
+**4181 položek**, seřazených podle autora.
 
 ## A
 
@@ -510,6 +510,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Dual-use poznání](@/glossary/dual-use-poznani.md), [Informed consent (informovaný souhlas)](@/glossary/informed-consent.md), [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md) a 6 dalších</small>
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). New York: Oxford University Press.  
   <small>Citováno: [3.1 Akademické techniky intelektuální manipulace](@/kompendium/03-zakladni-kategorie/kapitola-1.md), [Operational Execution a nasazení obrany proti EA](@/kompendium/aiad-integration/operational-execution-ea-deployment.md), [Most: Předmluva → Úvod](@/kompendium/section-bridges/bridge-01-to-02-predmluva-uvod.md) a 3 dalších</small>
+- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). Oxford University Press.  
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md)</small>
 - Beauvoir, S. de (1947). *Pour une morale de l'ambiguïté*. Gallimard.  
   <small>Citováno: [7.15 Sartre: Existencialismus, špatná víra a svoboda](@/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md)</small>
 - Beauvoir, S. de (1949). *Le Deuxième Sexe*. Gallimard.  
@@ -2747,7 +2749,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University  
   <small>Citováno: [Případ 15: Zdravotnická iatrogenie](@/kompendium/case-studies/15-zdravotnicky-iatrogen.md), [Případ 29: Totalizace na umělecké škole](@/kompendium/case-studies/29-art-school-totalization.md), [Případ 34: Profesorská totalizace mladších kolegů](@/kompendium/case-studies/34-professorial-totalizace.md) a 8 dalších</small>
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.  
-  <small>Citováno: [Akademická technika](@/glossary/akademicka-technika.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md), [Dual-use poznání](@/glossary/dual-use-poznani.md) a 121 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Akademická technika](@/glossary/akademicka-technika.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md) a 122 dalších</small>
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press – k mezi, za kterou se požadavek doložení obrací proti vypovídajícím.  
   <small>Citováno: [GITL](@/glossary/gitl.md)</small>
 - Friedman, M. J., Resick, P. A., Bryant, R. A., & Brewin, C. R. (2011). Considering PTSD for  
@@ -3517,7 +3519,7 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
 - **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.  
   <small>Citováno: [Epistemická reintegrace](@/glossary/epistemicka-reintegrace.md), [Internalizovaný pachatel](@/glossary/internalizovany-pachatel.md), [Sociální izolace](@/glossary/socialni-izolace.md) a 35 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.  
-  <small>Citováno: [Coercive control (donucující kontrola)](@/glossary/coercive-control.md), [NWB](@/glossary/nwb.md), [PTSD](@/glossary/ptsd.md) a 291 dalších</small>
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [Coercive control (donucující kontrola)](@/glossary/coercive-control.md), [NWB](@/glossary/nwb.md) a 292 dalších</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books – stadia zotavení, stabilizace jako první fáze.  
   <small>Citováno: [M5M](@/glossary/m5m.md)</small>
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.  
@@ -4808,6 +4810,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bounded choice](@/glossary/bounded-choice.md), [Doubling](@/glossary/doubling.md), [High-control group (skupina s vysokou mírou kontroly)](@/glossary/high-control-group.md) a 146 dalších</small>
 - **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.  
   <small>Citováno: [Hermeneutická eroze](@/glossary/hermeneuticka-eroze.md), [Konceptuální anihilace](@/glossary/konceptualni-anihilace.md), [Privátní jazyk](@/glossary/privatni-jazyk.md) a 42 dalších</small>
+- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.  
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md)</small>
 - **Lifton, R. J.** (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton. — Osm kritérií totalitní reformy myšlení ([milieu control](@/glossary/milieu-control.md), mystical manipulation, demand for purity, confession, sacred science, [loading the language](@/glossary/loading-the-language.md), [doctrine](@/glossary/doctrine.md) over person, dispensing of existence).  
   <small>Citováno: [Bibliografie a primární literatura](@/kompendium/08-prilohy/bibliografie.md)</small>
 - Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. Norton.  
@@ -5261,8 +5265,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [7.52 Harari: Sapiens, narativ a fikční řády](@/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md)</small>
 - McBride, K. (2008). *Will I Ever Be Good Enough? Healing the Daughters of Narcissistic Mothers*. Free Press.  
   <small>Citováno: [Případ 07: Narcistická rodina](@/kompendium/case-studies/07-narcisticka-rodina.md)</small>
-- McCann, I. L., Pearlman, L. A. (1990). *Vicarious Traumatization: A Framework for Understanding the Psychological Effects of Working with Victims*. Journal of Traumatic Stress, 3(1), 131–149.  
-  <small>Citováno: [01. Předmluva](@/kompendium/01-predmluva/_index.md), [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md), [Kdy knihu teď nečíst](@/kompendium/01-predmluva/neni-pro-kazdeho/kdy-ji-necist.md) a 4 dalších</small>
+- McCann, I. L., & Pearlman, L. A. (1990). Vicarious traumatization: A framework for understanding the psychological effects of working with victims. *Journal of Traumatic Stress*, 3(1), 131–149.  
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md), [01. Předmluva](@/kompendium/01-predmluva/_index.md), [Proč tato kniha není pro každého](@/kompendium/01-predmluva/neni-pro-kazdeho/_index.md) a 5 dalších</small>
 - McCauley, C., & Moskalenko, S. (2017). Understanding political radicalization: the  
   <small>Citováno: [Případ 22: Online radikalizace](@/kompendium/case-studies/22-online-radikalizace.md)</small>
 - McCright, A. M., & Dunlap, R. E. (2011). The politicization of climate change and polarization in  
@@ -6985,6 +6989,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Bridge: Epistemic security (epistemická bezpečnost)](@/kompendium/glossary-bridges/bridge-epistemic-security.md)</small>
 - Seikkula, J. a Arnkil, T. E. (2006). *Dialogical Meetings in Social Networks*. Karnac.  
   <small>Citováno: [Akutní protokol: Výjezd krizového týmu](@/kompendium/emergency-protocols/13-crisis-team-deployment.md), [Akutní protokol: Rozhovor s rodinou po akutní epizodě](@/kompendium/emergency-protocols/14-family-emergency-debrief.md)</small>
+- Selgelid, M. J. (2009). Governance of dual-use research: an ethical dilemma. *Bulletin of the World Health Organization*, 87(9), 720–723.  
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md)</small>
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*.  
   <small>Citováno: [EA-2.5.10 Implantace existenciální bezmoci](@/kompendium/techniques/ea-2-5-10-existential-helplessness-implantace.md)</small>
 - Seligman, M. E. P. (1975). *Helplessness: On Depression, Development, and Death*. San Francisco:  
@@ -7383,6 +7389,8 @@ Seznam generuje `scripts/build-references.py` ze seznamů literatury v jednotliv
   <small>Citováno: [Detekční signatura: Platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md), [EA-9.5.6 Frame War Coordination](@/kompendium/techniques/ea-9-5-6-frame-war-coordination.md)</small>
 - Stark, E. (2007). *Coercive Control*.  
   <small>Citováno: [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md), [EA-2.2.10 Implantace budoucího vydírání](@/kompendium/techniques/ea-2-2-10-future-blackmail-implantace.md), [EA-2.2.5 Nátlak doporučením](@/kompendium/techniques/ea-2-2-5-recommendation-coercion.md) a 2 dalších</small>
+- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.  
+  <small>Citováno: [Kompendium epistemické a kognitivní anihilace](@/_index.md)</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*.  
   <small>Citováno: [Love bombing](@/glossary/love-bombing.md), [Pseudoempatická vazba](@/glossary/pseudoempaticka-vazba.md), [Sociální izolace](@/glossary/socialni-izolace.md) a 2 dalších</small>
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford  

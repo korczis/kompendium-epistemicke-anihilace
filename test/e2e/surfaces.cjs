@@ -3,18 +3,24 @@
 // vykreslují (ne jen že stránka vrací 200), že nejsou chyby v konzoli a že na telefonu
 // (390 px) nic nepřetéká do šířky. Prázdný graf je chyba, ne úspěch.
 //
-// Použití: BASE_URL=http://127.0.0.1:18790/ node test/e2e/surfaces.cjs
+// Použití: BASE_URL=http://127.0.0.1:18790/ [ONLY=<regexp cesty>] node test/e2e/surfaces.cjs
 // (web sestavený s --base-url na tutéž adresu). Playwright: PLAYWRIGHT=<cesta k playwright-core>.
+//
+// Jako modul (bez prohlížeče): require('./test/e2e/surfaces.cjs') vrací { FIXED, derived,
+// fromDir }. derived(load) vrací odvozené scénáře, které by běh použil; load(cesta) vrací text
+// souboru webu, výchozí čte z BASE_URL, fromDir('public') ze sestaveného adresáře.
 'use strict';
 
-const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
+const fs = require('fs');
+const path = require('path');
+const { execFileSync } = require('node:child_process');
 
 const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/, '/');
 
 // Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
 // (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
 const FIXED = [
-  { path: '', painted: 1, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1]], note: 'úvod: p5 síť pojmů, upozornění s kontakty pomoci' },
+  { path: '', painted: 2, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1], ['[data-landing-block]', 4]], interact: 'landing', note: 'úvod: p5 síť pojmů, upozornění, rizika, karusel, přehled knihy (ECharts)' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
   { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
   { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
@@ -43,13 +49,20 @@ const zolaPath = (url) => url.split('/').filter(Boolean)
   .map((s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''))
   .map((s) => s + '/').join('');
 
-async function derived() {
-  const g = await (await fetch(BASE + 'data/graph.json')).json();
+const fromBase = (p) => fetch(BASE + p).then((r) => {
+  if (!r.ok) throw new Error(`${p}: HTTP ${r.status}`);
+  return r.text();
+});
+const fromDir = (dir) => (p) => fs.promises.readFile(
+  path.join(dir, p === '' || p.endsWith('/') ? p + 'index.html' : p), 'utf8');
+
+async function derived(load = fromBase) {
+  const g = JSON.parse(await load('data/graph.json'));
   const page = (n) => zolaPath(n.url);
   const out = [];
   const tech = top(g, 'kompendium/techniques');
   // Kód EA techniky z odvozeného rejstříku hledání (static/data/search.json), ne z obsahu.
-  const idx = await (await fetch(BASE + 'data/search.json')).json();
+  const idx = JSON.parse(await load('data/search.json'));
   const F = Object.fromEntries(idx.fields.map((f, i) => [f, i]));
   const techEntry = tech && idx.entries.find((e) => e[F.url] === '/' + zolaPath(tech.url));
   // Kód může nést víc stránek (graph.json code_shared_with): na prvním místě musí být jedna z nich.
@@ -63,13 +76,105 @@ async function derived() {
   // První stránka knihy, jejíž HTML obsahuje diagram Mermaid (hledá se v sestaveném webu).
   for (const n of g.nodes) {
     if (!n.path.startsWith('kompendium/')) continue;
-    const html = await (await fetch(BASE + page(n))).text().catch(() => '');
+    const html = await load(page(n)).catch(() => '');
     if (html.includes('data-lang="mermaid"')) { out.push({ path: page(n), painted: 0, mermaid: 1, note: 'stránka s diagramem Mermaid' }); break; }
   }
   return out;
 }
 
 let SURFACES = FIXED;
+
+// Nerozpracované stránky podle brány informační architektury (scripts/check-ia.py: pravidla
+// „detail“ a „generated“), jako adresy webu. Úvodní stránka na ně nesmí vést z karet ani akcí.
+function weakUrls(g) {
+  const root = path.resolve(__dirname, '..', '..');
+  const list = (rule) => execFileSync('python3', ['scripts/check-ia.py', '--list', rule], { cwd: root, encoding: 'utf8' })
+    .split('\n').filter(Boolean).map((p) => p.replace(/^content\//, ''));
+  const weak = new Set(list('detail').concat(list('generated')));
+  return new Set(g.nodes.filter((n) => weak.has(n.path)).map((n) => '/' + zolaPath(n.url)));
+}
+
+// Úvodní stránka: každá karta ve slotech úvodu je právě jeden odkaz na existující, rozpracovanou
+// stránku; karusel se sám neposouvá (ani s prefers-reduced-motion), ovládání mění snímek
+// a indikátor nese aria-current; přehled knihy vykreslí graf, šipka vybere pole a Enter ho
+// otevře; tlačítko hledání otevře paletu.
+async function landing(page, browser, viewport, failures) {
+  const basePath = new URL(BASE).pathname.replace(/\/$/, '');
+  const g = await (await fetch(BASE + 'data/graph.json')).json();
+  const weak = weakUrls(g);
+  // Karty a akce: jeden ovládací prvek, žádný vnořený, cíl existuje a není rozpracovaný.
+  const cards = await page.$$eval('[data-landing-cards] > li, [data-landing-card], [data-landing-actions] > a', (els) => els.map((el) => {
+    const targets = el.matches('a, button') ? [el] : [...el.querySelectorAll('a[href], button')];
+    const nested = targets.some((x) => x.querySelector('a, button'));
+    return { n: targets.length, nested, href: targets[0] && targets[0].getAttribute('href'), abs: targets[0] && targets[0].href, text: el.textContent.trim().slice(0, 50) };
+  }));
+  if (cards.length < 20) failures.push(`úvod: jen ${cards.length} karet ve slotech`);
+  for (const c of cards) {
+    if (c.n !== 1 || c.nested) failures.push(`karta „${c.text}“ má ${c.n} ovládacích prvků${c.nested ? ' (vnořené)' : ''}`);
+  }
+  // Každý odkaz ve slotech (karty, akce i odkazy v próze) vede na existující, rozpracovanou stránku.
+  const links = await page.$$eval('[data-landing-block] a[href]', (els) => els.map((a) => [a.href, a.textContent.trim().slice(0, 50)]));
+  const seen = new Set();
+  for (const [abs, text] of links) {
+    if (!abs.startsWith(new URL(BASE).origin)) continue;
+    const u = new URL(abs);
+    const rel = u.pathname.slice(basePath.length);
+    if (weak.has(rel)) failures.push(`odkaz „${text}“ vede na nerozpracovanou stránku ${rel}`);
+    if (seen.has(u.pathname)) continue;
+    seen.add(u.pathname);
+    const r = await fetch(u.origin + u.pathname);
+    if (r.status !== 200) failures.push(`odkaz „${text}“: ${r.status} ${u.pathname}`);
+  }
+  // Karusel: statický (bez automatického posunu), jeden viditelný snímek, ovládání ho mění.
+  const car = page.locator('[data-landing-carousel]');
+  if (await car.locator('[data-carousel]').getAttribute('data-carousel') !== 'static') failures.push('karusel se posouvá sám (data-carousel není „static“)');
+  const visible = () => car.locator('[data-carousel-item]').evaluateAll((els) => els.map((e, i) => [i, getComputedStyle(e).display !== 'none' && getComputedStyle(e).visibility !== 'hidden']).filter((x) => x[1]).map((x) => x[0]));
+  const current = () => car.locator('[data-carousel-slide-to][aria-current="true"]').getAttribute('data-carousel-slide-to');
+  const slides = await car.locator('[data-carousel-item]').count();
+  if (slides < 2) failures.push(`karusel má ${slides} snímků`);
+  else {
+    if (JSON.stringify(await visible()) !== '[0]') failures.push(`karusel: na začátku je vidět ${JSON.stringify(await visible())}, ne první snímek`);
+    await car.locator('[data-carousel-next]').click();
+    await page.waitForTimeout(900);
+    if (JSON.stringify(await visible()) !== '[1]' || await current() !== '1') failures.push(`karusel: „další“ neukáže druhý snímek (vidět ${JSON.stringify(await visible())}, aria-current ${await current()})`);
+    await car.locator('[data-carousel-slide-to="0"]').click();
+    await page.waitForTimeout(900);
+    if (JSON.stringify(await visible()) !== '[0]' || await current() !== '0') failures.push('karusel: indikátor nevrátí první snímek');
+    // Fokus klávesnice nepadne do karty mimo záběr: odkazy skrytých snímků nejsou viditelné.
+    const hiddenFocusable = await car.locator('[data-carousel-item]').evaluateAll((els) => els.filter((e) => getComputedStyle(e).display === 'none' || getComputedStyle(e).visibility === 'hidden')
+      .flatMap((e) => [...e.querySelectorAll('a')]).filter((a) => a.checkVisibility && a.checkVisibility({ visibilityProperty: true })).length);
+    if (hiddenFocusable) failures.push(`karusel: ${hiddenFocusable} odkazů ve skrytých snímcích je viditelných`);
+  }
+  // Bez automatického posunu ani s prefers-reduced-motion: snímek se za 4 s nezmění.
+  const rm = await browser.newPage({ viewport, reducedMotion: 'reduce' });
+  await rm.goto(BASE, { waitUntil: 'networkidle' });
+  const before = await rm.locator('[data-carousel-slide-to][aria-current="true"]').getAttribute('data-carousel-slide-to');
+  await rm.waitForTimeout(4000);
+  const after = await rm.locator('[data-carousel-slide-to][aria-current="true"]').getAttribute('data-carousel-slide-to');
+  if (before !== '0' || after !== '0') failures.push(`karusel s prefers-reduced-motion se posunul (${before} → ${after})`);
+  await rm.close();
+  // Hledání: tlačítko v přehledu otevře existující paletu.
+  await page.locator('[data-prehled] [data-paleta-open]').click();
+  const dialog = page.locator('#paleta [role="dialog"]');
+  await dialog.waitFor({ state: 'visible', timeout: 5000 }).catch(() => failures.push('tlačítko hledání neotevřelo paletu'));
+  await page.keyboard.press('Escape');
+  // Přehled knihy: graf je vykreslený, šipka vybere první pole seznamu, Enter ho otevře.
+  const chart = page.locator('[data-prehled-chart]');
+  await chart.scrollIntoViewIfNeeded();
+  await page.waitForSelector('[data-prehled-chart][data-prehled-ready]', { timeout: 10000 }).catch(() => failures.push('přehled knihy se nevykreslil'));
+  const first = await page.locator('[data-prehled-item]').first().evaluate((a) => a.href);
+  await chart.focus();
+  await page.keyboard.press('ArrowRight');
+  const picked = await chart.getAttribute('data-prehled-current-url');
+  const said = (await page.locator('[data-prehled-current]').textContent() || '').trim();
+  if (picked !== first) failures.push(`přehled: šipka vybrala ${picked}, ne první položku seznamu ${first}`);
+  if (!said) failures.push('přehled: výběr se neoznámí (prázdný popisek)');
+  if (picked) {
+    await Promise.all([page.waitForURL(picked, { timeout: 10000 }).catch(() => {}), page.keyboard.press('Enter')]);
+    if (page.url() !== picked) failures.push(`přehled: Enter neotevřel ${picked} (${page.url()})`);
+    await page.goBack({ waitUntil: 'networkidle' });
+  }
+}
 
 // Mobilní drawer: zavřený je inert, otevření přesune fokus dovnitř, Escape ho zavře a vrátí
 // fokus na tlačítko.
@@ -249,14 +354,18 @@ async function check(browser, s, viewport, scheme) {
   if (s.interact === 'paleta' && viewport.width < 1024) await drawer(page, failures);
   if (s.interact === 'hledani' && viewport.width >= 1024) await combobox(page, s, failures);
   if (s.interact === 'faseta') await facet(page, failures);
+  if (s.interact === 'landing') await landing(page, browser, viewport, failures);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);
   await page.close();
   return failures;
 }
 
-(async () => {
+async function main() {
+  const { chromium } = require(process.env.PLAYWRIGHT || 'playwright-core');
   SURFACES = FIXED.concat(await derived());
+  // ONLY=<regexp cesty>: jen vybrané plochy (ladění; gate běží bez něj).
+  if (process.env.ONLY) SURFACES = SURFACES.filter((s) => new RegExp(process.env.ONLY).test('/' + s.path));
   const browser = await chromium.launch();
   let failed = 0;
   for (const s of SURFACES) {
@@ -270,4 +379,7 @@ async function check(browser, s, viewport, scheme) {
   await browser.close();
   console.log(`surfaces: ${SURFACES.length * 2 - failed}/${SURFACES.length * 2} v pořádku`);
   process.exit(failed ? 1 : 0);
-})();
+}
+
+module.exports = { FIXED, derived, fromDir };
+if (require.main === module) main();

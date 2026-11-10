@@ -124,7 +124,7 @@ Celkový čas administrace: 90–120 minut, doporučeno rozdělit do 2 setkání
 - [Glossary: Metakognice](@/glossary/metakognice.md)
 - [Glossary: c-PTSD](@/glossary/c-ptsd.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

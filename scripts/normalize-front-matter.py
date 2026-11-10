@@ -12,6 +12,8 @@ Two values are inferred where the page has none that fits the architecture:
 
   - a page (not a section) with no tags at all gets tags from where it is: its top-level
     section, its directory and its extra.category (all as slugs);
+  - extra.risk_level written in Czech ("kritická") becomes the code the templates read
+    ("critical");
   - a description longer than 200 characters is shortened at the last sentence or clause
     boundary that fits (or at a word boundary with an ellipsis).
 
@@ -170,6 +172,11 @@ def set_scalar(lines: list, key: str, value: str) -> bool:
     return False
 
 
+# Controlled values of extra.risk_level: the codes the templates read. A Czech spelling of a
+# code is mapped to the code, so a page and the hero card cannot disagree.
+RISK_ALIASES = {"kritická": "critical", "kriticka": "critical", "kritické": "critical"}
+
+
 def normalise_toml(fm: str, is_section: bool, rel: str = "") -> str:
     data = tomllib.loads(fm)
     extra = data.get("extra") or {}
@@ -202,6 +209,9 @@ def normalise_toml(fm: str, is_section: bool, rel: str = "") -> str:
             table.append(line)
         else:
             tables.insert(0, ("taxonomies", [line]))
+    risk = (extra.get("risk_level") if isinstance(extra, dict) else None)
+    if isinstance(risk, str) and risk.strip().lower() in RISK_ALIASES and "extra" in tables_by_name:
+        set_scalar(tables_by_name["extra"], "risk_level", RISK_ALIASES[risk.strip().lower()])
     while top and not top[-1].strip():
         top.pop()
     out = list(top)
@@ -222,6 +232,9 @@ def expected(before: dict, is_section: bool, rel: str = "") -> dict:
         data["description"] = extra.pop("description")
     if isinstance(data.get("description"), str) and len(" ".join(data["description"].split())) > 200:
         data["description"] = fit_description(data["description"])
+    risk = extra.get("risk_level")
+    if isinstance(risk, str) and risk.strip().lower() in RISK_ALIASES:
+        extra["risk_level"] = RISK_ALIASES[risk.strip().lower()]
     tax = data.get("taxonomies") or {}
     if not is_section and not tax.get("tags") and isinstance(extra.get("tags"), list):
         data.setdefault("taxonomies", {})["tags"] = extra.pop("tags")

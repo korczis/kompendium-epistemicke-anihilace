@@ -296,7 +296,7 @@ Pro výzkumníky, klinickou praxi a institucionální governance z toho vyplýv�
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — [evidence-based](@/glossary/evidence-based.md) hodnocení rizikového profilu
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Tato sekce není použitelná bez supervize.** Před aplikací jakéhokoli
 terminálního protokolu (i v rámci sebe-monitoringu) ověř:

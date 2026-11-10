@@ -200,7 +200,7 @@ Tato distribuovaná odpovědnost je explicitním záměrem — žádná centrali
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Glossary: Epistemická slepota](@/glossary/epistemicka-slepota.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj
 souhlas se svou supervizí (akademická / klinická / forenzní), porozuměl jsi

@@ -330,7 +330,7 @@ Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision
 - [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
 [definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji

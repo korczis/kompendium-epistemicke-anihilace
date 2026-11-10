@@ -491,7 +491,7 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 - [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní
 [definici epistemické anihilace](@/glossary/epistemicka-anihilace.md) a zapiš si ji

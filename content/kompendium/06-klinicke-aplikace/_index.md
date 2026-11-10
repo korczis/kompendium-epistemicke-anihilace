@@ -125,7 +125,7 @@ Pro **klinika začínajícího** s kompendiem doporučujeme následující sekve
 - [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 
-## ⚡ Kritický krok
+## Kritický krok
 
 **Klinická intervence vyžaduje licencovanou klinickou supervizi.** Tento
 materiál není terapeutickou příručkou ani diagnostickou metodikou pro

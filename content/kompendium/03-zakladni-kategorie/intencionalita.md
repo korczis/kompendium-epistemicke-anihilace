@@ -18,7 +18,7 @@ quality_score = 80
 # Intencionalita – zaměřenost vědomí jako kategorie analýzy
 
 > **Pozice v knize**: interpretační kategorie sekce 03. Definice pojmu je v hesle
-> [Intencionalita](@/glossary/intencionalita.md); tato stránka popisuje, jak kniha pojem používá k
+> [Intencionalita](@/glossary/intentionalita.md); tato stránka popisuje, jak kniha pojem používá k
 > analýze technik, které **přesměrovávají vědomí** – co člověk vnímá, čemu věnuje pozornost a jak
 > se k věcem vztahuje.
 
@@ -117,7 +117,7 @@ spolehlivě měřit a jak je odlišit od běžných změn pozornosti v náročn�
 
 **Glosář a teorie**
 
-- [Intencionalita (heslo)](@/glossary/intencionalita.md) – definice pojmu.
+- [Intencionalita (heslo)](@/glossary/intentionalita.md) – definice pojmu.
 - [Bridge: Intencionalita](@/kompendium/glossary-bridges/bridge-intentionalita.md) – propojení hesla s knihou.
 - [Pasivní syntéza](@/glossary/pasivni-synteza.md) – předreflexivní utváření předmětů zkušenosti.
 

@@ -220,7 +220,7 @@ Otevřenost výzkumných otázek **není slabostí** kompendia, ale jeho **struk
 - [Glosář: Kognitivní bias](@/glossary/kognitivni-bias.md)
 - [Glosář: Konfirmační bias](@/glossary/konfirmacni-bias.md)
 - [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatos](@/glossary/lakatos.md)
+- [Glosář: Lakatos](@/glossary/lakatos-vyzkumny-program.md)
 - [Glosář: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glosář: Fenomenologie](@/glossary/fenomenologie.md)
 - [Glosář: Metakognice](@/glossary/metakognice.md)

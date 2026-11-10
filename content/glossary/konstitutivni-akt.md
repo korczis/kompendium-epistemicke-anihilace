@@ -35,7 +35,7 @@ Pojem konstituce rozvinul Husserl v *Ideen zu einer reinen Phänomenologie und
 phänomenologischen Philosophie I* (1913) a v pozdějších dílech, mimo jiné v *Karteziánských
 meditacích* (francouzsky 1931). Klíčové prvky:
 
-- **Intencionalita** – vědomí je vždy vědomím něčeho (viz [intencionalita](@/glossary/intentionalita.md)).
+- **[Intencionalita](@/glossary/intentionalita.md)** – vědomí je vždy vědomím něčeho.
   Každý akt má svou stránku výkonu (noesis) a stránku míněného předmětu (noema).
 - **Pasivní a aktivní syntéza** – část konstituce probíhá bez vědomého úsilí, jako sdružování
   a navazování vjemů (viz [pasivní syntéza](@/glossary/pasivni-synteza.md)); část vyžaduje

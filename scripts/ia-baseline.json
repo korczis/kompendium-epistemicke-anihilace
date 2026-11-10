@@ -410,9 +410,6 @@
  "bold:intelektualizace": [
   "bold-candidate"
  ],
- "bold:intencionalita": [
-  "bold-candidate"
- ],
  "bold:internalizace": [
   "bold-candidate"
  ],
@@ -2395,14 +2392,6 @@
   "bullets",
   "citations"
  ],
- "content/glossary/intencionalita.md": [
-  "detail",
-  "generated",
-  "summary",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/glossary/intentionalita.md": [
   "detail",
   "weak-link",
@@ -2541,14 +2530,6 @@
  ],
  "content/glossary/lakatos-vyzkumny-program.md": [
   "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/glossary/lakatos.md": [
-  "detail",
-  "generated",
-  "summary",
   "weak-link",
   "bullets",
   "citations"

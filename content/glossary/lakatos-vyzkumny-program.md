@@ -3,6 +3,7 @@ title = "Lakatosův výzkumný program"
 weight = 60
 
 description = "Lakatosova metodologie výzkumných programů: rozlišení progresivních a degenerativních posunů pomocných hypotéz; nástroj k odlišení legitimní revize od imunizace EA-1.3.1."
+aliases = ["/glossary/lakatos/"]
 
 [taxonomies]
 tags = ["glossary", "epistemic", "philosophy", "science", "falsifikace"]
@@ -39,7 +40,7 @@ Týž ochranný krok („přidáme předpoklad, že X“) může být jedním i 
 
 ## Původ a kontext pojmu
 
-Lakatos (1922–1974), maďarský filozof působící v Londýně, formuloval program v polemice s Popperem a Kuhnem; klíčová stať „Falsification and the Methodology of Scientific Research Programmes“ vyšla ve sborníku *Criticism and the Growth of Knowledge* (1970). Proti Popperovi namítal, že žádná teorie není vyvrácena jediným pokusem; proti Kuhnovi, že změnu paradigmatu nelze ponechat psychologii davu ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Kompendium jej vykládá v kapitole [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) a v [EA-7.2.4 Lakatos: výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md); stručnější heslo je [Lakatos Research Programme](@/glossary/lakatos.md).
+Lakatos (1922–1974), maďarský filozof působící v Londýně, formuloval program v polemice s Popperem a Kuhnem; klíčová stať „Falsification and the Methodology of Scientific Research Programmes“ vyšla ve sborníku *Criticism and the Growth of Knowledge* (1970). Proti Popperovi namítal, že žádná teorie není vyvrácena jediným pokusem; proti Kuhnovi, že změnu paradigmatu nelze ponechat psychologii davu ([Kuhnova revoluce](@/glossary/kuhnova-revoluce.md)). Kompendium jej vykládá v kapitole [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) a v [EA-7.2.4 Lakatos: výzkumný program](@/kompendium/techniques/ea-7-2-4-lakatos-research-program.md); stručnější heslo je [Lakatos Research Programme](@/glossary/lakatos-vyzkumny-program.md).
 
 ## Jak se projevuje
 

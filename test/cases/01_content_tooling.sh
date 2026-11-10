@@ -142,6 +142,11 @@ for f in content/kompendium/case-01-strip/*.md; do
   if grep -E '^## (Connect|Kontakt)' "$f" >/dev/null; then echo "footer kept in $f"; exit 1; fi
 done
 rm -r content/kompendium/case-01-strip
+# An empty path list is refused instead of meaning the whole book; --all is explicit.
+if python3 scripts/strip-generated-blocks.py >/dev/null 2>&1; then
+  echo "strip-generated-blocks ran without paths"; exit 1
+fi
+python3 scripts/strip-generated-blocks.py --check >/dev/null || true
 
 python3 scripts/build-graph.py >/dev/null
 python3 scripts/build-graph.py --check >/dev/null

@@ -17,8 +17,10 @@ neighbourhood, backlinks and related pages from the link graph (rule
 project.site-derived-surfaces), so the block only adds wrong relations.
 
 Usage:
-  scripts/strip-generated-blocks.py [path ...]          strip the blocks (content/ or the paths)
+  scripts/strip-generated-blocks.py <path ...>          strip the blocks in these pages/dirs
+  scripts/strip-generated-blocks.py --all               strip them in the whole of content/
   scripts/strip-generated-blocks.py --check [path ...]  exit 1 when a page still has one
+                                                        (no path: the whole of content/)
   scripts/strip-generated-blocks.py --help              this text; other options are refused
 """
 import pathlib
@@ -52,11 +54,18 @@ def main() -> int:
     if any(a in ("-h", "--help") for a in args):
         print(__doc__.strip())
         return 0
-    unknown = [a for a in args if a.startswith("-") and a != "--check"]
+    unknown = [a for a in args if a.startswith("-") and a not in ("--check", "--all")]
     if unknown:
         print(f"strip-generated-blocks: unknown option {unknown[0]}; see --help", file=sys.stderr)
         return 2
     check = "--check" in args
+    named = [a for a in args if not a.startswith("-")]
+    if not check and not named and "--all" not in args:
+        # An empty generated path list must not turn into "every page" (2026-11-10: an empty
+        # list stripped 265 pages, 261 of them in a peer's frozen directories).
+        print("strip-generated-blocks: no paths given; name the pages or pass --all",
+              file=sys.stderr)
+        return 2
     paths = []
     for arg in (a for a in args if not a.startswith("-")):
         path = pathlib.Path(arg)

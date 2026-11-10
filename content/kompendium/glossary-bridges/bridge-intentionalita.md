@@ -28,7 +28,7 @@ vnímáním něčeho, každá vzpomínka vzpomínkou na něco, každé přání 
 moderní filozofie uvedl Franz Brentano (1874) jako znak duševních jevů; Husserl (1900–1901) z
 něj učinil základ fenomenologie a ukázal, že každý intencionální akt má předmět, způsob (modus),
 jímž se k němu vztahuje, a horizont souvislostí, v nichž se předmět dává. Kniha používá i
-souběžné heslo [Intencionalita](@/glossary/intencionalita.md).
+souběžné heslo [Intencionalita](@/glossary/intentionalita.md).
 
 Pro knihu je intencionalita **třídicím slovníkem**. Umožňuje rozlišit, na kterou složku
 vědomého vztahu ke světu technika míří: zda mění *předmět* (co člověk vidí), *modus* (jak se k
@@ -160,7 +160,7 @@ vnucuje; kniha doporučuje zviditelňovat, ne nahrazovat.
 
 **Glosář**
 
-- [Intencionalita (souběžné heslo)](@/glossary/intencionalita.md) – druhé zpracování pojmu.
+- [Intencionalita (souběžné heslo)](@/glossary/intentionalita.md) – druhé zpracování pojmu.
 - [Fenomenologie](@/glossary/fenomenologie.md) – tradice, z níž pojem vychází.
 - [Theory of mind](@/glossary/theory-of-mind.md) – připisování stavů druhým.
 - [Lebenswelt](@/glossary/lebenswelt.md) – nejširší horizont zkušenosti.

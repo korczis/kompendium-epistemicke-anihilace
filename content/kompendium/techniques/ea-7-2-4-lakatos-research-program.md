@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/07-teoreticke-reflexe/"
 
 > **Poznámka ke kódu.** Řada `EA-7.2` se nekryje s tematickou kapitolou 7.2 ani s monografiemi
 > 7.10–7.59. Glosář vede pojem dvakrát: [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
-> je úplné heslo, [Lakatos Research Programme](@/glossary/lakatos.md) jeho starší krátká verze.
+> je úplné heslo, [Lakatos Research Programme](@/glossary/lakatos-vyzkumny-program.md) jeho starší krátká verze.
 
 ## Definice
 

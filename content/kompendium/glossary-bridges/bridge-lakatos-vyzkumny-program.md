@@ -34,7 +34,7 @@ Pro knihu je rozlišení progresivních a degenerujících programů praktickým
 posoudit systémy přesvědčení – ideologie, skupinové doktríny, terapeutické školy, konspirační
 výklady – podle toho, jak reagují na selhání. Každý systém si chrání jádro; rozhodující je, zda se
 přitom učí. Kniha k tomu má kapitolu [Lakatos](@/kompendium/03-zakladni-kategorie/lakatos.md) a
-heslo [Lakatos](@/glossary/lakatos.md).
+heslo [Lakatos](@/glossary/lakatos-vyzkumny-program.md).
 
 ## Výzkumný program očima knihy
 
@@ -161,7 +161,7 @@ hodnotit.
 - [Falsifikace](@/glossary/falsifikace.md) – Popperovo kritérium, které Lakatos zjemnil.
 - [Kuhnova revoluce](@/glossary/kuhnova-revoluce.md) – druhý pól debaty.
 - [Paradigm shift](@/glossary/paradigm-shift.md) – změna paradigmatu.
-- [Lakatos](@/glossary/lakatos.md) – heslo o autorovi.
+- [Lakatos](@/glossary/lakatos-vyzkumny-program.md) – heslo o autorovi.
 
 **Kniha**
 

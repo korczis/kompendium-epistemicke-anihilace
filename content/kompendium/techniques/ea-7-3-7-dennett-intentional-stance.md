@@ -55,7 +55,7 @@ Intentional Stance* (1987). V *Consciousness Explained* (1991) navrhl model **mn
 konceptů** (*multiple drafts*) vědomí a metodu **heterofenomenologie**: zprávy lidí o jejich
 prožitku je třeba brát vážně jako data o tom, jak se jim věci jeví, aniž bychom je
 pokládali za neomylné. Rámec souvisí s výzkumem [teorie mysli](@/glossary/theory-of-mind.md)
-a [intencionality](@/glossary/intencionalita.md).
+a [intencionality](@/glossary/intentionalita.md).
 
 ## Mechanismus (strukturní popis)
 

@@ -26,9 +26,9 @@ status = "publikovano"
 
 Zatímco [ultimátní výcvikový scénář](@/kompendium/04-terminalni-protokoly/ultimatni-scenar.md) cílí na koncentrovanou multimodální zátěž a [identitní dekonstrukce](@/kompendium/04-terminalni-protokoly/identitni-dekonstrukce.md) cílí na strukturu sebepojetí, **konceptuální dekonstrukce** je terminální protokol, jehož primárním cílem je **rozložení pojmového aparátu**, který subjekt používá pro organizaci a interpretaci zkušenosti. Tento protokol patří do podtřídy [taxonomie EA](@/glossary/taxonomie-ea.md) označované jako **sémanticko-ontologická manipulace**.
 
-Klíčové analytické rozlišení: konceptuální dekonstrukce **není** prosté zpochybňování konkrétních přesvědčení. Pochybnost o jednotlivém přesvědčení (např. *"je tento dokument autentický?"*) je legitimní epistemický akt. Konceptuální dekonstrukce cílí o úroveň výše: na **kategorie**, jimiž subjekt vůbec rozlišuje autentičnost od neautentičnosti, fakt od interpretace, dovolené od nedovoleného. Když je narušena tato kategoriální vrstva, zhroucení následuje na úrovni všech přesvědčení současně.
+Klíčové analytické rozlišení: konceptuální dekonstrukce **není** prosté zpochybňování konkrétních přesvědčení. Pochybnost o jednotlivém přesvědčení (např. *„je tento dokument autentický?“*) je legitimní epistemický akt. Konceptuální dekonstrukce cílí o úroveň výše: na **kategorie**, jimiž subjekt vůbec rozlišuje autentičnost od neautentičnosti, fakt od interpretace, dovolené od nedovoleného. Když je narušena tato kategoriální vrstva, zhroucení následuje na úrovni všech přesvědčení současně.
 
-Dynamika konceptuální dekonstrukce je strukturálně blízká fenoménům, které [glosář metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) popisuje jako "ztrátu druhořádových rozlišení", a fenoménům, které glosář [kognitivní anti-rekurzivity](@/glossary/kognitivni-anti-rekurzivita.md) popisuje jako rozpad sebepoznání jako self-correcting procesu.
+Dynamika konceptuální dekonstrukce je strukturálně blízká fenoménům, které [glosář metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) popisuje jako „ztrátu druhořádových rozlišení“, a fenoménům, které glosář [kognitivní anti-rekurzivity](@/glossary/kognitivni-anti-rekurzivita.md) popisuje jako rozpad sebepoznání jako self-correcting procesu.
 
 ## Trojfázová struktura
 
@@ -82,7 +82,7 @@ Z analytické perspektivy je užitečné popsat čtyři rodiny mechanismů, kter
 ### Rodina 3: relativizace skrze pluralizaci kontextů
 
 - *Legitimní:* komparativní antropologie, dějiny filosofie, multikulturní vzdělávání.
-- *Destruktivní:* selektivně presentovaná kontradiktorní praxe s implicitním normativním závěrem o relativitě "vlastního" rámce.
+- *Destruktivní:* selektivně presentovaná kontradiktorní praxe s implicitním normativním závěrem o relativitě „vlastního“ rámce.
 
 ### Rodina 4: performativní kontradikce
 
@@ -143,7 +143,6 @@ Studium konceptuální dekonstrukce je metodologicky obtížnější než studiu
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

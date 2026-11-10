@@ -78,9 +78,9 @@ Doslovný překlad pak zakrývá, že odpovídající trestný čin v cílovém 
 - ***Victim*, *injured party*, *complainant*.** České právo rozlišuje oběť (zákon
   č. 45/2013 Sb.) a poškozeného (trestní řád); anglosaské *complainant* nemá přesný
   protějšek.
-- ***Expert witness* ≠ znalec.** Viz [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md).
+- ***[Expert witness](@/glossary/expert-witness.md)* ≠ znalec.** Viz [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md).
 - **„Kriminalizace gaslightingu“.** Běžně citované právní řády nemají trestný čin
-  s názvem gaslighting; jde o chování, které může být jedním z projevů širší podstaty
+  s názvem [gaslighting](@/glossary/gaslighting.md); jde o chování, které může být jedním z projevů širší podstaty
   (donucující kontrola, týrání). Tvrzení opačného ověřte v textu zákona.
 
 ## 5. Doporučený postup

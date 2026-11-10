@@ -28,7 +28,7 @@ Pacient v EA-recovery — kritické rozpoznání early warning signs relapsu př
 
 1. **Identifikuj individual relapse signature** — pro každého pacienta unikátní kombinace symptomů (sleep, appetite, social withdrawal).
 2. **Trénuj support network v rozpoznání** — partneři, rodiče, blízcí přátelé znají signatures, ne jen pacient sám.
-3. **Use objektivní markers** — sleep tracking, mood diary, weight, fyzická aktivita; ne pouze subjektivní self-report.
+3. **Use objektivní markers** — sleep tracking, mood diary, weight, fyzická aktivita; ne pouze subjektivní [self-report](@/glossary/self-report.md).
 4. **Stanov ranný response plán** — co dělat při red flags před akutním crisis (extra session, medication review, peer support).
 5. **Pravidelný relapse plan review** — minimálně každé 3 měsíce update s novými trigger info a coping skills.
 
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

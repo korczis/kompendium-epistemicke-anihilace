@@ -32,7 +32,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 04 — Color teams**: gray team v 6-color taxonomii
+- **Sekce 04 — [Color teams](@/glossary/color-teams.md)**: gray team v 6-color taxonomii
 - **Sekce 05 — Strategic ambiguity**: kdy operuje gray team
 - **Sekce 06 — Compliance edge cases**: GDPR vs. national security, dual-use
 - **Sekce 07 — Etické otázky**: gray = legitimní strategie nebo morální únik?

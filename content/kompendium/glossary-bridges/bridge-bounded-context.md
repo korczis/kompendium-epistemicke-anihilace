@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 03 — Architektura platformy**: 92 umbrella apps jako 92 bounded contexts
-- **Sekce 04 — Doménové modelování**: OSINT vs. DD vs. CER jako kontextové hranice
+- **Sekce 04 — Doménové modelování**: [OSINT](@/glossary/osint.md) vs. DD vs. CER jako kontextové hranice
 - **Sekce 05 — Inter-context komunikace**: anti-corruption layer, shared kernel, customer-supplier
 - **Sekce 07 — DDD principy**: ubiquitous language, aggregate roots, context map
 - **Per-technique články**: definice nového bounded contextu, refactoring boundaries

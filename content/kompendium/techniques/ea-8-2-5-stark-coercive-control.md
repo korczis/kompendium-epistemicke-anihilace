@@ -42,7 +42,7 @@ Legalizováno v UK (Serious Crime Act 2015), Wales (2015), Ireland (2018), Scotl
 
 ## Aplikace v EA kontextu
 
-Teoretický základ pro **EA-3.4.x** (interpersonální dominance) a **EA-6.4.6 Domestic Abuse Protokol**. Mediko-legální průnik. Operacionalizace v **EA-8.1.4 Coercive Control Scale**.
+Teoretický základ pro **EA-3.4.x** (interpersonální dominance) a **EA-6.4.6 Domestic Abuse Protokol**. Mediko-legální průnik. Operacionalizace v **EA-8.1.4 [Coercive Control](@/glossary/coercive-control.md) Scale**.
 
 ## Validační status
 

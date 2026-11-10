@@ -30,7 +30,7 @@ Indikace akutní farmakoterapie u EA-pacienta — kdy ano, kdy ne, jaké prefere
 2. **Pokud sedace nutná** — preferuj hydroxyzine 25–50mg PO nebo trazodone 25–50mg pro non-benzo alternativu.
 3. **Antipsychotika jen při verifikované psychóze, ne pro „kontrolu" pacienta** — riziko reaktivace bypass-zkušeností.
 4. **SSRIs ano (sertralin 25mg start) ale pomalu** — EA-survivors mají často akcentované initial activation effects.
-5. **Vždy informed consent** — mnoho EA-survivors má historii forced medication; psychologická bezpečnost přednost před rychlostí.
+5. **Vždy [informed consent](@/glossary/informed-consent.md)** — mnoho EA-survivors má historii forced medication; psychologická bezpečnost přednost před rychlostí.
 
 ## 3. Stabilizace
 
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

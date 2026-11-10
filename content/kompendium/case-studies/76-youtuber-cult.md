@@ -124,7 +124,7 @@ v rámci S1–S5 [protokolu epistemické rekonstrukce](@/kompendium/06-klinicke-
   bez rozhovoru – rodiče místo odpojení internetu domluvili spánkový režim a sdílený plán.
 - **S2 – Externalizace introjektů.** Subjekt sám sepsal, co mu autor „říkal o lidech“, a
   zkoumal, kdo z jeho okolí do těch kategorií skutečně patří.
-- **S3 – Rekonstrukce metakognice.** Společné ověřování jednoho tvrzení z kanálu s
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Společné ověřování jednoho tvrzení z kanálu s
   historikem z blízké univerzity. Šlo o metodu, ne o výsledek: jak se pracuje s pramenem,
   co je kontext, kdo může tvrzení zpochybnit ([verifikace tvrzení](@/kompendium/self-defense-guides/4-claim-verification.md)).
 - **S4 – Hermeneutická obnova.** Práce s vinou za klipy, které ponižovaly kritiky; dopisy,

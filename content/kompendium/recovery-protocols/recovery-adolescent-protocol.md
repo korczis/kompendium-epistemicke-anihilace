@@ -59,9 +59,9 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+- **Online/digitální EA**: Důraz na informační hygienu, [OSINT](@/glossary/osint.md) awareness, digital security.
 
 ## 7. Kontraindikace
 

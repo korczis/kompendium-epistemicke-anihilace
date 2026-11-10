@@ -94,7 +94,7 @@ proměnila osobní nejistotu v rozpoznání struktury.
   skutečné pomoci od kontroly.
 - **S2 – Externalizace introjektů:** vnitřní kritik mluvící mentorovými formulacemi pojmenován a
   oddělen od vlastního odborného úsudku.
-- **S3 – Rekonstrukce metakognice:** psaní bez předběžné kontroly, nejdřív krátkých textů;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** psaní bez předběžné kontroly, nejdřív krátkých textů;
   zpětná vazba od více nezávislých kolegů.
 - **S4 – Hermeneutická obnova:** obnova vlastní badatelské linie a citační sítě mimo mentorův
   okruh.

@@ -89,7 +89,7 @@ jazyka skupiny bez zjevného rozporu s tím, co cítil.
   deprivace a skupinové intenzity; časová osa výdajů a kurzů.
 - **S2 – Externalizace introjektů:** sepsání slovníku skupiny a jeho překlad do běžného jazyka;
   zvlášť práce s větami o „egu“ a „volbě“.
-- **S3 – Rekonstrukce metakognice:** učení se nejistotě – připustit, že některé věci neví, bez
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** učení se nejistotě – připustit, že některé věci neví, bez
   potřeby okamžitého výkladu.
 - **S4 – Hermeneutická obnova:** rozlišení mezi užitečnými dovednostmi, které si odnesl
   (asertivita, sdílení), a uzavřeným systémem výkladu.

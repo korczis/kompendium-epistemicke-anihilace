@@ -179,7 +179,7 @@ Implementace protokolu vyžaduje od supervizorů specifické kompetence a modali
 - **Oscilační rytmus** alternace mezi výzvou a konsolidací
 - **Metakognitivní rámování** výzev jako příležitostí pro růst
 
-**Implementační techniky**: gradované série případových studií, "sandwichová metoda" (výzývající + stabilizující), personalizované signalizační systémy, post-expoziční reflexe.
+**Implementační techniky**: gradované série případových studií, „sandwichová metoda“ (výzývající + stabilizující), personalizované signalizační systémy, post-expoziční reflexe.
 
 ### Modalita 2: Metakomunikativní scaffolding
 
@@ -218,7 +218,7 @@ Implementace protokolu vyžaduje od supervizorů specifické kompetence a modali
 - **Produktivní ambiguita** — využití cílených ambiguitních situací
 - **Perspektivní multiplicity** — simultánní držení multiple rámců
 
-**Implementační techniky**: strukturované dialektické dialogy, "perspektivní rotační protokol", "produktivní paradoxy", kolaborativní mapování dialektických vztahů.
+**Implementační techniky**: strukturované dialektické dialogy, „perspektivní rotační protokol“, „produktivní paradoxy“, kolaborativní mapování dialektických vztahů.
 
 ## Supervizorské kompetence — matrice
 
@@ -295,7 +295,7 @@ Následuje sedm cvičení strukturovaných od jednodušších k komplexnějším
 
 **Cíl**: Detekce, artikulace a mapování subtilních fenomenologických aspektů zkušenosti.
 
-**Struktura**: fenomenologická příprava → řízená expozice kalibrované sekvenci → mikroanalýza experience → kolaborativní fenomenologie → integrativní artikulace.
+**Struktura**: fenomenologická příprava → řízená expozice kalibrované sekvenci → mikroanalýza experience → kolaborativní [fenomenologie](@/glossary/fenomenologie.md) → integrativní artikulace.
 
 **Implementační pokyny**: suspension teoretického vědění ve prospěch přímé zkušenosti, strukturovaný protokol mapování, bohatý fenomenologický slovník, multimodální exprese, intersubjektivní validace.
 
@@ -483,7 +483,7 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 
 #### Scénář 1: Epistemická retraumatizace
 
-**Deskripce**: Student s předchozí zkušeností vykazuje známky retraumatizace.
+**Deskripce**: Student s předchozí zkušeností vykazuje známky [retraumatizace](@/glossary/retraumatizace.md).
 
 **Navigační proces**: okamžitá deeskalace a stabilizace → neodsuzující validace → kolaborativní evaluace pokračování → adaptace plánu → adekvátní následná podpora s případným referralem.
 
@@ -503,7 +503,7 @@ Při implementaci s potenciálně vulnerabilními populacemi by měly být aplik
 
 **Deskripce**: Studium vede k nárůstu suspice v širší komunitě.
 
-**Navigační proces**: jasné hranice mezi edukativním kontextem a širšími vztahy → facilitace komunitní diskuse → "dekontaminační" rituály po expozici → posílení pozitivních norem → strukturovaná reflexe přesahů.
+**Navigační proces**: jasné hranice mezi edukativním kontextem a širšími vztahy → facilitace komunitní diskuse → „dekontaminační“ rituály po expozici → posílení pozitivních norem → strukturovaná reflexe přesahů.
 
 ## Evaluační rámec a metriky úspěšnosti
 
@@ -741,9 +741,9 @@ Pokročilá edukativní implementace nestojí izolovaně, ale je strukturálně 
 
 [Color Teams](@/glossary/color-teams.md) poskytuje organizační rámec pro kolaborativní analýzu. Pokročilí praktikanti participují v:
 
-- Red team / Blue team simulacích manipulativních scénářů
-- Multi-paradigmatických analýzách v Purple team konfiguracích
-- Etické supervizi skrze White team mechanismy
+- [Red team](@/glossary/red-team.md) / [Blue team](@/glossary/blue-team.md) simulacích manipulativních scénářů
+- Multi-paradigmatických analýzách v [Purple team](@/glossary/purple-team.md) konfiguracích
+- Etické supervizi skrze [White team](@/glossary/white-team.md) mechanismy
 - Strukturální obraně institucí skrze Yellow team aktivitu
 
 ## Pedagogická přípravná infrastruktura
@@ -920,7 +920,7 @@ Absolvent identifikuje manipulativní vzorec v profesní komunitě, jíž je čl
 
 Absolvent identifikuje manipulativní vzorec ve specifickém případě, který by mohl mít širší relevanci jako edukační case study, ale vyžadovalo by to compromise klientské důvěrnosti.
 
-**Navigační framework**: explicitní informed consent, pečlivá anonymizace, využití jen ilustrativních prvků, případně synthetic case studies inspirované, ale ne přímo derivované z konkrétních situací.
+**Navigační framework**: explicitní [informed consent](@/glossary/informed-consent.md), pečlivá anonymizace, využití jen ilustrativních prvků, případně synthetic case studies inspirované, ale ne přímo derivované z konkrétních situací.
 
 ### Dilema 3: Self-disclosure jako edukační nástroj
 
@@ -1053,7 +1053,7 @@ Implementace pokročilého programu naráží na predikovatelné výzvy. Anticip
 
 ### Výzva 1: Kulturní rezistence
 
-Někteří akademičtí pracovníci interpretují program jako "dramatický" nebo "ideologicky motivovaný".
+Někteří akademičtí pracovníci interpretují program jako „dramatický“ nebo „ideologicky motivovaný“.
 
 **Mitigation**: rigorózní empirická validace, transparentní metodologie, otevřená komunikace s skeptickými hlasy, demonstrace praktických výstupů, kultivace alianci s respektovanými senior figures.
 
@@ -1085,7 +1085,7 @@ Program může být obtížně validován v tradičních akademických kategori�
 
 Pokročilá edukativní implementace poznatků o epistemické anihilaci představuje komplexní multidimenzionální proces. **Třífázový strukturovaný protokol** (stabilizace → strukturovaná expozice → pokročilá aplikace) poskytuje robustní rámec, **specifické aplikační modality** zajišťují adekvátní facilitaci, **specializovaná integrační cvičení** přemosťují teorii a praxi, **detailní etické instrukce** adresují specifické výzvy klinického vzdělávání, **multi-dimenzionální evaluační rámec** poskytuje nástroje pro kontinuální zdokonalování, **operacionalizovaná certifikační struktura** zajišťuje progresivní rozvoj kompetencí, **integrace s platformovou infrastrukturou** umožňuje praktickou aplikaci a **adaptace pro různé profesní populace** zajišťují relevanci napříč obory.
 
-Komparativní analýza s **CBT supervizí**, **DBT tréninkem** a **bioetickým vzděláváním** ukazuje, že protokol integruje osvědčené pedagogické praktiky a doplňuje je o **distinktní inovace** specifické pro epistemic security: simulační laboratoř s explicitními bezpečnostními protokoly, fenomenologickou senzitizaci, kontraindikační screening a anti-instrumentalizační safeguardy.
+Komparativní analýza s **CBT supervizí**, **DBT tréninkem** a **bioetickým vzděláváním** ukazuje, že protokol integruje osvědčené pedagogické praktiky a doplňuje je o **distinktní inovace** specifické pro [epistemic security](@/glossary/epistemic-security.md): simulační laboratoř s explicitními bezpečnostními protokoly, fenomenologickou senzitizaci, kontraindikační screening a anti-instrumentalizační safeguardy.
 
 Je esenciální zdůraznit, že efektivní edukace v této oblasti nemůže být redukována na transmisi informací. Vyžaduje **transformativní učební zkušenost**, jež simultánně kultivuje kognitivní, metakognitivní, fenomenologické a aplikační kompetence. Tato transformativní zkušenost, je-li facilitována s adekvátní etickou senzitivitou a metodologickou rigorózností, poskytuje fundamentální ochranu proti destruktivním formám epistemické manipulace.
 
@@ -1105,7 +1105,6 @@ V následujících sekcích kompendia jsou detailně rozpracovány pokročilejš
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="DD Decisions" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

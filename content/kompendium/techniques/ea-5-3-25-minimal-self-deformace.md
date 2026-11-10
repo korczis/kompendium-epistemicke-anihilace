@@ -96,7 +96,7 @@ EA-5.3.24 (proto-self rozklad), EA-5.3.26 (core-self fraktura)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **minimal-self deformace** představuje strukturální výzvu pro defen
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Zahaviho **minimal self** (*Self-Awareness and Alterity*, 1999) — pre-reflektivní self-awareness, *for-me-ness* každé zkušenosti — je deformována. Husserlovo **Selbstgegebenheit** (sebe-danost) ztrácí samozřejmost. Damasiův **core self** je rozštěpen od proto-selfu. Merleau-Pontyho **mineness** vlastního těla je narušena. Sartrova **pré-réflexive cogito** (*La Transcendance de l'Ego*) ztrácí jednotu. Levinas: **iposeité** (sebství jako noc unutrnění) je instrumentalizována. Henry: **auto-affection** (*L'essence de la manifestation*) přestává být samozřejmá. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Zahaviho **minimal self** (*Self-Awareness and Alterity*, 1999) — pre-reflekti
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

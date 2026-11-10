@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-1/"
 
 Klíčový mechanismus: **exploitace vlivu emocionálních stavů** na kognitivní zpracování — emocionální stres redukuje **System 2** uvažování, zvyšuje **heuristickou** evaluaci, snižuje **toleranci** kognitivní disonance. Manipulátor **strategicky** generuje specifický emocionální stav, který **predisponuje** subjekt k specifickému typu reakce.
 
-Klíčová charakteristika: **latentní** — emocionální indukce operuje **pod prahem** vědomé detekce. Subjekt prožívá emocionální stav jako "**přirozenou reakci**" na obsah, **bez** vědomí, že byl strategicky indukován.
+Klíčová charakteristika: **latentní** — emocionální indukce operuje **pod prahem** vědomé detekce. Subjekt prožívá emocionální stav jako „**přirozenou reakci**“ na obsah, **bez** vědomí, že byl strategicky indukován.
 
 ## Operační modus
 
@@ -49,20 +49,20 @@ Manipulátor etabluje **emocionálně neutrální** baseline — komfortní, př
 
 - Snižuje subjektovu vigilanci
 - Vytváří **kontrast** pro pozdější modulaci
-- Buduje "**důvěru**", která činí subjekta vulnerabilním
+- Buduje „**důvěru**“, která činí subjekta vulnerabilním
 
 ### Krok 2 — Strategická indukce emocionálního stavu
 
 V klíčových bodech manipulátor **subtilně** indukuje emocionální stav:
 
 - **Anxiety**: rychlé tempo, urgent tone, časový tlak, hyperbolické prezentace důsledků
-- **Vina**: framing subjektovo "selhání" jako morální failure
-- **Stud**: implicitní porovnání s "**správnými**" jedinci
+- **Vina**: framing subjektovo „selhání“ jako morální failure
+- **Stud**: implicitní porovnání s „**správnými**“ jedinci
 - **Frustrace**: introdukce neřešitelných paradoxů, pak nabídka manipulátorovho řešení
 - **Strach**: catastrophic framing potential outcomes
 - **Identity threat**: zpochybnění subjektovy kompetence, integrity, hodnoty
 
-Indukce je **subtilní** — bez explicit prohlášení "**měli byste cítit X**". Místo toho **strukturální** generování emocionálního kontextu, který produkuje X.
+Indukce je **subtilní** — bez explicit prohlášení „**měli byste cítit X**“. Místo toho **strukturální** generování emocionálního kontextu, který produkuje X.
 
 ### Krok 3 — Asociace emocionálního stavu se specifickou propozicí
 
@@ -148,7 +148,7 @@ Vědomé monitorování dramaticky redukuje subliminální vliv.
 
 **Nehodnoť** propozice v emocionálně charged stavu:
 
-- "Vrátím se k tomu, až budu klidnější"
+- „Vrátím se k tomu, až budu klidnější“
 - 24-hodinová pauza mezi expozicí a rozhodnutím
 - Emocionálně neutrální environment pro evaluaci
 
@@ -156,7 +156,7 @@ Vědomé monitorování dramaticky redukuje subliminální vliv.
 
 Při detekci emocionální charge **explicitně** zformuluj:
 
-> *"Cítím se v této diskusi anxious. Zajímalo by mě, **proč**. Můžeme zpomalit a zaměřit se na substantivu?"*
+> *„Cítím se v této diskusi anxious. Zajímalo by mě, **proč**. Můžeme zpomalit a zaměřit se na substantivu?“*
 
 Meta-úroveň přerušuje strukturální vzorec.
 
@@ -192,11 +192,11 @@ PhD student spent 3 roky pracujíc na specifickém theoretickém approach pod me
 
 Detekce: Externí klinický psycholog identifikoval, že emocionální response **byly asociované s mentorem**, ne s materiálem samotným. Bez mentorovy expectation byl student schopen calmly evaluovat alternative.
 
-Intervence: Strukturální separace — student vystaven alternative material **mimo** mentorův kontext, s explicit framing "**studujeme alternativy bez závazku**".
+Intervence: Strukturální separace — student vystaven alternative material **mimo** mentorův kontext, s explicit framing „**studujeme alternativy bez závazku**“.
 
 ### Případ 2 — Klinické konzultace
 
-Pacient akceptoval invasive treatment plan. **Post hoc** report: "**Pamatuji si, že jsem se cítil/a velmi anxious; lékař zněl tak jistě, že kdybych nesouhlasil/a, cítil/a bych se odpovědně za bad outcome.**"
+Pacient akceptoval invasive treatment plan. **Post hoc** report: „**Pamatuji si, že jsem se cítil/a velmi anxious; lékař zněl tak jistě, že kdybych nesouhlasil/a, cítil/a bych se odpovědně za bad outcome.**“
 
 Detekce: Patient advocate zaznamenal vzorec — pacienti **systematically** reported **anxiety + guilt** asociované se specifickou klinikou.
 
@@ -216,24 +216,24 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
 
 - **[EA-1.4.1 Prosodická dominance](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md)** — sourozenecká: dominance + modulace synergují.
 - **[EA-1.5.2 Dominantní tělesné hieroglyfy](@/kompendium/techniques/ea-1-5-2-dominantni-telesne-hieroglyfy.md)** — neverbální dominance + emocionální modulace = **comprehensive** psychic pressure.
-- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — emocionální cost falsifikace zvyšuje effectiveness imunizace.
+- **[EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)** — emocionální cost [falsifikace](@/glossary/falsifikace.md) zvyšuje effectiveness imunizace.
 - **[EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md)** — emocionální tlak na rychlé rozhodnutí v binárním rámci.
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — emocionální modulace je **klíčový** mechanism establishment dependence.
+- **EA-1.6.1 Vzorec „Guru a adept“** — emocionální modulace je **klíčový** mechanism establishment dependence.
 - **Sektářská dynamika** — strukturální použití emocionální modulace je defining feature manipulativních skupin.
 
 ### Hraniční / podobné
 
 - **Legitimní emocionální komunikace** — strukturálně podobná, ale **transparentní** o emocionálním obsahu a **bez asymetrické exploitation**.
-- **Therapeutic emotional engagement** — vyžaduje informed consent a explicit ethical framework.
+- **Therapeutic emotional engagement** — vyžaduje [informed consent](@/glossary/informed-consent.md) a explicit ethical framework.
 
 ## Vztah k Prismatic platformě
 
-- **Decision Engine emotional context flagging** — kalibrace explicitně penalizuje rozhodnutí přijatá v identifikovaném emocionálním distress.
-- **Color Teams Black Team protocols** — explicit threat modeling pro emocionální adversarial scenarios.
-- **OSINT investigator wellness protocols** — strukturální obrana proti vicarious emocionální manipulaci dlouhodobou exposure k manipulativním materiálům.
+- **[Decision Engine](@/glossary/decision-engine.md) emotional context flagging** — kalibrace explicitně penalizuje rozhodnutí přijatá v identifikovaném emocionálním distress.
+- **[Color Teams](@/glossary/color-teams.md) [Black Team](@/glossary/black-team.md) protocols** — explicit threat modeling pro emocionální adversarial scenarios.
+- **[OSINT](@/glossary/osint.md) investigator wellness protocols** — strukturální obrana proti vicarious emocionální manipulaci dlouhodobou exposure k manipulativním materiálům.
 
 ## Související
 
@@ -247,7 +247,6 @@ Intervence: Leadership coaching; **structural** safe space for substantive criti
   - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
   - [Epistemická alienace](@/glossary/epistemicka-alienace.md)
   - [Anankastický režim](@/glossary/anankasticky-rezim.md)
-
 
 ## ⚡ Kritický krok
 

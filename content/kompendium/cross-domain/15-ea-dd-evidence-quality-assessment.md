@@ -15,7 +15,7 @@ toc = true
 
 # EA × Due Diligence: Evidence Quality Tiering
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **Due Diligence**.
+> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
 
 ## Doména
 
@@ -63,7 +63,6 @@ DD finding 'target has $50M in cash': tier-1 (bank confirmation) vs. tier-4 (man
 
 Compliance review: 67 % findings v report measured by tier-4 evidence — escalated for upgrade před close
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

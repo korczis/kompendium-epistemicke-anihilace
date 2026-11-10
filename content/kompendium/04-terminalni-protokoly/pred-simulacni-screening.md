@@ -129,7 +129,7 @@ Specifický nástroj: dvoufázový souhlasný rozhovor s časovým rozestupem; p
 
 Informovaný souhlas pro účast v intenzivních simulačních protokolech musí splňovat následující strukturální požadavky:
 
-1. **Specifičnost** — souhlas se vztahuje ke konkrétnímu protokolu, nikoli generický k "výcvikovým aktivitám".
+1. **Specifičnost** — souhlas se vztahuje ke konkrétnímu protokolu, nikoli generický k „výcvikovým aktivitám“.
 2. **Komprehensivita** — subjekt rozumí povaze expozice, identifikovaným rizikům, a postexpoziční rekonstituci.
 3. **Dvoufázovost** — souhlas je udělen ve dvou samostatných sezeních s minimálně sedmidenní pauzou.
 4. **Parafrázový test** — subjekt je požádán, aby vlastními slovy popsal, s čím souhlasí; nesoulad indikuje neúplné porozumění.
@@ -201,7 +201,6 @@ Doporučení: screening je etablován jako **kontinuální klinický vztah**, ni
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

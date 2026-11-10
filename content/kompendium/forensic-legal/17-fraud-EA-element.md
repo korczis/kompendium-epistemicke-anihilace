@@ -2,9 +2,11 @@
 title = "Podvod jako element EA"
 description = "Forenzni a pravni rozmer EA — podvod jako element ea."
 weight = 17
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "legal-frameworks"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["15-witness-tampering", "16-civil-conspiracy-EA", "18-medical-malpractice-EA", "19-professional-misconduct-EA"]
 parent = "kompendium-forensic-legal"
@@ -15,7 +17,7 @@ toc = true
 
 ## Pravni / forenzni kontext
 
-EA casto zahrnuje podvodne misrepresentation (love bombing, false credentials, vymyslene identity) jako gateway mechanism. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
+EA casto zahrnuje podvodne misrepresentation ([love bombing](@/glossary/love-bombing.md), false credentials, vymyslene identity) jako gateway mechanism. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
 psychologii s pravnimi standardy dokazovani, kde pattern coercive control
 musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
 proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

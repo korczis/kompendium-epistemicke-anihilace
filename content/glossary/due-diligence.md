@@ -7,7 +7,7 @@ description = "Comprehensive investigation and analysis of a business entity, in
 tags = ["glossary", "intelligence", "compliance", "osint", "kyc", "aml", "risk-assessment", "entity-resolution", "sanctions"]
 
 [extra]
-category = "intelligence"
+category = "bezpečnost a zpravodajství"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "12 min"
@@ -47,11 +47,11 @@ In the Prismatic Platform, due diligence is implemented as a comprehensive intel
 
 ## Overview
 
-The practice of due diligence has its origins in securities law -- specifically Section 11 of the U.S. Securities Act of 1933, which established a "due diligence defense" for underwriters who could demonstrate they had conducted a reasonable investigation before offering securities. Over the following nine decades, the concept expanded far beyond securities to encompass mergers and acquisitions, venture capital investment, private equity transactions, commercial lending, partnership agreements, vendor onboarding, and regulatory compliance.
+The practice of due diligence has its origins in securities law — specifically Section 11 of the U.S. Securities Act of 1933, which established a “due diligence defense” for underwriters who could demonstrate they had conducted a reasonable investigation before offering securities. Over the following nine decades, the concept expanded far beyond securities to encompass mergers and acquisitions, venture capital investment, private equity transactions, commercial lending, partnership agreements, vendor onboarding, and regulatory compliance.
 
 The regulatory landscape driving due diligence has intensified dramatically since the early 2000s:
 
-**Anti-Money Laundering (AML)**: The Financial Action Task Force (FATF) recommendations, the EU Anti-Money Laundering Directives (AMLD4, AMLD5, AMLD6), and national transpositions require financial institutions and "obliged entities" to perform Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD) on customers, beneficial owners, and transactions.
+**Anti-Money Laundering (AML)**: The Financial Action Task Force (FATF) recommendations, the EU Anti-Money Laundering Directives (AMLD4, AMLD5, AMLD6), and national transpositions require financial institutions and “obliged entities” to perform Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD) on customers, beneficial owners, and transactions.
 
 **Know Your Customer (KYC)**: Regulatory frameworks including the USA PATRIOT Act, EU AMLD, and local regulations require organizations to verify the identity of their customers, assess their risk profile, and monitor their transactions for suspicious activity.
 
@@ -59,7 +59,7 @@ The regulatory landscape driving due diligence has intensified dramatically sinc
 
 **Beneficial Ownership Transparency**: The EU's 5th AMLD and national registers (including the Czech Republic's register of beneficial owners under Act No. 37/2021 Coll.) require identification and verification of ultimate beneficial owners holding more than 25% ownership or control.
 
-The evolution from manual due diligence to automated, intelligence-driven due diligence represents a fundamental shift in capability. Manual processes involving document review by teams of analysts have given way to automated systems that can query hundreds of data sources in parallel, resolve entities across fragmented datasets, map corporate ownership graphs, detect sanctions hits through fuzzy matching, and generate risk scores -- all within minutes rather than weeks.
+The evolution from manual due diligence to automated, intelligence-driven due diligence represents a fundamental shift in capability. Manual processes involving document review by teams of analysts have given way to automated systems that can query hundreds of data sources in parallel, resolve entities across fragmented datasets, map corporate ownership graphs, detect sanctions hits through fuzzy matching, and generate risk scores — all within minutes rather than weeks.
 
 ## Technical Details
 
@@ -473,10 +473,10 @@ The `prismatic_dd` OTP application provides the core due diligence engine with c
 
 ### OSINT Source Integration
 
-The platform integrates 120+ OSINT source adapters organized across categories:
+The platform integrates 120+ [OSINT](@/glossary/osint.md) source adapters organized across categories:
 
 - **Czech Registries** (28 adapters): ARES, Justice.cz (Commercial Register, ISIR), RZP, CUZK, Registr Smluv, Beneficial Owners, and more
-- **Global Sources** (84 adapters): Shodan, VirusTotal, Censys, Hunter.io, and domain/IP intelligence providers
+- **Global Sources** (84 adapters): [Shodan](@/glossary/shodan.md), VirusTotal, [Censys](@/glossary/censys.md), Hunter.io, and domain/IP intelligence providers
 - **Sanctions Lists** (3 adapters): EU consolidated list, OFAC SDN, UN consolidated list
 - **Regional Sources**: European Business Register (EU), Companies House (UK), SEC EDGAR (US)
 
@@ -533,7 +533,7 @@ Every due diligence finding undergoes [triple-check](https://prismatic-reality-c
 
 5. **Jurisdiction Blindness**: Applying a single due diligence methodology across all jurisdictions without accounting for local regulatory requirements, available data sources, and cultural naming conventions.
 
-6. **Threshold Rigidity**: Using fixed risk thresholds without considering context. A sanctions similarity score of 0.87 might be a clear match for a short name ("Li Wei") but a false positive for a long corporate name with common words.
+6. **Threshold Rigidity**: Using fixed risk thresholds without considering context. A sanctions similarity score of 0.87 might be a clear match for a short name (“Li Wei”) but a false positive for a long corporate name with common words.
 
 7. **Missing Negative Indicators**: Focusing only on what is found without considering what is missing. The absence of expected registry entries, financial filings, or web presence can be more significant than any individual finding.
 
@@ -563,25 +563,25 @@ Organizations subject to sanctions regulations use the platform for continuous s
 
 ## Related Concepts
 
-- [KYC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kyc/) -- Know Your Customer compliance requirements for identity verification
-- [AML](https://prismatic-reality-com.github.io/prismatic-promo/glossary/aml/) -- Anti-Money Laundering regulatory framework and detection methodologies
-- [Sanctions Screening](@/glossary/sanctions-screening.md) -- Automated screening against sanctions and watchlists
-- [Beneficial Ownership](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beneficial-ownership/) -- Identification of ultimate beneficial owners behind corporate structures
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Record linkage and identity consolidation across fragmented data sources
-- [Triple Check](https://prismatic-reality-com.github.io/prismatic-promo/glossary/triple-check/) -- Three-source cross-validation methodology for establishing verified claims
-- [Risk Score](@/glossary/risk-score.md) -- Quantified risk assessment output with letter grades and numeric scores
-- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) -- Graph structure storing entity relationships and ownership chains
-- [Compliance Framework](@/glossary/compliance-framework.md) -- Regulatory compliance assessment and enforcement infrastructure
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework enforcing evidence plurality and provenance tracking
+- [KYC](https://prismatic-reality-com.github.io/prismatic-promo/glossary/kyc/) — Know Your Customer compliance requirements for identity verification
+- [AML](https://prismatic-reality-com.github.io/prismatic-promo/glossary/aml/) — Anti-Money Laundering regulatory framework and detection methodologies
+- [Sanctions Screening](@/glossary/sanctions-screening.md) — Automated screening against sanctions and watchlists
+- [Beneficial Ownership](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beneficial-ownership/) — Identification of ultimate beneficial owners behind corporate structures
+- [Entity Resolution](@/glossary/entity-resolution.md) — Record linkage and identity consolidation across fragmented data sources
+- [Triple Check](https://prismatic-reality-com.github.io/prismatic-promo/glossary/triple-check/) — Three-source cross-validation methodology for establishing verified claims
+- [Risk Score](@/glossary/risk-score.md) — Quantified risk assessment output with letter grades and numeric scores
+- [Knowledge Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/knowledge-graph/) — Graph structure storing entity relationships and ownership chains
+- [Compliance Framework](@/glossary/compliance-framework.md) — Regulatory compliance assessment and enforcement infrastructure
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework enforcing evidence plurality and provenance tracking
 
 ## See Also
 
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Quantified security posture assessment for vendor risk
-- [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) -- External Attack Surface Management complementing DD investigations
-- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) -- Czech cybersecurity regulation relevant to compliance due diligence
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable logging of investigation steps for regulatory evidence
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Quantified confidence levels for investigation findings
-- [Security Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-assessment/) -- Technical security evaluation of target entities
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) — Quantified security posture assessment for vendor risk
+- [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) — External Attack Surface Management complementing DD investigations
+- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) — Czech cybersecurity regulation relevant to compliance due diligence
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) — Immutable logging of investigation steps for regulatory evidence
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) — Quantified confidence levels for investigation findings
+- [Security Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-assessment/) — Technical security evaluation of target entities
 
 ---
 

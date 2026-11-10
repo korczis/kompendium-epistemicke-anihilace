@@ -7,7 +7,7 @@ description = "Visitor Intelligence system with behavioral analysis and threat d
 tags = ["glossary", "security", "hawkeye", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_app = "prismatic-visitor-intelligence"
 related_terms = ["easm", "osint", "threat-intelligence", "color-teams", "blue-team", "security-rating"]
 complexity_level = "advanced"
@@ -49,15 +49,15 @@ HAWKEYE is the Prismatic Platform's Visitor Intelligence system, a comprehensive
 
 At its core, HAWKEYE operates on the principle that meaningful security insight comes not from isolated data points but from the fusion of multiple behavioral and technical signals. A single HTTP request reveals little about intent, but when correlated with fingerprint data, navigation patterns, request timing, geolocation intelligence, and known threat indicators, a comprehensive visitor profile emerges. This multi-signal approach aligns with the NABLA Infinity framework's Signal Plurality axiom, which mandates a minimum of two independent signals before establishing any belief about visitor classification.
 
-The name HAWKEYE reflects the system's role as the platform's vigilant observer -- maintaining constant surveillance of visitor activity while operating invisibly to legitimate users. Unlike traditional Web Application Firewalls (WAFs) that operate on static rule sets, HAWKEYE employs adaptive behavioral models that evolve as threat landscapes change, providing defense-in-depth through intelligence rather than mere pattern matching.
+The name HAWKEYE reflects the system's role as the platform's vigilant observer — maintaining constant surveillance of visitor activity while operating invisibly to legitimate users. Unlike traditional Web Application Firewalls (WAFs) that operate on static rule sets, HAWKEYE employs adaptive behavioral models that evolve as threat landscapes change, providing defense-in-depth through intelligence rather than mere pattern matching.
 
 ## Overview
 
-Visitor Intelligence represents a paradigm shift from reactive security (blocking known bad actors) to proactive security (understanding visitor intent through behavioral analysis). Traditional security tools operate at the network or application layer, inspecting individual requests against signature databases. HAWKEYE operates at the intelligence layer, building composite visitor profiles that enable nuanced risk assessment.
+Visitor Intelligence represents a [paradigm shift](@/glossary/paradigm-shift.md) from reactive security (blocking known bad actors) to proactive security (understanding visitor intent through behavioral analysis). Traditional security tools operate at the network or application layer, inspecting individual requests against signature databases. HAWKEYE operates at the intelligence layer, building composite visitor profiles that enable nuanced risk assessment.
 
-The system processes visitor interactions through a multi-stage pipeline. Raw HTTP traffic is first subjected to technical fingerprinting -- extracting browser characteristics, TLS parameters, HTTP header patterns, and JavaScript-derived device properties. This technical profile is then enriched with geolocation data, ASN information, IP reputation scores, and OSINT-derived threat intelligence. Behavioral analysis tracks navigation patterns, request timing distributions, form interaction sequences, and session anomalies to distinguish between human visitors, automated scrapers, vulnerability scanners, and sophisticated adversaries.
+The system processes visitor interactions through a multi-stage pipeline. Raw HTTP traffic is first subjected to technical fingerprinting — extracting browser characteristics, TLS parameters, HTTP header patterns, and JavaScript-derived device properties. This technical profile is then enriched with geolocation data, ASN information, IP reputation scores, and OSINT-derived threat intelligence. Behavioral analysis tracks navigation patterns, request timing distributions, form interaction sequences, and session anomalies to distinguish between human visitors, automated scrapers, vulnerability scanners, and sophisticated adversaries.
 
-HAWKEYE's classification engine assigns visitors to risk categories (benign, suspicious, malicious, unknown) with associated confidence scores. These classifications feed into the platform's broader security ecosystem, providing visitor-level signals that inform access control decisions, rate limiting policies, and incident response workflows. The system's integration with the Color Team security architecture ensures that HAWKEYE findings are consumed by Blue Team defensive agents, correlated by Purple Team synthesis operations, and tested against Red Team adversarial scenarios.
+HAWKEYE's classification engine assigns visitors to risk categories (benign, suspicious, malicious, unknown) with associated confidence scores. These classifications feed into the platform's broader security ecosystem, providing visitor-level signals that inform access control decisions, rate limiting policies, and incident response workflows. The system's integration with the Color Team security architecture ensures that HAWKEYE findings are consumed by Blue Team defensive agents, correlated by [Purple Team](@/glossary/purple-team.md) synthesis operations, and tested against [Red Team](@/glossary/red-team.md) adversarial scenarios.
 
 ## Technical Details
 
@@ -210,7 +210,7 @@ end
 | **Real-time classification** | Sub-second, confidence-weighted | Millisecond, binary allow/deny | Seconds, score-based | Minutes to hours |
 | **Epistemic rigor** | NABLA axiom compliance, provenance tracking | None | Proprietary models | Correlation rules |
 
-HAWKEYE's primary differentiator is its integration with the Prismatic Platform's epistemic infrastructure. Unlike commercial alternatives that produce opaque risk scores, HAWKEYE classifications carry full provenance metadata, confidence levels, and contributing signal attribution -- enabling analysts to understand not just what was decided but why, satisfying the NABLA framework's Provenance Mandatory axiom.
+HAWKEYE's primary differentiator is its integration with the Prismatic Platform's epistemic infrastructure. Unlike commercial alternatives that produce opaque risk scores, HAWKEYE classifications carry full provenance metadata, confidence levels, and contributing signal attribution — enabling analysts to understand not just what was decided but why, satisfying the NABLA framework's Provenance Mandatory axiom.
 
 ## Best Practices
 
@@ -236,7 +236,7 @@ HAWKEYE's primary differentiator is its integration with the Prismatic Platform'
 
 - **Blue Team Signal Feed**: HAWKEYE's real-time visitor classifications feed directly into the Blue Team's `blue-signal-aggregator` agent, providing the visitor intelligence dimension of the platform's multi-layered defensive posture. Suspicious visitor patterns trigger Blue Team investigation workflows.
 
-- **Security Rating Input**: Visitor intelligence contributes to the platform's overall security rating calculation, where the volume and sophistication of detected threats against an asset influences its risk score in the Prismatic Perimeter EASM system.
+- **Security Rating Input**: Visitor intelligence contributes to the platform's overall security rating calculation, where the volume and sophistication of detected threats against an asset influences its [risk score](@/glossary/risk-score.md) in the Prismatic Perimeter EASM system.
 
 ## Related Concepts
 
@@ -252,14 +252,14 @@ HAWKEYE's primary differentiator is its integration with the Prismatic Platform'
 
 ## See Also
 
-- [prismatic_visitor_intelligence](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_visitor_intelligence/README.md) -- HAWKEYE visitor intelligence application
-- [prismatic_hawkeye](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye/README.md) -- HAWKEYE core engine
-- [prismatic_hawkeye_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye_web/README.md) -- HAWKEYE web dashboard
-- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) -- Complementary EASM for external posture
-- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) -- OSINT enrichment for visitor profiles
-- [prismatic_tracking](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_tracking/README.md) -- Behavioral tracking infrastructure
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Security and intelligence capabilities overview
+- [prismatic_visitor_intelligence](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_visitor_intelligence/README.md) — HAWKEYE visitor intelligence application
+- [prismatic_hawkeye](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye/README.md) — HAWKEYE core engine
+- [prismatic_hawkeye_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_hawkeye_web/README.md) — HAWKEYE web dashboard
+- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) — Complementary EASM for external posture
+- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) — OSINT enrichment for visitor profiles
+- [prismatic_tracking](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_tracking/README.md) — Behavioral tracking infrastructure
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform security architecture
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Security and intelligence capabilities overview
 
 ---
 

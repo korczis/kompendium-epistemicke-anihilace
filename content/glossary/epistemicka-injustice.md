@@ -8,7 +8,7 @@ description = "Fricker's framework distinguishing testimonial and hermeneutical 
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "panopticism", "power-knowledge", "metanarrative-collapse"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"

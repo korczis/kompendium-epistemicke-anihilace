@@ -51,7 +51,7 @@ Schopnost zachytit chybu před jejím projevem; zkrácení reakční doby od chy
 
 ## Limitace
 
-Metakognice nenahrazuje epistemickou robustnost — člověk si může uvědomovat své myšlení a stále se mýlit. Riziko nadměrné introspekce a paralýzy analýzou.
+[Metakognice](@/glossary/metakognice.md) nenahrazuje epistemickou robustnost — člověk si může uvědomovat své myšlení a stále se mýlit. Riziko nadměrné introspekce a paralýzy analýzou.
 
 ## Cross-linky
 

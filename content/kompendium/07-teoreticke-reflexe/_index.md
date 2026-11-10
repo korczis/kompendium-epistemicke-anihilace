@@ -61,7 +61,7 @@ Sekce 02 představuje **operativní** teoretický rámec nutný pro klasifikačn
 
 Klasifikační techniky popsané v sekci 03 (selektivní expozice, falešné dilema, imunizace proti falsifikaci, prosodická dominance atd.) získávají v sekci 07 **filozofické osvětlení**:
 
-- Power-knowledge analytika (Foucault) → strukturální zarámování technik delegitimizace
+- [Power-knowledge](@/glossary/power-knowledge.md) analytika (Foucault) → strukturální zarámování technik delegitimizace
 - Negativní dialektika (Adorno) → kritika instrumentálního využití klasifikace samé
 - Komunikativní racionalita (Habermas) → normativní kritérium pro odlišení manipulace od legitimní argumentace
 
@@ -91,7 +91,7 @@ Sekce 07 zaujímá **post-fundacionalistickou** pozici: odmítá jak naivní poz
 Sekce 07 explicitně **rozpoznává** dvě teoretická rizika:
 
 1. **Hypertheorizace** — situace, v níž teoretický aparát překrývá empirický předmět natolik, že přestává být kritérium pro testovatelnost. Kompendium se brání udržováním tvrdé vazby na klasifikované techniky a klinické observace.
-2. **Politická kooptace** — riziko, že kritická teorie EA bude sama instrumentalizována pro epistemicky problematické účely (např. delegitimizace politických oponentů jako "epistemicky anihilujících"). Kompendium se brání důslednou metakognitivní transparentností a explicitními etickými hranicemi (viz [01 — Předmluva](@/kompendium/01-predmluva/_index.md)).
+2. **Politická kooptace** — riziko, že kritická teorie EA bude sama instrumentalizována pro epistemicky problematické účely (např. delegitimizace politických oponentů jako „epistemicky anihilujících“). Kompendium se brání důslednou metakognitivní transparentností a explicitními etickými hranicemi (viz [01 — Předmluva](@/kompendium/01-predmluva/_index.md)).
 
 ## Vztah k platformě Prismatic
 
@@ -123,7 +123,6 @@ Teoretické rámce této sekce **strukturálně rezonují** s architekturou plat
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

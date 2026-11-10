@@ -8,7 +8,7 @@ description = "Freyd's theory of trauma inflicted by trusted attachment figures,
 tags = ["glossary", "epistemic", "kompendium", "trauma"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "c-ptsd", "kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "epistemicka-injustice"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -26,7 +26,7 @@ image_alt = "Betrayal Trauma - glossary"
 
 **Betrayal Trauma** is a category of trauma articulated by Jennifer Freyd (1996) in *Betrayal Trauma: The Logic of Forgetting Childhood Abuse* and extended in **Betrayal Trauma Theory (BTT)**. It refers to harm inflicted by a person, institution, or system on which the victim depends for survival, care, attachment, or identity — a parent, partner, therapist, religious institution, employer, state. Unlike threat-based trauma, where the adaptive response is fight/flight, betrayal trauma generates a competing adaptive imperative: the victim **must not** fully know the betrayal, because explicit knowledge would force withdrawal from the necessary attachment. The result is **knowledge isolation**: the victim dissociates, forgets, minimizes, or systematically reframes the harm to preserve the relationship.
 
-Freyd's central insight is that **dissociation is rational** under conditions of dependency. When the cost of knowing exceeds the cost of not-knowing, the cognitive system reorganizes around selective unawareness. This produces characteristic features: betrayal blindness, motivated forgetting, internalized self-blame ("I caused this"), and what Freyd and Birrell later called **DARVO** (Deny, Attack, Reverse Victim and Offender) — a perpetrator-side pattern that exploits and reinforces victim-side blindness.
+Freyd's central insight is that **dissociation is rational** under conditions of dependency. When the cost of knowing exceeds the cost of not-knowing, the cognitive system reorganizes around selective unawareness. This produces characteristic features: betrayal blindness, motivated forgetting, internalized self-blame (“I caused this”), and what Freyd and Birrell later called **[DARVO](@/glossary/darvo.md)** (Deny, Attack, Reverse Victim and Offender) — a perpetrator-side pattern that exploits and reinforces victim-side blindness.
 
 BTT is empirically robust: high-betrayal trauma predicts dissociative symptoms, alexithymia, and **Complex PTSD** features more reliably than low-betrayal trauma of equivalent severity. Institutional betrayal — by churches, militaries, universities, healthcare systems — extends the framework beyond intimate relationships.
 
@@ -51,6 +51,7 @@ Specifically:
 - [Epistemická injustice](@/glossary/epistemicka-injustice.md) — Institutional-level epistemic harm
 - [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
 - [Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) — Clinical applications
+- [Bridge: betrayal-trauma](@/kompendium/glossary-bridges/bridge-betrayal-trauma.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

@@ -125,7 +125,7 @@ mezi pódiem a soukromím.
 Použit byl [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) s prioritou bezpečnosti
 a právní ochrany. Jeho stupně (S1 validace a mapování, S2 externalizace introjektů, S3 rekonstrukce
-metakognice, S4 hermeneutická obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího
+[metakognice](@/glossary/metakognice.md), S4 hermeneutická obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího
 léčebného plánu, který proběhl v pěti fázích:
 
 **Fáze 1 – Stabilizace:** detoxifikace (viz [substance use v EA-emergency](@/kompendium/emergency-protocols/26-substance-EA.md)),

@@ -2,9 +2,11 @@
 title = "Kriminalni konspirace"
 description = "Forenzni a pravni rozmer EA — kriminalni konspirace."
 weight = 20
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "legal-frameworks"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["19-professional-misconduct-EA", "2-credibility-assessment", "21-expert-witness-EA", "22-fact-witness-protection"]
 parent = "kompendium-forensic-legal"
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

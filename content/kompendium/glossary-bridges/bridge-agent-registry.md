@@ -34,7 +34,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Mycelial orchestration**: Agent Registry jako základ /mycelialize a /orchestrate příkazů
 - **Sekce 04 — Color-team operations**: registry indexuje red/blue/green/black/gray/white teamy
-- **Sekce 05 — Domain specialization**: OSINT, DD, security, quality, evolution agentní rodiny
+- **Sekce 05 — Domain specialization**: [OSINT](@/glossary/osint.md), DD, security, quality, evolution agentní rodiny
 - **Sekce 07 — AIAD doctrine**: registry jako epistemická vrstva nad raw modely
 - **Per-technique články**: agent invocation patterns, tier hierarchie, supervision
 

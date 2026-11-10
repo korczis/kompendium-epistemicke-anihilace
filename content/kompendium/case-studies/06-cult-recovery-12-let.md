@@ -104,7 +104,7 @@ setkání s bývalou členkou, která odešla o několik let dříve, mu dalo ja
   skupině a toho, co se kdy změnilo.
 - **S2 – Externalizace introjektů:** slovník vnitřního jazyka s překladem do běžné češtiny;
   oddělení hlasu vůdce od vlastního.
-- **S3 – Rekonstrukce metakognice:** nácvik rozhodování v malých, nízkorizikových situacích;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik rozhodování v malých, nízkorizikových situacích;
   znovuobjevení vlastních preferencí.
 - **S4 – Hermeneutická obnova:** porozumění tomu, proč do skupiny vstoupil, bez sebeobviňování;
   rozlišení hodnot, které si ponechá (služba druhým), od jejich zneužití.

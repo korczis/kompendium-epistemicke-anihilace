@@ -7,7 +7,7 @@ description = "Independent ethics committee evaluation of research involving hum
 tags = ["ethics", "research", "compliance", "regulatory"]
 
 [extra]
-category = "ethics"
+category = "etika"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -31,7 +31,7 @@ An Institutional Review Board (IRB) — known as a Research Ethics Committee (RE
 
 ## Manažerské shrnutí
 
-IRB review (v ČR etická komise) je nezávislý orgán, jehož schválení je nutnou podmínkou pro většinu výzkumu zahrnujícího lidské účastníky. Posuzuje protokol, dokumenty informovaného souhlasu, plán náboru, strategii nakládání s daty, a poměr rizika a přínosu. V Prismatic Platform je IRB-rámec relevantní nejen pro klinický a behaviorální výzkum, ale stále více také pro AI/ML studie zahrnující lidská data, pro UX výzkumy, pro studie sociálních sítí (OSINT na živých osobách), a pro některé DD operace, kde dochází k systematickému sběru osobních údajů. České prostředí kombinuje zákon č. 372/2011 Sb. o zdravotních službách, EU 536/2014 (klinická hodnocení), a GDPR pro datovou složku.
+IRB review (v ČR etická komise) je nezávislý orgán, jehož schválení je nutnou podmínkou pro většinu výzkumu zahrnujícího lidské účastníky. Posuzuje protokol, dokumenty informovaného souhlasu, plán náboru, strategii nakládání s daty, a poměr rizika a přínosu. V Prismatic Platform je IRB-rámec relevantní nejen pro klinický a behaviorální výzkum, ale stále více také pro AI/ML studie zahrnující lidská data, pro UX výzkumy, pro studie sociálních sítí ([OSINT](@/glossary/osint.md) na živých osobách), a pro některé DD operace, kde dochází k systematickému sběru osobních údajů. České prostředí kombinuje zákon č. 372/2011 Sb. o zdravotních službách, EU 536/2014 (klinická hodnocení), a GDPR pro datovou složku.
 
 ## Forensic/Legal Context
 

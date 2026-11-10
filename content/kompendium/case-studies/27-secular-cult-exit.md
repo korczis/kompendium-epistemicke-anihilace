@@ -90,7 +90,7 @@ nešlo převést do slovníku workshopu, protože šlo o čísla a o konkrétní
   pro něj skutečně silná.
 - **S2 – Externalizace introjektů:** slovník programu sepsán a přeložen; zvláštní pozornost
   větám, které znevažují minulost („to je jen tvůj příběh“).
-- **S3 – Rekonstrukce metakognice:** kritické čtení literatury o myšlenkové reformě (Lifton 1961)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** kritické čtení literatury o myšlenkové reformě (Lifton 1961)
   a o skupinách s vysokou kontrolou; srovnání vlastní zkušenosti s popsanými vzorci.
 - **S4 – Hermeneutická obnova:** návrat vlastního životního příběhu jako legitimního, ne jako
   „rakety“.
@@ -111,7 +111,7 @@ pocitech bez formule. Stud vůči přátelům, které do programu přivedl, ře�
 - **Hypomanická epizoda po workshopu:** euforie a snížená potřeba spánku vyžadují psychiatrické
   posouzení.
 - **Vyhoření bez skupinové kontroly:** únava bez jazykové a vztahové totalizace.
-- **Náboženská konverze:** podobná fenomenologie, jiný rámec; srovnej [případ 26](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md).
+- **Náboženská konverze:** podobná [fenomenologie](@/glossary/fenomenologie.md), jiný rámec; srovnej [případ 26](@/kompendium/case-studies/26-religiozni-fanatismus-exit.md).
 
 ## 10. Právní a institucionální rámec
 

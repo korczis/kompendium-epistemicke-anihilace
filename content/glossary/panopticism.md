@@ -8,7 +8,7 @@ description = "Foucault's analysis of the panoptic disciplinary mechanism (Disci
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["power-knowledge", "epistemicka-injustice", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -39,7 +39,7 @@ Specifically:
 - **EA-1.2.x delegitimization techniques** scaled to institutional contexts (workplace, university, religious community, state) operate via panoptic asymmetries: the victim is visible (every utterance scrutinized) while the evaluation criteria remain opaque. This produces structural self-censorship.
 - **EA-2.x metakognitivní destrukce** at institutional scale corresponds to internalized panoptic self-surveillance: the victim no longer needs to be watched, because they have absorbed the evaluative gaze into their own reflective apparatus. See [/glossary/metakognitivni-destrukce/](@/glossary/metakognitivni-destrukce.md).
 - The kompendium at [/kompendium/03-zakladni-kategorie/](@/kompendium/03-zakladni-kategorie/_index.md) treats panoptic structure as one of the **categorical conditions** under which interpersonal manipulation techniques scale to mass effect.
-- The [Color Teams](@/glossary/color-teams.md) framework includes explicit modeling of panoptic threat scenarios — Red Team simulations test whether the platform's own observability infrastructure (telemetry, logging, audit trails) could be weaponized into panoptic mechanisms against its users.
+- The [Color Teams](@/glossary/color-teams.md) framework includes explicit modeling of panoptic threat scenarios — [Red Team](@/glossary/red-team.md) simulations test whether the platform's own observability infrastructure (telemetry, logging, audit trails) could be weaponized into panoptic mechanisms against its users.
 - Foucault's analysis is paired in [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) with [power-knowledge](@/glossary/power-knowledge.md) as a single integrated diagnostic apparatus for institutional epistemic harm.
 
 The platform's commitment to **transparency** (open source, auditable algorithms, public schema) is a structural counter-panoptic move: it inverts the asymmetry by making the watcher itself watchable.

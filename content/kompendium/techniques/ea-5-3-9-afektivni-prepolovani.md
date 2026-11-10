@@ -92,11 +92,11 @@ Co může vidět vnější pozorovatel:
 
 ### Sister UM techniky (subkategorie 5.3 Hypertransformativní protokoly)
 
-EA-5.3.4 (tělesná disociace), EA-5.3.22 (morální osy inverze)
+EA-5.3.4 (tělesná [disociace](@/glossary/disociace.md)), EA-5.3.22 (morální osy inverze)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,18 +123,17 @@ Technika **afektivní přepólování** představuje strukturální výzvu pro d
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
-Damasiovy **somatické markery** (*Descartes' Error*) — emoce jako tělové signály orientující rozhodování — jsou inverzně přemapovány: pozitivní markery na škodlivé objekty a vice versa. Merleau-Pontyho **emoční inkarnace** (*Le Visible et l'invisible*) ukazuje, že emoce jsou tělové styly bytí ve světě — přepolování fragmentuje styl. Husserlova **afektivní intencionalita** (*Studien zur Struktur des Bewußtseins*) je obrácena. Levinasovo **affect** jako pasivní zranitelnost před druhým je obráceno do agresivní polarity. Heideggerova **Befindlichkeit** (naladěnost, *Sein und Zeit* §29) — způsob bytí-ve-světě — je rekonfigurována: subjekt je 'naladěn' opačně oproti svému historickému základu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Damasiovy **somatické markery** (*Descartes' Error*) — emoce jako tělové signály orientující rozhodování — jsou inverzně přemapovány: pozitivní markery na škodlivé objekty a vice versa. Merleau-Pontyho **emoční inkarnace** (*Le Visible et l'invisible*) ukazuje, že emoce jsou tělové styly bytí ve světě — přepolování fragmentuje styl. Husserlova **afektivní [intencionalita](@/glossary/intencionalita.md)** (*Studien zur Struktur des Bewußtseins*) je obrácena. Levinasovo **affect** jako pasivní zranitelnost před druhým je obráceno do agresivní polarity. Heideggerova **Befindlichkeit** (naladěnost, *Sein und Zeit* §29) — způsob bytí-ve-světě — je rekonfigurována: subjekt je 'naladěn' opačně oproti svému historickému základu. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
 - **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
 
 ## Diferenciální diagnostika

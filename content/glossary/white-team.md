@@ -7,7 +7,7 @@ description = "Constructive verification team for formal proofs and contract val
 tags = ["glossary", "security", "white-team", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["color-teams", "trinity-gate", "nabla-infinity", "purple-team"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -23,7 +23,7 @@ image_alt = "White Team - Prismatic Platform"
 
 ## Definition & Overview
 
-The White Team is one of six specialized [Color Teams](@/glossary/color-teams.md) in the Prismatic Platform's epistemic security architecture. Comprising three agents operating at L3-L4 authority levels, the White Team is responsible for constructive verification---the discipline of proving that systems behave correctly through progressive verification methodology, formal mathematical proofs, contract validation, and invariant analysis. Unlike the [Red Team](@/glossary/red-team.md), which seeks to break systems through adversarial simulation, the White Team seeks to prove that systems hold.
+The White Team is one of six specialized [Color Teams](@/glossary/color-teams.md) in the Prismatic Platform's [epistemic security](@/glossary/epistemic-security.md) architecture. Comprising three agents operating at L3-L4 authority levels, the White Team is responsible for constructive verification---the discipline of proving that systems behave correctly through progressive verification methodology, formal mathematical proofs, contract validation, and invariant analysis. Unlike the [Red Team](@/glossary/red-team.md), which seeks to break systems through adversarial simulation, the White Team seeks to prove that systems hold.
 
 The White Team occupies a unique position in the Color Team signal flow architecture. While Red Team generates adversarial findings and [Blue Team](@/glossary/blue-team.md) maintains defensive posture, White Team provides the constructive evidence that systems satisfy their specified properties. This evidence feeds into [Purple Team](@/glossary/purple-team.md) closure decisions, where the combination of adversarial findings (Red), defensive posture (Blue), and constructive proofs (White) determines whether a security question has been definitively answered.
 
@@ -56,7 +56,7 @@ The White Team consists of three agents with distinct specializations and author
 
 ### Verification Methodology
 
-The White Team's verification methodology is constructive rather than destructive. Where Red Team asks "Can I break this?", White Team asks "Can I prove this holds?". The distinction is fundamental: constructive verification produces positive evidence of correctness, while adversarial testing produces negative evidence of vulnerability. Both are necessary for complete security assurance.
+The White Team's verification methodology is constructive rather than destructive. Where Red Team asks “Can I break this?”, White Team asks “Can I prove this holds?”. The distinction is fundamental: constructive verification produces positive evidence of correctness, while adversarial testing produces negative evidence of vulnerability. Both are necessary for complete security assurance.
 
 ```
 Verification Request
@@ -291,7 +291,7 @@ Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) -->
                                Black (threat models)     White (proofs)    Platform Defense
 ```
 
-White Team proofs flow into Purple Team, where they are combined with Red Team findings and Blue Team defensive posture to make closure decisions. A security question can only be "closed" when White Team has provided constructive verification that the relevant properties hold, Red Team has exhausted its adversarial scenarios, and Blue Team has confirmed defensive readiness.
+White Team proofs flow into Purple Team, where they are combined with Red Team findings and Blue Team defensive posture to make closure decisions. A security question can only be “closed” when White Team has provided constructive verification that the relevant properties hold, Red Team has exhausted its adversarial scenarios, and Blue Team has confirmed defensive readiness.
 
 ### SPARKLINE Contract Verification
 
@@ -342,7 +342,7 @@ All White Team output must pass the [Trinity Gate](@/glossary/trinity-gate.md) b
 
 - [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) - Platform architecture overview
 - [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) - Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - Agent registry including White Team agents
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) - [Agent registry](@/glossary/agent-registry.md) including White Team agents
 - [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) - Application ecosystem verified by White Team
 
 ---

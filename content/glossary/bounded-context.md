@@ -7,7 +7,7 @@ description = "Explicit boundary within which a domain model is defined and cons
 tags = ["glossary", "architecture", "bounded-context", "prismatic"]
 
 [extra]
-category = "architecture"
+category = "architektura platformy"
 subcategory = "domain-modeling"
 keywords = ["domain-driven-design", "bounded-context", "context-mapping", "ubiquitous-language", "anti-corruption-layer", "context-boundaries"]
 related_terms = ["domain-driven-design", "cqrs", "message-passing", "pubsub", "behaviour", "adapter-pattern", "event-sourcing", "process-isolation"]
@@ -43,11 +43,11 @@ image_alt = "Bounded Context - Prismatic Platform"
 
 ## Definition
 
-A bounded context is a strategic [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) pattern that defines an explicit boundary around a domain model where all terms, rules, and relationships are internally consistent. Within the boundary, every concept has a precise, unambiguous meaning. Across boundaries, the same word may mean entirely different things -- and this is not a defect but a deliberate design choice that allows each context to model its domain with maximum fidelity without being constrained by the modeling decisions of other contexts. The bounded context is DDD's primary tool for managing complexity in large systems: rather than attempting a single unified model of an entire business (which inevitably becomes an inconsistent compromise), the system is decomposed into contexts that each own their piece of the domain.
+A bounded context is a strategic [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) pattern that defines an explicit boundary around a domain model where all terms, rules, and relationships are internally consistent. Within the boundary, every concept has a precise, unambiguous meaning. Across boundaries, the same word may mean entirely different things — and this is not a defect but a deliberate design choice that allows each context to model its domain with maximum fidelity without being constrained by the modeling decisions of other contexts. The bounded context is DDD's primary tool for managing complexity in large systems: rather than attempting a single unified model of an entire business (which inevitably becomes an inconsistent compromise), the system is decomposed into contexts that each own their piece of the domain.
 
-The concept addresses a fundamental problem in software design: as systems grow, a single data model becomes a source of coupling and confusion. When the marketing team, the security team, and the infrastructure team all need to refer to a "customer," they mean different things. Marketing's customer has demographics and engagement scores. Security's customer has risk ratings and compliance postures. Infrastructure's customer has resource quotas and billing tiers. A bounded context allows each team (and each subsystem) to model "customer" as they understand it, with communication between contexts happening through well-defined interfaces rather than shared internal models.
+The concept addresses a fundamental problem in software design: as systems grow, a single data model becomes a source of coupling and confusion. When the marketing team, the security team, and the infrastructure team all need to refer to a “customer,” they mean different things. Marketing's customer has demographics and engagement scores. Security's customer has risk ratings and compliance postures. Infrastructure's customer has resource quotas and billing tiers. A bounded context allows each team (and each subsystem) to model “customer” as they understand it, with communication between contexts happening through well-defined interfaces rather than shared internal models.
 
-In the Prismatic Platform, each umbrella app functions as a bounded context. The `prismatic_perimeter` context defines "asset" as an external attack surface element (a domain, IP address, certificate, or service exposed to the internet), while `prismatic_storage_core` defines it as a storable entity conforming to the `Storable` trait. These are not competing definitions -- they are context-appropriate definitions. Communication between these contexts flows through Elixir [protocols](https://prismatic-reality-com.github.io/prismatic-promo/glossary/plug/) and [behaviours](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) defined in `prismatic_storage_core`, which acts as the shared kernel providing traits and contracts without imposing domain-specific semantics.
+In the Prismatic Platform, each umbrella app functions as a bounded context. The `prismatic_perimeter` context defines “asset” as an external attack surface element (a domain, IP address, certificate, or service exposed to the internet), while `prismatic_storage_core` defines it as a storable entity conforming to the `Storable` trait. These are not competing definitions — they are context-appropriate definitions. Communication between these contexts flows through Elixir [protocols](https://prismatic-reality-com.github.io/prismatic-promo/glossary/plug/) and [behaviours](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) defined in `prismatic_storage_core`, which acts as the shared kernel providing traits and contracts without imposing domain-specific semantics.
 
 ## Context Boundaries in the Prismatic Platform
 
@@ -104,7 +104,7 @@ This isolation ensures that changes to how `prismatic_perimeter` models assets c
 
 ### Published Interface
 
-Each bounded context exposes a public API -- its published interface -- through a facade module. Internal implementation details are hidden behind this interface.
+Each bounded context exposes a public API — its published interface — through a facade module. Internal implementation details are hidden behind this interface.
 
 ```elixir
 # prismatic_perimeter's public interface
@@ -160,7 +160,7 @@ end
 
 ### Anti-Corruption Layer
 
-When consuming data from external systems (OSINT providers, third-party APIs), the platform uses anti-corruption layers to translate external models into the bounded context's internal model:
+When consuming data from external systems ([OSINT](@/glossary/osint.md) providers, third-party APIs), the platform uses anti-corruption layers to translate external models into the bounded context's internal model:
 
 | External Source | External Model | Internal Model | Translation |
 |----------------|---------------|----------------|-------------|
@@ -224,7 +224,7 @@ Contexts with no integration needs operate independently. In the Prismatic Platf
 
 ## Evolution and Refactoring
 
-Bounded contexts are not fixed at design time -- they evolve as understanding of the domain deepens. The platform has undergone several context splits and merges through its 18 generations of evolution:
+Bounded contexts are not fixed at design time — they evolve as understanding of the domain deepens. The platform has undergone several context splits and merges through its 18 generations of evolution:
 
 | Generation | Context Change | Motivation |
 |------------|---------------|------------|
@@ -238,9 +238,9 @@ Each split follows a pattern: when a single context starts containing concepts w
 
 ## Process Isolation as Context Enforcement
 
-[Process isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) in the [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) virtual machine provides a runtime enforcement mechanism for bounded context boundaries. Each context's processes run in isolation -- a crash in `prismatic_perimeter` cannot corrupt the state of `prismatic_agents`, because they are separate OTP applications with separate supervision trees.
+[Process isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) in the [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) virtual machine provides a runtime enforcement mechanism for bounded context boundaries. Each context's processes run in isolation — a crash in `prismatic_perimeter` cannot corrupt the state of `prismatic_agents`, because they are separate OTP applications with separate supervision trees.
 
-This is stronger than what most programming environments offer. In a typical microservices architecture, context boundaries are enforced by network calls (which can be bypassed with shared databases). In the BEAM, context boundaries are enforced by the VM itself -- processes cannot access each other's memory, and [message passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) is the only communication mechanism.
+This is stronger than what most programming environments offer. In a typical microservices architecture, context boundaries are enforced by network calls (which can be bypassed with shared databases). In the BEAM, context boundaries are enforced by the VM itself — processes cannot access each other's memory, and [message passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) is the only communication mechanism.
 
 ## Advanced Context Design Patterns
 
@@ -962,25 +962,26 @@ end
 
 ## Related Terms
 
-- [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) -- Strategic methodology that defines bounded contexts
-- [CQRS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cqrs/) -- Pattern applied within bounded contexts to separate read and write models
-- [Event Sourcing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/event-sourcing/) -- Persistence pattern aligned with domain events crossing context boundaries
-- [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) -- Communication mechanism between contexts, enforced by BEAM process model
-- [PubSub](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pubsub/) -- Event distribution system for loose coupling between contexts
-- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) -- Callback-based contracts defining port interfaces at context boundaries
-- [Adapter Pattern](@/glossary/adapter-pattern.md) -- Anti-corruption layer implementation for external system integration
-- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) -- BEAM runtime enforcement of context boundaries
-- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) -- Virtual machine providing process-level isolation between contexts
-- [Ecto](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ecto/) -- Repository pattern implementation within storage contexts
-- [Agent](@/glossary/agent.md) -- AIAD agents operating within their respective bounded contexts
-- [Umbrella Application](https://prismatic-reality-com.github.io/prismatic-promo/glossary/umbrella-application/) -- Technical mechanism for implementing bounded contexts
-- [Saga Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/saga-pattern/) -- Cross-context workflow coordination pattern
-- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) -- Port/adapter architectural pattern within bounded contexts
+- [Domain-Driven Design](https://prismatic-reality-com.github.io/prismatic-promo/glossary/domain-driven-design/) — Strategic methodology that defines bounded contexts
+- [CQRS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cqrs/) — Pattern applied within bounded contexts to separate read and write models
+- [Event Sourcing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/event-sourcing/) — Persistence pattern aligned with domain events crossing context boundaries
+- [Message Passing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/message-passing/) — Communication mechanism between contexts, enforced by BEAM process model
+- [PubSub](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pubsub/) — Event distribution system for loose coupling between contexts
+- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) — Callback-based contracts defining port interfaces at context boundaries
+- [Adapter Pattern](@/glossary/adapter-pattern.md) — Anti-corruption layer implementation for external system integration
+- [Process Isolation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/process-isolation/) — BEAM runtime enforcement of context boundaries
+- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) — Virtual machine providing process-level isolation between contexts
+- [Ecto](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ecto/) — Repository pattern implementation within storage contexts
+- [Agent](@/glossary/agent.md) — AIAD agents operating within their respective bounded contexts
+- [Umbrella Application](https://prismatic-reality-com.github.io/prismatic-promo/glossary/umbrella-application/) — Technical mechanism for implementing bounded contexts
+- [Saga Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/saga-pattern/) — Cross-context workflow coordination pattern
+- [Adapter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/adapter/) — Port/adapter architectural pattern within bounded contexts
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Context boundary design and platform decomposition strategy
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Individual bounded context implementations across the umbrella
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Context boundary design and platform decomposition strategy
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) — Individual bounded context implementations across the umbrella
+- [Bridge: bounded-context](@/kompendium/glossary-bridges/bridge-bounded-context.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

@@ -7,7 +7,7 @@ description = "Quantified Epistemic Verification Engine combining Lean4 theorem 
 tags = ["glossary", "ai-ml", "qeve", "prismatic"]
 
 [extra]
-category = "ai-ml"
+category = "architektura platformy"
 acronym = "QEVE"
 related_terms = ["lean4", "nabla-infinity", "trinity-gate", "color-teams", "white-team", "confidence-threshold", "signal-plurality", "provenance-mandatory", "epistemic-pipeline", "property-based-testing"]
 author = "Tomas Korcak (korczis)"
@@ -71,7 +71,7 @@ The output is a weighted, time-decayed belief graph with contradiction annotatio
 
 ### Stage 2: Structural Check
 
-The structural check validates the topological integrity of the belief graph using graph theory:
+The structural check validates the topological integrity of the belief graph using [graph theory](@/glossary/graph-theory.md):
 
 - **DAG validity**: Confirm the belief network forms a valid directed acyclic graph with no circular dependencies between beliefs
 - **Dependency cycle detection**: Identify and flag any circular reasoning patterns where Belief A supports Belief B which supports Belief A
@@ -84,10 +84,10 @@ A structural check failure triggers an immediate halt. No amount of logical soun
 
 The logical check applies rule-based evaluation to the structurally valid belief graph:
 
-- **Rule engine consistency**: Verify that all inference rules applied in the belief graph are internally consistent and do not produce contradictory conclusions from the same premises
+- **Rule engine consistency**: Verify that all [inference](@/glossary/inference.md) rules applied in the belief graph are internally consistent and do not produce contradictory conclusions from the same premises
 - **Conflicting rule detection**: Identify cases where two or more rules produce opposing conclusions and flag them for explicit contradiction handling
 - **Assumption leakage detection**: Find cases where assumptions from one domain have leaked into another without proper justification or provenance
-- **Axiom compliance**: Confirm that the inference chain does not violate any of the seven NABLA axioms at any step
+- **Axiom compliance**: Confirm that the inference chain does not violate any of the seven [NABLA axioms](@/glossary/nabla-axioms.md) at any step
 
 ### Stage 4: Lean4 Formal Layer
 
@@ -113,11 +113,12 @@ The robustness score represents the percentage of Monte Carlo scenarios in which
 
 ## Use Case: Due Diligence
 
-A concrete example illustrates QEVE's value in the `prismatic_dd` (due diligence) application.
+A concrete example illustrates QEVE's value in the `prismatic_dd` ([due diligence](@/glossary/due-diligence.md)) application.
 
 **Scenario**: Firm X is acquiring Firm Y. The platform must assess the risk profile of the target.
 
-**OSINT signals gathered**:
+**[OSINT](@/glossary/osint.md) signals gathered**:
+
 - Sanctions database hits linking Firm Y's subsidiary to a flagged entity
 - Ownership structure changes in the past 18 months (3 restructurings)
 - Pending lawsuit in a foreign jurisdiction
@@ -127,12 +128,13 @@ A concrete example illustrates QEVE's value in the `prismatic_dd` (due diligence
 **QEVE validation pipeline**:
 
 1. **Graph Build**: Constructs a belief graph with 5 primary evidence signals, checks plurality (all hypotheses have 2+ supporting signals), applies time decay (the ownership changes are 14 months old, decayed accordingly), and preserves the contradiction between positive and negative media coverage
-2. **Structural Check**: DAG is valid, no circular reasoning, but flags one orphan signal (the compliance delay is not connected to any risk hypothesis -- requires analyst review)
+2. **Structural Check**: DAG is valid, no circular reasoning, but flags one orphan signal (the compliance delay is not connected to any risk hypothesis — requires analyst review)
 3. **Logical Check**: Rules are consistent, but identifies a potential assumption leakage: the sanctions link applies to a subsidiary, not the parent entity. The inference chain assumes subsidiary risk propagates upward without explicit justification
-4. **Lean4 Formal Layer**: Generates a theorem for "Firm Y presents elevated acquisition risk." Proof succeeds with the caveat that subsidiary-to-parent risk propagation is assumed, not proven. This assumption is flagged in the output
+4. **Lean4 Formal Layer**: Generates a theorem for “Firm Y presents elevated acquisition risk.” Proof succeeds with the caveat that subsidiary-to-parent risk propagation is assumed, not proven. This assumption is flagged in the output
 5. **Monte Carlo Robustness**: 10,000 perturbation runs. Conclusion survives in 72% of scenarios. Removing the sanctions signal alone drops survival to 41%, identifying it as the load-bearing evidence
 
 **QEVE output**:
+
 - Confidence: 0.87
 - Uncertainty: 0.12
 - Robustness score: 72% of perturbations preserve the conclusion
@@ -243,21 +245,21 @@ QEVE distinguishes itself from conventional AI validation approaches in several 
 
 ## Related Terms
 
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover powering QEVE's formal verification layer
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing QEVE's belief graph construction
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate consuming QEVE outputs for belief acceptance
-- [White Team](@/glossary/white-team.md) -- Constructive verification team that uses QEVE methods extensively
-- [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom enforced in QEVE's graph build stage
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Decision thresholds applied to QEVE confidence scores
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom ensuring QEVE evidence chains are fully traceable
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Complementary testing approach used alongside QEVE
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which QEVE operates
-- [Color Teams](@/glossary/color-teams.md) -- Security teams whose outputs are validated through QEVE
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) — Theorem prover powering QEVE's formal verification layer
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing QEVE's belief graph construction
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate consuming QEVE outputs for belief acceptance
+- [White Team](@/glossary/white-team.md) — Constructive verification team that uses QEVE methods extensively
+- [Signal Plurality](@/glossary/signal-plurality.md) — NABLA axiom enforced in QEVE's graph build stage
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) — Decision thresholds applied to QEVE confidence scores
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — Axiom ensuring QEVE evidence chains are fully traceable
+- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) — Complementary testing approach used alongside QEVE
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — The 16-level pipeline in which QEVE operates
+- [Color Teams](@/glossary/color-teams.md) — Security teams whose outputs are validated through QEVE
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
 
 ---
 

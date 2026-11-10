@@ -7,7 +7,7 @@ description = "Evidence consisting of observable, repeatable configurations or s
 tags = ["forensic", "investigation", "evidence", "osint", "due-diligence"]
 
 [extra]
-category = "forensic"
+category = "právo a forenzní praxe"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -31,15 +31,15 @@ Pattern evidence is any class of evidence whose probative value derives from the
 
 ## Manažerské shrnutí
 
-Pattern evidence (vzorový důkaz) je důkaz z opakování — z toho, že nějaká konfigurace, sekvence nebo signatura se objevuje napříč případy způsobem, který je nepravděpodobný náhodou. V Prismatic Platform pattern evidence pokrývá široké spektrum: od klasických fyzických stop přes digitální forenzní artefakty (file-system, síťový provoz, malware signatury) až po behaviorální vzory v OSINT (modus operandi pachatelů, typologie podvodů, transakční vzorce praní peněz). Zásadní omezení: hodnota důkazu závisí kriticky na *base rate* daného vzoru v populaci a na rigoróznosti klasifikační metodologie. Po PCAST 2016 reportu jsou některé tradiční forenzní disciplíny (bite mark, hair comparison) obecně považovány za vědecky neopodstatněné.
+Pattern evidence (vzorový důkaz) je důkaz z opakování — z toho, že nějaká konfigurace, sekvence nebo signatura se objevuje napříč případy způsobem, který je nepravděpodobný náhodou. V Prismatic Platform pattern evidence pokrývá široké spektrum: od klasických fyzických stop přes digitální forenzní artefakty (file-system, síťový provoz, malware signatury) až po behaviorální vzory v [OSINT](@/glossary/osint.md) (modus operandi pachatelů, typologie podvodů, transakční vzorce praní peněz). Zásadní omezení: hodnota důkazu závisí kriticky na *base rate* daného vzoru v populaci a na rigoróznosti klasifikační metodologie. Po PCAST 2016 reportu jsou některé tradiční forenzní disciplíny (bite mark, hair comparison) obecně považovány za vědecky neopodstatněné.
 
 ## Forensic/Legal Context
 
-Pattern evidence has come under intense scrutiny since the National Academies of Sciences 2009 report *Strengthening Forensic Science in the United States* and the President's Council of Advisors on Science and Technology (PCAST) 2016 report on feature-comparison methods. Both documents found that several historically accepted pattern disciplines — bite mark analysis, microscopic hair comparison, certain firearm and toolmark identifications — lacked the empirical foundation to support categorical "match" testimony. Modern admissibility under Daubert and Federal Rule of Evidence 702 requires demonstrated error rates, validated methodology, and disclosure of foundational assumptions. The Czech Code of Criminal Procedure § 105 imposes parallel requirements on znalecký posudek (expert opinion) including pattern evidence.
+Pattern evidence has come under intense scrutiny since the National Academies of Sciences 2009 report *Strengthening Forensic Science in the United States* and the President's Council of Advisors on Science and Technology (PCAST) 2016 report on feature-comparison methods. Both documents found that several historically accepted pattern disciplines — bite mark analysis, microscopic hair comparison, certain firearm and toolmark identifications — lacked the empirical foundation to support categorical „match“ testimony. Modern admissibility under Daubert and Federal Rule of Evidence 702 requires demonstrated error rates, validated methodology, and disclosure of foundational assumptions. The Czech Code of Criminal Procedure § 105 imposes parallel requirements on znalecký posudek (expert opinion) including pattern evidence.
 
 ## Practical Application
 
-In OSINT-driven due diligence, pattern evidence is frequently the strongest available signal: repeated co-incorporation of shell entities at the same registered office, recurring nominee directors across unrelated companies, identical address-format anomalies in beneficial-ownership disclosures, and timing patterns in social-media activity that suggest coordinated operation. In financial-crime investigations, pattern evidence underlies AML typology matching (smurfing, layering, trade-based laundering signatures). In incident response, malware family attribution rests almost entirely on code-pattern, infrastructure-pattern, and TTP-pattern matches against threat-intelligence corpora. Each application requires a documented methodology, a defensible reference dataset, and explicit acknowledgement of base-rate limitations.
+In OSINT-driven [due diligence](@/glossary/due-diligence.md), pattern evidence is frequently the strongest available signal: repeated co-incorporation of shell entities at the same registered office, recurring nominee directors across unrelated companies, identical address-format anomalies in beneficial-ownership disclosures, and timing patterns in social-media activity that suggest coordinated operation. In financial-crime investigations, pattern evidence underlies AML typology matching (smurfing, layering, trade-based laundering signatures). In incident response, malware family attribution rests almost entirely on code-pattern, infrastructure-pattern, and TTP-pattern matches against threat-intelligence corpora. Each application requires a documented methodology, a defensible reference dataset, and explicit acknowledgement of base-rate limitations.
 
 ## Related Concepts
 

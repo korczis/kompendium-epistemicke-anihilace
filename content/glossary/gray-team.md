@@ -7,7 +7,7 @@ description = "Boundary exploration team for specification gaps, edge cases, and
 tags = ["glossary", "security", "gray-team", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["color-teams", "red-team", "nabla-infinity", "black-team", "blue-team", "purple-team"]
 author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
@@ -25,9 +25,9 @@ image_alt = "Gray Team - Prismatic Platform"
 
 The Gray Team is a specialized Color Team of 3 agents that performs read-only exploration of specification gaps, edge cases, and affordance drift within the Prismatic Platform's adversarial-defensive security ecosystem. Operating at the earliest stage of the Color Team signal flow, Gray Team surfaces ambiguity without resolving it, feeding boundary seeds into the Red Team pipeline for adversarial scenario generation and informing Blue Team defensive posture assessment. All Gray operations enforce strict zero state changes to the systems under analysis, ensuring that exploration never introduces risk or side effects.
 
-Gray Team represents a fundamental insight in security engineering: the most dangerous vulnerabilities often exist not in code that is clearly wrong, but in specifications that are ambiguously defined. A function that "should validate input" may have no specification for what happens when input is null, empty, partially valid, or encoding-ambiguous. These specification gaps create affordances -- unintended capabilities that emerge from the interaction between ambiguous specifications and implementation choices. Gray Team systematically discovers these affordances before adversaries exploit them.
+Gray Team represents a fundamental insight in security engineering: the most dangerous vulnerabilities often exist not in code that is clearly wrong, but in specifications that are ambiguously defined. A function that “should validate input” may have no specification for what happens when input is null, empty, partially valid, or encoding-ambiguous. These specification gaps create affordances — unintended capabilities that emerge from the interaction between ambiguous specifications and implementation choices. Gray Team systematically discovers these affordances before adversaries exploit them.
 
-The team's read-only constraint is both a safety measure and a philosophical position. Gray Team does not fix problems, exploit vulnerabilities, or even categorize findings as "good" or "bad." It catalogs ambiguity in its raw form, preserving the NABLA Infinity axiom of contradiction preservation. A specification gap might be a vulnerability, a feature, or both simultaneously. By preserving this ambiguity, Gray Team ensures that downstream teams (Red, Blue, Purple) receive unbiased boundary intelligence.
+The team's read-only constraint is both a safety measure and a philosophical position. Gray Team does not fix problems, exploit vulnerabilities, or even categorize findings as “good” or “bad.” It catalogs ambiguity in its raw form, preserving the NABLA Infinity axiom of contradiction preservation. A specification gap might be a vulnerability, a feature, or both simultaneously. By preserving this ambiguity, Gray Team ensures that downstream teams (Red, Blue, Purple) receive unbiased boundary intelligence.
 
 Affordance drift is Gray Team's most sophisticated detection capability. Affordance drift occurs when the practical capabilities of a system gradually diverge from its intended capabilities through accumulated small changes, dependency updates, configuration modifications, or environmental changes. Each individual change is too small to trigger security review, but the cumulative effect creates an attack surface that no one designed or authorized. Gray Team detects this drift by comparing current system behavior against historical specifications, identifying capabilities that exist in implementation but not in design documents.
 
@@ -289,7 +289,7 @@ Every finding emitted by Gray Team flows into the Color Team ecosystem. The comm
 
 ### Campaign Management
 
-Gray Team organizes exploration into campaigns -- structured investigations of specific platform areas:
+Gray Team organizes exploration into campaigns — structured investigations of specific platform areas:
 
 | Campaign Type | Duration | Scope | Output |
 |--------------|----------|-------|--------|
@@ -355,7 +355,7 @@ All Gray Team operations emit telemetry events for observability:
 
 **Maintain strict read-only discipline.** Gray Team must never modify the systems it explores. Even seemingly harmless state changes (creating test records, writing logs) can alter system behavior and contaminate findings. Read-only enforcement should be verified through process isolation and access control.
 
-**Preserve ambiguity in findings.** Resist the urge to classify findings as "vulnerabilities" or "non-issues" at the Gray Team level. The ambiguity note field exists for a reason. Premature classification introduces bias that can cause downstream teams to miss important signals.
+**Preserve ambiguity in findings.** Resist the urge to classify findings as “vulnerabilities” or “non-issues” at the Gray Team level. The ambiguity note field exists for a reason. Premature classification introduces bias that can cause downstream teams to miss important signals.
 
 **Rotate exploration targets systematically.** Avoid the tendency to repeatedly explore familiar areas. Use the campaign management system to ensure comprehensive coverage across all platform applications, interfaces, and dependency surfaces.
 
@@ -379,7 +379,7 @@ All Gray Team operations emit telemetry events for observability:
 
 Gray Team findings integrate with multiple platform systems beyond the Color Team ecosystem. The discovery of specification gaps triggers updates to the Quality DNA system, which tracks quality trends across sessions. Boundary conditions identified by Gray Team become inputs for property-based testing frameworks, ensuring that edge cases are systematically tested in future development cycles.
 
-The platform's autoheal system consumes Gray Team findings to identify self-healing opportunities. If Gray Team discovers that a function gracefully handles a boundary condition that is not formally specified, the autoheal system may propose formalizing that behavior through specification updates and test coverage enhancement.
+The platform's [autoheal](@/glossary/autoheal.md) system consumes Gray Team findings to identify self-healing opportunities. If Gray Team discovers that a function gracefully handles a boundary condition that is not formally specified, the autoheal system may propose formalizing that behavior through specification updates and test coverage enhancement.
 
 Gray Team also contributes to the SEADF (Scanner, Pipeline, Quality Guardian, Knowledge Sync, Cross-Domain Innovator, Autonomous Reporter, Enhanced Healing) framework's knowledge synchronization component. Boundary discoveries feed into cross-domain pattern recognition, helping identify when similar specification gaps exist across different applications or modules.
 
@@ -389,23 +389,23 @@ Gray Team exploration is designed to scale with the platform's growth. The curre
 
 Exploration performance varies by campaign type. Module audits typically complete in 1-4 hours for applications with 10-50 modules. Interface surveys require 4-8 hours to comprehensively map cross-application boundaries. The weekly affordance drift assessment completes overnight, analyzing the entire platform for accumulated behavioral changes.
 
-The escalation guard introduces minimal overhead -- less than 50ms per finding review. However, its audit trail provides valuable telemetry for understanding Gray Team effectiveness and calibrating escalation thresholds over time.
+The escalation guard introduces minimal overhead — less than 50ms per finding review. However, its audit trail provides valuable telemetry for understanding Gray Team effectiveness and calibrating escalation thresholds over time.
 
 ## Related Concepts
 
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 adversarial-defensive security teams
-- [Red Team](@/glossary/red-team.md) -- Consumes Gray boundary seeds for adversarial scenario generation
-- [Blue Team](@/glossary/blue-team.md) -- Defensive team informed by Gray boundary discoveries
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis team incorporating Gray findings into closure analysis
-- [Black Team](@/glossary/black-team.md) -- Isolated team whose access Gray's escalation guard protects
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing boundary exploration methodology
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Quality enforcement enhanced by Gray Team findings
+- [Color Teams](@/glossary/color-teams.md) — Full overview of all 6 adversarial-defensive security teams
+- [Red Team](@/glossary/red-team.md) — Consumes Gray boundary seeds for adversarial scenario generation
+- [Blue Team](@/glossary/blue-team.md) — Defensive team informed by Gray boundary discoveries
+- [Purple Team](@/glossary/purple-team.md) — Synthesis team incorporating Gray findings into closure analysis
+- [Black Team](@/glossary/black-team.md) — Isolated team whose access Gray's escalation guard protects
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing boundary exploration methodology
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) — Quality enforcement enhanced by Gray Team findings
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- AIAD agents including Gray Team members
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — AIAD agents including Gray Team members
 
 ---
 

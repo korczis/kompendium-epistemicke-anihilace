@@ -125,7 +125,7 @@ vibrací“. Rodina reagovala konfrontací, která izolaci prohloubila – čast
 Použit byl [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) spolu s [post-cult
 protokolem](@/kompendium/techniques/ea-6-4-2-post-cult-protokol.md). Jeho stupně (S1 validace a
-mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
+mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická obnova, S5
 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl v pěti
 fázích:
 

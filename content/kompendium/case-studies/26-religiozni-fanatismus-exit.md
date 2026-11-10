@@ -93,7 +93,7 @@ ostrakizace:
 - **S1 – Validace a mapování:** bezpečí, psychoedukace o skupinách s vysokou kontrolou; mapa
   vztahů, které odchod ohrozí.
 - **S2 – Externalizace introjektů:** věty o hříchu, trestu a „světu“ odlišeny od vlastních hodnot.
-- **S3 – Rekonstrukce metakognice:** nácvik malých samostatných rozhodnutí a
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik malých samostatných rozhodnutí a
   [revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md) bez nutnosti
   okamžitě nahradit víru jiným systémem.
 - **S4 – Hermeneutická obnova:** vlastní vztah k duchovnu – víra, nevíra nebo otevřená otázka.

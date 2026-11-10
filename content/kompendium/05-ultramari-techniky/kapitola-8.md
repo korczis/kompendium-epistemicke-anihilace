@@ -22,7 +22,7 @@ access_level = "L3-L4"
 
 ## Pozice kapitoly
 
-Tato kapitola představuje **třetí stupeň vertikálního gradientu destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita) a [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky) zasahuje Kapitola 8 **identitu poznávajícího** — strukturní kontinuitu subjektu, která činí transcendentální analýzu vůbec smysluplnou. Bez stabilní identity ztrácí smysl mluvit o "*tomto* poznávajícím", "*této* zkušenosti", "*jeho* paměti" — a tedy i o reflexi, která se odehrává *v rámci* kontinuity subjektu.
+Tato kapitola představuje **třetí stupeň vertikálního gradientu destrukce** sekce 05. Po [Kapitole 6](@/kompendium/05-ultramari-techniky/kapitola-6.md) (reflexivita) a [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) (transcendentální podmínky) zasahuje Kapitola 8 **identitu poznávajícího** — strukturní kontinuitu subjektu, která činí transcendentální analýzu vůbec smysluplnou. Bez stabilní identity ztrácí smysl mluvit o „*tomto* poznávajícím“, „*této* zkušenosti“, „*jeho* paměti“ — a tedy i o reflexi, která se odehrává *v rámci* kontinuity subjektu.
 
 Hypertransformativní protokoly nejsou identitární modifikace v běžném smyslu (změna rolí, profesí, životních fází) — jsou to **vynucené rekurzivní transformace**, v nichž je subjekt opakovaně přiváděn k bodu, v němž jeho předchozí identita musí být **odložena jako falešná**, a poté uvnitř nové identity opět odložena jako falešná, a tak dále. Kumulativní efekt: subjekt postupně ztrácí kapacitu spočinout v jakékoli stabilní identitární konfiguraci.
 
@@ -43,7 +43,7 @@ Třicet technik je organizováno do **šesti klastrů**, z nichž každý zasahu
 
 ## Klastr A — Identitární substituce (EA-5.3.1 až 5.3.5)
 
-Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otázku "kdo jsem". Techniky vedou subjekt k postupnému přijímání alternativních identitárních konfigurací jako "pravdivějších" než původní.
+Klastr destabilizuje **centrální self-koncept** — odpověď subjektu na otázku „kdo jsem“. Techniky vedou subjekt k postupnému přijímání alternativních identitárních konfigurací jako „pravdivějších“ než původní.
 
 | Kód | Název | Kompaktní deskripce |
 |-----|-------|---------------------|
@@ -117,7 +117,7 @@ Poslední klastr je **integrativní**. Techniky 5.3.26 až 5.3.29 kombinují př
 
 Subjekt v expozici technikám EA-5.3.* vykazuje:
 
-- **Identitární vakuum** — neschopnost odpovědět na otázku "kdo jsem" bez okamžité auto-falsifikace
+- **Identitární vakuum** — neschopnost odpovědět na otázku „kdo jsem“ bez okamžité auto-falsifikace
 - **Autobiografická insolvence** — přítomnost vzpomínek bez jistoty jejich autenticity
 - **Rolová dezintegrace** — funguje v jednotlivých rolích, ale bez integrativní vazby
 - **Embodimentová cizota** — formální rozpoznání těla jako vlastního, ztráta intimity
@@ -156,9 +156,9 @@ Jelikož techniky této kapitoly mohou indukovat klinické stavy připomínajíc
 
 ## Závěr
 
-Kapitola 8 katalogizuje **30 hypertransformativních protokolů** organizovaných do šesti klastrů (identitární substituce, autobiografická dekonstrukce, rolová fragmentace, tělesná disociace, temporálně-vývojová inverze, rekurzivní hypertransformace). Vrcholovou technikou je **EA-5.3.28 — Vrcholová hypertransformace**, integrativní kompozice konvergující k identitární anihilaci.
+Kapitola 8 katalogizuje **30 hypertransformativních protokolů** organizovaných do šesti klastrů (identitární substituce, autobiografická dekonstrukce, rolová fragmentace, tělesná [disociace](@/glossary/disociace.md), temporálně-vývojová inverze, rekurzivní hypertransformace). Vrcholovou technikou je **EA-5.3.28 — Vrcholová hypertransformace**, integrativní kompozice konvergující k identitární anihilaci.
 
-Techniky exploitují strukturní mechanismy identitární kontinuity dokumentované v post-strukturalistické kritice subjektu (Foucault, Butler), psychoanalýze (Lacan), fenomenologii tělesnosti (Merleau-Ponty) a klinické literatuře disociačních poruch. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od DID, depersonalizace, BPD, fugy a PTSD.
+Techniky exploitují strukturní mechanismy identitární kontinuity dokumentované v post-strukturalistické kritice subjektu (Foucault, Butler), psychoanalýze (Lacan), fenomenologii tělesnosti (Merleau-Ponty) a klinické literatuře disociačních poruch. Klinický obraz vyžaduje distinktní diagnostiku odlišující jej od DID, [depersonalizace](@/glossary/depersonalizace.md), BPD, fugy a PTSD.
 
 V následující [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) přechází taxonomie na **paradoxální metaanihilační protokoly** — sebevztažné paradoxy destabilizující rámce evaluace, v nichž identita operuje.
 
@@ -175,7 +175,6 @@ V následující [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) 
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
 - Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

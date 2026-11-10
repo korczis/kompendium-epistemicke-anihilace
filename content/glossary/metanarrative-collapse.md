@@ -8,7 +8,7 @@ description = "Lyotard's diagnosis of the postmodern condition: incredulity towa
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["simulacra", "differance", "power-knowledge", "epistemicka-injustice", "epistemicka-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -36,7 +36,7 @@ The Kompendium uses Lyotard's diagnosis to explain a structural feature of conte
 
 Specifically:
 
-- **EA-1.2.x delegitimization at societal scale** weaponizes metanarrative collapse: the victim's appeal to scientific consensus, journalistic standards, judicial procedure, or historical record can be neutralized by reframing each as "just one narrative among others," creating false equivalence between epistemic infrastructures with very different validity-credentials.
+- **EA-1.2.x delegitimization at societal scale** weaponizes metanarrative collapse: the victim's appeal to scientific consensus, journalistic standards, judicial procedure, or historical record can be neutralized by reframing each as “just one narrative among others,” creating false equivalence between epistemic infrastructures with very different validity-credentials.
 - **Algorithmic information environments** accelerate the collapse: the splintering of public discourse into recommendation-curated sub-publics produces precisely the local-language-game dispersal Lyotard describes — but optimized for engagement rather than for substantive incommensurability.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Lyotard alongside [simulacra](@/glossary/simulacra.md) and [différance](@/glossary/differance.md) as the **postmodern theoretical pillar**, and pairs the postmodern diagnosis with [Habermasian communicative rationality](@/glossary/communicative-rationality.md) as the normative response: the question is not whether to defend a specific metanarrative, but how to maintain conditions of [legitimate discourse](@/glossary/ideal-speech-situation.md) without one.
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} refuses to operate under any single metanarrative by design: it tracks **explicit calibration metrics** (Brier, ECE) that can be applied across narrative frames, and it surfaces frame-dependence rather than hiding it.

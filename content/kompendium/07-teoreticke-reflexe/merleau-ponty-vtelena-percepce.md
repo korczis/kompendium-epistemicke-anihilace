@@ -17,7 +17,7 @@ toc = true
 
 # 7.16 Merleau-Ponty: Vtělená percepce a tělesný subjekt
 
-Maurice Merleau-Pontyho *Phénoménologie de la perception* (1945) představuje **radikální revizi** karteziánsko-husserlovské tradice: vědomí není **bezprostředně transparentní subjekt**, ale je **konstitutivně vtělené**. Pro kompendium EA poskytuje Merleau-Pontyho fenomenologie nástroj pro pochopení **somatické dimenze** epistemické anihilace — útoků, jež operují **skrze tělo**, nikoli pouze skrze racionální argumentaci.
+Maurice Merleau-Pontyho *Phénoménologie de la perception* (1945) představuje **radikální revizi** karteziánsko-husserlovské tradice: vědomí není **bezprostředně transparentní subjekt**, ale je **konstitutivně vtělené**. Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Merleau-Pontyho fenomenologie nástroj pro pochopení **somatické dimenze** epistemické anihilace — útoků, jež operují **skrze tělo**, nikoli pouze skrze racionální argumentaci.
 
 ## 1. Primát percepce
 
@@ -44,7 +44,7 @@ Pro EA má toto rozlišení **trojí relevanci**:
 
 ## 3. *Chair* (Maso)
 
-Pozdní Merleau-Ponty (*Le Visible et l'Invisible*, posmrtně 1964) rozvíjí pojem **chair** ("maso") jako **ontologickou kategorii**: maso není **substance**, ale **textura** prolínání **vidoucího a viděného**, **dotýkajícího a dotýkaného**, **vlastního a cizího**.
+Pozdní Merleau-Ponty (*Le Visible et l'Invisible*, posmrtně 1964) rozvíjí pojem **chair** („maso“) jako **ontologickou kategorii**: maso není **substance**, ale **textura** prolínání **vidoucího a viděného**, **dotýkajícího a dotýkaného**, **vlastního a cizího**.
 
 Maso je strukturální **otevřenost** subjektu vůči světu — ani plné rozlišení, ani plná identita. Vidoucí oko je **současně** viditelné, dotýkající se ruka je **současně** dotýkaná.
 
@@ -52,15 +52,15 @@ Pro EA má pojem chair **specifický význam**:
 
 - Útok na vlastní **integritu masa** je strukturální technikou EA: rozbití původního rezonančního pole subjektu se světem.
 - **Komodifikace** lidského těla v digitální ekonomii (data, obraz, hlas) může být analyzována jako **anihilace masa** — extrakce povrchu, jenž **rozbíjí** původní intersubjektivní tkáň.
-- Klinické trauma (zejména komplexní C-PTSD) lze fenomenologicky popsat jako **rozpad masa** — narušení původní jednoty vidoucího/viděného, dotýkajícího/dotýkaného.
+- Klinické trauma (zejména komplexní [C-PTSD](@/glossary/c-ptsd.md)) lze fenomenologicky popsat jako **rozpad masa** — narušení původní jednoty vidoucího/viděného, dotýkajícího/dotýkaného.
 
 ## 4. Intersubjektivita a *style*
 
-Merleau-Ponty popisuje intersubjektivitu jako **původní vzájemné** zapuštění subjektů do sdíleného **stylu** chování, mluvení, vnímání. Druhý člověk **není** primárně objektem inference ("jak vím, že má vědomí?"), ale **stylem**, jejž bezprostředně **rozumím**.
+Merleau-Ponty popisuje intersubjektivitu jako **původní vzájemné** zapuštění subjektů do sdíleného **stylu** chování, mluvení, vnímání. Druhý člověk **není** primárně objektem [inference](@/glossary/inference.md) („jak vím, že má vědomí?“), ale **stylem**, jejž bezprostředně **rozumím**.
 
 Pro EA z toho plyne:
 
-- **Útok na sdílený styl** je strukturální technika: rozkládání **bezprostředního porozumění** mezi lidmi (gaslighting, deformace komunikačních pravidel).
+- **Útok na sdílený styl** je strukturální technika: rozkládání **bezprostředního porozumění** mezi lidmi ([gaslighting](@/glossary/gaslighting.md), deformace komunikačních pravidel).
 - **Algoritmické zprostředkování** intersubjektivity (sociální sítě, dating apps) strukturálně **redukuje** styl na **profil** — výřezy, jež nezachycují stylovou jednotu osoby.
 - Klinický korelát: **rozpad důvěry** v primární vztahy je strukturální výstupem útoku na styl.
 
@@ -68,7 +68,7 @@ Pro EA z toho plyne:
 
 Merleau-Ponty pracuje s pojmem **tělesného schématu** — preverbální, dynamické **mapy** vlastního těla v prostoru, jež umožňuje plynulé pohyby a orientaci.
 
-Pro EA má tělesné schéma **diagnostickou hodnotu**:
+Pro EA má [tělesné schéma](@/glossary/body-schema.md) **diagnostickou hodnotu**:
 
 - **Trauma** narušuje tělesné schéma — pacient ztrácí **bezprostřední** orientaci ve vlastním těle.
 - **Disociativní symptomy** lze fenomenologicky popsat jako **rozpad** tělesného schématu — subjekt přestává **obývat** vlastní tělo (analog Polanyiho indwelling, [viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
@@ -88,7 +88,7 @@ Pro EA má tělesné schéma **diagnostickou hodnotu**:
 
 Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
 
-- **Somatický fundament** terapie: žádná čistě "kognitivní" terapie nemůže zacházet s traumatem bez ohledu na tělo.
+- **Somatický fundament** terapie: žádná čistě „kognitivní“ terapie nemůže zacházet s traumatem bez ohledu na tělo.
 - **Dýchání, pohyb, dotek** jako primární terapeutické modality (zejména pro pre-verbální trauma).
 - **Klinická pozornost** k tělesnému schématu pacienta — jak obývá vlastní tělo? jak se pohybuje v prostoru? jaké je jeho napětí?
 

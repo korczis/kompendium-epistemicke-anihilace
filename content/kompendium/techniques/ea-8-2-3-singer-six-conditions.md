@@ -38,7 +38,7 @@ Singer & Lalich (1995) destilace klinických zkušeností z 3000+ ex-členů. Š
 
 ## Klíčové komponenty
 
-Nejvíce parsimonious framework — méně kritérií než Lifton, hlubší implementační detail než BITE. Široce použito v US soudních systémech (expert witness testimony).
+Nejvíce parsimonious framework — méně kritérií než Lifton, hlubší implementační detail než BITE. Široce použito v US soudních systémech ([expert witness](@/glossary/expert-witness.md) testimony).
 
 ## Aplikace v EA kontextu
 

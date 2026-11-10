@@ -7,7 +7,7 @@ description = "Mandatory test proving a bug fix prevents recurrence of the speci
 tags = ["glossary", "quality", "regression-test", "prismatic"]
 
 [extra]
-category = "quality"
+category = "doktrína platformy"
 related_terms = ["quality-gates", "nm-nd", "violation-protocol", "purple-team", "no-mercy"]
 author = "Tomas Korcak (korczis)"
 reading_time = "8 min"
@@ -23,11 +23,11 @@ image_alt = "Regression Test - Prismatic Platform"
 
 ## Definition & Overview
 
-A Regression Test is a test specifically written to verify that a previously identified and fixed bug does not recur in future development cycles. Unlike general unit tests that verify intended functionality, regression tests target known failure modes -- they encode the exact conditions that triggered a past defect and assert that the system now handles those conditions correctly. The term "regression" refers to the phenomenon where previously working functionality breaks due to new changes, and regression tests serve as automated sentinels against this class of defect.
+A Regression Test is a test specifically written to verify that a previously identified and fixed bug does not recur in future development cycles. Unlike general unit tests that verify intended functionality, regression tests target known failure modes — they encode the exact conditions that triggered a past defect and assert that the system now handles those conditions correctly. The term “regression” refers to the phenomenon where previously working functionality breaks due to new changes, and regression tests serve as automated sentinels against this class of defect.
 
 Regression testing is a foundational practice in software quality assurance, but its effectiveness depends entirely on discipline: every bug fix must be accompanied by a test that would have caught the bug before it was reported. Without this discipline, the same defects recur across releases, eroding user confidence and consuming engineering resources on repeated investigation of known issues.
 
-The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) -- the highest enforcement level -- with doctrine-enforced compliance regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
+The Prismatic Platform elevates regression testing from a best practice to a non-bypassable protocol. The Mandatory Regression Test Protocol is classified as P0 (Absolute) — the highest enforcement level — with doctrine-enforced compliance regardless of urgency, scope, or authority level. A bug fix without a corresponding regression test is treated as an incomplete delivery under the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
 
 | Protocol Aspect | Requirement |
 |-----------------|-------------|
@@ -44,15 +44,15 @@ The Prismatic Platform elevates regression testing from a best practice to a non
 
 The Prismatic Platform enforces a strict five-step protocol for every bug fix operation:
 
-**Step 1 -- Root Cause Identification**: Before writing any fix, the developer must identify the bug's root cause and failure mode. Superficial fixes that address symptoms rather than causes are rejected as L3 violations (Incomplete Delivery).
+**Step 1 — Root Cause Identification**: Before writing any fix, the developer must identify the bug's root cause and failure mode. Superficial fixes that address symptoms rather than causes are rejected as L3 violations (Incomplete Delivery).
 
-**Step 2 -- Regression Test Creation**: Write one or more tests that reproduce the exact failure conditions. The test should exercise the specific code path that failed, using inputs that triggered the original defect.
+**Step 2 — Regression Test Creation**: Write one or more tests that reproduce the exact failure conditions. The test should exercise the specific code path that failed, using inputs that triggered the original defect.
 
-**Step 3 -- Failure Verification**: Run the regression test against the unfixed codebase to confirm it fails. This step proves that the test actually detects the defect. A test that passes against unfixed code is either testing the wrong thing or the bug was already fixed.
+**Step 3 — Failure Verification**: Run the regression test against the unfixed codebase to confirm it fails. This step proves that the test actually detects the defect. A test that passes against unfixed code is either testing the wrong thing or the bug was already fixed.
 
-**Step 4 -- Fix Application**: Apply the code fix to resolve the root cause identified in Step 1. The fix should be minimal and targeted -- addressing the root cause without introducing unnecessary changes that complicate review and increase regression risk.
+**Step 4 — Fix Application**: Apply the code fix to resolve the root cause identified in Step 1. The fix should be minimal and targeted — addressing the root cause without introducing unnecessary changes that complicate review and increase regression risk.
 
-**Step 5 -- Pass Verification**: Run the regression test against the fixed codebase to confirm it passes. Additionally, run the full test suite to verify the fix doesn't introduce new regressions elsewhere.
+**Step 5 — Pass Verification**: Run the regression test against the fixed codebase to confirm it passes. Additionally, run the full test suite to verify the fix doesn't introduce new regressions elsewhere.
 
 ```elixir
 defmodule PrismaticQuality.RegressionProtocol do
@@ -242,7 +242,7 @@ The Mandatory Regression Test Protocol has been instrumental in achieving the pl
 
 **5,864 Test Files**: The platform's comprehensive test suite includes hundreds of regression tests accumulated over 18 generations of evolution. Each test represents a bug that was found, analyzed, fixed, and permanently guarded against.
 
-**Zero Regression Incidents**: Since implementing the P0 protocol, the platform has experienced zero regression incidents -- no previously fixed bug has recurred in any subsequent release.
+**Zero Regression Incidents**: Since implementing the P0 protocol, the platform has experienced zero regression incidents — no previously fixed bug has recurred in any subsequent release.
 
 **Quality Floor Guardian Integration**: The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) monitors regression test health as part of its autonomous quality monitoring. If a regression test becomes flaky (intermittently failing), it triggers investigation before the flakiness masks a genuine regression.
 

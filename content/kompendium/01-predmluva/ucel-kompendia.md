@@ -53,7 +53,7 @@ Klasické nozologické systémy (DSM-5-TR, ICD-11) **nezachycují** většinu fe
 
 ### 1. Identifikace subtilních forem epistemického traumatu
 
-Mnoho forem epistemické manipulace zůstává **nezachyceno v běžné klinické praxi**, přestože může mít devastující následky pro kognitivní integritu a psychické zdraví jedince. [Anankastický režim](@/glossary/anankasticky-rezim.md) je typickým příkladem — stav charakterizovaný extrémní rigiditou myšlení, který postupně vede k epistemické izolaci a ztrátě kontaktu s realitou. Bez systematické taxonomie zůstávají tyto stavy diagnostikovány jako "úzkostná porucha", "obsedantně-kompulzivní porucha" nebo "atypická deprese" — popisy, které **přehlížejí specifický epistemický rozměr** patologie a vedou k neadekvátní intervenci.
+Mnoho forem epistemické manipulace zůstává **nezachyceno v běžné klinické praxi**, přestože může mít devastující následky pro kognitivní integritu a psychické zdraví jedince. [Anankastický režim](@/glossary/anankasticky-rezim.md) je typickým příkladem — stav charakterizovaný extrémní rigiditou myšlení, který postupně vede k epistemické izolaci a ztrátě kontaktu s realitou. Bez systematické taxonomie zůstávají tyto stavy diagnostikovány jako „úzkostná porucha“, „obsedantně-kompulzivní porucha“ nebo „atypická deprese“ — popisy, které **přehlížejí specifický epistemický rozměr** patologie a vedou k neadekvátní intervenci.
 
 ### 2. Pochopení strukturálních invariant
 
@@ -100,7 +100,7 @@ Kompendium je systematickým krokem v reakci na tuto novou epistemickou krajinu 
 Na rozdíl od klasických nozologických manuálů kompendium **explicitně odmítá** nárok na finální podobu. Strukturální vlastnosti epistemické krajiny se mění s technologickým a institucionálním vývojem; nové formy manipulace vznikají rychleji, než jsou klasické nosologické systémy schopny inkorporovat. Kompendium je proto konstruováno jako **živý dokument** s následujícími vlastnostmi:
 
 - **Versionovaná taxonomie** — každý EA-kód má historii revizí dokumentující změny v definici a klasifikaci.
-- **Empirická revize** — claims jsou periodicky validovány proti datům z Decision Engine a Color Teams.
+- **Empirická revize** — claims jsou periodicky validovány proti datům z [Decision Engine](@/glossary/decision-engine.md) a Color Teams.
 - **Komunitní přispění** — kvalifikovaní odborníci mohou navrhovat nové fenomény, revize nebo strukturální úpravy skrze formalizovaný recenzní proces.
 - **Křížová verifikace** — tvrzení v kompendiu jsou křížově odkazována na [glosář](@/glossary/_index.md), [filozofické základy](@/philosophy/_index.md) a empirické nástroje platformy.
 
@@ -121,7 +121,6 @@ Na rozdíl od klasických nozologických manuálů kompendium **explicitně odm�
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
-
 
 ## ⚡ Kritický krok
 

@@ -96,7 +96,7 @@ EA-5.3.2 (autobiografická dekonstrukce), EA-5.3.7 (self-narrative replacement)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,19 +123,18 @@ Technika **identitární substituce** představuje strukturální výzvu pro def
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
-Ricoeurova **narativní identita** (*Soi-même comme un autre*, 1990) — self je narativní syntéza idem (totožnosti) a ipse (sebství). Substituce zasahuje obě osy: implantát rozkládá idem-kontinuitu a falsifikuje ipse-závazek. Husserlova **pasivní syntéza** (*Analysen zur passiven Synthesis*) ukazuje, jak vrstvení retencí konstituuje self-trvání — útok cílí na pasivní vrstvu. Levinasova **substituce** (*Autrement qu'être*) tu funguje obráceně: namísto etické responzibility za druhého je subjekt nucen převzít druhého jako sebe. Damasiův **autobiografický self** (*The Feeling of What Happens*, 1999) je strukturně závislý na somatických markerech minulých voleb — jejich devalvace eroduje neurální korelát kontinuity. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Ricoeurova **[narativní identita](@/glossary/narativni-identita.md)** (*Soi-même comme un autre*, 1990) — self je narativní syntéza idem (totožnosti) a ipse (sebství). Substituce zasahuje obě osy: implantát rozkládá idem-kontinuitu a falsifikuje ipse-závazek. Husserlova **[pasivní syntéza](@/glossary/pasivni-synteza.md)** (*Analysen zur passiven Synthesis*) ukazuje, jak vrstvení retencí konstituuje self-trvání — útok cílí na pasivní vrstvu. Levinasova **substituce** (*Autrement qu'être*) tu funguje obráceně: namísto etické responzibility za druhého je subjekt nucen převzít druhého jako sebe. Damasiův **autobiografický self** (*The Feeling of What Happens*, 1999) je strukturně závislý na somatických markerech minulých voleb — jejich devalvace eroduje neurální korelát kontinuity. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

@@ -19,7 +19,7 @@ toc = true
 
 Evan Thompson v monumentálním *Mind in Life* (2007) a navazujícím *Waking, Dreaming, Being* (2014) formuluje **integrativní teorii** spojující **fenomenologii**, **kognitivní vědu** a **biologii**: mysl je strukturálně **kontinuální** s **životem** — autopoietický **organismus** je **prvotním** kognitivním systémem.
 
-Pro kompendium EA poskytuje Thompsonova teorie nástroj pro pochopení **EA jako narušení živého kognitivního systému** — nikoli pouze jako manipulace abstraktní mysli.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Thompsonova teorie nástroj pro pochopení **EA jako narušení živého kognitivního systému** — nikoli pouze jako manipulace abstraktní mysli.
 
 ## 1. Mind-Life Continuity Thesis
 
@@ -39,7 +39,7 @@ Pro EA z toho plyne:
 
 ## 2. Sense-making
 
-Thompson rozvíjí pojem **sense-making**: autopoietický systém **interpretuje** environment v rámci své **vlastní** struktury. Žádný "objektivní" environment **neexistuje** — pouze environment **pro daný systém**.
+Thompson rozvíjí pojem **sense-making**: autopoietický systém **interpretuje** environment v rámci své **vlastní** struktury. Žádný „objektivní“ environment **neexistuje** — pouze environment **pro daný systém**.
 
 Tato pozice je strukturálně **enaktivistická** — kompatibilní s Varelou ([viz 7.45](@/kompendium/07-teoreticke-reflexe/varela-enactivism.md)).
 
@@ -95,7 +95,7 @@ Thompson je strukturálně **skeptický** vůči **silné AI**:
 
 - AI postrádá **autopoietickou** strukturu — pouze imituje sense-making
 - **Kontinuita biologie/mysli**: pokud je mysl **biologická**, AI je strukturálně **distinct**
-- **Riziko antropomorfismu**: připisování AI strukturálně biologických kapacit je **kategoriální omyl**
+- **Riziko antropomorfismu**: připisování AI strukturálně biologických kapacit je **[kategoriální omyl](@/glossary/category-mistake.md)**
 
 Pro EA z toho plyne:
 

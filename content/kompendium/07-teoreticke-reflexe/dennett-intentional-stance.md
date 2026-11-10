@@ -23,7 +23,7 @@ Daniel Dennett v knize *The Intentional Stance* (1987) formuluje **strukturáln�
 - **Designová vrstva** (*design stance*) — popis pomocí účelové struktury
 - **Intencionální vrstva** (*intentional stance*) — popis pomocí přesvědčení a tužeb
 
-Pro kompendium EA poskytuje Dennettova analýza nástroj pro pochopení **strukturálních úrovní**, na nichž EA techniky operují.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Dennettova analýza nástroj pro pochopení **strukturálních úrovní**, na nichž EA techniky operují.
 
 ## 1. Tři vrstvy
 
@@ -40,7 +40,7 @@ Pro EA z toho plyne:
 - **EA techniky operují na všech třech vrstvách**:
   - Fyzikální: manipulace prostředí, hladovění, deprivace spánku
   - Designová: manipulace algoritmických rozhraní, architektury výběru
-  - Intencionální: manipulace přesvědčení, gaslighting, propaganda
+  - Intencionální: manipulace přesvědčení, [gaslighting](@/glossary/gaslighting.md), [propaganda](@/glossary/propaganda.md)
 - **Diferenciální analýza**: kterou vrstvu cílí konkrétní technika?
 
 ## 2. Real Patterns
@@ -61,7 +61,7 @@ Pro EA má heterofenomenologie **klinickou hodnotu**:
 
 - **Pacient jako heterofenomenologický subjekt**: terapeut **bere vážně** výpovědi, ale **interpretuje** je heterofenomenologicky.
 - **Riziko nadinterpretace**: pacientovy výpovědi nejsou **přímým přístupem** ke skutečnosti — vyžadují klinickou interpretaci.
-- **Riziko podinterpretace**: gaslighting strukturálně **odmítá** heterofenomenologickou serioznost — pacientovy výpovědi jsou **odmítány** jako "iluze".
+- **Riziko podinterpretace**: gaslighting strukturálně **odmítá** heterofenomenologickou serioznost — pacientovy výpovědi jsou **odmítány** jako „iluze“.
 
 ## 4. Mémetický evolucionismus
 
@@ -107,7 +107,7 @@ Kompendium absorbuje Dennettovu strukturální analýzu, ale **odbočuje** v ně
 - Dennett, D. (1991). *Consciousness Explained*. Little, Brown.
 - Dennett, D. (1995). *Darwin's Dangerous Idea*. Simon & Schuster.
 - Dennett, D. (2017). *From Bacteria to Bach and Back*. W.W. Norton.
-- Dennett, D. (1991). "Real Patterns". *Journal of Philosophy* 88.
+- Dennett, D. (1991). „Real Patterns“. *Journal of Philosophy* 88.
 
 ## Související
 

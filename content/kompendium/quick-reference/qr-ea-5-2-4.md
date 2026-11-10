@@ -20,18 +20,18 @@ toc = false
 
 > WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Doména**: Metatranscendentální anihilace — útok na strukturu apriorních podmínek poznání skrze jejich přesycení nelegitimními "apriorními pravdami".
+**Doména**: Metatranscendentální anihilace — útok na strukturu apriorních podmínek poznání skrze jejich přesycení nelegitimními „apriorními pravdami“.
 
 ## Definice
 
-**Apriorní saturace** je technika, při níž manipulátor **vnáší doktrinální teze** (kosmologické, antropologické, etické) do subjektova diskurzu jako **"apriorní"** — tedy jako pravdy, které nepotřebují empirickou validaci, jsou přijímány **dříve, než vůbec mohly být zpochybněny**. Strukturálně se to liší od legitimních apriori (matematicko-logických, jichž si Kant všímal) — pseudo-apriorní teze ("vesmír je vědomý", "duše existuje", "dobro vítězí") jsou syntetické, ale jsou prezentovány jako analytické. Subjekt postupně přesycuje svůj epistemický prostor tezemi, které jsou imunizovány proti empirickému zpochybnění formulemi typu "to nelze testovat, je to apriorně dáno". V terminálním stadiu nastává *kruhová struktura*: empirie je interpretována tezí, teze je "potvrzena" empirií, kterou sama strukturuje. 
+**Apriorní saturace** je technika, při níž manipulátor **vnáší doktrinální teze** (kosmologické, antropologické, etické) do subjektova diskurzu jako **„apriorní“** — tedy jako pravdy, které nepotřebují empirickou validaci, jsou přijímány **dříve, než vůbec mohly být zpochybněny**. Strukturálně se to liší od legitimních apriori (matematicko-logických, jichž si Kant všímal) — pseudo-apriorní teze („vesmír je vědomý“, „duše existuje“, „dobro vítězí“) jsou syntetické, ale jsou prezentovány jako analytické. Subjekt postupně přesycuje svůj epistemický prostor tezemi, které jsou imunizovány proti empirickému zpochybnění formulemi typu „to nelze testovat, je to apriorně dáno“. V terminálním stadiu nastává *kruhová struktura*: empirie je interpretována tezí, teze je „potvrzena“ empirií, kterou sama strukturuje.
 
 ## Operační modus (5 kroků)
 
-1. **Vnesení doktrinálních tezí** — kosmologické, antropologické či etické výroky prezentovány jako "apriorně samozřejmé".
-2. **Imunizace proti empirickému zpochybnění** — "to nelze testovat".
+1. **Vnesení doktrinálních tezí** — kosmologické, antropologické či etické výroky prezentovány jako „apriorně samozřejmé“.
+2. **Imunizace proti empirickému zpochybnění** — „to nelze testovat“.
 3. **Rituální posílení** — opakování v doktrinálních setkáních.
-4. **Kruhová verifikace** — empirie je interpretována tezí, teze "potvrzena" výsledkem.
+4. **Kruhová verifikace** — empirie je interpretována tezí, teze „potvrzena“ výsledkem.
 5. **Konsolidace nemožnosti zpochybnění** — subjekt nedokáže pojmout tezi jako *tvrditelnou*.
 
 ## Fenomenologické znaky
@@ -60,7 +60,7 @@ toc = false
 
 ## Klinický kontext
 
-Apriorní saturace se vyskytuje v "kvantově-vědomých" komunitách, v některých formách New Age duchovních škol, v náboženských fundamentalistických společenstvích a v některých post-strukturalistických akademických prostředích. **Klasický případ**: komunita věřících v "kvantové vědomí" tvrdí jako apriori, že "myšlenky vytvářejí realitu". Subjekt po dvou letech expozice nedokáže pojmout výrok jako tvrditelný; pro něj je "samozřejmý". Při klinické konfrontaci s placebo studiemi (kde efekt je 30-40 %, nikoli 100 %) reaguje "to je iluze měření, kvantové vědomí pracuje na hlubší úrovni". Klinické riziko: rozhodnutí na základě saturovaných pseudo-apriori vede k praktickým chybám s nelze-li-vyvrátit struktorou.
+Apriorní saturace se vyskytuje v „kvantově-vědomých“ komunitách, v některých formách New Age duchovních škol, v náboženských fundamentalistických společenstvích a v některých post-strukturalistických akademických prostředích. **Klasický případ**: komunita věřících v „kvantové vědomí“ tvrdí jako apriori, že „myšlenky vytvářejí realitu“. Subjekt po dvou letech expozice nedokáže pojmout výrok jako tvrditelný; pro něj je „samozřejmý“. Při klinické konfrontaci s placebo studiemi (kde efekt je 30-40 %, nikoli 100 %) reaguje „to je iluze měření, kvantové vědomí pracuje na hlubší úrovni“. Klinické riziko: rozhodnutí na základě saturovaných pseudo-apriori vede k praktickým chybám s nelze-li-vyvrátit struktorou.
 
 ## Cross-linky
 

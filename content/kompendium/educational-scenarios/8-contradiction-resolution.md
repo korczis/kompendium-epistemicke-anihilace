@@ -131,19 +131,23 @@ smyšlený, a dejte možnost nepodílet se na diskusi o důsledcích. Pro souvis
 ## Související
 
 **Navazující scénáře**
+
 - [Vážení důkazů](@/kompendium/educational-scenarios/7-evidence-weighting.md) – váha jednotlivých podkladů.
 - [Rozpoznání paradigmatu](@/kompendium/educational-scenarios/10-paradigm-recognition.md) – rozpory, které vznikají z rámců.
 - [Evaluace zdrojů](@/kompendium/educational-scenarios/4-source-evaluation.md) – kvalita jednotlivého zdroje.
 
 **Techniky**
+
 - [EA-1.2.2 Falešná ekvivalence](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md) – zneužití symetrie.
 - [EA-7.2.8 Davidson: Princip vstřícnosti](@/kompendium/techniques/ea-7-2-8-davidson-charity.md) – číst protistranu v nejsilnější verzi.
 
 **Forenzní rámec**
+
 - [Znalec v kontextu EA](@/kompendium/forensic-legal/21-expert-witness-EA.md) – role a meze znaleckého posudku.
 - [Sugestibilita](@/kompendium/forensic-legal/5-suggestibility-assessment.md) – zdroj metodických rozporů.
 
 **Sebe-obrana a glosář**
+
 - [Rutina cross-source](@/kompendium/self-defense-guides/36-cross-source-routine.md) – srovnávání jako zvyk.
 - [Pluralismus](@/glossary/pluralismus.md) – kdy je více rámců oprávněných.
 

@@ -7,7 +7,7 @@ description = "Theoretical construct in personality psychology and philosophy of
 tags = ["psychology", "phenomenology", "identity", "clinical"]
 
 [extra]
-category = "psychology"
+category = "psychologie a klinika"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -30,7 +30,7 @@ Narativní identita (narrative identity) is the theoretical construct, developed
 
 ## Manažerské shrnutí
 
-V due-diligence kontextu, klinické psychologii, i v OSINT investigaci je narativní identita **diagnosticky a prognosticky kritická kategorie**. Subjekt s koherentní, integrovanou narativní identitou má zdravou kapacitu reflexe, robustnost vůči manipulaci, a předvídatelné jednání. Subjekt s rozpadnutým, fragmentovaným nebo cizí autoritou převzatým narativem (typicky bývalý člen kultu, oběť long-term coercive control, jedinec po závažném traumatu, leader závislý na pseudobiografickém mýtu) vykazuje nepředvídatelné jednání, kognitivní disonance, a vysoké riziko regrese pod stresem. Manažersky důležité: hodnocení narativní identity nelze automatizovat — vyžaduje kvalifikovaný klinický rozhovor s explicitním souhlasem subjektu nebo etickou platnost (např. court-ordered evaluation).
+V due-diligence kontextu, klinické psychologii, i v [OSINT](@/glossary/osint.md) investigaci je narativní identita **diagnosticky a prognosticky kritická kategorie**. Subjekt s koherentní, integrovanou narativní identitou má zdravou kapacitu reflexe, robustnost vůči manipulaci, a předvídatelné jednání. Subjekt s rozpadnutým, fragmentovaným nebo cizí autoritou převzatým narativem (typicky bývalý člen kultu, oběť long-term [coercive control](@/glossary/coercive-control.md), jedinec po závažném traumatu, leader závislý na pseudobiografickém mýtu) vykazuje nepředvídatelné jednání, kognitivní disonance, a vysoké riziko regrese pod stresem. Manažersky důležité: hodnocení narativní identity nelze automatizovat — vyžaduje kvalifikovaný klinický rozhovor s explicitním souhlasem subjektu nebo etickou platnost (např. court-ordered evaluation).
 
 ## Domain Context
 

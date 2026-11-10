@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[hermeneutika](@/glossary/hermeneutika.md) — Hermeneutika je filosofická disciplína věnovaná teorii a praxi interpretace textů, jednání a historických forem života. Od Schleiermachera přes Diltheye, Heideggera a Gadamera formuluje, jak porozumění vzniká v cirkulárním pohybu mezi celkem a částí (hermeneutický kruh) a jak je interpret vždy umístěn v dějinných předpojatostech.
+[hermeneutika](@/glossary/hermeneutika.md) — Hermeneutika je filosofická disciplína věnovaná teorii a praxi interpretace textů, jednání a historických forem života. Od Schleiermachera přes Diltheye, Heideggera a Gadamera formuluje, jak porozumění vzniká v cirkulárním pohybu mezi celkem a částí ([hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)) a jak je interpret vždy umístěn v dějinných předpojatostech.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

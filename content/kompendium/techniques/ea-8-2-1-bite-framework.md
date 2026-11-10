@@ -38,7 +38,7 @@ Hassan (1988, rev. 2018) integruje Liftonovu thought reform teorii (1961) a Sing
 
 ## Klíčové komponenty
 
-Model rozlišuje undue influence (legitimní vliv, opt-out možný) od mind control (totalistická struktura, opt-out blokován). Stratifikuje high-control groups napříč náboženské, politické, terapeutické a komerční kontexty.
+Model rozlišuje [undue influence](@/glossary/undue-influence.md) (legitimní vliv, opt-out možný) od mind control (totalistická struktura, opt-out blokován). Stratifikuje high-control groups napříč náboženské, politické, terapeutické a komerční kontexty.
 
 ## Aplikace v EA kontextu
 
@@ -54,7 +54,7 @@ Vyvinuto na západních populacích. Méně mapováno na korporátní totalismus
 
 ## Vztah k jiným zdrojům
 
-Implementační vrstva: **EA-8.1.1 BITE Model Detail**. Komplementární rámec: **EA-8.2.4 Hassan Cult Criteria** (sub-typologie skupin).
+Implementační vrstva: **EA-8.1.1 [BITE Model](@/glossary/bite-model.md) Detail**. Komplementární rámec: **EA-8.2.4 Hassan Cult Criteria** (sub-typologie skupin).
 
 ## Cross-linky
 

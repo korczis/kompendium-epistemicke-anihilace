@@ -7,7 +7,7 @@ description = "Structured, evidence-based questioning protocol designed to elici
 tags = ["forensic", "investigation", "evidence", "compliance"]
 
 [extra]
-category = "forensic"
+category = "právo a forenzní praxe"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -39,7 +39,7 @@ Multiple validated protocols dominate the field: the **NICHD Protocol** (Lamb et
 
 ## Practical Application
 
-In M&A due diligence, structured interviews of target-company management, key customers, and departing employees produce evidence about culture, undisclosed liabilities, and integration risk that financial review cannot. Interviewers should plan questions in advance, record (with consent), open with neutral background questions, use the witness's own terminology, and avoid feedback that signals desired answers. In whistleblower and internal-investigation contexts, the *Upjohn warning* (United States) and analogous Czech advokátní pravidla on conflicts of interest must be delivered before substantive questioning. In OSINT operations, forensic-interview discipline applies to source meetings: planned questions, contemporaneous notes, immediate write-up, and chain-of-custody for any documents received.
+In M&A [due diligence](@/glossary/due-diligence.md), structured interviews of target-company management, key customers, and departing employees produce evidence about culture, undisclosed liabilities, and integration risk that financial review cannot. Interviewers should plan questions in advance, record (with consent), open with neutral background questions, use the witness's own terminology, and avoid feedback that signals desired answers. In whistleblower and internal-investigation contexts, the *Upjohn warning* (United States) and analogous Czech advokátní pravidla on conflicts of interest must be delivered before substantive questioning. In [OSINT](@/glossary/osint.md) operations, forensic-interview discipline applies to source meetings: planned questions, contemporaneous notes, immediate write-up, and chain-of-custody for any documents received.
 
 ## Related Concepts
 

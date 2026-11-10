@@ -31,7 +31,7 @@ Najděte 3 přídavná jména, která definují, kým chcete být (např. zvěda
 
 ### 3. Editor cizích narativů
 
-Když vám někdo říká, kdo jste ('jsi takový/á...'), aktivně zhodnoťte: souhlasím? Pokud ne, ústně koregujte: 'Tak se nevidím. Vidím se jako...'
+Když vám někdo říká, kdo jste ('jsi takový/á…'), aktivně zhodnoťte: souhlasím? Pokud ne, ústně koregujte: 'Tak se nevidím. Vidím se jako…'
 
 ### 4. Týdenní inkrement
 

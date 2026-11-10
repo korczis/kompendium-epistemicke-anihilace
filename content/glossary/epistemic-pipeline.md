@@ -8,7 +8,7 @@ description = "16-level processing pipeline from raw data (L0) through Meta and 
 tags = ["glossary", "epistemic", "epistemic-pipeline", "prismatic"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["nabla-infinity", "trinity-gate", "consciousness-traits", "three-nl", "provenance-mandatory", "confidence-threshold", "belief-graph", "qeve", "signal-plurality", "contradiction-preservation", "time-decay", "confidence-scoring", "formal-verification", "monte-carlo-verification", "property-based-testing", "entity-resolution", "cherry-picking", "quality-gates", "seadf", "audit-trail", "agent", "color-teams", "nm-nd"]
 date_created = "2026-01-15"
 date_updated = "2026-02-14"
@@ -31,9 +31,9 @@ The architecture draws on principles from epistemology, signal processing theory
 
 **Interactive Demo**: The pipeline flow visualization above shows the QEVE (Question → Evidence → Validation → Evolution) stages in action. Watch as raw signals enter at L0 and progress through the 16 levels of transformation. The animation demonstrates how data accumulates epistemic weight through validation, correlation, and formal verification. Observe the belief graph structures forming as related signals converge and contradict, culminating in the Meta and Consciousness levels that monitor the pipeline's own epistemic health.
 
-The 16-level design was not chosen arbitrarily. It emerged from an analysis of the minimum number of distinct processing stages required to satisfy all seven NABLA axioms while maintaining tractable computational complexity. Fewer levels would conflate distinct epistemic operations (such as correlation and contradiction identification, which require fundamentally different algorithms). More levels would introduce unnecessary overhead without meaningful gains in epistemic rigor. The current architecture represents the convergence point where completeness of epistemic coverage meets practical engineering constraints.
+The 16-level design was not chosen arbitrarily. It emerged from an analysis of the minimum number of distinct processing stages required to satisfy all seven [NABLA axioms](@/glossary/nabla-axioms.md) while maintaining tractable computational complexity. Fewer levels would conflate distinct epistemic operations (such as correlation and contradiction identification, which require fundamentally different algorithms). More levels would introduce unnecessary overhead without meaningful gains in epistemic rigor. The current architecture represents the convergence point where completeness of epistemic coverage meets practical engineering constraints.
 
-Within the Prismatic Platform's ecosystem of over 430 [agents](@/glossary/agent.md) operating across 89 applications, the Epistemic Pipeline serves as the shared epistemological backbone. Regardless of whether an agent is performing OSINT collection, security assessment, compliance verification, or knowledge synthesis, its outputs must enter and traverse the pipeline. This universality ensures that the platform maintains a single, coherent standard of epistemic quality across all domains of operation.
+Within the Prismatic Platform's ecosystem of over 430 [agents](@/glossary/agent.md) operating across 89 applications, the Epistemic Pipeline serves as the shared epistemological backbone. Regardless of whether an agent is performing [OSINT](@/glossary/osint.md) collection, security assessment, compliance verification, or knowledge synthesis, its outputs must enter and traverse the pipeline. This universality ensures that the platform maintains a single, coherent standard of epistemic quality across all domains of operation.
 
 ## The 16 Levels
 
@@ -45,7 +45,7 @@ The entry point of the pipeline. L0 accepts raw, unprocessed data from all platf
 
 ### L1: Signal Extraction
 
-L1 performs the first interpretive operation on raw data: extracting discrete signals from the undifferentiated input stream. A "signal" in this context is a unit of information that carries a potential epistemic claim -- an IP address, a domain name, a configuration parameter, a behavioral indicator, a textual assertion. L1 applies format-specific parsers, natural language processing, and structural analysis to decompose raw inputs into their constituent signals. Each extracted signal inherits the provenance chain established at L0 and receives a unique signal identifier for tracking through subsequent levels.
+L1 performs the first interpretive operation on raw data: extracting discrete signals from the undifferentiated input stream. A “signal” in this context is a unit of information that carries a potential epistemic claim — an IP address, a domain name, a configuration parameter, a behavioral indicator, a textual assertion. L1 applies format-specific parsers, natural language processing, and structural analysis to decompose raw inputs into their constituent signals. Each extracted signal inherits the provenance chain established at L0 and receives a unique signal identifier for tracking through subsequent levels.
 
 ### L2: Signal Validation
 
@@ -57,7 +57,7 @@ L3 performs deep provenance analysis, extending beyond the mechanical provenance
 
 ### L4: Signal Correlation
 
-L4 identifies relationships between signals originating from different sources, time periods, or domains. Correlation analysis employs [entity resolution](@/glossary/entity-resolution.md) algorithms to determine when distinct signals refer to the same underlying entity or event, temporal correlation to identify signals that co-occur within meaningful time windows, and causal inference techniques to detect potential cause-effect relationships. The outputs of L4 are correlation graphs that map the relational structure of the signal space, feeding directly into the platform's [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) infrastructure.
+L4 identifies relationships between signals originating from different sources, time periods, or domains. Correlation analysis employs [entity resolution](@/glossary/entity-resolution.md) algorithms to determine when distinct signals refer to the same underlying entity or event, temporal correlation to identify signals that co-occur within meaningful time windows, and causal [inference](@/glossary/inference.md) techniques to detect potential cause-effect relationships. The outputs of L4 are correlation graphs that map the relational structure of the signal space, feeding directly into the platform's [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) infrastructure.
 
 ### L5: Pattern Detection
 
@@ -109,13 +109,13 @@ The seven axioms of [NABLA Infinity](@/glossary/nabla-infinity.md) are not appli
 
 **Signal Plurality** is primarily enforced at L3 (Source Attribution) and L7 (Confidence Computation). No claim may achieve confidence above the standard operations threshold of 0.80 without at least two independent supporting signals. At L4 (Signal Correlation), the plurality requirement extends to correlation claims, ensuring that identified relationships are supported by multiple evidence threads.
 
-**Contradiction Preservation** has its primary enforcement point at L6 (Contradiction Identification), but is monitored at every level from L2 onward. Any operation that would discard one side of a detected contradiction triggers an immediate E2-level block under the NABLA enforcement protocol.
+**Contradiction Preservation** has its primary enforcement point at L6 (Contradiction Identification), but is monitored at every level from L2 onward. Any operation that would [discard](@/glossary/discard.md) one side of a detected contradiction triggers an immediate E2-level block under the NABLA enforcement protocol.
 
 **Absence Informative** is enforced throughout L5 (Pattern Detection) and L9 (Evidence Synthesis). The pipeline explicitly tracks expected-but-missing signals and incorporates their absence into confidence calculations and hypothesis evaluation.
 
 **Time Decay** is enforced from the moment of ingestion at L0, with mandatory timestamps attached to every datum. L7 (Confidence Computation) applies temporal discount functions, and L10 (Knowledge Integration) periodically re-evaluates stored knowledge against current decay schedules.
 
-**Unknown Valid** is enforced at L7 and L8, ensuring that the pipeline's outputs include explicit uncertainty bounds and that "I don't know" remains a legitimate conclusion at every level.
+**Unknown Valid** is enforced at L7 and L8, ensuring that the pipeline's outputs include explicit uncertainty bounds and that “I don't know” remains a legitimate conclusion at every level.
 
 **Source Independence** is primarily enforced at L3 and L4, where the pipeline identifies and accounts for common-source dependencies that might create an illusion of plurality.
 
@@ -161,45 +161,45 @@ The [AIAD](@/glossary/aiad.md) agent framework routes all agent outputs through 
 
 The [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) system and [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) framework draw on pipeline metrics (particularly Meta-level assessments) to maintain platform-wide quality standards. The [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) provides the meta-linguistic foundation for expressing pipeline operations at increasing levels of abstraction, from concrete signal processing to abstract epistemic reasoning.
 
-The [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) subsystem's seven components -- Scanner, Pipeline, Quality Guardian, Knowledge Sync, Cross-Domain Innovator, Autonomous Reporter, and Enhanced Healing -- all interact with the Epistemic Pipeline. The SEADF Pipeline component manages the physical execution of the Epistemic Pipeline's logical levels, while the Quality Guardian monitors compliance with [NM/ND](@/glossary/nm-nd.md) doctrine throughout processing.
+The [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) subsystem's seven components — Scanner, Pipeline, Quality Guardian, Knowledge Sync, Cross-Domain Innovator, Autonomous Reporter, and Enhanced Healing — all interact with the Epistemic Pipeline. The SEADF Pipeline component manages the physical execution of the Epistemic Pipeline's logical levels, while the Quality Guardian monitors compliance with [NM/ND](@/glossary/nm-nd.md) doctrine throughout processing.
 
 ## Related Terms
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- The seven non-negotiable epistemic axioms enforced at every pipeline level
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Four-layer verification system at critical pipeline checkpoints
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- Graph structure updated by L4 correlation and L10 knowledge integration
-- [QEVE](@/glossary/qeve.md) -- Verification engine combining Lean4, NABLA, and Monte Carlo methods at Trinity Gate
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Tau values governing transitions between exploration and execution
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Quantitative scoring methodology applied at L7
-- [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom requiring multiple independent signals, enforced at L3 and L7
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- NABLA axiom preventing epistemic cherry-picking, primary enforcement at L6
-- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- NABLA axiom mandating temporal awareness, enforced from L0 onward
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- NABLA axiom requiring full traceability at every level
-- [Cherry-Picking](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cherry-picking/) -- Forbidden anti-pattern that the pipeline's architecture is designed to prevent
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Algorithm family employed at L4 for signal correlation
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- Lean4-based proof verification at Trinity Gate checkpoints
-- [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) -- Probabilistic verification method for stochastic claims
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Behavioral verification at Trinity Gate
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- 11 emergent properties tracked at the pipeline's apex level
-- [Fitness Score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/) -- Quantitative measure of platform evolution, currently 0.999 at Generation 18
-- [Agent](@/glossary/agent.md) -- Autonomous processing units whose outputs flow through the pipeline
-- [AIAD](@/glossary/aiad.md) -- Agent framework standard governing pipeline integration
-- [Color Teams](@/glossary/color-teams.md) -- Security operations that stress-test and defend the pipeline
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Platform-wide quality enforcement drawing on pipeline metrics
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Cross-session quality continuity informed by pipeline health
-- [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) -- Framework managing pipeline execution and monitoring
-- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Meta-linguistic foundation for pipeline abstraction levels
-- [NM/ND](@/glossary/nm-nd.md) -- Doctrine governing the exploration-to-execution transition at L12
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Formal proof assistant used in Trinity Gate verification
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable record of all pipeline operations and knowledge modifications
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of the pipeline's resilience to adversarial and degraded inputs
-- [EASM](@/glossary/easm.md) -- External Attack Surface Management, a primary data source entering at L0
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — The seven non-negotiable epistemic axioms enforced at every pipeline level
+- [Trinity Gate](@/glossary/trinity-gate.md) — Four-layer verification system at critical pipeline checkpoints
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) — Graph structure updated by L4 correlation and L10 knowledge integration
+- [QEVE](@/glossary/qeve.md) — Verification engine combining Lean4, NABLA, and Monte Carlo methods at Trinity Gate
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) — Tau values governing transitions between exploration and execution
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) — Quantitative scoring methodology applied at L7
+- [Signal Plurality](@/glossary/signal-plurality.md) — NABLA axiom requiring multiple independent signals, enforced at L3 and L7
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) — NABLA axiom preventing epistemic cherry-picking, primary enforcement at L6
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) — NABLA axiom mandating temporal awareness, enforced from L0 onward
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — NABLA axiom requiring full traceability at every level
+- [Cherry-Picking](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cherry-picking/) — Forbidden anti-pattern that the pipeline's architecture is designed to prevent
+- [Entity Resolution](@/glossary/entity-resolution.md) — Algorithm family employed at L4 for signal correlation
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) — Lean4-based proof verification at Trinity Gate checkpoints
+- [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) — Probabilistic verification method for stochastic claims
+- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) — Behavioral verification at Trinity Gate
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) — 11 emergent properties tracked at the pipeline's apex level
+- [Fitness Score](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fitness-score/) — Quantitative measure of platform evolution, currently 0.999 at Generation 18
+- [Agent](@/glossary/agent.md) — Autonomous processing units whose outputs flow through the pipeline
+- [AIAD](@/glossary/aiad.md) — Agent framework standard governing pipeline integration
+- [Color Teams](@/glossary/color-teams.md) — Security operations that stress-test and defend the pipeline
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) — Platform-wide quality enforcement drawing on pipeline metrics
+- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) — Cross-session quality continuity informed by pipeline health
+- [SEADF](https://prismatic-reality-com.github.io/prismatic-promo/glossary/seadf/) — Framework managing pipeline execution and monitoring
+- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) — Meta-linguistic foundation for pipeline abstraction levels
+- [NM/ND](@/glossary/nm-nd.md) — Doctrine governing the exploration-to-execution transition at L12
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) — Formal proof assistant used in Trinity Gate verification
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) — Immutable record of all pipeline operations and knowledge modifications
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) — Measure of the pipeline's resilience to adversarial and degraded inputs
+- [EASM](@/glossary/easm.md) — External Attack Surface Management, a primary data source entering at L0
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview including pipeline placement
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack powering pipeline implementation
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capabilities enabled by the pipeline
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview including pipeline placement
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack powering pipeline implementation
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform capabilities enabled by the pipeline
 
 ---
 

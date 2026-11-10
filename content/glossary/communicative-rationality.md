@@ -8,7 +8,7 @@ description = "Habermas's reconstruction of reason as oriented toward mutual und
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["ideal-speech-situation", "instrumental-reason", "epistemicka-anihilace", "epistemicka-injustice", "power-knowledge"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -41,7 +41,7 @@ Specifically:
 - **EA-1.3.x immunization techniques** violate the **sincerity claim** — they preserve appearance of openness to argument while structurally precluding update.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) treats Habermas's framework as the **normative pillar** of the EA taxonomy: it supplies the criterion against which manipulation can be identified as such.
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} is designed to track validity-claim violations as **calibration risk factors** — when an information source systematically violates one or more validity claims, downstream confidence in conclusions drawn from that source is appropriately discounted.
-- The [Color Teams](@/glossary/color-teams.md) Blue Team practice is explicitly modeled on communicative-action norms: deliberation is conducted under conditions designed to approximate the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as a pragmatic working ideal.
+- The [Color Teams](@/glossary/color-teams.md) [Blue Team](@/glossary/blue-team.md) practice is explicitly modeled on communicative-action norms: deliberation is conducted under conditions designed to approximate the [Ideal Speech Situation](@/glossary/ideal-speech-situation.md) as a pragmatic working ideal.
 - The kompendium itself, as a published, peer-reviewable, openly contestable taxonomy, performs communicative rationality at the meta-level: it submits its own validity claims to public discursive testing.
 
 ## See Also

@@ -7,7 +7,7 @@ description = "All code must compile with --warnings-as-errors producing zero wa
 tags = ["glossary", "quality", "zero-warning-policy", "prismatic"]
 
 [extra]
-category = "quality"
+category = "doktrína platformy"
 related_terms = ["clean-run", "quality-gates", "credo", "dialyzer", "no-mercy"]
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -25,9 +25,9 @@ image_alt = "Zero Warning Policy - Prismatic Platform"
 
 The Zero Warning Policy is a foundational quality enforcement rule mandating that all Elixir code in the Prismatic Platform must compile successfully with the `--warnings-as-errors` flag enabled. Under this policy, every compiler diagnostic---unused variables, deprecated function calls, missing return values, unreachable code, pattern match warnings, and all other compiler-generated warnings---is treated as a compilation failure. The build process terminates with a non-zero exit code, blocking all downstream operations: testing, deployment, commit, and merge.
 
-This policy represents the most uncompromising approach to compiler diagnostics in software engineering. Most projects tolerate some level of warnings, relying on developers to exercise judgment about which warnings are "real problems" and which are "acceptable noise." The Zero Warning Policy rejects this distinction entirely. Every warning is a potential defect indicator. Every warning increases the noise floor that obscures genuinely critical diagnostics. The only acceptable number of warnings is zero.
+This policy represents the most uncompromising approach to compiler diagnostics in software engineering. Most projects tolerate some level of warnings, relying on developers to exercise judgment about which warnings are “real problems” and which are “acceptable noise.” The Zero Warning Policy rejects this distinction entirely. Every warning is a potential defect indicator. Every warning increases the noise floor that obscures genuinely critical diagnostics. The only acceptable number of warnings is zero.
 
-The rationale is both practical and philosophical. Practically, maintaining zero warnings ensures that every new warning is immediately visible and attributable to a specific change, enabling instant root cause identification. A codebase with 200 existing warnings makes it trivial for a developer to introduce the 201st without noticing. A codebase with zero warnings makes every new warning an unmistakable signal. Philosophically, the policy aligns with the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine: there are no acceptable quality violations, no deferred fixes, and no tolerance for "good enough."
+The rationale is both practical and philosophical. Practically, maintaining zero warnings ensures that every new warning is immediately visible and attributable to a specific change, enabling instant root cause identification. A codebase with 200 existing warnings makes it trivial for a developer to introduce the 201st without noticing. A codebase with zero warnings makes every new warning an unmistakable signal. Philosophically, the policy aligns with the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine: there are no acceptable quality violations, no deferred fixes, and no tolerance for “good enough.”
 
 The Prismatic Platform enforces this policy across all 6,652 Elixir source files in 90 umbrella applications. The current status is **zero compilation warnings** across the entire codebase---a state that has been maintained through disciplined enforcement at every stage of the development lifecycle.
 
@@ -341,13 +341,13 @@ end
 
 4. **Understand the warning before fixing**: Do not blindly suppress warnings with underscores. An unused variable warning may indicate a logic error (forgotten to use a computed result) rather than an intentional non-use. Understand the root cause before choosing the fix.
 
-5. **Track warning categories**: Monitor which warning types appear most frequently. A spike in "unused variable" warnings may indicate copy-paste coding. A spike in "deprecated function" warnings may signal an upcoming Elixir version dependency.
+5. **Track warning categories**: Monitor which warning types appear most frequently. A spike in “unused variable” warnings may indicate copy-paste coding. A spike in “deprecated function” warnings may signal an upcoming Elixir version dependency.
 
 6. **Combine with Credo and Dialyzer**: The compiler catches a subset of code quality issues. [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) covers style and design patterns. [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) covers type analysis. All three together provide comprehensive static analysis coverage.
 
 ## Common Pitfalls
 
-- **Suppressing warnings without understanding**: Prefixing variables with `_` to silence "unused variable" warnings without investigating why the variable is unused can hide real bugs. Always understand the root cause before applying the fix.
+- **Suppressing warnings without understanding**: Prefixing variables with `_` to silence “unused variable” warnings without investigating why the variable is unused can hide real bugs. Always understand the root cause before applying the fix.
 
 - **Disabling for specific files**: Some projects use per-file or per-module warning suppression. This creates inconsistency and provides a pathway for warning accumulation. The Prismatic Platform does not support per-file suppression.
 

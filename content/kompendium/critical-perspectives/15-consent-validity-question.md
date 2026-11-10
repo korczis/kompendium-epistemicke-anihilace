@@ -15,7 +15,7 @@ toc = true
 
 # Otázka validity souhlasu v EA výzkumu
 
-> **Bucket**: ethical · **Unique angle**: substantivní vs. formální souhlas — informed consent v EA
+> **Bucket**: ethical · **Unique angle**: substantivní vs. formální souhlas — [informed consent](@/glossary/informed-consent.md) v EA
 
 ## Kritika nebo alternativa
 

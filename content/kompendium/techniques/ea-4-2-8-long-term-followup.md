@@ -102,11 +102,11 @@ Detekce vyžaduje **diferenciální diagnózu** vůči primárním psychiatrick�
 
 ## Klinické pozadí
 
-Technika **EA-4.2.8** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu polyvagální teorie (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje etická governance vysokorizikové výzkumné nebo intervenční expozice.
+Technika **EA-4.2.8** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje etická governance vysokorizikové výzkumné nebo intervenční expozice.
 
 **Klinické zacílení**: etické rámce pre/inter/post-engagement supervize ve studiích s extrémní expozicí (forenzní psychiatry, vojenský výzkum, kult-deconstruction protokoly). Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
-**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající primárně preventivní rámec mapovaný proti DSM-5-TR Z71.9 (counseling), Z73.3 (stress, life-management), v ICD-11 odpovídá QD80 Problémy spojené s prací nebo nezaměstnaností. V rámci ICD-11 6B41 Complex PTSD (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
+**DSM-5-TR / ICD-11 mapování**: technika je primárně indikována pro diagnózy odpovídající primárně preventivní rámec mapovaný proti DSM-5-TR Z71.9 (counseling), Z73.3 (stress, life-management), v ICD-11 odpovídá QD80 Problémy spojené s prací nebo nezaměstnaností. V rámci ICD-11 6B41 [Complex PTSD](@/glossary/c-ptsd.md) (CPTSD) představuje technika klíčovou intervenční komponentu pro tři jádrové domény CPTSD: dysregulace afektu, negativní sebepojetí a relační poruchy. Diferenciální diagnostika musí explicitně vyloučit primární psychotické spektra (F20-F29 / 6A2X), bipolární poruchy (F31 / 6A6X) a organické afektivní poruchy (F06.3X / 6E62).
 
 **Trauma spektrum kontext**: aplikace techniky vyžaduje explicitní stratifikaci subjektu na škále jednoduchého akutního traumatu (Type I trauma per Terr) versus komplexního opakovaného relačního traumatu (Type II trauma). U Type II profilů s dlouhodobou expozicí v dětství je nutná modifikace standardního protokolu — zkrácení sezení, posílení titrace expozičních prvků, zvýšení frekvence stabilizačních intervalů. Ignorance této stratifikace je dokumentovanou cestou k iatrogennímu zhoršení.
 
@@ -133,37 +133,42 @@ Empirická opora techniky se opírá o tři primární evidenční pilíře: (a)
 Klinické rozhodování o aplikaci techniky **EA-4.2.8** sleduje strukturovaný algoritmus s explicitními rozhodovacími uzly a kvantifikovanými prahovými hodnotami:
 
 **Uzel 1 — Indikační audit (vstupní)**:
+
 - IF PCL-5 ≥ 33 AND ITQ DSO ≥ klinický práh AND absence psychotické symptomatologie → POKRAČUJ k Uzel 2
 - ELIF PCL-5 < 33 AND symptomy < 1 měsíc → ZVAŽ watchful waiting + krizová podpora
 - ELIF aktivní psychotická symptomatologie OR akutní suicidalita → STABILIZACE PRIORITNĚ, technika **kontraindikována**
 
 **Uzel 2 — Stabilizační prerekvizity**:
+
 - IF DERS celkový skór > 120 AND chybí stabilizační dovednosti → ZAŘAĎ pre-protokol DBT distress tolerance modul (8-12 sezení)
 - IF DES-II > 30 AND aktivní disociativní fragmentace → ZAŘAĎ disociativní stabilizační protokol PŘED expozičními komponentami
 - ELSE → POKRAČUJ k Uzel 3
 
 **Uzel 3 — Modulární stratifikace**:
+
 - IF Type I trauma (single-incident) → standardní protokol 12-16 sezení
 - IF Type II trauma (chronic relational) → rozšířený protokol 24-36 sezení s posílenou stabilizační fází
 - IF aktivní externí ohrožení (DV, kult, koercivní vztah) → BEZPEČNOSTNÍ PLAN PRIORITNĚ, technika odložena do bezpečné distance
 
 **Uzel 4 — Průběžné re-evaluation**:
+
 - KAŽDÉ 4. sezení: PCL-5 + CGI-S + terapeutická aliance (WAI-SR)
 - IF zhoršení > 20% baseline OR aliance < 20 percentil → SUPERVIZE + modifikace protokolu
 - IF redukce ≥ 30% AND funkcionální zlepšení → POKRAČUJ do konsolidační fáze
 
 **Uzel 5 — Terminace**:
+
 - Klinicky významná redukce (Cohenovo d ≥ 0.5 pre-post) AND udržení po 3 měsíce AND obnova funkce → ŘÁDNÁ TERMINACE s booster sessions plánem
 
 ## Neuropsychologické markery
 
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k self-report instrumentům:
+Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
 
 **Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
 
 **Exekutivní funkce**: trauma-related populace vykazují sníženou kognitivní flexibilitu (WCST perseverative errors), deficity v pracovní paměti (n-back 2-back accuracy) a impulzivitu v rozhodovacích úlohách (Iowa Gambling Task). Post-intervenční zlepšení korelace s redukcí PCL-5 (r = 0.42-0.58).
 
-**Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. Mereologická rekonstrukce vede k progresivní normalizaci specificity.
+**Paměťové funkce**: charakteristické fragmentární kódování traumatic memory (CVLT-3 free recall pro emocionální materiál), deficity v autobiografické specificitě (AMT — Autobiographical Memory Test), over-general recall bias. [Mereologická rekonstrukce](@/glossary/mereologicka-rekonstrukce.md) vede k progresivní normalizaci specificity.
 
 **Sociálně-kognitivní markery**: pre-intervenčně narušená teorie mysli (Reading the Mind in the Eyes Test pod 25 percentilem), hyper-vigilance vůči sociálním ohrožením, deficit v emoční identifikaci.
 
@@ -216,6 +221,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 | **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
 
 **Sekundární outcome**:
+
 - **PHQ-9** (depresivní symptomatologie, target < 10)
 - **GAD-7** (úzkostná symptomatologie, target < 10)
 - **DES-II** (disociativní symptomatologie, target < 30)
@@ -224,6 +230,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **PSQI** (kvalita spánku)
 
 **Benchmarks pro úspěch intervence**:
+
 - **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
 - **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
@@ -262,7 +269,7 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
 
 ## Vztah k Prismatic platformě
 
-- **[Color Teams Black Team](@/glossary/color-teams.md)** — Black Team operuje jako dedikovaná detekční jednotka pro markery terminálních protokolů ve forenzních a klinických materiálech zpracovávaných platformou.
+- **[Color Teams Black Team](@/glossary/color-teams.md)** — [Black Team](@/glossary/black-team.md) operuje jako dedikovaná detekční jednotka pro markery terminálních protokolů ve forenzních a klinických materiálech zpracovávaných platformou.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický pipeline obsahuje invarianty, které identifikují strukturální vzorce odpovídající této technice v textových a behaviorálních datech.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — provenance ledger poskytuje auditní stopu, která činí pozdější detekci a forenzní rekonstrukci proveditelnou.
 - **[Compliance framework](@/glossary/compliance-framework.md)** — interní compliance zachycuje pokusy o aplikaci technik mimo supervizní rámec a eskaluje je k etickému přezkumu.
@@ -296,7 +303,6 @@ Longitudinální data sledující subjekty 1-5 let po dokončení intervence dok
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Compliance framework](@/glossary/compliance-framework.md)
-
 
 ## ⚡ Kritický krok
 

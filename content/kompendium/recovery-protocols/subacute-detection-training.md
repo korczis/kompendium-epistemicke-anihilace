@@ -22,7 +22,7 @@ phase = "subacute"
 
 ## 1. Cílová populace
 
-Klienti připraveni přejít z reaktivní do proaktivní fáze — schopní snést psychoedukaci o manipulativních technikách bez retraumatizace. Typicky 2.–3. měsíc po extrakci. Cílem je obnovit [epistemickou agentnost](@/glossary/epistemicka-agentnost.md) skrze rozpoznání vzorců, kterými byli zasaženi.
+Klienti připraveni přejít z reaktivní do proaktivní fáze — schopní snést psychoedukaci o manipulativních technikách bez [retraumatizace](@/glossary/retraumatizace.md). Typicky 2.–3. měsíc po extrakci. Cílem je obnovit [epistemickou agentnost](@/glossary/epistemicka-agentnost.md) skrze rozpoznání vzorců, kterými byli zasaženi.
 
 ## 2. Časový rámec
 
@@ -40,7 +40,7 @@ Měsíce 1–3 po dosažení akutní stabilizace. Intenzita: 1–2 sezení týdn
 
 1. **Hloubkové hodnocení (týden 5–6)**: Klinické instrumenty (PCL-5, ITQ, IES-R), kognitivní baseline, narativní mapování. Identifikace primárních manipulačních vzorců.
 2. **Strukturovaná psychoedukace (měsíc 2)**: Vzdělávací moduly o specifických technikách EA, kterým byl klient vystaven. **Kontrolovaná dávka** — psychoedukace musí být tolerována bez retraumatizace.
-3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika "pojmenuj postavu"). Postupné přepisování klíčových scén.
+3. **Narativní práce (měsíce 1–3)**: Týdenní sezení zaměřená na konstrukci koherentní traumatické narace. Externalizace pachatelského hlasu (technika „pojmenuj postavu“). Postupné přepisování klíčových scén.
 4. **Trauma-focused intervence (měsíce 2–3)**: Zahájení EMDR nebo TF-CBT, jakmile dostatečná stabilizace. Cíl: zpracování klíčových traumatických memorií, ne celého spektra.
 5. **Detekční trénink (měsíc 3)**: Strukturované cvičení rozpoznávání manipulativních vzorců — hypotetické scénáře, role-play, video case studies. Budování **epistemic vigilance**.
 6. **Hodnotová inventarizace (měsíc 3)**: Strukturovaná práce s hodnotovým systémem — co je autentické, co implantované, co potřeba rekonstruovat.
@@ -59,9 +59,9 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+- **Online/digitální EA**: Důraz na informační hygienu, [OSINT](@/glossary/osint.md) awareness, digital security.
 
 ## 7. Kontraindikace
 

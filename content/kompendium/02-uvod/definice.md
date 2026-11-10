@@ -35,7 +35,7 @@ Na rozdíl od běžných epistemických distorzí (dílčích zkreslení v jinak
 | **Metaepistemická povaha** | Zasahuje strukturální principy poznávání a mechanismy formování přesvědčení, nejen specifická přesvědčení |
 | **Odolnost vůči korekci** | Generuje stav, kdy konfrontace s evidencí, logická argumentace či sociální feedback ztrácejí účinnost |
 
-Společný motiv těchto pěti znaků: epistemická anihilace **neodstraňuje** poznání jako obsah, ale **rozkládá** epistemickou kompetenci jako kapacitu. Postižený subjekt může nadále produkovat výroky podobné poznávacím aktům, ale tyto výroky pozbývají strukturní vlastnosti, jež je činí poznáním v normativním smyslu — sledovatelnost zdrojů, falsifikovatelnost, koherenci, revizibilitu při kontradikční evidenci.
+Společný motiv těchto pěti znaků: epistemická anihilace **neodstraňuje** poznání jako obsah, ale **rozkládá** epistemickou kompetenci jako kapacitu. Postižený subjekt může nadále produkovat výroky podobné poznávacím aktům, ale tyto výroky pozbývají strukturní vlastnosti, jež je činí poznáním v normativním smyslu — sledovatelnost zdrojů, [falsifikovatelnost](@/glossary/falsifikovatelnost.md), koherenci, revizibilitu při kontradikční evidenci.
 
 ### Epistemická vs. doxastická anihilace
 
@@ -94,7 +94,7 @@ V reálných případech se tyto fenomény typicky kombinují — totalitní ind
 
 **Axiologická anihilace** označuje systematickou destrukci hodnotových struktur a evaluativních kapacit jedince, vedoucí k fundamentálnímu narušení schopnosti rozlišovat mezi hodnotově signifikantními a insignifikantními entitami a atribuovat adekvátní axiologický status různým aspektům zkušenosti. Manifestuje se jako hodnotová dezorientace a konfúze, axiologická apatie nebo hyperreaktivita, destrukce koherentní hodnotové hierarchie a neschopnost identifikovat morálně relevantní aspekty situací.
 
-**Identitní anihilace** představuje systematickou destrukci struktur personální a sociální identity, vedoucí k fundamentálnímu narušení vědomí kontinuity, koherence a smysluplnosti vlastního já. Projevuje se jako disociace od vlastního biografického narativu, fragmentace self-konceptu, radikální diskontinuita v prožívání vlastní identity a kolaps sociálních identifikačních struktur.
+**Identitní anihilace** představuje systematickou destrukci struktur personální a sociální identity, vedoucí k fundamentálnímu narušení vědomí kontinuity, koherence a smysluplnosti vlastního já. Projevuje se jako [disociace](@/glossary/disociace.md) od vlastního biografického narativu, fragmentace self-konceptu, radikální diskontinuita v prožívání vlastní identity a kolaps sociálních identifikačních struktur.
 
 **Fenomenologická anihilace** označuje systematickou destrukci kapacity pro koherentní a strukturovanou fenomenální zkušenost, vedoucí k fundamentálnímu narušení schopnosti jedince integrovat různé aspekty vědomí do smysluplného celku. Manifestuje se jako dezintegrace fenomenálního pole, narušení prereflexivní self-afektivity, kolaps temporální struktury zkušenosti a disociace mezi noetickými a noematickými aspekty vědomí.
 
@@ -102,7 +102,7 @@ V reálných případech se tyto fenomény typicky kombinují — totalitní ind
 
 ## Graduální klasifikace anihilačních fenoménů
 
-Anihilační fenomény jsou **gradientové**, nikoli binární — vyskytují se v různé intenzitě a s různou mírou progrese. Graduální klasifikace je esenciální pro diagnostické rozhodování i pro výběr intervenční strategie — incipiální fáze vyžaduje primárně preventivní edukaci, terminální fáze externí epistemickou rekonstrukci pod ochranou specializované péče:
+[Anihilační fenomény](@/glossary/anihilacni-fenomeny.md) jsou **gradientové**, nikoli binární — vyskytují se v různé intenzitě a s různou mírou progrese. Graduální klasifikace je esenciální pro diagnostické rozhodování i pro výběr intervenční strategie — incipiální fáze vyžaduje primárně preventivní edukaci, terminální fáze externí epistemickou rekonstrukci pod ochranou specializované péče:
 
 | Stupeň | Charakteristika | Klinické znaky |
 |--------|-----------------|----------------|
@@ -179,7 +179,7 @@ Současná konceptualizace epistemické a kognitivní anihilace integruje poznat
 
 - **Kognitivní vědy** poskytují detailní porozumění architektuře kognitivních procesů a jejich vulnerabilitě
 - **Epistemologie** nabízí konceptuální rámec pro analýzu narušení poznávacích struktur
-- **Fenomenologie** umožňuje porozumění subjektivním aspektům epistemické dezintegrace
+- **[Fenomenologie](@/glossary/fenomenologie.md)** umožňuje porozumění subjektivním aspektům epistemické dezintegrace
 - **Sociální psychologie** objasňuje roli sociálních a institucionálních faktorů v epistemické manipulaci
 - **Neurovědy** přinášejí porozumění neurobiologickým korelatům epistemických a kognitivních procesů
 
@@ -238,7 +238,6 @@ V následujících kapitolách budou detailně rozpracovány specifické manifes
 - [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md)
 - [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

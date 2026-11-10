@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Hawkeye monitoruje provozní telemetrii web aplikací — detekuje bot-net manipulaci, fake engagement, a coordinated review/comment kampaně jako EA na reputační ploše. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Hawkeye](@/glossary/hawkeye.md) monitoruje provozní telemetrii web aplikací — detekuje bot-net manipulaci, fake engagement, a coordinated review/comment kampaně jako EA na reputační ploše. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ Hawkeye **nevidí motivaci** — vidí pouze chování. Sofistikovaný útoční
 
 ## Coordination
 
-Krmí data **Perimeter Agent** pro asset-level kontext; spolupracuje s **OSINT Agent** pro IP/domain reputaci; eskaluje **Operational Execution** pro blocking.
+Krmí data **Perimeter Agent** pro asset-level kontext; spolupracuje s **[OSINT](@/glossary/osint.md) Agent** pro IP/domain reputaci; eskaluje **Operational Execution** pro blocking.
 
 ## Cross-linky
 

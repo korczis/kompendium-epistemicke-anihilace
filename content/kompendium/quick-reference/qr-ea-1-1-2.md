@@ -27,7 +27,7 @@ toc = false
 ## Detekční markery (3 nejvýraznější)
 
 - Disproporce mezi délkou materiálu a objemem skutečné nové informace (signal-to-noise extrémně nízký)
-- Subjekt formuluje rozhodnutí frází "asi je to v pořádku, neměl jsem čas projít všechno"
+- Subjekt formuluje rozhodnutí frází „asi je to v pořádku, neměl jsem čas projít všechno“
 - Klíčové údaje (čísla, klauzule, výjimky) jsou systematicky umístěny v sekcích nejméně pravděpodobně čtených (přílohy, footnotes, str. 200+)
 
 ## Neutralizační strategie (3 nejúčinnější)
@@ -38,7 +38,7 @@ toc = false
 
 ## Příklad
 
-Investor dostane 800 stran dataroom dokumentů 48 hodin před uzávěrkou nabídky. Klauzule o earn-out, která snižuje kupní cenu o 30 % při minoru revenue dipu, je na str. 612 v sekci "Definitions, schedule C-7".
+Investor dostane 800 stran dataroom dokumentů 48 hodin před uzávěrkou nabídky. Klauzule o earn-out, která snižuje kupní cenu o 30 % při minoru revenue dipu, je na str. 612 v sekci „Definitions, schedule C-7“.
 
 ## Cross-linky
 

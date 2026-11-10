@@ -96,7 +96,7 @@ EA-5.5.1 (pre-predikativní blokace), EA-5.5.4 (gestalt disrupce)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **fenomenologická rekonstituce** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Husserlova **fenomenologická redukce** (*Ideen I*) — pozastavení přirozeného postoje — je manipulátorem instrumentalizována jako nástroj devalvace pre-manipulační zkušenosti ('to byla naivita'). **Konstituce** (Konstitution) — způsob, jak vědomí konstruuje fenomény — je převedena pod externí program. Merleau-Pontyho **přirozený postoj** ztrácí důvěryhodnost. Heideggerova **alétheia** (odkrývání bytí) je manipulátorem nárokována jako jeho doména. Sartrova **mauvaise foi** (*L'Être et le néant*) je obráceně diagnostikována: autentické pre-manipulační self je označeno za zlou víru, zatímco implantát je 'pravda'. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Husserlova **fenomenologická redukce** (*Ideen I*) — pozastavení přirozené
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

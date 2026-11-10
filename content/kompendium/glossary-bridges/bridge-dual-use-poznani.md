@@ -34,7 +34,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 07 — Filosofie vědy**: dual-use a research ethics
 - **Sekce 08 — AI safety**: frontier AI capabilities jako dual-use
-- **Sekce 09 — OSINT etika**: dual-use povaha intelligence sběru
+- **Sekce 09 — [OSINT](@/glossary/osint.md) etika**: dual-use povaha intelligence sběru
 - **Sekce 10 — Governance frameworks**: Asilomar, BWC, EU AI Act
 - **Per-technique články**: responsible disclosure, publication policies
 
@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Dual-use rozbíjí naivní vědecký optimismus: žádné poznání není neutrálně benigní. Filosoficky reflektuje napětí mezi hodnotami otevřenosti vědy a předběžné opatrnosti. Klinicky: každý nový OSINT adapter je dual-use — facilitates due diligence i stalker reconnaissance. Mitigace: governance, gating, disclosure norms.
+Dual-use rozbíjí naivní vědecký optimismus: žádné poznání není neutrálně benigní. Filosoficky reflektuje napětí mezi hodnotami otevřenosti vědy a předběžné opatrnosti. Klinicky: každý nový OSINT adapter je dual-use — facilitates [due diligence](@/glossary/due-diligence.md) i stalker reconnaissance. Mitigace: governance, gating, disclosure norms.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

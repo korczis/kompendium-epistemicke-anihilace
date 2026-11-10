@@ -8,7 +8,7 @@ description = "Buddhist epistemological framework: dukkha (unsatisfactoriness), 
 tags = ["glossary", "epistemic", "philosophy", "comparative"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognice", "narrative-trauma", "lebenswelt", "epistemicka-pokora"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -28,7 +28,7 @@ The **Four Noble Truths** (*cattāri ariyasaccāni*) are the diagnostic-therapeu
 
 The four truths form a **medical analogy** explicitly noted in classical commentaries:
 
-1. **Dukkha** (unsatisfactoriness, dis-ease) — the diagnostic identification: there *is* a problem; the subject's current state is structurally unsatisfactory. Not "everything is suffering" in the popular caricature, but: the conditioned, reactive mode of cognition is constitutively unstable.
+1. **Dukkha** (unsatisfactoriness, dis-ease) — the diagnostic identification: there *is* a problem; the subject's current state is structurally unsatisfactory. Not “everything is suffering” in the popular caricature, but: the conditioned, reactive mode of cognition is constitutively unstable.
 2. **Samudaya** (origin) — the etiology: the unsatisfactoriness has *causes*, specifically craving (*taṇhā*) and ignorance (*avijjā*) regarding the conditioned nature of experience.
 3. **Nirodha** (cessation) — the prognosis: the condition is *not* permanent; the causal chain can be interrupted.
 4. **Magga** (path) — the therapy: the eightfold practical protocol for interruption.
@@ -41,7 +41,7 @@ A related structural feature: the third truth (*nirodha*) is non-trivial. It blo
 
 Within the Prismatic Platform, the Four Noble Truths structure is referenced not as religious content but as a **comparative diagnostic framework** in [Kompendium → 06-zotaveni → ramce](@/kompendium/recovery-protocols/ramce.md), alongside Aristotelian *eudaimonia*, Stoic *prosochē*, and CBT/ACT therapeutic schemas. The cross-traditional comparison serves a specific purpose: identifying the **invariant features** of any credible epistemic-damage recovery framework.
 
-Three invariants emerge across all traditions: (1) **diagnostic specificity** — name the damage precisely; (2) **causal etiology** — identify mechanism, not just symptom; (3) **path specification** — make the recovery protocol enumerable, repeatable, and falsifiable. The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} recovery-tracking logic enforces all three: a "recovery plan" without enumerated steps fails validation.
+Three invariants emerge across all traditions: (1) **diagnostic specificity** — name the damage precisely; (2) **causal etiology** — identify mechanism, not just symptom; (3) **path specification** — make the recovery protocol enumerable, repeatable, and falsifiable. The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} recovery-tracking logic enforces all three: a “recovery plan” without enumerated steps fails validation.
 
 The *anatta* / non-self component of Buddhist epistemology is *not* incorporated into the platform — it carries metaphysical commitments orthogonal to the diagnostic question. The platform's use is restricted to the structural skeleton.
 

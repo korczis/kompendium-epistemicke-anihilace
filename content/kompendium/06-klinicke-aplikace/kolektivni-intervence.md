@@ -101,6 +101,7 @@ Pro případy, kde to je etiicky a klinicky vhodné, aktivace **restorativního 
 - **Reparace** — finanční (granty, prodloužení podpory), profesní (rehabilitace, podpora reintegrace), symbolické (formální uznání)
 
 Restorativní proces je **klinicky kontraindikován** v následujících situacích:
+
 - Aktér popírá strukturální vzorec a má autoritu pokračovat
 - Přeživší nesouhlasí s konfrontací
 - Instituce není schopna garantovat bezpečnost procesu
@@ -134,7 +135,7 @@ Disciplinární mechanismy musí mít:
 
 - **Standardizované protokoly** s explicitními kritérii detekce EA technik
 - **EA-kompetentní expertizu** v rozhodovacích panelech
-- **Reálné sankce** přesahující "doporučení" — odebrání akreditace, pozastavení praxe
+- **Reálné sankce** přesahující „doporučení“ — odebrání akreditace, pozastavení praxe
 - **Transparenci výsledků** — anonymizovaná publikace případových rozhodnutí
 - **Apelační proces** — strukturální ochrana před zneužitím disciplinárního mechanismu samotného
 
@@ -162,7 +163,7 @@ Výzkumné skupiny představují distinktní kontext kolektivní intervence:
 
 Specifické intervenční nástroje:
 
-- **Externí "shadow" mentor** — instituce dočasně přiřadí externího mentora pro každého člena jednotky
+- **Externí „shadow“ mentor** — instituce dočasně přiřadí externího mentora pro každého člena jednotky
 - **Anonymní whistleblower hotline** s mezinárodní právní podporou
 - **Granty pro akademickou mobilitu** umožňující přeživším změnit instituci bez profesní penalizace
 - **Externí publikační audit** pro projekty z indikované jednotky
@@ -187,7 +188,7 @@ Strukturální indikátory, že kolektivní intervence **selhává**:
 - **Restrukturace bez personálních konsekvencí** — instituce přijímá nové normy, ale aktéři pokračují v původních pozicích
 - **Token reformy** — formální procesy bez reálné autority
 - **Sekundární retaliace** — přeživší nebo whistlebloweři jsou marginalizováni
-- **Dokumentační bagatelizace** — výsledný report popisuje vzorec jako "jednotlivé interpersonální nedorozumění"
+- **Dokumentační bagatelizace** — výsledný report popisuje vzorec jako „jednotlivé interpersonální nedorozumění“
 - **Kulturní obnovení vzorce** — po 12-18 měsících dochází k obnově původní dynamiky pod jinými aktéry
 
 Detekce selhání iniciuje **eskalaci na vyšší autoritu** — nadinstitucionální etická komise, profesní komora, regulační orgán.
@@ -210,7 +211,7 @@ Kolektivní intervence sama nese etická rizika:
 - **Riziko zneužití** — sofistikované intervenční nástroje mohou být zneužity v institucionální politice
 - **Riziko nadmrtvení** — agresivní intervence v hraničních případech může produkovat sekundární škody
 - **Riziko institucionálního obrazu** — instituce může preferovat utajení nad transparenci
-- **Riziko ideologické infiltrace** — pojem "EA technika" může být sám použit jako delegitimizační nástroj
+- **Riziko ideologické infiltrace** — pojem „EA technika“ může být sám použit jako delegitimizační nástroj
 
 Strukturální obrana proti těmto rizikům:
 
@@ -238,7 +239,6 @@ Kolektivní intervence je **mocný nástroj** — proto musí být sama struktur
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Gaslighting](@/glossary/gaslighting.md), [Delegitimizace](@/glossary/delegitimizace.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Metakognice](@/glossary/metakognice.md), [Hermeneutika](@/glossary/hermeneutika.md), [Fenomenologie](@/glossary/fenomenologie.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

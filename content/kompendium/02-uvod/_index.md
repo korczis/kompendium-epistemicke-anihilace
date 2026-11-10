@@ -33,7 +33,6 @@ Tato sekce pokládá **konceptuální základy** kompendia. Definuje klíčové 
 - [Předchozí sekce: Předmluva](@/kompendium/01-predmluva/_index.md)
 - [Následující sekce: Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
 
-
 ## ⚡ Kritický krok
 
 **Než přejdeš ke konkrétním kategoriím**, formuluj si vlastní pracovní

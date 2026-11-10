@@ -8,7 +8,7 @@ description = "An epistemic structure in which relevant counter-voices are simpl
 tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "epistemic-pipeline", "nabla-infinity", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -24,7 +24,7 @@ image_alt = "Epistemic Bubble - glossary"
 
 ## Definition
 
-The **epistemic bubble**, as formalized by C. Thi Nguyen in *"Echo Chambers and Epistemic Bubbles"* (Episteme, 2020), is a structural epistemic environment in which **relevant alternative voices are absent**. The crucial feature is *absence by default*: the bubbled subject is not exposed to disconfirming evidence not because such evidence is rejected, but because it never reaches them. The mechanism is **omission**, not **rebuttal**.
+The **epistemic bubble**, as formalized by C. Thi Nguyen in *“Echo Chambers and Epistemic Bubbles”* (Episteme, 2020), is a structural epistemic environment in which **relevant alternative voices are absent**. The crucial feature is *absence by default*: the bubbled subject is not exposed to disconfirming evidence not because such evidence is rejected, but because it never reaches them. The mechanism is **omission**, not **rebuttal**.
 
 Nguyen's distinction between **bubble** and **echo chamber** is operationally critical:
 
@@ -41,7 +41,7 @@ Within the Prismatic Platform threat model, epistemic bubbles are treated as a *
 
 The platform's [NABLA Infinity](@/glossary/nabla-infinity.md) pipeline implements **source diversity scoring** as a structural defense: incoming signals are tagged with provenance and diversity metrics; if the diversity score collapses below threshold over a moving window, the {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} emits a `BUBBLE_RISK` confidence penalty on any decision drawing on that window's data. This implements Nguyen's prescription operationally: *measure the structural property, not the propositional content*.
 
-For {{ <cross_link path="/osint/toolbox" text="OSINT" /> }} workflows the same logic applies: investigations relying on a single source family — even when the sources are individually high-quality — are flagged. The 128 OSINT adapters are categorized by source family precisely so that automated diversity audits can run across investigations. The distinction between bubble and echo chamber also drives different remediation in [Kompendium → 06-zotaveni](@/kompendium/recovery-protocols/_index.md): bubble-recovery emphasizes exposure protocols; chamber-recovery emphasizes trust-topology repair.
+For {{ <cross_link path="/osint/toolbox" text="OSINT" /> }} workflows the same logic applies: investigations relying on a single source family — even when the sources are individually high-quality — are flagged. The 128 [OSINT](@/glossary/osint.md) adapters are categorized by source family precisely so that automated diversity audits can run across investigations. The distinction between bubble and echo chamber also drives different remediation in [Kompendium → 06-zotaveni](@/kompendium/recovery-protocols/_index.md): bubble-recovery emphasizes exposure protocols; chamber-recovery emphasizes trust-topology repair.
 
 ## See Also
 

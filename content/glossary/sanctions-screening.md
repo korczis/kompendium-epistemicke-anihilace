@@ -7,7 +7,7 @@ description = "Automated checking against EU, US, UK, and UN sanctions lists wit
 tags = ["sanctions", "compliance", "osint", "screening", "aml"]
 
 [extra]
-category = "osint"
+category = "bezpečnost a zpravodajství"
 related_terms = ["osint", "intelligence-fusion", "nis2", "easm", "entity-resolution", "security-rating", "threat-intelligence", "compliance-framework", "gdpr"]
 keywords = ["sanctions screening automation", "OFAC SDN list checking", "EU sanctions compliance", "fuzzy name matching", "entity resolution deduplication", "AML KYC screening", "sanctions list management", "PEP screening", "Elixir parallel screening", "regulatory compliance automation"]
 platform_integration = "deep"
@@ -37,7 +37,7 @@ image_alt = "Sanctions Screening - Prismatic Platform"
 
 Sanctions screening is the regulatory compliance process of systematically checking individuals, organizations, vessels, addresses, and other entities against official sanctions lists maintained by governmental and supranational authorities. The primary lists include the European Union Consolidated Sanctions List, the United States Office of Foreign Assets Control (OFAC) Specially Designated Nationals (SDN) list, the United Kingdom Office of Financial Sanctions Implementation (OFSI) list, and the United Nations Security Council Consolidated List. The process identifies sanctioned entities, Politically Exposed Persons (PEPs), and entities subject to restrictive measures including asset freezes, travel bans, arms embargoes, and trade restrictions.
 
-Sanctions screening operates at the intersection of regulatory compliance, financial crime prevention, and national security. Organizations subject to sanctions regulations -- including financial institutions, insurance companies, trade facilitators, and increasingly technology companies -- must screen counterparties, customers, beneficial owners, and transactions against applicable lists before engaging in business relationships or processing payments. Failure to comply carries severe penalties including criminal prosecution, substantial fines (reaching billions of dollars for major violations), and reputational damage.
+Sanctions screening operates at the intersection of regulatory compliance, financial crime prevention, and national security. Organizations subject to sanctions regulations — including financial institutions, insurance companies, trade facilitators, and increasingly technology companies — must screen counterparties, customers, beneficial owners, and transactions against applicable lists before engaging in business relationships or processing payments. Failure to comply carries severe penalties including criminal prosecution, substantial fines (reaching billions of dollars for major violations), and reputational damage.
 
 The Prismatic Platform implements sanctions screening as an integrated component of its [OSINT](@/glossary/osint.md) and [intelligence fusion](@/glossary/intelligence-fusion.md) pipeline, leveraging Elixir's concurrency model to perform parallel multi-list screening with sub-second response times. The platform's screening results feed directly into [security ratings](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) and [compliance assessments](@/glossary/compliance-framework.md), providing a unified view of entity risk across regulatory, security, and operational dimensions.
 
@@ -45,7 +45,7 @@ The Prismatic Platform implements sanctions screening as an integrated component
 
 The modern sanctions regime traces its origins to the Trading with the Enemy Act of 1917 in the United States and the League of Nations sanctions against Italy in 1935. However, the sanctions landscape as we know it emerged primarily after the September 11, 2001 attacks, when the global financial system was mobilized as a weapon against terrorism financing. The USA PATRIOT Act of 2001 dramatically expanded OFAC's authority and the scope of sanctions compliance obligations for financial institutions.
 
-In Europe, the European Union developed its own sanctions framework through Common Foreign and Security Policy (CFSP) decisions, implemented through Council Regulations that are directly applicable in all member states. The EU sanctions landscape became dramatically more complex following Russia's annexation of Crimea in 2014 and the subsequent full-scale invasion of Ukraine in 2022, which triggered the most comprehensive sanctions packages in EU history -- over 10 successive packages imposing thousands of individual and entity designations.
+In Europe, the European Union developed its own sanctions framework through Common Foreign and Security Policy (CFSP) decisions, implemented through Council Regulations that are directly applicable in all member states. The EU sanctions landscape became dramatically more complex following Russia's annexation of Crimea in 2014 and the subsequent full-scale invasion of Ukraine in 2022, which triggered the most comprehensive sanctions packages in EU history — over 10 successive packages imposing thousands of individual and entity designations.
 
 The UK's departure from the EU created a third major sanctions regime through the Sanctions and Anti-Money Laundering Act 2018, establishing OFSI as the UK's sanctions enforcement authority. The UN Security Council maintains its own consolidated list, which member states are obligated to implement but which may differ in scope and interpretation from national implementations.
 
@@ -412,22 +412,22 @@ end
 
 ## Related Concepts
 
-- [OSINT](@/glossary/osint.md) -- Source methodology for accessing public sanctions data
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation of screening results
-- [NIS2 Directive](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) -- Compliance framework requiring supply chain screening
-- [EASM](@/glossary/easm.md) -- Attack surface context enriching screening results
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Scores incorporating sanctions screening outcomes
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Deduplication technology underlying screening accuracy
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- External feeds complementing sanctions data
-- [Compliance Framework](@/glossary/compliance-framework.md) -- Regulatory requirements driving screening obligations
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable documentation of screening decisions
+- [OSINT](@/glossary/osint.md) — Source methodology for accessing public sanctions data
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) — Multi-source correlation of screening results
+- [NIS2 Directive](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) — Compliance framework requiring supply chain screening
+- [EASM](@/glossary/easm.md) — Attack surface context enriching screening results
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) — Scores incorporating sanctions screening outcomes
+- [Entity Resolution](@/glossary/entity-resolution.md) — Deduplication technology underlying screening accuracy
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) — External feeds complementing sanctions data
+- [Compliance Framework](@/glossary/compliance-framework.md) — Regulatory requirements driving screening obligations
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) — Immutable documentation of screening decisions
 - [SDN List](https://prismatic-reality-com.github.io/prismatic-promo/glossary/sdn-list/)
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Application directory
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) — Application directory
 
 ---
 

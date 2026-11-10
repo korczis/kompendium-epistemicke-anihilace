@@ -158,7 +158,7 @@ Poté [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epi
   mapa okamžiků, kdy se akademická kritika změnila v kontrolu.
 - **S2 – Externalizace introjektů:** pojmenování vět „kritici nepochopili metodu“ a „kdo
   odejde, nevydržel tlak“ jako hlasu školy, nikoli vědecké normy.
-- **S3 – Rekonstrukce metakognice:** obnova vlastní metodologické autonomie; práce
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova vlastní metodologické autonomie; práce
   s [falsifikovatelností](@/glossary/falsifikovatelnost.md) jako nástrojem sebedůvěry, nikoli
   ohrožení.
 - **S4 – Hermeneutická obnova:** čtení kritické literatury o teorii školy i textů, které školu

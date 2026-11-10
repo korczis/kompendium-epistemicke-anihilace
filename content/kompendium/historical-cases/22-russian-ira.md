@@ -110,7 +110,7 @@ v Evropské unii povinnosti velkých platforem v oblasti systémových rizik
   účty, krátká historie účtů, nesoulad jazyka a deklarované identity
   ([bot coordination](@/kompendium/detection-signatures/20-network-bot-coordination.md),
   [platformní koordinace](@/kompendium/detection-signatures/21-network-platform-coordination.md)).
-- **OSINT postupy**: analýza sítí sdílení a časových vzorců
+- **[OSINT](@/glossary/osint.md) postupy**: analýza sítí sdílení a časových vzorců
   ([detekce botů](@/kompendium/cross-domain/6-ea-osint-bot-detection.md),
   [manipulace na sociálních sítích](@/kompendium/cross-domain/5-ea-osint-social-media-manipulation.md)).
 - **Individuální obrana**: u silně emotivního obsahu ověřit, kdo je jeho autorem, a vědomě

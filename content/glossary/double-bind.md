@@ -7,7 +7,7 @@ description = "Communication pattern in which a person receives two or more conf
 tags = ["manipulation", "communication", "psychology", "clinical"]
 
 [extra]
-category = "manipulation-pattern"
+category = "manipulace a kontrola"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -30,7 +30,7 @@ Double bind, formalized by Gregory Bateson and the Palo Alto group (Bateson, Jac
 
 ## Manažerské shrnutí
 
-Double bind je v kontextu Prismatic Platform **strukturně diagnosticky kritický manipulační vzor** s vysokou prevalencí v abusivních vztazích, kultech, autoritářských pracovních prostředích, a v určitých rodinných systémech. Manažersky důležité: detekce double bind v komunikačním logu (chat, email, transkribovaný rozhovor) vyžaduje analýzu na **třech vrstvách současně** — propoziční obsah, meta-komunikační vrstva (tone, formát), a tertiary rule (zákaz řeči o trapu). Single-layer scan (například kontrola pouze textového obsahu) tento vzor systematicky přehlédne. V DD vyšetřování high-control organizace je rozpoznání double bind silným prediktorem následného úspěšného identifikování coercive control struktury.
+Double bind je v kontextu Prismatic Platform **strukturně diagnosticky kritický manipulační vzor** s vysokou prevalencí v abusivních vztazích, kultech, autoritářských pracovních prostředích, a v určitých rodinných systémech. Manažersky důležité: detekce double bind v komunikačním logu (chat, email, transkribovaný rozhovor) vyžaduje analýzu na **třech vrstvách současně** — propoziční obsah, meta-komunikační vrstva (tone, formát), a tertiary rule (zákaz řeči o trapu). Single-layer scan (například kontrola pouze textového obsahu) tento vzor systematicky přehlédne. V DD vyšetřování high-control organizace je rozpoznání double bind silným prediktorem následného úspěšného identifikování [coercive control](@/glossary/coercive-control.md) struktury.
 
 ## Domain Context
 

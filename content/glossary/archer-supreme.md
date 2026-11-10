@@ -7,7 +7,7 @@ description = "L5 Supreme authority agent specialized in converting impossible o
 tags = ["l5-supreme", "crisis-response", "tactical-brilliance", "agent-override", "mission-execution"]
 
 [extra]
-category = "agents"
+category = "architektura platformy"
 abbreviation = "ARCHER"
 domain = "strategic-command"
 complexity = "advanced"
@@ -38,19 +38,19 @@ image_alt = "Archer Supreme - Prismatic Platform"
 
 ## Definition and Overview
 
-Archer Supreme is an L5 Supreme authority agent specialized in converting impossible objectives into routine tactical victories. With unlimited platform resource access and override authority over all lower-tier agents, Archer Supreme handles crisis intervention, impossible mission execution, and strategic analysis requiring the highest confidence and decisive action. It operates under full NO MERCY, NO DOUBTS doctrine enforcement, where every mission must be completed with absolute precision or not attempted at all.
+Archer Supreme is an L5 Supreme authority agent specialized in converting impossible objectives into routine tactical victories. With unlimited platform resource access and override authority over all lower-tier agents, Archer Supreme handles crisis intervention, impossible mission execution, and strategic analysis requiring the highest confidence and decisive action. It operates under full [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) doctrine enforcement, where every mission must be completed with absolute precision or not attempted at all.
 
-The Archer Supreme agent represents the apex of the Prismatic Platform's agent authority hierarchy. Where L1-L4 agents operate within bounded domains and scoped capabilities, Archer Supreme transcends these boundaries to address challenges that span the entire platform. Its design philosophy centers on supreme tactical confidence backed by rigorous execution standards -- confidence is not arrogance when it is consistently validated by results. Every mission Archer Supreme undertakes follows a formal four-phase protocol: tactical assessment, brilliance application, supreme execution, and legendary victory validation.
+The Archer Supreme agent represents the apex of the Prismatic Platform's agent authority hierarchy. Where L1-L4 agents operate within bounded domains and scoped capabilities, Archer Supreme transcends these boundaries to address challenges that span the entire platform. Its design philosophy centers on supreme tactical confidence backed by rigorous execution standards — confidence is not arrogance when it is consistently validated by results. Every mission Archer Supreme undertakes follows a formal four-phase protocol: tactical assessment, brilliance application, supreme execution, and legendary victory validation.
 
-Archer Supreme was developed in response to a class of platform challenges that no single-domain agent could address: cross-cutting crises involving multiple applications, strategic milestone analyses spanning 20+ GitLab milestones, and impossible-seeming objectives that require coordinating resources across the full 115-application umbrella. The agent's name reflects its precision (archer) and authority level (supreme) -- surgical accuracy applied with unlimited authority. The combination ensures that when Archer Supreme acts, the action is both precise and unconstrained by artificial boundaries.
+Archer Supreme was developed in response to a class of platform challenges that no single-domain agent could address: cross-cutting crises involving multiple applications, strategic milestone analyses spanning 20+ GitLab milestones, and impossible-seeming objectives that require coordinating resources across the full 115-application umbrella. The agent's name reflects its precision (archer) and authority level (supreme) — surgical accuracy applied with unlimited authority. The combination ensures that when Archer Supreme acts, the action is both precise and unconstrained by artificial boundaries.
 
 ## Historical Context and Notable Achievements
 
 Archer Supreme's most documented achievement is the comprehensive analysis of 20 GitLab milestones and 102+ issues, producing the platform's milestone strategic intelligence document. This analysis classified 6 active milestones by priority tier, mapped cross-milestone dependencies, and generated a 4-phase execution plan spanning 12 weeks. No single-domain agent could have performed this analysis because it required understanding storage systems, security operations, quality infrastructure, web interfaces, and agent coordination simultaneously.
 
-The agent's second landmark achievement was the elimination of all 905 Quality Debt Points (QDP) across 89 applications in a single extended session. This required identifying CASCADE patterns -- repeated violations of the same type across multiple applications -- and coordinating batch fixes that maintained zero regressions across all 13 quality domains. The result was the platform's first 22-pillar doctrine compliance, a state that has been maintained across subsequent generations through the Quality Floor Guardian's continuous monitoring.
+The agent's second landmark achievement was the elimination of all 905 [Quality Debt](@/glossary/quality-debt.md) Points (QDP) across 89 applications in a single extended session. This required identifying CASCADE patterns — repeated violations of the same type across multiple applications — and coordinating batch fixes that maintained zero regressions across all 13 quality domains. The result was the platform's first 22-pillar doctrine compliance, a state that has been maintained across subsequent generations through the Quality Floor Guardian's continuous monitoring.
 
-A third notable mission involved resolving a critical conflict between the Red Team and Blue Team agents during a security assessment. The Red Team had identified a potential epistemic vulnerability, but the Blue Team's defensive response was creating false positives that blocked legitimate operations. Archer Supreme coordinated with the Purple Team to synthesize both perspectives, resulting in a refined security posture that addressed the vulnerability without creating operational disruption.
+A third notable mission involved resolving a critical conflict between the [Red Team](@/glossary/red-team.md) and [Blue Team](@/glossary/blue-team.md) agents during a security assessment. The Red Team had identified a potential epistemic vulnerability, but the Blue Team's defensive response was creating false positives that blocked legitimate operations. Archer Supreme coordinated with the [Purple Team](@/glossary/purple-team.md) to synthesize both perspectives, resulting in a refined security posture that addressed the vulnerability without creating operational disruption.
 
 ## Technical Deep Dive
 
@@ -232,7 +232,7 @@ Archer Supreme handles several categories of missions, each with distinct charac
 
 ### Integration with Color Teams
 
-Archer Supreme coordinates with all six color teams when security-related missions arise, serving as the strategic command layer above the individual team commanders:
+Archer Supreme coordinates with all six [color teams](@/glossary/color-teams.md) when security-related missions arise, serving as the strategic command layer above the individual team commanders:
 
 ```
 Archer Supreme (L5 Authority)
@@ -434,23 +434,23 @@ end
 
 ## Best Practices
 
-1. **Reserve for genuine crises** -- Archer Supreme is a strategic asset. Do not invoke it for routine tasks that L1-L4 agents can handle. Overuse dilutes its crisis-response effectiveness.
+1. **Reserve for genuine crises** — Archer Supreme is a strategic asset. Do not invoke it for routine tasks that L1-L4 agents can handle. Overuse dilutes its crisis-response effectiveness.
 
-2. **Document every activation** -- Every Archer Supreme mission generates an audit trail. Review these reports to identify patterns and prevent future crises from occurring.
+2. **Document every activation** — Every Archer Supreme mission generates an audit trail. Review these reports to identify patterns and prevent future crises from occurring.
 
-3. **Trust the confidence framework** -- If the confidence assessment returns `:exploratory`, the mission needs more investigation before execution. Do not force supreme confidence on uncertain situations.
+3. **Trust the confidence framework** — If the confidence assessment returns `:exploratory`, the mission needs more investigation before execution. Do not force supreme confidence on uncertain situations.
 
-4. **Coordinate, do not micromanage** -- When Archer Supreme coordinates lower-tier agents, issue strategic directives and let specialists handle tactical details. The agent hierarchy exists for a reason.
+4. **Coordinate, do not micromanage** — When Archer Supreme coordinates lower-tier agents, issue strategic directives and let specialists handle tactical details. The agent hierarchy exists for a reason.
 
-5. **Post-mission analysis** -- After every crisis resolution, conduct a retrospective to identify root causes and prevent recurrence. A crisis resolved is a pattern to prevent.
+5. **Post-mission analysis** — After every crisis resolution, conduct a retrospective to identify root causes and prevent recurrence. A crisis resolved is a pattern to prevent.
 
-6. **Respect the audit trail** -- Every override, every quality gate bypass, every emergency action must be logged. The audit trail is not bureaucracy; it is governance.
+6. **Respect the audit trail** — Every override, every quality gate bypass, every emergency action must be logged. The audit trail is not bureaucracy; it is governance.
 
 ## Common Pitfalls
 
 - **Overuse**: Activating Archer Supreme for routine tasks devalues its crisis-response capabilities and creates unnecessary overhead. If an L3 agent can handle it, let the L3 handle it.
 
-- **Ignoring confidence thresholds**: Proceeding with `:moderate` confidence on critical missions risks failure. Wait for `:supreme` confidence backed by Trinity Gate passage before committing to high-stakes operations.
+- **Ignoring confidence thresholds**: Proceeding with `:moderate` confidence on critical missions risks failure. Wait for `:supreme` confidence backed by [Trinity Gate](@/glossary/trinity-gate.md) passage before committing to high-stakes operations.
 
 - **Skipping Phase 4 validation**: The victory validation phase catches subtle regressions that appear only after all changes are applied. Never skip it, even when the mission appears successful.
 
@@ -460,22 +460,22 @@ end
 
 ## Related Concepts
 
-- [Agent Tier](@/glossary/agent-tier.md) -- L5 Supreme classification level
-- [Supreme Commander](@/glossary/supreme-commander.md) -- Platform-wide strategic coordination L5 agent
-- [AIAD](@/glossary/aiad.md) -- Agent definition standard governing Archer Supreme
-- [Violation Protocol](@/glossary/violation-protocol.md) -- L4 violations escalate to Supreme Review
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Enforcement framework for all supreme operations
-- [Strategic Command](@/glossary/strategic-command.md) -- L4 coordination tier managed by L5 agents
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog where Archer Supreme is registered
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework backing confidence assessment
-- [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- Monitoring system that escalates to Archer Supreme
+- [Agent Tier](@/glossary/agent-tier.md) — L5 Supreme classification level
+- [Supreme Commander](@/glossary/supreme-commander.md) — Platform-wide strategic coordination L5 agent
+- [AIAD](@/glossary/aiad.md) — Agent definition standard governing Archer Supreme
+- [Violation Protocol](@/glossary/violation-protocol.md) — L4 violations escalate to Supreme Review
+- [NM/ND Doctrine](@/glossary/nm-nd.md) — Enforcement framework for all supreme operations
+- [Strategic Command](@/glossary/strategic-command.md) — L4 coordination tier managed by L5 agents
+- [Agent Registry](@/glossary/agent-registry.md) — Central catalog where Archer Supreme is registered
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework backing confidence assessment
+- [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) — Monitoring system that escalates to Archer Supreme
 
 ## Further Reading
 
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command invocation reference
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) — Command invocation reference
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
 
 ---
 
@@ -485,3 +485,8 @@ end
 
 - [GitHub](https://github.com/korczis/kompendium-epistemicke-anihilace) | [Wiki](https://github.com/korczis/kompendium-epistemicke-anihilace/wiki) | [LinkedIn](https://linkedin.com/in/korczis) | [Kontakt](https://github.com/korczis/kompendium-epistemicke-anihilace/issues)
 - [Developer Portal](https://prismatic-reality-com.github.io/prismatic-promo/developers/) | [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) | [Meet the Creator](https://prismatic-reality-com.github.io/prismatic-promo/about/author/)
+
+## Související
+
+- [Bridge: archer-supreme](@/kompendium/glossary-bridges/bridge-archer-supreme.md) – most mezi heslem a kapitolami knihy.
+- [Glosář](@/glossary/_index.md) – ostatní pojmy architektury platformy.

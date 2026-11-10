@@ -35,39 +35,39 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 ## Definice
 
-**Subjekt-objekt fúzia** je metatranscendentální technika, jíž je destruována **fundamentální subjekt-objektová struktura zkušenosti**: subjekt patologicky splývá s objektem vnímání tak, že rozdíl mezi vnímajícím a vnímaným kolabuje. Na rozdíl od [EA-5.2.20 apperceptivního rozkladu](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md), kde subjekt **mizí**, subjekt-objekt fúzia **rozpouští hranici**: subjekt se "stává" objektem.
+**Subjekt-objekt fúzia** je metatranscendentální technika, jíž je destruována **fundamentální subjekt-objektová struktura zkušenosti**: subjekt patologicky splývá s objektem vnímání tak, že rozdíl mezi vnímajícím a vnímaným kolabuje. Na rozdíl od [EA-5.2.20 apperceptivního rozkladu](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md), kde subjekt **mizí**, subjekt-objekt fúzia **rozpouští hranici**: subjekt se „stává“ objektem.
 
 Husserlovská fenomenologie a Kantova kritika rovněž etablují **noeticko-noematickou diferenciaci** jako konstitutivní pro zkušenost. *Noesis* (akt vědomí) a *noema* (předmětný korelát) jsou strukturně odlišné. Subjekt-objekt fúzia tuto diferenciaci destruuje: subjekt prožívá **identitu s objektem** — ztotožňuje se s tím, co vnímá, čte, slyší, sleduje.
 
-Subjekt v terminálním stadiu trpí strukturní ztrátou hranic: pociťuje se jako "součást" pozorovaných jevů, postav v médiích, partnerských osob, kolektivních entit. Hranice "já vs. ostatní" jsou strukturně prostupné.
+Subjekt v terminálním stadiu trpí strukturní ztrátou hranic: pociťuje se jako „součást“ pozorovaných jevů, postav v médiích, partnerských osob, kolektivních entit. Hranice „já vs. ostatní“ jsou strukturně prostupné.
 
-Tento stav bývá pseudo-mysticky interpretován jako "splynutí s vesmírem" nebo "překonání duality", ale strukturně jde o ztrátu subjekt-objektové struktury, jež je **podmínkou možnosti** koherentního vědomí.
+Tento stav bývá pseudo-mysticky interpretován jako „splynutí s vesmírem“ nebo „překonání duality“, ale strukturně jde o ztrátu subjekt-objektové struktury, jež je **podmínkou možnosti** koherentního vědomí.
 
 ## Operační modus
 
 ### Krok 1 — Pseudo-mystická indoktrinace
 
-Subjekt je veden k radikální verzi non-duality — *"subjekt-objekt distinkce je iluze."* Klíčová formulace: *"Skutečnost je jediná; oddělení je vinou ega."*
+Subjekt je veden k radikální verzi non-duality — *„subjekt-objekt distinkce je iluze.“* Klíčová formulace: *„Skutečnost je jediná; oddělení je vinou ega.“*
 
 ### Krok 2 — Saturace splývacími praxemi
 
-Manipulátor zavádí intenzivní praxe údajně "překonávající dualitu" — meditace zaměřená na splývání s objektem, identifikační praktiky, kolektivní rituály.
+Manipulátor zavádí intenzivní praxe údajně „překonávající dualitu“ — meditace zaměřená na splývání s objektem, identifikační praktiky, kolektivní rituály.
 
 ### Krok 3 — Destrukce hranic Já-Ty
 
-Sociální hranice jsou systematicky podlamovány: subjekt je veden k "úplné otevřenosti", "transparentnosti", "splynutí s komunitou".
+Sociální hranice jsou systematicky podlamovány: subjekt je veden k „úplné otevřenosti“, „transparentnosti“, „splynutí s komunitou“.
 
 ### Krok 4 — Bod fúzie
 
-V určitém momentu subjekt prožívá **akutní splynutí** — pociťuje se identický s objektem (postavou, komunitou, partnerem, médiem). Stav je interpretován jako "průlom".
+V určitém momentu subjekt prožívá **akutní splynutí** — pociťuje se identický s objektem (postavou, komunitou, partnerem, médiem). Stav je interpretován jako „průlom“.
 
-### Krok 5 — Konsolidace fúzie jako "vyšší skutečnosti"
+### Krok 5 — Konsolidace fúzie jako „vyšší skutečnosti“
 
 Stav strukturní fúzie je etablován jako trvalý modus. Identitární investice činí návrat k subjekt-objektové diferenciaci obtížným.
 
 ## Fenomenologické znaky
 
-- **Strukturní ztráta hranic** — neschopnost rozlišit, kde "končí já" a začíná svět.
+- **Strukturní ztráta hranic** — neschopnost rozlišit, kde „končí já“ a začíná svět.
 - **Pseudo-empatická hyperidentifikace** — subjekt prožívá emoce ostatních jako vlastní.
 - **Mediální fúzie** — splynutí s postavami, scénami, mediálním obsahem.
 - **Pseudo-mystická euforie** prokládaná akutní úzkostnou epizodou.
@@ -109,7 +109,7 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 ### Individuální
 
 1. **Hranice cvičení** — explicitní strukturní obnovení subjekt-objektové diferenciace.
-2. **Korektní non-duální hermeneutika** — výklad autentických tradic.
+2. **Korektní non-duální [hermeneutika](@/glossary/hermeneutika.md)** — výklad autentických tradic.
 3. **Asertivita praxe** — strukturované formulování vlastních potřeb.
 4. **Klinická psychoterapie** — borderline-fokus pro strukturní problémy.
 
@@ -125,7 +125,7 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ### Sourozenecké (5.2)
 
-- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — opačný extrém: úplná disociace.
+- **[EA-5.2.19 Merleau-Pontyovská deformace](@/kompendium/techniques/ea-5-2-19-merleau-pontyovska-deformace.md)** — opačný extrém: úplná [disociace](@/glossary/disociace.md).
 - **[EA-5.2.20 Apperceptivní rozklad](@/kompendium/techniques/ea-5-2-20-apperceptivni-rozklad.md)** — subjekt **mizí** místo splývá.
 - **[EA-5.2.22 Intencionální rozpojení](@/kompendium/techniques/ea-5-2-22-intentionalni-rozpojeni.md)** — paralelní destrukce intencionální struktury.
 - **[EA-5.2.30 Konvergentní meta-singularita](@/kompendium/techniques/ea-5-2-30-konvergentni-meta-singularita.md)** — terminální stav.
@@ -136,9 +136,9 @@ Klíčový diferenciál: **autentický non-dualista funguje s druhými**; subjek
 
 ## Vztah k Prismatic platformě
 
-- **NABLA Infinity subjekt-objekt distinkce** — epistemická provenience strukturně rozlišuje pozorovatele a pozorovaný.
-- **OSINT vyšetřovatel-cíl distance** — strukturní oddělení udržuje epistemickou integritu.
-- **Decision Engine accountability** — vlastnictví rozhodnutí vyžaduje strukturní subjekt.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) subjekt-objekt distinkce** — epistemická provenience strukturně rozlišuje pozorovatele a pozorovaný.
+- **[OSINT](@/glossary/osint.md) vyšetřovatel-cíl distance** — strukturní oddělení udržuje epistemickou integritu.
+- **[Decision Engine](@/glossary/decision-engine.md) accountability** — vlastnictví rozhodnutí vyžaduje strukturní subjekt.
 
 ## Související
 

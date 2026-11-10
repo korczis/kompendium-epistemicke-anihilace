@@ -7,7 +7,7 @@ description = "Numeric assessment quantifying the security risk of individual as
 tags = ["glossary", "security", "risk-score", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["easm", "attack-surface", "signal-plurality", "confidence-scoring", "nabla-infinity", "provenance-mandatory", "monte-carlo-verification", "epistemic-robustness", "blue-team", "risk-score", "shodan", "censys", "greynoise"]
 author = "Tomas Korcak (korczis)"
 reading_time = "9 min"
@@ -25,7 +25,7 @@ image_alt = "Risk Score - Prismatic Platform"
 
 A Risk Score is a numeric value quantifying the security risk associated with a specific asset, finding, or vulnerability. Unlike an aggregate Security Rating (which scores an entire organization on a letter grade from A to F), risk scores apply to individual items: a specific open port, a misconfigured service, an expired certificate, a DNS zone transfer vulnerability. Each score includes a confidence level indicating how certain the assessment is, and an evidence chain linking the score to specific observable data through [provenance mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) compliance.
 
-Risk scores serve as the atomic building blocks of the Prismatic Perimeter's security assessment system. They are computed from observable evidence using methodology aligned with CVSS (Common Vulnerability Scoring System) principles, adapted for external-only observation. The scores are then aggregated, weighted by asset criticality and finding severity, to produce the overall A-F Security Rating that organizations, compliance officers, and due diligence analysts consume.
+Risk scores serve as the atomic building blocks of the Prismatic Perimeter's security assessment system. They are computed from observable evidence using methodology aligned with CVSS (Common Vulnerability Scoring System) principles, adapted for external-only observation. The scores are then aggregated, weighted by asset criticality and finding severity, to produce the overall A-F Security Rating that organizations, compliance officers, and [due diligence](@/glossary/due-diligence.md) analysts consume.
 
 The epistemological position embedded in the risk scoring system is that **risk is not a single number but a distribution with uncertainty**. A risk score of 72 with a confidence of 0.95 means something fundamentally different from a risk score of 72 with a confidence of 0.45. The first is a well-evidenced assessment; the second is an educated guess. The Prismatic Platform treats both the score and its confidence as first-class data, ensuring that downstream consumers can distinguish between high-confidence findings and tentative assessments.
 
@@ -192,7 +192,7 @@ The output includes:
 | **95% CI Upper** | 97.5th percentile | 79 |
 | **Grade Probability** | Probability of each grade | C: 72%, B: 18%, D: 10% |
 
-This probabilistic approach is particularly valuable for due diligence, where a point estimate of "C grade" is less useful than knowing "72% probability of C, 18% probability of B, 10% probability of D." The Monte Carlo distribution captures the uncertainty inherent in external-only observation.
+This probabilistic approach is particularly valuable for due diligence, where a point estimate of “C grade” is less useful than knowing “72% probability of C, 18% probability of B, 10% probability of D.” The Monte Carlo distribution captures the uncertainty inherent in external-only observation.
 
 ## Due Diligence Application
 
@@ -276,18 +276,21 @@ end
 Due diligence assessments distinguish between findings that are material to business decisions and those that represent routine security hygiene:
 
 **Critical (Business-Blocking)**:
+
 - Exposed databases containing personal data
 - Active exploitation indicators in threat intelligence
 - Critical infrastructure vulnerabilities (scoring CVSS >= 9.0)
 - Certificate expiration within transaction timeline
 
 **Major (Affects Valuation)**:
+
 - Significant cryptographic weaknesses (weak TLS, expired certs)
 - Unpatched vulnerabilities with public exploits
 - Open services on critical business applications
 - Regulatory compliance gaps (GDPR, SOX, etc.)
 
 **Minor (Monitoring Required)**:
+
 - Information disclosure (server banners, debug pages)
 - Missing security headers
 - Outdated software versions without active exploits
@@ -307,7 +310,7 @@ This classification directly informs deal structuring: critical findings may blo
 | **Governed by** | Security rating methodology | [NABLA Infinity](@/glossary/nabla-infinity.md) axioms |
 | **Can be uncertain?** | Yes -- that is what the confidence score indicates | No -- confidence is itself the measure of uncertainty |
 
-Every risk score carries a confidence score. The risk score says "this port is dangerous" (how risky). The confidence score says "we are 87% certain of this assessment" (how sure). Together, they provide both the assessment and the meta-assessment of that assessment's reliability.
+Every risk score carries a confidence score. The risk score says “this port is dangerous” (how risky). The confidence score says “we are 87% certain of this assessment” (how sure). Together, they provide both the assessment and the meta-assessment of that assessment's reliability.
 
 ## Relationship to Epistemic Robustness
 
@@ -393,25 +396,25 @@ Risk scores that fail epistemic robustness checks are flagged with reduced confi
 
 ## Related Terms
 
-- [EASM](@/glossary/easm.md) -- External Attack Surface Management producing items to score
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- The total collection of assets being scored
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Meta-assessment of risk score reliability
-- [Signal Plurality](@/glossary/signal-plurality.md) -- NABLA axiom requiring multiple evidence sources
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- NABLA axiom requiring traceable evidence chains
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing risk score evidence quality
-- [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) -- Statistical validation of score distributions
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of score resilience to epistemic attack
-- [Blue Team](@/glossary/blue-team.md) -- Defensive team validating risk score integrity
-- [Shodan](@/glossary/shodan.md) -- External scanner providing network exposure evidence
-- [Censys](@/glossary/censys.md) -- External scanner providing certificate and service evidence
-- [GreyNoise](@/glossary/greynoise.md) -- External scanner providing internet noise context
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- NABLA axiom handling conflicting scan results
+- [EASM](@/glossary/easm.md) — External Attack Surface Management producing items to score
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) — The total collection of assets being scored
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) — Meta-assessment of risk score reliability
+- [Signal Plurality](@/glossary/signal-plurality.md) — NABLA axiom requiring multiple evidence sources
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — NABLA axiom requiring traceable evidence chains
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing risk score evidence quality
+- [Monte Carlo Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/monte-carlo-verification/) — Statistical validation of score distributions
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) — Measure of score resilience to epistemic attack
+- [Blue Team](@/glossary/blue-team.md) — Defensive team validating risk score integrity
+- [Shodan](@/glossary/shodan.md) — External scanner providing network exposure evidence
+- [Censys](@/glossary/censys.md) — External scanner providing certificate and service evidence
+- [GreyNoise](@/glossary/greynoise.md) — External scanner providing internet noise context
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) — NABLA axiom handling conflicting scan results
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Scanning and assessment technology details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform risk assessment capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform security architecture
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Scanning and assessment technology details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform risk assessment capabilities
 
 ---
 

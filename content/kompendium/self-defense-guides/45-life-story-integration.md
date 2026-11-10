@@ -31,7 +31,7 @@ Hledejte v životě opakující se témata (např. 'vzdor', 'hledání domova', 
 
 ### 3. Krize jako učitelé
 
-Pro 3 největší krize: co mě naučily? Bez nich bych nebyl/a... Reframing krizí jako kapitol, ne anomálií.
+Pro 3 největší krize: co mě naučily? Bez nich bych nebyl/a… Reframing krizí jako kapitol, ne anomálií.
 
 ### 4. Bývalá já
 

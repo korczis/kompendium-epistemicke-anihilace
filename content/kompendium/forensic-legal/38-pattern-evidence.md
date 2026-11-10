@@ -2,9 +2,11 @@
 title = "Pattern dukaz"
 description = "Forenzni a pravni rozmer EA — pattern dukaz."
 weight = 38
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "documentation-standards"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["36-recording-protocols", "37-third-party-corroboration", "39-incident-reporting", "4-malingering-detection"]
 parent = "kompendium-forensic-legal"
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

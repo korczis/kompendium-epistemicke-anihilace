@@ -43,7 +43,7 @@ Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Devalvace existujících vztahů
 
-'Tvoje rodina ti nikdy nerozuměla', 'tvoji přátelé jsou v tom s tebou jenom proto, že...'.
+'Tvoje rodina ti nikdy nerozuměla', 'tvoji přátelé jsou v tom s tebou jenom proto, že…'.
 
 ### Krok 2 — Konstrukce alternativní relační sítě
 
@@ -96,7 +96,7 @@ EA-5.3.3 (rolová fragmentace), EA-5.3.13 (genealogická rekonstrukce)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **relační restrukturalizace** představuje strukturální výzvu pro 
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Levinasova **rélation à l'Autre** (*Totalité et infini*) — relační self je ustaven skrze druhého — je systematicky přepojena. Ricoeurova **dialogická identita** (self-skrze-druhého) ztrácí pluralitu — všechny relace jsou redukovány na vztah ke zdroji. Husserlova **intersubjektivita** (*Cartesianische Meditationen* V) ztrácí horizontální strukturu (mnoho-druhých) ve prospěch vertikální (jeden-druhý). Merleau-Pontyho **chair** jako interkorporální tkanivo se rozpadá. Bowlbyho **attachment** rámec (later: Mary Main) je instrumentalizován k vytvoření disorganizované attachment vůči zdroji a vyhýbavé vůči ostatním. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Levinasova **rélation à l'Autre** (*Totalité et infini*) — relační self j
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

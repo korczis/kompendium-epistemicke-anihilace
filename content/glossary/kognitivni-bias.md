@@ -8,7 +8,7 @@ description = "Systematické odchylky lidského úsudku od normativní racionali
 tags = ["glossary", "epistemic", "cognitive", "decision"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["konfirmacni-bias", "epistemicka-anihilace", "metakognice", "taxonomie-ea", "kognitivni-anihilace", "decision-engine"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -46,7 +46,7 @@ Within the Prismatic Platform, cognitive bias is operationalized as **decision q
 
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks bias-relevant decision conditions (time pressure, source diversity, prior commitment, emotional load) and incorporates them into calibration. A confidently held belief formed under high-bias conditions is automatically discounted in the confidence pipeline.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **per-source diversity metrics** that detect echo-chamber formation early — before a subject's confirmation bias has converted a narrow input distribution into a stable belief.
-- The [Color Teams](@/glossary/color-teams.md) Blue Team simulations include scripted bias-exploitation scenarios drawn from the kompendium taxonomy, validating that platform-level checks (review queues, dissent surfacing, calibration alarms) intercept the patterns.
+- The [Color Teams](@/glossary/color-teams.md) [Blue Team](@/glossary/blue-team.md) simulations include scripted bias-exploitation scenarios drawn from the kompendium taxonomy, validating that platform-level checks (review queues, dissent surfacing, calibration alarms) intercept the patterns.
 - The [3NL architecture](@/glossary/3nl.md) (Logic + Neural + Linguistic) is designed precisely so that bias active at one layer (e.g., Linguistic-layer framing) is checked by the others (Logic-layer formal validity, Neural-layer pattern divergence).
 
 Bias is **not pathology**: heuristics are typically efficient and only fail under adversarial conditions or unusual base-rates. The platform standard is therefore **bias-aware decision-making** — recognition rather than elimination — combined with structural defenses (diverse inputs, calibration loops, explicit pre-mortems) that compensate where individual reflection is unreliable. Czech-language treatment of cognitive bias in the EA context is at [/kompendium/04-mechanismy/biasy/](@/kompendium/03-zakladni-kategorie/biasy/_index.md).

@@ -53,7 +53,7 @@ Sekce 06 zavádí klinický koncept [**epistemického traumatu**](@/glossary/epi
 Klinický pracovník pracující s tímto kompendiem získává sadu **diferenciačních otázek**, které doplňují standardní psychiatrický rozhovor:
 
 - Cíl útoku: byly poškozeny **procesy poznávání** (strukturální EA), nebo specifická **přesvědčení** (obsahová EA)?
-- Časový průběh: šlo o **akutní epizodu** (např. krátký gaslighting) nebo **chronickou expozici** (kult, dlouhodobé partnerské násilí)?
+- Časový průběh: šlo o **akutní epizodu** (např. krátký [gaslighting](@/glossary/gaslighting.md)) nebo **chronickou expozici** (kult, dlouhodobé partnerské násilí)?
 - Vědomí útoku: byl pacient útoku **vědomě vystaven** (ideologická indoktrinace) nebo **implicitně** (akademická manipulace, mediální gaslighting)?
 - Reverzibilita: jsou poškozené struktury **rekonstruovatelné**, nebo došlo k [ontologické anihilaci](@/glossary/ontologicka-anihilace.md)?
 
@@ -62,7 +62,7 @@ Klinický pracovník pracující s tímto kompendiem získává sadu **diferenci
 Vulnerabilní populace (oběti gaslightingu, post-kult klienti, oběti politických represí) jsou specificky náchylné k **sekundární viktimizaci** v klinickém kontextu. Klinik, který nerozpozná epistemickou dimenzi utrpení, riskuje:
 
 - **Patologizace** legitimní rezistence vůči manipulaci jako paranoie;
-- **Validace** manipulátorovy narativy skrze diagnostickou kategorizaci pacienta jako "labilního";
+- **Validace** manipulátorovy narativy skrze diagnostickou kategorizaci pacienta jako „labilního“;
 - **Reinscenace** mocenské dynamiky útoku v terapeutickém vztahu.
 
 Sekce 06.5 se těmto rizikům věnuje detailně.
@@ -123,7 +123,7 @@ Pro **klinika začínajícího** s kompendiem doporučujeme následující sekve
 - [Techniques index](@/kompendium/techniques/_index.md) — per-technique katalog
 - [Glossary: Epistemické trauma](@/glossary/epistemicke-trauma.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
+- [Vizualizace klinické cesty zotavení](@/kompendium/06-klinicke-aplikace/visualizations.md) – interaktivní grafy průběhu zotavení v této kapitole.
 
 ## ⚡ Kritický krok
 

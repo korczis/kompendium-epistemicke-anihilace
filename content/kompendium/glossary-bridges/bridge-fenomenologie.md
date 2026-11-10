@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Fenomenologie je filosofická tradice studia jevů (fenoménů) tak, jak se ukazují vědomí, ne jak jsou metafyzicky postulovány. Hlavní představitelé: Edmund Husserl (transcendentální fenomenologie), Martin Heidegger (existenciální), Maurice Merleau-Ponty (embodied), Emmanuel Levinas (etická). Centrální metoda: fenomenologická redukce s epoché.
+Fenomenologie je filosofická tradice studia jevů (fenoménů) tak, jak se ukazují vědomí, ne jak jsou metafyzicky postulovány. Hlavní představitelé: Edmund Husserl (transcendentální fenomenologie), Martin Heidegger (existenciální), Maurice Merleau-Ponty (embodied), Emmanuel Levinas (etická). Centrální metoda: fenomenologická redukce s [epoché](@/glossary/epoche.md).
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -35,7 +35,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 - **Sekce 07 — Filosofické tradice**: fenomenologie vs. analytická filosofie
 - **Sekce 08 — Klíčoví autoři**: Husserl, Heidegger, Merleau-Ponty
 - **Sekce 09 — Klinické aplikace**: fenomenologická psychiatrie (Jaspers, Binswanger)
-- **Sekce 10 — Implikace pro AI**: fenomenologie a embodied cognition
+- **Sekce 10 — Implikace pro AI**: fenomenologie a [embodied cognition](@/glossary/embodied-cognition.md)
 - **Per-technique články**: interpretative phenomenological analysis (IPA)
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.

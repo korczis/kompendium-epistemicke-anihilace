@@ -92,7 +92,7 @@ podávali informace. Strach o blízké doma umlčuje svědky venku – nadnárod
 
 ### Spor o realitu
 
-Oficiální propaganda zveřejňovala videa „spokojených absolventů“ a vystoupení příbuzných, kteří
+Oficiální [propaganda](@/glossary/propaganda.md) zveřejňovala videa „spokojených absolventů“ a vystoupení příbuzných, kteří
 popírali výpovědi svých rodinných příslušníků v exilu. Vzniká konflikt verzí, v němž je
 publikum vedeno k závěru, že pravdu nelze zjistit – srov. [indukovanou
 pochybnost](@/kompendium/techniques/ea-1-3-4-indukovana-pochybnost.md).

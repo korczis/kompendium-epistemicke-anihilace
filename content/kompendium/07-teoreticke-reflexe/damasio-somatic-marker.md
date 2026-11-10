@@ -19,11 +19,11 @@ toc = true
 
 Antonio Damasio — portugalsko-americký neurolog — v knihách *Descartes' Error* (1994), *The Feeling of What Happens* (1999) a *Self Comes to Mind* (2010) rozvíjí **hypotézu somatického markeru** (*somatic marker hypothesis*) — strukturální analýzu role **vtělených emocí** v racionálním rozhodování.
 
-Pro kompendium EA poskytuje Damasiova teorie nástroj pro pochopení **EA technik operujících skrze tělesnou dezregulaci** — nikoli pouze skrze kognitivní manipulaci.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Damasiova teorie nástroj pro pochopení **EA technik operujících skrze tělesnou dezregulaci** — nikoli pouze skrze kognitivní manipulaci.
 
 ## 1. Descartes' Error
 
-Damasiova centrální diagnostická teze: **Descartesova chyba** byla strukturální **separace** mysli a těla. Klasická tradice **upřednostňuje** "čistý rozum" před "kalícími emocemi" — Damasio **odhaluje**, že tato separace je **neuro-anatomicky neudržitelná**.
+Damasiova centrální diagnostická teze: **Descartesova chyba** byla strukturální **separace** mysli a těla. Klasická tradice **upřednostňuje** „čistý rozum“ před „kalícími emocemi“ — Damasio **odhaluje**, že tato separace je **neuro-anatomicky neudržitelná**.
 
 Klinická evidence: pacienti s lézemi **ventromediálního prefrontálního kortexu** (VMPC) — oblasti integrující emocí — vykazují **paradoxní** symptom:
 
@@ -34,7 +34,7 @@ Strukturální závěr: **emoce jsou strukturálně konstitutivní** racionáln�
 
 Pro EA z toho plyne:
 
-- **Pseudo-racionalismus jako EA**: techniky, jež **vyžadují** "čistě racionální" rozhodování bez emocí, jsou strukturálně **iatrogeenní**.
+- **Pseudo-racionalismus jako EA**: techniky, jež **vyžadují** „čistě racionální“ rozhodování bez emocí, jsou strukturálně **iatrogeenní**.
 - **Manipulace skrze tělesnou dezregulaci**: techniky, jež **rozpojují** subjekta od tělesných signálů, strukturálně podkopávají rozhodovací kapacitu.
 
 ## 2. Somatic marker hypothesis
@@ -49,15 +49,15 @@ Mechanismus:
 
 Pro EA má somatic marker **strukturální význam**:
 
-- **Manipulace markerů**: techniky, jež **falsifikují** subjektovy emocionální zkušenosti (gaslighting), strukturálně manipulují **somatické markery**.
-- **Indukce nesprávných markerů**: techniky, jež **pojí** politické nebo ideologické pozice s **emocionálními** zkušenostmi (propaganda), strukturálně manipulují rozhodování.
+- **Manipulace markerů**: techniky, jež **falsifikují** subjektovy emocionální zkušenosti ([gaslighting](@/glossary/gaslighting.md)), strukturálně manipulují **somatické markery**.
+- **Indukce nesprávných markerů**: techniky, jež **pojí** politické nebo ideologické pozice s **emocionálními** zkušenostmi ([propaganda](@/glossary/propaganda.md)), strukturálně manipulují rozhodování.
 
 ## 3. Tři vrstvy self
 
 V *Self Comes to Mind* (2010) Damasio rozlišuje **tři vrstvy** self:
 
 1. **Protoself** — strukturální mapování tělesných stavů (homeostase)
-2. **Core self** — okamžité vědomí "já-zde-teď"
+2. **Core self** — okamžité vědomí „já-zde-teď“
 3. **Autobiografické self** — strukturální narativ identity v čase
 
 Tato vrstvená struktura strukturálně rezonuje s Ricoeurovou narativní identitou ([viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)) a s Metzingerovým PSM ([viz 7.42](@/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md)).
@@ -91,12 +91,12 @@ Damasiova klasická experimentální paradigma: **Iowa Gambling Task** (Bechara,
 Strukturální nález:
 
 - Zdravé subjekty **somaticky reagují** (kožní vodivost, srdeční tep) na ztrátové hromady **dříve**, než si uvědomí strukturu hry
-- Pacienti s VMPC lézemi tuto reakci **nemají** — vědomě "vědí", co dělat, ale **nedrží se** toho
+- Pacienti s VMPC lézemi tuto reakci **nemají** — vědomě „vědí“, co dělat, ale **nedrží se** toho
 
 Pro EA z toho plyne:
 
-- **Tichá znalost těla**: tělo "ví" dříve, než subjekt vědomě formuluje. Strukturální paralela s Polanyiho **tacit knowledge** ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
-- **Útok na tichou znalost těla**: techniky, jež **dezavují** tělesné signály ("nedůvěřuj svému instinktu"), strukturálně podkopávají rozhodování.
+- **Tichá znalost těla**: tělo „ví“ dříve, než subjekt vědomě formuluje. Strukturální paralela s Polanyiho **tacit knowledge** ([viz 7.13](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)).
+- **Útok na tichou znalost těla**: techniky, jež **dezavují** tělesné signály („nedůvěřuj svému instinktu“), strukturálně podkopávají rozhodování.
 
 ## 6. Mapping na EA techniky
 
@@ -122,7 +122,7 @@ Damasiova teorie je strukturálně **kompatibilní** s:
 
 - **Merleau-Ponty** ([viz 7.16](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md)): vtělený subjekt
 - **Heidegger** ([viz 7.14](@/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md)): *Befindlichkeit* (afektivní situovanost)
-- **Embodied cognition** (Varela, Thompson): kontinuita biologie/mysli
+- **[Embodied cognition](@/glossary/embodied-cognition.md)** (Varela, Thompson): kontinuita biologie/mysli
 
 ## 9. Primární literatura
 
@@ -130,7 +130,7 @@ Damasiova teorie je strukturálně **kompatibilní** s:
 - Damasio, A. (1999). *The Feeling of What Happens*. Harcourt.
 - Damasio, A. (2010). *Self Comes to Mind*. Pantheon.
 - Damasio, A. (2018). *The Strange Order of Things*. Pantheon.
-- Bechara, A., Damasio, H., Tranel, D. & Damasio, A. (1997). "Deciding Advantageously Before Knowing the Advantageous Strategy". *Science* 275.
+- Bechara, A., Damasio, H., Tranel, D. & Damasio, A. (1997). „Deciding Advantageously Before Knowing the Advantageous Strategy“. *Science* 275.
 
 ## Související
 

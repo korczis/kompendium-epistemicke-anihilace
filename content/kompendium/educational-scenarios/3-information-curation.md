@@ -131,18 +131,22 @@ zatěžující; zvažte variantu s kratším sběrem a odkažte na
 ## Související
 
 **Navazující scénáře**
+
 - [Evaluace zdrojů](@/kompendium/educational-scenarios/4-source-evaluation.md) – systematické hodnocení jednotlivých zdrojů.
 - [Aplikace na sebe](@/kompendium/educational-scenarios/30-self-application.md) – závěrečný třicetidenní audit, který na tento scénář navazuje.
 
 **Detekční signatury**
+
 - [Monokultura zdrojů](@/kompendium/detection-signatures/17-network-source-monoculture.md) – měřitelný signál zúžení.
 - [Asymetrie amplifikace](@/kompendium/detection-signatures/19-network-amplification-asymmetry.md) – proč něco vidíte častěji.
 
 **Sebe-obrana**
+
 - [Kurátorství zdrojů](@/kompendium/self-defense-guides/31-source-curation.md) – podrobný návod.
 - [Detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md) – práce s algoritmickým přísunem.
 
 **Glosář a prevence**
+
 - [Signal plurality](@/glossary/signal-plurality.md) – princip vícenásobných nezávislých signálů.
 - [Mediální gramotnost](@/kompendium/prevention-resilience/6-media-literacy-prevention.md) – preventivní rámec.
 - [Digitální hygiena](@/kompendium/prevention-resilience/7-digital-hygiene-prevention.md) – návyky v digitálním prostředí.

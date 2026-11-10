@@ -8,7 +8,7 @@ description = "Hierarchický klasifikační systém technik epistemické anihila
 tags = ["glossary", "epistemic", "kompendium", "taxonomy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "taxonomy", "classification"]
 acronym = "EA"
 author = "Tomáš Korcak (korczis)"
@@ -40,7 +40,7 @@ For example, `EA-1.1.1` is [Selective Exposure](@/kompendium/techniques/ea-1-1-1
 The eight primary categories are:
 
 1. **Akademické techniky** intelektuální manipulace
-2. **Scénáře epistemické delegitimizace**
+2. **Scénáře epistemické [delegitimizace](@/glossary/delegitimizace.md)**
 3. **Pokročilá edukativní implementace** (constructive counterpart)
 4. **Terminální protokoly** (advanced destructive sequences)
 5. **Ultramární techniky** fundamentální dekonstrukce (150 techniques planned)

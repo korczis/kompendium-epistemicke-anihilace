@@ -36,7 +36,7 @@ Komplementární vrstva k hloubkovým článkům. Pro každou klíčovou jednotk
 Každá karta sleduje uniformní strukturu. Celkem 100+ karet pokrývajících:
 
 - **EA-1.X.Y techniky** (13 karet)
-- **EA-2.X.Y delegitimizace** (50 karet)
+- **EA-2.X.Y [delegitimizace](@/glossary/delegitimizace.md)** (50 karet)
 - **EA-5.1.* singularita** (30 karet)
 - **EA-5.2.* metatranscendentální** (10 karet)
 - **Klinické nástroje** (15 karet)

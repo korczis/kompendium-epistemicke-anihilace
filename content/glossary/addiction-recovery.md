@@ -8,7 +8,7 @@ description = "The platform's epistemic discipline principle requiring constant 
 tags = ["epistemic", "nabla", "doctrine", "quality", "integrity"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "14 min"
@@ -48,9 +48,9 @@ Addiction Recovery is a foundational epistemic discipline principle within the P
 
 The Addiction Recovery principle emerged from a critical observation during the Prismatic Platform's early development: epistemic systems degrade not through sudden catastrophic failures but through the gradual accumulation of small, individually reasonable compromises. A single instance of discarding a contradictory signal seems harmless. A single instance of rounding up a confidence score appears pragmatic. A single instance of treating correlated sources as independent looks like an honest mistake. But these small compromises compound. Over weeks and months, they erode the epistemic foundations of the entire system until conclusions that appear verified rest on a network of suppressed contradictions, inflated confidence, and unchallenged assumptions.
 
-This pattern mirrors addiction dynamics with uncomfortable precision. Addiction researchers have long recognized that relapse does not begin with the act of using a substance. It begins with a sequence of cognitive shifts: minimization ("one drink won't matter"), rationalization ("I've been doing well, I've earned this"), and selective attention ("I'll focus on the positive outcomes"). Each shift is individually small and subjectively reasonable. Collectively, they reconstruct the mental framework that enables relapse.
+This pattern mirrors addiction dynamics with uncomfortable precision. Addiction researchers have long recognized that relapse does not begin with the act of using a substance. It begins with a sequence of cognitive shifts: minimization (“one drink won't matter”), rationalization (“I've been doing well, I've earned this”), and selective attention (“I'll focus on the positive outcomes”). Each shift is individually small and subjectively reasonable. Collectively, they reconstruct the mental framework that enables relapse.
 
-The Prismatic Platform applies this insight to epistemology. Epistemic relapse -- the degradation of knowledge integrity -- follows the same pattern. It begins not with gross data fabrication but with a sequence of cognitive shortcuts: minimization ("this contradiction is probably noise"), rationalization ("we have enough supporting evidence to override this outlier"), and selective attention ("the strong signals clearly point in one direction"). Each shortcut is individually defensible. Collectively, they produce a belief system that has been shaped more by convenience than by evidence.
+The Prismatic Platform applies this insight to epistemology. Epistemic relapse — the degradation of knowledge integrity — follows the same pattern. It begins not with gross data fabrication but with a sequence of cognitive shortcuts: minimization (“this contradiction is probably noise”), rationalization (“we have enough supporting evidence to override this outlier”), and selective attention (“the strong signals clearly point in one direction”). Each shortcut is individually defensible. Collectively, they produce a belief system that has been shaped more by convenience than by evidence.
 
 ### The Core Metaphor
 
@@ -65,19 +65,19 @@ The Addiction Recovery metaphor is not decorative. It identifies specific struct
 | **One day at a time** -- Not permanent cure but continuous practice | **Continuous verification** -- Not one-time validation but ongoing compliance | Per-operation axiom checks, not periodic audits |
 | **Meetings/community** -- Shared vigilance structures | **[Color Teams](@/glossary/color-teams.md)** -- Adversarial-defensive team dynamics | 6-team continuous challenge and verification |
 
-The insight that ties these parallels together is that neither addiction recovery nor epistemic integrity can be "solved." There is no point at which the system can declare itself permanently immune to rationalization, just as there is no point at which a person in recovery can declare themselves permanently immune to relapse. The correct posture is perpetual, structured vigilance -- not paranoia, but disciplined awareness maintained through automated systems that do not suffer from the cognitive fatigue that degrades human vigilance over time.
+The insight that ties these parallels together is that neither addiction recovery nor epistemic integrity can be “solved.” There is no point at which the system can declare itself permanently immune to rationalization, just as there is no point at which a person in recovery can declare themselves permanently immune to relapse. The correct posture is perpetual, structured vigilance — not paranoia, but disciplined awareness maintained through automated systems that do not suffer from the cognitive fatigue that degrades human vigilance over time.
 
 ### Significance Within the Platform
 
 Addiction Recovery is not a standalone principle but a meta-level framing that infuses the entire [NABLA Infinity](@/glossary/nabla-infinity.md) framework. Every NABLA axiom can be understood as a specific anti-relapse mechanism:
 
-- **[Signal Plurality](@/glossary/signal-plurality.md)**: Prevents the rationalization "this one source is authoritative enough"
-- **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)**: Prevents the minimization "this disagreement is probably just noise"
-- **Absence Informative**: Prevents the selective attention "if there's no evidence of a problem, there is no problem"
-- **Time Decay**: Prevents the staleness rationalization "this evidence is still good enough"
-- **Unknown Valid**: Prevents the false certainty "we need to give an answer even if we're not sure"
-- **Source Independence**: Prevents the correlation blindness "ten articles confirm this" (from the same source)
-- **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)**: Prevents the accountability evasion "everyone knows this"
+- **[Signal Plurality](@/glossary/signal-plurality.md)**: Prevents the rationalization “this one source is authoritative enough”
+- **[Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)**: Prevents the minimization “this disagreement is probably just noise”
+- **Absence Informative**: Prevents the selective attention “if there's no evidence of a problem, there is no problem”
+- **Time Decay**: Prevents the staleness rationalization “this evidence is still good enough”
+- **Unknown Valid**: Prevents the false certainty “we need to give an answer even if we're not sure”
+- **Source Independence**: Prevents the correlation blindness “ten articles confirm this” (from the same source)
+- **[Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/)**: Prevents the accountability evasion “everyone knows this”
 
 ## Technical Details
 
@@ -335,9 +335,9 @@ The integration operates at three levels:
 
 1. **Per-Operation Level**: Every operation that modifies the belief graph passes through the `AddictionPreservation.check/1` function, which tests against the rationalization pattern taxonomy. This catches individual violations in real time.
 
-2. **Temporal Pattern Level**: The `VigilanceMonitor` GenServer tracks patterns across operations over configurable time windows (default 24 hours). This catches gradual drift that individual checks miss -- for example, a sequence of individually permissible confidence adjustments that collectively inflate a hypothesis beyond its evidence base.
+2. **Temporal Pattern Level**: The `VigilanceMonitor` GenServer tracks patterns across operations over configurable time windows (default 24 hours). This catches gradual drift that individual checks miss — for example, a sequence of individually permissible confidence adjustments that collectively inflate a hypothesis beyond its evidence base.
 
-3. **Structural Level**: Periodic graph integrity scans verify that the belief graph's structure is consistent with Addiction Recovery requirements -- no orphaned evidence, no missing contradiction nodes, no untracked provenance gaps. These scans catch corruption that may have entered through code paths not yet instrumented with per-operation checks.
+3. **Structural Level**: Periodic graph integrity scans verify that the belief graph's structure is consistent with Addiction Recovery requirements — no orphaned evidence, no missing contradiction nodes, no untracked provenance gaps. These scans catch corruption that may have entered through code paths not yet instrumented with per-operation checks.
 
 ### Color Team Integration
 
@@ -373,7 +373,7 @@ The key distinction is that Addiction Recovery is a **preventive** mechanism, no
 
 ## Best Practices
 
-1. **Never Disable Monitoring**: The Vigilance Monitor must run continuously. Temporary disabling "for performance" or "during batch operations" creates exactly the gap that gradual rationalization exploits. If performance is a concern, adjust scan intervals rather than disabling monitoring.
+1. **Never Disable Monitoring**: The Vigilance Monitor must run continuously. Temporary disabling “for performance” or “during batch operations” creates exactly the gap that gradual rationalization exploits. If performance is a concern, adjust scan intervals rather than disabling monitoring.
 
 2. **Calibrate Against Red Team Results**: Detection thresholds should be calibrated using Red Team drift induction scenarios as ground truth. Under-sensitive thresholds miss real drift; over-sensitive thresholds produce alert fatigue that leads to ignored warnings.
 
@@ -389,7 +389,7 @@ The key distinction is that Addiction Recovery is a **preventive** mechanism, no
 
 ## Common Pitfalls
 
-- **Treating the principle as metaphorical rather than structural**: Addiction Recovery is not a philosophical stance or a team culture aspiration. It is a concrete set of automated checks, enforced at the code level, with no manual bypass. Teams that treat it as a "mindset" rather than an enforcement mechanism will find it degrading as organizational pressure increases.
+- **Treating the principle as metaphorical rather than structural**: Addiction Recovery is not a philosophical stance or a team culture aspiration. It is a concrete set of automated checks, enforced at the code level, with no manual bypass. Teams that treat it as a “mindset” rather than an enforcement mechanism will find it degrading as organizational pressure increases.
 
 - **Optimizing for false positive reduction at the expense of detection**: Tuning thresholds to reduce false positives inevitably reduces true positive detection. The asymmetric cost analysis (Section 4 of [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/)) applies here: the cost of a false positive (one unnecessary investigation) is far lower than the cost of a missed rationalization pattern (corrupted belief graph).
 
@@ -405,11 +405,11 @@ The key distinction is that Addiction Recovery is a **preventive** mechanism, no
 
 ### Use Case 1: Due Diligence Evidence Integrity
 
-During M&A due diligence, the Addiction Recovery principle prevents the common failure mode where initial findings bias subsequent evidence gathering. When an early assessment suggests the target company is low-risk, the natural tendency is to weight subsequent confirming evidence more heavily and treat contradictory signals as anomalies. The Vigilance Monitor detects this pattern through asymmetric confidence movement tracking: if confidence consistently moves in one direction without corresponding contradiction resolution, a warning is raised.
+During M&A [due diligence](@/glossary/due-diligence.md), the Addiction Recovery principle prevents the common failure mode where initial findings bias subsequent evidence gathering. When an early assessment suggests the target company is low-risk, the natural tendency is to weight subsequent confirming evidence more heavily and treat contradictory signals as anomalies. The Vigilance Monitor detects this pattern through asymmetric confidence movement tracking: if confidence consistently moves in one direction without corresponding contradiction resolution, a warning is raised.
 
 ### Use Case 2: OSINT Source Validation
 
-In Open Source Intelligence operations, the Addiction Recovery principle guards against source laundering -- the tendency to treat multiple articles referencing the same original source as independent confirmations. The independence group tracking mechanism traces provenance chains through media amplification networks, ensuring that ten news articles citing the same press release are counted as one signal, not ten.
+In Open Source Intelligence operations, the Addiction Recovery principle guards against source laundering — the tendency to treat multiple articles referencing the same original source as independent confirmations. The independence group tracking mechanism traces provenance chains through media amplification networks, ensuring that ten news articles citing the same press release are counted as one signal, not ten.
 
 ### Use Case 3: Security Rating Calibration
 
@@ -417,28 +417,28 @@ The [Prismatic Perimeter](@/glossary/easm.md) security rating system uses Addict
 
 ### Use Case 4: Agent Reasoning Integrity
 
-AI agents within the platform form beliefs through multi-step reasoning chains. The Addiction Recovery principle monitors these chains for progressive confidence inflation -- cases where each inference step slightly increases confidence beyond what the evidence supports, resulting in a final conclusion with dramatically inflated confidence. The per-operation check catches each inflation attempt, while the Vigilance Monitor catches cases where individually permissible increases accumulate beyond calibrated bounds.
+AI agents within the platform form beliefs through multi-step reasoning chains. The Addiction Recovery principle monitors these chains for progressive confidence inflation — cases where each [inference](@/glossary/inference.md) step slightly increases confidence beyond what the evidence supports, resulting in a final conclusion with dramatically inflated confidence. The per-operation check catches each inflation attempt, while the Vigilance Monitor catches cases where individually permissible increases accumulate beyond calibrated bounds.
 
 ## Related Concepts
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- The parent epistemic framework whose seven axioms Addiction Recovery enforces through continuous vigilance
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- The specific axiom most directly protected by Addiction Recovery's anti-rationalization enforcement
-- [Cherry Picking](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cherry-picking/) -- The evidence selection anti-pattern that Addiction Recovery detects and blocks
-- [Signal Plurality](@/glossary/signal-plurality.md) -- The axiom preventing single-source beliefs, reinforced by source laundering detection
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- The data structure monitored by the Vigilance Monitor for structural rationalization patterns
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- The quantitative system protected from inflation through calibrated deviation monitoring
-- [Trinity Gate](@/glossary/trinity-gate.md) -- The verification gate that provides structural defense complementary to Addiction Recovery's temporal monitoring
-- [Red Team](@/glossary/red-team.md) -- The adversarial team that tests Addiction Recovery resilience through drift induction scenarios
-- [Blue Team](@/glossary/blue-team.md) -- The defensive team maintaining monitoring posture against rationalization patterns
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- The axiom enforcing traceability, preventing accountability evasion rationalization
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- The overall system property that Addiction Recovery protects from gradual erosion
-- [QEVE](@/glossary/qeve.md) -- The verification engine implementing NABLA axiom checks that Addiction Recovery monitors for bypass attempts
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — The parent epistemic framework whose seven axioms Addiction Recovery enforces through continuous vigilance
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) — The specific axiom most directly protected by Addiction Recovery's anti-rationalization enforcement
+- [Cherry Picking](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cherry-picking/) — The evidence selection anti-pattern that Addiction Recovery detects and blocks
+- [Signal Plurality](@/glossary/signal-plurality.md) — The axiom preventing single-source beliefs, reinforced by source laundering detection
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) — The data structure monitored by the Vigilance Monitor for structural rationalization patterns
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) — The quantitative system protected from inflation through calibrated deviation monitoring
+- [Trinity Gate](@/glossary/trinity-gate.md) — The verification gate that provides structural defense complementary to Addiction Recovery's temporal monitoring
+- [Red Team](@/glossary/red-team.md) — The adversarial team that tests Addiction Recovery resilience through drift induction scenarios
+- [Blue Team](@/glossary/blue-team.md) — The defensive team maintaining monitoring posture against rationalization patterns
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — The axiom enforcing traceability, preventing accountability evasion rationalization
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) — The overall system property that Addiction Recovery protects from gradual erosion
+- [QEVE](@/glossary/qeve.md) — The verification engine implementing NABLA axiom checks that Addiction Recovery monitors for bypass attempts
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Vigilance Monitor agents
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog including Vigilance Monitor agents
 
 ---
 

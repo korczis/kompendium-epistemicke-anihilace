@@ -27,7 +27,7 @@ Lékaři primární péče jako gatekeepers pro psychiatrickou péči (>50% paci
 
 ## Klíčové komponenty
 
-Somatic-psychic differential, screening (PHQ-9, GAD-7), MUS (Medically Unexplained Symptoms), iatrogenic harm prevention, referral pathway.
+Somatic-psychic differential, screening (PHQ-9, GAD-7), MUS (Medically Unexplained Symptoms), [iatrogenic harm](@/glossary/iatrogenic-harm.md) prevention, referral pathway.
 
 ---
 

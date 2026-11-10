@@ -23,7 +23,7 @@ Sebe-obrana zde není fyzická, ale **epistemická, emocionální, sociální, i
 
 ## Kognitivní sebe-obrana
 
-Praktiky pro posílení kvality myšlení — metakognice, hodnocení důkazů, falsifikační disciplína a pluralismus paradigmat.
+Praktiky pro posílení kvality myšlení — [metakognice](@/glossary/metakognice.md), hodnocení důkazů, falsifikační disciplína a [pluralismus](@/glossary/pluralismus.md) paradigmat.
 
 1. [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md)
 2. [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
@@ -95,7 +95,6 @@ Správa narativu, vztahových kotev, paměťového archivu, hodnot a osobní myt
 8. [Ochrana existenciálního smyslu](@/kompendium/self-defense-guides/48-existential-meaning-protection.md)
 9. [Časové sešívání já](@/kompendium/self-defense-guides/49-temporal-self-stitching.md)
 10. [Obrana osobní mytologie](@/kompendium/self-defense-guides/50-personal-mythology-defense.md)
-
 
 ## Jak používat
 

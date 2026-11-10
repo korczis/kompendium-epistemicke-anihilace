@@ -7,7 +7,7 @@ description = "4-layer verification gate requiring structural, logical, and form
 tags = ["glossary", "epistemic", "verification", "formal-methods", "quality", "gate"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["nabla-infinity", "signal-plurality", "confidence-threshold", "white-team", "qeve", "agent", "entity-resolution", "epistemic-pipeline", "lean4", "property-based-testing", "provenance-mandatory", "purple-team", "qdp", "three-nl", "nm-nd", "no-mercy", "no-doubts", "blue-team"]
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -29,9 +29,9 @@ image_alt = "Trinity Gate - Prismatic Platform"
 
 ## Definition
 
-The Trinity Gate is a 4-layer verification mechanism that every platform belief, decision, and conclusion must pass before acceptance. It consists of three independent validation gates -- Structural Consistency (graph theory), Logical Consistency (rule-based evaluation), and Formal Necessity (modal logic and Lean4 proofs) -- plus a meta-integrity layer that validates the gate's own correctness. No claim is established without Trinity passage. No exceptions.
+The Trinity Gate is a 4-layer verification mechanism that every platform belief, decision, and conclusion must pass before acceptance. It consists of three independent validation gates — Structural Consistency ([graph theory](@/glossary/graph-theory.md)), Logical Consistency (rule-based evaluation), and Formal Necessity (modal logic and Lean4 proofs) — plus a meta-integrity layer that validates the gate's own correctness. No claim is established without Trinity passage. No exceptions.
 
-The gate exists to solve a fundamental problem in AI-assisted reasoning: the gap between "the model thinks so" and "this is actually true." Statistical confidence alone is insufficient for high-stakes decisions. A system can be 95% confident in a conclusion that is structurally incoherent, logically contradictory, or formally unnecessary. Trinity Gate closes these gaps by requiring independent verification across three orthogonal dimensions before any belief transitions from hypothesis to accepted conclusion.
+The gate exists to solve a fundamental problem in AI-assisted reasoning: the gap between “the model thinks so” and “this is actually true.” Statistical confidence alone is insufficient for high-stakes decisions. A system can be 95% confident in a conclusion that is structurally incoherent, logically contradictory, or formally unnecessary. Trinity Gate closes these gaps by requiring independent verification across three orthogonal dimensions before any belief transitions from hypothesis to accepted conclusion.
 
 Within the Prismatic Platform, Trinity Gate serves as the transition threshold between [NABLA Infinity](@/glossary/nabla-infinity.md) exploration and [NM/ND](@/glossary/nm-nd.md) execution. The platform maintains 629 trinity entities with 100% compliance.
 
@@ -48,7 +48,7 @@ Structural consistency verification includes:
 - **DAG validity**: The belief graph must be acyclic. Circular reasoning (A supports B, B supports C, C supports A) is a structural failure regardless of how plausible each individual link appears
 - **Dependency integrity**: Every conclusion node must trace back to evidence nodes through valid edges. Disconnected conclusions (beliefs with no supporting evidence path) are flagged and rejected
 - **Contradiction topology**: When contradictory evidence exists, the graph must explicitly represent both sides with proper annotation rather than silently discarding one side. This enforces the [NABLA Infinity](@/glossary/nabla-infinity.md) Contradiction Preservation axiom at the structural level
-- **Inference path validation**: The knowledge topology must support the inference direction. Evidence flows upward to conclusions, not the reverse. Retroactive evidence generation (fitting evidence to a predetermined conclusion) creates detectable structural anomalies
+- **[Inference](@/glossary/inference.md) path validation**: The knowledge topology must support the inference direction. Evidence flows upward to conclusions, not the reverse. Retroactive evidence generation (fitting evidence to a predetermined conclusion) creates detectable structural anomalies
 
 Structural consistency is the fastest gate to evaluate and the most common point of failure. Approximately 40% of Trinity Gate rejections occur at this stage, typically due to circular reasoning patterns or orphaned belief nodes.
 
@@ -62,8 +62,8 @@ Logical consistency verification includes:
 
 - **Premise-conclusion alignment**: Every conclusion must follow from its stated premises through a valid inference rule. Conclusions that assert more than the premises support are flagged as overreach
 - **Rule soundness**: The inference rules themselves are validated. A rule that produces contradictory outputs from the same inputs is unsound regardless of whether it happens to produce a correct result in this instance
-- **Axiom compliance**: All seven NABLA axioms are checked at every inference step. [Signal Plurality](@/glossary/signal-plurality.md) violations (single-source beliefs), [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) violations (untraceable claims), and other axiom breaches trigger immediate gate failure
-- **Assumption tracking**: Every assumption introduced during inference is explicitly tracked. Hidden assumptions -- premises that are used but never stated -- are detected through dependency analysis and flagged as assumption leakage
+- **Axiom compliance**: All seven [NABLA axioms](@/glossary/nabla-axioms.md) are checked at every inference step. [Signal Plurality](@/glossary/signal-plurality.md) violations (single-source beliefs), [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) violations (untraceable claims), and other axiom breaches trigger immediate gate failure
+- **Assumption tracking**: Every assumption introduced during inference is explicitly tracked. Hidden assumptions — premises that are used but never stated — are detected through dependency analysis and flagged as assumption leakage
 
 Logical consistency catches errors that structural analysis misses. A belief graph can be a perfectly valid DAG while containing logically unsound inference steps. This gate ensures the reasoning is correct, not just well-formed.
 
@@ -77,8 +77,8 @@ Formal necessity verification includes:
 
 - **Modal logic evaluation**: Distinguishes between necessity (the conclusion must be true in all possible worlds consistent with the evidence) and possibility (the conclusion could be true in some possible worlds). For critical decisions, possibility is insufficient
 - **Lean4 theorem proving**: The core claim is translated into a Lean4 theorem and subjected to formal proof. If the theorem can be proved, the conclusion is formally necessary. If it cannot be proved but cannot be disproved, the conclusion is possible but not necessary. If a counterexample is found, the conclusion is formally refuted
-- **Assumption minimality**: The formal proof is audited to ensure it uses the minimum necessary assumptions. Proofs that depend on unnecessary assumptions are fragile -- removing any unnecessary assumption should not invalidate the proof
-- **Counterexample construction**: When a proof fails, the system attempts to construct an explicit counterexample. A concrete counterexample is far more informative than a generic "proof failed" message, as it identifies the specific conditions under which the conclusion breaks
+- **Assumption minimality**: The formal proof is audited to ensure it uses the minimum necessary assumptions. Proofs that depend on unnecessary assumptions are fragile — removing any unnecessary assumption should not invalidate the proof
+- **Counterexample construction**: When a proof fails, the system attempts to construct an explicit counterexample. A concrete counterexample is far more informative than a generic “proof failed” message, as it identifies the specific conditions under which the conclusion breaks
 
 The formal layer is computationally expensive and is applied selectively to high-stakes conclusions. For routine operations, the structural and logical gates provide sufficient verification. For critical decisions (confidence threshold 0.95), all three gates are mandatory.
 
@@ -177,7 +177,7 @@ The threshold is the minimum confidence score from [QEVE](@/glossary/qeve.md) re
 
 ## Integration with NM/ND Doctrine
 
-Trinity Gate is the bridge between exploration and execution in the [NM/ND](@/glossary/nm-nd.md) (No Mercy, No Doubts) doctrine:
+Trinity Gate is the bridge between exploration and execution in the [NM/ND](@/glossary/nm-nd.md) ([No Mercy, No Doubts](@/glossary/no-mercy-no-doubts.md)) doctrine:
 
 ```
 EXPLORATION PHASE (NABLA Infinity)
@@ -204,7 +204,7 @@ The transition is unidirectional and irreversible within a single decision cycle
 
 This integration prevents two failure modes:
 
-1. **Premature execution**: Acting on unverified beliefs because they "feel right" or because time pressure demands a decision. Trinity Gate forces the pause.
+1. **Premature execution**: Acting on unverified beliefs because they “feel right” or because time pressure demands a decision. Trinity Gate forces the pause.
 2. **Perpetual exploration**: Never committing to action because there is always more evidence to gather. The confidence threshold and gate passage provide a clear, objective trigger for transition.
 
 ## Failure Analysis and Diagnostics
@@ -305,31 +305,31 @@ Trinity Gate addresses a specific category of failure that conventional AI valid
 
 **Feelings are not evidence.** Human analysts and AI systems alike develop intuitions that feel correct but lack rigorous grounding. Trinity Gate requires that every accepted conclusion pass three independent verification methods. Intuition that survives structural, logical, and formal scrutiny is validated intuition. Intuition that fails any gate is rejected regardless of how compelling it feels.
 
-**Probability is not necessity.** A conclusion that is 95% probable is still 5% wrong. For critical decisions -- security assessments, compliance determinations, acquisition due diligence -- the question is not "how probable?" but "is this necessary?" The formal gate (modal logic + Lean4) answers this question directly.
+**Probability is not necessity.** A conclusion that is 95% probable is still 5% wrong. For critical decisions — security assessments, compliance determinations, acquisition [due diligence](@/glossary/due-diligence.md) — the question is not “how probable?” but “is this necessary?” The formal gate (modal logic + Lean4) answers this question directly.
 
-**Verification must verify itself.** Any verification system that does not check its own integrity is vulnerable to degradation. The meta-layer prevents Trinity Gate from becoming a formality -- a checkbox that always passes because no one checks whether the checkbox itself is working.
+**Verification must verify itself.** Any verification system that does not check its own integrity is vulnerable to degradation. The meta-layer prevents Trinity Gate from becoming a formality — a checkbox that always passes because no one checks whether the checkbox itself is working.
 
 The [Purple Team](@/glossary/purple-team.md) (Synthesis and Closure) serves as the organizational complement to Trinity Gate, ensuring that the Red-Blue adversarial-defensive loop reaches genuine closure rather than false resolution.
 
 ## Related Terms
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework whose axioms Trinity Gate enforces
-- [QEVE](@/glossary/qeve.md) -- Verification engine producing the inputs Trinity Gate evaluates
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover powering the Formal Necessity gate
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Execution doctrine enabled by successful gate passage
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Score thresholds that determine gate strictness
-- [White Team](@/glossary/white-team.md) -- Constructive verification team producing formal proofs for gate evaluation
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis team ensuring Red-Blue closure complements gate verification
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom checked during logical consistency gate
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom ensuring traceability through all gate stages
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- The 16-level pipeline in which Trinity Gate operates
-- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) -- Integration framework connecting Trinity Gate to AIAD agents
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Testing approach complementing formal verification
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework whose axioms Trinity Gate enforces
+- [QEVE](@/glossary/qeve.md) — Verification engine producing the inputs Trinity Gate evaluates
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) — Theorem prover powering the Formal Necessity gate
+- [NM/ND Doctrine](@/glossary/nm-nd.md) — Execution doctrine enabled by successful gate passage
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) — Score thresholds that determine gate strictness
+- [White Team](@/glossary/white-team.md) — Constructive verification team producing formal proofs for gate evaluation
+- [Purple Team](@/glossary/purple-team.md) — Synthesis team ensuring Red-Blue closure complements gate verification
+- [Signal Plurality](@/glossary/signal-plurality.md) — Core axiom checked during logical consistency gate
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — Axiom ensuring traceability through all gate stages
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — The 16-level pipeline in which Trinity Gate operates
+- [3NL Framework](https://prismatic-reality-com.github.io/prismatic-promo/glossary/three-nl/) — Integration framework connecting Trinity Gate to AIAD agents
+- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) — Testing approach complementing formal verification
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
 
 ---
 

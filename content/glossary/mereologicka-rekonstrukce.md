@@ -8,7 +8,7 @@ description = "Whole-part reconstruction therapy — staged restoration of fragm
 tags = ["glossary", "clinical", "kompendium"]
 
 [extra]
-category = "clinical"
+category = "psychologie a klinika"
 related_terms = ["disociace", "iatrogenic-harm", "narrative-identity", "epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -24,14 +24,14 @@ image_alt = "Mereologická rekonstrukce - glossary"
 
 ## Definition
 
-**Mereologická rekonstrukce** (mereological reconstruction; from Greek *meros* = "part") is the kompendium's term for a staged therapeutic approach to fragmented epistemic and identity structures, particularly in survivors of systematic epistemic annihilation. The term draws on **mereology** — the formal philosophical theory of parthood relations developed by Leśniewski and elaborated by Simons and others — to emphasize that the damage being addressed is not merely a deficit of content but a **disruption of part–whole relations** within the cognitive and narrative system.
+**Mereologická rekonstrukce** (mereological reconstruction; from Greek *meros* = “part”) is the kompendium's term for a staged therapeutic approach to fragmented epistemic and identity structures, particularly in survivors of systematic epistemic annihilation. The term draws on **mereology** — the formal philosophical theory of parthood relations developed by Leśniewski and elaborated by Simons and others — to emphasize that the damage being addressed is not merely a deficit of content but a **disruption of part–whole relations** within the cognitive and narrative system.
 
 The core therapeutic insight is that EA-induced damage cannot be repaired by direct reconstruction of the damaged whole (e.g., the survivor's overall narrative or worldview) because the *parts* used in such reconstruction are themselves compromised. Standard therapeutic protocols often presume an intact evaluative apparatus that can be applied to traumatic content; in EA cases this presupposition fails, and therapy must first restore the parts before any whole can be coherently reassembled.
 
 The protocol typically involves four sequenced stages:
 
 1. **Extraction and stabilization** — physical and informational separation from the EA-producing environment; restoration of basic regulatory functions (sleep, nutrition, social stabilization). No interpretive work yet.
-2. **Part-restoration** — targeted rebuilding of specific evaluative capacities: source-evaluation skills, falsifiability tracking, metacognitive monitoring, calibrated uncertainty. Each capacity is restored as an independent functional part before integration is attempted.
+2. **Part-restoration** — targeted rebuilding of specific evaluative capacities: source-evaluation skills, [falsifiability](@/glossary/falsifikovatelnost.md) tracking, metacognitive monitoring, calibrated uncertainty. Each capacity is restored as an independent functional part before integration is attempted.
 3. **Local integration** — testing restored parts against curated material in low-stakes contexts; verifying that source-evaluation operates without immediate appeal to perpetrator-supplied frames; building trust in the restored apparatus.
 4. **Narrative reconstruction** — only at this stage is the full autobiographical narrative reapproached. The survivor uses now-functional epistemic parts to construct (or reconstruct) a coherent self-narrative; the therapist serves as a non-authoritative scaffold rather than as the source of interpretive truth.
 

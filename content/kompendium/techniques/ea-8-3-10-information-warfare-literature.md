@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Pomerantsev (2019) This Is Not Propaganda. Bradshaw & Howard (2019) Global Disinformation Order. Wanless & Berk (2017) The Audience is the Amplifier. Benkler, Faris & Roberts (2018) Network Propaganda. Singer & Brooking (2018) LikeWar.
+Pomerantsev (2019) This Is Not [Propaganda](@/glossary/propaganda.md). Bradshaw & Howard (2019) Global Disinformation Order. Wanless & Berk (2017) The Audience is the Amplifier. Benkler, Faris & Roberts (2018) Network Propaganda. Singer & Brooking (2018) LikeWar.
 
 ## Klíčové komponenty
 

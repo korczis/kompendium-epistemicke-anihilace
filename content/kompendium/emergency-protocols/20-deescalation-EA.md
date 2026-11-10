@@ -29,7 +29,7 @@ Pacient v EA-emergency v eskalovaném stavu — agitace, vokální agrese, nesch
 1. **Sniž svou vlastní hlasovou intenzitu o 20% pod pacientovu** — modeluj regulaci ne reakci.
 2. **Nepoužívej „uklidni se"** — to je gaslightingová klasika; místo toho „chápu, že jsi naštvaný/á, dává to smysl".
 3. **Stanov fyzickou distanc 1.2–1.5m** — ne moc blízko (threat), ne moc daleko (abandonment).
-4. **Nabídni explicitní volby s časovým rámcem („můžeme jít teď ven na 5 minut, nebo si tady sednout?")** — Nabídni explicitní volby s časovým rámcem („můžeme jít teď ven na 5 minut, nebo si tady sednout?").
+4. **Nabídni explicitní volby s časovým rámcem („můžeme jít teď ven na 5 minut, nebo si tady sednout?„)** — Nabídni explicitní volby s časovým rámcem („můžeme jít teď ven na 5 minut, nebo si tady sednout?“).
 5. **Po deeskalaci nedávej okamžitě „closure conversation"** — nech 30 minut buffer, pak debrief.
 
 ## 3. Stabilizace
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

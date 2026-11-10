@@ -23,14 +23,14 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Mentor se etabluje jako jediný legitimní zdroj odborného posouzení mentee — referenční dopisy, granty, networking jsou pod jeho kontrolou
-2. Externí kontakty mentee jsou aktivně omezovány ("nestrácej čas s X", "ten obor je slepá ulička"); konference jen ty, kde mentor jezdí
-3. Mentee internalizuje mentor jako jediný kompas hodnocení — vlastní názor mizí, je nahrazen "co by říkal školitel"
+2. Externí kontakty mentee jsou aktivně omezovány („nestrácej čas s X“, „ten obor je slepá ulička“); konference jen ty, kde mentor jezdí
+3. Mentee internalizuje mentor jako jediný kompas hodnocení — vlastní názor mizí, je nahrazen „co by říkal školitel“
 
 ## Detekční markery (3 nejvýraznější)
 
-- Mentee neumí formulovat nezávislou pozici — každý argument začíná "Profesor X tvrdí..."
+- Mentee neumí formulovat nezávislou pozici — každý argument začíná „Profesor X tvrdí…“
 - Profesní síť mentee je téměř identická s mentorovou; chybějící peers v jiných subdoménách
-- Akutní krize, když mentor nesouhlasí — ne intelektuální, ale identitní ("nevím, co si o tom mám myslet")
+- Akutní krize, když mentor nesouhlasí — ne intelektuální, ale identitní („nevím, co si o tom mám myslet“)
 
 ## Neutralizační strategie (3 nejúčinnější)
 
@@ -40,7 +40,7 @@ toc = false
 
 ## Příklad
 
-Doktorand v sedmém roce stále píše dizertaci, kterou školitel nepustí dál. Návrhy posunout obhajobu nejsou možné, protože "není připraven". Po smrti školitele zjišťuje, že měl plně publikovatelnou práci od roku tři — a žádnou identitu mimo "doktorand profesora X".
+Doktorand v sedmém roce stále píše dizertaci, kterou školitel nepustí dál. Návrhy posunout obhajobu nejsou možné, protože „není připraven“. Po smrti školitele zjišťuje, že měl plně publikovatelnou práci od roku tři — a žádnou identitu mimo „doktorand profesora X“.
 
 ## Cross-linky
 

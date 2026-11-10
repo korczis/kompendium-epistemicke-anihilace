@@ -157,7 +157,7 @@ Západní literatura má sklon popisovat region skrze „kolektivismus“ a „k
 zakrývá politické a ekonomické příčiny (viz [kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)).
 Častým příkladem je čínský „sociální kredit“, popisovaný jako jediné všudypřítomné skóre;
 ve skutečnosti jde o roztříštěnou soustavu převážně firemních a regulačních černých listin.
-Přesné zobrazení je samo obranou proti EA. Chybějí také srovnatelná data o coercive control
+Přesné zobrazení je samo obranou proti EA. Chybějí také srovnatelná data o [coercive control](@/glossary/coercive-control.md)
 v regionu a o dlouhodobých následcích převýchovy.
 
 ## Související

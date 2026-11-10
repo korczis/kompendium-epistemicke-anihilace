@@ -7,7 +7,7 @@ description = "Phenomenological state in which the ordinary sense of being a sep
 tags = ["phenomenology", "mystical-experience", "consciousness", "clinical"]
 
 [extra]
-category = "phenomenology"
+category = "fenomenologie"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "5 min"
@@ -30,11 +30,11 @@ Ego death (also termed *ego dissolution* in academic literature) refers to a phe
 
 ## Manažerské shrnutí
 
-Pro Prismatic Platform je ego death technický termín relevantní v dvou kontextech: (1) **due-diligence vyšetřování bývalých členů kultů, psychedelic-assisted therapy klinik, nebo intenzivních meditačních center** — kde se s ego death pracuje záměrně a kde rozdíl mezi *autentickým transformativním prožitkem* a *iatrogenicky vyvolanou destabilizací* určuje, zda jde o legitimní praxi, nebo o coercive control; (2) **klinická differentiation** v rozhovorech s subjekty, jejichž biografický narrativ obsahuje ego death epizodu — manažer DD týmu musí rozhodnout, zda zahrnout subject-matter experta na transpersonální psychologii. Ego death sám o sobě **není psychopatologie** (Lukoff 1985, Yaden & Newberg 2022) — patologickým se stává pouze při neschopnosti integrace nebo při vynucené indukci.
+Pro Prismatic Platform je ego death technický termín relevantní v dvou kontextech: (1) **due-diligence vyšetřování bývalých členů kultů, psychedelic-assisted therapy klinik, nebo intenzivních meditačních center** — kde se s ego death pracuje záměrně a kde rozdíl mezi *autentickým transformativním prožitkem* a *iatrogenicky vyvolanou destabilizací* určuje, zda jde o legitimní praxi, nebo o [coercive control](@/glossary/coercive-control.md); (2) **klinická differentiation** v rozhovorech s subjekty, jejichž biografický narrativ obsahuje ego death epizodu — manažer DD týmu musí rozhodnout, zda zahrnout subject-matter experta na transpersonální psychologii. Ego death sám o sobě **není psychopatologie** (Lukoff 1985, Yaden & Newberg 2022) — patologickým se stává pouze při neschopnosti integrace nebo při vynucené indukci.
 
 ## Domain Context
 
-Termín do akademického diskurzu zavedli psychoanalytik Erik Erikson a transpersonální psychologové (Stanislav Grof) v 60. a 70. letech. Současný výzkum využívá *Ego Dissolution Inventory* (EDI, Nour et al. 2016) jako standardizovaný dotazník pro kvantifikaci intenzity prožitku v psychedelických studiích. Neurobiologicky koreluje ego death se sníženou aktivitou *default mode network* (DMN) — sítě regionů (mediální prefrontální kortex, posterior cingulate cortex, precuneus) odpovědné za self-referenční zpracování (Carhart-Harris et al. 2016). Buddhistická tradice popisuje analogický stav jako *anatta* (ne-já) nebo *šúnjatá* (prázdnota). Sufismus používá termín *fana* (zánik). Křesťanská mystika hovoří o *vyprázdnění* (kenosis).
+Termín do akademického diskurzu zavedli psychoanalytik Erik Erikson a transpersonální psychologové (Stanislav Grof) v 60. a 70. letech. Současný výzkum využívá *Ego Dissolution Inventory* (EDI, Nour et al. 2016) jako standardizovaný dotazník pro kvantifikaci intenzity prožitku v psychedelických studiích. Neurobiologicky koreluje ego death se sníženou aktivitou *[default mode network](@/glossary/default-mode-network.md)* (DMN) — sítě regionů (mediální prefrontální kortex, posterior cingulate cortex, precuneus) odpovědné za self-referenční zpracování (Carhart-Harris et al. 2016). Buddhistická tradice popisuje analogický stav jako *anatta* (ne-já) nebo *šúnjatá* (prázdnota). Sufismus používá termín *fana* (zánik). Křesťanská mystika hovoří o *vyprázdnění* (kenosis).
 
 ## Practical Application
 

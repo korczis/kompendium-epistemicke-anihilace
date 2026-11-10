@@ -141,17 +141,20 @@ budou chtít svůj výstup ponechat zcela pro sebe.
 ## Související
 
 **Celá řada**
+
 - [Vzdělávací scénáře](@/kompendium/educational-scenarios/_index.md) – přehled všech třiceti scénářů.
 - [Základní detekce](@/kompendium/educational-scenarios/1-basic-detection.md) – kde řada začala.
 - [Meta-evaluace](@/kompendium/educational-scenarios/9-meta-evaluation.md) – deník úsudků, který audit využívá.
 
 **Sebe-obrana**
+
 - [Informační dieta](@/kompendium/self-defense-guides/33-information-diet.md) – týden 1.
 - [Audit vztahů](@/kompendium/self-defense-guides/22-relationship-audit.md) – týden 2.
 - [Metakognitivní monitoring](@/kompendium/self-defense-guides/1-metacognitive-monitoring.md) – týden 3.
 - [Diverzifikace sítě](@/kompendium/self-defense-guides/25-network-diversification.md) – týden 4.
 
 **Prevence a glosář**
+
 - [Kurikulum kritického myšlení](@/kompendium/prevention-resilience/8-critical-thinking-curriculum.md) – širší vzdělávací rámec.
 - [Epistemic security](@/glossary/epistemic-security.md) – pojem, z něhož politika vychází.
 - [Epistemická pokora](@/glossary/epistemicka-pokora.md) – postoj, bez něhož audit nefunguje.

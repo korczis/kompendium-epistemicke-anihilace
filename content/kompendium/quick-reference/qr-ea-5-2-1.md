@@ -20,29 +20,29 @@ toc = false
 
 > WARNING: Přístupová úroveň L4. Pouze pro kvalifikované výzkumníky pod IRB.
 
-**Doména**: Metatranscendentální anihilace — útok na transcendentální podmínky poznání (Kantovské kategorie, Husserlovská intencionalita).
+**Doména**: Metatranscendentální anihilace — útok na transcendentální podmínky poznání (Kantovské kategorie, Husserlovská [intencionalita](@/glossary/intencionalita.md)).
 
 ## Operační modus (3 kroky)
 
-1. Vyvolání reflexe na meta-úrovni — "co je samotná možnost vědění?" — bez stabilizovaných operacionálních distinkcí mezi vědomím, předmětem, zkušeností
+1. Vyvolání reflexe na meta-úrovni — „co je samotná možnost vědění?“ — bez stabilizovaných operacionálních distinkcí mezi vědomím, předmětem, zkušeností
 2. Inverze pólů poznání — to, co bylo pro subjekta strukturně poznávajícím (ego, subjekt), je rámováno jako poznávané; to, co bylo poznávaným, jako poznávající
 3. Konsolidace inverze skrze opakované rituální praxe (meditace, channelling), které stav fixují bez teoretické kotvy; subjekt nemůže běžně fungovat
 
 ## Detekční markery (3 nejvýraznější)
 
-- Subjekt dlouhodobě reportuje "už nevím, kdo si tady myslí" v ne-patologickém tónu (jako spirituální zisk)
+- Subjekt dlouhodobě reportuje „už nevím, kdo si tady myslí“ v ne-patologickém tónu (jako spirituální zisk)
 - Praktické fungování (rozhodování, plánování, denní úkoly) progresivně erodují, přitom subjekt si úpadek nepřipouští
 - Kantovské kategorie (čas, prostor, kauzalita, identita) jsou v subjektově diskurzu zaměňovány bez explicitní translace
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Fenomenologický restituční protokol — strukturované cvičení v základních distinkcích noéma/noésis (předmět vs. akt)
-- Multidisciplinární tým — psychiatrie pro diferenciální dg. depersonalizace + filosof pro koncepční stabilizaci
+- Multidisciplinární tým — psychiatrie pro diferenciální dg. [depersonalizace](@/glossary/depersonalizace.md) + filosof pro koncepční stabilizaci
 - Praktická kotva v každodennosti — fyzická práce, rutiny, rituály s jasnou objekt-subjekt strukturou
 
 ## Příklad
 
-Učitel meditace po 15 letech intenzivní praxe nedokáže říct, jestli "ten, kdo si nyní myslí toto", je on nebo "univerzální vědomí". Při klinickém rozhovoru selhává v základní orientaci (kdo, kde, kdy) — ale v mluvě užívá termíny "já", "ty", "tady" formálně správně. Kantovské kategorie reálně zkolabovaly, lingvistická povrchu zachována.
+Učitel meditace po 15 letech intenzivní praxe nedokáže říct, jestli „ten, kdo si nyní myslí toto“, je on nebo „univerzální vědomí“. Při klinickém rozhovoru selhává v základní orientaci (kdo, kde, kdy) — ale v mluvě užívá termíny „já“, „ty“, „tady“ formálně správně. Kantovské kategorie reálně zkolabovaly, lingvistická povrchu zachována.
 
 ## Cross-linky
 

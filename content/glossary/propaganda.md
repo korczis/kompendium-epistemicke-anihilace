@@ -8,7 +8,7 @@ description = "Ellul's structural theory: propaganda as a sociological phenomeno
 tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "epistemic-bubble", "kognitivni-anihilace", "taxonomie-ea", "lebenswelt"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -34,7 +34,7 @@ Ellul's distinctions remain operationally definitive:
 
 Three structural features distinguish Ellulian propaganda from earlier theories: (1) **necessity** — modern populations *require* propaganda to function as integrated political subjects; the demand is structural, not artificial; (2) **totality** — effective propaganda requires total media saturation; partial saturation merely creates resistance; (3) **technique** — propaganda is a *technical* phenomenon governed by laws of effectiveness, not by the moral intentions of any individual propagandist.
 
-For epistemic security, Ellul's framework provides the **scale-up vocabulary**: the same structural phenomena that, at individual scale, manifest as [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) techniques manifest at population scale as propaganda systems. The relationship is not metaphorical — it is structurally homologous: an EA technique successfully deployed across a population *is* a propaganda technique.
+For [epistemic security](@/glossary/epistemic-security.md), Ellul's framework provides the **scale-up vocabulary**: the same structural phenomena that, at individual scale, manifest as [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) techniques manifest at population scale as propaganda systems. The relationship is not metaphorical — it is structurally homologous: an EA technique successfully deployed across a population *is* a propaganda technique.
 
 ## Context
 

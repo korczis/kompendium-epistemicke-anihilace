@@ -8,7 +8,7 @@ description = "Dissociation — disruption of the normal integration of consciou
 tags = ["glossary", "clinical", "kompendium"]
 
 [extra]
-category = "clinical"
+category = "psychologie a klinika"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "iatrogenic-harm", "mereologicka-rekonstrukce", "narrative-identity", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -26,9 +26,9 @@ image_alt = "Disociace - glossary"
 
 **Dissociation** (Czech: *disociace*) is a clinical phenomenon characterized by disruption of the normal integration of consciousness, memory, identity, emotion, perception, body representation, and motor control. The DSM-5 classifies dissociative disorders as a distinct category encompassing **dissociative amnesia**, **depersonalization/derealization disorder**, and **dissociative identity disorder (DID)**, with subclinical dissociative experiences widely distributed across trauma-spectrum and stress-related conditions.
 
-Dissociation operates along a continuum from normative experiences (mild absorption, highway hypnosis) through trauma-protective responses (peritraumatic depersonalization) to chronic structural conditions involving identity fragmentation. The dominant theoretical frame — the **structural dissociation theory** of van der Hart, Nijenhuis, and Steele — distinguishes apparently-normal personality (ANP) modes from emotional personality (EP) modes, with chronic complex trauma producing increasingly elaborated divisions between them.
+Dissociation operates along a continuum from normative experiences (mild absorption, highway hypnosis) through trauma-protective responses (peritraumatic depersonalization) to chronic structural conditions involving identity fragmentation. The dominant theoretical frame — the **structural dissociation theory** of van der Hart, Nijenhuis, and Steele — distinguishes apparently-normal personality (ANP) modes from emotional personality (EP) modes, with chronic [complex trauma](@/glossary/complex-trauma.md) producing increasingly elaborated divisions between them.
 
-Phenomenologically, dissociation presents as: **depersonalization** (felt unreality of self, "watching from outside"), **derealization** (felt unreality of environment, "as if behind glass"), **dissociative amnesia** (gaps in autobiographical memory inconsistent with ordinary forgetting), **identity alteration** (subjective discontinuities in self), and **somatic dissociation** (anesthesia, motor symptoms without organic basis).
+Phenomenologically, dissociation presents as: **depersonalization** (felt unreality of self, “watching from outside”), **derealization** (felt unreality of environment, “as if behind glass”), **dissociative amnesia** (gaps in autobiographical memory inconsistent with ordinary forgetting), **identity alteration** (subjective discontinuities in self), and **somatic dissociation** (anesthesia, motor symptoms without organic basis).
 
 Dissociation is **adaptive in origin** — it evolved as a freeze-system response to inescapable threat — but becomes pathological when it persists beyond the eliciting context, generalizes inappropriately, or fragments the integrative capacity required for ordinary cognitive and relational functioning.
 

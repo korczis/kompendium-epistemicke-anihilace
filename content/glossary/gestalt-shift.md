@@ -8,7 +8,7 @@ description = "Sudden perceptual or conceptual reorganization in which the same 
 tags = ["glossary", "epistemic", "kompendium", "perception"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "kompendium-ea", "taxonomie-ea", "metakognice", "intentionalita"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -39,7 +39,7 @@ Gestalt shifts have a **dual valence** in epistemic-security analysis:
 
 Within the Prismatic Platform, induced gestalt shift is classified as **EA-5.1.26** in the [Kompendium taxonomy](@/glossary/taxonomie-ea.md) under the *paradigm-migration* family. The technique exploits the all-or-nothing character of gestalt restructuring: once the new frame snaps into place, every prior memory and observation is *retrospectively reinterpreted* under it. Documentation: [Kompendium → EA-5.1.26](@/kompendium/techniques/ea-5-1-26.md).
 
-What distinguishes EA-5.1.26 from legitimate paradigm correction is the **provenance of the new frame**: legitimate shifts emerge from the subject's own pattern-recognition over accumulated evidence; weaponized shifts are *seeded externally* and the subject is steered into "discovering" them. Diagnostic markers: rapid onset, suspiciously coherent reinterpretation of all past data, emotional charge characteristic of insight without the corresponding evidential base.
+What distinguishes EA-5.1.26 from legitimate paradigm correction is the **provenance of the new frame**: legitimate shifts emerge from the subject's own pattern-recognition over accumulated evidence; weaponized shifts are *seeded externally* and the subject is steered into “discovering” them. Diagnostic markers: rapid onset, suspiciously coherent reinterpretation of all past data, emotional charge characteristic of insight without the corresponding evidential base.
 
 The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of recent dramatic worldview reorganization as a **calibration alert**: the {{ <cross_link path="/hub/dd/decisions/calibration" text="confidence lens" /> }} flags subjects whose stated certainty has spiked across multiple unrelated domains simultaneously — a structural signature of induced rather than organic gestalt shift. Recovery work, documented at [/kompendium/06-zotaveni/paradigm/](@/kompendium/recovery-protocols/paradigm.md), centers on *frame archaeology*: reconstructing where each component of the new frame originated, separating evidence from suggestion.
 

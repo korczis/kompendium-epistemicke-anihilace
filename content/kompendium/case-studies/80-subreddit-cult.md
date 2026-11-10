@@ -127,7 +127,7 @@ Nejprve krizová stabilizace a posouzení suicidálního rizika, poté
   za ně.
 - **S2 – Externalizace introjektů.** Oddělení vlastního analytického úsudku od „hlasu
   komunity“: které závěry by subjekt sám obhájil, kdyby je musel podepsat jménem.
-- **S3 – Rekonstrukce metakognice.** Rozbor časové osy, na níž stála teorie; identifikace
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Rozbor časové osy, na níž stála teorie; identifikace
   bodů, kde se předpoklad změnil ve fakt ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md),
   [osobní audit zkreslení](@/kompendium/self-defense-guides/38-bias-audit-personal.md)).
 - **S4 – Hermeneutická obnova.** Práce s morálním zraněním: vina úměrná podílu, nikoli

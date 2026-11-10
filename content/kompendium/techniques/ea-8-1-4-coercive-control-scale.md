@@ -38,7 +38,7 @@ Pět domén: intimidation, isolation, control, micro-regulation, deprivation of 
 
 ## Klíčové komponenty
 
-Cut-off ≥84 indikuje klinicky významné coercive control. Doménový profil odhaluje primární kontrolní vektor. Použít s časovou referencí (uplynulých 12 měsíců) pro stabilní skórování.
+Cut-off ≥84 indikuje klinicky významné [coercive control](@/glossary/coercive-control.md). Doménový profil odhaluje primární kontrolní vektor. Použít s časovou referencí (uplynulých 12 měsíců) pro stabilní skórování.
 
 ## Aplikace v EA kontextu
 

@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[kognitivni-anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Kognitivní anti-rekurzivita označuje strukturální blokaci schopnosti myslet o vlastním myšlení — metakognice je neutralizována tak, že subjekt nemůže rozpoznat vzorce, do nichž je vtažen. Vzniká kombinací informačního zahlcení, časového tlaku a afektivní destabilizace.
+[kognitivni-anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — Kognitivní anti-rekurzivita označuje strukturální blokaci schopnosti myslet o vlastním myšlení — [metakognice](@/glossary/metakognice.md) je neutralizována tak, že subjekt nemůže rozpoznat vzorce, do nichž je vtažen. Vzniká kombinací informačního zahlcení, časového tlaku a afektivní destabilizace.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

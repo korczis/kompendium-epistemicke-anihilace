@@ -79,7 +79,7 @@ Co může vidět vnější pozorovatel:
 
 ### Individuální
 
-1. Strukturovaná narativní terapie zaměřená na re-konstrukci temporálně-koherentního self
+1. Strukturovaná [narativní terapie](@/glossary/narativni-terapie.md) zaměřená na re-konstrukci temporálně-koherentního self
 2. Životní línie cvičení: detailní mapování self-kontinuity
 3. Trauma-informed therapy pro re-etablování core-self struktury
 
@@ -96,7 +96,7 @@ EA-5.3.25 (minimal-self deformace), EA-5.3.27 (ego-skeletální redukce)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **core-self fraktura** představuje strukturální výzvu pro defenzivn
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Damasiův **core self** (*The Feeling of What Happens*) — pulzující self generovaný v každém okamžiku interakce s objektem — je fragmentován do nesynchronních pulzů. Husserlova **lebendige Gegenwart** (živá přítomnost, *Bernauer Manuscripts*) ztrácí jednotu. Merleau-Pontyho **chair** rozštěpí na nesynchronní vrstvy smyslujícího a smyslovaného. Levinas: **temps de l'autre** (čas druhého) prostupuje do core selfu. Stern: **emergent self** (raně vývojový self) je zranitelně regredován. Heideggerova **ekstatická časovost** ztrácí synchronizaci. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Damasiův **core self** (*The Feeling of What Happens*) — pulzující self gen
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

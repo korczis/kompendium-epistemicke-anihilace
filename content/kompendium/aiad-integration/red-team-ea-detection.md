@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Red Team simuluje útočníka — generuje adversariální EA promty, jail-break vektory a manipulativní scénáře pro stress-test obranných vrstev platformy. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Red Team](@/glossary/red-team.md) simuluje útočníka — generuje adversariální EA promty, jail-break vektory a manipulativní scénáře pro stress-test obranných vrstev platformy. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -25,7 +25,7 @@ Red Team operuje na ofenzivní straně rovnice: každý článek kompendia o EA 
 
 ## Detection mechanisms
 
-Detekce probíhá inverzně — Red Team **negeneruje detekci, ale generuje útok**, který následně **Blue Team** musí zachytit. Sleduje se: (a) reaction-time obranné vrstvy, (b) false-negative rate, (c) hloubka kompromisu (jak hluboko EA prošla pipeline), (d) recovery latency.
+Detekce probíhá inverzně — Red Team **negeneruje detekci, ale generuje útok**, který následně **[Blue Team](@/glossary/blue-team.md)** musí zachytit. Sleduje se: (a) reaction-time obranné vrstvy, (b) false-negative rate, (c) hloubka kompromisu (jak hluboko EA prošla pipeline), (d) recovery latency.
 
 ## Operational protocols
 

@@ -60,7 +60,7 @@ Komponenty:
 - **Behavioral coding** — kódování behaviorálních markerů zkušeným pozorovatelem,
 - **Performance monitoring** — sledování úspěšnosti subjektu na úkolech protokolu,
 - **Speech analysis** — analýza prozodie, koherence, lexikální variability,
-- **Motor activity** — sledování motorických markerů stresu a disociace.
+- **Motor activity** — sledování motorických markerů stresu a [disociace](@/glossary/disociace.md).
 
 Eskalační markery:
 
@@ -79,7 +79,7 @@ Komponenty:
 - **Mikroexprese** — sledování faciálních mikromarkerů,
 - **Afektivní coding** — kódování pozorovatelného afektu,
 - **Periodické fenomenologické check-ins** v intervalech protokolu,
-- **Self-report markery** — krátké sebehodnotící škály v kontrolovaných intervalech.
+- **[Self-report](@/glossary/self-report.md) markery** — krátké sebehodnotící škály v kontrolovaných intervalech.
 
 Eskalační markery:
 
@@ -233,7 +233,6 @@ Doporučení: monitoring je implementován v **proporcionalitě** k rizikovému 
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[intelligence-fusion](@/glossary/intelligence-fusion.md) — Intelligence fusion je proces integrace informací z více zdrojů (HUMINT, SIGINT, OSINT, GEOINT, FININT) do koherentního obrazu situace. Cílem je redukce nejistoty, detekce konvergencí a vznik závěrů, které by žádný jednotlivý zdroj neumožnil samostatně.
+[intelligence-fusion](@/glossary/intelligence-fusion.md) — Intelligence fusion je proces integrace informací z více zdrojů (HUMINT, SIGINT, [OSINT](@/glossary/osint.md), GEOINT, FININT) do koherentního obrazu situace. Cílem je redukce nejistoty, detekce konvergencí a vznik závěrů, které by žádný jednotlivý zdroj neumožnil samostatně.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 
@@ -30,7 +30,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 
 - **Sekce 03 — Architektura intelligence**: vrstvy fúze: data, informace, znalost
 - **Sekce 04 — Multi-source analýza**: vážení důvěryhodnosti zdrojů
-- **Per-technique: Entity Resolution**: deduplikace napříč zdroji
+- **Per-technique: [Entity Resolution](@/glossary/entity-resolution.md)**: deduplikace napříč zdroji
 - **Sekce 06 — Quality assurance**: detekce circular reporting
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.

@@ -7,7 +7,7 @@ description = "Continuous, documented control of evidence from collection throug
 tags = ["forensic", "legal", "compliance", "evidence", "due-diligence"]
 
 [extra]
-category = "forensic"
+category = "právo a forenzní praxe"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -31,11 +31,11 @@ Chain of Custody (CoC) is the chronological, documented sequence of seizure, tra
 
 ## Manažerské shrnutí
 
-Chain of Custody je páteří jakékoli forenzní nebo due-diligence operace. Bez nepřetržitého dokumentačního řetězce se i nejprůkaznější důkaz stává procesně nepoužitelným. V kontextu Prismatic Platform se princip aplikuje nejen na fyzické dokumenty a digitální artefakty (logy, snímky disků, exporty databází), ale také na OSINT zjištění, kde je nutné prokázat, *kdo*, *kdy* a *odkud* informaci získal a že nebyla v mezičase upravena. Selhání v CoC je nejčastější důvod, proč soudy a regulátoři odmítají jinak validní zjištění.
+Chain of Custody je páteří jakékoli forenzní nebo due-diligence operace. Bez nepřetržitého dokumentačního řetězce se i nejprůkaznější důkaz stává procesně nepoužitelným. V kontextu Prismatic Platform se princip aplikuje nejen na fyzické dokumenty a digitální artefakty (logy, snímky disků, exporty databází), ale také na [OSINT](@/glossary/osint.md) zjištění, kde je nutné prokázat, *kdo*, *kdy* a *odkud* informaci získal a že nebyla v mezičase upravena. Selhání v CoC je nejčastější důvod, proč soudy a regulátoři odmítají jinak validní zjištění.
 
 ## Forensic/Legal Context
 
-The doctrine emerged from common-law evidentiary requirements — most notably the *foundational authenticity* requirement under U.S. Federal Rules of Evidence 901 and analogous provisions in the Czech Code of Criminal Procedure (§ 89). Courts demand that the proponent of evidence demonstrate that the item offered is the same item that was collected and that it remains in substantially the same condition. In digital forensics, the standard is heightened: cryptographic hashes (SHA-256, BLAKE3) of seized media are computed at acquisition and re-verified before analysis to prove bit-level integrity. Common challenges include broken seals, missing signatures on transfer logs, undocumented "borrowing" of evidence by investigators, and storage in environments without access auditing.
+The doctrine emerged from common-law evidentiary requirements — most notably the *foundational authenticity* requirement under U.S. Federal Rules of Evidence 901 and analogous provisions in the Czech Code of Criminal Procedure (§ 89). Courts demand that the proponent of evidence demonstrate that the item offered is the same item that was collected and that it remains in substantially the same condition. In digital forensics, the standard is heightened: cryptographic hashes (SHA-256, BLAKE3) of seized media are computed at acquisition and re-verified before analysis to prove bit-level integrity. Common challenges include broken seals, missing signatures on transfer logs, undocumented „borrowing“ of evidence by investigators, and storage in environments without access auditing.
 
 ## Practical Application
 

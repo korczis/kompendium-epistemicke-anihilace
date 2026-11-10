@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Almendros, Carrobles & Rodríguez-Carballeira (2011) post-cult symptoms N=320. Felitti et al. (1998) ACE study N=17337. Hamberger et al. (2017) coercive control N=412. Goldsmith, Freyd & DePrince (2012) betrayal trauma N=362+185. Brewin et al. (2017) ITQ validation N=1051.
+Almendros, Carrobles & Rodríguez-Carballeira (2011) post-cult symptoms N=320. Felitti et al. (1998) ACE study N=17337. Hamberger et al. (2017) [coercive control](@/glossary/coercive-control.md) N=412. Goldsmith, Freyd & DePrince (2012) [betrayal trauma](@/glossary/betrayal-trauma.md) N=362+185. Brewin et al. (2017) ITQ validation N=1051.
 
 ## Klíčové komponenty
 

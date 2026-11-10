@@ -67,12 +67,12 @@ Kantova analýza **transcendentálních iluzí** — systematických zkreslení 
 
 Edmund Husserl ve svých analýzách *konstituce smyslu* (*Logische Untersuchungen*, *Ideen*, *Krisis*) ukazuje, že subjektivní zkušenost není pasivním přijímáním vjemů, ale **aktivní konstitucí významu**. Tato konstituce má strukturální vlastnosti:
 
-- **Intencionalita** — vědomí je vždy vědomím **něčeho**, je strukturně zaměřeno
+- **[Intencionalita](@/glossary/intencionalita.md)** — vědomí je vždy vědomím **něčeho**, je strukturně zaměřeno
 - **Noeticko-noematická korelace** — způsob zaměření (noéze) koreluje s konstituovaným obsahem (noéma)
 - **Pasivní syntézy** — pre-reflexivní úroveň, kde je konstituce již provedena před vědomou reflexí
 - **Intersubjektivita** — konstituce smyslu je strukturálně zakotvena ve vztahu k druhým subjektům
 
-Husserlova **epoché** (fenomenologická redukce) je metodickým aktem suspendace přirozeného postoje — strukturálně podobná Descartově metodické skepsi, ale s odlišným účelem (deskripce konstitutivních struktur, nikoli rekonstrukce empirické jistoty).
+Husserlova **[epoché](@/glossary/epoche.md)** (fenomenologická redukce) je metodickým aktem suspendace přirozeného postoje — strukturálně podobná Descartově metodické skepsi, ale s odlišným účelem (deskripce konstitutivních struktur, nikoli rekonstrukce empirické jistoty).
 
 Pro taxonomii je Husserl klíčový vhledem, že **anihilace nemusí cílit na obsahy přesvědčení, ale na konstitutivní struktury samé**. Útok na pasivní syntézy (např. systematické narušení temporálního strukturování zkušenosti) má fundamentálnější efekt než útok na konkrétní názory.
 
@@ -81,8 +81,9 @@ Pro taxonomii je Husserl klíčový vhledem, že **anihilace nemusí cílit na o
 Maurice Merleau-Ponty (*Fénoménologie de la perception*, 1945) demonstruje, že kognice je **vtělená** (*incarnée*) — že tělo není pouhým objektem ve světě, ale **konstitutivním médiem** přístupu ke světu.
 
 Implikace pro taxonomii:
+
 - **Tělesné techniky manipulace** (EA-1.5.x) operují na strukturní úrovni, kterou klasický kognitivismus přehlíží
-- **Spánková deprivace, fyziologická vyčerpanost, izolace** mají **přímý** efekt na epistemickou kapacitu — nikoli pouze nepřímý prostřednictvím "vlivu na mysl"
+- **Spánková deprivace, fyziologická vyčerpanost, izolace** mají **přímý** efekt na epistemickou kapacitu — nikoli pouze nepřímý prostřednictvím „vlivu na mysl“
 - **Habitualizace** v dlouhodobých manipulativních prostředích vytváří **tělesnou paměť** epistemicky distortní praxe, jež je obtížně odstranitelná čistě kognitivními intervencemi
 
 ### Heidegger a autenticita
@@ -95,17 +96,17 @@ Pro taxonomii: pokročilé fáze epistemické anihilace strukturně odpovídají
 
 ### Gadamer: hermeneutický kruh
 
-Hans-Georg Gadamer (*Wahrheit und Methode*, 1960) zavádí **hermeneutický kruh** jako strukturu porozumění: každé porozumění části předpokládá předporozumění celku, které je revidováno na základě porozumění části. Klíčové koncepty:
+Hans-Georg Gadamer (*Wahrheit und Methode*, 1960) zavádí **[hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)** jako strukturu porozumění: každé porozumění části předpokládá předporozumění celku, které je revidováno na základě porozumění části. Klíčové koncepty:
 
 - **Wirkungsgeschichte** (dějiny působení) — porozumění je vždy zakotveno v tradici, jež subjekt strukturně předchází
 - **Vorurteile** (předsudky) — pre-strukturní rámce, jež umožňují **jakékoli** porozumění; nelze je odstranit, lze pouze reflektovat
 - **Horizontverschmelzung** (splynutí horizontů) — porozumění jinému je strukturní splynutí horizontu interpreta a horizontu interpretovaného
 
-Pro taxonomii je Gadamerovo přínosem **realistická akceptace, že žádný subjekt nemá "neutrální" výchozí pozici** — všichni operují s předporozuměním. Otázkou není, jak předporozumění odstranit (to je nemožné), ale jak je **reflexivně zpřístupnit**. Manipulativní systémy operují skrze **systematickou suspenzi reflexivity** — udržují předporozumění aktivní, ale nedostupná pro vědomé hodnocení.
+Pro taxonomii je Gadamerovo přínosem **realistická akceptace, že žádný subjekt nemá „neutrální“ výchozí pozici** — všichni operují s předporozuměním. Otázkou není, jak předporozumění odstranit (to je nemožné), ale jak je **reflexivně zpřístupnit**. Manipulativní systémy operují skrze **systematickou suspenzi reflexivity** — udržují předporozumění aktivní, ale nedostupná pro vědomé hodnocení.
 
 ### Ricoeur: hermeneutika podezření
 
-Paul Ricoeur (*De l'interprétation*, 1965) identifikuje **hermeneutiku podezření** (Marx, Nietzsche, Freud) jako protějšek **hermeneutiky důvěry**. Hermeneutika podezření čte texty jako **maskování** něčeho jiného — ekonomických zájmů, vůle k moci, nevědomých přání.
+Paul Ricoeur (*De l'interprétation*, 1965) identifikuje **hermeneutiku podezření** (Marx, Nietzsche, Freud) jako protějšek **hermeneutiky důvěry**. [Hermeneutika](@/glossary/hermeneutika.md) podezření čte texty jako **maskování** něčeho jiného — ekonomických zájmů, vůle k moci, nevědomých přání.
 
 Pro taxonomii má Ricoeurova distinkce dvojí aplikaci:
 
@@ -159,7 +160,7 @@ Taxonomie je explicitně zakotvena v několika filosofických závazcích:
 
 1. **Kritický realismus** — existuje epistemicky přístupná realita, ačkoli přístup je vždy mediován
 2. **Strukturní realismus** — epistemické procesy mají strukturní vlastnosti, jež jsou intersubjektivně verifikovatelné
-3. **Pluralismus explanace** — multiple disciplinární perspektivy poskytují **komplementární**, nikoli konkurenční vhledy
+3. **[Pluralismus](@/glossary/pluralismus.md) explanace** — multiple disciplinární perspektivy poskytují **komplementární**, nikoli konkurenční vhledy
 4. **Normativní zakotvenost** — taxonomie není neutrálním deskriptivním aparátem, ale je zakotvena v hodnotě epistemické integrity
 5. **Reflexivní otevřenost** — taxonomie sama podléhá svým vlastním kritériím a je revizibilní
 
@@ -182,7 +183,6 @@ Tyto závazky nejsou apriori prokázány — jsou **regulativními východisky**
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

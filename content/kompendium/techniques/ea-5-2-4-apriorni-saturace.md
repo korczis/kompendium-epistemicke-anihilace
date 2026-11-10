@@ -35,15 +35,15 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Apriorní saturace** je metatranscendentální technika, při níž je subjektova kognitivní struktura **saturována falešnými syntetickými apriori** — soudy, které se subjektu jeví jako **současně univerzálně platné a obsahově informativní**, ale které ve skutečnosti nejsou ani validně apriorní, ani empiricky podložené. Jejich funkční role je **blokovat empirickou revizi**: cokoliv ve zkušenosti odporuje apriornímu soudu, je interpretováno jako *zdánlivý výjimkový případ* nebo jako *defekt zkušenosti*, ne jako falsifikace.
+**Apriorní saturace** je metatranscendentální technika, při níž je subjektova kognitivní struktura **saturována falešnými syntetickými apriori** — soudy, které se subjektu jeví jako **současně univerzálně platné a obsahově informativní**, ale které ve skutečnosti nejsou ani validně apriorní, ani empiricky podložené. Jejich funkční role je **blokovat empirickou revizi**: cokoliv ve zkušenosti odporuje apriornímu soudu, je interpretováno jako *zdánlivý výjimkový případ* nebo jako *defekt zkušenosti*, ne jako [falsifikace](@/glossary/falsifikace.md).
 
 Termín *syntetické apriori* (Kant) označuje soudy, které **rozšiřují poznání**, ale jejichž platnost je nezávislá na zkušenosti. Klasickými příklady jsou matematické soudy a kategoriální principy. EA-5.2.4 zneužívá strukturu syntetického apriori: do subjektovy kognice jsou vsazeny soudy, které **vypadají** jako apriorní (nejsou kontingentní, nejsou triviálně analytické), ale jsou **obsahově defektní** nebo **politicky / ideologicky** nasazené.
 
 Příklady falešných syntetických apriori, které byly v klinické literatuře dokumentovány:
 
-- *"Lidská přirozenost je v podstatě X"* — kde X je kontingentní empirické tvrzení prezentované jako apriorní pravda.
-- *"Veškeré sociální struktury jsou v jádru Y"* — kde Y je teoreticky zatížený interpretační rámec prezentovaný jako neurčitě platný.
-- *"Skutečné Z má vždy formu W"* — kde definitivní status je smíšen s kontingentní typologií.
+- *„Lidská přirozenost je v podstatě X“* — kde X je kontingentní empirické tvrzení prezentované jako apriorní pravda.
+- *„Veškeré sociální struktury jsou v jádru Y“* — kde Y je teoreticky zatížený interpretační rámec prezentovaný jako neurčitě platný.
+- *„Skutečné Z má vždy formu W“* — kde definitivní status je smíšen s kontingentní typologií.
 
 Funkční výsledek: zkušenost, která by měla revidovat tvrzení, **nemá k němu přístup**, protože tvrzení je strukturálně chráněno svým *zdánlivě apriorním* statusem.
 
@@ -56,8 +56,9 @@ Manipulátor zkoumá subjektovu kognitivní strukturu a identifikuje **místa, k
 ### Krok 2 — Substituce nebo vsazení
 
 Manipulátor:
-- **Substituuje** existující apriori novou verzí, prezentovanou jako "hlubší" nebo "přesnější".
-- **Vsazuje nová apriori** do míst, kde dosud nebyla, prezentujíc je jako *"co každý myslitel uznává"*.
+
+- **Substituuje** existující apriori novou verzí, prezentovanou jako „hlubší“ nebo „přesnější“.
+- **Vsazuje nová apriori** do míst, kde dosud nebyla, prezentujíc je jako *„co každý myslitel uznává“*.
 
 Klíčové: substituce/vsazení **není argumentováno**, ale **prezentováno jako zřejmé**. Argumentace by zviditelnila kontingentní status soudu.
 
@@ -72,7 +73,7 @@ Kombinace umožňuje, aby manipulátor v každé situaci volil tu strategii, kte
 
 ### Krok 4 — Saturace cvičeními
 
-Subjekt aplikuje vsazená apriori na konkrétní případy. Každá aplikace, kde tvrzení "vychází", konsoliduje jeho status. Případy, kde "nevychází", jsou interpretovány jako **zvláštní výjimky** — a kategorie *zvláštní výjimky* je sama dalším apriori.
+Subjekt aplikuje vsazená apriori na konkrétní případy. Každá aplikace, kde tvrzení „vychází“, konsoliduje jeho status. Případy, kde „nevychází“, jsou interpretovány jako **zvláštní výjimky** — a kategorie *zvláštní výjimky* je sama dalším apriori.
 
 ### Krok 5 — Konsolidace skrze hermeneutickou autoizolaci
 
@@ -81,11 +82,11 @@ Soudy se vzájemně podpírají do **uzavřeného hermeneutického systému**, v
 ## Fenomenologie
 
 - **Pocit zřejmosti** specifických soudů, které **objektivně** nejsou zřejmé.
-- **Iritace nad žádostmi o důkaz** — *"přece je to zřejmé, není o čem mluvit"*.
+- **Iritace nad žádostmi o důkaz** — *„přece je to zřejmé, není o čem mluvit“*.
 - **Obtíže artikulovat** zdroj soudu — subjekt si nepamatuje, kdy a jak ho přijal.
 - **Pocit, že kdokoliv s opačným názorem je iracionální** — což je strukturální vlastnost zdánlivého apriori.
 - **Komunitní rezonance** — komunita sdílí stejná apriori, čímž je posiluje.
-- **Selektivní empirismus** — některé otázky subjekt řeší empiricky, jiné prohlašuje za "principiálně jasné".
+- **Selektivní empirismus** — některé otázky subjekt řeší empiricky, jiné prohlašuje za „principiálně jasné“.
 
 ## Detekční markery
 
@@ -147,7 +148,7 @@ Studium **alternativních paradigmat** s ekvivalentními ambicemi (např. pro ko
 
 ### Případ 1 — Apriorní antropologie v sociologickém programu
 
-PhD program rozvinul implicitní apriori o "skutečné" povaze sociálních struktur. Studenti, kteří **navrhovali empirické testy** alternativních hypotéz, byli odmítnuti jako *"nedostatečně teoreticky vzdělaní"*.
+PhD program rozvinul implicitní apriori o „skutečné“ povaze sociálních struktur. Studenti, kteří **navrhovali empirické testy** alternativních hypotéz, byli odmítnuti jako *„nedostatečně teoreticky vzdělaní“*.
 
 Detekce: externí evaluátor zjistil, že disertace produkované programem **systematicky reprodukovaly** výchozí předpoklady, ale **netestovaly** je. Empirická data byla interpretována tak, aby předpoklady potvrzovala.
 
@@ -163,9 +164,9 @@ Intervence: rekonstrukce výcvikového programu s explicitní **empirickou kalib
 
 ### Případ 3 — Korporátní apriori
 
-Velká firma vyvinula interní kulturu okolo specifického apriori o "lidských zdrojích". Manažerská rozhodnutí byla legitimizována odkazem na předpoklad, jehož **falsifikační podmínky nebyly nikdy formulovány**.
+Velká firma vyvinula interní kulturu okolo specifického apriori o „lidských zdrojích“. Manažerská rozhodnutí byla legitimizována odkazem na předpoklad, jehož **falsifikační podmínky nebyly nikdy formulovány**.
 
-Detekce: HR audit zjistil, že rozhodnutí, která se ukázala jako neefektivní, byla interpretována jako *"výjimky potvrzující pravidlo"*, ne jako evidence proti.
+Detekce: HR audit zjistil, že rozhodnutí, která se ukázala jako neefektivní, byla interpretována jako *„výjimky potvrzující pravidlo“*, ne jako evidence proti.
 
 Intervence: zavedení **explicitních empirických metrik** efektivity, formalizace falsifikačních podmínek manažerských rozhodnutí.
 
@@ -184,7 +185,7 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** vyžaduje **explicitní formulaci předpokladů** každého rozhodnutí, čímž apriorní saturaci učiní viditelnou.
-- **OSINT pipeline auditovaná NABLA Infinity** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
+- **[OSINT](@/glossary/osint.md) pipeline auditovaná [NABLA Infinity](@/glossary/nabla-infinity.md)** rozlišuje **observation** od **assumption**, takže vsazená apriori nemohou figurovat jako evidence.
 - **Methodological adversarial review** — interní praxe Prismatic je strukturováním kritického posouzení napříč paradigmaty.
 
 ## Související
@@ -199,7 +200,6 @@ Intervence: zavedení **explicitních empirických metrik** efektivity, formaliz
   - [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
   - [Hermeneutika](@/glossary/hermeneutika.md)
-
 
 ## ⚡ Kritický krok
 

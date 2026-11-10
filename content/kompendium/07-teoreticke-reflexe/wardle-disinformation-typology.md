@@ -19,7 +19,7 @@ toc = true
 
 Claire Wardle — britská badatelka, zakladatelka organizace First Draft (a navazujícího Information Futures Lab) — formuluje v esejích a zprávách (zejména *Information Disorder*, 2017, s Hossein Derakhshanem) **strukturální typologii** dezinformačního ekosystému.
 
-Pro kompendium EA poskytuje Wardlové typologie nástroj pro **klasifikaci EA na informační úrovni** — strukturální mapping mediálních manipulací.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Wardlové typologie nástroj pro **klasifikaci EA na informační úrovni** — strukturální mapping mediálních manipulací.
 
 ## 1. Information disorder: tři kategorie
 
@@ -70,7 +70,7 @@ Každá fáze má **specifické** aktéry a **specifické** intervence:
 
 - **Creators**: profesionální dezinformátoři, vlády, ideologické skupiny
 - **Producers**: trolling armády, content farms, partisan media
-- **Distributors**: koordinované sítě, algoritmy, "užiteční idioti"
+- **Distributors**: koordinované sítě, algoritmy, „užiteční idioti“
 
 Pro EA z toho plyne:
 
@@ -135,17 +135,17 @@ Wardlové práce má **přímou** politickou aplikaci:
 
 Pro Prismatic má Wardlové typologie **specifickou** relevanci:
 
-- **OSINT analýza**: automatická klasifikace mediálního obsahu podle typů
+- **[OSINT](@/glossary/osint.md) analýza**: automatická klasifikace mediálního obsahu podle typů
 - **Color Teams**: simulace **adversariálních** dezinformačních strategií
 - **Detection algorithms**: granular detekce dezinformací
 
 ## 10. Primární literatura
 
 - Wardle, C. & Derakhshan, H. (2017). *Information Disorder: Toward an Interdisciplinary Framework for Research and Policy Making*. Council of Europe.
-- Wardle, C. (2017). "Fake News. It's Complicated.". First Draft.
-- Wardle, C. (2019). "Misinformation Has Created a New World Disorder". *Scientific American* 321.
+- Wardle, C. (2017). „Fake News. It's Complicated.“. First Draft.
+- Wardle, C. (2019). „Misinformation Has Created a New World Disorder“. *Scientific American* 321.
 - Marwick, A. & Lewis, R. (2017). *Media Manipulation and Disinformation Online*. Data & Society.
-- Wineburg, S. & McGrew, S. (2019). "Lateral Reading and the Nature of Expertise". *Teachers College Record* 121.
+- Wineburg, S. & McGrew, S. (2019). „Lateral Reading and the Nature of Expertise“. *Teachers College Record* 121.
 
 ## Související
 

@@ -23,7 +23,7 @@ Pravidelně mapovat své kognitivní a emocionální zkreslení, abyste věděli
 
 ### 1. Inventura biasů
 
-Sepište 20 nejznámějších biasů (confirmation, anchoring, availability...). Hodnoťte u sebe 1-10. Identifikujte top 5 vlastních.
+Sepište 20 nejznámějších biasů (confirmation, anchoring, availability…). Hodnoťte u sebe 1-10. Identifikujte top 5 vlastních.
 
 ### 2. Ranní přesvědčení
 

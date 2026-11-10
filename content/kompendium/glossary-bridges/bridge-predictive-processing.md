@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[predictive-processing](@/glossary/predictive-processing.md) — Predictive processing je teorie mozku jako prediktivního stroje, který neustále generuje hypotézy o příchozích stimulech a aktualizuje je podle prediction error. Vnímání není pasivní recepce, nýbrž aktivní inference; halucinace, iluze a delusiony jsou důsledkem chybné kalibrace prediktivního aparátu.
+[predictive-processing](@/glossary/predictive-processing.md) — Predictive processing je teorie mozku jako prediktivního stroje, který neustále generuje hypotézy o příchozích stimulech a aktualizuje je podle prediction error. Vnímání není pasivní recepce, nýbrž aktivní [inference](@/glossary/inference.md); halucinace, iluze a delusiony jsou důsledkem chybné kalibrace prediktivního aparátu.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

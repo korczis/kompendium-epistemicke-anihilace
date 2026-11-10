@@ -88,7 +88,7 @@ první střízlivý přehled ztrát.
   třeba se na něj ptát).
 - **S2 – Externalizace introjektů:** věty „systém je proti nám“, „slabé ruce prodávají“ jako
   jazyk komunity.
-- **S3 – Rekonstrukce metakognice:** učení se pravděpodobnostnímu uvažování a
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** učení se pravděpodobnostnímu uvažování a
   [falsifikačnímu myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md).
 - **S4 – Hermeneutická obnova:** nový výklad apokalyptického příběhu a vlastní touhy po
   jistotě v nejistém světě.

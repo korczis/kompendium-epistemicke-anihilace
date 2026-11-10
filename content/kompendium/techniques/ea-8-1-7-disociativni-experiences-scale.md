@@ -50,7 +50,7 @@ Carlson & Putnam (1993), Bernstein & Putnam (1986). N=10000+ napříč studiemi.
 
 ## Limitace
 
-False positive při PTSD bez DD, schizofrenii a v období intenzivního stresu. Self-report — pacienti s amnesií mohou nedohlédnout vlastní symptomy.
+False positive při PTSD bez DD, schizofrenii a v období intenzivního stresu. [Self-report](@/glossary/self-report.md) — pacienti s amnesií mohou nedohlédnout vlastní symptomy.
 
 ## Vztah k jiným zdrojům
 

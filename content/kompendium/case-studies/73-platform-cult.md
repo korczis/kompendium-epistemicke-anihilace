@@ -142,7 +142,7 @@ s prvky digitální hygieny:
   systému.
 - **S2 – Externalizace introjektů.** Oddělení věty „jsem tolik, kolik mám bodů“ od vlastního
   měřítka kvality; pojmenování, že metrika byla nástrojem firmy, ne objektivním soudem.
-- **S3 – Rekonstrukce metakognice.** Hodnocení vlastní práce podle kritérií, která lze ověřit
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Hodnocení vlastní práce podle kritérií, která lze ověřit
   bez platformy: funguje kód, chápe kolega vysvětlení, obstojí odpověď za rok?
   Souběžně [detoxikace feedu](@/kompendium/self-defense-guides/32-feed-detoxification.md)
   a vypnutí notifikací.

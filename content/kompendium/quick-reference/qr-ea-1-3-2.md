@@ -21,24 +21,24 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Identifikace evidence, která prima facie kontradikuje preferované pozici (data, citát, výsledek)
-2. Sémantický posun rámce — redefinice termínů, expanze kontextu, "to je vlastně o něčem jiném"; evidence zůstává, ale její relevance je převedena
-3. Konsolidace nového čtení skrze opakování v různých kanálech, dokud se nestane standardním výkladem ("samozřejmě tato studie podporuje X, jak je obecně známo")
+2. Sémantický posun rámce — redefinice termínů, expanze kontextu, „to je vlastně o něčem jiném“; evidence zůstává, ale její relevance je převedena
+3. Konsolidace nového čtení skrze opakování v různých kanálech, dokud se nestane standardním výkladem („samozřejmě tato studie podporuje X, jak je obecně známo“)
 
 ## Detekční markery (3 nejvýraznější)
 
 - Závěry studie/citátu jsou inkonzistentní s tím, co autor sám tvrdí jinde nebo v abstraktu
 - Reinterpretace se objevuje POSTÁ konfrontaci s evidencí, nikdy preventivně — sled (objevení evidence → modifikace výkladu) je sledovatelný
-- Subjekt se odmítá vrátit k původnímu zdroji ("není potřeba, vím, co tam je"); interpretační vrstva nahradila primární text
+- Subjekt se odmítá vrátit k původnímu zdroji („není potřeba, vím, co tam je“); interpretační vrstva nahradila primární text
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Mandát na primární zdroj — citace musí obsahovat link/stranu, čtenář si ověří, zda interpretace odpovídá originálu
 - Diachronní audit — porovnání, jak byla evidence interpretována PŘED a PO konfliktu; změna výkladu je signál
-- Konfrontace s autorem evidence — kde je to možné, dotaz "souhlasíte s tím, jak je vaše práce interpretována?"
+- Konfrontace s autorem evidence — kde je to možné, dotaz „souhlasíte s tím, jak je vaše práce interpretována?“
 
 ## Příklad
 
-Politik cituje statistiku "míra kriminality vzrostla o 30 %" v původní studii (kde celkový kriminální index klesl, ale jeden subkategorie vzrostla). Po několika opakováních se z "30% nárůst v subkategorii X" stane "30% nárůst kriminality" — autor původní studie se distancuje, ale výklad žije dál.
+Politik cituje statistiku „míra kriminality vzrostla o 30 %“ v původní studii (kde celkový kriminální index klesl, ale jeden subkategorie vzrostla). Po několika opakováních se z „30% nárůst v subkategorii X“ stane „30% nárůst kriminality“ — autor původní studie se distancuje, ale výklad žije dál.
 
 ## Cross-linky
 

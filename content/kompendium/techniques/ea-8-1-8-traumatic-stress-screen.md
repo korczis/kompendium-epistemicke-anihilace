@@ -50,11 +50,11 @@ PCL-5: Bovin et al. (2016), N=628 veteránů, sensitivity 95%, specificity 73%. 
 
 ## Limitace
 
-Self-report bias. Akutní stres (≤30 dní post-event) vyžaduje ASD-aligned nástroj místo PCL-5. Méně senzitivní pro CPTSD specifické symptomy.
+[Self-report](@/glossary/self-report.md) bias. Akutní stres (≤30 dní post-event) vyžaduje ASD-aligned nástroj místo PCL-5. Méně senzitivní pro CPTSD specifické symptomy.
 
 ## Vztah k jiným zdrojům
 
-Předpoklad nasazení **EA-8.2.7 DSM-5-TR Trauma** a **EA-8.2.6 ICD-11 Complex Trauma**. Komplementární s **EA-8.1.7 DES-II**.
+Předpoklad nasazení **EA-8.2.7 DSM-5-TR Trauma** a **EA-8.2.6 ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)**. Komplementární s **EA-8.1.7 DES-II**.
 
 ## Cross-linky
 

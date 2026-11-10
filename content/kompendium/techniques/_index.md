@@ -330,7 +330,6 @@ EA-7.\* a EA-8.\* materiály jsou primárně publikovány jako narativní člán
 - [Glossary: Taxonomie EA](@/glossary/taxonomie-ea.md)
 - [Glossary](@/glossary/_index.md)
 
-
 ## ⚡ Kritický krok
 
 **Před aplikací této techniky** (i v rámci diagnostiky) ověř:

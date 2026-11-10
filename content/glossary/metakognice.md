@@ -8,7 +8,7 @@ description = "Schopnost přemýšlet o vlastním přemýšlení — monitorovat
 tags = ["glossary", "epistemic", "cognitive", "metacognition"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["metakognitivni-destrukce", "epistemicka-anihilace", "kognitivni-bias", "fenomenologie", "kognitivni-anihilace", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -39,9 +39,9 @@ Within the Prismatic Platform, metacognition is treated as a **first-class syste
 
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} implements **explicit metacognitive scaffolding**: every high-stakes decision must register predictions, falsification clauses, source-diversity assessments, and confidence calibration. The platform compels metacognitive operations that human reflection often skips.
 - The {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }} measures the subject's metacognitive accuracy directly: do their confidence reports track their actual reliability? Systematic over- or under-confidence is metacognitive miscalibration, detectable independently of content-level error.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) treats metacognitive observations as their own evidence stream — separate from object-level beliefs, with their own provenance ledger. Subjects can revise object-level beliefs without losing the metacognitive history that revealed the need for revision; this prevents EA techniques from rewriting "why I changed my mind".
+- [NABLA Infinity](@/glossary/nabla-infinity.md) treats metacognitive observations as their own evidence stream — separate from object-level beliefs, with their own provenance ledger. Subjects can revise object-level beliefs without losing the metacognitive history that revealed the need for revision; this prevents EA techniques from rewriting “why I changed my mind”.
 - The [3NL architecture](@/glossary/3nl.md) (Logic + Neural + Linguistic) is itself a metacognitive structure at the platform level: each layer monitors the others, no single layer can fail silently.
-- The [Color Teams](@/glossary/color-teams.md) Red Team explicitly tests metacognitive resilience — under adversarial conditions, can platform users still notice their own confidence shifts, source-diversity drops, and calibration drift? Czech-language treatment: [/kompendium/04-mechanismy/metakognice/](@/kompendium/03-zakladni-kategorie/metakognice.md).
+- The [Color Teams](@/glossary/color-teams.md) [Red Team](@/glossary/red-team.md) explicitly tests metacognitive resilience — under adversarial conditions, can platform users still notice their own confidence shifts, source-diversity drops, and calibration drift? Czech-language treatment: [/kompendium/04-mechanismy/metakognice/](@/kompendium/03-zakladni-kategorie/metakognice.md).
 
 The platform's design rests on a structural insight from the kompendium: **metacognition cannot be reliably maintained by individual will alone under sustained adversarial pressure**. Tools, scaffolding, calibration loops, and cross-checking are not crutches — they are how metacognition stays operational when human reflection is the very thing under attack. See [fenomenologie](@/glossary/fenomenologie.md) for the first-person dimension and [kognitivní bias](@/glossary/kognitivni-bias.md) for what unattended metacognition fails to catch.
 

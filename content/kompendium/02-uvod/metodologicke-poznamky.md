@@ -33,13 +33,13 @@ Každá taxonomická jednotka (technika) musí být **strukturálně distinktivn
 > - Falešné dilema vyžaduje **artificiální polarizaci** (binární redukce kontinua)
 > - Falešná ekvivalence vyžaduje **artificiální symetrii** (vyrovnání asymetrických entit)
 >
-> Povrchově obojí "uměle deformuje strukturu volby", ale mechanismy jsou odlišné.
+> Povrchově obojí „uměle deformuje strukturu volby“, ale mechanismy jsou odlišné.
 
 ### Princip kompoziční úplnosti
 
 Taxonomie musí být **kompozičně úplná** — komplexní techniky lze popsat jako kombinaci základních jednotek; obráceně, ze základních jednotek lze rekonstruovat komplexní techniky.
 
-> **Příklad**: *Vzorec "Guru a adept"* (EA-1.6.1) je kompozicí:
+> **Příklad**: *Vzorec „Guru a adept“* (EA-1.6.1) je kompozicí:
 > - EA-1.5.2 (dominantní tělesné hieroglyfy)
 > - EA-1.4.1 (prosodická dominance)
 > - EA-1.3.3 (tematická diverze při kritice)
@@ -48,7 +48,7 @@ Taxonomie musí být **kompozičně úplná** — komplexní techniky lze popsat
 
 ### Princip operační specifikace
 
-Každá technika musí mít **explicitní operační modus** — popis mechanismu na úrovni umožňující detekci a neutralizaci. Pouhý fenomenologický popis ("subjekt cítí zmatek") neposkytuje operační oporu pro klasifikaci ani intervenci.
+Každá technika musí mít **explicitní operační modus** — popis mechanismu na úrovni umožňující detekci a neutralizaci. Pouhý fenomenologický popis („subjekt cítí zmatek“) neposkytuje operační oporu pro klasifikaci ani intervenci.
 
 ### Princip fenomenologické validace
 
@@ -123,7 +123,7 @@ Vzhledem k subjektivní povaze epistemických zážitků byla taxonomie významn
 
 - **Eidetickou redukci** — proces identifikace esenciálních struktur epistemických zkušeností
 - **Fenomenologickou deskripci** — detailní popis kvalitativních aspektů epistemické zkušenosti
-- **Epoché** — pozastavení předpokladů a teoretických prekoncepcí pro přímý přístup k fenoménům
+- **[Epoché](@/glossary/epoche.md)** — pozastavení předpokladů a teoretických prekoncepcí pro přímý přístup k fenoménům
 - **Intersubjektivní validaci** — ověření fenomenologických popisů prostřednictvím konsenzu multiple pozorovatelů
 
 Tato metodologie umožňuje zachytit kvalitativní a subjektivní aspekty epistemických fenoménů, které by mohly být reduktivními přístupy přehlédnuty.
@@ -210,7 +210,7 @@ Konstrukce taxonomie epistemické a kognitivní anihilace představovala několi
 
 - **Retrospektivní case studies** — analýza dokumentovaných historických případů
 - **Naturalistická observace** — klinické případy bez experimentální indukce
-- **Strukturální analýza** dokumentovaných systémů (totalitní propaganda, sektářské skupiny)
+- **Strukturální analýza** dokumentovaných systémů (totalitní [propaganda](@/glossary/propaganda.md), sektářské skupiny)
 - **Computer simulation** — modelování dynamiky bez lidských subjektů
 - **Etnografická metoda** — rozhovory s ex-členy manipulativních skupin
 
@@ -328,7 +328,7 @@ Každý specifický fenomén v taxonomii je identifikován prostřednictvím pri
 
 Kde:
 
-- **EA** — označuje "epistemická anihilace" (pro fenomény kognitivní anihilace se používá "KA")
+- **EA** — označuje „epistemická anihilace“ (pro fenomény kognitivní anihilace se používá „KA“)
 - **X** — numerický identifikátor primární kategorie (1-5, odpovídající pěti hlavním částem)
 - **Y** — numerický identifikátor subkategorie v rámci dané kategorie
 - **Z** — numerický identifikátor specifického fenoménu v rámci subkategorie
@@ -384,7 +384,7 @@ Taxonomie nevyhnutelně reflektuje současný stav poznání a je limitována ex
 
 - **Limitovaná empirická báze** pro některé postulované fenomény, zejména v jejich vzácnějších a extrémnějších formách
 - **Nerovnoměrná hloubka porozumění** různým aspektům epistemické anihilace napříč disciplínami
-- **Potenciální "bílá místa"** reprezentující dosud neidentifikované nebo nekonceptualizované fenomény
+- **Potenciální „bílá místa“** reprezentující dosud neidentifikované nebo nekonceptualizované fenomény
 - **Reflexivní limitace** vyplývající z neschopnosti plně transcendovat vlastní epistemické předpoklady
 
 ### Metodologické trade-offs
@@ -473,7 +473,7 @@ Aktuální verze: **v0.1.0** (počáteční publikace, taxonomie v aktivní expa
 
 ## Vztah k Prismatic Decision Engine
 
-Metodologické principy popsané v této kapitole slouží jako vstupní specifikace pro algoritmickou implementaci v rámci Prismatic Decision Engine. Notační systém `EA-X.Y.Z-α` je strojově parsovatelný a umožňuje:
+Metodologické principy popsané v této kapitole slouží jako vstupní specifikace pro algoritmickou implementaci v rámci Prismatic [Decision Engine](@/glossary/decision-engine.md). Notační systém `EA-X.Y.Z-α` je strojově parsovatelný a umožňuje:
 
 - **Automatizovanou klasifikaci** vstupních fenoménů
 - **Strukturní porovnání** případů napříč klasifikačním stromem
@@ -506,7 +506,6 @@ Taxonomie **není** dokončený artefakt — je **živý systém**. Klíčové o
 - [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
 - [Glosář: Epistemic Pipeline](@/glossary/epistemic-pipeline.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

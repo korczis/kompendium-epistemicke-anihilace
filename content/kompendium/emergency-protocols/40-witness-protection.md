@@ -20,7 +20,7 @@ toc = true
 
 ## 1. Klinická situace
 
-EA-survivor svědčící proti high-control group, organized crime, nebo mocní jednotlivci — witness protection setting komplikuje běžnou EA-recovery péči. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **EA-survivor v witness protection programu** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
+EA-survivor svědčící proti [high-control group](@/glossary/high-control-group.md), organized crime, nebo mocní jednotlivci — witness protection setting komplikuje běžnou EA-recovery péči. Tento protokol je určen pro **kvalifikovaný klinický personál** (psychiatr, psycholog, krizový pracovník) a předpokládá schopnost provést iniciální triáž, [diferenciální diagnostiku](@/glossary/disociace.md) a koordinaci péče. Kontext **EA-survivor v witness protection programu** vyžaduje specifické porozumění dynamice [epistemické anihilace](@/glossary/epistemicka-anihilace.md), [betrayal trauma](@/glossary/betrayal-trauma.md) a možného [iatrogenic harm](@/glossary/iatrogenic-harm.md) z předchozích léčebných intervencí.
 
 > **Epistemický status**: Protokol integruje evidence-based postupy (Stanley-Brown Safety Plan, polyvagal theory, DBT crisis skills) s klinickou zkušeností v práci s EA-survivors.
 
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

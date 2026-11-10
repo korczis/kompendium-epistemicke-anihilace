@@ -7,7 +7,7 @@ description = "Multi-source correlation and confidence scoring for intelligence 
 tags = ["glossary", "osint", "intelligence-fusion", "prismatic"]
 
 [extra]
-category = "osint"
+category = "bezpečnost a zpravodajství"
 related_terms = ["osint", "signal-plurality", "nabla-infinity", "threat-intelligence", "entity-resolution", "sanctions-screening", "confidence-threshold"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -23,11 +23,11 @@ image_alt = "Intelligence Fusion - Prismatic Platform"
 
 ## Definition
 
-Intelligence Fusion is the analytical discipline of correlating information from multiple independent sources, assigning confidence scores based on source reliability and corroboration strength, resolving contradictions through structured methodology, and producing unified intelligence products that represent the best available understanding of a subject. Unlike simple data aggregation (combining all available information into a single view), fusion applies structured analytical techniques that weigh evidence quality, assess source independence, track information provenance, and explicitly handle conflicting signals -- producing intelligence products where the whole is demonstrably greater than the sum of its parts.
+Intelligence Fusion is the analytical discipline of correlating information from multiple independent sources, assigning confidence scores based on source reliability and corroboration strength, resolving contradictions through structured methodology, and producing unified intelligence products that represent the best available understanding of a subject. Unlike simple data aggregation (combining all available information into a single view), fusion applies structured analytical techniques that weigh evidence quality, assess source independence, track information provenance, and explicitly handle conflicting signals — producing intelligence products where the whole is demonstrably greater than the sum of its parts.
 
-The fusion process operates on a fundamental premise: no single source provides a complete or perfectly reliable picture of any subject. Every data source has inherent biases, coverage gaps, temporal limitations, and error rates. Intelligence fusion compensates for these individual weaknesses through source diversity, requiring that conclusions be supported by converging evidence from independent collection methods. A domain's association with a suspicious IP address observed by Shodan carries moderate confidence; when corroborated by anomalous certificate patterns from Censys and behavioral indicators from GreyNoise, the confidence in malicious association increases substantially.
+The fusion process operates on a fundamental premise: no single source provides a complete or perfectly reliable picture of any subject. Every data source has inherent biases, coverage gaps, temporal limitations, and error rates. Intelligence fusion compensates for these individual weaknesses through source diversity, requiring that conclusions be supported by converging evidence from independent collection methods. A domain's association with a suspicious IP address observed by [Shodan](@/glossary/shodan.md) carries moderate confidence; when corroborated by anomalous certificate patterns from [Censys](@/glossary/censys.md) and behavioral indicators from [GreyNoise](@/glossary/greynoise.md), the confidence in malicious association increases substantially.
 
-The discipline has deep roots in military and national intelligence analysis, where the fusion of signals intelligence (SIGINT), human intelligence (HUMINT), imagery intelligence (IMINT), and open source intelligence (OSINT) has been practiced for decades. In the cybersecurity domain, intelligence fusion applies similar principles to correlate network telemetry, threat feeds, vulnerability data, asset inventories, and behavioral analytics into actionable security intelligence. The structured analytical techniques used -- Analysis of Competing Hypotheses, Structured Analytic Techniques, Bayesian updating -- ensure that fusion outputs are rigorous, transparent, and auditable.
+The discipline has deep roots in military and national intelligence analysis, where the fusion of signals intelligence (SIGINT), human intelligence (HUMINT), imagery intelligence (IMINT), and open source intelligence (OSINT) has been practiced for decades. In the cybersecurity domain, intelligence fusion applies similar principles to correlate network telemetry, threat feeds, vulnerability data, asset inventories, and behavioral analytics into actionable security intelligence. The structured analytical techniques used — Analysis of Competing Hypotheses, Structured Analytic Techniques, Bayesian updating — ensure that fusion outputs are rigorous, transparent, and auditable.
 
 ## Overview
 
@@ -230,15 +230,15 @@ end
 
 ## Best Practices
 
-1. **Enforce Source Plurality**: Never form intelligence assessments from a single source. The NABLA Signal Plurality axiom exists because single-source conclusions are inherently fragile -- subject to source errors, biases, and blind spots. Require minimum two independent sources for any actionable intelligence product.
+1. **Enforce Source Plurality**: Never form intelligence assessments from a single source. The NABLA Signal Plurality axiom exists because single-source conclusions are inherently fragile — subject to source errors, biases, and blind spots. Require minimum two independent sources for any actionable intelligence product.
 
-2. **Preserve Contradictions**: When sources disagree, preserve both positions with their respective confidence scores and temporal context. Silently discarding contradictory evidence (the "cherry picking" anti-pattern) produces intelligence products that appear more certain than the evidence warrants, leading to overconfident decisions.
+2. **Preserve Contradictions**: When sources disagree, preserve both positions with their respective confidence scores and temporal context. Silently discarding contradictory evidence (the “cherry picking” anti-pattern) produces intelligence products that appear more certain than the evidence warrants, leading to overconfident decisions.
 
 3. **Track Provenance End-to-End**: Every claim in a fused intelligence product must be traceable to its originating source(s), collection method, and observation time. Provenance tracking enables consumers to assess intelligence quality and enables analysts to investigate when fused products prove incorrect.
 
 4. **Apply Time Decay**: Intelligence degrades over time. Infrastructure changes, threats evolve, and organizational relationships shift. Apply configurable time decay to source observations, reducing confidence as observations age without reconfirmation.
 
-5. **Calibrate Confidence Thresholds**: Match confidence requirements to decision criticality. Critical decisions (security ratings, compliance assessments) require 0.95 confidence with Trinity Gate verification. Exploratory analysis can proceed with 0.60 confidence. Mismatched thresholds cause either analysis paralysis or premature action.
+5. **Calibrate Confidence Thresholds**: Match confidence requirements to decision criticality. Critical decisions (security ratings, compliance assessments) require 0.95 confidence with [Trinity Gate](@/glossary/trinity-gate.md) verification. Exploratory analysis can proceed with 0.60 confidence. Mismatched thresholds cause either analysis paralysis or premature action.
 
 6. **Diversify Collection Methods**: Source independence requires method independence. Two sources that ultimately derive their data from the same collection infrastructure do not provide genuine corroboration. Map source dependencies to identify hidden single points of failure in the collection architecture.
 
@@ -248,7 +248,7 @@ end
 
 - **Security Rating Computation**: Prismatic Perimeter security ratings (A-F) are computed through fusion of multiple security signal categories, with each contributing factor confidence-weighted and provenance-tracked per NABLA requirements.
 
-- **Sanctions Screening**: Entity names from business records are fused with sanctions lists, adverse media, and politically exposed person (PEP) databases. Fuzzy entity matching across languages and transliterations requires fusion to resolve identity ambiguity.
+- **[Sanctions Screening](@/glossary/sanctions-screening.md)**: Entity names from business records are fused with sanctions lists, adverse media, and politically exposed person (PEP) databases. Fuzzy entity matching across languages and transliterations requires fusion to resolve identity ambiguity.
 
 - **Threat Actor Attribution**: Behavioral patterns, infrastructure indicators, and tactical signatures from multiple monitoring points are fused to attribute malicious activity to threat groups or campaigns.
 

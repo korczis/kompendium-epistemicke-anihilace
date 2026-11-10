@@ -7,7 +7,7 @@ description = "Comprehensive exploration of technology paradigm shifts with deep
 tags = ["glossary", "core", "paradigm", "functional-programming", "otp", "beam", "erlang", "elixir", "concurrency", "distributed-systems", "architecture", "evolution"]
 
 [extra]
-category = "core"
+category = "architektura platformy"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "19 min"
@@ -32,7 +32,7 @@ image_alt = "Paradigm Shift - Prismatic Platform"
 
 ## Definition
 
-A paradigm shift is a fundamental change in the underlying assumptions, methods, and frameworks through which a discipline understands and approaches its domain. The term originates from Thomas Kuhn's 1962 work "The Structure of Scientific Revolutions," where he argued that scientific progress is not a smooth, continuous accumulation of knowledge but rather a series of revolutionary ruptures -- paradigm shifts -- in which the entire conceptual framework of a field is replaced by a new one that is incommensurable with its predecessor.
+A paradigm shift is a fundamental change in the underlying assumptions, methods, and frameworks through which a discipline understands and approaches its domain. The term originates from Thomas Kuhn's 1962 work “The Structure of Scientific Revolutions,” where he argued that scientific progress is not a smooth, continuous accumulation of knowledge but rather a series of revolutionary ruptures — paradigm shifts — in which the entire conceptual framework of a field is replaced by a new one that is incommensurable with its predecessor.
 
 In software engineering, paradigm shifts manifest as fundamental changes in how we conceptualize computation, structure programs, manage state, handle concurrency, and reason about system behavior. These shifts are not merely new tools or libraries but new ways of thinking that render previous approaches not just obsolete but conceptually inadequate. The shift from procedural to object-oriented programming was not about adding classes to C; it was about reconceptualizing programs as collections of collaborating objects rather than sequences of instructions. Similarly, the shift to functional programming is not about adding lambda expressions to Java; it is about reconceptualizing computation as the evaluation of mathematical functions rather than the mutation of state.
 
@@ -42,27 +42,27 @@ Kuhn identified a recurring pattern in scientific revolutions that maps surprisi
 
 ### Normal Science (Normal Engineering)
 
-During periods of "normal science," practitioners work within an established paradigm, solving puzzles that the paradigm defines and provides tools to address. In software engineering, this corresponds to periods of incremental improvement within an established technology stack -- new frameworks for the same paradigm, better tooling for the same languages, optimization of existing patterns.
+During periods of “normal science,” practitioners work within an established paradigm, solving puzzles that the paradigm defines and provides tools to address. In software engineering, this corresponds to periods of incremental improvement within an established technology stack — new frameworks for the same paradigm, better tooling for the same languages, optimization of existing patterns.
 
-The object-oriented paradigm dominated "normal engineering" from the 1990s through the 2010s. During this period, the fundamental assumptions were stable: programs are organized as class hierarchies, state is encapsulated in objects, concurrency is managed through shared memory with locks, and design patterns provide templates for common problems.
+The object-oriented paradigm dominated “normal engineering” from the 1990s through the 2010s. During this period, the fundamental assumptions were stable: programs are organized as class hierarchies, state is encapsulated in objects, concurrency is managed through shared memory with locks, and design patterns provide templates for common problems.
 
 ### Anomalies
 
 Anomalies are problems that the current paradigm cannot adequately solve. They accumulate over time, creating growing tension between the paradigm's promises and its actual capabilities. In the object-oriented paradigm, anomalies accumulated around concurrency (shared mutable state + threads = race conditions), distribution (objects assume shared memory, but distributed systems do not have it), and complexity (deep class hierarchies become rigid and difficult to reason about).
 
-The "callback hell" of Node.js, the "synchronized everything" approach of Java concurrent programming, and the explosion of Gang of Four design patterns (many of which work around limitations of the paradigm rather than expressing natural solutions) are all anomalies that signaled the limits of the object-oriented paradigm for modern system requirements.
+The “callback hell” of Node.js, the “synchronized everything” approach of Java concurrent programming, and the explosion of Gang of Four design patterns (many of which work around limitations of the paradigm rather than expressing natural solutions) are all anomalies that signaled the limits of the object-oriented paradigm for modern system requirements.
 
 ### Crisis and Revolution
 
 When anomalies become too numerous or too severe to ignore, the paradigm enters crisis. Alternative paradigms, previously dismissed as academic curiosities, gain traction as practitioners seek better solutions to the problems the old paradigm cannot solve.
 
-The concurrent programming crisis of the 2010s -- driven by the end of single-core performance scaling and the rise of distributed systems -- created the conditions for a paradigm shift toward functional programming, immutable data structures, and process-oriented concurrency models. The BEAM virtual machine and its OTP framework, originally designed for telecom switching systems in the 1980s, found new relevance as the paradigm that had already solved the problems the rest of the industry was just discovering.
+The concurrent programming crisis of the 2010s — driven by the end of single-core performance scaling and the rise of distributed systems — created the conditions for a paradigm shift toward functional programming, immutable data structures, and process-oriented concurrency models. The BEAM virtual machine and its OTP framework, originally designed for telecom switching systems in the 1980s, found new relevance as the paradigm that had already solved the problems the rest of the industry was just discovering.
 
 ## Major Paradigm Shifts in Software Engineering
 
 ### Unstructured to Structured Programming (1960s-1970s)
 
-The elimination of GOTO statements and the adoption of structured control flow (if/else, while, for) represented the first major paradigm shift in programming. Edsger Dijkstra's 1968 letter "Go To Statement Considered Harmful" articulated the theoretical basis, and languages like Pascal and C embodied the new paradigm.
+The elimination of GOTO statements and the adoption of structured control flow (if/else, while, for) represented the first major paradigm shift in programming. Edsger Dijkstra's 1968 letter “Go To Statement Considered Harmful” articulated the theoretical basis, and languages like Pascal and C embodied the new paradigm.
 
 ### Procedural to Object-Oriented (1980s-1990s)
 
@@ -70,11 +70,11 @@ The shift from procedures operating on data structures to objects encapsulating 
 
 ### Sequential to Concurrent (2000s-2010s)
 
-The end of Moore's Law for single-core performance forced a shift from sequential to concurrent programming. Multi-core processors became ubiquitous, but the dominant paradigm's tools for concurrency -- threads and locks -- were demonstrably inadequate for building reliable concurrent systems. This crisis drove adoption of alternative concurrency models: actors (Erlang/Elixir), communicating sequential processes (Go), software transactional memory (Clojure), and async/await (JavaScript, Rust, Python).
+The end of Moore's Law for single-core performance forced a shift from sequential to concurrent programming. Multi-core processors became ubiquitous, but the dominant paradigm's tools for concurrency — threads and locks — were demonstrably inadequate for building reliable concurrent systems. This crisis drove adoption of alternative concurrency models: actors (Erlang/Elixir), communicating sequential processes (Go), software transactional memory (Clojure), and async/await (JavaScript, Rust, Python).
 
 ### Imperative to Functional (2010s-2020s)
 
-The functional programming paradigm shift replaces mutable state with immutable data, side effects with pure functions, and imperative control flow with declarative transformations. This shift is still ongoing -- most mainstream languages have adopted functional features (lambdas, map/filter/reduce, pattern matching) without fully abandoning their imperative foundations.
+The functional programming paradigm shift replaces mutable state with immutable data, side effects with pure functions, and imperative control flow with declarative transformations. This shift is still ongoing — most mainstream languages have adopted functional features (lambdas, map/filter/reduce, pattern matching) without fully abandoning their imperative foundations.
 
 ### Monolithic to Distributed (2010s-present)
 
@@ -82,13 +82,13 @@ The shift from monolithic applications to distributed systems (microservices, ev
 
 ## The OTP/BEAM Paradigm
 
-The BEAM virtual machine and OTP framework represent a paradigm that is distinct from both the object-oriented and the purely functional paradigms. The BEAM paradigm's fundamental unit is the process -- a lightweight, isolated unit of computation that communicates exclusively through message passing.
+The BEAM virtual machine and OTP framework represent a paradigm that is distinct from both the object-oriented and the purely functional paradigms. The BEAM paradigm's fundamental unit is the process — a lightweight, isolated unit of computation that communicates exclusively through message passing.
 
 ### Process-Oriented Thinking
 
-In the BEAM paradigm, every stateful entity is a process. A user session is a process. A database connection is a process. A cache entry might be a process. This is not an optimization technique or a design pattern -- it is the fundamental organizing principle of all BEAM programs.
+In the BEAM paradigm, every stateful entity is a process. A user session is a process. A database connection is a process. A cache entry might be a process. This is not an optimization technique or a design pattern — it is the fundamental organizing principle of all BEAM programs.
 
-This process orientation resolves the tension between functional purity and stateful computation. Individual functions within a process are pure -- they take inputs and produce outputs without side effects. State is managed at the process level through recursive message loops (GenServer), creating a clean separation between pure computation and stateful interaction.
+This process orientation resolves the tension between functional purity and stateful computation. Individual functions within a process are pure — they take inputs and produce outputs without side effects. State is managed at the process level through recursive message loops (GenServer), creating a clean separation between pure computation and stateful interaction.
 
 ```elixir
 defmodule Prismatic.ParadigmExample.SessionProcess do
@@ -197,33 +197,33 @@ end
 
 ### Let It Crash Philosophy
 
-Perhaps the most paradigm-shifting aspect of OTP is the "let it crash" philosophy. In the object-oriented paradigm, error handling is defensive -- code wraps operations in try/catch blocks, checks return values, and attempts to recover from every possible failure. In the BEAM paradigm, processes are expected to crash when they encounter unexpected conditions, and supervisors automatically restart them in a known good state.
+Perhaps the most paradigm-shifting aspect of OTP is the “let it crash” philosophy. In the object-oriented paradigm, error handling is defensive — code wraps operations in try/catch blocks, checks return values, and attempts to recover from every possible failure. In the BEAM paradigm, processes are expected to crash when they encounter unexpected conditions, and supervisors automatically restart them in a known good state.
 
 This is not negligence; it is a deliberate design decision based on the observation that most error recovery code is itself buggy (it handles cases the programmer anticipated, but the bugs that crash systems are by definition unanticipated). By separating the concern of error recovery (supervision) from business logic (worker processes), OTP achieves fault tolerance that is both more robust and simpler to reason about than defensive programming.
 
 ### Supervision as Architecture
 
-In the BEAM paradigm, the [supervision tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) is not an implementation detail -- it is the architecture. The structure of the supervision tree determines the failure domains of the system, the order of initialization, and the recovery strategy for each component. Designing a BEAM application starts with designing its supervision tree, not its class hierarchy or its module structure.
+In the BEAM paradigm, the [supervision tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) is not an implementation detail — it is the architecture. The structure of the supervision tree determines the failure domains of the system, the order of initialization, and the recovery strategy for each component. Designing a BEAM application starts with designing its supervision tree, not its class hierarchy or its module structure.
 
-The Prismatic Platform's 115-application umbrella is organized as a hierarchy of supervisors, with each application contributing its supervision subtree to the platform's overall supervision tree. This structure ensures that a failure in one application (say, an OSINT adapter encountering an unexpected API response) is isolated to that application's supervision subtree and does not affect the rest of the platform.
+The Prismatic Platform's 115-application umbrella is organized as a hierarchy of supervisors, with each application contributing its supervision subtree to the platform's overall supervision tree. This structure ensures that a failure in one application (say, an [OSINT](@/glossary/osint.md) adapter encountering an unexpected API response) is isolated to that application's supervision subtree and does not affect the rest of the platform.
 
 ## Recognizing Paradigm Lock-In
 
-One of the most insidious effects of paradigm thinking is paradigm lock-in -- the inability to see solutions outside the current paradigm's conceptual framework. Developers trained in object-oriented programming often write "object-oriented Elixir" -- creating GenServers that mirror class hierarchies, using processes as objects, and fighting the language's functional nature rather than embracing it.
+One of the most insidious effects of paradigm thinking is paradigm lock-in — the inability to see solutions outside the current paradigm's conceptual framework. Developers trained in object-oriented programming often write “object-oriented Elixir” — creating GenServers that mirror class hierarchies, using processes as objects, and fighting the language's functional nature rather than embracing it.
 
 Signs of paradigm lock-in include: using GenServers for stateless operations (a function would suffice), creating deep process hierarchies that mirror class inheritance, reaching for mutable state (ETS, process dictionary) when immutable data structures would be simpler, and implementing design patterns from OOP that have no equivalent need in functional programming (most Gang of Four patterns solve problems that do not exist in functional languages).
 
-The Prismatic Platform's meta-rule -- "If the same solution could be written identically in Node.js, it is WRONG" -- is a heuristic for detecting paradigm lock-in. Code that does not leverage the BEAM's unique capabilities (process isolation, supervision, pattern matching, immutable data) is code that has not completed the paradigm shift.
+The Prismatic Platform's meta-rule — “If the same solution could be written identically in Node.js, it is WRONG” — is a heuristic for detecting paradigm lock-in. Code that does not leverage the BEAM's unique capabilities (process isolation, supervision, pattern matching, immutable data) is code that has not completed the paradigm shift.
 
 ## The Functional Programming Shift in Detail
 
 The functional programming paradigm shift involves several interconnected conceptual changes.
 
-**Immutability** eliminates an entire category of bugs -- race conditions, unexpected mutations, stale references -- by making data structures unchangeable after creation. In Elixir, all data is immutable. Operations that appear to modify a data structure (like `Map.put/3`) actually create a new data structure, with the runtime efficiently sharing unchanged portions through structural sharing.
+**Immutability** eliminates an entire category of bugs — race conditions, unexpected mutations, stale references — by making data structures unchangeable after creation. In Elixir, all data is immutable. Operations that appear to modify a data structure (like `Map.put/3`) actually create a new data structure, with the runtime efficiently sharing unchanged portions through structural sharing.
 
 **Pattern matching** replaces conditional branching with declarative data decomposition. Instead of checking conditions and extracting values imperatively, functions declare the shape of data they expect and the runtime dispatches to the appropriate function clause.
 
-**Pipelines** replace nested function calls with linear data transformation chains. The pipe operator (`|>`) in Elixir makes the flow of data through transformations explicit and readable, replacing the "inside-out" reading order of nested calls with a "top-to-bottom" flow.
+**Pipelines** replace nested function calls with linear data transformation chains. The pipe operator (`|>`) in Elixir makes the flow of data through transformations explicit and readable, replacing the “inside-out” reading order of nested calls with a “top-to-bottom” flow.
 
 **Algebraic data types** (tagged tuples in Elixir, like `{:ok, value}` and `{:error, reason}`) replace exceptions for expected failure cases, making error handling explicit in function signatures rather than implicit in try/catch blocks.
 
@@ -235,7 +235,7 @@ The Prismatic Platform embodies multiple paradigm shifts simultaneously.
 
 **From REST to real-time**: Phoenix LiveView shifts web application architecture from request-response cycles to persistent WebSocket connections with server-rendered updates, eliminating the need for separate frontend applications for interactive features.
 
-**From manual to autonomous**: The platform's autoevolve and autoheal infrastructure shifts quality management from manual code review to autonomous, continuous quality enforcement that detects and corrects issues without human intervention.
+**From manual to autonomous**: The platform's [autoevolve](@/glossary/autoevolve.md) and [autoheal](@/glossary/autoheal.md) infrastructure shifts quality management from manual code review to autonomous, continuous quality enforcement that detects and corrects issues without human intervention.
 
 **From static to adaptive**: The SEADF framework and Quality Floor Guardian shift system operation from static configurations to adaptive systems that measure their own behavior and evolve their own quality standards.
 
@@ -259,18 +259,18 @@ The Prismatic Platform avoids this trap through rigorous enforcement of paradigm
 
 ## Cross-References
 
-- [BEAM VM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam-vm/) -- The virtual machine underlying the OTP paradigm
-- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) -- Bogdan/Bjorn's Erlang Abstract Machine
-- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) -- The framework that defines the BEAM paradigm
-- [Erlang](https://prismatic-reality-com.github.io/prismatic-promo/glossary/erlang/) -- The original BEAM paradigm language
-- [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) -- Modern language bringing the BEAM paradigm to new audiences
-- [Functional Programming Language](https://prismatic-reality-com.github.io/prismatic-promo/glossary/functional-programming-language/) -- The broader functional paradigm
-- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) -- The concurrency model underlying BEAM processes
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- The primary abstraction for stateful processes
-- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) -- Architecture as process hierarchy
-- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) -- OTP abstractions for common patterns
-- [Architectural Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/architectural-pattern/) -- Patterns within and across paradigms
-- [Autonomous Evolution](https://prismatic-reality-com.github.io/prismatic-promo/glossary/autonomous-evolution/) -- The paradigm shift toward self-improving systems
+- [BEAM VM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam-vm/) — The virtual machine underlying the OTP paradigm
+- [BEAM](https://prismatic-reality-com.github.io/prismatic-promo/glossary/beam/) — Bogdan/Bjorn's Erlang Abstract Machine
+- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) — The framework that defines the BEAM paradigm
+- [Erlang](https://prismatic-reality-com.github.io/prismatic-promo/glossary/erlang/) — The original BEAM paradigm language
+- [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) — Modern language bringing the BEAM paradigm to new audiences
+- [Functional Programming Language](https://prismatic-reality-com.github.io/prismatic-promo/glossary/functional-programming-language/) — The broader functional paradigm
+- [Actor Model](https://prismatic-reality-com.github.io/prismatic-promo/glossary/actor-model/) — The concurrency model underlying BEAM processes
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) — The primary abstraction for stateful processes
+- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) — Architecture as process hierarchy
+- [Behaviour](https://prismatic-reality-com.github.io/prismatic-promo/glossary/behaviour/) — OTP abstractions for common patterns
+- [Architectural Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/architectural-pattern/) — Patterns within and across paradigms
+- [Autonomous Evolution](https://prismatic-reality-com.github.io/prismatic-promo/glossary/autonomous-evolution/) — The paradigm shift toward self-improving systems
 
 ---
 

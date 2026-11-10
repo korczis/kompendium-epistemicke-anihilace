@@ -20,7 +20,7 @@ toc = false
 
 ## Glossary entry
 
-[white-team](@/glossary/white-team.md) — Color teams white.
+[white-team](@/glossary/white-team.md) — [Color teams](@/glossary/color-teams.md) white.
 
 ## Vyskyt v kompendiu
 

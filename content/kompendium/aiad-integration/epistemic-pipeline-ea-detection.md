@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Epistemic Pipeline je 14-stage analyzátor epistemické integrity každého výroku — od claim extrakce přes source weighting po contradiction detection a confidence kalibraci. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Epistemic Pipeline](@/glossary/epistemic-pipeline.md) je 14-stage analyzátor epistemické integrity každého výroku — od claim extrakce přes source weighting po contradiction detection a confidence kalibraci. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -25,7 +25,7 @@ Epistemic Pipeline implementuje 14 axiomů z [07-teoreticke-reflexe/](@/kompendi
 
 ## Detection mechanisms
 
-Detekce: **claim-level granularita** — každý jednotlivý výrok prochází 14 stages (extract, normalize, weight, cross-reference, contradiction-check, ...) s aggregovaným epistemic-integrity skóre.
+Detekce: **claim-level granularita** — každý jednotlivý výrok prochází 14 stages (extract, normalize, weight, cross-reference, contradiction-check, …) s aggregovaným epistemic-integrity skóre.
 
 ## Operational protocols
 
@@ -37,7 +37,7 @@ Epistemic Pipeline je **náročný** (~14× normální cost) — nelze použít 
 
 ## Coordination
 
-Volán **NABLA Infinity** pro hlubší analýzu; používán **DD Engine** pro investigation reports; výstupy konzumuje **Decision Engine**.
+Volán **[NABLA Infinity](@/glossary/nabla-infinity.md)** pro hlubší analýzu; používán **DD Engine** pro investigation reports; výstupy konzumuje **[Decision Engine](@/glossary/decision-engine.md)**.
 
 ## Cross-linky
 

@@ -36,7 +36,7 @@ Sokratovský dialog jako **proto-detektor** epistemické manipulace. *Elenchos* 
 **Platónova alegorie jeskyně** (cca 380 př. n. l.) představuje první systematickou reflexi radikální epistemické manipulace a zároveň **kolektivní epistemické zajatosti** — fenoménu, ve kterém celá skupina sdílí distortní obraz reality nerozeznatelný zevnitř od reality samotné. Alegorie obsahuje i motiv **aktivního odporu** k epistemické rekonstrukci: vězeň vrácený po expozici slunci by byl ostatními zabit, protože jeho narativ se vymyká rámci, v němž ostatní operují. Anticipace moderního pozorování o **agresivní imunitní reakci** epistemicky uzavřených komunit vůči disonantním zdrojům.
 
 ### Pyrrhonská skepse a Sextus Empiricus
-**Pyrrhonská skeptická škola** (3. století př. n. l.) rozpracovala systematické techniky epistemické suspenze (*epoché*), které, byť původně koncipované jako filozofická metoda, implicitně demonstrovaly možnost indukce systematického epistemického kolapsu. **Sextus Empiricus** (2. století n. l.) ve svém díle *Adversus Mathematicos* artikuloval tzv. „modus tollens ad absurdum" — specifickou formu argumentace, která může indukovat stav epistemické dezorientace.
+**Pyrrhonská skeptická škola** (3. století př. n. l.) rozpracovala systematické techniky epistemické suspenze (*[epoché](@/glossary/epoche.md)*), které, byť původně koncipované jako filozofická metoda, implicitně demonstrovaly možnost indukce systematického epistemického kolapsu. **Sextus Empiricus** (2. století n. l.) ve svém díle *Adversus Mathematicos* artikuloval tzv. „modus tollens ad absurdum" — specifickou formu argumentace, která může indukovat stav epistemické dezorientace.
 
 ### Aristotelova rétorika
 Systematizace **přesvědčovacích strategií** v *Rétorice* — první explicitní katalog technik použitelných legitimně i manipulativně. Trichotomický model (*ethos*, *pathos*, *logos*) předjímá dimenzionální analýzu manipulace. Klíčový vhled: technika je **eticky neutrální** strukturně a získává morální zabarvení **kontextem aplikace** a **vztahem k pravdivosti** — základ distinkce mezi legitimní persuazí a manipulací.
@@ -97,7 +97,7 @@ První polovina 20. století přinesla počáteční empirické a klinické stud
 #### Vznik klinické psychologie a disociativní fenomény
 
 - **Charcotovy demonstrace v Salpêtrière** ukázaly, jak **autoritativní rámcování** indukuje fenomenologicky autentické symptomy — první moderní dokumentace **iatrogenní epistemické indukce**.
-- **Janetova psychologická disociace** (*L'Automatisme psychologique*, 1889; rozšířeno 1907) — první systematický popis epistemické fragmentace. Pierre Janet identifikoval „fixní ideje" (*idée fixe*) — izolované epistemické struktury nepodléhající kognitivní integraci. Anticipace moderních modelů **epistemické encysty**.
+- **Janetova psychologická [disociace](@/glossary/disociace.md)** (*L'Automatisme psychologique*, 1889; rozšířeno 1907) — první systematický popis epistemické fragmentace. Pierre Janet identifikoval „fixní ideje" (*idée fixe*) — izolované epistemické struktury nepodléhající kognitivní integraci. Anticipace moderních modelů **epistemické encysty**.
 - **Bleulerovy studie schizofrenní kognice** (1911) popsaly „rozvolnění asociací" — retrospektivně interpretovatelné jako manifestace specifických forem kognitivní anihilace.
 - **Lippsova fenomenologická analýza patologické sugesce** (1921) — první detailní deskripce indukce epistemických distorzí interpersonálními vlivy.
 - **Freudův koncept rezistence** identifikuje aktivní obranné mechanismy proti epistemické rekonstrukci; **přenos** poskytuje rámec pro epistemickou autoritu v terapeutickém vztahu — strukturně analogickou epistemické dependenci v manipulativních systémech.
@@ -115,7 +115,7 @@ Společně etablovaly empirickou bázi pro **sociální mediaci** epistemické p
 
 #### Studium propagandy a masové manipulace
 
-- **Bernaysova analýza propagandistických technik** (*Propaganda*, 1928) — první systematická kategorizace metod masové epistemické manipulace.
+- **Bernaysova analýza propagandistických technik** (*[Propaganda](@/glossary/propaganda.md)*, 1928) — první systematická kategorizace metod masové epistemické manipulace.
 - **Institucionální výzkum válečné propagandy** (1939–1945) vedl k rozvoji sofistikovaných modelů epistemické manipulace na populační úrovni.
 - **Studie antisemitské propagandy** (Lowenthal & Guterman, 1949) identifikovaly lingvistické a kognitivní techniky indukce systematických epistemických distorzí.
 
@@ -160,7 +160,7 @@ V průběhu 80. a 90. let došlo k významné konceptuální konsolidaci v souvi
 
 - **Foucaultova analýza moci a vědění** (*Power/Knowledge*, 1980) — strukturální formy epistemické manipulace skrze diskurzivní režimy a institucionalizované praktiky.
 - **Lyotardova kritika „velkých vyprávění"** (*Postmoderní situace*, 1984) — kolektivní epistemická traumata kolapsu metanarativů moderny.
-- **Baudrillardův koncept „hyperreality"** (*Simulacres et simulation*, 1981) — systematická epistemická distorze proliferací simulaker a disociací znaků od referentů.
+- **Baudrillardův koncept „[hyperreality](@/glossary/hyperreality.md)"** (*Simulacres et simulation*, 1981) — systematická epistemická distorze proliferací simulaker a disociací znaků od referentů.
 
 #### Trauma studia a klinická traumatologie
 
@@ -171,7 +171,7 @@ V průběhu 80. a 90. let došlo k významné konceptuální konsolidaci v souvi
 #### Výzkum kultovní indoktrinace a extrémních skupin
 
 - **Singerův model „systematické manipulace"** (1986) — kategorizace technik epistemické manipulace v kultovních skupinách.
-- **Hassanův „BITE model"** (1988) — kontroly *Behavior*, *Information*, *Thought*, *Emotion* — multidimenzionální povaha manipulace v uzavřených komunitách.
+- **Hassanův „[BITE model](@/glossary/bite-model.md)"** (1988) — kontroly *Behavior*, *Information*, *Thought*, *Emotion* — multidimenzionální povaha manipulace v uzavřených komunitách.
 - **Cialdiniho principy vlivu** (*Influence*, 1984) — šest mechanismů: reciprocita, závazek/konzistence, sociální důkaz, autorita, oblíbenost, vzácnost.
 
 Toto období přineslo konsolidaci studia epistemických traumat a integraci poznatků z klinické psychologie, kognitivní vědy, sociální psychologie, neurověd a filozofie.
@@ -231,7 +231,7 @@ Digitální transformace přinesla **strukturálně novou** vrstvu epistemickýc
 Vznikající fenomén **algoritmicky generované epistemické distorze** prostřednictvím LLM, deepfakes a synthetic media. Tato vrstva přidává kvalitativně nové výzvy — vůbec poprvé v dějinách poznání mohou být epistemické artefakty produkovány v měřítku a kvalitě, jež znemožňuje individuální verifikaci.
 
 #### Epistemic security
-Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě**. Prismatic Platform sám představuje **operační implementaci** epistemic security principů ve formě [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md) a [Decision Engine](@/glossary/decision-core.md).
+Vznikající **interdisciplinární pole** integrující epistemologii, kognitivní vědy, kybernetickou bezpečnost a politickou teorii. Tato taxonomie kompendia se hlásí k tomuto poli jako **plnohodnotné komponentě**. Prismatic Platform sám představuje **operační implementaci** [epistemic security](@/glossary/epistemic-security.md) principů ve formě [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md) a [Decision Engine](@/glossary/decision-core.md).
 
 ---
 
@@ -309,8 +309,8 @@ Současný taxonomický systém je kulminací této trajektorie — zároveň v�
 Prismatic Platform staví na popsané historické trajektorii a transformuje akumulované poznatky do **operační implementace**:
 
 - **NABLA Infinity (∇∞)** — formalizace epistemického aparátu jako rekursivní reflexe nad přesvědčeními, čerpající z Kantovy distinkce obsahové vs. strukturální úrovně poznání.
-- **Color Teams** — strukturní imitace kontradiktorních epistemických procesů (Red Team challenges, Blue Team defends, Purple Team integrates), navazující na tradici dialektické verifikace od Sokrata po moderní adversariální testování.
-- **Decision Engine** — integrující rámec, jenž kombinuje cognitive bias detection (Kahneman/Tversky), social epistemology (Frickerová), digital epistemic security (Pariser/DiResta) a clinical trauma framework (Hermanová/Van der Kolk).
+- **Color Teams** — strukturní imitace kontradiktorních epistemických procesů ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defends, [Purple Team](@/glossary/purple-team.md) integrates), navazující na tradici dialektické verifikace od Sokrata po moderní adversariální testování.
+- **[Decision Engine](@/glossary/decision-engine.md)** — integrující rámec, jenž kombinuje cognitive bias detection (Kahneman/Tversky), social epistemology (Frickerová), digital epistemic security (Pariser/DiResta) a clinical trauma framework (Hermanová/Van der Kolk).
 
 Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision Engine](@/kompendium/02-uvod/vztah-k-decision-engine.md); rozšíření o NABLA Infinity v [2.6 Vztah ke NABLA Infinity](@/kompendium/02-uvod/vztah-k-nabla.md).
 
@@ -329,7 +329,6 @@ Detailní vztah k Decision Engine je rozpracován v sekci [2.7 Vztah ke Decision
 - [Glosář: Color Teams](@/glossary/color-teams.md)
 - [Glosář: 3NL](@/glossary/3nl.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
-
 
 ## ⚡ Kritický krok
 

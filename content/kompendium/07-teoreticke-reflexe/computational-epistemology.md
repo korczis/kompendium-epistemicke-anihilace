@@ -31,12 +31,12 @@ Klíčové průkopnické práce:
 
 - **Goldman, *Epistemology and Cognition* (1986)** — Reliabilismus jako most mezi normativní epistemologií a kognitivní vědou.
 - **Thagard, *Computational Philosophy of Science* (1988)** — Algoritmické modely vědeckého objevu, vysvětlení, koncepční změny.
-- **Floridi, *The Philosophy of Information* (2011)** — Informace jako fundamentální ontologická a epistemologická kategorie; "fourth revolution" (Turing) v lidském sebe-porozumění.
-- **Pearl, *Causality* (2000) / *The Book of Why* (2018)** — Formální modely kauzální inference, do-calculus, counterfactual reasoning.
+- **Floridi, *The Philosophy of Information* (2011)** — Informace jako fundamentální ontologická a epistemologická kategorie; „fourth revolution“ (Turing) v lidském sebe-porozumění.
+- **Pearl, *Causality* (2000) / *The Book of Why* (2018)** — Formální modely kauzální [inference](@/glossary/inference.md), do-calculus, counterfactual reasoning.
 
 ### Floridiho informační etika
 
-Luciano Floridi rozšiřuje computational epistemology do **informační etiky**: pokud jsou epistemické subjekty informacemi v silném ontologickém smyslu (informational organisms, "inforgs"), pak manipulace informací je **manipulací ontologického statusu** subjektu. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) v tomto rámci není pouze deformací poznání, ale **redukcí ontologické integrity** subjektu.
+Luciano Floridi rozšiřuje computational epistemology do **informační etiky**: pokud jsou epistemické subjekty informacemi v silném ontologickém smyslu (informational organisms, „inforgs“), pak manipulace informací je **manipulací ontologického statusu** subjektu. [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) v tomto rámci není pouze deformací poznání, ale **redukcí ontologické integrity** subjektu.
 
 Floridi rozlišuje čtyři úrovně informačních patologií:
 
@@ -58,8 +58,8 @@ Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v termino
 | **L0** | Sensory Input | Akvizice surových dat | EA-1.1.1 selektivní expozice |
 | **L1** | Signal Filtering | Pre-procesní filtrace | EA-1.1.2 prahový gating |
 | **L2** | Pattern Detection | Rozpoznání primitivních vzorců | EA-1.1.3 vzorová slepota |
-| **L3** | Feature Extraction | Extrakce relevantních příznaků | EA-1.1.4 příznaková redukce |
-| **L4** | Perceptual Binding | Integrace do percepčního celku | EA-1.1.5 percepční fragmentace |
+| **L3** | Feature Extraction | Extrakce relevantních příznaků | [EA-1.1.4 příznaková redukce](@/kompendium/techniques/ea-1-1-4-priznakova-redukce.md) |
+| **L4** | Perceptual Binding | Integrace do percepčního celku | [EA-1.1.5 percepční fragmentace](@/kompendium/techniques/ea-1-1-5-percepcni-fragmentace.md) |
 | **L5** | Categorization | Kategorizace do typů | EA-1.2.1 kategoriální zploštění |
 | **L6** | Concept Formation | Formace konceptuálních struktur | EA-1.2.2 konceptuální mystifikace |
 | **L7** | Propositional Encoding | Kódování propozičních obsahů | EA-1.2.3 propoziční inverze |
@@ -76,7 +76,7 @@ Anti-information odpovídá nejhlubší vrstvě epistemické anihilace v termino
 
 **L0–L4 (Senzoricko-percepční vrstva)** — Tyto úrovně implementují **akvizici** v terminologii [taxonomie EA](@/glossary/taxonomie-ea.md). Manipulátor často útočí již zde: selektivní expozice (EA-1.1.1) operuje na L0 (kontrola toho, co se vůbec dostane jako vstup); informační přetížení operuje na L1 (saturace prahových filtrů); pattern-priming operuje na L2 (instrumentalizace předem aktivovaných vzorců).
 
-NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné multi-source vstupy s automatickou detekcí asymetrie); **adaptive thresholding** na L1 (dynamické filtrace odolné proti zaplavení); **adversariální pattern auditing** na L2 (Color Team red team dotazování implicitních vzorců).
+NABLA obrana: **strukturální source diversity** vynucená na L0 (povinné multi-source vstupy s automatickou detekcí asymetrie); **adaptive thresholding** na L1 (dynamické filtrace odolné proti zaplavení); **adversariální pattern auditing** na L2 (Color Team [red team](@/glossary/red-team.md) dotazování implicitních vzorců).
 
 **L5–L7 (Konceptuálně-propoziční vrstva)** — Implementují **integraci**. Kategoriální zploštění (EA-1.2.1) deformuje L5 redukcí jemných distinkcí na hrubé dichotomie. Konceptuální mystifikace (EA-1.2.2) na L6 zavádí pseudo-koncepty, jež formálně připomínají obvyklé pojmy, ale jsou definičně prázdné nebo strategicky vágní.
 
@@ -84,7 +84,7 @@ NABLA obrana: **explicit category schemas** s vynucenou granularitou; **concept 
 
 **L8–L9 (Inferenčně-justifikační vrstva)** — Realizují **evaluaci** a **justifikaci**. Imunizace proti [falsifikaci](@/glossary/falsifikace.md) (EA-1.3.1) atakuje L8 přidáváním ad hoc auxiliárních hypotéz, jež neutralizují kontradiktorní evidenci ([Lakatos](@/glossary/lakatos.md)). Kruhové ospravedlnění (EA-1.3.2) na L9 cirkuluje justifikační řetězec uzavřeně.
 
-NABLA obrana: **falsifiability mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
+NABLA obrana: **[falsifiability](@/glossary/falsifikovatelnost.md) mandate** — každá hypotéza musí mít explicitně formulované falsifikační kritérium; **dependency graph** justifikačních řetězců s automatickou detekcí cyklů.
 
 **L10–L11 (Aktualizačně-koherenční vrstva)** — Implementují **revizi**. Update blokace (EA-1.3.4) brání L10 v reagování na kontradiktorní evidenci. Kontradikce-tolerance (EA-1.4.1) ponechává inkompatibilní propozice koexistovat bez tlaku na rozřešení.
 
@@ -102,7 +102,7 @@ NABLA architektura je strukturována sedmi axiomy. Pro účely této kapitoly js
 
 **Axiom 2: Contradiction Preservation** — Detekované kontradikce nelze tiše rezolvovat; musí být zaznamenány a reflektovány.
 
-**Axiom 4: Time Decay** — Důvěryhodnost informace je funkcí jejího stáří. Stará data automaticky ztrácejí *precision weighting* v aktivní inferenci, čímž jsou systémově chráněna proti zneužití zastaralých zdrojů jako "evergreen evidence".
+**Axiom 4: Time Decay** — Důvěryhodnost informace je funkcí jejího stáří. Stará data automaticky ztrácejí *precision weighting* v aktivní inferenci, čímž jsou systémově chráněna proti zneužití zastaralých zdrojů jako „evergreen evidence“.
 
 **Axiom 7: Provenance Mandatory** — Každá informace v systému musí mít dohledatelný původ. Tento axiom realizuje princip **epistemické audit-ability**.
 
@@ -123,9 +123,9 @@ Tři smyčky implementují **explanační pluralitu** zmíněnou v sekci 2.3: ž
 NABLA není koncipovaná jako izolovaný individuální agent, ale jako **distribuovaná epistemická infrastruktura**. Kolektivní rozměr realizuje skrze [Color Teams](@/glossary/color-teams.md) — adversariální týmy specializované na různé typy epistemických zranitelností:
 
 - **Red Team** — Atakuje epistemické fortifikace; testuje robustnost proti technikám popsaným v taxonomii EA.
-- **Blue Team** — Brání epistemickou integritu; implementuje strukturní obrany.
+- **[Blue Team](@/glossary/blue-team.md)** — Brání epistemickou integritu; implementuje strukturní obrany.
 - **Green Team** — Zkoumá [hermeneutickou](@/glossary/hermeneutika.md) flexibilitu; alternativní interpretační rámce.
-- **Purple Team** — Integrace red+blue; meta-úroveň testování.
+- **[Purple Team](@/glossary/purple-team.md)** — Integrace red+blue; meta-úroveň testování.
 - **Yellow Team** — [Fenomenologická](@/glossary/fenomenologie.md) reflexe; analýza subjektivní zkušenosti operátorů.
 
 Color Teams operacionalizují **adversariální falsifikaci** v [Lakatošovsko-popperovském](@/glossary/lakatos.md) duchu: hypotézy nejsou pouze pasivně testovány, ale aktivně atakovány.
@@ -187,7 +187,6 @@ Souběžně tato izomorfie odhaluje **gradient kategorií** v taxonomii: nejniž
 - [Glosář: Gaslighting](@/glossary/gaslighting.md)
 - [Glosář: Delegitimizace](@/glossary/delegitimizace.md)
 - [Glosář: Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

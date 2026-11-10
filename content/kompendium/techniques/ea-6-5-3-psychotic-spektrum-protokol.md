@@ -97,7 +97,7 @@ Předcházení iatrogenním poškozením je integrální součástí klinické e
 
 ## Klinické pozadí
 
-Technika **EA-6.5.3** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu polyvagální teorie (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje akutní stabilizace s redukcí krizového rizika a přechod do ambulantního rámce.
+Technika **EA-6.5.3** se historicky vyvinula z konvergence několika klinických tradic: psychoanalytické práce s traumatickým přenosem (Ferenczi, Sándor), kognitivně-behaviorální tradice expoziční terapie (Foa, Edna B.), neurobiologického modelu [polyvagální teorie](@/glossary/polyvagalni-teorie.md) (Porges, Stephen W.) a specifického korpusu post-cult psychologické literatury (Singer, Margaret T.; Hassan, Steven). V kontextu kompendia EA představuje akutní stabilizace s redukcí krizového rizika a přechod do ambulantního rámce.
 
 **Klinické zacílení**: akutní a vysokointenzivní klinické setting (ER, akutní krize, inpatient, partial hospitalization, day program, residential) pro pacienty s aktivní EA-symptomatologií vyžadující stabilizaci. Specificita techniky vůči tradičním psychoterapeutickým modalitám spočívá v explicitním uchopení epistemicko-afektivní složky traumatu — tj. poškození samotných struktur, jimiž subjekt rozumí svému světu a sobě v něm.
 
@@ -128,31 +128,36 @@ Empirická opora techniky se opírá o tři primární evidenční pilíře: (a)
 Klinické rozhodování o aplikaci techniky **EA-6.5.3** sleduje strukturovaný algoritmus s explicitními rozhodovacími uzly a kvantifikovanými prahovými hodnotami:
 
 **Uzel 1 — Indikační audit (vstupní)**:
+
 - IF PCL-5 ≥ 33 AND ITQ DSO ≥ klinický práh AND absence psychotické symptomatologie → POKRAČUJ k Uzel 2
 - ELIF PCL-5 < 33 AND symptomy < 1 měsíc → ZVAŽ watchful waiting + krizová podpora
 - ELIF aktivní psychotická symptomatologie OR akutní suicidalita → STABILIZACE PRIORITNĚ, technika **kontraindikována**
 
 **Uzel 2 — Stabilizační prerekvizity**:
+
 - IF DERS celkový skór > 120 AND chybí stabilizační dovednosti → ZAŘAĎ pre-protokol DBT distress tolerance modul (8-12 sezení)
 - IF DES-II > 30 AND aktivní disociativní fragmentace → ZAŘAĎ disociativní stabilizační protokol PŘED expozičními komponentami
 - ELSE → POKRAČUJ k Uzel 3
 
 **Uzel 3 — Modulární stratifikace**:
+
 - IF Type I trauma (single-incident) → standardní protokol 12-16 sezení
 - IF Type II trauma (chronic relational) → rozšířený protokol 24-36 sezení s posílenou stabilizační fází
 - IF aktivní externí ohrožení (DV, kult, koercivní vztah) → BEZPEČNOSTNÍ PLAN PRIORITNĚ, technika odložena do bezpečné distance
 
 **Uzel 4 — Průběžné re-evaluation**:
+
 - KAŽDÉ 4. sezení: PCL-5 + CGI-S + terapeutická aliance (WAI-SR)
 - IF zhoršení > 20% baseline OR aliance < 20 percentil → SUPERVIZE + modifikace protokolu
 - IF redukce ≥ 30% AND funkcionální zlepšení → POKRAČUJ do konsolidační fáze
 
 **Uzel 5 — Terminace**:
+
 - Klinicky významná redukce (Cohenovo d ≥ 0.5 pre-post) AND udržení po 3 měsíce AND obnova funkce → ŘÁDNÁ TERMINACE s booster sessions plánem
 
 ## Neuropsychologické markery
 
-Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k self-report instrumentům:
+Aplikace techniky je provázena charakteristickými neurokognitivními změnami, které lze objektivizovat standardním neuropsychologickým testováním. Dokumentované markery slouží jako objektivní outcome měření paralelní k [self-report](@/glossary/self-report.md) instrumentům:
 
 **Pozornostní funkce**: pre-intervenční obraz typicky vykazuje narušení selektivní pozornosti (Stroop interference + 1.5 SD nad normou), sníženou vigilanční kapacitu (CPT-3 commission errors > 70 percentil) a afektivní bias v emoční Stroop úloze (latence pro trauma-related stimuli). Post-intervenčně dokumentována normalizace o 0.6-1.0 SD.
 
@@ -211,6 +216,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 | **WHODAS 2.0** | Funkční disabilita | ≥ 5-bodová redukce |
 
 **Sekundární outcome**:
+
 - **PHQ-9** (depresivní symptomatologie, target < 10)
 - **GAD-7** (úzkostná symptomatologie, target < 10)
 - **DES-II** (disociativní symptomatologie, target < 30)
@@ -219,6 +225,7 @@ Validace efektivity techniky vyžaduje multidimenzionální outcome battery apli
 - **PSQI** (kvalita spánku)
 
 **Benchmarks pro úspěch intervence**:
+
 - **Reliable Change Index (RCI)** > 1.96 na PCL-5 (Jacobson & Truax, 1991)
 - **Clinical Significance**: post-treatment skór v rámci 1 SD nontraumatizované normy
 - **Functional Recovery**: WHODAS 2.0 skór ≤ percentil 75 srovnatelné populace
@@ -247,8 +254,8 @@ Kompatibilní s [EA-6.1.8 disociativním spektrum](@/kompendium/techniques/ea-6-
 Technika je integrována do širšího ekosystému platformy Prismatic prostřednictvím:
 
 - **Prismatic Nabla** — epistemický engine umožňuje kvantifikaci epistemicko-afektivního poškození jako vstup do klinického assessmentu a výstup z monitoring intervence
-- **Decision Engine** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
-- **OSINT toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
+- **[Decision Engine](@/glossary/decision-engine.md)** — kalibrace klinického rozhodování o indikaci/modifikaci/ukončení techniky s explicitními Brierův skór metrikami
+- **[OSINT](@/glossary/osint.md) toolbox** — pre-klinické forenzní DD klientů s anamnézou expozice manipulativním systémům, validizace anamnestických údajů
 - **Akademie** — interaktivní vzdělávací moduly pro klinickou populaci a peer-support komunity
 
 ## Související

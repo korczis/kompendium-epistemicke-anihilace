@@ -52,9 +52,10 @@ Protokol není **lineární** — stupně se navzájem prolínají, klient se m�
 #### Psychoedukace o EA
 
 Strukturované předání informací o:
+
 - Existenci a strukturách EA;
 - Specifických technikách, kterým byl klient vystaven (s odkazem na [techniques](@/kompendium/techniques/_index.md));
-- Rozdílu mezi "byl jsem slabý" a "byl jsem systematicky zacílen";
+- Rozdílu mezi „byl jsem slabý“ a „byl jsem systematicky zacílen“;
 - Léčebné cestě a očekávaných obtížích.
 
 > **Specifikum**: Psychoedukace u EA má **strukturální terapeutický efekt** — pojmenování zkušenosti je sama o sobě prvním krokem rekonstrukce. Mnoho klientů hlásí, že **objevení slovníku EA bylo zlomovým momentem**.
@@ -62,6 +63,7 @@ Strukturované předání informací o:
 #### Mapa epistemických zranění
 
 Společné vytvoření **vizuální mapy**:
+
 - Které **kognitivní funkce** byly poškozeny (paměť, hodnocení, reflexe);
 - Které **vztahy** byly cestou útoku;
 - Která **přesvědčení** byla importována;
@@ -69,16 +71,17 @@ Společné vytvoření **vizuální mapy**:
 
 #### Validace pochybností
 
-Klient typicky pochybuje o své vlastní zkušenosti ("možná to bylo jen v mé hlavě", "možná přeháním"). Terapeut systematicky:
+Klient typicky pochybuje o své vlastní zkušenosti („možná to bylo jen v mé hlavě“, „možná přeháním“). Terapeut systematicky:
+
 - **Validuje** pochybnost jako **legitimní následek** EA;
 - **Nepřesvědčuje** klienta o faktickém průběhu;
-- Nabízí **rámec** ("ať už proběhlo cokoli, vaše utrpení je reálné");
+- Nabízí **rámec** („ať už proběhlo cokoli, vaše utrpení je reálné“);
 - Postupně buduje klientovu schopnost **udržet více možných interpretací** vedle sebe.
 
 ### Markery dokončení S1
 
 - Klient dokáže **pojmenovat** strukturu své zkušenosti;
-- Klient zažívá **zmírnění izolace** ("nejsem v tom sám");
+- Klient zažívá **zmírnění izolace** („nejsem v tom sám“);
 - Terapeutický vztah je **stabilní**;
 - Klient má **základní mapu** vlastních zranění.
 
@@ -96,24 +99,27 @@ Klient typicky pochybuje o své vlastní zkušenosti ("možná to bylo jen v mé
 #### Inventář introjektů
 
 Společný systematický průzkum:
-- "Jaké věty z období expozice slyšíte stále ve své hlavě?"
-- "Jaké hodnocení sebe sama přebíráte z [manipulátorova] hlasu?"
-- "Jaké strachy nejsou vaše?"
-- "Jaké touhy/cíle jste si zvolil sám a které byly programovány?"
+
+- „Jaké věty z období expozice slyšíte stále ve své hlavě?“
+- „Jaké hodnocení sebe sama přebíráte z [manipulátorova] hlasu?“
+- „Jaké strachy nejsou vaše?“
+- „Jaké touhy/cíle jste si zvolil sám a které byly programovány?“
 
 #### Externalizující jazyk (M. White)
 
 Narativní technika převedení vlastnosti na **externí entitu**:
-- "Strach mi říká, že nestačím" (místo "jsem nedostatečný");
-- "Hlas systému tvrdí, že nemůžu věřit svým očím" (místo "nemůžu si věřit");
-- "Pravidlo skupiny mi zakazuje tuto myšlenku" (místo "tuto myšlenku nesmím mít").
+
+- „Strach mi říká, že nestačím“ (místo „jsem nedostatečný“);
+- „Hlas systému tvrdí, že nemůžu věřit svým očím“ (místo „nemůžu si věřit“);
+- „Pravidlo skupiny mi zakazuje tuto myšlenku“ (místo „tuto myšlenku nesmím mít“).
 
 #### IFS práce s exilovanými částmi
 
 Klient typicky obsahuje:
+
 - **Manažery** — části, které ho chránily před manipulátorem (často kritické, opatrnické);
 - **Hasiče** — části aktivované při akutním ohrožení (často disociativní, impulzivní);
-- **Exilované části** — části, které byly manipulátorem útočeny a klient je sám "vypudil";
+- **Exilované části** — části, které byly manipulátorem útočeny a klient je sám „vypudil“;
 - **Self** — autentické, nepoškozené jádro, které je cílem obnovy kontaktu.
 
 Práce s exilovanými částmi v bezpečném tempu umožňuje **postupnou integraci**.
@@ -121,13 +127,14 @@ Práce s exilovanými částmi v bezpečném tempu umožňuje **postupnou integr
 #### Rituál distance
 
 Symbolická intervence — klient může například:
+
 - Napsat **dopis introjektu** a explicitně se s ním rozloučit;
 - Vytvořit **vizuální reprezentaci** introjektu (kresba, model);
 - Provést **symbolický akt** distance (ne nutně destruktivní — distance, ne destrukce).
 
 ### Markery dokončení S2
 
-- Klient používá **distinktivní jazyk** ("introjekt mi říká" vs. "myslím si");
+- Klient používá **distinktivní jazyk** („introjekt mi říká“ vs. „myslím si“);
 - Snížena **emoční intenzita** introjektů;
 - Klient identifikuje **alespoň jeden** autentický self-element;
 - Připravenost vstoupit do hlubší metakognitivní práce.
@@ -148,15 +155,17 @@ Toto je **jádro protokolu** a typicky nejdelší fáze.
 #### Metakognitivní terapie (MCT, A. Wells)
 
 Práce s **metakognitivními přesvědčeními**:
-- **Pozitivní přesvědčení o starostech** — "musím o tom pořád přemýšlet, abych to vyřešil";
-- **Negativní přesvědčení o nekontrolovatelnosti** — "nemůžu zastavit ruminace";
-- **Přesvědčení o významu myšlenek** — "tato myšlenka znamená, že jsem špatný".
+
+- **Pozitivní přesvědčení o starostech** — „musím o tom pořád přemýšlet, abych to vyřešil“;
+- **Negativní přesvědčení o nekontrolovatelnosti** — „nemůžu zastavit ruminace“;
+- **Přesvědčení o významu myšlenek** — „tato myšlenka znamená, že jsem špatný“.
 
 Klient se učí **identifikovat** a **revidovat** tato přesvědčení.
 
 #### MERIT (Lysaker)
 
 **Metacognitive Reflection and Insight Therapy** — strukturovaný přístup k rekonstrukci metakognitivní kapacity skrze:
+
 - Reflexi vlastních myšlenkových procesů;
 - Reflexi myšlení druhých;
 - Decentralization (schopnost vidět sebe z vnějšku);
@@ -166,22 +175,24 @@ Klient se učí **identifikovat** a **revidovat** tato přesvědčení.
 
 MBCT a MBSR rozvíjejí **observační metakognici** — schopnost pozorovat vlastní myšlenky, aniž by s nimi člověk byl identifikován.
 
-> **Adaptace pro EA**: Standardní mindfulness instrukce ("nesuď své myšlenky") může klientovi po EA imitovat manipulátorovo "neptej se a přijmi". Klinik proto explicitně **legitimizuje hodnotící myšlení** jako součást zdravé metakognice — cílem **není** suspendovat hodnocení, ale **obnovit** schopnost ho strukturovaně provádět.
+> **Adaptace pro EA**: Standardní mindfulness instrukce („nesuď své myšlenky“) může klientovi po EA imitovat manipulátorovo „neptej se a přijmi“. Klinik proto explicitně **legitimizuje hodnotící myšlení** jako součást zdravé metakognice — cílem **není** suspendovat hodnocení, ale **obnovit** schopnost ho strukturovaně provádět.
 
 #### Trénink hodnocení důkazů
 
 Strukturované cvičení:
+
 - Klient prezentuje **přesvědčení**, terapeut a klient společně mapují **důkazy pro a proti**;
 - Klient se učí **stratifikaci důkazů** podle síly;
-- Cvičení **udržení nejistoty** ("nevím, a to je v pořádku");
+- Cvičení **udržení nejistoty** („nevím, a to je v pořádku“);
 - Cvičení **revize** přesvědčení po expozici novým důkazům.
 
 #### Paměťová rehabilitace
 
 Specifická intervence pro klienty s narušenou paměťovou důvěrou:
+
 - **Validační rituál** — klient vypráví vzpomínku, terapeut ji **dokumentuje** v klientových slovech;
 - **Externí kotvení** — fotky, deníky, výpovědi důvěryhodných svědků;
-- **Postupná integrace** — paměť se nestane "jistou", ale klient získává **stabilní vztah k vlastní paměti**.
+- **Postupná integrace** — paměť se nestane „jistou“, ale klient získává **stabilní vztah k vlastní paměti**.
 
 ### Markery dokončení S3
 
@@ -210,6 +221,7 @@ Specifická intervence pro klienty s narušenou paměťovou důvěrou:
 #### Reflexivní biografie
 
 Klient strukturovaně píše/vypráví **vlastní biografii**:
+
 - Identifikace **klíčových momentů** života;
 - Rozpoznání **interpretačních vzorců** importovaných od manipulátora;
 - Postupné **re-authoring** — přepisování vlastní biografie z autentické pozice.
@@ -217,6 +229,7 @@ Klient strukturovaně píše/vypráví **vlastní biografii**:
 #### Externalizace a re-authoring (M. White, D. Epston)
 
 Narativní techniky:
+
 - **Externalizující rozhovor** — problém je vnější entita, ne vlastnost klienta;
 - **Mapování vlivu** — jak problém ovlivňuje různé oblasti života;
 - **Unique outcomes** — momenty, kdy klient odolal/přemohl;
@@ -225,6 +238,7 @@ Narativní techniky:
 #### Kontextuální cvičení
 
 Strukturované cvičení rozpoznání:
+
 - Ironie;
 - Metafory;
 - Sarkasmu;
@@ -251,6 +265,7 @@ Strukturované cvičení rozpoznání:
 #### Plán transferu
 
 Strukturovaná příprava:
+
 - **Mapování budoucích rizikových situací** (rodinné setkání, sociální média, profesní kontexty);
 - **Strategie pro každou situaci** — konkrétní postupy;
 - **Včasné varovné signály** — markery, že se klient blíží relapsu;
@@ -298,6 +313,7 @@ Detailněji v [6.5](@/kompendium/06-klinicke-aplikace/vulnerabilni-populace.md).
 ## Vztah k platformě Prismatic
 
 Protokol epistemické rekonstrukce může být podporován nástroji platformy:
+
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — kalibrace klientovy důvěry během S3 (trénink hodnocení důkazů);
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — mapování klientových epistemických zranění do framework L0–L13;
 - **Glosář a kompendium** — psychoedukační nástroje pro S1.
@@ -317,9 +333,10 @@ Protokol epistemické rekonstrukce může být podporován nástroji platformy:
 ## Outcomes a follow-up
 
 Doporučený **dlouhodobý follow-up** (1, 3, 5 let) zahrnuje:
+
 - Posouzení stability získaných změn;
 - Identifikaci nových výzev;
-- "Booster" sezení v krizích;
+- „Booster“ sezení v krizích;
 - Příspěvek k vědecké evidenci (anonymizované case studies).
 
 ## Související
@@ -336,7 +353,6 @@ Doporučený **dlouhodobý follow-up** (1, 3, 5 let) zahrnuje:
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Glossary: Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
-
 
 ## ⚡ Kritický krok
 

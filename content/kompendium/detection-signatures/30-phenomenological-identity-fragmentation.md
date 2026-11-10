@@ -68,7 +68,7 @@ Pozitivní při splnění všech bodů. Bod 2 odlišuje signaturu od svobodné p
 - **Hraniční porucha osobnosti**: narušení identity a nestabilní sebeobraz jsou jedním z charakteristických rysů; bývají dlouhodobé a nevázané na jedno prostředí. Současně mohou zvyšovat zranitelnost vůči působení.
 - **Disociativní porucha identity a jiné disociativní poruchy**: přítomnost odlišných stavů identity, amnézie; vyžaduje specializované vyšetření ([disociativní spektrum](@/kompendium/techniques/ea-6-1-8-disociativni-spektrum-assessment.md)). DSM-5 uvádí mezi příklady jiné specifikované disociativní poruchy i narušení identity v důsledku dlouhodobého a intenzivního donucujícího přesvědčování (např. v totalitních skupinách); diagnostiku je třeba přenechat specialistovi.
 - **Komplexní PTSD**: narušený sebeobraz a pocit méněcennosti.
-- **Depersonalizace**: odcizení od sebe bez ztráty znalosti, kdo člověk je.
+- **[Depersonalizace](@/glossary/depersonalizace.md)**: odcizení od sebe bez ztráty znalosti, kdo člověk je.
 - **Psychotické poruchy**: bizarní přesvědčení o identitě (např. „jsem někdo jiný“) se ztrátou vhledu.
 - **Neurologické stavy**: změny osobnosti po poranění nebo při frontotemporální degeneraci.
 
@@ -84,7 +84,7 @@ Pozitivní při splnění všech bodů. Bod 2 odlišuje signaturu od svobodné p
 
 ## Dokumentace v praxi
 
-Zaznamenat výpovědi o sobě doslovně, včetně skupinové terminologie; popsat změny jména, vzhledu, rolí a vztahů s daty; uvést výsledky psychiatrického vyšetření a screeningu disociace. Dokumentace má být respektující a nehodnotit obsah víry či hodnot.
+Zaznamenat výpovědi o sobě doslovně, včetně skupinové terminologie; popsat změny jména, vzhledu, rolí a vztahů s daty; uvést výsledky psychiatrického vyšetření a screeningu [disociace](@/glossary/disociace.md). Dokumentace má být respektující a nehodnotit obsah víry či hodnot.
 
 ## Doporučený postup
 

@@ -28,7 +28,7 @@ EA-pacient v akutním substance-related emergency — intoxikace, withdrawal, ov
 
 1. **Stabilizuj somaticky** — toxikologie, vitální funkce, opiate antagonist (naloxone) pokud opiate overdose suspekt.
 2. **Diferencuj substance-induced symptoms od EA-recovery symptoms** — nutno waiting period 5–7 dní po detoxu.
-3. **Plánuj integrovaný treatment** — ne sequential („nejdřív substance, pak EA"); EA-recovery a addiction recovery souběžně.
+3. **Plánuj integrovaný treatment** — ne sequential („nejdřív substance, pak EA"); EA-recovery a [addiction recovery](@/glossary/addiction-recovery.md) souběžně.
 4. **Use harm-reduction framework** — ne abstinence-first ultimatum; meeting patient where they are.
 5. **Connect with peer support** — Self-Management And Recovery Training (SMART), AA s trauma-informed sponsorem, ne forced 12-step.
 
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

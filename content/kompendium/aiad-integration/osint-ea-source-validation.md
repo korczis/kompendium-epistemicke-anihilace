@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-OSINT Agent koordinuje 128+ samo-registrujících adapterů pro multi-source intelligence — agreguje veřejné zdroje a aplikuje **source weighting** pro detekci EA disinformačních kampaní. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[OSINT](@/glossary/osint.md) Agent koordinuje 128+ samo-registrujících adapterů pro multi-source intelligence — agreguje veřejné zdroje a aplikuje **source weighting** pro detekci EA disinformačních kampaní. V architektuře platformy zaujímá pozici v rámci **Domain Agents** (domain) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ OSINT Agent je **slepý vůči closed-source pravdě** — pokud klíčové data
 
 ## Coordination
 
-Hlavní data zdroj pro **Czech ARES**, **DD Engine**, **Hawkeye**, **Black Team**; výstupy konzumuje **NABLA Infinity** a **Epistemic Pipeline**.
+Hlavní data zdroj pro **Czech ARES**, **DD Engine**, **[Hawkeye](@/glossary/hawkeye.md)**, **[Black Team](@/glossary/black-team.md)**; výstupy konzumuje **[NABLA Infinity](@/glossary/nabla-infinity.md)** a **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**.
 
 ## Cross-linky
 

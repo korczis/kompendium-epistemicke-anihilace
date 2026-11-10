@@ -28,7 +28,7 @@ Klient v akutní situaci úniku z high-control skupiny — typicky během první
 
 1. **Zajisti fyzickou bezpečnost** — bezpečné místo neznámé skupině, vypnutý telefon (sledování), nové SIM, ne-vlastní auto.
 2. **Kontaktuj specializovanou cult-recovery organizaci (ICSA, FECRIS, v ČR Společnost pro studium sekt) pro koordinovanou podporu** — Kontaktuj specializovanou cult-recovery organizaci (ICSA, FECRIS, v ČR Společnost pro studium sekt) pro koordinovanou podporu.
-3. **Neprovádět „deprogrammingový" konfrontační rozhovor** — užij metod neagresivního exit counseling (Hassan BITE model).
+3. **Neprovádět „deprogrammingový" konfrontační rozhovor** — užij metod neagresivního exit counseling (Hassan [BITE model](@/glossary/bite-model.md)).
 4. **Zhodnoť suicidalitu a riziko návratu (typické 30–40% v prvních 4 týdnech)** — strukturovaný plán pro 72h.
 5. **Dokumentuj evidenci pro případné právní kroky (manipulace, finanční zneužití, zneužívání) bez tlaku na podání trestního oznámení** — Dokumentuj evidenci pro případné právní kroky (manipulace, finanční zneužití, zneužívání) bez tlaku na podání trestního oznámení.
 
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

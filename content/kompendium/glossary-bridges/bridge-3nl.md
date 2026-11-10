@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Three Nested Loops (3NL) je architektonický doktrinální rámec definující paralelní operaci tří kognitivních vrstev: L1 logická vrstva (deterministické pravidlo + symbolická manipulace), L2 neurální vrstva (statistická inference + paměťová asociace) a L3 lingvistická vrstva (sémantická interpretace + kontextové ukotvení). Tři smyčky musí běžet souběžně a křížově se validovat — žádná vrstva nemá samostatnou autoritu.
+Three Nested Loops (3NL) je architektonický doktrinální rámec definující paralelní operaci tří kognitivních vrstev: L1 logická vrstva (deterministické pravidlo + symbolická manipulace), L2 neurální vrstva (statistická [inference](@/glossary/inference.md) + paměťová asociace) a L3 lingvistická vrstva (sémantická interpretace + kontextové ukotvení). Tři smyčky musí běžet souběžně a křížově se validovat — žádná vrstva nemá samostatnou autoritu.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -34,9 +34,9 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Úvod do platformy**: 3NL je představen jako základní organizační princip Prismatic agentů
 - **Sekce 03 — Doctrine pillars**: 3NL tvoří první pilíř 18-pillar doctrine vedle NMND, NWB a M5M
-- **Sekce 06 — Klinické aplikace v due diligence**: 3NL slouží jako rámec pro multi-vrstvou validaci OSINT nálezů
+- **Sekce 06 — Klinické aplikace v [due diligence](@/glossary/due-diligence.md)**: 3NL slouží jako rámec pro multi-vrstvou validaci [OSINT](@/glossary/osint.md) nálezů
 - **Sekce 07 — Teoretické reflexe**: souvislost s tripartitním modelem mysli (Platón, Freud, MacLean)
-- **Per-technique články**: konkrétní implementace ve scoring engine, decision engine a calibration loop
+- **Per-technique články**: konkrétní implementace ve scoring engine, [decision engine](@/glossary/decision-engine.md) a calibration loop
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
 

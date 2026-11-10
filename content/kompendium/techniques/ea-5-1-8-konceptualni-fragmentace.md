@@ -217,13 +217,13 @@ Intervence: Cílená rekonstituce mimo-právního etického slovníku skrze čte
 
 ### Eskaluje do
 
-- **EA-5.2.x Ontologická anihilace** — fragmentace pojmů reality (*čas*, *prostor*, *já*, *druhý*) přechází v kolaps základního realitního testu.
-- **Klinická depersonalizace / derealizace** — fragmentace fenomenologických kategorií *já / svět / čas* může spustit depersonalizační symptomatiku.
+- **EA-5.2.x [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)** — fragmentace pojmů reality (*čas*, *prostor*, *já*, *druhý*) přechází v kolaps základního realitního testu.
+- **Klinická [depersonalizace](@/glossary/depersonalizace.md) / derealizace** — fragmentace fenomenologických kategorií *já / svět / čas* může spustit depersonalizační symptomatiku.
 
 ### Alternativy / podobné, ale **distinktivní**
 
 - **Sofistikace teorie** — *přidává* vazby a integrační rozlišnost; fragmentace *odebírá*.
-- **Pluralismus** — uchovává funkční integraci uvnitř každého paradigmatu; fragmentace destruuje integraci uvnitř původního.
+- **[Pluralismus](@/glossary/pluralismus.md)** — uchovává funkční integraci uvnitř každého paradigmatu; fragmentace destruuje integraci uvnitř původního.
 
 ## Vztah k Prismatic platformě
 
@@ -231,7 +231,7 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) integration check** — provenance graf každé komplexní úvahy je analyzován na **strukturální propojenost**; izolované, nepropojené uzly jsou flagovány jako podezření na fragmentaci.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} holistic gate** — komplexní rozhodnutí vyžaduje doložení **funkční** integrace, nikoli pouze inventáře komponent.
-- **Color Teams cross-paradigm review** — *Red Team* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
+- **[Color Teams](@/glossary/color-teams.md) cross-paradigm review** — *[Red Team](@/glossary/red-team.md)* explicitně testuje, zda rozhodovací aparát neutrpěl fragmentačním tlakem konkrétního paradigmatu.
 
 ## Související
 
@@ -252,7 +252,6 @@ Konceptuální fragmentace má v Prismatic platformě tři hlavní defenzivní m
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
-
 
 ## ⚡ Kritický krok
 

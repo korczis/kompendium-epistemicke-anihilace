@@ -15,7 +15,7 @@ toc = true
 
 ## Metodologický kontext
 
-Tento článek pokrývá **Výzkum Zranitelných Populací** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, fenomenologie a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
+Tento článek pokrývá **Výzkum Zranitelných Populací** v rámci etické a governanceho výzkumu Ego-Annihilation procesů. EA výzkum stojí na rozhraní klinické psychologie, [fenomenologie](@/glossary/fenomenologie.md) a bezpečnostně-etické governance — žádný jednotlivý paradigma nestačí. Metodologická pluralita je nutná, ale vyžaduje rigorózní disciplínu v každé z dimenzí.
 
 **Specifický metodologický háček EA výzkumu:** Belmont Report — respect/beneficence/justice. Special protections pro děti, vězně, kognitivně narušené. Surrogate consent + assent kombinace. LAR (Legally Authorized Representative).
 
@@ -25,7 +25,7 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 
 1. **Konstruktová validita má přednost** — EA fenomény jsou neostře definované, špatně operacionalizované measure devalvují celou studii.
 2. **Pre-registrace povinná** — bez OSF/AsPredicted protokolu otevíráte dveře HARKing a p-hackingu.
-3. **Dvojitá triangulace** — minimálně 3 zdroje dat (self-report, behavioral, physiological/observational).
+3. **Dvojitá triangulace** — minimálně 3 zdroje dat ([self-report](@/glossary/self-report.md), behavioral, physiological/observational).
 4. **Reflexivita explicitní** — výzkumník není neutrální nástroj, jeho pozice formuje data.
 5. **Etický gating na prvním místě** — žádná data nejsou dost cenná, aby ospravedlnila neetický design.
 6. **Replikovatelnost build-in** — kód, data (anonymizovaná), materiály do veřejného repozitáře.
@@ -33,22 +33,26 @@ EA výzkumník nesmí redukovat fenomén na pouhý měřitelný behavior, ani na
 ## Procedurální postup
 
 **Fáze 1 — Příprava (4-12 týdnů)**
+
 - Literature review s PRISMA flow chart
 - Pre-registrace na OSF (hypotézy, design, analýza uzamčeny)
 - IRB submission + amendments
 - Pilot study (n=10-30) pro feasibility a item refinement
 
 **Fáze 2 — Sběr dat (variabilní)**
+
 - Strict protocol adherence — deviations log povinný
 - Real-time data quality checks (missingness, výpadky)
 - Periodic safety review (DSMB pro intervenční studie)
 
 **Fáze 3 — Analýza (4-8 týdnů)**
+
 - Pre-registered analysis first, exploratory analyses jasně označené
 - Sensitivity analyses (alternative model specifications)
 - Multiple comparison correction (Bonferroni/FDR/Holm)
 
 **Fáze 4 — Reporting (4-12 týdnů)**
+
 - CONSORT/STROBE/COREQ checklist dle designu
 - Open materials/data/code (FAIR principles)
 - Limitations sekce explicitní, ne defenzivní

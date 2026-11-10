@@ -29,7 +29,7 @@ Dítě (4–12 let) v EA-emergency — typicky po expozici parentální gaslight
 1. **Vyber developmentálně přiměřený jazyk** — žádné termíny jako „manipulace", místo toho „někdo říká věci, co nejsou pravda".
 2. **Zajisti fyzickou přítomnost bezpečné dospělé osoby** — ne nutně rodič, může být učitel, prarodič, sociální pracovník.
 3. **Použij play-based assessment** — kresba, figurky, sand tray; ne přímý interview pro dítě pod 8 let.
-4. **Aktivuj OSPOD pokud je suspekt na CSA, parental alienation s ohrožením; ne unilaterálně, multidisciplinárně** — Aktivuj OSPOD pokud je suspekt na CSA, parental alienation s ohrožením; ne unilaterálně, multidisciplinárně.
+4. **Aktivuj OSPOD pokud je suspekt na CSA, [parental alienation](@/glossary/parental-alienation.md) s ohrožením; ne unilaterálně, multidisciplinárně** — Aktivuj OSPOD pokud je suspekt na CSA, parental alienation s ohrožením; ne unilaterálně, multidisciplinárně.
 5. **Naplánuj trauma-focused CBT-C nebo TF-CBT do 14 dní** — adaptovaný na děti, ne generický CBT.
 
 ## 3. Stabilizace
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

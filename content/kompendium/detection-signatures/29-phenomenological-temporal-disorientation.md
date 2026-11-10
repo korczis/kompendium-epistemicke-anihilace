@@ -73,7 +73,7 @@ Pozitivní při splnění všech bodů. Bod 4 je u časové dezorientace zvláš
 - **Disociativní amnézie** a disociativní poruchy s „ztraceným časem“ (srov. [disociativní amnézie](@/glossary/dissociativni-amnezie.md)).
 - **Deprese** s poruchami koncentrace a paměti.
 
-Postup: anamnéza, somatické a neurologické vyšetření podle uvážení lékaře, screening disociace ([DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md)) a v případě potřeby [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md).
+Postup: anamnéza, somatické a neurologické vyšetření podle uvážení lékaře, screening [disociace](@/glossary/disociace.md) ([DES-II](@/kompendium/techniques/ea-8-1-7-disociativni-experiences-scale.md)) a v případě potřeby [neuropsychologické vyšetření](@/kompendium/techniques/ea-6-1-5-neuropsychologicke-vysetreni.md).
 
 ## Riziko falešné pozitivity
 

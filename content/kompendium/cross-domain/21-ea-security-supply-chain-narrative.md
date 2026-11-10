@@ -63,7 +63,6 @@ xz-utils backdoor: maintainer 'Jia Tan' built trust over 2 years — narrative-v
 
 Supply chain audit: 4 of 12 critical libraries had maintainers with anomalous commit patterns (timezone shifts, weekend bursts) → escalated for review
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

@@ -54,7 +54,7 @@ Většinou US/UK clinical practice base. Méně guidance pro low-resource settin
 
 ## Vztah k jiným zdrojům
 
-Implementační vrstva pro **EA-8.2.6 ICD-11 Complex Trauma**, **EA-8.2.10 Herman Recovery Stages**. Synergie s **EA-8.3.8 Trauma Recovery Literature**.
+Implementační vrstva pro **EA-8.2.6 ICD-11 [Complex Trauma](@/glossary/complex-trauma.md)**, **EA-8.2.10 Herman Recovery Stages**. Synergie s **EA-8.3.8 Trauma Recovery Literature**.
 
 ## Cross-linky
 

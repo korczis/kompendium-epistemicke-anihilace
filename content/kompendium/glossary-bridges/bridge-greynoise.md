@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-GreyNoise je threat intelligence platforma poskytující analýzu internetového background scanning noise — identifikuje, které IP adresy jsou benign scanners (Censys, Shodan), kompromitované hosty masivně scanující web, nebo cílené targeted útočníky. V Prismatic OSINT toolboxu adapter pro IP enrichment a threat scoring.
+GreyNoise je threat intelligence platforma poskytující analýzu internetového background scanning noise — identifikuje, které IP adresy jsou benign scanners ([Censys](@/glossary/censys.md), [Shodan](@/glossary/shodan.md)), kompromitované hosty masivně scanující web, nebo cílené targeted útočníky. V Prismatic [OSINT](@/glossary/osint.md) toolboxu adapter pro IP enrichment a threat scoring.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

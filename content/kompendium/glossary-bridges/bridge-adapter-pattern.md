@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Adapter pattern je strukturální návrhový vzor umožňující integraci nekompatibilních rozhraní pomocí překládací vrstvy. V kontextu Prismatic platformy je adapter konkrétní implementace standardizovaného behaviour (např. Storage adapter, OSINT adapter), která zapouzdřuje externí integrační detaily a vystavuje uniformní API svým konzumentům.
+Adapter pattern je strukturální návrhový vzor umožňující integraci nekompatibilních rozhraní pomocí překládací vrstvy. V kontextu Prismatic platformy je adapter konkrétní implementace standardizovaného behaviour (např. Storage adapter, [OSINT](@/glossary/osint.md) adapter), která zapouzdřuje externí integrační detaily a vystavuje uniformní API svým konzumentům.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

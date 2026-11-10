@@ -97,7 +97,7 @@ V tomto stavu je subjekt **maximálně závislý** na manipulátorovi pro orient
 Co prožívá subjekt **uvnitř** identitní dezintegrace:
 
 - **Sebefragmentace** — *„v různých situacích jsem úplně jiný člověk"*
-- **Depersonalizace** — *„dívám se na sebe zvenčí"*, *„nejsem to úplně já, kdo jedná"*
+- **[Depersonalizace](@/glossary/depersonalizace.md)** — *„dívám se na sebe zvenčí"*, *„nejsem to úplně já, kdo jedná"*
 - **Derealizace** — *„svět je za sklem"*, *„vše je nějak nereálné"*
 - **Autobiografická amnézie** — neschopnost spojit aktuální prožívání s konkrétními minulými událostmi
 - **Cizota vůči vlastním záznamům** — vlastní deníky, fotografie, e-maily se zdají *něčí jiné*
@@ -196,7 +196,7 @@ Intervence: Třiměsíční hospitalizace + osmnáctiměsíční exit counseling
 
 Detekce: Při prvním kontaktu s exit counselorem nedokázala odpovědět na otázku *„kdo jsi?"*.
 
-Intervence: Kombinace EMDR, narativní terapie, strukturované auto-archeologie. Rekonstituce trvala čtyři roky.
+Intervence: Kombinace EMDR, [narativní terapie](@/glossary/narativni-terapie.md), strukturované auto-archeologie. Rekonstituce trvala čtyři roky.
 
 ### Případ 3 — High-control vztah
 
@@ -231,7 +231,7 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
 
 - **[NABLA Infinity](@/glossary/nabla-infinity.md) narrative integrity check** — provenance graf každého subjektově-relevantního tvrzení je analyzován na **kontinuitu** s předchozími tvrzeními téhož aktéra; náhlé diskontinuity jsou flagovány.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} self-model audit** — rozhodnutí týkající se vlastní identity (kariérní, vztahové, hodnotové) jsou validována proti dlouhodobému self-model snapshotu; extrémní deviace vyžaduje **dvojí potvrzení**.
-- **Color Teams identity defense protocol** — *Blue Team* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
+- **[Color Teams](@/glossary/color-teams.md) identity defense protocol** — *[Blue Team](@/glossary/blue-team.md)* aktivně monitoruje high-risk kontexty (mentoring, terapeutické vztahy, intenzivní formace) na markery dezintegrace.
 
 ## Související
 
@@ -257,7 +257,6 @@ Identitní dezintegrace má v Prismatic platformě tři hlavní defenzivní mapo
 - **Forward-refs**:
   - [Kapitola 4 — Operační principy](@/kompendium/04-operacni-principy/_index.md)
   - [Kapitola 6 — Epistemická singularita](@/kompendium/06-epistemicka-singularita/_index.md)
-
 
 ## ⚡ Kritický krok
 

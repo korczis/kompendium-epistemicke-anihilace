@@ -8,7 +8,7 @@ description = "Information operations — military and intelligence-grade episte
 tags = ["glossary", "security", "epistemic", "kompendium"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["epistemic-security", "firehose-of-falsehood", "deepfake", "deplatforming", "epistemicka-anihilace", "delegitimizace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -32,7 +32,7 @@ Info-Ops differ from civilian disinformation in three structural respects:
 2. **Integration with kinetic action** — IO is rarely standalone; it shapes the information environment to enable, conceal, or amplify physical operations.
 3. **Doctrinal continuity** — operations are conducted across years and decades, with continuous learning, infrastructure investment, and persona-development that short-horizon civilian campaigns cannot match.
 
-Contemporary IO has been extensively studied through campaigns including the Russian Internet Research Agency's 2014–2018 operations, the People's Republic of China's "discourse power" doctrine and United Front activity, Iranian influence networks, and various Western counter-IO programs. Empirically, well-resourced IO produces measurable effects on target-population belief, behavior, and trust — though specific causal magnitudes are contested due to attribution and effect-isolation difficulties.
+Contemporary IO has been extensively studied through campaigns including the Russian Internet Research Agency's 2014–2018 operations, the People's Republic of China's “discourse power” doctrine and United Front activity, Iranian influence networks, and various Western counter-IO programs. Empirically, well-resourced IO produces measurable effects on target-population belief, behavior, and trust — though specific causal magnitudes are contested due to attribution and effect-isolation difficulties.
 
 The expansion of IO into **gray-zone** operations (below threshold of armed conflict but above peacetime competition) and **hybrid warfare** doctrines means that IO is no longer confined to declared wartime. The civilian information environment is now persistently contested by state and state-proxy actors, with downstream consequences for journalism, electoral integrity, and public-health communication.
 
@@ -43,7 +43,7 @@ Within the Prismatic Platform, Info-Ops represents the **adversary capability ce
 - The Kompendium catalogues IO-relevant techniques across multiple chapters but treats Info-Ops itself as a **scenario class** rather than a single technique. State-level adversaries deploy combinations from the EA catalog with resources and persistence that exceed the standard threat model assumed for individual or small-group manipulation.
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} implements **adversarial provenance scoring**: in environments with active IO, source diversity is necessary but not sufficient — the diverse sources must also pass cross-correlation checks for coordinated inauthentic behavior signatures.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) source-provenance auditing is designed in part to defend against IO operations that exploit credentialed channels (compromised journalists, captured think-tanks, infiltrated NGOs).
-- [Color Teams](@/glossary/color-teams.md) Red Team scenarios at the highest tier model state-actor IO campaigns as the ceiling threat — if defenses hold against this, they hold against lesser threats.
+- [Color Teams](@/glossary/color-teams.md) [Red Team](@/glossary/red-team.md) scenarios at the highest tier model state-actor IO campaigns as the ceiling threat — if defenses hold against this, they hold against lesser threats.
 - The [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entry describes one specific IO doctrinal approach.
 - [Deepfake](@/glossary/deepfake.md) capabilities are increasingly integrated into IO toolkits.
 - [Epistemic Security](@/glossary/epistemic-security.md) provides the field-level frame within which IO is the dominant external threat.

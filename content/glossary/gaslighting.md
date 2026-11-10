@@ -8,7 +8,7 @@ description = "Specifický manipulační vzorec útočící na důvěru jedince 
 tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "metakognitivni-destrukce", "delegitimizace", "epistemicke-trauma", "metakognice"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -29,7 +29,7 @@ image_alt = "Gaslighting - glossary"
 Within the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md), gaslighting is treated as the **interpersonal-relational realization** of [epistemická anihilace](@/glossary/epistemicka-anihilace.md). It overlaps two specific kompendium codes with high reliability:
 
 - **EA-1.3.2 (Strategic reinterpretation)** — past events are retroactively reframed so that the target's original interpretation is presented as confused, malicious, or pathological. Each individual reinterpretation may be plausible; the cumulative effect is that the target's autobiographical record is rewritten by the manipulator.
-- **EA-1.4.2 (Latent emotional modulation)** — the target's emotional responses are systematically reframed as overreactions, projections, or symptoms, severing the natural epistemic feedback that emotions provide ("you're being paranoid", "you're too sensitive", "this is your trauma talking").
+- **EA-1.4.2 (Latent emotional modulation)** — the target's emotional responses are systematically reframed as overreactions, projections, or symptoms, severing the natural epistemic feedback that emotions provide (“you're being paranoid”, “you're too sensitive”, “this is your trauma talking”).
 
 The combined attack is diagnostic: any time the target attempts to use their own observation as evidence (perceptual or autobiographical), the channel is denied; any time the target attempts to use their own emotional reaction as a signal, the channel is pathologized. Both anchors of first-person epistemic standing are simultaneously disabled.
 
@@ -39,10 +39,10 @@ Within the Prismatic Platform, gaslighting patterns are addressed at multiple la
 
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats **observer-state corruption signals** (e.g., self-reported confidence collapsing in the presence of a specific counterparty) as decision quality indicators in their own right — even when the underlying factual question remains undecided.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements **immutable observation logs**: once a perception is recorded with timestamp and provenance, it cannot be retroactively rewritten by later narrative pressure. This corresponds to the kompendium's structural defense against EA-1.3.2.
-- The [Color Teams](@/glossary/color-teams.md) Red Team explicitly tests platform UX for gaslighting-adjacent patterns (changing displayed history without an audit entry, suppressing user-confirmed events, reframing user actions in admin views).
+- The [Color Teams](@/glossary/color-teams.md) [Red Team](@/glossary/red-team.md) explicitly tests platform UX for gaslighting-adjacent patterns (changing displayed history without an audit entry, suppressing user-confirmed events, reframing user actions in admin views).
 - Per-pattern Czech-language documentation is at [/kompendium/techniques/ea-1-3-2-strategic-reinterpretation/](@/kompendium/techniques/ea-1-3-2-strategic-reinterpretation.md) and [/kompendium/techniques/ea-1-4-2-latent-emotional-modulation/](@/kompendium/techniques/ea-1-4-2-latent-emotional-modulation.md).
 
-Diagnostic markers include: the target second-guessing recent first-hand observations with no new evidence; emotional reactions consistently labeled as the "real problem" rather than the trigger; selective forgetting "remembered" by only one party; isolation from corroborating witnesses; and the manipulator's invocation of mental-health framings to delegitimize disagreement. The **two-witness test** (does the pattern survive when both parties have access to identical written/recorded records?) often exposes gaslighting where intuition alone cannot.
+Diagnostic markers include: the target second-guessing recent first-hand observations with no new evidence; emotional reactions consistently labeled as the “real problem” rather than the trigger; selective forgetting “remembered” by only one party; isolation from corroborating witnesses; and the manipulator's invocation of mental-health framings to delegitimize disagreement. The **two-witness test** (does the pattern survive when both parties have access to identical written/recorded records?) often exposes gaslighting where intuition alone cannot.
 
 Gaslighting is the **personal-scale analog** of mass [delegitimizace](@/glossary/delegitimizace.md): both work by disabling the target's access to corroborating sources. In gaslighting, the manipulator *is* the substitute source. Recovery typically requires reconstruction of independent witnesses (records, third parties) before content-level revision can stick — see [epistemické trauma](@/glossary/epistemicke-trauma.md) for trajectory data.
 

@@ -51,7 +51,7 @@ Schopnost rychle změnit názor; pokles emocionální vazby na vlastní teorie; 
 
 ## Limitace
 
-Naivní falsifikace ignoruje, že vědecké teorie odolávají vyvrácení skrze pomocné hypotézy. Není to mechanická procedura.
+Naivní [falsifikace](@/glossary/falsifikace.md) ignoruje, že vědecké teorie odolávají vyvrácení skrze pomocné hypotézy. Není to mechanická procedura.
 
 ## Cross-linky
 

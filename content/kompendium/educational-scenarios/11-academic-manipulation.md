@@ -131,18 +131,22 @@ institucionální možnosti a na průvodce [hodnocením mentorů](@/kompendium/s
 ## Související
 
 **Navazující scénáře**
+
 - [Přesahy mentora](@/kompendium/educational-scenarios/12-mentor-overreach.md) – kdy vedení přechází v kontrolu.
 - [Zkreslení v peer review](@/kompendium/educational-scenarios/13-peer-review-bias.md) – systémová rovina téhož prostředí.
 - [Vzorec gaslightingu](@/kompendium/educational-scenarios/19-gaslighting-pattern.md) – plně rozvinutá podoba zpochybňování reality.
 
 **Techniky**
+
 - [EA-2.2.1 Mentor Self-totalizace](@/kompendium/techniques/ea-2-2-1-mentor-self-totalizace.md) – mentor jako jediná autorita.
 - [EA-2.5.2 Imposter Syndrome Amplifikace](@/kompendium/techniques/ea-2-5-2-imposter-syndrome-amplifikace.md) – zesilování pocitu nedostatečnosti.
 
 **Detekční signatury**
+
 - [Odpor k upřesnění](@/kompendium/detection-signatures/10-behavioral-resistance-to-clarification.md) – klíčový test.
 
 **Sebe-obrana a prevence**
+
 - [Hodnocení mentorů](@/kompendium/self-defense-guides/27-mentor-evaluation.md) – návod pro doktorandy.
 - [Asertivní komunikace](@/kompendium/self-defense-guides/24-communication-assertiveness.md) – jak žádat konkrétnost.
 - [Akademický dohled](@/kompendium/prevention-resilience/17-academic-supervision-prevention.md) – institucionální prevence.

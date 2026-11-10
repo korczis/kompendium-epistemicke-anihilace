@@ -63,7 +63,6 @@ Ransomware attack: company communicated 'no data exfiltration' within 4h — tur
 
 Breach disclosure: company used pre-drafted template, transparent timeline, root cause within 7 days → market response neutral, customer churn <0.5 %
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

@@ -47,20 +47,20 @@ Inverze probíhá v pěti krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Identifikace epistemických standardů subjektu
 
-Manipulátor mapuje, **jak subjekt hodnotí evidenci**. Klíčové dimenze: jaké zdroje subjekt považuje za autoritativní, jak hodnotí konflikty mezi důkazy, jaké heuristiky používá pro kvalitu argumentu (koherence, parsimonie, falsifikovatelnost). Cílem mapování je **identifikace meta-pravidel**, ne obsahových přesvědčení.
+Manipulátor mapuje, **jak subjekt hodnotí evidenci**. Klíčové dimenze: jaké zdroje subjekt považuje za autoritativní, jak hodnotí konflikty mezi důkazy, jaké heuristiky používá pro kvalitu argumentu (koherence, parsimonie, [falsifikovatelnost](@/glossary/falsifikovatelnost.md)). Cílem mapování je **identifikace meta-pravidel**, ne obsahových přesvědčení.
 
 ### Krok 2 — Etablování pseudo-meta-úrovně
 
-Manipulátor se etabluje jako **někdo, kdo rozumí standardům lépe než subjekt sám**. Klíčová formulace: *"To, co považuješ za rigorózní, je naivní rigor — skutečný rigor je jinde."* Subjekt přijímá meta-pozici manipulátora jako **legitimnější** než svou vlastní.
+Manipulátor se etabluje jako **někdo, kdo rozumí standardům lépe než subjekt sám**. Klíčová formulace: *„To, co považuješ za rigorózní, je naivní rigor — skutečný rigor je jinde.“* Subjekt přijímá meta-pozici manipulátora jako **legitimnější** než svou vlastní.
 
 ### Krok 3 — Postupná inverze jednotlivých standardů
 
-Pod záminkou "hlubšího rigoru" jsou jednotlivé standardy obraceny. Příklady postupných inverzí:
+Pod záminkou „hlubšího rigoru“ jsou jednotlivé standardy obraceny. Příklady postupných inverzí:
 
-- *"Skutečný důkaz nepřesvědčuje — skutečný důkaz je obtížně přijatelný"* — což z **odmítnutí přijmout** činí **kritérium pravdivosti**.
-- *"Konsenzus expertů je důkazem jejich kolektivní slepoty"* — z **konsensuální podpory** se stává **markerem nepravdivosti**.
-- *"Reliabilita zdroje znamená, že zdroj příliš dobře zapadá do systému, a tedy ho reprodukuje"* — z **konzistence** se stává **podezření**.
-- *"Koherence znamená nedostatek hloubky — pravda je vnitřně rozporná"* — z **logické konzistence** se stává **mělkost**.
+- *„Skutečný důkaz nepřesvědčuje — skutečný důkaz je obtížně přijatelný“* — což z **odmítnutí přijmout** činí **kritérium pravdivosti**.
+- *„Konsenzus expertů je důkazem jejich kolektivní slepoty“* — z **konsensuální podpory** se stává **markerem nepravdivosti**.
+- *„Reliabilita zdroje znamená, že zdroj příliš dobře zapadá do systému, a tedy ho reprodukuje“* — z **konzistence** se stává **podezření**.
+- *„Koherence znamená nedostatek hloubky — pravda je vnitřně rozporná“* — z **logické konzistence** se stává **mělkost**.
 
 Každá jednotlivá inverze je prezentována jako **osvícení**, ne jako převrácení.
 
@@ -70,17 +70,17 @@ Subjekt je veden k **opakované aplikaci** převrácených standardů na konkré
 
 ### Krok 5 — Konsolidace skrze identitární investici
 
-Subjekt **investuje vlastní identitu** do převrácených standardů. *"Já jsem ten, kdo vidí, co ostatní nevidí"*, *"Patřím mezi ty, kdo prokoukli mainstream"*. Identitární investice činí inverzi obtížně reverzibilní, protože návrat by vyžadoval **uznat, že identita stála na chybě**.
+Subjekt **investuje vlastní identitu** do převrácených standardů. *„Já jsem ten, kdo vidí, co ostatní nevidí“*, *„Patřím mezi ty, kdo prokoukli mainstream“*. Identitární investice činí inverzi obtížně reverzibilní, protože návrat by vyžadoval **uznat, že identita stála na chybě**.
 
 ## Fenomenologie
 
 Co prožívá subjekt **uvnitř** meta-epistemické inverze:
 
 - **Pocit hlubšího vhledu** — silnější přesvědčení o pravdivosti vlastních soudů než před inverzí.
-- **Disproporční opovržení** vůči standardní akademické a vědecké práci — interpretovaná jako "naivní" nebo "systémem zaslepená".
+- **Disproporční opovržení** vůči standardní akademické a vědecké práci — interpretovaná jako „naivní“ nebo „systémem zaslepená“.
 - **Epistemická euforie** při interpretacích, které jsou v běžném smyslu **silně nepodložené** — euforie roste s rostoucí nepodloženností.
 - **Averze ke konsensu** — pocit, že shoda mnoha zdrojů je důkazem zkreslení.
-- **Zvláštní oddanost zdrojům s nízkou reliabilitou** — interpretovaným jako "neporušené systémem".
+- **Zvláštní oddanost zdrojům s nízkou reliabilitou** — interpretovaným jako „neporušené systémem“.
 - **Postupná ztráta schopnosti rozpoznat vlastní inverzi** — meta-reflexe sama operuje s převrácenými pravidly, takže nedokáže detekovat poruchu.
 
 V pokročilejších stadiích kombinace s [EA-5.2.10 meta-kognitivní singularitou](@/kompendium/techniques/ea-5-2-10-meta-kognitivni-singularita.md) způsobuje úplnou meta-reflexivní paralýzu.
@@ -151,7 +151,7 @@ Konzultace s **expertem mimo** komunitu, ke které subjekt patří. Cíl není p
 
 ### Případ 1 — Konverze v alternativní medicínské komunitě
 
-Subjekt s biomedicínským vzděláním postupně přijal meta-epistemickou inverzi v rámci alternativní medicínské komunity. Inverze probíhala 18 měsíců. Markery: postupné odmítání randomizovaných studií jako "redukcionistických", důvěra v anekdotické zprávy jako "holisticky validní", interpretace replikačních krizí jako "důkazu, že celá paradigma je špatná".
+Subjekt s biomedicínským vzděláním postupně přijal meta-epistemickou inverzi v rámci alternativní medicínské komunity. Inverze probíhala 18 měsíců. Markery: postupné odmítání randomizovaných studií jako „redukcionistických“, důvěra v anekdotické zprávy jako „holisticky validní“, interpretace replikačních krizí jako „důkazu, že celá paradigma je špatná“.
 
 Detekce: rodinný lékař (mimo komunitu) zaznamenal, že subjekt argumentuje s rostoucí přesvědčivostí, ale s klesající reliabilitou zdrojů.
 
@@ -159,7 +159,7 @@ Intervence: dvouletá rekonstrukce skrze postupné externí konzultace, formaliz
 
 ### Případ 2 — Akademická patologie v PhD programu
 
-PhD kandidát ve filozofii vědy přijal v rámci radikálně relativistické školy meta-epistemickou inverzi. Mentor systematicky reframoval standardní vědecké standardy jako "naivní pozitivismus".
+PhD kandidát ve filozofii vědy přijal v rámci radikálně relativistické školy meta-epistemickou inverzi. Mentor systematicky reframoval standardní vědecké standardy jako „naivní pozitivismus“.
 
 Detekce: externí evaluátor disertace zjistil, že kandidát kritizuje konkrétní vědecké teorie, ale **používá kritéria, která činí kritiku samu kritikem nezasaženou**.
 
@@ -167,7 +167,7 @@ Intervence: rekonstrukce disertace s explicitní metodologickou tematizací meta
 
 ### Případ 3 — Komunitní inverze v online prostředí
 
-Online komunita postupně rozvinula sdílenou meta-epistemickou inverzi okolo specifického politického tématu. Členové prožívali komunitu jako *"jediné místo, kde se přemýšlí poctivě"*.
+Online komunita postupně rozvinula sdílenou meta-epistemickou inverzi okolo specifického politického tématu. Členové prožívali komunitu jako *„jediné místo, kde se přemýšlí poctivě“*.
 
 Detekce: longitudinální analýza vlákna ukázala postupný posun standardů, kde **nejvíce přesvědčivé argumenty** byly **systematicky odmítány** a **nejméně podložené tvrzení** sdíleny nejvíce.
 
@@ -190,8 +190,8 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
 ## Vztah k Prismatic platformě
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop** — kalibrační smyčka explicitně testuje **meta-pravidla** rozhodování proti externí evidenci, čímž detekuje inverzi.
-- **OSINT framework's source-quality matrix** — strukturovaná hodnotící mřížka brání idiosynkratickému převrácení reliability.
-- **NABLA Infinity epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
+- **[OSINT](@/glossary/osint.md) framework's source-quality matrix** — strukturovaná hodnotící mřížka brání idiosynkratickému převrácení reliability.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) epistemic provenance** — každý epistemický akt má dohledatelnou strukturu, takže inverze meta-pravidel je viditelná v auditní stopě.
 
 ## Související
 
@@ -205,7 +205,6 @@ Intervence: deplatformizace a rozprášení komunity — rekonstrukce standardů
   - [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md)
   - [Taxonomie EA](@/glossary/taxonomie-ea.md)
 - **Filozofie**: [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

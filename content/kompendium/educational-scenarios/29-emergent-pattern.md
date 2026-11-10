@@ -141,19 +141,23 @@ osobních údajů a minimalizace dat při práci s reálnými záznamy; viz
 ## Související
 
 **Navazující scénáře**
+
 - [Koordinace na více cílech](@/kompendium/educational-scenarios/28-multi-target-coordination.md) – kvalitativní podoba téže úlohy.
 - [Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – agregace v síťových datech.
 - [Zkreslení v peer review](@/kompendium/educational-scenarios/13-peer-review-bias.md) – akademické prostředí na úrovni instituce.
 
 **Metodologie**
+
 - [Časové řady v EA monitoringu](@/kompendium/research-methodology/time-series-EA.md) – analýza časového zlomu.
 - [Tematická analýza](@/kompendium/research-methodology/thematic-analysis-EA.md) – kódování textových záznamů.
 
 **Organizační obrana**
+
 - [Sledovatelnost rozhodnutí](@/kompendium/organizational-defense/21-decision-traceability.md) – data, která umožňují vzorec vidět.
 - [Učení po incidentu](@/kompendium/organizational-defense/40-post-incident-learning.md) – co s výsledkem udělat.
 
 **Glosář**
+
 - [Pattern evidence](@/glossary/pattern-evidence.md) – vzorec jako důkaz.
 - [Graph theory](@/glossary/graph-theory.md) – nástroje pro shlukování podle vztahů.
 

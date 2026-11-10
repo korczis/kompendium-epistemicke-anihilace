@@ -18,7 +18,7 @@ toc = true
 1-8: Source credibility, ARES validation, justice.cz screening, sankční seznamy bias, social media manipulation, bot detection, narrative injection, cross-source triangulation.
 
 ### EA × Due Diligence (8 articles)
-9-16: Investigation bias, source weighting, decision engine kalibrace, counterparty manipulation, beneficial ownership disinformation, narrative warfare, evidence quality, confirmation bias prevention.
+9-16: Investigation bias, source weighting, [decision engine](@/glossary/decision-engine.md) kalibrace, counterparty manipulation, beneficial ownership disinformation, narrative warfare, evidence quality, confirmation bias prevention.
 
 ### EA × Security (8 articles)
 17-24: Social engineering, spear phishing, disinformation defense, insider threat, supply chain narrative, incident response, attribution bias, threat intelligence validation.

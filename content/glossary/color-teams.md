@@ -7,7 +7,7 @@ description = "Six adversarial-defensive security teams providing epistemic secu
 tags = ["glossary", "security", "color-teams", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["red-team", "blue-team", "purple-team", "gray-team", "white-team", "black-team", "attack-surface", "chaos-engineering", "easm", "hawkeye", "lean4", "qeve", "rbac", "threat-intelligence", "agent-tier", "agent-registry", "nabla-infinity", "trinity-gate", "epistemic-pipeline", "formal-verification", "consciousness-traits"]
 domain = "epistemic-security"
 complexity = "advanced"
@@ -39,7 +39,7 @@ image_alt = "Color Teams - Prismatic Platform"
 
 ## Definition and Overview
 
-Color Teams is the collective designation for six specialized security teams that provide epistemic security through adversarial-defensive synthesis within the Prismatic Platform. The teams -- Gray (boundary exploration), Red (adversarial simulation), Blue (epistemic defense), Purple (synthesis and closure), White (constructive verification), and Black (theoretical threat modeling) -- operate 20 agents across a structured signal flow architecture where findings cascade from exploration through adversarial testing to validated defense. Together they form a closed-loop security ecosystem where every defensive posture is tested against adversarial scenarios, every adversarial finding is mapped to defensive responses, and every claim of security is formally verified through [Trinity Gate](@/glossary/trinity-gate.md).
+Color Teams is the collective designation for six specialized security teams that provide [epistemic security](@/glossary/epistemic-security.md) through adversarial-defensive synthesis within the Prismatic Platform. The teams — Gray (boundary exploration), Red (adversarial simulation), Blue (epistemic defense), Purple (synthesis and closure), White (constructive verification), and Black (theoretical threat modeling) — operate 20 agents across a structured signal flow architecture where findings cascade from exploration through adversarial testing to validated defense. Together they form a closed-loop security ecosystem where every defensive posture is tested against adversarial scenarios, every adversarial finding is mapped to defensive responses, and every claim of security is formally verified through [Trinity Gate](@/glossary/trinity-gate.md).
 
 The Color Teams architecture draws from military and intelligence community traditions where distinct operational teams with different perspectives and mandates converge on a shared objective. Traditional cybersecurity organizations have employed Red Teams (offense) and Blue Teams (defense) since the Cold War era, with Purple Teams emerging in the 2010s to bridge the gap between the two. The key innovation in Prismatic's implementation is the epistemic focus: rather than testing network defenses or application vulnerabilities in the traditional sense, Color Teams test the platform's ability to form accurate beliefs, resist manipulation of its knowledge systems, and maintain epistemic integrity under adversarial pressure. This is security applied to the reasoning process itself.
 
@@ -51,13 +51,13 @@ The concept of adversarial testing in security predates computing entirely. Mili
 
 The cybersecurity industry adopted these color designations beginning in the 1990s. Red Teams conducted penetration testing, Blue Teams operated security operations centers, and the nascent Purple Team concept emerged when organizations recognized that adversarial and defensive operations were most effective when tightly coupled. The SANS Institute and MITRE ATT&CK framework further codified these roles in the 2010s.
 
-Prismatic's Color Teams extend this tradition in three novel directions. First, they add Gray Team (boundary exploration) and Black Team (theoretical threat modeling) to address epistemic concerns that traditional security teams overlook. Second, they add White Team (constructive verification) to bring formal methods -- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, property-based testing, contract validation -- into the security loop. Third, they operate at the epistemic level, testing not just systems but the platform's ability to reason correctly under adversarial conditions. This shift reflects the unique security requirements of AI-native platforms where the reasoning process itself is a critical attack surface.
+Prismatic's Color Teams extend this tradition in three novel directions. First, they add Gray Team (boundary exploration) and Black Team (theoretical threat modeling) to address epistemic concerns that traditional security teams overlook. Second, they add White Team (constructive verification) to bring formal methods — [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, property-based testing, contract validation — into the security loop. Third, they operate at the epistemic level, testing not just systems but the platform's ability to reason correctly under adversarial conditions. This shift reflects the unique security requirements of AI-native platforms where the reasoning process itself is a critical attack surface.
 
 ## The Six Teams
 
-### Gray Team -- Boundary Exploration (3 Agents)
+### Gray Team — Boundary Exploration (3 Agents)
 
-Gray Team performs read-only exploration of specification gaps, edge cases, and affordance drift. Its mandate is to surface ambiguity without resolving it -- identifying the boundaries where system behavior becomes undefined or unexpected. Gray Team enforces zero state changes in all operations, ensuring its exploration never alters the systems it examines.
+Gray Team performs read-only exploration of specification gaps, edge cases, and affordance drift. Its mandate is to surface ambiguity without resolving it — identifying the boundaries where system behavior becomes undefined or unexpected. Gray Team enforces zero state changes in all operations, ensuring its exploration never alters the systems it examines.
 
 | Agent | Authority | Role |
 |-------|-----------|------|
@@ -65,9 +65,9 @@ Gray Team performs read-only exploration of specification gaps, edge cases, and 
 | `gray-edge-finder` | L4 Specialist | Boundary value analysis, specification gap identification |
 | `gray-escalation-guard` | L4 Safety-Critical | Prevents Gray-to-Black escalation, override authority to halt operations |
 
-The `gray-escalation-guard` is particularly critical -- it prevents Gray Team's boundary exploration from inadvertently entering [Black Team](@/glossary/black-team.md) territory, maintaining the isolation boundary between exploratory and theoretical threat domains. This guard has override authority to halt any Gray operation that approaches the escalation threshold.
+The `gray-escalation-guard` is particularly critical — it prevents Gray Team's boundary exploration from inadvertently entering [Black Team](@/glossary/black-team.md) territory, maintaining the isolation boundary between exploratory and theoretical threat domains. This guard has override authority to halt any Gray operation that approaches the escalation threshold.
 
-### Red Team -- Adversarial Simulation (4 Agents)
+### Red Team — Adversarial Simulation (4 Agents)
 
 [Red Team](@/glossary/red-team.md) simulates epistemic attacks using five defined primitives: truth distortion, confidence manipulation, signal poisoning, drift induction, and salience hijacking. All execution is sandboxed with synthetic data only, and every scenario is logged in an immutable audit trail. Red Team's findings flow to [Purple Team](@/glossary/purple-team.md) for synthesis and to [Blue Team](@/glossary/blue-team.md) for defensive response.
 
@@ -80,7 +80,7 @@ The `gray-escalation-guard` is particularly critical -- it prevents Gray Team's 
 
 The Red Team scenario taxonomy contains 329 entries organized by attack primitive, target subsystem, and complexity level. Each scenario includes preconditions, execution steps, expected indicators, and detection signatures that feed directly into Blue Team monitoring configurations.
 
-### Blue Team -- Epistemic Defense (4 Agents)
+### Blue Team — Epistemic Defense (4 Agents)
 
 [Blue Team](@/glossary/blue-team.md) maintains the platform's defensive posture through evidence synthesis. Unlike traditional Blue Teams that respond to active threats, Prismatic's Blue Team produces structured evidence assessments grounded in [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. It aggregates signals from multiple domains, detects behavioral and configuration drift, and maintains a continuously updated defensive posture.
 
@@ -91,9 +91,9 @@ The Red Team scenario taxonomy contains 329 entries organized by attack primitiv
 | `blue-drift-detector` | L2 Operational | Behavioral, configuration, dependency, and performance drift detection |
 | `blue-signal-aggregator` | L2 Operational | Cross-domain signal correlation with NABLA plurality enforcement |
 
-### Purple Team -- Synthesis and Closure (4 Agents)
+### Purple Team — Synthesis and Closure (4 Agents)
 
-[Purple Team](@/glossary/purple-team.md) serves as the central hub for Red-Blue loop closure. It is the sole authority for closure state transitions -- determining when a security finding has been adequately addressed by defensive measures. Purple Team embodies the principle that "Purple is the property of the system when it stops lying to itself."
+[Purple Team](@/glossary/purple-team.md) serves as the central hub for Red-Blue loop closure. It is the sole authority for closure state transitions — determining when a security finding has been adequately addressed by defensive measures. Purple Team embodies the principle that “Purple is the property of the system when it stops lying to itself.”
 
 | Agent | Authority | Role |
 |-------|-----------|------|
@@ -104,7 +104,7 @@ The Red Team scenario taxonomy contains 329 entries organized by attack primitiv
 
 Purple Team's `purple-regression-guard` prevents a particularly dangerous failure mode: false closure, where a security finding appears resolved but the underlying vulnerability persists in a different form. The 4-condition closure evaluation requires evidence from Red Team (confirming the attack no longer succeeds), Blue Team (confirming the defense is active), White Team (confirming formal properties hold), and Purple Team itself (confirming no regression indicators).
 
-### White Team -- Constructive Verification (3 Agents)
+### White Team — Constructive Verification (3 Agents)
 
 White Team proves that systems hold through progressive methodology spanning levels L0 through L5 of verification rigor. The team produces evidence artifacts using [formal verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) techniques including [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, property-based testing, and contract validation. All White Team output passes through [Trinity Gate](@/glossary/trinity-gate.md).
 
@@ -114,9 +114,9 @@ White Team proves that systems hold through progressive methodology spanning lev
 | `white-contract-validator` | L4 Operational | Interface contract testing, behaviour/protocol/API validation |
 | `white-invariant-prover` | L4 Operational | Property-based testing, formal Lean4 proofs, fault injection analysis |
 
-### Black Team -- Theoretical Threat Modeling (2 Agents)
+### Black Team — Theoretical Threat Modeling (2 Agents)
 
-[Black Team](@/glossary/black-team.md) operates under MAXIMUM isolation constraints, performing pure epistemic simulation of worst-case adversarial optimization. It produces abstract threat models only -- never executable content. All output is filtered through L1-L4 AbstractionFilter, and the team has zero network connectivity.
+[Black Team](@/glossary/black-team.md) operates under MAXIMUM isolation constraints, performing pure epistemic simulation of worst-case adversarial optimization. It produces abstract threat models only — never executable content. All output is filtered through L1-L4 AbstractionFilter, and the team has zero network connectivity.
 
 | Agent | Authority | Role |
 |-------|-----------|------|
@@ -322,7 +322,7 @@ Color Teams consume [threat intelligence](https://prismatic-reality-com.github.i
 
 ### Quality Gates Integration
 
-Color Team findings feed into [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) as security constraints. A finding with severity "critical" that lacks Purple Team closure blocks deployment through the platform's pre-commit quality gate system.
+Color Team findings feed into [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) as security constraints. A finding with severity “critical” that lacks Purple Team closure blocks deployment through the platform's pre-commit quality gate system.
 
 ## Best Practices
 
@@ -350,30 +350,30 @@ Color Team findings feed into [quality gates](https://prismatic-reality-com.gith
 
 ## Related Terms
 
-- [Red Team](@/glossary/red-team.md) -- Adversarial simulation team with 4 agents and 5 attack primitives
-- [Blue Team](@/glossary/blue-team.md) -- Epistemic defense team producing structured evidence
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis and closure authority mediating Red-Blue loop
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team seeding the signal flow
-- [White Team](@/glossary/white-team.md) -- Constructive verification team using formal proofs
-- [Black Team](@/glossary/black-team.md) -- Maximum isolation theoretical threat modeling team
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 authority classification for all Color Team agents
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog tracking all 20 Color Team agents
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework that Color Teams test and defend
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate validated by White Team proofs
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- Techniques used by White Team
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in White Team formal proofs
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline that Color Teams protect
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- External surface monitored alongside epistemic surface
-- [EASM](@/glossary/easm.md) -- External attack surface management complementing Color Teams
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Intelligence feeds consumed by Color Teams
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Platform traits requiring epistemic security protection
+- [Red Team](@/glossary/red-team.md) — Adversarial simulation team with 4 agents and 5 attack primitives
+- [Blue Team](@/glossary/blue-team.md) — Epistemic defense team producing structured evidence
+- [Purple Team](@/glossary/purple-team.md) — Synthesis and closure authority mediating Red-Blue loop
+- [Gray Team](@/glossary/gray-team.md) — Boundary exploration team seeding the signal flow
+- [White Team](@/glossary/white-team.md) — Constructive verification team using formal proofs
+- [Black Team](@/glossary/black-team.md) — Maximum isolation theoretical threat modeling team
+- [Agent Tier](@/glossary/agent-tier.md) — L1-L5 authority classification for all Color Team agents
+- [Agent Registry](@/glossary/agent-registry.md) — Central catalog tracking all 20 Color Team agents
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework that Color Teams test and defend
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate validated by White Team proofs
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) — Techniques used by White Team
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) — Theorem prover used in White Team formal proofs
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16-level pipeline that Color Teams protect
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) — External surface monitored alongside epistemic surface
+- [EASM](@/glossary/easm.md) — External attack surface management complementing Color Teams
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) — Intelligence feeds consumed by Color Teams
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) — Platform traits requiring epistemic security protection
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including all Color Team agents
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform capability catalog
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog including all Color Team agents
 
 ---
 

@@ -98,7 +98,7 @@ s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) – nesch
 vlastní stav z vnější perspektivy.
 
 Subjekt popisoval rozštěpení mezi profesní a soukromou sférou: „V nemocnici jsem fungoval jako
-stroj, doma jsem se rozpadal a nikdo to nesměl vidět.“ Strukturu této disociace vystihuje
+stroj, doma jsem se rozpadal a nikdo to nesměl vidět.“ Strukturu této [disociace](@/glossary/disociace.md) vystihuje
 [betrayal trauma](@/glossary/betrayal-trauma.md) ve smyslu Freydové (1996): závislost na
 instituci, která zároveň zraňuje, vede k potlačení vědomí o zranění.
 
@@ -141,7 +141,7 @@ Podrobnější rámec nabízí [diferenciální diagnostika EA vs. PTSD/cPTSD](@
 Použita byla modifikovaná verze [protokolu epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) s prvky [protokolu pro
 zdravotníky](@/kompendium/techniques/ea-6-4-8-zdravotnici-burnout-protokol.md). Jeho stupně (S1
-validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická
+validace a mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická
 obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl
 v pěti fázích:
 

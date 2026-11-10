@@ -135,7 +135,7 @@ a odmítání pomoci jako identitní normu. Rodina tyto signály vnímala, ale n
 Použit byl [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) upravený podle
 [protokolu pro veterány a vojáky](@/kompendium/techniques/ea-6-4-5-vetersko-protokol.md). Jeho
-stupně (S1 validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4
+stupně (S1 validace a mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4
 hermeneutická obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu,
 který proběhl v pěti fázích:
 

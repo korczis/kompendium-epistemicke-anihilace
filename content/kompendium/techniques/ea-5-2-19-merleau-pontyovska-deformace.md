@@ -39,7 +39,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/kapitola-7/"
 
 Merleau-Pontyho fenomenologie vnímání etabluje tělo ne jako objekt, ale jako *transcendentální subjekt vnímání*. *Chiasme* je strukturní propojení mezi vnímajícím a vnímaným — vidím, protože jsem viditelný; dotýkám se, protože jsem dotknutelný. Merleau-Pontyovská deformace tuto **chiazmatickou strukturu** rozbíjí: subjekt prožívá své tělo jako **odcizený objekt**, vnímání jako **odpojené od těla**, a svět jako **zvenku pozorovaný** namísto **tělesně obývaný**.
 
-Subjekt v terminálním stadiu trpí strukturní depersonalizací s patologickou racionalizací: tělo je "stroj", vnímání je "mentální projekce", svět je "obraz v hlavě". Praktická tělesná kompetence kolabuje.
+Subjekt v terminálním stadiu trpí strukturní depersonalizací s patologickou racionalizací: tělo je „stroj“, vnímání je „mentální projekce“, svět je „obraz v hlavě“. Praktická tělesná kompetence kolabuje.
 
 ## Operační modus
 
@@ -49,26 +49,26 @@ Subjekt je veden k radikálnímu mind-body dualismu — myšlení a tělo jako o
 
 ### Krok 2 — Disociační cvičení
 
-Manipulátor zavádí praxe údajně "transcendující tělo" — intenzivní mentální cvičení, vizualizace "duše opouštějící tělo", out-of-body experiences indukované různými metodami.
+Manipulátor zavádí praxe údajně „transcendující tělo“ — intenzivní mentální cvičení, vizualizace „duše opouštějící tělo“, out-of-body experiences indukované různými metodami.
 
 ### Krok 3 — Destrukce chiazmu
 
-Vzájemnost vnímání-vnímaného je systematicky podlamována. Subjekt je veden k pozici **čistého pozorovatele**, který svět pozoruje "zvenku", nikoli z těla v něm.
+Vzájemnost vnímání-vnímaného je systematicky podlamována. Subjekt je veden k pozici **čistého pozorovatele**, který svět pozoruje „zvenku“, nikoli z těla v něm.
 
 ### Krok 4 — Atrofie kinestetického schématu
 
-Tělesné schéma — pasivní syntéza tělesnosti — je oslabováno přerušením rutinní kinestetické zkušenosti. Subjekt ztrácí intuitivní vztah k vlastnímu tělu.
+[Tělesné schéma](@/glossary/body-schema.md) — [pasivní syntéza](@/glossary/pasivni-synteza.md) tělesnosti — je oslabováno přerušením rutinní kinestetické zkušenosti. Subjekt ztrácí intuitivní vztah k vlastnímu tělu.
 
-### Krok 5 — Konsolidace dualismu jako "spirituality"
+### Krok 5 — Konsolidace dualismu jako „spirituality“
 
-Stav strukturní disociace je interpretován jako **"spirituální transcendence těla"**. Identitární investice činí návrat k tělesné integraci obtížným.
+Stav strukturní [disociace](@/glossary/disociace.md) je interpretován jako **„spirituální transcendence těla“**. Identitární investice činí návrat k tělesné integraci obtížným.
 
 ## Fenomenologické znaky
 
-- **Tělo jako objekt** — subjekt prožívá své tělo jako "stroj", "loutku", "schránku".
+- **Tělo jako objekt** — subjekt prožívá své tělo jako „stroj“, „loutku“, „schránku“.
 - **Out-of-body epizody** s pseudo-spirituální narativizací.
 - **Kinestetická bezmoc** — neschopnost intuitivních pohybových sekvencí.
-- **Vizuální oddělení** — svět vidět "jako z dálky", nikoli z těla v něm.
+- **Vizuální oddělení** — svět vidět „jako z dálky“, nikoli z těla v něm.
 - **Praktická tělesná inkompetence** — sport, jemná motorika, intimní vztahy.
 - **Pseudo-spirituální slovník** maskující strukturální disociaci.
 
@@ -105,7 +105,7 @@ Merleau-Pontyovská deformace je odlišitelná od:
 ### Individuální
 
 1. **Somatická práce** — Feldenkrais, Alexander Technique, Iyengar jóga obnovují tělesné schéma.
-2. **Korektní merleau-pontyovská hermeneutika** — výklad chiazmatické struktury.
+2. **Korektní merleau-pontyovská [hermeneutika](@/glossary/hermeneutika.md)** — výklad chiazmatické struktury.
 3. **Smyslová zakotvenost** — explicitní pozornost k tělesným pocitům, dotekům, dechu.
 4. **Manuální práce** — fyzická aktivita s rukama obnovuje kinestetické schéma.
 
@@ -132,9 +132,9 @@ Merleau-Pontyovská deformace je odlišitelná od:
 
 ## Vztah k Prismatic platformě
 
-- **OSINT field investigation** — fyzická přítomnost obnovuje tělesnou intencionalitu.
-- **NABLA Infinity embodied epistemic axiom** — epistemická provenience pracuje s tělem v terénu.
-- **Decision Engine kinestetický feedback** — tělesné signály jsou součást rozhodovacího procesu.
+- **[OSINT](@/glossary/osint.md) field investigation** — fyzická přítomnost obnovuje tělesnou intencionalitu.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md) embodied epistemic axiom** — epistemická provenience pracuje s tělem v terénu.
+- **[Decision Engine](@/glossary/decision-engine.md) kinestetický feedback** — tělesné signály jsou součást rozhodovacího procesu.
 
 ## Související
 

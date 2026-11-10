@@ -17,16 +17,16 @@ toc = true
 
 # 7.26 Quine: Síť přesvědčení a holismus
 
-W. V. O. Quine (1908–2000) — americký logik a filozof — v esejích *Two Dogmas of Empiricism* (1951) a v knihách *Word and Object* (1960) a *Web of Belief* (1970) formuluje **holistickou epistemologii**: přesvědčení netvoří **lineární řetězec** od smyslových vjemů ke "vyšším" teoriím, ale **síť** (*web*), v níž jsou všechna přesvědčení **vzájemně propojena**.
+W. V. O. Quine (1908–2000) — americký logik a filozof — v esejích *Two Dogmas of Empiricism* (1951) a v knihách *Word and Object* (1960) a *Web of Belief* (1970) formuluje **holistickou epistemologii**: přesvědčení netvoří **lineární řetězec** od smyslových vjemů ke „vyšším“ teoriím, ale **síť** (*web*), v níž jsou všechna přesvědčení **vzájemně propojena**.
 
-Pro kompendium EA poskytuje Quineova teorie nástroj pro pochopení **strukturálních dimenzí** EA technik, jež operují skrze **cílené narušení** sítě přesvědčení.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Quineova teorie nástroj pro pochopení **strukturálních dimenzí** EA technik, jež operují skrze **cílené narušení** sítě přesvědčení.
 
 ## 1. Dogmata empirismu
 
 Quine ve své revolutionární eseji **odmítá dvě dogmata** logického empirismu:
 
-1. **Analytické vs. syntetické**: tradiční rozlišení mezi tvrzeními pravdivými **z definice** ("Všichni svobodní jsou neženatí") a tvrzeními pravdivými **na základě faktů** je strukturálně **neudržitelné** — neexistuje **ostrá** dělící čára.
-2. **Redukcionismus**: představa, že každé smysluplné tvrzení je **redukovatelné** na soubor pozorovacích vět, je **falešná** — tvrzení jsou **konfrontována** s evidencí pouze **jako celek** sítě.
+1. **Analytické vs. syntetické**: tradiční rozlišení mezi tvrzeními pravdivými **z definice** („Všichni svobodní jsou neženatí“) a tvrzeními pravdivými **na základě faktů** je strukturálně **neudržitelné** — neexistuje **ostrá** dělící čára.
+2. **[Redukcionismus](@/glossary/redukcionismus.md)**: představa, že každé smysluplné tvrzení je **redukovatelné** na soubor pozorovacích vět, je **falešná** — tvrzení jsou **konfrontována** s evidencí pouze **jako celek** sítě.
 
 Pro EA z toho plyne:
 
@@ -35,13 +35,13 @@ Pro EA z toho plyne:
 
 ## 2. Duhem-Quine teze
 
-Quine rozvíjí (s odkazem na Pierre Duhema): **žádné jednotlivé tvrzení** nemůže být **definitivně falsifikováno** evidencí — pokud experiment "vyvrací" hypotézu, **vždy existují alternativní úpravy** sítě, jež zachrání původní tvrzení.
+Quine rozvíjí (s odkazem na Pierre Duhema): **žádné jednotlivé tvrzení** nemůže být **definitivně falsifikováno** evidencí — pokud experiment „vyvrací“ hypotézu, **vždy existují alternativní úpravy** sítě, jež zachrání původní tvrzení.
 
 Strukturální paradox vědy: každá **hypotéza** je vždy **podpořena** sítí pomocných předpokladů (auxiliary hypotheses), a falsifikace může být **redistribuována** do těchto pomocných předpokladů.
 
 Pro EA z toho plyne:
 
-- **Imunizace proti falsifikaci** (Lakatosův "ochranný pás") je strukturálně **legitimní** vědeckou strategií, ale **stejně tak** zneužívaná pseudovědou.
+- **Imunizace proti falsifikaci** (Lakatosův „ochranný pás“) je strukturálně **legitimní** vědeckou strategií, ale **stejně tak** zneužívaná pseudovědou.
 - **Kritérium odlišení**: legitimní imunizace **přijímá další testovatelné předpovědi**, manipulativní imunizace **pouze chrání** centrální dogma.
 - Strukturální paralelismus s Lakatosovým výzkumným programem ([viz Glosář](@/glossary/lakatos-vyzkumny-program.md)).
 
@@ -90,14 +90,14 @@ Pro EA z toho plyne:
 
 ## 7. Algoritmická operacionalizace
 
-Pro Prismatic platformu má Quineho holismus **specifickou** relevanci:
+Pro Prismatic platformu má Quineho [holismus](@/glossary/holismus.md) **specifickou** relevanci:
 
 - **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **holisticky** — udržuje **celou síť** kontradikcí, nikoli pouze izolované konflikty.
-- **Decision Core** zaznamenává **propojení** rozhodnutí — strukturální mapování sítě.
+- **[Decision Core](@/glossary/decision-core.md)** zaznamenává **propojení** rozhodnutí — strukturální mapování sítě.
 
 ## 8. Primární literatura
 
-- Quine, W. V. O. (1951). "Two Dogmas of Empiricism". *Philosophical Review* 60.
+- Quine, W. V. O. (1951). „Two Dogmas of Empiricism“. *Philosophical Review* 60.
 - Quine, W. V. O. (1960). *Word and Object*. MIT Press.
 - Quine, W. V. O. & Ullian, J. (1970/1978). *The Web of Belief*. Random House.
 - Quine, W. V. O. (1969). *Ontological Relativity and Other Essays*. Columbia UP.

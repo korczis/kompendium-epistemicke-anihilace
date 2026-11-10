@@ -101,7 +101,7 @@ s prvky [IFS](@/kompendium/techniques/ea-6-2-3-ifs-internal-family-systems.md) a
   výpovědí příbuzných; validace, že nejistota je pochopitelným následkem, ne vadou.
 - **S2 – Externalizace introjektů:** identifikace vnitřního hlasu („přeháníš“) jako převzatého
   od rodiče; práce s „dětskou částí“, která stále hlídá rodičovu náladu.
-- **S3 – Rekonstrukce metakognice:** nácvik důvěry k vlastní paměti v současných situacích –
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik důvěry k vlastní paměti v současných situacích –
   zapisování událostí a jejich pozdější porovnávání.
 - **S4 – Hermeneutická obnova:** nové vyprávění rodinného příběhu, v němž má místo její
   zkušenost i složitost rodičů, bez povinnosti odpustit nebo se usmířit.

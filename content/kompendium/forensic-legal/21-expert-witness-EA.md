@@ -2,9 +2,11 @@
 title = "Znalec EA"
 description = "Forenzni a pravni rozmer EA — znalec ea."
 weight = 21
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "court-testimony"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["2-credibility-assessment", "20-criminal-conspiracy-EA", "22-fact-witness-protection", "23-cross-examination-defense"]
 parent = "kompendium-forensic-legal"
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

@@ -51,7 +51,7 @@ Vyšší shoda mezi deklarovanými hodnotami a skutečným časem; pocit smyslup
 
 ## Limitace
 
-Účetnictví pozornosti je metakognice, která sama spotřebovává pozornost. Najděte minimální dostatečnou granularitu.
+Účetnictví pozornosti je [metakognice](@/glossary/metakognice.md), která sama spotřebovává pozornost. Najděte minimální dostatečnou granularitu.
 
 ## Cross-linky
 

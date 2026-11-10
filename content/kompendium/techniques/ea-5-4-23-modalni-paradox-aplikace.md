@@ -114,7 +114,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 ### Individuální
 
 1. **Stratifikace meta-úrovní** — subjekt se naučí explicitně oddělovat *objektový jazyk* (v němž se výrok pronáší) od *metajazyka* (v němž se mluví o pronášení); tato Tarskiho separace eliminuje paradoxní zacyklení.
-2. **Pragmatický redukcionismus** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
+2. **Pragmatický [redukcionismus](@/glossary/redukcionismus.md)** — přijetí, že některé výroky **nemají** pravdivostní hodnotu v klasickém smyslu, ale jsou pragmatickými akty (Wittgenstein); paradox v takových výrocích není kognitivní pohromou.
 3. **Externí epistemický audit** — důvěryhodný kolega s metalogickou výbavou prochází se subjektem konkrétní paradoxy a explicitně demonstruje úniky.
 4. **Fenomenologická redukce** — návrat k přímému zakoušení **bez** auto-predikace; meditační praxe orientovaná na ne-reflexivní pozornost.
 5. **Specifická intervence**: možno-světová sémantika (Kripke); kontrafakticka analýza s pevnou referenční doménou.
@@ -145,7 +145,7 @@ Paradoxální metaanihilační protokol je odlišitelný od **legitimní filozof
 - **Legitimní filozofická paradoxologie** — zachovává distancí mezi zkoumajícím a zkoumaným, vede k pojmové jemnosti.
 - **Sokratovská elenchos** — destabilizuje **specifická** přesvědčení s cílem rekonstrukce, nikoli evaluativního aparátu jako takového.
 
-Klíčové pojmové kotvy techniky: **modální logika, Kripke, kontrafaktická sémantika**.
+Klíčové pojmové kotvy techniky: **[modální logika](@/glossary/modalni-logika.md), Kripke, kontrafaktická sémantika**.
 
 ## Vztah k Prismatic platformě
 

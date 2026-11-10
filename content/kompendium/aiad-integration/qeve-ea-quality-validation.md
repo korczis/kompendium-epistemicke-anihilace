@@ -33,11 +33,11 @@ Provoz: weekly fitness review. Výstup: **fitness report** s ranked pravidly a d
 
 ## Limitations
 
-QEVE měří **historickou výkonnost**, ne futuristickou relevanci — nově vznikající EA techniky jsou pro něj neviditelné. Doplňuje, nenahrazuje, **Black Team**.
+QEVE měří **historickou výkonnost**, ne futuristickou relevanci — nově vznikající EA techniky jsou pro něj neviditelné. Doplňuje, nenahrazuje, **[Black Team](@/glossary/black-team.md)**.
 
 ## Coordination
 
-Spolupracuje s **AutoEvolve** na náhradu deprecated pravidel; krmí data **Quality Monitor**; výstupy review **Purple Team**.
+Spolupracuje s **[AutoEvolve](@/glossary/autoevolve.md)** na náhradu deprecated pravidel; krmí data **Quality Monitor**; výstupy review **[Purple Team](@/glossary/purple-team.md)**.
 
 ## Cross-linky
 

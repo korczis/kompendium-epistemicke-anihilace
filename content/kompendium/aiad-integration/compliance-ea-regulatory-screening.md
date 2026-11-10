@@ -37,7 +37,7 @@ Compliance Agent je **rule-based** — nové regulace vyžadují manuální upda
 
 ## Coordination
 
-Konzumuje výstupy **DD Engine**, **White Team**; výstupy archivuje s **White Team** v immutable storage; eskaluje **Strategic Command** pro material breach.
+Konzumuje výstupy **DD Engine**, **[White Team](@/glossary/white-team.md)**; výstupy archivuje s **White Team** v immutable storage; eskaluje **[Strategic Command](@/glossary/strategic-command.md)** pro material breach.
 
 ## Cross-linky
 

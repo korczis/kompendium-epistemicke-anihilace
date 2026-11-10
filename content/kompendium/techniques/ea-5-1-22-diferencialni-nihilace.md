@@ -51,30 +51,30 @@ Operátor mapuje, jaké distinkce subjekt aktuálně používá: rozdíly mezi a
 
 ### Krok 2 — Postupné **rozostřování** hraničních případů
 
-Místo přímého útoku na distinkci jsou systematicky předkládány **hraniční případy**, kde rozdíl mezi A a B není jasný. Subjekt je opakovaně vyzýván k posuzování takových případů; postupně si zvyká, že "rozdíl mezi A a B je často těžko stanovitelný". Klíčové: hraniční případy jsou **vybrané strategicky**, nikoli reprezentativně.
+Místo přímého útoku na distinkci jsou systematicky předkládány **hraniční případy**, kde rozdíl mezi A a B není jasný. Subjekt je opakovaně vyzýván k posuzování takových případů; postupně si zvyká, že „rozdíl mezi A a B je často těžko stanovitelný“. Klíčové: hraniční případy jsou **vybrané strategicky**, nikoli reprezentativně.
 
 ### Krok 3 — Generalizace nejasnosti na **celou distinkci**
 
-Z toho, že **některé** případy jsou hraniční, je odvozena teze, že **celá distinkce** je problematická. "Pokud nelze v některých případech rozlišit A od B, je samotný rozdíl A/B konstrukcí." Argumentace operuje **kvantifikační záměnou** — z existenčního "některé" vyvozuje univerzální "všechny".
+Z toho, že **některé** případy jsou hraniční, je odvozena teze, že **celá distinkce** je problematická. „Pokud nelze v některých případech rozlišit A od B, je samotný rozdíl A/B konstrukcí.“ Argumentace operuje **kvantifikační záměnou** — z existenčního „některé“ vyvozuje univerzální „všechny“.
 
 ### Krok 4 — **Performativní zplošťování** v běžném diskurzu
 
-Operátor systematicky používá zploštěný slovník: tam, kde dříve subjekt rozlišoval, hovoří operátor souhrnně. "Argumenty, apely, narativy — to vše jsou prostě promluvy." Subjekt si na tento jazyk zvyká a postupně přejímá jeho strukturu. Klíčové: změna nastává v **lingvistické rovině** dříve než v rovině reflexe.
+Operátor systematicky používá zploštěný slovník: tam, kde dříve subjekt rozlišoval, hovoří operátor souhrnně. „Argumenty, apely, narativy — to vše jsou prostě promluvy.“ Subjekt si na tento jazyk zvyká a postupně přejímá jeho strukturu. Klíčové: změna nastává v **lingvistické rovině** dříve než v rovině reflexe.
 
 ### Krok 5 — Konsolidace skrze **delegitimizaci jemnosti**
 
-V terminálním stadiu je samotná snaha o jemné rozlišování delegitimizována jako **pedanterie**, **scholastika**, **akademická hra**. "Skutečný život se neptá po jemných rozdílech." Subjekt, který se k jemnosti pokusí vrátit, je sociálně označen jako neefektivní, odtržený, mimo. Tlak je nejen kognitivní, ale i **statusový**.
+V terminálním stadiu je samotná snaha o jemné rozlišování delegitimizována jako **pedanterie**, **scholastika**, **akademická hra**. „Skutečný život se neptá po jemných rozdílech.“ Subjekt, který se k jemnosti pokusí vrátit, je sociálně označen jako neefektivní, odtržený, mimo. Tlak je nejen kognitivní, ale i **statusový**.
 
 ## Fenomenologické znaky
 
 Co prožívá subjekt **uvnitř** diferenciální nihilace:
 
-- **Pocit zjednodušení** — "věci jsou jasnější, než jsem si myslel"
+- **Pocit zjednodušení** — „věci jsou jasnější, než jsem si myslel“
 - **Snížená reflexivní zátěž** — méně rozhodování, méně pochybností
 - **Subjektivní úleva** — kolaps distinkcí je často prožíván jako **osvobození** od zátěže rozlišování
 - **Postupná indiference** vůči případům, jež dříve volaly po pečlivém rozboru
 - **Lingvistické zhrubnutí** — ubývání **terminologické přesnosti** ve vlastním projevu
-- **Diskomfort** při konfrontaci s textem, který distinkce **stále drží** — text je prožíván jako "zbytečně komplikovaný"
+- **Diskomfort** při konfrontaci s textem, který distinkce **stále drží** — text je prožíván jako „zbytečně komplikovaný“
 - V pokročilém stadiu **inkapacita** rekonstruovat distinkce, i když je o ně subjekt explicitně požádán
 
 V kombinaci s [EA-1.4.2 latentní emocionální modulací](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) může subjektivní úleva eskalovat do **aktivní averze** vůči jemně členěnému diskurzu.
@@ -127,7 +127,7 @@ Texty z **různých disciplín** drží **různé** distinkce. Filosofická trad
 
 #### 4. **Strategická pedanterie**
 
-Vědomě udržuj **terminologickou přesnost** i v kontextech, kde je to "zbytečné". Pedanterie je v tomto případě defenzivní postoj.
+Vědomě udržuj **terminologickou přesnost** i v kontextech, kde je to „zbytečné“. Pedanterie je v tomto případě defenzivní postoj.
 
 #### 5. **Externí epistemická triangulace**
 
@@ -146,15 +146,15 @@ Konfrontuj klíčová tvrzení s osobami z **odlišných** disciplinárních tra
 
 ### Případ 1 — Kolaps argument/apel v politickém diskurzu
 
-V průběhu tří let pozorovaná konvergence: redakce, jež dříve rozlišovala mezi argumentem (s premisami a závěrem) a apelem (s motivační strukturou), začala systematicky používat slovo "narativ" pro obojí. Externí audit odhalil pokles **přesnosti politické analýzy** napříč redakčním výstupem.
+V průběhu tří let pozorovaná konvergence: redakce, jež dříve rozlišovala mezi argumentem (s premisami a závěrem) a apelem (s motivační strukturou), začala systematicky používat slovo „narativ“ pro obojí. Externí audit odhalil pokles **přesnosti politické analýzy** napříč redakčním výstupem.
 
 ### Případ 2 — Manažerská sploštění
 
-Velká korporace zavedla termín "alignment" pro **všechny** typy mezioborového vztahu — od technické kompatibility přes věcnou shodu po loajalitu. Po dvou letech zaměstnanci nedokázali rozlišit mezi nesouhlasem věcným a nesouhlasem postojovým, což vyústilo v eskalaci konfliktů, jež bylo lze předejít.
+Velká korporace zavedla termín „alignment“ pro **všechny** typy mezioborového vztahu — od technické kompatibility přes věcnou shodu po loajalitu. Po dvou letech zaměstnanci nedokázali rozlišit mezi nesouhlasem věcným a nesouhlasem postojovým, což vyústilo v eskalaci konfliktů, jež bylo lze předejít.
 
 ### Případ 3 — Akademická generalizace
 
-V postgraduálním programu byl studentům prezentován výklad, podle něhož "metodologická a substantivní kritika jsou v zásadě totéž". Tři roky poté audit absolventů odhalil, že většina nedovede formulovat **metodologickou kritiku** bez současného **substantivního závazku** — což je v exekuci výzkumu vážná porucha.
+V postgraduálním programu byl studentům prezentován výklad, podle něhož „metodologická a substantivní kritika jsou v zásadě totéž“. Tři roky poté audit absolventů odhalil, že většina nedovede formulovat **metodologickou kritiku** bez současného **substantivního závazku** — což je v exekuci výzkumu vážná porucha.
 
 ## Vztah k jiným technikám
 
@@ -197,7 +197,6 @@ V postgraduálním programu byl studentům prezentován výklad, podle něhož "
 - **Filozofie**:
   - [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
   - [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

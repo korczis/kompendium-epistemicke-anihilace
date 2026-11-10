@@ -147,7 +147,7 @@ Doporučené pořadí studia pro nově přijaté výzkumníky úrovně L3:
 1. **Předpoklady**: [Sekce 02 — Definice](@/kompendium/02-uvod/_index.md), [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md), [Sekce 04 — Terminální protokoly](@/kompendium/04-terminalni-protokoly/_index.md)
 2. **Vstup**: tento _index (orientace v rámci)
 3. **Hlavní studium**:
-   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — epistemická singularita (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
+   - **[Kapitola 6](@/kompendium/05-ultramari-techniky/kapitola-6.md)** — [epistemická singularita](@/glossary/epistemicka-singularita.md) (vstupní úroveň, plné per-technique články pro 5.1.* dostupné)
    - **[Kapitola 7](@/kompendium/05-ultramari-techniky/kapitola-7.md)** — metatranscendentální anihilace (úroveň L4, restriktivní)
    - **[Kapitola 8](@/kompendium/05-ultramari-techniky/kapitola-8.md)** — hypertransformativní protokoly (kompaktní taxonomie 5.3.*)
    - **[Kapitola 9](@/kompendium/05-ultramari-techniky/kapitola-9.md)** — paradoxální metaanihilace (kompaktní taxonomie 5.4.*)
@@ -186,7 +186,6 @@ Pro Kapitoly 7, 8, 9, 10 jsou **kompaktní taxonomické popisy** integrovány p�
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Kompendium EA](@/glossary/kompendium-ea.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md)
 - Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

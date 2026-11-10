@@ -20,7 +20,7 @@ Sekce pokrývá **30 článků** věnovaných výzkumné metodologii v oblasti E
 ## Struktura sekce
 
 ### Kvantitativní metody (10)
-Survey design, longitudinální studie, RCT omezení, mixed methods, meta-analýza, síťová analýza, časové řady, kauzální inference, effect size, power analysis.
+Survey design, longitudinální studie, RCT omezení, mixed methods, meta-analýza, síťová analýza, časové řady, kauzální [inference](@/glossary/inference.md), effect size, power analysis.
 
 ### Kvalitativní metody (10)
 Fenomenologický interview, case study, grounded theory, narativní analýza, diskurzivní analýza, etnografie, tematická analýza, IPA, konverzační analýza, document analysis.

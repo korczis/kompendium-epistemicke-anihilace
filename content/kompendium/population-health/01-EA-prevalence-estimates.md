@@ -94,7 +94,7 @@ o vlastnosti „slabých“ lidí; většina z nich je situační.
 **Protektivní faktory**
 
 - [pluralita signálů](@/glossary/signal-plurality.md) – lidé a zdroje, kteří vidí situaci zvenku;
-- [bezpečná vazba](@/glossary/secure-attachment.md) a stabilní narativní identita;
+- [bezpečná vazba](@/glossary/secure-attachment.md) a stabilní [narativní identita](@/glossary/narativni-identita.md);
 - [metakognice](@/glossary/metakognice.md) a [epistemická pokora](@/glossary/epistemicka-pokora.md);
 - dostupnost nezávislé pomoci a vědomí, že existuje;
 - institucionální pojistky: oddělení rolí, stížnostní kanály, supervize.

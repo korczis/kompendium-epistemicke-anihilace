@@ -28,9 +28,9 @@ Bibliografie není exhaustivní — je **funkční**. Obsahuje pouze prameny, kt
 
 ## I. Epistemologie a filozofie vědy
 
-Tato vrstva poskytuje teoretický rámec pro pojmy **falsifikovatelnost**, **paradigma**, **vědecká revoluce** a **demarkační problém** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
+Tato vrstva poskytuje teoretický rámec pro pojmy **[falsifikovatelnost](@/glossary/falsifikovatelnost.md)**, **paradigma**, **vědecká revoluce** a **demarkační problém** — kritické pro analýzu technik [imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a [strategické reinterpretace](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
 
-- **Popper, K. R.** (1934/1959). *The Logic of Scientific Discovery* [*Logik der Forschung*]. London: Hutchinson. — Falsifikace, demarkační kritérium, otevřená společnost.
+- **Popper, K. R.** (1934/1959). *The Logic of Scientific Discovery* [*Logik der Forschung*]. London: Hutchinson. — [Falsifikace](@/glossary/falsifikace.md), demarkační kritérium, otevřená společnost.
 - **Popper, K. R.** (1945). *The Open Society and Its Enemies*. London: Routledge. — Kritika historicismu, intelektuální poctivost.
 - **Kuhn, T. S.** (1962/1970). *The Structure of Scientific Revolutions* (2nd ed.). Chicago: University of Chicago Press. — Paradigmatický posun, normální věda, neměřitelnost paradigmat.
 - **Lakatos, I.** (1970). *Falsification and the Methodology of Scientific Research Programmes*. In: Lakatos & Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press. — Tvrdé jádro, ochranný pás, progresivní vs. degenerativní programy.
@@ -40,13 +40,13 @@ Tato vrstva poskytuje teoretický rámec pro pojmy **falsifikovatelnost**, **par
 
 ## II. Fenomenologie a hermeneutika
 
-Pramen pojmů **intencionalita**, **životní svět**, **horizont**, **fúze horizontů** — využíváno v analýze [referencí rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) a [singulárního narativního kolapsu](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md).
+Pramen pojmů **[intencionalita](@/glossary/intencionalita.md)**, **životní svět**, **horizont**, **fúze horizontů** — využíváno v analýze [referencí rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) a [singulárního narativního kolapsu](@/kompendium/techniques/ea-5-1-25-singularni-narativni-kolaps.md).
 
 - **Husserl, E.** (1913/1976). *Ideen zu einer reinen Phänomenologie und phänomenologischen Philosophie*. Den Haag: Nijhoff. — Intencionalita, fenomenologická redukce, eidetická intuice.
-- **Husserl, E.** (1936). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. — Životní svět (*Lebenswelt*), krize evropských věd.
+- **Husserl, E.** (1936). *Die Krisis der europäischen Wissenschaften und die transzendentale Phänomenologie*. — Životní svět (*[Lebenswelt](@/glossary/lebenswelt.md)*), krize evropských věd.
 - **Heidegger, M.** (1927). *Sein und Zeit*. Tübingen: Niemeyer. — Bytí-ve-světě, předporozumění, existenciální analytika.
-- **Gadamer, H.-G.** (1960). *Wahrheit und Methode*. Tübingen: Mohr Siebeck. — Hermeneutický kruh, fúze horizontů, předsudek jako podmínka porozumění.
-- **Ricœur, P.** (1965). *De l'interprétation: Essai sur Freud*. Paris: Seuil. — Hermeneutika podezření, dvojí interpretace.
+- **Gadamer, H.-G.** (1960). *Wahrheit und Methode*. Tübingen: Mohr Siebeck. — [Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md), fúze horizontů, předsudek jako podmínka porozumění.
+- **Ricœur, P.** (1965). *De l'interprétation: Essai sur Freud*. Paris: Seuil. — [Hermeneutika](@/glossary/hermeneutika.md) podezření, dvojí interpretace.
 - **Merleau-Ponty, M.** (1945). *Phénoménologie de la perception*. Paris: Gallimard. — Tělesnost, vnímání, prostorový schémat.
 
 ## III. Kritická teorie a teorie společnosti
@@ -71,7 +71,7 @@ Empirický rámec pro [terminální protokoly](@/kompendium/04-terminalni-protok
 - **Klemperer, V.** (1947). *LTI — Lingua Tertii Imperii: Notizbuch eines Philologen*. Berlin: Aufbau. — Manipulace jazyka jako základ totalitního režimu, sémantická přestavba.
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton. — Osm kritérií totalitní reformy myšlení (milieu control, mystical manipulation, demand for purity, confession, sacred science, loading the language, doctrine over person, dispensing of existence).
 - **Lifton, R. J.** (1986). *The Nazi Doctors*. New York: Basic Books. — Doubling, profesionální štěpení.
-- **Hassan, S.** (1988/2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. — BITE Model (Behavior, Information, Thought, Emotional control). → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
+- **Hassan, S.** (1988/2015). *Combating Cult Mind Control* (rev. ed.). Newton, MA: Freedom of Mind Press. — [BITE Model](@/glossary/bite-model.md) (Behavior, Information, Thought, Emotional control). → [Diagnostické nástroje](@/kompendium/08-prilohy/diagnosticke-nastroje.md).
 - **Sloterdijk, P.** (1983). *Kritik der zynischen Vernunft* (sv. 1–2). Frankfurt: Suhrkamp. — Cynický rozum, osvícenství v rozkladu.
 - **Sloterdijk, P.** (2009). *Du musst dein Leben ändern*. Frankfurt: Suhrkamp. — Antropotechniky, vertikální tahy.
 
@@ -100,7 +100,7 @@ Rámec pro analýzu **epistemické nespravedlnosti**, **testimoniální křivdy*
 
 Aplikovaný rámec pro detekci **manipulace v reálném čase**, **propagandistických technik** a **persuazivní rétoriky**.
 
-- **Ellul, J.** (1962/1965). *Propaganda: The Formation of Men's Attitudes*. New York: Knopf. — Sociologická propaganda, totalita propagandy.
+- **Ellul, J.** (1962/1965). *[Propaganda](@/glossary/propaganda.md): The Formation of Men's Attitudes*. New York: Knopf. — Sociologická propaganda, totalita propagandy.
 - **Bernays, E.** (1928). *Propaganda*. New York: Liveright. — Inženýrství souhlasu.
 - **Pratkanis, A., & Aronson, E.** (2001). *Age of Propaganda* (rev. ed.). New York: Henry Holt. — Pre-persuaze, peripherní cesta.
 - **Cialdini, R. B.** (2006). *Influence: The Psychology of Persuasion* (rev. ed.). New York: Harper Business. — Šest principů vlivu (reciprocita, závazek, sociální důkaz, autorita, sympatie, vzácnost).
@@ -121,7 +121,7 @@ Diagnostické a terapeutické rámce pro [klinické aplikace](@/kompendium/06-kl
 
 - **Herman, J. L.** (1992/2015). *Trauma and Recovery* (rev. ed.). New York: Basic Books. — Komplexní PTSD, třífázový model zotavení.
 - **van der Kolk, B.** (2014). *The Body Keeps the Score*. New York: Viking. — Somatické otisky traumatu.
-- **Putnam, F. W.** (1997). *Dissociation in Children and Adolescents*. New York: Guilford. — Vývojová disociace.
+- **Putnam, F. W.** (1997). *Dissociation in Children and Adolescents*. New York: Guilford. — Vývojová [disociace](@/glossary/disociace.md).
 - **Briere, J., & Scott, C.** (2014). *Principles of Trauma Therapy* (2nd ed.). Thousand Oaks: SAGE. — Trauma-informed assessment.
 - **Weiss, D. S., & Marmar, C. R.** (1997). The Impact of Event Scale—Revised. In: *Assessing Psychological Trauma and PTSD*. New York: Guilford. — IES-R instrument.
 
@@ -167,8 +167,7 @@ Bibliografie je propojena s běžícími systémy:
 - [Glossary](@/glossary/_index.md) — každé glosářové heslo cituje primární prameny z této bibliografie.
 - [Philosophy](@/philosophy/_index.md) — filozofická vrstva platformy přímo navazuje na sekce I, II, III, X.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) — epistemický rámec L0–L13 čerpá z Husserla, Habermase, Frickerové.
-- [Color Teams](@/glossary/color-teams.md) — Red Team adversariální simulace operacionalizuje Liftonova kritéria.
-
+- [Color Teams](@/glossary/color-teams.md) — [Red Team](@/glossary/red-team.md) adversariální simulace operacionalizuje Liftonova kritéria.
 
 ## ⚡ Kritický krok
 

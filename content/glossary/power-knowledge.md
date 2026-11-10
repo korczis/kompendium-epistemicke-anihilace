@@ -8,7 +8,7 @@ description = "Foucault's coupling of power and knowledge as mutually constituti
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["panopticism", "epistemicka-injustice", "epistemicka-anihilace", "metanarrative-collapse", "communicative-rationality"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -26,9 +26,9 @@ image_alt = "Power-Knowledge - glossary"
 
 **Power-knowledge** (French: *pouvoir-savoir*) is Michel Foucault's deliberately hyphenated formulation, developed across *Discipline and Punish* (1975), *The History of Sexuality Vol. 1* (1976), and the Collège de France lectures. The hyphenation is the philosophical claim: power and knowledge are **not separate domains** that interact, but are **mutually constitutive**. Knowledge is never produced from a position outside power, and power is never exercised without simultaneously producing knowledge.
 
-Foucault's analysis dismantles the Enlightenment fantasy of "speaking truth to power" by showing that the very institutions through which truth becomes sayable — universities, hospitals, courts, scientific journals, expert disciplines — are themselves apparatuses of power that **constitute the subjects** capable of producing recognized knowledge. A **regime of truth** is the historically specific apparatus that determines: which statements count as serious candidates for truth, which procedures separate truth from falsity, who has the authority to make truth-claims, and what techniques are valued for accessing truth.
+Foucault's analysis dismantles the Enlightenment fantasy of “speaking truth to power” by showing that the very institutions through which truth becomes sayable — universities, hospitals, courts, scientific journals, expert disciplines — are themselves apparatuses of power that **constitute the subjects** capable of producing recognized knowledge. A **regime of truth** is the historically specific apparatus that determines: which statements count as serious candidates for truth, which procedures separate truth from falsity, who has the authority to make truth-claims, and what techniques are valued for accessing truth.
 
-Knowledge is therefore not "neutral" raw material that power then deploys; the categories of analysis, the protocols of validation, the very subjects who can be objects of knowledge — all are products of power-knowledge configurations. Foucault's work traces specific historical regimes: the medical gaze, the juridical-disciplinary apparatus, the confessional procedure, biopolitical population management.
+Knowledge is therefore not “neutral” raw material that power then deploys; the categories of analysis, the protocols of validation, the very subjects who can be objects of knowledge — all are products of power-knowledge configurations. Foucault's work traces specific historical regimes: the medical gaze, the juridical-disciplinary apparatus, the confessional procedure, biopolitical population management.
 
 ## Context
 
@@ -39,7 +39,7 @@ Specifically:
 - **EA-1.2.x delegitimization techniques** are intelligible as power-knowledge moves: a speaker is excluded from the recognized-knower position not because their claims are demonstrably false but because they fall outside the regime of truth's procedures for producing valid statements.
 - **EA-1.3.3 thematic diversion** functions by shifting the discourse into a regime where the victim's testimony is structurally illegible — different criteria of validity, different authorized speakers, different relevant evidence.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) pairs power-knowledge with [panopticism](@/glossary/panopticism.md) as a unified diagnostic apparatus for institutional EA, then contrasts both with [communicative rationality](@/glossary/communicative-rationality.md) as the normative counter-vision.
-- The [Color Teams](@/glossary/color-teams.md) framework treats the platform itself as a power-knowledge apparatus and audits it accordingly: which voices does the Decision Engine privilege? Whose confidence calibration becomes authoritative? The platform's open-source / auditable / multilingual commitments are explicit power-knowledge counter-moves.
+- The [Color Teams](@/glossary/color-teams.md) framework treats the platform itself as a power-knowledge apparatus and audits it accordingly: which voices does the [Decision Engine](@/glossary/decision-engine.md) privilege? Whose confidence calibration becomes authoritative? The platform's open-source / auditable / multilingual commitments are explicit power-knowledge counter-moves.
 - The Czech-language Kompendium itself is a power-knowledge intervention: by producing **technical taxonomy in Czech**, it shifts the regime of truth in which Czech-speaking survivors can name their experience.
 
 ## See Also

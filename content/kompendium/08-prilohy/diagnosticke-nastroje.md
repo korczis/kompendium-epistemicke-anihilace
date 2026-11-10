@@ -18,7 +18,7 @@ status = "complete"
 
 # Diagnostické dotazníky a nástroje
 
-> **Kurátorovaný výběr klinických instrumentů** adaptovaných pro výzkum a klinickou praxi v doméně epistemické a kognitivní anihilace. Každý nástroj je popsán v rozsahu: účel, struktura, skórování, interpretace, etické předpoklady, primární zdroj. **Žádný z těchto instrumentů nesmí být použit bez kvalifikované klinické supervize.**
+> **Kurátorovaný výběr klinických instrumentů** adaptovaných pro výzkum a klinickou praxi v doméně epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md). Každý nástroj je popsán v rozsahu: účel, struktura, skórování, interpretace, etické předpoklady, primární zdroj. **Žádný z těchto instrumentů nesmí být použit bez kvalifikované klinické supervize.**
 
 ## Etická preambule
 
@@ -38,7 +38,7 @@ Použití bez kvalifikace je v rozporu s [Etickým kodexem](@/kompendium/08-pril
 
 ### Účel
 
-**BITE Model** (Hassan, 1988; rev. 2015) je strukturovaný analytický rámec pro hodnocení **stupně psychologické kontroly** v high-control prostředích. Není to dotazník v klasickém psychometrickém smyslu, ale **diagnostická rastra** s 56 položkami rozdělenými do 4 dimenzí.
+**[BITE Model](@/glossary/bite-model.md)** (Hassan, 1988; rev. 2015) je strukturovaný analytický rámec pro hodnocení **stupně psychologické kontroly** v high-control prostředích. Není to dotazník v klasickém psychometrickém smyslu, ale **diagnostická rastra** s 56 položkami rozdělenými do 4 dimenzí.
 
 ### Struktura
 
@@ -179,7 +179,7 @@ Weiss, D. S., & Marmar, C. R. (1997). The Impact of Event Scale—Revised. In: W
 
 ### Účel
 
-**DES-II** (Carlson & Putnam, 1993) je 28-položkový self-report instrument pro screening **disociativních zkušeností**. V EA výzkumu slouží k detekci disociativních reakcí na akutní nebo chronickou expozici a k diferenciální diagnostice mezi disociací jako adaptivní reakcí a disociativní poruchou.
+**DES-II** (Carlson & Putnam, 1993) je 28-položkový [self-report](@/glossary/self-report.md) instrument pro screening **disociativních zkušeností**. V EA výzkumu slouží k detekci disociativních reakcí na akutní nebo chronickou expozici a k diferenciální diagnostice mezi disociací jako adaptivní reakcí a disociativní poruchou.
 
 ### Struktura
 
@@ -258,9 +258,8 @@ Pro standardizované klinické nebo výzkumné posouzení doporučujeme následu
 ## Platformový kontext
 
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — DES-II/IES-R skóre lze integrovat jako negativní signály pro kalibraci důvěry.
-- [Color Teams](@/glossary/color-teams.md) — Blue Team využívá tyto instrumenty pro defenzivní detekci.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení epistemic pipeline.
-
+- [Color Teams](@/glossary/color-teams.md) — [Blue Team](@/glossary/blue-team.md) využívá tyto instrumenty pro defenzivní detekci.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — disociativní výsledky DES-II mapují na L4–L6 narušení [epistemic pipeline](@/glossary/epistemic-pipeline.md).
 
 ## ⚡ Kritický krok
 

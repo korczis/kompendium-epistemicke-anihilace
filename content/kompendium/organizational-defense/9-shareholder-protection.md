@@ -61,7 +61,7 @@ Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl
 - Tichá emise nových akcií, neprůhledné transakce se spřízněnými stranami, manipulace s AGM.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -69,7 +69,7 @@ a je nutné okamžitě eskalovat na nezávislý orgán (board audit committee, o
 
 ## 5. Best practices
 
-Pravidlo "one share, one vote", veřejné minutes z AGM, právo na nezávislý audit pro 5 % vlastnictví.
+Pravidlo „one share, one vote“, veřejné minutes z AGM, právo na nezávislý audit pro 5 % vlastnictví.
 
 **Dodatečné principy:**
 
@@ -100,4 +100,3 @@ Pravidlo "one share, one vote", veřejné minutes z AGM, právo na nezávislý a
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

@@ -22,25 +22,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Subjekt po dlouhodobé delegitimizaci internalizuje narativ o vlastní nedostatečnosti — "skutečně, asi nemám právo to říkat"
-2. Pseudo-pokora vystupuje jako morální ctnost ("nejsem tak chytrý jako oni"), ale strukturálně je to autosabotáž
-3. Komunita pokoru oceňuje, čímž ji posiluje; subjekt si "kupuje" sociální legitimitu cenou ztráty epistemické agentury
+1. Subjekt po dlouhodobé delegitimizaci internalizuje narativ o vlastní nedostatečnosti — „skutečně, asi nemám právo to říkat“
+2. Pseudo-pokora vystupuje jako morální ctnost („nejsem tak chytrý jako oni“), ale strukturálně je to autosabotáž
+3. Komunita pokoru oceňuje, čímž ji posiluje; subjekt si „kupuje“ sociální legitimitu cenou ztráty epistemické agentury
 
 ## Detekční markery (3 nejvýraznější)
 
-- Subjekt opakovaně předem znevažuje vlastní příspěvky ("toto je možná hloupá otázka...", "asi to víte líp...")
-- Po jasném vlastním uspěchu připisuje zásluhy ostatním ("měla jsem štěstí", "kolegové mě nesli")
+- Subjekt opakovaně předem znevažuje vlastní příspěvky („toto je možná hloupá otázka…“, „asi to víte líp…“)
+- Po jasném vlastním uspěchu připisuje zásluhy ostatním („měla jsem štěstí“, „kolegové mě nesli“)
 - Akutní úzkost při situaci, kdy musí prezentovat sebe jako autoritu (přednáška, oponentura) — i při plné kompetenci
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Strukturovaný self-assessment založený na datech (publikace, citace, výsledky) místo dojmů; konfrontace s realitou
-- Mentor / coach mimo původní hierarchii, který explicitně rozlišuje "skutečnou skromnost" a "internalized delegitimization"
-- Cvičení "neshrnujte se" — tréninková situace, ve které je zakázáno snižovat vlastní příspěvek po dobu definovaného období
+- Mentor / coach mimo původní hierarchii, který explicitně rozlišuje „skutečnou skromnost“ a „internalized delegitimization“
+- Cvičení „neshrnujte se“ — tréninková situace, ve které je zakázáno snižovat vlastní příspěvek po dobu definovaného období
 
 ## Příklad
 
-Postdoktorandka po pěti letech v laboratoři, kde její nápady byly pravidelně přejímány bez kreditu, na konferenci uvádí svou prezentaci slovy "tohle je opravdu malá observace, asi to už dávno víte". Publikum to bere doslovně. Reálně jde o originální nález, který za rok publikuje jiná skupina jako svůj.
+Postdoktorandka po pěti letech v laboratoři, kde její nápady byly pravidelně přejímány bez kreditu, na konferenci uvádí svou prezentaci slovy „tohle je opravdu malá observace, asi to už dávno víte“. Publikum to bere doslovně. Reálně jde o originální nález, který za rok publikuje jiná skupina jako svůj.
 
 ## Cross-linky
 

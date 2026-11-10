@@ -59,7 +59,7 @@ zpráva amerického Institute of Medicine (Mrazek a Haggerty, 1994).
 6. [Prevalence EA v korporátním prostředí](@/kompendium/population-health/06-corporate-EA-prevalence.md) – totalizační kultury a odlišení od tvrdého řízení.
 7. [Prevalence EA v politické sféře](@/kompendium/population-health/07-political-EA-prevalence.md) – voliči, cílené osoby, riziko instrumentalizace.
 8. [Prevalence online radikalizace](@/kompendium/population-health/08-online-radicalization-prevalence.md) – problém vzácnosti a falešně pozitivních predikcí.
-9. [Populační komorbidity](@/kompendium/population-health/09-comorbidity-population.md) – trauma, deprese, disociace, závislosti a směry vztahu.
+9. [Populační komorbidity](@/kompendium/population-health/09-comorbidity-population.md) – trauma, deprese, [disociace](@/glossary/disociace.md), závislosti a směry vztahu.
 10. [Atribuce mortality k EA](@/kompendium/population-health/10-mortality-EA-attribution.md) – cesty k úmrtí, psychologická pitva, atributivní podíl.
 
 ## Veřejnozdravotní intervence

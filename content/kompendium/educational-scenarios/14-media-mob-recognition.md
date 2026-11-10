@@ -133,19 +133,23 @@ opravná vrstva.
 ## Související
 
 **Navazující scénáře**
+
 - [Injekce narativu](@/kompendium/educational-scenarios/15-narrative-injection.md) – jak připravený rámec vstupuje do diskuse.
 - [Koordinace botů](@/kompendium/educational-scenarios/17-bot-coordination.md) – analýza síťové vrstvy do hloubky.
 - [Koordinace na více cílech](@/kompendium/educational-scenarios/28-multi-target-coordination.md) – když se vzorec opakuje u více osob.
 
 **Techniky**
+
 - [EA-2.3.4 Mob Coordination](@/kompendium/techniques/ea-2-3-4-mob-coordination.md) – koordinovaný útok skupiny.
 - [EA-2.3.5 Pseudo-kontroverze](@/kompendium/techniques/ea-2-3-5-pseudo-kontroverze-amplifikace.md) – vyrobený spor.
 
 **Detekční signatury**
+
 - [Posun rámování](@/kompendium/detection-signatures/4-linguistic-framing-shift.md) – jak se mění význam výroku.
 - [Deplatformingová kaskáda](@/kompendium/detection-signatures/24-network-deplatforming-cascade.md) – možné pokračování vlny.
 
 **Glosář a teorie**
+
 - [Delegitimizace](@/glossary/delegitimizace.md) – cíl útoku na důvěryhodnost.
 - [Propaganda model](@/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md) – strukturální výklad mediální homogenity.
 

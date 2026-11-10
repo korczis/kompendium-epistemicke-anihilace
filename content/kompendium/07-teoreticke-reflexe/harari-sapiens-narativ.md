@@ -19,7 +19,7 @@ toc = true
 
 Yuval Noah Harari v knihách *Sapiens* (2011), *Homo Deus* (2015) a *21 lekcí pro 21. století* (2018) formuluje **populární** ale strukturálně užitečnou tezi: lidská dějinnost je strukturálně **dějinami narativů** — sdílených fikcí, jež umožnily masovou kooperaci.
 
-Pro kompendium EA poskytuje Harariho rámec nástroj pro pochopení **EA jako manipulace fikčními řády** — strukturálních narativů, jež **organizují** lidské společnosti.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Harariho rámec nástroj pro pochopení **EA jako manipulace fikčními řády** — strukturálních narativů, jež **organizují** lidské společnosti.
 
 ## 1. Kognitivní revoluce a narativ
 
@@ -45,7 +45,7 @@ Strukturální klíčový moment: **intersubjektivní realita** je strukturáln�
 
 Pro EA z toho plyne:
 
-- **Manipulace intersubjektivní reality**: techniky, jež **destabilizují** sdílené fikce (delegitimizace institucí, podkopání důvěry), strukturálně manipulují fungováním společnosti.
+- **Manipulace intersubjektivní reality**: techniky, jež **destabilizují** sdílené fikce ([delegitimizace](@/glossary/delegitimizace.md) institucí, podkopání důvěry), strukturálně manipulují fungováním společnosti.
 - **Counter-EA**: posílení **funkčních** intersubjektivních fikcí (demokratických institucí, vědeckého konsensu).
 
 ## 3. Datové náboženství
@@ -54,16 +54,16 @@ V *Homo Deus* (2015) Harari formuluje provokativní tezi: vznikající **datové
 
 Strukturální charakteristiky:
 
-- **Posvátnost dat**: data jsou strukturálně "svatá", neoddělitelně spjatá s pravdou
+- **Posvátnost dat**: data jsou strukturálně „svatá“, neoddělitelně spjatá s pravdou
 - **Algoritmus jako autorita**: rozhodnutí algoritmu je **lepší** než lidské
 - **Posuzování individua**: subjekt je strukturálně **měřitelný** datovými metrikami
 - **Anti-humanismus**: lidskost je **obsoletní** — algoritmy zvládnou věci lépe
 
 Pro EA má datové náboženství **strukturální význam**:
 
-- **Pseudo-objektivní rétorika**: data presentována jako "neutrální" jsou strukturálně **zatížena** ideologií ([rezonuje s Putnam, viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)).
+- **Pseudo-objektivní rétorika**: data presentována jako „neutrální“ jsou strukturálně **zatížena** ideologií ([rezonuje s Putnam, viz 7.27](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)).
 - **Algoritmická anihilace lidskosti**: redukce lidské zkušenosti na měřitelné metriky.
-- **Counter-EA**: vědomí, že "data" nejsou strukturálně neutrální.
+- **Counter-EA**: vědomí, že „data“ nejsou strukturálně neutrální.
 
 ## 4. Algoritmy a budoucnost svobody
 

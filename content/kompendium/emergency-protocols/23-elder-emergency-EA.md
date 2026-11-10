@@ -27,7 +27,7 @@ Senior (65+) v EA-emergency — typicky finanční abuse, kognitivně-targeted s
 ## 2. Bezprostřední intervence (5 kroků)
 
 1. **Diferencuj EA-symptoms od demence** — důležitá comprehensive geriatric assessment včetně MoCA/MMSE.
-2. **Aktivuj sociálního pracovníka pro elder abuse screening** — APS (Adult Protective Services) ekvivalent v ČR (sociální odbor).
+2. **Aktivuj sociálního pracovníka pro [elder abuse](@/glossary/elder-abuse.md) screening** — APS (Adult Protective Services) ekvivalent v ČR (sociální odbor).
 3. **Zajisti finanční bezpečnost** — freeze účtů s pomocí důvěryhodné rodiny nebo právníka, ne sám/sama.
 4. **Specifické komunikační adaptace** — nízká frekvence řeči, eliminuj background noise, dej čas na odpověď.
 5. **Plánuj care navigation** — geriatr, sociální péče, právník specializovaný na elder abuse, mental health follow-up.
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

@@ -7,7 +7,7 @@ description = "Epistemic defense team producing structured evidence through sign
 tags = ["glossary", "security", "color-teams", "epistemic-defense", "signal-aggregation", "drift-detection", "evidence-synthesis", "nabla"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "18 min"
@@ -39,11 +39,11 @@ image_alt = "Blue Team - Prismatic Platform"
 
 ## Definition
 
-The Blue Team is a defensive Color Team composed of 4 specialized [agents](@/glossary/agent.md) focused on epistemic defense through evidence synthesis. In traditional cybersecurity, a blue team defends networks against attacks. In the Prismatic Platform, the Blue Team defends the **epistemic integrity** of the platform's knowledge systems -- ensuring that beliefs are well-evidenced, signals are not corrupted, and the platform's reasoning has not drifted from its validated baseline.
+The Blue Team is a defensive Color Team composed of 4 specialized [agents](@/glossary/agent.md) focused on epistemic defense through evidence synthesis. In traditional cybersecurity, a blue team defends networks against attacks. In the Prismatic Platform, the Blue Team defends the **epistemic integrity** of the platform's knowledge systems — ensuring that beliefs are well-evidenced, signals are not corrupted, and the platform's reasoning has not drifted from its validated baseline.
 
-The fundamental distinction between Prismatic's Blue Team and conventional blue teams is the output type. A conventional blue team produces **alerts**: "suspicious login detected," "malware signature found," "anomalous traffic observed." Prismatic's Blue Team produces **structured evidence**: documented observations with [provenance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/), confidence levels, [signal plurality](@/glossary/signal-plurality.md) compliance, and explicit uncertainty quantification. Alerts are ephemeral and actionable; evidence is persistent and analyzable.
+The fundamental distinction between Prismatic's Blue Team and conventional blue teams is the output type. A conventional blue team produces **alerts**: “suspicious login detected,” “malware signature found,” “anomalous traffic observed.” Prismatic's Blue Team produces **structured evidence**: documented observations with [provenance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/), confidence levels, [signal plurality](@/glossary/signal-plurality.md) compliance, and explicit uncertainty quantification. Alerts are ephemeral and actionable; evidence is persistent and analyzable.
 
-This shift from alerts to evidence reflects the platform's [NABLA Infinity](@/glossary/nabla-infinity.md) axiom framework. An alert that says "drift detected" is a single signal that may or may not warrant action. A structured evidence artifact that documents the drift, provides multiple independent measurements, preserves contradictory observations, and traces its reasoning back to raw telemetry data is a knowledge claim that can be verified, disputed, refined, and synthesized with other evidence through the [Purple Team](@/glossary/purple-team.md).
+This shift from alerts to evidence reflects the platform's [NABLA Infinity](@/glossary/nabla-infinity.md) axiom framework. An alert that says “drift detected” is a single signal that may or may not warrant action. A structured evidence artifact that documents the drift, provides multiple independent measurements, preserves contradictory observations, and traces its reasoning back to raw telemetry data is a knowledge claim that can be verified, disputed, refined, and synthesized with other evidence through the [Purple Team](@/glossary/purple-team.md).
 
 ## The 4 Blue Team Agents
 
@@ -61,7 +61,7 @@ The blue-commander orchestrates all Blue Team operations. It synthesizes evidenc
 | **Outputs** | Unified defensive posture, investigation directives, evidence packages for Purple |
 | **NABLA Compliance** | Enforces all 7 axioms across all Blue evidence outputs |
 
-The blue-commander's primary output is the **Defensive Posture Assessment** -- a structured document that represents the Blue Team's current understanding of the platform's epistemic health. This assessment includes:
+The blue-commander's primary output is the **Defensive Posture Assessment** — a structured document that represents the Blue Team's current understanding of the platform's epistemic health. This assessment includes:
 
 - Current belief integrity status across all domains
 - Active drift trends (improving, stable, or degrading)
@@ -99,7 +99,7 @@ The blue-drift-detector is the Blue Team's most broadly scoped specialist. It mo
 | **Dependency** | Library versions, external API contracts, data schemas | Version tracking, contract testing | Breaking changes, security advisories |
 | **Performance** | Response latency, throughput, resource utilization | Time-series analysis with seasonal adjustment | Sustained deviation > 20% from baseline |
 
-The drift-detector's critical contribution is detecting **sub-threshold drift**: changes that are individually too small to trigger conventional alerts but accumulate over time into significant degradation. This is analogous to the "boiling frog" problem in physical systems -- gradual temperature increases that never trigger a discrete alarm but eventually become lethal.
+The drift-detector's critical contribution is detecting **sub-threshold drift**: changes that are individually too small to trigger conventional alerts but accumulate over time into significant degradation. This is analogous to the “boiling frog” problem in physical systems — gradual temperature increases that never trigger a discrete alarm but eventually become lethal.
 
 ```elixir
 defmodule PrismaticSecurity.BlueDriftDetector do
@@ -175,7 +175,7 @@ Signal independence tracking requires understanding source correlation:
 
 ## Defensive Posture Assessment
 
-The Blue Team's primary deliverable is the Defensive Posture Assessment (DPA), a structured evidence document that represents the current state of the platform's epistemic defenses. The DPA is not a dashboard or a metric -- it is a formal evidence artifact that passes through [Trinity Gate](@/glossary/trinity-gate.md) validation.
+The Blue Team's primary deliverable is the Defensive Posture Assessment (DPA), a structured evidence document that represents the current state of the platform's epistemic defenses. The DPA is not a dashboard or a metric — it is a formal evidence artifact that passes through [Trinity Gate](@/glossary/trinity-gate.md) validation.
 
 The DPA structure:
 
@@ -192,7 +192,7 @@ The DPA is produced on a regular cadence and on-demand when triggered by signifi
 
 ## NABLA Axiom Grounding
 
-The Blue Team's evidence production is fundamentally grounded in [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. This grounding is not optional -- it is structurally enforced through the evidence data model:
+The Blue Team's evidence production is fundamentally grounded in [NABLA Infinity](@/glossary/nabla-infinity.md) axioms. This grounding is not optional — it is structurally enforced through the evidence data model:
 
 | Axiom | Blue Team Application | Enforcement |
 |-------|----------------------|-------------|
@@ -244,9 +244,9 @@ The Purple Team's closure analysis requires four conditions before a Red-Blue in
 1. **Attack Reproduced**: The Red Team's scenario has been reproduced in the sandbox
 2. **Defense Validated**: The Blue Team's countermeasure addresses the specific attack vector
 3. **Regression Tested**: The defense does not introduce new vulnerabilities
-4. **Evidence Complete**: Both Red and Blue evidence satisfies NABLA axioms
+4. **Evidence Complete**: Both Red and Blue evidence satisfies [NABLA axioms](@/glossary/nabla-axioms.md)
 
-The Blue Team's contribution to this loop is critical: it must produce evidence that is not merely reactive ("we fixed the alert") but structural ("we have verified through 2+ independent signals that the defense is effective, with confidence 0.92, and the evidence chain traces from the original Red Team finding through our defense implementation to the validation measurement").
+The Blue Team's contribution to this loop is critical: it must produce evidence that is not merely reactive (“we fixed the alert”) but structural (“we have verified through 2+ independent signals that the defense is effective, with confidence 0.92, and the evidence chain traces from the original Red Team finding through our defense implementation to the validation measurement”).
 
 ## The Color Teams Ecosystem
 
@@ -279,11 +279,11 @@ All Blue Team operations are subject to the platform's security safety protocols
 
 1. **Ground every finding in NABLA axioms.** Blue Team evidence must satisfy all seven axioms before publication. Evidence that fails even one hard axiom is quarantined, not published. This discipline prevents the common failure mode where urgency overrides epistemic rigor.
 
-2. **Maintain independent signal sources for every active monitoring dimension.** The signal-aggregator requires at least two independent signals per belief. Design monitoring infrastructure so that every critical dimension has at least two independent observation paths -- different collection systems, different methodologies, different observation points.
+2. **Maintain independent signal sources for every active monitoring dimension.** The signal-aggregator requires at least two independent signals per belief. Design monitoring infrastructure so that every critical dimension has at least two independent observation paths — different collection systems, different methodologies, different observation points.
 
 3. **Preserve contradictions explicitly.** When the drift-detector and the auth-sentinel produce contradictory assessments of the same phenomenon, both assessments must be preserved in the Defensive Posture Assessment. The [Purple Team](@/glossary/purple-team.md) handles synthesis; the Blue Team handles preservation.
 
-4. **Emit structured evidence, not alerts.** The fundamental output of the Blue Team is structured evidence with provenance, confidence levels, and contradiction annotations. Avoid the temptation to reduce evidence to binary alerts for simplicity -- the structure is what enables machine-processable synthesis.
+4. **Emit structured evidence, not alerts.** The fundamental output of the Blue Team is structured evidence with provenance, confidence levels, and contradiction annotations. Avoid the temptation to reduce evidence to binary alerts for simplicity — the structure is what enables machine-processable synthesis.
 
 5. **Monitor for sub-threshold drift.** Individual measurements that fall below alert thresholds can accumulate into significant degradation. The drift-detector's primary value is detecting these gradual, individually invisible changes.
 
@@ -295,7 +295,7 @@ All Blue Team operations are subject to the platform's security safety protocols
 
 1. **Alert fatigue from over-sensitive drift detection.** Setting drift thresholds too low produces a flood of weak findings that overwhelm analysts and obscure genuine threats. Calibrate thresholds using historical baseline data and adjust based on false positive rates.
 
-2. **Single-source findings masquerading as evidence.** A finding based on a single signal source does not meet NABLA's signal plurality requirement. Resist the pressure to publish single-source findings as "preliminary evidence" -- they must be explicitly marked as unvalidated observations.
+2. **Single-source findings masquerading as evidence.** A finding based on a single signal source does not meet NABLA's signal plurality requirement. Resist the pressure to publish single-source findings as “preliminary evidence” — they must be explicitly marked as unvalidated observations.
 
 3. **Conflating Blue Team defense with Red Team offense.** Blue agents have read-only access and strictly defensive scope. Any Blue Team operation that modifies system state or simulates attacks has violated its scope boundary and must be immediately halted.
 
@@ -313,11 +313,11 @@ The Blue Team monitors the Prismatic Platform's 13 quality domains for drift. Wh
 
 ### OSINT Source Reliability Assessment
 
-When OSINT intelligence sources produce conflicting data about the same entity, the Blue Team preserves the contradiction and produces a structured evidence artifact documenting which sources disagree, the confidence levels of each source, and the potential impact on downstream assessments. This evidence feeds into the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating calculations.
+When [OSINT](@/glossary/osint.md) intelligence sources produce conflicting data about the same entity, the Blue Team preserves the contradiction and produces a structured evidence artifact documenting which sources disagree, the confidence levels of each source, and the potential impact on downstream assessments. This evidence feeds into the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating calculations.
 
 ### Authentication Boundary Monitoring
 
-The auth-sentinel monitors authentication patterns across the platform's [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) and [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/) endpoints. When unusual patterns emerge -- spike in failed authentications from a new IP range, unexpected token validation failures, session fixation indicators -- the auth-sentinel produces evidence artifacts that feed into the defensive posture assessment.
+The auth-sentinel monitors authentication patterns across the platform's [REST API](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rest-api/) and [LiveView](https://prismatic-reality-com.github.io/prismatic-promo/glossary/liveview/) endpoints. When unusual patterns emerge — spike in failed authentications from a new IP range, unexpected token validation failures, session fixation indicators — the auth-sentinel produces evidence artifacts that feed into the defensive posture assessment.
 
 ### Dependency Supply Chain Monitoring
 
@@ -325,28 +325,29 @@ The drift-detector tracks dependency versions across all 115 umbrella applicatio
 
 ## Related Terms
 
-- [Red Team](@/glossary/red-team.md) -- Adversarial counterpart whose findings Blue Team defends against
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis hub mediating the Red-Blue adversarial-defensive loop
-- [White Team](@/glossary/white-team.md) -- Constructive verification team formally validating Blue defenses
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team surfacing edge cases for Blue monitoring
-- [Black Team](@/glossary/black-team.md) -- Theoretical threat modeling informing Blue defense design
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 security teams and their interactions
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework grounding all Blue Team evidence
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Core axiom enforced by the signal-aggregator
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Axiom requiring preservation of conflicting observations
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom requiring traceable evidence chains
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that Blue Team evidence must pass
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- Measure of defense resilience to epistemic attack
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- Uncertainty quantification for Blue Team evidence
-- [Agent](@/glossary/agent.md) -- Autonomous entities composing the Blue Team
+- [Red Team](@/glossary/red-team.md) — Adversarial counterpart whose findings Blue Team defends against
+- [Purple Team](@/glossary/purple-team.md) — Synthesis hub mediating the Red-Blue adversarial-defensive loop
+- [White Team](@/glossary/white-team.md) — Constructive verification team formally validating Blue defenses
+- [Gray Team](@/glossary/gray-team.md) — Boundary exploration team surfacing edge cases for Blue monitoring
+- [Black Team](@/glossary/black-team.md) — Theoretical threat modeling informing Blue defense design
+- [Color Teams](@/glossary/color-teams.md) — Full overview of all 6 security teams and their interactions
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework grounding all Blue Team evidence
+- [Signal Plurality](@/glossary/signal-plurality.md) — Core axiom enforced by the signal-aggregator
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) — Axiom requiring preservation of conflicting observations
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — Axiom requiring traceable evidence chains
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate that Blue Team evidence must pass
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) — Measure of defense resilience to epistemic attack
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) — Uncertainty quantification for Blue Team evidence
+- [Agent](@/glossary/agent.md) — Autonomous entities composing the Blue Team
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform security architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform defensive capability descriptions
-- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) -- OTP process model underlying Blue Team agent isolation
-- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) -- Hierarchical organization of Blue Team processes
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform security architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform defensive capability descriptions
+- [OTP](https://prismatic-reality-com.github.io/prismatic-promo/glossary/otp/) — OTP process model underlying Blue Team agent isolation
+- [Supervision Tree](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervision-tree/) — Hierarchical organization of Blue Team processes
+- [Bridge: blue-team](@/kompendium/glossary-bridges/bridge-blue-team.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

@@ -135,7 +135,7 @@ k obchodním účtům. Poté [protokol epistemické rekonstrukce](@/kompendium/0
   osobní chyby od struktury, která chybu systematicky vyvolávala.
 - **S2 – Externalizace introjektů:** pojmenování formulí „kdo prodá, prohrál“ a „ztráta je
   zkouška“ jako jazyka komunity.
-- **S3 – Rekonstrukce metakognice:** práce s kognitivními zkresleními (efekt utopených nákladů,
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** práce s kognitivními zkresleními (efekt utopených nákladů,
   přeživší jako vzorek) a s [hodnocením důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md).
 - **S4 – Hermeneutická obnova:** manželská terapie, obnovení důvěry a společné rozhodování
   o financích; skupina pro lidi s finančními ztrátami po online investičních komunitách.

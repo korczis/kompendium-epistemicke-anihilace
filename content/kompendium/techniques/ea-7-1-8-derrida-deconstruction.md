@@ -42,7 +42,7 @@ Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží
 
 ## Klíčové koncepty
 
-1. **Différance (rozdíl/odklad)**
+1. **[Différance](@/glossary/differance.md) (rozdíl/odklad)**
 2. **Logocentrismus**
 3. **Stopa (trace) a doplněk (supplement)**
 
@@ -52,7 +52,7 @@ Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr
 
 Pozice **Derrida** vnáší do EA tři operativní příspěvky:
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *"něco se tu děje, ale nevíme co"*.
+- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
 - **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
 - **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
 
@@ -101,7 +101,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 
 Chcete tuto reflexi aplikovat na konkrétní případ?
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — Decision Engine s podporou epistemické kalibrace.
+- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
 - [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
 - [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
 

@@ -7,7 +7,7 @@ description = "Legal and psychological doctrine recognizing that ostensibly volu
 tags = ["legal", "ethics", "investigation", "due-diligence", "compliance"]
 
 [extra]
-category = "legal"
+category = "právo a forenzní praxe"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -35,11 +35,11 @@ Undue influence (nepatřičný vliv) je právní institut, který umožňuje zne
 
 ## Forensic/Legal Context
 
-The doctrine has four classic elements typically required across common-law jurisdictions: (1) a *susceptible victim* (age, illness, isolation, dependence), (2) an *opportunity to influence* (fiduciary, confidential, or caregiving relationship), (3) *active manipulation* (isolation from advisors, control of information, urgency tactics), and (4) an *unjust outcome* (transaction inequitable on its face). The California "IDEAL" test (Isolation, Dependency, Emotional manipulation, Acquiescence, Loss) and the Restatement (Third) of Property §8.3 both codify versions of this framework. Expert testimony from forensic psychologists and gerontologists is routinely used to establish the susceptibility and manipulation prongs. Civil-law systems (including Czech and German) reach analogous results through doctrines of *unconscionability*, *Wucher*, and good faith.
+The doctrine has four classic elements typically required across common-law jurisdictions: (1) a *susceptible victim* (age, illness, isolation, dependence), (2) an *opportunity to influence* (fiduciary, confidential, or caregiving relationship), (3) *active manipulation* (isolation from advisors, control of information, urgency tactics), and (4) an *unjust outcome* (transaction inequitable on its face). The California „IDEAL“ test (Isolation, Dependency, Emotional manipulation, Acquiescence, Loss) and the Restatement (Third) of Property §8.3 both codify versions of this framework. Expert testimony from forensic psychologists and gerontologists is routinely used to establish the susceptibility and manipulation prongs. Civil-law systems (including Czech and German) reach analogous results through doctrines of *unconscionability*, *Wucher*, and good faith.
 
 ## Practical Application
 
-Undue influence is the central litigation theory in contested wills, irrevocable trusts created late in life, large gifts to caregivers, real-estate transfers to family members, and contracts signed within high-control religious or political organizations. In M&A due diligence, the doctrine is relevant when reviewing seller signatures by founders in cognitive decline, transactions executed under pressure from controlling shareholders, or non-competes signed by departing executives during termination negotiations. Compliance teams use undue-influence frameworks to evaluate whether donor consents to data processing, employment arbitration agreements, and AML beneficial-ownership disclosures reflect genuine independent judgment.
+Undue influence is the central litigation theory in contested wills, irrevocable trusts created late in life, large gifts to caregivers, real-estate transfers to family members, and contracts signed within high-control religious or political organizations. In M&A [due diligence](@/glossary/due-diligence.md), the doctrine is relevant when reviewing seller signatures by founders in cognitive decline, transactions executed under pressure from controlling shareholders, or non-competes signed by departing executives during termination negotiations. Compliance teams use undue-influence frameworks to evaluate whether donor consents to data processing, employment arbitration agreements, and AML beneficial-ownership disclosures reflect genuine independent judgment.
 
 ## Related Concepts
 

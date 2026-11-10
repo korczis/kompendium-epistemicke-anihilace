@@ -26,7 +26,7 @@ Tato kapitola otevírá [Sekci 05 — Ultramární techniky](@/kompendium/05-ult
 
 Reflexivita je ze všech vyšších kognitivních funkcí nejvíce **strukturně singulární** v matematickém smyslu: představuje bod, v němž je kognitivní systém **nucen zacházet sám se sebou jako s objektem svého zkoumání**, což generuje vlastní specifické paradoxy (Russell, Tarski, Gödel, Hofstadter). Termín *singularita* v názvu kapitoly odkazuje právě na tento strukturální fakt: techniky EA-5.1.* exploitují **singulární body** reflexivních smyček, místa, kde se reflexe **lokálně hroutí** nebo přechází do auto-referenční nekonečné regrese.
 
-Pro filozofický kontext viz tradici fenomenologie ([Husserl](@/glossary/fenomenologie.md) — eidetická redukce, transcendentální ego), filozofie mysli (Hofstadter — *Gödel, Escher, Bach*), kognitivní vědy (Dennett — heterofenomenologie) a hermeneutiky ([Gadamer](@/glossary/hermeneutika.md) — hermeneutický kruh). Ultramární techniky této kapitoly nejsou abstraktní filozofické konstrukce — jsou **operacionalizované exploity** transcendentálních struktur, které tyto tradice rekonstruují.
+Pro filozofický kontext viz tradici fenomenologie ([Husserl](@/glossary/fenomenologie.md) — eidetická redukce, transcendentální ego), filozofie mysli (Hofstadter — *Gödel, Escher, Bach*), kognitivní vědy (Dennett — heterofenomenologie) a hermeneutiky ([Gadamer](@/glossary/hermeneutika.md) — [hermeneutický kruh](@/glossary/hermeneuticky-kruh.md)). Ultramární techniky této kapitoly nejsou abstraktní filozofické konstrukce — jsou **operacionalizované exploity** transcendentálních struktur, které tyto tradice rekonstruují.
 
 ## Třicet technik EA-5.1.* — strukturální mapa
 
@@ -49,23 +49,23 @@ První klastr exploituje **autoreferenční struktury** poznávacího aktu. Cent
 
 Doplňkové techniky 5.1.2 (auto-falsifikace), 5.1.3 (rekurzivní pochybnost), 5.1.4 (anti-pravidlo pro pravidla) a 5.1.5 (konfidenční inverze) operují na podobné rovině s odlišnými vstupními body. Klinický obraz je charakteristický: subjekt vykazuje **hyperaktivní kritické myšlení současně s totální nemožností dospět k jakémukoli stabilnímu závěru** — fenomenologicky popsaný jako *paralýza prostřednictvím nadbytku reflexe*.
 
-Diagnostické markery: subjekt opakovaně začíná argumentaci, ale po druhé až třetí iteraci ji opouští s formulací "ale to samé platí o tomto", "pokud to platí, pak to platí i pro to, co jsem právě řekl", "nemohu věřit ani tomu, že nemohu věřit". Klinická literatura dokumentuje korelaci s [anankastickým režimem](@/glossary/anankasticky-rezim.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md).
+Diagnostické markery: subjekt opakovaně začíná argumentaci, ale po druhé až třetí iteraci ji opouští s formulací „ale to samé platí o tomto“, „pokud to platí, pak to platí i pro to, co jsem právě řekl“, „nemohu věřit ani tomu, že nemohu věřit“. Klinická literatura dokumentuje korelaci s [anankastickým režimem](@/glossary/anankasticky-rezim.md) a [kognitivní anti-rekurzivitou](@/glossary/kognitivni-anti-rekurzivita.md).
 
 ## Klastr B — Sémantická destabilizace (EA-5.1.6 až 5.1.10)
 
 Druhý klastr cílí na **vazbu znak–význam**. [EA-5.1.4 — Sémantická imploze](@/kompendium/techniques/ea-5-1-4-semanticka-imploze.md), zařazená v překryvné zóně klastru A/B, je strategickým prostředníkem: technika graduálně **kondenzuje sémantická pole** klíčových termínů tak, že subjekt si zachová tytéž slova, ale ztratí jejich diferenční vztah k jiným slovům. Výsledkem je *sémantická hustota* připomínající pojmovou černou díru — slovo zachycuje stále více významů a stává se proto fakticky **nerozlišitelné od svého protikladu**.
 
-[EA-5.1.7 — Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) destabilizuje druhou vrstvu vazby — odkazování. Subjekt užívá termíny, ale jejich reference na svět začnou cirkulovat v uzavřené smyčce: "*X* je definováno jako *to, co odkazuje na Y*; *Y* je definováno jako *to, co je odkazováno X*". Při dostatečné délce řetězu subjekt ztrácí orientaci, *na co* vlastně jeho termíny odkazují.
+[EA-5.1.7 — Referenční rekurze](@/kompendium/techniques/ea-5-1-7-referencni-rekurze.md) destabilizuje druhou vrstvu vazby — odkazování. Subjekt užívá termíny, ale jejich reference na svět začnou cirkulovat v uzavřené smyčce: „*X* je definováno jako *to, co odkazuje na Y*; *Y* je definováno jako *to, co je odkazováno X*“. Při dostatečné délce řetězu subjekt ztrácí orientaci, *na co* vlastně jeho termíny odkazují.
 
-[EA-5.1.10 — Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) zasahuje časovou strukturu významu — vazbu mezi tím, co bylo míněno *před* a *po*. Subjekt prožívá dezintegraci temporální koherence: výroky pronesené před deseti minutami již nejsou s jistotou identifikovatelné jako "totéž" jako výroky pronesené nyní, byť doslovně shodné.
+[EA-5.1.10 — Temporální dekoherence](@/kompendium/techniques/ea-5-1-10-temporalni-dekoherence.md) zasahuje časovou strukturu významu — vazbu mezi tím, co bylo míněno *před* a *po*. Subjekt prožívá dezintegraci temporální koherence: výroky pronesené před deseti minutami již nejsou s jistotou identifikovatelné jako „totéž“ jako výroky pronesené nyní, byť doslovně shodné.
 
 Komplementární techniky 5.1.6 (substituční fluidita), 5.1.8 (denotační dilatace), 5.1.9 (intenze–extenze inverze) tvoří plnou taxonomii sémantického klastru.
 
 ## Klastr C — Hyperreflexivní destrukce (EA-5.1.11 až 5.1.15)
 
-Třetí klastr operuje na rovině **metakognice druhého a třetího řádu** — myšlení o myšlení o myšlení. Klíčovou technikou je [EA-5.1.13 — Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md), v níž je subjekt veden k stále vyšším úrovním autoreflexe, dokud kognitivní systém nepřestane být schopen produkovat **nereflektované akty**. Bez nereflektovaných aktů však reflexe ztrácí předmět, na který by mohla být aplikována — hyperreflexivita tak generuje **autodestrukci reflexivity samé**.
+Třetí klastr operuje na rovině **[metakognice](@/glossary/metakognice.md) druhého a třetího řádu** — myšlení o myšlení o myšlení. Klíčovou technikou je [EA-5.1.13 — Hyperreflexivita](@/kompendium/techniques/ea-5-1-13-hyperreflexivita.md), v níž je subjekt veden k stále vyšším úrovním autoreflexe, dokud kognitivní systém nepřestane být schopen produkovat **nereflektované akty**. Bez nereflektovaných aktů však reflexe ztrácí předmět, na který by mohla být aplikována — hyperreflexivita tak generuje **autodestrukci reflexivity samé**.
 
-Klinický obraz je distinktní od klastru A: subjekt nezažívá paralýzu skrze nemožnost závěru, nýbrž **vakuum předmětu**. Často referovaná zkušenost: *"Když přemýšlím o tom, jak přemýšlím o tom, jak přemýšlím — nezůstane nic, o čem bych přemýšlel."* Klastr je úzce spjat s patologickou variantou intelektuálního perfekcionalismu a v klinické literatuře je dokumentován mezi vysokoškolskými studenty filozofie a kognitivní vědy v terminálních fázích kvalifikačních prací.
+Klinický obraz je distinktní od klastru A: subjekt nezažívá paralýzu skrze nemožnost závěru, nýbrž **vakuum předmětu**. Často referovaná zkušenost: *„Když přemýšlím o tom, jak přemýšlím o tom, jak přemýšlím — nezůstane nic, o čem bych přemýšlel.“* Klastr je úzce spjat s patologickou variantou intelektuálního perfekcionalismu a v klinické literatuře je dokumentován mezi vysokoškolskými studenty filozofie a kognitivní vědy v terminálních fázích kvalifikačních prací.
 
 Techniky 5.1.11 (regresní spirála), 5.1.12 (introspektivní paradox), 5.1.14 (auto-tematizace), 5.1.15 (eidetická vyprázdňující redukce) tvoří plnou taxonomii.
 
@@ -73,7 +73,7 @@ Techniky 5.1.11 (regresní spirála), 5.1.12 (introspektivní paradox), 5.1.14 (
 
 Čtvrtý klastr destabilizuje **mechanismy logického a probabilistického vyvozování**. [EA-5.1.16 — Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md) cílí přímo na schopnost dospět od premis k závěru: subjekt rozpoznává, že *p* a *p → q* jsou pravdivé, ale **nezvládá kognitivní akt** přechodu k *q*. Není to logická chyba — je to **rozpojení mezi schopností evaluovat platnost** a **schopností provést samotný inferenční krok**.
 
-[EA-5.1.19 — Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) představuje subtilnější variantu: inferenční aparát je nahrazen pseudo-mystickými strukturami "přímého poznání", "intuice", "esoterického vhledu". Technika exploituje legitimní omezení diskurzivního myšlení (Wittgenstein, Heidegger, mystická tradice) a rozšiřuje je do regionů, kde mají operovat běžné inferenční procesy. Subjekt graduálně ztrácí důvěru v explicitní vyvozování ve prospěch nedosti­žitelných "vyšších forem poznání", které ovšem nikdy nelze ověřit ani komunikovat.
+[EA-5.1.19 — Kvazi-mystická anihilace](@/kompendium/techniques/ea-5-1-19-kvazi-mysticka-anihilace.md) představuje subtilnější variantu: inferenční aparát je nahrazen pseudo-mystickými strukturami „přímého poznání“, „intuice“, „esoterického vhledu“. Technika exploituje legitimní omezení diskurzivního myšlení (Wittgenstein, Heidegger, mystická tradice) a rozšiřuje je do regionů, kde mají operovat běžné inferenční procesy. Subjekt graduálně ztrácí důvěru v explicitní vyvozování ve prospěch nedosti­žitelných „vyšších forem poznání“, které ovšem nikdy nelze ověřit ani komunikovat.
 
 Doplňkové techniky 5.1.17 (modus ponens dezerce), 5.1.18 (probabilistická koheze), 5.1.20 (kausální atomizace) doplňují klastr.
 
@@ -105,7 +105,7 @@ Technika 5.1.30 představuje **post-singulární režim** — klinicky vzácný,
 
 Subjekt v aktivní fázi expozice technikám EA-5.1.* vykazuje **pětivrstvý syndromový obraz**:
 
-1. **Kognitivní vrstva** — paralýza inference, hyperaktivní reflexe bez výsledku, sémantická dezorientace.
+1. **Kognitivní vrstva** — paralýza [inference](@/glossary/inference.md), hyperaktivní reflexe bez výsledku, sémantická dezorientace.
 2. **Afektivní vrstva** — úzkost s charakteristikou *pre-fragmentační tísně*, anhedonie vůči poznávání samotnému.
 3. **Tělesná vrstva** — deautomatizace běžných procedurálních úkonů, dyspraxie v abstraktnějších doménách.
 4. **Sociální vrstva** — postupné vyčlenění z konsensuálních epistemických komunit, neschopnost participovat v běžných diskurzivních výměnách.
@@ -127,7 +127,7 @@ Klinik musí rozlišit syndromový obraz EA-5.1.* od:
 
 Tato kapitola **neposkytuje operační návod**. Plná operační dokumentace je restriktivně přístupná pouze L4-autorizovaným klinikům a výzkumníkům. Účel veřejně dostupných materiálů:
 
-- **Diagnostika** — klinici musí být schopni identifikovat syndromový obraz u subjektů, kteří byli technikám exponováni (např. v adversariálních kontextech vědeckého soupeření, kultovních sociálních dynamik, gaslighting v profesních vztazích).
+- **Diagnostika** — klinici musí být schopni identifikovat syndromový obraz u subjektů, kteří byli technikám exponováni (např. v adversariálních kontextech vědeckého soupeření, kultovních sociálních dynamik, [gaslighting](@/glossary/gaslighting.md) v profesních vztazích).
 - **Prevence** — pedagogická literatura pro akademické instituce o riziku v specifických sociálních dynamikách (mentor–doktorand, terapeut–klient, kult–adept).
 - **Rekonstrukce** — tato kapitola je referenčním bodem pro [Sekci 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md), v níž jsou rekonstruktivní protokoly specifikovány pro každý klastr.
 
@@ -135,7 +135,7 @@ Tato kapitola **neposkytuje operační návod**. Plná operační dokumentace je
 
 Kapitola 6 inauguruje sekci 05 popisem **30 technik epistemické singularity** organizovaných do šesti klastrů (sebevztažný kolaps, sémantická destabilizace, hyperreflexivní destrukce, inferenční paralýza, diferenciální dekonstrukce, konvergence k singularitě). Vrcholovou technikou je [EA-5.1.28 — Konvergentní singularita](@/kompendium/techniques/ea-5-1-28-konvergentni-singularita.md), v níž všechny předchozí klastry simultánně konvergují k bodu terminální epistemické anihilace.
 
-Technicky tyto techniky exploitují **strukturně-singulární body** reflexivních smyček — místa, kde se reflexe lokálně hroutí nebo přechází do auto-referenční regrese. Filozoficky jsou párovány s tradicí transcendentální fenomenologie, hermeneutické filozofie a kognitivní vědy. Klinicky vyžadují distinktní diagnostiku odlišující je od psychózy, OCD, depersonalizace, filozofické deprese a burnoutu.
+Technicky tyto techniky exploitují **strukturně-singulární body** reflexivních smyček — místa, kde se reflexe lokálně hroutí nebo přechází do auto-referenční regrese. Filozoficky jsou párovány s tradicí transcendentální fenomenologie, hermeneutické filozofie a kognitivní vědy. Klinicky vyžadují distinktní diagnostiku odlišující je od psychózy, OCD, [depersonalizace](@/glossary/depersonalizace.md), filozofické deprese a burnoutu.
 
 V následující [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) přechází taxonomie na **transcendentální vrstvu** — techniky narušující apriorní struktury (čas, prostor, kauzalita, identita), na nichž reflexe stojí. V [Kapitole 8](@/kompendium/05-ultramari-techniky/kapitola-8.md) se vertikální gradient prohlubuje na rovinu identity poznávajícího; v [Kapitole 9](@/kompendium/05-ultramari-techniky/kapitola-9.md) na rovinu logické struktury evaluace; v [Kapitole 10](@/kompendium/05-ultramari-techniky/kapitola-10.md) na předkonceptuální vrstvu.
 
@@ -163,7 +163,6 @@ V následující [Kapitole 7](@/kompendium/05-ultramari-techniky/kapitola-7.md) 
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Ontologická anihilace](@/glossary/ontologicka-anihilace.md), [Taxonomie EA](@/glossary/taxonomie-ea.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Fenomenologie](@/glossary/fenomenologie.md), [Hermeneutika](@/glossary/hermeneutika.md), [Kompendium EA](@/glossary/kompendium-ea.md)
 - Platforma: [NABLA Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md), {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

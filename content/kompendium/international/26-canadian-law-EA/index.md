@@ -48,7 +48,7 @@ vytvořit (viz [domorodé perspektivy EA](@/kompendium/international/16-indigeno
   u něhož lze důvodně očekávat, že oběť uvěří, že je ohrožena její bezpečnost nebo
   bezpečnost blízkých, pokud práci či služby neposkytne. Fyzické omezení se nevyžaduje
   (viz [právo o obchodování s lidmi](@/kompendium/forensic-legal/49-trafficking-law-EA.md)).
-- **Nenávistná propaganda (ss. 318–319)** – obhajování genocidy, veřejné podněcování
+- **Nenávistná [propaganda](@/glossary/propaganda.md) (ss. 318–319)** – obhajování genocidy, veřejné podněcování
   k nenávisti a úmyslné šíření nenávisti. Nejvyšší soud ve věci *R v Keegstra* (1990)
   shledal zákaz úmyslného šíření nenávisti slučitelným s Listinou.
 - **Nekonsensuální šíření intimních snímků (s. 162.1)**.

@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Agent Tier je hierarchická klasifikace 552 agentů Prismatic platformy podle úrovně autority, specializace a orchestračního dosahu. Tiers sahají od T0 (supreme orchestrators jako Archer Supreme) přes T1-T2 (domain commanders) až po T5 (atomic specialists). Tier rozhoduje o routing prioritě, eskalaci a dependency resolution.
+Agent Tier je hierarchická klasifikace 552 agentů Prismatic platformy podle úrovně autority, specializace a orchestračního dosahu. Tiers sahají od T0 (supreme orchestrators jako [Archer Supreme](@/glossary/archer-supreme.md)) přes T1-T2 (domain commanders) až po T5 (atomic specialists). Tier rozhoduje o routing prioritě, eskalaci a dependency resolution.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -34,7 +34,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 02 — Agent ecosystem overview**: tier hierarchy jako strukturální páteř agentní sítě
 - **Sekce 04 — Orchestration patterns**: tier-aware routing v /mycelialize a /orchestrate
-- **Sekce 05 — Color teams**: průnik tier hierarchie a barevné specializace
+- **Sekce 05 — [Color teams](@/glossary/color-teams.md)**: průnik tier hierarchie a barevné specializace
 - **Sekce 06 — Operational doctrine**: eskalace nesplněných úkolů z T5 do T0
 - **Per-technique články**: definice nového agenta, tier promotion kritéria
 

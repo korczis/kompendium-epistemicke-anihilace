@@ -86,7 +86,7 @@ Co může vidět vnější pozorovatel:
 ### Institucionální
 
 - Cult exit programs: moduly o genealogické rekonstrukci a rodinné rekonsolidaci
-- Family law: identifikace genealogické rekonstrukce jako prediktoru high-control group involvement
+- Family law: identifikace genealogické rekonstrukce jako prediktoru [high-control group](@/glossary/high-control-group.md) involvement
 
 ## Vztah k jiným technikám
 
@@ -96,7 +96,7 @@ EA-5.3.12 (relační restrukturalizace), EA-5.3.23 (konstitutivní mytologizace)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **genealogická rekonstrukce** představuje strukturální výzvu pro d
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Foucaultova **généalogie** jako kritická analýza vznikání — manipulátor parazituje na této metodě, instaluje fiktivní genealogii. Ricoeurova **mémoire collective** (*La mémoire, l'histoire, l'oubli*) — subjekt je formován kolektivní pamětí — je falsifikována. Husserlova **passive Genesis** ego (*Cartesian Meditations*) — sedimentační historie monády — je přeskočena. Heideggerova **Geworfenheit** (vrženost, *Sein und Zeit*) ztrácí faktickou kotvu: subjekt je 'vržen' do fiktivní genealogie. Damasiova **autobiographical extended consciousness** ztrácí kontinuální kotvení v rodinné/kulturní historii. Levinas: stopa otce je nahrazena stopou manipulátora. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Foucaultova **généalogie** jako kritická analýza vznikání — manipulátor
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

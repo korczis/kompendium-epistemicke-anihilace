@@ -96,7 +96,7 @@ EA-5.3.5 (temporálně-vývojová inverze), EA-5.3.30 (konvergentní hypertransf
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **rekurzivní hypertransformace** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Heideggerova **Eigentlichkeit** (vlastnictví) jako návrat k vlastní možnosti je nahrazena nekonečnou rekurzí transformací bez finální konfigurace. Ricoeurova **identita jako narativní celek** je rozkládána iterativním přeprogramováním — každý nový narativ ruší předešlý. Husserlův **horizont** (*Cartesian Meditations*) — implicitní pozadí každého aktu — je odstraněn: každá transformace vyžaduje radikální nový horizont. Damasiův **homeostatický imperativ** (*Self Comes to Mind*) je porušen: rekurzivní transformace vyčerpává metabolický substrát kontinuity. Foucaultovy **technologie sebe** (*L'herméneutique du sujet*) jsou reverzovány: namísto sebepéče slouží k sebezničení. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Heideggerova **Eigentlichkeit** (vlastnictví) jako návrat k vlastní možnosti
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 
@@ -153,7 +152,7 @@ Diferenciální klíč: přítomnost identifikovatelného **externího agenta**,
 
 Pozorovatelné indikátory přítomnosti této techniky v klinické anamnéze:
 
-narativní rekurze s rostoucí abstraktností a rostoucí ztrátou referenčnosti, exhausce projevující se kataleptickými epizodami, jazyk druhého řádu ('teď konečně chápu, kdo jsem byl, když jsem si myslel...'), zrychlující se cyklus identitárních redefinic, ztráta čerpacího horizontu.
+narativní rekurze s rostoucí abstraktností a rostoucí ztrátou referenčnosti, exhausce projevující se kataleptickými epizodami, jazyk druhého řádu ('teď konečně chápu, kdo jsem byl, když jsem si myslel…'), zrychlující se cyklus identitárních redefinic, ztráta čerpacího horizontu.
 
 Tyto markery jsou kumulativní — žádný jednotlivý nemá diagnostickou specificitu, ale jejich konvergence při anamnéze přítomnosti high-control vztahu nebo izolačního prostředí zvyšuje prediktivní hodnotu. Doporučená klinická cesta zahrnuje longitudinální anamnézu (před/po hraniční bod), konfrontaci s externí dokumentací (deníky, fotografie, korespondence), a strukturované interview se zaměřením na narativní koherenci pre-manipulační fáze.
 

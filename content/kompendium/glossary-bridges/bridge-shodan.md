@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[shodan](@/glossary/shodan.md) — Shodan je vyhledávač internetově-připojených zařízení a služeb, který indexuje banner responses, otevřené porty, ICS/SCADA systémy, kamery a IoT. Slouží jako klíčový OSINT zdroj pro attack surface mapping i defensivní inventory discovery vlastní expozice.
+[shodan](@/glossary/shodan.md) — Shodan je vyhledávač internetově-připojených zařízení a služeb, který indexuje banner responses, otevřené porty, ICS/SCADA systémy, kamery a IoT. Slouží jako klíčový [OSINT](@/glossary/osint.md) zdroj pro attack surface mapping i defensivní inventory discovery vlastní expozice.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

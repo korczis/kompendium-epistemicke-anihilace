@@ -19,7 +19,7 @@ toc = true
 
 Richard Dawkins v knize *The Selfish Gene* (1976) — v poslední kapitole *Memes: the New Replicators* — zavádí pojem **mem** (*meme*) — **jednotku kulturního přenosu**, jež se **reprodukuje** podle stejných evolučních principů jako gen.
 
-Pro kompendium EA poskytuje teorie memu nástroj pro pochopení **EA jako manipulace memetickými systémy** a **virálního šíření manipulativních obsahů**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje teorie memu nástroj pro pochopení **EA jako manipulace memetickými systémy** a **virálního šíření manipulativních obsahů**.
 
 ## 1. Mem jako replikátor
 
@@ -54,9 +54,9 @@ Pro EA má digitální memetika **strukturální význam**:
 
 Dawkins (zejména v *The God Delusion*, 2006) rozvíjí pojem **memetické imunizace**: některé memy mají **strukturální obrany** proti revizi:
 
-- **Self-protection memes**: "kdo zpochybňuje, je nepřítel"
-- **In-group memes**: "ti druzí lžou, my máme pravdu"
-- **Apocalyptic memes**: "konec se blíží, kritika je sabotáž"
+- **Self-protection memes**: „kdo zpochybňuje, je nepřítel“
+- **In-group memes**: „ti druzí lžou, my máme pravdu“
+- **Apocalyptic memes**: „konec se blíží, kritika je sabotáž“
 
 Tyto memy jsou strukturálně **rezistentní** vůči argumentaci.
 
@@ -86,7 +86,7 @@ Memetika je strukturálně **kontroverzní**:
 
 - **Empirické problémy**: jak **identifikovat** mem? Hranice memu jsou strukturálně **fuzzy**.
 - **Reduktivní přístup**: redukce kultury na replikátory strukturálně **opomíjí** **smysl**, **hodnotu**, **kontext**.
-- **Anti-humanistický nádech**: pojetí lidí jako "memických hostitelů" má strukturálně **dehumanizující** potenciál.
+- **Anti-humanistický nádech**: pojetí lidí jako „memických hostitelů“ má strukturálně **dehumanizující** potenciál.
 
 Kompendium absorbuje **užitečné** aspekty memetiky (zejména pro analýzu virálního šíření), ale **odbočuje** od reduktivních **redukcionistických** závěrů.
 
@@ -120,8 +120,8 @@ Memetika má politickou dimenzi:
 
 Pro Prismatic má memetika **specifickou** relevanci:
 
-- **OSINT analýza**: detekce **virálních** memetických kampaní.
-- **Color Teams**: simulace **memetické rezistence** vůči manipulativním obsahům.
+- **[OSINT](@/glossary/osint.md) analýza**: detekce **virálních** memetických kampaní.
+- **[Color Teams](@/glossary/color-teams.md)**: simulace **memetické rezistence** vůči manipulativním obsahům.
 
 ## 10. Primární literatura
 

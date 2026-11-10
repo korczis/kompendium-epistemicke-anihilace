@@ -8,7 +8,7 @@ description = "Husserlian 'lifeworld' — the pre-theoretical horizon of taken-f
 tags = ["glossary", "epistemic", "philosophy", "phenomenology"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "intentionalita", "embodied-cognition", "kognitivni-anihilace", "narrative-trauma", "metakognice"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -26,9 +26,9 @@ image_alt = "Lebenswelt - glossary"
 
 **Lebenswelt** — usually translated as **lifeworld** — is Edmund Husserl's term, developed centrally in *The Crisis of European Sciences and Transcendental Phenomenology* (1936), for the **pre-theoretical, taken-for-granted horizon** of immediate experience that grounds all subsequent cognitive activity, including scientific theory. The lifeworld is not what we *think about*; it is the background against which any thinking-about can occur.
 
-Husserl developed the concept against what he diagnosed as the "crisis" of modern science: the substitution of an idealized mathematical-physical universe for the lifeworld in which that science was originally meaningful. The lifeworld is *prior* to and *founding for* every theoretical construction — including the theoretical construction that purports to replace it. We do not first encounter electrons and then construct a lifeworld; we first inhabit a lifeworld in which the activity of *measuring* and *theorizing* is meaningful, and within that activity we develop the concept of an electron.
+Husserl developed the concept against what he diagnosed as the “crisis” of modern science: the substitution of an idealized mathematical-physical universe for the lifeworld in which that science was originally meaningful. The lifeworld is *prior* to and *founding for* every theoretical construction — including the theoretical construction that purports to replace it. We do not first encounter electrons and then construct a lifeworld; we first inhabit a lifeworld in which the activity of *measuring* and *theorizing* is meaningful, and within that activity we develop the concept of an electron.
 
-Four structural features of the lifeworld matter for epistemic security: (1) **givenness** — it is *already there*, not produced by an act of attention; (2) **horizonal structure** — it is not a totality of objects but a structured background of possibilities; (3) **intersubjectivity** — it is shared, not private (a "lifeworld of one" is incoherent); (4) **historicity** — every lifeworld is sedimented from prior generations' active life, embedded in language, institutions, practices.
+Four structural features of the lifeworld matter for [epistemic security](@/glossary/epistemic-security.md): (1) **givenness** — it is *already there*, not produced by an act of attention; (2) **horizonal structure** — it is not a totality of objects but a structured background of possibilities; (3) **intersubjectivity** — it is shared, not private (a “lifeworld of one” is incoherent); (4) **historicity** — every lifeworld is sedimented from prior generations' active life, embedded in language, institutions, practices.
 
 The lifeworld is the **deepest stratum of cognition**. It is also therefore the deepest target of [Epistemická anihilace](@/glossary/epistemicka-anihilace.md): damage to specific beliefs is recoverable; damage to the lifeworld threatens the *condition of possibility* for any belief at all.
 

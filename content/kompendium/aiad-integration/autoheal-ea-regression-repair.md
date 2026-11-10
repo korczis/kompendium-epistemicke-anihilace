@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-AutoHeal je samoopravný systém — detekuje regrese v detekčních vrstvách a automaticky obnovuje known-good konfigurace bez lidského zásahu. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[AutoHeal](@/glossary/autoheal.md) je samoopravný systém — detekuje regrese v detekčních vrstvách a automaticky obnovuje known-good konfigurace bez lidského zásahu. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ AutoHeal opravuje pouze **známé třídy regresí** — nové třídy degradace
 
 ## Coordination
 
-Triggerován **Blue Teamem** a **Quality Monitor**; spolupracuje s **AutoEvolve** na long-term fix; auditováno **White Teamem**.
+Triggerován **Blue Teamem** a **Quality Monitor**; spolupracuje s **[AutoEvolve](@/glossary/autoevolve.md)** na long-term fix; auditováno **White Teamem**.
 
 ## Cross-linky
 

@@ -8,7 +8,7 @@ description = "Filosofická teorie interpretace textů, jednání a historickýc
 tags = ["glossary", "epistemic", "philosophy", "interpretation"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["fenomenologie", "epistemicka-anihilace", "taxonomie-ea", "gaslighting", "falsifikace", "lakatos-vyzkumny-program"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -31,7 +31,7 @@ Two structures from the philosophical tradition matter for the [Kompendium epist
 1. **The hermeneutic circle** (Gadamer) — understanding moves between part and whole: the meaning of a passage depends on the whole text, the meaning of the whole text depends on its passages. Comprehension is iterative refinement, not linear deduction.
 2. **The conflict of interpretations** (Ricoeur) — the same text or event admits multiple legitimate readings, each disclosing different aspects. Pluralism of interpretation is not relativism: legitimate interpretations are constrained by **textual evidence**, **internal coherence**, **explanatory yield**, and **fidelity to the matter at hand** (*die Sache selbst*).
 
-The kompendium uses hermeneutics precisely to **distinguish legitimate interpretive revision from EA-1.3.2 strategic reinterpretation** ([gaslighting](@/glossary/gaslighting.md)'s textual-historical face). Both look superficially similar — "what really happened was..." Both involve revising a prior interpretation. The structural difference:
+The kompendium uses hermeneutics precisely to **distinguish legitimate interpretive revision from EA-1.3.2 strategic reinterpretation** ([gaslighting](@/glossary/gaslighting.md)'s textual-historical face). Both look superficially similar — “what really happened was…” Both involve revising a prior interpretation. The structural difference:
 
 - **Legitimate hermeneutic revision** discloses *more* of the matter — additional evidence, internal coherence, explanatory power; the new reading survives engagement with the original record and the alternatives.
 - **EA-1.3.2 strategic reinterpretation** systematically suppresses parts of the record, denies the standing of alternative interpreters, and produces readings that benefit the manipulator regardless of textual fit.
@@ -42,7 +42,7 @@ Within the Prismatic Platform, the hermeneutic framework is operationalized in t
 
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats interpretation as a **separate epistemic operation** from data ingestion. Multiple interpretations of the same source material are kept available, with provenance and evidential support tracked per interpretation. A reinterpretation is registered with timestamp, author, and the justification offered — not silently overwritten.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains an **interpretation history** so that when a current interpretation conflicts with prior ones, the conflict is surfaced rather than suppressed. This is the structural defense against EA-1.3.2: a strategic reinterpretation depends on the prior interpretation being silently erased; immutable interpretation history prevents the erasure.
-- The [Color Teams](@/glossary/color-teams.md) Blue Team validates this with adversarial reinterpretation drills — testing that platform records cannot be retroactively rewritten without leaving an audit trail.
+- The [Color Teams](@/glossary/color-teams.md) [Blue Team](@/glossary/blue-team.md) validates this with adversarial reinterpretation drills — testing that platform records cannot be retroactively rewritten without leaving an audit trail.
 
 Hermeneutics is also the philosophical complement to [fenomenologie](@/glossary/fenomenologie.md): phenomenology asks how experience is structured for the subject; hermeneutics asks how meaning is constituted across subjects, texts, and history. Both first-person methodologies are essential to EA detection because the data — what manipulation feels like, how a reinterpretation lands — is irreducibly first-personal. The platform's design respects this: subject self-reports are not subordinated to third-person measurement, they are tracked as their own evidence stream.
 

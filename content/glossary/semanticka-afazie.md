@@ -7,7 +7,7 @@ description = "Neuropsychological syndrome characterized by progressive loss of 
 tags = ["clinical", "neuroscience", "linguistics", "dementia"]
 
 [extra]
-category = "clinical-neuroscience"
+category = "neurověda"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -38,9 +38,9 @@ Syndrom poprvé systematicky popsali John Hodges a Karalyn Patterson (Cambridge,
 
 ## Practical Application
 
-1. **DD klinické vyšetřování seniorního leadera společnosti**: neobvyklé používání generic words ("věc", "to", "stuff"), přehnané spoléhání na známé fráze, a obtíže s pojmenováváním less common objects v rozhovoru jsou indikace pro neurologický referrál.
+1. **DD klinické vyšetřování seniorního leadera společnosti**: neobvyklé používání generic words („věc“, „to“, „stuff“), přehnané spoléhání na známé fráze, a obtíže s pojmenováváním less common objects v rozhovoru jsou indikace pro neurologický referrál.
 2. **Posouzení testamentární způsobilosti**: subjekt se sémantickou afázií může být formálně schopný podepsat dokument, ale nechápe význam pojmů jako *trust*, *beneficiary*, *fiduciary*; právní platnost takového aktu je napadnutelná.
-3. **Klinická differentiation v interview kontextech**: rozlišení sémantické afázie od pragmatické deprivace (sociální izolace), od deprese (apatie), a od dissimulation (záměrná mlhavost) vyžaduje strukturovaný neuropsychologický test, ne jen rozhovorový dojem.
+3. **Klinická differentiation v interview kontextech**: rozlišení sémantické afázie od pragmatické deprivace ([sociální izolace](@/glossary/socialni-izolace.md)), od deprese (apatie), a od dissimulation (záměrná mlhavost) vyžaduje strukturovaný neuropsychologický test, ne jen rozhovorový dojem.
 4. **Compliance v leadership succession planning**: protokol identifikace early-stage cognitive decline u senior executives je součástí governance best practice (zvláště v finančním sektoru).
 
 ## Related Concepts

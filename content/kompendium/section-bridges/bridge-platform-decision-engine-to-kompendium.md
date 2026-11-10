@@ -15,7 +15,7 @@ toc = false
 
 # Bridge: Platform Decision Engine → Kompendium
 
-> **Z:** Platform: Decision Engine → **Do:** Kompendium (terminální protokoly + klinika)
+> **Z:** Platform: [Decision Engine](@/glossary/decision-engine.md) → **Do:** Kompendium (terminální protokoly + klinika)
 > **Typ:** Inter-section bridge (sekce-na-sekci)
 > **Reciprocita:** Bidirektionální navigace mezi sekcemi.
 

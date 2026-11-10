@@ -15,7 +15,7 @@ toc = true
 
 # EA × OSINT: ARES Validation pod EA Lens
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **OSINT**.
+> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[OSINT](@/glossary/osint.md)**.
 
 ## Doména
 
@@ -63,7 +63,6 @@ Akvizice s.r.o.: jednatel měněn 4× za 18 měsíců, vždy 7 dní před tendre
 
 Veřejná zakázka: 5 'nezávislých' uchazečů sdílí registrované sídlo skrz 2 prostředníky
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

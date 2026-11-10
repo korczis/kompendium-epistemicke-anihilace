@@ -54,7 +54,7 @@ Diagnostická hierarchy (CPTSD trumps PTSD) může vyloučit pacienty z PTSD-spe
 
 ## Vztah k jiným zdrojům
 
-Doplňuje **EA-8.2.7 DSM-5-TR Trauma**. Konceptuálně provázaný s **EA-8.1.5 Epistemic Trust Scale** a **EA-8.1.6 Betrayal Trauma Inventory**.
+Doplňuje **EA-8.2.7 DSM-5-TR Trauma**. Konceptuálně provázaný s **EA-8.1.5 Epistemic Trust Scale** a **EA-8.1.6 [Betrayal Trauma](@/glossary/betrayal-trauma.md) Inventory**.
 
 ## Cross-linky
 

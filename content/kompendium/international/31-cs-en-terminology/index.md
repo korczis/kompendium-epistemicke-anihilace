@@ -90,7 +90,7 @@ pojem v knize dále používá.
 - **victimisation ≠ viktimizace.** V britském antidiskriminačním právu znamená
   *victimisation* postih za podání stížnosti; český antidiskriminační zákon tomu říká
   pronásledování. Česká „viktimizace“ (primární, sekundární) je pojem viktimologický.
-- **expert witness ≠ znalec.** Anglický svědek-expert je typicky přizván stranou; český
+- **[expert witness](@/glossary/expert-witness.md) ≠ znalec.** Anglický svědek-expert je typicky přizván stranou; český
   znalec působí podle zákona č. 254/2019 Sb., o znalcích, znaleckých kancelářích a znaleckých
   ústavech, a jeho role i odpovědnost jsou jiné (viz [Znalec EA](@/kompendium/forensic-legal/21-expert-witness-EA.md)).
 - **survivor / victim.** Anglická praxe často preferuje *survivor*; česká legislativa

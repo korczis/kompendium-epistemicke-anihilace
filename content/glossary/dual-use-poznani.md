@@ -8,7 +8,7 @@ description = "Etický problém citlivého poznání — totéž porozumění te
 tags = ["glossary", "epistemic", "ethics", "policy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["kompendium-ea", "epistemicka-anihilace", "taxonomie-ea", "delegitimizace", "metakognitivni-destrukce", "color-teams"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -24,9 +24,9 @@ image_alt = "Dual-use poznání - glossary"
 
 ## Definition
 
-**Dual-use poznání** (*dual-use knowledge*) is the structural ethical problem that arises whenever the same understanding is required for both **defense** and **offense** in a given domain. The term originates in arms-control and biosecurity literature (chemistry, microbiology, nuclear physics) and has been extended to information security and — through the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) — to **epistemic security**.
+**Dual-use poznání** (*dual-use knowledge*) is the structural ethical problem that arises whenever the same understanding is required for both **defense** and **offense** in a given domain. The term originates in arms-control and biosecurity literature (chemistry, microbiology, nuclear physics) and has been extended to information security and — through the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) — to **[epistemic security](@/glossary/epistemic-security.md)**.
 
-The dual-use problem is structurally unavoidable, not a defect of presentation: a clinician who can detect [gaslighting](@/glossary/gaslighting.md) understands gaslighting well enough to perform it; a researcher who can document EA-1.3.1 immunization patterns can deploy them; a Red Team operator who can simulate [delegitimizace](@/glossary/delegitimizace.md) campaigns at scale knows how to run them. Restricting access does not eliminate the knowledge; it only changes who has it.
+The dual-use problem is structurally unavoidable, not a defect of presentation: a clinician who can detect [gaslighting](@/glossary/gaslighting.md) understands gaslighting well enough to perform it; a researcher who can document EA-1.3.1 immunization patterns can deploy them; a [Red Team](@/glossary/red-team.md) operator who can simulate [delegitimizace](@/glossary/delegitimizace.md) campaigns at scale knows how to run them. Restricting access does not eliminate the knowledge; it only changes who has it.
 
 The kompendium adopts and extends the **standard dual-use ethical framework** with adaptations specific to epistemic security:
 

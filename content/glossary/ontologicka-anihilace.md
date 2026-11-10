@@ -8,7 +8,7 @@ description = "Destrukce základních kategorií bytí, podle kterých subjekt s
 tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -26,7 +26,7 @@ image_alt = "Ontologická anihilace - glossary"
 
 **Ontologická anihilace** (ontological annihilation) is the destruction of the basic categories of being through which a subject structures their experience of reality — the disruption of fundamental ontological distinctions such as **self vs. world**, **real vs. simulated**, **fact vs. value**, **animate vs. inanimate**, **personal vs. impersonal**, **temporal vs. atemporal**. Unlike epistemic annihilation (which targets the **structure of knowing**) or cognitive annihilation (which targets the **process of thinking**), ontological annihilation targets the **categorical scaffolding of reality itself** as it is structured for the subject.
 
-The phenomenon represents the **deepest** layer of the anihilation taxonomy. Where epistemic annihilation damages how one knows things and cognitive annihilation damages the mental processes by which one operates, ontological annihilation damages the **categorical distinctions that determine what counts as a "thing" at all**.
+The phenomenon represents the **deepest** layer of the anihilation taxonomy. Where epistemic annihilation damages how one knows things and cognitive annihilation damages the mental processes by which one operates, ontological annihilation damages the **categorical distinctions that determine what counts as a “thing” at all**.
 
 Manifestations include:
 
@@ -34,7 +34,7 @@ Manifestations include:
 - **Boundary collapse** — erosion of the implicit boundary between self and other, inner and outer, fact and interpretation
 - **Existential uncertainty** disproportionate to specific epistemic doubts
 - **Categorical lability** — categories that should be stable for adult cognition become fluid or interchangeable
-- **Reality-status uncertainty** — pervasive doubt about which experiences correspond to "real" versus "constructed" or "implanted"
+- **Reality-status uncertainty** — pervasive doubt about which experiences correspond to “real” versus “constructed” or “implanted”
 
 ## Context
 
@@ -42,7 +42,7 @@ Ontological annihilation is **rarely** the direct target of explicit techniques 
 
 Phenomenologically, the state shares features with certain mystical disintegrative experiences described in religious traditions and with severe psychotic episodes — but the etiology is distinct: ontological annihilation is **systemically induced** through sustained anihilation pressure, not endogenous to the subject. Differential diagnosis is essential because the appropriate clinical response differs significantly.
 
-In Prismatic-relevant defensive applications, ontological annihilation functions primarily as an **outcome marker** — a signal that a subject has progressed through earlier stages of damage and is now in a state requiring intensive structured intervention. The platform's threat models include ontological annihilation indicators specifically because their emergence in monitored populations (whistleblowers, defectors from manipulative communities, victims of sustained gaslighting) signals the highest-priority intervention scenario.
+In Prismatic-relevant defensive applications, ontological annihilation functions primarily as an **outcome marker** — a signal that a subject has progressed through earlier stages of damage and is now in a state requiring intensive structured intervention. The platform's threat models include ontological annihilation indicators specifically because their emergence in monitored populations (whistleblowers, defectors from manipulative communities, victims of sustained [gaslighting](@/glossary/gaslighting.md)) signals the highest-priority intervention scenario.
 
 Recovery from ontological annihilation is possible but typically requires **months to years** of structured reconstruction. The standard therapeutic approach involves rebuilding ontological categories from the most basic distinctions outward — re-establishing self/world boundary first, then animate/inanimate, then fact/interpretation — rather than trying to address higher-order categories directly.
 

@@ -19,7 +19,7 @@ toc = true
 
 Alasdair MacIntyre v knize *After Virtue* (1981) formuluje **diagnostickou tezi**: moderní morální diskurz je strukturálně **rozpadlý** — operujeme s **fragmenty** předosvícenských morálních tradic, jejichž **sdílený fundament** byl ztracen. Výsledkem je **emotivismus** — pozice, podle níž morální tvrzení vyjadřují **pouze** emocionální postoje, nemohou být **racionálně** rozhodnuta.
 
-Pro kompendium EA poskytuje MacIntyrova analýza nástroj pro pochopení **EA jako strukturálního důsledku** ztráty sdíleného morálního jazyka.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje MacIntyrova analýza nástroj pro pochopení **EA jako strukturálního důsledku** ztráty sdíleného morálního jazyka.
 
 ## 1. Krize emotivismu
 
@@ -72,7 +72,7 @@ Pro EA z toho plyne:
 
 ## 4. Narativní jednota a moral identity
 
-MacIntyre rozvíjí (paralelně s Ricoeurem, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)): **lidská identita** je strukturálně **narativní**. "Kdo jsem?" se zodpovídá vyprávěním příběhu mého života v rámci **tradice**, jíž patřím.
+MacIntyre rozvíjí (paralelně s Ricoeurem, [viz 7.17](@/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md)): **lidská identita** je strukturálně **narativní**. „Kdo jsem?“ se zodpovídá vyprávěním příběhu mého života v rámci **tradice**, jíž patřím.
 
 Bez narativní jednoty:
 
@@ -83,11 +83,11 @@ Bez narativní jednoty:
 Pro EA má narativní jednota **klíčovou diagnostickou hodnotu**:
 
 - **Útok na narativní jednotu** je strukturální technika EA — fragmentace pacienta na **disconnected episodes**.
-- **Klinický korelát**: komplexní C-PTSD ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) je strukturálně **rozpadem** narativní jednoty.
+- **Klinický korelát**: komplexní [C-PTSD](@/glossary/c-ptsd.md) ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)) je strukturálně **rozpadem** narativní jednoty.
 
 ## 5. Tradice a racionalita
 
-MacIntyrova radikální teze (v *Whose Justice? Which Rationality?*, 1988): **racionalita** je strukturálně **vázána** na **tradici**. Žádný "neutrální" rozum **mimo** tradice neexistuje.
+MacIntyrova radikální teze (v *Whose Justice? Which Rationality?*, 1988): **racionalita** je strukturálně **vázána** na **tradici**. Žádný „neutrální“ rozum **mimo** tradice neexistuje.
 
 Tato pozice je strukturálně **napjatá** s **liberálním univerzalismem** (Habermasovská ideální komunikační situace). Kompendium absorbuje MacIntyrův komunitaristický moment, ale **odbočuje** ve směru **kombinace** s univerzalistickými normativními kritérii.
 

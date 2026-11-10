@@ -44,7 +44,7 @@ Místo, aby EA tato pozice technicky obohacovala (jako kapitoly 1–5), slouží
 
 1. **Princip volné energie**
 2. **Predikce a prediktivní kódování**
-3. **Aktivní inference (jednání jako predikce)**
+3. **Aktivní [inference](@/glossary/inference.md) (jednání jako predikce)**
 
 Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr**, jímž lze techniky kapitol 1–6 lépe číst — a v některých případech i odhalit, že to, co vypadá jako jediná technika, je ve skutečnosti složený dispozitiv.
 
@@ -52,7 +52,7 @@ Tyto pojmy nejsou v EA použity přímo jako názvy technik, ale tvoří **rastr
 
 Pozice **Friston** vnáší do EA tři operativní příspěvky:
 
-- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *"něco se tu děje, ale nevíme co"*.
+- **Diagnóza**: pojmenovává jevy, které by jinak v EA zůstaly v rovině *„něco se tu děje, ale nevíme co“*.
 - **Hloubka rámce**: ukazuje, že manipulace často není individuální akt, nýbrž **strukturální efekt** vyšší vrstvy (diskurzní, institucionální, biologické).
 - **Etická pojistka**: brání tomu, aby EA degenerovala v techniku oboustranné aplikace bez reflexe — tj. aby se z obranného nástroje stala nová manipulační šablona.
 
@@ -70,7 +70,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 
 - **Není přímo testovatelná**: na rozdíl od EA-1 až EA-5 nelze tuto pozici jednoduše operacionalizovat ve scoring engine — slouží jako interpretační rámec, ne jako prediktor.
 - **Riziko nadužití**: aplikovaná všude, ztrácí ostří; pozice je nosná tam, kde **standardní psychologický nebo logický rozbor selává**.
-- **Spor o překlad**: některé pojmy (např. *différance*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
+- **Spor o překlad**: některé pojmy (např. *[différance](@/glossary/differance.md)*, *Dasein*, *phi*) odporují čistému přepisu do operativního jazyka platformy a musí být užity s vědomím vlastní hranice.
 - **Žádná pozice není totální**: tato reflexe je jednou z mnoha — viz sister 7.3.* a sousední podkapitoly 7.1, 7.2, 7.3.
 
 ## Cross-linky
@@ -101,7 +101,7 @@ Konkrétní EA techniky, kde je tato reflexe nejvíce nosná, najdete přes [tec
 
 Chcete tuto reflexi aplikovat na konkrétní případ?
 
-- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — Decision Engine s podporou epistemické kalibrace.
+- {{ <cross_link path="/investigate/" text="Spusťte vyšetření" /> }} — [Decision Engine](@/glossary/decision-engine.md) s podporou epistemické kalibrace.
 - [Prohlédněte EA katalog](@/kompendium/techniques/_index.md) — všech 6 operativních kapitol + 7. teoretická.
 - [Glosář pojmů](@/glossary/_index.md) — definice klíčových termínů napříč EA.
 

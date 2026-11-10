@@ -7,7 +7,7 @@ description = "Zero runtime warnings, zero info/debug logs, --warnings-as-errors
 tags = ["glossary", "doctrine", "clean-run", "prismatic"]
 
 [extra]
-category = "doctrine"
+category = "doktrína platformy"
 related_terms = ["cascade", "cascade-pattern", "qdp", "dialyzer", "typespec", "autoevolve", "autoheal", "code-coverage", "property-based-testing", "mix", "supervisor"]
 platform_relevance = "critical"
 complexity = "intermediate"
@@ -45,17 +45,17 @@ A Clean Run is the mandatory compilation and runtime standard requiring zero war
 
 The Clean Run standard addresses a pervasive problem in large software systems: warning fatigue. When a codebase produces dozens or hundreds of warnings during compilation, developers stop reading them. Critical warnings about type mismatches, unused variables that indicate logic errors, or deprecated function usage are lost in a sea of noise. By maintaining absolute zero warnings, Clean Run ensures that any warning that does appear is immediately visible, immediately investigated, and immediately resolved. There is no baseline noise level to habituate to.
 
-Clean Run is not merely a quality preference -- it is a structural enforcement integrated into the platform's compilation pipeline, [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/), CI/CD [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/), and continuous monitoring systems. Code that produces warnings cannot be compiled in production mode, cannot pass pre-commit validation, cannot merge into the main branch, and cannot be deployed. The enforcement is absolute and non-bypassable, governed by the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
+Clean Run is not merely a quality preference — it is a structural enforcement integrated into the platform's compilation pipeline, [pre-commit hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/), CI/CD [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/), and continuous monitoring systems. Code that produces warnings cannot be compiled in production mode, cannot pass pre-commit validation, cannot merge into the main branch, and cannot be deployed. The enforcement is absolute and non-bypassable, governed by the [NO MERCY](https://prismatic-reality-com.github.io/prismatic-promo/glossary/no-mercy/) doctrine.
 
 ## Historical Context and Motivation
 
-The Clean Run standard evolved from painful experience with warning accumulation in large Elixir umbrella projects. Before Clean Run was instituted, the Prismatic Platform carried hundreds of compiler warnings -- unused variables, deprecated function calls, unreachable pattern match clauses, and missing typespec annotations. These warnings were individually trivial but collectively catastrophic. A genuine warning about a type mismatch in a critical security module was invisible among hundreds of benign warnings about unused imports.
+The Clean Run standard evolved from painful experience with warning accumulation in large Elixir umbrella projects. Before Clean Run was instituted, the Prismatic Platform carried hundreds of compiler warnings — unused variables, deprecated function calls, unreachable pattern match clauses, and missing typespec annotations. These warnings were individually trivial but collectively catastrophic. A genuine warning about a type mismatch in a critical security module was invisible among hundreds of benign warnings about unused imports.
 
-The tipping point came during a quality assessment that identified 905 Quality Debt Points ([QDP](@/glossary/qdp.md)) across the codebase. The [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) methodology was developed specifically to eliminate this debt systematically, and Clean Run was established as the standard that would prevent debt from reaccumulating. The elimination campaign took multiple sessions and touched every umbrella application, but the result was a platform where every compiler message is meaningful and every warning demands immediate attention.
+The tipping point came during a quality assessment that identified 905 [Quality Debt](@/glossary/quality-debt.md) Points ([QDP](@/glossary/qdp.md)) across the codebase. The [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) methodology was developed specifically to eliminate this debt systematically, and Clean Run was established as the standard that would prevent debt from reaccumulating. The elimination campaign took multiple sessions and touched every umbrella application, but the result was a platform where every compiler message is meaningful and every warning demands immediate attention.
 
 The decision to extend Clean Run beyond compilation to runtime behavior was driven by a similar observation: log noise in production systems has the same desensitizing effect as compiler warning noise. When every request produces informational log output, operators stop monitoring logs. When a genuine error appears, it drowns in noise. Clean Run's runtime silence standard ensures that log output is reserved for events that warrant human attention, maintaining operational signal clarity.
 
-The standard also draws inspiration from the aerospace and medical device software industries, where warning-free compilation has been a regulatory requirement for decades. The DO-178C standard for airborne software and IEC 62304 for medical device software both mandate zero-warning compilation. The Prismatic Platform applies this same rigor to cybersecurity software, recognizing that security tools with quality deficits are worse than no tools at all -- they provide false confidence.
+The standard also draws inspiration from the aerospace and medical device software industries, where warning-free compilation has been a regulatory requirement for decades. The DO-178C standard for airborne software and IEC 62304 for medical device software both mandate zero-warning compilation. The Prismatic Platform applies this same rigor to cybersecurity software, recognizing that security tools with quality deficits are worse than no tools at all — they provide false confidence.
 
 ## Enforcement Layers
 
@@ -63,7 +63,7 @@ Clean Run is enforced at multiple independent layers, creating defense-in-depth 
 
 ### Layer 1: Compiler Enforcement
 
-The [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) compiler's `--warnings-as-errors` flag converts all compiler warnings to compilation errors. When this flag is active, any warning -- unused variable, deprecated function call, unreachable clause, missing return type -- causes compilation to fail entirely.
+The [Elixir](https://prismatic-reality-com.github.io/prismatic-promo/glossary/elixir/) compiler's `--warnings-as-errors` flag converts all compiler warnings to compilation errors. When this flag is active, any warning — unused variable, deprecated function call, unreachable clause, missing return type — causes compilation to fail entirely.
 
 ```bash
 # Clean Run compilation command
@@ -223,7 +223,7 @@ def process(data) do
 end
 ```
 
-This runtime silence standard ensures that when log output does appear, it signals a genuine event worth investigating -- not routine operational noise that gets ignored.
+This runtime silence standard ensures that when log output does appear, it signals a genuine event worth investigating — not routine operational noise that gets ignored.
 
 ## Implementation Details
 
@@ -363,7 +363,7 @@ Clean Run status is recorded in each application's Quality DNA file (`.claude/qu
 
 - **Incremental compilation false negatives**: Relying solely on incremental compilation for Clean Run validation. Stale artifacts can mask warnings. Always use `--force` for authoritative checks.
 
-- **Test-only warnings**: Ignoring warnings in test files because they are "just tests." Test code quality directly impacts test reliability and maintainability.
+- **Test-only warnings**: Ignoring warnings in test files because they are “just tests.” Test code quality directly impacts test reliability and maintainability.
 
 ## Use Cases
 
@@ -376,24 +376,24 @@ Clean Run status is recorded in each application's Quality DNA file (`.claude/qu
 
 ## Related Concepts
 
-- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) -- Methodology that eliminated 905 QDP to achieve Clean Run
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Specific anti-patterns that violated Clean Run
-- [QDP](@/glossary/qdp.md) -- Quality Debt Points prevented by Clean Run enforcement
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type analysis tool contributing to zero-violation standard
-- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) -- Static analysis tool enforcing code quality rules
-- [Typespec](https://prismatic-reality-com.github.io/prismatic-promo/glossary/typespec/) -- Type annotations validated as part of Clean Run
-- [AutoEvolve](@/glossary/autoevolve.md) -- Evolution system maintaining Clean Run through automatic detection
-- [AutoHeal](@/glossary/autoheal.md) -- Self-repair system triggered by Clean Run regressions
-- [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/) -- Build tool executing Clean Run compilation checks
-- [Code Coverage](https://prismatic-reality-com.github.io/prismatic-promo/glossary/code-coverage/) -- Coverage metric complementing Clean Run quality checks
-- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) -- Testing technique validating Clean Run fixes
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Enforcement pipeline incorporating Clean Run checks
+- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) — Methodology that eliminated 905 QDP to achieve Clean Run
+- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) — Specific anti-patterns that violated Clean Run
+- [QDP](@/glossary/qdp.md) — Quality Debt Points prevented by Clean Run enforcement
+- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) — Type analysis tool contributing to zero-violation standard
+- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) — Static analysis tool enforcing code quality rules
+- [Typespec](https://prismatic-reality-com.github.io/prismatic-promo/glossary/typespec/) — Type annotations validated as part of Clean Run
+- [AutoEvolve](@/glossary/autoevolve.md) — Evolution system maintaining Clean Run through automatic detection
+- [AutoHeal](@/glossary/autoheal.md) — Self-repair system triggered by Clean Run regressions
+- [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/) — Build tool executing Clean Run compilation checks
+- [Code Coverage](https://prismatic-reality-com.github.io/prismatic-promo/glossary/code-coverage/) — Coverage metric complementing Clean Run quality checks
+- [Property-Based Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/property-based-testing/) — Testing technique validating Clean Run fixes
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) — Enforcement pipeline incorporating Clean Run checks
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform quality capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform quality capabilities
 
 ---
 

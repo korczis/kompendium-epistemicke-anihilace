@@ -33,8 +33,8 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 04 — Data engineering**: epistemic vs. plain ETL pipeline
-- **Sekce 05 — Decision Engine integration**: EP jako upstream pro DE
-- **Sekce 06 — Source diversity**: OSINT, DB queries, LLM inference
+- **Sekce 05 — [Decision Engine](@/glossary/decision-engine.md) integration**: EP jako upstream pro DE
+- **Sekce 06 — Source diversity**: [OSINT](@/glossary/osint.md), DB queries, LLM [inference](@/glossary/inference.md)
 - **Sekce 07 — Calibration loop**: feedback uzavírá pipeline
 - **Per-technique články**: implementační patterny, evidence schemas
 

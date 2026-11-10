@@ -7,7 +7,7 @@ description = "Open Source Intelligence gathering and analysis from publicly ava
 tags = ["osint", "intelligence", "security", "reconnaissance"]
 
 [extra]
-category = "osint"
+category = "bezpečnost a zpravodajství"
 abbreviation = "OSINT"
 related_terms = ["intelligence-fusion", "threat-intelligence", "easm", "hawkeye", "entity-resolution", "garden", "sanctions-screening"]
 keywords = ["open source intelligence definition", "OSINT methodology guide", "intelligence gathering techniques", "OSINT source taxonomy", "public records intelligence", "digital forensics OSINT", "threat intelligence collection", "OSINT analysis framework"]
@@ -38,7 +38,7 @@ The formalization of OSINT as a recognized intelligence discipline traces to the
 
 The 2004 publication of the US 9/11 Commission Report highlighted the intelligence community's failure to synthesize publicly available information that could have provided warning of the attacks. This catalyzed institutional investment in OSINT capabilities. The creation of the Open Source Center (OSC) in 2005 and its successor, the Open Source Enterprise (OSE), formalized OSINT's role within the US intelligence community.
 
-In the private sector, OSINT techniques gained prominence through cybersecurity research, competitive intelligence, and due diligence investigations. The Prismatic Platform's OSINT capabilities draw from over 20 years of practical intelligence work captured in the [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/) knowledge base, particularly the `sig` repository containing 250+ OSINT provider integrations.
+In the private sector, OSINT techniques gained prominence through cybersecurity research, competitive intelligence, and [due diligence](@/glossary/due-diligence.md) investigations. The Prismatic Platform's OSINT capabilities draw from over 20 years of practical intelligence work captured in the [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/) knowledge base, particularly the `sig` repository containing 250+ OSINT provider integrations.
 
 ## Technical Deep Dive
 
@@ -163,7 +163,7 @@ end
 
 ### Entity Resolution
 
-A core challenge in OSINT is [entity resolution](@/glossary/entity-resolution.md) -- determining whether references from different sources refer to the same real-world entity. Names vary (John Smith, J. Smith, John R. Smith), addresses change, organizations use multiple names, and individuals appear in different contexts:
+A core challenge in OSINT is [entity resolution](@/glossary/entity-resolution.md) — determining whether references from different sources refer to the same real-world entity. Names vary (John Smith, J. Smith, John R. Smith), addresses change, organizations use multiple names, and individuals appear in different contexts:
 
 ```elixir
 defmodule PrismaticOSINT.EntityResolution do
@@ -426,15 +426,15 @@ The GARDEN knowledge base contributes 250+ OSINT provider integrations from the 
 
 **Implement time decay on findings.** OSINT data has a shelf life. DNS records change, certificates expire, companies merge, and people move. Implement automatic freshness tracking and re-collection schedules to prevent stale intelligence from contaminating analysis.
 
-**Preserve contradictory information.** When sources disagree, preserve both versions with their respective provenance rather than choosing one. Contradictions are informative -- they may indicate data currency differences, deliberate deception, or legitimate ambiguity.
+**Preserve contradictory information.** When sources disagree, preserve both versions with their respective provenance rather than choosing one. Contradictions are informative — they may indicate data currency differences, deliberate deception, or legitimate ambiguity.
 
 ## Common Pitfalls
 
-**Confirmation bias in collection.** The temptation to search only for information supporting a hypothesis is strong. Structure collection plans to include sources that could disconfirm the hypothesis. NABLA's signal plurality axiom requires actively seeking contradictory evidence.
+**Confirmation bias in collection.** The temptation to search only for information supporting a hypothesis is strong. Structure collection plans to include sources that could disconfirm the hypothesis. NABLA's [signal plurality](@/glossary/signal-plurality.md) axiom requires actively seeking contradictory evidence.
 
-**Conflating data volume with intelligence quality.** Collecting more data does not automatically produce better intelligence. The analysis phase -- where raw data is interpreted, correlated, and assessed -- is where intelligence value is created. Investing in collection without corresponding investment in analysis produces data swamps.
+**Conflating data volume with intelligence quality.** Collecting more data does not automatically produce better intelligence. The analysis phase — where raw data is interpreted, correlated, and assessed — is where intelligence value is created. Investing in collection without corresponding investment in analysis produces data swamps.
 
-**Ignoring legal and ethical boundaries.** OSINT uses public sources, but "public" has legal nuances. Scraping data behind login walls, accessing cached personal data after deletion requests, or collecting data in jurisdictions with strict privacy laws can create legal exposure. Understand the legal framework of each source.
+**Ignoring legal and ethical boundaries.** OSINT uses public sources, but “public” has legal nuances. Scraping data behind login walls, accessing cached personal data after deletion requests, or collecting data in jurisdictions with strict privacy laws can create legal exposure. Understand the legal framework of each source.
 
 **Single-language bias.** OSINT analysis that operates only in English misses intelligence available in other languages. For Czech business intelligence, the most authoritative sources are in Czech. Implement multi-language collection and analysis capabilities.
 
@@ -442,22 +442,22 @@ The GARDEN knowledge base contributes 250+ OSINT provider integrations from the 
 
 ## Related Concepts
 
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation methodology for OSINT data
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Structured threat information derived from OSINT sources
-- [EASM](@/glossary/easm.md) -- OSINT-powered external attack surface management
-- [Entity Resolution](@/glossary/entity-resolution.md) -- Fuzzy matching across OSINT source variations
-- [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/) -- Legacy knowledge base with 250+ OSINT providers
-- [Sanctions Screening](@/glossary/sanctions-screening.md) -- Regulatory compliance using OSINT data sources
-- [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) -- EASM application consuming OSINT intelligence
-- [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/) -- Domain intelligence collection technique
-- [Vulnerability Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/vulnerability-assessment/) -- Security assessment powered by OSINT data
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) — Multi-source correlation methodology for OSINT data
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) — Structured threat information derived from OSINT sources
+- [EASM](@/glossary/easm.md) — OSINT-powered external attack surface management
+- [Entity Resolution](@/glossary/entity-resolution.md) — Fuzzy matching across OSINT source variations
+- [GARDEN](https://prismatic-reality-com.github.io/prismatic-promo/glossary/garden/) — Legacy knowledge base with 250+ OSINT providers
+- [Sanctions Screening](@/glossary/sanctions-screening.md) — Regulatory compliance using OSINT data sources
+- [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) — EASM application consuming OSINT intelligence
+- [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/) — Domain intelligence collection technique
+- [Vulnerability Assessment](https://prismatic-reality-com.github.io/prismatic-promo/glossary/vulnerability-assessment/) — Security assessment powered by OSINT data
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- OSINT-specialized AIAD agents
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- OSINT applications in the umbrella
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — OSINT-specialized AIAD agents
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) — OSINT applications in the umbrella
 
 ---
 

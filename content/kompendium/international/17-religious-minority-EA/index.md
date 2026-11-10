@@ -28,7 +28,7 @@ Náboženská menšina je pojem vztahový: muslimové jsou většinou v Pákist�
 v Indii, křesťané většinou v Evropě a menšinou v Egyptě či Číně. Dějiny Evropy jsou
 zároveň dějinami **konspiračních mýtů o menšinách**: středověká krevní pomluva
 proti židům (strukturou blízká pozdější [satanské panice](@/kompendium/historical-cases/38-satanic-panic.md)), padělek *Protokoly sionských
-mudrců*, odhalený jako plagiát už v roce 1921, a nacistická propaganda, která připravila
+mudrců*, odhalený jako plagiát už v roce 1921, a nacistická [propaganda](@/glossary/propaganda.md), která připravila
 holokaust.
 
 Ve 21. století patří k nejzávažnějším případům: vyhnání více než sedmi set tisíc Rohingů

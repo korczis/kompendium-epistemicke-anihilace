@@ -8,7 +8,7 @@ description = "Habermas's regulative ideal of unconstrained discourse — equal 
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["communicative-rationality", "instrumental-reason", "epistemicka-injustice", "epistemicka-anihilace", "power-knowledge"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -40,10 +40,10 @@ The Kompendium uses the ISS as the **operational benchmark** against which the s
 Specifically:
 
 - **EA-1.2.x delegitimization** is precisely the violation of conditions (1) and (2) — the victim is denied equal access and equal opportunity to participate as a credible speaker.
-- **EA-2.x metakognitivní destrukce** violates condition (3) — by damaging the victim's reflective capacity, it produces the **internal coercion** that ISS-condition-3 explicitly forbids. The victim cannot articulate their position because their articulating apparatus has been compromised.
-- **Coercive control / institutional EA** violates condition (4) — external power asymmetries determine outcomes regardless of argument quality.
+- **EA-2.x [metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)** violates condition (3) — by damaging the victim's reflective capacity, it produces the **internal coercion** that ISS-condition-3 explicitly forbids. The victim cannot articulate their position because their articulating apparatus has been compromised.
+- **[Coercive control](@/glossary/coercive-control.md) / institutional EA** violates condition (4) — external power asymmetries determine outcomes regardless of argument quality.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) explicitly uses the ISS as the four-dimensional diagnostic grid against which any manipulation case can be coded: which conditions are violated, by what techniques, with what compounding interactions.
-- The [Color Teams](@/glossary/color-teams.md) Blue Team deliberation protocols are designed as approximations of the ISS — equal participation rules, structured-dissent procedures, audit trails for argument-quality versus power-asymmetry contributions to outcomes.
+- The [Color Teams](@/glossary/color-teams.md) [Blue Team](@/glossary/blue-team.md) deliberation protocols are designed as approximations of the ISS — equal participation rules, structured-dissent procedures, audit trails for argument-quality versus power-asymmetry contributions to outcomes.
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop treats ISS-violations in source provenance as **structural risk factors** in confidence weighting: a conclusion produced under massively non-ISS conditions inherits epistemic taint regardless of its formal validity.
 
 ## See Also

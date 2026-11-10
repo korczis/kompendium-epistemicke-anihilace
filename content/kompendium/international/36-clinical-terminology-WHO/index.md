@@ -68,7 +68,7 @@ viz [Screeningové instrumenty](@/kompendium/06-klinicke-aplikace/screening-inst
   (Herman 1992), ne diagnózu. Při překladu to uvést.
 - **Kódy z druhé ruky.** Kódy z webů a sekundární literatury bývají chybné nebo převzaté
   z MKN-10. Kód uvádět jen ověřený v prohlížeči MKN-11 (ICD-11 Browser) a s verzí.
-- ***Gaslighting*, *trauma bonding* jako diagnózy.** Nejsou to klinické kategorie MKN-11
+- ***Gaslighting*, *[trauma bonding](@/glossary/trauma-bonding.md)* jako diagnózy.** Nejsou to klinické kategorie MKN-11
   ani DSM-5-TR; v dokumentaci patří do popisu anamnézy a kontextu.
 - ***Parental alienation*.** Není diagnózou MKN-11 ani DSM-5-TR; jeho použití je odborně
   i právně sporné (viz [rodičovské odcizení](@/glossary/parental-alienation.md)).

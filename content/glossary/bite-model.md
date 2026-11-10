@@ -8,7 +8,7 @@ description = "Steven Hassan's diagnostic instrument for cult dynamics organized
 tags = ["glossary", "clinical", "manipulace", "kompendium"]
 
 [extra]
-category = "clinical"
+category = "psychologie a klinika"
 related_terms = ["coercive-control", "epistemicka-anihilace", "taxonomie-ea", "kognitivni-anihilace", "darvo", "gaslighting"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -24,7 +24,7 @@ image_alt = "BITE Model - glossary"
 
 ## Definition
 
-The **BITE Model** is a diagnostic framework developed by Steven Hassan (1988, refined 2018) for the empirical assessment of authoritarian and high-control group dynamics. The acronym names four mutually reinforcing axes of undue influence: **Behavior control** (regulation of physical actions, dress, sleep, finances, residence), **Information control** (gatekeeping of permissible sources, prohibition of outside media, doctrinal segregation of "insider" and "outsider" knowledge), **Thought control** (loaded language, thought-stopping techniques, prohibition of doubt, rejection of critical analysis), and **Emotion control** (induction of guilt, shame, fear, phobias of leaving, manipulation of love and approval).
+The **BITE Model** is a diagnostic framework developed by Steven Hassan (1988, refined 2018) for the empirical assessment of authoritarian and [high-control group](@/glossary/high-control-group.md) dynamics. The acronym names four mutually reinforcing axes of [undue influence](@/glossary/undue-influence.md): **Behavior control** (regulation of physical actions, dress, sleep, finances, residence), **Information control** (gatekeeping of permissible sources, prohibition of outside media, doctrinal segregation of “insider” and “outsider” knowledge), **Thought control** (loaded language, [thought-stopping](@/glossary/thought-stopping.md) techniques, prohibition of doubt, rejection of critical analysis), and **Emotion control** (induction of guilt, shame, fear, phobias of leaving, manipulation of love and approval).
 
 Each axis is operationalized through a checklist of approximately 20–30 specific indicators, allowing systematic scoring of an organization, relationship, or movement. The model was originally developed for assessing destructive cults but has been extended to coercive intimate partnerships, extremist political movements, multi-level marketing organizations, and online radicalization environments.
 
@@ -38,7 +38,7 @@ Within the Prismatic Platform, the BITE Model functions as a **screening instrum
 - BITE Thought Control maps onto EA-1.3 (epistemic immunization) and EA-2 (cognitive anihilace targeting metacognition).
 - BITE Emotion Control maps onto the affective vectors discussed in [/kompendium/06-klinicke-aplikace/](@/kompendium/06-klinicke-aplikace/_index.md).
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} Source Assessment stage flags inputs originating from environments with elevated BITE scores as **provenance-suspect**, downweighting them in confidence calibration.
-- [Color Teams](@/glossary/color-teams.md) use BITE checklists during Red Team exercises to model adversary group structures.
+- [Color Teams](@/glossary/color-teams.md) use BITE checklists during [Red Team](@/glossary/red-team.md) exercises to model adversary group structures.
 
 The BITE Model is referenced in the Kompendium's clinical applications section as a **first-pass triage tool** preceding more granular taxonomic analysis.
 
@@ -51,6 +51,7 @@ The BITE Model is referenced in the Kompendium's clinical applications section a
 - [Gaslighting](@/glossary/gaslighting.md) — Reality-distortion technique within BITE Thought Control
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive-process attacks
 - [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy
+- [Bridge: bite-model](@/kompendium/glossary-bridges/bridge-bite-model.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

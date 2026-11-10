@@ -54,7 +54,7 @@ Tabulka zachycuje pouze klicove vazby; uplna mapa je dostupna v kompendialnich v
 
 ## Klinicke a filosoficke implikace
 
-Klinicky C-PTSD vyžaduje phase-based léčbu (stabilizace → trauma processing → reintegrace), nikoliv okamžité exposure. Filosoficky problematizuje koncept self — chronická trauma narušuje narrative continuity osobnosti. V due diligence kontextu je rozpoznání C-PTSD u klíčové osoby relevantní pro behavioral risk assessment.
+Klinicky C-PTSD vyžaduje phase-based léčbu (stabilizace → trauma processing → reintegrace), nikoliv okamžité exposure. Filosoficky problematizuje koncept self — chronická trauma narušuje narrative continuity osobnosti. V [due diligence](@/glossary/due-diligence.md) kontextu je rozpoznání C-PTSD u klíčové osoby relevantní pro behavioral risk assessment.
 
 Bridge zde slouzi jako vstupni bod do hlubsi analyzy v sekci kompendialnich teoretickych reflexi a klinickych aplikaci.
 

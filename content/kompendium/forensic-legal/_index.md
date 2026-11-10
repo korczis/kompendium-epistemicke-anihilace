@@ -4,6 +4,7 @@ description = "50 kapitol o forenznim assessmentu, pravnich ramcich, soudnim sve
 sort_by = "weight"
 template = "section.html"
 page_template = "page.html"
+
 [extra]
 section = "kompendium-forensic-legal"
 +++

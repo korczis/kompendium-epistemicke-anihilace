@@ -38,16 +38,16 @@ M. (28 let, muž, doktorand v technicky orientovaném oboru — výpočetní lin
 
 ## Anamnéza a kontext expozice
 
-M. nastoupil do PhD programu s konkrétním tématickým záměrem (sémantická analýza disambiguace ve slovanských jazycích) a počátečním grantem. V první polovině 1. ročníku prof. R. **akceptoval** téma a metodologickou orientaci. V druhé polovině 1. ročníku začal **postupně** modifikovat zaměření prostřednictvím sekvence **minimálních kroků** ("zkusme přidat anglické srovnání", "to by se mohlo rozšířit o čínštinu", "univerzální mechanismy by byly silnější"). Po roce a půl bylo téma **nerozpoznatelné** od původního záměru — M. pracoval na typologicky univerzálním modelu disambiguace.
+M. nastoupil do PhD programu s konkrétním tématickým záměrem (sémantická analýza disambiguace ve slovanských jazycích) a počátečním grantem. V první polovině 1. ročníku prof. R. **akceptoval** téma a metodologickou orientaci. V druhé polovině 1. ročníku začal **postupně** modifikovat zaměření prostřednictvím sekvence **minimálních kroků** („zkusme přidat anglické srovnání“, „to by se mohlo rozšířit o čínštinu“, „univerzální mechanismy by byly silnější“). Po roce a půl bylo téma **nerozpoznatelné** od původního záměru — M. pracoval na typologicky univerzálním modelu disambiguace.
 
-Současně prof. R. **vpašoval** do disertačního textu vlastní teoretický rámec ("trojský kůň") prostřednictvím legitimních metodologických doporučení. M. nepostřehl, že **významná část teoretického aparátu byla převzata** od prof. R. bez specifické citace, což později produkovalo **etické komplikace** kolem autorství.
+Současně prof. R. **vpašoval** do disertačního textu vlastní teoretický rámec („trojský kůň“) prostřednictvím legitimních metodologických doporučení. M. nepostřehl, že **významná část teoretického aparátu byla převzata** od prof. R. bez specifické citace, což později produkovalo **etické komplikace** kolem autorství.
 
 ## Mapování EA technik
 
 Případ M. demonstruje distinktní vzorec — **kompoziční Salami + Trojan** s podpůrnými technikami:
 
 ### EA-1.1.2 Informační přetížení
-Prof. R. systematicky zatěžoval M. excesivním množstvím doporučené literatury (50-80 textů na měsíc), kde navigace nebyla možná bez **trvalé deference** k filtrování ze strany školitele. M. **nikdy nemohl tvrdit**, že "přečetl literaturu" — vždy existovalo víc nepřečteného než přečteného. [Detailní analýza techniky](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
+Prof. R. systematicky zatěžoval M. excesivním množstvím doporučené literatury (50-80 textů na měsíc), kde navigace nebyla možná bez **trvalé deference** k filtrování ze strany školitele. M. **nikdy nemohl tvrdit**, že „přečetl literaturu“ — vždy existovalo víc nepřečteného než přečteného. [Detailní analýza techniky](@/kompendium/techniques/ea-1-1-2-informacni-pretizeni.md).
 
 **Klinický marker**: V supervizní hodině 3 byl M. požádán, aby kvantifikoval, kolik z doporučené literatury **skutečně využíval pro disertaci**. Odhad: ~12 %. Zbytek tvořil **kognitivní zátěž bez přínosu**.
 
@@ -55,17 +55,17 @@ Prof. R. systematicky zatěžoval M. excesivním množstvím doporučené litera
 Klíčové momenty disertačního vývoje byly prof. R. systematicky strukturovány jako **binární volby** (typologická univerzalita vs. úzká doménová studie; lineární vs. neuronová architektura; kvantitativní vs. kvalitativní), kde každá volba byla **nepravdivě** prezentovaná jako vyčerpávající. M. opakovaně volil mezi dvěma alternativami **bez** rozpoznání třetí, čtvrté, n-té možnosti. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md).
 
 ### EA-1.2.3 Iluzorní komplexita
-Disertační téma bylo v průběhu času **uměle komplexifikováno** — každá změna vyžadovala další subkomponentu, a každá subkomponenta další integraci. Po 3 letech se disertace strukturálně nestala "dokončitelnou" — vždy existoval další **nezbytný** rozšiřující prvek. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md).
+Disertační téma bylo v průběhu času **uměle komplexifikováno** — každá změna vyžadovala další subkomponentu, a každá subkomponenta další integraci. Po 3 letech se disertace strukturálně nestala „dokončitelnou“ — vždy existoval další **nezbytný** rozšiřující prvek. [Detailní analýza techniky](@/kompendium/techniques/ea-1-2-3-iluzorni-komplexita.md).
 
-**Klinický marker**: Při dotazu na **definici dokončení disertace** M. nedokázal formulovat operační kritéria. Každá formulace byla parafrázována zpět prof. R. jako "ne dostatečná".
+**Klinický marker**: Při dotazu na **definici dokončení disertace** M. nedokázal formulovat operační kritéria. Každá formulace byla parafrázována zpět prof. R. jako „ne dostatečná“.
 
 ### EA-1.3.2 Strategická reinterpretace
-Empirické výsledky M. byly opakovaně prof. R. **reinterpretovány** — pozitivní výsledky byly přijímány "ano, ale očekávalo se to", negativní jako "ano, ale to ukazuje hloubku problému". Žádný experimentální výsledek neměl **falsifikační moc** vůči teoretickému rámci prof. R. [Detailní analýza techniky](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
+Empirické výsledky M. byly opakovaně prof. R. **reinterpretovány** — pozitivní výsledky byly přijímány „ano, ale očekávalo se to“, negativní jako „ano, ale to ukazuje hloubku problému“. Žádný experimentální výsledek neměl **falsifikační moc** vůči teoretickému rámci prof. R. [Detailní analýza techniky](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
 
 ### EA-1.3.3 Tematická diverze
 Konzultační setkání byla strukturována s **systematickou diverzí** od kritických bodů. Když M. otevíral problematický aspekt (např. nekompatibilita přístupu s jeho daty), prof. R. **redirektoval** — k tangenciálnímu metodologickému tématu, k osobnímu kontextu, k administrativní agendě. [Detailní analýza techniky](@/kompendium/techniques/ea-1-3-3-tematicka-diverze.md).
 
-**Klinický marker**: Dvouměsíční žurnál konzultačních setkání ukázal, že **77 % otevřených kritických bodů** ze strany M. nebylo v dané schůzce vyřešeno ani uzavřeno — bylo "odloženo" (a nikdy znovu otevřeno).
+**Klinický marker**: Dvouměsíční žurnál konzultačních setkání ukázal, že **77 % otevřených kritických bodů** ze strany M. nebylo v dané schůzce vyřešeno ani uzavřeno — bylo „odloženo“ (a nikdy znovu otevřeno).
 
 ### EA-1.4.1 Prosodická dominance
 Prof. R. udržoval **prosodicky dominantní pozici** v setkáních (objem hlasu, tempo, dlouhé monology s intonační uzávěrou nepřipouštějící přerušení). M. internalizoval pozici **akustického podřízeného**, což produkovalo **somaticky zakódovanou inhibici** — nemožnost klást otázky i když je intelektuálně formuloval. [Detailní analýza techniky](@/kompendium/techniques/ea-1-4-1-prosodicka-dominance.md).
@@ -88,7 +88,7 @@ Při iniciální konzultaci M. manifestoval:
 - **Sociální stažení** — postupná ztráta partnerského vztahu, kontaktu s rodinou
 - **Profesní strach** — přesvědčení, že **nemá kompetence** mimo kontrolu prof. R.
 
-Centrální klinický fenomén distinktní od [případu K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md): M. **netušil, že byl vystaven manipulativním technikám**, ALE **současně** sám sebe identifikoval jako **podvodníka** ("imposter") — internalizoval, že **legitimní akademická kariéra** vyžaduje strukturálně tytéž techniky, které experiantoval.
+Centrální klinický fenomén distinktní od [případu K.](@/kompendium/06-klinicke-aplikace/pripad-akademie.md): M. **netušil, že byl vystaven manipulativním technikám**, ALE **současně** sám sebe identifikoval jako **podvodníka** („imposter“) — internalizoval, že **legitimní akademická kariéra** vyžaduje strukturálně tytéž techniky, které experiantoval.
 
 ## Krizová intervence
 
@@ -132,7 +132,7 @@ Terapie probíhala 14 měsíců:
 
 V měsíci 8 — bod **akademického exitu**: M. zvažoval (1) dokončit disertaci pod prof. R., (2) změnit školitele, (3) opustit doktorát. Supervizní rámec byl explicitně **non-direktivní** — terapeut nedoporučoval žádnou variantu, **strukturoval** rozhodovací rámec s explicitními kritérii, riziky a hodnotami. M. samostatně volil variantu (3) — opuštění doktorátu — po 6 týdnech strukturovaného zvažování.
 
-Toto rozhodnutí představovalo **etickou výzvu** klinického rámce: M. opustil 4leté studium, což společensky a profesně mohlo být interpretováno jako "selhání". Klinické zhodnocení však bylo, že **kontinuace pod prof. R.** by představovala kontinuální re-traumatizaci, a změna školitele uvnitř instituce nebyla strukturálně realistická (dokumentovaná tolerance vzorce).
+Toto rozhodnutí představovalo **etickou výzvu** klinického rámce: M. opustil 4leté studium, což společensky a profesně mohlo být interpretováno jako „selhání“. Klinické zhodnocení však bylo, že **kontinuace pod prof. R.** by představovala kontinuální re-traumatizaci, a změna školitele uvnitř instituce nebyla strukturálně realistická (dokumentovaná tolerance vzorce).
 
 ## Právní aspekty (Trojan)
 
@@ -161,10 +161,10 @@ V follow-up 12 a 24 měsíců po ukončení: stabilní remise, profesní úspěc
 
 Případ M. ilustruje několik klinicky relevantních aspektů:
 
-- **Distribuovaný vzorec je hůře detekovatelný** než intenzivní (Salami vs. Guru/adept). Klient nesignalizuje akutní destrukci, ale chronickou erozi, často interpretovanou jako "normální PhD utrpení". Klinický rámec musí mít **citlivost** na chronický vzorec.
+- **Distribuovaný vzorec je hůře detekovatelný** než intenzivní (Salami vs. Guru/adept). Klient nesignalizuje akutní destrukci, ale chronickou erozi, často interpretovanou jako „normální PhD utrpení“. Klinický rámec musí mít **citlivost** na chronický vzorec.
 - **Trojan produkuje autorské komplikace**, které přesahují kliniku — vyžadují **právní koordinaci**.
 - **Akademický exit jako legitimní klinický cíl** — terapeutický rámec musí explicitně **legitimizovat** opuštění akademie jako možný výsledek, bez vlastní akademické zaujatosti.
-- **Necitelnost institucionálního rámce** — případ M. by **nebyl přijat** institucionální etickou komisí jako "stížnost", protože **žádný jednotlivý** krok nebyl porušením. To je strukturální slabost institucionální etiky vůči Salami vzorcům — adresováno v [kapitole 6.10 Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md).
+- **Necitelnost institucionálního rámce** — případ M. by **nebyl přijat** institucionální etickou komisí jako „stížnost“, protože **žádný jednotlivý** krok nebyl porušením. To je strukturální slabost institucionální etiky vůči Salami vzorcům — adresováno v [kapitole 6.10 Kolektivní intervence](@/kompendium/06-klinicke-aplikace/kolektivni-intervence.md).
 - **Suicidální riziko v akademickém kontextu** — případ ilustruje, že komplexní EA-trauma může produkovat **plně psychiatrickou krizi**, vyžadující koordinovanou multioborovou péči.
 
 ## Komparativní analýza s případem K.
@@ -201,7 +201,6 @@ Tento komparativní pohled potvrzuje, že **klinická heterogenita EA-trauma** j
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md), [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md), [Anankastický režim](@/glossary/anankasticky-rezim.md), [Epistemická alienace](@/glossary/epistemicka-alienace.md), [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md), [Gaslighting](@/glossary/gaslighting.md), [Delegitimizace](@/glossary/delegitimizace.md), [Dual-use poznání](@/glossary/dual-use-poznani.md), [Epistemické trauma](@/glossary/epistemicke-trauma.md), [Metakognice](@/glossary/metakognice.md), [Hermeneutika](@/glossary/hermeneutika.md), [Fenomenologie](@/glossary/fenomenologie.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}, [Nabla Infinity](@/glossary/nabla-infinity.md), [Color Teams](@/glossary/color-teams.md)
 - Filozofie: [Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md), [Epistemic Integrity](@/philosophy/epistemic-integrity.md), [Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

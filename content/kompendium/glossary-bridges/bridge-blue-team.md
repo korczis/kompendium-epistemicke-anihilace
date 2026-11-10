@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Blue team je v Prismatic color-team taxonomii agentní rodina specializovaná na defenzivní bezpečnost, threat detection, incident response a infrastructure hardening. Komplementární k red team (offensive) v klasickém security paradigmatu; operuje pod zvýšenou auditní zátěží a předvídatelností.
+Blue team je v Prismatic color-team taxonomii agentní rodina specializovaná na defenzivní bezpečnost, threat detection, incident response a infrastructure hardening. Komplementární k [red team](@/glossary/red-team.md) (offensive) v klasickém security paradigmatu; operuje pod zvýšenou auditní zátěží a předvídatelností.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -32,10 +32,10 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 04 — Color teams overview**: blue team mezi 6 týmy
+- **Sekce 04 — [Color teams](@/glossary/color-teams.md) overview**: blue team mezi 6 týmy
 - **Sekce 05 — Defensive security**: SIEM, IDS/IPS, threat modeling
 - **Sekce 06 — Incident response**: playbook, IR pipeline, post-mortem
-- **Sekce 07 — Red vs. Blue**: purple team jako sjednocení
+- **Sekce 07 — Red vs. Blue**: [purple team](@/glossary/purple-team.md) jako sjednocení
 - **Per-technique články**: defensive playbooks, MITRE ATT&CK mapping
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.

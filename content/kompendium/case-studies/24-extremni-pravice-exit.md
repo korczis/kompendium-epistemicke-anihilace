@@ -90,7 +90,7 @@ Program navazoval na severoevropský model programů typu EXIT a na
   závazků ve skupině.
 - **S2 – Externalizace introjektů:** rasový mýtus a dehumanizující jazyk odděleny od vlastního
   hlasu; práce s vinou za činy.
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti vnímat druhé jako jednotlivce, ne
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti vnímat druhé jako jednotlivce, ne
   kategorie.
 - **S4 – Hermeneutická obnova:** nový výklad vlastního příběhu včetně odpovědnosti; odstraňování
   tetování jako tělesná součást odchodu.

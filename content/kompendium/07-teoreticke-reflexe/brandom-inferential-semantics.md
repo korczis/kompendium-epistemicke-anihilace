@@ -19,20 +19,20 @@ toc = true
 
 Robert Brandom v monumentálním *Making It Explicit* (1994) a populárnější *Articulating Reasons* (2000) rozvíjí **inferenciální sémantiku** — pozici, podle níž je význam tvrzení **konstituován** jeho **inferenciálními** rolemi: **co tvrzení implikuje** a **z čeho vyplývá**.
 
-Pro kompendium EA poskytuje Brandomova teorie nástroj pro pochopení EA technik jako **manipulace deontického skóru** — pozic závazků a oprávnění v **prostoru důvodů**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Brandomova teorie nástroj pro pochopení EA technik jako **manipulace deontického skóru** — pozic závazků a oprávnění v **prostoru důvodů**.
 
 ## 1. Inferenciální sémantika
 
 Brandomova centrální teze: **význam** tvrzení není primárně **referenciální** (co tvrzení označuje) ani **propoziční** (jakou propozici tvrzení vyjadřuje), ale **inferenciální** — **jak tvrzení funguje** v hierarchii implikací.
 
-Tvrzení "*Toto je červené*" má smysl díky:
+Tvrzení „*Toto je červené*“ má smysl díky:
 
-- Co **z něho** vyplývá: "Toto má barvu", "Toto není zelené", "Toto je vidět při denním světle"
-- Co **k němu** vede: "Toto je krev", "Toto je rajče", "Toto je signál stop"
+- Co **z něho** vyplývá: „Toto má barvu“, „Toto není zelené“, „Toto je vidět při denním světle“
+- Co **k němu** vede: „Toto je krev“, „Toto je rajče“, „Toto je signál stop“
 
 Pro EA z toho plyne:
 
-- **Manipulace inferencí**: útočník může **podkopávat** legitimní inference ("z X **nevyplývá** Y") nebo **fabrikovat** nelegitimní ("z X **vyplývá** Y", ač nevyplývá).
+- **Manipulace inferencí**: útočník může **podkopávat** legitimní [inference](@/glossary/inference.md) („z X **nevyplývá** Y“) nebo **fabrikovat** nelegitimní („z X **vyplývá** Y“, ač nevyplývá).
 - **Pseudo-inferencialismus**: imitace argumentu, jež **zachovává formu** inference, ale **rozkládá** její sémantickou váhu.
 - **Klinický korelát**: subjekt vystaven dlouhodobé inferenční manipulaci ztrácí **schopnost důvěřovat vlastním inferencím**.
 
@@ -50,12 +50,12 @@ Pro EA má prostor důvodů **trojí relevanci**:
 
 Brandomova nejtechničtější inovace: **deontický skór** — souhrn **závazků** (*commitments*) a **oprávnění** (*entitlements*), jež si účastníci diskurzu **vzájemně přidělují**.
 
-Když řeknu "*Sníh je bílý*", **zavazuji** se k důsledkům tohoto tvrzení a **opravňuji** druhé k tomu, aby na něm stavěli další závěry. Diskurz je strukturálně **deontickou hrou** vzájemného přidělování závazků a oprávnění.
+Když řeknu „*Sníh je bílý*“, **zavazuji** se k důsledkům tohoto tvrzení a **opravňuji** druhé k tomu, aby na něm stavěli další závěry. Diskurz je strukturálně **deontickou hrou** vzájemného přidělování závazků a oprávnění.
 
 Pro EA má pojem deontického skóru **specifickou diagnostickou hodnotu**:
 
-- **Manipulace deontického skóru**: útočník **fabrikuje** závazky druhých ("ty jsi přece souhlasil s X") nebo **odmítá vlastní** závazky ("nikdy jsem to neřekl").
-- **Gaslighting jako deontická manipulace**: systematické přepisování deontického skóru pacienta — "ty jsi řekl/a Y", "ty jsi cítil/a Z".
+- **Manipulace deontického skóru**: útočník **fabrikuje** závazky druhých („ty jsi přece souhlasil s X“) nebo **odmítá vlastní** závazky („nikdy jsem to neřekl“).
+- **[Gaslighting](@/glossary/gaslighting.md) jako deontická manipulace**: systematické přepisování deontického skóru pacienta — „ty jsi řekl/a Y“, „ty jsi cítil/a Z“.
 - **Algoritmické přepisování deontického skóru**: digitální platformy **přidělují** subjektu závazky (terms of service, předpoklady souhlasu) bez explicitní ratifikace.
 
 ## 4. Pragmatika a kontext
@@ -65,7 +65,7 @@ Brandomova teorie je strukturálně **pragmatická** — význam je **konstituov
 Pro EA z toho plyne:
 
 - **Kontext-citlivost EA**: techniky operují v specifických **pragmatických hrách** — analyzovat je vyžaduje analyzovat hru.
-- **Manipulace kontextu**: nucené přesouvání tvrzení z jedné pragmatické hry do druhé (například "vědecká hypotéza" jako "politická pozice") strukturálně mění deontický skór.
+- **Manipulace kontextu**: nucené přesouvání tvrzení z jedné pragmatické hry do druhé (například „vědecká hypotéza“ jako „politická pozice“) strukturálně mění deontický skór.
 
 ## 5. Mapping na EA techniky
 
@@ -82,7 +82,7 @@ Pro EA z toho plyne:
 Pro Prismatic platformu má inferencialismus **specifickou** relevanci:
 
 - **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **inferenciálně** — udržuje **deontický skór** kontradikcí, jež musí být **explicitně řešeny**.
-- **Color Teams** strukturálně **udržují** prostor důvodů — Red Team sleduje, zda Blue Team **drží** své závazky.
+- **Color Teams** strukturálně **udržují** prostor důvodů — [Red Team](@/glossary/red-team.md) sleduje, zda [Blue Team](@/glossary/blue-team.md) **drží** své závazky.
 - **Decision Core** zaznamenává **inferenční řetězec** — explicitní deontický skór rozhodovacích procesů.
 
 ## 7. Primární literatura

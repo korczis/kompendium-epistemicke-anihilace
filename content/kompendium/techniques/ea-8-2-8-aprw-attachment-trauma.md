@@ -54,7 +54,7 @@ Méně kvantitativních dat než trauma-focused frameworks. Vyžaduje vyškolen�
 
 ## Vztah k jiným zdrojům
 
-Provázaný s **EA-8.1.5 Epistemic Trust Scale** (mentalization base) a **EA-8.1.6 Betrayal Trauma Inventory**.
+Provázaný s **EA-8.1.5 Epistemic Trust Scale** (mentalization base) a **EA-8.1.6 [Betrayal Trauma](@/glossary/betrayal-trauma.md) Inventory**.
 
 ## Cross-linky
 

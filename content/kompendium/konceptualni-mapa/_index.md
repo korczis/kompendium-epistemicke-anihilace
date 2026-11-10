@@ -62,7 +62,7 @@ Detailní per-pojmové články najdete v [Glossary](@/glossary/_index.md). Most
 
 ## Taxonomický pohled
 
-Pět úrovní abstrakce, na nichž epistemická anihilace operuje:
+Pět úrovní abstrakce, na nichž [epistemická anihilace](@/glossary/epistemicka-anihilace.md) operuje:
 
 ```mermaid
 graph BT

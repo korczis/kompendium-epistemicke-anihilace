@@ -35,7 +35,7 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 
 ## Definice
 
-**Tělesná disociace** je technika **rozpojující somatický self-experience** od kognitivně-narativního self. Manipulátor systematicky vede subjekta k pochybování o validite vlastních tělesných signálů, dokud tělo přestane fungovat jako spolehlivý zdroj self-informace.
+**Tělesná [disociace](@/glossary/disociace.md)** je technika **rozpojující somatický self-experience** od kognitivně-narativního self. Manipulátor systematicky vede subjekta k pochybování o validite vlastních tělesných signálů, dokud tělo přestane fungovat jako spolehlivý zdroj self-informace.
 
 ## Operační modus
 
@@ -96,7 +96,7 @@ EA-5.3.14 (somatická rekodifikace), EA-5.5.2 (somato-fenomenologická disrupce)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,18 +123,17 @@ Technika **tělesná disociace** představuje strukturální výzvu pro defenziv
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
-Merleau-Pontyho **corps propre** vs. **corps objet** (*Phénoménologie de la perception*) — disociace nutí subjekt prožívat vlastní tělo jako objekt. **Chair** (chiastní propletení smyslujícího a smyslovaného) je narušena: smyslující ztrácí kontakt se smyslovaným. Husserlova **kinestetická konstituce** (*Ideen II*) — pasivní syntéza tělových vjemů — je rozpojena. Damasiovy **somatické markery** ztrácejí emocionální významovou hodnotu. Sartreovo **être-pour-soi** vůči vlastnímu tělu jako **être-en-soi** (*L'Être et le néant*) je radikalizováno do patologické podoby. Levinasova **sensibilité** jako pasivita zasažitelnosti je manipulátorem instrumentalizována jako bod průniku. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
+Merleau-Pontyho **corps propre** vs. **corps objet** (*Phénoménologie de la perception*) — disociace nutí subjekt prožívat vlastní tělo jako objekt. **Chair** (chiastní propletení smyslujícího a smyslovaného) je narušena: smyslující ztrácí kontakt se smyslovaným. Husserlova **kinestetická konstituce** (*Ideen II*) — [pasivní syntéza](@/glossary/pasivni-synteza.md) tělových vjemů — je rozpojena. Damasiovy **somatické markery** ztrácejí emocionální významovou hodnotu. Sartreovo **être-pour-soi** vůči vlastnímu tělu jako **être-en-soi** (*L'Être et le néant*) je radikalizováno do patologické podoby. Levinasova **sensibilité** jako pasivita zasažitelnosti je manipulátorem instrumentalizována jako bod průniku. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
 
 ## Empirická literatura
 
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
 - **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
 
 ## Diferenciální diagnostika

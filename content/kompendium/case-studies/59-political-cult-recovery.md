@@ -75,7 +75,7 @@ bývalých členů, kteří nezávisle popsali tytéž vzorce, jež znal z vlast
 - [EA-1.6.1 Vzorec guru a adept](@/kompendium/techniques/ea-1-6-1-vzorec-guru-a-adept.md) – vůdce
   jako jediný legitimní vykladač politické reality; adept měří vlastní hodnotu jeho uznáním.
 - [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
-  – kritika zvenčí je „propaganda“, kritika zevnitř „nepochopení“ nebo „odpor“; žádný myslitelný
+  – kritika zvenčí je „[propaganda](@/glossary/propaganda.md)“, kritika zevnitř „nepochopení“ nebo „odpor“; žádný myslitelný
   doklad nemůže doktrínu vyvrátit.
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) – „buď s námi, nebo
   se systémem“; mezipozice (sympatie k cílům bez členství) neexistuje.
@@ -155,7 +155,7 @@ s organizací bude jen písemný.
 - **S2 – Externalizace introjektů:** inventář vět vůdce, které se ozývaly jako vlastní myšlenky
   („pochybnost je luxus privilegovaných“), a jejich pojmenování jako cizích hlasů. Skupina pro
   lidi po odchodu z politických skupin poskytla vnější epistemickou kotvu.
-- **S3 – Rekonstrukce metakognice:** nácvik rozlišování hodnoty a doktríny; práce s otázkou, jak
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik rozlišování hodnoty a doktríny; práce s otázkou, jak
   by vypadal doklad, který by vlastní politické přesvědčení mohl změnit.
 - **S4 – Hermeneutická obnova:** znovučtení autorů, kteří byli v organizaci zakázaní, a schopnost
   s nimi nesouhlasit z vlastních důvodů; obnova demokratického nesouhlasu bez pocitu zrady.

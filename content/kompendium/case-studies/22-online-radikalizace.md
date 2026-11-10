@@ -31,7 +31,7 @@ hranice mezi vtipem a postojem postupně ztrácí.
 
 ## 2. Vstupní modus
 
-Vstupem byla **sociální izolace v dospívání spojená s algoritmickou eskalací**. Výchozí obsah
+Vstupem byla **[sociální izolace](@/glossary/socialni-izolace.md) v dospívání spojená s algoritmickou eskalací**. Výchozí obsah
 byl neškodný – hry, humor, „provokativní“ komentátoři. Doporučovací systém reagoval na čas
 strávený u videí a nabízel stále vyhrocenější obsah. Komunita pak nabídla to, co chybělo:
 pozornost, sdílený jazyk a pocit, že dospívající „prohlédl“ něco, co dospělí nevidí.
@@ -95,7 +95,7 @@ s [protokolem pro adolescenty](@/kompendium/recovery-protocols/recovery-adolesce
   obviňování.
 - **S2 – Externalizace introjektů:** vnitroskupinový jazyk a „vtipy“ rozebrané na to, co
   doslova tvrdí.
-- **S3 – Rekonstrukce metakognice:** strukturované hodnocení ideových zdrojů a
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** strukturované hodnocení ideových zdrojů a
   [kognitivní flexibilita](@/kompendium/self-defense-guides/8-cognitive-flexibility.md).
 - **S4 – Hermeneutická obnova:** mentoring s bývalým členem podobného hnutí (model
   deradikalizačních programů vedených „formers“), který mluví bez moralizování.

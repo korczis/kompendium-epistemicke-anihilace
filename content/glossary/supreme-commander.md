@@ -7,7 +7,7 @@ description = "L5 Platform-wide strategic coordination agent with full orchestra
 tags = ["glossary", "agents", "supreme-commander", "prismatic"]
 
 [extra]
-category = "agents"
+category = "architektura platformy"
 related_terms = ["agent-tier", "archer-supreme", "aiad", "strategic-command", "agent-registry"]
 tier = "TIER 1"
 domain = "Agent Orchestration"
@@ -44,7 +44,7 @@ Supreme Commander is an L5 Supreme authority agent responsible for platform-wide
 
 Unlike Archer Supreme, which specializes in crisis intervention and impossible mission execution, Supreme Commander provides ongoing strategic governance for routine complex operations. Where Archer Supreme is activated for emergencies, Supreme Commander is the persistent orchestration layer that ensures the platform's 530+ runtime agents work coherently toward strategic objectives. The distinction is analogous to a standing military command structure (Supreme Commander) versus a special operations force deployed for specific crises (Archer Supreme).
 
-The L5 classification grants Supreme Commander capabilities unavailable to lower tiers: platform-wide resource allocation, override authority for any L1-L4 agent decision, cross-domain priority management, and the ability to restructure agent coordination patterns in real time. These capabilities come with corresponding accountability -- Supreme Commander decisions are audited through the AIAD registry and subject to NABLA Infinity epistemic requirements.
+The L5 classification grants Supreme Commander capabilities unavailable to lower tiers: platform-wide resource allocation, override authority for any L1-L4 agent decision, cross-domain priority management, and the ability to restructure agent coordination patterns in real time. These capabilities come with corresponding accountability — Supreme Commander decisions are audited through the AIAD registry and subject to NABLA Infinity epistemic requirements.
 
 Supreme Commander is activated via the `/supreme-coordinator` and `/orchestrate` commands. The 10x efficiency claim associated with `/orchestrate` stems from Supreme Commander's ability to identify parallelizable operations across domains and execute them concurrently rather than sequentially, dramatically reducing end-to-end completion time for complex multi-domain workflows.
 
@@ -62,7 +62,7 @@ The L5 authority level represents the apex of the Prismatic agent hierarchy. Und
 | **L2** | Specialist | Function-specific | ~200 | Epistemic Attacker, Drift Detector, Contract Validator |
 | **L1** | Worker | Task-specific | ~270 | Individual checkers, formatters, scanners |
 
-The authority model follows a strict hierarchy where higher-level agents can override, reassign, or terminate operations at lower levels. Supreme Commander alone can override L4 decisions, coordinate all Color Teams simultaneously, and allocate resources across the entire platform without seeking approval from any other agent.
+The authority model follows a strict hierarchy where higher-level agents can override, reassign, or terminate operations at lower levels. Supreme Commander alone can override L4 decisions, coordinate all [Color Teams](@/glossary/color-teams.md) simultaneously, and allocate resources across the entire platform without seeking approval from any other agent.
 
 ### Authority Boundaries
 
@@ -361,7 +361,7 @@ end
 
 ## Multi-Team Coordination
 
-Supreme Commander coordinates all Color Teams for platform-wide security operations. This capability is unique to L5 authority -- no lower tier can orchestrate all six teams simultaneously:
+Supreme Commander coordinates all Color Teams for platform-wide security operations. This capability is unique to L5 authority — no lower tier can orchestrate all six teams simultaneously:
 
 ```elixir
 defmodule PrismaticAgents.SupremeCommander.ColorTeamCoordinator do
@@ -595,21 +595,21 @@ IO.puts("Completed: #{result.phases_completed}/#{result.phases_total}")
 
 ## Related Concepts
 
-- [Archer Supreme](@/glossary/archer-supreme.md) -- Crisis-focused L5 agent
-- [Strategic Command](@/glossary/strategic-command.md) -- L4 coordination tier
-- [Agent Tier](@/glossary/agent-tier.md) -- Full L1-L5 classification system
-- [AIAD](@/glossary/aiad.md) -- Agent definition standard governing Supreme Commander
-- [Agent Registry](@/glossary/agent-registry.md) -- Catalog of all agents managed by Supreme Commander
-- [Tactical Execution](@/glossary/tactical-execution.md) -- L2 specialists coordinated through the hierarchy
-- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) -- OTP behavior implementing Supreme Commander's process
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing decision confidence
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate for high-stakes decisions
+- [Archer Supreme](@/glossary/archer-supreme.md) — Crisis-focused L5 agent
+- [Strategic Command](@/glossary/strategic-command.md) — L4 coordination tier
+- [Agent Tier](@/glossary/agent-tier.md) — Full L1-L5 classification system
+- [AIAD](@/glossary/aiad.md) — Agent definition standard governing Supreme Commander
+- [Agent Registry](@/glossary/agent-registry.md) — Catalog of all agents managed by Supreme Commander
+- [Tactical Execution](@/glossary/tactical-execution.md) — L2 specialists coordinated through the hierarchy
+- [GenServer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/genserver/) — OTP behavior implementing Supreme Commander's process
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing decision confidence
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate for high-stakes decisions
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Command catalog including `/orchestrate`
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) — Command catalog including `/orchestrate`
 
 ---
 

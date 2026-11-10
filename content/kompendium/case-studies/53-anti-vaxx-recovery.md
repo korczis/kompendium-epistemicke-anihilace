@@ -103,7 +103,7 @@ jako stálý stav.
 
 Léčba proběhla v pěti fázích. Terapeutické jádro tvořil [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) se stupni S1 validace a
-mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
+mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická obnova, S5
 konsolidace a transfer; fáze níže ukazují, jak byl zasazen do celého plánu:
 
 - **Fáze 1 – Stabilizace:** léčba dítěte, doplnění očkování všech dětí po dohodě s pediatrem,

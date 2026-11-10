@@ -43,15 +43,9 @@ Technika operuje ve třech krocích, jejichž posloupnost je iterativní:
 
 ### Krok 1 — Cílená zvuková expozice
 
-
-
 ### Krok 2 — Doktrinální výklad indukovaných stavů
 
-
-
 ### Krok 3 — Konsolidace závislosti na rituálním zvukovém kontextu
-
-
 
 ## Fenomenologické znaky
 
@@ -96,7 +90,7 @@ EA-5.5.25 (světelná frekvence modulace), EA-5.5.27 (taktilní pre-konceptuáln
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — pre-konceptuální disrupce podpírá epistemickou substituci
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — pre-konceptuální disrupce podpírá epistemickou substituci
 - **EA-5.3.* (Hypertransformativní protokoly)** — pre-konceptuální rekonfigurace umožňuje identitární substituci
 - **EA-1.5.* (Somatické techniky)** — pre-konceptuální manipulace často kombinovaná s somatickými technikami
 
@@ -104,12 +98,11 @@ EA-5.5.25 (světelná frekvence modulace), EA-5.5.27 (taktilní pre-konceptuáln
 
 Technika **zvuková pre-konceptuální** představuje strukturální výzvu pro defenzivní mechanismy Prismatic. {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} udržuje epistemickou auditovatelnost individuálních rozhodnutí — každá hypotéza má kryptograficky podepsanou linii autorství s timestampy, čímž odhaluje retrospektivní rekonstrukci. [NABLA Infinity](@/glossary/nabla-infinity.md) zachovává epistemické invarianty napříč transformacemi pipeline; ztráta kontinuity je flagována jako anomálie. [Color Teams](@/glossary/color-teams.md) provádějí periodickou red-team revizi asymetrických intelektuálních a vztahových dynamik s explicitní detekcí manipulačních vzorců typu EA-5.5.26.
 
-
 ## Teoretické zázemí
 
-Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud "S je P". Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **zvuková pre-konceptuální** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
+Tato technika operuje na úrovni **pre-predikativní zkušenosti** v Husserlově fenomenologii — vrstva před tím, než se konstituuje predikativní soud „S je P“. Husserl v *Erfahrung und Urteil* (1939) ukazuje, že každý vědomý soud je založen na pasivní syntéze pre-predikativních dat: vjemy jsou již před verbalizací strukturovány retencemi (právě uplynulé) a protencemi (anticipovanými). Technika **zvuková pre-konceptuální** cílí přesně na tuto vrstvu — narušuje pasivní syntézu před tím, než subjekt může artikulovat, co se mu vlastně děje.
 
-Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **body schema** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. "Já mohu" (je peux) předbíhá "já myslím" (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný "já mohu" přestává fungovat jako transparentní médium světa.
+Merleau-Ponty v *Phénoménologie de la perception* (1945) doplňuje koncept **body schema** (schéma corporel) — pre-reflexivní tělesné vědomí, které předchází kartesiánskému kogitujícímu subjektu. „Já mohu“ (je peux) předbíhá „já myslím“ (je pense). Tato technika narušuje body schema na úrovni proprioceptivně-kinestetické integrace, čímž se subjekt ocitá v stavu, kdy jeho tělesný „já mohu“ přestává fungovat jako transparentní médium světa.
 
 Damasio v *The Feeling of What Happens* (1999) konceptualizuje **core consciousness** jako kontinuální mapping organism-objekt vztahu, který předchází extended consciousness s autobiografickou pamětí. Technika cílí na core consciousness vrstvu — produkuje narušení kontinuálního self-mappingu, čímž subjekt ztrácí pre-reflexivní jistotu vlastní situovanosti ve světě.
 
@@ -123,11 +116,11 @@ Klinická diferenciace techniky **zvuková pre-konceptuální** od podobných st
 
 **vs. Psychotické spektrum** (F20–F29 dle MKN-10): Psychotická epizoda zahrnuje *strukturální* narušení reality testing s halucinacemi a bludy, zatímco EA-5.5.26 produkuje *fenomenologické* narušení pre-predikativní vrstvy bez ztráty reality testing. Klíčová diference: u psychózy subjekt *věří* iluzornímu obsahu jako realitě (delusional conviction); u EA-5.5.26 subjekt *prožívá* narušení, ale meta-kognitivně rozpoznává, že jde o anomální stav. Schneiderovy first-rank symptoms (vkládání myšlenek, ozvučení myšlení) jsou v EA-5.5.26 absentní.
 
-**vs. Disociativní poruchy** (F44): Disociace zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.26 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
+**vs. Disociativní poruchy** (F44): [Disociace](@/glossary/disociace.md) zahrnuje narušení integrace vědomí, paměti a identity (DSM-5 dissociation subscale >10). EA-5.5.26 produkuje narušení *pre-reflexivní* vrstvy, zatímco disociace operuje na úrovni autobiografické paměti a identity. Diagnostický marker: Dissociative Experiences Scale (DES-II) skore >30 indikuje disociační poruchu, ne EA stav.
 
-**vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.26 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.26 klasifikoval jako "anti-mystical" stav.
+**vs. Mystická zkušenost** (Stace 1960; Hood Mysticism Scale): Mystické zážitky obsahují pozitivní afekt, sense of unity a ineffability. EA-5.5.26 produkuje *negativní* fenomenologii — rozpadnutí, ne sjednocení. Hood M-Scale skore <40 v kombinaci s anxietou diferencuje EA od mystické zkušenosti. James (*Varieties of Religious Experience*, 1902) by EA-5.5.26 klasifikoval jako „anti-mystical“ stav.
 
-**vs. Depersonalizace/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.26 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.26 se obvykle resolvuje do 24–72h.
+**vs. [Depersonalizace](@/glossary/depersonalizace.md)/derealizace** (F48.1): DPDR je trvalý nebo recurrent stav odcizení od self/světa. EA-5.5.26 je akutní *induced* stav s definovaným počátkem a koncem. Cambridge Depersonalisation Scale (CDS) skore >70 v posledních 6 měsících indikuje DPDR; akutní EA-5.5.26 se obvykle resolvuje do 24–72h.
 
 ## Forensní markery
 
@@ -135,11 +128,11 @@ Pro **objektivní detekci** aplikace techniky **zvuková pre-konceptuální** v 
 
 - **Primární marker**: Mismatch negativity (MMN) v EEG: amplituda <2μV při deviant tones — atypické pre-attentivní zpracování.
 - **Sekundární markery**:
-  - Subjektivní self-report s typickým narativním vzorcem ("nemůžu to popsat", "bylo to mimo slova", "ztratil jsem se v sobě")
+  - Subjektivní [self-report](@/glossary/self-report.md) s typickým narativním vzorcem („nemůžu to popsat“, „bylo to mimo slova“, „ztratil jsem se v sobě“)
   - Behavioral observation: zvýšená self-touching frequency (>15/min) + reduced eye contact (<30% času)
   - Vegetativní indikátory: HRV pokles (RMSSD <25ms) + pupilární dilatace (>5mm baseline)
 - **Časové okno detekce**: 0–6h post-aplikace pro vegetativní markery, 0–72h pro behaviorální, 0–14 dní pro narativní rekonstrukci
-- **Chain of custody**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
+- **[Chain of custody](@/glossary/chain-of-custody.md)**: video + audio + biometric záznam s SHA-256 hash + timestamp signaturou pro forensní použitelnost
 
 ## Cross-linky (rozšířené)
 
@@ -184,7 +177,6 @@ Pro **objektivní detekci** aplikace techniky **zvuková pre-konceptuální** v 
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

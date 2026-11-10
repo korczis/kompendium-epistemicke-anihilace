@@ -7,7 +7,7 @@ description = "Quality Debt Points tracked, measured, and systematically elimina
 tags = ["glossary", "quality", "quality-debt", "prismatic"]
 
 [extra]
-category = "quality"
+category = "doktrína platformy"
 subcategory = "debt_management"
 difficulty = "advanced"
 technology_type = "quality_system"
@@ -43,11 +43,11 @@ image_alt = "Quality Debt - Prismatic Platform"
 
 ## Definition and Overview
 
-Quality Debt, measured in Quality Debt Points (QDP), is a quantitative metric system that assigns discrete numeric values to every deviation from platform quality standards. Unlike the loosely-defined concept of "technical debt" common in software engineering, QDP is rigorously specified: each violation type has a defined point value, every violation is automatically detected, and the total QDP count serves as the single canonical measure of platform quality health. The fundamental principle is that quality cannot be managed if it cannot be measured, and QDP provides that measurement with precision.
+Quality Debt, measured in Quality Debt Points (QDP), is a quantitative metric system that assigns discrete numeric values to every deviation from platform quality standards. Unlike the loosely-defined concept of “technical debt” common in software engineering, QDP is rigorously specified: each violation type has a defined point value, every violation is automatically detected, and the total QDP count serves as the single canonical measure of platform quality health. The fundamental principle is that quality cannot be managed if it cannot be measured, and QDP provides that measurement with precision.
 
 Quality Debt encompasses a broad taxonomy of violations across multiple domains: missing type specifications, static analysis warnings from Credo, Dialyzer type errors, compilation warnings, anti-pattern usage (such as `length() > 0` instead of pattern matching), unsafe map access patterns, missing `@impl` annotations, `Process.sleep` calls in non-test code, and any other deviation from the platform's codified quality standards. Each violation is categorized by domain, severity, and remediation complexity.
 
-The Prismatic Platform has achieved complete QDP elimination -- 0 QDP across all 13 quality domains for all 90 umbrella applications. This was not a gradual reduction but a systematic campaign that eliminated 905 QDP using specialized CASCADE patterns, followed by automated prevention through pre-commit hooks that block any commit introducing new QDP. The platform now operates in a zero-debt steady state where prevention has replaced remediation as the primary quality strategy.
+The Prismatic Platform has achieved complete QDP elimination — 0 QDP across all 13 quality domains for all 90 umbrella applications. This was not a gradual reduction but a systematic campaign that eliminated 905 QDP using specialized CASCADE patterns, followed by automated prevention through pre-commit hooks that block any commit introducing new QDP. The platform now operates in a zero-debt steady state where prevention has replaced remediation as the primary quality strategy.
 
 ## Technical Deep Dive
 
@@ -630,7 +630,7 @@ end
 
 ### CASCADE Pattern Elimination
 
-The 905 QDP elimination was achieved through CASCADE patterns -- bulk fix strategies that address entire categories of violations simultaneously rather than fixing individual instances:
+The 905 QDP elimination was achieved through CASCADE patterns — bulk fix strategies that address entire categories of violations simultaneously rather than fixing individual instances:
 
 ```elixir
 defmodule Prismatic.Quality.CascadeEliminator do
@@ -830,20 +830,20 @@ A QDP report provides actionable information for remediation:
 
 ## Related Concepts
 
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Pipeline preventing new QDP introduction
-- [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- Autonomous monitoring for QDP regression
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Historical QDP tracking across sessions
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Bulk fix patterns used for mass QDP elimination
-- [Zero Warning Policy](@/glossary/zero-warning-policy.md) -- Compilation standard preventing warning-type QDP
-- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) -- Static analysis tool detecting code style QDP
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type checking tool detecting type-related QDP
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) -- First enforcement point blocking QDP introduction
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) — Pipeline preventing new QDP introduction
+- [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) — Autonomous monitoring for QDP regression
+- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) — Historical QDP tracking across sessions
+- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) — Bulk fix patterns used for mass QDP elimination
+- [Zero Warning Policy](@/glossary/zero-warning-policy.md) — Compilation standard preventing warning-type QDP
+- [Credo](https://prismatic-reality-com.github.io/prismatic-promo/glossary/credo/) — Static analysis tool detecting code style QDP
+- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) — Type checking tool detecting type-related QDP
+- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) — First enforcement point blocking QDP introduction
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Quality-related command catalog
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) — Quality-related command catalog
 
 ---
 

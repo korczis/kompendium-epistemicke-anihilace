@@ -43,7 +43,7 @@ v navazujících sekcích kompendia.
 
 **Konkrétní krok pro tuto oblast:**
 
-> Zařaďte do prvního týdne 4hodinový modul "How to recognize manipulation" s case studies a role-play scénáři.
+> Zařaďte do prvního týdne 4hodinový modul „How to recognize manipulation“ s case studies a role-play scénáři.
 
 **Doporučená sekvence implementace:**
 
@@ -61,7 +61,7 @@ Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl
 - Onboarding pokrývá pouze HR/IT formality, nezmiňuje psychologickou bezpečnost, chybí mentor.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ Buddy systém prvních 6 měsíců, anonymní 30/60/90 day check-ins, exit-poll 
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

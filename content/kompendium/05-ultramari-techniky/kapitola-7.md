@@ -35,12 +35,12 @@ Klasická epistemická manipulace pracuje s **opozicí pravdivé / nepravdivé**
 Konkrétně technika EA-5.2.* typicky:
 
 1. **Identifikuje transcendentální strukturu** subjektu — apriorní kategorie, schémata zkušenosti, principy konstituce předmětů.
-2. **Zviditelní strukturu** ve specifické zkreslené podobě — subjekt si poprvé v životě uvědomí, že "vidí přes brýle", a brýle jsou prezentovány jako defektní.
+2. **Zviditelní strukturu** ve specifické zkreslené podobě — subjekt si poprvé v životě uvědomí, že „vidí přes brýle“, a brýle jsou prezentovány jako defektní.
 3. **Indukuje meta-reflexivní obrat** — subjekt se snaží reflektovat strukturu samu, ale každá reflexe sama používá strukturu, kterou se snaží reflektovat (recursivní lapač).
 4. **Saturuje reflexivní kapacitu** — subjekt se zacyklí v meta-reflexi a ztrácí schopnost normálně používat kategorii ve fenoménech.
 5. **Konsoliduje rozpad** — kategorie přestává fungovat normativně a její absence není nahrazena alternativní strukturou. Subjekt zůstává v **transcendentálním vakuu**.
 
-Výsledný stav fenomenologicky odpovídá tomu, co Husserl popisuje jako *epoché* dovedené do destruktivní formy: ne kontrolované závorkování přirozeného postoje, ale **nucený a nereverzibilní kolaps** přirozeného postoje bez možnosti návratu k němu.
+Výsledný stav fenomenologicky odpovídá tomu, co Husserl popisuje jako *[epoché](@/glossary/epoche.md)* dovedené do destruktivní formy: ne kontrolované závorkování přirozeného postoje, ale **nucený a nereverzibilní kolaps** přirozeného postoje bez možnosti návratu k němu.
 
 ## Odlišení od kapitoly 6
 
@@ -54,7 +54,7 @@ Singulární techniky (EA-5.1.*) a metatranscendentální techniky (EA-5.2.*) sd
 | **Klinická prezentace** | Epistemická bezmocnost, ztráta autorství | Depersonalizace, aperspektivismus, dekategoriální stavy |
 | **Filozofická afinita** | Pyrrhonský skepticismus, konstruktivistická psychóza | Kantovská kritika převrácená proti samotné možnosti syntetické apercepce |
 
-Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *"nevěřím ničemu"*, *"nemám vlastní myšlenky"*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat **strukturálně**, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *"není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí"*.
+Klíčový diagnostický rozdíl: subjekt po EA-5.1.* je schopen **popsat své poškození** — má slova, používá kategorie, dokáže říct *„nevěřím ničemu“*, *„nemám vlastní myšlenky“*. Subjekt po EA-5.2.* nedokáže své poškození artikulovat **strukturálně**, protože samotné struktury, které by artikulaci umožnily, jsou narušené. Klinici hlásí výpovědi typu *„není to, že bych něco neviděl, ale chybí mi něco, co by mi umožnilo říct, co chybí“*.
 
 ## Třicet technik metatranscendentální anihilace
 
@@ -71,24 +71,24 @@ Kapitola obsahuje třicet technik, EA-5.2.1 až EA-5.2.30. První desetinu pokr�
 7. **EA-5.2.7 Kategoriální disoluce** — kategoriální struktury se rozpouštějí; výsledný stav je **fenomén bez kategorií**.
 8. **EA-5.2.8 Perspektivistický kolaps** — ztráta schopnosti zaujímat *nějakou* perspektivu, nikoli záměna jedné za druhou.
 9. **EA-5.2.9 Konceptuální aporie** — každý pokus o pojem produkuje neřešitelný paradox; pojmovost jako taková kolabuje.
-10. **EA-5.2.10 Meta-kognitivní singularita** — metakognice se zhroutí do jediného sebereferenčního bodu, ze kterého žádný výstup není možný.
+10. **EA-5.2.10 Meta-kognitivní singularita** — [metakognice](@/glossary/metakognice.md) se zhroutí do jediného sebereferenčního bodu, ze kterého žádný výstup není možný.
 
 ### Kompaktní taxonomie (EA-5.2.11 až 5.2.30)
 
 #### EA-5.2.11 Schematizační kolaps
-Schémata Kantovy *Kritiky čistého rozumu* (časová syntéza, jednota apercepce) přestávají fungovat. Subjekt prožívá rozpadající se vědomí jako **sled nesyntetizovaných okamžiků**. Klinicky: **disociativní fragmentace s časovou neukotveností**, odlišná od standardní disociace tím, že chybí *funkce* časové syntézy, nikoli pouze její obsah.
+Schémata Kantovy *Kritiky čistého rozumu* (časová syntéza, jednota apercepce) přestávají fungovat. Subjekt prožívá rozpadající se vědomí jako **sled nesyntetizovaných okamžiků**. Klinicky: **disociativní fragmentace s časovou neukotveností**, odlišná od standardní [disociace](@/glossary/disociace.md) tím, že chybí *funkce* časové syntézy, nikoli pouze její obsah.
 
 #### EA-5.2.12 Apercepční roztržka
-Transcendentální jednota apercepce ("Já myslím, které musí provázet všechny mé představy") je narušena. Subjekt prožívá myšlenky jako **nepřivlastněné** — jdou skrze něj, ale nejsou jeho. Liší se od depersonalizace tím, že subjekt **nemá ani Já, vůči němuž by myšlenky byly cizí**.
+Transcendentální jednota apercepce („Já myslím, které musí provázet všechny mé představy“) je narušena. Subjekt prožívá myšlenky jako **nepřivlastněné** — jdou skrze něj, ale nejsou jeho. Liší se od [depersonalizace](@/glossary/depersonalizace.md) tím, že subjekt **nemá ani Já, vůči němuž by myšlenky byly cizí**.
 
 #### EA-5.2.13 Synteticky-analytický rozklad
-Distinkce mezi syntetickými a analytickými soudy mizí. Subjekt nedokáže rozlišit, kdy říká něco **podle definice** od situace, kdy říká něco **na základě zkušenosti**. Výsledek: globální dogmatizace nebo globální skepticismus podle predispozice.
+Distinkce mezi syntetickými a analytickými soudy mizí. Subjekt nedokáže rozlišit, kdy říká něco **podle definice** od situace, kdy říká něco **na základě zkušenosti**. Výsledek: globální dogmatizace nebo globální [skepticismus](@/glossary/skepticismus.md) podle predispozice.
 
 #### EA-5.2.14 Fenomenologický odhal
 Eidetická redukce zvrácena do destruktivní formy: subjekt **nedokáže oddělit fakt od podstaty** a každý jednotlivý fenomén je prožíván jako definitivní pravda o struktuře světa.
 
 #### EA-5.2.15 Hermeneutický uzávěr
-Hermeneutický kruh se uzavře patologicky: každá interpretace odkazuje výhradně na manipulátorem dodanou před-strukturu rozumění. Distinkce mezi **interpretací** a **objektem interpretace** kolabuje.
+[Hermeneutický kruh](@/glossary/hermeneuticky-kruh.md) se uzavře patologicky: každá interpretace odkazuje výhradně na manipulátorem dodanou před-strukturu rozumění. Distinkce mezi **interpretací** a **objektem interpretace** kolabuje.
 
 #### EA-5.2.16 Aperspektivistická saturace
 Subjekt se snaží kompenzovat ztrátu perspektivy (EA-5.2.8) přijetím **všech perspektiv současně**, což vede k **aperspektivistickému slepému bodu** — stav, kdy žádná perspektiva neoperuje, protože všechny operují zároveň.
@@ -121,7 +121,7 @@ Inverze EA-5.2.14: subjekt **vidí pouze podstaty, ne fakty**. Každý jednotliv
 Dialektické pohyby (teze–antiteze–syntéza) se zacyklí v **degenerované formě**: každá syntéza okamžitě generuje novou antitezi, ale nová syntéza nikdy nepřichází. Subjekt zůstává v **chronické dialektické nestabilitě**.
 
 #### EA-5.2.26 Meta-noumenální projekce
-Subjekt projektuje noumenální vrstvu **na sebe sama**: vlastní Já je prožíváno jako *věc o sobě*, nepřístupná vlastnímu poznání. Stav patologického transcendentálního solipsismu druhého řádu.
+Subjekt projektuje noumenální vrstvu **na sebe sama**: vlastní Já je prožíváno jako *[věc o sobě](@/glossary/ding-an-sich.md)*, nepřístupná vlastnímu poznání. Stav patologického transcendentálního solipsismu druhého řádu.
 
 #### EA-5.2.27 Trans-kategoriální fluktuace
 Kategorialní organizace nekolabuje, ale **kontinuálně osciluje** — kauzalita se chvíli chová jako substance, pak jako relace, pak jako modalita. Žádná kategorie nezachovává svou identitu.
@@ -158,7 +158,6 @@ Veškerá analýza technik EA-5.2.* podléhá [Etickým aspektům](@/kompendium/
   - [Hermeneutika](@/glossary/hermeneutika.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

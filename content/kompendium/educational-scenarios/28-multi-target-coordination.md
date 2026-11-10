@@ -135,20 +135,24 @@ pracují dlouhodobě.
 ## Související
 
 **Navazující scénáře**
+
 - [Emergentní vzorec](@/kompendium/educational-scenarios/29-emergent-pattern.md) – statistická podoba téže úlohy.
 - [Rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md) – koordinace na úrovni veřejného prostoru.
 - [Design falsifikace](@/kompendium/educational-scenarios/6-falsification-design.md) – testování hypotézy o společném aktérovi.
 
 **Forenzní rámec**
+
 - [Pattern důkaz](@/kompendium/forensic-legal/38-pattern-evidence.md) – vzorec jako důkaz.
 - [Doktrína nepřípustného vlivu](@/kompendium/forensic-legal/11-undue-influence-doctrine.md) – právní rámec.
 - [Forenzní dokumentace](@/kompendium/forensic-legal/10-forensic-documentation.md) – jak dokumentovat.
 
 **Techniky a signatury**
+
 - [EA-4.2.7 Documentation chain of custody](@/kompendium/techniques/ea-4-2-7-documentation-chain-custody.md) – integrita podkladů.
 - [Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md) – společný rys případů.
 
 **Glosář**
+
 - [Elder abuse](@/glossary/elder-abuse.md) – zneužívání seniorů.
 - [Intelligence fusion](@/glossary/intelligence-fusion.md) – spojování nezávislých zdrojů.
 

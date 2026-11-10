@@ -25,7 +25,7 @@ Cílem této kapitoly je systematicky představit nejdůležitější empirickou
 
 ### 1.1 Judith Herman a koncept komplexního PTSD
 
-Herman ve své kanonické práci *Trauma and Recovery* (1992) zformulovala koncept **komplexního posttraumatického stresového syndromu** (C-PTSD) jako odpovědi na **chronická, opakovaná**, **interpersonální** traumata — typicky takových, jež se odehrávají v kontextech, z nichž oběť nemůže uniknout (zajetí, domácí násilí, dlouhodobé zneužívání, sektářské prostředí).
+Herman ve své kanonické práci *Trauma and Recovery* (1992) zformulovala koncept **komplexního posttraumatického stresového syndromu** ([C-PTSD](@/glossary/c-ptsd.md)) jako odpovědi na **chronická, opakovaná**, **interpersonální** traumata — typicky takových, jež se odehrávají v kontextech, z nichž oběť nemůže uniknout (zajetí, domácí násilí, dlouhodobé zneužívání, sektářské prostředí).
 
 Klíčové diagnostické rysy C-PTSD podle Herman:
 
@@ -62,14 +62,14 @@ Pro EA ([sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)) je tento model 
 
 ### 2.1 Jennifer Freyd a betrayal trauma
 
-Freydova **betrayal trauma theory** (BTT, *Betrayal Trauma*, 1996) představuje pro EA klíčový teoretický a empirický příspěvek. Klíčová teze:
+Freydova **[betrayal trauma](@/glossary/betrayal-trauma.md) theory** (BTT, *Betrayal Trauma*, 1996) představuje pro EA klíčový teoretický a empirický příspěvek. Klíčová teze:
 
 > *Trauma způsobená osobou, na níž je oběť závislá pro přežití nebo blaho, je systematicky a adaptivně zpracovávána způsobem, jenž zachovává vztah na úkor přesné percepce traumatu samotného.*
 
 Mechanismus betrayal blindness:
 
 - **Vědomí** zrady by ohrozilo **vazebnou** strukturu, na níž oběť závisí
-- **Adaptivní** odpovědí je **systematické nevidění** zrady — disociace, amnézie, racionalizace
+- **Adaptivní** odpovědí je **systematické nevidění** zrady — [disociace](@/glossary/disociace.md), amnézie, racionalizace
 - Tento mechanismus má **vývojové** kořeny v dětské zranitelnosti, ale operuje i v dospělých závislostních vztazích
 
 ### 2.2 Empirická validace BTT
@@ -96,14 +96,14 @@ BTT poskytuje empirický rámec pro pochopení, **proč** některé EA techniky 
 BTT má pro klinickou aplikaci **fundamentální** důsledky:
 
 1. Pacient nemusí **vědět**, že byl epistemicky traumatizován — betrayal blindness je adaptivní, nikoli patologická
-2. Konfrontace traumatu musí být **postupná** a **kontextualizovaná** — náhlé "odhalení" může destabilizovat vazebné struktury, na nichž pacient stále závisí
+2. Konfrontace traumatu musí být **postupná** a **kontextualizovaná** — náhlé „odhalení“ může destabilizovat vazebné struktury, na nichž pacient stále závisí
 3. Důvěra v terapeutický vztah je **současně podmínkou** a **prvním cílem** terapie
 
 ## 3. Prediktivní zpracování a model světa (Friston, Clark, Hohwy)
 
 ### 3.1 Bayesovský mozek a active inference
 
-V poslední dekádě dominantní paradigma v kognitivních neurovědách — **prediktivní zpracování** (predictive processing, PP) — formulované zejména Karlem Fristonem, Andym Clarkem a Jakobem Hohwym, představuje pro EA **transformační** rámec.
+V poslední dekádě dominantní paradigma v kognitivních neurovědách — **prediktivní zpracování** ([predictive processing](@/glossary/predictive-processing.md), PP) — formulované zejména Karlem Fristonem, Andym Clarkem a Jakobem Hohwym, představuje pro EA **transformační** rámec.
 
 Centrální teze PP:
 
@@ -196,7 +196,7 @@ Chris Brewin (Brewin, Dalgleish, Joseph, 1996; Brewin, 2014) formuloval **teorii
 
 Traumatická paměť je dominantně **SAM** — tj. neintegrovaná do narativní struktury. **Klinický cíl** spočívá v **integraci** SAM do VAM.
 
-Pro EA: **epistemické trauma** vykazuje analogickou strukturu — fragmentované epistemické "vzpomínky" (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
+Pro EA: **epistemické trauma** vykazuje analogickou strukturu — fragmentované epistemické „vzpomínky“ (somatosenzorické, afektivní, intuitivní), jež nejsou narativně integrovány do koherentního autobiografického příběhu.
 
 ## 5. Neuroplasticita a rekonstrukce
 
@@ -296,7 +296,6 @@ Empirická literatura epistemického traumatu **přímo informuje** taxonomické
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

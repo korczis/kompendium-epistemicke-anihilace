@@ -96,7 +96,7 @@ mu potvrdilo možnost přestupu bez ztráty pobytového statusu.
   časové osy autorství z laboratorních deníků a verzí rukopisů.
 - **S2 – Externalizace introjektů:** věty „bez něj tu nejsem nic“, „vděčím mu za všechno“
   odděleny od faktů o vlastní práci.
-- **S3 – Rekonstrukce metakognice:** obnova vlastní výzkumné agendy, nejdřív v malých krocích
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova vlastní výzkumné agendy, nejdřív v malých krocích
   s novým školitelem.
 - **S4 – Hermeneutická obnova:** nový výklad let v laboratoři, včetně toho, co se skutečně
   naučil.

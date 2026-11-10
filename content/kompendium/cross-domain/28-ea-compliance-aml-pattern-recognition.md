@@ -63,7 +63,6 @@ AML investigation: account had no rule-violations, but narrative analysis flagge
 
 Onboarding: business stated 'consulting services' but transaction patterns matched 'money mule' narrative → escalated, account refused
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

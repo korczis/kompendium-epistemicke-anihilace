@@ -8,7 +8,7 @@ description = "Systematický, cílený a graduální proces destrukce epistemick
 tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["kognitivni-anihilace", "taxonomie-ea", "metakognitivni-destrukce", "epistemicka-alienace", "nabla-infinity", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -26,7 +26,7 @@ image_alt = "Epistemická anihilace - glossary"
 
 **Epistemická anihilace** is a systematic, intentional, and gradual process of destruction of epistemic structures of an individual or group, leading to fundamental disruption of the ability to **acquire**, **evaluate**, **integrate**, and **use information** in a way that allows construction of a coherent and adequate picture of reality. Unlike ordinary epistemic distortions — which are partial biases within an otherwise functional cognitive apparatus — epistemic annihilation attacks the **foundational structures** that make any form of cognition possible. It is best characterized as **meta-epistemic damage**: it does not merely corrupt specific beliefs, it destroys the very mechanisms by which beliefs are formed, revised, and justified.
 
-The term is the central concept of the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) — a Czech-language taxonomic system documenting and classifying these phenomena for use by qualified psychiatrists, psychologists, philosophers, and epistemic security researchers. The full Czech-language treatment is at [/kompendium/02-uvod/definice/](@/kompendium/02-uvod/definice.md).
+The term is the central concept of the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index.md) — a Czech-language taxonomic system documenting and classifying these phenomena for use by qualified psychiatrists, psychologists, philosophers, and [epistemic security](@/glossary/epistemic-security.md) researchers. The full Czech-language treatment is at [/kompendium/02-uvod/definice/](@/kompendium/02-uvod/definice.md).
 
 Five definitional features distinguish epistemic annihilation from ordinary cognitive failures: **systematicity** (coordinated rather than random), **cumulativity** (effects accelerate with progression), **autoamplification** (the affected subject eventually participates in further destruction of their own epistemic capacity), **meta-epistemic nature** (targets structural principles rather than specific beliefs), and **resistance to correction** (standard corrective mechanisms — evidence, argument, social feedback — lose effectiveness).
 
@@ -35,8 +35,8 @@ Five definitional features distinguish epistemic annihilation from ordinary cogn
 Within the Prismatic Platform, epistemic annihilation serves as a **threat model** integrated into multiple subsystems:
 
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly treats indicators of epistemic manipulation as **negative confidence signals** in calibration — a decision based on inputs from a corrupted epistemic process is itself epistemically suspect, even if formally consistent.
-- The [Color Teams](@/glossary/color-teams.md) framework includes **Red Team** simulations that test platform-level resilience to epistemic adversarial scenarios drawn from the kompendium taxonomy.
-- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements structural defenses corresponding to the kompendium's neutralization strategies: source diversity checks (defense against EA-1.1.1 selective exposure), explicit falsifiability tracking (defense against EA-1.3.1 immunization), provenance auditing (defense against EA-1.3.3 thematic diversion).
+- The [Color Teams](@/glossary/color-teams.md) framework includes **[Red Team](@/glossary/red-team.md)** simulations that test platform-level resilience to epistemic adversarial scenarios drawn from the kompendium taxonomy.
+- The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements structural defenses corresponding to the kompendium's neutralization strategies: source diversity checks (defense against EA-1.1.1 selective exposure), explicit [falsifiability](@/glossary/falsifikovatelnost.md) tracking (defense against EA-1.3.1 immunization), provenance auditing (defense against EA-1.3.3 thematic diversion).
 - The Czech-language Kompendium itself is published at [/kompendium/](@/kompendium/_index.md) as a standalone reference, with per-technique deep-dives at [/kompendium/techniques/](@/kompendium/techniques/_index.md).
 
 The taxonomy assigns each technique an identifier of the form **`EA-X.Y.Z-α`** — a stable, hierarchically readable code that survives URL changes and serves as canonical reference across cross-disciplinary discourse.

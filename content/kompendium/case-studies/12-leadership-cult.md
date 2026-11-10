@@ -93,7 +93,7 @@ odchody kolegů, které dříve vykládala jako jejich selhání.
   nepředvídatelnost byla systémová, ne náhodná.
 - **S2 – Externalizace introjektů:** oddělení vlastního hlasu od ředitelových formulací, které
   používala o sobě („jsi příliš opatrná“).
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti formulovat nesouhlas a unést nejistotu
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti formulovat nesouhlas a unést nejistotu
   bez autority, která ji rozhodne.
 - **S4 – Hermeneutická obnova:** nové čtení let ve funkci včetně vlastní odpovědnosti vůči
   podřízeným a odcházejícím kolegům.

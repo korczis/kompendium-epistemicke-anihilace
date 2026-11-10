@@ -7,7 +7,7 @@ description = "L.A. Paul's epistemic-decision-theory concept describing experien
 tags = ["epistemic", "philosophy", "ethics", "research", "decision-theory"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -39,7 +39,7 @@ The transformative-experience framework has substantial implications for the leg
 
 ## Practical Application
 
-In research design and IRB review, transformative interventions warrant heightened scrutiny: longer reflection periods, independent advocates, staged consent (initial agreement to begin, with re-consent at each milestone), and explicit acknowledgment in the consent document that the intervention may change the participant's evaluation of the intervention itself. In due-diligence assessment of key personnel, the framework explains why post-acquisition leadership transitions often fail despite seemingly clear contractual commitments — the founder who sells does not yet know what it will feel like to be an employee, and the post-sale self may rationally repudiate the pre-sale agreement. In OSINT analysis of subjects undergoing radicalization, conversion, or recovery, the transformative-experience lens prevents over-interpretation of inconsistencies between past and present statements.
+In research design and IRB review, transformative interventions warrant heightened scrutiny: longer reflection periods, independent advocates, staged consent (initial agreement to begin, with re-consent at each milestone), and explicit acknowledgment in the consent document that the intervention may change the participant's evaluation of the intervention itself. In due-diligence assessment of key personnel, the framework explains why post-acquisition leadership transitions often fail despite seemingly clear contractual commitments — the founder who sells does not yet know what it will feel like to be an employee, and the post-sale self may rationally repudiate the pre-sale agreement. In [OSINT](@/glossary/osint.md) analysis of subjects undergoing radicalization, conversion, or recovery, the transformative-experience lens prevents over-interpretation of inconsistencies between past and present statements.
 
 ## Related Concepts
 

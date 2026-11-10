@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Decision Engine je deterministický rozhodovací motor — kombinuje signály z multiple agentů přes 10-stage pipeline a produkuje kalibrované rozhodnutí s výpočetně reprodukovatelnou explanací. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Decision Engine](@/glossary/decision-engine.md) je deterministický rozhodovací motor — kombinuje signály z multiple agentů přes 10-stage pipeline a produkuje kalibrované rozhodnutí s výpočetně reprodukovatelnou explanací. V architektuře platformy zaujímá pozici v rámci **Specialized Agents** (specialized) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ Decision Engine je **deterministický** — vždy produkuje stejný výstup pro 
 
 ## Coordination
 
-Hlavní konzument výstupů **NABLA Infinity** a **Blue Teamu**; výstupy ukládá **Trinity Gate** pro verifikaci; rozhodnutí auditována **White Teamem**.
+Hlavní konzument výstupů **[NABLA Infinity](@/glossary/nabla-infinity.md)** a **Blue Teamu**; výstupy ukládá **[Trinity Gate](@/glossary/trinity-gate.md)** pro verifikaci; rozhodnutí auditována **White Teamem**.
 
 ## Cross-linky
 

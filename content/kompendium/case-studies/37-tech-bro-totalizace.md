@@ -92,7 +92,7 @@ Osamělost v kritické chvíli byla argumentem, který žádný optimalizační 
   rizik; uznání intelektuálních potřeb, které skupina naplňovala.
 - **S2 – Externalizace introjektů:** věty „emoce jsou šum“, „všechno je optimalizační úloha“
   přiřazené konkrétním zdrojům.
-- **S3 – Rekonstrukce metakognice:** [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md)
   – učení se, že jiné obory mají vlastní platné metody.
 - **S4 – Hermeneutická obnova:** vědomý vstup do prostředí mimo technologie, kde se hodnota
   neměří výkonem.

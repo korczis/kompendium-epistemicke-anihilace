@@ -22,7 +22,7 @@ David Chalmers v knize *The Conscious Mind* (1996) a v eseji *Facing Up to the P
 - **Easy problems** (technicky obtížné, ale strukturálně řešitelné): jak mozek **integruje informace**, **generuje rozhodnutí**, **kontroluje pozornost**
 - **Hard problem** (strukturálně mysteriozní): proč je tato funkční organizace **provázena** subjektivní zkušeností? Proč **něco** je být tímto systémem?
 
-Pro kompendium EA poskytuje Chalmersův hard problem nástroj pro pochopení **nepřevoditelnosti** subjektivního pólu na funkcionální popis — a EA dimenze útoků na **qualia**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Chalmersův hard problem nástroj pro pochopení **nepřevoditelnosti** subjektivního pólu na funkcionální popis — a EA dimenze útoků na **qualia**.
 
 ## 1. Easy vs. Hard Problem
 
@@ -38,7 +38,7 @@ Chalmersův argument: **funkcionální popis** žádného systému nikdy **plně
 
 Pro EA z toho plyne:
 
-- **Pseudo-funkcionalistická redukce**: techniky, jež **redukují** subjektovu zkušenost na **funkční měřítka** ("KPIs of well-being", "happiness scores"), strukturálně anihilují hard problem rozměr.
+- **Pseudo-funkcionalistická redukce**: techniky, jež **redukují** subjektovu zkušenost na **funkční měřítka** („KPIs of well-being“, „happiness scores“), strukturálně anihilují hard problem rozměr.
 - **Klinický korelát**: medikalizační redukce trauma na **DSM kódy** strukturálně **opomíjí** subjektivní pól.
 - **Algoritmická pseudo-objektivita**: digital systems strukturálně **redukují** subjekty na funkční profily — anihilace hard problem.
 
@@ -61,7 +61,7 @@ Chalmersova metafyzická pozice: **vlastnostní dualismus** (*property dualism*)
 Implications:
 
 - Vědomí **není** redukovatelné na fyzikální fakta
-- A přece **není** substanční (žádná "duše")
+- A přece **není** substanční (žádná „duše“)
 - **Zákon přidružení**: každá fyzikální realizace je **provázena** specifickými fenomenálními vlastnostmi
 
 Pro EA má vlastnostní dualismus **dvojí relevanci**:
@@ -106,10 +106,10 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 ## 8. Primární literatura
 
-- Chalmers, D. (1995). "Facing Up to the Problem of Consciousness". *Journal of Consciousness Studies* 2.
+- Chalmers, D. (1995). „Facing Up to the Problem of Consciousness“. *Journal of Consciousness Studies* 2.
 - Chalmers, D. (1996). *The Conscious Mind*. Oxford UP.
 - Chalmers, D. (2010). *The Character of Consciousness*. Oxford UP.
-- Clark, A. & Chalmers, D. (1998). "The Extended Mind". *Analysis* 58.
+- Clark, A. & Chalmers, D. (1998). „The Extended Mind“. *Analysis* 58.
 - Chalmers, D. (2022). *Reality+: Virtual Worlds and the Problems of Philosophy*. W.W. Norton.
 
 ## Související

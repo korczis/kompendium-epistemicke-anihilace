@@ -7,7 +7,7 @@ description = "Hard-enforced NABLA Infinity axiom requiring a minimum of two ind
 tags = ["glossary", "epistemic", "signal-plurality", "prismatic"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["nabla-infinity", "intelligence-fusion", "blue-team", "confidence-threshold", "provenance-mandatory", "censys", "risk-score", "trinity-gate", "contradiction-preservation", "time-decay", "shodan", "greynoise"]
 use_cases = ["OSINT intelligence fusion", "Security rating validation", "Color Team assessments", "Quality evaluations", "Threat intelligence correlation"]
 key_benefit = "Prevents single-point epistemic failure by requiring independent corroboration for all beliefs"
@@ -42,15 +42,15 @@ Signal Plurality is a hard-enforced axiom within the NABLA Infinity epistemic fr
 
 The axiom addresses a fundamental vulnerability in knowledge systems: dependence on single sources creates catastrophic failure modes. A single compromised source, a single biased assessment, or a single misconfigured sensor can propagate incorrect beliefs throughout the system if there is no requirement for independent corroboration. Signal Plurality transforms this single-point-of-failure pattern into a distributed verification model where every belief requires at least two independent supporting signals.
 
-Signal Plurality is more rigorous than simple "second opinion" requirements found in traditional decision-making frameworks. The axiom requires not just multiple signals but genuinely independent signals -- signals from sources that do not share common upstream dependencies, methodologies, or data feeds. Two signals derived from the same underlying data source count as one signal, regardless of how differently they are presented. This independence requirement prevents the illusion of plurality where multiple nominally different sources all trace back to a single origin.
+Signal Plurality is more rigorous than simple “second opinion” requirements found in traditional decision-making frameworks. The axiom requires not just multiple signals but genuinely independent signals — signals from sources that do not share common upstream dependencies, methodologies, or data feeds. Two signals derived from the same underlying data source count as one signal, regardless of how differently they are presented. This independence requirement prevents the illusion of plurality where multiple nominally different sources all trace back to a single origin.
 
-Within the Prismatic Platform, Signal Plurality is enforced at the E2 level (block and rejection). Violations are not warnings -- they are hard blocks that prevent the violating claim from entering the belief system. This enforcement applies across all platform systems: OSINT intelligence fusion, [EASM](@/glossary/easm.md) security ratings, Color Team assessments, and quality evaluations.
+Within the Prismatic Platform, Signal Plurality is enforced at the E2 level (block and rejection). Violations are not warnings — they are hard blocks that prevent the violating claim from entering the belief system. This enforcement applies across all platform systems: [OSINT](@/glossary/osint.md) intelligence fusion, [EASM](@/glossary/easm.md) security ratings, Color Team assessments, and quality evaluations.
 
 ## Historical Context and Motivation
 
-The Signal Plurality axiom draws from multiple intellectual traditions. In intelligence analysis, the principle of "multi-source intelligence" (MULTI-INT) has been practiced since at least World War II, where signals intelligence (SIGINT), human intelligence (HUMINT), and imagery intelligence (IMINT) were cross-referenced to validate assessments. The failure to enforce this principle has led to documented intelligence failures, most notably the reliance on single-source intelligence in the lead-up to the Iraq War (2003), where the "Curveball" source provided uncorroborated information that shaped policy.
+The Signal Plurality axiom draws from multiple intellectual traditions. In intelligence analysis, the principle of “multi-source intelligence” (MULTI-INT) has been practiced since at least World War II, where signals intelligence (SIGINT), human intelligence (HUMINT), and imagery intelligence (IMINT) were cross-referenced to validate assessments. The failure to enforce this principle has led to documented intelligence failures, most notably the reliance on single-source intelligence in the lead-up to the Iraq War (2003), where the “Curveball” source provided uncorroborated information that shaped policy.
 
-In scientific methodology, the requirement for independent replication serves the same function. A scientific claim is not accepted based on a single experiment; it requires independent replication by separate researchers using different methodologies. The replication crisis in social science (2010s) demonstrated what happens when this standard is relaxed.
+In scientific methodology, the requirement for independent replication serves the same function. A scientific claim is not accepted based on a single experiment; it requires independent replication by separate researchers using different methodologies. The [replication crisis](@/glossary/replication-crisis.md) in social science (2010s) demonstrated what happens when this standard is relaxed.
 
 In distributed systems engineering, the concept of quorum consensus (requiring agreement from multiple nodes before accepting a write) is the technical analog of Signal Plurality. Systems like Raft and Paxos require majority agreement precisely because individual nodes can fail, be partitioned, or return stale data.
 
@@ -488,7 +488,7 @@ end
 
 ## Relationship to Other NABLA Axioms
 
-Signal Plurality does not operate in isolation. It interacts with the other six NABLA axioms in specific ways:
+Signal Plurality does not operate in isolation. It interacts with the other six [NABLA axioms](@/glossary/nabla-axioms.md) in specific ways:
 
 | Axiom | Relationship to Signal Plurality |
 |-------|----------------------------------|
@@ -517,32 +517,32 @@ Signal Plurality does not operate in isolation. It interacts with the other six 
 
 - **Assuming API independence**: Different API endpoints from the same provider share the same underlying data. They do not constitute independent signals.
 
-- **Relaxing plurality for "trusted" sources**: No source is trusted enough to bypass plurality. Even the most reliable source can be compromised, misconfigured, or outdated.
+- **Relaxing plurality for “trusted” sources**: No source is trusted enough to bypass plurality. Even the most reliable source can be compromised, misconfigured, or outdated.
 
 - **Treating plurality as sufficient for truth**: Plurality is necessary but not sufficient. Two independent signals can both be wrong. Plurality reduces but does not eliminate epistemic risk.
 
-- **Fabricating signals to satisfy the axiom**: Generating artificial signals to meet the minimum of two violates the spirit and purpose of the axiom. The "Unknown Valid" axiom explicitly permits acknowledging insufficient evidence rather than fabricating it.
+- **Fabricating signals to satisfy the axiom**: Generating artificial signals to meet the minimum of two violates the spirit and purpose of the axiom. The “Unknown Valid” axiom explicitly permits acknowledging insufficient evidence rather than fabricating it.
 
 ## Related Concepts
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Parent epistemic framework defining this axiom
-- [Intelligence Fusion](@/glossary/intelligence-fusion.md) -- Multi-source correlation requiring signal plurality
-- [Blue Team](@/glossary/blue-team.md) -- Signal aggregation with plurality enforcement
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate complementing plurality requirements
-- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) -- Scoring system for evaluating plural signals
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Handling contradictions between plural signals
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Traceability requirement enabling independence verification
-- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- Temporal weighting applied to plural signals
-- [Shodan](@/glossary/shodan.md) -- Primary discovery signal source in EASM
-- [Censys](@/glossary/censys.md) -- Secondary discovery signal source in EASM
-- [GreyNoise](@/glossary/greynoise.md) -- Threat context signal source complementing discovery signals
-- [EASM](@/glossary/easm.md) -- Security domain enforcing signal plurality per rating dimension
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Parent epistemic framework defining this axiom
+- [Intelligence Fusion](@/glossary/intelligence-fusion.md) — Multi-source correlation requiring signal plurality
+- [Blue Team](@/glossary/blue-team.md) — Signal aggregation with plurality enforcement
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate complementing plurality requirements
+- [Confidence Threshold](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-threshold/) — Scoring system for evaluating plural signals
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) — Handling contradictions between plural signals
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — Traceability requirement enabling independence verification
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) — Temporal weighting applied to plural signals
+- [Shodan](@/glossary/shodan.md) — Primary discovery signal source in EASM
+- [Censys](@/glossary/censys.md) — Secondary discovery signal source in EASM
+- [GreyNoise](@/glossary/greynoise.md) — Threat context signal source complementing discovery signals
+- [EASM](@/glossary/easm.md) — Security domain enforcing signal plurality per rating dimension
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Agent catalog including Blue Team aggregators
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Agent catalog including Blue Team aggregators
 
 ---
 

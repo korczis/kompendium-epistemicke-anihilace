@@ -7,7 +7,7 @@ description = "Internet-wide scan data platform providing comprehensive visibili
 tags = ["glossary", "security", "censys", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["shodan", "easm", "signal-plurality", "attack-surface", "greynoise", "tls", "risk-score"]
 tier = "TIER 1"
 domain = "Security Intelligence"
@@ -40,9 +40,9 @@ image_alt = "Censys - Prismatic Platform"
 
 ## Definition
 
-Censys is a security intelligence platform that performs continuous internet-wide scans, cataloging hosts, services, certificates, and software across the public internet. Founded in 2013 by Zakir Durumeric, David Adrian, and J. Alex Halderman at the University of Michigan, Censys emerged from academic research on internet-wide network scanning and built upon the ZMap scanner -- a tool capable of scanning the entire IPv4 address space in under 45 minutes. This academic pedigree distinguishes Censys from commercial-first alternatives, bringing rigorous methodology and reproducible scanning practices to the security intelligence domain.
+Censys is a security intelligence platform that performs continuous internet-wide scans, cataloging hosts, services, certificates, and software across the public internet. Founded in 2013 by Zakir Durumeric, David Adrian, and J. Alex Halderman at the University of Michigan, Censys emerged from academic research on internet-wide network scanning and built upon the ZMap scanner — a tool capable of scanning the entire IPv4 address space in under 45 minutes. This academic pedigree distinguishes Censys from commercial-first alternatives, bringing rigorous methodology and reproducible scanning practices to the security intelligence domain.
 
-Censys differentiates itself through its deep focus on TLS/SSL certificate transparency, its structured and strongly-typed data model, and its comprehensive coverage of the X.509 certificate ecosystem. While [Shodan](@/glossary/shodan.md) excels at service and device discovery through banner grabbing, Censys provides superior visibility into the certificate landscape -- tracking certificate issuance, expiration, chain validity, and compliance with certificate transparency (CT) requirements. This complementary focus makes Censys an essential corroborating data source for multi-signal security assessments.
+Censys differentiates itself through its deep focus on TLS/SSL certificate transparency, its structured and strongly-typed data model, and its comprehensive coverage of the X.509 certificate ecosystem. While [Shodan](@/glossary/shodan.md) excels at service and device discovery through banner grabbing, Censys provides superior visibility into the certificate landscape — tracking certificate issuance, expiration, chain validity, and compliance with certificate transparency (CT) requirements. This complementary focus makes Censys an essential corroborating data source for multi-signal security assessments.
 
 The platform offers both a web interface for interactive exploration and a RESTful API for programmatic integration. Censys continuously refreshes its dataset through regular full-internet scans, maintaining a historical record of how the internet's infrastructure evolves over time. This longitudinal data enables trend analysis, tracking how an organization's [attack surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) changes across weeks, months, and years.
 
@@ -330,7 +330,7 @@ When Shodan and Censys agree on a finding (e.g., both detect an expired TLS cert
 
 ## Multi-Source Correlation Pipeline
 
-The Prismatic Platform uses Censys data as part of a multi-source correlation pipeline that synthesizes findings from multiple OSINT providers:
+The Prismatic Platform uses Censys data as part of a multi-source correlation pipeline that synthesizes findings from multiple [OSINT](@/glossary/osint.md) providers:
 
 ```elixir
 defmodule PrismaticPerimeter.CorrelationPipeline do
@@ -465,15 +465,15 @@ When integrating Censys data into security assessments, several considerations a
 
 When building integrations with the Censys API, the following practices ensure reliable and efficient operation within the Prismatic Platform:
 
-1. **Prefer certificate-based discovery over host scanning** -- Censys's CT log integration provides the most unique value compared to other OSINT sources. Use Censys primarily for certificate intelligence and leverage [Shodan](@/glossary/shodan.md) for service discovery.
+1. **Prefer certificate-based discovery over host scanning** — Censys's CT log integration provides the most unique value compared to other OSINT sources. Use Censys primarily for certificate intelligence and leverage [Shodan](@/glossary/shodan.md) for service discovery.
 
-2. **Use aggregate queries for broad analysis** -- The aggregation API provides statistical summaries without consuming per-result quota. Use aggregates to understand the distribution of services, ASNs, or software versions before drilling into individual hosts.
+2. **Use aggregate queries for broad analysis** — The aggregation API provides statistical summaries without consuming per-result quota. Use aggregates to understand the distribution of services, ASNs, or software versions before drilling into individual hosts.
 
-3. **Cache responses with TTL matching scan frequency** -- Censys data refreshes on a schedule (not continuously). Caching responses for 6-12 hours avoids redundant API calls without missing significant changes.
+3. **Cache responses with TTL matching scan frequency** — Censys data refreshes on a schedule (not continuously). Caching responses for 6-12 hours avoids redundant API calls without missing significant changes.
 
-4. **Implement circuit breakers for API failures** -- Network issues and rate limiting can cause cascade failures in the discovery pipeline. Use circuit breaker patterns to gracefully degrade when Censys is unavailable.
+4. **Implement circuit breakers for API failures** — Network issues and rate limiting can cause cascade failures in the discovery pipeline. Use circuit breaker patterns to gracefully degrade when Censys is unavailable.
 
-5. **Always validate confidence with [Signal Plurality](@/glossary/signal-plurality.md)** -- Never rely on Censys alone for security assertions. Every finding must be corroborated by at least one independent source.
+5. **Always validate confidence with [Signal Plurality](@/glossary/signal-plurality.md)** — Never rely on Censys alone for security assertions. Every finding must be corroborated by at least one independent source.
 
 ## Related Terms
 

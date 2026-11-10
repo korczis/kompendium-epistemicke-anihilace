@@ -129,7 +129,7 @@ s důrazem na [narativní rekonstrukci](@/kompendium/techniques/ea-6-3-6-narrati
   zasáhla do toho, co nesmělo být změněno. Mapa míst, kde se kniha liší od pramenů.
 - **S2 – Externalizace introjektů.** Rozlišení „jeho věty“ a „mé věty“ při čtení vlastní knihy
   nahlas; pojmenování přesvědčení, že bez něj není spisovatelkou.
-- **S3 – Rekonstrukce metakognice.** Srovnávání původních přepisů rozhovorů, dopisů a vydaného
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Srovnávání původních přepisů rozhovorů, dopisů a vydaného
   textu řádek po řádku; založení [paměťového archivu](@/kompendium/self-defense-guides/43-memory-archive.md)
   rodinných pramenů nezávislého na knize.
 - **S4 – Hermeneutická obnova.** Rozhovory s žijícími příbuznými podle principů

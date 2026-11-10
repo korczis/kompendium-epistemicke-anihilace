@@ -2,9 +2,11 @@
 title = "Disociace ve forenzni praxi"
 description = "Forenzni a pravni rozmer EA — disociace ve forenzni praxi."
 weight = 3
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "forensic-assessment"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["28-courtroom-decompensation", "29-judicial-education", "30-jury-instruction-EA", "31-clinical-documentation-EA"]
 parent = "kompendium-forensic-legal"
@@ -15,7 +17,7 @@ toc = true
 
 ## Pravni / forenzni kontext
 
-Disociativni amnezie, fragmentace a depersonalizace u obeti EA komplikuji kontinuitu svedectvi a vyzaduji odbornou interpretaci. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
+Disociativni amnezie, fragmentace a [depersonalizace](@/glossary/depersonalizace.md) u obeti EA komplikuji kontinuitu svedectvi a vyzaduji odbornou interpretaci. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
 psychologii s pravnimi standardy dokazovani, kde pattern coercive control
 musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
 proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

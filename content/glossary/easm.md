@@ -7,7 +7,7 @@ description = "External Attack Surface Management for continuous security postur
 tags = ["glossary", "security", "easm", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 abbreviation = "EASM"
 related_app = "prismatic-perimeter"
 related_terms = ["security-rating", "nis2", "zkb", "color-teams", "risk-score", "attack-surface", "censys", "hawkeye", "liveview", "osint", "sanctions-screening", "shodan", "threat-intelligence", "timescaledb"]
@@ -25,7 +25,7 @@ image_alt = "EASM - Prismatic Platform"
 
 ## Definition
 
-External Attack Surface Management (EASM) is a cybersecurity discipline focused on the continuous discovery, inventory, classification, and monitoring of an organization's externally visible digital assets. These assets include domains, subdomains, IP addresses, SSL/TLS certificates, cloud resources, SaaS integrations, exposed APIs, email servers, and any internet-facing services that could be targeted by adversaries. EASM provides organizations with an outside-in view of their security posture -- the same perspective an attacker would have -- enabling proactive identification and remediation of exposures before they are exploited.
+External Attack Surface Management (EASM) is a cybersecurity discipline focused on the continuous discovery, inventory, classification, and monitoring of an organization's externally visible digital assets. These assets include domains, subdomains, IP addresses, SSL/TLS certificates, cloud resources, SaaS integrations, exposed APIs, email servers, and any internet-facing services that could be targeted by adversaries. EASM provides organizations with an outside-in view of their security posture — the same perspective an attacker would have — enabling proactive identification and remediation of exposures before they are exploited.
 
 EASM emerged as a distinct market category around 2020, driven by the rapid expansion of organizational attack surfaces through cloud adoption, SaaS proliferation, shadow IT, mergers and acquisitions, and remote work infrastructure. Traditional vulnerability management approaches, which rely on organizations knowing what assets they have, became insufficient as the typical enterprise's external footprint grew to include thousands of unknown or unmanaged assets. EASM addresses this gap by continuously discovering assets from the outside, without requiring internal access or agent deployment.
 
@@ -251,7 +251,7 @@ end
 
 - **Third-Party Risk Management**: Assessing the security posture of vendors, partners, and supply chain organizations through external observation without requiring internal access or questionnaires.
 
-- **M&A Due Diligence**: Evaluating the digital security posture of acquisition targets to identify hidden liabilities, technical debt, and compliance gaps before transaction completion.
+- **M&A [Due Diligence](@/glossary/due-diligence.md)**: Evaluating the digital security posture of acquisition targets to identify hidden liabilities, technical debt, and compliance gaps before transaction completion.
 
 - **Continuous Compliance Monitoring**: Maintaining ongoing NIS2 and ZKB compliance through continuous external security posture assessment, generating evidence for regulatory audits.
 
@@ -262,7 +262,7 @@ end
 ## Related Concepts
 
 - [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) - A-F grading system produced by EASM analysis
-- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) - EU compliance framework assessed by the platform
+- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) - EU [compliance framework](@/glossary/compliance-framework.md) assessed by the platform
 - [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) - Czech compliance framework assessed alongside NIS2
 - [DNS Enumeration](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dns-enumeration/) - Core discovery technique within EASM
 - [OSINT](@/glossary/osint.md) - Intelligence methodology powering asset discovery
@@ -276,13 +276,13 @@ end
 
 ## See Also
 
-- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) -- Primary EASM application with discovery, rating, and compliance
-- [prismatic_perimeter_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_core/README.md) -- Core EASM logic and domain models
-- [prismatic_perimeter_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_web/README.md) -- LiveView dashboards for EASM visualization
-- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) -- OSINT engine powering asset discovery
-- [prismatic_osint_network](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_network/README.md) -- Network reconnaissance for attack surface mapping
-- [prismatic_compliance](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_compliance/README.md) -- Compliance assessment engine for NIS2 and ZKB
-- [prismatic_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_web/README.md) -- Main web interface hosting Perimeter dashboards
+- [prismatic_perimeter](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter/README.md) — Primary EASM application with discovery, rating, and compliance
+- [prismatic_perimeter_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_core/README.md) — Core EASM logic and domain models
+- [prismatic_perimeter_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_perimeter_web/README.md) — LiveView dashboards for EASM visualization
+- [prismatic_osint_core](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_core/README.md) — OSINT engine powering asset discovery
+- [prismatic_osint_network](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_osint_network/README.md) — Network reconnaissance for attack surface mapping
+- [prismatic_compliance](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_compliance/README.md) — Compliance assessment engine for NIS2 and ZKB
+- [prismatic_web](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_web/README.md) — Main web interface hosting Perimeter dashboards
 
 ---
 

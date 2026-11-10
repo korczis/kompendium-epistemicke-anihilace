@@ -19,7 +19,7 @@ toc = true
 
 John Searle ve své známé eseji *Minds, Brains, and Programs* (*Behavioral and Brain Sciences*, 1980) formuluje **Argument čínského pokoje** (*Chinese Room Argument*) — myšlenkový experiment proti **silné AI** (silver AI: počítač **rozumí**) ve prospěch **slabé AI** (počítač **simuluje** rozumění).
 
-Pro kompendium EA poskytuje Searleho argument nástroj pro **kritickou analýzu nároků** velkých jazykových modelů (LLMs) a algoritmické EA — proti naivní inflaci AI rozumění.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Searleho argument nástroj pro **kritickou analýzu nároků** velkých jazykových modelů (LLMs) a algoritmické EA — proti naivní inflaci AI rozumění.
 
 ## 1. Argument čínského pokoje
 
@@ -36,7 +36,7 @@ Searleho závěr: **počítač** je v této strukturní pozici **vždy**. Manipu
 Pro EA má tento argument **klíčovou diagnostickou hodnotu**:
 
 - **LLMs jako čínský pokoj**: GPT, Claude, Gemini operují strukturálně skrze syntaktickou manipulaci — **nerozumí** ve searleovském smyslu.
-- **Riziko antropomorfizace**: zacházení s LLM jako s **rozumějícím** subjektem je strukturálně **chybná inference**.
+- **Riziko antropomorfizace**: zacházení s LLM jako s **rozumějícím** subjektem je strukturálně **chybná [inference](@/glossary/inference.md)**.
 - **Manipulativní zneužití antropomorfizace**: marketing AI systémů strukturálně **explouje** lidskou tendenci antropomorfizovat — strukturální technika EA.
 
 ## 2. Slabá vs. silná AI
@@ -50,7 +50,7 @@ Searleho argument: **slabá AI je legitimní** vědecký program; **silná AI je
 
 Pro EA z toho plyne:
 
-- **Marketing silné AI**: tvrzení "AI rozumí", "AI cítí", "AI uvažuje" jsou strukturálně **manipulativní** — buď nepodložená hypotéza, nebo metafora maskovaná jako tvrzení.
+- **Marketing silné AI**: tvrzení „AI rozumí“, „AI cítí“, „AI uvažuje“ jsou strukturálně **manipulativní** — buď nepodložená hypotéza, nebo metafora maskovaná jako tvrzení.
 - **Klinická aplikace**: AI nemůže **substituovat** terapeuta — terapeutický vztah strukturálně vyžaduje **rozumění**, jež AI strukturálně nemá.
 - **Edukační aplikace**: spoléhání na LLM jako **autoritu** je strukturálně **nebezpečné** — model nerozumí, pouze syntakticky transformuje.
 
@@ -70,11 +70,11 @@ Pro EA z toho plyne:
 
 ## 4. Konstrukce sociální reality
 
-Searle (*The Construction of Social Reality*, 1995): **institucionální fakta** (peníze, manželství, vlastnictví) jsou strukturálně **konstruována** kolektivními intencionálními akty — strukturou "*X počítáno za Y v kontextu C*".
+Searle (*The Construction of Social Reality*, 1995): **institucionální fakta** (peníze, manželství, vlastnictví) jsou strukturálně **konstruována** kolektivními intencionálními akty — strukturou „*X počítáno za Y v kontextu C*“.
 
 Pro EA z toho plyne:
 
-- **Institucionální fakta jsou strukturálně zranitelná**: pokud kolektivní intencionalita kolabuje, instituce kolabují.
+- **Institucionální fakta jsou strukturálně zranitelná**: pokud kolektivní [intencionalita](@/glossary/intencionalita.md) kolabuje, instituce kolabují.
 - **Útok na kolektivní intencionalitu**: techniky, jež **rozkládají** sdílenou kapacitu pro institucionální fakta, strukturálně **anihilují** institucionální realitu.
 - **Klinický korelát**: subjekt, jenž **nedůvěřuje** institucionálním faktům (penězům, kontrolám, soudům), vykazuje **strukturální paranoid** — strukturální analog Davidsonovské krize charity ([viz 7.25](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)).
 
@@ -109,7 +109,7 @@ Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.
 
 - **AI nemůže nahradit lidský terapeutický vztah**: rozumění je strukturálně biologicky a sociálně vázáno.
 - **AI jako podpůrný nástroj**: legitimní využití (administrativa, dokumentace, edukace), nikoli substituce.
-- **Riziko závislosti na AI "compagnonu"**: strukturálně zhoršuje schopnost autentických intersubjektivních vztahů.
+- **Riziko závislosti na AI „compagnonu“**: strukturálně zhoršuje schopnost autentických intersubjektivních vztahů.
 
 ## 8. Kritická distance
 
@@ -120,7 +120,7 @@ Kompendium absorbuje Searleho argument, ale **odbočuje** v několika bodech:
 
 ## 9. Primární literatura
 
-- Searle, J. (1980). "Minds, Brains, and Programs". *Behavioral and Brain Sciences* 3.
+- Searle, J. (1980). „Minds, Brains, and Programs“. *Behavioral and Brain Sciences* 3.
 - Searle, J. (1992). *The Rediscovery of the Mind*. MIT Press.
 - Searle, J. (1995). *The Construction of Social Reality*. Free Press.
 - Searle, J. (2004). *Mind: A Brief Introduction*. Oxford UP.

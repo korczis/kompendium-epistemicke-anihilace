@@ -7,7 +7,7 @@ description = "Closed-loop decision infrastructure with deterministic hypothesis
 tags = ["glossary", "decision-core", "architecture", "scoring"]
 
 [extra]
-category = "architecture"
+category = "architektura platformy"
 related_terms = ["calibration", "hypothesis", "uncertainty", "determinism"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -71,7 +71,7 @@ Every decision includes a SHA-256 fingerprint derived from the normalized input,
 
 The calibration system uses bucket-based correction:
 
-- Confidence scores are bucketed into 10 bins [0.0-0.1), [0.1-0.2), ..., [0.9-1.0]
+- Confidence scores are bucketed into 10 bins [0.0-0.1), [0.1-0.2), …, [0.9-1.0]
 - Each bucket tracks the average delta between predicted confidence and observed success
 - Future confidence scores are adjusted by their bucket's mean delta
 - Adjustments are bounded to [-0.15, +0.15] to prevent runaway correction

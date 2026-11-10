@@ -63,7 +63,6 @@ CFO received voice call from 'CEO' authorizing $4M transfer — voice clone, but
 
 Spear-phishing email passed all classic filters (no typos, valid domain) — but linguistic-fingerprint analysis flagged 0.87 deviation from CEO baseline
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

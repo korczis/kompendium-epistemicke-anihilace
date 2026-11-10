@@ -106,7 +106,7 @@ Terapie poté navázala [protokolem epistemické rekonstrukce](@/kompendium/06-k
   odchod byl racionální rozhodnutí, nikoli selhání.
 - **S2 – Externalizace introjektů:** identifikace hlasů „budu potrestána“, „mimo skupinu nejsem
   nic“ a jejich přiřazení učení skupiny.
-- **S3 – Rekonstrukce metakognice:** nácvik [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik [hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)
   a vlastního úsudku u témat, o nichž dříve rozhodovalo učení.
 - **S4 – Hermeneutická obnova:** budování vlastního vztahu ke spiritualitě – bez povinnosti ji
   odmítnout i bez povinnosti ji zachovat.

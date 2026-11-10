@@ -32,11 +32,11 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 06 — Coercive control taktiky**: gaslighting v IPV kontextu
+- **Sekce 06 — [Coercive control](@/glossary/coercive-control.md) taktiky**: gaslighting v IPV kontextu
 - **Sekce 07 — Forms of gaslighting**: interpersonal, medical, institutional, racial
-- **Sekce 08 — Klinické dopady**: epistemic alienation, C-PTSD, dissociace
+- **Sekce 08 — Klinické dopady**: epistemic alienation, [C-PTSD](@/glossary/c-ptsd.md), dissociace
 - **Sekce 09 — Detection patterns**: screening tools, longitudinal observation
-- **Per-technique články**: DARVO overlap, recovery protocols
+- **Per-technique články**: [DARVO](@/glossary/darvo.md) overlap, recovery protocols
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
 

@@ -204,7 +204,7 @@ Intervence: Restrukturalizace meeting space — round table, equal chairs, open 
 
 ### Případ 2 — Klinické konzultace
 
-Pacienti reportovali "**pocit mírného strachu**" během konzultací s konkrétním klinikem. Patient advocate analyzed encounters:
+Pacienti reportovali „**pocit mírného strachu**“ během konzultací s konkrétním klinikem. Patient advocate analyzed encounters:
 
 - Klinik **stál**, while patient seděl
 - Klinik **moved closer** at critical decision points
@@ -238,8 +238,8 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 ### Eskaluje do
 
-- **EA-1.6.1 Vzorec "Guru a adept"** — proxemická hierarchie je **strukturální komponenta** etablování gurova autority.
-- **Coercive control** — spatial entrapment patterns jsou součást abusive dynamics.
+- **EA-1.6.1 Vzorec „Guru a adept“** — proxemická hierarchie je **strukturální komponenta** etablování gurova autority.
+- **[Coercive control](@/glossary/coercive-control.md)** — spatial entrapment patterns jsou součást abusive dynamics.
 
 ### Hraniční / podobné
 
@@ -248,7 +248,7 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 
 ## Vztah k Prismatic platformě
 
-- **OSINT investigator training** — strukturální training v detekci proxemických signálů manipulativních interactions.
+- **[OSINT](@/glossary/osint.md) investigator training** — strukturální training v detekci proxemických signálů manipulativních interactions.
 - **Decision-making protocols** — klíčová rozhodnutí Prismatic platformy preferují **written-first** protocols, snížící vliv proxemiky.
 - **Investigation interview protocols** — explicit guidelines pro proxemicky neutral setups.
 
@@ -270,7 +270,6 @@ Intervence: Regulatory framework — required cooldown periods, mandatory off-si
 - **Související platformové koncepty**:
   - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}
   - [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

@@ -33,7 +33,6 @@ parent = "kompendium"
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Filozofie: Boundary Ethics](@/philosophy/boundary-ethics.md)
 
-
 ## ⚡ Kritický krok
 
 **Předtím než pokročíš do dalších sekcí**, ověř si etický kontext: zkontroluj

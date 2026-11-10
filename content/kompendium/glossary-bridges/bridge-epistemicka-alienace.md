@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Epistemická alienace označuje stav, kdy subjekt ztrácí kapacitu důvěřovat vlastním kognitivním procesům — vnímání, paměti, úsudku — typicky v důsledku chronického gaslighting, coercive control nebo institucionálního překroucení. Subjekt nadále existuje, ale odcizen vlastní epistemické agenci.
+Epistemická alienace označuje stav, kdy subjekt ztrácí kapacitu důvěřovat vlastním kognitivním procesům — vnímání, paměti, úsudku — typicky v důsledku chronického [gaslighting](@/glossary/gaslighting.md), [coercive control](@/glossary/coercive-control.md) nebo institucionálního překroucení. Subjekt nadále existuje, ale odcizen vlastní epistemické agenci.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

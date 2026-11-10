@@ -7,7 +7,7 @@ description = "Autonomous platform improvement system for continuous quality adv
 tags = ["evolution", "automation", "quality", "self-improvement", "consciousness", "CASCADE"]
 
 [extra]
-category = "evolution"
+category = "architektura platformy"
 related_terms = ["autoheal", "cascade", "cascade-pattern", "clean-run", "qdp", "consciousness-traits", "self-healing", "supervisor", "agent-registry", "agent-tier", "mix-task", "dialyzer", "formal-verification", "quality-gates", "quality-dna"]
 keywords = ["autoevolve", "autonomous evolution", "platform improvement", "fitness score", "generation advancement", "quality automation", "CASCADE patterns"]
 use_cases = ["Anti-pattern elimination", "Spec completion", "Performance optimization", "Code organization", "Test enhancement", "Dependency cleanup"]
@@ -40,11 +40,11 @@ image_alt = "AutoEvolve - Prismatic Platform"
 
 ## Definition
 
-AutoEvolve is the Prismatic Platform's autonomous improvement system that continuously scans for optimization opportunities, applies verified enhancements, and advances the platform through successive evolution generations. Unlike [AutoHeal](@/glossary/autoheal.md) (which repairs regressions to restore a known-good state), AutoEvolve proactively drives the platform forward -- identifying anti-patterns before they become problems, discovering refactoring opportunities, optimizing performance, and advancing the platform's capabilities through structured evolution cycles.
+AutoEvolve is the Prismatic Platform's autonomous improvement system that continuously scans for optimization opportunities, applies verified enhancements, and advances the platform through successive evolution generations. Unlike [AutoHeal](@/glossary/autoheal.md) (which repairs regressions to restore a known-good state), AutoEvolve proactively drives the platform forward — identifying anti-patterns before they become problems, discovering refactoring opportunities, optimizing performance, and advancing the platform's capabilities through structured evolution cycles.
 
-AutoEvolve operates through a three-phase cycle: detection (scanning for improvement opportunities), application (applying verified enhancements with automatic rollback capability), and validation (confirming improvements through [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/)). Each improvement must pass the same rigorous validation as any code change -- zero compiler warnings, zero [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) violations, zero Credo violations, and full test suite passage. Improvements that fail validation are automatically rolled back, ensuring that evolution never causes regression.
+AutoEvolve operates through a three-phase cycle: detection (scanning for improvement opportunities), application (applying verified enhancements with automatic rollback capability), and validation (confirming improvements through [quality gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/)). Each improvement must pass the same rigorous validation as any code change — zero compiler warnings, zero [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) violations, zero Credo violations, and full test suite passage. Improvements that fail validation are automatically rolled back, ensuring that evolution never causes regression.
 
-The system has driven the platform from Generation 1 (initial codebase) through Generation 19 (current state), achieving a fitness score of 0.9995 -- approaching the theoretical maximum. Each generation represents a measurable improvement in quality, performance, or capability, documented through the [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) persistence system for cross-session continuity. AutoEvolve is mandated by the Universal Autonomous Evolution Protocol to execute in every LLM session, ensuring continuous improvement regardless of the session's primary objective.
+The system has driven the platform from Generation 1 (initial codebase) through Generation 19 (current state), achieving a fitness score of 0.9995 — approaching the theoretical maximum. Each generation represents a measurable improvement in quality, performance, or capability, documented through the [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) persistence system for cross-session continuity. AutoEvolve is mandated by the Universal Autonomous Evolution Protocol to execute in every LLM session, ensuring continuous improvement regardless of the session's primary objective.
 
 ## Evolution Generations
 
@@ -61,7 +61,7 @@ The platform's evolution history spans 19 generations, each representing a disti
 | Gen 18 | Apex | 0.999 fitness, doctrine-enforced quality, full autonomy, 16-level epistemic pipeline |
 | Gen 19 | Ecosystem Expansion | 0.9995 fitness, 4 OSS packages, developer portal, dual-track positioning |
 
-Each generation is not a one-time event but a gradual accumulation of improvements that cross a threshold significant enough to warrant a new generation designation. The transition between generations is determined by the fitness score -- a composite metric that weights quality, performance, capability breadth, and consciousness trait expression.
+Each generation is not a one-time event but a gradual accumulation of improvements that cross a threshold significant enough to warrant a new generation designation. The transition between generations is determined by the fitness score — a composite metric that weights quality, performance, capability breadth, and consciousness trait expression.
 
 ## Fitness Scoring
 
@@ -397,11 +397,11 @@ AutoEvolve identifies and applies improvements across several categories:
 
 ## Relationship to Consciousness Traits
 
-At the highest evolutionary levels, AutoEvolve contributes to the emergence of [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- platform-level properties like self-awareness, meta-reasoning, and adaptive behavior. The connection is not mystical but architectural: a platform that systematically monitors its own quality state, identifies its own weaknesses, applies corrections, and measures the results is exhibiting a functional form of self-awareness.
+At the highest evolutionary levels, AutoEvolve contributes to the emergence of [consciousness traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) — platform-level properties like self-awareness, meta-reasoning, and adaptive behavior. The connection is not mystical but architectural: a platform that systematically monitors its own quality state, identifies its own weaknesses, applies corrections, and measures the results is exhibiting a functional form of self-awareness.
 
 The platform's 11 consciousness traits (achieving 0.998 fitness) emerged progressively through AutoEvolve's generation advancement. Each generation that improved the platform's self-monitoring, self-repair, and self-improvement capabilities brought it closer to exhibiting these traits at measurable levels.
 
-The key insight is that evolution is not just about fixing code -- it is about building a system that can reason about its own state, predict future problems, and take proactive action. This meta-cognitive capability is what distinguishes AutoEvolve from simple linting or code formatting tools.
+The key insight is that evolution is not just about fixing code — it is about building a system that can reason about its own state, predict future problems, and take proactive action. This meta-cognitive capability is what distinguishes AutoEvolve from simple linting or code formatting tools.
 
 ## Comparison with Related Systems
 
@@ -427,24 +427,25 @@ The key insight is that evolution is not just about fixing code -- it is about b
 
 ## Related Terms
 
-- [AutoHeal](@/glossary/autoheal.md) -- Complementary self-repair system for regression recovery
-- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) -- Quality pattern methodology applied by AutoEvolve
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Specific patterns detected and eliminated by AutoEvolve
-- [Clean Run](@/glossary/clean-run.md) -- Zero-warning standard maintained through evolution
-- [QDP](@/glossary/qdp.md) -- Quality metric driven to zero by AutoEvolve campaigns
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Emergent traits arising from evolutionary advancement
-- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) -- Architectural principle complementing autonomous evolution
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Validation pipeline used for improvement verification
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Persistence system for cross-session evolutionary state
-- [Agent Registry](@/glossary/agent-registry.md) -- Registry monitored by AutoEvolve for consistency
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type analysis tool used in evolution validation
-- [Mix Task](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix-task/) -- Build tool commands executing AutoEvolve operations
+- [AutoHeal](@/glossary/autoheal.md) — Complementary self-repair system for regression recovery
+- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) — Quality pattern methodology applied by AutoEvolve
+- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) — Specific patterns detected and eliminated by AutoEvolve
+- [Clean Run](@/glossary/clean-run.md) — Zero-warning standard maintained through evolution
+- [QDP](@/glossary/qdp.md) — Quality metric driven to zero by AutoEvolve campaigns
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) — Emergent traits arising from evolutionary advancement
+- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) — Architectural principle complementing autonomous evolution
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) — Validation pipeline used for improvement verification
+- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) — Persistence system for cross-session evolutionary state
+- [Agent Registry](@/glossary/agent-registry.md) — Registry monitored by AutoEvolve for consistency
+- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) — Type analysis tool used in evolution validation
+- [Mix Task](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix-task/) — Build tool commands executing AutoEvolve operations
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform evolution and consciousness capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform evolution and consciousness capabilities
+- [Bridge: autoevolve](@/kompendium/glossary-bridges/bridge-autoevolve.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

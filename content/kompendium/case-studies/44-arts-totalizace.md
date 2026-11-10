@@ -55,7 +55,7 @@ argumentem, že kritici „nechápou avantgardu“.
 V rekonfigurační fázi subjekt převzala režisérův výklad světa i jeho slovník, přerušila kontakt
 s rodinou („nerozumějí mi“) a sociální život zúžila na soubor. Romantický vztah s režisérem,
 výrazně asymetrický věkem i mocí, byl popisován jako „umělecké partnerství“. Konsolidace přinesla
-poruchu příjmu potravy, panické ataky před zkouškami, chronickou únavu a epizody disociace;
+poruchu příjmu potravy, panické ataky před zkouškami, chronickou únavu a epizody [disociace](@/glossary/disociace.md);
 navenek přitom vrcholil úspěch – pochvalné kritiky, ceny, zahraniční hostování. Tento rozpor mezi
 vnějším uznáním a vnitřním rozpadem je pro uměleckou totalizaci typický a výrazně oddaluje
 detekci.
@@ -127,7 +127,7 @@ od rodiny a převzetí slovníku, ve kterém se kritika nedala vyslovit.
 
 Použit byl [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md). Jeho stupně (S1
-validace a mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická
+validace a mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická
 obnova, S5 konsolidace a transfer) tvořily terapeutické jádro širšího léčebného plánu, který proběhl
 v pěti fázích:
 

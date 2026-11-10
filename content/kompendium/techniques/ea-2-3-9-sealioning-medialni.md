@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 Mediální verze sealioningu — vyčerpávající opakované žádosti o důkazy, vysvětlení a citace v dobré víře, které ve skutečnosti slouží k vyčerpání cíle.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Mediální delegitimizace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Tato technika představuje konkrétní operacionalizaci širšího vzorce **Mediální [delegitimizace](@/glossary/delegitimizace.md)** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
 
 ## Operační modus
 
@@ -50,7 +50,7 @@ Technika **EA-2.3.9** typicky probíhá ve třech fázích:
 
 ### Fáze 2 — Aktivace techniky
 
-Aktivace probíhá synchronně přes více vektorů. **Sealioning Mediální** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
+Aktivace probíhá synchronně přes více vektorů. **[Sealioning](@/glossary/sealioning.md) Mediální** se nezavede jednorázovou akcí, ale **kaskádou koordinovaných drobných pohybů**, které jednotlivě působí marginálně, ale v součtu produkují **systémový posun**.
 
 ### Fáze 3 — Stabilizace nového stavu
 
@@ -86,10 +86,10 @@ Technika **EA-2.3.9** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky 
 
 Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
 
-- **Decision Engine** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
+- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
+- **[OSINT](@/glossary/osint.md) Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
 - **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+- **[Hawkeye](@/glossary/hawkeye.md)** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
 
 ## Související
 

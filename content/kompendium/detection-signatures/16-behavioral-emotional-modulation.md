@@ -18,7 +18,7 @@ modality = "behavioral"
 
 Emocionální modulace je opakované, pro zasaženou osobu nepředvídatelné střídání vřelých fází (pozornost, chvála, náklonnost, dary) a chladných fází (mlčení, odtažitost, kritika, ponížení), které časově souvisí s tím, zda zasažená osoba vyhovuje očekáváním zdroje. Nejde o přirozené výkyvy nálad ve vztahu, ale o **vzorec, kde emoční klima slouží jako odměna a trest**.
 
-Mechanismus odpovídá tomu, co psychologie učení popisuje jako přerušované (intermitentní) posilování: odměna, která přichází nepravidelně, vytváří trvalejší chování než odměna pravidelná. Ve vztazích s násilím popsali Dutton a Painter (1981) souvislost střídání týrání a vřelosti se vznikem silného pouta jako *traumatic bonding* (viz [trauma bonding](@/glossary/trauma-bonding.md)). Technicky odpovídá signatura [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) a v hlubší podobě [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md).
+Mechanismus odpovídá tomu, co psychologie učení popisuje jako přerušované (intermitentní) posilování: odměna, která přichází nepravidelně, vytváří trvalejší chování než odměna pravidelná. Ve vztazích s násilím popsali Dutton a Painter (1981) souvislost střídání týrání a vřelosti se vznikem silného pouta jako *[traumatic bonding](@/glossary/traumatic-bonding.md)* (viz [trauma bonding](@/glossary/trauma-bonding.md)). Technicky odpovídá signatura [EA-1.4.2 Latentní emocionální modulace](@/kompendium/techniques/ea-1-4-2-latentni-emocionalni-modulace.md) a v hlubší podobě [EA-5.3.9 Afektivní přepólování](@/kompendium/techniques/ea-5-3-9-afektivni-prepolovani.md).
 
 ## Co signatura indikuje
 

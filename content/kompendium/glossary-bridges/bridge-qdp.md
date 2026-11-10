@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[qdp](@/glossary/qdp.md) — QDP (Quality Debt Pillar) je systematická správa technického dluhu v Prismatic platformě, kvantifikující dluhové položky podle dopadu, urgence a remediation cost. Slouží jako rozhodovací nástroj pro prioritizaci refaktorovacích sprintů a balance mezi feature work a debt remediation.
+[qdp](@/glossary/qdp.md) — QDP ([Quality Debt](@/glossary/quality-debt.md) Pillar) je systematická správa technického dluhu v Prismatic platformě, kvantifikující dluhové položky podle dopadu, urgence a remediation cost. Slouží jako rozhodovací nástroj pro prioritizaci refaktorovacích sprintů a balance mezi feature work a debt remediation.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

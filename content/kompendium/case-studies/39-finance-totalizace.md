@@ -92,7 +92,7 @@ absurdně.
   zármutku nad kolegou.
 - **S2 – Externalizace introjektů:** věty „spánek je pro ty, kdo to nechtějí dost“, „odchod je
   selhání“ odděleny od vlastních hodnot.
-- **S3 – Rekonstrukce metakognice:** obnova schopnosti hodnotit riziko pro vlastní zdraví;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova schopnosti hodnotit riziko pro vlastní zdraví;
   [řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
 - **S4 – Hermeneutická obnova:** nový vztah k penězům a úspěchu, práce se zármutkem.
 - **S5 – Konsolidace a transfer:** nová pozice s udržitelnou pracovní dobou, obnova přátelství.

@@ -81,7 +81,7 @@ Co může vidět vnější pozorovatel:
 
 1. Externí biografická archivace — datované deníky, fotografie, korespondence — uchovávané mimo manipulátorův dosah
 2. Triangulace s nezávislými svědky biografických událostí (rodina, dlouholetí přátelé)
-3. Terapeutická rekonstrukce autobiografického self skrze strukturované vyprávění (narativní terapie)
+3. Terapeutická rekonstrukce autobiografického self skrze strukturované vyprávění ([narativní terapie](@/glossary/narativni-terapie.md))
 
 ### Institucionální
 
@@ -96,7 +96,7 @@ EA-5.3.1 (identitární substituce), EA-5.3.19 (autobiografická amnestizace)
 
 ### Cross-categorical references
 
-- **EA-5.1.* (Epistemická singularita)** — identitární substituce často kombinovaná s epistemickou kanibalizací
+- **EA-5.1.* ([Epistemická singularita](@/glossary/epistemicka-singularita.md))** — identitární substituce často kombinovaná s epistemickou kanibalizací
 - **EA-5.5.* (Transkonceptuální mechanismy)** — pre-konceptuální vrstva podpírá identitární substituci
 - **EA-1.6.* (Charizmatické vedení)** — guru-adept dynamika je strukturálním rámcem hypertransformace
 
@@ -123,7 +123,6 @@ Technika **autobiografická dekonstrukce** představuje strukturální výzvu pr
   - [NABLA Infinity](@/glossary/nabla-infinity.md)
   - [Color Teams](@/glossary/color-teams.md)
 
-
 ## Teoretické zázemí
 
 Ricoeurova **trojí mimésis** (*Temps et récit*) — prefigurace, konfigurace, refigurace životního příběhu — je systematicky rozkládána. Husserlova **vnitřní časová vědomí** (retenční-protenční struktura) ztrácí horizontální kontinuitu. Merleau-Pontyho **chair** jako historicky sedimentovaná tělesnost (*Le Visible et l'invisible*) odhaluje, že dekonstrukce autobiografie zasahuje i pre-reflektivní tělové schéma. Damasiova **proto-self/core-self/autobiographical self** hierarchie identifikuje autobiografickou vrstvu jako nejvyšší, ale i nejzranitelnější. Levinasovo **dia-chronie** ukazuje, že čas druhého narušuje uzavřenou autobiografii — manipulátor využívá tuto otevřenost destruktivně. Konvergence těchto fenomenologických a neurobiologických rámců umožňuje porozumět této hypertransformativní technice nikoliv jako lokální narušení kognice, ale jako koordinovanou agresi na vícevrstvou architekturu sebství.
@@ -133,9 +132,9 @@ Ricoeurova **trojí mimésis** (*Temps et récit*) — prefigurace, konfigurace,
 Empirický výzkum identitárně manipulativních technik se opírá o několik klíčových linií:
 
 - **Lifton, R. J.** (1961). *Thought Reform and the Psychology of Totalism* — osm kritérií totalitního prostředí (mileu control, mystická manipulace, požadavek čistoty, kult zpovědi, posvátná věda, jazyková zatížení, doktrína nad osobou, dispense existence) je dodnes referenční rámec pro analýzu high-control skupin.
-- **Hassan, S.** (2018). *Combating Cult Mind Control* — BITE model (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
-- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *complex PTSD* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
-- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie disociace, terapeutické důsledky.
+- **Hassan, S.** (2018). *Combating Cult Mind Control* — [BITE model](@/glossary/bite-model.md) (Behavior-Information-Thought-Emotion control) operacionalizuje měřitelné dimenze identitární manipulace.
+- **Herman, J. L.** (1992). *Trauma and Recovery* — koncept *[complex PTSD](@/glossary/c-ptsd.md)* zahrnuje identitární narušení jako diagnostický marker u dlouhodobě traumatizovaných subjektů.
+- **van der Kolk, B.** (2014). *The Body Keeps the Score* — somatický substrát identitárního traumatu, neurobiologie [disociace](@/glossary/disociace.md), terapeutické důsledky.
 
 ## Diferenciální diagnostika
 

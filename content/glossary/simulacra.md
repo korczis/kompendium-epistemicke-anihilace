@@ -8,7 +8,7 @@ description = "Baudrillard's three orders of simulacra culminating in pure simul
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["differance", "metanarrative-collapse", "epistemicka-anihilace", "kognitivni-anihilace", "epistemic-bubble"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -28,7 +28,7 @@ image_alt = "Simulacra - glossary"
 
 1. **First order — counterfeit (Renaissance to Industrial Revolution).** The image is a **reflection** of a profound reality. Representation has a referent; the sign points to something stable and prior.
 2. **Second order — production (Industrial era).** The image **masks and denatures** a profound reality. Mass reproduction (photography, lithography, factory production) introduces equivalence; the original loses its aura but the relation to reality is still preserved as the masked term.
-3. **Third order — simulation (post-war / mediatic era).** The image **masks the absence** of a profound reality. There is no longer an original; signs refer only to other signs, generating **hyperreality** — a system of signs more real than any reality, because reality itself has receded behind the operational autonomy of the sign-system.
+3. **Third order — simulation (post-war / mediatic era).** The image **masks the absence** of a profound reality. There is no longer an original; signs refer only to other signs, generating **[hyperreality](@/glossary/hyperreality.md)** — a system of signs more real than any reality, because reality itself has receded behind the operational autonomy of the sign-system.
 4. **Fourth order — pure simulacrum.** The image **bears no relation to any reality whatsoever**. The simulacrum is its own pure self-reference; the question of correspondence is no longer meaningful.
 
 Baudrillard's claim is not that lies have multiplied — lies still presuppose truth. The simulacrum has passed beyond the true / false distinction into a regime where **the difference itself has been dissolved**.

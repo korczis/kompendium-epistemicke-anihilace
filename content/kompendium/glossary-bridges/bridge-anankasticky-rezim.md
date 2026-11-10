@@ -35,7 +35,7 @@ Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 - **Sekce 06 — Klinické kategorie**: OCPD vs. OCD, anankastický spektrum
 - **Sekce 07 — Filosofické reflexe**: anankastické organizace u Webera, Foucaulta, Han
 - **Sekce 08 — Aplikace v DD**: rozpoznání anankastického managementu jako risk factoru
-- **Sekce 09 — Cognitive distortions**: perfekcionismus, all-or-nothing, magické myšlení
+- **Sekce 09 — Cognitive distortions**: [perfekcionismus](@/glossary/perfekcionismus.md), all-or-nothing, magické myšlení
 - **Per-technique články**: diferenciální diagnostika OCPD vs. autismus vs. ADHD
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.

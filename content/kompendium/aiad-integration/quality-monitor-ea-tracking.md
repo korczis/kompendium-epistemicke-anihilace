@@ -37,7 +37,7 @@ Quality Monitor **vidí jen co je instrumentováno** — pokud agent nemá telem
 
 ## Coordination
 
-Hlavní data konzument všech ostatních agentů; krmí data **AutoHeal** a **AutoEvolve**; eskaluje **Tactical Execution** při kritických alertech.
+Hlavní data konzument všech ostatních agentů; krmí data **[AutoHeal](@/glossary/autoheal.md)** a **[AutoEvolve](@/glossary/autoevolve.md)**; eskaluje **[Tactical Execution](@/glossary/tactical-execution.md)** při kritických alertech.
 
 ## Cross-linky
 

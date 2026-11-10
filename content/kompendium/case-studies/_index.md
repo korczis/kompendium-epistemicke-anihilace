@@ -46,14 +46,14 @@ Každá studie končí oddílem **Související** s odkazy na glosář, protokol
 ## Přehled podle domén
 
 - **Akademie a výzkum:** 01 (totalizace supervize), 02 (doktorát jako trojský kůň),
-  03 (pedagogické gaslighting), 05 (znehodnocování expertízy), 28 (akademický filozofický kult),
+  03 (pedagogické [gaslighting](@/glossary/gaslighting.md)), 05 (znehodnocování expertízy), 28 (akademický filozofický kult),
   31–35 (elitní škola, doktorský program, postdok, profesorská moc, laboratoř),
   66–67 (akademická škola a disciplína).
 - **Veřejný prostor a média:** 04 (mediální útok), 45 (celebrita), 70–72 (média, vysílatel,
   vydavatel).
 - **Kulty a skupiny s vysokou kontrolou:** 06 (zotavení po dvanácti letech), 10 (vycházení ze
   sekty), 26–27 (náboženský a sekulární kult), 49–52 (náboženské vedení, spirituální a new age
-  skupiny, pseudověda).
+  skupiny, [pseudověda](@/glossary/pseudoscience.md)).
 - **Rodina a vztahy:** 07 (narcistická rodina), 08 (partnerský gaslighting), 58 (tradwife).
 - **Historické a společenské trauma:** 09 (reziduální totalitární trauma), 60 (masová formace).
 - **Organizace a profese:** 11–12 (firemní kult, kult vůdcovství), 17 (kouč), 36–44

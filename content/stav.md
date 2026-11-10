@@ -3,6 +3,7 @@ title = "Stav knihy"
 description = "Přehled rozsahu a provázanosti kompendia: stránky, slova a odkazy podle oddílů, sirotci a nepřeložené stránky."
 template = "stav.html"
 weight = 902
+
 [taxonomies]
 tags = ["kompendium", "informacni-architektura", "metriky", "navigace"]
 

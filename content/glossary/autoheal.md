@@ -7,7 +7,7 @@ description = "Automatic platform self-repair mechanism for quality regression r
 tags = ["glossary", "evolution", "autoheal", "prismatic"]
 
 [extra]
-category = "evolution"
+category = "architektura platformy"
 related_terms = ["autoevolve", "cascade", "cascade-pattern", "clean-run", "qdp", "self-healing", "supervisor", "circuit-breaker", "fault-tolerance", "let-it-crash", "mix", "dialyzer"]
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -23,15 +23,15 @@ image_alt = "AutoHeal - Prismatic Platform"
 
 ## Definition
 
-AutoHeal is the Prismatic Platform's autonomous self-repair mechanism that detects and resolves quality regressions, broken dependencies, configuration drift, and compilation failures without human intervention. It operates through a five-level intervention hierarchy -- from lightweight baseline establishment through targeted repair to full platform recovery -- applying progressively more aggressive corrective actions as the severity of the detected issue demands. AutoHeal embodies the platform's commitment to [self-healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) capability: the principle that a system should not merely detect its own failures but actively repair them.
+AutoHeal is the Prismatic Platform's autonomous self-repair mechanism that detects and resolves quality regressions, broken dependencies, configuration drift, and compilation failures without human intervention. It operates through a five-level intervention hierarchy — from lightweight baseline establishment through targeted repair to full platform recovery — applying progressively more aggressive corrective actions as the severity of the detected issue demands. AutoHeal embodies the platform's commitment to [self-healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) capability: the principle that a system should not merely detect its own failures but actively repair them.
 
-AutoHeal is conceptually distinct from [AutoEvolve](@/glossary/autoevolve.md), though the two systems work in close coordination. AutoHeal is reactive -- it responds to detected regressions and restores the platform to its known-good state. AutoEvolve is proactive -- it scans for optimization opportunities and advances the platform beyond its current state. Together they form the platform's autonomous quality maintenance system: AutoHeal prevents regression while AutoEvolve drives improvement.
+AutoHeal is conceptually distinct from [AutoEvolve](@/glossary/autoevolve.md), though the two systems work in close coordination. AutoHeal is reactive — it responds to detected regressions and restores the platform to its known-good state. AutoEvolve is proactive — it scans for optimization opportunities and advances the platform beyond its current state. Together they form the platform's autonomous quality maintenance system: AutoHeal prevents regression while AutoEvolve drives improvement.
 
 The system runs at session boundaries (mandatory invocation at session start and end per the Universal Autonomous Evolution Protocol) and on-demand when quality monitoring detects anomalies. Each repair action is validated through quality gates before acceptance, ensuring that fixes do not introduce new problems. A [circuit breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) pattern prevents cascading failures from repeated repair attempts, auto-opening after three consecutive failures and auto-resetting after 60 seconds.
 
 ## The Five Healing Levels
 
-AutoHeal's intervention hierarchy ensures proportional response -- minor issues receive lightweight fixes, while critical failures trigger comprehensive recovery. Each level subsumes the actions of all lower levels.
+AutoHeal's intervention hierarchy ensures proportional response — minor issues receive lightweight fixes, while critical failures trigger comprehensive recovery. Each level subsumes the actions of all lower levels.
 
 ### Level 1: Baseline Establishment
 
@@ -53,7 +53,7 @@ The baseline is stored in the [Quality DNA](https://prismatic-reality-com.github
 
 ### Level 2: Targeted Repair
 
-When a specific regression is detected -- a new compiler warning, a Dialyzer violation, a failing test -- Level 2 applies a targeted fix to the specific issue without disturbing the rest of the platform.
+When a specific regression is detected — a new compiler warning, a Dialyzer violation, a failing test — Level 2 applies a targeted fix to the specific issue without disturbing the rest of the platform.
 
 | Detection | Response |
 |-----------|----------|
@@ -218,24 +218,25 @@ These events integrate with the platform's [observability](https://prismatic-rea
 
 ## Related Terms
 
-- [AutoEvolve](@/glossary/autoevolve.md) -- Complementary proactive improvement system
-- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) -- Quality pattern methodology providing AutoHeal's fix procedures
-- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) -- Specific patterns applied during Level 3 healing
-- [Clean Run](@/glossary/clean-run.md) -- Zero-warning standard that AutoHeal maintains
-- [QDP](@/glossary/qdp.md) -- Quality metric that AutoHeal prevents from accumulating
-- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) -- Architectural principle that AutoHeal implements
-- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) -- Pattern protecting AutoHeal from cascading failures
-- [Fault Tolerance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fault-tolerance/) -- OTP principle underlying AutoHeal's design
-- [Let It Crash](https://prismatic-reality-com.github.io/prismatic-promo/glossary/let-it-crash/) -- Erlang philosophy complementing AutoHeal's approach
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP behavior managing AutoHeal's process lifecycle
-- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) -- Type analysis tool used in repair validation
-- [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/) -- Build tool executing AutoHeal commands
+- [AutoEvolve](@/glossary/autoevolve.md) — Complementary proactive improvement system
+- [CASCADE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade/) — Quality pattern methodology providing AutoHeal's fix procedures
+- [CASCADE Pattern](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cascade-pattern/) — Specific patterns applied during Level 3 healing
+- [Clean Run](@/glossary/clean-run.md) — Zero-warning standard that AutoHeal maintains
+- [QDP](@/glossary/qdp.md) — Quality metric that AutoHeal prevents from accumulating
+- [Self-Healing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/self-healing/) — Architectural principle that AutoHeal implements
+- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) — Pattern protecting AutoHeal from cascading failures
+- [Fault Tolerance](https://prismatic-reality-com.github.io/prismatic-promo/glossary/fault-tolerance/) — OTP principle underlying AutoHeal's design
+- [Let It Crash](https://prismatic-reality-com.github.io/prismatic-promo/glossary/let-it-crash/) — Erlang philosophy complementing AutoHeal's approach
+- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) — OTP behavior managing AutoHeal's process lifecycle
+- [Dialyzer](https://prismatic-reality-com.github.io/prismatic-promo/glossary/dialyzer/) — Type analysis tool used in repair validation
+- [Mix](https://prismatic-reality-com.github.io/prismatic-promo/glossary/mix/) — Build tool executing AutoHeal commands
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform self-healing capabilities
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform self-healing capabilities
+- [Bridge: autoheal](@/kompendium/glossary-bridges/bridge-autoheal.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

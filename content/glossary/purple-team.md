@@ -7,7 +7,7 @@ description = "Central synthesis hub with sole authority for Red-Blue loop closu
 tags = ["glossary", "security", "purple-team", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["color-teams", "red-team", "blue-team", "trinity-gate", "regression-test", "white-team", "black-team", "gray-team"]
 platform_relevance = "critical"
 complexity = "advanced"
@@ -49,13 +49,13 @@ The Prismatic Platform elevates the Purple Team concept beyond human-mediated wo
 
 ## Historical Context and Industry Evolution
 
-The concept of Purple Teaming has its roots in the limitations observed in traditional Red Team / Blue Team engagements. For decades, cybersecurity organizations have conducted periodic Red Team exercises where adversarial specialists attempt to breach defenses, followed by Blue Team analysis of what was missed and how to improve. The fundamental problem with this sequential model is the knowledge transfer gap: Red Teams produce reports, Blue Teams read reports, and the translation from "attack succeeded" to "defense improved" often loses critical nuance.
+The concept of Purple Teaming has its roots in the limitations observed in traditional Red Team / Blue Team engagements. For decades, cybersecurity organizations have conducted periodic Red Team exercises where adversarial specialists attempt to breach defenses, followed by Blue Team analysis of what was missed and how to improve. The fundamental problem with this sequential model is the knowledge transfer gap: Red Teams produce reports, Blue Teams read reports, and the translation from “attack succeeded” to “defense improved” often loses critical nuance.
 
-The term "Purple Team" gained traction around 2015-2016 in the cybersecurity community, initially referring to collaborative exercises where Red and Blue team members work side by side. Organizations like SANS Institute formalized Purple Teaming methodologies, emphasizing real-time feedback between attack execution and defense validation. However, most industry implementations treat Purple Teaming as a periodic activity -- scheduled workshops or quarterly exercises -- rather than a continuous operational function.
+The term “Purple Team” gained traction around 2015-2016 in the cybersecurity community, initially referring to collaborative exercises where Red and Blue team members work side by side. Organizations like SANS Institute formalized Purple Teaming methodologies, emphasizing real-time feedback between attack execution and defense validation. However, most industry implementations treat Purple Teaming as a periodic activity — scheduled workshops or quarterly exercises — rather than a continuous operational function.
 
 The Prismatic Platform's innovation is making the Purple Team a permanent, autonomous agent layer rather than a periodic human activity. Drawing from the platform's AIAD (Autonomous Intelligence Agent Doctrine) framework, the Purple Team agents operate continuously, processing Red Team findings as they arrive, maintaining live bidirectional mappings between attacks and defenses, and enforcing closure conditions that prevent the organizational inertia that typically leads to findings being filed and forgotten.
 
-This approach was influenced by lessons from the aviation safety industry, where the concept of "closing the loop" on safety findings is rigorously enforced through regulatory frameworks like SMS (Safety Management Systems). In aviation, a safety finding cannot be closed until a corrective action has been implemented, verified, and shown to prevent recurrence. The Prismatic Purple Team applies this same rigor to cybersecurity findings through its 4-condition closure model.
+This approach was influenced by lessons from the aviation safety industry, where the concept of “closing the loop” on safety findings is rigorously enforced through regulatory frameworks like SMS (Safety Management Systems). In aviation, a safety finding cannot be closed until a corrective action has been implemented, verified, and shown to prevent recurrence. The Prismatic Purple Team applies this same rigor to cybersecurity findings through its 4-condition closure model.
 
 ## Technical Deep Dive
 
@@ -70,11 +70,11 @@ The Purple Team operates with four agents, each fulfilling a distinct synthesis 
 | `purple-closure-analyst` | L4 Operational Specialist | Closure Evaluation | Evaluates 4-condition closure requirements, detects false closure patterns |
 | `purple-regression-guard` | L4 Safety-Critical | Regression Prevention | Guards against regression traps across deployments, enforces deployment gates |
 
-The `purple-coordinator` holds L3 (Strategic Commander) classification, giving it authority to orchestrate operations across the Purple Team and interact directly with Red Team and Blue Team coordinators. The `purple-regression-guard` carries the "Safety-Critical" designation, meaning its deployment gate decisions cannot be overridden by standard operational authority -- only Supreme-level intervention can bypass a regression guard block.
+The `purple-coordinator` holds L3 (Strategic Commander) classification, giving it authority to orchestrate operations across the Purple Team and interact directly with Red Team and Blue Team coordinators. The `purple-regression-guard` carries the “Safety-Critical” designation, meaning its deployment gate decisions cannot be overridden by standard operational authority — only Supreme-level intervention can bypass a regression guard block.
 
 ### The 4-Condition Closure Model
 
-No security finding can be closed without meeting all four conditions simultaneously. This model prevents the common industry problem of premature closure where organizations mark vulnerabilities as "resolved" without adequate verification.
+No security finding can be closed without meeting all four conditions simultaneously. This model prevents the common industry problem of premature closure where organizations mark vulnerabilities as “resolved” without adequate verification.
 
 1. **Red Confirmation**: The [Red Team](@/glossary/red-team.md) confirms that their original attack vector has been neutralized by the proposed defense. This is not a theoretical assessment but a re-execution of the attack scenario against the patched system. If the Red Team can still achieve the attack objective through the original vector, the finding remains open regardless of Blue Team's assessment.
 
@@ -97,7 +97,7 @@ Gray (boundary seeds) --> Red (adversarial scenarios) --> Purple (synthesis) -->
 
 Purple receives inputs from Red Team findings, Blue Team defensive posture assessments, White Team verification proofs, and [Gray Team](@/glossary/gray-team.md) boundary exploration reports. It produces closure decisions, regression requirements, and deployment gate enforcement actions.
 
-The signal flow is designed to be unidirectional with feedback loops. Red Team findings flow into Purple for synthesis. Purple produces defense requirements that flow to Blue. Blue's implementation evidence flows back to Purple for verification. White Team proofs flow into Purple to satisfy the formal verification closure condition. This circular flow ensures that no finding can be "lost" in the system -- every finding has an explicit state in the closure state machine and every state transition requires evidence.
+The signal flow is designed to be unidirectional with feedback loops. Red Team findings flow into Purple for synthesis. Purple produces defense requirements that flow to Blue. Blue's implementation evidence flows back to Purple for verification. White Team proofs flow into Purple to satisfy the formal verification closure condition. This circular flow ensures that no finding can be “lost” in the system — every finding has an explicit state in the closure state machine and every state transition requires evidence.
 
 ## Architecture and Implementation
 
@@ -368,7 +368,7 @@ A distinctive feature of the Purple Team is its anti-metric enforcement philosop
 | **Time-based expiry** | Finding auto-closed after time threshold | Forbidden -- findings never expire |
 | **Copy-paste closure** | Identical closure justification across findings | Flag for individual review |
 
-The anti-metric philosophy is rooted in the observation that Goodhart's Law ("When a measure becomes a target, it ceases to be a good measure") applies particularly strongly to security metrics. Once organizations measure "finding closure rate," they optimize for closing findings rather than for improving security. The Purple Team's independence from delivery timelines and performance metrics ensures that closure decisions are based solely on evidence.
+The anti-metric philosophy is rooted in the observation that Goodhart's Law (“When a measure becomes a target, it ceases to be a good measure”) applies particularly strongly to security metrics. Once organizations measure “finding closure rate,” they optimize for closing findings rather than for improving security. The Purple Team's independence from delivery timelines and performance metrics ensures that closure decisions are based solely on evidence.
 
 ## False Closure Detection
 
@@ -462,7 +462,7 @@ end
 
 ## Common Pitfalls
 
-- **Confusing Purple Team with joint Red-Blue exercises**: Traditional "purple team exercises" are time-bounded workshops. The Prismatic Purple Team is a permanent, autonomous synthesis layer that operates continuously.
+- **Confusing Purple Team with joint Red-Blue exercises**: Traditional “purple team exercises” are time-bounded workshops. The Prismatic Purple Team is a permanent, autonomous synthesis layer that operates continuously.
 
 - **Treating closure as binary**: Findings exist on a spectrum of resolution. Partial fixes may reduce risk without achieving full closure. The Purple Team tracks partial remediation as risk reduction while keeping the finding open.
 
@@ -474,23 +474,23 @@ end
 
 ## Related Concepts
 
-- [Red Team](@/glossary/red-team.md) -- Adversarial simulation team producing findings for Purple synthesis
-- [Blue Team](@/glossary/blue-team.md) -- Defensive evidence team providing defense posture data
-- [White Team](@/glossary/white-team.md) -- Verification team whose proofs feed into closure decisions
-- [Black Team](@/glossary/black-team.md) -- Theoretical threat modeling informing Purple's risk assessment
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration feeding edge cases to Purple mapping
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all six color team operations
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate complementing Purple closure requirements
-- [Regression Test](@/glossary/regression-test.md) -- Code-level pattern for preventing recurrence
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing Purple Team evidence standards
-- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) -- Immutable record of all closure decisions and evidence
+- [Red Team](@/glossary/red-team.md) — Adversarial simulation team producing findings for Purple synthesis
+- [Blue Team](@/glossary/blue-team.md) — Defensive evidence team providing defense posture data
+- [White Team](@/glossary/white-team.md) — Verification team whose proofs feed into closure decisions
+- [Black Team](@/glossary/black-team.md) — Theoretical threat modeling informing Purple's risk assessment
+- [Gray Team](@/glossary/gray-team.md) — Boundary exploration feeding edge cases to Purple mapping
+- [Color Teams](@/glossary/color-teams.md) — Full overview of all six color team operations
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate complementing Purple closure requirements
+- [Regression Test](@/glossary/regression-test.md) — Code-level pattern for preventing recurrence
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing Purple Team evidence standards
+- [Audit Trail](https://prismatic-reality-com.github.io/prismatic-promo/glossary/audit-trail/) — Immutable record of all closure decisions and evidence
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Purple Team agents
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Application directory
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog including Purple Team agents
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) — Application directory
 
 ---
 

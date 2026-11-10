@@ -8,7 +8,7 @@ description = "Narušení schopnosti reflektovat vlastní myšlení a regulovat 
 tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "kognitivni-anti-rekurzivita", "epistemicka-alienace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -44,14 +44,14 @@ Phenomenologically, metacognitive destruction presents as:
 
 ## Context
 
-Metacognitive destruction is the **most strategically valuable target** for sustained manipulation operations because it disables the subject's primary defense. Most epistemic security strategies — detection of manipulation, calibration of confidence, self-correction over time — depend on functioning metacognition. Damage it, and you damage everything downstream.
+Metacognitive destruction is the **most strategically valuable target** for sustained manipulation operations because it disables the subject's primary defense. Most [epistemic security](@/glossary/epistemic-security.md) strategies — detection of manipulation, calibration of confidence, self-correction over time — depend on functioning metacognition. Damage it, and you damage everything downstream.
 
 Several techniques in the [Kompendium](@/kompendium/_index.md) are documented inducers:
 
 - **EA-1.4.2 Latent Emotional Modulation** when emotional discomfort is specifically associated with metacognitive activity
 - **EA-1.3.3 Thematic Diversion** applied to self-reflective topics
 - **EA-1.1.1 Selective Exposure** combined with diminishing exposure to metacognitive frameworks
-- The "Guru and Adept" pattern when the mentor frames any independent self-reflection as "ego defense" or "spiritual immaturity"
+- The “Guru and Adept” pattern when the mentor frames any independent self-reflection as “ego defense” or “spiritual immaturity”
 
 The condition is closely related to but distinct from [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) — anti-recursivity is specifically about the **recursive structure** of metacognition (thinking about thinking), while metacognitive destruction is about the **functional capacity** as a whole (including non-recursive monitoring, evaluation, and regulation).
 

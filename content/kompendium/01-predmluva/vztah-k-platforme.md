@@ -53,7 +53,7 @@ Tato architektura je **fundamentální inovací** ve vztahu k tradičnímu model
 
 ### Strukturální propojení
 
-Decision Engine implementuje **6-stupňovou pipeline**, která přímo odpovídá analytickým krokům doporučeným kompendiem:
+[Decision Engine](@/glossary/decision-engine.md) implementuje **6-stupňovou pipeline**, která přímo odpovídá analytickým krokům doporučeným kompendiem:
 
 1. **Normalize** — normalizace vstupních dat (analogie k explicitní artikulaci epistemického profilu)
 2. **Signals** — extrakce manipulačních signálů (přímá implementace EA detekčních markerů)
@@ -93,7 +93,7 @@ NABLA Infinity formalizuje to, co kompendium popisuje narativně:
 
 - **Axiomatická vrstva** — explicitní reprezentace epistemických předpokladů
 - **Inferenční pravidla** — formální zachycení argumentačních kroků
-- **Meta-inference** — reprezentace argumentů o argumentech (úroveň, na které operuje epistemická anihilace)
+- **Meta-inference** — reprezentace argumentů o argumentech (úroveň, na které operuje [epistemická anihilace](@/glossary/epistemicka-anihilace.md))
 
 Mnoho technik kompendia **nelze adekvátně popsat** bez meta-inferenčního aparátu. Příklad: technika [imunizace proti falsifikaci (EA-1.3.1)](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) operuje na meta-úrovni — modifikuje pravidla, podle kterých se hodnotí evidence, nikoli evidenci samotnou. NABLA Infinity poskytuje formalismus pro exaktní zachycení tohoto rozdílu.
 
@@ -114,7 +114,7 @@ Výstupem je strukturovaný popis argumentu, který kompendium využívá k **op
 
 ### Role ve vztahu ke kompendiu
 
-OSINT framework slouží třem účelům:
+[OSINT](@/glossary/osint.md) framework slouží třem účelům:
 
 1. **Data pro testování taxonomie** — reálné případy manipulativních operací
 2. **Detekce probíhajících operací** — real-time monitoring suspectní aktivity
@@ -145,9 +145,9 @@ OSINT data umožňují **kalibraci taxonomických tvrzení** proti empirické re
 
 ### Operacionalizace defensivních protokolů
 
-Color Teams **operacionalizují** preventivní a intervenční strategie z kompendia. Každá strategie (např. "epistemická triangulace") má konkrétní implementaci v podobě:
+Color Teams **operacionalizují** preventivní a intervenční strategie z kompendia. Každá strategie (např. „epistemická triangulace“) má konkrétní implementaci v podobě:
 
-- Operačního playbook pro Blue Team
+- Operačního playbook pro [Blue Team](@/glossary/blue-team.md)
 - Detekčních pravidel pro Yellow Team
 - Auditních kontrol pro Green Team
 
@@ -174,7 +174,7 @@ Tento cyklus zajišťuje, že taxonomie **nezaostává za empirickou realitou**.
 DD aplikace taxonomie zahrnuje:
 
 - Detekci manipulativní rétoriky v korporátních prezentacích
-- Identifikaci "narrative inconsistencies" mezi různými zdroji
+- Identifikaci „narrative inconsistencies“ mezi různými zdroji
 - Verifikaci tvrzení proti veřejně dostupným důkazům
 - Forenzní analýzu komunikačních vzorců
 
@@ -182,7 +182,7 @@ Tato doména poskytuje kompendiu **velmi specifické empirické výzvy** — pra
 
 ## Mycelial Intelligence
 
-Mycelial Intelligence je **distribuovaný systém detekce vzorců** napříč případy a doménami. Funguje jako "imunitní systém" platformy:
+Mycelial Intelligence je **distribuovaný systém detekce vzorců** napříč případy a doménami. Funguje jako „imunitní systém“ platformy:
 
 - Identifikuje vzorce, které se opakují napříč zdánlivě nesouvisejícími případy
 - Detekuje koordinované operace skrze cross-reference
@@ -232,7 +232,7 @@ Platformová integrace také vytváří specifické **etické závazky**:
 - **Audit consent** — uživatel souhlasí s logováním pro účely etického dohledu
 - **Sdílení anonymizovaných dat** — výzkumníci jsou povinni přispívat k empirické bázi (anonymizovaně)
 - **Zodpovědnost za detekční pravidla** — uživatelé navrhující pravidla nesou zodpovědnost za jejich kvalitu
-- **Transparentnost ofenzivního výzkumu** — Red Team aktivity musí být transparentně reportovány
+- **Transparentnost ofenzivního výzkumu** — [Red Team](@/glossary/red-team.md) aktivity musí být transparentně reportovány
 
 ## Limitace integrace
 
@@ -263,7 +263,6 @@ Tyto limitace jsou explicitně reportovány v každém Taxonomy Health Report.
 - [Glossary: Color Teams](@/glossary/color-teams.md)
 - [Philosophy: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
 - [Philosophy: Boundary Ethics](@/philosophy/boundary-ethics.md)
-
 
 ## ⚡ Kritický krok
 

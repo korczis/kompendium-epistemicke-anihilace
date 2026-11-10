@@ -54,7 +54,7 @@ Souběžný výskyt neříká nic o směru. Pro EA připadají v úvahu čtyři 
 2. **Porucha → zranitelnost k EA.** Deprese, úzkost nebo psychotická zkušenost oslabují
    důvěru ve vlastní úsudek a zvyšují závislost na autoritě, která slibuje jistotu.
 3. **Společná příčina.** Rané nepříznivé zkušenosti (studie ACE, Felitti a kol., 1998),
-   [betrayal trauma](@/glossary/betrayal-trauma.md) a sociální izolace zvyšují riziko obojího.
+   [betrayal trauma](@/glossary/betrayal-trauma.md) a [sociální izolace](@/glossary/socialni-izolace.md) zvyšují riziko obojího.
 4. **Součást mechanismu.** Některé vzorce přímo využívají existující poruchu – například
    zpochybňování vnímání u člověka s anamnézou psychiatrické léčby („tobě se to zdá, jsi
    přece nemocný“).

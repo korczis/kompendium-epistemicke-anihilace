@@ -7,7 +7,7 @@ description = "Central catalog of all 530+ AIAD agents with capabilities and aut
 tags = ["glossary", "agents", "agent-registry", "prismatic"]
 
 [extra]
-category = "agents"
+category = "architektura platformy"
 related_terms = ["aiad", "agent-tier", "archer-supreme", "supreme-commander", "blackboard", "color-teams", "agent", "consciousness-traits", "nabla-infinity", "supervisor", "process-isolation", "epistemic-pipeline", "mix", "autoevolve", "autoheal"]
 total_agents = "530+"
 static_agents = "500+"
@@ -40,7 +40,7 @@ image_alt = "Agent Registry - Prismatic Platform"
 
 The Agent Registry is the centralized, authoritative catalog that indexes all AIAD-compliant agents within the Prismatic Platform. It records each agent's call sign, authority tier, domain specialization, capabilities, operational status, and inter-agent dependencies. Maintained in `.claude/AGENT_REGISTRY.md` and auto-indexed by the AIAD toolchain via `./.aiad/bin/aiad index`, the registry serves as the single source of truth for agent discovery, governance, and coordination across the entire platform ecosystem.
 
-The registry is not a passive directory. It actively enforces agent governance by preventing duplicate definitions, validating tier assignments against the [Agent Tier](@/glossary/agent-tier.md) specification, and ensuring that every agent in the platform has a well-defined specification file. When an [agent](@/glossary/agent.md) is deployed, the runtime validates its identity against the registry. Unregistered agents cannot operate within the platform -- this constraint prevents rogue or unauthorized agents from accessing platform resources.
+The registry is not a passive directory. It actively enforces agent governance by preventing duplicate definitions, validating tier assignments against the [Agent Tier](@/glossary/agent-tier.md) specification, and ensuring that every agent in the platform has a well-defined specification file. When an [agent](@/glossary/agent.md) is deployed, the runtime validates its identity against the registry. Unregistered agents cannot operate within the platform — this constraint prevents rogue or unauthorized agents from accessing platform resources.
 
 The design philosophy behind the Agent Registry is discoverability at scale. With 500+ statically defined agents and approximately 30 additional runtime-generated agents (530+ total), the platform requires a reliable mechanism for agents to locate collaborators, for commanders to identify available specialists, and for governance systems to audit the complete agent population. The registry provides this mechanism through structured indexing, domain classification, and tier-based querying.
 
@@ -115,7 +115,7 @@ end
 
 ## Auto-Indexing System
 
-The registry is maintained through an automated indexing process that scans the `.aiad/agents/` directory for all `.agent.md` specification files and regenerates the registry from their contents. This auto-indexing ensures that the registry is always consistent with the actual agent definitions -- manual registry edits are overwritten on the next index run.
+The registry is maintained through an automated indexing process that scans the `.aiad/agents/` directory for all `.agent.md` specification files and regenerates the registry from their contents. This auto-indexing ensures that the registry is always consistent with the actual agent definitions — manual registry edits are overwritten on the next index run.
 
 ```bash
 # Trigger auto-indexing of all agent specifications
@@ -195,7 +195,7 @@ Agents are classified across 16 operational domains, each representing a distinc
 | **API** | ~10 | API gateway, endpoint discovery, OpenAPI | API scanner, spec generator |
 | **Ecosystem** | ~15 | OSS packages, developer portal, community | SDK architect, plugin coordinator |
 
-Domain classification is not exclusive -- some agents operate across multiple domains and are listed under their primary domain with cross-references to secondary domains. The registry supports domain-based querying, enabling L3+ agents to locate available specialists within specific operational areas.
+Domain classification is not exclusive — some agents operate across multiple domains and are listed under their primary domain with cross-references to secondary domains. The registry supports domain-based querying, enabling L3+ agents to locate available specialists within specific operational areas.
 
 ## Agent Tier Distribution
 
@@ -291,7 +291,7 @@ end
 
 ## Runtime Extension
 
-Beyond the 500+ statically defined agents, the platform generates approximately 30 additional agents at runtime. These runtime agents are created dynamically in response to platform conditions -- for example, when a new umbrella application is added and requires a dedicated quality monitoring agent, or when a specific investigation requires a temporary specialist agent.
+Beyond the 500+ statically defined agents, the platform generates approximately 30 additional agents at runtime. These runtime agents are created dynamically in response to platform conditions — for example, when a new umbrella application is added and requires a dedicated quality monitoring agent, or when a specific investigation requires a temporary specialist agent.
 
 Runtime agents are registered in the same registry as static agents, with an additional `runtime: true` flag distinguishing them. They follow the same [Agent Tier](@/glossary/agent-tier.md) classification, domain assignment, and capability specification as static agents. The key difference is lifecycle: static agents persist across platform restarts, while runtime agents are recreated as needed by their parent [supervisors](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/).
 
@@ -367,25 +367,26 @@ The Agent Registry integrates with several core platform systems:
 
 ## Related Terms
 
-- [AIAD](@/glossary/aiad.md) -- The agent definition standard governing all registered agents
-- [Agent](@/glossary/agent.md) -- Core concept of autonomous operational units tracked by the registry
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 authority classification indexed in the registry
-- [Archer Supreme](@/glossary/archer-supreme.md) -- L5 Supreme authority agent registered in the catalog
-- [Supreme Commander](@/glossary/supreme-commander.md) -- L5 agent using the registry for cross-domain coordination
-- [Color Teams](@/glossary/color-teams.md) -- 20 security agents registered across 6 teams
-- [Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/) -- Shared knowledge store using registry for agent discovery
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Traits tracked per agent in the registry
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing registered agent behavior
-- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) -- OTP supervision managing registered agent processes
-- [AutoEvolve](@/glossary/autoevolve.md) -- Evolution system monitoring registry consistency
-- [AutoHeal](@/glossary/autoheal.md) -- Self-repair system using registry for agent health checks
+- [AIAD](@/glossary/aiad.md) — The agent definition standard governing all registered agents
+- [Agent](@/glossary/agent.md) — Core concept of autonomous operational units tracked by the registry
+- [Agent Tier](@/glossary/agent-tier.md) — L1-L5 authority classification indexed in the registry
+- [Archer Supreme](@/glossary/archer-supreme.md) — L5 Supreme authority agent registered in the catalog
+- [Supreme Commander](@/glossary/supreme-commander.md) — L5 agent using the registry for cross-domain coordination
+- [Color Teams](@/glossary/color-teams.md) — 20 security agents registered across 6 teams
+- [Blackboard](https://prismatic-reality-com.github.io/prismatic-promo/glossary/blackboard/) — Shared knowledge store using registry for agent discovery
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) — Traits tracked per agent in the registry
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing registered agent behavior
+- [Supervisor](https://prismatic-reality-com.github.io/prismatic-promo/glossary/supervisor/) — OTP supervision managing registered agent processes
+- [AutoEvolve](@/glossary/autoevolve.md) — Evolution system monitoring registry consistency
+- [AutoHeal](@/glossary/autoheal.md) — Self-repair system using registry for agent health checks
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform capability catalog
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Bridge: agent-registry](@/kompendium/glossary-bridges/bridge-agent-registry.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

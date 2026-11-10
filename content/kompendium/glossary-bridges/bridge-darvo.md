@@ -32,11 +32,11 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 06 — Coercive control taktiky**: DARVO jako defenzivní mechanismus pachatele
-- **Sekce 07 — Betrayal trauma theory**: Freyd & Birrell 2013, institucionální DARVO
-- **Sekce 08 — Gaslighting overlap**: DARVO jako akutní gaslighting
+- **Sekce 06 — [Coercive control](@/glossary/coercive-control.md) taktiky**: DARVO jako defenzivní mechanismus pachatele
+- **Sekce 07 — [Betrayal trauma](@/glossary/betrayal-trauma.md) theory**: Freyd & Birrell 2013, institucionální DARVO
+- **Sekce 08 — [Gaslighting](@/glossary/gaslighting.md) overlap**: DARVO jako akutní gaslighting
 - **Sekce 09 — Aplikace v DD**: DARVO jako red flag v CEO interview, whistleblower retaliation
-- **Per-technique články**: DARVO detection patterns, expert witness testimony
+- **Per-technique články**: DARVO detection patterns, [expert witness](@/glossary/expert-witness.md) testimony
 
 Bridge slouzi jako navigacni kotva mezi temito clanky a kanonickou definici v glossary; cross-linking je obousmerny.
 

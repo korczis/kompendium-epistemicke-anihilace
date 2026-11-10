@@ -26,19 +26,19 @@ toc = false
 
 ## Detekční markery (3 nejvýraznější)
 
-- Subjekt souhlasí, aniž obsahově plně rozumí — "znělo to přesvědčivě"
+- Subjekt souhlasí, aniž obsahově plně rozumí — „znělo to přesvědčivě“
 - Disproporce mezi obsahovou jistotou (jaká data, jaké studie?) a hlasovou jistotou
 - Posun v vlastní prosodii — mluvčí v reakci na autoritu zrychluje, zvyšuje hlas, používá tázací intonace u tvrzení
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Převod do písemné formy — text odstraňuje prosodickou vrstvu; argumenty se hodnotí podle obsahu
-- Audio-blind read — necitlivé zdroje (transkript) hodnotí stejné argumenty bez hlasu pro porovnání s "živým" dojmem
+- Audio-blind read — necitlivé zdroje (transkript) hodnotí stejné argumenty bez hlasu pro porovnání s „živým“ dojmem
 - Trénink vlastní prosodie — pomalé tempo, declarative cadence, vědomé pauzy; vyrovnává asymetrii v reálném čase
 
 ## Příklad
 
-Senior partner v M&A meetingu prezentuje slaboargumentovaný návrh nízkým, pomalým hlasem s dlouhými pauzami. Junior s lepšími daty, ale rychlým, vyšším hlasem působí "nejistě". Board hlasuje pro seniora. Transkript ex-post jasně ukazuje, že obsahově byl junior superiorní.
+Senior partner v M&A meetingu prezentuje slaboargumentovaný návrh nízkým, pomalým hlasem s dlouhými pauzami. Junior s lepšími daty, ale rychlým, vyšším hlasem působí „nejistě“. Board hlasuje pro seniora. Transkript ex-post jasně ukazuje, že obsahově byl junior superiorní.
 
 ## Cross-linky
 

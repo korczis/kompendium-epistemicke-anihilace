@@ -18,7 +18,7 @@ toc = true
 
 ## Klinická pozice
 
-[Self-report](@/glossary/self-report.md) instrumenty mají v diagnostice [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **paradoxní postavení**: pacient s pokročilou EA má **narušenou metakognici** (klastr A v [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)), což je přesně schopnost, která self-reporting umožňuje. Klinik proto musí self-report **interpretovat s vědomím** této strukturální omezenosti — nejen číst "co pacient říká", ale modelovat "co je pacient schopen vidět".
+[Self-report](@/glossary/self-report.md) instrumenty mají v diagnostice [epistemické anihilace](@/glossary/epistemicka-anihilace.md) (EA) **paradoxní postavení**: pacient s pokročilou EA má **narušenou metakognici** (klastr A v [6.1](@/kompendium/06-klinicke-aplikace/diagnosticke-indikatory.md)), což je přesně schopnost, která self-reporting umožňuje. Klinik proto musí self-report **interpretovat s vědomím** této strukturální omezenosti — nejen číst „co pacient říká“, ale modelovat „co je pacient schopen vidět“.
 
 ## Kategorie self-report instrumentů
 
@@ -39,6 +39,7 @@ Tento článek se soustředí na vrstvy 2 a 3, které poskytují **dynamický** 
 **Formát**: 7–14 dní, 3 záznamy denně (ráno / odpoledne / večer), každý 3–5 minut.
 
 **Strukturované otázky**:
+
 1. Jaké informace dnes ovlivnily mé rozhodování?
 2. Z jakých zdrojů pocházely (jméno, ne kategorie)?
 3. Cítil/a jsem nejistotu — kdy a v čem?
@@ -54,15 +55,16 @@ Tento článek se soustředí na vrstvy 2 a 3, které poskytují **dynamický** 
 **Formát**: 1–3 eseje, 800–1500 slov, témata zadaná klinikem.
 
 **Příklady témat**:
-- "Popište okamžik, kdy jste si poprvé řekl/a: nejsem si jistý/á svou pamětí."
-- "Popište osobu, jejíž souhlas dnes nejvíc potřebujete. Co by se stalo, kdyby ten souhlas zmizel?"
-- "Popište okamžik, kdy jste obhajoval/a něco, čemu jste sám/sama nevěřil/a. Jak jste se cítil/a?"
 
-**Analýza**: klinik kóduje (a) konkrétnost vs. abstrakce, (b) emocionální obsah, (c) přítomnost druhořádové reflexe ("věděl/a jsem, že...") vs. její absence.
+- „Popište okamžik, kdy jste si poprvé řekl/a: nejsem si jistý/á svou pamětí.“
+- „Popište osobu, jejíž souhlas dnes nejvíc potřebujete. Co by se stalo, kdyby ten souhlas zmizel?“
+- „Popište okamžik, kdy jste obhajoval/a něco, čemu jste sám/sama nevěřil/a. Jak jste se cítil/a?“
+
+**Analýza**: klinik kóduje (a) konkrétnost vs. abstrakce, (b) emocionální obsah, (c) přítomnost druhořádové reflexe („věděl/a jsem, že…“) vs. její absence.
 
 ## Ekologická momentní asesment (EMA)
 
-EMA je **gold-standard** pro detekci dynamiky EA — protože EA se projevuje ne v "průměrné" zkušenosti, ale v **kontextové vázanosti** (jiná zkušenost s in-group osobou, jiná o samotě).
+EMA je **gold-standard** pro detekci dynamiky EA — protože EA se projevuje ne v „průměrné“ zkušenosti, ale v **kontextové vázanosti** (jiná zkušenost s in-group osobou, jiná o samotě).
 
 ### EMA-EA protokol
 
@@ -71,6 +73,7 @@ EMA je **gold-standard** pro detekci dynamiky EA — protože EA se projevuje ne
 **Frekvence**: 4× denně po 7–14 dní, polo-pevné rozvrhy s ±60 min náhodnou variaci.
 
 **Otázky** (krátké, 60 s na zodpovězení):
+
 1. S kým jsem v kontaktu právě teď? (in-group / out-group / sám)
 2. Jak jistý/á jsem si svým úsudkem ohledně dnešního důležitého rozhodnutí? (0–10)
 3. Jak silně cítím tlak být s někým ve shodě? (0–10)
@@ -82,9 +85,10 @@ EMA je **gold-standard** pro detekci dynamiky EA — protože EA se projevuje ne
 ### Vizualizace EMA dat
 
 Klinik a pacient společně prohlížejí časové řady — zejména:
+
 - Korelace mezi přítomností konkrétní osoby a poklesem self-confidence;
 - Cyklické vzorce (např. nejistota vrcholí po setkáních se skupinou);
-- Diskrepance mezi self-report v ordinaci ("cítím se v pohodě") a EMA daty ("těsně po setkání skóre 2/10").
+- Diskrepance mezi self-report v ordinaci („cítím se v pohodě“) a EMA daty („těsně po setkání skóre 2/10“).
 
 ## Self-report a metakognitivní destrukce
 
@@ -92,7 +96,7 @@ Specifická obtíž EA self-reportu: pacient s pokročilou [metakognitivní dest
 
 1. **Pre/post srovnání** — pacient hodnotí situaci až s odstupem (1 týden, 1 měsíc), kdy je distance umožní reflektovat;
 2. **Trojí self-report** — pacient vyjadřuje (a) jak se cítí teď, (b) jak by se cítila *blízká přítelkyně* na jeho místě, (c) jak by to popsal *cizinec*. Diskrepance mezi (a) a (b)/(c) odhalí blokovanou reflexi;
-3. **Externí kotvení** — pacient přepisuje (transkribuje) svůj vlastní záznam z EMA z minulého týdne — čte vlastní slova jako "cizí text" a komentuje je.
+3. **Externí kotvení** — pacient přepisuje (transkribuje) svůj vlastní záznam z EMA z minulého týdne — čte vlastní slova jako „cizí text“ a komentuje je.
 
 ## Klinická interpretace self-reportu
 

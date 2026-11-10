@@ -95,7 +95,7 @@ mistr zakazoval, ukázala, že jeho „jediná pravá“ interpretace je jednou 
   mapa vztahů a rozhodnutí, která převzal mistr.
 - **S2 – Externalizace introjektů:** mistrovy fráze sepsány a přeloženy do běžné řeči; rozlišení
   mezi myšlenkou a formou, kterou byla vnucena.
-- **S3 – Rekonstrukce metakognice:** [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** [hluboké čtení](@/kompendium/self-defense-guides/35-deep-reading-practice.md)
   autorů různých směrů a [pluralita paradigmat](@/kompendium/self-defense-guides/6-paradigm-pluralism.md).
 - **S4 – Hermeneutická obnova:** návrat k vlastním výzkumným otázkám; nový školitel s explicitně
   pluralitní metodologií.

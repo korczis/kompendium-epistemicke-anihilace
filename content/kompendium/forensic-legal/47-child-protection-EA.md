@@ -2,9 +2,11 @@
 title = "Ochrana deti"
 description = "Forenzni a pravni rozmer EA — ochrana deti."
 weight = 47
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "specialized-law"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["45-disability-law-EA", "46-elder-abuse-law", "48-religious-exemption-EA", "49-trafficking-law-EA"]
 parent = "kompendium-forensic-legal"
@@ -15,7 +17,7 @@ toc = true
 
 ## Pravni / forenzni kontext
 
-EA vuci detem (parental alienation, coercive parenting, ritualistic abuse) vyzaduje CPS koordinaci a specializovaneho znalce. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
+EA vuci detem ([parental alienation](@/glossary/parental-alienation.md), coercive parenting, ritualistic abuse) vyzaduje CPS koordinaci a specializovaneho znalce. V kontextu epistemic abuse (EA) tato oblast propojuje klinickou
 psychologii s pravnimi standardy dokazovani, kde pattern coercive control
 musi byt prelozen do soudni-akceptovatelne formy. Standardni adversarialni
 proces neni navrzen pro dynamiku post-separation abuse ani pro postupne
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

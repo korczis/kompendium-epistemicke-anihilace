@@ -8,7 +8,7 @@ description = "Systematická tendence vyhledávat, interpretovat a pamatovat si 
 tags = ["glossary", "epistemic", "cognitive", "kompendium"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["kognitivni-bias", "epistemicka-anihilace", "taxonomie-ea", "metakognice", "falsifikace", "kognitivni-anti-rekurzivita"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -31,7 +31,7 @@ Within the [Kompendium epistemické a kognitivní anihilace](@/kompendium/_index
 - **EA-1.1.1 (Selective exposure)** — directly exploits acquisition-stage confirmation bias: the target self-administers a curated information diet because disconfirming sources feel cognitively aversive.
 - **EA-1.1.2 (Saturation tactics)** — exploits availability + confirmation: vivid confirming exemplars are easily retrieved, disconfirming statistics are not.
 - **EA-1.1.3 (Echo chamber engineering)** — engineers the social environment so that even casual cross-checking returns confirming results, removing the natural correction that diverse social networks normally provide.
-- **EA-1.3.1 (Immunization against falsification)** — installs cognitive moves ("they would say that, wouldn't they") that route disconfirming evidence as further confirmation.
+- **EA-1.3.1 (Immunization against falsification)** — installs cognitive moves (“they would say that, wouldn't they”) that route disconfirming evidence as further confirmation.
 
 The kompendium's diagnostic principle: confirmation bias is **universal** and **incurable at the individual level**. Defense requires structural rather than psychological measures — pre-committed exposure to disconfirmation, calibration scoring, and external review.
 
@@ -42,9 +42,9 @@ Within the Prismatic Platform, confirmation bias is treated as a **first-class s
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks **source diversity** in its information graph: a decision based on a low-diversity source set receives a confidence penalty regardless of internal coherence. High coherence + low diversity is a confirmation-bias signature, not a strength.
 - The platform's {{ <cross_link path="/hub/dd/decisions/calibration" text="calibration loop" /> }} compares predicted vs. realized outcomes specifically to detect the systematic over-confidence that confirmation bias produces. A subject whose confirming predictions outperform their disconfirming predictions is showing signature bias even without content-level analysis.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) implements **mandatory disconfirmation queries**: any high-confidence belief must be paired with an explicit list of sources that would disconfirm it; absence of such sources is itself an alarm.
-- The [Color Teams](@/glossary/color-teams.md) Red Team builds adversarial information environments to validate that platform-level diversity checks survive deliberate gaming. Czech-language treatment of confirmation bias in EA context: [/kompendium/04-mechanismy/biasy/konfirmacni/](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md).
+- The [Color Teams](@/glossary/color-teams.md) [Red Team](@/glossary/red-team.md) builds adversarial information environments to validate that platform-level diversity checks survive deliberate gaming. Czech-language treatment of confirmation bias in EA context: [/kompendium/04-mechanismy/biasy/konfirmacni/](@/kompendium/03-zakladni-kategorie/biasy/konfirmacni.md).
 
-The principled defense, drawn from [falsifikace](@/glossary/falsifikace.md) (Popper) and [Lakatosian research programmes](@/glossary/lakatos-vyzkumny-program.md), is to **prefer falsification attempts over confirmation searches**. A finding that a belief survives a serious attempt to refute it is epistemically heavier than ten confirming examples. The platform UX exposes this asymmetry: disconfirmation entries weigh more in the Decision Engine's scoring than confirmation entries of equal source quality, mirroring the underlying probability theory (P(E|H) is weak; P(¬E|¬H) is strong when E was a genuine prediction).
+The principled defense, drawn from [falsifikace](@/glossary/falsifikace.md) (Popper) and [Lakatosian research programmes](@/glossary/lakatos-vyzkumny-program.md), is to **prefer falsification attempts over confirmation searches**. A finding that a belief survives a serious attempt to refute it is epistemically heavier than ten confirming examples. The platform UX exposes this asymmetry: disconfirmation entries weigh more in the [Decision Engine](@/glossary/decision-engine.md)'s scoring than confirmation entries of equal source quality, mirroring the underlying probability theory (P(E|H) is weak; P(¬E|¬H) is strong when E was a genuine prediction).
 
 ## See Also
 

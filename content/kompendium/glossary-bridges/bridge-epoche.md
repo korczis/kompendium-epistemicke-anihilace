@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Epoché (řecky: zdržení se, suspension) je metodologický akt fenomenologie (Edmund Husserl) — záměrné odložení (bracketing) přirozeného postoje, předpokladů a teoretických konstrukcí za účelem zkoumání čistého jevu (fenoménu) v jeho vlastní danosti. Centrální technika fenomenologické redukce.
+Epoché (řecky: zdržení se, suspension) je metodologický akt [fenomenologie](@/glossary/fenomenologie.md) (Edmund Husserl) — záměrné odložení (bracketing) přirozeného postoje, předpokladů a teoretických konstrukcí za účelem zkoumání čistého jevu (fenoménu) v jeho vlastní danosti. Centrální technika fenomenologické redukce.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 

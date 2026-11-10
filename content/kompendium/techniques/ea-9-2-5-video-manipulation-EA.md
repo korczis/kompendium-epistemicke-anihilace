@@ -39,7 +39,7 @@ Tato technika patří mezi **současné digitální epistemické agrese** katego
 
 ## 2. Definice
 
-Frame-level AI modifikace videa (style transfer, inpainting, deepfake objects) pro selektivní zkreslení reality bez full deepfake reproduction.
+Frame-level AI modifikace videa (style transfer, inpainting, [deepfake](@/glossary/deepfake.md) objects) pro selektivní zkreslení reality bez full deepfake reproduction.
 
 V kontextu Prismatic doktríny je Video Manipulation EA klasifikováno jako **L2** ohrožení epistemické infrastruktury — narušuje primární zdroj-tvrzení-rozhodnutí pipeline a vyžaduje multimodální detekci (technickou, behaviorální, kontextovou). Tato technika se odlišuje od ostatních EA-9.2.* operací svou specifickou doménou, mechanismem nasazení a forensickým otiskem.
 
@@ -118,9 +118,9 @@ Tato technika **interaguje** s následujícími EA-* kategoriemi:
 
 Prismatic Platform implementuje detekci a neutralizaci Video Manipulation EA přes následující komponenty:
 
-- **`prismatic_nabla`** — Nabla Infinity epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
-- **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — Decision engine s Brier scoring, calibration tracking a evidence-based scoring (NCLB doctrine)
+- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
+- **`prismatic_osint_*`** — 128+ [OSINT](@/glossary/osint.md) adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
+- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a evidence-based scoring (NCLB doctrine)
 - **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
 - **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
 - **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits

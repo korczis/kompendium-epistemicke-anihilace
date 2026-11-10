@@ -98,7 +98,7 @@ a [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation
 - **Politický názor a nedůvěra k institucím.** Kritika vlády či médií je legitimní; vzorec
   se liší uzavřeností vůči evidenci, apokalyptickým očekáváním a ztrátou vztahů.
 - **Bludná porucha a psychóza.** Přesvědčení bylo sdílené, naučené ze skupiny a mimo téma
-  zůstávalo testování reality zachováno ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
+  zůstávalo [testování reality](@/glossary/reality-testing.md) zachováno ([EA vs. psychóza](@/kompendium/06-klinicke-aplikace/dd-ea-psychoza/_index.md)).
   U starších klientů je přesto nutné vyloučit organickou příčinu a začínající kognitivní
   poruchu.
 - **Komplikovaný zármutek a deprese.** Byly přítomny a podstatné; léčba deprese byla
@@ -110,7 +110,7 @@ a [akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation
 
 Léčba proběhla v pěti fázích. Terapeutické jádro tvořil [protokol epistemické
 rekonstrukce](@/kompendium/06-klinicke-aplikace/epistemicka-rekonstrukce.md) se stupni S1 validace a
-mapování, S2 externalizace introjektů, S3 rekonstrukce metakognice, S4 hermeneutická obnova, S5
+mapování, S2 externalizace introjektů, S3 rekonstrukce [metakognice](@/glossary/metakognice.md), S4 hermeneutická obnova, S5
 konsolidace a transfer; fáze níže ukazují, jak byl zasazen do celého plánu:
 
 - **Fáze 1 – Stabilizace:** léčba deprese, [posouzení suicidálního rizika](@/kompendium/emergency-protocols/2-suicide-risk-EA.md),

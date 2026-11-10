@@ -22,7 +22,7 @@ Bernard Williams (1929–2003) v posmrtně dokončené knize *Truth and Truthful
 - **Accuracy** (přesnost) — schopnost a ochota **získat pravdivé informace**
 - **Sincerity** (upřímnost) — schopnost a ochota **sdělovat to, co subjekt skutečně věří**
 
-Pro kompendium EA poskytuje Williamsova analýza **strukturální popis** toho, co EA techniky strukturálně **podkopávají**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Williamsova analýza **strukturální popis** toho, co EA techniky strukturálně **podkopávají**.
 
 ## 1. Dvě ctnosti pravdy
 
@@ -69,7 +69,7 @@ Pro EA má toto rozlišení **diagnostickou hodnotu**:
 
 - **Mnohé EA techniky operují na úrovni manipulace, nikoli explicitní lži**: subjekt může být **strukturálně oklamán**, aniž by mu byly **explicitně** sděleny **nepravdivé propozice**.
 - **Algoritmická manipulace**: digital platforms strukturálně manipulují, aniž by **explicitně** lhaly — manipulace operuje skrze **rámcování**, **prezentaci**, **selektivní expozici**.
-- **Klinický korelát**: subjekt vystaven manipulaci **bez explicitní lži** často nemá **slovník** pro popis svého traumatu — strukturální gaslighting.
+- **Klinický korelát**: subjekt vystaven manipulaci **bez explicitní lži** často nemá **slovník** pro popis svého traumatu — strukturální [gaslighting](@/glossary/gaslighting.md).
 
 ## 4. Politika pravdy
 

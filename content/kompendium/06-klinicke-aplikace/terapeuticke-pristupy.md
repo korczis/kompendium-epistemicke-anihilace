@@ -65,7 +65,7 @@ Terapeutická intervence stojí na třech vzájemně provázaných pilířích:
 Adaptovaný TF-CBT pro klienty po EA zahrnuje:
 
 - **Psychoedukaci** rozšířenou o epistemickou složku;
-- **Kognitivní zpracování** s důrazem na rekonstrukci, nikoliv "korekci" myšlení;
+- **Kognitivní zpracování** s důrazem na rekonstrukci, nikoliv „korekci“ myšlení;
 - **Imaginativní expozici** s rozšířením o **epistemické momenty** (ne jen fyzické trauma);
 - **Vytvoření trauma-narativy** s integrací epistemické dimenze.
 
@@ -91,7 +91,7 @@ EA často vede k **somatickým rezervoárům** trauma — chronickému napětí,
 
 IFS je obzvláště užitečný u klientů s pokročilou EA, protože pracuje s **vnitřními částmi**, z nichž některé byly **manipulátorem koloniizovány** (introjekty). Práce s těmito částmi umožňuje:
 
-- Identifikaci introjektů jako "ne-self" elementů;
+- Identifikaci introjektů jako „ne-self“ elementů;
 - Postupnou diferenciaci klienta od introjektů;
 - Obnovu kontaktu s autentickým **Self**.
 
@@ -109,9 +109,10 @@ Cílem je obnova **koherentní self-narrativy**:
 - Vytvoření **post-traumatické narrativy** s integrovanou zkušeností.
 
 **Klíčové techniky**:
-- "Chronologie života" — strukturovaný walkthrough biografií;
-- "Externalizace" — narativní technika oddělení problému od osoby;
-- "Re-authoring" (M. White) — autorství vlastní příběhu.
+
+- „Chronologie života“ — strukturovaný walkthrough biografií;
+- „Externalizace“ — narativní technika oddělení problému od osoby;
+- „Re-authoring“ (M. White) — autorství vlastní příběhu.
 
 ### Dialogická validace
 
@@ -222,7 +223,6 @@ Empirická evidence pro EA-specifické intervence je **omezená** (mladá discip
 - [Glossary: Hermeneutika](@/glossary/hermeneutika.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Gaslighting](@/glossary/gaslighting.md)
-
 
 ## ⚡ Kritický krok
 

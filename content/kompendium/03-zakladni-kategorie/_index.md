@@ -43,7 +43,6 @@ Každá zaznamenaná technika má **samostatný hloubkový článek** v [techniq
 - [Techniques index](@/kompendium/techniques/_index.md)
 - [Předchozí sekce: Úvod](@/kompendium/02-uvod/_index.md)
 
-
 ## ⚡ Kritický krok
 
 **Vyber si jednu konkrétní techniku z této kategorie**, kterou jsi za

@@ -8,7 +8,7 @@ description = "Systematický proces zbavování osob, institucí, zdrojů nebo p
 tags = ["glossary", "epistemic", "kompendium", "delegitimizace"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "epistemicka-alienace", "kognitivni-anihilace", "taxonomie-ea", "gaslighting", "epistemicke-trauma"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -35,11 +35,11 @@ Delegitimization operates at three nested levels: **personal** (specific individ
 Within the Prismatic Platform, delegitimization is tracked as a **distinct threat signal** separate from ordinary information conflict:
 
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} flags decisions whose information graph shows source-reputation collapse for previously high-confidence inputs — a pattern characteristic of active delegitimization rather than normal evidence revision.
-- The [Color Teams](@/glossary/color-teams.md) Red Team simulates delegitimization campaigns against platform-internal authority structures (compliance officers, audit logs, calibration data) to verify that no single delegitimization vector can blind the operator.
+- The [Color Teams](@/glossary/color-teams.md) [Red Team](@/glossary/red-team.md) simulates delegitimization campaigns against platform-internal authority structures (compliance officers, audit logs, calibration data) to verify that no single delegitimization vector can blind the operator.
 - [NABLA Infinity](@/glossary/nabla-infinity.md) maintains **independent provenance ledgers** so that even if a particular source is delegitimized, the historical record of when it agreed with other sources remains queryable — preventing retroactive rewriting of trust relationships.
-- Czech-language treatment of common patterns (preemptive delegitimization, ad-hominem cascades, "everyone is corrupt" sweeps) is at [/kompendium/03-taxonomie/delegitimizace/](@/kompendium/03-zakladni-kategorie/delegitimizace.md) and feeds directly into [taxonomie EA](@/glossary/taxonomie-ea.md) at codes EA-2.x.
+- Czech-language treatment of common patterns (preemptive delegitimization, ad-hominem cascades, “everyone is corrupt” sweeps) is at [/kompendium/03-taxonomie/delegitimizace/](@/kompendium/03-zakladni-kategorie/delegitimizace.md) and feeds directly into [taxonomie EA](@/glossary/taxonomie-ea.md) at codes EA-2.x.
 
-Common patterns include **preemptive framing** (delegitimizing a likely future critic *before* they speak), **selective skepticism** (extreme epistemic standards applied only to disfavored sources), **whataboutism cascades** (any critique becomes evidence of the critic's bias), and **terminal moves** ("nobody can be trusted on this"). The terminal move is diagnostic: when a subject reports that *no* source remains trustworthy, [epistemická alienace](@/glossary/epistemicka-alienace.md) is typically advanced.
+Common patterns include **preemptive framing** (delegitimizing a likely future critic *before* they speak), **selective skepticism** (extreme epistemic standards applied only to disfavored sources), **whataboutism cascades** (any critique becomes evidence of the critic's bias), and **terminal moves** (“nobody can be trusted on this”). The terminal move is diagnostic: when a subject reports that *no* source remains trustworthy, [epistemická alienace](@/glossary/epistemicka-alienace.md) is typically advanced.
 
 Delegitimization is **legitimate** when targeted authorities are in fact unreliable — the technique is dual-use. The diagnostic distinction is whether the delegitimization is **selective** (favoring a particular alternative narrative) or **principled** (applying consistent standards). Selective delegitimization that systematically clears the field for a single replacement narrative is the manipulative form.
 

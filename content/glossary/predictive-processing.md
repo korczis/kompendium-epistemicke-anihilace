@@ -8,7 +8,7 @@ description = "Friston/Clark's predictive coding framework: cognition as hierarc
 tags = ["glossary", "epistemic", "kompendium", "cognitive-science"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "nabla-infinity", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -40,9 +40,9 @@ Predictive processing supplies the **mechanistic substrate** that makes epistemi
 
 - **EA-1.1.x cognitive-input techniques** (selective exposure, information overload, source poisoning) operate by **starving or saturating** the prediction-error signal — denying the priors the corrective evidence they need to update.
 - **EA-1.3.x immunization techniques** function by **artificially raising prior precision** so that no incoming evidence can shift them. The victim's belief becomes Bayesian-immune by design.
-- **Gaslighting** (a paradigmatic technique catalogued throughout the kompendium) is precisely **adversarial precision manipulation** of the victim's interoceptive and self-monitoring channels — the victim cannot trust their own perceptions because the precision-weighting of self-generated signal has been collapsed.
+- **[Gaslighting](@/glossary/gaslighting.md)** (a paradigmatic technique catalogued throughout the kompendium) is precisely **adversarial precision manipulation** of the victim's interoceptive and self-monitoring channels — the victim cannot trust their own perceptions because the precision-weighting of self-generated signal has been collapsed.
 - The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline implements PP-aware defenses: explicit prior tracking, precision auditing, and detection of pathologically immune belief states. See [/glossary/epistemic-pipeline/](@/glossary/epistemic-pipeline.md) for the 16-level architecture.
-- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) develops the PP framing as one of three theoretical pillars (alongside phenomenology and critical theory) for understanding why EA is so devastating: it does not merely insert false beliefs, it **rewires the inference machinery itself**.
+- The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) develops the PP framing as one of three theoretical pillars (alongside phenomenology and critical theory) for understanding why EA is so devastating: it does not merely insert false beliefs, it **rewires the [inference](@/glossary/inference.md) machinery itself**.
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} calibration loop is itself a precision-management system — Brier scores and ECE measure how well the platform's priors track reality, providing PP-style accountability.
 
 ## See Also

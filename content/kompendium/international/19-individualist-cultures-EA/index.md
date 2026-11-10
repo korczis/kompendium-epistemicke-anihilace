@@ -66,7 +66,7 @@ totalismem sama nechrání.
 osobní volba: „tvoje rodina tě brzdí“, „toxičtí lidé ti nepřejí růst“. Oběť má pocit, že
 se rozhodla sama, a proto o kontrole nemluví.
 
-**Terapeutizace jazyka.** Pojmy jako „gaslighting“, „narcista“ nebo „trauma“ pronikly do
+**Terapeutizace jazyka.** Pojmy jako „[gaslighting](@/glossary/gaslighting.md)“, „narcista“ nebo „trauma“ pronikly do
 běžné řeči. Pomáhají pojmenovat zkušenost, ale mohou být i zbraní: manipulátor obviní
 oběť z gaslightingu dřív než ona jeho ([DARVO](@/glossary/darvo.md)). Viz
 [populární terminologie pro veřejnost](@/kompendium/international/38-popular-terminology-public/index.md).

@@ -8,7 +8,7 @@ description = "Narušení meta-kognitivní rekurzivní funkce — schopnosti apl
 tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["kognitivni-anihilace", "metakognitivni-destrukce", "epistemicka-anihilace", "anankasticky-rezim"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -36,7 +36,7 @@ The phenomenon manifests across three increasingly severe gradations:
 
 Phenomenologically, subjects in advanced anti-recursivity report:
 
-- **Felt inability** to "step back" from a thought process
+- **Felt inability** to “step back” from a thought process
 - **Cognitive avoidance** when prompted toward self-reflection — sometimes reported as physical discomfort
 - **Recursive blocks** — attempts to think about thinking produce circular re-entry into the original thought
 - **Diminished metacognitive vocabulary** — fewer linguistic resources for describing one's own mental states
@@ -49,9 +49,9 @@ Consequently, techniques that induce anti-recursivity are particularly dangerous
 
 - **EA-1.4.2 Latent Emotional Modulation** when sustained over months
 - **EA-1.3.3 Thematic Diversion** applied specifically to self-reflective topics
-- The **"Guru and Adept" pattern** in its consolidation phase, where the mentor reframes any self-reflection as "ego defense"
+- The **“Guru and Adept” pattern** in its consolidation phase, where the mentor reframes any self-reflection as “ego defense”
 
-In Prismatic-relevant applications, anti-recursivity functions as a **systemic vulnerability marker**. The [NABLA Infinity](@/glossary/nabla-infinity.md) epistemic pipeline includes explicit recursion tests (Levels L10–L13 + Meta) precisely because anti-recursive collapse would undermine all higher-order epistemic operations. The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats outputs from sources that show anti-recursive symptoms as having **diminished evidential weight**, regardless of formal source credentials.
+In Prismatic-relevant applications, anti-recursivity functions as a **systemic vulnerability marker**. The [NABLA Infinity](@/glossary/nabla-infinity.md) [epistemic pipeline](@/glossary/epistemic-pipeline.md) includes explicit recursion tests (Levels L10–L13 + Meta) precisely because anti-recursive collapse would undermine all higher-order epistemic operations. The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats outputs from sources that show anti-recursive symptoms as having **diminished evidential weight**, regardless of formal source credentials.
 
 Therapeutically, recovery from anti-recursivity typically requires **scaffolded re-introduction** of recursive operations through guided meta-cognitive exercises, often beginning with low-stakes domains and gradually expanding to the originally damaged areas. Direct confrontation with recursive prompts in advanced anti-recursivity can be counterproductive — triggering the very avoidance mechanisms the recovery aims to dissolve.
 

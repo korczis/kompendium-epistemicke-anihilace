@@ -8,7 +8,7 @@ description = "Removal of an actor's access to digital infrastructure (social pl
 tags = ["glossary", "security", "epistemic", "kompendium"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["epistemic-security", "info-ops", "firehose-of-falsehood", "delegitimizace", "epistemicka-anihilace", "hyperreality"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -42,9 +42,9 @@ The practice raises **structural epistemic-security questions**: deplatforming r
 Within the Prismatic Platform, deplatforming is treated as an **intervention** with measurable epistemic cost-benefit, not a normative absolute:
 
 - The Kompendium discusses deplatforming under [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) as a **defensive technique against EA actors operating at scale** — particularly EA-1.2 (falsification) and EA-3 (collective cognitive disruption) — while flagging the epistemic-monoculture risk it introduces.
-- [Color Teams](@/glossary/color-teams.md) Blue Team protocols evaluate deplatforming proposals against five criteria: (1) harm specificity, (2) intervention reversibility, (3) precedent generality, (4) due-process adequacy, (5) post-intervention monitoring.
+- [Color Teams](@/glossary/color-teams.md) [Blue Team](@/glossary/blue-team.md) protocols evaluate deplatforming proposals against five criteria: (1) harm specificity, (2) intervention reversibility, (3) precedent generality, (4) due-process adequacy, (5) post-intervention monitoring.
 - The {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats actors recently subject to deplatforming as **provenance-ambiguous**: their post-deplatforming output may be either genuinely problematic or selection-biased by migration to lower-moderation environments.
-- [NABLA Infinity](@/glossary/nabla-infinity.md) explicitly avoids deplatformed-source-only diets in its source-diversity checks — a model trained or reasoning over only "approved" sources fails the diversity invariant.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) explicitly avoids deplatformed-source-only diets in its source-diversity checks — a model trained or reasoning over only “approved” sources fails the diversity invariant.
 - The [Info-Ops](@/glossary/info-ops.md) and [Firehose of Falsehood](@/glossary/firehose-of-falsehood.md) entries describe the threat models against which deplatforming is sometimes justified.
 
 Deplatforming is best understood as a **trade-off** rather than a victory: it is one tool among many in epistemic security, and its costs (centralization, due-process erosion, monoculture) must be weighed against its benefits (harm reduction, norm enforcement) on a case-by-case basis.

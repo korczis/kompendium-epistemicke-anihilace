@@ -7,7 +7,7 @@ description = "Mandatory GitLab tracking, continuous commits, push enforcement f
 tags = ["glossary", "architecture", "session-discipline", "prismatic"]
 
 [extra]
-category = "architecture"
+category = "architektura platformy"
 related_terms = ["gitlab-ci", "pre-commit-hooks", "quality-gates", "nm-nd", "git-trees", "violation-protocol"]
 author = "Tomas Korcak (korczis)"
 reading_time = "4 min"
@@ -27,7 +27,7 @@ Session Discipline is a P0 (Absolute) protocol mandating that every development 
 
 The protocol addresses a fundamental problem in AI-assisted development: sessions are ephemeral but code changes are permanent. Without discipline, a productive session can produce excellent code that is lost to an interrupted connection, an unpushed commit, or an untested change that breaks the build. Session Discipline transforms the inherently volatile nature of development sessions into a reliable, traceable, auditable process where every change is tracked, tested, committed, and pushed as it happens rather than accumulated for a risky batch operation at session end.
 
-Session Discipline is a direct expression of the NO MERCY, NO DOUBTS doctrine applied to development workflow. NO MERCY means zero tolerance for unpushed commits, untested changes, or missing issue tracking. NO DOUBTS means every action is deliberate, verified, and traceable. The protocol is not advisory -- it is enforced through automated hooks, session lifecycle automation, and violation escalation that can trigger L4 Supreme Review for the most serious breaches such as using `--no-verify` flags.
+Session Discipline is a direct expression of the [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) doctrine applied to development workflow. NO MERCY means zero tolerance for unpushed commits, untested changes, or missing issue tracking. NO DOUBTS means every action is deliberate, verified, and traceable. The protocol is not advisory — it is enforced through automated hooks, session lifecycle automation, and violation escalation that can trigger L4 Supreme Review for the most serious breaches such as using `--no-verify` flags.
 
 ## Technical Deep Dive
 
@@ -357,29 +357,29 @@ glab issue close 1290 --comment "Session complete. All changes pushed and tested
 
 - **Treating session discipline as overhead**: The protocol adds per-commit overhead (testing, pushing) but eliminates far larger costs from lost work, broken builds, and untraceable changes.
 
-- **Batching "small" changes**: There is no threshold below which batching is acceptable. Even single-line changes should be committed atomically if they represent a complete logical change.
+- **Batching “small” changes**: There is no threshold below which batching is acceptable. Even single-line changes should be committed atomically if they represent a complete logical change.
 
 - **Forgetting to push before session end**: The most common violation. Automated session end hooks catch this, but relying on automation rather than habit leads to failures when hooks are not active.
 
-- **Creating overly broad GitLab issues**: An issue like "improve the platform" provides no tracking value. Issues should be specific enough that they can be closed with a clear definition of done.
+- **Creating overly broad GitLab issues**: An issue like “improve the platform” provides no tracking value. Issues should be specific enough that they can be closed with a clear definition of done.
 
-- **Skipping context persistence for "unimportant" sessions**: Every session produces context valuable for future sessions. Skipping persistence creates gaps in the quality improvement narrative.
+- **Skipping context persistence for “unimportant” sessions**: Every session produces context valuable for future sessions. Skipping persistence creates gaps in the quality improvement narrative.
 
 ## Related Concepts
 
-- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) -- Enforcement mechanism within sessions
-- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) -- Gates enforced at every commit during sessions
-- [NM/ND Doctrine](@/glossary/nm-nd.md) -- Governing framework mandating session standards
-- [Violation Protocol](@/glossary/violation-protocol.md) -- Escalation for session discipline breaches
-- [AIAD](@/glossary/aiad.md) -- Agent standard with session discipline compliance
-- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) -- Cross-session quality persistence enabled by discipline
-- [GitLab CI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gitlab-ci/) -- CI/CD pipeline integration with session tracking
+- [Pre-Commit Hooks](https://prismatic-reality-com.github.io/prismatic-promo/glossary/pre-commit-hooks/) — Enforcement mechanism within sessions
+- [Quality Gates](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-gates/) — Gates enforced at every commit during sessions
+- [NM/ND Doctrine](@/glossary/nm-nd.md) — Governing framework mandating session standards
+- [Violation Protocol](@/glossary/violation-protocol.md) — Escalation for session discipline breaches
+- [AIAD](@/glossary/aiad.md) — Agent standard with session discipline compliance
+- [Quality DNA](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-dna/) — Cross-session quality persistence enabled by discipline
+- [GitLab CI](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gitlab-ci/) — CI/CD pipeline integration with session tracking
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) -- Session-related command catalog
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Commands](https://prismatic-reality-com.github.io/prismatic-promo/commands/) — Session-related command catalog
 
 ---
 

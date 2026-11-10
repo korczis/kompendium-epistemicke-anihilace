@@ -59,7 +59,7 @@ studenti potřebují rozumět institucionální moci.
 - **Inokulace.** Krátké vystavení oslabené podobě manipulačního vzorce s rozborem posiluje
   odolnost; vychází z inokulační teorie Williama McGuira z 60. let
   ([programy mediální gramotnosti](@/kompendium/population-health/15-media-literacy-program.md)).
-- **Metakognice.** Žák se učí sledovat vlastní myšlení – co cítím, proč tomu chci věřit
+- **[Metakognice](@/glossary/metakognice.md).** Žák se učí sledovat vlastní myšlení – co cítím, proč tomu chci věřit
   ([metakognitivní kultivace](@/kompendium/techniques/ea-3-1-3-metacognitive-cultivation.md),
   [reflektivní žurnálování](@/kompendium/techniques/ea-3-1-10-reflective-journaling.md)).
 - **Bezpečné klima.** Žáci musí mít možnost nesouhlasit s učitelem; jinak kurikulum o kritickém
@@ -83,7 +83,7 @@ studenti potřebují rozumět institucionální moci.
   (například evaluace školního protidrogového programu D.A.R.E.), i programy, které škodily
   – přehled Cochrane o programech typu „Scared Straight“ zjistil spíš zvýšení delikvence
   než pokles. Dobrý úmysl nenahrazuje evaluaci.
-- **Retraumatizace.** Některé děti mají přímou zkušenost s manipulativním prostředím; učitel
+- **[Retraumatizace](@/glossary/retraumatizace.md).** Některé děti mají přímou zkušenost s manipulativním prostředím; učitel
   musí vědět, jak reagovat a kam dítě odkázat
   ([protokol pro děti](@/kompendium/recovery-protocols/recovery-children-protocol.md)).
 

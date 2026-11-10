@@ -80,16 +80,16 @@ Po dosažení primárního efektu útočník stabilizuje nový stav skrze **inst
 
 ## Vztah k jiným technikám
 
-Technika **EA-2.2.4** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální delegitimizace) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
+Technika **EA-2.2.4** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky se kombinuje s technikami **EA-1.X.Y** (přímé útoky na jednotlivé výroky) jako **operační vrstvou** a s ostatními technikami **EA-2.X.Y** (institucionální [delegitimizace](@/glossary/delegitimizace.md)) jako **strategickou vrstvou**. Identifikace primární techniky pomáhá rozeznat **strukturu kampaně** jako celku.
 
 ## Vztah k platformě
 
 Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
 
-- **Decision Engine** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
+- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
+- **[OSINT](@/glossary/osint.md) Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
 - **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+- **[Hawkeye](@/glossary/hawkeye.md)** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
 
 ## Související
 

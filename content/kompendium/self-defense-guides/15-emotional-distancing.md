@@ -23,7 +23,7 @@ Naučit se zaujmout zdravou pozorovatelskou perspektivu vůči vlastním emocím
 
 ### 1. Třetí osoba
 
-V krizi mluvte sami se sebou ve 3. osobě: 'Tomáš teď cítí strach, protože...'. Aktivuje prefrontální kortex.
+V krizi mluvte sami se sebou ve 3. osobě: 'Tomáš teď cítí strach, protože…'. Aktivuje prefrontální kortex.
 
 ### 2. Časový odstup
 

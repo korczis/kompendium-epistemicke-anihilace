@@ -7,7 +7,7 @@ description = "Karl Popper's demarcation criterion distinguishing scientific fro
 tags = ["epistemology", "philosophy", "science", "methodology"]
 
 [extra]
-category = "philosophy-of-science"
+category = "metodologie"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -27,23 +27,23 @@ image_alt = "Falsifikovatelnost - Prismatic Platform"
 
 ## Definition
 
-Falsifikovatelnost (anglicky *falsifiability* or *refutability*) is Karl Popper's demarcation criterion: a statement, hypothesis, or theory is scientific only if it makes predictions that could in principle be contradicted by some observable state of affairs. The capacity to be falsified is a logical property of the claim itself — independent of whether anyone has actually attempted the test. Claims that exclude no possible observation (e.g., "everything happens for a reason") are unfalsifiable and therefore lie outside science.
+Falsifikovatelnost (anglicky *falsifiability* or *refutability*) is Karl Popper's demarcation criterion: a statement, hypothesis, or theory is scientific only if it makes predictions that could in principle be contradicted by some observable state of affairs. The capacity to be falsified is a logical property of the claim itself — independent of whether anyone has actually attempted the test. Claims that exclude no possible observation (e.g., „everything happens for a reason“) are unfalsifiable and therefore lie outside science.
 
 ## Manažerské shrnutí
 
-Falsifikovatelnost je v praxi platformy Prismatic operativní kritérium pro rozlišení **vědecky obhajitelného tvrzení** od **interpretačního narativu**. Při due-diligence analýze, OSINT vyšetřování i klinickém posouzení manipulativních vzorců je první otázka vždy stejná: *jaký důkaz by toto tvrzení vyvrátil?* Pokud na ni nelze odpovědět, jde o víru, nikoli o zjištění. Tento princip stojí v jádru pilíře NCLB (No Claim Left Behind) — žádné tvrzení v reportu nesmí být formulováno tak, aby bylo imunní vůči refutaci. Manažerské použití: vyžadovat od analytiků explicitní *falsification conditions* u každého závěru.
+Falsifikovatelnost je v praxi platformy Prismatic operativní kritérium pro rozlišení **vědecky obhajitelného tvrzení** od **interpretačního narativu**. Při due-diligence analýze, [OSINT](@/glossary/osint.md) vyšetřování i klinickém posouzení manipulativních vzorců je první otázka vždy stejná: *jaký důkaz by toto tvrzení vyvrátil?* Pokud na ni nelze odpovědět, jde o víru, nikoli o zjištění. Tento princip stojí v jádru pilíře NCLB (No Claim Left Behind) — žádné tvrzení v reportu nesmí být formulováno tak, aby bylo imunní vůči refutaci. Manažerské použití: vyžadovat od analytiků explicitní *falsification conditions* u každého závěru.
 
 ## Domain Context
 
-Popper formuloval kritérium v *Logik der Forschung* (1934) jako odpověď na logické pozitivisty Vienna Circle, kteří hledali kritérium *verifikace*. Popper ukázal, že verifikace je logicky nemožná u univerzálních zákonů (žádný konečný počet pozorování nedokazuje "všechny labutě jsou bílé"), zatímco jediné kontradiktorické pozorování (jedna černá labuť) hypotézu vyvrací. Tím se vědecký pokrok stává sérií *předpokladů a vyvrácení* (conjectures and refutations). Imre Lakatos později kritérium zjemnil: izolovanou hypotézu lze vždy zachránit *ad hoc* dodatkem, takže falsifikovatelnost se aplikuje na celé výzkumné programy, ne na jednotlivé výroky.
+Popper formuloval kritérium v *Logik der Forschung* (1934) jako odpověď na logické pozitivisty Vienna Circle, kteří hledali kritérium *verifikace*. Popper ukázal, že verifikace je logicky nemožná u univerzálních zákonů (žádný konečný počet pozorování nedokazuje „všechny labutě jsou bílé“), zatímco jediné kontradiktorické pozorování (jedna černá labuť) hypotézu vyvrací. Tím se vědecký pokrok stává sérií *předpokladů a vyvrácení* (conjectures and refutations). Imre Lakatos později kritérium zjemnil: izolovanou hypotézu lze vždy zachránit *ad hoc* dodatkem, takže falsifikovatelnost se aplikuje na celé výzkumné programy, ne na jednotlivé výroky.
 
 ## Practical Application
 
 V investigativní praxi Prismatic Platform se kritérium uplatňuje třemi způsoby:
 
-1. **Hypotézy v DD case** (např. "subjekt X je beneficiárním vlastníkem entity Y") musí být formulovány s explicitní podmínkou vyvrácení — *jaký dokument, registr, nebo svědectví by hypotézu odmítlo?*
+1. **Hypotézy v DD case** (např. „subjekt X je beneficiárním vlastníkem entity Y“) musí být formulovány s explicitní podmínkou vyvrácení — *jaký dokument, registr, nebo svědectví by hypotézu odmítlo?*
 2. **OSINT zjištění** podléhají *red-team challenge* — analytik z opozičního týmu musí najít alternativní vysvětlení nálezu; pokud žádné neexistuje a původní hypotéza zakazuje konkrétní pozorování, nález je robustní.
-3. **Klinické vzorce manipulace** (gaslighting, double-bind) se diagnostikují na základě behaviorálních prediktorů, které musí být v zásadě měřitelné — bez tohoto kritéria se diagnóza stává neodvolatelnou nálepkou.
+3. **Klinické vzorce manipulace** ([gaslighting](@/glossary/gaslighting.md), double-bind) se diagnostikují na základě behaviorálních prediktorů, které musí být v zásadě měřitelné — bez tohoto kritéria se diagnóza stává neodvolatelnou nálepkou.
 
 ## Related Concepts
 

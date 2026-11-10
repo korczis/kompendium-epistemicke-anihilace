@@ -20,25 +20,25 @@ toc = false
 
 ## Operační modus (3 kroky)
 
-1. Aplikace jazyka komplexity ("nuanced", "multifaktoriální", "ještě ne plně pochopené") na otázky, kde literatura konverguje k jasné odpovědi
-2. Vkládání reálných (ale marginálních) výzkumných otevřených otázek vedle dávno vyřešených, takže oba získají status "stále otevřené"
-3. Závěr "potřebujeme více výzkumu" jako trvalá odložení rozhodnutí — bez specifikace, jaký výzkum, jaká data by debatu ukončila
+1. Aplikace jazyka komplexity („nuanced“, „multifaktoriální“, „ještě ne plně pochopené“) na otázky, kde literatura konverguje k jasné odpovědi
+2. Vkládání reálných (ale marginálních) výzkumných otevřených otázek vedle dávno vyřešených, takže oba získají status „stále otevřené“
+3. Závěr „potřebujeme více výzkumu“ jako trvalá odložení rozhodnutí — bez specifikace, jaký výzkum, jaká data by debatu ukončila
 
 ## Detekční markery (3 nejvýraznější)
 
-- Konkrétní otázka "Co by změnilo váš názor?" zůstává nezodpovězena nebo dostane vyhýbavou odpověď
-- Subjekt opakovaně používá frázi "to je složitější, než si myslíš" bez schopnosti specifikovat dimenze komplexity
-- Mezi-publikační konsenzus (např. >90 % v expertních surveys) je systematicky převáděn na "diskuse pokračuje"
+- Konkrétní otázka „Co by změnilo váš názor?“ zůstává nezodpovězena nebo dostane vyhýbavou odpověď
+- Subjekt opakovaně používá frázi „to je složitější, než si myslíš“ bez schopnosti specifikovat dimenze komplexity
+- Mezi-publikační konsenzus (např. >90 % v expertních surveys) je systematicky převáděn na „diskuse pokračuje“
 
 ## Neutralizační strategie (3 nejúčinnější)
 
-- Mandát na falsifikační kritérium — "co konkrétně by muselo být pravda, aby závěr X byl chybný?"; absence odpovědi indikuje pseudo-komplexitu
+- Mandát na falsifikační kritérium — „co konkrétně by muselo být pravda, aby závěr X byl chybný?“; absence odpovědi indikuje pseudo-komplexitu
 - Audit konsenzuální základny — kvantifikace, kde literatura konverguje a kde reálně diverguje; přiřazení vah jen otevřeným otázkám
-- Decision-forcing zařízení — předem stanovený threshold (datum, evidence, milník), po kterém rozhodnutí padne navzdory "pokračujícím debatám"
+- Decision-forcing zařízení — předem stanovený threshold (datum, evidence, milník), po kterém rozhodnutí padne navzdory „pokračujícím debatám“
 
 ## Příklad
 
-Lobby výrobce sladkých nápojů nasazuje narativ "vztah mezi cukrem a obezitou je komplexní multifaktoriální záležitost vyžadující další výzkum". Odhalovaná data: konsenzus existoval už v 90. letech, "výzkum" sloužil k 30letému zdržení regulace.
+Lobby výrobce sladkých nápojů nasazuje narativ „vztah mezi cukrem a obezitou je komplexní multifaktoriální záležitost vyžadující další výzkum“. Odhalovaná data: konsenzus existoval už v 90. letech, „výzkum“ sloužil k 30letému zdržení regulace.
 
 ## Cross-linky
 

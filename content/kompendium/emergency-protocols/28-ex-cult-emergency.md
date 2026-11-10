@@ -29,7 +29,7 @@ Bývalý člen kultu v emergency situaci — typicky 6 měsíců až 5 let po v�
 1. **Diferencuj „floating" (dissociativní návrat ke kult-mindset) od plné psychotické epizody** — floating je transient, kontextuální.
 2. **Aktivuj ex-cult support network** — ICSA, Cult Education Institute, SECT (CZ); peer support s vlastní ex-cult zkušeností.
 3. **Adresuj specific ex-cult triggers** — anniversary reactions, news articles o skupině, kontakt z dřívějších členů.
-4. **Plánuj specialized therapy** — ne generický trauma therapist, ale cult-aware clinician (training v BITE model, Lifton, Hassan).
+4. **Plánuj specialized therapy** — ne generický trauma therapist, ale cult-aware clinician (training v [BITE model](@/glossary/bite-model.md), Lifton, Hassan).
 5. **Validate identity reconstruction** — osoba prochází rebuilding self-concept; emergency je často developmental milestone, ne pathology.
 
 ## 3. Stabilizace
@@ -45,17 +45,21 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 ## 5. Cross-linky
 
 **Sesterské emergency protokoly:**
+
 - [Akutní dekompenzace po EA](@/kompendium/emergency-protocols/1-acute-decompensation-EA.md)
 - [Akutní suicidální riziko po EA](@/kompendium/emergency-protocols/2-suicide-risk-EA.md)
 - [Psychotický zlom po EA](@/kompendium/emergency-protocols/3-psychotic-break-EA.md)
 
 **Návazná dlouhodobá péče:**
+
 - [Longitudinální rekonstruktivní protokoly](@/kompendium/recovery-protocols/_index.md)
 
 **Souvisejícící klinické techniky:**
+
 - [Ultramarinové techniky](@/kompendium/05-ultramari-techniky/_index.md)
 
 **Glossary reference:**
+
 - [c-PTSD](@/glossary/c-ptsd.md)
 - [Betrayal trauma](@/glossary/betrayal-trauma.md)
 - [Gaslighting](@/glossary/gaslighting.md)
@@ -64,6 +68,7 @@ Po dokončení 5 bezprostředních kroků následuje **stabilizační okno 30–
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)
 
 **Platformové reference:**
+
 - {{ <cross_link path="/hub/dd/decisions/calibration" text="Decision Engine — kalibrace klinických rozhodnutí" /> }}
 - [Confidence Lens — diagnostická infografika](@/kompendium/quick-reference/_index.md)
 

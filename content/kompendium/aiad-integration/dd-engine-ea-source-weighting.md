@@ -33,11 +33,11 @@ Provoz: per-deal investigation, days-to-weeks horizon. Výstup: **NBS report** (
 
 ## Limitations
 
-DD Engine je **report-grade**, ne **real-time** — výstup vyžaduje hodiny analýzy. Také závislý na kvalitě upstream OSINT a ARES dat.
+DD Engine je **report-grade**, ne **real-time** — výstup vyžaduje hodiny analýzy. Také závislý na kvalitě upstream [OSINT](@/glossary/osint.md) a ARES dat.
 
 ## Coordination
 
-Volá **OSINT Agent**, **Czech ARES**, **Compliance**; výstupy validuje **Trinity Gate**; reporty auditovány **White Team**.
+Volá **OSINT Agent**, **Czech ARES**, **Compliance**; výstupy validuje **[Trinity Gate](@/glossary/trinity-gate.md)**; reporty auditovány **[White Team](@/glossary/white-team.md)**.
 
 ## Cross-linky
 

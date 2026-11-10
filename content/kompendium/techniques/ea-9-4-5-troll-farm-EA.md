@@ -59,7 +59,7 @@ Operační cyklus typicky zahrnuje:
 
 ## 4. Detekční markery
 
-OSINT na infrastructure, salary-leaks, behavior-during-business-hours patterns, language-analysis (translation artefakty).
+[OSINT](@/glossary/osint.md) na infrastructure, salary-leaks, behavior-during-business-hours patterns, language-analysis (translation artefakty).
 
 **Technické markery:**
 
@@ -118,9 +118,9 @@ Tato technika **interaguje** s následujícími EA-* kategoriemi:
 
 Prismatic Platform implementuje detekci a neutralizaci Troll Farm EA přes následující komponenty:
 
-- **`prismatic_nabla`** — Nabla Infinity epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
+- **`prismatic_nabla`** — [Nabla Infinity](@/glossary/nabla-infinity.md) epistemic engine pro frame-detection, source-provenance verification a uncertainty quantification
 - **`prismatic_osint_*`** — 128+ OSINT adapterů pro forensic verification claims, infrastructure correlation, cross-platform tracking
-- **`prismatic_dd`** — Decision engine s Brier scoring, calibration tracking a evidence-based scoring (NCLB doctrine)
+- **`prismatic_dd`** — [Decision engine](@/glossary/decision-engine.md) s Brier scoring, calibration tracking a evidence-based scoring (NCLB doctrine)
 - **`prismatic_intelligence`** — Intelligence strategies pro multi-source corroboration a confidence interval tracking
 - **`prismatic_lean`** — Formální verifikace epistemických invariantů přes Lean4 mycelial integration
 - **`prismatic_logic_prolog`** — Knowledge-graph reasoning pro narrative consistency audits

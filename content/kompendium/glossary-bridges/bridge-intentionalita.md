@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[intentionalita](@/glossary/intentionalita.md) — Intencionalita je vlastnost mentálních stavů být o něčem — myšlenka je vždy myšlenkou na něco, přesvědčení je vždy přesvědčením o něčem. Brentano ji označil za znak duševního, Husserl ji rozvinul jako základ fenomenologie a Searle obnovil v moderní filosofii mysli.
+[intentionalita](@/glossary/intentionalita.md) — [Intencionalita](@/glossary/intencionalita.md) je vlastnost mentálních stavů být o něčem — myšlenka je vždy myšlenkou na něco, přesvědčení je vždy přesvědčením o něčem. Brentano ji označil za znak duševního, Husserl ji rozvinul jako základ [fenomenologie](@/glossary/fenomenologie.md) a Searle obnovil v moderní filosofii mysli.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

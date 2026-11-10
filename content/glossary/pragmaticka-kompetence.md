@@ -7,7 +7,7 @@ description = "The cognitive and social ability to use language appropriately in
 tags = ["linguistics", "cognition", "communication", "clinical"]
 
 [extra]
-category = "linguistics"
+category = "logika a jazyk"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -26,7 +26,7 @@ image_alt = "Pragmaticka kompetence - Prismatic Platform"
 
 ## Definition
 
-Pragmatická kompetence is the speaker-hearer ability to use and interpret language in social context. It encompasses (a) recognition of speech acts (request, promise, threat, declaration), (b) inference of implicature — meaning conveyed but not literally said, (c) adherence to conversational maxims of quantity, quality, relation, and manner (Grice 1975), (d) modulation of register, politeness, and indirectness, and (e) detection of contextual cues including irony, sarcasm, and metaphor. It is distinct from grammatical or semantic competence and develops through socialization rather than formal instruction.
+Pragmatická kompetence is the speaker-hearer ability to use and interpret language in social context. It encompasses (a) recognition of speech acts (request, promise, threat, declaration), (b) [inference](@/glossary/inference.md) of implicature — meaning conveyed but not literally said, (c) adherence to conversational maxims of quantity, quality, relation, and manner (Grice 1975), (d) modulation of register, politeness, and indirectness, and (e) detection of contextual cues including irony, sarcasm, and metaphor. It is distinct from grammatical or semantic competence and develops through socialization rather than formal instruction.
 
 ## Manažerské shrnutí
 
@@ -39,8 +39,8 @@ Pragmatika jako obor založil Charles Morris (1938) jako třetí pilíř semioti
 ## Practical Application
 
 1. **DD interview kalibrace**: před hodnocením výpovědi subjektu (zejména v klinicky-citlivých kontextech) zkontrolovat baseline pragmatické kompetence — zda dotyčný správně interpretuje hypotetické scénáře, ironii, a podmíněné konstrukce.
-2. **Detekce manipulace v textových komunikátech**: analýza chatových logů z kultovních prostředí typicky odhalí systematické porušování Griceových maxim ze strany leadera — nadměrné zdůrazňování (porušení kvantity), strategická vágnost (porušení manner), záměrné nepravdy maskované jako "duchovní pravdy" (porušení quality).
-3. **OSINT review veřejných projevů politických aktérů**: signalizace skrze implikaturu (dog-whistle politics) je zachytitelná pouze pragmatickou analýzou — sémantický scan ji nepostihne.
+2. **Detekce manipulace v textových komunikátech**: analýza chatových logů z kultovních prostředí typicky odhalí systematické porušování Griceových maxim ze strany leadera — nadměrné zdůrazňování (porušení kvantity), strategická vágnost (porušení manner), záměrné nepravdy maskované jako „duchovní pravdy“ (porušení quality).
+3. **[OSINT](@/glossary/osint.md) review veřejných projevů politických aktérů**: signalizace skrze implikaturu (dog-whistle politics) je zachytitelná pouze pragmatickou analýzou — sémantický scan ji nepostihne.
 
 ## Related Concepts
 

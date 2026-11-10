@@ -69,7 +69,7 @@ postupovala souběžně a každá dimenze chránila ostatní před revizí.
 
 Charakteristická je rezonance mezi anihilačními technikami (skupina EA-5.1) a technikami
 identity (EA-5.3): první vyprázdní epistemický prostor, druhé ho zaplní. Strukturálně případ
-odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md) (kolektivní delegitimizace
+odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md) (kolektivní [delegitimizace](@/glossary/delegitimizace.md)
 institucí), [scénáři H](@/kompendium/03-zakladni-kategorie/scenar-h.md) a
 [scénáři L](@/kompendium/03-zakladni-kategorie/scenar-l/_index.md).
 
@@ -105,7 +105,7 @@ Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-ap
   mapa [zrady](@/glossary/betrayal-trauma.md) – od institucí i od skupiny.
 - **S2 – Externalizace introjektů:** jazyk skupiny („ovce“, „probuzení“) zapsán a oddělen od
   vlastního hlasu.
-- **S3 – Rekonstrukce metakognice:** [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** [triangulace zdrojů](@/kompendium/self-defense-guides/3-source-triangulation.md)
   a [falsifikační myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)
   s důrazem na [epistemickou pokoru](@/glossary/epistemicka-pokora.md) – připustit nejistotu bez
   potřeby nového dokonalého výkladu.

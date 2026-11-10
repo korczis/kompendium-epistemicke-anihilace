@@ -2,9 +2,11 @@
 title = "Priprava svedku EA"
 description = "Forenzni a pravni rozmer EA — priprava svedku ea."
 weight = 8
+
 [taxonomies]
 tags = ["kompendium", "forensic-legal", "forensic-assessment"]
 categories = ["academic", "legal", "clinical"]
+
 [extra]
 related_terms = ["6-trauma-disclosure", "7-evidence-chain-of-custody", "9-victim-impact-assessment", "50-international-law-EA"]
 parent = "kompendium-forensic-legal"
@@ -80,11 +82,9 @@ policy v souladu s jurisdikcnimi pozadavky.
 - [Recovery Protocols](@/kompendium/recovery-protocols/_index.md)
 - [Emergency Protocols](@/kompendium/emergency-protocols/_index.md)
 
-
 ## Connect
 
 - [Prismatic Platform](@/_index.md) — komplexni EA detection & response
 - [Glossary](@/glossary/_index.md) — terminologicky slovnik
 - [Academy](https://prismatic-reality-com.github.io/prismatic-promo/academy/) — vzdelavaci modul
 - {{ <cross_link path="/investigate/" text="Investigation Hub" /> }} — vysetrovaci nastroje
-

@@ -105,7 +105,7 @@ Postup sledoval [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-ap
   verzí rukopisů; doktorandce pomohlo uvidět, jak se kritéria posouvala v čase.
 - **S2 – Externalizace introjektů:** sepsání vět, kterými se hodnotí („jsem průměrná“, „bez
   něj nic nedokážu“), a jejich přiřazení původnímu zdroji.
-- **S3 – Rekonstrukce metakognice:** nácvik hodnocení vlastního textu podle explicitních,
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** nácvik hodnocení vlastního textu podle explicitních,
   vnějších kritérií (pravidla časopisu, rubrika oponentury), ne podle odhadu reakce autority.
 - **S4 – Hermeneutická obnova:** nové čtení vlastního oboru; rozlišení mezi oprávněnou kritikou,
   kterou si doktorandka ponechala, a ponižováním, které odložila.

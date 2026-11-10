@@ -7,7 +7,7 @@ description = "The seven non-negotiable epistemic principles governing all belie
 tags = ["glossary", "epistemic", "nabla-infinity", "axioms", "belief-formation", "signal-processing", "contradiction-preservation", "provenance"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "14 min"
@@ -39,17 +39,17 @@ image_alt = "NABLA Axioms - Prismatic Platform"
 
 ## Definition
 
-The NABLA Axioms are the seven non-negotiable epistemic principles that govern all belief formation, evidence evaluation, and decision-making within the Prismatic Platform's [NABLA Infinity](@/glossary/nabla-infinity.md) framework. They are: (1) Signal Plurality -- minimum two independent signals required for any belief, (2) Contradiction Preservation -- conflicting evidence must be preserved, never discarded, (3) Absence Informative -- missing data is itself meaningful data, (4) Time Decay -- all beliefs carry mandatory timestamps and degrade over time, (5) Unknown Valid -- "I don't know" is a legitimate and honored epistemic state, (6) Source Independence -- independent sources receive higher evidential weight, and (7) Provenance Mandatory -- all beliefs must be traceable to their origins. Together, these axioms form the DNA-level constraints that prevent epistemic corruption across the platform's 530+ agents and 115 applications.
+The NABLA Axioms are the seven non-negotiable epistemic principles that govern all belief formation, evidence evaluation, and decision-making within the Prismatic Platform's [NABLA Infinity](@/glossary/nabla-infinity.md) framework. They are: (1) Signal Plurality — minimum two independent signals required for any belief, (2) Contradiction Preservation — conflicting evidence must be preserved, never discarded, (3) Absence Informative — missing data is itself meaningful data, (4) Time Decay — all beliefs carry mandatory timestamps and degrade over time, (5) Unknown Valid — “I don't know” is a legitimate and honored epistemic state, (6) Source Independence — independent sources receive higher evidential weight, and (7) Provenance Mandatory — all beliefs must be traceable to their origins. Together, these axioms form the DNA-level constraints that prevent epistemic corruption across the platform's 530+ agents and 115 applications.
 
 ## Overview
 
-The NABLA Axioms exist because intelligent systems -- whether human or artificial -- have a natural tendency toward epistemic shortcuts: cherry-picking evidence, smoothing over contradictions, treating absence as absence of significance, and accepting claims without provenance. These tendencies, while efficient in low-stakes environments, produce catastrophic failures in systems that process intelligence, assess security risks, or make autonomous decisions.
+The NABLA Axioms exist because intelligent systems — whether human or artificial — have a natural tendency toward epistemic shortcuts: cherry-picking evidence, smoothing over contradictions, treating absence as absence of significance, and accepting claims without provenance. These tendencies, while efficient in low-stakes environments, produce catastrophic failures in systems that process intelligence, assess security risks, or make autonomous decisions.
 
-The Prismatic Platform was designed to resist these tendencies at the architectural level. The NABLA Axioms are not guidelines or suggestions -- they are hard constraints enforced through the [Trinity Gate](@/glossary/trinity-gate.md) verification system, automated axiom validators, and the [Addiction Preservation](@/glossary/addiction-recovery.md) doctrine that demands constant vigilance against epistemic rationalization.
+The Prismatic Platform was designed to resist these tendencies at the architectural level. The NABLA Axioms are not guidelines or suggestions — they are hard constraints enforced through the [Trinity Gate](@/glossary/trinity-gate.md) verification system, automated axiom validators, and the [Addiction Preservation](@/glossary/addiction-recovery.md) doctrine that demands constant vigilance against epistemic rationalization.
 
 The axioms draw from three intellectual traditions. From formal logic, they inherit rigor and verifiability. From intelligence analysis, they inherit the requirement for source plurality and contradiction tracking. From philosophy of science, they inherit the principle that unfalsifiable claims and claims without provenance are epistemically worthless regardless of their apparent plausibility.
 
-Every claim that passes through the platform -- whether a security rating from the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/), a threat assessment from the [Red Team](@/glossary/red-team.md), or a quality score from the [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) -- must satisfy all seven axioms before it can influence platform behavior. This is not optional. There is no bypass. The axioms are enforced at COSMIC CLEARANCE authority level.
+Every claim that passes through the platform — whether a security rating from the [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/), a threat assessment from the [Red Team](@/glossary/red-team.md), or a quality score from the [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) — must satisfy all seven axioms before it can influence platform behavior. This is not optional. There is no bypass. The axioms are enforced at COSMIC CLEARANCE authority level.
 
 ## Technical Details
 
@@ -59,28 +59,29 @@ No belief may be established on the basis of a single signal, regardless of that
 
 **Rationale**: Single-source beliefs are brittle. If the source is compromised, wrong, or out of date, the entire downstream chain of reasoning is corrupted. Plurality provides redundancy against individual source failure.
 
-**Enforcement**: HARD -- violations result in E2 BLOCK. The proposition is rejected and cannot enter the belief graph until a second independent signal is provided.
+**Enforcement**: HARD — violations result in E2 BLOCK. The proposition is rejected and cannot enter the belief graph until a second independent signal is provided.
 
 **Threshold in context**:
+
 - Critical decisions require 3+ signals
 - Standard operations require 2+ signals
-- Exploratory analysis allows single signals but marks them as "unconfirmed"
+- Exploratory analysis allows single signals but marks them as “unconfirmed”
 
 ### Axiom 2: Contradiction Preservation (HARD Enforcement)
 
 When evidence contradicts existing beliefs, both the existing belief and the contradicting evidence must be preserved. Contradictions are never resolved by discarding one side. Instead, they are explicitly tracked, investigated, and either resolved through additional evidence or maintained as genuine uncertainty.
 
-**Rationale**: Premature contradiction resolution -- choosing one side because it is more convenient, familiar, or expected -- is the most common form of epistemic corruption. Contradictions are signals that the model of reality is incomplete. Discarding them destroys information.
+**Rationale**: Premature contradiction resolution — choosing one side because it is more convenient, familiar, or expected — is the most common form of epistemic corruption. Contradictions are signals that the model of reality is incomplete. Discarding them destroys information.
 
-**Enforcement**: HARD -- E2 BLOCK for any operation that discards contradicting evidence. E3 HALT for systematic contradiction burial.
+**Enforcement**: HARD — E2 BLOCK for any operation that discards contradicting evidence. E3 HALT for systematic contradiction burial.
 
 ### Axiom 3: Absence Informative (SOFT Enforcement)
 
-When expected signals are absent, this absence is itself a data point that must be recorded and tracked. A security scan that finds no vulnerabilities, a search that returns no results, and a monitoring check that detects no anomalies are all informative events -- they may indicate either genuinely clean conditions or failures in the detection mechanism.
+When expected signals are absent, this absence is itself a data point that must be recorded and tracked. A security scan that finds no vulnerabilities, a search that returns no results, and a monitoring check that detects no anomalies are all informative events — they may indicate either genuinely clean conditions or failures in the detection mechanism.
 
 **Rationale**: Systems that only process positive signals develop confirmation bias. By tracking what was expected but not found, the platform maintains awareness of its detection blind spots.
 
-**Enforcement**: SOFT -- violations result in E1 WARNING with investigation triggered. The system logs the expected-but-absent signal and tracks it for follow-up.
+**Enforcement**: SOFT — violations result in E1 WARNING with investigation triggered. The system logs the expected-but-absent signal and tracks it for follow-up.
 
 ### Axiom 4: Time Decay (HARD Enforcement)
 
@@ -88,15 +89,15 @@ All beliefs carry mandatory timestamps and degrade in reliability over time. A s
 
 **Rationale**: The world changes. Beliefs that were accurate yesterday may be dangerously wrong today. Without time decay, stale beliefs accumulate and create a false sense of certainty.
 
-**Enforcement**: HARD -- E2 BLOCK for any belief without a timestamp. Automatic confidence degradation applied to beliefs exceeding their TTL (time-to-live).
+**Enforcement**: HARD — E2 BLOCK for any belief without a timestamp. Automatic confidence degradation applied to beliefs exceeding their TTL (time-to-live).
 
 ### Axiom 5: Unknown Valid (HARD Enforcement)
 
-"I don't know" is a legitimate and honored epistemic state. The platform explicitly refuses to guess, extrapolate, or fabricate answers when evidence is insufficient. An unknown is represented as `{:unknown, reason, metadata}` rather than being silently replaced with a default or best guess.
+“I don't know” is a legitimate and honored epistemic state. The platform explicitly refuses to guess, extrapolate, or fabricate answers when evidence is insufficient. An unknown is represented as `{:unknown, reason, metadata}` rather than being silently replaced with a default or best guess.
 
-**Rationale**: False certainty is more dangerous than acknowledged uncertainty. A system that says "the target has no vulnerabilities" when it actually means "I could not determine the target's vulnerability status" can lead to catastrophic security failures.
+**Rationale**: False certainty is more dangerous than acknowledged uncertainty. A system that says “the target has no vulnerabilities” when it actually means “I could not determine the target's vulnerability status” can lead to catastrophic security failures.
 
-**Enforcement**: HARD -- E2 BLOCK for any operation that converts unknown states into definite claims without additional evidence.
+**Enforcement**: HARD — E2 BLOCK for any operation that converts unknown states into definite claims without additional evidence.
 
 ### Axiom 6: Source Independence (SOFT Enforcement)
 
@@ -104,15 +105,15 @@ Independent sources receive higher evidential weight than correlated sources. Tw
 
 **Rationale**: Information that appears to come from multiple sources but originates from a single root source creates false plurality. Intelligence analysis has repeatedly demonstrated that correlated sources masquerading as independent can lead to catastrophically overconfident assessments.
 
-**Enforcement**: SOFT -- E1 WARNING for correlated sources. Bias assessment required when source independence cannot be verified.
+**Enforcement**: SOFT — E1 WARNING for correlated sources. Bias assessment required when source independence cannot be verified.
 
 ### Axiom 7: Provenance Mandatory (HARD Enforcement)
 
-All beliefs must be traceable to their origins through an unbroken provenance chain. Every transformation, aggregation, and inference step that contributed to the belief must be recorded. If the provenance chain is broken -- if you cannot trace a claim back to its source evidence -- the claim is epistemically invalid.
+All beliefs must be traceable to their origins through an unbroken provenance chain. Every transformation, aggregation, and [inference](@/glossary/inference.md) step that contributed to the belief must be recorded. If the provenance chain is broken — if you cannot trace a claim back to its source evidence — the claim is epistemically invalid.
 
 **Rationale**: Without provenance, beliefs cannot be audited, disputed, or updated when source data changes. Provenance enables accountability and makes the reasoning process transparent and reproducible.
 
-**Enforcement**: HARD -- E2 BLOCK for any belief without provenance metadata. Claims with broken provenance chains are rejected from the belief graph.
+**Enforcement**: HARD — E2 BLOCK for any belief without provenance metadata. Claims with broken provenance chains are rejected from the belief graph.
 
 ## Implementation in Prismatic Platform
 
@@ -463,7 +464,7 @@ end
 
 ### NABLA Axioms vs. Traditional Confidence Scoring
 
-Most AI systems use simple confidence scores (0.0-1.0) to represent belief certainty. The NABLA Axioms go far beyond this by requiring provenance, plurality, and contradiction tracking. A traditional system might report "vulnerability confidence: 0.85" -- the NABLA framework requires knowing where that 0.85 came from, how many independent sources contributed, what contradicting evidence exists, and when the assessment expires.
+Most AI systems use simple confidence scores (0.0-1.0) to represent belief certainty. The NABLA Axioms go far beyond this by requiring provenance, plurality, and contradiction tracking. A traditional system might report “vulnerability confidence: 0.85” — the NABLA framework requires knowing where that 0.85 came from, how many independent sources contributed, what contradicting evidence exists, and when the assessment expires.
 
 | Aspect | Traditional Confidence | NABLA Axioms |
 |--------|----------------------|--------------|
@@ -480,7 +481,7 @@ Most AI systems use simple confidence scores (0.0-1.0) to represent belief certa
 
 ### NABLA Axioms vs. Intelligence Analysis Standards
 
-Intelligence community standards (ACH -- Analysis of Competing Hypotheses, Structured Analytic Techniques) share many goals with the NABLA Axioms. The key difference is automation: the NABLA Axioms are machine-enforced at the code level, not dependent on analyst discipline. ACH requires human analysts to consciously consider alternative hypotheses; Axiom 2 (Contradiction Preservation) automatically prevents hypothesis dismissal.
+Intelligence community standards (ACH — Analysis of Competing Hypotheses, Structured Analytic Techniques) share many goals with the NABLA Axioms. The key difference is automation: the NABLA Axioms are machine-enforced at the code level, not dependent on analyst discipline. ACH requires human analysts to consciously consider alternative hypotheses; Axiom 2 (Contradiction Preservation) automatically prevents hypothesis dismissal.
 
 ## Best Practices
 
@@ -494,7 +495,7 @@ Run axiom validation at data ingestion time, not just at decision time. Catching
 
 ### 3. Track Absence Explicitly
 
-When a search returns no results, create an explicit "absence record" documenting what was searched, when, with what parameters, and what was expected. This turns Axiom 3 from a conceptual principle into actionable data.
+When a search returns no results, create an explicit “absence record” documenting what was searched, when, with what parameters, and what was expected. This turns Axiom 3 from a conceptual principle into actionable data.
 
 ### 4. Set Appropriate Decay Rates
 
@@ -508,7 +509,7 @@ Provenance chains can break when upstream systems change their output formats, w
 
 ### 1. Treating Axioms as Optional Guidelines
 
-The axioms are hard constraints, not best practices. Systems that treat them as optional -- validating axioms only in production, skipping validation in development -- develop epistemic debt that compounds over time. The Prismatic Platform enforces axioms in all environments.
+The axioms are hard constraints, not best practices. Systems that treat them as optional — validating axioms only in production, skipping validation in development — develop epistemic debt that compounds over time. The Prismatic Platform enforces axioms in all environments.
 
 ### 2. Confusing Correlation with Independence
 
@@ -516,11 +517,11 @@ Two data sources that both scrape the same underlying API are not independent, e
 
 ### 3. Resolving Contradictions Prematurely
 
-The human instinct is to resolve contradictions immediately -- to decide which side is "right." Axiom 2 demands patience: preserve both sides, gather more evidence, and resolve only when the evidence supports a clear resolution. Premature resolution is a form of information destruction.
+The human instinct is to resolve contradictions immediately — to decide which side is “right.” Axiom 2 demands patience: preserve both sides, gather more evidence, and resolve only when the evidence supports a clear resolution. Premature resolution is a form of information destruction.
 
-### 4. Neglecting Time Decay for "Obvious" Truths
+### 4. Neglecting Time Decay for “Obvious” Truths
 
-Even facts that seem permanent can change. A company's domain ownership, a server's SSL certificate, a person's job title -- all change over time. Applying time decay universally, even to seemingly stable facts, prevents the accumulation of stale beliefs.
+Even facts that seem permanent can change. A company's domain ownership, a server's SSL certificate, a person's job title — all change over time. Applying time decay universally, even to seemingly stable facts, prevents the accumulation of stale beliefs.
 
 ### 5. Circular Provenance
 
@@ -534,7 +535,7 @@ When the [OSINT toolbox](@/glossary/osint.md) queries 120 sources about a target
 
 ### 2. Security Rating Computation
 
-The [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating system uses axiom-compliant belief formation. A security grade of "B" is never assigned from a single scan -- it requires multiple independent assessment signals, preservation of any contradicting findings, and a full provenance chain from raw scan data through scoring algorithms to the final rating.
+The [Prismatic Perimeter](https://prismatic-reality-com.github.io/prismatic-promo/glossary/prismatic-perimeter/) security rating system uses axiom-compliant belief formation. A security grade of “B” is never assigned from a single scan — it requires multiple independent assessment signals, preservation of any contradicting findings, and a full provenance chain from raw scan data through scoring algorithms to the final rating.
 
 ### 3. Agent Decision Making
 
@@ -542,27 +543,27 @@ When the 530+ [AIAD](@/glossary/aiad.md) agents make decisions, each decision mu
 
 ### 4. Quality Assessment
 
-The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) applies axiom-compliant reasoning to quality metrics. A quality score of doctrine-enforced is not accepted from a single analysis run -- it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
+The [Quality Floor Guardian](https://prismatic-reality-com.github.io/prismatic-promo/glossary/quality-floor-guardian/) applies axiom-compliant reasoning to quality metrics. A quality score of doctrine-enforced is not accepted from a single analysis run — it requires consistent results across multiple evaluation methods, acknowledgment of any quality dimensions where assessment is uncertain, and timestamps on every metric.
 
 ## Related Concepts
 
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- the overarching epistemic framework that the axioms ground and constrain
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Axiom 1: the requirement for multiple independent evidence sources
-- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) -- Axiom 2: the mandate to preserve rather than discard conflicting evidence
-- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) -- Axiom 4: mandatory temporal degradation of belief confidence
-- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) -- Axiom 7: full traceability requirement for all beliefs
-- [Trinity Gate](@/glossary/trinity-gate.md) -- the three-layer verification system that axioms feed into
-- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) -- the data structure that stores axiom-validated beliefs
-- [Addiction Recovery](@/glossary/addiction-recovery.md) -- the doctrine of constant vigilance against epistemic shortcuts
-- [Axiom Enforcement](https://prismatic-reality-com.github.io/prismatic-promo/glossary/axiom-enforcement/) -- the runtime machinery that enforces axiom compliance
-- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) -- the system property that axiom compliance produces
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — the overarching epistemic framework that the axioms ground and constrain
+- [Signal Plurality](@/glossary/signal-plurality.md) — Axiom 1: the requirement for multiple independent evidence sources
+- [Contradiction Preservation](https://prismatic-reality-com.github.io/prismatic-promo/glossary/contradiction-preservation/) — Axiom 2: the mandate to preserve rather than [discard](@/glossary/discard.md) conflicting evidence
+- [Time Decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) — Axiom 4: mandatory temporal degradation of belief confidence
+- [Provenance Mandatory](https://prismatic-reality-com.github.io/prismatic-promo/glossary/provenance-mandatory/) — Axiom 7: full traceability requirement for all beliefs
+- [Trinity Gate](@/glossary/trinity-gate.md) — the three-layer verification system that axioms feed into
+- [Belief Graph](https://prismatic-reality-com.github.io/prismatic-promo/glossary/belief-graph/) — the data structure that stores axiom-validated beliefs
+- [Addiction Recovery](@/glossary/addiction-recovery.md) — the doctrine of constant vigilance against epistemic shortcuts
+- [Axiom Enforcement](https://prismatic-reality-com.github.io/prismatic-promo/glossary/axiom-enforcement/) — the runtime machinery that enforces axiom compliance
+- [Epistemic Robustness](https://prismatic-reality-com.github.io/prismatic-promo/glossary/epistemic-robustness/) — the system property that axiom compliance produces
 
 ## See Also
 
-- [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) -- the execution doctrine that axioms constrain with epistemic rigor
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- the mathematical proof systems used in Trinity Gate Layer 3
-- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) -- the numeric confidence values that axioms contextualize
-- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) -- the raw data that axioms evaluate and validate
+- [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) — the execution doctrine that axioms constrain with epistemic rigor
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) — the mathematical proof systems used in Trinity Gate Layer 3
+- [Confidence Scoring](https://prismatic-reality-com.github.io/prismatic-promo/glossary/confidence-scoring/) — the numeric confidence values that axioms contextualize
+- [Evidence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/evidence/) — the raw data that axioms evaluate and validate
 
 ---
 

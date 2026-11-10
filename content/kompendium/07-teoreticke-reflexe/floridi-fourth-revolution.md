@@ -19,7 +19,7 @@ toc = true
 
 Luciano Floridi — italsko-britský filozof, profesor digitální etiky na Yale a Oxfordu — v knihách *The Philosophy of Information* (2011), *The Fourth Revolution* (2014) a *The Logic of Information* (2019) formuluje **systematickou filozofii informace** — strukturálně novou oblast filozofie zabývající se **informací** jako **fundamentální** kategorií.
 
-Pro kompendium EA poskytuje Floridiho rámec nástroj pro pochopení **EA jako fenoménu strukturální informační ontologie** — manipulace probíhá v **infosféře**, jež je strukturálně novou formou existence.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Floridiho rámec nástroj pro pochopení **EA jako fenoménu strukturální informační ontologie** — manipulace probíhá v **infosféře**, jež je strukturálně novou formou existence.
 
 ## 1. Čtvrtá revoluce
 
@@ -96,7 +96,7 @@ Strukturálně klíčový moment: **post-2000** vstupujeme do hyperhistory — f
 Pro EA z toho plyne:
 
 - **Strukturální zranitelnost hyperhistorie**: přerušení ICT je strukturálně **kataclysmické**
-- **EA v hyperhistorii**: strukturálně závažnější než v history — neexistuje "fallback" mode
+- **EA v hyperhistorii**: strukturálně závažnější než v history — neexistuje „fallback“ mode
 
 ## 6. Right to be forgotten
 

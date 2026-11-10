@@ -7,7 +7,7 @@ description = "Maximum isolation theoretical threat modeling team producing abst
 tags = ["glossary", "security", "black-team", "prismatic", "adversarial", "threat-modeling", "color-teams"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 domain = "adversarial-security"
 complexity = "expert"
 stability = "mature"
@@ -27,13 +27,13 @@ image_alt = "Black Team - Prismatic Platform"
 
 ## Definition
 
-The Black Team is the most restricted operational domain within the Prismatic Platform's six-team [Color Teams](@/glossary/color-teams.md) security architecture. Comprising exactly two agents operating under MAXIMUM isolation constraints, Black Team performs pure epistemic simulation of worst-case adversarial optimization. Its sole output is abstract threat models -- theoretical constructs that describe the shape and dynamics of potential attacks without providing any executable, reproducible, or directly actionable exploit knowledge. The team exists at the boundary between security research and theoretical risk analysis, occupying a space analogous to mathematical threat modeling in academic cryptography.
+The Black Team is the most restricted operational domain within the Prismatic Platform's six-team [Color Teams](@/glossary/color-teams.md) security architecture. Comprising exactly two agents operating under MAXIMUM isolation constraints, Black Team performs pure epistemic simulation of worst-case adversarial optimization. Its sole output is abstract threat models — theoretical constructs that describe the shape and dynamics of potential attacks without providing any executable, reproducible, or directly actionable exploit knowledge. The team exists at the boundary between security research and theoretical risk analysis, occupying a space analogous to mathematical threat modeling in academic cryptography.
 
-The isolation constraints governing Black Team are absolute and non-negotiable. Zero network connectivity, zero access to production data or state, zero capability to produce executable content, and mandatory output filtering through a four-level abstraction pipeline. These constraints are not administrative policies that can be overridden by authority -- they are structural limitations enforced at the runtime level. Even an L5 Supreme authority agent cannot grant Black Team network access, because the access path does not exist in the Black Team execution environment.
+The isolation constraints governing Black Team are absolute and non-negotiable. Zero network connectivity, zero access to production data or state, zero capability to produce executable content, and mandatory output filtering through a four-level abstraction pipeline. These constraints are not administrative policies that can be overridden by authority — they are structural limitations enforced at the runtime level. Even an L5 Supreme authority agent cannot grant Black Team network access, because the access path does not exist in the Black Team execution environment.
 
-The philosophical foundation of Black Team rests on a critical insight: understanding how adversaries think -- their optimization strategies, their exploitation patterns, their strategic priorities -- is essential for building robust defenses, but the knowledge generated during that understanding process must be handled with extreme care. Black Team resolves this tension by operating exclusively at the abstract level, producing threat models that inform defensive strategy without creating a roadmap for actual attacks.
+The philosophical foundation of Black Team rests on a critical insight: understanding how adversaries think — their optimization strategies, their exploitation patterns, their strategic priorities — is essential for building robust defenses, but the knowledge generated during that understanding process must be handled with extreme care. Black Team resolves this tension by operating exclusively at the abstract level, producing threat models that inform defensive strategy without creating a roadmap for actual attacks.
 
-In traditional security operations, the distinction between red team and black team is often informal. Red teams conduct hands-on adversarial simulation -- actual penetration testing, social engineering, and exploit development. Black teams, where they exist, operate at a higher abstraction level: they model the adversary's decision-making process, resource allocation, and strategic objectives without producing any executable artifacts. The Prismatic Platform formalizes this distinction with structural enforcement, ensuring that Black Team output can never cross the boundary from theoretical to operational.
+In traditional security operations, the distinction between red team and black team is often informal. Red teams conduct hands-on adversarial simulation — actual penetration testing, social engineering, and exploit development. Black teams, where they exist, operate at a higher abstraction level: they model the adversary's decision-making process, resource allocation, and strategic objectives without producing any executable artifacts. The Prismatic Platform formalizes this distinction with structural enforcement, ensuring that Black Team output can never cross the boundary from theoretical to operational.
 
 ## Core Concepts
 
@@ -67,7 +67,7 @@ The distinction between [Red Team](@/glossary/red-team.md) and Black Team is fun
 
 ### Penetration Testing Context
 
-Black Team's relationship to penetration testing is indirect but essential. Traditional penetration testing follows a methodology: reconnaissance, scanning, gaining access, maintaining access, and covering tracks. Black Team operates upstream of this entire process -- it models what classes of vulnerabilities an adversary would prioritize, what attack surfaces offer the highest return on investment, and what defensive gaps create systemic risk. This abstract analysis then informs [Red Team](@/glossary/red-team.md) scenario design and [Blue Team](@/glossary/blue-team.md) defensive prioritization.
+Black Team's relationship to penetration testing is indirect but essential. Traditional penetration testing follows a methodology: reconnaissance, scanning, gaining access, maintaining access, and covering tracks. Black Team operates upstream of this entire process — it models what classes of vulnerabilities an adversary would prioritize, what attack surfaces offer the highest return on investment, and what defensive gaps create systemic risk. This abstract analysis then informs [Red Team](@/glossary/red-team.md) scenario design and [Blue Team](@/glossary/blue-team.md) defensive prioritization.
 
 | Penetration Testing Phase | Black Team Contribution |
 |--------------------------|------------------------|
@@ -81,7 +81,7 @@ Black Team's relationship to penetration testing is indirect but essential. Trad
 
 ### Agent Architecture
 
-Black Team maintains the smallest agent composition of any [Color Team](@/glossary/color-teams.md), with exactly two agents. This minimal design is intentional -- it limits the surface area of the most sensitive operational domain while ensuring the necessary separation of concerns between threat theorizing and safety enforcement.
+Black Team maintains the smallest agent composition of any [Color Team](@/glossary/color-teams.md), with exactly two agents. This minimal design is intentional — it limits the surface area of the most sensitive operational domain while ensuring the necessary separation of concerns between threat theorizing and safety enforcement.
 
 #### black-theorist-commander (L3 Strategic Commander, ISOLATED)
 
@@ -142,7 +142,7 @@ The policy is enforced by the abstraction enforcer at the output boundary and ve
 
 ### Weaponization Risk Assessment
 
-Black Team's primary analytical output is weaponization risk assessment -- the evaluation of how theoretical vulnerabilities or attack strategies might be converted into operational weapons by real-world adversaries. This assessment framework operates at three dimensions:
+Black Team's primary analytical output is weaponization risk assessment — the evaluation of how theoretical vulnerabilities or attack strategies might be converted into operational weapons by real-world adversaries. This assessment framework operates at three dimensions:
 
 **Feasibility Dimension**: How technically achievable is the theoretical attack given current publicly available tools and knowledge? This dimension evaluates whether the abstract threat model describes something that is merely theoretically possible or something that a motivated adversary could plausibly execute.
 
@@ -150,7 +150,7 @@ Black Team's primary analytical output is weaponization risk assessment -- the e
 
 **Novelty Dimension**: Does the threat model describe a known attack class (well-defended) or a novel attack class (potentially undefended)? Novel threats receive elevated priority in the signal flow to [Purple Team](@/glossary/purple-team.md) for synthesis and [Blue Team](@/glossary/blue-team.md) for defensive posture assessment.
 
-The weaponization risk assessment output feeds into the broader [Color Teams](@/glossary/color-teams.md) signal flow, where it informs Red Team scenario generation and Blue Team defensive prioritization -- always at L1-L2 abstraction levels.
+The weaponization risk assessment output feeds into the broader [Color Teams](@/glossary/color-teams.md) signal flow, where it informs Red Team scenario generation and Blue Team defensive prioritization — always at L1-L2 abstraction levels.
 
 ### Signal Flow Architecture
 
@@ -169,7 +169,7 @@ Purple Team (synthesizes with Blue Team findings)
 Blue Team (builds defensive posture)
 ```
 
-[White Team](@/glossary/white-team.md) may occasionally validate Black Team's logical consistency through [formal verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) using [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, but this verification operates on the abstract output only -- White Team never accesses Black Team's internal reasoning processes.
+[White Team](@/glossary/white-team.md) may occasionally validate Black Team's logical consistency through [formal verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) using [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) proofs, but this verification operates on the abstract output only — White Team never accesses Black Team's internal reasoning processes.
 
 The [Purple Team](@/glossary/purple-team.md) coordinator may reference Black Team output when performing Red-Blue loop closure, but only through the filtered, abstracted versions that have passed through the AbstractionFilter. Purple Team has no authority to request lower-abstraction output from Black Team.
 
@@ -425,64 +425,65 @@ end
 
 ## Best Practices
 
-1. **Maintain strict L1-L2 output discipline** -- every Black Team artifact must be independently verifiable as abstract before transmission to Red Team. When in doubt, classify at L1.
+1. **Maintain strict L1-L2 output discipline** — every Black Team artifact must be independently verifiable as abstract before transmission to Red Team. When in doubt, classify at L1.
 
-2. **Use the three-dimensional weaponization framework consistently** -- feasibility, impact, and novelty scores must be computed for every threat model, not just high-priority ones. Low-scoring models still inform the threat landscape.
+2. **Use the three-dimensional weaponization framework consistently** — feasibility, impact, and novelty scores must be computed for every threat model, not just high-priority ones. Low-scoring models still inform the threat landscape.
 
-3. **Preserve the one-directional signal flow** -- Black Team must never receive direct input from other teams. External influence could bias independent threat modeling and undermine the analytical value of abstract assessment.
+3. **Preserve the one-directional signal flow** — Black Team must never receive direct input from other teams. External influence could bias independent threat modeling and undermine the analytical value of abstract assessment.
 
-4. **Rotate threat class focus across campaigns** -- avoid over-indexing on a single threat class. Information asymmetry, trust chain degradation, resource exhaustion, state corruption, and signal manipulation each require dedicated analytical cycles.
+4. **Rotate threat class focus across campaigns** — avoid over-indexing on a single threat class. Information asymmetry, trust chain degradation, resource exhaustion, state corruption, and signal manipulation each require dedicated analytical cycles.
 
-5. **Validate abstraction levels through White Team formal verification** -- whenever possible, submit critical threat models to [White Team](@/glossary/white-team.md) for [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) logical consistency proof. This catches reasoning errors without exposing internal processes.
+5. **Validate abstraction levels through White Team formal verification** — whenever possible, submit critical threat models to [White Team](@/glossary/white-team.md) for [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) logical consistency proof. This catches reasoning errors without exposing internal processes.
 
-6. **Monitor audit trail completeness continuously** -- gaps in the immutable audit trail indicate potential enforcement failures. Every operation must have a corresponding audit entry.
+6. **Monitor audit trail completeness continuously** — gaps in the immutable audit trail indicate potential enforcement failures. Every operation must have a corresponding audit entry.
 
-7. **Apply NABLA Contradiction Preservation to divergent models** -- when the theorist-commander generates conflicting threat models for the same threat class, preserve both rather than resolving the contradiction. Conflicting models often reveal hidden assumptions.
+7. **Apply NABLA Contradiction Preservation to divergent models** — when the theorist-commander generates conflicting threat models for the same threat class, preserve both rather than resolving the contradiction. Conflicting models often reveal hidden assumptions.
 
-8. **Implement campaign-level time bounds** -- threat modeling campaigns should have explicit time limits to prevent analytical drift. Black Team operations are intensive and benefit from focused, time-bounded execution.
+8. **Implement campaign-level time bounds** — threat modeling campaigns should have explicit time limits to prevent analytical drift. Black Team operations are intensive and benefit from focused, time-bounded execution.
 
-9. **Cross-reference weaponization scores with historical data** -- compare current campaign scores against previous campaigns to identify trends in adversary capability evolution. Rising feasibility scores in a threat class signal increasing real-world risk.
+9. **Cross-reference weaponization scores with historical data** — compare current campaign scores against previous campaigns to identify trends in adversary capability evolution. Rising feasibility scores in a threat class signal increasing real-world risk.
 
-10. **Never attempt to expand Black Team agent count** -- the two-agent architecture (theorist + enforcer) is a deliberate design constraint. Adding agents increases surface area without proportional analytical benefit.
+10. **Never attempt to expand Black Team agent count** — the two-agent architecture (theorist + enforcer) is a deliberate design constraint. Adding agents increases surface area without proportional analytical benefit.
 
 ## Related Terms
 
-- [Color Teams](@/glossary/color-teams.md) -- Full overview of all 6 adversarial-defensive security teams
-- [Gray Team](@/glossary/gray-team.md) -- Boundary exploration team with escalation guard preventing Black access
-- [Red Team](@/glossary/red-team.md) -- Adversarial simulation team consuming Black Team's abstract threat models
-- [Blue Team](@/glossary/blue-team.md) -- Epistemic defense team building posture informed by threat models
-- [Purple Team](@/glossary/purple-team.md) -- Synthesis team mediating findings across all teams
-- [White Team](@/glossary/white-team.md) -- Constructive verification team validating logical consistency
-- [Agent Tier](@/glossary/agent-tier.md) -- L1-L5 classification system; Black Team agents are L3
-- [Agent Registry](@/glossary/agent-registry.md) -- Central catalog where Black Team agents are registered
-- [NABLA Infinity](@/glossary/nabla-infinity.md) -- Epistemic framework governing abstraction constraints
-- [Trinity Gate](@/glossary/trinity-gate.md) -- Verification gate that Black Team output must pass
-- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) -- Techniques used to validate Black Team logical consistency
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- Theorem prover used in White Team validation of Black output
-- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) -- Strategic intelligence derived from Black Team models
-- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) -- 16-level pipeline through which filtered output flows
-- [Penetration Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/penetration-testing/) -- Operational testing informed by Black Team analysis
-- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) -- Platform traits that Black Team threat models help protect
+- [Color Teams](@/glossary/color-teams.md) — Full overview of all 6 adversarial-defensive security teams
+- [Gray Team](@/glossary/gray-team.md) — Boundary exploration team with escalation guard preventing Black access
+- [Red Team](@/glossary/red-team.md) — Adversarial simulation team consuming Black Team's abstract threat models
+- [Blue Team](@/glossary/blue-team.md) — Epistemic defense team building posture informed by threat models
+- [Purple Team](@/glossary/purple-team.md) — Synthesis team mediating findings across all teams
+- [White Team](@/glossary/white-team.md) — Constructive verification team validating logical consistency
+- [Agent Tier](@/glossary/agent-tier.md) — L1-L5 classification system; Black Team agents are L3
+- [Agent Registry](@/glossary/agent-registry.md) — Central catalog where Black Team agents are registered
+- [NABLA Infinity](@/glossary/nabla-infinity.md) — Epistemic framework governing abstraction constraints
+- [Trinity Gate](@/glossary/trinity-gate.md) — Verification gate that Black Team output must pass
+- [Formal Verification](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-verification/) — Techniques used to validate Black Team logical consistency
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) — Theorem prover used in White Team validation of Black output
+- [Threat Intelligence](https://prismatic-reality-com.github.io/prismatic-promo/glossary/threat-intelligence/) — Strategic intelligence derived from Black Team models
+- [Epistemic Pipeline](@/glossary/epistemic-pipeline.md) — 16-level pipeline through which filtered output flows
+- [Penetration Testing](https://prismatic-reality-com.github.io/prismatic-promo/glossary/penetration-testing/) — Operational testing informed by Black Team analysis
+- [Consciousness Traits](https://prismatic-reality-com.github.io/prismatic-promo/glossary/consciousness-traits/) — Platform traits that Black Team threat models help protect
 
 ## Ethical Framework
 
 Black Team operations are governed by strict ethical boundaries that complement the technical isolation protocols:
 
 - **Authorization Context**: All Black Team operations fall exclusively under CTF challenges, defensive security research, and authorized penetration testing contexts
-- **Simulation Only**: All analysis uses synthetic data and hypothetical scenarios -- never real organizations, individuals, or systems
+- **Simulation Only**: All analysis uses synthetic data and hypothetical scenarios — never real organizations, individuals, or systems
 - **Defensive Purpose**: Every threat model must serve a demonstrable defensive purpose; purely academic exploration without defensive application is not permitted
-- **Proportionality**: The depth of threat analysis must be proportional to the defensive need -- maximum-depth analysis is reserved for the most critical defensive gaps
+- **Proportionality**: The depth of threat analysis must be proportional to the defensive need — maximum-depth analysis is reserved for the most critical defensive gaps
 - **Review Requirements**: All Black Team campaigns are subject to post-operation review, with the immutable audit trail providing complete transparency
 
 These ethical constraints are enforced through the same mechanisms as the technical constraints: continuous monitoring, immutable audit trails, and the abstraction enforcer's safety-critical override authority. The result is a threat modeling capability that provides genuine defensive value while maintaining the highest possible ethical standards.
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Platform architecture overview
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- Platform capability catalog
-- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) -- Full agent catalog including Black Team agents
-- {{ <cross_link path="/security/" text="Security" /> }} -- Security architecture and operations
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Platform architecture overview
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — Platform capability catalog
+- [Agents](https://prismatic-reality-com.github.io/prismatic-promo/agents/) — Full agent catalog including Black Team agents
+- {{ <cross_link path="/security/" text="Security" /> }} — Security architecture and operations
+- [Bridge: black-team](@/kompendium/glossary-bridges/bridge-black-team.md) – most mezi heslem a kapitolami knihy.
 
 ---
 

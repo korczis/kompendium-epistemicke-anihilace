@@ -7,7 +7,7 @@ description = "Adversarial simulation team using 5 epistemic attack primitives i
 tags = ["adversarial-security", "epistemic-attacks", "color-teams", "threat-simulation", "sandbox-isolation", "penetration-testing", "attack-taxonomy"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["color-teams", "blue-team", "purple-team", "nabla-infinity", "black-team", "gray-team", "tactical-execution", "white-team", "signal-plurality", "trinity-gate"]
 difficulty = "advanced"
 importance = "critical"
@@ -36,11 +36,11 @@ image_alt = "Red Team - Prismatic Platform"
 
 ## Definition and Overview
 
-The Red Team is a specialized security operations unit within the Prismatic Platform's six-team Color Team architecture that conducts adversarial simulation exercises to identify vulnerabilities, weaknesses, and failure modes in systems, processes, and epistemic defenses. Originating from Cold War military exercises where a dedicated "red" force simulated enemy tactics against defending "blue" forces, the concept has evolved into a cornerstone of modern cybersecurity, AI safety, and epistemic security practices. In the Prismatic Platform, the Red Team extends this tradition into the domain of epistemic security, targeting the integrity of knowledge systems, reasoning pipelines, and decision-making processes rather than just network infrastructure.
+The Red Team is a specialized security operations unit within the Prismatic Platform's six-team Color Team architecture that conducts adversarial simulation exercises to identify vulnerabilities, weaknesses, and failure modes in systems, processes, and epistemic defenses. Originating from Cold War military exercises where a dedicated “red” force simulated enemy tactics against defending “blue” forces, the concept has evolved into a cornerstone of modern cybersecurity, AI safety, and [epistemic security](@/glossary/epistemic-security.md) practices. In the Prismatic Platform, the Red Team extends this tradition into the domain of epistemic security, targeting the integrity of knowledge systems, reasoning pipelines, and decision-making processes rather than just network infrastructure.
 
-The Prismatic Platform's Red Team operates as one of six color teams -- alongside [Gray Team](@/glossary/gray-team.md), [Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [White Team](@/glossary/white-team.md), and [Black Team](@/glossary/black-team.md) -- forming a comprehensive adversarial-defensive synthesis architecture governed by the [NO MERCY, NO DOUBTS](@/glossary/nm-nd.md) doctrine. The Red Team consists of 4 agents operating in a hierarchical command structure, simulating epistemic attacks using five defined primitives and generating adversarial scenarios from a comprehensive 329-entry attack taxonomy. All operations are sandboxed with synthetic data and zero network access, ensuring that adversarial simulations cannot affect production systems or real data.
+The Prismatic Platform's Red Team operates as one of six color teams — alongside [Gray Team](@/glossary/gray-team.md), [Blue Team](@/glossary/blue-team.md), [Purple Team](@/glossary/purple-team.md), [White Team](@/glossary/white-team.md), and [Black Team](@/glossary/black-team.md) — forming a comprehensive adversarial-defensive synthesis architecture governed by the [NO MERCY, NO DOUBTS](@/glossary/nm-nd.md) doctrine. The Red Team consists of 4 agents operating in a hierarchical command structure, simulating epistemic attacks using five defined primitives and generating adversarial scenarios from a comprehensive 329-entry attack taxonomy. All operations are sandboxed with synthetic data and zero network access, ensuring that adversarial simulations cannot affect production systems or real data.
 
-The distinction between traditional Red Teaming and epistemic Red Teaming is fundamental to understanding the platform's security model. Traditional Red Teams target network infrastructure, applications, and physical security perimeters. Epistemic Red Teams target the integrity of belief formation, evidence evaluation, and confidence calibration -- areas where subtle manipulation can have outsized impact on system behavior without triggering conventional security alarms.
+The distinction between traditional Red Teaming and epistemic Red Teaming is fundamental to understanding the platform's security model. Traditional Red Teams target network infrastructure, applications, and physical security perimeters. Epistemic Red Teams target the integrity of belief formation, evidence evaluation, and confidence calibration — areas where subtle manipulation can have outsized impact on system behavior without triggering conventional security alarms.
 
 | Aspect | Traditional Red Team | Epistemic Red Team (Prismatic) |
 |--------|--------------------|--------------------|
@@ -56,7 +56,7 @@ The distinction between traditional Red Teaming and epistemic Red Teaming is fun
 
 The Red Team's operations are structured around five fundamental attack primitives that cover the full spectrum of epistemic manipulation. These primitives were derived from analysis of historical epistemic failures in AI systems, intelligence analysis, and decision-support platforms, and represent the minimal complete set needed to model adversarial behavior against knowledge systems.
 
-**1. Truth Distortion**: Modifying the factual content of information sources to introduce inaccuracies. This includes subtle alterations that pass surface-level verification but corrupt downstream reasoning. The `red-epistemic-attacker` agent specializes in crafting distortions that exploit the gap between syntactic validity and semantic correctness. For example, modifying a security rating calculation by 2% -- small enough to avoid threshold alerts but sufficient to change a grade boundary from B to C when aggregated across multiple data points.
+**1. Truth Distortion**: Modifying the factual content of information sources to introduce inaccuracies. This includes subtle alterations that pass surface-level verification but corrupt downstream reasoning. The `red-epistemic-attacker` agent specializes in crafting distortions that exploit the gap between syntactic validity and semantic correctness. For example, modifying a security rating calculation by 2% — small enough to avoid threshold alerts but sufficient to change a grade boundary from B to C when aggregated across multiple data points.
 
 **2. Confidence Manipulation**: Inflating or deflating confidence scores associated with beliefs or evidence without changing the underlying facts. This attack exploits systems that use confidence thresholds for decision-making, pushing marginal decisions across threshold boundaries. In the context of [NABLA Infinity](@/glossary/nabla-infinity.md), confidence manipulation targets the transition point between exploration (confidence < 0.95) and execution (confidence >= 0.95), potentially causing premature commitment or indefinite deferral.
 
@@ -176,7 +176,7 @@ Gray Team (boundary seeds) --> Red Team (adversarial scenarios)
                               Black Team (theoretical threat models feed Red scenarios)
 ```
 
-The [Gray Team](@/glossary/gray-team.md) provides boundary exploration seeds -- specification gaps, edge cases, and ambiguity zones -- that the Red Team transforms into concrete adversarial scenarios. The [Black Team](@/glossary/black-team.md) provides theoretical threat models that inform Red Team strategy at the abstract level. Red Team findings flow to both the Purple Team (for synthesis with Blue Team defensive findings) and directly to the Blue Team (for immediate defensive posture updates). The [White Team](@/glossary/white-team.md) subsequently validates that remediation efforts have actually addressed the vulnerabilities the Red Team identified.
+The [Gray Team](@/glossary/gray-team.md) provides boundary exploration seeds — specification gaps, edge cases, and ambiguity zones — that the Red Team transforms into concrete adversarial scenarios. The [Black Team](@/glossary/black-team.md) provides theoretical threat models that inform Red Team strategy at the abstract level. Red Team findings flow to both the Purple Team (for synthesis with Blue Team defensive findings) and directly to the Blue Team (for immediate defensive posture updates). The [White Team](@/glossary/white-team.md) subsequently validates that remediation efforts have actually addressed the vulnerabilities the Red Team identified.
 
 ## Sandbox Isolation Architecture
 
@@ -245,11 +245,11 @@ defmodule PrismaticDark.Sandbox do
 end
 ```
 
-The sandbox isolation is not merely a best practice -- it is a non-negotiable safety requirement enforced at the infrastructure level. Even "read-only" network access could leak information about adversarial capabilities or internal platform structure. The ethics check interval ensures that automated ethical validation runs every 10 seconds during active operations, preventing scope creep from adversarial thinking into genuinely harmful territory.
+The sandbox isolation is not merely a best practice — it is a non-negotiable safety requirement enforced at the infrastructure level. Even “read-only” network access could leak information about adversarial capabilities or internal platform structure. The ethics check interval ensures that automated ethical validation runs every 10 seconds during active operations, preventing scope creep from adversarial thinking into genuinely harmful territory.
 
 ## Campaign Execution
 
-Red Team operations are organized into campaigns -- structured sequences of adversarial scenarios designed to test specific aspects of platform defenses. Campaigns provide the organizational structure for multi-scenario testing, producing structured findings that the [Purple Team](@/glossary/purple-team.md) uses for adversarial-defensive synthesis.
+Red Team operations are organized into campaigns — structured sequences of adversarial scenarios designed to test specific aspects of platform defenses. Campaigns provide the organizational structure for multi-scenario testing, producing structured findings that the [Purple Team](@/glossary/purple-team.md) uses for adversarial-defensive synthesis.
 
 ```elixir
 defmodule PrismaticDark.RedTeam.Campaign do
@@ -351,7 +351,7 @@ Within the Prismatic Platform, the Red Team serves several critical functions th
 
 **Scenario Library Maintenance**: The `red-scenario-generator` maintains and expands the 329-entry taxonomy based on emerging threats, new platform capabilities, and findings from [Black Team](@/glossary/black-team.md) theoretical threat models. Each new scenario is classified by primitive, complexity, target subsystem, and detection difficulty, ensuring comprehensive coverage of the adversarial landscape.
 
-**NABLA Axiom Stress Testing**: Each of the seven NABLA axioms (Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, Provenance Mandatory) has dedicated Red Team scenarios designed to probe its enforcement boundaries. This systematic coverage ensures that the epistemic framework is not merely theoretically sound but practically resilient under adversarial pressure.
+**NABLA Axiom Stress Testing**: Each of the seven [NABLA axioms](@/glossary/nabla-axioms.md) (Signal Plurality, Contradiction Preservation, Absence Informative, Time Decay, Unknown Valid, Source Independence, Provenance Mandatory) has dedicated Red Team scenarios designed to probe its enforcement boundaries. This systematic coverage ensures that the epistemic framework is not merely theoretically sound but practically resilient under adversarial pressure.
 
 ## Telemetry and Observability
 
@@ -395,7 +395,7 @@ end
 
 ## Safety Protocols
 
-The Red Team operates under strict safety protocols that are non-negotiable and non-bypassable. These protocols are enforced at multiple layers -- code, infrastructure, and organizational -- to ensure defense in depth against safety boundary violations.
+The Red Team operates under strict safety protocols that are non-negotiable and non-bypassable. These protocols are enforced at multiple layers — code, infrastructure, and organizational — to ensure defense in depth against safety boundary violations.
 
 | Protocol | Enforcement | Verification |
 |----------|-------------|-------------|
@@ -430,21 +430,21 @@ The safety protocols are designed with the assumption that adversarial thinking 
 
 ## Common Pitfalls
 
-- **Scope Creep**: Adversarial thinking can drift from testing defenses to developing actual attack capabilities. Strict escalation guards and the [Gray Team](@/glossary/gray-team.md) escalation guard prevent this transition. The boundary between "testing a defense" and "developing an attack" requires constant vigilance.
+- **Scope Creep**: Adversarial thinking can drift from testing defenses to developing actual attack capabilities. Strict escalation guards and the [Gray Team](@/glossary/gray-team.md) escalation guard prevent this transition. The boundary between “testing a defense” and “developing an attack” requires constant vigilance.
 
-- **False Confidence from Defended Results**: A scenario classified as "defended" only proves the specific attack vector was blocked. Variations may succeed. Composite scenarios test defense robustness against novel combinations that individual basic scenarios cannot reveal.
+- **False Confidence from Defended Results**: A scenario classified as “defended” only proves the specific attack vector was blocked. Variations may succeed. Composite scenarios test defense robustness against novel combinations that individual basic scenarios cannot reveal.
 
 - **Ignoring Sub-Threshold Findings**: Partial bypasses and near-misses often indicate more significant vulnerabilities than clean failures. The Purple Team's closure analyst specifically watches for patterns in partial results that suggest systemic weaknesses.
 
-- **Network Isolation Violations**: Even "read-only" network access can leak information about adversarial capabilities or internal architecture. Zero network access is non-negotiable for Red and Black Team operations.
+- **Network Isolation Violations**: Even “read-only” network access can leak information about adversarial capabilities or internal architecture. Zero network access is non-negotiable for Red and Black Team operations.
 
 - **Taxonomy Staleness**: Attack taxonomies require continuous updates as the platform evolves. New features create new attack surfaces. The 329-entry taxonomy is a living document, not a fixed reference.
 
-- **Premature Campaign Termination**: Stopping a campaign after initial "defended" results misses the graduated complexity that composite scenarios provide. Always complete the full campaign plan.
+- **Premature Campaign Termination**: Stopping a campaign after initial “defended” results misses the graduated complexity that composite scenarios provide. Always complete the full campaign plan.
 
 ## Historical Context and Industry Evolution
 
-Red Teaming traces its roots to Cold War military strategy, where NATO forces designated adversary simulation units with the "red" designation. The practice entered cybersecurity through military and intelligence community adoption in the 1990s, became mainstream with the publication of NIST SP 800-115 (Technical Guide to Information Security Testing and Assessment), and evolved further with the MITRE ATT&CK framework's systematic cataloging of adversary tactics, techniques, and procedures.
+Red Teaming traces its roots to Cold War military strategy, where NATO forces designated adversary simulation units with the “red” designation. The practice entered cybersecurity through military and intelligence community adoption in the 1990s, became mainstream with the publication of NIST SP 800-115 (Technical Guide to Information Security Testing and Assessment), and evolved further with the MITRE ATT&CK framework's systematic cataloging of adversary tactics, techniques, and procedures.
 
 The extension of Red Teaming to epistemic security represents the Prismatic Platform's contribution to this evolution. As AI systems increasingly participate in decision-making processes, the attack surface expands beyond traditional infrastructure to include the knowledge systems, reasoning pipelines, and confidence calibration mechanisms that AI relies upon. Epistemic Red Teaming addresses this expanded attack surface through the five primitives and 329-entry taxonomy.
 

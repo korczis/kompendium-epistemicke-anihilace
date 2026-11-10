@@ -8,7 +8,7 @@ description = "Complex Post-Traumatic Stress Disorder (Herman, ICD-11): diagnost
 tags = ["glossary", "epistemic", "kompendium", "trauma"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["betrayal-trauma", "epistemicka-anihilace", "metakognitivni-destrukce", "epistemicka-alienace", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -24,7 +24,7 @@ image_alt = "C-PTSD - glossary"
 
 ## Definition
 
-**Complex Post-Traumatic Stress Disorder (C-PTSD)** is a diagnostic category proposed by Judith Herman in *Trauma and Recovery* (1992) and formalized in **ICD-11 (6B41)** as a sibling diagnosis to PTSD. C-PTSD applies to survivors of **prolonged, repeated, interpersonal trauma** — captivity, organized abuse, coercive control, child abuse, trafficking, totalitarian institutions — situations from which escape is difficult or impossible and where the perpetrator exercises sustained dominance.
+**Complex Post-Traumatic Stress Disorder (C-PTSD)** is a diagnostic category proposed by Judith Herman in *Trauma and Recovery* (1992) and formalized in **ICD-11 (6B41)** as a sibling diagnosis to PTSD. C-PTSD applies to survivors of **prolonged, repeated, interpersonal trauma** — captivity, organized abuse, [coercive control](@/glossary/coercive-control.md), child abuse, trafficking, totalitarian institutions — situations from which escape is difficult or impossible and where the perpetrator exercises sustained dominance.
 
 The ICD-11 criteria require all three core PTSD elements (re-experiencing, avoidance, persistent threat sense) **plus** three **Disturbances of Self-Organization (DSO)** clusters: (1) **affective dysregulation** — heightened emotional reactivity, dissociative numbing; (2) **negative self-concept** — pervasive feelings of worthlessness, shame, guilt linked to the traumatic events; (3) **disturbances in relationships** — difficulty sustaining closeness, avoidance of relationships, distrust.
 

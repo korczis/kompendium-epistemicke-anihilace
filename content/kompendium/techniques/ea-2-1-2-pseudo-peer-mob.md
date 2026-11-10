@@ -47,7 +47,7 @@ Iniciátor (často soukromou komunikací — DM skupiny, mailing list, chat) **m
 
 ### Krok 2 — Synchronizace narativu
 
-Skupina **konverguje na společné formulace** — klíčová slova, frázování, "talking points". Žádný účastník nemusí znát plný plán; stačí, když souhlasí s několika body.
+Skupina **konverguje na společné formulace** — klíčová slova, frázování, „talking points“. Žádný účastník nemusí znát plný plán; stačí, když souhlasí s několika body.
 
 ### Krok 3 — Distribuovaný launch
 
@@ -55,7 +55,7 @@ Skupina **konverguje na společné formulace** — klíčová slova, frázován�
 
 ### Krok 4 — Amplifikace prostřednictvím retweetů
 
-Druhá vlna účastníků (kteří nemusí být součástí koordinace) **přidává svou váhu** — sdílí, "thread", komentuje. Tato vlna je **autentická**, ale celé pole je již **rámováno** koordinovanou první vlnou.
+Druhá vlna účastníků (kteří nemusí být součástí koordinace) **přidává svou váhu** — sdílí, „thread“, komentuje. Tato vlna je **autentická**, ale celé pole je již **rámováno** koordinovanou první vlnou.
 
 ### Krok 5 — Žádost o stanovisko
 
@@ -129,9 +129,9 @@ Co prožívá oběť pseudo-peer mob:
 
 ## Vztah k Prismatic platformě
 
-- **OSINT framework koordinační detekce** — pipelines analyzují **synchronizované publikační vzory** napříč sociálními sítěmi a flagují koordinované kampaně.
+- **[OSINT](@/glossary/osint.md) framework koordinační detekce** — pipelines analyzují **synchronizované publikační vzory** napříč sociálními sítěmi a flagují koordinované kampaně.
 - **NABLA Infinity** epistemická citační síť rozlišuje **nezávislé** od **kolinearních** zdrojů.
-- **Decision Engine** — penalizuje rozhodnutí založená na zdrojích s vysokou interní korelací (proxy pro koordinaci).
+- **[Decision Engine](@/glossary/decision-engine.md)** — penalizuje rozhodnutí založená na zdrojích s vysokou interní korelací (proxy pro koordinaci).
 
 ## Související
 

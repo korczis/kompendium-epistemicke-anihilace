@@ -134,7 +134,7 @@ s prvky pro tělesnou a spánkovou regulaci:
   toho, co sám viděl.
 - **S2 – Externalizace introjektů.** Práce s množným číslem: subjekt přepisoval vlastní věty
   z „my“ do „já“ a zjišťoval, se kterými skutečně souhlasí.
-- **S3 – Rekonstrukce metakognice.** Porovnání archivních nahrávek s vlastní pamětí a poznámkami;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Porovnání archivních nahrávek s vlastní pamětí a poznámkami;
   nácvik otázky „víme to, nebo to bylo řečeno?“.
 - **S4 – Hermeneutická obnova.** Oddělení vděku za to, co mu poslech dal v době smutku, od toho,
   co se stalo později. Obojí je pravdivé. Souběžně terapie zármutku.

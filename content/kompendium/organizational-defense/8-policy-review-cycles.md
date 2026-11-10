@@ -17,7 +17,7 @@ toc = true
 
 > **Bucket:** Governance · **Pillar:** Organizační obrana proti epistemickým útokům (EA)
 
-Zastaralé politiky vytvářejí mezery, kterými EA proniká — "podle pravidel z roku 2015" je červená vlajka.
+Zastaralé politiky vytvářejí mezery, kterými EA proniká — „podle pravidel z roku 2015“ je červená vlajka.
 
 ## 1. Organizační kontext
 
@@ -61,7 +61,7 @@ Následující signály indikují, že tento prvek obrany **nefunguje** nebo byl
 - Politiky se nemění léta, revize jsou kosmetické, nikdo neví, která verze platí.
 - Klíčové metriky se nezveřejňují nebo jsou retroaktivně upravovány
 - Osoby zodpovědné za tento prvek jsou izolovány, marginalizovány nebo propuštěny po nepříjemných zjištěních
-- Eskalace končí v "černé díře" bez odpovědi v rozumné lhůtě
+- Eskalace končí v „černé díře“ bez odpovědi v rozumné lhůtě
 - Externí auditoři dostávají omezený přístup k datům nebo lidem
 
 Pokud pozorujete **dva nebo více** těchto signálů současně, jedná se o **silný indikátor probíhajícího EA**
@@ -100,4 +100,3 @@ Verzovaný repozitář, mandatory peer review, sunset clauses na každé politic
 - **GitHub**: [github.com/korczis/kompendium-epistemicke-anihilace](https://github.com/korczis/kompendium-epistemicke-anihilace)
 - **LinkedIn**: [linkedin.com/in/korczis](https://linkedin.com/in/korczis)
 - **Kompendium**: [Hlavní index](@/kompendium/_index.md)
-

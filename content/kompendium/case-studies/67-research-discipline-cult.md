@@ -145,7 +145,7 @@ s úpravami pro vědecké prostředí:
   kariéry. Mapa ukázala, že šest různých rozhodnutí prošlo rukama čtyř osob.
 - **S2 – Externalizace introjektů.** Oddělení vlastního metodologického úsudku od převzatých
   vět („nerozumíš formalismu“, „nulový výsledek je chyba specifikace“).
-- **S3 – Rekonstrukce metakognice.** Opětovné prověření replikace s nezávislým statistikem;
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Opětovné prověření replikace s nezávislým statistikem;
   cílem nebylo potvrdit její výsledek, ale obnovit schopnost samostatně posoudit kvalitu důkazu
   ([hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md)).
 - **S4 – Hermeneutická obnova.** Překlad vlastních výsledků do jazyka sousedních oborů; práce

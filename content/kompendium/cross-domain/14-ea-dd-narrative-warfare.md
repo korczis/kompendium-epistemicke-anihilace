@@ -15,7 +15,7 @@ toc = true
 
 # EA × Due Diligence: Narrative Warfare v M&A
 
-> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **Due Diligence**.
+> **Cross-domain bridge** mezi Epistemic Attacks (EA) frameworkem a doménou **[Due Diligence](@/glossary/due-diligence.md)**.
 
 ## Doména
 
@@ -63,7 +63,6 @@ M&A announcement: 6h post-news, koordinovaná kampaň 'target's CEO has hidden c
 
 Deal during regulatory review: competing bidder seeded narrative o antitrust risks — pre-prepared FAQ deployed, regulator unaffected
 
-
 Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, které platforma detekovala v produkčních deploymentech. Detaily jsou redacted/composited pro privacy a security reasons.
 
 ## Cross-linky
@@ -78,7 +77,6 @@ Tyto scénáře nejsou hypotetické — odpovídají skutečným patternům, kte
 - [Educational scenarios](@/kompendium/educational-scenarios/_index.md)
 - [Case studies](@/kompendium/case-studies/_index.md)
 - [Quick reference](@/kompendium/quick-reference/_index.md)
-
 
 ## Connect
 

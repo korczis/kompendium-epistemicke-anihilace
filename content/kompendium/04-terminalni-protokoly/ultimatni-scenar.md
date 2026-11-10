@@ -56,7 +56,7 @@ Tělo subjektu je zatíženo kombinací deprivace (spánek, voda, jídlo, termor
 
 ### Vrstva B — kognitivní zahlcení
 
-Subjekt je vystaven informačnímu vstupu, který strukturálně **přesahuje kapacitu pracovní paměti** (typicky 7±2 chunks): souběžné úkoly, kontradiktorní instrukce, časové tlaky, šum, jazykové obtíže. Cílem je vyčerpání metakognitivních zdrojů a indukce stavu, v němž subjekt nemůže monitorovat vlastní kognitivní procesy. Tento mechanismus přímo souvisí s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) — subjekt ztrácí přístup k druhořádovému poznání ("vím, že vím / nevím").
+Subjekt je vystaven informačnímu vstupu, který strukturálně **přesahuje kapacitu pracovní paměti** (typicky 7±2 chunks): souběžné úkoly, kontradiktorní instrukce, časové tlaky, šum, jazykové obtíže. Cílem je vyčerpání metakognitivních zdrojů a indukce stavu, v němž subjekt nemůže monitorovat vlastní kognitivní procesy. Tento mechanismus přímo souvisí s [metakognitivní destrukcí](@/glossary/metakognitivni-destrukce.md) — subjekt ztrácí přístup k druhořádovému poznání („vím, že vím / nevím“).
 
 ### Vrstva C — emocionálně-sociální izolace
 
@@ -78,7 +78,7 @@ Vstupní okno (typicky první ~15–25 % celkové délky) je charakterizováno *
 
 ### Fáze T2 — plateau anankastické saturace
 
-Centrální fáze (~50–70 % délky) je **stabilizovaná na úrovni těsně pod prahem disociace**. Tento bod je analytickým srdcem scénáře: subjekt je v [anankastickém režimu](@/glossary/anankasticky-rezim.md), tj. ve stavu, ve kterém každá další volba je doprovázena pocitem nucení a každé nucení je doprovázeno pocitem volby. V legitimním kontextu plateau slouží jako pedagogická laboratoř pro pozorování vlastních reakčních vzorců; v destruktivním kontextu plateau slouží jako fáze pro **instalaci nových struktur do destabilizovaného systému**.
+Centrální fáze (~50–70 % délky) je **stabilizovaná na úrovni těsně pod prahem [disociace](@/glossary/disociace.md)**. Tento bod je analytickým srdcem scénáře: subjekt je v [anankastickém režimu](@/glossary/anankasticky-rezim.md), tj. ve stavu, ve kterém každá další volba je doprovázena pocitem nucení a každé nucení je doprovázeno pocitem volby. V legitimním kontextu plateau slouží jako pedagogická laboratoř pro pozorování vlastních reakčních vzorců; v destruktivním kontextu plateau slouží jako fáze pro **instalaci nových struktur do destabilizovaného systému**.
 
 ### Fáze T3 — terminální zlomová zóna
 
@@ -147,7 +147,7 @@ Strukturální profil ultimátního scénáře je relevantní pro několik vrste
 
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — detekční heuristiky pro identifikaci protokolu v dokumentech (HR, intelligence, edukativní programy) využívají invariantní strukturální markery T1/T2/T3.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — formální reprezentace epistemických trajektorií umožňuje modelovat průběh subjektu skrz vrstvy A–D.
-- **[Color Teams](@/glossary/color-teams.md)** — Red Team simulace adversariálních protokolů; Blue Team detekce a defenze.
+- **[Color Teams](@/glossary/color-teams.md)** — [Red Team](@/glossary/red-team.md) simulace adversariálních protokolů; [Blue Team](@/glossary/blue-team.md) detekce a defenze.
 
 Pro klinickou intervenci po expozici viz [Sekci 06](@/kompendium/06-klinicke-aplikace/_index.md). Pro forward references na specifické techniky (EA-1.X.Y rodina) viz [Sekci 05](@/kompendium/05-ultramari-techniky/_index.md) a její per-technique rozpracování.
 
@@ -178,7 +178,6 @@ Ukončení je vždy doprovázeno aktivací klinické intervence, debriefingem s 
 - Glosář: [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) · [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) · [Ontologická anihilace](@/glossary/ontologicka-anihilace.md) · [Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md) · [Anankastický režim](@/glossary/anankasticky-rezim.md) · [Epistemická alienace](@/glossary/epistemicka-alienace.md) · [Kognitivní anti-rekurzivita](@/glossary/kognitivni-anti-rekurzivita.md) · [Taxonomie EA](@/glossary/taxonomie-ea.md) · [Dual-use poznání](@/glossary/dual-use-poznani.md) · [Epistemické trauma](@/glossary/epistemicke-trauma.md) · [Gaslighting](@/glossary/gaslighting.md) · [Delegitimizace](@/glossary/delegitimizace.md)
 - Filozofie: [Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md) · [Epistemická integrita](@/philosophy/epistemic-integrity.md) · [Boundary ethics](@/philosophy/boundary-ethics.md)
 - Platforma: {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} · [NABLA Infinity](@/glossary/nabla-infinity.md) · [Color Teams](@/glossary/color-teams.md)
-
 
 ## ⚡ Kritický krok
 

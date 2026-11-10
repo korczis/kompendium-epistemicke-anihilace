@@ -7,7 +7,7 @@ description = "Executing a trained AI model to generate predictions or outputs"
 tags = ["glossary", "technology", "inference", "prismatic"]
 
 [extra]
-category = "technology"
+category = "architektura platformy"
 related_terms = ["ollama", "beam", "telemetry", "observability", "rate-limiting", "backpressure"]
 author = "Tomas Korcak (korczis)"
 reading_time = "4 min"
@@ -25,7 +25,7 @@ image_alt = "Inference - Prismatic Platform"
 
 Inference is the computational process of executing a trained artificial intelligence model to produce outputs (predictions, classifications, text generations, or decisions) from new, previously unseen inputs. Unlike training, which adjusts model parameters by iterating over datasets to minimize a loss function, inference applies the fixed, learned parameters to transform inputs into outputs in a single forward pass through the model's neural network architecture. In production systems, inference encompasses the complete pipeline: input preprocessing and tokenization, tensor construction, forward propagation through the model's layers, output sampling or decoding, and post-processing of results into application-consumable formats.
 
-Inference performance is characterized by three primary dimensions: latency (time-to-first-token and time-to-completion for generative models, or total response time for classification models), throughput (tokens per second or requests per second the system can sustain), and resource efficiency (memory consumption, GPU/CPU utilization, and energy cost per inference). These dimensions exist in tension -- optimizing for throughput through batching increases individual request latency, while minimizing latency through dedicated resources reduces throughput and increases cost. Production inference systems must navigate these tradeoffs based on application requirements, with interactive applications prioritizing latency and batch processing pipelines prioritizing throughput.
+Inference performance is characterized by three primary dimensions: latency (time-to-first-token and time-to-completion for generative models, or total response time for classification models), throughput (tokens per second or requests per second the system can sustain), and resource efficiency (memory consumption, GPU/CPU utilization, and energy cost per inference). These dimensions exist in tension — optimizing for throughput through batching increases individual request latency, while minimizing latency through dedicated resources reduces throughput and increases cost. Production inference systems must navigate these tradeoffs based on application requirements, with interactive applications prioritizing latency and batch processing pipelines prioritizing throughput.
 
 The distinction between training and inference has profound implications for system architecture. Training is a batch process requiring massive computational resources for hours or days, producing a model artifact. Inference is a real-time service requiring sustained, low-latency processing for the operational lifetime of the application. This difference means that training infrastructure (GPU clusters, distributed data pipelines) and inference infrastructure (serving frameworks, load balancers, model caches) are fundamentally different systems optimized for different workloads.
 
@@ -78,7 +78,7 @@ The inference landscape has evolved rapidly with the proliferation of Large Lang
 
 ### Tokenization and Input Processing
 
-Inference begins with converting raw input into the model's expected format. For LLMs, this means tokenization -- mapping text strings to integer token IDs using the model's vocabulary:
+Inference begins with converting raw input into the model's expected format. For LLMs, this means tokenization — mapping text strings to integer token IDs using the model's vocabulary:
 
 | Tokenizer | Vocabulary Size | Avg Tokens/Word | Used By |
 |-----------|----------------|-----------------|---------|
@@ -259,11 +259,11 @@ end
 
 - **Code Generation and Analysis**: Inference powers code generation for platform evolution, quality fix suggestions, and pattern detection. Models like qwen3-coder and deepseek-coder are optimized for understanding and generating Elixir code.
 
-- **OSINT Analysis**: Natural language processing inference extracts entities, relationships, and sentiment from unstructured OSINT data, feeding structured intelligence into the knowledge graph.
+- **[OSINT](@/glossary/osint.md) Analysis**: Natural language processing inference extracts entities, relationships, and sentiment from unstructured OSINT data, feeding structured intelligence into the knowledge graph.
 
 - **Security Classification**: Inference models classify security threats, assess vulnerability severity, and generate risk narratives for Prismatic Perimeter security ratings.
 
-- **Quality Evolution**: The autoevolve system uses inference to identify improvement opportunities, suggest refactoring patterns, and evaluate the impact of proposed changes across the platform's 90 umbrella applications.
+- **Quality Evolution**: The [autoevolve](@/glossary/autoevolve.md) system uses inference to identify improvement opportunities, suggest refactoring patterns, and evaluate the impact of proposed changes across the platform's 90 umbrella applications.
 
 ## Related Concepts
 
@@ -278,13 +278,13 @@ end
 
 ## See Also
 
-- [prismatic_ollama](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_ollama/README.md) -- Local AI inference runtime via Ollama
-- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) -- Agent system consuming inference for decision-making
-- [app_ai_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_safety/README.md) -- Safety monitoring for inference outputs
-- [app_ai_interpretability](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_interpretability/README.md) -- Interpretability analysis of inference results
-- [prismatic_telemetry](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_telemetry/README.md) -- Telemetry tracking inference performance metrics
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- AI inference architecture and integration patterns
-- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) -- AI and machine learning capabilities
+- [prismatic_ollama](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_ollama/README.md) — Local AI inference runtime via Ollama
+- [prismatic_agents](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_agents/README.md) — Agent system consuming inference for decision-making
+- [app_ai_safety](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_safety/README.md) — Safety monitoring for inference outputs
+- [app_ai_interpretability](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/app_ai_interpretability/README.md) — Interpretability analysis of inference results
+- [prismatic_telemetry](https://github.com/korczis/kompendium-epistemicke-anihilace/blob/main/apps/prismatic_telemetry/README.md) — Telemetry tracking inference performance metrics
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — AI inference architecture and integration patterns
+- [Capabilities](https://prismatic-reality-com.github.io/prismatic-promo/capabilities/) — AI and machine learning capabilities
 
 ---
 

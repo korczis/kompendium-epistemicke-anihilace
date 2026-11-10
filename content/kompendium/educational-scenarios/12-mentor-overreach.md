@@ -136,21 +136,26 @@ odkažte na rámec [coercive control](@/glossary/coercive-control.md) a na odbor
 ## Související
 
 **Navazující scénáře**
+
 - [Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md) – podobný vztah v doktorském vedení.
 - [Náborové techniky kultu](@/kompendium/educational-scenarios/18-cult-recruitment.md) – tentýž gradient ve skupinovém kontextu.
 
 **Techniky**
+
 - [EA-2.2.2 Mentee Isolation](@/kompendium/techniques/ea-2-2-2-mentee-isolation.md) – izolace mentorovaného.
 - [EA-2.2.6 Time Control Academic](@/kompendium/techniques/ea-2-2-6-time-control-academic.md) – kontrola času jako nástroj.
 
 **Detekční signatury**
+
 - [Akcelerace izolace](@/kompendium/detection-signatures/13-behavioral-isolation-acceleration.md) – měřitelný průběh zužování.
 
 **Sebe-obrana**
+
 - [Nastavování hranic](@/kompendium/self-defense-guides/21-boundary-setting.md) – praktické kroky.
 - [Prevence izolace](@/kompendium/self-defense-guides/26-isolation-prevention.md) – udržení vlastní sítě.
 
 **Glosář a případy**
+
 - [Sociální izolace](@/glossary/socialni-izolace.md) – mechanismus a důsledky.
 - [Coach coercion](@/kompendium/case-studies/17-coach-coercion.md) – anonymizovaný případ s podobnou dynamikou.
 

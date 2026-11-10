@@ -38,7 +38,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 
 Internalizace falešné pokory cílem, který přijme narativ vlastní nedostatečnosti a začne ho aktivně reprodukovat.
 
-Tato technika představuje konkrétní operacionalizaci širšího vzorce **Self-induced delegitimizace** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
+Tato technika představuje konkrétní operacionalizaci širšího vzorce **Self-induced [delegitimizace](@/glossary/delegitimizace.md)** v rámci taxonomie **EA — Epistemic Attack**. Cílem není pouze útok na jednotlivý výrok či pozici, ale **systematická eroze legitimity** cíle, jeho hlasu a jeho institucionální váhy.
 
 ## Operační modus
 
@@ -86,10 +86,10 @@ Technika **EA-2.5.1** se v praxi téměř nikdy nevyskytuje izolovaně. Typicky 
 
 Prismatic Platform poskytuje pro detekci a analýzu této techniky následující komponenty:
 
-- **Decision Engine** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
-- **OSINT Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
+- **[Decision Engine](@/glossary/decision-engine.md)** — vícezdrojová evidence + uncertainty estimator pro vyhodnocení důvěryhodnosti narativů kolem cíle
+- **[OSINT](@/glossary/osint.md) Toolbox** — 128+ adapterů pro mapování koordinace napříč platformami a institucemi
 - **Nabla (∇∞)** — epistemický engine pro modelování útoků na epistemické autority a důvěru
-- **Hawkeye** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
+- **[Hawkeye](@/glossary/hawkeye.md)** — síťová analýza pro detekci koordinovaných kampaní a zachycených struktur
 
 ## Související
 

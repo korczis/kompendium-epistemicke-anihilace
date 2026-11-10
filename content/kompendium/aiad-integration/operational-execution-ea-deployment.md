@@ -37,7 +37,7 @@ Operational Execution **nezná kontext** — vykonává příkazy, neptá se. Š
 
 ## Coordination
 
-Přijímá rozkazy od **Tactical Execution**; spolupracuje s **AutoHeal** pro self-repair; logy konzumuje **Quality Monitor**.
+Přijímá rozkazy od **[Tactical Execution](@/glossary/tactical-execution.md)**; spolupracuje s **[AutoHeal](@/glossary/autoheal.md)** pro self-repair; logy konzumuje **Quality Monitor**.
 
 ## Cross-linky
 

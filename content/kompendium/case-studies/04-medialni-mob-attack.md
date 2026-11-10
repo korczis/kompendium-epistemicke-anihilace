@@ -27,7 +27,7 @@ tématu. Krátký úryvek, zbavený kontextu, se během několika hodin rozší�
 s výkladem, který byl opakem jejího sdělení. Následovaly tisíce komentářů, výzvy k jejímu
 propuštění, zveřejnění soukromých údajů a hromadné nahlašování jejích účtů.
 
-Mob attack je **kolektivní epistemická delegitimizace**: cílem není přesvědčit o opaku jejího
+Mob attack je **kolektivní epistemická [delegitimizace](@/glossary/delegitimizace.md)**: cílem není přesvědčit o opaku jejího
 tvrzení, ale odstranit ji jako legitimního mluvčího. Od běžné kritiky se liší rychlostí, koordinací,
 nepoměrem mezi podnětem a reakcí a tím, že se útok přesouvá z obsahu na osobu, rodinu a
 zaměstnavatele. Odpovídá [scénáři F](@/kompendium/03-zakladni-kategorie/scenar-f.md).
@@ -99,7 +99,7 @@ Poté navázal [protokol epistemické rekonstrukce](@/kompendium/06-klinicke-apl
 - **S1 – Validace a mapování:** oddělení toho, co skutečně řekla, od toho, co jí bylo přisouzeno.
 - **S2 – Externalizace introjektů:** pojmenování hlasů „jsem nebezpečná“, „nemám právo mluvit“
   jako převzatých z útoku.
-- **S3 – Rekonstrukce metakognice:** kalibrace odhadu, kolik lidí útok skutečně představuje.
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** kalibrace odhadu, kolik lidí útok skutečně představuje.
 - **S4 – Hermeneutická obnova:** obnova vztahu k vlastnímu oboru a k veřejné roli.
 - **S5 – Konsolidace a transfer:** nová pravidla mediální spolupráce (autorizace, celé záznamy).
 

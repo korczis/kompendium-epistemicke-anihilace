@@ -20,7 +20,7 @@ toc = false
 
 > WARNING: Pristupova uroven L4. Pouze pro kvalifikovane vyzkumniky pod IRB.
 
-**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska intencionalita).
+**Domena**: Metatranscendentalni anihilace — utok na transcendentalni podminky poznani (Kantovske kategorie, Husserlovska [intencionalita](@/glossary/intencionalita.md)).
 
 ## Operacni cíl
 

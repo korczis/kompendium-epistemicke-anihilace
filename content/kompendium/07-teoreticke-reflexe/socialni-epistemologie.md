@@ -17,7 +17,7 @@ toc = true
 
 # 7.3 Sociální epistemologie EA — Goldman, Fricker, Longino, Anderson
 
-Sociální epistemologie — disciplína systematicky rozvíjená od 70. let 20. století — představuje pro kompendium EA **bezprecedentně relevantní** teoretický zdroj. Zatímco klasická epistemologie analyzuje individuální poznání izolovaného subjektu, sociální epistemologie zkoumá **kolektivní** dimenzi vědění: jak věříme druhým, jak operují epistemické instituce, jak distribuce moci formuje distribuci vědění a jak některé sociální struktury **systematicky znevýhodňují** určité epistemické subjekty.
+Sociální epistemologie — disciplína systematicky rozvíjená od 70. let 20. století — představuje pro [kompendium EA](@/glossary/kompendium-ea.md) **bezprecedentně relevantní** teoretický zdroj. Zatímco klasická epistemologie analyzuje individuální poznání izolovaného subjektu, sociální epistemologie zkoumá **kolektivní** dimenzi vědění: jak věříme druhým, jak operují epistemické instituce, jak distribuce moci formuje distribuci vědění a jak některé sociální struktury **systematicky znevýhodňují** určité epistemické subjekty.
 
 Tato kapitola představuje čtyři kanonické pozice — Alvina Goldmana (veritism a sociální reliabilismus), Mirandu Fricker (epistemická nespravedlnost), Helen Longino (kritický kontextový empirismus) a Elizabeth Anderson (demokratická epistemologie) — a explicitně mapuje jejich vztah k taxonomii EA.
 
@@ -78,7 +78,7 @@ Frickerová rozlišuje **dva** centrální typy epistemické nespravedlnosti:
 
 Komponenty:
 
-- **Identitní předsudek** (gender, rasa, třída, věk, zdravotní stav, akademická hierarchie...)
+- **Identitní předsudek** (gender, rasa, třída, věk, zdravotní stav, akademická hierarchie…)
 - **Systematická diskontace důvěryhodnosti** podle této identity
 - **Strukturální** charakter — testimoniální nespravedlnost není individuální chybou, ale **vzorcem** napříč interakcemi
 
@@ -95,7 +95,7 @@ Příklady:
 
 > *Hermeneutická nespravedlnost** nastává, když chybějí **konceptuální zdroje** k artikulaci určité zkušenosti — typicky proto, že dominantní hermeneutické zdroje byly formovány v zájmech mocenských skupin.*
 
-Klasický příklad Frickerové: **sexuální harassment** byl strukturální zkušeností desítky let, **dříve** než pro něj existovala konceptuální kategorie. Oběti tedy nemohly **artikulovat** svou zkušenost jako specifickou formu nespravedlnosti — zůstávala v hermeneutické "tmě".
+Klasický příklad Frickerové: **sexuální harassment** byl strukturální zkušeností desítky let, **dříve** než pro něj existovala konceptuální kategorie. Oběti tedy nemohly **artikulovat** svou zkušenost jako specifickou formu nespravedlnosti — zůstávala v hermeneutické „tmě“.
 
 ### 2.4 Direktní vztah k EA
 
@@ -153,16 +153,16 @@ Longino poskytuje kompendiu **strukturální** kritérium pro identifikaci patol
 
 Architektura **[Color Teams](@/glossary/color-teams.md)** v Prismatic platformě **přímo implementuje** Longino podmínky:
 
-- **Red Team** zajišťuje veřejnou dostupnost kanálů kritiky (institucionalizovaná adversariální role)
-- **Blue Team** zajišťuje responsivitu (povinnost reagovat na Red Team kritiku)
-- **Purple Team** zajišťuje sdílené standardy (synthetizující meta-evaluaci)
+- **[Red Team](@/glossary/red-team.md)** zajišťuje veřejnou dostupnost kanálů kritiky (institucionalizovaná adversariální role)
+- **[Blue Team](@/glossary/blue-team.md)** zajišťuje responsivitu (povinnost reagovat na Red Team kritiku)
+- **[Purple Team](@/glossary/purple-team.md)** zajišťuje sdílené standardy (synthetizující meta-evaluaci)
 - Symetrická struktura zajišťuje zmocněnou rovnost
 
 ### 3.4 Hodnotová neutralita: kritická revize
 
 Longino kriticky revidoval pojem **hodnotové neutrality** vědy. Argumentuje, že **neutralita** je nedosažitelná — všechny vědecké rámce nutně vtělují **hodnotové předpoklady**. Klíčem není neutralita, ale **transparentnost** těchto předpokladů a **otevřenost** ke kritice.
 
-Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou "neutrality".
+Pro kompendium EA to má fundamentální důsledek: **kompendium samotné** vtěluje hodnotové předpoklady (závazek k epistemické integritě, k autonomii subjektu, k otevřené komunikaci). Tyto předpoklady jsou **explicitně deklarovány** ([2.5 Filosofický rámec](@/kompendium/02-uvod/filosoficky-ramec.md), [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) — nikoli skryté pod fasádou „neutrality“.
 
 ## 4. Elizabeth Anderson — demokratická epistemologie
 
@@ -214,7 +214,7 @@ Sociální epistemologie samotná **není dostačující** pro pokrytí fenomén
 Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 
 - **Notační systém EA-X.Y.Z** ↔ Frickerová hermeneutický akt
-- **Decision Engine** ↔ Goldman veritism + bayesovský update
+- **[Decision Engine](@/glossary/decision-engine.md)** ↔ Goldman veritism + bayesovský update
 - **Color Teams** ↔ Longino strukturální podmínky integrity
 - **Cross-team collaboration** ↔ Anderson demokratická epistemologie
 - **Klasifikace technik delegitimizace** (3.5) ↔ Frickerová testimoniální nespravedlnost
@@ -248,7 +248,6 @@ Sociálně-epistemologické rámce jsou v kompendiu integrovány **napříč**:
 - [Glosář: Decision Core](@/glossary/decision-core.md)
 - [Filozofie: Intellectual Sovereignty](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

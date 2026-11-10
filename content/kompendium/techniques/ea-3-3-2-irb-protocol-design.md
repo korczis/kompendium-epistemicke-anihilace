@@ -44,7 +44,7 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-3/"
 Technika je strukturována pěti až šesti sekvenčními kroky implementace:
 
 1. **Risk assessment matrix** — exhaustivní enumerace rizik + pravděpodobnosti × závažnosti + mitigace.
-2. **Informed consent design** — vrstvený konsens (overview + module-specific) v lay-accessible language.
+2. **[Informed consent](@/glossary/informed-consent.md) design** — vrstvený konsens (overview + module-specific) v lay-accessible language.
 3. **Data management plan** — anonymizace, zabezpečení, retention, sdílení.
 4. **Adverse event protocol** — definice + reporting + investigation + remediation.
 5. **Continuing review** — annual re-submission s outcomes data.
@@ -95,7 +95,7 @@ Specificky:
 - **Krizové situace** — technika není akutní intervencí; vyžaduje stabilní baseline.
 - **Nedostatek institucionální infrastruktury** — bez adekvátní podpory technika selhává a může poškozovat.
 - **Kulturně necitlivá implementace** — technika musí být adaptována pro local context, nikoli mechanicky importována.
-- **Power asymmetry** — implementace v kontextu coercive control (nedobrovolná účast) je eticky problematická.
+- **Power asymmetry** — implementace v kontextu [coercive control](@/glossary/coercive-control.md) (nedobrovolná účast) je eticky problematická.
 
 ## Vztah k jiným technikám
 
@@ -126,10 +126,10 @@ Tato edukativní technika **operacionalizuje** poznatky z taxonomie:
 
 Tato edukativní technika je integrovatelná s několika komponentami Prismatic platformy:
 
-- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — evaluační metriky a kompetenční assessmenty mohou využívat decision engine pro tracking longitudinálního vývoje studentů s confidence calibration.
+- **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}** — evaluační metriky a kompetenční assessmenty mohou využívat [decision engine](@/glossary/decision-engine.md) pro tracking longitudinálního vývoje studentů s confidence calibration.
 - **[NABLA Infinity](@/glossary/nabla-infinity.md)** — epistemický framework poskytuje teoretický základ pro metakognitivní moduly.
-- **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii (Red Team challenges, Blue Team defenses) pro praktická cvičení.
-- **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink (EA-3.1.6) může využívat real-world OSINT data pro autentický material (s anonymizací a etickou governance).
+- **{{ <cross_link path="/aiad/color-teams/" text="Color Teams" /> }}** — supervize může využívat color-team metodologii ([Red Team](@/glossary/red-team.md) challenges, [Blue Team](@/glossary/blue-team.md) defenses) pro praktická cvičení.
+- **{{ <cross_link path="/osint/toolbox/" text="OSINT framework" /> }}** — recognition trénink (EA-3.1.6) může využívat real-world [OSINT](@/glossary/osint.md) data pro autentický material (s anonymizací a etickou governance).
 
 ## Související
 

@@ -31,7 +31,7 @@ Tento koncept se vyskytuje napříč kompendiem v následujících kontextech:
 - **Sekce 03 — Mediální realita**: transition od reprezentace k simulaci
 - **Sekce 06 — Klinické aplikace**: depersonalizační syndromy v digitálním prostředí
 - **Sekce 07 — Filosofické pozadí**: Baudrillard, Eco, Debord o spektakulární společnosti
-- **Per-technique: Deepfake Detection**: operativní hranice mezi autentickým a syntetickým
+- **Per-technique: [Deepfake](@/glossary/deepfake.md) Detection**: operativní hranice mezi autentickým a syntetickým
 
 Každý z těchto výskytů přidává specifickou perspektivu — operativní pipeline, teoretické pozadí, klinickou aplikaci nebo metodologickou reflexi.
 

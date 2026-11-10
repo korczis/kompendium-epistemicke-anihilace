@@ -126,7 +126,7 @@ přizpůsobené věku ([rekonstrukční protokol pro adolescenty](@/kompendium/r
   vrátit.
 - **S2 – Externalizace introjektů.** Pojmenování vět majitele, které si opakovala („nikdo jiný
   ti nerozumí“), a jejich odlišení od vlastního hlasu.
-- **S3 – Rekonstrukce metakognice.** Krátké a konkrétní: jak poznat, kdy online vztah
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md).** Krátké a konkrétní: jak poznat, kdy online vztah
   vyžaduje tajemství, a proč je tajemství na žádost dospělého varovným signálem.
 - **S4 – Hermeneutická obnova.** Práce s vinou vůči kamarádce, podpořená setkáním obou dívek
   za přítomnosti psycholožky.

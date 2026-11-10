@@ -126,7 +126,7 @@ s rodiči a starými přáteli. Poté [protokol epistemické rekonstrukce](@/kom
   autentické; mapa míst, kde se vize změnila v kontrolu.
 - **S2 – Externalizace introjektů:** zachycení vět typu „odpočinek je pro ty, kdo to nemyslí
   vážně“ a jejich připsání firemní kultuře.
-- **S3 – Rekonstrukce metakognice:** obnova vnímání času a únavy; [řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova vnímání času a únavy; [řízení kognitivní zátěže](@/kompendium/self-defense-guides/10-cognitive-load-management.md).
 - **S4 – Hermeneutická obnova:** hledání hodnot a zájmů, které existovaly před firmou
   (hudba, sport), a mapování, co pro subjekt znamená smysluplná práce.
 - **S5 – Konsolidace a transfer:** delší sabatikl, poté návrat do menší firmy s jasnými

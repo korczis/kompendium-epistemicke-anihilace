@@ -40,10 +40,10 @@ Roky 1–3. Intenzita: měsíčně po prvním roce, kvartálně po druhém. **Bo
 
 1. **Roční follow-up (rok 1)**: Komprehenzivní reassessment — kvantitativní (baseline instrumenty) + kvalitativní (narativní interview). Identifikace dlouhodobých vzorců.
 2. **Resilience kultivace (rok 1–2)**: Strukturované budování **post-traumatické robustnosti** — meditační praxe, somatic literacy, kognitivní flexibilita, emoční granularita.
-3. **Relapse prevention (rok 1–3)**: Identifikace high-risk situací, budování krizového plánu, **emergency contact list**, periodické "check-in" sezení (kvartálně po prvním roce).
-4. **Komunitní integrace (rok 1–3)**: Postupný přechod od formální podpory k organické komunitě. Identifikace 3–5 dlouhodobých vztahů jako "epistemic peer review".
+3. **Relapse prevention (rok 1–3)**: Identifikace high-risk situací, budování krizového plánu, **emergency contact list**, periodické „check-in“ sezení (kvartálně po prvním roce).
+4. **Komunitní integrace (rok 1–3)**: Postupný přechod od formální podpory k organické komunitě. Identifikace 3–5 dlouhodobých vztahů jako „epistemic peer review“.
 5. **Smyslová prohloubení (rok 2–3)**: Existenciální/spirituální práce — logoterapie, ACT, kontemplativní praxe. Budování generativního smyslu.
-6. **Volitelné altruistické kanalizování (rok 2+)**: Pro klienty s vůlí a kapacitou — peer support, advokační aktivity, edukace. **Pouze** po důkladné kontraindikační analýze (riziko sekundární retraumatizace).
+6. **Volitelné altruistické kanalizování (rok 2+)**: Pro klienty s vůlí a kapacitou — peer support, advokační aktivity, edukace. **Pouze** po důkladné kontraindikační analýze (riziko sekundární [retraumatizace](@/glossary/retraumatizace.md)).
 
 ## 5. Hodnotící kritéria
 
@@ -59,9 +59,9 @@ Protokol vyžaduje adaptaci podle dominantního typu EA, kterému byl klient vys
 
 - **Pseudoempatická vazba ([love-bombing](@/glossary/love-bombing.md) → [discard](@/glossary/discard.md) cyklus)**: Důraz na rekonstrukci [bezpečné vazby](@/glossary/secure-attachment.md) a detekci idealizace-devalvace cyklu.
 - **Gaslighting / hermeneutic outsourcing**: Důraz na [reality testing](@/glossary/reality-testing.md), externí epistemic peer review, validační rámce.
-- **Coercive control / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
+- **[Coercive control](@/glossary/coercive-control.md) / izolace**: Důraz na sociální rekonekci, autonomy training, finanční nezávislost.
 - **Kultovní indoktrinace**: Důraz na deconstruction totalistických rámců, peer support s ex-členy, identity reconstruction.
-- **Online/digitální EA**: Důraz na informační hygienu, OSINT awareness, digital security.
+- **Online/digitální EA**: Důraz na informační hygienu, [OSINT](@/glossary/osint.md) awareness, digital security.
 
 ## 7. Kontraindikace
 

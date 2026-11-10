@@ -19,7 +19,7 @@ toc = true
 
 Emmanuel Levinas (1906–1995) — litevský Žid, francouzský fenomenolog, přeživší šoa — formuluje v knihách *Totalité et Infini* (1961) a *Autrement qu'être* (1974) **radikální obrat** ve fenomenologii: **etika** není odvozenou disciplínou, je **první filozofií**. Vztah k **Jinému** (*l'Autre*) **předchází** ontologii.
 
-Pro kompendium EA poskytuje Levinas **etický fundament** odporu vůči manipulativním technikám, jež strukturálně operují skrze **redukci Jiného na Stejné**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Levinas **etický fundament** odporu vůči manipulativním technikám, jež strukturálně operují skrze **redukci Jiného na Stejné**.
 
 ## 1. Totalita a nekonečno
 
@@ -40,13 +40,13 @@ Levinasův centrální fenomenologický pojem: **tvář** Jiného. Tvář **nen�
 Tvář má **paradoxní strukturu**:
 
 - Tvář je **bezbranná** — svým holým zjevením vystavuje svou **zranitelnost**
-- Tvář je **panovnická** — z této bezbrannosti **přikazuje**: "Nezabiješ"
+- Tvář je **panovnická** — z této bezbrannosti **přikazuje**: „Nezabiješ“
 
 Tato paradoxní struktura konstituuje **prvotní etickou událost**: nikoli výpočet zájmů, nikoli racionální dohoda, ale **bezprostřední** etický nárok tváře.
 
 Pro EA má fenomenologie tváře **diagnostickou hodnotu**:
 
-- **De-personalizace** je strukturální technika EA: anihilace tváře Jiného (statistické agregáty, anonymizované cíle, "kolaterální škody"). Strukturální analog Arendtové **banality zla** ([viz 7.18](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)).
+- **De-personalizace** je strukturální technika EA: anihilace tváře Jiného (statistické agregáty, anonymizované cíle, „kolaterální škody“). Strukturální analog Arendtové **banality zla** ([viz 7.18](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)).
 - **Algoritmické zprostředkování** strukturálně **eliminuje tvář** — interakce probíhá skrze profil, nikoli skrze tvář. Implications pro online násilí, dehumanizaci, hate speech.
 - **Klinická intervence**: obnovení **tváře** jako klinický cíl — pacient potřebuje vidět své tváři **odraženou** v pohledu druhého.
 
@@ -66,8 +66,8 @@ Pro EA z toho plyne:
 
 V *Autrement qu'être* Levinas rozlišuje:
 
-- **Le Dire** ("říkání") — etický akt **otevření** se vůči Jinému, neredukovatelný na obsah
-- **Le Dit** ("řečené") — fixovaný obsah řeči, jenž může být systematizován, zachycen v ontologii
+- **Le Dire** („říkání“) — etický akt **otevření** se vůči Jinému, neredukovatelný na obsah
+- **Le Dit** („řečené“) — fixovaný obsah řeči, jenž může být systematizován, zachycen v ontologii
 
 Le Dire **přesahuje** každé Le Dit — neboť každé fixování obsahu strukturálně **uzavírá** etickou otevřenost.
 
@@ -75,7 +75,7 @@ Pro EA má rozlišení Dire/Dit **specifickou relevanci**:
 
 - **Algoritmická redukce komunikace na obsah** anihiluje Le Dire — komunikace je redukována na **vyměnitelný** obsah, etická otevřenost se **vytrácí**.
 - **Manipulativní fixace významů**: techniky, jež **uzavírají** otevřený dialog do **fixních** kategorií, strukturálně **anihilují** Le Dire.
-- **Klinický korelát**: terapeutická situace musí udržet prostor pro Le Dire — nikoli pouze "interpretovat" Le Dit pacienta.
+- **Klinický korelát**: terapeutická situace musí udržet prostor pro Le Dire — nikoli pouze „interpretovat“ Le Dit pacienta.
 
 ## 5. Mapping na EA techniky
 

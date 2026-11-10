@@ -21,24 +21,24 @@ toc = false
 ## Operační modus (3 kroky)
 
 1. Statické dominantní postoje — expanze (otevřené paže, široký postoj), výška (postávání nad sedícím), klidná stabilita
-2. Dynamické markery autority — pomalé přerušování, delegace pohybu ("posaďte se", "počkejte chvíli"), využití pauz
-3. Mikrosignály odmítnutí — krátké vyhnutí očnímu kontaktu při nesouhlasu, povzdech, mírný úsměv "nadřazenosti"
+2. Dynamické markery autority — pomalé přerušování, delegace pohybu („posaďte se“, „počkejte chvíli“), využití pauz
+3. Mikrosignály odmítnutí — krátké vyhnutí očnímu kontaktu při nesouhlasu, povzdech, mírný úsměv „nadřazenosti“
 
 ## Detekční markery (3 nejvýraznější)
 
-- Asymetrie tělesné expanze — jeden účastník zaujímá viditelně více prostoru, druhý se "zmenšuje" (zkřížené končetiny, sklopení)
-- Subjekt souhlasí navzdory obsahovým výhradám — popisuje pocit "neporadí si", "není místo"
+- Asymetrie tělesné expanze — jeden účastník zaujímá viditelně více prostoru, druhý se „zmenšuje“ (zkřížené končetiny, sklopení)
+- Subjekt souhlasí navzdory obsahovým výhradám — popisuje pocit „neporadí si“, „není místo“
 - Krátké signály po nesouhlasu (povzdech, úsměv, pohled stranou) následované změnou subjektova postoje
 
 ## Neutralizační strategie (3 nejúčinnější)
 
 - Vlastní expanzivní postoj — vědomě otevřený postoj, klidné dýchání, oční kontakt; symetrizuje hierarchii
-- Verbalizace ("Rozumím vašemu pohledu, můj zůstává tento") — vrací debatu na obsahovou rovinu
+- Verbalizace („Rozumím vašemu pohledu, můj zůstává tento“) — vrací debatu na obsahovou rovinu
 - Redukce face-to-face — písemná komunikace, telefon, zápis — eliminuje neverbální vrstvu
 
 ## Příklad
 
-CEO při performance review stojí, opírá se o stůl, dívá se shora na sedícího manažera. Manažer s lepšími výsledky než kolega dostane horší hodnocení, "souhlasí" a po měsíci rezignuje. V ex-post deníku popisuje "necítil jsem prostor argumentovat", nikoli "nemohl jsem".
+CEO při performance review stojí, opírá se o stůl, dívá se shora na sedícího manažera. Manažer s lepšími výsledky než kolega dostane horší hodnocení, „souhlasí“ a po měsíci rezignuje. V ex-post deníku popisuje „necítil jsem prostor argumentovat“, nikoli „nemohl jsem“.
 
 ## Cross-linky
 

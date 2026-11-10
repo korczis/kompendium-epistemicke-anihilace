@@ -8,7 +8,7 @@ description = "Strategic incompetence — performance of inability as a coercion
 tags = ["glossary", "epistemic", "kompendium", "manipulace"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kompendium-ea", "taxonomie-ea", "sealioning", "motte-and-bailey", "kognitivni-anihilace"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -26,7 +26,7 @@ image_alt = "Weaponized Incompetence - glossary"
 
 **Weaponized incompetence** is the strategic performance of inability — the ostensible inability to perform some task — deployed as a mechanism for transferring labor, accountability, or epistemic burden to another party. The technique is structurally distinct from genuine incompetence: it is *selective*, *durable in the face of training*, and *correlated with task aversiveness rather than task complexity*. Genuine incompetence improves under repeated practice, generalizes across the relevant skill domain, and does not correlate with which family member finds the task most unpleasant.
 
-The term has become standard in domestic-labor literature (Hochschild's *The Second Shift*, 1989, anticipates the analysis without using the term) and has been generalized by recent organizational-behavior research to cover institutional contexts: technical staff "unable" to use the tools their job requires, managers "unable" to read their own dashboards, executives "unable" to follow up on commitments. In each case the structural function is identical: **the inability is the work**.
+The term has become standard in domestic-labor literature (Hochschild's *The Second Shift*, 1989, anticipates the analysis without using the term) and has been generalized by recent organizational-behavior research to cover institutional contexts: technical staff “unable” to use the tools their job requires, managers “unable” to read their own dashboards, executives “unable” to follow up on commitments. In each case the structural function is identical: **the inability is the work**.
 
 Three diagnostic markers distinguish weaponized from genuine incompetence: (1) **selective domain** — the incompetence appears in tasks the actor wishes to avoid, not uniformly across cognitively-comparable tasks; (2) **training-resistance** — repeated explanation, training, written instructions, and tool simplification do not produce improvement; (3) **emergence pattern** — the incompetence emerges after the task in question becomes politically or relationally inconvenient, not from initial encounter.
 
@@ -38,7 +38,7 @@ Within the Prismatic Platform's threat model, weaponized incompetence is catalog
 
 The structural damage is doubled. First, the target absorbs the labor that was supposed to be shared. Second — and more severely from an epistemic-security standpoint — the target's calibration of competence-attributions is corrupted: confronted with persistent failure-where-success-was-expected, the target either downgrades their model of the actor (causing relational rupture) or downgrades their own assessment-capacity (the EA-relevant outcome).
 
-The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the {{ <cross_link path="/hub/dd/decisions/calibration" text="confidence lens" /> }} flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](@/glossary/sealioning.md) (just-asking-for-clarification on every task) and [Motte and Bailey](@/glossary/motte-and-bailey.md) (retreating to "I just don't understand" as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](@/kompendium/recovery-protocols/incompetence.md).
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of pattern-incompetence in repeated-interaction contexts as a calibration signal: the {{ <cross_link path="/hub/dd/decisions/calibration" text="confidence lens" /> }} flags subjects who report sustained gap between attributed competence and demonstrated execution in close relationships or hierarchical work contexts. The technique pairs operationally with [Sealioning](@/glossary/sealioning.md) (just-asking-for-clarification on every task) and [Motte and Bailey](@/glossary/motte-and-bailey.md) (retreating to “I just don't understand” as the motte). Recovery doctrine: [/kompendium/06-zotaveni/incompetence/](@/kompendium/recovery-protocols/incompetence.md).
 
 ## See Also
 

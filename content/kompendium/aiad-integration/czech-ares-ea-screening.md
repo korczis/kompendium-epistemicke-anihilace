@@ -25,7 +25,7 @@ Czech ARES Agent aplikuje EA taxonomii na **konkrétní doménu českého firemn
 
 ## Detection mechanisms
 
-Detekce: **cross-reference-based** — porovnává deklarace v ARES s realitou (CER databáze, OSINT, beneficial ownership registry). Flagguje **incoherence** jako suspect EA.
+Detekce: **cross-reference-based** — porovnává deklarace v ARES s realitou (CER databáze, [OSINT](@/glossary/osint.md), beneficial ownership registry). Flagguje **incoherence** jako suspect EA.
 
 ## Operational protocols
 

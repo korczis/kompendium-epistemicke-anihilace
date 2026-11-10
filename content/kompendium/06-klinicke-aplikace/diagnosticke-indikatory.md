@@ -129,7 +129,7 @@ V současné klinické praxi neexistuje **přímo validizovaný** instrument pro
 | **DES-II (Dissociative Experiences Scale)** | Disociativní fenomény | Diferenciální vůči disociativním poruchám |
 | **PCL-5** | PTSD | Diferenciální vůči klasickému PTSD |
 
-Pro **specifické subpopulace** (post-kult, oběti coercive control) existují dedikované instrumenty (např. **GPA Survey** pro post-kult, **CCB Scale** pro coercive control), které poskytují vyšší diagnostickou specificitu.
+Pro **specifické subpopulace** (post-kult, oběti [coercive control](@/glossary/coercive-control.md)) existují dedikované instrumenty (např. **GPA Survey** pro post-kult, **CCB Scale** pro coercive control), které poskytují vyšší diagnostickou specificitu.
 
 > **Otevřená výzkumná otázka**: Vývoj **dedikovaného EA Screening Toolu (EAST)** je předmětem aktuálního výzkumu. Cílem je nástroj, který kombinuje markery klastrů A–D s evidencí o informačním prostředí pacienta.
 
@@ -139,7 +139,7 @@ Následující pravidla představují **doporučené (nikoliv mandatorní) klini
 
 ### Pravidlo R1: Iniciální screening
 
-**Pokud** pacient prezentuje s atypickou kombinací (úzkost + kognitivní stížnosti + sociální izolace + nedávná změna informačního prostředí), **pak** je indikováno systematické vyhodnocení klastrů A–D.
+**Pokud** pacient prezentuje s atypickou kombinací (úzkost + kognitivní stížnosti + [sociální izolace](@/glossary/socialni-izolace.md) + nedávná změna informačního prostředí), **pak** je indikováno systematické vyhodnocení klastrů A–D.
 
 ### Pravidlo R2: Eskalace
 
@@ -152,6 +152,7 @@ Následující pravidla představují **doporučené (nikoliv mandatorní) klini
 ### Pravidlo R4: Diferenciální vyloučení
 
 **Před** diagnózou EA musí být systematicky **vyloučeny**:
+
 - Organické příčiny (delirium, demence, intoxikace);
 - Psychotické poruchy (zejména první epizoda schizofrenie);
 - Disociativní poruchy s rozsáhlým postižením;
@@ -165,7 +166,7 @@ EA diagnostika musí respektovat princip [**dual-use poznání**](@/glossary/dua
 
 ## Markery podle taxonomie
 
-Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techniques/_index.md) — každá technika má samostatnou sekci "Detekční markery". Příklady:
+Pro detail per-technique markerů odkazujeme na [techniques](@/kompendium/techniques/_index.md) — každá technika má samostatnou sekci „Detekční markery“. Příklady:
 
 - [EA-1.1.1 Selektivní expozice](@/kompendium/techniques/ea-1-1-1-selektivni-expozice.md) — markery: monokultura zdrojů, defenzivní reakce na alternativní data;
 - [EA-1.2.1 Falešné dilema](@/kompendium/techniques/ea-1-2-1-falesne-dilema.md) — markery: binárnost myšlení, neschopnost generovat třetí alternativu;
@@ -198,7 +199,6 @@ Klinický {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} 
 - [Glossary: Gaslighting](@/glossary/gaslighting.md)
 - [Glossary: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glossary: Anankastický režim](@/glossary/anankasticky-rezim.md)
-
 
 ## ⚡ Kritický krok
 

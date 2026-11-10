@@ -32,7 +32,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
-- **Sekce 07 — Epistemická injustice**: Fricker → Collins → totalita
+- **Sekce 07 — [Epistemická injustice](@/glossary/epistemicka-injustice.md)**: Fricker → Collins → totalita
 - **Sekce 08 — Historické příklady**: Holocaust denial, Stalinist purges, post-genocide negation
 - **Sekce 09 — Klinické dimenze**: anihilační účinek u survivorů
 - **Sekce 10 — Counter-strategies**: archivní rezistence, oral history

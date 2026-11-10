@@ -48,7 +48,7 @@ Začněte Předmluvou jako prahem (threshold reading). Nepřeskakujte. Až poté
 
 ## 5. Specifické techniky / koncepty
 
-Klíčové koncepty na rozhraní: **threshold reading**, **informed consent**, **contraindication map**, **readiness assessment**, **author–reader contract**. V kompendiu se promítají do bezpečnostních protokolů (sekce 04) a klinických aplikací (sekce 06).
+Klíčové koncepty na rozhraní: **threshold reading**, **[informed consent](@/glossary/informed-consent.md)**, **contraindication map**, **readiness assessment**, **author–reader contract**. V kompendiu se promítají do bezpečnostních protokolů (sekce 04) a klinických aplikací (sekce 06).
 
 ## 6. Související
 

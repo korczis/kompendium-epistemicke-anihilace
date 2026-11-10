@@ -8,7 +8,7 @@ description = "Brentanian/Husserlian intentionality — the directedness of cons
 tags = ["glossary", "epistemic", "philosophy", "phenomenology"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "lebenswelt", "embodied-cognition", "metakognice", "kognitivni-anihilace", "epistemic-pipeline"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -24,9 +24,9 @@ image_alt = "Intencionalita - glossary"
 
 ## Definition
 
-**Intencionalita** (intentionality) — in the technical phenomenological sense, distinct from "intent" in ordinary English — is the property of mental states to be **directed at** or **about** something. Franz Brentano reintroduced the concept into modern philosophy in *Psychology from an Empirical Standpoint* (1874): every mental act is "intentionally directed" upon an object — we do not simply *believe*, we believe *something*; we do not simply *fear*, we fear *something*. Brentano took this directedness — *intentional inexistence of an object* — to be the **mark of the mental**, distinguishing mental phenomena from physical phenomena.
+**[Intencionalita](@/glossary/intencionalita.md)** (intentionality) — in the technical phenomenological sense, distinct from “intent” in ordinary English — is the property of mental states to be **directed at** or **about** something. Franz Brentano reintroduced the concept into modern philosophy in *Psychology from an Empirical Standpoint* (1874): every mental act is “intentionally directed” upon an object — we do not simply *believe*, we believe *something*; we do not simply *fear*, we fear *something*. Brentano took this directedness — *intentional inexistence of an object* — to be the **mark of the mental**, distinguishing mental phenomena from physical phenomena.
 
-Edmund Husserl developed the concept into the architectural core of phenomenology. Every conscious act has a structural duality: the *noesis* (the act of consciousness — perceiving, judging, remembering) and the *noema* (the object as intended — the perceived-as-perceived, the judged-as-judged). This is not a representational theory: the *noema* is not a "mental picture" interposed between mind and world; it is the world *as given* to consciousness in this particular act.
+Edmund Husserl developed the concept into the architectural core of phenomenology. Every conscious act has a structural duality: the *noesis* (the act of consciousness — perceiving, judging, remembering) and the *noema* (the object as intended — the perceived-as-perceived, the judged-as-judged). This is not a representational theory: the *noema* is not a “mental picture” interposed between mind and world; it is the world *as given* to consciousness in this particular act.
 
 Three structural features matter for epistemic-security work: (1) **directedness** — every cognition has a *target*; (2) **mode** — the same target can be intended in different modes (perceived, remembered, imagined, doubted, feared); (3) **horizon** — every intentional act has a structured background of co-given but unthematized possibilities (Husserl's *Horizont*).
 

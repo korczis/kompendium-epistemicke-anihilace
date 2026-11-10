@@ -155,7 +155,7 @@ EA-X.Y.Z-α
 Kompendium není izolovaný akademický artefakt — je propojeno s Prismatic platformou skrze:
 
 - **[Epistemic Pipeline](@/glossary/epistemic-pipeline.md)**: některé techniky odpovídají selhání nebo útokům na konkrétní úrovně L0–L13 NABLA Infinity.
-- **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány Red Team agenty pro epistemic adversarial simulation.
+- **[Color Teams](@/glossary/color-teams.md)**: detekční markery z kompendia jsou používány [Red Team](@/glossary/red-team.md) agenty pro epistemic adversarial simulation.
 - **{{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }}**: kalibrace důvěry využívá indikátory epistemické manipulace jako negativní signály.
 - **[Glossary](@/glossary/_index.md)**: každý klíčový termín má samostatné glosářové heslo s cross-referencí.
 
@@ -167,7 +167,7 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - **Sekce 05** (Ultramární): 5/5 narativů kapitol + 180/180 detailních per-technique článků (5.1, 5.2, 5.3, 5.4, 5.5 plné)
 - **Per-technique podknihovna**: 363 hloubkových článků
   - 13× EA-1.\* (akademické techniky)
-  - 50× EA-2.\* (akademická a profesionální delegitimizace, 5 subkategorií × 10)
+  - 50× EA-2.\* (akademická a profesionální [delegitimizace](@/glossary/delegitimizace.md), 5 subkategorií × 10)
   - 30× EA-3.\* (3 subkategorie × 10)
   - 40× EA-4.\* (terminální protokoly, 4 subkategorie × 10)
   - 180× EA-5.\* (Ultramární — 5.1, 5.2, 5.3, 5.5 plné × 30 + 5.4 × 60)
@@ -179,7 +179,7 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 - **Recovery Protocols**: 30 strukturovaných postupů zotavení
 - **Emergency Protocols**: 40 akutních intervenčních postupů
 - **AIAD Integration**: 25 integračních článků s platformou
-- **Cross-Domain**: 30 cross-doménových aplikací (OSINT/DD/HR/legal/forenzní)
+- **Cross-Domain**: 30 cross-doménových aplikací ([OSINT](@/glossary/osint.md)/DD/HR/legal/forenzní)
 - **Educational Scenarios**: 30 výukových scénářů pro tréninky
 - **Historical Cases**: 40 historických případových studií
 - **Detection Signatures**: 30 strojově čitelných detekčních signatur
@@ -199,7 +199,6 @@ Kompendium je publikováno **inkrementálně**. Aktuální stav (Wave 1–8 + Ph
 ---
 
 *Poznámka: Toto kompendium obsahuje specializované odborné informace s potenciálně rizikovým obsahem. Materiál vyžaduje odpovědné zacházení ze strany kvalifikovaných odborníků. Není a nikdy nebude dostupný jako návod či manuál — jeho účel je výhradně **defenzivní**, **diagnostický** a **edukativní**.*
-
 
 ## ⚡ Kritický krok
 

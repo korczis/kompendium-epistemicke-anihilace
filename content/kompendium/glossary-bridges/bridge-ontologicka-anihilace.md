@@ -20,7 +20,7 @@ toc = false
 
 ## Definice z glossary
 
-[ontologicka-anihilace](@/glossary/ontologicka-anihilace.md) — Ontologická anihilace je rozklad samotné kategorie to, co je — nikoliv falsifikace konkrétních faktů, nýbrž zpochybnění toho, že existuje stabilní realita, k níž by se fakta měla vztahovat. Liší se od skepticismu tím, že není metodickou pochybností, nýbrž operativním cílem.
+[ontologicka-anihilace](@/glossary/ontologicka-anihilace.md) — Ontologická anihilace je rozklad samotné kategorie to, co je — nikoliv [falsifikace](@/glossary/falsifikace.md) konkrétních faktů, nýbrž zpochybnění toho, že existuje stabilní realita, k níž by se fakta měla vztahovat. Liší se od skepticismu tím, že není metodickou pochybností, nýbrž operativním cílem.
 
 Glossary entry slouží jako kanonický referenční bod platformy; bridge článek rozšiřuje stručnou definici o platformový a interpretační kontext, v němž koncept skutečně operuje.
 

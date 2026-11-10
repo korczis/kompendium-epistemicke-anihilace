@@ -7,7 +7,7 @@ description = "Structured set of regulatory requirements and controls organizati
 tags = ["glossary", "security", "compliance-framework", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["gdpr", "nis2", "zkb", "iso-27001", "security-rating"]
 author = "Tomas Korcak (korczis)"
 reading_time = "5 min"
@@ -25,9 +25,9 @@ image_alt = "Compliance Framework - Prismatic Platform"
 
 A compliance framework is a structured set of guidelines, regulations, and controls that organizations must implement to meet legal, regulatory, or industry requirements. Frameworks define what security controls are needed, how they should be implemented, and how compliance is assessed. Common frameworks include GDPR (data privacy), NIS2 (network security), ISO 27001 (information security management), SOC 2 (service organization controls), and PCI DSS (payment card industry).
 
-Compliance frameworks serve as the bridge between abstract security goals and concrete, measurable controls. They translate legislative intent ("organizations must protect personal data") into specific technical and organizational requirements ("implement encryption for data at rest and in transit, maintain access logs for 12 months, conduct annual penetration testing"). This translation is critical because it provides a clear, auditable standard against which an organization's security posture can be measured.
+Compliance frameworks serve as the bridge between abstract security goals and concrete, measurable controls. They translate legislative intent (“organizations must protect personal data”) into specific technical and organizational requirements (“implement encryption for data at rest and in transit, maintain access logs for 12 months, conduct annual penetration testing”). This translation is critical because it provides a clear, auditable standard against which an organization's security posture can be measured.
 
-The compliance landscape has grown increasingly complex as digital regulation expands globally. Organizations operating across jurisdictions must satisfy multiple overlapping frameworks simultaneously -- GDPR for EU data protection, NIS2 for network security, local regulations like the Czech ZKB, and industry standards like ISO 27001. This multi-framework reality demands automated assessment tools that can map technical findings to multiple regulatory requirements in parallel, which is precisely what [Prismatic Perimeter](@/glossary/easm.md) delivers.
+The compliance landscape has grown increasingly complex as digital regulation expands globally. Organizations operating across jurisdictions must satisfy multiple overlapping frameworks simultaneously — GDPR for EU data protection, NIS2 for network security, local regulations like the Czech ZKB, and industry standards like ISO 27001. This multi-framework reality demands automated assessment tools that can map technical findings to multiple regulatory requirements in parallel, which is precisely what [Prismatic Perimeter](@/glossary/easm.md) delivers.
 
 ## Technical Deep Dive
 
@@ -320,17 +320,17 @@ curl -X POST http://localhost:4004/api/v1/perimeter/assess_compliance \
 
 ## Best Practices
 
-1. **Assess against multiple frameworks simultaneously** -- Organizations typically face multiple compliance obligations. Map findings to all applicable frameworks in a single assessment pass.
+1. **Assess against multiple frameworks simultaneously** — Organizations typically face multiple compliance obligations. Map findings to all applicable frameworks in a single assessment pass.
 
-2. **Automate evidence collection** -- Manual evidence gathering is slow, error-prone, and stale by the time auditors review it. Automate technical control verification.
+2. **Automate evidence collection** — Manual evidence gathering is slow, error-prone, and stale by the time auditors review it. Automate technical control verification.
 
-3. **Maintain continuous compliance** -- Point-in-time assessments create a false sense of security. Implement continuous monitoring to detect compliance drift between formal assessments.
+3. **Maintain continuous compliance** — Point-in-time assessments create a false sense of security. Implement continuous monitoring to detect compliance drift between formal assessments.
 
-4. **Map technical findings to business risk** -- Compliance gaps should be communicated in terms of regulatory risk (fines, enforcement actions), not just technical deficiencies.
+4. **Map technical findings to business risk** — Compliance gaps should be communicated in terms of regulatory risk (fines, enforcement actions), not just technical deficiencies.
 
-5. **Version control your policies** -- Compliance documentation should be version-controlled, reviewed regularly, and updated when regulations change.
+5. **Version control your policies** — Compliance documentation should be version-controlled, reviewed regularly, and updated when regulations change.
 
-6. **Plan for framework evolution** -- Regulations change. Design your compliance engine to be extensible so new frameworks and updated control requirements can be added without architectural changes.
+6. **Plan for framework evolution** — Regulations change. Design your compliance engine to be extensible so new frameworks and updated control requirements can be added without architectural changes.
 
 ## Common Pitfalls
 
@@ -346,19 +346,19 @@ curl -X POST http://localhost:4004/api/v1/perimeter/assess_compliance \
 
 ## Related Concepts
 
-- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) -- EU data protection regulation assessed by the platform
-- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) -- EU network and information security directive
-- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) -- Czech cybersecurity regulation
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Technical score contextualized against compliance frameworks
-- [EASM](@/glossary/easm.md) -- External attack surface management providing compliance data
-- [CVE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cve/) -- Vulnerability identifiers used in compliance assessments
+- [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/) — EU data protection regulation assessed by the platform
+- [NIS2](https://prismatic-reality-com.github.io/prismatic-promo/glossary/nis2/) — EU network and information security directive
+- [ZKB](https://prismatic-reality-com.github.io/prismatic-promo/glossary/zkb/) — Czech cybersecurity regulation
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) — Technical score contextualized against compliance frameworks
+- [EASM](@/glossary/easm.md) — External attack surface management providing compliance data
+- [CVE](https://prismatic-reality-com.github.io/prismatic-promo/glossary/cve/) — Vulnerability identifiers used in compliance assessments
 
 ## Further Reading
 
-- [NIS2 Directive Full Text](https://eur-lex.europa.eu/eli/dir/2022/2555) -- Official EU legislation
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- Compliance assessment architecture
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Prismatic Perimeter compliance features
-- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) -- Technology stack details
+- [NIS2 Directive Full Text](https://eur-lex.europa.eu/eli/dir/2022/2555) — Official EU legislation
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — Compliance assessment architecture
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) — Prismatic Perimeter compliance features
+- [Technologies](https://prismatic-reality-com.github.io/prismatic-promo/technologies/) — Technology stack details
 
 ---
 

@@ -131,19 +131,23 @@ udělal hlavní krok scénáře.
 ## Související
 
 **Navazující scénáře**
+
 - [Akademická manipulace](@/kompendium/educational-scenarios/11-academic-manipulation.md) – individuální rovina akademické moci.
 - [Rozpoznání mediální smečky](@/kompendium/educational-scenarios/14-media-mob-recognition.md) – koordinovaná delegitimizace mimo instituci.
 
 **Techniky**
+
 - [EA-2.4.6 Peer Review Capture](@/kompendium/techniques/ea-2-4-6-peer-review-capture.md) – ovládnutí posuzovacího procesu.
 - [EA-2.1.5 Citation Suppression](@/kompendium/techniques/ea-2-1-5-citation-suppression.md) – potlačení citací.
 - [EA-2.1.4 Publikační blokace](@/kompendium/techniques/ea-2-1-4-publikacni-blokace.md) – opakované zablokování výstupu.
 
 **Metodologie a kritika**
+
 - [Pre-registrace výzkumu](@/kompendium/research-methodology/pre-registration-EA-research.md) – pojistka proti zkreslení výsledků.
 - [Publikační etika v EA literatuře](@/kompendium/critical-perspectives/20-publication-ethics-EA.md) – kritický pohled na vlastní obor.
 
 **Glosář**
+
 - [Replikační krize](@/glossary/replication-crisis.md) – proč recenze nestačí.
 - [Delegitimizace](@/glossary/delegitimizace.md) – širší rámec útoků na důvěryhodnost.
 

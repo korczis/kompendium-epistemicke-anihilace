@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Supreme Commander definuje dlouhodobou EA strategii platformy — alokuje rozpočty, schvaluje nové detekční vrstvy a stanovuje risk appetite napříč doménami. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Supreme Commander](@/glossary/supreme-commander.md) definuje dlouhodobou EA strategii platformy — alokuje rozpočty, schvaluje nové detekční vrstvy a stanovuje risk appetite napříč doménami. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ Supreme Commander je **odtržen od konkrétních útoků** — pracuje s agregá
 
 ## Coordination
 
-Nadřazen **Archer Supreme** v non-incident kontextu; deleguje exekuci na **Strategic Command** a **Tactical Execution**.
+Nadřazen **Archer Supreme** v non-incident kontextu; deleguje exekuci na **[Strategic Command](@/glossary/strategic-command.md)** a **[Tactical Execution](@/glossary/tactical-execution.md)**.
 
 ## Cross-linky
 

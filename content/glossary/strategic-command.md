@@ -7,7 +7,7 @@ description = "L4 Multi-domain coordination agent tier for cross-cutting operati
 tags = ["agents", "coordination", "architecture", "command-hierarchy", "multi-domain"]
 
 [extra]
-category = "agents"
+category = "architektura platformy"
 related_terms = ["agent-tier", "tactical-execution", "supreme-commander", "aiad", "archer-supreme", "red-team", "blue-team", "purple-team", "color-teams"]
 difficulty = "advanced"
 importance = "high"
@@ -38,7 +38,7 @@ image_alt = "Strategic Command - Prismatic Platform"
 
 Strategic Command is the L4 agent tier responsible for multi-domain coordination and cross-cutting operational management within the Prismatic Platform's [AIAD](@/glossary/aiad.md) agent hierarchy. L4 agents bridge the gap between L2-L3 domain specialists who operate within focused areas and L5 Supreme agents who provide platform-wide authority. They manage complex workflows that span application boundaries, coordinate between specialist teams, and serve as the escalation gateway to Supreme authority when operations exceed their defined scope.
 
-In military and organizational theory, strategic command sits between tactical execution (the hands-on specialists) and supreme command (the ultimate authority). This middle tier is critical because most real-world operations cross domain boundaries: a security improvement involves quality gates, code changes, testing, deployment, and monitoring -- no single specialist domain covers all these aspects. Without strategic coordination, domain specialists optimize locally but fail to deliver integrated outcomes.
+In military and organizational theory, strategic command sits between tactical execution (the hands-on specialists) and supreme command (the ultimate authority). This middle tier is critical because most real-world operations cross domain boundaries: a security improvement involves quality gates, code changes, testing, deployment, and monitoring — no single specialist domain covers all these aspects. Without strategic coordination, domain specialists optimize locally but fail to deliver integrated outcomes.
 
 The Prismatic Platform's agent hierarchy consists of five tiers, with L4 Strategic Command serving as the coordination hub that transforms high-level objectives from [Supreme Commander](@/glossary/supreme-commander.md) into actionable multi-phase plans executed by L2-L3 specialists:
 
@@ -59,9 +59,9 @@ The L4 Strategic Command tier emerged from the Prismatic Platform's evolution th
 1. **Authority gaps**: L3 agents in domain A could not direct L3 agents in domain B, leading to deadlocks when cross-domain cooperation was needed.
 2. **Supreme overload**: Without a middle tier, every cross-domain operation escalated to L5, overwhelming the 4 Supreme agents with routine coordination tasks.
 
-The introduction of L4 Strategic Command in Generation 10 resolved both issues by creating explicit multi-domain authority with clear escalation criteria. This mirrors organizational theory (James D. Thompson's "Organizations in Action") where mediating technology coordinates interdependent units -- L4 agents are the platform's mediating technology.
+The introduction of L4 Strategic Command in Generation 10 resolved both issues by creating explicit multi-domain authority with clear escalation criteria. This mirrors organizational theory (James D. Thompson's “Organizations in Action”) where mediating technology coordinates interdependent units — L4 agents are the platform's mediating technology.
 
-The NO MERCY, NO DOUBTS doctrine applies differently at L4 than at other tiers. L4 agents operate in the transition zone between the NABLA Infinity exploration phase (where uncertainty is mapped and contradictions preserved) and the decisive execution phase. They must determine when confidence threshold (0.95 for critical decisions) is met across multiple domains before committing to a coordination plan.
+The [NO MERCY, NO DOUBTS](@/glossary/no-mercy-no-doubts.md) doctrine applies differently at L4 than at other tiers. L4 agents operate in the transition zone between the [NABLA Infinity](@/glossary/nabla-infinity.md) exploration phase (where uncertainty is mapped and contradictions preserved) and the decisive execution phase. They must determine when confidence threshold (0.95 for critical decisions) is met across multiple domains before committing to a coordination plan.
 
 ## L4 Agent Classification
 

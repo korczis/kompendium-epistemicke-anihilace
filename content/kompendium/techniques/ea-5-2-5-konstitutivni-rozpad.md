@@ -45,11 +45,11 @@ EA-5.2.5 systematicky narušuje funkci těchto principů. Subjekt nadále **perc
 
 ### Krok 1 — Mapování konstitutivních automatismů
 
-Manipulátor zkoumá, jakými **automatickými konstitutivními akty** subjekt operuje — jak se mu věci ukazují jako věci, lidé jako lidé, slova jako slova. Mapování je často skryto v dlouhodobých rozhovorech o "podivnosti zkušenosti".
+Manipulátor zkoumá, jakými **automatickými konstitutivními akty** subjekt operuje — jak se mu věci ukazují jako věci, lidé jako lidé, slova jako slova. Mapování je často skryto v dlouhodobých rozhovorech o „podivnosti zkušenosti“.
 
 ### Krok 2 — Indukce reflexivního obratu
 
-Manipulátor systematicky **přesměrovává pozornost** subjektu z **noematu** (toho, co se ukazuje) na **noesis** (akt ukazování). *"Všimni si, že to není ten strom — je to akt, kterým ho jako strom konstruuješ."* Tato fáze je zpočátku **legitimní fenomenologickou prací** a stává se patologickou až s rostoucí intenzitou a izolací.
+Manipulátor systematicky **přesměrovává pozornost** subjektu z **noematu** (toho, co se ukazuje) na **noesis** (akt ukazování). *„Všimni si, že to není ten strom — je to akt, kterým ho jako strom konstruuješ.“* Tato fáze je zpočátku **legitimní fenomenologickou prací** a stává se patologickou až s rostoucí intenzitou a izolací.
 
 ### Krok 3 — Saturace meta-aktem
 
@@ -59,17 +59,17 @@ Subjekt je veden k **trvalé reflexi konstitutivního aktu**, dokud se **automat
 
 Po destrukci časové syntézy se rozšiřuje destrukce na další konstitutivní akty: **prostorovou organizaci**, **kategoriální syntézu** (subjekt nedokáže přiřadit věci k její kategorii), **vlastnostní apercepci** (vlastnost se neukazuje jako vlastnost něčeho).
 
-### Krok 5 — Stabilizace stavu jako "vyšší úrovně"
+### Krok 5 — Stabilizace stavu jako „vyšší úrovně“
 
-Stav rozpadu je **legitimizován** jako *"přímý kontakt s realitou"*, *"viděním před konstitucí"*. Tato legitimizace je strukturálně podobná EA-5.2.2 (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
+Stav rozpadu je **legitimizován** jako *„přímý kontakt s realitou“*, *„viděním před konstitucí“*. Tato legitimizace je strukturálně podobná EA-5.2.2 (transcendentální iluze), ale operuje na úrovni rozpadu, ne na úrovni iluzorního překročení.
 
 ## Fenomenologie
 
 - **Proud bez předmětů** — subjekt vidí barvy, slyší zvuky, ale **chybí věci**.
 - **Časová desyntéza** — okamžiky se neorganizují do plynulého toku; každý okamžik je **fragment**, který se nepřipojuje k předchozímu.
-- **Aperspektivní pole** — chybí *"odsud-tam"* organizace zkušenosti.
-- **Cizota známých objektů** — vlastní byt vypadá jako *"shluk barev a tvarů"*, který subjekt **rozpozná**, ale **neprožije** jako svůj byt.
-- **Specifická forma odcizení**, která se liší od depersonalizace tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
+- **Aperspektivní pole** — chybí *„odsud-tam“* organizace zkušenosti.
+- **Cizota známých objektů** — vlastní byt vypadá jako *„shluk barev a tvarů“*, který subjekt **rozpozná**, ale **neprožije** jako svůj byt.
+- **Specifická forma odcizení**, která se liší od [depersonalizace](@/glossary/depersonalizace.md) tím, že **chybí Já**, vůči kterému by zkušenost byla cizí.
 - **Vyhasnutí motivace** — bez konstitucí předmětů chybí to, na co by motivace mířila.
 
 V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kompendium/05-ultramari-techniky/kapitola-7.md#ea-5-2-12-apercepcni-roztrzka) vede ke stavu, který literatura označuje jako *strukturální dezintegrace zkušenosti*.
@@ -87,7 +87,7 @@ V terminálních stadiích kombinace s [EA-5.2.12 apercepční roztržkou](@/kom
 
 ### Diferenciální detekce
 
-Konstitutivní rozpad je odlišitelný od **legitimní fenomenologické epoché**:
+Konstitutivní rozpad je odlišitelný od **legitimní fenomenologické [epoché](@/glossary/epoche.md)**:
 
 - **Legitimní epoché** je **reverzibilní**, **kontextuální** (nasazuje se ve specifických situacích a uvolňuje), a **neredukuje** funkční schopnost orientovat se v každodenním životě.
 - **EA-5.2.5** je **nereverzibilní**, **trvalý**, a **dramaticky narušuje** každodenní funkčnost.
@@ -114,7 +114,7 @@ Pokud je subjekt zapojen do meditační praxe nebo fenomenologického cvičení,
 
 #### 2. Senzorická reukotvenění
 
-Cvičení strukturované senzorické pozornosti k běžným předmětům, doprovázené **explicitní noematickou apercepcí**: *"Toto je hrnek, který drží kávu, kterou piju, abych se probudil."* Cíl: **reaktivovat konstitutivní automatismus**.
+Cvičení strukturované senzorické pozornosti k běžným předmětům, doprovázené **explicitní noematickou apercepcí**: *„Toto je hrnek, který drží kávu, kterou piju, abych se probudil.“* Cíl: **reaktivovat konstitutivní automatismus**.
 
 #### 3. Sociální rekontextualizace
 
@@ -144,7 +144,7 @@ Intervence: 18 měsíců strukturované klinické práce s fenomenologicky vzdě
 
 ### Případ 2 — Akademická amplifikace
 
-PhD kandidát ve fenomenologii rozvinul perzistentní reflexivní obrat — během dvou let výzkumné práce přestal **přirozeně konstituovat** sociální situace. Schůze, hovory, jídlo prožíval jako *"mechanizmus, na který se musí soustředit"*.
+PhD kandidát ve fenomenologii rozvinul perzistentní reflexivní obrat — během dvou let výzkumné práce přestal **přirozeně konstituovat** sociální situace. Schůze, hovory, jídlo prožíval jako *„mechanizmus, na který se musí soustředit“*.
 
 Detekce: kolegové zaznamenali, že subjekt **přestává reagovat** na sociální podněty způsobem, který by odpovídal jejich obsahu.
 
@@ -154,7 +154,7 @@ Intervence: změna výzkumného tématu, supervize klinickým fenomenologem, pos
 
 Subjekt po vysoké dávce psychedelika bez integračního rámce vyvinul perzistentní rozpad konstitutivních principů. Stav trval **18 měsíců** s postupnou stabilizací.
 
-Detekce: partner subjektu zjistil, že subjekt **prožívá běžné prostředí** jako *"zvláštní a vzdálené"* po několika měsících od zážitku.
+Detekce: partner subjektu zjistil, že subjekt **prožívá běžné prostředí** jako *„zvláštní a vzdálené“* po několika měsících od zážitku.
 
 Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních syntéz; klinický rámec rozšířený o **somatické techniky** ukotvení.
 
@@ -164,7 +164,7 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 - **[EA-5.2.4 Apriorní saturace](@/kompendium/techniques/ea-5-2-4-apriorni-saturace.md)** — saturace falešnými apriori připravuje rozpad konstitutivních principů.
 - **[EA-5.2.7 Kategoriální disoluce](@/kompendium/techniques/ea-5-2-7-kategorialni-disoluce.md)** — kategoriální struktura, která se má rozpadnout, zahrnuje konstitutivní funkci.
-- **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — bez konstitucí předmětů kolabuje inference.
+- **[EA-5.1.16 Inferenční paralýza](@/kompendium/techniques/ea-5-1-16-inferencni-paralyza.md)** — bez konstitucí předmětů kolabuje [inference](@/glossary/inference.md).
 
 ### Eskaluje do
 
@@ -173,9 +173,9 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
 
 ## Vztah k Prismatic platformě
 
-- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud konstitutivní akt selže, je to viditelné v auditní stopě.
-- **OSINT framework** vyžaduje **explicitní entitní rezoluci** — konstituce předmětu jako entity je strukturně exteriorizovaná a sledovatelná.
-- **Decision Engine** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
+- **[NABLA Infinity](@/glossary/nabla-infinity.md)** explicitně modeluje **konstitutivní akty** v epistemickém pipeline jako diskrétní krok od **observation** k **identification** — pokud [konstitutivní akt](@/glossary/konstitutivni-akt.md) selže, je to viditelné v auditní stopě.
+- **[OSINT](@/glossary/osint.md) framework** vyžaduje **explicitní entitní rezoluci** — konstituce předmětu jako entity je strukturně exteriorizovaná a sledovatelná.
+- **[Decision Engine](@/glossary/decision-engine.md)** vyžaduje **objektifikované hypotézy** — bez konstituovaných předmětů systém odmítá vyhodnocovat.
 
 ## Související
 
@@ -189,7 +189,6 @@ Intervence: integrační terapie zaměřená na rekonstrukci konstitutivních sy
   - [Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
   - [Fenomenologie](@/glossary/fenomenologie.md)
   - [Epistemické trauma](@/glossary/epistemicke-trauma.md)
-
 
 ## ⚡ Kritický krok
 

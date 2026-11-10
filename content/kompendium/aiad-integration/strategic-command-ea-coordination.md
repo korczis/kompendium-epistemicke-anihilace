@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Strategic Command překládá strategický záměr na taktické plány — koordinuje multi-agentní operace, spravuje závislosti a synchronizuje časování napříč týmy. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Strategic Command](@/glossary/strategic-command.md) překládá strategický záměr na taktické plány — koordinuje multi-agentní operace, spravuje závislosti a synchronizuje časování napříč týmy. V architektuře platformy zaujímá pozici v rámci **Strategic Agents** (strategic) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -37,7 +37,7 @@ Strategic Command **necítí terén** — pracuje s mapou, nikoli teritoriem. Po
 
 ## Coordination
 
-Přijímá záměr od **Supreme Commander**; deleguje na **Tactical Execution**; koordinuje s **Operational Execution** pro deployment.
+Přijímá záměr od **[Supreme Commander](@/glossary/supreme-commander.md)**; deleguje na **[Tactical Execution](@/glossary/tactical-execution.md)**; koordinuje s **Operational Execution** pro deployment.
 
 ## Cross-linky
 

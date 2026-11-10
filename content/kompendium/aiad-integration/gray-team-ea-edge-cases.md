@@ -17,7 +17,7 @@ toc = true
 
 ## Agent overview
 
-Gray Team operuje v šedé zóně — testuje hraniční případy, dual-use scenarios a etické ambivalence, kde standardní EA klasifikace selhává. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
+[Gray Team](@/glossary/gray-team.md) operuje v šedé zóně — testuje hraniční případy, dual-use scenarios a etické ambivalence, kde standardní EA klasifikace selhává. V architektuře platformy zaujímá pozici v rámci **Color Teams** (color-teams) a jeho odpovědnost je striktně vymezená — žádný jiný agent neduplikuje jeho roli.
 
 ## EA relevance
 
@@ -29,7 +29,7 @@ Detekce: kontextuálně senzitivní — **multi-perspective scoring** (legitimac
 
 ## Operational protocols
 
-Provoz: per-case deliberativní review. Výstup: **rozšířená taxonomie** s gradient-labels (např. "legitimate-with-warning") namísto hard rejekce. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
+Provoz: per-case deliberativní review. Výstup: **rozšířená taxonomie** s gradient-labels (např. „legitimate-with-warning“) namísto hard rejekce. Každý protokolový krok je instrumentován **OTEL telemetrií** (per [DOCS+OTEL doctrine](@/kompendium/aiad-integration/quality-monitor-ea-tracking.md)) a každé rozhodnutí je auditovatelné přes **NCLB evidence chain**.
 
 ## Limitations
 
@@ -37,7 +37,7 @@ Gray Team je **pomalý** (deliberace trvá hodiny až dny) a **subjektivní** �
 
 ## Coordination
 
-Eskaluje sporné případy **White Teamu** pro audit; konzultuje **Compliance Agent** pro regulační rámec; informuje **Purple Team** o nových klasifikačních dilematech.
+Eskaluje sporné případy **White Teamu** pro audit; konzultuje **Compliance Agent** pro regulační rámec; informuje **[Purple Team](@/glossary/purple-team.md)** o nových klasifikačních dilematech.
 
 ## Cross-linky
 

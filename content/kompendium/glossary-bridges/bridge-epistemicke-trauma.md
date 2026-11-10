@@ -24,7 +24,7 @@ Tento bridge clanek navigacne propojuje kompendium s odpovidajicim glossary hesl
 
 ## Definice z glossary
 
-Epistemické trauma je psychologická a kognitivní zranění způsobené narušením subjektovy schopnosti důvěryhodně poznávat — typicky v důsledku gaslighting, deepfake-based deception, institutional betrayal, nebo soustavného popírání evidence. Liší se od fyzického nebo emocionálního traumatu lokalizací zranění v kognitivně-epistemické vrstvě self.
+Epistemické trauma je psychologická a kognitivní zranění způsobené narušením subjektovy schopnosti důvěryhodně poznávat — typicky v důsledku [gaslighting](@/glossary/gaslighting.md), deepfake-based deception, institutional betrayal, nebo soustavného popírání evidence. Liší se od fyzického nebo emocionálního traumatu lokalizací zranění v kognitivně-epistemické vrstvě self.
 
 Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho aplikacni rovinu, vztahy a interpretacni implikace v kontextu Prismatic platformy.
 
@@ -33,7 +33,7 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 06 — Trauma kategorie**: epistemic vs. somatic vs. emotional
-- **Sekce 07 — Etiologie**: gaslighting, betrayal, deepfake harm
+- **Sekce 07 — Etiologie**: gaslighting, betrayal, [deepfake](@/glossary/deepfake.md) harm
 - **Sekce 08 — Symptomy**: hypervigilance, source distrust, self-doubt
 - **Sekce 09 — Léčba**: epistemic re-empowerment, evidence-based reality testing
 - **Per-technique články**: screening tools, intervention protocols

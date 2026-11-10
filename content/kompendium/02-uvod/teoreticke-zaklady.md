@@ -19,7 +19,7 @@ toc = true
 
 Tato kapitola představuje **teoretická východiska** taxonomie. Bez explicitního konceptuálního rámce by jakákoli klasifikace zůstala povrchní a nereprodukovatelná. Teoretická báze není pouhým akademickým ornamentem — informuje **každé** klasifikační rozhodnutí, **každé** diferenciálně-diagnostické kritérium a **každý** intervenční protokol odvozený z taxonomie.
 
-Tato kapitola poskytuje systematický výklad teoretických východisek, která tvoří konceptuální základ taxonomie epistemické a kognitivní anihilace. Prezentuje klíčové teoretické perspektivy, fundamentální principy a integrativní rámec, z nichž taxonomie vychází a které umožňují porozumět jejím strukturálním charakteristikám a explanačním ambicím. Pro přesnou [definici anihilace](@/kompendium/02-uvod/definice.md) a [historický kontext](@/kompendium/02-uvod/historicky-kontext.md) odkazujeme na předchozí kapitoly, jejichž závěry jsou v této sekci dále teoreticky prohloubeny.
+Tato kapitola poskytuje systematický výklad teoretických východisek, která tvoří konceptuální základ taxonomie epistemické a [kognitivní anihilace](@/glossary/kognitivni-anihilace.md). Prezentuje klíčové teoretické perspektivy, fundamentální principy a integrativní rámec, z nichž taxonomie vychází a které umožňují porozumět jejím strukturálním charakteristikám a explanačním ambicím. Pro přesnou [definici anihilace](@/kompendium/02-uvod/definice.md) a [historický kontext](@/kompendium/02-uvod/historicky-kontext.md) odkazujeme na předchozí kapitoly, jejichž závěry jsou v této sekci dále teoreticky prohloubeny.
 
 ## Fundamentální principy taxonomie
 
@@ -31,7 +31,7 @@ Kompendium předpokládá, že **epistemické procesy mají strukturální vlast
 - Klasifikovat podle invariantních charakteristik
 - Predikovat ve smyslu zranitelností a obranných možností
 
-Strukturální realismus odmítá dva extrémy: na jedné straně **naivní realismus** předpokládající, že epistemické procesy jsou objektivně dané přirozené druhy nezávislé na pozorovateli; na druhé straně **konstruktivistický skepticismus** popírající jakoukoli strukturní invariantní realitu epistemických procesů. Taxonomie zaujímá střední pozici: epistemické procesy mají **strukturní vlastnosti**, jež jsou intersubjektivně verifikovatelné a predikčně produktivní, ačkoli naše konceptualizace těchto vlastností je revizibilní.
+Strukturální realismus odmítá dva extrémy: na jedné straně **naivní realismus** předpokládající, že epistemické procesy jsou objektivně dané přirozené druhy nezávislé na pozorovateli; na druhé straně **konstruktivistický [skepticismus](@/glossary/skepticismus.md)** popírající jakoukoli strukturní invariantní realitu epistemických procesů. Taxonomie zaujímá střední pozici: epistemické procesy mají **strukturní vlastnosti**, jež jsou intersubjektivně verifikovatelné a predikčně produktivní, ačkoli naše konceptualizace těchto vlastností je revizibilní.
 
 ### 2. Multidimenzionální klasifikace
 
@@ -82,13 +82,13 @@ Taxonomie identifikuje spektrum fenoménů narušujících epistemickou autonomi
 
 **Epistemická rekurzivita** označuje kapacitu poznávacích procesů reflektovat samy sebe a operovat na vlastních výstupech. Tento princip je fundamentální pro meta-kognitivní fungování, které umožňuje subjektu monitorovat a regulovat vlastní poznávací procesy.
 
-Taxonomie identifikuje specifické formy narušení epistemické rekurzivity, od oslabení meta-kognitivních kapacit až po fenomény jako "epistemická slepota" (inability detekovat vlastní epistemické deficity) nebo "kognitivní anti-rekurzivita" (aktivní blokování rekurzivních poznávacích operací).
+Taxonomie identifikuje specifické formy narušení epistemické rekurzivity, od oslabení meta-kognitivních kapacit až po fenomény jako „[epistemická slepota](@/glossary/epistemicka-slepota.md)“ (inability detekovat vlastní epistemické deficity) nebo „kognitivní anti-rekurzivita“ (aktivní blokování rekurzivních poznávacích operací).
 
 ### Princip epistemické sociality
 
 **Epistemická socialita** reflektuje fundamentálně sociální povahu lidského poznávání a uznává, že epistemické procesy a struktury jsou konstituovány a udržovány prostřednictvím sociálních interakcí a participace v epistemických komunitách.
 
-Taxonomie analyzuje specifické formy narušení epistemické sociality, od izolace subjektu od relevantních epistemických komunit až po distorzi sociálně-epistemických vztahů prostřednictvím fenoménů jako "epistemická dominance" nebo "testimonální injustice".
+Taxonomie analyzuje specifické formy narušení epistemické sociality, od izolace subjektu od relevantních epistemických komunit až po distorzi sociálně-epistemických vztahů prostřednictvím fenoménů jako „epistemická dominance“ nebo „testimonální injustice“.
 
 ## Hierarchický model kognitivní architektury
 
@@ -111,7 +111,7 @@ Předpokládáme, že **epistemický subjekt** disponuje:
 - **Kognitivními kapacitami** (paměť, pozornost, exekutivní funkce)
 - **Epistemickými dispozicemi** (kritické myšlení, interpretační flexibilita, metareflexe)
 - **Strukturálními předpoklady** (kategorie, schémata, narativní rámce)
-- **Sociální vsazeností** (epistemická komunita, autorita, zdroje)
+- **Sociální vsazeností** ([epistemická komunita](@/glossary/epistemicka-komunita.md), autorita, zdroje)
 
 Anihilace cílí selektivně na **různé úrovně** této struktury. Útok na sociální vsazenost (izolace) může destabilizovat i robustní jednotlivce; útok na strukturální předpoklady (lingvistická redefinice) je obtížnější a má hlubší efekt; útok na epistemické dispozice (systematická diskreditace kritického myšlení) má efekt nejhlubší a nejtrvalejší.
 
@@ -187,8 +187,8 @@ Taxonomie identifikuje klíčové neuronální systémy asociované s různými 
 1. **Prefrontální kortikální sítě** — Zodpovědné za exekutivní funkce, včetně kognitivní kontroly, pracovní paměti a abstraktního myšlení.
 2. **Temporoparietální junkce** — Klíčová pro theorii mysli, atribuce intencí a sociálně-epistemické procesy.
 3. **Hipokampální formace** — Esenciální pro episodickou paměť a kontextuální učení, které jsou fundamentální pro temporální kontinuitu epistemického já.
-4. **Insulární kortex** — Zapojený do interocepce, zpracování pocitů a subjektivní jistoty, které jsou klíčové pro fenomenologické aspekty poznávání.
-5. **Default mode network** — Asociovaná s introspektivními procesy, autobiografickým myšlením a konstrukcí self-narativu.
+4. **Insulární kortex** — Zapojený do [interocepce](@/glossary/interocepce.md), zpracování pocitů a subjektivní jistoty, které jsou klíčové pro fenomenologické aspekty poznávání.
+5. **[Default mode network](@/glossary/default-mode-network.md)** — Asociovaná s introspektivními procesy, autobiografickým myšlením a konstrukcí self-narativu.
 
 ### Neurobiologie stresu a traumatu
 
@@ -233,7 +233,7 @@ Taxonomie epistemické a kognitivní anihilace integruje poznatky z klinické ps
 
 ### Model disociativních fenoménů
 
-Taxonomie využívá teorii strukturální disociace osobnosti jako klíčový explanační rámec pro porozumění určitým formám epistemické fragmentace:
+Taxonomie využívá teorii strukturální [disociace](@/glossary/disociace.md) osobnosti jako klíčový explanační rámec pro porozumění určitým formám epistemické fragmentace:
 
 1. **Primární strukturální disociace** — Základní rozdělení mezi zdánlivě normální osobností (ANP) a emocionální částí osobnosti (EP), které může vést k selektivní epistemické disociaci traumatických obsahů.
 2. **Sekundární strukturální disociace** — Fragmentace emocionální části na multiple komponenty, která může vést k komplexnějším formám epistemické fragmentace.
@@ -245,7 +245,7 @@ Taxonomie integruje poznatky o kontinuu psychotických procesů, které poskytuj
 
 1. **Kontinuum paranoidního myšlení** — Pohled na paranoidní ideace jako na extrémní formy normálních kognitivních procesů spíše než kategoricky distinktivní fenomény.
 2. **Salience dysregulation** — Model, který konceptualizuje psychotické fenomény jako důsledek dysregulace atribuce salience podnětu, vedoucí k nepřiměřenému přisuzování významu irelevantním stimulům.
-3. **Disrupted predictive processing** — Perspektiva, která vidí psychotické fenomény jako důsledek narušení prediktivních procesů, které normálně konstituují naši percepci a porozumění světu.
+3. **Disrupted [predictive processing](@/glossary/predictive-processing.md)** — Perspektiva, která vidí psychotické fenomény jako důsledek narušení prediktivních procesů, které normálně konstituují naši percepci a porozumění světu.
 
 ### Model obsedantně-kompulzivních procesů
 
@@ -274,14 +274,14 @@ Empirická psychologie dodává:
 
 - **Heuristiky a biasy** (Kahneman/Tversky) — exploitabilní zranitelnosti
 - **Dvojsystémová teorie** — System 1 (automatický) vs. System 2 (analytický)
-- **Konfirmační bias**, **kognitivní disonance**, **motivované uvažování**
-- **Metakognice** — monitoring a regulace vlastních procesů
+- **[Konfirmační bias](@/glossary/konfirmacni-bias.md)**, **kognitivní disonance**, **motivované uvažování**
+- **[Metakognice](@/glossary/metakognice.md)** — monitoring a regulace vlastních procesů
 
 ### Filozofie mysli
 
 Klíčové koncepty:
 
-- **Intencionalita** — aboutness mentálních stavů
+- **[Intencionalita](@/glossary/intencionalita.md)** — aboutness mentálních stavů
 - **Reprezentace** — vnitřní obraz vnějšího světa
 - **Sebevědomí** — reflexivní access k vlastním stavům
 - **Narativní self** — kontinuální identitní struktura
@@ -490,7 +490,6 @@ Teoretický rámec je **dynamickou architekturou**, otevřenou kontinuální rev
 - [Glosář: Metakognitivní destrukce](@/glossary/metakognitivni-destrukce.md)
 - [Glosář: Ontologická anihilace](@/glossary/ontologicka-anihilace.md)
 - [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-
 
 ## ⚡ Kritický krok
 

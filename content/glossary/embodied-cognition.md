@@ -8,7 +8,7 @@ description = "Theoretical framework holding that cognition is grounded in bodil
 tags = ["glossary", "epistemic", "philosophy", "cognition"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "lebenswelt", "intentionalita", "metakognice", "narrative-trauma"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"
@@ -28,20 +28,20 @@ image_alt = "Embodied Cognition - glossary"
 
 Three claims distinguish enactivism from classical cognitivism: (1) **Embodiment** — cognitive structures emerge from recurrent sensorimotor patterns; concepts like *up/down*, *near/far*, *grasping*, *holding* are not metaphors layered onto abstract logic, they are the foundation of logic. (2) **Embeddedness** — cognition is constitutively environmental; the boundary of the cognitive system is not the skull. (3) **Enaction** — meaning is not retrieved from a pre-given world; it is brought forth by the organism's history of structural coupling.
 
-For epistemic security, the consequence is decisive. Knowledge is not a set of propositional contents that can be safely transmitted independently of the body. Trauma, exhaustion, somatic dysregulation, vagal tone, interoceptive disorder — all of these are not "interferences" with cognition; they are constitutive components of it. An epistemically annihilated person is not merely a person with corrupted beliefs; they are a person whose **somatic ground for cognition** has been disrupted.
+For [epistemic security](@/glossary/epistemic-security.md), the consequence is decisive. Knowledge is not a set of propositional contents that can be safely transmitted independently of the body. Trauma, exhaustion, somatic dysregulation, vagal tone, interoceptive disorder — all of these are not “interferences” with cognition; they are constitutive components of it. An epistemically annihilated person is not merely a person with corrupted beliefs; they are a person whose **somatic ground for cognition** has been disrupted.
 
 ## Context
 
-In the Prismatic Platform's threat model, embodied cognition explains why **somatic dimensions of [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** are not "side effects" but core damage. Several EA techniques in the [Kompendium](@/kompendium/_index.md) operate primarily through somatic disruption rather than propositional persuasion: chronic threat induction (sympathetic overdrive), shame conditioning (interoceptive collapse), sleep disruption, and forced cognitive load against vagal capacity. These are documented in [Kompendium → Somatické vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) and link to specific techniques in the EA-1.6.x and EA-3.x families.
+In the Prismatic Platform's threat model, embodied cognition explains why **somatic dimensions of [Epistemická anihilace](@/glossary/epistemicka-anihilace.md)** are not “side effects” but core damage. Several EA techniques in the [Kompendium](@/kompendium/_index.md) operate primarily through somatic disruption rather than propositional persuasion: chronic threat induction (sympathetic overdrive), shame conditioning (interoceptive collapse), sleep disruption, and forced cognitive load against vagal capacity. These are documented in [Kompendium → Somatické vektory](@/kompendium/03-zakladni-kategorie/somaticke-vektory.md) and link to specific techniques in the EA-1.6.x and EA-3.x families.
 
-The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of somatic dysregulation in subjects as a **negative confidence signal** for any decision based on the subject's stated beliefs — an enactivist correction against the cognitivist fallacy that "what they say they believe" is detachable from "what state their body is in when they say it." Recovery protocols documented at [/kompendium/06-zotaveni/](@/kompendium/recovery-protocols/_index.md) integrate somatic-phenomenological work (Hanna, Levine, Porges) with classical cognitive therapy.
+The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} treats reports of somatic dysregulation in subjects as a **negative confidence signal** for any decision based on the subject's stated beliefs — an enactivist correction against the cognitivist fallacy that “what they say they believe” is detachable from “what state their body is in when they say it.” Recovery protocols documented at [/kompendium/06-zotaveni/](@/kompendium/recovery-protocols/_index.md) integrate somatic-phenomenological work (Hanna, Levine, Porges) with classical cognitive therapy.
 
 ## See Also
 
 - [Epistemická anihilace](@/glossary/epistemicka-anihilace.md) — Damage to epistemic structures including their somatic ground
 - [Kognitivní anihilace](@/glossary/kognitivni-anihilace.md) — Cognitive process damage parallel to embodied disruption
 - [Lebenswelt](@/glossary/lebenswelt.md) — Husserlian lifeworld as horizon for embodied experience
-- [Intentionalita](@/glossary/intentionalita.md) — Phenomenological "aboutness" rooted in body
+- [Intentionalita](@/glossary/intentionalita.md) — Phenomenological “aboutness” rooted in body
 - [Metakognice](@/glossary/metakognice.md) — Reflective monitoring depends on intact interoception
 - [Narrative Trauma](@/glossary/narrative-trauma.md) — Somatic-narrative damage in EA recovery
 - [Kompendium](@/kompendium/_index.md) — Full Czech-language taxonomy

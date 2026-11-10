@@ -7,7 +7,7 @@ description = "Unified storage interface abstracting 7 backend technologies thro
 tags = ["glossary", "architecture", "design-patterns", "storage", "abstraction", "contracts"]
 
 [extra]
-category = "storage"
+category = "architektura platformy"
 related_terms = ["behaviour", "protocol", "ets", "kuzudb", "meilisearch", "duckdb", "ecto", "connection-pooling", "openapi-spec", "umbrella-application", "plug", "typespec"]
 status = "active"
 author = "Tomas Korcak (korczis)"
@@ -429,7 +429,7 @@ defmodule PrismaticStorage.InstrumentedAdapter do
 end
 ```
 
-This instrumented adapter enables dashboards that show per-backend latency distributions, error rates, and throughput metrics -- all derived from the uniform adapter interface without any backend-specific instrumentation code.
+This instrumented adapter enables dashboards that show per-backend latency distributions, error rates, and throughput metrics — all derived from the uniform adapter interface without any backend-specific instrumentation code.
 
 ## Error Handling Strategy
 

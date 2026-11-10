@@ -8,7 +8,7 @@ description = "Adorno and Horkheimer's diagnosis (Dialectic of Enlightenment) of
 tags = ["glossary", "epistemic", "kompendium", "philosophy"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["communicative-rationality", "ideal-speech-situation", "power-knowledge", "epistemicka-anihilace", "metanarrative-collapse"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -40,7 +40,7 @@ Specifically:
 - **Mass-scale EA via algorithmic systems** (recommendation engines, ad targeting, predictive policing) is the instrumental-reason critique made operational: the systems are technically optimal for their stated ends, while the ends themselves systematically degrade the epistemic commons.
 - The kompendium at [/kompendium/07-teoreticke-reflexe/](@/kompendium/07-teoreticke-reflexe/_index.md) pairs the Frankfurt-School diagnosis with [Habermasian communicative rationality](@/glossary/communicative-rationality.md) as the normative counter-move: communicative rationality is the contemporary heir to the Frankfurt project's attempt to recover a non-instrumental form of reason.
 - The platform's {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} explicitly tracks **which ends are being optimized** alongside **how well they are being optimized** — a Habermas-Adorno-aware design move that refuses to treat the optimization criterion itself as beyond audit.
-- The [Color Teams](@/glossary/color-teams.md) framework includes Red Team scenarios in which the platform's own optimization machinery becomes adversarial to user epistemic interests — instrumental-reason auto-corruption tested as a threat model.
+- The [Color Teams](@/glossary/color-teams.md) framework includes [Red Team](@/glossary/red-team.md) scenarios in which the platform's own optimization machinery becomes adversarial to user epistemic interests — instrumental-reason auto-corruption tested as a threat model.
 
 ## See Also
 

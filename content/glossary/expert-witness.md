@@ -7,7 +7,7 @@ description = "Witness qualified by knowledge, skill, experience, training, or e
 tags = ["legal", "forensic", "evidence", "compliance"]
 
 [extra]
-category = "legal"
+category = "právo a forenzní praxe"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -39,7 +39,7 @@ The U.S. *Daubert v. Merrell Dow* (1993), *General Electric v. Joiner* (1997), a
 
 ## Practical Application
 
-In due-diligence engagements, independent experts are commissioned for accounting (forensic accountants for QoE), valuation (FMV opinions), technical (security architecture review), and human-capital (organizational assessment) work streams. Selection criteria should include not only credentials but the expert's litigation track record — published methodology, prior court qualifications, *Daubert* exclusion history. In OSINT and intelligence work, the principle of expert authority informs report structure: conclusions should be attributed to named analysts whose qualifications can be evaluated, methodologies should be documented, and uncertainty should be quantified rather than hidden behind unattributed assertions. Compliance teams should preserve the chain from raw data through expert opinion to facilitate later audit or testimony.
+In due-diligence engagements, independent experts are commissioned for accounting (forensic accountants for QoE), valuation (FMV opinions), technical (security architecture review), and human-capital (organizational assessment) work streams. Selection criteria should include not only credentials but the expert's litigation track record — published methodology, prior court qualifications, *Daubert* exclusion history. In [OSINT](@/glossary/osint.md) and intelligence work, the principle of expert authority informs report structure: conclusions should be attributed to named analysts whose qualifications can be evaluated, methodologies should be documented, and uncertainty should be quantified rather than hidden behind unattributed assertions. Compliance teams should preserve the chain from raw data through expert opinion to facilitate later audit or testimony.
 
 ## Related Concepts
 

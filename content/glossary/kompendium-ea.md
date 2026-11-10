@@ -8,7 +8,7 @@ description = "Kompendium epistemické a kognitivní anihilace — česky veden�
 tags = ["glossary", "epistemic", "kompendium", "reference"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "taxonomie-ea", "dual-use-poznani", "delegitimizace", "metakognitivni-destrukce"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "4 min"

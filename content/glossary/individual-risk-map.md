@@ -7,7 +7,7 @@ description = "Personalized, evidence-based representation of the specific risks
 tags = ["risk", "ethics", "investigation", "due-diligence", "compliance"]
 
 [extra]
-category = "risk"
+category = "bezpečnost a zpravodajství"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -27,7 +27,7 @@ image_alt = "Individual Risk Map - Prismatic Platform"
 
 ## Definition
 
-An individual risk map is a structured, personalized assessment that translates aggregate risk statistics into a representation of the specific risks faced or posed by a particular subject. The map integrates *baseline* risk (population-level prevalence), *contextual* modifiers (geography, role, environment), *individual* factors (history, comorbidities, behavior, vulnerability), and *temporal* dynamics (changes over time) into a decision-ready artifact. The output may be a quantitative score, a qualitative narrative, a structured matrix, or a graph — but its defining feature is *individualization*: it answers the question "what is the risk for *this* person?" rather than "what is the average risk for people like this?"
+An individual risk map is a structured, personalized assessment that translates aggregate risk statistics into a representation of the specific risks faced or posed by a particular subject. The map integrates *baseline* risk (population-level prevalence), *contextual* modifiers (geography, role, environment), *individual* factors (history, comorbidities, behavior, vulnerability), and *temporal* dynamics (changes over time) into a decision-ready artifact. The output may be a quantitative score, a qualitative narrative, a structured matrix, or a graph — but its defining feature is *individualization*: it answers the question „what is the risk for *this* person?“ rather than „what is the average risk for people like this?“
 
 ## Manažerské shrnutí
 

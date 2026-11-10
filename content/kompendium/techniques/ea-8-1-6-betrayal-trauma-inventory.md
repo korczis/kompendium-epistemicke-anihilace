@@ -34,7 +34,7 @@ parent_chapter = "/kompendium/08-prilohy/"
 
 ## Charakteristika zdroje
 
-Tří-osová struktura: (1) Betrayal Trauma — high betrayal vs. low betrayal events, (2) Caregiver vs. non-caregiver perpetrator, (3) Childhood vs. adult timing. Celkem 24 životních událostí + perpetrator-specific contextual probes.
+Tří-osová struktura: (1) [Betrayal Trauma](@/glossary/betrayal-trauma.md) — high betrayal vs. low betrayal events, (2) Caregiver vs. non-caregiver perpetrator, (3) Childhood vs. adult timing. Celkem 24 životních událostí + perpetrator-specific contextual probes.
 
 ## Klíčové komponenty
 
@@ -50,7 +50,7 @@ Validace: Goldsmith, Freyd & DePrince (2012), N=362 vysokoškoláků + N=185 kli
 
 ## Limitace
 
-Self-report citlivý na kulturní normalizaci určitých forem zrady (např. emocionální zanedbávání). Vyžaduje kalibraci v post-totalitních kontextech (CZ, SK).
+[Self-report](@/glossary/self-report.md) citlivý na kulturní normalizaci určitých forem zrady (např. emocionální zanedbávání). Vyžaduje kalibraci v post-totalitních kontextech (CZ, SK).
 
 ## Vztah k jiným zdrojům
 

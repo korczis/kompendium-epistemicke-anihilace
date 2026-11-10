@@ -8,7 +8,7 @@ description = "Odcizení subjektu od vlastního poznávacího aparátu — stav,
 tags = ["glossary", "epistemic", "kompendium", "anihilacni-fenomeny"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "kognitivni-anihilace", "metakognitivni-destrukce", "anankasticky-rezim"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"
@@ -29,7 +29,7 @@ image_alt = "Epistemická alienace - glossary"
 Phenomenologically, subjects in epistemic alienation report:
 
 - **Detached observation** of their own thoughts as if they were external phenomena
-- **Authenticity collapse** — uncertainty about which thoughts are "really theirs" versus implanted, conditioned, or manipulated
+- **Authenticity collapse** — uncertainty about which thoughts are “really theirs” versus implanted, conditioned, or manipulated
 - **Cognitive depersonalization** — diminished sense of agentive ownership over reasoning
 - **Validating dependency** — compulsive seeking of external authorities to certify one's own conclusions
 - **Reflexive self-suspicion** that erodes spontaneous judgment
@@ -43,13 +43,13 @@ Epistemic alienation is functionally significant because it disables the **found
 Several techniques in the [Kompendium](@/kompendium/_index.md) are documented inducers of epistemic alienation:
 
 - **Persistent EA-1.4.2 Latent Emotional Modulation** specifically targeting cognitive self-trust
-- The "Guru and Adept" pattern when the mentor systematically frames the adept's spontaneous judgments as "ego illusions"
+- The “Guru and Adept” pattern when the mentor systematically frames the adept's spontaneous judgments as “ego illusions”
 - Sustained exposure to **EA-1.3.2 Strategic Reinterpretation** of the subject's own past statements
-- Gaslighting variants that systematically question the subject's perception, memory, and inference
+- [Gaslighting](@/glossary/gaslighting.md) variants that systematically question the subject's perception, memory, and [inference](@/glossary/inference.md)
 
 The condition shares **phenomenological surface features** with depersonalization-derealization disorder, but differs in etiology and trajectory: epistemic alienation is **specifically about the relationship to cognition**, not about the global sense of self or reality, and it typically follows a sustained **external-induction** pattern rather than emerging from intrinsic neurology.
 
-In Prismatic-relevant defensive applications, epistemic alienation appears as a **counter-target**: many of the platform's epistemic security operations are designed to detect early markers of alienation in monitored subjects (case workers, journalists, whistleblowers) so that protective interventions can be initiated before the state becomes self-stabilizing.
+In Prismatic-relevant defensive applications, epistemic alienation appears as a **counter-target**: many of the platform's [epistemic security](@/glossary/epistemic-security.md) operations are designed to detect early markers of alienation in monitored subjects (case workers, journalists, whistleblowers) so that protective interventions can be initiated before the state becomes self-stabilizing.
 
 Recovery typically requires **rebuilding self-relation** rather than focusing on specific beliefs. Therapeutic strategies emphasize re-establishing trust in cognitive ownership through low-stakes successful judgment, gradual exposure to peer-validated successful reasoning, and structured integration of pre-alienation cognitive history.
 

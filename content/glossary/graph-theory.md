@@ -7,7 +7,7 @@ description = "Graph theory is the branch of mathematics studying structures for
 tags = ["glossary", "mathematics", "graph", "algorithms", "data-structures", "formal-methods", "trinity-gate", "verification"]
 
 [extra]
-category = "mathematics"
+category = "logika a jazyk"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "22 min"
@@ -30,11 +30,11 @@ image_alt = "Graph Theory - Prismatic Platform"
 
 ## Definition
 
-Graph theory is the branch of discrete mathematics that studies graphs -- mathematical structures consisting of vertices (nodes) connected by edges (links) -- and the properties, algorithms, and theorems that govern them. A graph `G = (V, E)` is defined by a set of vertices `V` and a set of edges `E`, where each edge connects two vertices. Graph theory provides the formal foundation for problems involving connectivity, paths, cycles, flows, coloring, matching, and planarity. In the Prismatic Platform, graph theory is not an academic abstraction but a practical tool applied daily: supervision trees are graphs, agent dependency chains are directed acyclic graphs (DAGs), the NABLA belief network must form a valid DAG for Trinity Gate passage, entity resolution operates on property graphs, and the platform's attack surface maps are traversable graph structures.
+Graph theory is the branch of discrete mathematics that studies graphs — mathematical structures consisting of vertices (nodes) connected by edges (links) — and the properties, algorithms, and theorems that govern them. A graph `G = (V, E)` is defined by a set of vertices `V` and a set of edges `E`, where each edge connects two vertices. Graph theory provides the formal foundation for problems involving connectivity, paths, cycles, flows, coloring, matching, and planarity. In the Prismatic Platform, graph theory is not an academic abstraction but a practical tool applied daily: supervision trees are graphs, agent dependency chains are directed acyclic graphs (DAGs), the NABLA belief network must form a valid DAG for Trinity Gate passage, [entity resolution](@/glossary/entity-resolution.md) operates on property graphs, and the platform's attack surface maps are traversable graph structures.
 
 ## Overview
 
-Graph theory was born in 1736 when Leonhard Euler solved the Seven Bridges of Konigsberg problem by proving that no walk through the city could cross each of its seven bridges exactly once. Euler's key insight was to abstract the problem from its physical geography into a mathematical structure: landmasses became vertices, bridges became edges, and the question became one about the existence of an Eulerian path in the resulting graph. This act of abstraction -- reducing a real-world problem to its graph-theoretic essence -- remains the central methodology of graph theory nearly three centuries later.
+Graph theory was born in 1736 when Leonhard Euler solved the Seven Bridges of Konigsberg problem by proving that no walk through the city could cross each of its seven bridges exactly once. Euler's key insight was to abstract the problem from its physical geography into a mathematical structure: landmasses became vertices, bridges became edges, and the question became one about the existence of an Eulerian path in the resulting graph. This act of abstraction — reducing a real-world problem to its graph-theoretic essence — remains the central methodology of graph theory nearly three centuries later.
 
 The field has grown enormously since Euler's time. Key milestones include:
 
@@ -56,9 +56,9 @@ In software engineering, graph theory surfaces everywhere: dependency resolution
 
 Understanding the Prismatic Platform's graph usage requires familiarity with several graph types:
 
-**Undirected Graph**: Edges have no direction. If `(u, v)` is an edge, you can traverse from `u` to `v` and from `v` to `u`. Used for modeling symmetric relationships like "knows" or "similar to."
+**Undirected Graph**: Edges have no direction. If `(u, v)` is an edge, you can traverse from `u` to `v` and from `v` to `u`. Used for modeling symmetric relationships like “knows” or “similar to.”
 
-**Directed Graph (Digraph)**: Each edge has a direction, denoted `(u, v)` meaning from `u` to `v`. Used for modeling asymmetric relationships like "depends on," "supervises," or "implies."
+**Directed Graph (Digraph)**: Each edge has a direction, denoted `(u, v)` meaning from `u` to `v`. Used for modeling asymmetric relationships like “depends on,” “supervises,” or “implies.”
 
 **Directed Acyclic Graph (DAG)**: A directed graph with no cycles. Critical for dependency resolution, build ordering, and the Prismatic Platform's belief graph (a cycle in a belief graph would mean a belief supports itself, which is epistemically invalid).
 
@@ -300,7 +300,7 @@ end
 
 ### Graph Theory in the Trinity Gate
 
-The Trinity Gate's first verification channel -- Structural Consistency -- is a pure graph-theory check. It verifies that the platform's belief network forms a valid DAG:
+The Trinity Gate's first verification channel — Structural Consistency — is a pure graph-theory check. It verifies that the platform's belief network forms a valid DAG:
 
 ```elixir
 defmodule Prismatic.Trinity.StructuralConsistency do
@@ -497,7 +497,7 @@ Set theory deals with collections of elements without inherent structure. Graph 
 
 ### Graph Theory vs. Category Theory
 
-Category theory generalizes graph theory by adding composition of arrows (morphisms). Every graph can be viewed as a free category, but categories have additional structure (identity morphisms, associative composition) that graphs lack. The Prismatic Platform uses category-theoretic concepts in its adapter pattern (functors between storage categories).
+Category theory generalizes graph theory by adding composition of arrows (morphisms). Every graph can be viewed as a free category, but categories have additional structure (identity morphisms, associative composition) that graphs lack. The Prismatic Platform uses category-theoretic concepts in its [adapter pattern](@/glossary/adapter-pattern.md) (functors between storage categories).
 
 ### Directed vs. Undirected Applications
 
@@ -522,7 +522,7 @@ Before running algorithms on a graph, validate that it has the expected properti
 
 ### 3. Use Topological Sort for Dependency Resolution
 
-Any time you have a "must happen before" relationship, model it as a DAG and topologically sort. This applies to build systems, migration ordering, agent orchestration, and supervisor startup sequences.
+Any time you have a “must happen before” relationship, model it as a DAG and topologically sort. This applies to build systems, migration ordering, agent orchestration, and supervisor startup sequences.
 
 ### 4. Detect and Report Cycles
 
@@ -554,7 +554,7 @@ Counting or enumerating all paths between two vertices in a general graph can be
 
 Storing explicit edge objects with properties can consume significant memory for large graphs. Consider compressed representations (CSR/CSC format) for read-heavy workloads, and streaming approaches for graphs that do not fit in memory.
 
-### Neglecting Graph Theory for "Simple" Problems
+### Neglecting Graph Theory for “Simple” Problems
 
 Many problems that seem non-graph-related are actually graph problems in disguise. State machines are graphs, type hierarchies are trees, network routing is shortest-path, and scheduling is graph coloring. Recognizing the graph structure enables use of well-studied algorithms.
 
@@ -562,11 +562,11 @@ Many problems that seem non-graph-related are actually graph problems in disguis
 
 ### OTP Supervision Tree Design
 
-Every OTP application is a tree of supervisors and workers. Graph theory formalizes questions about this tree: "What happens if this node fails?" (subtree analysis), "What is the restart strategy?" (tree traversal), "Are there single points of failure?" (cut vertex detection).
+Every OTP application is a tree of supervisors and workers. Graph theory formalizes questions about this tree: “What happens if this node fails?” (subtree analysis), “What is the restart strategy?” (tree traversal), “Are there single points of failure?” (cut vertex detection).
 
 ### Prismatic Perimeter Blast Radius Analysis
 
-When a vulnerability is discovered in an asset, the EASM module calculates its "blast radius" by traversing the asset graph from the vulnerable node. All reachable nodes within a configurable depth represent potentially affected assets.
+When a vulnerability is discovered in an asset, the EASM module calculates its “blast radius” by traversing the asset graph from the vulnerable node. All reachable nodes within a configurable depth represent potentially affected assets.
 
 ### NABLA Belief Network Verification
 
@@ -574,7 +574,7 @@ The Trinity Gate's structural consistency check uses cycle detection to prevent 
 
 ### Agent Task Scheduling
 
-The AIAD orchestrator builds a task dependency graph, identifies independent tasks (vertices with no unresolved dependencies), and schedules them for parallel execution. As tasks complete, their dependent tasks become eligible for execution -- a classic topological-sort-driven scheduling pattern.
+The AIAD orchestrator builds a task dependency graph, identifies independent tasks (vertices with no unresolved dependencies), and schedules them for parallel execution. As tasks complete, their dependent tasks become eligible for execution — a classic topological-sort-driven scheduling pattern.
 
 ### Quality Gate Dependency Resolution
 
@@ -597,11 +597,11 @@ Graph theory connects to numerous aspects of the Prismatic Platform:
 
 ## See Also
 
-- [DAG (Directed Acyclic Graph)](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ast/) -- the specific graph structure used for dependency resolution and belief networks
-- [Formal Proof](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-proof/) -- mathematical proofs that often rely on graph-theoretic arguments
-- [Modal Logic](https://prismatic-reality-com.github.io/prismatic-promo/glossary/modal-logic/) -- logical framework whose Kripke semantics are graph-based (possible worlds as vertices)
-- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) -- the theorem prover used for formal graph-theoretic proofs in the Trinity Gate
-- [Theorem Proving](https://prismatic-reality-com.github.io/prismatic-promo/glossary/theorem-proving/) -- automated verification that leverages graph-theoretic structures
+- [DAG (Directed Acyclic Graph)](https://prismatic-reality-com.github.io/prismatic-promo/glossary/ast/) — the specific graph structure used for dependency resolution and belief networks
+- [Formal Proof](https://prismatic-reality-com.github.io/prismatic-promo/glossary/formal-proof/) — mathematical proofs that often rely on graph-theoretic arguments
+- [Modal Logic](https://prismatic-reality-com.github.io/prismatic-promo/glossary/modal-logic/) — logical framework whose Kripke semantics are graph-based (possible worlds as vertices)
+- [Lean4](https://prismatic-reality-com.github.io/prismatic-promo/glossary/lean4/) — the theorem prover used for formal graph-theoretic proofs in the Trinity Gate
+- [Theorem Proving](https://prismatic-reality-com.github.io/prismatic-promo/glossary/theorem-proving/) — automated verification that leverages graph-theoretic structures
 
 ---
 

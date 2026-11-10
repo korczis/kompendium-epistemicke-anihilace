@@ -7,7 +7,7 @@ description = "Voluntary agreement by a competent person to a proposed intervent
 tags = ["ethics", "legal", "research", "compliance", "data-protection"]
 
 [extra]
-category = "ethics"
+category = "etika"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "7 min"
@@ -31,11 +31,11 @@ Informed consent is the formal mechanism by which a competent individual volunta
 
 ## Manažerské shrnutí
 
-Informovaný souhlas je formální mechanismus, kterým způsobilá osoba dobrovolně autorizuje zákrok, výzkumnou participaci nebo zpracování osobních údajů poté, co obdržela všechny podstatné informace. Tři neoddělitelné prvky: *způsobilost* (cognitive capacity), *dobrovolnost* (absence donucení a nepatřičného vlivu), a *řádné poučení* (adequate disclosure). V Prismatic Platform se princip aplikuje napříč klinickým výzkumem, behaviorálními studiemi, AI/ML výzkumem na lidských datech, OSINT operacemi (tam, kde je relevantní souhlas subjektu), a v DD kontextu při získávání informací od zaměstnanců cílové firmy a third-party respondentů. České právo ho zachycuje skrze § 31 zákona o zdravotních službách, GDPR (čl. 6 a 7), a v občanskoprávním rámci přes § 93 OZ a § 96 OZ.
+Informovaný souhlas je formální mechanismus, kterým způsobilá osoba dobrovolně autorizuje zákrok, výzkumnou participaci nebo zpracování osobních údajů poté, co obdržela všechny podstatné informace. Tři neoddělitelné prvky: *způsobilost* (cognitive capacity), *dobrovolnost* (absence donucení a nepatřičného vlivu), a *řádné poučení* (adequate disclosure). V Prismatic Platform se princip aplikuje napříč klinickým výzkumem, behaviorálními studiemi, AI/ML výzkumem na lidských datech, [OSINT](@/glossary/osint.md) operacemi (tam, kde je relevantní souhlas subjektu), a v DD kontextu při získávání informací od zaměstnanců cílové firmy a third-party respondentů. České právo ho zachycuje skrze § 31 zákona o zdravotních službách, GDPR (čl. 6 a 7), a v občanskoprávním rámci přes § 93 OZ a § 96 OZ.
 
 ## Forensic/Legal Context
 
-The modern doctrine emerged from the *Nuremberg Code* (1947) and was elaborated through landmark cases — *Salgo v. Stanford* (1957), *Canterbury v. Spence* (1972) — that established the *reasonable patient* standard in U.S. medical practice (what a reasonable patient in the position of the actual patient would want to know). U.K. doctrine moved closer to this standard in *Montgomery v. Lanarkshire Health Board* (2015). EU clinical research is governed by EU 536/2014; data-protection consent is governed by GDPR Article 7 with the demanding requirement that consent be "freely given, specific, informed, and unambiguous." Czech zákon 372/2011 Sb. § 31 codifies medical informed consent; § 93 and § 96 OZ govern personality-rights consent. Common pitfalls include: technical jargon undermining comprehension, blanket consents covering unforeseen uses, time-pressured consent, and structural coercion (employees consenting to employer-sponsored research).
+The modern doctrine emerged from the *Nuremberg Code* (1947) and was elaborated through landmark cases — *Salgo v. Stanford* (1957), *Canterbury v. Spence* (1972) — that established the *reasonable patient* standard in U.S. medical practice (what a reasonable patient in the position of the actual patient would want to know). U.K. doctrine moved closer to this standard in *Montgomery v. Lanarkshire Health Board* (2015). EU clinical research is governed by EU 536/2014; data-protection consent is governed by GDPR Article 7 with the demanding requirement that consent be „freely given, specific, informed, and unambiguous.“ Czech zákon 372/2011 Sb. § 31 codifies medical informed consent; § 93 and § 96 OZ govern personality-rights consent. Common pitfalls include: technical jargon undermining comprehension, blanket consents covering unforeseen uses, time-pressured consent, and structural coercion (employees consenting to employer-sponsored research).
 
 ## Practical Application
 

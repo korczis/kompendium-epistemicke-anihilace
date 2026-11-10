@@ -104,7 +104,7 @@ místo, finanční minimum, dokumentaci a kontakt na pomoc. Terapie pak využila
   sestavená ze zápisků, zpráv a výpovědí přátel.
 - **S2 – Externalizace introjektů:** věty „jsem nemocná“, „bez něj to nezvládnu“ přiřazené
   jejich zdroji.
-- **S3 – Rekonstrukce metakognice:** obnova důvěry k vlastní paměti bez nutkavé dokumentace.
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova důvěry k vlastní paměti bez nutkavé dokumentace.
 - **S4 – Hermeneutická obnova:** nové porozumění vztahu jako vzorci kontroly, ne „lásce,
   která se pokazila“.
 - **S5 – Konsolidace a transfer:** obnova přátelství, finanční samostatnost, rozpoznávání

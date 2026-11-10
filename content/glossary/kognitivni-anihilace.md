@@ -8,7 +8,7 @@ description = "Systematická destrukce kognitivních procesů a funkcí vedoucí
 tags = ["glossary", "epistemic", "kompendium", "kognitivni"]
 
 [extra]
-category = "epistemic"
+category = "epistemologie"
 related_terms = ["epistemicka-anihilace", "metakognitivni-destrukce", "anankasticky-rezim", "kognitivni-anti-rekurzivita", "taxonomie-ea"]
 author = "Tomáš Korcak (korczis)"
 reading_time = "3 min"

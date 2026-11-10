@@ -19,7 +19,7 @@ toc = true
 
 Andy Clark v esejích a knihách *Being There* (1997), *Natural-Born Cyborgs* (2003) a *Supersizing the Mind* (2008) — a v klíčové eseji *The Extended Mind* (1998, s Davidem Chalmersem) — formuluje **teorii rozšířené mysli** (*extended mind thesis*): mysl není **uvězněna** v lebce, je strukturálně **rozšířena** do nástrojů, environmentu a kognitivních artefaktů.
 
-Pro kompendium EA poskytuje Clarkova teorie nástroj pro pochopení **EA jako manipulace kognitivními artefakty**, jež jsou strukturálně součástí mysli.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Clarkova teorie nástroj pro pochopení **EA jako manipulace kognitivními artefakty**, jež jsou strukturálně součástí mysli.
 
 ## 1. Princip parity (*Parity Principle*)
 
@@ -58,7 +58,7 @@ Clark v *Natural-Born Cyborgs* (2003) argumentuje, že **lidská bytost** je str
 - Písmo, knihy
 - Smartphone, internet
 
-Tato "kyborg-přirozenost" není **patologií** — je strukturálním rysem lidskosti.
+Tato „kyborg-přirozenost“ není **patologií** — je strukturálním rysem lidskosti.
 
 Pro EA z toho plyne:
 
@@ -112,7 +112,7 @@ Extended mind má politickou dimenzi:
 
 ## 9. Primární literatura
 
-- Clark, A. & Chalmers, D. (1998). "The Extended Mind". *Analysis* 58.
+- Clark, A. & Chalmers, D. (1998). „The Extended Mind“. *Analysis* 58.
 - Clark, A. (1997). *Being There*. MIT Press.
 - Clark, A. (2003). *Natural-Born Cyborgs*. Oxford UP.
 - Clark, A. (2008). *Supersizing the Mind*. Oxford UP.

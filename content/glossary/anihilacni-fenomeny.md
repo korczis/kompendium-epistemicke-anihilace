@@ -7,7 +7,7 @@ description = "Phenomenological and clinical category for experiences of self-di
 tags = ["phenomenology", "clinical", "psychology", "mystical-experience"]
 
 [extra]
-category = "phenomenology"
+category = "fenomenologie"
 status = "active"
 author = "Tomas Korcak (korczis)"
 reading_time = "6 min"
@@ -30,17 +30,17 @@ Anihilační fenomény (anglicky *annihilation phenomena*) is an umbrella phenom
 
 ## Manažerské shrnutí
 
-V kontextu Prismatic Platform jsou anihilační fenomény diagnosticky **extrémně významné**, protože stejný fenomenologický povrch vzniká ze tří zcela odlišných kořenů: (1) **patologického** — psychotická epizoda, dissociativní porucha, závažné trauma; (2) **transformativního** — autentický mystický nebo psychedelický prožitek s pozitivním integračním potenciálem; (3) **iatrogenního/koercivního** — záměrně vyvolaný stav v kultu, vyšetřovacím prostředí, nebo v abusivním vztahu pro účely dominance. Bez přesné diferenciace hrozí, že klinik označí mystický stav za psychózu, kult-leader rebrandi traumatickou ztrátu já jako "duchovní průlom", nebo vyšetřovatel v DD case přehlédne, že subjekt prošel coercive control programem. Manažersky: tato kategorie vyžaduje multi-disciplinární tým (psycholog + religionista + DD specialista).
+V kontextu Prismatic Platform jsou anihilační fenomény diagnosticky **extrémně významné**, protože stejný fenomenologický povrch vzniká ze tří zcela odlišných kořenů: (1) **patologického** — psychotická epizoda, dissociativní porucha, závažné trauma; (2) **transformativního** — autentický mystický nebo psychedelický prožitek s pozitivním integračním potenciálem; (3) **iatrogenního/koercivního** — záměrně vyvolaný stav v kultu, vyšetřovacím prostředí, nebo v abusivním vztahu pro účely dominance. Bez přesné diferenciace hrozí, že klinik označí mystický stav za psychózu, kult-leader rebrandi traumatickou ztrátu já jako „duchovní průlom“, nebo vyšetřovatel v DD case přehlédne, že subjekt prošel [coercive control](@/glossary/coercive-control.md) programem. Manažersky: tato kategorie vyžaduje multi-disciplinární tým (psycholog + religionista + DD specialista).
 
 ## Domain Context
 
-Phenomenologie zkoumá anihilační fenomény od Husserlových analýz pre-reflektivního sebevědomí (*Ichlosigkeit*), přes Heideggerovu *Sein-zum-Tode* (bytí-k-smrti) jako konstitutivní strukturu *Dasein*, až po současnou *embodied cognition* tradici (Thompson, Zahavi). Klinicky je oblast formalizována v DSM-5-TR (depersonalization/derealization disorder, F48.1) a v MKN-11 (6B66). Religionistika a psychologie náboženství dokumentují anihilační prožitky napříč tradicemi: *fana* v sufismu, *šúnjatá* v mahájánovém buddhismu, *ego death* v psychedelickém kontextu (Pahnke 1969, Griffiths et al. 2006). Přechod mezi patologií a mystikou není ostrý — Lukoff (1985) navrhl kategorii *mystical experience with psychotic features* pro hraniční případy.
+Phenomenologie zkoumá anihilační fenomény od Husserlových analýz pre-reflektivního sebevědomí (*Ichlosigkeit*), přes Heideggerovu *Sein-zum-Tode* (bytí-k-smrti) jako konstitutivní strukturu *Dasein*, až po současnou *[embodied cognition](@/glossary/embodied-cognition.md)* tradici (Thompson, Zahavi). Klinicky je oblast formalizována v DSM-5-TR (depersonalization/derealization disorder, F48.1) a v MKN-11 (6B66). Religionistika a psychologie náboženství dokumentují anihilační prožitky napříč tradicemi: *fana* v sufismu, *šúnjatá* v mahájánovém buddhismu, *ego death* v psychedelickém kontextu (Pahnke 1969, Griffiths et al. 2006). Přechod mezi patologií a mystikou není ostrý — Lukoff (1985) navrhl kategorii *mystical experience with psychotic features* pro hraniční případy.
 
 ## Practical Application
 
 1. **Klinická differentiation v DD vyšetřování bývalých členů kultů**: rozhovor musí pečlivě rozlišit autentický transformativní prožitek od iatrogenně vyvolané dezintegrace; markery jsou kontext indukce (volní vs. vynucená), integrační kapacita post-prožitku, a behaviorální následky.
-2. **Hodnocení "duchovních zkušeností" leadera v due-diligence náboženské organizace**: tvrzení o anihilačních prožitcích slouží často jako autorizační nástroj — kritická otázka je, zda jsou prožitky verifikovatelné skrze externí svědky a zda korelují s asymetrickou mocí.
-3. **Trauma-informed OSINT**: digitální stopy traumatizovaných subjektů (sociální sítě, blogy) často obsahují deskriptory anihilačních fenoménů — jejich detekce signalizuje, že subjekt potřebuje speciální komunikační protokol.
+2. **Hodnocení „duchovních zkušeností“ leadera v due-diligence náboženské organizace**: tvrzení o anihilačních prožitcích slouží často jako autorizační nástroj — kritická otázka je, zda jsou prožitky verifikovatelné skrze externí svědky a zda korelují s asymetrickou mocí.
+3. **Trauma-informed [OSINT](@/glossary/osint.md)**: digitální stopy traumatizovaných subjektů (sociální sítě, blogy) často obsahují deskriptory anihilačních fenoménů — jejich detekce signalizuje, že subjekt potřebuje speciální komunikační protokol.
 
 ## Related Concepts
 

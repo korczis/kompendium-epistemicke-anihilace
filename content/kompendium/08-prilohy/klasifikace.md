@@ -18,7 +18,7 @@ status = "complete"
 
 # Klasifikační schéma a taxonomie — meta-úroveň
 
-> **Meta-popis klasifikačního systému kompendia** — notace, dimenzionální osy, principy kanonizace, vztah k externím taxonomiím (DSM-5, ICD-11, BITE Model). Slouží jako referenční dokument pro výzkumníky přidávající nové techniky do taxonomie a pro recenzenty hodnotící konzistenci klasifikace.
+> **Meta-popis klasifikačního systému kompendia** — notace, dimenzionální osy, principy kanonizace, vztah k externím taxonomiím (DSM-5, ICD-11, [BITE Model](@/glossary/bite-model.md)). Slouží jako referenční dokument pro výzkumníky přidávající nové techniky do taxonomie a pro recenzenty hodnotící konzistenci klasifikace.
 
 ## 1. Notační systém
 
@@ -133,7 +133,7 @@ Postup pro přidání nové techniky do taxonomie:
 
 - **Empirické pozorování** ve výzkumu nebo klinice.
 - **Historická literatura** (kapitola II Bibliografie atd.).
-- **Adversariální simulace** Red Team scénáře.
+- **Adversariální simulace** [Red Team](@/glossary/red-team.md) scénáře.
 
 ### Krok 2 — Diferenciální analýza
 
@@ -207,7 +207,7 @@ Mapování BITE → EA viz [Diagnostika §1](@/kompendium/08-prilohy/diagnostick
 
 ### 5.5 NABLA Infinity (∇∞) L0–L13
 
-Mapování EA technik na úrovně epistemic pipeline NABLA Infinity:
+Mapování EA technik na úrovně [epistemic pipeline](@/glossary/epistemic-pipeline.md) NABLA Infinity:
 
 | EA kapitola | NABLA L0–L13 |
 |-------------|--------------|
@@ -231,7 +231,7 @@ Cílem je, aby **každá empiricky pozorovaná technika** měla v taxonomii své
 
 ### 6.3 Hierarchická konzistence
 
-Subkategorie Y musí být **všechny ze stejné dimenze** v rámci kapitoly X. Příklad: Kap. 1 dělí podle **akademických aktivit** (akvizice, logika, falsifikace, prosodie, proxemika), Kap. 5 dělí podle **úrovně rozpadu** (sémantická, narativní, identitární, ontologická).
+Subkategorie Y musí být **všechny ze stejné dimenze** v rámci kapitoly X. Příklad: Kap. 1 dělí podle **akademických aktivit** (akvizice, logika, [falsifikace](@/glossary/falsifikace.md), prosodie, proxemika), Kap. 5 dělí podle **úrovně rozpadu** (sémantická, narativní, identitární, ontologická).
 
 ### 6.4 Reproducibilita klasifikace
 
@@ -263,7 +263,6 @@ Aktuální verze taxonomie: **v1.0.0** (kanonický stav 2026-04-25).
 - [Color Teams](@/glossary/color-teams.md) — Red Team scénáře využívají dimenzionální osy.
 - {{ <cross_link path="/hub/dd/decisions/" text="Decision Engine" /> }} — kalibrace důvěry využívá EA klasifikační prostor jako feature space.
 - [3NL architektura](@/glossary/three-nested-loops.md) — dimenze strukturální/obsahová mapuje na L1/L3 rozdělení.
-
 
 ## ⚡ Kritický krok
 

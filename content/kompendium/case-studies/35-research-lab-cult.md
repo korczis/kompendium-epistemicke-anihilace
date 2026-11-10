@@ -95,7 +95,7 @@ také, že na fakultě existoval důvěrník pro vědeckou integritu, na kteréh
   šetření; mapa vlastního podílu bez sebetrestání.
 - **S2 – Externalizace introjektů:** věty „data, která nesedí, jsou chyba měření“, „kritici jen
   nechápou“ oddělené od metodologických standardů.
-- **S3 – Rekonstrukce metakognice:** návrat k [falsifikačnímu myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** návrat k [falsifikačnímu myšlení](@/kompendium/self-defense-guides/5-falsification-thinking.md)
   a předem registrovaným hypotézám.
 - **S4 – Hermeneutická obnova:** nový vztah k vědě jako k procesu, v němž je mýlit se normální.
 - **S5 – Konsolidace a transfer:** práce v menší laboratoři s otevřenými daty, vlastní podíl na

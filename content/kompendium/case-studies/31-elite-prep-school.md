@@ -100,7 +100,7 @@ s [protokolem epistemické rekonstrukce](@/kompendium/06-klinicke-aplikace/epist
   žákem), uznání, že nešlo o „otužování“.
 - **S2 – Externalizace introjektů:** věty „kdo si stěžuje, je slaboch“, „to je tradice“
   přiřazené systému, který je vytvořil.
-- **S3 – Rekonstrukce metakognice:** obnova práva hodnotit, co je normální; srovnání se
+- **S3 – Rekonstrukce [metakognice](@/glossary/metakognice.md):** obnova práva hodnotit, co je normální; srovnání se
   zkušenostmi vrstevníků z běžné školy.
 - **S4 – Hermeneutická obnova:** práce s vinou za vlastní roli vůči mladším a s ambivalencí k
   absolventské identitě.

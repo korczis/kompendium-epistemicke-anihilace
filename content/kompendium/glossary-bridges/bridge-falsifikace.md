@@ -33,8 +33,8 @@ Glossary heslo poskytuje jadro vyklad; tento bridge clanek dale rozviji jeho apl
 Koncept se v kompendiu vyskytuje napric nasledujicimi clanky a sekcemi:
 
 - **Sekce 07 — Filosofie vědy**: Popper, Lakatos, Kuhn
-- **Sekce 08 — Demarkace problém**: věda vs. pseudověda
-- **Sekce 09 — Aplikace v DD**: falsifikovatelné claims v due diligence
+- **Sekce 08 — Demarkace problém**: věda vs. [pseudověda](@/glossary/pseudoscience.md)
+- **Sekce 09 — Aplikace v DD**: falsifikovatelné claims v [due diligence](@/glossary/due-diligence.md)
 - **Sekce 10 — Limity**: Duhem-Quine teze, holistická revize
 - **Per-technique články**: test design pro falsifikaci, null hypothesis
 

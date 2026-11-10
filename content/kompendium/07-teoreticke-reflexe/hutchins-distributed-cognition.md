@@ -23,7 +23,7 @@ Edwin Hutchins — kognitivní antropolog — v monografii *Cognition in the Wil
 - **Artefakty** (nástroje, mapy, displeje)
 - **Instituce** (procedury, role, normy)
 
-Pro kompendium EA poskytuje Hutchinsova teorie nástroj pro pochopení **EA jako útoku na distribuované kognitivní systémy**.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Hutchinsova teorie nástroj pro pochopení **EA jako útoku na distribuované kognitivní systémy**.
 
 ## 1. Cognition in the Wild
 
@@ -115,15 +115,15 @@ Distribuovaná kognice má **politický** rozměr:
 
 Pro Prismatic má Hutchinsova teorie **specifickou** relevanci:
 
-- **Color Teams** ([viz Glosář](@/glossary/color-teams.md)): strukturálně **distribuovaná kognice** — Red, Blue, Purple Team jsou kolektivními moduly.
+- **Color Teams** ([viz Glosář](@/glossary/color-teams.md)): strukturálně **distribuovaná kognice** — Red, Blue, [Purple Team](@/glossary/purple-team.md) jsou kolektivními moduly.
 - **NABLA Infinity** ([viz Glosář](@/glossary/nabla-infinity.md)): strukturálně **distribuované** udržování hypotéz.
 - **Decision Core** ([viz Glosář](@/glossary/decision-core.md)): zaznamenává distribuované rozhodovací operace.
 
 ## 10. Primární literatura
 
 - Hutchins, E. (1995). *Cognition in the Wild*. MIT Press.
-- Hutchins, E. (1995). "How a Cockpit Remembers Its Speeds". *Cognitive Science* 19.
-- Hutchins, E. (2014). "The Cultural Ecosystem of Human Cognition". *Philosophical Psychology* 27.
+- Hutchins, E. (1995). „How a Cockpit Remembers Its Speeds“. *Cognitive Science* 19.
+- Hutchins, E. (2014). „The Cultural Ecosystem of Human Cognition“. *Philosophical Psychology* 27.
 - Salomon, G. (ed.) (1993). *Distributed Cognitions*. Cambridge UP.
 - Suchman, L. (2007). *Human-Machine Reconfigurations*. Cambridge UP.
 

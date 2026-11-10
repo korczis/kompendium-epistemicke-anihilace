@@ -7,7 +7,7 @@ description = "Internet-wide search engine for discovering connected devices, op
 tags = ["glossary", "security", "shodan", "prismatic"]
 
 [extra]
-category = "security"
+category = "bezpečnost a zpravodajství"
 related_terms = ["easm", "censys", "greynoise", "attack-surface", "signal-plurality", "risk-score", "tls", "rate-limiting"]
 platform_relevance = "critical"
 complexity = "intermediate"
@@ -39,15 +39,15 @@ image_alt = "Shodan - Prismatic Platform"
 
 ## Definition
 
-Shodan is a search engine for internet-connected devices that continuously scans the entire IPv4 address space (and increasingly IPv6), cataloging open ports, running services, protocol banners, SSL/TLS certificates, and device metadata. Created by John Matherly in 2009, Shodan fundamentally differs from traditional search engines like Google: rather than indexing web content served over HTTP, Shodan indexes the internet's infrastructure layer -- servers, IoT devices, industrial control systems (ICS/SCADA), databases, network equipment, cameras, and any device that responds to network probes.
+Shodan is a search engine for internet-connected devices that continuously scans the entire IPv4 address space (and increasingly IPv6), cataloging open ports, running services, protocol banners, SSL/TLS certificates, and device metadata. Created by John Matherly in 2009, Shodan fundamentally differs from traditional search engines like Google: rather than indexing web content served over HTTP, Shodan indexes the internet's infrastructure layer — servers, IoT devices, industrial control systems (ICS/SCADA), databases, network equipment, cameras, and any device that responds to network probes.
 
-Shodan's scanning methodology involves sending crafted packets to every IP address on specific ports, collecting the responses (banners), and indexing the results in a searchable database. A banner is the initial response a service sends when a connection is established -- it typically reveals the software name, version, configuration details, and sometimes even the operating system. This passive reconnaissance data is invaluable for security professionals conducting asset discovery, vulnerability assessment, and exposure monitoring without actively probing target infrastructure.
+Shodan's scanning methodology involves sending crafted packets to every IP address on specific ports, collecting the responses (banners), and indexing the results in a searchable database. A banner is the initial response a service sends when a connection is established — it typically reveals the software name, version, configuration details, and sometimes even the operating system. This passive reconnaissance data is invaluable for security professionals conducting asset discovery, vulnerability assessment, and exposure monitoring without actively probing target infrastructure.
 
 The platform has become an indispensable tool in the External Attack Surface Management ([EASM](@/glossary/easm.md)) discipline, where organizations need to understand their externally visible footprint from an attacker's perspective. By querying Shodan for assets associated with a target organization, security teams can discover shadow IT, forgotten servers, misconfigured services, and exposed databases that the organization may not know exist. In the Prismatic Platform, Shodan serves as the primary data source for the [Prismatic Perimeter](@/glossary/easm.md) module's asset discovery pipeline, feeding findings into the [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) engine that produces A-F grades for organizational security posture.
 
 ## Historical Context and Evolution
 
-Shodan began as a personal project by John Matherly while he was a student, inspired by the idea of creating a search engine for internet-connected devices rather than web pages. The name "Shodan" references the artificial intelligence antagonist from the System Shock video game series. What started as a curiosity-driven project rapidly became one of the most important tools in the cybersecurity professional's toolkit.
+Shodan began as a personal project by John Matherly while he was a student, inspired by the idea of creating a search engine for internet-connected devices rather than web pages. The name “Shodan” references the artificial intelligence antagonist from the System Shock video game series. What started as a curiosity-driven project rapidly became one of the most important tools in the cybersecurity professional's toolkit.
 
 The early internet scanning landscape was dominated by tools like Nmap, which required active, targeted scanning of specific IP ranges. Shodan's innovation was continuous, internet-wide scanning with results indexed in a searchable database. Instead of running your own scan (which takes time, bandwidth, and may trigger intrusion detection systems), you could query Shodan's pre-collected data to instantly discover what is exposed on any IP address or organization.
 
@@ -243,7 +243,7 @@ The Prismatic Platform integrates Shodan as a primary data source in the Perimet
 4. **Scoring**: Feed validated findings into the [risk scoring](@/glossary/risk-score.md) engine
 5. **Rating**: Aggregate scored findings into the organization's [security rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/)
 
-Shodan findings feed into the platform's epistemic pipeline, where the [Signal Plurality](@/glossary/signal-plurality.md) axiom requires corroboration from at least one additional independent source before a finding can affect security ratings. A service detected by Shodan alone is flagged as "unconfirmed" until Censys or another source provides corroborating evidence.
+Shodan findings feed into the platform's [epistemic pipeline](@/glossary/epistemic-pipeline.md), where the [Signal Plurality](@/glossary/signal-plurality.md) axiom requires corroboration from at least one additional independent source before a finding can affect security ratings. A service detected by Shodan alone is flagged as “unconfirmed” until Censys or another source provides corroborating evidence.
 
 ```elixir
 defmodule PrismaticPerimeter.Discovery.Pipeline do
@@ -357,7 +357,7 @@ The Prismatic Platform's rate limiter configuration automatically adjusts to the
 | **Data retention** | Historical data may contain outdated findings | Timestamp-based [time decay](https://prismatic-reality-com.github.io/prismatic-promo/glossary/time-decay/) scoring |
 | **GDPR compliance** | IP addresses may constitute personal data under GDPR | [GDPR](https://prismatic-reality-com.github.io/prismatic-promo/glossary/gdpr/)-compliant data handling and retention |
 
-The Prismatic Platform enforces strict authorization checks before any Shodan queries are executed. The platform's color team security architecture, particularly the [Blue Team](@/glossary/blue-team.md) defensive posture agents, continuously monitors that OSINT collection operates within authorized boundaries. Any query targeting infrastructure outside the authorized scope triggers an immediate alert and blocks execution.
+The Prismatic Platform enforces strict authorization checks before any Shodan queries are executed. The platform's color team security architecture, particularly the [Blue Team](@/glossary/blue-team.md) defensive posture agents, continuously monitors that [OSINT](@/glossary/osint.md) collection operates within authorized boundaries. Any query targeting infrastructure outside the authorized scope triggers an immediate alert and blocks execution.
 
 ## Comparison with Alternatives
 
@@ -400,23 +400,23 @@ Shodan Monitor provides continuous surveillance of specified network ranges. The
 
 ## Related Terms
 
-- [EASM](@/glossary/easm.md) -- Attack surface management consuming Shodan data as primary source
-- [Censys](@/glossary/censys.md) -- Complementary internet scan data source for corroboration
-- [GreyNoise](@/glossary/greynoise.md) -- Internet noise analysis complementing Shodan findings
-- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) -- The externally visible infrastructure Shodan discovers
-- [Signal Plurality](@/glossary/signal-plurality.md) -- Axiom requiring Shodan data corroboration
-- [Risk Score](@/glossary/risk-score.md) -- A-F grades informed by Shodan findings
-- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) -- Organization-level rating fed by Shodan evidence
-- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) -- API quota management for Shodan integration
-- [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/) -- Certificate and cipher analysis from Shodan banner data
-- [Encryption at Rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) -- Protection of stored Shodan reconnaissance data
-- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) -- Resilience pattern for Shodan API calls
+- [EASM](@/glossary/easm.md) — Attack surface management consuming Shodan data as primary source
+- [Censys](@/glossary/censys.md) — Complementary internet scan data source for corroboration
+- [GreyNoise](@/glossary/greynoise.md) — Internet noise analysis complementing Shodan findings
+- [Attack Surface](https://prismatic-reality-com.github.io/prismatic-promo/glossary/attack-surface/) — The externally visible infrastructure Shodan discovers
+- [Signal Plurality](@/glossary/signal-plurality.md) — Axiom requiring Shodan data corroboration
+- [Risk Score](@/glossary/risk-score.md) — A-F grades informed by Shodan findings
+- [Security Rating](https://prismatic-reality-com.github.io/prismatic-promo/glossary/security-rating/) — Organization-level rating fed by Shodan evidence
+- [Rate Limiting](https://prismatic-reality-com.github.io/prismatic-promo/glossary/rate-limiting/) — API quota management for Shodan integration
+- [TLS](https://prismatic-reality-com.github.io/prismatic-promo/glossary/tls/) — Certificate and cipher analysis from Shodan banner data
+- [Encryption at Rest](https://prismatic-reality-com.github.io/prismatic-promo/glossary/encryption-at-rest/) — Protection of stored Shodan reconnaissance data
+- [Circuit Breaker](https://prismatic-reality-com.github.io/prismatic-promo/glossary/circuit-breaker/) — Resilience pattern for Shodan API calls
 
 ## See Also
 
-- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) -- EASM data source architecture
-- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) -- Prismatic Perimeter application
-- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) -- Open-source intelligence collection methodology
+- [Architecture](https://prismatic-reality-com.github.io/prismatic-promo/architecture/) — EASM data source architecture
+- [Apps](https://prismatic-reality-com.github.io/prismatic-promo/apps/) — Prismatic Perimeter application
+- [OSINT](https://prismatic-reality-com.github.io/prismatic-promo/osint/) — Open-source intelligence collection methodology
 
 ---
 

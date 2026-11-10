@@ -71,7 +71,7 @@ Studium terminálních protokolů představuje zvláště závažné etické vý
 
 Detailní popis terminálních protokolů inherentně vytváří riziko, že tyto poznatky mohou být instrumentálně využity k záměrné epistemické a kognitivní destrukci. Toto riziko vyžaduje aplikaci následujících principů:
 
-- **Princip strategické neúplnosti** — Záměrné vynechání klíčových implementačních detailů, které by umožnily přímou reprodukci protokolů. Kompendium se zaměřuje na strukturu a mechanismy, nikoli na "návod k použití".
+- **Princip strategické neúplnosti** — Záměrné vynechání klíčových implementačních detailů, které by umožnily přímou reprodukci protokolů. Kompendium se zaměřuje na strukturu a mechanismy, nikoli na „návod k použití“.
 - **Segmentace poznatků** — Distribuci komplementárních komponent poznatků různým cílovým skupinám podle jejich profesionální role a odpovědnosti.
 - **Epistemické checkpointy** — Ustanovení verifikačních mechanismů pro ověření legitimity využití poznatků (institucionální schválení, etická supervize, kontinuální audit).
 - **Eticky informovaná taxonomie** — Klasifikační systém, který reflektuje etické dimenze popisovaných fenoménů a explicitně signalizuje rizikový profil.
@@ -174,7 +174,6 @@ Přístup k této části kompendia implicitně znamená souhlas s etickými pri
 - [NABLA Infinity Framework](@/glossary/nabla-infinity.md)
 - [Filozofie: Intelektuální suverenita](@/philosophy/intellectual-sovereignty.md)
 - [Filozofie: Epistemická integrita](@/philosophy/epistemic-integrity.md)
-
 
 ## ⚡ Kritický krok
 

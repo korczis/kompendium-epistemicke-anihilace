@@ -1,10 +1,12 @@
 +++
 title = "Německo — vzorce EA"
-description = "Mezinárodní perspektiva — Bundesrepublik Deutschland: kulturní, klinické a právní specifika EA."
+description = "Epistemická manipulace v Německu: nacistická propaganda, Zersetzung Stasi a otevření svazků, případ NSU, konspirační milieu a silná kultura paměti."
 weight = 8
+
 [taxonomies]
 tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,88 +14,157 @@ toc = true
 
 # Německo — vzorce EA
 
-> **Region/jurisdikce**: Bundesrepublik Deutschland
-> **Bucket**: regional
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Region**: Spolková republika Německo · **Oblast**: regionální vzorce
+> Německo je pro tuto knihu výjimečné tím, že zažilo dva zcela odlišné režimy řízení
+> poznání a zároveň vybudovalo jednu z nejpropracovanějších kultur jejich zpracování.
+> Stránka popisuje struktury a instituce, nikoli „německou povahu“.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Kontext
 
-Post-1945 Vergangenheitsbewältigung, NSDAP dědictví, BND/Stasi historie, AfD vzestup.
+Nacistický režim od roku 1933 ovládl tisk, rozhlas, film i školství; ministerstvo propagandy
+pod vedením Josepha Goebbelse a proces *Gleichschaltung* odstranily veřejný prostor, v němž by
+bylo možné nesouhlasit. Hannah Arendtová v knize *The Origins of Totalitarianism* (1951)
+popsala, jak totalitní propaganda nahrazuje zkušenost uzavřenou fikcí, v níž je fakt
+podřízen ideologii (viz [Arendt: banalita zla](@/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md)).
+Konečným důsledkem byl holokaust.
 
-Tato sekce mapuje **specifika Bundesrepublik Deutschland** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Po válce následovaly norimberské procesy (1945–1946), v západním Německu později frankfurtské
+procesy s personálem Osvětimi (1963–1965) a dlouhý, rozporuplný proces vyrovnávání se
+s minulostí (*Vergangenheitsbewältigung*). Ve východním Německu vznikl jiný systém. Ministerstvo
+státní bezpečnosti (Stasi) rozvinulo vedle sledování a věznění metodu
+[Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md), upravenou směrnicí
+č. 1/76: skryté rozkládání pověsti, profesní dráhy, vztahů a sebedůvěry vybraných lidí tak,
+aby oběť nemohla prokázat, že je terčem státu. Jde o jeden z nejlépe doložených případů
+systematické [epistemické anihilace](@/glossary/epistemicka-anihilace.md) – s typickými rysy
+[gaslightingu](@/glossary/gaslighting.md) na úrovni státu.
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+Po sjednocení (1990) umožnil zákon o svazcích Stasi (1991) lidem nahlédnout do vlastních
+spisů. Od roku 2021 jsou svazky součástí Spolkového archivu.
 
-## 2. Specifické EA vzorce v regionu
+## 2. Strukturální zranitelnosti
 
-Vzorce: extrém. pravice (Chemnitz, Halle, Hanau), digitální harassment, Reichsbürger, anti-vakcinační 'Querdenker'.
+- **Rozdílná zkušenost Východu a Západu.** Rychlá transformace po roce 1990, ztráta práce
+  a pocit, že vlastní biografie byla znehodnocena, vytvořily v části východních spolkových
+  zemí trvalou nedůvěru k institucím. Jde o sociální zkušenost, nikoli o mentalitu.
+- **Selhání institucí vůči menšinám.** Teroristická skupina NSU v letech 2000–2007 zavraždila
+  devět mužů s migračními kořeny a policistku. Vyšetřovatelé léta hledali pachatele mezi
+  příbuznými a v okolí obětí; rodiny, které upozorňovaly na pravicově extremistický motiv,
+  nebyly slyšeny a média užívala dehonestující označení. Je to učebnicový případ
+  [epistemické injustice](@/glossary/epistemicka-injustice.md), kdy instituce odmítne
+  svědectví lidí kvůli jejich původu.
+- **Konspirační a esoterická milieu.** Během pandemie se v hnutí *Querdenken* propojily
+  esoterické, antivakcinační a krajně pravicové proudy. Hnutí *Reichsbürger* odmítá legitimitu
+  Spolkové republiky; v prosinci 2022 proběhly razie proti skupině podezřelé z přípravy
+  převratu. Uzavřené skupiny tohoto typu vykazují rysy [high-control groups](@/glossary/high-control-group.md).
+- **Migrace a jazykové bariéry.** Po roce 2015 přišel velký počet uprchlíků; dostupnost
+  psychoterapie v jejich jazycích je omezená a čekací doby jsou dlouhé.
 
-**Typologie regionálních EA vektorů:**
+## 3. Typické vzorce EA
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+**Dědictví Zersetzung.** Oběti Stasi popisují pocit, že jim „nikdo nevěřil“, protože škody
+byly záměrně neviditelné. Po otevření svazků mnozí zjistili, že je udávali přátelé, kolegové
+nebo partneři – zkušenost [traumatu ze zrady](@/glossary/betrayal-trauma.md), která může
+přijít desítky let po samotném činu.
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+**Radikalizace v rodině.** Rodiny lidí, kteří vstoupili do konspiračních milieu, popisují
+postupné odcizení: blízký člověk přijme nový slovník, odmítne „mainstreamová“ média
+a vnímá rodinu jako nepřítele. Mechanismus odpovídá [imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+a [epistemické bublině](@/glossary/epistemic-bubble.md); případově viz
+[konspirační rekrutace](@/kompendium/case-studies/21-konspiracni-rekrutace.md).
 
-## 3. Klinické aplikace v regionu
+**Online nenávist.** Komunální politici, novináři a lidé s migračními kořeny čelí výhrůžkám
+a [koordinovaným útokům davu](@/kompendium/techniques/ea-2-3-4-mob-coordination.md). Útoky
+v Halle (2019) a Hanau (2020) ukázaly, že online radikalizace může přejít v násilí.
 
-Charité Berlin, MPI München; sektorová psychiatrická péče silně rozvinutá.
+**Psychoskupiny a sekty.** Bundestag v letech 1996–1998 zřídil vyšetřovací komisi
+k „takzvaným sektám a psychoskupinám“; její závěry stále slouží jako referenční rámec.
+Posuzování struktury, nikoli víry, odpovídá [modelu BITE](@/glossary/bite-model.md).
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+## 4. Ochranné faktory
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+- **Kultura paměti** a politické vzdělávání (Spolková centrála pro politické vzdělávání,
+  památníky a dokumentační centra).
+- **Přístup ke svazkům Stasi**, který umožňuje rekonstruovat vlastní biografii a doložit,
+  co se stalo – protiváha [mnemonické rekonfiguraci](@/kompendium/techniques/ea-5-3-8-mnemonicka-rekonfigurace.md).
+- **Síť poraden pro oběti** – všeobecné organizace pro oběti trestných činů, specializované
+  poradny pro oběti pravicového a rasistického násilí a poradny pro oběti domácího násilí.
+- **Programy pro odchod z extremismu** a poradenství pro rodiny (srov.
+  [exit z krajní pravice](@/kompendium/case-studies/24-extremni-pravice-exit.md)).
+- **Církevní poradny pro světonázorové otázky**, které poskytují informace o skupinách
+  a pomáhají rodinám i odcházejícím.
+- **Hustá síť psychoterapeutické péče** hrazené ze zdravotního pojištění, i když s dlouhými
+  čekacími dobami.
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+## 5. Klinická praxe
 
-## 4. Právní rámec
+U obětí Stasi se doporučuje počítat s tím, že nahlédnutí do svazku může vyvolat akutní
+zhoršení. Je vhodné je plánovat, mít podporu a zpracovat zjištění v bezpečném rámci
+([stabilizační protokol](@/kompendium/recovery-protocols/acute-stabilization-protocol.md)).
+Užitečná je [biografická rekonstrukce](@/kompendium/06-klinicke-aplikace/biographical-timeline-rekonstrukce.md)
+a [narativní externalizace](@/kompendium/recovery-protocols/subacute-narrative-externalization.md).
 
-StGB §238 Nachstellung, §240 Nötigung, §241 Bedrohung; GG Art. 1-2 lidská důstojnost.
+U rodin radikalizovaných lidí terapie nepracuje na „přesvědčení“ blízkého, ale na udržení
+vztahu, hranic a vlastního úsudku. U rodin obětí rasistického násilí a institucionálního
+selhání je nezbytné uznání: pojmenovat, že jim instituce nevěřila neprávem.
 
-**Aplikační pyramida**:
+Diferenciálně je třeba odlišit [komplexní PTSD](@/glossary/c-ptsd.md) podle MKN-11,
+paranoidní poruchu (u obětí Zersetzung byly obavy často oprávněné) a komplikovaný zármutek.
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+## 6. Právní a institucionální rámec
 
-## 5. Cross-cultural considerations
+Trestní zákoník (StGB) zná nebezpečné pronásledování (*Nachstellung*, § 238), nátlak
+(*Nötigung*, § 240), výhrůžku (*Bedrohung*, § 241), vydírání (*Erpressung*, § 253) a podněcování
+k nenávisti (*Volksverhetzung*, § 130). Zákon o ochraně před násilím (*Gewaltschutzgesetz*,
+2002) umožňuje civilní ochranné příkazy. Samostatný trestný čin coercive control neexistuje,
+o jeho zavedení se vede odborná debata. Zákon o vymáhání práva na sociálních sítích (NetzDG,
+2017) byl z velké části nahrazen unijním nařízením o digitálních službách. Německo Istanbulskou
+úmluvu ratifikovalo v roce 2017. Podrobně viz [Německo — EA právní rámec](@/kompendium/international/23-german-law-EA/index.md)
+a pro práci s pojmy [česko-německou terminologii](@/kompendium/international/32-cs-de-terminology/index.md).
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+## 7. Modelová situace
 
-## 6. Cross-linky
+*Anonymizovaný kompozitní příklad.* Žena kolem sedmdesáti let po letech váhání nahlédne do
+svého svazku. Zjistí, že nevysvětlitelné neúspěchy v práci, anonymní dopisy a rozpad
+přátelství v 80. letech byly výsledkem cíleného působení a že informace dodávala i blízká
+přítelkyně. Přichází k psycholožce s nespavostí a slovy „možná jsem si to opravdu zasloužila“.
+Psycholožka nejprve oddělí to, co svazek dokládá, od viny, kterou žena přijala. Spolu
+vytvoří časovou osu událostí a pracují s tím, zda chce přítelkyni konfrontovat. Psycholožka
+ženě nabídne kontakt na sdružení obětí a informace o rehabilitaci a odškodnění. Klíčové je
+uznání: to, co žena léta tušila, bylo skutečné.
 
-- [Pobaltí — vzorce EA](../6-baltic-EA/) — regional
-- [Ruský vliv — vzorce EA](../7-russian-influence-EA/) — regional
-- [Francie — vzorce EA](../9-french-EA/) — regional
-- [Itálie — vzorce EA](../10-italian-EA/) — regional
-- [Východní Asie — vzorce EA](../11-east-asian-EA/) — cross-cultural
-- [Blízký východ — vzorce EA](../13-middle-eastern-EA/) — cross-cultural
-- [Latinská Amerika — vzorce EA](../15-latin-american-EA/) — cross-cultural
-- [Kolektivistické kultury — EA](../18-collective-cultures-EA/) — cross-cultural
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
-- [Česko-anglická terminologie EA](../31-cs-en-terminology/) — terminology
+## 8. Meze a otevřené otázky
 
-## 7. Connect
+Německý model vyrovnávání s minulostí je často dáván za vzor, ale je předmětem kritiky:
+pozdní stíhání nacistických zločinů, nerovnoměrné zpracování kolonialismu a otázka, zda kultura
+paměti dosahuje i komunit s migrační historií (viz
+[dekoloniální epistemologie](@/kompendium/critical-perspectives/27-decolonial-epistemology.md)).
+Chybí systematická data o dlouhodobých následcích Zersetzung u celé populace obětí. Riziko
+je i v tom, že se srovnání s Třetí říší nebo se Stasi stane rétorickou zbraní v současných
+sporech, čímž se oba historické pojmy vyprázdní.
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+## Související
 
----
+**Sousední regiony a rámce**
 
-*International perspective — Bundesrepublik Deutschland — bucket: regional — weight 8.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+- [Německo — EA právní rámec](@/kompendium/international/23-german-law-EA/index.md) –
+  podrobný rozbor práva.
+- [Česká republika — vzorce EA](@/kompendium/international/1-czech-rep-EA/index.md) –
+  srovnání normalizace se Zersetzung.
+- [Polsko — vzorce EA](@/kompendium/international/4-poland-EA/index.md) – sousední
+  zkušenost okupace a paměti.
+
+**Historické případy**
+
+- [Východoněmecká Zersetzung](@/kompendium/historical-cases/5-east-german-zersetzung.md) –
+  hlavní historický případ této stránky.
+- [Rumunská Securitate](@/kompendium/historical-cases/7-romanian-secu.md) – srovnání
+  s jinou tajnou policií bloku.
+
+**Pojmy a praxe**
+
+- [Trauma ze zrady](@/glossary/betrayal-trauma.md) – když udavačem byl blízký člověk.
+- [Epistemická injustice](@/glossary/epistemicka-injustice.md) – poučení z případu NSU.
+- [Česko-německá terminologie EA](@/kompendium/international/32-cs-de-terminology/index.md)
+  – ekvivalenty pojmů.
+- [Protokol pro politické vězně](@/kompendium/recovery-protocols/recovery-political-prisoner-protocol.md)
+  – pro bývalé vězně režimu.

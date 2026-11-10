@@ -1,10 +1,12 @@
 +++
 title = "Bilingvální mostové strategie"
-description = "Mezinárodní perspektiva — Bilingual practitioner contexts: kulturní, klinické a právní specifika EA."
+description = "Praktické postupy pro práci s klienty v cizím nebo druhém jazyce: tlumočení, dvojjazyčné glosáře, přepínání jazyků a dokumentace výpovědí o manipulaci."
 weight = 39
+
 [taxonomies]
 tags = ["kompendium", "international", "terminology"]
 categories = ["academic", "international"]
+
 [extra]
 parent = "kompendium-international"
 toc = true
@@ -12,84 +14,135 @@ toc = true
 
 # Bilingvální mostové strategie
 
-> **Region/jurisdikce**: Bilingual practitioner contexts
-> **Bucket**: terminology
-> **Doctrina**: NMND + NCLB — všechna tvrzení doložitelná, kulturní citlivost povinná.
+> **Rozsah**: praxe v jazykově smíšeném prostředí · **Oblast**: terminologie a komunikace
+> Stránka popisuje, jak vést rozhovor, terapii nebo forenzní výpověď, když klient
+> a odborník nesdílejí první jazyk – s tlumočníkem, v druhém jazyce klienta nebo
+> v kombinaci obou. Zaměřuje se na situace, kdy jde o popis manipulace a kontroly,
+> tedy o zkušenost, kterou je obtížné sdělit i ve vlastním jazyce.
 
-## 1. Geografický a jurisdikční kontext
+## 1. Účel a rozsah
 
-Code-switching v terapii, language-of-trauma efekt (Marian-Neisser), interpreter-mediated.
+Lidé, kteří prošli dlouhodobou manipulací, často nemají pro svou zkušenost slova ani
+v mateřštině; viz [epistemická injustice](@/glossary/epistemicka-injustice.md). Když se
+k tomu přidá jazyková bariéra, riziko nedorozumění roste: klient zjednoduší, tlumočník
+zhladí, odborník zapíše něco jiného, než bylo řečeno. Mostovou strategií rozumíme soubor
+postupů, které tuto mezeru zmenšují – od výběru tlumočníka po dvojjazyčnou dokumentaci.
 
-Tato sekce mapuje **specifika Bilingual practitioner contexts** v evropské/globální typologii EA (epistemic abuse / psychická manipulace s reality-distortion vektorem). Region je zahrnut do kompendia jako **referenční bod** pro klinickou, právní a forenzní praxi platformy Prismatic.
+Stránka je určena terapeutům, lékařům, sociálním pracovníkům, policistům a advokátům.
+Pro uprchlíky a migranty je klíčový [protokol EA-6.4.3](@/kompendium/techniques/ea-6-4-3-uprchlik-protokol.md),
+pro domácí násilí [protokol EA-6.4.6](@/kompendium/techniques/ea-6-4-6-domesticky-abuse-protokol.md).
 
-Historický kontext utvářel současné vzorce EA: kolektivní traumata, post-konfliktní dynamiky, právní transplantáty, kulturní idiomy distress.
+## 2. Proč je terminologie problém
 
-## 2. Specifické EA vzorce v regionu
+**Jazyk a paměť.** Výzkum autobiografické paměti u dvojjazyčných lidí naznačuje, že
+vzpomínky bývají snáze dostupné v jazyce, v němž byly prožity (Marian a Neisser, 2000).
+Kdo zažil kontrolu v jednom jazyce a vypovídá ve druhém, může působit méně souvisle,
+aniž by to cokoli vypovídalo o jeho věrohodnosti.
 
-Strategie: dvojjazyčné glosáře, parallel intake forms, certified medical interpreters (CCHI).
+**Jazyk a emoce.** Druhý jazyk často poskytuje emoční odstup (Pavlenko 2005, *Emotions
+and Multilingualism*). To může pomoci mluvit o bolestných věcech – nebo vést k tomu,
+že výpověď zní ploše a odborník podcení závažnost. Přepínání jazyků (*code-switching*)
+v průběhu rozhovoru je proto informace, ne chyba.
 
-**Typologie regionálních EA vektorů:**
+**Jazyk jako nástroj kontroly.** V některých vztazích je jazyk sám součástí kontroly:
+pachatel ovládá úřední jazyk a oběť ne, a stává se tak jejím jediným „tlumočníkem“ ke
+světu. Pak je přizvání rodinného příslušníka k tlumočení nejen odborně, ale i bezpečnostně
+chybou; srov. [coercive control](@/glossary/coercive-control.md) a protokol
+[akutní sociální rekonekce](@/kompendium/recovery-protocols/acute-social-reconnection.md).
 
-1. **Politicko-státní**: instrumentalizace státního aparátu (mediální, justiční, bezpečnostní složky).
-2. **Mediálně-platformní**: koncentrace mediálního vlastnictví, online harassment, koordinované smear.
-3. **Rodinně-komunitní**: klanové struktury, čestné systémy, gendered dynamics.
-4. **Ekonomicko-pracovní**: mobbing, koercitivní kontrola v zaměstnání, whistleblower retaliation.
-5. **Náboženskoidentitní**: sektářství, anti-konvert tlak, blasphemy zákony.
+## 3. Přehled ekvivalentů
 
-Každý vektor vyžaduje **kulturně senzitivní detekci** — universalistický model selhává.
+Místo tabulky slov tu uvádíme tabulku rolí a nástrojů, které most mezi jazyky tvoří.
 
-## 3. Klinické aplikace v regionu
+| Nástroj | Účel | Poznámka |
+|---|---|---|
+| profesionální tlumočník | přesný převod bez vlastních zájmů | v soudních věcech soudní tlumočník (v ČR zákon č. 354/2019 Sb.) |
+| komunitní tlumočník, interkulturní pracovník | převod a kulturní kontext | role se nesmí míchat s advokacií za jednu stranu |
+| dvojjazyčný glosář | jednotné termíny v týmu a ve spisu | viz [Česko-anglická terminologie](@/kompendium/international/31-cs-en-terminology/index.md) |
+| doslovný záznam klíčových výroků | zachování původního znění | důležité pro [forenzní dokumentaci](@/kompendium/forensic-legal/10-forensic-documentation.md) |
+| vysvětlující model (Kleinman) | jak klient sám rozumí tomu, co se děje | viz [Kulturní překlad EA pojmů](@/kompendium/international/34-cultural-translation-EA/index.md) |
+| přeložené informační materiály | práva oběti, kontakty na pomoc | viz [Mnohojazyčné zdroje EA](@/kompendium/international/40-multilingual-resources/index.md) |
 
-Cross-cultural psychiatric assessment (Kleinman explanatory model 8 questions).
+## 4. Typické chyby a falešní přátelé
 
-**Klinické rozhraní EA v regionu** zahrnuje:
+- **Tlumočí dítě, partner nebo „kamarád z komunity“.** Střet zájmů, ohrožení důvěrnosti,
+  přenášení tlaku; u dětí navíc zátěž, kterou nemají nést. V situacích manipulace
+  a domácího násilí je to vyloučeno.
+- **Tlumočník shrnuje.** „Říká, že měli problémy“ místo doslovného převodu. Před sezením
+  domluvit převod v první osobě a bez vynechávek.
+- **Odborník mluví k tlumočníkovi.** Oslovovat přímo klienta a udržovat s ním kontakt;
+  tlumočník je kanál, ne účastník.
+- **Termín přeložený doslovně.** „Gaslighting“ nebo „coercive control“ v jazyce, kde
+  nemají ustálený ekvivalent, mohou znít jako nesmysl. Popsat chování, ne nálepku.
+- **Plynulost zaměněna za porozumění.** Klient, který dobře mluví česky v běžných
+  situacích, nemusí rozumět otázkám o duševních stavech nebo právním poučení.
+- **Nezohlednění tlumočníka.** Tlumočení výpovědí o násilí je zátěž a může vést
+  k [retraumatizaci](@/glossary/retraumatizace.md) klienta i k sekundární traumatizaci tlumočníka; tlumočník potřebuje
+  přípravu i možnost rozboru (srov. [Supervizní rámce](@/kompendium/06-klinicke-aplikace/supervizni-ramce.md)).
 
-- **Skríning**: kulturně adaptované nástroje (např. PCL-5 lokalizovaný, ITQ pro cPTSD ICD-11).
-- **Diagnostika**: pozor na cultural concepts of distress (DSM-5 CFI, ICD-11 přílohy).
-- **Léčba**: trauma-informed care, kulturně-citlivá psychoterapie, peer support.
-- **Forensika**: znalecký posudek dle lokálních standardů, Istanbul Protocol pro mučení.
+## 5. Doporučený postup
 
-Platforma Prismatic poskytuje **adapter-based přístup** — konkrétní region má vlastní configuration profile (terminologie, právní reference, hlášení autoritám).
+1. **Zjistit preferovaný jazyk** – a to pro různé účely zvlášť: pro běžnou komunikaci,
+   pro mluvení o citech, pro čtení dokumentů.
+2. **Ověřit, že tlumočník není z okruhu klienta**, a u menších jazykových komunit se
+   klienta zeptat, zda tlumočníka nezná; nabídnout tlumočení na dálku.
+3. **Briefing před sezením.** Téma, citlivost, potřeba doslovnosti, pravidla důvěrnosti,
+   klíčové termíny z glosáře.
+4. **Uspořádat rozhovor.** Krátké úseky, jedna otázka najednou, ověřování porozumění
+   vlastními slovy klienta; viz [Screeningový strukturální rozhovor](@/kompendium/techniques/ea-6-1-1-screening-strukturalni-rozhovor.md)
+   a [Forenzní rozhovor](@/kompendium/forensic-legal/1-forensic-interview-protocol.md).
+5. **Dovolit přepínání jazyků.** Pokud klient chce některé věci říct v mateřštině, nechat
+   je tlumočit; nenutit ho zůstat v druhém jazyce.
+6. **Dokumentovat jazykovou situaci.** Ve zprávě uvést, v jakém jazyce rozhovor proběhl,
+   kdo tlumočil a které výroky jsou zaznamenány v originále.
+7. **Debriefing po sezení** s tlumočníkem: co bylo obtížné převést, kde mohlo dojít
+   k posunu významu.
 
-## 4. Právní rámec
+## 6. Modelová situace
 
-Working with interpreters: ASTM F2089, NCIHC code of ethics, medical interpreter certification.
+*Anonymizovaný kompozitní příklad.* Žena, která žije v ČR několik let a česky mluví
+obstojně, přichází do intervenčního centra. První rozhovor proběhne česky. Pracovnice
+si všimne, že žena o partnerovi mluví stroze a věcně a na otázky o strachu odpovídá
+„to je normální“. Nabídne jí rozhovor s profesionální tlumočnicí jejího prvního jazyka,
+přes videohovor, aby se vyloučilo, že se znají. V mateřštině žena popíše řadu situací
+podrobněji a s viditelným emočním zatížením: partner jí brání učit se česky, vyřizuje
+za ni všechny úřady a říká jí, že bez něj „neexistuje“. Pracovnice doplní zápis
+o doslovné výroky v obou jazycích, poznamená, že první, česká verze výpovědi byla
+mnohem kratší, a vysvětlí to jazykovou situací, ne nevěrohodností (srov.
+[Posuzování věrohodnosti](@/kompendium/forensic-legal/2-credibility-assessment.md)).
+Navazuje [Akutní zajištění bezpečnosti](@/kompendium/recovery-protocols/acute-safety-establishment.md).
 
-**Aplikační pyramida**:
+## 7. Meze a otevřené otázky
 
-1. **Mezinárodní** — UDHR, ICCPR, CAT, CRPD, regionální (ECHR/ACHR/AfCHPR).
-2. **Nadnárodní** — EU acquis, Council of Europe (Istanbul Convention 2014).
-3. **Národní** — ústava, trestní zákoník, civilní zákoník, zákon o ochraně před násilím.
-4. **Sektorové** — zdravotnické (mental health acts), pracovní, mediální (online safety).
-5. **Lokální** — regionální/komunální opatření, ombudsman.
+Profesionální tlumočení je v řadě služeb nedostupné nebo nehrazené a pro malé jazyky
+často chybí tlumočníci úplně. Strojový překlad nabízí rychlé řešení, ale u citlivých
+výpovědí ohrožuje přesnost i ochranu osobních údajů (srov. [Důvěrnost v EA detekci](@/kompendium/critical-perspectives/17-confidentiality-EA.md)).
+Výzkum o tom, jak jazyk výpovědi ovlivňuje posouzení věrohodnosti obětí psychického
+násilí, je omezený a převážně z anglofonních zemí. Otevřená je i otázka, jak pracovat
+s klienty, kteří mají dva „první“ jazyky a pro různé části svého života užívají jiný.
 
-## 5. Cross-cultural considerations
+## Související
 
-- **Etika prvního kontaktu**: respekt k autoritě (kolektivistické) vs. autonomie (individualistické).
-- **Rodinný systém**: zapojit/oddělit dle kulturních očekávání.
-- **Tlumočení**: certifikovaný medical interpreter, ne rodinný příslušník (conflict of interest).
-- **Stigma**: psychiatrická péče v některých kontextech kompromituje rodinnou čest.
-- **Náboženská citlivost**: chaplaincy, halal/kosher, modlitební prostor.
-- **Dokumentace**: pseudonymizace, ochrana svědka, mezinárodní transfery dat (GDPR Capítulo V).
+**Terminologie**
 
-## 6. Cross-linky
+- [Kulturní překlad EA pojmů](@/kompendium/international/34-cultural-translation-EA/index.md)
+  – když chybí pojem, ne jen slovo.
+- [Česko-německá terminologie EA](@/kompendium/international/32-cs-de-terminology/index.md)
+  – příklad dvojjazyčné právní práce.
 
-- [PubMed/MeSH výzkumná terminologie](../37-research-terminology-PubMed/) — terminology
-- [Populární terminologie pro veřejnost](../38-popular-terminology-public/) — terminology
-- [Mnohojazyčné zdroje EA](../40-multilingual-resources/) — terminology
-- [Česká republika — vzorce EA](../1-czech-rep-EA/) — regional
-- [Východní Asie — vzorce EA](../11-east-asian-EA/) — cross-cultural
-- [EU právo — EA rámec](../21-EU-law-EA/) — legal
+**Právo a praxe**
 
-## 7. Connect
+- [Azyl a EA](@/kompendium/forensic-legal/43-asylum-EA.md) – tlumočení v azylovém řízení.
+- [Výpověď oběti](@/kompendium/forensic-legal/25-victim-statement.md) – zásady záznamu
+  výpovědi.
+- [Uprchlík v EA-emergency](@/kompendium/emergency-protocols/30-refugee-EA-emergency.md) –
+  akutní situace s jazykovou bariérou.
 
-- **Kompendium**: [Hub](../../) | [Úvod](../../02-uvod/) | [Základní kategorie](../../03-zakladni-kategorie/)
-- **Forenzně-právní bridge**: [forensic-legal/](../../forensic-legal/) — mezinárodní právní rámce v české aplikaci.
-- **Population Health**: [population-health/](../../population-health/) — globální disease burden EA.
-- **Cross-domain**: [cross-domain/](../../cross-domain/) — propojení s OSINT a CER doménami.
-- **Glossary bridges**: [glossary-bridges/](../../glossary-bridges/) — terminologické mosty napříč jazyky.
+**Pojmy a kritika**
 
----
-
-*International perspective — Bilingual practitioner contexts — bucket: terminology — weight 39.*
-*NMND + NCLB compliance: kulturně citlivé, právně dohledatelné, klinicky aplikovatelné.*
+- [Kulturní zaujatost EA kategorií](@/kompendium/critical-perspectives/10-cultural-bias-critique.md)
+  – předpoklady, které se přenášejí spolu s jazykem.
+- [Retraumatizace](@/glossary/retraumatizace.md) – riziko opakovaného vyprávění přes
+  tlumočníka.
+- [Vztahové kotvy](@/kompendium/self-defense-guides/42-relational-anchors.md) – obnova sítě
+  v novém jazykovém prostředí.

@@ -1074,8 +1074,7 @@
   "not-orphan"
  ],
  "content/kompendium/case-studies/01-akademicka-supervize-totalizace.md": [
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/case-studies/02-doktorat-trojan-horse.md": [
   "diacritics",
@@ -1096,8 +1095,7 @@
   "diacritics"
  ],
  "content/kompendium/case-studies/07-narcisticka-rodina.md": [
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/case-studies/08-gaslighting-partnersky.md": [
   "diacritics"
@@ -1106,8 +1104,7 @@
   "diacritics"
  ],
  "content/kompendium/case-studies/10-sektarske-vychazeni.md": [
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/case-studies/11-corporate-cult.md": [
   "diacritics"
@@ -1160,8 +1157,7 @@
  ],
  "content/kompendium/case-studies/27-secular-cult-exit.md": [
   "description",
-  "related",
-  "not-orphan"
+  "related"
  ],
  "content/kompendium/case-studies/28-academic-philosophy-cult.md": [
   "description",
@@ -1207,9 +1203,6 @@
  ],
  "content/kompendium/case-studies/40-law-firm-totalizace.md": [
   "related"
- ],
- "content/kompendium/case-studies/49-religious-leadership.md": [
-  "not-orphan"
  ],
  "content/kompendium/case-studies/60-mass-formation-psychosis.md": [
   "not-orphan"
@@ -1716,8 +1709,7 @@
  ],
  "content/kompendium/forensic-legal/15-witness-tampering.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/16-civil-conspiracy-EA.md": [
   "description",
@@ -1740,8 +1732,7 @@
  ],
  "content/kompendium/forensic-legal/21-expert-witness-EA.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/22-fact-witness-protection.md": [
   "description",
@@ -1753,23 +1744,19 @@
   "not-orphan"
  ],
  "content/kompendium/forensic-legal/24-deposition-EA.md": [
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/25-victim-statement.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/26-impact-statement.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/27-trial-prep.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/28-courtroom-decompensation.md": [
   "diacritics",
@@ -1781,13 +1768,11 @@
   "not-orphan"
  ],
  "content/kompendium/forensic-legal/3-dissociation-forensic.md": [
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/30-jury-instruction-EA.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/31-clinical-documentation-EA.md": [
   "diacritics"
@@ -1829,8 +1814,7 @@
  ],
  "content/kompendium/forensic-legal/40-mandatory-reporting-state.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/41-family-court-EA.md": [
   "description",
@@ -1838,8 +1822,7 @@
  ],
  "content/kompendium/forensic-legal/42-immigration-EA.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/43-asylum-EA.md": [
   "description",
@@ -1851,8 +1834,7 @@
  ],
  "content/kompendium/forensic-legal/45-disability-law-EA.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/46-elder-abuse-law.md": [
   "diacritics"
@@ -1874,8 +1856,7 @@
  ],
  "content/kompendium/forensic-legal/50-international-law-EA.md": [
   "description",
-  "diacritics",
-  "not-orphan"
+  "diacritics"
  ],
  "content/kompendium/forensic-legal/6-trauma-disclosure.md": [
   "diacritics"
@@ -1897,16 +1878,10 @@
  "content/kompendium/forensic-legal/_index.md": [
   "czech"
  ],
- "content/kompendium/glossary-bridges/bridge-c-ptsd.md": [
-  "not-orphan"
- ],
  "content/kompendium/glossary-bridges/bridge-censys.md": [
   "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-clean-run.md": [
-  "not-orphan"
- ],
- "content/kompendium/glossary-bridges/bridge-coercive-control.md": [
   "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-color-teams.md": [
@@ -1988,9 +1963,6 @@
   "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-four-noble-truths.md": [
-  "not-orphan"
- ],
- "content/kompendium/glossary-bridges/bridge-gaslighting.md": [
   "not-orphan"
  ],
  "content/kompendium/glossary-bridges/bridge-gestalt-shift.md": [
@@ -2286,190 +2258,6 @@
  "content/kompendium/historical-cases/9-cuban-akty-repudio.md": [
   "tags"
  ],
- "content/kompendium/international/1-czech-rep-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/10-italian-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/11-east-asian-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/12-south-asian-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/13-middle-eastern-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/14-african-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/15-latin-american-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/16-indigenous-perspectives-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/17-religious-minority-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/18-collective-cultures-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/19-individualist-cultures-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/2-slovakia-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/20-honor-cultures-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/21-EU-law-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/22-czech-law-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/23-german-law-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/24-uk-law-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/25-us-law-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/26-canadian-law-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/27-australian-law-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/28-international-criminal-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/29-human-rights-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/3-hungary-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/30-genocide-prevention-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/31-cs-en-terminology/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/32-cs-de-terminology/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/33-en-translation-issues/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/34-cultural-translation-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/35-legal-terminology-international/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/36-clinical-terminology-WHO/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/37-research-terminology-PubMed/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/38-popular-terminology-public/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/39-bilingual-bridge-strategies/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/4-poland-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/40-multilingual-resources/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/5-balkan-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/6-baltic-EA/index.md": [
-  "related",
-  "links-out",
-  "not-orphan"
- ],
- "content/kompendium/international/7-russian-influence-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/8-german-EA/index.md": [
-  "related",
-  "links-out"
- ],
- "content/kompendium/international/9-french-EA/index.md": [
-  "related",
-  "links-out"
- ],
  "content/kompendium/konceptualni-mapa/_index.md": [
   "description"
  ],
@@ -2669,8 +2457,7 @@
   "not-orphan"
  ],
  "content/kompendium/population-health/12-community-resilience-program.md": [
-  "links-out",
-  "not-orphan"
+  "links-out"
  ],
  "content/kompendium/population-health/13-school-curriculum-EA.md": [
   "links-out",
@@ -2681,8 +2468,7 @@
   "not-orphan"
  ],
  "content/kompendium/population-health/15-media-literacy-program.md": [
-  "links-out",
-  "not-orphan"
+  "links-out"
  ],
  "content/kompendium/population-health/16-digital-citizenship-program.md": [
   "links-out",
@@ -2711,8 +2497,7 @@
   "not-orphan"
  ],
  "content/kompendium/population-health/23-EU-policy-EA.md": [
-  "links-out",
-  "not-orphan"
+  "links-out"
  ],
  "content/kompendium/population-health/24-WHO-EA-framework.md": [
   "links-out",
@@ -2734,8 +2519,7 @@
   "not-orphan"
  ],
  "content/kompendium/population-health/29-research-funding-EA.md": [
-  "links-out",
-  "not-orphan"
+  "links-out"
  ],
  "content/kompendium/population-health/30-ethics-policy-research-EA.md": [
   "links-out",

@@ -14,7 +14,7 @@ const BASE = (process.env.BASE_URL || 'http://127.0.0.1:18790/').replace(/\/?$/,
 // Pevné plochy aplikace. Stránky obsahu se vybírají až za běhu z odvozeného grafu
 // (static/data/graph.json), aby test nezastaral, když se obsah přepíše nebo přejmenuje.
 const FIXED = [
-  { path: '', painted: 1, note: 'úvod: p5 síť pojmů' },
+  { path: '', painted: 1, counts: [['a[href^="tel:"]', 3], ['#upozorneni-title', 1]], note: 'úvod: p5 síť pojmů, upozornění s kontakty pomoci' },
   { path: 'kompendium/02-uvod/v-kostce/', painted: 0, interact: 'kostka', note: 'vrstvy a model eskalace' },
   { path: 'mapa/', painted: 1, text: '[x-text="stats"]', note: 'Mapa knihy (cytoscape)' },
   { path: 'stav/', painted: 5, count: ['#stav-kpi > *', 8], note: 'Stav knihy (ECharts)' },
@@ -22,7 +22,8 @@ const FIXED = [
   { path: 'galerie/', painted: 3, note: 'Galerie (p5)' },
   { path: 'kompendium/techniques/', painted: 1, note: 'průzkumník technik' },
   { path: 'kompendium/historical-cases/', painted: 1, note: 'časová osa historických případů' },
-  { path: 'glossary/', painted: 1, note: 'průzkumník glosáře' },
+  { path: 'glossary/', painted: 1, interact: 'faseta', note: 'průzkumník glosáře: kategorie' },
+  { path: 'kompendium/08-prilohy/index-pojmu/', painted: 1, count: ['[data-rj-item]', 2], interact: 'rejstrik', note: 'interaktivní rejstřík pojmů (ECharts)' },
   { path: 'tags/', painted: 1, note: 'štítky (treemap)' },
   { path: 'kompendium/case-studies/', painted: 1, note: 'přehled oddílu' },
   { path: 'kompendium/visualizations/', painted: 8, note: 'vizualizace knihy (Chart.js, p5)' },
@@ -37,16 +38,28 @@ function top(g, section) {
   return pages[0];
 }
 
+// Adresa, na které Zola stránku servíruje (bez diakritiky, malými písmeny), z cesty v grafu.
+const zolaPath = (url) => url.split('/').filter(Boolean)
+  .map((s) => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''))
+  .map((s) => s + '/').join('');
+
 async function derived() {
   const g = await (await fetch(BASE + 'data/graph.json')).json();
-  const page = (n) => n.url.replace(/^\//, '');
+  const page = (n) => zolaPath(n.url);
   const out = [];
   const tech = top(g, 'kompendium/techniques');
-  if (tech) out.push({ path: page(tech), painted: 1, counts: [['[data-kontext] a[href]', 1], ['[data-hx-family]', 1]], note: 'nejodkazovanější technika: karta, okolí a kontext' });
+  // Kód EA techniky z odvozeného rejstříku hledání (static/data/search.json), ne z obsahu.
+  const idx = await (await fetch(BASE + 'data/search.json')).json();
+  const F = Object.fromEntries(idx.fields.map((f, i) => [f, i]));
+  const techEntry = tech && idx.entries.find((e) => e[F.url] === '/' + zolaPath(tech.url));
+  // Kód může nést víc stránek (graph.json code_shared_with): na prvním místě musí být jedna z nich.
+  const code = techEntry && techEntry[F.code];
+  const codeUrls = idx.entries.filter((e) => code && e[F.code] === code).map((e) => e[F.url]);
+  if (tech) out.push({ path: page(tech), painted: 1, counts: [['[data-kontext] a[href]', 1], ['[data-hx-family]', 1]], interact: 'hledani', code, codeUrls, url: '/' + zolaPath(tech.url), note: 'nejodkazovanější technika: karta, okolí, kontext, hledání a podstrom sidebaru' });
   const kase = top(g, 'kompendium/case-studies');
   if (kase) out.push({ path: page(kase), painted: 1, count: ['[data-kontext] a[href]', 1], note: 'nejodkazovanější kazuistika: kontext' });
   const term = top(g, 'glossary');
-  if (term) out.push({ path: page(term), painted: 1, count: ['[data-kontext] a[href]', 3], interact: 'paleta', note: 'nejodkazovanější heslo: kontext a paleta' });
+  if (term) out.push({ path: page(term), painted: 1, count: ['[data-kontext] a[href]', 3], interact: 'paleta', note: 'nejodkazovanější heslo: kontext, paleta a mobilní drawer' });
   // První stránka knihy, jejíž HTML obsahuje diagram Mermaid (hledá se v sestaveném webu).
   for (const n of g.nodes) {
     if (!n.path.startsWith('kompendium/')) continue;
@@ -57,6 +70,70 @@ async function derived() {
 }
 
 let SURFACES = FIXED;
+
+// Mobilní drawer: zavřený je inert, otevření přesune fokus dovnitř, Escape ho zavře a vrátí
+// fokus na tlačítko.
+async function drawer(page, failures) {
+  const state = () => page.evaluate(() => {
+    const sb = document.getElementById('sidebar');
+    return { inert: sb.hasAttribute('inert'), inside: sb.contains(document.activeElement), focus: document.activeElement && document.activeElement.id };
+  });
+  if (!(await state()).inert) failures.push('zavřený drawer není inert');
+  await page.locator('#toggleSidebarMobile').click();
+  await page.waitForTimeout(500);
+  const open = await state();
+  if (open.inert) failures.push('otevřený drawer zůstal inert');
+  if (!open.inside) failures.push('otevření draweru nepřesune fokus dovnitř');
+  await page.keyboard.press('Escape');
+  await page.waitForTimeout(500);
+  const closed = await state();
+  if (!closed.inert) failures.push('drawer zavřený klávesou Escape není inert');
+  if (closed.focus !== 'toggleSidebarMobile') failures.push(`po zavření draweru je fokus na „${closed.focus}“, ne na tlačítku`);
+}
+
+// Vyhledávání v horní liště (ARIA combobox): kód EA dá svou techniku na první místo, šipka ji
+// vybere, Enter ji otevře. Sidebar ukazuje aktuální stránku v podstromu aktivní větve.
+async function combobox(page, s, failures) {
+  // Sidebar: aktivní větev ukáže podstrom z nav.json až k aktuální stránce (aria-current).
+  if (!(await page.locator('#sidebar a[aria-current="page"]').first().isVisible().catch(() => false))) failures.push('sidebar neukazuje aktuální stránku (aria-current="page")');
+  if (!s.code) { failures.push('technika nemá v rejstříku kód EA'); return; }
+  const input = page.locator('#topbar-search');
+  await input.click();
+  await input.fill(s.code);
+  await page.waitForTimeout(1200);
+  if (await input.getAttribute('aria-expanded') !== 'true') failures.push('combobox nerozbalil výsledky');
+  const first = await page.locator('#topbar-search-results [role="option"]').first().getAttribute('data-href').catch(() => null);
+  if (!first || !s.codeUrls.some((u) => first.endsWith(u))) failures.push(`kód ${s.code} nedá techniku s tímto kódem na první místo (${first})`);
+  await page.keyboard.press('ArrowDown');
+  const active = await input.getAttribute('aria-activedescendant');
+  if (!active) failures.push('šipka dolů nevybere výsledek');
+  await page.keyboard.press('Escape');
+  await input.fill(s.code);
+  await page.waitForTimeout(800);
+  await page.keyboard.press('ArrowDown');
+  const chosen = await page.locator('#topbar-search-results [role="option"][aria-selected="true"]').first().getAttribute('data-href').catch(() => null);
+  // Vybraný výsledek může být i tatáž stránka: čeká se na skutečnou navigaci, ne jen na adresu.
+  const navigated = page.waitForEvent('framenavigated', { predicate: (f) => f === page.mainFrame(), timeout: 5000 }).then(() => true, () => false);
+  await page.keyboard.press('Enter');
+  const ok = await navigated;
+  await page.waitForLoadState('networkidle').catch(() => {});
+  if (!ok || !chosen || new URL(page.url()).pathname !== new URL(chosen, page.url()).pathname) failures.push(`Enter neotevře vybraný výsledek (${chosen})`);
+}
+
+// Průzkumník glosáře: výběr kategorie zúží karty hesel, zrušení filtru je vrátí.
+async function facet(page, failures) {
+  const cards = page.locator('#pruzkumnik-glosare section[aria-labelledby^="glosar-l-"] li');
+  const total = await cards.count();
+  const value = await page.locator('#glosar-cat option').nth(1).getAttribute('value').catch(() => null);
+  if (!value) { failures.push('glosář nemá žádnou kategorii k výběru'); return; }
+  await page.locator('#glosar-cat').selectOption(value);
+  await page.waitForTimeout(400);
+  const narrowed = await cards.count();
+  if (!(narrowed >= 1 && narrowed < total)) failures.push(`kategorie „${value}“ nezúží hesla (${narrowed} z ${total})`);
+  await page.locator('#glosar-cat').selectOption('');
+  await page.waitForTimeout(400);
+  if (await cards.count() !== total) failures.push('zrušení kategorie nevrátí všechna hesla');
+}
 
 async function paintedCanvases(page) {
   return page.evaluate(() => {
@@ -133,6 +210,45 @@ async function check(browser, s, viewport, scheme) {
     if (hits < 1) failures.push('paleta nenašla „gaslight“');
     await page.keyboard.press('Escape');
   }
+  if (s.interact === 'rejstrik') {
+    // Filtr textem: první slovo prvního hesla zúží seznam a stav to oznámí.
+    const shown = () => page.locator('[data-rj-item]:visible').count();
+    const all = await page.locator('[data-rj-item]').count();
+    const word = ((await page.locator('[data-rj-title]').first().textContent()) || '').trim().split(/\s+/)[0];
+    await page.fill('#rj-q', word);
+    const hit = await shown();
+    const status = (await page.locator('[data-rj-status]').textContent()) || '';
+    if (!(hit >= 1 && hit < all)) failures.push(`filtr „${word}“ ukazuje ${hit} z ${all}`);
+    if (!status.includes(String(hit))) failures.push(`stav neoznamuje počet (${status.trim()})`);
+    await page.fill('#rj-q', '');
+    // Kategorie z Flowbite dropdownu: zůstanou jen hesla zaškrtnuté kategorie.
+    await page.click('#rj-cat-button');
+    const box = page.locator('[data-rj-cat]').first();
+    await box.check();
+    const cat = await box.inputValue();
+    const cats = await page.locator('[data-rj-item]:visible').evaluateAll((els) => els.map((e) => e.dataset.category));
+    if (!cats.length || cats.some((c) => c !== cat) || cats.length === all) failures.push(`kategorie „${cat}“ nefiltruje (${cats.length} z ${all})`);
+    await page.keyboard.press('Escape');
+    await page.locator('[data-rj-reset="toolbar"]').click();
+    // Uzel grafu z klávesnice: šipka vybere heslo, Enter ho otevře.
+    await page.focus('[data-rj-chart]');
+    await page.keyboard.press('ArrowRight');
+    const url = await page.locator('[data-rj-chart]').getAttribute('data-rj-current-url');
+    if (!url) failures.push('graf: šipka nevybrala heslo');
+    else {
+      await Promise.all([page.waitForURL(url, { timeout: 10000 }).catch(() => {}), page.keyboard.press('Enter')]);
+      if (page.url() !== url) failures.push(`graf: Enter neotevřel heslo (${page.url()})`);
+      await page.goBack({ waitUntil: 'networkidle' });
+    }
+  }
+  // Strukturovaná data: každý blok JSON-LD je platný JSON a stránka má drobečkovou navigaci.
+  const ld = await page.evaluate(() => [...document.querySelectorAll('script[type="application/ld+json"]')].map((x) => x.textContent));
+  const types = [];
+  ld.forEach((text, i) => { try { types.push(JSON.parse(text)['@type']); } catch (e) { failures.push(`JSON-LD ${i + 1} není platný JSON: ${e.message}`); } });
+  if (!types.includes('BreadcrumbList')) failures.push(`JSON-LD bez BreadcrumbList (${types.join(', ')})`);
+  if (s.interact === 'paleta' && viewport.width < 1024) await drawer(page, failures);
+  if (s.interact === 'hledani' && viewport.width >= 1024) await combobox(page, s, failures);
+  if (s.interact === 'faseta') await facet(page, failures);
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   if (overflow > 0) failures.push(`vodorovné přetečení ${overflow} px`);
   await page.close();

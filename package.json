@@ -23,11 +23,13 @@
     "check": "python3 scripts/migrate-content.py --check && python3 scripts/build-references.py --check && npm run --silent assets && zola check --skip-external-links",
     "dev": "npm run --silent assets && zola serve",
     "test:surfaces": "node test/e2e/surfaces.cjs",
+    "test:audit": "node scripts/audit-ui.cjs",
     "verify": "scripts/verify-all.sh"
   },
   "devDependencies": {
     "@tailwindcss/cli": "4.3.3",
     "alpinejs": "3.17.5",
+    "axe-core": "4.13.0",
     "cytoscape": "3.34.4",
     "echarts": "6.1.0",
     "flowbite": "4.0.2",

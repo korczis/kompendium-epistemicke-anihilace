@@ -1,14 +1,58 @@
-// p5.js — Attention disruption simulation (EA-1.1.2 information overload)
+// p5.js — simulace narušení pozornosti (model, ne data). Technika, kterou ilustruje, se bere
+// z textu nad simulací (odkaz nebo kód EA) přes graf knihy; její kód a název simulace vypíše
+// a pod plátno přidá odkaz na její stránku.
+(function () {
+  'use strict';
+  var SRC = document.currentScript && document.currentScript.src;
+
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
+
+  // Techniky, na které odkazuje text nad simulací (odkazy a kódy EA-x.y.z); pod plátno
+  // přidá odkazy na jejich stránky. Vrací je v pořadí zmínky.
+  function techniquesNear(host) {
+    return kniha().then(function (K) {
+      var ts = K.contextNodes(host).map(K.technique).filter(Boolean);
+      if (ts.length) {
+        var p = K.h('p', 'mt-1 text-sm text-slate-400', 'Simulace ilustruje: ');
+        ts.forEach(function (t, i) {
+          if (i) p.appendChild(document.createTextNode(', '));
+          p.appendChild(K.link(t.node, K.techniqueText(t)));
+        });
+        host.insertAdjacentElement('afterend', p);
+      }
+      return ts;
+    }).catch(function (e) {
+      if (window.console) console.warn('vizualizace knihy:', e);
+      return [];
+    });
+  }
+
+  var host = document.getElementById('attention-disruption');
+  var subject = '';
+  if (host) techniquesNear(host).then(function (ts) { if (ts[0]) subject = ts[0].code + ' ' + ts[0].label; });
+
 new p5((p) => {
   let stream = [];
   let captured = 0;
   let missed = 0;
   let rate = 1.0;
   p.setup = function() {
-    const c = p.createCanvas(800, 400);
+    const c = p.createCanvas(host ? Math.min(800, host.clientWidth || 800) : 800, 400);
     const target = document.getElementById('attention-disruption');
     if (target) c.parent('attention-disruption');
     const slider = document.getElementById('attention-rate');
+    if (slider && !slider.labels.length && !slider.hasAttribute('aria-label')) slider.setAttribute('aria-label', 'Rychlost narušování pozornosti');
     if (slider) slider.addEventListener('input', (e) => { rate = parseFloat(e.target.value); });
   };
   p.draw = function() {
@@ -20,6 +64,11 @@ new p5((p) => {
     p.fill(241, 245, 249);
     p.textSize(14);
     p.text(`Tempo: ${rate.toFixed(1)} | Zachyceno: ${captured} | Uniklo: ${missed}`, 16, 24);
+    if (subject) {
+      p.fill(148, 163, 184);
+      p.textSize(11);
+      p.text(subject, 16, 42);
+    }
     // attention "window" follows mouse
     const ax = p.mouseX, ay = p.mouseY;
     p.noFill();
@@ -42,3 +91,4 @@ new p5((p) => {
     });
   };
 }, 'attention-disruption');
+})();

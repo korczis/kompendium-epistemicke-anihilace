@@ -1,70 +1,129 @@
-// Recovery Trajectory — Chart.js multi-line, click point for phase note (safe DOM)
-(function() {
+// Fáze zotavení podle knihy (Chart.js, vodorovné pruhy). Fáze a jejich orientační rámec čte
+// z tabulky „Fáze | Orientační rámec | Klíčový úkol“ v rejstříku protokolů zotavení; délka
+// pruhu je počet protokolů, které rejstřík k fázi řadí. Kniha fáze záměrně neváže na přesné
+// týdny ani měsíce, proto graf nemá časovou osu: pořadí fází je pořadí v tabulce a rámec
+// („první týdny“, „roky“…) je jen popisek. Klik na pruh → protokoly fáze.
+(function () {
   'use strict';
-  const PHASES = [
-    { month: 0, mild: 100, moderate: 100, severe: 100, extreme: 100 },
-    { month: 1, mild: 85, moderate: 95, severe: 100, extreme: 100 },
-    { month: 3, mild: 65, moderate: 80, severe: 92, extreme: 98 },
-    { month: 6, mild: 45, moderate: 65, severe: 80, extreme: 92 },
-    { month: 12, mild: 25, moderate: 45, severe: 65, extreme: 80 },
-    { month: 24, mild: 15, moderate: 30, severe: 50, extreme: 68 },
-    { month: 36, mild: 10, moderate: 20, severe: 38, extreme: 55 },
-    { month: 60, mild: 8, moderate: 15, severe: 28, extreme: 42 }
-  ];
-  const PHASE_NOTES = {
-    1: 'Iniciální stabilizace — bezpečnostní kotvy, somatické regulace.',
-    3: 'Rozpoznání — explicitní pojmenování technik, externalizace.',
-    6: 'Metakognice — obnova schopnosti reflektovat vlastní reflexi.',
-    12: 'Hermeneutika — rekonstrukce interpretačního rámce.',
-    24: 'Konsolidace — stabilizace nového epistemického profilu.',
-    36: 'Integrace — návrat do akademického / klinického kontextu.',
-    60: 'Dlouhodobá rezilience — schopnost detekovat a neutralizovat budoucí pokusy.'
-  };
+  var SRC = document.currentScript && document.currentScript.src;
+  // Zdroj dat: rejstřík oddílu protokolů zotavení (cesta v grafu knihy).
+  var SOURCE = 'kompendium/recovery-protocols/_index.md';
 
-  function setDetail(container, title, body) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = title;
-    container.appendChild(h);
-    const p = document.createElement('p');
-    p.className = 'text-slate-300 mt-1';
-    p.textContent = body;
-    container.appendChild(p);
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
+  }
+
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
+  }
+
+  // Řádky tabulky, jejíž hlavička obsahuje „Orientační rámec“: [{phase, frame, task}].
+  function phaseTable(doc, K) {
+    var tables = doc.querySelectorAll('table');
+    for (var i = 0; i < tables.length; i++) {
+      var head = Array.prototype.map.call(tables[i].querySelectorAll('thead th, tr:first-child th'), function (th) {
+        return K.fold(th.textContent || '');
+      });
+      var fi = head.findIndex(function (t) { return t.indexOf('oriental') >= 0 || t.indexOf('orientacni') >= 0; });
+      if (fi < 0) continue;
+      var rows = [];
+      tables[i].querySelectorAll('tbody tr').forEach(function (tr) {
+        var td = tr.querySelectorAll('td');
+        if (td.length < 2) return;
+        rows.push({
+          phase: (td[0].textContent || '').trim(),
+          frame: (td[fi].textContent || '').trim(),
+          task: td[fi + 1] ? (td[fi + 1].textContent || '').replace(/\s+/g, ' ').trim() : '',
+        });
+      });
+      return rows;
+    }
+    return [];
   }
 
   function init() {
-    const canvas = document.getElementById('recovery-trajectory');
+    var canvas = document.getElementById('recovery-trajectory');
     if (!canvas || typeof Chart === 'undefined') return;
-    const detail = document.getElementById('recovery-detail');
-    new Chart(canvas, {
-      type: 'line',
-      data: {
-        labels: PHASES.map(p => p.month + ' mes.'),
-        datasets: [
-          { label: 'Mírná EA', data: PHASES.map(p => p.mild), borderColor: '#10b981', backgroundColor: 'rgba(16,185,129,0.1)', tension: 0.4 },
-          { label: 'Střední EA', data: PHASES.map(p => p.moderate), borderColor: '#f59e0b', backgroundColor: 'rgba(245,158,11,0.1)', tension: 0.4 },
-          { label: 'Vysoká EA', data: PHASES.map(p => p.severe), borderColor: '#ef4444', backgroundColor: 'rgba(239,68,68,0.1)', tension: 0.4 },
-          { label: 'Extrémní EA', data: PHASES.map(p => p.extreme), borderColor: '#7f1d1d', backgroundColor: 'rgba(127,29,29,0.1)', tension: 0.4 }
-        ]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          title: { display: true, text: 'Trajektorie zotavení podle závažnosti', color: '#f1f5f9' },
-          legend: { labels: { color: '#cbd5e1' } }
-        },
-        scales: {
-          x: { ticks: { color: '#cbd5e1' }, title: { display: true, text: 'Čas od intervence', color: '#e2e8f0' } },
-          y: { ticks: { color: '#cbd5e1' }, title: { display: true, text: 'Reziduální deficit (%)', color: '#e2e8f0' }, min: 0, max: 100 }
-        },
-        onClick: (e, els) => {
-          if (!els.length || !detail) return;
-          const m = PHASES[els[0].index].month;
-          setDetail(detail, 'Měsíc ' + m, PHASE_NOTES[m] || 'Pokračování stabilizační fáze.');
+    var detail = document.getElementById('recovery-detail');
+    kniha().then(function (K) {
+      var idx = K.g.byPath[SOURCE];
+      if (!idx) throw new Error(SOURCE + ' není v grafu');
+      return Promise.all([K.doc(idx), K.groups(idx)]).then(function (r) {
+        var rows = phaseTable(r[0], K);
+        var groups = r[1];
+        if (!rows.length) throw new Error('rejstřík neobsahuje tabulku fází s orientačním rámcem');
+        // Fázi přiřadit skupinu rejstříku, jejíž nadpis fázi jmenuje („Akutní“ ↔ „Akutní fáze“).
+        var phases = rows.map(function (row) {
+          var key = K.fold(row.phase);
+          var gr = groups.filter(function (g) { return K.fold(g.title).indexOf(key) === 0; })[0] || null;
+          return { row: row, group: gr, count: gr ? gr.nodes.length : 0 };
+        });
+
+        function show(p) {
+          if (!detail) return;
+          K.clear(detail);
+          detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', p.row.phase + ' fáze'));
+          detail.appendChild(K.h('p', 'text-slate-300 mt-1', 'Orientační rámec: ' + p.row.frame + (p.row.task ? ' · klíčový úkol: ' + p.row.task : '')));
+          if (p.group && p.group.nodes.length) {
+            detail.appendChild(K.h('p', 'text-slate-400 text-sm mt-1', p.group.nodes.length + ' protokolů podle rejstříku:'));
+            detail.appendChild(K.list(p.group.nodes));
+          } else {
+            detail.appendChild(K.link(idx, '→ rejstřík protokolů zotavení'));
+          }
         }
-      }
-    });
+
+        if (detail) {
+          K.clear(detail);
+          detail.appendChild(K.h('p', 'text-slate-300 text-sm', 'Kniha fáze záměrně neváže na přesné týdny či měsíce; rámec je orientační. Klepnutím na fázi zobrazíte její protokoly.'));
+          detail.appendChild(K.link(idx, '→ rejstřík protokolů zotavení'));
+        }
+
+        K.chart(canvas, function (c) {
+          return {
+            type: 'bar',
+            data: {
+              labels: phases.map(function (p) { return [p.row.phase, '(' + p.row.frame + ')']; }),
+              datasets: [{
+                label: 'Protokoly fáze',
+                data: phases.map(function (p) { return p.count; }),
+                backgroundColor: phases.map(function (p, i) { return K.V.PALETTE[i % K.V.PALETTE.length] + 'B3'; }),
+                borderColor: phases.map(function (p, i) { return K.V.PALETTE[i % K.V.PALETTE.length]; }),
+                borderWidth: 2,
+              }],
+            },
+            options: {
+              indexAxis: 'y',
+              responsive: true,
+              plugins: {
+                title: { display: true, text: 'Fáze zotavení podle rejstříku knihy (pořadí a orientační rámec)', color: c.text },
+                legend: { display: false },
+                tooltip: { callbacks: { label: function (ctx) {
+                  var p = phases[ctx.dataIndex];
+                  return p.row.frame + ' • ' + p.count + ' protokolů';
+                } } },
+              },
+              scales: {
+                x: { beginAtZero: true, ticks: { color: c.muted, precision: 0 }, grid: { color: c.grid },
+                  title: { display: true, text: 'Počet protokolů v rejstříku', color: c.text } },
+                y: { ticks: { color: c.muted }, grid: { color: c.grid } },
+              },
+              onClick: function (e, els) { if (els.length) show(phases[els[0].index]); },
+            },
+          };
+        });
+      });
+    }).catch(function (e) { failed(detail, e); });
   }
+
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
 })();

@@ -50,6 +50,8 @@ zotavení**.
 | 🛡️ | [**Obrana**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/self-defense-guides/) | sebeobrana, obrana organizací, prevence a odolnost, protokoly zotavení a krizové protokoly |
 | 📊 | [**Vizualizace**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/visualizations/) | interaktivní modely v Chart.js, p5.js a three.js, pojmové mapy v Mermaid |
 | 🕸️ | [**Mapa knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/mapa/) | interaktivní graf všech stránek a odkazů: oddíly, štítky, okolí každé stránky |
+| 🔥 | [**Případy × techniky**](https://korczis.github.io/kompendium-epistemicke-anihilace/matice/) | matice: které techniky se opakují napříč kazuistikami a historickými případy |
+| 🕰️ | [**Časová osa**](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/historical-cases/) | historické případy na časové ose podle kategorií, se zoomem a filtry |
 | 📈 | [**Stav knihy**](https://korczis.github.io/kompendium-epistemicke-anihilace/stav/) | rozsah, provázanost a co ještě čeká, odvozené při každém sestavení |
 | 🎨 | [**Galerie**](https://korczis.github.io/kompendium-epistemicke-anihilace/galerie/) | generativní grafika v p5.js: rozpad sítě pojmů, eroze paměti, rekonstituce |
 | 📚 | [**Reference**](https://korczis.github.io/kompendium-epistemicke-anihilace/references/) | všechna citovaná literatura, bez duplicit, s odkazy na citující stránky |
@@ -79,7 +81,8 @@ svého okolí**; uzly v diagramech Mermaid vedou na stránky pojmů.
 2. [Úvod do epistemické anihilace](https://korczis.github.io/kompendium-epistemicke-anihilace/kompendium/02-uvod/): definice, historický kontext, teoretické základy.
 3. Pak podle potřeby: kategorie a techniky pro porozumění, případy pro kontext, obranné a klinické oddíly pro praxi.
 
-Hledání v záhlaví webu prohledává názvy a popisy všech stránek, i bez diakritiky.
+Hledání v záhlaví webu prohledává názvy a popisy všech stránek, i bez diakritiky; příkazová
+paleta (⌘K / Ctrl+K nebo „/“) skočí kamkoli: na stránku, oddíl, pojem, kód techniky i akci.
 
 ## Vývoj knihy
 
@@ -104,6 +107,7 @@ npm ci
 npm run build      # CSS (Tailwind + Flowbite), pak zola build → public/
 npm run dev        # zola serve na http://127.0.0.1:1111
 npm run check      # migrace obsahu, aktuálnost referencí, interní odkazy
+npm run verify     # všechny gaty jako CI, včetně interaktivních ploch v Playwrightu
 npm run graphics   # obálka, social card, banner (SVG → PNG)
 ```
 

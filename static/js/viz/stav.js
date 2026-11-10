@@ -21,6 +21,7 @@
 
   // Každá karta vede tam, kde se s číslem dá něco dělat (mapa, obsah, příslušný graf níže).
   function kpis(m) {
+    if (el('stav-kpi').hasAttribute('data-rendered')) return;  // vykresleno už při sestavení
     var items = [
       ['Stránek', m.pages, 'včetně glosáře a filozofie', V.basePath + '/kompendium/', 'Otevřít obsah kompendia'],
       ['Slov', m.words, 'celý text knihy', '#h-slova', 'Přejít na graf rozsahu textu'],
@@ -38,7 +39,7 @@
         'class="group block rounded-lg bg-white p-4 shadow hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800 sm:p-6 dark:bg-gray-800 dark:hover:bg-gray-700">' +
         '<span class="flex items-start justify-between gap-2"><span>' +
         '<span class="text-2xl font-bold leading-none text-gray-900 sm:text-3xl dark:text-white">' + nf.format(x[1]) + '</span>' + pct + '</span>' +
-        '<svg class="h-5 w-5 shrink-0 text-gray-400 group-hover:text-primary-700 dark:group-hover:text-primary-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg></span>' +
+        '<svg class="h-5 w-5 shrink-0 text-gray-500 group-hover:text-primary-700 dark:group-hover:text-primary-400" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/></svg></span>' +
         '<h3 class="text-base font-normal text-gray-500 dark:text-gray-400">' + x[0] + '</h3>' +
         '<p class="mt-3 border-t border-gray-200 pt-3 text-xs text-gray-500 dark:border-gray-700 dark:text-gray-400">' + x[2] + '</p></a>';
     }).join('');

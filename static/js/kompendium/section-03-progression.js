@@ -1,222 +1,167 @@
-// Section 03 — EA-1 technique progression through 5 phases (safe DOM, Chart.js scatter)
-(function() {
+// Kapitola 3 — techniky jedné rodiny EA podle podrodiny a úrovně rizika (Chart.js scatter
+// s vazbami). Rodinu určuje kód EA-N v textu nad grafem, techniky, kódy a názvy dává graf
+// knihy, názvy podrodin a riziko katalog technik, hrany jsou odkazy mezi stránkami technik.
+// Klik na bod → detail techniky, vazby a odkaz na její stránku.
+(function () {
   'use strict';
+  var SRC = document.currentScript && document.currentScript.src;
 
-  // Phases: 1=etablovani, 2=exploitace, 3=konsolidace, 4=eskalace, 5=intervence
-  const PHASES = {
-    1: { name: 'Etablování', color: '#3b82f6', desc: 'Budování důvěry, autority, framing kontextu.' },
-    2: { name: 'Exploitace', color: '#8b5cf6', desc: 'Aktivní použití technik na cílový subjekt.' },
-    3: { name: 'Konsolidace', color: '#f59e0b', desc: 'Upevnění získaného epistemického vlivu.' },
-    4: { name: 'Eskalace', color: '#ef4444', desc: 'Prohloubení manipulace, závažnější formy.' },
-    5: { name: 'Intervence', color: '#10b981', desc: 'Bod, kde detekce a neutralizace mají nejvyšší účinnost.' }
-  };
-
-  // 13 EA-1 techniques mapped to (phase, severity 1-5)
-  const NODES = [
-    { id: 'EA-1.1.1', label: 'Selektivní expozice', phase: 1, sev: 2 },
-    { id: 'EA-1.1.2', label: 'Informační přetížení', phase: 2, sev: 3 },
-    { id: 'EA-1.1.3', label: 'Terminologická mystifikace', phase: 1, sev: 2 },
-    { id: 'EA-1.1.4', label: 'Predikační rozpadání', phase: 3, sev: 3 },
-    { id: 'EA-1.2.1', label: 'Falešné dilema', phase: 2, sev: 3 },
-    { id: 'EA-1.2.2', label: 'Falešná ekvivalence', phase: 2, sev: 2 },
-    { id: 'EA-1.2.3', label: 'Iluzorní komplexita', phase: 3, sev: 3 },
-    { id: 'EA-1.3.1', label: 'Imunizace', phase: 3, sev: 4 },
-    { id: 'EA-1.3.2', label: 'Reinterpretace', phase: 4, sev: 4 },
-    { id: 'EA-1.3.3', label: 'Tematická diverze', phase: 2, sev: 2 },
-    { id: 'EA-1.4.1', label: 'Prosodická dominance', phase: 1, sev: 2 },
-    { id: 'EA-1.4.2', label: 'Latentní emoce', phase: 2, sev: 3 },
-    { id: 'EA-1.5.1', label: 'Proxemika', phase: 1, sev: 1 }
-  ];
-
-  // Typical co-occurrence edges
-  const EDGES = [
-    ['EA-1.1.1', 'EA-1.1.3'],
-    ['EA-1.1.1', 'EA-1.4.1'],
-    ['EA-1.1.2', 'EA-1.2.1'],
-    ['EA-1.1.2', 'EA-1.4.2'],
-    ['EA-1.1.4', 'EA-1.2.3'],
-    ['EA-1.2.1', 'EA-1.2.2'],
-    ['EA-1.2.2', 'EA-1.3.3'],
-    ['EA-1.2.3', 'EA-1.3.1'],
-    ['EA-1.3.1', 'EA-1.3.2'],
-    ['EA-1.3.2', 'EA-1.4.2'],
-    ['EA-1.4.1', 'EA-1.5.1'],
-    ['EA-1.4.2', 'EA-1.1.2']
-  ];
-
-  function neighborsOf(id) {
-    const set = new Set();
-    EDGES.forEach(([a, b]) => {
-      if (a === id) set.add(b);
-      if (b === id) set.add(a);
-    });
-    return set;
+  function kniha() {
+    if (!window.__kniha) {
+      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
+        var s = document.createElement('script');
+        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
+        s.onload = ok;
+        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
+        document.head.appendChild(s);
+      })).then(function () { return window.KompendiumKniha.ready(); });
+    }
+    return window.__kniha;
   }
 
-  function setDetail(container, node, neighbors) {
-    while (container.firstChild) container.removeChild(container.firstChild);
-    const h = document.createElement('h3');
-    h.className = 'text-lg font-bold text-slate-100';
-    h.textContent = node.id + ' — ' + node.label;
-    container.appendChild(h);
-
-    const phase = PHASES[node.phase];
-    const ph = document.createElement('p');
-    ph.className = 'text-slate-300 mt-1';
-    ph.textContent = 'Fáze: ' + phase.name + ' — ' + phase.desc;
-    container.appendChild(ph);
-
-    const sev = document.createElement('p');
-    sev.className = 'text-slate-400 text-sm';
-    sev.textContent = 'Typická závažnost: ' + node.sev + '/5';
-    container.appendChild(sev);
-
-    const nh = document.createElement('p');
-    nh.className = 'text-slate-300 mt-2 font-semibold';
-    nh.textContent = 'Typická ko-okurence (' + neighbors.size + '):';
-    container.appendChild(nh);
-
-    const ul = document.createElement('ul');
-    ul.className = 'text-slate-300 list-disc list-inside text-sm';
-    NODES.forEach((n) => {
-      if (neighbors.has(n.id)) {
-        const li = document.createElement('li');
-        li.textContent = n.id + ' — ' + n.label + ' (fáze ' + n.phase + ')';
-        ul.appendChild(li);
-      }
-    });
-    container.appendChild(ul);
-
-    const link = document.createElement('a');
-    link.href = '/kompendium/03-zakladni-kategorie/kapitola-1/';
-    link.className = 'text-blue-400 underline text-sm mt-2 inline-block';
-    link.textContent = '→ Plný popis v 3.1 Akademické techniky';
-    container.appendChild(link);
+  function failed(el, e) {
+    if (window.console) console.warn('vizualizace knihy:', e);
+    if (el) el.textContent = 'Data knihy se nepodařilo načíst.';
   }
 
   function init() {
-    const canvas = document.getElementById('section-03-progression');
+    var canvas = document.getElementById('section-03-progression');
     if (!canvas || typeof Chart === 'undefined') return;
-    const detail = document.getElementById('progression-detail');
+    var detail = document.getElementById('progression-detail');
+    kniha().then(function (K) {
+      return K.catalogue().catch(function () { return null; }).then(function (cat) { draw(K, cat, canvas, detail); });
+    }).catch(function (e) { failed(detail, e); });
+  }
 
-    let highlightedId = null;
-
-    // Datasets per phase
-    const phaseDatasets = Object.keys(PHASES).map((phase) => ({
-      label: PHASES[phase].name,
-      data: NODES.filter((n) => String(n.phase) === phase).map((n) => ({
-        x: n.phase,
-        y: n.sev,
-        _node: n
-      })),
-      backgroundColor: PHASES[phase].color,
-      borderColor: PHASES[phase].color,
-      pointRadius: 10,
-      pointHoverRadius: 14,
-      showLine: false
-    }));
-
-    // Edge dataset
-    const nodeMap = {};
-    NODES.forEach((n) => { nodeMap[n.id] = n; });
-
-    const edgeDataset = {
-      label: 'Ko-okurence',
-      data: [],
-      borderColor: 'rgba(148, 163, 184, 0.35)',
-      backgroundColor: 'rgba(148, 163, 184, 0.35)',
-      pointRadius: 0,
-      borderWidth: 1,
-      showLine: true,
-      tension: 0
-    };
-
-    EDGES.forEach(([a, b]) => {
-      const na = nodeMap[a];
-      const nb = nodeMap[b];
-      if (!na || !nb) return;
-      // tiny x jitter so co-phase edges are visible
-      const ax = na.phase + (na.sev - 3) * 0.04;
-      const bx = nb.phase + (nb.sev - 3) * 0.04;
-      edgeDataset.data.push({ x: ax, y: na.sev });
-      edgeDataset.data.push({ x: bx, y: nb.sev });
-      edgeDataset.data.push({ x: NaN, y: NaN });
+  function draw(K, cat, canvas, detail) {
+    var fid = K.familyNear(canvas);
+    var techs = K.techniques.filter(function (t) { return t.family === fid; });
+    var subs = [];
+    techs.forEach(function (t) { if (subs.indexOf(t.sub) < 0) subs.push(t.sub); });
+    var subName = K.subNames(cat);
+    var levels = [];
+    var risk = {};
+    techs.forEach(function (t) {
+      var r = cat ? K.riskOf(cat, t) : { id: '', label: 'neuvedeno', order: 99 };
+      risk[t.id] = r;
+      if (!levels.some(function (l) { return l.id === r.id; })) levels.push(r);
     });
+    levels.sort(function (a, b) { return a.order - b.order; });
+    var edges = K.edgesAmong(techs.map(function (t) { return t.id; }));
+    var nb = {};
+    techs.forEach(function (t) { nb[t.id] = []; });
+    edges.forEach(function (e) { nb[e.a].push(e.b); nb[e.b].push(e.a); });
 
-    new Chart(canvas, {
-      type: 'scatter',
-      data: { datasets: [edgeDataset].concat(phaseDatasets) },
-      options: {
-        responsive: true,
-        plugins: {
-          title: {
-            display: true,
-            text: 'Postup EA-1 technik 5 fázemi — klik = detail + ko-okurence',
-            color: '#f1f5f9'
+    // pozice: x = podrodina (s rozestupem v buňce), y = úroveň rizika
+    var cell = {};
+    var pos = {};
+    techs.forEach(function (t) {
+      var x = subs.indexOf(t.sub);
+      var y = levels.indexOf(levels.filter(function (l) { return l.id === risk[t.id].id; })[0]);
+      var k = x + '|' + y;
+      (cell[k] = cell[k] || []).push(t);
+      pos[t.id] = { x: x, y: y };
+    });
+    Object.keys(cell).forEach(function (k) {
+      var list = cell[k];
+      list.forEach(function (t, i) {
+        var spread = Math.min(0.7, 0.14 * (list.length - 1));
+        pos[t.id].x += list.length > 1 ? -spread / 2 + spread * i / (list.length - 1) : 0;
+        pos[t.id].y += (i % 2 ? 0.12 : -0.12) * (list.length > 1 ? 1 : 0);
+      });
+    });
+    var byId = {};
+    techs.forEach(function (t) { byId[t.id] = t; });
+    var selected = null;
+
+    function subLabel(s) { return s + (subName[s] ? ' ' + subName[s] : ''); }
+
+    function show(t) {
+      if (!detail) return;
+      K.clear(detail);
+      detail.appendChild(K.h('h3', 'text-lg font-bold text-slate-100', t.code + ' — ' + t.label));
+      detail.appendChild(K.h('p', 'text-slate-300 mt-1', 'Podrodina: ' + subLabel(t.sub)));
+      detail.appendChild(K.h('p', 'text-slate-400 text-sm', 'Úroveň rizika: ' + risk[t.id].label));
+      detail.appendChild(K.h('p', 'text-slate-300 mt-2 font-semibold',
+        'Vazby na techniky ' + fid + ' podle odkazů v knize (' + nb[t.id].length + '):'));
+      detail.appendChild(K.list(nb[t.id].map(function (id) { return byId[id].node; }), function (n) {
+        return K.techniqueText(K.technique(n));
+      }));
+      var p = K.h('p', 'mt-2 text-sm');
+      p.appendChild(K.link(t.node, '→ stránka techniky'));
+      detail.appendChild(p);
+    }
+
+    K.chart(canvas, function (c) {
+      var edgeData = [];
+      edges.forEach(function (e) {
+        edgeData.push(pos[e.a], pos[e.b], { x: NaN, y: NaN });
+      });
+      var sets = subs.map(function (s, i) {
+        var col = K.V.PALETTE[i % K.V.PALETTE.length];
+        return {
+          label: subLabel(s),
+          data: techs.filter(function (t) { return t.sub === s; }).map(function (t) {
+            return { x: pos[t.id].x, y: pos[t.id].y, t: t };
+          }),
+          backgroundColor: col, borderColor: col, showLine: false,
+          pointRadius: function (ctx) {
+            var t = ctx.raw && ctx.raw.t;
+            if (!selected || !t) return 7;
+            if (t.id === selected) return 12;
+            return nb[selected].indexOf(t.id) >= 0 ? 9 : 4;
           },
-          legend: {
-            labels: {
-              color: '#cbd5e1',
-              filter: (item) => item.text !== 'Ko-okurence'
-            }
-          },
-          tooltip: {
-            filter: (ctx) => ctx.raw && ctx.raw._node,
-            callbacks: {
-              title: (items) => {
-                const n = items[0].raw._node;
-                return n.id + ' — ' + n.label;
+          pointHoverRadius: 11,
+        };
+      });
+      return {
+        type: 'scatter',
+        data: { datasets: [{
+          label: 'Vazby', data: edgeData, showLine: true, pointRadius: 0, borderWidth: 1,
+          borderColor: c.dark ? 'rgba(148,163,184,0.25)' : 'rgba(100,116,139,0.3)', spanGaps: false,
+        }].concat(sets) },
+        options: {
+          responsive: true,
+          plugins: {
+            title: { display: true, color: c.text,
+              text: fid + ' ' + K.familyName(fid) + ': ' + techs.length + ' stránek technik, ' + edges.length +
+                ' vazeb podle odkazů v knize (klik = detail)' },
+            legend: { labels: { color: c.text, filter: function (item) { return item.datasetIndex > 0; } } },
+            tooltip: {
+              filter: function (ctx) { return ctx.raw && ctx.raw.t; },
+              callbacks: {
+                title: function (items) { return K.techniqueText(items[0].raw.t); },
+                label: function (ctx) {
+                  var t = ctx.raw.t;
+                  return 'riziko ' + risk[t.id].label + ' | ' + nb[t.id].length + ' vazeb';
+                },
               },
-              label: (ctx) => {
-                const n = ctx.raw._node;
-                const ph = PHASES[n.phase];
-                const neigh = neighborsOf(n.id);
-                return ph.name + ' | sev ' + n.sev + ' | ' + neigh.size + ' ko-okur.';
-              }
-            }
-          }
-        },
-        scales: {
-          x: {
-            ticks: {
-              color: '#cbd5e1',
-              stepSize: 1,
-              callback: (v) => PHASES[v] ? PHASES[v].name : ''
             },
-            min: 0.5, max: 5.5,
-            grid: { color: 'rgba(148,163,184,0.1)' },
-            title: { display: true, text: 'Fáze manipulačního cyklu', color: '#cbd5e1' }
           },
-          y: {
-            ticks: { color: '#cbd5e1', stepSize: 1 },
-            min: 0, max: 5.5,
-            grid: { color: 'rgba(148,163,184,0.1)' },
-            title: { display: true, text: 'Typická závažnost (1–5)', color: '#cbd5e1' }
-          }
+          scales: {
+            x: {
+              type: 'linear', min: -0.6, max: subs.length - 0.4, afterBuildTicks: K.intTicks(subs.length),
+              ticks: { color: c.muted, stepSize: 1, callback: function (v) { return subs[v] || ''; } },
+              grid: { color: c.grid },
+              title: { display: true, text: 'Podrodina (kód z cesty stránky)', color: c.text },
+            },
+            y: {
+              type: 'linear', min: -0.6, max: levels.length - 0.4, afterBuildTicks: K.intTicks(levels.length),
+              ticks: { color: c.muted, stepSize: 1, callback: function (v) { return levels[v] ? levels[v].label : ''; } },
+              grid: { color: c.grid },
+              title: { display: true, text: 'Úroveň rizika (katalog technik)', color: c.text },
+            },
+          },
+          onClick: function (e, els, chart) {
+            var el = els.filter(function (x) { return x.datasetIndex > 0; })[0];
+            if (!el) return;
+            var t = chart.data.datasets[el.datasetIndex].data[el.index].t;
+            selected = t.id;
+            show(t);
+            chart.update('none');
+          },
         },
-        onClick: (e, els, chart) => {
-          if (!els.length || !detail) return;
-          const el = els[0];
-          if (el.datasetIndex === 0) return;
-          const point = chart.data.datasets[el.datasetIndex].data[el.index];
-          if (!point || !point._node) return;
-          const node = point._node;
-          highlightedId = node.id;
-          const neigh = neighborsOf(node.id);
-          setDetail(detail, node, neigh);
-
-          chart.data.datasets.forEach((ds, di) => {
-            if (di === 0) return;
-            ds.pointRadius = ds.data.map((pt) => {
-              if (!pt._node) return 10;
-              if (pt._node.id === highlightedId) return 16;
-              if (neigh.has(pt._node.id)) return 13;
-              return 7;
-            });
-          });
-          chart.update('none');
-        }
-      }
+      };
     });
   }
 

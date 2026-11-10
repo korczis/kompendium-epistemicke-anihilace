@@ -1,0 +1,36 @@
+{#- Podstrom aktivní větve sidebaru, odvozený ze static/data/nav.json (scripts/build-ui-data.py):
+    pododdíly do dvou úrovní pod oddílem `k1` a okno stránek kolem aktuální stránky v oddílu,
+    který ji obsahuje. Vykresluje se jen pro větev s aktuální stránkou, ostatní oddíly zůstávají
+    jedním odkazem (třídy sub, sub_on, sub_idle z partials/sidebar.html). -#}
+{%- set n1 = nav.sections[k1] -%}
+{%- if n1.subsections or k1 == here %}
+<ul class="ml-4 mt-0.5 space-y-0.5 border-l border-gray-200 dark:border-gray-700" aria-label="{{ n1.title }}">
+  {%- for k2 in n1.subsections %}
+  {%- set n2 = nav.sections[k2] %}
+  {%- set on2 = n2.url in cur %}
+  <li>
+    <a href="{{ config.base_url }}{{ n2.url }}" class="{{ sub }}{% if on2 %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ n2.title }}"{% if on2 %} aria-current="{% if cur == n2.url %}page{% else %}location{% endif %}"{% endif %}>
+      <span class="line-clamp-2 min-w-0 flex-1">{{ n2.title }}</span>
+      {%- if n2.total %}<span class="shrink-0 text-xs {% if on2 %}text-primary-800 dark:text-gray-200{% else %}text-gray-500 dark:text-gray-400{% endif %}">{{ n2.total }}</span>{% endif %}
+    </a>
+    {%- if on2 and (n2.subsections or k2 == here) %}
+    <ul class="ml-4 mt-0.5 space-y-0.5 border-l border-gray-200 dark:border-gray-700" aria-label="{{ n2.title }}">
+      {%- for k3 in n2.subsections %}
+      {%- set n3 = nav.sections[k3] %}
+      {%- set on3 = n3.url in cur %}
+      <li>
+        <a href="{{ config.base_url }}{{ n3.url }}" class="{{ sub }}{% if on3 %}{{ sub_on }}{% else %}{{ sub_idle }}{% endif %}" title="{{ n3.title }}"{% if on3 %} aria-current="{% if cur == n3.url %}page{% else %}location{% endif %}"{% endif %}>
+          <span class="line-clamp-2 min-w-0 flex-1">{{ n3.title }}</span>
+          {%- if n3.total %}<span class="shrink-0 text-xs {% if on3 %}text-primary-800 dark:text-gray-200{% else %}text-gray-500 dark:text-gray-400{% endif %}">{{ n3.total }}</span>{% endif %}
+        </a>
+      </li>
+      {%- if k3 == here %}{% set wkey = k3 %}{% include "partials/sidebar_pages.html" %}{% endif %}
+      {%- endfor %}
+      {%- if k2 == here %}{% set wkey = k2 %}{% include "partials/sidebar_pages.html" %}{% endif %}
+    </ul>
+    {%- endif %}
+  </li>
+  {%- endfor %}
+  {%- if k1 == here %}{% set wkey = k1 %}{% include "partials/sidebar_pages.html" %}{% endif %}
+</ul>
+{%- endif %}

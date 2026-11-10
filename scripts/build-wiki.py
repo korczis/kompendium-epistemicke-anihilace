@@ -134,7 +134,7 @@ def home(stats):
 
 **Defenzivní taxonomie jevů, které systematicky rozkládají schopnost člověka poznávat.**
 
-**[📖 Číst knihu]({SITE}/)** · **[🕸️ Mapa]({SITE}/mapa/)** · **[📈 Stav]({SITE}/stav/)** · **[🎨 Galerie]({SITE}/galerie/)** · **[📚 Reference]({SITE}/references/)** · **[💻 Repozitář]({REPO})**
+**[📖 Číst knihu]({SITE}/)** · **[🕸️ Mapa]({SITE}/mapa/)** · **[🔥 Matice]({SITE}/matice/)** · **[📈 Stav]({SITE}/stav/)** · **[🎨 Galerie]({SITE}/galerie/)** · **[📚 Reference]({SITE}/references/)** · **[💻 Repozitář]({REPO})**
 
 </div>
 
@@ -293,6 +293,7 @@ SIDEBAR = f"""<img src="{RAW}/static/img/mark.svg" width="40" alt="">
 - [[Licence]]
 
 [🕸️ Mapa knihy]({SITE}/mapa/)
+[🔥 Případy × techniky]({SITE}/matice/)
 [📈 Stav knihy]({SITE}/stav/)
 [🎨 Galerie]({SITE}/galerie/)
 [📚 Reference]({SITE}/references/)

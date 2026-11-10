@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["historicky-kontext", "metodologicke-poznamky", "vztah-k-decision-engine", "vztah-k-nabla"]
-parent = "kompendium-02-uvod"
 section_icon = "🏛️"
 toc = true
 +++

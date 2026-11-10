@@ -10,7 +10,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["pro-koho-je-urceno", "ucel-kompendia", "jak-pouzivat"]
-parent = "kompendium-01-predmluva"
 section_icon = "🔗"
 toc = true
 +++

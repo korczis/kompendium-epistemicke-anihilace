@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-8-konceptualni-fragmentace", "ea-5-1-9-identitni-dezintegrace", "ea-5-2-10-meta-kognitivni-singularita", "ea-5-2-11-kategorialni-anihilace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.1"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"

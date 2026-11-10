@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-1-1-selektivni-expozice", "ea-4-3-5-evidential-criteria-modification", "ea-5-1-24-epistemicka-vakuace", "ea-7-3-4-clark-extended-mind", "ea-7-3-6-thompson-mind-life", "ea-7-3-5-metzinger-ego-tunnel"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.3"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

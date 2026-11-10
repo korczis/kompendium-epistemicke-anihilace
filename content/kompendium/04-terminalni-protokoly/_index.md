@@ -11,7 +11,6 @@ tags = ["kompendium", "terminalni-protokoly", "epistemicka-anihilace", "kognitiv
 categories = ["academic", "research"]
 section_icon = "⚠️"
 toc = true
-parent = "kompendium"
 access_level = "L2"
 status = "publikovano"
 +++

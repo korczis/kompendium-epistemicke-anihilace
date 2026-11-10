@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-4-mob-coordination", "ea-2-3-6-platform-coordinated-attack", "ea-2-5-7-self-cancelation", "ea-2-2-10-future-blackmail-implantace", "doxing", "osint"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.8"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

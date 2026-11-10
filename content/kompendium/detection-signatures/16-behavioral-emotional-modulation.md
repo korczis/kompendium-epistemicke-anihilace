@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["14-behavioral-time-pressure-creation", "15-behavioral-asymmetric-disclosure", "17-network-source-monoculture", "18-network-citation-circularity"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "behavioral"
 +++
@@ -111,7 +110,7 @@ Deník emočního klimatu je subjektivní a pro forenzní účely je třeba ho d
 - Gottman, J. M. (1994). *What Predicts Divorce? The Relationship Between Marital Processes and Marital Outcomes*. Lawrence Erlbaum.
 - Hazan, C., & Shaver, P. (1987). Romantic love conceptualized as an attachment process. *Journal of Personality and Social Psychology*, 52(3), 511–524.
 - Linehan, M. M. (1993). *Cognitive-Behavioral Treatment of Borderline Personality Disorder*. Guilford Press.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - Walker, L. E. (1979). *The Battered Woman*. Harper & Row.
 - Williams, K. D. (2007). Ostracism. *Annual Review of Psychology*, 58, 425–452.
 

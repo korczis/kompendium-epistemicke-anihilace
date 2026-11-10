@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-2-externalizacni-faze", "ea-6-3-5-konsolidace-protokol", "ea-8-2-10-herman-recovery-stages", "ea-6-2-6-dbt-distress-tolerance"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.3.1"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.3 Rekonstrukční protokoly"

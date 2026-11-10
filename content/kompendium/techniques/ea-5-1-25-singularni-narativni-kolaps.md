@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-23-asymptoticka-dezintegrace", "ea-5-1-24-epistemicka-vakuace", "ea-5-1-26", "ea-5-1-26-trans-paradigmaticka-migrace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.25"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"

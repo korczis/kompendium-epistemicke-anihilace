@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-1-1-graduated-exposure-design", "ea-3-1-10-reflective-journaling", "ea-3-1-3-metacognitive-cultivation", "ea-3-1-4-epistemic-community-formation"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.2"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"

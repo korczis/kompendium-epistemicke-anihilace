@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["document-analysis-EA", "ethnography-EA", "mixed-methods-EA", "anonymization-EA-research"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

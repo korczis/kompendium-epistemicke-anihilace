@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-2-1-falesne-dilema", "ea-2-1-9-pseudo-konsenzus-vytvoreni", "ea-2-3-1-clip-takeout", "ea-2-3-10-viralni-misrepresentation", "ea-7-3-1-kahneman-system12", "ea-7-2-2-goldman-veritism"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.2"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

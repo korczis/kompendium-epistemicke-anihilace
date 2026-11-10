@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "12-coercive-control-law"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 
@@ -179,8 +178,8 @@ výkladu stejně obtížné jako u soukromých skupin.
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kelman, H. C., a Hamilton, V. L. (1989). *Crimes of Obedience: Toward a Social Psychology of Authority and Responsibility*. Yale University Press.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism: A Study of „Brainwashing“ in China*. W. W. Norton.
 - Singer, M. T., a Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
 - Zablocki, B., a Robbins, T. (Eds.) (2001). *Misunderstanding Cults: Searching for Objectivity in a Controversial Field*. University of Toronto Press.
 

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-14-iliada-paradox", "ea-5-4-15-holisticka-self-reference-zhrouceni", "ea-5-4-17-infinit-regres-implantace", "ea-5-4-18-circular-justification-trap"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.16"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

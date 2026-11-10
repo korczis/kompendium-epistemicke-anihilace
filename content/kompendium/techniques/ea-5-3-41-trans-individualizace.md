@@ -16,8 +16,6 @@ parent_chapter = "/kompendium/05-ultramari-techniky/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
-ref_count_at_creation = 2
 +++
 
 # EA-5.3.41 Transindividualizace

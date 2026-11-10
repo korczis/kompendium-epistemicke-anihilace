@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["27-secular-cult-exit", "28-academic-philosophy-cult", "30-music-conservatory-coercion", "31-elite-prep-school"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -217,7 +216,7 @@ samotné fungování uměleckého světa.
 - Brackenridge, C. H. (2001). *Spoilsports: Understanding and Preventing Sexual Exploitation in
   Sport*. Routledge.
 - Coser, L. A. (1974). *Greedy Institutions: Patterns of Undivided Commitment*. Free Press.
-- Dutton, D. G., a Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional
+- Dutton, D. G., a Painter, S. L. (1981). Traumatic bonding: The development of emotional
   attachments in battered women and other relationships of intermittent abuse. *Victimology*.
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard
   University Press.
@@ -225,7 +224,7 @@ samotné fungování uměleckého světa.
   Press.
 - Govier, T. (1993). Self-trust, autonomy, and self-esteem. *Hypatia*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Morrison, E. W., a Milliken, F. J. (2000). Organizational silence: A barrier to change and
   development in a pluralistic world. *Academy of Management Review*.
 - National Academies of Sciences, Engineering, and Medicine (2018). *Sexual Harassment of Women:

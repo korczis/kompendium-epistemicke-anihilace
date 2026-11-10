@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-6-betrayal-trauma-inventory", "ea-8-1-8-traumatic-stress-screen", "ea-8-2-6-icd-11-complex-trauma", "ea-5-3-4-telesna-disociace", "ea-7-3-5-metzinger-ego-tunnel", "ea-8-1-2-cult-leaving-questionnaire"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.7"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"

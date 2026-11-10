@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "terminology"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -161,8 +160,8 @@ vyloučení dotčených z jejich tvorby je samo formou nespravedlnosti.
 ## Literatura
 
 - Abramson, K. (2014). Turning up the lights on gaslighting. *Philosophical Perspectives*.
-- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*.
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*.
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Haslam, N. (2016). Concept creep: Psychology's expanding concepts of harm and pathology. *Psychological Inquiry*.
 - Lilienfeld, S. O., Miller, J. D., & Lynam, D. R. (2018). The Goldwater Rule: Perspectives from, and implications for, psychological science. *Perspectives on Psychological Science*.

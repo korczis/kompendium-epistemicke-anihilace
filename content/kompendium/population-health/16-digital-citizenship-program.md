@@ -9,7 +9,6 @@ categories = ["academic", "public-health"]
 
 [extra]
 related_terms = ["14-employer-screening", "15-media-literacy-program", "17-vulnerable-population-outreach", "18-public-awareness-campaign"]
-parent = "kompendium-population-health"
 toc = true
 +++
 

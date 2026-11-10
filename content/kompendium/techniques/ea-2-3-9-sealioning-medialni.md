@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-3-4-mob-coordination", "ea-2-3-5-pseudo-kontroverze-amplifikace", "ea-2-5-8-recursive-doubt-spiral", "sealioning", "gish-gallop", "motte-and-bailey"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.3.9"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.3 Mediální delegitimizace"

@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["9-civic-education-prevention", "6-media-literacy-prevention", "4-community-resilience-EA", "communicative-rationality", "ideal-speech-situation"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

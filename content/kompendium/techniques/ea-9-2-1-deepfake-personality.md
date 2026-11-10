@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-2-2-voice-cloning-EA", "ea-9-2-5-video-manipulation-EA", "ea-9-2-8-AI-eyewitness-fabrication"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.2.1"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.2 Generativní média"

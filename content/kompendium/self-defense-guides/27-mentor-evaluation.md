@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["23-trust-calibration", "25-network-diversification", "26-isolation-prevention", "28-community-engagement"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -97,8 +96,8 @@ Příliš tvrdá kritika může poškodit cenný vztah; hledejte rovnováhu mezi
 ## Literatura
 
 - Kram, K. E. (1985). *Mentoring at Work: Developmental Relationships in Organizational Life*. Scott, Foresman.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.
 - Singer, M. T. (1995). *Cults in Our Midst*. Jossey-Bass.
 

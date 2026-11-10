@@ -11,7 +11,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["gaslighting", "darvo", "coercive-control", "epistemicka-alienace", "metakognitivni-destrukce", "bridge-darvo"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "gaslighting"
 toc = false
 +++

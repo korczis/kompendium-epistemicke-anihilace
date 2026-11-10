@@ -11,7 +11,6 @@ categories = ["academic"]
 section_icon = "🔬"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium"
 +++
 
 # 03. Základní kategorie epistemických manipulací
@@ -60,7 +59,7 @@ Každá zaznamenaná technika má **samostatný článek** v [knihovně technik]
 - Lakatos, I. (1978). *The Methodology of Scientific Research Programmes*. Cambridge University Press.
 - Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology*, 2(2).
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
-- Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a [theory of mind](@/glossary/theory-of-mind.md)? *Behavioral and Brain Sciences*, 1(4).
+- Premack, D., & Woodruff, G. (1978). Does the chimpanzee have a theory of mind? *Behavioral and Brain Sciences*, 1(4).
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související

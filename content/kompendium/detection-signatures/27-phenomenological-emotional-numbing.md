@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["25-phenomenological-cognitive-fog", "26-phenomenological-self-doubt-spike", "28-phenomenological-reality-uncertainty", "29-phenomenological-temporal-disorientation"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "phenomenological"
 +++

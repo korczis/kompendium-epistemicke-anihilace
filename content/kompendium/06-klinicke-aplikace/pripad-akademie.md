@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["observational-assessment", "preventivni-strategie", "pripad-doktorat", "screening-instrumenty-detail"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = true
 access_level = "L2"

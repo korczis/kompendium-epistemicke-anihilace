@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["risk-score", "decision-engine", "signal-plurality", "individual-risk-map", "bridge-threshold", "bridge-qdp"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "risk-score"
 toc = false
 +++

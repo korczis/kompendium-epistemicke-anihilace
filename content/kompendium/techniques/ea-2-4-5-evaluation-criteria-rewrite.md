@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-1-10-credentials-rekonfigurace", "ea-2-4-2-policy-rewriting-skryta", "ea-2-4-3-funding-redirect", "ea-2-4-6-peer-review-capture", "epistemicka-monokultura", "replication-crisis"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.4.5"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"

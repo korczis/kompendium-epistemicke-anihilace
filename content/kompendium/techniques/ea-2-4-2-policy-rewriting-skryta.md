@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-4-1-board-capture", "ea-2-4-5-evaluation-criteria-rewrite", "ea-2-1-10-credentials-rekonfigurace", "ea-2-4-10-disciplinary-society-capture", "ea-2-4-falesny-konsensus", "newspeak"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.4.2"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.4 Institucionální zachycení"

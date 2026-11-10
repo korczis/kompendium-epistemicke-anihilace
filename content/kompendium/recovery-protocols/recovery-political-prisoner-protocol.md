@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["recovery-cult-extraction-protocol", "recovery-trafficking-survivor-protocol", "sealioning", "6-czechoslovak-normalizace", "1-stalinist-show-trials"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "special"
 +++
@@ -131,7 +130,7 @@ a jak pracovat s generacemi, které perzekuci zažily jen zprostředkovaně.
 - Başoğlu, M. (Ed.) (1992). *Torture and Its Consequences: Current Treatment Approaches*.
   Cambridge: Cambridge University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - Mollica, R. F., Caspi-Yavin, Y., Bollini, P., Truong, T., Tor, S., & Lavelle, J. (1992). The
   Harvard Trauma Questionnaire. *Journal of Nervous and Mental Disease*, 180(2).
 - OHCHR (2004). *Istanbul Protocol: Manual on the Effective Investigation and Documentation of

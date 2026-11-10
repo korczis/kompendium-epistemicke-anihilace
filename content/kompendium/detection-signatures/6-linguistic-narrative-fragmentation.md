@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["4-linguistic-framing-shift", "5-linguistic-pronoun-inversion", "7-linguistic-scope-creep", "8-linguistic-semantic-erosion"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"
 +++

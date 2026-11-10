@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["phenomenological-interview-EA", "thematic-analysis-EA", "narrative-analysis-EA", "vulnerable-population-research"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

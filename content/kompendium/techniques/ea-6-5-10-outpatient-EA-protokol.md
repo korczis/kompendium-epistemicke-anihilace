@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-5-8-day-program-EA", "ea-6-5-1-akutni-krize-protokol", "ea-6-3-1-stabilizacni-faze-protokol", "ea-6-3-5-konsolidace-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.5.10"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.5 Krizové intervence"

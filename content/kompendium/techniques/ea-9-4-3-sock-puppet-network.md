@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-6-mass-comment-coordination", "ea-9-2-10-AI-personhood-claim", "ea-2-1-2-pseudo-peer-mob"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.4.3"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.4 Bot networks"

@@ -12,7 +12,6 @@ related_terms = ["intencionalita", "intentionalita", "fenomenologie", "pasivni-s
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 # Intencionalita – zaměřenost vědomí jako kategorie analýzy

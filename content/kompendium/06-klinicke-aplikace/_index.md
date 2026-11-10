@@ -11,7 +11,6 @@ categories = ["academic", "clinical"]
 section_icon = "🏥"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium"
 access_level = "L1"
 status = "in-progress"
 +++

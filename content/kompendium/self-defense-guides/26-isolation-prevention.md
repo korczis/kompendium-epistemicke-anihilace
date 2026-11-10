@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["24-communication-assertiveness", "25-network-diversification", "28-community-engagement", "30-support-mobilization"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -99,7 +98,7 @@ Někteří lidé skutečně potřebují víc samoty než jiní; nejde o to vnuti
 - Cacioppo, J. T., & Patrick, W. (2008). *Loneliness: Human Nature and the Need for Social Connection*. W. W. Norton.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Holt-Lunstad, J., Smith, T. B., & Layton, J. B. (2010). Social relationships and mortality risk: A meta-analytic review. *PLoS Medicine*, 7(7), e1000316.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 
 ## Související
 

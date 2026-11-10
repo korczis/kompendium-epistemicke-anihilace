@@ -13,8 +13,6 @@ categories = ["foundations"]
 
 # Core metadata
 author = "Tomas Korcak (korczis)"
-reading_time = "15 min"
-word_count = 3400
 difficulty = "advanced"
 icon = "eye"
 color = "amber"
@@ -34,7 +32,6 @@ peer_reviewed = false
 # Content classification
 content_version = "1.0.0"
 last_enhanced = "2026-02-23"
-quality_score = 0
 
 # Cross-references
 related_articles = ["ghl-framework", "intellectual-sovereignty", "ceremonial-computing", "boundary-ethics"]

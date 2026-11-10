@@ -12,7 +12,6 @@ related_terms = ["iatrogenic-harm", "retraumatizace", "bridge-readiness", "bridg
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
 +++
 
 # Bridge: Kontraindikace

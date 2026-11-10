@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-5-1-13-hyperreflexivita", "ea-5-1-14-iluzorni-transcendence", "ea-5-1-16-inferencni-paralyza", "ea-5-1-17-tautologicka-imploze"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.15"
 ea_category = "5. Pokročilé operace"
 ea_subcategory = "5.1 Epistemická singularita"

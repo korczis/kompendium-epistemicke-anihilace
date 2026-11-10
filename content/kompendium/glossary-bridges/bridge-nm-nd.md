@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["nm-nd", "no-mercy-no-doubts", "zero-warning-policy", "violation-protocol", "bridge-violation-protocol", "bridge-epistemicka-pokora"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "nm-nd"
 toc = false
 +++
@@ -142,7 +141,7 @@ Kniha tuto otázku neuzavírá; trvá jen na tom, že jazyk nulové tolerance ne
 - Dekker, S. (2007). *Just Culture: Balancing Safety and Accountability*. Ashgate.
 - Edmondson, A. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly*, 44(2), 350–383.
 - Janis, I. L. (1982). *Groupthink: Psychological Studies of Policy Decisions and Fiascoes* (2nd ed.). Houghton Mifflin.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
 - Webster, D. M., & Kruglanski, A. W. (1994). Individual differences in need for cognitive closure. *Journal of Personality and Social Psychology*, 67(6), 1049–1062.
 

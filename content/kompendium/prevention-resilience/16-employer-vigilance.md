@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["5-workplace-prevention-EA", "25-vocational-rehabilitation-prevention", "12-warning-sign-recognition", "coercive-control", "socialni-izolace"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 
@@ -180,7 +179,7 @@ pracovníci BOZP, odborové organizace, pověřené osoby pro příjem oznámen�
 
 ## Literatura
 
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. New York: Oxford
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. New York: Oxford
   University Press.
 
 ---

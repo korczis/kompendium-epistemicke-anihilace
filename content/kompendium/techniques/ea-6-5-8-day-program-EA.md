@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-5-7-partialni-hospitalizace", "ea-6-5-10-outpatient-EA-protokol", "ea-6-5-9-residential-program-EA", "ea-6-3-3-metakognitivni-rehabilitace"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.5.8"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.5 Krizové intervence"

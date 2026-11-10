@@ -16,8 +16,6 @@ parent_chapter = "/kompendium/03-zakladni-kategorie/kapitola-2/"
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 75
-ref_count_at_creation = 3
 +++
 
 # EA-2.4 Falešný konsensus

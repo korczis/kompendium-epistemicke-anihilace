@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["25-network-diversification", "26-isolation-prevention", "27-mentor-evaluation", "29-conflict-resolution"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -98,7 +97,7 @@ Zapojení vyžaduje čas a kompromisy; přílišná aktivita ve více komunitác
 - Hassan, S. (1988). *Combatting Cult Mind Control*. Park Street Press.
 - Jetten, J., Haslam, C., & Haslam, S. A. (Eds.). (2012). *The Social Cure: Identity, Health and Well-being*. Psychology Press.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships* (2nd ed.). Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - McMillan, D. W., & Chavis, D. M. (1986). Sense of community: A definition and theory. *Journal of Community Psychology*, 14(1), 6–23.
 
 ## Související

@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-1-18-solipsisticka-dekompozice", "ea-5-1-19-kvazi-mysticka-anihilace", "ea-5-1-20-holograficka-redukce", "ea-5-1-21-sebe-referencni-paradox"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.1.2"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.1 Epistemická singularita"

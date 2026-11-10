@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-4-1-narrative-disassembly", "ea-4-4-10-identity-stabilization", "ea-4-4-3-relational-restructure", "ea-4-4-4-biographical-recontextualization"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.4.2"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.4 Identitní dekonstrukce"

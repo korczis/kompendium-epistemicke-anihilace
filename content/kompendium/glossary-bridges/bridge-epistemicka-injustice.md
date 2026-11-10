@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["epistemicka-injustice", "testimonialni-nespravedlnost", "hermeneuticka-marginalizace", "delegitimizace", "betrayal-trauma", "power-knowledge"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "epistemicka-injustice"
 toc = false
 +++

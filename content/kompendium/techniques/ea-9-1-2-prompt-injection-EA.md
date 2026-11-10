@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-1-4-rag-context-poisoning", "ea-9-1-3-jailbreak-cascade", "ea-9-1-5-llm-narrative-injection"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.1.2"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.1 LLM-mediated EA"

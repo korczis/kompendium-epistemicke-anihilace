@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-1-7-neutralization-practicum", "ea-3-1-8-compositional-analysis-drill", "ea-3-2-1-supervisor-certification", "ea-3-2-10-supervisor-self-care"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.1.9"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.1 Kurikulární techniky"

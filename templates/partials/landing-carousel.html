@@ -1,0 +1,123 @@
+{#- Karusel úvodní stránky: rodiny technik a vybrané oddíly. Úprava bloku Flowbite Pro
+    publisher-ui-blocks „related-articles/carousel-slider“ (snímek = mřížka karet, ovládání pod
+    ním) na otevřeném Flowbite data-carousel API; vlastní JavaScript nemá.
+
+    Vše je odvozené: rodiny a jejich techniky ze static/data/graph.json (families, ea_code),
+    počty stránek oddílů ze static/data/nav.json, názvy a popisy z front matter oddílů, grafiky
+    ze scripts/render-graphics.py. Ručně je jen pořadí vybraných oddílů a texty ovládání
+    (content/_index.md [extra.landing]). Oddíl, který chybí nebo ještě není rozpracovaný
+    (ia_weak z partials/landing-intro.html, odvozené ze static/data/ia.json), se vynechá:
+    karusel nevede na nerozpracované stránky. Mezi nejodkazovanější techniky rodiny se počítají
+    jen rozpracované stránky.
+
+    Bez automatického posunu (data-carousel="static"): čtenář odborného textu má mít obsah pod
+    kontrolou, posun bez pauzy by porušil WCAG 2.2.2 a se statickým karuselem odpadá i ovládání
+    pauzy a zvláštní větev pro prefers-reduced-motion; animaci přechodu tam vypne
+    motion-reduce:transition-none. Výška je pevná pro každou šířku (CLS 0), první snímek je
+    vidět už před načtením skriptu a sousední snímky mimo záběr jsou invisible, takže fokus
+    klávesnice nikdy nepadne do skryté karty. -#}
+{%- set L = section.extra.landing -%}
+{%- set forms_t = section.extra.plural.technika -%}
+{%- set forms_s = section.extra.plural.stranka -%}
+{%- set c_graph = load_data(path="static/data/graph.json") -%}
+{%- set c_nav = load_data(path="static/data/nav.json") -%}
+{%- set c_tech = get_section(path="kompendium/techniques/_index.md", metadata_only=true) -%}
+{%- set c_ranked = c_graph.nodes | sort(attribute="in") | reverse -%}
+{#- Seznam karet jako text „druh:klíč“ (Tera 2 nemá filtr concat): rodiny, které mají techniky,
+    pak rozpracované vybrané oddíly. Karta se vykreslí jednou šablonou níže. -#}
+{%- set_global c_keys = "" -%}
+{%- for code, name in c_graph.families -%}
+  {%- set_global c_has = false -%}
+  {%- for n in c_ranked -%}{%- if not c_has and n.ea_code is defined and n.ea_code is starting_with(pat=code ~ ".") -%}{%- set_global c_has = true -%}{%- endif -%}{%- endfor -%}
+  {%- if c_has %}{% if c_keys %}{% set_global c_keys = c_keys ~ "|" %}{% endif %}{% set_global c_keys = c_keys ~ "family:" ~ code %}{% endif -%}
+{%- endfor -%}
+{%- for path in L.carousel_sections -%}
+  {%- set s = get_section(path=path, allow_missing=true, metadata_only=true) -%}
+  {%- if s and ("|" ~ path ~ "|") not in ia_weak %}{% if c_keys %}{% set_global c_keys = c_keys ~ "|" %}{% endif %}{% set_global c_keys = c_keys ~ "section:" ~ path %}{% endif -%}
+{%- endfor -%}
+{%- set cards = c_keys | split(pat="|") -%}
+{%- set per = 3 -%}
+{%- set n_slides = ((cards | length + per - 1) / per) | round(method="floor") | int -%}
+<section class="rounded-lg bg-white p-4 shadow sm:p-6 dark:bg-gray-800" aria-labelledby="karusel-title" aria-roledescription="{{ L.carousel_role }}" data-landing-block data-landing-carousel>
+  <div class="mb-4">
+    <h2 id="karusel-title" class="text-xl font-bold leading-tight text-gray-900 sm:text-2xl dark:text-white">{{ L.carousel_title }}</h2>
+    <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">{{ L.carousel_text }}</p>
+  </div>
+  <div id="landing-carousel" data-carousel="static">
+    <div id="landing-carousel-slides" class="relative h-[26.5rem] overflow-hidden md:h-[19.5rem]" aria-live="polite">
+      {%- for key in cards %}
+      {%- set kind = key | split(pat=":") | first %}
+      {%- set ref = key | replace(from=kind ~ ":", to="") %}
+      {%- if kind == "family" %}
+        {%- set_global f_count = 0 %}{% set_global f_top = "" %}{% set_global f_top_n = 0 %}
+        {%- for n in c_ranked %}{% if n.ea_code is defined and n.ea_code is starting_with(pat=ref ~ ".") %}
+          {%- set_global f_count = f_count + 1 %}
+          {%- if f_top_n < 2 and ("|" ~ n.path ~ "|") not in ia_weak %}{% if f_top_n > 0 %}{% set_global f_top = f_top ~ " · " %}{% endif %}{% set_global f_top = f_top ~ n.title %}{% set_global f_top_n = f_top_n + 1 %}{% endif %}
+        {%- endif %}{% endfor %}
+        {%- if f_count == 1 %}{% set c_word = forms_t[0] %}{% elif f_count >= 2 and f_count <= 4 %}{% set c_word = forms_t[1] %}{% else %}{% set c_word = forms_t[2] %}{% endif %}
+        {%- set c_href = c_tech.permalink ~ "?rodina=" ~ ref %}
+        {%- set c_kicker = L.family_kicker ~ " · " ~ ref %}
+        {%- set c_title = c_graph.families[ref] %}
+        {%- if f_top_n > 0 %}{% set c_detail = L.top_label ~ ": " ~ f_top %}{% else %}{% set c_detail = "" %}{% endif %}
+        {%- set c_count = f_count ~ " " ~ c_word %}
+        {%- set c_img = "img/generated/family-" ~ ref | slugify ~ ".svg" %}
+      {%- else %}
+        {%- set s = get_section(path=ref, metadata_only=true) %}
+        {%- set parts = ref | split(pat="/") %}
+        {%- if parts[0] == "kompendium" and parts | length > 2 %}{% set top = "kompendium-" ~ parts[1] %}{% else %}{% set top = parts[0] %}{% endif %}
+        {%- set n = c_nav.sections[ref] | default(value={"total": 0}) %}
+        {%- if n.total == 1 %}{% set c_word = forms_s[0] %}{% elif n.total >= 2 and n.total <= 4 %}{% set c_word = forms_s[1] %}{% else %}{% set c_word = forms_s[2] %}{% endif %}
+        {%- set c_href = s.permalink %}
+        {%- set c_kicker = L.section_kicker %}
+        {%- set c_title = s.title %}
+        {%- set c_detail = s.description | default(value="") %}
+        {%- set c_count = n.total | num_format ~ " " ~ c_word %}
+        {%- set c_img = "img/generated/section-" ~ top | slugify ~ ".svg" %}
+      {%- endif %}
+      {%- set slot = loop.index0 % per %}
+      {%- set slide = ((loop.index0 - slot) / per) | int %}
+      {%- if slot == 0 %}
+      <div class="{% if slide > 0 %}hidden {% endif %}absolute inset-0 p-1 duration-700 ease-in-out motion-reduce:transition-none [&.-translate-x-full]:invisible [&.translate-x-full]:invisible" data-carousel-item{% if slide == 0 %}="active"{% endif %} role="group" aria-roledescription="{{ L.slide_role }}" aria-label="{{ L.slide_label }} {{ slide + 1 }} {{ L.slide_of }} {{ n_slides }}">
+        <ul class="grid h-full grid-cols-1 grid-rows-3 gap-3 md:grid-cols-3 md:grid-rows-1" data-landing-cards>
+      {%- endif %}
+          <li class="min-h-0">
+            <a href="{{ c_href }}" data-landing-card class="group flex h-full items-center gap-3 overflow-hidden rounded-lg border border-gray-200 bg-white p-3 hover:border-primary-300 hover:bg-primary-50 focus:outline-none focus:ring-4 focus:ring-primary-300 md:flex-col md:items-stretch md:p-4 dark:border-gray-700 dark:bg-gray-800 dark:hover:border-primary-700 dark:hover:bg-gray-700 dark:focus:ring-primary-800">
+              <img src="{{ get_url(path=c_img) }}" alt="" width="640" height="360" decoding="async" class="h-full w-24 shrink-0 rounded-md object-cover sm:w-40 md:h-28 md:w-full">
+              <span class="flex h-full min-w-0 flex-1 flex-col justify-center md:justify-start">
+                <span class="truncate text-xs font-semibold uppercase tracking-wide text-primary-700 dark:text-primary-400">{{ c_kicker }}</span>
+                <span class="mt-0.5 line-clamp-2 text-base font-bold leading-snug text-gray-900 group-hover:text-primary-700 dark:text-white dark:group-hover:text-primary-300">{{ c_title }}</span>
+                {%- if c_detail %}
+                <span class="mt-1 hidden text-sm text-gray-600 md:line-clamp-2 dark:text-gray-300">{{ c_detail }}</span>
+                {%- endif %}
+                <span class="mt-1 md:mt-auto md:pt-2"><span class="inline-flex rounded-full bg-primary-100 px-2 py-0.5 text-xs font-medium text-primary-800 dark:bg-primary-900 dark:text-primary-300">{{ c_count }}</span></span>
+              </span>
+            </a>
+          </li>
+      {%- if slot == per - 1 or loop.last %}
+        </ul>
+      </div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+    {%- if n_slides > 1 %}
+    <div class="mt-3 flex items-center justify-center gap-2">
+      <button type="button" data-carousel-prev aria-controls="landing-carousel-slides" aria-label="{{ L.prev_label }}" class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 bg-white text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd"/></svg>
+      </button>
+      <div class="flex items-center gap-1" role="group" aria-label="{{ L.indicators_label }}">
+        {%- for i in range(end=n_slides) %}
+        <button type="button" data-carousel-slide-to="{{ i }}" aria-controls="landing-carousel-slides" aria-current="{% if i == 0 %}true{% else %}false{% endif %}" aria-label="{{ L.slide_label }} {{ i + 1 }} {{ L.slide_of }} {{ n_slides }}" class="group/dot inline-flex h-6 w-6 items-center justify-center rounded-full focus:outline-none focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-800">
+          <span class="h-2.5 w-2.5 rounded-full bg-gray-300 group-hover/dot:bg-gray-500 group-aria-[current=true]/dot:bg-primary-700 dark:bg-gray-600 dark:group-hover/dot:bg-gray-400 dark:group-aria-[current=true]/dot:bg-primary-400" aria-hidden="true"></span>
+        </button>
+        {%- endfor %}
+      </div>
+      <button type="button" data-carousel-next aria-controls="landing-carousel-slides" aria-label="{{ L.next_label }}" class="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-gray-200 bg-white text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-primary-800">
+        <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
+      </button>
+    </div>
+    {%- endif %}
+  </div>
+  <div class="mt-6 flex flex-wrap gap-3" data-landing-actions>
+    {%- for a in L.carousel_actions %}{% if ("|" ~ a.path ~ "|") not in ia_weak %}<a href="{{ get_url(path='@/' ~ a.path) }}" class="{% if loop.first %}{{ btn_primary }}{% else %}{{ btn_secondary }}{% endif %}">{{ a.label }}</a>{% endif %}{% endfor %}
+  </div>
+</section>

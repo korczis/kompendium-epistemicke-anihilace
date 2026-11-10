@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-2-6-AI-news-cascade", "ea-9-1-10-llm-recursion-loop", "ea-9-4-2-coordinated-inauthentic-behavior", "ea-9-4-6-mass-comment-coordination"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.2.3"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.2 Generativní média"

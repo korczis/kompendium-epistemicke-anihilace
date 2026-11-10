@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["27-phenomenological-emotional-numbing", "28-phenomenological-reality-uncertainty", "3-linguistic-unfalsifiable-claims", "30-phenomenological-identity-fragmentation"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "phenomenological"
 +++

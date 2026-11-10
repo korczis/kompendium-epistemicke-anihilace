@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-1-3-1-imunizace-proti-falsifikaci", "ea-1-3-2-strategicka-reinterpretace", "ea-7-2-3-popper-falsification", "ea-7-2-5-kuhn-paradigm-shift", "ea-7-2-7-quine-web-belief", "ea-2-4-6-peer-review-capture"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.4"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

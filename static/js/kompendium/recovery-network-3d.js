@@ -2,24 +2,15 @@
 // knihy, vrstvy a barvy = fáze tak, jak je řadí rejstřík oddílu (nadpis a odkazy pod ním;
 // stránky mimo fáze tvoří poslední vrstvu), hrany = odkazy mezi protokoly v knize.
 // Klik na uzel → protokol, fáze, vazby a odkaz na jeho stránku.
+// Plátno, jeho velikost (šířka hostitele, výška z poměru stran), smyčku, pauzu a popisek řídí
+// komponentová vrstva (KompendiumVrstva.three); pozadí a barvy fází sledují téma.
 (function () {
   'use strict';
-  var SRC = document.currentScript && document.currentScript.src;
   // Zdroj dat: rejstřík oddílu protokolů zotavení (cesta v grafu knihy).
   var SOURCE = 'kompendium/recovery-protocols/_index.md';
 
-  function kniha() {
-    if (!window.__kniha) {
-      window.__kniha = (window.KompendiumKniha ? Promise.resolve() : new Promise(function (ok, fail) {
-        var s = document.createElement('script');
-        s.src = SRC.replace(/[^/]*$/, 'kniha.js');
-        s.onload = ok;
-        s.onerror = function () { fail(new Error('kniha.js se nenačetl')); };
-        document.head.appendChild(s);
-      })).then(function () { return window.KompendiumKniha.ready(); });
-    }
-    return window.__kniha;
-  }
+  // Data knihy přes komponentovou vrstvu (vrstva.js): kniha.js se načte jednou za stránku.
+  var kniha = window.KompendiumVrstva.kniha;
 
   function failed(el, e) {
     if (window.console) console.warn('vizualizace knihy:', e);
@@ -38,6 +29,7 @@
   }
 
   function draw(K, idx, groups, container, detail) {
+    var V = window.KompendiumVrstva;
     var pages = K.pagesOf(idx.section);
     var phaseOf = {};
     groups.forEach(function (gr, gi) { gr.nodes.forEach(function (n) { phaseOf[n.id] = gi; }); });
@@ -55,22 +47,19 @@
     edges.forEach(function (e) { nb[e.a].push(e.b); nb[e.b].push(e.a); });
     var byId = {};
     nodes.forEach(function (n) { byId[n.id] = n; });
-    var colors = phases.map(function (p, i) { return new THREE.Color(K.V.PALETTE[i % K.V.PALETTE.length]); });
+    // Barva fáze = odstín živé kategorické palety (přebarví se s tématem).
+    function phaseColor(pi) { return V.PALETTE[pi % V.PALETTE.length]; }
 
-    var W = container.clientWidth || 800;
-    var H = container.clientHeight || 550;
     var scene = new THREE.Scene();
-    scene.background = new THREE.Color(0x0f172a);
-    var camera = new THREE.PerspectiveCamera(55, W / H, 0.1, 1000);
-    camera.position.z = 20;
-    var renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(W, H);
-    container.appendChild(renderer.domElement);
+    var camera = new THREE.PerspectiveCamera(55, 1, 0.1, 1000);
+    // Odstup kamery: vrstvy fází (po 3 jednotkách) i přední uzly se vejdou nahoru i dolů.
+    camera.position.z = 14 + phases.length * 1.7;
     var group = new THREE.Group();
     scene.add(group);
 
     var pos = {};
     var meshes = [];
+    var lines = [];
     var geo = new THREE.SphereGeometry(0.4, 16, 16);
     phases.forEach(function (p, pi) {
       var y = ((phases.length - 1) / 2 - pi) * 3;
@@ -79,7 +68,7 @@
         var r = 4 + (pi % 2) * 1.5;
         var v = new THREE.Vector3(r * Math.cos(a), y + (i % 2 ? 0.35 : -0.35), r * Math.sin(a));
         pos[n.id] = v;
-        var mesh = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ color: colors[pi] }));
+        var mesh = new THREE.Mesh(geo, new THREE.MeshBasicMaterial());
         mesh.position.copy(v);
         mesh.userData = n;
         group.add(mesh);
@@ -88,17 +77,47 @@
     });
     edges.forEach(function (e) {
       var g = new THREE.BufferGeometry().setFromPoints([pos[e.a], pos[e.b]]);
-      group.add(new THREE.Line(g, new THREE.LineBasicMaterial({
-        color: colors[phaseOf[e.a]], transparent: true, opacity: e.mutual ? 0.55 : 0.3,
-      })));
+      var line = new THREE.Line(g, new THREE.LineBasicMaterial({
+        transparent: true, opacity: e.mutual ? 0.55 : 0.3,
+      }));
+      line.userData = { phase: phaseOf[e.a] };
+      group.add(line);
+      lines.push(line);
     });
+
+    // Barvy z tématu: povrch scény a fáze z živé palety.
+    function applyTheme(th) {
+      scene.background = new THREE.Color(th.surface);
+      meshes.forEach(function (m) { m.material.color.set(phaseColor(phaseOf[m.userData.id])); });
+      lines.forEach(function (l) { l.material.color.set(phaseColor(l.userData.phase)); });
+    }
+    applyTheme(V.theme());
+
+    var rot = 0;
+    var t = V.three(container, {
+      aspect: 0.6875, minHeight: 340, maxHeight: 550,
+      label: '3D síť protokolů zotavení: ' + nodes.length + ' protokolů ve ' + phases.length +
+        ' vrstvách podle fází rejstříku, ' + edges.length + ' vazeb podle odkazů v knize.',
+      frame: function (dt) {
+        rot += 0.12 * dt;
+        group.rotation.y = rot;
+      },
+      render: function () { t.renderer.render(scene, camera); },
+      resize: function (w, h) { camera.aspect = w / h; camera.updateProjectionMatrix(); },
+      theme: applyTheme,
+    });
+    if (!t) return;
+    // Výšku určuje plátno (poměr stran), ne pevná výška hostitele ze stránky.
+    container.style.height = 'auto';
 
     function show(n) {
       if (!detail) return;
       K.clear(detail);
       detail.appendChild(K.h('h3', 'text-lg font-bold text-emerald-300', n.title));
-      detail.appendChild(K.h('p', 'text-slate-400 mt-1 text-sm', 'Fáze: ' + phases[phaseOf[n.id]].title));
-      detail.appendChild(K.h('p', 'text-slate-300 mt-2 font-semibold', 'Vazby na jiné protokoly podle odkazů v knize (' + nb[n.id].length + '):'));
+      detail.appendChild(K.h('p', 'text-gray-500 dark:text-gray-400 mt-1 text-sm',
+        'Fáze: ' + phases[phaseOf[n.id]].title));
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 mt-2 font-semibold',
+        'Vazby na jiné protokoly podle odkazů v knize (' + nb[n.id].length + '):'));
       detail.appendChild(K.list(nb[n.id].map(function (id) { return byId[id]; })));
       var p = K.h('p', 'mt-2 text-sm');
       p.appendChild(K.link(n, '→ stránka protokolu'));
@@ -107,37 +126,25 @@
 
     if (detail) {
       K.clear(detail);
-      detail.appendChild(K.h('p', 'text-slate-300 text-sm', nodes.length + ' protokolů, ' + edges.length +
-        ' vazeb podle odkazů v knize. Vrstvy shora: ' + phases.map(function (p) {
-          return p.title + ' (' + p.nodes.length + ')';
-        }).join(' · ') + '.'));
+      detail.appendChild(K.h('p', 'text-gray-700 dark:text-gray-300 text-sm', nodes.length + ' protokolů, ' +
+        edges.length + ' vazeb podle odkazů v knize. Vrstvy shora: ' +
+        phases.map(function (p) { return p.title + ' (' + p.nodes.length + ')'; }).join(' · ') +
+        '.'));
       detail.appendChild(K.link(idx, '→ rejstřík protokolů zotavení'));
     }
 
     var ray = new THREE.Raycaster();
     var mouse = new THREE.Vector2();
-    renderer.domElement.addEventListener('click', function (e) {
-      var r = renderer.domElement.getBoundingClientRect();
+    t.renderer.domElement.addEventListener('click', function (e) {
+      var r = t.renderer.domElement.getBoundingClientRect();
       mouse.x = ((e.clientX - r.left) / r.width) * 2 - 1;
       mouse.y = -((e.clientY - r.top) / r.height) * 2 + 1;
       ray.setFromCamera(mouse, camera);
       var hits = ray.intersectObjects(meshes);
       if (hits.length) show(hits[0].object.userData);
     });
-    var t = 0;
-    (function animate() {
-      requestAnimationFrame(animate);
-      t += 0.002;
-      group.rotation.y = t;
-      renderer.render(scene, camera);
-    })();
-    window.addEventListener('resize', function () {
-      var w = container.clientWidth || 800;
-      renderer.setSize(w, H);
-      camera.aspect = w / H;
-      camera.updateProjectionMatrix();
-    });
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
 })();

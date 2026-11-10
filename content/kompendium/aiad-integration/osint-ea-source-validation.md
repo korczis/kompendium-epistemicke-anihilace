@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["czech-ares-ea-screening", "dd-engine-ea-source-weighting", "hawkeye-ea-visitor-intelligence", "epistemic-pipeline-ea-detection", "nabla-infinity-ea-pipeline"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

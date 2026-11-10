@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-5-19-ultradian-rozklad", "ea-5-5-2-somato-fenomenologicka-disrupce", "ea-5-5-21-dream-state-implantace", "ea-5-5-22-hypnagogicka-modulace"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.5.20"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.5 Transkonceptuální mechanismy"

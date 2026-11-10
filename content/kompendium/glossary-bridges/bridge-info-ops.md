@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["info-ops", "propaganda", "firehose-of-falsehood", "deepfake", "osint", "epistemic-security"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "info-ops"
 toc = false
 +++

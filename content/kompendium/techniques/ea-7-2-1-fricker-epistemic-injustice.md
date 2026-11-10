@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-2-5-3-self-doubt-cultivation", "ea-2-1-1-expertni-disinflation", "ea-2-1-7-institucionalni-vyloucenni", "ea-7-2-2-goldman-veritism", "ea-7-2-9-williams-truthfulness", "ea-7-1-1-foucault-power-knowledge"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.2.1"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.2 Analytická filozofie"

@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-2-2-mentee-isolation", "ea-2-2-8-intellectual-paternity-claim", "ea-2-2-1-mentor-self-totalizace", "ea-2-1-5-citation-suppression", "milieu-control", "socialni-izolace"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.2.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.2 Pedagogická koerce"

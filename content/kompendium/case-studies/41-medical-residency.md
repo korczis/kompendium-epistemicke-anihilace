@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["39-finance-totalizace", "40-law-firm-totalizace", "42-military-totalizace", "43-elite-sports-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -284,7 +283,7 @@ popsal Bosk (1979).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Killgore, W. D. S. (2010). Effects of sleep deprivation on cognition. *Progress in Brain
   Research*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva, C., a Maguen, S. (2009).
   Moral injury and moral repair in war veterans: A preliminary model and intervention strategy.
   *Clinical Psychology Review*.

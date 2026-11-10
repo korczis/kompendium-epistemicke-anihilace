@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["trinity-gate", "nabla-infinity", "qeve", "cirkularni-argumentace", "modalni-logika", "logicka-koherence"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "trinity-gate"
 toc = false
 +++

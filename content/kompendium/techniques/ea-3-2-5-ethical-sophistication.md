@@ -10,7 +10,6 @@ categories = ["academic", "education"]
 
 [extra]
 related_terms = ["ea-3-2-3-emotional-regulation-mastery", "ea-3-2-4-metacommunication-skill", "ea-3-2-6-cohort-monitoring", "ea-3-2-7-individual-supervision"]
-parent = "kompendium-techniques"
 ea_code = "EA-3.2.5"
 ea_category = "3. Edukativní implementace"
 ea_subcategory = "3.2 Supervizorské techniky"

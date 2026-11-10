@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["60-mass-formation-psychosis", "61-corporate-leadership-cult", "63-investor-cult", "64-ngo-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -198,7 +197,7 @@ chybějí vnější protiváhy, a investor je v mladé firmě často jedinou tak
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kanter, R. M. (1972). *Commitment and Community: Communes and Utopias in Sociological Perspective*. Harvard University Press.
 - Kunda, G. (1992). *Engineering Culture: Control and Commitment in a High-Tech Corporation*. Temple University Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Maslach, C., a Leiter, M. P. (2016). Understanding the burnout experience: Recent research and its implications for psychiatry. *World Psychiatry*.
 - Padilla, A., Hogan, R., a Kaiser, R. B. (2007). The toxic triangle: Destructive leaders, susceptible followers, and conducive environments. *The Leadership Quarterly*.
 - Pfeffer, J. (2018). *Dying for a Paycheck*. HarperBusiness.

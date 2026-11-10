@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["acute-stabilization-protocol", "acute-information-curation", "acute-social-reconnection", "coercive-control", "doxing"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "acute"
 +++
@@ -133,7 +132,7 @@ pachateli nebo instituci.
 - Campbell, J. C., Webster, D. W., & Glass, N. (2009). The Danger Assessment: Validation of a
   lethality risk assessment instrument for intimate partner femicide. *Journal of Interpersonal
   Violence*, 24(4).
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA:
   Harvard University Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. New York: Basic Books.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive

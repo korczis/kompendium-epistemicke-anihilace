@@ -1,6 +1,6 @@
 +++
 title = "7.12 Feyerabend: Anti-Method a epistemický anarchismus"
-description = "Paul Feyerabendova teze 'anything goes', kritika metodologického monismu a epistemický anarchismus jako produktivní výzva pro taxonomii EA."
+description = "Paul Feyerabend a Against Method: kontraindukce, „anything goes“, nesouměřitelnost a věda ve svobodné společnosti; kritiky a interpretace pro rámec EA."
 weight = 12
 insert_anchor_links = "right"
 
@@ -10,102 +10,102 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["digitalni-vek", "epistemicke-trauma", "filosoficky-ramec", "floridi-fourth-revolution"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.12 Feyerabend: Anti-Method a epistemický anarchismus
 
-Paul Feyerabendova *Against Method* (1975) představuje **nejradikálnější výzvu** epistemologii pravidel: žádná univerzální vědecká metoda neexistuje, a každý pokus o její formulaci se v dějinách vědy ukazuje jako **kontrafaktický**. Feyerabendova teze „*anything goes*“ není normativní doporučení, ale **dějinný diagnostický nález**: vědecký pokrok byl historicky podmíněn **porušováním** všech metodologických pravidel.
+Paul Feyerabend, rakouský filozof vědy působící převážně v Kalifornii, vydal knihu *Against Method: Outline of an Anarchistic Theory of Knowledge* v roce 1975 (Feyerabend, 1975). Kniha měla původně vzniknout jako společný spis s Imrem Lakatosem, v němž by Lakatos hájil racionalitu vědy a Feyerabend na ni útočil; po Lakatosově smrti v roce 1974 vyšla jen Feyerabendova polovina a jejich korespondenci později vydal Matteo Motterlini (Motterlini, 1999). Kapitola vykládá Feyerabendovy teze, shrnuje kritiky a teprve poté uvádí, jak [kompendium EA](@/glossary/kompendium-ea.md) s Feyerabendem pracuje; toto užití je interpretací knihy.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) představuje Feyerabend **produktivní napětí**: ohrožuje samotnou možnost **normativního měřítka** pro odlišení legitimní inovace od manipulace.
+## Proti metodě: teze a historický argument
 
-## 1. Proti metodě
+Ústřední tezí knihy je, že neexistuje žádné metodologické pravidlo, které by vědci v dějinách soustavně a s prospěchem dodržovali, a že velké pokroky vznikly právě porušením pravidel, jež metodologové považovali za závazná (Feyerabend, 1975). Feyerabend to dokládá především rozborem Galileova sporu o pohyb Země. Galileo podle něj neprosadil koperníkovský systém tím, že by lépe odpovídal tehdejším pozorováním; naopak proti němu svědčila běžná zkušenost i argument věže, podle něhož by padající kámen při rotaci Země měl dopadnout stranou. Galileo podle Feyerabenda uspěl tím, že přeinterpretoval pozorování, užil nového a tehdy nespolehlivého dalekohledu a sáhl k rétorice a přesvědčování.
 
-Feyerabend systematicky demontuje hlavní metodologické principy:
+Z toho Feyerabend vyvozuje princip kontraindukce: vědec má záměrně vytvářet hypotézy, které odporují dobře potvrzeným teoriím a uznaným faktům, protože některé slabiny přijaté teorie se ukážou jen ve srovnání s alternativou (Feyerabend, 1975). Spolu s principem proliferace, podle něhož je dobré udržovat mnoho soupeřících teorií, z toho plyne metodologický [pluralismus](@/glossary/pluralismus.md). Slavná formule zní, že jediným principem, který nebrzdí pokrok, je „anything goes“, tedy „cokoli je přípustné“.
 
-- **Falsifikacionismus** (Popper): Galileo by jím byl odmítnut. Nové teorie zpočátku **odporují faktům** — fakta samotná jsou paradigmaticky kontaminována.
-- **Konzistence**: Bohrův atomový model byl **inkonzistentní** s Maxwellovou elektrodynamikou — a přesto byl produktivní.
-- **Empirický základ**: „Pozorování“ jsou teoreticky napojená — neexistují **neutrální data**.
-- **Komensurabilita**: Konkurující teorie nesdílejí měřítko (Kuhnův odkaz, ale radikalizovaný).
+## Smysl formule „anything goes“
 
-Pro EA má tato dekonstrukce **dvojí relevanci**:
+Formule bývá čtena jako výzva k libovůli, ale Feyerabend se proti tomuto čtení výslovně ohrazoval. V pozdějších vydáních knihy vysvětlil, že „anything goes“ není jeho principem, nýbrž zděšeným výkřikem racionalisty, který se blíže podívá na dějiny a zjistí, že žádné jeho pravidlo neplatí bez výjimky (Feyerabend, 1993). John Preston v monografii o Feyerabendovi zdůrazňuje, že jde o redukci racionalistické pozice ad absurdum, nikoli o pozitivní metodologii (Preston, 1997).
 
-1. **Defenzivní**: Útočník může použít Feyerabenda k **obraně každé pseudovědecké pozice**: „Žádná metoda není univerzální, takže má pozice je legitimní jako kterákoli jiná.“
-2. **Konstruktivní**: Kompendium se musí vystříhat **metodologického fundamentalismu** — jeho [taxonomie EA](@/glossary/taxonomie-ea.md) musí počítat s historickou proměnlivostí epistemických norem.
+S kritikou metody souvisí Feyerabendova teze o nesouměřitelnosti, kterou formuloval současně s Thomasem Kuhnem a nezávisle na něm (Kuhn, 1962). Podle ní mohou po sobě jdoucí teorie užívat pojmy tak odlišně, že je nelze porovnat jedním neutrálním měřítkem, protože i pozorovací výrazy jsou zatíženy teorií. Na rozdíl od Kuhna, který nesouměřitelnost později oslaboval, z ní Feyerabend vyvozoval silnější relativistické závěry (Preston, 1997).
 
-## 2. Kontrainductive principle
+## Věda ve svobodné společnosti
 
-Feyerabend formuluje **kontrainduktivní princip**: *vyvíjej hypotézy, jež jsou nekonzistentní s dobře potvrzenými teoriemi*. Argument: jen takovými hypotézami lze ověřit, zda jsou existující teorie skutečně **nezbytné**, nebo jen **dějinně nahodilé**.
+V knize *Science in a Free Society* Feyerabend přenesl argument do politiky (Feyerabend, 1978). Věda je podle něj jednou z mnoha tradic a ve svobodné demokratické společnosti nemá mít privilegované postavení, které by jí zaručoval stát; požadoval proto oddělení státu a vědy podobné oddělení státu a církve a rozhodování laiků o tom, jak se vědy užije. Součástí knihy je polemika s veřejným prohlášením vědců proti astrologii, v níž Feyerabend netvrdil, že astrologie platí, ale kritizoval, že ji signatáři odsoudili, aniž by se s ní seznámili.
 
-Pro EA z toho plyne:
+V pozdějších dílech, například ve *Farewell to Reason*, Feyerabend rozvíjel obranu kulturní rozmanitosti proti tomu, co považoval za homogenizující nárok západní racionality (Feyerabend, 1987). V posmrtně vydané *Conquest of Abundance* se od části dřívějšího relativismu distancoval a zdůrazňoval, že realita připouští mnoho přístupů, ale ne každý z nich (Feyerabend, 1999).
 
-- **Pseudo-kontrainduktivita** je manipulativní technika: deklarace „já jsem revoluční“ jako maska pro **pseudovědu**.
-- **Kritérium odlišení**: skutečná kontrainduktivita předkládá **novou pozitivní heuristiku**, falešná pouze **negativní destrukci** existujících teorií.
+## Hlavní kritiky
 
-## 3. Věda jako jedna z mnoha tradic
+Imre Lakatos odpovídal na Feyerabendovu výzvu metodologií výzkumných programů: dějiny vědy podle něj ukazují, že vědci soudí celé programy podle toho, zda jsou progresivní, tedy zda předpovídají nové fakty, nebo degenerativní, a tato měřítka jsou racionální, i když nefungují jako okamžitá pravidla (Lakatos, 1970). Lakatos také ukázal, že například Bohrův program postupoval na nekonzistentních základech, a přesto byl racionálně přijatelný, takže Feyerabendovy historické příklady nemusí vést k anarchismu.
 
-Feyerabend (zejména v *Science in a Free Society*, 1978) argumentuje, že věda je **jednou** z mnoha kulturních tradic — nemá privilegovaný epistemický status oproti tradiční medicíně, magii, mytologii. Demokratický stát by neměl vědu privilegovat.
+Další kritiky míří na důsledky. Fyzikové Theocharis a Psimopoulos ve stati v časopise *Nature* označili Poppera, Kuhna, Lakatose a Feyerabenda za filozofy, kteří podkopávají důvěru ve vědeckou pravdu (Theocharis a Psimopoulos, 1987). Filozofové vědy přesnější kritiku formulovali tak, že z neexistence algoritmické metody neplyne neexistence rozumných kritérií: Helen Longinová ukázala, že objektivita vědy spočívá v sociálních procesech kritiky v rozmanitém společenství, nikoli v jednom pravidle (Longino, 1990), a Naomi Oreskesová na tom stavěla obhajobu důvěry ve vědecký konsenzus (Oreskes, 2019).
 
-Pro kompendium EA je tato pozice **kriticky problematická**:
+Zvláštní námitka se týká zneužití. Bruno Latour, sám dlouholetý kritik naivního obrazu vědy, si v roce 2004 všiml, že argumenty o sociální konstrukci faktů přebírají ti, kdo popírají doložené vědecké poznatky, například o klimatu, a vyzval kritiku, aby se zaměřila na péči o fakta, ne na jejich rozkládání (Latour, 2004). Naomi Oreskesová a Erik Conway zdokumentovali, jak tabákový průmysl a další zájmové skupiny soustavně pěstovaly pochybnost o vědeckých závěrech, aby oddálily regulaci (Oreskes a Conway, 2010).
 
-- Z **Habermasovské perspektivy** ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) tato teze rozkládá **normativní kritérium** odlišení vědecké argumentace od manipulace.
-- Z perspektivy **kritického realismu** ([viz 7.7 Sociální epistemologie](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)) je tato pozice empiricky neudržitelná: některé tradice (moderní medicína) **systematicky redukují utrpení**, jiné nikoli.
-- Kompendium tuto Feyerabendovu pozici **odmítá**, ale absorbuje její **kritický moment**: epistemický [pluralismus](@/glossary/pluralismus.md) má hodnotu, leč nikoli neomezenou.
+## Interpretace pro rámec EA
 
-## 4. Anti-method jako produktivní napětí
+Následující čtení je interpretací knihy. Feyerabend je pro kompendium nepohodlným, ale užitečným hlasem ve dvou směrech. Zaprvé varuje před metodologickým fundamentalismem: [taxonomie EA](@/glossary/taxonomie-ea.md), která by tvrdila, že vlastní jediné správné měřítko rozumného poznání, by sama napodobila nárok, který kritizuje (srov. Feyerabend, 1975). Zadruhé ukazuje, jak snadno se kritika vědy dá převzít jako rétorický nástroj. Vzorec, který kniha rozebírá u [falešného paradigmatického nároku](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md), spočívá v tom, že se pseudovědecká pozice prezentuje jako „nový Galileo“ a nesouhlas odborníků vykládá jako důkaz své revolučnosti (srov. Latour, 2004).
 
-Pro taxonomii EA má Feyerabend trojí produktivní napětí:
+Tento vzorec je rozpoznatelný podle toho, že vypůjčuje Feyerabendovu formu bez jeho obsahu. Feyerabend žádal více alternativ a více kritiky, kdežto manipulativní užití žádá, aby jedna alternativa byla přijata a kritika ustala (Preston, 1997). Kniha jej spojuje s [imunizací proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) a s [falešnou ekvivalencí](@/kompendium/techniques/ea-1-2-2-falesna-ekvivalence.md), kdy se doložený konsenzus a okrajový názor předkládají jako rovnocenné „dvě strany“ (Oreskes a Conway, 2010).
 
-1. **Heuristická hodnota**: Připomíná, že **jakákoli operacionalizace EA** musí být historicky a kulturně reflektovaná — co je manipulací v jedné formě života, může být legitimní inovací v jiné.
-2. **Detektor falešné jistoty**: Manipulátoři často operují s **přehnanou jistotou** („věda jasně dokazuje X“). Feyerabendovská skepse je nástroj proti takové jistotě.
-3. **Sebereflexivní moment**: Kompendium samotné musí být schopno **sebekritiky** svých metodologických závazků — Feyerabend je interní hlas této sebekritiky.
+## Rozpoznání a odlišení
 
-## 5. Mapping na EA techniky
-
-| Feyerabend | EA technika | Použití |
-|------------|-------------|---------|
-| Pseudo-anti-method | Imunizace proti kritice | Defenzivní |
-| Falešná kontrainduktivita | Pseudovědecká revoluce | EA-1.6 |
-| Inflace pluralismu | Falešná ekvivalence | EA-1.3 |
-| Anti-method jako absolut | Epistemický nihilismus | Strukturální |
-
-## 6. Kritérium odlišení: legitimní pluralismus vs. manipulativní libovůle
-
-Kompendium navrhuje následující kritéria pro rozlišení (rozpracováno v [7.4 Postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)):
+Rozdíl mezi legitimním pluralismem a manipulativní libovůlí kniha popisuje následujícím srovnáním, které vychází z Lakatosova rozlišení progresivních a degenerativních programů (Lakatos, 1970) a z Longinina pojetí kritického společenství (Longino, 1990).
 
 | Legitimní pluralismus | Manipulativní libovůle |
-|------------------------|--------------------------|
-| Pozitivní [heuristika](@/glossary/heuristika.md) | Pouze negace existujícího |
-| Otevřený pro kritiku | Imunizovaný proti kritice |
-| Empiricky angažovaný | Empiricky vyhýbavý |
-| Reflektuje vlastní limity | Předstírá univerzalitu |
-| Komunikuje napříč paradigmaty | Schovává se za inkomensurabilitu |
+|---|---|
+| předkládá novou pozitivní heuristiku a nové předpovědi | jen popírá existující poznatky |
+| vystavuje se kritice a uvádí, co by jej vyvrátilo | prohlašuje kritiku za důkaz spiknutí |
+| zapojuje se do výzkumu a dat | vyhýbá se datům a odkazuje na autoritu outsidera |
+| přiznává vlastní meze | předstírá úplnou jistotu |
+| hledá porozumění napříč přístupy | schovává se za nesouměřitelnost |
 
-## 7. Primární literatura
+Srovnání nemá sloužit jako automatický test. Lakatos sám upozorňoval, že program může dlouho stagnovat a pak se vzpamatovat, takže okamžité odsouzení nové myšlenky může být chybou (Lakatos, 1970). Kniha proto doporučuje posuzovat chování pozice v čase a její vztah ke kritice, nikoli jen její odlišnost od hlavního proudu (srov. Oreskes, 2019).
 
-- Feyerabend, P. (1975/2010). *Against Method* (4. vyd.). Verso.
-- Feyerabend, P. (1978). *Science in a Free Society*. Verso.
+## Obrana
+
+Obranou proti zneužití Feyerabenda není zákaz pochybnosti, ale její kultivace: učit, že pochybnost je metoda, která se vztahuje i na pochybovače, a že [demarkační problém](@/glossary/demarkacni-problem.md) nemá jednoduché řešení, ale má rozumná vodítka (Longino, 1990). V praxi to znamená ptát se, kdo pochybnost šíří a kdo z ní má prospěch, zda pozice uvádí podmínky svého vyvrácení a zda se podílí na otevřeném procesu kritiky, nebo jej obchází (Oreskes a Conway, 2010). Pro člověka, který se ocitl ve skupině s uzavřeným výkladem světa, má Feyerabendův požadavek mnoha alternativ i obranný smysl: obnovit přístup k pluralitě zdrojů, z nichž si může utvořit vlastní úsudek (srov. Feyerabend, 1978).
+
+## Meze a otevřené otázky
+
+Feyerabendovy historické rozbory, zejména výklad Galilea, jsou mezi historiky vědy sporné a kniha je proto užívá jako filozofický argument, ne jako zjištěné dějiny (Preston, 1997). Otevřená zůstává otázka, jak spojit Feyerabendův oprávněný požadavek demokratické kontroly nad užitím vědy s ochranou proti tomu, aby se demokratická rétorika stala zástěrkou pro popírání doložených faktů (srov. Latour, 2004). A otevřená je i sebereflexivní otázka pro samotné kompendium: zda jeho kategorie dokážou rozlišit skutečně novou a nepohodlnou myšlenku od její manipulativní napodobeniny dřív, než to ukáže čas (Lakatos, 1970).
+
+## Literatura
+
+- Feyerabend, P. (1975). *Against Method: Outline of an Anarchistic Theory of Knowledge*. New Left Books.
+- Feyerabend, P. (1978). *Science in a Free Society*. New Left Books.
 - Feyerabend, P. (1987). *Farewell to Reason*. Verso.
-- Preston, J. (1997). *Feyerabend: Philosophy, Science and Society*. Polity.
-- Munevar, G. (ed.) (1991). *Beyond Reason: Essays on the Philosophy of Paul Feyerabend*. Springer.
-
-## 8. Otevřené otázky
-
-- Lze formulovat **minimální metodologickou gramatiku** ([viz 7.10 Wittgenstein](@/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md)), jež by odlišovala legitimní pluralismus od libovůle?
-- Jak **algoritmicky** implementovat Feyerabendovu výzvu (Color Teams jako kontrainduktivní mechanismy)?
-- Vede Feyerabend nutně k **epistemickému relativismu**, nebo lze jeho pozici **slabě realistovat**?
+- Feyerabend, P. (1993). *Against Method* (3. vyd.). Verso.
+- Feyerabend, P. (1999). *Conquest of Abundance: A Tale of Abstraction versus the Richness of Being*. University of Chicago Press.
+- Kuhn, T. S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos & A. Musgrave (Eds.), *Criticism and the Growth of Knowledge*. Cambridge University Press.
+- Latour, B. (2004). Why has critique run out of steam? From matters of fact to matters of concern. *Critical Inquiry*, 30.
+- Longino, H. E. (1990). *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry*. Princeton University Press.
+- Motterlini, M. (Ed.). (1999). *For and Against Method: Imre Lakatos and Paul Feyerabend*. University of Chicago Press.
+- Oreskes, N. (2019). *Why Trust Science?* Princeton University Press.
+- Oreskes, N., & Conway, E. M. (2010). *Merchants of Doubt*. Bloomsbury Press.
+- Preston, J. (1997). *Feyerabend: Philosophy, Science and Society*. Polity Press.
+- Theocharis, T., & Psimopoulos, M. (1987). Where science has gone wrong. *Nature*, 329.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)
-- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md)
-- [7.11 Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
-- [7.7 Sociální epistemologie](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md)
-- [Sekce 03 — Základní kategorie](@/kompendium/03-zakladni-kategorie/_index.md)
-- [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
-- [Glosář: Color Teams](@/glossary/color-teams.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7.11 Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) – druhý zdroj teze o nesouměřitelnosti.
+- [7.4 EA a postmodernismus](@/kompendium/07-teoreticke-reflexe/postmodernismus.md) – širší spor o relativismus.
+- [7.3 Sociální epistemologie](@/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md) – Longino a sociální pojetí objektivity.
+- [7.1 Filosofický rámec EA](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md) – normativní měřítka knihy.
+
+**Techniky**
+
+- [EA-7.2.6 Feyerabend: Proti metodě](@/kompendium/techniques/ea-7-2-6-feyerabend-anti-method.md) – technická stránka rámce.
+- [EA-1.6 Falešný paradigmatický nárok](@/kompendium/techniques/ea-1-6-falesny-paradigmaticky-narok.md) – „nový Galileo“ jako rétorický vzorec.
+- [EA-1.3.1 Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – kritika jako důkaz spiknutí.
+
+**Pojmy**
+
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – Lakatosova odpověď Feyerabendovi.
+- [Demarkační problém](@/glossary/demarkacni-problem.md) – hranice vědy a pseudovědy.
+- [Falsifikace](@/glossary/falsifikace.md) – Popperovo kritérium, proti němuž Feyerabend argumentoval.

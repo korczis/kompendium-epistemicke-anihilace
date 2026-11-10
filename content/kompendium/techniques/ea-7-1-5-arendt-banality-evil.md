@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-3-adorno-instrumental-reason", "ea-2-5-4-radical-relativism-internalize", "ea-2-5-10-existential-helplessness-implantace", "banalita-zla", "doubling", "propaganda"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.5"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

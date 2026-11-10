@@ -11,7 +11,6 @@ categories = ["academic", "reference"]
 section_icon = "🔍"
 toc = true
 insert_anchor_links = "right"
-parent = "kompendium"
 +++
 
 # Techniques — detailní per-technique články

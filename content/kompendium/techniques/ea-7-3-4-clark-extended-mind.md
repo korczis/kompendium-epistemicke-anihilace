@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-4-1-gaslighting", "ea-2-2-2-mentee-isolation", "ea-2-3-7-deepfake-personalni", "ea-7-3-3-friston-active-inference", "ea-7-3-6-thompson-mind-life", "ea-1-1-1-selektivni-expozice"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.4"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

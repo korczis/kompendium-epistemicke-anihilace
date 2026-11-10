@@ -11,7 +11,6 @@ category = "security"
 status = "active"
 author = "Tomas Korcak (korczis)"
 difficulty = "advanced"
-quality_score = 95
 technical_level = "expert"
 domain_category = "Security Operations"
 related_concepts = ["epistemic defense", "signal aggregation", "drift detection", "evidence synthesis", "defensive posture", "adversarial-defensive loop", "paraconsistent reasoning"]

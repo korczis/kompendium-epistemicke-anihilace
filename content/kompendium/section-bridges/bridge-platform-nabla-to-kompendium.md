@@ -9,7 +9,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["bridge-platform-decision-engine-to-kompendium", "bridge-02-to-07-uvod-teoreticke", "bridge-07-to-08-teorie-prilohy", "bridge-techniques-to-glossary"]
-parent = "kompendium-section-bridges"
 toc = false
 +++
 
@@ -72,7 +71,7 @@ Most se opírá o popis rámce v glosáři a v kapitole 2.6; údaje o provozu pl
 
 ## Literatura
 
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Cambridge, MA: Harvard University Press.
 - Heuer, R. J., Jr. (1999). *Psychology of Intelligence Analysis*. Washington, DC: Center for the Study of Intelligence, Central Intelligence Agency.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux.
 

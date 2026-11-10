@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "regional"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -199,7 +198,7 @@ schopnost rozpoznat skutečné nebezpečí.
 - Gieseke, J. (2014). *The History of the Stasi: East Germany's Secret Police, 1945–1990*. Berghahn Books.
 - Hassan, S. (2000). *Releasing the Bonds: Empowering People to Think for Themselves*. Freedom of Mind Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Mau, S. (2019). *Lütten Klein: Leben in der ostdeutschen Transformationsgesellschaft*. Suhrkamp.
 - Pingel-Schliemann, S. (2002). *Zersetzen: Strategie einer Diktatur*. Robert-Havemann-Gesellschaft.
 - Rada Evropy. (2011). *Úmluva Rady Evropy o prevenci a potírání násilí vůči ženám a domácího násilí* (CETS č. 210). Rada Evropy.

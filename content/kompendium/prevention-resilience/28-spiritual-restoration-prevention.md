@@ -9,7 +9,6 @@ categories = ["academic", "prevention"]
 
 [extra]
 related_terms = ["24-meaning-restoration-prevention", "19-pastoral-vigilance-prevention", "29-cultural-restoration-prevention", "27-community-reintegration-prevention"]
-parent = "kompendium-prevention-resilience"
 toc = true
 +++
 

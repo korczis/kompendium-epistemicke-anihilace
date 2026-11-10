@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-3-8-mass-reporting-coordination", "ea-9-3-6-content-moderation-bias", "ea-9-6-3-automated-content-takedown"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.3.5"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.3 Sociální platformy"

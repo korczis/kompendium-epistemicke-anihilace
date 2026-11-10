@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "legal"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -209,7 +208,7 @@ Podpora protiřeči a vazeb mezi komunitami patří k nejúčinnějším ochrann
 - Clark, P. (2010). *The Gacaca Courts, Post-Genocide Justice and Reconciliation in Rwanda: Justice without Lawyers*. Cambridge University Press.
 - Cohen, S. (2001). *States of Denial: Knowing about Atrocities and Suffering*. Polity Press.
 - Des Forges, A. (1999). *Leave None to Tell the Story: Genocide in Rwanda*. Human Rights Watch.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1).
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*, 7(1).
 - Fricker, M. (2007). *Epistemic Injustice: Power and the Ethics of Knowing*. Oxford University Press.
 - Kiernan, B. (2007). *Blood and Soil: A World History of Genocide and Extermination from Sparta to Darfur*. Yale University Press.
 - Lemkin, R. (1944). *Axis Rule in Occupied Europe*. Carnegie Endowment for International Peace.

@@ -13,7 +13,6 @@ categories = ["academic", "ultramari"]
 related_terms = ["kapitola-10", "kapitola-6", "kapitola-8", "kapitola-9"]
 section_icon = "🌑"
 toc = true
-parent = "kompendium-05-ultramari-techniky"
 access_level = "L3"
 risk_level = "extreme"
 +++

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["68-think-tank-cult", "69-policy-circle-cult", "71-broadcaster-cult", "72-publisher-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -208,16 +207,16 @@ které na ombudsmana ani druhého editora nemají prostředky (Kovach a Rosensti
 
 - Coser, L. A. (1956). *The Functions of Social Conflict*. Free Press.
 - Feinstein, A., Owen, J., a Blair, N. (2002). A hazardous profession: War, journalists, and psychopathology. *American Journal of Psychiatry*.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
 - Gans, H. J. (1979). *Deciding What's News*. Pantheon Books.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Janis, I. L. (1972). *Victims of Groupthink*. Houghton Mifflin.
 - Kovach, B., a Rosenstiel, T. (2001). *The Elements of Journalism*. Crown Publishers.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
 - Leymann, H. (1996). The content and development of mobbing at work. *European Journal of Work and Organizational Psychology*.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Nguyen, C. T. (2020). Echo chambers and epistemic bubbles. *Episteme*.
 - Noelle-Neumann, E. (1974). The spiral of silence: A theory of public opinion. *Journal of Communication*.
 - Tuchman, G. (1978). *Making News: A Study in the Construction of Reality*. Free Press.

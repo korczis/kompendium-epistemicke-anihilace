@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["23-ea-security-attribution-bias", "1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "21-ea-security-supply-chain-narrative"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

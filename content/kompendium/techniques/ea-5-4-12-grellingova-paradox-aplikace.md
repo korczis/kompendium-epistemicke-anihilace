@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-10-berry-paradox-implantace", "ea-5-4-11-richardova-paradox-zneuziti", "ea-5-4-13-heterolog-self-aplikace", "ea-5-4-14-iliada-paradox"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.12"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

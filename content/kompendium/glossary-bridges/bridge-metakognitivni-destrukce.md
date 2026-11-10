@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["metakognitivni-destrukce", "metakognice", "metakognitivni-deficit", "epistemicka-alienace", "rekurzivni-paralyza", "bridge-metakognice"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "metakognitivni-destrukce"
 toc = false
 +++
@@ -161,7 +160,7 @@ odchodu z prostředí samo uvolní.
 
 - Flavell, J. H. (1979). Metacognition and cognitive monitoring: a new area of cognitive-developmental inquiry. *American Psychologist*, 34(10), 906–911.
 - Fonagy, P., & Allison, E. (2014). The role of mentalizing and epistemic trust in the therapeutic relationship. *Psychotherapy*, 51(3), 372–380.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Nelson, T. O., & Narens, L. (1990). Metamemory: a theoretical framework and new findings. *Psychology of Learning and Motivation*, 26, 125–173.
 - Wells, A. (2009). *Metacognitive Therapy for Anxiety and Depression*. Guilford Press.
 

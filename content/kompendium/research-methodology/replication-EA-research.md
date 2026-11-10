@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["pre-registration-EA-research", "meta-analysis-EA", "effect-size-EA", "publication-ethics-EA"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 
@@ -152,7 +151,7 @@ K financování viz [Financování výzkumu EA](@/kompendium/population-health/2
 
 - Button, K. S. a kol. (2013). Power failure: why small sample size undermines the reliability of neuroscience.
 - Klein, R. A. a kol. (2014). Investigating variation in replicability: A „Many Labs“ replication project.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism.*
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism.*
 - Loftus, E. F. (1993). The reality of repressed memories.
 - Open Science Collaboration (2015). Estimating the reproducibility of psychological science.
 - Schmidt, S. (2009). Shall we really do it again? The powerful concept of replication is neglected in the social sciences.

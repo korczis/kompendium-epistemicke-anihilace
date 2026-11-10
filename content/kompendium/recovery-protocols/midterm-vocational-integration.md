@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["midterm-skill-rebuilding", "midterm-educational-reintegration", "25-vocational-rehabilitation-prevention", "narativ", "paradigm"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
 +++
@@ -129,7 +128,7 @@ aby se jejich pracovní nasazení stalo novou formou závislosti.
 ## Literatura
 
 - Drake, R. E., Bond, G. R., & Becker, D. R. (2012). *Individual Placement and Support: An
-  [Evidence-Based](@/glossary/evidence-based.md) Approach to Supported Employment*. New York: Oxford University Press.
+  Evidence-Based Approach to Supported Employment*. New York: Oxford University Press.
 - Jahoda, M. (1982). *Employment and Unemployment: A Social-Psychological Analysis*. Cambridge:
   Cambridge University Press.
 - Karasek, R. A. (1979). Job demands, job decision latitude, and mental strain: Implications for

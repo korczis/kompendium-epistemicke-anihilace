@@ -35,28 +35,7 @@
  "bold:akceptuje": [
   "bold-candidate"
  ],
- "bold:aktivne": [
-  "bold-candidate"
- ],
  "bold:alespon-jeden-bod": [
-  "bold-candidate"
- ],
- "bold:algoritmicky": [
-  "bold-candidate"
- ],
- "bold:algoritmy": [
-  "bold-candidate"
- ],
- "bold:amplifikuji": [
-  "bold-candidate"
- ],
- "bold:anihiluje": [
-  "bold-candidate"
- ],
- "bold:anihiluji": [
-  "bold-candidate"
- ],
- "bold:antropotechniky": [
   "bold-candidate"
  ],
  "bold:asymetrii": [
@@ -66,9 +45,6 @@
   "bold-candidate"
  ],
  "bold:automaticky": [
-  "bold-candidate"
- ],
- "bold:autoritu": [
   "bold-candidate"
  ],
  "bold:az-po": [
@@ -87,12 +63,6 @@
   "bold-candidate"
  ],
  "bold:bezpecnostni-plan": [
-  "bold-candidate"
- ],
- "bold:bezprostredni": [
-  "bold-candidate"
- ],
- "bold:casova-dezorientace": [
   "bold-candidate"
  ],
  "bold:casoveho-bodu-vstupu": [
@@ -116,9 +86,6 @@
  "bold:co-hledas": [
   "bold-candidate"
  ],
- "bold:co-se-stalo": [
-  "bold-candidate"
- ],
  "bold:confidence-calibration": [
   "bold-candidate"
  ],
@@ -126,9 +93,6 @@
   "bold-candidate"
  ],
  "bold:contradiction-preservation": [
-  "bold-candidate"
- ],
- "bold:core-self": [
   "bold-candidate"
  ],
  "bold:critical-claim": [
@@ -161,9 +125,6 @@
  "bold:destabilizace": [
   "bold-candidate"
  ],
- "bold:destabilizuje": [
-  "bold-candidate"
- ],
  "bold:detekce": [
   "bold-candidate"
  ],
@@ -194,9 +155,6 @@
  "bold:disociativni-poruchy": [
   "bold-candidate"
  ],
- "bold:dobrovolne": [
-  "bold-candidate"
- ],
  "bold:dobrovolnost": [
   "bold-candidate"
  ],
@@ -224,25 +182,13 @@
  "bold:dramaticky-pokles": [
   "bold-candidate"
  ],
- "bold:drive": [
-  "bold-candidate"
- ],
- "bold:duvernost": [
-  "bold-candidate"
- ],
  "bold:ea-x-y-z": [
   "bold-candidate"
  ],
  "bold:eideticka-redukce": [
   "bold-candidate"
  ],
- "bold:eliminuje": [
-  "bold-candidate"
- ],
  "bold:emdr": [
-  "bold-candidate"
- ],
- "bold:emoce": [
   "bold-candidate"
  ],
  "bold:epistemicke-singularity": [
@@ -264,9 +210,6 @@
   "bold-candidate"
  ],
  "bold:existencialni-fakt": [
-  "bold-candidate"
- ],
- "bold:existuje": [
   "bold-candidate"
  ],
  "bold:explicitne": [
@@ -293,9 +236,6 @@
  "bold:fenomenologicke-psychopatologii": [
   "bold-candidate"
  ],
- "bold:filter-bubbles": [
-  "bold-candidate"
- ],
  "bold:foa-e-b-et-al-2018": [
   "bold-candidate"
  ],
@@ -303,15 +243,6 @@
   "bold-candidate"
  ],
  "bold:formalni-infrastrukturu": [
-  "bold-candidate"
- ],
- "bold:fundamentalni": [
-  "bold-candidate"
- ],
- "bold:funguji": [
-  "bold-candidate"
- ],
- "bold:funkcionalni": [
   "bold-candidate"
  ],
  "bold:funkcni": [
@@ -353,13 +284,7 @@
  "bold:identifikaci": [
   "bold-candidate"
  ],
- "bold:identifikovat": [
-  "bold-candidate"
- ],
  "bold:identita": [
-  "bold-candidate"
- ],
- "bold:iluzorni": [
   "bold-candidate"
  ],
  "bold:iluzorni-komplexita": [
@@ -368,19 +293,10 @@
  "bold:imunizace": [
   "bold-candidate"
  ],
- "bold:imunizace-proti-falsifikaci": [
-  "bold-candidate"
- ],
  "bold:individualni": [
   "bold-candidate"
  ],
- "bold:informace": [
-  "bold-candidate"
- ],
  "bold:informaci": [
-  "bold-candidate"
- ],
- "bold:informacni": [
   "bold-candidate"
  ],
  "bold:informacni-asymetrie": [
@@ -419,12 +335,6 @@
  "bold:interpretacni-ramec": [
   "bold-candidate"
  ],
- "bold:interpretovana": [
-  "bold-candidate"
- ],
- "bold:interpretuje": [
-  "bold-candidate"
- ],
  "bold:intersubjektivita": [
   "bold-candidate"
  ],
@@ -443,9 +353,6 @@
  "bold:izolace": [
   "bold-candidate"
  ],
- "bold:ja": [
-  "bold-candidate"
- ],
  "bold:jak": [
   "bold-candidate"
  ],
@@ -456,21 +363,6 @@
   "bold-candidate"
  ],
  "bold:je": [
-  "bold-candidate"
- ],
- "bold:jeden": [
-  "bold-candidate"
- ],
- "bold:jediny": [
-  "bold-candidate"
- ],
- "bold:jednani": [
-  "bold-candidate"
- ],
- "bold:jednou": [
-  "bold-candidate"
- ],
- "bold:jsou": [
   "bold-candidate"
  ],
  "bold:kalibrace": [
@@ -500,16 +392,10 @@
  "bold:klicovy": [
   "bold-candidate"
  ],
- "bold:klinicka-intervence": [
-  "bold-candidate"
- ],
  "bold:klinicke-nerozhodnosti": [
   "bold-candidate"
  ],
  "bold:klise-ukoncujici-mysleni": [
-  "bold-candidate"
- ],
- "bold:kognitivni": [
   "bold-candidate"
  ],
  "bold:kognitivni-imploze": [
@@ -521,25 +407,10 @@
  "bold:kognitivni-vedy": [
   "bold-candidate"
  ],
- "bold:kolabuje": [
-  "bold-candidate"
- ],
  "bold:kolektivni": [
   "bold-candidate"
  ],
- "bold:kolonizuji": [
-  "bold-candidate"
- ],
- "bold:kombinovat": [
-  "bold-candidate"
- ],
- "bold:kombinuje": [
-  "bold-candidate"
- ],
  "bold:kompaktni-taxonomicke-popisy": [
-  "bold-candidate"
- ],
- "bold:kompatibilni": [
   "bold-candidate"
  ],
  "bold:komplexni-ptsd": [
@@ -573,12 +444,6 @@
   "bold-candidate"
  ],
  "bold:kontrola-informaci": [
-  "bold-candidate"
- ],
- "bold:kontrolu": [
-  "bold-candidate"
- ],
- "bold:kontroverzni": [
   "bold-candidate"
  ],
  "bold:konzistentne": [
@@ -641,46 +506,22 @@
  "bold:lokalni": [
   "bold-candidate"
  ],
- "bold:manipulace": [
-  "bold-candidate"
- ],
  "bold:manipulacni-aplikace": [
-  "bold-candidate"
- ],
- "bold:manipulativni": [
   "bold-candidate"
  ],
  "bold:manipulativni-ramec": [
   "bold-candidate"
  ],
- "bold:manipulativnim": [
-  "bold-candidate"
- ],
  "bold:manipulatorovy": [
   "bold-candidate"
  ],
- "bold:manipuluji": [
-  "bold-candidate"
- ],
  "bold:mauvaise-foi": [
-  "bold-candidate"
- ],
- "bold:medialni-gramotnost": [
-  "bold-candidate"
- ],
- "bold:meni": [
   "bold-candidate"
  ],
  "bold:mezery": [
   "bold-candidate"
  ],
  "bold:mimo": [
-  "bold-candidate"
- ],
- "bold:modifikuji": [
-  "bold-candidate"
- ],
- "bold:moralizovani": [
   "bold-candidate"
  ],
  "bold:moralni-zraneni": [
@@ -692,19 +533,10 @@
  "bold:musi": [
   "bold-candidate"
  ],
- "bold:mysleni": [
-  "bold-candidate"
- ],
- "bold:myslet": [
-  "bold-candidate"
- ],
  "bold:nabla-infinity-provenance-tracking": [
   "bold-candidate"
  ],
  "bold:nahrazuje": [
-  "bold-candidate"
- ],
- "bold:napjata": [
   "bold-candidate"
  ],
  "bold:navrat": [
@@ -717,9 +549,6 @@
   "bold-candidate"
  ],
  "bold:nedokaze": [
-  "bold-candidate"
- ],
- "bold:nedostatecne": [
   "bold-candidate"
  ],
  "bold:nedostatek-institucionalni-infrastruktury": [
@@ -735,15 +564,6 @@
   "bold-candidate"
  ],
  "bold:negativni-sebepojeti": [
-  "bold-candidate"
- ],
- "bold:nejsou": [
-  "bold-candidate"
- ],
- "bold:nelze": [
-  "bold-candidate"
- ],
- "bold:nema": [
   "bold-candidate"
  ],
  "bold:nema-pristup": [
@@ -767,9 +587,6 @@
  "bold:neprimerena-jistota": [
   "bold-candidate"
  ],
- "bold:nesdileji": [
-  "bold-candidate"
- ],
  "bold:nesmi": [
   "bold-candidate"
  ],
@@ -788,31 +605,13 @@
  "bold:nikdy": [
   "bold-candidate"
  ],
- "bold:nikoli": [
-  "bold-candidate"
- ],
  "bold:nizka": [
   "bold-candidate"
  ],
  "bold:noeticko-noematicka-korelace": [
   "bold-candidate"
  ],
- "bold:normativni-kriterium": [
-  "bold-candidate"
- ],
- "bold:nutne": [
-  "bold-candidate"
- ],
- "bold:objektem": [
-  "bold-candidate"
- ],
  "bold:objektivni-detekci": [
-  "bold-candidate"
- ],
- "bold:objektu": [
-  "bold-candidate"
- ],
- "bold:objekty": [
   "bold-candidate"
  ],
  "bold:obsah": [
@@ -824,13 +623,7 @@
  "bold:ochranne-faktory": [
   "bold-candidate"
  ],
- "bold:odbocuje": [
-  "bold-candidate"
- ],
  "bold:odchod-a-rekonstrukce": [
-  "bold-candidate"
- ],
- "bold:odhaluje": [
   "bold-candidate"
  ],
  "bold:odkud": [
@@ -845,16 +638,10 @@
  "bold:odmita": [
   "bold-candidate"
  ],
- "bold:omezena": [
-  "bold-candidate"
- ],
  "bold:opakovani": [
   "bold-candidate"
  ],
  "bold:operacionalizuje": [
-  "bold-candidate"
- ],
- "bold:opomiji": [
   "bold-candidate"
  ],
  "bold:opravneni": [
@@ -869,9 +656,6 @@
  "bold:osobni-signaly": [
   "bold-candidate"
  ],
- "bold:otevrenost": [
-  "bold-candidate"
- ],
  "bold:otevreny": [
   "bold-candidate"
  ],
@@ -881,16 +665,7 @@
  "bold:paradigma": [
   "bold-candidate"
  ],
- "bold:paradoxni": [
-  "bold-candidate"
- ],
- "bold:paralelni": [
-  "bold-candidate"
- ],
  "bold:passive-genesis": [
-  "bold-candidate"
- ],
- "bold:patologii": [
   "bold-candidate"
  ],
  "bold:perturbace": [
@@ -899,34 +674,10 @@
  "bold:phq-9": [
   "bold-candidate"
  ],
- "bold:plne": [
-  "bold-candidate"
- ],
  "bold:pocatecniho-kontaktu": [
   "bold-candidate"
  ],
- "bold:podminkou": [
-  "bold-candidate"
- ],
- "bold:podminky": [
-  "bold-candidate"
- ],
  "bold:podminky-moznosti": [
-  "bold-candidate"
- ],
- "bold:podstata": [
-  "bold-candidate"
- ],
- "bold:pokud": [
-  "bold-candidate"
- ],
- "bold:politicka-ea": [
-  "bold-candidate"
- ],
- "bold:politicke": [
-  "bold-candidate"
- ],
- "bold:politickou": [
   "bold-candidate"
  ],
  "bold:politizace": [
@@ -939,9 +690,6 @@
   "bold-candidate"
  ],
  "bold:postupne": [
-  "bold-candidate"
- ],
- "bold:pouze": [
   "bold-candidate"
  ],
  "bold:power-asymmetry": [
@@ -957,12 +705,6 @@
   "bold-candidate"
  ],
  "bold:prakticka-dezorientace": [
-  "bold-candidate"
- ],
- "bold:pravda": [
-  "bold-candidate"
- ],
- "bold:pravdivost": [
   "bold-candidate"
  ],
  "bold:pravidelna-supervize": [
@@ -998,13 +740,7 @@
  "bold:prepis": [
   "bold-candidate"
  ],
- "bold:presahuje": [
-  "bold-candidate"
- ],
  "bold:presnost": [
-  "bold-candidate"
- ],
- "bold:prestava": [
   "bold-candidate"
  ],
  "bold:presvedceni": [
@@ -1017,9 +753,6 @@
   "bold-candidate"
  ],
  "bold:primarni-outcome-instrumenty": [
-  "bold-candidate"
- ],
- "bold:primou": [
   "bold-candidate"
  ],
  "bold:primy-dotaz-na-sebevrazedne-myslenky": [
@@ -1055,9 +788,6 @@
  "bold:proc": [
   "bold-candidate"
  ],
- "bold:proces": [
-  "bold-candidate"
- ],
  "bold:progresivni": [
   "bold-candidate"
  ],
@@ -1067,13 +797,7 @@
  "bold:prostredi": [
   "bold-candidate"
  ],
- "bold:proti": [
-  "bold-candidate"
- ],
  "bold:proto-self": [
-  "bold-candidate"
- ],
- "bold:provadi": [
   "bold-candidate"
  ],
  "bold:provenance-mandatory": [
@@ -1094,9 +818,6 @@
  "bold:psqi": [
   "bold-candidate"
  ],
- "bold:psychoedukace": [
-  "bold-candidate"
- ],
  "bold:puvodni": [
   "bold-candidate"
  ],
@@ -1110,12 +831,6 @@
   "bold-candidate"
  ],
  "bold:realne": [
-  "bold-candidate"
- ],
- "bold:redukuje": [
-  "bold-candidate"
- ],
- "bold:redukuji": [
   "bold-candidate"
  ],
  "bold:referencni-bod": [
@@ -1148,9 +863,6 @@
  "bold:reverzibilni": [
   "bold-candidate"
  ],
- "bold:revidovat": [
-  "bold-candidate"
- ],
  "bold:revize": [
   "bold-candidate"
  ],
@@ -1160,19 +872,7 @@
  "bold:rozhodovani-o-existenci": [
   "bold-candidate"
  ],
- "bold:rozhodovat": [
-  "bold-candidate"
- ],
  "bold:rozklada": [
-  "bold-candidate"
- ],
- "bold:rozkladaji": [
-  "bold-candidate"
- ],
- "bold:rozpad": [
-  "bold-candidate"
- ],
- "bold:rozpojuji": [
   "bold-candidate"
  ],
  "bold:rozsiruje": [
@@ -1182,9 +882,6 @@
   "bold-candidate"
  ],
  "bold:ruzne": [
-  "bold-candidate"
- ],
- "bold:ruznych": [
   "bold-candidate"
  ],
  "bold:s1-validace-a-mapovani": [
@@ -1211,12 +908,6 @@
  "bold:sam": [
   "bold-candidate"
  ],
- "bold:schopnosti": [
-  "bold-candidate"
- ],
- "bold:sebehodnoceni": [
-  "bold-candidate"
- ],
  "bold:selektivni": [
   "bold-candidate"
  ],
@@ -1226,34 +917,16 @@
  "bold:sensibilite": [
   "bold-candidate"
  ],
- "bold:sfericka-imunologie": [
-  "bold-candidate"
- ],
- "bold:silnou": [
-  "bold-candidate"
- ],
  "bold:silny-indikator": [
   "bold-candidate"
  ],
  "bold:simulace": [
   "bold-candidate"
  ],
- "bold:simuluji": [
-  "bold-candidate"
- ],
- "bold:siri": [
-  "bold-candidate"
- ],
  "bold:slabsi": [
   "bold-candidate"
  ],
  "bold:slovni-intelektualizace": [
-  "bold-candidate"
- ],
- "bold:slovnik": [
-  "bold-candidate"
- ],
- "bold:smysl": [
   "bold-candidate"
  ],
  "bold:socialni-psychologie": [
@@ -1265,13 +938,7 @@
  "bold:sokratovska-elenchos": [
   "bold-candidate"
  ],
- "bold:somaticke-markery": [
-  "bold-candidate"
- ],
  "bold:soucasne": [
-  "bold-candidate"
- ],
- "bold:soudit": [
   "bold-candidate"
  ],
  "bold:source-diversity-check": [
@@ -1286,25 +953,13 @@
  "bold:specificka": [
   "bold-candidate"
  ],
- "bold:specificke": [
-  "bold-candidate"
- ],
- "bold:specifickou": [
-  "bold-candidate"
- ],
  "bold:specificky": [
   "bold-candidate"
  ],
  "bold:spoustece": [
   "bold-candidate"
  ],
- "bold:spravedlnost": [
-  "bold-candidate"
- ],
  "bold:stabilizace": [
-  "bold-candidate"
- ],
- "bold:stejne": [
   "bold-candidate"
  ],
  "bold:stratifikace-meta-urovni": [
@@ -1350,15 +1005,6 @@
   "bold-candidate"
  ],
  "bold:struktury": [
-  "bold-candidate"
- ],
- "bold:subjektivni": [
-  "bold-candidate"
- ],
- "bold:subjektivni-zkusenost": [
-  "bold-candidate"
- ],
- "bold:substituuje": [
   "bold-candidate"
  ],
  "bold:supervidovana-intervence": [
@@ -1421,9 +1067,6 @@
  "bold:tvrzeni": [
   "bold-candidate"
  ],
- "bold:udrzet": [
-  "bold-candidate"
- ],
  "bold:udrzuje": [
   "bold-candidate"
  ],
@@ -1436,40 +1079,16 @@
  "bold:uplna-epistemicka-singularita": [
   "bold-candidate"
  ],
- "bold:uprednostnuji": [
-  "bold-candidate"
- ],
  "bold:utok": [
   "bold-candidate"
  ],
  "bold:uvnitr": [
   "bold-candidate"
  ],
- "bold:uzaviraji": [
-  "bold-candidate"
- ],
  "bold:uzavreni": [
   "bold-candidate"
  ],
- "bold:uzitecne": [
-  "bold-candidate"
- ],
- "bold:uzitecnost": [
-  "bold-candidate"
- ],
  "bold:uzkostne-poruchy": [
-  "bold-candidate"
- ],
- "bold:uznava": [
-  "bold-candidate"
- ],
- "bold:vazana": [
-  "bold-candidate"
- ],
- "bold:vedet": [
-  "bold-candidate"
- ],
- "bold:vedomi": [
   "bold-candidate"
  ],
  "bold:verohodnost": [
@@ -1499,9 +1118,6 @@
  "bold:vs-psychoticke-spektrum": [
   "bold-candidate"
  ],
- "bold:vse": [
-  "bold-candidate"
- ],
  "bold:vydirani": [
   "bold-candidate"
  ],
@@ -1517,16 +1133,10 @@
  "bold:vyroba-pochybnosti": [
   "bold-candidate"
  ],
- "bold:vyssi": [
-  "bold-candidate"
- ],
  "bold:vyvraceni": [
   "bold-candidate"
  ],
  "bold:vyzaduje": [
-  "bold-candidate"
- ],
- "bold:vyzaduji": [
   "bold-candidate"
  ],
  "bold:vyznam": [
@@ -1562,12 +1172,6 @@
  "bold:zastrasovani": [
   "bold-candidate"
  ],
- "bold:zavazku": [
-  "bold-candidate"
- ],
- "bold:zavisi": [
-  "bold-candidate"
- ],
  "bold:zavislost": [
   "bold-candidate"
  ],
@@ -1581,12 +1185,6 @@
   "bold-candidate"
  ],
  "bold:zotaveni": [
-  "bold-candidate"
- ],
- "bold:zranitelnost": [
-  "bold-candidate"
- ],
- "bold:zranitelny": [
   "bold-candidate"
  ],
  "bold:zuzeni": [
@@ -3591,101 +3189,13 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/07-teoreticke-reflexe/arendt-banalita-zla.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/block-phenomenal-vs-access.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/07-teoreticke-reflexe/boyd-disinformation-age.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/butler-performative.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/chomsky-manufacturing-consent.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/07-teoreticke-reflexe/clark-andy-natural-born-cyborgs.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/clark-extended-mind.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
  ],
  "content/kompendium/07-teoreticke-reflexe/computational-epistemology.md": [
   "bullets",
   "citations",
   "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/damasio-somatic-marker.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/dawkins-meme.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/dennett-intentional-stance.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
  ],
  "content/kompendium/07-teoreticke-reflexe/digitalni-vek.md": [
   "bullets",
@@ -3698,12 +3208,6 @@
   "citation-unresolved",
   "bold-term"
  ],
- "content/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md": [
   "bullets",
   "citations",
@@ -3714,134 +3218,13 @@
   "bibliography",
   "citation-unresolved"
  ],
- "content/kompendium/07-teoreticke-reflexe/floridi-fourth-revolution.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/friston-active-inference.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/hannah-arendt-myslení.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/harari-sapiens-narativ.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/heidegger-byt-ve-svete.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/herman-chomsky-propaganda-model.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/honneth-rozpoznani.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/hutchins-distributed-cognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/johnson-body-in-mind.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md": [
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/lakoff-conceptual-metaphor.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/levinas-jiny.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/macintyre-after-virtue.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/mcDowell-mind-and-world.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/metzinger-ego-tunnel.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/nussbaum-capabilities.md": [
-  "detail",
-  "weak-link",
   "bullets",
   "citations"
  ],
  "content/kompendium/07-teoreticke-reflexe/otevrene-otazky.md": [
   "bullets",
   "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
  ],
  "content/kompendium/07-teoreticke-reflexe/politicka-ea.md": [
   "bullets",
@@ -3854,116 +3237,12 @@
   "citations",
   "bold-term"
  ],
- "content/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/quine-web-of-belief.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/ricoeur-troji-mimese.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/rorty-contingency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/sartre-existencialismus.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/searle-chinese-room.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/sen-development-as-freedom.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/snyder-tyranny-essays.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/07-teoreticke-reflexe/socialni-epistemologie.md": [
   "bullets",
   "citations",
   "bold-term"
  ],
- "content/kompendium/07-teoreticke-reflexe/taylor-sources-of-self.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/thompson-mind-in-life.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/tononi-iit.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/07-teoreticke-reflexe/varela-enactivism.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "bibliography",
-  "bold-term"
- ],
  "content/kompendium/07-teoreticke-reflexe/visualizations.md": [
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/wardle-disinformation-typology.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/williams-truth-and-truthfulness.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/07-teoreticke-reflexe/wittgenstein-jezykove-hry.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/07-teoreticke-reflexe/zuboff-surveillance-capitalism.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
  ],
  "content/kompendium/08-prilohy/_index.md": [
@@ -4103,189 +3382,6 @@
   "citations"
  ],
  "content/kompendium/case-studies/_index.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/1-medicalization-critique.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/10-cultural-bias-critique.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
- ],
- "content/kompendium/critical-perspectives/11-iatrogenic-overreach.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/12-EA-stigma-risk.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/13-victim-blaming-risk.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/14-power-asymmetry-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/15-consent-validity-question.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/16-treatment-coercion-risk.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/17-confidentiality-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "citation-unresolved"
- ],
- "content/kompendium/critical-perspectives/18-EA-as-power-tool.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/19-research-exploitation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bold-term"
- ],
- "content/kompendium/critical-perspectives/2-pathologization-critique.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/20-publication-ethics-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/21-systems-theory-alternative.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/22-trauma-framework-alternative.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/23-political-economy-alternative.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/24-narrative-medicine-alternative.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/25-critical-psychiatry-alternative.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/26-mad-studies-perspective.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/27-decolonial-epistemology.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/28-feminist-epistemology-alt.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/29-process-philosophy-alt.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/3-framework-overreach.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/30-buddhist-psychology-alt.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/4-circular-reasoning-risk.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/5-false-positive-risk.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/6-political-instrumentalization.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/7-replication-EA-research.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/8-theoretical-imperialism.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/critical-perspectives/9-essentialism-critique.md": [
   "detail",
   "weak-link",
   "bullets",
@@ -4721,222 +3817,6 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/emergency-protocols/10-acute-self-harm-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/11-er-EA-handoff.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/12-inpatient-admission-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/13-crisis-team-deployment.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/14-family-emergency-debrief.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/15-mobile-crisis-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/16-911-EA-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/18-emergency-pharmacotherapy.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/19-restraint-avoidance-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/emergency-protocols/20-deescalation-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/21-children-emergency-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/22-adolescent-emergency-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/23-elder-emergency-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/24-pregnant-emergency-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/25-medical-comorbidity-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/26-substance-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/28-ex-cult-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/emergency-protocols/29-political-prisoner-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/3-psychotic-break-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/30-refugee-EA-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/31-post-discharge-bridge.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/32-step-down-program.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/33-relapse-recognition.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/34-relapse-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/35-treatment-noncompliance.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/36-medication-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/37-iatrogenic-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/38-second-opinion-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/39-legal-emergency.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/4-acute-dissociation-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/emergency-protocols/40-witness-protection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/5-flashback-cascade-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/6-panic-attack-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/7-acute-cognitive-paralysis.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/emergency-protocols/9-mandatory-reporting-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/emergency-protocols/_index.md": [
   "bullets",
   "citations"
@@ -5315,259 +4195,7 @@
   "bullets",
   "citations"
  ],
- "content/kompendium/organizational-defense/1-board-resilience.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/10-stakeholder-engagement.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/11-onboarding-EA-awareness.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/12-training-resilience.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/13-exit-interview-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/14-anonymous-feedback.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/15-culture-survey-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/16-psychological-safety.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/17-team-rotation-policy.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/18-supervisor-evaluation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/19-mentorship-protection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/2-charter-protection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/20-succession-planning-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/21-decision-traceability.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/22-meeting-structure.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/23-communication-policy.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/24-documentation-standards.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/25-vendor-management-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/26-contractor-vetting.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
  "content/kompendium/organizational-defense/27-information-classification.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/28-access-control-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/29-segregation-duties.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/3-conflict-of-interest-policy.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/30-rotation-of-roles.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/31-incident-response-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/32-internal-investigation.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/33-legal-counsel-engagement.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/34-PR-narrative-defense.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/35-employee-assistance-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography"
- ],
- "content/kompendium/organizational-defense/36-trauma-aware-management.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/37-business-continuity-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/38-leadership-replacement.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/39-cultural-rebuild.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/4-whistleblower-mechanism.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/40-post-incident-learning.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/5-audit-committee-EA.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations",
-  "bibliography",
-  "citation-unresolved"
- ],
- "content/kompendium/organizational-defense/6-ombudsman-role.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/7-ethics-officer-mandate.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/8-policy-review-cycles.md": [
-  "detail",
-  "weak-link",
-  "bullets",
-  "citations"
- ],
- "content/kompendium/organizational-defense/9-shareholder-protection.md": [
-  "detail",
-  "weak-link",
-  "bullets",
   "citations"
  ],
  "content/kompendium/organizational-defense/_index.md": [

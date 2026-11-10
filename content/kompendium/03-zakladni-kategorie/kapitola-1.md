@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["hermeneutika", "intencionalita", "kapitola-2", "kapitola-3"]
-parent = "kompendium-03-zakladni-kategorie"
 section_icon = "🎓"
 toc = true
 +++
@@ -399,7 +398,7 @@ V následující [Kapitole 2](@/kompendium/03-zakladni-kategorie/kapitola-2.md) 
 
 ## Literatura
 
-- Beaton, D. E., Bombardier, C., Guillemin, F., & Ferraz, M. B. (2000). Guidelines for the process of cross-cultural adaptation of [self-report](@/glossary/self-report.md) measures. *Spine*, 25(24), 3186–3191.
+- Beaton, D. E., Bombardier, C., Guillemin, F., & Ferraz, M. B. (2000). Guidelines for the process of cross-cultural adaptation of self-report measures. *Spine*, 25(24), 3186–3191.
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). New York: Oxford University Press.
 - Cohen, J. (1960). A coefficient of agreement for nominal scales. *Educational and Psychological Measurement*, 20(1), 37–46.
 - Dickson-Swift, V., James, E. L., Kippen, S., & Liamputtong, P. (2008). *Undertaking Sensitive Research in the Health and Social Sciences*. Cambridge: Cambridge University Press.

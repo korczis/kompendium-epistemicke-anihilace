@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-4-coercive-control-scale", "ea-8-2-5-stark-coercive-control", "ea-7-2-1-fricker-epistemic-injustice", "ea-8-1-8-traumatic-stress-screen", "ea-2-3-8-doxxing-epistemicky", "ea-7-3-4-clark-extended-mind"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.3"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"

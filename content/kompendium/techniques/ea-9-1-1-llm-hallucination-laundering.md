@@ -9,7 +9,6 @@ categories = ["academic", "digital", "ai"]
 
 [extra]
 related_terms = ["ea-9-1-8-llm-confabulation-amplification", "ea-9-1-10-llm-recursion-loop", "ea-9-1-6-llm-source-attribution-bypass"]
-parent = "kompendium-techniques"
 ea_code = "EA-9.1.1"
 ea_category = "9. Současná digitální EA"
 ea_subcategory = "9.1 LLM-mediated EA"

@@ -9,7 +9,6 @@ categories = ["academic", "methodology", "research"]
 
 [extra]
 related_terms = ["time-series-EA", "causal-inference-EA", "power-analysis-EA", "document-analysis-EA"]
-parent = "kompendium-research-methodology"
 toc = true
 +++
 

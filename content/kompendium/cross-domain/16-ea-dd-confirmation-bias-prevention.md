@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["9-ea-dd-investigation-bias", "15-ea-dd-evidence-quality-assessment", "10-ea-dd-source-weighting", "23-ea-security-attribution-bias"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

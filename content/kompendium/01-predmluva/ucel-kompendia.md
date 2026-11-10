@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["jak-pouzivat", "pro-koho-je-urceno", "vztah-k-platforme", "eticke-aspekty"]
-parent = "kompendium-01-predmluva"
 section_icon = "🎯"
 toc = true
 +++
@@ -249,8 +248,8 @@ bez opory může obrátit proti čtenáři samému (Beauchamp a Childress, 2019)
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
 - Kendell, R., & Jablensky, A. (2003). *Distinguishing between the validity and utility of psychiatric diagnoses*. American Journal of Psychiatry.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Matz, S. C., Kosinski, M., Nave, G., & Stillwell, D. J. (2017). *Psychological targeting as an effective approach to digital mass persuasion*. Proceedings of the National Academy of Sciences.
 - National Research Council (2004). *Biotechnology Research in an Age of Terrorism*. National Academies Press.
 - Shannon, C. E. (1948). *A mathematical theory of communication*. Bell System Technical Journal.

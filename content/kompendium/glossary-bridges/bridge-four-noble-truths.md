@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["four-noble-truths", "spiritual-bypassing", "ego-death", "epoche", "high-control-group", "epistemicka-pokora"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "four-noble-truths"
 toc = false
 +++

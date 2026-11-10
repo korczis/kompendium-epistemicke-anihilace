@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["regression-test", "autoheal", "clean-run", "quality-debt", "epistemicka-regrese", "addiction-recovery"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "regression-test"
 toc = false
 +++

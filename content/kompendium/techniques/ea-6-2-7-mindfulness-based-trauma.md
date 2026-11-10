@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-2-5-narrative-therapy-protokol", "ea-6-2-6-dbt-distress-tolerance", "ea-6-2-8-somatic-experiencing-protokol", "ea-6-2-9-body-oriented-therapy-protokol"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.2.7"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.2 Terapeutické intervence"

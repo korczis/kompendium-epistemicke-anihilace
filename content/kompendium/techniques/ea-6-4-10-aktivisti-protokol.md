@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-4-9-novinari-protokol", "ea-6-4-3-uprchlik-protokol", "ea-6-4-2-post-cult-protokol", "ea-6-3-9-axiologicka-restaurace"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.10"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

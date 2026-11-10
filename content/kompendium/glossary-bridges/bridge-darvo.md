@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["darvo", "betrayal-trauma", "gaslighting", "blame-shifting", "coercive-control", "bridge-gaslighting"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "darvo"
 toc = false
 +++

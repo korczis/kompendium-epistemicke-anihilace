@@ -13,8 +13,6 @@ tags = ["philosophy", "licensing", "ghl", "sovereignty", "ethics", "epistemology
 categories = ["foundations"]
 # Core metadata
 author = "Tomas Korcak (korczis)"
-reading_time = "20 min"
-word_count = 4200
 difficulty = "advanced"
 
 # SEO & Social
@@ -32,7 +30,6 @@ peer_reviewed = false
 # Content classification
 content_version = "1.0.0"
 last_enhanced = "2026-02-23"
-quality_score = 0
 
 # Cross-references
 related_articles = ["ghl-license", "intellectual-sovereignty", "ceremonial-computing"]

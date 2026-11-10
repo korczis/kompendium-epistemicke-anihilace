@@ -11,7 +11,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-5-2-dominantni-telesne-hieroglyfy", "ea-1-5-terminologicka-mystifikace", "ea-1-6-1-vzorec-guru-adept", "ea-1-6-5"]
-parent = "kompendium-techniques"
 ea_code = "EA-1.6.1"
 ea_category = "1. Akademické techniky"
 ea_subcategory = "1.6 Charizmatické vedení"

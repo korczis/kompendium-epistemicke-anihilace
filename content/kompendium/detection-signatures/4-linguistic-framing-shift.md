@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["3-linguistic-unfalsifiable-claims", "30-phenomenological-identity-fragmentation", "5-linguistic-pronoun-inversion", "6-linguistic-narrative-fragmentation"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"
 +++
@@ -115,7 +114,7 @@ Otevřenou otázkou zůstává, kdy se kumulace drobných posunů stává manipu
 - Beck, A. T., Rush, A. J., Shaw, B. F., & Emery, G. (1979). *Cognitive Therapy of Depression*. Guilford Press.
 - Chong, D., & Druckman, J. N. (2007). Framing theory. *Annual Review of Political Science*, 10, 103–126.
 - Entman, R. M. (1993). Framing: Toward clarification of a fractured paradigm. *Journal of Communication*, 43(4), 51–58.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1), 22–32.
+- Freyd, J. J. (1997). Violations of power, adaptive blindness and betrayal trauma theory. *Feminism & Psychology*, 7(1), 22–32.
 - Goffman, E. (1974). *Frame Analysis: An Essay on the Organization of Experience*. Harper & Row.
 - Henley, N. M., Miller, M., & Beazley, J. A. (1995). Syntax, semantics, and sexual violence: Agency and the passive voice. *Journal of Language and Social Psychology*, 14(1–2), 60–84.
 - Janoff-Bulman, R. (1979). Characterological versus behavioral self-blame: Inquiries into depression and rape. *Journal of Personality and Social Psychology*, 37(10), 1798–1809.

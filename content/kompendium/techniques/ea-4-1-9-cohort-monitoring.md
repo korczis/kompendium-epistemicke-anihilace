@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-1-10-debriefing-cascade", "ea-4-1-6-failure-mode-detection", "ea-4-1-8-supervisor-rotation", "ea-3-2-6-cohort-monitoring", "ea-4-2-2-real-time-monitoring"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.1.9"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.1 Extrémní výcviková sekvence"

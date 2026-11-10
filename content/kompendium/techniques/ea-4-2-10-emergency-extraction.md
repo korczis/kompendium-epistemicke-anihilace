@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["ea-4-2-9-decompensation-response", "ea-4-2-8-long-term-followup", "ea-4-2-2-real-time-monitoring"]
-parent = "kompendium-techniques"
 ea_code = "EA-4.2.10"
 ea_category = "4. Terminální protokoly"
 ea_subcategory = "4.2 Bezpečnostní protokoly"

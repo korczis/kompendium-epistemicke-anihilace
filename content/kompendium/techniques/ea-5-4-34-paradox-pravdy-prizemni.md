@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-32-paradox-tolerance", "ea-5-4-33-paradox-svobody", "ea-5-4-35-surprize-test-paradox", "ea-5-4-36-unexpected-hanging"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.34"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

@@ -1,6 +1,6 @@
 +++
 title = "7.26 Quine: Síť přesvědčení a holismus"
-description = "W. V. O. Quine a holismus přesvědčení, dogma empirismu, Duhem-Quine teze — rámec pro pochopení strukturálních dimenzí EA technik operujících skrze cílené narušení sítě přesvědčení."
+description = "W. V. O. Quine: dvě dogmata empirismu, holismus, Duhemova–Quineova teze, ctnosti hypotéz a neurčitost překladu; kritika a výklad imunizace přesvědčení v EA."
 weight = 26
 insert_anchor_links = "right"
 
@@ -10,107 +10,189 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["postmodernismus", "putnam-internal-realism", "ricoeur-troji-mimese", "rorty-contingency"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.26 Quine: Síť přesvědčení a holismus
 
-W. V. O. Quine (1908–2000) — americký logik a filozof — v esejích *Two Dogmas of Empiricism* (1951) a v knihách *Word and Object* (1960) a *Web of Belief* (1970) formuluje **holistickou epistemologii**: přesvědčení netvoří **lineární řetězec** od smyslových vjemů ke „vyšším“ teoriím, ale **síť** (*web*), v níž jsou všechna přesvědčení **vzájemně propojena**.
+Willard Van Orman Quine (1908–2000), logik a filozof z Harvardovy univerzity, změnil analytickou
+filozofii esejí *Two Dogmas of Empiricism*. Odmítl v ní dva předpoklady logického empirismu a
+nahradil je obrazem, podle něhož naše přesvědčení tvoří propojenou síť, která se se zkušeností
+střetává jen jako celek (Quine, 1951). Tento [holismus](@/glossary/holismus.md) rozvinul v knize
+*Word and Object* a spolu s Josephem Ullianem jej převedl do příručky o rozumném přesvědčení
+nazvané *The Web of Belief* (Quine, 1960; Quine a Ullian, 1970).
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Quineova teorie nástroj pro pochopení **strukturálních dimenzí** EA technik, jež operují skrze **cílené narušení** sítě přesvědčení.
+Pro [kompendium EA](@/glossary/kompendium-ea.md) je Quine klíčový, protože vysvětluje, proč lze
+téměř každé přesvědčení zachránit před nepříjemnou evidencí, pokud jsme ochotni dostatečně
+upravit zbytek sítě. Tato vlastnost je podmínkou vědeckého pokroku i mechanismem, kterým se
+uzavřené systémy víry chrání před vyvrácením. Stránka nejprve vykládá Quinovy teze, poté jejich
+kritiku a nakonec, výslovně jako interpretaci knihy, jejich použití při rozpoznávání imunizace
+(Quine, 1951).
 
-## 1. Dogmata empirismu
+## Výklad teorie
 
-Quine ve své revolutionární eseji **odmítá dvě dogmata** logického empirismu:
+### Dvě dogmata empirismu
 
-1. **Analytické vs. syntetické**: tradiční rozlišení mezi tvrzeními pravdivými **z definice** („Všichni svobodní jsou neženatí“) a tvrzeními pravdivými **na základě faktů** je strukturálně **neudržitelné** — neexistuje **ostrá** dělící čára.
-2. **[Redukcionismus](@/glossary/redukcionismus.md)**: představa, že každé smysluplné tvrzení je **redukovatelné** na soubor pozorovacích vět, je **falešná** — tvrzení jsou **konfrontována** s evidencí pouze **jako celek** sítě.
+Prvním dogmatem je rozlišení mezi [analytickými a syntetickými](@/glossary/synteticke-analyticke.md)
+výroky, tedy mezi pravdami na základě významu („žádný starý mládenec není ženatý“) a pravdami na
+základě faktů. Quine ukazuje, že každý pokus vymezit analytičnost – pomocí synonymie, definice,
+zaměnitelnosti nebo sémantických pravidel – předpokládá pojem, který má vysvětlit, a dochází k
+závěru, že ostrá hranice mezi oběma druhy výroků nebyla nikdy stanovena (Quine, 1951).
 
-Pro EA z toho plyne:
+Druhým dogmatem je [redukcionismus](@/glossary/redukcionismus.md): představa, že každý smysluplný
+výrok lze jednotlivě převést na výroky o bezprostřední zkušenosti, a tedy jednotlivě potvrdit
+nebo vyvrátit. Quine proti tomu staví tezi, že „naše výroky o vnějším světě předstupují před
+tribunál smyslové zkušenosti nikoli jednotlivě, ale jen jako celek“ (Quine, 1951).
 
-- **Naivní falsifikacionismus** (každé tvrzení je samo o sobě testovatelné) je strukturálně **nesprávný** — žádné tvrzení není testováno **izolovaně**.
-- **Manipulace evidencí** může operovat skrze **kontextové umístění** — stejná evidence může být **interpretována** odlišně v závislosti na zbytku sítě.
+### Síť přesvědčení
 
-## 2. Duhem-Quine teze
+Celek našeho vědění je podle Quina „výtvor člověka, který se se zkušeností stýká jen na
+okrajích“. Přesvědčení blízko okraje, například pozorovací výroky, revidujeme snadno; přesvědčení
+v centru, jako logika a matematika, jen výjimečně. Rozdíl je však stupňový: „kterýkoli výrok lze
+udržet jako pravdivý, ať se stane cokoli, pokud provedeme dost radikální úpravy jinde“, a naopak
+žádný výrok není vůči revizi imunní, ani logický zákon (Quine, 1951). Při volbě, co revidovat, se
+podle Quina řídíme sklonem narušit celek co nejméně a snahou o jednoduchost.
 
-Quine rozvíjí (s odkazem na Pierre Duhema): **žádné jednotlivé tvrzení** nemůže být **definitivně falsifikováno** evidencí — pokud experiment „vyvrací“ hypotézu, **vždy existují alternativní úpravy** sítě, jež zachrání původní tvrzení.
+### Duhemova–Quineova teze
 
-Strukturální paradox vědy: každá **hypotéza** je vždy **podpořena** sítí pomocných předpokladů (auxiliary hypotheses), a falsifikace může být **redistribuována** do těchto pomocných předpokladů.
+Francouzský fyzik Pierre Duhem ukázal, že fyzik nemůže experimentem testovat izolovanou hypotézu,
+ale vždy jen celou skupinu hypotéz včetně předpokladů o přístrojích; pokud předpověď selže,
+experiment neříká, kterou z nich opustit (Duhem, 1906). Quine tuto tezi rozšířil z fyziky na celé
+vědění. Spojení obou myšlenek se označuje jako Duhemova–Quineova teze a souvisí s tezí o
+nedourčenosti teorie daty: více neslučitelných teorií může být v souladu se všemi dostupnými
+pozorováními (Quine, 1951).
 
-Pro EA z toho plyne:
+### Ctnosti hypotéz
 
-- **Imunizace proti falsifikaci** (Lakatosův „ochranný pás“) je strukturálně **legitimní** vědeckou strategií, ale **stejně tak** zneužívaná pseudovědou.
-- **Kritérium odlišení**: legitimní imunizace **přijímá další testovatelné předpovědi**, manipulativní imunizace **pouze chrání** centrální dogma.
-- Strukturální paralelismus s Lakatosovým výzkumným programem ([viz Glosář](@/glossary/lakatos-vyzkumny-program.md)).
+Kniha *The Web of Belief* převádí holismus do praktické epistemologie. Quine a Ullian rozebírají,
+jak se vytváří přesvědčení z pozorování, ze svědectví druhých a z úsudku, a rozebírají ctnosti,
+podle nichž hodnotíme hypotézy; patří k nim konzervativnost (co nejmenší konflikt s dosavadními přesvědčeními),
+skromnost (co nejméně nápadné tvrzení), jednoduchost, obecnost a vyvratitelnost, tedy to, že
+hypotéza říká, co by ji vyvrátilo (Quine a Ullian, 1970). Kniha zároveň varuje, že ochota věřit
+svědectví musí odpovídat spolehlivosti zdroje.
 
-## 3. Síť přesvědčení (*web of belief*)
+### Neurčitost překladu a naturalizovaná epistemologie
 
-Quineho strukturální model: přesvědčení tvoří **síť**, v níž:
+V knize *Word and Object* Quine formuluje tezi o neurčitosti překladu. Lingvista, který bez
+tlumočníka překládá neznámý jazyk, nemůže na základě chování mluvčích rozhodnout, zda výraz
+„gavagai“ znamená králíka, část králíka, nebo časový úsek králíka; různé překladové manuály mohou
+být se všemi daty v souladu, a přesto si navzájem odporovat (Quine, 1960). V eseji *Epistemology
+Naturalized* pak navrhuje chápat epistemologii jako součást empirické psychologie, která
+zkoumá, jak z omezeného vstupu smyslů vzniká bohatý výstup teorie (Quine, 1969).
 
-- **Periferní** přesvědčení jsou **blízká** smyslové evidenci, **snadno revidovatelná**
-- **Centrální** přesvědčení (logika, matematika, základní fyzikální zákony) jsou **vzdálená** od evidence, **obtížně revidovatelná**
+## Kritika a meze teorie
 
-Žádné přesvědčení není **absolutně imunní** vůči revizi — i logika může být **revidována** pod tlakem dostatečně závažné evidence (například kvantová logika).
+Paul Grice a Peter Strawson odpověděli na první dogma tím, že rozlišení analytického a
+syntetického lidé běžně a shodně používají a lze je naučit; to, že pro ně nemáme nekruhovou
+definici, neprokazuje, že je iluzorní (Grice a Strawson, 1956). Řada pozdějších autorů tuto obhajobu
+rozvinula a analytičnost se do filozofie jazyka v omezené podobě vrátila.
 
-Pro EA z toho plyne:
+Jaegwon Kim namítl proti naturalizované epistemologii, že popis toho, jak přesvědčení vznikají,
+nenahradí otázku, kdy jsou oprávněná. Epistemologie bez normativity podle něj přestává být
+epistemologií (Kim, 1988). Noam Chomsky tvrdil, že neurčitost překladu je jen obecná nedourčenost
+teorie daty, která platí pro každou vědu, a nezakládá žádný zvláštní problém významu (Chomsky,
+1969). Donald Davidson pak označil za „třetí dogma empirismu“ samotné rozlišení pojmového schématu
+a obsahu, s nímž Quine stále pracoval (Davidson, 1974).
 
-- **EA jako lokální narušení sítě**: techniky operují strukturálně skrze **lokální** modifikace — útok na specifické přesvědčení, jež **šíří** efekty do zbytku sítě.
-- **Trolley-style EA**: cílený útok na **propojovací** přesvědčení (propojující evidenci s teorií), jež **destabilizuje** větší část sítě.
-- **Rezilience jako koherence sítě**: subjekt s **dobře propojenou** sítí přesvědčení je strukturálně **odolnější** vůči lokální manipulaci.
+Nejdůležitější námitka pro tuto knihu přichází z filozofie vědy. Holismus sám neříká, kdy je
+úprava sítě legitimní a kdy jde o pouhé zachraňování teorie. Imre Lakatos proto rozlišil
+progresivní výzkumné programy, jejichž úpravy předpovídají nové fakty, a degenerující programy,
+jejichž úpravy jen dodatečně vysvětlují selhání (Lakatos, 1970). Popper (1959) obdobně
+požadoval, aby pomocné hypotézy nesnižovaly vyvratitelnost teorie.
 
-## 4. Naturalizovaná epistemologie
+## Interpretace pro kompendium
 
-Quineho pozdní pozice (*Epistemology Naturalized*, 1969): epistemologie není **prvotní filozofie** s **transcendentálním** statusem — je **kontinuální** s empirickou psychologií. Studujeme **lidské poznávání** stejnými nástroji, jakými studujeme **jakoukoli** přírodní funkci.
+Následující oddíl je interpretací knihy, nikoli Quinovým tvrzením.
 
-Pro EA má naturalizovaná epistemologie **dvojí relevanci**:
+### Imunizace jako zneužití holismu
 
-1. **Otevírá prostor pro empirické studium EA**: kompendium operuje strukturálně **naturalizovaně** — kombinuje filozofickou analýzu s empirickou psychotraumatologií ([viz 7.2](@/kompendium/07-teoreticke-reflexe/epistemicke-trauma.md)).
-2. **Riziko reduktivismu**: čistě naturalistická pozice může **eliminovat** normativní dimenzi epistemologie — kompendium proto **kombinuje** Quineho s **Habermasovskou** normativitou ([viz 7.1 §4](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)).
+Quinova věta, že kterýkoli výrok lze udržet, ať se stane cokoli, popisuje logickou možnost, kterou
+uzavřené systémy víry využívají soustavně. Festinger, Riecken a Schachter (1956) popsali skupinu,
+která po nesplnění proroctví nepřiznala omyl, ale proroctví reinterpretovala a horlivost
+zvýšila. Kompendium tento vzorec popisuje jako
+[imunizaci proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md)
+a odlišuje ji od legitimní vědecké úpravy Lakatosovým kritériem: legitimní úprava riskuje novou
+předpověď, imunizační úprava chrání jádro a nic nového neriskuje (Lakatos, 1970).
 
-## 5. Indeterminace překladu
+### Útok na centrum sítě
 
-Quine v *Word and Object* (1960) formuluje **tezi indeterminace překladu**: pro každý jazyk existuje **více než jedna** stejně dobrá interpretační schemata, jež jsou všechny **kompatibilní** s daty.
+Z obrazu sítě plyne, že nejhlubší účinek nemá změna okrajového přesvědčení, ale změna toho, co
+stojí v centru – pravidel, podle nichž člověk rozhoduje, co je evidence (Quine, 1951). Pokud se
+v prostředí manipulace změní přesvědčení „moje vnímání je spolehlivé“, přestává zkušenost na
+okrajích sítě cokoli opravovat. Kompendium tento vzorec popisuje jako
+[modifikaci evidenčních kritérií](@/kompendium/techniques/ea-4-3-5-evidential-criteria-modification.md);
+v osobních vztazích se projevuje jako [gaslighting](@/glossary/gaslighting.md), který podle
+Stern (2007) postupně oslabuje důvěru oběti ve vlastní úsudek.
 
-Pro EA z toho plyne:
+### Postupnost a konzervativnost
 
-- **Manipulativní reinterpretace**: útočník může předkládat **alternativní** interpretace, jež jsou **strukturálně kompatibilní** s evidencí.
-- **Kritérium odlišení**: Davidsonův princip charity ([viz 7.25](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)) a Quineho ekonomie umožňují **preferovat** některé interpretace nad jinými, ale neeliminují **strukturální možnost** alternativ.
+Quine a Ullian (1970) považují konzervativnost za ctnost: rozumný člověk mění co nejméně. Tato
+ctnost má odvrácenou stranu. Pokud je každá jednotlivá změna malá, síť se může během měsíců
+proměnit od základů, aniž by člověk někdy zažil okamžik zásadního rozhodnutí. Lifton (1961)
+popisuje u myšlenkové reformy právě takovou postupnou proměnu. Kompendium za detekční znak
+považuje situaci, kdy člověk při ohlédnutí nedokáže určit, kdy a proč změnil přesvědčení, která
+dříve považoval za základní.
 
-## 6. Mapping na EA techniky
+### Neurčitost a reinterpretace
 
-| Quine | EA technika | Mechanismus |
-|-------|-------------|-------------|
-| Lokální narušení sítě | Cílený útok na klíčové přesvědčení | Strukturální |
-| Imunizace proti falsifikaci | Defenzivní pseudovědecká struktura | EA-1.6 |
-| Indeterminace překladu | Manipulativní reinterpretace | EA-1.x |
-| Manipulace pomocných hypotéz | Pseudo-vědecké úpravy | EA-1.5 |
-| Anti-redukcionismus jako alibi | Inflace komplexity | EA-1.7 |
+Neurčitost překladu má protějšek v manipulativní reinterpretaci: slova a činy postiženého jsou
+soustavně překládána do jiného významu („když říkáš ne, myslíš ano“, „tvoje pochybnost je
+důkazem odporu“), který je s jeho chováním formálně v souladu (Quine, 1960). Kompendium tento
+vzorec popisuje jako [strategickou reinterpretaci](@/kompendium/techniques/ea-1-3-2-strategicka-reinterpretace.md).
+Davidsonův princip vstřícnosti, podle něhož interpretujeme druhé tak, aby jejich výroky byly co
+nejvíce pravdivé a soudržné, poskytuje měřítko: soustavně nevstřícný výklad je varovným znakem
+(Davidson, 1974).
 
-## 7. Algoritmická operacionalizace
+### Obrana
 
-Pro Prismatic platformu má Quineho [holismus](@/glossary/holismus.md) **specifickou** relevanci:
+Ctnosti hypotéz z *The Web of Belief* lze použít jako obranný postup: ptát se, co by tvrzení
+vyvrátilo, zda je skromné, nebo nápadné, a zda zdroj svědectví zaslouží důvěru (Quine a Ullian,
+1970). Systém víry, který na otázku „co by tě přesvědčilo, že se mýlíš?“ nemá žádnou odpověď,
+porušuje ctnost vyvratitelnosti a kompendium jej v tomto bodě hodnotí jako imunizovaný (Popper,
+1959).
 
-- **NABLA Infinity** ([viz §4.2 7.1](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) operuje **holisticky** — udržuje **celou síť** kontradikcí, nikoli pouze izolované konflikty.
-- **[Decision Core](@/glossary/decision-core.md)** zaznamenává **propojení** rozhodnutí — strukturální mapování sítě.
+## Otevřené otázky
 
-## 8. Primární literatura
+Otevřené zůstává, zda lze z holismu odvodit obecné kritérium, které by předem oddělilo
+legitimní úpravu sítě od imunizace, nebo zda rozhoduje až dlouhodobý vývoj programu, jak
+navrhoval Lakatos (1970). Sporné je i to, nakolik naturalizovaná epistemologie dokáže uchopit
+normativní otázku, kdy je změna přesvědčení oprávněná (Kim, 1988).
 
-- Quine, W. V. O. (1951). „Two Dogmas of Empiricism“. *Philosophical Review* 60.
+## Literatura
+
+- Chomsky, N. (1969). Quine's empirical assumptions. In D. Davidson a J. Hintikka (ed.), *Words and Objections: Essays on the Work of W. V. Quine*. Reidel.
+- Davidson, D. (1974). On the very idea of a conceptual scheme. *Proceedings and Addresses of the American Philosophical Association*, 47.
+- Duhem, P. (1906). *La théorie physique: son objet, sa structure*. Chevalier et Rivière.
+- Festinger, L., Riecken, H. W. a Schachter, S. (1956). *When Prophecy Fails*. University of Minnesota Press.
+- Grice, H. P. a Strawson, P. F. (1956). In defense of a dogma. *The Philosophical Review*, 65(2).
+- Kim, J. (1988). What is „naturalized epistemology“? *Philosophical Perspectives*, 2.
+- Lakatos, I. (1970). Falsification and the methodology of scientific research programmes. In I. Lakatos a A. Musgrave (ed.), *Criticism and the Growth of Knowledge*. Cambridge University Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
+- Quine, W. V. O. (1951). Two dogmas of empiricism. *The Philosophical Review*, 60(1).
 - Quine, W. V. O. (1960). *Word and Object*. MIT Press.
-- Quine, W. V. O. & Ullian, J. (1970/1978). *The Web of Belief*. Random House.
-- Quine, W. V. O. (1969). *Ontological Relativity and Other Essays*. Columbia UP.
-- Hylton, P. (2007). *Quine*. Routledge.
+- Quine, W. V. O. (1969). Epistemology naturalized. In *Ontological Relativity and Other Essays*. Columbia University Press.
+- Quine, W. V. O. a Ullian, J. S. (1970). *The Web of Belief*. Random House.
+- Stern, R. (2007). *The Gaslight Effect: How to Spot and Survive the Hidden Manipulation Others Use to Control Your Life*. Morgan Road Books.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.11 Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md)
-- [7.12 Feyerabend: Anti-method](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md)
-- [7.25 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
-- [7.27 Putnam: Internal Realism](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md)
-- [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md)
-- [Glosář: NABLA Infinity](@/glossary/nabla-infinity.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7. Teoretické reflexe](@/kompendium/07-teoreticke-reflexe/_index.md) – rozcestník sekce.
+- [Kuhn: Paradigmatické revoluce](@/kompendium/07-teoreticke-reflexe/kuhn-paradigmaticke-revoluce.md) – změna centra sítě v dějinách vědy.
+- [Feyerabend: Anti-method](@/kompendium/07-teoreticke-reflexe/feyerabend-anti-method.md) – radikální důsledek nedourčenosti teorie daty.
+- [Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md) – princip vstřícnosti jako odpověď na neurčitost překladu.
+- [Putnam: Vnitřní realismus](@/kompendium/07-teoreticke-reflexe/putnam-internal-realism.md) – kritika dogmat rozšířená na fakta a hodnoty.
+
+**Glosář a techniky**
+
+- [Lakatosův výzkumný program](@/glossary/lakatos-vyzkumny-program.md) – kritérium legitimní úpravy sítě.
+- [Falsifikace](@/glossary/falsifikace.md) – vyvratitelnost a její meze v holistickém obrazu.
+- [Imunizace proti falsifikaci](@/kompendium/techniques/ea-1-3-1-imunizace-proti-falsifikaci.md) – zneužití holismu k ochraně doktríny.
+- [NABLA Infinity](@/glossary/nabla-infinity.md) – epistemický rámec platformy, z níž kniha vzešla, pracující s celou sítí tvrzení a rozporů.
+
+**Filozofie knihy**
+
+- [Epistemická integrita](@/philosophy/epistemic-integrity.md) – ochota revidovat i centrální přesvědčení.

@@ -9,7 +9,6 @@ categories = ["academic", "legal", "clinical"]
 
 [extra]
 related_terms = ["1-forensic-interview-protocol", "10-forensic-documentation", "11-undue-influence-doctrine", "13-cult-deprogramming-legal"]
-parent = "kompendium-forensic-legal"
 toc = true
 +++
 

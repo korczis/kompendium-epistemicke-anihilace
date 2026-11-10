@@ -1,6 +1,6 @@
 +++
 title = "7.35 Dennett: Intentional Stance a vrstvy interpretace"
-description = "Daniel Dennett a teorie intentional stance, fyzikální/designová/intencionální vrstva — rámec pro pochopení strukturálních úrovní, na nichž EA techniky operují."
+description = "Daniel Dennett: fyzikální, designový a intencionální postoj, reálné vzorce a heterofenomenologie; hlavní kritiky a interpretace pro rozpoznání manipulace v EA."
 weight = 35
 insert_anchor_links = "right"
 
@@ -10,113 +10,91 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["dawkins-meme", "dennett-from-bacteria-to-bach", "digitalni-vek", "epistemicke-trauma"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.35 Dennett: Intentional Stance a vrstvy interpretace
 
-Daniel Dennett v knize *The Intentional Stance* (1987) formuluje **strukturální analýzu**: interpretace systémů (lidí, organismů, počítačů) probíhá na **třech různých vrstvách**:
+Daniel Dennett formuloval teorii intencionálního postoje (*intentional stance*) poprvé ve stati „Intentional Systems“ (Dennett, 1971) a soustavně ji rozvinul v knize *The Intentional Stance* (Dennett, 1987). Teorie odpovídá na otázku, co znamená připisovat někomu přesvědčení a touhy, a činí to tak, že místo zkoumání vnitřních stavů zkoumá strategii, kterou při připisování používáme. Kapitola vykládá teorii z Dennettových textů, shrnuje hlavní námitky a odděleně uvádí, jak ji [kompendium EA](@/glossary/kompendium-ea.md) užívá; toto užití je interpretací knihy.
 
-- **Fyzikální vrstva** (*physical stance*) — popis pomocí fyzikálních zákonů
-- **Designová vrstva** (*design stance*) — popis pomocí účelové struktury
-- **Intencionální vrstva** (*intentional stance*) — popis pomocí přesvědčení a tužeb
+## Tři postoje
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje Dennettova analýza nástroj pro pochopení **strukturálních úrovní**, na nichž EA techniky operují.
+Dennett rozlišuje tři strategie, jimiž předpovídáme chování nějakého systému (Dennett, 1987). Fyzikální postoj (*physical stance*) vychází ze znalosti fyzikální stavby a přírodních zákonů; tak předpovídáme, kam dopadne hozený kámen. Designový postoj (*design stance*) předpokládá, že systém je navržen k určitému účelu a bude se chovat tak, jak má; tak předpovídáme, že budík zazvoní, aniž bychom znali jeho mechanismus. Intencionální postoj zachází se systémem jako s racionálním činitelem, který má přesvědčení a touhy, jaké by měl mít vzhledem ke svému postavení a cílům, a předpovídá, že bude jednat tak, aby své cíle prosadil.
 
-## 1. Tři vrstvy
+Postoje se liší cenou a riskem. Fyzikální postoj je nejspolehlivější, ale u složitých systémů prakticky nepoužitelný; designový je levnější, ale selže, když se systém porouchá; intencionální je nejlevnější a u složitých systémů často jediný proveditelný, ale selže, když systém není racionální (Dennett, 1987). Dennettovým oblíbeným příkladem je šachový počítač: jeho chování nikdo nepředpovídá z obvodů ani z programu, ale z toho, jaký tah by „chtěl“ zahrát, aby vyhrál.
 
-| Vrstva | Příklad | EA implikace |
-|--------|---------|--------------|
-| Fyzikální | "Atom uhlíku má 6 protonů" | Material substrate manipulation |
-| Designová | "Hodiny jsou navržené k měření času" | Functional architecture manipulation |
-| Intencionální | "Petr věří, že prší" | Belief manipulation |
+## Opravdoví věřící a reálné vzorce
 
-Dennett argumentuje, že **intencionální vrstva** je **legitimní** prediktivní strategií — jakýkoli systém, jenž se dá **přesněji** předvídat **přiřazením přesvědčení a tužeb**, je **funkčně** intencionální.
+Z toho Dennett vyvozuje provokativní tezi, kterou rozvádí v eseji „True Believers“: mít přesvědčení znamená být systémem, jehož chování lze spolehlivě předpovídat z intencionálního postoje (Dennett, 1987). Připsání přesvědčení tedy není hypotézou o skrytém vnitřním objektu, ale tvrzením o předpověditelnosti. I termostat je v tomto smyslu minimálním intencionálním systémem, i když u něj je intencionální popis zbytečný, protože designový postačí.
 
-Pro EA z toho plyne:
+Proti námitce, že jde o pouhý instrumentalismus, Dennett v eseji „Real Patterns“ hájí střední pozici (Dennett, 1991a). Vzorce, které intencionální postoj zachycuje, jsou reálné v tom smyslu, že umožňují zhuštěný a úspěšný popis dat, který by bez nich nebyl možný; ilustruje to na Conwayově hře Život, v níž se z jednoduchých pravidel vynořují stabilní útvary, jež lze předpovídat na jejich vlastní úrovni. Přesvědčení jsou tedy stejně reálná jako těžiště: nejde o věc v systému, ale o objektivní rys jeho chování.
 
-- **EA techniky operují na všech třech vrstvách**:
-  - Fyzikální: manipulace prostředí, hladovění, deprivace spánku
-  - Designová: manipulace algoritmických rozhraní, architektury výběru
-  - Intencionální: manipulace přesvědčení, [gaslighting](@/glossary/gaslighting.md), [propaganda](@/glossary/propaganda.md)
-- **Diferenciální analýza**: kterou vrstvu cílí konkrétní technika?
+## Heterofenomenologie
 
-## 2. Real Patterns
+Na otázku, jak vědecky zkoumat vědomí, Dennett odpovídá metodou heterofenomenologie (Dennett, 1991b). Badatel bere výpovědi zkoumaných osob o jejich prožitcích vážně jako data, ale zachází s nimi jako s texty, které interpretuje z intencionálního postoje: zaznamenává, co lidé věří, že prožívají, a ponechává otevřené, nakolik jsou tato přesvědčení pravdivá. Metoda je neutrální, protože nepředpokládá ani neomylnost introspekce, ani to, že výpovědi jsou bezcenné. Dennett ji staví proti tomu, co považuje za nekritickou fenomenologii vycházející z první osoby.
 
-V eseji *Real Patterns* (1991) Dennett rozvíjí pozici **vzorců**: intencionální stavy jsou **reálné** patterns, jež **vyplývají** z funkční organizace systému, nikoli **imaginární projekce**.
+## Hlavní kritiky
 
-Pro EA má tato pozice **specifickou relevanci**:
+Nejčastější námitkou je, že intencionální postoj nerozlišuje mezi skutečnou a odvozenou intencionalitou. John Searle trvá na tom, že lidská mysl má vnitřní intencionalitu, kdežto termostat nebo počítač jen intencionalitu, kterou jim připisujeme my, a že Dennettův přístup tento rozdíl stírá (Searle, 1980; Searle, 1992). Jerry Fodor z opačné strany hájí intencionální realismus: přesvědčení jsou skutečné vnitřní reprezentace s kauzální rolí, a ne jen vzorce v chování, a psychologie má zkoumat právě je (Fodor, 1987).
 
-- **Algoritmické systémy** ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)) jsou strukturálně **intencionálně interpretovatelné** — jejich rozhodnutí jsou pattern-podobné lidským rozhodnutím.
-- **Riziko inflace intencionalismu**: připisování AI systémům **plné** intencionality (vědomí, touhy) je strukturálně **nesprávné**.
-- **Kritérium**: schopnost prediktivního zlepšení skrze intencionální popis (Dennettovský pragmatický fundament).
+Eliminativisté naopak tvrdí, že lidová psychologie přesvědčení a tužeb je nepřesná teorie, kterou neurověda nahradí, takže Dennettova obhajoba její užitečnosti je jen odkladem (Churchland, 1981). Heterofenomenologii kritizují fenomenologové; Dan Zahavi namítá, že Dennett útočí na karikaturu fenomenologie a že fenomenologická tradice nikdy netvrdila neomylnost introspekce, kterou Dennett vyvrací (Zahavi, 2007). Thomas Nagel dodává, že popis z třetí osoby z principu nezachytí, „jaké to je“ být daným subjektem (Nagel, 1974).
 
-## 3. Heterofenomenologie
+## Interpretace pro rámec EA
 
-Dennett v *Consciousness Explained* (1991) formuluje **heterofenomenologii** — metodu studia vědomí **třetí osoby**: badatel **bere vážně** subjektivní výpovědi subjektu, ale interpretuje je jako **data** o **fenomenálním reportu**, nikoli jako přímý přístup k qualia.
+Následující čtení je interpretací knihy. Dennettova teorie je popisem interpretační strategie, nikoli teorií manipulace. Kniha z ní přebírá tři postřehy, které pomáhají rozpoznat určité vzorce popsané v taxonomii (srov. Dennett, 1987).
 
-Pro EA má heterofenomenologie **klinickou hodnotu**:
+Prvním je snadnost, s jakou lidé přijímají intencionální postoj. Joseph Weizenbaum popsal, jak uživatelé jeho jednoduchého konverzačního programu ELIZA připisovali programu porozumění a důvěrně se mu svěřovali, přestože věděli, jak funguje (Weizenbaum, 1976). Kniha z toho vyvozuje, že systémy navržené tak, aby vyvolávaly intencionální postoj, mohou získat důvěru, kterou si nezasloužily; tento vzorec rozebírá kapitola o [digitálním věku](@/kompendium/07-teoreticke-reflexe/digitalni-vek.md).
 
-- **Pacient jako heterofenomenologický subjekt**: terapeut **bere vážně** výpovědi, ale **interpretuje** je heterofenomenologicky.
-- **Riziko nadinterpretace**: pacientovy výpovědi nejsou **přímým přístupem** ke skutečnosti — vyžadují klinickou interpretaci.
-- **Riziko podinterpretace**: gaslighting strukturálně **odmítá** heterofenomenologickou serioznost — pacientovy výpovědi jsou **odmítány** jako „iluze“.
+Druhým postřehem je opačný pohyb: odepření intencionálního postoje lidem. Nick Haslam popsal mechanistickou dehumanizaci, při níž se s druhými zachází jako s předměty nebo stroji bez vnitřního života a vlastních důvodů (Haslam, 2006). V Dennettově slovníku jde o to, že s člověkem se jedná jen z designového nebo fyzikálního postoje, jako s mechanismem, který je třeba seřídit. Kniha tento posun považuje za varovný znak v prostředích, kde se člověk redukuje na metriky, výkon nebo „problém“.
 
-## 4. Mémetický evolucionismus
+Třetím postřehem je heterofenomenologická zásada brát výpovědi vážně. Kniha čte [gaslighting](@/glossary/gaslighting.md) jako soustavné popírání výpovědí druhého o jeho vlastní zkušenosti, tedy jako přesný opak heterofenomenologického postoje, který výpovědi zaznamenává a teprve pak opatrně interpretuje (srov. Dennett, 1991b). Rámec tím nijak nevykládá, jak gaslighting probíhá; slouží k jeho rozpoznání.
 
-Dennett (zejména v *Darwin's Dangerous Idea*, 1995, a *Breaking the Spell*, 2006) rozvíjí **memetickou** teorii: **idee** se **šíří** podle evolučních principů, **nezávisle** na tom, zda jsou pravdivé.
+## Rozpoznání, odlišení a obrana
 
-Memy jsou strukturálně **selektovány** podle **přenositelnosti**, **emocionální hloubky**, **kognitivní lehkosti** — **nikoli** podle pravdivosti.
+Rozpoznávacím znakem prvního vzorce je nepoměr mezi tím, jak „rozumějící“ systém působí, a tím, co o jeho fungování a spolehlivosti víme. Plynulá odpověď nebo empatický tón nejsou důkazem porozumění ani pravdivosti, a u informací z takového zdroje je nutné ověření stejně jako u jakéhokoli jiného anonymního zdroje (Weizenbaum, 1976). Rozpoznávacím znakem druhého vzorce je jazyk, který o lidech mluví výhradně jako o mechanismech, nástrojích nebo objektech, a přestává se ptát na jejich důvody (Haslam, 2006).
 
-Pro EA z toho plyne:
+Odlišit je třeba legitimní užití různých postojů od manipulativního. Lékař, který zkoumá tělo z fyzikálního postoje, nebo inženýr, který hodnotí proces z designového, nedehumanizuje, pokud zároveň respektuje pacienta nebo pracovníka jako osobu s vlastními důvody (Haslam, 2006). Klinicky je relevantní pojem mentalizace, tedy schopnosti chápat sebe i druhé skrze duševní stavy, kterou Peter Fonagy a spolupracovníci popsali jako základ seberegulace a vztahů (Fonagy a kol., 2002); kniha jej rozebírá u hesla [theory of mind](@/glossary/theory-of-mind.md).
 
-- **Manipulativní memy**: strukturálně optimalizované pro **šíření**, nikoli pro **pravdivost** (rezonuje s Dawkinsovým memem, [viz 7.41](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)).
-- **Algoritmická memetika**: digital platforms strukturálně **amplifikují** vysoce přenosné memy — bez ohledu na pravdivost.
+Obrana, kterou z toho kniha odvozuje, je reflexivní: uvědomit si, který postoj zaujímám vůči druhým a který zaujímají druzí vůči mně, a všimnout si, když se intencionální postoj nabízí tam, kde chybí odpovědnost, nebo když se odpírá tam, kde jde o člověka (srov. Fonagy a kol., 2002). Pro práci s výpověďmi postižených lidí, rozebíranou v [sekci klinických aplikací](@/kompendium/06-klinicke-aplikace/_index.md), platí heterofenomenologická zásada: výpověď se nejprve zaznamená a respektuje, a teprve pak se opatrně interpretuje (Dennett, 1991b).
 
-## 5. From Bacteria to Bach
+## Meze a otevřené otázky
 
-V *From Bacteria to Bach and Back* (2017) Dennett rozvíjí **evolucionistickou** teorii vědomí — vědomí jako **evoluční** akumulace komp etencí, nikoli **transcendentní** dar.
+Dennettova teorie je jednou z několika soupeřících teorií intencionality a kniha na ní nestaví nic, co by vyžadovalo rozhodnutí sporu se Searlem nebo Fodorem (Searle, 1992; Fodor, 1987). Otevřená zůstává otázka, zda se intencionální postoj vůči pokročilým jazykovým modelům dá vůbec udržet jako „pouhá strategie“, nebo zda se lidé nevyhnutelně nechají vtáhnout do vztahu, jako to popsal Weizenbaum (Weizenbaum, 1976). Otevřená je i otázka, jak heterofenomenologii uplatnit v soudní nebo klinické praxi, kde je třeba o výpovědích rozhodovat, ne je jen neutrálně zaznamenávat (srov. Zahavi, 2007).
 
-Pro EA má tato pozice **dvojí relevanci**:
+## Literatura
 
-1. **Vědomí jako vrstvená evoluce**: subjekt má strukturálně **různé vrstvy** kognitivních kapacit — EA techniky cílí na **specifické vrstvy**.
-2. **Riziko inflace AI**: pokud lidské vědomí je **evoluční akumulace**, je možné, že **AI** podobně akumuluje kompetenci — Dennett je strukturálně **otevřený** silné AI.
-
-## 6. Mapping na EA techniky
-
-| Dennett | EA technika | Mechanismus |
-|---------|-------------|-------------|
-| Manipulace na fyzikální vrstvě | Material deprivation | EA-fyzické |
-| Manipulace na designové vrstvě | Algoritmické rozhraní | EA-strukturální |
-| Manipulace na intencionální vrstvě | Belief manipulation | EA-1.x, EA-2.x |
-| Memetická manipulace | Virální obsah | Strukturální |
-| Pseudo-heterofenomenologie | Gaslighting | EA-4.1 |
-
-## 7. Kritická distance
-
-Kompendium absorbuje Dennettovu strukturální analýzu, ale **odbočuje** v několika bodech:
-
-1. **Kvalia a *what it is like***: Dennett strukturálně **podceňuje** subjektivní pól (rezonuje s Nagelem, [viz 7.29](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md), a Chalmersem, [viz 7.37](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)).
-2. **Anti-fenomenologie**: Dennett strukturálně **odmítá** fenomenologickou tradici — kompendium kombinuje obě.
-3. **Inflace funkcionalismu**: Dennettova ochota připsat intencionalitu **systémům** může být přehnaná.
-
-## 8. Primární literatura
-
-- Dennett, D. (1987). *The Intentional Stance*. MIT Press.
-- Dennett, D. (1991). *Consciousness Explained*. Little, Brown.
-- Dennett, D. (1995). *Darwin's Dangerous Idea*. Simon & Schuster.
-- Dennett, D. (2017). *From Bacteria to Bach and Back*. W.W. Norton.
-- Dennett, D. (1991). „Real Patterns“. *Journal of Philosophy* 88.
+- Churchland, P. M. (1981). Eliminative materialism and the propositional attitudes. *Journal of Philosophy*, 78.
+- Dennett, D. C. (1971). Intentional systems. *Journal of Philosophy*, 68.
+- Dennett, D. C. (1987). *The Intentional Stance*. MIT Press.
+- Dennett, D. C. (1991a). Real patterns. *Journal of Philosophy*, 88.
+- Dennett, D. C. (1991b). *Consciousness Explained*. Little, Brown.
+- Fodor, J. A. (1987). *Psychosemantics: The Problem of Meaning in the Philosophy of Mind*. MIT Press.
+- Fonagy, P., Gergely, G., Jurist, E. L., & Target, M. (2002). *Affect Regulation, Mentalization, and the Development of the Self*. Other Press.
+- Haslam, N. (2006). Dehumanization: An integrative review. *Personality and Social Psychology Review*, 10.
+- Nagel, T. (1974). What is it like to be a bat? *Philosophical Review*, 83.
+- Searle, J. R. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, 3.
+- Searle, J. R. (1992). *The Rediscovery of the Mind*. MIT Press.
+- Weizenbaum, J. (1976). *Computer Power and Human Reason: From Judgment to Calculation*. W. H. Freeman.
+- Zahavi, D. (2007). Killing the straw man: Dennett and phenomenology. *Phenomenology and the Cognitive Sciences*, 6.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.6 Kognitivní vědy](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md)
-- [7.36 Searle: Chinese Room](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md)
-- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md)
-- [7.41 Dawkins: Mem](@/kompendium/07-teoreticke-reflexe/dawkins-meme.md)
-- [7.42 Dennett: From Bacteria to Bach](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [Glosář: Metakognice](@/glossary/metakognice.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7.51 Dennett: From Bacteria to Bach](@/kompendium/07-teoreticke-reflexe/dennett-from-bacteria-to-bach.md) – pozdní syntéza téhož rámce.
+- [7.36 Searle: Čínský pokoj](@/kompendium/07-teoreticke-reflexe/searle-chinese-room.md) – hlavní námitka odvozené intencionality.
+- [7.29 Nagel: View from Nowhere](@/kompendium/07-teoreticke-reflexe/nagel-view-from-nowhere.md) – meze popisu z třetí osoby.
+- [7.37 Chalmers: Hard Problem](@/kompendium/07-teoreticke-reflexe/chalmers-hard-problem.md) – spor o subjektivní stránku vědomí.
+- [7.5 Kognitivní vědy a EA](@/kompendium/07-teoreticke-reflexe/kognitivni-vedy.md) – empirický kontext teorie mysli.
+
+**Techniky a klinika**
+
+- [EA-7.3.7 Dennett: Intenční postoj](@/kompendium/techniques/ea-7-3-7-dennett-intentional-stance.md) – technická stránka rámce.
+- [EA-4.1 Gaslighting](@/kompendium/techniques/ea-4-1-gaslighting.md) – popírání výpovědí jako protiklad heterofenomenologie.
+- [Sekce 06 – Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md) – práce s výpověďmi postižených.
+
+**Pojmy**
+
+- [Intencionalita](@/glossary/intentionalita.md) – zaměřenost mysli na předmět.
+- [Theory of mind](@/glossary/theory-of-mind.md) – schopnost připisovat duševní stavy.

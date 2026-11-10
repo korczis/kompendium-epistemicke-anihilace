@@ -10,7 +10,6 @@ categories = ["academic", "theory", "cognitive-science"]
 
 [extra]
 related_terms = ["hutchins-distributed-cognition", "johnson-body-in-mind", "kuhn-paradigmaticke-revoluce", "lakoff-conceptual-metaphor"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

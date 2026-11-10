@@ -10,7 +10,6 @@ tags = ["kompendium", "section-bridges", "navigace", "cross-link"]
 categories = ["academic", "reference"]
 section_icon = "🔗"
 toc = true
-parent = "kompendium"
 +++
 
 # Section Bridges

@@ -10,7 +10,6 @@ tags = ["glossary", "agents", "agent-tier", "prismatic", "aiad"]
 category = "agents"
 related_terms = ["aiad", "archer-supreme", "supreme-commander", "strategic-command", "tactical-execution", "agent-registry", "color-teams", "agent", "consciousness-traits", "nabla-infinity", "trinity-gate", "supervisor", "process-isolation", "rbac", "epistemic-pipeline", "formal-verification"]
 author = "Tomas Korcak (korczis)"
-quality_score = 82
 date_modified = "2026-11-10"
 +++
 

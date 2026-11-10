@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-5-7-partialni-hospitalizace", "ea-6-5-3-psychotic-spektrum-protokol", "ea-6-5-5-er-screening-EA"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.5.6"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.5 Krizové intervence"

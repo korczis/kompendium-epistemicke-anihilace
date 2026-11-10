@@ -8,7 +8,6 @@ tags = ["kompendium", "international", "legal"]
 categories = ["academic", "international"]
 
 [extra]
-parent = "kompendium-international"
 toc = true
 +++
 
@@ -226,7 +225,7 @@ oběti a intervenčními centry (Ševčík a Špatenková, 2011).
 ## Literatura
 
 - Čírtková, L. (2008). *Moderní psychologie pro právníky*. Grada.
-- Freyd, J. J. (1997). Violations of power, adaptive blindness, and [betrayal trauma](@/glossary/betrayal-trauma.md) theory. *Feminism & Psychology*, 7(1).
+- Freyd, J. J. (1997). Violations of power, adaptive blindness, and betrayal trauma theory. *Feminism & Psychology*, 7(1).
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Lavický, P., a kol. (2014). *Občanský zákoník I. Obecná část (§ 1–654): komentář*. C. H. Beck.
 - Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.

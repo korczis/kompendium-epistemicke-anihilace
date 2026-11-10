@@ -9,7 +9,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-5-3-42-self-objektifikace-totalni", "ea-2-5-10-existential-helplessness-implantace", "ea-5-3-4-telesna-disociace", "ea-7-3-3-friston-active-inference", "ea-7-3-5-metzinger-ego-tunnel", "ea-7-1-10-merleau-ponty-embodiment"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.3.6"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.3 Kognitivní věda"

@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["41-narrative-stewardship", "43-memory-archive", "44-axiology-clarification", "49-temporal-self-stitching"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -94,7 +93,7 @@ Příliš pevný příběh může bránit dalšímu vývoji; buďte ochotni vypr
 
 ## Literatura
 
-- Adler, J. M. (2012). Living into the story: Agency and coherence in a longitudinal study of [narrative identity](@/glossary/narativni-identita.md) development and mental health over the course of psychotherapy. *Journal of Personality and Social Psychology*, 102(2), 367–389.
+- Adler, J. M. (2012). Living into the story: Agency and coherence in a longitudinal study of narrative identity development and mental health over the course of psychotherapy. *Journal of Personality and Social Psychology*, 102(2), 367–389.
 - Habermas, T., & Bluck, S. (2000). Getting a life: The emergence of the life story in adolescence. *Psychological Bulletin*, 126(5), 748–769.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2), 100–122.

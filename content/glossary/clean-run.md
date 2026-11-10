@@ -22,7 +22,6 @@ safety_level = "p0-absolute"
 documentation_required = true
 testing_strategy = "compile-time-and-runtime-validation"
 current_status = "100-percent-compliant"
-quality_score = "doctrine-enforced"
 quality_domains_clean = "13/13"
 compiler_warnings = "0"
 credo_violations = "0"

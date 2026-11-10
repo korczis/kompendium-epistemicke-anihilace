@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-2-5-5-bothsidesizm-internalizace", "ea-2-5-10-existential-helplessness-implantace", "ea-2-5-8-recursive-doubt-spiral", "pluralismus", "metanarrative-collapse", "firehose-of-falsehood"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.5.4"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.5 Sebeindukovaná delegitimizace"

@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["19-network-amplification-asymmetry", "2-linguistic-circular-definitions", "21-network-platform-coordination", "22-network-narrative-injection"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "network"
 +++
@@ -111,7 +110,7 @@ Generativní umělá inteligence zvyšuje věrohodnost falešných účtů a sni
 - Cresci, S. (2020). A decade of social bot detection. *Communications of the ACM*, 63(10), 72–83.
 - Ferrara, E., Varol, O., Davis, C., Menczer, F., & Flammini, A. (2016). The rise of social bots. *Communications of the ACM*, 59(7), 96–104.
 - Keller, F. B., Schoch, D., Stier, S., & Yang, J. (2020). Political astroturfing on Twitter: How to coordinate a disinformation campaign. *Political Communication*, 37(2), 256–280.
-- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ [Propaganda](@/glossary/propaganda.md) Model: Why It Might Work and Options to Counter It*. RAND Corporation.
+- Paul, C., & Matthews, M. (2016). *The Russian „Firehose of Falsehood“ Propaganda Model: Why It Might Work and Options to Counter It*. RAND Corporation.
 - Woolley, S. C., & Howard, P. N. (Eds.). (2018). *Computational Propaganda: Political Parties, Politicians, and Political Manipulation on Social Media*. Oxford University Press.
 
 ## Související

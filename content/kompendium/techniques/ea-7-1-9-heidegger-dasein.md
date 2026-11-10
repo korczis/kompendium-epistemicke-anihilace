@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-10-merleau-ponty-embodiment", "ea-7-1-6-sloterdijk-spheres", "ea-2-5-9-identity-uncertainty-cult", "lebenswelt", "fenomenologie", "epistemicka-bezdomovost"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.9"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

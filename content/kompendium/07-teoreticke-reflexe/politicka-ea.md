@@ -10,7 +10,6 @@ categories = ["academic", "theory", "political-epistemology"]
 
 [extra]
 related_terms = ["otevrene-otazky", "polanyi-ticha-znalost", "postmodernismus", "putnam-internal-realism"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++

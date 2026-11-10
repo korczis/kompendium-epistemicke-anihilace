@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-2-1-trauma-focused-cbt-protokol", "ea-6-2-8-somatic-experiencing-protokol", "ea-6-2-3-ifs-internal-family-systems", "ea-6-3-1-stabilizacni-faze-protokol", "ea-6-1-8-disociativni-spektrum-assessment", "ea-1-2-2-memorni-rekonstrukce"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.2.2"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.2 Terapeutické intervence"

@@ -12,7 +12,6 @@ related_terms = ["hermeneutika", "hermeneuticky-outsourcing", "hermeneuticky-kru
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 # Hermeneutika – výklad jako kategorie analýzy

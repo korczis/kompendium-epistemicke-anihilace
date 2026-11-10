@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["intentionalita", "intencionalita", "fenomenologie", "lebenswelt", "theory-of-mind", "epoche"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "intentionalita"
 toc = false
 +++

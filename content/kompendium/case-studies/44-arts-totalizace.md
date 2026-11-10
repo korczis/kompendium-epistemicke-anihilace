@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["42-military-totalizace", "43-elite-sports-totalizace", "45-celebrity-totalizace", "46-political-totalizace"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -236,7 +235,7 @@ se tyto dvě věci směšují, zůstává postižený v situaci, kdy si musí vy
 - APA (American Psychiatric Association). (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5th ed.). American Psychiatric Publishing.
 - Becker, H. S. (1982). *Art Worlds*. University of California Press.
 - Coser, L. A. (1974). *Greedy Institutions: Patterns of Undivided Commitment*. Free Press.
-- Dutton, D. G., & Painter, S. L. (1981). [Traumatic bonding](@/glossary/traumatic-bonding.md): The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*.
+- Dutton, D. G., & Painter, S. L. (1981). Traumatic bonding: The development of emotional attachments in battered women and other relationships of intermittent abuse. *Victimology*.
 - Ebaugh, H. R. F. (1988). *Becoming an Ex: The Process of Role Exit*. University of Chicago Press.
 - Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
@@ -244,10 +243,10 @@ se tyto dvě věci směšují, zůstává postižený v situaci, kdy si musí vy
 - Hochschild, A. R. (1983). *The Managed Heart: Commercialization of Human Feeling*. University of California Press.
 - Kenny, D. T. (2011). *The Psychology of Music Performance Anxiety*. Oxford University Press.
 - Lalich, J., & Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Popper, K. R. (1959). *The Logic of Scientific Discovery*. Hutchinson.
 - Singer, M. T., & Lalich, J. (1995). *Cults in Our Midst*. Jossey-Bass.
-- Stark, E. (2007). *[Coercive Control](@/glossary/coercive-control.md): How Men Entrap Women in Personal Life*. Oxford University Press.
+- Stark, E. (2007). *Coercive Control: How Men Entrap Women in Personal Life*. Oxford University Press.
 - van der Hart, O., Nijenhuis, E. R. S., & Steele, K. (2006). *The Haunted Self: Structural Dissociation and the Treatment of Chronic Traumatization*. W. W. Norton.
 - White, M., & Epston, D. (1990). *Narrative Means to Therapeutic Ends*. W. W. Norton.
 - WHO (World Health Organization). (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. World Health Organization.

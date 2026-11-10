@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "tools"]
 
 [extra]
 related_terms = ["supervizni-ramce", "terapeuticke-pristupy", "vulnerabilni-populace", "semi-structured-interview-protokol"]
-parent = "kompendium-06-klinicke-aplikace"
 section_icon = "🏥"
 toc = false
 +++
@@ -29,7 +28,7 @@ Graf čte fáze přímo z následujícího číslovaného seznamu: tučný náze
 5. **Zotavení** – dlouhodobé upevnění samostatnosti, návrat do práce, učení a společenství a obnova odolnosti a smyslu: [rekonstrukce identity](@/kompendium/recovery-protocols/midterm-identity-reconstruction.md), [vokační integrace](@/kompendium/recovery-protocols/midterm-vocational-integration.md), [vzdělávací reintegrace](@/kompendium/recovery-protocols/midterm-educational-reintegration.md), [kultivace resilience](@/kompendium/recovery-protocols/longterm-resilience-cultivation.md), [rekonstrukce komunity](@/kompendium/recovery-protocols/longterm-community-rebuilding.md), [prohlubování smyslu](@/kompendium/recovery-protocols/longterm-meaning-deepening.md), [posttraumatický růst](@/kompendium/recovery-protocols/longterm-post-traumatic-growth.md) a [altruistické kanalizování](@/kompendium/recovery-protocols/longterm-altruistic-channeling.md).
 
 <canvas id="section-06-recovery-flow" width="800" height="500"></canvas>
-<div id="recovery-flow-detail" class="mt-4 p-4 bg-slate-800 rounded text-slate-200"></div>
+<div id="recovery-flow-detail" class="mt-4 p-4 rounded-lg border border-gray-200 bg-white text-gray-900 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></div>
 {{ <viz_script name="section-06-recovery-flow" /> }}
 
 ## Co graf zobrazuje
@@ -69,7 +68,7 @@ Edward Tufte požaduje, aby každý grafický prvek nesl informaci a nevyvoláva
 ## Literatura
 
 - Cairo, A. (2016). *The Truthful Art: Data, Charts, and Maps for Communication*. New Riders.
-- Courtois, C. A., & Ford, J. D. (Eds.) (2009). *Treating Complex Traumatic Stress Disorders: An [Evidence-Based](@/glossary/evidence-based.md) Guide*. Guilford Press.
+- Courtois, C. A., & Ford, J. D. (Eds.) (2009). *Treating Complex Traumatic Stress Disorders: An Evidence-Based Guide*. Guilford Press.
 - Hassan, S. (2015). *Combating Cult Mind Control* (rev. vyd.). Freedom of Mind Press.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hobfoll, S. E., Watson, P., Bell, C. C., et al. (2007). Five essential elements of immediate and mid-term mass trauma intervention: Empirical evidence. *Psychiatry*, 70(4).

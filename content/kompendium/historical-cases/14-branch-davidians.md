@@ -173,7 +173,7 @@ interpretací, kterou s různými akcenty sdílejí autoři sborníku kritickýc
 
 - Danforth, J. C. (2000). *Final Report to the Deputy Attorney General Concerning the 1993 Confrontation at the Mt. Carmel Complex, Waco, Texas*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Reavis, D. J. (1995). *The Ashes of Waco: An Investigation*. Simon & Schuster.
 - Tabor, J. D., & Gallagher, E. V. (1995). *Why Waco? Cults and the Battle for Religious Freedom in America*. University of California Press.
 - Wessinger, C. (2000). *How the Millennium Comes Violently: From Jonestown to Heaven's Gate*. Seven Bridges Press.

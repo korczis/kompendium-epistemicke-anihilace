@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["25-ea-compliance-nis2-integrity", "14-ea-dd-narrative-warfare", "9-ea-dd-investigation-bias", "26-ea-compliance-zkb-epistemic-integrity"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

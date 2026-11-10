@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["63-investor-cult", "64-ngo-cult", "66-academic-school-cult", "67-research-discipline-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -211,9 +210,9 @@ náročné, ale možné, pokud se nesouhlas chápe jako zdroj, nikoli hrozba.
 - Gabbard, G. O. (2000). Disguise or consent: Problems and recommendations concerning the publication and presentation of clinical material. *International Journal of Psychoanalysis*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
 - Hickman, C., Marks, E., Pihkala, P., Clayton, S., et al. (2021). Climate anxiety in children and young people and their beliefs about government responses to climate change: A global survey. *The Lancet Planetary Health*.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
 - Lalich, J., a Tobias, M. (2006). *Take Back Your Life: Recovering from Cults and Abusive Relationships*. Bay Tree Publishing.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Polletta, F. (2002). *Freedom Is an Endless Meeting: Democracy in American Social Movements*. University of Chicago Press.
 - World Health Organization. (2019). *International Classification of Diseases, 11th Revision (ICD-11)*. WHO.
 - World Medical Association. (1991). *Declaration of Malta on Hunger Strikers*. WMA.

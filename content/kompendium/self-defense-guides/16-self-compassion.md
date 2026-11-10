@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["14-grounding-techniques", "15-emotional-distancing", "17-anger-management", "18-shame-resilience"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -97,7 +96,7 @@ Sebesoucit není sebeshovívavost; někdy laskavost k sobě znamená udělat tě
 
 - Breines, J. G., & Chen, S. (2012). Self-compassion increases self-improvement motivation. *Personality and Social Psychology Bulletin*, 38(9), 1133–1143.
 - Gilbert, P. (2009). *The Compassionate Mind*. Constable.
-- Gilbert, P., McEwan, K., Matos, M., & Rivis, A. (2011). Fears of compassion: Development of three [self-report](@/glossary/self-report.md) measures. *Psychology and Psychotherapy: Theory, Research and Practice*, 84(3), 239–255.
+- Gilbert, P., McEwan, K., Matos, M., & Rivis, A. (2011). Fears of compassion: Development of three self-report measures. *Psychology and Psychotherapy: Theory, Research and Practice*, 84(3), 239–255.
 - MacBeth, A., & Gumley, A. (2012). Exploring compassion: A meta-analysis of the association between self-compassion and psychopathology. *Clinical Psychology Review*, 32(6), 545–552.
 - Neff, K. D. (2003). Self-compassion: An alternative conceptualization of a healthy attitude toward oneself. *Self and Identity*, 2(2), 85–101.
 - Neff, K. D., & Germer, C. K. (2013). A pilot study and randomized controlled trial of the mindful self-compassion program. *Journal of Clinical Psychology*, 69(1), 28–44.

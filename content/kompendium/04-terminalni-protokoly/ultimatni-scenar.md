@@ -10,7 +10,6 @@ categories = ["academic", "research"]
 
 [extra]
 related_terms = ["kontrolovana-rekonstituce", "pred-simulacni-screening", "visualizations", "konceptualni-dekonstrukce"]
-parent = "kompendium-04-terminalni-protokoly"
 section_icon = "⚠️"
 toc = true
 access_level = "L2"

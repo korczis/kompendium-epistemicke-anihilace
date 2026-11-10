@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["eticke-aspekty", "jak-pouzivat", "ucel-kompendia", "vztah-k-platforme"]
-parent = "kompendium-01-predmluva"
 section_icon = "👥"
 toc = true
 +++

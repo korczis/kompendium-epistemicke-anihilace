@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "security"]
 
 [extra]
 related_terms = ["5-linguistic-pronoun-inversion", "6-linguistic-narrative-fragmentation", "8-linguistic-semantic-erosion", "9-behavioral-disproportionate-confidence"]
-parent = "kompendium-detection-signatures"
 toc = true
 modality = "linguistic"
 +++

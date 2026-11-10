@@ -9,7 +9,6 @@ categories = ["academic", "clinical", "case-study"]
 
 [extra]
 related_terms = ["76-youtuber-cult", "77-twitch-streamer-cult", "79-discord-server-cult", "80-subreddit-cult"]
-parent = "kompendium-case-studies"
 anonymized = true
 toc = true
 +++
@@ -230,12 +229,12 @@ navrhují v takových případech symbolické formy nápravy a službu jiným; d
 - Cacioppo, J. T., a Patrick, W. (2008). *Loneliness: Human Nature and the Need for Social Connection*. W. W. Norton.
 - Ebaugh, H. R. F. (1988). *Becoming an Ex: The Process of Role Exit*. University of Chicago Press.
 - Festinger, L., Riecken, H. W., a Schachter, S. (1956). *When Prophecy Fails*. University of Minnesota Press.
-- Freyd, J. J. (1996). *[Betrayal Trauma](@/glossary/betrayal-trauma.md): The Logic of Forgetting Childhood Abuse*. Harvard University Press.
+- Freyd, J. J. (1996). *Betrayal Trauma: The Logic of Forgetting Childhood Abuse*. Harvard University Press.
 - Gabbard, G. O. (2000). Disguise or consent. *International Journal of Psychoanalysis*.
 - Herman, J. L. (1992). *Trauma and Recovery*. Basic Books.
-- Kraut, R. E., a Resnick, P. (2012). *Building Successful Online Communities: [Evidence-Based](@/glossary/evidence-based.md) Social Design*. MIT Press.
-- Lalich, J. (2004). *[Bounded Choice](@/glossary/bounded-choice.md): True Believers and Charismatic Cults*. University of California Press.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Kraut, R. E., a Resnick, P. (2012). *Building Successful Online Communities: Evidence-Based Social Design*. MIT Press.
+- Lalich, J. (2004). *Bounded Choice: True Believers and Charismatic Cults*. University of California Press.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Litz, B. T., et al. (2009). Moral injury and moral repair in war veterans. *Clinical Psychology Review*.
 - McAdams, D. P. (1993). *The Stories We Live By*. William Morrow.
 - Nasreddine, Z. S., et al. (2005). The Montreal Cognitive Assessment, MoCA. *Journal of the American Geriatrics Society*.

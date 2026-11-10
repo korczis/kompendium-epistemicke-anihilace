@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-3-7-identitni-rekonstituce", "ea-6-3-10-sense-of-coherence-restaurace", "ea-6-3-4-hermeneuticka-rekonstrukce", "ea-4-4-6-axiological-self-reset"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.3.9"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.3 Rekonstrukční protokoly"

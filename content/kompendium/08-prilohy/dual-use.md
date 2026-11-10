@@ -12,7 +12,6 @@ related_terms = ["dual-use-poznani", "eticky-kodex", "informed-consent", "irb-re
 author = "Tomas Korcak (korczis)"
 date_created = "2026-05-03"
 date_modified = "2026-11-10"
-quality_score = 80
 +++
 
 # Dual use – dvojí použitelnost poznání o manipulaci

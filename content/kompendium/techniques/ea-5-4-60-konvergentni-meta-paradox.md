@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-4-59-meta-paradox-aplikace", "ea-5-4-6-konvergentni-paradox", "ea-5-4-7-epimenidovska-implantace", "ea-5-4-8-quineho-paradox-vlnoviny"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.4.60"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.4 Paradoxální metaanihilační protokoly"

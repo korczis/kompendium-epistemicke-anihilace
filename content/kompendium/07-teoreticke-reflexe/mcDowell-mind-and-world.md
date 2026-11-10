@@ -1,6 +1,6 @@
 +++
 title = "7.24 McDowell: Mind and World a otevřenost vůči realitě"
-description = "John McDowell a teorie konceptuální receptivity, druhá příroda, otevřenost mysli vůči realitě — rámec pro pochopení EA jako narušení primární otevřenosti subjektu vůči empirickému světu."
+description = "John McDowell: mezi koherentismem a mýtem daného, pojmovost zkušenosti, otevřenost světu, druhá příroda a disjunktivismus; kritika a čtení v knize."
 weight = 24
 insert_anchor_links = "right"
 
@@ -10,107 +10,176 @@ categories = ["academic", "philosophy"]
 
 [extra]
 related_terms = ["levinas-jiny", "macintyre-after-virtue", "merleau-ponty-vtelena-percepce", "metzinger-ego-tunnel"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 toc = true
 +++
 
 # 7.24 McDowell: Mind and World a otevřenost vůči realitě
 
-John McDowell ve svém magisterském díle *Mind and World* (1994) řeší **základní napětí** moderní epistemologie: jak může mysl být **přiměřeně** ve styku s realitou? Mezi **Scyllou koherentismu** (mysl je uzavřená v síti přesvědčení bez kontaktu se světem) a **Charybdou daného** (smyslové vjemy jsou pre-konceptuální „data“, jež mysl má „interpretovat“) McDowell formuluje **konceptualistickou** pozici: konceptuální schopnosti jsou **přítomny** už v samotné receptivitě.
+John McDowell (nar. 1942), filozof jihoafrického původu, který po letech v Oxfordu působí na
+Univerzitě v Pittsburghu, vydal v roce 1994 knihu *Mind and World*, založenou na jeho
+Lockeových přednáškách v Oxfordu. Kniha klade otázku, jak může zkušenost racionálně omezovat
+myšlení, tedy jak může svět poskytovat důvody pro naše přesvědčení, a ne jen jejich příčiny
+(McDowell, 1994). Odpověď, že pojmové schopnosti jsou činné už ve smyslové vnímavosti, vyvolala
+jednu z nejživějších debat současné filozofie mysli.
 
-Pro [kompendium EA](@/glossary/kompendium-ea.md) poskytuje McDowellův rámec nástroj pro pochopení EA jako **narušení primární otevřenosti** subjektu vůči empirickému světu.
+Kapitola nejprve vykládá McDowellovu teorii podle primárních textů, potom shrnuje hlavní kritiky
+a teprve v oddílu výslovně označeném jako *interpretace knihy* ukazuje, proč ji
+[kompendium EA](@/glossary/kompendium-ea.md) považuje za užitečnou: popisuje, co znamená, že
+člověk může spoléhat na vlastní zkušenost, a tím i to, co je zasaženo, když je mu tato důvěra
+soustavně podkopávána (McDowell, 1994).
 
-## 1. *Myth of the Given* (Mýtus daného)
+## Oscilace mezi dvěma chybami
 
-McDowell přebírá od Sellarse kritiku **mýtu daného** — pozice, podle níž existují **pre-konceptuální** smyslové vjemy („daná“ data), jež mysl posléze **interpretuje** pomocí konceptů.
+McDowell popisuje filozofii jako kyvadlo, které se houpe mezi dvěma neuspokojivými polohami.
+První je „mýtus daného“ (*Myth of the Given*), jak jej pojmenoval Sellars: představa, že nám
+smysly dodávají čisté, předpojmové údaje, které teprve dodatečně zpracováváme pojmy, a že tyto
+údaje mohou přesvědčení ospravedlnit (Sellars, 1956). Podle Sellarse i McDowella je to omyl:
+ospravedlnění patří do „prostoru důvodů“, a co není pojmově strukturováno, nemůže být důvodem.
+Dané podle McDowella nabízí jen „omluvy tam, kde jsme chtěli ospravedlnění“ (McDowell, 1994).
 
-Sellarsův argument: **pre-konceptuální** entitu nelze vůbec **citovat** v ospravedlňování empirických tvrzení — neboť ospravedlňování operuje v prostoru důvodů, a prostor důvodů je strukturálně **konceptuální**.
+Druhou polohou je koherentismus, který McDowell spojuje s Davidsonem: nic nemůže být důvodem
+pro přesvědčení kromě jiného přesvědčení (Davidson, 1986). Koherentismus se vyhýbá mýtu daného,
+ale platí za to vysokou cenu: myšlení se v něm podle McDowella „točí bez tření v prázdnu“,
+protože svět na něj působí jen kauzálně, nikoli racionálně (McDowell, 1994). Viz také kapitolu
+[7.25 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md).
 
-Pro EA má kritika mýtu daného **trojí relevanci**:
+## Pojmovost zkušenosti a otevřenost světu
 
-1. **Naivní empirismus jako EA-zranitelná pozice**: subjekt věřící v „čistá data“ je strukturálně **manipulovatelný** — útočník může podsouvat **kontaminovaná data** jako „objektivní fakta“.
-2. **Algoritmické „data-driven“ rétoriky**: pojem „data driven decision making“ často skrývá **konceptuální** předpoklady ([viz 7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)).
-3. **Klinická aplikace**: pacient přemýšlející v termínech „objektivních faktů“ vs. „subjektivních pocitů“ je strukturálně **zranitelný** vůči gaslightingu.
+McDowellovo řešení navazuje na Kanta: myšlenky bez obsahu jsou prázdné, názory bez pojmů slepé.
+Ve zkušenosti podle McDowella nedostáváme předpojmová data, která bychom pak interpretovali;
+pojmové schopnosti jsou činné už v samotné vnímavosti, pasivně, bez rozhodnutí (McDowell, 1994).
+Když vidím, že venku prší, je obsah mé zkušenosti „že venku prší“, tedy něco, co může být
+důvodem pro úsudek.
 
-## 2. Konceptualismus a otevřenost
+Z toho plyne teze, kterou McDowell nazývá neomezeností pojmového (*unboundedness of the
+conceptual*). Mezi obsahem zkušenosti a světem není propast: když se nemýlím, je to, co vidím,
+že se věci mají, zároveň tím, jak se věci mají. Zkušenost je tak „otevřeností k uspořádání
+skutečnosti“ (McDowell, 1994). Nejde o idealismus, protože svět není tvořen myslí; jde o tvrzení,
+že svět není mimo dosah myšlení.
 
-McDowellovo pozitivní řešení: **konceptuální schopnosti** jsou **strukturálně přítomny** už v primární smyslové receptivitě. Když vnímám červenou věc, **nedostávám pre-konceptuální data**, jež bych poté interpretoval — **vnímám** věc **jako** červenou. Konceptuální struktura je **konstitutivní**, nikoli **dodatečná**.
+## Druhá příroda
 
-Tato pozice umožňuje McDowellovi formulovat klíčový pojem: **otevřenost mysli vůči realitě** (*openness to reality*). Mysl není **uzavřená** v síti přesvědčení — je **strukturálně otevřená** vůči světu skrze konceptuálně formovanou receptivitu.
+Námitka zní: jak mohou být pojmové schopnosti, patřící do normativního prostoru důvodů, činné
+v přírodním procesu vnímání, který spadá pod přírodní zákony? McDowell odmítá dvě krajní odpovědi.
+„Holý naturalismus“ převádí prostor důvodů na přírodní zákonitosti; „bující platonismus“ činí
+z rozumu něco nadpřirozeného. Třetí cestu nabízí Aristotelés: praktická moudrost je „druhou
+přirozeností“ (*second nature*), kterou člověk získává výchovou, tedy *Bildung* (McDowell, 1994).
 
-Pro EA z toho plyne:
+Člověk se nerodí v prostoru důvodů; je do něj uveden tím, že se naučí jazyk a s ním tradici
+důvodů, jak se k sobě vztahují. Druhá příroda je tedy skutečně přirozená, ale nikoli redukovatelná
+na biologii. Tím McDowell vysvětluje, proč zkušenost dospělého člověka může být pojmová, a zároveň
+otevírá spornou otázku, jak se liší zkušenost zvířat a malých dětí, kterou řeší v šesté přednášce
+(McDowell, 1994).
 
-- **EA jako narušení otevřenosti**: techniky, jež **uzavírají** subjekt do epistemické bubliny, strukturálně **anihilují** McDowellovskou otevřenost.
-- **Filter bubbles** strukturálně realizují tento útok — algoritmicky utvářená informační prostředí **omezují** kontakt se světem.
-- **Klinický korelát**: chronicky exposující subjekt často ztrácí kapacitu **bezprostřední** epistemické otevřenosti — vše je interpretováno skrze paranoidní raster.
+## Disjunktivismus
 
-## 3. Druhá příroda (*second nature*)
+S McDowellovým pojetím zkušenosti souvisí jeho starší teze o vnímání. Skeptik argumentuje, že
+skutečné vnímání a dokonalý klam jsou zevnitř nerozlišitelné, a proto musí mít společné jádro,
+„nejvyšší společný faktor“, který sám nezaručuje pravdu. McDowell tuto inferenci odmítá: zdání,
+že se věci mají tak a tak, je buď tím, že se nám skutečnost sama ukazuje, nebo pouhým zdáním;
+z toho, že tyto případy nedokážeme vždy rozlišit, neplyne, že mají stejnou epistemickou hodnotu
+(McDowell, 1982). Skutečné vnímání proto může poskytovat důvody, které klam neposkytuje,
+i když jsme omylní.
 
-McDowellův koncept (inspirovaný Aristotelem a Hegelem): lidské racionální schopnosti jsou strukturálně **druhou přirozeností** — nejsou ani **prvotně přirozené** (jako biologické instinkty), ani **mimo přirozenost** (jako transcendentální struktury), ale jsou **kultivované** v procesu vzdělávání (*Bildung*).
+## Hlavní kritiky
 
-Druhá příroda má **trojí dimenzi**:
+Nejrozsáhlejší debata se týká předpojmového obsahu. Evans (1982) argumentoval, že informační
+stavy vnímání mají obsah jemnější, než jaký zachycují naše pojmy; vidíme odstíny barev, pro něž
+nemáme jména. Peacocke (1992) a Heck (2000) rozvinuli teorie předpojmového obsahu a tvrdili, že
+lze vysvětlit, jak takový obsah může ospravedlňovat, aniž bychom upadli do mýtu daného.
+McDowell odpovídal, že demonstrativní pojmy typu „tento odstín“ jemnost zkušenosti zachytí
+(McDowell, 1994).
 
-- **Aristotelská**: ctnost jako kultivovaná dispozice
-- **Hegelovská**: duch (*Geist*) jako historický útvar
-- **Pedagogická**: vzdělávání jako uvádění do prostoru důvodů
+Druhou linii zahájil Dreyfus (2005), který ve své prezidentské přednášce Americké filozofické
+asociace namítl, že McDowell „přeintelektualizovává“ zkušenost: zběhlé jednání, například
+plynulá hra mistra šachu nebo pohyb v prostoru, probíhá bez pojmového zprostředkování a je
+s ním spíše v rozporu. McDowell (2007) odpověděl, že racionalita je v zběhlém jednání přítomna,
+i když se neprojevuje jako vědomé uvažování. Debata navazuje na Merleau-Pontyho; viz
+[7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md).
+Rorty (1998) z opačné strany namítl, že McDowell zbytečně trvá na pojmu „odpovědnosti vůči
+světu“, který podle něj nic nevysvětluje.
 
-Pro EA má druhá příroda **specifický význam**:
+McDowell sám své stanovisko později zpřesnil. V eseji o vyhýbání se mýtu daného opustil tezi,
+že zkušenost má propoziční obsah, a hovoří o obsahu „intuitivním“, který je pojmový v tom smyslu,
+že je přístupný rozumu, ale není ještě uspořádán do úsudků (McDowell, 2009). Tím vyšel kritikům
+částečně vstříc.
 
-- **Vzdělávání jako rezilience**: kvalitní *Bildung* je strukturálním zdrojem rezilience vůči EA.
-- **Útok na vzdělávací systémy** je **strategickým** útokem na druhou přírodu — anihilace kultivačních institucí (univerzit, knihoven, kvalitního žurnalismu) je strukturální technika EA.
-- **Antropotechniky** Sloterdijka ([viz 7.1 §3.3](@/kompendium/07-teoreticke-reflexe/filosoficky-ramec.md)) jsou strukturálně **kultivacemi** druhé přirozenosti.
+## Interpretace pro kompendium
 
-## 4. Empirická vázanost
+Následující oddíl je *interpretací knihy*, nikoli tvrzením McDowella. McDowellova kritika
+koherentismu dává knize pojmy pro popis uzavřeného systému přesvědčení, v němž jako důvod platí
+jen jiné přesvědčení systému a vlastní zkušenost člověka nemá žádnou váhu. Takový stav kniha
+popisuje u [epistemické bubliny](@/glossary/epistemic-bubble.md) a u skupin s vysokou mírou
+kontroly, v nichž je odchylka vnímání vykládána jako chyba vnímajícího, ne jako informace
+o světě (Lifton, 1961). Myšlení se v nich v McDowellově obraze „točí bez tření“.
 
-McDowellova teze: empirická tvrzení jsou **vázána** světem — nikoli ve smyslu **kauzálním** (svět **způsobuje** přesvědčení), ale ve smyslu **racionálním** (svět **ospravedlňuje** přesvědčení).
+Disjunktivismus kniha čte jako filozofický protipól [gaslightingu](@/glossary/gaslighting.md).
+Vzorec, v němž je člověku opakovaně sdělováno, že jeho vnímání a paměť nejsou spolehlivé, protože
+„by to klidně mohl jen vidět jinak“, pracuje s toutéž inferencí, kterou McDowell odmítá: z možnosti
+omylu vyvozuje, že vlastní zkušenost nedává žádné důvody (McDowell, 1982). Filozofie tu
+nenahrazuje klinickou práci, ale pojmenovává, co je v sázce: oprávnění brát vlastní zkušenost
+jako otevřenost světu, které nevylučuje omyl, ale nepřipouští, aby se z omylnosti stala
+bezbrannost. Pojem druhé přírody pak kniha chápe jako upozornění, že toto oprávnění se učí
+a lze jej i znovu naučit (McDowell, 1994).
 
-Tato pozice umožňuje **realismus bez naivity**:
+## Odlišení, obrana a zotavení
 
-- Mysl je **strukturálně otevřená** vůči světu
-- A přece je tato otevřenost **konceptuálně formována**
-- Realita **disciplinuje** myšlení skrze racionální vázanost
+Lidské vnímání a paměť se skutečně mýlí, a zdravá [epistemická pokora](@/glossary/epistemicka-pokora.md) omylnost uznává. Odlišit
+pokoru od podkopané důvěry pomáhá otázka, *zda je omylnost uplatňována symetricky*: zda platí
+i pro toho, kdo ji druhému připomíná, a zda existují nezávislé způsoby ověření, nebo jen autorita
+jednoho hlasu (McDowell, 1982). Klinické pojetí [testování reality](@/glossary/reality-testing.md)
+zde pomáhá odlišit podkopanou důvěru od stavů, v nichž je vnímání skutečně narušeno.
 
-Pro EA z toho plyne:
+Obrana spočívá v obnově „tření“ se světem: v záznamech pořízených v čase, v nezávislých svědcích
+a ve srovnání více zdrojů; postupy rozvádějí příručky [Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md),
+[Časově odložené hodnocení](@/kompendium/self-defense-guides/37-time-locked-evaluation.md)
+a [Revize přesvědčení](@/kompendium/self-defense-guides/7-belief-revision.md). Zotavení lze
+popsat jako znovuuvedení do prostoru důvodů, v němž člověk zjišťuje, kdy jeho zkušenost obstojí
+a kdy ne, a buduje kalibrovanou důvěru; navazuje na něj protokol
+[Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md)
+a esej [Epistemická integrita](@/philosophy/epistemic-integrity.md) (McDowell, 1994).
 
-- **Epistemická integrita** ([viz Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)) je strukturálně **vázáním na svět** — ochota **revidovat** přesvědčení pod tlakem empirické evidence.
-- **EA techniky** strukturálně **uvolňují** racionální vázanost — fabrikují alternativní reality, jež nejsou empiricky disciplinované.
-- **Klinický korelát**: subjekti chronicky exposující EA často ztrácí kapacitu **empirické revize** — drží se hypotéz **proti** evidenci.
+## Meze a otevřené otázky
 
-## 5. Mapping na EA techniky
+*Mind and World* je dílem transcendentální filozofie, které se ptá po podmínkách možnosti
+empirického obsahu; neříká nic o tom, jak konkrétní lidé vnímají a jak se mýlí (McDowell, 1994).
+Přenos jeho pojmů do klinické a sociální oblasti je proto analogií. Otevřená zůstává otázka,
+kterou klade Dreyfus (2005): pokud je velká část našeho kontaktu se světem předpojmová dovednost,
+pak se podkopání důvěry může týkat i tělesné orientace, nejen úsudku, a kniha musí počítat
+s oběma rovinami.
 
-| McDowell | EA technika | Mechanismus |
-|----------|-------------|-------------|
-| Mýtus daného | "Objective data" rétorika | Strukturální |
-| Útok na otevřenost | Filter bubbles | Strukturální |
-| Útok na druhou přírodu | Anihilace vzdělávání | Strukturální |
-| Uvolnění empirické vázanosti | Post-truth disinformace | EA-1.x |
-| Falsifikace receptivity | Multimédiální manipulace | Strukturální |
+## Literatura
 
-## 6. Klinický význam
-
-Pro klinickou aplikaci ([viz sekce 06](@/kompendium/06-klinicke-aplikace/_index.md)):
-
-- **Obnovení otevřenosti** jako klinický cíl — nikoli pouze „stabilizace symptomů“.
-- **Pedagogická dimenze terapie**: terapeut jako **kultivátor** druhé přirozenosti pacienta.
-- **Empirická revize** jako klinická schopnost — pacient se učí **revidovat** přesvědčení pod tlakem evidence.
-
-## 7. Primární literatura
-
-- McDowell, J. (1994/1996). *Mind and World*. Harvard UP.
-- McDowell, J. (1998). *Mind, Value, and Reality*. Harvard UP.
-- McDowell, J. (1998). *Meaning, Knowledge, and Reality*. Harvard UP.
-- Sellars, W. (1956/1997). *Empiricism and the Philosophy of Mind*. Harvard UP.
-- Smith, N. (ed.) (2002). *Reading McDowell: On Mind and World*. Routledge.
+- Davidson, D. (1986). A coherence theory of truth and knowledge. In E. LePore (Ed.), *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*. Blackwell.
+- Dreyfus, H. L. (2005). Overcoming the myth of the mental: How philosophers can profit from the phenomenology of everyday expertise. *Proceedings and Addresses of the American Philosophical Association*, 79(2), 47–65.
+- Evans, G. (1982). *The Varieties of Reference* (J. McDowell, Ed.). Clarendon Press.
+- Heck, R. G. (2000). Nonconceptual content and the „space of reasons“. *The Philosophical Review*, 109(4), 483–523.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
+- McDowell, J. (1982). Criteria, defeasibility, and knowledge. *Proceedings of the British Academy*, 68, 455–479.
+- McDowell, J. (1994). *Mind and World*. Harvard University Press.
+- McDowell, J. (2007). What myth? *Inquiry*, 50(4), 338–351.
+- McDowell, J. (2009). *Having the World in View: Essays on Kant, Hegel, and Sellars*. Harvard University Press.
+- Peacocke, C. (1992). *A Study of Concepts*. MIT Press.
+- Rorty, R. (1998). *Truth and Progress: Philosophical Papers, Volume 3*. Cambridge University Press.
+- Sellars, W. (1956). Empiricism and the philosophy of mind. In H. Feigl & M. Scriven (Eds.), *Minnesota Studies in the Philosophy of Science*, Vol. 1. University of Minnesota Press.
 
 ## Související
 
-- [7. Teoretické reflexe (index)](@/kompendium/07-teoreticke-reflexe/_index.md)
-- [7.13 Polanyi: Tichá znalost](@/kompendium/07-teoreticke-reflexe/polanyi-ticha-znalost.md)
-- [7.23 Brandom: Inferenciální sémantika](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md)
-- [7.16 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md)
-- [7.5 Computational Epistemology](@/kompendium/07-teoreticke-reflexe/computational-epistemology.md)
-- [Sekce 06 — Klinické aplikace](@/kompendium/06-klinicke-aplikace/_index.md)
-- [Glosář: Falsifikace](@/glossary/falsifikace.md)
-- [Glosář: Metakognice](@/glossary/metakognice.md)
-- [Filozofie: Epistemic Integrity](@/philosophy/epistemic-integrity.md)
+**Teoretické reflexe**
+
+- [7.23 Brandom: Inferenciální sémantika](@/kompendium/07-teoreticke-reflexe/brandom-inferential-semantics.md) – pittsburghský kolega a prostor důvodů.
+- [7.25 Davidson: Radikální interpretace](@/kompendium/07-teoreticke-reflexe/davidson-radical-interpretation.md) – koherentismus, s nímž McDowell polemizuje.
+- [7.16 Merleau-Ponty: Vtělená percepce](@/kompendium/07-teoreticke-reflexe/merleau-ponty-vtelena-percepce.md) – pozadí debaty s Dreyfusem.
+
+**Glosář**
+
+- [Gaslighting](@/glossary/gaslighting.md) – podkopání důvěry ve vlastní vnímání.
+- [Epistemic bubble (epistemická bublina)](@/glossary/epistemic-bubble.md) – systém bez tření se světem.
+- [Testování reality](@/glossary/reality-testing.md) – klinický protějšek otázky po spolehlivosti zkušenosti.
+
+**Obrana a zotavení**
+
+- [Sebe-obrana: Hodnocení důkazů](@/kompendium/self-defense-guides/2-evidence-evaluation.md) – obnova racionálních důvodů.
+- [Akutní kognitivní ukotvení](@/kompendium/recovery-protocols/acute-cognitive-anchoring.md) – první kroky obnovy důvěry ve zkušenost.
+- [Epistemická integrita](@/philosophy/epistemic-integrity.md) – esej o uchování významu.

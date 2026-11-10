@@ -10,7 +10,6 @@ tags = ["kompendium", "case-studies", "klinicke", "anonymizovane"]
 categories = ["academic", "clinical"]
 section_icon = "📋"
 toc = true
-parent = "kompendium"
 +++
 
 # Případové studie – anonymizované kompozity

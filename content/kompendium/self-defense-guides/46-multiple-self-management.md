@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["44-axiology-clarification", "45-life-story-integration", "47-identity-resilience-training", "34-attention-budget"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 
@@ -99,7 +98,7 @@ Představa mnoha já může vést k iluzi, že neexistuje žádné „pravé já
 
 - Hermans, H. J. M., & Kempen, H. J. G. (1993). *The Dialogical Self: Meaning as Movement*. Academic Press.
 - James, W. (1890). *The Principles of Psychology*. Henry Holt.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. W. W. Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. W. W. Norton.
 - Linville, P. W. (1987). Self-complexity as a cognitive buffer against stress-related illness and depression. *Journal of Personality and Social Psychology*, 52(4), 663–676.
 - Markus, H., & Nurius, P. (1986). Possible selves. *American Psychologist*, 41(9), 954–969.
 - Putnam, F. W. (1989). *Diagnosis and Treatment of Multiple Personality Disorder*. Guilford Press.

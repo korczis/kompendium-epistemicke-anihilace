@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-3-8-trauma-recovery-literature", "ea-8-2-10-herman-recovery-stages", "ea-8-2-6-icd-11-complex-trauma", "ea-8-3-1-foundational-readings", "ea-8-3-9-cult-studies-literature", "ea-8-2-8-aprw-attachment-trauma"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.3.2"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.3 Bibliografie"

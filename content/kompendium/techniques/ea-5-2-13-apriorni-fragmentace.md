@@ -10,7 +10,6 @@ categories = ["academic", "ultramari"]
 
 [extra]
 related_terms = ["ea-5-2-11-kategorialni-anihilace", "ea-5-2-12-noumenalni-paralyza", "ea-5-2-14-konstitutivni-zhrouceni", "ea-5-2-15-transcendentalni-implosion"]
-parent = "kompendium-techniques"
 ea_code = "EA-5.2.13"
 ea_category = "5. Ultramární techniky"
 ea_subcategory = "5.2 Metatranscendentální anihilace"

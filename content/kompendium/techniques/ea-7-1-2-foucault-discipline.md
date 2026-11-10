@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-1-foucault-power-knowledge", "ea-2-5-7-self-cancelation", "ea-5-3-42-self-objektifikace-totalni", "panopticism", "high-control-group", "milieu-control"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.2"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

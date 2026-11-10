@@ -10,7 +10,6 @@ insert_anchor_links = "right"
 [extra]
 tags = ["kompendium", "teorie", "filosofie", "socialni-epistemologie", "postmodernismus", "epistemicke-trauma", "metakoncept"]
 categories = ["academic", "theory"]
-parent = "kompendium-07-teoreticke-reflexe"
 section_icon = "🪐"
 section_type = "academic"
 landing_page = true

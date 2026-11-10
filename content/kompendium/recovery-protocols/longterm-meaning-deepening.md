@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["subacute-meaning-reconstruction", "longterm-post-traumatic-growth", "longterm-altruistic-channeling", "metanarrative-collapse", "hodnotova-destrukce"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "longterm"
 +++

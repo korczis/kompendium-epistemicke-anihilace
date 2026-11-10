@@ -10,7 +10,6 @@ categories = ["academic", "theory"]
 
 [extra]
 related_terms = ["ea-7-1-9-heidegger-dasein", "ea-2-2-2-mentee-isolation", "ea-2-3-6-platform-coordinated-attack", "epistemic-bubble", "cynicky-rozum", "socialni-izolace"]
-parent = "kompendium-techniques"
 ea_code = "EA-7.1.6"
 ea_category = "7. Teoretické reflexe"
 ea_subcategory = "7.1 Kontinentální filozofie"

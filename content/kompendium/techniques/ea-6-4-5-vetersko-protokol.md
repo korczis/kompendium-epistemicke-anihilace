@@ -10,7 +10,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["ea-6-4-7-policejni-trauma-protokol", "ea-6-4-2-post-cult-protokol", "ea-6-2-10-pharmacotherapy-adjuvant", "ea-8-2-9-van-der-kolk-trauma"]
-parent = "kompendium-techniques"
 ea_code = "EA-6.4.5"
 ea_category = "6. Klinické aplikace"
 ea_subcategory = "6.4 Vulnerabilní populace"

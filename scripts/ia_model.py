@@ -67,6 +67,25 @@ def url_of(rel: pathlib.PurePosixPath) -> str:
     return "/" + "/".join(parts) + ("/" if parts else "")
 
 
+# Page classes, inferred from the path only (first match wins). The front-matter schema of
+# scripts/normalize-front-matter.py says which keys each class carries.
+PAGE_CLASSES = [
+    ("nlp-index", re.compile(r"^kompendium/nlp-vzorce/(?:.+/)?_index\.md$")),
+    ("nlp-trainer", re.compile(r"^kompendium/nlp-vzorce/trener\.md$")),
+    ("nlp", re.compile(r"^kompendium/nlp-vzorce/.+\.md$")),
+    ("section", re.compile(r"(?:^|/)_index\.md$")),
+    ("glossary", re.compile(r"^glossary/")),
+    ("technique", re.compile(r"^kompendium/techniques/")),
+    ("quick-reference", re.compile(r"^kompendium/quick-reference/")),
+    ("page", re.compile(r"")),
+]
+
+
+def page_class(rel: str) -> str:
+    """The class of a page by its path under content/ (see PAGE_CLASSES)."""
+    return next(name for name, pattern in PAGE_CLASSES if pattern.search(rel))
+
+
 def section_of(rel: pathlib.PurePosixPath) -> str:
     parts = rel.parts
     if parts[0] == "kompendium" and len(parts) > 2:

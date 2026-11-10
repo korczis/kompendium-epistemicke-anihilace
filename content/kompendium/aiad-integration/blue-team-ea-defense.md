@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["red-team-ea-detection", "purple-team-ea-synthesis", "white-team-ea-verification", "autoheal-ea-regression-repair", "nabla-infinity-ea-pipeline"]
-parent = "kompendium-aiad-integration"
 toc = true
 +++
 

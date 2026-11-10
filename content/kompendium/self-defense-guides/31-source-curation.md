@@ -9,7 +9,6 @@ categories = ["academic", "practical"]
 
 [extra]
 related_terms = ["3-source-triangulation", "32-feed-detoxification", "33-information-diet", "36-cross-source-routine"]
-parent = "kompendium-self-defense-guides"
 toc = true
 +++
 

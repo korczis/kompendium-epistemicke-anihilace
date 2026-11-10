@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 [extra]
 category = "kompendium-bridge"
 related_terms = ["nabla-infinity", "nabla-axioms", "signal-plurality", "epistemic-pipeline", "epistemicka-pokora", "falsifikace"]
-parent = "kompendium-glossary-bridges"
 glossary_target = "nabla-infinity"
 toc = false
 +++

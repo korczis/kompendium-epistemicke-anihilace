@@ -27,7 +27,6 @@ prismatic_module = "PrismaticResolution"
 false_positive_impact = "Incorrectly merged entities"
 false_negative_impact = "Missed entity connections"
 author = "Tomas Korcak (korczis)"
-quality_score = 80
 date_modified = "2026-11-10"
 +++
 

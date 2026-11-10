@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["29-ea-compliance-kyc-narrative-validation", "13-ea-dd-beneficial-ownership-disinformation", "4-ea-osint-sanctions-list-bias", "11-ea-dd-decision-engine-calibration"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

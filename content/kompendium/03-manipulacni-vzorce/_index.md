@@ -13,7 +13,6 @@ tags = ["kompendium", "manipulacni-vzorce", "vzorce", "taxonomie", "coercive-con
 categories = ["academic"]
 section_icon = "🔁"
 toc = true
-parent = "kompendium"
 access_level = "L1"
 status = "publikovano"
 +++

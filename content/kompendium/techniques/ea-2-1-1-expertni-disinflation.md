@@ -10,7 +10,6 @@ categories = ["academic"]
 
 [extra]
 related_terms = ["ea-1-6-falesny-paradigmaticky-narok", "ea-1-7-iluzorni-komplexita", "ea-2-1-10-credentials-rekonfigurace", "ea-2-1-2-pseudo-peer-mob"]
-parent = "kompendium-techniques"
 ea_code = "EA-2.1.1"
 ea_category = "2. Scénáře delegitimizace"
 ea_subcategory = "2.1 Expertní diskvalifikace"

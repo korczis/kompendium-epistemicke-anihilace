@@ -9,7 +9,6 @@ categories = ["academic", "platform-integration"]
 
 [extra]
 related_terms = ["1-ea-osint-source-credibility", "8-ea-osint-cross-source-triangulation", "11-ea-dd-decision-engine-calibration", "15-ea-dd-evidence-quality-assessment"]
-parent = "kompendium-cross-domain"
 toc = true
 +++
 

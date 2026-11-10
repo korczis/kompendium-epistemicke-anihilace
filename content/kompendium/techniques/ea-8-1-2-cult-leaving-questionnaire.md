@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-1-bite-model-detail", "ea-8-1-7-disociativni-experiences-scale", "ea-8-1-8-traumatic-stress-screen", "ea-8-2-10-herman-recovery-stages", "ea-8-3-9-cult-studies-literature", "ea-8-2-1-bite-framework"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.2"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"

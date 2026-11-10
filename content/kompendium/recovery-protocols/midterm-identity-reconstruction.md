@@ -9,7 +9,6 @@ categories = ["academic", "clinical"]
 
 [extra]
 related_terms = ["midterm-hermeneutic-reset", "midterm-metacognitive-rehab", "subacute-narrative-externalization", "identity-destruction", "narativni-identita", "ipseita"]
-parent = "kompendium-recovery-protocols"
 toc = true
 phase = "midterm"
 +++
@@ -128,7 +127,7 @@ a kolektivistické) vyžadují, aby protokol nevnucoval jeden model identity.
   (1996). Self-concept clarity: Measurement, personality correlates, and cultural boundaries.
   *Journal of Personality and Social Psychology*, 70(1).
 - Erikson, E. H. (1968). *Identity: Youth and Crisis*. New York: W. W. Norton.
-- Lifton, R. J. (1961). *[Thought Reform](@/glossary/thought-reform.md) and the Psychology of Totalism*. New York: Norton.
+- Lifton, R. J. (1961). *Thought Reform and the Psychology of Totalism*. New York: Norton.
 - Markus, H., & Nurius, P. (1986). Possible selves. *American Psychologist*, 41(9).
 - McAdams, D. P. (2001). The psychology of life stories. *Review of General Psychology*, 5(2).
 

@@ -10,7 +10,6 @@ tags = ["kompendium", "quick-reference", "navigace", "karty"]
 categories = ["academic", "reference"]
 section_icon = "🗂️"
 toc = true
-parent = "kompendium"
 +++
 
 # Rychlé referenční karty

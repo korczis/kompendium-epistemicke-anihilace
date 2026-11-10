@@ -10,7 +10,6 @@ categories = ["academic", "reference"]
 
 [extra]
 related_terms = ["ea-8-1-6-betrayal-trauma-inventory", "ea-8-2-8-aprw-attachment-trauma", "ea-7-2-2-goldman-veritism", "ea-7-2-1-fricker-epistemic-injustice", "ea-1-6-1-vzorec-guru-a-adept", "ea-8-1-9-metakognitivni-questionnaire"]
-parent = "kompendium-techniques"
 ea_code = "EA-8.1.5"
 ea_category = "8. Přílohy"
 ea_subcategory = "8.1 Diagnostické nástroje"
